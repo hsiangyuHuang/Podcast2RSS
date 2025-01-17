@@ -1,0 +1,42 @@
+name: Podcast2RSS
+description: 一个将小宇宙播客转换为RSS的工具，集成通义听悟实现音频转文字功能。
+
+guidelines:
+  - 使用中文回答问题
+  - 自上而下思考问题，采用第一性原理
+  - 处理问题时，先思考问题的根源是什么？这个问题应该在哪个层面解决？而不是直接开始改代码。
+  - 在分析和修改代码时，需要考虑整个项目的结构和其他模块的影响
+  - 确保完整阅读相关文件后再做决策
+
+project_structure: |
+  Podcast2RSS/
+  ├── src/                          # 源代码目录
+  │   ├── core/                     # 核心功能模块
+  │   │   ├── __init__.py
+  │   │   ├── podcast.py           # 播客数据获取模块
+  │   │   ├── podcast_transcription.py    # 音频转写处理模块
+  │   │   ├── tongyi_client.py    # 通义API服务接口
+  │   │   ├── rss.py               # RSS生成模块
+  │   │   └── storage.py           # 数据存储管理
+  │   ├── config/                   # 模块配置目录
+  │   ├── utils/                    # 工具函数目录
+  │   ├── scripts/                  # 脚本工具目录
+  │   └── main.py                   # 主程序入口
+  │
+  ├── data/                         # 数据存储目录
+  │   ├── podcasts/                 # 播客元数据
+  │   ├── episodes/                 # 单集信息
+  │   ├── transcripts/              # 转写内容
+  │   └── rss/                      # 生成的RSS文件
+  │
+  ├── config/                       # 全局配置目录
+  │   └── settings.yaml            # 全局配置文件
+  │
+  ├── tests/                        # 测试用例目录
+  ├── logs/                         # 日志文件目录
+  ├── static/                       # 静态资源目录
+  │
+  ├── requirements.txt              # 项目依赖
+  ├── README.md                     # 项目说明文档
+  └── .env                          # 环境变量配置
+

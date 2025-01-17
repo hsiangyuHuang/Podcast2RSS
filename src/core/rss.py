@@ -442,5 +442,5 @@ if __name__ == "__main__":
     # 处理播客并生成RSS
     processor.process_single(
         podcast_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/63b7dd49289d2739647d9587.json",
-        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/feed.xml"
+        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/63b7dd49289d2739647d9587_1.xml"
     )

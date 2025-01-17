@@ -189,13 +189,14 @@ def load_episodes(pid):
         pid: 播客ID
         
     Returns:
-        dict: 剧集数据，如果文件不存在返回空字典
+        list: 剧集数据，如果文件不存在返回空列表
     """
     filepath = EPISODES_DIR / f"{pid}.json"
     if filepath.exists():
         with open(filepath, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return {}  # 返回空字典，与save_episodes保持一致
+            episodes = json.load(f)
+            return list(episodes.values())  # 返回列表
+    return []  # 返回空列表，与save_episodes保持一致
 
 
 def update_podcast(pid):

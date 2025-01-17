@@ -125,15 +125,15 @@ class RSSProcessor:
         try:
             result = []
             
-            # 1. 标题部分
+            # 1. 标题部分不展示
             title = transcript_data.get('title', '')
             result.append(f'<h1>{escape(title)}</h1>')
             
             # 2. 摘要部分
             if transcript_data.get('summary'):
                 result.append('<h1>节目摘要</h1>')
-                result.append(f'<div class="summary">{escape(transcript_data["summary"])}</div>')
-
+                result.append(f'<div class="summary">{escape(transcript_data["summary"])}</div><br>')
+            
             # 3. 章节部分
             chapters = transcript_data.get('lab_info', {}).get('chapters', [])
             if chapters:
@@ -142,8 +142,8 @@ class RSSProcessor:
                 for chapter in chapters:
                     result.append(
                         f'<div class="chapter-item">\n'
-                        f'<span class="time">[{chapter.get("time", "")}] </span>\n'
-                        f'<span class="chapter-title">{escape(chapter.get("title", ""))}</span>\n'
+                        f'<span class="time"><strong>[{chapter.get("time", "")}]</strong> </span>\n'
+                        f'<span class="chapter-title"><strong>{escape(chapter.get("title", ""))}</strong></span>\n'
                         f'<div class="chapter-summary">{escape(chapter.get("summary", ""))}</div>\n'
                         f'</div>'
                     )
@@ -169,8 +169,8 @@ class RSSProcessor:
                 
                 result.append(
                     f'<p class="transcript-line">\n'
-                    f'<span class="time">[{time}] </span>\n'
-                    f'<span class="speaker">{speaker}: </span>\n'
+                    f'<span class="time"><strong>[{time}]</strong> </span>\n'
+                    f'<span class="speaker"><strong>{speaker}: </strong></span>\n'
                     f'{escape(text)}\n'
                     f'</p>'
                 )
@@ -283,7 +283,14 @@ class RSSProcessor:
                 episodes_data = json.load(f)
             if not episodes_data:
                 raise ValueError(f"播客文件 {podcast_file} 为空")
-            pid = next(iter(episodes_data.values())).get('pid')
+                
+            # 从第一个剧集中获取pid
+            if not isinstance(episodes_data, list):
+                raise ValueError(f"播客文件 {podcast_file} 格式错误，应该是列表")
+            
+            pid = episodes_data[0].get('pid')
+            if not pid:
+                raise ValueError(f"播客文件 {podcast_file} 中的剧集缺少pid字段")
             
             # 2. 从subscribe_podcasts.json获取播客信息
             subscribe_file = Path(self.rss_materials_dir).parent / "podcasts" / "subscribe_podcasts.json"
@@ -378,8 +385,9 @@ class RSSProcessor:
             
             # 2. 按照episodes的顺序处理每个剧集
             transcript_data_list = []
-            for eid, episode in episodes_data.items():
+            for episode in episodes_data:
                 try:
+                    eid = episode['eid']
                     # 读取转写文件
                     transcript_data = self._read_transcript(eid)
                     if not transcript_data:
@@ -442,5 +450,5 @@ if __name__ == "__main__":
     # 处理播客并生成RSS
     processor.process_single(
         podcast_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/63b7dd49289d2739647d9587.json",
-        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/63b7dd49289d2739647d9587_1.xml"
+        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/63b7dd49289d2739647d9587_2.xml"
     )

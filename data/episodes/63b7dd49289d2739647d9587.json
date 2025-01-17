@@ -1,21 +1,5 @@
-{
-  "642c2e9ea79cc814709f6f2a": {
-    "eid": "642c2e9ea79cc814709f6f2a",
-    "pid": "63b7dd49289d2739647d9587",
-    "title": "#4 如何用好ChatGPT并拥抱AGI时代？让我们从prompt谈起——对话FlowGPT创始人J",
-    "description": "红杉资本的创始人唐·瓦伦丁（Don Valentine）曾说：会提问比知道答案更重要。在对话式 AI 时代，会提问就是会设计和编写 prompt 。\nChatGPT 的横空出世，让人们见识到对话式 AI 的强大；而 GPT-4 的发布，更是让我们看到 AGI（通用人工智能）的曙光。「人工智能教父」Geoffrey Hinton 也在近期 CBS NEWS 的采访中表示：人工智能正处于一个「关键时刻」，AGI的出现比我们想象的更加迫近。\n当人工智能范式的转变真的到来，21世纪的一项重要技能就很可能是「如何有效地与机器对话协作」，或者说——如何更好地进行「prompt」。OpenAI 创始人 Sam Oltman 也在今年2月21号发了一条 Twitter 并表示：「为聊天机器人写一个非常棒的提示（prompt）是一项拥有极高杠杆的技能，这也是使用自然语言编程的早期示例」。在海外，Prompt Engineer 已经成为了一份高薪职业，年薪超过百万人民币。\n本期播客是上期内容的延续，我们将继续围绕 ChatGPT 话题展开。不同的是，我们这期会聚焦一些，围绕 prompt（提示词）话题深入地聊聊如何使用 ChatGPT 及 AGI 时代的工具，或者说如何在接下来的时代与 AI 更好地交流协作？我们本期也非常有幸邀请到 FlowGPT 的创始人和 CEO —— Jay 党嘉成（ 没错，Jay 与主播重名了，为更好区分我们接下来会在 Show notes 和公众号文章里统一叫他 J ），请他和我们一起聊聊 prompt 相关话题。\n【主播】\nJay，《出海相对论》主理人，独立播客制作人。消费互联网创业&投行背景，长期关注消费、科技等领域的创新创业机会。\n佳芮，句子互动创始人，微软人工智能最具价值专家（AI MVP）。「福布斯」30 Under 30、36kr S级创业者。Y Combinator 校友，全球最大的对话式交互 RPA SDK 开源框架 Wechaty 联合作者。著有《Chatbot 从 0 到 1：对话式交互设计实践指南》。\n【嘉宾】\nJ 党嘉成， FlowGPT 创始人&CEO，加州大学伯克利分校计算机专业，现辍学创业。\n曾在美国湾区多家初创公司担任机器学习工程师及数据科学家，2017年开始研究 AIGC ，高中时曾与斯坦福博士导师共同进行 AI 产业化科研。曾从零到一打造基于AI的青光眼早期检测软件(98%准确率)及硬件(降本100倍)，获国际 ISEF 大赛第三。大一时从零到一打造 AI B2B SaaS 产品 markit.ai ，负责AI算法研 发(比竞争者快～10倍)、产品规划和项目管理(12人)，上线1个月即获得上市公司客户。\nFlowGPT 是目前全球最大的基于 ChatGPT 的 prompt 社区之一。上线一周在 Product Hunt 上排名第三，上线两周 DAU 破万，并被 ChatGPT 官方账号评为「Top10 最有趣的 AI 应用」之一，目前月活已过20万。\n【你将听到】\n01:48 嘉宾自我介绍与 FlowGPT 简介\n02:15 为什么叫 FlowGPT ？其中的「Flow」代表了什么？\n06:10 选择从 prompt 切入进行创业的原因和思考逻辑\n08:41 FlowGPT 的主流人群画像，以及使用最多的 prompt 场景\n09:30 一些比较有趣的具体的 prompt 案例\n12:58 如何才能编写和设计一个好的 prompt ？\n15:38 一个花了600小时写出来的 prompt 是什么样的？\n17:54 ChatGPT 及 AGI 工具对教育的影响\n20:14 作为资深玩家聊聊 prompt 高阶\n28:02 怎么看「五年后我们可能不再需要 prompt engineering」？\n33:15 怎么看 Foundation Model、fine-tune 和 prompt ？\n37:18 在 AGI 的大航海时代，什么是创业团队成功的关键优势？\n41:08 在 ChatGPT 和 AGI 方向上，国内和海外分别有怎样的创业机会？\n50:37 怎么看「千人联名叫停比 GPT-4 更强大的 AI 系统训练」事件？\n55:08 为什么说「当 AI 无限放大我们的创造力，限制我们的，只剩下想象力」？\n【相关链接】\n开头提到的一篇关于 prompt 的论文：arxiv.org\n花600小时写出来的 prompt 框架文档——Prompt Framework ALEL：docs.google.com\n全球第一个 Prompt Hackathon——FlowGPT Hackathon: flowgpt.com\n【关于出海相对论】\n《出海相对论》是由Jay和佳芮共同出品的全新对话类出海中文播客。我们长期关注出海，关注全球市场的变化与机遇。期待你在我们与嘉宾的对话中，遇见有趣的商业故事，收获独到的出海见识。\n如果你对出海和全球化感兴趣，欢迎你在苹果Podcast、Spotify、小宇宙、喜马拉雅、QQ音乐等平台订阅收听我们的节目，也推荐你在其他泛用型播客客户端订阅收听。\n微信搜索「出海相对论」，关注我们的公众号，会有每期播客的文字版放送，偶尔也会有我们和一些朋友关于出海的个人思考和经验，当然你也可以直接后台私信联系我们。\n出海就听，出海相对论。May you see the sea.",
-    "shownotes": "<p>红杉资本的创始人唐·瓦伦丁（Don Valentine）曾说：<strong>会提问比知道答案更重要。在对话式 AI 时代，会提问就是会设计和编写 prompt 。</strong></p>\n<p>ChatGPT 的横空出世，让人们见识到对话式 AI 的强大；而 GPT-4 的发布，更是让我们看到 AGI（通用人工智能）的曙光。「人工智能教父」Geoffrey Hinton 也在近期 CBS NEWS 的采访中表示：<strong>人工智能正处于一个「关键时刻」，AGI的出现比我们想象的更加迫近。</strong></p>\n<p>当人工智能范式的转变真的到来，21世纪的一项重要技能就很可能是<strong>「如何有效地与机器对话协作」</strong>，或者说——<strong>如何更好地进行「prompt」。</strong>OpenAI 创始人 Sam Oltman 也在今年2月21号发了一条 <a href=\"https://twitter.com/sama/status/1627796054040285184?s=46&amp;t=0hi_zov6zXj3Ap9cGzwJ3w\">Twitter</a> 并表示：<strong>「为聊天机器人写一个非常棒的提示（prompt）是一项拥有极高杠杆的技能，这也是使用自然语言编程的早期示例」。</strong>在海外，Prompt Engineer 已经成为了一份高薪职业，年薪超过百万人民币。</p>\n<figure><img src=\"https://image.xyzcdn.net/FuEaD2qhmpQh5KHEcbqWvwfqQFSh.PNG\"/></figure>\n<p>本期播客是上期内容的延续，我们将继续围绕 ChatGPT 话题展开。不同的是，我们这期会聚焦一些，围绕 prompt（提示词）话题深入地聊聊<strong>如何使用 ChatGPT 及 AGI 时代的工具，</strong>或者说<strong>如何在接下来的时代与 AI 更好地交流协作？</strong>我们本期也非常有幸邀请到 <a href=\"https://flowgpt.com/\">FlowGPT</a> 的创始人和 CEO —— Jay 党嘉成（ 没错，Jay 与主播重名了，为更好区分我们接下来会在 Show notes 和公众号文章里统一叫他 J ），请他和我们一起聊聊 prompt 相关话题。</p>\n<p><strong>【主播】</strong></p>\n<p><strong>Jay，</strong>《出海相对论》主理人，独立播客制作人。消费互联网创业&amp;投行背景，长期关注消费、科技等领域的创新创业机会。</p>\n<p><a href=\"http://rui.juzi.bot/\"><strong>佳芮</strong></a><strong>，</strong><a href=\"https://juzibot.com/\">句子互动</a>创始人，微软人工智能最具价值专家（AI MVP）。「福布斯」30 Under 30、36kr S级创业者。<a href=\"https://www.ycombinator.com/\">Y Combinator</a> 校友，全球最大的对话式交互 RPA SDK 开源框架 Wechaty 联合作者。著有<a href=\"https://book.douban.com/subject/35008411/\">《Chatbot 从 0 到 1：对话式交互设计实践指南》</a>。</p>\n<p><strong>【嘉宾】</strong></p>\n<p><strong>J 党嘉成，</strong> <a href=\"https://flowgpt.com/\">FlowGPT</a> 创始人&amp;CEO，加州大学伯克利分校计算机专业，现辍学创业。</p>\n<blockquote>曾在美国湾区多家初创公司担任机器学习工程师及数据科学家，2017年开始研究 AIGC ，高中时曾与斯坦福博士导师共同进行 AI 产业化科研。曾从零到一打造基于AI的青光眼早期检测软件(98%准确率)及硬件(降本100倍)，获国际 ISEF 大赛第三。大一时从零到一打造 AI B2B SaaS 产品 <a href=\"https://www.markit.ai/\">markit.ai</a> ，负责AI算法研 发(比竞争者快～10倍)、产品规划和项目管理(12人)，上线1个月即获得上市公司客户。</blockquote>\n<blockquote>FlowGPT 是目前全球最大的基于 ChatGPT 的 prompt 社区之一。上线一周在 <a href=\"https://www.producthunt.com/products/flow-gpt\">Product Hunt</a> 上排名第三，上线两周 DAU 破万，并被 ChatGPT 官方账号评为「Top10 最有趣的 AI 应用」之一，目前月活已过20万。</blockquote>\n<p><strong>【你将听到】</strong></p>\n<p>01:48 &nbsp;&nbsp;嘉宾自我介绍与 FlowGPT 简介</p>\n<p>02:15 &nbsp;&nbsp;为什么叫 FlowGPT ？其中的「Flow」代表了什么？</p>\n<p>06:10 &nbsp;&nbsp;选择从 prompt 切入进行创业的原因和思考逻辑</p>\n<p>08:41 &nbsp;&nbsp;FlowGPT 的主流人群画像，以及使用最多的 prompt 场景</p>\n<p>09:30 &nbsp;&nbsp;一些比较有趣的具体的 prompt 案例</p>\n<p>12:58 &nbsp;&nbsp;如何才能编写和设计一个好的 prompt ？</p>\n<p>15:38 &nbsp;&nbsp;一个花了600小时写出来的 prompt 是什么样的？</p>\n<p>17:54 &nbsp;&nbsp;ChatGPT 及 AGI 工具对教育的影响</p>\n<p>20:14 &nbsp;&nbsp;作为资深玩家聊聊 prompt 高阶</p>\n<p>28:02 &nbsp;怎么看「五年后我们可能不再需要 prompt engineering」？</p>\n<p>33:15 &nbsp;&nbsp;怎么看 Foundation Model、fine-tune 和 prompt ？</p>\n<p>37:18 &nbsp;&nbsp;在 AGI 的大航海时代，什么是创业团队成功的关键优势？</p>\n<p>41:08 &nbsp;&nbsp;在 ChatGPT 和 AGI 方向上，国内和海外分别有怎样的创业机会？</p>\n<p>50:37 &nbsp;&nbsp;怎么看「千人联名叫停比 GPT-4 更强大的 AI 系统训练」事件？</p>\n<p>55:08 &nbsp;&nbsp;为什么说「当 AI 无限放大我们的创造力，限制我们的，只剩下想象力」？</p>\n<p><strong>【相关链接】</strong></p>\n<p>开头提到的一篇<strong>关于 prompt 的</strong><a href=\"https://arxiv.org/abs/2107.13586\"><strong>论文</strong></a><strong>：</strong><a href=\"https://arxiv.org/abs/2107.13586\">arxiv.org</a></p>\n<p>花600小时写出来的 <strong>prompt 框架文档——</strong><a href=\"https://docs.google.com/document/d/1oufQ_tSN5S23cqUqq0Lre2R-Hoe1TEZELXAvazBXD_8\"><strong>Prompt Framework ALEL</strong></a><strong>：</strong><a href=\"https://docs.google.com/document/d/1oufQ_tSN5S23cqUqq0Lre2R-Hoe1TEZELXAvazBXD_8\">docs.google.com</a></p>\n<p>全球第一个 <strong>Prompt Hackathon——</strong><a href=\"https://flowgpt.com/hackathon\"><strong>FlowGPT Hackathon</strong></a><strong>:</strong> <a href=\"https://flowgpt.com/hackathon\">flowgpt.com</a></p>\n<p><img src=\"https://bts-image.xyzcdn.net/aHR0cHM6Ly93ZWFpOXJwZGRlLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9hc3luY2NvZGUvP2NvZGU9TlRReE1HSmhZMkkyTW1Ga1l6VmpPR0l6TmpBeU5HUXdNMk5rT1RrMFlXUmZNblZNV25SaFlYRXlXWFZGTW1WaWVHeENTbEZuVEVkeFFuWkNkbVYyUTFSZlZHOXJaVzQ2WW05NFkyNDVOV3RZVDBWUE9HYzVjM042TTFsQ2RITlNlR1ZrWHpFMk9EQTJNVFkzTWpBNk1UWTRNRFl5TURNeU1GOVdOQQ==\"/></p>\n<p><strong>【关于出海相对论】</strong></p>\n<p>《出海相对论》是由Jay和佳芮共同出品的全新对话类出海中文播客。我们长期关注出海，关注全球市场的变化与机遇。期待你在我们与嘉宾的对话中，遇见有趣的商业故事，收获独到的出海见识。</p>\n<p>如果你对出海和全球化感兴趣，欢迎你在苹果Podcast、Spotify、小宇宙、喜马拉雅、QQ音乐等平台订阅收听我们的节目，也推荐你在其他泛用型播客客户端订阅收听。</p>\n<p>微信搜索「出海相对论」，关注我们的公众号，会有每期播客的文字版放送，偶尔也会有我们和一些朋友关于出海的个人思考和经验，当然你也可以直接后台私信联系我们。</p>\n<p>出海就听，出海相对论。May you see the sea.</p>",
-    "duration": 3724,
-    "enclosure": {
-      "url": "https://media.xyzcdn.net/lv8xs78PWqUuz54MWWJ8AOBtlEzt.m4a",
-      "type": "audio/mpeg",
-      "length": 90080541
-    },
-    "pubDate": 1680617118,
-    "author": "我是DJ",
-    "explicit": false
-  },
-  "6779fa1b1e823e72d344e9d1": {
+[
+  {
     "eid": "6779fa1b1e823e72d344e9d1",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#21 单条爆款短视频1.05亿播放，AI如何赋能出海营销？对话Leap创始人Will",
@@ -31,7 +15,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "67556f4d17cd5416ad619bc5": {
+  {
     "eid": "67556f4d17cd5416ad619bc5",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#20 YC奇绩双录取，少年班天才少女如何打造百万MAU数学AI Agent产品？对话Mathos AI创始人岳天溦",
@@ -47,7 +31,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "66dec9a5ee04007d8842c220": {
+  {
     "eid": "66dec9a5ee04007d8842c220",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#19 获OpenAI投资，这款AI产品要为10亿儿童打造专属「哆啦A梦」——对话Heeyo创始人曲晓音",
@@ -63,7 +47,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "66bc80a6db5e6d6bf941980e": {
+  {
     "eid": "66bc80a6db5e6d6bf941980e",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#18 超500万月访问量且盈利的AI办公产品，从中国第一迈向全球第一？对话爱设计&AiPPT.com创始人赵充",
@@ -79,7 +63,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "66a20afd33ddcbb53c00e7ad": {
+  {
     "eid": "66a20afd33ddcbb53c00e7ad",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#17 从通用走向个人，一个不同的大模型叙事——对话Me.bot创始人陶芳波",
@@ -95,7 +79,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "6678c7b9d3fc5dd62785f593": {
+  {
     "eid": "6678c7b9d3fc5dd62785f593",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#16 十年融资十三亿，不下牌桌，王者归来？对话出境游头部皇包车创始人孟磊",
@@ -111,7 +95,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "663c6937f3517e63e49ebf6d": {
+  {
     "eid": "663c6937f3517e63e49ebf6d",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#15 向量数据库，不只是「大模型的海马体」——对话Zilliz创始人星爵",
@@ -127,7 +111,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "662b72e76a3c2ef095e128c9": {
+  {
     "eid": "662b72e76a3c2ef095e128c9",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#14 把新中式旗袍店开到米兰伦敦，品牌出海的核心是文化输出——对话BrandByMei创始人Mei",
@@ -143,7 +127,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "65dd4572b6c9256aee50168f": {
+  {
     "eid": "65dd4572b6c9256aee50168f",
     "pid": "63b7dd49289d2739647d9587",
     "title": "串台《出海行行行》丨对话式AI营销，助力中国企业「卷」向世界",
@@ -159,7 +143,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "65b47230dde969cfdcf934bf": {
+  {
     "eid": "65b47230dde969cfdcf934bf",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#13 AI视频+电商营销，创业公司如何角逐万亿细分市场？对话布尔向量CEO王庆",
@@ -175,7 +159,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "658e3580cab6086ec173799d": {
+  {
     "eid": "658e3580cab6086ec173799d",
     "pid": "63b7dd49289d2739647d9587",
     "title": "年终特辑丨一位AI+SaaS出海公司女CEO的12个月战地笔记，以及一档出海播客的12期记忆切片",
@@ -191,7 +175,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "65557c8d0500be931cb00a26": {
+  {
     "eid": "65557c8d0500be931cb00a26",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#12 一个连续成功创业者的15年全球化野望与AI+SaaS的大航海时代",
@@ -207,7 +191,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "652f33e1fe744172923721ae": {
+  {
     "eid": "652f33e1fe744172923721ae",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#11 如何打造全球月活用户过百万的AI-Native应用？对话彩云科技CEO袁行远",
@@ -223,7 +207,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "64f84bc23fa4090b74511077": {
+  {
     "eid": "64f84bc23fa4090b74511077",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#10 AI Agent引擎+出海，做AGI时代的那艘大船——对话心识宇宙创始人陶芳波",
@@ -239,7 +223,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "64d4a09be490c5dee51060f2": {
+  {
     "eid": "64d4a09be490c5dee51060f2",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#9 你的下一代Notion，何必是Notion？对话AFFiNE联创魏伊培",
@@ -255,7 +239,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "64bd226fd0844ea812524660": {
+  {
     "eid": "64bd226fd0844ea812524660",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#8 NBA球星上脚，千元客单，这个博主创立的运动品牌把球鞋卖向全球",
@@ -271,7 +255,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "6498731bd6cdb59728575bc9": {
+  {
     "eid": "6498731bd6cdb59728575bc9",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#7 苹果Vision Pro发布，空间计算时代来临？对话全球销量第一AR眼镜品牌XREAL（原Nreal）联创金鹏",
@@ -287,7 +271,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "64828902e68894365dbcfe6c": {
+  {
     "eid": "64828902e68894365dbcfe6c",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#6 拉美版Stripe，不止于Stripe——对话FinTech公司Liquido CEO MK",
@@ -303,7 +287,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "645e5a0d306513184ccde877": {
+  {
     "eid": "645e5a0d306513184ccde877",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#5 品牌如何穿越周期？对话全美增速第一DTC品牌Outer CEO Jiake",
@@ -319,7 +303,23 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "640b67afacc110612af53e77": {
+  {
+    "eid": "642c2e9ea79cc814709f6f2a",
+    "pid": "63b7dd49289d2739647d9587",
+    "title": "#4 如何用好ChatGPT并拥抱AGI时代？让我们从prompt谈起——对话FlowGPT创始人J",
+    "description": "红杉资本的创始人唐·瓦伦丁（Don Valentine）曾说：会提问比知道答案更重要。在对话式 AI 时代，会提问就是会设计和编写 prompt 。\nChatGPT 的横空出世，让人们见识到对话式 AI 的强大；而 GPT-4 的发布，更是让我们看到 AGI（通用人工智能）的曙光。「人工智能教父」Geoffrey Hinton 也在近期 CBS NEWS 的采访中表示：人工智能正处于一个「关键时刻」，AGI的出现比我们想象的更加迫近。\n当人工智能范式的转变真的到来，21世纪的一项重要技能就很可能是「如何有效地与机器对话协作」，或者说——如何更好地进行「prompt」。OpenAI 创始人 Sam Oltman 也在今年2月21号发了一条 Twitter 并表示：「为聊天机器人写一个非常棒的提示（prompt）是一项拥有极高杠杆的技能，这也是使用自然语言编程的早期示例」。在海外，Prompt Engineer 已经成为了一份高薪职业，年薪超过百万人民币。\n本期播客是上期内容的延续，我们将继续围绕 ChatGPT 话题展开。不同的是，我们这期会聚焦一些，围绕 prompt（提示词）话题深入地聊聊如何使用 ChatGPT 及 AGI 时代的工具，或者说如何在接下来的时代与 AI 更好地交流协作？我们本期也非常有幸邀请到 FlowGPT 的创始人和 CEO —— Jay 党嘉成（ 没错，Jay 与主播重名了，为更好区分我们接下来会在 Show notes 和公众号文章里统一叫他 J ），请他和我们一起聊聊 prompt 相关话题。\n【主播】\nJay，《出海相对论》主理人，独立播客制作人。消费互联网创业&投行背景，长期关注消费、科技等领域的创新创业机会。\n佳芮，句子互动创始人，微软人工智能最具价值专家（AI MVP）。「福布斯」30 Under 30、36kr S级创业者。Y Combinator 校友，全球最大的对话式交互 RPA SDK 开源框架 Wechaty 联合作者。著有《Chatbot 从 0 到 1：对话式交互设计实践指南》。\n【嘉宾】\nJ 党嘉成， FlowGPT 创始人&CEO，加州大学伯克利分校计算机专业，现辍学创业。\n曾在美国湾区多家初创公司担任机器学习工程师及数据科学家，2017年开始研究 AIGC ，高中时曾与斯坦福博士导师共同进行 AI 产业化科研。曾从零到一打造基于AI的青光眼早期检测软件(98%准确率)及硬件(降本100倍)，获国际 ISEF 大赛第三。大一时从零到一打造 AI B2B SaaS 产品 markit.ai ，负责AI算法研 发(比竞争者快～10倍)、产品规划和项目管理(12人)，上线1个月即获得上市公司客户。\nFlowGPT 是目前全球最大的基于 ChatGPT 的 prompt 社区之一。上线一周在 Product Hunt 上排名第三，上线两周 DAU 破万，并被 ChatGPT 官方账号评为「Top10 最有趣的 AI 应用」之一，目前月活已过20万。\n【你将听到】\n01:48 嘉宾自我介绍与 FlowGPT 简介\n02:15 为什么叫 FlowGPT ？其中的「Flow」代表了什么？\n06:10 选择从 prompt 切入进行创业的原因和思考逻辑\n08:41 FlowGPT 的主流人群画像，以及使用最多的 prompt 场景\n09:30 一些比较有趣的具体的 prompt 案例\n12:58 如何才能编写和设计一个好的 prompt ？\n15:38 一个花了600小时写出来的 prompt 是什么样的？\n17:54 ChatGPT 及 AGI 工具对教育的影响\n20:14 作为资深玩家聊聊 prompt 高阶\n28:02 怎么看「五年后我们可能不再需要 prompt engineering」？\n33:15 怎么看 Foundation Model、fine-tune 和 prompt ？\n37:18 在 AGI 的大航海时代，什么是创业团队成功的关键优势？\n41:08 在 ChatGPT 和 AGI 方向上，国内和海外分别有怎样的创业机会？\n50:37 怎么看「千人联名叫停比 GPT-4 更强大的 AI 系统训练」事件？\n55:08 为什么说「当 AI 无限放大我们的创造力，限制我们的，只剩下想象力」？\n【相关链接】\n开头提到的一篇关于 prompt 的论文：arxiv.org\n花600小时写出来的 prompt 框架文档——Prompt Framework ALEL：docs.google.com\n全球第一个 Prompt Hackathon——FlowGPT Hackathon: flowgpt.com\n【关于出海相对论】\n《出海相对论》是由Jay和佳芮共同出品的全新对话类出海中文播客。我们长期关注出海，关注全球市场的变化与机遇。期待你在我们与嘉宾的对话中，遇见有趣的商业故事，收获独到的出海见识。\n如果你对出海和全球化感兴趣，欢迎你在苹果Podcast、Spotify、小宇宙、喜马拉雅、QQ音乐等平台订阅收听我们的节目，也推荐你在其他泛用型播客客户端订阅收听。\n微信搜索「出海相对论」，关注我们的公众号，会有每期播客的文字版放送，偶尔也会有我们和一些朋友关于出海的个人思考和经验，当然你也可以直接后台私信联系我们。\n出海就听，出海相对论。May you see the sea.",
+    "shownotes": "<p>红杉资本的创始人唐·瓦伦丁（Don Valentine）曾说：<strong>会提问比知道答案更重要。在对话式 AI 时代，会提问就是会设计和编写 prompt 。</strong></p>\n<p>ChatGPT 的横空出世，让人们见识到对话式 AI 的强大；而 GPT-4 的发布，更是让我们看到 AGI（通用人工智能）的曙光。「人工智能教父」Geoffrey Hinton 也在近期 CBS NEWS 的采访中表示：<strong>人工智能正处于一个「关键时刻」，AGI的出现比我们想象的更加迫近。</strong></p>\n<p>当人工智能范式的转变真的到来，21世纪的一项重要技能就很可能是<strong>「如何有效地与机器对话协作」</strong>，或者说——<strong>如何更好地进行「prompt」。</strong>OpenAI 创始人 Sam Oltman 也在今年2月21号发了一条 <a href=\"https://twitter.com/sama/status/1627796054040285184?s=46&amp;t=0hi_zov6zXj3Ap9cGzwJ3w\">Twitter</a> 并表示：<strong>「为聊天机器人写一个非常棒的提示（prompt）是一项拥有极高杠杆的技能，这也是使用自然语言编程的早期示例」。</strong>在海外，Prompt Engineer 已经成为了一份高薪职业，年薪超过百万人民币。</p>\n<figure><img src=\"https://image.xyzcdn.net/FuEaD2qhmpQh5KHEcbqWvwfqQFSh.PNG\"/></figure>\n<p>本期播客是上期内容的延续，我们将继续围绕 ChatGPT 话题展开。不同的是，我们这期会聚焦一些，围绕 prompt（提示词）话题深入地聊聊<strong>如何使用 ChatGPT 及 AGI 时代的工具，</strong>或者说<strong>如何在接下来的时代与 AI 更好地交流协作？</strong>我们本期也非常有幸邀请到 <a href=\"https://flowgpt.com/\">FlowGPT</a> 的创始人和 CEO —— Jay 党嘉成（ 没错，Jay 与主播重名了，为更好区分我们接下来会在 Show notes 和公众号文章里统一叫他 J ），请他和我们一起聊聊 prompt 相关话题。</p>\n<p><strong>【主播】</strong></p>\n<p><strong>Jay，</strong>《出海相对论》主理人，独立播客制作人。消费互联网创业&amp;投行背景，长期关注消费、科技等领域的创新创业机会。</p>\n<p><a href=\"http://rui.juzi.bot/\"><strong>佳芮</strong></a><strong>，</strong><a href=\"https://juzibot.com/\">句子互动</a>创始人，微软人工智能最具价值专家（AI MVP）。「福布斯」30 Under 30、36kr S级创业者。<a href=\"https://www.ycombinator.com/\">Y Combinator</a> 校友，全球最大的对话式交互 RPA SDK 开源框架 Wechaty 联合作者。著有<a href=\"https://book.douban.com/subject/35008411/\">《Chatbot 从 0 到 1：对话式交互设计实践指南》</a>。</p>\n<p><strong>【嘉宾】</strong></p>\n<p><strong>J 党嘉成，</strong> <a href=\"https://flowgpt.com/\">FlowGPT</a> 创始人&amp;CEO，加州大学伯克利分校计算机专业，现辍学创业。</p>\n<blockquote>曾在美国湾区多家初创公司担任机器学习工程师及数据科学家，2017年开始研究 AIGC ，高中时曾与斯坦福博士导师共同进行 AI 产业化科研。曾从零到一打造基于AI的青光眼早期检测软件(98%准确率)及硬件(降本100倍)，获国际 ISEF 大赛第三。大一时从零到一打造 AI B2B SaaS 产品 <a href=\"https://www.markit.ai/\">markit.ai</a> ，负责AI算法研 发(比竞争者快～10倍)、产品规划和项目管理(12人)，上线1个月即获得上市公司客户。</blockquote>\n<blockquote>FlowGPT 是目前全球最大的基于 ChatGPT 的 prompt 社区之一。上线一周在 <a href=\"https://www.producthunt.com/products/flow-gpt\">Product Hunt</a> 上排名第三，上线两周 DAU 破万，并被 ChatGPT 官方账号评为「Top10 最有趣的 AI 应用」之一，目前月活已过20万。</blockquote>\n<p><strong>【你将听到】</strong></p>\n<p>01:48 &nbsp;&nbsp;嘉宾自我介绍与 FlowGPT 简介</p>\n<p>02:15 &nbsp;&nbsp;为什么叫 FlowGPT ？其中的「Flow」代表了什么？</p>\n<p>06:10 &nbsp;&nbsp;选择从 prompt 切入进行创业的原因和思考逻辑</p>\n<p>08:41 &nbsp;&nbsp;FlowGPT 的主流人群画像，以及使用最多的 prompt 场景</p>\n<p>09:30 &nbsp;&nbsp;一些比较有趣的具体的 prompt 案例</p>\n<p>12:58 &nbsp;&nbsp;如何才能编写和设计一个好的 prompt ？</p>\n<p>15:38 &nbsp;&nbsp;一个花了600小时写出来的 prompt 是什么样的？</p>\n<p>17:54 &nbsp;&nbsp;ChatGPT 及 AGI 工具对教育的影响</p>\n<p>20:14 &nbsp;&nbsp;作为资深玩家聊聊 prompt 高阶</p>\n<p>28:02 &nbsp;怎么看「五年后我们可能不再需要 prompt engineering」？</p>\n<p>33:15 &nbsp;&nbsp;怎么看 Foundation Model、fine-tune 和 prompt ？</p>\n<p>37:18 &nbsp;&nbsp;在 AGI 的大航海时代，什么是创业团队成功的关键优势？</p>\n<p>41:08 &nbsp;&nbsp;在 ChatGPT 和 AGI 方向上，国内和海外分别有怎样的创业机会？</p>\n<p>50:37 &nbsp;&nbsp;怎么看「千人联名叫停比 GPT-4 更强大的 AI 系统训练」事件？</p>\n<p>55:08 &nbsp;&nbsp;为什么说「当 AI 无限放大我们的创造力，限制我们的，只剩下想象力」？</p>\n<p><strong>【相关链接】</strong></p>\n<p>开头提到的一篇<strong>关于 prompt 的</strong><a href=\"https://arxiv.org/abs/2107.13586\"><strong>论文</strong></a><strong>：</strong><a href=\"https://arxiv.org/abs/2107.13586\">arxiv.org</a></p>\n<p>花600小时写出来的 <strong>prompt 框架文档——</strong><a href=\"https://docs.google.com/document/d/1oufQ_tSN5S23cqUqq0Lre2R-Hoe1TEZELXAvazBXD_8\"><strong>Prompt Framework ALEL</strong></a><strong>：</strong><a href=\"https://docs.google.com/document/d/1oufQ_tSN5S23cqUqq0Lre2R-Hoe1TEZELXAvazBXD_8\">docs.google.com</a></p>\n<p>全球第一个 <strong>Prompt Hackathon——</strong><a href=\"https://flowgpt.com/hackathon\"><strong>FlowGPT Hackathon</strong></a><strong>:</strong> <a href=\"https://flowgpt.com/hackathon\">flowgpt.com</a></p>\n<p><img src=\"https://bts-image.xyzcdn.net/aHR0cHM6Ly93ZWFpOXJwZGRlLmZlaXNodS5jbi9zcGFjZS9hcGkvYm94L3N0cmVhbS9kb3dubG9hZC9hc3luY2NvZGUvP2NvZGU9TlRReE1HSmhZMkkyTW1Ga1l6VmpPR0l6TmpBeU5HUXdNMk5rT1RrMFlXUmZNblZNV25SaFlYRXlXWFZGTW1WaWVHeENTbEZuVEVkeFFuWkNkbVYyUTFSZlZHOXJaVzQ2WW05NFkyNDVOV3RZVDBWUE9HYzVjM042TTFsQ2RITlNlR1ZrWHpFMk9EQTJNVFkzTWpBNk1UWTRNRFl5TURNeU1GOVdOQQ==\"/></p>\n<p><strong>【关于出海相对论】</strong></p>\n<p>《出海相对论》是由Jay和佳芮共同出品的全新对话类出海中文播客。我们长期关注出海，关注全球市场的变化与机遇。期待你在我们与嘉宾的对话中，遇见有趣的商业故事，收获独到的出海见识。</p>\n<p>如果你对出海和全球化感兴趣，欢迎你在苹果Podcast、Spotify、小宇宙、喜马拉雅、QQ音乐等平台订阅收听我们的节目，也推荐你在其他泛用型播客客户端订阅收听。</p>\n<p>微信搜索「出海相对论」，关注我们的公众号，会有每期播客的文字版放送，偶尔也会有我们和一些朋友关于出海的个人思考和经验，当然你也可以直接后台私信联系我们。</p>\n<p>出海就听，出海相对论。May you see the sea.</p>",
+    "duration": 3724,
+    "enclosure": {
+      "url": "https://media.xyzcdn.net/lv8xs78PWqUuz54MWWJ8AOBtlEzt.m4a",
+      "type": "audio/mpeg",
+      "length": 90080541
+    },
+    "pubDate": 1680617118,
+    "author": "我是DJ",
+    "explicit": false
+  },
+  {
     "eid": "640b67afacc110612af53e77",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#3 ChatGPT沉思录：深度对话微软中国CTO韦青、微软RD李卓桓、微软AI MVP李佳芮",
@@ -335,7 +335,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "63efa6b051a4e4150ab44720": {
+  {
     "eid": "63efa6b051a4e4150ab44720",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#2 打通狗狗培训行业，美国细分领域创业依旧正当时？",
@@ -351,7 +351,7 @@
     "author": "我是DJ",
     "explicit": false
   },
-  "63ca932c78910ae65ca92644": {
+  {
     "eid": "63ca932c78910ae65ca92644",
     "pid": "63b7dd49289d2739647d9587",
     "title": "#1 市占率第一，共享充电宝在美国是好生意？",
@@ -367,4 +367,4 @@
     "author": "我是DJ",
     "explicit": false
   }
-}
+]

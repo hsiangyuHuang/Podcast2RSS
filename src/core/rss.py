@@ -157,8 +157,10 @@ class RSSProcessor:
         # 2. 加载单集列表
         episodes_file = Path(self.rss_materials_dir).parent / "episodes" / f"{pid}.json"
         episodes = self._safe_load_json(episodes_file, "播客文件加载失败")
-        if not isinstance(episodes, list) or not episodes:
-            raise ValueError(f"播客文件格式错误或为空: {episodes_file}")
+        if not isinstance(episodes, dict):
+            raise ValueError(f"播客文件格式错误: {episodes_file}")
+        if not episodes:
+            raise ValueError(f"播客文件为空: {episodes_file}")
             
         # 3. 构建数据结构
         temp_data = {
@@ -169,13 +171,12 @@ class RSSProcessor:
                 "description": podcast_info.get('brief', ''),
                 "link": self._generate_podcast_link(pid)
             },
-            "episodes": {}
+            "episodes": episodes
         }
         
         # 4. 处理每个单集
         has_transcript = False
-        for episode in episodes:
-            eid = episode['eid']
+        for eid, episode in temp_data["episodes"].items():
             episode_data = {
                 "title": episode['title'],
                 "description": episode.get('description', ''),
@@ -285,5 +286,5 @@ if __name__ == "__main__":
     # 处理播客并生成RSS
     processor.process_single(
         pid="63b7dd49289d2739647d9587",
-        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/63b7dd49289d2739647d9587_4.xml"
+        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/63b7dd49289d2739647d9587_5.xml"
     )

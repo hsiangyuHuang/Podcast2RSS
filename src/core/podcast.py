@@ -161,7 +161,7 @@ def save_episodes(episodes, pid):
             "pid": episode.get("pid"),
             "title": episode.get("title"),
             "description": episode.get("description"),
-            "shownotes": episode.get("shownotes"),  # 保留完整的节目笔记
+            # "shownotes": episode.get("shownotes"),  # 保留完整的节目笔记
             "duration": episode.get("duration"),  # 音频时长（秒）
             "enclosure": {
                 "url": episode.get("enclosure", {}).get("url"),

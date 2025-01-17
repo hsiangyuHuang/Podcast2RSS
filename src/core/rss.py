@@ -121,14 +121,7 @@ class RSSProcessor:
             return datetime.now()
 
     def _format_transcript(self, transcript_data: dict) -> str:
-        """格式化转写文稿为HTML格式
-        
-        Args:
-            transcript_data: 转写数据
-            
-        Returns:
-            str: HTML格式的内容
-        """
+        """格式化转写文稿为HTML格式"""
         try:
             result = []
             
@@ -138,14 +131,15 @@ class RSSProcessor:
             
             # 2. 摘要部分
             if transcript_data.get('summary'):
-                result.append('<h2>节目摘要</h2>')
+                result.append('<h1>节目摘要</h1>')
                 result.append(f'<div class="summary">{escape(transcript_data["summary"])}</div>')
 
             # 3. 章节部分
-            if transcript_data.get('chapters'):
-                result.append('<h2>节目章节</h2>')
+            chapters = transcript_data.get('lab_info', {}).get('chapters', [])
+            if chapters:
+                result.append('<h1>章节速览</h1>')
                 result.append('<div class="chapters">')
-                for chapter in transcript_data['chapters']:
+                for chapter in chapters:
                     result.append(
                         f'<div class="chapter-item">\n'
                         f'<span class="time">[{chapter.get("time", "")}] </span>\n'
@@ -157,7 +151,7 @@ class RSSProcessor:
             
             # 4. 问答部分
             if transcript_data.get('qa_pairs'):
-                result.append('<h2>节目问答</h2>')
+                result.append('<h1>问题回顾</h1>')
                 for qa in transcript_data['qa_pairs']:
                     q = qa.get('question', '')
                     a = qa.get('answer', '')
@@ -167,7 +161,7 @@ class RSSProcessor:
                     result.append('</div>')
             
             # 5. 转写文稿部分
-            result.append('<h2>完整转写文稿</h2>')
+            result.append('<h2>节目文稿</h2>')
             for item in transcript_data.get('transcription', []):
                 time = item.get('time', '')
                 text = item.get('text', '')
@@ -448,5 +442,5 @@ if __name__ == "__main__":
     # 处理播客并生成RSS
     processor.process_single(
         podcast_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/63b7dd49289d2739647d9587.json",
-        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/feed.xml"
+        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/feed.xml"
     )

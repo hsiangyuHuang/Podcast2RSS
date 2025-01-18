@@ -1,24 +1,18 @@
 import json
-from pathlib import Path
-from typing import Dict, List, Optional, Any, Union
-from datetime import datetime
-from html import escape
 import logging
+from pathlib import Path
 from email.utils import formatdate
 import pendulum
+from src.core.storage import Storage
+import datetime
+from html import escape
 
 class RSSProcessor:
     """RSS处理器类"""
     
-    def __init__(self, transcripts_dir: str, rss_materials_dir: str):
-        """初始化RSS处理器
-        
-        Args:
-            transcripts_dir: 转写文件目录
-            rss_materials_dir: RSS材料存储目录
-        """
-        self.transcripts_dir = Path(transcripts_dir)
-        self.rss_materials_dir = Path(rss_materials_dir)
+    def __init__(self):
+        """初始化RSS处理器"""
+        self.storage = Storage()
         self.logger = logging.getLogger(__name__)
 
     def _safe_load_json(self, file_path: Path, error_msg: str) -> dict:
@@ -45,14 +39,20 @@ class RSSProcessor:
         else:
             return f"https://tongyi.aliyun.com/efficiency/doc/transcripts/{task_id}"
 
-    def _parse_date(self, date_str: Union[str, int]) -> datetime:
+    def _parse_date(self, date_str) -> datetime:
         """解析日期字符串或时间戳为datetime对象"""
         try:
-            if isinstance(date_str, int):
-                return pendulum.from_timestamp(date_str, tz='UTC')
             if not date_str:
                 raise ValueError("日期不能为空")
-            return pendulum.parse(str(date_str))
+                
+            # 尝试将字符串转换为整数（时间戳）
+            try:
+                timestamp = int(date_str)
+                return pendulum.from_timestamp(timestamp)
+            except ValueError:
+                # 如果不是时间戳，尝试解析日期字符串
+                return pendulum.parse(str(date_str))
+                
         except Exception as e:
             self.logger.error(f"日期解析失败: {date_str}")
             raise ValueError(f"日期格式错误: {date_str}") from e
@@ -79,7 +79,7 @@ class RSSProcessor:
             <guid>{escape(item_info['guid'])}</guid>
         </item>"""
 
-    def _format_transcript(self, transcript_data: Optional[dict]) -> str:
+    def _format_transcript(self, transcript_data) -> str:
         """格式化转写文稿为HTML格式"""
         try:
             # 检查是否所有内容都为空
@@ -147,15 +147,14 @@ class RSSProcessor:
 
     def _load_podcast_data(self, pid: str) -> dict:
         """加载播客数据，包括单集列表、订阅信息和转写信息"""
-        # 1. 加载订阅信息
-        subscribe_file = Path(self.rss_materials_dir).parent / "podcasts" / "subscribe_podcasts.json"
-        podcasts = self._safe_load_json(subscribe_file, "订阅信息文件加载失败")
-        podcast_info = next((p for p in podcasts if p.get('pid') == pid), None)
-        if not podcast_info:
-            raise ValueError(f"在订阅列表中未找到播客信息: {pid}")
+        # 1. 加载播客信息
+        podcast_file = self.storage.get_podcast_file(pid)
+        if not podcast_file.exists():
+            raise ValueError(f"未找到播客信息文件: {podcast_file}")
+        podcast_info = self._safe_load_json(podcast_file, f"播客信息文件加载失败: {pid}")
             
         # 2. 加载单集列表
-        episodes_file = Path(self.rss_materials_dir).parent / "episodes" / f"{pid}.json"
+        episodes_file = self.storage.get_episodes_file(pid)
         episodes = self._safe_load_json(episodes_file, "播客文件加载失败")
         if not isinstance(episodes, dict):
             raise ValueError(f"播客文件格式错误: {episodes_file}")
@@ -168,7 +167,7 @@ class RSSProcessor:
                 "pid": pid,
                 "title": podcast_info.get('title', ''),
                 "latestEpisodePubDate": podcast_info.get('latestEpisodePubDate', ''),
-                "description": podcast_info.get('brief', ''),
+                "description": podcast_info.get('brief') or podcast_info.get('description') or '',
                 "link": self._generate_podcast_link(pid)
             },
             "episodes": episodes
@@ -192,10 +191,9 @@ class RSSProcessor:
             }
             
             # 尝试加载转写信息
-            transcript_file = self.transcripts_dir / f"{eid}.json"
-            if transcript_file.exists():
+            if self.storage.is_transcribed(pid, eid):
                 try:
-                    transcript = self._safe_load_json(transcript_file, "转写文件加载失败")
+                    transcript = self.storage.load_transcript(pid, eid)
                     if transcript:
                         has_transcript = True
                         episode_data.update({
@@ -261,30 +259,28 @@ class RSSProcessor:
 </rss>"""
         return rss_content
 
-    def process_single(self, pid: str, output_file: str):
-        """处理单个播客并生成RSS"""
+    def process_single(self, pid: str):
+        """处理单个播客生成RSS"""
         try:
-            # 1. 加载所有数据
+            # 加载数据
             podcast_data = self._load_podcast_data(pid)
             
-            # 2. 生成RSS内容
+            # 生成RSS内容
             rss_content = self._generate_rss_content(podcast_data)
-            # 3. 写入文件
-            with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(rss_content)
-            self.logger.info(f"生成RSS文件成功: {output_file}")
+            
+            # 保存RSS文件
+            self.storage.save_rss(pid, rss_content)
+            
+            self.logger.info(f"RSS生成成功: {pid}")
+            
         except Exception as e:
-            self.logger.error(f"处理失败: {e}")
+            self.logger.error(f"处理失败: {str(e)}")
             raise
 
 if __name__ == "__main__":
     # 初始化处理器
-    processor = RSSProcessor(
-        transcripts_dir="/Users/hsiangyu/Inbox/Podcast2RSS/data/transcripts",
-        rss_materials_dir="/Users/hsiangyu/Inbox/Podcast2RSS/data/episodes"
-    )
+    processor = RSSProcessor()
     # 处理播客并生成RSS
     processor.process_single(
-        pid="63b7dd49289d2739647d9587",
-        output_file="/Users/hsiangyu/Inbox/Podcast2RSS/data/rss/63b7dd49289d2739647d9587_5.xml"
+        pid="658057ae3d1caa927acbaf60"
     )

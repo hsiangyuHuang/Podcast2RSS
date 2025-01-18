@@ -43,16 +43,55 @@ class TongyiClient:
             "cookie": cookie
         }
 
+    def create_dir(self, name):
+        """创建文件夹，返回文件夹ID"""
+        payload = {"dirName": name, "parentIdStr": -1}
+        url = "https://qianwen.biz.aliyun.com/assistant/api/record/dir/add?c=tongyi-web"
+        r = requests.post(url, headers=self.headers, json=payload)
+        if r.ok:
+            return r.json().get("data").get("focusDir").get("idStr")
+
+    def get_dir(self):
+        """获取已有文件夹信息"""
+        url = (
+            "https://qianwen.biz.aliyun.com/assistant/api/record/dir/list/get?c=tongyi-web"
+        )
+        response = requests.post(url, headers=self.headers)
+        if response.ok:
+            r = response.json()
+            success = r.get("success")
+            errorMsg = r.get("errorMsg")
+            if success:
+                return r.get("data")
+            else:
+                print(f"请求失败：{errorMsg}")
+        else:
+            print("请求失败：", response.status_code)
+
+    def ensure_dir_exist(self, name):
+        """确保文件夹存在,并返回文件夹ID"""
+        dir_list = self.get_dir()
+        for dir in dir_list:
+            if dir.get("dirName") == name:
+                return dir.get("idStr")
+        return self.create_dir(name)
+
+
     @retry(stop_max_attempt_number=3, wait_fixed=10000)
-    def dir_list(self):
-        """获取文件夹内所有的转写任务和状态"""
+    def dir_list(self, dir_id="-1"):
+        """获取文件夹内所有的转写任务和状态
+        Args:
+            dir_id: 文件夹ID，默认为根目录"-1"
+        Returns:
+            list: 转写任务列表，每个元素包含任务ID、记录ID、标题和状态
+        """
         result = []
         pageNo = 1
         pageSize = 48
         
         while True:
             payload = {
-                "dirIdStr": "-1",
+                "dirIdStr": dir_id,
                 "pageNo": pageNo,
                 "pageSize": pageSize,
                 "status": [20, 30, 40, 41],  #20 正在转 30是成功 40是失败
@@ -161,7 +200,7 @@ class TongyiClient:
             print(f"处理转写结果时出错：{str(e)}")
             raise  # 重新抛出异常以触发重试
 
-    @retry(stop_max_attempt_number=3, wait_fixed=10000)
+    @retry(stop_max_attempt_number=10, wait_fixed=10000)
     def get_all_lab_info(self, transId):
         """获取实验室信息（摘要、思维导图等）"""
         url = "https://tw-efficiency.biz.aliyun.com/api/lab/getAllLabInfo?c=tongyi-web"
@@ -231,51 +270,13 @@ class TongyiClient:
             print(f"处理实验室信息时出错：{e}")
             raise  # 重新抛出异常以触发重试
 
-    @retry(stop_max_attempt_number=3, wait_fixed=5000)
-    def parse_net_source_url(self, url: str) -> Optional[Dict]:
-        """解析网络音频源URL
+    @retry(stop_max_attempt_number=10, wait_fixed=10000)
+    def prepare_audio_file(self, url: str) -> Optional[List[Dict]]:
+        """准备音频文件信息
         Args:
             url: 音频URL
         Returns:
-            Optional[Dict]: 解析结果，失败返回None。成功时返回字典：
-            {
-                "taskId": str,            # 解析任务ID，用于后续查询解析状态
-                "needLinkOssResource": bool  # 是否需要链接OSS资源
-            }
-        """
-        try:
-            payload = {
-                "action": "parseNetSourceUrl",
-                "version": "1.0",
-                "url": url
-            }
-            
-            url = "https://tw-efficiency.biz.aliyun.com/api/trans/parseNetSourceUrl?c=tongyi-web"
-            response = requests.post(url, headers=self.headers, json=payload)
-            
-            if response.ok:
-                response_data = response.json()
-                if response_data.get("success"):
-                    return response_data.get("data")
-                else:
-                    print(f"解析失败：{response_data.get('message', '未知错误')}")
-            else:
-                print(f"请求失败：{response.status_code}")
-            return None
-            
-        except Exception as e:
-            print(f"解析URL时出错：{str(e)}")
-            return None
-
-
-    @retry(stop_max_attempt_number=10, wait_fixed=10000)
-    def query_net_source_parse(self, task_id: str, dir_id: str = "-1") -> Optional[List[Dict]]:
-        """查询音频源解析状态
-        Args:
-            task_id: 解析任务ID
-            dir_id: 文件夹ID，默认为根目录"-1"
-        Returns:
-            Optional[List[Dict]]: 解析结果列表，失败返回None。成功时返回列表，每个元素为：
+            Optional[List[Dict]]: 失败返回None。成功时返回列表，每个元素为：
             {
                 "fileId": str,      # 文件ID
                 "dirId": str,       # 文件夹ID
@@ -292,18 +293,47 @@ class TongyiClient:
                 }
             }
         """
-        payload = {
-            "action": "queryNetSourceParse",
-            "version": "1.0",
-            "taskId": task_id
-        }
-        url = "https://tw-efficiency.biz.aliyun.com/api/trans/queryNetSourceParse?c=tongyi-web"
-        
         try:
-            response = requests.post(url, headers=self.headers, json=payload)
-            if response.ok:
-                data = response.json().get("data")
-                status = data.get("status")                
+            # 1. 解析URL获取任务ID
+            parse_payload = {
+                "action": "parseNetSourceUrl",
+                "version": "1.0",
+                "url": url
+            }
+            parse_url = "https://tw-efficiency.biz.aliyun.com/api/trans/parseNetSourceUrl?c=tongyi-web"
+            parse_response = requests.post(parse_url, headers=self.headers, json=parse_payload)
+            
+            if not parse_response.ok:
+                print(f"解析URL请求失败：{parse_response.status_code}")
+                return None
+                
+            parse_data = parse_response.json()
+            if not parse_data.get("success"):
+                print(f"解析URL失败：{parse_data.get('message', '未知错误')}")
+                return None
+                
+            task_id = parse_data.get("data", {}).get("taskId")
+            if not task_id:
+                print("未获取到任务ID")
+                return None
+            
+            # 2. 查询解析状态
+            query_payload = {
+                "action": "queryNetSourceParse",
+                "version": "1.0",
+                "taskId": task_id
+            }
+            query_url = "https://tw-efficiency.biz.aliyun.com/api/trans/queryNetSourceParse?c=tongyi-web"
+            
+            while True:
+                query_response = requests.post(query_url, headers=self.headers, json=query_payload)
+                if not query_response.ok:
+                    print(f"查询状态请求失败：{query_response.status_code}")
+                    return None
+                    
+                data = query_response.json().get("data")
+                status = data.get("status")
+                
                 if status == 0:  # 成功
                     urls = data.get("urls", [])
                     if not urls:
@@ -313,7 +343,6 @@ class TongyiClient:
                     audio = urls[0]
                     return [{
                         "fileId": audio.get("fileId"),
-                        "dirId": dir_id,
                         "fileSize": audio.get("size", 0),
                         "tag": {
                             "fileType": "net_source",
@@ -326,21 +355,17 @@ class TongyiClient:
                             "originalTag": "",
                         }
                     }]
-                    
                 elif status == -1:  # 处理中
                     print("解析处理中，等待重试...")
                     time.sleep(1)
-                    return self.query_net_source_parse(task_id=task_id, dir_id=dir_id)
+                    continue
                 else:  # 失败
                     print(f"解析失败，状态码: {status}")
                     return None
-            else:
-                print(f"请求失败：{response.status_code}")
-                return None
+                    
         except Exception as e:
-            print(f"查询解析状态时出错: {str(e)}")
+            print(f"准备音频文件时出错: {str(e)}")
             return None
-
 
     def start_transcription(self,files,dir_id="-1" ):
         """批量提交转写任务"""

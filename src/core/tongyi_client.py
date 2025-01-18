@@ -71,9 +71,10 @@ class TongyiClient:
     def ensure_dir_exist(self, name):
         """确保文件夹存在,并返回文件夹ID"""
         dir_list = self.get_dir()
-        for dir in dir_list:
-            if dir.get("dirName") == name:
-                return dir.get("idStr")
+        for dir_item in dir_list:
+            dir_info = dir_item.get('dir', {})
+            if dir_info.get("dirName") == name:
+                return dir_info.get("idStr")
         return self.create_dir(name)
 
 
@@ -113,7 +114,7 @@ class TongyiClient:
                             "title": record.get("recordTitle"),   # 文件名也是任务名
                             "status": record.get("recordStatus")  # 任务状态20正在转 30成功 40失败
                         })
-                        print(f"找到转写记录: {record.get('recordTitle')} 状态: {record.get('recordStatus')}, 任务ID: {record.get('genRecordId')},记录ID：{record.get('recordId')}")
+                        # print(f"找到转写记录: {record.get('recordTitle')} 状态: {record.get('recordStatus')}, 任务ID: {record.get('genRecordId')},记录ID：{record.get('recordId')}")
                 pageNo += 1
             else:
                 print(f"请求失败: {response.status_code}")

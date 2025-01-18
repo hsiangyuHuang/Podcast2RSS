@@ -259,7 +259,7 @@ class RSSProcessor:
 </rss>"""
         return rss_content
 
-    def process_single(self, pid: str):
+    def generate_rss(self, pid: str):
         """处理单个播客生成RSS"""
         try:
             # 加载数据
@@ -281,6 +281,6 @@ if __name__ == "__main__":
     # 初始化处理器
     processor = RSSProcessor()
     # 处理播客并生成RSS
-    processor.process_single(
+    processor.generate_rss(
         pid="658057ae3d1caa927acbaf60"
     )

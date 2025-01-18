@@ -1,11 +1,12 @@
-from typing import List, Dict, Any, Optional
 import json
-import os
-from pathlib import Path
-import time
 import logging
-from src.core.tongyi_client import TongyiClient
+import os
+import time
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 from src.core.storage import Storage
+from src.core.tongyi_client import TongyiClient
+from src.core.exceptions import TranscriptionError
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
@@ -167,7 +168,7 @@ class TranscriptionProcessor:
                             running += 1
                             episode['task_id'] = matching_record["taskId"]
                             episode['record_id'] = matching_record["recordId"]
-                            logger.info(f"任务进行中: {episode['title']}")
+                            # logger.info(f"任务进行中: {episode['title']}")
                     else:
                         running += 1
                         logger.info(f"任务可能正在初始化: {episode['title']}")
@@ -180,16 +181,19 @@ class TranscriptionProcessor:
                 if running == 0:
                     break
                     
-                time.sleep(30)  # 等待30秒后继续检查
-            
+                time.sleep(60)  # 等待60秒后继续检查
+            logger.info(f"批次转写耗时: {time.time() - start_time:.1f}秒")
             # 5. 清理未完成和失败的任务
+            # 只清理当前文件夹内的任务
+            current_dir_tasks = self.client.dir_list(dir_id)
             tasks_to_clean = [
                 task["record"] for task in tasks 
                 if task.get("record") and task["record"]["status"] in (20, 40, 41)
+                and any(dt["recordId"] == task["record"]["recordId"] for dt in current_dir_tasks)
             ]
             
             if tasks_to_clean:
-                logger.info(f"开始清理 {len(tasks_to_clean)} 个任务...")
+                logger.info(f"开始清理当前文件夹中的 {len(tasks_to_clean)} 个无效任务...")
                 for task in tasks_to_clean:
                     try:
                         if self.client.delete_task(task["recordId"]):
@@ -257,6 +261,17 @@ class TranscriptionProcessor:
 
 
 def transcribe_podcast(pid):
+    """处理播客的音频转写
+    
+    Args:
+        pid: 播客ID
+        
+    Returns:
+        bool: 如果有新的转写内容返回True，否则返回False
+        
+    Raises:
+        TranscriptionError: 转写过程中出现错误
+    """
     try:
         # 初始化必要的对象
         storage = Storage()
@@ -268,7 +283,7 @@ def transcribe_podcast(pid):
         logger.info(f"找到 {len(untranscribed_episodes)} 个未转写的剧集")
         if not untranscribed_episodes:
             logger.info("没有需要转写的剧集")
-            return True
+            return False
             
         # 开始处理转写任务
         processor = TranscriptionProcessor(tongyi_client=tongyi_client, storage=storage)
@@ -277,7 +292,7 @@ def transcribe_podcast(pid):
         return True
     except Exception as e:
         logger.error(f"处理过程中发生错误: {e}")
-        raise
+        raise TranscriptionError(f"转写失败: {str(e)}")
 
 if __name__ == "__main__":
     pid="658057ae3d1caa927acbaf60"

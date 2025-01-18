@@ -1,94 +1,86 @@
-import os
 import logging
-from pathlib import Path
-from dotenv import load_dotenv
-import requests
+import os
 import time
-import json
-from datetime import datetime
+import yaml
+from pathlib import Path
+from core.podcast import PodcastClient
+from core.transcription import transcribe_podcast
+from core.rss import RSSProcessor
+from core.exceptions import PodcastError, TranscriptionError, RSSError
 
-# 加载环境变量
-env_path = Path(__file__).parent.parent / '.env'
-load_dotenv(env_path)
+# 配置日志
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
-def get_podcast():
-    results = []
-    url = "https://api.xiaoyuzhoufm.com/v1/subscription/list"
-    data = {
-        "limit": 25,
-        "sortBy": "subscribedAt",
-        "sortOrder": "desc",
-    }
-    loadMoreKey = ""
+def main():
+    """主程序入口"""
+    start_time = time.time()
+    # 1. 读取配置
+    config_path = Path(__file__).parent.parent / "config" / "podcasts.yml"
+    with open(config_path) as f:
+        podcasts = yaml.safe_load(f)['podcasts']
+        
+    total_podcasts = len(podcasts)
+    logger.info(f"共有 {total_podcasts} 个播客需要处理")
     
-    # 确保有有效的token
-    ensure_token()
-    
-    print(f"使用的headers: {headers}")  # 添加调试信息
-    while loadMoreKey is not None:
-        if loadMoreKey:
-            data["loadMoreKey"] = loadMoreKey
-        try:
-            resp = requests.post(url, json=data, headers=headers)
-            print(f"API响应状态码: {resp.status_code}")  # 添加调试信息
-            if resp.ok:
-                loadMoreKey = resp.json().get("loadMoreKey")
-                results.extend(resp.json().get("data"))
-            else:
-                print(f"刷新token前的错误响应: {resp.text}")  # 添加调试信息
-                refresh_token()
-                raise Exception(f"Error {data} {resp.text}")
-        except Exception as e:
-            print(f"请求发生异常: {str(e)}")  # 添加调试信息
-            raise
-    return results
-
-def ensure_token():
-    """确保token有效"""
-    if "x-jike-access-token" not in headers:
-        refresh_token()
-
-def refresh_token():
-    """刷新访问令牌"""
-    url = "https://api.xiaoyuzhoufm.com/app_auth_tokens.refresh"
-    resp = requests.post(url, headers=headers)
-    if not resp.ok:
-        raise Exception(f"刷新令牌失败: {resp.text}")
-    token = resp.json().get("x-jike-access-token")
-    if not token:
-        raise Exception("未获取到有效的访问令牌")
-    headers["x-jike-access-token"] = token
-    # 等待token生效
-    time.sleep(1)
-
-def save_podcasts_to_json(podcasts, output_dir):
-    """将播客数据保存为JSON文件"""
-    # 确保输出目录存在
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # 使用时间戳作为文件名
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"podcasts_{timestamp}.json"
-    filepath = os.path.join(output_dir, filename)
-    
-    # 保存数据
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(podcasts, f, ensure_ascii=False, indent=2)
-    
-    print(f"播客数据已保存到: {filepath}")
-    return filepath
+    try:
+        # 2. 初始化处理器
+        client = PodcastClient()
+        rss_processor = RSSProcessor()
+        
+        logger.info("开始更新播客订阅数据...")
+        pids = [p['pid'] for p in podcasts if 'pid' in p]
+        client.update_all(pids)
+        
+        # 3. 处理每个播客
+        for index, podcast in enumerate(podcasts, 1):
+            pid = podcast.get('pid')
+            name = podcast.get('name')
+            if not pid or not name:
+                logger.error(f"播客配置错误: {podcast}")
+                continue
+                
+            logger.info(f"[{index}/{total_podcasts}] 开始处理播客：{name}")
+            podcast_start_time = time.time()
+            
+            try:
+                # 3.1 获取播客数据
+                logger.info(f"正在获取播客数据...")
+                episodes = client.get_episodes(pid)
+                if episodes:
+                    client.save_episodes(episodes, pid)
+                    logger.info(f"获取到 {len(episodes)} 个剧集")
+                
+                # 3.2 处理音频转写
+                logger.info(f"正在处理音频转写...")
+                try:
+                    transcribe_podcast(pid)
+                except TranscriptionError as e:
+                    logger.error(f"音频转写失败: {str(e)}")
+                    
+                # 3.3 生成RSS
+                logger.info(f"正在生成RSS...")
+                try:
+                    rss_processor.generate_rss(pid)
+                except RSSError as e:
+                    logger.error(f"RSS生成失败: {str(e)}")
+                
+                podcast_time = time.time() - podcast_start_time
+                logger.info(f"播客 {name} 处理完成，耗时：{podcast_time:.2f}秒")
+                
+            except Exception as e:
+                logger.error(f"处理播客 {name} 时发生错误：{str(e)}")
+                continue
+        
+        total_time = time.time() - start_time
+        logger.info(f"所有播客处理完成，总耗时：{total_time:.2f}秒")
+        
+    except Exception as e:
+        logger.error(f"程序执行出错：{str(e)}")
+        raise
 
 if __name__ == "__main__":
-    headers = {
-        "host": "api.xiaoyuzhoufm.com",
-        "applicationid": "app.podcast.cosmos",
-        "x-jike-refresh-token": os.getenv("REFRESH_TOKEN").strip(),
-        "x-jike-device-id": "5070e349-ba04-4c7b-a32e-13eb0fed01e7",
-    }
-    
-    # 获取播客数据
-    podcasts = get_podcast()
-    
-    # 保存到JSON文件
-    output_dir = "/Users/hsiangyu/Inbox/Podcast2RSS/data/podcasts"
-    save_podcasts_to_json(podcasts, output_dir)
+    main()

@@ -1,10 +1,10 @@
 {
     "name": "Podcast2RSS Development",
-    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
     "features": {
         "ghcr.io/devcontainers/features/python:1": {}
     },
-    "postCreateCommand": "apt-get update && apt-get install -y python3-dev build-essential python3-dev python3-setuptools python3-wheel && pip install -r requirements.txt",
+    "postCreateCommand": "apt-get update && apt-get install -y python3-dev build-essential python3-setuptools python3-wheel python3-pip python-dev-is-python3 && pip install --upgrade pip && pip install -r requirements.txt",
     "updateContentCommand": "pip install -r requirements.txt",
     "customizations": {
         "vscode": {

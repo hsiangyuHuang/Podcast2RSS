@@ -1,29 +1,32 @@
 import json
 from pathlib import Path
 from typing import Iterator, Dict
+from config.paths import DATA_DIR
 
 class Storage:
     """存储类，负责管理音频文件和转写结果的存储"""
     
     def __init__(self, base_dir: str = None):
-        if base_dir is None:
-            # 默认使用项目根目录下的data目录
-            base_dir = Path(__file__).parent.parent.parent / "data"
-        else:
-            base_dir = Path(base_dir)
-            
-        self.base_dir = base_dir
-        self.episodes_dir = base_dir / "episodes"
-        self.transcripts_dir = base_dir / "transcripts"
-        self.rss_dir = base_dir / "rss"
-        self.podcasts_dir = base_dir / "podcasts"  # 添加播客目录
+        self.base_dir = Path(base_dir) if base_dir else DATA_DIR
+        self.episodes_dir = self.base_dir / "episodes"
+        self.transcripts_dir = self.base_dir / "transcripts"
+        self.rss_dir = self.base_dir / "rss"
+        self.podcasts_dir = self.base_dir / "podcasts"
         
         # 确保目录存在
-        self.episodes_dir.mkdir(parents=True, exist_ok=True)
-        self.transcripts_dir.mkdir(parents=True, exist_ok=True)
-        self.rss_dir.mkdir(parents=True, exist_ok=True)
-        self.podcasts_dir.mkdir(parents=True, exist_ok=True)
+        self._ensure_directories()
         
+    def _ensure_directories(self):
+        """确保所有存储目录存在"""
+        directories = [
+            self.episodes_dir,
+            self.transcripts_dir,
+            self.rss_dir,
+            self.podcasts_dir
+        ]
+        for directory in directories:
+            directory.mkdir(parents=True, exist_ok=True)
+            
     def get_episodes_dir(self) -> Path:
         """获取episodes目录路径"""
         return self.episodes_dir

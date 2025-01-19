@@ -1,0 +1,35 @@
+{
+    "name": "Podcast2RSS Development",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    },
+    "postCreateCommand": "pip install --user -r requirements.txt",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "redhat.vscode-yaml"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.linting.enabled": true,
+                "python.formatting.provider": "black",
+                "editor.formatOnSave": true,
+                "editor.rulers": [88],
+                "files.trimTrailingWhitespace": true
+            }
+        }
+    },
+    "remoteEnv": {
+        "PYTHONPATH": "${containerWorkspaceFolder}",
+        "PROJECT_ROOT": "${containerWorkspaceFolder}",
+        "CONFIG_DIR": "${containerWorkspaceFolder}/config",
+        "DATA_DIR": "${containerWorkspaceFolder}/data"
+    },
+    "mounts": [
+        "source=${localWorkspaceFolder}/data,target=/workspaces/Podcast2RSS/data,type=bind,consistency=cached"
+    ]
+}

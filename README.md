@@ -3,41 +3,6 @@
 一个将小宇宙播客转换为RSS的工具，集成通义听悟实现音频转文字功能。
 
 ## 项目结构
-```
-Podcast2RSS/
-├── src/                          # 源代码目录
-│   ├── core/                     # 核心功能模块
-│   │   ├── __init__.py
-│   │   ├── podcast.py           # 播客数据获取模块
-│   │   ├── transcription.py     # 音频转写处理模块
-│   │   ├── tongyi_client.py     # 通义API服务接口
-│   │   ├── rss.py              # RSS生成模块
-│   │   └── storage.py          # 数据存储管理
-│   ├── config/                  # 模块配置目录
-│   ├── utils/                   # 工具函数目录
-│   ├── scripts/                 # 脚本工具目录
-│   └── main.py                  # 主程序入口
-│
-├── data/                        # 数据存储目录
-│   ├── podcasts/               # 播客元数据
-│   │   └── [pid].json         # 每个播客一个文件
-│   ├── episodes/               # 单集信息
-│   │   └── [pid].json         # 每个播客的所有单集
-│   ├── transcripts/            # 转写内容
-│   │   └── [pid]/             # 每个播客一个目录
-│   │       └── [episode_id].json # 单集的转写结果
-│   └── rss/                    # 生成的RSS文件
-│       └── [pid].xml          # 每个播客的RSS文件
-│
-├── config/                      # 全局配置目录
-│   └── podcasts.yml           # 播客配置文件
-│
-├── tests/                       # 测试用例目录
-├── logs/                       # 日志文件目录
-├── static/                     # 静态资源目录
-│
-├── requirements.txt            # 项目依赖
-└── .env                       # 环境变量配置
 
 ## 运行流程
 

@@ -97,7 +97,7 @@ def main():
                 except TranscriptionError as e:
                     logger.error(f"音频转写失败: {str(e)}")
                     continue
-                    
+
                 # 3.3 生成RSS
                 logger.info(f"检测到新的转写内容，正在生成RSS...")
                 try:

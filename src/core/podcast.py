@@ -146,7 +146,8 @@ class PodcastClient:
                 },
                 "pubDate": pendulum.parse(episode.get("pubDate")).in_tz("UTC").int_timestamp if episode.get("pubDate") else None,
                 "author": episode.get("podcast", {}).get("author"),
-                "explicit": episode.get("explicit", False)
+                "explicit": episode.get("explicit", False),
+                "payType": episode.get("payType", "FREE")
             }
             
             existing_episodes[episode_id] = episode_data

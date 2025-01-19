@@ -1,7 +1,13 @@
 import json
 from pathlib import Path
 from typing import Iterator, Dict
-from config.paths import DATA_DIR
+import sys
+
+# 添加项目根目录到Python路径
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root))
+
+from src.config.paths import DATA_DIR
 
 class Storage:
     """存储类，负责管理音频文件和转写结果的存储"""

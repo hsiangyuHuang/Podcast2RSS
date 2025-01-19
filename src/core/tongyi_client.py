@@ -69,7 +69,7 @@ class TongyiClient:
             print("请求失败：", response.status_code)
 
     def ensure_dir_exist(self, name):
-        """确保文件夹存在,并返回文件夹ID"""
+        """输入文件夹名，确保文件夹存在，并返回文件夹ID"""
         dir_list = self.get_dir()
         for dir_item in dir_list:
             dir_info = dir_item.get('dir', {})
@@ -123,17 +123,17 @@ class TongyiClient:
 
 
     @retry(stop_max_attempt_number=5, wait_fixed=10000)
-    def get_trans_result(self, transId):
+    def get_trans_result(self, taskId):
         """获取转写结果
         Args:
-            transId: 转写任务ID
+            taskId: 转写任务ID
         Returns:
             list: 转写结果列表，每个元素包含时间戳和文本内容
         """
         payload = {
             "action": "getTransResult",
             "version": "1.0",
-            "transId": transId,
+            "transId": taskId,
         }
         url = "https://tw-efficiency.biz.aliyun.com/api/trans/getTransResult?c=tongyi-web"
         
@@ -202,13 +202,13 @@ class TongyiClient:
             raise  # 重新抛出异常以触发重试
 
     @retry(stop_max_attempt_number=5, wait_fixed=10000)
-    def get_all_lab_info(self, transId):
+    def get_all_lab_info(self, taskId):
         """获取实验室信息（摘要、思维导图等）"""
         url = "https://tw-efficiency.biz.aliyun.com/api/lab/getAllLabInfo?c=tongyi-web"
         payload = {
             "action": "getAllLabInfo",
             "content": ["labInfo", "labSummaryInfo"],
-            "transId": transId,
+            "transId": taskId,
         }
         
         response = requests.post(url, headers=self.headers, json=payload)
@@ -342,15 +342,9 @@ class TongyiClient:
                         return None
                     # 构造转写任务需要的文件信息
                     audio = urls[0]
-                    # 检查文件大小
-                    file_size = audio.get("size", 0)
-                    if file_size < 2097152:  # 1MB = 1048576 bytes
-                        print(f"音频文件大小（{file_size}字节）小于1MB，跳过转写")
-                        return None
-                        
                     return [{
                         "fileId": audio.get("fileId"),
-                        "fileSize": file_size,
+                        "fileSize": audio.get("size", 0),
                         "tag": {
                             "fileType": "net_source",
                             "showName": eid,
@@ -406,29 +400,23 @@ class TongyiClient:
             return response_data.get("success", False)
         return False
 
+    # def is_transcribed_in_dir(self, dir_id: str, eid: str) -> bool:
+    #     """检查指定播客目录下是否已有对应剧集的转写文件"""
+    #     try:
+    #         files = self.dir_list(dir_id)
+            
+    #         # 检查是否有以eid命名的文件
+    #         for file in files:
+    #             title = file.get('title', '')  # 使用title而不是showName
+    #             if eid in title and file.get('status') == 30:  # 30表示转写成功
+    #                 return True
+                    
+    #         return False
+    #     except Exception as e:
+    #         logger.error(f"检查转写状态时出错: {str(e)}")
+    #         raise  # 重新抛出异常以便上层处理
+
 if __name__ == "__main__":
     client = TongyiClient()
-    # files=client.dir_list(client.ensure_dir_exist('5e280faf418a84a0461fbd39'))
-    # print(files)
-
-    result = []
-    pageNo = 1
-    pageSize = 48
-        
-    while True:
-        payload = {
-            "dirIdStr": '5e280faf418a84a0461fbd39',
-            "pageNo": pageNo,
-            "pageSize": pageSize,
-            "status": [20, 30, 40, 41],  #20 正在转 30是成功 40是失败
-        }
-        url = "https://qianwen.biz.aliyun.com/assistant/api/record/list?c=tongyi-web"
-        response = requests.post(url, headers=client.headers, json=payload)
-        
-        if response.status_code == 200:
-            result.append(response.json())
-            pageNo += 1
-        else:
-            print(f"请求失败: {response.status_code}")
-            break
-    print(result)
+    files=client.dir_list(client.ensure_dir_exist('6022a180ef5fdaddc30bb101'))
+    print(files)

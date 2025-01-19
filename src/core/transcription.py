@@ -36,6 +36,8 @@ class EpisodeCollector:
             with episode_file.open() as f:
                 data = json.load(f)
             
+            # 将数据转换为列表并按发布时间排序
+            episode_list = []
             for eid, episode_data in data.items():
                 # 构建episode信息
                 episode = {
@@ -43,24 +45,32 @@ class EpisodeCollector:
                     'eid': eid,  # 直接使用key作为eid
                     'title': episode_data.get('title'),
                     'duration': episode_data.get('duration'),
-                    'audio_url': episode_data.get('enclosure', {}).get('url')
+                    'audio_url': episode_data.get('enclosure', {}).get('url'),
+                    'published_at': episode_data.get('pubDate')  # 添加发布时间
                 }
-                
+                episode_list.append(episode)
+            
+            # 按发布时间降序排序并只取最新的50集
+            episode_list.sort(key=lambda x: x.get('published_at', ''), reverse=True)
+            episode_list = episode_list[:50]
+            
+            # 处理排序后的剧集
+            for episode in episode_list:
                 # 检查必要字段
-                if not all(episode.values()):
+                if not all([episode['pid'], episode['eid'], episode['title'], episode['duration'], episode['audio_url']]):
                     logger.warning(f"剧集数据不完整: {episode}")
                     continue
                 
                 # 检查时长限制
                 duration = episode.get('duration')
                 if duration and duration > 18000:  # 超过5小时的单集跳过
-                    logger.info(f"剧集时长超过5小时，跳过转写: {episode['title']} ({eid}), 时长: {duration/3600:.1f}小时")
+                    logger.info(f"剧集时长超过5小时，跳过转写: {episode['title']} ({episode['eid']}), 时长: {duration/3600:.1f}小时")
                     continue
                     
                 # 检查是否已转写
-                if not self.storage.is_transcribed(pid, eid):
+                if not self.storage.is_transcribed(pid, episode['eid']):
                     episodes.append(episode)
-                    logger.debug(f"找到未转写剧集: {episode['title']} ({eid})")
+                    logger.debug(f"找到未转写剧集: {episode['title']} ({episode['eid']})")
                     
         except Exception as e:
             logger.error(f"处理文件 {episode_file} 时出错: {e}")
@@ -93,7 +103,7 @@ class TranscriptionProcessor:
         tasks = []
         for episode in episodes:
             try:
-                file_list = self.client.prepare_audio_file(episode['audio_url'])
+                file_list = self.client.prepare_audio_file(episode['eid'],episode['audio_url'])
                 if not file_list:
                     logger.error(f"获取音频文件信息失败: {episode['title']}")
                     continue
@@ -142,11 +152,11 @@ class TranscriptionProcessor:
                 for task in tasks:
                     episode = task["episode"]
                     file_info = task["file_info"]
-                    task_file_name = file_info.get("tag", {}).get("showName", "")
+                    episode_eid = episode["eid"]  # 获取episode的eid
                     
                     # 查找对应的任务记录
                     matching_record = next(
-                        (record for record in all_tasks if record["title"] == task_file_name),
+                        (record for record in all_tasks if record["title"] == episode_eid),
                         None
                     )
                     

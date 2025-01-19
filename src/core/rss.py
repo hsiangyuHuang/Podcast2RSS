@@ -161,6 +161,19 @@ class RSSProcessor:
         if not episodes:
             raise ValueError(f"播客文件为空: {episodes_file}")
             
+        # 将episodes字典转换为列表并按发布时间排序
+        episode_list = []
+        for eid, episode_data in episodes.items():
+            episode_data['eid'] = eid
+            episode_list.append(episode_data)
+        
+        # 按发布时间降序排序并只取最新的50集
+        episode_list.sort(key=lambda x: x.get('pubDate', ''), reverse=True)
+        episode_list = episode_list[:50]
+        
+        # 将列表转换回字典格式
+        filtered_episodes = {episode.pop('eid'): episode for episode in episode_list}
+            
         # 3. 构建数据结构
         temp_data = {
             "podcast": {
@@ -170,7 +183,7 @@ class RSSProcessor:
                 "description": podcast_info.get('brief') or podcast_info.get('description') or '',
                 "link": self._generate_podcast_link(pid)
             },
-            "episodes": episodes
+            "episodes": filtered_episodes
         }
         
         # 4. 处理每个单集

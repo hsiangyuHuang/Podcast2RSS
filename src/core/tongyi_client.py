@@ -114,7 +114,7 @@ class TongyiClient:
                             "title": record.get("recordTitle"),   # 文件名也是任务名
                             "status": record.get("recordStatus")  # 任务状态20正在转 30成功 40失败
                         })
-                        # print(f"找到转写记录: {record.get('recordTitle')} 状态: {record.get('recordStatus')}, 任务ID: {record.get('genRecordId')},记录ID：{record.get('recordId')}")
+                        print(f"找到转写记录: {record.get('recordTitle')} 状态: {record.get('recordStatus')}, 任务ID: {record.get('genRecordId')},记录ID：{record.get('recordId')}")
                 pageNo += 1
             else:
                 print(f"请求失败: {response.status_code}")
@@ -272,7 +272,7 @@ class TongyiClient:
             raise  # 重新抛出异常以触发重试
 
     @retry(stop_max_attempt_number=10, wait_fixed=10000)
-    def prepare_audio_file(self, url: str) -> Optional[List[Dict]]:
+    def prepare_audio_file(self, eid,url: str) -> Optional[List[Dict]]:
         """准备音频文件信息
         Args:
             url: 音频URL
@@ -353,7 +353,7 @@ class TongyiClient:
                         "fileSize": file_size,
                         "tag": {
                             "fileType": "net_source",
-                            "showName": audio.get("showName"),
+                            "showName": eid,
                             "lang": "cn",
                             "roleSplitNum": 0,
                             "translateSwitch": 0,
@@ -408,5 +408,27 @@ class TongyiClient:
 
 if __name__ == "__main__":
     client = TongyiClient()
-    files=client.prepare_audio_file('https://media.xyzcdn.net/6022a180ef5fdaddc30bb101/FtTZM4QZaahgSj8MGG7xfRJ-O1hs.mp3')
-    print(files)
+    # files=client.dir_list(client.ensure_dir_exist('5e280faf418a84a0461fbd39'))
+    # print(files)
+
+    result = []
+    pageNo = 1
+    pageSize = 48
+        
+    while True:
+        payload = {
+            "dirIdStr": '5e280faf418a84a0461fbd39',
+            "pageNo": pageNo,
+            "pageSize": pageSize,
+            "status": [20, 30, 40, 41],  #20 正在转 30是成功 40是失败
+        }
+        url = "https://qianwen.biz.aliyun.com/assistant/api/record/list?c=tongyi-web"
+        response = requests.post(url, headers=client.headers, json=payload)
+        
+        if response.status_code == 200:
+            result.append(response.json())
+            pageNo += 1
+        else:
+            print(f"请求失败: {response.status_code}")
+            break
+    print(result)

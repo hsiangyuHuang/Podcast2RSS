@@ -122,7 +122,7 @@ class TongyiClient:
         return result
 
 
-    @retry(stop_max_attempt_number=3, wait_fixed=10000)
+    @retry(stop_max_attempt_number=5, wait_fixed=10000)
     def get_trans_result(self, transId):
         """获取转写结果
         Args:
@@ -201,7 +201,7 @@ class TongyiClient:
             print(f"处理转写结果时出错：{str(e)}")
             raise  # 重新抛出异常以触发重试
 
-    @retry(stop_max_attempt_number=10, wait_fixed=10000)
+    @retry(stop_max_attempt_number=5, wait_fixed=10000)
     def get_all_lab_info(self, transId):
         """获取实验室信息（摘要、思维导图等）"""
         url = "https://tw-efficiency.biz.aliyun.com/api/lab/getAllLabInfo?c=tongyi-web"
@@ -342,9 +342,15 @@ class TongyiClient:
                         return None
                     # 构造转写任务需要的文件信息
                     audio = urls[0]
+                    # 检查文件大小
+                    file_size = audio.get("size", 0)
+                    if file_size < 2097152:  # 1MB = 1048576 bytes
+                        print(f"音频文件大小（{file_size}字节）小于1MB，跳过转写")
+                        return None
+                        
                     return [{
                         "fileId": audio.get("fileId"),
-                        "fileSize": audio.get("size", 0),
+                        "fileSize": file_size,
                         "tag": {
                             "fileType": "net_source",
                             "showName": audio.get("showName"),
@@ -402,4 +408,5 @@ class TongyiClient:
 
 if __name__ == "__main__":
     client = TongyiClient()
-    client.dir_list()
+    files=client.prepare_audio_file('https://media.xyzcdn.net/6022a180ef5fdaddc30bb101/FtTZM4QZaahgSj8MGG7xfRJ-O1hs.mp3')
+    print(files)

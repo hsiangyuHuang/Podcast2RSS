@@ -1,0 +1,1208 @@
+{
+  "pid": "60502e253c92d4f62c2a9577",
+  "eid": "671e5d7644ae79002c73d434",
+  "title": "NotebookLM刷屏后，我们总结了10个用法并重新回答一个老问题：AI如何影响内容？",
+  "task_id": "3vl8qg4j8j8oqpr2",
+  "transcription": [
+    {
+      "time": "00:00:02",
+      "text": "欢迎收听十字路口，我们关注新一代AI技术浪潮带来的行业新变化和创业新机会。十字路口是乔布斯对苹果公司的一个比喻，形容他站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI正在给各行各业带来改变。我们寻找、访谈和凝聚AI时代的积极行动者，和他们一起探索和拥抱新变化、新的可能性。我是主播科技杨元成，联合创办了街旁新石像和唐岛。我相信科技尤其是AI会在未来十年彻底改变社会，赋能人类。欢迎大家找我聊天，碰撞想法，链接下一个可能性。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:47",
+      "text": "我是主播戎慧，目前在一家专注科技投资的风险投资机构工作，之前在第一财经周刊担任驻硅谷记者。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:00:57",
+      "text": "在本周节目正式开始前，照例是我们的十字路口黑板报栏目。在这个栏目中我们将邀请朋友们来介绍他们的最新产品、活动、招聘等等动态。上周我们讲了两个朋友的新项目，这周我们自己也有两件AI新鲜事跟大家分享。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:15",
+      "text": "第一件是我们最近在新世相发起了一个叫做AI遗嘱的产品，邀请年轻人来写遗嘱，首先别被遗嘱这个词吓到了，这不是什么不吉利的事儿，恰恰相反，它是一次可以让人去深度思考生命的机会。我们希望通过产品去激发年轻人通过直面死亡来思考生命的意义。AI遗嘱怎么写呢？并不是让AI来帮你写，而是请AI来对你进行采访。AI很会引导，他会不断的追问细节，追问你在答案背后的深层思考。AI大概会提出十个左右的问题，之后AI将会根据对话整理出一篇完整的遗嘱。目前已经有大约1万人在AI的帮助下写下了自己的遗嘱，也欢迎你来试一试。通过写遗嘱在与死亡四目相对之后，我们或许能够看清人究竟在为什么而活，从对死亡的思索当中获得对生的领悟。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:16",
+      "text": "而今天的第二条黑板报，是我知道这个十字路口的朋友当中，不少都在海外创业，尤其是在硅谷创业。大家多多少少都在考虑利用好中国优秀的研发资源，在国内设立一个研发团队。因为不当工程师的薪资低，而且沟通与交付的质量都很好。但是如果创始团队在国外，要远程在国内来招聘管理，甚至哪怕是发工资，交五险一金都挺繁琐的。所以最近我有朋友开始在系统性的提供这项服务，帮助了二十多家在硅谷的AI公司在国内招聘和管理研发团队。他们在北京、上海和深圳都设立了办公室。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:03:01",
+      "text": "如果你有类似的需求，欢迎在修notes当中添加十字路口的小助理的微信来了解更多。同时如果你是正在寻找新工作的工程师，也建议你可以考虑一下远程去为硅谷的AI公司工作的机会。不但可以赚美金，而且如果你加入的是华人创办的公司，我想语言沟通的问题应该也不会太大。感兴趣的工程师的朋友们，也欢迎在修nos里面找到10字路口小助理的微信进行添加。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:03:32",
+      "text": "大家好，欢迎收听这期的十字路口。这期播客是久违的我们俩聊天的形式。其实最初是我们俩想聊一聊中秋节前我去香港参加生动活泼主办的future and remix活动。特别是我在其中主持了一个关于AI如何改变我们所消费的内容的一个圆桌讨论。这个圆桌讨论的出发点是AI显著的降低了内容创作的门槛之后，让更多的人有机会成为创作作者，生产出更多有趣的内容。这必然会给信息消费供给和生产带来很多变化。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:06",
+      "text": "很有意思的是就是在这个活动之后，我们觉得AI和内容这个领域出现了一个新的可能会带来非常多改变的一个非常重要的产品notebook LM。所以我们今天就决定从no book LM助手来聊一聊我们的使用体验。我们看到它的一些使用场景和站在今天来看这个notebook IOM出现，并且看起来它正在朝着一个杀手级应用的方向飞奔。那我们现在站在今天这个角度上，又要怎么来回答这个panel的问题？首先我们先来请cozy来给大家简单介绍一下no book LM。虽然很多朋友其实可能已经用了，但是对还不了解notebook LM的朋友先来快速了解一下它是什么。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:50",
+      "text": "No book LM是google lab出的一款产品，然后它其实说来和它的名字是一样的，是一个notebook，是一个笔记本。你可以把你在某个主题之下的所有的内容全部丢给他，然后向他提问，请他生成提纲，甚至生成一段音频。比如说如果你最近在研究某种小鸟，比如说你在研究夜路，那你就可以把夜路的10个PDF，什么100个音频，十个视频全部都丢给他。然后这个时候你可以请他用他最牛逼的，也是在网上最广为流传的那个功能，就生成一个音频。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:05:27",
+      "text": "这个音频是两个播客主播在这儿一本正经，然后又非常有活力的轻松的针对你的内容来聊天。然后他之所以能够刷屏，就是因为这个音频它自然准确、充满活力，讲的比真人还要好。然后我其实觉得这么介绍，有一点就是难以用语言表达他有多好。所以我们给大家做了一个例子，就我们把十字路口这档播客的介绍，还有我们历史上做过的一些内容，全部丢给了notebook LM。然后它有一个特别强的地方，就是它支持超强的上下文窗口。所以丢给他的内容再多，他都能处理的还蛮好的。接下来大家听到的这一段音频，这一段二人播客就是notebook LM生成的对十字路口的介绍，大家听听看，可以感受一下。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:06:23",
+      "text": "Like we're standing on the edge of something massive. Well, today we're diving into that feeling, specifically the world of AI. And we're doing IT through this chinese podcast called crossing. I think .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:06:37",
+      "text": "what's really interesting about crossing is a IT really focuses on the intersection of AI with business and entrepreneurship. You know, it's about making AI related, able, accessible, even exciting for those trying ride the wave right of this tech shift.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:06:52",
+      "text": "And it's not just another like dry technical podcast. The name itself crossing seems to suggest a bridge between the complexities of AI. And this very human desire to, like.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:07:05",
+      "text": "grasped and use exactly the show. IT clever draws this parallel with with how Steve jobs described apple standing at, you know, at the crossroads of technology and humanity. And crossing is suggesting, I think, that it's in that convergence. You know, it's where things get really interesting.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:07:20",
+      "text": "I like so it's about finding like the human story within the code. So I got shown, note episode descriptions, all that good stuff. What's the core philosophy? Would you say that's driving this podcast?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:07:31",
+      "text": "So at its heart, I think crossing is driven by this um this very strong belief that AI is a force for good is a tool that has the power to empower individuals and revolutionize how industries work. They're very intentional about emphasizing the human .",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:07:47",
+      "text": "element so well.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:07:48",
+      "text": "They actually talk about their human touches, how the host personality shine through, how they really delve into the emotional and societal impacts of AI you know, explore themes of the shifts, financial and certainty, even, uh, you know, the future of human connection in this AI driven world.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:08:06",
+      "text": "不知道大家听完是什么感受，反正我其实会觉得很多时候比我说的好多了。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:13",
+      "text": "我是觉得他们说的百分之百都比我好啊。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:08:17",
+      "text": "那到今天寇姐你会觉得他是一个kilar APP吗？因为其实继ChatGPT character点AI之后，好像no book LM是一个最新出现的一个相对来说更现象级的一个产品。但是另外一个点是我们既然在今天这个时间点，现在已经十月了，这个产品其实出的挺早，他是九月的时候才被更多的人看到了。那你当时用跟现在用的感受有又有什么不一样呢？",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:45",
+      "text": "我觉得首先这个产品是迅速的刷屏的，尤其是他用这个生成的音频，大家真的都叹为观止，自然就传播起来了。然后我自己感觉这一个月过去看到了越来越多的用例，所以今天其实我们也准备了十个我们看到的notebook LM，大家用的比较特别的又有价值的一些use case来和大家分享。这是一方面，待会儿我们会给大家讲这个部分。然后另外一方面是其实这个一个月的top OM还是在不断的升级。比如说他现在支持了团队，支持了公司的协作，这个我觉得也是蛮重要的一个升级的。因为大家共同做一个项目这件事情，然后这一个月其实有非常多关于notebook LM怎么用的文章和视频在网上到处都流传。然后这里面有一些是大家想得到的，有一些是非常搞笑的。然后我们今天会给大家分享十个，有一种抛砖引玉，给大家一些启发，给大家一些看看别人在怎么用的这样的参考。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:09:46",
+      "text": "比如第一个，我们先说一个搞笑的，就是有人试着把自己的简历丢进去，然后请这两位主播生成一段夸夸播客。然后你可以听到两个人对你的简历当中的各种细枝末节都表现出强大的兴趣和浓厚的情绪价值。甚至有人讲说，听这两位主播如此热情洋溢的讨论，我表扬我这个效果简直堪比去看了一次心理医生。然后第二个看到的用例是非常质朴的，就是把会议记录丢给他。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:10:23",
+      "text": "因为大家知道在公司越大组织越大，有时候会议就越冗长，然后现在会议也都有录音，然后有时候老板也会要求说，今天你没有来这个会，那你下来把这个录音听一下，至少你要开up。所以notebook LM就提供了一个可能是你可以把2个小时的会议音频丢给它它给你生成一个五分钟或十分钟的二人对谈的博客。这个对谈就听起来肯定比领导发言有趣多了。因为大家在刚才也听到了，两个人是表达能力也好，幽默感也好，这种情绪强度也好，让你听得下去，这是第二个用法。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:11:00",
+      "text": "然后第三个用法是我看到有人把一本红楼梦整个丢进去，或者把一本百年孤独整个丢进去，然后请AI来讲书，notebook OM生成的这个讲书的内容也挺好玩的，这个是第三个用例。然后第四个是我看到这个国内的产品，莫妮卡，他们出了一款新产品，这是一个APP。这个APP叫做ref podcast，RFF podcast.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:11:27",
+      "text": "它其实和notebook IOM是相关，是被他们启发。他做的事情是什么呢？他会把protest hunt或者githa圈定，或者hugging face，或者这个arx就上面每天的热门的内容抓取下来，然后再生成一段播客。这样你就像每天听晨间新闻一样，只是你听的晨间新闻是当天由AI去抓取的你感兴趣的信息源的当日的热门内容。然后生成了一段听起来像模像样的，品质蛮高的一个播客。我觉得这个是一个非常迅速的有执行力的一个落地。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:12:12",
+      "text": "其实很多朋友听到notebook OM的之后有一个反应就是我是不是可以让他取代以后每天早上的国际新闻或者国内新闻这样的早间广播？理论上是的，只是今天还没有人去认真的做。我看到莫妮卡团队他们做了这么一个产品还是蛮感慨的，但他们选的场景是比较垂直的，是针对创投行业或者做AI领域的朋友们感兴趣的内容去做的产品。这是一个超越了notebook OM，就它启发出来的新产品，这是第四点，我看到第五个有趣的这个应用的场景是，因为大家知道这个AI大神伊利推荐了非常多的论文。看论文这个事情其实还是蛮枯燥的。所以就有伊利亚的粉丝把伊利亚曾经推荐过的所有的论文一起丢给了notebook OM，然后请他生成了podcast，并且还把这个podcast上架到了spotify。现在一共有30期，这个podcast的名字叫做the AI research，大家感兴趣可以去听一下。我觉得这其实也是某种意义的科普，就直接把论文变成科普的小音频，让大家听起来更加的轻松。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:13:25",
+      "text": "那个Angel k party他自己也做了一个类似的，但不过这个应该是他自己做，因为他也是这个book LM的超级支持者，他是把一些很深奥的那些书，然后用这些书作为原文档，然后让no book LM生成了一个播客。那个播客挺深刻的，也在spotify上。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:47",
+      "text": "对，其实他这背后我觉得包括红楼梦、百年孤独，还有这些论文，他们都类似，就是把一些大家读起来很费劲。甚至有点读不下去的一些内容。但大家又感兴趣又觉得有价值的内容，把它换一种形式来去解读，来去表达。所以过去其实也有人讲书，对吧？也有人去讲论文。但是今天的tok OM出现之后，你可以就是接近零成本的，至少今天他还没有收费。接近零成本的把这些枯燥的、冗长的，你觉得该看但没时间看的内容，把它变成一个轻松的可以消费的音频。所以这是notebook OM让很多人感到兴奋的一个主要原因。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:14:28",
+      "text": "然后我们要分享的第六个案例，它有点像它是有一个人把一家银行在过去三年的财务表现，你可以想象这个有如果你要去看那个PDF的话，得有几百页一年，对吧？这三年的长达数千页的PDF全部丢给notebook LM，然后请他来去讨论这个银行在过去三年财务表现到底怎么样，所以这也是一个大开脑洞，但是听一听就觉得能非常强大的提高我们的生产力，以及让我们可以一个人去获取更多的有价值的、有洞察的信息的一个好做法。蓉慧你看到了些什么？可不可以也分享一下？",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:15",
+      "text": "对我看到一个我觉得一个非常直接跟可能大家非常熟悉的一个应用场景。Right Martin自己在推特上分享的，他最近自己用的一个方式，就是他他去这个圣天使城堡旅游。然后他找了很多关于圣天使城堡的一些资料上传到no book LM，让no book LM给他生成了一个他们那个音频deep。然后他自己一边游览，然后他一边听这个no book LM给他生成的这个旅游景点的介绍。其实我觉得它跟现实场景有非常相关的一个映射，就很像我们在比如说在博物馆里面听的这个导览。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:15:54",
+      "text": "然后他说他自己就沿着那个路边就一边走一边听自己的这个音频。之后他写了很多他自己的一些反馈。就比如说他听完之后觉得说一定要还是需要一个移动版的会更方便等等等等。如果大家有兴趣的话，其实可以去看一下他当时写的这个。这是等于是我们列的第七个应用。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:14",
+      "text": "然后第八个是有一个公司叫做starting，它是用公司的200页的文档给no book LM然后让no book LM生成了一个十来分钟的一个对话。这个公司是一个应该是一个做安全的公司。然后他们这个对话是讲的这个产品是怎么样来保护用户的，保护他们的客户的这个银行账户的安全。其实这个用例是一个非常典型的product marketing的一个应用。比如说我们其实也看到很多公司会做播客来讲自己的产品，来讲自己的应用。其实这就是一个可以说是成本非常低的一个作这个party marketing的方式了。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:51",
+      "text": "第九个是no book I am团队中有一个非常特别的人，这个等会儿我们也会讲到。以前是一个记者，是一个作家叫Johnson，我看到他在接受一个媒体采访的时候，说他自己是怎么用这个nobo LM的。他这个故事好像已经在好几个采访里面都讲到了，就是他会用rese做这个读书笔记，然后他一年差不多能写8000条。他自己有一个叫做next book的notebook，然后他会在里面放一些他对下一个项目，下一本书的一些计划、一些灵感，素材，然后让no book来帮他头脑风暴，比如说让no book LM给他建议这个文章的结构应该怎么样来设计，然后根据他上传的材料来提供一些洞察。他自己就说这个东西很像他的一个personalize的助手。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:39",
+      "text": "其实这个就让我想到，其实以前采访老罗的时候，老罗就是说为什么他以前演讲的时候会有那么多的东西讲。他就说其实他自己有一个笔记本，这个手机上的一个笔记本，然后他会想到什么，他就往这个笔记本里存一些东西。所以当他需要用的时候，等于就是他就有一个素材库。我感觉这是一个古早互联网时代的一个no book。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:03",
+      "text": "第十个用例就是我们找了一个我觉得还是挺开脑洞的这么一个想法，是在read上看到的。然后那ready上有一个人说就是他用no book LM来重新看自己以前看的书，他自己以前写的博客。他说他的感受就是no book把他的从前的那些经历，从前那些阅读给复活了。因为如果不是那不给的话，他可能都已经把这些都给忘了。所以他就很好奇，会不会有一种可能就是当我们把以前的一些资料全部都丢给诺贝尔，然后让他来做成播客每天播出。这样就会变成一个人的人生的楚门的世界，等于就是每天都在重新的看自己的生活。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:47",
+      "text": "然后让这个分享更有意思一点的是下面的第一条评论。有一个人说你可以再配上一个meta riman d的眼镜，然后每天拍你周围的东西，每隔15分钟拍一些照片，然后用这个一些模式来记下你每天吃了什么。这样你就是在实时的存档你每天在干什么？",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:19:10",
+      "text": "我觉得这个慢慢的生成自己的人生传记。以上就是我们和大家分享的看到的好玩的十个notebook m的应用。当然绝大多数的应用就我们没有讲到的，其实是更加正统的。大家用它来学习做科研，或者用它来工作。我们分享的其实是一些更有趣、更好玩的一些开脑洞的用法。还是比较建议大家自己去试一试。目前是免费的融会。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:19:35",
+      "text": "其实我们看到关于notebook OM的评论报道是铺天盖地的。在过去两周，但其实十字路口我们之所以决定在此刻做这个内容，也是想说等这个热浪稍微过去一点，我们可能可以做的更有价值以及更有思考。一方面是我们可以看到更多大家在怎么用notebook OM的案例，另一方面是我们可以拉开一点时间线之后，再去过了那个热潮之后，再去相对全面的冷静的看这个产品它到底提供了什么价值。以及这个产品它到底是在怎样一个环境里面，在怎样的一个团队下面，用怎样的工作流程给生产出来的，就做出了如此一个现象级的产品。所以在这些所有的评论报道，我们看了那么多下来，你会你自己印象最深刻的是什么？",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:20:27",
+      "text": "当时看这个no book LM的报道，其实一个最直观的感受就是首先会条件反射的。因为这是一个创业公司的项目。但是看到它是其实是google labs的其中的一个测试的一个产品。我其实也看到挺多人开玩笑，就是说因为这个产品，然后很多人就说可以看到google这个创新的能力还是很强什么的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:48",
+      "text": "然后我其实去看了一下google maps的一些介绍。它其实是google内部的一个孵化器，用来测试和公开演示一些新的项目。他其实在2002年到2011年是一直存在的，然后到2011年后被关闭了一段时间。然后在2021年的时候，这个名字变成了google内部测试ARVR的一个内部的一个小组。然后再到2023年，google在google IO大会上又重新宣布，他们又有google labs组织，他的工作是experiment with the future of AI意思就是说来做未来AI的一些尝试。如果大家现在去goon lax这个网站上，其实看到它有很多个项目，book LM是其中的一个。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:21:33",
+      "text": "所以感觉这个google的创新能力还是非常强的，包括notebook OM还是google一直以来的80% 20%的这个文化之下诞生的。它是一个20%的时间，有google的团队去做创新所做出来的一个产品，这个就不得不感慨，姜还是老的辣。有这样的企业文化和这样的工作方法，它确实是酝酿创新的很好的土壤。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:56",
+      "text": "对然后再看他的整个组织的时候，发现其他们应该人还不是特别多。看到比如说这个riza Martin，他上了两个播客，一个是lendings，然后一个是红山的那个播客里面都有提到。最开始其实只有好像三个人，然后我后来在linkin上看了一下，他们应该好像也是十来个人。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:22:19",
+      "text": "对，就是notebook LM的创始团队只有三个人，到现在就确实人数是非常少的。但其实我觉得现在做AI产品确实也不需要那么多人了。对，这里头有很多基础设施都搭的非常好。然后同时大家有了这个写代码的AI工具和做设计的AI工具，一切都超级个体了，就都可以变得更高效，团队可以更立。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:40",
+      "text": "我自己看到这个google lab的这些资料的时候，其实会很好奇一个问题。是因为在一个google这么大的一个公司里面，怎么样去做一个小的组织。它是按照创业公司的这个思路来做的。其实肯定他他在组织关系的平衡上，是要比一个初创公司遇到的挑战是要更多的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:23:02",
+      "text": "里面有一个挺有意思的细节是google lives他现在的这个负责人，他的职位是google lex的VP。然后我在linkin上看了一下他的经历，就是他其实在google呆了超过15年。他的介绍里面是说他在google做过非常多的产品，比如说这个google pay、google wallet. 可以想象就是他他其实是可以帮这个小的团队未来平衡很多公司内部的关系资源的这么一个角色。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:23:29",
+      "text": "而这其实也很不容易，一个在大公司工作了15年的人，还有意愿以及有活力和动力去驱动一个创新产品。多数就是在国内大厂工作了15年，就那个人生状态可能再去做一个google labs这样的项目有点困难。所以我觉得还是挺感慨的。其实我看到他们团队里面有另外一个我大为震惊的一个团队成员，是一位作家，叫做史蒂芬Jackson。然后甚至在很多报道里面都有提到，在notebook LM这个产品的诞生过程中，这位作家Steven他是发挥了非常大的作用的。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:24:06",
+      "text": "首先notebook AOM它其实还是给知识工作者或者是给这个创作者提供的一个工具。在生产这个工具的过程当中，团队里面如果有一位资深的创作者，那他本身一方面就是可以告诉这个团队我是怎么做的。把我的工作的过程，工作的流程和我观察到的同行们的工作过程，把它更好的理解，并且翻译成产品。这个是一个很特别的配合模式，就直接有用户，而且是可能全世界最牛逼的用户之一在你的团队里面。然后另外一个就是因为the took OM它最后输出给用户的也是内容。大家都很感慨说为什么做的这个音频那么好？我觉得这里面应该也有Steven的功劳，他会从一个内容怎么叫好，怎么叫美，怎么叫让大家觉得有用有趣，听完之后有共鸣等等角度给反馈。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:25:03",
+      "text": "来去配合产品经理，配合工程师不断的调整。我其实觉得这个很可能是未来要去做AIGC，就生成内容的产品的团队都可以考虑的一种工作模式。就是团队里面除了产品经理，除了设计师，除了工程师，可以考虑以某种方式引入一位在你们所做的这个领域里面最资深的创作者。让他从day one就开始深度的参与整个产品的打磨的过程。所以他不但可以保证最后产品做出来是大家目标用户用起来顺手的，也可以保证这个生产出来的产品，它在审美上、在调性上、在质量上可能也是过关的。这个是我觉得挺有趣的一个团队搭建的未来的趋势。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:25:51",
+      "text": "对就其实我在这个linings跟红杉的博客里面，其实都听到主持人有问这个seven john Johnson他发挥重要作用的地方。然后他的这个产品负责人，其实都提到了有一个content studio这么的一个特色。但是其实在两个博客里，这一点上都好像没有特别多的更详细的说。所以我理解这个其实是他们的一个壁垒所在。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:14",
+      "text": "回到我们说到前面说在香港的这个AI如何改变我们消费的内容的这个主题。我自己感觉是在no book m的影响下重新来看。当时讨论有问题的时候，其实可以想到当时panel中有兰达，他是香港大学新闻传播系的老师。他就提到就比如说美国有小型的新闻机构，他们现在是做这个调查性新闻报道的时候，用生成式AI来总结美国各州的政策文件，来让读者来更容易的理解。如果让记者跟编辑来完成这个工作的，一般会花费的时间跟精力会非常的多。其实我觉得可能一个阶段是用AI来总结，另外一个阶段是在有了notebook IM之后，把这些资料全部给他，然后让它来生成。这就和我们前面说到的一些，比如说把书或者论文丢给notebook IM让它来生成的用例例其实有点像，都是在利用它基于原文档和结构化内容整理的能力。这个判断里面其实也讨论了AI带来的假新闻的问题怎么解决。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:17",
+      "text": "当时圆桌的另外一个嘉宾林毅，他是B站的up主，之前是学机器学习，现在在做和AI和科技相关的内容。当然他也用了很多AI的工具，林毅就有说到我们可以用魔法来打败魔法。其中我想这个一方面是尤兰达介绍的，可以用AI来先做一遍find check，就是事实核对，然后来交给人类接管。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:40",
+      "text": "另外一方面就是在notebook IM出现之后，也许可能会有一个改变。就是可能会改变我们来了解或者是阅读传统的新闻的一个方式。因为大家知道其实传统的新闻写作，它有比较严格的要求，对很多人来说其实是会觉得有点无聊的。Notebook IM生成的内容，第一它基于原文档，第二是它可以把内容整理和转化成大家更容易接受的对话式的方式。从源头上他给了用户更多的控制权，就是你可以选，你要看哪些内容。其次是他把这种接受的方式，互动的方式也变得更容易接受了也就是我就想到前面寇姐说的，是不是有可能以后我们每天听到的国际新闻都有可能是由AI来说的，也是一种可能。当然这个里面它还是相对来说加了一个步骤，就是需要人来进行一次操作。但我想说，其实这可能是一个所谓魔法打败魔法的一个尝试的方向。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:28:41",
+      "text": "在这里我也想多介绍一下这个圆桌。除了尤兰达跟林毅，还有一位嘉宾gary，他是美图的CFO，他也和我们分享了一些美图作为一个生产力工具在AI这个时代的尝试。这里也想和大家说明一下，接下来的这个圆桌是英文的，因为那天现常主要的交流语言是英文。我们也在此特别的感谢生动活泼邀请我们去参加这个活动。接下来就是这次活动的原声。如果大家有任何关于no book LM或者是这次活动的主题AI如何改变我们消费的内容，有想探讨的或者是有问题都欢迎给我们留言，那我们就开始放原声了。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:20",
+      "text": "Come our panels onto the stage. Really happy to be here to be the moderator of this panel, air and the future of media consumption. If you look into their background, uh, this panel is kind of like an industry chain country cradle, productivity to provider.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:29:42",
+      "text": "observer .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:43",
+      "text": "researcher and policy researcher yeah uh, I if count me as a content critter as well, introduced yourself and tell us about the most not worthy changes AI has brought to your industry and your job in the past ten years, especially in the past year. Start ulana.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:30:04",
+      "text": "Hi everyone, teaching the general school in of hunk and so that to us university has been really leading but we're not that bad either um so um I used to be a journalist practitioner. Uh I worked in reuters and SMP hearing hong kong. Um I recently just joined HKU. But I had a very long deter in the past decade at work for nine nations on digital policy that um um I was introduced the policy researchers as well.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:30:37",
+      "text": "So um in terms of the changes in the industry, focusing more on the news and for the past, I will say the in the dress being playing a very catching up mode um and I think the last year um well now you put in that way ten years ago, I was still at reuters, the news agency and at that time we've just started looking to AAI and had a small very small IND somewhere in the north america. But then at that time, that's like really cool and mysterious something that only a very few people are looking to right. And now like I think the JoNathan industry has been pushed into.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:31:12",
+      "text": "Okay, we have to do something now. Now that everyone become a content creator, everyone become an information provider. Now what do we do? The the old power dynamics of publishers on the information providing service is breaking down. So I think um the industry is really struggling with that. Uh, let me stop IT here and pass on the next speaker.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:31:36",
+      "text": "呃thank you your land。A uh my name is gary um and I am uh, the two financial officer at me too. Me too is obviously a mobile APP company. Um now we have about two hundred sixteen million monthly active users globally. Uh, one third of each is is actually outside of england, china.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:31:55",
+      "text": "We started pretty much as an APP company that, you know I try to become every simplify version of photoshop, focusing on helping users to create, you know, added the face. You are making a more free and removed by mission and all that um but um first all that as APC application. And then in two thousand eleven we become a mobile company and in two thousand and thirteen we actually start our own AI lab uh caught MT lab.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:32:25",
+      "text": "And at that point in time, I think a computer fishing is is the most important um AI technology that we have. And we used to sort of tracked the points on the face so that you know you can add uh the face very easily um with just one click fast for the um to you know the past uh one to two years, I think a generative AI has uh really brought our uh companies scope um into helping creators to do a lot of different applications. Uh for example, right now we have an APP called x design which is pretty much light canvas but is focusing on the e commerce side.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:33:06",
+      "text": "Show users can very easily create a background for a1 commers photo。And then we also have another APP called ki pie，which is are helping your podcasting ers or or video makers to easily edit their scripts and then the video will actually stitched together. You can also add some effect to make IT looks very much like realty show effects, highlighting the points that you want say so so I think generate of AI has brought up um into helping to create economy a little bit of myself.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:33:43",
+      "text": "I feel very compelled to talk about something related to music because of the other panel in the two thousand twenty two, twenty three, much twenty three. I didn't train a lot of AI, but I train myself playing classical piano. IT was actually a very painful process, but ended up my able to finish the LTCL programs actually quite happy. Really echo with a lot of the previous palace view that, you know, learning instruments is so very important, and there is a some some human elements that that really cannot be replaced by AI at the moment, but in the future, who know is right and pass .",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:34:23",
+      "text": "h hi guys, uh, my name is e and i'm a constant creator. So we are running a哔哩哔哩channel and the youtube channel。Michael founders is on the.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:34:33",
+      "text": "Uh sir, row here and yeah you can wave to yeah our哔哩哔哩china has like one million subscribers，but like a million china. So that's basically the population of just one straight. So is no big deal.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:34:48",
+      "text": "So our youtube china has two one hundred thousand subscribers. Our content is basically focused on our software projects. It's just like our presents the process developing its and so we tell our development story to our videos as our channel growth.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:35:06",
+      "text": "We have more opportunities to uh may be talk with industrial leaders and listen to their opinions, maybe make some interview. So we are also doing some of the jobs of journalists. So that's basically what's we are doing. As for the questions, so uh, ten years might be too much for me because like ten years ago, i'm still undergraduate.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:35:28",
+      "text": "So if we talk about the influence of AI unlike in the scope of ten years IT shape, like my decision of my major selection because like I was still study at that time, that's when the alphago was so popular and I decided to choose uh machine learning as my uh major in my graduate study for the past year. I think, uh, what i'm observing is that a consent creating process is more and more h is getting civilized, is is getting like a more and more like common people are using this tool to present their ideas previously, if we want to make some films, we want to make some cool things. IT requires like a huge a budget.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:36:09",
+      "text": "But now, like everybody could have their innovation ideas and presented through AI tools。IT might not be like that high quality, but it's like a change from zero to one. It's like they they begin to hire this tool to express themselves.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:36:25",
+      "text": "Uh, what I see is that a lot of interesting contents are a pouring into the community. IT might be more chAllenging for us to select, but uh, IT also gives more creative ideas the chance to pop. And yeah, that's what I am seen.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:36:42",
+      "text": "Yeah, I have a personal story to share that that I think the biggest change the AI has made to me in my life was starting my podcast. I told my colleagues about this joke to, uh, I started the podcast to study AI because I am afraid of losing my job. I was a reporter, so I can echo a lot about what you learn said.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:37:03",
+      "text": "And so the next part will talk about, to what extent has AI penetrated the production side of information? I think all of us, us have a lot of have a lot of things to say. So the first question is, please share one to two a storage innovations that AI has made our lives possible that was previously impossible also what previous on sydney have been .",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:37:30",
+      "text": "fulfilled. And yeah, I can start II just kind of set the media industry has been playing catch up game, but just to give credit to some of the piece in the industry, right. So there has been some auden's y revolutionary innovations, but there has been some um good attempts. Um i'll give two examples. One is more on the news gathering sight and um so redis had a product I think in twenty seven or twenty eighteen, which is called news tracer and it's basically doing something that a Normal human being, a reporter will not be able to do basic scrapes, seven hundred million daily trees from backend as twitter and basically it's identifying what are the breaking news. And then um so in the news business, the old business model is that the faster the Better right?",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:38:21",
+      "text": "So basically UAI is able to actually scrape all that data and identify the breaking news and give the lead to the reporters for them to identify um things happening like AA wide fire kind of happening or um things that if it's just a reporter saying the this room may not be able to identify very quickly. So gives to us for an agency that win um the competition by time, like something around five minutes to twenty minutes lead time um comp competitors. So um that's not necessarily felt by the audience, right um because for you ultimately you the news um you may not really care if it's a five minute difference or try to make a difference um but IT does matter for the business.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:39:08",
+      "text": "And the other example when I give is um from the more production site. And again, that may not be something that the readers actually understand how much has going has been going on the backend. Um it's actually happening a lot in terms of how AIS used to process thousands, if not millions of documents um for some news organize.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:39:30",
+      "text": "So there was one um um US based organization is a kind of a smaller one, but mostly working on investigative journalism and they're able to actually use Jennifer I to summarize the policy documents from all the states across the united states and make them more um is readable by the readers. So that's another attempt basically that's something if you use a um reporter or editor to do that takes a lot of human time and energy um so one one code I don't remember which editor was that, but one of the um biggest news agency in the us. He said use AIS like one of your best interns or like a hundreds of interns, right? They're doing a lot of work for you, but you need to train them properly.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:40:16",
+      "text": "So I think these are the two examples. One is on the news gathering side and the other is on the production site um which from the receiving end you may not really feel that difference um but that's happening um for some newsrooms and i'll touch on the distribution side maybe later um but I think that actually one of the changes setting happening most. So um li said now all the Normal people can start creating content.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:40:45",
+      "text": "So the old business model of journals m is breaking down, right were not the only competing with um like redos competing bomberg, but we're competing with all the thousands, millions, billions people out there. So then how do Normal people like you and me actually received the information, access the information? How does the information flow works these days? That's actually more a question for everyone to figure.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:41:11",
+      "text": "Um .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:11",
+      "text": "okay. So the next few minutes is going to a sound a little bit like a and the further because what we do is in photo and video editing and obviously AI has a lot of things that changes the way how we added photos.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:41:26",
+      "text": "So the first thing, for example, is if there's like a random person you want to remove from the photo, you can use A, I just highlight that, and then the person will be gone and then the background will be generated as if the photo is it's no original. And so there other nit sort of functionalities that most people who can use IT, but if you really need IT as they will be awesome. For example, like my teeth that say it's not very um in english, it's not it's not very it's not very and initially there's no way for you to fix that and thus you wear Prices right.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:42:05",
+      "text": "But now our APP can actually you know recreate your teeth and then make IT looks very nice um your hairline no you can really do much about IT as you go go to go to see surgeon but again, our APP can do IT um and for video as well like you know we would have thought that initially the video could be a more you know representative of how you look at you look like but now we can add a lot of you know, cosmetics. You can change how you look and then you can you just need to edit one photo and then the effect will applied to the entire video. And no matter how you move, that edit won't go away.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:42:47",
+      "text": "You would just stick to your face and then you look perfect for china. 有时候a lot of these things were made possible by AI。But I want to emphasize is not just generative AI, you know, traditional AI is also very important if you look at a percentage of users, and that users know one or more of the AI functional ties is over eighty seven percent. So our APP, even though we don't people don't really see IT as an AI APP, but a lot of users are actually using AI functionalities.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:43:20",
+      "text": "Just like you and said, we are having this uh this opportunity of having like more quick processing of the content. I quickly because I可以so hard to talk with them。I love, I love the technology, but I hate the way to talk to them is a new opportunity.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:43:40",
+      "text": "Like we have this power of having like so much tools to have at our use, and we can have quick response from them. I like grisi. We are having this new technology like image processing and video processing. My point is, but we are seeing more and more are people are having the capability to present their idea to the world with this new AI too uh, what I was saying is from the concentration perspective, but i'm also a software engineer. So from uh software developing perspective, i'm also experiencing this a new paradigm shift.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:44:12",
+      "text": "Uh, previously I was a focused on computer region and when we were developing some a new apps or maybe functions, we are thinking where should we get the training data that's actually like a real like a real case like this just happened like two months ago. I was thinking having this eve to uh maybe give you a score like on, uh, how you look today, old perspective. I was thinking where should we get the training data? Like where should we get those daily look photos and get the scores but all of that and we are thank you.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:44:45",
+      "text": "Oh no, we can just directly use, uh, maybe GPT for all because like we are having this like common technology base so that we could a use IT to do what we want. So that previously is not possible, but now we are having this on technology base that we can use. We have at our dispose .",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:45:03",
+      "text": "think with the help of AI, the things that previously impossible, the demand and supplied relationship would be changed. Take me as an example. I used to work with one or two designer freeLancers, all of our organization, and right now I don't need to work with them, because with the help of canvas and be journey, I can do that myself. So the next question will be, are there any changes we get seeing in the production relationship and content creation?",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:45:31",
+      "text": "Uh maybe I will start first. Um interesting when you mention that you used to talk to to designers and you now don't need to talk to them, maybe they are actually getting ten more .",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:45:42",
+      "text": "clients because of AI yes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:45:44",
+      "text": "So this is how we see IT because I think AI tools are especially productivity is actually enable user to do things in a much, much faster way. So you know as any new technology advancement rate, um there will be some jobs that is being a made redundant, but at the same time, you release a lot of productivity and that actually as a whole of the labor force actually increase the positivity, I think especially in in our industry were seeing that um very, very prominently because on one hand, west we serve over formally and AE commerce lers using our APP to create a content, create posters, create collator to sell a stuff.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:46:33",
+      "text": "But you on the other hand, we actually have that cool, which is effectively the hands in china and on on that gooders over of seventeen million a designers and artists on IT. Their activity is you know also bombing. And so we're actually not seeing anybody suffered, you know, as a whole.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:46:53",
+      "text": "So I think as a relativity um APP company or AI application company, I go is to really just try to create Better tools so users can be more efficient. And at the end, I think the beneficiary will be consumers because you to get more details about the things that you wanted buy, you get Better advertising collaterals that at one point might be your personalized to you. So I think there will be your productivity rose along the way.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:47:25",
+      "text": "Yeah maybe I can add to that um from the more news or information perspective. Um I would say there are two kind of phenomenon happening.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:47:35",
+      "text": "One is to what is like, if any any of you all of you think about how you access information of how you access new city states, right um it's very recommended like we all get our information on different apps, different social media platforms from your friends um you know on the IMS, you know so it's no longer like ten years ago or twenty years ago where, okay, I need this piece of news. I go to new times. I need this piece of news.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:48:03",
+      "text": "I go to whatever media i've been following, right, that model has been falling apart. So that actually combined with what we are talking about um so they you use the word of civilized um I would say that democratized um of the content production side of things. So then now like um that comes with the information overload for all of us, right? I'm sure there must be a moment for all of us in the past week where you were just like overwhelming the information, like you don't necessary know where to get that one piece information that you really need.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:48:40",
+      "text": "So um all these phenomenon adding up that is actually there are two chAllenges here. What is the chAllenge for individual users? Um how do we actually um develop our own system to actually get to the information source or get to the piece of information that we actually need, right? And that chAllenge for the traditional kind of publishers on these providers is that how do I meet this new demand from the audience? And um and I think there is a bit of a dynamics happening.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:49:13",
+      "text": "And one example is that now that would generate AI video content become more popular than before I compared to two years ago. So um actually there has been the recent study saying um because news content um assisted by Jennifer I has been becoming so popular. The old fashioned media companies and publishers are starting to produce more videos to meet this new demand. So I think there will be kind of more mutually dynamic um information ecosystem reshuffle happen in the next couple of years, and we don't necessarily know where that's going, but changes nothing happening.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:49:50",
+      "text": "Yeah, I think the formal analysis is great. My observation is like there are more and more contents pouring out and definitely there will be back content, not only the good quality. So uh, that might be a problem. But uh, what i'm trying to deal with this scenario is i'm a lazy guy, so I will just let you go and I will pick the popular videos and II believe the selection of the audience, right, the audience will pick the the the good ones for me, but yeah, yeah, yeah algorithm and audience, you feed the audience like like a meat to the algorithm, right? Basically that's still the choice of the audience.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:50:29",
+      "text": "So we talked about the innovation. Now IT comes to the problem, what kind of new problems that AI created for us. I think news industry has been disrupted in the most significant way by the technology in the past ten to twenty years, especially given the development of AI generated content.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:50:51",
+      "text": "And there are some news about some uh, new media outlet that using AI to generate their news and fund is by users and readers. So I guess you, landa, have a lot of observations about this. Uh, so you longer can you give us some examples that you solve the new problems that created .",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:51:13",
+      "text": "by AI yeah definitely. Um so I think ultimately the news industry is a fact based industry, right? We we need to find the truth. We need to um develop the truth picture based on fact. Well, AI is not necessarily fact based.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:51:30",
+      "text": "If we know AI just enough, we know that that's actually based on statistics, right? So then it's it's generating the most probable whatever next word, next picture that based on the data that has which the data self is biased mean many cases. So then in that sense um that's actually II mean II create like the the first panel like that's great.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:51:53",
+      "text": "I wish we can we can embracing. I like they do, but we cannot. There are lots of journalism m principles we have to stick to, which to some extent is not something that AI is able to do at the moment, right?",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:52:07",
+      "text": "Um so one one problem or chAllenges that actually come with this kind of a conflict is the the the overload of misinformation. And then this year is a big election year. Um there is about I think I might get the number wrong, but yeah for thank you um for the different countries coming up with the elections this year.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:52:27",
+      "text": "So um billions of people are going through elections, but they're also facing the chAllenges of missing information around elections. And um regarding campaigns regarding different candidates, um you know I think there was an example of that, a real example of AA state. I think it's we were in stating in the US.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:52:49",
+      "text": "Starting getting calls from jobim um and it's the audio course. So basically not so easy to make up like a ten minute. An audio based on like ten seconds of someone's voice right um like we have AAI class uh AI coursing our school and the students can produce that within one class, like we can teach them how to basically producing misinformation.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:53:13",
+      "text": "Um so but knowing that you know um they actually got the call from joe biden and telling them to to either vote for him or not to vote for trump you know which but AI generated a auto message and not really um from biden, of course so um this is coming not just a chAllenge for JoNathan m industry, but also for broader society. So that comes different chAllenges and different solutions we need to think of, you know, what about the media or information that see of the audience like I think all of us pretty well educated, we probably know like how to identify the source. But what about you know people are less educated who may not have the the privilege to actually identify or think about people like our mom send this information all the time. So um how to actually do that kind of literacy training um that's something that um needs more ecosystem approach to address that.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:54:11",
+      "text": "Have this problem Sparked any discussion in the .",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:54:15",
+      "text": "industry yeah solutions yeah I think as mentioned uh in my in my mark earlier, um it's not just something that journal industry can address. Actually the reporters also um I think there are two gaps there. One is reporting or enough discussion about AI accountability so you need to understand the problem enough to actually cover that and to actually tell the audience about IT right.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:54:41",
+      "text": "So that's that's one discussion and practice start happening and the other uh may be touching a little bit on my UN part of work actually with that, one of the big projects we have been working on how to address election related missing information and how to have that ecosystem approach. Basically um we the product where we can actually use AI to do the fact checking process, um it's assisting it's not just like only using eye to do the fact chatting, but you can use the I to help you do some parts of the fact checking and to identify what are the more likely missing information. And then you have the humans following up. And then by that, we worked in developing countries and have the local media organza to have the local networks and local languages to actually do the further step of human kind of bedding and human fact checking. So then you have the ecosystem meet organizations AI slash technology and government and and stepping in and then the you know the general public so then they at the end hopeful little can address um the the the problem we are facing .",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "00:55:50",
+      "text": "altogether any input uh yeah .",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:55:52",
+      "text": "uh matter is this thing, oh, using magiC2Be magic. So the problem is caused by artificial intelligence. Maybe we can use artificial intelligence to have solved this problem, right?",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:56:03",
+      "text": "We can have this AI agent. We were actually thinking about this. We can have this AI agent to help class by miss information and a facts since it's based on AI, so IT can be really cheap and .",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:56:18",
+      "text": "everybody could have IT what exactly you said before OK do you have any input about this?",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:56:25",
+      "text": "Uh, personally, I think this is actually not a new problem. Uh, I mean, depending on your perspective, right, fox news verses CNN one of ages depending on your stances, misinformation so I echo you learn this point is uh well education plays a very big part of IT and to a certain extent um it's easier to deserve what is AI generated forces you know, human touch, you know, sort of this information wrap in, you know, the principle under journalism at this point, obvious in the future. Maybe it's it's more difficult.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:57:01",
+      "text": "I think things like this, what will happen anyway, mean, look back two hundred years ago to make one newspaper. Newspaper means this is the authority. Now you have fox for us a CNN.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:57:13",
+      "text": "So, so IT evolves over time. But I don't think this is a not solvable. I mean, it's a good chance for new human as a whole to raise your critical thinking capability and try to design and with the help of, you know, magic, to fight magic. I think this is also a way to do with that. So match is still pretty optimistic about IT .",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:57:34",
+      "text": "yeah I think is not a war between human and artificial. Intellect is always a war between human and human, like human with tours .",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "00:57:43",
+      "text": "and to fight against each other. Like ten or fifteen years ago, in the first time I saw the h five, uh, new york times created. My instinct was this is a big chAllenge for newsrooms. Because for newsrooms, they need more and more and help them to create those technological works to attract more users. But the question is, why do top engineers go to work at york times instead of facebook or google?",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:58:19",
+      "text": "There there was a joke as like there are too many of them, so they were overflow to every industry.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:58:25",
+      "text": "I actually have an additional question. So gary, have you been reached out by NA content craters or uh.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:58:34",
+      "text": "media groups to work?",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:58:36",
+      "text": "I mean, maybe just interest in talking guys to to see the potential of working with me too. 秀秀。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:58:45",
+      "text": "we take regulate interviews and all that。But in terms of using our tools to help the media agencies, I think they not particularly because right now, how how we organize a portfolio, we have a feral um industry specific uh strategy. So the first couple of apps is mostly focusing on the e commerce uh industry.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:59:07",
+      "text": "Obviously, as a media agency, you can still use I have to create some of the banners or or advertising, but it's not gear to whats that. So it's like you can use photoshop to edit your face tube. You are Better off using material. Is that kind of analogy is easier that way?",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "00:59:26",
+      "text": "Yeah the speaking of contents creation. So he was study machine learning when he was in his graduate school. And his video on哔哩哔哩is talking about h，yeah. So can you give us an example of the recent work you create IT with AI always .",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "00:59:41",
+      "text": "the help of AI like my fight with AAI interns, right? My recent contents are all somewhat related to AI tools like we are using IT to generate illustrations and we use those illustrations in our videos and definitely use uh ChatGPT or cloud to help with my uh process of uh writing my um articles. Yeah that's that's basically my use case.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:00:09",
+      "text": "And in in this process I was like, II really struggle with like talking with AI agents. Their responses is quick, their attitude is good, but their capability is bad. What I think is, uh, currently the AI agents, like all those large language models, they have this problem of uh, use steps.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:00:31",
+      "text": "This actually is not an original opinion from me, is actually from the the C. E. O of mini max.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:00:36",
+      "text": "I borrowed his idea, said the current response of large language models are more like, uh, in instinctive is like a what would you come to your mind like in in one second? And it's not a deeply thought answer. So that causes a very shallow use case.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:00:54",
+      "text": "You can use, uh, AI agents. You can use large language models to do some simple tasks. You can not do complicate task like, uh, if II prepare for this for this session here, I have to go through many steps.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:01:08",
+      "text": "I need to look for some questions. I need to do some preparations. I need to like see all those documents and generate some of my own ideas.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:01:17",
+      "text": "But like for large language models, that's just too much. And so, uh basically they are still doing some of the native work is like a supplemental work is not fundamental work. The fundamental work is .",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:01:32",
+      "text": "still a through humans really okay, how do I turn that into how I really educate the my students right you know um some of them are worrying about their their jobs. They're still studying so they to start work, uh looking for jobs seeing in next few months. Some are already worry about the jobs being gone. And um I think what he is kind of describing is that as a human being, you just need to get smarter and even more systematic and strategy and your thinking for you to actually be able to work with AI and half AI support you in the ways that's actually helpful, right um but to do that actually to really break down your tasks or your thinking process in a very systematic way and only through that then um and I think that's for individual level, but I think also for our industry level, right you need to break IT down so that you know how which part of the work flow can I actually step and and support so I think that something all of us need to do more.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "01:02:36",
+      "text": "Thinking about the last part of this discussion, we are all consumers and users of information too. So I wanted to discuss about how we take control of what we read and what we consume the information every day. So do you have any vice or for example, like where do you primarily get your information? And is there anything you do to you to take control of the of the things you read and to tell which part AI has played in a piece of news?",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "01:03:09",
+      "text": "If I want to do some like formal study, I still go with like a journals and reports and papers. I'm working as account creator, so I need to know what the community is talking about. So sometimes I have to dive into that pool of garbage and find some like what are what's our audience talking about? So I talked about that like previously. Uh, what I did is just like lay back and see what the community or the the algorithm，what they just feed me and and take a look and get what people are talking about. My suggestion would be like as well as what i'm doing is actually I so have some time, maybe like one day or two a week, to just stay away from like all of the contents yeah, human brain have some like limitation in this time you just try to stay saying right like in this like page of information pollution here yeah it's not it's actually is not a problem or for artificial intelligence I think it's just a problem. Human always want to make some garbage in general.",
+      "speaker": "发言人9"
+    },
+    {
+      "time": "01:04:17",
+      "text": "Um I still speak to know traditional news and all that, but to actually learn something very deep, I still prefer to know look at papers or or talk to the expert.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "01:04:28",
+      "text": "But I think what AI comes in very handy is that before you talk to an expert or like ACEO, another company or fast, you know you you talk to GPT for a few moments first and you can actually get you up to speed on some of the relevant information, give you a little bit of concept so that you know you don't waste a lot of time um when you are talking to the expert and you know granted, these large language models will have some errors in IT, but that's where the expert comes in there. He is that okay? Maybe this is what you get from GPT, but then this is not actually what is correct up.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "01:05:06",
+      "text": "I think as human being, we have to find ways to let AI to increase the efficiency, but you're not trying to rely on AI to sort of replace human expertise. I think we are still not quite there yet. Don't know what is going to happen in in ten years time, or may read less.",
+      "speaker": "发言人8"
+    },
+    {
+      "time": "01:05:28",
+      "text": "Glad to hear the old fashion journalism. M still have some business here. As for myself, I can most of plan information from social media, but I think I do have the private tage of most of my social media networks are from like traditional journalists and media professionals.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "01:05:44",
+      "text": "So I kind of know that that's reliable information and instead of garbage. And one of my personal uh, wish is actually I can build AI agent to manage my information intake. I don't know how to do that if ough you have have ideas or or where to start, i'm happy to get some inputs.",
+      "speaker": "发言人7"
+    },
+    {
+      "time": "01:06:08",
+      "text": "如果你认为有朋友也会喜欢本期十字路口的内容，请转发微信推荐给他们。最后欢迎你加入十字路口的会员群，我们会在群里每天放送AI全球新闻，并且鼓励大家在群里聊天互动，交朋友，寻找未来的同路人。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "本期播客由科技杨元成和戎慧主持，聚焦新一代人工智能技术对行业变革和创业机会的影响。AI在内容创作、信息获取与传播领域的应用，不仅提高了生产力，还促进了个性化内容生成，但同时也引发了关于工作冗余和信息过载的讨论。播客特别介绍了AI遗嘱项目，通过AI模拟访谈帮助用户思考生命意义，以及在硅谷创业利用中国研发资源的经验。此外，分享了Google Lab推出的AI项目Notebook LM，展示了AI技术在内容消费、教育和信息处理等方面的潜力。整体上，对话反映了对AI技术积极与谨慎并存的态度，强调了面对AI生成内容挑战时，提升信息素养和批判性思维的重要性。",
+    "qa_pairs": [
+      {
+        "question": "在AI技术浪潮下，新一代AI技术带来了哪些行业新变化和创业新机会？",
+        "answer": "AI正在给各行各业带来深刻的变革，我们关注那些站在科技与人文交叉路口的创业者，他们通过AI技术探索并拥抱新的可能性，推动行业进步。",
+        "time": "00:00:02"
+      },
+      {
+        "question": "AI遗嘱是什么，它的目的是什么？",
+        "answer": "AI遗嘱是一款由新世相发起的产品，旨在引导年轻人深度思考生命意义。它并非让AI直接帮用户写遗嘱，而是通过AI进行深度访谈，提出问题并整理答案，最终生成一篇完整的遗嘱。目前已有约1万人使用AI遗嘱写下自己的遗嘱。",
+        "time": "00:01:15"
+      },
+      {
+        "question": "对于海外创业的AI公司，在国内设立研发团队存在哪些挑战？如何解决这些问题？",
+        "answer": "海外AI公司在国内招聘和管理研发团队时，面临工程师薪资低、沟通交付质量好但远程管理繁琐等问题。最近有朋友提供了一项系统性服务，帮助这些公司在华设立办公室并进行人员招聘与管理，同时也为工程师提供了远程为硅谷AI公司工作的机会。",
+        "time": "00:02:16"
+      },
+      {
+        "question": "Notebook LM是什么，它有哪些应用场景和特点？",
+        "answer": "Notebook LM是Google Lab推出的一款产品，类似于一个笔记本，可以整合主题下的所有内容并生成提纲或音频。其最牛逼的功能是能根据输入内容生成生动、有活力且自然准确的音频，例如将播客介绍和历史内容丢给Notebook LM后，它可以生成一段关于“十字路口”播客的有趣对话音频。此外，Notebook LM还拥有超强的上下文窗口处理能力，支持团队协作，并在最近的一个月里不断升级优化。",
+        "time": "00:04:50"
+      },
+      {
+        "question": "notebook IOM如何被应用于抓取和生成播客内容？",
+        "answer": "notebook IOM可以抓取诸如protest hunt、githa圈定、hugging face或arx上每天的热门内容，并将其生成一段高质量的播客，就像每天听由AI根据用户兴趣源抓取信息后制作的晨间新闻一样。",
+        "time": "00:11:27"
+      },
+      {
+        "question": "是否有产品尝试通过notebook IOM取代传统的早间广播？是否有将论文内容通过AI转换为播客的例子？",
+        "answer": "理论上是可行的，但目前还没有人认真去做。例如，莫妮卡团队开发了一个针对创投行业和AI领域用户的垂直产品。有的，有人将伊利亚推荐过的论文丢给notebook IOM生成podcast，并将其命名为“the AI research”，在Spotify上有30期，让枯燥的论文内容变得轻松易消化。",
+        "time": "00:12:12"
+      },
+      {
+        "question": "除了论文，还有哪些创意使用案例？",
+        "answer": "有人用notebook IOM处理银行过去三年的财务报告，将其转化为易于理解的音频；也有人将其用于旅游景点介绍，如圣天使城堡，生成音频导览。",
+        "time": "00:15:15"
+      },
+      {
+        "question": "是否有企业用notebook IOM做product marketing的案例？",
+        "answer": "是的，有一家公司使用200页文档让notebook IOM生成了一段关于产品如何保护用户银行账户安全的对话，作为低成本的产品营销方式。",
+        "time": "00:16:14"
+      },
+      {
+        "question": "对于个人用户，是否有一些独特且有趣的使用方法？",
+        "answer": "有用户通过notebook IOM创建读书笔记，甚至头脑风暴新书结构和提供洞察，还有用户尝试用它重新阅读自己过去的书籍或博客，以实现个人经历的复活。",
+        "time": "00:16:51"
+      },
+      {
+        "question": "关于notebook IOM，您印象最深刻的是什么？",
+        "answer": "最深刻的是它体现了Google强大的创新能力，作为一个由google labs组织孵化的项目，它展示了公司内部鼓励创新和尝试未来AI技术的文化氛围。",
+        "time": "00:20:48"
+      },
+      {
+        "question": "What is the size of the notebook LM创始团队 and how has the AI ecosystem changed the need for team size?",
+        "answer": "The notebook LM创始团队只有三个人，现在做AI产品所需人数其实不需要那么多，因为基础设施已经搭建得很好，且有AI工具支持写代码和做设计，使得团队更高效。",
+        "time": "00:22:19"
+      },
+      {
+        "question": "How is Google structured to handle innovation within its large organization?",
+        "answer": "Google structures small organizations like google lab within its larger company in a way that they can leverage many company resources and balance internal relationships. The VP in charge has over 15 years of experience in various products at Google, which helps in managing company resources and relationships for the small team.",
+        "time": "00:22:40"
+      },
+      {
+        "question": "What role did a writer play in the development of notebook LM?",
+        "answer": "The development of notebook LM involved a writer, Steven Jackson, who played a significant role. As one of the most renowned creators in the team, he provided insights into how work is done, translated his process into a product, and contributed to ensuring the output was of high quality, aesthetic appeal, and usefulness to the user.",
+        "time": "00:23:29"
+      },
+      {
+        "question": "What unique team composition is suggested for content generation products like notebook LM?",
+        "answer": "For content generation products, it is suggested to have a team that includes a资深 creator who can understand and define the best practices and quality standards, alongside product managers, designers, and engineers.",
+        "time": "00:25:03"
+      },
+      {
+        "question": "How is AI currently being used to enhance news consumption?",
+        "answer": "AI is being used to summarize and make accessible complex information like policy documents, check facts in news articles, and transform traditional news writing into more engaging formats. Additionally, AI-generated content is changing how news is consumed, offering users more control over what they read and how they interact with the content.",
+        "time": "00:26:14"
+      },
+      {
+        "question": "What changes has AI brought to the media industry and job of a content creator in the past decade?",
+        "answer": "AI has drastically changed the media industry, moving from a few early adopters to widespread use, where now anyone can become a content creator. This shift is challenging traditional power dynamics and requiring the industry to adapt to new forms of content provision.",
+        "time": "00:30:37"
+      },
+      {
+        "question": "How is Meitu using AI to enhance its productivity tools and offerings?",
+        "answer": "Meitu, through its AI lab, has integrated AI technology to simplify tasks such as adding facial filters in their photo editing app. In recent years, generative AI has been used to assist creators in various applications, such as creating backgrounds for e-commerce photos and editing scripts for podcasting and video production, thus enhancing their productivity tools and offerings.",
+        "time": "00:31:36"
+      },
+      {
+        "question": "What personal experience does the speaker share about learning classical piano and its significance?",
+        "answer": "The speaker shares a personal experience of training themselves in classical piano, describing it as a painful process but ultimately leading to happiness and satisfaction with completing the LTCL programs. They emphasize the importance of learning instruments and acknowledge that there are certain human elements not yet replaceable by AI.",
+        "time": "00:33:43"
+      },
+      {
+        "question": "What role does AI play in modern music creation according to the speaker?",
+        "answer": "According to the speaker, AI is increasingly making music creation more accessible, allowing more people to express themselves creatively with AI tools despite the quality not always being high. They note that AI enables a shift from having high budget requirements to using AI for innovation ideas and presentations.",
+        "time": "00:35:28"
+      },
+      {
+        "question": "How has AI influenced the speaker's life and their career?",
+        "answer": "The speaker attributes a significant change in their life to AI by starting a podcast as a means to study AI and avoid potential job loss as a reporter. They observed AI shaping their career decisions and influencing the direction of their studies.",
+        "time": "00:36:42"
+      },
+      {
+        "question": "What examples of AI innovations in journalism are presented?",
+        "answer": "The examples of AI innovations in journalism include 'News Tracer,' a product that aggregates and identifies breaking news from millions of sources, providing a lead to reporters, and the use of AI to summarize and make policy documents more readable for news organizations. These innovations have streamlined news gathering and production processes.",
+        "time": "00:37:30"
+      },
+      {
+        "question": "How is AI changing the way we create and distribute content, particularly in photo and video editing?",
+        "answer": "AI is changing content creation by enabling users to remove people from photos, edit personal appearance, and apply cosmetic changes to videos, among other functionalities. Even in cases where the user may not directly interact with AI, a significant percentage of users utilize AI tools without recognizing the technology's presence.",
+        "time": "00:41:11"
+      },
+      {
+        "question": "In what ways is AI impacting the traditional supply and demand relationship in content creation?",
+        "answer": "AI is impacting the traditional supply and demand relationship by altering the demand and supply dynamics in content creation. The speaker gives an example of how they no longer need to work with freelancers due to AI tools like Canva and Brought to Life, which allow them to create designs themselves, potentially increasing the demand for AI services as it reduces the need for human labor in certain areas.",
+        "time": "00:45:03"
+      },
+      {
+        "question": "What are the perceived effects of AI tools on productivity and employment in the industry?",
+        "answer": "AI tools are considered to significantly increase productivity by enabling users to do things faster. Despite job redundancy, overall labor force productivity is seen to increase, benefiting consumers through more efficient creation of content and more targeted advertising.",
+        "time": "00:45:44"
+      },
+      {
+        "question": "How is AI and automation reshaping content creation and information access?",
+        "answer": "AI and automation are changing content creation by reducing the time it takes to produce content, making it more efficient. They are also altering how people access information, moving away from traditional news sources to a more democratized landscape where content recommendations are made through various apps and social media platforms.",
+        "time": "00:47:25"
+      },
+      {
+        "question": "What challenges are individual users and traditional media publishers facing in today's information landscape?",
+        "answer": "Individual users face the challenge of developing systems to efficiently find the information they need amidst an overload of content. Traditional media publishers are challenged to meet the new demands of audiences who are increasingly accessing information through AI-generated content and video formats.",
+        "time": "00:48:03"
+      },
+      {
+        "question": "How is AI impacting the production and consumption of news content?",
+        "answer": "AI has made AI-generated video content more popular, leading traditional media companies to produce more videos to meet this demand. This development is indicative of a dynamic shift in the information ecosystem, as AI assists in generating news content.",
+        "time": "00:49:13"
+      },
+      {
+        "question": "What are the potential consequences of the increasing amount of content and back content in the news industry?",
+        "answer": "The increasing volume of content and back content in the news industry poses challenges, including the potential for misinformation to proliferate. Quality content may be overwhelmed, but some may view this as an opportunity to focus on popular content, which is often believed to be a good indicator of quality by the audience.",
+        "time": "00:49:50"
+      },
+      {
+        "question": "What are the implications of AI on the accuracy and reliability of news reporting?",
+        "answer": "AI, being based on statistics and potentially biased data, may not always generate factually accurate information. This presents challenges to the news industry, which is fundamentally fact-based, and to the public who relies on accurate news reporting. Journalistic principles such as unbiased fact-finding are difficult for AI to uphold.",
+        "time": "00:51:13"
+      },
+      {
+        "question": "What new problems have emerged due to AI in the context of election campaigns?",
+        "answer": "AI has created new problems such as an overload of misinformation during election campaigns, making it difficult for the public to discern accurate information. AI-generated content can spread quickly, misleading the public, particularly during critical events like elections.",
+        "time": "00:52:07"
+      },
+      {
+        "question": "What strategies are being discussed or implemented to address the challenges of misinformation and AI accountability?",
+        "answer": "Strategies include addressing AI accountability and educating the public on how to identify credible sources. There are discussions and practices emerging around using AI to assist in fact-checking and identifying missing information, which is then followed up on by human fact-checkers. Ecosystem approaches involving technology, government, and civil society are being developed to tackle these issues collectively.",
+        "time": "00:54:15"
+      },
+      {
+        "question": "How could AI be part of the solution to fighting misinformation?",
+        "answer": "AI could potentially be used to combat misinformation by having AI agents assist in classifying and verifying factual information, making the process cheaper and more accessible. However, it is acknowledged that this is not a new problem and requires education and critical thinking to effectively counter misinformation.",
+        "time": "00:55:52"
+      },
+      {
+        "question": "Has Gary been approached by content creators or media groups to work on projects?",
+        "answer": "Gary has not been approached to work directly with media agencies using their tools to create content, but there has been interest in discussing potential collaborations.",
+        "time": "00:58:34"
+      },
+      {
+        "question": "How is AI currently used in the content creation process for Gary's recent work?",
+        "answer": "AI tools are used in Gary's content creation process to generate illustrations and to assist with writing articles. He utilizes AI, such as ChatGPT, to aid in the writing process.",
+        "time": "00:59:26"
+      },
+      {
+        "question": "What are the limitations of current large language models according to Gary?",
+        "answer": "According to Gary, the limitation of current large language models is their instinctive and shallow response nature, which causes a very shallow use case and they are unable to handle complex tasks that require extensive steps and human-like reasoning.",
+        "time": "01:00:09"
+      },
+      {
+        "question": "How does Gary suggest individuals and industries should approach tasks involving AI?",
+        "answer": "Gary suggests that individuals and industries need to break down their tasks and thinking processes systematically to determine which parts can be supported by AI. This approach allows for a more effective use of AI as a tool to enhance work rather than replacing fundamental human effort.",
+        "time": "01:01:17"
+      },
+      {
+        "question": "What is Gary's preferred method for obtaining information and his stance on AI's role in it?",
+        "answer": "Gary prefers to obtain formal information through journals, reports, and papers. While he acknowledges the role of AI in curating information and preparing for discussions with experts, he values human expertise and critical thinking to evaluate information critically.",
+        "time": "01:02:36"
+      },
+      {
+        "question": "Does Gary believe there will be a future for traditional journalism and if so, how does he see AI enhancing it?",
+        "answer": "Gary believes that traditional journalism has a future and that AI can be a useful tool to increase efficiency. He suggests using AI to get up to speed on relevant information before speaking to an expert, thereby saving time and ensuring more productive discussions.",
+        "time": "01:05:06"
+      },
+      {
+        "question": "What is Gary's wish regarding the use of AI in managing information intake?",
+        "answer": "Gary's wish is to build an AI agent that can manage his information intake, helping to filter and prioritize content. He is open to suggestions and ideas on how to achieve this.",
+        "time": "01:05:44"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "探索AI时代的创新与机遇",
+        "summary": "在AI技术浪潮下，各行各业正经历着前所未有的变化。节目中，主播分享了两个AI相关的创新项目：一是'AI遗嘱'，通过AI采访帮助年轻人深度思考生命意义；二是为海外创业公司在华招聘和管理研发团队提供服务，解决远程招聘难题。这两个项目展示了AI技术在个人生活和企业管理上的应用潜力，同时也为听众提供了参与AI创新的机会。"
+      },
+      {
+        "time": "00:03:30",
+        "title": "探讨AI对未来内容创作的影响及Notebook LM的潜力",
+        "summary": "本期播客，我们关注了AI技术，特别是Google Lab推出的Notebook LM，如何降低了内容创作的门槛，让更多人成为创作作者。通过主持圆桌讨论，探讨了AI在改变内容消费供给和生产方面的作用。Notebook LM以其强大的上下文处理能力和生成高质量音频的功能，展现了成为杀手级应用的潜力。通过实际应用示例，展示了其如何为播客《十字路口》生成介绍，体现了AI在内容创作中的巨大潜力和对人类故事的深入挖掘。"
+      },
+      {
+        "time": "00:08:17",
+        "title": "Notebook LM：现象级产品与实用案例分享",
+        "summary": "自九月起，Notebook LM作为一种现象级产品迅速受到关注，因其能生成逼真音频而广受好评。经过一个月的时间，人们发现了更多有价值的使用案例，包括搞笑的个人简历夸奖生成和将会议录音转化为趣味性对话，这些都展示了Notebook LM在个人和工作中的实用性。此外，Notebook LM不断升级，新增团队协作功能，进一步提高了其在项目共享和协作中的价值。网络上也出现了大量关于如何使用Notebook LM的文章和视频，为用户提供更多灵感和指导。"
+      },
+      {
+        "time": "00:11:00",
+        "title": "AI技术在内容生成和科普领域的创新应用",
+        "summary": "对话内容展示了AI技术，特别是notebook OM，在内容生成领域的多种创新应用。首先，有人尝试将《红楼梦》和《百年孤独》等经典文学作品输入AI系统，生成有趣的内容摘要。其次，介绍了一款名为ref podcast的APP，它通过抓取如protest hunt、GitHub等平台的热门内容生成播客，为用户提供像每日新闻一样的信息汇总。此外，有粉丝利用AI将AI大神伊利推荐的论文转化为播客，以此形式推广科研成果，实现科普的目的。这些应用不仅体现了AI在内容生成方面的潜力，也为公众提供了一种全新的消费和理解复杂信息的方式。"
+      },
+      {
+        "time": "00:14:27",
+        "title": "探索Notebook LM的创新应用案例",
+        "summary": "在过去的几年里，Notebook LM以其独特的能力在多个领域内展示了其潜力。一个引人注目的应用案例是一位用户将一家银行三年的财务报告上传给Notebook LM，以获取对该银行财务表现的分析。此外，Right Martin分享了自己利用Notebook LM生成的音频深度游览圣天使城堡的经历，展示了其在旅游介绍方面的应用。另一家公司通过让Notebook LM分析200页文档，生成关于产品保护银行账户安全的对话，以此作为产品营销的手段。作家Johnson使用Notebook LM进行读书笔记和头脑风暴，将它比作个性化的助手。一个特别的想法是利用Notebook LM来回顾个人的阅读和写作历史，甚至有建议通过结合技术实现个人生活的实时记录和传记生成。这些应用案例不仅突显了Notebook LM在学习、科研和工作中的实用性，也展示了其在创造性和个人应用方面的潜力。"
+      },
+      {
+        "time": "00:19:35",
+        "title": "探讨Notebook OM及其背后的Google创新能力",
+        "summary": "在Notebook OM成为热议话题后，对话者选择在热潮稍退后对其进行全面而冷静的分析，探讨了产品的实际应用案例及背后的团队和工作流程。特别强调了Google Labs作为产品孵化器的历史和对创新的贡献，以及Notebook OM作为Google 20%时间文化产物的代表性。指出尽管团队规模不大，但通过高效的基础设施和AI工具，展现了强大的创新能力。"
+      },
+      {
+        "time": "00:22:40",
+        "title": "谷歌实验室的创新团队搭建与产品开发模式",
+        "summary": "在谷歌这样一个大型企业内部，如何维持小团队的创新精神和效率是一大挑战。谷歌实验室通过任命一位在公司工作超过15年、经验丰富的VP领导团队，并且引入了领域内资深的创作者直接参与产品开发，从而在资源调配、产品设计和内容产出上取得了显著效果。这种模式不仅保证了产品在专业领域的适用性和高质量，还为未来的AIGC（人工智能生成内容）产品开发提供了一种新的团队合作模式。这种创新的工作模式表明，将资深创作者从一开始就深度融入产品开发过程，能够显著提升产品的用户体验和内容质量。"
+      },
+      {
+        "time": "00:26:13",
+        "title": "AI技术革新对媒体消费的影响",
+        "summary": "AI技术，尤其是生成式AI，正在改变新闻报道的制作方式，使得小型新闻机构能够通过AI总结美国各州的政策文件，简化记者和编辑的工作负担。AI的这一应用不仅提高了效率，也引发了对假新闻问题的担忧。讨论指出，利用AI进行事实核对，再交由人类处理，可能是解决之道。同时，AI技术，如Notebook IM，有潜力改变传统新闻的消费方式，通过对话式内容和增强的互动性，使新闻报道更加吸引人和易于接受。此外，美图作为生产力工具在AI时代的尝试也被提及，显示了AI在不同领域的广泛应用和影响。"
+      },
+      {
+        "time": "00:31:35",
+        "title": "移动APP公司MeToo的发展历程与AI技术应用",
+        "summary": "MeToo起初作为一款简化版的Photoshop移动应用，专注于帮助用户轻松添加面部特效，后转型为全面的移动APP公司。2011年，公司开始聚焦于移动领域，随后在2013年成立了AI实验室MT Lab，将计算机视觉作为核心技术，用于追踪面部特征以方便用户操作。近年来，MeToo利用生成式AI技术拓宽了公司的业务范围，推出了X Design和Ki Pie等应用，分别针对电商背景设计和视频编辑，帮助用户轻松创建专业内容，展示了生成式AI在促进内容创作经济方面的作用。"
+      },
+      {
+        "time": "00:33:43",
+        "title": "音乐学习与AI技术的未来发展",
+        "summary": "讨论强调了音乐学习的重要性及其对个人成长的影响，同时也探讨了AI技术在创作过程中的应用及其对内容创造领域的影响。一位钢琴学习者分享了自己学习音乐的经历，并指出音乐学习中不可替代的人文元素。另一方面，一位内容创作者讲述了其在视频平台上的经验，以及AI如何使得创意表达变得更加容易和普及，尽管质量可能参差不齐，但促进了更多创意内容的涌现。此外，还提及了个人如何因AI技术的发展而选择了自己的专业方向。"
+      },
+      {
+        "time": "00:36:41",
+        "title": "AI技术在新闻行业中的应用与影响",
+        "summary": "AI技术已经在新闻行业中实现了显著的创新，尤其是在新闻采集和生产方面。新闻追踪器能够从Twitter等社交媒体平台抓取数亿条数据，帮助记者快速识别突发新闻，为新闻机构在竞争中提供宝贵的时间优势。此外，AI还被用于处理数以千万计的文档，帮助进行深度报道和调查新闻，例如通过AI技术来汇总和总结政策文件，大大节省了人力成本。这些技术的应用虽然在新闻生产的后台进行，但对提高新闻报道的质量和效率具有重要意义。"
+      },
+      {
+        "time": "00:41:11",
+        "title": "AI技术在照片和视频编辑中的应用及影响",
+        "summary": "对话中讨论了AI技术在照片和视频编辑中的多种应用，如去除不想要的元素、改善牙齿和头发的外观，以及在视频中添加化妆品效果等。强调了这些功能的普及和对用户生产力的提升，同时也触及了AI对设计行业的影响，指出尽管某些工作可能变得冗余，但整体上AI增加了劳动力市场的效率，对消费者有利。"
+      },
+      {
+        "time": "00:47:25",
+        "title": "AI技术对新闻行业的影响及挑战",
+        "summary": "随着技术的发展，特别是AI生成内容的普及，新闻行业正在经历前所未有的变革。个体用户面临信息过载的问题，需要发展自己的信息筛选系统来获取所需内容。同时，传统媒体和出版商面临如何满足受众新需求的挑战，开始增加视频内容的生产以适应趋势。AI技术的使用，虽然提高了内容生成的效率，但也带来了对于事实准确性的挑战，因为AI基于统计和已有数据生成内容，可能会产生偏见。此外，AI技术还加剧了错误信息的传播，尤其是在选举等敏感时期，利用AI伪造信息成为可能，对社会和个人产生了深远的影响。因此，提升公众的信息素养，教育人们如何识别信息来源和真实性，成为了应对这一挑战的关键。"
+      },
+      {
+        "time": "00:54:10",
+        "title": "应对人工智能引发的信息挑战",
+        "summary": "讨论集中在如何利用人工智能（AI）解决其自身造成的信息问题，特别是虚假信息的泛滥。一方面，媒体行业需增加对AI责任的报道和讨论，提升公众对AI问题的认识。另一方面，通过AI技术辅助进行事实核查，识别可能的错误信息，随后由人类进行深入的核实，这一过程在发展中国家尤为重要。此外，还探讨了利用AI区分信息真伪的可能性，强调教育和提升公众的批判性思维能力的重要性。整体上，虽然技术带来挑战，但也提供了应对策略，强调人与AI应是互补而非对立的关系。"
+      },
+      {
+        "time": "00:58:25",
+        "title": "探讨人工智能在内容创作和行业应用的局限与潜力",
+        "summary": "在讨论中，人工智能（AI）在内容创作领域的应用及其限制成为焦点。一方面，AI技术，如大型语言模型，被用来生成插图、编写文章，展现出其在辅助创作中的潜力。另一方面，也指出了当前AI技术的局限性，如对复杂任务处理的不足和浅层应用的现状，强调人类在面对AI时需要更加智能化、系统化和策略性地思考。同时，探讨了教育行业对AI技术的态度和应对策略，认为人类应通过更细致的任务分解和工作流程优化，来更好地整合AI技术，提升工作效率和创造力。"
+      },
+      {
+        "time": "01:02:36",
+        "title": "掌握信息消费，利用AI提升效率",
+        "summary": "在信息爆炸的时代，人们需要掌握如何筛选和消费信息。一位账户创建者分享了自己如何通过社交媒体了解社区动态，同时强调了定期远离信息的重要性以及利用AI工具如GPT进行初步信息获取的方法。此外，提出了一个未来愿望，希望能够开发出AI代理来管理个人的信息摄入。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "概念：邀请年轻人写遗嘱，通过AI采访引导深入思考生命意义"
+                },
+                {
+                  "children": [],
+                  "content": "功能：AI根据对话整理出完整的遗嘱"
+                },
+                {
+                  "children": [],
+                  "content": "用户反馈：约1万人已使用"
+                }
+              ],
+              "content": "AI遗嘱产品"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "产品简介：Google Labs推出，类似智能笔记本，能处理大量内容并生成音频等"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "content": "生成有趣内容：将枯燥内容转化为趣味音频"
+                    },
+                    {
+                      "children": [],
+                      "content": "教育与科普：将论文和书籍内容转化为易于理解的音频"
+                    },
+                    {
+                      "children": [],
+                      "content": "个人助理：帮助管理信息，生成个人化内容"
+                    }
+                  ],
+                  "content": "使用场景"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "content": "高度评价其生成内容的质量和准确性"
+                    },
+                    {
+                      "children": [],
+                      "content": "讨论其对未来内容创作的影响"
+                    }
+                  ],
+                  "content": "社区反馈"
+                }
+              ],
+              "content": "Notebook LM"
+            }
+          ],
+          "content": "AI技术及应用"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "降低内容创作门槛"
+                },
+                {
+                  "children": [],
+                  "content": "促进信息消费供给和生产的变化"
+                }
+              ],
+              "content": "人工智能在内容创作中的角色"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "信息的民主化和个性化"
+                },
+                {
+                  "children": [],
+                  "content": "面临的假新闻和信息泡沫问题"
+                },
+                {
+                  "children": [],
+                  "content": "使用AI辅助进行事实核查的尝试"
+                }
+              ],
+              "content": "AI对传统媒体的挑战与机遇"
+            }
+          ],
+          "content": "社会与文化影响"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "经验丰富的团队和跨领域合作"
+                },
+                {
+                  "children": [],
+                  "content": "开放的创新环境和实验性项目"
+                }
+              ],
+              "content": "Google Labs的创新文化"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "跨领域团队合作"
+                },
+                {
+                  "children": [],
+                  "content": "结合资深创作者和AI技术"
+                }
+              ],
+              "content": "AI产品开发模式"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI在教育、医疗等领域的应用潜力"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术在提高人类生活质量中的角色"
+                }
+              ],
+              "content": "未来展望"
+            }
+          ],
+          "content": "技术与创新"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI作为工具而非替代品"
+                },
+                {
+                  "children": [],
+                  "content": "人类如何适应与AI共存的新工作模式"
+                }
+              ],
+              "content": "人工智能与人类工作的关系"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "信息过载和筛选问题"
+                },
+                {
+                  "children": [],
+                  "content": "保护个人隐私和数据安全"
+                },
+                {
+                  "children": [],
+                  "content": "确保AI系统的透明度和可解释性"
+                }
+              ],
+              "content": "面临的挑战"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "增强人类的批判性思维和创造力"
+                },
+                {
+                  "children": [],
+                  "content": "适应技术快速变化的教育模式"
+                }
+              ],
+              "content": "教育和学习"
+            }
+          ],
+          "content": "未来趋势与挑战"
+        }
+      ],
+      "content": "十字路口播客脑图摘要"
+    }
+  }
+}

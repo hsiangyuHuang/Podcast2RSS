@@ -8,15 +8,47 @@ from core.transcription import transcribe_podcast
 from core.rss import RSSProcessor
 from core.exceptions import PodcastError, TranscriptionError, RSSError
 
-# 配置日志
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
+def setup_logging():
+    """配置日志处理器"""
+    # 创建logs目录
+    log_dir = Path(__file__).parent.parent / "logs"
+    log_dir.mkdir(exist_ok=True)
+    
+    # 生成日志文件名，包含时间戳
+    log_file = log_dir / f"podcast_rss_{time.strftime('%Y%m%d_%H%M%S')}.log"
+    
+    # 创建格式化器
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    
+    # 创建并配置文件处理器
+    file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    file_handler.setFormatter(formatter)
+    file_handler.setLevel(logging.INFO)
+    
+    # 创建并配置控制台处理器
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    console_handler.setLevel(logging.INFO)
+    
+    # 配置根日志记录器
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+    # 移除现有的处理器
+    for handler in root_logger.handlers[:]:
+        root_logger.removeHandler(handler)
+    # 添加新的处理器
+    root_logger.addHandler(file_handler)
+    root_logger.addHandler(console_handler)
+    
+    return log_file
 
 def main():
     """主程序入口"""
+    # 设置日志
+    log_file = setup_logging()
+    logger = logging.getLogger(__name__)
+    logger.info(f"日志将保存到: {log_file}")
+    
     start_time = time.time()
     # 1. 读取配置
     config_path = Path(__file__).parent.parent / "config" / "podcasts.yml"
@@ -56,13 +88,18 @@ def main():
                 
                 # 3.2 处理音频转写
                 logger.info(f"正在处理音频转写...")
+                has_new_transcripts = False
                 try:
-                    transcribe_podcast(pid)
+                    has_new_transcripts = transcribe_podcast(pid)
+                    if not has_new_transcripts:
+                        logger.info("没有新的转写内容，跳过RSS生成")
+                        continue
                 except TranscriptionError as e:
                     logger.error(f"音频转写失败: {str(e)}")
+                    continue
                     
                 # 3.3 生成RSS
-                logger.info(f"正在生成RSS...")
+                logger.info(f"检测到新的转写内容，正在生成RSS...")
                 try:
                     rss_processor.generate_rss(pid)
                 except RSSError as e:

@@ -1,0 +1,1664 @@
+{
+  "pid": "61cbaac48bb4cd867fcabe22",
+  "eid": "650a43125c88d24126556ca5",
+  "title": "EP 39. 对话硅谷顶尖风投机构a16z合伙人Jennifer: 拆解早期投资及开源独角兽dbt的成长",
+  "task_id": "g2y8qe7edbm3nbeo",
+  "transcription": [
+    {
+      "time": "00:00:03",
+      "text": "欢迎来到onboard，真实的一线经验，走心的投资思考。我是Monica.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:09",
+      "text": "我是高宁，我们一起聊聊软件如何改变世界。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:00:16",
+      "text": "大家好，我是Monica on board。又一期与硅谷一线投资人的访谈来了，这一次邀请到的是Monica的好朋友，也是硅谷最顶尖的风险投资基金之一Anderson horis，也就是大家常说的A16Z的投资合伙人Jennifer ly。同样是产业界转型投资人的我们，相识也是因为对于企业软件、大数据、开源等领域的共同关注，关注这个方向的创业者和从业者。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:45",
+      "text": "相信很多人都读过Jennifer在A16Z网站上撰写的很多篇非常深度的分析文章。如果你还没有读过，链接，都放在show note里面了。包括开源的商业化，包括现代的数据架构等等。他投资的公司包括大数据领域耳熟能详的DVT mother duck，AI领域最火的公司之一eleven labs等等。Jennifer是硅谷一线基金中为数不多的华人投资合伙人，今天终于有机会跟Jennifer聊一聊他的视角，过去的投资心得，对当下市场和未来机会的思考。这次两个多小时的访谈，Jennifer的分享也是非常有诚意，绝对是干货满满，相信你一定会跟莫妮卡一样意犹未尽，收获颇丰。而嘉宾长期在美北美生活工作，夹杂英文在所难免。我们不接受抱怨了，话不多说，enjoy啊。Jennifer, 欢迎来到on boy.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:47",
+      "text": "谢谢你。谢谢莫妮卡邀请我我我也一直很期待这一次来到你的podcast。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:01:53",
+      "text": "就是在data这个领域是大家都比较熟悉，也许都已经看过Jennifer的文章。但是我想对于还不那么熟悉的朋友，Jennifer或者可以介绍你自己，你是怎么开始你的这个投资人生涯？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:05",
+      "text": "我的职业生涯还是有有几个转折点的。我是在中国长大，在上海财经读的本科。然后到美国，其实本来是要读一个商科的本科，上课的研究生。但是因为去了一个非常engineering heavy的学校，就pay up 1点这种coding的skill。可能一直都是在和一些undergrad teenagers写code，就还是发现蛮有意思的。所以后来就又去卡耐基梅隆读了一个sof engineering的master。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:48",
+      "text": "其实做产品的原因之一是因为我个人感觉，因为不太可能会做一个很出色的工程师。因为我的背景可能一直都是很喜欢跟人接触，比较喜欢想这种用户或者是产品的问题。加上在特别是B2B的领域，产品的产品经理的职位其实有很多关于怎么去go to market，怎么去tragic story，怎么去接触和找到用户。这个过程其实是我个人非常enjoy的一个成长经历。所以在从卡莱基梅隆出来之后就一直去做产品。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:03:33",
+      "text": "开始是在一个创业公司，相当于中后期的创业公司叫ethyl ami s，做这种application performance monitoring。然后接下来去了一个在那个时候很流行的chat out company，叫做sorry。其实是很早期的运用这种transformer model的一个公司。在这两个经历之后其实有点想自己去做公司，去做创始人，然后去start一个B2B may be in that tools或者是in data的一个公司。但是总想是说还要学习一下这种创业的经验。其实加入Anderson很大的一个成分是想要去learn from a lot of founders，去跟特别是Anderson的很多合伙人都是一个创始人的经验过来。这个是一个很大的驱动去做投资，想想要做，比如只是一两年的时间，但是没想到五年一眨眼就过来，现在已经在这层做合伙人第五年第六年的时间了。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:43",
+      "text": "对，正好聊到这个and Jason这个VC firm，我想很多很多同学可能还没有那么了解，或者可以跟大家大概介绍一下这是一家一间怎样。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:53",
+      "text": "的VC好啊。And Jason其实是一个蛮新的一个投资者公司，今年应该是第13个年头。我们是从2008年09年开始，只是Martin Jason和bho z他们两个的Angel方其实叫的名字是horror and Angel fund之后变成了我们融的第一个fund her with the und one开始投资就是比较flagship的领域就是enterprise和和consumer。因为毕竟mark and then两个创始人在创业的时候做的第一个从browser开始，有很大的consumer成分在里面。后面的cloud cloud，oswal其实都是B2B的公司，之后卖给了惠普。所以当时他们出来想要做这个投资公司，就是因为有很多个人的经历在里面，自己是怎样对被投资人所对待，和自己有哪一些想要改变这个industry的地方，其实是有很多初中是非常贴切于他们的个人经历。比如我们非常的founder friendly，founder first的这种mindset就是从那个时候开始培养的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:06:13",
+      "text": "我们前面10到12个合伙人全部都是自己做过公司，做过创始人，有有X过公司的这种背景。而且是一个非常重要的criteria。在当时Anderson去hire new partner的时候，的过程，像我本身也是一个Operate的经历，到现在为止，可能60%到70%的投资人address的投资人里面都是有这种Operating经历的。然后有也有很多人自己有创过业，做过公司。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:06:48",
+      "text": "这个其实就是最大的一个differences的地方就是andre的这种理念是很从创始人的角度来来开始加上他们在个人经历中觉得很多投资人可能并没有那么有帮助。如果他没有做过公司，不能体会到这种艰难。加上scaling的过程中需要哪些帮助的地方，其实也是很很取决于这个创始人个人的经历加上和他所在的领域。所以在我们的投资公司开始之后，有很大的一个着重点就是有很有投资在很多Operating partner上面，我们叫这种open platform。其实是后面很多投资公司都有开始去采纳。但是在可能2010年，2011年还不是非常的prevalent ent，但现在像andastes或有500个员工里面的400个左右的员工都是做这种offering方式。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:07:59",
+      "text": "他们的是有是不是有点像国内很多BC出的投后服务这种。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:08:05",
+      "text": "对对对，投后是很大的一个重点，像我们想要着重的就是他们不会去帮助founder怎么去做产品，或者是怎么去卖产品。但是他可以教你怎么去build这种relationship，加上怎么去tell这个story，怎么去market这个产品。所以我们的这种投后的服务可能range在各种go to market relationship上面有很多的这种marketing和talent。还有后面融资的帮助上会有很多你们这么大的一个Operation .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:44",
+      "text": "team，有哪一些best practice就是可以比较系统性的能够帮助到你们那么多portfolio公司。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:08:51",
+      "text": "这是个好问题。因为像我刚刚讲到我们firm也是有一个很快的一个scaling的过程。在我们像从五年前我加入firm只有两个fund，到现在有7到8个find不同的verticle从consumer就是用户产品、企业产品，pin check，gypo和bio这种不同的practice上面，它都需要不同的帮助。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:23",
+      "text": "就是说像enterprise来讲，我最熟悉的领域可能需要更多的是这种跟三大云商家的这种合作，比如跟ASA和google GCP，或者是现在AI很火跟NVIDIA的这种关系。对这种创始人来讲是非常重要的。但是在医药领域来讲，他可能需要的就是更多跟法尔玛和这种研究学院的关系。所以每一个领域我们会去给他build不同的投后的帮助，包括在talent这种怎么去招人和招的什么样的人的network，它都是各有自己的characteristic tics。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:15",
+      "text": "但我们总体的其实这个意向来讲，是需要是想要去expand founder的network。所以我们可能更注重在我们在哪里的network，会是给founder一个ten nex的一个阶段。当然我们可能不会去知道去了解所有的这种engineering talent，但我们可能会咳咳所有的VP level CA level的talt有很强的network。这种时候我们就可以帮助founder，在他们没有那么强的领域去给他一个很很有利的帮助。不知道这个，对对这对我觉得这个。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:00",
+      "text": "非常make sense。的确我也经常在想说，投资人就说这个到底能够帮到他有多少？因为即使我们可以给给他们一些know how，但其实我们并不知道他们，也许是我们很难非常closely去check每一个performer公司，你什么时候需要这些know how的。所以有时候给他那就是connect到最合适的那个人，也许是是是最能够scalable去做的一个事情。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:11:25",
+      "text": "好，对这是一个很好的点。就是你在帮助他帮帮助他不到的时候，你的network里面的人会有人知道这个answer，会给他指一条明路。这个其实是最重要的。我作为投资人能帮到的地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:41",
+      "text": "Jennifer可以先跟大家分享一个你自己印象比较深刻的一个一个投资，聊一聊当时投资的过程，你怎么发现那个项目，然后怎么做的决定。尤其这到现在项目的这些发展以及你的一些learning。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:11:56",
+      "text": "其实五年来55年走过来，有很多很多故事，要选择一个还是蛮难的。但是我觉得我learning curve最最steep的，应该也是前面的一两年，特别是刚刚进入风风投圈，然后18年19年还是一个很reasonable的period。可以讲可能2020年开始就有一点点crazy，但那个时候我们在看的很多领域，不管是security还是deb tos还是data，有很多跟自己相关的亲身经历，可能会对我来讲是最怎么说最memorable的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:40",
+      "text": "因为之前在做产品的时候，我就有很多responsibilty是去做set up这种。Internal analytics, 或者是做这种dashboard，做很多这种analysis的的工作。不管是自己立了一个team，还是去build这种infrastructure，都是会去evaluate很多这种product和companies。所以在我刚进入风投圈的时候，就很贴近于自己的经历，也是可能有很多自己的intuition可以去利用到。就看了很多did infrastructure关的公司，当然也是那个时候机会比较好。因为snowflake可能刚刚准备上市，也是上市的过程中，delivery在一个很快的发展过程中有很有一个叫industry tail wind。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:24",
+      "text": "在在infrastructure领域里面很多的on prime或者是早期的data war house moving into the cloud。然后有很多这种self serve analysis的push。所以就看了一些相当于middle ware和user level的data infrastructure company。其中有一个公司叫做DBT。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:48",
+      "text": "很有意思的就是我去我看到任何一个在做data的公司里面都会提这个DBT。即使他在很早期，不管是做pipeline的公司还是做BI tool，都会讲述一个tool的DT。我想说第一题是什么？他有一个很很直白的name叫did a beauty。而且看起来好像也没有那么复杂，但是就是有很多人去去采纳和利用它，然后在这点圈子里就有很多这种mindshare。所以当时就去接触了一下这个创始人。很很很很很有意思的是这个公司其实是一个boost shop的公司，他做的是一个data services，它并不是一个tech traditional tech company。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:14:32",
+      "text": "对我印象中好像他一开始是一个consulting是吧，就是自己就像几个小几个人小作坊做出来consulting firm.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:14:39",
+      "text": "而且这样做了三年，就是在在phila dopa也并不是这种central casting的city and valley他们做了三年叫fish town analytics的这种一个consorting service。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:14:48",
+      "text": "我好奇就是其实前面提到说你经常听到这个data圈的人提到这个工具，我和这些事情。比如说你在聊一些是你自己有意的去做一些这个市场的调研的过程中，就是你会刻意的去问说大家最近关注哪些two，或者你们最近在常常用的有哪些to，是作为你自己research的一部分吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:15:10",
+      "text": "对，这个是我基本上每个page和每个meeting都会问的问题，就是你在用什么，这个是怎么build的这也可能是leak out自己那里的部分，就是不仅仅是想要知道他们做出来的东西是什么，还是他是怎么做的。我也很很关很关注，所以会经常问这样的问题。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:15:28",
+      "text": "我觉得这个是挺好的一个check，就是通过在每一个这个科目。因为我觉得我们的每个我们接触每一个创每每一个创始人好，业内的人也好。其实他们很多一线的信息是我们通过这种案头研究，这种death research，可能是很难发现的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:15:45",
+      "text": "对对对，而且这个可能也是个secret weapon。如果你觉得你在接触的圈子里面的人用的都是最先进的，或者是最前沿的two的话，那就经常会发现一些很有意思的东西。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:00",
+      "text": "Pbt的也是看到了一个比较unconventional的一个start。但是接触下来大概可能有六个月到一年左右的时间。这个创始人就开始想想说是不是可以sunset这种consulting的service，去真的把这个DBT package起来做一个product。当然这种沉醉tion之前有发生过，但是还是很少会有成功的案例，我们也是，我会觉得这是会是一个risk。到底有没有这种很smooth的一个tradition？当然history told us widely expected our expectation就是DBT adoption curve。好像这三年以来一直就没有slow down过ten to fifty percent months or a months的growth。在这种project new project starting point，所以这个是算是我觉得个人来讲一个很很好的learning experience。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:00",
+      "text": "就是并不一定是satiating valley like a pattern matching type of company。才会找到很好的公司。其实好公司会有各种各样不同的背景和经历，他可能他会需要很长的一个研发和build up的时间。他这段过程中，他不仅他不管是用什么样的方式去support他的business model，其实都是viable的。只是这个产品是不是所有人都需要，是不是很多人都都去认可，这个我觉得是最最重要的一个点。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:39",
+      "text": "这个我现在觉得挺有意思。因为一般如果你看到一个这个service，这个consulting from的话，一般不是VC会去投的这个类型。比如说对于你来说，你看到了他的这个产品的wide adoption。当刚开始的时候你会去是你去劝你会去劝他说你可以把你可以考虑把这个package成一个soft来来去来去卖。那真正到你们投资的那个那个时间节点是在他们已经这个产品已经完成了产品化的之后才去投的吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:18:11",
+      "text": "这个过程应该是不仅仅是我一个人作为投资人，很多投资人也都会去劝劝他做做这个转转转变。但我想说的是，其实这个转变还是需要创始人自己去有一个意向，也是他有一个vision，他有一个product的的很好的product sense，才能去做好的转变。如果没有的话，当然我也接触很多其他的consulting company，会去想要去做这种tradition也还是很难的。当然tristan就是DBT的创始人，他本来就是一个很product center的人，他只是通过这个过程去build up这个project。我当我们投的时候，他已经融过了种子轮，但这个种子轮到A轮中间只有三个月的时间，就是他在这一段很短的时间内。Science set的这个consulting的service，然后开始去做他专注于这个sas business，做DBT cloud这个过程。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:19:17",
+      "text": "还可以再跟大家一两句简单介绍一下DVT是做什么的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:19:21",
+      "text": "可以，DVT其实简单来讲它有两个component。它一个是open source的部分叫DBT core，所用的就是去把这种SQL model break down into small executable components um instead of one big tree。And a lot of times in E, T, L, the t has to be combined with EL. Likely in this new transition，we were investors in in another company called fighter train, fight in。做的就只是去做这种，把data duplicate到warehouse里面。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:03",
+      "text": "那DBT的model指就是在snowflake或者是任何data warehouse上面可以去repeatable execute。它有很多它采纳了很多这种engineering the best practices，可以去做testing，可以component tize，可以很容易的去写documentation。然后这种execution可以。怎么说量化去更好的去reproduce同样的结果。当然这个就是在解决一个很大的数据模型。在在DPT存在之前，这种大的数据模型可能转起来就会很复杂。然后每一个analysts去用的时候也要了解很很很复杂的一个dependency tree。但用了DPT之后就可以更independent，然后move的更快一些。当他但是他第二个产品就是怎么样把这个DBD core做到云里面，然后可以让整个data team去share这种model，或者是build upon each other，去更好的improve他们的velocity。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:21:21",
+      "text": "对，其实当我们当我记得当在这个data这个data info，这个death tooth最火的那那几年，ETL到ELT的转型，感觉这个five chain stones flake DBT几乎成了当时大家的默认的一个所谓的modern data set的一个组合。所以说我觉得在我觉得应该很多不论从创业或者投资的朋友，其实都会比较好奇，就是如何在很早期的时候识别到这种trend。因为我相信在当时可能这个还远不是一个bus world，这个人也是后面出来一个东西。比如说所以回到当时，我记得那个andersson在投的时候，你们写就why we investing the company的一篇blog的时候，当他们还叫fish town antics，而且你也说那个时候离他们的C轮也就几个月的时间。那我好奇一个点，就是说比如当时就是因为这个development took其实是挺散的一个space。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:22:17",
+      "text": "也有很多人会说很多工具看上去都是一些小工具，看上去很薄，对吧？也许很多人用。但是他最后能否能够成为一个足够大的business，大家愿意为他付多少钱？我想可能也是很多创业者或投资人早期会问的问题。所以如果可以分享的话，比如当时你们在投的时候，他那时候你们看中的公司，比如说是有哪一些让你们愿意去愿意portugal的这个traction也好，然后当时你们是怎么去思考这个产品未来的空间的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:22:47",
+      "text": "这是个好问题。我觉得我的我的答案其实是完全从我的partner Martinia那边抄袭过来的。在我所有很大的这种投资，很多我的投资观点和切入点，其实都是被他的影响，受他的影响很多。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:23:06",
+      "text": "对，现在我自己就Martin casado，其实他也是在Andrea负责这个info这一块的投资人。他自己原来也是个创业者对吧？对对对。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:23:15",
+      "text": "他自己做的是一个networking的company，然后又卖给VMR之后几年后来到Anderson做partner，投了很多很很好的infrastructure公司。当然我们经常debate的点就是说在不管是infrastructure of tools，还是data。像你刚才讲到很多小的工具，它可能有很多utility，但是它到底可不可以commercialize？可不可以montibus？它即使可以montibus的话，它有多大的可以扩展的空间。我们必备的点就是说它的这个切入点，我们叫insertion point。或者是说他的tragic value和他的control到底是有多么多么强，有多么核心。他如果很核心的话，比如说DBT你作为一个analyst他每天在做的事情就是写C然后rango它整个的workflow全都被DBT取代的话，它就有很它就是一个很有策略性的一个切入点，它后面可以做很多其他的东西。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:24:23",
+      "text": "但是如果说从我举个例子，从做documentation来讲，你就很难去蛋糕去做tools。因为它是一个边缘化的一个工具。这个就是在我们讲说它的control point的话，如果你可以control到这个核心的流程，那后面就可以做很多。比如说关于testing，比如说他现在DPT在在做metric store，它也有一点点这种catalog或者是quality的一些成分在里面，它就可以去延展很多其他的方向。他因为他的他所在的workload是非常central，非常核心的。所以这个也是我们经常take的一个point of view。就是说在我们ever evaluate去看一些公司的时候，他哪从哪里起点，从哪里切入。然后他从这里是不是有很大的延展性。在有延展性的情况下，他是不是可以很有效的去商业化，这个是可能我们我们所看看重的部分。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:25:30",
+      "text": "这个其实挺有意思一个一一个点。也就是说你们其实在看的时候不会说单纯就刚才你说的比方DBT他这个component ze的功这个功能本身来去看，它最终能够在这个点上去commercialize多少，能够赚多少钱。怎么去看？这个更多是看说他基于这个点可能就有点，他可能就是算把这个点完全开源出来，完全不在赚钱。你看中的是他未来commercial的一些一些功能是吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:26:02",
+      "text": "基本上是这样，当然。所看或者说着重的点也是要看我们投的是哪一轮。如果是种子轮或者是A轮的话，他可能如果有很多adoption，有很多用户他并没他当时所做的产品并没有很容易的去monitise，可能也并不是那么重要。因为很难去用现在的这种utility去估算他后面的motivation的potential。但如果他比如说有上在美国来讲应该是hundred k就是十几万这样的用户层，他就很容易有其他的方式去moitie。但如果比如说看B轮以上的话，可能就像你讲的，他到底有多少可以去延展的领域。然后它具体的market size是有是有多大，这个时候我们可能会去着重去一下它的market potential。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:02",
+      "text": "因为你是develop to data effort。这个领域其实不只是在在前几年比较火的这个领域。其实大家看到现在大家最火的AI这个领域，也其实也涌现出了很多开发工具。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:27:18",
+      "text": "其实我在跟你开始跟Jennifer聊的时候，我们还在想这个话题怎么去聊。我方的确在辽DVT这个其实很有意思的一个例子。因为DBT也是在应该是2021年也成为了独角兽，现在估值应该也是四个四个对四个billion，就是40亿美金的一家一家公司了。所以我觉得其实他的这个方案过程，我相信应该是对于所有在def two的领域公司还是挺有代表性的。因为坦率来说，我自己因为也是投这个领域的公司，所以我的确我坦率来说也看到了很多公司的这个scale的过程中的一些chAllenge。所以我觉得也希望能够从DVT的这个发展历程中有一些学习到的点。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:27:59",
+      "text": "因为的确很多dev tools，他的切入点都是很都是无所谓的很薄的那我就好奇就是说比如说对于DPT来说，第一个是他现在比如说你们会希望从他从什么大的发展，什么阶段去做他的这个所谓的可能是一个exception，或者说去开始去commercialize它的开源的产品。如果说一个就是那其实另外一个点是说，其实data info是一个其实上下游还是联系挺紧的一个链条。我想在这个链条其他部分的这些player，可能他们也会要去想说也想expand到类似的点。那怎么在最后这个excel的过程中，可能公司比方遇到什么哪一些可能的挑战，或者说这里面有一些好的经验，是否也可以给大家分享一下。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:28:47",
+      "text": "这个是个好问题，想想起来也是真的很多可以讲的地方。我可能highlight大概两个点。虽然刚刚我讲到如果是一个很好的开源DBT是个开源公司，很好的开源公司，可能很多开源公司在他最开始的时候并没有去montium。他就是想要build的这个用户build这种mature丢了很多community members之后，在scale到了一定阶段再去monitor data ics Spark是一个很好的这样这个例子。但DBT其实从他转做产品公司之后，很快就开始忙着孩子了。他一直以来的这个commercial growth也是完全不输于它的open source的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:32",
+      "text": "当然还是回到刚刚讲的那个点，它切入的地方其实真的是一个痛点。很多analyst或者是data team的确是在manage这种大大的model。有很多这种engineering practice他不能去adopt without DBT。They have to go with like a close source tool, or kind of like looker looker。And now is actually a set up for DBT users.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:07",
+      "text": "You have to build all of your models in, look at now and then components within the the BI图。BBT做到的一点就是他up level了很多。Unless自己的工作，你之前可能要花很多时间去clean up model，然后去reproduce，去copy and paste。但采用了这个图之后，他其实有一个这种ten nex的一个经历。就是他可以做很多同样的工作，但是用了更少的时间，然后他也可以去更好的去clever red和他其他的teammates。这个转变我觉得是对于一个data community的一个shock。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:53",
+      "text": "所以所谓的category creation就是DPT当时有一直在讲一个概念叫做analysts engineering。就是你你做的事情不只是analysts，也不仅仅是analysts。这个是一个combine analytics engineering practice，这两个不同的practice融合在一起，怎么样去优化你的这种工作的时候的productivity。所以他在这个上面花了很多时间去eventually ze market，然后去怎么说push the field forward。所以才会一直有这种，不管是在open server上面还是在commercial上面，有很多的，怎么说成功的地方，这是第一点。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:38",
+      "text": "第二点，像你刚刚讲的，像特别是在infrastructure域，或者跌到领域上下层，或者是上下游，其实有很多compete地方。比如snowfall会做一些data pipeline，da pipeline公司也会做一些transformation，然后BI tools也会包括这种transformation。所以他们在overland的地方还是挺多的，但是每个人做的核心的部分还是很不同。但在go to market上面如果有很好的alliance alignment的话，其实是很powerful的一个地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:32:11",
+      "text": "所以DBT在做的更好的地方就是他有build这个很好的eco system。像他去年有做了这样一个conference叫cos是把所有上下游的这种公司都可以邀请来。大家其实都可以讲自己是怎么去跟DBT合作，怎么去通过它其实有收集到更多用户。他变成了这种个central node，变成一像一个神经元，可以去更好的tie together all the different players in the echo system。这也是我觉得他做的非常完整，也非常怎么说，community driven eco system driven的一个这种经验。当然并不是所有公司在所有的上下层都能做到这一点。当然他他所在的这个部分因为是比较middle where lier他可以去做这种switzerland play well with everybody，但这点我觉得也是有帮助他们在在成长过程中去avoid competition，然后build a Better alliance，Better partnership with all of their partnership.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:21",
+      "text": "对，那在这个因为我好奇，就是在他因为很我们会看到很多open source的这一些公司。最后的commercial ation，就是大家会觉得有点雷声大雨点小。就是你会觉得说如果对，如果说遇到这些，因为我相信你看了很多这些open source公司，然后也非常推荐大家带到这个的blog上看。Jennifer写的几篇文章都非常的实操，而且深入的关于怎么去commercial open source。就你所看到的一个常见的一些挑战在哪？然后如果我说回顾这个DBT这几年五六年的发展过程的话，你觉得中间他中间是否也有一些挑战的一些点，你觉得他是怎么去去去度过能够获得现在成功的？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:34:08",
+      "text": "这个问题其实在不同的阶段和不同类型的open source上面遇到的长期真的是很不一样。这也是我的一个take away。就是在四年前写open source的时候，觉得如果你只要是一个SaaS hosted service，可能morely就会好容易很多。但其实后来发现IT really depends.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:34:29",
+      "text": "你这depends on what depends .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:34:33",
+      "text": "on user behavior。其实我在有一篇文章上有有讲到，就是说不不仅仅是不管是open source还是product like growth，就是你每一个产品在去commercialize的时候，其实都是去tap into the current user behavior。和他怎么样去。在什么阶段可以去provide value？举个例子来讲就是。DBT的core，它的runner。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:35:22",
+      "text": "完全是可以self host，或者是通过did the warehouse去host。但是他所商业化的点是怎么样去让你整个的data team去benefit the same core。他在这个时候是真的provide value的地方，他对individual其实并没有很多value。因为你可以自己去self pose，可以去自己写写model，它这个value transfer并没有那么明显。但是在你有5到10个data engineer或者是data service team的时候，就可以有一个这种飞跃性的value provide value influence。所以这个时候是他很好的一个commercial的点。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:16",
+      "text": "但像data，像我们刚才讲的Spark，它可以上来就给你provide value。因为它给你的是一个cloud compute。你如果需要一个distribute data execution的话，它可以很快的就给你provide value。但如果你要run一个很大的数据模型，或者是run一个很很复杂的pipeline ine，它的value可能会更强一些。所以它更重要的是去commercialize enterprise这个segment。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:48",
+      "text": "所以我觉得在看不同的open source，或者是在看看不同的产品的时候，也是要去看它在哪里。真的是去给individual，给一个team，还是给整个infrastructure的support。他在什么时候真的有这种value的飞跃，才是可以去更好的抓住他从哪里开始产生卖点。这个可能是我能想到的最好的解释的方式。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:16",
+      "text": "对，所以回到第二个问题，就是你你觉得就是在他的这个adoption看起来因为其实我们现在看到很多似乎大家都越来越知道怎么样在github上面make a voice。就是很多我们看得出来一些很小的产品，似乎他好像也在give up上面这个star也长得很快。然后好像你去看他这个user group好像也挺活跃的对吧？那那这个时候我就好奇，比如说DPT我不知道也是否也经历了这个责任。他们commercial过程中他可能也遇到过哪一些挑战。尤其是他看到DVT这个成长经历，怎么影响到你后续对于这个开源还有这个data领域的投资。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:38:00",
+      "text": "最大的影响是stars doesn't matter，因为DBT可能到现在都是lesson in star，他所有的activity都是在他的slight channel，或者和和就是像我刚才讲说这个minsheng category creation部分。就是你跟任何一个在阶段的一个人来讲，他会他都会知道这个公司在做的是什么，他怎么样去the behavior。但他并没有真的是在这种open source的match matrix上面有反应。除了这种active projects，但这个并不是public的data points，所以，回到刚才讲的，他evaluation对于VC来讲可能真的并不是同一同样的metric benchmark。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:38:46",
+      "text": "但回到你说他遇到什么样的chAllenge，其实我觉得这些DBT的成长过程中chAllenge还是蛮少的。Surprisingly他之前的这几年的成长都非常的smooth。可能只是说到现在有一个已经是一个SL的company，他会开始有一些比如这种pricing和他想要延展产品之后的这种conflict。因为之前从c base pricing每去monitise每一个用户到现在他有这种usage component，这种transition中间可能会有一些需要磨合的地方。但除了这个，我可能还真的没有想到他有什么特别大的chAllenge。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:37",
+      "text": "Interesting你前面其实也提到说，他们会在某一个时间去扩展到其他的，除了它本身就扩的transformation这一块ever之外。业务大概是在什么时候发生的呢？比如说是在我是是在我的他的这个社区，它的关于T的核心的prod已经商业化已经到了一定规模的时候才发生了。还是说你觉得这种expansion应该做的更早一些？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:40:07",
+      "text": "他们到现在开始还是比较核心专注于这个transformation。但是最近，特别是在去年的coal less上面有啊发布的新的产品叫metrics store。而且在那之后我们有收购一个公司叫做transform，也是做这个matrix layer。其实这个是一个很natural的延展。就是说在你可能已经用的DBT去build model之后，define metrics就是very incremental。Next step, 当时可能有3到4家公司都在做这个matrix store这个东西。但是uh it's it's very hard to compete when you've already using D，V, T to build the model.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:45",
+      "text": "Like building the metro store outside in is a lot harder to a migrate user behavior. 所以这个是他最近所做的一个延展，加上他又开始support python work clothes，就像这两个应该是说最大的变化。但这都是说已经是community和existing customer去要求的他们需要做的这种完善。也就是说在你有可能很大和很强的用户背景之后，uh it's really about touching up to what the customers and users really won. They probably have a like you know five year by log to to just complete on on people's uh customers requests. 还没有说是需要去replan on which new product they need to launch。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:41",
+      "text": "我觉得这个其实真的是很少见的一个故事。而且我觉得刚才我自己的一个核心take away就说你看其实metric store当时好像也是一个bus war。但是你就是我觉得你刚才说的很核心的一点，就是说你是不是在能够一个是在用的足够频繁的一个点。另外一个是你是不是一个能够足够的去改变大家的可能工作习惯的一点。而不是仅仅是说我把这个东西做的把这个功能做的更易用，对吧？我只是把这个大家原来要自己做的东西，把它包装成一个工具，就不只是这个点。我觉得核心是一个是频率，一个是这个行为上的一个改变，可能才是一个最大的一个机会。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:42:23",
+      "text": "对对对。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:24",
+      "text": "你就行。我觉得刚才我觉得从DVT这一个点，其实我们刚才延伸到了很多对于这个deaf tools，还有开源的一些话题。这个我好奇的，比如说在我们再把它稍微放稍稍微放宽一些。因为我知道你也很关注在整个data info这个领域。还在这个领域上，你的一个投这个投资的一个主题是怎么样的？就是你最关注哪一些领域。在过去几年好像似乎我们看到这个领域的也有不少变化，你的关注点有过哪一些变化？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:43:00",
+      "text": "像我个人的观点是，这种architectural和infrastructure ship，一般都是有一个tend to fifteen years cycle。我觉得很幸像我刚才讲很幸运的一点是在我加入投资的时候，这个transition into cloud the warehouse是一个architectural shift。它它的这个转变是需要它所有上层的工具全部都要转变。因为你不仅仅是要把数据移到云上面，所有的ETL，所有的BI tools，所有的不管是governance quality tools，都是需要去adjust到这个新的新的infrastructure上面。这个其实延展到基本上every component of daily infrastructure，所以我们在17年18年投了很多这种did the way house above like all the tooling related to IT？投了一些像shamming这个analytics，投了hacks，像这种no book combine with ecl editor的这种比较fluid data and analysis to。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:19",
+      "text": "现在来讲，我觉得这个领域可能稍微有一点点overinvested，所以会可能有一个这种unbundling bundling的过程，或者会有一些consolidation。他可能在用户去买这种数据工具的情况下，他不会去再去想要说买5到10个two。他可能去只去看two two，three. 然后这种value combine可能会去会是之后的5到10年的这个过程。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:55",
+      "text": "如果说有哪些是我个人会觉得比较一的地方，我觉得data info它毕竟还是一个info，它需要去support一些new workloads或者是new use cases。像18年之前很多数据或者是analysis tour是专门build来做这种batch和reporting use cases。但是在那之后我们会看到很多productions ized workout，也就是说怎么样去用data或者是now using machine learning or AI leverage in the data into building sumer facing products。这个就是在看数据infer数据的tooling和他的这种database OLOLTP和o lap这两个领域中，它其实会有很多merging the use cases。所以我个人会是去很看好一些deep tool去production ize data workload。怎么去combine existing insights or existing data and being able to use that either in customer facing baseboard using IT for predictions，use IT for uh enrich ing customer experience. 这些会是我个人觉得很很有意思的地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:46:25",
+      "text": "所以说我们看到最近也有很多这过去这几年也出现了很多像streaming data base，或者说像你刚才所说的所谓的h tap吧？这个hybrid的这种这种database出来。但是其实这过去五年，像你说的，其实你刚才讲那个挺关键一个点，就是说这个很大的一个这种paradise，就是大家上就是进入到call warehouse这个ship其实已经相对来说已经走的走走的差不多了。那你觉得在这个时候再开始做一个这种，data info的公司，你觉得可能会跟前几年他的做法可能会有哪些不一样？然后你自己去event这个标准可能也会相应的产生哪一些变化。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:47:12",
+      "text": "我去correct的一点是我觉得这个migration并没有没有没有结束。Migrating into cloud their warehouse还是会进行，而且会很快的进我们我们可以从snowflake growth rate就能看到它的这个speed。但是这个stack或者是这个new infrastructure，基本上是已经cemented into these players。然后去做一个新的player，比如说去做一个ETL player，可能就会更难一些。因为now the incomes are new incomes，and they are still very nimble. 他们也是很很会很快的catch up对于任何new idea。所以在这个上面可能你会不会去硬碰硬，或者是直接的去去对抗，来做一个新的产品。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:48:00",
+      "text": "如果你回到你刚刚讲的问题，就是说现在如果是想做一个data infer，公司会去从哪些角度去切入？我觉得可能就像我们现在看到的，有很多interesting behavior。怎么去用large language model做这种text to QL，怎么去reimagine self service da analytics，怎么去reimagine这种developer workflow。比如像streamlets这样的open source，可以去做一个framework来更easily build data powered applications。这些是我觉得可能之后会去更有竞争力的一些点。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:48:41",
+      "text": "也是其实对萨哈B来说，还是要逃脱离说我把这个产品做的更好，对吧？我做一个更好的叉叉叉的这个思路，还是要去看这个user他们的这个user behavior，他们的这种use case发生了哪些变化，然后如何去适应这个新的这个变，可能是个标准对对对一个切入点。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:49:03",
+      "text": "对我觉得更好的这个标准，就是因为你有你有提到他，我觉得是一个很有意思的点，就是没有人用了工具之后想要换他的。特别是enterprise这种企业的setting里面，我如果已经投资了interest，这个integration的过程可能就是六个月到12个月，可能会更长。Invest in这个existing infant其实是一个很大的investment。可能如果没有很大的痛点，不管是在cost上还是在usability上面，没有很大痛点的话，特别是像ata tools，大家其实都是不会去想要去换的。所以这个更好，一定要可能是一个质的飞跃，只是在量的上面稍微好一点还是不够的。所以在哪哪一些不管是用户体验，还是说workout，还是说他这种performance上面的成长，是可以有这种质的飞跃，才是真正我觉得会有一个怎么说在super TV里去做。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:50:05",
+      "text": "其实就像你刚才说的，就是可能过去过去几年，其实现在是在一个从这on boundary到boundary的过程中。所以其实想想起来，其实很多对于sutured来说，其实也是有很多新的挑战。这个ten x Better对吧？这个质的飞跃的这种体验也好，什么也好，那还能够在哪些领域发生？我觉得正好你最近也也也在还在我看还在非常积极在做这个领域的投资。或者你可以用你最近看到的几个例子来跟大家让大家感受一下什么是你眼里的这个质的飞跃。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:50:42",
+      "text": "Model应该是一个很好的例子。对于这种质的飞跃来讲，就是可能给一些背景的这这个介绍。就是说mother他是一个commercialize that DB的这个公司。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:50:55",
+      "text": "DB也是一个4到5年的一个研发过程，去做了一个很limbo很小但是非常fast in memory database。他能够给到的体验就是说你不管是在individual on device，比如说mac computer或者是说in the browser jacory和run一个这种这even terabits curry，它可以给你到一个one second这种performance，这是unheard of。因为你可能有一个对世界的的data，像snow freak and so on。你要把这个data落到cloud上面，可以leverage上很多compute power，可以能做到这样的结果。但是他一个这么小这么limbo的一个database能够做到这样的体验，其实是对individual是一个很很很大影响的一个过程。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:51:56",
+      "text": "就是说我可能登录的一个hundreds of thousands line excel CSV，我可以直接upload到dark DB就可以马上写curry run这个analysis。这种smooth full cycle的user experience其实是很只有在被curry有有实现过。但也需要有一个data infrastructure company去帮你set up这个infrastructure。所以在我来讲，如果能够给这样的体验到。Every individual, every analyst或every is writing a paton，be able to use the same experience, able to uh just you know apple the file or like connective and start writing course. You really have a tex这种practicum game对我来讲是真的是一个值得体验。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:52:50",
+      "text": "我这个我就试图chAllenge一下，也许从投资角度也许会是不是会question说这个是不是一个只能在很小的一些SMB领域才会用到的这个功能。那会不会影响到他以后这种enterprise客户上的这种这些adoption。或者说如果回复了当时你们做这个决策的时候，你觉得当时可能遇到了一些不论是内部的差距，还是说你们自己心里边这个担心的问题可能是在哪？因为我觉得没有投资在第一天的时候，它就是完美的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:53:24",
+      "text": "这个也是一个非常reasonable的chAllenge。就是说WDB的最direct comparison其实是一个叫single light的database。Still one of the top ten popular database is on device transactional data store.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:53:38",
+      "text": "但是并没有任何一个公司可以去monetize local light，是因为它是on device是非常local，非常individed ze。没有一个这种hosting或者是说tooling support the service可以去monitise它。这个是很多也是一个很很常见的差异。就是说你怎么样能够把这in memory或者on device的这种infrastructure去build了一个product出来，到现在它还是一个risk factor。就是怎么样去把这个experience扩展到，不管是horizontal还是去扩展到一个可以team level去去utilize他这样会有很多这种sharing的过程，他的确是一个unknown的因素。但是我个人觉得他还是有很多可以，怎么说a mEdgar这个risk就是说即使他不能够support像pata tes type of delays，很多公司所需要analyzed的数据可能也就停止在4到5个terabits。这样像我们有做一个给我们自己的成长型公司，或者是pre IPO的这种public republic company，他们在这个过程中的数据增长可能也是只是从10到20个。Gaga best to a hand of terribles.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:17",
+      "text": "并不需要这种非常busy和heavy的infrastructure去真的做big data。其实很多里面所存的data都是并不常用或者并不常去correct。对于个人来讲和一个data team，它真的是active data interact with，也都是reasonably small to medium size。所以可能一个contrary view就是你并不需要去配snowmaking millions and tens of millions of dollars。你可能经常常用的workload，可以有一个很economic的view去utilize和fast quality。如果真的需要做big data的时候，你再去投资这种大数据的这种infrastructure这种这样这样的破山坡和这种baLance会是一个更healthy的一个utility。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:56:09",
+      "text": "这个的确听起来是一个挺big bat，比如说对于从投资角度，你可以你们通常投的是什么阶段的公司。然后你们在看这个公司的时候，你们最看重的点是哪些？你们怎么去evaluate？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:56:23",
+      "text": "像我是一个早期投资人，所以我们所谓的早期是从种子轮，A轮可能最晚也是投到B轮。种子轮可能找到只是两个founder，一个pitch deck，可能都没有一个这种模型或者是product。我有的时候会投一些post product的种子轮，那么A轮可能就会有early go to market。肯定是product in users hands。那么B轮的时候经常就是会去想说可以看到这种go to market repeatability。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:56:58",
+      "text": "所以我们在投不同领域的时候，它的stage经常是关于我们是不是能够确定在这个stage上面我们已经能看到一个winner。因为对于像我们大的方案来讲的话，最大的concern的point就是说我们可能不想要get一个early company之后被conflict掉他的其他的竞争对手。如果我们在同一个领域里面只能挑一个公司，我们会希望我们挑到哪个公司。我们有很好的confidence说他已经是这个领域里面的leader。如果我们一直都不能够确定他们很多这种同时或者是同阶段的公司都比较next to neck，那我们就可能会等到稍微晚期一点，等到他们有这种very clear poor head的这种现象的时候再去投资。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:51",
+      "text": "那在你刚才也提到，你们也会投一些可能非常早期的一些公司，可能proper或者说pro刚开始你可能也没有什么特别有意义的特别早期的数据，在这个阶段你们怎么去怎么怎么去下这个判断呢？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:58:08",
+      "text": "这个可能更贴切于infrastructure。因为做很多info公司或者是做这种非常技术的公司，能够做这些产品的人就是很有限的。我们可能在那个时候更着重的点是，我们对这些创始人和founder和他的team是不是能够在这个领域做出一个很differentiated公司。那个时候可能更index在他的创始人的quality上面对。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:58:40",
+      "text": "那正好可以聊一聊你们所看中的创始人的quality是怎么样的，你们怎么去a Better way，是否这个是一个person profit，founder market fit.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:58:54",
+      "text": "每个人其实在在这个上面每个人和每个合伙人他都会有自己不同的case。但我觉得整体来讲，and hard的标准应该就是很product centric的团队。技术上当然是要过硬，但是不仅仅是要技术过硬，而且它会有一个可以去包装技术，变成一个可以使用的产品，加上它会有一些很好的commercial的sense。怎么样去像刚刚讲说找到正确的切入点，去把这个产品go to market。其实这几项真正能够结合在一起才是一个很unique的。怎么说？起点如果仅仅是有技术，那么很很长很多很多例子都会告诉我们，它是完全不够的。但如果是有一个and product centric founder，经常是会最好的把这个技术和go to market marry到一起。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:57",
+      "text": "其实尤其在你说的这些领域，通常都是这种技术型的funder。其实要找到这样的funder其实还是挺不容易的那我好奇你们有没有一些，比如说你们常问的一些问题，能够帮你们更好的识别。或者说也可以举几个例子，比如你最近投的这些公司，你回想起来当时在你们跟他的交流中，他是在他的哪一些点，他对哪些问题的回答。这些inside是让你们对你们的决策最后影响比较大。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:00:28",
+      "text": "我可能会举的例子不是所谓的1到2个问题。其实我觉得最telling的一个point是否这个founder。当然像我们投资人去看一个领域的时候，我们自己都是要有一个prepared mind。做了很多的research，可能看过很多类似的公司。他之前的这种history都都学来都有有一个大致的印象。我所看到的最出众和最好的，他一般都是一个很好的historian。他可以告诉你之前的公司有哪些地方做的对和不对，他他有miss掉的点是哪里？他为什么在一些decision上面他有抓到和没有抓到，他现在能看到的机会是哪一些？他可以真的把这个从前到后的梳理，给你一个很insights的一个体验。就是我我会有这种感觉，在有一些page meeting我走出来之后，我会知道i can，I can ask any question to the founder about about this, this space.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:39",
+      "text": "He'll have the answer is probably logical and insights. 这个我觉得是最telling的一个地方。当然像我说的这个需要你自己会做好很多功课。然后你可能有几个question就会知道这个房子是不是有做他自己的功课。当然他之后怎么去执行，怎么去做产品，都是会从他之前对这个领域的一个判断来讲去做的新的决定。但他之前的这些判断其实是一个很好对之后的prediction。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:16",
+      "text": "其实我觉得你讲的这一点也是我最近在在自己在思考的一个点。因为大家虽然说一方面大家说V做VC你要做很多的研究，对你要你要对这个领域所研究很深。但是其实你再怎么研究生，你也不可能比24个小时都浸泡了这个领域的founder要更深。所以我不知道你会怎么看这点，就是我我最近在反思，就是说也许我们同样要做研究，但研究目的其实不是要去去判断这个方向的这个观点的对错。而更像你刚才所说的对，就是其实他只是帮我们更好能够去理解他，帮助我们去问出好的问题，帮我们去识别。他刚说的这点其实真那是一个很重要的insight。其实我理解其实研究的目的听起来思路更多是是这个角度。我不知道你是不是也会这么看。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:03:04",
+      "text": "从个头对对对，我觉得说的很对的一点就是说我们做的功课并不是说我们要有answer。我们可能做因为做了功课会有更多的question。对对对，但我觉得我们的功课其实就是给我们一个很好的问问题的角度。当然这个答案我们也只是做一个判断，他所给的答案是不是reasonable，是不是因为这些都是在怎么说。Looking at a Crystal ball, you make your own prediction, 我们也只是说，do you believe他们的argument？他为什么make这个prediction？他为什么会去make这样的，but他们的判断是不是合理，这个可能更多上面会有一些个人的judgment。但是像刚才所所讲的，我们其实所有prepare的过程都是去可以去理解和和问出更好的问题。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:03:56",
+      "text": "那还有一点，你刚才讲到就是说这个方的是否想清楚，比方go to market，但就是回到你跟他说，因为我们俩都是Operator to change，我们自己做过很具体的这个事情。而且尤其是我看你，你毕竟也做了这么多很多go to market上的一些研究。很多时候早期的founder即使他非常的smart，也许他是也有甚至还有什么产品的这种符合的背景。但是在早期的时候，很有可能这样一个技术founder，他对于go to market，我们对他的一个对就是一个正确exception应该是怎么样的？就是他对于go to market这方面的理解是是我们是否应该认为哪一些我们是希望他在那个阶在早期的阶段，比如说A轮以前想清楚的哪一些，我们是觉得说我们可以能接受这样的不确定性。也许他后来可以通过补足人才来去完成。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:04:48",
+      "text": "我觉得我们就是存在在一个不确定性，我觉得很多时候还是要embrace这个不确定性。因为即使这个founder他有一个plan，他想要去按照这个plan去执行。可能你投资之后之后那之后的一年，整个这种market dynamic和这种player的strategy都会有变化。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:09",
+      "text": "我觉得有两个更重要的点一个是founder他是不是obsess with go to market。他如果真的是obsess with technology，它并不care到底是谁去用，怎么去用，去用它来做什么。我觉得就很难去看到他从产品到go to market的转变，或者从技术到go to market的转变，他可能就要从一开始的时候就真的是很着重他这个产品的distribution，其实这个可能是更好的一个概括的一个词。就是不仅仅是去卖或者是去推广，而是他要从什么地方切入，去让产品去有应用，有有有money，然后去想要想到一个方式去commercialize他，这个是一个intention的上面，他是不是在开始就也很observer这个延展过程。另外就是他有没有足够的dutti去了解其他的moving components是什么？怎么样去adapt这个一直在变化的一个市场。我觉得这两点是可以通过一些proxy或者是问题看到他放着自己的怎么说他他有没有去花很多精力和很多mental backwards去想这个事情。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:41",
+      "text": "对的，其实讲到您刚才讲的这个我们拥抱不确定性。其实过去几年最大的不确定性就是我们看到这个资本市场非常大的一个shift。二级市场的这个二级市场一级市场的整个我就valuation这估值的体系也发生了很大的变化。而其实我们讲的def tools，还有info这一些产品，其实它又有一些特殊对吧？它的这个打造门槛相对来说还是比较高的。它不像一个consort，或者说一个更别说consumer APP1样，很快能够看到一个市场反馈。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:07:13",
+      "text": "就是我们可以从比较实在的角度就来聊一聊。比如说在A轮及以前，我们现在大概就你看到的硅谷的市场上，大家期望看到这几个早期的阶段的一些traction是什么？对于这样对data info和death tooth这个公司，然后它相应的这个估值可能是一个。带来什么样的range？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:07:37",
+      "text": "Traction上面来讲，我觉得可能这是有有一部分的over index。可能这几年硅谷的投资人都比较喜欢看到这些open source traction，或者是很多是啊很多product growth。很多user可能会less pay attention to真正的revenue，或者是说有多少paying customer。我觉得一个很大的变化就是说在可能5到10年前，很多enterprise公司在用A轮的时候，比如有five to ten customers h at ten k two hundred KACV，它可能用这种sizable deals get to a million or two air r其实是一个算是很foundation的company。但现在这种可能是还是会存在很多，但并不一定足够。因为selling a contract is not the hardest thing，但是真正会去改变这种像刚才我们所说的user behavior是一个更难的事情。所以这个变化我觉得是最大的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:08:58",
+      "text": "这种shift是怎么样，可以看到debt tools真的是去被developers所所广泛的采纳。然后他有很很强的utility在整个infrastructure上面，然后再去commercialize。这个我觉得是一个怎么说一个one day。但话说回来讲，还有一些领域就只能是top down sales。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:31",
+      "text": "并不是所有的developed tour，也并不是所有的infrastructure公司都可以做到这种open source开源或者是product LED去用产品切入。比如说CICD，它这就是一个infrastructure adoption，或者是说像API gateways，或者是很多时候可能包括databases。但是现在很多databases都变成services，或者是developed的database。这种还是不依据各个不同的领域，它的go to market可能会去不一样。所以我们可能在benchmark的时候，也要去看他同类型的computor里面，这个公司是不是在revenue或者是在customer growth上面最最领先的。如果他的确是有很多个人用户去用的话，他是不是有一个twenty twenty percent month over month的增长，这些可能会是我们去着重去看的估值可能我就不谈了，因为真的是每个领域都不太一样。如果是AI公司，可能他并不需要有任何的revenue和和用户可能上来就会可以有个10到50个门铃作为种子和A轮，因为还是有很强的这种入门的门槛。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:10:52",
+      "text": "对当年回想几年前两年前的这个data这个领域也是，当时我们看到很多对吧？也许一个什么一个popular open source这个project，它没有任何的revenue可能就已经达到接近unico的估值。当时也发生不少这样的事情。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:11:13",
+      "text": "因为我问这个问题是因为是我我觉得现在其实在A轮，就是在可能C的到A轮之间，其实是挺难去做这个估值判断一个地方。因为比如说C的逻辑可能proper什么，那个时候反正你也没有任何的metrics，可能那个时候就相信了story。像你说的，我看这个team，看这个看这个人，而其实A轮的时候，你也不可能用PS这种估值的的方式来去来看。照你说的我居然有一些ACV。但是so what其实这个时候的这估值，现在大家其实整个市场对于这个领域其实又比较谨慎的时候。我不知道您所看到的一个估值的一个一个在这个阶段的时候，大家的这个估值可能的依据，或者说最看重的一些matrix可能是什么？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:12:01",
+      "text": "我用一个不是直接的方式回答，就是我有的时候自己会去比较做投资和卖房子。我说的这个原因就是realised agent在做的事情就是他在卖一个房子的时候，他要把你把把这个附近同类型的房子的价钱全都给survey一遍，这个是他最好的indication他这个房子会卖多少钱。不管他是几个room，还是几个room还是几层多大的地，这些其实都并没有关系。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:12:34",
+      "text": "这个其实在投资上比较类似的地方就是同样是两个p product的C种子轮，或者同样的一轮都有20个customer hundred KACV它可能就是真的不同的估值，因为是它所对标的公司并不一样。但这并不是说你可能要去follow其他的这种投资人所给的价钱。只是说他可能indicate的它的indicator可能会是不同程度的这种go to market chAllenge，或者是同样都是很easily getting hundreds of thousands abuses ers，所以很难去给一个orange to orange comparison的这样的比较。所以像早期来讲，revenue multiple, but how much does the star work，这些都是很难去量化的。这个可能不是一个最好的答案。但是我觉得我个人来讲会去更着重的一点是去directly compare to other company。如果他真的是一个leader，如果是真的是first of the the batch，那他可能会deserve一个稍微嗨一点的valuation。当然我们也不是。In the bargain shopping business where we're here to were making the bed in the best, 所以were always ready to pay up。但是我们可能真的是需要去看到，在不管是metrics还是在adoption上面，它真的是一个number one。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:12",
+      "text": "所以听起来我觉得你刚才说这个还挺有帮助，就是说对这所有这些指标都不是一个静态去看。比如说A轮你就要多少LR然后你什么retention什么这样去去算出来的。其实还是我觉得他你这个行业，你所在的这个领域，你所在的就你前面说的你所在这个生态的这个位置position，以及你是否是一个一个leader。其实这些在就这次A轮级以前，还是应该是最关注的一个点。我不知道是不是在我不知道这个是不是硅谷跟中国的一个区别。最近我将会就会发现很多创始人也会来跟我们说说这个感觉。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:14:49",
+      "text": "投资人在尤其A轮或者pre a轮的投资人，给了他们很多这种商业化上的压力。就总觉得我觉得我的产品可能我还需要long more time to build，或者这个时候可能还是在一些没有到skill的这个程度。但是觉得说要我要再融一个，我举个例子，比如说我要再融一个，可能post money valuation是4000万5000万美金的估值。可能投资现在也许就要看到你是不是有个一两百万美金的AR了。你怎么看一个这种偏的info开发者工具公司的这种商业化的一个节奏呢？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:15:30",
+      "text": "其实在硅谷来讲，最近也会有很多这种extension rounds，或者是second before raising thursday。一部分是因为market contraction，很多公司买工具的这个时间会延长。他go to market的时间可能之前3到6个月的cycle，现在可能会到6到12个月。或者是他可能之前的budget allocation会去比较比较generous，现在可能就会有很多这种budget timing的过程。他就没有那么好卖或者好商业化。所以很多founder在在硅谷也会去想说可不可以extend一下runway，然后再再晚一点去commercial。其实先build一下这种user base等这种商业环境好的时候再去大力开卖。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:16:19",
+      "text": "我个人觉得。不管是在up down market，其实好的产品或者是好的公司都会找到一定的方式。但是它的增速和它的shipping可能会不一样。但它都会找到一定的方式去去商业化它的产品一直去build其实并不是一个最好的方式。因为你可能overbuild，或者是beautiful wrong direction，或者是说did not adJusting to market current needs。这些都是一些risk factor再去延展这个build的过程。而且产品其实是一个要通过iteration去完善的一个过程。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:08",
+      "text": "所以我个人对我自己的公司可能还是会去尽早的push them to the market。即使是charge very little，charge free, 它都会有一个很好的learning。然后在这个learning的过程中，慢慢去寻找商业化的这种potential。当然可能。Manage burn和manage在这种go to market上面所所invest capital是一个防止自己需要花精力去去去考虑的问题。但是我可能个人不会去advise说with extension或者是延长这种build的过程来去等到比如A轮的时候再去commercial来。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:57",
+      "text": "所以其实或者说这个其实听起来应该就是一个是一个baLance。就是说这个时候我们既不是说我要一直在in house keep building，也不是说我要为了去追求这个收入，然后我就去拿一些这种enterprise的大胆。其实这个时候谈恋爱的时候，我个人的感觉是你在艾伦你说你到底是one million，还是one point five还是two 7，这没有质的差别。核心是what do you get from就是from这个right from the commercializing的这个过程。其实这或者说你的这个收入的质量，或者说这个也许才是我觉得founder和invest都更关注的一个点，毕竟也不是一个能够用PS估值的一个阶段。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:18:37",
+      "text": "对对对，是这样的，因为对真的是这个one点它就只是一个vanity metric。你可能这个门帘它到底是不是renewable，是不是recurring，是不是high quality，是不是一个你可以跟着你成长的这种quality revenue，这些都是更重要的因素。而且你commercialize的这个learning的产品，是不是你之后可以去pera去grow和extended的一个产品，也是很大的一个因素在里面。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:19:02",
+      "text": "我就最后问一个关于这个领域的问题，就是你觉得这个领域过去几年或者说当下，你觉得有哪一些overtime for underside，有哪些可能被高估，哪一些被低估的一些领域或者趋势。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:19:18",
+      "text": "我个人的体验是我非常清晰的记得有一段时间所有人都去看da quality。然后也很多公司大概至少是至少有十个公司会去做data quality。因为这的确是一个很强的痛点，就是任何一个做过data人都觉得data quality是一个要解决的问题。但是我觉得大家可能都稍微有点忽略的是他体现出来的方式很不一样，他就很难去做一个产品去解决它。所以这是我觉得可能有一点overhead的地方，就是说what the quality is a problem。但是你到底是做的是monitoring，还是做testing，这些都是不同的angle去来解决它它其实最后并没有真的产生一个这种真的是like massive adoption的过程。因为每个人每或者每个公司去面对的quality都是不太一样的，这个我觉得可能是稍微overtake一点，当然也会有像monday colo这样的公司做的到现在比较i scale做的比较好啊。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:20:26",
+      "text": "你们好像没有投完的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:20:27",
+      "text": "好，我我们我们没有投。对，但是像刚才讲说overhead的公司，就比如说举个什么样的例子？我觉得reverse ETL现在可能也稍微有一点overhead。但是有很多人在最开始的时候question这种data part line，其实就是不同的方向，你可能把faction变个方向就变成reverse CTL了。但我觉得还是忽略的地方就是它的utility people really hate，build connectors really hate.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:21:00",
+      "text": "所以不管是任何方向，你可能给他一个这种push a button，you you have, they are flowing, and, uh, you can build the next layer on top. 像现在害怕只要三次都都sense都会去做这种CDP的这这种方向。他可能就会是一个很好的insertion point去build的一个下一个产品和下一个领域。所以这个我觉得是可能在刚刚rever CPL出来的时候，可能大家有有忽略掉的地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:21:32",
+      "text": "你觉得你觉得office source是overhead还是？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:21:39",
+      "text": "Depends on which open source. 整体来讲。整体来讲应该还是and head。我觉得对还是会有很多很好的open source project出来，还会有一个这种changing market dynamic的一个功效。即使它可能在commercial上面有的时候会有chAllenge。我觉得open source整体来讲都是对任何一个领域，不管是data不管是AI不管是that tools都是一个left the boat或者是rising with all tide的一个过程。他怎么去commercial的部分，我觉得是稍微under overhead一些，就是可能就会太注重star，太注重这种mansions。但真的是有哪些有real customer in production usage这些我觉得还是我们需要更着重去。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:22:46",
+      "text": "看到的地方的less。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:22:49",
+      "text": "So as i'd believe is not a hype, I think now is IT was under hype.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:22:54",
+      "text": "H IT was overhyped, five years ago。但现在我觉得是真的是其实server其实一个体现方式，它真的driver是去是brandan或者是full stack developer，或者是包括data teams wanting to do away with infrastructure team。他可以更好的，更自由的numbly去deploy application，deploy他自己的workloads。这个是serverless最重要的push的点，而不是server less as its own。所以我觉得如果想要说提升每一个不管是developer还是individual的capability service，是有一个这种质的质的飞跃。比如说像VL或者是我们自己的投资的公司newly fy它它给到的作用是说一个friend team或者是javascript team，他可以自己deploy一个for stack application，这个是很重要的一个卖点。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:59",
+      "text": "要不你先这点很对。因为我觉得很多习惯从技术角度去看，他的这个创始人可能跟他讲services的时候，或者说一些技术圈的人他在看service。对，不就这个成本的，但我会觉得这个是个优化成本的一个东西。其实我觉得的确就是可能就miss the point。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:24:17",
+      "text": "我觉得技术角度上他他的确是有它难的部分，因为scaling to zero或者scale up可以做这种electricity的确是难，但它并不是解回答这个Y，他的Y可能还是在说为什么用户想要去用这样的一个furcifer不好。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:40",
+      "text": "我们聊了很多data研发，不知道现在大家还对，因为你知道很多创业者会说，你们现在还有人在看data我说当然还是我说我说这个我就是不是因为资本的这个热潮过了，我们就不关注。其实从商业本质上来看，还是a lot of things going on。那我们到下一个问题就是看看看真正a lot of things going on的这个话题，就是我们不得不聊的这个AI但是我觉得这的确我觉得AI因为我我自己在在回国之前的几年，在硅谷也都是一直在在做这个AI产品的这种商业化。不能在start up，还是在在advice。所以我个人是还是很明显能感觉到，就这一次的AI特别的不一样。而且能够感觉到他这个真的非常根本性的一个变化。所以我相信相信Jennifer在这个领域你也能感觉到。但是我们也还是想听一听你的这个观点，就是你对于你来说就这一步，你觉得跟对吧可能是五六年前对吧？是五六年前那一波这个AI到底它核心的这个差别在核心差别在哪？让你自己个人最最exciting的一些一些领域或者说一些主题是什么？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:25:51",
+      "text": "我一个是喜欢提醒或者是remind大家的，就是我我们可能看到的phenomenon，这是一个overnight success，或者overnight phenomenon of ChatGPT，可以做这样mind blowing的事情，或者是他有这样高的intelligence的程度。但其实在AI行业的人都会告诉你，这是一个incremental improvement。就是基于真的是ten，fifteen, twenty years research um but got to this level of uh utility，所以他其实像这一个V或者这一波可能来的很猛，但是的确是一个有有一个很长的build up的时间。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:26:48",
+      "text": "对我个人来讲，其实这个还是蛮personal的。就是像我说我在进入Jason之前在的公司其实做的就是一个tid bot，然后serve the audience是customer support。去怎么样reduce这种tickets，然后可以self serve customer requests。其实现在来讲看起来好像就是很容易的一件事儿，但那个时候真的是也是一个很热的话题，就是17年左右的时间很热的话题，很多公司在做。然后很多AI的talent也去想说怎么可以把这个conversation做的更natural，或者是更接近于现实对话。但很少的公司真的有succeed到能做到这种conversational。像我们也只是最多是我我在的公司叫soi之后被有zoom收购，也只是做到是one shot，或者是a couple conversations to solve一个比较basic的ticket，或者是reduce一个inflow。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:56",
+      "text": "现在的这一波我觉得最最明显的一点就是就说这个floor也是被massively lawing。就是你真的想要说做一个很很smooth或者是很基本的对话。跟任何一个财报来讲，它都是可以跟你有一个coherent的response，或者是很很很很无无无无间隙的交流。但是他这个quality可能还是一个问题，就是说大家都可以做check out，因为这就是一个API call的问题。这个conversation其实解决了或者是很容易解决的问题，就是说怎么样去有这种对话的过程。但这个quality的确还是一个问题，就是怎么样真的能够解决用户的问题，怎么样能够包括完整的完成一个worker。比如说像退款退货，这个刚刚讲到的，它还是一个soft plus AI的一个一个要解决的一个过程。那就是说可能真的现在去compete the territory，就是怎么样去mode这个user behavior，或者use using interaction into incorporating uh AI，incorporating uh something that almost right ninety eight, ninety seven percent right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:29:21",
+      "text": "但是你可能还要去能够有这种interception。在在他在他有lusa tion或者是有一些错误的状况下，怎么去解决这个问题。所以或者是怎么样去incorporate一些internal knowledge，怎么样去跟外部的这种系统进行对话。这些都是我觉得接下来的这这个阶段，很多AI centric software需要解决的问题。当然像说到他是不是真的一波很猛的这种paradigm shift，这个我觉得是无可置疑的那那就是说在哪一个领域上面，或者是在哪一些研发方面，会真的是去做到这种质的飞跃。那就是可能之后的这些开发者和创始人要去想的问题。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:30:13",
+      "text": "其实我好奇你看我们经历过上一波的AI的adoption过程。其实我们看到当时其实最大寄予厚望的很多这个领域，最终这有些enterprise soft的这个类，因为最终其实发展可能不如带的这个预期。那现在我们看到更多我们看到很多技术上的一个一一个飞跃。那你觉得说我们原来就是你觉得在哪些领域你觉得技术解决问题，你觉得哪一些过去我们看到的这个business角度的一些发现，有可能对于对于这一波的这一个这些技术的adoption，也也还是有意义的。或者说你可能看到说大家在做一个比方说AI的这个AI工具中时候，常见的可能一些常见的一些误区可能会在哪？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:31:02",
+      "text": "应用角度来讲，就看在美国最近这些怎么说比较popular的一些AI的应用，其实基本上都是存在在consumer behavior上面。不管是main journey这种generate image，还是说character AI这是一种consumer chat。你可能给自己做一个像her一样的这样的个人的朋友。然后companion像eleven labs这种做voice cloning和voice generation，这些都是个人用户去去adopt AI但是他们这几个公司每一个都有很强的研发团队，也有很强的这种model building的能力。他只是说他的behavior的changing上面都是在在个人用户上。那enterprise我觉得还是在catch up去怎么去leverage large language model。我觉得很多enterprise都在去讲的问题就是we spend tens of millions into investing our own aching learning team，our own models, training and inference infrastructure.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:32:05",
+      "text": "那现在我们知道有一个更powerful的model已经被OpenAI，或者是google，或者是说又能android c去train。Train好之后我怎么样去adapt它，来去确定我自己的use case，去用我自己的data和用我自己的这种boundary和constraint。这个是我觉得在enterprise上面还是去在adapt的一个过程。我个人来讲会觉得很多之前的秃领还是会很有用。比如说像围墙BIOS，比如像这种怎么说model EW ation的这些工具，他们还是都会很有用。只是说怎么样去和一个外部的API和外部的模型来接触，和怎么样去integrate。他们可能会是之后要去磨合好合作出来的一个产品。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:33:03",
+      "text": "其实现在你刚才提到几家公司，你说他们其实在做自己的model，其实这个也是大家经常在问的一个问题，对吧？就是这个AI这个mod那么强大了，那你这个应用层的价值在哪？或者应用层你还有什么可以去difference你自己的，比如说你提到的你以前在做的这个客服的这个领域。那一下子所有人你不需要多多厉害的这个machine line的能力，你都可以作为客服。那这个时候我做一个所谓的AI japan的一个SaaS公司，我应该去如何思考我的产品竞争力？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:33:37",
+      "text": "这个问题很好，我其实并没有worry about或者是concern about这种sas的defensively。原因是他可能在开始的时候都感觉比较浅薄，因为只是一个rapper around OpenAI的API或者是任何一个model的API，它可能很多的value都是取决于这个model return给你是什么样的一个结果。你可能只是把它present回去给你的用户名。但任何一个这样的公司真的想要延展的话，他需要的是说怎么样把这个input和output都会变成一个vertical specific或者是worker specific的一个一个一个一个场景和一个体验。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:34:30",
+      "text": "举个例子来讲，就是像jasper或者是copy I的这样的公司。他他所做的事情其实还是text generation，或者是email copy generation。但是你的copy从哪来？他他的meta data都是什么？他要做的是一个什么样的场景？是email还是去做一个beat，还是做一个article？它的长度是怎么样？它是之后在哪里去output，它需要什么样的其他的carrel around来可以把整个的这个流程做得更贴合用户的期待。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:35:03",
+      "text": "我觉得这些都是做产品或者是说做应用来讲更重要的部分。它不是说真的只是做了这件事儿，他是从从什么时候开始，怎么样去简化这个步骤，怎么样去可以更intelligent和更贴切的把这个结果做好。这个是任何一个model和模型公司做不到的地方。因为它并没有这种怎么说，他只能是靠一个text box take a user input，还有很多instruction。而只有应用公司才能够有这种不同的触角和不同的表达方式，能去把整个的体验做得很完整。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:35:47",
+      "text": "所以说其实很多我看很多这些创业者说，jasper是不是一开始增长那么快，然后这个估值怎么一下变得这么高，现在是不是是不是现在slow down了？还有一些关于valuation的这个rumor，其实就是从你的从从你所知道来看，其实反而是说他们在网易从一开始的一个hip产品？这个现象产品到了一个真正往serious的场景去开始落地的一个一一个过程。或者说这个可能是很多现在要做的AI这个产品需要去思考的这个过程。的确你如果只是做一个rapper或做一些prom engineering，其实没有任何价值。但是你要放在真正一个生产中的一个场景，其实应用层还是有很多可以做的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:36:28",
+      "text": "的确是这样。我经常喜欢举的例子就是在我当时做chat out和做customer service chat out的过程中，竞争对手是一个叫做ada的公司，他是在在加拿大。然后其实看起来AI的部分和machine learning的部分并没有很复杂，也比较traditional。让他做的更好的一点地方就是他有很完整的integration to a downstream systems。比如我在要退票或者是在退货的过程中，我有没有跟ify或者是ERP system有着一个很好的integration。那我在可能收集数用户数据的时候，并不需要问我的用户所有这些他的order number，他的就是哪一个transaction需要return的一个credit card，这些他都已经做好了。很很深层的integration。所以它对话部分只是一个entry point，它更多的value是在之后的workflow上面。这个我觉得也是像刚才讲到落地的部分。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:37:32",
+      "text": "在任何一个领域，不管是marketing，不管是support，不管是sales，它其实有很多需要落地的地方。就是要把这个场景做的更适用，或者把这个技术运用到更适用的场景上面。这些是真的是在应用上面需要下功夫的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:37:48",
+      "text": "那你觉得他怎么就是一个应用公司，他如何去考虑我是否要像你刚说的几家公司一样，自己去build一个model。或者说我们现在很多公司也说，我是不是要build一个所谓的都specific，就是某个特定领域，特定行业的model。这个决策你看到是怎么去怎么怎么去思考呢？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:38:09",
+      "text": "我目前看到这个酒店当然是有也是应该跟你一样，可能有两个two different schools，两个不同的派别。一个是说我需要我只能train自己的model，才能有足够的differentiation。要不然就是说我就只是用这种一次性model考了API去test water。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:38:29",
+      "text": "我作为一个产品出发的人我可能是更倾向于the second camp，就是说我可能先把这个产品做出来，它到底是不是能够解决这个用户体验的问题，能不能把这种UIUX因为是做我们讲的领域是应用，对吧？这个应用它能不能够落实到这个场景上面。他如果model有问题的话，我们至少可以在这个实验过程中看到的model是有什么问题之后，再去结合到它不足的地方，可能去refine或者fine to一个sting model。因为我觉得99%的应用它都不是去在compete这个model quality，它都是在怎么样去solve这种constraint。就是说他模型不足的点是用什么样的方式去弥补它的不足。所以在这个部分我并不觉得是一定要the best model win，可能真的是说最最切合和最好的弥补方式，才能够让这个产品和应用具有adoption。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:39:41",
+      "text": "这个其实是一个挺有意思的话题。因为很多时候在AI这个领域，大家常常会这个process about some technical issues。就是大家经常会对而且很就更多的谈论这种技术的一些一些细节。比如说他这个house nation都要说胡话这个问题，然后这什么坑。但是这些问题他是不是从你的角度来看说，其实在现在的很多这种企业软企业应用应用的这个场景里边，其实你已经可以用你刚才所说的工程或者产品化的方式。其实已经有很多落地的这个场景，而不需要太多去关注很多模型本身的这种这种问题。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:40:23",
+      "text": "是的，但是cavet就是这个模型要至少meet一个保尔，他可能不能太差，他可能好的足够好，但是marginally的improvement可能已经不能够解决他这个模型的或者这个应用的adoption。它应该是在足够好的过程中，哪怕是有一些relationship，哪怕是有一些错误，它可以是通过这个因为应用你可以可以set很多boundary，或者是set很多很多这种user expectation和medication的strategy，对吧？所以如果是在在应用的层面，你可以把这种像刚才讲到的不足弥补上，那我觉得可能不需要真的把这个model做到特别好。因为即使是自己find two的一个model，你可能跑到大概99% 15的过程中。在之后的improvement真的就是已经很margin要花很多时间才能去把它真的set到一个下一个tear，下一个level。那这个时候可能更好的investment作为一个stata来讲，我可能会去解决这种low lower hanging for在应用上面的lower hin。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:41:39",
+      "text": "的确现在就是AI贷能够讲到，他好像对于各方面都可以带来是很大的一些变革的。可能作为从一个投资人，我们精力总是有限的。我好奇在AI这个领域，你自己投资的一个一个主线是什么？然后在我相信这个领域里边也有很多还没有答案的一些事情。你觉得有可能对于这个行业以后大家对他对三塔比也好，投资也好，产生比较大影响了。几个可能key assumptions，一些关键的核心的大的问题又在又是哪一些？你怎么去你在这个领域里面，你自己的一个playbook是怎样的？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:42:21",
+      "text": "其实刚刚我们有有讲到很多，就是我的major和主主主页是architectural shift AI其实也是一个同样的关注点，就是说它是一个key capability，它会enable很多architectural ship在现在的这个hey boy下面怎么样去adapt adopt AI它又在哪一些inference上面，比如说像刚刚讲到可能会有很多developer，他不需要自己做模型，也不需要自己去train和find train model。它可能只需要的是find tree tools和和去training，包括testing和productions ize existing models。这些可能就是一个architecture ship，我们可能有时候叫last mile AI他怎么去adopt to ship products和aequor to production。这些我们会去看它的工具型和infrastructure的的公司。这是一一个作为一个infer investor，我们一定会去花很多很多时间去看的那这之外我个人很喜欢pay attention的地方，就是他到底是怎么样去贴合用户的这种day to day我自己可能喜欢的一些AI产品都是有这种copilot的behavior在里面。就是我可能还是不能够完全trust AI去complete and to end task。Doesn't cannot copilot get help?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:44:08",
+      "text": "Copilot是一个很好的例子。那么像我在写CQL的时候，很多时候可能也会用去使用chat VT做这种copilot dish companion。所以这些怎么样去adapt和soft ly introduce air capability into existing tools，或者是像很多design to现在他会integrate一些generated in inspiration和一些component在design to里面。这些我都觉得是一些很好的点子和很好的起点。就是说在有这样的能力和和平台上面，怎么样去可以做到remove a couple steps of friction，或者是可以更快的达到你想要达到的angle。这种都是我会更花时间去看是不是一个很好的AI use cases。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:10",
+      "text": "那那如果按照这个逻辑的话，那是不是那他是不是其实对于现在这个in combine就是现有一定的用户，还有产品基础公司来说，其实这个是更容易实现。是不是对创对一个从零开始创业公司来说，反而提出了更大的挑战。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:45:28",
+      "text": "我觉得是的，因为很多人compare AI或者是generate AI to mobile to internet，to a lot of this ask uh a technology shift.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:46",
+      "text": "我觉得他可能更像是internet，它是一个platform，但可能pink。Actually IT is more likely to be mobile, 它并不是说mobile，其实是更enable像facebook job的公司，已经有了足够的distribution，它只是一个新的dirigo tion channel。那我觉得AI可能在很多程度上更像是这样的behavior。就是说已经有对于性的公司，它可能通过AI可以更容易的去产生新的产品或者是新的用户体验。但这并不代表说对于创业者或者是新的公司来讲是不可能chAllenge的。因为important很难去one eighty update他的user interface，或者是wide去adjust to new behaviors。所以我看来刚刚到的是通过这个去ig或者是像character AI这些都是net new behaviors。这些是最更更适合像新公司或者是创业公司去去切入的territory。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:47:09",
+      "text": "或者说我觉得也许大家即使看到了，比如说什么像husson，然后这个salesforce adobe都很快好像好像都很快推出了这个AI产品，包括notion。但其实我我个人的感觉是说，其实对于大陆公司来说，他做的还有很多非常不彻底的地方，他也没有办法做的非常的彻底。其实对大家来说，也不要被那一两个产品的lunch吓到，还是有很多可以再从头去做这个地方。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:47:35",
+      "text": "我们再问一两个比较核心的问题。我觉得一个是说一个是说其实大家现在看到一些比较大的shift，比如说像这个ChatGPT logging system，或者大家常说最近的这个agent。但总是我好奇这些就类似于这些，你觉得有可能对于不是说现有的一些category，现有的工具，有可能对于整个格局可能有比较大的影响的这种变量有哪一些是你自己会特别去关注的？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:48:03",
+      "text": "给AI用错是一个真的是怎么说无底洞，我个人是还蛮感兴趣，他真的是怎么样去是哪一些plugin和和哪一些worker，真的是可以让AI combine with tooling去completely replace。其实我觉得很多现在已有的RPA公司，robotic automation process automation公司，或者是很多已有的workflow automation像ZPA这个公司，他们的确是有一定的chAllenger。因为AI native workflow tooling leveraging ChatGPT或者是any other model with this plugged model，IT IT is a completely uh different in structure, architecture, paradigm shift and the the way developers use code and telling to to just所以这个我个人来讲还是觉得很有前景，也是很有意思的一个playground。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:09",
+      "text": "那你觉得这个在的确现在AI的这个领域，我们看到每天都有层出不穷的新的产品出来，而且似乎很多产品出来。你看到早期的这个adoption好像也都还不错。就是好，然后早些长得很快。这个里边就是你怎么去识别说哪一些是造影。然后你再看一个早期的，比如现在AI这个投资，我想你可能看的也是早期。因为大部分公司也还在早期，所以早期公司说你自己最看重的可能是哪一些哪哪一些方面。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:49:41",
+      "text": "我觉得有很多project，很多idea，但没有很多产品，所以我可能在看的和在等的都是啊怎么样把这些capability和这些idea包装成一个很好的产品。不管是这种agent training还是plugin，他们都是现在还是在存在于一个能力上面。他还并没有变成一个包装好完整的产品去可以address and to and use case。所以这个还是我可能会去看中的。有没有很好的防止可以uh uh find out uh and build the right product for this for this uh sector or for this use case for this type。Either personal这些可能是我现在会去花很多时间去去去研究去看到。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:50:34",
+      "text": "那那比如说像这些最近也有很多纹身，纹身图，然后纹身PPT网站等等的这些大小小的这种产品出来。早期你怎么去一边。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:50:46",
+      "text": "away这些产品，我们不管不仅仅是我自己和我们自己的consumer team gross team，都有很多很大的chAllenge。因为他很新很很抓眼球，然后很有意思就有很多这种tourists。User很多temper的retention，其实都是可能on power，or worse than the consumer product, 就是能够有的repeatable use case。这种反复回来的场景很少。像刚刚你讲的这种纹身PPT给他一个prompt就可以gender一个PPT有可能我一分钟时间可以将这5个到10个他的usage看起来很好，但是我真的是有有把这个PPT发给十个人、20个人、50个人看了吗？我有没有每周都有去做这样的事情，我觉得还是想要去看这样的。Retain user behavior有存在才可能是真的是说他有这种，刚刚讲到的behavior change，可能真的是有做到这样的公司还是蛮少的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:51:54",
+      "text": "所以说有时候因为我们看的是那个retention那个percentage。所以说你在一个很好的行业的确是一个双刃剑。一方面你好像一开始容易抓眼球，但其实你可能就会吸引很多tourist，反而让你去发现真正的serious user，反而变也许还变得更难了。所以说，是啊对的，对我觉得刚才你提醒很对，就是说其实越在这个时候，可能对方特来说早期就不要太太沉迷于你的这个growth，这个number可能更重要是看你的user behavior，到底它它是否真正到了这个production的这种环境里面去。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:52:30",
+      "text": "对对对。而且我们也有很很新奇的发现，就是有几个tiktok account或者是instagram youtube account，真的是人每每一次他们有pose这种AI20这个AI two就可以瞬间长很多粉。但如果你问这个founder为什么涨粉，他可能自己也不知道他为什么为什么有这样的增长和这样的usage growth。所以对我们还是想要看到，至少这两个现象和他的无碍能够meet到中间。就是我可能我不在乎你有很多tourist user，也不在乎说他是到底是有noise，还是说真的有这种质的变化。但我希望能看到至少是在这种几十万上百万的用户里面，有那么一小部分，他可能只有几千人，可能只有几万人。他真的是有这种repeatable usage，而且他有一个reason去build这个product deeper to Taylor or for them，这个我觉得可能对我来讲会是更appeal的。Instead of keep growing the user base into you know two, three acts in the next six months. 但是并不知道为什么他没有在用。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:53:41",
+      "text": "那这样听起来其实如果要投特别早期，比如说像C的轮投，在prod或者说prove lunch之前的这种其实还是挺难的。因为你刚刚才所说的这些，其实都是要用这个数字来去prove的，对吧？那那你们的一个那那这那这样的话你们的，对，所以说你们的一个invest message是不是更多的还是在它有一定的数字的traction的时候。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:54:05",
+      "text": "我觉得做应用的话，在有数字之前还是蛮难投的。这个我可以肯定。如果做infrastructure或者做比如说刚才讲说做模型，做tooling这些，你可以通过不同的方式去evaluate这个founder的experience，它的切入点，它的这种strategy，和和像刚才讲的很少的版本可以做这样的公司。但在做应用的上面，其实很多时候是用户怎么去用，怎么去go to market，这些还是更多的是在有数据之后才能会看到。所以我们可能也是会稍微等到晚一点点，产品在用户手里才才去才去做投资。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:54:49",
+      "text": "那关于AI我觉得我们最后最最后谈一个我觉得可能也是大家最关注的话题。你刚才其实提到这个做模型，一个就是说我们现在还需要一个做大模型的公司。以后这个close source OpenAI这样close source。闭源的体现出来，不断涌现的各种零零总总的这种开源的模型。你觉得会对于未来的整个生态会带来怎样的影响？你觉得他改变的方向会是怎样？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:55:18",
+      "text": "我觉得大模型的公司可能很难再去做，至少在美国，可能很难再去做a OpenAI comparable的。因为基本上几个大的公司都已经现在in the market了。不管是OpenAI anthropic inflection还是character，像刚刚讲到这几个好的team都已经出来。他们已经融了足够的钱，上亿美金，每每一个都是，而且已经花了这些钱去train model。包括现在的GPU shortage加上这种talent shortage，我觉得很难有足够的竞争力再去在大模型上面竞争。当然这个会有地域的区别，欧洲、亚洲、中国，我觉得每一个地域上面可能会有他自己的模型公司。至少在美国我觉得还是蛮难去compete。Capital rays a, finding the best talent and spending like one or two years to do research on a large language model.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:56:18",
+      "text": "因为language model可能是更更贵一点，更难去train的。可能在image voice或者其他这种小模型上面，还是还是有还是有有发展和有潜力，当然use case specific，不管是medical，像刚才说不管其各种数据的modality，我觉得还是有一些use case specific opportunity去做一个模型公司。当然他可能就是会有自己的模型的characteristic tics，他可能会有自己的应用场景。这些我还是更希望可以看到这种百花齐放的的现象，有更多模型公司也给用户更多的choice。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:56:57",
+      "text": "所以觉得未来可能很多的公司，可能instead of调用open I的API，可能会越来越多的公司可能会基于开源。有点像是不是会是不是会有点像数据库这个领域？这其实也会有越来越多公司调用用这个开源来做一个更符合他们场景的这种应用。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:57:15",
+      "text": "我觉得会是这样的，我也会希望是这样。Open source will be a good baLance to close source alternative。过。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:57:25",
+      "text": "还有一个问题，我想是很多这个公司，很多创始人其实也会比较关注。我看到jen fer其实有篇文章在讲，就是how to find，怎么去找你早期的共创用户这个design partner。因为其实我相信很多公司在早期的时候，他也会想，我到底是基于我自己的产品的值，尤其是现在很多AI产品，其实做一个产品的门槛越来越低了。就是早期我怎么一个是说我怎么样去找到这个好的一个是好的一个工厂用户。然后另外一个是其实我也是一个baLance，我会不会over fit这共创用户对吧？我什么时候应该说相信我的产品直觉，相信很多AI产品一样，我去做抛到市场上做，跟这种中小可能中小企业甚至个人开发者做这种快速的迭代。就在这个我觉得挺重要的问题上，也想听听Jennifer的这个建议。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:58:16",
+      "text": "First我推荐大家去读一下这个blog，我觉得还是花了很多精力去去写这个framework，a final design park, 像你刚才讲到的这种over fitting，还是有没有能够足够的这种breath去去研发这个产品。我觉得其实一部分是design partner也需要你有一定的这种social去去找到？他可能他在你没有产品的时候，他买的不是你的产品，他可能买的是其他的。比如你个人的expertise，个人的经验，或者是你能够帮他做一些很很custom maybe over fitting的事情，他可能才会去愿意投资这个经历和时间去做你的design partner，在这个baLance上面去找好他到底是为什么变成了design partner，为什么想要跟你合作。可能作为这个matching的部分，花花一些时间和和精力去找到对的match去做第一个产品，这个我觉得是很重要的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:59:17",
+      "text": "另外就是我其实这个是program PGYC创始人有讲到，do things don't scale，可以在早期的时候稍微over fitting一些，做一个比较在小的领域里面比较differences product。但要有这种能够扩展的机会，也就是说你可能在arch architect这个产品的时候，不要把自己局限住。可能最开始的use case没有那么广泛，但是它可以跟很贴切这种早期用户的一个求。在后面的时候可以自己再去慢慢去做延展。这个是我觉得也是很多比较成功的早期公司有做好的地方。就是说他可能稍微over fitting一些去take attack了一个nish market overlooked nh market来build一个很怎么说很by hard或者是很loyal的一个小的群体。再通过这个群体去变成他的最早期的这种evenest，然后帮助他慢慢扩展，把这个饼画大。这个我觉得也是一个很多现在成功的公司在早期时候有做的很好的地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:00:39",
+      "text": "对我觉得我会把那个文章放在这个show notes里边，也非常推荐大家去好好的阅读。好，我们接下来就进入到最后我们的快问快答环节。我准备了几个问题，然后希望Jennifer能够再用大家一分钟的时间来去来去跟大家简单分享你的这个first idea，come to your mind. 好，第一个问题就是你经常会向别人推荐的书，一本跟business相关的，另外一本是非business.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:01:08",
+      "text": "的based相关的。我对我经常会给我的founder推荐的书叫the moon test how to talk your users，none business的的书。我最近刚刚读了一本叫tomorrow tomorrow and tomorrow是一个关于game design的书。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:01:25",
+      "text": "为你为什么会？是因为你的game最近感兴趣吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:01:29",
+      "text": "它就是一个很好的novel，很很好的fiction，我觉得可以，很多这种个人经历的体现，还有他怎么去create一个world，这个过程对我来讲是非常有意思的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:01:45",
+      "text": "Interesting, 我也想我听着我也想去看一看。第二个问题，你觉得在你的这个投资生涯中有谁对你的影响比较大？他最大的可能一两个影响是什么？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:01:57",
+      "text": "两个人是by horror，这两个是我觉得最好的，也是对我影响最大的enterprise investors。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:02:06",
+      "text": "你能举一两个就是他们对影响表达的这个例子。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:02:13",
+      "text": "最大的例子就是他们两个个人本身都是创业者和和CEO，加上他们两个都是结合了产品和go to market的经验。但是很多在投资的过程中，他们所去学习和成长的都是在observe the market和观察怎么样去adapt to new go to market methodologies。这个我觉得对我来讲是非常重要的，也是我学到很多很多的地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:02:56",
+      "text": "的确他们也在这个Anderson的博客上有很多分享，也推荐大家去听一听，去读一读。好，第三下一个问题，有没有一两个让你比较印象深的你miss的deal，然后可以简单聊一聊他们对你之后有哪些影响。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:03:12",
+      "text": "我miss掉的一个deal是rt影响，其实一部分是在怎么去做投资和这种投资本身的过程，并不是ew ation的这个过程。我觉得当时可能还是有conviction的，只是做这个投资decision的时候有一些误差，所以这个是一个一个learning，就是说即使在有convention的过程中，你怎么样去说服自己的team，说服投资人这些可创始人这些可能还是一个在投资过程中自己需要成长的一个地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:03:52",
+      "text": "你觉得当时tim的哪一个concern，你觉得其实应该是应该。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:03:57",
+      "text": "能够说服他们的。我觉得我们可能有的时候就是比如over index在这种ownership，或者是round，或者是阶段，在这个地方可能会去overthink。这个可能在看到好的公司或者是好的时间点的时候，还是需要jumping。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:04:20",
+      "text": "对，但通常很多很多VC也会因为这个好好的公司而去太太就是不反反而太不重视你刚才所说的这个deal dynamic，说最近AI的很多unico的重资轮估值。OK下下一个就是对于很多刚刚开始投资，刚刚开始进入投资这个领域的这种年轻的investor，你会给怎样的一些建议？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:04:50",
+      "text": "我觉得investor最最好的advocates是他们自己的所投的创始人。所以这也是可能回到最最开始这个podcast我们在讲的and hard，一就是非常founder first founders friendly。因为我们真的是我个人也是非常believe my reputation can only be built through my founders。所以对于新的投资人来讲，花时间不管是去理解founders mentality，理解他们的chAllenge，理解他们的到processes。我觉得对作为一个好的投资人来讲还是很很重要的。另外就是说真的是对所研究的领域的the areas where focus in do d search IT serves me well。I know it's not everybody's preference，但是我觉得至少我在这种做deep search，然后花很多时间在同一个领域，花很多时间和founder和practice的交流来讲，对我自己的收益还是很多的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:06:00",
+      "text": "如果说你自己能够重新开始你的这个投资生涯，你觉得你就你觉得你这五六年会做的有什么跟现在不一样的地方。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:06:10",
+      "text": "回头来讲，我可能会更好的，或者是更precisely spend my time。我觉得做投资人来讲，最最precious的地方就是我们有很少的时间需要学很多的东西，会跟很多人交流。但是真的需要抓住的点和要做的事情。这个可能在同一个时间点里面只有那么两三件事，其他的可能都没有那么重要。但是在每一个时间点都是回头来讲会知道，那个时候可能做这个会更重要。是build deal flow，还是做research the content，还是说这种help portfolio companies。我觉得怎么样去allocate时间的这个问题可能在过来之后回头看，觉得可能在那个阶段应该去比如说做做这样的一些事情，这个可能是会是我去改变的地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:07:00",
+      "text": "你觉得会有什么常见的你会overspend你的时间的地方。看到很多投资者会过多的在一些你觉得也许你觉得RY不是那么多的地方。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:07:11",
+      "text": "我觉得conference和investor meeting，这是什么？",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:07:18",
+      "text": "That's a very good note. 好，下一个问题稍微稍稍微轻松一些。就是工作之余你是如何打发你的这工作者的休闲时间？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:07:29",
+      "text": "我很喜欢做的两件事儿，一个是travel，现在因为很多work travel，可能自己的个人时间旅游就很少了，就真的是放空或者是去还可以来欣赏风景这种时间还蛮少的，还是很喜欢做这件事儿。因为我觉得很多的去想的事情和自己脑袋里面很多的business，其实都是在这种empty state才真的connect dots。我觉得更需要的是一种empty state的the viral。另外我很喜欢gardening，种花种草，我觉得有同同类的体验就是投资，我们像做早期的投资人，其实需要很多的是patience，在播种和精心培养这些花花草草的时候，也经常会可以提醒自己。这也是不管是看一个市场，看一个公司，它也都需要这种incubate的时间才能可能开花结果。需要很多人的努力和付出才能真正的去做大做好，所以也是一个很贴切的日常的reminder。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:08:43",
+      "text": "好，我最后的一个问题，你自己个人今年有什么个人的小目标特别想实现的？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:08:54",
+      "text": "我其实今年很想回到西藏写一些小的工具，然后小的应用，就是真的再去start coding again。因为像真的是很多的AI developer to和capability，它的这种intuition和traditional debtor还不太一样。我自己不去不去用不去handsome的话，还是很难去找到这种intuition。所以这也是我最近在在努力花时间。Take up my coding skills.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:09:31",
+      "text": "对于你对于大家看上去都非常glorify的硅谷，你觉得你最喜欢他的以及最不喜欢他的地方在哪？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:09:41",
+      "text": "Uh, I think I have only love veridian valley. That's why i'm still here. II can't think of anything. I don't like I about IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:09:50",
+      "text": "我觉得这可可以可以说是一个doubles as word，就silk valley has very short memory。这个给他的一个好处就是他一直都是在去adapt to去适应新新的环境，新的技术、新的领域和新的这种人和它是很adaptable的一个环境，那么他可能同样的弱点就是说之前失败过的例子可能大家也很快就忘记了。不管是在还是FTX，可能它都只是一时的新闻，它慢慢下一个还会再出现。这个当然对我来讲，个人的观点来讲，我觉得是一个healthy cycle里面需要出现的这种a dance。当然它会有它一定的industry impact，但还是慢慢会被这种时间的长河抹掉。所以我还是很很看好也很看重这种open mind acceptance to new behaviors，new things和他的这种一直的长期的这种适应的这种潮流。所以我觉得还是一个比较magical的一个地方。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:11:13",
+      "text": "对，其实我还其实我对于CN value非常miss的一个一一个点。其实是在那边大家虽然你说大家会不要忘记很多东西，好像而且似乎也喜欢挑战权威，但其实the city very每个人都特别爱去share自己的所有的经验，自己成长，创业过程中的这些这一些挑战，这些收获。其实我觉得这个其实是无形中帮助后来者去减少一些犯错重复犯错的成本。就是在这样的一个，对，所以我觉得这个i misa的，that's fine。就是我我开始做这些poa pocket，开始写做作为procs，其实我也是希望能够有在我也我也是希望能够有更多的地方，也像sick valley一样，就是让大家似乎在巨人肩膀垫的越来越高，然后我们才能走的越来越快。对对对，非常谢谢junipers。今天这个时间，尤其是我知道也是这个周末的晚上，希望打扰到你吃饭时间。但非常感谢你今天的时间跟我分享了这么多非常有意思的这个inside，我自己也学习到非常多。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:12:19",
+      "text": "谢谢你的采访，也是我一直有在关注和你的很多这种learnings，block article，都是我觉得也做的很好的这种干货抓出来的干货。所以也希望可以一直进行下去，像刚刚讲到pay the road forward，对吧？这是我们常说的怎么样去给创业者和接下来去做做开发做公司的人一些小的帮助。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:12:49",
+      "text": "感谢大家的收听，如果你喜欢我们pocus的内容，欢迎你点赞并分享给可能感兴趣的朋友。有任何建议反馈都可以在评论区留言，我们都会很认真的看的。如果你在用apple podcast收听，也希望你花几秒钟给我们打个五星好评，让更多人了解到我们我们下次再见。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这次讨论中，一位来自硅谷顶尖风险投资基金的投资合伙人分享了对软件如何改变世界的见解，特别关注企业软件、大数据和开源领域。她讲述了个人从中国到美国的投资生涯，强调早期投资的挑战，如开源项目的商业化，并以DBT为例说明了从开源到成功公司的转变。讨论还涉及了评估AI初创公司的关键因素，如产品直觉和技术背景，以及投资者对产品迭代和市场适应性的重视。此外，还探讨了大模型公司的发展趋势和评估标准，以及投资者如何通过学习和策略调整来应对快速变化的技术领域，展现了对市场趋势和未来机会的深入分析。",
+    "qa_pairs": [
+      {
+        "question": "Jennifer，能否请你分享一下你的职业生涯和投资生涯是如何开始的？",
+        "answer": "我是在中国长大的，本硕均就读于上海财经大学。我的职业生涯有几个转折点，从本科时对coding产生兴趣，到后来在卡耐基梅隆大学攻读sof engineering硕士。我个人更倾向于与人接触和解决用户问题，所以在毕业后选择了做产品，从一个创业公司ethyl ami s做起，从事application performance monitoring相关工作。之后加入了一家早期运用transformer model的chat out company。在积累了一定经验后，出于想要学习创业并专注于B2B工具或数据领域的想法，我加入了Anderson Horis（A16Z）做投资，原本计划短期从事投资活动，但没想到已经过去五年多，现在是合伙人。",
+        "time": "00:02:05"
+      },
+      {
+        "question": "能否介绍一下Anderson Horis这家风投机构？",
+        "answer": "Anderson Horis是一家成立于2008年的新兴风投公司，至今已有13年历史。起初作为Angel方投资，专注于enterprise和consumer领域。公司的一大特点是创始人友好，注重从创始人的角度出发进行投资。目前所有合伙人都有创办公司的经验，大约60%至70%的投资人拥有经营公司的背景。Anderson Horis强调投资经营伙伴（operating partner），提供类似投后服务，帮助被投企业拓展关系、市场故事和融资等方面，特别是在不同行业如企业产品、pin check等领域，会根据每个领域的特点提供定制化的支持。",
+        "time": "00:06:13"
+      },
+      {
+        "question": "Anderson Horis在投后服务方面有哪些最佳实践或系统性的方式可以帮助到你们的portfolio公司？",
+        "answer": "Anderson Horis在投后服务上会根据每个公司所在的不同垂直行业（如医药、AI等）构建特定的投后支持体系。例如，在企业级领域，我们会帮助公司与三大云服务商建立合作关系；而在医药领域，则会关注与研究机构的合作。总体目标是扩大创始人网络，尤其是在高层管理和技术人才招聘方面提供有力支持。我们会在自己强大的网络中找到最合适的人选或解决方案，帮助创始人在他们不擅长或较弱的领域取得成功。",
+        "time": "00:09:23"
+      },
+      {
+        "question": "Jennifer能否分享一个印象深刻的投资案例，包括当时的投资过程、决策依据以及项目的发展和你的学习体验？",
+        "answer": "在我刚进入风投圈的时候，基础设施领域有很多机会，尤其是随着snowflake等公司的上市以及行业趋势推动云原生数据基础设施的发展。我在2019年关注到一个名为DBT的公司，它起初是一个consulting shop，提供data services。通过与行业内的交流和调研，了解到DBT在数据圈内的广泛应用程度很高，于是开始接触并深入了解这家公司。经过六个月到一年的考察期后，创始人决定将DBT转型为产品，尽管这在当时并不常见，但最终这个项目获得了巨大成功，其增长曲线保持强劲，这成为我个人学习曲线中最陡峭且最具教育意义的投资案例之一。",
+        "time": "00:13:24"
+      },
+      {
+        "question": "在投资阶段，你们通常会在产品完成市场化之后才去投资吗？",
+        "answer": "是的，很多投资人会建议创业者将产品市场化，但真正投资的节点是在产品已经完成市场化之后。在这个过程中，作为投资人，我们会与其他投资人一起劝说创始人进行转变，但这个决策最终需要创始人自己有意向和product vision来做好这个转变。",
+        "time": "00:18:11"
+      },
+      {
+        "question": "DVT是做什么的？",
+        "answer": "DVT有两个主要组件，一个是open source的部分叫DBT core，它将SQL模型分解为小的可执行组件，简化了数据仓库中的数据处理流程。另一个是将DBT core云化，使得整个data team可以共享和构建模型，提高工作效率。",
+        "time": "00:19:21"
+      },
+      {
+        "question": "当时你们在投资这家公司时，看中了哪些因素让他们愿意投资？以及如何思考产品未来的空间？",
+        "answer": "我们看中的公司有很强的用户基础和良好的牵引力，以及他们所处的市场切入点非常核心，具有很强的控制点（control point）。例如，DBT作为分析师日常工作中不可或缺的一部分，拥有很大的延展性，能够覆盖从文档、测试到度量存储等多个领域，这使得我们相信它有巨大的商业化潜力。",
+        "time": "00:23:15"
+      },
+      {
+        "question": "你们在看项目时是否会单纯关注开源功能本身，还是更多关注其未来商业化的可能性？",
+        "answer": "我们更看重的是基于这个核心点可能带来的完全开源且不直接盈利的机会，同时也考虑其商业化的一些功能。对于种子轮或A轮融资阶段的公司，如果产品暂时难以商业化，我们也会根据用户的广泛采用程度来判断潜在的动机潜力。而在B轮及以上阶段，则会着重考虑市场规模、延展性以及市场潜力等因素。",
+        "time": "00:26:02"
+      },
+      {
+        "question": "DPT如何从早期开源项目成长为独角兽公司，并且在与其他领域公司竞争时遇到哪些挑战或经验？",
+        "answer": "DPT在转做产品公司后很快就开始商业化，并且在商业增长上不逊色于任何开源项目。其成功之处在于找准了痛点，解决了分析师在管理大型模型时面临的问题，显著提升了工作效率并促进了社区成员之间的协作。此外，DPT还创建了一个名为“analysts engineering”的新类别，将数据分析和工程实践融合起来，优化工作生产力。同时，DPT注重与上下游企业的合作，构建了一个强大的生态系统，成为连接不同参与者的核心节点，从而避免了直接竞争并建立了更好的伙伴关系。",
+        "time": "00:32:11"
+      },
+      {
+        "question": "在open source公司商业化的过程中，常见的挑战有哪些？",
+        "answer": "常见的挑战包括如何根据用户行为在合适的阶段提供价值，并且找到从哪里开始产生卖点。例如，DBT在早期阶段通过让用户整个data team受益于其核心产品，而非为单个个体提供明显价值，从而成功实现商业化。",
+        "time": "00:35:22"
+      },
+      {
+        "question": "DBT在商业化过程中是否遇到过挑战，以及这些挑战如何影响了你后续对开源和data领域的投资？",
+        "answer": "DBT在商业化过程中遇到的主要挑战是随着公司成长为SL公司后，开始面临定价、产品扩展与原有定价模式之间的冲突。尽管之前成长过程较为顺利，但随着产品线的丰富和市场地位的变化，确实出现了一些磨合问题。",
+        "time": "00:38:46"
+      },
+      {
+        "question": "DBT在什么时候开始扩展到除了数据转变之外的其他业务领域？",
+        "answer": "DBT最近开始扩展业务领域，特别是在去年发布了新产品metrics store，并收购了一家名为transform的公司，专注于matrix layer。这是在用户已经使用DBT构建模型后的一个自然延伸，旨在满足用户的进一步需求。",
+        "time": "00:40:07"
+      },
+      {
+        "question": "在过去几年里，你在data info领域的投资主题和关注点有何变化？",
+        "answer": "过去几年里，我关注的是与云仓库架构转型相关的投资，如数据迁移、BI工具、 governance quality tools等。现在，随着市场逐渐饱和，投资焦点开始转向数据工具的 unbundling 和 consolidation 过程，以及如何将现有洞察力与AI/ML结合，用于构建面向消费者的实时产品和改善客户体验。",
+        "time": "00:43:00"
+      },
+      {
+        "question": "在这个阶段，如果想要做一个data info公司，可能需要从哪些角度切入，与前几年的做法有何不同？",
+        "answer": "在当前阶段，新的data info公司可能需要关注如何利用大型语言模型进行text to QL转化、重塑自助式数据分析和开发者工作流等。重要的是捕捉到用户行为和use case的变化，并做出能够带来质的飞跃的产品创新，而不是简单地改进已有工具的功能。",
+        "time": "00:48:00"
+      },
+      {
+        "question": "DB是一个4到5年研发的项目，它的主要特点和优势是什么？",
+        "answer": "DB是一个非常快速、内存密集型的数据库，能够在本地设备上实现超低延迟（如一秒钟内）的性能体验，即使对于非常大量的数据（例如上千万行的Excel或CSV文件），用户也可以直接上传并立即进行分析。这种流畅完整的用户体验目前只有在被Curry等工具提供的情况下才能实现。",
+        "time": "00:51:56"
+      },
+      {
+        "question": "有人质疑这种功能是否仅适用于小型SMB领域，对企业级客户是否有吸引力？当初你们做这个决策时，有没有遇到内部差距或担忧？",
+        "answer": "这是一个合理的挑战。WDB与市场上流行的名为single light的数据库相比，具有一定的竞争优势。但挑战在于如何将on device的基础设施转化为可商业化的产品，并确保其体验能够扩展到团队层面并支持数据分享。尽管存在风险，但对于许多公司而言，他们所需分析的数据量并不庞大，因此一个经济且高质量的产品是有价值的。",
+        "time": "00:53:38"
+      },
+      {
+        "question": "投资方面，你们通常关注哪个阶段的公司？在评估公司时，最看重哪些因素？",
+        "answer": "作为早期投资人，我们主要投资种子轮、A轮甚至部分B轮阶段的公司。在不同阶段，我们会关注公司是否在该阶段展现出明显的市场领导者特质，以及是否有明确的市场进入重复性。对于早期投资，我们会特别看重创始人的质量和团队，看他们是否能在这个领域创造出差异化公司。",
+        "time": "00:56:09"
+      },
+      {
+        "question": "在早期阶段，创始人可能没有具体数据，你们如何做出投资决策？",
+        "answer": "在早期阶段，我们会更加重视创始人的素质和他们组建的团队是否有能力在这个领域做出与众不同的公司。我们会考察创始人的产品意识、技术实力以及将技术转化为市场可接受产品的商业感知。",
+        "time": "00:58:54"
+      },
+      {
+        "question": "在识别创始人质量方面，你们有哪些具体问题或例子来帮助决策？",
+        "answer": "我们最看重的一点是创始人能否展现出对历史公司成功与失败的深刻理解，以及他们对未来市场洞察的独到见解。优秀的创始人能够从多个角度深入剖析所处领域，并基于此给出逻辑清晰且有洞察力的答案，这对于我们做出投资决策至关重要。",
+        "time": "01:00:28"
+      },
+      {
+        "question": "在当前的创业投资环境中，尤其是在A轮融资阶段，投资人如何评估公司的价值？特别是在公司没有明确的revenue或用户增长数据时？",
+        "answer": "在A轮融资时，由于C轮之前可能缺乏具体的业绩指标，投资人会更多地关注团队、产品潜力以及市场位置等因素。对于早期投资，revenue multiple可能难以量化，因此更直接地比较同类公司表现更为关键。如果目标公司在同行业中表现出色，并且具有显著的市场领先地位，那么它可能会获得较高的估值。",
+        "time": "01:09:31"
+      },
+      {
+        "question": "面对商业化压力，尤其是在A轮或pre A轮融资后的公司，应该如何平衡商业化过程与产品建设之间的关系？",
+        "answer": "在硅谷，很多公司会考虑延长pre A轮融资后的runway，等待市场环境更有利于商业化再进行大力推广。然而，在任何市场条件下，好的产品和公司总会找到商业化的方式，即使增速和上市时间会有所不同。建议创始人尽早将产品推向市场，即使收费较低或免费，也能通过学习过程寻找商业化的潜力，而不是单纯为了延展产品开发周期以追求收入而转向企业级市场。",
+        "time": "01:16:19"
+      },
+      {
+        "question": "目前有哪些领域可能被市场低估了？",
+        "answer": "其中一个可能被低估的领域是data quality，虽然这是一个公认的问题，但解决方案因公司具体需求的不同而难以标准化推广。此外，reverse ETL也是一个具有潜力但尚未得到足够重视的方向，它提供了构建数据层的便捷插入点。同时，对于某些开放源码项目，虽然可能存在过度重视star而忽视实际应用场景的现象，但整体而言，优秀的open source项目仍会在市场动态变化中起到积极作用。",
+        "time": "01:21:00"
+      },
+      {
+        "question": "对于IT服务领域，特别是serverless技术，它是否被市场过分炒作？",
+        "answer": "五年前，IT服务确实可能存在过度炒作的情况，而现在serverless技术更多的是关于如何帮助开发者和数据团队更自由、高效地部署应用程序和工作负载，提升其能力和服务质量。对于技术角度的挑战，如 scaling to zero 或 scale up 的电力问题，它们确实是难点，但问题的核心在于用户为何选择使用serverless服务，而非仅仅关注成本优化层面。",
+        "time": "01:22:54"
+      },
+      {
+        "question": "在AI领域，你觉得这一波AI与五六年前的核心差别在哪里？让你觉得最exciting的一些领域或主题是什么？",
+        "answer": "这一波AI的不同之处在于其地板被大幅降低，基本对话功能已经能够实现coherent response和无缝交流，但质量上仍存在问题，比如如何真正解决问题、完整完成用户任务，如退款退货等。此外，AI需要解决如何与用户行为互动、集成内部知识以及与外部系统对话等问题。",
+        "time": "01:27:56"
+      },
+      {
+        "question": "对于上一波AI采用过程中，哪些领域或研发方面实现了质的飞跃？",
+        "answer": "美国最近流行的一些AI应用主要集中在consumer behavior上，如内容生成、个人聊天机器人等。而在企业级应用方面，许多公司在投资自己的AI团队、模型训练和推理基础设施后，现在正面临如何适应和利用像OpenAI或Google训练的强大模型，并将其与自身业务场景结合的问题。",
+        "time": "01:31:02"
+      },
+      {
+        "question": "面对强大的AI模型，应用层的价值体现在何处？如何构建产品竞争力？",
+        "answer": "应用层的价值在于将输入输出转化为垂直特定或工作场景的具体体验，例如通过理解业务逻辑、优化流程、个性化输出以及与下游系统的深度整合。以Jasper为例，尽管基于模型进行文本生成，但其优势在于对特定场景的适应性和整体体验设计，这才是模型本身无法提供的。",
+        "time": "01:34:30"
+      },
+      {
+        "question": "在考虑是否自行构建模型或使用通用模型时，应该如何决策？",
+        "answer": "这是一个存在两种观点的问题。一种认为必须训练自己的模型以实现差异化；另一种则倾向于先构建产品，利用现有模型API进行实验，根据产品落地过程中遇到的问题再逐步优化模型。实际决策应关注如何解决应用场景中的约束条件，弥补模型不足，而非单纯追求最佳模型效果。",
+        "time": "01:38:29"
+      },
+      {
+        "question": "在AI领域，你自己投资的主线是什么？在这一领域中，有哪些还未被充分解答的关键问题可能对未来行业产生重大影响？",
+        "answer": "我的主线关注点是AI带来的 architectural shift，尤其是如何适应和采用AI技术以及在 inference 上简化开发者的流程，例如通过工具型和基础设施公司实现模型的训练、测试和生产化。此外，我特别关注那些能够贴近用户日常生活的AI产品，比如具备copilot行为的产品。对于现有公司而言，采用AI可能更容易实现创新和提供新体验；而对于初创公司来说，这反而提出了更大的挑战。目前市场上的AI产品如ChatGPT等还处于早期阶段，很多大公司虽然快速推出了相关产品，但并未做到完全彻底的整合。我认为AI与现有工具结合，可能会催生新的、彻底的变革。",
+        "time": "01:42:21"
+      },
+      {
+        "question": "你是否会特别关注那些能够彻底改变格局的AI变量？",
+        "answer": "是的，我会关注那些能够让AI完全结合并替换现有工具的插件和worker，比如RPA公司和一些工作流自动化公司，它们利用像ChatGPT这样的AI模型，可能带来一种全新的结构、架构和开发方式，这具有很大的前景和有趣的探索空间。",
+        "time": "01:48:03"
+      },
+      {
+        "question": "在早期投资阶段，如何识别哪些AI项目有潜力成为真正的商业产品？对于特别早期的投资，尤其是在没有具体数据 traction 的情况下，你们的投资策略是怎样的？",
+        "answer": "在早期投资时，我更看重的是团队如何将能力和想法包装成一个完整的产品，而不只是停留在单一的功能或能力上。现在市场上很多项目和产品在能力层面还未能形成解决特定问题或满足特定场景需求的成熟产品。因此，我会关注是否有团队能够找到正确的产品切入点和应用场景来构建优秀的产品。在AI应用领域，确实很难在没有具体数字 traction 的情况下进行早期投资。但对于基础设施或者模型相关的投资，可以通过评估创始人经验、切入点和策略等方式做出决定。通常情况下，我们会等到产品在用户手中并有一定数据后再进行投资。",
+        "time": "01:49:41"
+      },
+      {
+        "question": "对于近期出现的各种新型AI产品，如何判断它们是短暂热点还是有长期用户黏性的？",
+        "answer": "判断一个AI产品是否具有长期用户黏性，关键在于用户是否会在反复使用该产品，并将其融入到日常工作和生活中。很多产品可能初期增长迅速，但用户留存率较低，存在大量“tourist”用户而非真正的活跃用户。真正有用户黏性的产品，会在少数核心用户中展现出持续的重复使用行为，这才是我们更希望看到的现象。",
+        "time": "01:50:46"
+      },
+      {
+        "question": "对于大模型公司，尤其是与OpenAI类似的公司在未来生态中的影响，您怎么看？",
+        "answer": "在美国，大模型公司很难再复制OpenAI那样的成功，因为已有多个大型公司进入市场，并投入重金研发。然而，在不同地区，比如欧洲、亚洲和中国，可能会出现自己的模型公司。对于基于大模型的应用，未来可能会有更多的公司基于开源模型进行二次开发，以适应各自的特定场景需求，类似于数据库领域的做法。同时，OpenAI的API可能会被越来越多的公司调用，形成一个开源与闭源相互补充的良好生态。",
+        "time": "01:56:57"
+      },
+      {
+        "question": "在公司早期阶段，如何找到好的共创用户（design partner），以及如何平衡过拟合问题，什么时候应该相信自己的产品直觉并快速迭代？",
+        "answer": "首先，建议大家阅读Jennifer写的相关博客，其中提到了如何寻找早期的共创用户和避免over fitting的问题。找到合适的design partner不仅需要产品价值，还可能涉及到个人经验和定制化服务。在匹配过程中，花时间和精力去找到对的匹配做第一个产品至关重要。另外，在早期可以通过over fitting聚焦于一个小领域，构建一个紧密且忠诚的用户群体，然后逐步扩展产品范围，这是很多成功早期公司所采用的策略。",
+        "time": "01:57:25"
+      },
+      {
+        "question": "你会向别人推荐哪两本分别与业务和非业务相关的书籍？",
+        "answer": "我会推荐一本与业务相关的书《The Moon Test: How to Talk to Your Users》，以及一本非业务相关的书《Tomorrow, Tomorrow, Tomorrow》，这是一本关于game design的小说，我认为它能体现很多个人经历和创造世界的过程。",
+        "time": "02:01:08"
+      },
+      {
+        "question": "在你的投资生涯中，谁对你的影响比较大？请举例说明他们对你的最大影响是什么。",
+        "answer": "两个人对我影响最大，他们都是优秀的enterprise investors。最大的影响在于他们作为创业者和CEO，结合了产品和go to market的经验，并在投资过程中学习和成长的过程中，特别注重观察市场和适应新的go to market methodologies，这对我而言非常关键。",
+        "time": "02:02:13"
+      },
+      {
+        "question": "有没有一两个让你印象深刻的错过投资的案例，以及这些经历对你之后有哪些影响？",
+        "answer": "错过的一笔投资案例是RT，主要是在投资决策过程中出现了一些误差，即使有 conviction，这也教会我在有 conviction 的情况下如何说服团队、投资人和其他创始人，这是我在投资过程中需要不断成长的地方。",
+        "time": "02:03:12"
+      },
+      {
+        "question": "对于刚进入投资领域、刚开始做投资的年轻人，你会给出哪些建议？",
+        "answer": "建议新的投资人要花时间理解所投创始人的 mentality、挑战和 process。同时，深入研究自己关注领域的 deep search 和与创始人及实践交流，对成为一个好的投资人至关重要。",
+        "time": "02:04:50"
+      },
+      {
+        "question": "如果你能重新开始投资生涯，你会做出什么与现在不同的地方？",
+        "answer": "回顾过去，可能会更精准地分配时间，抓住每个时间点最重要的两三件事去做，比如构建 deal flow、做深入研究或帮助 portfolio companies。对于过去可能 overspend 时间的地方，如会议和活动，需要更好地管理并专注于真正能带来价值的工作。",
+        "time": "02:06:10"
+      },
+      {
+        "question": "在工作之余，你是如何打发休闲时间的？",
+        "answer": "我喜欢旅行和园艺，旅行可以帮助我放空思绪，而园艺则提醒我投资需要耐心，就像精心培养植物一样，也需要时间才能开花结果，实现成长。",
+        "time": "02:07:29"
+      },
+      {
+        "question": "你个人今年有什么特别想实现的小目标吗？",
+        "answer": "今年我很想回到西藏编写一些小型工具和应用，通过编码来找回并提升我的AI开发直觉。",
+        "time": "02:08:54"
+      },
+      {
+        "question": "对于硅谷，你最喜欢它的哪一点，最不喜欢它的哪一点？",
+        "answer": "我非常喜欢硅谷的适应新环境、新技术和新领域的开放性和适应性。虽然它可能会忘记一些过去的失败案例，但这正是硅谷持续创新和进步的重要部分。硅谷鼓励尝试新事物并接受新行为的特点使其成为一个充满活力的地方。",
+        "time": "02:09:50"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "软件如何改变世界：对话硅谷顶尖风投A16Z合伙人Jennifer",
+        "summary": "本期访谈邀请到硅谷顶尖风投A16Z的投资合伙人Jennifer，探讨了企业软件、大数据、开源等领域的投资心得和市场机会。Jennifer分享了对开源商业化、现代数据架构等主题的深度分析，以及投资大数据领域公司和AI领域热门公司的经验。作为硅谷少数的华人投资合伙人，Jennifer提供了她对当前市场和未来机遇的独到见解，为听众带来了满满的干货。"
+      },
+      {
+        "time": "00:01:53",
+        "title": "从工程师到投资合伙人的转型旅程",
+        "summary": "在本对话中，主讲人分享了自己从中国到美国求学，最终转型成为投资合伙人的不平凡职业道路。主讲人在中国上海财经大学完成本科学业后，原本计划在美国继续商科深造，但因就读于一个工程密集型学校，意外发现了对编程的兴趣。之后，主讲人在卡耐基梅隆大学获得了软件工程硕士学位，并由于喜欢与人互动和解决用户问题，选择了产品经理的职业道路。通过在不同创业公司的经历，主讲人积累了丰富的市场经验和用户洞察，最终决定进入投资领域，学习创业知识并成为了Anderson的合伙人。这一旅程不仅体现了主讲人对技术和市场的敏锐感知，也展示了其对个人成长和职业转型的不断探索。"
+      },
+      {
+        "time": "00:04:42",
+        "title": "深入了解And Jason VC公司的发展历程与投资理念",
+        "summary": "And Jason是一家成立于2008年或2009年的较新的投资公司，至今已经营了13年。该公司最初由Martin和Jason两位天使投资人创立，初期名为Horror and Angel Fund，随后转型为专注于企业和消费者领域的投资基金。创始人的背景在于从浏览器项目开始的创业经历，随后在云计算和操作系统领域积累了丰富的B2B公司经验，最终将这些公司卖给了惠普。基于个人经历，And Jason秉持着对创始人友好的理念，强调创始人优先的思维模式。公司前10到12个合伙人均为有创业经验的创始人，这一点在招聘新合伙人时是重要的标准。公司中大约60%到70%的投资人都拥有运营经验，许多人自己也曾创业。"
+      },
+      {
+        "time": "00:06:47",
+        "title": "投资公司如何通过构建开放平台支持创始人",
+        "summary": "投资公司通过构建开放平台，侧重于提供运营合作伙伴，以及投后服务，帮助创始人扩展网络、建立关系、讲述产品故事、市场营销以及人才招聘等方面。这种做法不仅反映了投资公司对创始人个人经历和所处领域的深入了解，也体现了其对于提供针对性帮助的重视。特别是对于不同领域的投资组合公司，如企业产品、医药等领域，公司提供定制化的支持，包括与主要云服务提供商合作、建立与研究机构的关系等。此外，投资公司还强调了帮助创始人扩展其网络，连接到合适的资源和人才的重要性。"
+      },
+      {
+        "time": "00:11:24",
+        "title": "投资人角色中的网络价值",
+        "summary": "在投资领域中，有效的网络构建对于解决问题和提供指导至关重要。当个人面临难题时，其网络中的其他人可能拥有解决方案，从而为他指明方向，这是投资人能提供的最大帮助之一。"
+      },
+      {
+        "time": "00:11:41",
+        "title": "风投圈早期经历与DBT投资案例分享",
+        "summary": "分享者讲述了其在风投圈的早期经历，特别是2018年至2019年间对基础设施相关公司的观察和投资。其中，DBT公司因其在数据圈内的广泛应用和讨论成为了特别关注的对象。尽管DBT起初是一家咨询公司，不同于传统的科技公司，但其向产品化转型的成功证明了即便非典型初创公司也能取得巨大成功。此案例强调了好公司可以有不同的背景和发展路径，而产品是否满足广泛需求并获得认可是关键。"
+      },
+      {
+        "time": "00:17:38",
+        "title": "投资人视角：咨询服务公司向产品化转型的关键",
+        "summary": "投资人讨论了他们如何识别并投资那些将咨询服务产品化的公司，强调了创始人对产品愿景和感觉的重要性。他们提到，虽然很多投资人会建议咨询服务公司转型，但成功的转型需要创始人本身的意向和对产品的深刻理解。案例中提到的公司，在短时间内从咨询服务转向专注于SaaS业务，并成功吸引了投资，展示了这种转型的可能性和条件。"
+      },
+      {
+        "time": "00:19:20",
+        "title": "探讨DBT在现代数据栈中的作用及投资价值",
+        "summary": "DBT通过将SQL模型分解为小型可执行组件，以及将数据复制到仓库中，使数据模型在Snowflake等数据仓库上可重复执行，从而简化了复杂的数据模型处理。它采纳了许多工程最佳实践，如测试、组件化和易于编写文档，以实现更高效的数据团队协作。此外，DBT核心的云版本使得整个数据团队能够共享模型，提高工作效率。讨论还涉及了如何早期识别技术趋势，以及投资者在投资DBT（当时称为Fish Town Analytics）时的考量，强调了其在未来产品空间中的潜力和商业价值。"
+      },
+      {
+        "time": "00:22:46",
+        "title": "投资视角：从核心流程控制到商业化潜力",
+        "summary": "对话内容主要探讨了投资人在评估创业公司时关注的几个关键点，包括公司的切入点（insertion point）、悲剧价值（tragic value）、控制点（control point）的强弱，以及这些因素如何影响公司的延展性和商业化潜力。特别强调了即使一个产品或服务当前可能难以货币化，但如果它能够控制核心流程并有巨大的用户基础，那么它就有很大的延展性和商业化的可能性。此外，还讨论了投资不同轮次时关注的重点有所不同，早期轮次更注重用户采纳度和产品潜力，而后期轮次则更关注市场潜力和具体的延展领域。"
+      },
+      {
+        "time": "00:27:18",
+        "title": "DBT的发展历程及其在Dev Tools领域的代表意义",
+        "summary": "DBT作为一家在2021年成为独角兽的公司，目前估值达到40亿美金，其发展历程对于Dev Tools领域的公司具有代表性。讨论重点包括DBT如何从一个开源项目转型为商业产品，以及在这个过程中所面临的挑战和积累的经验。特别强调了DBT解决了数据分析团队管理大规模模型的痛点，提升了工作效率，创造了分析师工程的概念，推动了整个领域的进步。同时，DBT通过建立强大的生态系统和合作伙伴关系，避免了竞争，促进了与上下游企业的合作，展示了其在数据基础设施领域的战略地位。"
+      },
+      {
+        "time": "00:33:19",
+        "title": "开源项目商业化面临的挑战及策略",
+        "summary": "开源项目在商业化过程中常遇到挑战，需要深入理解和把握用户行为，以及在不同阶段为个体、团队或整个基础设施提供价值的时机。以DBT的发展为例，其成功在于理解并满足了数据团队的需求，展示了如何通过提供核心价值实现商业化的飞跃。此外，不同的开源项目或产品需根据自身特性，选择适当的商业化点，如针对个体、团队还是整个企业基础设施提供价值，以实现价值的最大化。"
+      },
+      {
+        "time": "00:37:15",
+        "title": "开源项目在GitHub上的社区活跃度与商业化挑战",
+        "summary": "对话中讨论了开源项目在GitHub上如何通过社区活跃度和用户反馈提升知名度，以及开源项目在商业化过程中可能遇到的挑战。特别提到，虽然项目如DBT在GitHub上可能没有直接的明星指标（如Stars数量）显示其活跃度，但通过项目在特定渠道（如Slack频道）的活跃度以及明确的社区参与方式（如民生类别创建）来增强其影响力。同时，即使一个项目在开源社区中活跃度高，商业化的过程中仍可能面临挑战，例如定价策略的调整和产品延伸时的冲突，这些挑战可能需要时间去磨合。"
+      },
+      {
+        "time": "00:39:36",
+        "title": "数据模型和指标存储的演进策略",
+        "summary": "讨论集中在一家公司如何通过扩展产品线，特别是引入Metric Store和对Python工作流的支持，来满足社区和现有客户的需求。该公司最初专注于数据模型的转型，随后通过收购和发布新产品，自然地扩展到指标存储领域，这被认为是其服务的自然延展。特别强调了在已有强大用户基础后，公司主要致力于完善客户所需功能，而非频繁推出新产品。此外，也探讨了成功产品背后的关键因素，包括使用的频率和是否能改变用户的工作习惯，指出这些都是识别大好机会的重要指标。"
+      },
+      {
+        "time": "00:42:24",
+        "title": "数据信息化领域的投资趋势与关注点",
+        "summary": "在数据信息化领域，投资者的关注点经历了从单一技术点到整个领域的广泛延伸。特别地，随着云仓库的转型，几乎每个数据工具都需要适应新的基础设施，导致对相关工具的投资增加。尽管目前该领域可能有些过度投资，未来可能会出现整合或精简的趋势。投资者对支持新工作负载或用例的数据工具，以及将数据或AI集成到面向客户的产品中的技术持乐观态度。特别是，深度工具和能够将现有数据洞察转化为客户体验增强的解决方案被认为是该领域非常有前景的部分。"
+      },
+      {
+        "time": "00:46:23",
+        "title": "数据技术革新与企业适应策略",
+        "summary": "近年来，随着streaming database和hybrid database等新技术的兴起，数据处理领域经历了显著变化。尽管迁移到云仓库的趋势似乎已接近饱和，如Snowflake的快速增长所示，云基础设施在许多企业中已基本成型，新入局者面临更大的挑战。针对如何在当前环境下创立数据公司，讨论强调了从用户行为和用例变化中寻找切入点的重要性，如利用大型语言模型进行text to SQL的转化，以及重新想象自服务数据分析和开发人员工作流程。此外，企业对现有投资的依赖性高，意味着新解决方案需要提供质的飞跃，而不仅仅是量上的改进，以促使企业更换工具或平台。"
+      },
+      {
+        "time": "00:50:04",
+        "title": "探讨技术革新对个体和企业数据处理的影响",
+        "summary": "对话集中在技术革新，尤其是快速内存数据库(DB)的开发，如何为个体和企业提供质的飞跃的体验。该数据库能够在极短的时间内处理大量数据，为用户提供了前所未有的高效能体验。尽管存在对这种革新技术在企业级应用中可行性的疑问，但讨论强调了对中小型企业(SMB)的潜力，同时指出许多公司实际上并不需要处理超过几个TB的数据。这表明，对于大多数常见工作负载而言，昂贵的大数据基础设施投资可能是不必要的，提出了一个更经济、高效的利用现有技术的观点。"
+      },
+      {
+        "time": "00:56:08",
+        "title": "早期投资策略与评估标准",
+        "summary": "讨论了早期投资的阶段，包括种子轮、A轮和B轮，以及在各阶段投资时看重的要点和评估方法。种子轮主要看创始团队和pitch deck，A轮关注早期市场进入情况，B轮则注重市场的可重复性。在选择投资对象时，重点考虑的是该阶段是否能确定出领域的领先者，避免投资早期公司后被其他竞争对手淘汰的风险。"
+      },
+      {
+        "time": "00:57:50",
+        "title": "投资早期技术公司时对创始人的评估标准",
+        "summary": "在投资非常早期的公司时，特别是在infrastructure和info领域，由于缺乏有意义的数据，投资决策更侧重于创始人的能力和团队的潜力。投资方重视创始人的品质，包括是否能够创建一个独特的公司，以及创始人的技术能力和商业直觉。对于技术驱动的公司，寻找一个产品导向的创始人至关重要，他能够将技术和市场结合。投资人在评估创始人时，会关注他们对行业历史的理解，包括之前的公司做得对和错的地方，以及创始人对当前机会的洞察力。这表明创始人是否做好了充分的准备，并对自己的领域有深入的了解。通过这些问题的回答，投资人可以判断创始人是否真正理解他们所处的市场，并准备好了执行他们的计划。"
+      },
+      {
+        "time": "01:02:15",
+        "title": "深入探讨VC投资中的研究目的与创始人市场策略",
+        "summary": "对话中讨论了VC投资人在进行行业研究时的目的，强调研究的目的是为了更好地理解行业，而不是为了判断方向的对错。指出通过研究可以帮助提出更好的问题，识别潜在机会，而不是寻找现成的答案。此外，讨论还涉及了创始人对于go to market策略的理解和重视程度，认为创始人对市场的关注和适应能力是投资决策中的重要因素。同时，也强调了在不断变化的市场环境中，创始人需要有能力观察并适应市场的变化。"
+      },
+      {
+        "time": "01:06:41",
+        "title": "硅谷资本市场和企业估值的变迁",
+        "summary": "过去几年，资本市场经历了巨大变化，尤其是二级市场和一级市场的估值体系。在硅谷，对于data info和dev tools公司，投资者更偏好看到开源牵引力和产品增长，而不仅仅是收入或付费客户数量。这种变化反映了投资者对改变用户行为和产品市场接受度的重视程度增加。对于不同领域的企业，市场进入策略和估值基准也有所不同，如AI公司即便没有收入也能获得高估值。"
+      },
+      {
+        "time": "01:11:13",
+        "title": "早期投资估值挑战",
+        "summary": "在A轮投资阶段，估值判断变得复杂。由于缺乏明确的业绩指标，投资者更多依赖于公司的故事、团队潜力及市场适应性等因素。比较同行业公司的估值并非易事，因为即便是相似阶段的企业，其面临的市场挑战和增长潜力也可能大相径庭。因此，投资者在进行早期投资时，更注重公司的市场领导地位、行业生态位置以及是否为首批创新者等因素，以评估其是否值得更高的估值。"
+      },
+      {
+        "time": "01:14:49",
+        "title": "投资人对初创公司商业化节奏的看法",
+        "summary": "讨论集中在初创公司，尤其是在A轮或Pre-A轮融资阶段，面临的商业化压力。投资人通常期望看到公司的产品能够快速商业化，达到一定的收入水平，如一两百万美金的年度经常性收入（AR），以便支持更高的估值。然而，创始人可能认为产品还需要更多时间来完善。讨论还提到了市场收缩导致的商业化困难，以及延长产品推出时间和调整预算分配成为必要。尽管如此，高质量的产品最终能够找到适当的商业化方式，不过速度和方法可能因市场情况而异。创始人应尽早将产品推向市场，即使起初可能免费或低价，以便从实际使用中学习和迭代，而不是过度开发或错失市场需求。最终，收入的质量和从商业化过程中学到的教训比单纯的收入数字更重要。"
+      },
+      {
+        "time": "01:19:01",
+        "title": "数据领域中的高估与低估趋势",
+        "summary": "在数据质量方面，尽管它是一个普遍认为需要解决的问题，市场上出现了许多公司试图通过产品解决这一痛点，但这些努力可能被稍微高估了。原因是数据质量的体现方式多样，难以通过单一产品解决所有问题，导致了并没有实现大规模的采纳。此外，还提到了对于reverse ETL的可能高估，尽管有声音质疑其必要性，但忽略了其在简化数据连接和推动数据流动方面的潜力，这一点可能是被低估的。对于数据管线的构建和CDP（客户数据平台）的发展方向，存在被忽视的潜力，这些可能成为构建未来产品和领域的良好切入点。"
+      },
+      {
+        "time": "01:21:30",
+        "title": "开源项目对技术领域的影响及商业化挑战",
+        "summary": "开源项目整体上对数据、AI等技术领域产生了积极影响，尽管在商业化过程中存在挑战。开源技术的市场动态变化，对商业软件提出了挑战，但同时也促进了技术的创新和应用的广泛部署。特别是服务器less技术，它满足了开发者和团队对于更自由部署应用和工作负载的需求，标志着技术能力服务的重大进步。尽管从技术角度看，存在一些实施难度，但其价值在于满足用户需求，而非仅是成本优化。"
+      },
+      {
+        "time": "01:24:40",
+        "title": "探讨人工智能的进展与挑战",
+        "summary": "讨论集中在人工智能（AI）领域近年来的显著进步以及面临的挑战上。特别强调了AI技术的根本性变化和在商业应用中的巨大潜力，同时指出了实现高质量对话和解决实际问题的困难。此外，也提到了AI研究的长期积累和渐进改善，以及未来AI软件需要解决的关键问题，如用户行为建模、错误处理和系统集成。"
+      },
+      {
+        "time": "01:30:13",
+        "title": "探讨人工智能技术在企业应用中的挑战与机遇",
+        "summary": "对话集中在人工智能（AI）技术在企业中的应用及其面临的挑战。首先回顾了过去AI技术的采用过程中，尽管对企业软件寄予厚望，但发展并未达到预期。当前，AI技术取得显著进步，尤其是在消费者行为分析方面，如生成图像、角色AI聊天和语音克隆等领域，这些应用主要针对个人用户，背后依托强大的研发团队和模型构建能力。然而，企业在如何利用大型语言模型来解决自身问题上仍然处于探索阶段。企业普遍投入巨资于自建的机器学习团队和模型，但现面临如何将这些投资与市场上更强大的模型（如OpenAI或Google提供的模型）相结合的挑战。讨论强调了传统工具如BIOS和模型管理工具在企业AI应用中的持续价值，同时指出了整合外部API和模型的重要性。"
+      },
+      {
+        "time": "01:33:01",
+        "title": "AI模型应用层的竞争力与价值",
+        "summary": "在AI技术日益发展的今天，许多公司开始基于现有的AI模型开发自己的应用，但这也引发了对于应用层价值的疑问。如何在AI模型如此强大的前提下，突出自己产品的竞争力成为了一个重要的问题。讨论指出，虽然开始时应用可能只是简单地封装AI模型API，但要实现长期发展，需要将输入和输出转化为针对特定垂直行业或工作场景的定制化体验。以Jasper和CopyAI等公司为例，它们通过专注于特定场景（如文本生成、邮件复制等）并结合用户的具体需求和场景，成功实现了产品的差异化。此外，深入整合下游系统、提供完善的流程支持，也是提升应用价值的关键。在任何领域，将技术与具体应用场景紧密结合，满足用户的具体需求，是AI应用成功的关键。"
+      },
+      {
+        "time": "01:37:47",
+        "title": "企业应用中AI模型的选取与优化策略",
+        "summary": "在企业应用开发中，存在两种不同的派别，一种认为必须训练自己的模型以确保差异化，另一种则倾向于利用现有的模型通过API进行测试。讨论强调，对于大部分应用而言，重要的不是竞争模型的质量，而是如何解决实际应用中的限制和不足。即使模型存在缺陷，也可以通过工程或产品化的方式来弥补，以满足用户需求和提升用户体验。此外，指出在模型已经达到足够好后，边际改进可能变得不那么重要，企业应更注重于解决应用层面的问题，比如低垂果实（易于达成的目标），以提高产品的采用率。"
+      },
+      {
+        "time": "01:41:37",
+        "title": "探讨AI投资领域及应用前景",
+        "summary": "AI技术被认为能够带来巨大变革，特别是在投资领域，投资者对AI的主线投资以及其对行业未来可能产生的影响表示关注。AI技术的可能关键假设和核心问题，包括如何适应和采用AI，提高产品开发效率，以及AI如何融入日常工具和平台以减少使用摩擦。讨论还涉及了AI技术对于现有企业和初创公司的不同影响，指出虽然AI为现有企业提供了增强产品和用户体验的机会，但也为新公司和创业者提供了切入新领域的机会。"
+      },
+      {
+        "time": "01:47:35",
+        "title": "探讨AI技术对现有行业格局的潜在影响",
+        "summary": "对话集中在AI技术，尤其是像ChatGPT这样的模型，如何可能对现有的行业格局产生重大影响。讨论者对AI技术能够彻底改变流程自动化和RPA等领域的可能性表示关注，并强调了AI在改变开发者使用代码和工具的方式上的潜力。此外，还讨论了识别哪些AI产品可能产生长期影响的挑战，以及在AI投资早期阶段，重视用户行为和产品实用性的重要性。特别提到了一些产品虽然能迅速吸引用户，但很难保持用户的持续参与和使用，强调了对能够显示重复使用行为的产品的偏好。"
+      },
+      {
+        "time": "01:53:40",
+        "title": "探讨AI领域的早期投资和开源模型影响",
+        "summary": "对话集中于讨论在AI领域进行早期投资的挑战，特别是针对应用类项目与基础设施或模型工具的公司。强调在有具体数字支持的情况下投资决策更为明确，但对于应用项目，需要看用户如何使用和市场的接受度。此外，还讨论了大模型公司在美国的市场竞争情况和开源模型对未来生态的影响，预期开源将为用户提供更多选择。最后，探讨了如何找到早期的共创用户（设计伙伴）并保持产品与市场需求的平衡，强调了与合适的伙伴合作的重要性以及在产品设计初期应考虑的扩展性。"
+      },
+      {
+        "time": "02:00:37",
+        "title": "分享会：投资心得与错过的机会",
+        "summary": "在分享会上，主讲人首先推荐了两本书籍，一本与商业相关，另一本则与游戏设计相关，反映了其兴趣所在和推荐理由。随后，讨论转向对其投资生涯影响最大的两位投资人，强调了从他们身上学到的重要经验和教训。最后，主讲人分享了一个错失的交易案例，分析了该经历带来的学习点，尤其是在投资决策和团队说服方面的认识。"
+      },
+      {
+        "time": "02:04:18",
+        "title": "投资领域新人建议及自我反思",
+        "summary": "投资领域的新手应该重视理解创始人的心态、挑战和过程，以及深入研究自己专注的领域。对于重新开始投资生涯，会更精确地分配时间，专注于最重要的一两件事，如建立交易流、研究内容或帮助投资组合公司。常见的错误是过度参与会议和活动，这些可能不总是最有效的时间利用方式。此外，还探讨了工作之余如何打发休闲时间的问题。"
+      },
+      {
+        "time": "02:07:26",
+        "title": "硅谷精神与个人成长探索",
+        "summary": "对话者分享了自己对旅行和园艺的热爱，以及这些活动如何影响他的思维方式和耐心。他强调了在硅谷工作的感受，包括对硅谷适应新变化能力的赞赏，以及希望能够在个人层面上继续学习和成长的愿望。此外，他提到了自己今年的目标是回到西藏开始编程，探索AI开发的直觉。他赞赏硅谷对新事物的开放态度和快速适应能力，同时指出了这种文化导致的快速遗忘过去失败的问题。最后，他表达了对硅谷共享经验文化的怀念，并希望通过自己的努力能够帮助他人减少错误成本，促进成长。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "关注企业软件、大数据、开源等领域"
+                },
+                {
+                  "children": [],
+                  "content": "关注如何软件改变世界"
+                },
+                {
+                  "children": [],
+                  "content": "关注architectural shift和infrastructure的未来方向"
+                }
+              ],
+              "content": "Data Infrastructure"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "对AI技术及其商业应用的深度关注"
+                },
+                {
+                  "children": [],
+                  "content": "关注AI技术对各行业的影响和潜在变革"
+                },
+                {
+                  "children": [],
+                  "content": "个人经历与AI产品商业化"
+                }
+              ],
+              "content": "AI"
+            }
+          ],
+          "content": "投资领域关注"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "对产品和技术的深刻理解"
+                },
+                {
+                  "children": [],
+                  "content": "商业化意识"
+                },
+                {
+                  "children": [],
+                  "content": "用户需求和市场趋势的敏锐洞察力"
+                }
+              ],
+              "content": "创始人品质"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "深入了解目标领域"
+                },
+                {
+                  "children": [],
+                  "content": "做好功课以问出好的问题"
+                },
+                {
+                  "children": [],
+                  "content": "把握市场动态和用户行为变化"
+                }
+              ],
+              "content": "市场研究"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "注重创始人的品质和愿景"
+                },
+                {
+                  "children": [],
+                  "content": "对技术门槛高的领域有深入研究"
+                },
+                {
+                  "children": [],
+                  "content": "关注产品从概念到市场的全过程"
+                }
+              ],
+              "content": "早期投资"
+            }
+          ],
+          "content": "投资理念与策略"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "开源数据处理工具的商业化"
+                },
+                {
+                  "children": [],
+                  "content": "用户基础和社区的建设"
+                },
+                {
+                  "children": [],
+                  "content": "产品到市场战略转变"
+                }
+              ],
+              "content": "DBT"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "开源与闭源模型的竞争"
+                },
+                {
+                  "children": [],
+                  "content": "模型在特定行业的应用"
+                },
+                {
+                  "children": [],
+                  "content": "模型公司的市场定位和策略"
+                }
+              ],
+              "content": "模型公司"
+            }
+          ],
+          "content": "投资案例分析"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "大模型与应用层的差异"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术的普遍化应用"
+                },
+                {
+                  "children": [],
+                  "content": "AI对现有工具和流程的改变"
+                }
+              ],
+              "content": "AI技术的进步"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "商业化路径的探索"
+                },
+                {
+                  "children": [],
+                  "content": "用户接受度和市场教育"
+                },
+                {
+                  "children": [],
+                  "content": "技术落地的现实考量"
+                }
+              ],
+              "content": "AI应用的挑战"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "编码实践和模型应用"
+                },
+                {
+                  "children": [],
+                  "content": "对AI技术发展的深入理解和贡献"
+                }
+              ],
+              "content": "个人参与AI"
+            }
+          ],
+          "content": "对AI领域的见解"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "快速适应新技术和理念"
+                },
+                {
+                  "children": [],
+                  "content": "创新和创业精神的集中地"
+                }
+              ],
+              "content": "硅谷的文化"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "创新环境和资源的丰富"
+                },
+                {
+                  "children": [],
+                  "content": "快速迭代可能导致记忆短促"
+                }
+              ],
+              "content": "硅谷的优点与缺点"
+            }
+          ],
+          "content": "对硅谷的看法"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "通过旅行放松和寻找灵感"
+                }
+              ],
+              "content": "旅行与探索"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "将投资与个人爱好联系，强调耐心和长期视野"
+                }
+              ],
+              "content": "花园种植"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "重新开始编程，深入理解AI技术"
+                }
+              ],
+              "content": "编码与技术实践"
+            }
+          ],
+          "content": "个人发展与兴趣"
+        }
+      ],
+      "content": "对话脑图摘要"
+    }
+  }
+}

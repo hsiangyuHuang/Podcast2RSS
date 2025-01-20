@@ -1,0 +1,2334 @@
+{
+  "pid": "61cbaac48bb4cd867fcabe22",
+  "eid": "676e1b7915a5fd520ef0d90d",
+  "title": "EP 65. 对话 Daloopa CTO Jeremy Huang:融资4千万美金，如何打造红遍华尔街的AI金融产品",
+  "task_id": "58gmq6a86myj9zwo",
+  "transcription": [
+    {
+      "time": "00:00:03",
+      "text": "欢迎来到onboard，真实的一线经验，走心的投资思考。我是Monica，我是高宁，我们一起聊聊软件如何改变世界。Hi, everyone, and welcome back to on board.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:18",
+      "text": "This is Monica. This episode is an old english interview with the founder i've been truly eager to chat with. Erma man is a cold founder and C.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:26",
+      "text": "T. O of da. If you haven't heard of a, trust me, this is a complete to watch. This team of asian founders have spent the past five years building an AI given product for the financial industry, a tough sector to crack for or enterprise of the companies.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:43",
+      "text": "The lupa is the world's first AI power, fundamental and historical data provider that helps financial analysts build and update financial models without hours of manual work. Early this year, da has secure eighteen million dollars in serv funding. And today James is here to share his incredible journey, building da from day one.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:03",
+      "text": "In this more than two hours conversation, you will hear hot take on how to identify our ideas, why CTO should also take a hours customer cause every day, and why you should sell before you build, and what l ms. Can and cannot do in an AI product if you are an early stage start up founder or interested in studying your own company, someday this conversation is definitely worth listening to enjoy. Hi jermy. Welcome to on boy.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:33",
+      "text": "yeah. Hi everyone. Nice to meet you guys. Uh, very excited to be on this podcast. And, uh, I have heard about this podcast a while ago, has been been a big fan of IT. Uh, I also get to really season my friends on this podcast, so that's really got to me excited about like just this opportunity. But uh, very thank you, Monica, for inviting me yeah .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:01:55",
+      "text": "thank you to jeremy. Let's get thought is where we get start by some Normal question, mal, and I tell us about yourself also would joke you to start. Da.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:04",
+      "text": "yeah absolutely. So uh, i'm jermy黄，my chinese names黄杰。Um um I i'm not sure I wanted to become an um I think is really just a series of events and uh circumstances kind of push me to IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:23",
+      "text": "I think for me I had always wanted to uh to build incredible products. So I went to MYU. New york university. So initially I wanted to be a banker。So I um I enrolled in the business school.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:37",
+      "text": "There is um that's actually how I ve got to know my co founders now Thomas lee um is actually one of the smartest st kid in in the business school at a time. Um so I wanted to become investment banker. My parents are that's how I convince them to fund me heat you know studying overseas in the US.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:57",
+      "text": "In my freshman year, I very quickly realized that I not really cut off like high finance on wall street. Um II just find you know like things like like mathematics and computer signs a lot more interesting. So II ended up like doing second major in the uh in the math uh department.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:03:15",
+      "text": "The four years in college, I probably to spend more time in the math uh department and in the business. So but my parents kind of like forced me to finish uh, my major in finance. So so II graduated with two degrees and when I graduated, I got a job in the bay area in differences go uh for the company caught airbnb.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:03:39",
+      "text": "Um I spent three years there absolutely incredible time with the company and but at the every thirty year, uh I think II realized that I comes to the point where I think starting a company makes more sense for me because I just want to really free something that is unique and is actually impact for um for user. So that's kind of how we got started of. Uh and also at the same time, Thomas um uh we can friend at school at MYU and economy around in the same time he can be shot to me and be like you hate journey. Do you want to start something together at tom, as I know him from school, is one of the smartest st kid I know. So the prospect of, like, I don't even need to know what the idea is, uh, well, in retrospect, the idea kind of is not very good at the time but but I didn't .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:34",
+      "text": "know he was really blind. Trust my chest on Thomas yeah.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:38",
+      "text": "pretty much so. Like, yeah, i'm in so immediately I call Daniel a, which is not a friend I know over, man, why you I knew him from ACS. Program is also like one of the smartest kid I know from.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:48",
+      "text": "And while you are so yeah II call him I was like, you want to start up together, is I? yes. And then we just like basically decided quit our jobs essenic. Three of us to quit our jobs within three months of each other. And I would just start a company basically with no funding and with very little a validation of the idea so that .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:05:14",
+      "text": "that's how yes.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:05:15",
+      "text": "yeah, yeah. I think at the time is that we want to grab financial data and put in on the web application. And it's basically rebuilding some part of like the bloomberg s uh fundamental data uh function.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:05:33",
+      "text": "But at a time, II don't think we have very clear understanding of like what works for the user. And we're basically just locking ourselves up in a room where we want, like where we just like hack away and trying to put something you know presentable together. Uh so that's the first idea.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:05:51",
+      "text": "And I somehow we pivoted into making a some kind of a reader reader application for financial documents. Yeah something like ao adobe PDF reader uh with with like AII in IT uh but IT turns out that the problem solved. Uh so there's very good competence out there already and is has very depending gration um so anyway but but those idea didn't really get anywhere.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:06:18",
+      "text": "Um so that kind of like we spend tty much the first year on this two idea. And yeah, I didn't get in here. Um I still remember very vividly, you know like working on a second idea. We spend I think a few months on IT. And then there's one day we showed to our friend who was at ATA created fund and then he used I think it's hard to how to describe the count. I know I just disbelieve that he has shown us that he was absolutely disappointed in the product and he was like, you guys, your first idea was actually pretty good, but why did you end up building a second idea is but uh but that's like that's kind of what kill the second idea so so then and then we start you know going back to the first one, I think about, okay, how can we make IT actually worked um and then we just keep your twain the product and then you know eventually we we got to got IT to where IT is today.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:07:21",
+      "text": "So also uncurious for IT your experience at uh LBNB. How do you say there?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:07:27",
+      "text": "What what do you learn from that? I joined in twenty sixteen, february。I left around the same time uh three years later so I joined the growth team um and what the growth in did um at arba beers to uh I think I guess so called that the growth hacking stuff from facebook so I love the engineers at the growth was from facebook um we you use a lot like AB testing and uh basically data driven growth hacking techniques to increase user engagement, increase working numbers, increase uh a metric caught up first time night.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:07",
+      "text": "Which means which which is the first time a new user book a booking on an arb b. So what I learned is uh is that um you want to get quick validation for your ideas. I think that's incredible important.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:23",
+      "text": "So and a lot of times I noticed, like you know, is special chemical founders from very big companies uh, at the beginning of the company, a lot of time, I guess arguably too much time is spending on building scale able infrastructure. Um well, the the immediate problem the hand is to understand the users problem first rather than scaling your infrastructure. I think that kind of bias leads to a lot of time wasted like using the best wool ae or writing the most scalable.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:00",
+      "text": "Uh in fact most of the time at the beginning of the start of its really to quickly test your ideas and sometimes you don't even need to write code. Um I think sometimes I think even you can make the case where if you limit the amount code that your engineering team rights or your technical team rights and before you find product market for like maybe limited to um a few lines per week or something, you probably can get a problem with much, much. That's kind of like a hot tech, but I happy to talk more about that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:34",
+      "text": "Uh, that turns out more about how we find for the market, if not just to show IT them all without actually coding a lot. And if you something skilled, I want to scale later, then you have a lot of packing code death. When that would that be britain for the team when you need to take skill up?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:09:50",
+      "text": "Yeah, I did the saying, uh, in the in the U.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:53",
+      "text": "S, where like if you have a really big hammer, every problem looks like a now obviously people will start start ups as an engineer, they are very smart, technical uh and you want to maximize your uh your vantage, which is like your engineering skills and you would spend a lot of time you don't designing the best solutions um but the problem is uh that is a very big, very atole that you can keep going around, uh especially is especially dangerous when you don't have feedback from the market, right? So back your questions are how do you find out the market fit? Um my take on this question is slightly different from like uh uh the textbook answer where like you you throwing in the MVP on all that um I mean those tennis are fine uh but I care a lot more about learning about the user because I think that is the uh the at the other day the ultimate objector is to become an expert of the user and building MVP or like I think to to use a chinese risk快速试错right is is I just a take tactic to learn about the user？",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:09",
+      "text": "But there are other ways to learn about the user as well. For example, you just keep talking to user. I think this is probed. The number one, uh, strongest predict uh, a start of success is you just asked the founding team like what is the average number of user you talk to uh, as a team are the most most startup s is on the low end but .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:28",
+      "text": "how many customers that you talk you for you I don't .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:11:32",
+      "text": "have AA scientific well test answer. But I think initially, especially at the beginning, every single one of the founding team should have your calendar during business hours fill up with cost. I guess your customer probably work hours today so that a hour should be feel we cause so HA nine to five should be because you can do the coding at nights that's fine.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:53",
+      "text": "But um or the weekends um but nine to five, monday to friday should be few up with cost with the customer. And then maybe you should also do regular debriefing as a team and review of all the cost to have customers. And I you can record all the cause.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:11",
+      "text": "If not, you should guess, transcribe IT basically you want to have like some kind of records um didn't driven way to learn about your user like none of this requires an MVP like I think MVP we comes later. Uh MVP comes when you already have some well and educated guesses about the users need, and then you really build an MVP to test that high part. This is specifically, but at the very begin, you sometimes you don't even know who your users are, right? I think there is this a very important step that II, the most founders have skip through.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:50",
+      "text": "They keeps straight into MV. And MVP is not really an MVP. Uh, is is a very big concept that tends to get distorted red a lot.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:00",
+      "text": "And if you will, very easily bloat up into some much bigger project. And that's just another danger is like how many MVP out there today is actually MVP or he became another alike in a month long project. Um the key I think is another day is to learn about the user as quickly as possible.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:20",
+      "text": "And there's many, many cheap way to do IT. The cheapest way is to just to keep talking to them right talk to the users, uh find out where they hang out. Do they go to conferences or do they hang out in some kind of community online hacker news or reit uh or some disco ord channel? You want to hang out and interact with them and learn from them.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:43",
+      "text": "And all of this, none. This requires writing code. So if you put a constraint on a number of code, you right, you probably will automatically adopt more time talking to the user so that kind of the assumption that you know leads me to I kind of believe that you are not like really add initially your founding shouldn't be writing code. Um you can even make the opposite case where if everybody's writing code and nobody talked to the user like it's almost test in to to fail, there will be a exception that but I think in general, that's very much especially anything that is on the application layers that requires a very nuances understanding of the user case and by definition and he will focus we new one's understanding of the user does not come from not talking to user that that are very interesting .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:14:31",
+      "text": "and said a little fungus and they can valley come from a technical background and they also are very good engineering developers. That's why probably many often my skip or under or under value the process of talking to customers before uh before building an every picture like they assume that we are a team, we are the we know what we what we need. Now what will be some misunderstanding um if you just assume that you are you are you use since you have you come from a similar background yeah .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:14:59",
+      "text": "that is that a great question you're basically asking if you're found in team, someone into a founding team already is the user of the product. Do you still need to talk to user? I think the answer is obviously yes, in fact sometimes more so because, well, first of all, that's an assumption that your founding team has, has the is or has someone that is will be the I, C, P.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:15:20",
+      "text": "For the product. That's an assumption that may not necessarily be true, that needs to be verified. So so the first thing is you need to verify that, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:15:29",
+      "text": "I think often times like you, you assume that that you know because you use the product, then you automatically is the ICP um is very possible that you just happen to be some like someone a Jason to your actual ICP. You may a be very close, may not necessarily mean that you are the ideal customers use. You need to essentially do some kind of a search around the map to understand the spectrum of the persona of the product.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:00",
+      "text": "And then you can make a decision to say OK, who is actually, uh, I guess, the most other serve segment of the user in the space. So I guess to another way of putting IT is if you if you assume that somebody on your team, like basically URDICP, and you just feel around IT, I think you basically skip over many critical decisions that can be very risky. For example, that you assume that you know, if you feel for yourself, you will sell and you will probably become a very big company.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:32",
+      "text": "That may not necessarily be true. Even if you are the ICP. IT may turn out to be a very small market, right? And the second problem is you may, you may, you may make the mistake of assuming that you are I see people, actually, you are not, you are not the I do ICP, or there are some Better ICP out there that is more underserved.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:52",
+      "text": "And you can Better sort of them than yourself. But because you don't talk to the user, you may not discover that. So there is the question of unknown, unknown. And that's just a very dangerous thing about opinion to to make that assumption. And authority is even if your ICP like ICP is not a static concept, I think is actually uh a spectrum.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:11",
+      "text": "So uh you can be ICP, but you may end up and say the ninety five percent all of your ICP where you care, you know, certain feature really a lot, but the medium of the ICP cares something slight different. And and then at the low end, the third is present time of the ICP care something else entirely differently. So even if you're ICP, you may still make the wrong judgment about what the full spectrum of the user looks like. So嗯and .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:39",
+      "text": "and this is at .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:17:40",
+      "text": "the at the fourth problem is precisely because you believe if that you are the user，you tend to make a lot of decisions without, I guess, without being too critical about your assumptions because you're ICP, right? So you're to use the process. So oh, my great ideas work.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:00",
+      "text": "So why don't we add a dark mode to my web APP, and that's gonna make my user repay for IT. So there's lot of dangerous assumption that that I think makes you less rigorous in your thinking. Uh, so I think is a double as sword. So I think it's yes, it's good to you know to be the user of your product, but at the same time, you need to be aware of all this peacefully you can walk into, especially if you think that okay, if you use your product, you don't need to talk to other users. That is very, very generous.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:34",
+      "text": "You can you give an example uh in a dp uh case or some products or some companies you have you you have like Thomas or someone from your for finding team also come from a financial industry of so I can have you have .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:18:51",
+      "text": "you mazing some .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:52",
+      "text": "times and and .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:18:53",
+      "text": "we we make this mistake at the beginning, for example thas he's from um a hash hatch fun background. He used to work at a points seven two which is uh so called a multimillion er and he trades ATMT stocks are that could be a very different experience than somebody，for example, that invest in a banking, for example, or a commodities or oil and gas or energy sector. Uh is is a completely different experience. So is very at the time I think we we make a love extradition to be like, okay. So Thomas think that this is, you know, this idea is gna work when we make IT to say, okay, this will also work for other users and uh but all of this knowledge you can only really learn from talking to those users and then you end up spending, you know, month and months building the applications are only to maybe at the very end of IT do you start like maybe showing IT to the user and that's where things .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:04",
+      "text": "start fall apart. So so when did you start, uh, talking to a lot of users?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:20:08",
+      "text": "Yeah, that's really, I think around the time where our second idea felt a very close friend of ours, he basically get really angry at showing him a very barely built products that completely misses the market. I think that was a very sobber ing experience. So I after that experience, I think we really have like a reality check.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:30",
+      "text": "And we basically set down and think about like what is the right way to be product. I think that's the point where we start to realize that there is no blind spots in our assumptions that needs to be checked. And the only way to check ack IT is to talk to the users.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:43",
+      "text": "And afterwards, we completely flipped around when we started to really to build a real MVP。And I think there's a big difference when we people say MVP，there's a very big spectrum of how real that MVP is. You know on the one end can be a lending page.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:21:01",
+      "text": "On the other end, I could be like a quarter commitment of a full blown APP. So we really try to stick to the real spirit of an MVP, like we basically have a landing page. And then we started selling. So use, we started doing code callings and code orange and trying to sell the idea first before we build anything. So and that's so .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:21:24",
+      "text": "just a landing page.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:21:26",
+      "text": "just a landing page. You or maybe like a little concept of the the idea like I because we are selling financial models like we basically just put up a some ideas of what he looks like, but is very quick. But we have did IT over like a weekend or something. The key is to start selling. III think you don't even need a landing page like like retrospect, you probably don't even need landing.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:21:48",
+      "text": "You just need a powerpoint and some wake up and you can start selling, like start calling out people and just tell them your ideas and then you start waking your pitch, right, calling our people, try to try to get them interested in the next step first right, doing a call call. The next step is a demo, right? Try to get people from coco to sitting a zoom call with you and enduring the zoom call.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:22:17",
+      "text": "Try to get them to, you know, uh, try to get them excited. Try to get some kind of commitments, right? I get them to sign a design partnership or set some kind of commitment or try to get them to loop in their boss to hear about your idea to get some kind of positive feedback from the interactions and all of this, you don't need a product.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:22:37",
+      "text": "You you just need a tower point and just tell them an idea, uh, and you can do this like hundreds thousand of times, right? This why I think you can fill up all your counter with calls. You don't need to have a working product. The loop a is a is a investment analyst copilot, uh h is a big word. But specifically, uh, we use we have a huge database of public publicly traded companies and we use use those data to automate uh, investment analyst workflow.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:23:04",
+      "text": "Specifically, we help them with like two of their main workplace is the first one is um if you are hat phone analyst and you want to ramp coverage into a new sector or AA new set of companies, uh, we have a portal where you can access like a three thousand you publicly traded companies in the U. SA. And you can one click, you can download the data sets in the excel format or other format.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:23:32",
+      "text": "Um so ramping coverage is the first use case. The second use case is updating your coverage. Because public trade companies they disclose data。They disclose new financial data four times a year. So every quarter, they will drop earning release.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:23:49",
+      "text": "And if you are an investment analysts, you want to keep your coverage up to date, right? Uh and coverage by coverage, I basically just means that, uh, you have a set of excel files where each excel files contains all the financial data about a specific company and use those data to model out what this company will look like in the next few quarters，right? That is.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:24:17",
+      "text": "So every every investment analysis knows how to do this and they have to keep their coverage up to date. And that is that is an extremely labor intensive process. Uh, I thinks you many have fun today.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:24:29",
+      "text": "Are you reading, uh, reading the files, the followings and copy patent data, the data directly into excel. And if you have to do IT for all of the coverage，which typically like thirties of fifty tickers or companies，uh, IT is round the size of their coverage. We have a solution where like they just click one click and we automatically update a their coverage for them.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:24:54",
+      "text": "So that sounds like an HA process that hatch fund has have been doing for for the house properly decades. Why have why having been any any tools to help the automate the process?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:25:07",
+      "text": "yes. So the answer is yes. There are tools that try to do that. They're just not good enough. So they revert IT. So the user reverted back to the most reliable method, which is to read the fault themselves and copy pace in the data that is guarantee to be correct.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:25:26",
+      "text": "I think the reason that most of the uh the product out there today, they don't solve this problem well is that III think they don't fully understand the psychology of of the user. You can ask the questions like why do hash from and I still do this manually, right? And we keep asking our of these questions.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:25:47",
+      "text": "And then I think and could be because every user that we talk to, like we ask them all like gloomy, cast this function, why don't you use that right? And IT turns out that there are like first of all, the the user, they simply don't trust the data from bloomberg because when you look at the data at the bomb terminal is just a number you don't know where es from. And that gives them a lot of anxiety about, like, okay, can I trust this data? What if they screw IT up? Like, I, what if my boss find out? right? So there's a trust areas that prevents adoption, so is very hard to get the investment analysts to trust your data.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:26",
+      "text": "And how the existing product out there today, how they treat the data does not build that. First, there are many, many ways that they that, that does not build the trust with the user. So what we did on the opposite is we figure out a way that we can immediately build trust with the user.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:43",
+      "text": "And and the way that we do IT is a we record auditor feature where basically we put all the day in excel and every single number we allow them to audit directly into the source document. So uh, so that's the first thing is they can if they are not sure about data, they can click into number and they checked source and they they can look at the source following and they are they feel comfortable with our data. That's the first thing.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:08",
+      "text": "And the second thing is we displays all the data as the disclosed. So and this is another new ones about financial space that are proba, probably a lot of people don't appreciate is that the how financial data disclosed is extremely uh, non standardized other than the the gap numbers like GAAP numbers which are required by uh uh some accounting standards uh, other than that, like any other data that disclosed by company is pretty much entirely up to the company. There's no energise disclosure across companies, right? And a lot of the day of provider today is that they tried to fit those non standard data into a standard template.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:55",
+      "text": "And when you try to do that at scale, that lists a lot of data missing or inaccuracy because people don't know how do you feed this number into that specific name? So there's a lot newlands. When you try to standardize the disclosure, you will lose all those nuances.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:28:12",
+      "text": "So this is another sign decision that we made is we don't try to fit the data into a cookie cutter template we just disclosed. So this is this is another design decision that builds a lot of trust with our users is that they can trust that our data is exactly what they would see from the following. So we are not trying to give them like you know a templates of all the you know line items that is disclosed by the companies.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:28:39",
+      "text": "How many companies have have trusted you like jail without us like where um where you are in terms of you are in terms of characters um after a three five .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:28:50",
+      "text": "years after building yeah um pretty much like every hash funds that you may have heard of or the audience have heard of is our customer today um so you mention that .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:02",
+      "text": "this is not your this is your first idea. When do you when do you feel like open this idea is is .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:29:09",
+      "text": "the right one yep yeah um a lot of this is room by user feedback. Basically we we have an idea and then we start we will add the idea into our pitch, uh, and then we talk to users, uh, we try to get some feedback g about IT. And I will quickly build build that into our product.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:28",
+      "text": "And we try to short users, uh, and then we try to collect feedback s and uh, that's how we can typically get validation. In fact, that's actually uh, very often, often the case where they feel very passionate about product and they feel like this key feature is missing. And really, we wanted us to build IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:45",
+      "text": "And when we see that across like uh particular segments of the user, uh, then we we will start incorporating IT. So is is kind of like this to uh to strategies where we we push our ideas to users and that we the user try to pull ideas out of us. Uh and that h that that I didn't drives the lobby pivots and what .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:06",
+      "text": "was some some feedback idea they got from from the users that that really gave you the confidence to double down on on on this past?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:30:15",
+      "text": "Um I think in general, we try to look for data driven feedback s where basically you want to see a pattern as emerging across uh, a specific segment of the user. Um and this is why is very important to have a large volume of feedback. And then you can start to kind of understand a signal from the noise，uh, if, for example, if a particular problem that has been articulated by one user that, you know, the pattern has been repeated across several users of the same kind of profile and the reason that they have the problem like kind of make sense to you, right, then it's it's become a much easier call to make. Um so I think it's very important to have like to collect ough data from the users and the data can be quality like sometimes .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:07",
+      "text": "is IT is .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:31:08",
+      "text": "quantity. A lot of feedback is like all this user like you wanted this feature, right? And you can always stick deeper and you ask why they want to use this feature. But then if you see a patent across several users of very similar profile, that tend to mean something right, that is one thing. Uh and also Better way is why like founders doing doing sales uh yourself is is extremely important is you start to be able to calibrate the kind of feedback that you get from the user relative to the probability of closing the deal because the user is gone to give you a lot of ideas and but not all the ideas is gonna help you close the deal because you are doing sales.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:47",
+      "text": "Uh, for example, you start giving the you you you start to notice, like for example, when you have this feature, your deals become much easier to close right then that means if this is something that is is a key pain point for the use and this is some kind of message that resonate with the user and then that's where you would double down and make their features really, really powerful, uh, for for your user, right? So I would a lot of IT is quality tail like this really is like digging deep into like how they react to your product, right? Do they have a strong positive you know feedback for like AA specific feature, right? If they for example, if they tell you that you wanted, they want that feature and you you quickly build IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:32:29",
+      "text": "Do they does that make IT easier to close the deal right today start? Like, does the deal move forward? Why do they start bringing in their boss, right? Do they start in lobby the gayley pers like the IT, the legals, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:32:45",
+      "text": "Do they feel more active in moving to deal along? right? And over time, when you have a lot of that that data, you start to understand OK what teachers, user and and that's how how we would hear to words like the pivots.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:00",
+      "text": "Interesting because most of the user interviews are very like you say a very uh, qualified right. Like how do you use a data driven approach to do? How do you design the the user the user interview your questions. I tell tell us more about your your approach. How do you make IT?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:33:16",
+      "text": "That's a great question. Um I think having a rigged a rigorously design interview questions that is helpful. This is slightly control and take, but I think numbers is probably more important than uh like how carefully craft that those questions are the number of interactions, that the pure volume of interactions that's why because I am like more like a data science background, so so I am biased, was having lots of data to work with so uh but but obviously well design research questions tend to get more signals out of the users.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:51",
+      "text": "Uh, that is obviously true, but I would prefer you know having a large number of users to work with first. Uh, I do only you want to have both. I think different. II have seen like different founders like going to interviews, talk about different numbers. I don't think there's there's a magical number, but you should have enough of the data where you can build conviction around the team to act like your team couldn't have. Like a lot internal debate about where what is the right feature or what what is right direction to private to because if you have disagreements like that, that means your data is insufficient of us.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:34:27",
+      "text": "of us early days. Like do you we have a lot .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:34:30",
+      "text": "of arguments. And I think one inventory is because we we just don't have that much feedback from the users to to settle those arguments. And IT doesn't really take that money if like if you have ten users that's like basic giving you the same feedback that you are missing a very critical function finalities, that's probably enough. But but in general, II think you you should get enough data point to to build conviction in your team like everybody should be alive that okay, this is clearly an city and wish go there so now you have .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:35:02",
+      "text": "finished you are um you have done a lot of user use interviews that you know this is the idea to this a path to to go after um what was your was the new pass of MVP? How do you design your your MVP as you mentioned before, right? Like you don't want to, you have find that baLance the MV should be able to show where product is able but don't want to find a love time to make IT so much more than MVP. And I think this question is is especially um import in the like context because like you are facing customer, facing a ancient financial industry, right? Like this is a very .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:35:40",
+      "text": "demanding category OK. Yeah, why do I start with how uh did we find our first sign attraction after like our second idea felt where like the second idea being the kind of a falling reader，uh, AIO sister falling reader, uh, we we started to really looking at our property building process like trying to a trying to rethink how we think of a product fundamental.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:09",
+      "text": "And II try to think about the positive emotions that our users have shown during during our course, uh, even though at the time we we have a really talk to that many customers, I think probably like maybe five to ten users, like we already one year into the start of journey, we are only five ten users. Big mistake. But I tried to remember like the kind of positive interactions we have with with users, the user that we I have seen, they react very positively to two things.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:40",
+      "text": "Well, maybe three things are. The first thing is they like the audit ability feature so that we have so they lah when we show them that, oh, you can click into this number, the sort source document, in a very easy way. They love them.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:56",
+      "text": "So that is one. The other thing is they d like to use excel. We are our first product is a very web heavy product.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:04",
+      "text": "We show them the web, the web APP and they got confused. They don't know how to use IT. And uh, basically the conversation we didn't really have any didn't didn't really lead to anywhere.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:15",
+      "text": "But I love excel. So that's the second thing we know, we know. And the third thing is they want to check the data and they want to see the data as they are disclosed.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:24",
+      "text": "And when you try to fit the data into some other template, you tend to get we have to get a lot of questions around, okay, what exactly is this data? So they're very careful about how data is presented. So this those are three things that we know.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:39",
+      "text": "And a question is how can we design a product that kind of around these three things that we know. So that's kind of these your offers MVP where like okay ay, why don't we just put all the numbers as they are reported in excel, whatever number that they can click into and audit like very simple idea, nothing fancy. Why do we just do that? So we basically collect all the positive moments that we have seen and treasure, like put into a product as simple as possible.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:38:05",
+      "text": "Take away all the balls and isles of like, uh, web UI or like that how you are whatever, like an excel extension, just just to give them the pure experience that they want. So we try that are like, I think I remember one eyes like Daniel and I, but I were a hack away. We just put, put, put a simple model together.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:38:24",
+      "text": "I remember first single is that I show you to Thomas. And Thomas has a very visual and strong reaction to that idea. Like, he was like, I remember his, like, holy ship, this is so cool. This is first reaction. So I take that a data and then immediately what we decided to do is um I start sharing with my friends and in similarly, we get some pretty different reactions like people I think all this so cool. Uh, I love this idea, while previously is kind of mediocre, can look more.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:38:57",
+      "text": "And then I remember very clearly, and inserting that we did is we decided to so time I decided to share that uh file啊into a new york and group but is a mounting list we share to everyone and just tell them that，hey, we are building this. You know, I checked this out. This is a very simple financial model.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:16",
+      "text": "H, free to play round with IT. And once we sent IT out, I think right of way. I think within an hour we receive a ton of feedback.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:25",
+      "text": "S, and there are people asking to talk to us and we actually agree to talk to talk to a one of the analyst and and he was like, hey, how much does this cost and our first reaction was, uh, you can actually you using for free like we give IT to and then SHE was like, no, no, no, II was asking, like, I think you guys can sell this as a product and you guys can probably charge like thousands of those for this. So that's how we realize that like the first sign attraction start out there. So that's what we realized, that we problem onto something.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:00",
+      "text": "And I were very quickly you build out like or the infrastructure uh layer to to make to to scale that. Uh but initially we don't have that many uh that many models. We only have like I think I feel like sixty companies, uh, that's not sufficient for a long time in our company is we don't have a sufficient coverage because is actually quite hard to to build all those models out.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:24",
+      "text": "So do you need to build a model for every company by by yourself?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:40:29",
+      "text": "Um most of the most of the building happens automatically, but but yes, you there there is a human layer to like to find to do the final creation of the dataset. Um so is actually quite expensive to build IT number feedback that we got at the time was uh just not enough coverage, so not enough companies on the list.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:50",
+      "text": "We only have sixty like we thought that is enough for like for a very sector specific uh analyst like maybe the TMT analyst, that's probably to be enough. But what what keep us going was that we know that people, we are very strongly to this idea. We just need to ramp up the coverage. And that's tty much like how we spend our serious money is to ramp .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:13",
+      "text": "up the coverage about the the product I love is a combination of automation and uh, a menu and menu work right when they are design an AIAIG product like only one hand you wanted to show, only one hand you to show the magic of having AI do you think kally automatically. On the other hand, when you show something out that that still needs to be done like a manually, uh, how do I devalue IT, right?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:41:37",
+      "text": "Like how scalable this is, like when this like menu process can be fully automate, that you do need to spend of, uh, a little resources in in building for for every，for every courage. That sounds like a lot of work, yes. So like well some well some doesn't fend like from building that AI and human uh .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:41:57",
+      "text": "and human loop like on product yeah um I have like a sliding contrary and take care uh which is I think there's a lot of opportunities that lies exactly between AI and human Operations uh that tend to because it's precisely because it's hard is very hard to uh to make human work effectively AI and and vice versa.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:25",
+      "text": "Uh if if if the problem can be solved pure AI you probably will have a lot of competition, uh, because somebody will figure that out that probably doesn't bear than anybody else. And that person or that company will will take all the market. Uh, but if there's a problem can be solved by pure human, that is not a very good business, right? You are basically running a business business.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:50",
+      "text": "But if you find some sweet spot in between where you have you have a love, AI, but also humans, the humans component kind of of improves on the AI. And the AI improves on the human service and and make the human more scalable. Like combined, you can actually go after, uh, uh, you can be very competitive, the market, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:19",
+      "text": "You can beat the pure human solution with with scale and maybe quality. You can beat you can also beat the pure AI solution with Better quality because you have a human component in IT. You can you can go after harder problems.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:31",
+      "text": "So I think that a very good fight to be in, precisely because this is hot to to get this to work like this is where I think there are. There are opportunities for startups if you can start building a mote around like really hard problems. So and and obviously, you can have a great AI and uh you you find some kind of nh problem and that can be good business as well.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:52",
+      "text": "But I think for us, uh and the other day, our customers don't care about we have the iron night, right? They only care whether we solve the problem for them, right? Do we have a good enough product for them and and do they find a compelling right? And that's what we try to do.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:06",
+      "text": "Um II like to say that like the loop out, we don't really have an AI strategy. I think that just a very overused term. What we have is a customer strategy, right? We solve problem for our customers.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:19",
+      "text": "I think that every day one matters like AI is AI matters to the extend that he solves problems for our customers, right? Anything more than that is you're probably just trying to get attention that you probably don't deserve, right? So and that is how how we think about ai.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:39",
+      "text": "So in the case of, of the plus s product that we will need the that number to be very accurate, some your chAllenges version product, some menu and labor intense of process that you were able to automate through the process.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:44:59",
+      "text": "yeah. So II think the process analogy that I can think of is that are the looper back and is very much like uh, that of a self driving car, right? Because the use case is actually very similar, like mission critical data, mission critical deployment of AI right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:45:14",
+      "text": "Similarly, we don't want to get like errors out. We want to control the quality. We want a data to be accurate.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:45:20",
+      "text": "We wanted to be comprehensive and we wanted to be fast. So very, very high bar. So similar to self driving car are back in is running autonomously most of the time. But there will be a lot of edge cases where IT will just basically, you know you need to switch over to human uh，judgment like is if if a self driving car you know going into a very unseen territory and IT gets stuck IT like IT doesn't know how to unstuck itself, then you would you would have a tally Operator somewhere, uh or have a human driver in the car to actually navigate the car out of the situation. And also very similar to self driving with your long tail.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:46:08",
+      "text": "H case is extremely a extreme, complicated and is always the hard thing of our AI is always how you deal with those long tail edge cases because by definition, those h cases is very rare in your training data, right? And training and AI is still, at least today, AI is not very good at, you know, are dealing with unseen situation. So how we use AI today is basically anything that is petite uh, menu review u and repetitive can be more or less automated.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:46:48",
+      "text": "But there's always new situation that you need humans to take a look at IT, right? And that's how the human comes in. And that's also how, you know we can get to a very high uh high accuracy for uh for our users to convert for .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:47:03",
+      "text": "every for every company to convert their own document uh into the model that the that they were their customers are are using. But every but every um hatch from right their model is different in their model they also incorporate a lot like da outside the the the financial report. How how do you make sure that all of you attempted your converter works for all kinds of model that your .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:47:31",
+      "text": "customer yeah so and obviously different companies and people more differently。And but but there are some commonalities across like most of the use cases like the for example, everybody will treat revenue the same way or or basically that the more basic numbers uh um tend to to get treated very similarly. Um so that one there's there's there's commonalities.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:47:58",
+      "text": "The product design question is how can you provide a general experience for the user uh and yet allow them to build up a layer of customization on top without that being to. Uh intrusive to their workflow, right? So uh, we actually have a well, we call a smart plug in, but we have a plug in for our users in excel where are basically we can scan over their models and convert their models into into a way that can work with our data。So that happens pretty seamlessly today.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:48:32",
+      "text": "Uh, it's basically a few clicks uh, and which you would just work. And once you do that at the next time and learning comes, they can just click uh a bottom again and you will updated automatically. And I will all the while maintained the formats of the original model.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:48:47",
+      "text": "So and this is something that we learn from our user, is that they are very, very particular about how day model, like down to the the front size, uh, how they lay out the numbers and the front size，the the front colors and and and those details uh, like that. So and we are able to preserve every single formatting requirements uh of the model. And that's that's very.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:49:18",
+      "text": "very important for our users. Your customers are like cash flow and financial in the financial directly. In most cases, they they required zing and only days. Yeah how do you baLance the ization and uh, the needs of a customization and also finalization that you want to build into your product?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:49:39",
+      "text": "I have a very good questions. Are a lot of companies B2Be companies will run into IT at some point in their life. Uh, but at at some point, I think the team would have to to come around and build some kind of alignment s on what is to to build and what to push back on。And A.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:50:02",
+      "text": "There's there's very no magic bullet to this problem. I think at you just have to make a very data driven decision on basically what custom request feature requirements can actually be applied to the other segment of your users. You have to understand that how do you build a conviction is you need to know very intimately about every single use case that your customer have, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:50:30",
+      "text": "There are like a all the time the customer request, the customer request from the users can actually scale to other users, and that is a good features to add. But there are times where the requirement is too specific, right? That is basically basically similar to a consulting job than you know in the product improvement. And in that case, you need to have the the kind of abilities to push back on their customers. And and this is a very a very common beautiful for allow uh B2Be companies I think initially like they want to get revenue so they say yes to every single request and over time to become a consultancy for that big customer.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:51:13",
+      "text": "Um how is the fact how you pick your your early customers and do you recommend to start from uh from the like a middle market like where uh instead of like going this going on to get like the biggest logo or like fortune five hundred in the beginning .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:51:29",
+      "text": "to get fortune and five hundred like from the very beginning, I think that just very hard, I think is not really a choice. But most company would just start out from smaller like SM, B companies or middle market companies are. I think it's it's not really up to them.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:51:46",
+      "text": "Like unless okay, maybe II maybe missing out some start especially around vertical sales。It's it's generally easier to start around SMBS or middle Marks where you and you want to be insanely focus on one particular pain point from the user，where ideally you are able to. And this is really that the key of founding team is to to pinpoint that specific pinpoint.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:52:18",
+      "text": "And the pinpoint has to be so painful that, you know, once you have a good enough solution, they would pay for IT. In fact, they should be more than be able to pay for. They are willing to prepare for your solution ideally. Uh, and then you want to build your product around that pain point first.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:52:38",
+      "text": "So as not as you stay very focused on that pain point and you have a very intimate understanding of that pinpoint and a user journey, then hopefully you wouldn't be distracted by other like bigger companies that comes around and ask you to develop developed for requirement X, Y, N, Z. I think IT comes down to a matter of focus. 嗯嗯，it's actually hard at the beginning because you don't have that much revenue.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:53:06",
+      "text": "So when somebody bigger comes along and tell you gonna give you a big contract if you solve X, Y, Z problem for them, but that is very different for your robot, that's where that decision becomes really hard, right? I think that would what would make that decision easier is to have a really good understanding of the landscape that you are trying to go after. If you can say reliably that, okay, if I solve this, my core problem, the problem that I want to solve, I can go after like, uh, maybe a hundred million dollars of opportunity, whether this customer is give me a hundred thousand dollars right now for feature X, Z that are completely unrelated. If you have conviction in your hundred million or assessment, then that will make IT easier for you to say no. If you if you're just going around and trying to chase revenue and you don't really have like a firm conviction about what market segment you are trying to sell for, that is much easier for your entirety into fall to the hundred thousand dollars contract.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:54:04",
+      "text": "You want to be very focused and you probably are from a very a very simple product rape. How do you know like how big this can be when you start with a very simple product, right? Do you begin to know like what a what's your role map was?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:54:16",
+      "text": "A future product portfolio might look like very version of the product. IT looks very simple. It's it's just a tall and how do you think about how big this been early? Yeah your early days early days of developer.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:54:29",
+      "text": "How do you think about cam or market sizing? Um I think to rigorously answer that question, uh, especially as a founder, IT is very, very important to do founders that cells so basically founders have to do selves yourself because you need to understand the kind of customer楼房，like what kind of value proposition is your users willing to pay for. This is actually a very hard question to get right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:03",
+      "text": "And I have seen a lot of entrepreneurs today um trying to raise their first round of funding. They promise a very big time number and often time those number is not very accurate because they haven't really started going through the sales process themselves and they don't really understand like what uh, there are a lot of assumption being made behind the market sizing, uh, calculation that are just that generally not very accurate. And I don't have a scientific way to to come and come down to this number.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:38",
+      "text": "But I think like maybe the founding teams should try to close like maybe a couple hundred thousand dollars of deals to a million doors of deals to to to to understand the user, right? Once you see, for example, when you close a million dollars of, uh, revenue, let's suppose like most the company, like maybe thirty percent or fifty percent is just contract work, is is consulting. You can be PPT away. Uh, the other fifty percent, like five hundred thousand dollars is real SaaS revenue that is coming from a repeat, uh, ICP. Right then you can started asking questions.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:56:11",
+      "text": "So okay, off the five hundred thousand of revenue, uh, like what is your average contract size? And what does that user does willing to pay for twenty thousand dollars looks like and hopefully you have a very intimate understanding of that user like maybe you know the user, you know, uh typical ally work at, you know, uh a middle middle market company in this specific vertical and he typically experience like X, Y, N, Z pain points and he has budget of this much and and then you can start counting just how many users are there similar to to to to this guy that you have identified, right? And you should have like once you you can do that, you have a lot more rigorous assessment of the market.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:56:56",
+      "text": "And then that's the first question. The second question is how many other similar needs can you move a Jason to that for a market? And that，that estimate probably is a lot more hand wave because you haven't really sold to the address the market. So you have to make some risk assumption where, okay, like if I take over this market, I can also take over the adjacent market. That is a big jump because that your competition is different, your pain point is different and likely your go to market motion is also gonna very different. So so that that assessment, I think I would put more air risk to IT, but you need to run a repeatable sales motion to a core ICP over like a sufficient number of deals in order to come up with a reliable market sizing estimates is you cannot just like hand wave VE and just maybe with some uh machines report uh to come up with that number. Is is that very, very dangerous?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:54",
+      "text": "Do you have been building on developed for for a couple of years besides increasing the number of courage? Like how has the proof evolve .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:58:02",
+      "text": "our data because this is publicly available data. So oh uh, the data should be keep updated every four times a year, every quarter, right? And two years ago, he took us about twenty four hours to update a any given specific companies.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:58:19",
+      "text": "Today, we can do most of the updates a mostly autonomously with in five minutes. And that is because our investment in AI and automation uh and and this really matters for our user. They want to get data quickly. Uh, and we just spend every single resource we have to become like the fastest uh, companies, you know, to deliver the data to our users hand at the same time without sacrifice and accuracy. And this is where I believe this the the real edge that AI has given us is over, for example, a pure human collection strategy reform for financial data。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:00",
+      "text": "Going back to go to market question, the financial finances, industry needs a lot trust to to to adopt a new a new to so what's the the sales process look like for a financial .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:59:14",
+      "text": "so you're exactly right. I think the financial uh industry IT works uh, very much based on trust. Any any ways that you can establish the trust will help uh, in the go to market motion and the trust can be uh sometimes is as easy as like just having an insane ny good products and that having some other people as some other users that recommends to his or her uh coworkers. So one of mouth is is an instantiated powerful um uh a go to market strategy.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:49",
+      "text": "So we we invest a lot in product and they have been said, do you have a very traditional a sales motion where you know we do so calling um and then we have a lot like email ing and typically how we established a trusses, for example, uh trying to get uh or users of of our products in a similar firm to to recommend to their other co workers have seen seen their core workers have used the product and having good words to say about IT. I think that's a very powerful motivator. Um and and also sometimes it's just been the market long enough and not and consistent.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:00:32",
+      "text": "Delivering that just creates uh a sudden trust effect. We have seen a lot of users like this come back to us like maybe have say no in the fight two, three years ago. We have seen a lot of that. They know that we are a very small company like basically have didn't really have like a real product. And and now we have a very powful swith product like they know that we make progress and they have seen our names over years and that also created trust.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:01",
+      "text": "So a lot of the time, gold market is to find ways to leverage that trust and how to like maybe how to amplify the trust that our existing user have to like to to the other users uh and trying to create a community where they can, you know share their feedback directly with each other rather than we come from us because people won't really believe you until they have tried IT themselves or they have seen their friends using IT, right? So IT is all effort that goes into that. A lot of the pretrail tional marketing approach is to work.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:34",
+      "text": "Uh, for example, we recently just launch a podcast, uh, a small clock here is is got in the loop, uh, INDALOOP. That's also like a way to build community with our users, right? And and the the content of the podcast are really like having my prompter Thomas like just interviewing a bunch of up like pretty interesting uh, patch fine, you know managers that is also the product of user show that we really understand the problem sometimes create also a trust effects like from our users because if we don't understand your pain point is very unlikely that they would believe that we can solve their problems for right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:17",
+      "text": "And we we will want to demonstrate that we understand their problem, right? Uh, I think that is AA very constant theme of of the the product department philosophy is is really get all the details right and that's very important like and is need to say that all the problem is very simple. I just get the data and put into a file and ship to users.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:35",
+      "text": "But how the data is used matters a lot and how the data is presented matters lot because like there's a small things that is trivial, seems trivial from outsiders s point of view. IT matters a lot for uh for the users. And I think that's where like how we can succeed this market is, is to get all the details right. And that also .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:57",
+      "text": "create the PL, G, A product like growth motion also work for financial industry? Or or does that work Better to go from top down?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:03:05",
+      "text": "I think PLG will still has his place um as as I like a core playbook for sales company ies uh but I think the PLG for the lupa is gonna be very different uh than APLG strategy for，for example, like AA death tour company, right? Because just the user journey is just completely different. Like if you are engineer, uh you are probably constantly searching for Better toolls to improve your productivity.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:03:33",
+      "text": "So you care a lot about um maybe open source tools, you care a lot about and you are very active in reddit. But for finance is a more traditional uh industry Operates based on trust and connections and people are generally not very you know public about their ideas and they definitely don't search on the internet the all the time to find Better toolls. So the user habit is just completely different.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:04:09",
+      "text": "So your RPO gy tragedy has to to to recognize that fact and IT probably not you know that is not gonna be you know of a premium model, for example. If so, that's what we don't do, right? Maybe freeman model will work pretty well for adapt tools because like developers long tried up first, right, or open sourcing IT tried out the free version first.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:04:34",
+      "text": "But we do have elements of P, L, G that is working, for example, to to basically provide some value up front to the user, to basically let them play around with the product and get the value proposition first. That will make ourselves conversation much easier. So that part I think is still valid. But ah but we we have a slightly different take on on P, LG.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:04:54",
+      "text": "You you still I promote the the product among a among bia, the analyst group, but eventually is still is still like more traditional like enterprise sales.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:05:05",
+      "text": "Um yeah so IT IT depends uh because today we are working with different organizations. Uh we are banks, we have equity research uh the the equity research part of banks uh and we have hash funds and we have different title hash funds，big big muli managers and their smaller like uh longer or penway offices um so IT so IT varies uh but in general are on the byline. Especially for hatch funds decision tend ds to get made a lot quicker and you just need to demonstrate value to the analyst, to the end user themselves and is pretty easy to convince uh someone hire up to to buy uh but for banks is is a completely different uh categories where I think the disruption process is not involved and um that that's where like AA more in you know uh a more involved enterprise process is uh is deployed there uh in the .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:04",
+      "text": "begin is found their self. But now I assume that you really have a team of salespeople. So I think that's also uh, a process that a lot of like the other companies need to go. So I can share with us more about the process. Like when do you a when do you have your first Steve higher and now like company help the self team like how like hiring for the the ten twenty cells are different from hiring your a first source second soul.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:06:30",
+      "text": "Yeah so I think we have around like ten tenison uh a ae account executives today。Uh we have an output sales higher around twenty like middle of twenty twenty one.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:46",
+      "text": "Do we hire the cells? Uh, do we hired after sales high too quickly? Well, I guess for Better for words like twenty, twenty one is is a very different era where a lot of companies can raise money very easily and and consequently, uh AA lot of sales higher, AA lot come to make their sales higher too, too early in my opinion.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:12",
+      "text": "I when I reflect on this, I think maybe, uh, we are duty of the mistake, uh, but I think the kind of saving Grace is that AI think especially our head of sales today, reve, he is an incredible sales person and he had a tremendous amount of experience in the start up space. And oh and by the way, he's not our first out higher. But when he joined, you really runs a very tightly roundness.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:40",
+      "text": "He has very strong discipline in the sense that he we he did not over hire sales people ahead of uh, the product readiness and is something that I had learned from brief is that uh uh a economy stake for for B2B as companies when they raise money, you know, there are some signs of product market fit. They start hiring a sales team and if they're not careful, is very easy to prey scale yourself team. And then what happened afterwards is when you have too many sales guys, uh, at some point they realized that the product is not selling and and in the second mistake will start to compound where maybe the exacting teams start to think that, okay, maybe is not the product problem, is the sales guys problem.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:08:28",
+      "text": "And then that's when like the the cells, the head of cells or DP of cells get fired and and to try replace another one, that kind of prolonged a mistake. So another guy comes in, another six month year went by, still didn't really saw IT, couldn't really saw IT. So like depending on how different company trees IT, but then like this this drama can last several years uh until they realize that the product is is the you know the product is not ready.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:08:57",
+      "text": "So we are Lucy, that we didn't have that problem. Um so I think when reeve came in, he's very element that okay, we need to prove out the concept first is a little bit too early at a time in two one one which is which IT is indeed too early. We don't really have a working product yet.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:14",
+      "text": "We just have a concept even though people can't like the concept. Uh but it's is a question mark that they would be, for example, they would be consistently buying IT and after they bought IT are gonna consistently using IT and then whether they would renew IT consistently. So those questions are still a big question.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:31",
+      "text": "Look at the time. So he kept the cell of alien until we prove out all of this and that we start adding up, uh, scaling up the self team. So we were lucky that we avoided that. And when when do .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:44",
+      "text": "you think you be the a good timing to hire the first cells and you mention that reef is a very experience cells leader，yeah didn't you your first sales higher to be your self cells leader or yeah or a more like hands on cells dually?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:10:03",
+      "text": "Um you would want to delete that to to basically after product market fit, ideally like after you have overwhelming evidence that you have product market fit. I think that as a experience founders should do is especially in a world where interest is five percent and funding is much harder to come by, you definitely wanted be doing funder let selves to close like maybe your first minute dose of contract.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:10:30",
+      "text": "You want to that first and then you want to. And then not only that, like you want to make sure that one million dollars is like real service revenue, that is from a repeatedly buyer, repeatable ICP, that you have confidence that you can consistently sell into. And he cannot be just like cobble together a bunch of like the software development contracts uh that that wouldn't cut IT right and you want you want to show that first and then you bring yourselves higher to um to scale yourselves him a rise control way to to scale yourselves. But if you get IT too early, IT can be be very.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:11:08",
+      "text": "very generous. What are you looking? Where should the funder look for uh in in your first sale?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:11:15",
+      "text": "Yeah I think I have read somewhere there are people that saying maybe the first sales guy is a very strong, uh, very strong account executive that had so similar product in the space before and he wants to he's very hungry and he he or SHE may want to take a more responsibility. So I think that would be a good personal, not basically, uh, basically you, the founders close the first million and and the founder high two or one to two more a es to close the the second million in the thirty million dollars. And then at that time, you can complete, provide your hypotheses and then you can bring some kind of a more senior, uh, head of cells to scale the self.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:11:58",
+      "text": "What do IT happen if you hire ourselves too early?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:12:01",
+      "text": "yeah. So a couple of things will happen. And we are duty of the same mistake, uh, is that when you have a higher personnel, if you have the wrong higher or you higher too too early, uh, typically the cells are the AE, they would realize that your product is not selling and because most of the a most of the compensation come from selling the product, they will just leave right? Um if you have one or two of the AE two early is is still manageable.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:12:30",
+      "text": "But if you your product does not sell and you have like ten, twenty AE sitting around and they cannot close deals, you will have a big you know turn problem on your hand because the negative emotion is going to spread uh and he probably gona spread more than I just a sales team right is gonna fect everybody and you you probably have to do some painful adjustment. So you want you don't want to do with that. Um and also the expectation is just different that when most of the most of the AE, they are used to sell in an existing product that have an existing playbook that they can follow for early stage startups.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:13:12",
+      "text": "Uh you you really want to hire correctly where there people who love. Like to deal with uncertainty, to come up with the to write the playbook rather than following the player。And that, that actually relies completely different school set. So I would be looking for people who have so much so similar product into the similar space and people who have experience track record, like creating the playbook, right? That would be a much, if that stronger, higher for that particular stage.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:13:47",
+      "text": "And that's a very different skill, right? For a top cells. Not necessarily good at building AA self team and making in the machine .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:13:55",
+      "text": "yeah exactly right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:13:58",
+      "text": "Definitely in to market. Do you have any other advice for for the first time, uh for the first time, entrepreneurs, especially those coming from the chicken cup background and the company .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:14:09",
+      "text": "yeah I will come back to my uh, contrarian viewpoint where I would just say especially for technical founders um. Try not to write code, keep keep the development of a varian minimum until you have conviction around like a core pin point, uh for your user, until you have the clarity about your ICP. And and I strongly believe technical founder should do sales as well at the beginning because you don't have that many people in your finding him. Typically two or three guys right so if i'm tanning go pounder um today, maybe if I do, I start a new company today I would spend eight hours a day in a day, nine to five doing sales and in our right co at night doesn't .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:00",
+      "text": "see he o also only to .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:15:02",
+      "text": "that everybody should do sales during the night of five hours. Uh, so that's nine to five, one to friday. That's where most of your customers are, are online. And next, that is a very measures to block.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:16",
+      "text": "You should prioritize that for talking to users, not to write code because if I think for most of the start up today, the real the risk is not technical risk right on unless you you are maybe building rockets or something. Uh, no, but but you are are just building software is start up like the real rise is not technical risk. The real rise is your building the wrong thing, or you are going after wrong customer or you are going after the less optimal customers.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:42",
+      "text": "That is a very big real risk. Most I think most, most company failed because they cannot find the right market for their product, not because they cannot like, you know, implement a specific future. So you should your your strategy should should always according to to your risk, right? So you should prioritize.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:16:00",
+      "text": "Do you risking you go to market with first, then you come back to your development? I think it's very important to write code. And maybe maybe III maybe rephrase that a little bit. Tried not to right code during nine to five with day you 3个字，you should have your kind of feel full of your calls with your customer.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:16:20",
+      "text": "I'm curious, like SACTO, uh, how how does that change your how you build product or how you do your work as ACTO when we start .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:16:29",
+      "text": "the company? I why I also went out there and do co cause and do demos. And I think that is tremendously valuable for proof development because I really help you recollect ate your understanding of the user, I think is very different for engineers just sitting in a room and getting handed over a set of requirements to implement right versus the engineer showing your product to the user, showing or pitching your idea to the users and getting direct feedback from the users.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:03",
+      "text": "Because there are so much that is lost behind that product specification, are so much like you, you are missing the kind of change in tonal when the user, you know, talk about their their problems, right? You they also, you are missing out all the slight changes in in their choice of words or their emotions. And those are actually very powerful signals.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:25",
+      "text": "And you, anna, be able to like you want to see their city in real time and that will help you to uh to partied like your product features. So this is why I think like even for technical funders like day, II think it's common. I think it's a very dangerous mistake to think that my, my only job is the right code.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:46",
+      "text": "And I would argue that he really is not the your first job is to understand the user, to build a very connection with the user. And you should be so deep that you you actually remember or you can feel the kind of pain that your user is going through. You should you should have a deep, deep understanding of, like all the social, personal or organizational context of the workflow that you are trying to.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:18:12",
+      "text": "Software, right, is not only their personal experience, but also, you know like how does this problem affects for examples, affect the user and and the users box perception of the user, right? Do they worry like, for example, like if they don't do this job well, like do they worry like they have a lot pressure from their boss to do this? Like highly accurate, right? What is the cost of mistake, right? Are they trying to like in this really how much does this value problem matters to them that IT is material to uh to your user trying to achieve whatever they wanted achieve in your career?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:18:51",
+      "text": "I think that's a that's a great of the vice. I think every taking come from this should have to lay this into this um so you have pass their face like the zero on face so so girls like, so how big is to a team now and how so as a team girls, how do you still keep yourself and still very close to to to a customer嗯and what and how do you baLance your time and now that you have grown to a to a later stage？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:19:15",
+      "text": "Yeah so um so obviously right now I think my me focus is trying to scale the team.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:19:20",
+      "text": "And I think one of my main objection right now is how can we scale all a high performance team, right? Or how can we scale a team that you know that becomes high performance but rather than you know tending towards average? And that's very important because I think what I notice is as as you scale, in fact, any team you hire law people, the average calibre of the people tend towards average.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:19:46",
+      "text": "So there's a mean reversion of your talent density as you you scale the team. And I think that's a very dangerous thing. And so I have been talking about a lot ways how to fight for that, fight against that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:20:03",
+      "text": "And so I spent a lot of time like really thinking about, you know, how to motivate people um how can we hire Better? How can we motivate Better, right? And how how can we align the companies and objectives Better with uh all the the personal uh aspirations of every single engineers on the team，right? And also how can we identify Better, like identify all the places where the engineers struggles that right, like some engineered like structure ad, maybe with like understanding the technical basics, some engineers jobs at like maybe a taking initiatives and啊being proactive in communications and in driving project。So IT actually requires very like for a management level, I think requires a very fine Green understanding of what the engineers is going through and and and how to make that a process, right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:21:01",
+      "text": "How do you scale about and regarding how do I stay post to the user? Um so first of all, we have a very like a fantastic header product. And I mean we recently just hire him um so he is going to really help us like implement a very, I think, robust framework to surface to capture all the signals from the users and help us paradise.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:21:30",
+      "text": "And another thing that I like to do personally is, uh all of our sales calls are recorded uh uh on a on a company uh on the application call a gone gone to IO so I would watch those cause uh watching those cause and definitely sometimes talking to users and are talking to sales are RAS talking to sales and talking to customer success um what the stick pictures like issue that goes to connect the dots like facing the same problem, you should be able to find some patterns between what sells your sales guys tells you or what your customer success, uh, folks are telling you. There should be a pattern and that's how what you kind of can see how the the you know the user is going through. Um yeah so that's I guess that my two main uh uh obsession right now um .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:22:25",
+      "text": "that's something very helpful. Uh also in an interview you mention that you uh daloa has AA cross country nova cross the an international team. Can you share with us a little bit more about like um what's the team to sha look like and how do you how do you manage to cross different uh different locations? Because I feel like this I distort distributed IT workforce like something attract tip but definitely can bring some chAllenges like what else in that sense you you learn SE you like to share.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:22:55",
+      "text": "Uh I think first all I think we are a strong believer in um having a distributed worker force. We are probably has a lot more conviction or remote work than most of the companies today. Um I think companies that reject remote work really misses out on the amount of talent that is out there.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:17",
+      "text": "And every day, II show up to work and I really find a lot of great pride in that. I able to find really amazing people all over the world. I much rather try to find, like, the best people everywhere. So that would dramatically increase the kind of amount talent pool that we can have access to rather than locally from in willing to adjust how we Operate as a company. Remote, there are chAllenges, but I think we have a very good playbook to address those changes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:48",
+      "text": "For example, I think one of the most common push back for remote work is that the lack of, like people feel lose of control and especially the manager feel that, oh, there is a suspicion that they are not doing work啊is your your team，your are reports are just not doing work. So that needs a very unconstructive behavior. Like for example, you there are some managers uh that likes to constantly check on the status of the employee.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:15",
+      "text": "So essentially managing presence. I did a question with that. We should ask ourself as like managers of the company is what reading matter for the business or is this outcomes?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:26",
+      "text": "Because if you if you manage presence, you would get present. But if you try to lock the number of hours people show up to work, you would get that. But does that really mean performance? Does that really mean getting the results that you want to get? So we don't do that. And I think that is to my greatly relief. I and I honestly, I dodge, don't believe like constantly checking whether people the presence is a good idea and that actually applies to whether they are in office or outside or remote, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:56",
+      "text": "If you feel if you are a manager of a team and you feel that you feel have a lot more comfortable seeing their people coming into the office，and you feel that you are making progress because they are coming to the office, I think you probably have something much bigger problem with your team. Then maybe you have realized, right, that means like a like you, you probably don't really understand what matters for a team. So you just try to measured the very obviously or the very easily measurable stuff, which just how many hours they sit front computer.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:25:29",
+      "text": "That being said, how we look at performance at the looper is we try to have a very finely calibrated definition of performance. And what does that mean to deliver results? And we give I think I gave my engineers a lot of room to get me the result I want, but I will be very rare of front and clear about IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:25:48",
+      "text": "Here's the problem I want you to solve this problem and show me how you gonna give me updated, and show me how you can show that this problem goes away. So I want to see data. I want to see metrics, and I want see a deal.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:26:00",
+      "text": "So I want, so I measure I want to measure result directly. I don't want to assure like how many hours you put into seeing front of computer, even though all like sometimes that does matter. Like I think it's probably not too controversial to say that if somebody never log into their computer for a week, then this probably something wrong.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:26:20",
+      "text": "Like obviously, that's gonna be true. If we hire the best people in the world, we should give them really enough freedom for them to solve problems. And for what we, for my experiences, good people, attend to just keep your results actually very quickly. You don't need to question, you check their presence.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:26:35",
+      "text": "So it's just to give a contacts on how how big is your team now and was a high water business and the how was you a work for discipline?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:26:44",
+      "text": "We are we have an office in new york. That's where most of our go to market function sits. So I think for for ourselves and marketing, uh, we want them to be in new york because that's where customers are a and they actually have to show up to the office sometimes so that I just make IT convenient.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:03",
+      "text": "I think we have like round ten ish plus people in new york um and then our customer success uh managers they are in in brazil and let m in general uh and in our angers are actually distributed like we we find people in europe in that m in india and um and sometime in middle st。And I know in india we have great big Operation. That's where most of the uh our human uh Operation analysts sit.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:38",
+      "text": "We have problem somewhere around two hundred people in india are they are um they actually hiding skills and well trained in understanding financial statements. So all of them have ACF or MBS of finance h they actually knows a lot more about finance. And I do um so that their job is to make sure our AI does not go crazy. So we are truly local team is is really everywhere .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:28:06",
+      "text": "that really everywhere. Yeah right. So the curse about that, that big team in a india to manage such a like a heavy Operation team, you need to have someone really on the ground, right? And a different also different country, different culture like how how do you manage your big, big team across the country?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:28:26",
+      "text": "I think we are very fortunate to have a very good, good uh, head of Operation at india. Um basically he's been with us like from almost day one um and he he just has been a time and time again. He has shown like extra ordinary leadership in in in the team over there so he is not easy. And if you asked me how to how to manage like that many people in india, I like I think my honest answer is I don't know uh the only answers we have a good leader in india and we who have lost trust in him uh and and obviously he he show us how we run IT and h there's no easy task.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:29:06",
+      "text": "Well, since we talk about like the uh the need for a humid in the sitting at the back to correct long tail problems that the AI can not. So for now, let's look more into that the future. How do you see like join to fiat or OLM impacting the lupus business? Have you um have already leverage some uh some um uh some technology into current product? And what are benefits and what are some chAllenges are you have seen?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:29:30",
+      "text": "First of all, I think a eye like I think this wave, a new wave of eye break through is incredible, exciting and technology is very real. and. At the same time, there is also a tremendous amount of hype around what he can do. Uh and that's pro.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:29:51",
+      "text": "Are you guess we can debate whether the hype is healthier or night? Ah, i'm more lying towards that is healthier is at healthy to have high because I really create account amount attentions that a draws in interest into a very foundational technology that potential to to change a human lives, in terms of how this affects the looper today is um we have been using AI from one。And so I remember when we started to come around like to uh or or late 1i mean，the transformer paper has already come out and there's already very exciting developments in the AI space.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:30:35",
+      "text": "The new trend of AI really started around twenty twelve, not around I am for twenty one or uh where where chat GP comes out start around twenty twelve where like GPU was used to train your nets um and IT works IT works so well that IT actually beats all the previous match mark. I think that's the first break from like the new wave of AI where deep learning verses uh worse was everything that comes before IT. So if you think about from that land, so the progress of AI has always been continuous and maybe he have accelerated around twenty twenty two uh but the theme is is very constant, is basically more compute and obviously good architecture.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:31:21",
+      "text": "There are Better architectures out there. There's we have more tricks uh that can use more data, but the fundamental thy is more compute and more data and that is a very consistent theme. Um so but but we have been using some of those techniques back. And you know when we first started and and now I think the AI want really help us is like is especially like lock large language models, is that IT actually makes makes the easier for us to train on model uh before like we're using my transformer and all that like a the kind of barriers to get working is pre high. And now um there's still some barriers but um but is less high.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:32:05",
+      "text": "You we we need less data, for example uh and is much easier, for example, like you can just like feature data through a prompt rather than like doing you know those uh like love engineering uh of of your data or or or you have to write of custom code to get IT working. Now it's just through prom prompts, which is amazing. Um that being said, IT doesn't uh is is still very chAllenging to get a product that is in a really compelling for for our users so that the product problem doesn't really go away.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:32:40",
+      "text": "And II think that's probably uh uh a key uh assumption that law people make is like they see the huge progress to me. I and IT automatically you know jumped to conclusion that oh like all design questions goes away. He becomes a prompt or he becomes a chatbot but I think that is uh a very hasty conclusion uh just from what I ve ve seen on the feel like the the real chAllenge that we are solving is ready to understand the nuances of of our users experience and then to deliver AA truly single experience.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:33:15",
+      "text": "And AI is only part of that equation, right? So IT doesn't not make building the looper any easier, but he does get people a lot more excited, you know, because we say we have a eye那个five years ago，we say we have a ee and nobody recovery and now we would ChatGPT someday. There's a lot more people interested in talking to us.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:33:40",
+      "text": "But from all of us, like the the task is still the same as a wine is. We want to deliver a the truly magical experience for the user. And that does not that is never easy, right? Because IT is easy. If is just as easy as putting some prompt and like um somebody have long like have could have done IT a long time ago.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:34:02",
+      "text": "uh how you see like um the l ms my like some opportunities in in dealing with those those like on structure, like information, does I unlock some uh h some opportunities for uh I .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:34:14",
+      "text": "think summer ization is getting Better um so lot people are doing transfer err ization. I think that is i'm very obvious use case. But I guess the question is, can you build a really good business out of just transcription or or summarizing? I think that's a question mark.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:34:32",
+      "text": "Um and then I think search es gonna be a lot Better. Um I think before you know like searches, you know mostly key base and now you can have some kind of essentially embedding base search where you you you can you can search on the semantic level rather than just on AQ or is token level. So it's gonna Better. Um but I will look at opportunities in a slightly different lengths rather than just a opportunities like obviously, there will be improvements in technology to um but the necessary creates a window opportunity for newcomer's to attack the space.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:35:11",
+      "text": "I think that IT involves a lot more question to be asked than just purely on the technical levels, right? Like IT actually evolves like you know uh uh a competitive assessment of the market, like what other competence are doing or you know is that possible that you know other companies that I can is IT possible that they quickly add like uh transcription service or embrace zing service or uh or a Better search on your product automatically, you know eliminate the need for any new entrance. Um there's a lot more question need to be asked before we can say that there is opportunity.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:35:49",
+      "text": "This is is a very hard question for me to answer because if I know there's a huge opportunity right, right there like that, we will be going after IT and I will probably wouldn't be talking about podcast. Uh, and this is what I thought about entrepreneurs a lot, a lot of the time you are doing a searching. You are searching for the opportunity.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:36:09",
+      "text": "And I would say I anything that I would say, if any ideas that I can have, I just by thinking about IT and or reading some block POS, uh, that is probably not a real opportunity because I think a really good opportunity. IT has to be contrarian. IT has to be uh, you have to be finding some kind of aspects of the market that give you a unique angle of attack that is really unique to your team. What what do you .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:36:36",
+      "text": "think of some what do you think is over estimated and unter estimated about LM, especially when he comes to the application and financial industry?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:36:45",
+      "text": "Yeah, I think our estimate is probably easy to tell today. Um I think any claims that has to do with like you know automating critical workflows, you know completely autonomous ously, I think that is very dangerous, especially mission cricket workload. Um the agent workflow, I think there's still a lot, a lot of proving you need to be done.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:37:17",
+      "text": "Um so i'm still slightly skeptical. Uh, language models we have gotten really good at telling models to construct natural languages, very good. So even though sometimes IT gives complete nonsense is still give nonsense in full were constructed english languages of sentences or or any other languages for that matter.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:37:44",
+      "text": "So that is that is a huge leap forward. Um but anything that has has a very high bar for accuracy I think is still come. Um and I am not too sure if the right solution is to have bigger model or more data IT probably require some slightly different architecture.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:38:08",
+      "text": "Uh I think I think yellow phone have very famously argued that like auto regressive models, which are prety much most of the LM. Today are inherently bias to illusional. So I my hunch is is probably to require something different.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:38:25",
+      "text": "Um but I know like the research committee is is definitely exactly the research direct ard claims like some variants of AGI is is probably a little bit too early to make a cream uh underestimated about AI is。I think people may not understand me how good AI will be in a in a longer time horizon. People may over estimate the people AS capability.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:38:54",
+      "text": "In a short term, they may underestimate AS capability of AI and there are many, many people that making this argument and I am very much I agree with that um if because if you just look back on the PC era and international era, like people to have no idea what is coming and very likely we'll probably have something similar sitting at nineteen ninety eight. You have no idea that you will be there be facebook, uh, there be um instagram or we tiktok like you just cannot see that coming because there is just the the the dependency of of the sequence of breakthrough that require for those who happen is just way too many for any humans to to predict. So that I think that's very likely that underestimate IT and AI may play out in very interesting ways that is maybe completely escape our imagination. So that's very possible.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:39:46",
+      "text": "So if we take that optimistic, uh, long term, real how the financial hedman might look different and going forward.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:39:56",
+      "text": "think japes all have said something pretty, pretty well quoted once, which is, uh, focus on the things that don't change over the long term and you will build a very good business. I think that's exactly how we should think about product is we think about what things don't change and we try to uh we try to focus on try to do things that you know can service service things that don't change.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:40:24",
+      "text": "Like if if you think about what really don't change in finance is we have a concept internal, you call a time to insight. So inside being for the financial analysts, how quickly can they get to their insight? Because like the the core uh function of their job is to come up with new ideas or trade investment ideas.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:40:44",
+      "text": "嗯，so I think what would both don't change is people want to reduce time to insight, right? And what is standing in the way is the mountain of data today that people have to way through, like the mountain of maybe financial followings or earning transcript or investor presentations. Um those things is standing the way, right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:41:11",
+      "text": "So we will really want to reduce the time to insight metrics. We want to make IT as seamless as possible. I with a few clicks or with some easy, simple configuration ation.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:41:21",
+      "text": "Uh, I don't think that's ever gonna. The more metaphysical question you can ask is, can AI replace insight, right? I mean that every day what really is about like when we ask, ask like how can AI replace human analysts? really? I think the question is, can AI replace insight, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:41:45",
+      "text": "I mean, I would love AI to replace inside. Then I think our entire human race, we can just sit back and play video game, and they would just run the world for us and solve all, all the problems. I mean, I would love for a world like that to come.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:42:01",
+      "text": "But I think that's very hard. Uh, I think it's not immediately and maybe I maybe guilty of unrested mate AS capabilities here. uh. But II don't think maybe in the immediate short term is gonna en.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:42:17",
+      "text": "Uh, I think what is very again for a ie to solve in the near except in term is anything that repetitive that is borrowing that manual that does not require original thinking should and can be automated by AI that I think that is very likely. Uh, whether AI can come up with truly unique insights, good ideas. I think that's a question mark.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:42:43",
+      "text": "I don't see any evidence today or I have I haven't seen come across any architecture that can, at least on the theoretical level, that guess that. So if you if you take that position, then you wouldn't say that A, I will replace new financial analyst because AII find allies have to do their job is come up with insights. And if you think about how human come up with insights, is actually very different from quantum through a lot of repetitive, boring stuff.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:43:09",
+      "text": "So at this I don't see how, like AI can do IT today, not in in any, you know, my limited exposure to the AI literature. And I don't think that is the main party either. I think there AI can do a lot more or just to automate the boring stuff away.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:43:23",
+      "text": "Uh, and human is pretty much Better coming up with original ideas because I think that is our human. Your net is very good, as you know, learning from very, very limited examples, right? That that's gna be my take.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:43:42",
+      "text": "What is not other boring process that that you that you say that the the the financial allies are still doing that you are expecting to to be done by AI there are .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:43:50",
+      "text": "a lot of opportunity in the space and uh, uh, a good should look hard and deep into the space and I think they will have a very good chance of finding some boring, boring stuff to automatic. Um anything that I can come up with that I am not doing, you shouldn't probably shouldn't trust me. You should always do your homework, talk to like maybe a thousand user before making any decision.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:44:17",
+      "text": "Uh, but I guess anything related regulation is very boring, is boring. Anything that involves a lot of text. I like reading, like what you can think about, what kind of career has I love reading? I think lawyers, doctors，a lot reading, and sometimes all of the times reading of the same stuff over and over again.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:44:44",
+      "text": "对，any I guess any job that requires like just human processing，a mountain of a documents and hopefully and ideally physical documents, like people are the job that is that requires you to print out like maybe a hundred page of document and you have read row IT and then use like color pen to like market out. Uh and I like sticker note, like sticky notes. Those jobs probably there's a lot of improvements um at the tRicky parties.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:18",
+      "text": "I think a lot of opportunities are easy to think of, but I think IT really comes out to the new answer. It's hard to get right. All of ideas is used to think of but hard to you know hard to get right. And that's where like a good entrepreneurs in and come up with something that is truly, truly a impact for that's going be a hard job.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:41",
+      "text": "Uh getting good feedback SS uh from the user is a very is a tremendously rewarding experience, in my opinion, seeing them use your products and getting the feedback, you know that your product is making a meaningful difference in their in your work. I think that truly uh uh IT is a kind of experience that really no amount of like monetary rewards can can compare. Um guy I might make core as obsession and is is to think about how can we keep giving those magical moments to our users and those matter moments is not is not any like hand wave concept.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:46:26",
+      "text": "It's really is something that you see very tangibly in the users like when you show them the product like like, oh, this is really cool. II love this idea that you guys know me so well. This is a kind of comments that is just like, uh, really is read up that the best experience, in my opinion.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:46:46",
+      "text": "experience like the like the analysts feel really excited about your product IT might get locked by the the the decision .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:46:54",
+      "text": "makers so the question is how do you never gate uh complex uh decision making process right? Oh um i'm everything not an expert on that. Uh we have higher very good people that helped to navigate that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:47:09",
+      "text": "But just from my observation um from designer maker point of view, they want due to quantity vely justify the decision uh to them because they are not using the product. So they have to justify their decision internally as well. And you want to do that for them by giving them the data.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:47:30",
+      "text": "I for example, how many hours you can save for your analyst, right? How many more companies that they can cover IT can can cover because of you know the savings in time, right? Um things like that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:47:44",
+      "text": "You you want to quantify your value to them. Uh, and that is different from the user because a lot of times when the user user product, it's really about experience and whether it's a good experience or a bad experience. Is less about like on a very rational level, how in how many hours they save, even though that also matters.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:08",
+      "text": "But I think most people when they make decisions like is first on a very experience al and an emotional level like this feature resonate IT IT IT needs the first resonate on emotional level first. And then you can justify IT, you know, using reason. I mean, it's empty of a strong statement to make.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:27",
+      "text": "But but I think humans in general, like for example, when we buy an iphone, like I don't think most people do like a cost benefit analysis with iphone, like really looking into like how many pixel like the brightest do they really need like the kind of quality right off the screen, right there. We need the kind of quality of like I don't like what the hard wares are, go into a iphone. Like do they actually think through IT? I really doubt. So I think people like iphone, they just because they love experience.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:00",
+      "text": "That's good to know that I even in the end process making right like we can not under estimate like via that the emotional a subject objective elements into a congratulations on closing the few of b um do you have any a furries advertise? For the first time .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:49:16",
+      "text": "founders Michael founder Thomas a he was leading our serious y process and I think there was a uh a great success uh but for my experience, II think you know investor at everyone, they care about a good business. There's love concept chasing going on today. Um I guess that works to an extent.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:39",
+      "text": "But at the end of day, I don't think that is what builds a good business. And I think we are very fortunate enough to really partner with investors that really care about the fundamentals of the business. And they understand very deeply how technology fit into that piece of the puzzle to raise a good round like on the foundation.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:50:00",
+      "text": "No level is you want to make sure you have a good business or you have a good conceptualizing of what a good business is looks like. Um rather than trying to put together or the bus work together and trying to and his lap on top up with a huge ham and um and I try to like a raise some money um on a good time, maybe that will work. But I think right now inventors are a lot more rigorous and a lot more um uh vigilant about business quality.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:50:38",
+      "text": "The other thing is there is also importance of telling the story right um right and that does not mean that necessary. You have to you know promise a lot. I think it's very similar to building a good relationship where you want to be very transparent and you want to just show a clear role map and be very clear minded about the potential pitfalls that you would because start up is a risky business, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:51:04",
+      "text": "I think having a very transparent and very honest assessment of your plan and the kind of quality, uh, tell a good story about the quality of the business, I think that will go a long way. And definitely having tractor helps. But all of this will comes out what what is the kind of business that you you want build?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:51:24",
+      "text": "Very impressive. That sends you actually a bull step from from the beginning. I think that finally, a commitment from your I see through this a and b and what what has been changing in your story and what has changed?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:51:38",
+      "text": "Yeah what has change or has a changed? That's a good question.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:51:42",
+      "text": "Like fun raising differences between series a and three BI think serious a generally a is uh is is to basically you raise the money to, I guess, to definitively prove our product market fit, like maybe complete that serious ideas, like maybe have some signs of promoter of IT, but not uh but not definitive, right? And so the kind of uh the kind of things that you want to do with this is a money is quite different with the amount of money you want to do with series speed. Serious bee is about scaling the business. And serious beyond beyond is you have like um almost unambiguous ous proof of product market fit and you and it's a good business, then you raise the money to scare.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:52:33",
+      "text": "So I know obviously how you uh make the pitch is is gonna be different, right? Because this series be people the the investor cares a lot more about the quality of the business, right? What is the uh experimental what is the incremental margin? What is the potential market opportunity, right? How large can this be and what is the what are the adjacent market that you potentially can get into, right? And what is your cost spaces and how um what what is your attention? What is your lifetime value? But all of this start to matter. I think serious a IT also matters. But I think the the bigger question is like a how much proud of market fit does this have?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:53:14",
+      "text": "What would some common chAllenges are you from from investors in your early days before you ever have them like the real numbers?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:53:21",
+      "text": "Yeah I think initially I think for us is people don't believe that is a big enough market, right, like the hatch run space. And but interestingly, um we don't hear that as often today IT was a lot more often why before and II don't know, I disagreed the question that I would be never be able to answer.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:53:47",
+      "text": "Ah yeah, but back then, I think I guess it's very understandable, understandably so, is that when you have no revenue and the product is not quite working and you're telling people that you are going after like you know capture IQ or bloomberg, um it's not very convincing, I guess. right. And and I think there are also a disconnect between uh, the venture community and the hash fund community is not very um because I think for people work in finance, they know how big blue birds and they know how big backside is. So this space can get very big um but is not a very hot space.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:54:35",
+      "text": "We will go to my right to the final round of the fire questions. I first what other questions that I will um like enjoy me to to answer like everything in probably in less less than a minute right? So the first first question um a book that you often recommend to others.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:54:53",
+      "text": "II really love zero to one. That's a book that red many times zero to one. I think a lot of things they says resonates, resonate today. Ah he didn't get everything right, but but he gets a laugh.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:55:07",
+      "text": "Or anything now start up or a tex related.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:55:10",
+      "text": "Yeah, that's a hard one. But I really love the mocking j series or hundred games. Uh, that's one of my favorite novel. And the movies too cool.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:55:20",
+      "text": "可以。The next the next one I know that is that you start your company call weak in your room, uh, in your in college. Why do you start that? And how did that? How do you tell you about your a about let me .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:55:30",
+      "text": "give you a short version. I started because II live in a low cost orm in NYU, where I had to share the bathroom with my two roommates. They they are okay.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:55:41",
+      "text": "They have our hairs and they don't clean up after themselves after the use bathroom. So I have ended up playing after them. So I got a really annoyed after while, so I basically said to myself, like, i'm doing this for free for you guys.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:55:57",
+      "text": "So I maybe I should think about way to make money from IT, right? And this problem happens to me, must have happened to other people. So that's how I look into a starting a cleaning company um weaken your dorm.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:56:09",
+      "text": "Dcom is uh is a is a basically a uber for uh cleaners at the time. So we basically run in the network of student cleaners, we I basically have a dispatch yer we we dispatched cleaners through their drone rooms and and and let them clean them。So turns out basically any common areas is is a very severe flash point of romain conflict。So are a very good solution.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:56:32",
+      "text": "Is everybody just chip in a little IT for a cleaner, and this problem would go away. Nobody has to do the diary word, just everybody pay a little bit of I think it's a fantastic solution. So but yeah if the idea worked, but but it's not it's just not very skilled. So you know I think we end up doing a couple hundred deal like uh, cleaning jobs and uh and then after that, II decided to focus on my studies and trying to get a job. So so I close IT down.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:56:59",
+      "text": "Very interesting. Begin of your entrepreneurship journey for sure. Um okay, the next one, uh, wasn't AI to they use the most a besides charity.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:57:08",
+      "text": "So okay, i'm a big fan of germany, right? I guess this could be a controversial statement. But AII think germany is catching up to ChatGPT. So I end up using both. II have seven problems.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:57:19",
+      "text": "I just like what would do mostly use time.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:57:21",
+      "text": "and I just coding. Like now like II used to, you know, searching google, like a stack of flow, but now you just put into germany and you would just work. And most of time this is very good.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:57:35",
+      "text": "I have to say, i'm with you. I definitely use every night and pay user, uh, I definitely use every night more than touch with nowadays. II got love, inspiration when preparing for my question.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:57:45",
+      "text": "This for every forecast, including this one, I think geri does a monster job and tragic ity. 嗯，过a next one。What are you good at and what are you suck at as a as a leader?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:57:57",
+      "text": "I guess I will use a different term then suck at is I think I need to and I think this is just like an ongoing, you know, continuous journey for myself is is to really build defer and deer connection with my team. And that's gona be harder, harder as we scale. But I think that just very important to um not only get to understand them on a profession level, but also understand them uh on on a personal level.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:58:27",
+      "text": "If you think about how to motivate your team is why does why did your team wanna work for you? Um I think a lot of IT, I mean, there is a monetary aspect of IT, but there is also AA trust aspect of IT is people trust you and they want to they believe in the mission um and that's why they want to put in to work. Um I constantly think about how I can do Better, how can I um be more trust？How can I be more empathetic? And sometimes we have debates, we have disagreements, uh, and those are all very healthy coming out of those debates, trying to, with a stronger transplants, don, decisions come and go.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:59:11",
+      "text": "You you can make good decision, can make Better decisions, but Better everyday. What really loves is, is relationships. I guess II, I would say I am very good at IT, but III believe I have the you know passion for is is really II uh, I love building product, right? II love sharing you know insights about product of illusory hy really or stories about users with people. I think that's something that I am really. So what keeps .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:59:39",
+      "text": "you a night as a founder?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:59:42",
+      "text": "I think angry customers, africa, they had a bad experience, really keeps me up at night like I. And that is very a visual feeling because you see on a call and people are not happy or or just fighting gaps in our product that you know that you know complete on us and thinks that we could have done done Better that just, you know paints me.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:00:07",
+      "text": "uh, let this one a opinion that you have changed in the past six months.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:00:12",
+      "text": "So and this is really part of my transition towards more of a in a leadership brow rather than just a uh, an engineer mindset where I think I used to believe that like you know, knowing everything myself is very important. Like getting good at everything, it's important. Really comes from building a strong team and trusting your team to know everything rather than you having to know everything. That is a major, I guess, change in my my mental framework to to run a really good company. You you have a need to good, you need to have a good team and you you just can do everything yourself.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:01:02",
+      "text": "So next one, uh, what do you Normally do when you are under, when you are under pressure?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:01:09",
+      "text": "Yeah, I think what is effective for me is to ignore the noise and we focus on the road cause of the pressure. And in early days, it's because the product is not working and you can always go back to your interactions with the users to get more insights.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:01:35",
+      "text": "And that actually helps a lot is the more understanding you develop up the user, the more confidence you have that you will you improve, right? I mean, obviously there are other pressures like a but I think IT start up like mostly IT comes down to like progress. Not working is not as good as people want.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:01:56",
+      "text": "And that's the point where I think I like to do a deep dive to understand the product, like on a technical level, okay, what went wrong? But why is IT not doing X, Y, Z? I know the user perspective is what is their experience and what makes IT difficult for them?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:02:12",
+      "text": "Lots question. We go back to AI uh, what do you expect AI to be able to achieve in one year and in three years?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:02:19",
+      "text": "yeah. Um that's a good question. I think multimodal is a big trend. So AI is gonna more and more like you know I think the latest uh GPT for all I think more more model is gonna atch shop to that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:02:33",
+      "text": "Um I think it's go a trend is going continue now IT looks like we got to have like multi model models. Um I think that's why what was going to happen in next year or so in three years is harder to predict. I have a hunch that synthetic data, it's probably gonna matter a lot more because now we are reaching the limit of like pretty much consuming every single volero data on the internet.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:03:04",
+      "text": "So the next step is to create data. So we probably going to see more research rounds in that data. How to make you more realistic, how to maybe emerge the boundary between real and synthetic ata. I think there's a lot of work that can be done there.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:03:18",
+      "text": "That's the that's the end of very, very long with journey. And thanks so much for hearing hearing with us where you are experience building the loop over the over the past five years. I definitely have learned a law from that. And I believe that our audience, especially those are looking to building itself or already on on the journey building up, can learn a lot of from our conversation. Thank you so much, Cherry for your time.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:03:41",
+      "text": "Awesome again. Glad to be here. Thanks a lot, Monica, for a organizing all this preciate that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:03:47",
+      "text": "Thank you. Thanks for listening to this episode of onboard. If you like our content, please take several seconds to leave a five star review on apple podcast or spotify.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:03:58",
+      "text": "Help more people find out. We cannot wait to bring you another episode of on board to explore the world of technology AI and student s. The future is here and welcome on board.",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这段讨论中，讲话者深入探讨了创业公司不同融资阶段（如A、B、C轮）的角色和需求，强调了A轮关注产品市场匹配、B轮侧重业务扩展、C轮需验证商业模式并要求更多资金。他们分享了根据投资轮次调整路演策略的策略，强调了从投资者角度考虑的质量指标，如业务质量、边际收益、市场潜力和成本效率。讨论还涵盖了创业初期面对的挑战，如市场认知不足，以及个人成长和领导力发展的重要性。讨论者展望了AI未来的发展趋势，特别是在多模态和合成数据的潜力，强调了理解和解决用户需求的重要性。此外，讨论者还分享了对市场大小估算的不准确性和挑战，提出了通过与用户进行交易来更好地理解用户需求的方法，并强调了自动化和人工智能在提高数据更新速度和准确性方面的作用。讨论还触及了销售策略在不同行业中的差异，以及如何通过产品、口碑和社区建设来建立信任。最后，讨论者分享了保持与用户紧密联系的方法，包括观看销售通话记录，以及管理国际团队的策略和信念。",
+    "qa_pairs": [
+      {
+        "question": "What is the background of Jeremy, the founder of a financial AI company?",
+        "answer": "Jeremy, also known as Yellow, initially wanted to become a banker and enrolled in the business school at New York University (NYU). During his freshman year, he shifted his focus towards mathematics and computer science, spending more time in the math department than in business. After graduating with two degrees, he worked at Airbnb in the Bay Area for three years. However, he realized that starting a company made more sense for him because he wanted to create something unique and impactful for users. This led him to start a company with his co-founders, Thomas Lee and Daniel, after they reached out to him while studying at NYU.",
+        "time": "00:02:04"
+      },
+      {
+        "question": "What was the initial idea behind the company and how did it change over time?",
+        "answer": "The initial idea was to create a web application that would provide financial data, similar to rebuilding some parts of Bloomberg's fundamental data function. Initially, they considered making a reader application for financial documents with AI integration. However, after getting feedback from a friend who was disappointed with the second idea, they pivoted back to the first idea and focused on enhancing it. This led them to develop Lupa, the world's first AI-powered fundamental and historical data provider for financial analysts.",
+        "time": "00:05:15"
+      },
+      {
+        "question": "What valuable lessons did Jeremy learn from his experience at Airbnb?",
+        "answer": "Jeremy joined Airbnb's growth team and learned about growth hacking techniques used by Facebook, such as A/B testing, to increase user engagement and other important metrics like 'first-time night bookings.' He emphasized the importance of quickly validating ideas and suggested that founders should focus on understanding user problems before scaling infrastructure, rather than starting with the most scalable solutions.",
+        "time": "00:07:27"
+      },
+      {
+        "question": "What approach does Jeremy advocate for validating ideas and learning about users?",
+        "answer": "Jeremy advocates for prioritizing quick validation of ideas and gaining insights into user problems over building scalable infrastructure in the early stages of a startup. He suggests that founders should spend a considerable amount of their time talking to users instead of coding, which could lead to more efficient use of their engineering skills. This approach involves conducting regular debriefings as a team and recording customer conversations to understand users better. Jeremy believes that talking to users is crucial and should be prioritized over coding, especially in the initial stages of a startup, to form a deep understanding of the user base.",
+        "time": "00:08:23"
+      },
+      {
+        "question": "Why is it important to verify that the founding team is indeed the Ideal Customer Profile (ICP)?",
+        "answer": "It is important to verify the founding team as the ICP because the assumption that the team represents the ideal customer for the product may not be true. This assumption needs to be checked and may be risky to skip without proper verification.",
+        "time": "00:15:20"
+      },
+      {
+        "question": "What are the potential risks of not talking to users if you assume you know them?",
+        "answer": "Not talking to users when you assume you understand them can lead to critical decisions being overlooked. It may result in missing out on discovering that a different user segment is more underserved or that the market is smaller than anticipated. Additionally, it can result in a lack of rigor in thinking and lead to dangerous assumptions about the product's market and user needs.",
+        "time": "00:16:32"
+      },
+      {
+        "question": "How can the assumption that you are the ICP lead to incorrect assumptions about your product's market?",
+        "answer": "Assuming that you are the ICP can lead to incorrect assumptions about the product's market if you don't talk to other users. You might not realize that there are better or more underserved segments of the market. Moreover, your focus as the ICP may not capture the full spectrum of the user base, leading to a narrow understanding of the market potential.",
+        "time": "00:16:32"
+      },
+      {
+        "question": "What are the benefits and risks of treating the process of creating a product as if you are the only user?",
+        "answer": "Being a user of your product can be beneficial as it provides a personal connection to the product's success. However, it also poses risks, as you may not be critical enough about your assumptions or thinking, leading to potentially dangerous and less rigorous decision-making processes. This can result in overlooking important user needs and creating a product that does not meet the broader market's expectations.",
+        "time": "00:17:40"
+      },
+      {
+        "question": "How did the speaker's experience lead them to change their approach to product development?",
+        "answer": "The speaker's experience of showing a barely built product to a close friend who was angry and disappointed led to a reality check. This experience made them realize the importance of having a clear understanding of their assumptions and the need to verify them by talking to users. As a result, they started building a real Minimum Viable Product (MVP) and adopted a user-centric approach to development.",
+        "time": "00:20:08"
+      },
+      {
+        "question": "Why is it crucial to check your assumptions about your product's market and user needs?",
+        "answer": "It is crucial to check your assumptions about your product's market and user needs because even if you are part of the target market (ICP), your personal experience may not represent the entire user spectrum. This can result in a misjudgment of the full user experience and the market potential, leading to a product that fails to resonate with the broader user base.",
+        "time": "00:20:30"
+      },
+      {
+        "question": "What does the speaker suggest as a key part of the user-centric approach to product development?",
+        "answer": "The speaker suggests that a key part of the user-centric approach to product development is building a real MVP that reflects the true spirit of minimum viable product, which could range from a simple landing page to a more developed concept. The focus should be on selling the idea and gathering feedback before fully building the product. This iterative process helps refine the product based on user interaction and feedback.",
+        "time": "00:20:43"
+      },
+      {
+        "question": "What is the core problem with existing products in the market according to the speaker?",
+        "answer": "According to the speaker, the core problem with existing products in the market is that they do not fully understand the psychology of the user and do not address trust issues that prevent adoption. Users may not trust the data provided by these products due to concerns about accuracy and the potential consequences of using unreliable data. The existing products often try to standardize non-standard financial data, leading to inaccuracies.",
+        "time": "00:25:07"
+      },
+      {
+        "question": "How does the speaker's product build trust with users?",
+        "answer": "The speaker's product builds trust with users by allowing them to audit the data directly from the source document. Users can click on a number and see where it comes from, ensuring the data's accuracy. Additionally, the product displays all data as disclosed by the companies, avoiding the standardization of non-standard financial disclosures which reduces inaccuracies and builds trust.",
+        "time": "00:26:43"
+      },
+      {
+        "question": "What is the approach taken by the speaker's product to handle non-standard financial data?",
+        "answer": "The approach taken by the speaker's product to handle non-standard financial data is to display all the data as disclosed by the companies without trying to fit it into a standard template. This prevents the loss of nuances in the data and ensures that users receive information exactly as it is disclosed by the companies, which builds trust with the users.",
+        "time": "00:27:08"
+      },
+      {
+        "question": "How did user feedback influence the development of the speaker's product?",
+        "answer": "User feedback influenced the development of the speaker's product through an iterative process where ideas were pitched to users, and feedback was quickly incorporated into the product. The team incorporated user insights into the product roadmap, which led to the refinement and improvement of the product based on real user experiences and needs.",
+        "time": "00:29:09"
+      },
+      {
+        "question": "What is the strategy for incorporating user feedback into product development?",
+        "answer": "The strategy involves observing patterns across a specific segment of users who express a similar need or pain point. The company collects data-driven feedback and looks for recurring issues among users with similar profiles. This approach helps in understanding whether the feedback is a significant issue worth addressing in the product.",
+        "time": "00:29:45"
+      },
+      {
+        "question": "Why is it important to have a large volume of feedback when determining user needs?",
+        "answer": "Having a large volume of feedback is important because it allows the company to discern patterns and signals from noise. When there's a pattern of the same problem articulated by several users with similar profiles, it becomes easier to validate that the issue is significant and worth solving within the product.",
+        "time": "00:30:15"
+      },
+      {
+        "question": "How can founders use sales experience to inform product feature prioritization?",
+        "answer": "Founders can use their sales experience to gauge the probability of closing a deal based on user feedback. They can determine whether a suggested feature makes it easier to close deals or if it leads to more engagement with the user, such as involving their boss or legal team. This helps in identifying features that not only resonate with users but also contribute to the sales process.",
+        "time": "00:31:08"
+      },
+      {
+        "question": "What should a product team consider to ensure they have sufficient data for decision-making?",
+        "answer": "The team should aim to gather enough data to build conviction among themselves about the direction to pivot. This means having a substantial amount of feedback from users that allows them to resolve internal debates about which features or direction to pursue. A data-driven approach with a large number of user interactions is preferred over a small, highly qualitative dataset.",
+        "time": "00:33:51"
+      },
+      {
+        "question": "How do user interviews and feedback loops influence the design of the minimum viable product (MVP)?",
+        "answer": "User interviews and feedback loops are crucial for designing an MVP that strikes a balance between showing enough functionality to demonstrate value without being overly complex. By focusing on positive user experiences and feedback from early users, the team can prioritize features that are most appreciated by the user base. In the case discussed, the team identified three positive interactions and focused on creating a simple product that leveraged these insights.",
+        "time": "00:35:02"
+      },
+      {
+        "question": "What considerations were made when designing the initial MVP for the financial product?",
+        "answer": "When designing the initial MVP, the team focused on simplicity, aiming to incorporate only those features that would create a pure and easy-to-use experience for the user, such as easy access to source documents and data presentation in an excel-like format. The idea was to collect all positive user moments into a simple product, rather than adding complex web UI features that could confuse users.",
+        "time": "00:36:40"
+      },
+      {
+        "question": "How did the team know they had a substantial product idea?",
+        "answer": "The team knew they had a substantial product idea when they received positive feedback and immediate interest from their network after sharing a simple financial model as part of their MVP. This led to discussions about monetizing the concept and prompted the team to scale up their infrastructure to handle more models. The validation came from the market's reaction and the realization that they had identified a significant problem to solve.",
+        "time": "00:38:57"
+      },
+      {
+        "question": "Why is it important to balance automation and human interaction in AI products?",
+        "answer": "Balancing automation and human interaction is important because it allows for a scalable solution that benefits from the strengths of both. Automation handles repetitive tasks efficiently, while human interaction can improve and enhance the AI, making it more effective and adaptable. This combination can lead to a competitive advantage and solve problems that pure AI or human solutions might struggle with due to complexity or lack of scalability.",
+        "time": "00:41:13"
+      },
+      {
+        "question": "What approach should startups take to find success in the market?",
+        "answer": "Startups should focus on solving really hard problems, as this can be good business and attract customers who care about the solution to their problems rather than the technology used.",
+        "time": "00:43:31"
+      },
+      {
+        "question": "How does the speaker's company view AI in relation to their customer strategy?",
+        "answer": "The speaker's company does not have an AI strategy per se, but rather a customer strategy where they solve problems for their customers, and AI matters only to the extent that it solves problems for them.",
+        "time": "00:44:06"
+      },
+      {
+        "question": "What analogy does the speaker use to describe their product and what are its challenges?",
+        "answer": "The speaker compares their product to a self-driving car, which is mission-critical and requires high accuracy, with an emphasis on controlling quality and dealing with edge cases where human judgment is needed.",
+        "time": "00:44:59"
+      },
+      {
+        "question": "What challenge is associated with handling edge cases in AI?",
+        "answer": "The challenge is how to deal with the long-tail edge cases, which are rare in training data and where AI struggles to deal with unseen situations. The speaker's company focuses on repetitive, menu review tasks that can be automated.",
+        "time": "00:46:08"
+      },
+      {
+        "question": "How does the speaker's company ensure the accuracy of their AI model?",
+        "answer": "The speaker's company focuses on high accuracy for their users by ensuring the AI model's accuracy, comprehensiveness, and speed, and they have a 'smart plug-in' for Excel that respects and maintains user model formatting while converting it to work with their data.",
+        "time": "00:47:58"
+      },
+      {
+        "question": "What is the speaker's advice for providing a general user experience while allowing for customization?",
+        "answer": "The speaker suggests designing product experiences that provide a general user experience yet allow for customization without being intrusive to the workflow, utilizing features like a 'smart plug-in' that respects user model formatting.",
+        "time": "00:47:58"
+      },
+      {
+        "question": "What should a company consider when determining which customer requests to prioritize?",
+        "answer": "A company should consider data-driven decisions on which customer requests and feature requirements can be applied to the broader user segment. They need to understand every single use case their customers have and discern which requests are too specific and might require pushing back.",
+        "time": "00:49:39"
+      },
+      {
+        "question": "Why is it important for startups to focus on a specific pain point and which segment of customers to target?",
+        "answer": "It is important for startups to focus on a specific pain point that users find extremely painful and are willing to pay for. They should start by targeting small and medium-sized businesses (SMBs) or middle-market companies, where they can build their product around that pain point.",
+        "time": "00:51:29"
+      },
+      {
+        "question": "How does the speaker's company utilize AI to update data quickly and accurately?",
+        "answer": "The speaker's company has invested in AI and automation to update data very quickly—within five minutes instead of twenty-four hours—which allows them to deliver data rapidly to their users without sacrificing accuracy.",
+        "time": "00:58:02"
+      },
+      {
+        "question": "What is the significance of trust in the financial industry's IT?",
+        "answer": "Trust in the financial industry's IT is paramount, and it can be established through various means such as offering high-quality products and having users recommend the product to their colleagues, thus creating a powerful 'word of mouth' marketing strategy.",
+        "time": "00:59:14"
+      },
+      {
+        "question": "How does the company establish trust and encourage product adoption?",
+        "answer": "The company invests heavily in product development and leverages user feedback and recommendations from existing users in similar firms. Over time, consistent delivery of quality products and the ability to see positive reviews and experiences with the product among peers builds trust.",
+        "time": "00:59:49"
+      },
+      {
+        "question": "What role does community building play in market strategy?",
+        "answer": "Community building is an essential part of the company's market strategy, aiming to amplify the trust that existing users have in the product and to foster a community where users can share feedback directly with each other.",
+        "time": "01:01:01"
+      },
+      {
+        "question": "How does the podcast contribute to community building and trust?",
+        "answer": "The podcast contributes to community building and trust by showcasing interviews with interesting and relevant figures in the industry, demonstrating that the company understands the pain points of its users and is therefore likely to offer effective solutions.",
+        "time": "01:01:34"
+      },
+      {
+        "question": "Why is understanding and addressing user pain points crucial?",
+        "answer": "Understanding and addressing user pain points is crucial because it shows that the company can empathize with and genuinely solve the problems its users face, which is a key component of building trust and establishing a successful product-market fit.",
+        "time": "01:02:17"
+      },
+      {
+        "question": "What is the difference between PLG strategies for financial industry companies versus others?",
+        "answer": "PLG strategies for financial industry companies must account for the different user journeys and trust dynamics present in traditional, more conservative industries compared to tech-savvy industries like open-source development. For financial companies, more traditional, enterprise-level sales approaches may be required.",
+        "time": "01:02:57"
+      },
+      {
+        "question": "What is the recommended approach to scaling the sales team?",
+        "answer": "The recommended approach to scaling the sales team is to avoid overhiring salespeople ahead of product readiness. Instead, the team should first prove out the product concept and generate real service revenue from repeatable customer processes before scaling the sales team.",
+        "time": "01:07:12"
+      },
+      {
+        "question": "What are the potential consequences of hiring sales people too early?",
+        "answer": "Hiring sales people too early can lead to a mismatch between the compensation structure and product performance. If the product does not sell, early hires may leave, causing morale issues and necessitating difficult personnel adjustments. It is important to hire someone who can thrive in uncertainty and create their own sales playbook rather than relying on existing ones.",
+        "time": "01:12:01"
+      },
+      {
+        "question": "What advice does the speaker offer to first-time entrepreneurs, especially those coming from a technical background?",
+        "answer": "The speaker advises first-time entrepreneurs to focus on sales and keep development minimal until there is clarity around the target user and the Ideal Customer Profile. Technical founders should engage in sales activities personally, as it helps to understand the market and validate the product concept.",
+        "time": "01:13:58"
+      },
+      {
+        "question": "What is the primary risk for most startups today according to the speaker?",
+        "answer": "The primary risk for most startups today, according to the speaker, is not technical risk but the risk of building the wrong thing, going after the wrong customer, or focusing on less optimal customers.",
+        "time": "01:15:16"
+      },
+      {
+        "question": "Why is it important for the founder to talk to users and conduct demos?",
+        "answer": "It is important for the founder to talk to users and conduct demos to better understand the users' problems, which can be missed behind product specifications. Engaging with users directly provides powerful signals about their pain points and can help shape product features.",
+        "time": "01:16:29"
+      },
+      {
+        "question": "How does the speaker plan to scale a high-performance team and maintain talent density?",
+        "answer": "The speaker plans to scale a high-performance team and maintain talent density by focusing on hiring better, motivating better, aligning company objectives with personal aspirations of engineers, and identifying where engineers struggle. They are also considering a robust framework to capture user signals and improve product decisions.",
+        "time": "01:19:46"
+      },
+      {
+        "question": "What are the speaker's strategies for managing a remote workforce and measuring performance?",
+        "answer": "The speaker is a strong believer in a distributed workforce and manages remote teams by not focusing on presence but on outcomes. They have a finely calibrated definition of performance and give engineers freedom to solve problems, backed by data, metrics, and clear results.",
+        "time": "01:22:55"
+      },
+      {
+        "question": "How does the speaker ensure operations are effective in a distributed team with people in different countries?",
+        "answer": "The speaker ensures operations are effective in a distributed team by having a strong leader in India who runs operations there and has earned the speaker's trust. This helps in managing the team and addressing issues that arise from being in different countries and cultures.",
+        "time": "01:27:03"
+      },
+      {
+        "question": "What is the speaker's view on the potential impact of AI on their business and the challenges faced?",
+        "answer": "The speaker views the potential impact of AI on their business as incredible and exciting, though acknowledges a tremendous amount of hype. They are considering leveraging AI technology into their current product, recognizing both the opportunities and challenges that come with it.",
+        "time": "01:29:06"
+      },
+      {
+        "question": "What new capabilities in AI training were introduced around 2012?",
+        "answer": "New capabilities in AI training that were introduced around 2012 include the use of GPUs to train networks, which led to significant improvements and outperforming all previous benchmarks.",
+        "time": "01:30:35"
+      },
+      {
+        "question": "What does the speaker say about the applicability of AI in the financial industry?",
+        "answer": "The speaker expresses skepticism about claims regarding completely autonomous use in mission-critical workflows and believes that there is still a need for validation regarding the use of language models in the financial industry.",
+        "time": "01:36:45"
+      },
+      {
+        "question": "What is the speaker's position on the potential for AI to replace human insight in financial analysis?",
+        "answer": "The speaker believes that while AI can automate repetitive tasks and does not replace the need for human analysts, it is uncertain whether AI can replace human insight in coming up with new ideas or trade investment ideas.",
+        "time": "01:41:21"
+      },
+      {
+        "question": "What does the speaker identify as opportunities for AI in various professions?",
+        "answer": "The speaker identifies opportunities for AI in professions that involve a lot of text, such as law and medicine, and tasks that require human processing of a large amount of documentation, such as reviewing and summarizing reports or compliance with regulations.",
+        "time": "01:44:17"
+      },
+      {
+        "question": "What are the best practices for quantifying the value of a product to decision-makers?",
+        "answer": "The best practices involve providing data that can justify the value of the product to decision-makers. This includes demonstrating the time-saving benefits and productivity gains, like covering more companies with the time saved. It's important to quantify the value to decision-makers by giving them data on tangible benefits.",
+        "time": "01:47:09"
+      },
+      {
+        "question": "How do users emotionally connect with a product, and how does this influence their perception?",
+        "answer": "Users emotionally connect with a product by resonating with its features on an emotional level before considering it rationally. This emotional connection influences their perception and whether they consider the product a good experience or not.",
+        "time": "01:47:44"
+      },
+      {
+        "question": "What is the significance of the emotional aspect in product decision-making?",
+        "answer": "The emotional aspect is crucial in product decision-making as it often comes first before a rational cost-benefit analysis. People tend to make decisions based on their experience and emotions, which can strongly influence their choice, as seen in the popularity of products like the iPhone.",
+        "time": "01:48:08"
+      },
+      {
+        "question": "Why is it important to have a clear story and transparency in business communications?",
+        "answer": "It is important to have a clear story and transparency in business communications because it helps in building trust and showing a clear risk profile. Being transparent and honest about potential pitfalls helps in demonstrating the quality of the business and can go a long way in securing trust and support.",
+        "time": "01:50:38"
+      },
+      {
+        "question": "What are the key differences between Series A and Series B fundraising?",
+        "answer": "The key differences between Series A and Series B fundraising are the objectives each round serves. Series A is primarily to prove product-market fit and possibly scale some initial features. Series B, on the other hand, is about scaling the business and demonstrating unambiguous product-market fit along with a good business model.",
+        "time": "01:51:42"
+      },
+      {
+        "question": "What are common challenges faced by companies in the early days before fundraising?",
+        "answer": "Common challenges faced by companies in their early days include investors not believing the market is large enough for the business model, especially when the company lacks revenue and has not yet proven product-market fit. There can also be a disconnect between the venture community and angel investors regarding the potential of the space.",
+        "time": "01:53:14"
+      },
+      {
+        "question": "What does the speaker recommend as essential reading for entrepreneurs or those in technology?",
+        "answer": "The speaker recommends 'Zero to One' for entrepreneurs and those in technology, as it contains many ideas that resonate today. Another book recommended is 'Mocker's Jeeves' series or the movies, indicating a preference for works that are entertaining and insightful.",
+        "time": "01:54:35"
+      },
+      {
+        "question": "Why did the speaker start their company, and what was the concept behind it?",
+        "answer": "The speaker started their company, WeClean, because they were frustrated with the lack of cleanliness in their dormitory at NYU. The concept behind the company was to create a network of student cleaners who could clean common areas, thus solving the issue of roommates not cleaning after themselves.",
+        "time": "01:55:20"
+      },
+      {
+        "question": "How has the speaker's view on the role of leaders within a team evolved?",
+        "answer": "The speaker's view on the role of leaders within a team has evolved towards the importance of building deep connections and understanding both professionally and personally. They focus on fostering trust, being empathetic, and fostering healthy debates and decision-making within the team.",
+        "time": "01:57:45"
+      },
+      {
+        "question": "What keeps the speaker awake at night, and what are they passionate about as a founder?",
+        "answer": "As a founder, what keeps the speaker awake at night are angry customers who have had a bad experience with the product. They are passionate about building products and sharing insights about user experiences.",
+        "time": "01:59:39"
+      },
+      {
+        "question": "What opinion has the speaker changed, and what has been a major shift in their mindset?",
+        "answer": "The speaker has changed their opinion on the importance of knowing everything themselves to building a strong team and trusting them to know everything. This mindset shift is crucial to running a good company and acknowledging the need for a good team rather than trying to do everything oneself.",
+        "time": "02:00:07"
+      },
+      {
+        "question": "What does the speaker find effective under pressure, and how do they deal with it?",
+        "answer": "The speaker finds it effective to ignore the noise and focus on the root cause of the pressure. This involves going back to user interactions to gain insights and understanding what needs to be improved in the product.",
+        "time": "02:01:09"
+      },
+      {
+        "question": "What does the speaker expect from AI's future achievements?",
+        "answer": "The speaker expects AI to continue evolving as a multimodal technology, with the GPT model and others like it gaining more modalities. They anticipate synthetic data becoming more important and research focusing on creating more realistic synthetic data to bridge the gap between real and synthetic data.",
+        "time": "02:02:12"
+      },
+      {
+        "question": "What does the speaker consider when discussing the importance of AI in their product?",
+        "answer": "The speaker considers AI's importance in relation to how well it solves problems for customers and whether it adds value beyond just seeking attention.",
+        "time": "00:44:19"
+      },
+      {
+        "question": "What should be the startup's strategy according to the risk identified?",
+        "answer": "The startup's strategy should be prioritized around going to market with their product first and then coming back to development based on customer feedback and interaction.",
+        "time": "01:16:00"
+      },
+      {
+        "question": "What is the first job of a technical founder, according to the speaker?",
+        "answer": "The first job of a technical founder is to understand the user deeply and build a strong connection with them, going as far as remembering or feeling the user's pain.",
+        "time": "01:17:46"
+      },
+      {
+        "question": "What are the fundamental themes in AI progress according to the speaker?",
+        "answer": "The fundamental themes in AI progress, as mentioned by the speaker, are more compute and more data.",
+        "time": "01:30:35"
+      },
+      {
+        "question": "What does the speaker identify as the real challenge in providing user experiences?",
+        "answer": "The speaker identifies understanding the nuances of users' experiences and delivering a truly single experience as the real challenges in providing user experiences.",
+        "time": "01:32:40"
+      },
+      {
+        "question": "How does the speaker view the role of AI in creating compelling user experiences?",
+        "answer": "The speaker views AI as a tool that does not make building the loop any easier but gets people excited. However, creating a truly compelling user experience remains challenging.",
+        "time": "01:33:15"
+      },
+      {
+        "question": "What is the speaker's opinion on the potential for businesses based on AI capabilities like transcription or summarizing?",
+        "answer": "The speaker is skeptical about the potential for building a really good business solely based on transcription or summarizing capabilities.",
+        "time": "01:34:14"
+      },
+      {
+        "question": "What does the speaker believe will improve in AI in the future?",
+        "answer": "The speaker believes that search functionality and the ability to perform embedding-based search, allowing for semantic-level searching, will improve in the future.",
+        "time": "01:34:32"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "软件如何改变世界：对话金融AI产品创始人",
+        "summary": "本期节目中，Monica和高宁邀请了金融行业AI产品的创始人，共同探讨了软件如何对世界产生影响。创始人分享了他从对金融行业的兴趣，到最终决定创业的经历。他强调了作为CTO深入理解客户需求的重要性，提出了在建立产品之前先销售的策略，并讨论了AI产品在当前技术限制下的可能性和限制。此次对话为早期初创公司的创始人和对创立公司感兴趣的人士提供了宝贵的见解。"
+      },
+      {
+        "time": "00:05:15",
+        "title": "创业历程：从金融数据应用到最终产品的转型",
+        "summary": "创业者初始计划是开发一个能将金融数据放到Web应用上的项目，类似于Bloomberg的某些功能。但由于对用户需求不够清晰，项目进展缓慢。之后，团队尝试转向开发一个金融文档阅读器应用，但发现市场上已有强大竞争对手，因此这一想法未能成功。经过一段时间的努力和调整，最终在一个朋友的建议下，团队决定回归并改进最初的项目，通过不断优化产品，实现了项目的成功。"
+      },
+      {
+        "time": "00:07:21",
+        "title": "从LBNB学到的关于快速验证想法的重要性",
+        "summary": "对话中讨论了在LBNB工作的经验，强调了快速验证想法的重要性，特别是在初创公司的初期阶段。讲述者分享了使用AB测试和数据驱动的增长黑客技术来提高用户参与度和增加用户数量的经验。此外，还提到了一个重要的见解：在找到产品市场契合点之前，过多地专注于构建可扩展的基础设施可能会导致时间浪费。相反，快速测试想法，甚至在编写大量代码之前限制技术团队的代码量，可以帮助更有效地解决问题。"
+      },
+      {
+        "time": "00:09:49",
+        "title": "理解用户需求：创业初期的关键策略",
+        "summary": "在创业初期，许多工程师出身的创始人倾向于依赖自己的技术优势来解决问题，而忽视了与市场和用户的实际连接。有效的市场匹配不仅仅通过开发最小可行产品(MVP)来实现，更需要深入了解用户。强调与用户的直接沟通对于了解他们的实际需求至关重要。此外，还提出了将团队成员的日常时间安排聚焦于与用户的交流上，而非仅仅是技术开发。重点在于，即使团队中有人自认为是目标用户，也需要进行市场调研来确认这一点，并探索更广泛的用户需求，以免基于错误的假设而失败。"
+      },
+      {
+        "time": "00:18:33",
+        "title": "从对话中学习产品开发与用户验证的重要性",
+        "summary": "对话内容强调了在产品开发初期，通过与用户沟通来验证产品假设的重要性。主讲人分享了自己和团队在产品开发过程中遇到的挑战和学习到的经验，尤其是如何避免盲目假设产品需求和功能。他们意识到，尽管团队成员可能有不同背景和经验，但最终产品的成功需要直接与目标用户交流，通过实际反馈来指导产品的设计和改进。主讲人也提到了如何利用最小可行产品（MVP）的概念，通过创建简单的销售页面或概念展示，甚至仅通过电话或邮件沟通来测试市场反应，而不是一开始就投入大量资源开发完全成品。这种用户中心的设计和开发过程，不仅节省了时间和资源，而且确保了产品能够满足用户的真实需求。"
+      },
+      {
+        "time": "00:23:04",
+        "title": "金融数据更新自动化工具的开发与用户信任建立",
+        "summary": "对话中讨论了一种专门针对金融分析师的工作需求开发的工具，主要解决两个关键问题：快速扩展覆盖新的行业或公司和自动更新已覆盖公司的财务数据。该工具通过提供一个包含三千家美国上市公司数据的门户，使得分析师能够一键下载所需数据，显著提高了工作效率。针对分析师对数据准确性的高度关注，开发团队采取了两项措施来建立用户信任：一是提供审计追踪功能，允许用户追溯每个数据点的原始来源；二是保持数据披露的原始形式，避免了将非标准数据套入固定模板可能引起的误差。通过紧密的用户反馈循环，该团队不断迭代产品，满足了市场上的高度需求，赢得了包括所有知名对冲基金在内的客户的信任。"
+      },
+      {
+        "time": "00:30:06",
+        "title": "利用用户反馈指导产品迭代与销售策略",
+        "summary": "讨论重点在于如何通过收集和分析大量用户反馈来指导产品的迭代和销售策略的制定。强调了数据驱动的反馈在识别用户需求和痛点中的重要性，特别是当相似的反馈模式在特定用户群体中出现时。此外，还提到了通过销售过程中的用户反馈来校准产品功能的优先级，以及如何设计用户访谈问题以获取更高质量的数据，从而更好地理解用户需求，决定产品迭代方向。"
+      },
+      {
+        "time": "00:33:15",
+        "title": "数据驱动的产品开发策略",
+        "summary": "讨论强调了在产品开发过程中，收集大量用户数据的重要性以及如何设计有效的用户访谈问题。观点认为，虽然精心设计的研究问题能从用户那里获得更有价值的信号，但拥有大量的数据更为关键，因为它能为团队提供足够的信息以做出决策。此外，讨论也触及了如何确定最小可行产品（MVP）的范围，强调了在高要求的金融行业中，找到产品功能和开发时间之间的平衡点的挑战。"
+      },
+      {
+        "time": "00:36:09",
+        "title": "产品开发经历及用户反馈的重要性",
+        "summary": "在创业旅程的一年里，尽管只接触了五到十名用户，开发团队从与用户的正向互动中获得了宝贵的洞见。用户对产品的三个特点表示出明显的喜爱：审计能力、使用Excel的习惯以及对数据准确呈现的需求。基于这些反馈，团队决定将重点放在一个简化的MVP上，该MVP允许用户在Excel中直接查看和审计数据，从而产生积极的市场反响。这个经历强调了用户反馈在产品开发过程中的重要性，并展示了结合AI与人类操作的商业模式的潜力。"
+      },
+      {
+        "time": "00:44:38",
+        "title": "AI技术在财务管理中的应用与挑战",
+        "summary": "在财务管理领域，AI技术被用于自动化处理重复性高、劳动密集型的任务，以提高准确性和效率。AI系统在大多数时间能够自主运行，但在处理罕见或非常见的复杂情况（即所谓的长尾问题）时，需要人类介入进行判断和决策，这一点类似于自动驾驶汽车在遇到未知环境时需要人类驾驶员的协助。通过AI技术，可以将财务文档快速转换为可供分析的模型，同时保持原有的格式和细节，满足不同用户的个性化需求。为了平衡标准化与个性化，产品设计中采用了智能插件等方式，允许用户在不干扰原有工作流程的基础上，进行一定程度的定制。这种技术应用特别强调了数据的准确性、全面性和处理速度，以满足金融领域的高标准要求。"
+      },
+      {
+        "time": "00:49:38",
+        "title": "B2B企业中的IT决策与市场策略",
+        "summary": "在B2B企业的发展过程中，团队最终需要就IT项目做出取舍，这是一个挑战。选择正确的客户群体，特别是早期客户，对于B2B企业尤为重要。通常，企业应从中小市场开始，专注于解决特定的用户痛点，从而建立坚实的产品基础。随着对市场的深入理解和用户需求的满足，企业可以更好地评估和规划其产品发展方向，包括未来的市场潜力和产品组合。在这个过程中，企业需要做出艰难的决策，如是否接受大客户的特定需求，这要求企业有清晰的市场目标和产品愿景。通过直接的销售活动和客户互动，创始人能更好地理解市场需求，从而更准确地进行市场评估和产品定位。"
+      },
+      {
+        "time": "00:58:02",
+        "title": "AI技术在金融数据更新中的应用及市场策略",
+        "summary": "对话中讨论了AI和自动化技术如何使公司能够大幅提高金融数据的更新速度和效率，从两年前的24小时缩短到现在的5分钟，强调了这对于满足用户快速获取准确数据的需求至关重要。同时，也探讨了金融行业基于信任的特性，如何通过产品投资、用户推荐、市场上的持续表现和建立社区等方式建立和放大信任，进而推动市场战略。提到了通过理解用户痛点、提供详尽的产品细节来增强产品部门与用户之间的联系。此外，还提到了创建播客等传统营销方法来加深与用户的沟通和理解。"
+      },
+      {
+        "time": "01:02:57",
+        "title": "PLG策略在金融行业的适应与调整",
+        "summary": "讨论重点在于产品驱动增长(PLG)策略是否适用于金融行业，以及如何根据行业特性进行调整。金融行业与技术行业相比，用户习惯和决策过程有显著差异，因此需要定制化的PLG策略。在金融领域，信任和人脉关系是基础，用户不常公开寻找工具，这与技术行业工程师的活跃搜索习惯形成对比。尽管如此，提供前期价值和免费试用模式仍然有效，能简化后续的销售对话。对于不同类型的金融组织，如对冲基金和银行，决策过程和销售策略需要有所不同。此外，讨论还涉及了销售团队的构建，特别是首几位销售人员的招聘，强调了根据公司发展阶段和需求定制招聘策略的重要性。"
+      },
+      {
+        "time": "01:06:29",
+        "title": "销售团队招聘策略与产品市场匹配的重要性",
+        "summary": "讨论集中在初创企业在特定时期（如2021年）由于资金充裕而过早扩张销售团队的潜在风险。一位经验丰富的销售负责人强调了在产品市场匹配未完全确立前避免过快扩展销售团队的重要性，分享了从实践中学习到的教训，包括如何避免因产品未成熟而导致的销售团队效率低下和人员流失问题。同时，讨论了招聘首位销售领导者的时机和理想背景，强调寻找有创建销售手册经验、适应不确定性的销售人员的重要性。"
+      },
+      {
+        "time": "01:13:57",
+        "title": "给技术型创业者的建议",
+        "summary": "对于首次创业的技术型创始人，特别是来自科技背景的人，建议在对核心用户痛点有清晰认识之前，尽量减少编写代码，保持产品开发的最小化。强调技术创始人初期应专注于销售和市场验证，而不是埋头开发。指出大多数创业失败不是因为技术难题，而是因为产品与市场需求不匹配。强调理解用户的重要性，鼓励技术创始人直接与用户沟通，通过实际的用户反馈来优化产品，以建立对用户问题的深刻理解和同情。"
+      },
+      {
+        "time": "01:18:51",
+        "title": "打造高效团队与保持客户联系的策略",
+        "summary": "讨论重点在于如何在团队扩展过程中维持高效能，防止人才密度的平均化趋势，以及如何更好地激发团队成员的潜力。同时，强调了通过改进招聘、激励机制和明确目标来对齐公司与个人目标的重要性。此外，还提到了通过技术和个人参与保持与用户紧密联系的方法，包括利用销售电话记录和建立用户反馈机制来捕捉用户需求。最后，分享了管理跨国远程团队的经验，强调信任和结果导向的管理方式，以及如何克服远程工作带来的挑战。"
+      },
+      {
+        "time": "01:29:06",
+        "title": "探讨AI技术对商业的影响及挑战",
+        "summary": "对话中讨论了AI技术，尤其是大型语言模型如何对商业领域产生影响，以及面对这些技术时企业所遇到的挑战。AI技术的进展被认为是非常激动人心的，它具有改变人类生活的潜力，但同时也伴随着大量的炒作。讨论指出，尽管AI技术如深度学习自2012年以来取得了显著进步，使用更强大的计算能力和更优的架构，但对于企业来说，将这些技术有效转化为能够真正满足用户需求的产品仍然是一个挑战。特别地，尽管AI可以简化模型训练和数据处理过程，但理解用户需求和提供无缝的用户体验仍然是关键。此外，对话也触及了AI技术如何改善非结构化信息的处理，如语音转文本和搜索技术的改进，以及这些技术进步如何为新进入者提供市场机会。"
+      },
+      {
+        "time": "01:36:36",
+        "title": "探讨语言模型在金融行业的应用与挑战",
+        "summary": "对话集中讨论了语言模型（LM）在金融行业的应用情况，特别强调了对LM的期望与实际能力之间的差距。一方面，尽管LM在生成自然语言方面取得了显著进步，但它们在完全自动化关键工作流程或达到极高准确度要求的任务上仍然存在局限性。讨论还提到了对AI长期潜力的乐观态度，认为AI可能以目前无法想象的方式在金融领域发挥作用，但同时也强调了短期内AI无法替代人类分析师的洞察力。此外，提出了在金融行业中，减少“时间到洞察”的过程和自动化重复性任务是AI可以大显身手的领域。"
+      },
+      {
+        "time": "01:46:54",
+        "title": "应对复杂决策与创业融资策略",
+        "summary": "对话内容涉及如何在复杂决策过程中提供足够的数据支持以证明决策的合理性，特别是从设计和制造的角度出发，需要向非产品使用者明确展示决策带来的价值，如节省时间、提高效率等。此外，讨论了用户体验与产品设计之间的情感联系以及理性考量。在创业融资方面，强调了与投资者建立基于业务基本面的透明和诚实关系的重要性，同时讲述了从系列A到系列B融资阶段的变化，包括市场验证和业务规模扩展的策略调整。还谈到了早期融资阶段面临的挑战，比如市场大小的质疑和与投资社区的沟通问题。"
+      },
+      {
+        "time": "01:57:08",
+        "title": "德国人工智能和领导力挑战",
+        "summary": "讨论者表示对德国的技术发展持乐观态度，并认为它在某些方面能与ChatGPT媲美，强调在寻求编码解决方案时，德国的人工智能已成为其首选工具。作为领导者，他强调了与团队建立深刻联系的重要性，无论是专业上还是个人层面，认为这是激发团队动力的关键。同时，他分享了作为创始人面临的挑战，特别是客户的不满情绪如何影响他的睡眠。最后，他谈到了自己近六个月来的观念转变，即从认为自己需要了解一切转变为强调建立一个强大的团队，信任团队成员的专业能力。"
+      },
+      {
+        "time": "02:01:02",
+        "title": "应对压力与AI的未来发展",
+        "summary": "讨论者分享了在压力之下如何通过忽视干扰、专注于产品与用户互动来找到解决问题的方法。他们强调理解用户需求对于增强信心和产品改进的重要性，并深入探讨了产品技术层面的问题。此外，对话转向对未来AI发展趋势的预测，特别是多模态模型和合成数据的重要性，预期这将是AI领域的下一个重要趋势。通过这次对话，分享者总结了自己在创业旅程中的学习和洞见，希望对其他创业者有所启发。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "The journey of building Da"
+            },
+            {
+              "children": [],
+              "content": "The impact of software and AI on the financial industry"
+            },
+            {
+              "children": [],
+              "content": "Strategies for identifying and validating startup ideas"
+            },
+            {
+              "children": [],
+              "content": "The importance of customer interaction and understanding user needs"
+            },
+            {
+              "children": [],
+              "content": "Balancing customization and standardization in product development"
+            },
+            {
+              "children": [],
+              "content": "The transition from a technical founder to a leader"
+            }
+          ],
+          "content": "Main Themes"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Concept of a financial data web application"
+                },
+                {
+                  "children": [],
+                  "content": "Pivot to a reader application for financial documents"
+                },
+                {
+                  "children": [],
+                  "content": "Final focus on automating financial modeling"
+                }
+              ],
+              "content": "Initial Ideas"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Emphasis on simplicity and user feedback"
+                },
+                {
+                  "children": [],
+                  "content": "Using landing pages and prototypes to validate ideas before full development"
+                }
+              ],
+              "content": "MVP Strategy"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Integration of AI to enhance data accuracy and update frequency"
+                },
+                {
+                  "children": [],
+                  "content": "Human-in-the-loop approach to maintain data quality and address edge cases"
+                }
+              ],
+              "content": "AI and Automation"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Expansion of company coverage through automation and human verification"
+                },
+                {
+                  "children": [],
+                  "content": "Continuous improvement based on user feedback"
+                }
+              ],
+              "content": "Product Scaling"
+            }
+          ],
+          "content": "Product Development"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Importance of direct communication with users to understand their needs"
+                },
+                {
+                  "children": [],
+                  "content": "Use of customer feedback to guide product pivots and feature development"
+                }
+              ],
+              "content": "Customer Interaction"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Early validation through sales and customer engagement"
+                },
+                {
+                  "children": [],
+                  "content": "Emphasis on understanding the customer's willingness to pay"
+                }
+              ],
+              "content": "Market Validation"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Focusing on specific market segments to build a robust product-market fit"
+                },
+                {
+                  "children": [],
+                  "content": "Utilizing PLG (Product-Led Growth) and community building for market penetration"
+                }
+              ],
+              "content": "Go-to-Market Strategy"
+            }
+          ],
+          "content": "Market and Customer Understanding"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Shift from focusing on technical details to leading and building a strong team"
+                },
+                {
+                  "children": [],
+                  "content": "Emphasizing empathy, trust, and transparency in leadership"
+                }
+              ],
+              "content": "Leadership Transition"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Building a high-performance, distributed team"
+                },
+                {
+                  "children": [],
+                  "content": "Balancing autonomy with accountability in a remote work environment"
+                }
+              ],
+              "content": "Team Dynamics"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Navigating the complexities of scaling a team while maintaining culture and productivity"
+                },
+                {
+                  "children": [],
+                  "content": "Overcoming the challenge of managing a cross-functional and international team"
+                }
+              ],
+              "content": "Challenges and Solutions"
+            }
+          ],
+          "content": "Leadership and Team Management"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI’s role in automating repetitive and data-heavy tasks"
+                },
+                {
+                  "children": [],
+                  "content": "Limitations in AI's ability to generate original insights"
+                }
+              ],
+              "content": "Current AI Capabilities"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Potential of AI in improving product development processes"
+                },
+                {
+                  "children": [],
+                  "content": "Emphasis on augmenting human capabilities rather than replacing them"
+                }
+              ],
+              "content": "AI in Product Development"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Anticipation of AI’s impact on reducing time to insight for financial analysts"
+                },
+                {
+                  "children": [],
+                  "content": "Speculation on AI’s role in generating unique insights and decision-making"
+                }
+              ],
+              "content": "Long-term Vision"
+            }
+          ],
+          "content": "Future of AI in Finance"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "The journey of building Da showcases the importance of iterating on product ideas, understanding user needs, and leveraging AI to enhance financial modeling processes."
+            },
+            {
+              "children": [],
+              "content": "Leadership in tech startups involves transitioning from technical expertise to building and managing teams while maintaining a deep connection with customers."
+            },
+            {
+              "children": [],
+              "content": "The future of AI in finance is promising, with potential for significant improvements in data analysis and decision-making, though challenges remain in generating truly original insights."
+            }
+          ],
+          "content": "Conclusion"
+        }
+      ],
+      "content": "Onboard Podcast Episode Summary"
+    }
+  }
+}

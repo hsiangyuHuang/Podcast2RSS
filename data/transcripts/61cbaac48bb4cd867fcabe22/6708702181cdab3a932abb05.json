@@ -1,0 +1,2175 @@
+{
+  "pid": "61cbaac48bb4cd867fcabe22",
+  "eid": "6708702181cdab3a932abb05",
+  "title": "EP 62. Google Deepmind 与LLM研究员深度解读OpenAI o1 及LLM+强化学习新范式",
+  "task_id": "klrbn2yw342b95zy",
+  "transcription": [
+    {
+      "time": "00:00:03",
+      "text": "欢迎来到onboard，真实的一线经验，走心的投资思考。我是Monica.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:09",
+      "text": "我是高宁，我们一起聊聊软件如何改变世界。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:00:15",
+      "text": "大家好，欢迎来到Amber，我是Monica。你们期待已久的最硬核、最干货的OpenAI OY模型技术解读来了。上个月最值得关注的事件当然就是9月12号OpenAI o一模型的发布了，大家对于这个模型可谓期待已久。而open I的CEO sam altman也称之为新范式的开始。通过结合强化学习reinforcement learning和trainer thought的思维链技术，o one在处理物理、数学、编程等等非常复杂的问题时，甚至能达到该领域博士生不相上下的水平。我想这段时间大家也看到了不少分析、猜测和解读，也希望能真正理解、强化、学习如何给大语言模型带来新的逻辑推理能力，这种能力的来源、实现方式和未来潜力又是怎样的？会对行业有怎样的影响？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:06",
+      "text": "莫妮卡这次就邀请到了非常重磅的嘉宾来做了一场三个多小时的解读，相信会给你非常不一样的视角和启发。这次的嘉宾最重要特点就是都有实际训练大模型的一线经验。其中两位就来自reinforcement learning的绝对高地的google，也是阿尔法狗、阿法祀等一系列世界领先的强化学习工作的发源地。Kim icon是google deep mind research engineer，他在safer读书的时候就接触强化学习，从机器人到现在的大语言模型，对于强化学习的理论和使用的严格有非常系统的理解。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:41",
+      "text": "我们的返场嘉宾艾瑞克利是加州理工的博士生，在google cloud自我研究员。大家都猜测欧万将蒙特卡罗树搜索MCTS应用带来的LN是提升逻辑推理能力的重要方式之一。艾瑞克就发表了多篇LN和MCTS结合的论文，同时还有苏辉在国内的互联网公司负责大模型训练，从预训练到RHF都有过一手的经验。同时我们还邀请到了recall house cage，他在O一出现之前的几周就写出了LM和LL新范式的猜想和解读。他们的公众号海外独角兽的文章也非常值得大家关注。这次探讨会涉及很多技术细节，而嘉宾长期在海外工作学习，也难免穿插英文，我们就不接受抱怨了，尽量把涉及到的概念和文章都写在show note中，方便大家的深入理解。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:33",
+      "text": "准备好你的小笔记，enjoy邀请几位嘉宾做一个自我介绍，跟大家简单介绍一下你的过去的经历。你是怎么开始进入到LM或者说强化学习这个领域的。当然了，我们老规矩是有一个fun fact，就是除了O一之外，最近你看到了一个比较有意思的project或者一篇paper，可以跟大家分享一下。好，我就从我们的今天的返场嘉宾eric开始。Eric.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:03:05",
+      "text": "hello大家好，我是eric，我现在是在google做LM相关的研究。然后我主要是做一些LM的post training reasoning，还有multi age相关。然后我开始做LM应该是大概两年前，那个时候我们instruction tuning这个概念刚出来不久，然后我们在做一些plan相关的一些模型，主要就是去scale up这个instruction tune数据，去看看对模型会有什么样的影响。我做RL主要是从去年开始在google内部做pm two以及german来的时候，去做相关的一些研究和工作。然后一个最近比较有意思的paper，我觉得最近我觉得有一系列pp都非常有意思，是LM加MCTS。我觉得这一块就是把planning融入到做reason，LM的reasoning是比较很promising的一个方向。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:04:13",
+      "text": "正好这个NCTS也是我们后面要讨论的一个话题。你对于对对这个名字还不是那么了解的eric，正好可以在在这里跟大家简单的介绍一下。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:25",
+      "text": "MCTS是一种蒙特卡罗树搜索，是一种比较经典的搜索算法。他最经典的还是之前google deep的做一些下围棋相关的一些AI的项目的时候，广泛的用到被大家知道。然后在LM的reasoning这一块，我观察到门的卡罗树搜索这个方法主要其实是用在两个方面。一个是去产生更好的高质量的合成的reasoning的数据。另一个就是在influence time的时候，能够把planning也能够融入到你在做reasoning的步骤中去。可以考虑到把MCTS用来去去用来去优化你的reward，优化你的reasoning路径。我觉得这两个都是对非常有意思的一些方向。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:05:24",
+      "text": "我们自己最近也有一个paper是用MCTS的方法去帮助做一些去标注一些process surprise tion的数据。因为大模型做reasoning的时候，他会有时候有一些reasoning step会可能会犯错误。但是让人类去标注这些每一个reasoning step的错误和正确性，是非常非常消耗资源的。我们就是用MCTS加一些蒙德卡罗的估计，然后去优化这一个方式，然后提出一些完全不用人来帮助，只用靠AI能够拿到一些feedback和annotation我也会。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:06:08",
+      "text": "把今天嘉宾提到的这个project，还有paper的链接都放在sonos呗。我多问一句，大家都是说如果要继续提升reasoning能力，要加入这个multistep的数据，它主要是在配用于这个prochain还是在post train的阶段。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:06:22",
+      "text": "对它主要在post training中会起到一些作用。比如说在RL的过程中，如果只是比较经典的RHF的话，那最终可能只有在最后你才能知道一个答案是正确还是与否的。然后你需要依靠模型自己去判断。我可能是在整个推理的过程中哪几步出错，或哪几步其实是推理的非常的准确。但是有了这些process visitation的data的话，其实可以能够让模型更好的去学它的value function，可以更好的在R的过程中知道其实就更更淡色的知道哪一个reason step是错的，哪一个reasoning step是对的。这样能够提高训练二的效率。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:07:10",
+      "text": "的确MCS在在LN的训练中，包括他有没有用到OR也是大家经常讨论的一个话题。后面会请艾瑞克来跟我们一起来讨论。好的，下一位kimi OK。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:07:22",
+      "text": "首先非常感谢莫妮卡今天的邀请，然后我是kimi I中文名叫孔令杰，我是斯坦福的机械和计算机双硕士，不过我至今依旧没有claim的这个CS的degree，这样我就可以赖在斯坦福再去读个part time的g business school。我其实是一个robots by training做control theory出身的。我主要做的是这个state space model，但是不是现在大家俗称的memba的state mode model，是纯control theory的这个face model。然后只是member就是一脉相承的这个经典的control theory一些东西。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:07:57",
+      "text": "然后我做其实AIML是非常偶然的一件事情，就是我在斯坦福的时候，当我的这个机械快毕业的时候，我非常偶然认识了这个final amount。然后他当了我几年的advisor。我当时正好在上他的这个public graphic model和deep gender model的课。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:16",
+      "text": "然后当时非常偶然的是应该是2016年。那年那天就是雨下特别大，然后没有人去上课。有一天上课的时候，只剩下我一个人在教室里了。Somehow我就跟the final认识的非常熟了。然后the final就非常encourage me to explore learning approach to solve body control problem。然后我就跟final开了一句玩笑的话，我就说if you want me recommend letter，I apply for ACS degree. Lucy, I got them again. 我我自己第二个的这个CS degree three story。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:46",
+      "text": "所以说大家不要轻易翘课，每一节课都是上有惊喜。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:08:51",
+      "text": "不要轻易翘课，虽然那是一节video recording的课。我非常清楚的记得我那天是迟了两分钟，我走进了教室才发现一脸迷茫，觉得今天要给大家上网课，突然来了一个人，他非常的开心。But anyway I feel side story.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:04",
+      "text": "然后我其实是一个纯的robots和reinforce learning出身的人。在之前的话我是在2016年在microsoft实习，然后毕业之后在AWS和Monica是同事。我主要是在AW的时候立过两个项目。一个是一个distributed notion的项目，是帮助amazon robot怎么用这个分布式的方式来更多的搜索，更多的采集数据，来增加21训练的速度。同时我也lead过一个medical image，是CV相关的一个项目。然后在那个之后，我在2023年初，就是google massive ve live的前一周加入了deep mind。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:49",
+      "text": "我在google主要做刚开始的时候是帮google用2L做一些forecasting的一些task。后来这个sofa的LM type主要在做，之前是gen的auto evo，讲白了就是用LM来evaluate大家新春说他的perform是好还是不好，这样是不是更skilled的solution。最近主要是在做这个agent，帮google的s department用agent的方式来增加他们的广告点击率。说到这个paper和project的话，我觉得我最近非常inspire把一篇非常老的paper，这篇paper叫scaling law reward model over optimization，是大概2021还是2022年的时候open I的一篇scaling law paper。但这篇scaling law paper跟别的scale law点不一样的是，它是focusing在rework mode scale，当大家现在在做22的时候，其实一个非常mysterious component is reward model，right how you are, how you how you sign good model.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:48",
+      "text": "都不能了。所以我觉得在我读那篇pack的时候，其实给了我非常多的灵感，项目的话，其实我最近非常迷curse我每天从google下班之后我用cursor我觉得我用cursor一天大概在家里3小时敲出来代码，估计我在google可能敲一个礼拜的。所以我还是觉得这个东西是一个非常mind blowing的事情。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:09",
+      "text": "我好奇，就是你做也是一个资深程序，那你你觉得你用会替代掉你用那个copy吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:11:16",
+      "text": "电话可怕的，我觉得。Curry code作为一个好的feature叫composer，就是你可以直接用一个check preface来stifle的一个完全没有任何file的一个project。我觉得这一点是发做不到的，我的我的VS code已经删掉了，我可以稍微说几句curser如果对这个观众不太知道的话，其实curse r讲白了它的股价是一个VS code的for。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:39",
+      "text": "因为microsoft的VS code是一个开源的项目，然后它底层其实接了各种不同的大模型，比如说class 3.5，比如说原来的OY那他们最近又接入了这个，不好意思，这个FO然后他们最近也介入了OY我觉得它跟这个copilot相比，唯一的一个好处是copa behind the thing。我估计原来接的是一些比如说微软基于mo open翻译的一些小的模型，或者后来接入了这个FO，但是对他成本靠非常大，他一直没有把自己最好的模型拿出来，以至于这个cloud可以非常容易把最好的模型，比如说cloud 3.5，那个accurate可以把最好的，比如说cloud 3.5各种不同的模型接进来。我觉得这个相当于而言是一个对于VS code的优势。我觉得另一点，它相当于做了一些更基于AI programing的一些对于VS code的界面的优化。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:25",
+      "text": "我刚刚说了一个就是我非常迷的一个feature叫composer feature。它可以帮我非常快的skype的一个project出来，which is so made. 就比如说我想写一个对于一个machine engineer的话，有可能我的前端已经非常不好了。我觉得很多年不做become也做的非常不好了。但我希望quickly用几个back and手搓一个。比如说那个chrome plugin的话，我完全就可以用科学，我可能一两个小时就可以做出来了。Which is like impossible before.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:52",
+      "text": "对对于对于可能就是我想稍微关注AI这个领域的朋友，应该最近都能感觉到他的这个出圈。大家简单介绍background就是其实应该是22或者二三年就成立的一个公司。他们应该就拿了open I的最早的funding，把整个coding的process能够很好的融入到从the chat，然后到coding，然后再直接放到你的这个idea里面去run。整个process都在他们新做的这个ID里边。他们在换了新的这个model了以后，不论从语言的理解还是从coding的能力上，有了一个极大的一个一个提升。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:25",
+      "text": "然后在最近爆火，也是最近拿到了这个AC型Z的新的一笔融资，估值应该是四个亿美金，很有意思的是他们应该两个创始人应该是MIT的00后创建的。因为很久没有没有人想过IDE还是一个重新可以做的一个事情。所以从我觉得从一个投资的角度，我觉得还是挺感慨。AI这一波里面的这些年轻人用AI怎么能够做出很多AI native的一些产品？好，非常谢谢kimi的分享。苏辉也可以跟大家自我介绍一下。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:57",
+      "text": "好的，莫妮卡。大家好，我叫苏辉。然后在下皮出来之前的几年时间，我在就微信的AI做一些deal system，包括这部分时代的一些research工作。那个时间点大概从有meal渐渐的往LM的research过渡。然后后来就拆出来之后，就是来加入创业的大军营的大潮，创业过一段时间。然后来因为一些原因，现在在大厂里负责一些大模型的一些方向，包括模型的训练，也包括一些前沿的一些research study，或者说一些比较创新型的应用的探索。我对爱尔的话也是从在早期的RHF的那些工作开始follow起来。后来包括见证了从可能从各种remote的设计的变化，到包括各种训练范式的变化，各种插PO的一些迭代。然后到如今会在一些应用场景上大规模的探索强化一些写的落地的方式。然后找到是从用户的反馈到模型的迭代的一个比较好的一个路径。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:15:00",
+      "text": "因为最后一个说我觉得是有是吃亏了。因为之前本来我也想说cose r这个项目，因为我我我其实用cose r用的也非常多，也是感觉基本上有点离不开了状态。不过因为前面嘉宾也说了，我可以提一个research project，或者说一些我最近比较我觉得非常好的就是应该是艾伦朱的那个physics LM工作。它是一个系列。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:15:24",
+      "text": "然后从去年开始到最近，其实他跟air的R的关系没有那么强。但是他在reasoning的他的作用比较多的一些我认为相对solid的一些实验和一些结论。虽然说它的实验规模比较小，在一些小的规模上，但是是非常扎实的可控实验的一个过程。很多research paper我认为在当今都应该向他学习这种工作方式。并且我觉得可以follow他的工作。其实研究一下reasoning，包括跟现在cham sort的关系，包括跟通过R是如何去提升，其实沿着他的这个工作脉络是非常好的一个开始。对我也在这里就把这个工作推荐给一些刚刚进入比如说LM或者是reasoning方向的研究者。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:16:11",
+      "text": "你为什么会觉得说这个是值得大家学习的一个研究方法？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:16:16",
+      "text": "因为有有一些做research的方式是，比如说基于一些GP four，或者说一些某个特定版本的模型，或者某个siri一个系列的模型。这里做出来的research结论，其实我有时候欠缺一些一些严谨的基础。比如说你可能是因为受制于这些模型，它的就是数据的格式或者说数据的组成部分。但是你其实是对你来说是一个非常黑盒的一个环节。然后你后面得到的结论很可能因为而且你的测试数据很可能也不一定是啊就是在他的训练过程中，你并你完全不知道他是否有过一些偶合。所以你很多时候的结论是我认为是不够扎实的。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:16:59",
+      "text": "所以他其实是从设计了一个相当于一个完全可控的环境。基本上从数据到结构都是自己。比如说训练数据是完全是自己合成的那它的难度或者是它的是逻辑，其实你都是完全自己自主可控的那最终能够得到一个什么样的实验结果就取决于你的数据。你那你在做这个研究的时候，你就会排除掉一些数据的干扰。对，而且因为他也比较相对严谨的在做一些skill的工作。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:17:27",
+      "text": "然后你其实在某些size上的变化，推导一些比较好的结论。当然就是可能因为它的这个计算资源的一些限制，所以并没有做到特别大。但其实如果有计算资源的团队，是可以skype到一个比较大的规模去验证，并且去提出自己的一些理论的实验设计。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:17:46",
+      "text": "大家应该可以感觉到，我们今天邀请的几位嘉宾的确都在这个领域，都有很深的研究和实践的历史。所以我想今天的讨论应该会给大家很多启发。最后我们的call house cage也可以跟大家介绍一下。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:18:01",
+      "text": "Hello，感谢猫警察邀请call host。我现在是在石像里的AI技术相关的投资研究。然后在学校我们是研究AI的海外独角兽。比如说我们最近是发在OE发布之前写了一篇叫做LOM的范式的转移，RL带来新的steam law。然后这篇文章是对RL草莓这个技术路线做了比较多的分析和预测。感觉这OE发出来之后还是挺符合当时的一些分析和预期的。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:18:29",
+      "text": "然后在加入时尚之前，我是在字节做的data scientist，在CMU做过NLP research。当时是在bert最火，然后GPT2发布的时候做过一些berta。然后VAE结合的文本分析说到concept，就是最近我我那个我关注之前写文章的时候，关注LM加MCTS的paper比较多，分享一篇不太一样的paper。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:18:53",
+      "text": "之前看过nature有一个认知科学的文章，它和OE能量能力上限的还挺相关的。这篇文章叫做language is primarily a tool for community rather than thought。这篇文章想表达的意思是说，语言可能不直接带来人类的思考推理、reason能力，只是一定程度的去反映出你的思想，然后去做文化传播。极端的例子就是失语症的患者也有完整的逻辑推理能力。那么投射到今天我们聊的OERRL这条路线上，很多就是一个implication，就是语言会多大程度反应和压缩我们的思考推理过程。这可能取决决定了未来像IL这条技术路线，LM未来的一个能力上限。还挺有趣的，在这里分享一下。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:19:44",
+      "text": "非常有趣篇文章。所以你觉得如果说假设这个是对的，的确这个就是我们超越语言来去做这个瑞摄影的话，对我们的这个一模型的training的方法，需要怎么样的数据都会有挺大的影响，或者说给我们提供了新的思路。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:20:01",
+      "text": "对不对？是的，我觉得如果人类语言并不是推理最好的形式，这个是挺有可能的。那么很可能现在我们看到OE的CU，其实英语的接下来可能这个COT是AI自己发明出一套更高效的形式化逻辑语言来做整个train channel for。我觉得这样可能对AI未来的他们之间的沟通会是更高效。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:20:24",
+      "text": "非常棒。自我介绍的环节都有很多惊喜的地方。而且我觉得也是在我们整个structure之外，能够让大家有一些更更前瞻的感受到。我们邀请的这些优秀的嘉宾都是在每天关注的这些我就前沿的一些进展，所以我觉得非常有意思。好，我们言归正传的就是今天的这个主题，OpenAI的这个o one的发布。问一问几位嘉宾，你们在看到了这个o one的发布以及自己去尝试了以后，你的作为一直在这个领域工作资深的研究员，你们的一个印象是怎么样的？然后有哪些让你印象比较深刻的地方？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:21:05",
+      "text": "我自己玩了欧冠之后的，我的感觉主要我觉得一个是在研究上面的。首先整体的大思路我觉得是非常有意思。就是他们真正的就去提出来，并且实现了就去skin up the influence time。然后提出这个东西可能会对reasoning有更好的效果的提升。然后实际情况下，我觉得我也我是试着用欧文，我觉得他让我很surprise的一件事情就是说对于任何一个reasoning的问题，你会发现它的thinking的process里面，它会自己的会有有不同的思维或者推理的模式在里面。比如说他会自己考虑，我应该要think step by step，还是说我要去我自己的以上前面的一些思考错误的地方。我感觉这种自己能够去决定我应该怎么去做下一步思考，这个能力感觉非常的有意思。这是我感觉在之前的一些比如说GDGBT4这些模型中是没有看到的情况。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:21",
+      "text": "但其实这个O在o one的就他展示出来的这个逻辑推理的过程都是还是比较有限的。你觉得他藏了哪一些东西，你是希望他能够review.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:22:32",
+      "text": "出来给大家的。其实这里面我觉得和刚才一个嘉宾讲的也很类似。我自己也不太确定一件事情是他藏的那些thinking的process s是人类可读的还是人类不可读的那我能想象比如说之前关于的相关方向，有很多paper会研究会发现其实你确实kelso的这个越长度越长，对模型模型的表现会越来越好。包括也有些尝试是说我去真正加一个special token，就是think token。然后会发现这个也能够让模型思考的更多，它它的performance会更好。但这些think to token对人类来说是不太知道它背后到底讲的是什么意思。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:23:25",
+      "text": "所以我的感觉是这个think process如果它是可读的话，我相信他应该会有很多自己的一些想法。不只是说我要下一步的推理模式，我要做什么模式。我觉得可能甚至会有我为什么会选择下一步，我要做自我反思，或者为什么要选择下一步我开始解决，我开始去把这个问题去分解成三个子问题等等这些更偏远思考的这种范畴。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:24:03",
+      "text": "有哪些觉得做的不是很好的地方。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:24:06",
+      "text": "确实我自己尝试了一些。比如说我有一个经典的例子，就是算strawberry里面有多少个字母，那我自己换了一些别的去计算发现。在这方面其实有些确实o one还不能达到非常高的准确率。但是我觉得这个是可以接受的。如果它只是一个LM而不是一个系统的话，我觉得有些事情确实也不需要让IM去做。比如说做一些计做一些计算机的计算等等这些。所以我可能会更关注于它内部的这个reasoning pattern，能够有一些有很很有意思的表现。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:24:45",
+      "text": "Eric聊到了这个测试，这个star berry里边有多少个R有些听众也许会很好奇，为什么大家总喜欢用这个问题来去测这个LM？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:24:55",
+      "text": "我自己认为这个问题其实并不需要强求有让LM能够去做到。因为这背后也包括了本身它这个内部实现LM的实现的原理，它怎么去做to nize等等这些。所以我会觉得这种这些事情可能by nature可能如果有些to use这些去做，可能是更自然的事情。但是但其实这些但其实比如说数一个单词没有多少个，这些事情我觉得对于人类来说会发现可能给人类一两example就能够做的很好。但是有时候给LM一些两三个example，但是也不一定能做的很好。所以这是一个比较简单的测试，就是LM能够能不能够知道我们自己的一些一些input到output这种mapping，然后去了解理解背后的原理性的东西，这是一个比较简单的测试的方法。但是我觉得更更science fc来说，我觉得作为在一些数学或者coding，或者一些很难的，比如说量子物理等等这些上面的一些测试，可能是更好的能够看出来模型它的reasoning的performance到底怎么样。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:26:18",
+      "text": "非常感谢eric的这个记载。那那kimi.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:26:21",
+      "text": "引用那个天然头，就是那个USLA的数学professor说的一句话，他就说the experienced，roughly on par, is trying to advise a mediocre, but not completely incompetent graduate students. 我觉得在某些方面，我觉得欧文对我还是非常惊艳的。就比如说在我原来用这个curse做class 3.5的时候，经常他会给我写出来暴击扣，然后我就去跑一遍，然后说OK err message，然后我就把它贴回去。然后考到三点我说i'm sorry，OK, I made this mistake. Refine your code.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:56",
+      "text": "他可以帮我把这个之前错误的东西帮我fix，一般处理可以跑得好。在我用open时候，其实他更多时候其实可以分成smooth。我是一个pass，可以帮我把code写出来。这个东西就相当于涉及到了一个hand。The thing就是说如果他这个code写错了之后，他能怎么能把它给soft core来。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:13",
+      "text": "就相当于刚刚两位嘉宾说的这个reasoning token这个事情。我觉得让我觉得非常有意思的一点是就是怎么来定义reasoning token。就是它是不是有一个explosive reasoning token，还是个impact the reasoning token whatever。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:26",
+      "text": "如果我们去看这个o one preview，我觉得最让我感兴趣的是那个那个max的那个example。你可以看出来serve一个mass问题的时候，我觉得mass和coding其实OPPO还是比较相似的，在很多方面。但如果你看到mass的问他可以写写说我要这样。然后他说alternatives let's consider this。然后他又做了一些东西，他说actually alternative let me consider this。我觉得他在不断的去self refine他自己的一个thinking的过程，which sounds to me is pretty fascinating.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:53",
+      "text": "这样就不需要我human in the loop去correct很多mistake了。这是欧文我觉得好的方面，不过这个o one不好的方面，就是说这个怎么来定义，这是个非常sometimes me uka graduate对吧？我觉得你应该在网上看到很多网友就是拿这个o one问了一个非常有意思的问题，就是说how to install这个什么哭的还是啥来着，我忘了。然后那个网友晒出的游戏，就是说这个东西think for twenty seven 2想告诉你说i don't know他这个训练数据非常focus on的方面，它的表现还是非常惊艳的。但在另一些方面，其实他还有很多的局限，我非常期待他们未来的工作可以去further。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:28:30",
+      "text": "你觉得还有哪一些局限是希望在可能下一个版本里面看到的？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:28:36",
+      "text": "我觉得这个几个方面，怎么样让他的数据的coverage更多，怎么让它的数据的evaluation的的方式可以更scalable。他有一篇我觉得open I的这个工作让我非常fascinating。就很多年前的一个叫PRM的工作叫process reward model。他们不是reward整个MQ and sequence，而reward每一个subsequence也是open的。另一篇paper叫let's verify step by step，我觉得open I应该是花了非常多的时间去invest怎么来做数据这个方面，就是他们具体的工作我不知道了。我觉得这个对于无论是google还是anthropic或者whatever的这些公司其实。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:18",
+      "text": "The fundamental reality is all about how can you create a lot of high quality data, and then about how define high court, 对吧？就是你需要一个scalable way to to future out high court data。然后你future high court data时候，很多时候你给它标reword signal的时候，你就需要一个scalable way to not just give a sparse reward。不是像数学问题说OK eventually is right wrong，但是对于很多的问题，其实是没有一个close solution的，你非常难去evaluate这个东西是一个好还是坏的事情。这样子的话，你怎么可以define一个systematical way to actually scale to label high court data。我觉得这是个非常我觉得faster问题。但是说如果这个问题可以被解决，我可以期待这些reason task可以有再往上一个质的水平的飞跃。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:05",
+      "text": "你也提到其实open I就放出了很多跟数据相关的这些工作，那你觉得说就是要训练出o one这样的model，你觉得需要怎样的一些跟以前我们训练LM不一样的这个数据，获得和处理这些数据又有哪些难点？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:30:23",
+      "text": "我觉得这是一个这是非常好的问题。如果如果我们take a step back，open I刚发布第一版，我刚刚open刚发那个instruction GPT paper的时候，当很多年前google还非常focus on做high quoted SFT的这个数据的时候，然后这个instructor GPT剑走偏锋，说我要做这个preference的数据。其实fundamentally不论你是做SFT还是做RHF的preference data，你都需要非常好的数据。但是这边的一个tRicky的点在于to reference high quality的数据其实是比SFT的数据好做的。所以说他们play的第一个track是用了一个比较smart的方式来可以更加highly scalable high quality的数据是一个preference的数据。我觉得这是他们的第一个的让我觉得非常惊艳的地方OK。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:15",
+      "text": "然后你可以做了这个preference的数据了，但是是一个sparse preference，Spark preference的意思就是说你只有把这个conversation结束之后，你就是说对于整个entire conversation，你觉得这是好还是坏。但是这个的话如果中间有很多intermediate step的reasoning，你其实没有办法对其实中间的每一个intermediate step来做打分。然后欧派后来就说OK let's continue our work。What else can we do to actually creating this preference data? But also preference data was a fun and reward.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:45",
+      "text": "然后他们就做了个let's verify step by step，说，我们怎么能verify这个preference data，not just by the final rating, right? How can actually verify for the intermediate step? 然后在他们在做less very fast time by step的时候，他们做了这样的一篇他们其实发了一个数据集叫PRM800K就是一个verify internal step by step的数据集。然后我觉得其实这一套研究的思路就被他们一脉相承到了今天来做O一的这个过程。但是fundamentally我觉得我们要解决的方式是怎么用一个scalable的方式来标注一些high quality的数据。但是说这些high quality数据不一定要是一个SFT的数据，这些high quality数据可以是个preference的数据，或者说有可能某一天我们有比标preference数据更容易标出来。High扩张的数据可以让这个scaling law再做一个ten XOX100X，在数据方面的这个是law，我觉得这个模型有可能又可以达到一个新的值方面的飞跃。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:32:40",
+      "text": "刚刚kimmie提到stable，我想讨论一下，就是当时那个instruct vd出来的时候，and有一篇paper叫做constitutional AI他们就是用RL from AI feedback。放在open这个领域的话，我们比如说要有高质量的reasoning tokens这样整这个数据。如果我们今天去复现欧文，有多少会是人类的高质量标注，然后有多少未来能借助AI慢慢的做好。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:33:10",
+      "text": "我觉得是这样的，就是人类标注其实可以用不同的方式来使用，最straight word的方式是direct preference optimization对吧？大家在做RHF的时候说，这个train real model太复杂了。然后我在最后乘以RHF的时候，我要用这个PPO对吧？我的不但有现在的模型，在我的my，在我的memory里面，我之前的模型在里面。Complicated, let's just train DPO, right? Let's just do direct reference organization.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:35",
+      "text": "大家当然做DPU的时候的一个好处在于，其实我不需要这个机器的数据，对吧？如果我人标了一些数据，我这些人标的数据是可以直接用来做纯，我觉得这是最直接一种用法。第二种的用法就是说如果你需要用ROAIF来给你来标你的prevent数据，那你这个AI的模型come from word right？Is actually chicken ice cream.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:57",
+      "text": "You want a model, can, you know, do go work to, uh, to help you create high quality. But before that, you actually need to train a high quality model. Y这就成了一个chicken airport。所以大家会做的事情是说，OK我先用人来标一些数据，然后我把人标的数据来train一个reward model。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:34:14",
+      "text": "我有了这样的一个reward model之后，就是说有别的数据它其实没有preference，我们就用人的方式来像人一样来标它。其实上这样的标的方式其实相当于说是一个ROAIF的方式来给这个模型preference fee back。但是这个RAIF就有可能又有它的potential问题，就会导致这个东西叫reward hacking，对吧？就是说OK就是作为一个人而言，他给我的不一样的这个response，我有可能非常systematically analyze。我说OK我知道这是好，这是不好。比如说你现在确认了一个模型的非常terrible safety，right? So if i'm asking a unsafe question, the model is not response you.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:34:51",
+      "text": "Uh and then from a reward mode perspective, you know uh, I might say okay if you do not respond to me that just a good thing, 但其实this is a really bad scenario。I有可能你问了一个问题IT should response you，but the language model might just explore this, uh, this, uh, this, uh, this factor of the rural model. 所以我觉得其实of war is a very，is a very interesting and tricked topic. We need to spend more time investing on how to train a role model. I think that I should fundamental component on how can we further scale RHF training or RAAIF training.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:35:26",
+      "text": "关于我使用欧网的一些例子，因为我之前很喜欢除了丽蔻的这种周赛的题去贴之外，我会测一个那种复杂场景下的旅游问题。就是我所我所谓的复杂场景就是指你很可能是一个家庭，你还要去进行一些跨国的旅行，然后你可以贴一些，我的problem里面一般会贴一些你买的机票的时间，然后有一些景点。基本上之前在测试GP4的时候，他有的时候他会给出一个看上去还可以。但是其实你去仔细看里面的一些行动细节，你会发现他比如说他根本没有照顾到我这段路程的时间，在车程上的时间，导致我这天可能就奔波于车程。其实我在今天的时间非常少，然后这种细节上我就是他并没有考虑特别好。但我其实我这次又测了一遍，我然后我觉得其实让我非常的impressive。因为有一个细节就在于他甚至还考虑到了我从因为我当时我经常会选择，就因为我觉得北京和这个纽约市就是模型学的最多的两个城市，可能至少在这个旅游攻略里面都不会少。然后他会考虑到我到那边的时差的问题，然后就这种他会把换算好这个时间点，但是已经是几点了，那你应该先休息，然后再怎么样，然后要判断好一些，让我在我看来就是有点像一个贴心的这种。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:36:48",
+      "text": "如果你真的请一个地推，他可能会跟你说的一些比较DPI的东西，然后还会考虑到一些不同地区，比如说中因为美国哥伦国内，他这个博物馆休息的关闭的时间是不太一样的。然后这种就看上去非常很细节的设计，会让你觉得还是蛮蛮不错的。然后从这个case里面，如果我我们只说里扣的这种周赛这种题，确实反映的是它的代码和这种比较直接的数学推理。可能是他强化学习里面非常好去定义这个reward的的方式。可是我觉得泛化到这个场景，就是在至少在这种就是我觉得旅游上可能如果说不是因为泛化过来的能力，我觉得是很难做到的。我倾向于这个是他从其他的比较好，这我觉得要么两种，一种是他找到了一种比较好定义通用类型的reward的一些方式，就是通用任务上的reward reasoning的效果也能够去给比较好的反馈。另外要么就是我在这仅仅是学。像code和mass这种强reasoning的方向上，我也能够泛化到这个场景。至少我从结果上看是它泛化到了一定的程度了。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:38:03",
+      "text": "就是像你所说的travel planning这种，我日常需要做的一些相对复杂的一些工作。这个里面所需要做的listening跟我们这个什么coding，数学题做这个reason有什么不一样？就比如说我觉得你刚才所说的这个东西，应该是一个，比如说一个特别好的是秘书，特别好的travel agency去做的特别好的EA或者travel这个秘书，他不需要是一个IOI的金牌，对吧？他不需要懂coding。就怎么理解这对这两个能力之间的一个转换？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:38:35",
+      "text": "我觉得这个是大家对reasoning的一个定义。可能比如说你做code或者math这种reasoning的，你是在解一个明确的一个问题。然后中间我们有这个思考过程，其实是推理过程，但这个往往是逻辑严谨，并且是基于符号学去做的。但是还有大量的reason，你其实是基于你的common sense，就是你的你在你对这个世界的常识的认知去做的一个推导。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:39:01",
+      "text": "我举个例子，比如说现在现在在下雨，那你可能去卖伞，可能是一个很好的生意。这是一个其实那那在下雨天做什么生意会更好？其实是一个reasoning的过程。就是你需要知道你可能对这个世界的尝试有一些比较通用的了解，并且你还能泛化出一些也许以前没有人在，我只是退一步说，如果以前没有人在下雨天卖过伞的话，你可能从一些其他的商业化的方法，然后你泛化到了这个场景，我OK我应该卖出去会卖的更好。这样的一个我认为其实也是属于reasoning的范畴里的。所以旅游这个场景更贴近我刚才指的这种场景。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:39:39",
+      "text": "因为他要考虑到的事情其实是有逻辑顺序关系的。你比如说我就应该我获得一个好的舒适的体验，我就应该考虑到这个。比如说一个大家族里面，可能如果老人他的体力不行，那我就应该规划什么样的一个选择题。其实以前往往大家都会用一个比较复杂的agent pipeline去做这个事情。但是，而且有有需要大量对业务理解，或者说就是你自己去定制定一些规则，然后在prompt里面去设计。但是现在他能够很好的理解OK我要出事，其实我就意味着我不应该去花大量的时间，比如在舟车劳顿上，对吧？这个是common sense的reasoning。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:40:15",
+      "text": "Reasoning这一块的能力在ON上的一个提升，它的主要的来源可能有哪几个方向。如果你要去做一个拆解的话，你觉得可能是在我们之前这个LM训练的这种范式中，加入了哪几个你觉得比较重要的component，让他有了这样的一个能力。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:40:33",
+      "text": "跟你说的问题是如果我去性格的话。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:36",
+      "text": "我会做这件事。可以这么说。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:40:38",
+      "text": "这个OK我就班门弄斧几句，我也不知道OK first 3，我不在乎开对吧，我并不知道他们怎么训出来。如果我guess的话，我觉得是这样的，就是我估计我已经说了非常多遍，我觉得is all about data right。如果你可以看，就是不是reasoning非常fn fundamental的能力，其实这个大语言模型做的是非常好的。为什么大约模型在这方面做得好，其实这些数据是非常available的对吧？你可以理解成stack over flow就是个question to code的一个问题，wikipedia是个真正的QA的问题。这些数据is so accessible，right? The quality is so high.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:16",
+      "text": "你可以非常说这个VKPI page被点了多少次，这个stack of floor的这个link被人up了多少次。Is very easy to feature. Figure out, you know what is a high, you can just pray, train the men. You can align IT. 所以这个模型在这些performance上是其实非常straight的，就非常好是不出意外的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:34",
+      "text": "然后说到reasoning这件事情，首先怎么define reasoning，对吧？但是说最关键的是怎么能有reasoning的数据。就比如说if you trade internet as a public tasted，我如果问Monica这个问题，你觉得什么数据集是个非常好的reason的数据集？你会觉得你会去去哪里找这个东西。我们刚刚说了question answer，我们就是VKP的是个非常好的question answer，对吧？Stack flow写码的人觉得这是code。其实我也并不知道什么是个非常好的reasoning，数据这块你并不知道去哪里找这个东西，就paper对吧？There a lot of .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:08",
+      "text": "other reasons. 知乎问答那是感觉非常的noisy.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:42:12",
+      "text": "那是刚玩，那是玩ICNI。我觉得知乎上其实有一些比较不错的这种，比如说网这种这种AIML的这种做的科普的东西，我觉得。OK that might be a good reason that fundamentally, 其实这种非常长的逻辑念reason data其实not public available的对吧？那其实我们相当于说要做的是一个换一个思路的怎么来产生这些数据。我个人就是我个人的bat的是其实很多的这些都是synthetic。January出来的，通过了各种不同损坏的方式january出来，通过不同的future的方式，把好的future留下来。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:45",
+      "text": "比如说写一个数学题，就3X加五等于这个100，求X等于多少？你你你你有可能就问LM说OK我知道这个结果有可能X等于，我忘了我刚刚自己说了什么了，我就sum这X等于50对吧？是个正确的。你会说OK，你问这个LM你说OK这是这道数学题，我想解的就是我有的结果。请你help me reason a throw step by step，就是因为你已经知道ground choose是什么，对吧？",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:10",
+      "text": "相当于这个LM其实是在你force它的情况下，它把它的reason你完全expressly告诉你。但是然后你可以说OK你知道结果是10。如果他reason到最后他这个东西写出来结果不是10，那你就说OK this is the very reason I don't want IT。你有可能就是说跑这个，如果你知道Brown choose，你有可能跑个100次对吧？然后你把它中间你觉得最好的high work的一些东西，通过either hurries或者一个reward model方式把它future出来。或者你完全不知道什么是对的，什么是错的那你可以通过一个self consistent的方式把它future出来。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:42",
+      "text": "其实我觉得更多的reason数据集是通过这样的since的方式来force to LMUK。Now you must read on, then tell me what you are thinking, step by step, 然后把它不好的数据去掉，把它好的数据留下来。其实我觉得更多时候reason这个能力是会不断的desole出来的，就好比就是说我这个PHD？我现在在在在在写paper，你有可能你干的事，你先读了很多的paper，然后你要干的事情说OK我来想想reasons时候，这些people都读了，我大家有什么idea，然后all eventually come with your own，you come up their own idea.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:12",
+      "text": "我觉得它是一个不断的吸收消化的过程，只是LM的话我们要force他说OK你必须消化它，告诉我你怎么去消化这些知识的过程。然后我们把这些数据再返回来去给OM，让他有一个更加reasoning，而不是说反过来只是给你出一个答案的这个过程。这是我的个人的一些看法，我也非常希望听一听别的嘉宾的一些想法。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:32",
+      "text": "我追问一句，就是这一类的数据它的形态也跟我们原来很多这种one show的这种形态不一样。那像这种数据的这种训练方法上，从你会猜想有什么难点。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:44:44",
+      "text": "现在language mode就是两种训练方法，对吧？你挨着就是纯nef t或者是RH，我觉得这个DPU direct reference formulation，我觉得其实越来越泛化成其实跟2a check没有特别大的区别了。你可以选SFT。如果你能非常的知道，你所有的贝塔都是非常好的。我觉得SFT so define。但是就像我刚开始说，你很难generate出来非常high school的SFT的贝塔赛，你有可能这个东西说OK我有这两个结果，这两个可能都不是我特别想要，但我觉得A比B稍微好一点。然后你可以用这个A的reject tory通过2L的方式把这模型往好的地方推一点点，说OK我更prefer AOK你看到A这种结果你更倾向做A一点，但有可能A不是最好的，但请你不要倾向于做B然后这个模型说OK通过这个step，I know a little bit Better, is a Better solution OK.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:45:32",
+      "text": "那你现在基于之前的base模型，你有一个step back的模型了。你通过这个模型你有一个step batter的模型的时候，你再把同样的query再办模型一遍，说ok我知道你do one thing Better。Now given这个问题，请你再给我reason一遍，你会有拿到两个preference数据对吧？你说我这次觉得这个A跟B有可能这这次有可能B比A好一点，但这次的B和B比A好，但这次的B不但比A好，这次的B还比上一次的A也好。相当于说你可以把你的这个模型的frontier再往前推一下。然后通过不断演化这个iteration的方式加上reasoning的方式，让这个模型慢慢具有了更强的reason的能力。就是fundamentally是一个我觉得是一个更多的是一个二楼的一个是就像刚才我就说后面你想讨论一个topic了，就是self play的一个idea。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:46:18",
+      "text": "最近也大家也看到了很多的demand也做，像alpha genomic，就这些在特定的这种math的这种碳酸表现，很好的要让他来去解各种数学题。产生这个数据是不是它是不是也可以用于o one这样的模型的训练。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:46:31",
+      "text": "我并不知道这个of geometrical的这个base模型是啥，我think maybe is not。就像刚刚前一位嘉宾说的，就是说你必须其实要有非常强大的base模型，你才能有在一个某个某一个时期的抖音更好的功能。如果你的base模型不行，其实也是do domain这个问题基本上很难做到的。然后说到你刚刚说的，其实如果你可以在一个其实你造这个domine service问题，其实相当于是更简单的，对吧？你可以用个更specific的rower model来去，如果你可以选一个do make specific的模型，如果你觉得这个括数据的扩是好的话，你完全可以用它的数据来反哺一个跟gens的。这是我自己的一些个人的想法。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:47:08",
+      "text": "很有期待。那跟eric你有什么补充吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:47:12",
+      "text": "对我自己觉得主要的两点还是数据和强化学习这两块。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:19",
+      "text": "数据方面我会觉得从o one的reasoning这么好的表现来看，我觉得很可能我们需要很多的数据是关于对reasoning的preference的数据，和kimi刚才讲的就是process的reward model，然后reasoning reward model是很相似的。就在这里我觉得如果有一个很好的o one model，那我怎么去训练得到一个很好的o one model。我觉得就是我应该要去让这在数据层面，我应该希望他的reasoning step是更加make sense的，更加高效的，甚至是更加optimal的。所以说我会觉得设计一个reward model去去帮你去评判一些reasoning step哪一个更好，哪一个不好，这是最重要的一件事情。然后如果有了这样一个reward model，那么从data的since合成data这块是这一块就会相对比较好的去解决。因为就包括我们刚才一开始也讲了一些MCTS这些基于这些reward model，然后来去产生一些更好的合成数据。这些就可以结合在一起去产生更高效好的更更高质量的reasoning的数据。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:48:39",
+      "text": "然后我自己是比较相信模型产生的reasoning数据是远远大于人类的。因为如果你让人类和模型都做一些做一些题目的话，你会发现人类大多数生成的内容都是毫无逻辑可言的。但是是模型其实相对是会遵循一些的逻辑性的。所以我觉得合成数据很可能是能够o one训练出来的一个主要的因素。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:49:11",
+      "text": "然后另一个第二块我是觉得强化学习的重要性是更加凸显了。我看到最近open I一个研究员，他也分享了一个他自己的presentation，是don't teach insensitive。就是说更多的是说我不是再去像以前，比如说两年前google还是非常强调SFT，非常强调instruction tuning这一套思路。但现在我们发现，因为LOM太强大了，所以说我去真正的去教他怎么去做。Reason是非常难的一件事情，而且也不是最优的一件事情。因为人类的很多的reasoning可能都不是一个最优解，但是反而我更多的是应该是利用二的思路，就是让模型自己去探索，你应该怎么去推理这件事情。我只是告诉你最终的结果是好还是不好，我去奖励你还是惩罚你。然后我觉得这样的话，模型它自己能够figure out可能比人类更好的一些reasoning的思路了。我觉得这是一个我感觉o one给我的感觉就是RL它的重要性是更加的被强化了，而不是说在以前我们tradition那个InstructGPT里面，RHF更多的是做一些alignment或者safety这些这些相关的事情，这是我的一些看法。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:50:38",
+      "text": "这个是不是就有点像大家发现这个阿尔法狗自己下着其实比其实其实他产生了一些人类的哪怕顶尖的棋手都没有想出了一些一些这种做法。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:50:51",
+      "text": "我觉得现在的LM是有这个能力的。比如说很简单，我们我们大家在做RHF的时候，一个非常头疼的问题就是reward hacking的问题。为什么会有reward hacking？其实就是你的模型它的他的能力特别强，他能够甚至找到你reward model里面的一些不完美的地方，去利用这些trick，然后去增加自己的瑞提高自己的获得的reward。但其实他并没有有，它并不是只是因为你reward不完美，但并不是说他发现了真正能够做的更好的。所以说如果你有一个很好的reward model for reasoning，那么我相信你的LM是能够有那个能力自己去找到了一个更好的reasoning。Pass等于是让他自己去优化这个过程。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:51:43",
+      "text": "那感觉整个AI的，我觉得感觉整个AI这个行业，我们非常明显非常common的一个patent。就是AI能够代替我们很多的人类自己设计的一些模型的architecture，或者自己设计的一些workflow。然后他能够去automatically去optimize这些。所以我觉得这也是一个很好的一个例子。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:52:10",
+      "text": "我在最后追问你一个句，如果说我不需要模型去学习我的这个step，怎么理解跟这些multistep data之间的关系呢？是不是说其实如果我有个特别好的real world model，我其实就并不需要这么多的multi step data。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:52:27",
+      "text": "这里面是相互关联的，就是multi step data的前提，如果他能work的前提是说你对每一个raining step你的一个判断，你的你所谓的对他的reward的给他的一个打分的判断是非常可靠的那如果你有这一步的话，那这种比较dance的这些reward是非常对你的L的吃也是非常有用的。但是我觉得这个o one给我的一种感觉就是说在做一些reasoning的时候，我们不需要去去用SFT去告诉模型。你应该比如说解一个题目的时候，就刚才一位嘉宾提的，比如说3X加五等于100，你不需要先算100加减5等于3X可能你可能直接去带一些公式，或者你可能有些别的更好的一些的方法，直接就能解出来。这个题目不需要用人类去写自己的reasoning step，去教给他如何做reasoning。而是更多的是去对他的每一个reasoning step，或者一个整体的reasoning ss pass做一些评判而已。不要去尝试教模型怎么去推理，而是说只是对他的推理做一些奖励激励。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:53:47",
+      "text": "苏辉听听你的什么ebag.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:53:49",
+      "text": "其实我觉得有一个还蛮比较重要的一个方式方法，就是它解决了一个至少我们之前很多人在做MMTCS和RM结合的时候会发现这个强化学习你在用的时候，就是关于这个力度的一个问题。你到底是比如说你是以token为力度去做，还是做以比如说一个sentence，或者说某一个，或者说以step为单位，或者这样去做一个反馈。其实我看很多关于他chao sort中的一些例子，我发现还是有一些明显的。像就像是一些分其实没有分割符在它他因为summary ize出来，我们只能在open I就是他官网上给出过完整的那个cham操作的例子。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:54:35",
+      "text": "然后有一些例子里面会有很明显的一种语气词，就是很像我们人类在聊天过程中会做一些停顿，或者说你你我不我不知道有大家有没有在做一些题的时候，脑子里自己在想，我我是不是可以在这里画根线，好像也不太行，但是就停顿一下，然后加了一两个语气词，因为你要唔一下。然后这些词我在他的完整的强磁的一个词里面看到的，然后我会觉得还挺神奇的。因为这个某种意义上来说，是相当于把你脑海中的，就像是自己跟自己聊天的那个声音，给搬到了前后厕所的里面去。然后我会觉得这里面可能有一些人类标注的影子在。就是我我们很可能是他很可能是通过一些方法获取了一批非常高质量的现有的大量的数据。并且把它以它的action是比较的切的比较开的，就是你是以step的为单位去切的，然后让模型能学到就是我是以这种方式去就是我去某某个step去，然后我去给word的反馈一次，意思就是好不好？然后我再去是不是要去进行一些比如说回收或者reflection这样的一些动作。然后这个其实相当于他把这个条路给做work了。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:55:53",
+      "text": "然后我看到的这个至少我看到了他的前后测的例子，能够让我觉得是他是按照这条路线走聪明的那那其实给很多人一个比较强的应该是信心，就是沿着这条路去走，应该是至少能够做到这样的一个程度，我觉得还是蛮重要的对。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:56:10",
+      "text": "我们前面也提到，就是你不需要用这个大模型来去解一个特别简单的数学问题。如果你问他一个特别简单的数学问题的时候，这个模型似乎用非常复杂很绕的方式来去解，这个是为什么呢？然后如果说这个模型有很强能力，他知道一个很简单的比大小或者说加减的一个数学题，或者一个简单推理，其实不需要这么。用他最inflow最高的这种方式。那为什么他不会自己去找说那我就用一个计算器的方式来去解决就好了。这个是一个模型能力的问题，还是说它只是一个这种to use这种可能偏engineering的一些问题呢？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:56:52",
+      "text": "我看到欧旺这个出来的时候，其实还挺，我第一反应是他为什么以这种形式给大家见面呢？因为对某种意义上来说，因为其实欧欧派其实自己也展示了，他在有一些任务上，比如说tax writing什么，其实在比较上是不是略输于比如说O的表现的，他在强推理的这些场景都是完胜的。就是我比如说我很多同学会去试一些比较，在我看来可能还比较能业务的一些问题，然后让欧旺去解决。其实没有必要用这个模型去解决，对吧？但是大家都会去做这个尝试。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:57:29",
+      "text": "我当时我觉得如果你是deliver一个好的产品的话，其实你应该deliver的一个是一个比如说你做过一个root LM的一个策略。比如说我认为一些需要强推移的模型，我才走欧网，不需要走强推理的，我可能就用FO或者for mini就能把这个问题解决了。可能对于一个用户界面来说，感知比较弱的我并不需要去感知我调用的哪个模型，对吧？我其实我只要解决我的问题就好，而且付出的token有比较少。强的问题我就让这个欧旺去解决，然后弱的问题我可能就不需要强推的，我让这个4或mini去解决。但我我我认为这个其实对如果欧派想做是一个非常简单的事情，但他没有这么做。因为我后来我想明白，他可能还是比较因为在这个就OKI他跟别的，比如说做pipeline或者是那种产品的逻辑不太一样。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:58:15",
+      "text": "它其实就是纯纯的model service的一个一个他每次deliver一个产品，就是deliver一个新的model。所以我现在不管你这个query适不适合用欧旺解决，我都用一套逻辑去解决你。所以不管你是问的一个简单的问题，还是很复杂的问，他都会用欧旺这个模型。而欧旺的模型又是他的训练，整个训练逻辑就是强推理环境下训练出来的。所以即使是遇到一些非常简单的问题，他还是要走很复杂的前后搜索去解决这个问题。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:58:46",
+      "text": "然后在这个过程中，他并不着急的就是跟之前的他的一些比如说tour use或者说一些像其实是其实虽然我们也知道它是一个多模态，其实应该是欧冠也是一个多模态模型，但是并没有那么强的去宣传这件事情，也没有在用户界面上非常好的体现出来。我觉得其实这些它都是可以被结合进去的。某种意义上说，我们现在体验到，比如说赫尔发布之后，就完整版的FO的表现，其实跟欧网后面的各种事情其实都可以被集成进去，包括to use。但是他这个阶段他并不用并不想在做这个事情，他只是想秀一下我欧旺这个强reasoning模型到底是个什么样的模型。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:59:33",
+      "text": "苏晖说的这个我特别同意，就是因为我自己也用它回答了一些很简单的问题。但他会想想42秒，然后会给我一个非常简单的回答。所以我的一个感觉就是OpenAI有点research和产品有点分离了。咱们一开始还聊到person了感觉。如果是pressure做这个事情的话，可能就是前面先给一个问题，先我先把问题打好之后at对吧？然后艾特的时候它会自动给我补全一下，到底是at o one还是at 4O可能他就能找到更准确的模型来负责这个问题。但我觉得这个model routing应该是open I接下来一定会去做的方向，因为这样对我们的使用体验会更好一些。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:00:16",
+      "text": "从去年大家开始讲agent的这个概念的时候，就会提到这个to use。直到现在我们其实并没有看到这种比较通用的age能够做的很好。大家觉得说其实核心是一个这个foundation model的推理能力的问题。第二步是说他得了解每一个他能够用哪一些to对吧？那些哪一些to他们的他可能有哪些功能和局限。后者是不是你们觉得相对来说就是一个比较工程化的问题。只要我像o one显示出来的这个reason能力足够强了，其实后续再要去做一些这种可以帮我们去SQ去执行任务的agent，其实都是相对来说比相对来说是比较容易的。还是说这个过程可能还有什么我们看不到的一些gap。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:01:03",
+      "text": "我觉得欧派在interview tour的时候，他也比较纠结。因为其实某种意义上你这个tour是要覆盖面比较广才有意义。如果你只是我一个比如说calculator或者是一些什么查查天气这样的API值的话，如果我要稀释到这个程度，对他来说其实工作量又很大，又并不能直接的在产品上可能覆盖的全面。然后其实他他要做的事情只是说我提升，我只要提供一个能够对很好的去理解你proper tour的，比如说function的这个理解，并且该怎么样去调用这件事情。这个其实有还是有蛮多reseach工作去他们去验证了这个事情，基本上都在生产真实的生产环境里面做的还是很好的。他一个强的非常，你只要有非常强的prompt的理解和reason你的能力其实你只要提供足够完善的你的上面的一个说明文档，基本上对于这些你能够符合你的生产环境里面需要用的一些不能提供出来。那其实模型是在该适当的时候都能够去正确的调用，并且发挥出比较好的结果。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:02:13",
+      "text": "对我觉得一个单一的LM有一个很强大的reasoning的能力，这是去构建agent一个比较一个很foundation的一个基础。那open I自己也在他发布自己觉得不同level的AGI的时候，也觉得可能level one只是一个chat board，然后level two就是一个reason。能够做一些可能比一些PHD能够更好，甚至比human更好的做一些reasoning的能力。然后到下一个level才会是针对一个agent system。然后可以去take action，可以去决定应该怎么去处理复杂的一些task。所以我觉得reasoning感觉像是OpenAI，还是在一个基础的foundation model层面去努力去把这个push的bounty，我相信agents的话应该会我相信是会next level。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:18",
+      "text": "它并不是我我觉得并不会是说我的每一个foundation的LM做的足够好好之后，agents就自然而然能够做到很好。因为agents它更多的涉及到是多个LM多个AI agents相互它有包括一些相互的corporation，甚至complete completion。然后怎么去合作分工，然后去解决一个复杂的系统，复杂的task。我觉得to use是只是一个component，以及怎么去分工。然后它这个系统的设计，我觉得这可能是从一个reason变成一个agent system。这过程中可能接下来应该会面对的一些挑战，这是我的一些想法。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:04:05",
+      "text": "的确我们也看到从创业投资的角度，今年以来看到了很大的一个变化。就是在所谓这个agent ops就agent的info这个领域出现了很多这样的这样的公司。当然都是些更偏工程，更凸领的方向。对我的这个已经说明了，大家开始很多的这个agent至少已经多多少少进入一些生产的环境。大家开始要去想，我怎么把它作为一个产品，作为一个像艾瑞刚说的这个系统来去管理起来的一个方法论了。所以我觉得这个也是我觉得今年看到的一个一一个趋势。正好听听kimi，因为kimi刚前面也提到你也在做也在做一些agent的这个工作。欧曼这个提升会对你的这个工作会有什么样的影响？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:04:48",
+      "text": "两点，我稍微echo一下，大家就是前面讨论的两个不同的地方。第一点就是说这个open I为什么不做一个什么router这件事情？我觉得open I foundational believed是一个Richard的那套search and learning will saw everything，any conventional problem, we actually get washed the way. 所以我觉得对于他们而言，他们不是不愿意做这个事儿，而是他们觉得这个根本不是他们的live的一个信条。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:14",
+      "text": "然后说到agent的这件事本身，其实我非常同意前面这个苏辉和艾克分享的。就是说如果你想有一个模型，有更强的agented world floor的能力的话，其实无非我个人觉得这么四点。第一点，你需要有一个非常强的base model，然后reasoning，其实提升base model一个非常好的方式。第二是你要有非常好的突，你不能给我这个to给我的结果是非常noise and that的就是你需要有一个非常好的to。就是我如果问你这个问题，你给我的结果是非常concise的，在下面你需要有非常好的prompt，我觉得so far其实agent现在还是个非常over prompting的一个过程，如果大家就是我我会有有有的没的玩一些，比如说开源的这个agent的workforce auto gene，什么crew AI、bra。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:00",
+      "text": "其实你会发现一个非常trick的问题。你有可能随随便便你用了一个agent work low，然后现在open I是如果4O的话，大概是应该是15块钱一个东西的。OPPO发现你就用了一次h agented graph，你突然有可能就一个meeting token就出去了，你自己都不知道发生了什么。所以怎么去写一个更好的problem，instruct模型做这个事情也是非常trick的一个。最后就是learning对吧？你通过OK你现在有个非常好的base模型了，你也知道直接吐了，然后你也有个好的，那你怎么来incentify这个模型更好来使用to，什么时候来用to？为什么这个应该用to a而不是to b就想白了又回到了你需要curate很多agent的数据集来解决这个问题，然后同样通过二维的方式来解决它。我觉得这是我个人对于这个agent的说法的一些看法。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:46",
+      "text": "听起来这agent的数据集比你前面所说的那些要step by step的这个数据集，听起来还更难去找。就说你没有这些是不是？比如说先通过一些像前面说的，可能它是一些engineering方式做的agent先做出来，然后收集了一些数据，然后再看这个里边有哪一些逐渐可以被automate，或者被被这个AI直接去做。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:07:11",
+      "text": "我觉得两点，第一点还是跟之前一样，是怎么通过这个since的方式来来使用工具的。Meta发的那篇two former paper，就是说你怎么来create告诉模型怎么用to的这些数据，对吧？这是一种一种一种方式。另一种方式你也可以理解成，其实我们每天在google工作，我如果说的难听一点，其实我每天不就在帮google标数据，对吧？就是大家跟我说写个这个feature，我给他们写了一个code，相当于我帮他们做了这个question to code的数据集。那google可以帮我就是干的事情去train他们内部的模型，对吧？有可能不是一个public模型，这个内部的模型，然后有可能我在写课的时候，我说这一段我写个prom，然后我sample我又调了一个to，其实我帮他做了个agents for low的数据集。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:51",
+      "text": "怎么能做一个产品，让这个产品可以foundation的让用户帮你找数据，这是一个非常这是个产品方面的问题，这已经不是科学问题了。比如说tesla对吧，tesla就是个非常棒的产品，但是更棒的是我们每天在帮他调数据，你开着车很爽啊，你知道我同时在帮他调数据，你都没有感觉到这个事情，觉得是这样的两点。但你不能让人非常的不开心去帮你label这个事情。因为你们不开心帮你label事情，他帮你做出来这个数据结构就非常低的，除非你excitin ze他们非常多的money。因为我听说好像什么open I high了一堆，什么数学PHD，什么一小时几百刀帮他们标什么reasoning数据。我也听说了这个rumor，I don't quote me的就是你怎么能把标书这个过程嵌入你的工作流，让你免费把这个事情干了，然后直接某一天把你取代了，对吧？That's a perfect product. 对的。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:08:38",
+      "text": "其实刚才大家也反正提到这个trainer thoughts，对于这个可能只是听到或者不是那么了解的。同时大家可以解释一下，就是train of thoughts到底是什么。而其实train of thoughts这个COT的这种方法其实也不是新的，其实前两年就开始提出了。那到底欧文在用这个trainer force的时候，跟以前我们所说的channel force使用又有什么不一样的地方？我想要不，苏辉你可以聊一聊。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:09:08",
+      "text": "好呀好，其实其实枪少的是一个还挺可能从2022年就两年前，就是第一次被提出来应该是街政伟的那篇paper，然后京东现在也在open ID然后他当时的那篇paper我印象中就是他在解决一些问题的时候，在答案中如果你给出更详尽的步骤，而不是直接给出答案这件事本身他就会做的更好。但是后来在同可能同一时间点，还是过了两三个月之后，有另外一篇就是提出less think step by step这件事。因为你你你你在prom里面，如果强制让他说the thing that thing prop a step，那么你在生成的过程中，他的他自然而然的机会向前有搜索的方式直接生成了。然后这两天这本应该是算是奠定了前有色的的一个基础。应该很后来很多工作会去都会在的这些工作，并且也会在基于他们的工作去做一些改进。然后在很短的时间内，应该是这个前后测的就会被就在mass reasoning，包括像consents reasoning，还有一些logic reasoning的一些task上就开始去刷榜。包括大家会发现就是我我用上这个之后，我的提升就会很明显。然后这些这里面也其实还产也产生了不少paper，然后有一些research，cher也去把全部都用在一些玛奇model的reason上，就是像v visual两个model这些。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:10:30",
+      "text": "然后再到后面，变化就越来越多了，包括我今就是分成两大派，开始或者主要流派是做显示屏的这种全部操作，我一定是有显示token表现出来，然后这里面会有很多可以玩的地方。就比如说你的这个测试本身就是一个structure是吧？但是你到底是一个串式的structure还是tree结构的structure，甚至还可以搞一个图structure去做chaster。然后那你你生成的也不仅仅是我Linda的这种前后头，就是不是不是传统的，而不是仅仅是这些按顺序生成的token。你还可以去做一些verification对吧？你还可以做一些refine。然后这里面把一些你可以就像就有点像现在我们有critic model，或者说有这个role model的一些引入，然后再配合来完善你的前后操作的生成。其实还有一些工作，比如说会把你的这个问题本身就去做一些抵codon，然后你的天鹅salt本身也是被von了，这样其实都会提升一些效果。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:11:38",
+      "text": "然后就是在这些另外一大流派，就刚才我说的都是偏就是显示的，因为大家都会去吧，也认为就是我付出更多的inference token。我其实也呼应了现在大家提到的skating influence computer这件事情就是我付出更多的这个inference token，我最终就能提升reason的效果。然后还有一个流派就是我做一些影视的调整。这里有一些有一些可能最近有一些researcher也在做，就比如说像什么把什么system two整理到system one里面。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:12:05",
+      "text": "当然就是很难的任务确实还是很难做，但是会有这个research方向，大家认为说transform的潜力还是很强大的。包括我们人类在做一些很多思考的时候，其实你也没有很显示的。有些脑海中的文字出来，你就是在那儿想，即使想，但是突然在某一个瞬间你就想出来了。然后这个过程更更偏向于一个影视，就是还你还是不太可解释的，处于这种枪色的工作也会有。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:12:33",
+      "text": "然后这里我可能额外的说一些我最近的一些发现。包括如果我们把reasoning这个事情看成跟比如跟千鹤涩的非常相关。那我们我们往往认为如果我比如说我生成的这个token更多。比如说如果我有一个模型它的深度很深，就是呃这个为call back泽源他这个physical RM里面提到这个事情，他发现虽然我们做skin o的工作的同学会发现，就是说你可能你的总参数量其实会跟你的loss或者说更更相关的，或者是下一表现。但是在reasoning这个task上，他认为深度这件事情比宽度更重要，就是你的模型越深越好。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:13:21",
+      "text": "然后感兴趣的researcher或者说就是lab也可以做这个实验去验证这个事情。的确我们也看到了很多工作，比如说最近的像迷你CPM应该是V3，还是对他们的那个模型一个小的模型。但是虽然很小的模型用了非常深的层，就可能有六十多层这样的一个可能业界会收敛到这样一个结论，就是我去即使在参数量固定的情况下，我宁愿牺牲我推理的，我说的这个是inference的那个成本。因为你越深，其实你的instance成本是高的。就比如你在做优化的时候，肯定是宽的模型要比深的模型要好优化一些。可是我宁愿把模型做深，但是我做的更就是layer层数更多。但是我带来了我的reasoning的提升。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:14:06",
+      "text": "我们在生成这个token的时候，如果我每生成一个token其实就过了一遍这个层数，对吧？那如果我们把我生成的总的这个token数跟总层数做一个关系，就是我生成的token越多，并且我每个token过的这个层数越多，其实都有可能提升这个reason的效果。至少看上去就是前后做的本身是在增加我生成了token数。但是如果我的模型又越深了，那两个乘在一起就会相当于我inference的时候，就过了更多的layer，就token过了更多的layer，且并且每个token又变多了。然后它存在一起，你的其实cost会更高。然后在这个层面上他们其实都有发现能够提升reasoning这个表现。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:14:48",
+      "text": "然后我觉得包括就像一些家加一些reflection这样的操作，其实以前在千呼送里面就有很多人做这个事情。就比如说因为你之前LM最大的问题是不能够回撤，如果我身上的token已经错了，我就没办法在纠正自己之前错误，只能顺着这个错误往下，然后会导致很多很多人的问题。但如果我显示的去学这个pattern，就是我允许你去reflection这个过去的问题。那OK我之前刚才我说的真的是有问题的那我继续去等于说给你一个回撤的机会，把这种数据pattern加到训练里面去，其实也提升了很多在reason任务上的表现。然后在某种意义上它也是增加了你就是生成的token的数。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:15:34",
+      "text": "毕竟你还是在你反思的过程中，其实引入了额外的token。但最终的表现就是我们看到的这么一个结论，就是你提高就是你生成的token的数量。无论你是通过层数升提升了这个，然后还是通过直接通过生成脱坑数提升，最终都能够在reasoning的表现上得到一定的提升。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:15:58",
+      "text": "我请教一个问题，就是前面说到COT，然后在前面我们也聊过MCTS。这两个概念总队请几位嘉宾介绍一下，就是在OE这个框架当中他们的关系是怎么样的。因为COT听起来后面的演化也有层数的深度，也有tree of thought，听起来和蒙特卡罗树的思想可能已经比较的接近了。所以大家觉得这里的耦合会比较深吗？",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:16:24",
+      "text": "技术的发展它是一个相互影响的，就是你在在不同的方向在做的工作，最终会看到一些相似性。尤其是其实这些工作应该是独立开展的，就是各自在因为你在研究是如何我我如何使用产物所提升模型的表现。还有一方面是通过从算法层面去提升模型表现，但最终殊途同归。都可能看到了就是用一些就像MCC的这样的方式去做。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:16:50",
+      "text": "对你觉得o one他使用china thought方式跟之前我们去之前LON的时候，他使用方式可能会有哪些不一样的这个地方。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:17:03",
+      "text": "其实有一个很大的改变，就是我们如果说其实之前闹过一个乌龙事件，就是那个reflection那个model大家可能还有印象，就是前可能两个月前在推特，对，就可能跟那个lava 3V1样，就是相当于一个有点道具，就是属于你你看你其实只是SUT的一小部分的reflection数据，然后claim自己是一个很强的模型。但最后大家发现并没有那么好，就是某种意义上是不太honest的一个行为。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:17:33",
+      "text": "但是这种pattern其实是有在验证的。就是我们在SOP过程中，比如说你就用一些reflection表现的数据，并且这个数据的标准质量比较高。就是它跟传统chal salt，你我们一步步解决问题，它是就是不带回溯的过程。就是我并不会去反思我之前的问题出在哪里，我都是执行的顺序是完全是我下一步的结论，就是一定是几几乎是几，就是在我上一步的上得得出来的。但是如果你有reflection这个操作，那其实就有很多回撤的空间。也许就模型在生成欠out的之前，他其实很可能已经知道是怎么做的了。但是在生成嵌入色的过程中，如果他犯错了，他就没有机会再返回去了。其实他也很痛苦。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:18:19",
+      "text": "但如果你给他reflection机会的话，只要他最早他确定就能把这个问题解决，他最终是能够把这个事情做对的对，这个我觉得是就欧旺展现出来的前后搜索的的例子，和我们之前做前后搜索比较大的一个区别。当然就是我刚才也提到，就是在有已经有一些之前在前后的工作里面，也有一些这种朴素的思想，用想要做回撤这个事情。但是你的回撤因为你是从SMT方式去学习的。其实或者说你只是通过外部的一些verify的一些模型，它没有removal那么强，没有那么强的real model。提供一个police的学习，然后我觉得会弱很多，或者只是学到了一个表象的一个行为，就是我可以去回去。那也许你学到后面就会变成你正确的，也会去回撤。他只是学到了一个pattern而已，他并没有真的理解自己在干什么。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:19:04",
+      "text": "刚才开始那个问题，我其实也想听一听eric的这个想法。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:19:11",
+      "text": "我觉得其实这两个是有相关性的，但也就像刚才另外一位嘉宾讲的，有点殊途同归的感觉。比如说在change salt这边的话，我们看到有很多衍生的研究。比如说chain of salt是chain，可能有有tree of salt，graph of salt这一系列的文章。这些他们也会也会也也是一种探索。在就是当你的一个当你的reasoning的结构可能有很多个不同的选择的时候，我应该选哪一个最好？MCTS作为一个比较传统的planning或者是搜索的一个方法，它也是去估计在我有多个在传统的RO中我有多个可能的action去做的时候，那我哪一个action可以有更大的get更大的reward，get更大的value。所以这两个我觉得都是是比较高相高度类似的。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:20:12",
+      "text": "只不过MCTS1开它的发展路数也发展路数是更多的是从之前ARRA zero那一块，就是比较很懂得C下围棋，然后发展起来的。但是像我们是chain sod或trial sod graph of salt这一系列，更多的还是基于这个natural language的情况下，然后只是在LM总之自身演化出来的一个思路，他们本质的思路其实我觉得都是一种如何去规划你的推理。我觉得从这点来讲，其实两个都是比较高度相关的这是我的一些理解。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:20:56",
+      "text": "大家其实都在猜测到底o one里面有没有用这个NCTS。我好奇你的猜测是怎么样，或者怎么去做这样的一个猜测。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:21:05",
+      "text": "我自己也不知道，但是如我觉得如果要用MCTS应该就是有两种方式去用。一种方式就是我有一个非常好的reward model，然后我在做我在做我的thinking的过程中，我会不断的尝试各种路线，然后找到最好的一个路线。就有点像你下围棋的时候，我已经可能我们大家下到一半，然后那我下一步应该走哪里？我可能会去做一些搜索，我可能我有五个不同的next step的action。我每个都去估计一下，他们可能每个能给我多少的potential的reward。然后我去选一个可以最大化reward的方向，这就是MCTS如果在inference time的时候做的思路。你看我我刚才我之前也读了一下你分享的知乎的那篇文章。所以如果如果从这种我们有点reverse engineering的角度来看，如果现在看上去它的如果看上去就是它的time and token cost是线性的话，那可能它MCTS并不一定在这个influence的阶段。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:22:22",
+      "text": "我觉得它由中可能是在data处处理data的阶段可能会用到MCTS。比如说他自己的reward model，他用一个MCTS的策略去找到他最好的一个reasoning data来去教模型，去学习或者训练。或者说在阿里的过程中，去包括把搜索的策略加进来，然后去帮助这个policy model更好去找到他最好的。怎么去做reason？所以我可能如果让我猜测的话，我觉得很可能是一个MCTS。可能是在数据层面或者在RL的过程中的可能性会比在influence type的可能性会大一些。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:23:07",
+      "text": "Call back to king, 我们刚才提到了这么多，跟这个o one可能怎么使用L的这个用法，你觉得还有什么没有cover到的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:23:18",
+      "text": "我就可以take that back跟大家讲一讲就2L到底是个是个什么东西。然后我觉得这样其实会让大家更好理解，为什么2L可以在不同的行业里面有它的应用。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:31",
+      "text": "我觉得RL in total sense for reinforce morning或者叫强化学习对吧？它是idea里需要这么几个component，你需要一个agent就是一个模型，比如说在language里main它就是一个l one对吧？在robotic它就是一个可以是physical robot，也可以是simulation atta game，也可以是google做的这个alphago。你有了一个agent之后，你需要个environment，can I play这个age？那做physical robot，有可能他就要跟他周围的这个物理世界进行交互，但是物理世界是非常难去model的。所以这是为什么我们到现在没有看到这个真正意义上的机器人被在世界上非常广泛的应用。但是我觉得其实这是未来非常有前景的一个方向。我觉得maybe very soon就可以看到robotic domain的这个GPT3.5的这个时刻。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:17",
+      "text": "更generalize的一点的话，在environment，比如说a tara game go吧？为什么211在这些行业有了最先在长足的发展？因为这些是个非常well control的environment，这些world control environment你可以理解成我sample data是free对吧？你做一个LM你要sample一下，你需要run这个L一遍吧？就run这个LM非常的expensive，你要去通过physical role一下，你要run这个robot，等一下这robot可能今天撞坏了。Data which is never set simulation.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:43",
+      "text": "You you can think about just an infinite sampler, right? You can sample at whatever speed and whatever frequency. One你可以even sample even fast in time，对吧？你可以调成比时间快两倍的方式来sample，这就导致了其实这个simulation是一个非常好perfect的reinforcement in就我们刚刚说的，其实三个recap下，我们做了三个东西。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:25:02",
+      "text": "你需要一个agent，which is in a you一个language model或者是一个是whatever model，对吧？你需要一个environment，你可以play这个agent。然后你再往下需要的是一个reward，比如说你需要告诉这个模型它在做一步的时候，它到底是好或者坏。比如说你play a tary game，最后是赢或者输了，是一个非常好的reward，而且是个非常deterministic reward。比如说你下围棋做阿尔法的时候，那你这个go到最后赢了或者输了，这也是一个非常determined reward。然后把这么几天扛拌在一起的话，早期go或者alti是个方非常control的environment。就是导致了其实最开始的第一篇paper，在2L上见到了长足的进步的，就是define的DQN paper。然后再往后DQN的延续有各种不同的DQN的演化，double DQN, DWDQN.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:25:58",
+      "text": "大家不但只是在做value functions方面，大家会做policy network方面，比如说这个reinforce。然后大家说OK我不但需要一个policy net，我还需要一个value network，就要把两个combine在一起，一种act critic的方式。然后这又可以演化成比如说on policy out policy，这就是deterministic sarcastic，这个往后有不同的，比如说demand这个DDPM determent policy optimization，或者说是教书们就是原来立的open I almost后来transformer pic的这位，我非常admire 1 our research做的这个DRPO或者PPO这些这些这些一些paper的工作。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:26:39",
+      "text": "然后其实2楼说到底已经很多年没有在算法层面有了发展了。最索塔的一篇paper应该就是应该是3g loving他们lab出的那篇SAC的paper，应该估计应该是2019年还是2018年的paper了。自此之后其实大家没有在22在算法层面。有了更多的长足的进步了。而现在大家就是在说2L在specific domain，especially in language models.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:04",
+      "text": "Hi大家就是在说OK，how can I是apply RL for Better you know language model application。如果你往回看这个问题，对吧？其实就是说我刚开始比如说你看这个奥法go，大家就是说其实阿尔法狗其实跟拦截什么的非常像。阿法狗也有两个step，有一个retraining step，他们都是当时不叫retraining了，那叫they call imitation了。他们有个invitation learning the step，they learn you know how expert play go.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:28",
+      "text": "他们估计也不叫post alignment step对吧？他们就有一个21的step，就说OK now I have a good base model。How can I do Better than human? 这就相当于回到之前艾瑞克苏辉说的，我们可以让模型不断去find a self to self play。然后在做了alphago之后他们想说我们能不能把pre training这个step去了，对吧？我们不要说training，我们传让他做RL，然后他们就做了一个叫alpha go zero。然后在alpha go zero之后说我们能不能让他play more than one game，所以他们做的东西叫ofa zero。他们不但可以，还可以下日本的将棋，可以下围棋，还可以下个什么棋我忘了。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:28:06",
+      "text": "然后他做了这个之后，他们最终的ultimate的solution是一篇叫museum的paper，就是说你不但在玩这个游戏的时候，你可以把怎么赢得这个游戏学会，你同时还可以学一个simulation network。你同时就是说我given这个environment state和我下面要take的action，我不需要去这个environment sample。我的模型可以帮我predict下一个state应该是什么那如果你make Simon，你有可能会想说，那那LM是不是有可能有一天我就不要锤training，我完全可以用21的这个方式来让他就像到最后做这个FAFAZO的时候，完全让他就纯self play做出来。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:28:42",
+      "text": "我觉得其实这是一个非常难的事情，原因在于它原因在如果一个二，然后是有一个determined reward function。首先language model没有一个determined function，这that that the first job。然后second的话，你需要个control environment。对r tarra game而言，或者的话为了perfect control玩，那你说这个LM是agent，谁谁是environment，那人是environment吧？那我不可能一直在那陪这个LM去去去问这个东西？",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:29:08",
+      "text": "那还只能做很多别的一些trick来做self play。比如说2个LM互相在问自己，那既然你缺少了这两个方点，这两个方向，其实说RL so far只能说在language model domain做一个alignment的的工作，而不是说完全可以纯靠self play r的technique来解决language mode的问题。我觉得这是大概RL的一个演化的过程，以及RL在language model上的一些应用。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:29:35",
+      "text": "可以讲一讲在robots里面的应用跟在在LN里面的这些应用，它又有什么？你之前在做的这个RN robotics的这种工作，你觉得对你现在在做这个LNLM的这个工作会有什么启发可以可借鉴的地方？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:29:50",
+      "text": "我觉得这是个好问题，我觉得nothing but a general technique。只是说robotic LM或者说game is a different application that you can apply our。然后你只是说你可以在这不同的application里面，把这application define成这么我刚刚说的这个state的一个agent，一个environment，还有一个reward function。其实overall我非常怀念当年在做2L的时光，因为当年是个非常纯粹的environment。IT is so simple, and you just win again.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:30:17",
+      "text": "The reward is antidetection you. You don't even do think about this, a reward function is just so simple. I really miss old days actually, to be honest. Now is more complicated. 但是正因为他有complicated，there is a potential this can generalize more than just play our tour game, right? Because is not the terminals just play on tour again, 就是他有一个potential可以journalists on playing other things robotic overall大概有这么几个research的方向。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:30:42",
+      "text": "第一个是local motion对吧？就是stanford tony他们做的工作，其实更多跟language model没有直接的关系。因为他更多做这个local manipulation，就是你需要人demo去更多怎么去操作这个Robert。然后另一方面流派如果你不是做local motion，你是做planning的话，就比如说比较像那个google d卖的，他们就下回他们做的那些当年最早期的CK。就是说你需要robot做一个事儿，但是你需要expressive describe给Robert说，我需要你做什么，而不是说就是demonstrate给他做什么事情的时候，就是这些planning task。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:31:18",
+      "text": "其实这个large language model其实是一个非常popular approach的。比如说如果你看现在deep what tic team的一些最新的paper，从他们刚开始说c can code as a policy，然后到后面的prome之后，应该还有一些一些配合RTY、RTQ、RTX, 这是相当于是两个不一样的在robotic里面的流派。如果是纯做local motion的话，其实跟language model本身没有特别大的关系。更多就是这个imitation learning加上个RO approach这个planning的话，会跟language会其实是基于language model的base model performance在上面做了一些call fine to me，就是因为call fine to的原因是你没有那么多robot data，你不想纯粹用robot data让它的performance被dropped掉。所以你会拿一些robot的data，就基本是vision的data和一些VQA的task一起来这个数据。然后他们后面也会说再去collect一些二维的数据来refine这个model。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:32:14",
+      "text": "我觉得fundamentally其实没有特别多的区别，只是说区别只是你在一个什么应用场景，而且是这个数据是一个不一样的形式来体现而已。它有可能不是个token，对吧？它有可能不是，这是几万个token 0的G它有可能是一个robot的motor的一个force，对吧？一个tour它有可能是个sensor，它只是一个数据在一个不一样的形式的表现。但是它这个backbone都是用了transformer的，架构都是用了RL的。这些training的technique来让这个模型可以更好的收敛，来解决你的special抖音task。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:32:45",
+      "text": "From刚才你也提到了这个self play，到底它在L里边是什么时候开始research l现在整体行业里边的这个应用是怎么样的？你猜测这个o one有有没有用到这个self plan？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:33:02",
+      "text": "这个就不好说了，我觉得但是如果让我做这个事儿，我一定会去做。因为这是self会是可以让你就是不断的去这个scale，你的这个refine的这个过程？就是2L最大的technique在于2L可以让你每一个step to make incremental improvements。但是你需要为什然后你不是说像SFT你吃完一个一炮就结束了，对吧？你可以趁无数个一炮，如果你有一个preference now in one step become the Better，right? 那数据快quality还在那儿。你可以通过这个query再run一遍你的模型，用罗尔帽再做一次标注，你可以把你这quality做无数遍的self。其实我我个人觉得self play其实是可以scale，这个RO的training technique在language model domine的一个非常好的一个载体。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:33:45",
+      "text": "那他跟前面苏辉就是我们讨论到的这个COT之间reflection，COT之间是一个怎么样的关系呢？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:33:54",
+      "text": "这是好问题。我个人的感觉就是大家其实在说COT的时候，更多的时候是一个propping technique。就是说我希望prom这个模型帮我做一个什么事儿，就是我怎么来prom它你可以用COT的方式来解决你的问题，你也可以COT的方式来产生since I的data来turn你的模型。但是这个self play更多的时候是一个training technique。在你train的reinforcement的模型的时候，你想不想用self self play这个technique来不断让你的这个reinforcement learning的step continue下去。我个人觉得其实这是两个比较独立的topic。不过feel free to correct if i'm Brown。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:34:29",
+      "text": "正好听听这个艾瑞克会对于beauty和和self play之间的关系，还有你们对于他在o one或者说未来提升模型的reasoning的能力里边的一个作用。就deep mind danny州的一篇论文，那个名叫做channel thought empowers transformers to slow inherently social problems。但是他这个twitter我觉得写的真的，我在书上写的非常的很能抓眼球，说。What's the performance limit when scaling LM inference skies limit? 如果我理解对的话，就大概意思就是其实这个本质这篇文章其实也是在讲说这个COT是如何让这个transformer的这个能力就提升了。他跟前面KV提到的这个self play又是怎么样的一个关系。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:35:15",
+      "text": "我自己的感觉是COT和self play是一两个相对比较独立的方法。COT, 我觉得COT更多的还是说你这个思维链。然后这些作用通过增加你的influence time的计算，然后能够让你的模型能够去解决一些可能还比较本身比较难解决的问题，self play更更可能我自己知道更多的有点像之前alpha zero那边，通过让他通过自我博弈的方式，能够不断的去incrementally提升自己下午围棋的水平。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:35:56",
+      "text": "对于o one的话，我不知道他们有没有用south play，但是。如果你看这个MCTS这个脉络的话，其实我感觉在LM加RL的这一块，很多的时候大家还是会倾向于去借鉴上一代RL的那些成功的经验。然后借鉴在这个LM加R的这一个方向上，MCTS也是之前deep mind的alpha zero，主要变得非常popular的一个方法。我相信self play即使现在没有被open，I在o one上用，我相信这也是一个非常promising的方式。说不定可能可能可能maybe大家都已经有很多人在研究，我觉得我会对他的未来会比较看好，是一个可以有点像是模型self improvement的一种策略。然后关于Denny的这一篇paper，我觉得我自己我没有完全读，我只是看了一下他的abstract，我觉得这是一个理论理论分析很有意思的一个文章。他能够告诉你就是整现在整个AI学术界，我觉得有时候是需要一些这些理论的文章来告诉我们我们的我们现有的模型它的capability的上限在哪里。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:37:28",
+      "text": "我觉得这是一篇对我来说，我觉得是一个非常insight ful的一个文章。他至少他能够回答一件事情，就是说transformer加COT这样一个架构下，他的表达能力是非常强的。当然我也看到也有人在讲，这个可能和当年deep news network的时候也是一样的。不过我是觉得这等于是告从数学上告诉我们我们的上限在哪里。这等于是可以激励我们下一步就是知道怎么去设计更好的COT，怎么去设计更好的transformer的架构。然后能够去更好的去变成一个更多的。像是一个从一个这个问题能不能可不可解决，变成一个问题，我们应该如何更好的解决一个问题。所以从这方面来讲，我觉得这篇paper是一个比较有意思的paper。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:38:25",
+      "text": "而且另一个我很想分析的insight，关于这些COT chm thought以及influence time的这种skating的方面的想法，就是说更多的是从一个计算不可约性的角度来考虑。就是很多的问题可能去如果想要获得他的答案，可能是有一个minimal的computation cost的要求的。你比如说举个例子，比如说你想要去模拟一个水流的流体力学的一个状态，可能过多少秒钟的状态，那你可能必然而然的是在你要求的保证一定的精度下，你可能至少的一些计算的成本是有一个非零的下限的。就是它你至少要花这么多的计算成本才能够得到这样某一个相对精准的一个答案。我觉得在这个COT这一块也是一个有点相对应的一个体现。就是对于复杂的对于复杂的一些问题，你确实是需要计算机去有一些更多的additional computation，才能够去得到这样一个相对有进度的解。对，这是我自己对现在COT以及为什么大家会觉得它是一种adaptive的computation的一种概念的理解。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:39:52",
+      "text": "我先呼应一下关于sky这篇paper。对我还是体现这个我觉得其实这篇paper在在推上还是引起了很多讨论。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:40:06",
+      "text": "然后像天东老师这样一些researcher其实是有点反对这样的一个说法。他毕竟他说claim他的这个Q点其实和那个两层神经网络能够拟合任何函数其实是一样的，就是只是在自己在构造一个位置，能够去拟合某一个target的函数。但是其实你能你理论上能不能达到这个solution，或者说你能不能够找到一个更好的路径去达到这个solution，都是并不能去保证的。然后就相当于就是说你你你有一个穷举的办法可以解除任何，这肯定能够这个穷举里面总是解释这个答案的，但是这个很不现实。其实你需要的其实是一个有意义的，一针见血的把这个答案给出来的一个能力。所以其实我我其实也比较认同他的这个观点。我们存在一个答案和我能不能找我，我能不能通过我现在的方法去从正确的求解方式去解除这个正确的答案。我觉得这个是两码事情，就不能说我我我随机出来了一个能够有有存在这个概率，那我就说我就能做到这个事情，我觉得这个是不太科学的。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:41:13",
+      "text": "然后其实在另外一个问题是关于c play这个事情，我讲一点跟其实在open的官网上，如果so self play你可能是咳最早可能从1718年开始有，然后到2022年还有一些这个字眼。但是到后面就是包括欧旺这个车，它其实并没有官方承认自己在用，但是大家都会去认为用了，是因为新时代的这些人物，就像non Brown这样的人，对吧？可能他们之前做这种就是德普AI这样的，就是通过阿尔去做这种零和博弈的一些方式。但是他这些研究者他的research的品味和他的很或者是说他自己在一段时间内应该也不会大范围的去改变自己的研究路径。然后很可能还是会用self play方式去做。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:42:05",
+      "text": "包括他去年有一个应该在youtube上有一个视频是也可能最近大家也关注到，就是他在最后演讲的最后的时候，其实贴了他自己关于那个cl play NLIM里面的一个结论，他就是claim自己说他展望了一下就是如果你我们有一个很强的这个model，那你的就必须要保证它的generator和它的verify都足够的强，才能够把这个事情做事。我觉得从时间顺序上来说，其实也已经到达了满足了他想要他之前提的这几个先决条件。所以其实这个set的这个方式用在欧网里面就非常合理。就是这个逻辑推理，对就是。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:42:44",
+      "text": "role model确实会是未来很大的一个要去研究的方向。然后正好apple前面monitor提的问题，就是大家觉得欧文表现怎么样？然后好像两位嘉宾的回答都是和比如说math reasoning有关，包coding有关的。我不知道大家觉得未来reasoning和max的road都比较好定义，就是它本身有可以直接给一个结果说它是对的还是错的，但其实别的领域就很难有这么明确的role model。知道几位嘉宾对未来role model它能不能泛化，就是在领域上做到stable，大家会怎么想，是不是看好了前面。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:43:24",
+      "text": "两位嘉宾讲的就是关于如果model这个事情的话，我觉得像像这种process real model肯定是非常应该是被大规模就欧派被大规模实践过的。就是从他从这个数学上，包括他的后面的critical PPT这样的一些工作，我觉得这其实一脉相承。你基本上可以做到，就是我在处，因为我们的基座，就比如说before已经是一个强generator的一个model了。然后在这时候我的very fine model。也是基于巷至少这是也是GBT four level的一个模型去训练的那很可能他的这个逻辑model也给出来的。虽然还是离散的这个信号，但是他给出的这个过程是更加可知性的。因为他可能也会通过嵌入操作这样的方式，是给出更强有力的这种confidence，然后最终给出一个信号。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:44:14",
+      "text": "其实某种意义上来说，有点会摆脱之前RHF的这种训练模式了。就是我们以前RHF你得搜集一些，其实某种是建立在一种二元的这种统计模型上。就是那种bread with Terry这种模型，你一定要collect一些偏好的数据，要么是多个排序，或者至少是两个，你有一个AA大于B大于C这样一个排序至少。但是如果你是走这种模式的话，就刚才我说的强remodel，通过chal salt去reason要给出一个结果。它是他可能不需要这种训练pattern了，他可能就是一个非常强的通用模型。但是我的主要用来目的是为了打分，但我这个打分很可能是基于就基于我自己的一套比较强的帮的规则。并且我应该是通过自己的这个chat的一个生成的这这个思维链，去给出这样一个结果。所以我觉得有可能这里是一个不太一样的地方。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:45:13",
+      "text": "确实我很赞同reward model是一个被低估的一个问题。尤其是考虑到不是看这种数学题或者coding这种有些text ability的这种比较容易去verify的情况。所以现在也很多人在考虑AI feedback这一块。因为我们希望在有一些情况下，某一些领域中，AI确实能够给的feedback比人类会更加的以effective。比如说考虑一个经典的场景就是我要写两个科幻小说，那我可能写了两个版本哪个更好？对人类来说，要读上几百万字的话，其实比较难一些，也花很多时间。但是对一个LM来说的话，它可能可以帮助你去去很快的去做一些这个数据的processing。然后能够去理解这里面的文本，然后帮你去summarize。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:46:14",
+      "text": "所以我会觉得未来的一个一个scale的方式是human in the loop的AI feedback。就是在面对一些人类相对比较花很长时间，或者说可能一般普通人不一定很容易去找看出preference的情况下，能够借助AI帮你去把这个难度降低到一个人类可以可以去探测，可以去理解的难度，然后人类再给出自己的preference。我觉得这个可能对。一些领域会是一个更加scale的一个方式。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:46:56",
+      "text": "几位帮我们把几个单点的技术慢慢拼凑成了一个比较有全景的感觉。然后正好基于这个想再问一下，最近还有一个大家讨论比较多，推特上也有人在争论的问题。就是大家觉得open是一个单一的模型，还是它可能是一个multi agents的多系统。因为其实一方面我们看到open I的AMA hour，他他会说我们只是one model。但是与此同时，non Brown正好前面苏慧也提到了这个年轻学者，他最近在招聘的一个岗位就是multi agent，做reasoning的research。然后艾特到前面大家一直提的alph a go ala zero那套系统。其实他一个network也不是也也不是单目标的，它同时有policy network，有value network，它同时在做执行任务和评估两件事儿。不知道几位嘉宾看来欧文是如果要去复现的话，有没有它可能它是一个多模型组组起来的系统，还是他可能就是一个神经网络解决了所有的问题。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:47:57",
+      "text": "纯猜测不用为猜测结果负责。我那天看到知乎上面有一篇也是猜测文章。他说我这纯猜测要按照这个训练把公司把不把公司是倒闭了，我不负责。所以大家只是只想听听大家会思考这个问题的这个思路而已。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:48:13",
+      "text": "其实我比较同意之前艾瑞克说的，open I讲的五个不同level的HI pass。第一个conversation第一个是叫conversation no还是叫什么来着，已经做完了对吧？那现在它属于第二个level，which is a reasoner, 我个人觉得如果根据他的load map而言的话，我更倾向于my personal opinion是一个它是一个单一的大模型。不过the next one in release，我觉得有可能highly possible是一个multi agent的模型，或者at least是个单一agent的模型。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:50",
+      "text": "你觉得这个是跟从这个效果，或者说open这么一个技术审美路径的角度去去猜测的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:49:01",
+      "text": "对我觉得更多是从他的一些strategic的方式来做吧。我觉得更多时候是我觉得once in the time，你可以首先做一个非常好的chatbot，这是一个很好的base模型。你有了base好的chatbot的模型之后，你可以用它pro出来很多reason的数据OK你可以做很强的reason的模型，但是reasoning之后，你可以用更强的reasoning来做更好的to use，那有可能和function靠你有可能可以做到下一版的模型。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:29",
+      "text": "我觉得我更倾向于op I的research的direction，就是说它不是一种inner solution。我觉得sofa大家还没有找到一个怎么去train multi agent的。最好的一个就是在multi agent在LM应用，我做多agent的这个我重新说一遍，大家还没有找到一个非常好的去train multi agent的LN的一个方式。我觉得在我更加倾向于说他可以先用soft low hanging food，let just get a strong reasoning. 模型它基于这个base模型，它可以做到下一步的东西。And eventually他可以说他的roadmap来达到他想他心目中的这个level。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:50:04",
+      "text": "Five我用google搜了一下，one conversion，AI left two reasoners. Number three agents. There were four是innovators，there were five organizations. 所以大家觉得我们现在就是在还在recently跟agents的阶段。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:50:22",
+      "text": "对我觉得有可能属于2.1到2.5的这个状态。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:50:26",
+      "text": "其实multi agent原来我们在应用层面说的会比较多一些。应用层面用multi agent这种架构来去做的时候，也会遇到一些反对的声音。是说我之所以用到multination which就是增加了整个系统的复杂性。然后你中间的很多通信其实有可能会造成很多浪费。本质原因其实就是你的这个agent自己本身不够牛逼。如果你有一个很牛逼的一个agent的话，在很多场景下其实你并不需要mult agent。最近大家在谈论robots，还有这个soft driving car，还是否要用这个end end这个model来去来去取代原来这个model的这个system。我好奇的这个路径选择上的一些trade.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:51:08",
+      "text": "我觉得大概有这么几个问题需要回答一下。就是我觉得首先我们可以构思一下这个mota整这件事情的history。我觉得这个mountain其实是也是classical 2L的一个topic了。我觉得最famous的一篇paper应该也是就是这个David server，就是我非常our research的一篇paper，叫MADDPG，应该叫a multi agent deterministic cost optimization。它相当于说我们之前说你可以做DDPG，是determines for ansar，就相当于说你只是在一个引擎里面衬一个age做件事。MADDP就是说你可以train很多agent来做一个不是zero game的一个coloration的task。那它会中间有一些很多的complexity了，就是他做了很多的简化，otherwise形成。这我记得如果你不做这些简化，它有可能就是个非常非常competition wise infeasible的一个问题。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:52:01",
+      "text": "我觉得这是multiple ent。我知道的一些这个background，有可能在此之后也有很多multiple的research。然后我其实在MADDP的时候没有再去follow这件事情。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:52:10",
+      "text": "然后说完这个multiple ent，就是说我们来说说这个multigroup language model的这个应用。其实就是说你可以prove一个模型让他做一件事情对吧？你可以prove这个模型说OK you know instep one you know，putting your genetic model head on generating this right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:52:24",
+      "text": "然后你可以就是说你把第一步做完之后，你chain or salt。第二步你跟他说OK not put your critic on，you know, help in create your own results. 然后第三步的时候说OK give me a summary。第四步的说OK think very carefully，if you think everything right, I give me final, otherwise go back to step number one, do again.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:52:40",
+      "text": "其实你可以理解成它其实中间这一个模型干了很多的事情，对吧？你可以理解成这其实more less你不能叫它multi agent，它其实它是multi a对吧？但是这个multitask的时候，这个模型有可能它没有办法非常容易把它的弯曲。就是他现在做generation再到create给他转回来。大家现在做的motate都是个什么东西呢？在language more只是说你做的不同模型的这个sona，你就说这个模型就是说assume you are a generator，your tasty just generating things. 当他把东西gender完之后，你会再问一个separate模型，这个模型就干我就只是做一件事情，which is just created the results.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:53:11",
+      "text": "我觉得这是就是说这个language model，如果你想做multi agent的一个应用，就是我其实so far没有有可能我没有follow the most front IO of the moderation research on language。I think that's a very interesting direction, especially大家想做的下一个level是agent的话，我其实更倾向于其实短期我们更多是可以看到一些single agents的这个breakthrough，就跟传统意义上的RLO1样。因为2LO首先的bro l都是在single agent service出现的。然后在single agent breakthrough时候，你有一个非常强的agent。其实有可能你会非常容易泛化出用同样类似的训练方法来训练出moderation的这样一个scarrow。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:53:51",
+      "text": "听听eric思辉对于finger and to and or multi agent的猜想。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:53:56",
+      "text": "关于欧文的话，我我我的猜想比较保守。我觉得他可能是一个single或者两张two agents这种的一个情况。但是应该不会不太可能会是更多的一个multi agent的一个system。是因为我是这样思考的，因为刚才有kimmie也聊最早也聊到来自verify step by step这篇paper，以及之前OpenAI也做了很多关于reason的verify这种两个agent在解析数学或者coding题目的这种framework set up。所以我觉得可能保守估计，我觉得欧曼可能他大概率可能只是一个single agent。但是有可能它可能在inference时候，或许会也incorporate一些比较light的一些verify，或者light一些reward在里面。所以这是我对于o one现在的猜想。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:54:51",
+      "text": "然后莫妮卡刚才你的有一个问题问的很有意思，就是说在未来，如果一个为什么你问到为什么大家一个chAllenge。对multi agent是说是说single agent不够强大。我觉得这个是要看这个single agent的能力的。现在的情况我觉得是以及未来很多很久的情况，我觉得都是multi agent，应该会还是会outperform single agent的能力。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:55:24",
+      "text": "因为可以考虑，即使我们现在人类也是需要多多个人相互合作分工，然后做出来事情一般会比一个人会做的更好一点。因为不只是普通人类，包括是像爱因斯坦那种来自爱因斯坦也会make mistake。在我因为是读物理的PHD，所以我知道二上个世纪做quantum physics可能有一堆人，然后真的是合作分工，然后才能真正build up这样一个物理的理论。所以我觉得即使你的我们的，或者说至少我们的single agent到达爱因斯坦那个智商水平之前，还是multi agent，肯定我相信会比single agent会performance会更好一些。因为他有不同的perspective，可能每个人有不同的思路。你说在这之后，如果是一个非常super man super human的一个single agent，那他和multiple ent的比较，我觉得eventually可能一个single agent他可能如果他已经非常powerful，他能全知全能，这就是一个偏哲学上的问题。可能最终他的演化形态又会回到一个single agent的的情况。这是我自己的一些思考。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:56:45",
+      "text": "在我看来就是我觉得到就没有必要去怀疑这个事情，可就他们都是一个model，一定是一个model。包括之前说是一个团队版的model，我觉得都是，而且包括现在越来越多的证据也是其实能够呼应这个事情。对我我个人倾向于就相信他们一定是一个模型这件事情。至于多模型在现在这个阶段的确是就manage能够提升很多任务上的表现。然后同时有很多之前做agent的的工作，或者一些开放的会，尤其是在一个正式工作流里面，会设定各种role一起去配合解决。我觉得都是这个阶段，我比较倾向于是过渡阶段的产物。如果如果大家的目标是星辰大海，就是AGI的话，那那最终的那个模型我不觉得是有多个AGI模型一起去工作的。他可能就是一个single model去处理所有的事情。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:57:42",
+      "text": "对，全知全能的，其实大家会用market agent或者说一些入rule去做一些事，还是为了解决一些空洞case，或者说解决。一个是就是你有一些中间退役的过程不稳定的情况，你主要是要强行去加一些这样的辅助操作。但我认为这个还是像我刚才说，我觉得这都是过渡时期做的事情，就像之前我看到有一些工作我举例子，比如我们之前讲那个tor use的时候，比如说你给一些function call或者是tour youth的，说明他并不能够那么好的去调用。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:58:18",
+      "text": "因为他可能只是因为这个torus或者这个方向靠，只是解释了自己的这个功能。他可能有很多人模型并不能想到原来这个也能做那个事情。但是所以很多有一些agent优化的工作就会说我还有在有另外的agent在旁边一直在根据人类使用的一些模式，还有一些用户去使用，也持续的去summarized和feedback，然后把这个添加到里面去。然后等于说完善了对这个function和这个tour的一些更多的说明和调用的可能性。但是在欧旺出来之后，我觉得有很多这样的case都会被取代掉。就是你没有必要再做一个加入额外的工作，去去summarize，去再去添加了。因为其实模型能力够强，他就能够自己去知道百分百的正确的去调用。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:59:10",
+      "text": "最近有一个project，就是用这个o one来去玩黑神话这种把游戏跟这个LM结合其实也不是个新的事情了。最近的一些用这个LM有更强的能力的LM用来玩游戏，有没有让一些你觉得特别impressive的地方。反过来游戏来去做来来去做training生成数据这个事情。有了AOO one的这种新的范式以后，会对于进一步的提升还会有什么帮助吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:59:39",
+      "text": "我其实也看到那个新闻，然后我去搜一下那个paper，他应该是只用了FO的对，他的原理就是把那个游戏的截图做输入，然后用一个vision那个model去推理，然后生成一个python的代码形式的一个动作，然后来操作这个游戏。现在你要是用这个欧网的，估计他的这个成本也太高了。AI做游戏比较就像欧派最早就是用的这个打打dota对吧？然后还有做打星际争霸的什么的。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:00:09",
+      "text": "其实往往以前大家都会觉得是需要有大量的对局，然后通过像学习方式去训去我觉得这个，但是之前的可能都没有做到，像包括我们刚刚看这种基本上是用纯的一个language model，这时候也能够去玩游戏，这个我觉得还是不太一样的。以前大家都是，你不是接触land model在玩游戏，你只是自己去定义了这个游戏的各种空间，然后你自己去搞一套很pure的强解决的方法去做这个事情。但是其实这次我们看到这个非生AY非生化这个case其实是一个非常特殊的case。他就是他并没有去额外训练这个模型，而是拿一个已经训好的那个model来做这个事情。出乎人意料的就是你你的你的视觉文本的的理解其实已经非常强了。我觉得可能再往下一步的话，可能一个更强的模型去玩。我们之前通常就的我们人类爱玩的一些游戏，可很可能都能做到比人类玩的还更好。而且是我我是指的他并不需要在这个游戏上去训练这件事情，我觉得达到了一个还不一样的分水岭了。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:01:25",
+      "text": "对我知道，因为前面大家提到就是说接下来要用更多新的类型，这种multi step这种只有数据，所以我就好奇在游戏这种完全stimulation的这种场景里边，是不是相对来说更容易收集这些step by step的数据。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:01:43",
+      "text": "对，肯定是也容会比更容易一些。对，但其实就跟我们就像早期安化构，它也是离不开人类棋谱一样的。后来就是到f zero时代，就是完全不需要人欺负这件事情。然后像玩游戏这种，像比如说或者一些开放世界的游戏，你可能一开始是如果你的路线也是像那样，就是阿法狗那个路线，你肯定是需要人类的这种step的的操作记录，然后去把这个确认日记去学习。但是如果到appa zero那种状态，你就应该只是一个开放世界，然后就是输入动作，然后完全是从零开始自己的探索。我就是两种不同的方式，对用这个。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:02:23",
+      "text": "大模型玩游戏，我我我觉得这是一个非常有意思的点。主要是两点，第一点我觉得这是一个很impressive的一件事情。就像刚才苏菲提到的，他其实并没有去专门去训练一个模型，用2L去训练一个模型，然后去玩游戏。这是之前google定位的，比如说打dota他们那时候的那种思路，我觉得能体现的一个LM很厉害的地方就是它是完全纯靠自己的in context learning的能力去做一个sequential decision making的问题。我是我觉得这个很impressive，就是能够已经能够更多的展示的是这个foundation model，它能够做planning的一个能力。他能够去规划，我当我打这个小怪兽的时候，我应该要什么先做哪先先做哪一个action，再做另一个什么action，会能够去最终可以去打得过。我觉得这个是能展现不只是image understanding，而且更多的还是能够去有很好的决策的能力，这个是我觉得非常impressive的。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:03:41",
+      "text": "然后用gym play data去获得更多的数据，这个之前应该也是Jason伟他也做过一篇文章，是去学习真实世界中的偏物理的一些的知识。他们也是用一种片，就是物理的simulator的engine去做得到一些signal去做这件事。我觉得更广阔来说，对于一个仿AAI system或者一个单一的agent，当他和开放的世界去interact的时候，我觉得这个里面收集到的数据是更加有意思的。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:04:27",
+      "text": "而且这边得到的一些feedback也是能够比较好地产生一些reasoning data。因为不管是game play还是一些开放世界中的一些一些问题，它其实它的一个共性是说比较容易去检测它最终的结果的正确性与否。它不像是human feedback，只是告诉你pair wise，这个比那个更好。像打游戏，它其实和coding和max比较相似的一点就是说你能够知道最后你赢了没有还是输了没有我觉得这种非常清晰的signal是可以帮助帮我们去更好的sync去产生这些reasoning的数据，还有planning的数据。这是我的一些想法。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:05:18",
+      "text": "现在在这个大模型的训练中，大家在这种game play数据用的多吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:05:26",
+      "text": "我自己目前没有看到有很多人在用这一块。我觉得这个可能也是对也是大模型现在的主要想提升的capabilities比较相关。因为我不知道OpenAI或者别的公司怎么样，感觉google因为还是比较看重于自己现有的一些产品。在那些产品线上去做提升，可能更优先级高一些。我觉得这是一个比较有意思的方向，可以去尝试。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:06:01",
+      "text": "大家都提到这个大型公司都看就是data，我以为会有相当一部分是从中game play .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:06:08",
+      "text": "data里面出了解。我目前感觉c data更多的产生还是去activate一个LM或者activate一个比如说amy generation model，这generate AI的model。可能比较少看到就是能够有一些simulation的一些data。但是我觉得像之前我们提到过一些multi agents，一些或者斯坦福小镇这些，我觉得未来这是一种可以去similar的一个society。然后这些data可以去产生的一个更好的方式，比如说either通过multi agent做simulation，做simulate，或者你的game engine做similar，或者你的physics engine做similar。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:06:54",
+      "text": "大家也感受到，其实我们今天邀请另外两位嘉宾在在在L包括NCTS这些领域其实都有很深的都有很深的研究，其实前段时间大家也将拿出来讨论的是说，其实google其实比其实也更早的其实就开始了跟我们现在对于欧洲的一些路径猜测很像的一些研究。比如说包括大家最经常提到的，可能就是在应该也是今年发布的一个paper，是google deep mind的一个paper。这个scaling LN test time computer option um ultimately can be more efficient than scaling model parameters。可以说是跟open I在这种influence time的scaling law是有一脉相承的关系。因为我好奇在座几位researcher是怎么看这个关系，似乎就说明其实这个研究路径其实是早研究方向和成果，其实在google已经早就开始了。为什么会是o one反而open I先去把它给这个d deliver出来了呢？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:07:55",
+      "text": "我就我觉得我就简单一句话概括，然后说剩下的留给大家脑补。就是如果我们做个alloy，那时候transformer也是google先出的，对吧？Google不能出，但是GPT是第一个open I in出来的那我觉得大家可以自行脑补剩下来为什么他们昨天发布了欧文，而不是我们，对吧？",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:08:15",
+      "text": "这个工作在o one出来之前，我好奇业界对他的关注度和评价是怎么样，听起来并没有怎么受到关注。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:08:28",
+      "text": "一时语塞是吧？我有可能就是听到过类似的大家做的就是这种小的这种research。就比如说你看这些google的paper，其实在一个special domain data上面做出来，其实说reason helps，对吧？我没有看到一个非常last scale的来来尝试这件事情。Over就是你看这些paper在每个小的东西里面都work，说oh OK if we scale is going to work。我不知道有没有做这种尝试。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:08:58",
+      "text": "明白，就是说他其实得要要得到在scale的这个场景下的这个，那其实还是需要能够在内部拿更多的资源，他才能进一步去证实这个事情。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:09:09",
+      "text": "For ample，whether you want to publish a paper to prove working da right, it's it's very clean data set or you want to actually really solving uh uh a nasty problem, and then scale at ten x hundred. 是这是需要不一样的一个mentality的东西。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:09:27",
+      "text": "我觉得提升influence的cost这一件事，我之前在google内部看到有几个都是在有相关的一些研究。但是确实欧文出来之前我也没有关注到这篇paper。这篇paper感觉他给了一个比较更系统的一个分析，就是不同的提升influence cost的strategy的对比。我觉得这篇配合总结的蛮很好。不过确实在这之前我也只是在google看到一些比较相对零散的一些独立的一些research分析不同的每个不同的独立的strategy。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:10:07",
+      "text": "如果是不是可以理解为接下来因为欧文出来了，所以都变成一个大家有共识的一个路线，一个追赶的路线。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:10:16",
+      "text": "对我觉得应该会就是我觉得是两部分来走。如果从一个research的方向来讲，我觉得如果欧曼他们的这个PR宣传的这么好，那肯定google肯定也会去下一步。我觉得这也很natural的一个很的一个想法，就是谷歌也会提升自己的reasoning模型的reasoning的能力，然后尽快的和欧文差不多甚至更好。另一方面的话就是说这个skin influence cost其实对于一些应用场景是并不适用的，尤其是对一些对latency要求很高好的场景。可能在这些去做商业化的情况下，可能反而不一定会大家那么的exciting。可能大家更加exciting的还是说或许是这未来或者自己的一些能够在自己的懂命的一的performance能够更好一些。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:11:22",
+      "text": "同样从大厂的角度，这个苏辉有什么补充吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:11:28",
+      "text": "对，就是我觉得就像刚才艾瑞说的，就是这个延时是一个还挺致命的一个问题。就是如果说找到一个应用的方式能够让用户都能接受，我需要等待，比如说十分钟、20分钟或者更长时间，但你最终就是替我完成了一个很好的任务，或者是这个产品设计上做了一个什么样的动作，需要很多离线的操作什么，但是最终就是效果很好。我觉得这也是也许是可能会是有新的产品机会在。但如果是现在形态的一些产品，我觉得都包括像什么角色扮演或者是可能我想我大家通用的chatbot的这种产品，我觉得会比较难。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:12:12",
+      "text": "如果说但是如果说有办法能够把像这套训练的逻辑训练框架能够迁移到，比如说我都是在提升一个party的边界？就可能是之前是安全和一些比如说这个呃推理能力的一个渠道，但是现在通过的方式能够提升这个边界，我觉得也挺好。对的，可能你在自己的应用场景下，比如你需要的是安全和角色扮演能力，然后本身是在trade off的。但是你通过像欧网这样的reforming的训练方式，能够让自己提升这个上限。我觉得也是OK的对。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:12:53",
+      "text": "前面的apple那个latency的问题还挺有道理的，因为我自己用presser接了ON也是这种体验。就是因为它和ser之前的时候很快的auto completion，包括composer的体验完全不一样。他要想很久，所以就需要性能提升很多，才能够带回来这个时间上的trade off。然后当然我觉得更多的是从大厂和商业化的角度。我就想follow up问一下大家，如果从不不管是大厂还是甚至整个太原社区，当时4GPT3.54出来，大家可能都以半年甚至一年的时间才慢慢追上这个技术。那么大家觉得O一这一套用RL去提升能力的技术，从整一个AI社区去追赶的角度来说，它会不会比之前来得更快？",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "02:13:42",
+      "text": "就是就新的范式出来，那他对于追赶者来说意味着什么？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:13:47",
+      "text": "其实我觉得我倾向于认为是更难了。因为某种意义上来说，就像我们刚才说，你其实是站在更强的几种模型的基础上去做这个事情的。就是你如果是一个弱的模型，就不会有一个很强的reorder model。那么你去做这个事情的收益其实是极低的，你可能泛化的可能性都很小。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:14:09",
+      "text": "然后第二个事情是其实可能也看到了，就是关于在就是你在训练过程中，尤其是尤其是如果假如要用像MCTS这样子的策略的话，其实它是一个非常GP pro的influence time一个训练方式。就是你的MFU或者是你的GPU利用率是极低的。然后你你绝对你可能你可能很难像现在大家训练就是一个不管是dances或者MOE，你可能你这个还已经做到一个相对还OK的状态。那它带来的computer消耗其实不会比process低，甚至有可能会更高。对于现在有这种资源去做这个事情的公司，其实还是又是更大的挑战。就是你的算离子的消耗可能又就是你double了你pretend的算力子的成本。然后我觉得这个对很多公司来说其实是一个挑一个挑战的。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:15:00",
+      "text": "这个关于GPU利用率低，反而对消资源消耗更多，这个想再follow up一下，能不能解释一下为什么会RO这一套会带来这样的变化？",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "02:15:12",
+      "text": "因为其实你需要的是在你比如说你那些sample的动作，那其实你就是在decode。然后不管你是显如果你显示的把它decode出来，大家如果现在做一些decode的，会发现你decode时候你的GPU的利用率肯定是比你训练的时候是低很多的对，所以你就需要把这个扣的动作然后又又要结合到训练里面去，那这个过程其实是会很慢的，就一个等待的动作。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:15:43",
+      "text": "其实刚才所有提到就是这个对算力的要求created，可能我们需要是对算力要求很高，但那个时候可能对需要的是非常强的这个训练的芯片，同时又是同时要非常大的集群。你看像XI外套他都要做10万的集群。那在post train的这一种阶段，虽然它仍然需要很多算力。但如果说它更像是influence的算力的话，那是不是相对来说我对这个卡的性能的要求，以及我这个集群的大小是不是相对来说就要求没有那么高。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:16:18",
+      "text": "我觉得这是一个很大的工程挑战。其实我们在说inference的时候，并不是说我只我把这模型训完了，部署的那种influence，它其实是训推一体的。你某种意义上说，你如果用的是就是现在如果我训完一个模型，你是可以接受用一些没有像训练卡那么好的卡去做推理，对吧？因为你的成本会更低一些，但是因为你对你的计算要求没有那么高，你可能需要对通信上做一些处理就行了。但是如果你想要尤其是你想要在这种规模化的的情况下去训练。因为这件事情其实嵌在你的训练的过程里的，不是说我推理出来这个文本，然后把这个文本再拿到另外一个机器上去。我觉得这个不太现实，或者说他有很大的工程挑战。所以大家肯定还是拿这个最好的卡用来做的这套训练。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:17:11",
+      "text": "我觉得任何一个task都不可避免的不逃开那几个大的步骤？就是数据模型和训练框架。我觉得刚刚苏慧已经说了，在这个训练上就是算力方面的一些挑战。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:17:29",
+      "text": "然后搜狐也touch到了这个base模型，其实你非常难access到最这个开源的搜索的模型。我觉得现在开源最搜索的是啥？估计meta的405B还是什么别的。然后呃就是你需要pick，其实这是一个非常OK你比如说你在google，你在open，你train出来就那么一个最大的模型。你you you just there's nothing you need to even think about which book base mode。开源界有那么多baseball，which is a good base model to use, 有那么多没有被open source的这些base model。也就相当于说极有可能你就选base mode，就已经走了很多弯路了。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:18:05",
+      "text": "最后就是数据这方面，就是你也可以看到open on purposely把它的reason的东西其实hide掉了。然后它相当于只是把这个reason summarize给你了，对吧？我觉得他做这个目的在于，其实我觉得如果你有这些reason的数据，其实有可能是会比较容易训这个事情。但是因为没有这个reason的数据，你要自己去从头去研究这个事情。所以说我其实觉得over也是一个非常chAllenge的事情。但是如果把这三点其实都是很chAllenge的话，其实我觉得maybe作为一个追赶者，这有可能是会更难的一件事情。不过就是你刚刚你刚刚说苏辉他们是个追赶者，对我们我们又何尝不是个追赶者，对吧？其实我们也就是个追赶者，现在eric.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:18:47",
+      "text": "怎么看的？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:18:48",
+      "text": "我觉得这个难度和之前GPT4出来的难度都很难，但是它难度的点不太一样。当时GPT4出来的时候，属于open a一家做出来了muli model的模型，但是大家别的人都都还没有做出来。而去enable multi model这个事情是post training都需要去做的。不管是pre training SFT还是IL，它每一个训练的stage都需要去做的这个事儿。所以它的难度是在于去在每一个stage中都要把这些multi model，这些understanding，这些能力都要做进去。我觉得主要难度在那里。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:19:31",
+      "text": "但是这边的我觉得欧one的难度在于一个，就是刚才kimi和也和其他嘉宾也都讲了是数据上的问题。我觉得这个数据就相对来说更加难了。因为怎么得到最好的reasoning的数据，这个我们之前也讲过，它比起outcome的一些human feedback来说，其实它是一个更加重，如果你让人去去暴力的去搜集的话，是一个更加浪费更加耗费资源的一件事情。然后另外一件就是说它的真正的一些实现方法，其实我觉得不像当不像去年从text only变成multi model的模型是那么清晰。因为那个时候大家已经知道有一些怎么做一些confusion，然后怎么去处理这些的数据集和一些比较相对大家已经知道的方法。但现在属于大家还在猜测他到底是怎么实现的，以及猜测它背后的原理是怎么去做的。所以我觉得难点可能是在于真正去第一个拿到这样一个数据，非把这个数据先建立起来。第二个就是说能够去因为有很多的可能的实现路线，所以说哪一样是哪一个路线是最优的，这个可能需要一些更多的research的一些的投入。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:21:03",
+      "text": "当然对于中小公司来说，我觉得另外一个chAllenge就是说RL这一块的重要性。因为我知道之前很多的很多的创业公司或者资源没有那么丰富的公司都会都不会去做L而是会用DPU等等这些比较偏off policy的些这些方法。但是如果2L现在已经被强调的这么重要，那么一些online的2L的方法，或者是不是我们真的有必要必须得去做RLHF，而不是去做一些RL free的一些的方法。我觉得这可能也是一个对小公司一些产品。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:21:43",
+      "text": "如何要追赶欧万？你觉得最容易被大家高估和最容易被大家低估的是什么？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:21:51",
+      "text": "我觉得最容易被低估的还是数据层面，尤其是怎么去判断你的好坏的数据层面。这个的数据我觉得是非常难拿的。就是以前如果做LHF去得到一些human feedback，你觉得就是有些还有些厂可能或者有些创业公司才是能够去做这件事情的话。那么去得到很好的很高质量的reasoning的feedback数据，使我觉得难度会更加高很多。我觉得这个是训练出来一个好的OY模型的气势。然后我觉得比较这是我觉得比较低估的一个点，高估的点没有什么高估的点。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:22:42",
+      "text": "没有被高估的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:22:44",
+      "text": "难就是难，这还是一个难的问题。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:22:48",
+      "text": "好的，孙辉聊一聊。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:22:52",
+      "text": "我其实之前也讲过，我觉得大家也是偏低估。关于工程上的挑战，训练工程上的挑，但其实还是很大的，以及就是你如何有更好的，你要站在一个GPT four level的模型上，而且并且你要掌握训练这件事情才能去往下走这一步。所以我觉得现在可能我看到的一些观点，我认为很多人是低估了这个难度。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:23:21",
+      "text": "其实我觉得我非常同意这个艾瑞克斯会说的，我就做个总结，我就说它既是一个science非常难的问题，也是个engineer非常难的问题。这个难的问题在于你怎么去future our高质量的数据。但是这个engineer非常难的问题就是相当于现在它不单单只是个training的问题了。因为你training中间也得reinfection，相当于说你现在是只必须是六边形战士，没有单腿才能把这件事情做出来。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:23:46",
+      "text": "有可能我们聊了很多解读，也聊了很多猜想。我觉得最后我们就聊一些对未来的一些对未来一些期待。就听一听大家觉得说看到的这个o one展现出来这个能力了之后，未来一年和未来三年大家最希望在这个领域看到看到什么？然后你觉得还有哪一些还有哪一些难题是啊是你最希望能够看到被解决的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:24:16",
+      "text": "我觉得一年之内我的期望是我觉得这个coding有可能到最后成了一个commodity了，就是谁都可以写代码。我之前跟我们组里的PM聊，他说对，我可以用科室自己写个代码，不需要你们帮我做pro type。我说这是他只是开玩笑的，就是他自己做的一些这个home project，我觉得一年之内我觉得有可能maybe coding can become a commodate。Everybody can just write code.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:24:40",
+      "text": "三年的话其实就像就是我开头说的，其实我是一个robotic by training。其实我非常期待这个大语言模型和robotic结合的这个领域可以有更长足的进步，especially就是这个embody们的这个方向，把握住，1到3年比较难解决的，我觉得还是董明数据的问题，其实。You know most of the recipe there on the table.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:25:03",
+      "text": "就是这个大公司里面其实做的，我觉得开源接代都有。More less same, you can pick the the recipe，but you know你现在有了recipe，you you need you need you know the roma too to cook. And then the raw material here is data. 当你就是难解决的是，如果这个drain没有非常好的数据，或者这个数据很难采集，或者数据没有被idealize。I feel the hard problem, 我觉得就是回到我之前说的，embodied body is kind of hard, but not that hard.",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:25:33",
+      "text": "就是对于robots而言，他的数据其实还没有那么被well realized，但是他开始被realized了，就越来越有点像怎么说呢？就GPT123那个那个时刻，大家在不断的开始scale这个data的这个quality和这个框。所以我其实非常期待就是看到我这个robotic的同事们可以哪一天做出下一个让我们非常惊艳的emergent的这个embodiment的模型。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:25:58",
+      "text": "我也非常的期待。最近刚投了一个机器人的公司，就所有人刚刚才刚才听到你说看到机器人的数据已经在逐渐被digitize的希望的时候，我心里面感觉非常的欣慰。因为天天在聊都是极限的数据有有多难。对。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:26:14",
+      "text": "it's hard, it's it's hard. 我觉得RTX是一个good step，然后就是做RTX这群人不也出去创立了之那么physical intelligence对吧？",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:26:22",
+      "text": "对。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "02:26:22",
+      "text": "就是其实让我觉得这个intel team里面除了这群大佬们以外，就让我impressed一个人。其实我忘了应该是个一个越南一个越南的一个人，他其实是那个RTS发起者，让他们跟着一起出去做这个事情。对，他们就是基于google的这个PIG，在在操作，是不是说了太多低调的东西了。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:26:41",
+      "text": "你帮我讲，可以跟他一句话讲一讲RTX是做什么。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:26:45",
+      "text": "没有我RTX就是开源的，RTX是这样的，大家传统意义上的robots的scientist，大家会去自己先去搞一堆数据集。比如说像托尼就搞了一群什么烧饭开桌子，什么刮胡子的数据集，让他们自己去了一个imitate的模型。但是大家希望说OK既然像hugin face，大家会把比如说如果拿NOP做energy，什么summarizing啊啊啊semantic and understanding，大家会把这些数据every gate在一起，你可以就有大量数据做retraining。他们干的应该是联合了世界上17个lab还是多少的。然后把大概几十个robot的这个数据集aggregate在一起，做了一个非常unify standard的这个是robot dataset。然后一共大概是有两个mail的数据，robotic的trajectory demonstration，这已经就是非常amazing的一个可以让他们做pre training的一个数据结论。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:27:38",
+      "text": "如果你去看汤米那边paper，他们大概花了18个月是collect，他们花了18个月应该collect 10 10 150k the human demonstration，还是15K我忘了，应该是150K的demons是15K我具体的数有点不记得了。就是你可以看到这已经是一个magical bigger的这个data irrigation。But你去跟这个language model大家说对吧？比如说陈超了一个一个就是这个at least于是try twenty x这个token size compared to model size。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:28:08",
+      "text": "但你想的时候，随随便便就是几个几个几个就几个车辆的token的这个都可以。Train这个language more。那你想想这个robot跟他比，其实还是还差的非常的遥远。所以我觉得其实就是看就是说我非常excited是这个东西其实它很难，但因为难才excited。因为任何人都可能成为这个行业的颠覆者。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:28:26",
+      "text": "这有点像当年的这个image net，那是for robotics。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:28:31",
+      "text": "对exact就是所有人都是在一个起跑线上的，就是not fair game。Everybody can问，这大厂其实跟你而言是在一个起跑线上，所以我会觉得我非常excited五年、三年，就是3到5年，可以看到这个robot的落地和应用。期待我的同事们有着更加惊艳的作品。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:28:51",
+      "text": "期待你啥时候回归老本行。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:28:54",
+      "text": "我觉得我一直在关注这个，我觉得就是technology wise，我觉得there's not that much difference，对吧？都是相当于2，然后在不同行业的这个应用，你就是robotic的模态，其实讲白了就是个多模态。我觉得robot的这个模型其实和VQA或者V1M没有那么多的区别。其实我觉得当你在就讲白了就是相当于说你用同样的一个技术来解决不同的一个dataset的问题而已。对我而言，我觉得有可能我robot是我的depression，但我更excited的是把robot抽走之后，其实我的d passion是在2L上的。只是怎么用reinforcement line来解决foundation的这个stay action worth day table的这个agent的problem。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:29:35",
+      "text": "好的，非常感谢kimi。听听这个苏辉就是我。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:29:38",
+      "text": "觉得一年内我其实还挺希望看到多模态在reasoning方向的进展。之前很多一些research看工作，可能我看到的是并没有通过引入的多模态的token，能够让语言模型能够再提升了。就有可能，所以很多人有会有略微的失望。这种就是混合模态这种你compute增加了，但其实你的单个模态的能力并没有得到提升。但我其实还是很希望在这块能够看到一些突破。如果说一年内，这样我们的训练数据的资源量就可以有比较大的一个scale了。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:30:15",
+      "text": "然后另外一个就是大家可能其实也看到，我们人类学习根本不需要那么多的data。然后现在像大家用那些common cro，或者是各种语料里面去充斥大量无意义的data的。很多一些新闻稿，或者是一些无意义的字符串，其实也都被模型选进去了。其实你浪费了大量的可能CD去干这个事情。所以我觉得可能这一年内我还是很希望能看到在data工作的巨大的一个提升。就是有没有办法能够其实大家只需要很小的数据量，但是可以寻找跟现在大规模数据是一样的效果这么一个事情，就找到比较有代表性的那些data。然后有三年以上的话，那可能我比较乐观。就是我甚至希望说三年之后我们能够看到这个接近AGI状态的模型，就可以解决所有问题，然后让我们也不用上班了。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:31:12",
+      "text": "这是三年吗？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:31:14",
+      "text": "好好好。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:31:16",
+      "text": "你就别就小心你老板把这个给你设成KTI。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:31:21",
+      "text": "我非常好奇说一说这个动模态这个东西，就是我觉得数据其实动模态就是挺tRicky的一个问题。其实现在的混里面，其实就是混动模态数据其实还是非常少的。就是在一个占比情况下，我觉得另一点我非常好奇的就是你怎么看就是现在多模态的，其实这个vision quote size其实跟这个taxi code相比是非常少。为什么没有人会去做类似的在这个vision coder这方面的一些scale的研究？我只是这是出于我自己个人的好奇。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:31:50",
+      "text": "我其实我也不太清楚，但我其实觉得还是很有必要做这个，我认为是一个很promising的方向。其实我很看好scheme上去的。对对对。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:31:59",
+      "text": "因为讲白了如果你是现在都是零点几B我我我具体对这个gama有可能不是特别了解。但是那些开源的其实基本都是就做了几十B的模型，其实它的vision code也就基本零点几B那一定要都这么做的，让我觉得还是挺surprising的一件事。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:32:13",
+      "text": "对，肯定可能这个比较大的一个就是微整盈科的是对工程也是比较大的挑战。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:32:19",
+      "text": "你训练的时候interest good。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:32:24",
+      "text": "那eric聊聊。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:32:28",
+      "text": "我自己觉得一年之内我也比较看好的是多模态的reasoning。因为我感觉现在我也看了很多paper，就是一些模型，它text reasoning非常好。但是有了多模态之后反而都没有那么好。因为这里面涉及到同时有两个问题，一个就是模态之间的alignment，另外一个就是reasoning，这两个混合在一起这个问题就更加复杂。但是有了欧文这个模型珠玉在前的话，我觉得我相信很多人可能会考虑就是怎么去把它这些相关的可能性的技术更多的用在multi model的RA check上去。我觉得这是一个我可能觉得未来一年会做出来的，会会有可能有发展的事情。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:33:18",
+      "text": "另外一个事情还是multi agents这一块，因为之前的很多的agents他们有些work没有那么好，就是因为他foundation的一些能力，比如说reasoning的能力没有很好。我觉得我估计是这一年内应该别的一些竞争者应该也会有一些o one level的一些模型会出来。这对于不管是创业公司还是其他的一些其他的人来说，就是作为一个更强大的multi agent，应该是会更加有希望一些。我期待这一块能够去解锁一些比较新的应用场景，或者之前对一些对一些准确性要求比较高，但是没有做到的事情。我期待就是有了这些更好的reasoning模型，可能能够做的更好。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:34:15",
+      "text": "未来三年的话，我希望就是我觉得我们可能可以看到，AGI能够在作为一个innovate，能够有一些更起到一些作用。比如说他能够去自主的去发现一些something，或者自主的去做一些比较比较前沿的研究。我最近关注到已经有一些相关的paper出来了，就是让AI帮你我帮我们做一些research。但是我感觉这还像现在，目前还是比较初级的状态。等等这个reason reasoning，还有什么lt agents这个系统的怎么去构架更加成熟的话，我觉得你这种AI scientist可能会给我们一些非常意想不到的结果。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:35:06",
+      "text": "你觉得AI santis是就是提升我们用现在这种路径去提升这个reasoning的能力就可以实现吗？还是说作为一个能够定义问题，解决问题的三才需要什么别的能力？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:35:19",
+      "text": "对我觉得他除了因为现在的AI3 tis如果你去看他写出来的一些paper，感觉更多的是一些偏炒菜式的科研，就是把A和B结合起来，或者类似这样的一种科研。但是如果去解决一些更加棘手的一些open question的话，我们需要一个AI它能够去有一些更深度的思考，以及他能够去推翻重来的一些能力。还有就是能够问出一个更好的问题，而不是去解决一个问题。我觉得有了更好的reasoning的能力的话，那AI能够去做一些更长线的思考，以及更深度的思考。这个可以对他们自己提出的问题，以及提出的解决问题的方法，肯定会有一个质的提升。这是我自己的一些感觉。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:36:15",
+      "text": "1到3年内你觉得会比较难解决。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:36:19",
+      "text": "其实我觉得and innovate这个问题本身就是一个非常chAllenge问题。我觉得这里面比较难解决一个问题，就是让AI能够去不要只是去通过他去去去retrieve他自己retrain中的data。而是说更多去怀疑自己的曾经学到的一些知识，可能不一定是对的或者是过时的。我觉得如果这个可能是一个去达到AI达到一个作为你的维特水平的一个一个一个非常难的一个点。就是你要让AI知道，他能够去怀疑现在的什么牛顿利率可能不一定是对的。你让他怀疑这些事情，就是让他能够很chAllenge ed的去自己的已经被SFT，已经被pretrail去交给他的知识。我觉得如果这个能做到的话，应该会有很大的进步。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "02:37:15",
+      "text": "对，而且其实我觉得echo前面大家其实也提到了一点，就作为投资人跟很多创业者讨论这个GPT o one更像是一个GPT时刻，而不是一个ChatGPT时刻。对，就是对于我们说是说他可以去解决更更所以reasoning要求更高的这个场景。但是往往那些场景跟我们这个chat PT所展现出travel的场景其实是其实其实是很不一样的。对于这样的话，那你要去如何发现这些产品相对于这些场景，你肯定就不可能像就不可能像这个travel一样，一个search bar就可以了。然后怎么去设计在他那么长的inference a recent的链路中，怎么让人的这种feedback可能加进去。其实我觉得都是很多其实产品上的问题。所以我觉得也是从GPT到ChatGPT中间的这个过程。这样看起来其实还是有很多值得整个行业，整个echo system一起去探讨的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:38:16",
+      "text": "而且我甚至觉得说这个其实更是stup的创业公司的机会，而不是大厂的机会。又因为这个大厂肯定是在全力去把这个PPT模板先达到了。其实有很多step的产品上的一些机会。那我觉得也问问cage，因为cage一直在这一块也是做了很多研究，你对未来的一些期待也可以跟大家分享一下。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:38:39",
+      "text": "好啊，那一年的话我觉得我会把它分为抽屉和其他领域来看。就coding的话，我非常同意tim前面说的那个会持续told能力持续提升modified。然后我觉得而且世界上其实会coding的人可能只有1%不到。但是实际我觉得有做一个产品需求的人可能远远大于这个比例。这里会不会有一些新的技术突破和产品来来来弥补上这个gap呢？我觉得我就非常期待。比如说cursor这个产品，现在大家小白用户还用不上，不太会用，那么可能会有更低门槛的，更民主化的产品，有可能会出现，不管是技术还是产品上的新的这么一个像camera或者fema这样的产品。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "02:39:23",
+      "text": "然后第二个就是其他的领域，我觉得最期待的就是到底能不能reward model在mass code之外的问题上泛化出去。然后这个泛化出去是open n一家或者说前面几家，包括SOP步骤在模型上提升了，还是有没有可能大家就发现他并不是一个的能解决的。然后他开一个API或者以什么样的形式给企业用户一起去未进来高质量的reasoning数据来提升。比如说金融法律它都有相应的提升。我觉得这个我也觉得是一年之内希望能看到一些signal，有突破到其他并不是很明确强推力的领域的一个想看到的进展。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "02:40:06",
+      "text": "然后三年层面的话，我最期待的是AI真的能够让我去做的，我真的能让AI去花。比如说一天、一周、一个月去帮我完成一个高价值的研究任务。这个过程当中我可能就他他比如说完成了任务过程当中有什么问题随时给我发封邮件。然后我我我跟他讨论或者comment一下之后，他能继续把任务完成。我觉得正好艾特到前面几位嘉宾都提到的一个问题是现在还没有一个产品能让用户乐意为他付出那么高的雷。但如果AI真的能做很高价值的人物，可能是每每一个english in research，可能是人类科学问题的突破都有可能。那么有没有这样一个首先是技术上的突破，然后是一个产品上的突破，能让人和AI能够交互上，能够异步的去协作。因为它可能会呈现一个新的AI agent的操作系统，或者是UIUX，我觉得都有可能，这个是我三年内最期待的。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "02:41:12",
+      "text": "好的，我觉得大家从不同的角度都聊了，但对未来的这个期待，所以今天我们就本来说2个小时，聊了三个多小时。这是非常感谢我觉得也有非常多的启发，也希望对大家这对我们的所有的听众也有一些启发，也希望让更多的人加入到创新的大潮中。我觉得越是有这样的不断的有新的范式的突破，新的这些模型能力的提升出来。我觉得其实让我们在做在上面做进一步的创新，其实是有了更多的想象力和更多让人期待的东西。好的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "02:41:47",
+      "text": "今天就这样了，感谢莫妮卡组织，谢谢。",
+      "speaker": "发言人6"
+    },
+    {
+      "time": "02:41:51",
+      "text": "感谢。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "02:41:55",
+      "text": "以上就是本次播客的全部内容，感谢大家的收听，希望对你有所启发。如果你喜欢我们播客的内容，欢迎你点赞分享，在评论区写下你的心得。另外onboard也有听众群了，添加小助手微信ID omb 666。再说一次非常好记on board 666加入听众群，了解更多互动机会。另外如果有喜欢两位主播用爱发电，也可以在小宇宙给我们打赏，请我们喝喝咖啡。如果你在用apple podcast收听，也希望你能花几秒钟给我们打个分，打个五星好评，让更多人可以了解到我们我们下期再见，继续更多干货。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这次讨论中，专家们深入探讨了人工智能（AI）的最新进展，特别是大语言模型和强化学习（RL）的应用。他们讨论了OpenAI发布的Oscar模型、强化学习对推理能力的提升，以及这些技术如何影响世界。专家们强调了高质量数据集和奖励模型在优化AI推理能力中的重要性，并分享了他们在一线的经验。讨论涵盖了多模态任务处理、编码、游戏、机器人技术等方面，展现了AI在科研、教育、日常生活中的潜在作用。同时，也探讨了AI发展的挑战，如训练数据质量、模态对齐问题，以及AI如何质疑和更新知识。专家们展望了未来AI技术的应用，并强调了持续创新和公众、学术界在推动AI发展方面的作用。讨论还触及了多模态模型、强化学习和多代理系统在提升推理能力方面的潜力和挑战，体现了对构建更强大、灵活且高效的AI系统的深入思考。",
+    "qa_pairs": [
+      {
+        "question": "OpenAI发布的O-Y模型有何重大意义？",
+        "answer": "OpenAI发布的O-Y模型是新范式的开始，它结合了强化学习和链式思维技术，使其在处理物理、数学、编程等复杂问题时能达到甚至超过博士生的水平。",
+        "time": "00:00:15"
+      },
+      {
+        "question": "嘉宾有哪些背景和经验来解读O-Y模型？",
+        "answer": "嘉宾包括Kimicon（Google DeepMind研究员，有强化学习一线经验）、Eric（Google从事LM研究和MCTS结合研究的博士生）以及苏辉（负责大模型训练并在预训练到RHF阶段有丰富经验的人士）。其中，Eric专门介绍了MCTS在LM推理中的应用。",
+        "time": "00:01:41"
+      },
+      {
+        "question": "在提升LM推理能力时，是否需要加入multistep数据？",
+        "answer": "multistep数据主要在post training阶段起作用，例如通过收集过程访问数据，可以帮助模型更好地学习价值函数，判断每个推理步骤的正确性，从而提高训练效率。",
+        "time": "00:06:22"
+      },
+      {
+        "question": "MCTS在LM推理中起到什么作用？",
+        "answer": "MCTS作为一种蒙特卡罗树搜索算法，在LM推理中主要用于生成高质量的合成推理数据以及在推理过程中融入规划，优化奖励和推理路径，有助于提高模型推理的准确性。",
+        "time": "00:06:22"
+      },
+      {
+        "question": "嘉宾中是否有人用过或了解Copilot等AI编程工具？",
+        "answer": "Kimi认为Copilot等工具在快速构建项目方面有其优势，但无法替代VSCAPE等集成多种AI模型的综合IDE，因为它们通常具有更好的AI编程界面优化和集成模型性能。",
+        "time": "00:11:39"
+      },
+      {
+        "question": "你为什么会觉得艾伦朱的LM研究方法是值得大家学习的？",
+        "answer": "因为这种方法设计了一个完全可控的环境，从数据到结构都是自主可控的，能够排除掉数据的干扰，并且实验过程严谨，关注reasoning及其与模型的关系。这种工作方式对于当今的研究者来说非常扎实，能够得到扎实的实验结果和结论。",
+        "time": "00:16:59"
+      },
+      {
+        "question": "你认为OpenAI发布的O一模型有哪些印象深刻的地方？",
+        "answer": "O一模型在研究上提出了新颖的大思路，即通过skin up the influence time来提升推理效果。实际使用中，我发现它具有自我思考和推理模式选择的能力，比如能决定自己是逐步思考还是修正之前错误的思考。但同时，对于一些复杂问题如计算草莓中有多少个R，O一的表现并不理想，这表明它在某些方面的准确率有待提高。",
+        "time": "00:21:05"
+      },
+      {
+        "question": "O一模型展示的逻辑推理过程有哪些局限性？",
+        "answer": "虽然O一模型展示的推理过程令人惊艳，但其可读性有待探讨。理想的思考过程应该是人类可读并理解其背后的逻辑，但现在模型的内部思考过程可能对人类来说是不可读的。此外，模型在某些特定任务上的表现仍有待改进。",
+        "time": "00:22:32"
+      },
+      {
+        "question": "对于使用strawberry（此处应指stRAWberry）中的字母数量作为测试LM的问题，你怎么看？",
+        "answer": "认为这个问题并不强求LM必须能够解决，因为它更多地反映了模型对输入输出映射的理解程度，而非其核心性能。更科学的测试方法可能是通过数学、编码或量子物理等复杂任务来评估模型的推理能力。",
+        "time": "00:24:55"
+      },
+      {
+        "question": "O一模型在编程方面的表现有何亮点？",
+        "answer": "在编程方面，O一模型展现了强大的自我纠错和优化能力，能够在编写和修正代码时提供准确且高效的协助，大大减少了人工干预的需求，这是一项非常吸引人的特性。",
+        "time": "00:27:53"
+      },
+      {
+        "question": "open I在数据相关工作中，训练o one这类模型时需要怎样的数据以及处理难点？",
+        "answer": "open I通过使用一种更智能的方式来生成大规模、高质量的偏好数据，这是他们的创新之处。他们首先解决了如何生成高质量数据的问题，然后进一步探讨如何逐步验证这些偏好数据，不仅关注最终评分，还注重中间步骤的验证。为此，他们创建了一个名为PRM800K的数据集，用于验证模型在处理对话中各个阶段的能力。",
+        "time": "00:31:45"
+      },
+      {
+        "question": "在创建高质量数据方面，如何定义和处理高法院数据，并解决在标reword signal时的难题？",
+        "answer": "需要一个可扩展的方式来处理和标注大量的高质量数据，对于很多问题并没有一个确定的正确或错误答案，难以评估好坏。因此，如何系统化地扩展对高法院数据的标注方式是一个关键问题，如果能解决这个问题，可以期待推理任务有质的飞跃。",
+        "time": "00:31:45"
+      },
+      {
+        "question": "当instruct GPT出现时，如何结合人类高质量标注与AI辅助标注来完成高质量reasoning tokens的构建？",
+        "answer": "人类标注可以有多种方式，最直接的是使用direct preference optimization，或者先用人工标注数据训练一个reward model，再用该模型为其他无标签数据提供高质量标注。然而，这种方法可能导致reward hacking问题，即模型可能系统性地分析人的反馈以达到更好的效果，而不是真实反映模型性能。",
+        "time": "00:33:10"
+      },
+      {
+        "question": "在处理复杂工作场景（如旅行规划）时，模型所表现出的推理能力和编码、数学题推理有何不同？",
+        "answer": "在处理复杂工作场景时，模型运用的是基于常识的认知和逻辑顺序的推理，这与编码和数学题目的严格逻辑推理不同。例如，在旅行规划中，模型需要考虑舒适度、老人体力、时间安排等多种因素，这种基于常识的泛化推理能力使得模型能够较好地适应和解决实际问题。",
+        "time": "00:33:10"
+      },
+      {
+        "question": "从instruct GPT的发展看，如何进一步扩大RHF或RAAIF训练的规模？",
+        "answer": "instruct GPT展示了如何利用人类高质量标注数据来训练模型，并探讨了如何借助AI逐渐做好这部分工作。同时，也提到了在复杂场景下，如旅游规划等实际应用中，模型展现出的泛化能力，能够考虑到许多细节因素，这可能是通过通用类型reward的定义或者强化学习对常识推理的有效运用实现的。",
+        "time": "00:36:48"
+      },
+      {
+        "question": "模型能力提升的主要来源是什么？在训练范式中加入了哪些重要的component？",
+        "answer": "模型能力提升的关键在于数据。大语言模型在处理数据方面表现出色，因为相关数据非常丰富且易于获取。对于推理能力的定义，关键在于拥有高质量的推理数据集。目前尚不清楚具体训练过程中加入的组件，但可以猜测是通过大量可扩展的数据训练，使得模型在诸如代码理解和自然语言处理等方面展现出推理能力。",
+        "time": "00:40:15"
+      },
+      {
+        "question": "在生成数据方面，你认为从原因数据集的角度看，是如何训练模型的？",
+        "answer": "我认为更多的情况是通过吸收消化知识，让LM（语言模型）在读取大量信息后，逐步理解和表达出消化知识的过程，并将好的数据留下来。这是一个不断优化和演化的过程，不同于传统的给出答案的方式。",
+        "time": "00:44:12"
+      },
+      {
+        "question": "这一类新型数据的形态与传统的训练方法相比，是否存在难点？",
+        "answer": "现在主要的训练方法有两种：纯nef t和RH（直接引用），其中DPU direct reference formulation越来越接近于2a check。在使用SFT（序列到序列）时，虽然理论上可以生成高质量的结果，但在实践中较难实现。可以采用reward model来鼓励模型倾向于生成更优解，并通过迭代方式逐步提升模型的 reasoning 能力。",
+        "time": "00:44:44"
+      },
+      {
+        "question": "对于使用特定领域模型（如alpha genomic）生成的数据，是否也能用于训练o one模型？",
+        "answer": "如果拥有强大的base模型，这些特定领域的数据可以用来训练o one模型，通过设计合适的reward model评判模型的 reasoning step，从而产生更高质量的合成数据以优化模型性能。",
+        "time": "00:47:19"
+      },
+      {
+        "question": "在强化学习方面，o one模型的重要性有何体现？",
+        "answer": "强化学习在o one模型中的重要性更加凸显。不同于以往强调instruction tuning，现在发现让模型自我探索推理方法并根据结果进行奖励惩罚，可以促使模型自行发现高效的 reasoning思路，而不仅限于人类设计的传统方法。",
+        "time": "00:49:11"
+      },
+      {
+        "question": "如果有一个很好的real world model，是否还需要多步骤数据？",
+        "answer": "虽然有强大的real world model，但在做reasoning时，不一定需要人工指定每一步的推理过程。重点在于对模型整体推理过程或结果的评判，而非教给模型具体的推理步骤，让模型通过强化学习自行优化推理过程。",
+        "time": "00:52:27"
+      },
+      {
+        "question": "OpenAI在构建模型服务时是否考虑了模型路由问题以提升用户体验？",
+        "answer": "目前OpenAI阶段并不急于解决模型路由问题，但随着技术发展，他们可能会在未来优化模型路由，以实现更精准地调用不同模型解决不同问题，从而改善用户体验。",
+        "time": "00:56:10"
+      },
+      {
+        "question": "欧旺模型在面对简单问题时为何仍然采用复杂的前后搜索来解决问题？OpenAI发布的欧旺模型为何没有针对不同问题类型进行适应性输出？",
+        "answer": "欧旺模型由于其训练逻辑基于强推理环境，即使遇到简单问题，也会走复杂的前后搜索流程来解答，这是其设计决定的。欧旺在设计上更倾向于作为一个通用的model service，每次都会用一套固定的逻辑处理用户查询，而不考虑问题是否适合欧旺解决，这与一些pipeline或产品逻辑不同，且目前并未充分展示其多模态能力。",
+        "time": "00:58:15"
+      },
+      {
+        "question": "对于构建通用型agent，基础模型的推理能力和了解功能及局限性的能力有多重要？",
+        "answer": "构建通用型agent时，强大的基础模型推理能力是核心之一，同时需要深入理解各种to（工具）的功能和局限性。此外，如何通过prompt理解与调用这些工具，以及在真实生产环境中验证模型表现，也是关键环节。",
+        "time": "01:00:16"
+      },
+      {
+        "question": "从OpenAI的角度，如何看待单一LM的强推理能力对于构建agent系统的影响？",
+        "answer": "OpenAI认为强推理能力是构建agent系统的基础，随着技术进步，他们相信从基础模型到agent系统的转变将会带来新的挑战，例如多模型协作、任务分工等。",
+        "time": "01:02:13"
+      },
+      {
+        "question": "对于构建强大的agent，您认为需要哪些关键要素？",
+        "answer": "构建强大agent的关键要素包括：一个非常强的base model以支持 reasoning；设计出色的prompt以减少over prompting；创建高质量的to数据集，明确何时使用何种工具；以及通过持续学习和优化，提高模型在执行任务时的决策效率。",
+        "time": "01:05:14"
+      },
+      {
+        "question": "枪少技术最早是在哪篇论文中被提出的，它在解决答案生成中的哪些问题上表现了优势？枪少技术在哪些领域取得了显著效果，并且有哪些后续研究基于此技术进行改进？",
+        "answer": "枪少技术最早在2022年被街政伟的一篇论文中提出，该技术在回答问题时如果给出更详尽的步骤而非直接答案会做得更好。后来，在同一时期或之后几个月，另一篇论文提倡\"less think step by step\"，即通过让模型在生成过程中强制执行每个步骤，从而自然地向前搜索以生成答案。枪少技术在mass reasoning、consents reasoning以及logic reasoning等任务上取得了显著效果，许多相关工作都建立在这个基础上并进行了改进。研究者们还把该技术应用于玛奇模型的reasoning上，产生了不少论文和研究成果。",
+        "time": "01:09:08"
+      },
+      {
+        "question": "目前在枪少技术方向上有哪些主要的研究流派？",
+        "answer": "研究方向主要分为两大流派，一是侧重于显示屏操作的研究，包括展示token的表现方式，结构可以是串式、树状或图结构，并且可以引入verification、refine等机制，以及结合critic model或role model完善生成过程；二是关注模型深度调整的研究，认为在reasoning任务上，模型深度比宽度更重要，尝试通过增加模型层数来提升推理效果。",
+        "time": "01:10:30"
+      },
+      {
+        "question": "对于生成token的数量与模型性能的关系，有什么新的发现吗？",
+        "answer": "最新的发现表明，在生成token的过程中，除了生成的token总数，每个token经过的层数也与模型的推理性能密切相关。当生成的token越多且每个token经过的层越深时，推理效果往往能得到提升，即使这意味着在inference阶段需要处理更高的计算成本。",
+        "time": "01:14:06"
+      },
+      {
+        "question": "COT（Chain of Thought）与MCTS（Monte Carlo Tree Search）在OE框架中的关系是怎样的？",
+        "answer": "COT和MCTS在某种程度上存在相似性，都是探索如何通过规划推理过程来优化模型表现。虽然它们的发展路径不同，但本质上都是解决多选择情境下的决策问题。COT侧重于通过链式思考结构来逐步解决问题，而MCTS则是一种传统的规划和搜索方法，用于估计在多个行动中哪个行动能带来最大的收益。尽管两者用途可能不同，但它们在探索推理规划方面具有高度相关性。",
+        "time": "01:19:11"
+      },
+      {
+        "question": "2L是什么，它在不同行业中有何应用？为什么2L在语言模型和机器人领域中有所突破？",
+        "answer": "2L可以理解为一种基于强化学习（Reinforcement Learning, RL）的概念，其中需要一个agent（如语言模型或物理机器人），一个环境（agent与之互动的场景），以及一个奖励机制来评估agent的行为效果。由于物理世界的复杂性难以建模，目前真正的广泛应用尚未实现，但这是未来有前景的方向。例如，在围棋等可控环境中，由于可以进行无限次模拟和低成本实验，2L得到了长足的发展，并催生了DQN系列论文及其后续演化版本。在这些领域，2L能够利用确定性奖励（如游戏胜利/失败）以及模拟环境进行有效训练，无需昂贵的物理实验成本。此外，随着技术进步，2L也开始尝试结合价值网络和策略网络，比如DRPO和PPO等方法，以实现更复杂的模型优化。",
+        "time": "01:23:31"
+      },
+      {
+        "question": "在语言模型中，如何应用RL来改进模型性能？",
+        "answer": "研究者试图将预训练阶段的模仿学习替换为RL，例如AlphaGo Zero和AlphaGo等项目，通过让模型自我玩耍和学习来提升性能。然而，语言模型缺乏像棋类游戏那样的明确奖励函数，因此目前更多是将其与自我对弈相结合，而非完全依赖自我训练来解决语言模型问题。",
+        "time": "01:29:08"
+      },
+      {
+        "question": "2L在机器人领域和语言模型领域中的应用有何异同？",
+        "answer": "尽管两者都涉及应用2L原理，但应用场景和数据形式有所不同。机器人领域可能更多关注局部运动控制和规划任务，而语言模型领域则更侧重于基于模型的策略制定和自适应调整。不过，无论是机器人还是语言模型，其核心架构和训练技术都采用了transformer结构，以及通过模仿学习和自我改进的方式提高性能。",
+        "time": "01:32:14"
+      },
+      {
+        "question": "自我玩（self play）在语言模型中的应用情况如何？",
+        "answer": "自我玩是一种能够实现模型不断迭代和精细调优的重要技术，在语言模型训练过程中，可以利用已经掌握的知识逐步改进自身性能，通过连续训练和反馈循环，使得模型在特定任务上逐渐逼近最优解。",
+        "time": "01:33:02"
+      },
+      {
+        "question": "COT（Contextual Object Transformer）和自我玩之间的关系是什么？",
+        "answer": "COT和自我玩是两个相对独立的方法。COT更多关注于通过增加计算步骤来解决复杂问题，如自然语言理解中的因果推理；而自我玩则更侧重于在训练过程中利用模型自身进行增量式改进，两者在各自的研究方向上发挥不同的作用。",
+        "time": "01:35:15"
+      },
+      {
+        "question": "对于o one使用self play的前景，您怎么看？",
+        "answer": "我对o one上使用self play持乐观态度，认为这是一个非常有前景的方法，类似于模型自我提升的策略。尽管目前尚未被公开证实，但相信已有许多研究者在探索这一方向。",
+        "time": "01:35:56"
+      },
+      {
+        "question": "您如何评价Denny的那篇关于transformer和COT的paper？",
+        "answer": "我认为这篇paper极具洞察力，从数学层面揭示了transformer加COT架构表达能力的上限，这有助于指导我们设计更好的COT和transformer架构，推动AI技术进步。",
+        "time": "01:37:28"
+      },
+      {
+        "question": "COT在计算不可约性方面的理解是什么？",
+        "answer": "COT在处理复杂问题时，确实需要更多的计算成本才能获得相对精准的答案。例如模拟流体力学状态，必须保证一定的计算成本以达到所需精度。这体现了COT是一种适应性计算的概念。",
+        "time": "01:38:25"
+      },
+      {
+        "question": "对于sky提出的观点，即AI可以解决任何问题，您怎么看？",
+        "answer": "我部分认同天东老师的观点，认为sky的说法类似于神经网络能够拟合任何函数，理论上虽成立，但实际上能否找到最佳解决方案仍不确定。我们需要的是能够有意义地、高效地解决问题的能力。",
+        "time": "01:40:06"
+      },
+      {
+        "question": "您如何看待自play（self-play）在open（OpenAI）等模型中的应用？",
+        "answer": "自play在open和非open的模型中都有应用，特别是在强化学习和逻辑推理方面。open可能采用自play来确保其模型的生成和验证能力足够强大。",
+        "time": "01:41:13"
+      },
+      {
+        "question": "您如何看待未来role model的泛化能力及在不同领域的应用？",
+        "answer": "Role model（如基于chat的强化学习模型）是未来研究的重要方向，可能不再依赖传统的训练模式，而是通过强大的通用模型结合一套强有力的规则进行打分和推理，有望在多个领域实现稳定且有效的应用。",
+        "time": "01:44:14"
+      },
+      {
+        "question": "open是一个单一模型还是多agent系统？",
+        "answer": "根据目前的信息和个人猜测，open可能是一个单一的大模型，但也有可能随着技术发展演变为multi agent系统。不过，现阶段尚未找到理想的训练multi agent模型的方法，open可能先通过强化单个模型来逐步提升能力。",
+        "time": "01:46:56"
+      },
+      {
+        "question": "MADDPG这篇论文是关于什么的？",
+        "answer": "MADDPG是一篇关于multi agent deterministic cost optimization的论文，它探讨了在环境中通过训练多个agent来完成并非zero game的coloration task。这篇论文在多agent系统研究中具有重要地位，通过一系列简化处理，使得原本可能非常复杂的竞争问题变得可行。",
+        "time": "01:51:08"
+      },
+      {
+        "question": "对于multigroup language model的应用，可以怎么理解其工作流程？",
+        "answer": "multigroup language model的应用可以理解为一个模型证明自己能完成一系列任务。例如，首先让模型生成内容，然后逐步指导模型创建结果、总结，并在确认所有步骤正确后给出最终结果。在这个过程中，该模型实际上执行了多个任务，但其复杂性在于模型需要将这些任务串联起来并有效转换。",
+        "time": "01:52:40"
+      },
+      {
+        "question": "对于未来multi agent系统与single agent系统的比较，您怎么看？",
+        "answer": "我认为即使未来出现了非常强大的single agent，它在处理许多任务上可能仍会比multi agent系统表现得更好。这是因为多个人分工合作通常能完成比单个人更复杂的工作，而模型作为“团队版”模型，在当前阶段确实能提升任务表现，但长远来看，AGI的发展可能需要的是一个能处理所有事情的单一模型。",
+        "time": "01:56:45"
+      },
+      {
+        "question": "在构建多agent系统时，是否可能通过单个agent实现类似功能？",
+        "answer": "目前看来，单个agent的表现可能比不上多个agent组成的系统。然而，随着单个agent能力的提升，例如达到像爱因斯坦那样的智商水平，单个agent的表现可能会超越多agent系统。不过，在现阶段，尤其是在AGI（人工智能的通用性）的发展中，更倾向于看到单个强大agent的突破，就像历史上单个agent在解决复杂问题时所展现的效能。",
+        "time": "01:55:24"
+      },
+      {
+        "question": "在游戏领域中，使用大型语言模型（如Owen）玩游戏并生成训练数据的效果如何？",
+        "answer": "最近有项目使用Owen等新型模型结合视觉和文本理解能力来玩游戏，令人印象深刻的是，这些模型并未专门针对游戏训练，却能依靠自身的in context learning能力进行顺序决策，展现出良好的规划和决策能力。此外，通过游戏play data收集的数据对于模型学习物理知识或其他复杂规则具有重要意义，因为游戏结果的正确与否提供了清晰的反馈信号，有助于模型进行有效 reasoning和planning。",
+        "time": "02:02:23"
+      },
+      {
+        "question": "在c data方面，你认为它更多用于激活LM或AI生成模型，还是能产生更多用于simulation的数据？",
+        "answer": "我认为c data目前更多地用于激活像LLM或AI生成模型这样的用途，较少用于产生模拟数据。不过，未来通过multi agents、game engine或physics engine进行模拟和仿真，可以产生更好的数据。",
+        "time": "02:06:08"
+      },
+      {
+        "question": "对于google在路径猜测方面的研究，以及其与open I的相似性，你怎么看这个关系？",
+        "answer": "google早在今年发表的一篇paper中，就探讨了scaling test time与model parameters的关系，这与open I的某些研究有相似之处。我很好奇在座的研究者如何看待这个研究路径的早期研究方向和成果，为何是open I先发布了相关成果。",
+        "time": "02:06:54"
+      },
+      {
+        "question": "o one发布之前，业界对它的关注度和评价如何？",
+        "answer": "o one在发布之前并没有得到业界的广泛关注，可能仅在特定领域内有人关注过类似的零散研究。",
+        "time": "02:08:15"
+      },
+      {
+        "question": "提升influence cost的研究情况是怎样的？",
+        "answer": "在google内部确实有相关的研究，但o one之前未引起广泛关注。这篇最新的paper提供了一个更为系统化的分析，对比了不同的提升influence cost策略。在此之前，各公司多是进行相对独立的、零散的研究。",
+        "time": "02:09:27"
+      },
+      {
+        "question": "欧文技术出现后，是否意味着整个AI社区将转向一个新的追赶路线？",
+        "answer": "是的，欧文技术的出现可能会成为一种新的共识路线。一方面，google等大厂会提升自身推理模型的能力以赶上欧文；另一方面，对于一些对延迟要求严格的场景，欧文技术可能不如改进模型性能那样令人兴奋。",
+        "time": "02:10:16"
+      },
+      {
+        "question": "大厂从4GPT3.54技术追赶到欧文技术，采用RL提升能力的技术，这是否会比之前更快？",
+        "answer": "我个人认为，采用新的范式如RL提升能力的技术，对于追赶者来说难度可能更大。因为新的技术框架需要更强的基础模型，并且在训练过程中，尤其是采用MCTS策略时，GPU利用率低且对算力消耗大，这对资源和成本提出了更高要求。",
+        "time": "02:14:09"
+      },
+      {
+        "question": "为什么采用RL技术时，GPU利用率会低且对算力消耗更多？",
+        "answer": "采用RL技术时，解码过程中的GPU利用率相较于训练阶段会降低，需要将解码动作结合到训练中，这一过程会带来额外的等待时间，从而降低了整体的GPU利用率。",
+        "time": "02:15:12"
+      },
+      {
+        "question": "在规模化训练中，对算力的需求是否与推理阶段有所不同？",
+        "answer": "规模化训练阶段对算力的需求与推理阶段确实不同。训练过程中不仅需要强大的训练芯片和大规模集群，而且在推理阶段可能无法使用与训练卡性能要求不同的设备，因为整个过程是训推一体的。",
+        "time": "02:15:43"
+      },
+      {
+        "question": "对于开源基础模型的选择，以及数据方面的挑战，如何看待？",
+        "answer": "选择合适的开源基础模型是一项挑战，因为市场上有很多未经开放的优质模型。同时，获取高质量的训练数据同样困难，尤其是对于那些需要深度理解的数据。此外，像o one这样的技术，由于其对数据和实现方法的特殊需求，也加大了追赶者的难度。",
+        "time": "02:19:31"
+      },
+      {
+        "question": "在追赶欧万的过程中，大家最容易高估和低估的是什么？",
+        "answer": "最容易被低估的是数据层面，尤其是高质量的、用于判断模型好坏的数据获取难度很大。例如，在获取高质量的human feedback以训练OY模型时，难度更高。",
+        "time": "02:21:51"
+      },
+      {
+        "question": "是否有被低估的工程挑战点？",
+        "answer": "训练工程上的挑战确实被低估了，尤其是在训练高级模型（如GPT四代水平）时，不仅需要强大的训练能力，还需要全面掌握训练过程中的各个环节。",
+        "time": "02:22:52"
+      },
+      {
+        "question": "对于未来一年和三年，在O one领域最期待看到哪些进步？",
+        "answer": "一年内期待编码能力普及，任何人都能编写代码；三年内期待大语言模型与机器人技术结合有更长足的进步，尤其是通过高质量数据推动机器人模型的发展。",
+        "time": "02:24:40"
+      },
+      {
+        "question": "RTX在机器人数据集方面的作用是什么？",
+        "answer": "RTX是一个开源项目，旨在整合全球多个实验室的机器人数据集，创建一个标准化、大规模的机器人动作示范数据集，为机器人模型提供预训练资源。",
+        "time": "02:26:45"
+      },
+      {
+        "question": "在接下来的几年里，对机器人落地应用有哪些期待？",
+        "answer": "期待在接下来3-5年内，随着机器人技术和数据资源的发展，能看到机器人的落地应用以及更多惊艳作品的出现。",
+        "time": "02:28:31"
+      },
+      {
+        "question": "对于多模态在推理方向的进展有何看法？是否期待看到针对多模态研究的更大规模投入？",
+        "answer": "认为一年内可能会看到多模态推理方向的突破，尤其是在结合视觉和语言等多模态信息进行有效推理方面。非常期待看到针对多模态研究的巨大投入和进步，尤其是在训练过程中如何高效利用少量数据以达到与大规模数据相当的效果。",
+        "time": "02:29:38"
+      },
+      {
+        "question": "对于AI能否自主进行前沿研究有何展望？",
+        "answer": "期待未来几年内，AI能够实现自主发现新事物、进行前沿研究，并通过更深度的思考和推翻重来的能力，对问题解决方式提出质的提升。",
+        "time": "02:35:19"
+      },
+      {
+        "question": "对于AI系统如何质疑并更新自身知识库的看法？",
+        "answer": "认为让AI系统有能力质疑和更新其已有的知识库是一个非常挑战性的问题，这对于AI达到人类水平至关重要。",
+        "time": "02:36:19"
+      },
+      {
+        "question": "对于AI与人类异步协作进行研究的可能性有何期待？",
+        "answer": "期待AI能在未来三年内实现异步协作，即能在长时间的研究任务中独立完成高价值的研究，并能与人类实时或异步地讨论与反馈，形成新的AI agent操作系统或交互界面。",
+        "time": "02:40:06"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "深入解析OpenAI O一模型技术",
+        "summary": "在最近的一期Amber播客中，Monica邀请了多位来自一线的专家，包括来自Google DeepMind的研究工程师和在强化学习领域有深入研究的博士生等，共同探讨了OpenAI最新发布的O一模型。这次讨论深入到O一模型如何通过结合强化学习和思维链技术，在处理复杂问题上达到博士生水平，及其对行业未来的影响。嘉宾们凭借其一线的实践经验，提供了对O一模型的独到见解和技术细节解读，让听众对如何给大语言模型赋予新的逻辑推理能力有了更深入的理解。"
+      },
+      {
+        "time": "00:02:33",
+        "title": "Eric在Google的LM研究与MCTS应用",
+        "summary": "Eric目前在Google从事LM相关研究，主要聚焦于LM的post training reasoning和multi age。他在大约两年前开始涉足LM领域，当时正值instruction tuning概念崭露头角，他参与了计划相关模型的规模扩展研究。Eric去年开始接触RL，特别在Google内部对PM two和German进行研究。他提到了一个引人注目的研究方向，即将MCTS（蒙特卡罗树搜索）与LM结合，用于提升模型的reasoning能力。这一结合不仅有助于产生高质量的合成reasoning数据，还能在推理过程中融入规划，优化reward和reasoning路径。他们最近的研究使用MCTS方法优化了标注process surprise tion数据的过程，以减少人工成本。此外，他还指出，增强reasoning能力所需的multistep数据主要在post training阶段发挥作用，有助于模型更有效地学习value function。"
+      },
+      {
+        "time": "00:07:22",
+        "title": "孔令杰的学术和职业生涯旅程",
+        "summary": "孔令杰，斯坦福大学机械和计算机双硕士，在未完成CS学位的情况下继续深造，专注于机器人学和强化学习。他的学术生涯始于对状态空间模型的研究，并在斯坦福偶然接触到了公共图形模型和深度生成模型，由此踏足AIML领域。在职业生涯方面，孔令杰曾在微软实习，并在AWS工作，负责分布式感知和医疗图像处理项目。2023年初，他加入DeepMind，开始在谷歌从事利用语言模型进行预测任务的工作，并致力于提升广告点击率的代理工作。孔令杰还提到受到一篇关于奖励模型优化的论文启发，并分享了他对coding的热情。"
+      },
+      {
+        "time": "00:11:09",
+        "title": "VS Code与AI编程的未来",
+        "summary": "讨论重点在于对比VS Code及其扩展Copilot与Curse r的不同，强调Curse r作为一个基于VS Code的编辑器，通过接入不同大模型如class 3.5和FO，能够在AI编程方面提供更优化的界面和功能，特别是其Composer功能允许快速构建项目。此外，还提到了一个由MIT 00后创立的公司，通过集成聊天至编程的全过程，使用AI极大提升了编程效率和能力，最近获得4亿美金的估值。整体上，这段对话探讨了AI在编程工具领域带来的革新和潜力。"
+      },
+      {
+        "time": "00:13:55",
+        "title": "苏辉分享AI研究和创业经历",
+        "summary": "苏辉介绍了他在微信AI部门的工作，从事Deal系统和研究工作，随后投身创业大潮。转战大厂后，他专注于大模型的训练和前沿研究，特别是强化学习的应用探索。他对AI领域的变化有深刻见解，强调了从用户反馈到模型迭代的重要性，并推荐了艾伦·朱的physics LM工作，赞赏其严谨的研究方法。苏辉的分享为进入LM或reasoning领域的研究者提供了宝贵的学习路径。"
+      },
+      {
+        "time": "00:18:00",
+        "title": "探讨OpenAI发布及其对AI技术影响",
+        "summary": "对话集中于一位在AI技术领域从事投资研究的人士，分享了其对AI独角兽公司的研究、RL技术的分析与预测，以及对语言模型和思考推理关系的见解。此外，也探讨了OpenAI的某项发布对AI领域的影响，特别是对AI模型训练方法和未来技术路线的可能影响。"
+      },
+      {
+        "time": "00:21:04",
+        "title": "探讨欧冠后对推理模型的理解与期待",
+        "summary": "通过欧冠游戏体验，感受到研究领域中提出并实现的'skin up the influence time'方法对提升推理效果的潜力。游戏体验让人惊喜地发现，欧文模型能展现出不同的思维和推理模式，例如逐步思考或考虑先前的错误。这种能自我决定下一步思考方式的能力，在之前的模型中未曾见到。尽管模型展示的逻辑推理过程仍有限，但对于思考过程（think process）的可读性抱有期待，希望能看到模型内部更多关于如何选择推理模式、进行自我反思或问题分解的细节。此外，对于模型在特定任务上的表现不足持开放态度，认为更关注其内部推理模式的表现更为重要。"
+      },
+      {
+        "time": "00:24:44",
+        "title": "探讨语言模型的测试和局限性",
+        "summary": "讨论集中在如何通过特定问题测试语言模型（LM）的能力，以及这些模型在理解和推理方面的表现。一个焦点是测试模型能否准确计算特定单词中字母的数目，尽管有人认为这类测试可能不是特别重要。进一步的讨论转向了LM在处理数学、编程和量子物理等领域问题时的表现，强调了模型在自我修正和逻辑推理方面的能力。同时，也指出了现有模型的局限性，表达了对未来工作改进这些模型的期待。"
+      },
+      {
+        "time": "00:28:27",
+        "title": "探讨改进AI模型的数据质量与评估方法",
+        "summary": "讨论集中在如何在AI模型的下一个版本中克服现有局限，特别是数据覆盖范围的扩大和评估方法的可扩展性。提到了几篇相关工作，如PRM（过程奖励模型）和'let's verify step by step'，强调了创建高质量数据的重要性以及定义高质量数据的挑战。此外，还探讨了通过偏好数据而非传统的监督微调数据来提高数据质量的方法，以及如何对中间步骤进行验证以改善模型的性能。最后，指出了对高质量数据标注的可扩展方法的需求，这对AI模型的进步至关重要。"
+      },
+      {
+        "time": "00:32:40",
+        "title": "探讨人工智能反馈在RL模型训练中的应用及挑战",
+        "summary": "对话中讨论了在人工智能领域，特别是强化学习（RL）模型训练中，使用人工智能（AI）反馈的重要性。提到了利用人类标注数据直接优化模型（Direct Preference Optimization，DPO）的方法及其挑战。强调了高质量的人类标注对于训练奖励模型（reward model）的重要性，并指出了奖励模型可能存在的问题，如奖励黑客行为（reward hacking）。同时，讨论了人工智能反馈（AI feedback）在提高模型质量和安全性方面的作用，以及在训练过程中对奖励模型进行精细调整的必要性。"
+      },
+      {
+        "time": "00:35:24",
+        "title": "旅游规划中的推理与细节考虑",
+        "summary": "讨论者分享了使用某在线平台进行复杂旅游规划的经历，特别强调了家庭跨国旅行的场景。体验中，平台对细节的考虑令人印象深刻，比如考虑时差问题、调整时间点建议休息，以及对不同地区景点关闭时间的细节注意。这些都显示了平台在旅游规划方面的强大功能，能够泛化到具体且复杂的旅行需求中，体现了在非明确问题解决和基于常识的推理方面的能力。同时，讨论者也提出了对推理定义的思考，区分了基于符号学的逻辑严谨推理和基于常识的泛化推理。旅游规划的例子更倾向于后者，需要考虑到诸如体力、舒适度等逻辑顺序和常识性的因素。"
+      },
+      {
+        "time": "00:40:14",
+        "title": "提升语言模型推理能力的策略与方法",
+        "summary": "讨论重点在于如何增强语言模型（LM）的推理能力，分析认为数据的质量和可获取性是关键。特别指出，高质量的数据集如Stack Overflow和Wikipedia对提升模型性能至关重要。进一步探讨了推理能力的定义及如何获取推理相关的数据，强调了通过合成数据方法（使用数学题目等作为例子）来强化模型推理能力的重要性。此外，也提到了通过反复迭代和优化，以及利用自我一致性方法来筛选和增强模型的推理能力。整体上，这段讨论集中在通过数据质量和创新数据生成方法来提升语言模型的推理能力。"
+      },
+      {
+        "time": "00:44:31",
+        "title": "探讨语言模型训练方法和自我博弈在模型优化中的应用",
+        "summary": "讨论集中于语言模型训练的两种主要方法，即纯神经网络方法和直接参考公式方法，以及这些模型在处理特定数据形态时可能遇到的挑战。特别提到了SFT（监督微调）在高质量贝塔版本难以生成时的局限性，以及通过迭代和推理方法，基于偏好数据来逐步优化模型的能力。此外，还探讨了自我博弈（self-play）的概念及其在提高模型性能中的潜在应用，强调了基础模型的强大对于实现这一目标的重要性。最后，讨论了在特定领域服务问题上，选择与领域特定模型相关的数据来改进通用模型的可能性。"
+      },
+      {
+        "time": "00:47:11",
+        "title": "强化学习和数据在提升模型推理能力中的关键作用",
+        "summary": "在当前的AI研究中，数据和强化学习被认为是提升模型推理能力的两个主要方面。讨论强调了利用大量关于推理偏好的数据以及设计有效的奖励模型来指导模型学习的重要性。通过让模型基于奖励模型自主探索推理路径，可以实现比人类更为优化和高效的推理方法。此外，通过产生高质量的合成数据，可以极大地增强模型的推理能力，超越传统的人类设计的模型架构或工作流程。这一观点反映了AI行业的一个共同趋势，即利用AI自动优化人类设计的模型和工作流程。"
+      },
+      {
+        "time": "00:52:09",
+        "title": "探讨模型学习与多步数据关系及强化学习应用",
+        "summary": "讨论集中在无需模型学习特定步骤的情况下，如何理解模型与多步数据之间的关系。强调如果拥有一个精确的现实世界模型，可能不需要大量的多步数据。探讨了在不需要显式教导模型进行推理的情况下，通过奖励机制激励模型学习的有效性。进一步讨论了在使用强化学习时，选择合适的反馈力度（如token、sentence或step）的重要性，以及如何通过高质量数据和细致的动作切割，使模型能够学习到具体的推理步骤。此外，提到了一些实例，展示了如何将人类思维过程中的停顿和语气词融入模型学习中，以此提高模型的表现和理解能力。"
+      },
+      {
+        "time": "00:56:09",
+        "title": "探讨大模型解决简单问题的复杂性及未来发展方向",
+        "summary": "讨论集中在为何大模型在解决简单数学问题时采用复杂方式，及其在不同任务上的性能表现。分析了欧旺模型在简单和复杂问题上的应用策略，及其未来可能的改进方向，包括模型路由和更高效的模型利用。同时，指出了目前大模型服务在用户体验、多模态支持和模型选择方面的不足，以及对OpenAI在研究与产品开发方面的分离感。最终，讨论指向了强化基础模型的推理能力、工程化问题的解决，以及对未来通用型代理（agent）的期待。"
+      },
+      {
+        "time": "01:01:03",
+        "title": "探讨人工智能代理（agents）的发展与挑战",
+        "summary": "讨论重点在于人工智能（AI）代理的发展，特别是其在理解、推理以及执行复杂任务方面的能力提升。指出单一的AI模型虽然具有强大的推理能力，但构建高效的AI代理系统需要解决多个AI模型之间的协作与分工问题。此外，还提到创业投资领域对AI代理技术的关注增加，显示出这一领域的发展趋势。最后，探讨了增强AI模型理解能力对AI代理工作的影响，强调了从推理到执行复杂任务的系统设计挑战。"
+      },
+      {
+        "time": "01:04:47",
+        "title": "探讨OpenI的哲学信念与代理模型的挑战",
+        "summary": "对话中讨论了OpenI不选择做路由器的原因，归因于其基础信念即通过搜索和学习解决所有常规问题。进一步，讨论了构建有效代理模型面临的挑战，强调需要强大的基础模型、良好的推理能力、高质量的提示以及模型的学习能力。特别指出，代理模型需要处理提示过度的问题，并且通过优化问题表述来指导模型正确使用工具。此外，还提到了通过用户行为无意识中为平台提供数据的模式，以及如何让这一过程对用户来说既自然又无负担，最后强调了数据标定的重要性以及激发用户参与的必要性。"
+      },
+      {
+        "time": "01:08:38",
+        "title": "探讨Train of Thoughts方法及其应用",
+        "summary": "Train of Thoughts（COT）方法自两年前提出以来，在处理需要逐步推理的问题时显示出其优势。COT不仅促使模型在得出答案前展示详细的推理步骤，而且在短时间内已经在多项推理任务上取得显著成效。此外，围绕COT的方法出现了两大研究流派：一种侧重于显示推理过程的显式操作，如通过不同结构（串式、树结构或图结构）展示推理步骤；另一种则关注于隐式调整，旨在通过简化任务至系统一级的处理来提高推理效率。这表明COT及其相关研究为理解复杂推理任务提供了新视角，同时也展示了在模型推理能力提升方面的巨大潜力。"
+      },
+      {
+        "time": "01:12:33",
+        "title": "深度模型对推理任务的影响及优化策略",
+        "summary": "最近的研究发现，将推理任务与模型的深度相关联，表明在推理任务上，模型的深度比宽度更为重要。通过实验验证，发现即使在参数量固定的情况下，增加模型的层数（即模型的深度），尽管会增加推理（inference）的成本，却能有效提升推理任务的表现。此外，通过允许模型对过去的错误进行反思（reflection），引入额外的token，也能够显著提升推理任务的表现。这表明，无论是通过增加模型深度还是通过直接增加生成token的数量，都能在推理表现上获得提升。"
+      },
+      {
+        "time": "01:15:56",
+        "title": "COT与MCTS在OE框架中的关系及应用探讨",
+        "summary": "讨论集中于COT（Chain of Thought）和MCTS（Monte Carlo Tree Search）在OE（开放性环境）框架下的关系及其应用。COT的演化显示了其与MCTS在树状思考上的相似性，表明技术发展中的相互影响。讨论还触及了使用反射数据提升模型表现的方法，及其与传统问题解决方法的区别。此外，还探讨了MCTS在不同阶段（数据处理、RL过程或推理时间）可能的应用方式，强调了其在优化推理路径中的潜力。"
+      },
+      {
+        "time": "01:23:06",
+        "title": "强化学习在机器人和语言模型领域的应用及挑战",
+        "summary": "讨论重点在于强化学习（RL）的核心组成部分，包括智能体（agent）、环境（environment）和奖励机制，以及这些组件在不同行业如机器人和语言模型中的应用。特别强调了在控制良好的环境中，如棋类游戏，RL能够取得显著进展。进一步探讨了将RL应用于语言模型的挑战，包括缺乏确定性的奖励函数和难以控制的环境，以及如何通过技巧实现自我对弈。同时，回顾了RL技术的发展历程，包括DQN及其变种，以及在特定领域尤其是语言模型方面的应用尝试。最后，提出了将RL完全应用于语言模型的困难，特别是在没有预训练和确定性奖励的情况下实现自我游戏学习的挑战。"
+      },
+      {
+        "time": "01:29:34",
+        "title": "从机器人学到自然语言处理的启发",
+        "summary": "对话中讨论了机器人学（robotics）与自然语言处理（NLP）之间的联系与区别，特别是在应用、技术和方法论上的借鉴和启发。一方面，机器人学中的局部动作（local motion）和规划（planning）问题与语言模型没有直接关联，更多依赖于模仿学习和操作演示。另一方面，基于语言模型的规划任务展示了如何利用大型语言模型来描述和执行复杂任务，这为NLP提供了关于如何处理和理解复杂指令的见解。此外，讨论还提到了将机器人数据与视觉数据、VQA任务相结合，以及通过细化调优来提升模型性能的方法，强调了在不同应用领域之间共享技术的潜力和挑战。"
+      },
+      {
+        "time": "01:32:45",
+        "title": "Self-Play在语言模型中的应用与研究",
+        "summary": "对话中讨论了Self-Play技术在语言模型领域的研究及其应用情况。虽然Self-Play起初在游戏领域通过自我博弈方式提升模型性能而闻名，但其在语言模型中的应用仍处于探索阶段。对话指出，Self-Play可作为一种有效的训练技巧，使模型能够在每一步都进行增量改进，从而不断提高其解决复杂问题的能力。此外，还探讨了COT（思维链）与Self-Play之间的区别和关系，认为二者虽然都是提高模型性能的技术，但其侧重点不同，COT更多关注于通过增加推理时间来解决问题，而Self-Play侧重于通过自我博弈来不断优化模型。最后，提及了一篇关于COT如何增强Transformer处理社会问题能力的论文，强调了理论分析在指导模型设计和提升模型性能上的重要性。"
+      },
+      {
+        "time": "01:39:52",
+        "title": "探讨强化学习与模型预测控制在AI发展中的应用与挑战",
+        "summary": "对话主要围绕Sky的论文引发的讨论，特别是天东老师和其他研究者对于使用简单神经网络拟合复杂函数能力的质疑。讨论指出，虽然理论上可以通过穷举方法找到解决方案，但实际操作中需要更有效的方法来直接解决问题。此外，还讨论了自我对弈（self-play）在强化学习中的应用及其对未来模型的影响，特别是在欧旺车等项目中，即使官方未明确承认，社群普遍认为自我对弈是关键技术。进一步地，讨论转向了角色模型（role model）在不同领域中的应用及其面临的挑战，尤其是如何使模型泛化并稳定应用于各种领域。最后，强调了奖励模型（reward model）的重要性以及在不同情境下AI反馈的潜力，提出了“人类在循环中”的AI反馈作为解决方案，以应对人类难以判断的复杂情况。"
+      },
+      {
+        "time": "01:46:54",
+        "title": "探讨单一模型与多代理系统在人工智能中的应用",
+        "summary": "对话中讨论了人工智能领域中单一模型与多代理系统（multi-agent systems）的争论，特别是OpenAI的模型被认为是单一的还是多代理的。一些观点指出，虽然目前很多成就基于单一强大模型，如对话生成和策略网络，但也存在将多个代理或模型结合起来处理复杂任务的趋势。此外，讨论还触及了多代理系统在实际应用中的复杂性和挑战，以及未来研究方向可能更倾向于单一代理的突破。整体上，讨论强调了在AI研究中，单一模型与多代理系统各有优势，具体采用哪种方法取决于应用场景和任务需求。"
+      },
+      {
+        "time": "01:53:50",
+        "title": "探讨人工智能单体与多智能体系统的发展",
+        "summary": "对话集中在人工智能（AI）领域中单体与多智能体系统的未来发展前景。讨论首先提出对欧文（可能指特定AI系统）的推测，认为其可能是一个单体或两个代理的系统，基于当前技术发展趋势，不会是更为复杂的多智能体系统。进一步，讨论转向对多智能体与单智能体优劣的比较，强调在当前技术条件下，多智能体系统因能够集合不同视角和思路，在多数情况下可能展现出优于单体系统的能力。此外，讨论还提到了人工智能在游戏领域的应用，如何通过结合强大的语言模型来实现对游戏的新型互动，以及这种应用可能对未来AI发展带来的影响。总的来说，对话反映了对未来AI技术发展，特别是单体与多智能体系统之间的竞争和互补的深入思考。"
+      },
+      {
+        "time": "02:02:23",
+        "title": "大模型在游戏中的应用与潜力",
+        "summary": "讨论集中在大模型（LM）在游戏领域的应用上，突出了LM通过在情境学习中的能力进行序列决策的惊人能力。不同于以往专门训练模型来玩游戏的方法，大模型展现了其规划和决策的强大能力，不仅限于图像理解，还扩展到了游戏策略的制定。此外，通过使用游戏数据和物理模拟器引擎，大模型能学习现实世界中的物理知识，进一步提高了与开放世界交互时的数据收集和反馈的质量。虽然目前大模型在游戏数据方面的应用较少，但其在提升决策和规划能力方面的潜力值得探索。"
+      },
+      {
+        "time": "02:06:53",
+        "title": "探讨谷歌在NCTS领域的研究与OpenAI的成果比较",
+        "summary": "讨论集中于谷歌和OpenAI在NCTS领域的研究情况，特别是谷歌的研究工作如何先行于OpenAI的某些成果。提到了谷歌的DeepMind发表的一篇论文，探讨了在特定规模下模型参数扩展的效率，与OpenAI在influence time的scaling law方面的研究有相似之处。有观点指出，尽管谷歌在技术上领先，但OpenAI却在某些领域先发布了成果。同时，讨论也触及了谷歌内部对于提升reasoning模型能力的研究，以及这些研究可能对实际应用和商业化的意义。"
+      },
+      {
+        "time": "02:11:20",
+        "title": "探讨AI技术发展与大厂应对策略",
+        "summary": "讨论重点在于AI技术，特别是延时问题对用户体验的影响，以及如何通过新技术找到产品机会。同时，探讨了将训练逻辑框架迁移到提升特定能力边界的可能性，如安全和角色扮演能力的增强。此外，还讨论了从大厂和商业化角度，新技术如通过RL提升能力的挑战和追赶难度，及其对AI社区追赶速度的影响。特别指出，新范式的引入使得追赶者面临更大的挑战，尤其是在模型泛化能力和计算资源消耗方面。"
+      },
+      {
+        "time": "02:14:59",
+        "title": "GPU利用率对算力消耗的影响及训练推理挑战",
+        "summary": "对话中讨论了GPU利用率低反而增加资源消耗的问题，特别是在解码和训练过程中的表现。指出在进行模型推理时，可以使用性能较低的GPU以降低成本，但同时强调了在规模化训练中对高性能GPU和大型集群的需求。此外，还探讨了选择合适的基线模型、处理数据和提升算力的挑战，以及面对开源资源限制时的策略。整体上，表达了对算力要求、训练与推理一体化、以及追赶技术前沿的工程挑战的关注。"
+      },
+      {
+        "time": "02:18:47",
+        "title": "多模态模型与推理数据的挑战",
+        "summary": "讨论集中在两个主要难点上：首先是GPT4引入的多模态模型的挑战，这要求在每个训练阶段都集成多模态理解能力。其次是欧一面临的挑战，主要在于如何获取有效的推理数据，这比简单的基于结果的人类反馈更加困难和资源密集。此外，对于实现这些多模态模型的具体方法和原理，社区仍在探索阶段。对中小公司而言，另一个挑战是强化学习(RL)的重要性增加，以及是否需要投入资源进行在线的RL方法，还是可以选择不依赖RL的方法。"
+      },
+      {
+        "time": "02:21:42",
+        "title": "探讨模型训练中的挑战和数据重要性",
+        "summary": "讨论集中在模型训练过程中的难点，尤其是数据层面的挑战。一方面，高质量的数据获取被严重低估，特别是对于LHF（human feedback）的需求以及获得有效反馈数据的困难；另一方面，工程实施的挑战也被低估，涉及到不仅仅是训练问题，还涉及到必须具备多方面能力以成功完成训练的挑战。此讨论强调了数据质量对未来模型训练的重要性，以及在技术实施上需要克服的难点。"
+      },
+      {
+        "time": "02:23:46",
+        "title": "大语言模型与机器人技术的未来展望",
+        "summary": "讨论重点在于未来一年内，编码可能成为大众技能，使得任何人都能编写代码。长远来看，期待大语言模型与机器人技术的结合能取得显著进展，特别是在机器人的领域。面临的主要挑战是高质量数据的获取与处理，这对于机器学习模型，尤其是机器人应用至关重要。讨论还提到了RTX项目，这是一个通过聚集全球实验室数据，以创建统一的机器人数据集的努力，目的是推进机器人技术的发展。同时，强调了机器人技术与语言模型相比，在数据需求和处理上仍存在较大差距。对于未来3到5年，期待看到机器人技术的落地应用和惊艳作品，以及技术社区在此领域的进一步探索和创新。"
+      },
+      {
+        "time": "02:29:38",
+        "title": "多模态技术在AI领域的应用与发展展望",
+        "summary": "对话者关注多模态在reasoning方向的进展，表达了对当前研究中多模态token未能显著提升语言模型性能的失望，并期望未来一年内能看到在这一领域取得突破。此外，讨论了训练数据资源量的扩大、减少无意义数据的使用，以及对三年内接近AGI状态模型的乐观预期。特别指出多模态reasoning面临的挑战，包括模态之间的alignment和reasoning的复杂性，期待技术能在未来一年内有所发展。长期来看，希望AI能够在科研创新中扮演更重要的角色，包括自主发现和解决复杂问题。"
+      },
+      {
+        "time": "02:36:18",
+        "title": "探讨AI的未来：从GPT到创新应用",
+        "summary": "对话中讨论了AI领域面临的挑战，特别是让AI能够质疑和更新其已学到的知识，以及AI在提高解决复杂问题能力方面的潜力。讨论强调了从GPT到ChatGPT的演进不仅为技术突破提供了可能，也为创业者和大公司带来了新的机遇。特别地，对未来AI能够执行高价值研究任务和与人类进行异步协作的期待，可能催生新的AI交互模式和产品。整体上，这次讨论展现出了对未来AI技术和应用的乐观态度，以及对未来创新浪潮的期待。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "发布日期: 2023年9月12日"
+                },
+                {
+                  "children": [],
+                  "content": "特点: 结合强化学习(reinforcement learning)和思维链(Trainer Thought)技术"
+                },
+                {
+                  "children": [],
+                  "content": "目标: 提升模型处理物理、数学、编程等复杂问题的能力"
+                }
+              ],
+              "content": "OpenAI O-1模型"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "提出时间: 2022年"
+                },
+                {
+                  "children": [],
+                  "content": "目的: 增加模型推理步骤的透明度"
+                },
+                {
+                  "children": [],
+                  "content": "方法: 强化模型解释其推理过程的能力"
+                }
+              ],
+              "content": "Trainer Thought"
+            }
+          ],
+          "content": "技术背景"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "基于数据的强化学习"
+                },
+                {
+                  "children": [],
+                  "content": "思维链在模型训练中的应用"
+                }
+              ],
+              "content": "理论与实践"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "机器人学"
+                },
+                {
+                  "children": [],
+                  "content": "大模型推理能力的提升"
+                }
+              ],
+              "content": "强化学习在不同领域的应用"
+            }
+          ],
+          "content": "技术应用"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "对GPU和训练集群的要求"
+                },
+                {
+                  "children": [],
+                  "content": "算力消耗与GPU利用率"
+                }
+              ],
+              "content": "大模型训练的算力要求"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "模型泛化能力"
+                },
+                {
+                  "children": [],
+                  "content": "多步推理任务的处理"
+                }
+              ],
+              "content": "大模型推理能力的挑战"
+            }
+          ],
+          "content": "技术挑战与机遇"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Agent-based模型的发展"
+                },
+                {
+                  "children": [],
+                  "content": "多模型协同工作的可能性"
+                }
+              ],
+              "content": "预测未来技术趋势"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI在教育、医疗等领域的应用"
+                },
+                {
+                  "children": [],
+                  "content": "商业化产品的开发与创新"
+                }
+              ],
+              "content": "技术的社会与商业影响"
+            }
+          ],
+          "content": "未来方向与展望"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "对OpenAI O-1模型的期待与印象"
+            },
+            {
+              "children": [],
+              "content": "强化学习与大模型结合的潜力"
+            },
+            {
+              "children": [],
+              "content": "对未来技术发展方向的见解与预测"
+            }
+          ],
+          "content": "讨论者观点"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "强化学习在语言模型训练中的应用"
+                },
+                {
+                  "children": [],
+                  "content": "思维链技术的引入与应用"
+                }
+              ],
+              "content": "新范式的提出"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "优化GPU利用率"
+                },
+                {
+                  "children": [],
+                  "content": "降低模型训练的算力需求"
+                }
+              ],
+              "content": "算力挑战的解决方案"
+            }
+          ],
+          "content": "技术突破与创新"
+        }
+      ],
+      "content": "大模型与强化学习讨论会摘要"
+    }
+  }
+}

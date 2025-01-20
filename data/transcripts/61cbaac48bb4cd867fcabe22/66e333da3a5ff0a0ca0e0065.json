@@ -1,0 +1,1939 @@
+{
+  "pid": "61cbaac48bb4cd867fcabe22",
+  "eid": "66e333da3a5ff0a0ca0e0065",
+  "title": "EP 60. 全英文对话CRV投资人与LanceDB创始人：向量数据库下半场，大模型和多模态需要怎样的数据基建？",
+  "task_id": "pev8qdo47wzwnkga",
+  "transcription": [
+    {
+      "time": "00:00:03",
+      "text": "欢迎来到onboard，真实的一线经验，走心的投资思考。我是Monica，我是高宁，我们一起聊聊软件如何改变世界。Hi everyone, welcome back to on board.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:18",
+      "text": "This is Monica, another english episodes here. This one was recorded back in june twenty twenty four, where Monica was in cisco last year's interview with the co of mosaic N, L. And customer investor as the fair ventures was really a hit.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:34",
+      "text": "And I really like the dynamic of having a founder and investor to share their its perspective on the same topic. So i'm bringing back that format. This time, I thrill to have two of my favorite people尝试the CEO and cofounder of landsat b，an open source selector data base design for multi model data.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:54",
+      "text": "And bryan john, a good friend and investor at CRV. CRV has been staying very low key, but it's one of silicon top early date V, C firms with over fifty years investing in texas such as多desh air。Tae chang has an extensive experience in data info.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:12",
+      "text": "He was an original contribute to the a library and found data pad, which was quiet. N, T, B is already powering, leading, generate A, I companies such as character AI, Midjourney, harvey and anymore, brian walked on data infra APP meta and later john, open source database unique stabbers. They both have strong technical background and first hand experience in commercializing open source projects. It's a very rare but very perfect door to discuss this topic. We will dive into the opportunities and data infrared this era of general AI, their views on the competitive landscape of vector database, what has what has stayed the same in the past several years, a chance journey, building landscape as a second time founder and some spicy takes on open source business model and hot topics in the data infrared ACE is a long episode trust me, their insides are pure gold let's get started enjoy. Um welcome to on board town and brian .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:18",
+      "text": "so um to get to .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:19",
+      "text": "that uh would you tell us like a little bit about yourself and how you got into the AI and data in first place?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:29",
+      "text": "Let's art from time. Yeah absolutely. So i've been been building data tools for data science machine learning for about two decades. You started with pandas and moved into uh hadoop big data at la era and then uh recommended systems and SHE learning at uh to BTV and IT was there that I saw a lots of pain with existing dating infrastructure dealing with multi model data for AI audio, video images and of course embedding. And my cofounder lay at at the same time he was working a cruise and saw roughly the same thing. And so we sort of got together and set out to essentially trying to revolutionize a the dad infrastructure for this new era of AI.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:03:19",
+      "text": "awesome. We always have a fun fact that I would like the um the speaker to share. Um so was an AI or data in for our project or a company that you let us find interesting.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:03:31",
+      "text": "So um I think so we've been making a lot of could use out of um a project open source project called da fusion and IT is open source and that good engine that's been developed started out as part of the apache y area project and recently has really blossomed into its own top level, appearing and is now being used by a lot of companies around and around the industry.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:03:58",
+      "text": "And IT makes IT easy for databases developers to um create create new and specialized data systems. So it's it's something that we use a lot and it's something that we really love uh to see get more popular and get more recognition。We uses data fusion and a bunch of places. But the most important one for us as sensibly, is using da fusion as a bridge uh, to allow our users to go from local experiment seamlessly into big billion scale distributed, be using the same, essentially the same curry plan, which is different to awesome yeah.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:37",
+      "text": "definitely check IT out the the problem project bright, tell us about yourself.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:43",
+      "text": "Yeah I was one of the investors at CRV, were in early stage, busy find one of the oldest in the us. Started in ninety seventies, been around for more than fifty years. Um before joining CRV, I was the first product manager for press to facebook and our whole team ended up believing facebook to build starburst data, which was the presto as a service company, which is now in series this stage. After that, I moved over the CRV, where I just focus for time on backing early date founders who have .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:05:18",
+      "text": "great ideas aten. So a question of them for brian to share. Can you share with us investment they recently make and also publicly announce?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:05:31",
+      "text": "And what you say yes is so far, but the only one we officially announced is be there is in several that were unofficially ally leaked. We've had a long time viewpoint the dead I like the multimodal AI wave would necessary need for a new ai database like the NLP wave necessary the need for like n lp database like pink on um which grew very quickly end.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:06:02",
+      "text": "So we started surveying the multimodal a, the leading multi model AI starts, and every single one of them was telling us that they were using man's tb. And the reason for that was at the time, there's a lot marketers today, but at the time, there were two things that were very critical to every single multimodal I started by scale. One was just a Victory.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:06:24",
+      "text": "Tribal speed on day stored lots of image video vector data. And they needed, uh, like no for the for the applications like my journey. They need to be able to serve animal applications at great speed, at great scale. And that CP was only one that could support that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:06:46",
+      "text": "And in the second reason that every single company we spoke with, we're using less TB with because the last from da form was also just like very great, unable to store all the data at scale much more efficiently than blood storage was just like a data format that was built for this. And so yeah I mean, one of the thesis that we have is just um a lot of the other companies will follow what the leading players are doing in the leading players were all choosing my step as time of AI database. And we had very strong vision this category, which is why we invested of course, chang and they are also just incredible founders. Chang will introduce itself, but they've created like multiple very of the most legendary open source database projects where like pandas, you have us a along side just like they are incredible work at companies like cloud, cloud a to be and cruel. So we um just had very strong convention in both idea product and the team.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:07:50",
+      "text": "So since brian always like talking about violence, S, V, I think it's a great time for us to for china to share more with us, like how you started, uh, land's DV, and I remember that was a before LLM was a, was a big thing. So what did you see at that time that you are you to stop this?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:08:08",
+      "text": "Yeah absolutely mean, I want to say really appreciate the the trust that and brian places on us as a team and uh grateful for the lens and lc b community for placing they are trust and essentially peavies of data in in the things that we're building。So in the very beginning, uh, it's always been sort of the same mission around solving data problems for AI and especially for AI data. So we started free ChatGPT days.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:41",
+      "text": "And at the time vector search use cases, there were still computer vision use this. There were just, there were just different. So they tended to be in auton as vehicles, for example, recommendation systems, personalization and uh the problems were all sort of echoes of what they are are now essentially um how to search through and retrieve information very quickly, how to manage Terry bites and help bites of data that was not a great fit for what you think of as traditional da warehouses.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:19",
+      "text": "And so the those technical difficulties made a really hard and complicated and costly for those companies to store all the data，to work with the um and to experiment with IT. At the time, there was a pre chat depity, so AI at the time was um automated vehicles, right computer computer vision in general and um things like just classical machine learning, what you would call a classical machine learning now um you like recommended systems, semantic search, those kind of things. And um when we talk about experimenting, I think the thing we notice about classroom aching learning was models tend to commoditize and and then one's models common tize.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:11",
+      "text": "Then what happens is as an enterprise, how do you differentiate yourself? What is your actual like enterprise value is your data. And so being able to manage that data and being quickly plug in that data into your model, to customer model and doing that as quickly as possible, uh, was really key.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:31",
+      "text": "So we I saw that to be um you see that you let all that crews and I think especially in autonomous hicks, for example, IT continues to today is basically a long tail problem of never ending education you to solve and being able to uh to sort of fishing needles out of haste to quickly inert over your model was critical to the the rival and an improvement of the business。And having a data layer that was really difficult to work with, really a need that much lower and have. So that was the that was the problem, they said, we said, okay, we need to solve that problem, and that's what we started. Cp.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:17",
+      "text": "your CTO a lage heat work cruise at the time.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:11:20",
+      "text": "right? So I was ATV, TV at the time. And such a streaming company. So we managing also managing lots of like video assets, image and audio assets and solve a lot of the same more similar problems .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:33",
+      "text": "I found very that have very very often in the uh in the infrared and developer tools uh in innovation is like you only see the leading the leading company in industry。They didn't come from different type of applications. Like if for example, like crews was a leading our company and HT, B, T, V was a big streaming company, the new infrastructure emerged within those company because they are the first to see to experience the chAllenge, uh in the new use .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:12:03",
+      "text": "case exactly .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:04",
+      "text": "yeah did you and lay both found that you had to build something uh, in house because there were nothing in the market that you can just directly .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:12:15",
+      "text": "use yeah I mean, we experimented a lot with trying to build on existing technologies. So we've both um we've both share a lot of uh battle scars as veterans and in data and for and so you never reach out to build something new if if what's existing is good enough. And so we did a ton of experimental when we are at our previous companies and um really nothing sort of worked out to really solve a problem in a fundamental way.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:48",
+      "text": "And so I always tend ded to be. We had to create multiple copies of the data and then try to essentially put AAP, I layer to try to hide a lot of those details. And then as we try to build on top of that, it's hard to build on shaking .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:03",
+      "text": "foundations. As brian just mention, when you guys met NTB has was already used by many leading AI companies like like me journey, right? So i'm curious like so those use cases must be put different from from what you thought of like when you first started and see if we look back how you thought about like A, C, B could be could be used and how you design the the technology, what has change and what hasn't changed.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:30",
+      "text": "Um I think for us, one thing we noticed was that scale a really sneaks up on you when we're talking about gender AI and especially multi model genera I. So one is multi just. The data in multi model is much bigger.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:48",
+      "text": "So if we are talking about traditional tabular data like one row in AO lap table typically is like hundred and fifty, it's or something like that, right? And then if you add in bedding vectors, that's twenty times larger typically and if you add images and and video that thousands or even hundreds of thousands times larger per o than traditional tabula dinner, you previously the uh if we were talking about to be like movies had to be produced by hand and that's one video right where now uh whether it's text or images or video, they're being generated at thousands of tokens per second. So ah the number of rows and the rosie es all all sort of are exploding at the same time. So previously if you were at, I don't know, like ten tar vites or one terrifies you, are probably like google matter or just about there ah but now it's very easy to say a few of a th grocery started up to have pets of data if they're doing gender multiple del.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:14:53",
+      "text": "right right that does a good point. Even even for like self driving cars, right? Like still like you those those day that you can you can you can process in a in a batch，right? Because you just gather from from your car and you can process anytime and time you want.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:15:08",
+      "text": "You can do a of work preprogram before you actually need to need to use that. But in gender to AI especially like me journey, those like consumer, the needs for a very different yeah when did you we realize that this can be used in the generative? AI, uh.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:15:25",
+      "text": "just so I think this is where by us being open source that allowed us to get a lot more signals from the from the general community. Uh, shortly after, I think like chat p he were all around the communities have discovered us uh while some companies were trying to just experiment with different retrieval and search technologies.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:15:49",
+      "text": "And so they saw that um we they can store their data in in lands and then they can use finances index and capabilities to do the search and essentially pulled us to say, hey, like, okay, you guys are erected date of this now and then and then multi motor company, he started saying, hey, look, we can we can store our data in parky. But it's actually much easier and much more performance for us to store the data in lands um and we need to and and because we're multimodal, we have on top of traditional data for requirements. We have these things for training, uh these requirements for like large managing large web and nothing really fits the bill except for you know what we saw with plans. And so being in virtue of open source, we were essentially pulled .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:43",
+      "text": "by the the community for the audience who doesn't know that much about mention that land is the a form that open source you tell us a little bit about was special about this about .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:16:57",
+      "text": "this yeah absolutely so long for is a new caller for that um that's optimize for AI data. And so the to understand the the problem with AI data we can one quick example is in distributed training. Let's say um you you are going to filter you.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:19",
+      "text": "You have like a pdt of dead of data store story. You need to do a training job. In one training job you need to filter that data.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:26",
+      "text": "You need to shuffle IT and then you need to distribute that to your GPU, right? So that means to run the filter, you need to scan your data very quickly. And then to suffer, you need to have random access. And then to distribute that data, you need to be able to stream large blog data uh very efficiently.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:44",
+      "text": "right? So um those three things in is typically in like traditional o lap or data warehouse workloads and uh don't appear together and they're not required at the same time whether AI is very different and um no existing systems are good at all three, but we actually need them for AI now and so i'm calling I called this so the new cap theory for AI data is uh that existing systems can satisfy all three but lands can. And so that sort of the um the big innovation in in last format. And the same thing for a searching retrieval is you need to filter the data, then you need to run through your vector index, then need to fetch the rose. So it's sort of the same same thing that you need all three of those in one package .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:36",
+      "text": "as investors. We um uh we go so we remember that studying from the early last year, there was a hype like Better TV, right? A lot of fact, companies I came out and ways of money uh and the space became like really, really competitive. So so many, brian, from an investor perspective, if we definitely have fun, the very, very, very unique angle in targeting on the mounting model by the in general, if we look back what what have we got right about the directive, this space and what how do things happen like um probe differently from what people, what expecting.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:19:13",
+      "text": "I know a lot of people say that like Better database was a very happy category. But I mean, it's one of the few categories in m infrastructure that has actually monodist like I always say that like the like well consider hoped up categories are like m observably ML evaluation startup s like that's where that's where the real life is. Like you know massive valuations for no revenue at all, like a lot of vector database companies have actually like been able to monetize at scale, including less debt right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:19:49",
+      "text": "Um now of course I think that there were like some exaggerations that were made a pink kn quit the narrative that like all eye ata as vector data is is stored in the form factors which was just like Frankly untrue I really fit in their narrative because like the only thing that they were opposed with vector retrieve and I don't agree that this is a high up category thing is a category with revenue to show for the amount of attention that IT. But um I do I do think that there were a lot of like mediocre companies that flooded into the space. You know like there were like many popular companies that implemented ARM like dcd beyond hub of the FAISS library from facebook and then decided here we know we're going to a partner with bank chain and just call ourselves of vector database and open source project really fast, but like no one was going to pay for one hundred lines of actual code, right um so I would say that there are definitely a lot of pretenders in the space.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:20:59",
+      "text": "If you do examine like AI data, there's love image, video vector data. And fundamentally there like if someone is able to build a much Better database for for this kind of data than a lot of the motel to ei comply that really, truly do have data, data at the Peter bate, a scale like chung mention, they do need a new database. I think that that's why you're seeing like so much momentum going to land's TP. And the reason that the company and the open source project as well are both growing so quickly.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:30",
+      "text": "So we are both early stage investors wait on to the company already has a proven like financial financial matrix. How do you evaluate different companies? What were you looking for when .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:21:42",
+      "text": "the space s so compared I basis, there is a lot of people who will claim that they can do IT. When we are looking at vector database category, we just run up a very simple experiment.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:53",
+      "text": "We create a lot of vector ies and tested like which vector database could actually handle like all the data scale and like glad b was only one that past all of our test that IT wasn't even like a two x twenty was like a ten x difference between SDBN every everything else and um so he was just very clear to us that last DP was like the multimodal AI and vector database that truly skilled and our belief was that that like the real AI companies will just test everything out and realized that last to be the only solution that work. And I mean, in fact, like a lot of the founders, a lot of the companies in our network, like, for example, air table journey, the character and others, right? Like that's exactly what they thought.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:41",
+      "text": "They testing out all the all the vector database, all the mutimer database. They saw that last to be with the only database that actually were truly work to scale. And in the second thing that we really look for is that the company is not just like building a narrower solution, but it's really like building is truly building an entire platform because I think that that's what companies are truly willing to show up a big box for. And I think when you look at last, T, B, it's, I would call a much mobile platform in the end platform that people can actually bring their M, L, applications into production rather than just offering veteran tribal, which like you do very well, though IT is just so much more than that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:23:21",
+      "text": "And that's a very interesting point. Can you elevate a little bit on that? Like what makes a very Davis or what makes AA info product AA platform and what makes just a like painting a painting solution?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:23:34",
+      "text": "Yeah I mean, I think it's like if you try if you test all the like, although vector database and test you know truly try to train ML features. I think what you'll find is that land CB is just like so much more IT integrates the data so much more tightly with the training process like you have automatic like da management. So is really easy to add a new features.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:23:56",
+      "text": "Um if you're if you're trying to retrieve your data speed at which you like, you're able to basically at this of thought because the data base is actually kind of like delivers results at the speed of your bringer tips, right? I am sure chang w has more television here. Yeah I mean, my perspective is more just as an end.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:24:13",
+      "text": "Yeah ah I think yeah I think brian had hit on the uh bunch of the important points. I think this goes all the way back to the the beginning um of lane b more talking about speed of iteration experimental.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:24:28",
+      "text": "So in um like they would be counted in sort of classical ML land when you're working with these types of on structure data at scale, for one engineer to go through a full cycle of like when data comes off your device or car to when that data actually makes an impact in the model and that model gets is like like a quarter you know or like you know a months. And is because I think the dim exercise, a single engineer had to know seven different systems and understand four different languages to have be able to go from step to step to step. And I convert data between all these different systems.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:25:13",
+      "text": "So if you kind of的是a somewhere thing exists in AI today where you you know if you are thinking about um traditionally，if you think about just nearly vectors, well, okay, um i'm gonna that in iraq application i'm going to retrieve similar vector ors, but I can't serve similar vectors back to my user. I have to嗯and I may need to filter that data。So I need to store the meta data somehow.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:25:39",
+      "text": "I need to store the source image or the source document or the video somewhere. And so now you may be talking about, you know, two or three different data stores and now I have to stick together. And so he gets more and more complicated, more and more expensive um if everything is sort of a point solution or so, that's what we're hoping to solve with with a Lance format as the base.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:04",
+      "text": "And then on top of that IT means um when we talking about multimodal IT, it's as multiple meanings right? First um data can be multi model, so not just a tax and vectors, images, audio, s and video, the workload can also be multi model so that um for the same sort of data set some of the columns might be useful for searching, retrieve. Some of the columns are useful for like you know all lap where you want to run qual.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:35",
+      "text": "And others are like the block columns that you want to use for either find tuning or training, right? So there you want to plug in those into like I hh value or something like that, and having one single source of truth, like a one stop shop to do all of that together. Um we find IT to be very powerful for this.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:56",
+      "text": "Uh, companies building multi model AI should be able to do all that together. And then finally the the use case or or the usage scenario can also be multi model where you know in in production um you you know we see land CV um serving you know like thousand or ten thousand QPS uh for real time surge right. But then in the in the data lake um we essentially using the same system, you can be managing Peter bites of data, storing the data very effectively on desk, especially helping to create a um a vector data lake. And being with a being a transition seamlessly between those three right now that we sort of see multimodal, it's actually more than just uh creating evidence s or creating video that has I think multiple layers meaning to IT right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:48",
+      "text": "I think that's a really, really good point as that for this time this time last year um there were um there were many use jv AI use cases either like tax space, right other summize ation like others like riding emails. You are like image image generation. This year is probably the beginning of the real like a multi model use cases. Just mention do you see a converge uh, in a vector database?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:28:18",
+      "text": "So my my perspective I think I guess this is my uh spicy take that I think um the vector databases, the as we understand them today won't exist in a few years.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:28:32",
+      "text": "And I think you essentially what I mean is vector search will become a feature in a much more complete offering a and I think we we're seeing the industry, ari, heading that way and typically like traditional database, adding vector search and integrating that and peer play of vector databases are building more you know like Richard retrieval and more you know traditional databases features so that we definitely see some sort of convergence. But um I think none of those can actually manage the actual multi model data. I think it's going to depend down the road.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:16",
+      "text": "I think you know, for example, if you have a small amount of data, um you only need to do symbology. All your retrieval needs aren't that complicated and not not not super high scale, like AP, G vector, can certainly be a good choice to simplify your stack. But if you say you want to use, if you need profiling, if you need hybrid search, you need real ranking, you need to actually store the the images, then you need something that's more optimize for those use cases from the ground up rather than something that sort of just tax on AH, NS, W, R, IV, F, P, Q index and day you touch .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:56",
+      "text": "upon like one of the the most controversial topic. And in is like as we see picture Better day um Peter vector or like all those existing data base, very like established the base adding vector, the vector search feature, whether we still need the vector database. I think that was a big debate in the in the industry. What kind of vector database can is this and how do you this from a uses, especially from the uses like the people director? Or should I take another another data?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:30:30",
+      "text": "Yeah yeah. So I think it's um there there's tons of benchMarks of flying around, but they're all they're all kinds biased. And there's a there's a lot of confusion.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:43",
+      "text": "So typically what we see is that um there's a there's two, three like multiple thresh hold. I think for something like PG vector IT, it's great to get started if like a lots of users are know they start out. They are already on progress to store the rest of their data and they want to experiment with something.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:02",
+      "text": "So starting with PG vectors, I think are pretty obvious and very good choice. And the thread hold do we see are generally like um well through couple things. One is like if you don't have his grass in your saturday, then uh adding using PG vector means also adding a new databases, adding new service so you don't necessarily want to to use that info.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:25",
+      "text": "So number two is in in that scale. So a lot of a customers we talk to initially come to us that they might start on PG vector um and in production and then um they they tried LCD open source um in um in in their experimental and then as they scale up, they find APG vector not able to keep up with the scale. And also with these types of architecture is IT you you can scale up but you can scale out right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:57",
+      "text": "So then when you get to scale and had presents all sorts of other problems as well and then I heard from users like ah yeah we uh we have thirty billion in bettins now um can we make a work with huge vector and the answers no. And then like the other thresh is generally um if if folks are doing pretty sophisticated certain retrieval techniques, then you know PG Victor is not sufficient for that. AAA dedicated data for search and retrieve will be the API would be much Better. The industry would be much more design for those problems from the ground.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:32:40",
+      "text": "You actually just talk about like so many, so many pieces uh, in this induction and that just shows like how many pieces there are there and also how new this space there is. No out of forget solution. Everyone has to since like everyone has to DIY, they are their own things, right?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:32:57",
+      "text": "We have talked a lot about maybe, uh, and the rest of let's now please do not AA little bit um for people who follow this industry this month we are going in is really a big month. Have um the the annual summit of data bricks as well as snow like submit all in the same in the same month. Uh and also I think those those all the announcements and a insulates are very important for people, the industry to follow. So just give a high level a high level we all so what is the announcements and those two summits um that um caught your attention um why why do you think is important for for the industry going forward?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:33:41",
+      "text": "My high level take on the summit was I was a little bit surprised, especially about the snow flix summer that there like I thought that they would go much .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:33:53",
+      "text": "more all in on AI, especially given the old CE. O background .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:33:58",
+      "text": "in the area. I was just Frankly little bit surprising they talk about, you know, had AI taxi, see, like, but IT was all around. A little bit surprising how little there was to show the other thing, that other very big announcement that come my eye was the acquisition of time buler for you know like north of a billion dollars.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:34:31",
+      "text": "And I think that that just honestly just goes to show how important like table formats are to just like the future, like road map of both not like and data bricks, which is why there was like a bitting war between the two companies to ultimately acquire a tabler slash, a paci iceberg for north of a billion dollars. One of the big questions to ask after the acquisition of iceberg is what is the what is the next big table format and go the the the most important cultural format was and um which truly I had a very big impact on enabling like big data, like without the pocket data for matter was no way that people store. So IT had this moment in history and and eventually like things like as like the big data warehouses matured, things like as a transaction support became like quite critical towards enabling, truly serving data applications.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:35:35",
+      "text": "And so iceberg became popular. And the question is like, now what what is next? Nothing to the, I think one of the very obvious sensors is like data. Data for M, L is the next big category. And honest, like every single AI start up that we survey is using length of their data format.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:35:55",
+      "text": "So I think is just land. Best, best spokesman talks leds like all time. And when they were, I asked to him to recommend like what's about like like this is just always be only .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:36:10",
+      "text": "us very grateful for that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:12",
+      "text": "And I think that's that's very interesting. But II love to follow up on that. You mention like that acquisition that shows like how important data format is. So if we look back into a history, um well, some factors that would drive the emergence of a new data format. When do we need AA new data form?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:36:32",
+      "text": "So I think typically new data ms are rise because new. Work load or data types arise. So if you think about parkey, IT was designed for a large scale that a lot of IT was influences by its use um in the epo que engine from the and so you know previous formats or um you know there weren't there weren't like a well known or or at least like not as influential as parky colum format, column format has existed, but you know there wasn't like an open store standard and they weren't as popular.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:20",
+      "text": "Uh and so you know when companies move from like small, medium data to like really large day where housing for a lab and BI needs, then there was a need for a new data format. So this is where you see like parking and RC. Become become a or or that was the motivation for for those were not to be created, right? And then there are other things that are like we think about protocol buffers or aro is essentially like, okay, now everything service and data needs to be transferred efficiently between services.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:54",
+      "text": "And so it's usually like some use case arises and now we need and like existing data format s are just not very good. We take we take some of the lessons from existing date formats but then create a new one on top of that. That's sort of what we're trying to to do with baLances that like know the data, different workload are different nesses that necessitate a new data form.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:38:18",
+      "text": "And then I think just kind of follow up on what brian said to the I think the other very related announcement in in both summits was the like competing with a federated open sortes federated cattle projects, right? So the unity the catalogue was open. So unity catalogue was has been around for, I think, three years or something like that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:38:42",
+      "text": "But he was close source. And at the summit, they knows that they would be over sourcing IT. And the week was the week before that polaris was announced by by snowflake. And so I think um like I wear one of the um initial launch park for the unique geology effort.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:01",
+      "text": "But essentially, uh I think this is I am excited about this because what what what he does is IT allows um different table formats like you know from delta hoody iceberg and then also lands to essentially plug in into a uh a similar the same API so that if you think about IT from a customer user perspective, you don't need to have these um table formats try to compete with each other or replace you with each other. You can actually choose the right format for the right data for for the right case. And then when you build on top of that, you can have like a uniform standard to build on top of that. You don't need story about the the online details .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:48",
+      "text": "for people who don't know that much. Can you also uh brief is what a snowfall paris and how they're different.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:39:57",
+      "text": "So I don't know the details of like poland and you different that haven't had time to to look into IT, but I think it's like i've been pay more attention to their commonalities. Is essentially designed so that you can plug in different table formats, different assets um into into the same catalog. Uh and so I think I think it's a good um new effort to make the whole data infrastructure more of a composer system where you can pick and choose the right form at the right components for your applications.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:34",
+      "text": "for people who are not that familiar, the ensures model. Why is IT important um for um to open source on this um the data format .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:40:43",
+      "text": "having worked at both sides of the table, like companies that use data warehouses and companies that create dat warehouses, I think we're at the age now where I think most companies are or just really accept a close source data format um at to store most of their data in their data line, right is and a part of that is flexibility.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:13",
+      "text": "A lot of that is lock in um you know like as a earlier, I think data is the most valuable outset that enterprise has. So why would you want that to be why would you want to be held usage um with a preparatory form if it's a single data bit like uh uh top the bottom and and like compute and everything was altogether then that uh that might be a slightly different story. But now with because of data lakes, you have lots of different compute that needs to plug in and lots of different, different workloads. You need your uh story later to be open to integrate with the ecosystem and to be both flexible and and essentially not lock you into AA world garden.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:02",
+      "text": "What are some highlights that you have seen in these two summits besides this acquisition?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:42:08",
+      "text": "Um so I think so what I mean I think the um I had a talk at the database s summit that was a with the the most eg team and this actually i'm pretty exact about this.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:25",
+      "text": "We're talking about collaborating so that we can plug uh Lance format into the mosaic streaming data, which is their uh replacement for uh patrigno dataset to use for large scale training so that um and I think they provide a lot of nice uh top of APS that can help their users get to convergence faster and managed large scale shufu. Um and I think the under and you can plug in different format s into data set. And the problems are trying to to solve is essentially like large scans um and dealing with multi model data, which is exactly what land is good at. So where we're excited about starting this collaboration with them.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:15",
+      "text": "I think people have been discussing on like really like how AI would affect the the current data in flic, what will stay, what will change or probably even be relied going forward, right, like when we have more and more AI applications or probably with the emergence of the aging and more usage will be defined and secured by by AI um then what does that mean to the existing da infra?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:43:42",
+      "text": "A AI data analyst as a category is definitely grown very quickly that companies are telling out very big budgets for this use case. Like Julia. I is an example just of a company that just growing phenomenally quickly.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:43:59",
+      "text": "If you look at the, for example, like all database companies that you would assume might get outdated, that even like starbuck falls this category as well, like across the fortune two thousand, like just the AI wave is is just like happening everywhere, right? So companies, uh, even the fortune two thousand, there is a processing more data than they ever were before. And so there is an increased demand to get off of like solutions like cloud era that just like dinner, really scale to that amount of data onto platforms like onto more scalable update debases like starburst.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:44:36",
+      "text": "And so starburst has seen very fast growth as well as like the trainer open source project, has seen very fast growth over the course of the past year, primarily because the ML wave is necessary, the need for like big data solutions. So yeah and I think is a little but kind of tuition AI did analysis obviously growing quickly, but the market is just growing so quickly that the old lap database companies and other data big data companies like even D, B, T. Labs are just growing of phenomenally quickly.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:45:14",
+      "text": "Replacement呀。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:45:16",
+      "text": "That's the nice thing when the market is bigger.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:45:18",
+      "text": "If my data is already in those income in database companies, we didn't make more sense for them to build a to build AIAI feature on top of. So you don't need to move your.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:45:32",
+      "text": "You would assume that is the case. I mean, I think another thing, I think there's a very big difference between like the cloud native companies and the on premise ML companies. I think that AI is happening a lot more slowly in the on pram ml market because that people are just not really giving tragic ity access to all of their data.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:45:58",
+      "text": "yeah. So I think the deck that you're seeing is very different, a lot more human intensive than allow this like AI need to start ups that are interesting open eye with like quite literally all there into Price data and they might be able to be faster, but that that's not where the big budgets are. The big budgets are with the large enterprises that are using on permit solutions.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:46:22",
+      "text": "What are some chAllenges are difficult? Is that you think people underestimated about like building NA, NA solution.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:46:31",
+      "text": "I think is very large category. But I think the tech is still quite early. AI for matter was says theory like an unsolved category today, like even before, like if you just tell her like tragedy to answer math questions for you, like for a very long time that wasn't really able to do that for a lot of like fairly simple calculations, right? So II think it's a large category, but the the tech just hasn't really caught up.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:02",
+      "text": "The opening eye tried to release code interpreter, which had a lot of like user interest, but a lot of IT fell flat because I wasn't able to deliver on a lot of the promise that I had. So very blish about the category. I think it's going to happen once we can solve some of the technical blockers we are facing today.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:23",
+      "text": "So I think the technical blockers is mostly on the foundation model level or more in engineering .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:47:29",
+      "text": "and I think at .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:47:30",
+      "text": "the foundation model level. But I mean, that being said, I mean, I club three point five unit like they had very massive improvement in the ability to do math. So I think that we are getting there a lot more quickly than one would expect.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:47",
+      "text": "right? So john, what what do you think in this? You have been this this data infrastructure for a long time. You definitely have seen a lot of things like common come and go.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:47:57",
+      "text": "If you use like the AI data analyst as a prototype, typically what I see is like in combs already have a high standard. So a lot of them will think about what's the what's the what's the thing that they can build that works for everybody, all right, all of their existing customers or or can deliver the same like uh standard of uh of quality or um or a standard of sort of comment complete of features. And so you see them shy away a lot.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:48:40",
+      "text": "So from and a lot of them will say texas ico will never work because IT doesn't work and IT IT doesn't work. In twenty percent of the cases, there are something like that, right? And you they see lots of long tail like very ugly queries and and things like that. And so they feel that, you know, we can't be too aggressive. Deliver a fool, fly JI solution because of all these problem and they're right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:49:08",
+      "text": "And you have startups that are that are like, well, I can deliver a partial solution and then I can invest and right and and while i'm waiting for the the model and others to mature, I can create a new user experience that delivers that that say a huge step forward in terms of user experience for for their users without requiring like a hundred percent accuracy or you perfection. And and they're also right. But as the technology matures, I think we'll see more, more of different modes of development and thinking to start to compete with one another.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:49:52",
+      "text": "And so this is going to be very interesting to see you like, uh, with these technological shifts like this where and convinced could potentially on seat or not newcomer's can potentially unc incomes this way. How I know what brand said, like wow and very bullish on the technology. I think we're not quite there yet, so it'll be interesting to see how that plays out.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:50:14",
+      "text": "I think we II am optimistic CI think we will we will get there. Um but IT will be interesting to see how many incomers pick that up. And I really invest in that user experience on top of a admittedly still imperfect model today.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:50:34",
+      "text": "So based on discussion, IT looks very IT looks very obvious that we need a different a different like real data base for um for the emerging AI use cases. But if you look at the the data in a space, do you see like new new components like coming up or you think the enough .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:50:56",
+      "text": "um I think there are lots of new problems um and so you know there are lots more companies are interesting like images and PD, like uh financial tables and doing extraction. So the sophistication of like data extraction during the injustice pipeline is like way more than before example. And if you're talking about like like pipelines, you know there's a lot of prot engineering that goes into that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:51:26",
+      "text": "How do you manage the different prompts? How do you how do you think about like tween the problems and changing IT when you have contacts and when you have uh when you have user feedback, that's something um that you know probably IT will open a new a small new area um and yeah, I think there are a lot of examples of new problems. Um I think it's still a little bit too early to say whether will have you know many new pieces in the in the stack or existing those existing pieces can be a adapted. Yeah but um but like on the flip side, we do see a lot of parallels in in large problems like uh rag uh looks more more like uh recommended system and saw a lot of the existing techniques um and the existing tools from recommended systems can actually be applied as .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:52:30",
+      "text": "a preparation for this interview. I actually did dig through towns twitter and there are a lot of a lot of interests in common care that in one of twitter who mentioned that are very excited about this like last year uh we saw a rag becoming the recommended systems. This year, we are seeing agents become functional cost and orchestra. So would you elaborate on this two parts?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:52:55",
+      "text": "absolutely. yeah. So with rag, especially as you try to move in a and you need higher quality retrieval. And that retrial al pipeline um has expanded from simple vector search to many different search modes right for example um full text search and sometimes like equal or or sequel filter matching and newer techne like graf graf rag m trivet. And so these look like only call multiple recorders and recommendation system land.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:53:25",
+      "text": "And then okay, you have these multiple recall the results and you have have to combine them somehow and remark them, uh re ranker is as a you know standard recommended system technique um and then when you have when you thinking about user feedback, you take that and you can take that and find to your ebel ding model, for example. And that's a britain bottle of uh continuous improvement in in recommended systems. So that's that's what me on the first part. And so the that way was actually cipher ted by a new release from a prefect. The libraries got control flow essentially um we make IT easy for multi agent workflow where to say, you know here's what the dependencies are on these different API calls.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:54:18",
+      "text": "Um maybe you how do you how do you think about the how do you easily recreate the state of the world in a um event stream of agent actions, right? And a similar project is also there is a similar project called burr that sort of is made by deck works and uh and it's um IT IT definitely rims in in purpose is to say if you look at agents, what do they do they they take some action, which typically is an API call. So i'm calling function.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:54:53",
+      "text": "Calling right can be a function, can be an API. And so you're turning um unstructured text and instructions into AA like a structured API call. Then you get structured responses back and then you have to then turn that into the next step, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:09",
+      "text": "So multi agent workforce are like you create a plan and then you make some API calls. And depending on the responses, you have to some connected to the rest of the that worker so that basically AAA dog. And so these are things that are typically in the realm of like orchestration frameworks um so like you know air flow or you know prefix and and tools like that.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:34",
+      "text": "So all the spaces you you mention are very interesting, like they all have both in convents like like pro factor, they have been there for a long time or after era, have been there for for a long time, but also some new some new commerce right now. My index and like lunching and many, many other other like asian frameworks are trying to do that. So as I was a brian and I said as an investor, how do you evAlina whether um something should be done by a start up? Or is this something that can be easily eating by an income?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:56:08",
+      "text": "Um when we make investments, uh, I would say we talk to a lot of the leaders in the industry to figure out what are markets where there is a catalyst that's going to make IT grow by hundred dogs over the next couple of years. And then we end up landing on categories like AI agents embodied for a body expire foundation models, a multimodal, AI infrastructure on vector database, among other things.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:56:45",
+      "text": "Now of course, there's always an open question about will this be swallowed up by inconvenience. And to be perfectly honest, I think it's just always a good question to ask like we never know for sure. But sometimes you just meet a founder who is so strong that you just feel very confident that this guy can out execute snowy in data bricks or whoever the incoming is.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:21",
+      "text": "And when we I mean china, I have known each other for like a while. And I mean, it's just chang and his team has. They have an incredible track record like they.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:31",
+      "text": "They architected like the biggest advancements in the database world. H differs pandas, and then lens has been taking off. And so I think you just really look for founders with a track record that really proves that they can out execute the people as no flag data breaks and the incomprise .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:53",
+      "text": "yeah no pressure.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:54",
+      "text": "Help me. Well as well since you mentioned uh chance role in is that I was a question that I was about to ask. Your previous company was also acquired by called dera, which was also legendary in for a company. What do you think are some typical and uh mistakes that someone may make as a first time funder in data info?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:58:20",
+      "text": "So many battle scars which which you chose from. II guess it's so probably I think one thing is especially with data info is that like open source is AA big part of IT. But I think IT is a very um and I think as a builder and as a user, I one hundred percent love open source.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:58:45",
+      "text": "And I think technology wise the world would not be weird as today without open source as a founder. Um I think open source is a very uh a much more complicated story. So I think um my advice to like Younger a founders, the first time founders in the data infrastructure faces don't automatically reach for open sourcing as a as a defauts mode for for a start up.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:16",
+      "text": "You I think by default think open source come at its in some in many ways much, much harder to have a successful open source company. But you have to be very you have to be very clear on wide open sourcing and what you're open sourcing. And if um if you don't have a clear idea on those, um it's I would say caution against jumping headlong into open source as the default. De.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:49",
+      "text": "can you elaborate more why was IT hard to build to build a company upon opposite project and how did you design the the the open source like source? Um communism, a model at the DV.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:00:04",
+      "text": "I think the hard part is is about um trying to strike a baLance between how much you um open source right? So if you open source too little, why would people use you ah if you open source too much, then why would they pay you most open source founders, especially if their Younger, will air on the the latter side, right? And so typically the failure mode tends to be um you have a great over source product that people can just take.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:00:33",
+      "text": "And like you have a doc image, people can just take and run IT in their production environment. And IT works great and they don't need anything. Why would they pay you um would be the question or something like uh you you know open source works great.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:00:50",
+      "text": "And then um like one of the cloud vendors, will you create a service around that? right? And we've seen examples of that in the past. And so so I think open source community is now a pushing back against that by changing the default license for a lot of projects. I think for us, right, the big consideration the beginning was was the format the format custody of the source in order to form to become uh a standard. Uh so that's one one big part of them. And two is, I think uh, being clear about like what what is the value of the ban source that you're delivering and then what what you're solving for enterprises on on top of that ah so that you know uh you you can uh if you're a cloud vender, you can just put the a packet but in the front of the open source and and call IT the um call IT AA new service, a new product.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:52",
+      "text": "So well, brian and you mention that you you also work at the commercialized open source company in stabbers that was built upon Price otherwise they could Normally give to the uh from days you you met in the data a in for a space.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:02:08",
+      "text": "I agree very much with chang like I think a lot of like very Young enders is open source everything because it's much easier to like to sell that way break. But II mean, I think it's very hard to find product market fit once h and any I think any open source company, they truly have to find product market for the second time. Um you you have to sell something different for a different use case than what your open source is.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:02:44",
+      "text": "For example, in the case of starburst, the open source project was just like really fast. All that database, the commercial offering was a data federation product. So ever we narrows down to maybe like around ten percent of our open source community was using the tino open source project.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:07",
+      "text": "Uh, Price was were named to the tino for context for the listeners. We really double down on building a really good data federation product for open source community. And I saw that for very large contract sizes. But the reality is, if you're trying to commercialize the same thing as what your open source is, is offering like nobody, he's going to pay you several hundred k or several million dollars.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:30",
+      "text": "And we did close a couple of those contracts, but those contracts did not last for many months, right? Once someone in the company asked him, why didn't we just use the open source? They move up, right? So yeah I mean think just find proof market of twice.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:46",
+      "text": "right? So it's short. Like so what what did you decide not to open source?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:03:52",
+      "text": "So lc b enterprise is a distributed um database for like search, tribal um and and training. And um I think the the the things that we build um into making IT a hyper scale ball um you know a production distributed system is a one is not something that we will open source and even if if you wanted to open source IT IT is not something that uh obviously open source able or generalizable because a lot of the components has to work together for a particular use case. Um and um I think open storing IT is like not technically obvious uh or or useful and it's um no and is not something that really makes is not useful for most of users at like a smaller scale or they're just experimenting a locally right. So that would be one, one big example of what we would choose not to .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:00",
+      "text": "when we talk about the recent industry consideration. This one a one acquisition that I would also love to hear your comments on this to open AS acquisition of rock set that was also a nine figure acquisition. open.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:05:15",
+      "text": "I mention that they are going to integrate rocks as work. Indexing according abilities to stand, is retrial infrastructure across the products. Citing from brian for people who haven't heard about like rock sec, um what is rock when you saw this acquisition, what was taken on this?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:05:34",
+      "text": "The upside team was always like an incredibly drunk team at facebook is started off as um like a facebook. We decided to uh fork the level DB project drifting created at google up to have our own like real time post gress a database for a service argues cases. And eventually that team um felt that there was so much demand for this that they decided to spend out into a separate company.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:06",
+      "text": "There were many companies that said there is a super large post gress community. So can we commercialize that? And answer was almost univerSally no. I mean, they made a very interesting pivot really over the last year into becoming a vector database suddenly and being like their angle was, you know, where a real time vector database.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:29",
+      "text": "And we spend all this time making post greats really good, like we spend all this time trying to be really good post gress database. So we did LT, P very well. And online transaction processing I, in the case that they made was basically their really great real etant vector database, an incredibly strong team.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:48",
+      "text": "The commercialization was still incredibly early. But I mean, to go at him credit IT, IT was a very strong team out of facebook and they had very close relationships with the x facebook leaders who are now leaders are open eye. And so I think it's incredibly excited to see what they do at open a eye.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:07:12",
+      "text": "I know what we just just got rocks out based like which was created like volente years old, entine years ago and now when everyday I thinks about building their uh reachable infrastructure right instead of building something from front of clash by themselves, they chose to acquire a very um I would say a typical in combat database when IT comes to building this like retrial infrastructure. What you think that we still need from um the traditional um data infra ties and what do you think this acquisition by open and my effect um the industry especially for sooner people were also building the the Rachel al infrastructure.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:07:56",
+      "text": "Tend to see both like AI and databases as highly technical but that the skills you need to build a large scale model is very different from the skill set that you need to create a scalable highly performance database. And so I think for my perspective, IT doesn't IT doesn't really surprise me that um OpenAIr would choose to acquire team uh to to do that. The you know the um um the the level of talent I think is is a factor.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:08:33",
+      "text": "The the maturity of the product can be a factor，right? And just for the quality of the product. So by I think you know just by acquired team, you can acquire uh a good product and and talent that you don't have internally. So I think it's not surprising that makes a lot of sense. Um and I think part of uh what is part of this is sort of illustration of why it's hard to hire for like AI data abase or AI data infrastructure um because you need people who both know both or can think about both typically would be like somebody who's done lots of data bases. But they understand you know they understand how to do machine learning and they understand the problems they need to solve and can create apps that that um are both performance and easy to use for AAI like the the AI engineers and researchers, and that's actually a pretty rare set of skills to have.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:45",
+      "text": "Do you feel threatening about like this? LM. Companies acquiring acquiring those like the other companies also to build also to build architecture and offer is on API.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:09:57",
+      "text": "Um I think I don't feel that I think it's actually great for you know open our users to have all in in one. But I think one, not everyone is going to use OpenAI. That's why a whole open source ecosystem exists.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:10:14",
+      "text": "A number two is the a lots of the LM companies, not not all of the companies that are they need to create in heavily customize models um will will like create their own data frame cure from scratch, right? And um I think just in terms of the size of the of the market and the variety of the use cases, I don't see that as like the the the only reason I would feel threatening would be if I think the world's gonna turn into like five companies that are LLM plus date infrastructure and nobody will use anything else. And I just don't think we're had IT that way.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:11:02",
+      "text": "I feel like every company is claiming that they are building a rec solution. Who do you think has the best position to build the best reg solution? How do customers and pick like wish rex solution providers to use?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:11:19",
+      "text": "I think that's a great question. And I think part part of IT is going to be, you know what are the like? What are the features that you need and how much do you need to customize? I think that would be a big question. Like um if you um you know I think a lot of the like all in one solutions. If your data scale exceed what they offer or if you can easily customize their components um then it's difficult to to use that kind of solution if you have different retrieval needs and say, okay, I need to plug in different remarking or I need to change the retrial process and I need to integrate IT with the rest my pipeline. Um I think it's not clear to me that, uh, sort of a black box is the right answer.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:12:14",
+      "text": "What you think, brian, do you think there will be like one or two dominating like vender for like rock system?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:12:24",
+      "text": "I am I just the march is so large that there is going to be multiple winners for different parts of the rex stack, right? I think a big open question last year was for enterprises that wanted to like integrate their enterprise data into a model like GPT or lama, were they going to use brag or fine tuning? I think that the industry has very much sweet towards rag.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:12:59",
+      "text": "I'm specifically because avoiding collisions and decreasing error rates turned out to be so critical and rag was just much Better for that, whereby tuning was only great force during how the eleven phrases, the output we're basically talking about, like the most important functionality that like every single fortune two thousand enterprises, like Frankly, like most AI native startups are going to need. And when we talk with a lot of leading AI startups, Frankly, so many of them like only think that they really implemented, which is AA really good rag system and they're purchasing like whatever solution there is, you know, like a really great data processing solution for their to integrate the right process. They're purchasing vector in bedding models. Yeah I mean, this category sellers, I think there is going to be a winner in each part of stack. And I think revenue is going to be like quite significant for many companies.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:14:04",
+      "text": "Another topic reg is like, is reg here tuesday? Well as some chAllenges that we have seen steal is is in a in the and if rock is here um because of the shortcomings that we do see in the foundation model like context window with volt of foundation model is IT possible that we will have an an alteration to to the reg.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:14:31",
+      "text": "Um so I think typically I see sort of three things um put put an opposition with each other so bride mention like the rag verses fine tuning um and then there's also a long context windows, right? So there's these three things that people often talk about IT. And um so one is I don't think that they're mutually exclusive things, uh, but they are they're really not they're really not, I would say, like competitor to each other.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:00",
+      "text": "Um so if you think about ultra long context windows, um where do they perform well and where do they where they don't perform well is like, you know they're um they're good at doing finding needles in a haste ack, but those modes they essentially become um like point lookup PS and they lose a lot of the the um like more general abilities of the self than two long what a long time windows. A inference is also slow and expensive, right? Even though inference costs are dropping, is still like um it's still a lot more expensive and a lot slower compared to rack because I saw that um interview of like a tucker carlson hand with putin, where is has a wire and the anger ukraine and he says, well let me start from six seven hundred years ago and you that of what ultra context window is.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:59",
+      "text": "Is to get in the answer, you have to start with the whole thing. I think rag is typically just a lot simpler and is to to implement and a lot easier to like configure and and customize. Um I do think that they, ultimately，I think the highest quality systems will have these things are working intended with each other rather than saying like trying to .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:16:25",
+      "text": "pick one verse of other and also do a sound like on so chAllenges break.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:16:31",
+      "text": "Um I think there are a lots of lot of questions. Um I think a lot of IT is that like setting up that you know setting up the right feedback loop to continually um improve your year year, like a betting model. Um and then there are lots of experiments going on, right like there are three ranker models. Um but then we ranker models add lenny, so there are lots of experiments of can just um somehow like argument the the latest space to um have Better retrieval and lower ly ency.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:09",
+      "text": "And then um I think there are a lot of effort going into a data data extraction right like finding the right chunking strategy and then like extracting data from on structure data like images or PDS or reports and then turning them into structure data that can be easily embedded the storm and then and there are lots of a more sophisticated retrieval techniques like multiple vector is hierarch uh retrieval and sort of bringing bringing in lots of advanced like IR theory and techniques into and to that and then how do you like which ones work and which ones are generalizable? And then which ones are good fit for a database versus like tooling on top of that? I think those are all sort of there's no um and answer yet and are all going on time which are trying feature.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:18:12",
+      "text": "Are there any other chinese in the reaction that you are that you expert with so you think would be very critical.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:18:19",
+      "text": "I think that there is like clearly leaders emerging in each part of the stack. Like over the course of the past year, like landy b has very much less. And I very much emerges like the leading solutions for like data processing for the rags stack, cohere and voyage AI have are published like very great vector in bedding models.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:18:44",
+      "text": "And we and voyage has published leading the bankers. So I think like those are tall parts of the rag duck that I think have emerged into clear categories. Rag is like such a new category that II think it's um very likely that we continue to see more evolution happening.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:19:11",
+      "text": "So we have talked a lot about the um some technical topics now is to talk about building set up. Um you are a second time uh founder um so can you brief you introduce first step up you to build and as a second time from der like what SQ us learn you learn from your previous step and how you doing building your company differently .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:19:34",
+      "text": "this time yes, my first start up was one I have found that with west mechanic was the the original creator of pandas. Um so we created data ad as a cloud BI solution. This was twenty thirteen.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:19:49",
+      "text": "Um so before cloud BI was really AA thing. And um yeah and um I think there are a lot of parallels in terms of you know just what's needed um to be a founder um uh and the problems that you face. Um but I think certainly the things that i'm doing different this time yeah actually a good question.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:20:21",
+      "text": "I think they the experience, I think the first time around there were lots of just basic things that we do not understand and we have to just like stumble around and um and just sort of make lots of uh, mistakes. And so this time around, we're not making those mistakes anymore, but we're making difference. And so I think the I think the like the I think the summary is, I would say like overall, I think um being a start of founder is very it's it's very exciting and it's very it's a lot of hard work.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:21:01",
+      "text": "And it's I think even if you're a second time founder, a cereal or third time founder, I think AA lot of the that same those the same things, same problems have been solved again and things are different, uh, the second time around but um I think overall, like it's still sort of that a that the sense of the sense of like excitement is the same um and you know just trying to solve like the the difficulty of the problems are you trying to solve as AA new starter is the same um and I think the biggest difference is the um when we were doing data ad, there wasn't the same sort of tectonic shift that we see this time around. And so um I think what's different is just in this time around is everything is changing all at the same time and especially for data infrastructure. Um it's both extremely exciting because you sort of you get to define you may get to define more than uh than previously like and when we're doing data pad, all of the systems around IT was still the same.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:22:20",
+      "text": "So you could innovate on one particular aspect. But the esek lar shift to cloud hadn't happened at that time, right? And whether like now I think um you know no one I think no one no one really understands what exactly infrastructure uh will look in a few years um um you know for example, like there's no glam stack right for AI and um and so you get to uh it's exciting because you get to define more and wait more and start from first principles. But is also a more uncertain for data infrastructure companies because the the application layer is changing so much so that the um the knees and requirements might be changing as well.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:11",
+      "text": "What what was the one or two mistakes that you are able to um avoid that this time was one mistake that you was that you .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:23:20",
+      "text": "made in this journey is a good question. Think this time when we started, we started with thinking about the open source and the commercial path together and trying to uh to use to work on them sort of more or less intend them and use them to drive a drive each other uh rather than uh I think you know me be an engineer as as a first time founder. Um a lot of the natural inclination was let's build, built, built right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:56",
+      "text": "And um I think I think that we have a very different mindset of a very different mindset this time around. I've made mistakes, uh, hiring early on and in the last start and of mistakes and hiring um in in the start up this one as well. And um I think that's that's another really hard problem that like Younger, Younger and especially for some founders who take undered to me, is that difficult and hiring.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:28",
+      "text": "what is would you give to Younger founders about hiring?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:24:34",
+      "text": "Like just know that you're going to make can make mistakes and I think have a plan and be up front about when when you can tell whether someone's gonna work out or not and um have a clear and human way to like part ways uh without drawing things out for too long, right? And so I think that's that's my biggest voice to for some you're gona make mistakes, hiring the wrong person for your team and IT IT could even be like they're the right person at the time but then start to change your fast like they may not be the right person later on. You just have to be clear and humane about IT but um you know if you if you let those problems linger for too long, then it's not good for you for your team, not good further company.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:25:25",
+      "text": "right? That's very good advice and also found this very technical. Well, have some advice that you made that you might give technical founders.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:25:37",
+      "text": "So I think yeah my so my biggest peace sort of vice is. Nobody cares how technically great a your your product is. It's all about what is the value you can deliver to the customer and what what is the what is the experience that you delivered to them.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:26:04",
+      "text": "And i'm certainly exaggerated well, like nobody cares, right but I think um it's because most like very deeply technical founders are um too narrow focus on how good the the technologies without thinking through you know like how what's the what does the API look like? What's the user experience like and what I like what do people get out of IT? right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:26:32",
+      "text": "So if you if um if something that's like simple and and cheap and you know um the will will solve the problem, right? Like nobody he's going to care that you build the greatest distributed system and fast performing thing, right? So it's you got to you ve got to think about the problem, think about the the user, uh, think of and like get out of your own head and and like you put on their shoes for for the moment.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:03",
+      "text": "right? Yeah I want them to to do brian, when we discuss why you in A, C, B, A, you emphasize their outstanding performance and also the teams background in deep background in in data info when you were about something only very early stage teams, like what else are you, are you looking for?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:27:24",
+      "text": "I agree very much that you really have to identify, like is this company delivering like true enterprise value aimed that that's exactly what we so we book with companies like my journey, they they said that are a big reason why we were able to deliver. What we're delivering is because lsd b has enabled us to scale.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:27:54",
+      "text": "I so IT wasn't like they were talking about all these individual features, like there was many of them, but I was just that they were delivering true to press value. There was like very strong loyalty from their whole customer base in terms of like come in like missteps. Frankly, when we invest, there is just like three things that matter the most.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:28:18",
+      "text": "Like these are three things that they need to be there and often times is not there for companies like one is just founder market fit like the founder needs to have like been in this space, like the founder needs to like live in and breathe this domain. And that's exactly what we saw with chang. The second thing is this needs to be they need to be going after something that is a large market size.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:28:46",
+      "text": "No, there is no question that data bases of large market size and there is no question that this small time model air wave of startups and large companies is happening. And so IT was very clear that this is a large market size. And number three is that there is a catalyst um to this market flash a why now that will make this market grow by one hundred x over the next couple of years. And we saw that the most have model AI way was clearly happening. And so there was no doubt that there would be a need for a more time model data .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:29:18",
+      "text": "base and AI infrastructure.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:29:20",
+      "text": "And by the time we invested like last, D, P had already become the clear market leader being used by the like both the leading startups and the leading large enterprises. We made our decision within a week when we ah in china I cut up IT was just IT just felt like everything was there. So we made our decision very quickly. IT was pretty much a .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:29:46",
+      "text": "no brain for us to invest for those companies that were even earlier. They they haven had customers here developing.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:29:55",
+      "text": "We do invest earlier at lower valuations and are to account for the risk. And I would say like it's just those three principles, like are all three things there. And often times, we see founders who like have absolutely no founder market fit for what they're tackling.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:30:13",
+      "text": "Like someone says, I heard I heard that I heard wear as a is a large space. So i'm i'm now going to be building like GP used for different transport mer model, like that's obvious ly real category, but IT are these. The people are back, right? Like maybe they did their people in the facebook. They don't really have experience shipping IT. It's very clear that everybody's for robotics is happening, but there there's many people who have like never touched a robot their life who said for I saying i'm building a body there for robotics and again, like that that there is a big open question there about whether they can truly .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:30:46",
+      "text": "deliver right together for well looking into the broader AI space。Uh brian, you just mention multimodal is the next week thing in the next like um one, two, three years. Like would you feel are most excited about?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:31:01",
+      "text": "I think that there's three major categories. I think there is three like very big, Better than in a couple other like categories we think are definitely going happen. I think that the three largest like open a scale opportunities are number one as AI agents. I think as we continue to discover ways to translate existing scaling lies, we will be able to build models that are not just able to like the effective chat bus that but are able to perform actions that would Normally take humans like to um in the orders of like tens of the minutes to do, for example, like AI for like an AI marketing analyst, an AI copywriter. I think that .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:31:54",
+      "text": "these are .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:31:55",
+      "text": "like um I think that in the future we can actually just hire AI agents to do these things for us rather than higher human beings. Number two is embodied AI for robotics. I think that there we are going to see like AGI for the physical world.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:32:15",
+      "text": "And we actually are seeing companies hiring a robust to fulfill human neighbor shortages. Um today robotics is being held back because Frankly, the the robots are just like not very smart. For example, they don't know how to open door ways, they don't know how to navigate staircases.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:32:34",
+      "text": "I think once we can solve a lot of these issues that we're holding robots back, then the body um we will start we will start to see very large in body, their robotics companies a number three years today. The way that we make decisions in the health care world are very stupid. There is a lot of very simple test that we go to doctors for a drug discoveries, a very manual process, and there is a very real opportunity for foundation to transform the way that we make health care decisions and do drug discovery.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:33:06",
+      "text": "But that said, the teacher is just very, very early. And I think a on a smaller scale, tea, what we are spending a lifetime into as a find is what will multiple del models enable? We're already cover briefly in buddy dare for robotics.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:33:29",
+      "text": "MAI voice agents is almost certainly a category that's going to happen where there's an AI you can talk to rather than a chat out interface. AAI video generation is going to become a much larger category. Todays is being held back just because of fluctuations. But once we can solve for elect temporal consistency, object permanence and truly offer precise control, then we will unlock a whole host of new year's cases. You can upload a picture of yourself in create like new videos where, uh, you can do anything you want, where you're the main character and they're just like the possibilities are unless once we can unlock that, we're investing begun .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:34:19",
+      "text": "time mod for the simple categories that you that you mention for a simple agent like health care moto model. Do you see those most of those companies build upon, uh, the model is built by one of the most leading foundation model companies。Or what do you see the need for a new companies building the, uh the the model for those specific use cases.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:34:45",
+      "text": "Obviously the like the largest research labs like a robic opening china. II say they're all going after the AI agent use case. And we are also seeing startups like like refreshing AI also building AI agents. Um I mean, II think that is this is another one of those categories that is just so large like this is basically like what the human workforce is earning today, like all digital knowledge work, like the market is so large that there is just going to be like multiple winners in the space.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:35:26",
+      "text": "So when you look at I say AI agent set up, right, I say they are building an AI agent for um for customer service. Do you expect the team to have the capability to build the the the the model by themselves? Or do you think I can be a application team who just know the space very well with good engineering and yeah engineering ing skills?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:35:54",
+      "text": "I think you can go very far off of existing models. There's rumors that CR, AI is approaching seven figure a million seven figure revenue and decode on AI has surged. Passed is already at a seven figure million revenue within six months.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:36:12",
+      "text": "So the early generations are like AI customers support on top of GPT or similar models that's really happening. I mean, if we can build like I think there are no there are not yet any like really good AI agents foundation models released yet. There probably will be soon by.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:36:35",
+      "text": "By the time that this fall comes around, there would not be surprised if several labs have released their models. And once that happens, I think that this ah this is a very good question. Like will the labs be building Better customer support agents? Or will the startups building like um layers on top of the existing models? Uh do well. II think it's going to be very interesting to see.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:37:03",
+      "text": "Yeah I think um so I remember last year I was I was in AA panel and I think my they asked like what do you think is under the overnight? And my prediction was that like AI agents would be very far away or like father when we think and um i'm actually pretty excited that I was totally wrong about that. And I think this year was seeing much more compelling AI agents and we feel like the agents applications have made way faster progress then uh, what IT looked like last year. What do you think .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:37:44",
+      "text": "you you got wrong about that prediction? What do you on the estimate?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:37:51",
+      "text": "So II think with AI agents IT just felt at the time, I felt like IT looks similar to a um like autonation vehicles where IT gets into a uh uh a big quite mare of like long tail problems and um make IT very difficult to truly be useful valuable in production. I unrested mated a bunch of different things like the model c model capabilities and improved uh faster than um then then I had thought.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:38:30",
+      "text": "And then I think the innovations around like the use case and the user experience, uh, there are tons of companies that would essentially recognize those problems and build the user experience are used, build the application in a particular domain and use domain knowledge to um fill in the gaps, right? And so I think that pace of innovation was also like a much faster then, I think previous waves of of a new technologies and products being being built. So you very excited about that。Free I to be become much more. I was like, uh, active, right? It's not just that chat interface anymore, but I is now being able to do stuff.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:39:19",
+      "text": "But I see something the world like much faster than I expected that II always very happy to to make them mistake because makes me think that the future is really coming faster than we then then we expect IT. So um he has been a great discussion. Our final session is our a quick fire questions, the first one, a book that you Normally recommend to others.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:39:45",
+      "text": "And why body problem?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:39:47",
+      "text": "Why um just .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:39:48",
+      "text": "uh I think it's just totally different from like other science fiction that i'm used to reading um and just the the like it's such a grand epic story and its spends basically know from like forty years ago till they know the universe and just amazing story story lines, amazing characters I go back and read, we watch the series. I can get enough of IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:40:20",
+      "text": "Yeah have you watched the netflix?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:40:23",
+      "text": "I not watched the netflix. X sometimes .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:40:26",
+      "text": "when you love the the original work too much, you are very hesitated and watch any like move top of awesome yeah I love that. Like how a brian day from .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:40:38",
+      "text": "was actually the book I was recently read. Ellam biography was also very interesting. They just go into the mind of an entrepreneur. R, who had built many legendary companies and see what he's like.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:40:53",
+      "text": "good. Next question, what's view that about AI that you have changed in the past six months? right. Go first.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:41:06",
+      "text": "I used to be very sceptical also about like weather AI agents, we're going to happen. But I think that, that just like some of the recent advancements that I have seen, I make me believe it's really going to come about in the next one, two years, much sooner than any of us have anticipated. I finally think we are not even like prepared or like how big of a transformation IT is going to make on our everyday lives. But I am hopeful that IT will just you automate alive the maintenance that we do and enable um just like a next wave of human creativity.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:41:50",
+      "text": "We are already seeing that happen and the enterprise goes first that before consumer facing youth codes, right?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:41:59",
+      "text": "I yes，but I mean I think that will happen for both. I think a lot of very smart people decided to target a customer support for good reason because it's just a more defensible use case. If you're if you if you are integrated to the enterprises, data IT is just like very hard for them to replace you.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:42:19",
+      "text": "IT makes lot of sense. Me to that, the first way of entrepreneurs went for entrepreneurs. Es, but I do think that is going to have very large consumer and consumer use cases as well.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:42:32",
+      "text": "II have so many workflows and producing my podcast, have a laugh like agents means. So I feel like the on the consumer uh use cases can be more chAllenging because you have less workflows in our individual life, right? Most of the work I have a truly hook well and depress. You can sore some ideas from existing worker okay.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:42:54",
+      "text": "Um um I used to think technology was a Young person's game and um just this past weekend I completely changed my mind because II found out um from my mom that he uses chat VT like way more than I do wow so like SHE. Um so for example, no SHE was a doctor before SHE retired.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:43:16",
+      "text": "And so this he was telling me like know her friends would call her about things and you would like give them AI her like opinion right uh and then he would go to a ChatGPT and verify and like basically ChatGPT would based on her reporting, like come up with the the things that he would come up with and like in the same order, almost like managing some rental properties herself and like, you know she's uh english is are a second language, but you would a essentially use ChatGPT now on like uh a daily basis to help her communicate with others. And if he has a ChatGPT like mobile APP on phone, SHE uses more than I do. And I think SHE uses chatbot way more than google as well. So no, I think this is just another way piece of evidence like AI is truly changing um technology because you know before AI every new wave of technology I always use the first and my mom like three years labor like I heard about this new thing and this time I like you. It's it's fundamentally different right now.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:44:27",
+      "text": "There's I even my mom likes forwarding me tiktok videos about like how AI was the influence Young people is Young people's career in in our future and one time he asked me, what kind of like do you think AI will have in your career? Thanks for like, like like what bria mentioned about the voice interface, I think is specially for for our parents generation IT definitely feels more natural to them. okay. Next question. That's a question that we probably have a very touch form, but just in case we meet anything in our previous conversation, what's overnight and AI infra underrated is probably .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:45:09",
+      "text": "like the ability to deal just ability to deal with scale and multi model data. Um I think we're starting to wake up to that need. But um no, I think last year everyone was like, oh IT is really different.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:25",
+      "text": "You you know boy's going to have more than like ten thousand, one hundred thousand vectors. Why do we need like real real database? I think that's fundamentally changing as people put that in production.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:38",
+      "text": "Um overrated you know after the agents thing, i'm a lot of IT predict anything as overdid. Yeah I know love talking about that. What do you? Uh.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:54",
+      "text": "I was overdid. Probably m observably is .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:46:05",
+      "text": "yeah.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:46:07",
+      "text": "I think that that's just going to be a feature of a larger platform. Like and quite surprise, a lot of independent companies are spending up there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:46:16",
+      "text": "Is IT already on your robot?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:46:18",
+      "text": "IT is not only like immediate road map, but yeah definitely we've um I think like a lot of the features and a lot of the workload will we engage with our customer is like the immediate downstream mobile am is as ever, like evaluations and ability .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:46:39",
+      "text": "and i'd say underrated. I think people building applications under our foundation model just underestimate like the fundamentals was scaling well, sometimes it's not the algorithm, sometimes just like data just fitting in more data yeah and I think that you know you talk about GP three to GP four, fifty four to GPT five. I think the big of answer, Frankly, just gonna be a bound of .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:47:10",
+      "text": "data that you have. And okay, next question, I have no context about this question. I just got IT from change. Uh twitter is all milk OK, why not? Um so .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:47:23",
+      "text": "basically was in because blue bottle started started to people to milk and I got to know IT because every time I go in order and they they would ask me like, is old okay? Now always have to say no.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:47:41",
+      "text": "okay. One thing I think is overrated in the bay era is milk alternatives.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:47:46",
+      "text": "So originally what I guess was like IT was a an environmental um uh motivation to uh to like reduce gary farming and like his human treatment of animals. Actually turns out is really just that like old milk has a much longer a stable shelf life。So you know the fact that is happened in the area, you know is is actually just uh, coincidence is actually just, please playing old capitalism.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:16",
+      "text": "I didn't know. I didn't know that. Thanks for let you know.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:48:19",
+      "text": "Okay and okay. And this question is also formulate, be ALM. Orchestration is just regular orchestration. Agree or disagree, it's for years three that right .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:48:32",
+      "text": "i'm not sure I eat that but yeah so II think II repost that from I think a .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:38",
+      "text": "friend post that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:48:43",
+      "text": "Um I think it's a lot of the the problems that you face um is the same like you know understanding the the connections between different steps in your word flow like retrials airports, reliability and resume mobility. I important cy, all of those things don't change just because you added alms into the mix.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:12",
+      "text": "So you think LM opposite is just .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:49:16",
+      "text": "I think it's not as I think it's like with simple statements and twitter is always yeah right like it's not just a regular registration but like a lot of IT is oh.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:34",
+      "text": "okay. Next question is for next question is for brian and what do you enjoy the most in the list about being an investor?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:49:42",
+      "text": "Um I think think that most enjoyable just getting to partner with incredible entrepreneurs are like truly the best new face. I just watching them just be dynamic and like crush IT. 爱听的thing I like the least about like transitioning from building a start up to investing is you have to be a lot more social than you Normally are。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:50:15",
+      "text": "For a child, like what do you enjoy the most? Enlist about being a founder.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:50:19",
+      "text": "That's the last question. Yeah um I think just like there's so there's so much to enjoy about being a founder. Um I think I think the like especially um now and especially in what we're doing is just that like excitement uh that we are building something that's truly unique, that is going to make a positive contribution to the to the world, to the to the industry um and you know it's something that we built from the ground up from scratch uh and that you building that community around IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:50:56",
+      "text": "Um you know working with working with customer is just seeing the value that IT adds for them and seeing, you know what are the compelling things they built out of IT. Um and then you know like hiring hiring a great team of people that I probably wouldn't able to assemble. L um if I were like working for another company, right, you know some of whom i've had to stock for months before they agree to to work or work for for the company, like having having investors are truly understand what you're doing, understand the industry is pretty rare, especially being in a second founder.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:51:38",
+      "text": "I think there a there's a huge amount of difference between um between investors and just like having someone whose uh who understands from understands the space and like believes in the team and understands where things can go um is just a huge help as as a founder and yeah I mean, I think things I enjoy this a pretty much what brian said. Like i'm an engineer background and like my background and you know being a being a founder and being ACEO especially that means like just really uh like getting on my my comfort zone and doing lot of uh extravert things and you know as so as an example, like I really get to right like large box of code anymore, which is something I really miss doing. But you know I think as as as a CEO, it's uh, I think I need to I need to be doing other things.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:52:47",
+      "text": "Okay, great. That's still. And the first interview, we have to talk for more than to talk for more than two hours.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:52:52",
+      "text": "And thank you so much for a time. I look a lot from the the version. Thank you guys. Thanks for listening to this episode of on board. I hope you find this content inspiring.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:53:02",
+      "text": "If you like our content, please follow us on any podcast platform you are listening to, and most importantly, please take a couple seconds to leave us a five star review on apple podcast or share with your friends. This really means a lot to us. If you have any feedback or people you would like to see on the show, feel free to email us or find us on twitter.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:53:22",
+      "text": "Our email and twitter handle are in the show notes. Looking forward to hearing from you. We can't wait to bring you another incredible episode. See you next time I on board.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:53:33",
+      "text": "以上就是本次播客的全部内容，感谢大家的收听，希望对你有所启发。如果你喜欢我们博客的内容，欢迎你点赞分享，在评论区写下你的心得。另外onboard也有听众群了，添加小助手微信ID on board 666。再说一次，非常好记欧波666加入听众群，了解更多互动机会。另外如果有喜欢两位主播用爱发电，也可以在小宇宙给我们打赏，请我们喝个咖啡。如果你在用apple podcast，也希望你能花几秒钟给我们打个分，打个五星好评，让更多人可以了解到我们我们下期再见，继续更多干货。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这次讨论中，参与者探讨了人工智能（AI）的未来，特别是AI在翻译、市场营销、写作、机器人技术、医疗决策等领域的应用潜力。他们强调了AI模型如何通过执行以往需人力完成的任务，如使用AI代理替代人力工作，来改变人们的生活和工作方式。讨论还涵盖了“通用人工智能”（AGI）在物理世界的应用，以及AI在医疗决策中解决效率问题的可能。讨论者分享了他们对AI发展的个人看法，并转向了多模态AI推动的数据库需求增长，以及未来AI数据库的发展趋势。此外，还讨论了开源数据库在AI领域的应用，数据基础设施的技术挑战，以及在开源和商业模型之间找到平衡的策略。具体例子包括Starburst如何通过数据联邦化商业化开源项目，以及OpenAI收购相关团队对市场的潜在影响，强调了AI领域内建立企业级解决方案的挑战与机遇。",
+    "qa_pairs": [
+      {
+        "question": "What are the backgrounds of the CEO and Cofounder of Landon and a CRV investor?",
+        "answer": "The CEO and Cofounder of Landon is Bryan, who was an original contributor to the a library and founded data pad. He has extensive experience in data and information and has worked on data infrastructure for machine learning and AI. A CRV investor, referred to as a good friend, is a co-founder of Landon and has a strong technical background along with experience in commercializing open source projects.",
+        "time": "00:01:12"
+      },
+      {
+        "question": "What is Landon and what problems does it solve?",
+        "answer": "Landon is an open source selector data base design for multi model data. It addresses the challenges of managing and processing multi-modal data for AI, including audio, video, images, and embedding. It was created in response to the pain points faced by existing data infrastructure in dealing with multi-modal data.",
+        "time": "00:01:12"
+      },
+      {
+        "question": "What is the significance of the da fusion project?",
+        "answer": "The da fusion project is an open source project started by the team at Landon. Initially part of the Apache Incubator project, it has grown into a top-level project and is used by many companies in the industry. It makes it easy for database developers to create new and specialized data systems.",
+        "time": "00:03:31"
+      },
+      {
+        "question": "What was the motivation behind investing in a new AI database like Landon?",
+        "answer": "The motivation behind investing in a new AI database like Landon was the recognition that multimodal AI waves would necessitate a new type of database, much like how NLP databases have become essential. The existing databases were unable to efficiently manage and store large amounts of multi-modal data at scale. Landon was chosen by leading multimodal AI startups because it could handle these requirements effectively and Landon's founders, Bryan and L, were respected for their work in the open source community and their previous achievements.",
+        "time": "00:05:31"
+      },
+      {
+        "question": "How did the need for efficient data management arise in the context of AI?",
+        "answer": "The need for efficient data management arose because traditional data warehouses struggled with the volume, variety, and velocity of data that was common in AI applications, particularly multimodal data like images, videos, and vectors. Companies required a solution that could handle these challenges and allow them to quickly experiment with data and integrate it into their AI models.",
+        "time": "00:08:41"
+      },
+      {
+        "question": "What technical difficulties were faced in managing data for AI applications?",
+        "answer": "Technical difficulties included the complexity and cost of managing large volumes of data, working with traditional data warehouses that were not suited for the task, and integrating data seamlessly into AI models. There was a need for a data layer that was easy to work with and allowed for quick experimentation and integration.",
+        "time": "00:09:19"
+      },
+      {
+        "question": "What has changed and what has stayed the same in the use of Landon and its technology over time?",
+        "answer": "The use of Landon and its technology has evolved to accommodate the increasing scale and complexity of multi-modal AI. The challenges around managing data have grown, with data volumes and complexity increasing. However, the core mission of solving data problems for AI has remained the same.",
+        "time": "00:13:03"
+      },
+      {
+        "question": "Why is Land considered a new category in AI data, and what is its competitive advantage?",
+        "answer": "Land is considered a new category in AI data because it addresses all three challenges simultaneously: filtering, shuffling, and distributing data quickly and efficiently. This combination is not typically found in existing systems, which means Land has a competitive advantage over other systems that cannot satisfy all these requirements at the same time.",
+        "time": "00:17:44"
+      },
+      {
+        "question": "What are the specific challenges of handling AI data that traditional systems are not optimized for?",
+        "answer": "Traditional systems are not optimized for AI data because they do not handle data filtering, shuffling, and distribution in a manner that supports the high speeds required for AI training. Specifically, traditional systems lack the ability to quickly scan and process large datasets (data filtering), maintain random access to data (data shuffling), and efficiently stream large data (data distribution). Land is said to be uniquely optimized for these three aspects of AI data processing.",
+        "time": "00:17:44"
+      },
+      {
+        "question": "What differentiates a Land DB investment from other AI infrastructure categories?",
+        "answer": "A Land DB investment is differentiated from other AI infrastructure categories by its proven financial track record, a true multimodal approach to AI data, and the fact that it provides a full platform for ML applications rather than just a narrower solution. Land DB integrates data tightly with the training process and offers features such as automatic data management, making it an end-to-end platform for AI companies.",
+        "time": "00:21:30"
+      },
+      {
+        "question": "How does Land's performance in handling vector data compare to other vector databases?",
+        "answer": "Land's performance in handling vector data is significantly better than other vector databases. In a test comparing various vector databases, Land was the only one that could handle all the data at scale without issues, showing a tenfold difference in performance compared to other systems. This indicates Land's superiority in managing vector data at scale.",
+        "time": "00:21:42"
+      },
+      {
+        "question": "What are the characteristics of a platform investment in AI infrastructure according to Land's perspective?",
+        "answer": "According to Land, a platform investment in AI infrastructure should have the following characteristics: It should be multimodal, integrating multiple types of data and workloads; it should offer a single source of truth for all data and processes; it should support a broad range of AI use cases, from simple vector retrieval to complex model training; and it should be able to transition seamlessly between different operational modes such as real-time serving, data management, and large-scale storage.",
+        "time": "00:26:04"
+      },
+      {
+        "question": "What is the predicted future of vector databases?",
+        "answer": "The predicted future of vector databases is that they will become a feature within a more comprehensive offering. As traditional databases integrate vector search and other related features, there is an expectation for convergence. However, Land suggests that true multimodal data management will require solutions specifically optimized for hybrid search, real ranking, and other complex use cases that go beyond what the current generation of vector databases can provide.",
+        "time": "00:28:18"
+      },
+      {
+        "question": "What problems arise when data gets to scale and what technologies are suggested for more sophisticated retrieval techniques?",
+        "answer": "When data gets to scale, problems arise such as the inability to work with huge vectors, and the industry recognizes that more dedicated data for search and retrieval APIs are necessary for sophisticated retrieval techniques. Technologies like PostgreSQL with vector support or purpose-built data search APIs are suggested for handling these challenges.",
+        "time": "00:31:57"
+      },
+      {
+        "question": "What were the main observations and announcements from the recent data processing and analytics summits?",
+        "answer": "The recent data processing and analytics summits revealed that Snowflake's focus on AI was less pronounced than expected, particularly given its CEO's background. A significant announcement was the acquisition of Time Buler for over a billion dollars, emphasizing the importance of table formats in the future road map of companies like Snowflake and Databricks. Another key observation was the growth of AI data analysis, with companies allocating large budgets for this use case, leading to the fast growth of database companies and open-source projects like Trino ( formerly known as Starburst) which is built for handling AI workloads.",
+        "time": "00:32:57"
+      },
+      {
+        "question": "What was surprising about Snowflake's focus on AI at the summit?",
+        "answer": "The summit was surprising because Snowflake's focus on AI was not as pronounced as expected, especially considering the CEO's background in the field. There was a general sense of surprise that AI was not more central to Snowflake's announcements and demonstrations at the summit.",
+        "time": "00:33:41"
+      },
+      {
+        "question": "Why is the acquisition of Time Buler significant and what does it indicate about the importance of table formats?",
+        "answer": "The acquisition of Time Buler by Snowflake for north of a billion dollars is significant because it indicates the growing importance of table formats in the future of data processing and analytics. The competition between Snowflake and Databricks to acquire Time Buler reflects the value of effective table formats in enabling big data applications and the challenges that arise with the maturation of big data warehouses and the need for transaction support.",
+        "time": "00:34:31"
+      },
+      {
+        "question": "What is the next big category expected to emerge in the data processing industry?",
+        "answer": "The next big category expected to emerge in the data processing industry is data for machine learning (ML). This is supported by the fact that every single AI startup is using data in their data format and the observation that data processing and analytics companies are rapidly scaling up to meet the demand for handling AI workloads.",
+        "time": "00:35:35"
+      },
+      {
+        "question": "What are the commonalities and differences between the data processing and analytics companies' offerings?",
+        "answer": "Commonalities between data processing and analytics companies include the ability to plug in different table formats into a unified catalog, offering flexibility for customers. The differences lie in the approach to integrating these formats and the ecosystem; some companies may focus on creating a composer system where users can pick and choose the right components for their applications, while others may emphasize a more integrated solution with proprietary features and formats.",
+        "time": "00:38:18"
+      },
+      {
+        "question": "What technical challenges exist in developing AI for data analysis and what recent advancements have been made?",
+        "answer": "Developing AI for data analysis faces technical challenges such as the lack of foundational models that can handle complex tasks like mathematical calculations effectively. Despite recent improvements, such as those seen in OpenAI's GPT-3.5, the technology is still in its early stages and faces significant hurdles before it can fulfill the potential demonstrated by early promises. Recent advancements have started to show substantial improvements in specific areas, which suggests a rapid progress towards overcoming these challenges.",
+        "time": "00:46:31"
+      },
+      {
+        "question": "What are the strategies startups are using to deliver partial solutions and improve user experience?",
+        "answer": "Startups are delivering partial solutions and investing in new user experiences that represent a huge step forward in user experience without requiring 100% accuracy or perfection. They are leveraging technological shifts and different modes of development to compete.",
+        "time": "00:49:08"
+      },
+      {
+        "question": "What is the current status of technological shifts and the potential for new entrants in the AI space?",
+        "answer": "Technological shifts are creating opportunities for new entrants in the AI space, with many companies investing in user experiences on top of imperfect models. It's an area of optimism, but it's still too early to predict the extent of these new entrants' impact.",
+        "time": "00:49:52"
+      },
+      {
+        "question": "Why is a different database needed for emerging AI use cases, and what is the current state of data processing technology?",
+        "answer": "A different type of database is needed for emerging AI use cases due to the sophistication of data extraction and processing required in the data pipeline. Current data processing technology is advancing with more companies extracting insights from images, PDFs, and financial tables, and applying techniques from recommendation systems to these large, complex problems.",
+        "time": "00:50:34"
+      },
+      {
+        "question": "How do you manage the challenges of different prompts and changing IT with regards to user feedback and system adaptability?",
+        "answer": "Managing different prompts and changing IT involves addressing new problems and considering whether new components will emerge or existing ones can be adapted. User feedback can influence the continuous improvement of recommended systems and the development of new IT paradigms like agents and orchestration.",
+        "time": "00:51:26"
+      },
+      {
+        "question": "What are the parallels between recommendation systems and other large problems, and how can existing techniques be applied?",
+        "answer": "There are parallels between recommendation systems and large problems like RAG, which is more like a recommended system. Existing techniques and tools from recommendation systems can be applied to these large problems, and there's a transition from simple vector search to more complex search modes in recommendation systems.",
+        "time": "00:51:26"
+      },
+      {
+        "question": "How do you think about creating a plan and making API calls in a multi-agent workforce?",
+        "answer": "In a multi-agent workforce, a plan is created and API calls are made based on structured instructions. Depending on responses, actions are taken and further API calls are made, integrating unstructured text and instructions into a structured workflow.",
+        "time": "00:54:18"
+      },
+      {
+        "question": "What are the new components in the IT stack that enable continuous improvement and orchestration in response to user feedback?",
+        "answer": "New components in the IT stack enable continuous improvement and orchestration by incorporating user feedback into models and using techniques like re-ranking and integration of user interaction into the recommendation system workflow.",
+        "time": "00:53:25"
+      },
+      {
+        "question": "What considerations are made when deciding whether to use open source for a startup?",
+        "answer": "Considerations when deciding to use open source include the balance between open-sourcing too much or too little, the clarity on what is being open-sourced, and understanding that creating a successful open-source company is challenging. It's important to be cautious about adopting open source as the default and to have a clear strategy for monetization and value proposition for enterprises.",
+        "time": "00:58:45"
+      },
+      {
+        "question": "What challenges and considerations are involved in building a company based on open-source projects?",
+        "answer": "Challenges include finding the right balance for open-sourcing, ensuring the company's product is unique and valuable beyond the open-source contribution, and the necessity to pivot and find product-market fit for a different use case in the commercial offering. Open-source companies need to sell something distinct from their open-source offering.",
+        "time": "00:59:49"
+      },
+      {
+        "question": "What did the company decide not to open source and why?",
+        "answer": "The company decided not to open source certain projects like LCB, an enterprise database for search, training, and indexing, because it was highly specific to their use case and not generally useful or technically obvious for broader application. They chose not to open source components that worked together for a particular use case as it would not have been useful or generalizable for smaller scale or local experimentation.",
+        "time": "01:03:46"
+      },
+      {
+        "question": "What are the potential impacts of OpenAI's acquisition on the industry and other companies building AI and data infrastructure?",
+        "answer": "The potential impacts of OpenAI's acquisition include demonstrating the difficulty of hiring for AI, data bases, and data infrastructure, and the strategic advantage of acquiring a team with necessary talent. Other companies may feel threatened if the market becomes concentrated with a few dominant players offering LLM and data infrastructure services, but the current market size and variety of use cases suggest a more competitive landscape.",
+        "time": "01:07:12"
+      },
+      {
+        "question": "How does the speaker feel about the competition in offering APIs for AI and data infrastructure?",
+        "answer": "The speaker feels that having companies build their own data processing infrastructure from scratch is beneficial as it caters to those who need highly customized solutions. The existence of an open source ecosystem is also seen as positive for users not utilizing OpenAI's services.",
+        "time": "01:09:57"
+      },
+      {
+        "question": "What factors are important for companies to consider when choosing a record solution, and what is the speaker's perspective on 'all-in-one' solutions?",
+        "answer": "Factors important for companies to consider when choosing a record solution include the required features and the need for customization. The speaker believes that 'all-in-one' solutions may not be suitable for everyone, especially if their data scale exceeds what the solution offers or if there's a need for customization or integration with other parts of the pipeline.",
+        "time": "01:11:02"
+      },
+      {
+        "question": "What does the speaker believe about the future of record system vendors and the market for different parts of the stack?",
+        "answer": "The speaker believes that the record system market will have multiple winners for different parts of the stack due to its large size. This reflects in the enterprise data integration space, where there is a clear trend towards using rag over fine-tuning for its superior performance in collision avoidance and error rates.",
+        "time": "01:12:24"
+      },
+      {
+        "question": "What considerations are necessary for improving retrieval models and what experiments are being conducted?",
+        "answer": "Necessary considerations for improving retrieval models include setting up the right feedback loop for continual improvement and conducting experiments to test different retrieval techniques. These include exploring rag models, data extraction strategies, chunking strategies, as well as advanced IR theory and techniques to determine the most effective and generalizable methods.",
+        "time": "01:16:31"
+      },
+      {
+        "question": "What key lessons has the speaker learned from their previous startup and how are they applying them to their current one?",
+        "answer": "Key lessons learned from the speaker's previous startup include understanding the importance of basic knowledge and avoiding common mistakes made in their first venture. This time around, they are applying these lessons by being more strategic, avoiding past mistakes, and taking a different approach in building the company.",
+        "time": "01:19:11"
+      },
+      {
+        "question": "What advice does the speaker offer to younger founders about hiring and dealing with mistakes?",
+        "answer": "The speaker advises younger founders to have a clear plan and be upfront about the evaluation process when hiring, acknowledging that mistakes can happen. They recommend dealing with underperforming employees in a humane way without prolonging the issue, as it's crucial for the team and company's well-being to address such matters promptly.",
+        "time": "01:24:34"
+      },
+      {
+        "question": "What is the primary focus for founders when it comes to delivering value to customers?",
+        "answer": "The primary focus for founders when delivering value to customers is not the technical excellence of the product but the value it can deliver to the customer and the experience provided to them.",
+        "time": "01:25:37"
+      },
+      {
+        "question": "What are the three most important factors to consider when investing in a company according to the speaker?",
+        "answer": "The three most important factors to consider when investing in a company are: 1) Founder market fit - the founder should have deep experience in the space they are building for. 2) Large market size - the company should be going after a large market. 3) A catalyst that will drive market growth significantly, making the market expand rapidly.",
+        "time": "01:28:18"
+      },
+      {
+        "question": "Why did the speaker believe that IT was positioned to be a market leader?",
+        "answer": "The speaker believed IT was positioned to be a market leader because it had become the clear leader in its space, being used by leading startups and large enterprises. The company had all the necessary elements in place to succeed and had established a strong presence in the market.",
+        "time": "01:29:20"
+      },
+      {
+        "question": "What are the three major categories the speaker is excited about in the AI space?",
+        "answer": "The three major categories the speaker is excited about in the AI space are: 1) AI agents that can perform tasks traditionally done by humans, 2) Embody AI for robotics, that is, AGI (Artificial General Intelligence) for the physical world, and 3) The use of AI in healthcare to transform decision-making and drug discovery.",
+        "time": "01:31:01"
+      },
+      {
+        "question": "What is the speaker's prediction for AI agents and their applications?",
+        "answer": "The speaker's prediction is that AI agents will be a reality much sooner than previously expected, possibly within the next one to two years. He is excited about the rapid pace of innovation and how AI agents are advancing to perform tasks beyond just chatbots, enabling them to execute actions that typically take humans a significant amount of time.",
+        "time": "01:37:51"
+      },
+      {
+        "question": "What was the speaker's previous belief about the role of technology and who has changed their mind?",
+        "answer": "The speaker used to think that technology was primarily a young person's game but has recently changed their mind after learning from their mom about her extensive use of AI technology.",
+        "time": "01:42:54"
+      },
+      {
+        "question": "What evidence did the speaker provide to show that AI is changing technology?",
+        "answer": "The speaker provided evidence that AI is changing technology by sharing a personal anecdote about their mom using ChatGPT more frequently than the speaker, and on a daily basis, to help communicate with others and manage rental properties. Furthermore, the speaker's mom uses a chatbot more often than Google for search queries.",
+        "time": "01:43:16"
+      },
+      {
+        "question": "What is the speaker's mother's age and profession?",
+        "answer": "The speaker's mother is a doctor who has retired.",
+        "time": "01:43:16"
+      },
+      {
+        "question": "How does the speaker's mom use AI and what is surprising about her usage?",
+        "answer": "The speaker's mom uses AI, specifically ChatGPT, to manage rental properties and to verify information that she would normally discuss with her friends. The surprising aspect of her usage is that she engages with AI more frequently than the speaker and uses it daily to aid in communication.",
+        "time": "01:43:16"
+      },
+      {
+        "question": "What new capability within AI infrastructures is the speaker surprised by?",
+        "answer": "The speaker is surprised by the ability of AI infrastructures to deal with scale and multi-model data, which they feel is an underrated need and has only started to be recognized recently.",
+        "time": "01:45:09"
+      },
+      {
+        "question": "What common misconception about IT does the speaker have from their friends?",
+        "answer": "The speaker has heard from friends that IT is overrated, particularly in regards to the number of vectors needed for processing, the need for real databases, and the overall differentiation from traditional IT. However, the speaker believes that these concerns may be overstated.",
+        "time": "01:45:38"
+      },
+      {
+        "question": "What does the speaker find overrated in the Bay Area, and why?",
+        "answer": "The speaker finds milk alternatives to be overrated in the Bay Area, suggesting that the trend is mostly driven by commercial interests and convenience rather than genuine environmental concerns or human animal treatment.",
+        "time": "01:47:41"
+      },
+      {
+        "question": "What is the speaker's view on the impact of AI on orchestration and operations?",
+        "answer": "The speaker believes that despite the introduction of AI, many of the challenges in orchestration and operations remain the same, such as understanding connections between different steps in workflows and ensuring reliability and mobility. AI is not simply a regular orchestration but adds complexity to existing issues.",
+        "time": "01:48:19"
+      },
+      {
+        "question": "What does the speaker enjoy most about being an investor, and what is the least enjoyable aspect?",
+        "answer": "As an investor, the speaker enjoys partnering with incredible entrepreneurs and watching them succeed. The least enjoyable aspect is becoming more sociable than usual.",
+        "time": "01:49:42"
+      },
+      {
+        "question": "What does the speaker enjoy most about being a founder, and what is the least enjoyable aspect?",
+        "answer": "Being a founder allows the speaker to build something unique and contribute positively to the world and the industry. The least enjoyable aspect is that as a founder, you have to be very sociable, which can be a departure from a typical work environment.",
+        "time": "01:50:19"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "软件如何改变世界：开源项目商业化的机遇与挑战",
+        "summary": "本次对话中，CEO和创始人以及一位经验丰富的投资者共同探讨了软件，尤其是开源选择器数据库在改变世界中的作用。他们深入讨论了在AI时代数据基础设施的机会，分析了向量数据库的市场竞争环境，以及在过去几年里该领域的变化。此外，还分享了将开源项目商业化的经验和对当前数据基础设施热点话题的看法。这次深入的讨论为理解如何利用软件和技术来驱动创新提供了宝贵的视角。"
+      },
+      {
+        "time": "00:02:19",
+        "title": "数据工具开发与AI基础设施革新",
+        "summary": "对话中，发言者分享了自己在数据科学和机器学习领域近二十年的工作经验，从使用Pandas到Hadoop，再到推荐系统和SHE学习。特别强调了在处理AI多模态数据（如音频、视频、图像和嵌入）时遇到的基础设施挑战。此外，还提到了一个令人感兴趣的开源项目——Data Fusion，这是一个从Apache项目中发展出来的，能够帮助数据库开发者创建新的、专业化的数据系统的项目。此项目对实现从小规模实验到大规模分布式部署的无缝过渡至关重要。"
+      },
+      {
+        "time": "00:04:43",
+        "title": "CRV投资早期数据库项目与AI技术展望",
+        "summary": "CRV在90年代成立，是美国历史最悠久的风险投资公司之一。在加入CRV之前，发言人曾是Facebook的第一位产品经理，后转战CRV专注于支持早期数据领域的创始人。CRV近期投资了一个AI数据库项目，该项目基于领先的多模态AI初创企业普遍使用的技术，展现了对多模态AI和AI数据库发展趋势的深入理解。投资决策基于对技术需求的分析以及创始人在开源数据库项目中的卓越贡献。"
+      },
+      {
+        "time": "00:07:50",
+        "title": "解决AI数据问题的初衷与挑战",
+        "summary": "在AI和LLM尚未成为主流的时期，初创团队关注如何解决AI数据问题，特别是对于无法适应传统数据仓库的大数据量。当时的AI应用如自动驾驶、推荐系统等面临数据检索、存储和管理的技术难题，使得数据利用和模型实验成本高、复杂。企业意识到，随着模型的通用化，数据管理成为了差异化竞争优势的关键。因此，团队着手解决这一难题，以优化数据层，实现快速的数据检索和模型更新，满足AI行业的需求。"
+      },
+      {
+        "time": "00:11:17",
+        "title": "大型语言模型在多模态数据管理中的应用与发展",
+        "summary": "在当前的科技领域中，随着大型语言模型（LLM）的快速发展，对于如何高效管理视频、图像、音频等多模态数据提出了新的挑战和需求。许多处于行业前沿的公司，如流媒体巨头和人工智能研究机构，面临着数据量急剧增加的问题，传统的数据处理和存储技术已难以满足需求。这些公司不得不探索和开发新的技术解决方案，以适应大规模多模态数据的管理。对话中提到，随着生成式AI，尤其是多模态生成模型的兴起，数据的生成速度和量级急剧上升，传统的数据存储和处理方式已显得捉襟见肘。开发能够有效处理和检索这些海量数据的新技术成为了迫切的需求。通过开放源代码社区的协作和反馈，一些创新性的数据管理和搜索技术得到了快速发展和应用，显示了社区驱动的创新在解决现代技术挑战中的重要作用。"
+      },
+      {
+        "time": "00:16:43",
+        "title": "理解Langboat对于AI数据处理的优化",
+        "summary": "Langboat是一种专为AI数据优化的新格式，解决了传统数据处理方式在面对AI数据时的不足。在AI数据处理中，需要快速扫描数据以运行过滤操作、实现随机访问以进行数据洗牌、并高效地流式传输大数据块到GPU，而这三点在传统系统中难以同时满足。Langboat的创新在于它能够同时满足这三点要求，从而优化了AI数据的处理效率。特别是在分布式训练和搜索检索任务中，这种对过滤、索引查询和结果获取的高效支持显得尤为重要。"
+      },
+      {
+        "time": "00:18:36",
+        "title": "探讨Better TV及数据库投资趋势",
+        "summary": "去年早期，Better TV领域曾引发投资热潮，众多公司涌入市场寻求资金，竞争激烈。投资者分享了对这一领域的见解，特别是对数据库模型的独特视角和正确的判断。尽管有人认为Better数据库是一个成功的类别，但投资者指出，真正值得关注的是那些在AI基础设施领域展现出巨大潜力的公司，如专注于ML观测和评价的初创企业，这些企业即使在没有明显营收的情况下也获得了高估值。特别地，矢量数据库公司在商业化方面已经取得了一定的成就。投资者批评了市场上一些夸大其词的现象，并指出许多平庸的公司借助热门技术迅速推出所谓的矢量数据库项目，但缺乏实际的商业价值。最终强调，对于处理大规模AI数据的企业来说，一个更为优秀的数据库是非常必要的，这也是为何某些数据库公司和开源项目能够迅速获得关注和增长的原因。"
+      },
+      {
+        "time": "00:21:30",
+        "title": "评估早期阶段投资中的技术公司标准",
+        "summary": "在选择投资对象时，投资者通常会关注公司的技术实力和市场潜力。特别是对于已经证明其财务表现的公司，投资者会通过简单的实验来测试和评估其技术的优越性，例如在向量数据库领域，通过创建大量的向量索引测试不同数据库的处理能力，从而判断出哪家公司的技术能够满足大规模数据处理的需求。此外，投资者还会关注公司是否在构建一个全面的平台，而不仅仅是一个单一的解决方案，因为一个全面的平台更能吸引客户并满足市场需求。"
+      },
+      {
+        "time": "00:23:21",
+        "title": "探讨LangCV在多模态AI应用中的优势及挑战",
+        "summary": "讨论集中在如何LangCV平台通过整合数据与机器学习训练过程，提升开发效率和数据处理速度，解决传统方法中工程师需跨多系统操作的复杂性。此外，也探讨了多模态数据（如文本、图像、音频和视频）的管理和应用，以及如何通过单一平台实现不同数据类型的高效检索、存储和分析，进而支持实时和大规模数据处理需求。强调了多模态AI的未来趋势，及其在实现高效、集成解决方案方面的重要性。"
+      },
+      {
+        "time": "00:28:17",
+        "title": "未来数据库的发展趋势",
+        "summary": "讨论重点在于当前的向量数据库未来可能不会独立存在，而是作为更全面的数据库服务中的一项特性。行业正在朝向传统数据库集成向量搜索和向量数据库增添传统数据库功能的方向发展，显示出一种融合的趋势。对于小数据量的简单检索需求，使用现有的解决方案如PG Vector可能已经足够。然而，对于需要处理大规模数据、进行复杂检索和存储图像等高需求场景，则需要专门优化的数据库解决方案。此外，随着技术的发展和需求的增加，如何有效管理多模态数据成为一个挑战，而现有的向量数据库在面对庞大的数据量和复杂的检索需求时可能显得不足。最终，向量搜索将作为一项重要功能融入到更加完善的数据库系统中，满足未来数据管理和检索的需求。"
+      },
+      {
+        "time": "00:32:57",
+        "title": "数据峰会和收购动态：对行业未来的影响",
+        "summary": "本月的数据峰会，特别是Databricks和Snowflake的峰会，引起了广泛关注。虽然期待Snowflake在AI领域有更多动作，但他们的焦点似乎并不在此。同时，对Trino（前身为PrestoSQL）的超过十亿美元的收购表明，表格格式在两大公司未来规划中的重要性。此动作引发关于下一个重要表格格式的讨论，其中数据格式在AI和机器学习领域的发展被认为是一个关键趋势。"
+      },
+      {
+        "time": "00:36:12",
+        "title": "数据格式的演进及其对企业和开源社区的影响",
+        "summary": "对话中讨论了数据格式演进的重要性，特别是新数据格式如何因应新的工作负载和数据类型而产生。以Parquet为例，它是为了适应大规模数据处理需求而设计的，体现了当企业从处理中小规模数据转向大规模数据时，对新数据格式的需求增加。此外，还讨论了Protocol Buffers和Avro等格式，强调了它们在服务间高效传输数据方面的作用。对话也提到了Snowflake的Polaris项目和Unity Catalogue的开源，以及它们如何促进不同数据表格式的共存和选择，提高数据基础设施的灵活性和开放性。最后，讨论强调了开源数据格式对于避免供应商锁定和促进生态系统整合的重要性。"
+      },
+      {
+        "time": "00:42:01",
+        "title": "AI技术在数据基础设施中的应用与影响",
+        "summary": "讨论重点在于AI技术如何影响当前的数据基础设施，以及这种影响对未来数据处理方式的可能改变。特别是在大数据处理和分析方面，AI的引入不仅加速了数据处理的收敛时间，还提高了处理大规模数据集的效率。此外，讨论还涉及了不同企业对于AI技术的适应情况，包括云原生企业和使用本地解决方案的企业在AI采纳上的差异，以及企业如何通过AI优化其数据处理流程以应对不断增长的数据量。"
+      },
+      {
+        "time": "00:46:21",
+        "title": "探讨人工智能技术面临的挑战与发展前景",
+        "summary": "对话中讨论了人工智能（AI）技术在当前发展阶段所遇到的挑战，特别是AI在理解和解决数学问题上的局限性。尽管AI技术在理论上具有广泛的应用潜力，但实际应用中仍有许多技术难题尚未解决。提到了一些尝试通过发布代码解释器来提升AI能力的例子，但这些尝试往往因为技术上的局限而未能完全实现预期目标。同时，随着技术的进步，如基础模型的改善，AI在处理数学问题等方面的能力已经有所提高，对未来持乐观态度。讨论还涉及到AI数据分析师在实际应用中遇到的问题，包括对技术完美性的追求使得许多潜在的AI应用难以得到广泛推广。最终，讨论指出，随着技术的成熟，将会有更多的创新方法和思考模式出现，推动AI技术的发展和应用。"
+      },
+      {
+        "time": "00:50:34",
+        "title": "探讨AI应用对数据库技术的需求与挑战",
+        "summary": "随着AI应用，特别是推荐系统和AI代理的快速发展，对数据库技术和数据处理提出了新的要求。讨论指出，传统的数据库系统可能无法满足新兴AI用例的需求，强调了需要能够处理复杂数据提取、用户反馈和多代理协作的新一代数据库。同时，强调了在选择投资项目时，重视有强大执行力和创新记录的创始团队的重要性。"
+      },
+      {
+        "time": "00:57:54",
+        "title": "开源项目商业化挑战与策略",
+        "summary": "讨论集中在数据基础设施领域的初创企业在开源项目商业化过程中可能遇到的典型错误和挑战。强调了开源虽然对技术发展至关重要，但对于初创企业来说，开源策略的制定需谨慎，特别是要清晰界定开源的范围和目的。指出直接将开源项目作为默认模式可能带来的困难，比如开源太多导致人们没有付费的动力，或者开源太少则无法吸引用户。同时，探讨了如何在开源和商业利益之间找到平衡点，比如通过提供附加值服务或产品来满足企业用户的需求，以及选择不将核心竞争力部分开源。"
+      },
+      {
+        "time": "01:05:00",
+        "title": "OpenAI收购RockSet及其行业影响",
+        "summary": "OpenAI收购了RockSet，这是一个九位数的收购案，RockSet将被整合以增强其工作索引能力。RockSet由Facebook的一组员工创立，最初是为了解决实时数据库需求，后转向成为一家专注于实时向量数据库的公司。尽管其商业转化仍处于早期阶段，但团队实力强大，与OpenAI有密切的前Facebook联系。此次收购引发业界关注，人们期待OpenAI的未来发展。"
+      },
+      {
+        "time": "01:07:11",
+        "title": "OpenAI收购对数据库行业的影响及未来展望",
+        "summary": "OpenAI选择收购一家数据库公司来构建其基础设施，这表明在创建可扩展的基础设施时，采用现成的解决方案比从零开始更为高效。此举动不仅展现了对成熟产品和人才的追求，也反映了AI与数据库技术结合的挑战，即需要同时精通数据库和机器学习的复合型人才。尽管这种收购可能对某些公司构成威胁，但对于整个行业而言，它促进了技术和解决方案的集成，同时开源生态系统和多样化的市场需求确保了行业的持续发展和创新。"
+      },
+      {
+        "time": "01:11:02",
+        "title": "探讨企业级推荐系统解决方案的发展趋势",
+        "summary": "讨论集中在企业级推荐系统（Rex）解决方案的选择上，强调了定制化需求和数据规模对选择解决方案的影响。随着企业数据集成需求的增加，RAG（Retrieval-Augmented Generation）系统因其能有效降低错误率而被看好，相比于微调模型更适用于处理复杂语句。市场预测显示，不同部分的推荐系统解决方案将会有多个胜利者，每部分可能会有特定的领先供应商，强调了针对企业特定需求的解决方案的重要性。"
+      },
+      {
+        "time": "01:14:04",
+        "title": "探讨语言模型的挑战与未来发展",
+        "summary": "对话中讨论了当前语言模型面临的挑战，特别是基础模型中的情境窗口限制等问题。提出了三种常见的解决策略：使用超长情境窗口、模型调整（细调）和检索增强（RAG）。分析了这些策略的优缺点，强调了它们不是相互排斥的，而是可以互补的。讨论还涉及了模型在处理复杂数据时的性能、成本问题，以及未来技术的发展方向，包括数据提取、高级检索技术以及如何将这些技术有效集成到实际应用中。最后，探讨了初创公司在面对这些技术挑战时的策略和学习点。"
+      },
+      {
+        "time": "01:24:32",
+        "title": "招聘、产品价值与投资策略的智慧之选",
+        "summary": "对话中强调了在招聘过程中预期可能会犯错的重要性，建议要有明确的计划和人性化的方法来解决不合适的员工问题。进一步，对于技术创始人，指出产品的技术优势不如其为客户提供的价值和体验重要。在投资决策方面，强调了创始人与市场的匹配度、市场规模和市场增长的催化剂作为投资考虑的关键因素。"
+      },
+      {
+        "time": "01:29:20",
+        "title": "投资人工智能领域的洞察与展望",
+        "summary": "讨论集中在人工智能(AI)领域的投资机会，特别是AI代理、机器人技术和医疗保健决策辅助方面的创新。主讲人分享了对AI市场领导者的快速投资决策，强调了创始人的市场适应性、产品与市场需求的匹配度的重要性。此外，还提到了对于早期投资的考虑，包括对风险的考量和对低估值公司的投资。对未来AI技术的发展方向，特别看好AI代理在不同行业的应用，如营销分析和内容创作；机器人技术的进展，解决实际应用中的智能不足问题；以及AI在医疗保健和药物发现领域的潜力。最后，讨论了多模态模型的潜力和挑战，以及它们如何可能改变AI的应用和开发。"
+      },
+      {
+        "time": "01:35:25",
+        "title": "探讨AI技术在客户服务业的快速发展",
+        "summary": "对话中讨论了构建AI代理用于客户服务的可能性，强调了即使团队不具备创建模型的能力，也能基于现有模型取得进展。提到了一些成功案例，如CR.AI和Decode.AI的迅速增长，以及预计AI基础模型的即将发布，这将对AI代理的发展产生重大影响。讨论还涵盖了对AI代理未来发展方向的预测，以及在AI应用领域的创新速度超出预期，尤其是在用户体验和特定领域应用的创新。最后，提出了一个开放问题，关于未来AI代理的构建将由实验室还是创业公司主导。"
+      },
+      {
+        "time": "01:39:45",
+        "title": "探讨人工智能对未来的影响",
+        "summary": "对话中讨论了人工智能(AI)在不同领域的应用和潜在影响，包括对日常生活的改变、企业应用与消费者服务的前景。特别提到了AI对年长一代的适应性及其在医疗、沟通等方面的实际应用，同时也探讨了AI技术的进步对于未来工作的潜在影响，强调了AI不仅仅是年轻人的领域，它正在改变所有年龄段人的生活和工作方式。"
+      },
+      {
+        "time": "01:45:09",
+        "title": "探讨技术发展与投资价值",
+        "summary": "讨论集中在技术能力，特别是处理大规模和多模态数据的重要性认识正在提升。此外，讨论也触及了某些技术或产品可能被高估或低估的问题，以及对未来技术发展方向的预测。在谈到投资方面，讨论着重于与优秀创业者合作的乐趣，以及从创业者到投资者角色转变的挑战。同时，也讨论了作为创始人带来的满足感和挑战，特别是在创新、团队建设和投资者关系方面。最后，对话提到了一些特定产品的看法，比如植物奶的市场情况，以及对技术社区互动和反馈的重视。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "软件如何改变世界"
+            },
+            {
+              "children": [],
+              "content": "投资思考"
+            },
+            {
+              "children": [],
+              "content": "数据基础设施与AI应用的未来"
+            }
+          ],
+          "content": "主题"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "Monica & 高宁"
+            },
+            {
+              "children": [],
+              "content": "CEO 和 CTO of Landsat B"
+            },
+            {
+              "children": [],
+              "content": "Bryan John, 投资者 at CRV"
+            }
+          ],
+          "content": "嘉宾介绍"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "从Pandas到Apache Arrow项目"
+                },
+                {
+                  "children": [],
+                  "content": "多模型数据和AI应用的需求"
+                },
+                {
+                  "children": [],
+                  "content": "Vector数据库的重要性与挑战"
+                }
+              ],
+              "content": "数据基础设施的演变"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI数据的特殊需求"
+                },
+                {
+                  "children": [],
+                  "content": "Multi-modal AI与数据处理"
+                },
+                {
+                  "children": [],
+                  "content": "企业对数据基础设施的新需求"
+                }
+              ],
+              "content": "AI和数据基础设施"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "开源数据库项目的成功案例"
+                },
+                {
+                  "children": [],
+                  "content": "商业化开源项目的挑战"
+                },
+                {
+                  "children": [],
+                  "content": "开源社区与企业客户的互动"
+                }
+              ],
+              "content": "开源与商业策略"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "对AI和数据基础设施的未来投资"
+                },
+                {
+                  "children": [],
+                  "content": "评估初创公司的标准"
+                },
+                {
+                  "children": [],
+                  "content": "投资决策背后的理念"
+                }
+              ],
+              "content": "投资视角"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI代理和多模态AI的兴起"
+                },
+                {
+                  "children": [],
+                  "content": "数据基础设施与AI的整合"
+                },
+                {
+                  "children": [],
+                  "content": "未来技术趋势的预测"
+                }
+              ],
+              "content": "技术趋势与展望"
+            }
+          ],
+          "content": "主要内容"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "现有数据基础设施的局限性"
+                },
+                {
+                  "children": [],
+                  "content": "新兴AI应用对数据处理的要求"
+                }
+              ],
+              "content": "如何处理大规模多模态数据"
+            }
+          ],
+          "content": "技术与市场挑战"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "数据基础设施的创新"
+                },
+                {
+                  "children": [],
+                  "content": "开源项目与企业合作的新模式"
+                }
+              ],
+              "content": "AI在不同行业的应用潜力"
+            }
+          ],
+          "content": "未来发展"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "创业者的经验与教训"
+                },
+                {
+                  "children": [],
+                  "content": "投资者的观察与思考"
+                }
+              ],
+              "content": "对AI和数据基础设施领域的新理解"
+            }
+          ],
+          "content": "观点与洞察"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "与社区共享见解与经验"
+                },
+                {
+                  "children": [],
+                  "content": "对未来技术趋势保持关注"
+                }
+              ],
+              "content": "鼓励听众探索开源项目"
+            }
+          ],
+          "content": "行动呼吁"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "邀请听众加入讨论"
+                },
+                {
+                  "children": [],
+                  "content": "对未来的展望与期待"
+                }
+              ],
+              "content": "感谢听众的参与"
+            }
+          ],
+          "content": "结语"
+        }
+      ],
+      "content": "播客对话脑图摘要"
+    }
+  }
+}

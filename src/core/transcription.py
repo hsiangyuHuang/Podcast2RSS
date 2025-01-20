@@ -359,10 +359,10 @@ class TranscriptionProcessor:
         
         for episode in episodes:
             eid = episode['eid']
-            # 在目录中查找对应的任务
-            task = next((t for t in all_tasks if t['title'] == eid), None)
+            # 在目录中查找对应的任务，且状态为成功(30)
+            task = next((t for t in all_tasks if t['title'] == eid and t.get('status') == 30), None)
             if task:
-                logger.info(f"剧集已有转写文件，跳过: {episode['title']}")
+                logger.info(f"剧集已有完成的转写文件，跳过: {episode['title']}")
                 existing_tasks[eid] = {
                     'episode': episode,
                     'task': task  # 保存完整的任务信息

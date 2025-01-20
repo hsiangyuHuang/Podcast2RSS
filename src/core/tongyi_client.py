@@ -114,7 +114,7 @@ class TongyiClient:
                             "title": record.get("recordTitle"),   # 文件名也是任务名
                             "status": record.get("recordStatus")  # 任务状态20正在转 30成功 40失败
                         })
-                        print(f"找到转写记录: {record.get('recordTitle')} 状态: {record.get('recordStatus')}, 任务ID: {record.get('genRecordId')},记录ID：{record.get('recordId')}")
+                        # print(f"找到转写记录: {record.get('recordTitle')} 状态: {record.get('recordStatus')}, 任务ID: {record.get('genRecordId')},记录ID：{record.get('recordId')}")
                 pageNo += 1
             else:
                 print(f"请求失败: {response.status_code}")

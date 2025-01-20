@@ -1,0 +1,2154 @@
+{
+  "pid": "61cbaac48bb4cd867fcabe22",
+  "eid": "656afd428fb8b597a21f6c2e",
+  "title": "EP 40. 全英文对话MosaicML联创：创业2年，13亿美金收购，大模型与AI infra的过去与未来",
+  "task_id": "3vl8qg4jmw2oqpr2",
+  "transcription": [
+    {
+      "time": "00:00:03",
+      "text": "欢迎来到onboard，真实的一线经验，走心的投资思考。我是Monica.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:09",
+      "text": "我是高宁，我们一起聊聊软件如何改变世界。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:00:16",
+      "text": "大家好，我是Monica，确定了是更新的ombo回来了，好久不见。你有没有想我们这一期又是考验听力的全英文访谈。其实我们手里还攒了好几期podcast，等我们快速的做完后期大家就可以期待了。这一次的话题距离最有热度的时间可能过了一阵子了。如果你还记得今年AI领域第一笔10亿美金级别的收购，就是在六月份的时候，超级独角兽估值高达430亿美金的data bricks，13亿美金的价格收购了成立仅仅两年的大语言模型基础设施提供商mosi CML。收购的时候moc全公司只有六十多个人，但是已经推出了MBT7B30B2个开源代言模型，总下载量超过了330万，可以说这是今年最受关注的AI领域收购之一了。在之后AI基础设施领域的巨头和创业公司都被这次收购拉动，开始了融资和产品迭代的高潮。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:16",
+      "text": "这次访谈Monica不仅邀请到了mosaic ML联合创始人CTO翰林堂，还邀请到之前来过ombo做客的非常专业的硅谷成长期投资人，safie ventures合伙人卡斯伯王。我们得以从创始人和投资人的视角一起解读这个非常有里程碑意义的收购，以及对于生成式AIAI infer核心竞争力和未来格局等等话题非常有意思的探讨。因为主播的拖延症，这一期距离录制已经过去了三个月。不过在AI格局迅速演变的时代，我们也正好得以审视几个月前的言论，看看有什么变与不变。准备好你的英语听力。Enjoy.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:57",
+      "text": "welcome to work.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:02:01",
+      "text": "Um thanks, great to be here.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:02:02",
+      "text": "thanks. Uh just to get to get out that uh we should uh tell the the audience a little bit about your self and how you got into AI and as always we have um we would like two of you to also share a fun facts on, uh what is an AI project or AI product that you think recently found interesting and for for concrete IT. Will uh I decide another or another question? Uh recent investment in AI that that is public?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:02:31",
+      "text": "Not sure. Yeah great to be here and thank you for the invite my named have one ten a formally uh c to and co founder of a maza canal. Um i've um worked in the machine learning in AS space for quite some time now.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:02:45",
+      "text": "I think I first got into IT back in grass school when I was working in competition near science. Now back then we do not have large amount of ties as to train these models, but we were still trying to build um layers of neil networks. I could perform visual recognition uh tasks uh and so once the whole image net and deep learning kind of wave came on is very nature for me to uh to transition IT into that space as well.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:03:13",
+      "text": "So um previously at intel run the area of intel. Um and then before that was at another deeper learning start up called iron a systems. Oh yeah uh interesting recent project or think the ice face I came actually I might actually refer to old paper that I came across recently.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:03:30",
+      "text": "So um back in the day when we didn't have imagination and um to train these models, what people were doing was the assembly, these convolution neural networks with like convolution layers and putting layers and the weights instead of them being learned through book prop. Uh they're actually being measured in like a monkey, like in the money visual cortex there are measure, the filter response measure and their instances in silicon you know inside AA neil network and IT turned out that the performance is actually pretty, pretty good. Uh, so this is of the old school way of training these models. Are you just try to figure out how does the brain do IT and then dump those filters into the news network. And I hope that that IT works out and they are exciting to see um that even you know even today with these type of architecture is still a great connection to the new science passed .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:04:20",
+      "text": "that that IT came from yeah definitely I would love to see more connections between um in the research of newer science and uh and depending space.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:04:30",
+      "text": "Thanks again. I'm cas per part of our ventures. Uh we are a uh growth stage venture couple firm uh that does mostly enterprise B2B manages about tender today.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:42",
+      "text": "Uh I focus mainly on infrastructures for me, data that develops and AML cyber my areas, you know obviously would say AML has evolved quite a bit from an investor perspective event. Um I think back in twenty seven, twenty eighteen IT, just given how much people pitch AML and was out rio. And you know folks is super single about AML. And the launch of chap TI think has you know change things quite a bit right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:05:13",
+      "text": "But you way before that, I think you know you look at sort of the more traditional way I am now that we're talking about that widely using enterprises, um you know stuff that supported by an outdoor icks or day robot of the world, those are still Willy you know widely use, right? And I tend to tend to see through ChatGPT s kind of a watch at moment that brought a lot of attention, right? But is from fun raising or from a consumer perspective to the space.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:05:43",
+      "text": "Uh, but like handling just mentioned, a lot of development has already happened long time ago. And I tend to think that AML development is, you know, software more like mechanics during the bridge. AM almost like biological research.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:06:00",
+      "text": "Try like you you sort of end up somewhere there's path you can you can trace you, but it's hard to know exactly what you're building kind of block by block. So I just think you know timing, everything made perfect sense. And when charge launched, there is huge有cambria，an explosion of things um happened in the space and we started seeing a lot of interest both on the entrepreneurs, also investor community perspective.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:06:26",
+      "text": "Um come in to the space um and uh yes so I spend a lot time looking at you LM you know companies and were not in often. I'm super excited about the opportunities uh unfortunately not not invest in uh muz and congrats and hang for great, great outcome. I did recently put a track in the company ways and biases no one look us to see for quite some time. And it's one a icml up space been around and now it's sort of again trading towards both the traditional i'm outside, but also so that the newer large language model side .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:07:06",
+      "text": "of things with bias has some was found IT like a long time ago, right? Like so in curious, did you make that? Did you write check rightly because because the way this new wave of RM actually change um you will press that back on some and know is this in companies?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:07:25",
+      "text": "No, I actually I mean a happy to go deeper into I don't think so. I actually feel like it's a pretty nal bridge from the traditional side to the new large lung. I think you can talk about a personal is different, right? Like there is a lot more newer folks come in to do AIML.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:07:42",
+      "text": "But you know we look at the top of market, the the of you know um the top of the market, I think you are do this for quite some heart, right? But it's in a frag detection of shelling cars or or not. I think this new wave, you know instead of complete new that's going display the old, II look at IT as modern extension into something something you can bigger down road. 嗯。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:06",
+      "text": "i was just to say that, uh, I still remember when waits and biases had this really small booth that near me.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:08:11",
+      "text": "So they were reflected, started, you know and are they they believe, fantastic platform part in the world of large language models and at least for what we do in terms like training our skill models, the abilities like monitor, but also share the monitoring because we have like ten, twenty people looking at the results every day as a model trains to make sure nothing is going right. You know what? Fantastic job of a building out and not really usable and and great product.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:08:37",
+      "text": "Yeah I think that's well of investors and some founders are are doing to look at what the the ML of uh tools that we already have, which is a lot, a lot of them like and what are the tools has gonna uh stay uh in this like new year like wave of our m and what my have what might be replace as if they stopped or change? What do you think will change but disappear?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:09:04",
+      "text": "And it's I mean, it's interesting because I think you know the more new things come in, the more to the older stuff. I mean, granted after some the china technology order, but I think from a stack and pilsach t seven points over there, I like I tell you like lucas before wasn't bias. He started crown flower that so to apian, and that's a labeling complete riding scale bill, bigger level in business on top of bit. So I think you going to start to see a lot of the pocket you know that's getting revived or or emerge from a different form, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:41",
+      "text": "I think what's really exciting here, you know, I think PLOM, A lot of the models not really deployed into production, I think was exam, great job and helping people, you know really deployed things into production, right? And I think when you have things that deploy into production, they're all kinds of little issues or or problems and were not that will pop up up that will be addressed by the newer set of tools like monitoring or you falling traffic. And and today, I think you know again from the investor in order respecting investing like on the high road, you kind of look at those large, large model as a black box, as an AP echo, when in fact, there's so much more going on underneath when you when you scale those applications up.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:26",
+      "text": "So there's a lot more you can do around imagine where is deployment or inference? How do you manage automate zed workloads to achieve the best outcome? sure. Handy has more insisted there.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:38",
+      "text": "yeah. I mean, I think we're working across enterprise looking to deploy these type of models is there definitely are like ML. Ops needs and monitoring and evaluation and things like that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:10:49",
+      "text": "What's unclear to me is how much are existing solutions good enough for now? We would the deployment ment is like is a really that like sticking pain point that like blocks them from making AA production development by many months, right? Or like a new interface or new ML opti l comes in.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:11:08",
+      "text": "Um part of the chAllenge er is also that right now is kind like creative exploration for all applications, right, like every interpreters to like doing like oh let's do like a alam hackston and like. Try to prototype what these applications may look like. And without that piece being settled, IT is hard to predict like what additional tools are needed to make those things really, really same?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:11:30",
+      "text": "Yeah add one more. I do. I was actually just a gool next um not name drop vender, but it's a you pretty prominent kind of election ID bender and who was sort of prompting at look at the demo and the sort of the demo cafe you know IT was stop three times right in the middle bit and know from the real enterprise perspective, if you spin up I know get up copilot let us drop the ga copilot and you know the first couple times you're trying to use IT, you you get three exceptions.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:06",
+      "text": "That's probably not a great experience. But early on, I think to having this point, people experiment with the stuff were so excited, very like, well, and you take, you know, we have a bigger budget tolerance for errors early on, but then going forward, right, like you know, you know no more enterprise in a more serious context, right? If you want people to really integrate daily workflow, know you got expect, you know inside accuracy, right? And that's that's very different than experimenting and and trying.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:38",
+      "text": "Yes, yeah, I just I just wanted echo that like a lot of hard work here is not the fun part of like singing out a cool way to serve our lam. It's like the hard work of like grounding away, like every last know ninety nine percent thousand and legacy that comes in, or like every silly like service failure, like random failure or GP failures that occur, like is the ground work of killing that that brings these products into like the reliability and um space that enterprises expect for for mission critical deployments. And I don't think lot of the tooling out include that we built honestly have reached that state yet just because of all the hard work that has to be done still.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:13:21",
+      "text": "I remember in our my lost episode with h with customer, we briefly ly talk about how recommended ML off which the f was probably like half a year have a half year ago before the the LM wave becomes so so mainstream.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:13:37",
+      "text": "Um I think what you guys just discuss to remind of me that probably because when we look at the traditional and our space has may uh hasn't we haven't seen a lot of big companies, probably because it's what you guys set right like most of the models going into production. So it's they didn't have the chance to scale if LM. Was able to bring more and more is to really into scales, we probably will see a lot of toys over old or new, like focusing on the production environment.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:14:07",
+      "text": "And that's that sounds like more unique to catch. So back to back to honey um something for people who don't no very well. Um maybe um IT would be great if you can give us some introduction hello, induction of one music m uh does and what the key technologies and your on your business .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:14:27",
+      "text": "model yeah absolutely. I think we we started off almost uh again two and a half years ago.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:14:33",
+      "text": "So now because we saw that a large scale models would become a thing and um making such tooling efficient and easy to use an accessible was how these capable boys were actually get into interpreter enterprise you know until we saw how much company he struggled um with this and unfortunately the software tooling even today still in deep learning, is still incredibly and mature. You this can figure a driver somewhere. Some of they like two times slow and no idea why.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:04",
+      "text": "Um and so that's what we set out to solve um and we were we're fortunate to see the along way ve come through once our products are ready. And so the TLDR from mother because that we built after infrastructure that allows companies to efficiently, easily train their own models on their own data. Uh we believe in a may be ugly, Better world where um uh we empower enterprises to be to train their own models, their own large and english models and build their own biases and opinions. And our joB2Build the infrastructure, solve the performance problems um the engineering chAllenges so that those companies can can do IT really easily. Um and uh, we've we've been fortunate to have you a number of customers, both in asia, actually quite a few, but also the united states um go on this journey with us.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:57",
+      "text": "When was not found IT is founded .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:15:59",
+      "text": "in um january of twenty twenty one.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:16:02",
+      "text": "twenty one. yes. So very that's what I find very, very interesting because genuine turned to one. I think for most of the world IT was not that obvious that large language model, a launched model, is going to take over the word like we are seeing.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:16:17",
+      "text": "And now so I was curious, like what are you doing at that time? Like what are the early signs that you and your team have seen to give you the conviction? Is time to be last model yeah I mean.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:16:28",
+      "text": "I think early on we saw what opening I was doing with the GPT series models. All they say they had to reach a level of capability that they are today, but there was the promise of that um but also Frankly, we are focused on large scale models.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:16:42",
+      "text": "Um we thought large moles would become a thing, but whether they were large english models or large of computer vision models or scale training of non transformer architectures, that was so a little up in the air right when we started with the company is so um block by block, we built out starting in simple computer vision models, the circulation models, to first style models and to large english models. Um and I would say like this time last year, we had been out the stack. But uh, most companies are like, what is a large language model? I do.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:17:12",
+      "text": "I need you right? Oh, this stuff makes a bunch of stuff up. Why would I ever want to want to use something like this, right? So, uh, and this is just a question of of timing, where, yeah, we saw large coal as we know exactly what I we had to prepare for that future yeah.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:17:27",
+      "text": "So definitely a lot of things happen in the past. I was a one year after a study stable diffusion camel charity by the end of last year. So i'm curious like what have you seen one did begin to see right the the change and demand for for your platform and also since the landscapes。Ged, so much so much right like in ms, your product guy and business model with some uh like we are some major milestones and major changes together and made in the past like one of two years .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:18:04",
+      "text": "yeah um I think once you know obviously once ChatGPT came out, the demand from enterprises went up quite significantly. And early on we we're really focused on the idea of pretrail your own models, some scratches, full control over your data prevalence um and tune for your specific languages of of need.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:23",
+      "text": "I think as the technology massive has evolved, we then expanded into okay, now you want to take a existing model and find tune you want to be with a model so kind of built out that we want to build all the end and stack of training and building no large english models. And our focus has always been on the ML systems side. Um and so that that's what we seen kind of the progressions.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:48",
+      "text": "I don't know what you ve seen them, and I start of trying to address the space. Like has i've been a similar progression? Or has IT also been inverted from .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:56",
+      "text": "how we approach IT? No, II mean, I think you know the fact that you guys so solar company to intel and probably saw that on enterprise side, right things always start more basis poke before he like the test of thing, right? You you saw IT to the top and people who to pay a premium for this and want to customer stuff before you can go downstream.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:19:17",
+      "text": "I think what I see sometimes is you know there's a school folks I think like yourself, I think is a portion of market in the right way there. Folks who are you know from the time you perspective, fortunate unfortunately are stuck on the older paradise. And the reason why cause before there's so much interest, before there's so much mind share here, so much budget here, rather than a real, real dollar here, the reason why so many point solution on M, L ops.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:19:45",
+      "text": "And that my own theory is, you know, most people who doing ML, serious ly, they are ready, build their own pipes, so they just need wanted two point solutions to be be every drop in. And you d address a certain part of the problem of their stack. So there are companies who are billing a business around, how do I build something that could be dropped in into other people stack, right without, you know without looking at what the full picture would be and that you know not just because they're on photo, like not looking a bigger picture is just back then.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:17",
+      "text": "That wasn't the need, right? Like if you are in big and press, you're not thinking about, you know, how do I train my end to end model versus one charge v drop, right? There's a big thing.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:27",
+      "text": "And and the other thing i'm sure will talk about is you folks will come from a non consumption perspective from the bombs up where you these are longer to apps, right? Like that's not here, that's not in prize at all, but now is popping up, right? Where is a problem? Where is a proof marketplace? Where is something else that's coming up? And those are the newer things that are popping up where I would say those were really not in need before large land model cut up. Uh, so that's addressing a very different pocket.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:21:01",
+      "text": "But yeah, yeah, I know I tend to agree. I think we, I think our artistes has always been to focus on the hard engineering problems, so specially M, L, performance and in classical machine learning. You know, something was one hundred dollars or fifty dollars that wasn't maybe worth the effort to migrate into a new stack or something like that, but one is a million dollars or a half a million dollars. You know, suddenly this efficiency becomes becomes really key, 所以want to save the court economic problem。And I hope that you know there is the need and hope that we can build out like the rest of the tool into uh deliver that ah so from .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:38",
+      "text": "the beginning you are focusing on uh reason, the improving the conficere ency of training large models. But at that time, they were not well, who are your early customers? Who are the early of doors? I would imagine, right? The bill early, like LM.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:21:56",
+      "text": "Builders like open, they pray. At that time, they they have already built the stack right? Like who were early customers that you can actually like build .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:22:05",
+      "text": "partner with yeah yeah so on are early as a customer for those that we're training bird style models um and uh for that they were trying to graduate larger and larger bird model. Uh and so that's our first initial entrance. We actually invested a lot on the computer vision and semantic segmentation side of the house as well.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:29",
+      "text": "Um but before that piece could take off, the whole n LPL face came in already. So I think that was that was the first customer that w块，but we spent a good year to just building um all these we talk to potential customers understand their pain points. But you know engineering a really performing efficient staff for life called training from scratch is a lot of a lot of ensuring work to do first.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:55",
+      "text": "Yeah definitely that's that's what II think will be interesting uh to to do them to some a product econic decisions that have found very interesting about most like so so first not like a is that uh, in the beginning and more actually open source uh I love your love your tools. Can you um maybe healing can tell a mobile like what with your open source and why you make the decision .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:23:22",
+      "text": "to open source yeah sure so very early on my open source um this pitch face library called composer um which allows for uh efficient training and also efficient insertion of new types of algorithms. Ms, to train these models. We actually built this out of necessity for our research team to do their experiences.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:23:41",
+      "text": "And once we wanted rule is out to customers, IT was clear that um ML data scientists want to see and know everything, right? They're not going to accept the hey, here's a black box code that speeds up your model training. But you can look at you can know what that does, right? It's proprietary, right? Some proprietary secret source, right? And that really just didn't fly. Um and um we were very much open source from from the core, to be honest, but which makes you know the data rate is also very open.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:24:11",
+      "text": "So from the core, is that a really good fear from like a philosophy's standpoint um as so we did open source said um and we had yeah great as a contributions from exercise ks coming in and using and at such um later or much later on uh we decided to also open source um MPT style uh large english models um MPT seven BI think was the first commercially licensed law style model that was released and for honest the model was grey were super honor by by the community reaction to IT. Uh for us there was a statement of for what our tools could do like that's why we open source that was aid of obviously help the community build up from IT. But also, hey, guys like this model took ten days to train from scratch.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:24:58",
+      "text": "It's not magical like figure costs. You know here's what really costs how to do IT. And by the way, just click button just works, right. So I was also partly with with those goals in mind as well.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:25:10",
+      "text": "I guess II jump in here with the question is um if you were to start music today, knowing how much develop that has happened already yeah this is right here. People are already on the open source train. Even obviously, I think you would still do the second, you know, the model you mention open source, is shopping able use two, one, fifteen years. How much what I train IT with, with validation of strategy in terms of the core architectural, would you still open source like composer you like that strap today? Or is that kind of because the market more sure, let's just go or close sce?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:25:49",
+      "text": "Yeah yeah. I think we're tooling like composer. I would have probably still on open source today most of because data is don't trust yeah close source could you when y're interesting with their data and their model right IT is really hard to crossed that um persuading barrier if if IT if IT stays um a close source um I think yeah I me I gently believe that open source is much Better for the for the community overall.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:26:18",
+      "text": "Um for a business perspective, I think if if we couldn't find a way to monetize, well, we couldn't find a way to monetize that required us to close source everything that we were probably in the wrong business, right? Or we'd have to rethink what we're doing, right? Like um we have to find a way to monitor ze of open source um um that that was anyway, are our philosophe going here?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:26:42",
+      "text": "That's also AA question to to cash because we have been focusing on the infrastructure developed at tools and area for for long time. And we discuss this before, right? And I think in twenty twenty and twenty twenty one, that was the hidest hive open source, right? You don't talk about you.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:27:02",
+      "text": "What do you do? Have a very good community and then you can become an unique right? But like what has changed after that? Like as if I were a start up founder, right? Uh, how should I think about rather to open source my product a or not? And if I already have a very successful like relatively accessible and open source project, like how should I think about the, uh.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:27:27",
+      "text": "the commercialization wave? Yeah yeah. I think the biggest thing is know before the past way the majority open source companies are more organic.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:36",
+      "text": "Open source projects would say, right like you you think of JA conf into right. Cotta IT wasn't like the open source said to start confluence. IT was very much organic.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:45",
+      "text": "Process is been round and linked for three years before he took IT out to start a company. And then in twenty and twenty one, what you see is B, C, start calling. Senior engineers are linked in uber.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:58",
+      "text": "You got in our company, i'm going to see good company, right? So a its its last horgan ic per I write the most extreme example, you know someone who open source project the moment he they start a company and they are claiming that company to be an open source company right there right there, right, which I think like you don't get the benefits of you know community traction, but also community build in the product badly, ast product, but you also spending sort of you know for motivation sample, right? You're basically giving away free up to community and then into every things later on.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:28:37",
+      "text": "It's much hard look to do from the I perspective. So I think the first most worn thing is think about red is open social now, right? Like is this product team minds of that product regardless redis open service, I think that's the biggest thing, right? And then you know if open source is right, decision dan becomes how long have this open source project being right? Um you know if this data base product right, if it's only be around for six months, you probably need more time to baLance that thing.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:08",
+      "text": "And if you just start AAAA company off a very Young open source project database side, you know when you lost stability issues because you know because you haven't been about tasted right versus somebody who started a project of progress, or or mysql, like where you know much more about caster, and then you know you get more the benefits of you. Open source validation will not right on time. So I think that's a pretty big decisions, just thinking through what types of open source projects you are and variation open social now and then secondly, I think like .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:43",
+      "text": "I mentioned in some.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:29:45",
+      "text": "the sort of you .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:46",
+      "text": "know .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:29:46",
+      "text": "fast volver landscape like ml and AI open source could be a very strange because you are kind embedding yourself into you know the community stack right often times like you know wanted the the most native question that I think I as investors something as was like why wouldn't google do IT why wood amazon do IT why wouldn't you know somebody else do IT right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:08",
+      "text": "I think it's very much mine searching the thing only on to where you know the community would think about what the stack look like and they're just follow that right? Do not you know not thinking about here, let me go and fine what amazon google have, right? They just stick with, you know was that I can and three other tools because that's what's up in the community.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:28",
+      "text": "That's why people using the rivers other other so there's a kind of brand network effect, and you don't really get that without the validation an open source. So I think that's when open source also could be a very good strong validation strategy versus on the other side, where I think open source generally doesn't play as well. You know when there's a very mature market and a very mature that a problem.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:50",
+      "text": "And you know what, as a buyer, I know exactly what in yourself. I know here to five things. I, K, P, I will compare you against then whether the open social note has last bearing into my decision making, right? So it's more than nice to have more sort of, you know, early on, you can have a chance to come in and define the standards for the community. That's where I think open source becomes more available.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:16",
+      "text": "Yeah, I just know that um customers came to us, not because a traditionally open source customer data science somewhere uses opens source tooling and they want to buy up. And like a managed version of the right before us, that was very different. Um most of our embalmer customers came not because you know they are already using composer and they want to buy this and manage composer as you don't actually offer this the product.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:31:39",
+      "text": "They came just because they had a pumps solve. They want to train more, all right. Open source composer was worn on the tools to do that, that they were comfortable with no owing and building on top of h as opposed being uh just are like a entire demand then um .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:31:54",
+      "text": "right yeah I think .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:56",
+      "text": "I think you made at a very interesting point about like the timing of the of the market. And this is also a process concern because because the market is are still emerging. So a lot of the open source to us, you see in the early stage, they might not look like a toy, right, like it's very easy to precise them for oh not enterprise ready ready.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:32:18",
+      "text": "I like we don't know how the the foundation model layer would change that might change the need for that for a tour, right? So like um then as an investor or as an solar future, right, should I wait for things to mature? Like do I do I should wait for and myself to have an end. So coc enter Price ready product or is IT? Or do you think that we get in my year?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:32:44",
+      "text": "Yeah I think I think again, I think having to do this Price for the back, like again, different open watch projects on you know different sort of like places on the stacks have also different technical difficulties to you, right? Like no, i'm not to trying to simplify.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:02",
+      "text": "You know line chain lower index does on their stack like you know the sort of the middle training part, you know with scripts that's not quite a database like product, right? But for them is, you know the common measure is so important because that would developer, you know? And I then feel like a lunches number one.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:22",
+      "text": "To build and all the other tools plug into line chain, then I just keep using them. And and so so you have that. You never give that going on.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:33",
+      "text": "Where is the number three, number four players there? You know, my up and you just do IT into something else and you started seeing a lot of them doing that already, right? Versus something that's a little down the stack where performance and and and and there's more techno specification to IT, uh, where people have are using them to address more the specific needs versus versus things at our upper bag.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:57",
+      "text": "I think that's where you can say that you know maybe you don't have to be the first one to come to market. You can show up with mother. Mature product just works right away. So I think that's my perspective .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:34:10",
+      "text": "to yeah IIIII certainly agree with that as well. I mean, we um uh we were reactor to compose a couple times before we uh before we released right to make sure the attractions right and the performance was really wanted IT to be. Um and so we kind of follow that path of life.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:34:29",
+      "text": "Let's let's make sure just works. Let's make sure the performance is there before we really sit in. And entirely.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:34:36",
+      "text": "when did you begin to monetize on your a open source project and how your modernization approach or evolve over time?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:34:45",
+      "text": "Yeah is actually was always for an tended originally, which was starting off the company. We knew we need to charge and moitie by consumption and usage. We knew that M, L.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:34:56",
+      "text": "Scientists and L, M. Scientists, a team of five to ten people, can easily burn through your millions of dollars of GP. U. I always train these models and we wanted to capture that. And not, you know uh twenty dollars per data scientist head per month or something like that right? So we always knew that uh for the modernization part, we need to build a entire infrastructure and arcade stack um and make IT all kind of just work for training article models.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:35:21",
+      "text": "And we monodist on top of the compute right? So um uh either we you know either you have computer, we we we bring the computer um but our software layer would be an adorable top. The more you train, the more you use, the more able to charge.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:35:36",
+      "text": "And that worked well for what we are building because we made the customers workloads run faster and remove the pain from the model ping process. So even though you know they might spend more on computer, they actually end up consuming less computer and going to market faster with their products. And so that kind of energy really worked well for us.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:35:53",
+      "text": "right? So then i'm gonna the night if question investors and uh as a software company are to trust by by usage and and serving space, right that's why you will like IT, it's like you you can charge upon the the computer. But like for all the public class companies, right, they already have them.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:36:10",
+      "text": "The infosys are building, they know how to mend their their associated managing the the infrastructure. So how do you think this this space will will change a thing going forward, especially for sound like newer selves, right? Like they just can come to this market this year?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:36:26",
+      "text": "Yeah I for us, we have our first to have great partners in the public cloud companies because also, the more we help our customers make IT easier the train large scale models, the more G, P, S are gonna burn down, right? So IT was a great kind of era there. But I restarted today.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:36:43",
+      "text": "I wouldn't actually index too much now with the public clouds are building like maybe this is a little more of a head in the sand approach, but you are just focus on finding customers, on making them happy and don't mind the the noise in the hyphen and the formal and twitter too much because I can just get overwhelming and you have to build right. So uh, I would focus more on that there. So much opportunity there. Um even with the public cloud and their weight another product, there's still a lot of change for for a software .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:37:15",
+      "text": "startups .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:15",
+      "text": "to make in impact. yeah. Um but I think this questions probably take since we have seen a lot of companies are doing this training or serving cost optimization. They all have like gray back, gray background in infrastructure and AIN of course, like there's always way there always there is always room to improve, like they the cost efficiency. So if we take that back for a product perspective, what is AAA good like LM serbs or or training platform, the besides bench competing on the bench .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:37:49",
+      "text": "market yeah yeah me I saving our efficiency is like it's an enabler, but it's not like the value driver right then that just like a race of the bottom, I have a game right? Like that's not really focus on efficient on the training side first because that govern time to market.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:38:06",
+      "text": "If you're enterprise and your building some you know spam defeating LM, right like every day, or your models not being deployed, uh, you are taking hit right from from the bottom perspective. And so that's what we actually focus, more efficiency there. And on the serving side, efficiency is sort of like a minimum arton meat.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:38:27",
+      "text": "But IT is reliability. IT is privacy. IT is enterprise security.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:38:32",
+      "text": "IT is scaling across many regions. right? That really actually make make the difference there. Um and I think that's what a kind of um yeah the the pressure of data bricks were really well is already have amazing infrastructure to to build a lot at the top.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:38:47",
+      "text": "Do you have both training and uh and serving platform from the beginning early we .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:38:53",
+      "text": "start off with training um we uh training pretrail ing finally ing and then we launched serving uh in may of this year. Um and so now we have we have both um sets of products for customers to to build and delay their their large language models.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:39:09",
+      "text": "But but I think the thing how you just mentioned is also important in a sense of is very different. To start with a platform while offering train serving what is hey, i'm showing not to be like all my value prop is a efficiency play for training, right? Like today, as what I do, as we can do forever.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:28",
+      "text": "Because, you know, sure, you read the salmon and others guys, GPU, poor, GPU, rich post. That was really, really feel that this post but it's you know if this spaceboat ing so fast where like my best advice, you know like find a way where you can always stay, you know, relevant regions given how the space move in so fast or next year when so many GPS. Coming on.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:54",
+      "text": "The algal you're working on today might not be relevant in a concrete GPU abandoned world, right? But if you have that platform value proper, you actually tied to the enterprise form line, which is, and let me deploy only fast and let me, you know improve IT through inference, and i'm always a platform enable them to do both were just he he is a tool that I can download in something out my my own stack. That's a much Better position to be is to be that point of forty enterprise versus like IA point solution that helps you accelerate a certain type of G, P.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:32",
+      "text": "U, right? Yeah, yeah. Come completely agree. And I think for a lot of alam, enterprise or enterprise are looking to build to play, alam said. It's yes, causes is part of IT, but the just works part is like extremely under valued um by by this on the start outside you know but when you talk to enterprises, right I like they don't anna spend you know their data science time for you out, like good areas and like infinite ban you know typologies and scheduling chAllenges and pu failures right so um that just works kind of philosophy I think this is really important for anyone wants to be tooling in this space yeah and if II want .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:41:09",
+      "text": "more things that this is really interesting by vacation as investors sometimes see right like in a mature part of the enterprise, like dev ops, for example, like people hate pay more than what they think they should be paying, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:22",
+      "text": "I get on paying eight thousand per months, so II don't want to pay you know whatever too, that you will have twenty right versus in a fast evolve in time where, you know, today I say embrace are trying to build applications and find value sooner. It's like they want to to go out there. And you know, if you are an apple, right, like I was used iphone as an example, like he just works and we all use iphone here because he just works.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:45",
+      "text": "I don't know like this probably IT doesn't have the best harwood, but works. And then people will pay a huge premium for IT because it's so tight to the business outcome. Um I think that's very under appreciate paw right uh you know because a lot of the words came from the expert background and there's so much optimization in your mind going on versus you know for a key buyer, ACIO at their first line about process you know if i'm elected in this much money to this initiative this year, what can I show later on? right? Like, you know where are saving? You know how can here and there doesn't really matter if they can really produce a product that revenue generally?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:29",
+      "text": "Yeah, definitely. II like that. I just worked. So another another uh interesting decision like I would like to be touch upon. I think you also briefly mention uh when when you into and most extremely is when you uh actually launch in open source LM model um by itself. I think I first was a seven b and also thirty thirty.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:42:54",
+      "text": "Um why来why did you want to like as a service provide IAML ops company？Like why did decide to chain your own model from slats? And what was the decision? How is that? What was something behind IT? And yeah.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:43:06",
+      "text": "so as I mentioned that we're in the business of building tools to help companies train models by themselves. What Better way to show that our tool just works right by actually releasing a really high quality model that the community can then build off of, right? Um and um that was you know a fantastic moment for us. IT was a problem for myself having contributed something to the community that they can laugh out to and build on top of. Um and then reception wise um yeah I was great.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:43:35",
+      "text": "We are companies come into us and hey, I want to train, you know very simple type of model, but for me, you know, you pick one hundred percent english, for me has a fifty percent english, fifteen korean cause i'm you know uh a korean company in a service market or half english have arabic or uh this was great, but I really want to retweet my data, the data set composition, to be very focused on finance, right? So putting that out there and our lucky was great for us, showing the cost of IT was also very appening for a lot of companies. Because that was APOC level.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:44:09",
+      "text": "Now it's like APOC level thing you can do, right? And I made IT easier for the enterprises, no data scientist or ML leaders to go justify that to their management. Like, you know this is actually worthwhile here. The benefit and oh by the way is not know this is like the last two hundred k project, right um and that that don't locked a lot for us pressure.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:44:31",
+      "text": "I'm wondering in the process of building the model by yourself, how is that help you uh design or rethink about your platform?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:44:40",
+      "text": "Yeah a lot you know you learn a lot by training these models at scale. Um everything breaks with each scale that you go to right um when we go when we learn from the seven billion of thirty billion right, like the size of the model broke, you know what we're doing on the model check pointing side. So I go on and fix that when even one trading is seven billion prime model, right? We knew that GP.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:45:02",
+      "text": "Started fAiling all the time. Um I think over ten days of that trying that now we have four new failures, GPU notes. So we have to build this stance, detect that and recover from that. And I think it's is one thing to say, we train a model using some this folks saying we hack to wait through IT and we like you know uh just put a lot of muscle into IT and like and did that to say we did IT on the tooling that our customers can use as well from the usability aspects. So um very I opening to do these things and then and then build the right to learn to make IT useful for other people to do the same thing.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:45:39",
+      "text": "I'm just like how you know in two of just how about number prevented ers and were not at the lead board? How much does community real bier when I think about, you know, do they associate the mother release to the lead board reason more? Actually, you know i'm thinking because you support thirty b today, you know I can enable those use cases. Is you what I mean, like this is more starting from the the top line number and then and finding the use cases is kind action requirement with something I can actually feel like I will own, then go to somewhere else, then then II go with you.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:46:17",
+      "text": "Yeah no, that's that's a great question. I think it's I think this a minimum bar has to be one of the leading on the leader board. And after that, there's not much of life stack ranking between them and in the enterprises in mind, but they want to be called for.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:46:30",
+      "text": "I want to plant down the cash to do this, right? Uh, you already damage, you can get there. And a lot of IT come from the fact like enterprises, what we don't want enterprises, we wasting their computer buddy doing hyper prime ter searches, a very last scale, right? Like we should have already done that. We should already we already do have set a hyperdrive you know just to work in training these models regards of the data sources. And so that leaderboard hitting that minimum bar like being the leading bucket um give the measures that our configurations all good and actually have to go like do a bunch of different excursions and and hyper premier researches.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:05",
+      "text": "how do you help your customers make the decision? I use the open source and close to res if use if I use open source. So like how much data.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:47:13",
+      "text": "So I agree ing like orginally of those questions. What are the most common questions? Are there any practice best practice that you'd have concluded from your yeah.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:47:22",
+      "text": "yeah, there's so there's so many questions as such, as such an open space right now, right? Do I prompt? Is IT is enough to prompting? Do I have to find tune? This is depend on like whether I use retrieval augment generation or not, in what cases I need to try my own model cases I need to taking existing open source model and continue training IT right to imbue with like the domain knowledge um and where we're very no, we have sets of guidelines as as we get out to customers are also very transparent with them that hey, look, this is a new space.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:53",
+      "text": "You are going to have to explore our commitment as data break national eg, is that we have all the tools free to like efficiency and quickly explore the space to find what is best for your particular application. right? So instead of struggling with X, Y, Z, experiment with spontini, just do the tune very quickly.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:48:13",
+      "text": "A couple thousand dollars. Experiment with the safer work for youth, case or not. So I wish I had pulls of wisdom you know like oh FX then you know just prompt that you're be finding or if I just finding be fine. But um unfortunately none of that exist today. Uh the only thing we can do is just try really good tools are about to explore really quickly by themselves.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:48:35",
+      "text": "What is the typical mistakes or misunderstandings? And did you have seen intense of the line and surprise .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:48:45",
+      "text": "to me there on IS yeah um I think a maybe this is last so now, but very early on, you know people uh double under appreciated the importance of doing kind of retribution generation and they ran a lot of hallucination issues because the model was trained on, even if you use either an open source model, open a eye or own model um is always going to be trained on like an old version of wikipedia, right, as I was always to be this conflict with the data that in the prompt that you provided.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:49:19",
+      "text": "And it's like what's been baked into its weights, right? And that conflict is extremely hard. Tourist, so um early on we saw whole bunch of applications just based on prompting things like that, even finding me a little, but they just still going to get out of that that mode.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:49:33",
+      "text": "And so uh that's why for many use cases, uh, we have you know as data works now also focused on like returning my generation one thing to tip to your way into the space and a much more control environment. Um the other mistake that we often see is not slaughter the right model for the task if you're producing to do open source stuff, right? Um different models have differently in the seas and they also trained on different types of data.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:50:00",
+      "text": "Some models are not great at code, some also not great at your particular language. And uh it's not as simple as kind of like substituting one model for another. You know all I upgrade a bigger model and must be Better. Uh, that's not always the case, really depends on the source of the data of the model was was trained on.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:50:18",
+      "text": "isn't open. So model specific problem or is an LN problem, you know, are we going to feel, however, enough open source LM, just like the four, five, six. So no.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:50:32",
+      "text": "I don't I don't think so. I'm even for activity four and beauty three point five. There are so many cases where I just doesn't have the right context to be able to run your particular use case, whether a particular jargon or acronyms that are very business specific.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:50:49",
+      "text": "So you store one of these problems of like clashing, right, or the problem of age, like recent cy of data is always a big one, right? You want your customer chat bought to be, you know, saying the latest facts about your company, right? But obviously GPT four as a particular and day for one is data was was collected from um .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:51:08",
+      "text": "so only one hand like open uh OpenAI like they are you can you can tell that they are focusing like investing more and more instance after the products and tooling, right right? We would not be surprised if going for like they will raise more more like uh uh information retrial al tools like fighting that they already have a right to to help help there and the customers also doing so. You mention on the other side, like in the a open source space, right? We are also seeing like more and more powerful like lama ool and probably going for you more l ms uh and more companies will build on that um going for where like the um how would open service and competing with each other considerations for enterprise customers might change over time.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:51:55",
+      "text": "Yeah I think I think for enterprises, there will be some applications we're using, you know in API like OpenAI that's closed makes a lot of sense. But there be other ones where you do want to be building and training your own models either for data privacy reasons, data provenance reasons, legality reasons, don't mean specificity or just simply costs, right? Like if you have a you don't have a very sophisticate task, you don't need the GPT for that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:52:25",
+      "text": "Can you do a lot of you intelligent reason a bit? You can easily deploy AMPT seven b or allah b model that size by the task. And it's much more scalable right at at enterprise scale that people Operate at. So IT really is just an navia this space and um uh argument at least is to uh for the build component, make IT really easy and then for the by component were using an API to easily hook up to other part of the elean application space, right, like where your dataset ces come from to find tune the models or actors show you will attach you to right we want to be able to help enterprises on on both sides.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:53:04",
+      "text": "Yeah I would if I can blow this up to a bigger point is I think like an open an eye recently made announcement about, uh, adding third day day top or responding sort of functionality.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:53:17",
+      "text": "People joke on twitter that bunch of YC companies just got killed, and then of everything, but and tell foxes like if people for a new disaster investing, like why do we have so many different kinds of database for the new case is why can I just dump everything? You one thing and this supports traditional and little go MLAI and it's just not how you know things work right, especially add scale evacuation right? When cost benefit becomes a real issue here, where help point you know the very remand for use case right? If I were the rebuilding the company that just refuse results from OpenAI and serve IT, yeah of course, like whatever they they're going to offer a market, you know copilot top and I that's going to kill my business for sure.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:54:03",
+      "text": "But if I were doing things that are more complex, add scale, know when cost becomes the issue, when performance becomes the issue, when accuracy becomes real issue, when data resents y becomes to issue, right? Where is the data at that could buy data in us? Three indulge lake, like, do I pop IT back into some things? And how shes that cost? How do you make a fresh you can rebuild on my pipeline.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:54:26",
+      "text": "So all this stuff becomes, you know, becomes AA huge issue where I think what's happened as. You know, folks were going to take the lower hanging fruit use cases first, right, which is data that that doesn't require lot of context. And then they will go to da sources where, hey, if you store all the date already here, how do I move my model here versus move my data to somewhere else and rebuild my data pipeline.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:54:52",
+      "text": "So I think overall, my personal guess and I am pretty confident that is we're gonna a more fragmented you know landscape with open source, close source um data vendors. Everybody plays a role in the evil system. Because if we are going to see a scale future where you AML is only part of every single application, I think that was right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:16",
+      "text": "You going to have you, you can have a lot of different interaction points with the users on the back, and you also gonna a lot of interaction points. So that would create natural fragmentation. Uh, you version use black box, just call AP, I, and you get whatever答案。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:32",
+      "text": "More fragmentation in tens of L, M. Models were i'm tooling. Just help.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:55:37",
+      "text": "You will use IT, the design of my people right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:40",
+      "text": "Yeah III completely agree and and I would argue that probably for the Better because you know different choices competition makes for a much healthier ecosystem um and we're so in the early innings of this of this amalon way right? So um it's it's too early to declared, you know ah there's going to be one foundational model that kind of rules all the use cases and you just call IT in your .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:56:06",
+      "text": "dinner and little little move on yeah that that sounds like the um like the clock computing space like all this. Even though you see like the ding a data center and a is very expensive, we companies but even though like they also provide hundreds of uh hundreds of tools for to managing infrastructure, you still see right tons of companies building like did a way .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:56:33",
+      "text": "house and like .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:56:34",
+      "text": "the application .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:56:35",
+      "text": "production. I it's fascinating as we see to see how many large link model players they are. And then you know the old of those building this, I google is coming out.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:56:48",
+      "text": "There's OpenAI over ously you there's also a bunch of third party folks again throops here. When I then, apart of the investment hour, is almost like I employed a billion. Build the roads first and hopefully cars show up.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:02",
+      "text": "And and and you know eventually when cars don't show up, right? That's the issue because open the eyes you see, chat, V, T, C, cross, whatever, a billion, A, R, and that's just you. The are either know if that he keeps skilling IT makes sense, right? But for some other folks, you know, five were building all those roles and let on. Nobody is building on top of my rose as a real issue may have be .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:26",
+      "text": "in um yeah II do agree. I think it's um enterprises are still making their way towards product market fit with these with these island based applications. I do think there is something there there we have seen a lot of deployment ments that actually bring back business value.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:44",
+      "text": "Um but uh, i'm not sure if they'll be enough cars for all the roads that are being laid down uh, right now. Um so if we really intend to see how this events over the the next ah couple of years, right um the other chAllenge that we see is that um how do these different outline model providers different shape from each other? If IT really is a closed API um there's that could potentially be very easy social costs between them. And so that's also another chAllenge for for fox are uh trying to build and and serve just just large angry models behind behind the API.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:58:21",
+      "text": "So are we going to see like more like red head model for for l ms, right? If it's very hard. Bench mark in the LM model performance everyday is not about which model use.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:58:34",
+      "text": "It's about like what so do you provide? I was like, right? Like like what do you are delivered to your company today? Experience would just give me the giving the model or giving the model and a given the platform or they also expect you to show the performance in the certain use case.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:58:55",
+      "text": "right? Yeah no evaluation here is is a great question. Um I mean we work with enterprise of may have RDML team right say five or or seven people I could even be that small of and they use our platform to build and train large irish models now, uh evaluation wise, uh IT is a bit of a wild west. Uh and ternary we have what we call IT. We do a wide check, which we just to put the model and play with this .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:59:22",
+      "text": "what s and .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:23",
+      "text": "see what happens right now that's always not sustain of all. Um for a lot of enterprises will provide some guidance ance on how to construct the right evaluation for their downstream use cases. And many I think a lot of has been gear towards evaluating like chapel applications.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:59:41",
+      "text": "But many enterprise applications are not chast. They are here, retrieve their class fiction. There are all sorts of these care. You actually get really hard numerical numbers on how the bottle is doing and its impact on the business.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:59:56",
+      "text": "And those are the use case are we often seek out because um there's a real use case, there is more complex, more sustainable is also more sustainable, right? Once you solve the problem, you can justify training a larger model because you know the accuracy gain transacted real dollar as for the business um and so that's been are I know how to kind of approach the devaluation space, but IT is really, really early days. Um we have customers our train, you know a language specific chapbook with us and they're like can land uh, I trained, I trained five hundred models on many different data mics. As I can tell, the difference between them, right? And whose when should I use and I said, well, we don't have good guidance here, but the good news is that you can tell that to take one and I go to production and I see you what happens, right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:00:43",
+      "text": "That's of me that this is a real exchange point, right? I feel like you have two schools thoughts here. One is you know the rated appreciation for those investments ments is happening so fast or if I were life from this model and my model stuck at GPT three and five level and you know just make up like GPT six is very out and everybody has GP six or players.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:05",
+      "text": "GP six. Why customer pick me? But then on the other side, I am hoping language definitely will get Better time.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:12",
+      "text": "Is IT languages a great interface? But it's not it's just now we're gonna a hundred and accurate, right? You can improve accuracy, but go core ald something show confusion, right? Like like, yeah, you want to drink, you want a large drink, you want to do, you want to like this so much confusion in language itself that you know to expect the language to be hundreds and accurate.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:35",
+      "text": "It's just not you know the the rate of improvement is probably get small and smaller over time, but the opening on like as we will build more complex act applications, you know more than called the trial chat. But like when you get into some warn amErica stuff, the data retrieve running in real time inferences on data serving results. That's where I think some magic really happens where there's more factor coming and they just language .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:06",
+      "text": "itself there i'm here is who built the um the applications upon the um the model. You deploy the enterprise to build themselves where they find a report.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:02:17",
+      "text": "Ty enter IT. It's to make some enterprises um ah especially digital natives are a much more forward and in sophisticated so they will build themselves. Other ones might bring in the parties to help without the integration and the actual canna deployment of the model itself.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:02:35",
+      "text": "The first time asking is because I am wondering, like how this landscape will affect the south landsman, right? If you talk to the south, companies say they would. Everyone is trying to inview LM base features into your product, right? But when I actually comes to the with, the customers need like our customers will say, like I want the LM to understand myself if they already work with with with yoga is ready to build the LM.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:03:04",
+      "text": "That actually understands they in feel like all they have already use all their data, right to the change all date. This is all that already knows me. Then why would all those other and song companies like like also like customize or personalized there? And to that customers maybe in the future like all the SaaS companies, which you still upon the LM. That you guys already make.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:03:28",
+      "text": "Yeah, it's a good question. I think you know data bricks, we recently released data bricks assistance, which is kind of a copilot almost to uh within within the data breaks platform. And uh even though customers may have been their own alerts to understand them, those allowance may not understand the tooling that the customer is trying to use right.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:50",
+      "text": "Like data ABS knows everything about the day with has an internal data acknowledge like how to configure IT, how to make the right queries at seta. And no matter how much you specialize your own model for your own like data set, you're never gonna know what those the tooling you're using has, right? So they're still it's gonna be this uh combination where you will see you know both um being being used.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:04:12",
+      "text": "I also think like the know the the application sas application site relegates, I think it's gonna be becoming the norm of you know we are just expecting reality if you open outlook and there is a tragic ity like sort of plug in and you I drop you. Thank you very easily after this calls. Thank you.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:04:32",
+      "text": "My of you. A great view. And I open gmail. I don't have IT then i'll be very disapointment ve probably not use gmail from there after a certain point, right? So I think you know the users will see on application level right day day theyll see those interface changes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:04:47",
+      "text": "But you have hAllen's point is like, okay, like let's say you're salesforce, you're roll now whatever sales of GPT. But like you can really do things you can really do things with data. It's outside self force, right? Like there's a lot of things in in in sales example like obvious ly, they have a lot of CRM data not on me for what like terms of yeah has anybody associated with this email address?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:14",
+      "text": "Click on the website how much time have they spent working engagement level, not in in da brakes or or you know got a bit snowflake. So so so those are data were no to extract sales, was to train. And on those data that's you know unrealistic opposite, right? So so my personal feeling is I think AML will not change where data is right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:40",
+      "text": "Like yeah you sort data, data like is not like. Because of this other new core AICRM and now not storing in in data reaction, but i'm stopping there in the CRM. That's not that's not the case, right? I think the CRM data still goes to CRM, but it's just enhance from an application user experience perspective.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:59",
+      "text": "And then you have this fast amount data generated within s three. And then they reason not in how do you infuse that right with the CRM data to create some insights. That's a different, different topic I think.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:14",
+      "text": "Yeah i'm thinking is that possible that in the future, like every enter Price just had their own a their own LM because like a chat tivy plugging system, right all the other south companies cause were proud become a plugin to that um to the l to the LN is IT if it's powerful .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:06:31",
+      "text": "enough is .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:32",
+      "text": "is so funny because like I think like you will get the history of health often are evolved. It's just you you look at oracle, oracle made this huge effort, Larry out and now he has great insight of, you know, why would people want to integrate twenty five thousand applications when you can just come to oracle and I would build ABTP, whatever this is whatever system that has CRMERP customer success, five, six, seven application.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:00",
+      "text": "So I think I think the real answers want to make every single interaction the same data model behind the scenes. It's just a ton of aging effort, and you have all kinds of box popping up here there. And different business units have different requirements into into how you interact with certain data, right? Like they want to see different cause of data.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:20",
+      "text": "IT will not. So so this whole integrated model, like in my opinion, probably you know probably won't work, right? So I think like you would end up with still what IT is today, right? You have different silence data.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:32",
+      "text": "Hopefully you have a Better, Better layer on top, and you have AIM, L, helping folks derive more insights on those data. But I don't think there's a panacea of like eight years old that I cleaned up in a very posting place. And you can ask whatever crushing want to ask and resource stop up that that I think is a little too much as well.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:54",
+      "text": "Well, yeah, that's the because now you are a part of already have the majority of dinner and della breaks, that's right. And with the power of more like like how do you believe?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:08:06",
+      "text": "How do you know? Yeah yeah. I mean, I think one of the reasons the the data action made so my sense is that and then the day, you know, as mother, we could build all the amazing tools to train alarms and efficiencies. And just for that, we talked about um but we can access the customer's data and we can ETL IT and format and aggressive and cleaned up properly, then is going to be garbage in, garbage out. And um you know data bricks has know a lot of customers, fantastic platform, a lot of data processing, ET, L, those enterprise relationships.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:08:42",
+      "text": "So the combination of the data with kind of our products to train and build large language models was very exciting for us to like continue our journey of helping enterprises build build their own AINML systems, right? So I think as data bricks now we have this opportunity of like connecting the underlying data with the NML pooling um to provide that unifying kind experience to customers. And that was very exciting for us. I when the proposition .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:09:14",
+      "text": "came about, I was just jump in like I people realize how interesting and sometimes ridiculous that enterprise data woman is relic. You think about, I get you most. They rik customers all the doing, they pump ed self data and then asked like five south application tools data into the rooks ETL in IT and pumped back myself where to send a email to the customer.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:44",
+      "text": "And that's .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:09:45",
+      "text": "interaction with because you still need the three sixty view of, if you have to become abusing body of that civic customer, right? You want run different cutting nosers and the place you do IT is not application. The place do IT is, you know in the data warehouse and and daily contacts, right? I think that you have any point like that's where you can one prize, general lin says, uh, trains and per models and property data also take actions on IT and help people close for time.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:10:17",
+      "text": "Yeah absolutely yeah in a lot of the no we often joke that mostly ML work at least we are totally going to the point where mostly ML work is just like data general work um but which is not glamorous, but IT is extremely important right I i've heard of applications for people how to write got for bid and like four transco till like they would extract something like age old databases in order to build these models right? That's the hero at work that's happening, you know under the scenes when you sometimes see these alone applications um .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:10:52",
+      "text": "coming about yeah we um so we we talk a lot of about this um the the business model and like motivation of business stuff. But definitely there are all a very technical stuff going on in in this space because we are seeing all was like LM in like and thousands, like less than ten ten million dollars, less than ten million dollars to train, uh, like 4，like seventy, like a seventy, seventy b paramor model.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:11:24",
+      "text": "So in in a high, in a high level, like what did you what did you guys do? What would you actually actually do to to achieve that level of efficiency? And like going forward, since you have really work uh working with different type of uh LM like going for what are what are in the um what are some other approaches that that you see can can keep improving the deficiency?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:11:48",
+      "text": "Yeah II wish there were like a silver bullet that we apply that would just magically speed everything up. But unfortunately it's like five percent here, ten percent there, grinding away a little flap uh usage uh and it's a combination of I think system little optimization that we've done things I don't change the method training yourself um but also very important for us is uh methods that actually change the math of training itself because back propagation is not like a sacred thing, right? IT just happened to work.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:12:23",
+      "text": "And so the way we we can take the way we train miles today as sacred, they just happen because somebody tried that and they ve got a good result, right? So we have a very much of a first precision approach, right? So like when you train these models, like what's the right rick m you want to set? Are there specific algorithms you want to apply?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:12:43",
+      "text": "Um so these are the type of things on layer together. Bring about a little efficiency means I even in the large which water space, we also you know trained a stable division to from scratch or fifty thousand dollars all in that was like a ten x kind of improving when numbers are quoted publicly before. Um if you look at what we did, we actually put out a blog showing like everything that we did and like how much is like brings down the training cost. And yeah it's just a measure of like uh, moving yeah, it's a measure system optimization and arguing things that can make everything actually work.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:13:20",
+      "text": "We're looking at like something like building the socialization in the past. There are many waves of technology and there are also like coniston of desire to worst us to think about how do I build a business around that instead of, you know like turning to consulting like research project.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:13:44",
+      "text": "Yeah I think look, I think this again, just doing how fast AM, L is moving and different types of G, P, U, rally, various problems in, you know, I am now if you go down to the the lowest level, you know, now working right, like of the media about this company now not send. And now there's finny band and now they're recommending ding older days and feel like go, you are using finny band.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:05",
+      "text": "So that's how I can actually utilize more on the computer outside because you know because that that's the constraint is really on the networking site, right? You can say that's optimization if you can find like the sort of you know different touch algorithms. Ms, that's optimization like like running running things through different matrix, right? Running more to dance model that people talk about, that's a different opinions ation.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:26",
+      "text": "So there are so many angles to IT where where as like cloud cost or something that's more mature is more, hey, you know anything else run as workers will. Bunch logs. Let me blog IT out for you.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:40",
+      "text": "This is how you do IT. What is here? I would say the opium ation and cost SaaS you're running.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:45",
+      "text": "And sure, sometimes you see a huge amount cost savings happen, right? Just because certain people run the l go in a certain way. And the suspect, this is one. Just use the early stage of everything. I think this persist for question time.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:59",
+      "text": "Second, II think as we discussed, like so much AML, where is this model or technological progress is much similar to, you know, buy a research rise like this interview process and get data, your model, your code verses like, you know, software is like, okay, let me do this. I add our involved because lock I lock, this is how I code, you know email APP right? So so you have this whole italy and process going on.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:28",
+      "text": "So there's a lot more you know systematic institutional knowledge, right? Like i'm sure you build where where you you know, hey, if this model comes in, this is the requirement. This is the best way to do IT because I ve been this before, I somewhere out, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:42",
+      "text": "So so I think a lot of is just again, instead of saying there's one bully, I just address everything on the fly and Better way I can promise the sublet, I think, is more institutional knowledge over time, right? You definitely have a certain set of primitives. I'm sure you build over time to run this pain faster, to deploy this faster, to track things faster or getting results faster.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:16:06",
+      "text": "You know what's wrong? faster. So so the energy process faster, like I don't think is one way to say, you know, hey, this is exactly what you do wrong, right? right? yeah.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:16:16",
+      "text": "So IT is hard to retrospect what we're wrong with some of some of these training runs. I think other unappreciated pieces sort of yeah there was lot of complexity yeah GPU yeah algorithms that at a um how do you hire that complexity from the user um and how do you build that trust with the user that they're okay with you hiding that complexity?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:16:39",
+      "text": "I think a lot of the value that we brought is that we build that trust with the community, with the customer is um when customer is come to train large english models with us. So hand them a very at first works like a very complicated kind of configuration. But I told them, actually, we're showing all of you this, but you don't actually have the week, you know, ninety nine percent of this, right? And variably all trust that some of them, you know, they say, okay, but I do want to try a few you know, excursions and they do they come up, Helen, you are right.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:17:10",
+      "text": "They all just worked. Let's go, you know uh so that that is hard to build. Uh and um I have to be careful with every step with every customer that our products still continues to just work and the configure.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:17:23",
+      "text": "So just right now, and I think the key here is the funny part, I think like there's so much and infrastructure on is so easy to be up. And I always worry about the whole you know graduation risk of when you actually took offers, you will go again using the service stuff, but later on, right? Like will we see, you know, in cloud?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:44",
+      "text": "II personally feel like they would just want to know know what exactly you do and what's opinion you take from the infrastructure spectrum. I can go back and run IT at a cheaper level, right? Like two points.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:55",
+      "text": "Like I think you start with being able to offer a full money first, but you just apply european top of bit so that's easier. So you can just use get ali faster, right? But like all time, I think as those applications become actually successful and useful, you actually want to show people more to blank box.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:18:15",
+      "text": "Yeah that's right. yeah. I think part of IT is showing folks more that block box or in survey st scenarios can ae to innovate and to bring more stuff because there are still more more discreet out of the system um uh even after our customers going to production, I think that's a chance for a lot of the server less companies and NAPI. Um and now we also like a survey less inference. API as well are started tear uh and it's just continue to innovate um to .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:18:44",
+      "text": "stay ahead after building um you platform. What have you um what have you been able to stand alive and what do what do you still find like hard to hard to lize yeah I mean we ve .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:18:57",
+      "text": "got the point where we joke turn ally a bit like a large house model ending machine. You know it's like coker and right and an LM. out. We have have been had active training rooms with us for thirty days where they just been self service and automatic managed that that somebody haven't forgot there is a training one going on there from you know the country is fired and just came back to these later and just work. So I think all of that we put a lot and enjoying and making that um pretty seamless and standardize.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:19:27",
+      "text": "Um I think there still is that data creation part of the journey at the very beginning in the process that is still a little of more artifical. You know it's like how many e pox of a uh copei should I put in? My model should be thirty percent kip dia.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:19:45",
+      "text": "Should I put in the science for that language? Putting more languages hurt my main language, you know, little more artifical unknown sciences assuring to do there. Um but that also only they were really excited to tackle and alizad. But once customers get their data mixtures correct, you know with our guidance, the whole training pieces is pretty much standardized kasra.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:20:07",
+      "text": "Have you seen any start in the they were success ful were successfully made part of the process.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:20:15",
+      "text": "I mean, you you can look at some of the more successful and my ops players so I think I think like you know how face to some exam to say that a model registry business very successful, right? The other power will see how he plays out, but from a discovery, top of final respect, right? That's pretty dizen.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:20:32",
+      "text": "You want to find a new model and you want to go and rest new ideas like that's very much we will try try on hungry face and then they mobile to be as that's a different question. How do they prevent that? But that process, you know, is a lot of value.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:20:44",
+      "text": "And that's why I think some investors see a lot of value you know from that perspective, right? So so I think you see examples like that and then you know with and vices and and move by the every try to some extends is solving that tracking problem at where you know you're seeing a very nice visualization experience and seeing you know what kind of problems you hear IT on. And and that's a very standard zed process because you for the ML people themselves, when they're thinking about durations, I if my dashmore doesn't look good or or my dashfort's slower or global blood, that actually prevents my the speed of envelopment, right? So that's a very important part development experience. I think that's pretty much you know you know stand that right from from from a large five nine opinion um and I think what I said that can happen is as people deploy as model more models in production, I think we want to see and take out in tempo ve requirements in these of using the production margin stuff, right? Um but then I was like the demand probably wouldn't come or at the same time right online near you can have different folks thinking through a bill versus by kind about and right like i'd tell you, like I talked very large companies finally you know more time .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:22:03",
+      "text": "hundreds have .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:22:04",
+      "text": "been low public companies and there's still thinking page. We build our a large language model, right? Because that sounds really nice within within the broom like OK like I have very vange the on microsoft, you know open an eye or anthropic with some third party ender I own, you know just make this up like so is now model something like that, but it's, you know, then you started thinking about what to trade off.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:22:30",
+      "text": "Like, you know, if you do build that, how much money you need to ploy to the ground and from there, like what about maintaining this model and Better way, sell in the model to the to customers different and selling application. So you have been hired different cell team, right? So I just feel like that parties still quite early.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:22:49",
+      "text": "I think you know, I think the right approach my work and I feel like music halls in is doing this the right way, right, is like stay flexible, but in in layers where you can just take a thing layer off, you know, from salza perspective, you can take a thing there from the top and and capture that place and value. You keep doing that, but you stay pretty flexible in terms helping people. You know they want to use a certain type of tool. You should give you the flexibility use that. I was the same like you got to use .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:21",
+      "text": "everything I was yeah .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:23:23",
+      "text": "under first I was saying that those companies are are thinking about building .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:23:29",
+      "text": "the model from preach like predestine you again, this is its this is something that people I don't think we've gotten just yet, right? Like they want to use, yeah, maybe will complete from scratch, maybe retrain, maybe do something else. But the predominant notion can tell you, and IT makes perfect sense in the boring, like we have all data.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:23:52",
+      "text": "I like, we are the system record. HRIT, which is true about my four day, you know, so much like they are me, like all the big advice run on them, so they have all data and food. Football members, like, why do we use this right? Why do we pumped back into, you know state bricks or or snowflake and then ask them to use something else, use the right? So there's this discussion going on ongoing that's happening right now. Like you bad, they are thinking about this one hundred percent, right how do they have fit more value in this new scheme? Um but it's just so early, it's still going now real talk about .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:24:29",
+      "text": "yeah IT is really exciting to to see that play out over time, right? IT like we've seen a lot of enterprises have those discussions as well. And I just comes down to, you know, what is your competitive mode here? If if really is your data, then IT may make sense to train your own model or taken open source model, continue training IT or other ways of imbue ing that model or that data into into your systems. Um so yes, it's the active really like to see how how the .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:24:59",
+      "text": "space plays out and it's so so complex .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:25:01",
+      "text": "right oh right so many dimensions to think about yeah I think hopefully like the a cost investment are starting to go down which ever way whatever path you choose that like we seen, most enterprises actually have pilots in both the by in the build because they want to hedge because I happy to appeal or might make slider more sense. And then you know it's on you know the vendors to prove out that right that like that particularly actually is successful .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:25:33",
+      "text": "in any sense yeah especially if if you can actually use more back, right, to reduce the cost of training, doing like training all from scratch. You like less than than I say less one hundred million dollars I for all those are fund five hundred or four thousand and one hundred company like that's not a big chance of money for for them. Just initial ly course, they have all those provided data.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:25:54",
+      "text": "Would you to like a stand for P, D, really like how to do HR managment Better? Or do you want to just teach IT like a kid, right? Like you only need to know how to do HR management, like from the age of five or something. It's a Better, really necessary, Better.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:26:13",
+      "text": "I am. Yeah IT, yeah IT really just depends on on the end use case um we've seen many use cases where you know customers or pilot something like by going off up on the close source API right um and then those only creates awesome and then a try to role out production and like oh shoot this is how much cheh shoot like my CEO is like you know bearing down me like not be able to extra my data. So it's less around the capable model, sometimes more around like the deployment scenario对um and in how ophite ticad that the end use .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:26:49",
+      "text": "cases yeah I also think it's kind of you know how will defined and use case from today's angle is right like it's here you see I would like the most aggressive you know third party none LMML vender like real big companies that investing this right mics one for sure because there's so much copilot easy use use cases as well。Like vive outlook out our email and homing has were the same origination.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:20",
+      "text": "It's very easy to see that upset right Priced old. I don't know how how that how real that is, but this is a direct path through the right. Like adobe firefly, like fire use adobe photoshop, know if I can click couple button, and at some images, it's a very easy to link think right versus some the other companies.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:27:41",
+      "text": "Where the RY is not very the act and this going back to biodiverse ology research, kind of a kind of analogy, right? Like if you are big company, uh and then you are SVP of AIML, you know do you want to take an open the model, work in the big data break and get some quick RI. Do you want to go and build model hoping prin that somehow the product can make money on your end like it's IT, it's IT you know IT as much as it's a technological decision, I think it's also like an oranienburg human decision, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:28:16",
+      "text": "Because if I would play my flag on the grounds and like i'm going next billion in the next five years, I am well. And year two, year three, my model is ready but is no summer demand like that's accusing I was my job and and then all kind of things happen, right? So so I think like it's it's not as straight as hey, let's just go do IT because the company force, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:28:40",
+      "text": "Yeah yeah. And a lot of the customers that we seek expLoring these things, you know the star by training a small er model first because they don't want to spend the money the million dollars to train the large model and something find that there are no customers and in use cases to the serve in IT is really just yet stepping that up over time. As you see that RY gives you the confidence ago to .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:29:01",
+      "text": "the next step, right? Doesn't seeing a love companies which especially established like such companies, like just using on the GPT API to build the first version of of their AI feature, having having another team, right building their own more especially or more more choices on on yeah okay.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:29:23",
+      "text": "So反正we are taking on a more of a forward looking a view on this on this space and know we we have tried to make a lot of predictions about hunting，right? Like um this is you're um you've join um data breaks so what's next? What's next? Like will be your new role be focusing on like what what next? Big things that we can expect from of this moa ata da partners yeah um the .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:29:51",
+      "text": "role stays stays the same，right we're here. The mission stays the same way here. Empower enterprises to to build models regards if they go down the buyer or or the build around. Um I think what's exciting coming down the pike is that um be able to seem ously integrate with existing database s customers and their data sources will just make that round a lot easier. You mention the point about adobe and firefly, right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:30:18",
+      "text": "Like, oh, you're in the data big storm and there is a train button right there that kind to and button right there that's really easy to use and delivers good results to make IT really easy for customers to be able to to experiment with. Um and the other piece is realizing, I think coming now having now doing data and I realized that um and music, we are really focused on the model and we left the application and the deployment to the customer side. But having enjoying the appreciate how much other pieces are besides just like the model weights, you know, which we are really focused on putting the pipeline produce, right.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:30:53",
+      "text": "But then like oh, there is like a vector data base. Oh there is you know monorail cost, monorail h there's like data governance and data prob. So uh is very I opening for me to see um the piece is there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:31:07",
+      "text": "And we're really excited to integrate and provide that kind of unified experience all across the entire stack is ers don't want to buy like five different sources for the all those different components and like do the integration work like situations together, right? You want that is unified and you know I guess we uses a lot and this pocket is over use, right? But IT IT works in terms of the end and connection .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:31:32",
+      "text": "as of the investor. Um when you see the news like the one point three billion condition of because again, again, what was interaction like what what does that mean to the startups? What you take away from .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:31:45",
+      "text": "that beyond just regret. III mean II would say I would say like first all like well, desert, uh, congrats, right? I think it's it's one of those things.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:31:56",
+      "text": "I think like when you're building musing, i'm sure you can sit down. I go you know, year two point five, i'm going gear doesn't have right. I think you are set out to, you know solve real cause pain point right and area along the way to see what that platter looks like.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:32:14",
+      "text": "So I think for me that's the time, like not just point in time AI right now like let's go devolve some l lap, right? In fact, I think that radio, by the way, place really well with more of life's business, right? Like to me, I think this whole way, we alone, when he learned, is the bar forms for starting something that you know that's cash generating has gone down significant.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:32:40",
+      "text": "I like a foto adding APP over some sort like market copy thing that you just put on abstract and charges, you know two thousand like that, that bar has gone down significant, right? But I think like on the flip side, I think the bar for starting something you know in the traditional advice often are has actually gone up, in my opinion, because you know you think about old in combs, you know where is microsoft and up. But also the biggest start of incoming, everybody's my show is on this.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:33:09",
+      "text": "So they're gonna think about how to integrate all to start, right? So fewer pitch is I am to starting next cell force, then the natural pressures like, okay, so like what about sales was GPT and what they do, right? Like how that could be different.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:33:23",
+      "text": "So I think in some ways to bar for starting something durable on applications, I has actually gone up, not gone down, right? But starting something small has gone down. So you have this really nice, interesting by vocation. Let's going on. Um so I think like attach my my my first point and I think the other thing the other take away I have is is you know he is you know very important to know that what game you playing right as an after t like not playing game in in a you know in in a negative sense by a positive sense like world market, your plane and what you said you really is right like you know for for muzio an hiland team I think like you said very really on you come in with the idea of one commercialize this which II think you know again lation words come in especially c say just is thinking, oh, I have this cool project. Let me just go in and trade on right but it's it's really important to have the sense of, you know not exactly the business model IT on like have a good concrete idea where you might be on the stack.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:34:27",
+      "text": "And I think that's the band of being the second time much or third time much or uh where your kids you are uh is just you know you know the usage based sing you know like I need to be tight compute somehow, right? So I think having bad sense is very important. And second is just like, you know, how does this become durable or type, right? Like you play this out a little bit, right? Like I would like to say, like I spent a lot of time with some more AIGPU, you know companies, right and and I sit down.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:34:55",
+      "text": "The thing that I can get over is just like i'm sure there a bunch of cloud enders beside if as google and then microsoft and everything I started and now, you know, there's public, this ocean and this public, one of two others, but, but, but you know what's going to happen to the AIGPU winters? Like what's your long term act right from the durability perspective? So I think a lot of I like, you know, does you or have the wish you to think you know not only the next six month, but two, three, four years from now, right in a very good future.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:35:29",
+      "text": "Assuming assuming that you know genie's transform our workflow and productivity were not like what is the longest of future beyond just, hey, here's a shortage in G, P. U. So that's how making money right .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:35:43",
+      "text": "now from the entrepreneurs prospected flake, of course, we will love entrepreneur. To have everything figure out from the beginning, right, is a perfect tish, no brain instructor. But looking back, right? Like what what what opinions have you change on the the start of this industry um compared to .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:36:04",
+      "text": "when you stop IT? Yeah I think we were I think looking back, I guess I like the two and half your journey as part of mosaic.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:36:15",
+      "text": "Um the one thing that will always keep on with solving a hard enduring problem IT um and then building with the commercialization enterprise in mind, like we invested so much in security and delay inside customers own environment because we knew you know early says a untrusted start out that would be AA thing and we actually struggle over that decision because I delayed our time to market, right? That is not easy to build the infrastructure. So um that was attack that that we took.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:36:46",
+      "text": "And I think that no worked worked out well for us. I think other chAllenge has been as in looking back is a sort of all the a formal and and high then you see like this start of need to have some mental attitude to dislike tunit allers focus on on the customers and the customers problem. Uh and for me at this early on, IT was a little difficult because you just you hear all these things oh yeah another model, yet another system right um but learning learning to you that was very important but for just the focus of the company but also for my own side. I like you know sanity, right? Although I you just go you know completely off the walls and might have start giving hearing there too much um but that yeah only those two tenants um I learned over the .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:37:36",
+      "text": "course of of the motion yeah definitely so um one last question in the past um like lesson a year like what what is key events or key miles that you that you think actually we shape or have a big impact on how you how you understand this this and also going forward, what are some key uh events like marion said that you think that might change your view in the uh um in the entire what of our end?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:38:09",
+      "text": "That's a good question, I think. Um I mean moving forward, I would say that as I said, everyone's in creative exploration face it's unto which ones actually make IT interduce and it's unclear which was actually clear the bar of um of use case of pollution inside of legal concerns.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:38:31",
+      "text": "And so the milestones and technology I would look forward through over the next six and nine months are those that that sort of address x every companies got the point where they have some LM applying prototype happening in house and their CEO is public. Playing with her and wants to figure out, is this a real thing that I can actually ship, one can actually remove that you know this service may not produce factual statements, you know please use with care that curse of average AI application these days. Um where are the technologies that come about lot to start to start to address those those type of problems? That will be the turning point for me to say, okay, this is like, you know, the transform, the mature.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:39:13",
+      "text": "This technology is like like that as in other three acts on top of the first transnational chinese gy, right? And if these this research to like reduce lucco or like the legality or the ethics part don't actually materials and that will actually acta matic ally limit omeo. And on the every company that had like two dozen potential applications will be done to like through your four, right? So I think we are at a very significant turning point here. And um it's yeah to be trying to see how how things out.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:39:44",
+      "text": "It's interesting. The dia mention and you like specific like a certain technology.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:39:55",
+      "text": "Those come come and go like I don't know, I like long term. I know like a lot of like interesting research and how to train models that are specialized or retrieve um rather than taking uh existing models and just you know seeding. The problem is that you retreat from vector data, right? I think that's the next pace I could dramatically, you know, improve these ability .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:40:24",
+      "text": "of those applications. I feel like in this week date, the research adea research were uh and the industry has been like very working like very closely. I like any research era or any research process that you are. Do you always like .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:40:39",
+      "text": "giving a on um not beyond the retrieval stuff that I mentioned and not sure yeah it's I mean, my head has been in the sand the last six what commercial .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:40:51",
+      "text": "I think I there is is funny because II would say you know one of the things I would be looking for very friendly hand but one say downs like what exactly is the commercial reaction to microsoft copa? And then it'll be five life would not try because if they launch a huge fan fare, then the investment on the other side, for all other second layer of second way of people, in majority people who coming to investing, IM out, it's gonna a lot more aggressive than just experiment, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:41:25",
+      "text": "Because IT is real revenue, meaning you may hang solent per month for for this then the real revenue game, really right? Because today, I think very much was happening as people think there will be real underline demand getting created. And so they are buying ships.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:41:45",
+      "text": "And so media is a very immediate beneficial right away, right? And then you have a more likely for for getting ai wrong, right? And then you have a bunch companies were just pitching AI for the sake pitching AI don't want this out, right.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:41:59",
+      "text": "But like I think the moment, if if the microsoft launch is not as great as IT is and and people like go when I will paid as much, the revenue projection falls short. I think you're onna see a correction in this space very soon as people who retry. But I think longer term, right, we should look at the models to use cases that enables les.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:42:20",
+      "text": "This is just you know, I would just say like technological innovation has IT doesn't really always have a direct lines IDE. I feel like this is as easy as you can get from the line decide perspective. Like you know, this will create a lot of value or a productivity.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:42:36",
+      "text": "Some point is just how does that get translate into real doll, right? And and timing is also very important. It's sort of you know it's at the next six month, prop month is a longer time line. And then yeah, I think we've seen that the twenty one off right chain room come and go and I don't know like what was last time, so we just grab three. I feel like.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:43:00",
+      "text": "wow right.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:43:00",
+      "text": "So it's a it's yeah so I think this one, this one I difficulties feel like it's more it's more done if you have a longer time horizon, it's just nobody know have a Price of law on, you know what what is that like the short term killing product was like, right? Like you say charging, he is a killer product. But you know the GPT moment has happened years ago before tag PT, right? So and nobody really cared. I mean, the majority media know UVC haven't really cared that much about large land before the launch of tragedy ity. So um I think what i'm looking for you is just like what the commercial milestones that you know that kind of keep the usual system going from here, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:43:44",
+      "text": "And there is also a generational effect of the real long term where you know Younger fooks actually grew up with this technology and this interface. Um get key on IT and that's a lot of ice itself, right? Like you think ten years out know the students are using ChatGPT or the university are toilers use chagas t right? Um there are probably never gna let go of that type of interface that they become used to in terms of information, retribution and inquiry. And that in a day with us you know um in in the long term regards um how commercialization happens out in the near term.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:44:21",
+      "text": "yeah II that's doubly the longer term opportunity. If I just take a even more to real life, it's and when we look at think my like one of the biggest, you know, sort of concern push back was, hey, you know there just not many designers, which was true, right? But what think about that is pulling people who not traditional designers, into e the design work flow because is so easy use. And you know, guess what, I think going below I spent a bunch time of the journey is Randy. You know, I don't think i'm most, but it's just a power tool.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:44:51",
+      "text": "You on this world, time problem here, there ten fifteen minutes and there, i'm sure are much more curious for for using this stuff right and and again is this might not be direct translation的majority y and and the antifungal flow。But you bet there's, you know, tools were poor people who are not doing this into into design, people could not coding into coding, right and and people could not doing AML into AML. And they might not be always the most hard core.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:22",
+      "text": "And kind of, I know exactly how to use, although we photoshop the exactly the taxi way to do three things. But there are the people who can show up and and and bring real productivity right, at least from a higher perspective. So uh I think that the non consumption opportunity bring people who traditionally when IA field into a field as a massive, massive telling um it's just harder to draw IT yeah right away the analogy by the .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:45:49",
+      "text": "right yeah there reminds me like I talk chatting to um chilling with the CEO of a flow GPT right they are building the cycle and uh the prompt market day for a for front and he said like the majority of their users are sixteen to twenty old, has like zero of our basic coding coding skills，but they are already able to build a lot of a lot of like very uh and to and uh soccer on the force enough ophite tied but you can see like the past and he says like um ever since they just started uh early this this year, the average length of the of the prom has like the double, double or triple some thinking right for like fifteen two thousand years old if they just I started like learning how to call the probable.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:46:38",
+      "text": "The first coding tool they they use is probably ChatGPT like learning how how to prompt that. They will also change a lot. I know whether you guys have kids or not. Like I am thinking, right, for, for, for kids, right? We like we have been living this traditional over for for like so that case, but but then maybe like shelling with tragic t or shelling with the, with the machine in the face would be so will be very natural, like there will be more patient .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:47:06",
+      "text": "than even even a smart from usage like you think about AH every .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:47:12",
+      "text": "should be a touch screen why I just my fit and that and that's that's .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:47:18",
+      "text": "a super exciting .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:47:19",
+      "text": "yeah super, super exciting. I think maybe like one year, one year, two year after after this, we sit down with him reviewing what IT how our life prediction goes and lesson that's chAllenging for investors. But that's also exciting about me you know .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:47:34",
+      "text": "I it's funny I talk to my public friends all time and and you mean public best friends and and the whole thing was, hey you know in they trade on AI theses of this quarter, this company launch day I got the buy or sell and what they think is, gosh, your job must be so hard like you don't have liquidity right? I can just my try buy and hold uh but I think like this a building terms of buying holding, right? Because you know if your mind is so concerned on what going to happen next quarter, when you next year, you don't get the longer term compounding effect of something magical happens along the way.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:12",
+      "text": "And then i'm not every investment has been like that investment has you make a stand and something totally different happens. Uh, there are some that more direct line inside. But I think like in AML, this truly this, imagine in this compound and effective, you know something great as brewing that no real term result, real, you know no real, real time results, real time feedback.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:36",
+      "text": "But you one day you discovered this magical drug, yeah it's something great happens, right? So so I think I think like having duration and just being patient. Um you this also kind of you really results .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:48:51",
+      "text": "here talking about patients. If I have to stretch a little bit, let's say you guys, you guys have a time machine you travel to like not not too long, right?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:48:59",
+      "text": "Like five years.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:01",
+      "text": "But the first question would like to ask, when the AI people around you.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:49:06",
+      "text": "when did they transform architectures die as IKII, I would .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:49:12",
+      "text": "probably say same thing. And it's so it's fascinating because I think people take transformer archie, but it's like if you look at the discovery of history and I just IT came out and nowhere a little bit right, like there's obviously, you know, prior researching or not, but it's not a linear path transformer. Um so I think that's a good question. My other question just be, uh, what other tps tps what are harvard are you are using besides the media?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:42",
+      "text": "I really enjoy this .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:49:44",
+      "text": "conversation, and thank you so much for this time.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:49:48",
+      "text": "No, thank you for that man is a fantastic discussion.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:49:52",
+      "text": "Yes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:49:53",
+      "text": "恭喜你又听完一期全英文播客，大家不要走开，有一个小预告，下周也就是12月4号到12月9号，是一次盛大的2023技术播客节。欧布当然要参加这次播客节，集结了三十多档播客，五大出品人，二十多个社区，还定向邀请了多个技术大V和跨界大牛一起参与共建。会cover的话题有硬核技术，也有技术商业，还有技术从业指南、技术跨界等等。而我们恩布尔为这次盛会奉献的就是一次精彩的AI年终盘点，有来自中美一二级投资人的精彩视角。就在下周三12月6号，大家赶紧锁定我们的博客，不要错过了，咱们下周见。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:50:43",
+      "text": "感谢大家的收听。如果你喜欢我们pocus内容，欢迎你点赞并分享给可能感兴趣的朋友。有任何建议反馈都可以在评论区留言，我们都会很认真的看的。如果你在用apple podcast收听，也希望你花几秒钟给我们打个五星好评，让更多人了解到我们我们下次再见了。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这次讨论中，焦点放在了人工智能（AI）技术，特别是ChatGPT在年轻用户中的广泛应用及其影响。对话揭示了AI技术的易用性与潜力，展示了它如何通过使编程教育更加自然和触手可及，改变了学习编程的方式。讨论还触及了AI投资的长期视角，强调了对潜在突破的耐心与信念的重要性。此外，通过技术播客的讨论，深入分析了AI领域的最新发展、收购案例及其对企业和基础设施的影响，同时探讨了开源软件在推动AI进步中的关键角色以及企业如何通过AI工具提升效率的策略。最后，讨论围绕公司如何通过开放源代码项目建立业务，强调了其在吸引人才、验证产品价值方面的价值，并探讨了如何平衡自建模型与使用开源模型的策略，以及在设计和创新方面的AI技术潜力。",
+    "qa_pairs": [
+      {
+        "question": "What significant AI acquisition occurred this year, and what were the characteristics of the company being acquired?",
+        "answer": "This year, the significant AI acquisition was the $13 billion acquisition of startupmosi CML by the AI infrastructure giant DataBricks. Mosi CML, which had only about sixty employees, had developed two开源大语言模型MBT7B and MPT30B, with a total download of over 330 million.",
+        "time": "00:00:16"
+      },
+      {
+        "question": "What are the backgrounds and roles of the individuals participating in the discussion?",
+        "answer": "Monica is the host of the podcast, and she is joined by high宁 as a co-host. Additionally, Monica has invited two guests: Haoran (pronounced '翰林堂'), a co-founder of mosi CML and its former CTO, and Kai Shu (pronounced '卡斯伯王'), a partner at growth-stage venture capital firm Saffire Ventures.",
+        "time": "00:01:16"
+      },
+      {
+        "question": "How does Haoran relate his background to his work in AI?",
+        "answer": "Haoran first got into AI back in high school when he worked on computer vision tasks without the computational power to train large models. As the AI wave, represented by ImageNet and deep learning, arrived, he transitioned into that space.",
+        "time": "00:02:45"
+      },
+      {
+        "question": "What recent investment in AI does Kai Shu discuss and how has the field evolved from his perspective?",
+        "answer": "Kai Shu discusses a recent investment in AI and indicates that the field of AI, specifically around machine learning (ML), has evolved significantly since 2018. He points out that many traditional ML tools are still widely used, while there has been a huge increase in interest due to innovations like ChatGPT.",
+        "time": "00:04:42"
+      },
+      {
+        "question": "What challenges and expectations exist regarding the deployment of large language models (LMs) in production?",
+        "answer": "There are challenges in deploying LMs into production, such as handling unexpected issues or 'glitches' that arise during scaling. Moreover, there's an expectation that new tools for monitoring and evaluation will emerge to address these challenges. Accurate and reliable operation is crucial as these models integrate into daily workflows and are expected to perform mission-critical tasks.",
+        "time": "00:09:41"
+      },
+      {
+        "question": "What problem did the company set out to solve?",
+        "answer": "The company set out to build an infrastructure that allows companies to efficiently and easily train their own models on their own data.",
+        "time": "00:15:04"
+      },
+      {
+        "question": "What is the company's core belief and mission?",
+        "answer": "The company believes in empowering enterprises to train their own large language models, build their own biases and opinions, and solve performance problems and engineering challenges so that they can utilize AI easily.",
+        "time": "00:15:04"
+      },
+      {
+        "question": "When was the company founded?",
+        "answer": "The company was founded in January of 2021.",
+        "time": "00:15:59"
+      },
+      {
+        "question": "What early signs did the company observe that indicated large language models would become prominent?",
+        "answer": "Early on, the company observed the work being done with the GPT series models and the promise of large scale models, initially focusing on large computer vision models and scale training of non-transformer architectures.",
+        "time": "00:16:42"
+      },
+      {
+        "question": "How has the demand from enterprises changed since ChatGPT's release?",
+        "answer": "Since ChatGPT's release, the demand from enterprises for the company's platform has increased significantly, initially focusing on the idea of training their own models and now expanding to fine-tuning existing models.",
+        "time": "00:18:04"
+      },
+      {
+        "question": "What has been the progression of the company's focus since its founding?",
+        "answer": "The company's focus has evolved from working on simple computer vision models to creating an end-to-end stack of training and building large language models, with an emphasis on the ML systems side.",
+        "time": "00:18:23"
+      },
+      {
+        "question": "Why did the company decide to make its tools and large language models open source?",
+        "answer": "The company decided to make its tools and large language models open source because it wanted to demonstrate the capabilities of its tools, aid the community in understanding the real costs and processes of training models, and avoid creating a black box code that only speeds up model training without transparency.",
+        "time": "00:23:22"
+      },
+      {
+        "question": "Why does the company believe open source is beneficial for the community and business?",
+        "answer": "The company believes that open source is beneficial for the community as it allows for transparency and contribution from the community. For the business, it's seen as the most beneficial approach unless finding a way to monetize the open source tools requires closing them, in which case the company would have to reconsider its business approach.",
+        "time": "00:23:41"
+      },
+      {
+        "question": "Would the company still choose to make its tools open source if starting today, knowing of the developments since 2015?",
+        "answer": "Yes, the company would likely still choose to make its tools open source even if starting today, because the philosophy is that open source is much better for the community and for business, unless there's a way to monetize the open source tools that requires closing them, in which case the company would have to reconsider its business approach.",
+        "time": "00:25:10"
+      },
+      {
+        "question": "What are the considerations when starting a company with an open source project?",
+        "answer": "When starting a company with an open source project, considerations include understanding the types of open source projects you are competing in, the importance of open source validation, and how it can serve as a strong validation strategy. Additionally, you need to think about the timing of the market and the technical difficulties of different projects within the tech stack.",
+        "time": "00:29:08"
+      },
+      {
+        "question": "What impact does open source have on a company's strategy and validation?",
+        "answer": "Open source can provide strong validation for a company's strategy, especially when it comes to defining standards for the community and influencing early market dynamics. It helps to shape the ecosystem and can influence brand network effects. However, open source might not be as beneficial in mature markets where buyers are well-informed and have clear alternatives.",
+        "time": "00:30:28"
+      },
+      {
+        "question": "How do customers typically engage with open source tools?",
+        "answer": "Customers engage with open source tools because they are familiar with them, comfortable using them without owning them, and they can easily extend them to meet their needs. This often leads to customers wanting managed versions of open source tools or seeking to enhance their functionality rather than adopting an entire new system.",
+        "time": "00:31:16"
+      },
+      {
+        "question": "What is the significance of timing in the open source market?",
+        "answer": "The timing of entering the open source market is significant because it affects the perceived readiness of a product and whether it's considered 'enterprise-grade.' Moreover, the emergence of new technology and the need for adaptability mean that one doesn't have to be the first to market; a mature product that 'just works' can succeed.",
+        "time": "00:31:56"
+      },
+      {
+        "question": "How should companies approach monetization of their open source projects?",
+        "answer": "Companies should approach monetization by focusing on consumption-based and usage-based收费模型, especially in the context of machine learning where costs can be significant. The strategy involves building an infrastructure that supports model training and scaling, then charging based on usage to enable customers to consume more without incurring proportionally higher costs in computing resources.",
+        "time": "00:34:45"
+      },
+      {
+        "question": "What are the considerations for new software companies in the current open source landscape?",
+        "answer": "New software companies should focus on finding customers, making them happy, and not getting overwhelmed by the noise in the market. The current open source landscape offers opportunities for innovation, but companies must be agile and efficient in optimizing costs and providing reliable, privacy-focused, and scalable solutions.",
+        "time": "00:36:10"
+      },
+      {
+        "question": "How does cost optimization relate to open source platforms for training and serving?",
+        "answer": "Cost optimization is a critical consideration for open source platforms that support training and serving large language models. However, the focus should be on enabling faster time to market and improving the efficiency of model deployment, as this directly impacts business outcomes. Platforms that facilitate both training and serving, while providing the tools to optimize costs, are well-positioned in the market.",
+        "time": "00:37:15"
+      },
+      {
+        "question": "What is the business strategy of the speaker's company?",
+        "answer": "The business strategy of the speaker's company is to build tools that help companies train models on their own, and to demonstrate the effectiveness of their tools by releasing high-quality models that the community can build upon.",
+        "time": "00:43:06"
+      },
+      {
+        "question": "How does the company showcase the effectiveness of their tools?",
+        "answer": "The company showcases the effectiveness of their tools by releasing high-quality models that the community can use and build off of, demonstrating the cost-efficiency of their solutions for enterprises.",
+        "time": "00:43:06"
+      },
+      {
+        "question": "What types of models and data set compositions does the company address?",
+        "answer": "The company addresses a variety of models and data set compositions, including simple models focused on specific languages like English or Korean, and more complex ones with multi-lingual data tailored to the needs of companies, such as those in the finance sector.",
+        "time": "00:43:35"
+      },
+      {
+        "question": "What are the benefits of the company's approach to model training for enterprises?",
+        "answer": "The benefits of the company's approach include making model training cost-effective for enterprises, easing the justification process for IT investments, and showing the practical value and return on investment for training models.",
+        "time": "00:44:09"
+      },
+      {
+        "question": "How does training models at scale influence the design and rethinking of the company's platform?",
+        "answer": "Training models at scale reveals a lot about potential points of failure in the platform, prompting the team to address issues such as model checkpointing and failure recovery, which in turn leads to the continuous improvement and rethinking of the platform for better usability and robustness.",
+        "time": "00:44:31"
+      },
+      {
+        "question": "Why is it important for the company to lead on the leaderboard for model performance?",
+        "answer": "It is important for the company to lead on the leaderboard for model performance because this signifies that their configurations are effective, and it sets a minimum performance bar that enterprises can rely on for their IT investments.",
+        "time": "00:46:17"
+      },
+      {
+        "question": "What considerations are important when helping customers choose between open source and proprietary models?",
+        "answer": "When helping customers choose between open source and proprietary models, considerations include the specific use case requirements, whether retrieval, augmentation, or fine-tuning is needed, and the importance of having domain-specific knowledge and the latest data incorporated into the model.",
+        "time": "00:47:05"
+      },
+      {
+        "question": "What common mistakes and misunderstandings exist in model training?",
+        "answer": "Common mistakes and misunderstandings in model training include underestimating the importance of fine-tuning and generation, running into hallucination issues due to conflicting data sources, and selecting the wrong model for the task, which can lead to poor performance in specific areas like code or language depending on the model's training data.",
+        "time": "00:48:35"
+      },
+      {
+        "question": "What strategies does the company offer to enterprises for model selection and data management?",
+        "answer": "The company offers strategies to enterprises for model selection and data management by suggesting they explore different models and data sources effectively, quickly experiment with model adjustments, and consider both open and proprietary models based on the specific needs of their use cases, privacy requirements, and cost-efficiency.",
+        "time": "00:49:33"
+      },
+      {
+        "question": "How does the landscape of model providers and data vendors impact the market?",
+        "answer": "The landscape of model providers and data vendors impacts the market by creating a fragmented ecosystem where various players provide different interaction points and tools for managing AI models and data. This fragmentation is driven by the diversity of use cases and the need for customization, leading to a more competitive and dynamic market environment.",
+        "time": "00:54:52"
+      },
+      {
+        "question": "What are the challenges enterprises face with the deployment of island-based applications?",
+        "answer": "Enterprises are still working towards product market fit with these island-based applications. Despite having seen many deployments that brought back business value, the challenge lies in whether there will be enough cars for all the roads being laid down. There could be social costs between different model providers if IT is a closed API.",
+        "time": "00:57:26"
+      },
+      {
+        "question": "What is the significance of evaluating model performance in enterprise applications?",
+        "answer": "Evaluating model performance in enterprise applications is significant as enterprises expect not just the delivery of a model but also performance in certain use cases. Currently, there is a lack of guidance and standard evaluation practices, which makes it challenging to measure the impact of models on the business. However, as these applications often involve complex scenarios, such as real-time data serving and inference, this presents an opportunity for significant gains.",
+        "time": "00:58:21"
+      },
+      {
+        "question": "How can businesses justify training larger models?",
+        "answer": "Businesses can justify training larger models by solving complex and sustainable problems that result in real dollar value for the business. This approach helps in training larger models, as the accuracy gains justify the investment. However, this requires complex, sustainable use cases and is still an evolving space with challenges in model evaluation.",
+        "time": "00:59:56"
+      },
+      {
+        "question": "What are the expectations of customers from LM-based features and how do they differ from enterprise needs?",
+        "answer": "Customers often expect LM-based features that can understand and personalize interactions with their data, leveraging the data they have already collected. However, enterprises have different requirements and may need to work with other companies or consult experts for the integration and actual deployment of models.",
+        "time": "01:02:35"
+      },
+      {
+        "question": "What role does DataBricks play in the integration of customer data and model building?",
+        "answer": "DataBricks plays a role in enhancing the integration of customer data by providing tools that understand the customer's data context and can make appropriate queries and configurations. DataBricks assists in connecting the underlying data with the model building, offering a unified experience for customers and an opportunity to derive insights from their data.",
+        "time": "01:03:28"
+      },
+      {
+        "question": "What are the expectations from AML regarding data integration in customer relationship management?",
+        "answer": "While some expect AML to change the way data is currently stored in CRMs, the reality is that AML will likely enhance the user experience with existing data without altering where the data is stored. This means that although AML can enrich the interaction with data, it is unlikely to create a completely integrated model of data like those envisioned by historical integration efforts.",
+        "time": "01:05:14"
+      },
+      {
+        "question": "What are the strategies mentioned for optimizing the training of machine learning models?",
+        "answer": "The strategies mentioned for optimizing the training of machine learning models include system-level optimization, changing the math of training itself, applying specific algorithms, and improving the efficiency of training processes. The speaker's company has achieved up to a tenfold improvement in training costs by optimizing various aspects of model training.",
+        "time": "01:11:48"
+      },
+      {
+        "question": "What is the significance of building institutional knowledge in the context of IT and machine learning?",
+        "answer": "Building institutional knowledge in the context of IT and machine learning is significant because it leads to the development of systematic and standardized practices. Over time, this knowledge helps in faster deployment, tracking, and optimization of IT processes. It allows for the creation of a robust platform that can handle complex training runs and enable continuous innovation.",
+        "time": "01:15:28"
+      },
+      {
+        "question": "How does the speaker's company establish trust with its customers in the machine learning space?",
+        "answer": "The speaker's company establishes trust with customers by transparently showing them the complexity of configurations without overwhelming them with details. The company allows customers to try certain configurations themselves and then proceed with confidence, ensuring that the training processes are reliable and straightforward.",
+        "time": "01:16:39"
+      },
+      {
+        "question": "What challenges exist in the initial stages of the machine learning model training process?",
+        "answer": "The initial stages of the machine learning model training process present challenges such as the need for meticulous data preparation and experimentation with various parameters like the number of epochs, batch size, and other settings specific to the model and language being used. The process can be somewhat manual and requires an iterative approach to optimize the model's performance.",
+        "time": "01:19:27"
+      },
+      {
+        "question": "What is the importance of model registry and the ongoing model development lifecycle?",
+        "answer": "Model registry and the ongoing model development lifecycle are important because they facilitate the tracking and management of different versions of a model, allowing teams to monitor performance and identify opportunities for improvement. This lifecycle involves ongoing experimentation and optimization to maintain and enhance model effectiveness as it transitions from discovery to production.",
+        "time": "01:20:15"
+      },
+      {
+        "question": "What considerations are involved when large companies think about building their own machine learning models?",
+        "answer": "When large companies consider building their own machine learning models, they must think about factors such as the resources needed, the trade-offs involved, maintaining the model over time, and aligning the model with customer needs and business applications. They also need to evaluate whether it makes more sense to use an existing model or develop a new one, and how to balance flexibility with the use of specific tools and platforms.",
+        "time": "01:22:04"
+      },
+      {
+        "question": "What are the considerations for using AI in company training costs and HR management?",
+        "answer": "The considerations for using AI in company training costs and HR management include whether to use open or proprietary models, and the importance of deployment scenarios. For HR management, there's a debate on how much detail and capability models need to have for tasks, particularly if they are targeted at large companies with complex HR needs. Companies may start with smaller models to test the viability of AI in HR before investing more, and there is a need for integration with existing databases and data sources to streamline processes.",
+        "time": "01:25:33"
+      },
+      {
+        "question": "What are the different use cases for AI and the considerations around deployment?",
+        "answer": "Different use cases for AI include customer-oriented pilots using APIs that may not be suited for production deployment due to data limitations. Companies must consider whether their AI deployment is more about the capability model or the specific deployment scenario. It's suggested that AI deployment decisions are not purely technical but also involve human and organizational decisions, especially when companies have different visions for growth and model readiness versus市场需求.",
+        "time": "01:26:13"
+      },
+      {
+        "question": "How can AI be integrated with existing business processes and what are the considerations?",
+        "answer": "AI can be integrated with existing business processes by leveraging APIs like GPT to build initial AI features, allowing for easy experimentation. However, there is a need to consider additional components such as data governance and data integration that might not solely rely on the model itself. A unified experience across the entire stack, including vector databases and data governance, is desirable for customers and can be provided by integrating these components.",
+        "time": "01:29:01"
+      },
+      {
+        "question": "What are the implications of significant funding events for AI startups?",
+        "answer": "Significant funding events for AI startups, such as a $1.3 billion deal, signal recognition of the potential of the startup's work and can validate the market interest in their offering. Reflecting on past experiences, it's noted that the bar for starting AI ventures has fluctuated, with the difficulty of creating cash-generating businesses having gone down, but the difficulty of starting something traditional increasing due to larger established players entering the space.",
+        "time": "01:31:32"
+      },
+      {
+        "question": "What are important lessons learned about building durable AI products and business models?",
+        "answer": "Important lessons learned about building durable AI products include starting with a clear understanding of the business model and having a sense of where the product might fit in the market ecosystem. Embracing a customer-centric approach and focusing on solving enduring problems are crucial. Long-term durability, such as how the AI will evolve and remain relevant over time, also plays an important role in the success of AI products.",
+        "time": "01:33:23"
+      },
+      {
+        "question": "What are the potential future challenges and turning points for AI technology?",
+        "answer": "Future challenges and turning points for AI technology include addressing ethical, legal, and factual concerns in AI applications to ensure responsible use. As AI integration in companies increases, the need for technologies that validate the reliability and safety of AI systems will become critical. Additionally, research into specialized and retrievable models that can operate effectively on vector data could be a significant advancement in AI technology.",
+        "time": "01:38:09"
+      },
+      {
+        "question": "What are the expectations regarding the commercial reaction to Microsoft's Copilot?",
+        "answer": "The expectation is that Microsoft's Copilot will be met with a very friendly and positive commercial reaction. There is a concern that if the launch does not generate significant fanfare, it may result in a correction in the investment space as people reevaluate their investments. The revenue projections could fall short if the response is not as strong as anticipated.",
+        "time": "01:40:51"
+      },
+      {
+        "question": "How does the speaker view the role of technological innovation in creating value?",
+        "answer": "The speaker believes that technological innovation has a direct line to productivity and value creation, making it one of the easiest paths for this kind of innovation to translate into real value. Timing is also important, as the timeframe for such innovations to take hold can be measured in months rather than years.",
+        "time": "01:42:20"
+      },
+      {
+        "question": "What is the significance of generational effects in the context of technology like ChatGPT?",
+        "answer": "The significance of generational effects in the context of technology like ChatGPT is that younger users who have grown up with this technology and its user interfaces are likely to adopt and not easily part with such tools. Over time, these shifts in user adoption can impact how commercialization occurs, especially as the next generation becomes accustomed to using technology in innovative ways.",
+        "time": "01:43:44"
+      },
+      {
+        "question": "How might the introduction of AI and ChatGPT impact non-traditional users in design and coding?",
+        "answer": "The introduction of AI and ChatGPT might attract non-traditional users, such as people without a background in design or coding, into the design workflow and coding process. These tools could democratize access to productivity, allowing for a broader range of individuals to contribute effectively in these fields.",
+        "time": "01:44:21"
+      },
+      {
+        "question": "What does the adoption of AI and ChatGPT among younger demographics suggest for the future?",
+        "answer": "The adoption of AI and ChatGPT among younger demographics, who may not have coding skills but are able to build with ChatGPT, suggests a generational shift in the way technology is integrated into everyday life. The average length of prompts has increased significantly since ChatGPT's use began to teach coding, indicating a rapid adaptation and growth in the utilization of these tools.",
+        "time": "01:45:49"
+      },
+      {
+        "question": "What challenges do investors face when trading on AI, according to the speaker?",
+        "answer": "Investors face the challenge of finding the balance between short-term trading and long-term investing when it comes to AI. There is a risk of missing out on the longer-term compounding effects if one is too focused on immediate quarterly results. The speaker also notes that not all AI investments are direct and some may require more duration and patience to realize their full potential.",
+        "time": "01:47:34"
+      },
+      {
+        "question": "How does the speaker view the importance of patience and duration in investing in AI?",
+        "answer": "The speaker emphasizes the importance of patience and duration in investing in AI. He argues that being patient allows investors to capture the longer-term benefits that might not be evident in the short term. The speaker also relates this to a hypothetical time machine, suggesting that the most transformative discoveries often take time to come to fruition.",
+        "time": "01:48:51"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "软件如何改变世界：AI领域重大收购案深度解读",
+        "summary": "本期节目Monica和高宁聚焦于今年AI领域内一项备受关注的收购案，即Data Bricks以13亿美元收购成立仅两年的大语言模型基础设施提供商Mosaic ML。收购时Mosaic ML虽仅有六十多名员工，但已推出多款开源代言模型，下载量超过330万。此次收购不仅标志着AI基础设施领域的重大变革，也引发了巨头和创业公司在融资和产品迭代上的高潮。节目邀请到Mosaic ML的联合创始人兼CTO及硅谷成长期投资人，共同从创始人和投资人的角度深入探讨了此次收购的意义，以及生成式AI、AI infer等领域的核心竞争力和未来格局。"
+      },
+      {
+        "time": "00:01:57",
+        "title": "探讨人工智能的过去、现在与未来",
+        "summary": "在本次对话中，两位嘉宾分享了他们各自在人工智能领域的经历和见解。一位嘉宾回顾了自己从研究生时期开始对AI的兴趣，强调了深度学习和神经网络对视觉识别任务的重要性，并分享了一项有趣的研究，即利用猴脑视觉皮层数据构建神经网络模型。另一位嘉宾则从投资人的视角出发，讨论了AI行业的发展和投资趋势，尤其是近年来大型语言模型，如ChatGPT带来的影响，及其如何改变了人们对AI技术的看法和应用。他们共同强调了传统AI与新兴技术之间的联系，以及未来AI发展的方向。"
+      },
+      {
+        "time": "00:08:06",
+        "title": "大型语言模型的挑战与机遇",
+        "summary": "讨论重点在于大型语言模型在企业应用中的挑战，特别是模型训练的监控、分享、和部署问题。提到Waits and Biases平台对模型训练监控的贡献，以及对投资者和创始人在选择ML工具时的建议。指出随着新工具和技术的引入，旧有工具可能需要更新或被新工具取代。特别强调了模型部署和生产环境中的问题，如自动化工作负载管理和模型的可靠性，以及如何满足企业对模型部署的严格要求。还提到了对现有解决方案是否足够以及未来工具需求的不确定性。最后，强调了将实验性质的AI技术转化为企业可信赖的产品所需的努力。"
+      },
+      {
+        "time": "00:13:21",
+        "title": "大型语言模型对企业的革新与挑战",
+        "summary": "在最近的对话中，我们回顾了关于大型语言模型（LM）在企业中的应用和发展前景。讨论着重于这些模型如何帮助企业提升效率，以及在实际应用中遇到的挑战。提及了一个企业（蜂巢）自2021年成立以来，致力于解决大型模型在企业内部部署和使用的复杂性，通过提供易于使用的工具和基础设施，使企业能够更高效地训练和应用自己的大型语言模型。这不仅解决了软件工具不成熟的问题，还使企业能够在不依赖外部服务的情况下，基于自己的数据训练模型，进而提升个性化和数据安全。此外，还提到了目前尚未看到许多大公司在此领域的活跃，但随着LM模型的规模应用，预计将会有更多企业和新创公司专注于生产环境的优化和改进，这将是一个值得关注的发展趋势。"
+      },
+      {
+        "time": "00:16:17",
+        "title": "大型语言模型的发展与企业需求变化",
+        "summary": "在过去的几年里，大型语言模型（LLM）如GPT系列的发展显著提升了AI领域的研究和应用能力。一开始，虽然大型模型的潜力尚不明朗，但对大型模型（包括英文和计算机视觉模型）的探索持续进行。随着时间的推移，尤其是ChatGPT的发布，企业对LLM的需求显著增加，这促使了从简单的计算机视觉模型到复杂的大型语言模型的快速进展。一开始，企业对大型语言模型的实用性和必要性持怀疑态度，但随着技术的进步和实际应用的展示，需求开始激增。企业逐渐意识到，定制化和微调现有模型对于满足特定业务需求的重要性。早期，公司的客户主要集中在训练较小的模型上，但随着NLP领域的迅速发展，特别是大型语言模型的出现，客户的需求转向了更复杂的大型模型。公司通过与潜在客户沟通，理解他们的痛点，并致力于提供高效、性能优良的大型模型训练解决方案，展现了对未来技术趋势的预见和准备。"
+      },
+      {
+        "time": "00:22:54",
+        "title": "开源项目商业化的挑战与策略",
+        "summary": "开源项目的核心价值在于其对社区的贡献以及提供透明度，这使得数据科学家等用户群体能够理解和信任使用的产品。讲述者分享了他们的经验，强调了从一开始就坚持开源的决策是基于对社区开放性的承诺。随着项目的发展，开源不仅帮助他们获得了社区的支持和认可，还为他们提供了商业化的路径。商业化的关键在于找到一种方式，使得开源项目能够在维持其开放性的同时，实现经济上的可持续性。这要求初创公司在考虑开源时要明确其产品的定位，以及如何利用开源来推动产品和社区的发展。此外，对于新的创业公司来说，基于成熟的开源项目起步，相比于从零开始，能更快地获得市场和社区的认可。"
+      },
+      {
+        "time": "00:29:43",
+        "title": "开源项目在AI和ML领域的战略价值讨论",
+        "summary": "对话集中在开源项目，特别是那些在机器学习(ML)和人工智能(AI)领域内的项目，如何影响技术栈和社区。讨论强调了开源作为验证技术的策略，尤其是在新兴市场中，开源有助于定义社区标准并促进技术采纳。同时，也提到了成熟市场中开源项目的局限性，以及开源项目在不同技术栈层次上的竞争策略。此外，还讨论了投资者和项目开发者如何判断市场时机，以及确保产品在特定市场需求下的成熟度和性能。"
+      },
+      {
+        "time": "00:34:35",
+        "title": "开源项目商业化及现代云基础设施的演进",
+        "summary": "对话者讨论了其开源项目的商业化过程，强调了从一开始就计划通过消费和使用量进行收费，特别是针对ML科学家团队。他们认识到大型模型训练的资源消耗巨大，因此建立了一个全面的基础设施和平台堆栈，通过优化计算来收费，这使得客户的工作负载运行得更快，并减少了总体计算成本。此外，讨论者还谈到了与公共云服务的合作，强调了帮助客户更轻松地训练大规模模型的重要性。他们认为，尽管公共云提供商也在构建类似的服务，初创企业仍然有巨大的市场机会。关于产品方向，讨论者提到，虽然效率是一个重要的考量因素，但可靠性和安全性等其他因素对企业的价值更为关键。最后，他们强调了提供一个稳定、可靠的企业级平台的重要性，特别是面对不断变化的硬件和软件环境。"
+      },
+      {
+        "time": "00:42:54",
+        "title": "打造高质量模型及对企业的影响",
+        "summary": "讨论了创建高质量模型以展示工具的有效性，并分享给社区以供进一步开发的重要性。通过建立这样的模型，不仅帮助公司提高了其在市场上的认可度，也使得企业能根据自身需求调整数据集组成，专注于特定领域如金融。此外，模型训练过程中的挑战，如模型规模扩大导致的技术问题，促使平台进行改进，以适应大规模模型训练的需求。最终，通过在行业基准测试中达到领先水平，增强了企业客户的信心，证明了所提供的解决方案的有效性和先进性。"
+      },
+      {
+        "time": "00:47:05",
+        "title": "帮助客户在AI模型选择中做出决策",
+        "summary": "讨论集中在如何帮助客户在开放源代码和专有模型之间做出选择，特别是关于何时使用现成的开源模型与何时需自定义模型。指出了客户在AI模型选择过程中常见的困惑和误区，例如模型的适用性、数据隐私、模型的针对性与成本考虑。强调了透明沟通的重要性，并建议使用合适的工具和技术快速探索，以找到最适合客户特定应用的解决方案。同时，也提到了企业在模型选择时考虑的因素，包括数据隐私、法律要求、成本效益等，以及对未来开放源代码和专有模型竞争格局的预测。"
+      },
+      {
+        "time": "00:55:32",
+        "title": "大型语言模型的开发和应用挑战",
+        "summary": "对话涉及了大型语言模型（LLM）开发的复杂性、多样性及其在不同领域的应用挑战。讨论了模型碎片化、工具选择、市场竞争以及生态系统健康的问题，强调了处于早期阶段的LLM技术需要更多的探索和发展。此外，还提到了评估LLM性能的困难，以及企业如何通过构建和训练模型来解决实际业务问题，以实现可持续的商业价值。"
+      },
+      {
+        "time": "01:00:42",
+        "title": "探讨语言模型对未来企业软件的影响",
+        "summary": "对话中讨论了语言模型（LM）技术的快速发展及其对软件即服务（SaaS）公司和企业软件的影响。一方面，担忧语言模型的快速进化可能导致现有模型很快过时，另一方面，认识到尽管语言的复杂性和不确定性，语言模型在提高应用的准确性和用户体验方面具有巨大潜力。特别提到了数据砖（Data Bricks）发布的数据砖助手，作为提升平台用户交互的例子。同时，探讨了企业未来可能拥有自己定制的语言模型，以及这如何改变SaaS公司的产品开发和市场策略。此外，讨论了集成化和定制化解决方案的需求，以及不同业务部门对数据处理和交互的不同需求如何影响语言模型的实施和效果。"
+      },
+      {
+        "time": "01:07:54",
+        "title": "企业如何利用数据和AI技术优化业务流程",
+        "summary": "对话集中在如何通过整合数据和AI技术来优化企业业务流程，特别是通过利用大数据处理和机器学习模型来提高效率。讨论强调了数据质量的重要性，指出如果输入的数据质量不高，那么输出的结果也将大打折扣。此外，还讨论了数据处理平台（如DataBricks）如何帮助企业通过ETL流程优化数据，从而训练更有效的语言模型。同时，讨论还涉及了通过改进训练方法和系统优化来降低模型训练成本的技术细节。总体上，这次对话揭示了企业利用现有技术资源，通过数据和AI的结合来提高业务效率和降低成本的潜力。"
+      },
+      {
+        "time": "01:14:40",
+        "title": "云计算和模型训练的复杂性管理",
+        "summary": "对话涉及云计算和机器学习模型训练的复杂性管理，包括如何通过引入更多系统性的机构知识、建立用户信任、以及如何简化配置和操作流程来应对这些挑战。讨论还触及了如何处理数据准备的挑战、模型训练的自动化、以及服务提供商如何保持其服务的透明度和用户友好性。此外，还探讨了模型发现和注册、以及跟踪和可视化模型性能的重要性。"
+      },
+      {
+        "time": "01:26:13",
+        "title": "探讨人工智能模型的开发和应用策略",
+        "summary": "对话涉及了人工智能模型在企业中的应用策略，强调了模型的最终用途和用例的重要性。讨论了企业在选择模型时面临的挑战，包括从API试点到全面生产部署的转变过程中的数据抽取问题。指出模型的开发不仅仅是技术决策，还涉及到企业对市场的响应和对产品未来成功的预测。此外，还提到了开源和闭源模型的优缺点，以及在模型开发初期选择小模型进行测试以节省成本的做法。最后，讨论了对未来AI发展趋势的看法和企业如何整合AI技术以提供统一的解决方案。"
+      },
+      {
+        "time": "01:37:36",
+        "title": "探讨人工智能对未来技术和社会的影响",
+        "summary": "讨论集中在人工智能（AI）技术如何塑造对当前和未来技术的理解，以及即将发生的关键事件和里程碑可能如何改变这一观点。特别提到了对AI在法律、伦理方面的考量，以及AI技术在商业应用中的潜在突破和挑战。对话中还提到了对Microsoft Copilot的商业反响的期待，以及长期来看，AI可能如何影响设计工作流程和信息获取方式。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "大语言模型（LLM）的创新与应用"
+                },
+                {
+                  "children": [],
+                  "content": "Transformer 架构的未来"
+                }
+              ],
+              "content": "AI 技术发展"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "开源项目的商业价值"
+                },
+                {
+                  "children": [],
+                  "content": "企业对开源技术的依赖与投资"
+                }
+              ],
+              "content": "开源与商业产品"
+            }
+          ],
+          "content": "技术与创新"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "技术的成熟度"
+                },
+                {
+                  "children": [],
+                  "content": "市场需求与应用前景"
+                }
+              ],
+              "content": "投资AI领域的考虑"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "开源产品的商业化路径"
+                },
+                {
+                  "children": [],
+                  "content": "企业对开源项目的投资与支持"
+                }
+              ],
+              "content": "开源与商业策略"
+            }
+          ],
+          "content": "商业模式与投资"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "数据隐私与安全问题"
+                },
+                {
+                  "children": [],
+                  "content": "集成现有系统的挑战"
+                }
+              ],
+              "content": "企业对AI技术的采用"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "生成式AI在不同行业的应用"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术在提高企业效率方面的潜力"
+                }
+              ],
+              "content": "技术应用案例"
+            }
+          ],
+          "content": "企业应用与挑战"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "新的算法与模型的出现"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术在不同行业中的深入应用"
+                }
+              ],
+              "content": "AI技术的未来发展"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "投资者对AI技术的期望"
+                },
+                {
+                  "children": [],
+                  "content": "技术成熟度与投资回报之间的关系"
+                }
+              ],
+              "content": "投资趋势"
+            }
+          ],
+          "content": "市场趋势与预测"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI技术如何转化为商业优势"
+                },
+                {
+                  "children": [],
+                  "content": "企业如何利用AI技术提高竞争力"
+                }
+              ],
+              "content": "技术创新的商业价值"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "面临的技术与商业挑战"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术的长期发展潜力与机遇"
+                }
+              ],
+              "content": "未来的挑战与机遇"
+            }
+          ],
+          "content": "技术与商业结合的未来"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "技术选型与应用策略"
+                },
+                {
+                  "children": [],
+                  "content": "培养AI技术人才的重要性"
+                }
+              ],
+              "content": "企业如何应对AI技术的快速发展"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI技术在企业中的深入应用"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术对社会与经济的影响"
+                }
+              ],
+              "content": "AI技术对企业与社会的长期影响"
+            }
+          ],
+          "content": "行业展望与反思"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI伦理与责任"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术与人类工作的关系"
+                }
+              ],
+              "content": "AI技术的人文考量"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI技术在教育领域的应用"
+                },
+                {
+                  "children": [],
+                  "content": "学习方式与教育内容的革新"
+                }
+              ],
+              "content": "未来教育与学习方式的转变"
+            }
+          ],
+          "content": "技术与人文的平衡"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "AI技术将继续快速发展，对各行业产生深远影响"
+            },
+            {
+              "children": [],
+              "content": "企业需要适应AI技术的发展，寻找技术与商业结合的最佳路径"
+            },
+            {
+              "children": [],
+              "content": "面对AI技术带来的机遇与挑战，社会与企业需要共同寻找平衡点，促进技术与人文的和谐发展"
+            }
+          ],
+          "content": "结论"
+        }
+      ],
+      "content": "对话脑图摘要"
+    }
+  }
+}

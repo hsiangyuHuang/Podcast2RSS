@@ -73,7 +73,7 @@ class RSSProcessor:
         <item>
             <title>{escape(item_info['title'])}</title>
             <link>{escape(item_info['link'])}</link>
-            <description>{escape(item_info['description'])}</description>
+            <description>{escape(item_info.get('description', ''))}</description>
             <content:encoded><![CDATA[{item_info['content_html']}]]></content:encoded>
             <pubDate>{item_info['pub_date']}</pubDate>
             <guid>{escape(item_info['guid'])}</guid>
@@ -253,7 +253,7 @@ class RSSProcessor:
                 item_info = {
                     'title': episode['title'],
                     'link': episode['link'],
-                    'description': episode['description'],
+                    'description': episode.get('description', '').strip() or episode.get('shownotes', ''),
                     'content_html': html_content,
                     'pub_date': formatdate(
                         self._parse_date(episode['pubDate']).timestamp(),

@@ -1,0 +1,1495 @@
+{
+  "pid": "61cbaac48bb4cd867fcabe22",
+  "eid": "660196aa1519139e4f889c30",
+  "title": "EP 51. [EN]全英文对话Inworld Al、微软Xbox: AI NPC会成主角吗？AI原生游戏什么时候到来？",
+  "task_id": "4l6xqav7xwa6qm2y",
+  "transcription": [
+    {
+      "time": "00:00:00",
+      "text": "亲爱的on board听众们，千呼万唤始出来，onboard终于要成立听友群了。今年我们有各种新动作，加入on board听友群，你不仅能结识到高质量的听友们，我们还会组织线下主题聚会，邀请部分听友实时旁听我们的播客录制，直接跟嘉宾提问等有趣的互动。当然你也可以在第一时间看到节目更新添加小助手微信onboard 666，是不是很好记on board 666发送你的姓名、公司和职位就可以获得进群链接了。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:26",
+      "text": "期待你来。大家好，欢迎来到新一期昂波尔。上周GTC2024大会在旧金山举办，可谓是游戏行业一年一度的顶级盛会。想必很多游戏开发者，AI游戏方向的创业者及投资人都亲临现场。从AIGC到大模型，这次JAI的浪潮可谓对游戏这个看似传统的行业带来各个维度和环节的冲击。而去年斯坦福小镇AI agent和国内完蛋我被大模型包围了哄哄模拟器等AI原生小游戏的一夜火爆，更让我们对AI游戏有了更多期待。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:01:00",
+      "text": "所以在第50期节目里，我们特地邀请到三位来自游戏领域不同细分方向的嘉宾。Nathan于来自硅谷AINPC引擎开发平台in word产品负责人，英特尔曾在去年半年内连续获得超过6000万美金的融资。陈林来自微软x box部门gaming AI团队的工程师，还有宇光前真格基金游戏方向投资人及资深从业者。我们从AI对游戏已经带来的变化聊起，包括AIGC、NPC角色扮演到agents的可能性，到该如何打造一款AI原生游戏，以及所面临的限制，如何看待第三方开发工具在产业里的定位和挑战。到最后三位嘉宾也给出了对初创公司的建议和期望，希望对无论是游戏玩家还是创业者的你们有所启发。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:01:51",
+      "text": "Enjoy, welcome all again to the on board first or so tell us little bit about yourself, your background and your current work. One more thing if what's your favorite gain this year? IT would be greatly if IT is an AN native game or even a prototype. So let's start with nothing.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:07",
+      "text": "Hello, everyone, think is having me on. So my name Nathan, i'm currently a director product uh a sort of called in role ai where i've been for the fat past two years and in world is working on building out of platform to bring characters to life, to power games and PC uh in them and also in other entertainment mediums. So most of my worker has been in immersive experiences.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:02:26",
+      "text": "I spent a couple years of microsoft lead product for ARVR teams across the hall lands mixed enterprise applications and for the sense of training environment tools um and really excited to check further uh one question was on what my favorite game is. I would say maybe ceilings from changing as well. But smoking gun is a game prototype by a craft one studio called value. And I think your case is a very good interaction integration between general AI and in game actions. So that's what I would say.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:02:58",
+      "text": "I'm good. And the next maybe .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:03:00",
+      "text": "one hi hey, hybrid. Uh, thanks for having me on. So uh, I am currently I get time and I am Monica CX, A colleague in the venture capital I used to be investor for like several years before that.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:03:16",
+      "text": "Uh, I worked in new york and h as the game developer. Like so I joined the industry for ten more than ten years. Uh after back at uh, china, I start up with my classmates and was acquired after so I joined the venture capital, focused mainly on the game AI and the XR domain.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:03:34",
+      "text": "So uh yeah II just a super fan of games. So big of my favorite game this year。I think it's a, uh, the game called make my one of my friends, if some of you may have heard of IT is called the AI entire simulator.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:03:50",
+      "text": "It's I gonna talk a little bit more uh, about its in the following part. So um yeah thanks. So that's pretty much the brief introduction of myself. 走，我来z .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:04:01",
+      "text": "more on again。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:03",
+      "text": "Thank you very much for for helping me here on the on board. Actually my great to learn from different perspective on exciting at topics. My and a soft engineer at microsoft x box emerging technology team, all the team is is rather an internal peneus team that we was created with the intention to focus our ongoing collective efforts shaping the future of gaming by expLoring, evaluating and incubating some relevant innovative technologies and technocratic and i'm working so specifically Young gaming eh, which is really the most disruptive technology at this moment.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:04:39",
+      "text": "Personally, i'm actually very new to the game industry as I just graduated from school recently, but that has been an invading year without generate VI. Since I john team, we been looking closely to the new opportunities industry. And I personally spend a lot of time on early stage prototyping, example proper engineering, reading some research papers on doing a lot of a user research prindle m some new ideas at this very exciting moment for my favorite game.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:05:07",
+      "text": "Um I believe you go on a name that i'll share some and the game II really like both of the game, but I for me live in more on two mainstream I still says voter gates three although it's not ANA game I found as a incredibly inspiration tional IT really showcase visionary approach to what we can create future generations of in terms of a game play all is very um I think that comes with a tremendous amount for game content and really nearly the parallel freedom of the interactive experience. I mean, the end of the the day, AI is still the ultimate amplifier and gaming is still about human and creative odds is asking the vote games really keep the really good baLance between technology and the content and enhance how people work and play a games in ways we are really, I think, missing altogether. And I think hopefully we can chem.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:05:59",
+      "text": "all in the future. Boris gay three is happen to be my favorite game to this year.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:06:03",
+      "text": "It's always great to to feel the like big games come together and discuss their favorite games. Um thanks again for um every speaker to um to come to come together to discuss this this this a very exciting topic and I in gaming. So the first topic uh would go to the ground uh because as a uh as a former entrepreneur and investor, you can t one of them the most extensive experience in the engaging industry and also have seen a blood of coming up uh in like make um uh making AI am useful and where um as much the AI gaming.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:06:37",
+      "text": "But to get before we dive into the specific topics, I think that would be great if you want to give us that the audience a general idea like what is really like generate AI in in gaming, where we talk about AI in gaming, what talking about, like what the key topic AM gaming. And also for you personally, like a when do you start to pay attention to the impact of AHA genova I in game when they should begin, realize is something something new here. And also to give give the audience a general idea of the landscape.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:07:07",
+      "text": "Uh, okay, yeah. I think I started to pay attention on, uh, maybe last november, uh, as long as the ChatGPT himself uh because you know games has always been the first to respond to technology, uh technological innovations uh so I have been actively participating AI related activities in the past year.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:07:27",
+      "text": "Um so a speak of the genre generative II think the uh yeah you after what is the milestones in my opinion I think the emergence of the check GPT definitely the major milestone because IT allows designers to consider game design from a completely new perspective. So in the past, I think was used in computation with with human players. You know we back to maybe twenty sixteen when the阿尔法go comes out。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:07:53",
+      "text": "So we think IT, that is a very disruptive breakthrough uh because you know we the the AI have break out with the totally new uh how to say I mean，yeah just used to in competition with humans like such as阿尔法go and阿尔法star used to defeat used to defeat the best human players in go and starcraft。Uh, but I think this time genre VI is the is totally is brand new here because this joins the game in a way that could CoOperate with the player. So IT will produce new types of games and make some game existing game types more fun, like the RBG games and puzzle games and so on. So yeah that's that's generally what's so being exciting to me .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:08:39",
+      "text": "when we are talking about when we talk about like AIG tiv I gaming like are some topics at the industry not .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:08:46",
+      "text": "talk about oh yeah I think is meaning um the two topics one is the a new game play comes out uh what what what's will generate the new game play and the second list about the tools and whether I will promote the efficiency of the game production. And I think there are a lot of topics, but these two are generally two biggest calgary and will comment more on that. Yeah that's a for my perspective, what i've been focused on for the past year.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:09:19",
+      "text": "I think I just share a little more from um from the XX seems perspective as a molecule sad AI is um although AI is a defining technology of our time, um stuff is not a new term for the gaming industry. IT has long been part of gaming over the past few decades. I will see yeah has been offering all those very new opportunities and that improve the gaming experience for both developers and players.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:09:44",
+      "text": "For example, um as we ve algorithm procedure generation for more engagement and also has been shared with some uh adversary boss for a competitive game play. But in the may meanwhile, we we also we all agree that this like generated way technology has been陈tremendously disruptive，seemingly even less just really realizing all the most ambitious applications in game industry. So I mean is apparently is very important for us to really have a protect understanding of the capability and also stations for not only in the technology but also although some very crazy user cases, uh, we we have been invisible.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:10:21",
+      "text": "And for for microsoft approach to and by extension, exports approach is always based on some like acting three principles, meaningful innovation empowers, empowering people and organize and lovely and also wear important the responsibility. If for gaming there are some major directions we have been pay a lot of attention to think you discover first of all gaming I will surely enhanced um game designers or game developers bread creativity and productivity in new and exciting ways. Um we are building a and fools that we hope to really help them realize their visions, building games and also helping the access to AI for for more people and create new opportunities。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:11:03",
+      "text": "As for the creative perspective, but also for the player counting consumer perspective gaming, I will deliver more personalize to customize immersive experience and player us are seeking as well. Has been worked for years. Um also longing side uh with a maybe microsoft research team on cutting edge yeah book rooms rooms, rooms in in language decision making, a customer mission learning, for example. I'm not sure whether you you you the gamer for racing game, car racing game, this is a game of the folder, very, very popular game.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:11:35",
+      "text": "This AAI field driver called driver, which is AAI uh VI driver that rally learns and the growth and compete in this reason game example will be if you are female with a3 ford general agent paper，the way they evaluate the behavior of uh agencies actually based on an in game ranking system called true skill, which was a developed by microsoft research time origin two thousand and five I think in early two twenty years ago I just want to say, like investigating any possible way to corporate new technology into the the interactive experience has been a common practice in this uh industry but creating video games, this fundamentally still human and creative board. It's all about missionary like delivered through advanced technology. So for our focus and over girl today is really to leverage our breakthrough in here to help create players and industry by new and in innovative things that will hopefully eventually create revolution gaming experience.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:12:38",
+      "text": "Yeah, that's interesting setting.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:12:40",
+      "text": "You briefly mention that there are some like wild imagination of AI and game. Can you just name one to like what my while gaining people I have been talking about IT.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:12:51",
+      "text": "I think very earlier in the year, people are talking, talking about, okay, how about we have this generative technology? How about we have game that is a poly, like real time, dynamically generate is a spiral ata language commons. For example, I want a game with blob, blob, some kind of settings and some of the elements.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:13:10",
+      "text": "And you can just have AI to have have the other coding all the eyes created for you, Richard. And I mean, we we all know is not like technically not phrasie at this moment. So I think people are just trying to be becoming more realistic, uh, as they have more hands on experience. But you know there sounds like really ambitious go, but we just want to be article as well.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:13:34",
+      "text": "I still see, I still see those uh those story telling in, uh, in some start of peaches so not that cover not a while the weekend dive to ear into this like later like why why we think this is their song limitations and how far away from there? Yeah sure. And talking .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:50",
+      "text": "about the third party developed tools or the platforms, I think in where is one of the you know the hottest startups in the gaming on genetic, regarding the genetic AI in gaming this year. But what actually interest me is I found out that people was found that in two thousand and twenty one. So we actually, just before the check to get out. So I just wonder they than if you can give us a break here, trade off you know how um what problems that you will try to save at the beginning and how the very value proposition and products .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:14:21",
+      "text": "involved since then yeah so yeah inward wasn't deed founded in july twenty twenty one. So before chat PT. So two of our confounders ellia in my RCEOCTO, they formally started to start up called APIAI, which acquired by google, and that transformed into google dialogue flow, which is well known as one of the leading enterprise conversation AI chap, hot tools.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:14:45",
+      "text": "And so while they were there, they were experimenting a doubling with generate. AI pre ChatGPT look at GPT two, GPT three. And there they met.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:14:53",
+      "text": "Hyland are two part officer in third o founder, and started to realize that, you know, the capabilities of gender. A, I were going to that of uh, existing tools and they were also excited about metaverse applications. So before june, ai uh, metaverse was the gib z word there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:10",
+      "text": "And ideally, initially, the company was found IT as an idea on how to solve the cold start problem there. So a large issue was even in these open role spaces in virtual environments um with semiretired tic finality of visuals and what not IT still felt really empty. And so without you know life in this world, uh user engagement was very low.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:32",
+      "text": "And so initially the the focus of involved to populate those experiences, creating characters that could uh be agented and bring life to virtual worlds, which you know we might actually see a resurge of now uh, with the new technology abilities and that was a core focus. And since then, uh, metaverse, obviously the technology was not quite ready for prime time yet. And so we found public market fit in gaming and entertainment as a whole inhibitive bit to focus on that。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:58",
+      "text": "So what what's um that he was call product or the platform right now and what you know if you can give us a brief description on that and also the key values that on the current product is providing for for the game developer.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:12",
+      "text": "right? So at a high level where a character engine, uh and so if you go to enroll studio, see what looks almost like a social media profile or some sort of character sheet. And we worked with character designers and writers to identify what the most important elements that make a character a unique character uh and so by just natural language describing the different components of these aspects such as a characters motivations, the flaws, the back story, uh, the personality traits, their dialogue style and what they what they know as knowledge, we're able to train the models that will be able to perform the role of these characters in different use cases, whether that, say, a shot keeper or quest in a game or you know character in a different medium uh ah just bring them to life to be able to respond to players dynamically regardless of what user input is given and also prescribe act that they might within the game uh and so you know some recent milestones there as that we we recently announced a partnership with x box in microsoft research, which is where actually we're working with tinglings team on uh to create next generation tools that will help developers and players achieve more and have Better experience with their games. And earlier this year, we also raise a series a plus from light speed ventures, uh, bringing fund raising to five hundred million.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:17:32",
+      "text": "Evaluation to and to your last question, what is the value of adding uh in world's capability into games uh, over traditional methods, right? So I see the key area here is there are a lot of studios experimenting with going direct to a large language model provider, whether that's uh GPT or lama or mr uh, but there's a lot of limitations on how they can optimize behavior for a game, right? So in games, often times these instructions must be minimal.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:04",
+      "text": "Agency, uh, uh, the characters need to have a lot of grounding on their warehouse of the world, the context, their environmental awareness, uh, there needs to be very low cost at scale as well. Given a game could be played by millions of users, they need to have full finality in terms of how the output animations, the visuals, the voice, uh, both speech text and taxi speech. And so in all kind of packages, all the different technologies optimize that specifically for the gaming environment. And so it's, uh, much easier integration lift as a one stop shop and also the quality is Better because of the five tuning and focus we give towards this use case.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:40",
+      "text": "Quick follow up on what um the in world is providing for the designers. So is there right now a real time uh character engine or a kind of copilot product for um for them to design the game plans before the on before the game is release?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:56",
+      "text": "Yeah great question. So we support tooling on both sides. So on the design copilot side, we know early on some of our early adopters were actually just authors and writers. They would recreate their care caps in the platform and chat with them to give them inspiration on how to write the next chapter of of their book.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:19:13",
+      "text": "Where I identify hunter might behave in a certain environment for brain forming uh and so that's a purely designed to all, but the core focus is on like the run time integration. So after you create a character, how do you deploy IT in a world such that they have a set of behaviors and objectives to fulfill? And so when players will engage with them, they can respond real time dynamically without have to be hard coded or scripted and allow for emerging behaviors.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:19:38",
+      "text": "And part of the partner ship were doing with x box is to further flush out you know tools on both in but also heavily on the design time copilot side. Uh, it's not the right term to use necessarily by creating tools to help visualize branching narratives. It's set after game designers stop to mize.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:19:55",
+      "text": "Okay, thanks, school.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:19:56",
+      "text": "Since we are already talking about the AIMPC in, it's definitely as to be discussed before is one of the most um like most discussed topic. So I love to just curious Nathan and also of other uh and other other speakers, what do you what do you think that um developers and the use is really expect from uh from the AINPC right? Do we expect like britain and we see like some MPC, are you you see some MPC are just like matter.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:20:23",
+      "text": "Do we expect people to like the users, the players, to interpret more with the MPC? How does that helped uses play this game and Better? how? How do you evaluate value?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:20:33",
+      "text": "sure. I'll touch on this from a high level and love to hear other thoughts, too. So overall, I don't think that players have a lot of expectations yet to given that these technologies so early, I think there's a lot of curiosity on what the possibilities are. And so one thing we notice with the early games that have been developed is that often times players, they're not familiar with the capabilities of general AI.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:20:54",
+      "text": "And so you'll see, let's say, you know a players playing origins, which is something that in role produce is like a vertical demo instead of following the game play in story of origins, sometimes players will just start asking questions about the real world to these characters are trying to break the experience because they find that more fun to try to get an AI to say something silly right or talking a poet ah. But that novelty, I do think, will die down. And players will play the game, actually play the game, and not mess what the AI.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:22",
+      "text": "Overall，and there's a lot of really exciting mechanics that we can see, right? So imagine characters really driving the nare forward for sure. Uh, you know we can give character's objectives to progress a help player progression, uh and maybe even change thEpace of which they're able to proceed. And so characters that are you know giving contal hints to the player, a sharing information about the world law are those are all obvious use cases.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:44",
+      "text": "But really what excites mean more is the interactions that are only possible with gender of ai, uh, and how they can unlock new game of mechanics, let's say, base off of conversation and social nuance uh, you might be able to befriend a show keeper or earn their trust through your in your dialogue. And only by doing so can they sell you a secret item that they otherwise would have done for you, right? And so other on the other side, maybe in your conversations with, you know the other un space of really rude and you know you're burning down every village you walk by. Maybe the same shopkeeper will decide to raise all the Prices by two thousand percent and you're no longer able to afford any items as a player and it's a lot more difficult to proceed. And so there is lot of interesting mechanics space offer you know that the social nuances that's not possible, which general AI as opposed to just like the static flat conversations, more than more just cut scenes, you know, you you press one of three buttons and their all hard code and script up before, but really now having to leverage your own creativity and your can your conversational skills to progress in the game as a ic idea.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:46",
+      "text": "So some cars, like, are there any specific types of games there are more suitable to to leverage the gentiles? I in intensive of MP, C design.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:22:56",
+      "text": "yeah. So I think we're overall ignostic. I think generally AI can be applied in any type of game even if it's like a simple game, let's say like a world style game. You know there's like a new one. I could there's a twist there that could be part of india that can make you more compelling. Uh, but II think narrative driven games like others get three or procedural open world games are obviously great fits for this technology just because of scope of what can be achieved here. Is much larger ah and so that's what comes to mind first, but I wouldn't say that it's only effective in those applications.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:23:29",
+      "text": "We wrong and telling what what are your thoughts on this? Maybe starting from you wrong?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:23:33",
+      "text": "okay. yeah. I think this is making doing point here, uh, that actually early this year and G, D, C, I tried the invoice demo.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:23:39",
+      "text": "I am not sure as Nathan here and I think it's a makes up a good very good prototype. Uh, I can make example here. It's a uh the game that I mentioned before. It's called the Younger AAS simulator. I don't know if any of you have ever played IT.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:23:54",
+      "text": "It's a lunch on each and uh yeah it's a the donor, the twenty thousands within just a few weeks and youtube to tens of millions of views now uh, so it's a game where you and your girl end are locked in the room through totally throw natural language dic with your virtual girlfriend and you can find the close to finally escape the room. The game is all about to the soft puzzle and escape the room. So the big biggest difference in this room is that you completely use natural language to get the close to communicate with the with the virtual girlfriend.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:24:27",
+      "text": "You with the MPC, I think there are also some works I saw at the game jam where you control a battle through voice or typing. This is the um I think this key features that to distinguish the AI native world, the generative AI again from the uh or NPC from the traditional game. Uh another examples, the game I saw in like the game in elder school, there are some interesting AI mos and most don't change the game play, but they make you feel more lively when you talking to the AINPCA, make the me more immersive yeah the elder grows, say self is the game norm for emersion right? Um yes, my famous我说fantastic。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:25:08",
+      "text": "C games like the border games order bords three um yeah also I think the biggest problem is how to introduce AI and design a sustainably play play a king, because a good game is not just about giving you a sense of novelty，right? But it's a it's a very complex system that incorporate many subsystems. So using RPG games as an example, you need to consider uh, both the new numerical growth of the characters and the advancement of the plot.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:25:38",
+      "text": "So this is just the alignment of two very basic, basic subsystems actual game has dozens of subsystems intervened with each other. So I think the biggest issue for AI or the AIMPC, it's AI can cost the experience to lose control. So designing a complete and a substantive ly playable game, uh, it's uh it's it's the big, big chAllenge.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:26:00",
+      "text": "Even if it's just a few small, small sub systems. It's just like any games and games scale, I think it's very difficult to require and this requires a lot of exploration at this point. I think follow a quick question when .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:26:18",
+      "text": "designing the character. So um do you think the designer, uh, should let the usual know the character has an equipped with generated generative AI this technology, you know won't let them know because, uh my my assumption is that once there is some pollution problems with the AIAI character and with you, I will undermine the user experience a lot so what what's your take? No, what do you see from the game?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:47",
+      "text": "Some some games are doing right now? Yeah, yeah. Good question. I would say today, best practice certainly would to be that players know that the game is leveraging gena. I, uh, and that maybe the game is experimental. But you know, I would say that over time these issues such as holic instance they should be solved right uh and it'll be calling place for game NPC to be be driven by general AI.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:27:06",
+      "text": "So I don't think that there needs to be an explicit disclaimer um but you know what interesting to me is you know you mention hycy nations and if that does happen a good erotic game play yeah that is true um a lot of times but I think it's up to the gay designer to try to minimize the impact right like if IT does happen, IT is very detrimental to the player experience. Let's say, you know, quest giver tells the player to go explore this area, the map to get some reward. But that's not actually true. Then if a player wastes thirty minutes ago explore, they are going to completely frustrating and that's not a good game experience, right? And so i'd say there's a lot of tools that can be leverage to make sure that these areas don't happen.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:27:44",
+      "text": "Ah for example, i've seen some really clever game ideas that or whose nations might be a feature rather than a lot, right? Lets says a mysol ving use case where we know characters they may be um you know they they might just be crazy and they like sharing random things or there like AAA joke there with you and they they are intentionally feeding you misinformation and you as a player how to determine what is true, right? And there could be some UI elements to reinforce this, such as when you do reveal the truth that is not a whole, a nation, the UI might be able to indicate that this is the truth via some some game design mechanic such as mass effect.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:28:18",
+      "text": "Um you know when a character is Robin the back of their head, oh, you know that the character selling the truth now, right? So there is reward mechanism there. Uh, so that could be done with post processing.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:28:29",
+      "text": "Grounding layers would like a different model to let no let the game environment know that the specific information has been shared and then that is then reflecting out in the UI. In some other way. So there's many different ways to go about this. Uh, but to directly answer your question again, I think it's sure as good particia right now to make that disclaimer may not be needed in the future.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:28:48",
+      "text": "I think I just um share a little bit more from another perspective from my experience of working with a develop about more like gaming experience from like a player perspective. I think even for the designers and developers, it's very hard for them. Do you have a good understanding of what is like intelligent NPC really means for their game like design, right? You can always just say, okay, we have, we can generate.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:29:16",
+      "text": "I can not introduced, and I may know if you see that really is offering unique experience. Every place through that can are Taylor to each players individual preference. So what does that mean to them when they actually design a game play? I think I think a group practice for now for us is really have to do some certain level of demonstration to to show that. Okay, let's see at a quick demo of what is possible and really kind of being inspirational for them to the really um um design some poly different like potential of entirely new game on real exam, focusing on AI driven content interactions. I am is even harder, I would say IT maybe at the same level of a difficulty for both the players or or developers to have the the understanding of what IPC that means for this, for this applications in area is just so new.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:30:09",
+      "text": "And so so now I think people just trying to be uh open minded and trying to be optimistic in general and also as a as uh you going next to share, there are also some practice to many to to um being I think being open minded but still being responsible so that the the AI in a game play doesn't that they have many troubles on with oldest responsibilty issues. I think there are um many, many different approaches right now. But I think personally we are very optimistic.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:30:39",
+      "text": "So we talk about her luCindy might be um one of the a most constant problems that h the designer might have. And I get any other concerns that you after you talk to different designation studios regarding DAAINPC.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:54",
+      "text": "I think first of all, there is definitely always AI mean as as you you probably know also most of the audience game industry already pretty commercialized and there are a lot of them rally none AI specific uh problems when they are using uh some like new toys are new like work streams. For example, on the the uncertainty, the high risk.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:31:17",
+      "text": "But also there are some ASAI related for example um for game industry, the people I think there's AI think miss I would say. mr. Even mr.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:31:28",
+      "text": "Sumption, like people saying gamming is not that mission critical. I heard about that saying a lot time. But II personally it's not it's not about mission critical. Really different perspective aspects being mission mission critical because is rally player facing your your AI system, whatever whatever your building is really having facing to very uh large user space on very high frequently interaction time. So really have to be super, super careful about what are you putting your account.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:32:01",
+      "text": "And also for the interest for for the gaming industry, lot of about IP sensitive things, I think game studios also always have concerns on that as well. So we are trying to make sure our solutions, maybe not even suspect to AI, but ribs, like when whenever you create powerful technologies. So you must also ensure the technology is use a response bd is is is such a new technology and also the such all the chAllenges are such a new.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:32:29",
+      "text": "So we are very committed to creating like response AI by design and specially in the content of gaming industry. As you can imagine, the content, the content get station for in game in accreted content can be somehow different from from other cases. But there's AA cal set of for principles never change. Um I think which is I think very, very important for both the players side and also also for the game developer size, for example, fairness, we ability and also safety, privacy, security, inclusiveness, all those factors are very important and also something we have been primarily investigating.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:33:05",
+      "text": "One will follow up with athens how to actually tackle with a listening because I know that because of you know combination of different I guess, different layers and the technologies you just mentioned like for for the inward. So uh, what's the the best practice so far? And uh, what does some limitations the remaining limitations that you see that needs to be improved in the future?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:27",
+      "text": "yes. So I think it's it's definitely large issue with Jerry models as a whole, right? But I think best practices air, you try to minimize them as much as possible or as I mentioned earlier, incorporate them somewhere into your game design.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:33:39",
+      "text": "So by minimizing them, we have to think about why, how nations happen first. It's usually done when the model doesn't have the right information in the prompt or in the training to give the right answer. And so they make up something as IT should make sense using the next best outcome. And so a lot of times, the recommendation we give to our clients and our other games that we're designing is you simply try to include all the information that is important and relevant such that they cannot be holus onate on to begin with. And so you know by using techniques such as you know rag now, which is really popular um and other methods of grounding, we can give the characters awareness of how to answer certain questions such that they are not prone to fluctuating false information that doesn't exist necessarily so that you know where I would kind of focus most .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:34:26",
+      "text": "of the attention to for now.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:34:27",
+      "text": "Yeah since we yeah ince we touch upon the AIAIMBC and not so like uh I would like to take IT make AA little little broader when the stepper, when the stanford paper a genetic agent came out. I think the gaming industries reaction is to see like rather we can create a stand westword right or or AA step d several rally as as a gaming. And so like there, this is just one of the many like so cal like AI native games. And that we have seen people try to try to design first of like how would you define an AI native game and what are some new like uh, game categories or a gaming experience and not totally new game experience that that you expect like AI can I can enable if you can also share some some experiments like like what you can share briefly in the begin of the the episode, like some experiments or some games that you have seen that that would also be that would also be great.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:35:20",
+      "text": "Yeah, I think I can are my person perspective. I also believe with one of the most extoll c industry um I mean, I think is highly likely there will be some new game categories because there is a such a novel human computer international tap and there should be some new game play design around the interaction.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:35:39",
+      "text": "I think II think I have a personal um maybe general way to collect ze uh all those different projects to try to build some AN later games. I think roughly two category tegor ies。The first one was rally trying to gaming.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:35:55",
+      "text": "Five the the experience of prompt engineering itself verses, and could be game fied interaction with some carefully prop engineered experience. Get some many, many examples I can share, like all those different demand we have have seen in this crazy year, for example，some AIDND和AI danger master，which is some interactive story telling. I think no game, new game downers.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:36:19",
+      "text": "Could my uh emerge that focus on infolding narratives to by the players interactions with general VI beyond all those three prescription or predetermined story lines. And also there we saw some like AI driven living a sand beach sand box example uh general day I could lead to a subgenre with within the senate oxy because the environment as scenarios could grow and evoke without any electrically proscriptive design. But by by the interaction between player actions and the the the infront environments and also we we saw um as as nothing briefly shared like the AI detector games, uh AI puzzle solving riddle games, which I think totally disruptive a player facing interaction but is very hard for for now to really identify what are those no round this is. But II believe there are some general categories. We can uh we can put all those new trials, our experiments um on those categories into some .",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:37:21",
+      "text": "general agents, right? Like I believe you have seen a lot experience, but that you have seem like what are some chAllenges and really, we haven't seem like a uh like like a real like myrle but ryle like stand for rally game uh coming up yet but like to security like the chAllenges here and what the progress you so much .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:37:40",
+      "text": "I mean there are some demos, right just I think uh implementing the the the paper and today with some pretty good visual UI. But it's very hard to really build a game player around the the agent framework because it's not desire for games, right? Is desire for really simulating uh human behavior and not really try to make IT like interesting to players.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:38:04",
+      "text": "They are definitely chAllenge from both side, both the technology side and also the game play design time. I personally I think my personally experience sound the asian related game players, you really have to make sure to our game play have put the put the the emergent behavior of agent behavioral into into the core instead of its just a add on to existing game design, for example. I think this is very hard to build a exciting game play if you just directly put agent in some simulation without really think about why we need a smoke with is is why we need this multiple ent interaction for this game. Um yeah I think he live IT hard for me to share some special ideas. I believe there are some general chAllenges like that.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:38:55",
+      "text": "All thanks. Training for for sharing this um you like you best or I ve you have you have also seen a little experiments were approach on on this like a leveraging generate AI uh in in gaming or create or to create new games like was I thought .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:39:10",
+      "text": "on this yes sure. Uh I think it's quite difficult to define what AIA native game is. And throughout the year, many people ask me what is what do you think the AIA native games are?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:39:20",
+      "text": "Uh, I think you can not just define something in the future that yet to come. So that's the biggest chAllenge, I think. So we we should just open our mind to talk what AI native, uh, I mean, what the AI can do and what AI is.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:39:35",
+      "text": "Uh, one big thing I think make AI game design a little different here is I want to introduce the new concept I just called. The CoOperative control represents that we as player stalky some of the gaming experience. In fact, the development of games has always been along this path.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:39:51",
+      "text": "Take rog lag games as an example of sacrifice the certainty of experience and let randomness fill in the fund. Autobath ler type games also sacrifice ed, the big part of the players Operation. So in terms of AI game mega feeling is IT will take out some traditional part, which I also talked with my portfolio. You should just do things and make the experience emerge as much as I could. Uh, your game will surprise you, not the way otherwise .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:40:16",
+      "text": "yeah I definitely with that overall like there is no need to force AI into games, right? And so that's know my on that. I think there's a lot more value. And when you are just designing the most offer game from the beginning, I will say if you design any game for the beginning with AI in mind though, IT opens the door for more possibilities, the game sign, the mechanics that you can take advantage of.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:40:39",
+      "text": "And that's what i'm really excited about in the future, right? It's not taking existing game in figuring how to add an AI mod into IT as ADLC because I think that doesn't show case the true potential of what can be done, right? So uh for example, we have uh AWAA game that launch hot in world called sickness enterprises uh made by a net studio and IT showcased is the ability in power of AI to power in assistant and it's very effective in compelling, but IT doesn't necessarily transform the underline game mechanics of how was played.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:41:10",
+      "text": "And so not is is a great POC, an example of what can be done. But you know, the game design were made with AI in mind for the beginning just to make the best game possible. There are so many other areas that we could have explored with IT, and I think that's where the true transformation is.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:41:24",
+      "text": "yes. And .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:25",
+      "text": "comment .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:41:26",
+      "text": "um I think when rock lake was was born, right and we just introduce certain sense of the random here。So I mean the first world like designer uh II think he does know, he didn't know. What will you be like if we in imported such big sense of the random here?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:41:48",
+      "text": "I mean, in the in the same sense, I think AI uh, happen the same way here. We can use the rock like as the example. So we just let things happen and the game will tell us, uh, whether is fun or not I mean, yeah in in a certain way look like kind of the or the crafting game and my craft or the room world.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:42:08",
+      "text": "If you can see all the the fortress, if I you know the example I made here. So they all kind of a certain of the out of control being imported here. So I think A, I will just happen the same way.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:42:21",
+      "text": "Yeah, that's great. I love you. I definitely .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:42:23",
+      "text": "do with that thought or forget the work. AI, we just let things happen. We just the, we just used LM, or the the the cutting edge technology here. So to make something fun or make something out of the control, make increase y that's how the the industry will go.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:42:44",
+      "text": "Yeah definite. That's that's why I brought up the the idea of leveraging ing the idea of like gently agents paper into gaming because II think that's one uh one direction that people are are trying, right? Can we create the west world? Uh the rest were like, uh, gaming experience. And I think, uh, right, that is also has done some experiments on on this.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:43:07",
+      "text": "So so just to be specific, like I would love to hear because I know that you're you're going to talk about this briefly in our previous conversation that curious like what uh what's what I thought on this type of games, like what some they are arsinoe ments that that we have seen, right? Like a what what's was a gap？What's the gap here? I do can be really expected to be a new, new category of games yeah .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:43:31",
+      "text": "I think stanford agent paper IT doesn't shot quite novelli to me uh, because I don't know if you guys know the name caught the room world. Uh yeah it's it's also that happen in a small town and you can you just uh control the small characters and just give them orders to do things。So yeah II don't have so much to comment on the agent。II mean, agent is definitely going through, everything will have their own agent。But in game I still dancing. So much innovations here .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:44:05",
+      "text": "but I just share like we have seen a lot of demos, even like research paper put agent framework into some like game play design example some social deception game um hear some AAI play some um social game that you have to lie to each other oh ah yeah you you says through some other lines I have to work on some particularly um I think winning conditions for that game uh i'm sufficing talking about well of game, which is a pretty pretty a popular social game in china.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:44:36",
+      "text": "Probably not in the other other areas country, but in china's very popular. And I remember this is a paper uh specifically in a like aging frame into the world of game and modifying some of the formal design so that is Better review us suit the the the game play of of that predict game inside of the original paper and II believe in a paper they observe some emersion behavior. For example, the the asian rally can collaborate um like very interaction on some specific c tactics in the game.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:45:07",
+      "text": "For example, they work together, try to perceive persue, try to be persuaded to another agent or they try to work together and confronting each other so that at least one of the the world will will be um well well a wing, some confidence at the end, something like that. II believe there are some interesting game loy potentially could be some interesting game ly game play design around IT. But as I thought uh as I just say, H, I think it's really require more careful game play design around the entire multi agent action as as an social deception game is a very special typical game.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:45:43",
+      "text": "We have very well defined game, game fall well well defined um winning conditions for each of the players. But for more like modern rise games, for example, open war game assets x you really have to be so careful why you need agent like multi agent interaction I can play today because when we talking about emergent behavior is basically another way saying predictable behaviors, right? AAMI behaving ways that intended by designers potentially breaking the game experience or causing baLance issues, yet in other situations to emergent ability are desired if they could help improve dynamic in place.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:46:24",
+      "text": "So II recently believe there is something there could be like some little, little game, game, also little game drows. But definitely questionable whether IT could be something like very univerSally adapted. That's my first thought on this topic.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:46:41",
+      "text": "Anything like was your fault this like step rally to vi a star of games like sure yes. So not a ton .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:46:48",
+      "text": "of new thoughts ad here. I think it's really interesting when we're talking about agented characters overall, right? So giving NPS life of their own is you know kind of in line with enroll original mission where you have these virtual environments that say, and life goes on even if you as a player, you're not participating in them, right? So I feels like there could be some more engagement for multiplayer type of simulation experiences where you know you feel formal to some extent if you're gone for too long while the world will change without you uh, being involved and you might get love behind a and just being able to see that realism take place and have characters be more proactive and taking actions I think will just unlock more interesting and dynamic game play so yeah, that's IT from a high local .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:30",
+      "text": "so actually this sounds like IT sounds more like the end. Well, of course everyone have a different definition of like uh h of meta's right? But IT doesn't sounds more .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:47:41",
+      "text": "like a metaverse .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:43",
+      "text": "of game really. Do you like game me mechanical here?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:47:48",
+      "text": "exactly. Yeah, I would say it's really up to your definition, right? Like a metaverse being like a virtual world by IT could just be a game environ, like AGT, A instance, or like AA lobby of a game or specific surber and robo ks. Those are all versions of metaverse for sure.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:48:03",
+      "text": "I mean, a tax adventure game. Even a mod could be a modern.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:48:10",
+      "text": "Yeah, I can jumpin with a little comment to, uh, china talking about the agent player. I want to make a little comment to chinese part above. H my god feeling is I think agent could be used in games like the R, T, S, or the simulation game, for example, starcraft, or civilization, to use as so called the CoOperative control partner. H, to help human players to reduce a lot of repetitive and complex manipulation you want to share.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:48:36",
+      "text": "Like he saw, there is some like a real time simulation game that can really benefit from the agent framework as agent could be more intelligence IT doesn't required like very complicated really like demanding uh reasoning but is also required like tremendous of uh information processing at the same time for those uh game s and really I really ree with the on on the topic and the really reminds me of a research research work by by matter every years ago even before generated like charge beauty comes out, I believe is AI don't remember exact name maybe I can find out and share with the with audience internals is really you have the AI to play at a human level in some like diplomacy game especially the game I requires you to building trust negotiating and collaborating with other like players is also not only on some like specific actions that could be also by like mature nature language, natural language based on negotiation I believe there are some some very interesting like totally different um experience if we can make IT is an um kind of intelligent enough to handle those kind of demanding experiments.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:49:40",
+      "text": "Yeah my two cents overall here is I think this is where the intersection of like genitive AI, mostly conversational large language models overlap with traditional gay eye e systems, right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:49:51",
+      "text": "When you think of really intelligent gay AI, such as for go or chest before, or even just like, you know, uh, real time shooters, they are not really necessarily driven by laws english models, right? And you don't need these models to be predicting agency behavior. But I think is the combination of the two together that make IT really powerful. So you know like you could push some of like the decision making tree to uh, general AI to make and have that more deeply integrated into the conversational context and awareness of a character and a very powerful there. But I i'm person really excited to see like a close emerge between the two technologies here.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:50:24",
+      "text": "Yeah well said let's just switch gear to um to the real product building because I know that uh although we talk about lot of ways that all the tools that AI generative AI can um can be used to enhance, get developing or design. But um we haven't seen many successful gaming tools or third party vendors for the gaming studios or large large gaming companies. Uh maybe I will direct the question to me one first like uh because of the investor also uh uh a entrepreneur SS so what are what are some major bottle next barriers that you think so far? Uh why we haven't seen many um you know large or you know large companies providing those tools.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:51:02",
+      "text": "Uh HI will conde into three three points. I mean, first, I think cost definitely one issue. But but there has this has been mentioned a lot, so I just jumped really quick. Oh um I think I will be resolved over time and uh probably in the future, a new subscription method will eventually emerge.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:51:23",
+      "text": "But I mean at this point, I mean custody still definitely one big issue um yeah that's when I talk with many the entrepreneurs founders uh they will they will always come comments or concern about the uh cost so this is the major bottle next I think. And the second one is, uh, like I mentioned before, I think the big problem is how to introduce AI design a and design sustainably playable game. So this is the basically a design issue like we taught a lot before.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:51:54",
+      "text": "So it's original is difficult in enough to to just how how design design the AI native or design a new uh game play experience. And it's very hot. Every team their design team are talking about this and mention it's it's just totally嗯i me it's it's it's just a new scenario that they have to meet him。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:52:20",
+      "text": "And the third, I would say it's talent is also a major issue because, uh, I think people from this industry just tell me IT is currently very difficult to find people who understand both game design and technological technological principles of AI and if you want to develop good, I mean, AI game maybe and this is very necessarily if you you have the people to lose both of these to domains. So I think yeah, talent is very important here. Yeah that's that's two three bottom next I think at this point.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:52:56",
+      "text": "yeah cool. So especially the cost here.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:52:58",
+      "text": "So uh, I want to hear uh what i'll take a name because I think you have been um partnership or working with different types of different size of users and studios。So what might be some you know a division process of their by inverse building in houseful studio？And what do you think you know the current some current bottle next or barriers so far? And maybe you can share one of two stories that you know how to persuade them to try the trial products and um you know grow our user base.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:53:29",
+      "text": "So I think there was two questions I heard by one is, uh should studios be building their own tools to help you know a generation gaming verses by from a third party provider and second question, which is on costs and how the use of general I can be viable in games. So to the first question first um I think you know many studios will try, as I mentioned earlier, to just DIY go straight two ill's language model.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:53:55",
+      "text": "You write a prom for a character and you get some output there. But they'll increasingly find out but it's very difficult to fit all aspects of character performance into the big picture. And so they're onna start to have to add on different machine learning models for different aspects of the character.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:54:10",
+      "text": "Uh they're gonna to go source their own uh third party speech of tax and taxi speech of voices involved, right uh integrate with other game engines that may not be already accessible through like an easy a pair plugin. And so i'd say, you know, there's just like a lot of value that can be had by going to like an AI expert to help solve these problems for you versus you know internally as like a game studio trying to solve difficult AIML problems. So that's like just like a hello ble uh commentary on the first question.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:54:40",
+      "text": "The second question, which maybe more interesting as how this can be viable, is you know it's tRicky genera. I is expensive. There is a cost associated with infancy and every single interaction that you might have right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:54:51",
+      "text": "Uh that being said, I think up to the game designers to make sure that the inclusion of the technology is adding enough of value, right? So many different ways attract this IT could be uh you know increased engagement of players, time spent in the the game or a number of copy soul by whatever metric are using there。I think IT is important and you should be able to even back in out.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:55:12",
+      "text": "So that is profile today with the Prices as is. And you know I without being I think this goes without saying is in ten years or even five years, the cost of today's models for inferences is going to be a fraction of a fraction, uh, but even today, let's take a look at one game that are involved. Any developer created called vod ville, uh, they sold you know tens of thousands of copies on steam and they they're profitable, right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:55:35",
+      "text": "The entire game play is based off of interaction, is just talking with characters to uncover a mystery that happened. Uh, and even with that on one hundred percent of the game is requiring influencing costs, is still profitable. Uh and so that gives that, I think, the industry a lot of confidence that you know this does certainly add value to game play and a lot of other games. The interaction of the AI won't be a hundred percent of the game, right? Like players will still be a lot of time in other areas.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:56:01",
+      "text": "There are ways that you might be able to let's a limit the amount of interactions you have using some cover mechanic, such as you have to achieve certain indian currency in order to talk to a the special entity that's powered by AI or that the Carters default might have, uh just like a certain amount of information that to talk with over time, they just simply will close off the conversation. And so you know there's uh opportunities there to optimize by design. And I also think that you know there maybe like a new space that could be had with, let's say, in game advertising to some extent through the conversations. Characters don't want to dive two deep there. But you know i'm pretty interested to see how that might be applied where in conversation with the n game, maybe they're able to in a place some products uh that so makes sense within the world law or other that can be like a uh a method of motivation.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:56:51",
+      "text": "yes. So what we are saying that if IT is an in conversation um and then the the the fee that charged for uh by advertising can covered the cost my generated by the AM models that would be a viable way to insert uh the generative AI in the conversation. Taste game play yeah possibly and .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:10",
+      "text": "gaming may not be the best uh medium for that type of moitie ation obviously ah but yeah it's interesting thing .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:18",
+      "text": "about yeah .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:19",
+      "text": "that makes sense some um yeah just to continue to continue this uh this topic we have been talking about like we been talking about how uh AI can can increase the the productivity in terms of game game development I think will talk about like AIAI generated like through the esses were like image or like also including AIMPC tools is building so so general maybe maybe something from um maybe a to start like whether some technologies or or AI uh AI enable tooling that you guys have used to, to improve the the the productivity in intense of game development and well some like if you can share some some exemplary or or tools that you guys have use or you see where uh some some peers in the industry from adopted, that would be great.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:58:11",
+      "text": "Yeah that's a great question. I mean, for some other AI technology that that has been widely available maybe earlier, for example, texture image models, if we're looking back um the adoption is not very free forward, all intuitive at all.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:58:24",
+      "text": "At very beginning IT took I think several several months every years of hand on experience and experiments to navigate what are the sear most appropriate use cases for such a new technology maybe for the text image people later found maybe is a body stage concept. Really help from the technology. And now for the incorporation of particularly large larger models is also following very proto similar protests.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:58:50",
+      "text": "Exploration to identify most helpful support, we know, is gonna to be revolution, but we don't know exactly how those technologies offer a range of a game designers, especially automating street lining repeated task for sure example um generated AI can never handle aspect like creating detailed game. SS very a of flashing out some complex character back stories, which traditionally require significant time and efforts. I think those helps really freeze up dinner are developers to focus on the more Operative and the more innovative aspects of development.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "00:59:25",
+      "text": "And AI tools can also bring new dimensional to game design terms of, as we as we briefly discussed, personalization, customization by understanding and adapting to players preferences, if I can really help designers create game development, uh, our game development that are more immersive of engaging. I think those level of cosmic ation means like player can really enjoy a game, game experience that the feels tailor made for, but also doesn't require a lot of efforts like bother gates three from the from the game of and perspective. So I think is very we are expLoring actively together was in what as well for this our partnership, how what are the most, I think, immediate value we can bring to our content creator, give us and eventually to the entire existing workflow. And also we are also investigating some any possible way we can even develop new workforce, workfare instead of just an automating the existing one. I think the the conversation is going and I seeing the general idea is we are creating tools for developers and a great time to learn, experiment and see how emerging technology help those creators.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:00:37",
+      "text": "Quick follow up. So can you share and share with us one or two you know, the two step, uh, you have made part of the ship within or or not, but one of the tools that has been released uh by incorporating generative AI to the designers saw developers um so far this year.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:00:54",
+      "text": "But I can sure I live IT. Maybe NASA can um can fall off IT. And I think several weeks ago, we polish um uh h announcement that we have this multi year partnership within an f box where we are looking together to explore and create new tools, leveraging AI for developing characters, dialogue, story quest and potential other elements in the video games.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:01:18",
+      "text": "All we mission is really uh create tools that actually working in collaboration with game craters. Imagine games that we haven't been seen before. The dynamic can change in more based on how the player is playing. Um it's actually not clear what those game look like. But though we are we are believed there should be some uh some novel games but is more concrete for us to build tools to enable game, to options, to create those games.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:01:42",
+      "text": "Are we are also working closely with game studios to help with rather substance of scenario, get interested in expLoring upset in the demo, specifically on narrative designs we shared in the korean g star event for this ownership, where we create an interactive a narrative design like copilot tour. Basically you can take in uh a huge structural or and structural gaming gaming documents and they will generate some visual script or visual v two for a narrative design。Um we are hope to share more achievements for the succession journey going forward. And if you are a game studio from the audience, we are would like to work with you and play statued .",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:02:26",
+      "text": "yeah so from a high level, you know are really excited to partner with microsoft, create new the next generation of design time tools capabilities here. So won't you're too much additional information here but uh, just imagine being able to optimize the way that you're able to design the different narrative branches uh, in your games and how the characters can to push those to life uh and just are going to do there that if you are a game studio excited about leveraging genera I in games definite reach out and we excited .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:02:58",
+      "text": "to partner what you want IT yeah also you gang also uh as a ux CH entrepreneurs investors have also seen a lot of uh tech um a products and and the ubs in dispute. Would you like to also share like some uh some toilings and use cases you have a you have been in this AI tolin space. Well something like like how yeah how have the game to is adopted those technologies .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:03:23",
+      "text": "um yeah as far as I know, I think the most frequently use the scenario is the concept artist you say to do some breeds orm in in early stage yeah I think is the most frequently used scenario. And art SI production is currently not able to be directly replaced by AI work.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:03:40",
+      "text": "And I know some studios will find tune model you know to find to a the models from hugin face or summer to get Better detail effects of the images generated by AI uh because um if they they just development uh uh their own model is very is very hard for small studios and um yeah I will talk a little bit from the investors perspective. I think in the game industry, there is not enough space for founders to build under a big general productive scenario. Tools like engine and graphics making have well developed.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:04:15",
+      "text": "And furthermore, pipelines is pretty much the most valuable part of a game company. So for some upper level work, big companies would like to develop their own pipeline tally, which is much easier for the in house teams to feeding and to serve these small companies besides its lower margin profit. Uh, another problem is work related to creativity, very diverse and hard to unify from company to company.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:04:37",
+      "text": "And the last pound, on the least, a china's SaaS market is very different from what in the us. Well, this is without out a very bad business in china. And i'm sorry to say something game is even worse.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:04:48",
+      "text": "You can touch base on uh, the difficulties of integrating the third party tools into the current workflow because for the large enterprise they want to building house, and for small enterprise, a small students, they are quite together and they have their different uh unique workflows that uh, the titles might be hard to integrate.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:07",
+      "text": "I just want to hear some takes from this and as well because I know you have a release the the developer platform already. So have you steam some similar difficulties or chAllenges that you want just mention and maybe on how actually your team how how does your team overcome the similar chAllenge? E or how to stabilize the product? Yes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:29",
+      "text": "I think the tooling is important. Uh, I would say we're learning a lot on how existing what flows work and how we can optimize our s case in aps to provide as much seamless integration as possible.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:05:42",
+      "text": "And so you know we designed our SC case to be as modeler as possible, right? And so let's say they you're working in either unity and really other you can use our SCK um for the whole package suit into n and you can use our default uh ready for me or can or a Better human gration depending on the platform uh or you could use your own three assets in models, right? Use in world provided, uh speech tax, taxes, speech if you want to.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:10",
+      "text": "You could use eleven labs or your own unique party. Uh, and so we kind of take a design system where we want to be as foxier as possible. So we're focused on the overall orchestration of character behavior. But as he relates to you know the rest of the stack, uh, it's dragon drop. For the most part, there are obvious advantages that can be had by using inroads in house tools because we optimize the performance and lining cost there, but we don't prescribe for the to any games studio.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:40",
+      "text": "I see. So is this still a subscription basis basis model? Or you also make some new inventions in terms of you know how how to charge the customers? Yes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:49",
+      "text": "we've played around with this a couple of times. So in the past, we used to have in a monthly subsistence based fees, uh, but right now we actually just adopted pay as you go model and so we have a flat rate fee for inference costs. Uh there's no design time is uh so anyone can go in there and create the characters for free and go from there。And if you launch to actual production environments um and plant a deploy game, we have special packages there that were able to negotiate on depending on your use case, depending on your scale uh and that's where we can um do an ad hawk pricing for now.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:07:24",
+      "text": "Okay，cool. yeah. So so I really depends on how的users are using the tools and depending on their usages once they created characters or other road and then you charged by the usage，well, so uh how do you actually acquire those earlier r adopters because we have talked about you know some uh resistance of uh the gaming studios in terms of using a new tools, as chilling just mentioned previously.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:48",
+      "text": "And also how large uh enterprises or how large studios uh try to build their own large language model or to the in house at the beginning. So how how to acquire only other doctors right now? What are some you know uh I customer profiles of inward?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:08:05",
+      "text": "Yeah good question. So I think early on, we are very fortunate that our founding team had a lot of connections in the space already, right? And so we lean heavily on our value at investors as well to make the introductions to relevant in gaming, entertainment companies there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:08:18",
+      "text": "But for the most party，we also have, like a superstar marketing team has done a great job of getting in worlds name out there. And so a lot of clients will come to us without us having to reach out to them to begin with on the partnerships side. And so early adopters, you know like we got accepted into the disney y celery or fairly early on, and I think that helped acela ate um a lot of uh discovered ability and visibility for use cases there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:08:40",
+      "text": "One deployed application was in partial with the antic. So the makers are in my go and a lot of a visionary AR experiences, they created a education based experience with in world to call the wall, uh, where users can learn more about three or four set set up. And they actually just launched a new santa experience partner with us as well that made the wall street journal today. Uh, and so those are know the early adopters who were able to know take early technology even before everything was just from the outside and just iterate with our team and, uh, make things happen. And so I say a lot of partners now are kind of in the same, like RD face where, you know, let just take this is talking and code developed together to ensure that we can achieve the outcomes.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:09:24",
+      "text": "There sounds a quick follow up this so after your part in IT with different studios and let the users get the users on board to try and to try our products of platforms, uh, after that how can they difficult to further integrate with their current workflow like because you know the the whole process um of making designing games and deployment is things quite industrialized or standard standard ze right now. So um there any take take waves that you can share regarding you know um further integrating with their workflow.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:57",
+      "text": "Yeah I would say again, very we were very closely with our partners at this point in time to make sure that the deployment ts are successful. And so you know any part of custom development is needed on a domain specific content moderation or let's say, you know they have certain release flows internally on uh responsible AI or uh other. We partner with them to make sure that we are meeting those requirements from like a deployment perspective. I think that's like maybe too technical. Are the detail dive into can discuss on the best architecture is on set up for is on what is on the side and make sure that optio and scalable for official appointments.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:10:35",
+      "text": "Uh what's your what's your take on that? Because you just describe some difficulties of uh, independent tool. But um after you talking to some startups or some studios, um is there any suggestions or are the best practice do you have seen that how those tools start to acquire earlier, a doctor saw only users .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:10:55",
+      "text": "yeah I think the the biggest suggestion I will give to the startups, um it's just make something useful. I think it's quite important because um也just uh I mean，games include a very wide range of genres. You know the biggest problem have mentioned in the game industries, actually h is very difficult to be integrated.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:11:17",
+      "text": "So whether it's from the productive of the birth of the creativity or the production process or the market development. So I think firstly, you have to understanding the uh you have to for the for the founder, uh, the understanding of the game industry is very, very important. So you Better come out from the in game industry and you Better have pitched in deeply in a the game production.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:11:41",
+      "text": "So this is important. That's a perspective that I see founders, whether is you are qualified or not. So you can find which scenarios will be widely used in the mainstream production process。",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:11:54",
+      "text": "Um yeah so that will help you to make something really useful for the company, for your customer. Um yeah and the second is to determine that is IT can efficient solve problems. So every step of game production have different standards.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:12:09",
+      "text": "I mean, so for example, the r assets are a trade off among, like I mentioned, different style and the resource occupancy. So I mean, it's it's Normally not a one way index. So your plan needs to be able to meet vous vous detailed requirements.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:12:26",
+      "text": "So at the same time, he must be uh, I think your your tool, your tooling or your method have to be robust enough to meet the changes because the the the industry or your customers requirements will just various uh along the time or the different projects. So um yeah definitely just make something useful and Better have a very good understanding of the game industry and you Better have pitched deeply in the the game production. I think all this part is very important. So I if you have done this, uh, I think it's a good start to acquire users.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:13:05",
+      "text": "Yes, sounds good. And thanks for .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:13:07",
+      "text": "the sharing as we are closing the end of would to end with more question, if there's one or two areas where these cases that you help general FA, I is going to make a big change in the coming year, uh what would be where your wild wish or or prediction, of course, you, uh you are want to welcome to share some a some projects or a tokers you are close lish uh flowing in this space .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:13:33",
+      "text": "yeah so for me personally, i'm really interested in applications of geneva and education. So I believe that education and attack has a lot of opportunity for improvements and impact.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:13:45",
+      "text": "And so you know the basically idea of leverage generation to allow a students and individuals to learn at their own velocity to dive into subjects that interested and get the new ones created, resources and learning teaching um that they would not usually be able to get out of your traditional classroom environment。That the area that i'm most excited by, and I think this technologic can truly be transformative. yeah.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:14:10",
+      "text": "So in gaming, I think i'm personally mostly interested in seeing like the the actual novel gamming mechanics that are driven by general. So something I mentioned earlier is, uh you know like more realistic replace scenarios where uh social nuance is actually uh a game of fight component now, right. So there's like a lot of design here and IT depends on the the the the use case.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:14:31",
+      "text": "So sometimes you know if you're playing a game, you don't want to think right, you just want to relax. But if you're looking for more immersive experiences, I think get is really interesting where you have to pay attention to the subtle nuances that you you do in real life when you communicate with others and kind of take that whole interaction dimension to games. So that's like what I most excited to see.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:14:55",
+      "text": "Often looking forward to that um there maybe chilling like water like some changes in terms of the gentle AI and also AI in gaming you expect see the coming one two .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:15:06",
+      "text": "years yeah for from a non technical perspective I also agree as a huge emerging um opportunity on social and lively and entertaining in general. I believe there could like the entire um there could be a new product format was entirely totally different uh interactive instructive experience that could involve in next few maybe one two one two years maybe even earlier different like as a decision total different game genres has get involved.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:15:34",
+      "text": "I personally very optimistic. I think this is that will be happening with this all trying to to chasing the the holy grail on on on. Maybe a more more technical perspective. I personally also uh echo back to the to the agent framework design. I believe there this is a huge potential that of the agent framework could also get hugely improved uh with with the help in the game industry and that means game simulation, perfect tsk for any complex or ied on agent framework and potentially agent design can also diverging to different perspective. Now most of the applications still focus on productivity tool, but I can see the value that could be becoming some like sentimental value provider, for example, like AI companion.",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:16:23",
+      "text": "And there are many different um process maybe we can put in the later we can void community uh community supported autonomous open uh agent self self explore clock s self expLoring a framework, my agent um gaming infrastructure and multicultural uh agent platform building upon AIMSR. There are many works on that and I believe will be more and more powerful framework. 那completion yeah definitely mean .",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:16:57",
+      "text": "the developer and video yeah .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:17:00",
+      "text": "but is also supported by the world like the the macro FAPIA。",
+      "speaker": "发言人5"
+    },
+    {
+      "time": "01:17:07",
+      "text": "Would you like to share your thoughts?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:17:09",
+      "text": "也是i definitely for a new game，play a in like the AII implemented new game play happen the game industry and and I believe there will be a like a world popular game created next year. I think twenty twenty four they just will flash out many kinds of new games. Um and one specific point I want to point out is the platform and I just heavy ever sized on the platform in on like we chatted and tiktok.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:17:40",
+      "text": "I mean, it's just having a lot in china, but probably not all overseas. I am not sure whether uh is the same is the same thing. So um you know so的的小程序还有how to says the small program that happened on tiktok and china，there's the there's there's very booming this year in in happen on we shut and tiktok.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:18:03",
+      "text": "Uh, I think meta facebook has used to do the same thing. I just made some HHTML five games uh, on the new platform. So I think AI may probably come out on this platform.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:18:15",
+      "text": "That's one specific point I want to point out because AI game is the something that haven't in the back end by letting the front end and this very you know this is very easy to spread out。So I will put my focus on the small program specifically based on the we had or the tiktok uh this this platform. I will put my focus on the on he on on on this area uh and also for the tooling perspective, uh, I will see the progressive of the 3d modeling。So like I said, the 3d modeling is a long term thing but is still on the way。So as will gradually make a difference, I think next year, we'll seeing new things here too.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:18:58",
+      "text": "Yeah thanks so much for for time.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:18:59",
+      "text": "It's been a great discussion and would love to hear more. And also like we would love to fall clothing on like um how the AI gaming it's involved in the coming years. 以上就是本次播客的全部内容，感谢大家的收听，希望对你有所启发。如果你喜欢我们播客的内容，欢迎你点赞分享，在评论区写下你的心得。另外onboard也有听众群了，添加小助手微信ID on board 666。再说一次，非常好记欧博666加入听众群，了解更多互动机会。另外如果有喜欢两位主播用爱发电，也可以在小宇宙给我们打赏，请我们喝个咖啡。如果你在用apple procs收听，也希望你能花几秒钟给我们打个分，打个五星好评，让更多人可以了解到我们我们下期再见，继续更多干货。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这次讨论中，参与者探讨了人工智能（AI）在游戏行业的发展前景，特别是在2024年可能出现的新游戏、平台如微信小程序和TikTok上的游戏开发，以及AI在提升游戏体验方面的潜力。他们关注AI作为游戏开发新平台的重要因素，特别是在前端应用中的作用，同时强调了3D建模进步的长期影响。讨论还包括了AI带来的挑战，如成本问题、可持续性设计难题和人才短缺，以及游戏开发者如何通过内部开发或第三方合作利用AI技术。特别提到了与微软合作开发利用AI的平台，以及通过工具优化叙事设计和角色互动提升沉浸感和个性化体验。此外，讨论还涉及了生成式AI在游戏设计中的应用，包括是否应告知玩家使用AI技术以及如何处理可能引发的问题，以确保玩家体验的准确性。整体上，讨论者强调了技术进步与游戏设计合作的重要性，以探索AI带来的新可能性，同时确保技术发展符合玩家期待和游戏体验质量。",
+    "qa_pairs": [
+      {
+        "question": "What new features are being introduced to the on board community?",
+        "answer": "The on board community is launching a listen友群 with various new features such as线下主题聚会，实时旁听播客录制并直接与嘉宾互动，以及在节目更新时第一时间通知。",
+        "time": "00:00:00"
+      },
+      {
+        "question": "What is the role of AI in game design and how has ChatGPT influenced this?",
+        "answer": "AI, particularly ChatGPT, has allowed game designers to consider game design from a completely new perspective. It has introduced new game design possibilities and made previously complex tasks more approachable. AI has the potential to create new types of games and to enhance existing game types, such as RPGs and puzzle games.",
+        "time": "00:07:27"
+      },
+      {
+        "question": "What impact is AI having on the gaming industry according to the speakers?",
+        "answer": "AI is significantly impacting the gaming industry, with developments like AIGC, NPC role-play, and AI integration in games like 'Smoking Gun' showcasing strong interaction between AI and in-game actions. AI is not only creating new game types but also enhancing existing ones, making them more fun and engaging.",
+        "time": "00:07:53"
+      },
+      {
+        "question": "How are AI tools and platforms enhancing game production efficiency?",
+        "answer": "AI tools and platforms are enhancing game production efficiency by providing new opportunities for creativity and productivity. They are involved in algorithmic procedural generation for more engaging content and in the creation of AI-driven adversaries for competitive gameplay. Additionally, AI is used to personalize and customize the gaming experience for players.",
+        "time": "00:08:46"
+      },
+      {
+        "question": "Can you provide an example of AI integration in a popular game?",
+        "answer": "An example of AI integration in a popular game is the 'AI agent' in the 'Forza Horizon 4' racing game, which dynamically learns and competes based on an in-game ranking system called TrueSkill, developed by Microsoft Research. This showcases how AI can enhance the interactive experience within games.",
+        "time": "00:11:03"
+      },
+      {
+        "question": "What are some of the challenges and limitations of AI in gaming?",
+        "answer": "Some challenges and limitations of AI in gaming include the technical feasibility of real-time dynamic generation of entire games, the necessity of realistic and varied gameplay experiences, and the boundaries of AI in terms of creative narrative and game design. There are still stories to be told and ambitious goals to achieve, and AI is not yet capable of completely autonomously creating a compelling gaming experience from start to finish.",
+        "time": "00:13:34"
+      },
+      {
+        "question": "What are the initial applications of AI in virtual worlds?",
+        "answer": "The initial applications of AI in virtual worlds were to populate experiences by creating characters that could be agented and bring life to virtual worlds.",
+        "time": "00:15:32"
+      },
+      {
+        "question": "What is the current focus of the company mentioned in the transcript?",
+        "answer": "The current focus of the company is on developing a character engine that enables characters to have unique personalities by describing different aspects such as motivations, flaws, backstories, and dialogue styles, and to perform roles in various use cases.",
+        "time": "00:16:12"
+      },
+      {
+        "question": "What kind of milestones has the character engine achieved recently?",
+        "answer": "Recent milestones include a partnership with Xbox and Microsoft Research to create next-generation tools for game developers, as well as raising a Series A+ funding from LightSpeed Ventures, bringing the total funding to $500 million.",
+        "time": "00:16:12"
+      },
+      {
+        "question": "How does the character engine's integration with Microsoft Research aim to help developers?",
+        "answer": "The integration with Microsoft Research aims to help developers create next-generation tools that facilitate better experiences for both developers and players with their games.",
+        "time": "00:16:12"
+      },
+      {
+        "question": "What is the value of adding in-world capability into games over traditional methods?",
+        "answer": "Adding in-world capability into games allows for more optimized behavior tailored specifically for gaming environments, with features such as grounding characters in the game world, context awareness, and high-quality animations, visuals, and voice integration.",
+        "time": "00:17:32"
+      },
+      {
+        "question": "Is there a real-time character engine or a copilot product available for game designers?",
+        "answer": "There is support for both design copilot tools, which assist authors and writers in character development, and a real-time character engine that allows deployment of characters within a game with dynamic behaviors and objectives.",
+        "time": "00:18:40"
+      },
+      {
+        "question": "What does the speaker think about developers' and users' expectations for AINPC?",
+        "answer": "The speaker believes that players currently have limited expectations for AINPC due to its early stage, but there is curiosity about its possibilities. Some early games show players engaging with AI characters beyond gameplay, using them for novelty, which is expected to diminish as players become more immersed in the game experience.",
+        "time": "00:20:33"
+      },
+      {
+        "question": "What are some of the potential uses for generative AI in characters within games?",
+        "answer": "Potential uses for generative AI in characters within games include driving narrative forward, providing contal hints, sharing information about the game world, and creating social interactions that can influence the game's mechanics and player progress.",
+        "time": "00:21:22"
+      },
+      {
+        "question": "Which types of games are more suitable to leverage generative AI?",
+        "answer": "Generative AI is suitable for any type of game, but it is particularly well-suited for narrative-driven games and procedural open-world games where the scope of content is large and complex.",
+        "time": "00:22:46"
+      },
+      {
+        "question": "How do developers plan to integrate AI into game design sustainably and without compromising the gaming experience?",
+        "answer": "Developers are exploring ways to introduce AI into game design in a sustainable manner that enhances the gaming experience rather than detracting from it. They are considering how AI can be aligned with other game systems and how to minimize negative impacts on gameplay.",
+        "time": "00:25:08"
+      },
+      {
+        "question": "What are the potential methods for implementing reward mechanisms in a game character's behavior, as mentioned in the speech?",
+        "answer": "One potential method for implementing reward mechanisms in a game character's behavior is through post-processing, where the back of the head of a character like Robin could signify selling the truth.",
+        "time": "00:28:18"
+      },
+      {
+        "question": "How can game environments be informed about specific information being shared by characters, and how is this reflected in the user interface?",
+        "answer": "Game environments can be informed about specific information being shared by characters through 'grounding layers', which allows the UI to reflect this information in some other way.",
+        "time": "00:28:29"
+      },
+      {
+        "question": "What difficulties do game designers face when understanding the concept of intelligent NPC (Non-Player Characters)?",
+        "answer": "Game designers face difficulties in understanding what intelligent NPC truly means for their game and struggle with the practical application of generating unique experiences for each player.",
+        "time": "00:28:48"
+      },
+      {
+        "question": "What challenges do game developers face when creating AI-driven content interactions in games?",
+        "answer": "Game developers face challenges in demonstrating the potential for AI-driven content interactions, ensuring the technology doesn't lead to problematic situations, and creating AI by design while being mindful of issues such as fairness, ability, privacy, and security.",
+        "time": "00:29:16"
+      },
+      {
+        "question": "What concerns do game studios have regarding the use of AI in game design?",
+        "answer": "Game studios are concerned about AI being mission-critical, given the large user base and high frequency of interactions, as well as IP sensitivity issues. They seek to ensure that powerful AI technologies are used responsibly.",
+        "time": "00:30:54"
+      },
+      {
+        "question": "How is the gaming industry responding to the introduction of AI, and what new game categories or experiences are anticipated?",
+        "answer": "The gaming industry is responding to AI with a push towards creating AI-native games, potentially resulting in new game categories and gaming experiences that leverage human-computer interaction. Some current examples include interactive storytelling and AI-driven living sandboxes.",
+        "time": "00:34:27"
+      },
+      {
+        "question": "What are the main challenges identified in implementing AI in gaming, especially in terms of emergent behavior and game play design?",
+        "answer": "Challenges in implementing AI in gaming include ensuring that AI emergent behavior is integrated core to the game play rather than an add-on, and carefully considering the reasons for AI integration to make it compelling for players.",
+        "time": "00:38:04"
+      },
+      {
+        "question": "What is the concept of 'Cooperative control' as it relates to AI in gaming, and how does it affect traditional gaming experiences?",
+        "answer": "The concept of 'Cooperative control' refers to the integration of AI in gaming where player actions and emergent behavior significantly influence the gaming experience. It affects traditional experiences by introducing elements of randomness and dynamic content generation.",
+        "time": "00:39:35"
+      },
+      {
+        "question": "Why is it suggested that AI should be considered from the beginning of game design rather than as an afterthought?",
+        "answer": "AI should be considered from the beginning of game design to truly harness its potential and to avoid simply adding AI as an addendum to existing game mechanics, which does not showcase the full scope of what can be achieved with AI in gaming.",
+        "time": "00:40:16"
+      },
+      {
+        "question": "What is the potential of leveraging AI in gaming, specifically with agent-based systems?",
+        "answer": "Leveraging AI in gaming, particularly with agent-based systems, could potentially create more dynamic and engaging experiences. It could enable emergent behavior, add intelligence to characters, and improve game design. There's also a possibility for AI to be used as a cooperative control partner in games like Real-Time Strategy (RTS) or simulation games to reduce repetitive or complex human manipulation.",
+        "time": "00:42:44"
+      },
+      {
+        "question": "What are some examples of how agents have been integrated into games?",
+        "answer": "Agents have been integrated into games such as those involving social deception, where they can be used to control non-player characters (NPCs) and create scenarios requiring players to engage in complex interactions and deception strategies to win. An example mentioned is the game 'Wu-Tangang', a popular social game in China, where agents were integrated into the gameplay to enhance emergent behavior and interaction among characters.",
+        "time": "00:44:05"
+      },
+      {
+        "question": "What challenges exist in implementing AI in game design?",
+        "answer": "Implementing AI in game design faces several challenges including the cost of developing AI tools, designing sustainably playable games with AI, and finding talent that understands both game design and AI principles. There is also a need to ensure that AI integration adds significant value to the game, such as increasing engagement or profitability, and this must be balanced with the cost of implementing AI.",
+        "time": "00:50:24"
+      },
+      {
+        "question": "How can the costs associated with AI in gaming be justified?",
+        "answer": "The costs associated with AI in gaming can be justified if the technology significantly enhances the game experience, leading to increased player engagement, time spent in the game, or other performance metrics. As seen in examples where AI dialogue is the core gameplay, even with substantial interaction costs, the game can still be profitable. There's also an opportunity to optimize costs through in-game mechanics and potentially cover the costs through in-game advertising.",
+        "time": "00:54:40"
+      },
+      {
+        "question": "What are the ways AI is currently being used to increase productivity in game development?",
+        "answer": "AI is being used to increase productivity in game development through the use of AI-generated content such as textures, images, and also through the incorporation of AI tools that help automate tasks and support game designers with repetitive tasks. These AI tools are helping to focus developers on more creative and innovative aspects of game development.",
+        "time": "00:57:19"
+      },
+      {
+        "question": "What challenges are associated with integrating new AI technologies into game development workflows?",
+        "answer": "Challenges associated with integrating new AI technologies include the need for several months of hands-on experience and experimentation to find the most appropriate use cases, the necessity for ongoing exploration to identify the most helpful applications of these technologies, and the recognition that AI can't handle aspects such as creating detailed game narratives or character backstories.",
+        "time": "00:58:11"
+      },
+      {
+        "question": "How are AI tools enhancing personalization and customization in game design?",
+        "answer": "AI tools enhance personalization and customization in game design by understanding and adapting to players' preferences, which can create more immersive and engaging game experiences. This allows games to feel tailor-made for individual players without requiring a lot of effort on their part.",
+        "time": "00:59:25"
+      },
+      {
+        "question": "Can you provide an example of a tool that has been released incorporating generative AI for game development?",
+        "answer": "One example is the multi-year partnership with Pixar announced several weeks ago, where they are working together to explore and create new tools leveraging AI for developing characters, dialogue, story, quests, and potentially other elements in video games.",
+        "time": "01:00:54"
+      },
+      {
+        "question": "How is AI being applied in narrative design for games?",
+        "answer": "AI is being applied in narrative design for games through the development of tools that can generate narrative designs like copilot tours, which can take in large gaming documents and generate visual scripts or visual stories for the game's narratives.",
+        "time": "01:01:42"
+      },
+      {
+        "question": "What difficulties do game studios face when integrating third-party tools into their workflows?",
+        "answer": "Game studios face difficulties such as adapting to different workflows for large and small studios, integrating tools into existing workflows that are unique to each company, and dealing with the variety and complexity of work related to creativity that varies from company to company.",
+        "time": "01:04:48"
+      },
+      {
+        "question": "What steps are being taken to optimize the integration of AI tools in game development?",
+        "answer": "To optimize integration, teams are learning about existing workflows, providing seamless integration, designing flexible systems where game studios can use their own assets, and adopting a pay-as-you-go model for costs to ensure that the tools are as flexible and useful as possible for game studios.",
+        "time": "01:05:29"
+      },
+      {
+        "question": "What challenges are associated with acquiring early adopters for new AI tools in gaming?",
+        "answer": "Challenges include ensuring the utility of the tools for the gaming industry, having a deep understanding of the game production process, and meeting the specific requirements and standards of detailed asset production which are unique to different projects and companies.",
+        "time": "01:07:24"
+      },
+      {
+        "question": "What are the key considerations for startups developing AI tools for gaming?",
+        "answer": "Startups should focus on making something useful by understanding the game industry deeply and being embedded in the production process. They should ensure their tools or methods are robust enough to meet varied industry standards and customer requirements over time.",
+        "time": "01:10:55"
+      },
+      {
+        "question": "What areas are predicted to see significant changes with the integration of AI in gaming in the coming years?",
+        "answer": "Areas predicted to see significant changes include the integration of AI in education, allowing personalized and interactive learning experiences, and the incorporation of AI in creating more realistic game mechanics that involve social nuances, leading to more immersive gameplay.",
+        "time": "01:13:33"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "Onboard播客第50期：AI游戏的未来与发展",
+        "summary": "本期Onboard播客聚焦于GTC2024大会，探讨AI如何冲击游戏行业，包括AIGC、NPC角色扮演和AI原生游戏的开发。邀请了三位游戏领域专家，讨论了AI对游戏行业带来的变革、面临的挑战以及对初创公司的建议，为游戏开发者和创业者提供启发。同时，宣布了Onboard听友群的成立，以增强听众间的互动和信息分享。"
+      },
+      {
+        "time": "00:01:51",
+        "title": "游戏行业专家探讨AI技术对游戏未来的影响",
+        "summary": "在对话中，三位游戏行业专家分享了他们对于AI技术在游戏领域应用的看法及其对游戏未来发展的重要性。他们分别介绍了自己在游戏行业的背景和目前从事的工作，以及他们对当前游戏产业趋势的看法。此外，他们还讨论了各自今年最喜欢的几款游戏，特别强调了AI技术在增强游戏互动性和创造新游戏体验方面的潜力。"
+      },
+      {
+        "time": "00:06:02",
+        "title": "探讨生成式AI在游戏行业的应用与发展",
+        "summary": "生成式AI在游戏行业中的应用引起了广泛关注。自从ChatGPT出现以来，游戏开发者开始从新的视角考虑游戏设计，AI技术使得游戏能够与玩家协同合作，从而创造出新的游戏类型并使现有的游戏类型更加有趣。讨论集中在两个主要方面：一是生成式AI如何催生新的游戏玩法，二是AI工具如何提高游戏制作的效率。微软等公司在推动AI技术在游戏中的应用时，强调了创新、赋能和负责任的重要性。AI技术不仅提升了游戏设计师和开发者的创造力和生产力，也为玩家提供了更加个性化、定制化和沉浸式的游戏体验。通过与微软研究团队的合作，游戏行业正在探索AI在语言理解、决策制定和强化学习等领域的应用，旨在通过技术创新革命化玩家的体验。"
+      },
+      {
+        "time": "00:12:40",
+        "title": "探讨生成式AI在游戏开发中的应用及挑战",
+        "summary": "对话中讨论了生成式AI技术在游戏领域的应用前景，特别是如何利用AI实时生成游戏内容，如场景、角色等，以实现更加个性化和动态的游戏体验。虽然这一想法具有极大潜力，但目前技术上仍有局限，离实际应用尚有一定距离。此外，还提到了一家成立于2021年的初创公司，该公司由曾在谷歌对话流项目工作的人员创立，专注于解决虚拟世界中的“冷启动”问题，即如何让虚拟环境感觉更加鲜活，以提高用户参与度。"
+      },
+      {
+        "time": "00:15:32",
+        "title": "虚拟角色开发平台助力游戏与娱乐产业创新",
+        "summary": "该对话介绍了虚拟角色开发平台的核心功能及价值，以及如何通过新技术使虚拟世界中的角色更加生动。平台通过与游戏设计师和作家合作，捕捉角色的关键特征如动机、缺点、背景故事等，训练模型以实现角色在不同情境下的动态响应。此外，该平台还与Xbox和微软研究团队合作，开发下一代工具以提升游戏开发者和玩家的体验。平台提供设计时辅助工具和运行时集成，支持角色的实时互动，减少了对硬编码或脚本的依赖，从而推动了游戏和娱乐产业的创新。"
+      },
+      {
+        "time": "00:19:56",
+        "title": "探讨AI在游戏开发中的应用与未来",
+        "summary": "讨论集中于玩家对AI驱动的NPC（AIMPC）的期望，以及如何利用AI技术提升游戏体验。目前，由于AI技术尚处于早期阶段，玩家对AIMPC的期望并不明确，但对可能性充满好奇。早期游戏显示，玩家有时会尝试引导AIMPC产生有趣反应，但这种新鲜感预计会逐渐减少，玩家将更多地专注于游戏本身。AI技术能为游戏带来的改进包括提供更动态的角色互动、根据玩家行为调整游戏进程等，这不仅限于特定类型的游戏，而是几乎可以应用于所有游戏类型。特别地，叙事驱动和开放世界游戏因需要更大的角色和故事深度，可能是AI应用的最佳领域。"
+      },
+      {
+        "time": "00:23:32",
+        "title": "探讨游戏开发中AI技术的应用与挑战",
+        "summary": "讨论集中于如何在游戏开发中有效应用AI技术，以及这一过程中遇到的挑战。特别提到了使用自然语言处理与虚拟角色交互的游戏，如《Younger AAS模拟器》和在Game Jam中看到的通过语音或文本控制战斗的游戏，这些游戏展示了AI在增加游戏沉浸感和互动性方面的潜力。此外，也讨论了AI角色可能会导致的游戏体验问题，例如误导玩家，以及如何通过游戏设计来解决这些问题。提出了透明度问题，即是否应该告知玩家游戏中的角色是由AI驱动的，同时强调了未来游戏开发中AI技术可能的发展方向和应用。"
+      },
+      {
+        "time": "00:28:48",
+        "title": "探讨游戏开发中NPC的智能应用与挑战",
+        "summary": "对话集中在游戏开发中智能NPC的设计与挑战，特别是从玩家和开发者视角出发，探讨了如何创造更加个性化和动态的游戏体验。讨论了开发者对智能NPC的定义和理解，强调了通过演示来激发设计灵感的重要性。同时，提出了游戏行业对于AI技术的乐观态度，但也指出了实际应用中遇到的挑战，包括AI误解、模型的误报问题以及对责任的考虑。强调了在游戏开发中，保证技术的负责任使用、内容的准确性及对玩家隐私和安全的保护是至关重要的。最后，讨论了当前最佳实践和未来需要改进的方向，特别是在减少模型误报和增强信息准确性方面。"
+      },
+      {
+        "time": "00:34:27",
+        "title": "探讨AI在游戏开发中的应用与挑战",
+        "summary": "对话集中于讨论人工智能（AI）在游戏产业中的应用，特别是AI原生游戏的开发。一方面，讨论者认为AI技术能够为游戏带来新的体验和玩法设计，例如通过生成式AI创造更丰富的故事叙述和动态沙盒游戏环境。另一方面，他们也指出了将AI技术融入游戏设计时遇到的挑战，比如确保AI元素能真正增强游戏体验而非仅作为附加功能。此外，对话中还提到了合作控制的概念，强调未来的游戏设计应更多地利用AI来产生意想不到的游戏体验，而不是简单地将AI技术加入到现有的游戏模式中。"
+      },
+      {
+        "time": "00:43:31",
+        "title": "探讨游戏中的AI代理和元宇宙定义",
+        "summary": "对话集中于讨论游戏开发中AI代理的应用，特别是在增强游戏玩法设计和提供更自然的NPC行为方面。提及了在特定游戏中，如社会欺骗游戏中，AI代理如何通过模仿人类行为，提高游戏的互动性和沉浸感。此外，还讨论了AI在处理复杂任务、促进玩家间协作、以及提升游戏动态方面的潜力。同时，对于元宇宙的定义进行了讨论，指出其可以广泛应用于不同的游戏环境和模拟体验中。"
+      },
+      {
+        "time": "00:49:40",
+        "title": "探讨生成式AI在游戏开发中的应用及挑战",
+        "summary": "对话中讨论了生成式AI，特别是大型语言模型，如何与传统的游戏AI系统相结合，增强游戏角色的决策能力和情境意识。此外，指出了将AI技术应用于游戏开发中的主要障碍，包括成本问题、如何设计可持续的游戏玩法以及跨游戏设计与AI技术的人才短缺。还探讨了游戏工作室自行开发工具与利用第三方提供商的利弊，以及如何确保生成式AI的使用在经济上是可行的。通过具体案例，说明了尽管存在成本，通过增加玩家互动和游戏吸引力，生成式AI在游戏中的应用仍然是盈利的。"
+      },
+      {
+        "time": "00:57:19",
+        "title": "探讨AI在游戏开发中的应用与未来发展方向",
+        "summary": "对话集中在讨论人工智能（AI）技术如何在游戏开发领域提升生产力，特别是AI生成的图像和文本，以及AI工具如何帮助游戏开发者自动化重复任务，创造更加个性化和沉浸式的游戏体验。讨论强调了与微软的多年合作，目的是探索和开发利用AI技术的新工具，以辅助角色设计、对话生成、故事和任务创作等。此外，还提到了在韩国G-STAR活动中展示的交互式叙事设计工具，以及未来与游戏工作室合作的计划，共同推动游戏设计工具和能力的下一代发展。"
+      },
+      {
+        "time": "01:02:58",
+        "title": "探讨AI技术在游戏行业中的应用与挑战",
+        "summary": "对话集中在讨论AI技术，特别是生成式AI，在游戏行业中的应用情况、面临的挑战以及未来发展方向。讨论中提到，AI技术最常用于概念艺术创作，帮助艺术家在早期阶段进行创意草图绘制。同时指出，对于小型工作室而言，自行开发AI模型存在困难，因此一些工作室选择调整现有模型以获得更佳的图像生成效果。从投资者的角度看，游戏行业中对于创立大规模通用生产性工具的空间不足，因为游戏引擎和图形制作工具已经十分成熟。此外，讨论也触及了游戏行业创造力工作的多样性和难以统一性，以及中国SaaS市场的特殊性。在提及具体的技术平台时，强调了工具的灵活性和无缝集成的重要性，以及团队如何通过设计系统以适应不同的工作流程和平台，从而优化用户体验和产品性能。"
+      },
+      {
+        "time": "01:06:38",
+        "title": "游戏开发平台的收费模式与早期用户获取",
+        "summary": "该对话主要讨论了一个游戏开发平台如何从传统的月度订阅模式转变为按使用付费的模式，以及如何吸引早期用户和与大型游戏工作室合作的策略。平台现在采取的是免费设计、按推理成本收费的模式，并针对不同规模和使用情况的用户提供定制化的定价方案。同时，通过利用创始团队在行业内的联系和营销团队的努力，平台成功吸引了包括迪士尼在内的早期合作伙伴，共同开发和优化产品，满足不同企业的特定需求，逐步将新技术整合到他们的工作流程中。"
+      },
+      {
+        "time": "01:10:35",
+        "title": "面向游戏行业的初创工具建议",
+        "summary": "在讨论中，提出了对游戏行业初创工具开发者的建议。强调了制作有用工具的重要性，并指出了解游戏行业及深入参与游戏制作过程对于创业者来说是必要的。建议还包括了工具需要能有效解决问题，满足不同项目和时间变化的需求，强调了对游戏行业深刻理解的重要性以及开发能够广泛应用于主流生产过程中的实用工具。"
+      },
+      {
+        "time": "01:13:07",
+        "title": "探讨AI在教育和游戏领域的应用前景",
+        "summary": "对话集中于AI技术在教育和游戏领域的未来发展潜力。一方面，参与者对利用AI提升个性化学习体验、创建新型教育工具充满期待，认为这能有效促进学生以自己的节奏学习，探索更广泛的知识领域。另一方面，对于AI在游戏中的应用，尤其是通过AI驱动的新型游戏机制和更真实的社交互动模拟，表示出了浓厚的兴趣。预测未来一年内，AI技术将在教育、游戏以及社交娱乐领域带来重大变革，特别是在AI辅助的游戏设计、3D建模进步和小程序平台上的游戏开发等方面。此外，还提到了对AI技术在提供情感价值、建立新型互动体验上的潜力持乐观态度。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "加入On Board听友群"
+                },
+                {
+                  "children": [],
+                  "content": "组织线下主题聚会"
+                },
+                {
+                  "children": [],
+                  "content": "邀请部分听友旁听播客录制"
+                },
+                {
+                  "children": [],
+                  "content": "小助手微信：On Board 666"
+                }
+              ],
+              "content": "听友群成立"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "旧金山举办"
+                },
+                {
+                  "children": [],
+                  "content": "游戏开发者、AI游戏方向创业者及投资人参加"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术对游戏行业的影响"
+                },
+                {
+                  "children": [],
+                  "content": "AI原生小游戏的火爆"
+                }
+              ],
+              "content": "GTC2024大会"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Nathan：来自硅谷的AINPC引擎开发平台in word的产品负责人"
+                },
+                {
+                  "children": [],
+                  "content": "陈林：微软Xbox部门Gaming AI团队工程师"
+                },
+                {
+                  "children": [],
+                  "content": "宇光：前真格基金游戏方向投资人及资深从业者"
+                }
+              ],
+              "content": "嘉宾介绍"
+            }
+          ],
+          "content": "AI在游戏中的应用"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AIGC、NPC角色扮演、agents的可能性"
+                },
+                {
+                  "children": [],
+                  "content": "如何打造一款AI原生游戏"
+                },
+                {
+                  "children": [],
+                  "content": "面临的限制与第三方开发工具定位"
+                }
+              ],
+              "content": "AI对游戏带来的变化"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI游戏未来预期"
+                },
+                {
+                  "children": [],
+                  "content": "初创公司的建议与期望"
+                }
+              ],
+              "content": "嘉宾讨论"
+            }
+          ],
+          "content": "AI原生游戏与工具"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AIMPC在游戏中的期待与现实"
+                },
+                {
+                  "children": [],
+                  "content": "AI技术如何增强游戏体验"
+                }
+              ],
+              "content": "游戏案例讨论"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "成本、效率、游戏设计、人才缺乏"
+                },
+                {
+                  "children": [],
+                  "content": "如何克服这些挑战"
+                }
+              ],
+              "content": "AI技术的挑战与机遇"
+            }
+          ],
+          "content": "AI技术在游戏开发中的实际应用"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI技术在教育领域的应用前景"
+                }
+              ],
+              "content": "教育与AI"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "社交互动、角色扮演等的新可能"
+                }
+              ],
+              "content": "AI在游戏中的新玩法"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI技术平台的未来趋势"
+                },
+                {
+                  "children": [],
+                  "content": "3D建模技术的发展与应用"
+                }
+              ],
+              "content": "AI技术平台与3D建模"
+            }
+          ],
+          "content": "对未来AI在游戏行业发展的看法"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "感谢听众参与"
+                },
+                {
+                  "children": [],
+                  "content": "对AI在游戏行业未来的乐观预期"
+                }
+              ],
+              "content": "感谢与展望"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "邀请听众加入听众群，了解更多互动机会"
+                },
+                {
+                  "children": [],
+                  "content": "鼓励听众点赞、分享、评论"
+                }
+              ],
+              "content": "互动机会"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "通过小宇宙打赏支持播客"
+                },
+                {
+                  "children": [],
+                  "content": "Apple Podcasts五星好评"
+                }
+              ],
+              "content": "支持方式"
+            }
+          ],
+          "content": "结语"
+        }
+      ],
+      "content": "播客内容总结"
+    }
+  }
+}

@@ -1,0 +1,1592 @@
+{
+  "pid": "61cbaac48bb4cd867fcabe22",
+  "eid": "64e44be9e490c5dee520b7d5",
+  "title": "EP 38. 全英文对话Gamma联合创始人Grant Lee：AI如何改变视觉表达，生产力工具产品从-1到0的AI变革",
+  "task_id": "2yjoqzbmeg6yq68l",
+  "transcription": [
+    {
+      "time": "00:00:03",
+      "text": "欢迎来到onboard，真实的一线经验，走心的投资思考。我是Monica.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:09",
+      "text": "我是高宁，我们一起聊聊软件如何改变世界。欢迎来到新一期on board。这一期我们请来了一位在AI热潮中高速发展，产品也得到国内不少用户认可的初创公司创始人，美国新一代生产力工具gamma的联合创始人兼CEO grant lee。Gamma最开始定位像notion一样，用block或卡片等方式帮助人们更高效创建PPT。在今年集成AI功能后，产品现在可以让用户直接以对话或上传原文档等方式任意撰写和开发创意，成为能更高效展示创意的视觉内容生成工具。公司成立于2020年，总部位于旧金山湾区，团队于2021年8月推出了beta版，并于去年底正式发布，如今已拥有数百万用户。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:01:02",
+      "text": "Grant lee作为SaaS领域的连续创业者，我们和他从公司级产品诞生聊到AI对用户创意和使用上的巨大改变。最后作为两个孩子的父亲，他也谈到了AI对下一代在生活和工作中的影响，都给我们带来了很多启发。话不多说，enjoy.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:01:21",
+      "text": "Thank you for having me yeah .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:01:23",
+      "text": "so first of all um for all the audience to know more about give give us a quit introduction on gamma and also your background and also how did you end up with .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:01:36",
+      "text": "building gamma yeah so um gamma is uh creating a new medium for presenting and sharing your work. So we're trying to replace incoming tools like powerpoint and slides as the standard format for how this has done today. Uh, we've been working on them up for a couple years, and I just to share a little bit of history of how IT all started.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:02:00",
+      "text": "Um i've spent a lot of my career working in in slide dex and using presentations early and investment banking and consulting and more recently um at the last start up I was uh after I was acquired, I went back into more than adviser and consulting roles. I was living in slight decks again, spending a lot of time creating presentations in google slides and powerpoint, and just had this feeling that there is gotto be a Better way. Uh, we spend so much time formatting our ideas and the lining boxes, when, you know, what's really important is crafting the content in beyond present, you know, all the ideas you have in a way that is compelling and engaging to the audience. And so our mission has been around creating the sort of magical experience around creation so that anybody can craft the ideas and a more delightful way.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:02:51",
+      "text": "Yeah nice tell us little bit about your yourself your passive work experience and also you know one fact .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:02:59",
+      "text": "about yourself yeah so uh I guess one fun fact is um uh I actually yeah before I went into consulting um I studied mechanical engineering and so I have always loved building physical products and uh the funny thing is before we start a gamma, I actually worked on a side business with one of my cofounder, ers. James. We actually created a sunglasses business.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:03:24",
+      "text": "I designed a pair of handcrafted sunglasses that we actually took to japan to make uh hand make and within AA couple months we actually generated few hundred thousand dollars of revenue. And IT actually did pretty well as mostly a passion project just because ah something I always wanted to to do. And uh the the funny thing is, although we didn't end up turning that into a business, IT gave us a chance to work together and to really understand that we enjoy working together and that you know one day when the right business came along, we would be excited to pursuit together.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:04:00",
+      "text": "Work at. And then instead of pursuing your your hardware career, you went to optimize. And I study another company.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:08",
+      "text": "I am onderstand. Did you make that shift? And how does that experience influence how you will?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:14",
+      "text": "But now yeah so um when I was doing mechanical engineering is actually specifically in the um biomechanical uh biomedical device design a world and I think what I learned was that although I loved creating and building things within that um specific domain, a lot of the things you try to create take many, many years and often times never even make IT to the market. So you might be really passion about the space.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:04:41",
+      "text": "But unless you have the patients away seven, eight, nine years to take a product to market, um it's it's really chAllenging. And for me, I love building things, but I also love the ability to get things into the hands of users and customers and hopefully provide something that provide a sort of immediate feedback back. You know you're able to do something special and uh provide value.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:05:02",
+      "text": "And so um I realized that software was uh an opportunity where you can also innovate but then get something into the hands of users very fast. Um I optimized. I joined when the company was still pretty early on.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:05:13",
+      "text": "I was you know one of the first h sort of YC companies um to really start growing quickly. And when we uh when I joined the company, we were around ten million and AR, R. By the time I left, where over a hundred million and air are. So really got to experience like how how quickly software can be adopted, how quickly can really make an impact on many different individuals as well, business, business lives. And so that's what really gave me energy, is the ability to not only ship of really compelling product, but to get IT to market and then to have and really able to see that impact, you know, over many, many years.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:05:49",
+      "text": "Can you describe where gamma is right now? Or especially you know what are some milestones that our team and gamma have been through until this current stage?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:06:00",
+      "text": "Yeah so uh we first formed the company at the very end of twenty twenty um and so in the very beginning um know we were expLoring broadly um what that could mean to kind of reimagine um you know slides and communication and collaboration tools in general. This was really coming out of the you know the pandemics. So I think everyone had a hypothesis around in the future of work and how communication was going to change.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:06:28",
+      "text": "So in the beginning, we're pretty patient around just building the really sort of foundation for for the the product that we have today. But IT was AA more simple sort of artifact. Um at the end of twenty twenty uh one, we basically launched a private beta. So we had at that point had like AA very brick version of the product that worked. IT was already collaborate so you could have multiplayer usage and we wanted to just get in the hands of you are a handful of people so that we could see how they are with leverage the product in the day to day life.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:07:00",
+      "text": "And over the course of a year, we basically ended up um inviting more more people the product um and by the time we got to around August of twenty twenty two, we watched our our public data and this is at this point we had thousands of users, but we are ready to basically um announced IT to the world. So we released just on on product time and IT end up being pretty well received by the community. So you know we uh ended up winning product of the month after month, uh definitely drove uh significant number more sign ups and um and so that was basically uh August of twenty twenty two is when the public later launched and then we spent the next order of several months and quarters really um taking a step back, realizing that at that point in time, there was also a lot going on with AI.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:07:48",
+      "text": "We recognize that there was an opportunity to redesign the entire creation flow of gamma by leveraging AI. The core product was still the same, but we really wanted the initial experience for a new user to build the leverage to really accelerate the sort of adoption of the product. And so uh, we spent a couple quarters kind of redesigning the entire creation flow.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:08:11",
+      "text": "Uh, earlier this year, twenty twenty three, uh in in march, we ended up releasing our AI capabilities to the world and this is where kind of usage just skyrocket. Uh, we now have millions of users uh, using our product and um it's really been kind of a global sort of uh, you know adoption in terms of users from all over the world are some of our fastest growing markets are china, japan, korea, uh, many in europe as well over strong. Just word of mouth.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:08:41",
+      "text": "We aren't spending any money on on advertising and marketing. And so it's all people discovering our product sharing IT with our friends, colleagues, teams. Uh yeah where at the stage where are still feels like were very early, but on to uh, an opportunity where we think we can just continue expanding that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:08:58",
+      "text": "That's wonderful. Like I would just go to go back to little bit about the history, is that you know how your team and you just you know think of you know the the history of the slide creation from you know the traditional software to some products in the meantime like peach beautify and then finally come up with with your um for the type of gma what was that experiences you know if you can give us a recap of um the history is of the visual communication and how you come from there to on the initial version .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:09:30",
+      "text": "of gamma yes definitely. Um so I share a bit of perspective on the evolution of of slides you know slides powerful point has been around for now almost forty years，and IT was built very much for you know the physical world. So I started off with slides being actually printed on thirty five millimeter, slides projected on a screen.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:09:53",
+      "text": "And then eventually, you know powerpoint um allowed you to basically uh leverage soft to now create slides that you could still project onto a screen but using you know computer. And so um the idea of slide started off as being something that was very much a visual aid for the presenter. IT was always intended to be something that presenter could stand next to or point to and um and being a strong visual laid to required the the human uh at the presenter to really be the the voice over to build to actually present the content.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:10:26",
+      "text": "I think for us what we've seen is that you know in dependeth c definitely kind of was a massive shift of this was the way we work has dramatically changed. So much of our work today is virtual where we don't aren't always in the same room just like today. You know we could be talking uh, over screen share or you know you call in screen sharing instead of all being in the same room staring at the same screen.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:10:50",
+      "text": "So the dynamic has changed. And not only that, not not all over work is live in the same meeting anymore, but lot of is more a synchronous. So if I do you have content, I do you want to present or share to you IT doesn't necessary need to be something that i'm presenting to you live.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:11:06",
+      "text": "And so for slides, to still be the medium that everyone uses all the time for presentation, we really felt like there's no party to imagine that. And so for us, we've been kind of designing from the very beginning for a world where we think there should be a few new default one. We feel like this medium should be mobile friendly by default because you need will present this on any device.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:11:30",
+      "text": "It's not just projected on a screen, but if I were to send you something, you should build the open on your phone. So mobile friendly mobile response by default IT should be interactive by default. So if you are, uh, scrolling on your phone and clicking on something, you should be able to engage with IT as if I were a web page or website and build the iraq with the content, and certainly should be a multi media rich by default.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:11:54",
+      "text": "No longer when is just a visual laid, is no longer just text and images. IT should be things like being able to ebed entire website or ebed video or ebed other content directly into your presentation or into your slide deck. And so those are all the things we've tried embrace foundationers from the very beginning and and trying to take a different approach than traditional tools.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:12:16",
+      "text": "So just to follow up so from the ideation to you know to testify your ideas, you know um how do you verify the problem is universal and also if you have any lessons learned in this stage, I guess my all will be really unhappy to know about yeah .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:12:33",
+      "text": "so um you know when IT comes took kind of the very early stages um there is really no no shortcuts you need to spend a lot of time with with users and try to understand you know where they spending the most time for us, where in a category slide decks creating powerpoint that that is something that's pretty universal. Uh, almost every one of us has had to create a presentation in one form or another. And so then it's about, okay, can we actually observe when someone is creating a presentation where they spending their time and energy and are there um sort of uh categories of problems that we start observing over and over again?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:13:16",
+      "text": "Um the hard thing to do is in the beginning, when you're recruiting people in, its always easiest to recruit your friends or people that I want to be nice to you so they might not have the um kind of the the the intent to tell you the things that uh you really hard about you know your your product or the state of your product because they probably just wanted lie to you so you feel good about yourself. So what you really want to do is not just take what they say uh, as the absolute truth, but again, go back to observing how they're using the product. And as you're releasing the product to more more people rather than asking them, then it's about observing do they come back to the product, they're using the product over and over and you start seeing pockets of stickiness where certain types of user come back over and over again.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:14:02",
+      "text": "And when you talk to those users, the the the key then is to understand and and here, how did they describe the value you provide as uh as a of as a product? And if that that starts to becoming more more consistent, then you feel like, okay, there's there's something there that you can really hone in on and in craft uh versus in the very beginning, it's you know it's it's unclear. It's all these things that you have ideas in your head and you have different uh, hypothesis. But you really need to get to the point where you're hearing consistency from. Your early users because gas.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:14:34",
+      "text": "like initial experience is so different, it's really radically different from the creating a powerpoint in the traditional way. And you had this vision and wondering what some initial feedback from users that would like beyond your exception and that had and and that have done probably some pretty significant influence on how you decide gma from from down.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:14:57",
+      "text": "Yeah well I think you know one of the big things we realized um after we launched our um public data announce time, we saw an explosion of new users. This is PAI though, so it's still required the user to go in to learn your building blocks and to spend enough time such that um they could understand why they should spend more time in your product and why he was useful.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:22",
+      "text": "And so we realized, although there were people that were able to get to the aha moment like they they spend you know a hours in your product, they get to the point where they really enjoy IT. They come back that fn al was was um there is a very a steep drop of people were not able to spend enough time in the product. So when we um thought about work at AI help is really around accelerating the sort of understanding of what is gamma in the very first new minute.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:51",
+      "text": "They should be able to have the understanding. And so I think what the power bear has done for us is most products like ours that you are trying to create something new. This learning curve is very steep and there's you're trying to introduce all these new building blocks at the same time, and most people are not patient enough to understand that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:16:07",
+      "text": "But if if AI can give you a preassembled set of building blocks almost as if it's already like built for you, then instead of spending all the time learning what the building blocks are, you ready see a constructed for you and then you just you're more in a playmore's you can say, OK now I can now I have something in front of I can actually play with this. It's like almost as if you have you know a set of lagos rather than giving you a scattered uh you block of lagos in front of you. You have no idea how to use IT.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:16:36",
+      "text": "What what if I actually preassembled some of those lagos for you? So now you can see the shape that a lago can take, and then you can continue playing with the that understanding that unlock dramatically changes the adoption curve for a product like cars. And I think that's what's really helped.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:16:54",
+      "text": "You just touch the you know one of my favorite part that AI um brings to in the once when I start to play out with the government, you know the AI features in gma and you just mention you know expanding your own first batch of user from your friends and people around you to a larger group. I just wonder you know what type of what kinds of strategy or you know regarding the go to market or to how do you attract your this first broader range of users, you know how what kind of channels are ways that you try to um attract more customers?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:17:32",
+      "text": "Yeah um you know in the very beginning, we deliberately kept very small. So as I mention kind of friends, former colleagues getting to use the product. Um when we started seeing uh, a little bit of repeat usage there, the next thing was to start talking about the product just a little bit more publicly.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:17:52",
+      "text": "So you know within our own social network, being to share kind of updates, getting people interested. I'm certainly with our early investors just having them start talking about our product more more and just driving some initial level of uh, enthusiasm for for what we're trying to do when our um kind of private data was announced as part of our our fund rates as well. You know that another way where things just started, um kind of uh, you you'll just get some inherent level of interest broadly and so then you drive even more sign up.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:23",
+      "text": "So I think you just kind of for us, IT was always gradually opening the up ture more and more. I was never trying to like slam a bunch of new users all at the same time. I think gradually IT was doing IT more gradual, allowed us to have much more control and then understanding like as we're making changes, like what things are working so that we can contain an navigate the big sort of uh, when we really did open Operator much more IT was really was the product launch.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:48",
+      "text": "And so that in itself, you know that's an opportunity for when you feel like you're ready to really talk about your product more publicly, um you can share with the community and the community can tell you whether or not it's interesting. And so you get some feedback there. But I think doing uh when when you're actually preparing for a much more big public launch at that point in time, it's not just about the product, it's about how you talk about the product. So so much of IT is the positioning IT is how do you describe IT in a way that someone, again, that has no time or patients to learn about a new tool, how can you capture the attention? And to build a work on really the positioning piece of IT, you need enough time to kind of understand how your users talk about your product, how they talk about the value you bring to them and then try to craft something that you think is really gna, uh, resonate more broadly.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:19:38",
+      "text": "Yeah, I think you talk one touch on a really great plan is about the positioning and the messaging, especially given the like knowledge. The tooling is right. The tooling space and saw space is a is really separated.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:19:52",
+      "text": "And uh are there any an experience is um from from all the other companies that you have done in in defining a clear a clear uh messaging that you can share with the audience is especially especially from gas. Are there have you change uh are there any like big changes in your um in your marketing member that that you can share with your with the with your audience? And what's your thoughts behind IT?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:20:19",
+      "text": "Yeah um I think the best companies for ah it's very different for different categories of products. And for some products, it's it's certainly easier for you know certain enterprise products. It's it's just much harder because your audience uh maybe has certain expectation of the type of product or building.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:20:35",
+      "text": "But you know more recently um for the coronal products like I think notion in canvas, you know they do an amazing job. And I honestly usually starts with just having a clear sort of vision or ambition for where you want to go. And so for, you know, cm, a lot of is around democratizing design and visual design, that being the sort of north star.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:20:58",
+      "text": "And then as that being the north star, then you can start breaking that down into, like, what are you doing to simplify that? What you know the site tools you offered to really simplified sign for anybody so that that feels very approached. And so all the languages around making that sort of simple approach able um making a such anyone can believe they can have design and capabilities.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:20",
+      "text": "Um I think notion does something similar where very very much around this ambition of being you know making tool making ubiquitous again, similar like the idea that anybody can pick up in kind of craft their own tooling is a very inspiring mission. And from that they can then say, what are the building blocks that allow you to do that? And I think their approaches at both notion and can of the approaches to talk about building blocks that are um sort of univerSally understood.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:50",
+      "text": "So documents you know pages, they talk about different sources like projects and workspaces. So those are like well understood and articulate. Nobody needs a you know guess what you're talking about. But the mission in the the vision of IT is still so ambitious that is inspiring for for new users to understand where the where .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:09",
+      "text": "the product is going good and maybe just follow up. So on the the product message of gamma changed on from from the early stage to after your public launch? And how what's your your your decision process behind that as well?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:22:26",
+      "text": "Yeah, IT has changed them quite a bit. So when we launched uh, on product time, we had we had to have one main tag line um and there was a little bit more narrow focus in terms of that the specific use case in the value prop that we are delivering. But IT was the idea of you can write like a dog, write like a document, but you can present like a deck.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:22:48",
+      "text": "And um the promise there was that you know you're not to spend a lot of time doing the formatting and the visual aligned. Basically what powerpoint and most light tools require. E is into this canvas where you trying to move things around.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:23:02",
+      "text": "And you know, although most of us are visual learners, not all all of us are visual designers. And so the meeting, the the, the呃，the media need to have to move things around makes you have to think very visually, which most of us are not. And so the promise there was, what if you could create a tool that was as simple uh as as writing a document but gave you much more you know, powers when I came to actually presenting that content.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:23:28",
+      "text": "And so we we we still kind of embrace sort of um uh the spirit of that in terms of our messaging today, but our kind of ambition has kind of uh expanded a bit, which is we really want to be um not just this one sort of artifact for presentations, but really think we could be this medium that helps people communicate their ideas. And IT could be both for like a live presentation, but I could also be shared a synergy like a White page or website. IT needs to be much more valuable than your traditional. And so um a lot of what were talking about today is like this notion that a medium itself could be more valuable IT could be formed into whatever you wanted to be and the user um can have a basically access to uh superpowers that they went have had otherwise they don't need to be a designer by by no as a practice, but they can actually have all those capabilities at the disposal by using a tool like gamma.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:24:26",
+      "text": "Yeah, yeah. good. And so after the public launch, I guess you know you start to you know try to testify your product to you know on the way to the PMF. And I just wonder, you know how do you define the PMF there and also where do you think ga is right now in the trajectory of, you know, on the PMF?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:24:46",
+      "text": "Yeah um you know when IT comes the product, I can fit again. A lot of this depends, I think on the the category of products. I think for horoscope products like hours um II think uh a couple things that you know founder typically look for or startups what will look at. So one um IT should have a strong word of mouth.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:25:11",
+      "text": "So you know sam used to say basically you know if a starter has um do the product where friends spontaneously ly tell their friends about the product, they've done a lot of the work in terms of creating you know the foundation of uh of a product and business that could be successful and so if your product is good enough such that people are spontaneous ly telling their friends or colleagues in the strong word of mouths, I think you you've hit some level of product market fit. Um the second part of the equation is our people went to pay for the product. So it's great if you know you say you have a problem people won to talk about.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:25:45",
+      "text": "But h when IT comes to taking out the wallet and paying for IT and no one's able to do that, that certainly isn't a product market fit. So the piece of IT is looking at, you know, do you convert free, free users, in our case in a free me product, free users to pay users and and do you retain those users over a period of time? And and I think um both of those have their own benchMarks in terms of what's good and what's great. So you can you can say like there's got to be some sort of minimum that you hit if you think you are product market fit, that's another sort of, uh, benchmark.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:26:19",
+      "text": "And AI think third um is is more sort of quality native that you feel when you're building a product and that is when you start talking to the users, are they um basically, are you at a point where um growth itself is not necessarily the biggest chAllenge, the biggest chAllenges kind of keeping up with your users demands they are you know they after you often times here, this is being described as the users are your customers are pulling the product out of you because they have so many things that they hope that you can build or ways that they can see your product or business solving their problems. And there equally enthusiastic and energize about that vision as as you are. That's when you really feel like OK you something you you like, you can keep up that sort of qualities. Feeling is prior, ID say the third dimension of of being a at a point where thinking a product market fit.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:27:13",
+      "text": "Very important point is to get insight from a pay customer. Like when did you when did you decide to charge your uh uses um a gma at that time? Like how many around how many users you had at that time if you look about because a lot founders who would say, oh, I wish I could I could have charged and I started charging like early what the process was like for you. And have you generated any new insights after you started charging?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:27:40",
+      "text": "Yeah uh, so we have even even a formally announced pricing to our our customers at our users. We ve gradually roll out pricing um and so still something gradually um expanding on. And reason why we worn in a rush to country just um in announce pricing is II think this is an opportunity to learn.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:28:03",
+      "text": "And when IT comes to things like ua willingness to pay, what are the value metrics s that you're trying to leverage? And um and then really, what are the sort of what what is your sort of um you know unit economics? Like what does that even look like? Um I think being patient there is is helpful.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:28:21",
+      "text": "So long before release, pricing and packaging, we started off with just pricing service talking to our most active users, understanding what features do they actually care about uh and what uh in the sort of broader marketplace when they look at our tool, how do they compare the value we bring to other tools are using what is the relative Price point and the willingness to pay for a product like ours. And so you're trying to um really trying to have empathy for you know your product is one and probably uh set of many that they're considering. And so how can you position yourself in a way that is is an interesting enough to get started but also gives you a path to build a business around.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:29:00",
+      "text": "Um and so I think we've earned the time we've adjust that kind of um various Price points. We've also shifted around um kind of the the sort of features that we're thinking about within different tears. And we're getting to the point now we actually feel already to actually announce more broadly. So that's it's it's kind of transparent over the past four, five months where we've gone from early stage research to being in a position where we can actually .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:29:27",
+      "text": "rolled out announce as we would you share some experience in getting the rising in survey? I would love to know in your exploration stage for for further pricing, what are some um what are some questions like that you will ask your customers? And what kind of evidence give you the confidence that it's time to charge?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:29:50",
+      "text": "Yeah there's a few ways to sort of regulate around um you know what you think might be okay Price point um there are set up like pricing survey questions uh that um maybe your audience has heard over and like the present dorp um pricing service, which is just trying to understand like overall willingness to pay so you can ask questions are basically on one then are trying to understand you know what what is the kind of the high end of the Price point? So like at what point does your product become so expensive that you know they wouldn't even consider IT? And then at the low end, you asked them around, you know at what Price point would your product be maybe so cheap that they would question the quality of the product, where they would question, uh, you know whether or not, uh, the service would meet up to their expectations.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:30:38",
+      "text": "And so you can use kind of like those book ends uh to to understand okay, within that range, you know where do we think we fall? You can also ask them about relative Price point. So um if you were to ask him about you know what's what is a tool you use very commonly and maybe they say something like sales force, then you know kind of okay, relative the sales force, you think we deliver more value or less value.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:31:01",
+      "text": "And obviously you don't even to ask what the Prices for sales force. You can look that up later. But you can understand like in their minds, where where do you fall? Are you higher in product, the low end product? And I think that ends up being you know an interesting uh, another interesting data point.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:31:17",
+      "text": "And I think the the kind of third thing you want to then understand is, you know typically when you look at pricing and what are consumers are willing to pay or even a business want to pay um for products is is often the case that most of the value accused to you know small subset of your future. So maybe it's eighty percent of what the the pay is. Are you only within the twenty percent of your future said? And so you really trying to understand what is that twenty percent uh that really moves the needle for them as a business or as a customer. And so um asking questions to understand, you know they are relative importance for things that are features that are mission critical versus kind. Nice to have is helpful because then you can package things appropriately uh and ensure that what you really want to package as like a premium up cell that you're doing that in the right way.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:32:08",
+      "text": "Do you have because spite that time um you you have already had a lot of customers, right? Do you have any unexpecting findings from that, for from those service about .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:32:20",
+      "text": "about government？I'd say one one thing that has been you know I guess counter intuitive um is that uh even within my pricing surveys, you know they only are directionally accurate. I think what you want to really do is like once do you have like some form strategy and form strategy around like how you want a pricing, you really then need to just like put that out there and see, you know what is the true rulings ness to pay啊。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:32:52",
+      "text": "Because users or you know people your your conducting research service with, they might say one thing, but you know when they are actually put in front of a screen and and need to actually pull out the the, the world, they they may not act that way. And so I think we've seen just different pockets of users. Were the wilderness to pay was was actually may be higher than we would have expected.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:33:14",
+      "text": "Um certain segments of education, for instance, you know we would have thought there would be low willingness to pay, but that's not necessary. K so I think you can run the surveys as again, part of the foundation just form some level of intuition of avoid you're getting into but then you you still need to actually execute. And ah you know it's some people think that running Price experimental isn't going to be useful because s for so many other variables.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:33:41",
+      "text": "So I think that's where there's different schools of thought there. We kind of took a more gradual approach where we were still testing some things, but we already had some foundation. And so IT was really around like how can we optimize the eden further? Uh and and then going from there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:33:55",
+      "text": "that's interesting that that's probably why like many suspenders will look back and say and say I wish II wish I have Price my product higher.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:34:07",
+      "text": "Yeah yeah. Now II think the so II say the bigger mistake most startups make a我is there is two their entertained one is they think that once you set the Price that you know needs to be set for forever or for a long time and the they they're not thinking about you know adapting and learning and continually to like adjust or make changes。The pricing um II think the thing to the bigger missed opportunity for most startups uh across almost every type of business is um not thinking enough about the value metric that you are sign. So you know if you just do everything by precipice pricing, um you know that may not work for every product.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:34:50",
+      "text": "If your product um naturally expands with an an organization that maybe proceed is the right way to do IT, if that's not where your value kind of accuse for your customer, your business and like let's say, a company is up using your product a time is getting a ton of value, but there but the Price they pay you is totally capped at some other value metric. Then um you you've really kind of hinder the ability for that company, that business and product line to really grow effectively and demonize on their product. So I think you know those things were when you're innovating on a product, um you you should also be thinking about um you know pricing and and the really the value exchange you have with your .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:35:31",
+      "text": "customers yeah talking about the value of the product. A we finally can come to the on a topic of AI and you also mentioned earlier that like the um adding the AI feature is a very important decision for for the company and I believe for the entire industry. Uh, II guess could maybe we can start from like going through that process. When did you when did you begin to know this this some big shift in AI technology and what's where the making process in getting the uh the AI feature into your .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:36:04",
+      "text": "life a product? Yeah I think a lot of IT last year, you just got the sense that we there were AI was sort of hitting the sort of inflection point where um IT was uh you know going back to the same altman quote around you know people spontaneously telling their friends about IT IT was clear that everywhere you looked people were talking about some cool new AI innovation or product or feature or demo and and and certainly there is another sort of even steep inflection point when ChatGPT came out and that's all that people could talk about.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:36:41",
+      "text": "I think what change um then was that the user experience dramatically changes. I made IT so that the interface for AI was so much more intuitive. Everybody knows how to use chat.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:36:53",
+      "text": "And um now IT was in a way that provided immediate value to many different users across many different news cases. So I think we have been following AI for a while and I was always about what was the right time and opportunity for us to a really a leveraged properly. We didn't want to just bolted on.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:37:13",
+      "text": "We really want to think about how do we really um infuse IT or like intertwined IT into like the the fabric of the the company and uh and the parks were building and that thinks about that really requires you to think about what is the user experience. How do you really think deeply about making that is delightful as possible? IT was around you is currently after a product count launch in August, we realized this was the OPPO at the time.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:37:38",
+      "text": "This was an opportunity的。We had great building blocks in the product already. AI was going to help us kind of accelerate, uh, the adoption of of the product at its core.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:37:48",
+      "text": "For those who haven't try out on gma, know what latest AI feature, can you briefly describe like what what's that look like?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:37:58",
+      "text": "Yeah so um AI plays a role in AA few different areas in the product. Um you can start by just entering any topic that you want and um and then will generate you know uh an outline for you that you can edit and then from the outline you can then generate the first draft of a presentation so you might be given a presentation on you know how to build a successful biotech start up and it'll give you some structure around you know what are the things you might think about? How would you go about raising money, things like that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:38:30",
+      "text": "And so gives you that first draft and then obvious ly with the first draft. IT still requires a human in the loop so that I can go in and continue making changes to. We have basically in a chat interface, allows you then to actually be your co pilot as you continue iterating on content.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:38:47",
+      "text": "So you can say, you know this content um has uh useful information, but I want you to I want to visualize IT differently. I need to be more visual and not just the whole block my audience look at, but something that is easier to the the chunk up information. And so we, as your sort of design partner, can help you redesign the content away that's more visually appealing. So we're really hoping the AI sort of n to n from an all the way through iteration and completion uh can be your partner, the sort of partner that has a unlimited creativity, unlimited patients to sit with you and and do something um that you alone would would ably struggle with.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:39:31",
+      "text": "Yeah I don't know brand describe IT IT sounds like so naturally yeah, I should just look like this way. But I believe the the process was probably not that one shot. I believe there are a lot of a solar founders or product managers in the August who are looking into incorporating AI into their product，a either to create a new new product or to h or s product of a picture. Maybe can share some stories behind you decide like or some chAllenges your face when designing this AI power for that and and what are some uh, experiences you can share with those who are looking to to build the one?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:40:07",
+      "text": "I'd say if you're lucky enough to have a product or you can dog food, you know, use IT yourself is is something that you could use daily. You should be doing that. And your entire team should be doing that because you will run into so many different kind of obstacles，paper cuts, pain points. Where the ones where IT becomes very obvious like this is not the right way to do IT are the ones you go back and you redesign everything um if you can, if you also have a product or your a team really that is able to um design uh functional prototypes um at a high city.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:40:46",
+      "text": "That's another way where you know we're lucky to have a design team that several the designers know how to code so you can really quickly create things that are um in functional, unusable and allows you to kind of um anticipate chAllenges before you really end up you know productive, zing the product or are taking you to the next level do being able to do that and a high velocity and really accelerate your ability. So it's really having, if you're luck, enough of a team that has that or your thinking about who to hire, you should try to hire. You know designers are how that competency so that you can accelerate your own kind of learning curve their in terms of what's useful, what's not.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:41:24",
+      "text": "And then in the last thing is, is probably just more obvious, but you just need to be hungry to sort of learn and study everything that else. Is that out there? I think before ChatGPT, IT was hard to imagine an interface where AI was going to be so intuitive that anybody can pick up but of c ChatGPT has changed the the the meaning about that for you know uh a much broader uh audience. Then we alone could have done like you know gmh wouldn't have been to kind of um pricing adoption if ChatGPT hadn't existed before. Be a ChatGPT familiarize the world with how you even interact with with AI so I think part of this just understanding kind of where you fit into the broader ecosystem, studying other tools and what works well for them and then trying to think about for your particular users and audience, what's gonna make the most sense.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:42:16",
+      "text": "I think god has been to a several faces, right from friends and family and to a brother, to a water audience. And then you, the AI wish, which probably we are rather ing whether IT IT brings another, brings in another a different group of use, this if you can maybe go through that process .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:42:35",
+      "text": "or to be very interesting yeah so yeah friends and family obviously that that um is we we try to go pretty broad. So anybody that um it's start off with just people that create a lot of presentations or or dex and seeing you know which one of those would be interested in our approach. And that certainly wasn't everybody, I think for people that gravitated towards um uh gamma actually wasn't the power users a powerpoint because power users a powerpoint are very comfortable with that tool.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:43:07",
+      "text": "They have learned all the different techniques needed to craft the presentation is in fact all the people that aren't power, power users a powerpoint but create a lot of content that we could really serve their needs because they they don't have the time or the skills to pick up every new ones of a powerpoint, but they still have you know the the need to present and make look make their work look professional to know the colleagues or um to their customers. And so that's where we start realizing, okay, it's it's um rather than focus on individual personas, what if we focus more on the pain point? And I think that was the sort of next evolution uh around you know when we started talking about this messaging of you know writing like a dog because a lot of people can write their ideas down, but not all them can um convey them in a way that's visually consumer able to their audience.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:43:58",
+      "text": "So that's where gamma was able to kind of slot in. I think as we expanded that into AI IT was just accelerating the promise of that. Everybody that has like this, you know messy your complex ideas on their head, but they don't know how to put IT onto a slide. We believe we can help them. And so um I think that's where um AS accelerated like who we can serve because uh IT IT just um expands the the the value prop in the the kind of the promise of what the product like us can deliver does in a really quick way.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:44:32",
+      "text": "sure. I would like to switch to get a little bit to more on the end product or the tax or the taxi. Uh because the fundamental IA lot I believe you're here that you were saying that oh like whether a product is like a GPT rapper or LM rapper, I believe like the ma is not so.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:44:53",
+      "text": "But but if you can probably give up, uh, high level, um how about introduction of the text? Py, Oprah? A because I think a lot of them, all of founders would be considerable.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:45:04",
+      "text": "Do I use in a out of log C, B, I by OpenAI, or do run to use an open, uh, open source moil to find tune IT? Or just for engineering? Is enough. There are a lot of like tax decision that involved is especially giving this ever changing tax space. Maybe can can you share some uh, some of your uh, experience on that?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:45:25",
+      "text": "Yeah, I i'd say word was just at a very interesting point in time because all of IT is so new, you know the even the tooling is is different. And you know there's obviously opening eye, but there's also a lot of um open source alternatives and those continue to kind of evolve in in emerge.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:45:44",
+      "text": "And so I think when you're at this earliest, earliest stages of building in general, you know you're start up you should be um trying to find ways to move as fast as you can, uh such that you can still be very sort of nimble and um really be to and understand where you able to provide the most value to your users. And so rather than being totally locked in on one platform, one approach, you should build a way that allows you to kind of switch between different options because so many different things are changing. One, the costs, the underline costs are changing.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:46:22",
+      "text": "So the difference between you know um using OpenAI, you know any one of the API verses you know self hosting an open source model, I think you that's a dynamic that's gonna change. What IT is today is not going to be what IT is tomorrow. The thing is performance is gna change.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:46:39",
+      "text": "And so the difference between GPT three versus three point five versus four all dramatically different. The difference between that clock and all the other, uh models will be available to startup s are going to be different. So you need to be well in the test and uh in kind of optimize over time because one of that is static.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:46:59",
+      "text": "Um and I say the last thing around like you know open source forces, you know uh leveraging uh OpenAI or other platforms is um is very sort of domain specific. And so in certain areas, maybe you need to find two new models a ton because we're service seeing a specific vertical industry and that has its its own set of requirements. So it's not going to be the same for maybe other categories, the product.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:47:25",
+      "text": "So when you deeply empathy of what your users need, you can then understand, okay, of all of my different options, what serves my users the best and what is scalable if I can serve my users in a way that the lights done and in a way that I can stall, monetize effectively and and actually you know, produce a profit, then that's great. If I can, then you have to rethink the system, like what are the parts you can control? Um so none of IT is static. And I think for us, we're trying to be in a position where we can be constantly experimenting, testing out different things and and knowing when we need adapt and when we are okay with our current subtlety.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:48:06",
+      "text": "After when I talk to some set of some set of funders and at first, I feel like the the entire industry has gone through this, a very typical, very typical a high court, for at first everyone thought I like, oh, GPT can do everything LN can can do most of the job.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:48:22",
+      "text": "And then they realized that in the the real use case, when they actually building the product, if by themselves or for the customers only, there are so many chAllenges I can face housing or are able to control IT. Like maybe you can you can also you have been through the process like maybe share some of some chAllenges you have seen really signing a product, a product around AI and how of your team be able to solve this? We are probably some best practice for IT for the audience to .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:48:50",
+      "text": "learn from yeah I say general take away and observations uh from kind of seeing what's happened over the past in a year is that a IT is very easy to build a flashy demo um you know create a concept car, get people very excited and uh it's it's much harder to have that concept car be driverless where the wheel don't fall off or over sudden, you know the door falls off.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:49:17",
+      "text": "It's it's it's like the difference between those two things is the difference between um something that flashy and something that can be enduring as a product and and as a business. So um I think that this where most of the teams that are patient realized that yeah IT doesn't IT doesn't mean that you shouldn't go after this moment in time and try to acquire users. But you need to be anticipating that that's not onna be enough and that you need to build um a product around anything where if if if the AI is delivering on some promise, the rest of the product needs to continue supporting that user throughout the journey can just be a one and done and need to be something that functionally useful. Um and and so that's what I observed is like a lot of the one a lot of companies that were just kind of um immediately trying to go after kind of this IAI hype, we're able to generate some interest in sign ups but have a tough time converting those in in in a long term usage in long term users.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:50:17",
+      "text": "Follow up your answers is so nowadays how do you actually your team prioritize those AI features uh you just described you know from beginning adding a copy o and then right now I saw some features, you can upload your documents and I will do the rest of the work right now. How do you um prioritize all those speeches and to you know smoothly integrate today's get up product .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:50:43",
+      "text": "yeah um the prioritization piece of IT is is uh is actually one of the trick est things because there is a lot of competing priorities. And um I think for us, you know because we are still so early in the product, um there are basically two halves of what we are building that need to work uh very well together and one half of all the blocks, the product, all the core primitives within gamma. So you know gamma there there are no slides.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:51:15",
+      "text": "There is the notion of cards that we have that are you know more adaptive and valuable and those sort of building blocks like the way we we think about layouts and all that stuff that, that we have to continue innovating there because we've only just gotten started. Other half of that is how AI can play with those building works and so doesn't understand how to fill out a card or how to fill out a duck um within gamma. And so that's what we're constantly pushing the capabilities there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:51:45",
+      "text": "Um there are certain efforts where we're taking, you know going from zero one, which is like today, you know um we don't yet offer the ability to generate images, but we that is something that will be coming. So the ability to create visuals and images directly game there AI generated. So that will be those are areas where were taking zero to one, something that doesn't exist, the product, but we know can provide value. And in other ones, where it's more about just incrementally improving how these two pieces really fit together, and that's where are going back to looking at what users are trying to do, we can figure out OK, what are the things that will really move the needle here and try to prioritize those efforts.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:52:23",
+      "text": "Yes, II would love to hear like what's what's the bigger picture in your mind? I believe that this what we can see gma as IT is now is probably only an uh the the beginning. Well, how do you envision the product this product can go forward? And actually, the bigger are the bigger given them higher level.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:52:43",
+      "text": "Like, do we still need like powers points, powerpoint, intor word? And so like this, like office rift, do we do? Do we still need all of that like three or five years from from from now?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:52:54",
+      "text": "Like yeah I mean, when he comes to you know where we are with even just digital adoption, I think we're just still so early. You know we're only just now seeing where digital natives, you know people that grow with technology still only represent half the workforce. So at some point, you know the decision makers um will all become digital natives and so they're gonna much more willing to adopt digital tools.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:53:21",
+      "text": "And so I think you know there's gona be a massive opportunity for many different types of platforms and suits. I don't think microsoft sweet or google sweat are going away anytime soon because II just fundamentally believe the market itself is expanded. IT will get bigger and there will be room for the company.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:53:39",
+      "text": "But I think theyll also be room for new ways of in a creating content. And I think gams ambition is to um really open up what that what what that could be know the vast majority of people are never created their own website. Um the vast majority of people don't create much digital content outside of know a word dog or a powerpoint.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:54:02",
+      "text": "And I think that could be that could be expanded upon. I think we will all become comfortable with creating content and shape that's more engaging. And and I think that's what we want to be a part of. Its it's really unlocking what people aren't yet doing today. But I think we'll be doing much more of which is creating forms different forms of digital content.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:54:23",
+      "text": "Ah actually actually want to uh have a quick follow up because you know uh in the past two years we see a lot of both worse about you know bundle ling the office with by notion, by canada, by gamma and air table x and now with AI and is that copilot sixty five is gaining more attraction again and and you talking a lot about you know how to integrate different data sources and work process altogether.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:54:51",
+      "text": "So we probably seen a kind of you know bundle ling rebounders back again. So how do you see all this trend? And how does AR in your view, AAA sight to where things .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "00:55:04",
+      "text": "are going to um how things are going to evolve? I think the you know rebundling IT makes a lot of sense for large enterprises. Um and you know when you especially if you're facing what's potentially a recession and you know IT right wants to spend every you know wants to consolidate vendors.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:55:25",
+      "text": "And so certainly not having a million different SaaS products that you're paying for makes AA sense of bundling will see a lot of tail wins, I think, in that sense. But also I think there's also been a fragment of you know not a many more businesses are going to be small businesses or freeLance solar purses. Um so the the the the definition of a business, I think will also kind of continue to evolve.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:55:52",
+      "text": "And are those in are our solutions gna be in the microsoft sweet, maybe in certain cases, but they also have the freedom to choose the tools that best further job know what the job trying accomplish. That's why they there is in a room for new players in the space. And obviously, amp itself already has its own sort of sweet, but I think there's room for these new sweets to come and and take market.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:56:16",
+      "text": "sure. Um and so I think we'll continue to to see that. And um and II think you know for for new players are like ourselves, like we focus on you know just getting that um initial adoption, getting the pool of usage where you can unlock capabilities for a small pocket tive users use that as a version to to expand IT to to a bigger market. But that's not gonna done overnight. And so you got to a start with a much smaller appeared.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:56:45",
+      "text": "With this say, I am wondering with with the AI way I have you made any changes in the in your competitive for landscape and what how do you invision if you were going forward? Like maybe you will consider most people might consider just other other power point like creators as well as a comparator. How do you you build the captives landscape?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:57:07",
+      "text": "Yeah I mean for us at this stage, the the biggest competitor is um this behavior change is getting people to have a willingness to switch from uh tools like powerpoint that they have learned as a kid to something that's different and h that behavior change takes a long time and that takes even longer.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:29",
+      "text": "When you think about um you know organisationally, if a if a company has bt powerful point, what is their willingness as a company to switch to something different? So um that's where you know we we recognize like that, that is the true competition. And if that's the competition, we need both be very sort of deliberate but also be patient.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:49",
+      "text": "It's not something that can be one overnight. You start with a small pockets users. You get to some sort of tipping point where enough of those are financial about your product and talk to everybody about IT and you earn the right to have product adoption with an organize. And I think that's where AI does necessarily change that, although I might just get you more interest, no, from those early adopters much quicker than they would have otherwise. But it's still going to be not not something that immediately one overnight.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:58:21",
+      "text": "And going forward, i'm wondering as a uh SF stronger, you HI believe that you ve probably are always looking like in the longer in a longer will, then we do like what are some technical like what are some chance like big chance that you are the europeans particularly uh particular attention to either in technology and its technical breakthrough or like any any other questions that you think might have a big .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:58:50",
+      "text": "inference in the future of a yeah I mean one big trend that i'm i'm curious about um and just how IT evolves. I think we for a long time we've talked about how you know uh international ization or globalization and how businesses can expand um much easier than they could in the past. And so you know in the past, you had to be very sort of selective of or you set up a headquarters and like what markets you sell into.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:59:18",
+      "text": "But you know, today, even though gam is so still so early, we have users across the world, and I think that couldn't have been possible, you know, seven, eight years ago. But today, you know were talking about entering different markets, localizing our products so that anybody can use gamma and there in native language to um interact with the and for a small and in team. I think that's very um you know empowers and I just feels very exciting.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:59:46",
+      "text": "This feels like all a sudden, you know I talked about early on basic the dream of building products. I have an impact. And if you have global reached, that's like a different level of impact.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:59:55",
+      "text": "And you know you could have imagined um as as an early ly stage founder. So really interest to see that. I do think AI has the capability of used right to allow much smaller teams to make big impact.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:00:08",
+      "text": "And so you know you know you can imagine where there is going to be, you know, billion our businesses built by teams of fewer than a one hundred employees. And again, that would have been hard to imagine, you know uh, ten years ago. Um and so II think will we'll see that probably occur more more.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:00:25",
+      "text": "And if there's gonna be you know that many smaller teams that can do a lot, then I think it'll probably encourage a lot more entrepreneurs in general to build things. There is more entrepreneurs. I feel like that just insurance, this can be even more progress ah and i'm just excited about that. I that's where you know innovation kind of takes a whole new level of sort of um uh adoption because you have so many more people building. And I think that in general can be Better for the world.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:00:54",
+      "text": "I'm actually a little is surprised to know that government are is already thinking about globalization, the stage of the of the company. Some curious have you seen any uh have you got any interesting uh insights from other markets in the in the world like how we go use come a um differently and I think that do you need to at this point from them as a as a sole founder, do you need to pig in how do you play outside that? How do you prove that right?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:01:23",
+      "text": "Yeah yeah a great question. Um you know I think because we've been gradually rolling out the product and things like pricing, we're able to see despite not having localization, where we getting pulled into the market and we still need understand all the reasons you know why this is even happening. But the the fact that this is happening where you start seeing strong conversion rates among certain countries and quick adoption.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:01:49",
+      "text": "So about going back into like you know if you're not spending any marketing but your your product continues to grow in certain markets, that means that people are talking about IT. And so I think there's an Operating ity to lean and more in in, in maybe key markets where we think we can actually build a viable business around. And other thing is we can also look at kind of tools that are complimentary to hours or ten general to hours like in the notions and and uh those type of tools that kind of have similar probably demographic terms of use, users and news cases.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:02:22",
+      "text": "And and we can see you know where where where are they seeing strong sort of a poll and and growth. And so I think that's part of you know what, we're trying to continue to learn. But I think what we've seen is that IT appears that there is you know an opportunity at least move faster, uh, internationally, and we pride, I would have thought otherwise. And it's our moment in time to the you do a little bit of work to kind of put some of the foundation in place. C, if you know that actually turns into something that becomes even more interesting and in which case will put put more energy behind.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:02:55",
+      "text": "Are there any are there any on so use cases from other from other markets that the surprise you are something interesting that you would like to .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:03:05",
+      "text": "share with the audience? I guess not surprising. But it's it's it's the use cases here are universal.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:12",
+      "text": "So you know we talked about powerpoint, but powerpoint is in your slides. They become ubiquitous. They are universal. So people, whether you're in china or korea for the U. S, many, many different types of uh, personas and users leverage powerpoint on a daily basis.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:33",
+      "text": "And so that's where we believe like what we're building um can have universal appeal across all these different Marks. IT doesn't matter what market you're in um there is likely a need for you know something like gamma. And if we can find those users and we can grow with them over time.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:48",
+      "text": "great. So I just have a quick follow up and maybe really little be back to the behavior changes you just talk about. So when you are observing the users from different deals or living from different categories under the wave of AI and did you discover on some specific or something interesting regarding um the behavior changes in you know different um user groups or in different jewels, like what know what surprise you? How does that reshape your product development or your strategies in future?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:04:23",
+      "text": "Yeah I mean, um I don't think there's any big surprises so far. I think you know one one surprise I guess, is despite our product not being localized, so many users are still trying their best to to use IT in and and they they see the value in the output. So right now, the output can be in the language that you ask you to be.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:04:48",
+      "text": "But IT IT takes a lot of reference, get get up to do what you want to do. And so I think what's really surprising is despite all the flaws there, there are clearly users getting all the way through and wanting more. And so I think that's where there's optimism around.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:05:03",
+      "text": "You know, if we can make a simpler for more users, um no, maybe we can um kind of engage with with a much broader audience. And so that I think that's the main learning is that you know you you don't know any of these things until you get your product out there, you have no idea which markets is going to resonate with. You assume a lot. And so the best thing could do as a software business, software founder is to get the product to a point where IT is easy to share with others and get into the hands of many users. And then hopefully from there you get some sort of um you know organic adoption and then listen to to that to where you're seeing that poll and and then go from there.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:05:43",
+      "text": "I see. So so uh, are you thinking of on start to make some localization for gamma right now? And if you start to make this decision, you know what are some on geo start to you know look .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:06:01",
+      "text": "at yeah uh yes, we are localizing the product. Um it's a probably going to be coming a pretty soon. Or please start with rolling out to a few different markets.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:12",
+      "text": "Um we're likely going to prioritize markets where we think um you know there is just higher likelihood of of conversions. So we use you know our current conversions in those countries as a proxy is you know countries uh, both in europe and asia. We will starting to see some of that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:30",
+      "text": "So you will start announcing more that over time. And then over time, like will will probably still primarily focus on US. As the core market. But um you know we where we think there is opportunity to really build a uh a strong community will invest time, energy in those specific regions. And I would .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:06:47",
+      "text": "like to go back to the the product science we should behavior change you mention, because if you like, in them, in the space of AI for for some product designers, only one hand like AI is so, uh, the gentle AI Chloe is so powerful IT looks like can a really on the other hand, I think a lot of people also hesitated, right? What if the what if my users cannot accept the speed change of mum, of the big change in the UYOUX um so from you like since I think got a from day one is already IT was was already changing the the the way you will look at or added powerpoint uh the slides or and um learning for experience or some examples you can share about how to navigate through this like user behavior on changing process。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:07:40",
+      "text": "AA lot of IT is testing iteration. Uh you have to be willing to just constantly be trying new things and when you early, be willing to break everything all the way back down and then rebuild IT all the way back up.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:07:53",
+      "text": "So I think um none of IT is necessarily um something you can kind of interest do IT automatically IT really requires you starting with understanding you know what problems you want to solve for the user and just coming up with different permutations of the solution over and over and over again until you feel like you gotta a good place. And then look at your metrics. Are your users coming back? Are they telling their friends about the product? Those sorts of things give you an indication that you feel like you're moving in the right direction.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:08:26",
+      "text": "What was the recent big change of gma that you that you can share? I would like to share.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:08:32",
+      "text": "yeah, we haven't made too many sort of big changes. Uh, a after we sort of introduced some of our AI capabilities, it's more been around kind of continued due to kind of polish or improve the the first user experience and then is about like expanding the capability. So um now we allow you to kind of you know h import your own document.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:08:57",
+      "text": "So if you have something written in ocean or um you know google dogs like a ua long proposal for thanks and you want to convert that into a presentation. H we allow you to do that so we can take something that has you know um much more content transform and how you visualized IT. Uh so doesn't nessy need to be just starting with a prompt or topic.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:09:20",
+      "text": "You could be actually using work already have turning that into an engaging presentation. so. I think there's just so much more we can be doing. Um but those are the you know the the biggest change has been just introducing AI into the creation flow that was just dramatically different than what the experience was before.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:09:38",
+      "text": "And looking and looking forward, like what's what's next for a forma? What are some exciting like what what are something that, that make you more exciting about the other future of gamma? And will some changes that gamma use as can expect to see and then and maybe later uh next six months or or one year?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:10:00",
+      "text": "No um I think you know what IT comes to um what you're able to create gamma um today it's kind of limited to you. A lot of users are creating IT for if something that feels like as uh slide deck, um II think we will build to expand into many more forms of digital content.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:10:21",
+      "text": "Um and so it's really about, you know what does the user want to create? How can we help them create things that they may not even kind of uh know that they're capable of building. And so give them a variety of options and show them kind of show them possibilities. Um and I think that's where AI itself, you know today moc centers around text, but certainly in the future, much more around visuals and images and even getting into where things like charts and you know data and analyze plays you know will all be in in the future.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:10:54",
+      "text": "So I think it's when when he comes back to the foundational idea of like you have all these ideas on your head, how do you get them on to uh uh uh a format that can be shared with other people so that they understand what's in your head? That's what's exciting. I think this can be so much more we can do. And um we really want the entire experience to be something that is magical, something that feels special and something that maybe .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:11:19",
+      "text": "only like you can do sounds great. We look forward to to that. I really love that. I really love the vision that we are you not thinking in the form of a current product, right?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:11:33",
+      "text": "We are into that really, how to help people convoy, what they want to convey their idea regards of those, those former, right? The former should go with the idea of the convoy instead of power. Idea, really, to try to like our idea to the啊，to to the material are we going to use yeah I have one .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:11:51",
+      "text": "ask question on for grantie about the community because I mean, the selections and you actually mention a bit about how you engage with the users, try to get feedbacks from the community and over or what are you some best practice about building communities on on from from gamma? And how actually um are you do are you getting feedback and prioritising feedback and engage those users in channel and in order to improve product?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:12:25",
+      "text": "Yeah um I think you know the biggest learning is that yeah proper community building takes a lot of time. And so if your founder and you want to do a you need to be committed to IT for a long period time and you need to care about IT.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:12:41",
+      "text": "And so when your users are engaging with you, you take the time to understand what the what their um you know hoping they are accomplish with with your product and where you fit in into their lives and you try to bet your best to support them. Um we recognize that the community can be built overnight. And so it's very much it's kind of our similar approach.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:13:02",
+      "text": "Almost everything we do, which is you have to test different ways that you have to find ways to provide more value to your community than and then they are to you at any different point in time. And if you do that over a long time horizon, then you'll start in a ripping the rewards much, much later in the worst, all at the you, a very foundational kind of building stage right now. And and I think that's where not every is commit is not for every product or every no founder, if you're gonna, do IT then be willing to be committed to IT for long period and really wanna do IT. But I think if you if you if you don't feel like you get another fire, it's not gonna be a good use of every time.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:13:41",
+      "text": "Uh, I think for most father, like grows on companies like like gma on the second stage for them is definitely to go to is not ready to go to enterprise. So I morning with the guma is already working with uh some enterprise customers. If if yes, like what are some um different? What are some h chAllenges or what are some new requirement from the and company that you find particularly different from your .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:14:08",
+      "text": "in yeah we um we have not yet started trying to sell enterprise um sunder enterprise requires uh a very different goal of market motion. And so um when he comes to that, you need different um in a personnel on the team, you need different resources. And if you're going to go after enterprise, you need be committed to making that investment.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:14:31",
+      "text": "And we don't feel for in a lean team, that's just not where we're going to be pouring our time and energy. We're still building the building blocks to the product. And so some day will be, you know, we've certainly been pulled into some enterprise conversations, but that's just not where we think um as the company were ready to kind of go all in and unless you're ready to go all in, IT doesn't make sense to spend any time there. Uh so where were you know were being patient in that science and and try to focus on our current users and now expanding the usage.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:15:02",
+      "text": "That II believe that you have already got some uh eban chorus from there are from from the enterprise and IT must not be that easy to say no to all the .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:15:15",
+      "text": "big logos yeah I mean, it's definitely a temptation. And so I think we goes back to like what you know, having conviction in your plan and your strategy and enjoy your best stick to that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:15:27",
+      "text": "So the part is our father quick fire on where we prepare some quick questions that grants can answer in in in a minute or um in a minute or two and there are some just some interesting questions that that um there will there could be uh so .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:15:44",
+      "text": "I ready because dry yeah .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:15:46",
+      "text": "ready um um uh would you recommend like two books to the to the audience or some books that you that you um that you always recommend to to your friends one business related and one no business related?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:16:01",
+      "text": "Yeah definitely um i'll start with the the business book um one I really enjoyed reading was a book called uh shoe dog which is um about the story of of nike and for me I always been an a big your nike fan and and so I think IT just comes down to h it's crazy to think that even an iconic company like nike, you know just how hard IT is to a build something like that uh how lucky you need to be a various stages of of a business is also a combination of luck, hard work um having some intuition about how you can break into the market and and and ultimately about perseverance doing that over a long pard time.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:16:45",
+      "text": "So definite as an entrepreneur, very inspired by the book and then um for for fiction um there's one um I read a while ago called all the light we cannot see. It's AA story about world war two. Um I think um as now AA father of of two kids, you know in particularly leader, there's parts of the book that really sort of resonate and it's a book ultimately about you know kind of like hope in love and I think those are just ingredients for something that you know you can always go back and read and feel like you learn something new so it's it's a book I recommend .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:17:22",
+      "text": "everybody awesome. And second question is you you know what's your both enjoyable at least enjoyable parts being a founder of a company, a start up?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:17:33",
+      "text": "Yeah most enjoyable part. Um what is kind of two things that are intertwined for me? One is being able to spend time I really, really enjoy spending time with, which is my team. And and I guess related to that is being able to build a product that we feel like has the ability to impact many different people.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:17:52",
+      "text": "And so it's just a very rewarding job, is not always an easy job, but is a very rewarding one because when you feel like you're doing something right, your users and customers get the benefit from that. So I really love that part of IT um the tough is part of people and start of founder is this um incest. Feeling that you're always falling behind, that you're never moving fast enough, that you are always dropping the ball on something and that feeling honestly just never goes away. You have even if your launch goes well in many ways, that just accelerates the feeling of like you're not able to keep up. And so I think it's being willing to accept that, that's just the reality and being OK with that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:18:36",
+      "text": "okay. Uh next next question. Uh what's your most frequently use AI product besides gamma and charge beating?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:18:45",
+      "text": "Yeah um I would say more recently, you know uh playing around with a lot of the image generation tool. So enough for me more recently spend spending a time in dreams studio um which is by a stability um and just having fun there um uh officially is trying to understand how these tools work uh and the user experience because um these are capabilities that we hope to bring the gamma. So I just try my best to familiarize myself with that and being someone that really um appreciate you know the the artistic side of things is really fun to build on lock capabilities that you don't think where we're even possible certainly were impossible few years ago.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:19:27",
+      "text": "Any examples if you would like .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:19:29",
+      "text": "to share of what i've created?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:19:32",
+      "text": "Yeah maybe all create .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:19:33",
+      "text": "a game of deck and and send that across after this.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:19:40",
+      "text": "sure. At next one, there's anything you would like to change if you started to start after you over again.",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:19:49",
+      "text": "Honestly, II don't think so um for me I feel like you know the path that i've taken has been one about continuous learning and then feeling like when I was the right time to actually start something. So um you know my start up journey started long before I started again but started with just learning about you know how technology businesses get built and then um realizing over time like there would be um you know space that I could care deep enough about to spend you know ten years, potentially the rest my life working on. And so that's where I feel like a converged when gamma as the sort of concept came to came to mind.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:20:31",
+      "text": "So uh the next question but is you mention that you are already a father of two. How how does having two kids uh affect how you how you work and how um AUS. As a founder .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:20:44",
+      "text": "yeah great question. Um I think it's changed a few different things. Um one IT really forces you to be efficient and prioritize your time.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:20:58",
+      "text": "Uh when you working, you need to be working, which means you prioritize the most important things and you try to be efficient without time. H and then when you're not working, you really just unplug you. Can you know you when you are with your family, you need to spend quality time with your family. And so it's forced me to to kind of be very clear, you know, when i'm working, when i'm not, which you know before kids are all sort of sort of blood together, which also meant that you are kind of not always being efficient. You kind of you know stumbling three things all the time. And so for me at least, it's forced me to be more deliberate with with my use of time and a the other part of IT is IT becomes much easier, at least for the product building to imagine what I would be like if my kids were using our product in the future and like what is the quality bar of a product that would be interesting enough for them to want to use, for them to want to tell her friends and be proud of the product that we've built. And that just sets the quality bar even higher than probably what I would have been even, you know, without them in the picture.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:22:05",
+      "text": "IAII get I always .",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:22:06",
+      "text": "talk with my my friends who we just have um that we just have kids and they and also I like we it's so easy for a thousand like us to criticize like ChatGPT right not talking like human sector but actually like kids are more什么是tolerance on they can easily have a long long job with a character AI or activity I think would be amazing to see like how what this generation grow up。Like what the tools they are going to use and how they are going to work.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:22:39",
+      "text": "All my my three year old daughter is already telling alex a to do all sorts of things that alexa can't do you so that something will be using A. I am certain ways that we can even imagine.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:22:53",
+      "text": "Yeah so the last question, this may be a bit tough. This is what do you think being overstated and understated about the generative AI today?",
+      "speaker": "发言人4"
+    },
+    {
+      "time": "01:23:04",
+      "text": "Yeah I think this is like a tough one for me. I really believe um were a very special sort of moment in time and the best we can do is sort of embrace that what's going on with AI is is is really special right now, but nobody can really predict what's gna happen a year from now um and so for me to even think like, you know what's what's kind of overstay understated I think would be Frankly you know just just like it's it's it's such a guess that um I am just trying to ensure that um you know I realize how special this moment is because there's few moments in time where I feel like new technology is going through the sort of uh crazy transition. Certainly when you know early days dot com and then cloud and then mobile adding their sees like small windows of time where the suddenly something happens and when you are building uh and you're even in you know we're lucky to be in a city like cisco。The sort of energy is so tangible everybody can is like excited about um you know kind of take advantage of what what's you know what's possible and h and I think that's what special so I don't know what's understand state I think uh I just .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:24:16",
+      "text": "happy to be in this moment in time a conclusion to our to to talk now I think is uh is been a great conversation I learned so much from from grants and especially like how we can imagine our the the office wait of the future. Thank you so much. A grand for your time. Yes.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:24:35",
+      "text": "thank you. great.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:24:37",
+      "text": "以上就是我们本期播客的全部内容，这是第一次两位主播一起完成的英文采访，有很多不足还请大家在后台给我们多提建议。如果各位有想要我们去访谈的有意思的海外萨说AI公司的创始人，欢迎大家踊跃留言，感谢大家的收听。如果你喜欢我们的4 cast，还有我们的内容，欢迎你点赞并且分享给感兴趣的朋友。如果你在用apple podcast收听，也希望你花几秒钟给我们打个分，让更多的人了解到我们我们下期再见。",
+      "speaker": "发言人2"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这次讨论中，一位创业者分享了他对于不断追求进步和面对失败压力的感受，强调接受这些是生活的一部分，并讨论了AI产品在提升用户体验中的作用，以及家庭如何促使他更高效地管理工作和个人时间。他还谈到了AI技术的快速发展，鼓励大家拥抱这一变化，同时意识到预测未来发展的不确定性。讨论还覆盖了软件如何影响世界，Gamma公司的成长历程，以及AI对下一代生活和工作的影响。此外，讨论了产品开发、用户反馈、市场定位和定价策略，以及如何通过AI技术使用户能够创建更多形式的数字内容。整体上，对话强调了技术创新、市场匹配、用户需求理解以及持续学习和适应变化的重要性。",
+    "qa_pairs": [
+      {
+        "question": "How did the company, gamma, come to be?",
+        "answer": "Gamma was founded by Grant Lee, who was motivated by his experience of spending a lot of time formatting presentations in Google Slides and PowerPoint. He envisioned a better way to craft ideas and content in a compelling and engaging manner.",
+        "time": "00:01:36"
+      },
+      {
+        "question": "What are some of Grant Lee's qualifications and experiences prior to starting gamma?",
+        "answer": "Grant Lee has a background in mechanical engineering and has worked in investment banking and consulting. He has spent a lot of time creating presentations and felt there was a better way to do so. He also worked on a side business creating a sunglasses business before pursuing a hardware career and later moving into optimization.",
+        "time": "00:02:59"
+      },
+      {
+        "question": "What was the initial stage of gamma and how did it evolve over time?",
+        "answer": "Initially, gamma was formed at the end of 2020, and they took a patient approach to build the foundation for their product. By the end of 2021, they launched a private beta and over time, grew the user base and announced the public release in August 2022. They recognized an opportunity to redesign the creation flow by leveraging AI, which led to a significant increase in usage.",
+        "time": "00:06:00"
+      },
+      {
+        "question": "What is the purpose of the AI integration in the product?",
+        "answer": "The purpose of integrating AI into the product was to redesign the entire creation flow, accelerate the adoption of the product, and provide a better initial experience for new users.",
+        "time": "00:07:48"
+      },
+      {
+        "question": "What was the key factor in validating the universal problem that gamma was solving?",
+        "answer": "The key factor in validating the universal problem was spending time with users, observing where they spent the most time, and identifying recurring categories of problems while creating presentations. The consistency in user feedback and the observed user behavior helped in honing in on the core value provided by the product.",
+        "time": "00:12:16"
+      },
+      {
+        "question": "What did the company learn after launching their public data announcement?",
+        "answer": "After launching their public data announcement, the company observed an explosion of new users, but also noted that many people were not able to spend enough time in the product to reach an 'Aha' moment where they could see its value. This led to a significant drop-off in user engagement.",
+        "time": "00:14:57"
+      },
+      {
+        "question": "What is the goal of AI integration in their product?",
+        "answer": "The goal of AI integration in their product is to accelerate the understanding of a 'product moment' (gamma) in the initial minutes of using the product, allowing users to enjoy it sooner and potentially overcome the steep learning curve associated with new products.",
+        "time": "00:15:22"
+      },
+      {
+        "question": "How does the preassembled set of building blocks from AI aid user experience?",
+        "answer": "The preassembled set of building blocks from AI aids the user experience by reducing the initial learning time required to understand the product's components. Instead of learning new building blocks, users can immediately see a constructed set, which makes the product more accessible and encourages play and exploration.",
+        "time": "00:16:07"
+      },
+      {
+        "question": "What strategy did the company use to attract its first broader range of users?",
+        "answer": "The company started by deliberately keeping its user base small, inviting friends and former colleagues to use the product. They observed repeat usage and then began to talk about the product more publicly within their social networks and with early investors. This gradual approach allowed them to have control and to understand what was working effectively.",
+        "time": "00:17:32"
+      },
+      {
+        "question": "How did the company manage the launch of their product?",
+        "answer": "The company gradually opened up to the public, first with a small group of users, then shared updates and garnered interest within their social networks and among early investors. Upon a major product announcement, they aimed to position and craft their messaging to resonate broadly with the market.",
+        "time": "00:18:23"
+      },
+      {
+        "question": "What is the importance of positioning and messaging for a product like GA?",
+        "answer": "Positioning and messaging are crucial for a product like GA because they help to communicate the value proposition in a way that is easily understood by potential users who may not have time or patience to learn about a new tool. The messaging should resonate broadly and reflect the unique vision or ambition of the company.",
+        "time": "00:18:48"
+      },
+      {
+        "question": "What was the change in product messaging for GA from early stages to public launch?",
+        "answer": "The product messaging for GA changed from an early focus on the simplicity of creating presentations without spending much time on formatting to a broader vision where GA could be a medium for people to communicate their ideas, not just for presentations but also as a static document or website.",
+        "time": "00:22:09"
+      },
+      {
+        "question": "What does the company look for when determining product market fit (PMF)?",
+        "answer": "The company looks for strong word of mouth, customers spontaneously telling their friends about the product, and an ability to convert free users to paying customers while retaining them over time. Product market fit is also about quality native growth where the company can keep up with user demands and the users are enthusiastic about the product's direction.",
+        "time": "00:24:26"
+      },
+      {
+        "question": "What approach did the speaker use to understand customer preferences and the value proposition of their tool?",
+        "answer": "The speaker started by talking to their most active users to understand which features they cared about and how their tool compared to others in the marketplace. They aimed to understand the relative value and price point of their product.",
+        "time": "00:28:21"
+      },
+      {
+        "question": "What are the different ways to determine a suitable price point for a product?",
+        "answer": "The speaker mentioned using survey questions to determine a range of acceptable prices. These include understanding the high end of the price point where the product becomes too expensive, the low end where quality is questioned, and also assessing relative price points compared to other commonly used tools like Salesforce.",
+        "time": "00:29:50"
+      },
+      {
+        "question": "How did the company gather insights on the value perceived by their customers?",
+        "answer": "The company gathered insights by asking customers about the relative importance of features, distinguishing between mission-critical and 'nice to have' features. They also looked at the value proposition to understand what drives the needle for their customers as businesses.",
+        "time": "00:31:17"
+      },
+      {
+        "question": "What unexpected findings did the company encounter during their pricing surveys?",
+        "answer": "The company found that the pricing surveys they conducted were only directionally accurate. When they actually launched their pricing strategy, they discovered different pockets of users who were willing to pay more than they had originally anticipated.",
+        "time": "00:32:20"
+      },
+      {
+        "question": "What does the speaker suggest about the pricing strategy for startups?",
+        "answer": "The speaker suggests that startups should not set the price once and for all but should be willing to adapt and learn, constantly adjusting their pricing strategy. They also emphasize the importance of focusing not only on pricing but also on the value metric that is most relevant to the customer.",
+        "time": "00:34:07"
+      },
+      {
+        "question": "Why is it important for product pricing to evolve and adapt according to the speaker?",
+        "answer": "Product pricing needs to evolve and adapt because if it doesn't align with the customer's value proposition, it can hinder the product's growth and effectiveness in the market. The speaker believes that startups should consider the changing value metrics over time to ensure the product can grow with the business.",
+        "time": "00:34:07"
+      },
+      {
+        "question": "How does the latest AI feature enhance the user experience within the product?",
+        "answer": "The latest AI feature enhances the user experience by providing an intuitive interface for AI and immediate value to various users across different use cases. It aids in generating content and presentations, offering an outline and first draft that can be further edited to meet the user's needs.",
+        "time": "00:36:41"
+      },
+      {
+        "question": "What prompted the decision to add AI features to the company's product?",
+        "answer": "The decision to add AI features was prompted by the inflection point in AI technology and the resulting change in the user experience. The company saw an opportunity to leverage AI to accelerate the adoption of their core product and infuse it with more value.",
+        "time": "00:36:04"
+      },
+      {
+        "question": "What challenges and considerations are involved in designing AI integration for a product?",
+        "answer": "Challenges and considerations include running into obstacles and pain points while using the product daily, the necessity to create functional prototypes quickly, the importance of having a team with diverse skills such as design and coding, and the need to be open to learning from the broader ecosystem and studying what works well for other tools.",
+        "time": "00:40:07"
+      },
+      {
+        "question": "What kind of users does Gamma serve and why are they important?",
+        "answer": "Gamma serves users who create a lot of presentations or content but are not proficient with PowerPoint or do not have the time or skills to learn new ones. These users still need to present their work professionally and convey their ideas visually to colleagues or customers.",
+        "time": "00:42:35"
+      },
+      {
+        "question": "What is the next evolution of focusing on pain points rather than personas?",
+        "answer": "The next evolution is focusing more on the pain point of being able to visually communicate ideas effectively, rather than concentrating on individual personas. This approach is exemplified by writing like a dog, allowing people to easily convey their thoughts in a visually consumable manner.",
+        "time": "00:43:07"
+      },
+      {
+        "question": "How does AI acceleration expand the promise of products like Gamma?",
+        "answer": "AI acceleration expands the promise of products like Gamma by assisting those with complex ideas to easily transfer them into a slide presentation, thus serving a broader range of users who are not necessarily power users of PowerPoint.",
+        "time": "00:43:58"
+      },
+      {
+        "question": "What considerations are involved in choosing between using OpenAI tools or open-source models for product development?",
+        "answer": "The considerations involve understanding the changing costs, underlying costs, and performance differences between using different AI models, such as OpenAI's API versus self-hosting open-source models. The landscape of IT is evolving, and one needs to be adaptable and well-versed in testing and optimizing over time.",
+        "time": "00:45:25"
+      },
+      {
+        "question": "Why is it important to be adaptable with technology when starting a new product?",
+        "answer": "Adapting to technology is crucial for new products because IT is rapidly changing, with new tools, costs, and performance variations. Being adaptable allows a product to stay nimble, providing value to users and facilitating the ongoing experimentation and optimization necessary for success.",
+        "time": "00:45:44"
+      },
+      {
+        "question": "How do teams manage the challenges of developing products around AI?",
+        "answer": "Teams manage the challenges by anticipating that initial excitement from a flashy demo will not be sufficient for long-term user adoption. They must build enduring products that continue supporting users throughout their journey and not just be a one-off solution.",
+        "time": "00:48:22"
+      },
+      {
+        "question": "What is the vision for the future of products like Gamma?",
+        "answer": "The vision for the future includes a continued expansion of digital adoption and the creation of new forms of digital content. Products like Gamma are seen as just the beginning, with the potential to unlock more engaging content creation capabilities for the majority who currently do not produce much digital content.",
+        "time": "00:52:23"
+      },
+      {
+        "question": "How does the speaker view the role of IT in the future, especially for small businesses and freelancers?",
+        "answer": "The speaker views IT as growing in importance, with non-digital natives becoming decision-makers in the workforce. This will lead to a greater willingness to adopt digital tools. The market is expected to expand, allowing room for both established companies and new players to offer different types of platforms and suits. Small businesses and freelancers will have the freedom to choose the best tools for their needs, creating opportunities for new players in the space.",
+        "time": "00:52:54"
+      },
+      {
+        "question": "How does the speaker suggest companies will change their approach to using AI in product adoption?",
+        "answer": "The speaker suggests that companies will start with a small group of users and work towards a tipping point where enough users are satisfied with the product's financial benefits. This will allow for product adoption within an organization, which may be accelerated by AI.",
+        "time": "00:57:49"
+      },
+      {
+        "question": "What are the speaker's thoughts on the global impact of AI and building products with reach?",
+        "answer": "The speaker believes that global reach significantly increases the impact of building products with AI. The dream of impacting the world at a larger scale is becoming more attainable with AI, allowing smaller teams to create substantial effects.",
+        "time": "00:59:46"
+      },
+      {
+        "question": "What does the speaker see as the future impact of AI on small teams and entrepreneurship?",
+        "answer": "The speaker believes AI has the capability to allow much smaller teams to make big impacts, potentially leading to the creation of billion-dollar businesses by teams fewer than a hundred employees. This is a shift from ten years ago and is expected to encourage more entrepreneurship.",
+        "time": "00:59:55"
+      },
+      {
+        "question": "What has the speaker learned from the global adoption of their product without localization efforts?",
+        "answer": "From the global adoption of the product without localization efforts, the speaker learned that despite not having localization, there were strong conversion rates in certain countries and quick adoption, indicating that there is international interest and an opportunity to move faster internationally.",
+        "time": "01:01:23"
+      },
+      {
+        "question": "What has been the speaker's biggest surprise regarding user behavior and product adoption?",
+        "answer": "The speaker's biggest surprise has been that despite the product not being localized, many users are still trying to use it and see value in the output. They are surprised that so many users are engaging with the product and wanting more despite its imperfections.",
+        "time": "01:04:23"
+      },
+      {
+        "question": "What strategy does the speaker recommend for software founders to understand market resonance for their product?",
+        "answer": "The speaker recommends that software founders release their product in a way that it is easy to share with others, get into the hands of many users, and listen to the organic adoption and feedback. They suggest observing user metrics like return visits and word-of-mouth referrals to gauge the product's success in the market.",
+        "time": "01:05:03"
+      },
+      {
+        "question": "How does the speaker plan to approach product localization and which markets will they prioritize?",
+        "answer": "The speaker plans to prioritize markets with a higher likelihood of conversion, based on current conversion rates in Europe and Asia. They intend to start rolling out the product to these regions before focusing primarily on the US as the core market.",
+        "time": "01:06:01"
+      },
+      {
+        "question": "What major change has the speaker introduced in the recent past and what is the vision for the future of AI integration in the product?",
+        "answer": "The speaker introduced AI capabilities into the product's creation flow, allowing users to import their existing documents and transform them into presentations. The vision for the future is to expand the capabilities to many more forms of digital content and assist users in creating a variety of formats they may not have considered.",
+        "time": "01:08:26"
+      },
+      {
+        "question": "What are the best practices for building a community around a product and engaging users?",
+        "answer": "The best practices for building a community include being committed to community involvement for a long period of time, caring about the community, and taking the time to understand what users are trying to accomplish with your product and where it fits in their lives. Engaging users in channels and prioritizing feedback to improve the product are essential actions to foster community growth.",
+        "time": "01:11:51"
+      },
+      {
+        "question": "What is the importance of long-term commitment in building a community?",
+        "answer": "Long-term commitment is crucial in building a proper community because it requires founders to dedicate significant time and effort to the community. This deep involvement ensures that the community can grow organically over time, unlike attempts to build it overnight.",
+        "time": "01:12:25"
+      },
+      {
+        "question": "What challenges and new requirements are encountered when scaling a product to enterprise use?",
+        "answer": "Scaling a product to enterprise use involves different market dynamics, requiring different personnel and resources. Commitment to making these investments is necessary, but not advisable for every lean team, as they should focus on foundational product building blocks. The company needs to be prepared for a more extensive commitment and investment to succeed in the enterprise market.",
+        "time": "01:13:41"
+      },
+      {
+        "question": "Why has the company chosen not to focus on enterprise for the second stage of growth?",
+        "answer": "The company has chosen not to focus on enterprise during its second stage of growth because their current team is not ready to make the necessary investments in personnel and resources to pursue the enterprise market aggressively. The company is concentrating on building the core product and expanding usage among current users.",
+        "time": "01:13:41"
+      },
+      {
+        "question": "What two books does the speaker recommend and what do they have in common?",
+        "answer": "The speaker recommends 'Shoe Dog,' a book about the story of Nike, for its insights on building a successful company, and 'All the Light We Cannot See,' a work of fiction set during World War II, for its themes of hope and love. Both books are recommended for their inspiring messages and ability to provide lessons through their narratives.",
+        "time": "01:16:01"
+      },
+      {
+        "question": "What are the enjoyable parts of being a founder of a startup?",
+        "answer": "The most enjoyable parts of being a founder include the ability to spend time with a team that one really enjoys and building a product that can impact many people. This role is very rewarding, although it is not always easy due to the constant pressure and feelings of always falling behind. However, the benefit of seeing the positive impact of the work on users makes it a fulfilling job.",
+        "time": "01:17:22"
+      },
+      {
+        "question": "What AI products besides their own does the speaker frequently use?",
+        "answer": "The speaker frequently uses image-generation tools like DreamStudio by Stability AI to explore these capabilities and understand the user experience better. These tools are considered for incorporation into their own product offerings.",
+        "time": "01:18:36"
+      },
+      {
+        "question": "How has having two kids changed the speaker's work as a founder?",
+        "answer": "Having two kids has changed the speaker's work by forcing them to be more efficient with their time and prioritize their activities. It has also influenced their work to be more deliberate with time usage and set a higher quality bar for their product, imagining how their kids would use and be proud of the product.",
+        "time": "01:20:31"
+      },
+      {
+        "question": "What does the speaker believe is overrated and underated about generative AI today?",
+        "answer": "The speaker believes that the special nature of the current moment in AI development is underappreciated. They acknowledge that nobody can predict the future of AI, but recognize that we are in a unique period where technology is undergoing a rapid transition. Embracing this moment and the energy it brings is what makes the current state of generative AI special.",
+        "time": "01:22:53"
+      },
+      {
+        "question": "What is the core mission of gamma?",
+        "answer": "The core mission of gamma is to create a magical experience around creation so that anyone can craft their ideas in a delightful way.",
+        "time": "00:02:00"
+      },
+      {
+        "question": "What is the unique approach that gamma takes compared to traditional slide creation tools?",
+        "answer": "Gamma's unique approach focuses on being mobile-friendly, interactive by default, and multimedia-rich, with the capability to embed entire websites, videos, or other content directly into presentations.",
+        "time": "00:11:06"
+      },
+      {
+        "question": "What is the biggest competitor for the speaker's product in terms of behavior change and company willingness to switch?",
+        "answer": "The biggest competitor for the speaker's product is the established behavior change involved in getting people to switch from familiar tools like PowerPoint to something different, which is a long process.",
+        "time": "00:57:07"
+      },
+      {
+        "question": "What major trend is the speaker curious about regarding IT evolution?",
+        "answer": "The speaker is curious about how IT evolution will adapt to globalization and how businesses can expand more easily than in the past.",
+        "time": "00:58:50"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "Gamma：AI驱动的创意展示工具",
+        "summary": "在本期节目中，我们邀请到了Gamma的联合创始人兼CEO，一家位于旧金山湾区的初创公司，专注于通过AI技术改变人们创建和展示创意的方式。自2020年成立以来，Gamma从最初类似Notion的block或卡片编辑器发展成为集成AI功能的高效视觉内容生成工具。通过对话或上传文档，用户能够轻松开发和展示创意。公司于2021年8月推出Beta版，并迅速吸引数百万用户。创始人还分享了他对AI如何影响用户创意以及下一代生活和工作的见解。"
+      },
+      {
+        "time": "00:01:21",
+        "title": "介绍Gamma及其创立背景",
+        "summary": "Gamma是一个旨在替代传统演示工具如PowerPoint和Slides的新平台，专注于提供一个更有效、更吸引人的方式来展示和分享工作。创建者在投资银行、咨询行业以及先前的创业经历中积累了丰富的经验，深刻体会到现有演示工具的局限性，因此决心开发出一种能更高效、更具吸引力地呈现思想的工具。创立Gamma的灵感来自于创建者对制作演示文稿的不满，希望简化内容创作过程，使任何人都能以更吸引人的方式表达自己的想法。此外，创建者还分享了一个有趣的个人经历，他曾与现在的合伙人一起创立了一个手工制作太阳镜的业务，这个经历不仅证明了他们合作的默契，也为后来共同创立Gamma奠定了基础。"
+      },
+      {
+        "time": "00:04:08",
+        "title": "从机械工程到软件开发的职业转变",
+        "summary": "在从事机械工程，特别是生物医学设备设计期间，虽然喜欢创造和构建事物，但由于产品开发周期长，很多项目可能多年后仍无法上市，让人感到挑战重重。转向软件开发领域后，体验到了快速将创新产品交付到用户手中并立即产生影响的满足感。在加入一家快速成长的YC公司后，见证了公司从年收入1000万增长到超过1亿的历程，深刻体会到了软件能够迅速产生广泛影响的能力，从而获得了极大的动力和满足。"
+      },
+      {
+        "time": "00:05:48",
+        "title": "Gamma公司发展历程及AI技术应用",
+        "summary": "Gamma公司于2020年底成立，初衷是探索重新构想幻灯片、沟通和协作工具，特别是疫情之后对未来工作模式的预期。公司起初专注于产品基础建设，随后在2020年末推出了私测版，允许多人协作。经过逐步扩大测试用户群，于2022年8月正式公开发布，吸引了成千上万的用户，并在产品猎手网站上获得月度最佳产品称号。随着AI技术的兴起，Gamma重新设计了创作流程，利用AI加速用户对产品的采纳。2023年3月，公司发布了AI功能，用户量迅速增长至数百万，遍及全球，尤其是中国、日本、韩国和欧洲等地。尽管处于发展初期，Gamma认为仍有巨大的增长潜力。"
+      },
+      {
+        "time": "00:08:58",
+        "title": "从幻灯片到Gamma：视觉沟通工具的演进",
+        "summary": "讨论了幻灯片制作软件从传统到现代的演变过程，特别是指出了幻灯片最初是作为物理世界中的视觉辅助工具而设计的，随着时间的推移，逐渐转向了适应虚拟工作环境的数字解决方案。提出了对于现代视觉沟通工具的几个基本要求，包括移动友好性、互动性和多媒体丰富性，以适应当前工作方式的转变和对远程、异步沟通的需求。"
+      },
+      {
+        "time": "00:12:15",
+        "title": "产品开发初期的用户研究与AI辅助创新",
+        "summary": "在产品开发的初期阶段，必须投入大量时间与用户互动，以真实了解他们的需求和痛点。通过观察用户在使用产品时的行为，可以识别出普遍存在的问题，并基于这些反馈进行产品迭代。一开始，可能会倾向于依赖朋友或熟人进行产品测试，但他们可能无法提供客观的反馈。因此，重要的是观察用户的真实使用情况，比如他们是否会持续使用产品，以及他们如何描述产品的价值。此外，引入AI技术可以显著降低用户的学习曲线，通过预组装的解决方案让用户更快地理解和体验产品价值，从而加速产品的采用率。"
+      },
+      {
+        "time": "00:16:50",
+        "title": "AI技术在游戏开发中的应用及市场策略",
+        "summary": "对话中讨论了AI技术在游戏开发中的重要性以及如何通过逐步扩大用户群来吸引更广泛的用户。初期，产品仅限于朋友和前同事使用，随着产品的公开讨论和在社交网络中的分享，逐渐吸引了更多的关注。特别强调了产品定位和消息传递的重要性，需要时间来理解用户如何描述产品的价值，以便更有效地吸引用户。此外，还讨论了其他公司在明确传达信息方面的经验，如Notion和Canva，强调了有明确愿景和使命的重要性，以及如何将这些宏大愿景分解成易于理解的部分。"
+      },
+      {
+        "time": "00:22:09",
+        "title": "产品市场适应性及发展策略讨论",
+        "summary": "在讨论中，讨论者提到他们的产品从早期阶段到公共发布后，产品信息和市场定位经历了显著的变化。最初，产品专注于解决特定的使用场景，承诺简化格式化和视觉对齐的工作，使非设计师也能轻松创建和展示内容。然而，随着产品的发展，团队的目标扩展到更广泛的应用，希望产品不仅能用于演示，还能作为沟通想法的综合平台，形式多样，功能强大。讨论者还分享了对产品市场适应性的看法，强调了几个关键因素：产品的口碑传播、用户是否愿意为之付费、以及产品能否满足用户的需求和期待。通过这些讨论，可以看出团队对于如何定义和实现产品市场适应性有着深刻的理解和计划。"
+      },
+      {
+        "time": "00:27:13",
+        "title": "从免费到收费：一个创业公司的定价策略",
+        "summary": "该对话主要探讨了一个创业公司如何从免费模式过渡到收费模式的过程。公司通过与最活跃用户沟通，理解他们对产品功能的需求以及在市场中的价值定位，逐渐调整定价策略。他们没有急于推出正式的价格体系，而是逐步实施，以便从用户那里获得反馈，更好地理解他们愿意支付的价格点。此外，还通过调研确定价格范围，考虑产品的市场定位和价值提供，以决定最终的定价和产品包装。通过这一过程，公司收获了对用户需求和价值认知的深入理解，为其商业模型的建立打下了坚实的基础。"
+      },
+      {
+        "time": "00:32:20",
+        "title": "定价策略和价值定位的重要性",
+        "summary": "讨论强调了定价策略和价值定位在产品和业务成功中的重要性。指出定价调研虽可提供方向性指导，但实际的市场反应可能与预期不同，因此建议通过实际测试来确定最合适的定价。特别提到，某些用户群体的实际支付意愿可能超出预期，如教育领域的消费者。此外，还强调了定价不是一成不变的，企业应根据市场反馈不断调整定价策略。最后，指出了多数初创企业常犯的错误是未能充分考虑产品带来的价值指标，导致定价与产品为顾客创造的价值不匹配，限制了企业和产品的成长潜力。"
+      },
+      {
+        "time": "00:35:31",
+        "title": "AI技术在产品开发中的关键角色",
+        "summary": "在讨论中，AI技术被看作是推动产品价值和用户体验升级的重要因素。随着AI技术到达一个转折点，尤其是ChatGPT的发布，人们开始广泛讨论AI的新创新、产品和特性。讨论者指出，他们一直在关注AI的发展，并寻找将AI技术融入产品中的合适时机和机会，强调AI不仅仅是附加功能，而是要成为公司和产品构架中不可或缺的一部分。他们分享了如何通过AI技术改进用户界面，使其更加直观，以及如何利用AI在不同方面提升产品，比如自动生成演示文稿大纲和初稿，以及通过聊天界面作为内容创作的辅助工具，帮助用户迭代和优化内容。AI被看作是具有无限创造力和耐心的合作伙伴，能够显著提升内容制作的效率和质量。"
+      },
+      {
+        "time": "00:39:31",
+        "title": "AI技术在产品开发中的应用与挑战",
+        "summary": "讨论重点在于如何将AI技术有效整合入产品开发过程，解决设计中遇到的难题，以及如何利用AI技术提升产品功能。强调团队内部使用自己开发的产品（狗粮测试）的重要性，以发现并解决实际使用中出现的问题。提及拥有能快速开发功能原型的团队对于加速学习曲线和提前预见挑战的益处。同时，强调了学习和研究市场上现有AI工具的重要性，以更好地理解AI技术如何能被广泛应用，并提到ChatGPT如何改变了公众对AI交互方式的认识，对推广AI技术的普及起到了推动作用。"
+      },
+      {
+        "time": "00:42:15",
+        "title": "探讨Gamma和AI在提升演示内容创作效率中的角色",
+        "summary": "讨论强调了神对于个人的不同面貌，包括朋友、家人以及AI的角色，特别提及Gamma如何适应不同用户群体的需求。指出Gamma最初的目标用户并非是PowerPoint的高级用户，而是那些需要频繁创建内容但不具备足够技能或时间去精研PowerPoint的用户。通过聚焦于解决用户的痛点，Gamma的AI技术能够帮助那些有想法但难以将其有效视觉化呈现的人们，从而扩大了服务范围并加速了产品价值的实现。"
+      },
+      {
+        "time": "00:44:30",
+        "title": "应对AI技术及市场变化的策略",
+        "summary": "在AI技术快速发展和变化的背景下，创业团队面临着选择使用哪家AI平台或模型的决策挑战。讨论强调了在AI技术、成本和性能不断变化的情况下，保持灵活性和快速适应能力的重要性。提出了在开发初期阶段，团队应寻找能够快速迭代和适应不同AI选项的方法，以便更好地满足用户需求，并指出理解用户的具体需求是选择AI解决方案的关键。此外，也讨论了建立持久和功能性的产品，而不仅仅依赖于AI的即时吸引力，是实现长期用户留存和商业成功的关键。"
+      },
+      {
+        "time": "00:50:16",
+        "title": "优先级挑战与AI特性整合",
+        "summary": "对话中讨论了团队在产品开发初期面临的优先级挑战，特别是如何平衡不同AI功能的开发和集成。一方面，团队需要在产品核心功能，如Gamma中的卡片和布局等方面持续创新；另一方面，他们也在探索如何让AI更好地与这些核心元素协作，比如让AI理解如何填充卡片。此外，团队还着眼于从零到一的创新，比如即将推出的AI生成图像功能，以及通过用户反馈来不断优化和提升产品功能，确保AI技术与核心产品功能的紧密集成，以满足用户需求并提供更大价值。"
+      },
+      {
+        "time": "00:52:23",
+        "title": "数字工具的未来与市场趋势",
+        "summary": "讨论集中在了数字工具的未来发展上，特别是对于GMA（假定为一种数字内容创建平台）的长远展望。认为当前我们仍处于数字工具使用的初级阶段，随着数字原生代成为决策主力，对数字工具的接受度和需求将大大增加。虽然传统工具如Microsoft Suite和Google Suite短期内不会消失，但市场有空间容纳更多新型内容创建平台。特别指出，未来的发展方向包括提供更多形式的数字内容创建工具，以及适应不同规模企业的解决方案。同时，讨论还提到了整合不同数据源和工作流程的趋势，以及AI技术在提高效率和功能方面的作用。对于市场趋势，虽然大型企业可能会倾向于捆绑解决方案以简化IT管理，但对于小型企业和自由职业者来说，定制化和选择合适的工具变得更加重要。总体上，市场的多样化和专业化将是未来的发展方向。"
+      },
+      {
+        "time": "00:56:42",
+        "title": "应对行业竞争与用户行为挑战的策略",
+        "summary": "面对与传统工具如PowerPoint的竞争，主要挑战在于改变用户从童年习惯使用的工具切换到新产品上的意愿。这种行为的改变需要时间，尤其是在组织层面上，公司对于更换已习惯的工具表现出的意愿不高。因此，竞争策略需要既明确又耐心，通过吸引小范围用户开始，达到一个临界点，让用户自发推广产品，从而在组织中获得采纳。AI技术虽能加速早期用户对产品的兴趣，但整体的市场接受仍需时间。"
+      },
+      {
+        "time": "00:58:19",
+        "title": "全球化和AI对创业和产品开发的影响",
+        "summary": "讨论重点在于全球化和人工智能（AI）如何共同塑造创业环境和产品开发的未来。首先，全球化使得企业能够更容易地扩展到国际市场，以前需要设立实体总部和仔细选择市场，而现在，像GAM这样的企业能够迅速吸引全球用户。AI技术的进步使得小型团队能够产生更大的影响，预示着未来可能会出现更多由不足百人组成的团队创造出价值数十亿的企业。这种趋势不仅激发了更多的创业者投身于创业，也提高了整体的创新水平和产品的全球影响力。此外，讨论还触及了产品国际化和用户行为的变化，尽管产品尚未完全本地化，用户仍表现出强烈的需求和适应性，表明了对AI驱动的产品的巨大潜力和未来发展方向。"
+      },
+      {
+        "time": "01:07:38",
+        "title": "探讨IT领域的创新与AI技术的应用",
+        "summary": "在IT领域，持续的测试和迭代是推动创新的关键。这要求从业者不断地尝试新事物，不惧怕失败，愿意从头开始重建，直到找到有效的解决方案。重点在于理解用户需求，通过不断的尝试和调整，根据用户反馈和行为来优化产品。特别提到了一个项目，引入AI技术大幅改变了用户体验，允许用户将现有的文档转化为更具吸引力的演示文稿，从而拓展了产品的应用范围和功能。未来，项目计划进一步利用AI技术，扩展到更多形式的数字内容创作，旨在帮助用户以更直观、创新的方式表达自己的想法，使得创作过程变得更加神奇和个性化。"
+      },
+      {
+        "time": "01:11:51",
+        "title": "构建社区和企业用户反馈的重要性",
+        "summary": "讨论强调了社区建设在长期承诺和理解用户需求方面的重要性，以及如何通过不同方式为社区提供价值。此外，还触及了企业级客户的需求和挑战，以及如何在众多诱惑中保持战略一致性。最后，分享了关于个人成长和团队合作的见解，以及对AI产品的使用体验。"
+      },
+      {
+        "time": "01:20:28",
+        "title": "父亲身份对创始人工作效率和产品理念的影响",
+        "summary": "身为两位孩子的父亲对工作效率和时间管理产生了显著影响，使创始人更加注重效率和时间的合理分配，同时也提高了对产品品质的期望，期望能创造出未来能让孩子们引以为豪的产品。此外，讨论也触及了下一代与AI技术互动的可能性，预测孩子们将以我们难以想象的方式使用AI。"
+      },
+      {
+        "time": "01:22:51",
+        "title": "探讨人工智能的现状与未来",
+        "summary": "在本次播客中，讨论集中在人工智能，特别是生成式AI的当前状态及其对未来科技的潜在影响。主讲人强调我们正处于一个技术发展的关键时刻，类比于互联网、云技术和移动技术的早期，AI正在经历类似的快速转型。对于AI的未来，虽然存在不确定性，但主讲人认为最重要的是认识到这一时刻的特殊性并充分利用当前技术的可能性。同时，也欢迎听众提出他们想要了解的AI公司创始人，以便进行未来的访谈。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "初始定位像Notion，用block或卡片等方式帮助人们更高效创建PPT"
+                },
+                {
+                  "children": [],
+                  "content": "集成AI功能后，让用户直接以对话或上传原文档等方式任意撰写和开发创意"
+                }
+              ],
+              "content": "Gamma定位"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "成立于2020年，总部位于旧金山湾区"
+                },
+                {
+                  "children": [],
+                  "content": "2021年8月推出beta版，2022年底正式发布"
+                },
+                {
+                  "children": [],
+                  "content": "已拥有数百万用户，全球范围内的快速采用"
+                }
+              ],
+              "content": "产品发展"
+            }
+          ],
+          "content": "公司及产品介绍"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "SaaS领域的连续创业者"
+                },
+                {
+                  "children": [],
+                  "content": "曾在投资银行和咨询公司工作"
+                },
+                {
+                  "children": [],
+                  "content": "研究机械工程，对创造物理产品有热情"
+                },
+                {
+                  "children": [],
+                  "content": "与共同创始人James合作过创建手工制作太阳镜的业务"
+                }
+              ],
+              "content": "Grant Lee"
+            }
+          ],
+          "content": "创始人背景"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "通过AI重新设计创作流程，降低用户学习成本"
+                },
+                {
+                  "children": [],
+                  "content": "AI能够预装内容构建块，提高用户理解产品的速度"
+                }
+              ],
+              "content": "初始体验改进"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI能基于输入的主题生成内容大纲和初步草稿"
+                },
+                {
+                  "children": [],
+                  "content": "提供视觉化建议，帮助用户优化内容展示"
+                }
+              ],
+              "content": "AI功能"
+            }
+          ],
+          "content": "AI在Gamma中的应用"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "初始通过邀请朋友和前同事使用产品"
+                },
+                {
+                  "children": [],
+                  "content": "逐渐公开谈论产品以吸引更多用户"
+                }
+              ],
+              "content": "早期用户获取"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI的加入加速了产品理解过程，吸引了更广泛的用户群体"
+                }
+              ],
+              "content": "AI的影响"
+            }
+          ],
+          "content": "用户增长和市场策略"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "计划将AI应用扩展到更多数字内容创建上，包括图像生成等"
+                },
+                {
+                  "children": [],
+                  "content": "逐步推进产品的全球化，针对不同市场进行本地化"
+                }
+              ],
+              "content": "产品扩展"
+            }
+          ],
+          "content": "未来展望"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "讨论了选择闭源模型如OpenAI与开源模型的考量"
+                }
+              ],
+              "content": "AI技术选择"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "重视社区建设和用户反馈，以迭代产品和优化用户体验"
+                }
+              ],
+              "content": "社区与用户反馈"
+            }
+          ],
+          "content": "AI技术的探索与挑战"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AI技术的发展对于如何创建和交流思想有着深远的影响"
+                },
+                {
+                  "children": [],
+                  "content": "讨论了AI技术对于不同用户群体的可能影响和接受程度"
+                }
+              ],
+              "content": "AI的影响"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "讨论了AI技术可能如何重塑工作和交流方式，特别是在内容创作领域"
+                }
+              ],
+              "content": "未来趋势"
+            }
+          ],
+          "content": "对AI行业的看法"
+        }
+      ],
+      "content": "Gamma公司及其创始人讨论脑图摘要"
+    }
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "pid": "5f33c9c59504bbdb779dffd5",
+  "eid": "65828fc6157cd445ee9acfa2",
+  "title": "E69｜Pendle TN：DeFi 新星的进击之路【EN】",
+  "task_id": "47z39vd5orrm9edg",
+  "transcription": [
+    {
+      "time": "00:00:03",
+      "text": "欢迎收听新一期的build talk，这是一档聚焦web 3建设者有深度的对谈节目。本期播客的嘉宾是迪拜明星项目kindle的创始人tim，他分享kindle产品的设计思路，个人的创业感受以及片的未来的规划等。博客全程采用英文录制。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:22",
+      "text": "Hey, everyone will come back to build a talk when we engage with builders expLoring various facets of crap to offering a pick into their brilliant minds. In today's episode, we are joined by tin, the founder. Panda, hi, tin, how are you doing?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:00:39",
+      "text": "Yeah, well, thanks for having .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:00:41",
+      "text": "me pleasure to have you here as some of our listeners may remember, look, and I recently featured panda in a detailed report and so very timely for us to have team here today for some talks that I hope will give you further introduction to pandas, current developments, its design principles and the teams insight gained along the entrepreneurial ney. First, could you share a little bit about yourself and what panda is for our audience?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:01:10",
+      "text": "Yeah, for sure. So I am my named tian, and i'm the C. E. O. Cofounder of candle. So by the panda, I was the head of business and a founding team member over cape. And my journey within my journey started in my journey crypto arted in twenty seventeen with with Kevin then. So I stayed on over a cover until early twenty nineteen.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:01:40",
+      "text": "And then after which, I left the team to explore other opportunities, and I aggregated a group of people who are now co founders of panda to work on a number of businesses that were not too successful. But eventually we stumble upon the do to build panda when we were farming a lot of ship coins during the define summer period and twenty twenty. So at the point in time we were chasing after the high AP wise that all this put coins were offering, maybe in the range of twenty, twenty, twenty thirty percent.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:18",
+      "text": "So twenty two, thirty thousand percent AP wise um and as much as we enjoyed the the high field, we also knew that the yields were not very sustainable. And that gave us a perspective that maybe the space could really use a fixing on product. And that was the first time we started to think more deeply into constructing a product to cater to our needs.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:47",
+      "text": "So fast forward. Um pental is is on ultimately uh a toga ization you toga ize. And trading value.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:02:59",
+      "text": "Currently, IT is the largest yal swap protocol for term rates and are yellow trading and the adoption of paddle as a defy primitive has been growing across protocol and institutions. So we actually had a release of penal penalty to this time last year. So today we actually turn uh what year old and in a year's time with witness. Very healthy growth from um from from zero to basically close to two hundred and forty million dollars in the liquidity in TVL and just cross three hundred dollars in cumulative trade volume.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:03:45",
+      "text": "Yeah it's quite remarkable because today happens to be the very day of your v two anniversary, which we hadn't initially planned when working your time. So happy birthday, and we are really, really glad for you.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:04:00",
+      "text": "Thank you. Thank you.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:04:01",
+      "text": "Okay, that sounds attractive. And panda bring some new project in the define. We did similar project year in before and actually in our article, we devoted a significant person to expLoring the differences between v one and we two.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:23",
+      "text": "Could you explain from your perspective the key optimization problems in two? And how did your team come up with your solutions? We notice that your tree account has been served for a few months between three, one and we two.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:39",
+      "text": "Yeah absolutely. So there is actually quite a big difference between v one and v two and l simplify IT in three, three three three court points. Um the first and arguably the most important distinction between v one of v two is the AMM mechanism.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:05:01",
+      "text": "So back in v one, we utilize a different system from the v two um but for v to the design premise for the v two AM man really centers around liquidity, sorry, quality concentration for Better capital efficiency. So as an example, right back in the one back in the one the uh PT and YT they were traded at different venues. So YT would be trading at paddle and then the PT would be trading at other venue such as uh for example, um sushi trader joe.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:05:43",
+      "text": "So from the user experience standpoint, IT actually didn't make a lot of sense because there's and inconsistent you um like um experience across the different values. So what we've done with v two in regards the AMM is to bring the liquidity of these two different types assets into a single pool. So right now, penal AMM supports the trading of both PTN, YT and the underline.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:06:11",
+      "text": "So uh, in this case, the user experience, much more controlled, were able to Better capture the value of cruel that goes goes through the, the, the treats, and ultimately is just a Better design. Then on the other, on top of that, in regards of air map, right with i've also briefly touch on this in the strategy part in the previous question. And the way we design the pedal AMM is to have two of h two acts that are very ini correlated to to to be part of the pool.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:06:48",
+      "text": "So in this case right in um for every AMN pool IT consists of an underline something like ST eat or as die against its own PT which is like PTSTE到PTSI。Now PT will gradually gravity towards the value of the underline as time passes. So that means a maturity.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:07:15",
+      "text": "All the assets in the pool will have the same value. And this is how we enable the liquidity providers to provide liquidity without having to fear the improvement law provided that they they stick the assets in the pool until maturity. And and I think more importantly on on the capital efficiency front, um the way we implemented v two a amen is improved the efficiency of assets by a factor of forty two hundred times compared to v one are depending on the assets.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:07:53",
+      "text": "So this is I think like the most important change in the got to v two. Um secondly, we've also introduced new interfaces to get to a wider range of audience. In this case, I think when we launched penalty to we have the simple uh UI and the uh pro UI.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:12",
+      "text": "But but of course like over time we have we named the two the two US to earn a trip。So earn um I think one of the most consistent feedback that we have obtained from Operating the one from twenty twenty one all the way to end of twenty twenty two was just how difficult the product was. And I think um yeah just just understandably so, right?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:39",
+      "text": "Because we introduce a new type of instrument that requires users to have an appreciation and understanding for relatives. And on top of that, we also have many different terminologies that were native to the penal ecosystem. For example, P.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:08:59",
+      "text": "T. Principal token, ideal token. These are terms that in the beginning where they were quite native to the, the, the paddle product. So there there was quite quite a quite a lot of term iology es and education that were needed in order to access the the the panel protocol and utilize IT properly. Um we had quite a bit of um I think IT was IT was IT was definitely very difficult to build up the user adoption.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:30",
+      "text": "So when we were thinking about the v two design, we thought I would make a lot of sense for us to have an interface that abstract away the complex cities involved so that users are AA majority of the population within defy can utilize or access the panel protocol without having to know or understand the the mechanics that go behind IT. So today, pental turn is the the, the interface for IT. And if a user wants to provide liquidity, they don't actually need to know what goes behind.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:07",
+      "text": "They can just do so directly on the interface. And then if they want to obtain fix you, they can also do IT directly on the a panda or interface without having to know that they're actually buying the principal token. But on the other hand, if a user who is much more sophisticated and wants to customize strategies to optimize return, they can do so on the are the pro eye? Are the trade your eye? So that's number two.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:38",
+      "text": "Number three is permissions onless. So I think this is uh, a pretty important in those that that we hold within panel. We think ultimately, the end state for asset listing should be permissionless, and we are working towards that. So at this point, uh at this moment, right, even though we've been around for about a year, were still the the primary writer of contracts for all the pools that are set up on panda.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:11:12",
+      "text": "And we think from a scaling standpoint, IT would only make sense if we can also um open source that aspect and enabled old users and and token like you you berry token issues to um utilize our protocol and set up a liquidity pool the way they would do IT on unions wap now. So penal v two is designed to cater to that. So at the contract layer, permissionless asset listing is already possible. What we're missing at this point is to have an interface that allows users to very simply indicate the access that they want to depot and the parameters that they want to set for the pool. So we're getting there hopefully that this is something that we can look forward to for the next year.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:06",
+      "text": "okay. Thank you for your detailed explanation. We also think that the flash swap design is very meticulous and panel ern will definitely enhance your adoption rate.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:12:20",
+      "text": "And also you mention the permissionless listing, right? And um we wonder when will the permission listing on be undelivered? I think IT will definitely on help。A more more valuable tokens can be listed promptly, right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:12:41",
+      "text": "So I think at this point in time，we don't actually have a very, very concrete timely. We just know that IT has to be on road map, but yeah, there are a few other features that we want to roll out because I think at this stage though, at least internally, the view is that without adequate understanding of how deal trading works, we can enable the permissionless listing as a listing you I um but yeah in the absence of proper knowledge of how to treat yell and how to set up all these different components, the adoption might not be too optimal. So we focus on building up the ground work for now and then when we think the time is right and when the market is already, we will proceed to accelerate this this implementation.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:13:36",
+      "text": "Actually, I have another question about panda v two. We read according to the White paper the the car of panda too is a national cow。Uh, I just wh, where? How did you find and where does the inspiration come from?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:57",
+      "text": "Yeah so when we were thinking about the design, we had actually make quite a lot of research um like and references to other other amen designs. And from what we saw given the nature of PTYT, the national AMM serves as a very good inspiration for us to build on top of uh of course, because of the again, because of the nature of the SS that we're dealing with, we had to make some changes to the就the underline principle to cater to time component and also just the yell tokens。Um and I think one one one of the more important distinction between the national AMM and the panda AMM is for the assets are like PTNYT that are different sides of the same um same same view berry asset um to to be treated from the .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:15:00",
+      "text": "same um so in general, I think on the virata is really paramon for you. And we haven't actually we haven't observed many protocols that say later adoption at first and then sky rocket in usage later. Um not only is your product going getting Better PMF, but your team is really resilient.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:25",
+      "text": "So i'd like to go back to the beginning of your entrepreneurial ney. They are used to be widespread scepticism regarding fixed markets within define. And uh we wonder how do you assess the market potential in the early stage of your start up.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:15:43",
+      "text": "So I think this is IT wasn't a very difficult thing for us to make the assumption because when we were conceiving the idea of building a product and fixed rate appeal to us because fixed rate is probably one of the most important verticals of any financial sector. And at that point in time, we had the notion that more liquidity will flow into the crypto space.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:18",
+      "text": "And if more liquidity was going to flow into the cripple space, then the need for fix income products would naturally increase. And and that's the only way for the echo system to mature. So going back to to to that assumption, I think IT wasn't very difficult for us to do a projection on where we would be going with the the the product idea.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:16:47",
+      "text": "But I think the more important thing that we we had to remind ourselves at the point time was that the market might not necessarily be ready for a fixed in con product again because this was in twenty twenty when users were very, very accustomed to high but flooding AP wise. And in twenty twenty one and a good part of twenty twenty two, IT was just pull market and yields were like users wouldn't think too highly of uh, fixed income products because in a bull market yeah just speculating on you and and optimizing for gains made a lot of sense that for for most assets at this. Um so when we when we were conceiving the product, this was this was something that we had to remind ourselves.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:17:40",
+      "text": "So we give ourselves some time to build the product, observe the user behavior and then continue to make iterative changes to the um the the the panda product itself. Um so we again, because IT wasn't off first time going through a bull bear cycle. I've actually been through with um like from twenty nine, twenty seventeen to twenty nine period.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:05",
+      "text": "And because of that experience of witnessing the current set of primitives like uni shop and RV and compound, uh, they started out pretty small but eventually grew too much, much bigger sizes. When the timing was right, that's the kind of trajectory that we see ourselves. If so, we might have a slow start. But the belief in the direction is song. And so far, I think we we are still on the right trajectory.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:18:38",
+      "text": "Yeah, definitely. And I think that you have a great belief on IT. So sometimes the founders believe needs to be conveyed to others on how did you persuade investors, did you encounter any difficulties or chAllenges during your fundraising process.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:18:59",
+      "text": "So I think when we painted out the picture like the way I just described, IT wasn't very difficult too. Convince investors that there were that there's going to be a future for the product action. I think for us, the main feedback or setback that we enter then when IT comes to fun raising was the commercial evaluation.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:19:29",
+      "text": "Um I mean, thankfully, we went through the process and had very honest feedback from some of our peers that helps refine our entire approach. But I think there because in a in a bull market, though, there were so many different opportunities. I think investors, I had to consider the opportunity cost of investing in the product that might take maybe three, four years to mature and versus investing in a product that already has a product market fit. And uh, that could that could be liquid in six months to a year and then allow them to have a pretty quick exit that can and with the proceeds to be ruled into a different, different product category. Um so I think that was something that we had to we had to go through um but fortunately for us, we were able to aggregate sufficient interest from a group of very reliable builders um and I remember loy天天um so of this this this were some of the earlier livers in in our vision and because of their involvement，we were able to on board a few other investors, for example, eclipsed c capital um and that mechanism Sparked a lion style as well.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:20:58",
+      "text": "okay. The investors has to be really careful with their own capital allocation, especially in the ball market. definitely.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:21:07",
+      "text": "yeah.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:21:10",
+      "text": "Yeah and the panda is successful in the rest money. And according to the public information before handle launch way to and gain dita handle conducted city on financial and IDO, which is recommended define projects. How do you use the difference between the institutional, financial and ideal? How do you definitely have your project?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:21:40",
+      "text": "So I mean, personally, I think both have their respective merits and I think they are very, very important for both. Uh sorry for for projects. Um ideally, I think a project should have support from institutions and the capability for the reasons are for different reasons.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:22:01",
+      "text": "So with institutional investment, we were able to aggregate support and build trust because in the beginning, we didn't have track record. And the only way that we could establish ourselves and instill confidence and trust in our brand is by leveraging on someone else's reputation. And institutional investors are probably the best way to end their reputation to a project that has no track record, which was us in our in in our in the beginning.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:22:35",
+      "text": "So III think when a community assesses uh when when users in the community assess a project, they typically we want to see who the investors are like. For example, if finance or coin base have already invested in in a project, then community users will feel much more comfortable about putting money into a protocol and becoming a liquidity provider or users. So I think this is definitely one big value at from the institutional financial side.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:23:11",
+      "text": "Uh secondly, I think institutional investors, a lot of them have also had that also have um investors of founders of similar background that can provide very adequate feedback and advice to a the Operating team. So uh for example, if we encountered some road block or encounter some some difficulties in our product development, there are some investors that we can typically turn to for advice because they've been through a similar kind of process. And and I think this is incredibly invaluable because incredibly valuable because IT can save us a lot of time and help us not to get into mistakes and allow us to focus Better.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:24:01",
+      "text": "Now on the other hand, community orient facing uh uh oriented financing is important as well because IT is IT is um I think a project, especially in a in a crypto sector can only be successful when the community support is strong. I think um we are no exception there. And I think the the traction that we have seen in the first half of the year is largely a result of the the community support. So a lining interest at the very early stage and offering attractive upside for community investors is a very good way to uh, aggregate support. And with their support, there is a higher probability that the project can work out Better.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:24:53",
+      "text": "Yeah by doing rest and reputation is really important in define besides this, are there any negative aspects for example, in what way do institutions and the community exact Price on you? I think um again.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:25:10",
+      "text": "like the the pressures that they assert are probably different. But fortunately for us, we never had to go through that. Our investors have been very, very supportive of our vision from the very beginning, I think, is also because we communicated with most of investors that we were not going to see very strong product market fit in the first couple of years.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:25:33",
+      "text": "So there, there was already an expectation of how the product could potentially evolve. And I think there wasn't understanding that you would take time. But from what I know, some of the institutions um they might be a little hostile to two teams that were maybe not delivering to expectation to the point that I could be disruptive for the the Operating team.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:26:05",
+      "text": "Um I personally have not experienced that, but I think IT is not uncommon to see that in the sector. And then of course, institutional investors are typically very big. They hold sudden size of equities or more importantly, tokens of a lot of uh some of the projects. And if they are token holders and if the tokens liquid IT is also a possibility that some investors might not want to honor the vesting schedule or the holding period and then they would just sell IT um to the market and exit cleanly, which would increase and doing so would increase the selling pressure for the token um and generally when that happens, the community would lose faith in the project because the Price no longer alliance with um what the user is anticipating and IT makes a very difficult case for the for the project order taken to bounce back.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:27:12",
+      "text": "So those are like some of the more disruptive behavior that i've seen uh from institution size uh in the past and then in regarded community, I think not much um again, like sometimes when you have community investors, it's it's really the case of having to cater to so many different token holders when your resources are quite limited. So as an example, right, I think in the case of trade fy, when you are a list company, typically you have already generated pretty healthy, careful, doesn't matter whether is positive or not, and you already have some resources to hire the professionals to help manage a plate, public reports and and road shows. But in the case of critter, because things are so public and so fast moving, when you have a lot of these community token holders, they can they can uh of course, make suggestions and sometimes they can be quite host yle if if the protocol Operator does things that that that do not really um aligned with what the community thinks. And with that, I think sometimes in the absence of resources, IT can be quite difficult to manage the expectations of the community. So um yeah that this is not a common, but I think typically um with with community, uh III don't see sorry even though this is not in common, um I think most um protocols uh sorry, communities are are reasonably a quite reasonable um and they they they wouldn't make a fast out of uh a protocol unless there's something to to complain about.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:29:22",
+      "text": "Okay, I think it's really a great lesson for those builders because you mention that is important to um give investors reasonable expectations and also maintain good communications with them.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:29:39",
+      "text": "And I think of the sometimes the pressure comes from within。We notice that during the time when the there was a time on the token Price of panda was relatively low，how do you deal with the pressure of a low token Price? Can you tell us something that about that?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:30:04",
+      "text": "I think when the token Price was trading below a certain level, we just decided not to pay too much attention to with OK and and focus on what's important. So going back to our call metrics, which is um I mean the core metrics for us internally is basically ATVL in trading volume because these two are revenue generators for the protocol. Did from from there we structured measures that we could implement to improve the numbers. And then over time, when we started focusing on the important stuff, the Price followed.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:30:47",
+      "text": "So you just mention that you will嗯ignore the volatility of the token prizes。And and we also wonder that and during such times, did the team, I will question the company's goal and the future. And if so, how did you manage this situation and figure IT out?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:31:08",
+      "text": "So the short time is no OK. We yeah we didn't question the company goal and future because we were yeah we were pretty convicted about the the direction that were building. And we were also experience enough to know that the things that we were building would take some time to realize product market fit.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:34",
+      "text": "So we were prepared for that. Now what I think was more chAllenging for us was to convince the Younger team members who have not been through a bull bear cycle to stay with our team and giving them a perspective dead, the difficult period would pass. So i'm proud to say that R.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:31:57",
+      "text": "T. Members are still intact. And I think we have been very fortunate to have most of our t members who started out with us to continue to grow with .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:32:11",
+      "text": "with the protocol investors and the teams talkers are certainly found united. We did on investigation on lock king after one year from the idea and the teams after two years. This unlocking period seems relatively short compared to call. How did team consider this?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:32:35",
+      "text": "yeah. So when we were thinking about the vesting schedule, we weren't really comparing to any other products, but mainly to have investing schedule that we thought was reasonable and the investors thought were reasonable.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:32:51",
+      "text": "So again, in a bull market, I think the expectation for vesting schedule, or at least in twenty, twenty, twenty, twenty one period IT wasn't that long because I think that was a pressure for for for investors or in general, I think that there was a sorry, the long vesting schedule wasn't unknown packing back in the twenty, twenty, twenty, twenty one period. So we didn't see at me to go above and beyond to be too differentiated on that front. And we went with like two years that many other projects were also going through at the point in time.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:33:36",
+      "text": "Panda has been established for three yours. Now how do you feel about this three years? How different is IT from your initial entreprise vision?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:33:48",
+      "text": "So yeah well, yeah three years now, I think IT all happen very, very quickly. And I mean, to be honest, it's much more difficult than I anticipated um because there are just so many uncertainties that we had to deal with, not just from the market perspective, but also internally what kind of people that we we would potentially hire. So these are all things that, that we have to we have to be comfortable with.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:34:27",
+      "text": "If I anticipated that the journey would be difficult, but the scale of difficulty far exceed my initial expectation. Uh, but in all, I think this has been a very rewarding experience. I am still extremely hopeful of the product that we're building in the direction that were working on, and i'm looking forward to the new implementations that we are working on and schedule for release probably in the next twelve month. so.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:35:02",
+      "text": "Yeah, it's not easy to start up, start up always. So oh, what motivated you and when did the idea starting a business come to you?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:35:17",
+      "text": "Um so I think for me, one of the biggest drivers, sorry, one of the biggest motivations for building a product is to deliver impact for me. I think I am a very mission driven person and that means whatever I do, I wanted to have a meaningful impact for whoever is using IT. So I like scale.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:35:49",
+      "text": "I am not as interested in building a product that can only benefit one of two people. I the scale that i'm referred to, hopefully I can like with with what we're building a panda, we can positively impact millions of people further down for something as simple as well generation. Uh, any in regards to the idea, I don't think IT was any specific moment, but I was just a very, very fortunate um fortunate encounter.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:26",
+      "text": "We just so happen to be involved in this sector and we so happen to have like my co founders and I, we so happen to have skill sets that are complimentary to each other. So when the opportunity happen, we didn't think too much. Um and once we are convinced of the prospect of of of the idea we just wanna have with.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:36:53",
+      "text": "OK IT sounds, you have intense desire to create a positive impact on the world .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:37:02",
+      "text": "and on a mass scale.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:37:05",
+      "text": "People, yes.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:37:06",
+      "text": "it's pick the word. Your coach of enormous easy building projects and many real projects initially had ananimous build us. For instance, the my eggs has always been AA nominee's team, and love is initially anonymous by a, but they reduce after they get the popularity pending.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:37:37",
+      "text": "However, has been openly built from the star. How do you build phenomenes st building? And what are the reason being to sing, to be openly identifies the beginning?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:37:52",
+      "text": "yeah. so. I think for us, showing identity is one way to cultivate trust. When we started IT out, we didn't have any kind of track record. And because we were building a product that was not quite the same as most other products in the sector at that point time, being anonymous probably would have be very helpful to our cause. Amit, firstly, built by unknown people and the product being very complex, I think these two, when put together, can be quite counterproductive. So we thought with the support that we have and with the circumstance, the Better decision for us was to be um yeah was just to just to make our identity known um so so so that that's primarily IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:39:00",
+      "text": "Yeah we think that IT definitely helps. And you you will take interviews on and um speak out about the revision of the pinda and I think they will all contribute people's confidence in this protocol. And um we noticed that currently panels team consists many excEllent individuals, unlike the ACTO and the then and other people。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:39:32",
+      "text": "How did you consistently discover and attract these talented individuals? Are in the early stages of the company. And we wonder what did you value most? One building the team?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:39:46",
+      "text": "yeah. So I think when we were setting up the team, we want the people who are strategically and intellectual flexible. So for us having experience, we thought IT was good, but I wasn't the most important thing. And I think that strategy proved to be fight the correct one in retrospect.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:10",
+      "text": "So if simply put, we wanted to work with we've always been of the opinion that is Better to work with mark capable individuals because with with smart, capable individuals, we can further attract other smart, capable individuals. And in that, that cycle goes on and that just creates a much more attractive culture for for and and for everybody, right? Um so um I think the other perspective is that we are building a product that does not have a precedence.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:40:47",
+      "text": "We cannot be getting relatively average developers um because we're trying to break things and and push boundaries. And in regards to a discovering and and attracting talents, um I think I got pretty lucky on this front because so. We're based out of singapore, and singapore actually has a lot of talents from the region.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:18",
+      "text": "So as an example rate, malaysia, indonesia, thailand, vietnam, these are countries with big population. And by sure probability, they are definitely very capable individuals. From this perspective, dramatical regions.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:41:36",
+      "text": "And because of opportunities in singapore, a lot of the Young, talented individuals from neighbor countries, we would come over to singapore to, to, to, to look for new prospects to grow. So by being located here, physically located in singapore, we also had the benefit of tapping to the talent pool at singapore offers. And by like after many, many attempts, we eventually discovered a bright individuals from all over and then through reference als as well.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:16",
+      "text": "Uh and and with a vision that we set ourselves are set for ourselves. Um I think we were able to have just just attract that some of these individuals to to come join us. Um I think the other thing is very, very capable.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:42:34",
+      "text": "People are typically are enticed by chAllenges. And because we're building things that are like a pental product is not that straightforward and it's not simple. There are still a lot of things that we need to figure out. And I think yeah capable individuals are quite and tied by that. So when we laid out the chAllenges that we we we expected, um I think something to.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:04",
+      "text": "Completely agree with you that fly flexible在strategists and practical are crucial for entrepreneurship，especially with a very Normal product and um is very fortunate for you to be in a place with a high sensitive talent right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:43:24",
+      "text": "Yeah yes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:43:27",
+      "text": "no debt. Once we noticed小王from a line store，when is mentioned in his article, that you invited him to give a talk at your internal or hands with aim to uplift the team, mario, so momentary, got invitation. He thought that you are really special.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:43:46",
+      "text": "And confidence is indeed crucial. The entrepreneurs, our ney, especially during times when the development is then going so smoothly. So could you share some insights on boosting maria and team management?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:44:03",
+      "text": "Yeah so I think i'm incredibly humbled by what uh, child said about said about me and the team. I think his presence in the team during that session certainly helped a lot. Uh IT IT IT happened when we were still pretty early before the product was launched formally.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:44:26",
+      "text": "Um but in in in in regards to boosting morale, I don't think there is any. Thing that I do differently from other people. Ultimately, II consider my teammates to be mature audience, and as long as i'm honest and realistic about the things that I delivered, they could understand IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:45:00",
+      "text": "For example, the market is bad. There is no need to sugar code. We can see IT as IT is, but we have to have contingency to help us weather through the difficult period. So an approach like that, I think, can can give people something to look forward to and that I think matters a lot more when he comes to boosting morale.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:45:30",
+      "text": "So a team with matured adults, I think it's important.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:45:36",
+      "text": "Well, sometimes IT doesn't. I mean um yeah I think it's just a matter of treating everybody with um with with respect and then just be realistic with where .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:45:49",
+      "text": "we are yeah transparency and being respected. And so employees will we will also respect you and respect .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:46:01",
+      "text": "the company.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:46:05",
+      "text": "Certainly, paddle is experience ing a drama meta and has built a part ship with many portals. Do you have any insight on how to establish a especially when you haven't yet, who yourselves did you exchange with cable help in this regret?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:46:28",
+      "text": "yeah. So I think my experience that Carrier has certainly been quite instrumental in shaping my approach to building partnerships. Considering that I was involved in that capacity backpack, my approach has been, again, like how I typically IT is actually quite similar to how I approach my team as well.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:46:52",
+      "text": "So we typically have an expectation of the kind of projects that we want to work with. And then we would make attempts to reach out to these projects, the ones we're connected. We would be very honest. And since here about our intention to work with the counter pot and beyond that, we would also lay out the proposals in clear forms um that that that that the counterparty can very easily referred to and most importantly, outline the benefits the mutual benefits that both of us could derive out of that relationship if we were together. So I think again, I think just being honest and and up front about how we see the relationship evolve has helped many times uh in .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:47:52",
+      "text": "in our partnerships. Infinitely crucial, I think. And um could you provide more details on the process of, for example, collaborating with the lido using IT as an example? Can you provide us with some details?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:48:11",
+      "text": "But I can go through couple of other days are poles, but specific I do. I think that happened a little later because um II mean like we've definitely benefit a lot from a number of other protocols, not just like .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:48:28",
+      "text": "to it's OK just a two name and when you you are comfortable with yeah yeah sure.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:48:34",
+      "text": "So I think the the more memorable one for me personally was actually the the the four four way between panda, ora, baLancer and rocket pool. So this was a time if IT was a around january and and in in january, penal v two were still pretty early. We didn't have a lot of traction then.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:49:01",
+      "text": "So one of the things that we engineered was too figure out a way to leverage on protocols that were much more reputable than us um and and hopefully we could write on the shoulder. So of course, like the other three protocols that I mentioned, there are significantly larger than panda um but we were able to figure out a way that allowed us to um I basically worked together. So rocket pool um was rocketport had its uh primary liquidity of part in the baLance of pool.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:49:46",
+      "text": "And baLancer has a liquid rapper, has a dominant liquid rapper on top of IT in the form of ora. So we connect with ora and pitch the idea of working with a specific asset in the form of our ef um and then we were connected to baLancer and rock rocket team a did the same pitch. Everyone was on board and we published IT.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:50:12",
+      "text": "So I remember when we published IT, everything was very coordinated. We we designed the posters, we wrote the materials and coordinate the timing of the release. And I think IT was as smooth as we could hope for. And I think that was the first time we generated very healthy impressions across social media outlets um probably in the north of one to two hundred thousand impressions when I was launch. So I think following that, we followed the same playbook and did a similar kind of implementation with other protocols um specifically GMX and g die will be large on arbitron.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:51:02",
+      "text": "And I remember that um the oris uh oral pool is the first time you gain traction, right? yes. okay. And IT seems sad. You have done a really great job with the details even with the details.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:51:18",
+      "text": "yeah. So I think in terms of details, actually this was an interesting one because we learned from our experience with olympus. We were panel was actually the first batch of a olympus pro. And I distinctly remember that when we were working with them, they were so hands on with the entire process.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:51:41",
+      "text": "They coordinated with the launch time and they coordinated with the protocols that they wanted to work with months in advance and gave a very, very persuade pitch for while on the pro would be an exciting launch. We were on board. They gave us other materials and make sure that we were super well prepared for further launch. So we learn from that experience and implemented that to our subsequent launch plants.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:52:15",
+      "text": "okay. I think is impressed because I think many people in this industry they focus on grasping the narrative, right but only a few um uh will be aware that sometimes the details are just as important yeah okay, thanks for sure that.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:52:39",
+      "text": "yes. And yeah and similar to conventional, yeah similar to come back call, they are particles like the equity equation b and they stick down on on panda providing pinda use are with yard and v economic boosting稍微we are curious about which sport made the inner proposal did equal report handle always handle actively seeking a particle of that for of that kind .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:53:17",
+      "text": "for a while yeah so I think he was a very interesting um encounter。So probably in the April period of march. I think IT was probably earlier that this year. And I think you you might have come across the the threat coming from capitalism about the about about their involvement in the entire set up.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:53:51",
+      "text": "So I think the conversation happen because we were we we saw the works that capitalism labs are published and genuinely interested in the the reach that he he he was capable of. So I invited him um invited the team over to our office um chated about the ideas of ecosystems that we wanted to build, but at a high level, VE panda was actually one of the ecosystems that we needed to construct in order to just gained more adoption. So we figured out waves had some idea ideation and then fortunately he um sorry, capitalism lab knows of teams that that that that are available and and have had the experience of building liquid rappers um so we were introduced to the and equally break him and supported them in the building face. Now we are also very, very keenly aware that we have to be neutral when he comes to the treatment of these two liquid rappers just because IT helps to to to be neutral um and we think being neutral and letting the two protocols to be competitive with each other would benefit the users significantly more yeah so I think right now, the relationship between all of us within the penal ecosystem is still very healthy. But there are still some aspects that we need to improve on on on across the liquid rappers.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:55:48",
+      "text": "And on so will bribery become a significant ant source of income for planning the future?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:55:58",
+      "text": "Well, so I think bribery is definitely a good value, cruel for the panel tokens. But we hope that in the future, the trading volume嗯of the protocol can generally even more fees for panel holders。Um as IT stands now like right pride incomes is definitely more significant. So yeah hopefully I think there I mean, this just tells us that there is a lot more that we need to do in order to provide meaningful return for the .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:56:37",
+      "text": "v panel holders OK. And what do you elaborate further? How do you view different income sources for define protocols such as fees and bribes and song?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:56:49",
+      "text": "I think fees, first and formal, has to be the primary focus of defy protocols for for the token holders at these bribes feels to me like a nice sweetener because ultimately IT would only make sense for protocols or individuals to bribe for votes when there is healthy activity on the protocol. So everything boils to fundamentals. I mean, as an example, right? If a protocol is already dying, you are probably not going to bribe. So so the fundamentals, which is very closely tied to the fees, is still the most important aspect. I .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:57:32",
+      "text": "please. Okay, got IT. 嗯，and let's talk about the course。A significant sh portion of define protocol expense come from taking incentives. How do you find tuning incentitive levels to control costs while maintaining a stand rate of tva growth?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:57:55",
+      "text": "So I think the incentive perhaps in the beginning would have to be more aggressive in order to attract liquidity. But once the protocol, which is a certain state where liquidity is already more, uh, the liquidity growth is much more stabilize, that, that would make sense for the protocol to consider cutting down the incentive in order to improve the efficiency of the incentive.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:58:28",
+      "text": "And and generally this can be derived by dividing the incentive that is distributed on a weekly basis or whichever RE poor, however long the impact this over the TVL that IT attracts. So in this regard, I think the. The the fine tuning is actually very subjective because there is no cookie cuter approach here and IT really depends on the overall marketing plans of the protocol.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:03",
+      "text": "Uh, sometimes protocol wants to be more aggressive with with in attracting liquidity because IT helps to boost trading volume. Then I would make sense to increase the allocation for the week and in some days because less competition. And there needs to be a focus on the the the efficiency that the adjustments has to be made appropriately. But ultimately, II don't actually have a very good dance. II don't think sorry, III meant to say I don't think there is a clear way OK because .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:41",
+      "text": "ultimately.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "00:59:42",
+      "text": "IT depends on the state of the protocol. So if a protocol is in growth stage, that they naturally need to focus more on the incentives and less on the the cause itself.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:59:57",
+      "text": "okay. And I think the specific figure, uh, maybe the is not science, it's art, right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:00:06",
+      "text": "That's my opinion.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:00:09",
+      "text": "OK. Yeah, my.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:00:13",
+      "text": "H regarding the future, could you sell pandas plan for the next three months or two, one year yeah sure。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:00:22",
+      "text": "So um I think by now we are already quite clear of what we want to build over the next year. But um without this causing too much, the more we still have one more feature that we want to launch before we turn the year and hopefully, if not, then I would be perhaps like early next year. So um it's no secret that where we're um looking to introduce limit order.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:00:49",
+      "text": "So I think the limit order idea came abroad because we are already seeing some form of bottom neck in the trading, trading a size of uh, yell tokens, principal tokens on the panel AMM. So as an example, right, your token is very, very capital efficient. So if you want to speculate on yellow, yo toga is by far the best tool for IT as um so a fifty thousand dollar worth of yellow token for s die could represent about seven hundred thousand dollars woods of edie and that in itself is a lot of implant leverage.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:01:34",
+      "text": "So that means a small amount of yal token could very well incur significant Price impact because of the underlying value that IT represents. So a user or a fun that wants to hatch millions of dollars of positions would probably not find the best uh, what would would sorry, would encounter, uh, Price impact, uh, if they were to do the trade over the panel, AM, M, right now, in a single shot, right? So we think having a limit order in place would help alleviate that pressure and provide a Better trading experience for users who want to treat in size.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:21",
+      "text": "Uh, so this is something that we're very looking forward to. We will have along with the STIP incentives, we will have rebates and also live uh limit order maker um in incentives to to attract more um users to leave orders. Uh so that something that we're definitely looking forward to, and hopefully you can contribute meaningfully to the trading volume and T, V, L of the protocol.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:50",
+      "text": "okay. Will IT be shaping soon?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:02:54",
+      "text": "soon? yes. okay.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:02:56",
+      "text": "Look for low to IT. yeah. And, uh, we wonder which is the folks for the next stage TVL of trading volume. And we wonder, when you make decision，one is a time for you to pursue TV，and when should you pursue volume? Do you have any insights?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:03:17",
+      "text": "yeah. So I think these two, I think they are just important, but in different ways. Yes, sorry, they're they're actually very important and they're related to each other.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:03:31",
+      "text": "So for I think from our perspective, sometimes we need to bulk up on the TV, L because we need to attract liquidity in order to enable good trading experience. And once the liquidity is sufficiently built up, then we need to focus on trading for you. So it's always a cycle. And typically, when we launched a new pull, we want to pursue T, VL. And then when the T, V, L is sufficiently, we change our approach and focus more on trading strategies that we can share with our community of traders.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:04:07",
+      "text": "嗯，OK. So it's just depend on your needs and the market situations and the development stage, right?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:04:18",
+      "text": "Yes, yes.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:04:21",
+      "text": "And in our view, the sell people can attract more volume. But the RWA poll or LSD poll with good with TVL and mirage, what are your thoughts on those triple types? And what will panda focus on in the following six months? Are there any new asset types you are concerning?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:04:48",
+      "text": "yes. So in regards to the list versus something like you up in the purpose, we we think they're all important. And I think for now as from a training volume standpoint, GLP contributes very meaningfully to our overall cumulative trading volume.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:12",
+      "text": "And then for the L, S, D polls specific to rap, ST eat or ST east and r ease, they provide the highest TVL. now. So we can do without a, we can do without one of a, these two. So in terms of focus, just given the nature of the polls, we would cater them to signing different audience. So and and we realized that the overnight between these two assets is quite marginal.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:05:46",
+      "text": "So uh, for G, L, T, if we want to, again, if we want to grow the training volume, we can focus the trading strategies and trading ideas to the GLP users, GLP holders and then if we want to agree with more liquidity than Alice polls would be something that we would focus on. Um so highlighting AP wise um and and potentially integrating with other protocols to generate additional utility for the for the assets. Those are things that we could do in order to grow the TVL.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:06:23",
+      "text": "I would also add that a longer these two polls, we are also seeing pretty good traction in another form of polls in stables. So as die and potentially are via compound stable coin poles, those polls were probably attract sizable liquidity to our our protocol as well. Uh, as we've seen with us, die, we aggregated close to twenty twenty three million dollars of liquidity in the first week of launch. So that goes to show that there is a lot of interest in generating you using stable coin druv atis um and and that is the third category of assets that we would look into more closely.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:07:19",
+      "text": "Yeah to sing the right assets is really important and and and institutions are the main player in the traditional financial interest red markets. IT seems that you also play significant importance on them. Could you give us some low down on how institutional plans are progress lately?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:07:46",
+      "text": "Yeah, well, I think there are still a lot of institutions that have an interest in printer. And in in in in our case, we think that just given the nature of our products, the institutional users would find a use case um in pending. But of course, I think right now, aside from the liquidity provision, the trading activity is also gradually picking up.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:08:17",
+      "text": "Um but we foreseen that there's a lot more education that we need to instill in order to grow the confidence of this user group and bring more liquidity to to our venue. Um I think in general, institutions are very bullish on critter and from the one that we ve interacted with, they are also very hopeful that the. Improvement in the sentiment is not not far away from where we are. And also I think there's a view that asia institutions in asia would would a third even more influence in the sector um because of the more favorable regulations um in the region.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:09:10",
+      "text": "okay. Do the what are their biggest concerns for the institutions?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:09:19",
+      "text": "I think um in in terms of concerns, I think it's it's always AA consideration between the return and the risk. Write the return if it's attractive, but it's coming from a very dog protocol developed by anonymous developer, then maybe IT might not be suitable for whenever strategy that they're pursuing, but sometimes because they trust the team, even though the yield can be you like five to ten percent uh for stable coin, not as high as some other values, they they might still be more comfortable .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:10:01",
+      "text": "in putting money there. okay. And will you do some iterations, product iterations, to Better choose this institution of investors needs.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:10:13",
+      "text": "if that makes sense?",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:10:16",
+      "text": "yes. OK. Go IT. And we really hope panda can find its way into the trillion dollar traditional finances market. And our next question would be on governance.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:10:28",
+      "text": "Uh, we say that DYDX shifted towards the door governance in before a move that's quite common in define projects, right? And how do you perceive the process and accounts of the governance? And are there any plans for panda to do the same in the future?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:10:46",
+      "text": "Yeah so I think the person counts are pretty, pretty um obvious. The process definitely like you give a chance for community holders are say in the direction of the protocol.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:11:05",
+      "text": "But of course, the con is another side of the same item, which is that you could probably there could be a lot of unnecessary or like just to and throw things will move a little slower, maybe sometimes uh significantly slower than then um otherwise yeah so II think IT can be worse if the community is not mature uh and the protocol is this centralized what uh too soon um so I think we are still but but in general, I think like taking a step back and looking in IT from the length of panda. We definitely have an intention to move towards doll governance perhaps in terms of time frame, it's hard to say when when is a good time. But I think in the near future, we think that we're still the best Operator for the for for the protocol. And when we think that the community is efficient, mature and when there is a very strong product market fit for a penal than we would be more comfortable in deleting the governance to the community .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:12:30",
+      "text": "got IT IT seems that we are trying to strike a baLance between efficiency and the the centralization through progressive decentralizing. Yes yes OK, it's fine, I think and it's oh will finally helps the delivery of the嗯the centralization and is beneficial to the development of the paddle。",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:13:01",
+      "text": "And the thanks for selling all rossi's about pinda, which is really insight. And we really look for our your face novation h but Better way, how do you view the entropy IO opportunities in the device sector? And what advice would you give to those people want want to start business in this direction?",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:13:30",
+      "text": "I think there are still a lot of opportunities in defy the II mean like my advice, probably very generic. But in order to get something done and defy IT helps to be bias towards execution, especially because crypto is such a fast moving space when and the technology is so, so democratize. So you can come with an idea.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:02",
+      "text": "But if you're not acting on IT, the opportunity window might disappear very, very quickly. And I what I like about defined general is that because the technology is so accessible, you can be anywhere, and you can implement an idea that could have an outside impact that is not confined to any geographical region. So when you have an idea, II think for spiring gothas with an idea in place, do something about IT. Maybe, maybe there is a chance to to, to grow really big in a very short span of time.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:14:55",
+      "text": "okay. So you mean execution is sometimes very important even than more important than I?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:15:02",
+      "text": "Yeah, execution is always important.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:06",
+      "text": "okay. So in your company, when you are not certain whether something that works or not, will you try IT at the first or you will make a careful considerations and discussions?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:15:20",
+      "text": "So IT depends on our conviction in the idea itself. If we feel that there is a more than fifty percent chance that the idea could flourish, then we would probably do something about IT and then let the market decide whether the idea should survive or not. If the market things, there is some link to IT, then we pour in more resources, otherwise we will kill IT and then播放。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:15:47",
+      "text": "Okay, that sounds very practical, and your advice seems rooted in january. Entrepreneurs ence highly practical and sincere. We also hope to see more meaningful innovations in the device space, and we hope your effective suggestions can reach more builders.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:16:08",
+      "text": "So um let's rap up today with the final question, which is one of the go to questions for all entrepreneurs. We know that entrepreneurship is hectic and stressful, especially web story, where the market is filled with a lot of uncertainties, just like you mention, and new narratives. So it's really a chAllenge to maintain a good state and high productivity. Can you share some tips?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:16:35",
+      "text": "I think eating well and exercising, very important stuff. So IT helps. I think IT really helps. When you eat well, you feel healthier and then you can think Better. And when you exercise because of a hormonal effects IT IT also IT also comes the nerves, especially in very hectic season.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:16:59",
+      "text": "Okay, so you mentioned eating well, can ask with your food, food. And how do you manage to eat well? Do you cook yourself?",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:17:09",
+      "text": "No, I, I, I don't. I don't cook. So OK. II think, I mean, these days i've altered my diet to have more intake on fiber.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:22",
+      "text": "on fiber yeah .",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:17:24",
+      "text": "just more fiber, less car bless protein. Yes, just like her in general.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:30",
+      "text": "Okay, got IT. And thanks so much for a time. I think that's our last question. Really appreciated your time and suggest change.",
+      "speaker": "发言人3"
+    },
+    {
+      "time": "01:17:41",
+      "text": "Yeah, no problem. Thanks a lot for having me.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "01:17:44",
+      "text": "如果你对我们的内容感兴趣，欢迎在不同音频渠道订阅build talk。国内用户可以在小宇宙收听，海外听众可以在spotify和apple procs订阅，同时也可以在公告中联系小助手。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "01:18:00",
+      "text": "进入娱乐top天眼群。",
+      "speaker": "发言人2"
+    }
+  ],
+  "lab_info": {
+    "summary": "在这段讨论中，强调了技术社区成熟度对去中心化协议发展的重要性，指出在社区成熟、产品市场契合度高时，应考虑将治理权移交给社区，以促进项目发展。同时，突出了执行力在加密货币快速变化环境中的关键作用，鼓励抓住机会、快速行动。此外，分享了维持创业团队高效状态的建议，包括健康饮食与定期锻炼。讨论还涵盖了Kindle项目，该创新平台旨在解决加密货币领域固定收益产品的不足，通过其独特的AMM机制、优化的用户界面和权限管理，推动去中心化金融（DeFi）原生协议的进步。尽管面临市场接受度低、熊市压力等挑战，团队展现了对长期发展的坚定信念，视当前困难为暂时，对项目未来潜力充满信心。",
+    "qa_pairs": [
+      {
+        "question": "What is the purpose of the podcast episode featuring Tim?",
+        "answer": "The purpose of the podcast episode featuring Tim is to engage with web 3 construction by exploring various facets of cryptocurrency and offering insights into the brilliant minds of the construction community. Specifically, Tim, the founder of Kindle, shares insights on the design of the product, his personal entrepreneurial journey, and the future of Kindle.",
+        "time": "00:00:22"
+      },
+      {
+        "question": "What is Kindle and what are its current developments?",
+        "answer": "Kindle is a cryptocurrency project founded by Tim. It is the head of business and a founding team member over Cape. Tim's journey with crypto art started in 2017, and after leaving a team in early 2019, he co-founded Kindle with a group of people who are now co-founders of Panda. Panda's AMM mechanism focuses on liquidity quality concentration for better capital efficiency.",
+        "time": "00:00:41"
+      },
+      {
+        "question": "What are the key differences between Panda version 1 and version 2?",
+        "answer": "The key differences between Panda version 1 and version 2 include the AMM mechanism and user experience. Version 2 focuses on liquidity quality concentration to enhance capital efficiency and brings the liquidity of different asset types into a single pool. The new design also features a simplified user interface and introduces permissionless asset listing capabilities.",
+        "time": "00:04:39"
+      },
+      {
+        "question": "What are the major changes in Panda's AMM mechanism from v1 to v2?",
+        "answer": "The major changes in Panda's AMM mechanism from v1 to v2 involve the introduction of a new mechanism that brings the liquidity of different asset types into a single pool, enabling better capital efficiency and value capture. This design allows assets in the pool to have the same value and improves the user experience by providing a more consistent interface.",
+        "time": "00:05:01"
+      },
+      {
+        "question": "How does Panda's permissionless asset listing work?",
+        "answer": "Panda's permissionless asset listing is designed to eventually allow any user to set up a liquidity pool on the protocol without needing approval from the contract creator. Currently, however, the feature is not fully live, and the implementation is on Panda's roadmap. The goal is to provide an interface where users can easily define the parameters for their pool and set the access they want for depositing assets.",
+        "time": "00:10:38"
+      },
+      {
+        "question": "What is the vision for permissionless listing in Panda?",
+        "answer": "The vision for permissionless listing in Panda is to facilitate a more inclusive and open market by allowing any user to set up a liquidity pool on the protocol. This aligns with the broader goal of scaling the platform and supporting a wider range of users, including those who may not be as familiar with the technical details of the protocol.",
+        "time": "00:10:38"
+      },
+      {
+        "question": "What was the inspiration behind the design of the Panda AMM and what changes were made to its underlying principle?",
+        "answer": "The design of the Panda AMM was inspired by the national AMM, with changes made to the underlying principle to accommodate the time component and yield tokens relevant to the nature of the assets being dealt with, particularly in the context of PTNYT.",
+        "time": "00:13:57"
+      },
+      {
+        "question": "How did the team assess the market potential for their product in the early stages of their startup?",
+        "answer": "The team assessed the market potential based on the assumption that more liquidity would flow into the crypto space, implying an increased need for fixed income products. This was a projection they could make given their belief that more liquidity would naturally lead to the maturing of the ecosystem.",
+        "time": "00:15:43"
+      },
+      {
+        "question": "Why was it important for the team to remind themselves that the market might not be ready for a fixed income product in the early stages?",
+        "answer": "It was important for the team to remind themselves that the market might not be ready for a fixed income product because users at that time were very accustomed to high APYs and would not likely value fixed income products during a bull market where speculation and optimizing for gains made more sense.",
+        "time": "00:16:47"
+      },
+      {
+        "question": "What approach did the team take to build the product and observe user behavior?",
+        "answer": "The team gave themselves time to build the product, observe user behavior, and make iterative changes to the Panda product itself, drawing from their experience of going through a bull bear cycle and learning from the growth of similar primitives like Uni, RVP, and Compound.",
+        "time": "00:17:40"
+      },
+      {
+        "question": "How did the founders' belief in the project and their communication with investors play a role in the fundraising process?",
+        "answer": "The founders' belief in the project's trajectory and their communication with investors played a significant role in the fundraising process. Despite challenges, painting a vision of the product's future helped convince investors, and honest feedback from peers refined their approach. Institutional investors considered opportunity costs and required a vision of a three to four-year maturity versus quicker returns in other established products.",
+        "time": "00:18:38"
+      },
+      {
+        "question": "What were the main feedback or setbacks the team encountered during the fundraising process?",
+        "answer": "The main feedback or setback the team encountered was the commercial evaluation, where investors struggled with the opportunity cost of investing in a new product versus one with immediate product market fit and potential for a quick exit.",
+        "time": "00:19:29"
+      },
+      {
+        "question": "How did institutional investment support help the project in the early stages?",
+        "answer": "Institutional investment support helped the project by aggregating support and building trust, especially in the early stages when the project lacked a track record. It also provided a means to instill confidence and trust in the brand leveraging on the reputation of institutional investors.",
+        "time": "00:22:01"
+      },
+      {
+        "question": "What are the potential negative aspects of institutional and community pressure on a project?",
+        "answer": "Potential negative aspects include disruptive behavior from institutions that might be hostile to teams not delivering to expectations, impacting the operational team. Also, institutional investors might sell their tokens if they do not receive expected returns, affecting the project's token Price and community faith. With community investors, the challenge arises in catering to a large number of token holders with limited resources.",
+        "time": "00:24:53"
+      },
+      {
+        "question": "In what ways did community-oriented financing contribute to the project's success?",
+        "answer": "Community-oriented financing contributed to the project's success by providing strong community support, which is crucial for a crypto project to be successful. Early traction and attractive upside for community investors led to community support that increased the probability of the project's success.",
+        "time": "00:24:01"
+      },
+      {
+        "question": "How did the team manage the expectations of community investors and communicate with them?",
+        "answer": "The team managed community expectations by giving investors reasonable expectations and maintaining good communication. However, in the fast-paced and public nature of the crypto space, it can be challenging to manage the community's suggestions and align them with the protocol's operators' actions.",
+        "time": "00:27:12"
+      },
+      {
+        "question": "How did the team deal with the pressure of a low token price?",
+        "answer": "The team dealt with the pressure of a low token price by not paying too much attention to it and focusing on important metrics like ATVL and trading volume, which are revenue generators for the protocol. They structured measures to improve these numbers, and over time, as they focused on the important stuff, the price followed.",
+        "time": "00:30:04"
+      },
+      {
+        "question": "Did the team question the company's goals and future during challenging times?",
+        "answer": "No, the team did not question the company's goals and future during challenging times because they were confident in the direction they were building and experienced enough to understand that the products they were building would take some time to realize product-market fit.",
+        "time": "00:31:08"
+      },
+      {
+        "question": "How did the team convince younger members to stay during the difficult period?",
+        "answer": "The challenge for the team was to convince younger team members, who had not been through a bull bear cycle, to stay with the team and give them a perspective that the difficult period would pass. The team succeeded in keeping their members intact.",
+        "time": "00:31:34"
+      },
+      {
+        "question": "What considerations were made regarding the vesting schedule and how did it compare to industry standards?",
+        "answer": "When considering the vesting schedule, the team wasn't comparing to other products but mainly to what they thought was a reasonable investment schedule. The expectation for vesting schedule in a bull market, especially in 2021, was not for it to be too long, and there was no need to go above and beyond to be too differentiated on that front. They went with a two-year vesting period, which was common at the time for many projects.",
+        "time": "00:32:35"
+      },
+      {
+        "question": "How does the current state of the company compare to the initial enterprise vision?",
+        "answer": "The company has been established for three years now, and although the journey has been more difficult than anticipated, it has been a rewarding experience. The scale of difficulty far exceeded initial expectations, but the speaker is still extremely hopeful about the product and its direction and looks forward to new implementations scheduled for the next twelve months.",
+        "time": "00:33:36"
+      },
+      {
+        "question": "What motivated the speaker to start a business and create a positive impact?",
+        "answer": "The speaker is motivated by the desire to deliver impact and is a very mission-driven person. The speaker wanted to create a product that could positively impact millions of people, not just a select few. The idea for the product emerged as a result of being involved in the sector and having complementary skill sets among co-founders.",
+        "time": "00:35:02"
+      },
+      {
+        "question": "Why was it important for the project to be open about its creators from the start?",
+        "answer": "For the project to be open about its creators from the start was important to cultivate trust, especially since the project did not have a track record and was building a product unlike anything else in the sector at that point in time. Being anonymous would have been helpful initially, but given the support and circumstances, it was decided to be open about the identity of the creators.",
+        "time": "00:37:52"
+      },
+      {
+        "question": "How did the company discover and attract talented individuals?",
+        "answer": "The company sought individuals who were strategically and intellectually flexible. It was more important to work with smart and capable individuals rather than ones with specific experience only. The team's strategy proved to be correct, as they were able to create a more attractive culture for everyone. The team was also fortunate to be located in Singapore, providing access to a large pool of talented individuals from the region. Talented individuals were attracted by the challenges offered by the project.",
+        "time": "00:39:32"
+      },
+      {
+        "question": "What is the company's approach to boosting team morale and managing a mature team?",
+        "answer": "The company's approach to boosting team morale involves being honest and realistic about challenges and having contingency plans to help weather through difficult periods. The speaker treats team members as mature adults and believes in being realistic about where the company is. The speaker also mentioned that being confident and having an uplifting presence like that of a speaker named Mario can help boost team morale.",
+        "time": "00:43:27"
+      },
+      {
+        "question": "What approach has been instrumental in building partnerships?",
+        "answer": "The experience gained from working with carriers has been instrumental in building partnerships, which is reflected in the approach taken with projects connected to IT. This approach involves being honest, upfront about intentions, laying out clear proposals, and outlining mutual benefits.",
+        "time": "00:46:28"
+      },
+      {
+        "question": "How was the collaboration with Lido using IT as an example managed?",
+        "answer": "The collaboration with Lido involved connecting with other protocols like Ora, BaLancer, and Rocket Pool. A way was engineered to leverage on more reputable protocols to gain traction. The team coordinated with launch times, connected with protocols, and pitched specific assets. Posters and materials were designed, and the timing of the release was synchronized, resulting in a successful partnership with healthy social media impressions.",
+        "time": "00:48:34"
+      },
+      {
+        "question": "What lessons were learned from the collaboration with Olympus and how were they applied in subsequent launches?",
+        "answer": "The lessons learned from the collaboration with Olympus included their hands-on approach to coordinating with launch times and working with protocols in advance. The team provided a persuasive pitch and made sure they were well-prepared. These experiences were implemented in subsequent launch plans to improve the process.",
+        "time": "00:51:18"
+      },
+      {
+        "question": "How does the speaker view different income sources for DeFi protocols such as fees and bribes?",
+        "answer": "Fees are viewed as the primary income source for DeFi protocols for the token holders, with bribes considered a secondary, attractive element. The fundamental aspect is still the activity and health of the protocol, which directly impacts trading volume and, consequently, the fees generated.",
+        "time": "00:56:49"
+      },
+      {
+        "question": "What is the strategy for tuning incentive levels to control costs while maintaining a steady rate of TVL growth?",
+        "answer": "Initially, incentives may need to be more aggressive to attract liquidity. However, as the protocol stabilizes and liquidity growth becomes more stable, it is sensible for the protocol to consider reducing incentives to improve efficiency. The adjustment of incentives should be based on the protocol's marketing plans and the state of the protocol, with a focus on making appropriate changes to achieve balance.",
+        "time": "00:57:55"
+      },
+      {
+        "question": "What is the plan for the next year in terms of new features for Panda?",
+        "answer": "The plan for the next year includes launching limit orders, which is necessary due to some form of瓶颈 in trading larger sizes of yield tokens on the Panda AMM. Limit orders will enhance the capital efficiency of trading larger amounts of yield tokens.",
+        "time": "01:00:22"
+      },
+      {
+        "question": "What new features are being introduced to improve the trading experience for users?",
+        "answer": "New features include limit orders, STIP incentives, rebates, and live limit order maker incentives to attract more users to leave orders, which are expected to enhance trading volume and TVL of the protocol.",
+        "time": "01:02:21"
+      },
+      {
+        "question": "What factors influence the focus on trading volume versus TVL in a protocol's lifecycle?",
+        "answer": "Both trading volume and TVL are important but serve different purposes. Initially, focus is on increasing TVL to attract liquidity and provide a good trading experience. As TVL grows, the focus shifts towards trading strategies. The exact time to prioritize one over the other depends on the needs, market situations, and the development stage of the protocol.",
+        "time": "01:03:17"
+      },
+      {
+        "question": "Which asset types are considered important for TVL and trading volume growth?",
+        "answer": "GLP is important for trading volume, while L, S, D polls with TVL are also considered significant. Growth in trading volume can be achieved by focusing trading strategies on GLP users and increasing liquidity through Aave and other protocols. Additionally, stables such as DAI and potentially others like compound stablecoins are seen as assets that can attract sizable liquidity.",
+        "time": "01:04:48"
+      },
+      {
+        "question": "What is the significance of institutional investors and how is the team progressing with their plans?",
+        "answer": "Institutional investors are significant as they are interested in DeFi and find use cases, particularly with regard to providing liquidity and engaging in trading activities. The team foresees a need for more education to build confidence among this user group and bring more liquidity to the platform. Institutions are bullish on DeFi and hopeful that improvements in sentiment are imminent, especially in regions with favorable regulations.",
+        "time": "01:07:19"
+      },
+      {
+        "question": "What are the biggest concerns for institutions regarding DeFi investments?",
+        "answer": "The biggest concerns for institutions regarding DeFi investments lie in the balance between return and risk. The return may not be as high as some other investments, but if it is attractive and comes from a protocol developed by a trusted team, institutions may still be comfortable investing, especially if they trust the team despite lower yields.",
+        "time": "01:09:10"
+      },
+      {
+        "question": "Does the team plan to iterate their products to better meet institutional investor needs?",
+        "answer": "The team is aware of the need to iterate their products to better meet the needs of institutional investors and aims to find its way into the trillion-dollar traditional finance market. There are plans to move towards decentralized governance in the future, but the exact timing is not specified. Currently, the team believes it is the best operator for the protocol and will transition to community governance when the community is mature and there is a strong product-market fit.",
+        "time": "01:10:01"
+      },
+      {
+        "question": "How does the team balance efficiency and centralization through progressive decentralization?",
+        "answer": "The team aims to balance efficiency and centralization through progressive decentralization. The process involves giving community holders a chance to influence the direction of the protocol, but also recognizes that this decentralization could initially lead to slower decision-making if the community is not mature. The team foresees moving towards community governance when the protocol is decentralized, the community is efficient, and there is a strong product-market fit for the protocol.",
+        "time": "01:12:30"
+      },
+      {
+        "question": "What advice is given for entering the DeFi space and starting a business in this field?",
+        "answer": "The advice given for entering the DeFi space includes a strong emphasis on execution, as the space moves quickly and opportunities can vanish rapidly. The advice is to be action-oriented and to capitalize on the democratized technology to implement ideas quickly. Startups should act on ideas promptly to leverage the fast-paced nature of the industry.",
+        "time": "01:13:30"
+      },
+      {
+        "question": "How does the company decide whether to pursue a new idea or not?",
+        "answer": "The company assesses the chance of a new idea flourishing. If there is more than a 50% likelihood of success, the company will act on the idea and let the market decide its fate. If the market indicates success, the company will invest more resources; otherwise, the idea will be abandoned.",
+        "time": "01:15:06"
+      },
+      {
+        "question": "Why is it important to maintain a neutral stance in the treatment of different liquid rappers within the Panda ecosystem?",
+        "answer": "It is important to maintain a neutral stance in the treatment of different liquid rappers to ensure that the relationship within the Panda ecosystem remains healthy. This neutrality allows for competition between protocols, which is believed to benefit users significantly.",
+        "time": "00:53:51"
+      },
+      {
+        "question": "What are the potential consequences of large trades on the price impact in the market?",
+        "answer": "Large trades could cause significant price impact due to the underlying value they represent, making it challenging for users to execute large positions without affecting the price.",
+        "time": "01:01:34"
+      },
+      {
+        "question": "What are some tips for maintaining a good state and high productivity as an entrepreneur?",
+        "answer": "Maintaining a good state and high productivity as an entrepreneur involves eating well and exercising. These practices contribute to overall health, better cognitive function, and management of stress during hectic times.",
+        "time": "01:16:08"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "Build Talk：Kindle项目创始人分享创业旅程与未来规划",
+        "summary": "在本期的Build Talk播客中，我们邀请到了Kindle项目的创始人分享他的创业经历、产品的设计思路以及对未来的展望。创始人谈到了自己从2017年开始的加密货币之旅，以及如何在经历了多次商业尝试后，最终创立了Kindle。Kindle作为一个大型的收益率交换协议，旨在解决市场上对可持续收益产品的需求。项目在短短一年内实现了显著增长，达到了近2.4亿美元的流动性（TVL）和超过3亿美元的累计交易量。此次对话正值Kindle项目V2周年纪念日，创始人对此表达了感激之情，并分享了团队对项目未来发展的思考。"
+      },
+      {
+        "time": "00:04:22",
+        "title": "详解v2版AMM机制与界面优化",
+        "summary": "v2版本的主要优化在于改善AMM机制，特别是通过集中流动性提高资本效率，将不同资产类型的交易整合到一个池中，极大改善了用户体验和资本效率，提高了400至2000倍。此外，引入了简化的用户界面与专业界面，以适应不同用户群体的需求，同时推进向无许可资产列表的转变，尽管这一功能尚未完全实现。这些改变旨在使协议更易用、更高效，并向更广泛的用户群体开放。"
+      },
+      {
+        "time": "00:13:36",
+        "title": "Panda v2的设计灵感与创业历程",
+        "summary": "在开发Panda v2的过程中，团队深入研究了各种协议设计，特别是从国家AMM中汲取灵感，针对时间组件和特定代币做出调整。他们面临的主要挑战之一是市场对固定收益产品的需求认识。尽管起初市场对固定收益产品持怀疑态度，但他们认为，随着更多流动性流入加密市场，对固定收益产品的需求自然会上升。团队的信念在于，尽管可能需要时间，但最终市场将认可固定收益产品的重要性。在融资过程中，他们通过向投资者展示未来市场潜力，克服了初期的估值挑战和投资者的犹豫，最终获得了包括早期支持者和知名风投在内的投资。"
+      },
+      {
+        "time": "00:21:07",
+        "title": "加密项目成功因素：机构投资与社区支持",
+        "summary": "对话中讨论了加密货币项目成功的关键因素，包括机构投资和社区支持的重要性。一方面，机构投资能为没有过往业绩的新项目建立信任和信誉，提供宝贵的资源和经验分享。另一方面，社区的支持对于项目的长期成功至关重要，能够促进项目的快速发展。此外，还探讨了机构和社区可能给项目团队带来的压力，以及如何通过设置合理的预期和保持良好沟通来应对这些挑战。"
+      },
+      {
+        "time": "00:29:38",
+        "title": "应对加密货币市场波动和团队管理挑战",
+        "summary": "面对加密货币价格波动，尤其是当Panda代币价格低于预期时，团队选择集中精力于核心业务指标，如ATVL和交易量，这些是协议的主要收入来源。通过专注于提升这些关键指标，最终市场价格得以改善。同时，团队对于公司的目标和未来保持坚定，尽管市场波动，但团队内部对产品和市场适应性的信心未曾动摇。对于年轻团队成员，挑战在于如何让他们在经历市场低谷时保持信心。团队通过共享目标和愿景，成功保持了团队的凝聚力。此外，关于股权解锁周期，团队选择了一种既合理又能满足投资者期望的策略，避免了与市场普遍做法的极端差异。总的来说，尽管创业旅程充满挑战，团队仍致力于实现其对社会的积极影响，对未来的发展和新产品实施保持乐观态度。"
+      },
+      {
+        "time": "00:37:50",
+        "title": "建立信任与团队管理：一个创业者的经验分享",
+        "summary": "创业者分享了通过公开身份来建立信任的重要性，尤其是在公司初创阶段和产品复杂且独特的情况下。他强调了吸引和保留人才的关键在于寻找具有战略和智力灵活性的个体，而不是单纯看重经验。此外，通过分享对于团队管理的看法，特别是如何通过保持诚实和透明来提升团队士气，突出了尊重和现实主义在团队建设中的重要性。基于新加坡的地理优势，他也提到了如何利用地区人才库来招募优秀人才。"
+      },
+      {
+        "time": "00:46:02",
+        "title": "建立有效合作关系的策略和经验分享",
+        "summary": "在讨论中，分享了建立和维护合作伙伴关系的重要性，特别是对于新兴项目如何通过与已有项目的合作来增加自己的影响力和用户基础。强调了明确期望、真诚沟通、共同利益的重要性，以及合作中细节处理的必要性。通过具体案例分析，展示了通过与多个协议合作，实现共赢的策略和过程，如通过与知名协议合作提升自己项目的曝光度和用户量。同时，也提到了如何从合作中学习和调整策略，以改善后续的合作关系和项目执行。"
+      },
+      {
+        "time": "00:55:45",
+        "title": "探讨DeFi协议中的贿赂、费用及激励调整策略",
+        "summary": "在讨论中，首先指出贿赂在DeFi协议中可能成为重要的收入来源之一，但强调费用对协议的可持续性更加关键。观点认为，贿赂仅在协议活动健康时有意义，因此费用仍是核心。接着讨论了如何在维持TVL增长的同时调整激励水平以控制成本，指出初期可能需要更激进的激励措施来吸引流动性，随后随着协议稳定，应减少激励以提高效率。调整激励的策略应该是灵活的，根据协议的市场策略和所处阶段进行，没有一刀切的方法。"
+      },
+      {
+        "time": "01:00:10",
+        "title": "介绍熊猫计划：未来三个月至一年的展望及策略",
+        "summary": "在未来几个月至一年内，明确的目标是推出一个新功能—限制订单，以应对目前在交易规模上出现的瓶颈问题。特别是对于资本效率高的代币，如黄色代币，限制订单功能将有助于减轻交易带来的价格影响，从而提供更好的交易体验。此外，将结合STIP激励、回扣和限制订单制作者激励，以吸引更多的用户下订单，从而有助于增加交易量和协议的TVL。对于TVL和交易量的追求，认为两者同等重要，但重要性体现在不同方面。通常在新池发布时，会追求TVL以吸引流动性，一旦流动性足够，将重点转向交易策略。策略的调整会根据需求、市场情况和发展阶段而变化。"
+      },
+      {
+        "time": "01:04:19",
+        "title": "Panda Protocol发展战略与社区治理讨论",
+        "summary": "在讨论中，阐述了Panda Protocol在未来六个月内的发展重点，包括增强GLP用户的交易策略和提升LSD pools的TVL。此外，还提到了稳定币资产作为吸引流动性的重要资产类型，并讨论了机构投资者在加密市场的角色及挑战。对于治理结构，表达了向社区治理过渡的意向，但强调目前仍需保持一定程度的集中管理以确保协议高效运营。"
+      },
+      {
+        "time": "01:12:57",
+        "title": "探讨DeFi领域创新与创业建议",
+        "summary": "在DeFi领域，执行速度对于抓住市场机遇至关重要。因为加密货币领域发展迅速且技术民主化，给了任何人实现想法、产生全球影响的机会。对于创业者而言，当一个想法有超过50%的成功可能性时，应勇于尝试，让市场决定其价值。保持健康的生活习惯，如良好的饮食和定期锻炼，对于应对创业过程中的压力和挑战非常重要。特别是在忙碌时期，维持良好的身体状态能够帮助创业者更好地思考和决策。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "创始人：Tim"
+                },
+                {
+                  "children": [],
+                  "content": "设计思路与产品规划"
+                },
+                {
+                  "children": [],
+                  "content": "创业感受与未来展望"
+                }
+              ],
+              "content": "Kindle项目"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "成立背景"
+                },
+                {
+                  "children": [],
+                  "content": "产品特性"
+                },
+                {
+                  "children": [],
+                  "content": "用户反馈"
+                },
+                {
+                  "children": [],
+                  "content": "发展策略"
+                }
+              ],
+              "content": "Panda项目"
+            }
+          ],
+          "content": "项目与创业经验"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "AMM机制的改进"
+                },
+                {
+                  "children": [],
+                  "content": "用户界面优化"
+                },
+                {
+                  "children": [],
+                  "content": "权限管理"
+                }
+              ],
+              "content": "V1与V2的差异"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "功能增强"
+                },
+                {
+                  "children": [],
+                  "content": "产品迭代"
+                },
+                {
+                  "children": [],
+                  "content": "技术创新"
+                }
+              ],
+              "content": "未来规划"
+            }
+          ],
+          "content": "技术与产品开发"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "市场潜力评估"
+            },
+            {
+              "children": [],
+              "content": "投资者关系"
+            },
+            {
+              "children": [],
+              "content": "社区参与"
+            },
+            {
+              "children": [],
+              "content": "机构与社区的资金支持"
+            }
+          ],
+          "content": "市场与社区"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "应对价格波动"
+            },
+            {
+              "children": [],
+              "content": "团队建设与管理"
+            },
+            {
+              "children": [],
+              "content": "市场推广与合作"
+            },
+            {
+              "children": [],
+              "content": "治理结构与决策"
+            }
+          ],
+          "content": "挑战与策略"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "保持健康的建议"
+            },
+            {
+              "children": [],
+              "content": "管理压力"
+            },
+            {
+              "children": [],
+              "content": "生活习惯的调整"
+            }
+          ],
+          "content": "生活与工作平衡"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "执行力的重要性"
+            },
+            {
+              "children": [],
+              "content": "持续学习与适应"
+            },
+            {
+              "children": [],
+              "content": "创业心态"
+            },
+            {
+              "children": [],
+              "content": "市场机遇与挑战"
+            }
+          ],
+          "content": "建议与启示"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "Panda项目的未来展望"
+            },
+            {
+              "children": [],
+              "content": "创业者的持续成长与学习"
+            },
+            {
+              "children": [],
+              "content": "对行业发展的积极态度"
+            }
+          ],
+          "content": "结论"
+        }
+      ],
+      "content": "Build Talk脑图摘要"
+    }
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "pid": "6020f8140c19368f750c631e",
+  "eid": "61fe64c24675a08411f519b2",
+  "title": "zkrollup系列 - 记录小伙伴解释什么是zksync",
+  "task_id": "82xz94v6md6k9m6v",
+  "transcription": [
+    {
+      "time": "00:00:02",
+      "text": "各位朋友们大家好。今天我要介绍的项目是JKC。我将会从三个方面进行说明。首先是一个知识的科普，什么是layer to roll up和零知识证明，我将会给出他们的definition。第二个是从项目的角度，这个项目的background是什么？他们在做一件什么样的事情。第三个是从对比的角度，roll up内部分为ZKY roll up和optimistic roll up，它们的区别是什么？而ZK roll up内部也有两条技术路径，分别是snack和stack。那他们的对比和优势又是什么？",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:40",
+      "text": "首先我们要从there to扩容方案的背景讲起。它起源于B是非常火爆。以太坊承载的智能合约应用变多，资源占用量变大，因此以太坊网络变得拥堵，转账和调用智能合约消耗的gas费飙升，因此这个layer 2扩容方案就应运而生。而layer two的本质是大量的交易在链下进行，在最终需要确定或者出现争议的时候，提交到链上进行仲裁。22网络内部因为用户比较少，手续费也相对便宜。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:16",
+      "text": "Roll up则是链下扩容方案的一种。Roll up本意是卷起来的意思，形象的理解是之前的一笔转账是一笔交易。而roll up将数百笔交易卷成一个交易，充当了交易压缩的一形式，它将原始数据存在以太坊上，在链下执行，并偶尔向主网以太坊发布状态更新。他有两种技术路径，第一种是optimistic grow up，他乐观的认为链下交易者返回的结果是正确的，只有当发现状态变化有误，出现争议的时候，会通过链上的合约裁决并且惩罚验证者。第二个路径是ZK roll up，链下的操作者会根据状态更新生成一个零知识证明，交给链上合约进行判断。门链上只验证证明就能确保涉及的交易被正确的执行。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:16",
+      "text": "那什么是ZK呢？就是zero knowledge 0知识证明。他表示证明者在不向验证明者在不向验证者提供有用信息的情况下，使得验证者相信某个论。但是正确的举一个例子，我想向你证明我有一辆车。那第一种方案我会向你出示车的钥匙，但这就不是零知识证明了。第二种方案我不出示钥匙，我出示了车里的东西。那么验证者即使对于这个钥匙是零知识的那也可以通过我行为的这种方式判断我就是车的主人。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:54",
+      "text": "再举一个例子，比如说你想向我证明两个球的颜色是不同的，而我恰好又是一个色盲，那我会双手各拿一个球并自行决定是否要交换。我拿给你看，你来帮我判断一下我是否交换了球。如果猜一次两次，你可能会凭借运气比较好而猜对了。但如果猜100次，猜1000次，你都能够猜对我是否进行交换了。那么即便我是一个色盲，我对球的颜色是不知道的，是零知识的，我也能够从你的行为中推断出这两个球的颜色是不同的那zero knowledge就作为隐私增强技术，减少了用户之间需要提供的信息交易量。也作为扩容技术，能够更快的以更快的速度进行验证。传统的实体希望创建和执行智能合约，但又需要在竞争中保持优势，保护商业机密。零知识证明就能够让这些机构安全的与公链网络交互，并保护内部敏感数据的隐私。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:03:56",
+      "text": "我们再回到ZK sync这个项目，ZK sink是matt打造的基于ZK row up的layer 2扩容方案。它用于在以太坊上进行可扩展性的低成本支付。它的ERC20代币大概是主网成本的1%，以太坊转账大概是ETH转账大概是主网成本的30分之1，它具有交易的低延迟性，十分钟之内能够提款到主网，无需信任，且资金拥有以太坊主网级别的安全性。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:27",
+      "text": "Matter labs这个团队大概是有九位工程师，主要是以东欧的工程师为主。他们比较像一个草根的团队。他的CEO叫做alex，之前在柏林工业大学读计算机科学学士，然后又去读了高能物理学的一个博士，曾经担任过什么paul camper的一个首席技术官。这个公司是在2019年的12月成立的，它在2019年的九月的时候种子轮了200万美元，是A16Z领投的。在21年的二月份有A轮融资600万美元，在21年的11月份又B轮融资5000万美元，是A16Z领投的。其他投资者有placeholder和dragon fly。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:05:19",
+      "text": "他的热度方面的话，他在推特上目前有18.15.8万关注的人。在discord上面有2.75万人，在给hub上点star的大概有1000个人。这个项目有23个trader，目前的收藏量TVL是6000万美金。根据auto beat这个网站显示，目前他ZK think排总所参量的第十。在eco system方面，JK sink也和很多的知名项目有一个合作的关系。比如说柯尔夫AVE，Lancer one inch coin base火币baLance等等。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:06:01",
+      "text": "ZK sink也是首个兼容EVM的ZK roll up。它通过ZKEVM和ZK porter两大技术，充分发挥了安全性、去中心化、可编程性和可扩展性。GKEVM是模仿以太坊环境的一个虚拟机，作为兼容EVM的ZK rob引擎，是唯一一个具备L一安全性且支持solid智能合约的解决方案。而ZK porter是可扩展性非常高的链下数据可得性系统在兼容性方面，大家知道大多数的define和NFT项目使用的是solid智能合约。用ZK sink这项目你就不需要进行一个中介语言或者是转码器，就能在不更改源代码的情况下进行工作。最后我们要做一个对比，首先是roll up内部的ZK roll up和optimistic roll up的性能对比。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:06:58",
+      "text": "在灵活性方面，opportunity y roll up一个重要的创新是OVM，它支持在ETH链上同样功能的实现，它也支持用solid来编写代码，大部分现有代码库都可以轻松地移植到open c roll up上面。而ZK roll up现有的它主要聚焦于特定的操作。比如说代币转移，主要原因是早期的ZKO wap没有找到很好的方式来支持edm，需要领域内特定的编程语言来编写代码。但这个问题也正在被解决。现存的这ETH合约都能以最小的努力有效的移植过来。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:07:41",
+      "text": "在可扩展性方面的话，optio roll up arbitron能够达到4万TPS交易吞吐量。而ZK rop ZK sink声称它可以达到2000TPS的交易吞吐量。Optimistic roll up从数据上来看是暂时的领先地位。因为它避开了零知识证明的技术难点，所以它落地是比较快的。而ZK rop还处于研制的阶段，如果都支持EVM的话，optimistic roll up的TPS理论上限会略高于ZK roll up，因为它也省去了生成ZK pro的过程。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:08:22",
+      "text": "从安全性上看，optimistic roll up由于存在1到2周的欺诈证明挑战期，运营商和矿工不会去冒风险合谋，因此具有良好的安全性能。JK roll up每个状态转换都是通过roll up智能合约进行验证，运营商是无法盗窃资金或者是破坏roll up状态的，具有比optimistic roll up更好的一个理论安全性能。在颜值方面optimistically up由于安全性部分提到的问题，它仅在1到2周的欺诈证明挑战窗口期内才是安全的。ZK row up它的现在时间大概是20分钟，最终的话它会在会压缩到一分钟以内。总结一下来说，optimist rev b现在已经处于产品级的实施阶段，有arbitron和optimism等方案都跑出来了也部署了一些unit word.",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:09:23",
+      "text": "之类的define。ZKO up在。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:09:27",
+      "text": "特定方面是比较成熟的，也会逐步的朝着完全通用的智能合约方面努力。从长远和落地角度，市场会更加看好ZK roll up。但虽然现在ZK row up不完全兼容EVI，需要项目方进行一些定制，才能在later one和layer 2之间进行转移。但是随着ZKO up可编程性的差距缩小，未来从可拓展性、安全性、延迟的角度来看的话，ZK row up会取胜。也根据预测ZK roll up占literary rolled up的使用量的比例会超过50%。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:10:08",
+      "text": "就在2023年的时候，JK rop内部有两条技术路径。第一条是snark，第二条是stark。我们也来做一个简单的对比。JK sink采用的是snark技术。Snark产生于2012年1月，是加州伯克利分校一位教授首次构建零知识证明，创制造了k sark。它在这个基础上利用椭圆曲线来保证安全性。而stack技术是在2018年第一篇stack论文出现。Stack的基础技术是依赖于哈希函数，下列函数的特性使得它具备抗量子性网络，使用stack就不需要可信设备。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:10:55",
+      "text": "其实snark和stark从名字上看，它们的唯一区别就是一个是N一个是T。N代表的是non interactive非交互的，就是证明者创建的证明是每一个验证者都通用的，但交互的意思就是证明者面对每一个验证者都需要去验证一次数据的真实性。然后T代表的是transparent透明，就不需要一个信任设置。也因此stark技术会比snack技术快大概十倍左右。但是stark技术是不如snark技术那么成熟的，且目前无法与EVM进行兼容。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:11:36",
+      "text": "Snack技术的优势在于它的数据是比stack小的，证明更便宜，空间只占用OE的空间。验证时间也不会随着验证量的计算而进行线性增长，它比较容易递归，也节约了验证器的计算量。而stack在snark基础上的改进是它抗量子计算，不会被量子计算破解。但他的牺牲是相比于snark stark会更加的复杂，消耗以太坊验证手续费会更高。他还有个点是它使用的是caro的编程语言，但实际上很少有人会愿意去学一个新的编程语言。因此他们又创建了rap编译器，能够将solid转换为carl。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:12:21",
+      "text": "我们也可以看到在扩展性方面，ZK star它验证时间是和计算呈一个对数关系，扩展性是比较好的。而在简洁性方面，DK snark生成的precise验证程序是比较小的，因此snark会在简洁性上更胜一筹。再对比一下ZK sink和s star ware两个项目。首先在软件许可上，CK sink是宽容的许可。如果metal lab没有能够做正确的事情，任何人都能进行自由的分叉网络。而start ware阻止了stark ware附属公司以外的任何人运行start证明器。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:02",
+      "text": "在开发者堆栈方面，CK sink专注于完整的EVM兼容性网络，在各个方面都归社区所有。但star ware它在广推广一种caro编程语言，它有利于性能，但是不利于兼容性。在可升级性方面，ZK stark它是在执行升级之前进行冻结操作。你作为没有时间锁的升级机制，它的重点是针对外部攻击者的安全性，而不是减少对stark ware本身的依赖。CK sink自从发布的第一天起，就有一个带强制时间锁的升级机制。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:45",
+      "text": "在链外数据可用性方面，zk sink附带了zk porter，它是一种针对去中心化优化的链下数据可用性解决方案。这个设计方案将会是完整节点，比现有的以太坊杀手多两个数量级。但star ware他在这里住压数据可用性委员会。这个委员会是由一小部分数据存储者组成的，他们依靠的是自己的声誉，而不是去中心化的激励。我们总结一下，snack技术它因为发展的历程比较早，然后比相对来说比较完善。Start技术比较新，但是它在transaction方面，包括TV料方面都会做的更好一些。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "项目JKC，基于Matter Labs的ZK roll up技术，致力于为以太坊提供低成本、高安全的支付解决方案。它融合了零知识证明机制，包括snark和stark技术，以提升安全性、可扩展性及验证速度。JKC对比了ZKY roll up、optimistic roll up以及snack和stack技术路径，指出ZK roll up在长远和可扩展性上具有优势，尽管面临兼容性挑战。通过与ZK sink和starkware项目的比较，凸显了各自的技术特点和生态合作潜力，展现了JKC在解决区块链扩展性问题上的创新与努力。",
+    "qa_pairs": [
+      {
+        "question": "JKC项目的背景是什么，它要解决的主要问题是什么？Roll up是什么，它的两种技术路径分别是什么？",
+        "answer": "JKC项目是基于layer 2扩容方案，旨在应对以太坊网络拥堵和gas费飙升的问题。由于以太坊承载的智能合约应用增多导致网络压力增大，该方案通过在链下执行大量交易并在特定情况下提交至链上仲裁，以实现扩容和降低交易成本。Roll up是一种链下扩容方案，将多笔链下交易压缩为单笔交易并提交至主网以太坊进行状态更新。其技术路径包括：\n1. Optimistic Roll up：基于乐观机制，信任链下交易结果，仅当出现状态争议时通过链上合约裁决。\n2. ZK Roll up：操作者生成零知识证明并提交给链上合约验证，确保交易正确执行，提供更快的验证速度和更高的隐私保护。",
+        "time": "00:00:40"
+      },
+      {
+        "question": "ZK Sync项目的特点和优势是什么？ZK Roll up与Optimistic Roll up在性能上的主要对比是什么？",
+        "answer": "ZK Sync是基于ZK Roll up的layer 2扩容方案，用于以太坊上的低成本支付，其ERC20代币成本仅为主网的1%，交易延迟低至十分钟内可提款至主网，并且具备高安全性。此外，ZK Sync是首个兼容EVM的ZK Roll up，通过ZKEVM和ZK Porter技术实现了对现有智能合约的良好兼容性和高效的扩展性。在灵活性方面，Optimistic Roll up支持在ETH链上实现相同功能，兼容大部分现有以太坊代码库；而ZK Roll up目前主要聚焦于特定操作，如代币转移，但随着技术发展，通用性有望提升。在可扩展性方面，Optimistic Roll up已达到4万TPS交易吞吐量，而ZK Roll up声称可达2000TPS，但理论上若都支持EVM，Optimistic Roll up由于避免了生成ZK proof的过程，TPS上限可能略高于ZK Roll up。安全性上，两者各有优势，Optimistic Roll up有欺诈证明挑战期保障安全，而ZK Roll up通过智能合约验证状态转换，具有较好的理论安全性。",
+        "time": "00:03:56"
+      },
+      {
+        "question": "零知识证明（ZK）的具体含义是什么，能否举个例子说明？",
+        "answer": "零知识证明（ZK）是一种允许证明者在不透露任何有用信息的情况下，使验证者相信某个论断的真实性的技术。例如，证明者可以展示车的内部而不透露钥匙，即使验证者对钥匙一无所知，也能通过观察行为判断出车辆的所有权。",
+        "time": "00:02:16"
+      },
+      {
+        "question": "ZK Sync项目的发展状况及生态合作情况如何？",
+        "answer": "ZK Sync项目受到市场的广泛关注，推特关注人数超过18万，在Discord上有2.75万人，GitHub上有1000个星标收藏量，TVL达到6000万美元。项目已获得知名投资机构A16Z等的投资，并与多个知名项目如柯尔夫、Lancer、Oneinch等建立了合作关系。",
+        "time": "00:05:19"
+      },
+      {
+        "question": "ZK roll up在未来的发展趋势如何？ZK roll up和以太坊虚拟机（EVM）之间的兼容性问题如何解决？",
+        "answer": "ZK roll up在特定方面已经相对成熟，并将持续朝着完全通用的智能合约方向发展。从长远和落地角度看，市场对ZK roll up更加看好。尽管目前不完全兼容EVI，需要项目方进行定制才能在layer 2和later one之间转移，但随着ZK row up可编程性的差距缩小，其在可拓展性、安全性、延迟等方面的优势将更加明显，预测其使用量占比将超过50%。ZK roll up暂时无法与EVM完全兼容，但随着技术进步，未来可能会实现更好的兼容性。",
+        "time": "00:09:27"
+      },
+      {
+        "question": "SNARK技术和STARK技术有何区别？",
+        "answer": "SNARK（非交互式零知识证明）和STARK（透明零知识证明）的主要区别在于交互性和透明性。SNARK是非交互式的，为每个验证者生成通用证明；而STARK需要面对每个验证者交互验证数据真实性，且STARK具备抗量子计算能力，无需可信设置，速度更快，但相对不成熟且无法与EVM直接兼容。SNARK技术在数据大小、证明成本、简洁性和编程语言等方面具有优势，而STARK在抗量子计算方面有改进，但牺牲了部分兼容性和复杂度。",
+        "time": "00:10:55"
+      },
+      {
+        "question": "ZK-SNARK与ZK-STARK在扩展性和简洁性上的表现如何？",
+        "answer": "在扩展性方面，ZK-STARK的验证时间和计算呈对数关系，扩展性较好；而在简洁性方面，ZK-SNARK生成的精确验证程序较小，因此在简洁性上更胜一筹。",
+        "time": "00:12:21"
+      },
+      {
+        "question": "ZK-SNARK和ZK-STARK在软件许可、开发者堆栈、可升级性以及链外数据可用性上的差异是什么？",
+        "answer": "ZK-SNARK拥有宽容的许可制度，允许自由分叉网络；而ZK-STARK则阻止除附属公司外的任何人运行ZK-STARK证明器。在开发者堆栈上，ZK-SNARK专注于完整的EVM兼容性网络，而ZK-STARK推广caro编程语言以提高性能但牺牲兼容性。可升级性方面，ZK-STARK执行升级前会进行冻结操作，重视安全性而非减少对外部依赖；ZK-SNARK自发布起就具备强制时间锁升级机制。在链外数据可用性方面，ZK-SNARK附带zk porter解决方案，提供去中心化的数据可用性保障，而ZK-STARK依赖一小部分数据存储者组成的委员会，依靠声誉而非去中心化激励来保证数据可用性。",
+        "time": "00:13:45"
+      }
+    ],
+    "chapters": [
+      {
+        "time": "00:00:00",
+        "title": "JKC项目介绍：Layer 2扩容方案与Roll up技术解析",
+        "summary": "JKC项目旨在解决以太坊网络拥堵和高Gas费问题，通过Layer 2扩容方案实现。项目背景起源于以太坊智能合约应用增多导致网络资源占用增加。Roll up技术作为链下扩容方案，将大量交易压缩成单个交易，有效降低网络拥堵。Roll up分为两种技术路径：Optimistic Roll up和ZK Roll up。Optimistic Roll up基于乐观假设，仅在出现争议时通过链上合约裁决；ZK Roll up则通过生成零知识证明在链上验证交易的正确性。ZK Roll up内部又分为两种技术路径，分别是snack和stack，但对话中未详细阐述它们的区别与优势。"
+      },
+      {
+        "time": "00:02:15",
+        "title": "理解零知识证明及其应用",
+        "summary": "零知识证明（ZK）是一种能够在不透露任何有用信息的情况下，使验证者相信某项陈述的技术。通过两个例子说明了零知识证明的原理：一是通过展示车内物品而非钥匙来证明车的所有权，二是色盲者通过让别人判断球是否被交换来间接证明球的颜色不同。零知识证明作为隐私增强技术，减少了用户间信息的交换量，同时作为扩容技术，加速了验证过程。它允许机构在保护商业机密的同时，安全地与公链网络交互，保护内部敏感数据的隐私。"
+      },
+      {
+        "time": "00:03:55",
+        "title": "ZK Sync项目概述",
+        "summary": "ZK Sync是基于ZK Rollup技术的Layer 2扩容方案，由Matter Labs团队开发，该团队主要由九位东欧工程师组成。此项目在以太坊上实现低成本支付，ERC20代币转账成本为主网的1%，ETH转账成本为30分之1，同时保持以太坊主网级别的安全性。自2019年12月成立以来，ZK Sync已进行了多轮投资，其中包括A16Z领投的种子轮和后续融资，累计融资额达到数千万美元。项目在社交媒体上拥有大量关注，与多个知名项目建立合作关系，生态系发展迅速。"
+      },
+      {
+        "time": "00:05:59",
+        "title": "ZK Rollup与Optimistic Rollup的对比分析",
+        "summary": "ZK Rollup作为一种高效的安全性和可扩展性解决方案，通过ZKEVM和ZK Porter技术，实现了与EVM的兼容，支持Solidity智能合约而无需修改源代码。与Optimistic Rollup相比，ZK Rollup在特定操作如代币转移上更聚焦，但由于技术难点，其TPS略低于Optimistic Rollup。然而，ZK Rollup提供了比Optimistic Rollup更好的理论安全性能，且预计未来在可扩展性、安全性、延迟方面将超越Optimistic Rollup。尽管目前ZK Rollup的EVM兼容性不完全，需要定制，但随着技术的发展，预计ZK Rollup将在Layer 2解决方案中占据超过50%的使用量。"
+      },
+      {
+        "time": "00:10:08",
+        "title": "JK Rop技术路径：SNARK与STARK的对比分析",
+        "summary": "JK Rop在2023年同时发展了两条主要的技术路径：SNARK和STARK。SNARK技术，源自2012年，依赖于椭圆曲线确保安全，提供非交互式证明，使得证明对所有验证者通用，且数据量小、证明成本低，易于递归，但验证时间不随验证量线性增长。相比之下，STARK技术基于哈希函数，自2018年起，强调透明性，无需信任设置，抗量子计算，但相对复杂，消耗的以太坊验证手续费较高，且目前无法与EVM兼容。在软件许可、开发者堆栈、可升级性及链外数据可用性方面，两者亦各有特点。SNARK因其发展较早，技术相对成熟，而STARK虽然相对较新，但在交易处理和TVL方面展现出更大的潜力。"
+      }
+    ],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "起源于以太坊网络拥堵，gas费飙升"
+                },
+                {
+                  "children": [],
+                  "content": "Layer 2本质：链下处理大量交易，链上仲裁争议"
+                }
+              ],
+              "content": "Layer 2扩容方案"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "将数百笔交易压缩成一笔交易"
+                },
+                {
+                  "children": [],
+                  "content": "原始数据存于以太坊，链下执行，偶尔向以太坊发布状态更新"
+                }
+              ],
+              "content": "Roll up技术"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "在不提供有用信息的情况下，使验证者相信某个论断正确"
+                },
+                {
+                  "children": [],
+                  "content": "隐私增强技术，减少信息交易量"
+                }
+              ],
+              "content": "Zero Knowledge Proof (ZK)"
+            }
+          ],
+          "content": "知识科普"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "以太坊智能合约应用增多，资源占用量变大"
+                },
+                {
+                  "children": [],
+                  "content": "JKC基于ZK Roll up的Layer 2扩容方案，降低成本，提高支付速度"
+                }
+              ],
+              "content": "背景"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "content": "根据状态更新生成ZK证明，链上验证"
+                    },
+                    {
+                      "children": [],
+                      "content": "两条技术路径：SNARK和STARK"
+                    }
+                  ],
+                  "content": "ZK Roll up"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "content": "产生于2012年，利用椭圆曲线保证安全"
+                    },
+                    {
+                      "children": [],
+                      "content": "非交互式证明，更便宜，数据占用小"
+                    }
+                  ],
+                  "content": "SNARK"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "content": "基于哈希函数，抗量子计算"
+                    },
+                    {
+                      "children": [],
+                      "content": "透明无需信任设置，但更复杂，验证成本高"
+                    }
+                  ],
+                  "content": "STARK"
+                }
+              ],
+              "content": "技术路径"
+            }
+          ],
+          "content": "项目背景与技术路径"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "灵活性：Optimistic Roll up支持Solidity代码，ZK Roll up早期聚焦特定操作"
+                },
+                {
+                  "children": [],
+                  "content": "可扩展性：Optimistic Roll up达4万TPS，ZK Roll up达2000TPS"
+                },
+                {
+                  "children": [],
+                  "content": "安全性：ZK Roll up理论上更安全，无欺诈证明挑战期"
+                }
+              ],
+              "content": "Optimistic Roll up vs. ZK Roll up"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "透明性与安全性：STARK透明无信任设置，SNARK非交互式"
+                },
+                {
+                  "children": [],
+                  "content": "复杂性与成本：STARK更复杂，成本高；SNARK数据小，验证便宜"
+                },
+                {
+                  "children": [],
+                  "content": "兼容性与抗量子性：SNARK更成熟，STARK抗量子计算"
+                }
+              ],
+              "content": "SNARK vs. STARK"
+            }
+          ],
+          "content": "ZK Roll up与其他方案对比"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "由9位东欧工程师组成的草根团队"
+                },
+                {
+                  "children": [],
+                  "content": "CEO Alex，曾在柏林工业大学和高能物理学领域工作"
+                },
+                {
+                  "children": [],
+                  "content": "自2019年成立以来，累计融资5800万美元"
+                }
+              ],
+              "content": "团队与融资"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Twitter上181.5万关注者，Discord上有2.75万用户"
+                },
+                {
+                  "children": [],
+                  "content": "GitHub上1000颗star，23个trader"
+                }
+              ],
+              "content": "社区与市场热度"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "兼容EVM的ZK Roll up，ZKEVM和ZK Porter两大技术"
+                },
+                {
+                  "children": [],
+                  "content": "提高安全性、去中心化、可编程性和可扩展性"
+                },
+                {
+                  "children": [],
+                  "content": "与多个知名项目合作，如AVE、Coinbase等"
+                }
+              ],
+              "content": "技术与生态"
+            }
+          ],
+          "content": "JKC项目细节"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "长远看，市场更看好ZK Roll up，尽管目前ZK Roll up不完全兼容EVM"
+                },
+                {
+                  "children": [],
+                  "content": "ZK Roll up预计在2023年占Layer 2解决方案的使用量超50%"
+                }
+              ],
+              "content": "市场预期"
+            }
+          ],
+          "content": "长期视角"
+        }
+      ],
+      "content": "JKC项目介绍"
+    }
+  }
+}

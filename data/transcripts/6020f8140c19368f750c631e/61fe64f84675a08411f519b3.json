@@ -1,0 +1,393 @@
+{
+  "pid": "6020f8140c19368f750c631e",
+  "eid": "61fe64f84675a08411f519b3",
+  "title": "zkrollup系列 - 记录小伙伴解释什么是Arbitrum",
+  "task_id": "3kprqlg8lv8y9xgd",
+  "transcription": [
+    {
+      "time": "00:00:01",
+      "text": "Hello, 大家好，今天我来和大家分享一下什么是arbitron以及我对它的一些理解。如果有不详尽的地方，还请大家多多指正。因为arbitron是roll up技术的一种，所以我觉得我们有必要先回答问题的本质就是什么是roll up以及我们为什么需要它。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:00:20",
+      "text": "Roll lab的技术背景其实来自于以太坊的吞吐量瓶颈。以太坊目前可以支持的每秒交易笔数大概在15笔左右。并且在用户的需求超过了这个吞吐量瓶颈的时候，gas的水平会飙升，导致以太坊的扩容成为了现在的当务之急。主流的扩容方案其实就是在layer one之上或者之外再打造一个layer two。也就是说我们在把一部分资金储存在主链的智能合约里的同时，可以在保证足够安全性的前提下，把一部分交易放到主链之外去进行。它其实包含了不同的技术路线，例如诞生比较早的state channels，也就是状态通道，还有plus ma还有side chains等等等等。在这里因为时间的关系，我就不一一赘述了。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:07",
+      "text": "但是需要指出的是，这些方案都存在一个突出的问题，就是他们的数据可用性较差。意思是说因为完整的交易记录和见证数据都只保存在链下，所以一旦出现争端，如果参与者没有及时的提供正确的交易以及见证数据，这笔交易的安全性其实是无法保证的。在这个基础上，就诞生了我们的roll lap技术。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:01:32",
+      "text": "Roll lap它顾名思义，其实就是把一堆交易给卷起来，变成一个卷好的交易。那在这种情况下，所有的节点如果接受到了这个被卷好的交易，它就不需要再去一一执行被卷起来的逻辑，而只用去接受这些逻辑执行的结果就好。因此一个roll lap好的交易所需要的gas就会远远小于执行这些交易所需要的gas。因此我们可以这样去总结，roll up相当于在以太坊主链上只执行了一个交易的同时，其实一次性执行了一批的链下交易。只是这一批链下交易被打包好后，以交易数据区块的形式发布在了以太坊的主页主链上。这样可以最大化以太坊吞吐量的同时，降低交易的有效性验证的难度。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:26",
+      "text": "Roll up作为一个大的技术方向，其实是有很多不同的流派的。主要就是分为两种，一个是optimistic roll lop，一个是zero knowledge roll p就是ZKO lap。因为arbitrium它主要是optimistic roll p在这里我主要就介绍它。ZK rola就了留给其他的小伙伴去详细的介绍。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:02:49",
+      "text": "Optimistic rollup顾名思义就是它假定所有被打包好并且提交到主链上的交易都是正确的。那么在提交之后，会有一个争议窗口期。也就是说如果其他的网络参与者发现了这笔交易可能存在欺诈，他们就可以提出挑战并提交一个欺诈证明。那么在欺诈证明被提交之后，系统就会进入一个争议解决的模式，就是dispute resolution的。在这个模式下，这笔可疑的交易就会在以太坊的主链上再次执行。在执行之后，如果确定这个交易确实是欺诈的，那么这一笔打包好的交易的提交者就会受到惩罚。也就是说说他们在提交这个交易的时候，交给主链的这个保证金就会被没收，并且部分奖励给这个挑战者。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:03:47",
+      "text": "我们可以举一个例子，可能会比较清晰。就是假设小白作为一个L2的验证人，他把压缩后的数据同步到了L一也是主链上。同时他质押一定的保证金。如果小明对glob区块的交易数据存在争议，他就需要发起挑战。并且小明也需要同样质押一定的保证金，这个rola协议就会在主链上被重新计算。重新计算得到的结果就可以来判断小明和小白双方到底谁对谁错。错误那一方的保证金就会被没收，而正确方就会获得奖励。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:04:28",
+      "text": "好的，那么在optimistic roll up里其实又分为了很多不同的路线。主要就是optimism和arbitral m这两个公司以及他们的技术路线的差别。刚才我讲的通过在主链上重新计算整个交易这个方式，其实就是optimism目前在做的就是单轮的交互。也就是说在主链上模拟完整的模拟一次这个方案的调用，然后来判断这个双方的谁对谁错，它只需要进行一轮的交互，所以它是叫做单轮交互。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:05:02",
+      "text": "Roll up就是single round interceptor roll up，它是最原始的optimistic roll up的方案。但是它存在一个短板，就是因为它需要在链上完整的模拟一次调用，所以它的成本可能会非常的高。并且如果需要重新计算的交易过多，它可能还会受到主链的区块大小，就是gasoline MIT的限制。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:05:25",
+      "text": "在这个基础上，arbitron其实相当于是更新了optimism提出来的这个单轮交互的方案。因此arbitron m提出了一个多轮交互，它的原理其实是在初始的这个挑战窗口期，就是这个验证人和这个挑战者双方就是通过二分法的方式不断的去拆分存在交易的具体存在争议的具体步骤。例如假设这个验证人他其实打包了100个交易，可能先验证就是1到50和50到100到底哪个出现问题了。如果1到50是OK的那我们就在50 51到100里面再去看，到底是51到75出现了问题，还是76到100出现了问题。一直这样不断的去通过二分法去narrow down，一直到可以把争议范围缩小到一个具体的步骤之后，再到LE的链上对该步骤进行判定。在这种情况下。可以以最高效的方式解决争端。因此可以说多轮交互其实是单轮交互的一个更新版本。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:06:32",
+      "text": "它能够更多的节省gas的费用，也是得益于这个技术路线，目前arbitron可以支持的每秒交易笔数在4万笔左右，这个相比以太坊主链晚原先的15比是一个非常大的飞跃。好了，我们现在就回到这个arbitron项目本身来介绍一下这个项目的背景。这个项目它的核心发起人是at fault，他是普林斯顿大学计算机科学和公共事务学院的教授。其实这个项目在早在2015年，其实at falt就提出了。但是2015年开始，at falt就被白宫聘任去当了deputy united states chief technology officer。我不确定这个到底该怎么翻译，白宫副首席技术官，总之就是作为总统的顾问了。他在2015年到2017年的时候担任这个职位，所以这个技术就暂停了。一直到2017年他卸任之后，他又回到prince，然后又重新开启了这个项目。所以他现在是arbitron的联合创始人兼首席科学家。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:07:48",
+      "text": "这个arbitron的CEO和CTO都是当时在at fault手下的普林大学的PHD学生。2018年的时候，这三个人一起合作完成了一篇关于arbitron核心技术的论文。并且在2019年的时候把这个项目从普林斯顿的研究实验室中剥离，并且单独成立公司。也就是目前arbitron项目的创始的公司叫off chain labs。Uptrain labs在2019年的四月完成了他们的首轮融资，融资金额是399万美元，然后领投方是panera capital。然后在两年之后的2021年4月，他们完成了他们的A轮融资，然后融资今年是twenty million US dollars。但是那个时候的投资方并没有具体的披露。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:08:44",
+      "text": "然后再就是2021年8月，就是在arbitral这个项目正式发布之前的以前几天，opt chain e labs宣布他们完成了B轮融资。B轮融资的金额是1.2亿美元，然后投后估值是12亿美元。然后领投方是light speed venture partners，然后其他的参投方包括红点red point ventures，还有之前的老股东panic capital，还有包括Polly chain capital，rapid capital等等等等的公司。然后在完成了B轮融资之后的2021年的9月1日，就arbitron one的主网测试版是正式上线了。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:09:27",
+      "text": "上线之后的数据其实还是蛮夸张的。就是从上线第一天开始，这个arbitrium m one上的交易量数据是迅速的增长。一直到9月13号当天是完成了超过27万笔交易。但是在这之后，就这个每天的交易笔数就逐渐收窄，现在是稳定在每天3万笔左右。因为它可以在保证安全性的前提下，实现高吞吐量、低成本的智能合约。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:09:59",
+      "text": "Arbitron也吸引了很多顶级的项目，包括像unis b sushi、wab还有conomo等等。并且它也集成了很多领先的基础设施提供商，比如the graph，比如chain link等等。随着更多越来越多的dep被整合到arbitron rolt里面，arbitron就不仅仅对开发者非常有吸引力，也对用户非常的有吸引力。目前使用RB tram这个独立地址的数量就可以证明。截止到前两天，orbit charm上的独立地址个数已经超过了35万个，这也是一个非常不错的数字了。说到这里，我觉得有必要再回到arbitral m它的技术原理，来讨论一下它是怎么实现这么高效的这么一个功能的。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:10:48",
+      "text": "因为刚才已经说过了，roll up它其实是built on top of and secured by the theory blood chain。",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:10:54",
+      "text": "所以rubber trim的架构是自然就是一部分存在于layer one上，一部分存在于layer 2上。在layer one上的arbitron组件主要是一个ETH bridge，它包含着使用户发送交易到RB传链上的收件箱，接收这些交易结果的发件箱，以及对arbitron rol p协议发送的数据进行仲裁的一个roller功能。而在layer 2上是arbitron的操作系统，叫做arb OS，它完全存在于LL2上，并且可以像以太在以太坊上一样运行EVM合约，并且可以负责确保arbitron链上智能合约的执行。在L一和L2之间有一个orbital的虚拟机叫a vm它作为网关可以读取输入，并且对这些输入执行计算以产生输出。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:11:48",
+      "text": "Based on这个技术架构以及我们刚才讨论过的通过二分法进行多轮交互的这个技术原理，我们就可以总结出arbitral它主要的process cons。首先就是arbitron它是完全兼容EVM的，并且它具有相同的PRPC接口，并且与EVM有相同的字节码。这就意味着以太坊为以太坊编写的任何代码，其实都是可以在urbi charm上即插即用的。就包括sol ILI等智能合约语言，还有包括the graph等前端工具，都是可以和arbitration直接原生配合使用的这就对于开发者来说是一个非常大的pro因为他们可以直接将现有的以太坊应用程序直接迁移到roll lap上，不用费任何的吹灰之力。因为他们不需要重写任何的代码，并且通过这个多轮交互的设计，arbitrium可以以极低的链主链上的工作量以及成本来解决争议，并且也更容易支持非常复杂的智能合约。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:12:52",
+      "text": "但是orbital作为optimistic .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:12:56",
+      "text": "rollup这个流派里的主要的主流选手，他也存在一个整个row optimistic roll p这个流派都有的一个问题。就是因为首先他假定所有的提交的合约都是正确的，所以就必须留一个足够长的争议窗口期，等待是否有挑战者来挑战这个欺诈。然后如果没有挑战，才能够真正确定这个交易的正确性。所以。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:13:25",
+      "text": "在arbi charm上提交的交易都是有一定的延迟性的。并且由于它浇增加了交互的次数，所以它对应的争议窗口期相较于of optimism这种单轮交互型的设计其实会更长一点，大概需要1到2周的时间。不过这一个小小的局限性并不妨碍arbitral m成为目前可用度最高的一个以太坊的layer 2网络。所以虽然上线还不到半年的时间，arbitral m已经成为了最大的layer 2以太坊网络，并且在整个DY协议中，它的锁仓量已经超过了26.4亿美元。根据我在一个叫做L2 beat dot com上网这个网站上看到的数据显示，就in terms of total value locked，arbitron目前的这个市占率已经达到了49.7%。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:14:24",
+      "text": "也就是说将近一半的份额其实都是被arbitrium，就L2网络上一半的份额其实都已经被arbi CUMP占据了。不过虽然如此的受到了开发者和用户的热捧，arbitral m官方是表示目前还没有任何的原生代币发行计划的。我在这里quote一下，就是chief .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:14:46",
+      "text": "scientist at .",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:14:47",
+      "text": "filton本人的原话就是他说there .",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:14:50",
+      "text": "isn't any arbitrary ken，and we don't expect to create one contracts on arbitron can use any ethier base token they want.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:14:59",
+      "text": "虽然话是这样说，但是未来会发生什么，到底会不会发行原生代币，也没有人知道。好了，我对arbitron的介绍基本到这里就结束了。最后还是想recap一下，各个不同的roll up技术路线之间的比较。首先在整个optimistic roll up的技术流派里面。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:15:22",
+      "text": "arbitral.",
+      "speaker": "发言人2"
+    },
+    {
+      "time": "00:15:23",
+      "text": "对比optimism这个优势是非常明显的。因为它使用多轮交互而不是单轮交互。可以通过争议双方之间的交互协议来最小化这个链上的工作量。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:15:38",
+      "text": "但是整个optimistic roll up和ZK roll up相比，两者其实是有优有劣的。首先optimistic的通用性和兼容性明显是更强的，它可以完全适配EBM，而ZK rollup目前仅适用于支付之类的特定交易。对于通用智能合约来说，由于创建零知识证明的成本非常高，目前部署起来还是困难比较大的。同时在成本规模上，optimistic rol p也是非常有优势的。因为它要求节点简单的执行合约，例如如果合约执行添加操作，那节点就执行该添加操作。相比之下ZK roll roll b需要生成非常复杂的密码证明，需要成千上百次的椭圆曲线运算才能将加法运算包含在证明之中，因此成本是非常高的。这个可能主要要ZKO lab的小小伙伴帮我们详细的解释一下。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:16:39",
+      "text": "但是在安全性和延迟性上，其实optimistic rol p相较ZK rol p是存在一定劣势的。首先在安全性方面，因为optimistic roll lab它假定所有的智能合约在被提交的时候都是正确的。而只有在有人撞认为这个存在欺诈的时候才需要提供证明，所以沉默将被他视为同意。",
+      "speaker": "发言人1"
+    },
+    {
+      "time": "00:17:05",
+      "text": "同时由于存在一个争议窗口期，所以optimistic roll p的延迟性会较强。IZKO lab一般假设一个打包区块中有100 1000笔交易，那在普通的服务器上，大概它只需要20分钟就可以构造出一个证明。几十分钟相比1到2周的窗口期还是非常有优势的。所以简单来说就是在optimistic roll up这个技术流派里，arbitron显然是更有优势的。但是如果整个流派与ZK rol p相比的话，optimistic roll lap虽然在通用性和成本上有优势，但是在安全性和延迟性上可能存在一定的劣势。好，我今天的介绍到这里就结束了，非常感谢大家的收听。",
+      "speaker": "发言人1"
+    }
+  ],
+  "lab_info": {
+    "summary": "",
+    "qa_pairs": [
+      {
+        "question": "什么是arbitron，以及它与roll up技术的关系是什么？为什么需要roll up技术？",
+        "answer": "arbitron是一种基于以太坊的扩容方案，属于roll up技术的一种。由于以太坊当前每秒交易笔数有限且面临扩容需求，roll up技术通过在主链之外进行部分交易来解决这个问题。具体来说，arbitron将多个交易打包在一起，以一种高效的方式发布到主链上，从而提高以太坊的吞吐量并降低交易验证难度。以太坊主链存在吞吐量瓶颈，当交易需求超过其处理能力时，gas费用会上升，导致扩容成为必要。主流扩容方案是在layer one之上或之外构建layer two，但这些方案存在数据可用性较差的问题，即链下存储的交易记录和见证数据可能因参与者未及时提供正确信息而无法保证交易安全性。",
+        "time": "00:00:20"
+      },
+      {
+        "question": "roll up技术的工作原理是什么？arbitron属于哪种类型的roll up技术，其特点是什么？",
+        "answer": "roll up技术通过将一系列交易打包并仅在主链上执行一个汇总交易，而不是每个交易都独立执行，显著减少了所需的gas费用。在roll up中，所有节点只需接受并验证打包好的交易结果，而非执行原始交易逻辑。arbitron属于optimistic roll up类别，它提出了多轮交互方案，相较于单轮交互（如optimism），arbitron利用二分法等方式更高效地定位并解决争议交易，从而节省gas费用，支持更高的每秒交易笔数。",
+        "time": "00:01:32"
+      },
+      {
+        "question": "optimistic rollup和zero knowledge rollup（ZK rollup）有何不同？",
+        "answer": "optimistic rollup假定所有打包到主链上的交易都是正确的，在提交后有一个争议窗口期。若出现欺诈指控，系统将重新计算争议交易以验证其正确性，并对错误方进行惩罚。而ZK rollup则是基于零知识证明，目前暂不详细讨论。",
+        "time": "00:02:49"
+      },
+      {
+        "question": "arbitron项目的背景及其创始人是谁？",
+        "answer": "arbitron项目的联合创始人兼首席科学家是Atul Aggarwal，他是普林斯顿大学计算机科学和公共事务学院的教授。该项目于2015年开始研究，并在Atul Aggarwal卸任政府职务后重新启动。arbitron项目的CEO和CTO都是Atul Aggarwal在普林斯顿大学的博士生，他们在2018年共同发表了一篇关于arbitron核心技术的论文，并于2019年成立了独立公司Off Chain Labs。Off Chain Labs在之后完成了两轮融资，分别是399万美元的首轮融资和2000万美元的A轮融资。",
+        "time": "00:07:48"
+      },
+      {
+        "question": "Arbitrium在2021年8月之前完成了哪一轮融资，并且投后估值是多少？Arbitrium One主网测试版是什么时候上线的？",
+        "answer": "在2021年8月Arbitrial项目正式发布前的几天，Opt Chain E Labs完成了B轮融资，融资金额为1.2亿美元，投后估值达到12亿美元。Arbitrium One主网测试版在2021年9月1日正式上线。",
+        "time": "00:08:44"
+      },
+      {
+        "question": "Arbitrium上线后的交易量表现如何？",
+        "answer": "上线后，Arbitrium上的交易量迅速增长，到9月13号当天完成了超过27万笔交易，之后交易笔数逐渐稳定在每天约3万笔左右。",
+        "time": "00:09:27"
+      },
+      {
+        "question": "Arbitrium吸引了很多知名项目合作，能否列举一些？Arbitrium的技术原理是什么？它是如何实现高效功能的？",
+        "answer": "Arbitrium吸引了众多顶级项目，例如Uniswap、Sushi、Wab和Conomo等，并且集成了领先的基础设施提供商如The Graph和Chainlink等。Arbitrium是基于以太坊构建并安全的，其架构一部分位于layer one（以太坊链），一部分位于layer two（Arbitrium链）。layer one上的组件包括ETH桥接、收件箱、发件箱以及仲裁功能；layer two上的Arbitrium操作系统（ARBOS）运行EVM合约，负责智能合约的执行。通过二分法进行多轮交互的技术原理，Arbitrium能以极低链上工作量和成本解决争议，支持复杂的智能合约。",
+        "time": "00:09:59"
+      },
+      {
+        "question": "Arbitrium在兼容性和易迁移性方面有何优势？",
+        "answer": "Arbitrium完全兼容EVM，拥有相同的API接口和字节码，这意味着任何为以太坊编写的代码可以直接在Arbitrium上运行，无需重写代码，大大简化了迁移过程。同时，通过多轮交互设计，Arbitrium可以低成本地处理争议，支持复杂的智能合约。",
+        "time": "00:11:48"
+      },
+      {
+        "question": "Arbitrium作为乐观 rollup 流派的一员，存在怎样的争议窗口期和局限性？",
+        "answer": "Arbitrium基于乐观 rollup 流派，其特点是假设所有提交的合约都是正确的，并设置一个足够长的争议窗口期等待挑战。由于增加了交互次数，争议窗口期相较于单轮交互型设计如Optimism会更长，大约需要1到2周的时间。尽管如此，Arbitrium因其高效性和易用性已成为目前最受欢迎的以太坊layer 2网络。",
+        "time": "00:13:25"
+      },
+      {
+        "question": "Arbitrium目前是否有原生代币发行计划？",
+        "answer": "Arbitrium官方目前没有原生代币发行计划。首席科学家表示，Arbitrium上的智能合约可以使用任何基础代币，暂时没有创建原生代币的打算，但未来是否会发生原生代币发行尚不确定。",
+        "time": "00:14:24"
+      },
+      {
+        "question": "Optimistic rollup与ZK rollup相比，各有哪些优势和劣势？",
+        "answer": "Optimistic rollup在通用性和兼容性上有优势，可以完全适配EVM，而ZK rollup目前更适合特定类型的交易如支付。在成本规模上，Optimistic rollup更具优势，因为节点只需简单执行合约；但在安全性和延迟性方面，Optimistic rollup存在一定劣势，因为它假定智能合约在提交时正确，且存在争议窗口期导致延迟较高，而ZK rollup通过生成复杂密码证明确保安全性，虽然成本较高，但延迟较低。",
+        "time": "00:15:38"
+      }
+    ],
+    "chapters": [],
+    "mindmap": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "背景：解决以太坊吞吐量瓶颈，提高交易处理能力。"
+            },
+            {
+              "children": [],
+              "content": "本质：通过在Layer 2执行交易，然后将交易结果提交到以太坊主链（Layer 1）进行验证。"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "Optimistic Rollup：假设交易正确，设有争议窗口期。"
+                },
+                {
+                  "children": [],
+                  "content": "Zero-Knowledge Rollup（ZK Rollup）：通过生成零知识证明来验证交易的有效性。"
+                }
+              ],
+              "content": "种类："
+            }
+          ],
+          "content": "1. Rollup技术概述"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "起源：由Princeton教授提出，2015年开始，2017年后重新启动。"
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "使用Optimistic Rollup。"
+                },
+                {
+                  "children": [],
+                  "content": "支持多轮交互，通过二分法缩小争议范围，提高争议解决效率。"
+                },
+                {
+                  "children": [],
+                  "content": "完全兼容EVM，易于开发者迁移以太坊DApp。"
+                }
+              ],
+              "content": "技术特点："
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "2018年，完成核心技术论文。"
+                },
+                {
+                  "children": [],
+                  "content": "2019年，从Princeton剥离，成立Offchain Labs。"
+                },
+                {
+                  "children": [],
+                  "content": "2021年，完成多轮融资，估值12亿美元。"
+                },
+                {
+                  "children": [],
+                  "content": "2021年9月，主网测试版上线，日交易量迅速增长。"
+                }
+              ],
+              "content": "发展里程碑："
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "吸引了众多顶级项目和基础设施提供商。"
+                },
+                {
+                  "children": [],
+                  "content": "在Layer 2网络中市占率高，锁仓量超过26.4亿美元。"
+                },
+                {
+                  "children": [],
+                  "content": "目前没有发行原生代币的计划。"
+                }
+              ],
+              "content": "应用与影响："
+            }
+          ],
+          "content": "2. Arbitrum（Arbitron）项目"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "通用性和兼容性：Optimistic Rollup强，完全适配EVM。"
+                },
+                {
+                  "children": [],
+                  "content": "成本与效率：Optimistic Rollup在简单操作上成本低，适合复杂智能合约；ZK Rollup在构造证明上成本高。"
+                },
+                {
+                  "children": [],
+                  "content": "安全性和延迟性：ZK Rollup在安全性上更高，延迟性较低；Optimistic Rollup存在延迟性问题。"
+                }
+              ],
+              "content": "Optimistic Rollup vs. ZK Rollup"
+            }
+          ],
+          "content": "3. Rollup技术对比"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "content": "Layer 1：ETH Bridge，处理交易提交和仲裁。"
+            },
+            {
+              "children": [],
+              "content": "Layer 2：ArbOS操作系统，执行智能合约。"
+            },
+            {
+              "children": [],
+              "content": "AVM：作为网关处理计算输入和输出。"
+            }
+          ],
+          "content": "4. Arbitrum的技术架构"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "高吞吐量、低成本。"
+                },
+                {
+                  "children": [],
+                  "content": "完全EVM兼容，易于迁移。"
+                },
+                {
+                  "children": [],
+                  "content": "多轮交互提高争议解决效率。"
+                }
+              ],
+              "content": "优势："
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "content": "存在争议窗口期导致交易确认有延迟。"
+                },
+                {
+                  "children": [],
+                  "content": "需要假设所有提交的交易是正确的，存在一定风险。"
+                }
+              ],
+              "content": "劣势："
+            }
+          ],
+          "content": "5. Arbitrum的优劣势"
+        }
+      ],
+      "content": "Arbitron及其Rollup技术脑图摘要"
+    }
+  }
+}

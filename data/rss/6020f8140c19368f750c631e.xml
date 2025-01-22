@@ -5175,6 +5175,777 @@ Hello, 大家好，今天想要跟大家介绍的是现在web 3比较火的一�
             <guid>62374e9b637f85054eb841e3</guid>
         </item>
         <item>
+            <title>zkrollup系列 - 记录小伙伴解释什么是Optimism</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/61fe652c0c35c9f95dca176d</link>
+            <description></description>
+            <content:encoded><![CDATA[<h1>转写链接</h1>
+<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/47z39vd5om5w9edg</link><br>
+<h1>问题回顾</h1>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 什么是optimistic roll up扩容方案？</div>
+<div class="answer"><strong>A:</strong> Optimism是基于乐观主义的roll up扩容方案，它将数千笔交易捆绑在一个区块中以提供更高的吞吐量和交易速度。核心交易数据在以太坊主链上被验证和保存，而中间过程无需关心。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 为什么我们需要给以太坊进行扩容呢？layer 2扩容方案有哪些类型？</div>
+<div class="answer"><strong>A:</strong> 以太坊当前生态丰富且参与者众多，但其TPS只有13次，面对百万级交易量时速度降低，交易手续费高昂。通过扩容方案可以提高吞吐量和降低交易费用，是一种刚需。根据in thorium dot 2的划分方式，所有layer 2扩容方案可以划分为五种，分别是状态通道、子链、侧链、rolex和velleda。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 状态通道是如何运作的？</div>
+<div class="answer"><strong>A:</strong> 状态通道通过预先存入资金给“荷官”（即暂时保管资金的人），用户间在通道内进行交易并最终由“荷官”公布结果，以降低手续费。优点适合固定数量用户的小额高频交易，缺点是对通道监管耗时耗力且不支持智能合约。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 子链的特点是什么？侧链相比于子链有何优势？</div>
+<div class="answer"><strong>A:</strong> 子链是zero one的低配版，可扩展多层，但不具备独立的安全机制，依赖于主网。其优点是用户数量无限制，但不支持智能合约交易。侧链具备自己的共识机制和安全机制，优化了吞吐量和交易速度，可达1万TPS，并且与以太坊并行运行，具有更高的去中心化程度，但存在一定币价波动带来的影响。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> optimistic roll up与zero knowledge roll up有何区别？</div>
+<div class="answer"><strong>A:</strong> Optimistic roll up使用欺诈证明确保交易正确性，任何节点都可以发布roll up区块并由rocket rola验证；而zero knowledge roll up（ZK rool）依赖有效性证明，需要交易方提供密码证明对特定状态结尾的区块链有效性，由智能合约验证。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimism项目的背景和发展情况如何？</div>
+<div class="answer"><strong>A:</strong> Optimistic roll up的概念由plasma group提出，2019年8月，该团队提出optimistic roll up的概念，并在同年12月成立了专注于此项目的新公司Optimism。创始人锦岚王曾创办XM chain plasma group，团队其他成员分别来自不同背景，在各自领域有出色成就。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimism在2020年获得了哪些投资？</div>
+<div class="answer"><strong>A:</strong> Optimism在2020年1月15日获得了350万美元的种子轮融资，投资方包括paradise和IDEO collab ventures。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimism的技术亮点是什么？Optimism的缺点是什么？</div>
+<div class="answer"><strong>A:</strong> Optimism是首个开发出与以太坊虚拟机（EVM）兼容的乐观主义证明（Optimistic Rollup）解决方案，它与以太坊并行运行，并能在继承以太坊安全性的同时处理大规模交易。其默认情况下乐观假设交易为准确，仅依靠防骗机制来确保交易合法性。Optimism的主要缺点在于取款时间较长，通过官方桥接将资金从layer two转移到layer one需要等待一周且不可取消，此外，由于安全措施，每笔取款成本可能超过100美元。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimism与ZK Rollup（如Arbitrum）有何区别？</div>
+<div class="answer"><strong>A:</strong> Optimism采用非交互式证明方式，而Arbitrum采用交互式证明方式。简单来说，Optimism就像考试中老师需要从头到尾验证答题纸，而Arbitrum则是利用二分法原理逐步缩小问题范围并定位错误。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 目前Optimism上的主要生态是什么？</div>
+<div class="answer"><strong>A:</strong> 目前Optimism上主要以去中心化金融项目为主，其中最著名的是Synthetix生态下的产品，如期权协议Lera，以及Dex Uniswap。此外，NFT跨链桥、portfolio tracker等也是其生态的一部分。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimism在锁仓量方面的表现如何？</div>
+<div class="answer"><strong>A:</strong> 根据L2B数据显示，Optimism在所有layer two解决方案中的锁仓量排名第三，约为5亿美元，占整个layer two锁仓量的不到10%，而Arbitrum的锁仓量最高，接近27亿美元。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimism相较于Arbitrum在活跃地址数和交易量上有何差距？</div>
+<div class="answer"><strong>A:</strong> 目前Optimism平均每天有约2000个活跃地址和几万笔交易，相比Arbitrum（每天活跃钱包数量超过35万个，交易数量高达20万笔）来说，其活跃度和交易量较低。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimism与Arbitrum是否计划发行代币或空投？</div>
+<div class="answer"><strong>A:</strong> 目前两者均未对外宣布有发币打算，均使用ETH作为交易手续费，但未来可能会给早期参与项目或开发者进行空投。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 如何评价Optimism的社群活跃度和使用优势？</div>
+<div class="answer"><strong>A:</strong> Optimism在推特粉丝数量和Discord用户数量上相较于Arbitrum存在差距。但从使用角度来看，Optimism具备交易成本优势，平均每笔交易手续费约为1.66美元，远低于以太坊主网的8美元以上。同时，其交易确认速度较快，几乎可以立即完成交易确认，并且兼容EVM，支持直接部署任何基于以太坊的应用程序。</div>
+</div>
+<h1>节目文稿</h1>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:00]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+大家好，欢迎继续收听这一期节目。接下来我会为大家介绍optimism这个以太坊later 2的optimistic roll up扩容方案。我会首先介绍一些later two的划分方式，接下来会重点介绍optimism的情况，包括它的一些发展历史运作的原理以及链上的生态。但最后也会结合一些数据去做一个简单的评价。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:20]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+首先为什么我们会需要给以太坊的去扩容呢？目前以太坊是生态最丰富，而且参与者数量最多的一条智能合约区块链。它的KPS只有13次，但是每时每刻都会面对上百万的交易量级。因此以太坊的速度会越来越低，并且每笔交易需要支付给矿工的手续费也会越来越高。因此通过扩容方案来提高吞吐量和降低交易费用其实是一种刚需。那么目前有多少种扩容方案呢？根据in thorium dot 2的划分方式，所有的layer 2可以划分为五种，分别是状态通道、子链、侧链、rolex和velleda。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:59]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+状态通道可以用一个非常形象的例子来理解，比如说有十个人在打德州扑克，如果他们在以太坊主链上打，那么每一次下注都会需要向赌场叫gas p这个是非常昂贵的那现在就有人跟荷官说说，荷官你看这样我们把钱先存在你那儿，然后我们自己玩，反正玩到最后，告诉你最后的结果就行了，这样我们也省点手续费。那荷官说好，其实这里的荷官或者说暂时保管资金的这个人就是我们的状态通道，它的TPS达到了一千多次。优点是非常适合固定数量的用户之间的小额高频交易。缺点就是对每一个通道去进行监管，会消耗比较大的时间和精力，而且状态通道是不支持智能合约的那接下来我们来看子链，我们可以把子链理解为zero one的一个低配复制版，它可以扩展多层。比如说我们可以在layer 2上再加一层layer 3、layer four.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:01]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是子链不具备自己的安全机制，所有的数据和交易的安全性都会依赖于主网。相比状态通道，呢子链的优点就在于用户数量可以是不固定的，但同时子链也不支持智能合约交易。我们再来看侧链，相比子链，侧链具备自己的共识机制和安全机制，进一步的优化了吞吐量和交易速度，交易速度可以达到1万TPS。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:26]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+如果说子链是依附于以太坊的，那么侧脸就是跟以太坊的one并排运行的一条区块链。并且一般会通过某一些中间代币跟以太坊进行交互。这样也有一个缺点就是说首先侧面相比lyone的发展相对更早期，去中心化的程度比较差。第二个就是侧脸用来跟以太坊的二一进行交互的。这个中间币的币价波动也会对交易造成一定的影响。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:55]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+接下来就到了我们今天的重点rola。我们可以首先用一个数学考试的例子来比较形象的去理解什么是rola。假设在考试中老师给了我们一百道数学题，但是只给了我们一张答题纸。那我们就不得不在答题纸上写下所有的计算过程和最终的答案。并且我们会发现随着题目作答数量在不断的增加，答题纸开始逐渐的拥挤，计算下一道题目会变得更加困难。而且最要命的是老师说每次考试都要再给我们加50道题，并且还是只给我们一张答题纸。那这个时候勇敢的小明同学他就站出来了，并且发明了草稿纸，让大家可以把数学题的中间步骤去转移到草稿纸上进行。只需要将最后的答案同步或者说柔了到答题纸上，这样学生们的运动速度就大大加快了，答题者的空间也得到了节省，老师也会心情更好。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:55]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+其实rola b的核心就是将数千笔交易捆绑在一个rola b区块中，来提供更高的吞吐量和交易速度。核心交易数据会在以太坊later later one上被验证和保存，就像我们考完试提交的答题纸会被老师批改并且保存一样。至于中间的草稿纸是怎么样的呢？老师就不用关心了，我们的以太坊l one也不用关心。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:19]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+进一步来说，rolt其实可以划分为两种，一种是optimistic roll p另一种是zero knowledge roll p也叫ZK我们今天要讲的optimism属于optimistic roller中的一种。顾名思义optimistic roller是乐观的optimistic roll PS使用欺诈证明来确保交易的正确性。当optimistic rolf将roloff区块发布到以太坊上时，它不会发布任何证明。在optimistic rol p网络中，任何人或节点都可以发布roll lab区块。一个roll lab区块中包含了有关执行了某些交易之后的正确结果的证明。其他节点在执行这些相同的交易时，如果不同意前面的节点的证明，就可以发出一个挑战，并且由rocket rola在晚上去验证这一笔交易。如果挑战有效的话，挑战者就会获得一定的奖励。那么发布了这一些虚假或者说不正确的交易的，也会受到一定的资金上的惩罚。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:28]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+另一个rola PS叫ZK rola PS，它使用的是一种有效性证明，会依赖于某一个交易方去发布一条密码来表明这个交易者是知道这一条以特定状态结尾的区块链的有效性的。发布这个密码的人首先需要知道这一条区块链，从而知道如何去构建这一条用来证明的密码。然后通过一系列复杂的操作去构造这套密码。这个证明会通过以太坊猎人one上的智能合约进行检查，或者说叫验证ZK rops的有效性。证明是非常简洁的，而且验证成本比较便宜，可以通过一笔以太坊交易来完成。所以整体来看，optimistic roll p和ZK roll p最大的不同点就是一个是基于一套挑战潜在错误交易的挑战机制的，另一个则是基于密码学。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:25]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+接下来我们看一下optimism这个项目本身的情况。Optimistic roll t的概念最早是一家叫plasma group的非盈利机构提出的，这家机构的研究方向主要就是以太坊的layer 2扩容，他在2019年初提出的方向还是怎么让更多人去建立一条自己的子链，也就是怎么去build plasmin。到了2019年8月呢，plasma group首先提出了optimistic role的概念，随后到了2019年12月，也就大概是pass my group成立一周年的时候，团队的五位核心成员创立了optimism，就是一家新公司，并且关闭了原来的公司，开始专心去做optimistic rol b的研发。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:13]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Optimism的创始人是一位名叫锦岚王的华人，在麻省理工的区块链俱乐部首次接触到crypto，随后加入到纳斯达克去担任区块链产品经理。后来也曾经创办过加密货币的一个追踪网站，名叫XM chain plasma group。是他在2018年9月创立的，并且开始带领这个group focus在以太坊的扩容方面的研究。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:43]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Optimism的联创是一位名叫Kevin侯的华人，他毕业于美国宾夕法尼亚大学，加入optimism前曾经创办过crypto economic start study这个区块链开源学习资料网站。项目的其他三位核心成员，包括浩南里，这个是一位新加坡的华人，从美国沃顿商学院毕业。加入optimism之前曾经在oko和verda做过股票的量化研究。CTO是Carol floris，加入optimism之前曾经在以太坊基金会研究POS共识机制。最后一位是COO名叫josh a stein，他是斯坦福大学法律硕士毕业，曾经创立过一家做衍生品交易的金融科技公司，还拿到过H6Z的投资，最后卖给了bit go optimism。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个项目本身是在2020年的1月15日，获得了350万美元的种子轮融资。投资方有2家，一家叫paradise，就是一家比较出名的专门投cryo和web三项目的fund。另一家叫IDEO collab ventures。这个ventures或者说风险投资基金是一家名叫IDEO，全球化的设计公司旗下的。但是这个设计公司其实它的业务非常广泛，不仅局限于一些审美上的设计，而且还会给一些像金融、教育、能源、新媒体等各种行业去提供一些解决方案。所以其实会比较像一家咨询公司。Optimism最近的一笔融资是在21年的二月，是2500万美元，由H6Z领投。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:25]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+接下来我们来看optimism的技术方面，首先optimism是第一个开发了与以太虚拟机，也就是EVM兼容的optimistic grow op解决方案。Optimism是与以太坊并行的，并且能够在继承以太坊安全性的同时去大规模的处理交易。默认情况下optimism上的交易被optimistically，也就是乐观的假设为准确，并且不进行任何计算。他依靠防骗机制来确保交易的合法性。也就是像前面所说的，任何人都可以提交关于一个roll lob区块内的某一笔交易的质疑。那么面对这一个质疑，roll区块会在以太坊上执行里面包含的所有交易去进行检查。如果确实发现了这个肉lab区块内包含一些不正确的或者说非法的交易，那么挑战者就会获得一定的奖励。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:23]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+之所以我们会强调说optimism的road区块会在以太坊上执行区块内的所有交易，是因为这个就是optimism跟我们的optimistic roll b家族的另一个核心的玩家，也就是orbital的核心区别。Optimism采用的是一个非交互的证明方式，而orbit ROM采用的是一个交互式的证明方式。比较直观的理解就是说，比如说我们现在考试，然后小明他怀疑我作弊，那小明就需要把我提交给老师的一个答题纸，让老师从头到尾的全部去验证一遍，这个就是optimism在做的事情。如果说在orbit tram的语境下，小明如果怀疑我提交给老师的答题纸是有问题的那他首先先不会跟老师沟通，他会联合其他的学生先去看我的答题纸上有哪一些问题是准确的，有哪一些问题是不准确的。基本上就是去利用一个二分法的原理，去逐渐的去。收窄这一个不准确的问题的位置，并且最终定位到这个问题再去提交给老师。所以arbitral它采用的这样一个方法，也就形成了跟我们的optimism的一个核心的区别。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:51]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那么optimism上有什么值得探索的生态呢？目前来看还是去中心化的金融项目比较多，其中包括了optimism最主要的支持者，也是非常有名的交易衍生品和合成资产的dex项目sensitive，以及synthesis生态下的期权协议lera。此外其实unis p也是optimism生态里非常出名的dex其实unit我最早也是打算上optimism这个later 2的。但是由于optimism的主网上线时间确实拖了比较久，导致optimism就联合用户决定在等待的时候先上orbital，结果反而导致奥特梅森在时间上落后了。而且现在锁仓量也一般，其他的生态也包括一些NFT跨链桥道和一些portfolio tracker等等。但总体来看，最丰富的生态还是dex从L2 beat的数据上看，所有lear 2的解决方案中，arbitrium的锁仓量是最高的，有接近27亿美元的锁仓量。目前所有later two的锁仓量超过了50亿美元，arbitron就占了接近一半。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:03]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+第二名是基于stark ware这个ZK rola b开发的DYDX，它是一个layer two的永续合约交易平台，锁仓量接近10亿美元。我们的optimism是第三名，锁仓量不到5亿美元，会占整个layer two的收藏量不到10%。进一步我们通过footprint analytics的数据面板可以看到这5亿美元的optimism锁仓的构成。我们会发现有超过60%的锁仓量都锁在了dex里面，大概是3亿美元。在dex中SNS生态下的产品又占optimism的dex生态的TVL的一半左右。所以其实我们可以认为optimism的生态主要就是由synthesis的生态撑起来的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:52]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+其实整体上来看并不丰富。Optimism上现在一共有27点22222 17点万个钱包地址，平均每天会有2000个活跃地址，做四万多笔交易。那么对比arbi tram来说，现在活跃的钱包数量已经超过了35万个，同时每天的交易数量会多达20万。笔会明显优于optimism。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:19]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+最后optimism跟RB他们一样，都从来没有对外宣布过有发币的打算。这两个layer two的解决方案用的都是ETH作为交易的手续费。但是其实也不排除将来会给一些早期参与项目的人，或者说在一些早期的开发者去发一些空投。那到时候可能会以rapped optimism ETH这种更加ERC2 friendly的代币去进行空投。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:50]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那么我们如何评价optimism呢？首先我们可以看一下社群的活跃度，optimism的推特粉丝数量超过10万，而orbit大概是7万。另外arbitron的discord用户数量接近4万，而optimism只有1.6万左右，所以在热度上还是有一些差距的。那么具体从使用情况来看，optimism它具备运营优势。首先就是从整体上来看，它是具备交易成本优势的。optimism.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:19]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+现在的转账手续费大概是ETH主网的1%到10%。平均每一笔交易会需要支付1.66美元左右的手续费，而以太坊的主网需要支付八点多美元的手续费。第二个优点是几乎可以立即确认交易完成。这个对于对对于交易及时性有要求的用户来说就是一个加分项。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:45]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+第三点是具备EVM等效性，optimism是最兼容EVM，也就是irian very machine以太坊虚拟机的链之一。它能够使用optimistic虚拟机，就是OVM去支持任何以太坊的应用程序。开发人员可以直接将任何基于以太坊的specialized APP直接部署到opt，就没怎么上，并且几乎不需要经过任何的修改。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:12]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但optimism其实也有一定的缺点，比较核心的一点就是取款时间比较长。具体而言就是通过官方的optimism桥，将资金从layer two转移到layer one，需要等待一周的时间，并且这个提款一旦提交就不能取消。此外由于这个optimism提款桥的安全措施，取款成本也非常的高，可能一笔取款会花费超过100美元。这样会造成每一笔取款的等待时间都会比较长，然后代价比较高。最后，因为我们这一期节目其实同时涉及到两种roller，一种是optimistic roller一种是ZK role。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们也来看一下，我们的optimism的锁仓量在我们的四个具体的项目，也就是optimism arbitron、ZK sink和stock ware中的地位。根据L2B的数据，其实前面有提到过所有lair 2方案中的锁仓量最高的是arbitron其次是基于stark ware的DYDX。第三就是我们的optimism ZK家族的另外一个成员ZK sink，目前排名第十。所以总结来说，optimism的排名还可以，但是跟二倍创比还是逊色了不少，还是有非常多的发展空间的。
+</p>]]></content:encoded>
+            <pubDate>Sat, 05 Feb 2022 11:53:16 GMT</pubDate>
+            <guid>61fe652c0c35c9f95dca176d</guid>
+        </item>
+        <item>
+            <title>zkrollup系列 - 记录小伙伴解释什么是Starkware</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/61fe651221c23a45ed5d68e7</link>
+            <description></description>
+            <content:encoded><![CDATA[<h1>转写链接</h1>
+<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/r28pn7e8op8aq5mz</link><br>
+<h1>节目摘要</h1>
+<div class="summary">在区块链领域，零知识证明（ZK）和Rollup技术因其能显著提升系统可扩展性和隐私保护而备受关注。其中，StarkWare公司的StarkEx系统通过运用ZK技术，实现了在不泄露交易细节的前提下高效验证交易的有效性，从而支持高频、低成本的交易操作。StarkEx的技术不仅基于深厚的学术研究，已在多个项目中成功实施，展现出卓越的性能和成本效益，吸引了大量投资。此外，对话还对比了StarkEx与其他ZK Rollup解决方案的差异，突出了StarkWare在提供去中心化服务方面的优势，特别是其在提升交易吞吐量方面的显著成就。</div><br>
+<h1>章节速览</h1>
+<div class="chapters">
+<div class="chapter-item">
+<span class="time"><strong>[00:00:00]</strong> </span>
+<span class="chapter-title"><strong>探讨ZK Rollup技术在区块链中的应用</strong></span>
+<div class="chapter-summary">ZK Rollup利用零知识证明（ZK）技术，增强区块链的可扩展性和隐私保护。零知识证明允许证明者在不泄露任何额外信息的情况下，向验证者证明某个论断的真实性。通过ZK Rollup，许多交易被捆绑并压缩后发送至共识层进行验证，大幅提高了交易处理速度和区块链网络的容量，从而在不牺牲安全性的前提下实现了扩展。与Optimistic Rollup相比，ZK Rollup提供了一种更为高效的扩容解决方案。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:04:37]</strong> </span>
+<span class="chapter-title"><strong>ZK Rollup技术及其团队背景与融资情况</strong></span>
+<div class="chapter-summary">ZK Rollup技术利用零知识证明实现交易隐私保护，由一群学术背景深厚的团队开发，包括CEO和首席科学家等关键成员，他们在密码学和零知识证明领域有深入研究。该团队的项目自2018年以来经历了多轮融资，吸引了包括红杉中国、three arrows capital等知名投资机构的投资，总融资额达到数千万美元。ZK Rollup的提出为解决区块链的不可能三角问题提供了新的思路，通过将区块链的不同功能模块化，分别优化共识、执行和数据可用性，以实现更好的系统性能。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:08:54]</strong> </span>
+<span class="chapter-title"><strong>理解Rollups技术及其在区块链扩容中的应用</strong></span>
+<div class="chapter-summary">Rollups技术定位为提高区块链可扩展性的解决方案，通过创建独立于主链（L1）的链下交易执行环境来提升交易处理速度，其速度比L1主链快几个数量级。Rollups不需要承担共识和数据可用性的责任，可以牺牲这两方面以保证高效运行，但同时通过在L1上创建一组规则来确保交易的合法性和安全性，以及与L1之间的桥梁，保证了不牺牲去中心化和数据可靠性。StarCX作为一个实例，已部署到主网上，支持复杂的操作如现货交易、金融衍生品和NFT的创建与交易，体现了Rollups技术在实际应用中的潜力。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:14:57]</strong> </span>
+<span class="chapter-title"><strong>中心化与去中心化在区块链技术中的应用对比</strong></span>
+<div class="chapter-summary">StarkWare因其高度中心化的特性而受到批评，它不允许可信任外部实体运行其系统，且其证明过程依赖于数据可用性委员会，缺乏去中心化的激励机制。相比之下，ZK Sync强调EVM兼容性和去中心化，为开发者提供更友好的环境。ZK Rollup技术通过零知识证明提供隐私保护和无需等待期的交易优势，但在交易量低时仍需等待。StarkWare尽管起步早且锁仓量大，但其去中心化程度和EVM兼容性受到质疑。</div>
+</div>
+</div><br>
+<h1>问题回顾</h1>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK技术在区块链中如何实现提高可扩展性和隐私性？</div>
+<div class="answer"><strong>A:</strong> ZK技术，即零知识证明，通过让证明方与验证方进行交互来确信某个论断的正确性，而验证方仅获取必要的信息，从而保护隐私。在区块链领域，它被用来构建零知识证明系统，以在不揭示额外信息的前提下证明某个论断的概率正确性。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 零知识证明的基本构成是怎样的？</div>
+<div class="answer"><strong>A:</strong> 零知识证明包含三个关键元素：完备性、可靠性和零知识性。其中，通过一个例子说明了零知识证明的工作原理——证明方首先发送随机或加密的交底材料给验证方，然后验证方随机生成挑战（challenge）发送给证明方。证明方根据挑战和交底材料生成证明信息并发送给验证方，最后验证方通过对比证明信息和交底材料来判断对方是否通过了试探。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Rollup技术是什么？它如何提高区块链的效率并实现扩容？</div>
+<div class="answer"><strong>A:</strong> Rollup本质上是一种部署在layer one上的解决方案，通过捆绑并压缩多笔交易一起提交给共识层验证，以此提升交易处理效率。相比于普通区块链，Rollup可以显著增加可执行交易的数量，实现扩容，比如以太坊的TPS可以从15提升到3000以上，同时保证安全性不被牺牲。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK Rollup是如何结合零知识证明技术实现隐私保护的？Start War项目的团队背景如何？</div>
+<div class="answer"><strong>A:</strong> ZK Rollup利用零知识证明技术，在不披露具体信息的情况下，证明某事的真实性。例如，在验证聊天记录是否真实时，证明方只需提供解密方法，而无需公开所有聊天内容，从而保护隐私。Start War项目的团队拥有浓厚的学术气息。CEO Ali是加密证明系统领域的专家，曾在MIT和哈佛做博士后研究，并在创办Start War前是以色列理工学院计算机科学系正教授，还曾创办了加密货币公司Z Cash。首席科学家Alexander则在MIT获得多个学位，专注于复杂性理论、密码学和安全领域的研究，同样侧重于零知识证明的基础理论和实施。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Start War项目的融资情况如何？</div>
+<div class="answer"><strong>A:</strong> Start War自成立以来获得了多轮融资，从种子轮到C轮，融资金额从600万美元到5000万美元不等，投资方包括Paradise、Intel Capital、Three Arrows Capital、Founders Fund等知名投资机构。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 为什么需要Rollup以及区块链不可能三角是什么？</div>
+<div class="answer"><strong>A:</strong> 目前区块链存在一个被称为“不可能三角”的理论，即在一个系统中难以同时实现最高程度的可扩展性、去中心化和安全性。Rollup应运而生，通过模块化设计和优化各自组件（共识、执行、数据可用性）来解决这一问题，以达到更好的性能表现。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Low ups是如何攻破不可能三角的？</div>
+<div class="answer"><strong>A:</strong> Low ups通过将自身定位为专注于执行（execution）的可扩展性解决方案，其处理交易的速度比以太坊主链快几个数量级。它在链下创建一个独立的交易执行环境，批量处理交易后更新以太坊状态，同时无需承担共识和数据可用性的责任，可以牺牲这两方面来保障执行效率。而如何保证安全性，Low ups在初始化时在以太坊上发起一笔交易创建一组规则，并承诺遵守这些规则。规则包括设定交易管理限制并确保所有交易合法，以及通过桥梁设计将以太坊的安全性嫁接到Low ups的交易执行环境中，从而在不牺牲去中心化和数据可靠性的同时实现高效运行。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Low ups如何优化安全性并实现它与以太坊的安全性连接？</div>
+<div class="answer"><strong>A:</strong> Low ups通过设定并承诺遵循一组预设规则来优化安全性。这些规则规定了交易管理限制和合法交易承诺，并通过以太坊的安全性构建了一座桥梁，该桥梁允许L1结算延展至Low ups的交易执行环境中，确保安全性的同时不影响L1的高效运转。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Starkx目前的情况和它服务的主要特点是什么？</div>
+<div class="answer"><strong>A:</strong> Starkx已被部署到主网上，支持现货交易、金融衍生品和NFT的创建及交易等复杂操作，并已托管了四个协议（DYDX、immutable x、diversify和sora）。其核心特点是提供高频、大规模且低成本的交易服务，本质上是一个服务型的去中心化layer two解决方案。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Starkx的商业模式是如何运作的？</div>
+<div class="answer"><strong>A:</strong> Starkx并未发行代币，其商业模式基于与客户的商业协议，通过收取服务费来盈利。他们认为自己有权获得收入是因为通过使用ZQP技术提供的L2扩容交易引擎服务，不仅节省了去中心化交易所的gas费用，还帮助普通交易者、收藏家和游戏玩家节省了大量的GSV成本，创造了价值，因此有资格收取费用。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Starkx在去中心化方面有何特点？</div>
+<div class="answer"><strong>A:</strong> Starkx在去中心化方面的做法受到诟病，相比ZK rollup（如zkSync），它并不完全兼容EVM，有自己的特定语言，并限制任何附属公司以外的人运行系统。其证明过程依赖于数据可用性委员会（data availability community），而非所有系统内的参与者，这使得它在去中心化程度上不如zkSync那样依赖于全系统的声誉和激励机制。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK rollup相较于Optimistic rollup的优势是什么？</div>
+<div class="answer"><strong>A:</strong> ZK rollup相较于Optimistic rollup的优势在于使用零知识证明技术将隐私集成到方案中，同时没有提款等待期，无需像Optimistic rollup那样等待区块填充。但其劣势是在交易数量低时，提款可能仍需等待几个小时。在竞品方面，ZK rollup直接对标的是ZK think，但两者的主要区别在于，ZK think强调EVM兼容环境，而Starkx更注重去中心化的服务商角色，并且在锁仓量和复杂交易支持方面具有一定的领先优势。</div>
+</div>
+<h1>节目文稿</h1>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:00]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+今天我想分享的是still war。Start war是使用了ZQL技术来提高区块链的可扩展性和隐私性。我们就先分开讲讲什么是ZK什么是rob。ZK就是zero zero knowledge，零知识。所谓的零知识，就是说验证方除了对论证判断的结果之外，无法获取任何其他的额外信息。就当我们要验证一个信息的时候，我们说有一个证明方prover，然后有一方是验证方verify。那么证明方通过与验证方的交互来使其确信某一个论断是正确的。然后除此之外验证方一无所知。打个比方来说，比如说我现在要论断说A是某件事情的负责人，那么我只需要向验证方证明说A是该事件的负责人。但是不需要提供说除了其他的这个负责人什么名字，或者说家住哪里，样貌如何这些种种额外的信息就保护了他这个隐私。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:07]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我介绍完零知识，我们来说什么叫零知识证明。所有的证明就我们说有三个元素，完备性、可靠性和零知识性。举一个例子来说，这边看到一个特别有意思的例子和大家分享。这一段是一个我们经常能看到的狗血对话。A问你爱我吗？B说爱。A说怎么证明？B就无语了，对吧？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:31]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+其实很多的证明方都面临着像A这样的窘境。当然解决方案也是有类似的，就是一个古老的套路试探。A没有办法给脑把自己脑回路拿出来给B看，也不敢把自己的聊天记录所有都发给B但是B可以在日常生活中出其不意的去试探A观察A的反应，然后来判断说A是不是真心的那我们就来由此推导出一个构建灵知识的证明的一个三段论。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:03]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+首先就是说证明方先根据论断的内容向验证方发一个交底的材料。这个样例论断，需要是随机的或者是加密的。第二，就是验证方随机生成一个试探学术名字叫chAllenge，发给这个证明方。然后证明方根据这个试探和交底材料生成一个证明的信息，发给验证方。最后，验证方把自己拿到的信息和交底材料一一对比，然后来判断说对方是否通过了这个试探。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+再回到刚才这个小A小B之间互相试探的例子。一个可靠的证明过程是A把自己的聊天记录全部都加密，然后加密完发给BB随机生成一个日期和一个比如说漂亮小C的名字，然后让A来解密相应的这段聊天记录。然后A就会把这个聊天记录解密方法发给BB解密完之后会根据这个解密出来的聊天内容，然后朋友圈的点赞，以及比如说一些私下询问的得到的信息，然后来获取必要信息。以此来判断说这个聊天记录是不是符合事实，以及A他是不是有什么不轨的行为或者想法。那么再说回零知识证明这个事儿的本质，就是说在不揭晓我所知道或拥有某样东西的前提下，向别人证明我有很大几率概率上会比如说99.999999%很多个9 percent的几率来证明说我确实知道会拥有这个东西。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:48]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个是零知识证明，那什么是roll up呢？Roll up本质上是在layer one上的一种解决方案，也就是比如说serum上的一个解决方案。它是通过把很多笔交易捆绑在一起，然后压缩他们，然后把他们发一起发给一个共识层进行验证。就是通过比如说我们一次验证很多笔的交易来提高效率。然后也还可以通过增加可执行的交易数量来进行扩容。也就是说突然之间以太坊可以在不牺牲安全性的情况下，一下把TPS从15扩展到3000加。想强调一点就是说相比于optimistic roll up，就是其他小伙伴会介绍的roll up扩容方案。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:38]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+ZQ roll up使用的就是我们刚才提到的零知识证明技术，把这个隐私集成到roll up中。零知识这个技术会通过说允许一方向另一方证明某事，而没有必要说我们一定要披露证明他所需要的信息，一些具体的信息来实现这个隐私。我们再说说这个项目本身。我们先说这个团团队，整个团队还是学术气息非常浓厚的投放的CEO ali ali band send，他是01年的时候就开始研究这个加密证明系统。然后先后在MIT和harvard做博士后的时候，找到了这个加密证明系统的一个高效方法。然后在创办star card之前，是在以色列理工学院的计算机科学系当正教授。然后15年的时候，他其实还有一个start up叫做z cash，也是一个加密货币公司。然后多年来一直为我们说ZK领域尽心尽力。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:47]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+然后还有个首席科学家Alexander l alexandro，他是在MIT的CS和数学都拿到了学士学位，以及CS的博士学位，他在加州伯克利分校当计算机科学系的教师的时候，他研究覆盖了一些复杂性理论，密码学和安全领域。然后也是侧重于刚才我们讲到零知识证明的一些理论基础和实际的一些实施。所以我们说这整个创始团队还是学术色彩非常浓厚的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:24]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+融资来说，就是18年的时候这个公司stark watch成立，然后先后拿了非常多的轮次18年5月的时候，种子轮就已经募到了600万美元，然后A轮十月份的A轮他融资了3000万美元。然后我们可以看到一些非常响亮的名字，包括paradise，包括intel capital和c koa。然后接下来，就是c koa和intel也又跟了好几轮。然后最新的这轮，是，去年21年11月的C轮，他融资了500 5000万美元。然后投资方包括红杉中国，然后paradise，three arrows capital和founders fund，都是一些非常响亮的名字。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:15]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们再回来说说roll ups，就是说肯定有个问题说为什么我们需要roll ups呢？这就要讲回来一个臭名昭著的一个我们叫做区块链的不可能三角这个理论只也就是说你只能优化三个属性中其中两个。那哪三个属性呢？首先是可扩展性，可扩展性你也可以理解为速度，就是说它这个系统的数据吞吐量是多少，TPS有多大。然后第二个是去中心化，去中心化就说的是网络中有多少个节点，然后是否存在一个权力的中心。然后第三点是安全性，安全性你可以理解为就是攻击这个网络的难度是怎么样的。现在这个不可能三角，也就是说我很难同时满足可扩展性、去中心化和安全性的最高要求。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:09]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+最近David hoffman是班克斯道，他写了篇文章，他提倡了一个东西叫做区块模块化的区块链。他是是说了一个什么事儿呢？就是说我们现在的这个区块链它看成一个单片式，就是这个单片式执行了三个主要任务，一个是共识，一个是执行，一个是数据可用性。但是我们现在不必把这三个事儿都在单片式式的区块链LE上用，我们可以把它划分，然后就像劳动分工一样，这三个组件进行了拆分以后，我们可以分别去优化每个组件，然后他们的combination会是一个更好的产品。就一个模块只要负责一个事儿，这么去理解这个事儿。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那么low ups是怎么样去攻破我们刚才说的这个不可能三角的呢？首先roll ups它的定位就是我focus在execution上，我是作为一个可扩展性的解决方案，我把自己focus在execution上。那么roll up它的处理交易的速度要比L一的主链快几个数量级。然后他通过建立一个这么独立于L一的链下交易执行环境，然后再处理完打包处理完，比如说几千笔几百笔的交易之后，再去更新L一的状态。然后同时rops它是again不需要去承担那些共识和数据可用性的责任。也就是说roll ups的链它不需要像这个L一那样去关注共识和数据可用性。相反rou PS它可以自由的在这两方面做出任何牺牲，来保证自己execution的高校运行。但是同时我们说怎么保全这个三的意思就是我还是不牺牲原来我们说的这个去中心化和数据可靠性。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:05]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那他是怎么样来去优化和安全性？它是怎么来做到这个事儿呢？就是说roll up在最开始的时候，就是在初始化的时候，会在这个L一上发起一笔交易，来创建一组规则。然后这个规则就是抛出来以后，roll up承诺说我要遵守这个组规则。那么low ups最初的规则包含两主要是两点，一个是就是说他设定了自己的一些交易管理的限制，然后他承诺说我所有的交易都是一些合法的，和你可以理解为和以太方法的数学证明。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:43]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+第二点就是说它在以太坊L一的安全性上，它这就是说规定了说怎么样把这个安全性嫁接到row up上，或者桥接到row up涨，同时不会影响这个LLE的高效运转。就是怎么样把安全性嫁接到roll up的同时，又不会把LE一些共识和受限的数据可用性也同时移接到l ups上。这个方面就是说rops它在这个规则里面说的是我不论是否在线正常运行，我和以太坊间总是有一座桥梁，然后这个桥梁允许了L一的结算，保证了它会延展到L延展到roll up上。这个桥梁就是把L一的安全性和虚拟化连接到了row ups的这个交易执行环境中。我们说通过这个方法，它保证了或者说攻破了这个不可能三角。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:50]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+现在star cx它已经被部署到了主网上，然后允许一些复杂的操作，比如说现货交易、金融衍生品和NNFT的创建和交易。然后至今为止，star tax已经托管了四个协议，分别是DYDX、immutable x和diversify以及sora。那么DYDX diversify他们是去中心化交易所，然后immutable x是一个专门为NFT打造的layer two，so real则是一个基于NFT的gain five。他们就呃可以看到一个共同点，就是这四个我们说客户，这四个客户他们都需要一些高频的交易，然后大规模的交易。所以说我们可以看回来，stark x它就是提供了这么一个服务，赋能了大规模快速且低成本的交易。所以它的本质其实是一个我们说服务上，而不是我们可以看到一个比如说去中心化layer two。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:52]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+能够佐证我这个观点，主要是两个论据。一个是说他们到现在还没有发B对吧？你会wonder说，他们靠什么赚钱呢？那就是我想说的第二个论点，在于bank style之前对他们的创始团队做了一个采访。然后当问及他们的商业模式的时候，他们首先第一是有点含糊其辞，第二是最后那个主持人不断的push下他们透露一些，核心就是两点，一个是说他们靠的是服务费赚钱，他的原话是说we have the commercial agreement with our clients。这些client就是刚才我们提到的这些矩阵化交易所也好，跟法也好，还是像immediate x这样的there are to也好。它是通过提供服务来赚取这个revenue的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:47]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+第二点，他强调了一下说，为什么我们是entitle to earn this revenue，是说说我们是有一个价值创造在这儿。为什么呢？就是说我们不仅把去中心化交易所省下了，本来会大量花费就gas也帮普通的一些traders也好，还是一些收藏者也好，还是游戏的玩家也好，也帮他们省下了大量的GSV。所以我们create了这个value，所以我们是entitle to earn some fees。从我们这个价值创造中。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:29]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们说stark cx它的服务本质上就是用了ZQP的技术来做一个L2扩容交易引擎的这么一个服务。然后stark x使用加密证明，然后来证明一批可以是比如说几百几千个交易的有效性，然后在链上进行更新状态的这么一个承诺。Star tax它最终其实就是两个好处，它允许了或者说赋能了高流动性和较低成本的交易。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:59]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们再展开讲讲这个中心化去中心化这件事儿。Stark被人很诟病的一点就是我刚才我提到了它是一个非常不去中心化的公司。首先一点对比它的竞品ZK sink来说，ZKI think它是专注于说我要提供一个EVM的兼容性，所以它会对一些比如说主网上的开发也非常友好。它是一个开源的这么一个系统。但是star care，它阻止任何star care附属公司以外的人来运行这个系统。这个系统把系统，我意思就是说他这个start point的证明器，同时它还自己推出了一个特定的语言，这个语言也不是叫做Carol。然后它不是一个EVM的兼容的这么一个语言。所以它往后我们会看到它可能它是有利于信任性能，但是它不是那么利于向后的一个兼容性。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:04]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+第三点来说，stark ware它的去中心化体现在它的整一个证明过程，是依赖于一个叫做数据可用性委员会data availability community来做的。也就是说在验证这整这些交易的过程中，它是依赖于这些委员会，而不是说所有在这个系统内的staker也好，或者是我们说矿工也好，不是依赖于他们，而是依赖于极小的一部分对的这些委员会。那么这些委员会我们为什么要trust他们？他们依靠的是一些他们之间的声誉，而不是一些去中心化的激励。所以其实你可以想象说，它就是一个非常集权的这么一个系统。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:00]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对比现在rock方案，其实主流就是两个。一个是optimistic，另外一个就是我们今天谈到ZK rop。如optimistic的技术细节我就不过多的去说了，大家有兴趣可以听其他小伙伴他们会介绍到。但是对于相对于optimistic roll up而言，ZKW up能够提供最大优势就是说他用了这个零证明零知识的证明技术，然后把整一个隐私集成到他row up的方案中，第二点again就是back to他们的技术原理。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+ZQB不需要像optimistic roll up那样有一个提款的等待期。然后ZQOS在发送到L一之前必须等待区块的填充，这是它的一个劣势。也就是说意味着如果交易数量很低，提款可能还是需要等待，比如说几个小时这样子。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那么在ZK roll up这个方案中的竞品，其实直接对标的和star card直接对标就是ZK think。但在不去讨论太多的技术细节的情况下，其实我觉得这两我个人理解这两个主要区别。其实这种观念上的ZK think他一直在强调的是他要做一个EVM的兼容的这么一个环境。但是starward就像我刚才说的，它其实是做一个比较去中心化的服务商的这么一个事儿。但是好在star tax它的优势在，它起步比较早。然后现在就像我们说的，它的整个锁仓量已经达到了十几个亿的级别，相比于ZQR大概只有5000万左右的这么一个锁仓量。如果我记得对的话，ZK think它整个上面还只是支持一些比较简单的，包括转账这样的业务，还没有像z stark ware那样支持一些复杂的交易。对现这些就是一些现在的情况，然后也欢迎大家去听听，我是其他小伙伴，他们有什么值得分享的内容，谢谢。
+</p>]]></content:encoded>
+            <pubDate>Sat, 05 Feb 2022 11:52:50 GMT</pubDate>
+            <guid>61fe651221c23a45ed5d68e7</guid>
+        </item>
+        <item>
+            <title>zkrollup系列 - 记录小伙伴解释什么是Arbitrum</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/61fe64f84675a08411f519b3</link>
+            <description></description>
+            <content:encoded><![CDATA[<h1>转写链接</h1>
+<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/3kprqlg8lv8y9xgd</link><br>
+<h1>问题回顾</h1>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 什么是arbitron，以及它与roll up技术的关系是什么？为什么需要roll up技术？</div>
+<div class="answer"><strong>A:</strong> arbitron是一种基于以太坊的扩容方案，属于roll up技术的一种。由于以太坊当前每秒交易笔数有限且面临扩容需求，roll up技术通过在主链之外进行部分交易来解决这个问题。具体来说，arbitron将多个交易打包在一起，以一种高效的方式发布到主链上，从而提高以太坊的吞吐量并降低交易验证难度。以太坊主链存在吞吐量瓶颈，当交易需求超过其处理能力时，gas费用会上升，导致扩容成为必要。主流扩容方案是在layer one之上或之外构建layer two，但这些方案存在数据可用性较差的问题，即链下存储的交易记录和见证数据可能因参与者未及时提供正确信息而无法保证交易安全性。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> roll up技术的工作原理是什么？arbitron属于哪种类型的roll up技术，其特点是什么？</div>
+<div class="answer"><strong>A:</strong> roll up技术通过将一系列交易打包并仅在主链上执行一个汇总交易，而不是每个交易都独立执行，显著减少了所需的gas费用。在roll up中，所有节点只需接受并验证打包好的交易结果，而非执行原始交易逻辑。arbitron属于optimistic roll up类别，它提出了多轮交互方案，相较于单轮交互（如optimism），arbitron利用二分法等方式更高效地定位并解决争议交易，从而节省gas费用，支持更高的每秒交易笔数。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> optimistic rollup和zero knowledge rollup（ZK rollup）有何不同？</div>
+<div class="answer"><strong>A:</strong> optimistic rollup假定所有打包到主链上的交易都是正确的，在提交后有一个争议窗口期。若出现欺诈指控，系统将重新计算争议交易以验证其正确性，并对错误方进行惩罚。而ZK rollup则是基于零知识证明，目前暂不详细讨论。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> arbitron项目的背景及其创始人是谁？</div>
+<div class="answer"><strong>A:</strong> arbitron项目的联合创始人兼首席科学家是Atul Aggarwal，他是普林斯顿大学计算机科学和公共事务学院的教授。该项目于2015年开始研究，并在Atul Aggarwal卸任政府职务后重新启动。arbitron项目的CEO和CTO都是Atul Aggarwal在普林斯顿大学的博士生，他们在2018年共同发表了一篇关于arbitron核心技术的论文，并于2019年成立了独立公司Off Chain Labs。Off Chain Labs在之后完成了两轮融资，分别是399万美元的首轮融资和2000万美元的A轮融资。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Arbitrium在2021年8月之前完成了哪一轮融资，并且投后估值是多少？Arbitrium One主网测试版是什么时候上线的？</div>
+<div class="answer"><strong>A:</strong> 在2021年8月Arbitrial项目正式发布前的几天，Opt Chain E Labs完成了B轮融资，融资金额为1.2亿美元，投后估值达到12亿美元。Arbitrium One主网测试版在2021年9月1日正式上线。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Arbitrium上线后的交易量表现如何？</div>
+<div class="answer"><strong>A:</strong> 上线后，Arbitrium上的交易量迅速增长，到9月13号当天完成了超过27万笔交易，之后交易笔数逐渐稳定在每天约3万笔左右。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Arbitrium吸引了很多知名项目合作，能否列举一些？Arbitrium的技术原理是什么？它是如何实现高效功能的？</div>
+<div class="answer"><strong>A:</strong> Arbitrium吸引了众多顶级项目，例如Uniswap、Sushi、Wab和Conomo等，并且集成了领先的基础设施提供商如The Graph和Chainlink等。Arbitrium是基于以太坊构建并安全的，其架构一部分位于layer one（以太坊链），一部分位于layer two（Arbitrium链）。layer one上的组件包括ETH桥接、收件箱、发件箱以及仲裁功能；layer two上的Arbitrium操作系统（ARBOS）运行EVM合约，负责智能合约的执行。通过二分法进行多轮交互的技术原理，Arbitrium能以极低链上工作量和成本解决争议，支持复杂的智能合约。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Arbitrium在兼容性和易迁移性方面有何优势？</div>
+<div class="answer"><strong>A:</strong> Arbitrium完全兼容EVM，拥有相同的API接口和字节码，这意味着任何为以太坊编写的代码可以直接在Arbitrium上运行，无需重写代码，大大简化了迁移过程。同时，通过多轮交互设计，Arbitrium可以低成本地处理争议，支持复杂的智能合约。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Arbitrium作为乐观 rollup 流派的一员，存在怎样的争议窗口期和局限性？</div>
+<div class="answer"><strong>A:</strong> Arbitrium基于乐观 rollup 流派，其特点是假设所有提交的合约都是正确的，并设置一个足够长的争议窗口期等待挑战。由于增加了交互次数，争议窗口期相较于单轮交互型设计如Optimism会更长，大约需要1到2周的时间。尽管如此，Arbitrium因其高效性和易用性已成为目前最受欢迎的以太坊layer 2网络。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Arbitrium目前是否有原生代币发行计划？</div>
+<div class="answer"><strong>A:</strong> Arbitrium官方目前没有原生代币发行计划。首席科学家表示，Arbitrium上的智能合约可以使用任何基础代币，暂时没有创建原生代币的打算，但未来是否会发生原生代币发行尚不确定。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Optimistic rollup与ZK rollup相比，各有哪些优势和劣势？</div>
+<div class="answer"><strong>A:</strong> Optimistic rollup在通用性和兼容性上有优势，可以完全适配EVM，而ZK rollup目前更适合特定类型的交易如支付。在成本规模上，Optimistic rollup更具优势，因为节点只需简单执行合约；但在安全性和延迟性方面，Optimistic rollup存在一定劣势，因为它假定智能合约在提交时正确，且存在争议窗口期导致延迟较高，而ZK rollup通过生成复杂密码证明确保安全性，虽然成本较高，但延迟较低。</div>
+</div>
+<h1>节目文稿</h1>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:01]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Hello, 大家好，今天我来和大家分享一下什么是arbitron以及我对它的一些理解。如果有不详尽的地方，还请大家多多指正。因为arbitron是roll up技术的一种，所以我觉得我们有必要先回答问题的本质就是什么是roll up以及我们为什么需要它。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:20]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Roll lab的技术背景其实来自于以太坊的吞吐量瓶颈。以太坊目前可以支持的每秒交易笔数大概在15笔左右。并且在用户的需求超过了这个吞吐量瓶颈的时候，gas的水平会飙升，导致以太坊的扩容成为了现在的当务之急。主流的扩容方案其实就是在layer one之上或者之外再打造一个layer two。也就是说我们在把一部分资金储存在主链的智能合约里的同时，可以在保证足够安全性的前提下，把一部分交易放到主链之外去进行。它其实包含了不同的技术路线，例如诞生比较早的state channels，也就是状态通道，还有plus ma还有side chains等等等等。在这里因为时间的关系，我就不一一赘述了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:07]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是需要指出的是，这些方案都存在一个突出的问题，就是他们的数据可用性较差。意思是说因为完整的交易记录和见证数据都只保存在链下，所以一旦出现争端，如果参与者没有及时的提供正确的交易以及见证数据，这笔交易的安全性其实是无法保证的。在这个基础上，就诞生了我们的roll lap技术。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:32]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Roll lap它顾名思义，其实就是把一堆交易给卷起来，变成一个卷好的交易。那在这种情况下，所有的节点如果接受到了这个被卷好的交易，它就不需要再去一一执行被卷起来的逻辑，而只用去接受这些逻辑执行的结果就好。因此一个roll lap好的交易所需要的gas就会远远小于执行这些交易所需要的gas。因此我们可以这样去总结，roll up相当于在以太坊主链上只执行了一个交易的同时，其实一次性执行了一批的链下交易。只是这一批链下交易被打包好后，以交易数据区块的形式发布在了以太坊的主页主链上。这样可以最大化以太坊吞吐量的同时，降低交易的有效性验证的难度。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:26]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Roll up作为一个大的技术方向，其实是有很多不同的流派的。主要就是分为两种，一个是optimistic roll lop，一个是zero knowledge roll p就是ZKO lap。因为arbitrium它主要是optimistic roll p在这里我主要就介绍它。ZK rola就了留给其他的小伙伴去详细的介绍。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:49]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Optimistic rollup顾名思义就是它假定所有被打包好并且提交到主链上的交易都是正确的。那么在提交之后，会有一个争议窗口期。也就是说如果其他的网络参与者发现了这笔交易可能存在欺诈，他们就可以提出挑战并提交一个欺诈证明。那么在欺诈证明被提交之后，系统就会进入一个争议解决的模式，就是dispute resolution的。在这个模式下，这笔可疑的交易就会在以太坊的主链上再次执行。在执行之后，如果确定这个交易确实是欺诈的，那么这一笔打包好的交易的提交者就会受到惩罚。也就是说说他们在提交这个交易的时候，交给主链的这个保证金就会被没收，并且部分奖励给这个挑战者。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:47]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们可以举一个例子，可能会比较清晰。就是假设小白作为一个L2的验证人，他把压缩后的数据同步到了L一也是主链上。同时他质押一定的保证金。如果小明对glob区块的交易数据存在争议，他就需要发起挑战。并且小明也需要同样质押一定的保证金，这个rola协议就会在主链上被重新计算。重新计算得到的结果就可以来判断小明和小白双方到底谁对谁错。错误那一方的保证金就会被没收，而正确方就会获得奖励。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:28]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+好的，那么在optimistic roll up里其实又分为了很多不同的路线。主要就是optimism和arbitral m这两个公司以及他们的技术路线的差别。刚才我讲的通过在主链上重新计算整个交易这个方式，其实就是optimism目前在做的就是单轮的交互。也就是说在主链上模拟完整的模拟一次这个方案的调用，然后来判断这个双方的谁对谁错，它只需要进行一轮的交互，所以它是叫做单轮交互。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Roll up就是single round interceptor roll up，它是最原始的optimistic roll up的方案。但是它存在一个短板，就是因为它需要在链上完整的模拟一次调用，所以它的成本可能会非常的高。并且如果需要重新计算的交易过多，它可能还会受到主链的区块大小，就是gasoline MIT的限制。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:25]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+在这个基础上，arbitron其实相当于是更新了optimism提出来的这个单轮交互的方案。因此arbitron m提出了一个多轮交互，它的原理其实是在初始的这个挑战窗口期，就是这个验证人和这个挑战者双方就是通过二分法的方式不断的去拆分存在交易的具体存在争议的具体步骤。例如假设这个验证人他其实打包了100个交易，可能先验证就是1到50和50到100到底哪个出现问题了。如果1到50是OK的那我们就在50 51到100里面再去看，到底是51到75出现了问题，还是76到100出现了问题。一直这样不断的去通过二分法去narrow down，一直到可以把争议范围缩小到一个具体的步骤之后，再到LE的链上对该步骤进行判定。在这种情况下。可以以最高效的方式解决争端。因此可以说多轮交互其实是单轮交互的一个更新版本。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:32]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+它能够更多的节省gas的费用，也是得益于这个技术路线，目前arbitron可以支持的每秒交易笔数在4万笔左右，这个相比以太坊主链晚原先的15比是一个非常大的飞跃。好了，我们现在就回到这个arbitron项目本身来介绍一下这个项目的背景。这个项目它的核心发起人是at fault，他是普林斯顿大学计算机科学和公共事务学院的教授。其实这个项目在早在2015年，其实at falt就提出了。但是2015年开始，at falt就被白宫聘任去当了deputy united states chief technology officer。我不确定这个到底该怎么翻译，白宫副首席技术官，总之就是作为总统的顾问了。他在2015年到2017年的时候担任这个职位，所以这个技术就暂停了。一直到2017年他卸任之后，他又回到prince，然后又重新开启了这个项目。所以他现在是arbitron的联合创始人兼首席科学家。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:48]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个arbitron的CEO和CTO都是当时在at fault手下的普林大学的PHD学生。2018年的时候，这三个人一起合作完成了一篇关于arbitron核心技术的论文。并且在2019年的时候把这个项目从普林斯顿的研究实验室中剥离，并且单独成立公司。也就是目前arbitron项目的创始的公司叫off chain labs。Uptrain labs在2019年的四月完成了他们的首轮融资，融资金额是399万美元，然后领投方是panera capital。然后在两年之后的2021年4月，他们完成了他们的A轮融资，然后融资今年是twenty million US dollars。但是那个时候的投资方并没有具体的披露。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:44]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+然后再就是2021年8月，就是在arbitral这个项目正式发布之前的以前几天，opt chain e labs宣布他们完成了B轮融资。B轮融资的金额是1.2亿美元，然后投后估值是12亿美元。然后领投方是light speed venture partners，然后其他的参投方包括红点red point ventures，还有之前的老股东panic capital，还有包括Polly chain capital，rapid capital等等等等的公司。然后在完成了B轮融资之后的2021年的9月1日，就arbitron one的主网测试版是正式上线了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:27]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+上线之后的数据其实还是蛮夸张的。就是从上线第一天开始，这个arbitrium m one上的交易量数据是迅速的增长。一直到9月13号当天是完成了超过27万笔交易。但是在这之后，就这个每天的交易笔数就逐渐收窄，现在是稳定在每天3万笔左右。因为它可以在保证安全性的前提下，实现高吞吐量、低成本的智能合约。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:59]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Arbitron也吸引了很多顶级的项目，包括像unis b sushi、wab还有conomo等等。并且它也集成了很多领先的基础设施提供商，比如the graph，比如chain link等等。随着更多越来越多的dep被整合到arbitron rolt里面，arbitron就不仅仅对开发者非常有吸引力，也对用户非常的有吸引力。目前使用RB tram这个独立地址的数量就可以证明。截止到前两天，orbit charm上的独立地址个数已经超过了35万个，这也是一个非常不错的数字了。说到这里，我觉得有必要再回到arbitral m它的技术原理，来讨论一下它是怎么实现这么高效的这么一个功能的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:48]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+因为刚才已经说过了，roll up它其实是built on top of and secured by the theory blood chain。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+所以rubber trim的架构是自然就是一部分存在于layer one上，一部分存在于layer 2上。在layer one上的arbitron组件主要是一个ETH bridge，它包含着使用户发送交易到RB传链上的收件箱，接收这些交易结果的发件箱，以及对arbitron rol p协议发送的数据进行仲裁的一个roller功能。而在layer 2上是arbitron的操作系统，叫做arb OS，它完全存在于LL2上，并且可以像以太在以太坊上一样运行EVM合约，并且可以负责确保arbitron链上智能合约的执行。在L一和L2之间有一个orbital的虚拟机叫a vm它作为网关可以读取输入，并且对这些输入执行计算以产生输出。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:48]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Based on这个技术架构以及我们刚才讨论过的通过二分法进行多轮交互的这个技术原理，我们就可以总结出arbitral它主要的process cons。首先就是arbitron它是完全兼容EVM的，并且它具有相同的PRPC接口，并且与EVM有相同的字节码。这就意味着以太坊为以太坊编写的任何代码，其实都是可以在urbi charm上即插即用的。就包括sol ILI等智能合约语言，还有包括the graph等前端工具，都是可以和arbitration直接原生配合使用的这就对于开发者来说是一个非常大的pro因为他们可以直接将现有的以太坊应用程序直接迁移到roll lap上，不用费任何的吹灰之力。因为他们不需要重写任何的代码，并且通过这个多轮交互的设计，arbitrium可以以极低的链主链上的工作量以及成本来解决争议，并且也更容易支持非常复杂的智能合约。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:52]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+但是orbital作为optimistic .
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:56]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+rollup这个流派里的主要的主流选手，他也存在一个整个row optimistic roll p这个流派都有的一个问题。就是因为首先他假定所有的提交的合约都是正确的，所以就必须留一个足够长的争议窗口期，等待是否有挑战者来挑战这个欺诈。然后如果没有挑战，才能够真正确定这个交易的正确性。所以。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:25]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+在arbi charm上提交的交易都是有一定的延迟性的。并且由于它浇增加了交互的次数，所以它对应的争议窗口期相较于of optimism这种单轮交互型的设计其实会更长一点，大概需要1到2周的时间。不过这一个小小的局限性并不妨碍arbitral m成为目前可用度最高的一个以太坊的layer 2网络。所以虽然上线还不到半年的时间，arbitral m已经成为了最大的layer 2以太坊网络，并且在整个DY协议中，它的锁仓量已经超过了26.4亿美元。根据我在一个叫做L2 beat dot com上网这个网站上看到的数据显示，就in terms of total value locked，arbitron目前的这个市占率已经达到了49.7%。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:24]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+也就是说将近一半的份额其实都是被arbitrium，就L2网络上一半的份额其实都已经被arbi CUMP占据了。不过虽然如此的受到了开发者和用户的热捧，arbitral m官方是表示目前还没有任何的原生代币发行计划的。我在这里quote一下，就是chief .
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:46]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+scientist at .
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:47]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+filton本人的原话就是他说there .
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:50]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+isn&#x27;t any arbitrary ken，and we don&#x27;t expect to create one contracts on arbitron can use any ethier base token they want.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:59]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+虽然话是这样说，但是未来会发生什么，到底会不会发行原生代币，也没有人知道。好了，我对arbitron的介绍基本到这里就结束了。最后还是想recap一下，各个不同的roll up技术路线之间的比较。首先在整个optimistic roll up的技术流派里面。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:22]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+arbitral.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:23]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对比optimism这个优势是非常明显的。因为它使用多轮交互而不是单轮交互。可以通过争议双方之间的交互协议来最小化这个链上的工作量。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:38]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是整个optimistic roll up和ZK roll up相比，两者其实是有优有劣的。首先optimistic的通用性和兼容性明显是更强的，它可以完全适配EBM，而ZK rollup目前仅适用于支付之类的特定交易。对于通用智能合约来说，由于创建零知识证明的成本非常高，目前部署起来还是困难比较大的。同时在成本规模上，optimistic rol p也是非常有优势的。因为它要求节点简单的执行合约，例如如果合约执行添加操作，那节点就执行该添加操作。相比之下ZK roll roll b需要生成非常复杂的密码证明，需要成千上百次的椭圆曲线运算才能将加法运算包含在证明之中，因此成本是非常高的。这个可能主要要ZKO lab的小小伙伴帮我们详细的解释一下。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:39]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是在安全性和延迟性上，其实optimistic rol p相较ZK rol p是存在一定劣势的。首先在安全性方面，因为optimistic roll lab它假定所有的智能合约在被提交的时候都是正确的。而只有在有人撞认为这个存在欺诈的时候才需要提供证明，所以沉默将被他视为同意。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:05]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+同时由于存在一个争议窗口期，所以optimistic roll p的延迟性会较强。IZKO lab一般假设一个打包区块中有100 1000笔交易，那在普通的服务器上，大概它只需要20分钟就可以构造出一个证明。几十分钟相比1到2周的窗口期还是非常有优势的。所以简单来说就是在optimistic roll up这个技术流派里，arbitron显然是更有优势的。但是如果整个流派与ZK rol p相比的话，optimistic roll lap虽然在通用性和成本上有优势，但是在安全性和延迟性上可能存在一定的劣势。好，我今天的介绍到这里就结束了，非常感谢大家的收听。
+</p>]]></content:encoded>
+            <pubDate>Sat, 05 Feb 2022 11:52:24 GMT</pubDate>
+            <guid>61fe64f84675a08411f519b3</guid>
+        </item>
+        <item>
+            <title>zkrollup系列 - 记录小伙伴解释什么是zksync</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/61fe64c24675a08411f519b2</link>
+            <description></description>
+            <content:encoded><![CDATA[<h1>转写链接</h1>
+<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/82xz94v6md6k9m6v</link><br>
+<h1>节目摘要</h1>
+<div class="summary">项目JKC，基于Matter Labs的ZK roll up技术，致力于为以太坊提供低成本、高安全的支付解决方案。它融合了零知识证明机制，包括snark和stark技术，以提升安全性、可扩展性及验证速度。JKC对比了ZKY roll up、optimistic roll up以及snack和stack技术路径，指出ZK roll up在长远和可扩展性上具有优势，尽管面临兼容性挑战。通过与ZK sink和starkware项目的比较，凸显了各自的技术特点和生态合作潜力，展现了JKC在解决区块链扩展性问题上的创新与努力。</div><br>
+<h1>章节速览</h1>
+<div class="chapters">
+<div class="chapter-item">
+<span class="time"><strong>[00:00:00]</strong> </span>
+<span class="chapter-title"><strong>JKC项目介绍：Layer 2扩容方案与Roll up技术解析</strong></span>
+<div class="chapter-summary">JKC项目旨在解决以太坊网络拥堵和高Gas费问题，通过Layer 2扩容方案实现。项目背景起源于以太坊智能合约应用增多导致网络资源占用增加。Roll up技术作为链下扩容方案，将大量交易压缩成单个交易，有效降低网络拥堵。Roll up分为两种技术路径：Optimistic Roll up和ZK Roll up。Optimistic Roll up基于乐观假设，仅在出现争议时通过链上合约裁决；ZK Roll up则通过生成零知识证明在链上验证交易的正确性。ZK Roll up内部又分为两种技术路径，分别是snack和stack，但对话中未详细阐述它们的区别与优势。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:02:15]</strong> </span>
+<span class="chapter-title"><strong>理解零知识证明及其应用</strong></span>
+<div class="chapter-summary">零知识证明（ZK）是一种能够在不透露任何有用信息的情况下，使验证者相信某项陈述的技术。通过两个例子说明了零知识证明的原理：一是通过展示车内物品而非钥匙来证明车的所有权，二是色盲者通过让别人判断球是否被交换来间接证明球的颜色不同。零知识证明作为隐私增强技术，减少了用户间信息的交换量，同时作为扩容技术，加速了验证过程。它允许机构在保护商业机密的同时，安全地与公链网络交互，保护内部敏感数据的隐私。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:03:55]</strong> </span>
+<span class="chapter-title"><strong>ZK Sync项目概述</strong></span>
+<div class="chapter-summary">ZK Sync是基于ZK Rollup技术的Layer 2扩容方案，由Matter Labs团队开发，该团队主要由九位东欧工程师组成。此项目在以太坊上实现低成本支付，ERC20代币转账成本为主网的1%，ETH转账成本为30分之1，同时保持以太坊主网级别的安全性。自2019年12月成立以来，ZK Sync已进行了多轮投资，其中包括A16Z领投的种子轮和后续融资，累计融资额达到数千万美元。项目在社交媒体上拥有大量关注，与多个知名项目建立合作关系，生态系发展迅速。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:05:59]</strong> </span>
+<span class="chapter-title"><strong>ZK Rollup与Optimistic Rollup的对比分析</strong></span>
+<div class="chapter-summary">ZK Rollup作为一种高效的安全性和可扩展性解决方案，通过ZKEVM和ZK Porter技术，实现了与EVM的兼容，支持Solidity智能合约而无需修改源代码。与Optimistic Rollup相比，ZK Rollup在特定操作如代币转移上更聚焦，但由于技术难点，其TPS略低于Optimistic Rollup。然而，ZK Rollup提供了比Optimistic Rollup更好的理论安全性能，且预计未来在可扩展性、安全性、延迟方面将超越Optimistic Rollup。尽管目前ZK Rollup的EVM兼容性不完全，需要定制，但随着技术的发展，预计ZK Rollup将在Layer 2解决方案中占据超过50%的使用量。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:10:08]</strong> </span>
+<span class="chapter-title"><strong>JK Rop技术路径：SNARK与STARK的对比分析</strong></span>
+<div class="chapter-summary">JK Rop在2023年同时发展了两条主要的技术路径：SNARK和STARK。SNARK技术，源自2012年，依赖于椭圆曲线确保安全，提供非交互式证明，使得证明对所有验证者通用，且数据量小、证明成本低，易于递归，但验证时间不随验证量线性增长。相比之下，STARK技术基于哈希函数，自2018年起，强调透明性，无需信任设置，抗量子计算，但相对复杂，消耗的以太坊验证手续费较高，且目前无法与EVM兼容。在软件许可、开发者堆栈、可升级性及链外数据可用性方面，两者亦各有特点。SNARK因其发展较早，技术相对成熟，而STARK虽然相对较新，但在交易处理和TVL方面展现出更大的潜力。</div>
+</div>
+</div><br>
+<h1>问题回顾</h1>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> JKC项目的背景是什么，它要解决的主要问题是什么？Roll up是什么，它的两种技术路径分别是什么？</div>
+<div class="answer"><strong>A:</strong> JKC项目是基于layer 2扩容方案，旨在应对以太坊网络拥堵和gas费飙升的问题。由于以太坊承载的智能合约应用增多导致网络压力增大，该方案通过在链下执行大量交易并在特定情况下提交至链上仲裁，以实现扩容和降低交易成本。Roll up是一种链下扩容方案，将多笔链下交易压缩为单笔交易并提交至主网以太坊进行状态更新。其技术路径包括：
+1. Optimistic Roll up：基于乐观机制，信任链下交易结果，仅当出现状态争议时通过链上合约裁决。
+2. ZK Roll up：操作者生成零知识证明并提交给链上合约验证，确保交易正确执行，提供更快的验证速度和更高的隐私保护。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK Sync项目的特点和优势是什么？ZK Roll up与Optimistic Roll up在性能上的主要对比是什么？</div>
+<div class="answer"><strong>A:</strong> ZK Sync是基于ZK Roll up的layer 2扩容方案，用于以太坊上的低成本支付，其ERC20代币成本仅为主网的1%，交易延迟低至十分钟内可提款至主网，并且具备高安全性。此外，ZK Sync是首个兼容EVM的ZK Roll up，通过ZKEVM和ZK Porter技术实现了对现有智能合约的良好兼容性和高效的扩展性。在灵活性方面，Optimistic Roll up支持在ETH链上实现相同功能，兼容大部分现有以太坊代码库；而ZK Roll up目前主要聚焦于特定操作，如代币转移，但随着技术发展，通用性有望提升。在可扩展性方面，Optimistic Roll up已达到4万TPS交易吞吐量，而ZK Roll up声称可达2000TPS，但理论上若都支持EVM，Optimistic Roll up由于避免了生成ZK proof的过程，TPS上限可能略高于ZK Roll up。安全性上，两者各有优势，Optimistic Roll up有欺诈证明挑战期保障安全，而ZK Roll up通过智能合约验证状态转换，具有较好的理论安全性。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 零知识证明（ZK）的具体含义是什么，能否举个例子说明？</div>
+<div class="answer"><strong>A:</strong> 零知识证明（ZK）是一种允许证明者在不透露任何有用信息的情况下，使验证者相信某个论断的真实性的技术。例如，证明者可以展示车的内部而不透露钥匙，即使验证者对钥匙一无所知，也能通过观察行为判断出车辆的所有权。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK Sync项目的发展状况及生态合作情况如何？</div>
+<div class="answer"><strong>A:</strong> ZK Sync项目受到市场的广泛关注，推特关注人数超过18万，在Discord上有2.75万人，GitHub上有1000个星标收藏量，TVL达到6000万美元。项目已获得知名投资机构A16Z等的投资，并与多个知名项目如柯尔夫、Lancer、Oneinch等建立了合作关系。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK roll up在未来的发展趋势如何？ZK roll up和以太坊虚拟机（EVM）之间的兼容性问题如何解决？</div>
+<div class="answer"><strong>A:</strong> ZK roll up在特定方面已经相对成熟，并将持续朝着完全通用的智能合约方向发展。从长远和落地角度看，市场对ZK roll up更加看好。尽管目前不完全兼容EVI，需要项目方进行定制才能在layer 2和later one之间转移，但随着ZK row up可编程性的差距缩小，其在可拓展性、安全性、延迟等方面的优势将更加明显，预测其使用量占比将超过50%。ZK roll up暂时无法与EVM完全兼容，但随着技术进步，未来可能会实现更好的兼容性。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> SNARK技术和STARK技术有何区别？</div>
+<div class="answer"><strong>A:</strong> SNARK（非交互式零知识证明）和STARK（透明零知识证明）的主要区别在于交互性和透明性。SNARK是非交互式的，为每个验证者生成通用证明；而STARK需要面对每个验证者交互验证数据真实性，且STARK具备抗量子计算能力，无需可信设置，速度更快，但相对不成熟且无法与EVM直接兼容。SNARK技术在数据大小、证明成本、简洁性和编程语言等方面具有优势，而STARK在抗量子计算方面有改进，但牺牲了部分兼容性和复杂度。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK-SNARK与ZK-STARK在扩展性和简洁性上的表现如何？</div>
+<div class="answer"><strong>A:</strong> 在扩展性方面，ZK-STARK的验证时间和计算呈对数关系，扩展性较好；而在简洁性方面，ZK-SNARK生成的精确验证程序较小，因此在简洁性上更胜一筹。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> ZK-SNARK和ZK-STARK在软件许可、开发者堆栈、可升级性以及链外数据可用性上的差异是什么？</div>
+<div class="answer"><strong>A:</strong> ZK-SNARK拥有宽容的许可制度，允许自由分叉网络；而ZK-STARK则阻止除附属公司外的任何人运行ZK-STARK证明器。在开发者堆栈上，ZK-SNARK专注于完整的EVM兼容性网络，而ZK-STARK推广caro编程语言以提高性能但牺牲兼容性。可升级性方面，ZK-STARK执行升级前会进行冻结操作，重视安全性而非减少对外部依赖；ZK-SNARK自发布起就具备强制时间锁升级机制。在链外数据可用性方面，ZK-SNARK附带zk porter解决方案，提供去中心化的数据可用性保障，而ZK-STARK依赖一小部分数据存储者组成的委员会，依靠声誉而非去中心化激励来保证数据可用性。</div>
+</div>
+<h1>节目文稿</h1>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+各位朋友们大家好。今天我要介绍的项目是JKC。我将会从三个方面进行说明。首先是一个知识的科普，什么是layer to roll up和零知识证明，我将会给出他们的definition。第二个是从项目的角度，这个项目的background是什么？他们在做一件什么样的事情。第三个是从对比的角度，roll up内部分为ZKY roll up和optimistic roll up，它们的区别是什么？而ZK roll up内部也有两条技术路径，分别是snack和stack。那他们的对比和优势又是什么？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:40]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+首先我们要从there to扩容方案的背景讲起。它起源于B是非常火爆。以太坊承载的智能合约应用变多，资源占用量变大，因此以太坊网络变得拥堵，转账和调用智能合约消耗的gas费飙升，因此这个layer 2扩容方案就应运而生。而layer two的本质是大量的交易在链下进行，在最终需要确定或者出现争议的时候，提交到链上进行仲裁。22网络内部因为用户比较少，手续费也相对便宜。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:16]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Roll up则是链下扩容方案的一种。Roll up本意是卷起来的意思，形象的理解是之前的一笔转账是一笔交易。而roll up将数百笔交易卷成一个交易，充当了交易压缩的一形式，它将原始数据存在以太坊上，在链下执行，并偶尔向主网以太坊发布状态更新。他有两种技术路径，第一种是optimistic grow up，他乐观的认为链下交易者返回的结果是正确的，只有当发现状态变化有误，出现争议的时候，会通过链上的合约裁决并且惩罚验证者。第二个路径是ZK roll up，链下的操作者会根据状态更新生成一个零知识证明，交给链上合约进行判断。门链上只验证证明就能确保涉及的交易被正确的执行。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:16]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那什么是ZK呢？就是zero knowledge 0知识证明。他表示证明者在不向验证明者在不向验证者提供有用信息的情况下，使得验证者相信某个论。但是正确的举一个例子，我想向你证明我有一辆车。那第一种方案我会向你出示车的钥匙，但这就不是零知识证明了。第二种方案我不出示钥匙，我出示了车里的东西。那么验证者即使对于这个钥匙是零知识的那也可以通过我行为的这种方式判断我就是车的主人。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+再举一个例子，比如说你想向我证明两个球的颜色是不同的，而我恰好又是一个色盲，那我会双手各拿一个球并自行决定是否要交换。我拿给你看，你来帮我判断一下我是否交换了球。如果猜一次两次，你可能会凭借运气比较好而猜对了。但如果猜100次，猜1000次，你都能够猜对我是否进行交换了。那么即便我是一个色盲，我对球的颜色是不知道的，是零知识的，我也能够从你的行为中推断出这两个球的颜色是不同的那zero knowledge就作为隐私增强技术，减少了用户之间需要提供的信息交易量。也作为扩容技术，能够更快的以更快的速度进行验证。传统的实体希望创建和执行智能合约，但又需要在竞争中保持优势，保护商业机密。零知识证明就能够让这些机构安全的与公链网络交互，并保护内部敏感数据的隐私。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:56]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们再回到ZK sync这个项目，ZK sink是matt打造的基于ZK row up的layer 2扩容方案。它用于在以太坊上进行可扩展性的低成本支付。它的ERC20代币大概是主网成本的1%，以太坊转账大概是ETH转账大概是主网成本的30分之1，它具有交易的低延迟性，十分钟之内能够提款到主网，无需信任，且资金拥有以太坊主网级别的安全性。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:27]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Matter labs这个团队大概是有九位工程师，主要是以东欧的工程师为主。他们比较像一个草根的团队。他的CEO叫做alex，之前在柏林工业大学读计算机科学学士，然后又去读了高能物理学的一个博士，曾经担任过什么paul camper的一个首席技术官。这个公司是在2019年的12月成立的，它在2019年的九月的时候种子轮了200万美元，是A16Z领投的。在21年的二月份有A轮融资600万美元，在21年的11月份又B轮融资5000万美元，是A16Z领投的。其他投资者有placeholder和dragon fly。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:19]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+他的热度方面的话，他在推特上目前有18.15.8万关注的人。在discord上面有2.75万人，在给hub上点star的大概有1000个人。这个项目有23个trader，目前的收藏量TVL是6000万美金。根据auto beat这个网站显示，目前他ZK think排总所参量的第十。在eco system方面，JK sink也和很多的知名项目有一个合作的关系。比如说柯尔夫AVE，Lancer one inch coin base火币baLance等等。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:01]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+ZK sink也是首个兼容EVM的ZK roll up。它通过ZKEVM和ZK porter两大技术，充分发挥了安全性、去中心化、可编程性和可扩展性。GKEVM是模仿以太坊环境的一个虚拟机，作为兼容EVM的ZK rob引擎，是唯一一个具备L一安全性且支持solid智能合约的解决方案。而ZK porter是可扩展性非常高的链下数据可得性系统在兼容性方面，大家知道大多数的define和NFT项目使用的是solid智能合约。用ZK sink这项目你就不需要进行一个中介语言或者是转码器，就能在不更改源代码的情况下进行工作。最后我们要做一个对比，首先是roll up内部的ZK roll up和optimistic roll up的性能对比。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:58]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+在灵活性方面，opportunity y roll up一个重要的创新是OVM，它支持在ETH链上同样功能的实现，它也支持用solid来编写代码，大部分现有代码库都可以轻松地移植到open c roll up上面。而ZK roll up现有的它主要聚焦于特定的操作。比如说代币转移，主要原因是早期的ZKO wap没有找到很好的方式来支持edm，需要领域内特定的编程语言来编写代码。但这个问题也正在被解决。现存的这ETH合约都能以最小的努力有效的移植过来。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:41]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+在可扩展性方面的话，optio roll up arbitron能够达到4万TPS交易吞吐量。而ZK rop ZK sink声称它可以达到2000TPS的交易吞吐量。Optimistic roll up从数据上来看是暂时的领先地位。因为它避开了零知识证明的技术难点，所以它落地是比较快的。而ZK rop还处于研制的阶段，如果都支持EVM的话，optimistic roll up的TPS理论上限会略高于ZK roll up，因为它也省去了生成ZK pro的过程。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:22]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+从安全性上看，optimistic roll up由于存在1到2周的欺诈证明挑战期，运营商和矿工不会去冒风险合谋，因此具有良好的安全性能。JK roll up每个状态转换都是通过roll up智能合约进行验证，运营商是无法盗窃资金或者是破坏roll up状态的，具有比optimistic roll up更好的一个理论安全性能。在颜值方面optimistically up由于安全性部分提到的问题，它仅在1到2周的欺诈证明挑战窗口期内才是安全的。ZK row up它的现在时间大概是20分钟，最终的话它会在会压缩到一分钟以内。总结一下来说，optimist rev b现在已经处于产品级的实施阶段，有arbitron和optimism等方案都跑出来了也部署了一些unit word.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:23]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+之类的define。ZKO up在。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:27]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+特定方面是比较成熟的，也会逐步的朝着完全通用的智能合约方面努力。从长远和落地角度，市场会更加看好ZK roll up。但虽然现在ZK row up不完全兼容EVI，需要项目方进行一些定制，才能在later one和layer 2之间进行转移。但是随着ZKO up可编程性的差距缩小，未来从可拓展性、安全性、延迟的角度来看的话，ZK row up会取胜。也根据预测ZK roll up占literary rolled up的使用量的比例会超过50%。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:08]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+就在2023年的时候，JK rop内部有两条技术路径。第一条是snark，第二条是stark。我们也来做一个简单的对比。JK sink采用的是snark技术。Snark产生于2012年1月，是加州伯克利分校一位教授首次构建零知识证明，创制造了k sark。它在这个基础上利用椭圆曲线来保证安全性。而stack技术是在2018年第一篇stack论文出现。Stack的基础技术是依赖于哈希函数，下列函数的特性使得它具备抗量子性网络，使用stack就不需要可信设备。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:55]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+其实snark和stark从名字上看，它们的唯一区别就是一个是N一个是T。N代表的是non interactive非交互的，就是证明者创建的证明是每一个验证者都通用的，但交互的意思就是证明者面对每一个验证者都需要去验证一次数据的真实性。然后T代表的是transparent透明，就不需要一个信任设置。也因此stark技术会比snack技术快大概十倍左右。但是stark技术是不如snark技术那么成熟的，且目前无法与EVM进行兼容。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Snack技术的优势在于它的数据是比stack小的，证明更便宜，空间只占用OE的空间。验证时间也不会随着验证量的计算而进行线性增长，它比较容易递归，也节约了验证器的计算量。而stack在snark基础上的改进是它抗量子计算，不会被量子计算破解。但他的牺牲是相比于snark stark会更加的复杂，消耗以太坊验证手续费会更高。他还有个点是它使用的是caro的编程语言，但实际上很少有人会愿意去学一个新的编程语言。因此他们又创建了rap编译器，能够将solid转换为carl。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:21]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们也可以看到在扩展性方面，ZK star它验证时间是和计算呈一个对数关系，扩展性是比较好的。而在简洁性方面，DK snark生成的precise验证程序是比较小的，因此snark会在简洁性上更胜一筹。再对比一下ZK sink和s star ware两个项目。首先在软件许可上，CK sink是宽容的许可。如果metal lab没有能够做正确的事情，任何人都能进行自由的分叉网络。而start ware阻止了stark ware附属公司以外的任何人运行start证明器。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+在开发者堆栈方面，CK sink专注于完整的EVM兼容性网络，在各个方面都归社区所有。但star ware它在广推广一种caro编程语言，它有利于性能，但是不利于兼容性。在可升级性方面，ZK stark它是在执行升级之前进行冻结操作。你作为没有时间锁的升级机制，它的重点是针对外部攻击者的安全性，而不是减少对stark ware本身的依赖。CK sink自从发布的第一天起，就有一个带强制时间锁的升级机制。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:45]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+在链外数据可用性方面，zk sink附带了zk porter，它是一种针对去中心化优化的链下数据可用性解决方案。这个设计方案将会是完整节点，比现有的以太坊杀手多两个数量级。但star ware他在这里住压数据可用性委员会。这个委员会是由一小部分数据存储者组成的，他们依靠的是自己的声誉，而不是去中心化的激励。我们总结一下，snack技术它因为发展的历程比较早，然后比相对来说比较完善。Start技术比较新，但是它在transaction方面，包括TV料方面都会做的更好一些。
+</p>]]></content:encoded>
+            <pubDate>Sat, 05 Feb 2022 11:51:30 GMT</pubDate>
+            <guid>61fe64c24675a08411f519b2</guid>
+        </item>
+        <item>
             <title>记录一次创业黑马线上的元宇宙话题分享</title>
             <link>https://www.xiaoyuzhoufm.com/episode/61e7ffd30c35c9f95dca129b</link>
             <description>过去10-20年，什么没变？

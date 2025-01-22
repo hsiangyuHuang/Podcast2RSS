@@ -57,9 +57,9 @@ class EpisodeCollector:
                 }
                 episode_list.append(episode)
             
-            # 按发布时间降序排序并只取最新的50集
+            # 按发布时间降序排序并只取最新的30集
             episode_list.sort(key=lambda x: x.get('published_at', ''), reverse=True)
-            episode_list = episode_list[:50]
+            episode_list = episode_list[:30]
             
             # 处理排序后的剧集
             for episode in episode_list:
@@ -212,7 +212,7 @@ class TranscriptionProcessor:
         Returns:
             Dict[str, dict]: 任务状态字典，键为eid
         """
-        MAX_WAIT_TIME = 3600  # 最大等待1小时
+        MAX_WAIT_TIME = 1800  # 最大等待半小时
         start_time = time.time()
         task_status = {}
         
@@ -265,7 +265,7 @@ class TranscriptionProcessor:
             if running == 0:
                 break
                 
-            time.sleep(60)
+            time.sleep(45) # 每45秒检查一次
             
         return task_status
 
@@ -426,7 +426,3 @@ def transcribe_podcast(pid):
     except Exception as e:
         logger.error(f"处理过程中发生错误: {e}")
         raise TranscriptionError(f"转写失败: {str(e)}")
-
-if __name__ == "__main__":
-    pid="6022a180ef5fdaddc30bb101"
-    transcribe_podcast(pid)

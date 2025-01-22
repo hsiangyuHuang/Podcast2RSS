@@ -1,0 +1,50 @@
+name: Daily RSS Update
+
+on:
+  schedule:
+    - cron: '0 20 * * *'  # 每天北京时间 04:00 运行
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run RSS update script
+      env:
+        TONGYI_COOKIE: ${{ secrets.TONGYI_COOKIE }}
+        REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
+      run: python src/main.py
+        
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        # 添加所有数据文件
+        git add data/podcasts/*.json
+        git add data/episodes/*.json
+        git add data/transcripts/*/*.json
+        git add data/rss/*.xml
+        # 如果有变更，提交并推送
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update podcast data and RSS feeds" && git push)
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./data/rss
+        publish_branch: gh-pages
+        force_orphan: true  # 确保 gh-pages 分支只包含最新的文件

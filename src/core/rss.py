@@ -167,9 +167,9 @@ class RSSProcessor:
             episode_data['eid'] = eid
             episode_list.append(episode_data)
         
-        # 按发布时间降序排序并只取最新的50集
+        # 按发布时间降序排序并只取最新的30集
         episode_list.sort(key=lambda x: x.get('pubDate', ''), reverse=True)
-        episode_list = episode_list[:50]
+        episode_list = episode_list[:30]
         
         # 将列表转换回字典格式
         filtered_episodes = {episode.pop('eid'): episode for episode in episode_list}
@@ -253,7 +253,7 @@ class RSSProcessor:
                 item_info = {
                     'title': episode['title'],
                     'link': episode['link'],
-                    'description': episode.get('description', '').strip() or episode.get('shownotes', ''),
+                    'description': (episode.get('description') or episode.get('shownotes') or '').strip(),
                     'content_html': html_content,
                     'pub_date': formatdate(
                         self._parse_date(episode['pubDate']).timestamp(),
@@ -291,9 +291,33 @@ class RSSProcessor:
             raise
 
 if __name__ == "__main__":
+    import os
+    import glob
+
     # 初始化处理器
     processor = RSSProcessor()
-    # 处理播客并生成RSS
-    processor.generate_rss(
-        pid="658057ae3d1caa927acbaf60"
-    )
+    
+    # 获取基础目录
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    episodes_dir = os.path.join(base_dir, "data", "episodes")
+    transcripts_dir = os.path.join(base_dir, "data", "transcripts")
+    
+    # 获取所有有转写文件的播客ID
+    podcast_ids = []
+    for file_path in glob.glob(os.path.join(episodes_dir, "*.json")):
+        pid = os.path.basename(file_path).replace(".json", "")
+        if pid == "subscribe_podcasts":  # 排除非播客文件
+            continue
+        # 检查是否有转写文件
+        transcript_dir = os.path.join(transcripts_dir, pid)
+        if os.path.exists(transcript_dir) and len(os.listdir(transcript_dir)) > 0:
+            podcast_ids.append(pid)
+    
+    # 处理所有播客并生成RSS
+    for pid in podcast_ids:
+        print(f"Processing podcast: {pid}")
+        try:
+            processor.generate_rss(pid=pid)
+            print(f"Finished processing podcast: {pid}")
+        except Exception as e:
+            print(f"Error processing podcast {pid}: {str(e)}")

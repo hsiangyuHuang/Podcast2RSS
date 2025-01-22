@@ -2,10 +2,12 @@ import logging
 import os
 import time
 import yaml
+import json
 from pathlib import Path
 from core.podcast import PodcastClient
 from core.transcription import transcribe_podcast
 from core.rss import RSSProcessor
+from core.storage import Storage
 from core.exceptions import PodcastError, TranscriptionError, RSSError
 
 def setup_logging():
@@ -50,23 +52,31 @@ def main():
     logger.info(f"日志将保存到: {log_file}")
     
     start_time = time.time()
-    # 1. 读取配置
-    config_path = Path(__file__).parent.parent / "config" / "podcasts.yml"
-    with open(config_path) as f:
-        podcasts = yaml.safe_load(f)['podcasts']
-        
-    total_podcasts = len(podcasts)
-    logger.info(f"共有 {total_podcasts} 个播客需要处理")
+    # 初始化存储
+    storage = Storage()
     
     try:
+        # 1. 读取配置
+        config_path = Path(__file__).parent.parent / "config" / "podcasts.yml"
+        with open(config_path) as f:
+            podcasts = yaml.safe_load(f)['podcasts']
+            
+        if not podcasts:
+            logger.error("配置文件为空")
+            return
+            
+        total_podcasts = len(podcasts)
+        logger.info(f"共有 {total_podcasts} 个指定播客需要处理")
+        
         # 2. 初始化处理器
-        client = PodcastClient()
+        client = PodcastClient(storage)
         rss_processor = RSSProcessor()
         
-        logger.info("开始更新播客订阅数据...")
+        logger.info("开始更新播客与剧集数据...")
         pids = [p['pid'] for p in podcasts if 'pid' in p]
         client.update_all(pids)
-        
+        logger.info("完成更新播客与剧集数据...")
+
         # 3. 处理每个播客
         for index, podcast in enumerate(podcasts, 1):
             pid = podcast.get('pid')
@@ -79,12 +89,14 @@ def main():
             podcast_start_time = time.time()
             
             try:
-                # 3.1 获取播客数据
-                logger.info(f"正在获取播客数据...")
-                episodes = client.get_episodes(pid)
-                if episodes:
-                    client.save_episodes(episodes, pid)
-                    logger.info(f"获取到 {len(episodes)} 个剧集")
+                # 3. 获取播客数据和转写
+                logger.info(f"正在处理播客: {pid}")
+                
+                # 3.1 从文件中读取剧集信息
+                episodes_file = storage.get_episodes_file(pid)
+                with open(episodes_file, 'r', encoding='utf-8') as f:
+                    episodes = json.load(f)
+                logger.info(f"从文件读取到 {len(episodes)} 个剧集")
                 
                 # 3.2 处理音频转写
                 logger.info(f"正在处理音频转写...")

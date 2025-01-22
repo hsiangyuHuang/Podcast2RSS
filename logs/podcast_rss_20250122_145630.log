@@ -1,0 +1,633 @@
+2025-01-22 14:56:30,280 - __main__ - INFO - 日志将保存到: /Users/hsiangyu/Inbox/Podcast2RSS/logs/podcast_rss_20250122_145630.log
+2025-01-22 14:56:30,298 - __main__ - INFO - 共有 50 个指定播客需要处理
+2025-01-22 14:56:30,298 - __main__ - INFO - 开始更新播客与剧集数据...
+2025-01-22 14:56:42,690 - core.podcast - INFO - 更新播客信息完成
+2025-01-22 14:56:42,690 - core.podcast - INFO - 所有播客历史总集数: 5952
+2025-01-22 14:56:42,690 - core.podcast - INFO - [1/50] 正在获取播客 63c534ba100c9300109380d9 的剧集信息...
+2025-01-22 14:56:42,906 - core.podcast - INFO - 保存了 3 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/63c534ba100c9300109380d9.json
+2025-01-22 14:56:42,907 - core.podcast - INFO - [1/50] 获取到 3 个剧集
+2025-01-22 14:56:42,907 - core.podcast - INFO - [1/50] 处理完成: 63c534ba100c9300109380d9, 耗时: 0.22秒
+2025-01-22 14:56:42,907 - core.podcast - INFO - [2/50] 正在获取播客 63b7dd49289d2739647d9587 的剧集信息...
+2025-01-22 14:56:43,546 - core.podcast - INFO - 保存了 23 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/63b7dd49289d2739647d9587.json
+2025-01-22 14:56:43,546 - core.podcast - INFO - [2/50] 获取到 23 个剧集
+2025-01-22 14:56:43,546 - core.podcast - INFO - [2/50] 处理完成: 63b7dd49289d2739647d9587, 耗时: 0.64秒
+2025-01-22 14:56:43,546 - core.podcast - INFO - [3/50] 正在获取播客 65257ff6e8ce9deaf70a65e9 的剧集信息...
+2025-01-22 14:56:44,578 - core.podcast - INFO - 保存了 52 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/65257ff6e8ce9deaf70a65e9.json
+2025-01-22 14:56:44,579 - core.podcast - INFO - [3/50] 获取到 52 个剧集
+2025-01-22 14:56:44,579 - core.podcast - INFO - [3/50] 处理完成: 65257ff6e8ce9deaf70a65e9, 耗时: 1.03秒
+2025-01-22 14:56:44,579 - core.podcast - INFO - [4/50] 正在获取播客 61dd99a47b29652ff572257b 的剧集信息...
+2025-01-22 14:56:47,030 - core.podcast - INFO - 保存了 114 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/61dd99a47b29652ff572257b.json
+2025-01-22 14:56:47,031 - core.podcast - INFO - [4/50] 获取到 114 个剧集
+2025-01-22 14:56:47,031 - core.podcast - INFO - [4/50] 处理完成: 61dd99a47b29652ff572257b, 耗时: 2.45秒
+2025-01-22 14:56:47,031 - core.podcast - INFO - [5/50] 正在获取播客 6388760f22567e8ea6ad070f 的剧集信息...
+2025-01-22 14:56:49,129 - core.podcast - INFO - 保存了 92 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6388760f22567e8ea6ad070f.json
+2025-01-22 14:56:49,129 - core.podcast - INFO - [5/50] 获取到 92 个剧集
+2025-01-22 14:56:49,129 - core.podcast - INFO - [5/50] 处理完成: 6388760f22567e8ea6ad070f, 耗时: 2.10秒
+2025-01-22 14:56:49,129 - core.podcast - INFO - [6/50] 正在获取播客 648b0b641c48983391a63f98 的剧集信息...
+2025-01-22 14:56:49,918 - core.podcast - INFO - 保存了 35 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/648b0b641c48983391a63f98.json
+2025-01-22 14:56:49,918 - core.podcast - INFO - [6/50] 获取到 35 个剧集
+2025-01-22 14:56:49,918 - core.podcast - INFO - [6/50] 处理完成: 648b0b641c48983391a63f98, 耗时: 0.79秒
+2025-01-22 14:56:49,918 - core.podcast - INFO - [7/50] 正在获取播客 60502e253c92d4f62c2a9577 的剧集信息...
+2025-01-22 14:56:50,780 - core.podcast - INFO - 保存了 44 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/60502e253c92d4f62c2a9577.json
+2025-01-22 14:56:50,780 - core.podcast - INFO - [7/50] 获取到 44 个剧集
+2025-01-22 14:56:50,780 - core.podcast - INFO - [7/50] 处理完成: 60502e253c92d4f62c2a9577, 耗时: 0.86秒
+2025-01-22 14:56:50,780 - core.podcast - INFO - [8/50] 正在获取播客 6022a180ef5fdaddc30bb101 的剧集信息...
+2025-01-22 14:56:55,535 - core.podcast - INFO - 保存了 232 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6022a180ef5fdaddc30bb101.json
+2025-01-22 14:56:55,535 - core.podcast - INFO - [8/50] 获取到 232 个剧集
+2025-01-22 14:56:55,535 - core.podcast - INFO - [8/50] 处理完成: 6022a180ef5fdaddc30bb101, 耗时: 4.76秒
+2025-01-22 14:56:55,535 - core.podcast - INFO - [9/50] 正在获取播客 5e280faf418a84a0461fbd39 的剧集信息...
+2025-01-22 14:56:57,658 - core.podcast - INFO - 保存了 108 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e280faf418a84a0461fbd39.json
+2025-01-22 14:56:57,658 - core.podcast - INFO - [9/50] 获取到 108 个剧集
+2025-01-22 14:56:57,658 - core.podcast - INFO - [9/50] 处理完成: 5e280faf418a84a0461fbd39, 耗时: 2.12秒
+2025-01-22 14:56:57,658 - core.podcast - INFO - [10/50] 正在获取播客 61358d971c5d56efe5bcb5d2 的剧集信息...
+2025-01-22 14:57:01,738 - core.podcast - INFO - 保存了 199 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/61358d971c5d56efe5bcb5d2.json
+2025-01-22 14:57:01,738 - core.podcast - INFO - [10/50] 获取到 199 个剧集
+2025-01-22 14:57:01,738 - core.podcast - INFO - [10/50] 处理完成: 61358d971c5d56efe5bcb5d2, 耗时: 4.08秒
+2025-01-22 14:57:01,738 - core.podcast - INFO - [11/50] 正在获取播客 62c6ae08c4eaa82b112b9c84 的剧集信息...
+2025-01-22 14:57:05,275 - core.podcast - INFO - 保存了 152 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/62c6ae08c4eaa82b112b9c84.json
+2025-01-22 14:57:05,275 - core.podcast - INFO - [11/50] 获取到 152 个剧集
+2025-01-22 14:57:05,275 - core.podcast - INFO - [11/50] 处理完成: 62c6ae08c4eaa82b112b9c84, 耗时: 3.54秒
+2025-01-22 14:57:05,275 - core.podcast - INFO - [12/50] 正在获取播客 64259df8179eec5331c4aecc 的剧集信息...
+2025-01-22 14:57:05,894 - core.podcast - INFO - 保存了 21 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/64259df8179eec5331c4aecc.json
+2025-01-22 14:57:05,894 - core.podcast - INFO - [12/50] 获取到 21 个剧集
+2025-01-22 14:57:05,894 - core.podcast - INFO - [12/50] 处理完成: 64259df8179eec5331c4aecc, 耗时: 0.62秒
+2025-01-22 14:57:05,894 - core.podcast - INFO - [13/50] 正在获取播客 646f194853a5e5ea1408d97c 的剧集信息...
+2025-01-22 14:57:06,839 - core.podcast - INFO - 保存了 33 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/646f194853a5e5ea1408d97c.json
+2025-01-22 14:57:06,840 - core.podcast - INFO - [13/50] 获取到 33 个剧集
+2025-01-22 14:57:06,840 - core.podcast - INFO - [13/50] 处理完成: 646f194853a5e5ea1408d97c, 耗时: 0.95秒
+2025-01-22 14:57:06,840 - core.podcast - INFO - [14/50] 正在获取播客 658057ae3d1caa927acbaf60 的剧集信息...
+2025-01-22 14:57:07,039 - core.podcast - INFO - 保存了 5 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/658057ae3d1caa927acbaf60.json
+2025-01-22 14:57:07,039 - core.podcast - INFO - [14/50] 获取到 5 个剧集
+2025-01-22 14:57:07,040 - core.podcast - INFO - [14/50] 处理完成: 658057ae3d1caa927acbaf60, 耗时: 0.20秒
+2025-01-22 14:57:07,040 - core.podcast - INFO - [15/50] 正在获取播客 5fe5b198dee9c1e16dfb9672 的剧集信息...
+2025-01-22 14:57:09,086 - core.podcast - INFO - 保存了 103 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5fe5b198dee9c1e16dfb9672.json
+2025-01-22 14:57:09,086 - core.podcast - INFO - [15/50] 获取到 103 个剧集
+2025-01-22 14:57:09,086 - core.podcast - INFO - [15/50] 处理完成: 5fe5b198dee9c1e16dfb9672, 耗时: 2.05秒
+2025-01-22 14:57:09,086 - core.podcast - INFO - [16/50] 正在获取播客 61cbaac48bb4cd867fcabe22 的剧集信息...
+2025-01-22 14:57:10,804 - core.podcast - INFO - 保存了 63 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/61cbaac48bb4cd867fcabe22.json
+2025-01-22 14:57:10,804 - core.podcast - INFO - [16/50] 获取到 63 个剧集
+2025-01-22 14:57:10,804 - core.podcast - INFO - [16/50] 处理完成: 61cbaac48bb4cd867fcabe22, 耗时: 1.72秒
+2025-01-22 14:57:10,805 - core.podcast - INFO - [17/50] 正在获取播客 5e74543a418a84a046c4e50e 的剧集信息...
+2025-01-22 14:57:12,010 - core.podcast - INFO - 保存了 69 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e74543a418a84a046c4e50e.json
+2025-01-22 14:57:12,010 - core.podcast - INFO - [17/50] 获取到 69 个剧集
+2025-01-22 14:57:12,010 - core.podcast - INFO - [17/50] 处理完成: 5e74543a418a84a046c4e50e, 耗时: 1.21秒
+2025-01-22 14:57:12,010 - core.podcast - INFO - [18/50] 正在获取播客 5e5c52c9418a84a04625e6cc 的剧集信息...
+2025-01-22 14:57:15,922 - core.podcast - INFO - 保存了 183 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e5c52c9418a84a04625e6cc.json
+2025-01-22 14:57:15,922 - core.podcast - INFO - [18/50] 获取到 183 个剧集
+2025-01-22 14:57:15,923 - core.podcast - INFO - [18/50] 处理完成: 5e5c52c9418a84a04625e6cc, 耗时: 3.91秒
+2025-01-22 14:57:15,923 - core.podcast - INFO - [19/50] 正在获取播客 6194d973c14c9a0db82de1ea 的剧集信息...
+2025-01-22 14:57:16,664 - core.podcast - INFO - 保存了 39 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6194d973c14c9a0db82de1ea.json
+2025-01-22 14:57:16,664 - core.podcast - INFO - [19/50] 获取到 39 个剧集
+2025-01-22 14:57:16,664 - core.podcast - INFO - [19/50] 处理完成: 6194d973c14c9a0db82de1ea, 耗时: 0.74秒
+2025-01-22 14:57:16,664 - core.podcast - INFO - [20/50] 正在获取播客 6507bc165c88d2412626b401 的剧集信息...
+2025-01-22 14:57:18,178 - core.podcast - INFO - 保存了 62 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6507bc165c88d2412626b401.json
+2025-01-22 14:57:18,178 - core.podcast - INFO - [20/50] 获取到 62 个剧集
+2025-01-22 14:57:18,178 - core.podcast - INFO - [20/50] 处理完成: 6507bc165c88d2412626b401, 耗时: 1.51秒
+2025-01-22 14:57:18,178 - core.podcast - INFO - [21/50] 正在获取播客 652fda39f071cb959eef1af4 的剧集信息...
+2025-01-22 14:57:19,373 - core.podcast - INFO - 保存了 60 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/652fda39f071cb959eef1af4.json
+2025-01-22 14:57:19,373 - core.podcast - INFO - [21/50] 获取到 60 个剧集
+2025-01-22 14:57:19,373 - core.podcast - INFO - [21/50] 处理完成: 652fda39f071cb959eef1af4, 耗时: 1.19秒
+2025-01-22 14:57:19,373 - core.podcast - INFO - [22/50] 正在获取播客 63b7c6697dcc05cd33b51cd5 的剧集信息...
+2025-01-22 14:57:20,437 - core.podcast - INFO - 保存了 52 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/63b7c6697dcc05cd33b51cd5.json
+2025-01-22 14:57:20,437 - core.podcast - INFO - [22/50] 获取到 52 个剧集
+2025-01-22 14:57:20,437 - core.podcast - INFO - [22/50] 处理完成: 63b7c6697dcc05cd33b51cd5, 耗时: 1.06秒
+2025-01-22 14:57:20,437 - core.podcast - INFO - [23/50] 正在获取播客 62f0866a8591545f27dc71fb 的剧集信息...
+2025-01-22 14:57:22,235 - core.podcast - INFO - 保存了 78 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/62f0866a8591545f27dc71fb.json
+2025-01-22 14:57:22,235 - core.podcast - INFO - [23/50] 获取到 78 个剧集
+2025-01-22 14:57:22,236 - core.podcast - INFO - [23/50] 处理完成: 62f0866a8591545f27dc71fb, 耗时: 1.80秒
+2025-01-22 14:57:22,236 - core.podcast - INFO - [24/50] 正在获取播客 63d116e3fcf5756b51cc2d2a 的剧集信息...
+2025-01-22 14:57:24,278 - core.podcast - INFO - 保存了 99 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/63d116e3fcf5756b51cc2d2a.json
+2025-01-22 14:57:24,278 - core.podcast - INFO - [24/50] 获取到 99 个剧集
+2025-01-22 14:57:24,278 - core.podcast - INFO - [24/50] 处理完成: 63d116e3fcf5756b51cc2d2a, 耗时: 2.04秒
+2025-01-22 14:57:24,278 - core.podcast - INFO - [25/50] 正在获取播客 60cdf955afc14743da17f815 的剧集信息...
+2025-01-22 14:57:24,943 - core.podcast - INFO - 保存了 35 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/60cdf955afc14743da17f815.json
+2025-01-22 14:57:24,943 - core.podcast - INFO - [25/50] 获取到 35 个剧集
+2025-01-22 14:57:24,943 - core.podcast - INFO - [25/50] 处理完成: 60cdf955afc14743da17f815, 耗时: 0.66秒
+2025-01-22 14:57:24,943 - core.podcast - INFO - [26/50] 正在获取播客 649bee3e9adaa9a414ad02cf 的剧集信息...
+2025-01-22 14:57:26,544 - core.podcast - INFO - 保存了 79 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/649bee3e9adaa9a414ad02cf.json
+2025-01-22 14:57:26,544 - core.podcast - INFO - [26/50] 获取到 79 个剧集
+2025-01-22 14:57:26,544 - core.podcast - INFO - [26/50] 处理完成: 649bee3e9adaa9a414ad02cf, 耗时: 1.60秒
+2025-01-22 14:57:26,544 - core.podcast - INFO - [27/50] 正在获取播客 606547c8e5c273d2a3689a3e 的剧集信息...
+2025-01-22 14:57:28,602 - core.podcast - INFO - 保存了 82 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/606547c8e5c273d2a3689a3e.json
+2025-01-22 14:57:28,602 - core.podcast - INFO - [27/50] 获取到 82 个剧集
+2025-01-22 14:57:28,602 - core.podcast - INFO - [27/50] 处理完成: 606547c8e5c273d2a3689a3e, 耗时: 2.06秒
+2025-01-22 14:57:28,602 - core.podcast - INFO - [28/50] 正在获取播客 6120baa0e1fc02d91e3519ae 的剧集信息...
+2025-01-22 14:57:30,604 - core.podcast - INFO - 保存了 78 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6120baa0e1fc02d91e3519ae.json
+2025-01-22 14:57:30,605 - core.podcast - INFO - [28/50] 获取到 78 个剧集
+2025-01-22 14:57:30,605 - core.podcast - INFO - [28/50] 处理完成: 6120baa0e1fc02d91e3519ae, 耗时: 2.00秒
+2025-01-22 14:57:30,605 - core.podcast - INFO - [29/50] 正在获取播客 5e7eb85d418a84a0465eda82 的剧集信息...
+2025-01-22 14:57:31,228 - core.podcast - INFO - 保存了 28 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e7eb85d418a84a0465eda82.json
+2025-01-22 14:57:31,228 - core.podcast - INFO - [29/50] 获取到 28 个剧集
+2025-01-22 14:57:31,229 - core.podcast - INFO - [29/50] 处理完成: 5e7eb85d418a84a0465eda82, 耗时: 0.62秒
+2025-01-22 14:57:31,229 - core.podcast - INFO - [30/50] 正在获取播客 604f3cd042d469df009c3e0d 的剧集信息...
+2025-01-22 14:57:32,768 - core.podcast - INFO - 保存了 66 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/604f3cd042d469df009c3e0d.json
+2025-01-22 14:57:32,768 - core.podcast - INFO - [30/50] 获取到 66 个剧集
+2025-01-22 14:57:32,768 - core.podcast - INFO - [30/50] 处理完成: 604f3cd042d469df009c3e0d, 耗时: 1.54秒
+2025-01-22 14:57:32,768 - core.podcast - INFO - [31/50] 正在获取播客 5f33c9c59504bbdb779dffd5 的剧集信息...
+2025-01-22 14:57:34,108 - core.podcast - INFO - 保存了 69 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5f33c9c59504bbdb779dffd5.json
+2025-01-22 14:57:34,108 - core.podcast - INFO - [31/50] 获取到 69 个剧集
+2025-01-22 14:57:34,108 - core.podcast - INFO - [31/50] 处理完成: 5f33c9c59504bbdb779dffd5, 耗时: 1.34秒
+2025-01-22 14:57:34,108 - core.podcast - INFO - [32/50] 正在获取播客 60abca02eb3e72d92188a49d 的剧集信息...
+2025-01-22 14:57:34,611 - core.podcast - INFO - 保存了 16 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/60abca02eb3e72d92188a49d.json
+2025-01-22 14:57:34,611 - core.podcast - INFO - [32/50] 获取到 16 个剧集
+2025-01-22 14:57:34,611 - core.podcast - INFO - [32/50] 处理完成: 60abca02eb3e72d92188a49d, 耗时: 0.50秒
+2025-01-22 14:57:34,611 - core.podcast - INFO - [33/50] 正在获取播客 6300f3f22427ab3f84afacc4 的剧集信息...
+2025-01-22 14:57:37,179 - core.podcast - INFO - 保存了 123 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6300f3f22427ab3f84afacc4.json
+2025-01-22 14:57:37,179 - core.podcast - INFO - [33/50] 获取到 123 个剧集
+2025-01-22 14:57:37,179 - core.podcast - INFO - [33/50] 处理完成: 6300f3f22427ab3f84afacc4, 耗时: 2.57秒
+2025-01-22 14:57:37,179 - core.podcast - INFO - [34/50] 正在获取播客 6020f8140c19368f750c631e 的剧集信息...
+2025-01-22 14:57:37,639 - core.podcast - INFO - 保存了 27 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6020f8140c19368f750c631e.json
+2025-01-22 14:57:37,639 - core.podcast - INFO - [34/50] 获取到 27 个剧集
+2025-01-22 14:57:37,639 - core.podcast - INFO - [34/50] 处理完成: 6020f8140c19368f750c631e, 耗时: 0.46秒
+2025-01-22 14:57:37,639 - core.podcast - INFO - [35/50] 正在获取播客 62382c1103bea1ebfffa1c00 的剧集信息...
+2025-01-22 14:57:40,735 - core.podcast - INFO - 保存了 145 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/62382c1103bea1ebfffa1c00.json
+2025-01-22 14:57:40,735 - core.podcast - INFO - [35/50] 获取到 145 个剧集
+2025-01-22 14:57:40,735 - core.podcast - INFO - [35/50] 处理完成: 62382c1103bea1ebfffa1c00, 耗时: 3.10秒
+2025-01-22 14:57:40,735 - core.podcast - INFO - [36/50] 正在获取播客 6023c77a258bb5afeca71ff1 的剧集信息...
+2025-01-22 14:57:43,684 - core.podcast - INFO - 保存了 159 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6023c77a258bb5afeca71ff1.json
+2025-01-22 14:57:43,684 - core.podcast - INFO - [36/50] 获取到 159 个剧集
+2025-01-22 14:57:43,684 - core.podcast - INFO - [36/50] 处理完成: 6023c77a258bb5afeca71ff1, 耗时: 2.95秒
+2025-01-22 14:57:43,684 - core.podcast - INFO - [37/50] 正在获取播客 60de7c003dd577b40d5a40f3 的剧集信息...
+2025-01-22 14:57:56,251 - core.podcast - INFO - 保存了 670 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/60de7c003dd577b40d5a40f3.json
+2025-01-22 14:57:56,251 - core.podcast - INFO - [37/50] 获取到 670 个剧集
+2025-01-22 14:57:56,251 - core.podcast - INFO - [37/50] 处理完成: 60de7c003dd577b40d5a40f3, 耗时: 12.57秒
+2025-01-22 14:57:56,251 - core.podcast - INFO - [38/50] 正在获取播客 5e7cc741418a84a046b0c2bd 的剧集信息...
+2025-01-22 14:58:01,697 - core.podcast - INFO - 保存了 257 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e7cc741418a84a046b0c2bd.json
+2025-01-22 14:58:01,697 - core.podcast - INFO - [38/50] 获取到 257 个剧集
+2025-01-22 14:58:01,697 - core.podcast - INFO - [38/50] 处理完成: 5e7cc741418a84a046b0c2bd, 耗时: 5.45秒
+2025-01-22 14:58:01,697 - core.podcast - INFO - [39/50] 正在获取播客 610d156f5df6959814391430 的剧集信息...
+2025-01-22 14:58:02,616 - core.podcast - INFO - 保存了 34 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/610d156f5df6959814391430.json
+2025-01-22 14:58:02,617 - core.podcast - INFO - [39/50] 获取到 34 个剧集
+2025-01-22 14:58:02,617 - core.podcast - INFO - [39/50] 处理完成: 610d156f5df6959814391430, 耗时: 0.92秒
+2025-01-22 14:58:02,617 - core.podcast - INFO - [40/50] 正在获取播客 611719d3cb0b82e1df0ad29e 的剧集信息...
+2025-01-22 14:58:03,552 - core.podcast - INFO - 保存了 37 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/611719d3cb0b82e1df0ad29e.json
+2025-01-22 14:58:03,552 - core.podcast - INFO - [40/50] 获取到 37 个剧集
+2025-01-22 14:58:03,552 - core.podcast - INFO - [40/50] 处理完成: 611719d3cb0b82e1df0ad29e, 耗时: 0.94秒
+2025-01-22 14:58:03,552 - core.podcast - INFO - [41/50] 正在获取播客 5e284e0c418a84a0462693e4 的剧集信息...
+2025-01-22 14:58:04,802 - core.podcast - INFO - 保存了 70 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e284e0c418a84a0462693e4.json
+2025-01-22 14:58:04,802 - core.podcast - INFO - [41/50] 获取到 70 个剧集
+2025-01-22 14:58:04,802 - core.podcast - INFO - [41/50] 处理完成: 5e284e0c418a84a0462693e4, 耗时: 1.25秒
+2025-01-22 14:58:04,802 - core.podcast - INFO - [42/50] 正在获取播客 5f56592d83c34e85dd9b6d53 的剧集信息...
+2025-01-22 14:58:07,216 - core.podcast - INFO - 保存了 117 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5f56592d83c34e85dd9b6d53.json
+2025-01-22 14:58:07,216 - core.podcast - INFO - [42/50] 获取到 117 个剧集
+2025-01-22 14:58:07,216 - core.podcast - INFO - [42/50] 处理完成: 5f56592d83c34e85dd9b6d53, 耗时: 2.41秒
+2025-01-22 14:58:07,216 - core.podcast - INFO - [43/50] 正在获取播客 6049a089b875ad149b233c55 的剧集信息...
+2025-01-22 14:58:09,834 - core.podcast - INFO - 保存了 128 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/6049a089b875ad149b233c55.json
+2025-01-22 14:58:09,834 - core.podcast - INFO - [43/50] 获取到 128 个剧集
+2025-01-22 14:58:09,834 - core.podcast - INFO - [43/50] 处理完成: 6049a089b875ad149b233c55, 耗时: 2.62秒
+2025-01-22 14:58:09,834 - core.podcast - INFO - [44/50] 正在获取播客 5e7cccf8418a84a046c4e7f9 的剧集信息...
+2025-01-22 14:58:14,183 - core.podcast - INFO - 保存了 252 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e7cccf8418a84a046c4e7f9.json
+2025-01-22 14:58:14,184 - core.podcast - INFO - [44/50] 获取到 252 个剧集
+2025-01-22 14:58:14,184 - core.podcast - INFO - [44/50] 处理完成: 5e7cccf8418a84a046c4e7f9, 耗时: 4.35秒
+2025-01-22 14:58:14,184 - core.podcast - INFO - [45/50] 正在获取播客 5f445cdb9504bbdb77f092e9 的剧集信息...
+2025-01-22 14:58:15,311 - core.podcast - INFO - 保存了 58 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5f445cdb9504bbdb77f092e9.json
+2025-01-22 14:58:15,311 - core.podcast - INFO - [45/50] 获取到 58 个剧集
+2025-01-22 14:58:15,311 - core.podcast - INFO - [45/50] 处理完成: 5f445cdb9504bbdb77f092e9, 耗时: 1.13秒
+2025-01-22 14:58:15,311 - core.podcast - INFO - [46/50] 正在获取播客 5e280fa8418a84a0461f9384 的剧集信息...
+2025-01-22 14:58:21,908 - core.podcast - INFO - 保存了 318 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e280fa8418a84a0461f9384.json
+2025-01-22 14:58:21,908 - core.podcast - INFO - [46/50] 获取到 318 个剧集
+2025-01-22 14:58:21,908 - core.podcast - INFO - [46/50] 处理完成: 5e280fa8418a84a0461f9384, 耗时: 6.60秒
+2025-01-22 14:58:21,908 - core.podcast - INFO - [47/50] 正在获取播客 5e4515bd418a84a046e2b11a 的剧集信息...
+2025-01-22 14:58:27,475 - core.podcast - INFO - 保存了 273 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e4515bd418a84a046e2b11a.json
+2025-01-22 14:58:27,475 - core.podcast - INFO - [47/50] 获取到 273 个剧集
+2025-01-22 14:58:27,475 - core.podcast - INFO - [47/50] 处理完成: 5e4515bd418a84a046e2b11a, 耗时: 5.57秒
+2025-01-22 14:58:27,475 - core.podcast - INFO - [48/50] 正在获取播客 5e280fb1418a84a0461fc892 的剧集信息...
+2025-01-22 14:58:29,176 - core.podcast - INFO - 保存了 90 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e280fb1418a84a0461fc892.json
+2025-01-22 14:58:29,176 - core.podcast - INFO - [48/50] 获取到 90 个剧集
+2025-01-22 14:58:29,176 - core.podcast - INFO - [48/50] 处理完成: 5e280fb1418a84a0461fc892, 耗时: 1.70秒
+2025-01-22 14:58:29,177 - core.podcast - INFO - [49/50] 正在获取播客 5e2831ed418a84a046231c00 的剧集信息...
+2025-01-22 14:58:36,465 - core.podcast - INFO - 保存了 348 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e2831ed418a84a046231c00.json
+2025-01-22 14:58:36,466 - core.podcast - INFO - [49/50] 获取到 348 个剧集
+2025-01-22 14:58:36,466 - core.podcast - INFO - [49/50] 处理完成: 5e2831ed418a84a046231c00, 耗时: 7.29秒
+2025-01-22 14:58:36,466 - core.podcast - INFO - [50/50] 正在获取播客 5e4ee557418a84a0466737b7 的剧集信息...
+2025-01-22 14:58:45,631 - core.podcast - INFO - 保存了 472 个剧集到: /Users/hsiangyu/Inbox/Podcast2RSS/data/episodes/5e4ee557418a84a0466737b7.json
+2025-01-22 14:58:45,632 - core.podcast - INFO - [50/50] 获取到 472 个剧集
+2025-01-22 14:58:45,632 - core.podcast - INFO - [50/50] 处理完成: 5e4ee557418a84a0466737b7, 耗时: 9.17秒
+2025-01-22 14:58:45,633 - __main__ - INFO - 完成更新播客与剧集数据...
+2025-01-22 14:58:45,633 - __main__ - INFO - [1/50] 开始处理播客：浪潮之巅
+2025-01-22 14:58:45,633 - __main__ - INFO - 正在处理播客: 63c534ba100c9300109380d9
+2025-01-22 14:58:45,634 - __main__ - INFO - 从文件读取到 3 个剧集
+2025-01-22 14:58:45,634 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,634 - core.transcription - INFO - 播客 63c534ba100c9300109380d9 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,634 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,634 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,634 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,634 - __main__ - INFO - [2/50] 开始处理播客：出海相对论
+2025-01-22 14:58:45,634 - __main__ - INFO - 正在处理播客: 63b7dd49289d2739647d9587
+2025-01-22 14:58:45,635 - __main__ - INFO - 从文件读取到 23 个剧集
+2025-01-22 14:58:45,635 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,637 - core.transcription - INFO - 播客 63b7dd49289d2739647d9587 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,637 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,637 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,637 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,637 - __main__ - INFO - [3/50] 开始处理播客：人民公园说AI
+2025-01-22 14:58:45,637 - __main__ - INFO - 正在处理播客: 65257ff6e8ce9deaf70a65e9
+2025-01-22 14:58:45,638 - __main__ - INFO - 从文件读取到 52 个剧集
+2025-01-22 14:58:45,639 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,640 - core.transcription - INFO - 付费剧集，跳过转写: Vol.7 Notion那么难用，却那么成功？用户破亿的Notion做对了什么？｜AI创投内参会 (66ea873a5ca6d0ace3aeb0a4)
+2025-01-22 14:58:45,640 - core.transcription - INFO - 付费剧集，跳过转写: Vol.6 自从用了Cursor，程序员再也不怕失业了？｜AI创投内参会 (66ea8fd53a5ff0a0ca3426ae)
+2025-01-22 14:58:45,640 - core.transcription - INFO - 付费剧集，跳过转写: Vol.5 AiPPT如何一上线就月入百万？创始人亲自拆解｜AI创投内参会 (66ea8b395ca6d0ace3afe5de)
+2025-01-22 14:58:45,640 - core.transcription - INFO - 付费剧集，跳过转写: Vol.4 AI面试外挂Final Round全面拆解！｜AI创投内参会 (66cd9f0ef78678cbe77619a3)
+2025-01-22 14:58:45,640 - core.transcription - INFO - 付费剧集，跳过转写: Vol.3 深度拆解AI口语教练Speak！说OpenAI亲儿子AI含量不高，你受得了？｜AI创投内参会 (66bdf89833591c27be5a4e61)
+2025-01-22 14:58:45,640 - core.transcription - INFO - 付费剧集，跳过转写: Vol.2 深度拆解法律AI Harvey ！估值缩水25%！OpenAI亲儿子也没用？｜AI创投内参会 (66b5be4533591c27bedb31ce)
+2025-01-22 14:58:45,641 - core.transcription - INFO - 付费剧集，跳过转写: Vol.1 硬核拆解Character.AI！10亿美元估值，却成炮灰？｜AI创投内参会 (66b0a7157349f7a557e266a9)
+2025-01-22 14:58:45,641 - core.transcription - INFO - 播客 65257ff6e8ce9deaf70a65e9 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,641 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,641 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,641 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,641 - __main__ - INFO - [4/50] 开始处理播客：起朱楼宴宾客
+2025-01-22 14:58:45,641 - __main__ - INFO - 正在处理播客: 61dd99a47b29652ff572257b
+2025-01-22 14:58:45,644 - __main__ - INFO - 从文件读取到 114 个剧集
+2025-01-22 14:58:45,644 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,647 - core.transcription - INFO - 播客 61dd99a47b29652ff572257b 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,647 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,647 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,647 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,647 - __main__ - INFO - [5/50] 开始处理播客：面基
+2025-01-22 14:58:45,647 - __main__ - INFO - 正在处理播客: 6388760f22567e8ea6ad070f
+2025-01-22 14:58:45,651 - __main__ - INFO - 从文件读取到 92 个剧集
+2025-01-22 14:58:45,651 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,654 - core.transcription - INFO - 播客 6388760f22567e8ea6ad070f 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,654 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,654 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,654 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,654 - __main__ - INFO - [6/50] 开始处理播客：42章经
+2025-01-22 14:58:45,654 - __main__ - INFO - 正在处理播客: 648b0b641c48983391a63f98
+2025-01-22 14:58:45,656 - __main__ - INFO - 从文件读取到 35 个剧集
+2025-01-22 14:58:45,656 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,657 - core.transcription - INFO - 播客 648b0b641c48983391a63f98 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,657 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,657 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,657 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,657 - __main__ - INFO - [7/50] 开始处理播客：十字路口Crossing
+2025-01-22 14:58:45,657 - __main__ - INFO - 正在处理播客: 60502e253c92d4f62c2a9577
+2025-01-22 14:58:45,659 - __main__ - INFO - 从文件读取到 44 个剧集
+2025-01-22 14:58:45,659 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,660 - core.transcription - INFO - 播客 60502e253c92d4f62c2a9577 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,660 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,660 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,660 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,660 - __main__ - INFO - [8/50] 开始处理播客：商业就是这样
+2025-01-22 14:58:45,660 - __main__ - INFO - 正在处理播客: 6022a180ef5fdaddc30bb101
+2025-01-22 14:58:45,666 - __main__ - INFO - 从文件读取到 232 个剧集
+2025-01-22 14:58:45,666 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,672 - core.transcription - INFO - 播客 6022a180ef5fdaddc30bb101 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,672 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,672 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,672 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,672 - __main__ - INFO - [9/50] 开始处理播客：疯投圈
+2025-01-22 14:58:45,672 - __main__ - INFO - 正在处理播客: 5e280faf418a84a0461fbd39
+2025-01-22 14:58:45,674 - __main__ - INFO - 从文件读取到 108 个剧集
+2025-01-22 14:58:45,674 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,676 - core.transcription - INFO - 播客 5e280faf418a84a0461fbd39 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,676 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,676 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,676 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,676 - __main__ - INFO - [10/50] 开始处理播客：乱翻书
+2025-01-22 14:58:45,676 - __main__ - INFO - 正在处理播客: 61358d971c5d56efe5bcb5d2
+2025-01-22 14:58:45,681 - __main__ - INFO - 从文件读取到 199 个剧集
+2025-01-22 14:58:45,681 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,685 - core.transcription - INFO - 播客 61358d971c5d56efe5bcb5d2 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,685 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,685 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,685 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,685 - __main__ - INFO - [11/50] 开始处理播客：高能量
+2025-01-22 14:58:45,685 - __main__ - INFO - 正在处理播客: 62c6ae08c4eaa82b112b9c84
+2025-01-22 14:58:45,691 - __main__ - INFO - 从文件读取到 152 个剧集
+2025-01-22 14:58:45,691 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,696 - core.transcription - INFO - 播客 62c6ae08c4eaa82b112b9c84 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,696 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,696 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,696 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,696 - __main__ - INFO - [12/50] 开始处理播客：电影巨辩
+2025-01-22 14:58:45,696 - __main__ - INFO - 正在处理播客: 64259df8179eec5331c4aecc
+2025-01-22 14:58:45,697 - __main__ - INFO - 从文件读取到 21 个剧集
+2025-01-22 14:58:45,697 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,698 - core.transcription - INFO - 剧集时长超过5小时，跳过转写: 18.戛纳与美国电影的文艺复兴 (666eb8edb6a84127291c8997), 时长: 6.1小时
+2025-01-22 14:58:45,698 - core.transcription - INFO - 剧集时长超过5小时，跳过转写: 15.奥斯卡与百年美国 (65f404556764957079826f89), 时长: 6.0小时
+2025-01-22 14:58:45,698 - core.transcription - INFO - 播客 64259df8179eec5331c4aecc 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,698 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,698 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,698 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,698 - __main__ - INFO - [13/50] 开始处理播客：此话当真
+2025-01-22 14:58:45,698 - __main__ - INFO - 正在处理播客: 646f194853a5e5ea1408d97c
+2025-01-22 14:58:45,700 - __main__ - INFO - 从文件读取到 33 个剧集
+2025-01-22 14:58:45,700 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,701 - core.transcription - INFO - 播客 646f194853a5e5ea1408d97c 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,701 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,701 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,701 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,701 - __main__ - INFO - [14/50] 开始处理播客：好公司研究院
+2025-01-22 14:58:45,701 - __main__ - INFO - 正在处理播客: 658057ae3d1caa927acbaf60
+2025-01-22 14:58:45,701 - __main__ - INFO - 从文件读取到 5 个剧集
+2025-01-22 14:58:45,701 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,701 - core.transcription - INFO - 播客 658057ae3d1caa927acbaf60 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,701 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,701 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,701 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,701 - __main__ - INFO - [15/50] 开始处理播客：二维吾码
+2025-01-22 14:58:45,702 - __main__ - INFO - 正在处理播客: 5fe5b198dee9c1e16dfb9672
+2025-01-22 14:58:45,705 - __main__ - INFO - 从文件读取到 103 个剧集
+2025-01-22 14:58:45,705 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,708 - core.transcription - INFO - 播客 5fe5b198dee9c1e16dfb9672 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,708 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,708 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,708 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,708 - __main__ - INFO - [16/50] 开始处理播客：OnBoard!
+2025-01-22 14:58:45,708 - __main__ - INFO - 正在处理播客: 61cbaac48bb4cd867fcabe22
+2025-01-22 14:58:45,711 - __main__ - INFO - 从文件读取到 63 个剧集
+2025-01-22 14:58:45,711 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,714 - core.transcription - INFO - 播客 61cbaac48bb4cd867fcabe22 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,714 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,714 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,714 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,714 - __main__ - INFO - [17/50] 开始处理播客：得意忘形
+2025-01-22 14:58:45,714 - __main__ - INFO - 正在处理播客: 5e74543a418a84a046c4e50e
+2025-01-22 14:58:45,715 - __main__ - INFO - 从文件读取到 69 个剧集
+2025-01-22 14:58:45,715 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,716 - core.transcription - INFO - 剧集时长超过5小时，跳过转写: No.59：山与我心里的叙事 (5e74543a418a84a046c4e51c), 时长: 5.5小时
+2025-01-22 14:58:45,716 - core.transcription - INFO - 播客 5e74543a418a84a046c4e50e 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,716 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,716 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,716 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,716 - __main__ - INFO - [18/50] 开始处理播客：硅谷101
+2025-01-22 14:58:45,716 - __main__ - INFO - 正在处理播客: 5e5c52c9418a84a04625e6cc
+2025-01-22 14:58:45,720 - __main__ - INFO - 从文件读取到 183 个剧集
+2025-01-22 14:58:45,720 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,724 - core.transcription - INFO - 剧集时长低于3分钟，跳过转写: 活动预告：我们硅谷线下见 (66eba733f2ef4f895e778b88), 时长: 2.2分钟
+2025-01-22 14:58:45,725 - core.transcription - INFO - 播客 5e5c52c9418a84a04625e6cc 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,725 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,725 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,725 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,725 - __main__ - INFO - [19/50] 开始处理播客：代码之外 Beyond Code
+2025-01-22 14:58:45,725 - __main__ - INFO - 正在处理播客: 6194d973c14c9a0db82de1ea
+2025-01-22 14:58:45,726 - __main__ - INFO - 从文件读取到 39 个剧集
+2025-01-22 14:58:45,726 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,727 - core.transcription - INFO - 付费剧集，跳过转写: （会员专属）听友来了之 F1 摄影师｜F1独特的“企业文化”｜赛车危险吗｜如何评价周冠宇｜F1观赛指南 (67455d118d1233fb0d1ddff9)
+2025-01-22 14:58:45,727 - core.transcription - INFO - 播客 6194d973c14c9a0db82de1ea 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,727 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,727 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,727 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,727 - __main__ - INFO - [20/50] 开始处理播客：屠龙之术
+2025-01-22 14:58:45,727 - __main__ - INFO - 正在处理播客: 6507bc165c88d2412626b401
+2025-01-22 14:58:45,729 - __main__ - INFO - 从文件读取到 62 个剧集
+2025-01-22 14:58:45,729 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,731 - core.transcription - INFO - 播客 6507bc165c88d2412626b401 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,731 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,731 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,732 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,732 - __main__ - INFO - [21/50] 开始处理播客：虚实之间True Imagination
+2025-01-22 14:58:45,732 - __main__ - INFO - 正在处理播客: 652fda39f071cb959eef1af4
+2025-01-22 14:58:45,732 - __main__ - INFO - 从文件读取到 60 个剧集
+2025-01-22 14:58:45,732 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,733 - core.transcription - INFO - 播客 652fda39f071cb959eef1af4 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,733 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,734 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,734 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,734 - __main__ - INFO - [22/50] 开始处理播客：除你武器
+2025-01-22 14:58:45,734 - __main__ - INFO - 正在处理播客: 63b7c6697dcc05cd33b51cd5
+2025-01-22 14:58:45,735 - __main__ - INFO - 从文件读取到 52 个剧集
+2025-01-22 14:58:45,735 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,737 - core.transcription - INFO - 播客 63b7c6697dcc05cd33b51cd5 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,737 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,737 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,737 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,737 - __main__ - INFO - [23/50] 开始处理播客：外部性
+2025-01-22 14:58:45,737 - __main__ - INFO - 正在处理播客: 62f0866a8591545f27dc71fb
+2025-01-22 14:58:45,738 - __main__ - INFO - 从文件读取到 78 个剧集
+2025-01-22 14:58:45,738 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,739 - core.transcription - INFO - 付费剧集，跳过转写: 55.现在抄底药明系是个好投资吗？（下篇） (6617be8b5dae7932c6da393d)
+2025-01-22 14:58:45,739 - core.transcription - INFO - 播客 62f0866a8591545f27dc71fb 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,739 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,739 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,739 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,739 - __main__ - INFO - [24/50] 开始处理播客：身边人
+2025-01-22 14:58:45,739 - __main__ - INFO - 正在处理播客: 63d116e3fcf5756b51cc2d2a
+2025-01-22 14:58:45,741 - __main__ - INFO - 从文件读取到 99 个剧集
+2025-01-22 14:58:45,741 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,743 - core.transcription - INFO - 播客 63d116e3fcf5756b51cc2d2a 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,744 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,744 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,744 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,744 - __main__ - INFO - [25/50] 开始处理播客：步履不停 Endless Journey
+2025-01-22 14:58:45,744 - __main__ - INFO - 正在处理播客: 60cdf955afc14743da17f815
+2025-01-22 14:58:45,744 - __main__ - INFO - 从文件读取到 35 个剧集
+2025-01-22 14:58:45,744 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,745 - core.transcription - INFO - 播客 60cdf955afc14743da17f815 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,745 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,745 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,745 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,745 - __main__ - INFO - [26/50] 开始处理播客：满地找钱
+2025-01-22 14:58:45,745 - __main__ - INFO - 正在处理播客: 649bee3e9adaa9a414ad02cf
+2025-01-22 14:58:45,746 - __main__ - INFO - 从文件读取到 79 个剧集
+2025-01-22 14:58:45,746 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,748 - core.transcription - INFO - 播客 649bee3e9adaa9a414ad02cf 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,748 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,748 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,748 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,748 - __main__ - INFO - [27/50] 开始处理播客：组织进化论
+2025-01-22 14:58:45,749 - __main__ - INFO - 正在处理播客: 606547c8e5c273d2a3689a3e
+2025-01-22 14:58:45,751 - __main__ - INFO - 从文件读取到 82 个剧集
+2025-01-22 14:58:45,751 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,753 - core.transcription - INFO - 播客 606547c8e5c273d2a3689a3e 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,753 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,753 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,753 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,753 - __main__ - INFO - [28/50] 开始处理播客：Coffeeplus播客
+2025-01-22 14:58:45,753 - __main__ - INFO - 正在处理播客: 6120baa0e1fc02d91e3519ae
+2025-01-22 14:58:45,760 - __main__ - INFO - 从文件读取到 78 个剧集
+2025-01-22 14:58:45,760 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,765 - core.transcription - INFO - 付费剧集，跳过转写: Vol.66 怎样选择合适的水冲出好喝的咖啡？ (66b2ef164b8eba7e7e1aa874)
+2025-01-22 14:58:45,766 - core.transcription - INFO - 播客 6120baa0e1fc02d91e3519ae 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,766 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,766 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,766 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,766 - __main__ - INFO - [29/50] 开始处理播客：Traders' Talk
+2025-01-22 14:58:45,766 - __main__ - INFO - 正在处理播客: 5e7eb85d418a84a0465eda82
+2025-01-22 14:58:45,767 - __main__ - INFO - 从文件读取到 28 个剧集
+2025-01-22 14:58:45,767 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,769 - core.transcription - INFO - 剧集时长低于3分钟，跳过转写: 【Highlight 预告】#13：拆解元宇宙——元宇宙的四个层次（Sarah & 刘昌用） (62ec39b556476fad07599116), 时长: 2.0分钟
+2025-01-22 14:58:45,769 - core.transcription - INFO - 播客 5e7eb85d418a84a0465eda82 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,769 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,769 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,769 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,769 - __main__ - INFO - [30/50] 开始处理播客：闪光少女
+2025-01-22 14:58:45,769 - __main__ - INFO - 正在处理播客: 604f3cd042d469df009c3e0d
+2025-01-22 14:58:45,770 - __main__ - INFO - 从文件读取到 66 个剧集
+2025-01-22 14:58:45,770 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,772 - core.transcription - INFO - 播客 604f3cd042d469df009c3e0d 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,773 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,773 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,773 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,773 - __main__ - INFO - [31/50] 开始处理播客：Buidler Talk｜Web3 对谈
+2025-01-22 14:58:45,773 - __main__ - INFO - 正在处理播客: 5f33c9c59504bbdb779dffd5
+2025-01-22 14:58:45,775 - __main__ - INFO - 从文件读取到 69 个剧集
+2025-01-22 14:58:45,775 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,777 - core.transcription - INFO - 播客 5f33c9c59504bbdb779dffd5 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,777 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,777 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,777 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,777 - __main__ - INFO - [32/50] 开始处理播客：生存现场
+2025-01-22 14:58:45,777 - __main__ - INFO - 正在处理播客: 60abca02eb3e72d92188a49d
+2025-01-22 14:58:45,777 - __main__ - INFO - 从文件读取到 16 个剧集
+2025-01-22 14:58:45,777 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,778 - core.transcription - INFO - 播客 60abca02eb3e72d92188a49d 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,778 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,778 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,778 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,778 - __main__ - INFO - [33/50] 开始处理播客：体制内 | 小职员们的聊天局
+2025-01-22 14:58:45,778 - __main__ - INFO - 正在处理播客: 6300f3f22427ab3f84afacc4
+2025-01-22 14:58:45,780 - __main__ - INFO - 从文件读取到 123 个剧集
+2025-01-22 14:58:45,780 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,783 - core.transcription - INFO - 付费剧集，跳过转写: 家里没人脉，要怎么往上走？——老梁说职场（五） (6723a1f333c798676f7fedc3)
+2025-01-22 14:58:45,783 - core.transcription - INFO - 付费剧集，跳过转写: 你朋友圈，分组了吗？跟领导的电话、微信礼仪——老梁说职场（四） (671a5b7ab7c57bc077bdc6e1)
+2025-01-22 14:58:45,783 - core.transcription - INFO - 付费剧集，跳过转写: 【国考选岗】找一个好单位，还是确保考上？——老梁说职场（三） (6713ad680d2f24f28949369a)
+2025-01-22 14:58:45,783 - core.transcription - INFO - 付费剧集，跳过转写: 会拒绝，才有职场魅力，不做傻傻的“老实人”——老梁说职场（二） (670ccb030d2f24f289f99717)
+2025-01-22 14:58:45,783 - core.transcription - INFO - 付费剧集，跳过转写: 我不好意思跟领导说“我想晋升”——老梁谈体制内的学生思维内耗 (670494856c7f817786679da0)
+2025-01-22 14:58:45,783 - core.transcription - INFO - 剧集时长低于3分钟，跳过转写: —————第一季分割线————— (670402f281cdab3a93536587), 时长: 1.6分钟
+2025-01-22 14:58:45,783 - core.transcription - INFO - 播客 6300f3f22427ab3f84afacc4 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,783 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,783 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,783 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,783 - __main__ - INFO - [34/50] 开始处理播客：八万四千
+2025-01-22 14:58:45,783 - __main__ - INFO - 正在处理播客: 6020f8140c19368f750c631e
+2025-01-22 14:58:45,784 - __main__ - INFO - 从文件读取到 27 个剧集
+2025-01-22 14:58:45,784 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,784 - core.transcription - INFO - 播客 6020f8140c19368f750c631e 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,784 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,784 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,784 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,784 - __main__ - INFO - [35/50] 开始处理播客：半拿铁 | 商业沉浮录
+2025-01-22 14:58:45,784 - __main__ - INFO - 正在处理播客: 62382c1103bea1ebfffa1c00
+2025-01-22 14:58:45,789 - __main__ - INFO - 从文件读取到 145 个剧集
+2025-01-22 14:58:45,789 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,793 - core.transcription - INFO - 付费剧集，跳过转写: No.124 🖼 改变了动画的宫崎骏与吉卜力 (672796ebcbe0e69c8bcfcb87)
+2025-01-22 14:58:45,793 - core.transcription - INFO - 播客 62382c1103bea1ebfffa1c00 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,793 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,793 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,793 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,793 - __main__ - INFO - [36/50] 开始处理播客：消费新知
+2025-01-22 14:58:45,794 - __main__ - INFO - 正在处理播客: 6023c77a258bb5afeca71ff1
+2025-01-22 14:58:45,796 - __main__ - INFO - 从文件读取到 159 个剧集
+2025-01-22 14:58:45,796 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,799 - core.transcription - INFO - 付费剧集，跳过转写: 149 县城零距离01：从厨房出发，解读县城家庭的消费日常 (66b3357f4b8eba7e7e2e53a7)
+2025-01-22 14:58:45,799 - core.transcription - INFO - 播客 6023c77a258bb5afeca71ff1 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,799 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,799 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,799 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,799 - __main__ - INFO - [37/50] 开始处理播客：声动早咖啡
+2025-01-22 14:58:45,799 - __main__ - INFO - 正在处理播客: 60de7c003dd577b40d5a40f3
+2025-01-22 14:58:45,815 - __main__ - INFO - 从文件读取到 670 个剧集
+2025-01-22 14:58:45,815 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,830 - core.transcription - INFO - 播客 60de7c003dd577b40d5a40f3 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,830 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,830 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,830 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,830 - __main__ - INFO - [38/50] 开始处理播客：随机波动StochasticVolatility
+2025-01-22 14:58:45,830 - __main__ - INFO - 正在处理播客: 5e7cc741418a84a046b0c2bd
+2025-01-22 14:58:45,836 - __main__ - INFO - 从文件读取到 257 个剧集
+2025-01-22 14:58:45,836 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,842 - core.transcription - INFO - 剧集时长低于3分钟，跳过转写: 【预告】永恒的她 | In Her Own Words (6631bf059c66feabbd55c56f), 时长: 2.3分钟
+2025-01-22 14:58:45,842 - core.transcription - INFO - 播客 5e7cc741418a84a046b0c2bd 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,842 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,842 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,842 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,842 - __main__ - INFO - [39/50] 开始处理播客：中金研究院
+2025-01-22 14:58:45,842 - __main__ - INFO - 正在处理播客: 610d156f5df6959814391430
+2025-01-22 14:58:45,844 - __main__ - INFO - 从文件读取到 34 个剧集
+2025-01-22 14:58:45,844 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,846 - core.transcription - INFO - 播客 610d156f5df6959814391430 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,846 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,846 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,846 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,846 - __main__ - INFO - [40/50] 开始处理播客：无人知晓
+2025-01-22 14:58:45,846 - __main__ - INFO - 正在处理播客: 611719d3cb0b82e1df0ad29e
+2025-01-22 14:58:45,848 - __main__ - INFO - 从文件读取到 37 个剧集
+2025-01-22 14:58:45,848 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,849 - core.transcription - INFO - 播客 611719d3cb0b82e1df0ad29e 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,849 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,849 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,849 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,849 - __main__ - INFO - [41/50] 开始处理播客：内核恐慌
+2025-01-22 14:58:45,849 - __main__ - INFO - 正在处理播客: 5e284e0c418a84a0462693e4
+2025-01-22 14:58:45,851 - __main__ - INFO - 从文件读取到 70 个剧集
+2025-01-22 14:58:45,851 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,853 - core.transcription - INFO - 剧集时长低于3分钟，跳过转写: 67. 上海聚会通知 (64f2df58dface16fd56ba34a), 时长: 1.6分钟
+2025-01-22 14:58:45,853 - core.transcription - INFO - 播客 5e284e0c418a84a0462693e4 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,853 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,853 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,853 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,853 - __main__ - INFO - [42/50] 开始处理播客：限时肤浅
+2025-01-22 14:58:45,853 - __main__ - INFO - 正在处理播客: 5f56592d83c34e85dd9b6d53
+2025-01-22 14:58:45,856 - __main__ - INFO - 从文件读取到 117 个剧集
+2025-01-22 14:58:45,856 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,860 - core.transcription - INFO - 播客 5f56592d83c34e85dd9b6d53 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,860 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,861 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,861 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,861 - __main__ - INFO - [43/50] 开始处理播客：问题青年
+2025-01-22 14:58:45,861 - __main__ - INFO - 正在处理播客: 6049a089b875ad149b233c55
+2025-01-22 14:58:45,864 - __main__ - INFO - 从文件读取到 128 个剧集
+2025-01-22 14:58:45,864 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,868 - core.transcription - INFO - 播客 6049a089b875ad149b233c55 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,868 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,868 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,868 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,868 - __main__ - INFO - [44/50] 开始处理播客：创业内幕 Startup Insider
+2025-01-22 14:58:45,868 - __main__ - INFO - 正在处理播客: 5e7cccf8418a84a046c4e7f9
+2025-01-22 14:58:45,873 - __main__ - INFO - 从文件读取到 252 个剧集
+2025-01-22 14:58:45,873 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,879 - core.transcription - INFO - 播客 5e7cccf8418a84a046c4e7f9 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,880 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,880 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,880 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,880 - __main__ - INFO - [45/50] 开始处理播客：泡腾 VC
+2025-01-22 14:58:45,880 - __main__ - INFO - 正在处理播客: 5f445cdb9504bbdb77f092e9
+2025-01-22 14:58:45,882 - __main__ - INFO - 从文件读取到 58 个剧集
+2025-01-22 14:58:45,882 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,883 - core.transcription - INFO - 播客 5f445cdb9504bbdb77f092e9 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,883 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,883 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,883 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,883 - __main__ - INFO - [46/50] 开始处理播客：无时差研究所
+2025-01-22 14:58:45,883 - __main__ - INFO - 正在处理播客: 5e280fa8418a84a0461f9384
+2025-01-22 14:58:45,891 - __main__ - INFO - 从文件读取到 318 个剧集
+2025-01-22 14:58:45,891 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,900 - core.transcription - INFO - 播客 5e280fa8418a84a0461f9384 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,901 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,901 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,901 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,901 - __main__ - INFO - [47/50] 开始处理播客：文化有限
+2025-01-22 14:58:45,901 - __main__ - INFO - 正在处理播客: 5e4515bd418a84a046e2b11a
+2025-01-22 14:58:45,907 - __main__ - INFO - 从文件读取到 273 个剧集
+2025-01-22 14:58:45,907 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,913 - core.transcription - INFO - 播客 5e4515bd418a84a046e2b11a 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,913 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,913 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,913 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,913 - __main__ - INFO - [48/50] 开始处理播客：一天世界
+2025-01-22 14:58:45,913 - __main__ - INFO - 正在处理播客: 5e280fb1418a84a0461fc892
+2025-01-22 14:58:45,915 - __main__ - INFO - 从文件读取到 90 个剧集
+2025-01-22 14:58:45,915 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,916 - core.transcription - INFO - 播客 5e280fb1418a84a0461fc892 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,917 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,917 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,917 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,917 - __main__ - INFO - [49/50] 开始处理播客：声东击西
+2025-01-22 14:58:45,917 - __main__ - INFO - 正在处理播客: 5e2831ed418a84a046231c00
+2025-01-22 14:58:45,925 - __main__ - INFO - 从文件读取到 348 个剧集
+2025-01-22 14:58:45,925 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,934 - core.transcription - INFO - 付费剧集，跳过转写: #330 请收下这枚记录 2024 年的声音时光胶囊 (676b8da01e823e72d394277b)
+2025-01-22 14:58:45,934 - core.transcription - INFO - 播客 5e2831ed418a84a046231c00 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,934 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,935 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,935 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,935 - __main__ - INFO - [50/50] 开始处理播客：忽左忽右
+2025-01-22 14:58:45,935 - __main__ - INFO - 正在处理播客: 5e4ee557418a84a0466737b7
+2025-01-22 14:58:45,945 - __main__ - INFO - 从文件读取到 472 个剧集
+2025-01-22 14:58:45,946 - __main__ - INFO - 正在处理音频转写...
+2025-01-22 14:58:45,958 - core.transcription - INFO - 播客 5e4ee557418a84a0466737b7 共找到 0 个未转写的剧集
+2025-01-22 14:58:45,958 - core.transcription - INFO - 找到 0 个未转写的剧集
+2025-01-22 14:58:45,958 - core.transcription - INFO - 没有需要转写的剧集
+2025-01-22 14:58:45,958 - __main__ - INFO - 没有新的转写内容，跳过RSS生成
+2025-01-22 14:58:45,958 - __main__ - INFO - 所有播客处理完成，总耗时：135.68秒

@@ -7,6 +7,7 @@ from pathlib import Path
 import time
 import logging
 import yaml
+from datetime import datetime
 
 try:
     from .storage import Storage
@@ -18,13 +19,15 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class PodcastClient:
-    """小宇宙API客户端"""
+    """小宇宙播客客户端"""
     
-    def __init__(self):
-        # 初始化存储
-        self.storage = Storage()
+    def __init__(self, storage):
+        """初始化客户端
         
-        # 初始化headers
+        Args:
+            storage: Storage实例，用于管理数据存储
+        """
+        self.storage = storage
         self.headers = {
             "host": "api.xiaoyuzhoufm.com",
             "applicationid": "app.podcast.cosmos",
@@ -60,7 +63,7 @@ class PodcastClient:
         time.sleep(1)
 
     @retry(stop_max_attempt_number=3, wait_fixed=5000)
-    def get_podcast(self):
+    def get_subscription(self):
         """获取订阅的播客列表"""
         results = []
         url = "https://api.xiaoyuzhoufm.com/v1/subscription/list"
@@ -117,6 +120,57 @@ class PodcastClient:
                 
         return episodes
 
+    @retry(stop_max_attempt_number=3, wait_fixed=5000)
+    def get_podcast_info(self, pid):
+        """获取单个播客的信息"""
+        self.ensure_token()
+        url = f"https://api.xiaoyuzhoufm.com/v1/podcast/get?pid={pid}"
+        
+        # 获取ISO格式的当前时间
+        now = datetime.now()
+        iso_time = now.strftime("%Y-%m-%dT%H:%M:%S%z")
+        
+        # 添加必要的请求头
+        headers = {
+            **self.headers,
+            'User-Agent': 'Xiaoyuzhou/2.57.1 (build:1576; iOS 17.4.1)',
+            'Market': 'AppStore',
+            'App-BuildNo': '1576',
+            'OS': 'ios',
+            'Manufacturer': 'Apple',
+            'BundleID': 'app.podcast.cosmos',
+            'Model': 'iPhone14,2',
+            'App-Version': '2.57.1',
+            'OS-Version': '17.4.1',
+            'Local-Time': iso_time,
+            'Timezone': 'Asia/Shanghai',
+            'Accept': '*/*',
+            'Accept-Language': 'zh-Hant-HK;q=1.0, zh-Hans-CN;q=0.9'
+        }
+
+        resp = requests.get(url, headers=headers)
+
+        if not resp.ok:
+            if resp.status_code == 401:
+                self.refresh_token()
+                return self.get_podcast_info(pid)
+            raise Exception(f"获取播客信息失败: {resp.text}")
+            
+        podcast = resp.json().get("data", {})
+        if not podcast:
+            raise Exception(f"未获取到播客信息: {pid}")
+            
+        # 只保留需要的字段
+        filtered_podcast = {
+            'latestEpisodePubDate': podcast.get('latestEpisodePubDate'),
+            'pid': podcast.get('pid'),
+            'title': podcast.get('title'),
+            'brief': podcast.get('brief'),
+            'episodeCount': podcast.get('episodeCount', 0),
+            'description': podcast.get('description')
+        }
+        return filtered_podcast
+
     def save_episodes(self, episodes, pid):
         """保存播客剧集到文件"""
         filepath = self.storage.get_episodes_file(pid)
@@ -166,52 +220,39 @@ class PodcastClient:
             pids: 要更新的播客ID列表，如果为None则更新所有订阅的播客
         """
         try:
-            # 1. 获取并保存订阅的播客信息
-            results = self.get_podcast()
-            # 只保留指定字段
-            filtered_results = []
+            # 1. 获取并保存指定播客信息
             total_episodes = 0
-            for podcast in results:
-                episode_count = podcast.get('episodeCount', 0)
-                total_episodes += episode_count
-                filtered_podcast = {
-                    'latestEpisodePubDate': podcast.get('latestEpisodePubDate'),
-                    'pid': podcast.get('pid'),
-                    'title': podcast.get('title'),
-                    'brief': podcast.get('brief'),
-                    'episodeCount': episode_count,
-                    'description': podcast.get('description')
-                }
-                filtered_results.append(filtered_podcast)
+            results = []
+            
+            for pid in pids:
+                # 获取并保存单个播客信息
+                podcast = self.get_podcast_info(pid)
+                results.append(podcast)
+                total_episodes += podcast.get('episodeCount', 0)
                 
-                # 将单个播客信息保存为独立的JSON文件
-                pid = filtered_podcast['pid']
+                # 保存到独立文件
                 podcast_file = self.storage.get_podcast_file(pid)
                 with open(podcast_file, "w", encoding="utf-8") as f:
-                    json.dump(filtered_podcast, f, ensure_ascii=False, indent=4)
-                
-            # 将所有播客信息存储为JSON文件
-            output_file = self.storage.podcasts_dir / "subscribe_podcasts.json"
-            with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(filtered_results, f, ensure_ascii=False, indent=4)
-            logger.info(f"更新订阅信息")
-            logger.info(f"所有播客总集数: {total_episodes}")
-            
+                    json.dump(podcast, f, ensure_ascii=False, indent=4)
+
+            logger.info(f"更新播客信息完成")
+            logger.info(f"所有播客历史总集数: {total_episodes}")
+
             # 2. 获取指定播客的剧集信息
-            if pids:
-                for pid in pids:
-                    try:
-                        start_time = time.time()
-                        episodes = self.get_episodes(pid)
-                        if episodes:
-                            self.save_episodes(episodes, pid)
-                            logger.info(f"获取到 {len(episodes)} 个剧集")
-                        else:
-                            logger.warning(f"播客 {pid} 没有任何剧集")
-                        process_time = time.time() - start_time
-                        logger.info(f"处理完成: {pid}, 耗时: {process_time:.2f}秒")
-                    except Exception as e:
-                        logger.error(f"处理失败: {pid}, 错误: {str(e)}")
+            for index, pid in enumerate(pids, 1):
+                try:
+                    start_time = time.time()
+                    logger.info(f"[{index}/{len(pids)}] 正在获取播客 {pid} 的剧集信息...")
+                    episodes = self.get_episodes(pid)
+                    if episodes:
+                        self.save_episodes(episodes, pid)
+                        logger.info(f"[{index}/{len(pids)}] 获取到 {len(episodes)} 个剧集")
+                    else:
+                        logger.warning(f"[{index}/{len(pids)}] 播客 {pid} 没有任何剧集")
+                    process_time = time.time() - start_time
+                    logger.info(f"[{index}/{len(pids)}] 处理完成: {pid}, 耗时: {process_time:.2f}秒")
+                except Exception as e:
+                    logger.error(f"[{index}/{len(pids)}] 处理失败: {pid}, 错误: {str(e)}")
         except Exception as e:
             logger.error(f"执行失败: {str(e)}")
             raise

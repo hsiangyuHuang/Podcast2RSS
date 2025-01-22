@@ -60,7 +60,8 @@ class RSSProcessor:
 
     def _format_channel_xml(self, channel_info: dict) -> str:
         """生成RSS频道的XML头部"""
-        current_time = formatdate(timeval=None, localtime=False, usegmt=True)
+        # 使用 pendulum 处理时区
+        current_time = pendulum.now('Asia/Shanghai').format('ddd, DD MMM YYYY HH:mm:ss ZZ')
         return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
     <channel>

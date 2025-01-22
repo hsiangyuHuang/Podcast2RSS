@@ -6,6 +6,7 @@ import pendulum
 from src.core.storage import Storage
 import datetime
 from html import escape
+import time
 
 class RSSProcessor:
     """RSS处理器类"""
@@ -59,13 +60,14 @@ class RSSProcessor:
 
     def _format_channel_xml(self, channel_info: dict) -> str:
         """生成RSS频道的XML头部"""
+        current_time = formatdate(timeval=None, localtime=False, usegmt=True)
         return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
     <channel>
         <title>{escape(channel_info['title'])}</title>
         <link>{escape(channel_info['link'])}</link>
         <description>{escape(channel_info['description'])}</description>
-        <lastBuildDate>{channel_info['latestEpisodePubDate']}</lastBuildDate>"""
+        <lastBuildDate>{current_time}</lastBuildDate>"""
 
     def _format_item_xml(self, item_info: dict) -> str:
         """生成RSS条目的XML"""

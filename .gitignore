@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+.env
+.cache/
+
+# 首先忽略所有文件
+data/*
+
+# 然后逐个添加需要的目录
+!data/podcasts/
+!data/episodes/
+!data/transcripts/
+!data/rss/
+
+# 再添加需要的文件
+!data/podcasts/*.json
+!data/episodes/*.json
+!data/transcripts/*/*.json
+!data/rss/*.xml
+
+# 但是仍然忽略临时文件
+data/**/.DS_Store

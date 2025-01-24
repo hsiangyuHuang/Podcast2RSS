@@ -2,7 +2,8 @@ name: Daily RSS Update
 
 on:
   schedule:
-    - cron: '0 20 * * *'  # 每天北京时间 04:00 运行
+    - cron: '0 20 * * *'  # 北京时间 04:00
+    - cron: '0 9 * * *'   # 北京时间 17:00
   workflow_dispatch:      # 允许手动触发
 
 jobs:
@@ -13,6 +14,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       
+    - name: Set up timezone
+      uses: szenius/set-timezone@v1.2
+      with:
+        timezoneLinux: "Asia/Shanghai"
+        
     - name: Set up Python
       uses: actions/setup-python@v4
       with:

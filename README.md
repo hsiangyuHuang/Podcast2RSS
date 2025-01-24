@@ -4,6 +4,8 @@
 
 ## RSS 订阅链接
 小宇宙订阅TOP50播客
+
+Follow订阅链接：https://app.follow.is/share/lists/105193586646167552
 | 播客 | RSS | RSS订阅链接 |
 |---------|-----|---------|
 | [凹凸电波](https://www.xiaoyuzhoufm.com/podcast/5e2839ca418a84a0462431b7) | [RSS](https://hsiangyuhuang.github.io/Podcast2RSS/5e2839ca418a84a0462431b7.xml) | `https://hsiangyuhuang.github.io/Podcast2RSS/5e2839ca418a84a0462431b7.xml` |

@@ -4,7 +4,1469 @@
         <title>屠龙之术</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401</link>
         <description>科技创业与投资相关的”屠龙之术“</description>
-        <lastBuildDate>Fri, 07 Feb 2025 04:45:18 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 08 Feb 2025 04:47:26 +0800</lastBuildDate>
+        <item>
+            <title>Vol.51 那些关于DeepSeek的谣言与误解</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/67a5a7e4247d51713c228ca1</link>
+            <description>春节期间整个科技行业最大的新闻应该是DeepSeek了，
+假期中就有很多朋友问我是否要做一期关于DeepSeek的节目，
+正好开工第一天，我的好友，也是多次串台的律人行主播Lily找到我说一起聊下这个话题。
+本期节目除了我们两人之外还有两位非常适合聊这个话题的嘉宾一起参与：
+* 张涛：Monica的产品合伙人
+（42章经：《一个顶级 AI 产品经理的自我修养 | 对谈光年之外产品负责人 Hidecloud》）。
+* 张鹏：公众号东不压桥研究院的主理人
+关注全球尤其是中美地缘政治，尤其是在科技领域的竞争政策，有非常深入且广泛的研究（《特朗普2.0时代的中美科技竞争》）。
+最近一段时间关于DeepSeek的解读/评论已经非常多了，
+我们4个人的对谈并没有涉及太过深的技术探讨，
+更多集中在科技产业、中美对抗等角度，
+以及过程中几乎把这些天种种关于DeepSeek的谣言都进行了澄清和说明。
+律人行此期节目已经上线：
+EP61 一期节目粉碎所有关于DeepSeek的谣言：训练成本600万、冲击英伟达、五万张H100、模型蒸馏、黑客攻击
+【时间线】
+复盘爆火的过程
+00:04:08 Lily眼中春节DeepSeek的爆火
+00:10:06 “国运”这个形容词的第一次出现
+00:10:37 老黄的内部信+梁文峰的知乎回答都是AI写的
+00:11:30 什么是“假的”，如果已经形成共识，那还是假的吗？
+00:12:39 美国AI沙皇五步绝杀—也是AI写的！（正版看这里《特朗普的“AI沙皇”David Sacks谈DeepSeek》）
+00:13:24 《中美人工智能能力脱钩法案》，会导致每个下载 DeepSeek的美国人被罚一亿美元？—还是假的（正经分析看这里《“美中人工智能脱钩”法案，能通过吗？》）
+00:14:00 顶级AI产品经理视角下的DeepSeek全球爆火过程
+00:16:03 DeepSeek在美国：从核心AI圈讨论到彻底破圈，还得感谢Mark Andreessen（硅谷顶级风投机构a16z的联合创始人）
+DeepSeek R1到底强在哪里？
+00:19:23 DeepSeek V3创新已经很强，但不过就是另一个GPT4o
+00:20:18 DeepSeek R1第一次验证了ORM强化学习路径（你问OpenAI O1？—没公开就等于没有哈）
+00:20:29 了解DeepSeek R1更多技术细节（ 张小珺商业访谈录：《逐句讲解DeepSeek-R1、Kimi K1.5、OpenAI o1技术报告》）
+00:21:27 DeepSeek破圈根本原因：全球第一个免费的既有推理模型能力，又可以实时搜索知识，并不断结合、反思的产品，带来全新用户体验
+00:27:03 美国主流媒体及学界对中国AI发展长期冷落，英语世界信息极度落后，假消息满天飞
+00:28:00 英文世界第一大假消息：DeepSeek 秘密武器罗福莉
+00:28:32 英文世界第二大假消息：DeepSeek只是幻方量化的副业项目
+DeepSeek R1训练成本只要600万美元？
+00:29:12 英文世界第三大假消息：DeepSeek R1训练成本只要600万美元，打垮英伟达算力叙事
+00:30:06 回本溯源详解“DeepSeek R1训练成本600万美元”
+00:32:28 “DeepSeek 成本600万美元”在美舆论逐渐离谱全过程
+00:32:43 实际成本对比：600万美元干了几千万美元的活
+00:35:07 美国主流AI叙事：科技巨头百亿美金级投入 vs 主要参与者数十亿美金级投入 vs 挑战者数亿美元级投入
+00:37:00 在美国科技巨头数千亿美金的AI基础设施投入面前，DeepSeek的600万美金变成神话
+00:38:24 现实的成本对比叠加中美各方民族情绪后，事实变得不重要了
+00:42:00 DeepSeek爆火给国内做AI基础设置、云服务、套壳产品的厂商带来的机会
+DeepSeek R1的出现对英伟达到底是利好还是不利？
+00:43:50 DeepSeek R1的出现对英伟达到底是利好还是不利？谁也说服不了谁
+00:46:40 美国西岸的都在买英伟达，而东岸的都在卖英伟达
+00:47:26 AI产品经理视角下，未来三年AI推理算力需求可能扩大100倍
+00:48:02 算力需求是上涨了，但英伟达都能吃掉吗？
+DeepSeek有五万块H100芯片？
+00:49:35 DeepSeek有五万块H100芯片？白宫都惊动了，但还是假消息
+00:51:34 Deepseek R1的出现，说明美国出口管制自食恶果，还是出口管制不足，应继续加强？
+00:53:45 DeepSeek到底有多少张卡？
+00:56:13 但凡读过DeepSeek V2和V3两篇论文的人，都不可能相信DeepSeek有5万张H100
+美国对DeepSeek模型蒸馏、“偷窃”指控
+00:57:22 OpenAI/美国质疑Deepseek蒸馏其先进模型，“偷窃”美国先进技术，到底成不成立？
+00:57:49 什么是模型蒸馏
+01:00:00 模型蒸馏是行业内公开的“秘密”
+01:00:38 蒸馏在整个模型训练过程中只是一个小的技术点
+01:01:08 DeepSeek蒸馏ChatGPT的谣言是如何产生的？
+01:02:20 为什么DeepSeek APP会回复说自己是ChatGPT？
+01:05:06 OpenAI现有产品设计上，已经封锁了真正意义“模型蒸馏”的可能性
+01:07:11 从法律角度看美国对DeepSeek偷窃美国模型技术的指控
+01:09:47 模型蒸馏是否违法，边界模糊，尚无定论
+01:11:08 美国政府对“模型蒸馏”反应激烈
+01:12:29 技术上，限制“模型蒸馏”实操性不大
+01:12:54 OpenAI自己面临非法爬取全网数据、广泛侵犯知识产权的问题，指责DeepSeek蒸馏违法，未免太过双标
+01:15:16 美国对“模型蒸馏”如此敏感，是因为他们认为中国是在“搭便车”
+01:16:41 AI合规问题本质上是新技术发展与既有规则体系之间的矛盾，大家都还在探索期
+01:17:38 全球各国挑战DeepSeek数据合规，是否过于严苛且双标？
+01:18:49 当今地缘政治环境下，任何一个科技头部应用的出海落地都不是一件简单的事情
+美国对华科技竞争政策全解
+01:19:54 美国对华科技竞争政策全解
+01:20:50 拜登政府时期：芯片出口管制、中美数据脱钩、对华科技投资禁令
+01:22:45 川普时期：中美贸易问题和科技竞争问题一盘棋
+01:23:20 川普政府可能进一步限制美国AI人才向中国流动
+01:24:02 美国国内产业扶持 + 国外限制中国AI发展：确保AGI首次发生在美国
+01:24:56 DeepSeek R1的火爆，引发美国对华AI竞争恐慌，恐带来过度回应和反制措施
+01:27:37 欧盟看中国科技企业出海：就事论事，变相收“监管税”
+01:28:48 美国看中国科技企业出海：国家安全威胁，监管规则不断完善，有意识地推动双方脱钩
+01:30:51 创业者视角：放弃幻想，兵来将挡，水来土掩
+狂欢之后：DeepSeek爆火的长期影响
+01:33:22 DeepSeek R1之后，再看国内大模型公司的护城河：原来移动互联网时代的DAU叙事结构不再适用
+01:35:50 DeepSeek R1给未来AI应用的发展带来无限想象力
+01:37:34 DeepSeek R1之后，再看国内AI六小龙：技术路线还跟不跟？是不是要开源？商业化怎么办？
+01:40:32 DeepSeek免费开源，那他们如何盈利？
+01:43:55 “异类”DeepSeek，可能是世界范围内最适合去实现AGI的
+01:47:38 对推理模型，从业者们也都还在探索期，对接下来半年保持期待
+01:49:41 2025年，可能是AI Agent实际落地年
+01:51:34 模型技术极速发展、迭代迅速，实体企业应该何时实际落地投入？
+01:53:16 模型必定商品化，实体企业不必在训模型层面投入
+01:53:55 行业迅速变化，如果今天还不深度参与，可能就没机会了
+01:55:10 DeepSeek被海外黑客攻击导致频繁停止服务，国内各安全厂商团结一致抵御---完完全全假消息！！！
+01:56:35 教你如何在电脑、手机上本地部署使用DeepSeek---伪概念 ！！！实际效果跟满血版DeepSeek R1相差十万八千里
+音乐：AI音乐工具天谱乐生成
+【播客简介】
+屠龙之术是一档关注科技、互联网、风险投资的播客，
+主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
+其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
+或许某天再有新的“龙”出现的时候，就是这档播客停更之时。</description>
+            <content:encoded><![CDATA[<h1>转写链接</h1>
+<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/2erk9xwyox4oqml8</link><br>
+<h1>节目摘要</h1>
+<div class="summary">本期节目深入讨论了近期全球瞩目的“Deep Seek R1”技术的创新突破及其引发的市场反响与政策挑战，特别是在春节期间的热议。讨论涵盖了技术本身、市场反应以及可能引发的监管政策调整，同时触及了蒸馏技术的运用争议和技术创新的双刃剑特性。此外，对话还扩展到人工智能领域的广泛议题，包括合同法影响、知识产权保护、数据安全、隐私问题以及地缘政治对AI发展的制约。通过分析OpenAI、DeepMind等企业的案例，以及探讨创业公司在技术革命中的角色和机遇，本节目全面展现了AI技术发展面临的复杂法律、伦理和市场竞争挑战，揭示了技术进步与全球科技竞争格局的紧密联系。</div><br>
+<h1>章节速览</h1>
+<div class="chapters">
+<div class="chapter-item">
+<span class="time"><strong>[00:00:00]</strong> </span>
+<span class="chapter-title"><strong>探讨deep seek R1：从狂欢到全球挑战</strong></span>
+<div class="chapter-summary">本期节目聚焦近期热点deep seek R1，讨论其在中国春节期间引发的广泛讨论及其全球挑战，包括欧盟和美国的监管调查，以及知识产权争议。邀请了三位嘉宾：一位是AI行业观察者，一位是AI产品经理，还有一位是专注于中美科技关系研究的作者，他们从各自的专业视角分享对deep seek R1爆火现象的见解。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:02:34]</strong> </span>
+<span class="chapter-title"><strong>春节期间对DeepTech行业的深度关注与讨论</strong></span>
+<div class="chapter-summary">春节期间，行业内外对DeepTech（深度科技）的关注和讨论异常热烈。某主播表示，若非早前完成报告，春节期间的行业进展将迫使他重新撰写大部分内容。他春节期间未在老家过年，而是全身心投入到与国内外的资讯跟进和讨论中，甚至在远程给家人拜年时，家人也对深度科技领域的人物表现出浓厚兴趣。微信公众号“东部压强研究院”的主理人分享了在英国的感受，指出DeepTech不仅在中国和美国引起广泛关注，在英国和欧盟等地也同样成为热议话题，甚至进入日常教育环境，体现了其在全球范围内的影响力。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:04:08]</strong> </span>
+<span class="chapter-title"><strong>从一线视角探讨Dept爆火事件及其影响</strong></span>
+<div class="chapter-summary">对话围绕Dept的爆火事件展开，特别是从一线人员的视角出发，深入讨论了事件的起因、发展以及广泛的社会影响。最初，DPC发布的RE模型并未引起广泛关注，直到和菜头的文章和春节前后小红书上的广泛讨论使得事件在国内迅速升温，呈现出出口转内销的现象。观察者指出，尽管V3版本的发布已经是一个重大突破，但真正引起大规模讨论的是后续的强化版。美国媒体的反应延迟被解释为需要时间理解和评估该事件对AR产业和中美人工智能竞争的具体影响。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:07:43]</strong> </span>
+<span class="chapter-title"><strong>DeepSeek V3与中美科技行业影响</strong></span>
+<div class="chapter-summary">DeepSeek在V2版本时已在技术圈引起讨论，V3发布后影响进一步扩大，尤其在科技、产品和互联网领域。随着特朗普上任，DeepSeek的讨论热度提升，甚至影响到中美科技行业的关注。在直播中，讨论了特朗普上任对中美科技行业的影响以及涉及5000亿美金AI基础设施投资计划的新一之门计划，此话题在直播后被制成播客并受到广泛关注。节目中提及了DeepSeek V3在成本和架构创新上的讨论，以及它对过去基于AI基础设施投资的宏大叙事结构的挑战。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:10:05]</strong> </span>
+<span class="chapter-title"><strong>AI引发的春节信息战：从游戏创业者到国运之争</strong></span>
+<div class="chapter-summary">在节目上首页后的关键一天，一系列事件被核心提及，包括中国热门创业者冯记对deep seek的看法，以及由此引发的N维利亚股价大跌和一系列疑似AI伪造的内部信及回应在社交媒体上的广泛传播。这些事件发生在春节期间，揭示了AI技术进步带来的真假难辨的挑战，以及共识形成即便基于虚假信息也难以控制的现象。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:12:05]</strong> </span>
+<span class="chapter-title"><strong>AI生成内容引发的社会影响与辨识挑战</strong></span>
+<div class="chapter-summary">讨论中提到了梁文峰的回应引发的情感共鸣以及随后发现其为AI所写带来的震惊感，反映出识别AI生成内容的难度。此外，还讨论了在政策和法律领域，AI生成的虚假信息和误导性文章对市场预期的影响，以及这些信息如何通过社交媒体迅速传播。通过具体例子，如所谓的特朗普AI沙皇的策略和对Deep Fake法案的误读，突出了辨别真实信息与AI生成内容的紧迫性和复杂性。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:14:02]</strong> </span>
+<span class="chapter-title"><strong>C端用户对AI技术敏感度及Deep KR1的核心突破</strong></span>
+<div class="chapter-summary">用户群体中的深度用户和社区KOL对AI技术的敏感性和对AI能力进化的关注度非常高，他们积极尝试新的AI技术以提高工作效率和产出质量。在某个时间点，用户开始询问关于Deep KR1的接入，这表明了AI技术的破圈和用户对新技术的强烈需求。此外，通过专业人员的反馈，我们了解到Deep KR1在技术上的核心突破和创新点，这些突破导致了它在全球范围内引起广泛讨论。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:19:24]</strong> </span>
+<span class="chapter-title"><strong>DeepSeek R1模型的创新与破圈效应</strong></span>
+<div class="chapter-summary">对话讨论了DeepSeek R1模型的创新点和破圈效应。首先，V3模型凭借其强大的工程与算法结合，能在有限算力下训练出媲美GPT4O和Cloud 3.5级别的基础模型，显示出其技术的独特性。进一步，通过结合ORM方法，DeepSeek R1模型首次将强化学习成功应用到实际场景中，开放了其模型权重，为业界带来了重大影响。对话还强调了DeepSeek R1破圈的一个关键因素：模型不仅具有强大的推理能力，还首次集成了实时搜索功能，使得用户能通过模型获取实时知识并进行反思，这种全新体验是之前未有的，从而引发了广泛的用户反馈和自来水式的传播。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:24:33]</strong> </span>
+<span class="chapter-title"><strong>Deep Sig APP功能升级与AI技术突破</strong></span>
+<div class="chapter-summary">讨论了Deep Sig在推出APP初期仅提供两种模式——2Y和联网搜索——且无法同时使用的情况。随后，APP升级后允许同时使用两种模式，显著提升了用户体验。此外，还探讨了Deep Sig在AI领域的核心突破和争议性观点，包括其推理模型与搜索结合带来的体验，以及关于训练成本600万美元的争议。同时，提到了国外对于中国AI领域的长期忽视和信息滞后导致的谣言传播。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:29:37]</strong> </span>
+<span class="chapter-title"><strong>澄清AI模型训练成本的误解与谣言</strong></span>
+<div class="chapter-summary">讨论围绕AI模型训练成本的谣言，特别是关于600万美元训练成本的误解。最初的成本计算基于V3技术报告，明确列出了训练时长和成本构成，且报告中明确指出此成本仅涵盖最后一轮训练，未包括前期研究和数据准备等成本。随着讨论的传播，尤其是市场分析师和媒体的介入，原本精确的成本信息被忽略，导致与整体项目成本甚至公司估值的不恰当对比，最终演变成脱离技术本质的地缘政治和企业管理辩论。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:34:53]</strong> </span>
+<span class="chapter-title"><strong>AI行业投入的巨额成本与现实差距</strong></span>
+<div class="chapter-summary">对话主要围绕AI行业中的巨额投入展开，详细讨论了科技巨头、主要参与者和挑战者三类公司在AI相关领域的投入规模。科技巨头每年在AI基础设施上的投入以百亿美金计算，主要参与者如OpenAI等的投入则在十亿美金级别，而挑战者的投入则在几亿美金。此外，还提到了一次训练模型成本的显著差异，强调了在媒体和公众讨论中，成本的巨大落差以及这一情况对行业认知和讨论的影响。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:38:26]</strong> </span>
+<span class="chapter-title"><strong>中美AI竞争：DeepSeek模型的突破与影响</strong></span>
+<div class="chapter-summary">对话讨论了DeepSeek在资源受限的情况下实现与OpenAI相近模型性能的突破，及其对中美AI竞争的影响。双方分析了这种创新如何挑战了AI算力门槛论，以及它对英伟达等科技巨头的潜在冲击。此外，提到了DeepSeek与华为云合作在升腾技术基础上提供的服务，展示了中国在AI领域的突破性进展，以及这一进展在民间和政策层面引发的情绪与质疑。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:42:02]</strong> </span>
+<span class="chapter-title"><strong>AI模型热潮对市场及厂商影响的探讨</strong></span>
+<div class="chapter-summary">对话围绕AI模型，尤其是deep seek的爆火及其对市场和相关厂商的影响进行了深入探讨。deep seek的爆火促使用户大量寻找本地部署和云端部署的解决方案，从而引发了用户增长的巨幅提升。此外，讨论还涉及了该现象对股票市场的直接影响，包括股价的大幅波动和不同公司对AI模型投入的不同反应。同时，还分析了市场对于AI模型的长期需求和应用层爆发的预期，以及这种预期如何影响芯片和上下游厂商的需求。最后，讨论了在二级市场中，对于同一信息的不同解读如何影响了不同公司的股价表现。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:46:24]</strong> </span>
+<span class="chapter-title"><strong>算力需求的短期情绪与中长期乐观预期</strong></span>
+<div class="chapter-summary">对话讨论了算力需求在短期情绪与中长期发展中的分野，特别是由AI技术突破带来的影响。提到了春节期间关于NVIDIA股票买卖的有趣观察，西岸产业界人士看好AI技术的繁荣，而东岸金融界则短期内看空。分析认为，未来三年内推理算力需求可能扩大100倍，但NVIDIA是否能独占这部分需求存在疑问，因为有其他厂家如华为开始部署自己的解决方案。这标志着开源模型大规模部署动力的增强，预示着算力需求的整体看多趋势。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:49:03]</strong> </span>
+<span class="chapter-title"><strong>美国芯片出口管制对中国AI技术发展的影响及争议</strong></span>
+<div class="chapter-summary">对话讨论了美国的芯片出口管制政策对中国AI技术发展的影响，特别是关于DeepSeek使用英伟达S100芯片的传言和实际使用的S800芯片的情况。分析指出，美国的严格管制可能反而刺激了中国公司在技术上的创新，如DeepSeek在S800芯片上的工程优化。同时，也有人认为美国应进一步限制出口，如考虑管制合规的英伟达H20芯片，这可能对中国AI行业产生新的影响。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:53:46]</strong> </span>
+<span class="chapter-title"><strong>DeepSick芯片来源及AI基础设施投入讨论</strong></span>
+<div class="chapter-summary">对话围绕DeepSick芯片来源及其在AI基础设施投入中的角色展开。提及DeepCity论文中使用的H800芯片，以及梁文峰提到的使用老卡而非最先进芯片的情况。讨论了DeepSick拥有大量A100或H100芯片的新闻，以及量化投资集团换方在AI芯片使用上的情况。进一步探讨了中国公司在面对管制限制时，通过不同方式获取被管制芯片的可能性。最后，基于V2和V3论文中的工程优化，质疑DeepSick是否真的拥有如传闻中那么多的高性能芯片。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:57:24]</strong> </span>
+<span class="chapter-title"><strong>机器学习中的蒸馏技术与知识产权争议</strong></span>
+<div class="chapter-summary">讨论集中于机器学习领域中的蒸馏技术及其可能涉及的知识产权问题，特别是关于大型模型通过蒸馏压缩为较小模型的过程。蒸馏技术的基本概念是用大模型的输出来训练小模型，使其表现接近或模仿大模型，但小模型理论上无法超越大模型。此外，还探讨了此技术在行业中的普遍应用以及国际间的争议，包括美国对中国企业使用GPT模型的限制和相关技术的独立发现争议。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:00:29]</strong> </span>
+<span class="chapter-title"><strong>行业内的蒸馏技术及其误解</strong></span>
+<div class="chapter-summary">蒸馏技术在行业内普遍存在但少有公开承认，其实际影响被夸大。蒸馏并非简单的剽窃过程，而是复杂的学习方法。舆论发酵源于模型自我身份认知错误的截图，但这些误解源于对现代模型训练过程和IOM模型基本原理的不了解。语言模型在预训练阶段并无自我认知，此认知是在后期对齐过程中通过大量指令训练获得。阿万（Alwen）通过减少对齐过程提升了模型能力，但也导致自我认知不强。真正的蒸馏需要教师模型输出的完整概率分布，但目前的技术限制使得真正的蒸馏难以实现。此外，通过特定prompt进行蒸馏学习的方式也存在误解，因为不会直接让模型输出自我认知信息。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:07:11]</strong> </span>
+<span class="chapter-title"><strong>中美AI模型蒸馏的知识产权争议与法律分析</strong></span>
+<div class="chapter-summary">对话围绕中美双方在人工智能模型蒸馏领域的知识产权争议展开，强调了从法律角度分析所谓“偷窃模型”的不同情形，包括未经授权获取模型、套壳行为、以及使用他人关键技术参数等。指出模型蒸馏的复杂性及在不同应用场景下的合法性需求，同时警惕美国方面可能采取的技术和法律措施以防止中国企业蒸馏其模型，包括可能的监管法规和技术手段。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:12:31]</strong> </span>
+<span class="chapter-title"><strong>大模型领域的知识产权争议与蒸馏技术讨论</strong></span>
+<div class="chapter-summary">对话围绕大模型领域的知识产权争议以及蒸馏技术进行了深入讨论。一方面，讨论了使用未经授权的数据进行模型训练可能构成的版权侵犯问题，以及模型生成内容的版权归属问题。另一方面，探讨了模型蒸馏技术在法律和公平性上的争议，即使用前沿模型输出数据进行训练是否构成搭便车的不公平行为。此外，还提到了AI技术发展与既有规则体系之间的矛盾，以及各国产业界在探索和摸索这一新领域的现状。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:17:40]</strong> </span>
+<span class="chapter-title"><strong>中美科技竞争与地缘政治影响下的AI发展</strong></span>
+<div class="chapter-summary">对话聚焦于中美在人工智能领域的地缘政治竞争，特别是数据安全、隐私保护以及监管合规方面的问题。讨论提到了创业公司在创新技术与监管合规之间的平衡难题，以及全球范围内高科技应用落地的复杂性。此外，还深入分析了美国政府在算力、数据跨境流动、资本和人才等方面对中国实施的限制措施，以及这些措施背后的策略逻辑，强调了美国在确保自身AI领先地位上的紧迫感和战略考量。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:25:34]</strong> </span>
+<span class="chapter-title"><strong>中美科技竞争及人工智能政策影响探讨</strong></span>
+<div class="chapter-summary">对话聚焦于中美两国在人工智能和科技领域的竞争态势，特别是美国对华政策可能采取的限制措施，如数据脱钩法案和对AI应用的监管法规。讨论中提及了美国政府对华政策的顶层设计阶段，以及由此可能引发的对华科技企业，尤其是AI和AR领域企业的负面影响。同时，对比了欧盟对科技企业的监管态度，指出其更多关注于数据内容合规而非国家安全层面的竞争。参与者表达了对美国可能采取的极端措施的担忧，特别是类似TikTok遭遇的国家安全威胁论调，即使企业做出合规努力也可能面临不利结果。整体上，讨论反映了对当前及未来中美科技竞争环境的复杂性和不确定性。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:33:11]</strong> </span>
+<span class="chapter-title"><strong>DIPSTICK R ONE对国内大模型公司影响及AI行业趋势</strong></span>
+<div class="chapter-summary">对话探讨了DIPSTICK R ONE的出现对国内大模型公司的影响，尤其是对这些公司护城河的质疑。讨论指出，传统的移动互联网KPI可能不再适用于AI行业，强调了AI产品形态的中间态特性。此外，提到开源模型与闭源模型之间的差距正在缩小，这为应用层面带来了无限的想象力。展望未来，预期会有更多新的应用场景和功能诞生，特别是在R ONE与其他技术结合后的新场景探索上，展现出乐观的态度。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:37:37]</strong> </span>
+<span class="chapter-title"><strong>国内AI公司面对R万爆火的机遇与挑战</strong></span>
+<div class="chapter-summary">本次对话围绕R万爆火对国内AI行业，尤其是AI六小龙的影响进行了深入探讨。分析指出，对于已经明确战略方向的公司如01和百川，此次事件影响有限。而对质谱、接阅、Kimi和Mini Max等公司，特别是后两者，挑战更为明显，需重新评估技术路线与商业化策略。讨论还深入分析了开源与商业化的矛盾，特别是像DeepSick这样完全开源的项目如何实现价值变现的问题。此外，还提到了在当前技术飞速发展的背景下，未能达到头部水准的公司可能面临的用户流失和投资回报难题。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:45:19]</strong> </span>
+<span class="chapter-title"><strong>大模型投资与技术发展路径的探讨</strong></span>
+<div class="chapter-summary">对话围绕大模型投资的风险与挑战展开，探讨了技术理想主义者在当前技术发展中的胜利及其对行业的影响。讨论者分析了reasoning model的应用前景和行业发展的乐观预期，同时提出了实体产业在AI技术快速迭代中应如何适时投入的疑问。此外，还提及了技术路线的实施和未来agent技术的期待，强调了深度参与AI浪潮的重要性。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:54:59]</strong> </span>
+<span class="chapter-title"><strong>关于中国安全厂商协助Deep Seek的谣言</strong></span>
+<div class="chapter-summary">在Deep Seek遭受大量访问冲击时，流传出中国几大安全厂商提供帮助的谣言。这一消息被证实为不实，来源于战狼和小粉红引发的情绪性谣言，用以缓解使用服务中断的焦虑情绪。尽管有人在小红书上看到相关消息并感到一定程度的相信，但实际上这些帮助并未发生。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:56:37]</strong> </span>
+<span class="chapter-title"><strong>澄清本地设备运行大模型的伪概念</strong></span>
+<div class="chapter-summary">最近在多个社交平台上流传着一种伪概念，即在本地设备上运行所谓的阿万（R1）模型。实际上，这些教程和付费内容教的是如何运行阿万的蒸馏版，如DeepSeek R1D蒸馏出的千问和Lama模型，而非完整的阿万模型。蒸馏版模型并未经过阿万所特有的强化学习训练过程，其基础模型也不是阿万的V3版本，因此效果远不及真正的阿万模型。这种伪概念不应误导用户认为它们能提供与全尺寸阿万模型相同的效果。对于初学者而言，这或许是一个学习部署和运行大模型的机会，但不应期望其效果等同于完整的阿万模型。</div>
+</div>
+</div><br>
+<h1>问题回顾</h1>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 春节期间，deep seek r1的爆火引起了全球关注，包括监管方面的调查和知识产权问题等争议。我们邀请了哪几位嘉宾来讨论这个话题？这次讨论中，各位嘉宾对于deep seek r1爆火事件的第一反应是什么？</div>
+<div class="answer"><strong>A:</strong> 我们邀请了三位嘉宾：张明浩老师，他是AI行业的观察者；张涛老师，他是产品合伙人和AI顶级产品经理；张鹏老师，他是公众号东不压桥研究院的主理人，专注于中美关系、地缘政治以及科技领域的研究。张明浩老师提到，在春节期间，deep seek r1的影响力非常大，甚至超过了他之前12月份做的报告内容，需要重新审视和撰写报告。张涛老师表示，春节期间大部分时间都在关注deep seek r1，从美国到国内，整个春节基本都在围绕这个事件展开。张鹏老师则表示，deep seek r1在春节前后两天在国内迅速走红，这种火爆现象有点类似于出口转内销，起初在美国有大量关注和讨论后，相关文章被国内公众号引用和转发。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于deep seek r1，从你们一线人员的视角来看，最初为何没有引起广泛关注，直到后来才突然爆火？</div>
+<div class="answer"><strong>A:</strong> 最初，当deep seek r1在1月20号发布时，并没有引起广泛的关注。但随着一些具有影响力的个人或媒体发布关于deep seek的震撼文章，以及它在朋友圈、小红书等平台上的广泛传播，加上非技术领域的用户也开始讨论，使得该事件逐渐在国内火了起来。特别是在川普上任期间，媒体热点众多，deep seek r1的讨论在一段时间内被其他新闻所分散注意力，直到后来才成为热点。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> deep seek r1爆火之后，关于其政策和法律影响方面，市场上出现了哪些误解或误导性信息？</div>
+<div class="answer"><strong>A:</strong> 市场上出现了很多关于中美人工智能脱钩法案的误解和误导性信息，例如有文章称下载deep seek r1会被罚款1亿美元，这种说法缺乏事实依据且极具耸人听闻的效果。同时，也有许多自媒体发布类似内容的文章，但并未深入理解相关法案文本，造成了市场的混乱和恐慌。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在23号时，用户群体中有哪些深度用户开始尝试接入新模型？</div>
+<div class="answer"><strong>A:</strong> 在23号时，一些偏社区KOL或深度用户已经开始尝试接入名为deep KR1的新模型，并分享他们在r one上实现的案例，这显示了他们积极采用新技术以提升工作效率和产出。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 您对新模型的实际能力是如何理解的？</div>
+<div class="answer"><strong>A:</strong> 我对于新模型的实际能力的理解并非直接来自第一手体验，而是通过用户的反馈逐渐了解。从23号开始，用户的实际应用和成功案例让我意识到这次的技术发布与以往不同，其影响力和接受度超出了预期。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 马克·安德森（market Anderson）对deep SIG-1的转发有何重要意义？</div>
+<div class="answer"><strong>A:</strong> 马克·安德森作为一位有影响力的美国大V，在春节前夕转发deep SIG-1的消息并给予高度评价，标志着该技术成果在业界完成了从专业圈内讨论向更广泛公众关注的破圈，甚至成为了一个具有重要意义的里程碑事件。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> deep SIG-1在全球范围内引发大范围讨论的核心突破点是什么？</div>
+<div class="answer"><strong>A:</strong> 核心突破点包括V3模型本身的创新性以及阿万（Roni）将强化学习中ORM方法的成功复刻，尤其是deep SIG-1是首个成功实现并开放该方法的模型。此外，deep SIG-1通过提供一个同时具备推理模型和搜索功能的产品，为用户带来了前所未有的高质量体验，从而引发了全球范围内的广泛讨论和自来水用户的增长。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> deep SIG-1的APP功能是如何影响其破圈效应的？</div>
+<div class="answer"><strong>A:</strong> deep SIG-1最初发布的APP中，联网搜索和2万功能不能同时使用，但在一段时间后，当这两个功能可以同时启用时，用户的体验得到了显著提升，进一步推动了deep SIG-1的影响力和破圈进程。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 美国主流媒体和学界对中国AI的长期态度是什么样的？有关深溪（deep seek）的第一个谣言是什么？</div>
+<div class="answer"><strong>A:</strong> 美国主流媒体和学界对中国AI有一个长期的冷落和刻意忽视的环境，即使在某个技术热点出现后，他们获取的信息也往往是滞后且不全面的，甚至会出现fake news。第一个谣言是关于罗弗利，外界误传她是一位神秘人物，并将其与深溪的成功联系起来，但实际上她在中文世界已有较多报道，并非深溪背后的关键人物。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 第二个谣言是什么内容？</div>
+<div class="answer"><strong>A:</strong> 第二个谣言是将深溪描述为中国一个量化基金的side project，声称其意外地在全球取得第一，这种叙事在中国行业内并不成立，因为深溪被当作一家认真对待的独立公司对待。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 第三个谣言具体是指什么？</div>
+<div class="answer"><strong>A:</strong> 第三个谣言是关于深溪R1模型的训练成本仅为600万美元，远低于其他大型模型的投入，这一说法源于对深溪V3模型训练成本的误读和夸大。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于600万美元训练成本的谣言，深溪原始表达是什么？</div>
+<div class="answer"><strong>A:</strong> 原始表达是深溪在V3模型训练时的成本为约550万美元，这个数字在其技术报告中有详细说明和成本构成，对于行业内人士来说，这个成本是合理且可计算出来的。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 这个训练成本谣言如何被误解和夸大？</div>
+<div class="answer"><strong>A:</strong> 成本谣言最初仅比较了单次模型训练成本，有一定优势。但在市场分析员介入后，600万的成本被与其他公司整体投入（包括人员工资、研发成本等）对比，甚至与公司融资规模、市值相比，逐渐演变为一个神话，并遭到质疑和攻击。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 主流媒体是如何看待科技巨头和AI初创公司在AI领域的投入的？</div>
+<div class="answer"><strong>A:</strong> 主流媒体将科技巨头的AI投入视作百亿美金级别，而像OpenAI、CLOAI这类主要参与者则以十亿美金为单位，挑战者级别的公司则以几亿美金计。深溪600万美金的训练成本，在这样的背景下显得极为突出，引发了巨大落差和误解。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Deep SIK模型爆火后，与华为云和硅基流动的合作情况如何？</div>
+<div class="answer"><strong>A:</strong> 最近Deep SIK模型爆火之后，硅基流动与华为云进行了联合合作，在华为升腾技术基础上推出了Deep R1服务。此外，Deep SIK的崛起导致英伟达的市值暴跌17%。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Deep SIK在资源有限情况下实现了哪些创新，并对当前芯片及AI行业产生了何种冲击？</div>
+<div class="answer"><strong>A:</strong> Deep SIK通过有限资源实现了工程和技术创新，挑战了AI行业一度存在的“算力门槛论”，即认为必须投入几十上百亿美金才能做大规模模型的看法。其创新揭示了即使在资源匮乏条件下也能取得显著进步，并对包括英伟达在内的芯片厂商造成冲击，以及在国内升腾（华为芯片）上的应用打破了传统叙事。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Deep SIK爆火对生态产生了哪些具体影响？</div>
+<div class="answer"><strong>A:</strong> Deep SIK的爆火促使国内做inference的厂商和做chat box的厂商因用户增长而受到巨大促进作用。例如，开源模型技术能力的展现吸引了大量用户注册并进行API调用、部署等操作。同时，这一波热潮也使得相关厂商知名度、影响力及业务边界得到了广泛曝光。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 关于股票市场中NVIDIA股价下跌以及后续讨论的焦点是什么？</div>
+<div class="answer"><strong>A:</strong> NVIDIA股价下跌后引发了关于成本降低、生态繁荣的热烈讨论。一方面，有人认为低成本方式的出现可能加速应用层、agent爆发和个人使用门槛降低，从而促进整个生态繁荣；另一方面，也有人担忧这是否会削弱NVIDIA在推理需求增长中的主导地位。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于AI算力需求的长期前景，您有何看法？</div>
+<div class="answer"><strong>A:</strong> 从短期情绪和中长期角度来看，AI算力需求将大大上涨。开源社区的技术突破将带来行业繁荣，推理需求量将大幅增加。尽管短期内金融市场的反应可能呈现悲观情绪，但从长远看，对于算力需求的乐观预期是非常明确的，预计三年之内推理算力需求可能会比现在扩大100倍。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 美国对Deep SIK涉及芯片出口管制问题的关注点是什么？</div>
+<div class="answer"><strong>A:</strong> 美国非常关注Deep SIK是否涉及芯片出口管制问题，特别是围绕着其是否使用了受美国严格出口管制的S100芯片。目前，白宫、国安会等机构已牵头成立调查机制来核实这一情况，普遍认为Deep SIK可能主要依赖S800芯片并通过工程优化来提升算力。对于这一问题存在两派观点：一派认为严格的出口管制倒逼了中国公司在工程方面实现了极致创新；另一派则认为Deep SIK仍然依赖美国芯片，呼吁进一步加强管制。目前，美国政府正在考虑对目前合规的英伟达阉割版H20芯片进行管制。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在第一波关于AI基础设施投入和买卡的讨论中，中国有哪些巨头的卡比较多？</div>
+<div class="answer"><strong>A:</strong> 当时有新闻报道称，除了字节跳动和腾讯之外，换方集团由于做量化（如机器炒股）而拥有较多的卡。换方在早期通过推理、计算、分析、总结、整理等过程使用大量卡进行量化研究，甚至在美方明确禁令之前，他们就已经积累了较多的卡。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 当美国管制措施出台后，中国公司如何继续使用被管制的卡？</div>
+<div class="answer"><strong>A:</strong> 尽管表面上合规了，但实际上中国公司仍有很多方式获取被管制的卡，比如租用海外公司实体的卡，或者通过各种渠道从新加坡等地方转移使用。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 涛哥作为一线AI领域的创业者和产品经理，对目前的情况怎么看？</div>
+<div class="answer"><strong>A:</strong> 根据CM analysis上周发布的报告，以及V3和R1论文中的数据，如果真的拥有大量H100、H800和H200卡，他们就不会采用工程上较为hack的方式解决问题，如在V2和V3报告中提到的卡间互联带宽和运算量问题。因此，他认为这些公司可能并没有那么多满血的H100卡。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于美国对DPCR one提出的蒸馏问题，您能否简单介绍一下？</div>
+<div class="answer"><strong>A:</strong> 蒸馏是一种在机器学习领域优化模型的方法，通常将大尺寸模型的部分层抽离出来，构建小尺寸模型，并通过训练大模型输出来调教小模型，使其表现尽可能接近大模型。蒸馏在行业中是普遍运用的技术，并且OpenAI的某研究员也承认Deep Krone的一些发现是独立于OpenAI的。此外，虽然美国限制了中国企业使用GPT模型，但字节跳动仍可能通过API等方式蒸馏GPT模型。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于外界认为Deep Krone剽窃OpenAI技术的看法，您怎么看？</div>
+<div class="answer"><strong>A:</strong> 首先，蒸馏技术在AI行业确实普遍存在，中美两国都有应用。其次，关于Deep Krone是否剽窃OpenAI技术的问题，部分质疑者基于对现代模型训练过程和模型基本原理理解不足，仅凭最终输出结果做出判断。实际上，模型自我认知是在后期对齐过程中实现的，而非预训练阶段就具备。Deep Krone在模型能力提升上做了少做对齐的策略，导致其在某种程度上丧失了部分智力，但这也使得它在特定测试基准上表现优于其他需要严格对齐的模型。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在法律层面，如何定义和分析偷窃模型的行为？模型蒸馏是否违法，有何法律风险？</div>
+<div class="answer"><strong>A:</strong> 偷窃模型的行为主要涉及未经许可获取他人公开或共享的模型，包括物理窃取存储模型设备、破解安全保护或通过网络入侵手段获得模型。这种行为不仅可能违反相关协议并承担民事责任，还可能因违反网络安全法律法规而面临行政和刑事责任。模型蒸馏是一个复杂的问题，在AI知识产权法领域是一个新兴研究议题。目前，合法场景下有蒸馏需求，但在特定情况下，未经许可使用他人模型进行蒸馏可能构成侵权行为，更多情况下则可能违反合同法导致违约责任。美国方面有人将蒸馏简单定性为偷窃模型，但实际法律界定应更为严格且具体。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于模型套壳行为的看法是什么？</div>
+<div class="answer"><strong>A:</strong> 模型套壳是指在没有对模型进行实质性修改的情况下，谎称自己研发了该模型，这同样是一种偷窃行为，并可能构成知识产权法中对著作权、版权的侵犯以及欺诈和违反开源协议等行为。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 美国政府是否会采取措施防止中国企业蒸馏其模型？</div>
+<div class="answer"><strong>A:</strong> AR沙皇David sax已连续提及模型蒸馏问题，并认为是侵犯知识产权的行为。未来美国可能会出台相关监管法规，要求云服务商履行类似银行业反洗钱的尽职调查规则，监测中国企业蒸馏美国模型的行为，但技术实现上仍存在挑战。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 数据蒸馏与数据爬取、滥用等知识产权问题的关系？</div>
+<div class="answer"><strong>A:</strong> 数据蒸馏与训练数据爬取、滥用等知识产权问题是两个不同的问题。数据爬取等行为可能侵犯版权，而数据蒸馏则是使用前沿模型输出的数据，虽然存在争议，但在法律上两者性质不同。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 深AI落地面临的挑战及反映出的核心矛盾是什么？</div>
+<div class="answer"><strong>A:</strong> 深AI落地面临的技术发展与既有规则体系间的矛盾是全球普遍存在的问题。各国和各产业界都在探索如何平衡技术创新与合规要求，尤其是在数据安全、隐私保护等方面，深AI作为创业公司在这些方面可能存在不足，但其主要任务是开发创新技术。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 反向投资审查规则已经生效，川普政府有可能会出台哪些限制措施来阻止中国人才在美国参与AI模型的研发活动？</div>
+<div class="answer"><strong>A:</strong> 川普政府可能会实施一些限制措施，主要针对中国企业和个人在美国的招聘活动以及持有中国护照的中国工程师参与相关AI模型的研发。他们正在考虑从签证政策和移民政策角度出发，研究制定对中国限制的措施，确保美国的AR人才不能支持中国的前沿AR产业发展。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 美国政府在AI领域采取的战略逻辑是什么？</div>
+<div class="answer"><strong>A:</strong> 美国政府的战略逻辑是确保自己在通用人工智能（AGI）方面处于领先地位，防止中国先实现这一目标。为此，他们采取了两步走策略：一是大力发展自家的AI技术，通过资金扶持、产业补贴等方式加速发展；二是通过各种措施拖慢中国AI发展的步伐，保持美国在该领域的领先优势。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Deep AI事件对美国对华AR竞争政策产生了怎样的影响？</div>
+<div class="answer"><strong>A:</strong> Deep AI事件让美国政府感受到了来自中国的前所未有的竞争压力，促使他们加大了对华AI政策的力度，可能会出台更多激烈的过度反制措施，比如有参议员提出的中美人工智能能力脱钩法案，试图实现中美在人工智能技术、知识产权和资本流动等方面的完全脱钩。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于面向北美市场的中国出海企业，特朗普2.0时代的政策倾向性会带来怎样的影响？</div>
+<div class="answer"><strong>A:</strong> 这些企业的出海压力将会非常大，尤其是在数据脱钩法案、人才流动限制以及整体对华政策的影响下，将会对他们的业务布局和发展造成显著影响。尤其是在人工智能领域，美国政府认为中国的科技企业构成了国家安全威胁，并在通过多种法规和政策推动与中国的脱钩。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 面对当前复杂的国际形势和监管压力，大家有何感想？</div>
+<div class="answer"><strong>A:</strong> 对于做应用方向的企业而言，由于产品形态和面向全球市场，整体上受影响较小，但仍需关注具体动作的发展并做出相应调整。而在不确定性和压力面前，最重要的是保持灵活性和适应性，正如“兵来将挡，水来土掩”，在创业过程中解决所遇到的问题。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于国内的AI6小龙，尤其是几家知名公司，R万的爆火是整体一个利好还是负面信息？庄老师能否做一下分析？</div>
+<div class="answer"><strong>A:</strong> 从大面上讲，对于部分公司影响有限。例如01和百川在之前已经做出选择，专注于方案实施和to b技术方案业务，百川还涉足医疗方向，所以受影响较小。剩下四家公司中，质朴的影响可能最小，因其在open I之前就有明确的技术路线和实施节奏。而对于kimi和mini max，它们在商业化与技术路线之间面临挑战，特别是kimi需决定是否跟进开源或商业化，mini max则需衡量开源的重要性，并考虑如何与deep fake及阿里通义竞争。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 如果公司选择开源，如何实现商业化并获取利益？</div>
+<div class="answer"><strong>A:</strong> 这是一个复杂问题。像deep seek这样的完全公开开源项目，如何盈利是个难题。而对于已经进行商业化尝试的公司如kimi、mini max，转向开源后如何兼顾商业化是一个挑战。开源模式下可通过售卖license获取收益，但deep seek遵循MIT协议，理论上可以自由部署，难以采用此方法盈利。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 开源生态如何赚钱？</div>
+<div class="answer"><strong>A:</strong> 开源模式有多种盈利方式，比如stability fusion等模型虽然大部分是MIT协议，但也有专用的商业授权。然而deep seek采用完全MIT协议，难以通过这种方式直接盈利。长期来看，只要持续创造价值，最终会以某种形式变现，但具体变现方式取决于创始人初心和组织结构。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于大模型投资，如何适应投资人要求并持续投入？</div>
+<div class="answer"><strong>A:</strong> 大模型投资本就高风险，面临用户快速更换产品的风险。目前，深空等具有强大技术实力的产品迅速走红，其他公司在高额投入后未能取得同样成功，因此如何向投资人证明其价值和持续性投入成为关键。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Deep LLM的出现对行业和其他应用有何影响？</div>
+<div class="answer"><strong>A:</strong> Deep LLM（Deep Learning Model）作为一种新的reasoning model，目前大家还在探索最佳应用场景和使用方法，未来半年可能还会有新的能力提升和应用场景解锁。同时，它推动了从L2（推理模型）到L3（agent）的技术路线发展，业界期待25年能看到更多真正意义上的agent落地到企业和个人开发者生态中。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在AI技术快速发展的背景下，尤其是像DPCR one这样的项目中，实体产业的创业公司在投入方面存在什么困惑？他们应该如何判断最佳的投入时机？</div>
+<div class="answer"><strong>A:</strong> 实体产业的创业公司在面对AI技术发展时，主要困惑在于何时进行投入最为合适。由于技术进步迅速，例如ChatGPT模型在短短两年内参数、成本和能力都发生了显著变化，企业可能会担忧过早投入会导致技术过时或花费成为沉没成本。因此，关键在于如何权衡技术进步速度与自身业务发展的需求。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于预训练模型（Pre train）和私有化部署的看法是什么？</div>
+<div class="answer"><strong>A:</strong> 预训练模型被视为未来会变为一种上游商品，企业无需自行开发，而是购买已训练好的模型并进行后续定制化训练即可。对于私有化部署，只要遵守相关的协议（如MIT协议），将模型私有化部署也是合规的，并且随着技术发展，后期链路可能并不需要过分复杂，解决好注册问题就足够了。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 是否有观点认为现在应抓住机遇深度参与AI浪潮，而不是观望等待？</div>
+<div class="answer"><strong>A:</strong> 一些传统行业企业的CO们认为AI行业变化迅速，担心过早投入会面临风险。但也有观点指出，在当前时间点若不积极投身AI浪潮，可能失去机会。开年会上，有人强调坚定认可并深度参与AI方向的重要性，以获得良好的正反馈。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 关于深势（Deep Seek）被一些安全厂商提供帮助的谣言是否属实？</div>
+<div class="answer"><strong>A:</strong> 这个谣言是完全不真实的，深势并没有得到中国各大安全厂商的帮助。这一系列所谓的合作只是战狼和小粉红制造的情绪谣言，旨在缓解公众对于无法使用某些技术的焦虑情绪。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 关于在本地设备上运行“R1”模型（deep seek r one d steel）的现象有何看法？</div>
+<div class="answer"><strong>A:</strong> 目前网上流传的“在本地设备上运行R1模型”的教程实则误导，所运行的是蒸馏版本的模型，而非完整的R1模型。这些模型虽然基于R1生成的数据进行微调，但并未采用强化学习，因此并不能体验到真正的R1模型效果。对于未曾部署过大模型的人来说，可以借此机会学习相关技术，但不应期望在本地设备上运行的模型能与全尺寸的R1模型相媲美。</div>
+</div>
+<h1>节目文稿</h1>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:07]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+本期节目我们想讨论的是近期的大热点deep seek r1。这个春节我觉得可以说是deep这个春节，我想大家可能都有看到，不管是在自己的朋友圈还是小红书、微博，各个媒体都有看到关于deep seek的疯狂的讨论。但是同时我看到国内狂欢的同时，我也看到有这种爆火所带来的一些全球的挑战。包括有监管方面的，比如欧盟各国的对于deep seek的一些调查，还有关于美国方面的。比如说会说到DP是一个用的蒸馏技术，可能涉及到所谓的叫做偷盗美国的知识产权的问题。所以整个状况就是众说纷纭，说他好的也有，说他是骗子的都有。所以这期节目我们邀请到了几位大咖来跟我们讨论一下关于这次的PCRE爆火的这个状况。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们这次邀请到了三位嘉宾，第一位是屠龙之术的主播张明浩老师。张明浩老师一直是我们节目的老朋友了，春节前庄老师还做了一期132页PPT解说2024AI这一年的节目，也是剧作，很多朋友可能也都听过。所以这次也是邀请庄老师作为一线的AI行业的观察者，来跟我们进行他的分享和讨论。然后其次我们是邀请到了可靠的张涛老师，张涛是莫妮卡的产品合伙人，也是在这个42章经和10字路口节目上都被称为叫做AI顶级产品经理。这次也是想请张涛作为一线的创业者和产品经理的角度，来跟我们进行他的视角的分享。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:53]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+此外我们也请到了张鹏老师，张鹏老师是公众号东不压桥研究院的主理人作者。东北亚桥研究院一直以来在中美关系、地缘政治以及尤其是在科技领域相关的一些议题都有着非常深的研究，也发出了很多很多的专业的文章。包括之前我们节目有聊到的关于美国对华投资禁令令的讨论，关于中美数据脱钩的一些法案的讨论，以及近期的关于tip c引发的关于出口管制和中美人工智能脱钩法案的一些讨论。都有非常专业的研究生。我们先请三位嘉宾给我们打个招呼。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:35]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+感谢你邀请，我是屠龙之术主播王明浩，然后一直在关注行业的进展。确实如你所说，春节期间看到deep这个有一个很大的感触是说得亏我的报告是在12月份做的，如果一月来做，感觉有很大的篇幅要推翻重写。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+张涛。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:54]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+大家好。确实就像丽丽讲的，这个春节基本上是属于deep sake的。我今年没有选择在老家过年，然后本来在外面玩，但其实基本没怎么玩。因为白天要跟国内的资讯，晚上要跟美国那边的讨论，所以基本上整个春节都交给deep sak了。甚至我远程给我老爸拜年的时候，我给我妈说完拜年的话，然后我就听到我爸在旁边问说，你问一下儿子梁文峰到底是不是真的那么厉害？我当时就特别绝望。对，就已经到这种程度了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:29]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+好的，谢谢张涛。张鹏老师。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:32]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+大家好，感谢文林邀请，很高兴参加这次交流。然后我是微信公众号东部压强研究院的主理人，自己也在做一些人工智能跟地缘政治，跟法律和政策的交叉领域的一些研究，也感谢大家关注我的公众号。然后我自己现在是在英国，所以在英国这边其实也感受比较强烈。虽然我们中美两边其实聊的挺嗨的，然后其实英国这边包括欧盟这边，他们也很关注的这个事件。我儿子的那个小学里边同学和老师也都在聊，所以确实是他特别火。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:08]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+欢迎，谢谢三位嘉宾的初介绍。我第一个话题的话特别想聊聊从各位的视角，尤其是作为一线人员的视角来简单评价一下dept这次的爆火的事件。尤其可能是你们对于DBC的爆火的一个观察。我自己的观察下来是这样的，因为我自己也是一线的，在这个领域再看吧。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:33]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得最开始的时候，1月20号的时候，DPC已经发布了这个RE的模型。但是当时其实我觉得并没有引起一个特别广泛的关注，有一些公众号上可能会再去聊这个事情。但是说实话，我觉得国内的很多公众号在一些新的进展方面确实是有点过于激进。经常会去取一些特别古人的标题。所以那个时候我其实并没有特别去注意到这个模型。一直到有一件事情引起了我的注意，是什么呢？就是是和菜头发了一篇文章，就去专门去写deep sick给他带来的一个震撼。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:14]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+然后第二个带给我的震撼是什么呢？是我当时正好是可能是25 6号的时候，我春节回家了。我姐姐一个接近40岁的中年人，然后两耳不闻窗外，是根本不懂AI的人。她那天来问我，好像现在网上都在讨论deep seek，那个瞬间我就意识到好像这次是真的出圈了。然后我也在小红书上有广泛的看到这次的爆火。我不知道在你们看到的视角里面所观察到的情况是怎么样的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:47]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+我的感受跟文律差不多。我的观察是实际上这个事儿是在春节前后那两天突然在国内火起来的。爆火我理解有点出口转内销的这个意思，就是说他实际上是在美国那边先有了很多的关注和讨论，一两天之后很多国外的媒体的分析和评论的文章，被国内的很多的公众号，包括一些专家去引用，突然在国内也开始火起来。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:17]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+我发现一个很奇怪的现象，就是实际上他先发了V3，然后V3出来之后，实际上没有引起太多的舆论的反响。但事后很多人分析，其实从V3发布开始，就是一个比较大的突破了。后边的I一实际上相当于这个V3的1个强化版。当时我也很奇怪，我还请教了很多美国方面的一些政策专家和观察者。我说为什么这个V3发布了之后，包括阿姨发布之后的大概几天时间之内，美国的主流媒体对这个都没有什么反应，大概是在几天之后，new york time发了一篇文章，后边才是铺天盖地的。然后美国的朋友那边的解释是说，因为deep这事儿相对来说，它比较技术性。然后美国的媒体那两天，因为别的一些事儿，比如川普就任，然后包括科技界发生的一些事情，实际上占据了他们的版面或者空间。并不是说他没有关注到，只是他还在理解这个事情到底意味着什么，到底对美国AR产业具体带来什么冲击，什么影响，包括对中美人工智能竞争具体是什么影响，后来我觉得是慢慢的他们开始发现这个事情确实是个大事儿。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:35]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+特别想听听张老师的观点。作为一线的观察者，我想你的观察是不是肯定是要找于我跟这个张鹏老师。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:43]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，就是很有意思。其实deep seek在V2的时候的版本，大概是去年9月份的时候。在整个开源社区跟技术之间的讨论其实就蛮多了，只不过那那一波是还集中在核心圈。然后V3发布的时候，其实就有一些更大范围的传播，但那个时候还是相对集中在科技技术跟产品，包括互联网这个圈子。确实如张峰老师所说，1月20号川普上任，那一周的美国的媒体的关注热点确实全部在特朗普上任这一波关于deep sik的探讨的状态能到这个样子，确实在第一步上有一定出口转内销的状态。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:22]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后很有意思的是这样，川普上任的第一天，当天晚上我跟叛乱做了直播。我们直播聊的是川普上任对中美科技行业的影响。我们两个完全不懂政治学的科技博主来聊这个话题，对吧？因为当天现场白宫现场不是几个科技头的CEO都在，然后我们就闲扯了一段时间。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:42]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+第二天百度的直播运营又找到我说，因为第二天川普跟open I软银跟oracle发布了一个所谓的新一之门计划，就是5000亿美金的AI基础设施的投资计划。然后百度直播的运营说，张老师能不能针对这个问题再直播一次。所以我在第二天晚上又直播了一场，就讲新一之门这个计划，包括能源行业的影响可能措施，包括这个计划的一些细节。那天晚上直播完的第二天，我就把这期直播的音频剪辑好了，做成了播客。然后第三天我就上传到了小宇宙，第四天这期节目就上了小宇宙的首页。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:22]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后我在那期节目当中有一小段涉及到了，因为那个时候二一已经发了，在美国那边其实关于V三已经21。尤其是在成本端跟架构端的创新这个层面，对整个过去这两三年，基于AI基础设施投资建设的这个巨大的宏大叙事结构的碰撞，其实已经讨论非常多了。所以我在那期音频的那个节目当中，有一小段聊到了这个话题。就是我说这个事情被讨论到这个样子，核心原因就在于这或者说最基础的那个原因在于无论中国还是美国去探讨过去两年在巨大的KPS投入基础上构建的这个以美股麦克西为代表AI浪潮的这个大浪这个主数据结构是不是受到了巨大的挑战。但是当时我没有想到这个事情会被推到这个状态。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:06]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+那天我的节目上了首页之后的这一天，我觉得有很核心的事件是24年可能中国有一个最火的创业者叫冯记。就是黑神话悟空的创始人。是的，黑神话悟空游戏科学的创始人在1月26号的晚上发了一篇微博，是讲他怎么看deep seek。第一次提到了两个关键字叫国运，他把DCK推到了这个level。然后1月26号，我没记错的，应该是当天晚上N维利亚大跌17%，这个事情彻底引爆所有的事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:39]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后1月28号上午，一篇号称是N维的老黄的内部信在朋友圈疯狂转发，但那封信是AI写的。然后在那天的晚上，号称是梁文峰回应冯记的一篇知乎的回答，被无数人转发，那篇回答也是AI写的。那个账号是一个虚假的账号，那个账号的举报是我点的是我跟知乎运营说，我说这个人一定是假的，这篇文章一定是AI写的，赶紧把它禁掉。但是从那天晚上那篇文章开始，那天我没记错的话，应该是24年龙年的最后一天。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:15]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我跟我的太太，我的儿子跟我的女儿在外面的酒店过着春节，我看着无数的人转发那两篇文章，无数人的被AI所欺骗。我跟无数的人的朋友圈底下评论说，我说这是AI写的这是假的，我叫醒了无数的人。但是当我大年初一早上睁眼睛看到很多人还在转，然后又跟很多人去评论的时候，我写了一条即刻。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:38]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我说虽然我叫醒了很多被AI欺骗的人，但是我又想到说AI发展到今天这个样子，尤其是RE为代表的这个推理这一步的模型的进展跟演化出来的状态，已经越来越难分辨什么是人，什么是AI。当一个共识形成，哪怕它是假的，有很多人去相信的时候，那他还是假的。所以到那天开始，这个事情就已经不可控制了。后面的事情可能大家就都知道了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:05]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对你刚刚说的这个我也特别想分享一下。因为你刚刚提到的梁文峰的那个回应我也看了。我还在一个群里回复我说，哇塞他写的这个好感人。然后我紧接着就在朋友圈里面看到你说这个是假的，我当时就震惊了。我觉得那是我第一次真正的感受到这一次真的跟之前是不一样的我确实没有从那当然可能也是我水平有限，就是我确实没有从那篇文章里面看到有特别明显的AI的痕迹，我反而他还写的挺动人的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:39]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+现在不光是在这个事情本身上，在于它相关的一些政策和法律。这些其实应该说对市场预期影响比较大的问题上，也有很多的AI的小作文，很多的假消息和误导性的文章出来，比如说前段时间我们这个政策圈子里边也一直在传的，就是所谓的特朗普的AI沙皇，David sax提出来就是为了应对deep sak对中国AI产业采取的五步绝杀，每一步绝杀都很绝。但是事后证明，那个好像是用deep sak AI代写的，但是确实看不出来，很多人转发。后来我也写了一篇文章，把David萨克斯整个的这个访谈的全文放上去了，也是希望能够以正视听。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:27]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+这个文旅提到中美人工智能能力脱口法案，我看也还有很多的文章，最近突然冒出来很多说这个法案会导致每个下载deep fake的人被罚1亿美元。我看到很多这种自媒体的标题，这个确实匪夷所思，他们肯定连这个法案的文本都没有看过，也没有充分的去理解。但是这种标题就非常耸人听闻，传播的也特别快。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+是的，我觉得张涛应该在这件事情上也很有发言权。因为我也有看到你写了一篇文章，是关于这方面的观点的对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:03]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+因为我们这边的话可能整个的观察会更靠前一点。原因是因为因为我们直接做C端产品，其实可能相比我们所谓的我们做业界的人，但其实有一些比较资深的以及特别深度的这种AI用户。其实他对于AI的敏感性，对于AI能力进化的敏感性，其实比我有时候觉得我觉得是比我们从业者要高的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:27]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+比如说我在这个里面可以大家讲一个非常有意思的话题，就是我印象中应该是在23号的时候，我们的用户群体里面有一些是那种比如说偏社区KOL或者说一些非常深度的用户。他已经把他日常的很多的工作的workflow已经跟AI整合起来了。所以说他们对于各种各样的新的AI技术，新的模型，他们都会积极去尝试。然后看能不能改进他们的工作质量。因为这个会显著的增加他们的工作效率和他们的工作产出。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:56]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+所以说在23号的时候，不管是国内还是海外的用户已经开始来找到我们说，你们有没有接DP这个RY的东西？虽然说我们在22号接了，但有部分用户他还是不知道。然后我其实说实话，我之前的时候，不管是V3还是r one出来的时候，我都会跟我们公司的首席科学家pick，我们会去聊。因为我基本上读paper有很多不懂的东西都是他教我的。我对于V三的创新点我也了解，对于阿万这是做什么事情我也了解。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:26]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+但是对于这个模型实际的能力，我觉得我的第一手体验没有用户来的直接。我是从23号开始，就是有用户不断的给我们反馈说他们需要接入这个deep KR1，让他们给我讲他们在r one上实现了什么样子的一些case。我在那个时候我突然感受到这可能不同于以前，我们所有的其他的开源模型发布，然后我们开始投入精力去研究它。就像我后来写一篇公众号专门去解释就是外界谣传的，也是可能颇受攻击的一点，就是所谓的600万美元的训练成本是怎么样子一回事。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:02]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+其实跟早期的那个活也是有特别大的关系的。因为我自己日常在推特上的话，我会有关注一些AI圈子的一个KOL。我印象中在春节前正式大火之前，最早期的时候转发的KOL都是一些真的是AI圈子的。比如说像这个hugging face的那个AK，就不是那个OpenAI的那个anal capacity，是他face的那个AK他经常会转发各种各样的paper，各种各样的新的模型，都是限于你看就像在hugin face的这样一个很业内人士才会去关注的这种KOL上面。所以说那个时候大家讨论的都是V3和R一的创新点。然后训练方法或者是这个有什么样子的意义，从我的视角上，我觉得在美国那边第一次真的大破圈是这个market Anderson。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:49]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+大家也知道马克森其实传统意义上来说，它是一个甚至是有点反华，有点对中国是有一些对抗情绪的这样子的一个美国国大V但是北京时间的24号的时候，mark Anderson开始转发deep sig r湾的这个消息。他开始是只是reply别人的这个推特，然后后来他很快的他就开始自己开始发那个主推。从一开始的什么这个东西确实很厉害。但是我很坦白的告诉大家，我并不为这个厉害感到开心，这个还是跟他以前的立场是比较像的。但是很快他自己发的主推就在一天的时间里面，没有过很久他就已经变成了什么呢？已经变成了deep CR one，是给到我们人类世界的一个看到。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:35]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+了对一个。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:36]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+最好的一个礼物，你知道吧？然后包括什么说R一是AI的斯普特尼克moment，这个东西其实很多都是market研究生在24号到27号，就是在春节前夕，你会看到他的情绪的一个变化。然后my Anderson在美国不管是科技界，甚至说就是卖出科技界，其实他的影响力都非常的大。所以说我们会看到说，其实早期我大概可能在24号之前，更多还是圈内讨论。然后24号从我的这个观察的视角上来看，以market Anderson入场开始，就在美国那边的话，其实他已经完成了一个破圈。所以说以我个人的情绪而言，其实我从max开始转发的时候，我不得不承认我是有点心潮澎湃的。就是你看到中国的一个工作，就是受到了一个原来在立场上是比较跟中国对抗的这样的一个KO的认可。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:28]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+所以说一直到26号，我看到冯继发的那一篇，怎么说呢？有一种呼应的感觉，就觉得真的是成了，真的是厉害了。而且再加上我自己因为也是一个黑神话的忠实粉丝，所以说你应该记得我那那段时间就发了不少的帖子，感觉自己欣赏的两个工作居然有这样子奇妙的连接，所以我自己也是非常开心。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:50]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+重庆发那篇文的时候，很多人在朋友圈都在说双厨狂喜。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:55]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对对对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:56]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+然后我觉得张涛他刚好把这个话题引入到我们接下来想讨论的方向。我想可能也是很多人，尤其像我这样的普通大众非常好奇的问题是deep seek的RE它到底在这次是有一些什么样的核心突破，导致它出现了这么大的一个全球范围内的一个讨论度。这个方面的话，要不先请张涛涛哥帮我们解释一下，毕竟你是专业人士。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:19:25]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+OK我如果说我们先就模型本身而言，我觉得首先像刚刚那个。林浩老师其实也已经提到，V3本身的创新点是非常强的。V3那篇paper里面用了大量的工程和算法结合的很多的。我这里说奇技淫巧是一个绝对褒义的词，就是有大量的这种工程跟算法结合的奇迹淫巧，使得这个deep sik能够在算力受限制的情况下，用一个我们在paper里面提到的2048张H800的卡，也能够训出GPT4O和cloud 3.5级别的base model。这个事情本身的创意很多，但我觉得可能因为V3p paper它的技术细节，我觉得可能不是很适合在我们今天这个里面分享。但它即使如此，但对于整个业界来说，那你无非就是just another GPT4O是吧？Just another cloud.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:20:15]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我觉得它不会带来那么显著的impact，就是到现在这样子的破圈的程度。阿万当然是在这个上面更推波助澜，就是他第一次验证了说业界之前在复刻o one的那个方向上，大家去走的那个所谓的PRM。他是强化学习的一种方法，是通过激励那个过程的方法就证明这个路走弯了是吧？那我们应该用一种更直接的方法走ORM。这两个背后可能也有很多的技术细节，但大家可能就是作为非搞技术的同学一个take away的话就是这个方向之前很多人想过，但是没有人能想着怎么把它做出来。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:20:54]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+Deep sake是第一个，当然有些人说OpenAI可能才是第一个。但是你知道在学术和开源的世界里面，你如果不发paper，你不放出你的这个模型的权重，那我们就等于你没有。对。所以说在这个真实的学术和开源的世界里面，deep six是第一个把这个ORM的这种强化学习的方法跑通的这个场上，并且把它开放的出来。但是我个人觉得，即使是这两个点，它对于我们产业内部来说影响非常的大。但是也不足以形成后面破圈的整个一层的过程。我自己就是从22号我们开始自己接阿万的API开始。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:21:35]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+然后我们看twitter上面的这个用户的feed back全球各地的这个用户，大家会截图，就是自己在用这个deep sake的过程当中，觉得用的特别爽的点，觉得为什么世界上有这么好的东西，它比TGP好，它比cloud好。我们这个时候在推特上去看那些全球各地的用户截图的时候，就发现了一个特别有意思的一个点。就是我们发现说deep seek r one好的case里面有80%，如果你去看他的截图，他都是打开了search的。所以说我觉得这可能是大众舆论在讨论的时候很容易忽略的一个点。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:22:11]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+大家认为这是阿万很厉害，但是事实上我们认为说这一次r one其实它是打了一个非常好的一个时间差。这个时间差是什么时间差呢？就是在此之前reasoning model就是我们所谓的这种有思维过程的这样子的model，就是类似于GPT的这个o one。他其实在全世界范围之内，即使是在已经用了AY的用户里面，真的用过o one的用户是少数的。因为OY是一个相对比较贵，他需要买这个ChatGPT的不管是plus还是pro这样子的高级会员，20到200刀才能使用。这个就使得其实在deep CR one，他们把它模型和产品同时发布之前，在这个世界上真的用过reasoning model的人是少数。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:22:58]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+然后在这少部分用过o one的用户当中，又会有另外一个问题，就是o one在这之前他没有接search。也就是说如果你在那个ChatGPT里面用ON的时候，它是只能自己reasoning的。他没有办法去获取到这个世界实时的通过搜索的这个方法去获得实时的知识。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:23:17]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+那么deep sick r一除了本身的这个技术很厉害，并且开源以外，我觉得它破圈还有一个非常重要的一个点就在于他在全世界范围之内，第一次提供了一个既有reasoning model，又可以通过搜索获取现实知识，不断的结合反思的这样子的一个产品。你要记得这是一个产品，这不是一个模型。而这样子的体验就是reasoning model去调度search的这样子的体验在这个发布之前是不存在的。所以说有大量的自来水用户是在接触了一个完全全新的没有体验过的高质量的体验之后，自己变成自来水。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:24:00]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对的，这是我自己在观察这个twitter上面的整个舆论。我觉得一个非常重要的一点。我觉得也是我们在讨论的时候，我们不能永远都是说因为它开源。因为他什么？我是觉得如果能形成那么广泛的破圈的讨论，一定有很多核心的自来水是来自于这个产品本身的体验本身。而我们在这个其中的话抓到的一个很关键的点，其实就是阿万加search这样子的一个组合。所以我们甚至判断如果当时只发了阿万，没有把设成绩加上的话，也许不一定会后面破圈破的这么厉害。这是我们的一个观察。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:24:33]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我艾特一下涛哥的这个说法，就是deep sig在之前是没有APP，它的APP应该是1月10几号才上线。起初他的APP里面底下就有两个按钮，一个是2Y1个是联网搜索。在他最开始的版本里，那两个按钮是不能同时点的。你要么用联网搜索，然后搜索的反馈的结果类似于今天这个时间点，我们用各种各样的AI搜索跟chat的结果。你要么用2万，但是2万的那个不良网的内容的这个信息的数据源应该截止到二三年12月份。所以在那个时间点确实没有达到爆点的前期准备。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:25:07]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+但是就是在这一波浪潮开始之后，可能也就是七八天之后，APP的两个按钮可以同时点了。因为当时我在最开始dept发APP的时候就装了，然后两个功能我都试了，但是就是觉得确实没有达到让用户wall的那个那个状态。但是当那两个按钮同时可以被点的时候，这个事情就出现了变化。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:25:28]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个我也确实我作为一个普通的用户，我也特别的有感受。因为不管是之前一直以来最头部的这个OpenAI的plus的账户，还是cloud那个一直以来在写作方面最优秀的这种模型，我其实都试过，但确实都没有我在使用。尤其是刚开始deep sk那个时候还没有被各种天量的用户量给冲垮，导致各种服务器繁忙的时候，那个时候还是很流畅。我试用的时候，我觉得我所得到的那种体验和他给我的答案是从来没有过任何一个AI的应用所给我的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:26:05]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+当然今天我从这个涛哥的叙述当中，我终于理解了是为什么。确实就是你讲到的这个推理模型和搜索的结合所带来的体验。为什么我有这个感受呢？是因为我这几天就明显的发现我在问类似的问题的话，他给我的答案我觉得是没有最早的时候我使用的好的。那我自己发现的里头有一个核心的区别，就是它的那个联网搜索是不能用的那我就发现这两个答案上的质量是有一些明显的区别的那然后我们要不再聊聊说其他一些可能在这个DPC的核心突破上，可能一些比较有争议性的一些观点。尤其刚刚其实涛哥有讲到的关于那个极大的节约了成本600万美金的那个事情。这个事情我看到不管是国内，尤其是美国那边对这个事情的质疑真的是非常多。我不知道你怎么看这的事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:27:01]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我就先讲，因为我专门写了一篇文章，我在观察阿万。大概在春节应该就是除夕。截止到除夕的时候，我就有一种很明显的感受。就是美国主流的媒体，包括美国的学界，其实对于中国的整个的这个AI其实是一个长期是冷落，或者是说很刻意的去忽视的一个环境。所以至于说我们突然有个东西火了之后，你会发现他们想来了解我们的时候，他们的英语世界的信息是极度落后的，极度滞后的，甚至会有很多的fake news。比如说像我这篇文章里面，我提到当时因为阿旺火了，那你也知道如果你作为国外的KOL或者作为主流媒体，那你要去写这么一篇新闻，你肯定就会去调查这个deep stick是个什么样子的公司，对吧？所以这个时候就出现了三个比较出名的谣言。甚至到今天你在twitter上面，如果你去搜deep seek英文世界的话，这三个谣言还在继续去流传。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:28:01]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+第一个就是关于罗弗利，对吧？罗弗利其实大家在搜的时候很容易搜出来。他因为是一个女生，而且很年轻，也是那个v two模型时候的一个研究员，然后很多的QL就去推罗福利。但是其实你是在中文世界里搜索的话，你就会发现罗孚里其实有很多的报道。比如说他已经去小米了，已经不在BC了，有很多很多这样子的一些事情。但你可以想象在英文世界，可能这个消息是比较滞后的，即使到今天也有很多人把它描绘成就罗弗利斯蒂普斯克背后的秘密武器。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:28:34]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+第二个就是关于说觉得deep seek是R一这个东西是我们中国的一个量化基金的一个cyp project。他们特别强调这个side project，就说好好像描述的那个叙事就是中国有个量化基金主业是做量化，一不小心干那个side project就干到全球第一了。但是你知道这种感受，在我们国内只要是在从事这个行业的人。我相信绝对不会有哪个人会觉得deep sick是一个side project。我们肯定是很认真的在对待这家公司的。但是这样子的叙事在英文世界可以流行，其实就是因为你也理解他长期以来对整个中国的观察是非常缺失的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:29:15]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+然后到了第三个最经典的谣言，就是说这个deep c的这个r one训练成本只要600万美元。其实相比起我们的这个meta动不动要上亿美元，那这个完全就把NVIDIA的叙事给打垮了。我们meta随便一个fair的director，他这个年薪可能都有600万美元，反正就越传越广。但这个过程当中，为什么我们讲这个训练成本600万美元？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:29:37]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我要讲这三个谣言，我也是因为我觉得训练成本这个谣言的背后是来自于长期的他们对中国整个的AI的学术界的不关注。已导致说初期传播的时候就没有一个很正确的声音，或者是说一个很好的信息来源的去了解，这是一个背景。具体到这个600万美元这个事情的时候，我的观点一直是这个样子的。如果你要去攻击一个对象，那么我们首先要看你攻击的这个对象它最原始的表达是什么。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:30:11]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+这个训练成本600万美元，它最初的这个根源甚至都不是来自于R1，它是来自于V3。也就是说R一的去做强化学习的这个base model v3的技术报告里面，他里面有提到说他们总共的这个训练时长是在用了差不多应该是280万H800的这个GPU小时。如果说按照每个小时两美刀的成本去计算的话，就是这个租金去计算的话，那么差不多就是五六百万左右，好像是550多万，我记不太清楚了，反正我们就忽略个算个600万。首先是dept在他的那个表格里面非常清晰的告诉了你整个的这550万的成本，它的构成是什么样子的。Retraining花了多少钱。去做这个context的扩展的时候花了多少钱，post圈部分花了多少钱，它的模型的整个的参数的尺寸，它用来训练的数据量全部都是在报告里面是清晰的数字。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:31:16]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+如果是业内人士，你根据这个模型的尺寸和激活的参数量，再加上训练的数据量，那么你最后的这个训练时长是完全是一个公式是可以算出来的。这样子的成本的话，其实对于行业内来说，大家是不会有任何的质疑的，就会觉得OK。如果你是做成这样子的一个MOE的架构，用这样子的数据量来训练，那么就是这个样子的成本。这个其实是没有任何的疑问的。并且D在自己的技术报告里面也非常清楚的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:31:46]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+就在那个表格的下面有很长的一段来讲说我们这个地方提到的训练成本，只是指的是deep这个V3最后一轮的训练的成本。在这个之前所有的研究成本，所有做实验的成本，所有去做的一些算法研究、结构研究、数据准备、清洗相关的这些成本都没有算进去。作为我一个第三方的一个观察者来说，我觉得他给出了一个在数学上是绝对可以被证明的成本。并且他也没有刻意去忽略说其他成本还存在，只是我没有列在这里。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:32:26]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+所以我首先不会去blame，不会去怪这个deep sick。我们看到当时在推特上整个舆论发展的过程大概什么样子呢？其实也就是在我刚刚提到的说在market Anderson介入之前，也就是说还停留在比如说像哈根face AK他们这个讨论之前。大家就说deep sik用600万干了meta的这个lama模型几千万的活。这个我觉得是一个完全正常的对比。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:32:55]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+因为这个事实上就是我们指的单次模型的训练成本就是600万对几千万。首先它确实是有优势的，它真的是节省了很多，但是这个节省也就是600万和几千万，就是单次训练成本的这样子一个对比。这个讨论是完全没有问题的。但是我印象中差不多就是在market Anderson介入之后，有更多的KOL和传统媒体，因为他们不太了解这个技术，很快的就把这个600万的单次训练成本背后的信息给忽略了掉了。然后把它直接拿去跟比如说meta在lama上的整体投入，比如说多次训练，甚至把整个团队的投入都算上去。那这个时候就已经开始变得已经有点离谱了是吧？就是说他把上下游的这个人员工资，各种info的开销都算进去，这个时候就已经有点偏离了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:33:41]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+然后到最后，就是到更多的媒体介入了之后，这个600万就甚至都不是跟这个训模型相关的。直接去跟那个cloud，比如这个公司的融资规模，甚至它的股值规模去对比。那这个时候就完全已经变成了一个神话了。然后这个时候你知道一旦变成神话之后，就会有人开始你的攻击你，对吧？说这个是骗子。但是我们想一想，首先这个事情最开始的时候，蒂姆是个压根儿就没想过骗。而所有中间的编出来的所有的这些发展过程，全部绝大部分都是英语世界的KOL和媒体，就是不懂这个行业的KOL媒体所产生的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:34:17]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+所以说我觉得在整个这个过程当中，屁股决定脑袋。就到最后的话，他已经完全演变成了一个跟技术没有关系，纯粹是一个地缘政治，或者是说对于企业管理思路，对于产业发展路线的这样一个辩论。但他跟deep take一开始最原始的表达是什么已经毫无关系了。所以我自己对于这个的观察差不多就是这个样子的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:34:39]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明浩老师要不也来分享一下。因为你这个对不管是中国还是美国的各个创业企业，尤其是OpenAI，包括你之前也提到的那个星际之门，这些计划都非常的熟悉，我想在这方面你应该也有很多的想法。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:34:54]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，也是echo张涛涛哥的这个说法就是560万美金仅仅是一次训练模型的成本。我们这跟整个换方或者D在AI大模型的投入完全不能相比。但是因为在美国的主流的AI这波叙事里面，关于各家巨头包括OpenAI SO bic的投入。我的PPT之前其实有一页是非常明显的。我那页的标题其实特别简单，是一个我很喜欢的主播大猛说一句话，说在成年人的世界里面，钱是最简单的标准。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:35:28]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+依据二整个24年的情况来说，大概他会把整个AI相关的公司分成三类。第一类叫科技巨头，什么叫科技巨头？就是科技巨头每年在AI上的相关的投入，尤其是以KPS为主的投入，是以百亿美金为单位计算的那正好这一周是这几家巨头发新的一年财报，不约而同的meta、google、微软，马总都公布了明年在AI相关的基础设施的投入都是大几百亿美金。没错的话，微软是800，meta是650，亚马逊是750，昨天晚上google应该是700，这个叫非巨头。也就是说主流的媒体跟主流的，比如说美国的这个KOL的认知里面，AI相关的大的家伙们每年在认识上投入是几百亿美金级的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:36:17]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后第二类公司叫AI的，主要的参与者是以OpenAI ISOOIC cloud，包括SAI为代表的这些公司，他们的计量单位是10亿美金。ONI去年应该亏了50亿美金，SK应该也是小于几十亿美金。然后XCI去年大概也融了几十亿美金，就是说这些公司在AI相关领域的投入，这个投入包括硬件的数据中心，也包括人员，包括infer，所有这些可能是几十亿美金来记的这类公司叫主要的参与者是几十亿美金。第三类公司叫挑战者，那就简单就是几亿美金累计的比如说made journey，什么开瑞点、AI这种公司。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:36:56]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以在主流的媒体叙事里面，钱的计量单位我刚才讲过是亿美金，十亿美金跟几百亿美金的这个体量。甚至如果把各巨头的所有的KPS加起来，整个去年美国的前六大科技巨头在AI的相关基础设施的KPS图应该是2300亿美金左右。然后今年预计可能会涨到3000甚至4000。如果再算上星际之门计划的1000亿美金，这个数字就更大。所以你发现我刚才讲的所有数字，最小是一美金，忙追的是10亿美金、百亿美金、千亿美金。这些数字偏偏出现在所有的媒体跟所有的讨论当中。然后突然间有一个人告诉你我这边只需要600万美金，这个的落差之大对吧？就我不需要再去解释别的任何事情，就是任何一个哪怕不懂这个行业人，他也知道这中间的差别是几个零的差别。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:37:45]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以当这个事情被演绎到一个神话，跟大家已经不去探讨那个细节的时候，这个事情就已经没办法。但是过程中其实也是有清醒的人，你相当于esop CCEO在接受一次这个过程中采访也提到，就是说就跟刚才涛哥讲的逻辑是一样。就是他确实6 560万到600万美金的一次性成本，确实是一个成本很低。工程上有非常多创新的方式。但是我们这边可能常规的，比如说是一个比如2000 3000万美金的这个体量，本质上来讲不是一个遥不可及的数量级的差别。但是没办法，这个故事被演化到这个程度之后，这个事情的演绎跟推演就不可控了，就出现了后面未来的大跌。大家去探讨这个行业的乱七八糟的事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:38:26]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+我其实完全同意前面张涛老师跟明浩老师分析，就是这些数字本身我理解实际上它有些时候是超越了事实。添加了很多的情绪，尤其是双方的民族主义情绪，包括中美AI竞争的一些争论在里边。科技竞争，因为从这个技术社区之外的普通人的角度理解，我理解普通人对他最直观的认知可能就是两点。一个是啊他用最低的成本实现了几乎比肩OpenAI的这种模型性能。然后再一个就是说它在更低端的硬件，更低端的GPU上实现了高级推理。我觉得普通人可能更加倾向于从这些方面去理解。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:39:10]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+然后从中美两边，实际上民间其实都有一些动力去夸大deep seek的这种他怎么省钱这方面。然后包括也去质疑美国的这些OpenAI，这些AR的科技巨头为什么花了这么高的成本，但是好像没有跟中国模型拉开多大的差距。因为我理解在美国国内，实际上对OpenAI，对这些领先的这种AI的巨头一直是有一些质疑的。就是说政府对他们的支持非常多，不管是政策工具，出口管制，然后包括国内的一些资本的投入，其实支持是非常大的。然后突然又冒出来一个好像一直是比你要落后的，你看不起的这个中国的大模型出来，然后人家花这么少的钱给你实现了同样多的效果，我觉得肯定毫无疑问会极大的加剧了对他的进一步的质疑。然后从中国国内本身，这肯定对我们来说是一个突破性特别大的事情。所以我觉得两边其实都掺杂了很多的情绪，这个时候，事实反而不是特别重要的。也就是我为什么前段时间一直在说，这个讨论需要适当的降一下温，然后需要有更多的产业界和技术社区的人们来去澄清一些基本的事实。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:40:26]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对这件事情我也特别想问一个问题，就是这个deep sik这次的模型我们也有观察到。这一次最近deep sik爆火之后，其实硅基流动和华为云他们联合合作，在华为的升腾的这个技术基础上，也去提供了这个dept r one的服务。包括前面我们最早的时候有讲到，dept r一爆火之后，英伟达其实暴跌17%。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:40:55]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+尤其前面我想涛哥也有提到说deep seek。这一次RY包括V3的很多创新，其实都是因为他们只面临了有限的资源情况下，做了很多工程上的创新，技术上的创新。其实我觉得他揭示了一个问题，之前美国国包括国内的有一些AI行业的人，也在说，其实是有1点AI算力门槛论的。也就是刚刚张老师说的，你必须要有几十上百亿美金的投入，你才有资格去做大模型。包括前面一月底的时候，李开复老师的这个灵异万物的退出训练大模型这件事情其实也对这个事情也是一个注脚。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:41:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我其实特别想钉钉几位在这件事情上的看法，也就是deep sig在这种资源匮乏的情况下所做出的这种创新。以及他可能对当前的这种包括这个芯片，英伟达这些造成的冲击方面，包括它可能运用到国内的升腾，就华为的芯片上的一些运用，它所带来的打破的一些传统的叙事。这方面的观点。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:03]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我的感受是我觉得都是细节。第一个细节是国内的这一波做info的厂商跟做chat box的厂商。可能因为deep seek的爆火。但是deep sik本身没有那么强的面对这种bug流量的运营的能力，导致的用户蜂拥的寻找所谓的本地部署跟云端部署的TI方案，导致的用户增长是一个巨大的促进作用。这个促进作用本身是所有人未曾预期过的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:30]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+举一个最简单例子，就是国际流动的CEO袁老师其实之前在几个朋友圈也写，之前V3上线的时候，他也没有特别就跟这个涛哥的莫妮卡差不多。就是大家觉得一个开源模型技术能力不错，也没有想特别多，也没有最快的做兼容，包括二一。但是当事情火了之后，他们马上跟进之后，无数的人注册国际流动，然后开始做自己的API，然后做调用，做部署。包括我看好几个KOL都用自己归流动的这个邀请的注册码，因为他们现在邀请是每个人，如果你用我的邀请的话，注册成功之后会有14块钱的奖励。我看已经有K要晒他的奖励，已经这个数字已经很庞大了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:13]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+然后现在小红书那些评论下面全都是这个邀请码。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:17]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+B站上今天应该在首页应该有不下三个。教大家怎么在本地跟在云端部署deep sak的视频。我点击看都是1万人同时在线在看。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:29]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+这一步对于这个生态的促进跟影响的长远性，可能是今天这个时间我们没法预估的。因为在这之前，所有这些厂商的知名度也好，影响力也好。包括他们做的事情，他们的业务，他们能做什么，不能做什么，怎么跟上游结合。所有这些事情对于一些非行业内资深人士而言，是完全未知完全陌生的。但这一波之后，很多事情大家都知道了，这是第一个。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:53]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+第二个就是当第一次出现之后，包括我们我们前面在探讨的这个成本的问题。所以市场的最直接的第一反应就是杂案没点。但是你要知道就是股票市场本身来讲，它是一个多方博弈的过程，出现一个巨大的下跌，一定是有一些别样的因素导致它不是一个单纯的人。他可能是本来空投就比较多，积压情绪已经到了，需要一个时间点的引爆，那这个事情彻底就把它点着了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:44:20]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我反正在之前写那个年度报告是有一张图，用的是media的过去一年的股价变化。然后旁边有一张附图，是标普500的公司一天的涨跌幅的排名。然后涨幅前十跟跌幅前十这20个选项里面应该有16个到17个都是没得贡献的。为什么是这样？因为就是我有说法叫盈亏同源。就是它既是AI这波大模型的最大的受益者，然后他又是七巨头之一，它的波动当然就是最大的，关于它的争论也是最多。所以当天跌了17%。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:44:53]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+这个跌了之后，更多的反面的探讨开始出现。大家会觉得如果真的出现了一些更低成本的方式那是不是对未来的我们期待中的无论是应用层的爆发，还是agent的爆发，还是个人使用门槛的降低有了更多的促进。也就是说他把需求的门槛降得更低了，是不是能带来整个生态的更大的繁荣。这个观点引发的讨论是说，如果是这样的话，其实对于芯片也好，对于上下游的厂商的需求也好，应该是一个长期看上去更多的更好的事情。所以这两方的观点在过去这一两周的时间也疯狂的做对冲，谁也很难说服谁。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:45:34]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+两方的观点疯狂的在各家几个头部公司的股价上做对抗。又很巧合的是，这几家公司这几天都在发财报，昨天晚上应该是google发的。是然后google非常激进的在明年的AI的这个相关基础设施投入，应该是预期要涨百分之多少，40%还是百分之几。但是即便是这样，即便是吉米最近一段时间的表现很好，但是财报发完过也跌了8%。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:46:00]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+米亚大跌那天apple没有跌。大家会认为对端侧模型可能是一个好处。包括这两天港股开盘之后，联想涨得很好。联想的涨的逻辑就是认为端侧模型对于有端的厂商而言是一个好事情，包括小米也是这个逻辑。所以你会发现同样的一个信息，至少在我们所熟悉的二级市场跟股票市场里面，对于不同公司的不同解读。影响了这一波短期的操作。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:46:25]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白涛哥有什么补充吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:46:27]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我觉得对于算力的这块的影响，其实他就是分成短期情绪和中长期的看法。我记得春节期间的话，我和中国基金的宇森我们有个交流。然后宇森给我提到一个特有趣的观点。他说他看身边的朋友，比如美国那边的朋友，西岸的都在买西岸的都在买NVD，东岸的都在卖NV其实就是说西安的都是产业界，都是AI产业界的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:46:53]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+大家都觉得像阿万这种开源社区的这种新的技术的突破和发布，它一定是会带来整个行业的更加繁荣，造成未来的不管是推理还是训练的需求量都会大大上涨。但是东边就是华尔街搞金融的，大家短期的这种情绪都会觉得说这是个重大利空，我要赶紧卖。我觉得之所以会出现这个分叉点的一个很大的一个原因，就是大家对于未来的看法。以及说股票市场其实和长期的产业发展，它不一定在任何时间段之内都是完全是同趋势同向的。但我自己毕竟不是个专业的金融人士，我自己只是一个从业者，站在我的视角上来看的话，我肯定对于未来的这个算力需求是有非常乐观的预期。不仅仅是因为阿万，还有很多其他的方面的一些原因。我整体上我会觉得，比如说我会很乐观的看到，可能也就是不需要3到5年，我觉得太长远了。我觉得可能就是三年之内，整个推理的算力需求会比现在扩大100倍，就不是十倍，是100倍。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:47:58]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+所以说站在我这样的观点前面来看的话，我就会觉得整个的算力需求一定是会大大上涨的。但是对于NVIDIA来说，这个叙事最大的变化是推理需求上涨了。但是不是都有NVIDIA来吃掉这个推理需求？我觉得这可能是关于未来叙事最大的一个变化。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:48:17]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+就像最近大家也看到华为的910C是吧？那个国际流动已经部署上，开始来推理2万了。大家也会去想说，那你华为能行。那我是不是其他的那些厂家也能行？我觉得这一次可能是因为开源世界之前一直没有一个真的能够跟一线毕业模型能打的模型。所以说大家去大规模去部署开源模型的动力并没有那么强，这是第一次产生的这样子的一个时刻。当大家真的有这个实际的部署需求的时候，大家突然发现好像不用NV也行。我觉得这个是造成这个叙事一个特别大的一个变化。但如果从整体的大的推理需求量来说的话话，我自己是非常看多算力需求的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:49:04]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白这里我其实特别想引入接下来的一个话题。就是其实有有一些人我看到对这次的事情的评价，就是认为其实是美国一直以来的这种芯片出口的管制政策，并没有真正的限制中国的AI技术的发展，反而导致了很多的技术上的创新。这方面的话，我其实想先听一下张鹏老师的观点。因为你也一直有在关注美国方面对deep sik这次，尤其是他们政府方面对这次deep sik r一爆火的一个反馈。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:49:38]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+Deep sik这块我理解美国那边从一开始它的一个非常重要的关注点就是一些涉及到芯片相关的一些事实的问题。比如说就是他到底有没有最开始大家流传的那个5万块的爱奇艺一百的芯片。因为这个事情最先缘起的实际上是2024年11月，那个时候也是美国一个半导体AI产业界的一个非常著名的一个观察家。他自己也运行一些newsletter叫dalan battle。他实际上在去年11月份的时候，他好像发过一条推文，其中提到了deep seek有超过5万个hoper GPU，他没有说是H100，实际上当时当时他说的是5万个hop GPUS800肯定也是hoper，对吧？只是说因为美国制裁，他们的内存带宽比这个S100受到更多的限制。实际上属于一种阉割版，后来这个阉割版也被美国进一步的出口管制。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:50:39]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+然后后来实际上是在达沃斯论坛期间，那个scale AR的首席执行官alex ander王，他接受采访就谈deep sik这个事情。包括他的这个算力的工艺这块，直接就是说deep sik有5万块的S100的芯片。然后他理解了这违反了美国的出口管制，而且deep不敢对外去说。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:51:02]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+所以这个事情我觉得在美国的商务部，包括这些主管部门是我觉得引起他们非常大的关注，包括白宫、国安会。因为我们都知道S100是美国严格出口管制，对大陆禁运的芯片。那么你这5万块到底怎么来的？你是不是通过这个走私过来的？所以说后来我们看到媒体放出来的消息，这个白宫国安会等于说牵头成立了一个类似的这种调查机制。实际上我理解现在这个调查仍然在进行当中，这肯定是他需要去搞清楚的一个问题。我觉得现在大家普遍的理解就是说他这个5万块的S100应该是一个假消息，他应该主要还是依赖的那个S800。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:51:47]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+包括我们前面那个张涛老师给明浩老师提到的deep stick，它主要的这个创新点，我理解也都是围绕着S800克服它这个内存带宽不足的这个问题，来产生多余的计算能力。因为我看到有很多分析说d take实际上是在每一块的S800的132个处理单元中，专门编程了20个用于管理它的跨芯片的通信，这在扩大当架构当中实际上是很难做到的。所以很多分析也指出来说，dipstick的工程师实际上是使用了另外一种叫做PTX的指令集，实际上是跟这个故障是不太一样的。也就是说只有你在使用S800的这种情况之下，你这种通过工程化的这种优化，它才是有意义的。但是这个事情确实毫无疑问的激发了美国那边的非常密切的关注。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:52:42]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+对这个问题是有两派。一派是有人认为正是因为美国前期的过于严格的错误管制，所以对中国公司产生了一种倒逼的效应，逼着他在工程方面就像deep sak一样去做到了极致，然后才开发出了现在的这种deep sak的R一的这个模型，V3的模型，实际上这是美国出口管制所导致的一个恶果，属于自食其果。另一种观点认为说，你看这个dipstick还是在依赖你的英伟达的芯片去做出来这个模型是吧？还是用的S800，你当初就不应该放S800，你应该把S810块管了，包括它的等效的一些芯片。所以现在前几天彭博，我记得也传出来说，美国政府正在考虑进一步的管制，目前还合规的英伟达的阉割版H20。我理解目前国内其实对S20这种芯片还是有一定的依赖的，如果管制了之后，肯定会产生相应的影响。目前的走势来说，我理解H20可能大概率的会被管制。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:53:47]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白，这方方面也想听一下张老师和涛哥的想法，尤其是关于deep sit的芯片来源这件事情，我还蛮好奇的。Deep city的论文当中，他其实有明确的提到他是用的H800。然后我记得其实是暗涌有一篇文章，梁文峰他也是明确有提到说他们其实很多都是老卡，而不是真正的现在最先进的卡。但是我也有记得有一个新闻，其实是我印象里面deep sick第一次出圈的一个新闻。其实是当时说deep sik换方是国内唯一一家拥有1万张A100还是H100那个芯片的的新闻。这个是当时我记得换方出圈的一个很重要的事件，不知道这个庄老师怎么看？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:54:36]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，就第一波关于AI的基础设施投入跟买卡的讨论的时候，大家就在探讨中国的哪些巨头的卡的数量比较多。换方是做量化的，量化说简单一点就是用机器的方式炒股。它的整个运作方式就是推理、计算、分析、总结、整理，整个过程听起来跟大模型一模一样，对吧？所以在人家做换方，做炒股的时候的卡就有了。所以在那一波在美国还没有完全出明确的禁令之前，换方这个集团公司的名上就有不少的卡。所以那个时候有一波新闻是说中国可能除了字节跟腾讯在那个时间点之外，因为我万卡的只有换方。换方在那个时候用万卡的原因是因为他是做量化。但是那个时候其实换方已经开始做大模型的研发。就这两件事情是那个时候他在相当于在并行在做。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:55:29]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后后期当国管制限制出来之后，至少在今天我们看到的V3跟R一的一些论文的paper上来讲，已经是合规的。但是你要知道，其实中国的公司有非常多的方式想用到那个被管制的卡，还是可以用到的。无论是租用，然后海外公司实体，还是从新加坡转移到各种各样的方式，其实有很多非常多。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:55:52]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+涛哥这件事情怎么看？你作为一线的AI领域的创业者和产品经理。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:55:58]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+感觉好像也不是什么该我们看的事情。在这个方面可能我最现实的来源就还是那个CM analysis。上周他们发的那篇报告，就是说6万张1万张110万张H100，一万张H800，3万张H20。这个数字应该是一个比较可信的数字，而且我讲真，如果真的是把他们的那个V2和V3那2篇paper从头读到尾，当然我也是因为有我们公司首席科学家陪读，读的过程当中你就会不断的问自己，但凡他们手上如果真的是那种如alex ander王所说，有那么好的5万张卡，我觉得他们都不会去做那些事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:56:40]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+就是你在那个V2和V3的paper里面，读着读着就会有一种，为什么要干这个呢？就是他为了去解决一些那种卡间互联的带宽上的问题，为了解决传输量和运算量的问题，他用了很多的一些偏hack的一些方式。如果说他们不是受限于卡的话，我觉得他们根本就不会去干这些事情。所以说我觉得真的是认真读过V2V3那个报告的人都会可能跟我们产生一样的疑问，并且得出一样的结论。就他们是真没卡，或者是真没满血的那么多的H100的卡，像alexa王说我们有5万张。我觉得如果真有这样的话，他们就不会去干V2V3里面提到的很多的一些工程上的一些优化了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:57:24]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白。另外我特别想讨论一个问问题，就是关于其实也是一直以来，尤其是美国那边对这一次DPCR one的一个非常主要的抨击，就是关于那个蒸馏的问题。有时候到DPCR one可能是用了GPT模型的一些模型的技术来进行蒸馏。由此就涉及到一个可能侵犯到美国的领先知识产权的一个问题。这个问题我可能想请涛哥帮我们先简单的介绍一下。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:57:57]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+什么是蒸馏OK。好，就是solution。他在机器学习领域里面，其实早期的时候是一个更加有确定性的这样子的一个用语。就是说比如说你已经训练出来了一个大size的一个模型，比如说你训了一个70B的对吧？这个时候那你把这个70B的模型给那些prompt开始疯狂的输出一些数据。然后这个时候你把这个70B的模型中间的某些层给抽掉，只留下。比如说以前我可能有个200层，我抽掉之后剩下100层。这个样子我模型参数变少了，层数也变少了，整个网络结构是变简单的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:58:33]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我用前面那个70B满血的那个版本的输出去调教它，试图让之后的更小的size，比如这个32B的这个size的模型，也能够表现的尽可能的跟他的这个teacher model 74B的一样，这个叫distribution。最严格的这个description的定义里面，它一定是同样的一个模型同源，对吧？就同样的模型我抽掉一些层，这个叫正流，那后来这个东西相对来说被泛化一点，就是说我也不要求那个模型是一样的了，我就是用一个更大的模型让它的输出来调教我的一个student model。这个的model可能在架构上，对，有可能跟那个teacher model不一样。但是他最终的目的都是希望通过一个teacher model的这个output输出来引导这个student model能尽可能的他的整个的输出能够跟teacher model一样。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:59:25]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+但是这个里面有一些限制。首先就是蒸馏是大尺寸模型对小尺寸模型。其次就是student model，理论上来说它是不可能强过teacher model的。这是关于蒸馏的一个基本的概念。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:59:38]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+蒸馏这一个问题也是我看到美国那边好多的KOL都在讲我们是偷了他们的这个领先的技术。但是我也其实有看到说OpenAI的他的有一个研究员，他是自己在那边承认说认为这个deep KR one的一些发现是独立于OpenAI的这一点我不知道你怎么看，包括你怎么看认为因为我听说蒸馏技术应该在AI行业里面，其实都是一个非常普遍运用的技术。包括其实之前有新闻，就当时应该是美国已经是限制了一些中国的企业去使用它GPT的模型。但是当时应该是有一个新闻是说字节还仍然在通过API使用的方式在蒸馏这个GPT的模型等等，有这样的一些新闻。所以这些方面我不知道你们怎么看。涛哥，要不你还是先说行。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:00:29]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+首先蒸馏在行业里面是绝对普遍，当然就是每家都不会承认，但这个事情就是真实存在。中美我觉得都有啊，这个关起门来说大家都是认的，但是公开来说就没有人会认。其次就是说大家不要把蒸馏想的那么厉害，蒸馏这个词是因为大家有时候对蒸馏原理不了解，所以说就觉得蒸馏好像就是像跟我们那个做汤做饭一样？就是把水分熬干，剩下的精华就是蒸馏。大家这样子就会觉得好像是一个剽窃，是一个过程。但是如果说你真的去看那个V3的整个的训练过程，包括2万的训练过程，你就会发现所谓的这个蒸馏即使存在，它在这个里面能够影响的点是一个非常小的这样子的一个点。好，这是首先一个前提条件。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:01:11]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+其次我们再来看说蒸馏这个话题一开始是怎么产生的。我们讨论任何一个事情，我们都要看他最开始是怎么产生的。因为不能说把这个原因这个起始点给抛开，我们就空对空的来说，蒸馏有没有存在不存在。其实你会发现真的在美国那边这个舆论发酵起来，包括也有一些华人在质疑这个事情，就都是来自于大家的一些截图。就是说你去问deep sick的这个官方的应用的时候，他有时候会出现自我身份认知的错误。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:01:41]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+他会说IM ChatGPT，或者是说在他的那个r one的reasoning token里面，就是他的思考过程里面，他会提到作为OpenAI的一个ChatGPT，我不能怎么样。然后大家以此截图传播说，他果然是剽窃了OpenAI。最夸张的就是说这个是一个OpenAI的套壳，这个就有点过分了，这个我们就不去回应他了。但更多的是说这个是使用了蒸馏技术。但是我是觉得所有拿这种case来说的人，其实他本质上是对于现代的这个模型训练过程，包括说这个IOM的这种模型的基本原理能力，他其实是不太了解的。所以说他只能够通过最后的输出的这一句话来做这个判断。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:02:23]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我们来简单分析一下，首先任何一个语言模型他都不知道自己是谁。就是我们在做pre train的时候，我们真的在预训练一个模型的时候，用全世界所有的语料把这个数据各种各样处理的时候，大家对AI因为也不太了解，总有一些比较偏玄学的想象，就觉得好像真的是一个人他有个自我认知。所以说我问他的时候，他就说，hey, I am ChatGPT. 但事实上在做per train的时候，通常不会去训这个，而是在做post做后训练的时候，会专门有一个对齐过程。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:02:57]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对齐有很多方向，偏安全的，偏有害性的是吧？偏各种各样的。其中有一个方向就叫self condition，就是自我认知。在那个部分的对齐里面，就会通过大量的这个instruction，就是这个指令集去训练一个模型，让这个模型知道我是谁，也就是大家理解吗？就一个模型它本身它在训练的过程当中，其实它是没有一个所谓的自我认知的。他的自我认知是通过后期的对齐的方式来实现的这是一个前提之一。R一中间有一个比较tRicky的一个地方是在于说，至少行业里面有不少的同学会觉得阿万他是通过少做对齐来实现了在模型能力上的一些提升。因为大家要知道，所有的这种我们所谓的对齐的部分，不管是偏安全的，偏什么方面的对齐，都会通俗意义上来讲会让模型降智，他的智力会降低。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:03:54]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+比如说如果你仔细去看阿旺的那个paper里面，他会提到他们在最终一轮的SFT里面引入了harmless的数据集。那是一个有害信息的事实上如果不加有害信息的对齐的过程的话，其实在有一个benchmark上，他们还能再提升七八个点。但为了去对齐那个那也牺牲了一些能力上面。所以说其实阿万我们大家一致比较认可的就是他少交了很多的像OpenAI和cloud。他们要交的所谓的叫alignment tax，就是对齐税。就是说很多的这个商用模型，它最后为了符合各种各样的法规，包括社会价值公众的这个意义，他要去做很多的安全对齐。这个过程当中，其实他会损失很多的智力。Self cognition就是自我认知，也是后对齐的一部分，他身上也会丧失这个那阿万不得不说在这个方面做的比较少，所以说他能力很强。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:04:45]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+但是造成了另外一个问题，就是他对自己的自我认知其实不是那么的强。现在互联网上，不管中文还是英文，互联网上充斥着大量的语料。这些语料里面各种地方都有m ChatGPT什么什么的。他在做pressure训练的时候，数据集里面不小心混淆进去这样的数据。首先这个是一个非常正常的事情。好，我先解释这一点。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:05:09]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+另外一个点，就是大家对于蒸馏这个事情的理解还不太对的一个点是什么呢？就是如果说假如说你真的要去做蒸馏，真的做蒸馏是怎么做呢？首先他现在做不了真正的蒸馏了，因为真正的蒸馏的话是需要那个teacher model。他在输出每一个token预测的时候，不仅要输出概率最高的一个，也还要输出，比如说丽丽曾经是一个律师，那么推理到一个的时候，除了要输出那个律师这个token，我们就假设这是一个token，就律师可能是99%的概率，那可能95%的是一个女生是吧？女生可能95%的概率。也就是说在每次推理的时候，其实next token它的是一个概率分布，是有很多很多个可能性的。我们真的要蒸馏的话，其实是每一次next token prediction的时候，要把完整的每一个词的概率分布都拿出来，这样子蒸馏学习才可以学到真东西。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:06:08]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+但是OpenAI早在一年多之前，就在自己的API里面，把每一步推理的时候的所有的可能性token，可包括这个概率的数值都已经屏蔽掉了。所以说首先其实你现在做不了真正的蒸馏，你想靠这种方式，就是想靠他们线上的有的那个P做蒸馏，学不到什么特别多的东西。其次如果你真的要做增量，大家想一想你会去怎么构建那个prompt？难道你构建的prompt会说你输出的每一句话都要以i am ChatGPT开头吗？就如果你真的要去让那个teacher model教你，你肯定不会让他开头输出MT的GPT，对不对？比如你可能就是说你教我5加5等于几，直接输出答案，那那个API就只会输出一个十，那你学到的就这个时你不会学到那个MT的GPT。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:06:55]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+所以说现在网上所有那些拿那个deep seek的官方应用回答里面的他的表达说MT的GPT或者说作为一个OpenAI的AI这个东西来说，它是蒸馏的。其实在我们从业者看来，其实都不是特别懂行。对，大概就是这样子一个背景。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:07:12]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白，张鹏老师也特别想问问你的看法。因为我记得你在这个问题上应该也是有发一篇文章来讲的。就是关于美国那边可能认为我们通过蒸馏去所谓的叫偷窃他们的领先技术和侵犯他们知识产权。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:07:27]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+这一点上是我理解的这个事情。美国那边其实有一些情绪化的表达，比如说你刚才说的这个偷窃美国模型的问题。我们要严格的从法律上去分析的话，实际上你要从知识产权法的角度去分析，对吧？因为我们通常说如果说存在一个偷窃模型的情况，那什么情况是属于偷窃模型？我觉得无外乎这么几点，一个就是说你设法获取了别人无意间公开或者共享的模型？既可以是在物理意义上你去窃取了存储模型的设备。也可以说你是在破解他人在终端设备或者这个模型接口上实施的一些安全保护，从而去获得了这个模型。要不就是说你通过网络入侵的手段，你获得的模型，总之这些都是没有争议的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:08:20]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+这个所谓的偷窃模型的行为，你不仅可能因为这个违反一些相关的协议而承担民事责任。同时还有可能因为你违反这个网络安全保护相关的法律法规，需要承担行政和刑事责任。这个是中美其实在这方面我觉得是没有什么差异的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:08:39]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+然后再一个就是说套壳的行为是吧，套可我们大家也知道，尤其是前期AI发展起来的时候，国内还是比较多的。也就是说你这个模型是合法获取的。但是你既没有引入新的数据或者模型的架构，你也没有在训练代码微调对齐或者推理生去引入任何的实质性的修改。你实际上就是把别人研发共享的模型说谎，说成是自己研发的。这个我觉得整体上也是没有争议，它属于一种偷窃的行为，并且很可能会构成知识产权法上所谓的对这个著作权的版权的侵害，包括一些欺诈，违反开源协议的这种行为。再就是说你虽然这个模型你是自己研发的，但是你在一些关键的环节，比如说在数据的配比架构设计或者其他一些非常对你这个模型的性能提升非常重要的优化的环节，你用的一些参数，实际上不是你自己的，你是不知道什么渠道从别人那拿来的。也有可能会有侵害商业秘密的风险。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:09:49]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+但是说模型蒸馏这个我理解是非常复杂的。而且这个事情实际上之前大家在讨论这个AR相关知识产权版权问题的时候，很少有人会提到这个蒸馏的问题。所以说下一步他肯定是这个AI知识产权法领域需要去研究的一个问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:10:11]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+我的理解是说，目前的情况之下，蒸馏不是说当然的去它是违法的或者违法的那个协议的。很多的应用场景，就像张涛老师和明浩老师提到的，其实都有合法蒸馏的这个需要，包括一些行业里边大家都在做的一些事情。什么情况下的你去蒸馏他人的模型？属于说的窃取。我理解这个要求应该是非常严格的。而且应该是有非常明确的，双方之间的这种使用协议或者其他类型的合同的规定。并且它一般情况下来说，我觉得不应当是构成知识产权法上的一个侵权行为。而更多的可能会构成一些违反合同法导致违约责任的这个行为。但是目前我们看，从美国方向来说，实际上把这个事情就简单的有很多人简单的定性为一个偷窃的模型。所以我理解很多这个时候他其实已经不再仅仅是从这个法律上去说这个事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:11:11]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+像David sax我理解就是说他作为特朗普任命的AR沙皇，未来在AR监管方面，包括对华AR竞争这块儿，应该是有比较大的话语权的。我就注意到他已经连续三次提到了这个模型蒸馏，他认为是侵犯知识产权的行为。我认为这是一个非常值得引起大家警惕的信号。未来根据他的说法，他理解美国的OpenAI这些闭源的模型企业会采取更多的措施来防止中国企业去蒸馏它的模型。至于说他怎么去防止，怎么做到这个技术上，我其实我不是特别懂，我不知道他他是不是真正能够做到，但实际上我理解他是有这个意识。还有人在讨论未来美国是不是会出台相关的这个领域的监管的法规，比如说要求托管BM模型的这些美国的云服务商，履行一种所谓的像我们银行业反洗钱的这种了解你的客户的尽职调查规则。I know your customers.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:12:16]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+就是必须去监测中国企业去蒸馏美国模型的这种行为，然后采取相应的这个报告或者预防的措施。但是again就是在技术上，他到底能不能做到？这个我觉得要打一个问号。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:12:31]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+能不能做到这一点上，涛哥有补充吗？有没有这方面的研究？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:12:36]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+你是说他有没什么方法来防止我们吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:12:40]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对对对，是的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:12:42]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我觉得这个很难说实话。如果是只是大家现在在讨论的那个蒸馏层面，因为只要你的模型是一个开放出来让大家用的，那么你就避免不了这件事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:12:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+同意，我其实就这个蒸馏，包括美国那边认为我们所谓的叫，而且他们技术的这个问题，我有一点自己的小小的看法，就是我认为他们这件事情上真是非常的商标。你ChatGPT当年训练的时候发遍全网的数据，包括其实很多人可能关注爱的人之前也有记得一个事情，就是他们当年的CTO在有一次主流媒体的采访的时候，有人问到说他们是不是有去在未经授权的情况下去下载youtube的视频来进行训练，他也是装作茫然无知的情况来回复。所以在这件事情上，包括我觉得AI的这一波的大语言模型的发展上，其实大家也都知道。我们都一直在来说，其实数据一直都是我们的评级，全网的数据已经都耗光了。所以大家这种互联网的数据一直以来说实话就是粗犷一点讲叫做被侵犯的那其中的最大的犯罪者，我觉得就是open，就是是差GPT。但他们反而来在这一件事情上来指责我们，就用一个行业通行的蒸馏的技术来指责我们。我觉得他们在这件事情上真是非常非非常非常的双标。不知道张老师怎么看？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:14:08]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+对我理解就是这个事儿，其实它是一个不同的问题。就是你刚才说的，他使用这个训练数据，包括很多的训练数据，实际上是一些本身有版权的文本图像，他没有在获得版权人许可的情况之下去使用这些数据进行的模型训练。我现在实际上是关于大模型领域知识产权争端的一些主要的问题。比如说训练数据的爬取是不是构成侵犯版权，AR生成内容的版权归属，APR滥用是不是违反服务条款等等这些。实际上中国和美国法院的司法实践，当当当中都有一些比较有名的案例。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:14:49]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+但是这个跟美国人他说的这个模型蒸馏，知识蒸馏的问题，它实际上是不同的问题。因为你前面说的那些实际上涉及到它在去训练数据过程当中一些侵犯知识产权的行为。等于说是输入端的从输入端他认为的一种侵权行为。那么这个模型蒸馏，实际上我们我理解他实际上是使用了美国的这个前沿模型它输出的一些数据。所以这其实是不同的问题。美国人之所以这么敏感，他就虽然是大家都在，其实都在搞知识蒸馏，就是你说的open a anthropic，google他们这些其实都在做这种事情。但是他们可能觉得，因为我你是在蒸馏我的模型，而我的这个模型我现在把它训出来，实际上前面我承担了大量的包括训练在内的全部的成本，你这个针对我的模型实际上是某种程度上去搭了我的便车，我觉得是不公平的，就是说他有一种所谓的不公平的这种sense。但是这个到底是不是一种违反知识产权法的行为，这个在法律上它是两回事儿。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:16:03]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+林浩老师在这方面有补充吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:16:06]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我基本没什么补充，因为这个话题从蒸馏到什么是蒸馏，到大模型行业大家常见的对数据获取和数据操作的处理，再到中美两国之间对于数据的敏感跟安全的考量。命题一步一步被放大到不可解释，对吧？就是最可解释的是最前面的那些问题，但是到后面很多问题其实就没办法解释了，都不是技术问题了，对吧？所以能发展到这个样子，必然是后面那些最大的命题导致的那既然已经不可解释，那就让它存在着。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:16:43]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+包括其实最近在deep c爆火这件事情上，他们也面临到欧洲欧盟那边的意大利、爱尔兰、法国、比利时这些国家的一些监管的挑战。包括在美国这边刚刚我们提及的一些挑战。我觉得这个议题上本质上它其实涉及到的一个问题，并不是仅仅属于deep sik这次的一个问题。我觉得他实际面临的一个问题是在一个有着很大潜力的技术发展与我们既有的一些规则体系之间的矛盾。包括其实我们前面也有提到说AI的发展这一波对本来对知识产权就是一个极大的挑战。前面也说了，他们可能扒了全网的数据来进行各种各样的训练等等。这本质上就是一个核心的矛盾。其实我觉得各国，包括各个产业界各方面其实都还在这方面去进行一些探索和摸索，其实都没有去定论。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:17:41]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我觉得这个问题甚至可以聚焦到今天这个时间点。欧盟、美国，包括我看上午澳大利亚他们的集中点。如果狭义来看是集中在这个APP本身的问题上，可能更多是关注数据安全的隐私。那确实实话实说，DBC这家公司在产品端、运营端，包括安全端的投入肯定是不如国内那些大厂的，他们在这些上的经验应该也没有很丰富，所以一定是有一些双引号的瑕疵的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:18:13]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是这个问题我觉得他们怎么讲很双标的问题是在于第一DP这个是一个创业公司，它可能整个成立就是一年多的时间。那对于一个创业公司来讲，它本身的任务就是去开发最有创新性的技术，而这就是他们目前所做到的事情。但是所有人却在指责他在监管合规上面的一些，没有做好的地方。但明明这方面根本就不是人家的主要任务，甚至都排不上次要任务这一点。而与此同时是其实全世界有各种各样的网站也好，供应商也好，其实都在这方面有着巨大的问题。但是他们却偏偏枪打出头鸟，要挑district来讲这个问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:18:52]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以我觉得引发的新闻就是我们把这个话题一延展，就是无限的开脑洞。第一就这个事情可能跟tiktok事件有些关类似，对吧？那APP层面的，无论是推荐算法、隐私数据。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:19:05]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后再一个你看这两天sam在亚洲，他先去日本去跟软银成立了合资公司，相当于在日本软银来负责open I的落地。当然软银会付给我们有很多的钱。这个双引号的落地在解决的问题你可以理解，就是刚才我们说的这些问题。他去完日本算马上去了韩国，欧朋安跟卡靠就是韩国的微信成立合资公司，卡靠负责OpenAI ChatGPT在韩国的落地。这个落地又是刚才我们讲的这个问题。这个又想到比如说类似我们云上贵州，对吧？就是你会发现在今天这个世界的地缘政治环境下，任何一个高科技相关的头部的应用跟服务跟技术在当地落地都不是一件简单的事情，都非常的复杂。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:19:58]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+就是刚刚张老师提到的这一点上，我其实特别想聊的一个问题，也是可能张鹏老师主要的一个研究方向。尤其是中美之间的这种地缘政治科技方面的一个竞争。然后包括其实之前我觉得您可以把好多个议题带到一起来跟我们分享一下。尤其之前的那个美国对外投资鉴定，然后这个数据脱钩的法案，还有现在正在讲的这个中美的人工智能脱钩法案等等的这些东西。我觉得他是可以去印证一个话题，就是张老师刚刚讲到的这种地缘政治上的问题。然后这个也可以看到你们之前写的那篇特朗普和列宁时代的中美关系战争这一方面的那这个也想请您跟我们分享一下。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:20:41]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+对，这个当然是一个比较大的一个问题，毫无疑问的就是AI这个领域现在肯定是中美地缘政治竞争，中美科技竞争一个核心的议题。我们其实看到拜登政府时期，其实对华科技竞争主要是围绕AR的是吧？它实际上是从几个角度去对中国进行了限制。首先是算力方面，严格控制高端GPU，包括能够生产制造高端GPU的这种半导体制造设备的，包括它的上游的这个零部件原材料的这种出口管制，这个是非常严格的，实际上是贯穿他整个四年任期的一条主线，我们国内对此进行大量的研究。然后再从数据方面，其实在他任期的末尾也出台了切断美国人敏感数据跨境向中国流动的一些法规，虽然他有意的实际上为了照顾美国公司的商业利益，他对敏感数据的去做了一个定义，就是还是希望能够限缩在特定领域的数据。但是实践中操作起来的话，仍然会感觉到非常的宽泛，这个由司法部发布的联邦法规，应该下个月就会生效。我理解是对中美双边的数据跨境流动，实际上会产生比较大的限制的作用。此外在人工智能发展高度依赖的另外一些其他的要素，比如说资本人才方面，他也有相应的限制措施。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:22:11]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+资本方面就是刚才lily提的比较多的反向投资审查，它实际上是框定了三个领域，先进半导体、量子计算和先进ai 3个领域去限制美国资本，支持中国这些产业的发展。在AI方面，它整体上也是设定了一些标准和参数。核心的理念就是说美国的钱不能用来支持和帮助中国去发展能够跟美国AR公司去竞争的这种前沿大模型。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:22:44]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+反向投资审查的这个规则是已经生效了，当然川普时期理论上来说，它仍然是有足够的工具去修改，甚至是彻底推翻这个法规的。但是主要的问题就是说他这么做的理由是啊，我理解实际上跟他在美国内部的一些政策辩论，包括中美下一阶段围绕贸易问题，川普最关心的问题，关税的问题，整个的中美双边关系中的其他的敏感问题，这个应该还是放在一个大盘子里去进行谈判和沟通的。所以未来的发展其实还是很难说，但是这个法规是已经生效了。此外在人才方面，我理解川普政府有可能会出台相应的一些限制措施，可能会主要的对标这个首先是中国企业在美国的公司去招聘当地的人才，然后包括持有中国护照的中国工程师，在美国参与相关的AI模型的研发活动等等。我们也得到过一些消息，其实本届政府是在从签证政策和移民政策的考虑，去研究出台一些对中国的限制的措施，核心就是说美国的AR人才不能去支持中国的这个呃前沿AR产业的发展。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:24:05]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+那么它整个的背后大的战略逻辑，我理解就是因为首先他美国政府把这个AI模型，尤其是谁能够先实现所谓的通用人工智能。他作为一个影响到中美双边战略稳定的，类似于核武器的这么一个东西，他要确保美国首先实现这个AGR，至少不能让中国先实现。所以它实际上采取了两步走，一个是我自己拼命的去发展，我通过资金的扶持，产业的补贴，我自己去发展。包括前面有嘉宾提到的星际之门的这个计划，这个实际上都是怎么让自己跑得更快的一种路径。然后另外一个就是拜登政府时期实施的，我怎么来尽量的拖慢中国AI发展的步伐。你确保中国要始终比美国要落下一截至少，不能先实现AGR。其实为什么deep sik这个事儿出来之后，对美国政府的冲击会这么大我理解也是他们有非常大的紧迫感。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:25:06]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+就觉得前期的一些限制措施，让美国公司跑得更快的一些措施，似乎没有起到应有的效果。中国模型公司还是很快的去追赶上来，并且甚至有一定潜在的可能去超越美国公司。所以他我理解他们内部现在也是有点慌的，肯定是在通盘的研判和考虑，怎么去在本届政府继续限制中国的AI公司的发展，怎么让美国公司的竞争力变得更强。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:25:34]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+因为前期他任性的头三个月，头100天是非常关键的，是他整个的对华AR竞争政策的顶层设计的一个过程。所以目前我们没有看到太多的公开的信息。但毫无疑问，像美国商务部、国务院财政部门，包括白宫国安会这些部门，肯定是在密集的去研究准备。像川去提交一个报告，里边有包含下一步要实施的对华的具体的限制政策。我觉得这三个月中间，他的政策讨论的过程还是非常值得关注的。同时我理解deep sig这个事儿，对美国对华AR竞争这块整体是一个负面的，我是说对美国的对华AI政策来说，它整体是一个负面的。就是他突然更前所未有的感觉到了中国扑面而来的在人工智能领域对美国形成的竞争压力。从而也可能会促使他出台更多的一些激烈的过度的回应和反制的措施。比如说我们前段时间谈到美国国会参议院的情报委员会主席，这个叫holy，他提出的中美人工智能能力脱钩法案，这个法案是非常极端的，基本上要实现中美在人工智能技术和知识产权、人工智能研发，包括人工智能这个领域的资本流动三个方面的完全的脱钩。这也代表了某种程度上代表了美国国内对这个事儿的一些情绪和反应。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:27:08]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+就是对于这些做出海的，尤其可能是以北美市场为目标的这些中国的创新企业来讲。您刚刚提到的这个数据脱钩的法案，包括一些人才流动方面的，包括整个特朗普2.0时代他们的一个政策的倾向性，这些东西肯定对他们的影响会非常大我理解对吧？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:27:26]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+对对对，是你这肯定是影响非常大的。实际上一直以来我觉得对中国的还不是说AR企业了，整个科技企业在美国的出海曾应该说全球范围内压力是最大的。因为从欧洲方向我们其实也看到一些不利的动作，但是我理解欧盟，他对中国这个科技企业，比如说前段时间实际上是对社交媒体平台的这种监管，它本质上还是怎么说呢？就事论事，关注具体的这个数据内容方面的合规问题，还没有整体上把它上升到国家安全，包括对中国的这个科技竞争的这么一个高度。所以说整个的来说，我在欧洲的感觉是整体上还是一个比较偏向理性和客观的一个态度。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:28:16]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+他的强监管也有一些自己的竞争性的考虑。包括很多人说实际上像gdpr，包括那个数字市场法、数字服务法这些法案实际上是一种变相的监管税，它通过这种高额的合规要求，包括天价的一些罚单，实际上变相的达到了收钱和收税的这么一个目的。川普我记得在达沃斯论坛期间，他发表了一个视频讲话，也是非常直白的批评了欧盟的这种做法。说你这种强监管实际上是在变相的收税。那么从美国的角度来说就是完全不同的情况，美国是认为中国的在美国发展的科技企业，整体上构成了对美国的一种国家安全威胁。所以我理解是实际上是从川普第一任期开始，就在有意识的推动这个领域的脱钩。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:29:11]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+比如说从首先是从这个社交媒体领域的APP，我们看到它其实相关的国内的监管的法规是在不断完善的。在信息通信技术和服务领域，它有商务部的一套规则。在财政部这个方向，也有关于投资和资本流动的一些限制规则。再就是说在司法部，司法部作为现在美国政府可以说在国家安全领域的一个主要的负责部门之一。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:29:39]</strong> </span>
+<span class="speaker"><strong>发言人4: </strong></span>
+实际上这几年的动作是非常频繁，比较具有标志性影响力非常大的一个动作。就是说在双向的数据流动这个领域，实际上是他通过卡住中美双向的数据流动，变相的希望去实现把中国的APP，中国的这个科技公司排除出美国市场的这么一个效果。我理解现在实际上是从这个硬件开始，最后慢慢蔓延到软件应用程序。现在毫无疑问AI的这个应用，比如说像现在在美国商店上架的deep seek这些AI的应用，未来会成为一个重点的打击的目标，他可能会出台单独的针对AR的监管法规。因为我们理解其实从大模型，从AR的这个角度来说，如果说讨论国家安全风险的时候，美国很多人国会议员也好，政府的官员也好，他会认为比社交媒体要带来的风险要更大一些。而且是更加底层的深层的涉及到中美在人工智能领域的竞争这个主线。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:30:48]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+好的，谢谢张鹏老师非常全面的解释。张老师和涛哥，我特别想问一下，听了刚刚张鹏老师说到的这一段，我不知道你们两位的感想如何？有没有一种焦虑？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:31:02]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+还行吧还行，对于做应用方向的来说，比如说我们也不是去模型，然后本来莫妮卡我们整个的这个面向也是面向全球市场，绝大部分的模型调用都还是OpenAI和cloud这边的，所以我觉得整体对我们影响没有那么大。对，当然如果你说最终那个对立程度到了那种程度之后，那再跟你说，但就是创业这个事情永远都是你要去解决那种不确定性，然后有什么问题解决什么问题。你你你现在焦虑也没用，还得看最后到底动作是什么。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:31:35]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+张老师怎么看。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:31:37]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+这个命题？连接我们之前讨论的很多次的命题，也就放弃幻想，兵来将挡水来土掩，创业不就是这样，就是我们能改变的是我们可以改变，但我们改变不了，那就是环境，环境就是适者生存。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:31:53]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得这里面有一个最大的问题以及最大的不确定性。其实是我最担心的是什么？就是有像tiktok这个事情上。如果说你像欧盟那样的，你只是说出台一些法规要求，那没有问题，我可以去做出努力来满足你的要求。包括我们可以看到OpenAI在欧盟其实也是这样的做法。因为他们前段时间也被意大利罚了1500万美元。然后他后续就采取了一些措施，去做这样的一些符合欧盟监管规定的一些动作。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:32:23]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是我最害怕的是像tiktok这样的情况，他其实就是想搞你，你做再多的合规动作可能都是没有用的。因为我们其实也知道tiktok的在这几年跟美国政府的长期的交战当中，已经做了非常多的合规化的措施了。他们的那个合规监管的程度，我所知道的就是他们在这方面的管是人力上的成本，精力上的以及经济上的成本都是巨大的。但是他们现在仍然去面临着这样的问题。所以我最担心的反而是这个，就是他是不是在某种程度上说明了，即使你既做了努力，但是我最后还是面临的是一个不好的结果。这可能是我最担心的问题。略微有点悲观了，我们可能就先放在这里，我们且走且看吧。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:33:11]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+然后我们进入到节目的最后一盘，就是我其实特别想跟你们讨论一下，就是在狂欢之后，我们特别想来看一下dipstick r one的出现给我们的行业带来的一些深远的影响。第一个部分我其实特别想讨论的是这次DPCR one的出现对于国内，尤其是国内的这些大模型公司的一些影响。可能大家有可能都在说的，这些大模型公司的护城河到底在哪里？因为就像我们我前面也有提到，豆包其实可能是做了一年多的投放才投出来了2000万的日活。而另外的一个当红jg kimi，其实从来都没有到达过1000万的日活。但是deep r one可以说是在十几天的时间内就已经超过了这个程度的日活了。所以很多人就认为，其实大模型公司的护城河到底在哪里？这个事情是很难去判断的，不知道庄老师在这个问题上怎么看。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:34:09]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我觉得就是他其实验证了一个字节在去年年底的结论，就是chat box这个产品形态本身并不是一个特别理想的形态。它可能是一个中间态，或者是一个在现阶段各方都能接受的一个OK的自由解。战略重心不应该放在这个形态的产品上。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:34:32]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+这是字节在去年年底内部的一次类似战略探讨上得出的结论。我觉得这个结论本身其实跟我们今天看到这个结果是匹配的。就是自己也好，kimi也好，其他几家也好，或多或少砸了那么多钱，砸出来的这个数据本身其实并不代表任何事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:34:51]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+今天我看那个AI产品的新版又发了一月份的数据，大家的留存时长还不是特别理想，依然不是特别理想。所以这个形态本身可能确实就不太适合用这样的方式去做衡量。反来讲，deep six从来也没有想过是说我要做多大的DAU跟MAU。我觉得他们内部是没有这个KPI的。又回到我们原来去年录那些博客，就是我们原来那些熟悉的移动互联网的所谓的KPI跟叙事结构。可能真的不太适合AI这一波的趋势了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:35:27]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+涛哥怎么看？作为一线的从业者，你可能也接触到更多的用户的信息和他们的需求。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:35:34]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+你怎么看这个问题？其实春节期间的时候，美国那边的舆论已经发生了很大的变化。我不知道丽丽有没有注意到，有人开始说，也许到了最后我们发现最大的护城河不是模型，是套壳。对对对，其实一个很重要的一个原因就是因为之前虽然开源也一直都有在往前面长进，我们国内也有很多，美国也有不同的这种开源模型的方向。但不得不说，不管你各种奔驰mark刷的飞起，但是在用户的这个实际体感上，相比cloud，相比这个GPT4，还是比较明显的差距。你可以理解成说这是开源世界，不叫超越，叫第一次真的赶上了这个闭源模型的这样子店。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:36:19]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+在这样子的情况下的话，其实对于应用这边来说有无限的想象力。就包括说像OpenAI前两天刚刚发布了那个open I自己的这个deep research这样子的一个产品。很快大家就用那个R1加上一些开源的一些aging framework，就复制了一个deep pressure去出来。这种东西你的之前是无法想象的。就你之前做这种功能，你一定要依赖open I自己的这个最新的模型。有很多功能他如果不开放API出来你都没法做。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:36:50]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+现在很多事情变成了可能性。我自己会认为说这个事情在中期的影响，就是说在今年一年的这个之类的影响其实会非常大。就是会有很多新的应用场景诞生出来。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:37:01]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+像前两天我们在另外一个交流的时候，我有提到过，我说就包括像我们今天这个分享开始我提到的，我说这次deep take之所以能火出圈，有一个很大的原因是r one加search。它其实本质上是构造了一种新的应用场景。R one并不是只能加surge，它还可以加很多东西。据我了解的话，现在不管是在美国还是在国内，这种R1加另外一个一个东西，比如说就是我R一加rag？这个reg可以是search，可以是这个document，可以是很多很多东西，他都能实现不同的场景。所以我觉得今年在这个事情上的应用还会再爆发一波，我是比较乐观的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:37:38]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白可不可以浅浅的对这一次的R万的爆火，对于国内的AI6小龙，尤其是其中可能比较知名的几家的影响，对于他们来说整体是一个利好还是一个负面的信息，我们可能稍微做一些分析，庄老师来做这个分析可以吗？涛哥毕竟从业人士可能不好。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:38:00]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我想我觉得从大面上来讲，对于所谓的李小龙而言，其实也分有几家。其实在之前已经做过选择的就还好，就是直接点名。比如说对于01跟百川而言就还好，因为他们之前已经做了选择。01把info跟训练的团队跟阿里去走了，然后自己专心做方案的实施，做一家to b的技术方案商，然后百川去做医疗方向的探索。这俩所谓的大明星厂商在这件事情上的，我觉得影响是有限的。对于剩下的四家当中，我觉得质朴的影响稍微可能是最小的。因为质谱其实在open I之前，或者说跟OI差不多时间，就有自己内部对于技术路线的比较明确的实施的节奏。接阅我觉得可能接乐对大家对接阅的熟悉程度没有那么深，接阅成立时间也比较短。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:39:00]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+在这件事情上我不太好评价，kimi跟mini max是值得多聊两嘴的。在deep sik刚刚发完23的时候，kimi也发了一个类似的推理模型。其实效果也很好，也保留了整个推理的这个过程。你在kimi现在的产品里面是可以直接体验到的。你说存储体验端有那么大的差距吗？我觉得是没有，但是问题在于kimi现在是必然的，它是一个商业化的产品，它没有开源，kimi的考验就变成了，如果继续坚持技术的这条路线往下走的话，是否要跟进？比如说跟进开源还是跟进什么其他的事情，同时商业化那条路到底怎么办？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:39:39]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+同样的问题也交给了mini max，但mini max很巧的是，他的CEO在这段时间不是接受了晚点一个采访吗？明显感觉medius已经内部有了一个比较明确的结论，是说还是继续要往技术这条线去走。如果去走的话，同样的问题就像那次采访，林俊杰说了一句话，是说他应该最早在应该是最早起初就应该开源。他也是看到了deep seek的这一轮的成功。所以对于这两家公司而言，过去两年的很多的战略的实施，本质上来讲是浪费了时间跟浪费了钱，浪费了人。那未来的一段时间竞争会更加加剧。如果认准了依然要往技术那个高峰去走的话，怎么去跟deep fake以及阿里的通义之间做竞争，怎么去衡量开源、闭源、商业化这些事情变成了一个非常重要的事情。所以对于这两家公司的CEO而言，挑战会非常大。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:40:35]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这里我想问一个特别小白的问题，就是我其实没有特别的理解说做开源的话，那他们的商业化怎么办？那他们又怎么去获得这个利益呢？尤其这几天，因为我看到deep sick他们官方的这个服务，其实很多时候都是在宕机，都是服务繁忙。但是像微软、AWS各个平台，还有国内的各个云服务，其实都自己上线了。托管在他们自己服务器上的deep seek的模型。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:41:05]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那我一直没有搞明白的是像dept他们这样的一个完全公开的开源的，包括他们的一些技术细节，还有他们的模型的参数等等，这些东西完全去公开出去了之后，怎么去盈利？包括你刚刚提到的像比如说KM，mini max这些其实已经是一些在大模型的竞技场上已经是存活了一段时间，也做了一些商业化尝试的一些这些公司。他们如果再去转向开源的话，那他们又如何去做这种商业化呢？我其实没有太理解这里面的问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:41:36]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以说这件事情又回到了所有讨论deep最原始的起初的一个节点。Deep sik没有外部的投资人，deep sik的母公司换方有绝对强的资金实力支持这个类似科研的机构继续往下走，他甚至在这点上比OpenAI还要强。Open I已经拿了融资，并且绑定那么多商业关系，他一定要考虑商业化的问题。但deep sik可以任性的在可见的，我觉得至少两三年内不用太考虑商业化的问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:42:06]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白，涛哥我其实想也想听听你的观点。我不知道你了不了解开源生态的这个问题，就是他们这种东西是怎么去赚钱的呢？他到底能从比如说他如果是完全开源的话，他到底能从中获得什么样的利益呢？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:42:23]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+这个可能就分，因为开源其实也分很多协议。比如说像那个在大模型这边的话，比如有一些开源模式，这个样子就是它本身开源，那个权重开放出来，你自己有机器，你可以去雇你去跑，我也不管理。但是如果你是商业化的使用的话，那么你就必须要找我来买license。这个典型的比如说像那个stability fusion，就那样子一些模型，包括那个千问他全系列模型。虽然大部分是MIT的，但是也有一部分的是他们千问专有的一个license。那个是商用的话是需要授权的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:42:59]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+但是这个东西在deep take这个上面它它不太适合。因为deep sik它本身是一个完全的MIT的协议。所以说理论上来说，你比如说硅基流动，如果他要去部署，然后来卖钱的话，这个也没有什么。所以说你如果让我想说这个长期怎么赚钱，我说实话我是一时半会我是真想不明白。但是作为在行业里面，我们实际上创业我们做事情来说，我一直有一个观点就是你只要一直在创造价值，你在做出真的有价值的工作，这个价值最终他一定会以某种形式进行一个变现。但这个变打引号的变现哈他可能有很多种方式。我讲一个最极端的一个方式，打个比方说deep这个是国内我们第一个真的把AGI给实现了。这个AGI可以帮助我们国家的科研，可以帮助我们国家的治理各种各样的东西。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:43:50]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+那你想就这个组织他的他的这个价值变现的方式，可能不一定非是货币化的形式，它可能有有很多种方式。所以我觉得这个取决于这个创始人他本身的初心和他的这个组织结构到底什么样子的。所以这个点我也很想echo一下，刚刚那个明浩老师提到的，我觉得目前全世界范围之内比较神奇的感觉。最适合做这个事情的反倒是在我们中国的这个团队。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:44:15]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得在这一次的事情当中，我自己一个比较明显的感受也是我觉得技术才是第一生产力。像DG这样的在技术上在某种程度上可以比肩行业第一的模型的能力的这样的产品出来之后，就迅速的造成了一个全球的风靡。与此相比较的，不管是豆包也好，还是kimi也好，还是其他的一些产品也好。他们其实在花费了那么多的资金和投放的成本之后，都仍然没有取得这样的成绩。我觉得他由此带来的一个问题就是其实也是张老师刚刚提到的一个，就是你怎么去适应你现在的投资人交代。第二就是你如何说服你的投资人，你还能继续在这方面去投入。因为觉得一个比较显而易见的状况就是如果你没有做到非常头部的水准的话，看起来你的用户更换你的这个产品就是没有替换成本的那你的用户就是会在一夜之间去跑光的。我觉得这个可能是现在仍然在坚持做大模型的公司可能需要去面对的一个问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:45:20]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我觉得用一句站着说话不腰疼的这个评论是说，就对于大模型的投资，本来就是一个高风险的投资选择。就是你要玩这场赌局就要承担这个风险。只不过今天这个时间点，这个牌桌上出现了一个异类。这个异类的打法策略，他的出身，他看重什么，他拥有什么，跟这个牌桌上的其他选手完全不同。并且在这个时间点来看，他可能是那个最适合做这件事情的技术上投入的人。这个结论在这个时间点出现，对于所有其他的参与这场牌桌的选手而言，是一个最大的挑战。就是你的策略要不要改，要不要跟，还是说调整，还是说继续坚持你的策略。因为即便是我们看到这个时间点，评判他可能是最适合，但是最后是不是他也无人知道明白。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:46:17]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+最后我其实特别想echo一下你这个也想echo一下我们前面几期的节目，也是我觉得在这一件事情上特别有意思的一件事情。就是在去年3 4月份的时候，当时其实有爆发过一个业内的一个冲突。就是当时朱啸虎说他这些大模型公司一个都看不上，一个都不投，他要去投真正有商业化能力的公司。那当时是大家对朱啸虎的观点还是一种质疑，大多数人都对他都是质疑。但是在今年1月份左右这个时间内，包括像零一的这个的变化，还有kimi还有很多包括mini max，他们也提到了这些商业化的问题。其实还有这个豆包通过投放拿到了一个特别高的，其他他产品都没有拿到的一个日活这种成绩的情况下，就有更多的人就要开始，就是从根本上的接受了朱少虎的观点，认为朱啸虎就是以某种程度上的朱啸虎的胜利。但是在这一次，其实也就是隔了不到一个月的时间。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:47:15]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Deep stick RE的出现之后，我看到有人说是朱啸虎自己发的一个朋友圈。说是是这是技术理想主义者的胜利。我感觉这个口碑完成了三重反转，我觉得这件事情真的是特别有意思。我还想问一问，就是你们两位在deep seek r one的出现可能带来的其他的一些应用，以及这个行业本身的发展方面有没有一些其他的补充。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:47:41]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+应用方面的话，其实我觉得就像我刚刚说的，我觉得reasoning model对于绝大部分的用户和从业者来说，其实都是一个新东西。虽然说o one那个也已经出来了两个多月了，但是我相信还有很多哪怕是从业者也没有真的很深度的去用过这个O系列的所有的模型。所以说在应用角度上怎么去驾驭这个reasoning model跟找到更适合它的这个应用场景上，我觉得大家现在并没有一些best practice。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:48:11]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+那么站在用户的角度上来说，比如说怎么去prompt这个reasoning model，现在大家也还在探索的过程中，这个非常像20底ChatGPT刚出来头那三个月，大家各种特别有热情的去探索它。包括现在在阿万上，我也看到很多有意思的探索。包括把阿万跟cloud，阿万跟GPT结合起来使用的一些各种各样的一些case。包括把阿万跟一些工具，跟curse这些结合起来。所以我自己会觉得现在去说未来还有点太早了。可能还需要给用户，给从业者们一些一个季度探索的过程。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:48:47]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我对这个未来是非常感到乐观的，尤其是阿万这次提出来的这个思路，他其实只是打了个样，就是说这个方向是可做的那如果我们回过头不去看，就是每一次在这种范式上的这种创新哈他出来之后，接下去大家会接着这个范式去卷出各种各样的花样出来。也就是说其实整个reasoning model，它的整个包括这种训练方法，对于base model的这个能力提升还远远没有到这个点。我觉得接下来半年，可能大家在这个方面卷出来的很多的一些新的能力，也会打破之前的一些限制。在应用上也会开拓出更多的一些可能性。所以我们肯定是保持着一种积极乐观，然后时时刻刻去看到底有什么新的能力，有什么新的应用场景可以解锁这样子的心态来面对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:49:44]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我会觉得第一个让我小感触就是我们最开头说的就是他对这一波的infant的厂商的促进，是一个会影响很长时间的过程的事情。这个影响在今天我们还没有看到，或者他需要很长时间去发酵。第二点其实open I发布了一个他认为从零开始到AGI的所谓的L一到L5的类似自动驾驶的这个步骤。他会认为L一就是我们看到GGB这样chatbot，l2就是推理模型。他认为他的ON以及今天我们看到的L一就是达到了推理他的定义的L3就是agent。他会觉得今天这个时间点的业界的领先的公司，再从L2到L3的过程中，所以反过来讲，这个技术路线的实施也符合。如果他定义好的这个L5的这个节奏是对的的话，那今天二一的出现其实也符合这个路径。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:50:40]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+L三是agent那为什么这么多人认为25年会是agent年？也是这个逻辑。就是说当大模型本身解决了初始的问答，开始有了自己的推理能力之后，他要做的事情是真正的去解决那些任务。包括OAI自己也发了他的那个agent的东西。只不过今天这个时间我们看到这些东西还处于一个比较早期的状态。在25年我们当然希望看到更多真正意义上双引号的agent会落地到企业个人开发者的整个生态当中。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:51:16]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+当然以上的这段话可能有一定的自圆其说或者自欺欺人。但是如果在25年初这个时间点，一定要对25年德源行业有一定期待的话。那大家的期待或者就是说既然推理模型的这个样已经打好了，那我们应该就往下走。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:51:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白我最后一个小的疑问，就是在现在的这种，尤其是AI的技术发展，有最明显的就是DPCR one的这一波里面，我自己有一个比较明显的感受，就是如果说是对于一些不是真正的这个大模型，AI应用的这个所谓的原生应用的一些创业。主要是一些它可能是实体的产业，包括尤其是说我们律师行业，或者是一些实体的企业这样子我的一个疑问其实是在于说，我到底应该什么时候去投入才是一个可能比较好的时机。为什么有这个问题呢？因为我发现说其实你看最开始这个ChatGPT模型出来的时候，包括最开始开源的时候，他们的成本，然后包括模型的参数各方面其实都是非常高的。然后模型的能力其实相比于现在已经是有非常大的差距了。而这个时间其实不过也就是不到两年而已。就这个技术还在一个超级快速发展的过程当中。那我如果说作为一个实体的企业，我应该什么时候去做这些方面的投入？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:52:43]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得我可能有一个强烈的不确定性的问题在心里。就是有没有可能我如果现在就像当时，说实话，我们法律行业里面就有很多这样子的。当时这个chat TT这一波出来的时候，各种各样的企业都说自己训了法律大模型怎么样。但是我想这些模型距离现在DCR one以及现在一流的开源模型的能力，已经是有非常大的差距了。从现在的角度来看，他们那些投入可能很多都是白白花掉的钱。所以我不知道在这方面你们是怎么看的那涛哥要不先说。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:53:18]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我觉得就是不要去投做pre train了，free train这个已经不需要再讨论了。Pre train就是长期来看，它就是会变成一个commodity，就是上游的一个商品，然后你去买它就行了。你就用各种post的这个后训练的这种bad practice去做后训练就行。甚至在绝大部分场景里面，甚至连那个后续链都不需要做，只需要解决好reg的问题，我觉得可能就够了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:53:43]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+像他们去考虑做那种私有化部署等等这些。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:53:47]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+就私有化部署，阿旺也可以私化部署。他MIT协议反正你拿来商用了也是完全合规的那你也可以私有化部署，对不对？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:53:55]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+明白张老师有什么补充吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:53:59]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我们今年开年会的时候，我们老大说了这样一个事情。就是我们老大是一个参加了几乎所有市面上主流的，比如说馄饨，什么蚂蚁，什么青藤的这些商学院的因为CEO然后他的同学们很多，各行各业都有，然后大家讨论话题当然会涉及到AI然后很多人的尤其是偏传统一点的行业的CO们会觉得还看不清楚，还想等一等，还想让这个子弹飞一会儿，再去介入AI的这个浪潮。但是我们老大会说，鉴于过去这两年整个AI行业的迅速的变化，如果今天这个时间点还不肉身去深度参与这件事情的话，你就可能没有机会了。所以他就是这样一个状态，他就是需要笃定的认可跟坚定的看好这个方向，并且去实施去做该做的事情，才有可能得到不错的正反馈。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:55:01]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+好的，我这边可能暂时没有别的问题了，看看两位还有没有什么补充。你们可能看到的一些世界市面上比较多的一些谣言，然后我们可能没有聊到的或者你们特别想发表的一些观点。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:55:13]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+就是在deep seek被各种访问量冲击的不行的时候，有一条谣言被很多人转发。是什么中国的几大安全厂商给他提供了各种各样的帮助。对这个事情是完全就是。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:55:30]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+其实真的假的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:55:32]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+巨大的谣言完全是假的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:55:35]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+特别想笑。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:55:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+不是，你知道吗？我第一次看到的时候是从一个什么钉钉，这个就是小红书上你一个号码，它看起来反正不是官方的，他看起来写了那么多什么360，什么华为云，还有腾讯什么这些企业。我看我心想那怎么可能就觉得有点离谱。我又看到好像是小红书上DC有点像，不知道是不是他们的官方号，反正名字就只有tip stick也发了一个这么个东西。我就好像有一点点偏向于相信这个。我今天开始之前我还在想说，要不要问问你们这个问题呢？这个它是完全不存在的，是吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:56:11]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+这个totally一点点都不存在，我搞过一段时间安全这件事情完全就是战狼跟小粉红们引发的一场符合情绪的谣言。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:56:21]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+某种程度上是缓解了我们这些人用不上第一次一种焦虑情绪，你知道吗？因为我磊老师他那个服务不在线，我就去小红书上去搜，然后就搜到了这个东西。我还感觉好像提供了一点合理的解释。涛哥看看有没有什么补充的吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:56:38]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我就想讲一个，也是我最近这一周在很多群里面反复解释的一个瑶，也不叫谣言，就是个伪概念。就是在你的本地设备上运行2万。对，大家如果你现在在小红书、抖音，很多地方你都会刷到，教你甚至还要收费教程，教你怎么在你的设备上跑阿万，怎么在你的手机上跑阿万。如果你认真去看的时候，你会发现，其实他们跑的都是阿万的蒸馏板，阿万蒸馏的那个千万的32B、7B，甚至还有蒸馏的千问的1.5B首先要告诉大家，它那个模型的完整命名叫做deep seek r one d steel，就蒸馏千问queen是吧？32B7B你要记得一个词组，它分主语和定语，最后面的是主语，它再怎么弄，它也是一个千问，它也是一个lama，前面的定语是deep r one，去distill它，去蒸馏它，就是把r one作为teacher model，去教那个student model。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:57:37]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+首先你手机上跑的，你电脑上跑的不是一个真正的r one。他跑的是一个千万，跑的是一个拉玛。这个首先就是一个很不对的一个概念。其次如果你真的去看那个RY那个paper，你会发现之所以dep sak这次放出模型的时候，要顺便放出了几个蒸馏版本。它主要是为了证明在他们那样子的这个训练方法下，我对其他的模型这样子也是生效的。但是如果你仔细去看它那个蒸馏过程，它根本就没有用上RL就是强化学习。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:58:09]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+他只是用r one生成的SFT的数据去对这个千问和拉马模型进行了一下微调。也就是说如果你真的要体验阿万，那么阿万我们前面有提到他离不开两个点。一个是它的强大的基座模型V3，其次是它的强化学习的训练过程。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:58:29]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+大家现在在那些各种各样的教程里面运行的所谓的在你的设备上运行的这个r one distill的千问或者是拉。那么他们base model既不是V3，他们也没有经过强化学习。他真的是一个伪的不能再伪的概念，所以大家千万不要在这个上面去花钱的。当然如果说你是一个从来没有在电脑上部署过大模型运行过的人，借着这样的一个契机去学习一下，我觉得是OK的。但是千万不要逾期。这个东西跟那个全尺寸的满血版的阿温能有同样的效果，就差十万八千里。这是我最近一个星期反复辟谣的一个东西。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:59:06]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+好的，我们这期节目可能暂时就聊到这里，再次感谢几位嘉宾。我们反正也会继续关注AI领域的相关的发展，期待后续再还能再请到两位来跟我们分享。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:59:19]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+好，感谢感谢。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:59:20]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+感谢丽丽邀请来跟郑老师交流。
+</p>]]></content:encoded>
+            <pubDate>Fri, 07 Feb 2025 16:00:00 GMT</pubDate>
+            <guid>67a5a7e4247d51713c228ca1</guid>
+        </item>
         <item>
             <title>Vol.50 成本+10元的策略能撬动保健品行业么？---对话朱萧木</title>
             <link>https://www.xiaoyuzhoufm.com/episode/67a4ad95247d51713cfe853b</link>
@@ -35058,1179 +36520,6 @@ FO的对话其实就是现在现在有谁已经用到了FO的语音吗？
 </p>]]></content:encoded>
             <pubDate>Tue, 04 Jun 2024 04:32:10 GMT</pubDate>
             <guid>665e98cb94977a26ef0ee59f</guid>
-        </item>
-        <item>
-            <title>Vol.21 那些你知道的和不知道的AI创业方向</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/664f5b60c59d1e57573fa1fe</link>
-            <description>【写在前面】
-(需要加粉丝群的可以先添加微信Rosicky311)
-前面两期播客，我和十字路口 主播Koji详细整理了过去两个季度YC投资的AI相关项目情况，一共259个；
-两期节目剪完最后的时长超过了5个半小时，这个时长是我录制播客以来的最长记录。
-在做完一个个项目的整理之后，我在上期节目的结尾立了一个Flag：
-我要再做一个PPT……
-所以就有了这期节目。
-在这期50分钟（压力小了很多）的节目中，我对259个项目进行了再次的分类，针对TOP10类别（覆盖80%项目）进行了分析；
-之后又写了一些暴论……
-希望这些内容对关注AI行业的你有所帮助。
-【对谈主播】
-Koji：新世相/躺岛的联合创始人，播客《十字路口》主播
-rosicky311：某互联网小厂战略/投资负责人，前美元VCer，《屠龙之术》主播
-老规矩，PPT有，下载地址这里：
-YC-AI投资项目整理PPT
-点上面这个链接可以下载PPT
-【时间线】
-01:07 为什么要再做个PPT？
-03:31 259个项目的分类
-05:03 我和Koji的主观分类
-07:13 营销相关
-09:37 营销相关代表deal
-10:35 第二大品类：Coding
-11:57 Coding相关项目再分类
-14:06 Coding相关有意思的deal
-14:55 第三大分类：AIGC
-16:36 AIGC-视频相关
-18:11 AIGC-游戏
-20:02 AIGC-声音相关
-22:59 AIGC-工具
-23:50 Infra
-25:45 Infra有意思的deal
-26:26 医疗
-27:37 医疗有意思的deal
-28:40 金融
-29:29 两个有意思的deal：Lucite/Meticulate
-这页的范例PPT可以看这里：
-Lucite---Bilibili
-Meticulate---Bilibili
-30:47 Agent
-31:29 Agent相关deal
-34:05 企业内支持
-36:30 数据分析
-38:36 安全
-40:26 TOP10-80.3%
-40:37 一些记忆深刻的deal
-42:01 有大爱的deal
-43:33 黑话1：端到端
-44:51 黑话2： 5分钟/10x/99%
-45:20 软件生态
-45:45 暴论
-48:06 所谓窗口期
-51:03 THE END
-【特别感谢】
-智韬、山沟沟里的孩子、伟智，三位工程师朋友帮助我们体验和理解名单中的技术公司。
-产品二姐，她整理并发布这份名单后，激发了我们录制这几期播客。
-【播客简介】
-屠龙之术是一档关注科技、互联网、风险投资的播客，
-主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
-其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
-或许某天再有新的“龙”出现的时候，就是这档播客停更之时。</description>
-            <content:encoded><![CDATA[<h1>转写链接</h1>
-<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/zj78qpvpkmgrqxdp</link><br>
-<h1>节目摘要</h1>
-<div class="summary">本次播客讨论聚焦于分析了过去一年内，Y Combinator投资的260家AI初创公司的现状和趋势。通过回顾访问体验，探讨了AI领域的创业动向和顶尖创业者的行为模式。讨论中，不仅总结了这些公司的产品特性、所属行业及技术应用，还就AI创业面临的挑战，如技术快速迭代和市场饱和度高，强调了创新和适应性的重要性。尽管存在挑战，播客嘉宾保持乐观，对AI的未来发展方向表示看好，鼓励创业者在这一充满潜力的领域持续探索和创新。</div><br>
-<h1>章节速览</h1>
-<div class="chapters">
-<div class="chapter-item">
-<span class="time"><strong>[00:00:00]</strong> </span>
-<span class="chapter-title"><strong>深入解析YC投资的260家AI初创公司趋势</strong></span>
-<div class="chapter-summary">在最近的播客节目中，主播与庄明浩一起探讨了Y Combinator（YC）在过去一年中投资的260多家AI初创公司，试图通过访问这些公司、体验它们的产品并浏览官网来深入理解AI领域的顶尖创业者们的工作。通过长达五个多小时的播客，他们不仅介绍了这些公司的亮点，还针对这些公司进行了宏观的统计和分析，以帮助听众更好地把握当前AI创业的趋势。为了简化信息吸收，他们还制作了一份总结性的PPT，对这些AI公司进行了分类和总结，剔除了与主题不相关的项目，最终形成了一个更加清晰的259个项目的分类视图。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:03:46]</strong> </span>
-<span class="chapter-title"><strong>分析YC项目分类及投资趋势</strong></span>
-<div class="chapter-summary">对话内容涉及对两百多个项目的分类统计，主要品类包括营销相关的CRM、销售、客户关系管理、代码相关项目、AIGC、infer等。特别指出，医疗和金融行业在细分行业中排名靠前。此外，讨论了对项目主观分类的五大类别：牛逼、有点意思、不太行、肯定黄和看不懂，以及对创业者的鼓励态度。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:07:12]</strong> </span>
-<span class="chapter-title"><strong>探讨AI在营销和客户服务领域的应用</strong></span>
-<div class="chapter-summary">对话中讨论了营销和客户服务领域中AI应用的情况，包括营销项目占比、营销和CRM的长链条特性、以及AI在不同环节中的应用。指出了从端到端的解决方案到针对特定行业或单个环节的AI应用，展现了AI技术在提升效率、促进销售等方面的作用。同时，通过具体案例分析，说明了AI技术在销售过程中的辅助功能，如潜在客户的识别和搭讪、全链路管理、销售辅助等，以及AI项目在实际应用中的区别和挑战。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:11:00]</strong> </span>
-<span class="chapter-title"><strong>探讨人工智能在编程领域的应用与挑战</strong></span>
-<div class="chapter-summary">对话聚焦于非技术背景人士对于人工智能(AI)在编程领域应用的复杂性和挑战的理解。一方面，技术的快速发展和变化使得即便是具有计算机背景的人士也难以跟上其变化；另一方面，AI在编程中的应用，如从自然语言生成代码、提升开发流程效率等方面，虽然理论上具有巨大潜力，但实际操作中面临诸多挑战。特别提到了几个具体的创业方向和项目，包括改进前端开发工具、自动化代码质量保证(QA)以及自动生成文档等，展示了AI技术在编程领域的实际应用和未来可能的发展方向。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:14:55]</strong> </span>
-<span class="chapter-title"><strong>AIGC领域的发展现状与挑战</strong></span>
-<div class="chapter-summary">在AIGC领域中，大约有30个项目占11.6%的比例，显示出该领域在所有项目中所占比例较低。AIGC在国内较受关注，而国际上尤其是美国，其接受程度不及中国。AIGC涉及的内容生成范围广泛，包括知识文档、图片、视频、3D素材等。初创公司在这一领域面临定义明确的使用场景和功能的挑战，需要在广泛性和具体性之间做出取舍。部分初创公司因过于具体或难以实施而面临挑战。案例包括专注于视频风格转换、文件商品演示、视频搜索和编辑的项目，其中视频相关的项目占比较大。整体上，AIGC领域显示出对视频内容的特别关注，同时AI游戏项目相对较少。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:18:21]</strong> </span>
-<span class="chapter-title"><strong>探讨AI在游戏及音乐创作中的应用与发展</strong></span>
-<div class="chapter-summary">目前，理想的Native AI游戏仍处于梦想阶段，尽管角色、场景等元素的生成已相对容易，但游戏的核心玩法（game play）尚无法完全依赖AI解决。AI更多地被用于无限生成素材，使游戏内容更加丰富，如实现‘千人千缕’的不同旅程。对于音乐领域，AI虽难以从零开始创作完整作品，但可通过生成特定音轨帮助人们编辑出音乐，体现出AI在辅助创作方面的潜力。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:21:44]</strong> </span>
-<span class="chapter-title"><strong>探讨AI技术对新闻获取、内容创作及应用开发的影响</strong></span>
-<div class="chapter-summary">讨论集中在AI技术如何改变新闻获取方式，从传统的编辑推荐到算法信息流，以及AI在内容创作领域的应用，如AI制作的播客和博客。此外，还涉及了AI在提升RSS阅读器、谷歌关键词订阅等工具效率方面的潜力。特别提到，一些专注于文本编辑、会议纪要整理和文档分析的AI工具，面临着被大型AI模型取代的风险。最后，探讨了基础设施类AI应用的发展，以及市场上对AI应用的期待与现实之间的差距。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:24:23]</strong> </span>
-<span class="chapter-title"><strong>探讨人工智能在医疗和其他行业中的应用与发展</strong></span>
-<div class="chapter-summary">对话集中于人工智能（AI）技术在医疗和其他领域的应用，特别是如何利用AI提高服务质量和效率。内容包括对AI在医疗诊断、治疗、保险索赔和客户服务等方面的应用，以及通过电话客服实现的自动化。同时，也讨论了AI技术在数据处理、模型评估与部署、GPU比价等方面的作用，强调了技术解决方案在促进to C和to B应用中的重要性。此外，还提到了医疗行业中AI项目的分布情况，以及生物制药领域的AI应用探索。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:27:31]</strong> </span>
-<span class="chapter-title"><strong>医疗和金融领域中的AI创新应用</strong></span>
-<div class="chapter-summary">在医疗领域，AI技术被应用于多个项目，涵盖妊娠期管理、护士交接班辅助、脑电图分析、医生培训、心理健康及物理治疗等方面，有效提升了医疗服务的质量和效率。特别是在护士交接班时利用AI减少医疗事故，以及为治疗癫痫的医生提供辅助分析。金融领域，AI的应用同样广泛，涉及保险、银行及市场等细分行业，特别是在反欺诈、保费确认、贷款审批等环节，多家公司正在利用AI技术提高处理效率和准确性。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:29:21]</strong> </span>
-<span class="chapter-title"><strong>智能化工作辅助工具的现状与展望</strong></span>
-<div class="chapter-summary">对话聚焦于智能化工作辅助工具，特别是两个令人印象深刻的公司提供的服务，它们通过输入公司名称、网站及股票代码，能够生成详细的分析报告和PPT，展现了技术如何简化重复性智力劳动。讨论也触及了关于Agent技术是否为过渡状态的争议，以及市场上对Agent技术共识的缺乏导致的项目同质化问题。同时，通过微信机器人“小6”的案例，探讨了智能化工具在日常任务中的应用和便利性，体现了技术进步对工作效率和生活方式的积极影响。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:34:05]</strong> </span>
-<span class="chapter-title"><strong>企业内知识分类与服务优化探讨</strong></span>
-<div class="chapter-summary">对话聚焦于企业内知识的分类及服务优化的潜力，提出将HR、财务、采购和IT等部门归类为企业中后台功能。指出目前市场上已有成熟的服务提供给中小初创公司，这些公司通过专注于提供特定功能点服务，能够实现收入并寻求并购退出。特别提到，对于企业而言，针对HR薪酬、财务审计和供应链管理等方面的优化服务具有实际需求，如薪酬数据分析、财务审计和采购管理等，这些服务能显著提高企业运营效率和员工满意度。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:36:28]</strong> </span>
-<span class="chapter-title"><strong>AI技术在数据分析领域的应用与展望</strong></span>
-<div class="chapter-summary">AI技术的发展使机器更好地理解人类需求，有望让数据分析师摆脱枯燥重复的工作。通过将BI（商业智能）演变为AI，可以降低数据技能门槛，使非专业人士也能进行有效的数据分析。此外，AI在处理非结构化数据方面发挥着关键作用，帮助企业更高效地利用大量积累的数据，提升了数据利用的百分比，从而为企业带来更大的市场效能。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:38:34]</strong> </span>
-<span class="chapter-title"><strong>AI在提升安全领域效率及应对新挑战中的应用</strong></span>
-<div class="chapter-summary">随着AI技术的发展，安全领域的工作效率得到了显著提升，尤其是在代码安全漏洞追踪和安全警报方面。同时，AI技术也为软件安全带来了新的课题，特别是在自然语言交互界面方面，使得所有通过对话进行的用户内容与数据之间的沟通对接成为可能，从而引发了对注入问题的新关注。此外，AI在生成内容方面的能力也给传统的内容审核机制带来了新的挑战，因为AI生成的内容难以完全控制，可能会出现错误的承诺或有违道德、政治风险的输出，这些都需要专门的技术和公司来应对。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:40:25]</strong> </span>
-<span class="chapter-title"><strong>创新项目概述</strong></span>
-<div class="chapter-summary">讨论中提到了多个创新项目，包括太阳能施工队用的AI系统集成SaaS、CAD图生成、在线教育平台、开源项目捐助、妊娠期监护、以及开源版的ChatGPT等。这些项目覆盖了从提高工作效率到解决特定人群需求的广泛领域，体现了技术创新在不同领域的应用和影响。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:43:45]</strong> </span>
-<span class="chapter-title"><strong>探讨端到端NN在AI领域的应用及意义</strong></span>
-<div class="chapter-summary">近年来，端到端（N2N）的概念在AI行业中变得尤为突出，尽管这一术语并非新近出现。它强调的是从输入到输出的完整流程服务，用户无需关心其中的具体实现细节，这与以往购买软件时的情况类似，用户主要关注的是最终服务结果。在当前的AI应用和销售模式中，端到端的概念特别强调提供直接的结果，以此来替代传统的人工外包服务，满足用户对高效、直接结果的需求。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:44:50]</strong> </span>
-<span class="chapter-title"><strong>AI浪潮中的效率提升与生态繁荣</strong></span>
-<div class="chapter-summary">在当前的AI技术发展中，人们普遍关注如何通过技术降低运营成本并提高效率。许多项目通过具体的数字（如十倍、五分钟、15分钟、99%）来展示其在降本增效方面的成就，以数字的直观性和冲击力吸引注意。此外，软件生态系统的繁荣也成为展示项目价值的重要方面，通过展示与众多有价值业务的连接，体现生态的活跃和繁荣。另一方面，存在对创业者路径依赖性的讨论，认为尽管这种依赖常被视为负面，但许多成功项目正是基于创始人的先前经验、人脉等资源。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:46:32]</strong> </span>
-<span class="chapter-title"><strong>创业与监管环境挑战</strong></span>
-<div class="chapter-summary">讨论集中在没有相关行业经验的创业者成功案例，如张一鸣的九九房，以及一个由太阳能施工队队长创立的AI企业。同时指出了正确但泛泛的内容与具体执行细节之间的价值差异，强调了对to C方向创业者在国内监管环境下的挑战，特别是对于AI领域的严格监管可能对行业发展造成的影响。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:48:04]</strong> </span>
-<span class="chapter-title"><strong>AI模型快速迭代中的创业挑战与机遇</strong></span>
-<div class="chapter-summary">在过去的一周里，AI大模型领域经历了密集的发布和创新，包括GPT-4的发布、中国字节跳动和腾讯在AI领域的进展，这些变化不仅展示了技术的快速发展，也对创业公司提出了巨大挑战。讨论强调了在技术快速迭代的环境下，窗口期的重要性以及创业者需要具备的巨大勇气和决心。同时，提出了两种构建人工智能的策略，建议创业者在假设已有AGI的前提下思考项目，体现了巨变时代下的机遇与风险并存。</div>
-</div>
-</div><br>
-<h1>问题回顾</h1>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在上期节目后，为什么要做一个整理？这个整理工作的主要目标是什么？</div>
-<div class="answer"><strong>A:</strong> 因为上期节目内容较长，听率较低，为了方便听众理解和把握AI创业领域的趋势，我们决定进一步梳理和整合这260多家YC投资的AI公司的信息。主要目标包括进行更宏观的统计分析，聚合分散的观点，以及帮助大家更好地理解当前AI行业的创业状态和趋势脉络。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 根据整理结果，哪些方向的项目较多？</div>
-<div class="answer"><strong>A:</strong> 营销相关的CRM（客户关系管理）是最大的品类，其次是代码相关的项目，第三大品类是AIGC（人工智能生成内容），第四大品类为 infer（可能指模型或算法相关的项目），这些类别中的项目数量都超过了总项目的10%。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在分类过程中，你们是如何对待项目的？</div>
-<div class="answer"><strong>A:</strong> 我们主观地将259个AI项目进行了分类，剔除了我们认为不相关的项目，并按照一定的标准将剩下的项目进行了主观分类。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于这些项目的评价标准是什么？</div>
-<div class="answer"><strong>A:</strong> 评价标准基于用户的视角，我们非常主观地将项目分为五大类：牛逼、有点意思、一般、不太行和看不懂。其中，“牛逼”类项目大约有20到21个。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于“不太行”这类项目的处理态度是怎样的？</div>
-<div class="answer"><strong>A:</strong> 尽管有些项目被标记为“不太行”，但我们秉持鼓励创业者的初衷，认为许多YC投资项目可能在起步阶段选择了一个当时不太被看好的切入点，鼓励创业者敢于尝试并勇立潮头。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 营销相关的AI项目有哪些切入角度？</div>
-<div class="answer"><strong>A:</strong> 营销相关的AI项目常见的切入角度有三种：一是提供端到端的全链路解决方案；二是针对不同行业定制解决方案，如财富管理或房屋租赁；三是聚焦营销链条中的某一个节点，通过AI技术提升效率。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在销售过程中，sales的copilot能提供哪些辅助功能？</div>
-<div class="answer"><strong>A:</strong> sales的copilot在销售过程中会介入一些辅助功能，帮助用户通过分类方式更清晰地区隔项目，即使在面对大量信息时也能快速理解并区分不同项目的特性。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AI在技术背景复杂的创业项目中扮演什么角色？</div>
-<div class="answer"><strong>A:</strong> AI在处理复杂技术背景的创业项目时，由于技术边界快速变化且创业者可能尚未完全理清项目价值，AI可以帮助非技术人员更好地理解和分析这些项目。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AI如何帮助开发者生成代码？</div>
-<div class="answer"><strong>A:</strong> 一部分项目尝试从自然语言到代码的转换，即一键生成前端、后端、数据库甚至完整APP的代码，但目前该技术尚未达到理想状态，存在一定的难度。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AI在编程全流程中有哪些应用？</div>
-<div class="answer"><strong>A:</strong> AI可以被用于理解代码以辅助编程、提高编程效率和准确率，还可以协助解决人与人协同工作中的问题，如自动写文档、改bug等。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AIGC方向有哪些具体应用场景？</div>
-<div class="answer"><strong>A:</strong> AIGC方向的项目涵盖了生成各类知识文档、图片、视频、3D素材、动画、音乐、PPT等内容，其中一些初创公司试图在这个领域进一步细分，例如专注于视频风格转换、文件商品演示视频制作以及视频搜索编辑等场景。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AI在游戏中有哪些应用场景，特别是游戏玩法方面？</div>
-<div class="answer"><strong>A:</strong> AI目前在游戏领域的应用主要集中在素材生成，如角色、场景、世界观和地图的设计上，但还未能很好地解决游戏核心玩法（game play）的AI化问题。虽然AI可以生成海量的选择以实现千人千面的效果，但在游戏核心体验层面，AI尚未找到完全替代人类创作的方案。部分尝试将AI应用于互动小说或互动剧形式的内容创作中。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在音乐领域，初创公司如何解决听的问题，特别是音乐内容创作和编辑方面？</div>
-<div class="answer"><strong>A:</strong> 初创公司如sunday和sonata主要从编辑角度去做，他们提供音乐编辑工具，让用户能够像操作面板一样，通过拖拽各个音轨来生成一首完整的音乐作品。例如，可以为一段钢琴曲配上古典音乐背景节奏，逐步堆砌和编辑出一首新歌。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AI是否会对新闻获取方式产生影响，以及在博客和播客方面的应用变化？</div>
-<div class="answer"><strong>A:</strong> AI技术的发展确实可能改变新闻获取方式，从早期的编辑到算法信息流推荐，现在甚至可以尝试由AI整理过去一周的新闻并制作成博客或播客内容。比如国内已有AI完成类似任务，将多条新闻整合成一个语音播报。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AICC相关的工具类项目在当前技术环境下面临的挑战是什么？</div>
-<div class="answer"><strong>A:</strong> AICC相关的工具类项目面临的主要挑战是技术产品厂商可能会通过大型模型吞噬市场，如文本编辑器、会议纪要整理、长PDF分析等工具，这些功能目前看起来容易被大模型取代。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 基础设施分类下有哪些具体项目及其价值？</div>
-<div class="answer"><strong>A:</strong> 基础设施类项目包括数据处理、模型评估与微调、不同模型部署、云投资和在线托管监控测试等。其中，有些公司提供大模型部署的开源平台，有的专注于LM测试与监控，还有公司做GPU比价服务，以帮助用户以最低成本推出应用，这些项目都有明确的价值和市场需求。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 医疗行业在AI应用中有哪些具体场景？</div>
-<div class="answer"><strong>A:</strong> 在医疗行业，AI被应用于接电话客服、诊断治疗、保险索赔、医疗文档处理等多个细分场景，如帮助医生处理妊娠期相关问题、辅助护士交接班、分析脑电图以辅助癫痫治疗、提供医生培训、心理健康服务和物理治疗等全流程辅助。这些项目展示了AI在医疗领域的广泛渗透和深入应用。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在对两家公司进行分析后，你们得到了哪些impressive的结果？</div>
-<div class="answer"><strong>A:</strong> 我们得到的结果非常专业且全面，基础的分析师工作已经基本不需要人工进行。输入的信息仅包括公司股票代码和网站名称，但经过分析后，呈现出来的PPT内容详尽、精准，包含了丰富的洞察和一些未曾考虑到的角度。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 这个PPT展示的分析结果有哪些特点？</div>
-<div class="answer"><strong>A:</strong> 这个PPT看上去非常专业，而这只是初期的分析成果，随着两个公司迭代进展，生成的内容还在增加。其中，关于“agent”（代理人）板块，大家都在探讨它作为中间态技术解决大模型能力不完整的问题，但未来是否会被取代尚未有定论。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于构建agent的创业公司来说，他们的商业模式如何？</div>
-<div class="answer"><strong>A:</strong> 这些创业公司在初期可能通过提供平台服务来吸引不同垂直领域的项目入驻，形成一个agent创建框架，类似于打包好的服务。初期收入可能较为可观，因为市场尚未形成共识，如果营销策略得当或在某一领域建立口碑，有望取得一定成效。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 关于企业内知识分类，您有什么看法？</div>
-<div class="answer"><strong>A:</strong> 企业内知识分类是一个巧妙的分类方式，例如将HR、财务、采购IT等内容归为一类，这类中后台服务已有成熟的上市公司提供服务。初创公司可以专注于做小功能点，如果做得不错，也能获得一定的收入规模，并寻求并购退出。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 数据分析领域在AI技术推动下有哪些变化和发展？</div>
-<div class="answer"><strong>A:</strong> 随着自然语言模型的更迭和改进，数据分析师可以从重复工作中解脱出来，借助AI更轻松地撰写报表和查询数据。此外，AI还能帮助结构化非结构化数据，提高数据分析效率和效能，使企业能更好地利用其积累的数据资源。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 安全领域在AI技术应用下有哪些新的挑战和解决方案？</div>
-<div class="answer"><strong>A:</strong> 传统安全工作如代码安全漏洞追踪等可通过AI提升效率。而在新安全方面，自然语言交互界面带来了新的安全课题，如注入攻击等问题被提升到更高层次的关注度。例如，雪佛兰汽车因AI客服承诺一美元卖车的案例，凸显出AI安全问题的严重性，因此需要引起高度重视。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> AI生成内容带来了哪些新的挑战？</div>
-<div class="answer"><strong>A:</strong> AI生成内容时，其输出的多样性和不可控性成为新挑战。过去内容审核是通过人工把关，而现在AI直接生成内容，如何避免出现错误承诺、道德风险和政治风险等输出是一个当前亟待解决的重大课题。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 刚才提到的新闻类目中有哪些印象深刻的比赛项目？</div>
-<div class="answer"><strong>A:</strong> 第二个或第三个项目是关于太阳能AI系统的集成和推荐服务，它为太阳能施工队提供了一个SaaS解决方案，这个项目切入点明确，实现了商业闭环；第二个是draft项目，专注于CAD图的生成，进一步提升了设计领域的自动化水平；最后一个印象深刻的是在线教育领域的项目，通过AI技术帮助学生整理文件、沟通导师，并管理学习进度和日程安排。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> YC投资项目中有哪些体现大爱精神的项目？</div>
-<div class="answer"><strong>A:</strong> 其中一个项目是开源项目捐助平台，允许用户选择并支持各种开源项目的开发；还有一个是妊娠期女性监护项目，利用AI技术监测孕妇健康，预防意外情况发生。此外，还有一个开源版ChatGPT项目，将开源模型改造成支持离线部署的GPT版本，旨在让无网络环境的人也能使用新时代AI能力。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> “端到端”在AI相关公司的描述中意味着什么？</div>
-<div class="answer"><strong>A:</strong> “端到端”是指提供全流程服务，用户不需要关心内部实现细节，只需关注最终结果。这一概念在本轮AI浪潮中被广泛应用，强调从输入到输出的完整解决方案，符合用户为结果付费的需求。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 目前AI领域的创业现状如何？</div>
-<div class="answer"><strong>A:</strong> 大部分创业项目路径依赖于创始人原有的工作经验和人脉积累，原创性“从零开始改变世界”的创业案例变得越来越困难。同时，很多项目的内容存在正确废话的现象，即虽然有些观点过去常被提及，但在具体执行细节上有待深入探索和实践。此外，国内AI创业领域相较于国外繁荣程度较低，且面临监管环境带来的挑战。最后，窗口期对于创业公司来说至关重要，需要准确把握行业发展的时机并制定相应的策略来应对快速变化的市场环境。</div>
-</div>
-<h1>节目文稿</h1>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这是十字路口和屠龙之术主播庄明浩一起串台介绍y combinator投资的AI公司的节目的第三部分，也是我们总结的部分。Y combine nature是硅谷最牛逼的创业孵化器，简称YC yc在过去一年投资了260多家AI的初创公司，他们可以说是硅谷乃至全世界AI创业趋势的一个缩影。在前两期的博客里面，明浩和我逐一访问了这260家YC投资的AI公司。我们体验他们的产品，浏览他们的官网，尝试去理解他们，学习他们，借此来了解AI的顶尖创业者们究竟在做什么。这两期播客加在一起长达五个多小时。随后明浩做了一份总结的PPT，尝试对这260家AI公司进行更宏观的统计和分析，汇总我俩各自的观察和观点，从而更好的帮助自己，也帮助大家来理解当下这个时点在AI领域的创业趋势。今天的播客大家可以参照show notes当中明浩准备的PPT来进行收听。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:07]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-在上期结束之后，我们立了一个flag，对吧？我们还是说还是做一个整理。然后为什么做？其实也有原因，就是说在上听完我们上期节目，我有朋友跟我说，听起来还是太累了，就是即便有非常大的耐心还是太累了。再加上一直以来有这个习惯，是说既然已经做过整理了，我们就再往前多做一步对吧？然后做了今天的这个内容，它其实就相当于是把我们梳理过两百多家公司的内容做了再一次的拒绝，然后再问给大家。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:40]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对我看我们上期现在放出来完听率大概是20%。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:46]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我还没看完。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:48]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-不敢看。真的完听率就是惨淡了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:51]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-就是太正常了，就是人之常情，对吧？然后针对这个内容我起了一个标题，叫那些你知道的和你不知道AI创业方向。其实在我们整理之前，大概率就已经其实知道一些比较集中的内容的方向。但是整理之后其实还是发现一些我们理解没有那么深的方向。所以有了这样一个非常朴实的标题，我们有起一个标题党的这个标题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:02:16]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后再多说一句，就是写在前，为什么要做这些整理？就是我是觉得做完之后还是需要一些更加宏观一点的统计，就是再往上拉高一层。虽然这个数据源可能是一个相对单一渠道的数据源，但至少它代表了一定的趋势。第二就是我们需要把分散的很多观点聚合起来。因为我们的过程中也会发现针对不同的类目，不同的项目有很多的观点的蹦出，对吧？然后第三一点就是每一个项目的过其实就是一个单点。那过完之后对于比如说趋势脉络跟当下时间点AI行业的创业的状态，我觉得也需要一个整理。就是我们在肉身整理之后再做肉身的咀嚼，而不是交给AI来做到咀嚼。再一点就是我们的下期是3个小时，加上上期两个半，应该是超过五个半小时。是的，还是太太长，就是太累了，谁会有这么长的时间来搞这些东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:10]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我感觉就是做家务的时候或者跑步的时候。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:13]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-但是那个时候又看不了，你只能听，又又差了一点点信息量，对吧？是，所以我们还是最后做了一个PPT的内容。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:19]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-主要是靠这个名号是做的，我就是他的拉拉队而已。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:23]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后我们最后的表格里面，其实包括中间过程中有一些我们认为应该没有相关，我们就剔掉了。最后表格是259个项目，然后259个I项目又重新以主观的方式再做了一次细分的分类。因为拉出来的表格是通过AI方式做的分类，其实有些分类可能不是那么合适，或者说比较模棱两可，反正我就主观的方式把它们分了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:46]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后把两百多个项目的这个分类的区这个区这个统计的区间拉出来。情况是这个样子。你会发现营销相关的CRM sales，然后客户关系管理是最大的品类，我没有那么意外。然后第二大品类是口定的，就关于代码相关的。第三大品类就是我们比较熟悉叫AIGC，第四大品类叫infer。然后这几个是架构对一这几个品类的项目都是超过25个，就超过大概10%的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:04:12]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-前四个然后是医疗金融。医疗排在所有细分按行业分的第一位，其实也是有点出乎意料之外是吧？对，然后金融，然后agent，然后数据分析企业内知识，可能就包括财务、法务、审计、物流、HRHRIT那些，然后安全，然后到这儿应该是前十大分类，我按每个分类这十大分类都做了一些描述，然后后面的一些小的分类我就没有太做了。可能物流、法律、工业、教育、机器人、交易、能源电商务、旅游。对，就在欧洲我们当天那个法律领域那家欧洲的给欧洲律所提供法律服务的那公司拿了benchmark的几千万美金。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:04:55]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-应该是对1000万美金。对，就是我们在录的时候，他就都已经有成功的轮到下一轮。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:03]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后我们就那既然是一个主观的分类，对吧？那我们就看看我们两个人的主观的在这一点的结论。因为我们在过程中会把每个项目标，我们的这个就感觉对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:15]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-然后就非常武断的给他标一个感觉。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:18]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-就非常主观，没有任何的客观的理由。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:21]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-然后完全是从用户的角度。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:23]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-是的，然后我们分了五大类，最牛逼的就是牛逼对吧？最简单，然后有点意思不太行，然后肯定黄跟看不懂。然后从结论来看，其实这个数据大差不差就牛逼，大概都是20到21个。对，有点意思。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:39]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-很多都是我们共同觉得牛逼。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:40]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，然后有点意思，可能那个科技稍微多一点，200个，我大概137个，然后不太行的我暴论比较多，我下然后估计下了七个，就是差别就在这两个数据上。其他的其实是肯定黄，跟看不懂的其实差不多的。就大概是我们的这个处理结果。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:57]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我还是秉持着鼓励创业者，我的心情就是没有标那么多，不太行。而且我们录到一半的时候，然后当时这个表格分享给一些朋友们看，就有朋友说，我跟你讲，我一个朋友的star他们被你俩飚了不太行。当时我心里就一个咯噔。压力变大。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:06:15]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，就想说还是应该鼓励鼓励这创业者们。是的，而且确实很多YC的项目，他在从0到1的时候，就是选了一个就在当时大家没有那么看好的一个小的切入点。但是就像吴炳坚，就是我们的朋友，他之前写过一篇文章，就在这个时代，你是要去选择旁观，还是你要选择去做一个像汤姆猫这样的看上去有点荒唐的应用呢？那其实他鼓励还是应该跳到浪潮里面去尝一尝海水的味道。哪怕今天做一个汤姆猫，但明天也可能这个汤姆猫会从hello Kitty变成大老虎，对吧？也变成一个意思的一个项目。所以这是我标的时候，其实内心对很多项目觉得不太行。但其实就秉持着这个鼓励的心情，给他加了有点意思的标签。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:07:13]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我们就一个分类过大概十个分类加一些其他的内容。第一个分类就是刚才提到最多的这个项目最多的分类，大家营销相关的可能占了应该是三十几个项目的13%左右的比例。然后我们在那个聊天过程中，其实也有感触是说，虽然叫营销也好，叫CRM也好，本质上来讲这是一个链条非常长的事情。前从最开始的潜在客户的列表，客户的沟通沟通的文案，文案又分邮件、短信、社交媒体吧？在线平台。然后你这些营销数据之后有实时的报价、售后的支持、舆情的监控、会员的管理，就整个链条的所有环节分工超级的细。是的，有无数的公司可服务其服务于其中对吧？最大的可能sale force就是最典型的。然后其实抛开AI我回想当年可能1415年做美国的天然气融资的时候，to b板块营销相关的应该也是最大的。就在那个时候，一直以来其实都是创业公司比较集中的一个区块。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:14]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-因为这里明显非常近就我帮你提高1点ROY，你可以很容易的算出来你应该为我支付多少的费用，值得你或者你愿因为我支付多少的费用。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:23]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以跟销售相关的确实是。然后又因为整个美国的to b的在销售这个条件上的巨头也很多，巨头的投资跟并购也非常的活跃，所以整个的这个链条就正向循环起来。是的，这件事情其实跟10年之前的底层逻辑上没有区别。是但从我们看具体这一波做AI相关的公司的切入角度，其实我大概分了几个块。第一，最常见的是做端到端的全链路解决方案的。我们看到很多那些我们其实在通过现阶段，他这个最初始的介绍里面，没有办法评判它的优势跟劣势的那些项目，就很多都是全都做了不清楚。他针对某些，比如第二类，刚才讲的这个方式就是针对不同行业来做。是的，财富管理d to c房租赁，这是我们见到的比较特别的项目。然后再一点更简单的方式就是其中刚才我们说这么多环中的某一个节点去单点，对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:16]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-去单点去AI给它加上之后可以效率大大的提升。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以其实从项目的。这个切入角度跟操作方式上来看，其实就这么就是这些。甚至某种来说做复杂业务的AI相关的项目的切入角度大概其实也是这些。就其他几个类目也有类似的这个规律，我们后面会看到，然后我列了几个比较有代表性的跟这个营销相关的deal。比如说第一个叫AS.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:44]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-第二对这个就是从去找潜在客户并且搭讪这一个小的点去切入的。他没有做那么复杂的端到端。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:52]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以他的名字也非常的直接，是就是AI的销售代表。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:56]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对他帮你把客户的会约到他就算成功。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:59]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后第二就是做这个全链路的，叫AI版的self force，就cell force做什么，他基本上也都做了整个的链条报表，数据跟踪，然后内容的准备，所有这些品牌的资源相关的全部都做了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:10:11]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，这个叫line。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:10:13]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后第三个就是做这个sales的copilot，就是你在销售过程中需要一些辅助的功能，然后他会帮你做一些辅助的AI的介入。就是你会发现就是你通过前面这种分类方式，你再去看这些项目的时候，它的区隔就比较容易区隔的开了。虽然从官网描述项目描述过程中，你会发现其实大家都大差不差。然后就是营销这个大的品类，然后我们进入第二个品类，就是这个口鼎相关的。这个反正因为我们在过程中，如果大家听过上两期节目，应该也知道我们找了外援来帮我们做。因为确实我们在拿到这个列表最开始的时候，你会发现这一类大类的项目真的看起来特别的累。就是哪怕他有非常长的详细的描述，然后我们也去看了官网跟YC的介绍，依然很难说。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-出什么。对我觉得一方面是因为我们确实不是技术背景，虽然我本科研究生学计算机，但也那么多年没有接触。然后另一方面是我觉得其实今天技术是在剧烈的流动，技术的边界也在剧烈的变化。所以其实大家做的事儿也都很复杂的。他没有他自己可能都没有想好我如何用一句话把我的价值了解清楚。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:26]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，像昨天晚上我遇到另外一位创业者，他在做的是bat base，他们在那个kick top上面已经有1万个心了，然后也是在上海的一位创业者，然后我就请他给我介绍他的项目，他也就是很不容易。他问我你是什么技术水平？我说我知道这个关系型数据库和非关系型型数据库的这种水平。然后他深呼吸1口说我来试一下。对，所以这个事儿确实不容易。但是我看这个明浩还是努力的给他分成了两个大类。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:57]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对分就是硬要分还是分两，通过这个或者说相对对非技术人员比较好理解的方式来分。第一种就是从自然语言变成代码，就是一大部分项目是做这种事情。那你这个事情反正你想就非常开心，对吧？对，生成代码，然后交给AI来做对一键生成无论是前端、后端、数据库，甚至完整的整个demo或者整个APP对吧？理论上理想状态应该是这样，但现在看上去还是有点难的。就是一键生成就是从一个自然而语言到完整结果可能还是比较难。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:28]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-真的很难。因为一键生成PPT现在都还没有那么完美，但一键生成网站，因为网站还比PPT就在PPT之外还多了更多后端的东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:38]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，那不容易。如果不能完整的解决，那就再拆。比如说部分生成的，我只生成前端的CSI代码，或者是支撑数据库是或者只生成后端的这些模块，或者是套一些固定的模板。就你专门生成一个什么样的东西，我给你一套这个东西，把这个边界划分的清楚一点，或者是部分用低代码来实现，而不是单纯全部通过自然语言来实现。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:58]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后要就是从另外一个方式去解决这件事情。既然没有办法去直接生成，那我们先把前面那个事情解决清楚，就是让AI去理解代码，然后再去做后面的事情。所以基于自然语言跟代码之间的关系，有一堆相关的项目在做这个事情。然后另外一种拆分方式就是更简单一点，我们把整个的从代码的从出现到编程到QA到改bug到安全、到测试全部流程拆成各个细节各个环节，让你AI来帮忙提高效率还是提高准确率，还是解决那些人协同问题，对人肉可能特别累的事情来去做。所以这就是我们能够看到的GAI跟code相关的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:13:40]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-能够做的很多的事情。印象最深刻的就是AI帮你写文档。写文档这个事情也是非常痛苦的，代码标注、注释、解释都是对AI改bug，或者AI哪怕就是不改，那只是来帮你做对，这也很make sense。对，昨天看到另外一位MIT毕业的高材生就告诉我，他新的这个方向也是要去做AI来去做QA。我觉得这个也是很典型的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:04]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-就排在第二的大的创业方向。然后我也同样找了一些比较有意思的deal。第一大类是有几个做前端的，就是要替代改进FIMA，做前端UICSS的这些对吧？还有就是做IOM代码直接到web，比如那个大大理石的那个那个公司，直接自然变成一个完整的。比如说想做一个类似RMBNB的网站，它从前端到功能模块到后台数据库全部帮你搞定。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:30]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-比如说开个火锅店需要一个官网，对，官网有些预定功能，然后理论上现在我就可以通过这个来做，非常快。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:39]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-第三类就是做QA跟改bug的。就是常见的QQ改bug应该是这个领域里面小分里面最多的一个品类。好多项目都做相关的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:48]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-其实还是需要大量的用到智力，但是它又有一定的重复性的工作，这是最容易被取代的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:55]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后这是coding，然后下一个类目就是to c的，就是叫AIGC。其实这个分类的方式在之前拉出来你们那个分类是没有的，但是其实用到我们国内比较好理解的就是AIGC这个方向的是大概有30个项目占11.6。其实这个比例是相对于所有项目而言是很低的，是蛮低的，非常低的。或者说另外一个角度说，IC这个概念在美国其实也不像中国这么的被大众跟从业者们所接受。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:24]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后那生成内容的到底生成什么？知识的文档，给政府的，给什么税务报税？给什么还有什么审核的，给生物医药做论文？知识的文档、图片、视频、3D素材、动画、音乐、PPT? 这些其实是在我们没有做分离的。大家也知道AI这些领域在做这些事情？也基本上是所有可能今天在做大明星也好，在做相关业务的巨头们都会要做的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:53]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后对于这些初创公司，而且而言，尤其是YC所投资的初创公司而言，他们做这个相关那就需要再往前迈一步。就是你基于这个认知跟逻辑在做可能已经很难了。所以他们就再往前做，就是说要么是定义需要更加明确的定义，具体的不能再具体的功能或者使用场景，就是再往前做的更细。但是这里面就会引发一个问题是说你往前多走了，随之来的问题就是说你的场景或者是你做事会不会太窄或者太难，对吧？因为我们在这个领域也有几家我们标注的不太行，或者是不太OK的公司。那确实就是因为这个问题之间的博弈的取舍。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:16:30]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-是的，太展示很容易被大模型一发布直接给你淹没掉。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:16:34]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，这个后面会提，然后我找了几个比较印象深刻的deal。第一个是做那个视频风格的，叫magic hour。最典型就是给灌篮高手对NBA球员做超级英雄的风格转换，包括几个营销视频做那个风格转换，相当于你可以理解为他是做视频生成的，但是他是做专注于某种风格。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:16:55]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-然后把灌篮的这个动作从真人在起跳那一刻变成某种魔幻的未来感的风格，然后让这个短视频变得更有传播性。是的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:07]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后第二个是做帮你做文件商品演示的类似apple风格的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:12]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-演示风格。就是每个人做了叫catch叫cat做了公司之后或者做了一个新产品之后，大家都要录个视频。然后他讲的就是好，你来我这儿录，我用AI帮你录一个和苹果的风格很像的视频。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:24]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，专注相当于一个场景。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:26]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，专注场景。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:28]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-第三个类目就是其实这个项这个方向有2两到3个项目，就是视频搜索和编辑，用自然语言的方式去找到视频里的素材的帧，然后再做搜索也好，剪辑也好，这个不止一个项目在做。所以你看我们这一张叫IGC对吧？第一个小的内容叫视频，其实有3分之1的是做视频相关的丢，然后所有人是没有骚扰的能力的。就跟刚才我们讲的一样，就是这个事情一定巨头是要弄弄到死的。所以大家不会去直接对比那家公司。对你只能切切场景、切风格、切滤镜或者切处理，对吧？就是只能往下切，这是AICC的视频这个分类。AICC我又分了几个更小的类。比如第二个小的类游戏其实只有两个还是三个项目在做，AI游戏相关的很少。然后从整体的情况来看，包括市面上非YC的AI游戏相关的创业项目。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我觉得今天可以下个结论是说，我们理想中的所谓的。Native AI的game还是有点早，它是属于一个梦想的阶段对吧？然后我们从生产端去重新去拆分游戏的话，可能今天角色场景、世界观、地图这些东西生成已经不是特别难。因为它基于2D也好，3D也好，动画也好。但再之后就是游戏的核心叫game play，就跟我们去试那个核心的那个seven over的那个产品一样。就是它的game play环节现在还没有办法用AI解决的非常的好。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:54]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对AI其实还是帮大家无限的生成素材，让这个游戏变得更丰富。我也听到一个新的说法叫千人千缕。就是原来是千人千面，现在是在游戏里面我可以做到1000个人，一千种不同的旅程。但是这个还是只是在元素上面用AI去给你生成足够多的海量的选择是可以的。但涉及到game play就没有看到靠谱的方案。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以你会发现这几个示范的案例还是那些可能半年之前就大家频繁提到的关键词。斯坦福的小镇那个demo对吧？可能现在帮你变成一个3D素材的，或者变成一个原来是小镇变变到医院里对吧？就是是这样的尝试。比如说robots的AI化，roo b lack的游戏的AI化，就还是那些关键词。然后如果今天十点game没有办法完整的百分之百的理想状态的呈现，那我们就退而求其次，做互动小说，互动的剧。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:49]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-互动的内容来去往这个方向。靠也有一个项目是把小说变成互动小说。对就是这个过程中其实作者什么也不用干，就AI给你配图配一些简单的互动。然后是一个AI.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:20:01]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-CC的与视频的一块。然后游戏第三块我我我列了个小标题叫解决听的问题。就是听又分比如音乐的新闻跟播客类的内容，音乐反正一样的跟视频领域一样，谁都不是。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:20:16]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-没有人没有。其实对尤其YC头的创业公司，他们拿的钱其实是很少的，是干不了这样的工作的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:20:23]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-但毋庸置疑就是24年就是音乐站在舞台最前面的这一段时间？然后就属于他的高光时刻。这可是音乐其实又细分非常多的细分类目？旋律歌词完整的歌曲还是一段demo，甚至要不要配MV生成。音乐的内容包括曲风风格？歌手甚至做一个歌手出来，就是他有好多的角度去做好多的环节。没错。如果我们今天这些初创的小的公司，没有办法去完美的从0到1，跟苏总一样，那我们只能从别的地方来做。你像这两家其实就是更多是从编辑从风格。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:21:02]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-的角度去做对YC头这两家分别叫sunday和sonata，对，他们做的都是编辑。就是我自己没编过音乐，但是我大概想象中大家也有一个操作面板一样，就是我会把一首歌分成，比如说几百个音轨，然后每个音轨是单独生成的，然后在音轨的这个排边拖拽，最后做一首音乐出来。其实这两家公司做的就是这个环节，就你的每个音轨我可以给你生成。虽然我没法直接生成一首完整的歌，但是你比如说用钢琴弹一段舒缓的曲子，然后用古典再给他配一下这个背景的这种节奏。就是他这么一点一点的帮助人堆砌出一首歌出来，或者编辑出一首歌出来。这两家公司在做的是这个。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:21:44]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对。然后下一个就是关于博客相关的对吧？或者说新闻相关的那其实逻辑上也容易讲通，在新的大元模型来的时候，新闻的获取是否要有变化。因为原来从最早的编辑到算法信息流推荐到今天是不是应该别的什么方式。然后同样再再往前推一步，如果我们去听播客，播客我们今天大部分听的内容是由人去做的对那AI是不是因为我会发现我在上周末已经在消息周上看到国内已经有AI做的博客了。就是及比如把过去一周十条新闻抓好整理播出来。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:22:20]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-因为现在小宇宙上天天在那个最热榜单第一名的都是科技早知道，其实那是一个新闻广播节目，就是把前一天。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:22:28]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-的几个大的那其实理论上这个事情可以不用人了。是的，在现在这个阶段对吧？用户比如说我指定的就跟那几个穿那个demo项目一样，我指定主题范围AI来做行不行？其实是可以的。然后再更直接一点，比如说我们当这么多年习惯的RSS reader跟google luck，就是google关键词订阅，理论上来说在今天应该也应该再改进一下。对所以是的也有这些项目在做这个事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:22:59]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后最后一块是AICC的，应该是AICC的。最后一块就是做AICC的各种工具的。这个我又细看了一下，应该是我们两个标不太行，那肯定会黄。比较集中的领域就是结论上来说，就是这些东西你一看你就知道是技术产品厂商是一定会去做的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:17]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-太容易被大模型给淹没。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:19]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对我列了四个，比如说那个阿阿夸，就是做那个文本编辑器的，就是从自然语言变成一个可比较正式的文本的编辑的一个笔记本软件。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:29]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-notebook软件。就是你随便给他讲，但他最后给你整理出一个知识的明白知识的，就比较完美的优雅的一段话。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:37]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对对对，然后有做会议纪要整理的，有做长PDF分析的，包括做文档分析的。这些功能看上去已经就马上被大型吃掉了，然后这是ICC这个板块。然后下一个第三大的这个第三大还是第四大分类，就infer，就基础设施这个分类第四大对，然后我回头去拉了看了一下，也是大概一个月2个月之前，AI50的那个榜单，就福布斯跟红杉发的，他每年都会发。其实他们也是分了两大类，一部分叫apps，一部分叫，然后这个简单来讲，就是从我们今天被无数媒体报道的大模型，到我们期待的那个应用中间的所有事情，还有非常多的事情要是的。所以英特尔相当于在做这件事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:24:23]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-除了英伟达这样的提供算力芯片的公司，以及除了OpenAI这样的做大模型的公司。然后在大家to c天天用到的这个中间，其实有大量的中间做工作，对是需要技术人员去做的。但我们在这里把它们全部都放到了这个info里面，可是就是看这张PPT里面能看到infrared。其实也可以细分分非常多的。比如说就是做数据处理的，这个是很容易理解，大模型要理解数据。你不能就是什么都喂给他，你还是要稍微烹饪一下，给他向量化一下，就是打一些标签喂给他。诸如此类，就可以分成不同的子类别，但我们都把它放到了一块儿。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:02]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，反正就是这些七分功能再拆。比如说我不同模型的评估，如果用多种模型的部署，然后每一种模型的微调的方法，然后整个你喂给大模型的数据，你不能拿来直接，你要做数据的清洗，质量的提升。包括有跟云相关的投资，在线的托管，然后监控测试，甚至这里面还有那个GPU做比价的公司。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:25]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-就是对那个我印象很深。我放在那个做了一个应用之后，你要怎么样能够用最高的性价比给它推出去。那第一步就是到底买什么服务器，在哪里买服务器。那显然今天GPU那么贵，然后市场上又是一个双边市场。所以就有人在中间做了一个帮你比价的实时比价动态选择。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:45]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以我在这个info几个有意思的deal里面就挑了几个。第一个叫open，他是做这个，因为MM的部署的就是开源的IM就大模型部署的。然后第二个公司是做这个LM的测试与监控的base one。对。然后第三个就刚才我们讲过做GPU比较对，叫shade phone。就是你相当于在全世界各地区可以比你同样买一块英伟达的，比如说A10的芯片对吧？在各个不同地方的价格是有巨大的差别的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:10]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-没错，这些都是有非常明确的价值的。只要to c的应用能够越做越好，或者to b的能够越做越好，那他们在中间层提供的这个价值是至少在我自己认为看得见的未来都是有钱赚的对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:27]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后我们进入下一个分类，就是按这个行业分的。第一大分类医疗。医疗然后有24个项目，大概占9.3%，其实比我想象中的要多太多了。但二次项目中有五个项目是做接电话的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:40]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-5分之1是接电话的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:42]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-当然用AI这个代替接电话的客服，其实是各个行业都在发生的对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:46]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，尤其在美国，我觉得大家做很多事情是通过电话去解决的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:52]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-牙医、兽医，然后4S店，这个我们都看到了。然后我们把整个医疗的场景再做细分，可能又分又诊断的，有做治疗的，还有做保险索赔的。哪怕只是我们看医疗这个过程中的文档，可能又分病例账单文献。然后我们如果再按传统医疗的医学分科再去分。对，有做心理的，有做夫妻关系，有做脑电波就是妊娠，还有X光的，就各种各样的环节。然后这只是像偏聊跟后面的事情，那前面生物制药AI也在发挥作用，所以也有项目在做生物制药方向的AI的尝试。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:27:31]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-是的，所以项目这么多也是从不同的方向不同的，这个切点真的很。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:27:37]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以就拉这个有意思项目，就是拉最多拉了六个，有做妊娠期的，然后有做我们聊的比较多，做护士交接班的那个。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:27:45]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-因为在交接的时候大家最疲惫，最容易交接错误导致医疗事故。这个里面用AI来去帮助。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:27:51]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后有做脑电图的分析的大模型，专门给治疗癫痫的医生去做copilot。然后有做医生的培训，然后有做心理健康，包括有做物理治疗的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:28:01]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-那个全流程。对，其实这个是给上门做理疗的那些医生去做他们的SARS助手一样。对，就是能想到的甚至想不到的角度都有人做，而且我看他们都做。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:28:12]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-的挺好的。是啊，你想敢做医疗都不是一般人。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:28:15]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我觉得对，就是因为我们看这260多个公司，他们都有官网，有些官网确实完成度是没有那么理想，但是和医疗相关的那个完成度都相对比较高，相对是比较高的。我印象很深的是那个做心理健康叫索尼娅他那个官网打开之后就是扑面而来的平静的心情。是的，是多的配色。对，包括配色交互，还没开始用它的服务，你就觉得心情已经好了一分。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:28:40]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后下一大的品类叫金融对吧？这从现实世界金融也是一个超级大的品类对吧？再细分可能又分保险银行一级市一级二级市场。然后分看这个分类的时候，我想到之前那个book mark的GP sara提及一个观点。他说AI替代人类的工作可能往往会最先容易发生在今天现实世界当中。外包非常成熟的行业。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:02]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，过去是外包给人。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:04]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-现在是外包给AI金融行业恰恰是比如IT外包最多的一个地方。然后再细划分到比如具体的工作环节吧？反欺诈滴滴做滴滴的好几家太多了，保费的确认，贷款的审批，就是你能想到金融环节的各个板块可能都有公司在做。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:21]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-是这也非常make sense，就是这个需要智力的文字工作者，工作又带有一定的重复性。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:29]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后我就找了两家这个领域我最印象深刻的两家公司。都其实都是产出的结果是变成我工作当中可能需要的内容。一家就是当时我们在聊过程中就看了实例的，就是输入公司的名称网站以及股票代码，直接输入完整的分析报告，分析报告出PPT叫reset。然后另外一个是做各种各样的金融相关的研究。他现在给出的demo是一个做金融对手的研究分析的是叫做late。同样你输入一个顾思明就帮你出去，那他后面还会加很多的相关的分析的模块功能。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:03]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我们当时应该对比了一下，都是输了哔哩哔哩，就说他的股票代码必须进去，然后请这两家公司的和mantik late分别分析，最后得出来的结果我觉得还是蛮impressive的，就是感觉该cover的都cover了，甚至还给了一些惊喜。还有这样的一些信息或者角度是没有想到的对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以就是一句话总结，就是那种基础的类似实习医生实习分析生的的实习生的分析师的工作已经基本上可以不需要。然后我们看到的这个PP上的结果都是我们的输入结果。输入的内容只有一个网站的名称代码跟公司的股票。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:37]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，太了不起了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:38]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个PPT看上去就非常的专业，是然后这只是初期，因为这两个公司还在迭代，他们生成的东西还在增加。然后下一个板块A的就是我我打了一个标题叫又一个共识。但是我同样问了一句话，因为今天或者说过去一段时间也有很多的人在探讨agent是不是其实是一个中间态的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:03]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-他在解决大模型能力不完整。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:05]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，是的，是不是某天这个事情可能就不需要了，对吧？但这个问题我没有答案，我们只是放在这里，因为最近很多人在讨论这个问题，然后我们看这个里面的一些分析。第一就是说因为它是个共识，所以也是众多项目之间差异性最小的一个板块。对，就我们看到这个做一证相关的项目基本上没有太大的差别。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:26]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-大家的界面交互都越来越像。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:31]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-既然agent是代理人，那我们真的要去抠这些项目之间的区隔，可能就是各家实现方式上的细微的不同。做录屏的、拖拽的、工作流的、自然语言处理的、RPA的、纯逻辑数的也有，对吧？就是只能去抠这种东西才能找到之间的细微的区域。而且你会发现这些东西再往前演进，可能大家就连这点新的机遇也都会没有了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:51]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-其实说到大家做agent这个分类，他在做的其实是一个agent的创建框架。对就是他比如说我们也可以讲前做医疗的，或者做这个心理健康的，他也是某种类型的。但是他其实是自己已经给你搭好了，就变成了一个打包好的一个服务。但是这些做agent的人是可能这个创业公司他也没有想好到底要在哪个垂直领域去做。所以我干脆就是说我做个平台，你们谁都可以来我这里的agent不知道他们到底活的怎么样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:32:19]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这些公司所以我觉得瞄准来说，可能如果初期执行好，初期的收入应该还可以。因为毕竟现在这个阶段，既然市场没有共识，那大家就都都弄着。然后你如果比如说营销做的比较好，或者是在某一人群当中的口碑比较好，可能也能做出来一定的效果。就跟今天为什么字节愿意花那么多钱去推扣子扣一样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:32:40]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-腾讯也发出了一个对标cos的一个新的应用。而腾讯这个应用最吸引人的是你完了之后可以直接往这个微信里，公众号和微信去部署。但至少是现在可以部署到企业微信。能不能部署到个人微信，我猜有点难。还在博弈。对，但这个确实是让大家能够看到，因为和他它的交互最自然就是在微信里面，是的，就是一个对话的地方。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:03]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-那现在加上agent之后，说到这儿就是有一个我自己现在在用的微信上面的一个小的一个叫小6的1个机器人。他其实有一点hack的成分，就是你可以自然语言给他说帮我点外卖。然后我现在已经不打开美团APP点外卖了，就让小六帮我订，然后他会记住我的喜好。比如我可以告诉他他背后是谁，后面是他背后是一个中国公司OK。但他们反正这个事儿就是不太能够宣传，但真的很好用。而且因为所有的都有小六定，所以它的积分特别高。然后你甚至比在美团外卖直接订要便宜一点。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:46]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，所以你看我拉的这个公司有做工作流的对吧？有做这个案件经理，类似新时代案件经理，有做录屏的，有做这个外部的数据的抓取的。就是你只能去从这些最表层的方式上去区分这些项目。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:01]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-是的，这些项目是构成一个非常大的叫agents的分类。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:05]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后下一个就是企业内知识的分类，其实我觉得这是一个比较取巧的分类。就是我把那些什么HR、财务、采购IT的放在一个品类里，叫企业。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:14]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-内是中后台的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:16]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-后台就是这些模块跟功能。其实在美国，在中国已经有非常多非常成熟的上市公司新服务。对，今天时代师傅可以重做或者是改进一下对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:27]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对弯道超车有没有可能？有可能。所以大家在你会。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-发现这些公司其实在中小初创公司可以安心的做一个非常小的功能点，然后只要做的不错，就可以有一定的收入体量，然后再去找并购的退出。可能这跟前面做那营销的那个类目的公司非常的像是。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:44]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-就是有一个很繁荣的一个生态。然后整个市场，是接受为这样的一个小的环节的优化去付可观费用的对，这个确实和我们现在所处的环境有点不一样。是的，对他这里面明浩也拉了一些案例，就我们印象深刻的那个counter IQ做那个就专注在做HR的薪酬，他应该是全网去抓大家的薪酬水平，然后告诉你就是现在和你类似规模或者阶段的公司，他们为某个岗位某个级别付的薪酬是一个什么样的range。这个事儿之前我们公司也做，但都是一个是要么自己手动做，然后其实今天中国也有人卖这有这个报告，我记得我们HR也给我看过。对，会你会大概花一点钱买这样的数据。但这个事情它其实也是实时在变多，可能每个季度都不一样，尤其今天？这个经济环境那么跌宕起伏，所以这个时候我觉得是一个就离离付费还蛮近的一个需求。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:35:40]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-是的，然后下面做这个财务审计的，包括做供应链管理的对，都有做采购的。而且他们切的点我觉得都挺make sense的。尤其做采购，他在讲说公司越大，尤其是你做跨国的时候，就是你的一个采购单上来这个审批是非常难的。就是你要考虑在这个国家的一些要求，然后还要考虑就比如说这个级别的工程师和那个级别的设计师，他们都想买同样一个鼠标，到底能买还是不能买？到底应该在亚马逊买，还是他们可以自己买来报销。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:12]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这个规则会随着公司的膨胀变得超级复杂。原来这个就只能记在部分的这个审核员，就做采购的同事的脑子里面，这难免不出错。一旦出错员工就会怨声载道，觉得不公平，现在把这个事情交给AI去做，一听就很很make sense。是的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后下一个分类做数据分析的，核心的关键词就一个B.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:36]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-I就是你把BI变AI从B.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:39]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-变I然后你会发现逻辑也比较简单。就是因为自然人这个模型的更迭跟改进，让机器能够更好的理解我们的需求。所以就会让数据分析师们有可能从枯燥的重复的日常的这种工作中脱离出来。然后我们原来可能有比较门槛的数据SKL的分析。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:01]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对一些circle这个也可以用责任人来做了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:04]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后同样的又因为这个处理的结果的倒向，就是当市面上越来越多的叫非结构化的数据出现的时候。我们是希望把这些数据结构化，能去做分析整理搜索的时候，AI大模型也可以在从中起到非常重要的作用。就是逻辑上来讲，数据分析相关的公司其实都在做类似的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:23]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-一方面是帮所有人更轻松的写circle，其实当然这个也是可以想见，就是对每一位需要有数据查询需求的人都有帮助。我就从此不用再把需求提给bi部门帮我查对吧？就人人都变BI这是一方面。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:38]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-另一方面就是说企业的数据变多了之后，然后其实很难把百分之百的数据都利用起来，可能能利用5%就了不起了，然后现在有了AI我把5%提到8%，这个也很厉害。比如哪怕就是我现在问一问，在去年的这个时候，我们做了哪几个最关键的投放，得到了最好的销售。就这样的一个问题，其实在公司内部，我比较态度的回答了。对，要得到这个回答，你得等等一段时间，同时才能查出来。查出来之后大家还会有一些argue，就你去到底是这个你就是忘了这个还有一段数据到底藏在飞书上还是藏在哪里的对，但这个就是企业积累的数据，能够用起来不容易。所以我自己认为我是蛮看好的。就在过去本来这就是一个有很大的市场体量的一个市场，然后现在用AI把它的更多的效能给发挥出来，所以做这个的也不少。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:35]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后下一个就是前十大最后的任务，就做安全的。安全依然还是很多内容，我没有看到那么多，但是还是硬分的话，可以分几类。第一就是传统的安全相关的工作有了效率提升的可能性。比如传统我们作为代码安全漏洞的追踪，安全警报，很多事情是要靠安全工程师人肉来做的，或者用代码来解决一定的效率。但今天AI可以帮你把这个效率提升，这是传统的安全。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:59]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-新的安全是什么？就是自然语言的交互界面给了软件新的安全的课题。对，就是你所有东西都是通过对话的那理论上说所有的用户的内容就要跟你的数据之间产生沟通跟对接。就是有了新的叫注入的问题。对原来安全领域注入是一个很大的分类，就是任何能够用户输入的地方，理论上说都是有安全漏洞的可能性的。那今天当你所有的交互都变成输入的时候，你的注入这件事情就被提到了一个非常高的高度上。就好几家公司举那个案例，雪佛兰汽车那个案例。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:39:32]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-他就是客户承诺一美元把汽车卖给卖卖给一个顾客。然后最后这个还搞到加拿大的法庭上面，当然最后庭外和解，这个是一个典型的标志性的一个案件，就代表着今天AI的安全必须要引起重视，要不然就会出现无数的像AI客服承诺一美元卖车的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:39:54]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后同样又因为AI形成内容，跟传统的我们对内容审核之间的博弈也出现了新的挑战。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-没错，AI会生成啥，你其实不是很容易控制。其实过去我们输出给用户看的东西，都是经过人最后一道把关的。现在是变成AI在直接生成，直接涌现。那到底怎样才能不要让他出现这个错误的承诺，或者出现有违道德风险和政治风险的一些输出，这个也是今天一个比较大的课题，也有很多公司专门做这个事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:26]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后至此前十个新闻类目，大概208个项目就差不多列完，可能占了80%的点，我觉得差不多够了。后面小的分类我就没有太详细的列了，但我会找一些比较印象深刻的。就比如第一个做那个，其实我们整个这些数据中的第二个还是第三个项目就是非常早期的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:45]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-因为我们是用自我排序，它是A开头叫。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:48]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-F他是做太阳能的AI的系统的集成跟这个推荐。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:52]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，这个印象超级深刻，就是给太阳能施工队用的一个SaaS。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:57]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个就太阳板酷家乐，这个按我的理解就是这样，就是印象非常深。就是他找的切入点，实现的方式跟整个商业的闭环非常的清楚。然后第二个是那个draft，就做那个CAD图的生成的。它相当于在三弟素材这个已经其实有点卷的领域再往前迈了一步。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:16]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-他是不是说帮你把CAD做好之后再生成2D的图纸的那个的反正就放在。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-你CAD的整个的文件里都可以去做。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:23]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这其实有一点像是工程师写完代码之后还要写文档，就是3D的设计师就好不容易把这个三弟的打印出来的。然后现在老板说赶紧今天晚上我们要把这个2D的平面文档施工图给弄出来。这个就现场崩溃。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:38]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以他做的是这个事情。对。然后最后一个我有印象深刻是做那个在线教育，给那个学生做的那个是记录，然后有AI的整理，文件包括跟导师的沟通，AI的导师跟人类的导师都可以。然后你的schedule，你的列表，所有这些东西就是大学是一体的，这个教育领域的这个。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:58]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-就是shared.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:01]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后还有一些我在标注的时候就有一些有大爱的地方。商业化角度来看确实你很难理解，但是人家这个创始人可能真的有大爱。第一个就是做那个开源项目捐助的那个就是你可以看到中小的各种各样的开源项目的介绍，然后你可以选择其中做做这个捐助跟帮帮他，让他实现的更好。然后这些开源项目的持有方可以把他们代码嵌到他们开源项目介绍里，让他实现整个的流程的跑通。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:33]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我觉得YC头是不是也是为了在开源社区创造影响力？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:35]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-有可能对吧？然后第二个是做妊娠期监护的女性监护的那个deal。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:40]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，我倒觉得他一方面有大碍，另一方面有可能真的离钱也蛮近的。是是是，他真的在帮你在怀孕期间解决你的健康的隐患，用AI随时来去问候你跟踪你，观察你，就防止一些意外的情况发生。对，然后最后一个。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:00]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-是跟你名字很像的，那个有开源版的ChatGPT.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:03]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-可几它这个都不知道怎么念，可能是一个很小的语言的一个单词KHOG。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:10]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-他就是把开源模型改成了GPT的版本，并且离支持离线部署。他希望让那些连网络环境都没有的人的地方，能够使用上新时代AI的能力。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:21]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这其实技术挑战蛮大的，是on device的一个你可以叫它大模型，但是它一定是一个非常精简的一个模型。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:33]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后我又记了一些，这上面是一些我有印象深刻的D然后又又写了一些黑话，有印象的关键词就是黑化的第一个关键词就是端到端。你会在很多很多项目。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:45]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-都在讲端到端的NN，这个是什么时候开始的一个词？现在铺天盖地都是端到端。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:50]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-其实之前应该也有，但是你会发现在这一波的AI相关的公司里面，更加去强调这件事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:56]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-其实这个词并不是很友好起来，它是不是有别的表达方式可以更加友好？大家用它只是感觉它很高级。N2N对，就是简单，就是全流程服务。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:06]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，就直接交付你完整的东西。对你不需要关心中间是怎么实现的，尤其是不是在这些项目当中，尤其是对于用户而言，不需要关心AI在中间产生了什么作用。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:15]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-但我们过去买sas软件，也不需要知道sas软件中间这个对工程师是怎么写代码的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-用户本身来讲，付你的钱是为你的服务。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:24]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，为结果付钱。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:25]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-就是你最好你可以提供好结果，我就为这个结果省钱付钱了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:29]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-尤其刚才我们提到benching mark的GP sara，他提到的那个观点。就今天大家很多时候在做SARS或者在卖SARS的时候，卖的并不是一个subscribe，就卖的不是一个软件的subscription。大家希望卖的时候直接是一个结果，因为它取代或对标的是过去的这种外包工作者。那在这个背景之下，你本来就应该提供的是端到端的结果。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:51]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，然后第二个那些关键词就是很多时间的描述，什么十倍、五分钟、15分钟、99%。然后那其实也好理解，就是在这一波AI的浪潮当中，所有人都在提说降本增效。那你就到底看能降多少本能提高多少的效率，对吧？那在故事很难讲的情况下，数字永远都是最直接跟冲击力最强的对有利方式。最近发现在很多这个项目的官网都会用类似的描述。然后再一个其他的感受，在我的过程中也经常会提。就是很多这样的软件生态的图会在无数的项目的对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:26]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-官网上出现，很让人羡慕，就真的非常的羡慕。做的这个SaaS，它可以连接这些软件，然后一看一个一堆logo墙，而且每个logo墙背后都代表着一个很有价值的一个business，对吧？其实就意味着生态的繁荣，生态的繁荣就意味着从业者们的繁荣。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:45]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后再一个就是可能是我做这个相关的PPT的这个习惯，会在最后几页放一些暴论。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:51]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-就是现在是不是这个坊间都叫你暴论哥你们。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:55]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后第一个抱怨就是从人的角度来看，就是绝大部分的创始人其实都是双引号路径依赖的。但是我觉得这个录音依赖是某种来说是正确的。就是之前大家提到录音带往往都是贬义词。但是我们看到这么多YC项目，可能绝大部分这些项目的起始的出发点跟所谓用这个创始人的初心，绝大部分都是基于他原来的。比如工作的背景经验，人脉的关系的积累导致的。当然你可以说这是YC或者大部分早期投资者的倾向和偏好。但是确实今天你会发现有那种异想天开的，所谓从零开始改变世界的，这个就越来越难了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:46:32]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-是很现实的问题。就像当年张一鸣做九九房，他其实没有任何房地产经验，对吧？但是我们今天看到这里面所有做，包括我们刚才说那个太阳能的AI那个founder，他过去就是太阳能施工队的队长，但他学历很高。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:46:45]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以都是这样的。然后第二是正确分化的背后，这可能是回到我们最开始去聊这个事情的时候，我们回看所有整理出来的内容，包括今天这个PPT，其实有很多的内容都是正确的。废话。你会在过去一段时间的各种样媒体文章分析报告。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:01]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我们都会看到，就是不做这一期，我会也大概知道这些正确的废话，也可以给他哔哔哔。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:06]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-就是讲1个小时。对对对，甚至不需要再做整理，也能写出一些观点。是，但有些整理我反正从我个人的就是你会知道再往下一步的执行细节，就是就算出去再跟别人去吹牛逼，你也会吹的更干一点。这个可能就是最直接的一个体现。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:20]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-就是你知道结论和知道过程，这是还是两个不同的价值。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:25]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后第三一点就是最大的体验感受是to c方向，真的可能要看国内的创业者，就相对于to b领域整个繁荣，to c是少的可怜的。真的只能指望国内这个成熟经验的创始人。但是国内的监管环境又你看昨天晚上刚有一条新闻是写的AI陪伴央视报道的，是说当然他请了一些专家，那专家的口吻就相当于可能某些地方是违法，就是这个定义下的很很一刀切对吧？但是没办法，就是对在国内环境大家都知道。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:52]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-然后最后一张AI陪伴是黄色，是黄，但今天也有一些文章在讲，其实就是因为他没有指名道姓，其实没指名道姓反而很危险，就是一一棒子打死一个行业的对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:04]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-有可能。对，然后最后一个这个暴论，然后就赶上这个时间，叫我叫窗口期。窗口期真的非常重要，就研发出来最后一页PPT。这个我们做上一次整理是5月13号，然后今天是五月多少号？20号5月20号。然后这份我们做PPT的就是上周的工作日，5月14号到5月17号，上周跌宕起伏。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:27]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后你看很简单，你看上一周，比如周末这几天，各家科技媒体的头条基本都是过去。这一周又是一个AI大模型领域的疯狂。是的，就是5月14号，我晚上GPT的4O的发布，然后隔一天雇IO对，然后5月15号中国的字节豆包第一次公开发表，然后5月17号腾讯会员的大模型的发布会，然后17号晚上公司我又演示了一些新的功能。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:55]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，发了一篇blog，云淡风轻。但我们看完之后觉得又有一些创业公司被淹没，就是对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:49:01]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-悄悄的来就淹没掉。你讲我们正好是5月13号录完，录完到第二天，然后我们就看到了国有4O的很多内容。然后你们也感觉你的认知理解就要变化，没错。所以就那个硅星人上一周发了一篇文章，就是赛罗奥特曼4月17号写的，说目前两种构建人工智能的策略。一种是假设现有模型不会改进，然后做一些小东西。另一种是假设ONI会保持相同的增长轨迹，疯狂迭代。Sam说我认为95%的人应该压在第二种策略上。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:49:34]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，其实去年他不止一次讲这个观点，还有一次他也是非常就建议大家不要雕花。然后建议创业者今天在选项目的时候，假设就是已经有AGI了，就是你在这样的一个假设之下，你可以做什么？所以其实这个事儿当时他虽然引起了一些关注，但是好像很多人还是不信邪。对，就是做了一些项目就很显然是被淹没掉的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:00]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以你会发现我们纵观这一周，无论是国内国外这些大牌厂商的发布会。他们的功能的改进，价格的降低，然后对很多场景新的拓展，交互方式的提升，淹没了确实一批我们看到的这个项目就很现实。非常现实。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:18]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以这是一个巨变的时代，太久了，这就是一种太巧了。对所以说聚变的时代它风险很大，但是可能机会也很多。所以之前其实会有很多，比如说京剧在讲说这个在巨变的时代才能产生巨大的英雄。但是巨大的英雄他需要巨大的勇气去去逐浪，对吧？就过去这个体感就远没有在今天强。就很可能你花一年就一行代码build出来的一个项目，你可能一觉醒来就给你拍死。但是如果你没有这样的勇气决心，你可能也build不出东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:53]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-是的，所以窗口期很重要，不是说不能做，是你要知道这个窗口期的长短，以及倒推出来你所有的策略。所以这就是我们今天关于这个事情的完整的一些整理跟梳理，希望跟对大家能够有一些帮助。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:51:12]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-也祝福听我们节目的创业者们能够顺顺利利。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:51:16]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-好。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:51:17]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-就这样。好，谢谢大家，谢谢。
-</p>]]></content:encoded>
-            <pubDate>Sun, 26 May 2024 23:00:00 GMT</pubDate>
-            <guid>664f5b60c59d1e57573fa1fe</guid>
         </item>
     </channel>
 </rss>

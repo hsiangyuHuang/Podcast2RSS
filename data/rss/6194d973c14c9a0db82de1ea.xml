@@ -4,7 +4,361 @@
         <title>代码之外 Beyond Code</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6194d973c14c9a0db82de1ea</link>
         <description>程序员闲聊播客</description>
-        <lastBuildDate>Wed, 22 Jan 2025 17:01:40 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 12 Feb 2025 17:44:41 +0800</lastBuildDate>
+        <item>
+            <title>听众来信 #17 大厂生涯｜嫉妒？又怕兄弟苦又怕兄弟开路虎</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/67ac08e42faa72d7a8fc6807</link>
+            <description>两封听众来信，先是一封类似分享信，接下来是一封关于相对剥夺感的问题。
+-----
+来自 弗兰克：「有一个很奇怪的心理现象，pony ma年薪上亿我内心毫无波澜，或者楼上另外一个公司的某某年薪很高我也处之泰然。但是很近的同事，通过一些蛛丝马迹发现他工资比我高，会给我带来很强烈的负面情绪。
+这点很困扰我，虽然我能理性分析，这可以是佛学的贪嗔痴，也是一种叫做“相对剥夺”的心理现象。不知道大家是怎么想这个问题的，或者成功做到不被这个所困扰。」
+来自 Klay：「Hello，Randy 与 GeekPlux！
+之前工作时经常收听你们的栏目，很有意思、收获很多。今天刚好离职，打算离开北京去另外一个城市生活，分享下我的工作经历，也算一份回忆。
+我 22 年毕业加入了字节跳动，当时面试了很多公司，包括大公司、小公司，但只有字节跳动给了 Offer，就来到了这里。我不像 Randy 接触编程那么早，我是从研究生时才开始认真学习编程，大学时虽然也是计算机专业，但沉迷网吧，读了研究生后开始对编程感兴趣、疯狂学习，感觉那时的自己技术水平还比较一般，所以蛮感谢字节跳动给了我第一份工作。
+从我自己的角度看，感觉字节跳动培养新人的方式，有点像老鹰教小鹰飞翔，老鹰会直接把小鹰推下悬崖，能不能飞起来就看自己了，哈哈。
+在我入职后的第二个星期，就要开始独立负责一个项目在服务端从 0 到 1 的建设，包括技术设计、开发、测试及上线等，当然这个项目不是很高优，也许我搞砸了也没有太大影响。
+在我入职一年左右的时候，就要独立负责一个面向整个公司的平台、及一个比赛活动在服务端及运维方面的工作，那段时间我压力很大，感觉就是舞台已经搭好，各方面的宣传也已到位，如果我搞砸了，应该就走人了吧，还好整个过程比较顺利，中间出了些小问题，但没什么影响。
+我工作时间不长，只有两年，但这两年收获很多，最重要的经验可能是保持谨慎及敬畏生产环境，在发布功能前，要充分测试、认真检查 Commit、列好检查清单、想好预案，发布后持续观察监控指标等。
+我的分享就是上述这些，祝代码之外栏目越办越好！」
+本期主播：Randy, GeekPlux, 勾股
+---
+代码之外 Beyond Code 是一档由 GeekPlux 和 Randy 共同主持的程序员闲聊播客节目。节目地址：bento.me 我们的节目同时会发布视频版，在 YouTube 和 Bilibili 搜索「代码之外」都能找到我们。
+欢迎在 forms.office.com 向我们来信，我们会在下一期节目分享你的来信或解答你的疑惑。
+也欢迎在爱发电 afdian.net 赞助我们。也欢迎赞助商联系我们商业合作。
+---
+金牌赞助商 / Golden Sponsor
+PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在这里买到程序员贴纸和项链。我们每售出一张开源项目贴纸，会为该项目捐赠 1 元人民币。
+* 官方淘宝店：pdlft.taobao.com
+赞助商 / Sponsor
+* Notepal 一键同步微信读书笔记到 Notion, Readwise, Logseq, 思源笔记等笔记软件
+* EpubKit 把网页、博客、文档一键生成 ePub 电子书
+---</description>
+            <content:encoded><![CDATA[<h1>转写链接</h1>
+<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/r28pn7e2v8rjq5mz</link><br>
+<h1>节目文稿</h1>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:00]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+欢迎收听新一期的听众来信栏目。我是Randy.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:04]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我是geek plus.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:05]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我是狗狗。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:11]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后下一封来信也是一个感谢信，感觉是hello，Randy与quickly plus。之前工作时经常收听你们的栏目，很有意思，收获很多。今天刚好离职，打算离开北京去另一个城市生活，分享一下我的工作经历，也算是一份回忆。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:30]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我22年毕业加入字节跳动，当时面试了很多公司，包括大公司、小公司，但只有字节跳动给了offer，就来到了这里。我不像Randy接触编程那么早，我是从研究生时才开始认真学习编程，大学时虽然也是计算机专业，但沉迷网吧。读了研究生后开始对编程感兴趣，疯狂学习，感觉那时的自己技术水平还比较一般。所以蛮感谢字节的跳动给了我第一份工作。从我自己的角度看，感觉字节跳动培养新人的方式有点像老鹰教小鹰飞翔，老鹰会直接把小鹰推下悬崖，能不能飞起来就看自己了。在我入职后的第二个星期日，就要开始独立负责一个项目，从服务端在服务端从0到1的建设，包括技术设计、开发、测试与上线。当然这个项目不是很高优，什么是高优高优先。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:28]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+高优先级也许我。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:30]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+搞砸了也没有太大影响。在我入职一年左右的时候，就要负责独立负责一个面向整个公司的平台，以及一个比赛活动在服务端及运维方面的工作。那段时间我压力很大，感觉就是舞台已经搭好，各方面的宣传也已到位，如果我搞砸了，应该就走人了吧。还好整个过程比较顺利，中间出了一些小问题，但没什么影响。我工作时间不长，只有两年，但这两年收获很多，最重要的经验可能是保持谨慎及敬畏生产环境。在发布功能前，要充分测试，认真检查commit，列好检查清单，想好预案，发布后持续观察监控指标等。我的分享就是上述这些，祝代码之外越办越好啊。其实读的时候也蛮有感想的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:21]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得我读下来，我觉得这位朋友，我总结两个字，我个人感觉比较他比较幸运，就是他他的这个经历是很幸运的。我说的幸运不是说他他就光是因为幸运，我我我是我是说我是说他比如说他一开始进行字节就可以独立的负责一个服务端从0到1的项目，这个是个很很需要运气的事情。因为你知道我们在大厂里面基本上都是你进去我啥都有。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:01]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+你就是写你好一点的，你就可以写写些什么plug in middle school，middle are什么的之类的东西。还差一点，就是你进去你只能写写些杂七杂就行。对，所以其实是一个很很幸运的朋友啊，很难得。然后他说的这个保持谨慎及敬畏生产环境，这也是我觉得进了大公司之后比较就如果不进大公司是体验不到这样的感觉的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:35]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我认同。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我记得好像很多期之前也聊过这个话题。就是我在蚂蚁的时候，蚂蚁有三板斧，而且蚂蚁是一个跟金融相关的业务，所以他上线发布特别谨慎。我只有在那种环境下面才能体会到这种敬畏用户，敬畏生产环境。充分测试，认真检查这种这种观念一直会带到我的以后的这些之后的工作的环境下面，这是一个很好的事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:10]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我也看过一本书，就是好像是就是software engineering I google。那本书他有提到一个观点，我记到现在就是说programing就是说把代码写对，让他今天他他说的很清楚，就是program就是让他今天工作，然后engineer也是让他一直工作。对，这两个目标其实后面有很多很多差别。对对对，你让他今天工作写代码，工作了就工作了。如果你想让他一直工作或者长期工作，你要做的事情就远不止这些。对我觉得道理是类似。所以有这个机会感受到或者说在这个环境下觉得确实会有很多收获和和成长。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:51]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我觉得redy主要想说的是机会比较幸运，但其实他还蛮优秀的对呀对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:58]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+他他也说了，他读完研究生之后对编程感兴趣，然后疯狂学习。你看这疯狂学习，这不是很多人能做到的对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:05]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我也不像rady编程那么早没用。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:08]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+编程咋没用的？真的，你看这位研究生才开始编程也有用。那直接就已经没有。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:14]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+必要妄自菲。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:16]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+就直接就那个了。我觉得其实也差不多，没没太大区别。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:24]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我觉得可能怎么说，对特定技术来说，可能经验不是有用，但是对整个软件工程的经验来说还是蛮有用。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:35]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+只能说能更多的时间能接触更广的东西。好像也没有什么特别。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:42]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+也祝他在这个新的城市可以有好的发展。对，因为他也应该现在已经发展的很好了，已经很好几个月过去了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:52]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+谢谢这位clay KLAY clay，谢谢你的分享，希望更多的听众可以跟我们分享这些喜悦。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:06]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对读起来非常开心。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:08]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对，很欣慰。好，这个问题来自弗兰克。问题是这样的，有一个很奇怪的心理现象，pony a年薪上亿，我内心毫无波澜，或者楼上另一个公司的某某年薪很高，我也处之泰然。但是最近的同事通过一些一些蛛丝马迹，发现他工资还比我高，给我带来会给我带来很强烈的负面情绪，这点很困惑我。虽然我能理性分析，这可以是佛学的贪贪嗔痴，贪嗔痴也是一种叫做相对剥夺的心理现象。不知道大家是怎么想这个问题的，或者成功做到不被这个所困惑。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:56]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个就是看到朋友赚钱比自己亏钱还难受。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:03]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+又怕兄弟苦。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:05]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+又怕怕兄弟开路开路。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:10]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+好问题好问题，这种心态大家有没有？有没有问问自己有没有？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:17]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对我我能我先说肯定是有。因为之前我在香港生活的时候，因为香港是一个相对容易看到上层生活的地方，就是你接触有钱人的概率会高一些，所以你就很很容易经常看到，他就是竟然那么有钱，有钱到超乎我的想象。当你遇到这种人的时候，你反而就是觉得完全没有感觉OK他就是那样富，对他富到他是他付到那样跟我有什么关系呢？对，但是反而比如说都不一定是就不一定是相近的人，反而是说好像你们之前轨迹差不多的人，如果这个稍微超出你一些，你会觉得很难受。确实有一点。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:10]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+就是比较容易共情，就是能够带入自己是吧？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:15]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，但其实我还好，我一般都是，怎么说，我之前我记得很早之前有句话，就是说当别人超出你当别人超过你一点的时候，你会嫉妒他。但是当别人超过你一大截的时候，你会羡慕他，你会佩服他。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:35]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+不是OKOK佩服。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:36]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，我觉得首先比较是不可避免的，这个是人类的一个不自觉也无法控制的心理。你可以尤其是跟身边的人不自觉的比较，这个太正常。然后我最近跟一个学心理的朋友坐下来聊天的时候，因为我我在咨询一个问题，也是关于关于介绍教育孩子。就是我可能会有的时候控制不住自己的情绪，或者说我会意识到这个竟然是我妈当年对我这样的方式，我现在又做出来了。其实这种时候出现的时候，我会觉得很懊恼，我会觉得很懊恼OK为什么我就是不讨我就我当年就是讨厌这样的教育方式，为什么我会不自觉的使出来？下意识里面我下意识的就是你会好像就像一个轮回一样再经历一遍。但是我当时跟朋友就是学心理学的朋友咨询的时候，他给我的回答是说，当你能觉察到这个的时候，其实就没什么问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:44]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+OK最重要的是很多人他是觉察不到的。就是他他妈妈可能教育他是一种PUA的方式，结果他教育他的孩子又是一种PUA的方式。比如说然后他自己是没有觉察的，他是无形之中就按他之前他不想经历那种方式，但是他又把这个不想经历的方式施加到了自己孩子身上，他是不能自查的。但是如果你能自查，那说明这个问题你已经意识到了。那既然他是不可避免的，你就不如随他去吧。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:15]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后你看从什么角度或者说什么方面能自我控制，然后提升你慢慢你因为你已经意识到了，所以你是能慢慢克制自己的，反而最恐怖的是意识不到的。所以这位同学他已经意识到了这种什么相对剥夺感，他已经意识到这个问题，那他就没什么问题，这种心理他都已经自查了，所以这就不算一个很负面的情绪OK。对，如果他都自查不了，他他就想到觉得我好气，为什么那个人赚的比我多，他都觉得这个不是一种负面，他就很愤怒，他自己都不觉得自己是一个很阴暗的想法。那那他没自查到就是问题，他只要自查了就没有问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:58]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我认同。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:59]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+有一本书叫做模仿欲望，它是一个法国的思想家跟一个美国的企业家和写的一本书，然后他这里面这本书叫模仿欲望，它里面写的就是什么叫模仿欲望。模仿欲望就是人们总是会以他人拥有的东西或者渴求的东西为目标，以此来设定自己对物质身份甚至人生道路的选择和欲望。OK，然后他这本书就是讲模人类的这种模仿的欲望是怎么去驱动或者说限制人类的发展。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+然后他在这本书里面聊了一些怎么样去识别出来自己是被这种模仿欲望给，就像刚刚给class所说的，有很多人能觉察出来自己在social media上面看到有一些怎么他天天坐游轮，怎么他天天吃大餐什么的。然后有一些人是觉察不到自己会被这一个东西给影响到，但是有一些人他能通过看到这个东西之后进一步的思考，把这个东西看作是它会影响我的这些。这我看到他之后的这些选择，是因为我看到了他，而不是我自己真正想要的东西。等他觉察到了这个东西之后，他就可以控制住他的这种模仿欲望。然后进一步的把这种欲望变成一个它里面书里面说的叫做这个叫什么欲望飞轮。就是把你的这种模仿的欲望转化成一种你进步的一种力量。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:44]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+OK这本书还。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:46]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+挺有意思的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:49]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以从理论上来说，他这个问题就没有问题，就是他他这个心理是非常正常的，然后他已经觉察到了也没有问题。关键是说可能他觉察到之后，他可能想改进。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:01]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对，就是如何不被困扰是吧？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:04]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，如何不被困扰，这个我觉得是不是多关注自身其实就已经很好。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:10]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我觉得我有一个经验，就是你可以尝试着寻求一些差异化，就是不要做那种直接的那种一对一的比较。你还是可以跟别人比较，但是你可以把这个比较转化成某种差异化的比较。我也举一个小孩子例子好了，你知道小孩子有的时候就会问，我们家小孩子就问他有那个什么什么为什么我不可以有，对吧？小孩子总会问这他他有这个玩具为什么我不可以有？我其实有教育我们家小孩，我有尝试引导他往这个方向。虽然他也不是每次我就说你不要你你你你以后不要再问我说为什么他有这个玩具，为什么我不可以有你以后我通常这种事情我是不会答应的，但是你如果跟我说他有这个，我可不可以有另换一个更好的，你给我，你只要给我想出一个更好的idea来，或者你想要一个更好的东西，我通常我会愿意鼓励你。这种差异化行为我通常会满足你，然后我会用这种方式去去去引导它。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:12]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+换句话讲就是说有的时候就是这种非常直接的，甚至这种量化的比较，有的时候是非常残酷的。你就尽量回避这种非常直接非常量化的比较，比如说赚多少钱什么之类的对吧？你把它变成一种差异化，比如说它举个什么样的例子呢？比如说它它可以升职，但是我我会活得更健康一点。比如说类似享受了跟家人在一起。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:44]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对对对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:44]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我有我有更好的workplace baLance等等之类的。这种情况下你往往不会把自己放在一个非常既残酷又直接，然后又让你很很无敌适从的那那那那的角度。我觉得这是第一个。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:01]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+第二个就是说减少比较的次数。你technically就是理论上来讲，你减少比较次数。因为我一直有这样一个观点，就是自从互联网发展以来，人们相互比较的机会变得越来越多，越来越频繁。然后比较的结果是越来越难看。就是你懂我意思吗？就是因为你看。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:28]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+不知道自己有多差。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:29]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对对对，就是怎么讲，你看现在在instagram high tiktok很多地方在在讨论这种什么所谓的减少，如何避免容貌焦虑，甚至有些要讨论就是要限制美颜什么之类。这些滤镜的打开，就是因为说你看到那些，因为那些流量大？网红基本都是那种你看上去非常不真实，这就是非常优秀，哪里都好这种这样的人。你平时在有互联网之前，你周围你是比较不到自给你这么大冲击力跟打击的人的。你自己要知道这一点就是今天大家很多人因为技术的进步，科技的发展变得越来越不开心。所谓的不开心是因为你有机会跟那些离你本来就离你十万八千里的，甚至还带有一定的伪装和包装的人，给你带来这种巨大的冲击感，让你变得不开心。我我意识我自从意识到这一点之后，我看到那些网上那些尤其是那种特别抓眼球的新闻，基本都是个例了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:32]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+像我们前面那个问题说的什么30岁退休了，你看眼红不眼红？当然眼红了，但有多少人30岁退休呢？你如果只盯着那个人看你就会不开心，对不对？但是你如果你你看一个比如说什么什么统计结果，比如说大家你你通常我发现你通常看那种什么统计数据，什么调查数据，通常都是给你都是那种治愈系的数据，对不对？没有让你不高新的数据通常都是治愈系的数据。比如说大家都是什么，比如说就是说退休年龄收入中位数。对对对，你看那个东西你其实对，你你你再看到以前。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:12]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我们站着说话不腰疼。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:14]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我们程序员对被刺激到的那些点，你就立刻心态就平了。所以对我觉得这两点，第一点你尽量可以讨论一些差异化的东西。第二点就是你要知道今天你被拿来比较的机会和被刺激到的程度是远远比以前高的。所以你要知道这一点，它本身就是个客观事实。所以也许知道这个之后，你的那个心态会好一点。对，这是我的感受。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:41]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+而且面对这种能算妒忌吗？妒忌这个词有点重，但是它某种程度上是一种妒忌。面对这种羡慕或者妒忌的一个方法是。你想象如果你的所有的东西跟他所有的东西交换，你愿不愿意，对吧？你就会发现多大多数情况下你是不愿意的。这个时候你就不会那么羡慕他，不会那么嫉妒他。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:11]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+当然有的时候这个也是就像刚才说的被包装的，他把那些对你不愿意交换的东西藏起来了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:18]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+有的时候就会让你对，你只是看不到。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:20]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对，只是看不到。对对对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:22]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+这个就是所有之前经常说家庭生活，每个家庭其实都是一地鸡毛，展现出来都是。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:29]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+家家有本难念的经。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:31]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+比如说很多人说，我好羡慕Randy就不用工作什么的，那你愿意跟我交换吗？我现在每个月赚一两千块钱，对吧？你愿意跟我交换吗？你不是说只跟我交换，我不用工作这个好事，你要所有的东西都跟我交换，你好的东西，你不好的东西跟我好的东西跟我不好的东西，我不好的东西也要给你的。这样一想就觉得自己也挺好的对吧？对对吧？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:19:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+你看给plus跟我换，对吧，那gay plus都肯定不愿意，对吧？可能给plus肯定觉得说Randy真好，真这么自由，那么我还有个孩子对吧？但是你想想看，你愿意用孩子跟你用愿意用你的孩子跟我的自由换吗？你肯定不愿意。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:19:23]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对吧？这个确实是。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:19:26]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+好，以上就是本期节目的全部内容，欢迎给我们点赞、转发和评论。想订阅我们的节目请在小宇宙、苹果播客、哔哩哔哩和youtube搜索代码之外，也欢迎您在爱发电或以上任意平台给我们打赏。想提供任何素材或话题，欢迎通过show note中的听众来信链接给我们提问，我们下期节目不见不散。
+</p>]]></content:encoded>
+            <pubDate>Wed, 12 Feb 2025 02:41:23 GMT</pubDate>
+            <guid>67ac08e42faa72d7a8fc6807</guid>
+        </item>
         <item>
             <title>第 13 集 | 2024 年终总结</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6773c9dd15a5fd520e095904</link>
@@ -32654,1228 +33008,6 @@ fix他当时他那样拍一下，应该就是算是算是大概就是算算是�
 </p>]]></content:encoded>
             <pubDate>Mon, 21 Aug 2023 05:23:39 GMT</pubDate>
             <guid>64e2f4db3fa4090b74d2839f</guid>
-        </item>
-        <item>
-            <title>第 5 集 | 郭宇谈财富、投资起源于地铁站门口开户、工作太累开始变成「酒店玩家」、财富带来的苦恼是面对不确定性</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/64d9e9fd80c9ec4c5f394813</link>
-            <description>这一集我们邀请到「财富自由」的程序员郭宇，来谈谈他对财富的理解，以及理财这件事。
-代码之外 Beyond Code 是一档由 GeekPlux 和 Randy 共同主持的程序员闲聊播客节目。节目地址：bento.me 我们的节目同时会发布视频版，在 YouTube 和 Bilibili 搜索「代码之外 Beyond Code」都能找到我们。
-如果你也有什么想分享给我们或问题，欢迎在 forms.office.com 向我们来信，我们会在下一期节目分享你的来信或解答你的疑惑。
-也欢迎在爱发电 afdian.net 赞助我们。
-金牌赞助商 / Golden Sponsor
-PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在这里买到程序员贴纸和项链。我们每售出一张开源项目贴纸，会为该项目捐赠 1 元人民币。
-* 官方淘宝店：pdlft.taobao.com
-赞助商 / Sponsor
-* Notepal 一键同步微信读书笔记到 Notion, Readwise, Logseq, 思源笔记等笔记软件
-* EpubKit 把网页、博客、文档一键生成 ePub 电子书
-0:15 从程序员一路走来
-10:04 「多说」被「今日头条」收购
-14:58 酒店玩家
-19:12 28 岁决定退休
-25:11 如何决定走哪一条路
-30:03 什么时候开始做投资
-34:57 什么时候开始投资多元化
-36:10 给新手的理财建议
-42:43 如何学习理财
-45:48 突然拥有一大笔财富后，心态的变化
-56:08 在日本的新生活</description>
-            <content:encoded><![CDATA[<h1>转写链接</h1>
-<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/2yjoqzbmevb8q68l</link><br>
-<h1>节目摘要</h1>
-<div class="summary">本期《代码之外》第五集深入探讨了财富自由的概念及其对个人生活方式的深远影响。通过分享个人经历，一位嘉宾揭示了财富如何改变他的生活选择和价值观念，强调了实现生活方式和价值观自由的重要性。财富自由不仅意味着财务上的自给自足，还涉及如何管理财富、投资以及将对科技的理解转化为商业应用。此外，还讨论了个人投资策略，鼓励听众积极学习以实现财务目标。整个对话围绕如何在拥有财富后选择合适的生活方式和个人成长进行了深刻反思，为听众提供了宝贵的经验分享。</div><br>
-<h1>章节速览</h1>
-<div class="chapters">
-<div class="chapter-item">
-<span class="time"><strong>[00:00:00]</strong> </span>
-<span class="chapter-title"><strong>郭宇谈财富自由与程序员生涯</strong></span>
-<div class="chapter-summary">本期节目，Randy邀请了郭宇分享他对财富自由的理解以及从程序员到实现财富自由的历程。郭宇曾发表文章分享自己在28岁实现退休，引起了广泛关注。他讨论了财富自由对他的意义，以及他作为程序员期间的经历，包括在支付宝的实习和参与开源项目。此外，郭宇还提及了自己身份的转变，从一个普通程序员到不为大企业打工，成立了自己的公司，依旧热爱编程。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:02:00]</strong> </span>
-<span class="chapter-title"><strong>从2008到2018：中国互联网的黄金十年</strong></span>
-<div class="chapter-summary">对话者分享了自己从2008年大学生活开始，见证了中国互联网，尤其是移动互联网的快速发展。他提到了北京奥运会、iPhone的普及程度、以及自己学习编程和在支付宝工作的经历。他还讲述了自己如何从一个非计算机专业的学生转变为一个技术工作者，并见证了技术的快速发展和变化。同时，他也提到了许多知名企业的成长历程，以及中国互联网行业从初级阶段到成熟的转变。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:06:33]</strong> </span>
-<span class="chapter-title"><strong>从阿里巴巴到创业公司：一个前端工程师的职业旅程</strong></span>
-<div class="chapter-summary">对话内容讲述了一个人从在阿里巴巴工作，感受到生活过于安逸而选择离职，转而加入北京的一家创业公司，并最终见证了该公司被字节跳动收购的经历。在阿里巴巴工作期间，生活较为悠闲，与杭州的创业氛围不符，促使他前往北京寻求更多的挑战和机遇。加入创业公司后，经历了大小周工作制和长时间加班，但这也成为了他人生中最长的一段工作经历。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:09:35]</strong> </span>
-<span class="chapter-title"><strong>字节跳动早期员工对AI驱动文化的观察与反思</strong></span>
-<div class="chapter-summary">在字节跳动早期，公司只有两百多名员工，其中约三分之一是工程师，这些工程师大多非常优秀。公司被收购时，其AI驱动的企业文化、产品决策和实验方法与传统公司大不相同，特别是在AI技术的应用上，比如推荐算法的使用和调整，展现了未来互联网产品的巨大潜力。通过与推荐系统工程师的交流，发现他们对代码实际运作的不了解，这在当时看来是新颖的，但如今已成为常态。字节跳动及其旗下产品，如抖音和今日头条，是全球最早尝试AI技术的公司之一，这些尝试正在塑造新的技术现实。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:13:59]</strong> </span>
-<span class="chapter-title"><strong>国科技公司产品开发经历分享</strong></span>
-<div class="chapter-summary">对话内容涉及一家国科技公司的产品开发经历，特别提到了一个名为百万英雄的项目，这是一个在线问答游戏，用户通过回答问题一起闯关赢取奖金。该项目在两周内由整个团队三班倒共同开发完成，并成功赞助了春节联欢晚会。此外，还讲述了团队成员因为工作压力巨大，常常需要在酒店休息，从而导致了外人对他们潇洒生活的误解。最后，提到了在北京的高压生活下，即使是最有钱的人也可能过着生活质量较差的生活。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:15:52]</strong> </span>
-<span class="chapter-title"><strong>利用常旅客计划优化旅行预算与体验</strong></span>
-<div class="chapter-summary">从2013年开始，一位技术顾问对常旅客领域表现出极大兴趣，通过为相关APP编写代码并担任技术顾问，深入研究了常旅客行业。在此过程中，他认识了行业内许多资深玩家，并对利用常旅客计划优化旅行预算和体验产生了浓厚的兴趣。他每年制定旅行预算，并在双十一期间购买下一年的所有机票，以此来确保能够以最低成本享受高质量的旅行。此外，他也提到了旅行对于缓解工作压力、调整心理状态的重要性。通过探索各种loyalty program以及它们之间的积分兑换，他成功地为自己的旅行预算做了有效控制，展现了他对旅行计划和预算管理的深度理解和实践经验。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:19:05]</strong> </span>
-<span class="chapter-title"><strong>抖音国际化与个人职业规划转变</strong></span>
-<div class="chapter-summary">从2017年开始，由于抖音的发布和迅速国际化，使得个人对未来的财富和生活规划有了重新的思考。考虑到家庭变故和个人对未来的不确定性，以及对可能获得的财富的思考，决定离职并寻找新的生活方向。尽管面临中美关系紧张、全球疫情等外部环境的挑战，个人生活和职业规划仍然按计划进行，最终选择在日本稳定生活。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:25:07]</strong> </span>
-<span class="chapter-title"><strong>回顾职业生涯中的关键决策</strong></span>
-<div class="chapter-summary">发言者回顾了职业生涯中的几个关键决策点，特别是离开支付宝前往北京的决定对其影响最大。虽然在支付宝工作期间生活优越，很多人早早实现了购房和家庭稳定，但为了追求更大的挑战和机遇，选择离开舒适区前往北京。这个决定对于个人职业发展具有重大影响，显示了对冒险和新机遇的渴望。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:28:58]</strong> </span>
-<span class="chapter-title"><strong>追求不稳定生活与承担风险的价值观</strong></span>
-<div class="chapter-summary">在杭州拥有阿里工作的舒适生活被视为完美人生，但有人选择放弃稳定，追求不稳定的生活，希望通过承担更大风险来获得更大的收益。这种决策背后是对财富机遇和技术热情的追逐，但更深层的，是对不稳定性本身的追求，相信只有通过承担风险，才能实现更大成就。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:29:59]</strong> </span>
-<span class="chapter-title"><strong>从杭州到深圳：一位投资新手的开始</strong></span>
-<div class="chapter-summary">对话者在2013年从杭州回到深圳工作，最初对投资一无所知。在深圳，他因周围人都在谈论买腾讯股票而感到好奇，于是决定开户投资港股。他选择定投策略，主要是因为不知道如何更好地处理自己的闲钱，并且发现将钱转移到国外较为麻烦。起初，他并没有深入研究理财，只是简单地每月将钱投入股市。随着时间的推移，对话者开始对理财产生兴趣，并希望能更深入地了解和研究。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:31:26]</strong> </span>
-<span class="chapter-title"><strong>从港股到美股：一位投资人的财富自由之路</strong></span>
-<div class="chapter-summary">一位投资人分享了自2013年以来的投资历程，最初在港股投资腾讯，后于2018年左右转向美股市场。在港股期间，腾讯股票的大幅增值为其财富积累做出了重要贡献。随后，由于寻求更高的生活质量，他决定将持有的腾讯股票转换为美股投资，利用2020-2021年疫情期间美股的上涨趋势，实现了财富的显著增长。此外，他还持有字节跳动的股票，进一步增加了他的财富。通过精心的投资策略和对财富自由的个人定义，他成功达到了自己的财务目标，展现了他对财富积累和生活方式的深刻理解。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:34:56]</strong> </span>
-<span class="chapter-title"><strong>理财建议与投资心得分享</strong></span>
-<div class="chapter-summary">讨论了个人投资策略的转变，从单一的股票投资扩展到包括房产在内的多元投资组合。强调了在日本投资房产以获得稳定现金流的重要性，并分享了对于程序员如何管理财富的建议，包括了解股市知识、保持投资组合的多元化以降低风险，以及根据个人生活阶段调整投资策略。特别提到了面对职业变动和家庭责任时，应采取更为保守的投资策略。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:38:10]</strong> </span>
-<span class="chapter-title"><strong>投资组合配置及风险管理学习</strong></span>
-<div class="chapter-summary">讨论了投资组合配置的复杂性，强调了必须亲自动手操作的重要性。提到了开户、入金、选择股票等基础步骤，以及根据个人风险偏好调整投资策略的必要性。对于喜欢追逐市场热点的投资者，建议学习衍生品。强调了金融市场与编程不同，具有不确定性，需要通过实践和学习来把握市场机会。还提到了对于不同投资目标的建议，如长期稳定收益可选择指数基金。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:42:39]</strong> </span>
-<span class="chapter-title"><strong>加密货币领域的投资学习与心态转变</strong></span>
-<div class="chapter-summary">在加密货币领域，许多投资者对于市场的风险缺乏理解，直接参与高风险的衍生品交易。对于希望学习如何在该领域进行投资的个人，首先建议开设券商账户以获取相关课程和教材，学习包括衍生品在内的各种交易工具。投资者应根据自身的资金量和对风险的承受能力，选择合适的投资策略。此外，随着财富的增加，投资者需要考虑如何合理配置资产，以实现财富的保值增值。对话还提及，面对突然增加的财富，人们可能会感到焦虑和抑郁，因为需要考虑如何使用这笔财富以确保未来的生活。财富的不同量级会带来不同的烦恼，需要根据个人情况做出合适的决策。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:48:00]</strong> </span>
-<span class="chapter-title"><strong>追求财富自由的不同路径与生活方式选择</strong></span>
-<div class="chapter-summary">对话中讨论了人们对于幸福和财富自由的不同定义，强调了从支出角度考虑目标比单纯追求收入更为实际。提到了FIRE运动在美国的流行，以及如何通过减少开支实现财富自由，如选择生活成本低的国家和地区。还提及了一些发达国家的年轻人选择简单生活，追求爱好而非财富积累的生活方式，同时也指出了中国社会对财富自由的不同看法和价值观，批评了社会上对于财富的过度追求和由此产生的焦虑。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:50:46]</strong> </span>
-<span class="chapter-title"><strong>探讨财富自由和FIRE生活理念</strong></span>
-<div class="chapter-summary">讨论了实现财富自由和FIRE（财务独立，提前退休）的重要性，强调首先要了解自己的年度支出，然后根据实际满意的生活水平，计算出达到财富自由所需的资金大约是年支出的8到10倍。通过投资低风险产品如美债，可以获得稳定的收益，从而维持生活。还提到了在不同国家和地区生活成本的差异，以及选择成本较低的地方生活，可以更容易实现财富自由和FIRE的目标。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:53:59]</strong> </span>
-<span class="chapter-title"><strong>郭宇对早期退休生活的反思与现状更新</strong></span>
-<div class="chapter-summary">回顾28岁时写的退休文章，郭宇发现自己的爱好如泡温泉等未变，但计划写书的初衷变化，仅写了几篇中篇小说，且因城市画报停刊失去了撰稿人的职业。他提及去年开始在日本经营一家公司，探索Web 3项目，并吸引了众多国内朋友加入，公司规模已达十人。对比过去，现在的他更为忙碌，试图在工作中寻找平衡，计划雇佣类似CEO角色的人来协助管理，以便自己能有更多时间。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:56:06]</strong> </span>
-<span class="chapter-title"><strong>退休生活与在日本的多地点居住体验</strong></span>
-<div class="chapter-summary">退休后的生活在最初的轻松阶段后逐渐稳定下来。在东京、宫古岛和长野的安云野之间交替居住，根据季节变化调整居住地以享受潜水、冲浪和滑雪等活动。因疫情管制取消，生活方式有所变化，增加了回上海探亲和海外度假的次数。计划重启旅行社，专注于温泉旅行和日本国内经典路线。目前从事的是一家在互联网产品，特别是Web 3和AI技术方面的公司，采取异步工作模式，团队由设计师、程序员、行政和商业拓展人员组成。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:58:47]</strong> </span>
-<span class="chapter-title"><strong>NFT会员卡和ERC20积分系统的创新应用</strong></span>
-<div class="chapter-summary">在当前的数字经济背景下，一个创新项目正在聚焦于开发NFT会员卡及其配套的ERC20积分系统。这个项目不仅将会员卡交易的加密电子小票放在区块链的第二层（L2）上，如senate和sn net，还进一步对这些电子小票中的内容进行定价，并将其销售给需要数据的企业。这个被称为“Dealie Ed Information Bank”的项目，灵感来源于OpenSea和对NFT数字产权的深刻理解。项目背后的思考在于，随着AI技术的发展和对个人数据敏感性的提高，个人数据的价值日益凸显，但这些数据的价值通常被科技公司所收割，而普通人并未从中获益。因此，该项目通过智能合约定义数字产权，为个人提供了一个将自己创造的数据作为商品进行买卖的平台，同时保证了所有参与者能够公平地分享收益。在日本，这种数据买卖模式已经是一个成熟的盈利模式，有着相关的法律支持，而在其他国家，这仍然是一个相对新兴且具有挑战性的领域。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[01:02:40]</strong> </span>
-<span class="chapter-title"><strong>NFT数据产权交易平台的经济预测潜力</strong></span>
-<div class="chapter-summary">讨论集中于一个理想化的模式，即个人在互联网上发布的内容（如Reddit帖子或Stack Overflow回答）应为创作者带来直接收益。此外，提到了在日本，个人信息交易是一种常见的盈利模式，且存在法律框架下的数据交易市场，使得个人能从自己的消费数据中获得价值。特别提到了一个名为“one”的产品，通过购买用户上传的消费小票来直接支付金钱，以预测经济趋势。最终目标是创建一个能预测地区经济的NFT数据产权交易平台。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[01:04:59]</strong> </span>
-<span class="chapter-title"><strong>选择日本生活与创业的考量</strong></span>
-<div class="chapter-summary">对话内容涉及消费数据的价值、银行的情报能力以及个人对日本生活方式的偏好。首先，讨论了消费数据（如信用卡消费数据）的重要性，指出这些数据能够帮助理解经济趋势和消费者行为。接着，讨论转向个人选择日本作为生活和创业地点的原因，强调了对日本生活方式、生活品质、医疗和长寿的偏好，以及对新加坡生活方式的不满。特别提到了在新加坡和日本的生活差异，包括文化、法律对待和日常生活的便利性，以及对新加坡政府政策的不满。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[01:07:53]</strong> </span>
-<span class="chapter-title"><strong>疫情期间对日本的向往与对创业的热情</strong></span>
-<div class="chapter-summary">在疫情期间，一位听众通过APP了解到日本的多方面情况，对日本产生了强烈的兴趣，尽管存在中日民族偏见。随着时间来到2023年，考虑到疫情后移居日本的人增多，听众询问是否仍推荐去日本。同时，该听众也关注到讲者从支付宝离职后创业的经历，好奇讲者是否还保持对编程的热情。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[01:10:20]</strong> </span>
-<span class="chapter-title"><strong>区块链技术的发展与应用探索</strong></span>
-<div class="chapter-summary">讨论者分享了自己对智能合约领域的兴趣和研究，特别关注于EVM和非EVM虚拟机的性能问题。随着技术的发展，许多原本不能在以太坊上实现的功能，已经在Layer 2上得以实现，表明区块链技术正在逐步成熟。尽管目前大部分应用仍集中于金融领域，如DeFi和游戏，但技术的发展预示着更多的可能性。此外，讨论者还提到了日本在区块链和稳定币方面的先进探索，以及该国对于新技术的快速适应和采用，显示出全球不同地区对于区块链技术态度和应用的差异。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[01:15:23]</strong> </span>
-<span class="chapter-title"><strong>移居日本的考量与建议</strong></span>
-<div class="chapter-summary">移居日本对于许多人来说是一个重大的人生决策，特别是对于那些因为疫情等原因而考虑移居的人。建议有兴趣的人应当深入研究，可能的话，亲自到日本体验生活，以判断是否适合自己的生活方式。移居不仅需要考虑语言障碍，还涉及适应当地的生活习惯和社会规范。强调了与已经在目的地生活至少两年以上的人交流的重要性，因为网络上的信息可能与实际情况有偏差，而个人情况（如家庭状况）使得每个人的需求和问题都不尽相同。提供了一个实用的建议，即寻找已经成功移居的人进行面对面或线上交流，以便获得更准确、个性化的建议和信息。</div>
-</div>
-</div><br>
-<h1>问题回顾</h1>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 我们为什么邀请你来参加节目？</div>
-<div class="answer"><strong>A:</strong> 因为大家对你的财富自由经历很感兴趣，想听听你对于财富理解的不同之处。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 郭宇，你是因为你在28岁时退休并发表相关文章而被大家熟知，对吧？</div>
-<div class="answer"><strong>A:</strong> 是的，我曾经在28岁时宣布退休，并因此与财富自由这个话题紧密关联。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 当时你从支付宝实习开始，到现在你的职业经历是怎样的？</div>
-<div class="answer"><strong>A:</strong> 我的职业经历相对简单，从自学代码开始，后来加入支付宝工作两年多，由于个人原因离职后在北京待了六年半，在多说和字节跳动等公司任职，一直做到2020年2月份离职。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 加入字节跳动后，在非常艰苦的工作环境下，你的感受如何？</div>
-<div class="answer"><strong>A:</strong> 在字节跳动的初创时期，我感受到了高强度的工作压力，比如大小周、单休等工作制，但同时也认为这是值得的，并且对该公司采用AI驱动的运营模式感到非常新奇和兴奋。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在支付宝工作时，你的心态如何？</div>
-<div class="answer"><strong>A:</strong> 在支付宝工作时，生活较为悠闲，但当时觉得杭州缺乏强烈的创业氛围，这也是后来选择去北京的一个重要原因。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 为什么在2015年时选择留在字节跳动？</div>
-<div class="answer"><strong>A:</strong> 在2015年，尤其是在头条陷入瓶颈期时，我选择留下是因为这家公司独特的AI驱动模式以及团队所采用的实验性工作方式，这与我之前工作的公司有很大不同，也预示着互联网产品运作的一种重要变化。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 现在很多公司都在使用生成式AI进行内容创作，比如图片生成，但具体原理往往不为人所知。字节跳动在哪些方面进行了尝试和创新？</div>
-<div class="answer"><strong>A:</strong> 字节跳动，包括抖音、TikTok和今日头条等，是全球最先尝试并将生成式AI产品化的科技公司之一。他们通过各种模型如stable diffusion和GPT等，快速塑造了现实中的许多应用，并且在内部鼓励员工三班倒工作，以实现高效创新。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 你在字节跳动的工作经历中有什么印象深刻的事情吗？</div>
-<div class="answer"><strong>A:</strong> 在字节跳动工作时，我参与了一些有趣的项目，例如“百万英雄”，这是一个在线问答闯关游戏，我们在两周内完成了这个项目，整个团队非常拼搏。此外，由于工作强度大，大家休息时间很少，甚至会出现三班倒的情况，但这体现了公司内部一种拼搏且富有创新的工作氛围。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 你在常旅客行业的发展经历是怎样的？</div>
-<div class="answer"><strong>A:</strong> 我从2013年开始关注常旅客领域，并为一个名为“常客”的APP提供技术顾问服务。后来虽然没有正式加入该公司，但一直对该行业保持关注，并结识了许多行业内的资深人士，这对我后来从事的工作也有一定影响。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 旅行和住酒店对你来说是一种调节工作压力的方式吗？</div>
-<div class="answer"><strong>A:</strong> 是的，旅行和住酒店不仅是调节工作压力的方式，也是我的兴趣爱好所在。通过提前规划和购买机票，我可以以最低成本享受旅行，同时也给自己心理上的放松和reset，避免长时间紧张工作导致的身心疲惫。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 你在28岁时发表了一条微博决定“退休”，当时是什么样的节点和想法让你有这样的决定？</div>
-<div class="answer"><strong>A:</strong> 这个决定经过了长时间的思考，最初是在2019年离职时写过退休信，但当时并未引起广泛关注。直到2020年，随着抖音业务的成功和国际化进程的推进，我意识到自己的股票有很大的潜在价值，开始考虑未来的生活规划。考虑到个人兴趣、职业发展以及对未来的不确定性，经过深思熟虑后，在2020年选择了离职，并开始考虑在全球范围内选择适合自己的生活方式。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 你最开始选择了程序员这条路，并加入支付宝，能否分享一下当时选择支付宝而非其他公司，以及后来离开支付宝选择北京而不是深圳的原因？</div>
-<div class="answer"><strong>A:</strong> 当时选择支付宝是因为它在当时看起来极具前景，而并非只有支付宝一家有前途。从支付宝离开去北京的决定是一个很大的转折点，尽管支付宝提供了优越的生活条件，如购房补贴等，但我出于追求不稳定生活方式和更大发展空间的考虑，在2013年选择了去北京闯荡。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 当时离开支付宝去北京，你的内心深处追逐的是什么？是财富、技术热情还是冒险精神？</div>
-<div class="answer"><strong>A:</strong> 我当时内心深处追逐的是不稳定的生活方式和可能带来的更大收益，即承担风险以追求更大的收益。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 你是什么时候开始进行投资方面的尝试？</div>
-<div class="answer"><strong>A:</strong> 我在13年离开杭州回深圳时开始涉足投资，最初是在港股市场进行定投，纯粹是因为在开户后觉得有闲钱不知道如何安排，然后逐渐开始研究并进行美股投资。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在13年到18年间，你的财富积累主要依靠定投还是在字节跳动的股权？</div>
-<div class="answer"><strong>A:</strong> 主要依靠港股投资，尤其是腾讯股票的增值。虽然在字节跳动工作期间工资不高且长期持有股票未出售，但腾讯股价涨幅较大，为我的财富积累做出了贡献。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 你的财富自由观点是怎样的？</div>
-<div class="answer"><strong>A:</strong> 我认为财富自由的标准因人而异，对于我而言，当我的投资收益能够满足每年生活所需，并提供一个较为优越的生活水平时，我就视其为财富自由。我在18年开始转换投资组合，卖掉腾讯股票并进行美股投资，最终实现了财富自由的目标。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于对理财和投资没有概念的程序员，你有什么建议？</div>
-<div class="answer"><strong>A:</strong> 建议他们学习相关知识，尤其在股市投资中，90%的人可能都在亏钱，所以需要掌握一定的投资技能。同时，要平衡风险与收益，尽量构建多元化的投资组合，以降低流动性危机的风险。对于风险承受能力不同的投资者，应根据自身情况调整投资策略，如选择合适的产品、合理配置资产等。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在金融市场投资和编程之间，它们的不确定性或确定性如何对比？</div>
-<div class="answer"><strong>A:</strong> 投资市场比编程更不稳定，很多因素不确定。即使遇到复杂问题，程序员可以通过逻辑排查找到bug，而在金融市场中，你需要有一定的概率去下注，并且有时候由于时间限制，可能无法获得期望回报。但投资市场的机会永远存在，这是编程行业所不具备的优势。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 为什么北美高材生会选择去量化交易公司或投行实习？</div>
-<div class="answer"><strong>A:</strong> 这些公司能让他们通过一套方法论抓住金融市场每天都会发生的无处不在的机会，而这种能力在中国较缺乏。在中国，尤其是在A股市场，大部分人在理解和利用市场机会方面需要更长时间的学习和实践。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于不打算成为职业交易员，只是想获得稳定收益的人，应该如何开始投资？</div>
-<div class="answer"><strong>A:</strong> 这类投资者可以直接购买指数基金，无需做复杂的投资决策，只需简单开户入金即可。大部分美国人养老金就投资于指数基金，这种方式适合追求稳健收益的投资者。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于想要系统学习投资知识，特别是对于加密货币领域的初学者，有哪些推荐的学习资料？</div>
-<div class="answer"><strong>A:</strong> 初学者可以先去券商开设账户，券商会有相关课程提供，包括衍生品等各类交易品种。不过，需要注意的是，频繁交易和高杠杆操作虽能带来利润，但也存在较大风险，因此教育用户正确理解这些金融工具至关重要。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 当个人财富达到一定量级时，是否会有心态上的变化，特别是在面对选择时？</div>
-<div class="answer"><strong>A:</strong> 当拥有大量财富时，如过亿级别，确实会产生心态上的变化，例如在财富配置、日常生活安排等方面面临更多不确定性与选择困难。不同人的幸福定义不同，有人可能更看重自由选择和旅行生活，而不仅仅是固定的薪水或职位。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 那你按照现在的支出去做，大概8到10倍的总金额作为纯金融投资，是否能达到财富自由的状态？</div>
-<div class="answer"><strong>A:</strong> 是的，按照8到10倍收入计算，即使投资美债这样的零风险投资，每年5.5%的利息收益也足以支撑一个人在中国的生活开销，甚至更多。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 如果以10倍来计算，每年花费20万，200万是否可以实现财富自由并维持当前的生活方式？</div>
-<div class="answer"><strong>A:</strong> 是的，拥有200万投资可以实现财富自由，并通过购买美债等低风险投资来维系现在的生活水平。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于财富自由的看法以及与过去相比有何变化？</div>
-<div class="answer"><strong>A:</strong> 我认为财富自由在现在社会并不像以前想象的那么难实现，尤其是在高息环境下，如投资美债获取5.5%的回报率。相比过去，我现在在日本开展业务、招揽人才，生活状态更为忙碌但充实，相较于退休初期的社会边缘位置，现在稍微靠内一点。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 现在日本的生活、公司和业余生活情况如何？</div>
-<div class="answer"><strong>A:</strong> 现在在日本有稳定的生活节奏，有三个住所，根据需要在东京、宫古岛和长野安云野等地居住。公司check专注于web 3技术和AI产品开发，采用异步工作的自由独立开发者组合模式，目前致力于打造NFT会员卡和积分系统等核心产品。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 这个产品（NFT会员卡和积分系统）的方向是由谁决定的？</div>
-<div class="answer"><strong>A:</strong> 产品方向由我来决定，公司内部有一个项目管理者协助组织和催促团队执行工作。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 做这个产品的初衷是什么？</div>
-<div class="answer"><strong>A:</strong> 做这个产品的初衷是响应OpenSea对数字产权的启发，利用区块链技术定义和交易数字产权，尤其是在个人数据领域，让数据拥有者能够从自己的数据中获益，而不仅是被科技公司集中使用和变现。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 日本为何能有一个成熟的买卖数据产业？</div>
-<div class="answer"><strong>A:</strong> 日本有情报银行法作为法律框架约束，允许企业买卖用户数据，并对数据的获取许可、存储、备份及泄露责任等方面有明确的规定，因此在合法的前提下买卖个人创造的数据成为一种盈利模式。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 创业期间是否还有热情关注编程和技术发展？</div>
-<div class="answer"><strong>A:</strong> 在创业期间，尽管将前端和客户端工作交给其他同事，但仍关注智能合约等领域，并持续跟踪以太坊虚拟机性能提升和layer two的发展，认为这些技术对构建全球性事务性数据库具有巨大潜力。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在创业角度上，日本是否是一个好的选择？</div>
-<div class="answer"><strong>A:</strong> 从创业角度看，日本不是一个很好的选择。如果考虑创业，美国会是更好的选择，因为美国拥有资本市场、最多的工程师以及最优秀的工程师群体。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 为什么选择移居日本而不是其他国家，如新加坡？</div>
-<div class="answer"><strong>A:</strong> 选择日本是因为喜欢日本的生活方式和高品质生活，以及日本相对较高的生活品质和人均寿命。此外，日本对外国人在法律意义上给予与本国公民一样的待遇，而新加坡存在一些对外国人的限制性法案。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 现在这个节点还推荐大家去日本吗？</div>
-<div class="answer"><strong>A:</strong> 疫情之后，越来越多的人意识到新加坡并非理想之地，因此来日本居住的朋友越来越多。尽管存在文化和沟通上的偏见，但现代日本在精神内核上与美国相似，并且在生活方式和民俗上东方化，是一个值得考虑的国家。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 对于想移居海外尤其是日本的朋友有何建议？</div>
-<div class="answer"><strong>A:</strong> 建议听众在决定移居前，要深入研究并思考哪些国家适合自己的生活方式，可以考虑亲自去目标国家体验一段时间。同时，可以寻找已经在当地生活两年以上的人进行一对一交流，以便获取更准确实用的信息和建议。</div>
-</div>
-<h1>节目文稿</h1>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-欢迎收听代码之外第五集，我是Randy.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:04]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我是gig plus。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:13]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-今天我们邀请到了嘉宾是郭宇，我们请郭宇先打声招呼。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:21]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-Hello大家好。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:22]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我是郭宇。找郭宇来做嘉宾其实是因为其实大家都知道这在几年前，郭宇曾经发了一个一篇文章，说他在28岁的时候退休，然后被广泛的传播。然后大家都对郭宇跟财富自由这个词特别想，郭宇可以在我们节目里面聊一些跟财富相关的话题。对，因为我这我因为我觉得对于所谓财富自由的人来说，可能他们对财富的理解跟我们是不一样的。所以我特别我们特别想在节目里面可以听到郭宇聊这一部分的话题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:58]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，明明都是同时期一起步的程序员，怎么回事，就后来天差地别了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:04]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-可是我记得当初我还在读高中的时候，郭宇那个时候应该是刚出来在支付宝实习。然后我还记得当时郭宇的get up ID是turing go对吧？我应该没读错。Two go。对，当时我这我当时知道过，也就是因为他在给top上面写了一些开源的项目，然后我知道他是支付宝实习的，所以就有了一些联系。然后当时就觉得，可能当时还是感觉说是一个还是社区上很活跃的一个人。然后后来也听说了多说这个项目，然后就没想到在几年之后就完成了一个很大的身份的转变了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:47]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我其实就是一个普通程序员了，谈不上什么身份的什么签约。我现在也就是程序员，但只是说就是不不给就是不给那些大企业打工而已。平常也自己也会写一些代码，包括我现在自己的公司，我也会写代码。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:02:00]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后谈到以前发生的事情，就现在想起来都很多年前的事情了。我其实是年前，我是08年上大学的。然后08年上大学的时候正好是北京奥运会，大家印象也都很深刻。对，那一年，但是那个时候其实iphone还没有真正的普及到我们所有人手上来。有很多人还是买不起iphone，包括最近有很多人一直在吐槽张一鸣2010年发的那条发微博，说他买一个iphone 4，然后还要想想，对那个时候是很稀奇的东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:02:34]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-就正好是我上大学那一年，然后差不多移动互联网开始开始逐渐普及了，那个时候已经有apple touch。所以可以说这十年从08年到18年，我是我是20年走的。所以这12年基本上是你可以见证一个中国移动互联网的，包括移动互联网这些网上的这些平台型企业，这些巨型APP super APP的一个发展历史。就是我觉得应该会有人会去拍这种电影，这还是蛮值得纪念的一个东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:09]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-有很多有名的企业家以前都是普通的程序员。就是在这个过程当中，包括艺名，包括最近上市的keep，keep的王宁，就在一二年他刚去北京的时候，他们团队就三个人，在雍和宫的一个别墅里都是一些很小的企业。然后慢慢过这么多年，收获了很多用户，当然也很累。然后你看大家看到我有白头发，以前我都没有白头发。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:33]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我去北京之前，所以我个人是08年上大学的，然后那个时候学的是，专业是政治学和public adminstration。所以其实行政管理和这个写代码一毛钱关系都没有。但是我家里条件不是很好，因为我爸一直在生病，卧病在床差不多快十几年了，然后后来成了植物人。所以我就想说，我必须以后做点什么事情，自己可以至少挣钱养家，或者是让我自己独立出来。所以08年的时候，开始为我以前在深圳高级中学做那个社团，做网站。就是刚刚考完高考的第三天，那个时候开始学习代码，知道大家说那时候还在兼容RE5.5。然后当时买了一本书，作者是百度的一个前端工程师，然后他叫web标准化设计，那个时候大家还在讨论为标准化设计，就是不要用table，用diff去布局，就是在讨论这些东西，现在听起来不可思议。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:04:30]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后08年开始学习代码，学了两年之后去腾讯拿到拿实习的资格。但是因为当时才大2，给pass掉。然后大三的时候是拿到支付宝的offer之后就去了支付宝，就名正言顺就转正了，就一直在支付宝的的体验技术部。从2011年的三月份到2013年差不多年底的样子。这两年多就是在在杭州，我基本上是住浙大，然后浙大同学宿舍就在杭州，就相当于是锻炼我自己本身的技术，因为我本身也不是科班出身的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:07]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后那个年代因为大家学校里面教的东西，尤其是computer size。中国的，大陆的这个computer size专业教的东西和和真正企业当中用到的东西相差还蛮多的。而且有很多很多的技术交叉的学科的技术，你像前端就是一个非常典型的交叉的学科技术。然后前端有有做前端的framework work，像小又有有做前端的testing，然后后面有很多testing framework work出来。所有的这些东西都是当在当时都是在一个未萌生的状态。所以其实在2008年、2010年那个时候是很古早的一个技术时代。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:41]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对互联网的技术来说，就是现在来看是一个非常古早的技术时代。就有点我们从10年看到2000年，就是刚刚出现电子商务的时候那种感觉。对，所以我入行算是比较早。那个时候很多优秀的工程师加入到支付宝也好，百度的也好，其他的一些大的企业也好，它都不是科班出身。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:06:03]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后这是一个很有意思的一个现象。在当时是因为因为我当时坐在我浙江大学的同学宿舍里头的时候，我就看他们就是因为那是很优秀的软件工程学院的毕业生，他们都会选择会去一些比较高薪的企业，在互联网公司当中可能就是百度。因为百度在09年10年的时候就有那个百度新计划的。他们当时认为年收25万人民币已经相当高了。就是对于应届生开的那个offer来说，百度是相是最高的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:06:33]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后阿里巴巴的企业可能是在二三线的这样一个阶段。所以非常优秀的人才都会选择去像高盛这样的投行，或者像微策略这样的外包公司。现在的年轻人看起来不可思议，因为现在大家都想进BAT大厂了是吧？在那个时代是啊稍微可能成绩没那么顶尖的，或者是资历没那么好的学生，可能会选择去互联网公司。所以现在看起来，其实这个时代还是蛮公平的。因为其实有有相当多的机会会调到这些互联网公司。不管你选择是哪家公司，都会有一个超出其他行业的回报。在那个时候看来，这个其实就是一个非常无奈的选择。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:07:12]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，所以话说回来，去到支付宝之后，在支付宝待了两年多。后来就觉得当然有一系列人生的变故，我自己的情感上的因素也有。然后也觉得在阿里巴巴待的可能会那种生活会比较一眼望到头，就选择从阿里巴巴离职。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:07:32]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后在深圳待了大半年之后，回深圳待了大半年之后，就去北京加入振宇的创业公司。就多说，都说和图虫是同一家公司，图虫没有人，我们是业余时间在维护图虫的的项目。所以这两家公司最后在2014年12月份被字节跳动收购，收购完成是在12月份的时候。所以12月1号我就是就顺势加入了自己，一直在自己的工作了六年半到20年的二月份的时候离职的。所以我的我的我的职业经历其实很简单，就是作为一个前端工程师自学的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:10]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后去到支付宝，然后觉得阿里巴巴的生活可能太安逸了。当时是这样子，因为当时微信支付还没出来，微信支付出来之后，支付宝就变得很苦。因为有很长一段时间都在，你知道all in无线，然后就是全民追赶这些东西，就是变进行非常紧张的工作状态。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:27]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-但是从2011年到2013年，我在支付宝的工作的话是蛮轻松的。大家基本上都六点下班，下班之后就去杭州。你知道去西湖旁边，然后喝个茶什么的，就是很很悠闲的生活方式。所以就是这种生活方式让我觉得好像杭州没有像北京一样。对，因为大家都知道手机出来，然后智能手机会带来很多的新的机会。大家都知道这件事会肯定会发生，但是杭州并没有那么强烈的创业的氛围。在当时，所以这是为什么我当时要选择要去北京的一个很重要的原因。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:58]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-后来就一直在北京待着，待了我人生当中最长一段时间就是在北京待六年多。我在深圳都没有待过这么长时间，然后很辛苦。因为在之前和以前在途中会多说不一样的那个生活方式完全是不同的。你知道我们很长一段时间都是有八年左右的时间，都是大小周的，然后每个月可能只能双休一周，就其他时间都是单休。这个在在很多公司看起来不可想象，而且大部分时间都是11点工作到晚上4两三点才回家休息。但是家和和和公司也很近。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:35]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对你当时的感受到这么苦的时候，你的心态是怎么样的？是想走吗？还是说这是值得的？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:44]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我对自己的感觉，在在他的初创是企业的那段时间，可能和现在在自己的的朋友对自己的感觉不太一样。因为我加入自己的时候，我们才两百多个人，然后就只有两层楼，而且两百多人当中有。可能有大概3分之1左右是工程师，然后那些工程师都是非常优秀的工程师。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:10:04]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-就是我我曾经我们被收购的时候，我搞不太清楚这是一家什么公司。然后郑宇打电话跟我说，被今日头条说过，当时他不说字节跳动，因为其实我们也没有特别关注他公司法人的名字。然后我说什么今日头条，然后我就他说你下一个APP看一下，然后我就下了你这个APP，然后发现这个有点像是一个的新闻聚合器，新闻rs reader，有点像那个时代的rs reader。你一眼看过去就像是一个RSS，那可能加了一些个性化推荐的RS reader。当时我是这样一个感觉，然后我就觉得这是什么家公司有点莫名其妙。然后去到了这家公司之后，花了大概两三个月左右去去熟悉这个工作环境。包括和很多团队人聊天，就技术团队人聊天，我觉得这是一个非常重要的原因。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:10:50]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-为什么我要在2014年、2015年，尤其是2015年？因为2015年头条陷入瓶颈，就是很多人选择离职，那个时候还没有抖音。那2015年为什么要选择坚定的留在这家公司？一个很重要原因，我觉得这家公司和我以前待的好多公司是非常上不太一样。它是AI驱动，就是它它整个的一个东西都是它的企业是在AI驱动的情况下，他的很多的产品的决策，做实验的方式都和其他的公司不一样，当然有很多成体系的东西是后话。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:21]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-在那个时候我觉得最大的一个影响是我和一个做推荐的一个工程师聊天。我说万一我一个阿姨看到他不想看到她的东西，她要怎么样去给你们报bug。然后你们怎么样修复这个模型推的错误的东西，他说不知道，他说我们做实验，他说我们不知道这个引擎怎么工作的，他他推荐过来之后，我们可能就继续做下一轮的实验，然后去改善这个召回。然后我当时就觉得，你不知道你代码怎么运作是什么意思。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:51]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-就是你知道在那个时代，听到这种想法，我会觉得很神奇。因为对于那些工程师来说，他们把他们自己戏称为调参工程师。因为他唯一能做的事情就是按照某某博士或者哪个现在google的paper做出来的一个模型。你知道他们是你知道大部分人都是学ACM出身的？对对对，论文什么的有很比较深刻的了解，但是可能自己也没有办法去做到那么高效的一个模型，所以就只能给现有的模型调调参数。所以他们就没他们说他们工作很无聊，就是调调参数，然后再做实验，然后下个礼拜再看有什么样的结果。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:26]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以那时候我意识到说，互联网企业的产品逻辑会有一些很重要的变化。如果这个东西能够能够变成一种现实的话，那会对所有互联网产品，不仅是今日头条这种产品，会对所有互联网产品带来非常质的变化。因为你可以不依赖人工去做运作。你知道我们经常会有一些错误的一些决策出现在中层团队或者是甚至是更高的一些团队上面。所以这些事情他就会变得非常的不稳定。但如果公司的运作，产品的运作可以依靠模型，就是你只要通过给他去微调这种方式来做，这是一个很酷的事情。我当时觉得这是一个非常酷的事情。对。然后你知道程序员不知道自己的代码是怎么运作，这件事情就是很很诡异的，我当时就是闻所未闻。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:13:17]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-但是现在有非常多的公司都是这样做的，你应该去问娟，你在哪里生成了一张图，这种生成式的AI怎么创建这个图，谁知道？不知道。我们就只能去去揣摩它，对吧？在概率上去去改善它。所以现在就变成一个非常普遍的一个范式。你无论是用stable diffusion在在做的这种生成CI的图形，还是大GPT的这种模型，就是transformer的模型，或者是其他的非transformer的模型，都在慢慢的但是更快的在在塑造这样一种现实。当然字节跳动，包括后来抖音、tiktok和今日头条，是最先的全世界最先在做尝试尝试做这个事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:13:59]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-产品化的一家国科技公司。所以我觉得当时我觉得很酷，然后这家公司是反正我从来没见过的，然后这边的年轻人也非常的厉害，就是大家都非常拼命。对，就是在做一件事情，我记得当时我们做了很多不同的产品尝试，有一个叫做百万英雄，不知道你们知道吗？就是一个在线没有听过在线回答问题。你回答问题大家一起闯关，然后闯关关会得到多少钱？对，听过就那么一个东西。对，然后还赞助了有一年的春节联欢晚会。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:33]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，但那个项目也是可能就是大概两周时间所有人一起搞出来，就是发现3班倒的。你知道在科技公司三班倒，就是有有三个程序员不断的在在24小时在写这个代码很可怕。但是在字节经常会看到这种东西，就是我你写累了你就回家睡觉，然后换另外一个人。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:54]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，但是当时我记得你在字节的时候，已经变成什么酒店玩家跟这个长铝了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:01]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，就是因为工作太累。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:03]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这个真的，我当时对郭宇的印象，因为我能看到郭宇朋友圈的时候，我对郭宇的印象就郭宇到底有没有在上班，为什么他每天都飞到不同的地方，然后住酒店去日本什么的，他这个人好像又特别有钱，但是他到底有没有在上班，我又不知道，所以你可以分享一下。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，你看从外人的角跟你自己感受的角度完全不一样。你可能觉得自己当时很辛苦，然后大家很拼，但是我们在外面看来就是很潇洒。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:32]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-包括后来泡温泉什么也都是因为工作实在太累。但是因为因为我们休息的时间很少，所以如果休息的时间像绝大多数工程师一样待在家里的话，就会觉得人生就是过得飞快，然后没那么值得去追求的事情。北京就是这样一个地方，是全中国最有钱的人，然后在过着全中国生活品质最差的这样一个生活方式。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:54]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-其实我是13年开始关注常旅客这块的东西。因为我当时觉得这块也许会有一些机会，会做一些APP。大家都在做APP，当时大家都在做APP，所以我帮一个叫做常客的一个APP写了一些代码，去做了他们的技术顾问。但当时后来没有决定要加入的一家公司，但人还是在一直在focus到这个行业的东西。在这个行业认识了很多人，包括有很多现在非常top的inferences，像太一，像三锤之类，这些都是以前在常旅客行业非常资深的一些玩家。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:16:27]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-包括现在这个事情和我现在做积分也有也有一些也有一些关系，加上但是更多的可能是个人兴趣爱好，因为确实在北京生活太累了，好不容易放两天假想出去玩一玩。想出去玩一玩的话，就在想说大家怎么样能够利用这个很短的两天的时间，可以用最好的一个性价比去玩到一些自己可能在北京没有经历过的东西。抱着这样一个想法来来来思考。所以我当时每年都会去做旅行的预算，然后在每年双十一的时候把下一年的所有机票买完。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:02]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这样的就直接都把计划提前定好了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:06]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，是的，就是提前定好了。你不然的话就你你不提前定好的话，你到时你可能就想着家里懒懒着，就是不想躺躺平就不想出门，很多人就是这样的，然后我觉得各有各的好处。因为如果你一直在在各地移动的话，虽然只放两天假，比如说就去日本泡温泉，但是你可以完全进入另外一种生活方式。这对个人来说是一个很好的reset。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:31]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后如果你不去这么做的话，像大部分程序员待在家里或者甚至待在公司的话，就是会蛮抑郁的。因为人的精力毕竟是很有限的，你不能就一直去投入这样一个紧张的工作状态，你要有紧有松有弛，不然的话心里就很很难受。所以大家都说字节一年，人间三年或者怎么样，很多人工作的压力太大，他如果不好好调节自己的心理状态的话，大概工作个两三年就受不了，就走掉。这种人也蛮多的。我甚至以前还有很多项目组的人，就在16年17年甚至还离职去快手的都有。如果你自己没有办法调整好自己状态，就很难做理性的决策。不管是找工作也好，还是做投资也好，都是一样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:17]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以旅行和住酒店对你来说就是一种这样的调节的方式，是吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:22]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-算是吧，但是我个人的兴趣爱好，包括后来的泡温泉其实都是一样。现在住酒店没那么多了。以前因为想要去研究，你知道世界上有各种各样的loyalty program，然后他们之间的积分会互相换来换去，而且有的时候它的汇率是完全不同的。你所以你可以通过这种方式来去做一些调节。这些调节在像我这种每年会定旅行预算的人当中来说是非常重要。因为这样的话我可以把一年的旅行预算做到成本最低。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:50]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，因为我出去玩的时间是固定的，那就是我我知道我在前一年的时候就知道我公司。什么时候是放两天假，什么时候是我可以请到3到5天的假期。所以对我来说是一个衡量自己预算，就节省预算的一个很好的方式。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:07]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，完全没想到你就是你的兴趣爱好的来源的动机是这个。那后来就是你发表了就28岁的时候那条微博，我记得当时影响力很大，然后我还在下面评论了一下。你知道现在都有人每天点赞我的那个评论，都不是点赞你的那条微博。所以我很奇怪，对当时是一个什么样的节点，然后什么样的一个想法让你决定退休？然后你当时对退休的一个定义又是什么？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:37]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-其实这个事情想了很久，然后那个退休信是二月份发出来的，其实二月份也没什么人关注。就是我一些朋友，我在支付宝离职的时候也写过退休信，也写过离职信。然后在字节离职的时候也写了离职信，但主要是发在我自己的朋友圈和字节的群里头，当然也有我的微博上。然后那个事情火起来其实是在年中六月份的时候，有人在知乎上提问题。这个和我没关系，我也不知道为什么就是有人解决这样一个问题。所以二月份我真的理解的时候，那个动静其实并不是很大，就是我就走走掉了。而且那个时候你知道在国内是有疫情，然后也没有办法回到公司去去离职，所以是远程离职。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:20:11]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我当时在日本离职，然后至于退休这个事情我想很久了。我其实是从2017年就开始想，想到我觉得公司差不多能够上市的。2019年提提的离职，然后交了交代了半年的业务，然后2020年做的，所以基本上这样一个过程，为什么17年要想这个事情？因为我觉得16年12月份抖音发布了，然后我们很快就意识到这个模式非常适合所有人。你知道字节在以前尝试推广今日头条做国际化，在巴西做了八次video bus feet，在日本也做了类似的东西，但是都不太成功，因为当时没有GPT。当时你要重新训练一个自然语言的推荐引擎，是一个非常复杂的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:21:07]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-是就意味着你给每个地区、每个文化、每个语言的版本，你知道印度甚至有一百多种语言，我们当时在印度推广tiktok还有其他的产品非常费劲。因为当时没有GPT，所以非常费劲。我们意识到说这可能是一个不太现实的事情，但抖音就是让这个事情有一个很大的一个逆转。我们意识到视频的推荐是非常适合所有国家所有种族人，包括冷启动的数据我们都有。因为现在国内做的抖音，然后再在海外做tiktok，我们都不甚至不需要去找冷启动的数据，就直接推那些猫猫狗狗就可以，全是国内，但是外国人也可以看得懂。所以在17年的时候，我就觉得，这个应该是肯定能够做国际化，而且肯定能够做的非常大。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:21:53]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后后面的事情大家也都知道，就tika做的非常大对，所以那个时候我就在想说，也许我自己拿的股票可以变成很大一笔钱。因为在17年之前，我只是觉得，也许就是在你知道就在北京买个房子或怎么样，就是没有太多的想法。对这个股票是，对，但是17年之后我觉得这有一个非常大的potential，而且这是一个非常确定的potential，它不是一个纸面的大饼所以我当时是一直在思考这个问题，就是说万一以后你变得很有钱或者怎么样，那我要怎么样规划我自己生活方式？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:22:27]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以我想了很多问题，包括是不是要在北京置业，是不是以后就要在北京，就住在这儿再找一个其他的互联网公司，还是说考虑一下其他的国家，去看看其他世界的机会。因为本身我自己飞的就很多，所以欧洲、美国什么好多地方都看过，新西兰的、新加坡什么都看过。我当时就在想说，如果以后我就不上班了，我就完全靠我自己的这个投资来生活的话，那我要去选择哪个国家的问题想了很久了，那一年其实非常苦恼，因为你知道我爸身体也不好，然后再过了一年之后，我爸就去世，然后我奶奶又去世。然后有非常多的变故，加上我自己对以后未来生活一个不确定的东西增大了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:15]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你知道如果你在北京已经有家人了，结婚了，生小孩了，那你就没有什么不确定性。那这个事情对你来说就是纯开心对吧？对，你可以换更大的房子，然后你可以想怎么样。但是如果你没有这些束缚的话，那这个不确定性是很折磨人的一件事情。因为你可以去任何地方，所以你就想说你要去怎么样做选择呢？而且非常谨慎的做选择，而且你不知道这个事情什么时候发生。所以我当时一直在想这个事情到底什么时候发生。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:43]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，我我我当时计划是也许19年就是一个是一个非常好的时期，但很可惜后来事情大家也知道，就是baLance没有选择在那个时候上市。因为tiger global的投资，因为那一轮的投资，他没有决定在那个时候上市，所以就拖拖到后来就新冠了，然后中美交恶，包括现在的各种各样的制裁，外贸的芯片制裁，然后外国公司法案虽然外国公司法案已经告一段落，审计已经告一段落，但现在仍然是没有大的科技公司选择在美国上市。有小的科技公司，但没有大的公司在美国上市。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:24:16]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后中美交流也带来很多负面的影响。像港股的流动性非常可怕，就是对估值变得很低。像阿里巴巴一度跌到2000多亿元美元，就是都还不如字节跳动这些这些事情都是我们在当时在19年无法想象的问问题。对，所以在19年之后整个形势就变得很快。对，但当时我在19年要决定要离职的时候，我就已经想好了要去哪。所以对我个人的，对我个人生活倒是没什么太大影响，所以20年的时候确定就走了。走了之后的事情就是这好像和我也没什么太大关系，因为我主要还是在日本待着，然后你知道日本这外面怎么样，是日本的不会有太大的变化，所以生活的稳定性还蛮确定的。就是我现在感觉在回看那个时候的选择，就可能觉得已经离我很远了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:10]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-本来我接下来想问退休之后的感受，但是我听了这么长一串人生的经历。其实我的感觉就是虽然你说你的职业经历很简单，然后好像每次选择都是很轻松的选择。然后就是听起来好像很谦虚，然后正好运气也赶到了当时的那个节点。但是我是在想，如果你从现在这个节点回头看以前的某些决策，你觉得哪一个决策是对你影响最大的？就是某一个可能从宏观角度来说，可能比如说加入去去北京的创业公司，或者说加入支付宝，这些是对你影响的。但可能比如说某某一个微观角度来说，是哪一个最核心的点触发你做出这么多就是一连串运气爆棚的决策的对，因为你想你的专业都不是，比如说专业都不是computer science。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:08]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-那你最开始就选择了走程序员这条路。然后后来走程序员这条路之后，加入的公司就是支付宝。它为什么不是其他的一些？因为当时万众创业，它不是说只有支付宝一家比较有前途的公司，大家看起来都是非常的promising。然后后来你从支付宝离开之后，为什么又选择了是北京而不是深圳？比如说就是这一系列的，其实其中虽然你的时间节点都比较早，你看都是1几年115年以前，15年以前真的是黄金的时期。但是对，大家在那个时间有很多人其实也是在跟你差不多历程，但是只有你可能走的就是一路比较顺畅一些，所以我在想肯定是有有一些核心的观点让你驱使你做出了这些一系列的决策的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:58]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-如果要说有什么特别大的决策，那就是从杭州离开去北京，我觉得这个是很大的一个决策。对，因为其实当时支付宝的生活还是蛮优越的。大部分人和我同期加入支付宝的同事都两年都买房了。因为当时杭州房价才6700千多一平。在那个北在西湖往西边，就西溪那边，你知道我们工资一个月都远不止些，所以但当时这是一个很幸福，对吧？对他们来说，想要结婚就结婚，买车就买车，买房就买房。而且阿里巴巴是提供五年的免息的，就是住房补贴的贷款，大概几十万人民币的样子。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:27:38]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以和我同期加入支付宝的，基本上现在都已经小孩都两个。因为他们很早都都确定了他们自己想要的生活方式，而且很早都买车买房了，很早的事都down。然后我在13年选择要走的时候，是蛮另类的一个选择。我爸当时还没有变植物人我爸当时还有意识的时候，他就很生气。因为他就觉得也好不容易找到一个大公司的工作往下走，很多人理解不了这个。对，全民创业是2014年2015年的事情。对二我在加入支付宝的时候是2011年，当时还没有这个全民创业，大家当时大家还没有选择想要去互联网公司，这个是时间节点还不太一样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:28:18]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后去北京，为什么去北京？因为因为我在离开支付宝之前，我在暑假期间去北京参观了两个公司，一个是一个是豌豆荚，当时豌豆荚还活着，我有个朋友叫海浪高海浪，他在豌豆荚。还去看另外的公司，就是粉笔网、猿题库，去了这两家公司。对，然后我就感觉北京这个氛围和和杭州完全不同，尤其是中关村，很很令人神往。所以我觉得如果想离开杭州那种比较安稳的生活方式，想要去趁年轻的时候去闯一闯的话，在那个时候看来北京是最好的选择。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-那你有没有想过你当时所谓的闯一闯，你到底内心是在追逐一点什么东西？可能有一些人在追逐的是财富，他们看到可能那里有财富的机遇。有些人选择的是可能技术的热情，他可能在那里可以发挥技术。那你有没有想你当时其实最深层次你想追逐的东西到底是哪一个？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:20]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对我觉得这可能是最大不同，就是很多人想要去稳定一点生活。我当时就是抱着我想要去追求一些不稳定生活的这种期待去。所以不稳定的生活的期待，当然是想要加入一家公司，然后赚到大钱。对，这个是我当时不稳定。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:37]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-有点像take risk，就是只有承担风险才有更大的收益，对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:44]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，是的。因为当时在很多人看来杭州偏安一隅的，然后又有一个阿里的职位，又可以过得比较轻松，这是一个完美的人生对吧？所以我在杭州的很多同事，他们也没有离开杭州，一直到现在还有很多老同事是在阿里。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:02]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-确实。所以你是什么时候开始开始做你提到的投资方面的事情？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:08]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-是13年从杭州离开回深圳的时候。在当时深圳我在深圳短暂工作过，在900短暂工作过几个月。然后在深圳那个时候所有人都在买腾讯的股票，你就随便从高新园地铁站出去，然后就是一些人让你开户，然后买港股。所以我当时听了很烦了，然后我就说开了个户就买港股。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:29]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-然后就在做定投。13年。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:31]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，13年13年你那个时候出高新园地铁站，就是很多人都在说这个。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:37]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-你当时还是对这些都是一无所知的，是吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:40]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这对我这纯粹是巧合，因为我就觉得这纯粹是巧合。我我我我开刚开始做港股投资纯粹是巧合，因为我觉得反正我有点闲钱，我不知道放哪里。然后就正好是在深圳，然后就开了户。开了户之后，就一直在做定投，而且也没有用比较频繁的交易软件。很前段时间都是在用招商证券买的定投的策略是什么？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:04]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-当时就只就是。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:06]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-把每个月存的钱就扔进去，没有什么策略。因为你知道你要把钱弄到国外很烦，用很大的钱的话，所以就每个月慢慢弄，就是这样的方式来做。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:21]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-然后到什么时候开始，你的你开始对理财这个事情想要去研究一下。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:27]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-应该是18年19年。因为当时我觉得如果我要以后要依靠投资来生活的话，除了我之前在13年买的一些被coin之外，然后除了我做的一些港股投资之外，这些钱可能还不够。那我就必须要把我的boyd&#x27;s股票置换成其他的公司的股票，或者只是会把港股的股票置换成美股的股票。差不多从18年左右开始，那个时候选择开始离开港股，把腾讯卖了，然后慢慢的开始做美股投资，到现在差不多有五年左右的时间。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:32:01]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以你从13年到18年都是随便把钱放到那个地方去投。那你觉得你当时的财富积累主要是靠的你是靠的是你的定投，还是说你在字节跳动的这些给股权。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:32:16]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-字节跳动给的工资很低的。因为我们是老员工，所以而且而且我很长一段时间根本没有卖过股票，我现在还持有很多，所以对我来说主要还是在港股的投资。腾讯是涨了很多，腾讯318年刚买的时候才三十多块钱，后来是涨最多涨了五百多。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:32:36]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-因为我这样问，是因为外界其实有很多声音说，郭宇财富自由是因为他进了自己，所以得到一笔股票什么什么就是财富自由了。正常。对，他们可能往往忽略了可能可能忽略了你自己本身的一些投资策略什么的。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:32:54]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这要看取决于他，要看这个多少钱算财富自由了。就是每个人对这个东西定义是不一样的，那自己的股那当然是一大笔钱，对吧？你要看你怎么样去定义它。有些人认为1000万就财富自由了，有些人认为10亿都不够，这个不好叫笼统来概括，对吧？反正我当时就觉得，我从18年开始置换腾讯的股票到每股之后，我是觉得我必须要每年可以开需要的一些钱。这些钱能够至少可以让我过上一个比较优越的生活的这种这样一个这样一个条件来算，我大概需要多少钱。对，所以我很长一段时间还是没有卖掉自己的股票。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:35]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-那你当时想那个cash out的策略是靠分红，还是说什么没有分红？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:40]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-科技公司哪有分红，科技公司就算有盈利也不会给你分红吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:43]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，就说你买的那些股票，就是因为这100年自己做的投资，大部分对都是靠定投。那可能对，因为定投的话，它如果你不卖的话，好像没办法套现。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:57]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，要卖掉了。对，所以从二从18年开始把腾讯卖掉了。我记得我刚开始卖的时候三百多，最多是五百多，后来又掉回三百多。现在卖了之后就开始做美股，正好美股221年2020年21年时候就是涨得最多的时候。因为当时疯狂印钱，因为疫情原因，所以是运气比较好吧啊，挣了不少钱，再加上今年开始要的一些字节的股票，所以现在基本上就是已经远超我当时对自对对对财务财务自由的这样一个每年每年的这样一个生活费的一个期望。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:30]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-因为当时觉得有一个大几百万是一小1000万，那我每年去做一个来个五百五六点的投资，我自己一个人就花几十万，其实也花不了太多钱，对吧？明白，但其实你花的钱和你的赚的钱其实是有很大的关系的。我个人可能赚多点我就花多点。对，所以我每年都是在花。对，所以我每年都是在花，赚到钱的利息就是这样子，相当于这样来做。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:34:58]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-那你就是投资的模式从股票变到更多元，比如说房产，还有其他的渠道是从什么时候开始。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:35:08]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-房产不算太多的，就在我的投资的组合里面不算很多的份额。我虽然在日本买了几个房子，但基本上都是一些给我日元现金流的东西。就是我不需要从美股取出钱再转转到日本，就是每个月会定期往我的账户上打房租的东西，然后就基本上覆盖一些生活费、水电费之类的东西。你想要花大钱的时候，还是要从股市开始要出来。所以这些对我来说不是一个很大的投资。但当时在日本置业是也是差不多是从1819年开始，就是从1899年，就17年我纠结一年很想了很久。然后1819年的时候开始做这整整件事情，整个计划慢慢的把投资挪到美国，正好是在疫情之前挪到了美国，所以算是运气比较好。然后正好是在疫情之前在日本买的房子，所以疫情之后生活在日本也有比较稳定一些日元的现金流，你是从那个时候开始。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:10]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-考虑的那所以说如果对于可能一些对理财，对投资没有任何概念的可能一些程序员来说，就可能有一我们程序员可能很多人都是其实拥有比较一大笔的财富，但是可能未必那么多人懂得怎么去管理这笔财富。那郭宇不知道你有没有什么建议给这些人。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:37]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-是确实是他们应该怎么对待自己的财富。就如果你去在股市里面做投资，然后像长桥它有一个排行榜。你随便一年赚个15%就可以进，就可以在前10%。所以你就感觉90%的人都在亏钱。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:49]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-在在股市当中，我觉得这方面的知识肯定是需要去学习很多东西，就是很多工程师依靠自己的收入，尤其是薪资的收入占自己的大头。然后财富的领域里面，靠房产财富占领域的大头，这个风险很大。然后就是以前日本发生的事情，可能继续在其他国家发生，在中国发生都是有可能。然后你要尽量让自己的投资组合风险变小一点，这个是很重要。你万一你到了35岁怎么样被公司裁员了，那你可能一年可支配收入里面一半甚至80%都没了，那就是很可怕。再加上那再加上你有房贷，再加上你的房产没有办法很快的卖出去。流动性差的话，那就会造成很严重的流动性危机，对不对？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:34]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以这不是特别复杂的，也没有像线性代数那么复杂，或者像矩阵运算那么复杂。就是一些很简单的一个公式，你自己算一算，你大概知道一年要大概花多少钱。然后你大概算一算，你就知道自己的风险的这个回报比率大概是怎么样。如果你在事业上升期，你觉得自己在几年内工资还会继续涨，那你就应该去投资一些风险回报比较高的东西。如果你觉得你这个时候要开始防守的话，那你就尽量应该让自己的投资组合风险稍微低一点。尤其是如果你有了小孩，有了家庭，要结婚，要买房，那这个时候你就不能再做风险太高的投资。基本的逻辑就是这样子的，对不对？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:10]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-至于说你怎么配置你的投资组合，那就需要有很多事情是要手把手去做的。然后我经常在我的账户里面，比如说我说我在买什么股票，然后甚至还有很多人问我美股怎么开户，你就问我干嘛直接去搜了，对不对？这很简单的事情，你需要去迈过一个小的门槛。然后你你你开户完了之后，你要入金，然后你要选择去做什么样的股票。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:32]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-在你做了一定的时候，你你你可以可能会开始考虑说自己意识到自己是一个喜欢风险的人还是厌恶风险的人。你意识到这一点之后，你可能就是一个比较合格的trader。因为你可以开始依靠自己的性格来调整你的投资策略。然后如果你是一个比较爱好风险的人，你有喜欢去追逐市场上的热点的话，那这时候就会考虑做一些衍生品，去学学衍生品的东西。这些所有的东西都是要学，就像你学写代码，你学javascript你要学，你学react要学，你就是要去学，你要去看文档，然后你要去看视频，看这些前人的经验什么之类。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:39:06]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-但是投资这个市场，这个market，这个financial比写代码要更不稳定。对它有很多东西不是确定的，不是说你学会了你就一定能够做到，是吧？以前像我写代码的时候，我就觉得这有个bug，然后我但是找不出来这是哪里。它可能是一个非常复杂的好几个系统的联动的bug，很难复现，也很难排查。但是我知道我肯定可以找到他，对吧？这个是有很强确定性的东西在这里。很多程序员就有这样一个思维在，但是在financial market没有什么事情是非常确定，你你你需要有一定的概率去下注。但是有的时候，因为一些时间的关系，你的以下的注意也许不会不能不能不可能得到你想要得到的回报，也是非常有可能。但是做投资最有意思的一点就在于这个市场的机会是永远都在那。这一点对于写代码来说，是啊对工程师这个行业来说是非常具有巨大优势的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:01]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以这是为什么很多北美的高材生，他们要选择去量化，要去选择去一些专门去做高频交易的公司，投行，去这些公司去实习个一两年，或者去做个两三年班的这样一个很重要原因。因为他们可以从这个里面理解到，他们通过什么样的一套方法论，可以抓到这些无处不在的，每天都会发生的市场上的机会。但是你知道我们我们很少会有这种能力，对吧？我们需要自己花好几年的时间去去自己去学，这个是其实中国在中国人就是包括工程师也好，其他人也好，在整个金融市场当中最缺乏的一个能力，因为我们不太擅长去玩西方人的游戏。然后在中国这个游戏也不大，而且在A股这个游戏很奇怪，就和市场上的游戏是不一样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:50]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以如果你离开了中国，离开了A股和港股，你去到美股，美股是世界上最大的市场。那在过去几周可能每每每个月都每每周都流入，但40到50亿美元的净流入到这个市场当中来。你看特斯拉一天有好几百亿美元的交易量，远超中国可能所有科技公司加起来总和。所以在这样一个市场当中，你要去预测市场是几乎不太可能的。它是一个非常完全竞争的博弈，所以你去理解它需要很长的时间。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:20]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-加上我们有没有这种经验，我们没有这种去大公司量化交易基金实习的那种能力。所以大部分人一旦进入到一个市场当中去，要去领领领要去领悟他的投资的诀窍，或者是理解自己对风险的偏好，来制定适合自己的投资决策。是需要很长的时间。这就意味着你必须要马上去做这件事。因为如果你拖的话，就会一直会越来越长，你的机会流失就会越来越多，就像种树一样，对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:46]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你要不十年前种，要不现在赶紧种，所以这个是我最大的一个建议，我是这么建议的，包括我很多其他的亲戚朋友问我说，我说那你赶紧搞，你要交学费，你迟早就要交，你现在开始。对，如果你一觉得自己想要去赚那个赚赚那个钱，但又担心赔钱，那你现在赶紧赔。不然的话你永远都不知道自己到底适合什么样的一个交易风格。你也理解不了这些行业的这种公司到底要怎么样去进行交易。对我觉得这个是很重要。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:17]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，如果你不想做一个trader，你就是想说我就是每年赚点小钱，赚个七八个点10个点，那你就直接去买指数就可以了。这你就是你不需要去做什么投资决策，只要需要把一些小的门槛过掉，开户入金，然后你就买买买指数就行了。可能非常简单，是就像大部分美国人一样，因为大部分美国人他们养老金就放在这里买指数。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:42]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-那你有没有什么推荐的相关资料，就是什么书、视频之类的，我们可能有过，甚至不知道指数是什么东西。那他怎么去学习？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:53]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我是自学，你基本上去一些券商开户，他就会有那些课程，你把这些先看完，包括衍生品其实都是自，因为他们都会有对应的课程的。券商其实希望你非常频繁的交易，因为他们赚的手续费，包括你融资费用，他们都赚的是这个大钱。对他们来说融资费用是大钱。所以他们希望你频繁交易，希望你开杠杆。所以他们希望你理解所有的能够用来交易的东西，包括正股衍生品，还有各种各样的期货什么之类的东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:21]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你知道现在crypto领域里面很多人在玩玩future，玩期货，而且是那种永续。那这个是风险很大的。但是大部分人对风险完全没有任何理解，吧。为什么那些人就直接上来去买了几个币，然后买了几个token就开始买，就开始玩风险最大的衍生品，我觉得这个和define和这些就是CEX像BN或者是些其他CEX的教育是很重要的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:44]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你难以想象一个开美股的人，然后马上证券的APP就叫他去玩玩你玩期货或者期权，这不可能的，对不对？大家都是让他去买基金，买指数，对不对？大部分人都是这样。但是如果你是crypto的韭菜，那那你开了一个弊端账户，马上就让你去买合约就很奇怪。对，但是所以我就我觉得如果你想要找教材，那第一件事情是开户。开完户之后你就有各种各样的教材，首先找到你。但至于你怎么根据这些教材去来做交易，是成为韭菜还是把别人当做韭菜的话，那就完全看你自己的造诣。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:22]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-感觉国语已经不是那个，就是他又过了一个境界，就跟用那些笔记软件的，最菜的人用apple notes，然后最牛逼的人也用apple notes。然后中间的人大家分都在分析各种各样的生产力工具。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:39]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-因为怎么讲，是世界很不公平的。一旦你的这个金额就是资金的数额，资金体量上升到一定程度之后，你可能有的时候不用考虑太多。你像巴菲特，他他可能最大的投资决策都是很简单，这在外人看来就是觉得他在扯皮，但其实不是。他他之前说像伊隆马斯克干的事情是很难的，他不愿意干难的事情。就是他他说他和那个谁就只想干一些简单的事情。比如说他们最近买了日本上市的股票，这件事情逻辑超简单的。就是因为日元会日元的利率很低，所以他们从日本商社发日债，发企业债，然后从日本民众那里借钱，然后再买赚美元，就是赚一个利差。但他资金体量大，他一年买几千亿美元，所以他赚的钱，我们做什么其他的高杠杆的东西都赚不来。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:28]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:29]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这个有点像打德州的时候，忙度比较大的时候赚的也比较多。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:32]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-就有时候有点受挫。就比如说感觉别人资金小的时候赚一年，比如说20个点都没有，比如说资金量大的人，可能2%的钱都赚的多，这种很。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:44]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这个世界是这样的对对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:48]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以当郭宇郭宇你当当你第一次意识到自己突然拥有了这一笔这么大的财富的时候，你当时有心态上有什么变化吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:58]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-17年的时候有一段时间都蛮抑郁的，因为每天晚上睡不着觉。本来工作就很累了，两三点才回到家，然后又睡不着觉，就一直在看一些偶像剧，看到六七点，然后睡2个小时相机。对，因为当时真的很烦，就是因为太多不确定的东西了，所以对我来说那段时间的这个转心心心态的转变是非常痛苦的。没有。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:46:22]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-你是说是这笔财富给你带来的一些不确定性？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:46:25]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，因为那个时候要想我到底要怎么花这个钱，我要怎么样花，怎么样去配置这个东西，才能让我以后一辈子不工作。我把这个目标放在上面，所以就有好多要想的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:46:39]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我也好想经历这样的烦恼，关键是我在想是什么什么量级的钱让你有了有选择的困难。因为我在想可能怎么打比方说呢？就比如说百万级的跟千万级的，还有亿级的这三个level，感觉给带来的烦恼是不一样的。比如说你百万就像你说的，可能就在一个大城市安家了，然后千万的话，你可能在大城市多买一套房，或者说考虑投资一些其他的渠道，或者海外的一些资产。那一级的又不一样了。所以我在想到底是什么样的level能让你有了这些选择的困难？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:16]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以我就这么跟你说，如果你是自己前500号员工，如果你又是工程师的话，那基本上身家都早就上亿。所有人都是这样，只是我只是我把这个东西分享出来，很多人根本没没有没有在网上说这事。而且有很多早期员工，几十号的员工，他都非常多钱。而且像我以前的老板郑宇，他都是非常多钱，他可能是我十几倍。像振宇可能觉得去做个更大的事情，就是做事业更幸福。像有些人可能觉得有小孩，然后家庭和睦更幸福。那对我来说可能我觉得我我觉得一辈子不用上班，我可以想去哪，那这种自由自在的这种吉普赛生活方式可能更对我来说更幸福。所以这不好不能一一而足的去讨论它。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:00]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我觉得每个人对幸福的定义是不一样。很多人理解财富自由或者不自由这个事情，可能更多的是在一个拿薪水的角度上去考虑的。所以他们很多人定的目标都不太现实，更多的应该是从你的支出角度去考虑。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:17]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-如果你们对这个话题感兴趣的话，可以去研究一下那些美国人怎么去定义fire，就是FIRE什么的。对，他们有一套非常明确的标准来定义，而且很多人可以很简单的去实现它。因为他们只要把自己的支出降低就可以了。那怎么降低支出呢？你当然不能有各种各样的负担，对吧？小孩家庭这都是负担。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:38]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你可以选择去一个生活方式比较简单，同时又比较自然环境和各方面的东西又比较充裕的国家。像泰国、像巴厘岛这些地方，很多数字游民会选择去那里，就是因为这样可以极大的降低他们的开支。这样的话只要赚一点钱，你甚至就写一个APP，做一个独立开发者，都可以达到一个财富自由的生活。这个完全取决于你的开支，而不是取决于说你的收入，你的工薪是怎么样子。不同的很多人他他他这样一概而论的去说这个话题，只是当做一个茶余饭后的一个笑谈。因为他们不会再做这样的选择。真正会做这样的选择的人，他跟你讨论这个问题的方式不一样，他提的问题也是完全不同。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:49:20]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-其实在很多发达国家，有很多年轻人会选择发展的生活方式，在日本也是一样。我之前在微博上写过一个东西，就是我来了日本生活一年之后，当时去签约，然后看到一些朋友在那冲浪。然后我就说你们平常就是在这边冲浪也不上班吗？他们说我们上班的那我们说我们在这附近便利店打工，我们一周上两天班。你知道日本很多年轻人他赚也赚钱，赚不了太多，但他就是选择在那里去实践自己的爱好，然后打1.0工，人家照样也可以一周休五天，对吧？也饿不死，当然他们也不会选择结婚生小孩，所以这些东西对他们来说是一个现实的生活方式。但是在中国就不一定，因为中国人的价值观，中国人想要的东西可能太多了。然后这么多的东西很难去支撑你要实现一个财富自由的生活。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:15]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以你在小红书上一看都是说什么，年薪几千万，然后房子5000万不能算中产。那咋不能算中产的？是不是你一天吃饭得花几个钱？我很不理解，你知道吧？就是这种完全是那种创造焦虑的那种话题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:29]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-不要说在上海了，5000万你在哪个国家？在美国，在纽约都不是都算是富人了，对不对？这绝对算是富人了。那你不要花那么多钱去买房，你说5000万在上海买，只能买一个稍微好一点，你别买不就行了。你就是你有5000万纯金融资产，不是房子。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:47]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你有5000万纯金融资产，现金在哪个国家都是富豪了，是不是？所以更现实一点就是来看的话，如果你你们或者是听这个节目的听众真的在乎说我自己想要把把自己的生活方式塑造成为一个fire的方式，或者是一个财富自由的方式的话。那你首先要干的事情是衡量自己一年到底花了多少钱，今年花了多少钱，去年花了多少钱。对，然后再衡量一下今年和去年花钱是不是已经让自己生活已经有一个比较犹豫的一个状态了，是不是手头还紧了，还是说现在花的钱已经觉得生活足够好了没必要买的东西也不需要买，已经足够满意了。如果足够满意的话，不考虑其他风险。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:51:32]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-那你其实按照现在的这个支出去做一个大概十倍或者8到10倍左右的这样一个总金额的纯金融的一个财富。你基本上就是财富自由的状态。因为你8到10倍收入，你一年不管做些什么投资，你哪怕你买美债，美债是零风险投资，一年5.5利息，对吧？你一千万都有550都有50，就是55万的这个纯现金收入。55万不够你花吗？我觉得一个人是够花的，尤其是在中国，你甚至因为你不上班了之后，你你花你可花的钱其实比较少了。这个真的是我自己个人的感觉，我不上班之后花的钱少了很多。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:52:06]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你什么奢侈品啥东西不需要买了，你鞋子衣服你就整天在家里或者是去一些乡下，没人会管你，根本不需要跟人家比较是吧？车子你甚至都不用买好车了。因为我我发现我买了好车，我不在东京开没意义，所以在乡下就随便租车或者买个破车就可以了。你会发现你不上班，你离开这社会，你到这个社会的角落之后，你能花的钱没那么多。所以我才会说我以前的推算有点太多了，没有必要那么多。如果我不刻意去买一些很贵的东西，我不刻意去一些很贵的地方旅行的话，我就在日本呆着我真的花不了多少钱，所以从这个角度来看，我都花不了多少钱。但大部分人来说应该更更不需要花多少钱。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:52:52]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你如果按照十倍来算，一年你花个20万，你有个200万，你都可以自由了，你就拿这个200万去买美债，这样的话就会有序的去去去维系你现在的生活方式。但是当你要住在一个一年花20万就够的地方，比如三亚或者什么其他地方，我不知道有很多地方，很多这种地方都有的。你可以去泰国，这是为什么？很多人想去泰国的原因为泰国医疗很便宜，泰国医疗超级便宜，而且也不需要排队。而且他你你甚至不用买医保，不用买保险，你就直接去看病就可以便宜的要死。而且泰国吃的也很好啊，天气也很棒，对吧？娱乐也很多。这是为什么很多人选择去泰国的原因？对，所以如果你的视角放得很大，财富自由是一个很轻松的或者没那么难的话题，fire就是一个更简单的话题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:53:39]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，fire. 他给的那个标准是一年4%，就是你年消费额的4%，年消费额除以4%就是你需要的投资额，对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:53:51]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-在现在这个高息的社会，你一年买个美债就5.5的利息，对吧？这个000风险的投资回报。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:54:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-OK，关于财富，我想问郭宇的最后一个问题是，郭宇你现在回过头来看你28岁的时候写的那篇退休的文章，你觉得里面有哪一些是没有变的，有哪一些是你变了的？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:54:20]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-泡温泉什么的这种爱好应该还没有变。要变了的话，可能就是之前我就想说做一个十年的计划，也许可以写几本书啥，但是现在也就写了几篇中篇的小说。然后去年因为城市画报停刊了，导致我这个撰稿人的这个职业也没了。本来一个月还有750块钱人民币的收入。是我唯一在国内报报这个收入税的。报这个叫叫什么？就是他们会给报那个收入税，就是你的那个劳动所得税，就工资的那个税的唯一的一项也没有。所以我觉得可能相比于我以前定的计划来说，是写东西写的比较少写东西写的比较少。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:55:01]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后加上去年开始在日本做了一个叫做check一个公司，做一些web 3的项目，探索一些日本的一些互联网机会。我招了其实我招了非常多的国内的朋友过来。上海的然后独立开发者也好，然后以前做在国内做硬件的也好，我招了很多有意思的朋友过来。现在公司十个人。所以现在要相比于我退休的时候就无所事事状态要更加的忙一些。因为有很多事务性的东西要去做，有很多会要去开。然后包括一些日本这边行业内的朋友要认识，所以换了很多名片什么之类的东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:55:36]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-就是现在现在相比以前，可能以前在社会边缘，就是刚退休的时候在日本的社会边缘，现在稍微往里面靠了一点的这样一个感觉。但是我又不想让自己变得太忙，所以就试图去年这一年都在试图在这个东西当中寻找一个平衡。然后我现在不想让自己变得太忙的方式，就是多招一些人。我要干的事情可能就是在股市里面赚点，然后我再多招一些人，然后让他们先来帮我办事就可以。所以我现在是在在招这个类似CEO的角色。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:56:07]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-顺便来展开聊聊你在你现在在日本的生活，你的公司，你的业余的生活这种话题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:56:17]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对刚退休的时候来说，可能会比较轻松一点，就是到处玩。但是过了两年之后，现在基本上生活就很稳定了。在日本有三个地方住，平常有事的时候就驻东京，看到背后这个就在在元素在哈拉吉库。然后夏天的话会比较多去宫古岛，宫古岛造在靠近台湾旁边，它是一个冲绳的离岛，夏天就会去那边就是潜水，然后冲浪什么的。一般会去一个半月到两个月左右的时间。我刚回刚从那边回来，其实冬天还是会回长野的那个安云野，然后安运野那边有一个家，安运也是在白马旁边，开车去滑雪场的话，大概只要二十多分钟，三十多分钟就可以到这个点。所以12月份可能就会准时就回安义去滑雪去了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:57:10]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-因为厂里的雪从12月就开始，然后其他时间有事就待在东京，基本上是这样一个生活方式，今年因为疫情的管制措施都取消了，所以生活方式就变得比较的不是完全所有时间都待在日本，因为每个月也会回上海一次。前两个月都是每个月回上海一次，就看看家人什么的，也会出国，但今年出国主要就是去一些度假海岛什么，下个月会去马尔代夫，然后年底可能会去到大溪地上。就是现在我主要的旅行开支都是在这个事情上，都是在度假上。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:57:46]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以今年变得应该不做那些什么旅行计划了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:57:51]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-也会做旅行计划。对，还是我自己在做。因为我想把旅行社重新开起来，旅行社就休息了好几年没开始，但是国内一些朋友现在过来这边还是比较少，相对而言还是比较少。温泉的旅行基本上是从秋天开始，现在夏天太热，所以秋天我们可能会恢复一些团，恢复一些以前的经典的路线，九州的一些路线什么的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:58:14]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后check这家公司是在日本做互联网产品。我们做web 3的技术的产品，也做AI相关的产品。然后我们基本上就是一个，你可以理解为这是一个非常松散的，自由独立开发者的一个组组合。然后我给他们发工资，但他也不需要过来坐班，我们有办公室，但是不会有人会过来办公室，就是这样一个异步工作的一个状态。然后我们有两个设计师，两个程序员，然后还有一些行政和做商业拓展相关的一些人，还有一个日本合伙人叫荒川。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:58:49]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-那这个模式是产品是你来定产品的方向，还是说OK产品。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:58:55]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-是我来定。对，但是也会有一个project manager来催促他们做事，来组织他们做一些事情。对，但产品基本上是我来定，我们现在在做一个主要的核心产品还是这个NFT会员卡和它的积分系统，就是ERC20的积分系统。然后我们把所有会员卡的交易做成加密的电子小票，放在区块链的liar 2上。现在主要是senate和sn net。然后把这些加密的电子小票放在区块链上之后，我们给这些电子小票当中的内容做定价，然后把这些电子小票卖给需要数据的企业。这个是所谓的dealie ed information bank，在日本叫做情报银行，这是我们干的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:59:41]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-情报银行。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:59:42]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-当时你是怎么想要做这个产品？是你看到了一些什么样的未来吗？还是怎么样的想法？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:59:51]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，主要是我觉得open c对我的启发很大。我觉得NRT现在是一个不管他是用钱砸出来还是用艺术品砸出来，故事也好，但很多人能够认可它作为一种数字产权是存在，以往我们很难定义数字产权在互联网发展到现在的过程当中，一直都是在集权化。就是你你知道所有的东西都变成大公司，账户变成大公司，这在在过分集中了GPT的这个能量能力，全都集中在模型内部，甚至程序员都不知道怎么样去管理它，对吧？这都是很严重的事情。所以我觉得NRT定义数字产权虽然有很多骗子，但是对于普通人来说，它可能是一个很重要的工具。但是对于普通人来说，你有什么可以卖的呢？这也是我一直在思考的问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:00:36]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，就是数据其实还有很大的价值，然后我们把所有数据的价值都给到了科技公司去去靓丽他们的财报去了。我们根本没有意识到说数据在我们每一个APP上产生的数据能够值多少钱。但我觉得就随着AI的发展，以及未来对数据的敏感性的提高的问题。因为你训练personal这个AI需要personal数据对吧？你不用personal数据来训练是没有办法去fight ten。所以这就意味着你凭什么拿我的数据来免费去做这个事儿，这个不可思议对不对？如果是公共数据，对，如果是公共数据，你用它来训练模型，用人类的知识来训练模型，或者开个车在在道路上采集照片什么的，那倒无所谓对吧？但是你用个人化数据来训练，这个是一个很可怕的事。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:01:25]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-所以我们当我当时觉得说数据一定会是一个很大的消费市场在未来，但怎么消费这个东西呢？因为以往都是你开账户，在其他平台开开完之后这个账户就是别人的，别人想卖就卖，对不对？根本就没有一个数字产权的概念。那现在你可以通过合约来定一个数字产权，这可能只是第一步，所以check干的事情主要是买卖，以NFT和token的方式去买卖个人创造出来的数据。并且我们在买卖的过程当中会给所有参与者分成，这个是我们干的事情。这个在日本是一个很成熟的盈利模式。所以当我们开始做这件事情的时候，然后和我们合作的日本企业马上就意识到我们在干什么。但是在很多其他的国家，买卖数据是一个灰色产业。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:02:12]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个在日本竟然是一个已经成熟的产业了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:02:16]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-日本有情报银行法。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:02:18]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-中国没有。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:02:20]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-日本有情报银行法是2013年的法律。这个法律规定如果一个企业拥有用户的数据，要你可以买卖他。但你要怎么样去买卖它，怎么去获得用户的许可，以及怎么去储存这些数据，异地灾备，各种各样的东西一旦泄露之后，你要承担什么样法律责任，这是这个法律规定的东西。你知道日本有很多的大企业。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:02:40]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-OOK不好意思打断，我之前也想过这个问题，因为我在想ChatGPT他训练的时候，他不是在用我们personal的数据。不太理想的模式。比如说我们发到redit上面的任何一个post，还有或者说发到那个stack overflow上任何一个answer，最好都是我们自己能收取这个费用的。比如说他训练每每一次训练都给我们钱，或者说平台转让一次，他把我们的信息卖出去一次都给我们钱。然后我们的每一个token相当于就每一个发出去的pose都是一个token。这样的是我觉得是最理想的情况。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:03:16]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这是很多人现在在做数学化的一个美好设想。但是我觉得你要笼络所有在这个互联网上的信息是很复杂的一件事情，它没那么简单。所以这样做的事情是NRT会员卡。因为我们做的都是实体经济当中发生的真实交易，这些数据在数据的交易市场当中，要比那些在网上那些数据要更值钱。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:03:38]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我刚才说到日本有情报银行法，所以他们买卖信息是一个很常见的盈利模式。但是在大部分国家这是一个灰产，因为你的数据在不知不觉中就会被人卖掉，而且也不会给你钱。但是在日本的话，这是一个法律框架约束下面的东西。所以我们在做的这个事业也是在法律框架下约束下面的事情。就对于用户来说，能够比较简单获得自己产权的数据，你在每个商店消费的小票，这些东西能够卖钱。在日本以前就有个人在做了，有一个产品叫one，他在日本有四百多万用户，他就是。每次花10日元来买断你的小票，一天最多买五张，所以以下那个应用你只要唯一要干的事情就是拍自己的小票上传上去。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:04:27]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，这个在其他国家也有，好像美国也有。就是你把小票的数据拍照上传，是他他会给你一些优惠券。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:04:37]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:04:37]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-日本是直接给钱。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:04:39]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对这些信息这些消费信息是非常有价值。因为它能够预测甚至能够预测大宗商品的走势是怎么样。所以我们的最终的目的是能够寄希望于这种NFT数据产权的交易平台，来创建一个能够预测某一个地区经济的预测引擎，这个是我们想要干的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:05:00]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-OK, 对我知道那部分数据是非常有价值，尤其是这种消费数据。我们比如说能check那些credit card的消费数据，但是像现今的数据是真的很难check。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:05:11]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-然后这部分为什么？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:05:13]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，就是数据很有价值了。因为我们如果综合起来，电商平台create card的消费数据，再加上现金的消费数据，就能宏观的知道某一类商品或者说某一类经济正在崛起之类的对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:05:27]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这是为什么？其实情报银行大部分都是由银行来做的原因，因为他们知道所有人的消费的情况。其实远在2011年的时候，我在支付宝做年账单，支付宝就已经知道这些东西。你的七大姑八大姨买了什么礼品送给你，他都知道你马上即将要发生啥事，很可怕对吧？但是对但十几年前其实淘宝就有这样的能力。但我不清楚为什么他们完全没有用这个东西，他们只是用这个东西来去做一些那种炫耀的产品，像是年账单这些东西。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:05:57]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，可能是有内部可能在用做一些推荐算法之类的。不知道。所以你当时选择日本是应该没有考虑这么长远。这只是因为喜欢这个国家，喜欢这个环境，然后去的就没有考虑说什么创业，创业的氛围，还有创业的这些好的条件，还有一些创业没没有考虑。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:06:18]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这个没有考OK。在创业角度上来说，日本不是一个很好的选择。你直接去美国不是更好吗？这样的吗？对美国有资本市场有最多的钱，最多的工程师，最优秀的工程师。其实来日本主要是因为我觉得日本的生活方式，然后加上他的生活品质比较好，所以它的人均寿命是全世界最高的，医疗各方面的东西都比较好。我纯粹是觉得想活的时间长一点，再加上我喜欢泡温泉，然后温泉旅馆其他地方都没有，就只有日本有所以对我来说我一直在纠结，2017年18年的时候一直在纠结新加坡还是日本，但最后还是选择了日本。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:06:58]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-因为我觉得新加坡太小了，太小了，我会觉得如果我生活在新加坡的话，那我每天都要出国，或者每个周末都要出国。而且我又周我又只能去周围那些比较一致的国家，就是热带的国家对吧？如果我想要在新加坡滑雪，那我就要反季的飞到澳大利亚去，这很可怕是吧？所以它不是一个四季的国家，就是他他的生活方式会比较的单调。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:07:22]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-加上新加坡有很多不太利于外国人的法案，我我我个人不太喜欢这个国家政府，他们对外国人和本国人完全是区别对待。但是如果你在日本，你拿的日本的这个居留卡的话，你的外国人和和本国人的对待在法律意义上都是一样的。只不过你去很多地方开户或者是你不会日语的话，你会有遇到一些困难。但如果你会日语的话，基本上和本国人是一样的。但在新加坡不一样，你要买车的话，你要付出比别人3三五倍左右的费用，就更别说房子的问题了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:07:54]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-你知道之前有一次就疫情期间，在APP火的时候，你不是当时举办了几次，就是每天都要固定都举办了几次，介绍日本的各种情况，创业相关的那些。我当时每天跑步都在认真的听，就是你介绍的那段时间正好是我跑步的时间，然后我听的心驰神往，就觉得日本真的好好。那你在现在这个2023年这个节点，你还推荐大家去日本吗？还是推荐的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:08:23]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-因为其实在疫情之后，来日本的居住的朋友更越来越多了。因为很多人去了一下新加坡，意识到新加坡不太好，然后有很多的华人没地方可去就只能来这儿。我个人认为中国人对日本这个民族的偏见是很大，但是反过来，日本人对中国人的偏见也是很大。但是有一部分是因为历史的原因，另外一部分是因为这个之间的沟通和交流实在是太少了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:08:49]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-很多人觉得日本可能还是在右翼的角度，在军国主义的角度去考虑日本是一个什么国家。但其实在日本是一个二战之后就基本上和美国是一样的国家，是麦克阿瑟改造的，就是君主立宪的国家。所以你如果要看待现代日本，你就把它理解成这个东方的美国就可以了。他只不过在很多生活方式上，在一些民俗和一些旅行的角度上来说是东方化。但他的精神内核就是和美国没有什么太大差别。但是很多人并不会这样去思考日本，因为他们会觉得日本不用英文，所以可能很多人就不会过来住。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:09:28]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我觉得可能一年是个巨大的鸿沟。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:09:31]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-但是它的内核和美国没有什么太大区别。虽然日本人更加的精神英国人，但是但我觉得就是在二战之后，就日本战败之后，基本上跟改造的跟美国没什么太大差别。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:09:46]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-原来是这样。那你就现在创业期间，因为之前你是一个输出特别多的人。你知道在最早的时候，你还在可能在支付宝的时候，疯狂造轮子在get hub。然后我当时也在学no GS，然后天天看你的代码，是就是觉得你的那个经历非常多，而且你还写一些文字，当时那个blog写的也是挺好的。那你现在比如说创业之后，你刚才说很多事都交给其想想委托给其他人办，那你对那个什么代码什么之类的，还有激情吗？之类的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:10:20]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-有，我还在写合约相关的东西。我虽然是前端客和那个客户端交给其他同事，但是我还在写这个智能合约相关的东西。对我来说这是一个非常新的领域。其实从去年前年开始关注，重庆人在关注critter这个行业，现在叫web三这个行业之后，我就一直在关注他们怎么推进这个虚拟机的性能的问题。就是EVM和非EVM的虚拟机的性能问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:10:46]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-在现在发展两年之后，其实已经有相相当相当多没有在以太坊上实现的一些action，已经在later 2上实现了。所以他们能做的事情其实越来越多了。但你会发现除了define，还除了一些game file之外，大家没有在NAT或者其他的这个ERC标准上去玩出太多的花。我觉得这仍然还是一个非常早期的东西。如果他一开始的目标是成为一个全球支付网络，或者是非主权货币，像被扣一样，那他的目标已经达到了。但是retaliate的目标是希望能够实现一个基于货币网络的计算机网络，对吧？他们希望能够在这个VM上能去做一些更多的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:11:27]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-至于这个事情是什么？其实这个基础设施的创办人是预料不到。那他可能预料不到uni swap，他可能预料不到define，但他他希望能够提供更多的一些inner structure，让这些程序员有能够在现实社会当中能够完成事情。移平移到这个世界世界上来。我觉得这个东西是一个非常大的事情。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:11:46]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-就是以往在201我最早买b cocoon是2013年的五月份。但我没有说觉得这个东西有什么太多的是成为什么全球计算机的这种潜力，只是觉得它是一个p to p2的货币它是一个无法被磨磨磨灭的货币，所以可能会有那么一点投资价值。到现在这个角度上来看，2017年就是他想要干的这个事情，我觉得基本上百分之三四十是干成了，很多人都都能认可他。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:12:14]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-其实我们是可以在block上去跑全球运行的计算机的对，这是一个很伟大的事情，对吧？就相当于你有一个状态，不你有一个全球性的事务性数据库，只不过它比较贵。所以他们现在在尝试怎么样把这个贵弄得便宜一点，但是仍然维持他全球性事务性数据库的这样一个能力。以前没有这样的东西，对吧？以前没有这样一个东西，这是一个非常全新的东西。我觉得至少在这个合约这个领域，我觉得还是对人还是非常有吸引力的。所以我一直在关注layer two的发展，你知道later two的发展过了一两年之后，像arbitron，像OP arbitron可能是number one。OP现在已经有很多产品在基于OP在用了，包括OP做了OP stack ZK技术的sunlight somewhere。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:12:59]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这个其实我最关注的，因为我觉得你要网上部署自己的APP，你必须要有可拓展性。但是现在有很多的区块链网络都没有可拓展性，所以他仍然有比较长的路在走。我觉得再过个三年可能能够到60%左右。我们也许可以看到一些非常大的APP在这个领域里面出现。再过3，然后除了这个角度，除了虚拟机这个角度的发展之外，各个国家的金融体系都在尝试融入cyp to。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:13:26]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这个是2017年完全看不到的事情，包括日本，日本这个大家看起来很落后的技术很落后的国家，对吧？尤其在互联网的领域。但是他们最近几年不管是在GPT模型上，还是在这个web store的这个法案上都修改了相当多。他们的UFJ银行和SMBC银行甚至已经把稳定币都做好了。他们已经做好了里边稳定币，他们现在可以随时在这个公共网络上供应稳定币了，只是他们还没有决定什么时候干这件事。很这个很先进对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:13:57]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这个非常先进的，我觉得对，因为在美国，因为在美国商业银行还没有发行稳定币，在美国仍然是circle和usdt干的事情，私人公司感觉。但日本人是希望他们能够从上而下，由商业银行提供稳定币，然后由这个稳定币中介业者这个私人公司来为网络提供流动性的方式来做。所以我觉得他们自从建立这个数字厅之后，就是在这科技发展这个角度，尤其是互联网科技发展的角度，采用了相当多非常激进的技术。然后上周他们和微软直接采购了ChatGPT给日本政府用，这个也是很。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:14:35]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-动作很快，难以想象。我对因为从我一个因为我对日本不是特别了解，我感觉日本一直是一个偏落后的国家，没想到还蛮先进的。然后可能中日有差距，日对说错，中日可能美美日有差距。美国他他本来就比较习惯把一些这种基础能力交给一些私人的企业主，而不是日本。可能他还是希望从官方的角度去做。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:15:03]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-这件事对是的，所以我觉得日本民族是一个很很奇怪的。他要么不敢，他要么就是180度大掉头，而且掉头速度很快，你快点让你感觉有点不太适应，就是比较轴的一个，有点像德国人，一旦他们意识到他们要改，他们就会改的很快，然后就是很疯狂。对OK.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:15:23]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-郭宇有什么想要在节目里面提一提的东西吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:15:30]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我没有什么特别想提的话题，但是我觉得如果大家对这个节目感兴趣的一些听众，对日本或者在日本生活方式感兴趣，你们可以在网上去找到我，给我发私信。因为其实现在有相当多的中国的人，中国的大陆的朋友，包括工程师想要移驻到海外，是从去年的这个疫情的开始，他们都没有什么太多的头绪。因为很多人可能不是像我这么早就开始思考这件事，所以很多人是被迫的，就是想要干这样一个事情。包括我们从上海招的很多雇员，我们公司很多同事，他们都是被迫的在很短的时间内去选择要怎么样去移居到其他国家。所以我个人建议是说，如果这个节目的听众对这个话题感兴趣的话，要好好思考一下，哪些国家是适合自己的生活方式，哪些国家不适合自己生活方式。那最好的办法就是你过来玩一趟，然后过来住一段时间，但是不要去打卡，就是过来作为居民这种式方式住一段时间来体验一下。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:16:36]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-因为我确实也意识到有很多的朋友比较仓促的来日本，尤其不会日语的话，尤其是有很多朋友选择了用非常简单的这个叫什么语言学校的这种签证过来日本。那他就会突然意识到，哇靠这个国家完全和自己想象的不一样。因为他作为居民，他要用日语去很多要用日语去和很多的地方的这个部门打交道的时候，他就会认为日本人很很死板或者怎么样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:17:04]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-他有很多不太喜欢的地方，就是过来之后感到失望的人也挺多的。但是过来之后感觉到非常开心满意的人也是挺多。所以在这个节点会有很多人很着急，说我一定要怎么样，但是有的时候很多事情急不来。如果这个节目的听众对移居其他国家或者移居日本感兴趣的话，你有啥问题可以直接在推上发私信给我。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:17:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-关于这个话题我们前几期也稍有涉及，然后我稍微补充一下，因为我自己也是不停的在折腾，我从内地到香港，然后从香港又现在到美国。我在想关于移民这件事，它其实是一个非常重大的人生决策。所以说一定要做好research。然后做research如果实在没有头绪，最好的方法是找一个已经在当地生活了最起码两年以上的人，来去跟他面对面的沟通，或者说约一个视频聊天。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:18:02]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-就因为网上的资料，你不管是google搜出来，还是你自己去看一些私人的博客，还是说找一些各种各样的渠道看文字版或者视频版，它都是有一些吸收的信息的偏差的。然后不一定适应你想知道的真正的问题。所以你最好是找一个这个人能一对一聊一下，然后深入聊完，你可能就是对你真正感兴趣。比如说你现在家庭每个人的家庭情况都不一样，对吧？你现在有孩子跟没有孩子，你结了婚跟没有结婚，然后你是打算一个人先过去，还是全家一口气就过去？就各种各样私人的问题，你在网上是很难找到答案的，不是说每篇博客会适应你的情况的。所以你最好是找一个人可以单独聊一下，然后在网上的话就可以找。比如说去日本可以找国语，然后去香港或者美国可以找我。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:18:55]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，那我们就聊到这样好感，非常感谢郭宇。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:19:01]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-非常感谢感谢两位，感谢两位的时间。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:19:04]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-感谢大家收听这一期的代码之外，我们下一期再见。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[01:19:10]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-拜拜。
-</p>]]></content:encoded>
-            <pubDate>Mon, 14 Aug 2023 08:46:53 GMT</pubDate>
-            <guid>64d9e9fd80c9ec4c5f394813</guid>
         </item>
     </channel>
 </rss>

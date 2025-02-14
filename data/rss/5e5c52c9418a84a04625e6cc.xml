@@ -4,7 +4,1178 @@
         <title>硅谷101</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc</link>
         <description>分享当下最新鲜的技术、知识与思想</description>
-        <lastBuildDate>Thu, 06 Feb 2025 17:55:25 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 14 Feb 2025 17:46:19 +0800</lastBuildDate>
+        <item>
+            <title>E180｜量子计算的Transformer时刻与科技巨头的路径之争</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/67ae94a90d2f7da55ed38000</link>
+            <description>2024年12月，谷歌宣布基于Willow芯片的量子计算机仅需不到5分钟就完成了一项传统计算机需要“10的25次方”年才能算完的标准数学运算，并且克服了高错误率的难题。这一突破被业界称为量子计算的“Transformer时刻”。
+不过，量子计算距离真正实现可用性还需要多久？本期节目我们邀请到两位量子计算领域的科学家和创业者，一起讨论黄仁勋关于量子计算的时间预测，谷歌Willow芯片的重要性，硅谷公司在量子计算领域的布局有何不同，以及它将如何影响加密货币、银行体系，以及整个密码学领域。
+【主播】
+泓君Jane，硅谷101创始人，播客主理人
+【嘉宾】
+Roger Luo，Anyon Technologies 创始人兼首席执行官
+Jared Ren（任恒江），Anyon Technologies 首席技术官
+【你将听到】
+06:25 理解量子计算，量子比特的叠加态与纠缠态
+09:58 四大最先受益领域：矩阵运算、因数分解、量子化学模拟，优化计算
+13:50 黄仁勋判断二十年内实现可用量子计算，量子概念股集体暴跌
+17:30 明贬暗捧的英伟达：表面保守预测，暗地快速布局，量子计算或成GPU新增量
+20:00 下一代AI：量子增强帮助AI模型实现更强大的泛化能力
+22:26 谷歌的里程碑：Willow芯片解决量子纠错难题
+26:37 量子计算的Transformer时刻到
+27:47 理解量子纠错：从经典计算机的噪音处理，到量子计算的特殊挑战
+30:56 攻克高错误率的关键：“表面码”方案让量子&quot;稳定&quot;运行
+32:00 百家争鸣的量子计算路线：
+* IBM：超导量子比特路线，固守非纠错路线十多年之后被迫转向
+* D-wave：量子退火路线，不做通用量子计算选择限制了发展可能
+* 亚马逊：超导量子比特路线
+* 微软：曾押注拓扑量子比特但未成功，现转向软件平台
+* IonQ：离子阱路线，小规模表现好但难以扩展
+* Regetti：超导量子比特路线，早期技术领先但后劲不足
+47:30 学界落后于工业界：量子计算从科学难题变成工程问题
+49:59 揭秘量子计算机造价：一台造价百万美元的未来机器
+52:19 加息和降息的影响：从政府，主权基金到VC，谁在押注量子未来
+53:34 后量子时代的密码学：银行与科技巨头布局新一代加密技术
+55:33 加密货币的“命门”：破解私钥比银行密码简单
+01:00:01 当运营商不作为，金融机构来铺抗量子硬件
+01:03:31 新的卖铲人诞生了：硬件供应商的新机遇
+【文中提到的相关人物】
+* Irfan Siddiqi：加州大学伯克利分校教授，主要研究方向是超导量子计算。他是量子信息科学和工程中心（Quantum Information Science and Engineering Center）的创始成员之一。他在量子比特设计、量子测量技术以及量子纠错方面做出了重要贡献。
+* John Martinis：著名的超导量子计算专家，曾经是谷歌量子AI团队的领导者之一。他在加州大学圣巴巴拉分校工作期间，开发了许多重要的量子比特设计和量子计算技术。Martinis 在2019年宣布谷歌实现了“量子优越性”（Quantum Supremacy），即谷歌的量子计算机在特定任务上超过了经典计算机。
+* Oskar Painter：加州理工学院教授，专注于光子量子计算和量子光子学。他在量子光子学器件和系统方面做出了开创性的工作，特别是在开发高效的量子光源和量子接口方面。他的研究有助于推动量子网络和量子通信的发展。
+* Alexei Kitaev：加州理工学院教授，他在量子计算和量子信息理论方面做出了许多开创性的贡献。他提出了拓扑量子计算的概念，并开发了Kitaev量子比特模型。他还提出了著名的Kitaev链模型和表面码（Surface code）量子纠错方案，这些都是量子计算领域的核心概念。
+* Chad Rigetti：Rigetti Computing 的创始人兼首席执行官，曾在耶鲁大学获得了应用物理方面的博士学位。在创办Rigetti Computing之前，Chad Rigetti曾在多个量子计算领域的公司和实验室工作，包括与 IBM 和 Intel 等公司合作。他在量子计算硬件方面的专业知识使得他能够着眼于开发可扩展的量子计算机，尤其是在超导量子比特方面。
+* Ilya Sutskever：OpenAI 的联合创始人之一，前OpenAI首席科学家。在离开 OpenAI 后，Ilya Sutskever 创立了一家名为“安全超级智能”（Safe Superintelligence Inc., SSI）的新公司，目标是通过革命性的工程和科学突破来解决安全性和能力之间的技术难题。
+【相关技术名词】
+* 量子计算（Quantum Computing）：量子计算中的基本单位，类似于经典计算中的比特（bit）。不同的是，量子比特不仅可以表示0或1，还可以同时以量子叠加的方式表示0和1的组合（即同时处于多个状态）。量子比特的状态受到量子力学规律的影响，具备并行计算能力，是量子计算机能够进行超强计算的基础。
+* 量子纠错（Quantum Error Correction）：量子纠错是用来抵抗量子计算过程中出现的误差的一种方法。由于量子比特极易受到环境噪声的影响，这会导致计算错误。量子纠错代码（如Shor码、Steane码等）通过引入冗余的量子比特和复杂的算法，确保即使部分量子比特出现错误，计算结果仍然可靠。量子纠错是实现容错量子计算的关键。
+* 量子纠缠（Quantum Entanglement）：量子纠缠是一种量子力学现象，其中两个或多个量子比特处于一种紧密的状态，彼此间的状态彼此依赖。即使它们相隔很远，对其中一个量子比特的操作也会立即影响另一个。量子纠缠是量子计算和量子通信中的一个重要概念，它允许信息在量子系统中以非常特殊的方式传递。
+* 超导量子（Superconducting Quantum）：超导量子计算是一种通过超导电路实现量子比特的技术。超导材料在低温下具有零电阻特性，这使得量子比特可以在超导电路中稳定地存储和传递量子信息。超导量子计算是目前量子计算领域最活跃的研究方向之一。
+* Shor算法（Shor’s Algorithm）：Shor算法是一个量子算法，用于大整数分解问题。它的发现是量子计算的一个重要突破，因为这个问题在经典计算机中非常困难。Shor算法能够在多项式时间内分解大整数，这对于许多加密算法（如RSA加密）构成了潜在威胁。
+* 量子退火（Quantum Annealing）：量子退火是一种优化算法，利用量子力学的原理来寻找系统的最低能量状态（即最优解）。它特别适用于解决组合优化问题，如最短路径问题、背包问题等。量子退火与量子计算中的其他算法（如量子算法的加速）不同，更多关注通过量子力学的效应来找到全局最优解。量子退火已经在一些量子计算硬件上（如D-Wave系统）得到应用。
+* Large scale fault tolerant quantum computer，大规模容错量子计算机：是指能够容忍计算错误并维持量子计算过程稳定的大型量子计算机。实现这一目标需要解决量子比特的噪声和错误问题，采用量子纠错技术并构建能够处理大规模量子比特的系统。当前，这仍然是量子计算领域的一个挑战，但它被认为是实现实用量子计算的最终目标之一。
+* Google Sycamore：是Google开发的一款量子处理器，标志着量子计算领域的一个重大突破。2019年，Google宣布Sycamore量子处理器成功实现“量子优越性”（Quantum Supremacy），即它能够在200秒内完成一个经典超级计算机无法在合理时间内完成的任务。Sycamore的成功展示了量子计算在某些任务上超越传统计算机的潜力。
+* 量子密钥分发（Quantum Key Distribution，QKD）：是一种利用量子力学原理（如量子纠缠）来实现安全密钥交换的技术。QKD的基本思想是，通过量子信号传输密钥，任何试图窃听的行为都会被检测到，因此能够提供比传统加密方法更高的安全性。
+* 椭圆曲线签名：是一种基于椭圆曲线数学结构的数字签名算法，广泛用于现代加密系统中，如ECDSA（椭圆曲线数字签名算法）。这种签名方法相比传统的RSA算法，提供了更高的安全性和更低的计算成本。椭圆曲线加密在量子计算出现之前被认为是一种非常安全的加密方式，但它可能会受到量子计算攻击（如Shor算法）的影响。
+【监制】
+杜秀
+【后期】
+AMEI
+【BGM】
+Swerve Space - Lama House
+At the End of Nothing - Silver Maple
+The Road to Odessa - Lama House
+【在这里找到我们】
+公众号：硅谷101
+收听渠道：苹果｜小宇宙｜喜马拉雅｜蜻蜓FM｜网易云音乐｜QQ音乐｜荔枝播客
+海外用户：Apple Podcast｜Spotify｜TuneIn｜YouTube｜Amazon Music
+联系我们：podcast@sv101.net
+Special Guests: Jared Ren and Roger Luo.</description>
+            <content:encoded><![CDATA[<h1>转写链接</h1>
+<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/wg57n3awmvgwqkr3</link><br>
+<h1>节目摘要</h1>
+<div class="summary">量子计算机的成本主要由产量不足驱动，而非稀有金属。随着技术从高端市场逐步普及，文科生也被引入量子计算的基础知识。讨论集中于量子计算在解决传统计算难以处理的复杂问题上的潜力，如量子化学模拟、加密破解及优化算法，展现了其在科学、技术和商业领域的巨大潜力。尽管面临高错误率、量子比特控制和量子纠错等挑战，技术进步带来了希望。量子计算在金融、网络安全和科学研究领域的潜在应用，以及对现有加密体系和数据安全的威胁，已被金融机构和科技公司开始考虑。长远来看，量子计算预计会对普通人的生活和全球经济产生深远影响，预示着可能的革命性变革。通过类比计算机和GPU的发展历史，暗示量子计算虽处于早期，但必将深刻改变计算和数据处理的方式。</div><br>
+<h1>章节速览</h1>
+<div class="chapters">
+<div class="chapter-item">
+<span class="time"><strong>[00:00:00]</strong> </span>
+<span class="chapter-title"><strong>量子计算的现状与未来</strong></span>
+<div class="chapter-summary">讨论了量子计算机的发展，特别是谷歌基于vi LO芯片的量子计算机在减少错误率方面的突破，以及这一进展对实现有用量子计算的重要性。探讨了从谷歌的进展到未来量子计算机的实现，包括英伟达CEO黄仁勋对量子计算实现时间的预测。此外，还回顾了硅谷巨头在量子计算领域的布局和竞争，以及量子计算在加密货币、银行和运营商密码学等领域的应用和影响。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:03:15]</strong> </span>
+<span class="chapter-title"><strong>量子计算前沿：安恙科技创始人谈行业发展</strong></span>
+<div class="chapter-summary">两位嘉宾，安恙科技的创始人及CTO，均为加州理工大学的博士和博士后，拥有十年的量子芯片研发经验。他们详细介绍了自己与量子计算的渊源，以及创立安恙科技的初衷。公司旨在结合他们在加州理工和伯克利的前沿技术，将量子计算技术商业化，服务于未来的计算行业。他们还分享了对当前量子计算行业趋势的观察，特别是在AWS等大型云计算公司开始涉足量子计算领域的背景下，他们看到了成立自己公司的成熟时机。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:06:24]</strong> </span>
+<span class="chapter-title"><strong>量子计算的原理及其应用</strong></span>
+<div class="chapter-summary">量子计算与经典计算机的一个关键区别在于，量子比特不仅可以存在于零或一的状态，还能同时存在于零和一的叠加态中，并且不同量子比特之间可以产生纠缠，这些特性使得量子计算机在某些特定问题上能够实现指数级的加速，比如矩阵运算、因数分解、量子化学模拟和组合优化等领域。量子计算机并不是经典计算机的替代品，而是在高复杂度计算任务中与经典计算机协同工作，发挥重要作用。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:09:58]</strong> </span>
+<span class="chapter-title"><strong>量子计算在高复杂度计算领域的应用</strong></span>
+<div class="chapter-summary">量子计算在多个高复杂度计算领域展现出巨大潜力，尤其在矩阵运算、因数分解、量子化学模拟以及组合优化等方面具有传统计算机无法比拟的优势。具体场景包括：人工智能与机器学习中的矩阵运算加速，加密问题的破解，以及在油气、化工、药物研发等领域的量子化学模拟。此外，量子计算在物流优化等需要组合优化的场景中也表现出显著的加速效果。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:11:33]</strong> </span>
+<span class="chapter-title"><strong>量子计算对人工智能矩阵运算的加速作用</strong></span>
+<div class="chapter-summary">对话深入探讨了量子计算机在人工智能领域的应用，特别是通过加速矩阵运算，如求逆算法，对大模型训练和推理的显著提升。与传统GPU相比，量子计算机在处理大规模矩阵运算时展现出指数级的效率提升，这意味着在处理具有海量参数的人工智能模型时，量子计算能够大幅减少所需的计算资源和能量消耗，从而实现从GPU到量子计算的跨越式加速发展。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:13:49]</strong> </span>
+<span class="chapter-title"><strong>量子计算的商业化前景及实现时间</strong></span>
+<div class="chapter-summary">对话围绕量子计算的当前发展阶段及其在商业领域的应用潜力展开。讨论中提到了英伟达创始人Jason黄在CES上的观点，他认为在15年内实现非常有用的量子计算可能过于乐观，而30年则可能过于悲观，合理区间应在20年左右。这一观点引发了量子计算相关股票的股价下跌。此外，还探讨了回答量子计算实现时间的问题对NVIDIA等公司的股价可能带来的影响，以及投资者如何考虑量子计算对公司未来十年股价的影响。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:15:31]</strong> </span>
+<span class="chapter-title"><strong>量子计算对GPU产业的影响与未来展望</strong></span>
+<div class="chapter-summary">讨论指出，尽管杰森在量子计算领域是一个重要人物且其公司节省公司在该领域扮演着大角色，量子计算的全面实现和商业化仍需时间，可能在15年左右。量子计算的突破将可能减少对大量GPU的需求，特别是在处理极端复杂问题如蛋白质反应模拟时。然而，短期内GPU和量子计算将共同存在和共同发展，而非相互取代，因为量子计算的成本和技术成熟度还需时间。因此，未来10至15年将是GPU和量子计算共同发展的阶段，而不会出现一方完全取代另一方的情况。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:19:55]</strong> </span>
+<span class="chapter-title"><strong>量子计算与GPU技术的协同合作</strong></span>
+<div class="chapter-summary">对话聚焦于一家硬件公司与NVIDIA在量子计算与GPU技术领域的合作。主要合作内容包括使用NVIDIA的GPU和软件优化量子计算机的芯片设计和量子测控，以及利用GPU优化量子计算机的运行。此外，还探讨了通过量子计算机与GPU的结合，以增强AI模型的泛化能力，实现用较少参数和数据训练出更具有泛化性的AI模型，这被称为量子增强AI。合作中，该公司与NVIDIA形成并行关系，通过构建高速直接互联，实现量子计算机与GPU的实时数据交互，共同构成一个完整的量子增强计算平台。该公司拥有自己的量子芯片和完整的量子计算机，通过与NVIDIA的GPU系统互联，协同工作，以量子硬件增强GPU在人工智能学习问题中的应用。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:21:56]</strong> </span>
+<span class="chapter-title"><strong>量子计算芯片的自研与纠错技术</strong></span>
+<div class="chapter-summary">对话主要围绕量子计算芯片的自主研发以及量子纠错技术的重要性展开。发言者提到他们的芯片是自主研发的，因为涉及到独立设计、专利和制程。虽然市场上可能有专门制造量子芯片的公司，但很多技术领先的公司如美国的公司更倾向于自行制造。此外，讨论了Google新发布的reno芯片，指出该公司自2014年起就致力于量子纠错技术，以实现可扩展的量子计算。量子纠错被认为是证明量子计算可扩展性的关键，因为随着芯片规模的扩大，错误率的控制变得尤为重要。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:23:59]</strong> </span>
+<span class="chapter-title"><strong>谷歌量子芯片对量子计算研究的推动作用</strong></span>
+<div class="chapter-summary">对话围绕谷歌制造的量子芯片及其在量子计算研究中的重要意义展开。该芯片通过工程提升，展示了量子计算在硬件层面上的可扩展性，从而在实验物理可实现的设备层面验证了量子计算的可行性。尽管谷歌并非硬件公司，但这一成果促使管理层更加确信量子计算的发展前景，可能加速其量子计算研究，并为其部门提供更多资源，以进一步扩大芯片规模并解决实际问题。因此，谷歌的这一突破有望将实现非常有用的量子计算机的时间线提前至未来十年内。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:27:46]</strong> </span>
+<span class="chapter-title"><strong>量子计算中的微露芯片与纠错技术</strong></span>
+<div class="chapter-summary">量子计算实用化的关键障碍之一是噪音问题。与经典计算机通过底层纠错算法解决硬件和软件衔接层面的噪音问题不同，量子计算中，量子比特能量微小且极易受环境干扰，导致量子信息丢失。量子比特不仅可能出现零或一的翻转错误，还可能有相位偏移错误，且由于纠缠特性，需对所有纠缠的量子比特统一纠错。谷歌的微露芯片通过利用表面码纠错方案和优化的量子硬件，解决了这一核心问题，证明了随着量子计算机规模扩大，错误率不会增加反而下降，从而有望实现完全纠错的量子计算机。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:31:59]</strong> </span>
+<span class="chapter-title"><strong>谷歌量子计算机对行业的影响与技术路径</strong></span>
+<div class="chapter-summary">讨论集中于谷歌在量子计算领域取得的进展，特别是其完全纠错的量子计算机芯片，及其对IBM、微软、亚马逊、英特尔等竞争对手以及D-Wave等创新公司的潜在影响。谷歌通过早期投资和技术创新，如发明transformer，为行业指明了方向，降低了不确定性。IBM原先并未将量子纠错纳入其路线图，但谷歌的成功促使IBM及其他大公司重新评估并调整策略，转向量子纠错技术。D-Wave则因其专注于量子退火计算，路径与量子纠错相反，面临转变的挑战。此外，讨论还涉及了量子计算技术发展的速度与市场需求的关系，以及与可控核聚变技术发展路径的对比。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:38:05]</strong> </span>
+<span class="chapter-title"><strong>量子计算领域的技术路线与公司策略</strong></span>
+<div class="chapter-summary">对话讨论了亚马逊、谷歌、IBM和微软等公司在量子计算领域的技术路线和策略。亚马逊采用了新颖的超导量子比特技术，而谷歌、IBM也选择了超导量子比特，但微软则尝试了拓朴量子比特，但似乎已放弃并转向与其它公司合作开发逻辑量子比特计算机。谷歌选择超导量子比特因其工程可行性已得到证明，而微软则因决策失误，现在主要依赖软件与硬件公司的合作。对话强调了技术方向和决策在量子计算发展中的关键作用。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:40:54]</strong> </span>
+<span class="chapter-title"><strong>量子计算领域的技术路径与公司发展现状</strong></span>
+<div class="chapter-summary">对话深入探讨了量子计算领域不同技术路径的发展历程与现状，特别是离子阱和超导两种主要路径。离子阱技术因其历史和在小规模量子体系中的优势，曾被认为更有可能实现商业落地。然而，随着量子比特数量的增加，离子阱技术面临着巨大的工程和科学挑战，性能指标逐渐接近超导技术，导致技术路径的交叉。此外，讨论也涉及了特定量子计算公司的发展历程，包括它们在技术发展早期的领先地位以及后续由于未能及时采用最新技术而逐渐落后的情况。最后，提到了在量子计算领域，大公司如Google相比创业公司，在技术和商业层面展现出更为坚实的发展态势。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:45:35]</strong> </span>
+<span class="chapter-title"><strong>量子计算行业的路径选择与创新策略</strong></span>
+<div class="chapter-summary">对话围绕量子计算行业的发展路径和创新策略展开。讨论了IBM在发布一千量子比特芯片后调整路线图，以及与另一家公司相似的路线。提到了使用多个量子芯片做motion cord computer的早期探索和创新，以及在架构上寻求更高效、灵活的解决方案。此外，还对比了大公司如IBM和Google在创新和路径选择上的不同态度，以及在量子计算领域，学界与工业界进行科学研究的权衡。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:48:03]</strong> </span>
+<span class="chapter-title"><strong>量子计算：学术界与工业界的较量与合作</strong></span>
+<div class="chapter-summary">对话讨论了量子计算领域中学术界与工业界的差异和互动。学术界专注于快速试错和概念验证，尤其是在技术尚处于科学问题阶段时进行探索；而工业界则在技术成为工程问题后接手，追求落地和商业化成果。提及了量子计算的进展，如谷歌在2013年将量子计算从科学问题转向工程问题，以及量子比特数增加时遇到的学术难题。此外，还讨论了制造一台量子计算机的大致成本，约为100万美元。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:50:41]</strong> </span>
+<span class="chapter-title"><strong>量子计算的微纳加工与商业逻辑</strong></span>
+<div class="chapter-summary">对话围绕量子计算的技术挑战和商业潜力展开。增加量子比特的数量会导致良品率下降，对微纳加工的精度要求更高，这也是许多大公司选择超导路径的原因之一。随着半导体行业对量子芯片的逐渐接受，量子计算开始吸引传统半导体设备公司和晶圆厂的兴趣。尽管在加息周期中，政府对量子计算的关注度更高，但随着减息周期的开始，风险投资（VC）对这一领域更加关注。量子计算被认为是不可避免的未来，因此在敏感阶段，它与先进半导体和人工智能一起成为重点关注的领域。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:53:33]</strong> </span>
+<span class="chapter-title"><strong>量子计算对密码系统的影响与金融界的应对</strong></span>
+<div class="chapter-summary">量子计算技术一旦实现，将对全球密码系统提出升级要求，特别是安全层面，对此布局已经启动。两年前，拜登行政命令要求联邦机构在近期将加密算法改为抗量子加密标准，而新加坡金管局和汇丰银行等金融机构也已经着手采用抗量子加密技术和安全密钥。这些举动表明，尽管量子计算机的全面实现可能还需10到15年，但金融界已经开始积极应对，发展独立和共同的抗量子加密项目，以应对未来可能的密码安全挑战。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[00:55:32]</strong> </span>
+<span class="chapter-title"><strong>量子计算对银行和比特币密码的潜在威胁</strong></span>
+<div class="chapter-summary">对话围绕量子计算对银行和比特币密码系统的潜在影响展开。谷歌v low芯片发布时比特币价格大跌，引发了关于量子计算可能破解比特币算法的讨论，特别是椭圆曲线签名部分。舒尔算法在量子计算机的支持下，理论上能在多项式时间内破解此类加密系统。然而，当前的量子计算机距离实现所需的大规模容错能力仍有很大距离，需要约4000个量子比特。虽然预计这种量子计算机可能在十年后出现，但技术突破的不确定性使得其具体时间难以预测。银行和比特币社区正在积极研发抗量子算法和量子通讯技术以应对潜在威胁，包括升级加密机制和部署量子密钥分发（QKD）网络。尽管如此，参与者强调需要保持警惕，因为技术进步的加速可能导致预期之外的挑战。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:02:05]</strong> </span>
+<span class="chapter-title"><strong>量子计算的商业化前景及其对日常生活的影响</strong></span>
+<div class="chapter-summary">对话探讨了量子计算的商业模式和商业化场景，强调了量子计算作为一种高研发驱动的技术，如何在未来的5到10年成为补充计算平台。讨论中提到了大型公司和金融机构开始利用量子计算来辅助业务发展，以及如何通过销售量子计算设备给数据中心获取收入。最后，提到了量子计算对普通人日常生活的影响，指出其可能更多地在高精尖领域发挥作用。</div>
+</div>
+<div class="chapter-item">
+<span class="time"><strong>[01:04:29]</strong> </span>
+<span class="chapter-title"><strong>量子计算的未来及其普及之路</strong></span>
+<div class="chapter-summary">对话讨论了量子计算的发展历程及其未来如何从服务于高价值客户和大型机构，逐渐普及至普通人。提及了早期计算机的发展路径，强调了随着技术成熟和成本降低，量子计算也将经历类似的过程，最终广泛服务于社会大众。同时，对话鼓励听众通过各种平台参与讨论，分享对量子计算的看法。</div>
+</div>
+</div><br>
+<h1>问题回顾</h1>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在当前加息周期中，政府对哪个行业更感兴趣？</div>
+<div class="answer"><strong>A:</strong> 在当前加息周期中，政府对先进半导体、AI和量子这三个行业都感兴趣，但特别关注的是量子计算，因为其被认为是不可避免的未来。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 谷歌最近在量子计算机方面取得了什么重大突破？</div>
+<div class="answer"><strong>A:</strong> 谷歌最近宣布了一项基于vi LO的计算机芯片的量子计算机，在5分钟内完成了传统计算机需要10的25次方年才能完成的一项标准数学计算。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 谷歌的量子计算机是否已经实现了真正的量子计算？</div>
+<div class="answer"><strong>A:</strong> 还没有完全实现。谷歌的机器执行的是一项专门用于衡量量子计算进展的测试，并非能在医学或人工智能领域进行有目的性运算。不过，谷歌vlog芯片在扩展至更多量子比特时，显著减少了错误率，解决了科学家们困扰30年的难题。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 量子计算机距离执行有用任务还有多远？</div>
+<div class="answer"><strong>A:</strong> 英伟达CEO黄仁勋在CES期间表示，预计20年内可能实现非常有用的量子计算，但也有观点认为可能需要更长时间。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 能否通俗地解释一下什么是量子计算以及它的用途是什么？</div>
+<div class="answer"><strong>A:</strong> 量子计算可以类比为经典计算机，但其组成部分为量子比特，具有叠加态和纠缠态特性。相较于经典计算机，量子计算机在处理复杂高难度计算时，能实现指数级的加速，尤其擅长矩阵运算、因数分解、量子化学模拟和组合优化等领域。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 量子计算在具体应用场景中有哪些优势表现？</div>
+<div class="answer"><strong>A:</strong> 量子计算在矩阵运算方面能够加速人工智能模型训练，尤其是在GPU对矩阵运算的优势基础上进一步提升效率；在因数分解方面有助于破解加密问题；在量子化学模拟上可应用于油气、化工、药物研发等领域；同时对组合优化问题求解过程非常迅速。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于量子计算发展的阶段和商业化前景，两位嘉宾有何看法？</div>
+<div class="answer"><strong>A:</strong> 对于量子计算何时能够实现实用化，业界存在不同看法。黄仁勋预测20年内可能实现，但也有观点认为还需要更长时间。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在会议上，投资者是否在考虑未来十年量子计算对公司股价的影响？</div>
+<div class="answer"><strong>A:</strong> 是的，一旦开始回答这个问题，投资者可能正在考虑未来十年量子计算对该公司股价的影响，因为华尔街通常基于对未来十年内收益的评估来定价股价。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 杰森如何看待量子计算与GPU的关系以及其对公司的影响？如果量子计算发展起来，它是否会减少对GPU的需求，从而对NVIDIA股价产生冲击？</div>
+<div class="answer"><strong>A:</strong> 杰森认为量子计算在未完全实现之前，其对GPU需求的冲击可能不会在短期内显现，但长远来看，量子计算有可能成为计算中心的核心位置，类似于AI中的AGI。尽管从开始研发到完全落地可能需要15年左右的时间，但他用“very useful”来形容量子计算的价值，并暗示它将与GPU共同存在并共同生长，而非取代GPU。如果量子计算能够以更低的成本实现复杂运算，确实可能会减少对GPU的需求，但这并不意味着会大幅度降低对GPU芯片的整体需求。相反，两者在未来10到15年间可能是一种共同增长的关系，形成一个增量市场而非存量市场的竞争。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 你们公司与NVIDIA的合作关系是怎样的？</div>
+<div class="answer"><strong>A:</strong> 我们更重视产品技术层面的合作。我们使用NVIDIA的GPU及其软件算法优化量子计算机芯片设计、量子测控以及利用GPU增强量子计算机运行效率。同时，我们通过量子计算机结合GPU来提升AI模型的泛化能力，并通过量子增强计算平台实时交互数据，形成协同工作模式。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 你们的芯片是自主研发的吗？市场上有专门针对量子计算设计的芯片吗？</div>
+<div class="answer"><strong>A:</strong> 我们的芯片是自主研发的，拥有独立的设计、专利和制程技术。市场上大部分公司都自行研发量子芯片，因为量子计算领域的技术突破需要快速进展，将这一任务交给没有足够技术积累的团队可能会不太明智。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 对于Google新发布的Reno芯片有何看法？</div>
+<div class="answer"><strong>A:</strong> Google的Reno芯片延续了其过去的路线图，证明了基于纠错的量子计算的可扩展性。该芯片在硬件层面实现了实验上的可扩展性，尽管不是使用最领先的量子比特和保真度，但通过工程提升展示了量子计算在硬件层面的成功实现。这对于加速量子计算研究和证明量子计算的可行性至关重要。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Reno芯片会对Google的量子计算研究加速多少？</div>
+<div class="answer"><strong>A:</strong> Reno芯片的确会加速Google的量子计算研究进程，因为它作为活生生的证明，能够促使Google AI部门获得更多的资源来进一步提升芯片性能，使其在未来能解决更实际的问题。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> Reno芯片对真正实现非常有用的量子计算机有何影响？</div>
+<div class="answer"><strong>A:</strong> 在Reno芯片发布之后，预计实现真正有用的量子计算机的时间线将从之前可能的15到20年缩短至大约15年内，这表明有了Reno芯片作为重要证明，业界对未来实现实用化量子计算机的信心增强，预测更为乐观。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在GPU中，逻辑一和逻辑零的电压标准是如何定义的，实际操作中会有误差吗？</div>
+<div class="answer"><strong>A:</strong> 在理想情况下，1.2伏特代表逻辑一，0伏代表逻辑零。但在实际操作中，由于GPU芯片不可能完全一致，每次运算施加的电压会有一定差异。因此，当电压在这个范围内时，会被计算机底层算作逻辑一或逻辑零，例如1伏电压可能被当作1.2伏也就是逻辑一。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 经典计算中的纠错过程与量子计算中的纠错有何不同？</div>
+<div class="answer"><strong>A:</strong> 经典计算中，可以通过较大的数值范围来纠错，而量子计算中，由于量子比特的能量极其脆弱且易受环境干扰及内部误差影响导致信息丢失，所以量子纠错更为复杂。量子比特不仅会出现0和1的翻转错误，还可能有相位偏移的错误，并且量子比特间的纠缠特性使得不能单独对单个比特进行纠错，而需要对所有纠缠在一起的量子比特统一进行纠错。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 谷歌的量子纠错技术突破对其他量子计算公司会产生何种影响？</div>
+<div class="answer"><strong>A:</strong> 谷歌的量子纠错技术突破对其他公司如IBM、微软、亚马逊、英特尔等形成了显著优势，因为它证明了量子纠错方向的正确性，并且在人力投入较少的情况下取得了显著进展。其他公司开始调整路线图，如IBM在谷歌工作发布后也开始重视量子纠错，并开始相应布局。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 谷歌的微处理器是如何解决量子纠错问题的？</div>
+<div class="answer"><strong>A:</strong> 谷歌采用表面码这一主流量子纠错方案，通过优化的量子硬件证明了这种方法的有效性，表明可以按照既定路线继续扩大量子计算机规模和运算能力，同时保持或降低错误率，实现更大规模的有用量子计算。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 除了谷歌，还有哪些公司在量子计算方向上有所转变或合作？</div>
+<div class="answer"><strong>A:</strong> 除了谷歌外，其他一些公司也在根据市场和技术发展调整路线。例如，微软由于早期选择的拓扑量子比特路径未能证明概念，现在更多转向与其他公司合作，开发逻辑量子比特计算机；亚马逊则采用新颖的超导量子比特进行规模化发展；而像D-Wave这样的早期量子计算公司，其创始初衷和路径与量子纠错背道而驰，但现在也开始寻求转变或与其他公司合作探索更多应用场景。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 科学挑战会更难，是因为它需要什么？</div>
+<div class="answer"><strong>A:</strong> 科学挑战更难，因为它需要依靠基础科学的突破，并且其中存在更多的不确定性，需要更多的innovation去推动。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 现在业界最多可以达到多少个量子比特？量子比特数量增加时，性能变化是什么？</div>
+<div class="answer"><strong>A:</strong> 目前业界最多的是honey world那个32个量子比特，但随着量子比特数量增加，离子井性能会逐渐接近超导。随着量子比特数量变大，在保证度等性能指标上，离子井的表现越来越接近超导技术。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 技术发展过程中是否存在一些早期看似可能弯道超车但实际上并未实现的情况？</div>
+<div class="answer"><strong>A:</strong> 是的，比如在技术发展早期，一些人尝试更换原有架构以实现创新，但往往会出现失败的情况。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> InQ公司是否在量子计算方面存在局限性？</div>
+<div class="answer"><strong>A:</strong> InQ公司虽然在量子计算领域算是前辈和先驱，但由于创建时间较早，其技术和商业表现现在有点落后，且其CEO已退休。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 在量子计算领域，巨头公司的路线是否更为稳固？</div>
+<div class="answer"><strong>A:</strong> 对于量子计算领域，巨头公司的路线如Google相比创业公司来说更加领先，他们在技术和商业上保持领先位置。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 量子计算领域如何权衡学术研究与工业应用？</div>
+<div class="answer"><strong>A:</strong> 19年之后，学术界在量子计算方面的能力明显不如工业界。学术界更侧重于快速试错和探索验证概念，而工业界则关注快速落地和商业化成果。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 量子计算从学术转向工业的转折点在哪里？</div>
+<div class="answer"><strong>A:</strong> 当量子计算从科学问题转变为工程性问题时，工业界开始接手并投入资源。例如Google在2013年达到量子纠错阈值后，学术界的探索任务基本由工业界接手。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 造一台量子计算机需要多少钱？</div>
+<div class="answer"><strong>A:</strong> 仅从物料成本考虑，制造一台量子计算机大约需要100万左右。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 为什么每次量子比特数量翻倍增长时会遇到难以突破的学术问题？</div>
+<div class="answer"><strong>A:</strong> 随着量子比特数量增加，对微纳加工精度的要求越高，良品率下降，且物理实现难度增大，例如禁锢离子的难度随数量增多而提高，导致技术挑战加大。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> VC投资量子计算市场的热度如何？</div>
+<div class="answer"><strong>A:</strong> 目前VC对量子计算的投资尚未明显感受到市场变热，但战略VC和国家主权VC有较大投入，随着减息周期开始，预计投资关注度会逐渐上升。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 量子计算对全球密码系统的潜在影响是什么？</div>
+<div class="answer"><strong>A:</strong> 量子计算若实现，将要求全球密码系统整体升级，目前已有政府机构、金融界开始布局抗量子加密算法和量子通讯技术，以应对未来可能的量子计算威胁。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 量子计算大概什么时候可以破解银行的密码？</div>
+<div class="answer"><strong>A:</strong> 现在距离能够破解加密数的量子计算机出现的时间可能还有10年左右，甚至可能更快，取决于技术突破的速度。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 需要多少量子比特才能破解加密系统？</div>
+<div class="answer"><strong>A:</strong> 目前对于破解所需量子比特数量的估计存在不确定性，但普遍认为需要数千个量子比特，并且要求是完全容错或完全纠错的量子计算机。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 银行和比特币团队是否在做抗量子算法和量子通讯方面的布局？</div>
+<div class="answer"><strong>A:</strong> 是的，银行和比特币核心团队都在研究如何抵抗量子计算机带来的威胁，并分别在抗量子密码学和量子通信（如QKD）方面采取措施。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 量子计算的发展是否会导致金融体系或虚拟货币体系崩溃？</div>
+<div class="answer"><strong>A:</strong> 从技术层面来看，量子计算能力的提升不太可能导致这些体系崩溃，但市场反应和用户信心等因素仍不可忽视。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 贵公司的商业模式是什么？</div>
+<div class="answer"><strong>A:</strong> 我们公司主要业务是研发制造和销售小量增强型或量子计算平台计算设备，为未来5到10年量子计算从实验阶段过渡到价值实现阶段提供服务，目前主要面向大型企业和基础设施发展项目提供配套服务。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 你们的设备是否有收入来源？</div>
+<div class="answer"><strong>A:</strong> 目前从商业角度讲是盈利的（gross角度），去年我们的设备销售和数据中心服务带来了收入。</div>
+</div>
+<div class="qa-item">
+<div class="question"><strong>Q:</strong> 普通人日常生活是否会受到量子计算的影响？</div>
+<div class="answer"><strong>A:</strong> 量子计算早期会服务于大型机构和基础设施项目，类似于计算机早期为大型跨国公司提供后台支持。随着产业链成熟和技术普及，最终会惠及普通人的日常生活，就如同GPU从服务于专业领域逐渐发展到大众消费级市场一样。</div>
+</div>
+<h1>节目文稿</h1>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+现在处在敏感阶段的三个行业，先进半导体、AI量子。我们可以总体来说先进半导体是一个非常传奇的过去，然后AI是一个非常蓬勃的当下，量子基本上都是不可避免的未来。所以在一个加息周期里面的话，政府会对这个不可避免的人未来更感兴趣。但随着减息周期的开始，我觉得像VC对整个行业更加关注，特别是北斗的出现，我觉得会run。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:00:36]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+Hello, 大家好，欢迎收听硅谷101，我是红军。大家标题已经看出来了，这又是一集非常硬核的话题，量子计算机。2024年的12月，谷歌宣布基于vi LO的计算机芯片的量子计算机，只需要不到5分钟的时间，就可以完成一项标准的数学计算。那我们把这项计算交给传统的计算机需要多久呢？10的25次方年，这是什么意思？就是说这个时间已经超过了我们知道的宇宙年龄。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:01:08]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我相信听到这里大家就有疑问了，谷歌的量子计算机如果已经能执行这么厉害的任务了，那量子计算是不是实现了呢？并不是。因为谷歌的机器执行的数学计算是一项专门用于衡量量子计算进展的测试，而不是一个有用的可以在医学或者人工智能领域进行的有目的性的一些运算。过去30年困扰这个领域最顶级的学者们的问题就是量子计算机它会犯太多的错误。谷歌vlog芯片的主要贡献就是它可以在扩展至更多的量子比特的时候，只数级的减少错误。基于这一点，它其实是解决了一个困扰科学家们30年的难题。所以业内人又将google的vlog芯片称作是量子计算界的transformer moment。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:01]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+这样一来，量子计算机距离执行人们觉得有用的任务，我们离完全纠错的量子计算机就又进了一步。我们离有用的量子计算还有多远？英伟达的CEO黄仁勋在CES期间也被问到了这个问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:18]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+And if you said fifteen years.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:02:21]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+uh for uh uh very useful quantum computers, h that that pride beyond the early side. If you said no thirty is pride on the late side. But if you picked twenty, I think I think of我们这期节目的录制是在一月份的CES之后，刚好是黄仁勋回答了这个问题。所以我们会讨论他的回答以及量子计算还有多久实现。同时我们也会提到，刚刚对节目开头谷歌v low芯片的一些解析。第三部分我们也回顾了过去几十年硅谷巨头它是如何去布局量子计算，以及它们之间的线路之争。这部分听上去会有一点点难，大家可以一边看羞note或者使用AI工具的辅助去理解这期节目。最后一部分我们会聊一聊量子计算的应用，以及它与加密货币银行还有运营商之间的密码学博意。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:16]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+下面就请收听我们今天的节目。今天跟我在一起的两位嘉宾，一位是安恙technology的创始人，也是加州理工大学的博士与伯克利大学的博士后。Roger罗，hello Roger.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:33]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+你好你好你好，很高兴能参与这个节目，然后跟大家聊一聊关于最近量子计算的一些前沿信息。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:40]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，欢迎。另一位嘉宾也是Roger的同学，他是加州理工大学的博士与博士后，同时也是安阳的CTO Jerry的人。Hello Jerry你好。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:53]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对，我们是加州理工博士期间的同学。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:03:57]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+欢迎Jerry。在开始的时候，大家要不要介绍一下自己，包括你们跟量子计算的关系。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:04:04]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+好啊好啊，在过去十年多的时间，我们基本上一直在做量子芯片相关的事情。我和杰尔都是2014年来到加州理工做博士的，我们的家理工导师是奥斯卡Peter，也就是现在AWS的量子硬件部门的负责人。实际上我们在量子计算这个赛道上面，从14年就开始了，有十年的共同从业经验。也是基本上在19年我博士毕业再去博士后之后，然后我觉得时机比较成熟了，就跟我之前的同组同学就jet一起创立了这个公司。目标就是结合我们在伯克利和加州理工的相关的前沿技术。因为我在伯克利的博士后组，也是整个量子计算芯片的先驱的组，就是professor sticking。它基本上在超导量子电路这个赛道上算是二十多年的历史了，也是最早的一批，基本上跟jam ma tiny是同一代。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+所以说实际上我们当时创立这个公司初衷就是一是看到了很多像很多公司，基本上所有的云计算公司都在做量子计算，特别是AWS，把我们之前在cotex的组给整体的拿过去，创建了它的量子计算硬件部门之后，我们觉得这时机很成熟了。那我们既然有技术，有时机，我们就why not？去做一个公司，将我们的技术变成商业化产品，然后服务于下个十年的计算行业。这个是初中。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:32]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+那Jerry你要不要介绍一下？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:05:34]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+好啊，由于我跟Roger的轨迹比较相似，所以roja基本上也帮我介绍过一些了。在我们2019年2022年博士毕业期间，绕着去了伯克利做博士后，我继续留在了加州理工，继续跟profess奥斯卡winter继续做博士后。这个期间也是亚马逊开始开展量子计算，正在把我们的博士生导师整个的研究组挖到亚马逊AWS量子计算部门这么一个过程。所以说我也参与了一些初期的交接的工作和准备工作。当然像肉汁刚才说的，我们最终觉得是一个非常好的时机来成立自己的公司。按照我们自己的理念，可以走出跟大公司不一样的发展路线。所以说我们就一起创立了现在这and这个公司。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:25]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我觉得在节目的最开始可能还是一个非常通俗的问题。能不能用尽可能通俗的语言跟我们的听众解释一下什么是量子计算，它是用来做什么的？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:06:36]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+好，我用我一直以来比较通用的一套浅显易懂的解释介绍一下量子计算。理解量子计算可以跟经典计算机做一个类比。我们现在市面上几乎所有的计算机，无论是CPUPU或者是手机，或者是很简单的计算器，都可以理解为是经典计算机，对吧？那我们想理解量子计算机的话，用经典计算机来做类比是比较容易理解的。我们其实可以理解为每一个经典计算机都是一长串的字符串，由零或者一组成的，就是我们所说的贝茨，贝茨只能是零或者是一的状态。那所有的计算机无论是它有多么复杂，它有多么简单，无非是一个比较长的字符串或者是一个比较短的字符串。那类比于量子计算器的话，其实它也是一长串的字符串，只不过它的组成部分我们叫做cubit量子比特。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:07:30]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+那量子比特和比特的区别是什么呢？就是说量子比特它不仅仅只能存在于零或者一的状态，而是它有一个叠加态，它可以同时存在于零和一之中的状态。量子计算机或者说量子比特还有另外一个特性，那就是量子的另外一个原理，就是说它的纠缠态。它不仅仅是说每一个量子比特不仅仅是它自己单独的量子比特，而是不同的量子比特之间可以纠缠在一起，同时发生改变。这两个一起发生作用，就产生了跟经典计算机显著的不同。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:04]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+经典计算机比如说如果是一个只有三位数构成的经典计算机，那它的所能存在的状态就是000001一直到111，一共八位数。如果想要进行运算的话，它只能一个一个的去改变每一个位数。如果它要去到这八个不同的状态的，它要进行八次运算。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:08:24]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+但量子比特不同，量子计算机不同。它由于如果说我们有一个三个量子比特构成的量子计算机的话，它其实是由于叠加原理和纠缠原理。它可以同时存在在这八个状态里面，然后同时对这八个状态进行计算。如果只有三位数的话，他们的差距可能不这么明显。一个要进行八次运算，一个进行一次运算就可以完成。但是如果比特的数量继续加倍的话，那量子计算机它其实是一个指数增长的过程。如果有四位的话，静电计算机就要进行16次计算才能穷尽16个状态。但是量子计算机还是只需要一次就可以穷尽于所有的16次状态，这就是所谓的量子计算机。相对于经典计算机的计算来说的话，指数的加速过程。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:13]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以我可不可以理解成量子计算机它其实是非常适合去解决非常复杂高难度的计算的。越难的计算它越有优势。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:23]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我们可以理解为它的核心优势在于能够在某些特定的问题上实现指数级的加速。量子计算机它不是经典计算机的代替品，就像GPU不能像是完全是CPU的代替品一样。他们两个是一个共同存在，相互协同的作用。量子计算机特别擅长某些特定问题上实现指数级的加速，像是矩阵运算、因数分解、量子化学、模拟和组合优化等领域。他会在这些高复杂度计算的任务中发挥非常重要的作用。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:09:58]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+哪些领域会应用到这些高复杂度的计算，就比如说如果你们能想象未来量子计算它会去应用的话。相比于传统计算机，它一个非常有优势的场景跟它最有优势解决的问题是什么？能不能举一个具体的场景的例子。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:15]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+它就有几种特殊的算法，有的特殊算法对矩阵运算有特别好的指数级的加速效果，有的运算对因数分解有特别好的加速效果。它本身是量子的，然后这个世界本身是量子的。用经典计算机对量子世界进行模拟本身是非常困难的。也就是说我们的一些化学运算，它本身是量子的。所以说用量子计算机进行这方面的运算将会更加的容易。我刚才提到的三个例子所对应的其实就非常的明显。其实矩阵运算，我们现在所有的人工智能机器学习本质上就是矩阵运算。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:10:54]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+因数分解的话还能想到的就是舒尔算法所对应的安全问题，加密问题。现在大部分的加密手段都是通过类似的情况进行加密的那量子计算对于破解这样的加密就非常有优势。而量子化学模拟很明显就可以想到油气、化工、药物的研发等等，是一个非常直接的作用。还有一个领域就是量子计算机对组合优化的求解过程是非常的迅速，也有指数级的加速作用。所以说对于一些物流之类的需要优化的内容，这些领域也是非常有帮助的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:34]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+理解，你刚刚提到了好几个点，比如说在矩阵运算方面，他对人工智能的加速表现在哪里了？比如说有了这个量子计算机，那大家再去训练这种大模型的时候，它会有特别的优势。还是说它只能在一个极小的领域里面，针对某一个特定问题，它可能会有一些特定的解法。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:11:56]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我理解的是人工智能无论的模型是什么，它的本质制式矩阵运算其实回到了根本的问题，就是GPU为什么在人工智能中作用这么大？它比CPU为什么做人工智能的模型的话速度快这么多？本质上就是GPU对矩阵运算的速度会比CPU快很多。CPU擅长比较复杂的问题的，比较少线程的运算。而矩阵的运算本质上不需要特别复杂的过程，比较重复的过程，而且需要特别多的核心同步运算。这就是GPU的作用。也就是说人工智能为什么在GPU上比CPU上优势这么大？就是因为GPU对矩阵运算会比CPU快很多。像量子计算机中用到了HHL算法之类的算法，对矩阵的运算也能加速的话，本质上就是对人工智能整个大模型开发的类似的，实现了从CPU到GPU的这样一种跨越式的加速发展。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:12:56]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+因为实际上加尔想表达一点，就是实际上量计算在这个具体的问题上，通过加速矩阵求逆算法这相关的算法，我们实际上可以总体的加速整个人工智能学习的和influence的pipeline。也就意味着比如说你的人工智能模型有C100B点的参数。你用100B点参数，你用GPU去跑的话，对应的大概是一个比如说100B点乘100B点的算法复杂度，就要跑这么多步骤去算。它对于量计算机来说的话，就是一个求指数底数的是log求log的一个方式。就是100B点的话大概相当于log 100比点的一个算复杂度。相对来说你在处理巨大的模型的时候的话，它的整个操纵的数量会指数级下降。相当于你可以以更少的能量和资源付出去计算一个巨型模型。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:13:50]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，刚刚我们提到了量子计算应用的几个方面，我觉得在之后我们还可以详细的去探讨它的商业化跟他在各个行业里面是怎么应用的。但是在此之前我觉得就有一个问题了，量子计算现在到底能不能实现？比如说我们说的来去训练人工智能。他发展到哪个阶段了？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:11]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+在问这个问题的时候，其实今年英伟达的创始人Jason黄，他是在今年的CES上，其实也把这个问题提出来了。然后我记得他说的是，如果你说15年内能实现非常有用的量子计算，他觉得这个是一个非常偏早的预测。如果说是30年实现有用的量子计算可能偏晚。所以他觉得一个合理的区间是在20年。但是他这个话一说，有一批量子计算的股票，大家的股价就纷纷下跌。所以也是想听一下两位，你们怎么去看Jason说的量子计算它的实现时间。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:46]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+首先Jessie在他们对于NVIDIA的投资者会议上被问到，而且正面回答这个问题本身，其实已经把他认为的20年抗find到了，远不止20年了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:57]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+比20年还要久。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:14:59]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+因为一旦你开始回答这个问题，在这种会议上，那就意味着投资者在考虑是不是要Price in你未来十年量子计算对你公司的股价影响呢？因为大家都知道华尔街算股价的方式是pricing未来十年的sum的gross和monopoly的。所以实际上这一个对他来说有点conf interest问题。如果他有任何地方表现出未来十年内可能会对GPU产生影响的话，明天尾点股价就要跌了。相比让微点股价要跌来说的话，那量子计算的股价跌对他来说是一个非常合理的决定。毕竟坐在哪个位置上回答他的问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:32]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+在另外一个角度来讲的话，我觉得杰森是个很厉害的人我也很尊敬他。但是人你就要不要看他说什么，你看他做什么，对吧？节省公司在量子计算里面算是一个非常大的一条鱼了。他也是我们的合作伙伴，他们也有非常主动的各种partner协会合作，还有包括我们等一下参加的一些超算的会，也是我们跟他们要一起做demo的。所以整体上来说，这个就代表一个逻辑。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:15:58]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+从他做的角度来讲，我们可以回顾一个历史。柯达浪琴的时候是07年，柯达DNN就是库库达专门为DN的那个package lunch的时候是14年，而transformer是16年，GPT3.5是22年。就算你从CUDA算起15年都是一个从维的角度来讲，它开始做这个方向，到最后对方完全落地都不会超过15年。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:16:23]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+所以第三点他用词非常精准，他说是very useful quantum computer。在这个context里面其实可以认为它理解为是叫large scale for tolerant of the computer，也就是量子计算的完整体。就有点类似于AI里面我们谈论AGI，它是一个非常长远的go，或者它是一个非常powerful的一个dream ago。它如果能被实现，基本上人类文明在下一个阶段就会被define了。因为我们开发出无数的新材料和无数的远超人类强大的人工智能都可能出现。所以他这个very useful的意思就是量子计算彻底站在了现在GPU站在的计算中心的一个核心位置。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:04]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个的确我个人不认为在15年之内有比较大的概率能出现。我觉得工业界共识来说就是large skill for a computing这种处在某脑普的阶段的量计算，可能差不多也要15年的时间。我觉得他的说法本质上没有第一vate from他们自己公司内部调研和这个工业界的公司。他只是把它freeze成了一个可能投资者听起来会更加的friendly的一个说法。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:31]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对我在想要怎么样去理解这个量子计算出来对NVIDIA的冲击。我可不可以理解成如果量子计算真的实现了一个是它是不需要那么多GPU，它就可以去实现这些运算的。所以他对GPU跟芯片的需求没有那么大。所以我挺想知道这个对他股价的冲击，大家这个思考的逻辑是怎么样。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:17:51]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+的对量子计算首先它在很多复杂问题上，因为维迪亚现在他们对公司的定义叫做a super computer infrastructure company。所以他们认为未来的super computer超级计算涵盖了AI天气预测，还有一些什么化学模拟这种高复杂度的计算问题。从他的角度来讲认为是MAA未来的核心business，这个是fact对吧？而这里面有一个很有趣的点，哐当也是这么说的。但是实际上就会发现有一个点就在于荒唐在一定程度上的确会更加做侵蚀，严格意义说是会参与到NVIDIA在更复杂运算的应用里面的一些存在感。比如说我们要做极其复杂的C蛋白质反应模拟，不是alpha fold这样的预测，而是低性原理去模拟它，去精准的找到这个药品。这种任务来说的话，N维娅去滴型原理算是肯定不现实的。量子算可以算，但是站在维的角度来讲。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:49]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+当然成本太高了。对公司来说。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:18:52]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+如果有个中心愿意买100万个NVD未来的GPU芯片去算这个问题，对他们来说股价肯定是好的，对吧？但这个时候如果量计算给到一个说我不需要你100万个GPU的成本，对吧？我是需要差不多的1万个GPU成本就能实现这一目标。这个相当于它的市场就做不到了。但是减少说的就是very useful。就是说你的狂热computer人物基本上不需要跟GPU分担工作量，就能完整的去处理这一些复杂的问题的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:19:21]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+新时代还是有一段距离的。所以我觉得Jason把它放到15年二审这个时间段，相当于就告诉华尔街不要去pressing未来十年的框架，就对我们公司股价的影响。未来10年随着计算量需求上升，公司的股价应该是水涨船高，这个是合理的。我们认为而且我觉得未来十年从量子计算角度来讲，我们也很需要GPU做量混合量子计算。这也涉及到为什么我们跟VDI合作。所以实际上未来10到15年这段时间，其实是一个共同存在，共同生长的一个阶段，并不存在谁取代谁。严格说这个扩大的增量市场，而不是一个存量市场，他去抢空间的问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:19:55]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+是的，对你们跟NVIDIA的合作大概是一个什么样类型的合作？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:20:00]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们更加重视的就是产品技术层面。我们是个硬件公司，他们软件公司一方面就是用GPU他们的这套软件和GPU算法去优化量子计算机的芯片设计，优化它的的量子测控。还有一个就是你用GPU去优化量子计算机的运行。另外一方面就是通过能量计算机去结合GPU增强AI模型的泛化能力，去训练更泛化的模型，就是用你更少的parameter，更少data去获得更能有泛化性，更generalizable的AI model。这个其实也是一个叫quantum enhanced AI的一个路径。也是大家也听到有一些非常知名的AI公司，最近也在海尔量子机器学习的talents去做相应的开发。其实这也是一个纯。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:20:47]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+哪些公司。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:20:48]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+大家都听过的，应该是SSI，safe supreme intelligence依赖的那公司另一点来说的话，我们跟他们合作的当然不是在软件层面，我们更多就是去构造这样的计算平台。也就是说我们把它的coda框架这个软件作为一个胶水，联合它的GPU和我们的QPU到一起，成为一个完整的量子增强计算平台。同时我们通过高速直接互联，让我们的量子算机和GPU能形成实时的数据交互来增强力量。计算实时运行的同时去增加它能解决的增强的一些比如说人工智能学习这样的类似的问题。这一系列来说相当于我们在video的那个网页上叫做quarter bacon的provider。他们自己称自己为GPU and backend provider。所以我们像是个并行关系，同时把它变成一个完整的框架，enhanced computing platform. 我们是有自己的量子芯片，我们有自己完整的量子计算机。我们只是将我们的相机跟vida的GPU系统进行了一个互联，然后用他们的软件去协同两边的工作，通过量子硬件去增强GPU在人工智能学习问题中的一些作用。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:21:56]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+那你们的芯片是自己造的，还是说市场上有专门给量子计算来造芯片的？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:22:02]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个问题很好，我们的芯片是我们自己造的，因为我们自己的独立的设计和专利和制程。但是实际上有公司在卖量子芯片好不好？我不common，但是基本上美国的公司都是自己造。我能这么说，因为很多技术来说，你要在一个快车道的技术上面进行突破。你把这个这么早的就给到一些可能并没有那样技术积累的团队去给造芯片，是有点不太明智的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:22:26]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+理解你怎么看google新发的这个reno芯片。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:22:31]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+他们其实一直以来都在向这个方向走从14年他们开始做，就一直往上走，就是公开路线图实现量子纠错，证明了这是可扩展性的情况下去基于这个来造出歼三晃口中的very useful content computer，largest fort ord on computer. 这是他们一直以来的但我觉得这个是为什么大家有点confused。因为不同公司go不太一样，有些公司go就是像beautiful AGI directly，而有些公司像open a一样，我们能lunch一个GPT3.5就quite the day了。基本上做了之后一个very good progress。所以google推出V了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:23:04]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个芯片继sega之后，从我们的角度看是个延续性工作。他们基于sigma之前的一些demo水井，发现了sigma的无论从规模上还是从一些芯片的performance上面，不足以demonstrate量子计算，特别是基于量纠错的计算的可扩展性。你要证明可扩展性就意味着the more the Better，就你造的芯片造的越来越大，反而你的新计算机的可靠性和计算力越来越大。以前来说，我们从实验上发现的一个规律就是你造的越大，你的整体性能并不会上升的原因在于你的整体错误率也会上升。所以实际上纠错在你把你的芯片，把你的亮晶燥到所谓的very useful compare这个路径上，是个非常至关重要的。一个技术点，一个前置科技，可以认为是一个。所以危楼相当于基于他们过去十年的发展，终于证明了量子计算加上纠错的一个可扩展性。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:24:00]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+它这个芯片它是在一个什么样。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:24:03]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+的阶段制造了对他们有用完了他们用的不是全世界最领先的量子比特和保证度。但是加上各种别的工程提升，让这个芯片做到了能demonstrate量子计算在硬件层面，在实验实现上的一个可扩展性。这一点我要强调实验的可扩展性，因为量子计算本身能做到复杂超级计算，这个本身不是个问题。从算法层面，从原理层面，大概十几二十年基本上就搞得很清楚了。Google过去十年来，苹果十年整个工业界干了什么事儿呢？就是从实验物理可实现的device层面去证明这一点，证明我们真能做出一个足够理想化的芯片去做到这里，做到可扩展性，做到大规模运算。所以相当于google这个维诺芯片的意义就在于从实际的物理层面我把它做出来了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:24:53]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对他会开放给第三方的合作伙伴采购吗？还是他们只自己用？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:24:58]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+不过从来都不是个硬件公司，从来都不靠卖这个。所以无论像TPU，他们最早做出TPU他们也没有卖，基本上都是自己用。他们更多来说这是一个非常好的验证，我们能做到就是所谓的various for come computer within ten years，around ten years的一个阶段，一个证明。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:25:15]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+那你觉得他的芯片造出来了，会对他的整个量子计算的研究加速吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:25:22]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个我觉得从加速层面来说的话，肯定会的。但是更多来说就是他们证明了我们能做出来。这个情况下来说，加速层面的话就能更加的促使他们这个部门。因为他们是隶属于google AI，隶属于这个部门，能获得更多的资源去将芯片做的越来越大，越来越能解决一些实际问题。所以加速层面更多不是说用这个芯片加速他们别的这些发展，而是用这个芯片去作为一个证明，一个活生生的证明，然后去获得更多的资源，把这个东西skill up到成为一个eventually成为一个商业化，或者成为一个叫very useful quant computer这样的一个形态。加速肯定会加速的，因为管理层现在被convince了凯文斯了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:26:07]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+是吗？就是效果是OK的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:26:09]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+你看那个google CEO，不是发的那个post，因为管理层也要看到你这个proof concept，对吧？你说你的skill那一个scalable看，所以现在基本上从google层面来说的话，从管理层角度来讲，这个scalability ties从基本层面上是验证了的。我举一个可能有点模拟性的例子来说，就是所谓transformer moment，你证明你的machinery model scale。那现在那个scale给我看，把scale到足够大能不能做出一个类似GPT的模型来。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:26:37]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+就是这样的一个逻辑。所以维持芯片相当于量子计算界的transformer moment。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:26:42]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对，这个我有点拾人牙慧了。因为是有一个投资人问我是不是陈彤问的，我想了想好像有点像，因为的确是google相当于我做出了一个活生的demonstrating，这玩意儿能给OK，那how about we go IT？Actually如果从该的路径上来说的话，实际上我更加乐观的认为就是未来十年以内，我对简森的这个他们觉得有点过于保守。但是anyway.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:27:09]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+你的估计比Jason的这个估计更乐观。而且尤其是在谷歌的windows芯片发布以后，你觉得它对真正实现的非常有用的量子计算机，它能够加速到多少年？比如说没有这个芯片以前跟有了这个芯片以后本质的区别是什么？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:27:25]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+其实我觉得如果没有这个芯片的话，大家会更加倾向于像Jason的预测，大概15到20年时间。但是有这个活生生的代码水井之后，我觉得这个进程大家对未来时间线的收敛的预测会更加预测到within fifteen years。当然这个可能也是为什么Jason在这个会议上会被投资人正式的问到这个问题。因为我们就开始考虑是不是要这个事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:27:47]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+理解微露芯片，你刚刚有提到它其实是有解决量子纠错在实验实现的可扩展性。那Jerry的你要不要跟大家大概解释一下，它解决了量子计算中一个最核心的问题，它的原理是什么？科普一下。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:28:04]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我大概谈一下量子纠错的基本原理，通俗的解释一下量子纠错本身。我们一直都知道量子计算的实用化最大的障碍之一其实就是噪音。同样的，我们这里也可以用经典计算机来类比量子计算机中的噪音。其实所谓的经典计算机也是噪音非常严重的。现在我们正常的使用日常生活中的电子产品、手机、电脑从来不会感受到这些噪音。是因为他们在很早以前就有底层的经典领域的纠错算法。已经把这些问题在硬件和软件的衔接层面，就已经把这些噪音或者说错误给纠错了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:28:45]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+打个比方，在GPU中，如果我们是一个1.2伏特的GPU，那理想情况下1.2伏就代表的是逻辑一，然后0伏就代表的是逻辑零。但是在实际操作中，由于量产的GPU芯片不可能是完全一样的，每一次运算它可能所施加的电压也是有一定的不同的。所以说这个电压并不一定一直是1.2伏或者是0伏。可能不同的晶体管之间，不同的时间，不同的输出会有不同。计算机的底层就会把一个范围内的误差都算作0，都算作一。比如说出来一个1伏的电压，那可能也会被认为是1.2伏，也就是逻辑一。那1.5伏可能也会归类为逻辑。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:29:28]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+一是这样来说对经典计算机是一个相对比较简单的纠错过程。但是回到量子计算中，这个就非常不一样了。因为不像经典计算中，它可以达到一幅这样相对来说比较大的一个数值来方便进行纠错。量子比特的能量是非常小的，像我们所用的超导系统中，它只有一个光子的能量。所以说量子比特非常的脆弱，然后也极易受到环境的干扰和内部误差的影响，从而导致量子信息的丢失。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:30:01]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+再进行跟一些经典比特之间的对比的例子的话。比如说经典比特只会出现零或者一的翻转错误。而量子比特像我之前描述到的，它其实是一个叠加的状态，不仅仅包括0和1的翻转，它可能还会包括一些相位上的偏移的错误。这也会对计算结果或者说计算过程造成一些噪音的影响。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:30:25]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+然后由于量子比特它是有纠缠的特性，所以他不可以像经典计算中每个比特可以单独的拎出来进行纠错。如果要对量子计算进行纠错，需要对所有纠缠在一起的量子比特，他们密切联系在一起。所以说要对他们统一的进行纠错。这也就是为什么量子纠错会被认为是实现量子计算，然后推动量子计算真正走向实用化的一个核心技术。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:30:56]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+OK所以谷歌的微了芯片核心，它是极大的解决了这个问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:31:02]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+我认为为了用现在最主流的一个量子纠错的方案，这个纠错的方案叫做表面码。这个表面码也是源自于加州理工的量子纠错的技术。它通过利用表面码的纠错码和它比较优化的量子的硬件，向世界证明了我们可以用这种方法，用这条以前已经规划好的路线继续走下去。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:31:27]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+只要是按照这个路线继续走下去，我们就能逐渐的扩大量子计算机的规模，扩大计量计算机的运算能力。而同时不会使他的错误率随着规模的更大而变得更加的严重。反而是随着规模的更加扩大，它的错误率反而是下降的。也就是说计算能力整体是提升的。按照我们这条路线继续走下去，最终我们是可以实现像刚才描述的非常有用的量子计算。也就是我们业内人士叫的叫做完全纠错的量子计算机。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:31:59]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+完全纠错的量子计算机。大家觉得谷歌有了这个芯片以后，刚刚你们也提到了，其实你们之前也是跟亚马逊有过这样的工作交集。他会对其他的做量子计算的公司，比如说IBM、微软、亚马逊、英特尔，还有一些创新型的公司，明星的三只股票，NQ reality还有d wave这些公司它会不会形成一个显著的优势？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:32:27]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得从这个层面来说，其实google是一个很好的公司，为什么呢？因为他首先有微信，他们愿意去花早期的像他们发明transformer一样，给大家证明这个大方向是对的。然后大家就沿这个路子走就好，相当于扫清了很多所谓的不确定性在里面。我们可以看一下别的大公司的response。比如说IBM以前从来没把量纠错放在他们路线图里面，至少没有明确放过。现在放上去了，什么时候放上去的？就是前几个月，因为google这个东西工作也不是立刻出来的，说实话内部的话我们早就能看到paper了。因为这是要同行审议的，这个peer review的大家才能看得到的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:33:06]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以paper其实他只要发出来类似于这个东西，它就开源了，对吧？大家可能都知道这个方法了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:33:11]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+首先它的路线图一直是明牌，我们要做量纠错，通过纠错的scale包括量纠错算法，算法是来自于contact的cortex的，叫表面码，或者叫surface code，是cortex alex I tif发明的制作算法。所以实际上我就想硬件公司跟软件不一样的一个很大的点在于硬件。我可以把physical process这个大方向给指清楚，具体的实现很多所谓的物理哪里都一样，对吧？那你就要大家根据这个大方向进行努力了。所以IBM不放上去的原因在于IBM他认为量子纠错的实现时间线会拉的更长。他认为量子计算机通过暴力出奇迹的方式去增加量子比特数量，能更早的实现商业价值，或实现所谓的very useful computer。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:33:58]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+换一个定义方式了。首先IBM这条路，为什么它作为这个行业最早参与的大公司，反而在这方面有一点点保守呢？因为很多事情大公司其实往往倾向于更保守更坚定的它的早期路线图。所以IBM之前更多是想说，我怎样用现在不纠错这种途径能做出有用的应用呢？是它的路径。所以他不停的对他的区别数量不停的探索一些商业化途径。就他的确做技术，他是在做商业化。Google的话几乎完全不做商业化，他就专门去做纠错，然后IBM几个月也换了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:34:34]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+现在大家知道了，i am觉得纠错反而可能，毕竟这个已经proven是可以within reasonable effort可以做出来的。而且关键是google的人还比还少很多，所以所以这个事情就来一直干这种事情。作为行业先锋，但是有的时候年轻人远比他还是要高效一些的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:34:53]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+像另外一家大公司，我不看问哪家公司，因为有些人就是不非公开信息，但是也在把自己路线图换成纠错了也是要对标google的这个大公司。你看到另外一家公做出了突破，他们也想突然间倒戈换上去。因为以前觉得可能很晚做出来东西，反而现在做的是最早的。DW有点难，因为DW他们的路径，他们一直是做的所谓的退火计算。就意味着他们其实路径完全是跟量子纠错完全是背道而驰的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:35:22]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是也有历史原因，为什么DV我是最早的纯量子计算公司，他们是90年代好像创立的，还是2000年初他们那个年代的计算机。他们说实话，那个时候大家认为可编程通用计算机是不存在的，所谓的数字量计算机是不存在的，或者很难造出来。所以他们的公司创始初衷就是通过简单易实现相对简单易实现的退货量子计算，去做一个专一化的量子计算机。它不能被用来去编程，来做所谓的量子纠错，也不能通过编程去做通用量子算法。但是他们认为通过做专业化的量子计算机，可以更早的实现商业化价值。显然我现在回头看是做个选择。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:36:03]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+你不认可这条路线是吧？那他们现在有转变吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:36:06]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+他们公司的创始到现在都是走这个框当量子退火方向，所以他们要转变也是要有过程的，相当于要彻底换方向了。只能说不是完全不认可，他们也许能找到很多use case，但是实际上会发现之前认为很难实现的量子计算的路径，反而现在可能更早实现，而且关键时间之后的影响还更大。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:36:28]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+你说在纠错这条方向上，所以纠错现在看起来是一个比较主流跟大家认可的方向。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:36:34]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对，因为已经做出来，活的例子就摆在那里了。就像老黄或者说很多人说张口闭口就是什么叫20年、15年、二三十年。但是大家仔细想一想，有什么技术人类开发了十几二十年，或者说到现在这个阶段还要开发十几二十年的可控核聚变。它的可控核聚变其实说实话，它本质上并不完全是个技术实验问题。因为想当年人类做核物理，从证明做出的第一个裂变反应，就真的只是做了一个实验室，很小规模。那边反应是分成了几个原子那种规模，到最后产生一个两代产品直接落地。字面意义落地用了三年的时间，再跨越一个时代，从下台用了可能不到十年的时间。所以实际上会发现核不核芯片，本质上它可能就这么说的，就是如果还要实现的话，说明这个东西在市场需求上并不那么迫切。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:37:23]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+因为人类有大量的核裂变反应堆可以用。说白了一你一定要用聚变的话，你可以用氢弹，其实也是可以发电。苏联有相关的方案，然后你要用可控核聚变的话，那是一个非常elegant且非常ideal的go。但是坦率来说，RY可能还没把这边做大点高就人类现在的能量需求的话。所以我觉得如果还要几十年的话，这种技术大概率实际上它可能前自营成熟了。比如说聚变已经有氢弹了，所以聚变这个反应其实已经落地了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:37:51]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+它相当于是second generation even further improvement的一个过程。像量子计算我们谈的更多是第一个落地的本身。这个东西其实我觉得并不存在有这样的技术，真的是发展的还要十几二十年。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:38:05]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+去做出来的。OK. 我们刚刚其实点评了一些公司，亚马逊现在的路线是怎么样的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:38:11]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+公开来说他们做的还是一种比较新颖的超导量子比特来进行scale.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:38:17]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+超导量子比特的路线。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:38:18]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+所有大公司做的超导量子比特，google、IBM，亚马逊只是不同的超导量子比特。从公开信息来说，亚马逊做的是一种比较新的超级量子比特，叫cuticular。但是google显然是产生。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:38:34]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+了影响的是微软的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:38:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+微软他们当年也是有历史原因的，他们当时觉得那种计算很遥远。他们其实开始的很早，应该不比google晚。但是他们走的一个是叫拓朴量子比特的一条路子，就是一个完全到现在为止都没有能证明proof concept的东西，他们八成已经放弃了。所以他们现在最新的进展，他们更多的是想去做。因为他们硬件基本已经废掉了，跟别的量子计算公司进行深度合作。比如说他们现在之前跟honeywell的spin off公司叫做continent，合作了所谓逻辑量子比特计算机。最近又跟icon computing，也是伯克利的一个spin off company，做基于原子的逻辑量子比特计算机。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:39:19]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+微软其实一开始也很像google一样重视容错量子计算，google其实更保守。Google为什么选超导量子路线？其实这个工程上早就被证明那个路线。因为你可以真的是把芯片造出来不能用。所以说从公司层面上来说的话，实际上你只需要对它进行所谓的engineering improvement，你就可以慢慢的去deliver这个成果。这一块和慢很多时候跟你的投入和市场需求是有直接挂钩的关系。就像刚刚说的曼哈顿计划的例子，市场有巨大的需求，那就三点就能deliver。市场需求相对来说要等待时机的话，或者商业上的合理性的话，那就可能会拖得长一点。但是总体上来说，用超导路径你是可以直接把它给框架出来。微软当时就觉得这条路子可能都要走个十几二十。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:40:04]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+就像我说的，最早现在这个对未来的估算都是容易带verge的，很容易就会说30年之后，所以他们选了一个叫霍普量子比特。做量子比特的好处就是上来就容错。然后他也对应的开发了很多软件，他们也算比较早的量子软件开发公司。然后现在硬件废了之后，他们就把这个软件跟那些现在别的量子计算公司进行合作，去做逻辑量子比特在别的量子经济上的运行。所以实际上它跟google很像，也很重视所谓的容错量计算。只是最后实现路径的时候，google其实选择一条硬件上更能proven的方式去软硬结合的去做这个事情。而微软因为决策上的一些失误，所以现在只有软件了，跟硬件公司合作。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:40:47]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以我觉得整个过程大家对技术方向的把控还是蛮关键的一些决策的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:40:53]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对对对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:40:54]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+那还有几家创业公司，比如说INQ.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:40:58]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+IMQ的路径主要是李子瑾、李子锦。路径其实曾经很长一段时间，甚至在10年以前，被认为是比超导更有前景的路径。因为简单一点就是基于离子阱的量子实验，其实是人类最早的量子实验，拿了不少诺贝尔奖。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:41:15]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+超导在很长的时间，在2007年09年之前被认为是一个非常差的平台。因为当时能实验上做出的量子比特都不太行，都非常差。人类大概在09年从耶鲁开始把这样子比特做的越来越好了。然后出于所谓到了14年的时候，可以到了所谓的纠错的阈值，也是google参加的一个时间点。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:41:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+LQ他们那条路径为什么最好呢？因为INQ的这套量子体系其实是历史最丑的，然后同时也是在小规模量子体系里面是最好，操纵的可能性很强。所以说他们当时的路径就认为trap就是离自己这个路线可能会更早的实现所谓的商业落地和所谓的useful count computer。但是事实来说，他们公司的特点，从他们公司创始到上市到现在，一共它的量子比特的数量可能就翻了个倍，差不多也有快多少年了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:08]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+现在是多少个量子比特？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:09]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+他们17年创始的时候，大概因为是学校大学出来的，所以上来从大学实验室搬出来的东西就有11个。这样子比特可以相互纠缠和计算。你当年发了很多论文，其实都还不错的工作。但是后来发现你自己这个路径就是你当你要超越10亿个量子比特的时候，工程上面有巨大量的科学挑战。一个是工程挑战大家都很大，但是你可以一步步实现它。一个是有科学挑战。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:35]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+科学挑战会更难，它需要依靠基础科学的突破。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:39]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+就是有更多的不确定性在里面，你需要有更多的innovation去drive它。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:44]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以你刚刚说他们翻了一个倍，现在是22个量子比特。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:48]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+现在差不多他们俩差不多二十多个到30个之间。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:52]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+现在业界最多的是多少个量子比特？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:42:54]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+你自己最多的应该是honey world那个32，没记错的话。但是现在的问题就变成了当你的量子比特变多的情况下，其实他们的一个trade off就是不会发现离子井的性能越来越接近超导了。就是量子比特变多，它的运行性能，比如说保证度这些指标越来越接近超导了。我应该说是超导越近他们了，导致一个现在很有趣的一个cross over。就是以前认为超导不可能做到保证度大于99.9吗？现在能做到了，他做到不止一个。从小规模实验来的话，随着你自己的变得越越大，反而从实验过程中，因为有时候有各种挑战，导致实际上你的trade off就是你的变大，同时你的狂力也在下降。然后两个卷cross over了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:35]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+现在OK技术发展其实是一个。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+很有趣的过程。你会发现很多人当年弯道超车在技术发展早期时候并不存在可能性。就像AI例子，transformer去到GPT，你不能为了避免用transformer换一个别的完全不一样的架构去试错，对吧？但是很多以为自己可以换他的例子，反而就会翻车了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:55]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+喜欢倒翻车。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:43:56]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+所以说INQ的问题在于他没办法一个可我也去做到现在超导这种skill。他们会说我们有rule map了，但是show me actual demonstration。对，这个是离自己低位。我刚才说过了，它那个完全不一样，都不是digital，它那个是个叫亮崔红，没办法用来做纠错retina。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:44:17]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+Regrette这个公司很传奇。Regrette本人就是当年在也有把第一个高保真度超导比特量怎么做出来的人，他的毕业论文就是他，然后他把这套带到IBM和他同学在一起。所以IBM最早的路径图就是根据他的那一套架构起来的。他后来自己开公司，反正各种原因，他的公司的超额比特的一些小细节也变了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:44:39]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+变regarding我觉得其实在量子公司其他上面算是前辈了，先驱。但是因为可能有点太早了，13年创建的天太早了，所以说实际上the way to head of curve，然后就像说的，你在transformer我之前创立一个AI公司，可能会N大变成先驱。但是可能后面你就会moments就display掉了。你就没办法去用最新的技术，最新的一些信息去做更明智的决定。所以regarding其实是一个我觉得我还是很respect他们的，但是他们的整个公司的perform Better，无论技术层面还是商业层面，其实都现在有点form behind。但是他们CEO现在也不在了，regt现在也退休了。实际上现在like other start of stories。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:45:22]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以我现在听下来，我觉得是不是整个量子计算领域还是巨头的路线会稍微solid一点。比如说google这些公司相比于创业公司，它还是在一个更加领先的位置。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:45:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+首先亚马逊规定我be on this with IBM，因为之前选择路径稍微有点偏，也真的不一定他们stay with他们自己的那个路径，大概stay了个十多年。然后他们在24年的时候，就去年在他们发布他们一千量子比特的那个量子芯片之后，把它路线图改了改到跟我们俩像了。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:45:54]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+其实你们的路线是什么？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:45:56]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们算是很早用多个量子芯片做motion cord computer这一条路线的。他们发布的所谓long range copper，其实当时我们都做了，我们光创建就有加盟专利了。这个事情那就很有趣了。我们创建的时候，现在我们路线图之前都没人明确放到自己的路线上，现在IDMPV过来了。当然这个也是我们从伯克利being off的时候，因为我们看到了过去10年整个量子行业的发展。我其实不愿反对他说弯道超车的说法，因为你会完全不一样的路子，就像说你去搞一些完全新的量子比特去做这个事情不现实对吧？但你在架构上你可以比大公司要创新一些，用一些更加矮9的，更加灵活且更加高效的架构。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:46:35]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对，因为更新对。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:46:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+更新就IBM这个公司，以前我们cover之前，其实我们跟他们那些人聊过，其实他们的mindset就是我认为我的这条路径，只要我能走下去，我有公司有钱，有人甚至有信心，那我为什么要去试一些新的东西呢？我就直接做就好了。所以他们不是很care overtime的这种创新。他们也不是觉得Z公司的一些小的架构的低效性，对他们的整体商业落地有任何实际的影响。因为对他们来说，技术进步的高效率上面那一点上下浮动，对于一个百年企业来说其实一般。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:47:08]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对所以实际上这个大公司的话，我觉得google一个很好的例子。Google就是一个会去用创新的方式，因为它的架构跟IP也不太一样。我一架构来说大家都超导，但是不太一样。但是它用了一个非常从US and barber出来的一个路线，就是可调性非常强非常灵活。所以导致他们可以用这个灵活性先于IBM去做一些IBM不可做到的事情。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:47:30]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+然后我自己还有一个问题，你们怎么去衡量量子计算这个事儿，他应该在学界做还是在工业界来做？就比如说你其实也可以继续在学校去做这个科学研究，也可以成立自己的创业公司去做科学研究。我觉得这个问题如果对应到我们现在比较熟悉的AI领域的话，比如说当scaling law它已经成立的时候，其实你在工业界你有更多的钱跟卡，你是更容易出成果的。那么量子计算它现在是一个什么样的权衡跟评估呢？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:48:03]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+就是量子计算其实在19年之后就很明显了，学术界根本干不过工业界，包括我们以前组的同学不是去亚马逊，就是去google，就是IBM。就大公司来说的话，现在基本上我们无论是cotex还是burke出来的那一些同学，或者后面这些几乎没有进入学术界的。为什么你看到AI是这样子的，美国学术界认为学术的作用不是去跟大公司比，谁先落地，谁先把东西做出来，谁先有什么商业化成果，谁先要有应用，谁先规模做大。学术界不干这个。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:48:32]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+美国学术界的，特别是越好的机构，学术界的一个核心的职责是干嘛？是去做快速试错，快速的开发，去做探索。比如说在大家都不觉得量子能做出来的时候，我去做超导线路，我去做离子近，然后我去垫这个集。举个例子，google做量计算的时候是13年，UC3.8 ba的马蹄尼是主，他在超导量子计算平台上跨越了所谓的量子纠错阈值，就是保证大于99 percent。1304年的时候，所以google那个时候认为量子计算从科学问题变成了一个工程性问题，所以那个时候才后面的一句话，所以从学术界干嘛呢？就是在大家还是科学问题的时候去探索能不能去prove concept，这个是工业界可以接受的。所以从现在来说的话，现在基本上学术界为什么现在大家都不去，原因是学术界没这样的资源。而是学术界其实也不怎么哈尔做，说白了就是这种，我说我的go是为了把量子线做的越大越好，其实表示那那这个东西，但我说的比较好的大学了，大学跟我们好顶级大学什么关系呢？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:49:36]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以其实我理解工业界探索的是落地，然后学术界它其实还是在最初的那个小苗头的方向上的一些探索。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:49:44]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对，就是工业界完全觉得这玩意儿没有ROI的时候，学术界是蓬勃发展的时候。当你证明了你现在不是一个科学问题，现在是个工程问题的时候，工业界就完全take over。因为工业界更有目标，关键目标是把它做出来。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:49:59]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+而不是发论文。是的，造一台量子计算机大概需要多少钱？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:50:04]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+如果只是我们物料成本上来造一台量子算机的话，差不多在100万左右。如果你知道怎么做的话，也不是错的话。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:50:13]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+比我想象中要便宜。然后google现在他们的量子计算机大概是有多少？Cubit.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:50:19]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+韦楼，100吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:50:21]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+100。我发现大家在提到量子计算的时候，经常会用量子比特的这个计量单位，然后会去看它有多少的量子比特。就是你可不可以跟大家通俗的解释一下这个是什么意思。为什么每次当它的这个量子比特数要增加，或者翻倍式的增加的时候，就会去遇到一个难以突破的学术问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:50:41]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+其实增加一倍的时候就是典型的就像造芯片一样。当你把芯片的规模就是它的那个硅片，如果你只是把硅片噪大，然后放更多晶体管上去的时候，你的芯片整体工作的良品率在下降。所以你造更多的时候，你的芯片对一个所有量子比特都在你想它工作的这个范围里面的那个微纳加工射精度的要求越高。比如说你造1000个，那是比特，可能其中真的能串联起来work的可能就300个。所以说造1000个有意义，没有就变成了一个优秀了，就没意义了，对吧？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:51:17]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+像你自己刚才说过的，你自己去禁锢离子的方式，会导致他当离子的数量超过11个到20个的时候，它的禁锢难度会越来越高。一个是个物理问题，一个是一个fabrication微纳加工和设计问题。That&#x27;s why很多大公司都会选择超导路径。因为微纳加工说实话半导体工业已经四五十年了，都变成夕阳产业了。这个100纳米飞船的东西还做不出来，这个有点说不过去。今年开始从去年末下半年开始，会发现半导体公司也慢慢开始了。比如说硬材，还有一些传统半导体的设备加工和芯片工厂，已经慢慢开始有自量子芯片的流片的一些工作了，跟一些创业公司开始量计算，并不是一个AI早期或者说半导体早期，这种情况就是逐渐的你的下面的公司，像google，像我们慢慢证明这东西可以做做的越大你越有回报。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:52:09]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+那上面的那些像半导体设备公司，半导体晶圆厂，那就开始感兴趣了，这就意味着我们就可以接受了，对吧？这个是个很典型的一个商业逻辑。我觉得。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:52:19]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以今年VC投量子计算，你们有感受到这个市场有在变热，然后钱在大批的网里面有吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:52:27]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得现在来说，因为降息也是一个相对近期的时间，并没有明显感觉到传统VC的投资变动。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:52:36]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+什么样的投资变动？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:52:37]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+战略VC国家主权VC比如说叫Martini&#x27;s，就以前google的那个量子计算的负责人，或者有一些UC的爸爸的教授，他的新公司叫collab。他这个公司就在去年拿到了16个million从日本的发展银行还有一些别的机构拿的钱。所以总体上来说就更加偏向于一个case。就是现在处在敏感阶段的三个行业，先进半导体、AI量子。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:53:05]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我们可以总体来说，先进半导体是一个非常传奇的过去，然后AI是个非常蓬勃的当下，量子基本上都是不可避免的未来。所以在一个加息周期里面的话。政府会对这个不可避免的未来更感兴趣。但随着减息周期的开始，我觉得像VC对整个行业更加关注，特别是北斗的出现，我觉得我就会rap up。但是就看下一个江西这些持到什么时候。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:53:34]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+对你刚刚提到的这家公司就是日本发展银行，有投到他们，我理解是不是？量子计算如果实现了，它对整个全球的密码系统会要求有一个整体的密码系统的升级。然后大家在安全层面上来有一些。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:53:52]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+布局这个已经开始了，这个都不用说，大家都知道了，两年前拜登的那个行政命令了，要求所有联邦机构在应该是今年会形成法案，还是去年就形成法案，我都忘了。要求联邦机构将自己的加密数改成所谓的抗量子加密国家标准制定局大概在去年的时候定下了三个标准，加密术、冷静抗量子加密，所以实际上两三年前就开始了。然后去年2月份的时候，新加坡金管局建议了所有新加坡的金融机构采用抗量子加密术和安全密钥，叫qkd，一种量子通讯手段，然后让你的应用数据可以不被泄露出去。这个逻辑其实也是涉及到刚才大家说时间线的问题。为什么大家从两年前金管局就是新加坡央行都在做这个事情呢？然后汇丰你也看到汇丰其实都已经在英国做过抗量子加密术和安全通讯的试点网络了。很多银行也在做，像JP Morgan cheese，他们也算是这个领域里面非常大条鱼。他们有active的抗量子加密和量通讯的基础设施和项目发展。各位公开信息。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:54:56]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以密码学也是在蓬勃发展，抗量子算法的密码学。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:55:01]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+抗量子发展算法和量子通讯。量子通讯其实可以看量子计算的，其实这些东西会发现很有趣的。就是之前说政府在主导，这个我可以理解。其实从去年开始是金融界在这方面的进步非常大。基本上你听过的银行都有这方面的独立项目和共同项目，甚至央行。所以这一点其实回到刚才的问题，我觉得很多人就是不要看他说什么，对吧？说的保守一点再看他做什么。如果这个样子可以破解加密数字量计算机，还有10到15年出来。为什么现在大家这个问题就去改变自己的基础设施呢？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:55:33]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+是，所以你觉得大概量子计算它什么时候可以破解这个银行的密码呢？因为是这样的，就是在谷歌v low芯片发布的那一天，然后那天观察了一下比特币的价格是大跌的。因为其实市场上已经非常广泛且非常长的时间就流行了一种说法，说量子计算它是非常容易去破解比特币的算法的。因为比特币的算法其实分成两部分，一部分是它整个挖矿的机制的算法，还有一部分就是它的次要的椭圆曲线签名。在这两部分的算法里面，据说椭圆曲线的签名它是最容易被破解的，甚至他比破解传统银行系统的密码还要更容易。不知道你们理解是这个样子吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:56:16]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+对，像刚才鸿钧提到的比特币确实是分两种加密系统的那我们这里需要提到一种刚才已经聊到的算法，就是数据算法。它是一种专门针对大数分解和离散对数问题的一种量子算法。它可以在以多项式时间内破解这个椭圆曲线签名，这种针对的不仅仅是比特币系统，而是所有的它的公钥是公开的，所有的加密系统跟这个相关的都会被针对。然后可以比较相对轻易的会被这个舒尔算法所攻破。这与银行系统不同，银行系统它是没有公开的密钥的，银行系统的密钥它本身也是机密信息，不会暴露在外。但是比特币用户的钱包的公钥是公开的，在链上可查的，任何人都可以通过区块链网络去访问这些公钥。所以说没有量子计算机的时代，你拿到公钥是绝对不可能算出，也不能说绝对不可能吧，是一个非常大的cost，可能几万年才能算得出私钥。但是有了量子计算机和舒尔算法的情况下，在量子计算机有足够的能力的情况下，拿到公钥之后算出私钥是一个非常可行的过程。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:57:31]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+多少量子比特才能破解？有人说需要4000个，但是其实我们现在离4000个量子比特还是有很远的距离的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:57:39]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这点我先correct一下，4000个3000个比特数量，他们assumption什么呢？说的要求的是你的量子比特是没有错误的，就是完全容错或者完全纠错量子计算机的，就你要有一个4000个量子比特，所谓大规模容错量子计算机去跑。所以这个就是老黄那个very useful content computer。按照老黄的预测，大概在15年之后，你看大家的动作来说，显然不是送15年之后。毕竟当这个东西已经开始威胁到自己的钱包的时候，大家的敏感度就变高了。所以我觉得能破解到加密数的这个量子计算机，就是所谓的very useful大规模容错过量计算机的出现可能还是要十年之后。而很多机构和公司，特别是银行，还有比特币特别抵抗银行现在已经自己去了这套加密术了的原因在于万一？对，因为这个不是说一个绝对的，这是一个estimation对吧？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:58:34]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+像GPT moment，说实话在22年初的时候，21年的时候，大家不知道有进展会觉得那你当时的普遍认为就是像能通过图灵测试的AI还有8到10年的时间，但实际上也就几个月的时间。所以说实际上经过这套之后，很多人意识到点技术突破有点像技术爆炸，你无法预测它什么时候发现。我只能说我合理推测十点左右会出来。但是如果五年之后出来，甚至是明年出来，我不会极端的惊讶。但是没有说完全不可能，没有物理规律说不可能这个房子门头是工程学问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[00:59:09]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+你刚刚提到了银行，他们是都有去做这种抗量子算法和量子通讯的布局的。同时我也看到比特币他们的核心团队，库尔团队，他们可能也是在看有什么样的方法可以抗拒量子计算机。但是因为你刚刚提到的量子计算机，它可能实现的就是very useful的完全容错的量子计算机。它出现的时间可能是快速的，它不是匀速的，它可能是快速的，大家不经意间就很快实现了的。也可能是需要比如说10到15年，甚至15到20年。那我可不可以理解成现在就变成一场竞赛了，看谁先出来。如果说有这么强的非常powerful的量子计算先实现了，那就会对还没有来得及升级的这些密码系统造成非常大的威胁。另外一端就是大家在抗量子密码学的改善上，大家有很多的升级，它可能是一个非常平缓的过渡。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:00:01]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+首先密码学的替换，这个相对来说比较简单。抗量子加密术本质上是个加密mechanism的一个替换，这个很大程度上是个软件升级问题，或者是一个硬件的替换问题。比如说你要高速加密的话，你可能需要一个单独的硬件asic但这个包括去年国家标准制定局制定的三个标准抗糖加密算法之后，实际上大家商业化程度角度来讲，你就去符合标准去应对就好了。这也是为什么你会看到像汇丰其实去年也发布了他们的cryo在香港发布的他们科瑞还带了量子抗量子加密。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:00:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+抗量子加密这个东西其实转变来说，加密受损说本身并不是一个所谓很慢的过程，你得去做更复杂的。反而是那个像量子通讯叫qkd这样子的，很多银行也在做qkd，完全不依靠你的加密数本身抗量子加密，而是靠物理层面的格局，这个也是一条路子，但这个更慢一些，因为它毕竟涉及到光纤网络这些东西，但是很多其实也自己在推。甚至我们接触的一个银行partner，他们说现在很有趣的情况是银行再去要求这些通讯公司向ATT去deploy，那样子加抗，叫光纤qkd网络，来帮助他们在华尔街可以进行安全的通讯。这个还是挺有趣的。反而是银行倒逼通讯公司做这个事情，因为工信公司干不出来，他们自己大银行也是自己在搞。还有一句话，任何这种potential data bridge他们是不loss，他们不会take the risk的。所以说实际上我不是很担心，真的是因为解密的能力的提升，导致所谓的金融体系或者虚拟货币体系的崩溃。从技术层面上我不觉得，但是还是那句话，三体有句话说的很好，傲慢才是最大的问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:01:45]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+还有我消灭你，与你无关。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:01:48]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+对吧？我觉得现在大家都要求很好，包括银行金融机构，你跟他们很傲慢的时候，但他们其实在这行一点都不傲慢，他们反而是想play safe。所以说实际上我觉得包括像crypto，他们其实也可以再迭代他们的加密方法，是让他们的更加secure。这个我觉得是可以做到的，也并不是一个rocky science的问题。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:02:05]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我觉得它不是很难的。像你们这样的公司的商业模式是什么？因为我理解其实量子计算要把它实现都很难，然后它也是一个高研发驱动的，你们会去怎么样去找这种商业化的场景呢？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:02:18]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+这个挺有趣的。我们公司的主要业务什么呢？刚才说的就是研发制造和销售小量增强型或量子计算平台计算设备，俗称量计算机。OK我用了很多定语，但是量计算机因为大家的理解不太一样，有的理解是very useful，有的理解就是very useful。你像我们理解就是更多的补充适合未来5年到10年这个阶段。当量子计但从lear time到变成value for阶段里面的所有的应用落地，你会发现其实现在有很多大公司，他们也在做量子应用，包括量子机器学习这样的事情。Very useful.
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:02:52]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+量计算机是完全容错计算机，是你完全可以通用的去编程的。量计算机基本上所有算法，包括解密加密都可以用。但是我们这个毕竟是一个连续性过程。你在中间这段时间之后，这个金山我们都知道，你把它跑完之后肯定全是金。但是在把土刨完之前，你有没有办法攫取最大的红利？这个是很多终端用户在思考的问题。无论是终端用户是个大型银行，是个央行。你看最近新加坡的央行金管局在七月份发的那个那个program，就是促使新加坡的金融机构去开始利用量子计算来进入到他们的一些业务里面去去辅助他们业务的发展。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:03:31]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+现在处在一个很有趣的阶段，就像很多大公司和国家都在想，这个肯定有地方可以得到第一笔红利。与其别人觉得不如我去决定。所以就给我们这边带来了比较大的一个契机。就在于我们可以向大公司和一些基础设施发展项目计算出来进行配套。我们的量子计算设备或者说量子增强型设备，就是我们本质上变成了一个服务器供应商。这点其实也是我们目前客户的主要的角度。买我们的设备，买我们计算机过去干嘛呢？其实我们最大的revenue来自于将这些数据中心提供我们的计算机。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:04:07]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+所以你们现在已经是有收入了，对不对？那我们有能打平吗？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:04:11]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+严格意义上说，从gross角度来讲是profitable的。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:04:15]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+我们去年是厉害。最后一个问题就是对于普通人而言，你觉得量子计算它会去影响普通人的日常生活吗？还是说它其实只是会在比较高精尖的领域里面去默默运转？
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:04:29]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+我觉得普通人的话，更多这个东西就有点像计算机早期诞生的时候，他会服务的什么呢？就是一个大型跨国机构，或者说甚至一个国家政府的基础设施的需求。它提供的是更多的后台的需求，为比如说未来的能服务于普通人的化学产品，或者金融产品，或者AI产品提供助力，有点像GPU，GPU其实很多年以来，大家都是这些游戏玩家在玩，有段时间是给挖矿。然后现在其实GPU才慢慢真正的是所谓的无论你玩不玩游戏，你都得跟我打交道。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:05:03]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+但是也是从数据中心的角度来服务大众的。我觉得大计算也会经历这样的过程。我们会先去服务一些比较特定的高价值客户。对我们角度来讲，像计算机早期一样服务基础设施项目，提供大型机构，然后通过他们去间接服务普通人。但随着根据老黄的very useful concept出现在那个年代，其实不光意味着将计算机可能到了一个完整形态。甚至我觉得在那个年代这个产业链更加成熟，生产效率也更高，所以这个成本也会变得越来越低。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:05:36]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+计算机早期很贵的当IM最早做计算机产品的公司沃森他的当时的chairman经典的误判就是说全世界只需要5台计算机。因为他数了数需要相机的政府、军队、银行，然后后来发现明显误判了。因为就是有点7个蛋的问题，有更多人去用了，然后发现更多的用途了，然后就会有更多需求，然后更多时候drive了更多的产量，更多产量会让成本下降。因为本质上来说，量计算机几乎没有用到稀有金属，是什么驱动它的成本呢？很多人来说就是像航空航天部门一样，是因为这个量没上来。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:06:09]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+OK懂了，所以也是先服务于高精尖，再慢慢的蔓延到普通人。好的，谢谢两位，谢谢Roger，谢谢Jerry的非常精彩给我们文科生做了一下量子计算的科普。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:06:24]</strong> </span>
+<span class="speaker"><strong>发言人1: </strong></span>
+谢谢您的时间，很高兴跟各位分享。然后有任何问题随时发up就好。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:06:29]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+好的，好，谢谢两位。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:06:31]</strong> </span>
+<span class="speaker"><strong>发言人3: </strong></span>
+谢谢红军。
+</p>
+<p class="transcript-line">
+<span class="time"><strong>[01:06:33]</strong> </span>
+<span class="speaker"><strong>发言人2: </strong></span>
+如果大家对量子计算以及本期的节目内容有什么样的想法，欢迎大家给我们写评论，写留言。中国的听众可以通过小宇宙、苹果播客、喜马拉雅、蜻蜓FM、网易云音乐来收听。我们海外的听众可以通过苹果播客、spotify, 还有可以在youtube上搜索硅谷101播客来收听我们。我是红军，感谢大家的收听，谢谢。
+</p>]]></content:encoded>
+            <pubDate>Fri, 14 Feb 2025 00:00:00 GMT</pubDate>
+            <guid>67ae94a90d2f7da55ed38000</guid>
+        </item>
         <item>
             <title>E179｜DeepSeek技术解析：为何引发英伟达股价下跌？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/67a4113ee92894e7bf181a4f</link>
@@ -40,7 +1211,7 @@ John Yue，Inference.ai创始人兼CEO
 * MOE (Mixture of Experts，专家混合模型)：一种神经网络架构，结合多个专家子模型进行工作，通过负载均衡提高效率，适用于大规模模型。
 * Bootstrap (自举法)：模型通过生成多个答案并选择最佳结果，来提升自身性能的自我改进方法。
 * 蒸馏 (Distillation)：将大模型的知识转移给小模型，通过模仿大模型的输出，提高小模型的能力。
-* GRPO (Gradient Reward Policy Optimization，梯度奖励策略优化)：一种强化学习算法，通过梯度下降优化模型策略。
+* GRPO (Group Relative Policy Optimization ，分组相对策略优化）：一种用于强化学习的优化算法，通过在同一问题下生成多个输出（即“分组”），并对这些输出进行相对比较来计算奖励。这种方法避免了传统 PPO 中对价值函数的依赖，从而显著减少了内存和计算资源的消耗。
 * PPO (Proximal Policy Optimization，近端策略优化)：一种强化学习算法，通过限制策略更新的幅度来保持优化的稳定性。
 * 负载均衡 (Load Balance)：在分布式系统中平衡计算任务，避免过度集中或资源闲置。
 * 强化学习 (Reinforcement Learning)：通过奖励机制引导AI模型学习最优策略的机器学习方法。
@@ -34313,952 +35484,6 @@ Peter有补充的吗？
 </p>]]></content:encoded>
             <pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
             <guid>66551fc075f2e39409f18cd4</guid>
-        </item>
-        <item>
-            <title>E151｜事故频发、吹哨人离奇死亡，波音怎么了？</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/664d33ef8146bf362d4c9997</link>
-            <description>2018年10月印尼狮航的波音737 MAX飞机坠毁，5个月后，埃塞俄比亚航空公司的波音737 MAX 8型客机发生空难，两起空难共造成346人遇难。不幸的是，这并不是故事的结束。今年，波音公司再次频繁登上头条新闻，这一次是因为多起令人震惊的事故在短时间内接连发生——包括内嵌式应急门脱落、引擎起火、轮胎掉落、冲出跑道以及机翼受损等。
-今年4月，美国国会参议院举行了听证会，波音公司的安全文化受到了严格的审查。在听证会上，包括波音前工程师萨姆·萨利赫普尔在内的多名证人出庭作证，他们对波音飞机的安全性提出了严重的担忧。更令人震惊的是，正在波音接受国会和司法调查期间，两位波音的吹哨人在不到两个月时间内非自然死亡。
-作为全球航空业的巨头，波音公司正面临着新一轮的信任危机。美国航空监管机构、航空公司、乘客甚至波音公司自己的员工都在纷纷发出抗议的声音。投资者也表达了自己的担忧：波音公司的股票今年下跌了 28%，成为标准普尔 500 指数中表现第二差的公司，仅次于特斯拉。
-波音到底怎么了？《硅谷101》邀请到了Wintell &amp; Co 律所高级顾问，Eding Yi，回顾最近举行的波音听证会，讨论多起事故背后的原因、以及未来的飞行安全。
-【主播】
-泓君Jane，硅谷101创始人，播客主理人
-杜秀，硅谷101播客监制
-【嘉宾】
-Eding Yi, Wintell &amp; Co 高级顾问
-【你将听到】
-03:16 波音事故频发不是偶然事件
-04:13 设计有缺陷的MCAS是737 Max两起坠机的罪魁祸首
-08:11 全链条漏洞使得波音飞机的失事无法避免
-11:43 多位吹哨人将波音推进舆论漩涡
-14:52 五年前的空难后，美国与波音公司达成不起诉协议
-15:32 吹哨人在听证会爆料被波音公司持续无视和打压
-18:54 百人遇难却无人入刑——航空灾难的诉讼流程极为冲突且复杂
-24:30 听证会的底色对波音相对友好
-26:36 即是裁判员又是运动员：FAA对波音问题的处理能力有限
-30:45 听证会期间两位吹哨人接连死亡是巧合吗？
-32:25 吹哨人：“鉴于我在波音所看到的一切，我不再敢乘坐飞机”
-36:34 失去向日本学习精益制造的机会，波音是美国制造的黑暗时代
-39:06 心态更放松的空中客车在订单储备上已经超越了波音公司
-43:35 航空供应链并非流水线化，依然是匠人精神与以人为本
-48:07 非官方建议：出行可以选航司，还可以参考ICAO官方安全报告
-【相关补充信息】
-MCAS系统
-Maneuvering Characteristics Augmentation System（机动特性增强系统）是波音737 MAX飞机上采用的一种飞行控制律，在原始设计中MCAS依靠来自单个迎角传感器的输入数据来监控飞机在飞行中的迎角，原本是为了增强飞机在高迎角条件下的俯仰稳定性，但在实际运行中，由于对系统潜在风险的沟通不足以及传感器数据的依赖问题，导致了严重的事故。在两起涉及波音737 MAX飞机的空难之后，波音公司对MCAS系统进行了升级。
-FAA
-美国联邦航空管理局（Federal Aviation Administration）的缩写。它是美国政府机构，负责制定与飞机相关的规则和标准。
-ICAO Safety Reports
-国际民用航空组织（International Civil Aviation Organization）发布的安全报告。该年度报告提供有关全球航空安全情况的更新，包括事故统计数据、相关风险因素分析以及与全球航空安全计划（Global Aviation Safety Plan，简称 GASP）相关的指标更新。
-【监制】
-杜秀
-【后期】
-AMEI
-【Shownotes】
-杜秀
-【BGM】
-One Last Drama - Philip Ayers
-No Turning Back - Alan Carlson-Green
-Are You Alone_ - Victor Lundberg
-Reviving - Megan Wofford
-【在这里找到我们】
-公众号：硅谷101
-收听渠道：苹果｜小宇宙｜喜马拉雅｜蜻蜓FM｜网易云音乐｜QQ音乐｜荔枝播客
-海外用户：Apple Podcast｜Spotify｜TuneIn｜Youtube｜Amazon Music
-联系我们：podcast@sv101.net</description>
-            <content:encoded><![CDATA[<h1>转写链接</h1>
-<link>https://tongyi.aliyun.com/efficiency/doc/transcripts/47z39vd5ryzp9edg</link><br>
-<h1>节目摘要</h1>
-<div class="summary">波音公司近期遭遇了严峻挑战，主要源于多起飞机事故、安全文化缺失以及对吹哨人不幸遭遇的广泛关注。讨论深入分析了波音737MAX系列及其他型号的事故原因，指出设计与制造过程中的问题，并质疑联邦航空管理局（FAA）的监管是否到位。此外，讨论着重强调了安全文化的缺失，以及个人在选择航空出行时避免问题飞机的重要性。此次对话呼吁对波音进行更严格的审查与改进，深刻反思了航空业在监管、安全和伦理方面的不足。</div><br>
-<h1>章节速览</h1>
-<div class="chapters">
-<div class="chapter-item">
-<span class="time"><strong>[00:00:00]</strong> </span>
-<span class="chapter-title"><strong>探讨波音公司近期面临的航空安全危机</strong></span>
-<div class="chapter-summary">硅谷101播客中，红军和杜秀与高级顾问一定讨论了波音公司最近发生的多起航空事故，包括应急门门栓脱落、引擎起火等，涉及多款主流机型，引发全球关注。一定，拥有航空科学和法学背景的专家，分析了波音事故的原因，探讨了公众对波音安全性的担忧，以及波音面临的三波危机浪潮。同时，讨论了对波音吹哨人相继去世的关切和美国听证会对波音的调查，询问这些事故是偶然还是必然事件。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:03:37]</strong> </span>
-<span class="chapter-title"><strong>波音737 MAX事故与MCAS系统问题分析</strong></span>
-<div class="chapter-summary">波音737 MAX在2018年和2019年发生了两起严重的空难事故，分别是印度尼西亚狮子航空和埃塞俄比亚航空事故，事故原因主要归咎于MCAS系统的错误设计和管理问题。MCAS系统在飞机失速时自动接管自动驾驶，但因传感器故障导致系统错误启动，飞机进入俯冲状态。事故也暴露了飞行员对系统了解不足和紧急情况下的应对措施缺失。虽然FA未及时停飞调查，但事后分析指出，如果在首起事故发生后及时检查和修复问题，事故是可以避免的。这两起事故揭示了从设计、测试到认证过程中的一系列问题，凸显了航空安全领域需要更严格的监管和测试流程。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:08:02]</strong> </span>
-<span class="chapter-title"><strong>波音事故分析：多环节失误导致空难</strong></span>
-<div class="chapter-summary">对话中讨论了波音飞机事故的多方面原因，包括系统设计更新未对驾驶员进行培训、未将关键信息纳入驾驶手册，以及事故前已有迹象未被妥善处理。事故中存在九个失误环节，如维修报告缺失、传感器故障未经测试等。讨论还指出，飞行员的培训和表现、设计和制造问题、以及监管机构的责任等，都对事故的发生有重大影响。此外，还强调了人员因素在空难中占了很大比例，尤其是在起飞和降落阶段。最后，讨论了波音面临的诸多问题，包括安全问题的曝光和政府及监管机构的应对措施。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:11:50]</strong> </span>
-<span class="chapter-title"><strong>波音公司安全门事件听证会及调查进展</strong></span>
-<div class="chapter-summary">本次听证会由美国国会参议院常设调查小组委员会和参议院商务委员会发起，旨在调查阿拉斯加航空安全门脱落事件及其举报人举报情况。波音公司和FAA未出席听证会，而美国司法部已对波音启动调查，旨在判断此事件是否导致之前对波音的不起诉协议失效。听证会还包含了来自波音的内部举报人，包括在职质量工程师、前任经理以及FAA退休安全工程师，他们讨论了波音的安全管理和文化问题。此外，一位系统集成方面的专家也参与了讨论。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:14:47]</strong> </span>
-<span class="chapter-title"><strong>波音公司听证会核心指控与安全问题探讨</strong></span>
-<div class="chapter-summary">在波音公司经历两次重大空难后，听证会主要关注了是否应对其采取法律行动。讨论重点包括美国政府与波音达成的和解协议、赔偿问题以及对未来可能的法律追究。会议中，证人揭露了波音在飞机制造过程中的多种问题，包括安全文化缺陷、设计和制造上的缺陷、对内部报告的忽视和压制，以及调查过程中的不当行为。此外，还指出了制造条件导致空难的因素仍然存在，批评了FAA和其他监管机构对波音问题的处理方式，强调了安全问题的严重性和对公众的潜在风险。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:18:49]</strong> </span>
-<span class="chapter-title"><strong>波音公司空难责任与国际诉讼复杂性探讨</strong></span>
-<div class="chapter-summary">讨论集中在波音公司涉及的空难及其后果上，特别是缺乏个体问责和仅限于美国国内的和解协议。空难导致多人死亡，涉及设计和制造缺陷，但无波音员工因此入狱。尽管美国政府与波音达成了25亿美元的和解，国际受害者仍然有权利起诉波音。空难的法律责任复杂，涉跨多国，且每个国家的赔偿标准不同。对话还提到，为了争取受害者最大利益，需独立调查空难细节，涉及波音、航空公司及美国航空管理局(FAA)可能的责任。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:21:48]</strong> </span>
-<span class="chapter-title"><strong>波音公司听证会关键问题与安全文化探讨</strong></span>
-<div class="chapter-summary">在讨论中，四位证人从不同角度出发，探讨了波音公司面临的一系列问题，包括管辖权、赔偿差异、安全问题的处理态度、以及安全文化的系统性缺陷。特别指出波音在事故前已有严重警告信息未被重视、对问题的消极态度、重新认证问题上的误导行为，以及整体安全文化的缺失。同时，讨论也触及了美国联邦航空管理局（FAA）在监管上的可能不到位或包庇行为。听证会旨在寻求解决方案，希望波音能正视并解决这些问题，恢复公众信任。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:26:53]</strong> </span>
-<span class="chapter-title"><strong>探讨FAA监管与航空安全问题</strong></span>
-<div class="chapter-summary">对话中讨论了FAA（美国联邦航空管理局）在航空安全监管中的角色和挑战，特别强调了其高度依赖制造商提供的资料来认证飞机，以及在空难调查中的独立性问题。此外，还提到了美国航空监管体系存在的问题，包括监管机构与制造商之间的潜在利益冲突，以及系统性问题对航空安全的影响。通过提及国际机械师和航空航天工人协会等组织，指出了行业内对于改善航空安全的呼声和努力。同时，还提到了舆论和监管压力对于促进问题解决的重要性。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:30:44]</strong> </span>
-<span class="chapter-title"><strong>波音公司内部管理及安全问题剖析</strong></span>
-<div class="chapter-summary">讨论重点在于波音公司近期面临的一系列管理和安全问题，特别是工程师在管理层的缺失，以及对航空的热情逐渐减少。同时，通过吹哨人的经历，揭示了波音在安全管理上存在的严重问题。文中还提到了波音与其他国家制造业的对比，以及美国制造业面临的挑战和可能的学习方向。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:38:07]</strong> </span>
-<span class="chapter-title"><strong>特斯拉制造工艺及波音与空客企业文化对比</strong></span>
-<div class="chapter-summary">对话中讨论了特斯拉的制造工艺，指出其与日本车相比存在较大缝隙，而苹果产品改善了对美国制造的印象。此外，比较了波音和空客的企业文化，强调空客在制造和安全性上的稳步发展，即使面对高订单量也不急于加班，维持欧洲风格的工作节奏，而波音则展现出不同的紧迫和盈利导向的文化。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:41:35]</strong> </span>
-<span class="chapter-title"><strong>航空制造业的现状与挑战</strong></span>
-<div class="chapter-summary">讨论集中在航空制造业的主要玩家，包括波音和空客在宽体机领域的主导地位，以及巴航工业和庞巴迪在民航领域的贡献。分析了波音737和空客A320的市场表现，指出空客在订单数量上超过波音。讨论还涉及了航空业的匠人精神，强调了人为因素在飞机制造和飞行安全中的重要性。同时，通过比较飞机和汽车的制造过程，指出了航空制造业的复杂性和对技能的高度依赖。最后，讨论触及了航空制造业的成本问题和技术创新的挑战，以及行业未来的发展方向。</div>
-</div>
-<div class="chapter-item">
-<span class="time"><strong>[00:48:26]</strong> </span>
-<span class="chapter-title"><strong>选择航空公司和机型的考量</strong></span>
-<div class="chapter-summary">讨论集中在人们如何根据航空公司和飞机型号来决定乘坐哪个航班。特别强调了对波音和空客飞机的偏好，以及避免波音737 MAX 9等特定机型的原因。还提及了航空安全问题、特定航空公司的安全记录，以及国际民航组织发布的安全报告的重要性。讨论也涵盖了飞行安全文化的系统性问题和对波音公司采取措施的批评。</div>
-</div>
-</div><br>
-<h1>问题回顾</h1>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 波音最近发生了哪些事故，引发了全球的关注和担忧？大家对波音的担忧主要有哪些方面？</div>
-<div class="answer"><strong>A:</strong> 波音最近遭遇了一系列事故，包括应急门门栓脱落、引擎起火、轮胎掉落冲出跑道以及机翼受损。最近三天内发生了三起事故，一起是飞机冲出跑道失火并造成11人受伤；另一起是波音737800客机起落架轮胎爆胎；还有一起是波音货机在土耳其机场降落时前起落架无法打开，导致飞机倾斜摩擦跑道着火。大家对波音的担忧主要有三个浪潮：第一波是2018年和2019年连续两起737坠机事故，共造成346人死亡，这是波音公众危机的一个顶峰；第二波是今年1月份阿拉斯加航空门塞掉落事故，机型为737 max 9，美国国家运输安全委员会调查发现该飞机在交付时存在严重安装失误；第三波是近期波音事故频发，以及两个月内有两名吹哨人先后离世。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 播音事故是否是偶然还是必然事件？</div>
-<div class="answer"><strong>A:</strong> 根据前两起2018年至2019年的波音737坠机事故以及后续问题不断出现的情况来看，这些安全问题一旦出现后，后续会有陆陆续续的问题发生。及时纠正和解决这些问题在短时间内很难实现，因此可以认为这些问题的发生是必然的。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 前两起事故与现在的波音问题是否属于同一原因？波音737坠机事故中，M CAS系统启动的原因是什么？</div>
-<div class="answer"><strong>A:</strong> 前两起事故已经明确是由M CAS系统的缺陷导致，而M CAS系统是因为飞机升级后增加的新功能未按照正常流程进行测试而引发的问题。这表明设计、测试和认证过程中的一系列问题是导致这些问题的根本原因，与现在发生的问题背后原因是一样的。在印度尼西亚狮子航空和埃塞俄比亚航空两起事故中，核心原因是飞机机翼迎角传感器失灵，导致M CAS系统误判飞机状态并启动俯冲姿态。飞行员未能及时了解并关闭该系统，最终造成事故发生。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 能否简单解释一下M CAS系统是什么？</div>
-<div class="answer"><strong>A:</strong> M CAS系统（机动特性增强系统）是在飞机失速时自动接管自动驾驶功能的系统，当飞机仰角过大导致失速时，该系统会自动调整机头姿态以恢复飞行状态。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在世航和SLBR航空空难之后，为什么波音没有及时叫停其飞机？</div>
-<div class="answer"><strong>A:</strong> 第一次空灾发生后，问题尚未被充分分析和解决，当局也未采取叫停措施，这导致了第二次空灾的发生。对于波音来说，这造成了巨大的损失。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 这次听证会的核心原因是什么？听证会上对波音有哪些核心指控？</div>
-<div class="answer"><strong>A:</strong> 听证会主要由美国国会参议院常设调查小组委员会和商务委员会发起，起因是阿拉斯加航空安全门脱落的问题，以及多位吹哨人对此问题的举报。听证会上的核心指控包括波音公司内部吹哨人揭露的安全问题、忽视安全报告、不安全的制造方法、设计缺陷、内部调查不当行为等，并且认为波音公司的安全文化和管理需要进行大幅度改进。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 关于五年前的空难，现在是否彻底解决？</div>
-<div class="answer"><strong>A:</strong> 现在正在复盘五年前的空难事件，看是否得到了妥善处理。尽管达成了和解协议，但像737 max的问题仍没有得到妥善解决，相关机型的安全性问题仍需关注。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 听证会上还曝光了哪些波音飞机制造过程中的问题？</div>
-<div class="answer"><strong>A:</strong> 听证会上有证人指出波音公司在787项目中采用了不安全的制造方法，设计制造存在缺陷，内部报告遭到忽视，以及调查过程中存在不当行为，这些问题可能导致了两次重大空灾的发生。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 为何有证人认为隐瞒安全问题和欺骗公众是刑事犯罪？</div>
-<div class="answer"><strong>A:</strong> 因为两次空灾中有大量人员伤亡，且波音的设计和制造问题直接导致了这场悲剧，因此有人认为应对波音及相关人员追究刑事责任，因为涉及到了公众安全和生命，这是一个国际性的问题。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在波音空难事件中，受害者家属的律师是如何处理责任鉴定的？</div>
-<div class="answer"><strong>A:</strong> 受害者家属的律师会独立调查所有空难细节，包括波音、航空公司如世航、美国航管局FAA可能存在的错误，并收集所有邮件、信件和飞行手册等证据，因为这里面存在很大的利益冲突。波音和FAA在官方调查中可能更倾向于低成本解决诉讼，而律所则致力于为受害者争取最大利益。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 四位证人在听证会上提出了哪些主要问题？</div>
-<div class="answer"><strong>A:</strong> 第一位证人主要关注的是波音公司未认真解决安全问题，事故前已有严重警告信息未被重视，以及波音在737 Max重新认证问题上的消极态度和淡化问题。第二位证人则从更宏观的角度指出波音安全文化存在问题，四个航空安全关键因素均未做好且无改变迹象，呼吁管理人员亲自深入现场解决问题。第三位证人以大学教授和飞行员的身份，指出波音在安全文化方面的系统性问题以及未妥善处理787和777等机型的问题。第四位证人强调了监管机构——美国联邦航空管理局（FAA）在监管不到位及可能存在的包庇行为。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> FAA在波音安全问题上的监管角色是什么样的？</div>
-<div class="answer"><strong>A:</strong> FAA作为美国交通部的一个部门，既要负责监管民用航空发展，又要依赖波音提供的资料进行飞机设计和制造的安全认证评估。其空难调查虽相对独立，但因高度依赖制造商提供的信息，在揭露和解决现存问题上的作用有限。同时，FAA在试飞调度、行业监管等方面的角色使其存在潜在的利益冲突，可能影响其公正性。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 听证会中提到的工会和其他协会在解决波音安全问题中扮演什么角色？</div>
-<div class="answer"><strong>A:</strong> 听证会上提到的国际机械师和航空航天工人协会以及相关分会的雇员协会，作为来自航空体系内部的专业人士，很难作为独立第三方解决整个系统的复杂问题。他们与波音有着密切的工作关系，职业生涯大多在航空体系内，因此很难从下至上推动问题的解决，需要整个体系共同参与和努力。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在波音公司内部，官僚主义是否已经到了非常严重的程度，以至于技术背景的人才流失？</div>
-<div class="answer"><strong>A:</strong> 是的，据提到，在波音这样一个大型企业中，官僚主义确实非常严重。例如，最近被解雇的西雅图商用飞机负责人，他是执行委员会中最后一批工程师之一，这反映出执行团队中已经几乎没有懂技术的人了。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 波音是否失去了对航空的热爱，这是不是他们面临的一个重要问题？</div>
-<div class="answer"><strong>A:</strong> 是的，波音的管理团队已经不再是充满对航空热情的人组成，这是个严重的问题。同时，提到波音的一些决定和事件让人感到他们已经偏离了初心，变得过于emotional。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 约翰·巴内特作为波音的第一个吹哨人，他的情况是怎样的？</div>
-<div class="answer"><strong>A:</strong> 约翰·巴内特是波音前质量管控经理，他在2019年向纽约时报透露了飞机飞行控制线上存在安全隐患的问题，并曝光了多个质量管控细节。他在律师取证后不久离奇死亡，疑似枪伤自残。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 第二个吹哨人的情况以及他的去世原因是什么？这些吹哨人的基本信息和他们的去世时间点是否有关联？</div>
-<div class="answer"><strong>A:</strong> 第二个吹哨人发现了737 max的严重制造缺陷，但在管理层提出问题未得到回复后，他在同一次审计中又找到了另一个缺陷，最终导致波音伦敦工厂暂停交货。不幸的是，他在因MRSA感染去世前两周因呼吸困难住院，说明其健康状况已大不如前。第一个吹哨人约翰·巴内特去世时间是在波音律师对他取证的一周后，第二个吹哨人是在2024年4月30日去世，这引发了人们对波音吹哨人事件的诸多疑问。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 波音在美国制造业中的地位，以及其与日本精益制造的对比如何？</div>
-<div class="answer"><strong>A:</strong> 有观点认为波音以及整个美国制造业在某种程度上反映了美国制造业下滑的趋势，特别是在90年代错失学习日本精益制造机会后。虽然波音在制造工艺上可从日本企业中学到很多，但由于政治等原因未能广泛应用这些技术和方法。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 空客在制造和安全性方面的企业文化与波音有何不同？</div>
-<div class="answer"><strong>A:</strong> 相较于波音，空客在制造和安全性方面展现出更为持续稳定的生产节奏和员工心态。尽管订单量大且价格增长，空客员工并未表现出浮躁急于交付的情绪，周末照常休息，不追求加班文化，保持了欧洲人按部就班的工作风格。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 在民航领域，波音和空客在宽体机市场中是否是竞争对手？空客在2019年前后的市场表现如何？</div>
-<div class="answer"><strong>A:</strong> 波音和空客在宽体机市场中是直接竞争对手，它们俩旗鼓相当。在2019年之前，空客在产能、飞机销售和储备订单等方面无法与波音相比，但空客一直跟随波音。然而，在2019年后，由于空难、疫情以及波音737 Max的一系列问题，空客开始反超波音。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 波音737 Max机型交付量和全球市场占比是多少？</div>
-<div class="answer"><strong>A:</strong> 波音737 Max已经交付了大约9300多家，占全球大型喷气式飞机市场份额的25%，这款机型非常主流。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> A320机型相较于737 Max有何表现？</div>
-<div class="answer"><strong>A:</strong> A320机型的订单量约为18600架，是目前空客唯一能够超过波音737系列的机型，其订单数量大约是波音737的double。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 航空制造业是否高度依赖人的判断和技术直觉？</div>
-<div class="answer"><strong>A:</strong> 是的，航空制造业非常依赖于人的判断和技术直觉，尽管工业化程度很高，但像飞行员的飞行驾驶技术培训、空中表现等对飞行安全具有重要影响。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 飞机制造与机械手表制造有何相似之处？</div>
-<div class="answer"><strong>A:</strong> 飞机制造和机械手表制造类似，都需要精细的手工组装，尽管飞机拥有更多零件，其组装过程仍需工匠们带着放大镜进行精细操作。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 碎片问题可能引起哪些严重后果？</div>
-<div class="answer"><strong>A:</strong> 碎片可能导致一系列严重问题，例如发动机失火失效、挡风玻璃碎裂、起落架卡组等，这些问题有可能在飞行过程中导致飞机解体。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 为什么在航空领域仍然使用黑匣子而非实时传输数据？</div>
-<div class="answer"><strong>A:</strong> 黑匣子的使用是为了确保安全性，因为只有最安全的方式来记录飞行数据，避免数据在传输过程中可能出现的问题，如同机械手表洗手间需经过多项认证以保证安全。</div>
-</div>
-<div class="qa-item">
-<div class="question"><strong>Q:</strong> 订飞机时是否会考虑飞机型号？</div>
-<div class="answer"><strong>A:</strong> 在订飞机时，有些人会选择避免乘坐波音737 Max系列飞机，更倾向于选择空客或其他波音系列飞机，如选择国内航班可能会偏向三大航或空客机型。</div>
-</div>
-<h1>节目文稿</h1>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-欢迎收听硅谷101，我是红军。今天我们来聊一聊最近问题重重的播音。这架飞机制造巨头最近可以说它是遭遇了一系列的事故，包括应急门门栓脱落、引擎起火、轮胎掉落冲出跑道，还有机翼受损。Seven, thirty seven crashing during take off. Skating off the run, delta says they found the emergency slide had separated from the plane and .
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:31]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-shooting out of the engine of the united airline flight, possibly 123 jet，losing a wheel during take off.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:00:38]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-enforcing the mercy landing. 而且涉及到了波音各种主流的飞机型号，可以说引发了全球的关注和担忧。那今天我们就来聊一聊波音到底怎么了？跟我在一起联合主持的是我们的播客监制杜秀。Hello杜秀你好hello大家好。今天我们的嘉宾是winter and扣律所的高级顾问。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:07]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-一定红军你好，杜秀你好，硅谷101的听众朋友们大家好。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:11]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对我简单跟听众介绍一下一定的背景。一定曾经在法国的国立民航大学学习航空，在荷兰的莱顿大学学习欧盟法哥伦比亚大学法学院学习美国法，以及法国的图卢兹大学学习航空法。所以分别取得了航空科学和法学的硕士。同时一定自己也是有飞行执照的。对于航空方面来说，可以说他既是一个航空知识的专家，同时也是一位爱好者。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:01:37]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-今天我们的录音时间是在美国西部时间5月11号的上午。仅仅距离我们今天录音的两天的时间里，播音已经是有三起事故了。一起事故是飞机冲出跑道失火，11人受伤。还有是一架波音737800客机起落架的轮胎爆胎了，以及另外一架波音的货机在土耳其机场降落的时候，它的前起落架无法打开，导致飞机倾斜基底摩擦跑道着火。这个也就是最近三天的事儿。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:02:09]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-其实我也可以总结一下，大家最近对播音的担忧，可能也是有三轮的浪潮。第一波就是2018年、2019年连续2起737的坠机事故，造成了346人的死亡，可以说这个是波音公众危机的一个顶峰。接下来就是今年1月份阿拉斯加航空门塞掉落的事故，机型也是737 max 9。美国国家运输安全委员会他们初步调查发现，这架飞机在交付的时候就存在着非常严重的失误。安装门塞所需要的四个螺栓可以说全部被遗漏了，这是第二波那第三波就是其实最近一个是波音事故频发，另一个就是两个月内播音的两名吹哨人先后死。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:02:56]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-第一名吹哨人死亡的时候，当地的执法部门他们鉴定了说这个是自杀。但是之后他死前大概一个半月的一个录音流传出来。他在录音里面就对着他的好朋友说，如果有一天我自杀了，请你不要相信。还有一位吹哨人，一向身体健康，忽然说呼吸困难需要进医院急救，最后被查出是肺部感染了，致命细菌，两周以后去世。所以我们也看到，美国听证会在今年的四月份也是再次对播音发起了听证调查。所以今天我还挺想跟一定先讨论一下，你觉得播音的这些事故，如果说我们要给一个结论的话，它是偶然还是必然的事件？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:37]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-从前两起的20 1819年的波音crush两起事故来看的话，后来疫情来了之后，问题不断出现，我觉得这个是一个必然。就是这个安全问题一旦出了问题之后，他后续会有陆陆续续的一个问题。他想及时纠正这个问题，我觉得在短时间内很难去解决这个问题的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:03:54]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-一定你说的2018年到2019年的两起事故应该分别是印度尼西亚狮子航空，就是波音737 max客机发生了空难。以及2019年3月份埃塞俄比亚航空也是同样一款机型，波音737 max它的客机发生了空难。两起事故的发生时间前后不超过五个月，基本上那两起事故其实已经现在有一个大概的结论了。一个是系统设计的问题，还有一个是他们管理的问题。就是你觉得那两起事故跟现在的波音它是同一个问题吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:04:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-前两起事故的话，其实是现在已经非常清晰了，说是m cas系统的这个问题导致的。但第一起事故发生之后，其实是FA它没有及时叫停，就这个飞机737 max可以应该说叫停之后再检查，再去看看问题是什么之后才能重新起飞。直到第二起空难之后，其实首先叫停的是中国的民航局，说所有的汽车新max应该停止检查，直到它解决了所有的问题之后，我们才能复飞。随后就是疫情又来了。这个问题的话m cas系统的话，现在看来在我们即将要讨论的听证会这个问题上面，其实他们有提到说，如果说M开始系统在第一起空难发生之后，我们及时叫停，及时检查，及时认证，发现问题，然后解决问题，它是可以解决的。我们其实看看说这个M开始系统到底是什么，其实这个M开始系统是因为什么呢？就是这个飞机不断升级之后，它增加了新的功能，增加了新的功能之后，没有及时的去按照正常的流程走FI的这个流程去测试而引起的这个问题。所以现在看来这些问题其实是还是设计到测试到认证这个当中一系列的问题的发生的根本原因，还是这个问题跟现在发生问题背后原因其实是一样的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:43]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-因为今天我们反复提到了m cas系统，那可不可以简单一两句话给听众解释一下这个m cas到底是什么？我看它的中文叫做机动特性增强。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:05:54]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-说简单一点，就是M开始就是什么呢？就是在飞机失速的时候，它自动接管自动驾驶的功能。飞机里的仰角过大就拉起来的时候飞机失速了，就是这个速度失去速度了。因为这个飞机在爬升的时候，它两个发动机的推力，它可以把这个机头用这个系统自动压下来。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:06:11]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个当中还涉及到一个什么呢？飞机的地速空速和飞机的风速，就是我们在这个当中几个速度。然后飞机上面有一个非常关键的部位叫皮托。大家有没有这个印象是说航空人都喜欢在包上挂一个小的tag，红色的叫remove before fly。就是你在飞了之后，要把这个红色的这个东西给移掉。这个东西是皮托的一个套子。所以现在你见到航空在吐鲁兹，我见到这样的人太多了，每个人包上都挂了好几个。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:06:39]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个是测试空气和飞机速度的这样一个关键的小部位，是一个非常关键的一个小部位。然后他靠这个部位来测出刚才这我说的这几个速度测试这个速度之后，它反映到这个飞机的系统里边。但一旦这个皮托出现问题，或者说飞机的仰角出现问题，失速了，这个m cat它就会自动接管这个飞机，就像order pia就启动，它自动检测的，你人为的去干预，在刚才说的飞行员培训可能也是很大的一部分，就人工的需要干预这个飞机的姿态，就是我要平稳的保持这个好的姿态，你要去把这个系统给关掉的，不然它选用的是m CS优先的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:07:15]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这样一个系统。其实这就是失航跟埃塞俄比亚埃航这两次飞机失事的核心原因。它其实就是一个小的机翼的迎角传感器失灵，然后启动了这个m cas的系统，导致他以为飞机养起来了，所以他就开始做俯冲的姿势。但是这个时候正确的操作应该就是关闭传感器，结果飞行员他不知道这个事情，他就不停的去拉。这个时候其实飞机已经启动了自动驾驶的状态，你怎么样去干预它都是没有用的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:07:43]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对它还是m CS优先的这样一个状态，就是它自动驾驶优先，它不能够人干预，你干预稳定，及时把它拉回来了。因为人是很容易把这个飞机通过微调，它有一个系统在里面把它拉回来。但是系统还是检测到这仰角过大，他还把飞机机头往下压，就导致了这两起事故。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:02]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-因为今天我们反复提到了五年前的事故，而且现在我看事故的研究报告也出来了。这可能就涉及到第二个问题，就是说波音飞机它更新了这套系统，但是他并没有对驾驶员进行培训，而且他也没有写到驾驶手册中。所以其实没有人知道遇到这种情况应该怎么办。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:22]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-如果我们去看细节失航的事故报告，它其实是有九项失误的。比如说事故发生以前，这架航班已经检查出现问题了，本来就应该停飞，但是没有停飞。而且不仅是这样，他还缺失了维修报告。最后因为事故是传感器失灵导致的。但是其实这架飞机的一个重要传感器，它是在修理商手里购买和替换的，而且修理商他的那个传感器也没有经过测试。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:08:50]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-还有一个问题，就是机长跟副机长交接的食物，机长交接的时候并没有说清楚情况。而且副驾驶他本来应该去熟悉说出现了这些问题应该怎么办。但是他之前在培训里面的表现也不是很理想。所以说九个失误环环相扣。如果任何一个失误它能够避免掉，可能就不会有这次空难了。所以说它真的不只是一个设计和制造的问题，是从波音到航空公司到飞行员，全链条所有的链条都出了问题是。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:23]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-刚才红军说的非常好。其实737这2个大的事故，总的来说的话，从飞行员培训到飞行器设计到监管机构，这几个大的角色里边，就是航师波音的作为设计工程制造公司和FA监管方都有责任。我们可以看整个的这个航空安全里面，就是我可以发散一下，就是在所有的飞行空难里面，大的空难里面80%的原因其实是人员造成的。人的因素其实占了80%到85%。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:09:55]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-再有80%的事故是在起飞或者降落这个过程中造成的。因为这个人干预的这个过程非常多。在这个飞机巡航的时候，其实是不需要人动的，它只要按一个out pilot就可以了。所以在这个两起事故当中，一个是起飞了大概是六分钟，一个大概是九分钟。如果没记错的话，都在起飞过程中产生的这个两起大的空难。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:10:17]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-两起空难其实这个问题是被后来证实，说是波音的设计和制造的这个问题，对吧？还有飞行员的培训问题。这个问题很难分清楚到底是谁的责任？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:10:27]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-你刚才讲的说层层相扣，它有九个方面的问题。其实在所有的空难当中都会有这样的问题。这个就是为什么空难发生之后，它的问题非常难解决。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:10:36]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-也正是说在世航和SLBR航空这两个空难发生之后。他没有及时叫停的一个原因。因为在第一起发生之后，这个问题还没有被分析清楚，被发现清楚，或者说被他阐述的清楚。来阐述一个说非常好的一个解决方法来解决这个问题。所以又导致了第二次空难的这个当然当局他也没有足够的重视，说第一起空难发生之后，我们应该把这个飞机叫停，对吧？这个对波音来说是一个非常大的损失。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:03]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-所以这个很难在FA就美国的这个监管机构，然后美国的政府甚至波音公司来说，他们很难做到这样一个决策。谁来做这个决策呢？很难。最后是中国首先叫停了，正好疫情来了，第二起发生之后才意识到这个问题的严重性。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:19]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-刚刚我们在提到最近波音它有很多很多的事故。其实我们可能需要强调一点的就是，2018年跟19年那两起可以说是波音超级大的大空难。而最近我们能看到的就是波音有非常多的小问题，就是这几起事故的严重程度来看，完全不是一个量级的。最近波音被又推到风口浪尖上，是跟他的吹哨人爆料，包括他最近的听证会爆出的这些安全问题，非常的让人担忧是有很大的关系的。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:11:50]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-其实这次讲到这个听证会，主要的原因是因为这阿拉斯加航空的安全门脱落的这个问题引起的那同时他们有几个吹哨人举报这个问题。举报这个问题之后，他们成立了这样一个特别的肯媒体一个小组来就这个问题安全门脱落加举报人的举报，或者说催讨人的死亡，他们举行了这样一个特别的一个听证会，邀请了愿意参加的背景各不一样的证人来说一说这个问题到底在哪里。I raised concerns internally. I was sidelined. I was told to shed up.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:22]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-There was no accountability. Not a single person from boeing went to jail. They hear safety is our number one priority. But what they see is that that&#x27;s only true as long as your production milestones are met.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:34]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-Bowings culture and safety management needs drastic improvements.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:39]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我们要不要总结一下最近发生的情况？听证会上大家对播音有哪些核心的指控？杜秀你也要分享一下吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:12:48]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-关于听证会，其实我有一些补充信息，根据刚才两位讨论的，第一个是其实本次听证会像一定说的，它是一系列调查的一个刚开始的初步的一个听证会。其实在这次的时候，由美国国会参议院常设调查小组委员会和参议院商务委员会发起的这个听证会，要求了波音公司和FAA的人来参加。只不过这两方可能没有来出席，这是一个背景信息。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:13:18]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-与此同时，美国的司法部其实也启动了对该公司的调查。他们调查的原因其实就是为了判定这次阿拉斯加航空舱门脱落的失误，是否足以使此前对波音公司不起诉。他们五年前发生的那两起空的这个协议失效。也就是说，他们认为有可能是因为五年前的事故发生的原因并没有解决，导致了今天还有一系列的事故发生。当时没有起诉，当时没有任何人入刑，是不是到现在我们要把这个责任追究清楚了？这个调查同时也在进行中。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:00]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-关于这个听证会还有一些其他的证人信息，是包括刚才两位提到的有播音内部的吹哨人这个角色参与。这次听证会有一位，就是播音的在职员工，他是波音现任的一位质量工程师，他主要是在787和777两个机型工作。另外一个是播音前任的一位经理，他曾负责737 max的客机装配。还有一个是之前是在波音工作，后来在FAA退休的安全工程师，他也是一位举报人，他也参加了这次听证会的第四位证人是一位俄亥俄州立大学的教授，他是系统集成方面的专家，所以他也参与了这次的听证。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:48]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-大家在听证会上对播音有哪些比较核心的指控？就是听完听证会，你们觉得波音的飞机还能坐吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:14:55]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这是一个好的问题。刚才杜秀在讲到说针对前两次大的空难之后，通过这次会来决定要不要对波音进行起诉。其实在前两次空难里边，我们涉及到的很多法律问题。第一是说美国政府其实跟波音达成和解。我们知道说在发生如此大的灾难之后，它有几个方面的解决方法。第一个就是和解，第二个是调解，第三个是诉讼，第四个是仲裁，对吧？因为这个其实是一个内部的问题了，就播音的问题跟FI的问题和美国政府的问题，它是一个内部的问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:26]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-他们进行了和解，和解之后赔了将近25个亿，对吧？有22个亿赔给了家属，有几个亿作为一个罚款。当时的和解他保留了一个term，他说什么呢？他说你要积极的配合航公司去解决一些家属的赔偿问题。保留了什么呢？还有一点就是说不放弃对你的后面的追溯，就有可能还会就这个问题。如果你在未来三年之内不能解决这个法律上的问题的话，可能会对你进行其他的一些处罚。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:15:56]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以现在相当于大家还是再去复盘五年前发生的这个空难事情，是不是有被彻底的解决。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:16:04]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对的，因为其实涉及到的机型还是有类似的机型，比如说737 max这个问题，m cas大家可能还是没有觉得得到了妥善的处理。包括现在波音自己的官网上一直都挂着对于APP ca s这个系统安全性的解释文章，一直都挂在首页。所以我认为它不是一个割裂的事件，还是跟五年前是有关系的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:16:27]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这个是五年前的事故吗？我看这一次不管是听证会还是播音的吹哨人，他们其实还曝光了很多波音飞机在制造过程中的问题，大家有关注吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:16:38]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对我看了一下这个听证会，我看了两遍，其实是他有四位证人，对吧？第一个叫sam，他提出来说，首先波音公司的安全文化出了问题，然后他指出什么在787这个制造当中项目当中，他采用了不安全的制造方法，影响了整个飞机的安全性。第二个说它的设计制造上面是有缺陷的。这个工程师他是在787，后来因为经常反映问题，被调到77777这个飞机闪现上去处理一些安全的问题。第三个他说是内部报告经常被忽略，他多次向上级和波音的管理层报告了一些问题，但是被忽略，甚至被压制，叫他闭嘴对吧？甚至受到人身威胁。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:17]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-第四个说调查过程当中的不当行为，就播音采取不同的方法来处理问题，就是来强行来调整某个部件的位置，这样会削弱飞机的安全性或者性能。他因为自己在军队和高危的工作的重要性，所以从第一次失事之后，他其实就不安全了。他当时就提醒了当局，应该注重波音的危险和制造工艺。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:39]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-第二，它的制造条件导致两次空难的这个条件仍然存在。就是这些问题虽然产生了，但是我们没有解决产生问题的这个条件问题，没有从根本上解决这个问题。他也多次警告工厂要关闭工厂，甚至他也警告说这个工厂暂时不能生产，应该被关。他没有得到重视。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:17:56]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-他对政府的当局对FA也表达了不满，然后就调查和监管上面叫普森这个第二位证人。他说在这个上面政府机构FA就有点袖手旁观，他非常失望。他批评了这个FA甚至BOT美国交通部，甚至美国运输安全委员会NTSB它过度依赖了什么呢？波音的技术援助，而没有自己主动的去发现这个问题，解决问题。他认为这个是当中的主要问题。当然他也提出来说质量问题，说在生产过程有点混乱。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:27]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-因为他自己的背景，他妈妈是一个护士，他爸爸是一个刑事调查的官员。他也提到了说纵观所有的问题，隐瞒安全问题和欺骗公众这个问题是一个刑事犯罪。他提出来因为他自己的背景，他把这个问题上升到了一个刑事犯罪的。因为在过去的两次空难里面，他说没有人进监狱，没有人坐牢。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:49]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-There was no accountability. Not a single person from boeing went to jail.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:54]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-但这个其实是一个刑事犯罪。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:18:56]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-他为什么认为这个是一个刑事犯罪？这个指控非常重。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:00]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，因为死了很多人。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:02]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-他是觉得死人核心环节是因为播音的设计问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:05]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对设计制造问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:07]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对设计跟制造问题，所以牺牲了那么多生命，该有人对这个事情负责。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:11]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-其实刑事犯罪我刚才说的就是这个问题，他们始终控制在美国国内。他说波音和美国政府已经达成了和解，罚了25个亿。其实这个问题，航空问题、空难问题，永远是一个国际性的问题，为什么呢？因为他这个死的人是比如说埃塞俄比亚人这个SLBR飞机里面可能有80%是SLBR，还有20%是其他国家的人。我们在试航里面看到说很多是东西南亚的人，这个当中可能有中国人，有美国人，也有德国人。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:19:38]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-法律的航空灾难的这个诉讼复杂就复杂在这里。就是这个飞机的设计、飞机的制造注册，飞机的运营，他可以在不同的地方，不同的国家受害者。他可能是中国人，他可能是马来西亚人，他一旦遇到这个问题之后，这个飞机发生地又在其他国家，它是非常复杂的一个问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:20:00]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-那谁来承担这个问题呢？虽然在这次听证会上说，或者说前两次的这个空难已经达成了和解，但这个只是他们国内的和解。中国的受害者，马来西亚获得者或者埃塞标的，他仍然可以起诉波音，因为是你的设计和制造带来的这个灾难，他仍然可以再起诉。我看到了这个网上说达成了和解之后，他也进行了赔偿，没有人去起诉他。其实也有，但是通过和解的方式可能给足了赔偿金。所以这个复杂性的话，其实是他现在把这个问题控制在国内。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:20:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-通过这个空难来说，它其实是一个非常国际化的这样一个问题。是不是涉及到回到我们刚才的问题，说刑事责任国内美国没有给他这样定性。但是我相信在未来的过程当中，随着时间的推移可能会受到这样的问题。但美国政府在这一方面其实一直没有受理，哪怕是中国的公民，你也可以到美国的法院去起诉波音来解决，来进行合理的赔偿。因为每个国家的赔偿标准也是不一样的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:20:58]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-是的，我记得1819年出现波音空难的时候，当时我有跟失航受害者的家属的代表律师聊过。他说即使这件事情官方会调查，他们也会独立的调查所有的空难细节，因为这件事情非常难的地方就在于，首先我们要做责任鉴定，看到底是谁的错。他可能是波音的错，航空公司可能比如说世航也有错，包括美国航管局的人FAA他是不是也有错？就是所有的邮件、信件、飞行手册需要全部的去独立收集。因为这个里面其实它主要还是一个利益冲突的问题。波音跟FAA尽管也会参与一个官方调查，但是他们的目标是尽可能便宜的去解决这些诉讼。而律所的目标其实是为受害者争取最大利益的。所以其实这里面就已经有很多非常冲突的地方了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:21:49]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对你说的这个利益冲突，其实我们叫什么？叫jurisdiction管辖，就谁能管这个事情，最后谁来管。因为每个地方的赔偿不一样，甚至受害者家这次其实在这个听证会上，在埃塞俄比亚航空的一个女孩，她的爸妈也来了一个叫Chris mall，她的女儿叫Daniel，也参加了这个听证会。听证会的主席也表达了对他的慰问。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:22:10]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-第三位证人的话，其实他最担心的是什么呢？就是刚才说的是m case的这个发现，问题之后没有认真的解决这个问题。第二就是事故的前兆，就是在这个事故前，已经有一个这个领域里面非常严重的警告信息了，但是也没有被重视。第四个就是他觉得播音的态度也有问题，就解决这个问题的时候，他的态度非常消极，他不愿意承认这个问题。在他们在游说这个努力是原始设计中存在这个漏洞继续存在。还有就是73s max的重新认证问题，他发现了说在波音和FA它在有意的缩小淡化这个问题，就是这个max已经技术人员的警告系统不符合设计要求的时候，导致了多起的这个事故之后，但他们淡化了这个问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:22:52]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-第四个的话其实是他是一个大学教授，他也是一个航线的飞行员。他讲的问题比较笼统一点，或者说比较回归到基本的问题所在。他说波音的安全文化出了问题，那在航空安全里面的四个因素，他们一个没有做好，都做的不行，而且没有采取任何改变的这个迹象。他最后呼吁说，对这些管理人员应该像事故调查员一样去亲临现场，去看看这个问题到底发生在哪里，然后以便更好的解决。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:23]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，这是四位证人，他主要通过不同的方面来解决。我觉得刚才杜秀已经讲了什么呢？就是这四位证人他的背景不一样。我觉得这个四个人请的也非常好，从不同的方面，有非常实操的，也有监管部门的经验的，也有在大学里面做教授比较学术的。能感觉出来就是每个人提的问题的重点，它其实是不太一样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:49]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-杜秀。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:23:49]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-你有补充的吗？其实一定已经把这个证人的背景和听证会的情况介绍的非常清楚了。我想补充一点，就是说其实这次听证会关于与阿拉斯加航空安全门脱落的这一部分说的不是很多，大部分内容还是在讨论。第一就是安全文化这个系统性的问题，在波音没有解决从上至下的不重视，或者隐瞒，或者跟监管机构的合作中间有问题，这个是比较大的一块。另外还有一块还是在讲787和777，包括m cas的问题。其实国会的参议员在听证会的一开始就说，他们是非常希望波音的飞机能飞得好的，因为所有人都有可能是波音的乘客，没有人想看到播音有问题，所以他们是带着一种非常痛心疾首，包括这些吹哨人也是，他们都是非常想要为播音好的这种出发点去做这次听证会的。所以我觉得整个听证会的基调是希望这个问题赶紧解决掉，大家能够安全地坐播音的飞机，播音还是一个令所有美国人自豪的公司。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:00]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-刚才杜秀提到说，无论是证人也好，无论是议员也好，他们都希望是播音能够发现问题，解决问题，很好的解决问题底色。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:08]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-他们对播音来说还是非常友好的，对不对？跟tiktok的当时的局面，包括像meta当时听证会的局面是完全不一样的。大家底色是不一样的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:18]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-对，完全不一样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:25:19]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-其实我觉得有一点跟tiktok非常相似，就是这个是两党他们难得的一致的地方。我觉得波音是美国制造的这个象征，他们都不希望波音出事情。我觉得我相信从任何一个从监管者，从航空公司有一个数据说在现在整个飞机在全球的民航系统里边，有42%的飞机是波音的。甚至有的航空公司就在选择的时候只选择了波音的飞机。中国就有两家，就比较多，厦门航空和国泰这两个飞机。他们从开始布局的时候，大多数航空公司都是我们既买波音也买空客。但是选择一个机队，其实运营的成本要比选择两个品牌的飞机的这个机队成本要低得多得多。因为每一个飞机，每一个品牌，它的整个的培训都要重新开始，甚至每个机型都要重新开始。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:11]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我看其实除了波音之外，当然其实也有很多其他的航空公司制造的飞机也会出事。它不是一个偶然的案例。但是其实我们说飞机的危险之处就在于它其实在天上飞的，它只要是一出事儿，那可能最坏的结果就是整个飞机上的人无一人幸免。它带来的结果是非常可怕的那其实我们看到像听证会，他们指出了播音的这么多的问题。但我其实在想的一个问题就是这些安全问题，播音内部可能他们自己也不是不知道。就像你说的，也有大学教授指出来，他其实就是不重视。那你觉得在这个过程中，美国联邦航空管理局FAA他有监管不到位的地方，或者他有明显的包庇行为吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:26:54]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个谈不上包庇。其实FA这当中，其实他既要负责监管整个行业的发展。但是刚才有人说了，他高度依赖于波音提供的资料来给他做认证，他没有独立的这个能力说这个飞机是怎么设计的，怎么制造的。他需要波音来提供这些文件给他，然后让他来评估说你有没有在足够安全的情况下来组装这个飞机，这个飞机的设计是不是存在问题缺陷，高度依赖波音提供的问题，然后再给波音来做判断，说你到底行不行。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:27:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-首先我们看看这FA它是什么呢？它是美国交通部的一个部门，他跟NASA不一样。NASA是美国联邦政府的一个独立机构，它负责太空航天研究和太空研究。FA它就是交通部的一个部门。FA的任务是什么呢？它是监管民用航空和美国的商业航空维护和运行民用或者军用飞机在空中的管制和导航，这个是第二部分。第三部分是制定和管理航空安全和国家空域相关的计划。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:27:49]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-当然还有一个部门其实是非常重要的，就是什么呢？这个空难调查，你讲的FA就在法国的这个体系里边。它空难调查是一个独立的部门，是跟法国政府，法国的交通部和空难调查它是一个独立形成一个三角关系。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:28:04]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-美国其实在空难调查当中，也是在国会这次发起的这个听证，他的目的是什么？他说我们要发现问题，在以后的这个过程当中，通过立法从根本上来解决这个问题。所以FA你说在这个当中起到什么样一个作用呢？你说他市民有没有包庇，我相信是基于他现在这个角色和他这个位置，跟法国比比，或者跟中国比他更独立。这个部门他不受交通部的管理，他也不受行公司的依赖，过于依赖于制造商甚至航司。所以才能够更加独立的去评判，才制定安全的一些政策法规上面更好的来解决这个问题，确保以后这样的问题更早的发生。是这样，他这个角色本身那就决定了他只能采取这样的一个现在这个措施来解决现有的这个问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:28:50]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以我是在想，其实FAA某种程度上你说他要去调查空难，但是前面你说飞机的试飞，各种调度，他又是负责的。他就有一点点像既当裁判员又当运动员的这个感觉。所以他其实是有动力去隐瞒的，而不是有动力去把更多的东西公之于众。除非说这个公众跟舆论，包括上面的监管的压力，来迫使他出一些更加犀利的一些结果。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:29:15]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-是这次听证会上还提到两个协会，一个是国际机械师和航空航天工人协会，还有一个是他们的一个雇员协会，就是专管的一个地方的一个分会的一个专业协会。我觉得这样的人也应该参与进来，因为他们作为有这个背景的工人。我们刚才看到这四位证人，他们其实都非常希望这个更好。而且在证人当中有一个是在播音工作，也在FI工作的。你说这个当中的人跳来跳去，整个职业生涯都在整个航空体系里面去工作，他很难作为一个独立第三方去解决这个问题。而且整个的航空体系是非常庞大的一个体系，非常复杂的一个体系。很难有一个人即使你发现了问题，就像我们的第一个证人一样sam 1样，他发现了这个问题，他也很难去从下往上去解决这个问题。这个还是一个整个体系的一个问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:08]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以我觉得它是一个系统性的问题。首先波音是美国的公司，又是这种国之大器型的企业，我觉得美国其实私心里肯定是偏向于波音的。其次就是我们说到的美国的航空监管体系，它是既当裁判员又当运动员的。就像你说的，他好像必须是从下往上，通过舆论曝光让大家都意识到这些问题，去推动大家一起去解决播音的问题。还有一件非常值得注意的事情，就是应该说是在两个月以内，有两个播音的吹哨人都离奇死亡了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:30:45]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-当然我们也不能揣测或者说阴谋论对吧？说这个人为什么会走。但在第二个叫JoNathan这个人，他其实在做陈述的时候，他提到了一个问题。说在现在的播音的整个的exactly里边，在上个月有一个工程师背景的最后一位离开了这个exceptional team。他们的CFO、COO和CTO甚至CEO都来自于不同的州。虽然他们已经规定说你们必须五天在这个总部上班，但是没有人一天在这个总部上班。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:16]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个议员后来提到说，在这样一个这么大的一个企业或者行业里边，官僚主义已经非常严重了。甚至他们现在有个全新的人力资源就是CHO。也没有在播音工作的背景。上周被解雇的西雅图的商用飞机的负责人是执行委员会当中最后一批的工程师之一。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:35]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-最后一批工程师。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:37]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对之一就是执行委员会。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:39]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-里面已经没有人懂技术了。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:31:41]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对做航空我自己的感受是我比如说在图鲁兹，在空客总部这个地方，我遇到的人真的是大多数对航空是非常有热情的人。他也提到说在这个里边已经不是由热爱航空的人组成的管理的团队，这个是一个很重要的问题。但是他也后面也提波音，甚至航空公司，慢慢的在这个里面他们讲到一些非常emotional的动情的地方。他说不是因为爱而失去的东西，这可能是说最重要的东西。就是你这个东西没有热爱了，没有爱了，可能这个就是他最重要的问题之一。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:32:15]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-其实你说到这个问题，我想到了波音的第一个吹哨人，应该是叫约翰巴内特，他是波音的一个前质量管控经理，他自己说的一段话。他说鉴于他在波音公司的所见所闻，这让他不再乘坐飞机了。他说他很爱波音，很喜欢他曾经代表的一切。但是他觉得波音很可悲，他们需要现在重温飞机建造的基本知识，而且他觉得737 max的出事不是737的问题，而是波音公司的问题。刚刚其实我们正好也提到了吹哨人，我们虽然不能断定说他们的离奇死亡跟波音有没有关系，但是我们在这个关键时间点，大家心里肯定是会有很多很多的疑问的。我觉得我可以把一些吹哨人的基本的事实摆出来。我觉得听众可以自己去判断，或者说大家能够知道这个里面是怎么回事儿。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:07]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-第一个离奇死亡的吹哨人约翰巴内特，他其实是有在2019年的时候告诉纽约时报说，他在飞机的飞行控制线上看见了一堆堆悬挂的太片，这个会导致飞机的不安全。它其实是有把它在质量管控的很多工厂里面的这些细节都曝光出来的。他死亡的时间点也非常巧，首先是在他死的那一周的周四的时候，波音的律师对他进行了取证。他自己周五就问了一下他自己的律师，他律师周六就准备去给他完成一个取证，然后他当天天早上就没有出现，也没有接电话。最后，他是在一个酒店的停车场里面被发现疑似是枪伤自残。大家自己去体会这个自残的枪伤，这是第一个吹哨人的情况。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:33:58]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-第二个吹哨人他也是提供了很多的跟737 max相关的一个严重的制造缺陷，他就去找他的管理层提出这个问题，但是他当时是没有得到任何回复。他又在同一次审计中又找到了另一个制造缺陷，垂直尾翼和机身连接所用的配件有问题。这次报告就导致了2023年4月份的时候，波音伦敦工厂暂停交货之后，他是怎么去世的呢？他一向是身体还比较好，也比较健康。但是去世的前两周因为呼吸困难住院，他被确诊的是叫做MRSA，就是耐甲氧西林黄金葡萄球菌，医生无力回天就去世了。也是最早的一批波音737 max有缺陷的人之一。所以这是两位吹哨人的基本情况。然后他的去世，我印象中是在2024年的4月30日，因为播音的吹哨人其实还不少。但是大家当然会在这个中间有所想法，但我们也不能去做有罪假定。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:35:03]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-是这个讲的特别好啊，这个三位第一个叫john，but他正好这三个人对应了不同的机型。第一个是波音787 damm liner的这个安全和质量报告出现了问题。第二个叫西华电影的话，就是第二位4月30号死亡的这个他其实是叫spirit，就是波音飞机的一个供应商。2015年剥离开波音，成立了一个单独一个公司。这个公司的话它不光光为波音提供尾翼，甚至设计上的一些优化的一些工作。他也是空客的供应商。他提出来的问题是什么呢？是737 max。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:35:39]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-第三位就是我们在这次听证会上的第一位sam sample。他其实提出来的问题是787和77这3款飞机其实是波音的三款单打的机型，所以每个人都有代表。第三位的话，现在还在听证会上去发言。其实我们这个听证会主要的是什么呢？就是第一位证人他提出来这个问题比较具体，对吧？因为他在产线上面他是负责安全检测，他的问题是我觉得非常重要的对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:09]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我看之前美国媒体有提到一个波音是美国制造的黑暗时代。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:36:14]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，这个是叫atlantic的媒体写了一篇文章，我还看了一下。对，他说是在90年代的时候，在90年之前，美国开始打压日本。到90年代1990年的时候，日本的经济开始崩溃。在这个时候是MIT的三位研究员，他写了一篇叫制造改变世界的这样一篇报告或者一本书，希望美国能够学习日本的这个精益制造，但是美国没有听。然后那个时候就日本的经济，通过前十年的打压，日本的经济也崩溃了。在那个时候190年的时候，我们在讲说前十的芯片制造商里边有六位日本的公司，对吧？美国可能只占了四位，美国没有然后反而加大了外包，就是这个制造型的外包和离岸外包到海外去制造，甚至说金融系统的不断提升。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:01]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-说回来说这个文章，其实这个记者也非常痛心。他说播音的空难，播音现在出的问题，其实这是预示着什么呢？就是美国制造业其实有点往下坡路走了。他因为在90年代错过了这样一个机会，但是现在也为时未晚。现在如果能够解决这个问题，能够把制造业再回归到美国，那可能也会解决这个问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:26]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以他其实是认为波音是有很多值得跟日本企业学习的地方。但是其实因为政治原因。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:37:33]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-没有不光光是波音，就是整个美国的制造业，那叫精益生产。其实我们也能感觉到，我看过一些文章说什么？美国的汽车你能看见跟日本汽车的对比。日本的汽车在去维修的时候，你如果在现有的这个基础上，在拧螺丝的时候加一个垫片，这个螺丝是拧不下去的。美国的是没关系的，你加一个垫片，这个汽车仍然可以很好的运行。这个就是心理之上我们也能感觉到，就是我自己能感觉到是特斯拉的车跟日本的车，我觉得差异还是有的，你们能感觉到吗？就是在制造业上面。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:07]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-特斯拉做的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:09]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-太糙了。然后它的整个大的前叶板或者后置板什么的，就是后备箱里边那个缝隙太大了，日本车没有这么大的缝隙的。这个当然在波音里面，但是我们其实苹果改变了我对美国制造的印象。从最早其实三年前疫情前我就说了，特斯拉刚那个时候特别火。在中国我就说了，其实特斯拉还是一辆美国车，只是它是一辆美国电动车，对吧？就是在制造工艺上面，其实跟日本也好，甚至中国慢慢的有的企业已经超过了。我觉得特斯拉的这个制造。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:41]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-工艺是因为我知道你跟我们录音的时候，你正好也是在空客的总部拜访。因为你在欧洲的时间也特别多，你觉得空客的企业文化，尤其是在制造跟安全性上，跟波音有什么不一样吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:38:57]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，这个是我来了之后，有一个其实在波音的工厂我也去过，在下图工厂我也去过。以前有朋友在里面工作，我就想着去感受一下，也去过他们的博物馆，也去过他们的产线。空客这边我也去了很多次，就带朋友去参观他们的产线。他们也有个退保，可以对外，你可以预约的。因为波音的这个业务在过去2019年之前，是他每年的交付量、每年的产量、每年的营业额都是超过空客的。从2019年开始空难，两起空难发生之后，慢慢的被空客给超过，它整个是一片繁忙景象。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:39:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-截止2023年年底，空客的储备订单应该是8598架。就是未来十年、11年他可能都交付不完他的订单。但我觉得他没有因此而说我要加班，我要虽然在去年或者在第一季度它的交付量有增加，甚至在中国天津的工厂说，我们在未来几年每年可能要增加物价的交付。它有一条交付线大概四五十家，每年我没有觉得他说我一定要加班加点。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:39:59]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-甚至我跟他们的这个员工，因为我跟他们的接触有不管有工程师，还是律师，还是法务部门，还是制造部门、安检部门的人都有接触。我觉得甚至他们今年的股票表现的非常好。他们员工一直想多买一些公司的股份，但是一直在涨。但他们没有表现出来非常急躁的说我要尽快的交付这些我已经有的收到的订单，这个是一个方面，还有从不同的角度来看，就是日常跟这些工程师在相处的时候，同样职位的工程师或者律师，就法务部门的，甚至质量和安全部门的人我觉得播音的收入可能要是空客同样职位的收入2倍。而且在空客这边你还要会法语，基本上你还要学一个像我们说的C一甚至B2的法语，你才能留在空课里面去工作。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:40:49]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-它仍然是一个很持续的平稳的增加它的产量。然后员工的心态我觉得也非常好。因为我们接触的这个工科的人在这边特别多，没有感觉到说因为他的订单量大了或者说去强多了。然后飞机的价格其实每年都有3%的增长。这个价格增长了或者股票市场好了，表现出来一股浮躁的这样一个气息。没有的。然后我们在产线里面周六周日去，如果你参加那个tl其实这个工厂是停滞的，周末休息，他是没有加班加点的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:19]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-感觉非常欧洲人的风格，对不对？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:21]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:22]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-这个是我的节奏。你订单来了多少，我都按部就班的生产。但波音可能就是有配额，有订单我们就加班加点，我们先交付，我们要盈利，文化不太一样。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:34]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-没错。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:35]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-除了波音跟空客，在航空市场上还有哪些大的巨头？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:41:41]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-要看机型。整个来说巴航工业，庞巴迪它也有这种民航的机载体机跟宽体机里边。在宽体机里面其实是他们两家是没有竞争对手的，就波音和空客它是旗鼓相当的。在2019年到2018年之前，空难之前其实是空客一直是跟随的角色。就是一定要产能也好，飞机的销售也好，储备的订单也好，都没法跟波音相比的。就是从空难之后加上疫情，加上最近的播音的小问题不断出现，空客开始反超了。我刚才提到说这三位证人或者两位吹哨人已经去世了，和现在一位最新的证人，他们举报的问题都是三个主力机型。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:26]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我们也可以比较一下它3款机型。比如说波音737，737 max它属于737这个系列。其实空客相对他来说是一个叫I320。I320的这个机型其实跟C37相比的话，我们从几个角度来看。第一个说已经交付了多少，整个737已经交付了大概是9300多家。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:46]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-占波音总体交付比例的多少？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:42:49]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-占整个全球大型喷气式机率大概25%，这个机型非常主流了。这A320的话，它整个订单大概是18600国家，大概是正好是播音的double，这个是现在空客唯一能够超过波音的这个机型。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:08]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-杜秀还有什么要问的吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:43:10]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-我跟大多数听众也都是一样的，我们平时可能都是飞机的乘客，对这个行业可能会有一些觉得它是一个非常高精尖，然后拥有很多尖端技术，拥有最先进的设备的一个行业，觉得它非常的有光环。对这个行业。但是我自己研究了这么多播音的事故，包括也有一些草台班子这个理论在看我就觉得其实航空业本身是一个匠人精神很重的一个行业。包括像播音的员工、工程师，他们都觉得自己在做的一个事情，是一个人在其中的角色很重的一个事业。所以我的感觉就是航空业本身或者是造飞机这件事情可能没有我们想象的。那么就是像现在大家谈AI那种所有的自动化很先进，还是一个非常依赖于人的判断，人的直觉。包括你像所有的飞行员的飞行驾驶技术，他们的培训，他们在空中的这些表现，都是对我们的安全有非常重要的影响的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:11]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对我一直其实会打个比方，就是我们造一只腕表就完全的机械手表。有劳力士的这个机械手表，陀飞轮的对吧？它完全靠机械驱动的。这个手表它大概有750个零件，一辆汽车大概是15000个零件，大概一架飞机大概15万个零件，甚至更多。因为它的发动机它是单独对吧？甚至还有后续的这个座椅等等等等，就是装修对吧？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:44:36]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我们叫汽车制造，其实工业化程度非常高的。因为从福特那个时候开始，他就进流水线了是吧？因为它的标准化非常高。飞机哪怕是发动机，每个零件我们可以看很多视频都是手工一个个叶片都是装上去的。他可能生产叶片的时候自动化程度比较高，但是它组装的这个发动机里面的时候都是手动装上去的。我个人觉得飞机的组装制造和腕表的组装制造更像汽车，由福特汽车制造了许多传奇，它其中对后世影响最深的是开创的生产流水线模式。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:08]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-飞机制造更像手表。一只机械手表的制造，它是有一个工匠一个匠人带着放大镜，把七八百个零件机械零件组装在一起，然后完成了这个手表。飞机是有一群人带着放大镜，虽然他不用带着放大镜，他的工作精细程度我觉得可以跟机械手表相当。所以刚才王军提到已经去世的这个吹哨人提到说他发现了很多碎片对吧？接头是吧？这个问题其实是一个非常严重的问题，因为最近发生的几起事故可能会跟这个问题有关系。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:39]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-我相信碎片会影响什么？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:45:42]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-它可能引起一系列的问题。我举几个简单的例子。第一，飞机在发动机里边，它遗留的材料可能引起发动机的失火到失效。第二，在挡风玻璃里边他留了一些尖锐的材料，在飞机高速飞行的状态上，它受力不均，它可能引起玻璃的碎裂。在维修维护过程当中，他留了一些扳手螺丝在里面。它可能引起起落架的卡组，就是这个轮子放不下来，起落架放不下来。证人也提到说这些问题有可能引起的问题是结果是说在飞行过程中，飞机有可能解体。这个是每一个问题都有可能同时发生，所以每一个都是一个变量，每一个小的环节都可能引起了一系列的问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:46:27]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-他们说为什么还要这个黑匣子？这么传统，这么多年了还是黑匣子。为什么卫星技术这么发达？为什么我们的数据不能实时的传输到地面来控制它？这个数据量非常大，第一第二甚至到现在在飞机里面还有用。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:46:40]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-我们知道这个软盘就3.5寸的软盘在存储一些数据。你不敢想象说，这个时代了，为什么不用闪存，为什么不用硬盘？为什么不用卫星网络的传输？他是为了确保安全，它只有最安全的。再举个例子，就是一个飞机的洗手间的价值，它要经过多项的认证，比如说防火、冲撞等等等等测试相当于一辆兰博基尼的价格，就同样是一个洗手间。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:06]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-前段时间在网上有个视频讲了，说美国军方有一个议员拿出了一袋螺丝，你还记得吗？说的要8900千美金。后来第二天中国淘宝上就有人说了，一袋螺丝9.9块人民币就可以买到这一袋螺丝。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:22]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-主要还是设计没有流水线化，就还是一个手工制造的。可能是因为航空业发展的比较早，对不对？而且现在航空它处在一个怎么说呢？一个寡头垄断的阶段，它并没没有特别的市场化。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:36]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-很难因为它这个量也很难去变成一个流水线化。因为它的零部件太多了，有几万个零件还要。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:42]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-组装零部件太多，加上飞机的量，它相比于造汽车的量，它其实没有那么多。所以建工应链的话，它未必是一个算得过来账的一个生意。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:47:52]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-对，还有一个例子说，我上次跟他们汽车行业那个人讨论说，他们说现在要做电动车。李斌说了要200亿起步你才能做电动车。但做一个小飞机，就是我们就通航的小飞机这种固定翼的或者直升飞机的，你可能只要20个亿就可以搭建这样一个团队开始启动做了，他更多的依靠于人。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:12]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对，所以航空工业跟我想象中还是挺不一样的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:17]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-是所以反正最近我们去看了工厂，带着朋友去看工厂，他们也感叹说，原来航空看起来这么高大上，这么复杂，原来还是以人为主。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:27]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-今天我们总结了很多播音的问题，最后有一个问题是关于大家个人的。你现在订飞机，你会去看飞机的型号吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:37]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个是非常好的一个点，就是我大体会看一看，现在以前不会看，以前我飞的特别多，就每个月都会在州际之间飞。然后现在会看一看。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:48]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-你会避免哪些飞机。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:50]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-首先我会把全资拥有波音飞机的航次给排除掉。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:55]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-你是会先优先空客。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:48:57]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-只要波音多的飞机的航次，我可能先排除在外，这样的话概率你会缩小对吧？一般的航空公司它的配比是说我的波音和空客的飞机媲美，大概是50 50的这样一个配比。欧洲的航空公司它的空客的飞机比例可能会重一些。比如说法航在欧洲飞可能会空客的会多一点，到美国飞那避免不了货运的飞机会多一点。有一个数据说在现在整个飞机在全球的民航系统里边，有42%的飞机是波音的。甚至有的航空公司就在选择的时候，只选择了波音的飞机。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:49:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-中国就有两家就比较多，厦门航空和国泰这两个飞机。他们从开始布局的时候，大多数航空公司都是我们既买波音也买空客。但我并不是说厦航和国泰不安全，他们其实厦航和国泰的安全记录是非常好的。从另外一个侧面来说什么呢？除了最近五年波音发生的空难或者事故之外的话，其实这个飞机整个还是比较安全。国泰在以往的记录里面都是排名前十最安全的这个航空公司。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:00]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-如果说在没有选择的情况下，你会避免波音的哪些机型？就我们刚刚讲到的737 max 9，这肯定是一个问题比较大的机型，大家可能有点不太敢做。如果是737 max的其他系列，或者说737的其他系列，因为主要是你刚刚也提到了，737它的出货量是占了整个全球飞机的25%，所以我们可能很难去避免到这样的一个机型。如果我们在我们的航班选择里面可能都是737，我们应该尽可能避免。737的哪几款机型呢？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:35]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个我倒没有仔细考虑过，但是很难去避免了。以前我们选择坐飞机的时候，可能在美国有很多人会选择说我是united，我是delta，我是美国航空的忠实的会员，我只坐他的飞机是吗？很多人会选择这样的，特别是经常飞的人，他会有一些积分，很多人对吧？Loyalty program.
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:50:55]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-在国际航线里边你也很难避免，很难刚才说的这个波音777和A350等等它的竞争的时候，就在洲际航线里边，在跨洋飞行里边你也很难选择的。因为只有这几款飞机，大的公司都会平均选择这样的一个配置。机队的配置是这样的，因为它也确保安全性。所以个人来看，我个人因为自己喜欢飞，我觉得飞行还是非常安全的。想解决彻底解决这个安全文化或者说整个体系的系统性的问题，可能需要3到5年才能够避免这样的问题。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:51:28]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-对这个问题我也想问一下杜秀，你其实在采访之前也做了很多跟播音相关的功课。了解了这些信息以后，你觉得你在出行的时候，你会去挑机型吗？
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:51:40]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-还是会看一下。比如说我主要还是国内飞，可能会选一下航司。比如说三大航，这种感觉上比较有保障的这个航司会看一看，然后也会稍微的看一下是不是空课，如果是空课我会比较安心一些。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:51:58]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-其实有一个报告大家可以看一下，你如果在这个上面仍然有考虑的话，就是每年IQ国际民航组织会发布一个安全报告，说在过去一年当中，甚至三年、五年当中，他的事故都有哪些飞机哪些功能引起的，到底什么原因？是天气问题，还是人员问题，还是飞机本身的问题，还是导航空管的问题等等等等。但是这个IQ只针对他193还是194个成员国的报告。因为比如说像也门，他没有加入这个成员国。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:52:27]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-那太稀有了，大家应该也用不上。对。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:52:30]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-其实没有。现在你知道前段时间卡塔尔航空经过也门的时候，就差点跟韩国的一家航空是撞起来。因为里边这个空域是没有人管的，他们管不到对吧？因为高度都一致，然后差一点点就撞起来。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:52:43]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-这个是一个很严重的报告，只是他没有产生后果而已。所以这个报告其实写的非常详细。在过去发生了多少起事故，他从几个维度来说，有多少死亡率，甚至有多少导致飞机坠毁，或者说损伤的比例等等等等。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:52:57]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-所以我们看到在几次吹人在举报播音质量问题的过程里面，播音它中间也会有采取各种措施，但是它的措施不是解决问题，而是去解决这些提出问题的人。对，就是希望这次在听证会，包括在公众对播音的质疑，包括大家已经开始出现了。我坐飞机的时候要看一下这个飞机的型号跟机型，要避免播音。希望能够在这种文化下，还是能够推动大的制造商在安全性上能有更多的警觉。好，今天谢谢一定谢谢杜秀。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:53:34]</strong> </span>
-<span class="speaker"><strong>发言人2: </strong></span>
-谢谢红军，谢谢大家好的。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:53:36]</strong> </span>
-<span class="speaker"><strong>发言人3: </strong></span>
-谢谢大家。
-</p>
-<p class="transcript-line">
-<span class="time"><strong>[00:53:41]</strong> </span>
-<span class="speaker"><strong>发言人1: </strong></span>
-好的，我们也会持续关注播音的听证会，感兴趣的听众可以持续关注我们。如果你是航空领域的专家，也欢迎来联系我们。这就是我们今天的节目。如果大家喜欢我们的节穆，欢迎在你所收听的音频渠道来订阅我们。中国的听众可以通过小宇宙、喜马拉雅、苹果播客、蜻蜓FM、荔枝FM、网易云音乐和QQ音乐来关注我们。海外的听众你可以在苹果播客、spotify、youtube上搜索硅谷101播客来关注到我们。感谢大家的收听，谢谢。
-</p>]]></content:encoded>
-            <pubDate>Tue, 21 May 2024 23:45:00 GMT</pubDate>
-            <guid>664d33ef8146bf362d4c9997</guid>
         </item>
     </channel>
 </rss>

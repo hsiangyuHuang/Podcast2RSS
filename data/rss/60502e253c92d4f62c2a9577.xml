@@ -4,7 +4,236 @@
         <title>十字路口Crossing</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577</link>
         <description>关注科技、互联网、AI 的播客</description>
-        <lastBuildDate>Tue, 14 Jul 2026 05:06:23 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 05:00:52 +0800</lastBuildDate>
+        <item>
+            <title>快一点！再快一点！快到世界能实时生成｜和生数科技张金涛聊：Vidu S1、推理加速、实时交互视频</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a5c6a91a3fec224d59fd014</link>
+            <description>🚥 没人喜欢等待。
+模型越强，推理加速就越重要。
+这一期，我们聊「推理加速」。
+本周「十字路口」的嘉宾是生数科技的张金涛。月初，他带队发布了 Vidu S1——一个实时交互视频模型：上传一张照片，无论是人物、动漫角色，还是一只宠物，都能变成一个可以和你实时视频通话的 AI 角色。
+Vidu S1 很快，快到生成速度超过播放速度，并且支持无限时长。这是怎么做到的？
+金涛在播客中分享了自己这几年一条清晰的技术主线：从 SageAttention（GitHub 3.5K 星标）、TurboDiffusion（GitHub 3.6K 星标），到 TurboServe——一整套系统级方案，为 S1 实时交互提供底层支撑。
+此外，金涛也分享了他对整个 AI「推理加速」领域的观察和判断。
+其实这期有意思的，不只是技术。
+金涛今年 26 岁，还是清华在读博士。真正把他带进「推理加速」的，是一个很朴素的判断——当大家都默认 FlashAttention 已经把 Attention 算子做到极致时，他却发现：显卡上明明还有更快的计算单元没被用起来 ——「这么明显的收益，为什么没人做？」
+所以这期节目，你也可以把它当成一份「年轻研究者样本」来听：在变化极快的 AI 领域，怎么找到自己的方向、怎么判断什么才是「最正确的事」，又怎么把它一路做到最前沿。
+🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
+📒 文字版将发布于 @十字路口Crossing 公众号。
+🟢 01:40 快问快答：年龄、毕业院校、MBTI 与星座、Vidu S1，以及在生数科技负责的工作
+🟢 02:48 硬件上明明有更快的计算单元
+“为什么没有人做？这是很明显的一个收益。”
+* 当大家认为 FlashAttention 已接近极致，张金涛发现 GPU 上仍有更快的计算单元没有用于 Attention。
+* 语言模型早期的 Attention 更受显存传输限制，视频生成模型却严重受计算速度限制。
+* SageAttention 要同时解决底层 GPU Kernel 编程和低比特计算的精度损失，最终成为即插即用的加速方案。
+🟢 06:15 从 SageAttention 到 Vidu S1：三层加速
+* 算子层：让 Attention、线性层等计算尽可能逼近硬件上限。
+* 模型层：通过步数蒸馏和稀疏 Attention，把 Diffusion 去噪从约 50 步降到 4 步。
+* 部署层：解决多卡并行、通信与计算重叠、用户请求调度。
+* SageAttention 后来成为事实上的行业标准；TurboDiffusion 推进模型加速，TurboServe 负责流式视频的集群部署。
+🟢 11:24 Vidu S1 不只是快
+“生成速度需要大于播放速度，它才能做到实时生成。”
+* 普通视频模型等待很久生成一段成片，流式模型则要根据用户输入逐帧生成。
+* Vidu S1 实现 540P、25–42 FPS，并能在消费级显卡上运行。
+* 比速度更难的是无限时长：生成一两个小时后，画面仍不能漂移或崩坏，还要持续正确回应用户。
+* 实时交互是第一目标，当前阶段可以适度牺牲画质，但不能牺牲速度。
+🟢 15:21 “未来我们的视觉娱乐信号，会被 AI 生成的内容充斥掉。”
+* 电影和短视频是预先生成的离线内容，聊天、恋爱、游戏和日常生活则充满实时视觉互动。
+* 离线视频可以共享播放，实时视频需要为每个人生成不同内容。
+* 张金涛判断，实时交互视觉娱乐的需求会比离线内容更大，而且这条路径已经势不可挡。
+🟢 17:30 一只狗和一个游戏搭子
+* 用户已经开始上传宠物图片与它聊天，也有人让二次元角色实时观看游戏画面、陪自己玩游戏。
+* Vidu S1 能理解输入的视频流；把电脑屏幕传给它，它也可以成为看懂 Coding、微信和 Notion 的“程序员鼓励师”。
+🟢 20:05 推理加速不只是算子
+* 算子加速之外，还要用稀疏 Attention、MoE 和蒸馏减少模型本身的计算量。
+* 流式 Diffusion 会引入 KV Cache，还要处理用户随时进入、退出，以及多机多卡的集群调度。
+* TurboServe 对应的正是 Serving 层：把计算图、通信与请求调度组合成真正可部署的系统。
+🟢 24:39 推理加速的未来，属于更底层和更上层
+“推理加速的未来，还是属于更底层和更上层。”
+* 中间的算子层会随着编程工具进步逐渐收敛；更底层是面向通用或特定模型设计芯片，更上层是用算法直接减少计算。
+* 像 Taalas 这样针对特定模型做硬件设计，本质是在通用性与极致效率之间取舍。
+* 真正有壁垒的加速需要软硬件 Co-Design：只懂算法，很难判断方案在真实硬件上是否有效。
+🟢 28:28 中国视频模型的领先原因
+* Transformer 之后，模型结构逐渐收敛，差距更多来自数据量、数据质量、偏好对齐和数据是否容易学习。
+* 低质量数据不只是没用，还会污染模型；高质量解释能让模型更快学会关键概念。
+* 中国的短视频、直播与电商生态既产生真实需求，也沉淀了更丰富的视频数据；张金涛认为中国视频模型公司目前领先美国。
+🟢 33:10 世界领先，是把每个环节都做对
+“知道世界上最正确、最领先的方法是什么，然后把它正确实现出来。”
+* 朱军让他理解，GPT-3 的成功不是靠某个神秘技巧，而是把每个环节都推到极致。
+* 两行有问题的代码就足以让实验失败；负责人必须能判断方案是否正确、实现是否到位。
+* 带团队还要看见每个人真正想要的是工资、Credit 还是成就感，再从第一性原理协调不同部门。
+🟢 37:54 一行代码，速度快一倍
+“视频生成得跟之前像素级一模一样，但端到端推理速度快了一倍多。”
+* 在清华安静的楼里，他一个线程一个线程地排查底层问题，终于让 SageAttention 跑通。
+* 把 Vidu 里的 FlashAttention 换成 SageAttention 只需改一行代码，输出保持像素级一致，端到端速度却提升一倍多。
+* 他立刻把结果发给陈建飞和朱军；后来又带队负责 Vidu 推理与 S1，把这段经历形容得“像在创业”。
+* 这段最快乐的科研时光，也来自朱军给出的方向、资源和自由氛围。
+欢迎订阅「十字路口」：
+🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
+🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
+👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目邀请了生数科技（Vidu S1项目负责人）张金涛。他是一名26岁的清华大学博士在读生，负责公司的流式视频生成与推理部署工作。核心议题围绕生数科技最新发布的实时交互视频生成模型 <strong>Vidu S1</strong>（可通过语音实时控制视频内容），以及背后的推理加速技术演变历程（从CG Attention到Turbo Fusion再到工程化部署），并延伸探讨了AI视频行业中美的分化、教授创业潮以及张金涛个人的成长与管理心得。</p>
+<hr />
+<h3>关键要点</h3>
+<ol>
+<li><strong>Vidu S1 的核心定位：实时交互生成而非“快”</strong>：张金涛强调，Vidu S1与普通视频生成模型（输入Prompt后等待）有本质区别。其范式是“实时交互”，每一帧都需实时生成，生成速度必须大于播放速度。产品定位是<strong>540P分辨率、25-42 FPS的实时流式生成，且支持无限时长</strong>（可在消费级显卡上运行）。</li>
+<li><strong>推理加速的三个层次</strong>：张金涛将推理加速分为三层：<ul>
+<li><strong>算子层</strong>：让特定计算（如Attention）在硬件上跑出理论极值（如CG Attention）。</li>
+<li><strong>模型层</strong>：通过蒸馏、稀疏化等方法降低模型计算复杂度（如Turbo Fusion）。</li>
+<li><strong>工程层</strong>：集群部署、请求调度和模型并行策略（如Turbo Serve）。</li>
+</ul>
+</li>
+<li><strong>“CG Attention”的成功与成为行业标准</strong>：张金涛的第一个重要工作是<strong>CG Attention</strong>，一个即插即用的、更快的Attention算子实现。他提到，该工作目前已成为一个事实上的行业标准，被<strong>NVIDIA、AMD、华为昇腾、字节、腾讯、Google</strong>等几乎所有多模态公司采用。</li>
+<li><strong>模型长时生成不漂移的本质方法</strong>：为了实现Vidu S1的“无限长生成”而不崩坏或漂移，张金涛透露团队在<strong>Attention计算方式和噪声强度控制上</strong>采用了探索出的先进训练方法，从更本质的层面解决了问题，而非简单的后处理技巧。</li>
+<li><strong>中美视频模型分化的两大原因</strong>：张金涛认为，中国视频模型已站稳第一梯队，原因在于：<ul>
+<li><strong>数据质量</strong>：中国公司在数据构造、质量、对齐人类偏好上做得更极致（“数据变成了非常本质的事情”）。</li>
+<li><strong>文化差异</strong>：国内对抖音、直播等“离线生成的视觉娱乐”要求更严格，积累了更多数据与更强的优化动机。</li>
+</ul>
+</li>
+<li><strong>对创业潮的冷静观察</strong>：张金涛认为AI方向正确，需求巨大，不是泡沫，且“不是一家公司就能把这个事情全做完”。同时，他直言“不是所有人都适合创业”，很多人技术强但做不好管理，无法激励团队做出世界领先的东西。他自认为“很适合创业”，因为他能带好团队、知道大家想要什么、能协调利益、并具备从本质出发的思维方式。</li>
+<li><strong>独家行业判断与未来趋势</strong>：<ul>
+<li><strong>实时交互视频是未来</strong>：“未来所有的视觉娱乐可能都是AI生成的”，这种即时、个性化（“每个人都要有一个独立的session”）的需求远大于预告片式的离线视频。</li>
+<li><strong>推理加速的终极方向</strong>：底层（造专用芯片，类似“把特定模型写死”）和顶层（算法层，降低模型计算复杂度，如人脑25瓦的能耗）将是未来更重要的竞争点。</li>
+<li><strong>技术平权的信号</strong>：Vidu S1的API收费为<strong>每分钟两三块钱</strong>，且不限制时长，展示了实时视频生成技术已进入可商用的低成本阶段。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3>独家细节</h3>
+<ol>
+<li><strong>“两行代码bug”的行业黑话</strong>：张金涛在谈到如何做到世界领先时，分享了一个极具行业实践感的观点：“很多公司可能也不是说他不知道最领先的是啥……<strong>很可能就是它的这个代码仓库里面有两行代码有bug，这个是极其有可能的。</strong>”</li>
+<li><strong>从“学术论文”到“兴奋体验”的瞬间</strong>：张金涛讲述了他在生数科技写CG Attention时的快乐时刻。他实现了底层的低比特加速算子后，<strong>“迫不及待地把这个视频赶紧给陈老师，给朱老师去看，就非常的开心，非常兴奋”</strong>。他非常享受“一点一点把这个底层的代码就写出来”的纯粹过程。</li>
+<li><strong>对自我特质的坦诚评价</strong>：在谈到自己成长经历时，张金涛直言：“我小时候就相对贪婪一点……<strong>数学非常好，语文相对比较差。但……我现在也感觉其实语文还是很重要</strong>，对一个人的沟通表达和理解对方情绪的能力确实还是挺重要的。” 这与他后来强调的“把一个复杂的事情讲清楚”、“写好论文”的重要性形成了呼应。</li>
+<li><strong>关于“峰值体验”的讨论</strong>：节目中提到Vidu S1的用户玩“峰哥转圈舞”的案例（把人物图片上传，让AI角色实时说祝福语、跳舞）。这是一个非常具体、接地气的应用场景，揭示了实时交互技术如何迅速被公众用于娱乐和恶搞。</li>
+<li><strong>对“世界最领先”的务实定义</strong>：张金涛转述了导师朱军老师的话，认为世界领先不是指巨大的模型或方法创新，而是<strong>“只要知道世界上最正确最领先的一个方法是什么，然后你把它正确的实现出来，每一个环节都做到极致，其实你就能做到世界最领先”</strong>。这是一种非常务实的工程化哲学。</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技。最近有一位朋友德元去拜访了一楼musk。他说伊隆和他说了一个非常有意思的观察。如果未来人们的眼睛看到的一切都是生成的那我们到底需要多少算力呢？算法也很简单，一个人两只眼睛每秒要看见多少像素，一天又有多少时间你的眼睛是睁着的，然后再把它乘以几十亿人的规模。最后来反推要承载这样的实时生成的世界，全球需要多少的算力和多少的数据中心。当然更重要的除了硬件上的不断堆叠，我们在软件上，在算法上的不断推理加速的优化也是非常重要的一个命题。所以本周十字路口我们就请到了张金涛，他在申诉科技负责流式视频生成与推理部署的工作。你好，金涛，欢迎来到十字路口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello, 大家好，我是张金涛。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>申诉刚推出了S1，这是金涛带领的项目。用户先传一张图去做一个角色，再选一个声音或者克隆声音，就可以像打视频电话一样去和这个角色来聊天，并且用说话来去实时控制这个角色的表情、动作、肢体语言。这个流式视频生成的模型目前能做到540P的分辨率，以及25帧左右的实时生成，并且可以长时间不断流。所以你可以和这个角色聊几天几夜，我们稍等会展开这个技术的详细的细节，但是在此之前我们还是先从十字路口的传统开始快问快答，帮助大家快速了解。金涛。请问金涛你的年龄26岁.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>毕业院校清华大学博士在读。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的NBTI和。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>星座INTJ水瓶座那一句话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>介绍一下咱们刚发的这个模型，就v do s one它是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>V do s one是一个实时交互的视频生成模型，可以通过语音来实时控制视频生成的内容。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你现在在申诉，除了这个负责s one这个项目，还在负责哪些事情？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还负责所有模型的推理加速，以及所有模型的一个集群部署。流失视频生成模型我负责的也是整个流失视频生成模型的一个全链路。就从数据到训练算法，然后到他的一个推理工程化，包括模型的评测。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在申诉之前你在做什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在申诉之前，我主要还是就跟着朱朱军老师在读博士，然后做一些推理加速方面的一些科学科科研工作。当然就在正式加入生疏之前，我还在uc broccoli在那边访问了半年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是因为什么契机开始做推理加速的？我记得你最早的一个被大家知道的工作应该是CG attention。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在差不多读到硕士二年级的时候，有一个比较好的契机。我后面就跟朱静老师去硕转博，然后读了朱军老师的博士。然后朱军老师就看我之前做了一些系统性的工作，所以就安排陈建飞老师去具体带我做一些科研工作。任建飞老师直接就告诉我，推理加速是未来非常重要的一个方向，然后就安排我去去做这个attention的一个底层的加速。然后c attention就是我当时做的第一个工作，它就是一个更快的attention算子的实现。你可以用c attention去替换掉大模型中attention的这个计算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它是即插即拔的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>即插即用的，它相当于就是一个更快的attention的计算的实现。我们当时发现我和陈建飞老师就发现flash tension影响力很大。然后大家基本也认为flattening是一个attention的一个极致的一个算子了。但我们发现硬件上明明还有更快的计算单元，大模型里面就是主要的运算我们可以简单分为两个，一个就是线性层的计算，一个就是attention的计算。其实那些更快的计算单元在线性层的加速中，其实被已经被广泛应用了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是到当时flattening出来之后，还没有任何一个工作说能用GPU，就显卡上的更快的计算单元去加速attention。然后我们就感觉这是为什么？为什么没有人做？这是很明显的一个收益，那我们就想把这个事情做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以当时什么原因没有人做呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做低比特加速attention的计算其实还有两还是有挺大的挑战的。第一个就是我觉得语言模型它在attention的计算上，它其实是一个memory bound。你单纯加速特征计算其实不会有太大收益。所以大家没有很强的motivation去做特征的计算加速。但是后面我们会发现语言模型的一些特征的范式。包括后面所有的多模态模型，尤其是视频生成模型，它的tension都是被严重的compute bound计算速度，直接决定了attention算的快不快。所以我觉得这是第一个原因。在20年初以前做tension的计算加速，其实没有很多很高的收益。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个点就是attention的这个迪比特加速，它其实还是有一些挑战的。比如说第一个挑战就是attention加速不同于你简单的线性层的加速，简单线性层你可以用py touch一行代码就可以写完。然后你想你想对它做量化，也就再加两行py touch代码。但是attention的加速它就必须要求你会写，就是GPU的kernel，你必须得深入到用这个底层的编程语言，这是attention的计算特性决定的。尤其是当时其实还20年初之前，web code还不具备非常强的扩大或者一些底层GPU编程的一个能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要手写。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>基本上还是要手写。Tension计算的精度对低比特十分的敏感，就attention里面所有的计算我们都量化到巴比特，用到语言模型或者用到实名认证模型里面，它输出的内容是非常差的，所以这是第三个挑战。然后我们也解决了后面这两个挑战，再把C的tension做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以从C加tension到现在发S1，因为S一我觉得它比较重要的价值就是它的这个流式视频生成。所以这背后其实也是推理加速到了一定的水平，才能够有这样的流式生成的效果。所以从c attention到S1，这个中间经过了哪几个比较重要的里程碑的阶段？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我想说就是v do s one就包括我们现在不是已经全球已经开放了体验的网站，也开放了API平台window s1。它就更像是模型加部署全栈优化。所以推理加速在windows s一中我觉得只是一部分，这是我想表达第一个点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后从c attention到v do s one的推理加速，这里面确实有几个阶段，我可以简单概括。第一个阶段我们做attention这种算子来由的加速，就比如说线性层算子或者一些非线性层算子，还有就是天刃算子，在这些GPU上怎么让它运行的更快，这是一个。然后第二层优化就是模型层面，我们不仅要把蒜子跑得更快，还要把整个模型的一个计算的复杂度降下来。降这个计算复杂度其实它也有一些方法。我这边举一些例子，比如说我们做一些部署蒸馏，我们可以就比如说把这个define模型去噪的部署从50步，比如说降到四步，那它其实就能计算复杂度就降了十几倍。还有就是一些算子，比如说碳酸算子，我能不能引入一些稀疏化稀疏的探水，就不光让attention跑得更快，也让attention的这个计算复杂度也降下来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三个层面我觉得还有一些工程化的一些加速。就是你能让单个模型，比如说在单张卡或者说多张卡上跑得更快了。但是我们现在需要做的是把它直接部署在一个大集群上，让全球所有人都可以来用。所以这个就是到很多集群部署和模型推理工程化以及请求调度的一些问题。然后在这个方面我们也就是也做了大量的工作，就是怎么样对模型做并行，然后怎么样对用户的请求做一些调度之类的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在C的fusion之后还有一个工作是turbo fusion。可不可以讲一讲turbo的fusion是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他defusing其实就exactly是对应了我刚才说的第二个阶段。我们有了c attention这种很快的一个attention算子的实现。那我们怎么样把任何一个defer模型，在比如说在一张卡或者说在一台机器上让它跑得更快。我觉得这个是模型层面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们在top里file里面就是用到了比如说c attention的算子，用到了更快的一些线层算子的实现。然后同时我们又做了一些通用的针对任意defend模型的一些蒸馏的方法，以及一些稀疏attention的方法。这些方法其实都是需要通过微调模型或者需要通过训练模型来实现的。那就不仅仅是你要去实现一个更快的算子，而是你要通过训练，比如说吸收了弹性的微调，然后比如说蒸馏的训练来降低整个模型的复杂度。然后同时比如说你在单张卡和多张卡上又稍微有点不太一样，你在多卡并行的时候，你能不能把多卡之间的通讯和单卡上的计算能不能很好的overlap起来。这其实也是涉及到一些工程化。总体来说turbary ference我觉得它是主要是模型层面的一个在基于attention和一些很快的线性层的算子的实现上，通过训练的方式做了模型复杂度的减少和少量的工程上的一些优化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但在做那个工作的时候，其实还是在学校里面的，那其实不是在在维度里面。所以那个时候你们能用到的数据也好，或者算力资源也好，应该都是比较受限的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我们做托尔李夫人的时候，计算资源确实相对有限。但托尼夫人本身它也不需要很多资源，所以我们只是建立在。开源的这个市民生成模型上，然后用了少量的这种微调数据，我们就能把它做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以现在他有多少give tub的star.</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>3600多个github star。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这在咱们这个领域是一个什么样的水平？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得就算还不错的水平。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就你的观察C加推线或者特beauty fusion，现在这些工作有被什么样的公司或者模型在采纳吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个tension目前也是我比较自豪的一点，就它已经成为了一个事实上的行业的标准。比如说NVIDIA或者AMD，还有就是一些硬件厂商，比如说华为升腾、摩尔县城以及木樨这种硬件厂商其实都在他们都实现了他们自己的tension，并且部署在他们的显卡上。然后第二就是几乎所有的多模态的公司。比如说像牲畜科技，像字节、腾讯，还有这个就像google，对，就是都在用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们给大家介绍一下刚发布的v do s1，我们再展开聊一下，就是大家看到这个流式视频生成模型的第一反应是它很快。对，可不可以讲一讲咱们快的背后是具体做了什么工作？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我觉得不能简单的把一个流失视频生成模型理解为快，这里可能我想稍微展开讲一讲。首先大家要对普通的视频生成模型有个概念。我们一般都是先输入一个prompt对吧？然后就等很长时间，然后他会给你一个5秒或者十秒的一个视频。但实际上就是实时视频生成模型，首先它的应用的范式就不太一样，你要实时的跟他去玩，跟他去交互，它每一帧其实都是实时生成的。它的生成速度需要大于播放速度，它才能做到实时生成。所以它不只是说你把之前的这个，比如说十秒钟的视频生成，比如说从50分钟压缩到10分钟。然后第二点就是这种流失视频生成模型的加速还是会有更大挑战的那比如说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最大的挑战可能是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一个就是你在保证画质的前提下，然后保证长时间就是你生成一两个小时，它视频画面还没有漂移或者没有崩坏。在保障他对就是你实时输入进来的一些东西，他能够给一个正确的反馈，这个显然是很难的。就现在最先进的基础模型，我了解到的应该就是它最长只能生成30秒的视频。但是流失生命生成模型，我们不可能就只让它生成30秒，对吧？就是30秒可能还不够。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我问一个问题的，咱们是可以聊几天几夜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我们是可以无限长生成的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这个过程中我们是怎么保证它不漂移，然后不崩坏的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是这个我们用了很多相对比较本质的一些一些deference训练的方法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就可以展开讲了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们在attention的计算方式以及在噪声强度的控制上用了一些比较我们探索出来比较先进的一些方法，去保证让它长时间生成，也不会画面质量变差。我就是想再介绍一下我们这个锐度s one它的推理优化的先进性。首先我们做的是540P市面上能够做时生成的模型的分辨率其实基本上没有这么高的。然后IPS的话我们可以做到25到42IPS。同时我们其实是在消费级显卡上就可以达到这么一个效率的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以咱们其实在追求又要快，然后画质也要不错，然后还有长时间不崩坏，对吧？所以其实感觉这个目标还是蛮多的。所以这个过程中就是S一你们有做什么trade off吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定是有trade off的。首先我们的定位肯定是实时交互生成，所以我们就必须得满足生成的效率。在这个前提下再去优化一些比如说画面质量，以及用户输入的一个生成的准确度，以及长时间的一个视频的质量和一致性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最快是第一目标。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个是最重要的一个前提。其他的都只能在这个前提的前提之下去尽可能做一些优化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最容易被放弃的是什么？或者在你们的优先级里面，比如说包括画质，包括成本一致性等等，就是有没有这个优先级最低的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前来说如果非要排一个优先级的话，当前这个阶段我们只能说画质稍微再降一点。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为现在开放给所有人用，我你们现在收费情况是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我们开放的这个网页和APP的平台目前都是免费的，放开让大家去玩了。然后我们的API平台是会收费的，可能每分钟也就两三块钱，它没有时间限制。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>流是实时交互视频，它真的会变得越来越重要吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实视频模型我觉得主要就是满足人类的视觉娱乐的需求。视觉娱乐的需求我觉得可以被分为两类。第一类就是离线生成的视频，典型的就比如说电影或者说一些短视频。第二个就是在线交互的实时交互的一个视频。比如说像寇姐，我们今天在这里交流，对于我们来说可能也是属于在线的。就是我们的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在线是指的我俩此刻就是看着对方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他对，是这个意思吗？对对对，就是我说什么你是知道的，然后你会根据我说的去做一些反馈，你也会根据我说的去做一些反馈。或者说就像我们去谈恋爱，或者像打游戏，以及平常我们日常的这个生活，其实到处都充斥着在线的这种实时交互式的一个视觉娱乐。人类没有进入到这个数字革命之前，视觉娱乐基本上都来自于在线实时交互的视觉娱乐。人类在线实时交互类的视觉娱乐的需求是比这种离线的预制好的视觉娱乐的需求它是更大的。离线的这种视频它是有一个播放量的概念。但是在线的实时交互式的视觉娱乐的需求，他每个人都不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不一样，每个人想看的都是不一样的，每个人都要有一个独立的session。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也是我们一开始的时候说的elon musk的那个推理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就像寇姐你说的，就是未来所有的视觉娱乐可能都是AI生成的。我们也听说过这世界可能是虚拟的，每个人其实看到的这个画面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都是生成的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>未来就是这种实时交互类的视频生成，它一定是一个非常正确，然后需求量非常大的一个方向。因为我坚信未来我们的视觉娱乐信号会被AI生成的内容充斥掉，替换掉。从技术上我觉得其实目前来看没有什么壁垒，没有什么不可能性。它一定是未来非常正确的一个方向，就是已经是势不可挡了，就是一定会有那么一天的到来，这个方向一定是正确的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们现在比如说发了之后，有看到大家用这个模型在做什么吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为这是我们昨天晚上发的，但今天我已经看到了，就有很多人去发了。很多很多例子。Video s one之前没有任何一个模型说你可以实时的去用语音去控制后面的这个生成的内容。然后也没有一个模型真的可以做到无现场实时交互式的生成。而且在这么高的分辨率和这么高的帧率的前提下，而且我们是支持自定义任何角色，自定义任何图片。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我已经看到非常有意思的例子，点赞和收藏已经破千的一些例子。就比如说打自己家的小狗，然后上传到这个v do s one，他就可以跟他家的小狗去去聊天，他又可以跟这个小狗做一些交互，我看都实现的很好。然后第二个d dos one它也支持视频理解，它可以打开摄像头，也可以输入一段视频信号。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我今天就在B站上看到了一个非常好的例子，就一个人他正在玩游戏，显示器左边的4分之3的屏幕是这个游戏的画面。然后右边的4分之1，她往维度s one里面上传了一个二次元的小女孩儿，她把游戏画面传对，她把游戏的画面直接传传过去了。这个人他左边的4分之3他一直在玩游戏，右边的4分之1他多了一个人去陪他玩游戏。他把这个第一个他可以跟这个人去聊，他同时又把视频的画面传过去。这个人还可以真实的看到游戏画面里发生了什么，然后可以给他做更深的交互，然后他也可以做更多动作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以理论上我也可以把我每天coding的界面当做一个视频留给他，对吧？他就做程序员鼓励师了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得当然可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果我把我的整个电脑都当做一个流逝的视频传给他，可以，那他也可以看到，比如说我现在在微信聊天，然后下一秒在微信里面写文档，还可以适时的给我一些反馈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以的，当然可以。他可以看到你写的字是什么，你的画面是什么。它有一个基础的视频理解能力，我们可以验证一下，未来两周一定会出现基于v dow s one的很多很好玩的例子，大家可以拭目以待。包括昨天晚上有一个同学他也给我看了一个他用的一个例子，我不知道大家知不知道风格，峰哥有那个转圈舞，转圈祝福舞，就是什么我祝谁谁什么长命百岁，永远不死。对，然后会跳一个转圈舞。他把这个人设和风格的图片上传上去之后，他就可以跟峰哥进行一个非常实时的交互，让峰哥给他说一些祝福的语言，然后给他做一些祝福的动作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再回到这个推理加速，金涛当然做的很多工作都是多模态模型的推理加速。但是其实今天大语言模型推理加速也很重要。然后甚至我们在最近一年看到也有很多芯片层面的工作，从saras到包括Taylor，都有非常多芯片层面的工作，所以也想请金涛给我们介绍一下，我们今天在推理加速这个领域，比如说有哪些重要的工作，有哪些。重要的方向等等。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>推理加速其实就是像他字面说的，就是让模型的推理变得更快。先不考虑芯片设计层面的话，我觉得有两个点要做。第一个就是像算子层，我们要让模型的这些计算在特定的硬件上算的非常快，尽可能算到一个硬件它极致的水平。但我感觉大家容易误解的一个点就是大家会认为推理加速其实就是做前面这个事情，就是让让一个模型在某个硬件上算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到理论最大值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，让它就是某个算子能够算到更快。当然这是很重要的一点。但是推理加速另外一个很重要的地方，你怎么把模型的计算复杂度也降下来。就是我们想让它就是端到端推理的更快。我们输入一个东西，它能很快的输出出来。AI模型本身就一个黑盒，你输入一个东西，他给你输出一个东西。这个黑盒里面实际上有很多计算可能是冗余的，我们能不能把这些冗余的计算给省略掉，比如说通过稀疏attention，或者通过一些模型架构，比如说做一些ME的架构，或者就是通过一些蒸馏，不管是模型大小蒸馏还是这个采样部署的蒸馏水。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以推理加速它我觉得可以这样定义，当然就是对芯片设计上，我其实我了解的不是很多。如果我们再拆开一层老黄他他做的这些事情，我觉得也可以被算作推理加速，进一步提高这个硬件它的一个计算速度。目前我感觉推理加速上比较好的一些工作，首先可能top reference算是还不错的工作。还有一些系统性的一些开源开源项目，比如说v LLM。当然它也涉及到一些我刚才前面说的那几层，但它更重要的其实还是调度和管理上的一个工作。然后top的ference，它可能是前两个就是算子能不能做的很快，然后你模型的复杂度能不能降得很低。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这里是这两层在这个deferred模型或者多模态模型上的一个比较好的例子。因为defer模型其实之前双就是all plan的生成，它比语言模型要简单的多一条用户的请求过来。他其实不太需要做batch，也不太需要做什么KV开始调度，她都没有KV开始，所以她之前是比较简单的。但最近就是因为你有流失的需求，你的deference生成的过程也是一个auto regression的过程。你也涉及到KV cash，你也涉及到一些用户请求的调度。比如说这时候有一个用户接入了，然后等会儿又一个用户接入了，然后等会儿这个用户他不想聊了，他中断了。所以我觉得后面也会出现很多defer模型，怎么去做这种集群部署和调度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一篇paper叫turble serve，也是在生处做的这么一篇工作。就是针对这种auto管流式的视频生成模型，怎么在集群上去做一些调度和部署。我觉得他也是一个还不错的工作。语言模型上还有一篇工作叫DSA deep six spar attention，那篇工作算是模型角度的一个加速，我觉得也是一篇很好的工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>D Spark还有这个小米m imo他们最近做的那个youtube speed，其实也都是基于一个开源的叫d flash的框架做的。确实这个效果还蛮显著的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它针对语言模型，它是个很好的工作。然后deference上，其实SLA就是我们的那篇SPA linear attention，就针对defer模型的这个系数的tension，他也非常好。包括腾讯和字节的非常多么他的负责人他们都跟我说他们在用SLA，他们认为这是非常好的工作。当然就我们现在开源的这版SLA，其实还有一点点缺陷，最主要的缺陷是在他lineata tion的选型上。我刚才说的几个我认为比较好的推理加速的一些工作，就不代表它它是最好的。它只代表就是我接触到的，我认为别做的比较好的，肯定还是存在大量的做的非常好的一些推理加速的工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，也欢迎在评论区给我们留言，大家可以在评论区讨论更多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我觉得未来就是推理加速的未来，我觉得未来还是属于更底层。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>和更上层。可以展开讲讲吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK就是我觉得之后单个算子它在硬件上能不能跑到一个很快的速度，我觉得这个会逐渐的去收敛，大家都能实现的，非常的快，就是能够基本上接近一个硬件上的上限。而且就是现在这个web coding也是越来越强烈。他也知道一些很很先进的一些，写代码的方法。他也知道这个硬件的架构是什么，就特定给定一个算法在硬件上能不能跑得快，或者给定一个模型能不能跑得快。我觉得这一层是之后都会收敛的。我对底层的一个定义就是说你能不能造一款，或者要么就像老黄这样，就是能不能造非常通用的很牛的一些芯片，它本身的计算速度就非常的快。然后还有就是你能不能对特定的这些模型，比如说就对某一款或者说某一类视频生成模型，不管他是他他可能是offline生成的，或者说它是实时交互生成的这种视频生成模型专门去造一款芯片。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就像塔拉斯一样，把一个特定的模型写死到一个对应的芯片里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这是一种思路，但是这种思路可能有点太浪费了。比如说你模型更新了，你这芯片就废掉了。我觉得可能更好的一些思路还是定制化，但是它又有一定通用性，就比如说这一类模型，我这个芯片就是能满足。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就比如说举个很简单的例子，语言模型它的腾讯计算通常是被memory bond，它受制于memory的一个传输速度，它不太受制于计算的速度。然后你视频上的模型它一般都是computer bound，它不是memory bound，那你可以去调这些比例。以及不同的模型它需要的显存也不太一样。它需要的计算的和显存的传输的一个计算速度和显存传输的比例也不太一样。然后他需要的各个精度的计算单元的数量也不太一样。我觉得就是通过这些来战斗去调，可能也是一个思路。总的来说我觉得最底层就是你能不能做一款要么很通用非常厉害的一个芯片，要么就是针对某一类模型专用的，它能够成本很低，然后计算速度很快的一些芯片。这个我觉得目前AI它也很难做好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后更上层我觉得其实就是算法层，就是因为推理加速它不仅仅是工程上的优化，你还要想方设法去降低模型的计算的复杂度。比如说我们的人脑，我们人脑其实就只有25瓦，对吧？但是我们人脑稍微给他一点时间，他也能解决很多复杂的任务。就从理论上我们是能够降低模型的一个计算复杂度的这也是分为通用和专用。就通用的来说，你能不能降低整个模型对各个任务的一个计算复杂度。然后专门来说就是对不同的请求，它能不能用非常简单的计算就可以做到。我不需要把整个模型里面每一个layer，每一个算子都去计算一遍。我觉得这是最底层和最上层，我觉得这两方面未来应该会变得更重要。对于推理加速来说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那是不是在底层更容易出创业公司？因为在顶层我觉得好像它很难变成一个独立的事业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实都是要扣design的。一个好的推理加速工作，它一定是硬件和算法必须是要扣design。然后从创业公司这个角度，我觉得他肯定还是这两方面能力都得有。或者说我觉得就是科技你说的有道理，就是只做底层，我觉得他也可以，然后扣底赞来做也可以。但只做算法层我觉得就不是特别有壁垒，或者说他这个很难去得到一个底层的验证。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再回来聊一下整个AI视频行业，因为最近几个月我发现在中美两边发生了分化，我觉得中国的视频模型越来越厉害，就显然已经牢牢的站住了第一梯队。在你的视角里面，这是因为什么原因产生的优势？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI它其实就是一个对一个问题的建模，对吧？对一个问题的建模，我们把这个叫模型。他建模完之后他肯定要去学习去训练。他训练其实就是把数据输入的数据和输入的数据之间这个映射关系学好。然后这个建模我觉得从transformer出来之后到现在，我觉得这个建模方式就是再怎么雕花，我觉得其实不是特别本质了。所以现在数据变成了非常本质的事情，就像人类一样，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是一个人他水平高不高，第一个可能取决于他这个大脑的建模，就他的智商？然后第二个他接受的教育，一个好的讲解方式跟一个不好的讲解方式，他学起来是完全不一样的。一个复杂的物理的规律，那一个好的讲解可能十分钟就能把这个问题讲得非常透彻。你像比如说苏建林，他整理的一些科学空间，他讲的就是很好。我看十分钟顶，我在看一些垃圾的博客，看一些垃圾的数据，给我看3个小时还要多。而且那3个小时可能还对我的这个学习的这种叫什么造成污染。所以就现在建建模上已经相对趋于收敛了。但是数据上我觉得你有没有把它构造成一个质量高，然后对齐了人类的偏好。同时它又是一个可学习性非常强的，就比如说就是reasoning，它其实本质上就是你直接学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>问题A到回答Z你发现这两个东西没有任何关系，你构造成一个思维链，他慢慢的去学，他就能学会。要确定就美国的做市民生成的公司，他们的数据不管从数据量上，数据的质量上，有没有对其人员的偏好。然后它的构造方式，我觉得应该做的都不如我们国内的这些视频生成的公司。然后具体什么原因的话，我觉得每个人都有每个人的思考，就可能跟一些这种政策或者都有关系。对，这是第一个点。第二个原因，我觉得中美的文化可能还是有些不一样。对于这种离线生成的视觉娱乐，我觉得我们要求是更严格的那当然这是我个人看法，就比如说我们其实对抖音、小红书或者直播、电商这些行业发展的更好。那我们就能积累下来更多的数据，然后有更高的motivation去把视频生成，就是满足人是去做这个事情做得更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这很有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得最主要这两点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉2026年有一个非常大的趋势，就是教授PHD们都在大量的投入创业。早几年可能是有啊质朴的唐杰老师，然后有申诉的朱军老师，对吧？都是很优秀的代表。但是在那个时候，我理解他们创业的时候还没有形成一个热潮。但在今天感觉越来越多的教授和PHD开始创业。然后你自己身在其中，你的感受是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我觉得AI他确实我觉得他不是一个泡沫，它就是能满足人类所有的需求。AI这个方向一定是正确的，不管你是做硬件还是做这种模型。所以我感觉就是目前这波创业的热潮，它是很合理的。然后它也能够持续很久，我觉得不存在太多泡沫。然后第二个我想表达的，因为这个需求太大了，就这个方向太正确了。就是它不是一家公司就能把这个事情全做完的。未来还是有很多很多创业公司在未来都能取得成功，这是第一点，我认为这是很合理的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二点，就是我也感觉到其实不是所有人都适合创业。就包括我最近在牲畜待了这么长一段时间，我觉得稍微坦诚一点讲，或者没有那么谦虚的讲，我感觉我还是很适合创业的。我感觉我能把团队带好，大家都愿意追随我去做事情。然后我能知道什么人是好，就是能用。然后每个人在想什么，我怎么去做这做这些管理和协调。但是我觉得确实不是每个人都能创业。有的人他可能技术水平也很牛逼，但是他其实就是做不好这些管理。怎么让大家第一个非常开心的去工作。第二个让大家知道一定要做世界上最领先的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个该怎么去做。所以你可以讲讲你具体的一些管理实践？比如说怎么让大家开心的工作，然后怎么激励大家去做世界上最领先的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这点可能我还是得好好感谢一下朱军老师。像那个open I刚出GPT3的时候，朱老师就跟我们说，其实大家不要觉得这个GP3是一个多么遥不可及的一个东西。它只是把把每个环节都都做到极致，并不是说它在模型或者数据上，或者说在什么训练方法上有非常大的创新。只需要知道世界上最正确最领先的一个方法是什么，然后你把它正确的实现出来，每一个环节都做到极致，其实你就能做到世界最领先。这是我对世界领先的一个理解。我也会同步给我们我们部门的人。然后第二个，就是你你每一个环节，每一行代码你得实现正确。就是我我相信现在很多公司他可能也不是说他不知道最领先的是啥，像v to s one，他他可能也不一定说video s one里面用的一些技术，他不知道它很可能就是它的这个代码仓库里面有两行代码有bug，这个是极其有可能的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>总之我觉得先回答第二个，就世界最领先第一点就让大家开心的工作。我觉得这个就是一个leader该尽的一项职责。具体怎么做的呢？每个人都不一样，你首先得足够的敏感，或者说我也不知道叫不叫敏感。你得知道每个人他想要的是什么，他想要更多这个工资，还是说他想要更多credit，还是他更享受做事情的一个成就感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你得知道这些事情，并且你得跟对方简单聊几句之后，你就能掌握这些信息。然后第二个，你还得树立自己的威信。还有就是你们这个部门肯定不是独立存在的对，你是会跟很多其他的部门，很多其他的工能去协调的。各个部门之间的利益其实也不是一致的那你怎么去协调？还有就考验你的一个判断，就是你得知道你的一个思维方式，必须得从本质去出发。我观察到很多人其实他不具备这些特质，他可能很聪明，他有很多配好的paper。但其实我觉得如果他创业的话，我觉得也做不好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们最后来聊一聊金涛你的成长经历。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可不可以大家分享一下。我可能小时候就相对贪婪一点，但我小时候就是有个特点，就数学非常好，语文相对比较差。但我现在我也感觉其实语文还是很重要，对一个人的沟通表达和理解对方情绪的能力确实还是挺重要的这这个其实一部分我觉得也能体现在语文成绩里。然后大学的话就是一些之前的猜想得到了一些验证。就是说我感觉我的一些自学能力或者一些表达能力是会更强一点的。可能大学那个竞争也不太激烈，反正我就是简单学一学也能考得非常好，然后同时也能兼顾一些科研上的一些任务。当时加入一些实验室去做一些论文的分享，就发现我能把这篇论文看得特别透彻。然后我也会花很多时间，我很享受就是花时间把表达里面这些词和这个图做的非常的sharp，做的非常的让大家get这个本质在哪里，就很享受这一点，我觉得写作其实也很重要，写论文写的好不好，我觉得还是能反映一个人的水平的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为智能的边界和语言的边界，它有时候是对等的。就你能不能把一个东西讲清楚，在能投射出你到底有没有把这个东西搞明白。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，把一个事情讲清楚我觉得不难，难的是能不能把一个很复杂的事情讲的很清楚。反正我很享受把一个复杂的问题，第一个不仅是写的非常很简单，第二个就是能够把很多点凝练出来。比如说我我我写论文，我就是要把motivation凝练的非常好。然后要把做这个事情当前的limitation或者chAllenge是什么一定要凝练出来。然后把你怎么去解决这些差异值也要凝练出来，然后把你的贡献也要清晰的凝练出来。我觉得每个词每句话都是逻辑性必须要非常强。前提是你做的工作是有意义的，好的工作，你就是要去思考去凝练这些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是听起来你很享受那个过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后我愿意去把这东西整理出来之后跟其他人去讲。然后后面的话就是出软膜之后，我觉得算是正式开启了一段我很享受的时光，或者说我最开心的时光。一个是我做c attention的时候，我记得当时我在金华资源科一楼，那时候人很少，就在很安静，然后我就去解决这些问题，然后跟陈老师去讨论，跟朱老师去汇报。就是一个线程去去模拟，去看这个精度问题到底在哪儿，然后一点一点的把这个底层的代码就写出来。然后到最后也是得感谢朱老师给我这么一个机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>24年五月我们成立一个维度推理的组就保障这个维度的全球上线。我是直接在微度的这个模型里面去写的c attention那时候肯定是全世界第一个低比特加速特征计算的一个工作，我当时就已经实现完了。其实当时那个其实是一个非常伟大的工作。我觉得当但当时其实我没有意识到这一点，我没有意识到这个那么伟大，就是呃说伟大就有点自夸，但确实还是比较了不起的一个工作，我很享受那个过程。然后比如说我实现完了，最终精度对上了，我把它插到那个模型里之前用的fly tension，我把它代码换成这个tension，就换了一行。视频生成的跟之前一模一样，像素级一模一样，但推理速度快了一倍，多端端推理速度直接快了一倍多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我就迫不及待的把这个视频赶紧给陈老师，给朱老师去看，就非常的开心，非常兴奋。然后后面我们才把论文和代码整理出来都开源，当时是非常开心的。总之我是阮博之后，我觉得就做了很多有意义的工作。我觉得就解决了一些很业界非常需要解决的一些问题，做出了一些开创性的突破，我真的觉得很开心。然后第二个就是我现在也在带一个团队，我觉得也挺开心的，就是像是在创业的感觉。感谢朱老师信任我，用我就是去去把这摊的事情都负责起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我刚加入实验室的时候，我当时也发现朱军老师水平真的很高。就是体现在哪里呢？我举几个例子，第一个就是。朱老师的认知对方向的判断非常正确。你从朱老师的这些学生上，我觉得也能看出来。比如像孟佳、义巷、路成巷、什么庞天宇，像这个宋阳什么的，其实这都是朱老师培养者。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个就在他实验室，我刚进来我就发现我靠这城市资源这么充足。另外就是氛围，我不是在伯克利待了半年，因为朱老师可能也是在cmo做过这种教职，也在海外待过很长时间。就是我觉得跟那种管理方式或者科研上的一些氛围，我觉得真的就非常像。这点反正我觉得还是非常认可朱老师，也很感谢朱老师。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实听到前面说到这个工作带来的快乐还是蛮感慨的那所以也希望这个金涛可以在未来有更多这样的快乐时刻。然后也感谢你今天来十字路口，期待有机会可以再来做客。好，谢谢谢谢科技。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也非常感谢有这么一个机会跟科技做一些分享。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜。</p>]]></content:encoded>
+            <pubDate>Sun, 19 Jul 2026 16:00:00 GMT</pubDate>
+            <guid>6a5c6a91a3fec224d59fd014</guid>
+        </item>
         <item>
             <title>AI4S 需要狂人与野心家｜对话英灵殿 Odin：&quot;如果神存在，我怎能容忍自己不是神？&quot;【公路播客】</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a5199381e32575f5eb48ce4</link>
@@ -8696,243 +8925,6 @@ A16Z 中国员工的论断：”硬件，才是你们（中国）该做的事情
 <p class="transcript-line"><span class="time"><strong>[01:08:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢寇姐，谢谢大家，谢谢。</p>]]></content:encoded>
             <pubDate>Sun, 28 Dec 2025 16:00:00 GMT</pubDate>
             <guid>694f570e2db086f897318453</guid>
-        </item>
-        <item>
-            <title>揭秘千人「AI漫剧」工厂：野蛮生长和内容理想 | 对话酱油</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/6944f3729f70e5d6b329d02d</link>
-            <description>🚥 本周「十字路口」的嘉宾是酱油（黄浩南），他是在「AI 漫剧」这个新物种诞生的混沌早期，跑得最快的的人之一。
-酱油中专毕业、靠网文赚到第一桶金，创办「酱油文化」，实现财富自由。
-今年 9 月，酱油决定 all in AI 漫剧后，短短数月，飞速发展，团队扩张到 1000 人规模、流水突破 5000 万。
-抖音播放量破亿的漫剧的 22 部漫剧中，5 部来自酱油。
-在本期内容中，酱油深入拆解了这家千人“AI 工厂”的运转细节，分享了他对 AI 工具的投资价值、“电子预制菜”争议、“抽卡师”这一新工种、视觉时代的平权、大模型的优劣、内容行业的护城河以及“做 AI 时代的皮克斯”等话题的观点。
-最后，酱油分享了自己的精彩故事：作为时代的“逆流者”，凭借对内容的直觉和极致的执行力，在 AI 带来的技术平权浪潮中，抓住了属于普通人的逆袭机会。
-很精彩！
-📒 文字版将随后发布于 @十字路口Crossing 公众号。
-🟢 01:01 快问快答：年龄、毕业院校、星座、一句话介绍现在在做的事情、融资情况、收入和利润、团队规模、创业前经历
-🟢 01:49 千人「AI 漫剧」工厂
-&quot;他永远抢不走我脑袋里的东西，我也抢不走他脑袋里的东西。&quot;
-* 为什么 AI 漫剧火了？
-* 一条完整的 AI 漫剧流水线长什么样子？
-* 千人团队里，什么岗位人最多？什么岗位最难招？
-* 新工种诞生：&quot;AI 画师&quot;和&quot;AI抽卡师&quot;
-* 拥有千人团队后，剧本和分镜依然是必须由人类亲手打磨的“灵魂”。
-🟢 10:29 当全世界都在抵制 AI 的时候
-“一看就是 AI，AI 味太重了……他们仿佛把 AI 当做一个粗制滥造的代言词。”
-* 寻找愿意一起&quot;逆流&quot;的人，开创一个新的视觉时代。
-* &quot;AI 味太重&quot;成了粗制滥造的代名词，但做 AI 的人才知道：它每天都在进步。
-* 一个残酷的事实：AI 做的东西已经超越了 80% 的十年资深动画师。
-* 宫崎骏说&quot;电脑画的线没有灵魂&quot;，但全世界 90% 的动画早已是电脑做的了。
-* “我的合伙人，一年前年入 30 万，下个月提劳斯莱斯。”
-🟢 16:57 内容方法论：爆款背后的三层逻辑
-“围绕着生与死、人生、社会去一做部好作品，扑了也无所谓。”
-* 第一层：爽文逻辑，给 18 岁少年一个解压的出口。
-* 第二层：视觉盛宴，用 AI 做《封神之战》级别的神魔大战场面。
-* 第三层：IP 化内容，做一部能让全世界共鸣的《寻梦环游记》。
-* 为什么中国影视出海是伪命题？文化太深了，没人看得懂。
-* AI 最大的价值：给你无限试错的成本——20 万一部，扑了也不心疼。
-🟢 19:20 成本、模型、好内容
-“我们不想在风口赚一笔钱，又等下一个风口。我们希望在这个风口一直做，一直开创。”
-* 行业均价 1000 元/分钟，我们 1500 元——因为别人抽 40 张图，我们要抽 160 张以上。
-* 成本结构拆解：人工 60%、算力 20%、剧本 15%、配音 5%。
-* 我们用得最多的视频模型是生数
-* 可灵、即梦、Sora……各取所长，集大成于一体。
-* 不省成本的原因：好的东西才会生生不息，省成本赚快钱的最终都会被淘汰。
-🟢 23:51 从中专生到财富自由
-&quot;打工是不可能发财的，像我们这种人一辈子可能只有一次机会。&quot;
-* 没有电脑，就去网吧通宵码字。
-* 写网文第一个月就月入过万，半年后年入百万，然后开了全国第一家网文线下孵化班。
-* 做短剧，15 万成本一个月赚了 700 万，一年税前收入 5000 万，财富自由。
-* 为什么从短剧转型 All in AI 漫剧？
-* 1% 的天赋比 99% 的努力重要，努力只能让你赚到钱，不能让你成功。
-🟢 31:06 管理一千个人
-“谁工作起来会开心快乐啊？但我要让他对比其他地方，觉得这个公司还挺好。够了。”
-* 这不是人才管理，这是工厂管理——员工、组长、主管，任务分发下去，做完就下班。
-* 普通员工绝不加班，一天实际只工作 6 小时；但组长以上 365 天无休。
-* 为什么？拿 5000 月薪的人有权拥有自己的夜生活，拿高薪的人就得为公司付出一切。
-* 最大的风险？不存在。内容驱动生产，只要内容 OK，谁来生产都一样。
-* &quot;这个赛道没有同行&quot;——蜡笔小新和柯南的公司是敌对关系吗？
-🟢 37:37 做 AI 时代的皮克斯
-&quot;我想上市，我想成为全世界的一个 AI 应用的概念股。&quot;
-* 这么赚钱，为什么还要融资？
-* 明年计划：颠覆国漫市场、出海、做 IP 生态、做游戏……
-* &quot;我们要颠覆整个国漫市场，把国漫市场搅一搅。&quot;
-* 我们正在做一个&quot;绝密项目&quot;，过完年宣布，会对整个 AI 市场造成巨大冲击。
-* &quot;（AI 工具我们用吗？）不用，一个都不用。&quot;
-* &quot;（AI 工具类创业公司有投资价值吗？）一点都没有，零价值。&quot;
-* 对 2026 年有什么大胆的预测？
-欢迎订阅「十字路口」：
-🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
-🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
-👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner（投资合伙人）。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站
-👧🏻 主播 Ronghui：我联合创办了十字路口，在美元 VC 工作过，也做过五年的硅谷驻站记者，关注科技发展和商业故事，欢迎大家找我聊天，和我交流。Ronghui 的即刻</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欢迎收听十字路口，我们关注新一代AI技术浪潮带来的行业新变化和创业新机会。十字路口是乔布斯对苹果公司的一个比喻，形容他站在科技与人文的十字路口，伟大的产品往往诞生在这里。我们长期观察AI创业，如果你正在做一件让你自己感到兴奋的事情，哪怕他还只是一个想法，我们都很愿意听你聊一聊，我会认真看每一条留言。嗨我是科技。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>本周十字路口的嘉宾是在AI慢剧这个新物种诞生的一个混沌的早期跑的最快的人之一。他来自南昌中专毕业，最初靠网文进入内容世界，是这样一位年轻的创作者。今年9月他决定all in AI慢剧之后，不到三个月的时间飞速发展，团队扩张到1000人的规模，流水突破了5000万。在抖音破亿的慢剧的22部当中，有五部都是来自酱油你好，酱油，欢迎来到十字路口。你好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感谢你的邀请。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK我们节目有一个传统，还是会先从几个快问快答来让大家快速认识酱油。首先请问你的年龄，29岁.</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>毕业的院校是中专，江西省电子工程学院。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的MBTI和星座是什么你知道吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我不知道，但是我星座是水瓶座。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以用一句话来介绍一下现在在做的事情吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在颠覆一个视觉的时代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这太酷了，这句话。咱们公司融过资吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前在融资。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>方便透露一下你们目前的收入和利润的情况吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果按年来算的话，应该是大概预计有十个亿左右，利润的话，估计2到3个亿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们团队的规模。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前是1000家，预计明年是3000到5000家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以再用一句话来介绍一下，创业之前你做过一些什么吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最早是做网文的，后面做短剧，然后再转型到做这个慢剧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们先从第一个问题，就是我们回到这个慢剧的诞生的现场。最近是一个非常飞速的一个发展的过程，就是月产从10部到100部，几十人到几十人的团队。我上次你也提到从流水每天1000万再到3000万，要用一句话给大家来科普一下，解释一下就AI的慢剧为什么最近会突然爆炸呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主要就是因为短剧的到来，让所有的用户喜欢上看这种快节奏的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在平台方面或者在技术方面有没有一些其他的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>形成合力AIGC的能力，让所有的动漫生产力变得非常快。原来我们可能说开一个漫画要等很久，现在就是可以理解为你一天就可以开几十部上百部了。那观众就有大量的时间去选择更多的动漫，而不像原来一样，他可能说一个礼拜才能看看一集，所以他对这个东西的关注度就不高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近漫剧的爆火，你觉得和哪一个AI的突破是直接相关。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的吗？我觉得主要还是在画质这一块，但现在AI生成的所有的视频，你已经分辨不出它是AI了，所以这才是最关键的点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在你们工作室的那一步，你要去做一部AI漫剧，它从最开始到最后上线，这整个过程是一有什么样的工作流吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我们是选题，因为不管做慢剧还是做什么，你一定要选一个题出来。选题结束之后，你接下来就开始做内容，编剧开始去写东西。写完一个完整的剧本之后交给分镜师，分镜师会把很多镜头全部分镜好。分镜完了之后，交给的负责人，他会分发给各个主管以及组长。主管拿到之后给组长，组长拿到之后再去分发给每一个生图的AI画师。他就开始抽图，通过给他的文字去抽到相应的视频。抽完之后，总体全部结合起来交给组长，组长交给主管，然后主管这边交给后期，后期这边开始剪辑，剪辑完之后配音，配音完了之后上线。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>每个环节AI大概是起到什么作用？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先AI在前期的作用不是很大，在剧本这一块的作用不是特别大。因为我们觉得文字还是有温度的，靠AI做出来的太套路化的那我们核心还是以当剧本拿到了所有的抽卡师手上的时候，AI的功能特别大了，就开始通过AI去生图、人设、故事背景，所有的全部由VI解决。然后到剪辑这里，AI又没什么作用了。AI只参与它的图片生成以及视频生成。所有的后期剪辑、配音，包括剧本的写法是跟AS起不到很大作用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们这一千人当中，什么岗位的人目前数量是最多的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后期最多，因为我们产量比较大，像我们一个月要生产出上百部精品漫剧，因为后期不能用AI去代替。那只能说手搓那一个人一天只能减一集左右的一个工作量，就大概减1分钟到2分钟之间，他一天的工作量就这么多。所以说在这个情况下，像我们一个月，你可以理解为我们一部剧大概是60集到80集，一个月是6900到8000级。这个逻辑来讲，后期剪辑的人数最多的。因为抽卡这一块是一个人他一天可以抽十分钟的卡出来，但是剪出来有十个人一天才能剪完，生图的人一天做的了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那做后期的人，他的这个对人的要求和在过去，比如说传统的影视行业比起来是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>类似几乎类似。但是肯定是说有一定的网感和一定的对动漫的一个理解那更好。因为动漫的表达方式和传统的那些短剧，包括一些影视作品，还是有一定区别的那。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得什么岗位的人，他对漫剧的内容质量起到关键的决定性因素？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得应该在剧本这一块。你可以理解为一个好的内容，哪怕你做的差一点，他照样有很多人买单。但是你一个差的内容，你做的再好看也没人买单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>虽然叫AI漫剧AI漫剧，但它能不能够成大爆款，前提还是靠做剧本创作里面这个人的因素。那什么岗位的人工资最高呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>抛开我们的创始人以外的话，我们三个岗位的工资几乎差不多。我一个是编剧，一个是研发，一个是技术。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>研发和技术还不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的研发不是研发出一个技术出来，我们的研发是一个研发不同的画风。像你真人的、3D动漫的、2D动漫的、日漫一点的、美漫一点的？或者虚幻一点的、欧美一点的，我们都会去研究出不同的画风。因为我们的理解是不同的画风能够做出不同的内容。像比如说恋爱类的小说，你不可能说用3D去做，你肯定要用新海诚那种风格去做，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在咱们的这个一千人的团队里面，比如说技术大概是一个什么样的规模？然后他们会为大家做内部的一些系统吗？或者工作流吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的技术主要就是帮我们搭建我们的工作流，我们的工具。你可以理解为技术所做的一切都是为了提升我们公司每个人的人效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们待会儿可以展开聊一下技术。不过在此之前我还是想再回到一开始，就是你提到有部分的工作，它是必须还是得人来做的，一个是剧本，一个是分。这个是因为什么原因呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最大的一个点在于因为AI生成的东西它比较固定和套路，就内容他可能说会把一本小说直接改出来，然后会把它里面所有发生的事情给你改过来。但是我们很清楚的知道，作为慢剧，它是一个故事载体。如果说你把小说所有的东西都拉出来，然后今天再拍的话，你会发现很漫长，说动不动几百万字，少则100万字，多则300万字、500万字。那我们的一部漫剧它其实120分钟的情况下也就是6万字。把它200万字的内容去浓缩到6万字。那你说在这个情况下，AI它会出现什么情况，才会把200万字的内容拉下来，你就分不清主次了，但人可以分辨。比如说发现这个作者这一段是很水的那我们把这些删掉，我们把精彩的部分留下来作为文字的载体。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他写的时候他会让观众去想象，但是半句是直接呈现在你面前的视频，他没有想象空间。举个例子就是说一轮明月，我用四个字来说，那你可能你脑海中有的明月和我脑海中有的明月是不一样的，对不对？但是你做成半句之后，他这个明月它就摆在这里了。你看到的跟我看到的是一样的，我们会把它去尽量改成大家所有人都能接受的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小说叫千人千面，但是动漫不一样。动漫是1000个人读，就是1000个人就这一个画面。所以我们认为AI带不了这个编制的工作，但是它能辅助什么呢？它能够让你快速的去看完这本书。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们如果正常到一个编剧去改这个小说，他得看完200万字，对不对？但现在我不要你看完200万字，你通过AI去提炼提纲，把你这书里面所有的故事全部给整理出来。你可能花30分钟你就能把这本200万字的书几乎看完了。那这个时候你再去想怎么去改，对我们的编剧来说就有一个大大的提效了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才你提到各个岗位的时候，我觉得有一个岗位好像是之前没有过，就是AI画师这个岗位。这好像是一个全新的一个岗位，对吧？对，那这个岗位你可不可以介绍一下他是在做什么工作，什么样的一些类型的人在做这个工作？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所谓的AI画师，他并不是。卡斯AI画师的核心是干嘛呢？是一部剧来了谁来定主角，谁来定配角，谁来定场景。因为所有的抽卡师他不知道，如果每个人都抽自己想抽的那是不是乱掏了，对不对？所以我们在做一部剧之前，我们有AI画师去固定好。说白就把你的所有的男主女主、配角，包括场景给你定好了，定死来。那这个就是AI画师了，他来负责通过AI的方式给你生成出来，然后交给下面所有的抽。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>卡师了解并这些关键的素材包。可不可以再讲讲刚才有提到另外一个岗位叫AI抽卡师。他们一般是做什么样的工作？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>按照文字去把所有的特效，包括一些场景、对话全部抽出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要做好抽卡师这个角色他需要什么样的技能呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他这个是最简单的，因为他这个不需要任何的门槛，只要你懂文字，你懂怎么操作AI这个工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了你就会了。所以最难的其实还是除了前面的这个创作的剧本分精选题，然后AI画师也相对难一点，但抽卡可能是最简单的。然后现在整个这个链条里面，什么样的岗位是最难招聘的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先是编剧，编剧是最难招的。第二个就是研发部的那个难招，其他都还好，其他属于普通工种。因为你看啊那个抽卡师也好，AI画师也好，后期剪辑，这个在我们的生活日常当中是很难常见的一个岗位，他们都很好找。因为我们的理解是好的人才不会在市场上流通的。我们一直坚信这个概念。当你遇到一个人才的时候，他一定不会说在五八同城那不是人才，那要不就被淘汰的。要不就是说正常的一个普通的要找工作的人，有工作经验的人。因为人才是已经在别的公司上班，你想办法让他来你这里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你会通过什么方式去招到这样的人才？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先最直观的点，因为我是一个很直白的人，就首先用钱。因为我觉得要让别人从一个熟悉的环境到一个陌生的环境，你要用金钱去打动人家，而不是跟别人画饼。第二是用我们的共同的愿景。如果说这个人单纯只是钱，那他其实可以选择很多。我记得原来看过一个故事，就是说请那个可口可乐的公司董事长就叫他过来，问他你愿不愿改变世界。大概这个逻辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的逻辑就是你愿不愿意陪我们公司一起开创一个新的时代。在视觉的时代，如果你有这个想法，我们一起过来共事。如果你没这个想法，你只是说想挣钱，那我们不会把它放在一个很高的一个位置。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为对我们来说，我们希望是一批时代的逆流者。因为现在大家还是普遍对AI还是有点抵制。就包括观众也好，市场也好，包括平台也好。就好比如当年从手绘的一个动画时代到电脑时代，你说多少人在抵制，对不对？但最终结果大家也知道，就是说最终的结果我们不管，但是这个过程肯定我们属于逆流者。我需要带一批愿意陪我去逆流的人，去开创一个或者说引领一个新的视觉时代出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，要有一个目共同的目标。如果连这个目标都没有的话，那我觉得对我来说也没什么意义。对，因为我我想做的事情不只是说赚钱那么简单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你能想到一个细节或者一个故事，就是让你突然觉得我真的是在逆流的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么我们觉得像逆流呢？第一，首先我们目前AI是被市场上得到的一个反馈，他其实很多人是给你恶评的。这个恶评不是骂你们，而是说一看就是AIAI味太重了，AI怎么怎么样，AI怎么样。他们仿佛把AI当做一个粗制滥造的一个代言词，他们认为AI生产的东西出来就一定是一个很low的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我们做的人才知道，AI的恐怖在于他每天在进步。可能说你昨天看到的东西和今天看到的东西他不一样。同时我们也很清楚的知道，AI做的东西已经超越了80%的精英。就是你可以理解为传统的动画的一个制作者。他做了十年一个所谓已经算高手了。他现在做的一样东西可能还不如AI强大，就是这么现实。但是因为大家对这个陌生，就好比如对预制菜一样，用AI就赶紧在用于预制菜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你怎么看这个观点？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我个人认为它不是两个相同的一个东西。在对健康来说，预制菜肯定是有一定的坏处。但是ai这个做做出来的动画，它对人体没有害处。举个例子，就是你做顶级作品，那OK你做你的，我们去满足一些。相对来说你的市场空白在于顶级作品之下，S3是顶级的那A方、B方、C方这些市场空白，其实是AI完全可以代替它的，而且做的比你市面上做的那些传统做的还要好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我前段时间看宫崎骏的一个采访，我看完我就意识到这是在哪个问题了。他是两个时代的一个不认可的问题。宫崎骏他现在还在用手就是用笔去画那个线，他的说法是电脑没有温度，画出来的线条才有灵魂。但是现在全世界90%以上的动画产业，它都是用电脑代替的那现在无非是从手绘时代到了电脑时代，然后再从电脑时代到了现在的AI时代。这个过程过渡的期间肯定有点困难。为什么我们叫逆流者？因为这过渡期间是最难被别人理解的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我相信今年乃至未来，AI一定会成为最大的主流，甚至一整个时代都可能是靠AI。就是可能说未来十年、20年、30年、40年、50年，所有你能看到的所有的视觉化，可能1%半、5% 50都可能是AI生成的。我们将会活在一个AI生成的时代当中，这是无法避免的。但我不觉得这是一个不好的事情，因为你电脑生成的东西和你AI生成的东西都不是一样的东西吗？大家最终还是满足所有的观众的一个视觉的一个欲望，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不能说今天你听到AI你就感觉他有问题，或者说你就带着偏见，就觉得他会不会去造成什么影响。不会的。因为当年电脑时代来的时候，所有人都觉得游戏会毁了一代人。那请问一下这一代人被毁掉了吗？没有，所以AI也不会去毁掉任何人，他只会去帮助所有人，并且他能做到是让每一个年轻人都有机会，不管是金钱还是财富，还是在身份。年轻人下一个翻身的风口就在这一块。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实比如说回到100年前，照相机刚出来的时候，其实也有非常多的声音会觉得什么照相机它是对画家的玷污。但其实今天我们生活中各种看到的画面，其实多数是造出来的，它不是画出来的，其实它同样是在满足我们的视觉需求的。大家就非常欣然接受了这个事情，并且也认为摄影是一门艺术了，最贵的摄影的作品仍可以卖出一个天价。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才提到AI可以让所有的人从金钱、财富、身份都可以去实现所谓的逆袭，所谓的翻身。你会想到你身边有因为AI而实现了这样的逆袭和翻身的人吗？有这样的故事吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们这个合伙人就是一典型的一个逆袭。因为我在做这个AI时候，我本身就已经财富自由了。我做短剧包括做小说的时候，我就已经OK了。我其中一个合伙人，他是今年的时候，他们年收入不到30万，下个月他就提劳斯莱斯了，就一年的时间。然后这就是我感觉对他来说就是一个腹肌的变化，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对任何人来说都是对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人家不是网上很喜欢经常说劳斯莱斯这种东西是你要不出生就有，出生没有你基本上这辈子很难了。其实这个就是完成了一个特别大的一个跨越，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这一年从之前的收入的水平到现在可以马上提劳斯莱斯。我觉得就这种巨变会对人带来的冲击，或对这个行业带来的影响。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你有感觉到吗？不会，我觉得金钱只是我们的一个过程，因为我们还是有理想的，我们想通过AI真的是改变一个时代。这个时代不是乔布斯那种说我要改变整个世界，而是改变一个视觉时代。我们的更多的想法是当一个人满足了金钱的欲望之后，他更多的是想要做出名。我们对标是我们想用AI去做一个皮克斯。我们的作品是不只是在中国能够火，我们希望在全世界让所有人为我们的作品欢呼鼓掌，而不是金钱。就这么简单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>皮克斯能够做出玩具总动员，你们到今天其实也做出了非常多破亿的大的爆款。你觉得这些好的内容背后它有共通性吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们分三个层面去做内容。第一个层面是满足市场商业化需求去做做的东西就是很直白爽，为了这个人群去做，比如为了那个18岁的少年，让他在生活的压力当中去减压，对不对？这是一种做法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二种我们会去做技术方面的一个作品。就是说这个作品里面的内容相对来说它是炫技比较多。国内一个电影叫封神，特效特别多，一个已经大家熟知的故事。但是我们把它场面做的特别大用视觉去冲击，就好比如阿凡达，他没有任何的故事内核，它就是一个特效3D全球首部3D这个方面也是我们的一个想法，就是通过AI做大型的一个故事出来。比如我们的计划是做一个叫封神之战，把真正的神魔大战那种大场面定也可以用AI去做出来，大家可以理解为叫视觉盛宴。第三种就是我们想做的叫IP化，内容类似于行。我们也想做一个类似这样的故事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实中国的影视和短剧它出海，我认为它是一个伪命题。他很难出海，因为他的文化太深了，谁会去看你的这个文化。就比如美国的文化，其实我们也看不懂。但是你像美国的超人电影，包括他的那个复仇者联盟，包括一些比较有深度的东西，我们看得懂。像那个泰坦尼克号是吧？像那个猫鼠游戏，这个简单没有大的一个文化，我们都爱看，就因为它是一个简单的故事，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我们中国的影视因为要满足国内市场的需求，导致他太多的自己的那种文化。但我们想说的是围绕一个故事去做，就类似于我也围绕着生与死，围绕人生、围绕社会的一个点去做一部好的作品出来。这是我们第三种走IP这种风向，为这个共鸣感去做一部剧，那我们铺的也无所谓。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我们来说AIGC的带来的点就是在于它可以给我无限试错的成本。就今天去研发出一个电影出来，我说句实话，你没有几千万亿，三个亿你也做不出来。但OK我现在可能只要20万、30万我就能做一部出来。我做一百部也就几千万的成本。那我几千万成本我也不可能说全部血本无归。我在低成本的试错情况下，我能无限做出一个我想要做的一个东西，只要其中一个题材爆了，连本带利全回来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你提到你们一部剧差不多做下来是20到30万，可不可以讲一讲一部剧的成本平均下来是多少？然后钱是花到了具体哪些地方？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前整个市场是这样的，是平均普遍价格在1000块钱一分钟左右。我们家为什么会贵一点呢？是因为大部分人，因为我现实的讲，这也不是抹黑，为了说去快速的去做，那就做的比较粗制滥造，这也是一个问题。不考虑它的一个最终呈现的效果怎么样，他就是为了说赶紧进这个赛道，那我就低成本试错，导致他构成了一种大家觉得原来做的这么垃圾，其实这个就能带出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们平均成本在1500块钱一分钟，我们家要比别人家贵不少的原因在于一个公司出40张图就OK了。我们家要求一定要抽160张以上，在算力成本和人工成本我们会比别人贵。因为我们要求我们的画质一定要做到整个行业的top 1，必须是第一的画质，第一的视觉效果。你要在我这个赛我叫第一。我们不去跟国漫比，我们也不去跟世界去比，我们就跟我们这个赛道的人去比。所以说在这个情况下，我们价格会高一点，这是对品质的要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们理解为好的东西才会生生不息，这种差的东西哪怕省成本。你现在只是说赚点快钱，但是你马上会被这个赛道会淘汰。你付出的越多你回报越高，而不是说你付出越少你能拿到更高的回报，那只是一时或者是偶然的个例。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后在我们成本这一块主要在哪里呢？在一个人工成本占最多，其次是算力、配音、剧本加剪辑，人工是占60%以上。人工之后就是说算力占20%，配音占50%，不到5左右了，剧本占15%左右，差不多一个排列。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>目前的这个生产体系里面用到了哪些AI工具或者AI模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前主要用申诉用的比较多，申诉科技，然后可怜记梦，然后包括banana，还有soa都一直在用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没想到用这个申诉用的最多，是因为什么原因呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为申诉现在目前他做的那个画风我喜欢，仅此而已。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们内部有一个技术团队，就你们的技术团队在为内部开发哪些工具？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们内部开发的工具主要核心还是帮我们提高我们的效率。其实你说开发出什么很特殊的东西，没有。因为我们每个公司有每个公司的工作，他的工作流程和工作的效率肯定不一样。他这个工作其实就是专门为我们公司这种环境做的一些提效的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才提到这个用参数用的最多，那其他的你们同时也会用的原因是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>每一个AI工具都有一个特点，比如我们在做大场景的时候，可能说我用可能用的比较多一点。因为可在大场景这一块的那种细节做的更好一点。我们可能说在记梦这一块，生图的时候用记梦去生的。记梦他做一些东西做的也挺不错的，各家都有的优点，我把他所有的优点全部集中在一起，而不是说固定我今天用一家，我就不用别人家了，是集大成全部在一起的那种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你会在乎每家的成本吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我们认为做这个东西这样的就成本固然是一个公司的一个核心，但我觉得如果因为你的省成本，把你的品质降低了，我觉得没必，我觉得多赚这点钱意义不大。因为我们要走很久很久。我们不想说今年做完了，可能在这个赛道风口来的时候，我们赚了一笔钱。下一个风口要等下一个风口了。我们希望是在这个风口一直做，一直开创。就是今天我做AI match，明天我做AI电影，后年我做AI动画，对不对？我一直通过AI的这个逻辑去做更多的事情，而不是我今天做完这个AS慢剧，我下一个猜到过我咱们再见的时候，我有可能做别的去了，我可能做游戏去了，我不希望是这样的，我需要是我的在这个赛道一直走到底。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实你之前做过很多其他类型的工作，比如网文写手，然后你好像也做过短剧，对吧？那现在你觉得找到了AI mange的这个赛道之后，你很希望它是一个长期主义的事业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>虽然说我做过短剧和网文，其实你听完就应该知道我一直在做内容生意，我一直在做内容。所以说我们需要AI能做下去的原因是什么？是因为我们想AS以唯一一个能够通过平权的方式，让你把所有的文字视觉化的一个工具。我所有的内容其实都要视觉化，我现在有了AI肯定是希望把它走到底的，只有AI能够满足我们所有内容的载体，无非是说你今天是电影还是动漫，还是说短剧，亦或者说是未来的一个所谓的新的一个载体故事它还是视频，它还是视觉，那AS可以解决的那其实你一直在这里面做好了的话，我觉得未来是OK的酱油。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你之前中专毕业之后开始做网文写手，然后你没有什么名校的光环，也没有特别多的这种大家理解的高级人。但是做到今天的成绩，包括你刚才说其实AI慢剧之前，你就已经财富自由了。你觉得自己是做对了哪些关键的事儿吗？取得今天这些成绩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最正确的事情就是很简单。在我一无所有的年代的时候，我一直跟自己讲了一句话。我说人就活这一辈子。如果你不去尝试，不去拼的话，那我觉得这辈子就没了，人生就是活这一辈子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在我很年轻的时候，我就知道一个点，打工是不可能发财的。契机来了就抓住风口。我们做网文，但是也很苦，因为我家条件很普通，很普通的父母一个月就赚几千块钱的一个水平。当时我们接触到网文行业的时候，我们看到别人赚几万、十几万、100万的时候，就别人我觉得这是一个唯机会。那个时候我没有电脑，我就去网吧，每天打字，每天睡醒了就去网吧，一直到第二天凌晨早上出来。因为网费只要十几块钱，我们那个时候包宿可能就十块钱，八块钱就能包宿。那就在那写一天，写完一天就发上去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时我的理解就是我这个人还是比较能吃苦的，我当时很喜欢玩游戏，但自从我接触到网文写小说之后，我就不玩游戏。我给自己的目标是在没有成功之前不准玩游戏。我那一年我是一个网瘾少年的情况下，我一年的时间我没有玩过超过10个小时游戏，我就拼命让自己写小说，写铺了我就换一本，铺了就换一本。最高峰的时候我一天能写5万字。没有，就纯粹手写，写24小时不睡觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么？因为就是因为我知道这个机会错过了，就这辈子就没了。因为就跟你刚咱们刚才讲的，我是一个中专学历，然后没有父母的帮衬，也没有什么所谓的身边谁会带你一把。我们找到一个属于自己的机会，自己看得到的机会的时候，如果说自己不去拼命，那你这个就没了。我认为就没了你像我们这种普通的人，一辈子可能就一次机会。所以我要抓住这个，哪怕并不是说所谓的什么百亿市场、万亿市场，那跟我没关系，我只要能改变我自己的人生就行了，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我当时我们就想说，我入行第一个月我就月入过万了。然后月入过万之后，我用了半年的时间就有年入百万了。我在后面就开了全国第一家是网文线下孵化班。就是我觉得我自己都能写，那我能不能带别人写？我就请了很多想写的人我就教他写了。他写完了给我，我再去给平台赚了钱之后再分钱做一张类似于这样的公司。一路一直做做了做了八年，这个赛道也那个时候还没有算出彻底财富自由。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后做短剧这一块，有短剧大家也知道暴利行业。最开始做的时候，那我们做的时候我们最高的时候是一部15万，一个月的时间赚了七百多万，又做了几部剧。就是说因为我做内容我比较挑剔，我的成本都很低。我二三十万能拍一部，每一部都能挣个大几百万。然后我们做了大概做了一年多，财富自由了，财富自由走了。紧接着再来到了这个AI漫剧时代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时我挺搞笑的，就是大家觉得反正赚了那么多钱，在投资一个这个东西也不贵，是吧？我试，你们这些，你去试，我不出钱，反正一个月几十万，我就尝尝试尝试。试完了之后发现这东西真牛逼，这个东西太厉害了。我们就一路做，做到7 8月份之后，我说all in的原因也是因为做短剧这一块里面，发现短剧变成了娱乐圈了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>短剧大家都知道他原来是一个低成本，就跟我喜欢玩低成本补膏膏回收，我二三十万拍了一部剧，我能赚500万、1000万。那现在变成什么？你不管花多少钱拍，你得需要强大的宣发团队去帮你宣发，你才能挣到钱。这个不是我想要的，这不是靠内容赚钱，这是靠一个明星效益，靠一个饭圈赚钱。OK我那我就不做了，我赶紧all in这个慢剧。因为慢剧我不需要选拔，我也不需要你所谓的演员，我也不用看你任何人的脸色，我只要内容好，满足观众用就行了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>方便讲一讲当时做AI短剧，比如说一年赚到多少钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也不算多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>五千多万已经很多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我这么跟你讲，就是我有一个朋友，就原来跟我一起写小说的，现在是一个很知名的短剧公，叫山海集团。他也特别励志，我们俩都屌丝，我们俩在网红圈里面都赚了几百万上千万的时候。这个时候他花了100 200万的成本，他就是拿初始资金200万，他一年挣了几个亿考短剧，据不完全统计，估计三五个亿是有的的那你想想我费力吧唧一年多我才挣5000万，而且还是靠我疯狂写。那有而且这5000万还是税前税后的话，到手可能说那只有三千多万了，对不对？所以这不夸张这个短剧赛道里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实一开始不管写网文还是做短剧，你都非常的努力。那你会觉得就是在内容行业里面，努力和这种所谓的天分，他们各占什么样的比重？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得这个东西就有点直白的讲，没有天赋的人没有用，再努力都没用，浪费时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么判断自己有没有天赋？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实很简单，我们做这么久的内容故事其实很简单，能不能行？他第一次写基本上就能看出来。如果说你第一次写就感觉让大家看得过去，行，有优找得到你的优点。比如说你这个故事讲的还不错，或者跟风跟的还不错，或者你的文笔还不错。当你找到一个强关联的点是不错的，你就有天赋。如果文笔烂，故事结构烂，想象力不丰富，这三大最重要的点，如果它一个优点都没有，基本上这样就很难了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家都说什么99%的努力加1%的天赋，其实这个1%天赋比99的努力还重要。越成功的你越会发现，天赋真的很重要。努力真的只是说你努力在干嘛，你会得到领导的包括老板的欣赏，然后让你去做一些事，也会让你赚到钱，但是不会让你成功，只会让你生活上通过你的努力，你的品质打动了老也好，或者说是市场也好，他会给你回报的是让你赚到钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你想要成功靠努力不行。因为全世界任何一个成功的企业家也好，包括一个成功的人也好，他不是靠努力能起来的。就比如我再努力，我读书我也不可能考到大学。因为我读书就没有天分。我除了在语文这个成绩特别好以外，我其他所有的数学、英语、化学、物理、地理全部挂科。我就语文，所以说你可以理解为可能口才好一点点，就是很接地气的口才。你会发现相对那些在台上去讲一些专业名词，然后讲的那个很清晰的人我不如他是在讲比喻这一块，就讲一些比较接地气的这种比喻这一块，他们不如我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你会怎么用接地气的方式比喻AI漫剧行业？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是把原来的那个座机变成了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>手机把原来的座机变成了手机。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你可以理解为早些年的我们父辈那一代他用的座机，他是用座机打电话，对不对？没有人能想到诺基亚这个手机出来的时候，没人想到第一个破产的公司是手电筒公司。因为当时诺基亚有个手电筒功能，他出来之后，大家没想到是以为座机会没了，结果座机还活着，手电筒没了。现在我问你就手机是打电话的东西吗？手机可以发微信，可以上网，可以看视频。AI就是这个逻辑。就是你以为AI只能做这个慢剧吗？不他能做游戏，他能做代码，他能做PPT，他能做所有你想要让他做的东西，这就是区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再说回这个AMMG。将由你的团队在几个月的时间之内，从几十人扩张到1000人。我想这应该是一个巨大的管理上的一个挑战。你是怎么保持这个团队的在扩张时候的这种稳定秩序？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为有个点，这里我可能要讲一下，我们想象中它可能说是一个人才管理。它更多的是一各工厂管理逻辑，员工组长主管所有人把任务分发下去，OK做完事你就可以下班。就除了他的管理成本没有我们想象中那么高。不需要说像很多大企业一样，有五花八门的无数部门，有不同的部门负责不同的客户。没有，你可以理解为他就总共就三个部门，一个我们的叫行政部门OK然后一个就是股东部门去上班的部门，然后还有一个就是我们所谓的一个高层，就是说高层中层一些人的部门没了。其实没了不复杂，它毕竟是一个工厂逻辑。那可能说我未来要涉及到更多领域的时候，当然我也同步在聘请很多专业的人才去辅佐我，去帮我把这个公司管理的更好。只不过前期的原因在于不需要通过他们才能把我这个公司运转下去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你会怎么描述咱们公司内部的这种工作的气氛，组织的文化。比如说大家加班多吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实加班不多，我们这样的逻辑是所有的普通员工全部不加班。所有的组长包括组长以下的人全部每天不加班。然后组长以上的人加班。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们按点下班的原因是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先他们收入并不是特别高，他们收入可能说加社保就5000块钱一个月底薪，一年就五六万的年薪差不多。在这个情况下，我觉得不要去占用他的夜间生活。我觉得让他感觉到我每天过来上晚班，从下班那一刻他就自由身，他就想去玩就去玩。他有他的生活，有他的音乐生活，有他的活动，有他的朋友，有他的家人，而不是说只有工作。但相反，为什么组长以上的主管、负责人，他们一定要加班呢？因为他们拿高薪。拿到高薪的情况下，你就没有所谓的朋友家人、亲戚，你这个时候就属于要为公司去付出，这是我们的逻辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>浅踩的时候，你好像还有提到一个点，就是讲说让大家每天只工作8个小时。是因为咱们也是在做内容、做创造、做创意，所以人的脑子也不能工作太长的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这也是一个原因吗？其实我们每天工作8小时里面，其中有2个小时是午休。其实工作16小时，因为我觉得是我是从底层走出来的人我原来上班的时候也是从最早的那样务员当过，搬运工当过送外卖的也做过，然后包括跟别人卖房子当中介，我什么都做过。你可以理解为所有的普通工作我都做过。我理解每个人的心里想法，我希望他在我公司里面要不赚到钱，要不感受他是一个他觉得这个公司挺好的，我每天只要做几个小时的活我就能下班是吧？这个公司还挺有人性化的，我希望他是对这个公司有好感的。我不希望他说在公司一定要开心快乐，谁工作起来会开心快乐的，我不觉得工作是快乐的事情，但我要让他再对比其他人来说，他会觉得这个公司还挺好。够了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天录播课其实是礼拜天。然后在开录之前是我有看到你们在那边准备整个设备等等环境的时候，也有蛮多同事在帮忙的。所以大家周末是管理团队也是不休息的，是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不休息。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你刚才说到一个点，我觉得很有意思。就是你说我们365天都不休息，因为不知道风口什么时候要结束，到时候风口没了，想挣这个钱都挣不到了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我们一定要有这种思维，但不一定说会发生这个事要把每一天当做最后一天来对待，而不是说我今天想着我今天挣了钱了，我可以休息一下了。不行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是你挣了很多钱了，你还把每天当做最后能挣到钱的一天来对待。这个心态是怎么做到的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我认为可能说对我来说，我其实我不是为了挣钱，挣钱对我来说其实没有任何意义，为什么呢？因为我首先我自己不。花什么钱呢？我钱在我老婆那里，我也没有对什么，我又不买表，我喝个饮料也是喝1.5块的这种。我就想要说在这个机会来了，我希望是能够打造一个男人的梦想。有没有可能我有一天上市了，或者我打造一个新的全新的AI概念股出来，我希望是做一个品牌出来，所以我会不停的鞭策自己。但是下面的除我之外，所有人他们都想挣钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实就这个逻辑，目前1000人的团队其实也很大了。你会担心这么大的一个团队出现一些什么样的风险吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个东西我觉得不存在有什么风险，核心是什么？内容驱动生产，而不是说生产驱动内容。就是我们内容这一块OK了，谁来生产都一样，不担心所谓的任何的风险。可能你唯一的风险就是可能说里面有可能说打架那个是属于全世界的公司都会担心的事情，都是避免不了的。但是几乎现在的时代是很难出现这种事了，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你怎么看竞争呢？因为刚才我们提到这个22部破亿的漫剧里面有五步是酱油，但其实还有17部是来自竞争的。这个友商们你怎么去看待这种竞争？大家会有差异吗？还是其实蛮同质化的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想表达一个观点，我从来不认为这个还晒有同行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你从来不认为这个赛道是有同行的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么这么说呢？因为我认为大家还是以故事为主。我今天我酱油想的故事跟远征你想的故事不一样，那我们就不是一个赛道的一个，对不对？因为你不管做的画风跟我是不是一样的，我们故事不一样。就好比如说做艺人之下这个动漫的合作，狐妖小红娘他们是一个赛道的吗？他们公司会彼此敌对吗？我觉得不会。再换句话说，你觉得蜡笔小新和柯南的公司是敌对公司吗？是同行是冤家吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为内容行业是非常百花齐放的行业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他永远抢不走我脑袋里的东西，我也抢不走他脑袋里的东西。那无非说可能我赚了100万，他只能赚50万了。因为市场就总共150万，对不对？但是这个也没关系，这个我觉得也不是什么竞争。因为你这个内容好，你就能挣100万。你这个内容不好，哪怕没有他，你也挣不到100万。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在人才的竞争，或者说大家还是要去平台上去买量，在这两方面还是会遇到同行，你怎么去看待这样的竞争？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>技术这一块我觉得也没什么大不了，因为未来技术是平权的，全世界在AI使用的一个技术最终会平权的。只不过我先快了一点。再比如我先玩这个游戏，我先通关了，我先通过第一关，我现在打第二关。你可能在第一关的中等大概这个逻辑，但你最后一定会跟我打到第二关一定的时间问题。所以说不在乎所谓的竞争，我的人到你那去了，你的人到没意义，因为大家做的东西都一样，只是换一个岗位做重复的事情罢了，对不对？至于做买量这块更没意义了，为什么呢？因为你的内容不好，你就是赔钱，抖音也不会让你亏。要内容好才能买量，内容不好是买不了量的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才一开始其实你提到你们也在考虑融资，但我理解其实你们蛮赚钱的。为什么要融资呢？是出于什么考虑？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一个是我想上市，我想成为全世界的一个AI应用的概念股。大家现在都在炒AI股，但没有人做这个应用这一块。就真正用AI赚到钱的公司，好像大家都是说卖芯片的赚钱，卖技术赚钱，卖显卡的赚钱。但没有人说我今天用你的一个AI的模型，我去赚到钱，而且赚到大钱的没有，那我想成为一家这样的公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二点，我融资的原因，不是因为说我今天要写我未来我想做的事很多。因为我们的明年的计划是，首先我们要颠覆整个国漫市场，把国漫市场搅一搅。第二个点是我们想去走出海。我也想做一个真正的大东西出来，而不是今天我是为了政治点新苦费，甚至点窝囊废，我就做一些我可能说觉得就没有很大影响，不可能会让全世界人瞩目的一个东西。我们很现实说现在做的慢剧，其实就是为了满足观众的一些解压，你可以理解为它叫解压视频。但是我想做一个寻梦环游记，我也想做一个这样的东西出来。但做这个东西肯定是需要大量的一个人力物力精力财力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有就是我们公司想要做更多的IP的一个生态化。就包括我未来要做骨子文化，我们要做手办潮玩打造自己的IP我们要通过AI去做游戏，这也是我要做的事。我做的事太多了，想法虽然好，他一个个落地。那我们可能说想通过融资上市的方式去把这个公司的越做越大。而不是说今天我只是做一个慢剧，我希望下次我们再去聊的时候，我可能说我们俩在一起去把整个AI的全球布局化了，就是各个叫AI走进各行各业，大概这个逻辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>永远相信美好的事情即将发生。其实在今天很多人都想冲进AI漫居来去赚点钱。你觉得需要具备什么样素质的人才能在这个行业里面首先活下来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其次赚到钱。首先我觉得它需要有内容，内容是驱动者，你可以理解内容，就是发动机，连发动机都没有你这个车怎么开？第二你要有技术，技术就是你可以理解为这个车的外表，你外表不好看谁会买你的车。第三个点就是说主要是老板的一个执行力，如果老板是一个犹犹豫豫的人，这里想一想，那里想一下，这里不敢下决心，你不敢下决心，那这个也不行。但是核心要求是两个点，内容加技术。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是两个最关键的点。我相信2026会是非常火热的AI漫剧的一年。你觉得这一年行业可能会出现最大概率的变化有哪些？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很简单，明年就是AI会出现很多一个又一个颠覆所有人想象的一个产品出来，就包括我们也在做一个绝密的一个事情，特别绝密。我们要等到过完年才能宣布，对，而且我们已经成功了，而且我们对市场一定会造成一个很大的一个冲击。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也是说对AI慢剧市场还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对整个市场AI这个市场无法想象AI还能做大概。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个逻辑充满了好奇，期待到时候能够在十字路口来首先和我们公布这个消息。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一定的那刚才我们说未来2026年一年，如果是看三年，你觉得这个行业最可能出现的变化有哪些？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得三年之后，所有的大部分你能看到的一些视觉真的会被AI代替，包括你在电影院线都能看到AI做的东西。今年我不敢说明年，我不敢说后年。可能你看一个电影，你在看完之后，别人告诉你可能有十几分钟全是AI做的。你可能这怎么可能可能会有这种发生，就是AI会将会搬到更大的舞台，而不只是说所谓的一个在所谓的抖音快手这种平台里面流转。它会进入更大的市场，更大的舞台，让更多人去知道AI的强大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>目前有很多的别的创业公司在给AI慢剧或者ai短期去做产品做工具。我不知道你们有没有用这些产品或工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不用，一个都不用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那什么样的工作室或者创作者在用他们呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说白了我理解为就是没有技术的团队就会用。因为没有技术团队直接用他的工具一键生成，快速的效率的去把这个事情落地下来。大部分是初创团队，可能十个人八个人的团队就会用的比较多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果你是投资人的话，你会觉得刚才我们提到的这些做工具做产品的公司，他们有投的价值吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一点都没有零价值。我认为它有两个核心最大的风险。站在你作为投资人的角度，你去思考一个问题。第一，它是依靠去接别人的大模型开源进来的，对不对？如果有一天所有的大模型不让你接了，你是不是这个公司就已经价值了？这个风险虽然说概率低，但不能代表没有。第二个也是最关键的问题，就是如果有一天今天你这个工具用的特别好，大家觉得这家工具用的特别好，我作为申诉可怜寂寞维度，包括那个海螺娜娜，我们作为这个公司，我知道了是不是说对我来说，我只要花五天的时间，我就能把功能给你升级到一模一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你的优势是什么？你的核心竞争力是什么？他都不是卖铲子的人，他是铲子的二手交易的一个中间商。我花十块钱把铲子卖过来，然后我以12块钱价格卖给你。但是12块钱我帮你干嘛？我帮你把铲子包装一下，让你更好的使用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者说简单来说就是大模型是卖铲子的工具是卖什么的？卖服务的。我教你怎么用铲子，我给你写一个说明书，然后把这个铲子卖给你我加两块钱我卖给你那这个东西这样的对于初学者来说是有一定的帮助，我认为。但是对稍微你在这个行待了一个月2个月的人，你知道自己研究一下，你会发现没什么作用，就这个逻辑。所以我认为工具，目前市面上任何人做的工具不具备有投。的价值，因为他没有核心竞争力，他甚至连用户都不知道怎么抢，这是我的一个理解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，今天非常开心酱油能够来做客十字路口。我觉得你的很多观点，包括你的故事，我觉得都可以给人蛮多的启发和振奋。感谢酱油，也祝祝你的事业可以一帆风顺。谢谢，希望你能够有机会再来十字路口。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，谢谢远征哥。好，拜拜。</p>]]></content:encoded>
-            <pubDate>Sun, 21 Dec 2025 16:00:00 GMT</pubDate>
-            <guid>6944f3729f70e5d6b329d02d</guid>
         </item>
     </channel>
 </rss>

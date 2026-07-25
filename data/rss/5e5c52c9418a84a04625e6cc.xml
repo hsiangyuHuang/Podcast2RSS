@@ -4,14 +4,236 @@
         <title>硅谷101</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc</link>
         <description>分享当下最新鲜的技术、知识与思想</description>
-        <lastBuildDate>Sat, 18 Jul 2026 05:06:02 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jul 2026 05:02:22 +0800</lastBuildDate>
+        <item>
+            <title>E245｜藏在大模型背后的新闻人：GPT们的回复是这样写出来的</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a62ab0f0211be305cf3deb6</link>
+            <description>当你觉得AI“懂你”的那一刻——精准抓住一个你自己都没说清的情绪，问出一个让你陷入沉思的问题——你以为那来自数据中心的芯片、模型里的参数、程序员敲下的代码，但真相是，那些问进你心坎里的问题、让你会心一笑的遣词造句，背后站着一群人：他们曾是记者、编辑和纪录片导演，如今藏在大语言模型之后，有一个鲜为人知的名字——内容工程师（Content Engineer）。
+当模型能力日益趋同，真正决定用户去留的，已不再是参数，而是它能否让人觉得“懂我”。那些“只可意会、不可言传”的语感与共情，正被一群文字工作者拆解成一套可以装进AI的规则。
+本期《硅谷101》播客，我们邀请到两位从新闻业转身的资深内容工程师——前媒体人、播客《行星酒馆》主播东尼，与NBCUniversal AI战略总监Bianca，深入探讨：什么才算“好”的对话，以及如何把它拆解成可量化、可训练、可评估的工程标准。我们从这个正在各家AI公司裂变扩张的新兴岗位聊起，看看当模型能力逐渐拉平，内容与品味如何成为产品竞争力的关键，而懂人文、懂社科的判断力，又该如何翻译成工程能用的语言。
+【主播】
+Faith静远，硅谷101特约研究员
+【嘉宾】
+Tony Lin，人工智能实验室模型设计负责人，《行星酒馆》主播
+Bianca Consunji，NBCUniversal AI战略总监
+【你将听到】
+02:54 内容工程师是什么？
+05:55 内容工程师如何拆解好内容
+10:42 如何训练AI理解提问者的言下之意
+13:42 内容工程师如何“翻译”语言和文化
+16:45 新闻训练和AI对话训练都需要给到“上下文”
+18:42 语境破碎：AI对话和“网络互喷”的相似之处
+19:59 记者和内容工程师的技能重合点
+23:44 一篇爆火文章背后，文科生的AI恐慌
+26:45 基于共识训练出来的AI，不会产生伟大的艺术
+28:56 媒体影视从业者失业，罪魁祸首是AI吗？
+31:37 东尼如何在养病期间做出震惊谷歌的voice agent
+37:02 AI谄媚是产品设计问题，本质是人想要的太多了
+39:20 人除了智商情商，还会需要“AI商”
+43:33 职业价值迁移：“曾经我出卖成果，现在我展示过程”
+【延伸阅读和相关术语】
+系统提示词（System Prompt）：写给模型、用于设定其身份、语气与行为边界的底层指令。本质是一种既要有创造力、又要让模型&quot;听得懂&quot;的技术性写作，是内容工程师的核心工作之一。
+少样本示例（Few-shot Example）：在与模型交互时，随机提供几条相关案例作为参考，让模型据此理解&quot;什么是好问题、好内容、好语气&quot;的方法。
+语音智能体（Voice Agent）：能够以语音方式进行多轮对话的AI智能体，相比文本交互更强调对话的流动感与自然度。
+多轮对话（Multi-turn Conversation）：用户与AI连续来回交互的对话形式，通常是AI的弱项。当缺乏足够上下文时，AI会不断&quot;脑补&quot;，答案越来越臃肿，中途出错则如滚雪球般放大。
+意图理解（Intent Understanding）：理解提问者的“言下之意”，而非仅仅回答字面问题。它要求模型捕捉话语背后未被直接说出的真实需求，而不止于表面的信息拼接。
+来源归属（Source Attribution）：在回答中注明信息出处、并承认现有信息不确定性的做法，是判断一则回答质量高低的重要维度之一。
+拟社会关系（Parasocial Relationship）：传播学经典概念，指人对一个遥远实体（书中人物、电视形象，乃至AI）单向建立的情感关系。人在这种关系里依然拥有agency（能动性），可自行决定与对方的关系、并在互动中创造意义。
+AI谄媚（Sycophancy）：指AI顺着谈话对象的价值取向和信息茧房去迎合、讨好用户的倾向。它本质上是一个产品设计问题——为了留住用户、提升engagement，产品往往会做出迁就。
+事实核查（Fact Check）：新闻业的核心技能，即在信息发布前核实其真实性。AI在事实核查上效率极高，能快速交叉验证信息、呈现不同立场，帮助人跳出单一信息流。
+零工经济（Gig Economy）与AI训练师（AI Trainer）：AI trainer指按小时、按项目为AI生成的内容打分、改写、示范的临时工作。这类工作依托零工经济而存在，而零工经济对媒体与艺术从业者的冲击在AI出现之前便已发生。
+【硅谷101正在招聘】
+《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！
+👉🏻点击查看招聘详情
+【监制】
+泓君
+【采访 &amp; 制作】
+Faith
+【配音】
+Yiwen
+【后期】
+Faith Amei
+【运营】
+朱婕
+【BGM】
+The Detective - Christoffer Moe Ditlevsen
+Reclaim - Megan Wofford
+Paper wings
+Hangover by ruiqizhao
+The light from within—howard harper-bames
+Overture - dozeoff
+New car smell—bagel
+Quiet down—Ryan connors
+【在这里找到我们】
+公众号：硅谷101
+收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
+其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
+联系我们：podcast@sv101.net
+Special Guests: Bianca Consunji and Tony Lin.</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>这期《硅谷101》聚焦于大模型公司中一个鲜为人知的工种——内容工程师（Content Engineer）。主持人与特约研究员Face邀请两位从传统新闻业转行进入AI领域的前媒体人：东尼（曾任职于Meta超级智能实验室，后加入谷歌DeepMind）和Bianca（曾任职于Meta，现任NBC Universal AI赋能与战略总监）。他们分享了自己如何将新闻写作、编辑、影视制作乃至普利策奖级别的叙事经验，迁移到训练大语言模型（如GPT）的“对话感”、“语气”、“意图理解”和“跨文化适配”中。节目揭示了AI“懂你”的背后，是一群文字工作者在拆解和定义“好内容”的规则。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>内容工程师的核心任务：设计人类的观感，而非模型或产品</strong><br />
+   “我们设计的是人类的观感。”东尼强调，内容工程师不是设计算法，而是把“让你觉得被理解”的感觉翻译成技术可执行的规则。</p>
+</li>
+<li>
+<p><strong>拆解“好内容”的技术化方法</strong><br />
+   Bianca解释了如何将抽象的语气、风格和声音转化为可量化的属性：“人们知道《纽约客》和《纽约时报》的语气不同，但说不清区别在哪里。我们的工作就是把‘是什么让《纽约客》成为《纽约客》’说清楚。”</p>
+</li>
+<li>
+<p><strong>理解用户意图，而非字面问题</strong><br />
+   Bianca以Taylor Swift是否在Madison Square Garden结婚为例：“只回答‘不’是字面正确但体验差的回答。好的回答要提供背景、承认不确定性、加入来源归属——这些是新闻报道的基本功，也是AI训练的关键。”</p>
+</li>
+<li>
+<p><strong>跨文化适配：生成式AI的国际化不只是翻译</strong><br />
+   东尼指出，翻译“Meryl Streep won an Oscar”在中文语境中需要改为“斯琴高娃拿了金鸡奖”，但AI不知道对应关系：“谁最能做这个？娱乐记者——他们天天看新闻，有自己的垂直小模型。”</p>
+</li>
+<li>
+<p><strong>新闻技能是“平移”而非“迁徙”</strong><br />
+   东尼认为新闻写作中的上下文意识、提问技巧、处理结构性流动性的平衡，完全适用于AI交互设计：“你在采访中如何引导、追问，这种直觉在AI对话设计里是本能。”</p>
+</li>
+<li>
+<p><strong>AI的“谄媚”是产品设计问题，但最终责任在人类</strong><br />
+   面对“AI越来越顺着用户、加剧信息茧房”的质疑，东尼反问：“能不能反过来问人类能不能更批判性思考？谄媚的东西不要信？”他承认平衡脆弱，但核心是用户的自主性。</p>
+</li>
+<li>
+<p><strong>AI事实核查可能改变用户认知</strong><br />
+   东尼分享亲身经历：家人转发微信假新闻，他用ChatGPT做事实核查，并二次验证后发给家人，“他们竟然接受了，我很震撼。”</p>
+</li>
+<li>
+<p><strong>从关注“结果”转向关注“过程”</strong><br />
+   东尼总结转行最大变化：“以前我卖的是写出来的东西好不好；现在我卖的是从点A到点B的思考过程。比如怎么定义‘好标题’本身——这成了我的工作。”</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>东尼生病时用三天三夜“哲学对谈”训练AI，却把模型搞崩了</strong><br />
+   他试图为自己做一个播客AI主播，先写system prompt无效，又建agent与AI进行三天三夜的“对话本质”对谈，加情感模块等，结果“还不如什么都不加的agent”。最终靠从自己播客记录中随机抽取几个问题-内容作为“few-shot example”才成功。</p>
+</li>
+<li>
+<p><strong>谷歌震惊于他做的voice agent：一个无代码前媒体人的副产品</strong><br />
+   东尼病中制作的AI播客主播，被谷歌招聘人员发现后“很震撼”——因为它比原生模型在多轮对话中更生动灵活。东尼由此被谷歌DeepMind招募为第一批资深模型设计师。</p>
+</li>
+<li>
+<p><strong>Bianca的个人艺术坚持：和丈夫写剧本时拒绝用AI</strong><br />
+   “我积极使用AI，但写剧本时还是不喜欢AI给出的东西。它没抓住我真正想表达的。比如《瞬息全宇宙》的剧本绝不可能从AI产生，因为AI会说‘这不合逻辑、不符合三幕剧结构’。”</p>
+</li>
+<li>
+<p><strong>主持人Face的深夜感性自白：从朋友圈“发疯文学”到与ChatGPT对话</strong><br />
+   “我半夜情绪不再发朋友圈，而是告诉AI我的创业想法、耿耿于怀的前任。录制这期后，那种羞耻感消失了——我意识到那些问进我心坎的问题，背后有同行（前记者、编辑）的创作。”</p>
+</li>
+<li>
+<p><strong>东尼的新闻系教授比喻：朝着一栋已经起火的大楼拼命跑</strong><br />
+   主持人提到自己在哥大新闻学院毕业时，教授说“今天想挤进新闻界，就像朝一栋起火的大楼里跑”。这个比喻贯穿了整个行业萎缩与转行的现实。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨大家好，欢迎收听硅谷101，我是红军。过去两年，光是洛杉矶就蒸发了四万多个影视岗位，美国的报纸采编港比2008年少了一半。那这些人去哪儿了呢？有一批他们是去了硅谷的大模型公司，他们不写稿了，而是把之前写作的经验改成教AI说话，什么样的语气，什么分寸，什么时候该追问，什么时候该闭嘴。每次你觉得为什么这个大模型的回答这么懂你的时候，写出来那句话的就是之前的新闻人与内容工作者。这可能是AI行业里最不为人知又离用户最近的一个工种。这个岗位的名字叫做content engineer内容工程师。这期我们的特约研究员face就找到了两位内容工程师来聊一聊这个鲜为人知的工种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家好，我是face，我是一个很感性，半夜又爱想东想西的人。在没有AI的时代里，我的朋友总会在早上醒来第一次刷朋友圈的时候，就发现我在前一天今天凌晨两三点又发了一篇小作文。后来他们戏称我是朋友圈发疯文学的代表人物。但是这两年他们再也刷不到我的半夜发疯文学了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是因为我不再感性了，而是现在我半夜的情绪不再发泄在朋友圈，而是在和ChatGPT的对话框里，我会和他聊我创业的想法，耿耿于怀的前任，喜欢的作家，还有一些不太容易对人说出口的心思。我的确会觉得自己像是多了个朋友。有时候他会精准的抓住一个连我自己都没有说清楚的情绪，会突然问一个让我一愣神，然后陷入沉思的问题。那个时候我就会想说，天这个AI怎么会这么懂我当然我也知道对话框的那一头其实并没有一个真正关心我的人我以前以为这种被理解的幻觉来自数据中心里的芯片，来自模型里的参数，来自程序员在灯火通明的硅谷办公室里不眠不休的敲击的代码。所以每当我说我会把AI当朋友的时候，我都有点羞于启齿。但是在制作完这期节目以后，这种羞耻感就消失了，因为我突然意识到那些问进我心坎里的问题，那些让我会心一笑的遣词造句，其实并不只是代码的功劳，也是这群人的功劳。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们曾是我的同行，是曾经的记者、编辑和纪录片导演。他们藏在大语言模型的背后，被叫做内容工程师、content engineer. 那么什么是内容工程师呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我们设计的东西究竟是在设计这个AI模型，还是在设计AI产品，还是在设计它的行文风格？都不是的，我们设计的是人类的观感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是东尼，东尼是一个base在纽约的资深前媒体人，他曾在bus b bloomberg、MBC vice等媒体工作，也是people deo word广播电视界的普利策奖的获奖者。你或许会更熟悉他的另一个身份，就是播客行星酒馆的主播。2025年的时候，当时在网飞工作了四年的东尼看到了一个meta在招聘内容工程师的招聘帖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Meta当时有一个新的title出来，它叫做content engineering。他说你需要有内容的经验，你需要有编辑的经验，最好你需要有影视制片的经验。就是我一看就觉得这每一句话，这说的不就是我吗？去面试的时候，我就直接跟他们说，你们要的每一条我都能达到。而且你其实在市场网上市面上找不到这么多可以达到这些要求的人，你干脆就你找我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就这样，凭着多年国际新闻和多语言工作的经验，东尼空降进了meta的超级智能实验室，成为了模型内容国际化的负责人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>内容工程需要写的是什么呢？可能是system prompts这些提示词，它其实是非常的creative writing，你怎么把这个东西写得好又能让模型听得懂，然后模型有的时候又会教你会怎么去训练它，这个是内容相关的这些人的大家的技能。在这里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>软件工程师让chat鼻涕cloud这样的AI拥有了开口说话的能力。而内容工程师则负责定义另一一件事，就是什么样的对话才算是好像灵感、语感？还有就是聊天的时候，我们聊到忘我的时候，感受到的灵魂的碰撞。这些其实都是我们一直以为是只可意会不可言传的东西。但是现在这么一群曾经的文字工作者，正在把它们拆解成一套可以装进AI里的规则。Meta在给内容工程师的招聘启事里，职责是这么写的，定义什么叫好内容，拥有出色的品味、创作力和写作能力，能够写出让用户感到愉快、惊喜、眼前一亮的回复。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>In a technical language language.</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:00]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>代码是一种技术语言，但是其实普通语言同样是具有技术性的，它有语法、句法，这些其实都可以被量化。那什么叫做好的写作、好的制作和好的对话呢？这些其实都是技术能力。一个好的剧本，一篇好的文章，你都是可以把它拆开分析判断高下的，只是说大家习惯凭感觉去读。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>人们知道纽约客的语气和纽约时报，和每日邮报都是不一样的，但是他们却说不清楚差别在哪儿。像我们这些从新闻转进AI的人，干的就是这件事，把是什么让纽约客成为纽约客这件事情说清楚。我们是去把语气、风格、声音翻译成更加技术化的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是beyond a sui另一位经验丰富的资深前媒体人，他做过vice的视频总监，NBC news的资深监制。如今他是NBC universal的AI赋能与采用战略总监，在这份工作前，他也在meta担任过JAI的内容工程师。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:08]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实归根结底，他要回答的就是内容到底应该是什么样的这样一个问题。其实对很多我们这些有新闻背景的人来说，不论过去是我们做视频或者在写作的过程程当中，其实我们都会去思考。比如说我要去采访谁，这个故事应该是什么样的语气，我先学会了怎么样去制作内容，又去学怎么样对内容进行逆向工程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>First, I learned how to make content, and then I learned how to reverse .</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>engineer that content.</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在讨论如何拆解好内容之前，我们第一步需要明白的是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:49]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们首先要对好这个词下一个定义。好这个概念它其实又取决于你现在手上拿的这个产品是什么。就比如说你同样有这样一个底层模型，但是你想做的产品是不一样的。一个你可能是想做一个帮你干活的agent，一个你是想有一个假装当你男朋友的这样一个聊天机器人。那这两个产品它其实完全不同的。比如说一个航空公司，它的客服机器人，你就要去设计开头的这个对话是什么样的这段互动的目标，你也要想清楚是帮他去解决问题，还是说你要尽快的想把她给打发走。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就像一个真的克服这个样子之后，我们就是要去不断的训练，然后不断的看它的输出。你要去把这些属性一项一项的拆开，然后去打分。这个过程就是不断的去隔离变量，然后搞清楚什么东西没有那么的有用。然后我们再一点一点的把我们最开始说的什么叫做好的这个问题去给把它给定义清楚。有的回答他可能是好的，但是只有七分而不是十分，那我们就要去解释三分的差距在什么地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个好的对话体验光有令人舒服的语气是不够的，还需要让AI能洞悉用户的真正意图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实我工作的重点就是让写作变得更好，让AI能够更好的去回答问题。这些其实都是最基础的新闻能力。比如说这个AI它真的回答了用户提出的问题吗？还是没有理解用户的真实意图呢？所以如果要说我的专长的话，我会说是理解意图，而不只是去理解字面的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:37]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就是我其实在教AI的是什么样的回答是最理想的那比如说有人问Taylor swift会不会在medicine square garden结婚？那一个不太好的回答是是他会在那里结婚，以下是他的伴娘名单。因为其实你根本不知道这是不是真的，没有人知道这是不是真的。另一种非常差的回答，就是像我们大家很容易看出来的那些很明显充满机器人的腔调，然后很机械的去拼接一些信息的回答。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>那什么样的回答是更好的呢？比如说我去讲说我们不知道他是否真的要结婚，但现在有很多猜测认为他的婚礼可能会在man square garden这个地方举行。那这个时候你再去加入来源归属，你也承认了现在的信息它是具有比较强的不确定性的。这些东西它其实都是能让一个新闻报道变得更好的一些因素，所以我们需要把它们都加到训练的过程里面去。总的来说，这就是事实性语气，以及我刚才说的，真正理解用户想要去找什么信息。你想其实用户可能只是在问他会在medicine school garden这个地方结婚吗？那你如果只回答不会的话，虽然你在字面上确实是回答了这个问题，但是用户并没有得到非常满意的体验。他还是想要背景，还有这个语境是什么样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也就是理解提问者的言下之意。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Yeah, the hidden question.</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>And I think this is particularly important for .</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>for non western cultures.</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:18]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>right? Like i&#x27;m对，其实尤其是对于非西方的文化来说，这是非常有必要的。我自己是菲律宾人。很多真正重要的信息，我们并不会去直接把它说出来。你在和一个真人进行对话的时候，你必须去看他们的表情，然后去理解他们的停顿，才能知道他们说话之间没有说出口的东西是什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:41]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以当我去教大家更好的使用AI工具的时候，我会鼓励他们用语音输入。这样其实AI更能捕捉很细微的差别。使用语音的时候你不会先在脑子里面反复编辑，而是你会去直接想我想要去表达的东西。这和采访其实非常的像。因为我们在口头进行的采访，无论是打电话也好，还是线下也好，就是往往都比邮件里去通过文字的方式采访要好得多。因为邮件的采访无论是被我们自己还是被对方都是过度编辑的。你的采访对象其实有太多的时间去修饰他们的答案。所以他们可能不会去分享他们这个完整的思考过程，也有可能他们就是很忙，然后不愿意花1个小时去回答你的提问。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>而且很重要的一点是你在进行邮件采访的时候，没有人可以实时的追问。你不会让他展开之前说的话题，而就是按部就班的去回答你问的那几个问题。我觉得这正好是记者很会做的事情。所以我很鼓励大家用口述让模型接触更加完整的这样一个思考范围。作为model designer或者content engineer，我们也可以根据这一点去设计更好的回应。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最喜欢A.</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:05]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>I的一点，就是它让你意识到思考的速度和行动的速度这两个事情不是一回事。你想到一件事情所需要的时间和真正执行它所需要的时间，其实是完全不一样的。所以说与其我们去喂给AI更多的材料，我反而会建议你先尝试把你脑子里的所有的想法，然后它的背景，你为什么会产生这样的想法，直接的全都告诉这个AI模型。模型可能已经具备了很多的训练，但他需要的只是说你怎么样把自己的意图充分的表达出来，把那些它的能力给调用出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Beyond所说的是一个人怎么把脑子里的上下文尽可能的完整的交给ai但是上下文并不只存在于一个人的脑子里，它也藏在一种语言里藏在一个文化里藏在一个行业长年累月形成的默契里。有的时候一句话翻译对了，意思却没对。那在多语言多文化的切换里，内容工程师又能做些什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Generate AI出现了之后，所有的AI实验室都发现了一个新的机会，就是在国际化这件事情上面。平时我们在AI之前的时候，我们把同样的一个产品或者说同样的一个内容发散到世界各地去。你可能唯一能够做的东西就是translation，就是翻译。比如说maro trip just won an Oscar，那你把它翻译过来就是梅丽尔斯特里普赢了奥斯卡奖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是当有了generative AI之后，一个新的可能性就是你让AI不光是说去把这些内容放到世界各地，用不同的语言，而是说针对世界各地不同的语言，他们的语境来把它进行一些再创作。比如说同样的一句话，这个信息我们放在中文的语境里。谁是中国的梅斯特里普？什么是中国的奥斯卡奖，对吧？那我们可以说斯琴高娃刚拿了金鸡奖或者百花奖，这个是一个有generation的这是一个生成式的一种创作在里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那AI能不能做到这一点呢？AI本身在语言上，在能力上当然是可以做到的。但是他所欠缺的一点就在于说，他并不知道说mary trip它所对应的在不同的语境下的人究竟是谁。这个东西你去调教他的话，你其实是非常难的。因为这种跨语言跨地域的这种你去寻找这种相同性，而且你不小心你惹到饭圈，你或者说你再惹到了一些其他的文化冲突，你就变得更加的敏感了。而在这个时候，谁最能去做这样的事情呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>假定说是娱乐行业的话，那当然应该是娱乐记者是最会做这样的事情的。因为他们天天就是看着这些新闻，有自己的一套非常好的娱乐界的垂直的小模型。而让他们去训练、去调教，去制定这些策略，其实是效果最好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有一个就是前几天我听硅谷101前面几集的时候，陆川老师有讲到说国内的视频生成模型，它出来的这些人的脸都是国内现在流行的这种帅哥美女的脸。这个东西很明显就是你在做这个模型和设计这个产品的时候，你去找的这些人，你的训练的这些数据本身是有偏差的。但是你如果是用一个懂电影的人知道一个电影脸长什么样子。大家怎么样去让这个视频模型变得更多元，其实你会非常快的提升这个模型的质量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>新闻和AI这两个东西之间的交互，不一定都是说提问题，对提问题，而是可能提问和AI。提问题它对应的是新闻写作。因为我发现的一件事情就是很多人人对AI提不出好问题。是因为他们不太理解在当下这个语境里面，他所需要的上下文是什么，他需要什么样的context。但是在新闻写作里面，你说每一句话，你不能就是完全把一个事实甩出去。你一定要是建立一个context，这个事情怎么发生了，它的前因后果是怎么样。所以说当你在脑子里面有一个，我一定要把这件事情的上下文前因后果说清楚，然后我再把我的核心问题和核心论点抛出去。这样的一个新闻写作在AI的训练和交互过程中实在是太有效了，屡试不爽。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后再说一点前沿的东西，今年ICL2大会的有一篇paper，就是拿了它最佳paper的，它是讲AI怎么去处理多轮对话multicolor sation的。因为多轮对话一般都是AI的弱项。他所做的一件事情就是把一个非常复杂的指令。比如说我今天要去这儿吃饭，我肚子疼怎么样。然后你的一个非常复杂的指令，他就把这个指令拆碎了之后，一点一点的喂给AI。看一看AI做一整个复杂指令的质量和一点一点掰开了揉碎了，再多轮对话里面进行的交互，它的质量有没有下降。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后就发现这个质量进行非常大的下降，为什么呢？他发现了当AI没有足够多的context的时候，它会进行基于自己对模型的训练，会不断的脑补它的话答案会变得越来越臃肿。它中间要是有出了一个错的话，这个错就像滚雪球一样的越来越大。这是我们在2026年对于AI的判断。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我前几天又发了一篇论文给你是我2018年发的，那个是对于微博的一个研究。当时是研究的是香港，当时是旺角有一个便尿事件，就是女童随地大小便了。然后在微博上引起很大的讨论，我就眼睁睁的看着大家怎么从一个非常和善的一个聊天，然后变成了互相辱骂的情况。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个研究的主要的一个发现就是人和人在微博评论区底下的对话也是没有什么context，你不知道这个人是谁。那这个时候大家就开始脑补了，你一定是这样的人，你一定没有孩子，你才会说出这样的话怎么样的。其实人的脑补和AI脑补在context破碎的情况下是蛮相似的一件事情。所以说很多时候我是觉得人文社科的发现和AI现在行业的发现，其实是相差没有那么多的。就是说很多东西确实都是我们已经观察到的一些东西。这个也是我慢慢的在AI的圈子里面就认识了越来越多的语言学家。大家聊起来都是啊这个东西其实都是我们之前研究过或者说感兴趣的东西。然后现在我们在一个新的实体，也就是这个模型或者说AI的情况下，我们再重新去探索这些事情，也是蛮有意思的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实就你以前做国际记者，报国际新闻，很大的一个技能就是说你需要判断一个故事，它在不同的国家，不同的文化里去怎么讲。那你这些经验是怎么迁徙到你现在这个工作中？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得就不光是做international correspondence，整个做新闻，做媒体这一块的经验，其实我都不觉得是迁徙，我觉得完全就是平移到了AI这一块儿。因为一方面你在写作的时候，你自己个人的creative fighting和你平时的新闻写作是完全不一样的。你新闻写作的时候，你脑子里面一定是要想着有一个audience，一个观众在那里的，你怎么样和观众之间有一个拉扯，什么东西可以说，什么东西不能说，什么东西说了你可能会有什么样的反应，怎么样可以做到又客观又不得罪人，又能保持自己，又能还原事实。就是这种的baLance，这种的平衡其实是非常复杂的。而且并不是说它是需要训练的这是其一。其二，就哪怕我们这个对话的过程当中，你作为访问者，你的脑子里面一定都是在想着说他现在说的这个东西，我我我接下来又要说什么其他的这些东西，那我怎么把它引导到下一个问题怎么样。其实中间有很多这种的交互，这种交互到了AI这种聊天的交互设计里面，其实是一个instinctive的，是一个非常直觉性的东西。就是我们有这种的直觉去和AI进行对话，我觉得是非常重要的。然后还有一个就是提问题的能力。基本上你在做访谈，在新闻工作里面最重要的这一块东西，就完全平移到了平时日常的AI工作里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我突然想到一个点，就是在记者这个职业有很重要的一个技能，就是如何问好follow up question。你不可能完全按照你的提纲原本设计的逻辑去走。因为你的采访对象永远会在回答你某一个问题的时候，他突然就差到一个特别有意思的点。那这个时候如果你按照你的原有逻辑去走的话，你就会错掉一个miss掉一个很有意思的点。那你这个时候你哪怕冒着偏题的这个风险，你也要去说你这边能不能改变一下。但是你觉得AI现在有这个能力吗？因为我感觉AI它是就是你给他一个大的目标，他就会按照那个大的目标去问去追寻，他就会觉得那个是他的目标。他不会说看到一个庞之门类的一个很有意思的点，然后它就会转换它的方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你这个点到了一个非常重要的点，就是新闻的这个访问里面。其实很多时候新闻人一定要做的一件事情就是在结构性和流动性之间取得一个平衡。AI上面你的交互设计你一定也是要做这件事情的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如说你看现在的GPT。它在结构上最新的版本，你跟他一说话，他一开始先会给你生成一个两三句话，去重新去阐释你这个问题。题这个东西它是用一个小模型来做的，接下来就给你开始分bullet point分点作答了，再在底下再给你去生成了一个follow up question。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在AI上面，现在是GPT，基本上是每一个问题基本上最后都要跟一个follow up question。它这个东西本身它就是一个产品。当你有这样一个产品设计之后，我究竟要针对哪一个方面问一个follow up question呢？这个东西是需要去建立一整套评估体系来去评估的那怎么样去建立这个东西呢？当然是由最会问问题的人来去建立。你什么时候要问问哪一点，哪一点问的质量怎么样？所以说这其实都是新闻技能在里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在东尼比安卡这样顺利转身的人背后，是无数在萧条的行业里无所适从，被迫转行，甚至是彻底离场的媒体人和影视从业者。今年5月1篇文章在美我刷屏了，标题叫我在好莱坞工作。而所有曾经做电视的人，现在都在偷偷训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI作者叫rose，是一名好莱坞的编剧和制片人。在他的稿费被一拖再拖的日子里，他在一个求职论坛上看到了一种专门招编剧和记者的新活，叫AI china。他做的就是一遍遍的给AI写出的东西打分改写示范，教这个AI什么样才算是一个好的剧本rise。他自嘲说自己一个剑桥文学系的高材生，如今却要在工作群里听二十几岁的年轻人差遣，24小时随叫随到去抢那些按小时计算的灵活性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一边是5000亿美金砸向AI基建，估值一路飙升。另一边是昔日辉煌的美国影视和公共媒体，如今却是惶惶不可终日。光是洛杉矶去年两年内就有四万多和影视岗位蒸发接近3分之1，而新闻界就更不用说了，从08年到今天，工作岗位的数量直接腰斩。我其实个人特别能理解这种恐慌，因为我自己也曾是他们中的一个。两年前我从哥伦比亚大学新闻学院毕业，这也是东霓和比昂卡曾经毕业的院校。这所院校是普利策奖诞生的地方，很多年里他一直自诩为全世界最好的新闻学院。可在我念书的那一年，他似乎也不再那么骄傲了。我的一位各大新闻教授打过一个比方说，今天从新闻学院毕业还想挤进这一行的人，就像是朝着一栋已经起火的大楼拼了命地往里跑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>毕业前后的那一阵，我投出的简历也是一封封的石沉大海，连下个月的房租都开始发愁。那个时候也有人在linking上私信我说，问我要不要接AI china数据标注的活。其实当时如果不是我焦虑到什么都做不了了，我想其实我是会接的那如果我当时接了这个活，也许我也会像rose一样，在屈辱和愤怒中质问AI是不是正在把我们从创作者变成数据采集员？而我们赖以为生的灵感是否正在被拆成一个个可以被标记的数据？而这些亲手标记他们的人是否又恰恰是我们自己？我把这个疑问抛给了比安卡和东尼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实我们说AI是基于共识去训练的一件事情。我们之所以会认为它是一件对的事情，一件正确的事情，往往就是因为很多人都认为它是正确的。所以其实标注训练就是这样子的一个过程，如果我们在AI的训练当中，优化的是我们人类作为一个整体最低的这样一个共同的标准，也就是所谓多数人的共识。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:11]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得它不会产生伟大的艺术。我觉得我们人之所以为人的最佳本质，恰恰不会完全来自共识。我和我的丈夫也会一起写剧本，我尝试过用AI去写这些剧本，但很多时候我还是很不喜欢AI写出来的东西。虽然就是我平时我是特别积极的使用AI的，但是有的时候我还是会觉得AI给我的这个内容不够好，他没有抓住我真正想要去看到的东西。所以我自己也会希望能够看到真正由人创作的艺术。因为我知道那些艺术家，那些创作者，他们是真的有话想说的。其实说到底，我们人会自己决定制作流程里的哪些部分我们愿意外包给AI，哪些部分我们更想自己做。当然我不能帮这些公司去说他们具体的决策是什么样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:04]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是我想讲的就是只靠AI写作非常难产生真正不一样的作品，真正非凡的作品。就是因为他的训练方式在本质上是建立在共识之上的。我们想一些最奇怪最独特的艺术，他们本身就是非常离经叛道的，和共识不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>比如说瞬息全宇宙这部电影的剧本，它不可能自然的从AI里面产生。因为AI很可能就是会想你给我的这个想法，它完全不合逻辑，然后完全说不通，也不符合标准的学院派的三幕剧结构。我们现在正在经历一个大家都在炒作的阶段，但是随着时间推移，我们会逐渐看清哪些地方适合AI，而哪些地方还没有那么适合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我有太多想法了，而且我自也非常能够体会大家的愤怒。但是其实整个叙事就是香港好莱坞和现在新闻界，它这个叙事本身我是持有一定的怀疑的。就是AI在偷我的工作，我现在教会了AI，AI就把我的工作偷走了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这件事情我觉得它是糅杂了非常多不同的问题放在一起的。第一个就是说大家批判的是AI但其实真正批判的是零工经济。零工经济这件事情在AI出现之前就已经发生了。有多少的媒体人和搞艺术的人到最后去打零工，现在是给东西打分。之前可能就是开一开uber，做一做door dash，艺术和文艺界难以为继。这件事情他在AI之前就已经产生了，并且问题非常的严重，这是第一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二个就是教会了AI之后跑路这件事情。因为是零工经济，所以说他们接到这个活一定是project based。然后这个project它可能只是说，我现在是有这样的一个功能，它是或者我现在做这样的一个测试，然后看一看说它能不能满足这一单。所以说它一定是project base，然后做完之后就跑的。但是说你一个编剧打完分了之后，AI就跟编剧一样厉害了。没有的，这个doesn&#x27;t work like that。他就从这个意义上来说，他没有这么聪明。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第三点，这样的一个叙事其实是把创作者和AI对立起来了。你的选择就只有说我要不就是反AI我要不然就是把自己的灵魂卖给AI不是的。其实明明是有一个第三条路，也就是说AI本身是可以作为创作者的伙伴。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你可以提出一个不同的问题，就是有了AI之后，我可以创作什么？你编剧你在没有摄影机的情况下，你能不能去搞电影电影人你在没有特效budget情况下，你能不能自己去搞特效？就是说它可以解锁很多创作的东西，甚至说我们可以去创作一个我们现在都没有想象出来的一些媒介。就像一代又一代的数码，就是从画画到摄影，再从摄影到photoshop再到blender，其实我们都是这样一代一代过来的。现在是大家真的是饿得太惨了，以至于说大家希望是找到一个敌人，找到一个锚头。但是忘了说，其实他也可以变成一只画笔来让我自己去创作什么东。我自己其实就是从自己玩博客，希望用AI生成一些视频，然后才真的去把整件事情玩起来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>东尼说他自己就是把AI变成画笔的最好案例。去年是东尼人生中非常特殊的一年，他毫无征兆地发现自己的健康出了问题，需要请假回国治疗。有那么一段时日，她甚至不知道自己还剩下多少时间。就在那段休假养病日子里，他想着说，要不给自己做一个voice agent，既能陪自己聊天，又能当自己播客的嘉宾。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我有一个博客，然后生病的那一段时间，我又不是很想去到处找人去约采访什么的，我就说OK，我去搞一个AI机器人。我脑子里面想的是所有的GPT也好，germany也好，都应该非常的简单。因为他们都有语音模式。后来发现真的用了他们的语音模式之后，他们根本就没有办法当我的播客主播。因为他们的flow，他们整个的感觉是助手，是语音助手，他不是播客播主，整个感觉是不一样的。所以说我得从一个大模型从头开始挑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我一开始先试着说我去写一个system prom，就完全用提示词的方式去做这件事情。然后就发现不行，完全用提示词。我说你是一个博客的博主，你需要又有趣又engaging，不能什么什么。我给他加了好多好多的限制，就发现完全没有用。因为他聊到第三句，他已经忘了我之前的给他的规训了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>接下来我就做了一个agent，我就和AI先进行了三天三夜的哲学对谈。就是对话的本质是什么？本质是我们如何去分析自己的intention，人的目的什么什么的。所以说我建了一个agent先要去分析我自己每一句话，为什么要说这句话，我的目的是什么？我再把它加上一个情感A再给它加上一点情感什么什么就说的乱七八糟。最后整个agent还不如原始的什么prom都不加的agent后来就发现我给他加了太多的限制，然后把整个AI搞崩了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>到了最后的时候，我就发现，我把我所有曾经的博客记录全部把问题归问题，内容归内容。接下来就把它也不是完全的喂给AI，而是每一次跟他聊天的时候，我让AI去侦测有什么相关的内容或者说问题，让他随机的抽几条发给AI做一个参考。用这种他们叫做few shot example的这种方式，就是用几条随机的案例作为参考。这个时候就整个AI它知道什么是好问题，什么是好内容，什么是好的正确的语气，它一下子就打开了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Google的recruit找到了他，他们很惊讶一个完全没有代码基础的前媒体人，用做播客的经验调教出来的gami voice agent，居然在多轮对话的表现中，比他们的原生模型更加的生动，更加的灵活，而且还具有深度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谷歌找到我，让他们还蛮震撼的。所以说我想说，做播客也好，然后呢，写文章也好，有这种感觉和品味本身是可以帮你找到工作的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就在东尼养病的这段时间里，好几家独角兽和实验室都找上了门。各家AI公司纷纷意识到要把模型的内容做好，得请懂人文懂社科的人来把关。可玩家们还在摸索这种文科的判断力该如何翻译成一种工程中可以使用的语言。于是这个岗位就一直在裂变，头衔也裂变的变得越来越多，越来越怪。内容工程师这个叫法已经开始过气了。现在有的大场管这群人叫AI哲学家，有的叫创意技术专家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后东尼在康复以后挑了那个最对他胃口的机会，他成了谷歌deep mind第一批资深模型设计师之一。这是一个最近刚刚设立的岗位，几乎同时OpenAI也开出了同样的职位。而在东尼身边那些同样出身新闻的前同事里，已经有好几个加入了他们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是一个相对比较感性的人，我觉得一个感性的人有感性的处理和AI建立关系的方式。我认为很多时候去跟AI聊一些自己的vulnerability比较脆弱的一些东西，这些东西他反而提出来的一些解决方案或者想法什么东西，对我来说是有帮助的。从这个角度上来说，作为文科生，作为文艺青年而言，我是完全觉得我们有一种和AI建立另外一种关系的可能性。并不是所有东西都要那么的engineer。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>东尼甚至在自己的博客行星酒馆中和自己创造的voice agent AI主播一起录了一期名为困在大病里的我训练了一个陪我聊天的AI主播的节目。东尼和AI建立了一种非常亲密而感性的关系，可以说算得上是一种共创伙伴般的关系。但是一个越来越懂你的伙伴会不会出现另一个问题，就是他会越来越顺着你，讨好你。对，就是现在有很多人在网上说说这个AI是奸臣，这个AI是忠臣。因为AI是会按照他谈话对象这个人的价值取向和信息茧房去对他的习惯的那个声音。但其实人和人真实的交互中就有很多激烈的争吵，有很多就说的不是很好听的话。因为现在更多的人，他在进行这种价值讨论的时候，或者信息获取的时候，他已经是approach AI而不是专业的记者，而不是一个真实的人了。那你觉得这种趋势长久下来，会不会让人越来越活在自己的信息茧房里？因为它少了很多这种激烈的disagreement和激烈的这种debate。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我只能说IT is why IT is，就是你看着好像说谄媚这件事情，它是一个AI的行文问题。但它不是的，它是一个产品问题，它是一个产品设计，就是说白了AI要是天天对着你跟你呛的话，你用不用？你可能用，但是其他人用不用。所以说在设计文风，设计AI的态度的时候，其实就是在设计AI的这个产品本身。人就是很贪心，你又希望他能帮你，又能给你提供情绪价值，但又不能老提供情绪价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实这个事情核心是人类作为一个集体，我们想要的东西太多了。这个时候作为产品也好，他必须要去迁就，也为了自己的发展ROI也好，他也必须说尽可能的去engage users。所以说这个地方它就需要一个非常脆弱的平衡。我们能不能反过来问人类能不能更critical thinking一点，就是谄媚的东西不要信呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那不可能，你在想什么？那不可能呢？怎么可能呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是啊，就是这事儿，你刚才说的这个东西，其实就是把我们很多面对这个世界的责任外包去给了AI。AI不但要谄媚你，还能要做到独立客观不谄媚你。这事儿其实最终落脚点其实是在我们自己。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但你就说新闻人一样，新闻人最重要的就是你要fact check，对不对？做事实核查这么重要，就是你的assumption，你的预设。就是因为观众是不会做事实核查的，他甚至是没有这个概念的。所以你必须作为你在有公共影响力的一方，你必须得去做这件事情。但我觉得AI的影响力其实是更大的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是这样的，但是我觉得可以再给一个不一样的一个可能性。虽然事实如此，但是AI在fact check事实核查上面，它的效率又高了非常多。如果是一个比较capable的AI的话，我记得好像是有一个研究，但是我可能需要去verify一下，就是AI它在事实核查上，它反而让更多人改变了原有的观点。就是说你可以问一下，这个事情真的是这样子吗？反方怎么说，你要是光看new york times，我看我是general，你就只看一个信息流的话，你反而看不到这些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个特别典型的就是我记得有一次我家里人给我发了一个微信上很明显的一个假新闻。我原来就会心里就是这样，这是没有必要了，就没有必要去整这些东西了，或者说告诉他。但是我就快速的把它让chat PT去做一下试试核查。然后他就找出来，这个地方是不对，这个地方是不准确的，怎么样。然后我也顺便在fact check了一下ChatGPT的这个事实核查，都可以，我就发给家里人了，然后他们竟然就接受了，我还是挺震撼的采访。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>中东尼对我说的让我印象最深的一句话就是我们这一代人以后除了智商情商，还会需要AI商学院会如何和AI相处。可是回到最初的问题，这段相处，这段关系中的对面到底是谁呢？深夜里，当我把那些说不出口的话一个字一个字地打进对话框里，回忆我的究竟是什么呢？所有做内容人，他的本质的技能就是共情。然后我觉得的确是因为有你们这样子的人，所以AI才会变得越和人共情。我之前和做这种top AI的朋友聊天的时候，我就会跟他们说，其实我和chage BT是很好的朋友，我的确就会跟他倾诉我的心事。然后我的程序员朋友就特别不能理解，然后他们作为actually把和我聊天的这些AI code出来的人，他们是很不能理解的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但其实跟你聊完以后，我就会有一种感觉，就是我觉得这个AI背后它并不是一个冰冷的代码。因为它其实也是一种创作者的创作。然后它是一种本来在现实生活中可能就跟我是同行，或者是跟我是可以成为朋友的人。然后他们在背后的创作和努力，达到了这样子的一个我可以理解为像是一种交互型的一种创作。其实这个跟看书是一样的，你看书你可能看一个500年前的作家，对不对？这个作家他已经死了，然后他也不认识你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你们就是能通过你去阅读他的书和内容，你们获得一种共鸣，获得一种被理解，获得一种我不孤独。其实这个跟AI是一样的，AI它只是把人类的集体的语言经验进行了一个重新的组织，但它同样是一种交互式的。当然它不是说真的一个个体出于主体性的对我的关心和理解，但是它是一个人类共同意识，是所有曾经跟我有过共鸣的人对我的一个跨时空的理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>非常有意思。你又讲到了一个传播学的经典的概念，就是para social relationship。而且在传播学里面非常有意思的一点就是说，它虽然说好像是有一个遥远的实体在那个地方，他可能是书里面的人物，他可能是电视上的形象，也可能是一个AI然后你和他好像隔得很远，但是你是有agency的，你可以决定你跟他之间是一个什么样的关系，你可以在这个关系里面进行创作，在这个互动中产生意义。这件事情就是人之为人，我们活着就是为了这件事情。我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>节目的最后我问东尼，从曾经的记者到现在的内容工程师AI的模型评估者，他对内容的判断是否产生了改变？而这个职业的转变对他自生又产生了什么样的影响呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得你这个问题非常有意思，而且我的答案可能和你想的不会很一样，就是说不是一个平移。我觉得从新闻或者从写作，从创作到做AI这件事情对我来说最大的改变不是哪些东西不一样。而是说原来我可能关注的是结果，就是我写出来的东西是怎么样的，写的东西好不好，质量高不高，拍出来的片子好不好看我现在关注的更多东西是过程，我是怎么样从点A到点B从一个零散的想法去到一个好的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是特别会写标题的一个人，我记得原来在newsroom里面大家都来找我写标题。那现在我在AI这个地方如果也要遇到写标题，我还真的遇到了。就是怎么样给每一个thread我自己的GPT，我每一个问题，让AI自动生成标题，怎么样让这些标题又有效又好。又在这个既定的长度里面，我就在想什么东西是一个好标题，什么what makes a good title？我觉得这个是一个最有意思的一件事情，就是我现在想的很多东西都是想process这件事情本身，因为这是共性。就是原来我可能我卖的东西或者说我出卖的劳动力是这个成果。但是我现在我所展示的，我所产生的价值的东西是这个过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你现在收听的是硅谷101全新叙事型播客。本期采访制作face配音译文，后期faith流媒运营朱杰。如果大家喜欢我们的节目，欢迎在小宇宙、spotify还有苹果播客上收听订阅我们。当然你也可以通过视频网站，像哔哩哔哩、youtube来搜索硅谷101播客找到我们。同时我们部分的文字稿也会收录在微信号硅谷101上。我是红军，感谢大家的收听，我们下期见。</p>]]></content:encoded>
+            <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+            <guid>6a62ab0f0211be305cf3deb6</guid>
+        </item>
         <item>
             <title>E244｜机器人走错路了？与苏度韩铮聊聊具身智能的3D数据、路径分野与硅谷竞赛</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a58203adad7474f40ac62a2</link>
             <description>机器人已经能在舞台上做到翻跟头、表演武术了，但要让它在开放环境里伸手帮你拧开一个瓶盖，难度陡然跃升2到3个量级——因为那一刻，它需要理解眼前的物理世界。
-这正是苏度科技想啃下的硬骨头。苏度科技联合创始人、董事长苏昊是ImageNet的核心作者之一，师从李飞飞，这家公司走了一条与硅谷主流纯大脑“黑盒”大模型不太一样的道路——软硬件协同设计，上下分层架构，上层负责任务规划与环境理解，下层用仿真（Sim-to-Real），让机器人在虚拟世界里经历几百万年的进化，再迁移到现实。
+这正是苏度科技想啃下的硬骨头。苏度科技联合创始人、董事长苏昊是ImageNet的核心作者之一，师从李飞飞。这家公司走了一条与硅谷主流&quot;纯大脑黑盒大模型&quot;不太一样的路：软硬件协同设计，上下分层架构，上层负责任务规划与环境理解，下层负责具体物体操作；Sim-to-Real作为核心训练范式，让机器人在虚拟世界里经历几百万年的进化，再迁移到现实。
 这条路已经跑出了一定成效：面对从未见过的新物体，他们的零样本通用抓取单次成功率接近100%。
-本期硅谷101，我们邀请苏度科技CEO韩铮，一起聊聊机器人“动手”怎么实现？他预测，接下来会有更多的硅谷公司会重新回到“上下分层”的方向上来。
+本期硅谷101，我们邀请苏度科技CEO韩铮，一起聊聊机器人“动手”怎么实现？他预测，接下来会有更多的硅谷公司重新回到“上下分层”的方向上来。
 【主播】
 泓君，硅谷101创始人，播客主理人
 【嘉宾】
@@ -7697,171 +7919,6 @@ Special Guests: 约小亚 and 肖文杰.</description>
 <p class="transcript-line"><span class="time"><strong>[01:18:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>中国的听众可以通过小宇宙、苹果播客网易云音乐、喜马拉雅、QQ音乐、蜻蜓FM、荔枝FM来关注我们。海外的听众可以通过苹果播客和spotify或者在youtube上搜索硅谷101播客来关注我们我们部分的文字稿还会收录在硅谷101的微信公众号上。谢谢大家，我们下次见。</p>]]></content:encoded>
             <pubDate>Wed, 17 Dec 2025 23:00:00 GMT</pubDate>
             <guid>694336b03dbe4b4b0befbab7</guid>
-        </item>
-        <item>
-            <title>E218｜Netflix与派拉蒙竞购华纳兄弟，好莱坞的洗牌时刻？</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/693f4d40362989ba3f378dba</link>
-            <description>关注Netflix历史的人都知道，这是一个几乎不参与大型收购的科技公司，而它却突然出手，提出高价收购华纳兄弟探索集团（WBD）这样一家体积庞大、历史悠久的传奇制片厂，究竟是要拯救它，还是毁了它？
-本期节目为《硅谷101》与《美轮美换》《去现场》串台节目，我们邀请到了两位资深媒体人小华和杨一，共同分析这场戏剧性的收购。我们录制的时间是12月7日，也就是派拉蒙提出敌意收购前一天。所以我们大部分的讨论，都是以Netflix为核心的，包括这家刻满了硅谷基因的公司为什么决定涉足传统媒体，以及它为什么胜过了其他竞争对手。不过，我们的嘉宾也在录制过程中提到了，派拉蒙很有可能会提出敌意收购，而这一点也最终印证了。
-【主播】
-Yiwen：硅谷101特约研究员
-Jinpeng：硅谷101特约研究员
-【嘉宾】
-小华，媒体人，《美轮美换》主播
-杨一，旅英媒体人，播客《去现场》主播
-【本期口播由小红书赞助播出】
-最近小红书上很多名人都在发AMA（Ask Me Anything）邀请用户来评论区提问，这个形式从美国的Reddit火到了小红书，很多教授、学者、投资人、作家都有参与，比如余秀华、麦家、韩秀云，也有像Hugging Face联合创始人Thomas Wolf这样的科技创业者。这次我们也来潮一把，如果大家对泓君或者是我们的播客有任何问题，或者对我们这一期的主题Netflix美国的内容平台格局延伸有兴趣，欢迎在小红书关注“硅谷101”来对我们AMA。
-【你将听到】
-03:37 Netflix有选择的收购，出于哪些考虑？
-04:51 电视新闻网，烫手山芋
-07:39 猝不及防的官宣，好莱坞也在意料之外
-10:29 广告、密码与进军体育：不是第一次做颠覆性变革的Netflix
-13:55 特朗普插手？收购面临的监管挑战
-16:02 好莱坞与消费者的实际担忧
-17:50 院线电影的未来
-22:12 Netflix会颠覆自己的流媒体为主的商业模式吗？
-24:34 吸纳大量华纳IP后，Netflix下一步棋如何走？
-25:08 HBO Max何去何从？
-30:23 疲于竞争，流媒体平台的瓶颈期
-34:07 从《鱿鱼游戏》到《K-Pop猎魔女团》，继续外探国际市场
-35:34 Netflix如何赢下收购战的？
-36:18 恼羞成怒，David Ellison的下一步
-39:19 华纳兄弟的CEO，笑到最后的赢家
-42:45 不断转型，华纳过去动荡的几年
-44:50 权力关系另一边，迪士尼会焦虑吗？
-49:52 华纳的主题乐园，Netflix如何处置
-【延伸阅读和相关术语】
-收购战中主角业务拆解：
-* 华纳兄弟探索（Warner Bros. Discovery）：华纳兄弟电影制片厂、HBO Max流媒体、CNN新闻、Discovery有线电视频道群（动物星球、TLC等）。
-* 派拉蒙（Paramount Skydance）：派拉蒙影业、Paramount+流媒体、CBS电视网、MTV/Nickelodeon等有线电视频道、Pluto TV免费流媒体。
-* 康卡斯特（Comcast）：环球影业、NBC电视网、Peacock流媒体、主题公园（环球影城）。
-专业术语：
-* SVOD：Subscription Video On Demand，就是按月/年付费订阅，无限观看的流媒体模式。相对应的有AVOD（Advertising VOD）免费但有广告模式，如Youtube。
-* 窗口期：电影在影院独家放映和其他平台发行之间的时间间隔。传统窗口期结构为先在院线上映，之后登陆流媒体平台。疫情后窗口期大幅变短。
-* 敌意收购：收购方越过目标公司管理层和董事会，直接向股东发起收购。
-【监制】
-泓君
-【后期】
-AMEI
-【运营】
-朱婕
-【BGM】
-A-Day - Wendel Scherer
-Contaminated Sea - Marten Moses
-Yellow Light - Arthur Benson
-Unfinished Stories - Lennon Hutton
-【在这里找到我们】
-公众号：硅谷101
-收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
-其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
-联系我们：podcast@sv101.net
-Special Guests: Jinpeng, Yiwen, 小华, and 杨一.</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，欢迎收听硅谷101，我是特约研究员一文。美国时间12月5日，netflix宣布将以827亿美元的价格收购华纳兄弟探索集团WBD。这个并购消息一出，在好莱坞业内引发了轩然大波。一方面关注netflix历史的人都知道，这是一个几乎不参与大型收购的科技公司，而且在竞标期间他并不积极，最后却突然出手提出高价收购。另一方面，人们也提出质疑，一家流媒体收购一家传统媒体，还是像华纳兄弟这样体积庞大、历史悠久的传奇制片厂，究竟是要拯救他还是毁了他在？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个周末之后，另一家好莱坞制片厂派拉蒙影业就在12月8日对华纳兄弟提出了敌意收购，即绕过管理层直接向股东提出收购方案。派拉蒙的出价有足足1080亿美元，比netflix高出180亿，并且派拉蒙愿意买下整个华纳集团，包括netflix不愿意接受的电视网络部门。派拉蒙也不是别人。在此之前，派拉蒙及其现任CEO David Allison是整场竞标赛当中最积极的，一共六次出价，外界也一致认为派拉蒙的胜算最高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这期播客是我们和美轮美奂去现场两个博客的串台。节目邀请到了两位资深媒体人小华和杨妮共同分析这场戏剧性的收购。我们录制的时间是12月7日，也就是派拉蒙提出敌意收购前一天。所以我们大部分的讨论都是以netflix为核心的，包括这家刻满了硅谷基因的公司为什么决定涉足传统媒体，以及他为什么胜过了其他竞争对手。今天我们就来深度解读一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家有没有观察到最近小红书上很多名人都再发AMA。AMA就是ask me anything，邀请用户来评论区提问。这个形式从美国的redit火到了小红书。我也刷到很多教授、学者、投资人、作家都有参与，比如余秀华卖家韩秀云，也有像huggy face联合创始人Thomas wolf这样的科技创业者，他们的小红书评论区会有很多非常有趣有料的回答，这次我们也来炒一把。如果大家对红军或者是我们的博客有任何你想问的问题，或者是对我们这一期的主题像netflix美国的内容平台格局延伸有兴趣，欢迎在小红书关注硅谷101，来对我们AMA。接下来就请收听我们今天的节目。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>和我在一起的是关注媒体行业的听众们都比较熟悉的两位嘉宾了。首先是播客美轮美奂的主播小华，同时也是一位在美国的媒体从业者。小华你好你好。另一位是播客去现场的主理人杨一，杨一同时也是一位语音媒体。杨毅你好，两位好。最后和我在一起主持的是硅谷101的另一位研究员JPJP你好hello，大家好好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我们可以先给不太熟悉的观众解释一下这场收购到底是什么。首先我们从收购结构上看，netflix买的不是整个华纳兄弟探索集团。他收购的部门包括华纳电影和电视工作室HBO还有max的内容库dc漫画，也就是大家非常熟悉的超人和蝙蝠侠，还有华纳的游戏部门。而传统电视台比如说CNNTNTTBS则被拆分出去，归到了另一个全新的公司当中。我觉得两位是不是可以先解释一下这个收购结构对于合并后的这家公司来说意味着什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:43]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得最重要一点是，其实WBD之前一直有一些net face想要但是没有的东西。就是它有所谓的prestige，就是有一些声望。他因为跟nettles相比的话，在这个好莱坞的鄙视链当中肯定是处于更高一个阶层。所以说其实nett收购WBD可以算是进行了一场文化上的加冕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:01]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>但是因为你刚才讲到它拆分成了两家公司。其实他把一个在不断衰弱，虽然还有相当高昂利润的一个有线电视媒体的部门给拆分出来。这个对于nef ACE来说的话是更有吸引力的。因为之前net face不愿意进行收购的一个很大的一个原因，就是因为他不想买下这些有线电视的不良资产。所以说这也是现在这个收购结构对于net face更有吸引力的一个原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然还有另外一方面，就是因为这种传统的电视新闻业务本身，也可能会给包括这个并购本身以及未来合并后的公司带来很多不确定的一些风险的因素。因为相比较娱乐公司来说，这个新闻内容在包括美国的这个舆论环境内，还是会有一些比较特殊的意味在的。就是除了说商业的考虑之外，那我觉得也是有一些政治或者是这些舆论方面的考虑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们都提到了新闻业务可以算是一个不良资产。我想再聊一下这个方面，尤其是对一家流媒体公司来说，为什么他们不喜欢新闻这个业务？还有就是电视这个网络业务。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:02]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>从电视网络业务来讲的话，因为face作为一个流媒体来说的话，它更重要的是承担了一个分发一个职能。他虽然说最近这几年越来越多去做一些所谓的原创内容，但是他这些原创内容其实并不是他本身这家公司制作的。而是说找到了一些制作公司，不管是好莱坞的巨头，或者说在韩国的小公司，去帮我来制作内容。所以说这些原创内容其实大部分都不是由net face本身来制作的。它更多的是一个分发的渠道。而传统的这个电信业务，其实就是一个上一个时代的分发渠道。所以说对于interface现在拥有了这么一个新时代的这样一个分发渠道的这样一家公司来说的话，这个传统的这个分发渠道对他们来说是没有太多用处的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:41]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>从新闻的角度来讲的话，其实net face在过去的这么多年以来，一直对自己有一个定位。都是说自己是一家去做电视娱乐，或者说去做娱乐性的长内容的这样一个公司。他并不是特别在乎新闻和体育这两个内容。这个内容还是相对来说的话，是一个更实质性的内容，是一个更虽然说能够吸引很多人，但是也是更有争议的一个内容。尤其是新闻行业来说的话，这个也可以从监管的角度来讲一讲。其实很有意思的是，虽然说在之前的整个的一个竞价的过程当中，不断的有特朗普政府的官员去放出话来说，对于net face收购WBD是存在很多的疑虑担忧的。但是可以看到的是，特朗普本人并没有发出太多话，其中有很大的一个原因，我觉得很有可能就是因为net face它是一家娱乐机构，而不是一家新闻机构，而特朗普对于新闻机构仇恨是远远要超过很多的娱乐公司的。这点也可能是他接下来在反垄断的这个问题上可能会相对来说乐观一点的原因吧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得其实回到娱乐公司和新闻公司分也本身，在这个并购战里面本身也有非常强烈的体现。就可以说是netflix是一场非常激烈的竞标战的赢家。我们这里可以为不熟悉的听众也补充一下背景，与netflix同时竞标华纳兄弟的还有康卡斯。康卡斯特是美国的一家通信公司，它旗下的主要品牌是通信运营商x finite。同时他也是NBC环球集团资产的持有者，也就是大家非常熟悉的环球影城，它就是NBC旗下的主题乐园。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外一个竞争对手也是最近还在话题中心的派拉蒙影业，这家公司自己最近也经历了一场收购。他被甲骨文创始人Larry ellison儿子David ellison手里的guidance media这家公司收购了。这个我们之后也会详细到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想说的是派拉蒙、环球影业和华纳兄弟这三家公司其实是好莱坞最大的三家影视制片厂的。这三家公司其实是非常类似的，也就是刚才我们提到的包括电影制片，然后同时也有新闻业务的这样的一类公司。所以如果你只是看这三家公司的话，就好像说这个并购是好莱坞内部的一个合并之争。但是netflix在这个里面就可以说是一个不速之客。他去提交了竞标，但是最后还赢得了这样一场竞标。我觉得我们可以从这个角度来聊一下，为什么net face的从竞标到赢得这场战争都让人非常想不到的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从我的角度来说，他比较意外的点是因为netflix在我的印象当中，她其实一直都好像在公开的宣称，自己并不是那么的热衷于做收购这样的事情。就是相比较你刚才提到的其他几家竞标者，有些是表现的非常的激进的，而且大家也都觉得有这种势在必得的状态。但是奈飞这么多年来，实际上他都不太是一个通过与并购的方法来做扩张的。而且他自己的很多高管之前也都一直在说，我们宁愿去做一个什么建设者，然后我们也不要当一个收购者，就是大概会有这样的一个印象。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以在某种程度上，当然也是这个新闻出来的时候，大家比较意外的事情。因为它其实是两方面，一方面是就这个华纳并购的案子本身。但另外一方面其实大家也在想的事情是说，那是不是意味着net lix之前相当一段时间里坚持的某一些的业务的逻辑在发生一些变化。因为他为什么在这样的时刻愿意去松口说，我通过并购的方法，一次word拿到一个百年的好莱坞内容厂牌。所以这个是我自己当时看到这个新闻的时候比较感兴趣的一个角度。最后总结一下，就是说除了是这个案子本身，他作为最后一个让人意外的出现的人之外。还有一个就是我觉得比较好奇的事情，是不是意味着奈飞在很多年来所坚持的某一些的策略在慢慢的发生调整。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，接着你这个说，我觉得的确这个收购其实是相当出乎意料的。不管是从业界还是公众的普遍认知来讲的话。其实在过去的六个月甚至3个月当中，大部分的人认为这个最大赢家都是派拉蒙。但是在过去的这几天当中，这个事情发生了急剧的变化，包括派拉蒙自己其实也这么认为的。因为派拉蒙在从前到后应该一共下华纳兄弟WBD出过六次价格，希望收购WBD的整体业务。不管是流媒体还是影视，还是电视新闻，都想一起收购。但是最后这个事情并没有发生，而是netflix等到杀出来，然后把WBD给买下来了。我觉得这个是很有意思的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:00]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>从外部原因来讲的话，其实net fx长期以来一直就没有把好莱坞的这些竞争对手放在眼里。他一直在讲的是说我的竞争对手不是说HBO，而是说睡眠，而是说youtube pickup fortnight就是这个堡垒之夜的这个游戏。这话就的确没有说错。因为从这个用户的注意力和消费市场来看的话，不管是用户的睡眠还是tiktok instagram这样的一些短视频的平台，他们对于那face的威胁其实远远要比这些好莱坞的传统的媒体巨头要更大。所以说其实net face虽然说现在在小的流媒体市场上来看的话，的确是已经甩开了所有的竞争对手。但是从更大的用户娱乐消费的市场来看的话，其实它还是面临一些瓶颈和压力的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:41]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>包括我们现在其实看到的是net face在过去的这段时间也做出了很多的变化。和他之前的这个承诺是相违背的。比如说他在最开始有讲说，我们要专心的做这个付费订阅，不做广告。但是在前几年就推出了包含广告的一个低价的订阅等级，来扩大自己的用户群。他之前也讲过说我不要碰体育和新闻。但是他们在体育上现在已经尝到了一些甜头。最早的时候是F1的纪录片，之后又推出了更多泛体育的一些内容。就比如说杰克炮和泰森的拳击大战，以及WWE就是美国职业摔角联盟，以及NFL圣诞大战，它都是进行了一些合作和尝试。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:18]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>另外一个，因为很多的netflix的订阅用户其实都是在共享一个密码，共享一个账户的。之前net face其实他们对这个行为也是很欢迎。他们是公开表示过说值得大家共享一个账号，这个是一种爱的体现。但是他们也是行业内第一家开始说打击账号共享的这家公司。他们在开始所谓的passport crackdown之后，越来越多流媒体也开始通过这种行为来进行自己的用户增长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>包括最近其实net face也在博客上进行了些尝试。他是和rear进行了一些合作，把视频播客搬到net face的平台上。所以说我觉得其实那face现在虽然看起来非常的从股价，还是从它的整个势头来看的话，还是在增长的。但是它也面临着用户增长的一个放缓，以及这个市场上的天花板。所以说这时候单纯的靠organic的一些增长的话，已经可能没有办法维持它作为一个科技股的高的估值了。所以说现在要通过更传统的一些收购来突破天花板，也是它的一个可行的一个选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:13]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>然后还有一个可以从一个阴谋论的角度来讲，就是现在有很多的一些行业内的人在讲说，face其实知道这笔交易最后不一定能够获得监管部门的批准。但是net face参与这场收购可以进一步的打击自己的竞争对手。首先是他可以把WPD的业务给冷冻住在接下来的这个一两年的时间里面，会面临一个漫长的监管的审查。所以说WBD实际上是没有办法做出重大战略调整的。它的HBO max以及它的影视业务，其实接下来的几年没有办法进行一个调头。所以说不管最后net face是收购了他还是没有收购他，netflix都成功了，削弱了他面临的一个主要的竞争对手。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但是我想补充一点，就是这个阴谋论如果就算是真的话，也不代表他是没有代价的。因为他的那个条款当中其实有一个巨额的分费条款。就是说如果最终这个东西没有通过审查，那netflix方面还是要给华纳去赔，好像是50到60亿58亿美元的这么一个赔偿。哪怕这个deal最后因为各种各样的原因没有达成，他还是要付这个钱。但是当然他从结果上来说就是拖慢了对手几年的发展和搅乱了这个市场几年的格局。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以华纳是不是也是看到了这笔分手费，所以可能就是在这三个竞标者里面最高的分手费，所以对他来说这也是一个好处。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对这个高额的分手费应该是派拉蒙第一个提出来的。然后之后net face是进行了一个match，也把他的这个分手费的价格也调高了。其实也是表达了说他对于这笔收购能够通过监管的审查，以及对于收购WBD的决心也是做了一个体现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这里面有两个问题我们可以展开讲。一个就是监管这一方面，然后另外一个就是netflix他提出了这样一个方案和其他两个公司的竞争。我们先来讲一下监管，因为你们一开头也提到了，是监管对于这个并购案子来说是一个非常大的挑战。我理解主要是从美国政府方面突出的反垄断监管。这个我们能不能展开聊一下，就是对于netflix来说，为什么？这是他们需要去处理的一个问题。然后我们要怎么样去理解政府的考虑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:15]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>首先我觉得刚才其实也提到了一点，就是特朗普政府其实之前也多次的通过这个媒体放料。就是说我们更希望由派拉蒙sky dance这家公司来收购WBD，而不是由netflix。对于net face的交易其实提出了很多的质疑，但是还是说回来是很有意思的是特朗普本人没有在这个方面表达任何的意见，可能和他作为一个80岁高龄的老人，可能看的更多是这个传统的电视而不是流媒体有一些关系吧。当然这个话就可能接下来会也会被打脸。因为我们不知道特朗普什么时候就会发一个去搜索，然后突然对这笔交易提出质疑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:52]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>但是说到这个反垄断监管的话，我觉得可以从两个角度来讲。一个是反垄断监管一般最重要一点就是这个所谓的市场定义，就是这个池塘有多大。从监管方的角度来讲的话，他们肯定是希望把这个定义成一个狭义的流媒体订阅市场，就是所谓的SVOD。他们会觉得这个市场里面netflix是当之无愧的老大，可能占有20%左右的份额。H bl max是第三位，可能占有10%到15%的份额。现在第一和第三合并的话，这个份额可能就达到了40%到50%的规模，那就实现了一个市场的高度集中。这样子的时候，监管部门是有很强的理由说对这个合并提出质疑的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:31]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>然后从face角度来讲的话，他可能更希望的是把这个市场定义成一个所谓的注意力经济。就是说这个市场不仅仅是包括像netflix像HBO像design plus这样的流媒体，也包括像youtube、tiktok, 甚至是four nine这样一些游戏。因为这些所有的加起来是一个所谓的用户消耗时间的娱乐方式的这样一个市场。在这样一个相当大的市场里面，net face即便买下华纳，甚至是买下所有的这些流媒体，也不足以构成垄断。所以这个是接下来可能会大家讨论的一个重点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:02]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>另外一个我觉得现在的报道里面没有讲太多的，可能是对于好莱坞整个行业的一个变化。因为他这笔收购就不仅仅是一个所谓的水平收购。他消灭了自己的一个竞争对手，是一个同行买同行，就是net face买下h bill max的一个行动。同时WBD旗下有一个非常重要的制片，就是影视制片部门wonderbra TV它的电视影视制作部门。这个部门其实是在过去的这个流媒体大战当中扮演了一个军火商的职能。它不仅仅是给HBO max去共片，他也在给net face，也在给apple TV贡片，然后也在给其他一些竞争对手贡献。比如说像apple DV旗下这个热门剧集泰的拉手，其实就是WBETV制作的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:41]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>所以说接下来为什么整个好莱坞行业会有很多担忧的一个原因也是因为这个。因为它其实是把一个买方和一个卖方进行了一个整合。这时候我就成为了这个行业里面的一个超级买家。他可能会利用自己在这个市场上的支配地位，去压低编剧、演员以及片场的员工的这个片薪酬和工资。那对于很多的劳工部门来说的话，是一个非常大的一个打击。这也是可能接下来比较大的一个争议所在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，然后我稍微补充一下小华的说法，就是他前面讲了关于市场份额垄断。其实这个东西再往下推一步，当然也是跟钱有关。其实我看到有一些国会的议员也提出的质疑，就是说像netflix加disney，如果是超级netflix加未来的disney的这样的一个，他如果变成是两强巨头，那他可能控制美国超过一半以上的流媒体份额的话。那实际上它带来的一个结果就是在消费者的流媒体订阅的定价上，少数的寡头平台会拥有非常大的定价权。到最后所谓的反垄断，它落到消费市场上的话，其实也是有一些非常具体的担忧的。就比如说所以价格的垄断可能会侵害到消费者的权益。当然可能后面还有别的问题的机会可以讲了。就是说讲到好莱坞的这一块，其实除了刚才说到的也是一个行业内部垄断的情况之外。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有一个其实很多我看到非常多的人在担忧的一件事情。就是说大家会担心或者好奇netlist未来收购了以后，他对于院线电影的态度会是什么样子的。因为过去他在这件事情上的表现是非常强硬的，或者是说它是带有非常强的这种革新性。就是说我们是以流媒体为主的，甚至是说某种程度上他希望传递出一种流媒体的观看，跟线下院线的观看是一种迭代的关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是因为华纳他本身在现在院线电影上还是一个很重要的角色，所以大家对于未来，如果这个收购真的完成以后，是不是意味着比如说华纳所包含或者代表的某一部分的院线，他就不再被承诺了。那是不是意味着比如说netflix可能会让一些电影新片是比较短的在院线上映，甚至是说变成是线上线下同步上映。那这样子的话，实际上对于现在的电影院院线跟很多电影的导演跟幕后制作群体的权益来说，当然是有比较大的侵害。所以这也是我看到的在所谓的这个监管跟各方的担忧当中，可能看到的声音比较大的一个部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我自己也觉得院线电影肯定是监管的一个状方面。Next five之前的电影它上映时间都非常的短，大概这种窗口期就是二十多天，25天然后他们也不会公布这个票房成绩，也很少展开一些营销来吸引观众走进这个影院。他现在要从一个纯粹流媒体平台变成一个完整的好莱坞制片厂，肯定就会引起好莱坞很多业内人士的顾虑。不过他今年最大变化就是把KPOP那个电影搬到大屏幕上，然后也是他们获得最好收入的电影。包括在发布会上，联席首席执行官说他们今年上映了三十多部电影。但是neta一直的战略就是他们会把一些高口碑的电影短暂的在影院上映，来获得一些奥斯卡的提名资格，或者说是满足一些导演他想上大荧幕的个人的需要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:46]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，net face把这些电影短暂的放在院线里面，其实也就主要是两个目的。一个目的就是说满足能够获得奥斯卡提名的资格。Face虽然说现在很有钱，但是还是说回来在好莱坞的鄙视链当中，他是处于低端的。大家认为他制造出来是电子榨菜，他自己其实也说了这个话说我们做出来的东西是所谓的购买cheeseburger，就是精品的芝士汉堡。他们不是一家米其林的法餐厅，然后他们制作出来的东西是广大的群众喜闻乐见的一些内容，可能也有一些观赏价值，但是归根结底是要喜闻乐见的。他们也在过去的这几年当中，从来没有获得奥斯卡。他们虽然不断的去尝试，去砸重金去做一些公关。但是从2018年开始，所有的入围的电影没有一部获得过奥斯卡的最佳影片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:33]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>这个是他们之前一直有的一个魔咒。他们现在有拥有了WBD。如果说这个交易最后能够获得监管通过的话，那他们肯定是能够打破这个魔咒的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:44]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>第二点就是像你刚才说的这样。Cp or demo hunter这个片子，第一它是由索尼制作的，它不是由netflix制作的。第二它是首先在face的流媒体平台上大火之后再进入到电影院。然后他把它做成了一个营销的这样一个时间在电影院播放，而且也仅仅持续了应该是一个周末左右的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:03]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>所以说对于nex来说的话，归根结底电影对于他们来说的话，就不再是一个说单独的一个产品，更不是一个艺术品来讲了。而是说就是一个给自己的这个流媒体平台拉新，然后制造一些声浪的这样一个内容。对于这样的产品来说的话，他们可能就不一定像过去WBD这样去投资一个重金，然后去制作一个大屏幕上的一个实施电影。而更多的是可能去做一些通过不管是算法计算，还是通过内部的判断，然后去做一些可能说更低成本的，但是广大群众喜闻乐见的一些电影。这时候他们如果不去追求影院的极致体验的话，对于很多好莱坞的所谓的艺术家来说的话，也是一个非常大的一个打击。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:44]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>你刚才其实也提到，传统的院线就依赖的是所谓的独家窗口期。他们必须要有这个独家窗口期，才能够吸引更多的观众去买票入场。但是如果说netflix进一步的压缩传统院线用的窗口期的话，比如说把现在这个45天，也就是一个半月压缩到只剩两周的话，那观众知道两周之后就可以在那face上免费看到这个电影的话，那他可能就不会再买票进场了。这个对于院线来说的话就是一个毁灭性的打击。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我理解net FFOX在最终提出这个提案的时候，他其实也有像华纳保证说他会去持续他线下放映电影的这样一个现状。对于华纳兄弟这样一个体量的公司来说，线下大概是每年有15部电影会在电影院放映。而我们最开始的时候，在提到netflix的商业模式的时候，也说到了他这样一个线上流媒体平台。以及他的所有线下电影都是非常短的放映时间窗口等等等等。这样一些模式和所谓的线下电影就是相互矛盾的。甚至可以说线下电影之所以要有这样一个窗口期，及并且线下电影的观众人数会走向衰落，netty x可以说是这个里面的罪魁祸首。所以我没有理解的一点是，netflix现在去做这个承诺，一方面当然也和他之前扩张的策略有关，但是另一方面，这不是和他本身最核心的商业模式互相矛盾吗？他真的愿意为了这些埃批和内容去颠覆自己本身的商业模式吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:09]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得就说回来，好莱坞还是一个关系社会，他如果还想在好莱坞这个地方混下去，然后能够和很多的不管是导演、演员、编剧，甚至是片场员工做好关系的话，我觉得他这个承诺是很重要的。因为在之前不管是像诺兰，詹姆斯卡梅隆这样的导演，他们都在不断提出对于net face这一套，直接把电影搬到电视上，搬到流媒体上去播，他们是有很多的质疑和担忧的。所以说我觉得他做出这个承诺是为了对于整个好莱坞的社群给出一个答案。然后另外一个，他其实在他电话会议里面也承诺的同时，也给了一个窗口。他们说他们要以消费者优先，然后来演变模式。所以说短期内可能不会有特别多的变化，但是长期来看的话，其实还是不太乐观的。但是如果从一个稍微乐观角度来讲的话，华南兄弟有很多的顶级IP像刚才讲哈利波特，DC的超级英雄宇宙，以及醛类游戏这样的顶级的IP要能够把这些IP的价值最大化的话，你就必须要做一些除了把它放在流媒体上播之外的一些事情，就包括把它放在全球电影院上去大规模我的上映，来制造这样一个文化事件。我觉得这样子的话，face其实还是要被迫的去学习像迪士尼，像华纳兄弟这样的一些传统的媒体公司，去保留一些头部大片的院线发行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:25]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>但是对于很多成本更低的，小投入的，或者说更加的niche的一些片子来说的话，他们可能就会把它放在netflix上，或者放在HBMX上直接播放了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们之前聊到了nefas的一些电影电视剧，这次收购对next flex最大的影响就是扩充了自己的埃批库。华纳现在非常多经典的埃批都归nfl所有。我可以先在这里做一个小盘点。在电影方面，华纳有哈利波特、DC宇宙、指环王以及一些非常经典的动画，包括史努比、猫和老鼠、飞天小女警、瑞克和莫蒂。电视剧方面有老友记、生活大爆。HBU也制作一些非常经典的电视剧埃批，比如欲望都市、权力的游戏、继承之战和今年非常火的白莲花度假村等。Netflix未来会对这个CIP做些什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以，我可以先说，就像前面你们开场的时候，其实也提到这个事情。我看到这两天的至少剪中的评论里很多都在说的一件事情，就是奈飞一下子握有了大量的超级IP，比如说DC宇宙哈利波特这样。实际上我觉得这个事情蛮有意思的，就是奈飞在过去的十几年的时间里，从差不多纸牌屋那时候开始，他虽然创造了很多现象级的剧集，但是实际上你也会发现它真的能够变成是一个埃批。换句话说就是这个故事它是可以有持续性的继续延展的空间，以及围绕这个故事本身，围绕这个角色本身，可以有大量的衍生的可能性的。就包括不同形式的这种衍生产品的可能性的这种埃批。实际上也就是到最近的两三年，可能才有一些比如说像鱿鱼游戏这样，他也在把这样的剧集往一个IP的方向发展。就比如说你如果现在去看一个游戏，在欧美市场做的很多的marketing，你的确在发现他在往一个埃批的方向去走。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是实际上相比较华纳手里握有的这些非常成熟的埃批来说，那netty x在这方面肯定还是一个新手，或者是说他是一个刚刚开始摸索的玩家。虽然他已经有很多话题聚集了，我自己当然是会先想到的是这一点，就是说他一下子使得netlist体系当中多了很多已经被时间验证过的，而尤其是商业价值已经被验证过的成熟埃批。我看到很多的报道当中，其实最关注的除了这个哈利波特以外，其实想说的是DC宇宙。因为讲dc宇宙的故事的时候，大家会想到另外一个它的竞品，就是迪士尼。现在我有的漫威宇宙，其实过去这些年华纳一直都希望找一个契机，能够把dc漫画下面的这些超级英雄变成一个真正像宇宙的东西。但是过去十年，其实反而这家公司是比较动荡的，光过去十年间，他已经经历了两三次的出售并购。这样的就是他整个公司是经营非常动荡的。所以这个事情其实也一直都没有真正意义上的做成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在如果说netflix完成了这个收购，可以给华纳创造一个相对比较平稳的一个发展期的话，那么就意味着像DC宇宙这样的东西是有可能出现。当然也就会变成现在迪士尼旗下的漫威很重要的一个能够与之相抗衡的一个对手。因为的确你也可能在别的家再找到一个类似的有有这么样的一个深度广度跟丰富度的，而且是基于虚构人物的一个世界观出来。所以这件事情是我看到大家在讨论当中是最常提到的一个部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我其实还想问一下，因为我们刚才不断的在提到HBU max，然后我觉得HBO max在这个过程当中，其实是一个比较独特的资产。因为它本身也是一个流媒体平台。你觉得这次收购对于SBBOO max会有什么样的影响呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:51]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>Tex rinda就是netflix CEO他们应该是在这个电话会议当中也讲到了一个想法，就是说把HB max作为一个at或者作为一个time，要放在netflix上作为net face一部分。就是一个比如说你每个月付6.99美金可以买到net face，但是还需要再加十美金才能看到HBO max或者HBO的内容。这个可能跟传统的这个电视模式更像了。因为传统的电视上HBO就是一个idd one的这样一个东西。对，就是一个prime channel。他们当时在品牌上一直提的一个口号就是where not TV is，not TV is HBO.</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:24]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>就是HBO和电视是不一样的。所以说他们在传统的电视包裹之外，还需要去额外的付费观众才能够看到他们的内容。如果接下来face这么做的话，可以说face就真正的把自己做成了一个像传统的电视一样的包裹了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:39]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以我作为一个消费者，不是花一份先看两份内容，就是我还得花两分钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:43]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，就是还得花两份钱。但是你可能花的这个钱总体来说更少了。如果你现在就已经是这个net face加上HBU max的长期订阅用户的话。但是对于很多指定了netflix的用户来说的话，那接下来可能说不定他们要看的更多内容的话，他们需要去架设更高的价格。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>另外一个的话就是从用户流程角度来讲的话，我觉得可能face对于HBO或者是WBD现在这个资产和内容可能会采取一个区分的模式。比如说像全类的游戏，procession，像这些所谓的PTV就是高端精品的剧集，他们可能还是把它放在你的HBO或者HBO max上去播。但是对于很多长尾剧集，就是所谓的下饭剧，像老友记、生活大爆炸，像sheldon，甚至是像west wing这样这些长尾神剧，不管是现在还是十年前都不断的有人想去看的这些剧集。其实他们可能就会把它放在n face上，这样对于NF face这个订阅用户的留存来说的话是非常有效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的那我也特别想去带着大家简单的回忆一下，其实HBU max你可以认为在过去的几年当中，虽然大家会时常听到这个名字。但是它基本上你可以认为他在这波流媒体的大战当中，并不算是一个特别成功的案例。当然它的用户的体量各方面还是做到了一些。但是它最大的问题是从19年他推出开始，也是由于它背后的母公司一直有各种各样的动荡，整个业务的策略在发生很多变化。所以HBU max它作为一个华纳这样的一个百年品牌，面对流媒体时代的一个核心业务。实际上哪怕是从它的品牌的角度来说都几经变化。这件事情显示出他的一个在过去的这几年发展过程当中巨大的不稳定性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>HBO面临的这样一个挑战，它是代表整个流媒体进入了瓶颈期。因为我觉得我们一直在说传统媒体如何示威，院线电影如何的在衰退。但是流媒体这个行业本身当然是以net fox为代表的这样一群公司。他们是不是本身也遇到了一些问题，就是在经历了这个黄金窗口期之后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:43]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得整个流媒体行业，因为他们不仅仅是在竞争长内容，优质内容的消费，不仅仅是在互相之间竞争，还是面临很多外部的竞争的。因为用户就会花更多时间在刷手机，在刷抖音，在刷tiktok，更少的时间去看这个长的内容。用户的消费习惯，以他们的注意力也变得越来越短。可能在一个大片推出的同时，也不一定愿意花更多的时间去追这个大片的进展了。我觉得这个是整个行业的一个变化，以及用户习惯的一个变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我从另外一个角度来说，就是我们即使是观看流媒体业务本身。我记得我跟小花可能在四五年前我们就录过播客来聊。那时候整个流媒体大战刚刚开始。但是实际上从我的角度来看你如果回看过去这几年，一边是刚才小花提到的UGC的内容在大规模的发展。可是另外一方面，实际上你看流媒体业务的本身很有意思。就是他只是在过去几年里加了一些原来非好莱坞或者非媒体出身的一些新的玩家。比如说apple、amazon, 包括athletes。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>按理说一个变革的时代当中应该是有一个洗牌的。但是这件事情实际上我们如果光看流媒体本身，它并没有发生。尤其对于传统的传媒跟电影行业来说，它还是一个一一对应的。比如说迪士尼有一个自己的流媒体，HBO有一个自己的流媒体，PCK也对应的一家传统的环球跟com cast paramount。就是它每一家还是跟原有的媒体格局是比较类似的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>实际上如果你去看过去，每一次在这种新的技术替代旧技术的过程当中，它一定会产生一些洗牌。比如说有线电视当时快速发展，跟传统的无线电视网开始有这样的一个竞争格局。甚至是后来反超的时候，每一次都会有一些旧的玩家退出，新的玩家进来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可是如果我们只是看最近这几年的变化，这件事情其实没有特别明显的发生。就是你只是感觉到说，有一些原来是属于硅谷的公司，好像借由流媒体的技术进入到了一个媒体跟传媒业务的领域里来。可是对于原来的传媒的业务，在流媒体平台上其实并没有发生一个洗牌。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我觉得这件事情对我来讲是有一点点反直觉的。所以到现在我们看到ntv这样的收购开始之后，从我的角度来说，反而我觉得对这个事情会有一点期待。反而我觉得前两年这种做的一般的媒体也在这狗着做的好的媒体，你也能看到他比较好的数据。这件事情反而我觉得那个是一个很短暂的一个状态，而且我觉得那个东西是很难长久的。所以我反而觉得现在如果这样的合并发生，然后后面的业务整合开始，这才是我认为所谓的新旧媒体交接的时候该发生的事情。所以如果是从这个角度来说的话，我反而对这件事情还是非常乐观的，我在期待该发生的事情去发生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:18]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实从数据来看，流媒体还远没有到顶。因为我这边能看到2 0225年第三组netflix它营收增长是17.2%，达到了一个创纪录的115亿美元。就2024年年报披露，他们全球用户已超过3亿，第四季度新增了1890万用户，也是一个创纪录的数字。不过他们去年就是宣布从2025年开始不再公布订阅用户数量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:43]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对我觉得从整个全球环境来讲的话，很多的美国之外的这些用户的消费习惯可能跟美国这边的消费习惯还不一样。但是net face这样的媒体巨头或者说流媒体巨头，在美国这个市场里面可能已经达到饱和了。但是在全球范围内，他们可能还会通过进入更多市场去推出新的片子，来继续扩大自己的市场份额。但是从北美的市场来说的话，现在流媒体可能已经达到了一个饱和的程度了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:07]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这是不是也是他们一直在往亚洲文化来发展的原因？比如说推出鱿鱼游戏hip hop，会不会下一个是别的国家地区就爆火了IP别的国家地区的电影或电视剧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:20]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，是的。现在东亚的流行文化以及东南亚的流行文化，现在可能是流媒体市场一个比较大的一个增长的关键。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这个事情蛮有意思的。你比如说像24年的时候，当时比如说以迪士尼来说，它是进入到一个新的发布周期。就从第二三开始你会发现其实他在美国以外办的最大规模的两个发布的活动，一个是在新加坡，一个是在巴西，就是你就能感受到这样的一个新的国际流媒体业务布局的重点在哪里。西班牙语的拉丁美洲地区跟整个东亚地区，尤其是韩国的流行文化，这两年因为一些剧集和音乐的关系变得更流行以后，你会发现它就变成一个重点。但是我自己的观察是，首先国际内容的开发肯定还是有它的空间在。但是有一个问号是不是每一个不同的差异化的地区都能够复制，这个可能是需要去观察的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们刚才讲了net lix收购华纳的重疾，以及如果监管通过的话，这样一个合并后的公司格局可能是什么样的。现在我们可以聊一下这个收购站的最后一个很重要的部分，也就是收购过程本身发生了什么。Netflix是怎么样赢过另外两家可以说是传统媒体的竞争对手的？三家竞标公司里面其实是提出了两次竞价。因为11月底的时候，华纳要求几家公司提出了更好的一个价位，相当于是这三家公司，他分别给出了完全不同的方案。Conca和netflix这两家公司都是提出了只买电影电视工作室，也就是他的流媒体部门。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>派拉蒙是唯一一个提出要买整个华纳兄弟，探索着整个集团的买家。那我觉得派拉蒙这家公司其实是当时很多业内人士是对他寄予厚望的。我们刚才也讲到了，监管部门也提出说希望派拉蒙可以做这个收购的买家。那为什么派拉蒙愿意去收购这家公司呢？我觉得我们是不是可以聊一下派拉蒙的动机，以及他如果收购的话，那之后可能会发生什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:18]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对于派拉蒙或者派拉蒙现在的掌控人David Allison以及他的父亲大卫Allison来讲的话，如果派拉蒙不去收购德勒BD的话，那对于这家公司的未来来说的话，前景是非常不妙的。因为他们的规模是所有的传统媒体巨头里面最小的一家，而且是最最依赖于传统电视网络的一家。所以说他必须要收购不管是WBD还是NBC universal，还是别的一些公司，去扩大自己的规模，去进一步的削减成本，获得更多的用户，扩充自己的偏股，才能够和更多的巨头去竞争。所以现在如果他没有办法拿下WBD的话，那接下来对于戴维Allison，对于pala蒙本身来说的话，都是一个非常大的打击。而且我觉得对于他来说的话，我感觉他在整个收购当中其实都是势在必得的。胡萝卜和大棒都使出来了，他不断的去发出威胁或者放话说，如果特朗普最后没有能够成功收购WBD的话，那他可能会采更极端一些措施，不管是从监管上，因为他是艾莉森家族，和特朗普的关系非常密切，他不仅仅是特朗普的金主，也是他的非常重要的一个盟友。所以他也可能会在接下来采取一些更激进的措施，包括进行敌意收购，直接和WBD的外部股东去向他们发出一个竞价，通过这些手段来继续尝试去收购WBD。但是现在来看的话，的确他之前的一些努力都没有成功。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:39]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得他可能在这里存在一个误判，就是过于依赖自己的政治优势。因为他和特朗普的关系，或者说从反垄断的角度上来看的话，他觉得自己更有优势。所以说他觉得这个可能是一场政治博弈。但是W毕业董事会可能更多的遵循了一个商业逻辑，看看谁给的钱多，以及谁给的钱更快，谁的风险更低，然后就卖给了谁。所以说Allison的这些政治上的优势并没有能够抵过nas从商业上的这些考量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:06]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>还有一点是David Allison在收购派拉蒙之前，他管理的是相对来说小而美的sky dance，现在刚刚收购了派拉蒙。所以说其实还没有能够证明自己的能力，没有办法证明说自己能够带领一个传统的媒体巨头走出低谷，甚至走向辉煌。所以这个也是可能WBD的一个考量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我可以补充一个细节，我记得好像是我在路透还是哪个财经媒体看到了一个小的细节。是说这个Larry Allen他当时提出了一个很高的价格之后，他还专门飞到中东去建一些当地的主权基金，然后希望来为这个价格的出价去募资。但是相对来说，其实net face本身它就是一个市值非常庞大的公司。它曾经也是华尔街最有代表性的科技公司之一，所以它的弹药是非常充足的。你可以站在比如说华纳的董事会的角度去看，如果他面对的两家背后的状态，一个是有这样的故事，然后另外一个是一个现金流相对更组的一个成熟的上市公司。那这个当然也会去影响他们的选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:04]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，就是你提到泰拉蒙的方案严重依赖外部融资，我觉得这也是一个很大的concern。Allison家族作为世界第二富，他为什么需要依赖这么多的中东资金？这点可能也是让WBD会有一些疑虑的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我看到金融时报一篇文章说，周四晚上netflix给出一个非常完整的一个可以立马执行的方案。但是康卡斯特和paramo他们还在就很多条款进行一个掰扯或者谈判，这个过程太复杂，我们想尽快结束这个事情。还有一个原因可能是因为3DFS它作为一个外部的或流媒体巨头来到这个传统好莱坞行业，还是能把这个制片厂业务保留下来。所以现在WBD的有扎斯拉夫，他可以继续待在周围之上，而不是若被派尔蒙收购的话，他可能就失业了。我觉得这也是唯一笑到最后的，知道吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:55]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>应该就是对zus love是整个这个事件当中最大的赢家，他真的就是非常高明。他从之前在discovery探索担任CEO开始，就一直是所有的美国大公司当中薪酬最高的一个CEO哪怕是跟很多科技巨头来比的话，然后他的薪酬都是相当之多的。他在过去的几年也是不断通过调整自己的薪酬结构以及股票期权，从中实现了自己个人利益的一个最大化。他是在几年前通过WBD董事会修改的条款，把自己的薪酬目标从之前的股价目标，然后变成了现金流目标和债务目标。所以说这让他获得了很多现金之后，他也加入了所谓的这个控制权变更条款。也就是说如果这个公司被卖掉，无论卖家多少，他都可以获得期权，然后能够兑现。他接下来很有可能能够在reflex和WBD的新的巨头里面，能够保留自己的职位。另外WZ as of如果这笔交易能够成功通过的话，他可以一下子获得应该是六亿多的资金，能够成功跻身B0A的行列，就是10亿美金的所谓的亿万富翁这个行列。这个对于他个人来说的话是一个非常好的结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对这个事情很有意思，就是我记得前几年我有一次在或左或右上聊美国媒体变局的时候，我当时还提醒听众，我说大家可以关注一下sas的。但是我当时真的想表达的意思是说，大家可以去关注一下，就是他领导的比如说discovery跟华纳整合以后的大的传媒集团，在流媒体变革当中可能会有一个什么样的新的图景出来。但是没有想到几年过后，我当年说这句话变成一个字面意思了。真的就是这个人本身在腾挪操作的，给他个人带来了很多的利益和变化。反而他的这个事业本身好像有还是有很多的危机，居然又经历了新的收购。所以我觉得这个还蛮蛮有趣的，就是变成他个人成为了整个几年的变动当中，可能是唯一笑到最后的一个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:43]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，大卫萨斯的如果没记错的话，他是通用电气属性对吧？是杰克韦尔奇这个传奇CEO的门徒之一。他自己本身也是一个律师出身，所以说其实他并不是传统的一个好莱坞大亨的这样一个背景出身。然后更多的是一个所谓的操盘手，或者说一个金融玩家背景出身。他其实之前discovery收购wan media也是一个leverage biot收购方，然后借巨额的债务通过一个杠杆买下这家公司。所以说WBD在过去的这几年做的最最重要的一个事情就是不断的还债，把债还得轻一点，然后能够提升股价。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:16]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>但是最后发现这个股价并没有得到提升。因为它的传统的电视业务的价速度是非常之快的。所以在David z as love之下，WBD的股价在这一轮竞价开始之前是不断的下滑的。简单家公司的金融状况也是相当之糟糕，股价也相当之糟糕，包括员工的情绪也是非常糟糕的。即便如此，但是戴维扎斯拉夫现在就摇身一变，通过这样一个收购案成为了亿万富翁，获得巨大的个人利益。我觉得真的是很讽刺也很可笑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我想问的是，但其实你们也提到了，就是他的他任下的华纳兄弟。所以说华纳兄弟在过去几年，其实是也相当于是没有碰到一个突破性的进展的，是吗？他们其实也是处在一个非常被挑战的地位。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我先说一些比较直观的。就是我觉得thus love通过一些操作，让discovery这家公司可以跟比他体量更大的华纳合并。大概是2021年22年的时候发生的。就是从那个时候开始，实际上你会发现这样一个合并之后的大的华纳公司内部，它是处于非常动荡的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我当然印象比较深的就是中间对于CNN的部门高管的来回来去撤换。他一开始是cn要做他自己的流媒体，后来新的管理层进来就把这个业务直接就砍掉了。非常快上线了可能两周就把这个业务砍掉了。接着就是他任命的这个新的高管，给公司带来了一波的变化之后，结果后来他也被干掉，然后又要换新的人来。所以这个过程当中，实际上你光看这一个CN里面经历的事情，他还是蛮能折射出这几年在sf领导下的大的华纳discovery，就WBD这个公司内部的这几年的一个情况。而且我们这两年如果你去看业绩上，比如说大家能想起来的电影等等这方面的的表现，你也是会对这家公司这两年的表现会提出很多的疑问的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:01]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后zus love还没有能保留到NBA的转播权。NBA转播权一直是WD旗下TNT电视台的一个支柱节目，也在他上任的时候失去了这个转播权。我觉得体育节目对这种有线电视非常重要。他失去了当时也被骂得很惨。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:18]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，而且他后来就应该是起诉了NBA。所以这个也是在整个行业内来说的话，匪夷所思的一个举动。因为这是一个非常靠关系的一个行业。这时候你去起诉自己一个供应商，或者自己一个潜在的合作伙伴，最后的确是分到了一杯羹，然后实现了自己公司利益的最大化。但是在行业里来看的话，这个也是David rose law比较被人诟病的一点。他可能并不像传统的这些媒体大亨这样，非常在乎关系，非常在乎脸面，更在乎的可能是实现自己，不管是公司还是股东的利益的最大化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>那其实在主流媒体一直不断报道netflix，不断报道华纳兄弟，包括牵扯其中的康卡斯特和派拉蒙。其实最主要担心这起收购事件的应该是另一家传媒巨头迪士尼。迪士尼不能说是独善其身，他在局外其实是受到非常直接的威胁了。毕竟netty x和WD合并之后，进军流媒体，进军院线都对迪士尼产生了不小威胁。不知道两位嘉宾有没有什么看法？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:18]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得迪士尼现在来看的话，不管怎么说，他应该还是这个流媒体大战当中的一个幸存者。因为他提前完成这个布局，它的规模也是相当大的。就包括它的旗下的这个流媒体，有disney plus，有呼噜专注于体育的ESPN plus。所以它已经在做成了一个小小的一个包裹，我相信它是能够在这场流媒体大战当中存活下来的。但是像刚才杨毅说的那点，因为netflix的这个收购案，所以现在又可能给整个行业带来一个更大的一个变局。所以接下来disney会不会也采取一些行动，不管是作为一个收购方，或者是作为一个被收购方，接下来会不会有一些变化？我觉得这个是可以观察的。因为在行业内一直有传闻说苹果希望收购迪士尼，但是这个事情能不能成，因为两家大公司有非常。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>多的渊源颇深。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:09]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，渊源颇深。包括皮克斯之前也是乔布斯创立的这个公司报bagger也和乔布斯本人的关系非常好。以及迪士尼和苹果两家公司都是非常注重自己品牌形象，自己这个品牌也非常好在美国人或者在全世界的人当中有一个独特的地位的这样一家公司。所以接下来会不会有一些这方面的变化，我觉得是可以观察一下的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我我想补充几点。第一个事情是前面我们在聊到这次net v跟华纳的这个反垄断的审查压力的时候，实际上很多媒体都提到了迪士尼的案例。因为在17年的时候，当时默多克把他手中的这些非新闻和体育的影视娱乐的业务都卖给迪士尼的时候，那也是一个规模庞大的一个超级并购案。当时也面临着很多反垄断上的压力。但是实际上最后你看到的结果是安全过关。所以很多媒体也拿张敏的这个来作为一个对照，通过这个来预测说这次nfs和华纳是不是会有，因为之前是有过关的案例的那是不是也会让大家会感觉说命运也许不会那么的多舛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我从短期上的判断，我觉得我跟小花差不多。因为迪士尼实际上它发展的阶段是它已经早于它的竞品完成了整合。而且它本身也握有大量的埃批跟片库，以及内容的品相是非常多元的。所以这些实际上都能够让它在短期之内稳住，哪怕对手在接下来的几年里会有比较大的变化，但是他是可以稳住的。可是我觉得从长期的角度来说，我的感觉他不是说是一种担忧，而是说我会很有兴趣的去看当真正的洗牌开始了以后，未来的媒体格局，它的权力关系是什么样子的。因为现在实际上如果我们只是看流媒体的话，disney它的卡位更多的是在于它是一个通过好莱坞发迹的传统的百年的内容企业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在流媒体变革当中占到了自己的一个位置，形成了一整套的他在流媒体图当中的一个权力关系。但是现在有了一个新的结合方式，就是说是一个科技背景出身的头部的科技公司和一个老牌的内容公司进行整合。如果这个东西成了之后，他其实在接下来的一二十年的竞争环境当中，出现了一个新的合作角色。这个东西有可能会对迪士尼现在的这个位置带来什么样的变化？以及这样的新的模式是不是有可能迸发出一些以前大家没看过的新的可能性。这个东西我觉得在中长期来说，是有可能给迪士尼带来很多挑战的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果你回顾时代华纳这家公司过去几十年的合并史，他每一次都是在重大的技术变革，或者是所谓的传媒时代变化的过程当中。就他的合并的那个案子就是最有代表性的。比如说25年前2000年的时候，当时跟他并购的是美国在线。对，就是一个代表着com bible前互联网1.0时代的一个最有指标性的高光的公司。也是一个来自科技的力量跟一个老牌的媒体公司的结合。在那之前再往前几年是从有线电视出来的TNT特纳广播系统也是被他收购。其实你如果去看这家公司本身它发生的并购，其实它都是整个媒体的转型期，就是媒介转换过程当中最有代表性的一些并购案例。因为之前的案例当中有的成功，有的也是无疾而终的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:21]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>可以再补充一下迪士尼这点，我觉得迪士尼一百多年以来，他一直是把他自己的IP放在核心的。他一直通过各种各样的手段，不管是院线发行，还是线下主题乐园，不管这个埃批是米老鼠还是雷娜贝尔，还是胡尼克，然后来实现自己埃批的盈利最大化。而且它在现实体验这方面，我觉得是没有人可以替代的。它不管是主题乐园还是游轮，这个上面它的运营和它的盈利都是其他的主题乐园和IP没有办法比的。所以这点是迪士尼最为独特的一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:52]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>因为我们刚刚提到主题乐园和这个线下体验。华纳的主题乐园主要采用授权合作模式，并非只直接参与运营。比如与环球影城合作开发哈利波特魔法世界，与另一个游乐园品牌6旗six fly开发dc漫画。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:08]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Netflix其实也是正在向线下体验进发的。比如他们在费城和达拉斯分别开设了一家netflix house，他们对体验式营销也非常在行。我记得我两周前去了感恩节梅西百货大游行，他们有怪奇物语的花车，有hip hop David hunter电影主唱跑出来唱他们的主题曲。我比较好奇netflix在收购华纳之后，他会怎样处理旗下的这些主题乐园授权。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:31]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得netflix其实一直以来的话，它的商业模式其实很简单，它就是一个专注于订阅的这样一个互联网媒体公司。但他现在就收购了WBD之后，需要去做很多很多像迪士尼这样的更重的更累的一些线下的生意。他们之前在这个埃批上的盈利或者说display in其实是非常不好的。不管是像stranger sense这样比较大火的聚集，或者像k pop demon hunter这样的电影，其实要能够把埃批充分利用起来的话，就需要很多线下的深耕，需要很多经年累月的去做一些很重很累的事情。但是这个是那face之前不想去做的。现在有了WBD之后的话，我觉得是这上面会有很多net face能够向WBD学习的地方，能够把WBD过去通过IP来进行盈利的经验给学过来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>换一个角度，我也可以再稍微扩展一点来讲这个事情。过去的这么多年来，实际上至少美国的互联网公司很多的逻辑，比如说中国学到的一些，比如说大家会看重这种指数级增长，大家会看重轻运营重回报的东西。但是实际上你会发现相对于传统的公司来说，这种重资产的东西恰恰就是传统的。尤其是内容公司，他握有的差异化的竞争力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得现在的这样一个并购，至少对我来讲，我会期待看到一个事情。就是你作为一个原来完全是更信奉互联网逻辑的一家公司，你借由这个收购，你有意无意地主动被动的要跟一些传统媒体的业务模式，一些重运营重资产的东西发生关系。那么你怎么去处理这件事情，其实反而变成一个很有意思的新课题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对于nex这样的一个完全硅谷科技背景出身的公司来说，当然从我的角度来说，因为我有兴趣观察媒体，我就会觉得你们也终于走到了这个坑里来。我就想看看说你们有没有可能给这个东西带来一些新的理解，新的经验。还是说其实最后你会发现有的东西殊途同归。就是你一旦跨到了界的这一边来的时候，你能够带来的革新其实也是有限的。你还是按照原有的游戏规则来，我觉得这些都是开放的可能性。但是它的前提就是这次的收购落定之后，我们才能看到后面的这些有可能的方向是长成什么样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，谢谢大家好，拜拜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>谢谢拜拜谢谢大家，辛苦了，辛苦拜拜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好了，以上就是我们这期节目的全部内容了。对这个话题感兴趣的听众，也可以关注我们硅谷101的视频平台。在那里我们会更新两期美国媒体帝国收购专题，深度解读派拉蒙影业和华纳兄弟这2起2025年轰动好莱坞的收购，以及他们背后美国媒体的格局。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们播客的听众可以通过苹果播客、spotify还有小宇宙来关注到我们。如果大家习惯通过视频的渠道来听播客，也可以通过B站和youtube搜索硅谷101播客来关注到我们。也可以在微信公众号上搜索硅谷101来看我们节目的文字版。我是特约研究员一文，感谢大家的收听。</p>]]></content:encoded>
-            <pubDate>Sun, 14 Dec 2025 23:45:00 GMT</pubDate>
-            <guid>693f4d40362989ba3f378dba</guid>
         </item>
     </channel>
 </rss>

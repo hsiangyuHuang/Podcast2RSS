@@ -4,7 +4,182 @@
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
         <description>如有干货，纯属巧合</description>
-        <lastBuildDate>Sat, 18 Jul 2026 05:05:12 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jul 2026 05:01:59 +0800</lastBuildDate>
+        <item>
+            <title>WAIC独家｜智驾的终局是物理AI，L4可能比L3更快？｜对话千里智驾CTO杨沐</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a61e88ea3fec224d5a23342</link>
+            <description>00:00 多年特斯拉老韭菜，不相信自驾了！
+03:53 马斯克说好的硬件兼容，突然被抛弃？
+04:27 从前视到 BEV 再到端到端，智驾三代到底变了什么？
+06:50 特斯拉北美第一梯队，为什么到了中国数据闭环跑不动？
+07:44 世界模型和 VLA，只是给车塞一个 Grok？
+08:23 其实开车不需要模型多聪明
+10:22 世界模型和VLA，以及三代智驾
+12:38 幻觉上车怎么办？你需要一个司机和一个领航员
+15:15 物理 AI 会不会贵到买不起？
+18:08 世界模型其实已经上车了
+19:04 L4 为什么可能比 L3 更快？
+22:54 要乐观！
+【订阅 JustSayAI 早晚报】
+🌈 新朋友！订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
+🌟 老朋友！加入会员获取 JustSayAI 早晚报+深度研报+文字专栏
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
+📱 商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期播客在世界人工智能大会（WAIC）现场录制，嘉宾是千里智驾CTO杨沐。对话从一位特斯拉车主（被HW3.0车型淘汰的用户）的真诚吐槽切入，深入探讨了智能驾驶技术的代际演进（从传统RV到BEV再到端到端大模型）、物理AI（世界模型与VLA）的本质、L3与L4商业化落地的节奏差异，以及普通消费者能否买得起这类技术的现实问题。杨沐站在技术一线，提供了对特斯拉国内困境、国产智驾范式趋同以及未来2-3年L4可能先于L3落地的独家判断。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>特斯拉在国内的困境源于数据闭环无法启动</strong>：杨沐指出，特斯拉在北美体验好是因为有全球数据回流训练，但在国内“只能从他自己的车，现在很多车主又像您这样，是老车”，且图商资质、数据采集法规受限，“这个数据循环想要从0到1启动起来，加速度是不足的”，导致长时间内国内表现难以追上北美。</p>
+</li>
+<li>
+<p><strong>智驾技术范式已走过三代，传感器配置在22年后基本固化</strong>：21年前是传统RV（只关注前方广角）；22年起转为BEV（鸟瞰图），补足360度视觉，前方加长焦摄像头，高端车型再加激光雷达辅助；25-26年切换到端到端一段式范式；当前第三代正引入大模型能力。杨沐判断：“现在传感器它的输入跟人类……起码是第一性原理来说，人类能看到的东西它一定能看到”，硬件升级需求已小，重点是“脑子”升级。</p>
+</li>
+<li>
+<p><strong>小脑与大脑的比喻：端到端是小脑，大模型是大脑</strong>：杨沐解释，“端到端的方案更多类比成小脑，它可以帮你把运动神经、基础动作做到”，而大脑需要深度逻辑思维、因果推理和长尾泛化能力。当前阶段是“小脑和四肢、眼睛都已经长好了，开始学习大脑要把这个从三岁智商往十岁提一提”。</p>
+</li>
+<li>
+<p><strong>大模型解决两个核心难点：泛化识别与因果推理</strong>：一是对水坑、动物、石柱等通用物体的识别，二是模仿学习缺乏因果推理，导致窄道汇入、会车加塞等博弈场景表现差。大模型的思维链（CoT）和生成式视频特征表示（稠密特征）可帮助解决这些问题，但“我不能完全相信大模型这个输出”，需采用“司机+领航员”的混合架构。</p>
+</li>
+<li>
+<p><strong>物理AI不会让车变得特别贵，量产有分层策略</strong>：杨沐以API调用为例反驳：“大模型现在刷出了200B、300B……你真的觉得你平时调的那个API是300B的模型吗？”实际会分层分级，小模型快速响应，高难度升级时调用大模型。“开车需要的智商没那么高”，可以从大模型裁剪出刚好满足驾驶需求的版本。入门级车型（十几二十万）的基础智驾版本可以实现。</p>
+</li>
+<li>
+<p><strong>L4可能比L3更快落地</strong>：核心原因在于责任主体不同。L4是统一运营方，可通过ODD（运行设计域）限制开放区域，最坏情况不运营即可；而L3卖给消费者，“消费者才是最难伺候的”，必须满足所有场景。杨沐判断“2到3年就会有比较大的L4突破”，L3则需要商业模式责任主体变更（保险、OEM、消费者三方重构），如果提前告知消费者失效场景并达成新协议，也有可能提前。</p>
+</li>
+<li>
+<p><strong>特斯拉车主被“每年都说支持”的套路坑了多年</strong>：发言人1直言“我从20年坑到现在，每年他都说明年会支持，两年两年又两年，三个两年了”，暗示消费者对厂商承诺的不信任。杨沐安慰称22年后车型（HW4.0等）在电子电气架构和传感器配置上已趋于稳定，OTA可持续跟进。</p>
+</li>
+<li>
+<p><strong>世界模型/物理AI并非一步到位，其编码器已可即插即用上车</strong>：杨沐指出当前宣传的世界模型往往是“完整仿真闭环”，但实际研发中“我把它这个编码器取出来，直接接到我的支架系统里面，就已经能够涨点了”。技术可以渐进式落地，不必等待完美实现。</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>特斯拉车主的真实挫败感</strong>：发言人1详细描述了自己被特斯拉“温水煮青蛙”的经历——HW3.0车型明确说不支持最新FSD，升级方案模糊（“什么时候能升级、升级什么样的车辆、多少钱全部都不知道，这比直接拒绝我还难受”）。这种对品牌从热爱到失望的情绪在公开报道中很少如此赤裸地表达。</p>
+</li>
+<li>
+<p><strong>杨沐用“三岁智商提到十岁”比喻大脑升级阶段</strong>：在解释当前智驾引入大模型能力时，他生动地说“小脑和四肢、眼睛都已经长好了，开始学习大脑要……把三岁这个智商往十岁提一提”，随后被主持人调侃“要鸡娃了”。这反映了技术人轻松幽默的即兴表达。</p>
+</li>
+<li>
+<p><strong>关于开车到底需要多高智商的争议性判断</strong>：杨沐直言“如果它就切切菜，或者就开车，它智商要求可能就没有。从一个大模型开始裁剪，裁到一个刚好需要刚好能满足的部分，就是一个工程实现”。这暗示当前过度追求大模型参数并非必要，与行业普遍鼓吹“更大更强”的叙事形成反差。</p>
+</li>
+<li>
+<p><strong>老司机坦诚曾被智驾救过命，也经历过“后背发凉”</strong>：发言人1分享了自己在两个极端天气场景下，HW3.0车型帮他在大雨大雾中看清标线开过去的经历，但同时承认“出现过很风险的场景，让我很吓人，后背发凉的也有”。这种真实的两面性在智驾讨论中十分珍贵。</p>
+</li>
+<li>
+<p><strong>杨沐无意间透露国内智驾企业对“消费者睡觉”现象的态度</strong>：当主持人提到有人在驾驶舱睡觉时，杨沐立即严肃回应“永远有相信自家敢在驾驶舱上睡觉的人……非常不推荐，还蛮危险的，别这么干”。这揭示了行业内部对过度信任辅助驾驶风险的清醒认知。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>物理AI物理的一个大脑出来以后，这个车会不会特别的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>贵大模型现在刷出了200B300B你真的觉得你平时掉的那个API是300B的模型吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说到L3L4你觉得可能是个什么节奏？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己觉得L4比L3可能还还更快还更快更简单一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但因为特斯拉我等的时间太久，又被坑了一回，每年他都说明年会支持，会不会我们在考虑国产车的时候也会有一样的问题，我现在买最新的，然后三年后不行了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Hello, 大家好，欢迎来到人民公园说AI，谢谢抖音精选还有WIC的邀请。我们正在世界人工智能大会的现场，然后今天我们非常有幸的请到了千里之家的CTO杨木先生，大家欢迎进驾。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家好，我是姚木，现在是千里自驾的CTO.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是我们其实对自驾也非常关注。然后老兄今天会前跟我说，这一趴一定要由他来。所以这个老兄可以看看有什么问题就跟杨总交流。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是来真诚吐槽跟求助的。因为我是经典的特斯拉车主，是特斯拉的被淘汰的那一代的车主。就是他的2019年到2023年的那个HW3.0，也就是AI3芯片的那个车型model y我是20年定的车，21年提车，二三年就被淘汰了。对，然后现在最新的那一代FSD不支持了，而且比不支持还痛苦的是他他有明确的说没有办法直接支持。那以后可能会开一些什么小工厂，能够做一些升级，但是所有的一切都是模糊的，什么时候能升级，升级什么样的车辆，多少钱全部都不知道，这比直接拒绝我还难受。那那其实我是很想知道说，就是在千里这一块，你们是怎么看特斯拉这种做法的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得首先这个特斯拉车主，我只能爱莫能助了。我们你想这一代特斯拉，它的真正的变化还是从FSD13开始。13基本上是22年左右，没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你刚我就是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在了我在21年的这个横末尾。对，因为是从二年之后，其实整个包括BV范式，包括说这些一段式，整套模型驱动大的范式就基本固化下来了。所以只能说你可能运气不好。我认为说22年之后，只要车型它的这个芯片，它的这些传感器能够去做更换，这些升级OTA都是可以继续跟得上的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是真的是2122年之前，它从升级的角度其实都很很很困难，是不是？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，因为它整个电子电器的架构，它的设计，以前他摄像头都没那么多是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是我就觉得这一块我其实不是很专业，正好就是请教到你。其实有蛮多的特刹车主在关心这个事情。那我升不了级了以后，我该换车的时候，到底该换什么样的车，因为其实像我们这一代，我大概只是知道比如说不光芯片，不连摄像头，全车的摄像头都得换。本来特斯拉就已经是纯视觉了，就那几个摄像头，结果还都不能用。那其实你们是有人激光雷达，还有多方面的这种传感器都有的。那会不会其实我们在考对国产车的时候也会有一样的问题？我现在买最新的，然后三年后不行了，这种问题风险大吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己感觉应该还好，因为从22年之后，大家算是基本上比如说摄像头就配置11颗，然后激光雷达最主要就是前面的这一颗。你说你有有的说这个远距离、近距离或者说补盲那些，但那些都是属于辅助的作用，就是我们的主设备，从22年、二三年、24年，经过三年这个迭代，基本上像大家这个范式都逐渐趋同了未来的这个担忧可能不用太太考虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那最近的话我觉得说又一个新的担忧，就是大家都在讲物理AI这个事情。我一直觉得特斯拉那个物理AI在国内我很悬，我一直是这么觉得的，能不能也是帮我们解析一下，说其实像特斯拉的它的线路跟我们现在国内的主流的这些，包括在千里这边的实践来看，到底差异是什么样子的。我看都是端到端，但是端到端这个词好难理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这确实就是特斯拉它可能有其他的问题存在，一会儿再说。我先说一下，如果从模型范式也好，从技术范式这个迭代，基本上从19年开始，是分成三代，像21年之前我们叫做这种RV也好，它更多是主要关注前方的一个比较广角的这个距离里面识别，那还是一个传统内容。对，到二年的时候基本上改成了这种秒刊图，就是说侧面七个视觉全部补把把你整个360度的视觉范围全部补补好。同时前方有一个比较长焦的一个摄像头去进行补充。使得说你基本上我们看到的东西跟人类看到的东西就已经能够完全对标了。在这个基础上，越高端车型越加更多激光雷达去辅助说我这个识别这个效率这一套范式是在22年开始基本稳定，到25年之后，这套范式，我觉得大家25年26年左右，现在基本上都切换到说这种端到端的一些这种一段式的一个范式上。那在这个基础上，现在大家更多就是开始第三代的研发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就说我怎么在这个基础上去引入一些大模型能力。这个能力更多是在这种大脑或者说这种芯片级别上的升级。它对于这种传感器的级别上来说的变化来说就已经比较小了。因为你可以理解现在传感器它的输入跟人类，至少是我从第一性原理来说，我人类能看到的东西他一定能看到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>基本上就是车最基本的眼睛、耳朵这种鼻子就是基础的，就我们说的这种五官感知应该基本不用再升级了也够了。对，但是脑子就差很多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>脑子你可以类比说像这种端到端的这些方案，他更多类比成小脑。它可以帮你把运动神经，帮你把一些这种基础动作给做到。但是大脑你的一些这种深度的这种逻辑思维，因果关系的这种推理，还有一些这种更长尾的一些这种泛化能力，它是有所欠缺的。所以现在等于说小脑和四肢、胳膊、眼睛都已经长好了，开始学习大脑要把这个开始。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>要鸡娃了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，要把三岁这个智商往十岁提一提了，大概这样的一个过程。那那再说一下这个简单补充一下特斯拉，特斯拉其实在美在北美还是在欧洲。欧洲其实法国也挺难的，至少在北美它的体验是非常好的。没错，而且这个特斯拉他就从第一性原理上，他的这些饭是什么？这个我觉得是无可厚非。他肯定整是整个世界级第一梯队，只是说在国内确实会有很多阻碍。你别的不说，就是你像国内这些法规，这些这种数据的这种采集，这都是一些比较困难，这就不说了，就最基础的这种你图上的资质，他为什么在北美能做的那么好？因为他有全世界的这个数据收集，它能回流。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他能训练我每踩一脚刹车，每次对转转一下方向盘。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>数据都给他了。但是你到国内第一。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>咱很多地方就进不去了得隔离。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二他只能从他自己的车，现在这个车主而很多车主又像您这样，是是是老车，那这也没错，我他的设计方案也没有没有办法帮助。所以他这个必闭环这个数据循环，他想要从0到1启动起来，它这个加速度是不足的。所以我认为说会在很长一段时间，它在国内它的表现并不一定会很快就能追上他在北美的表现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK这个又出现一个新的问题，就是说这个大脑我们都知道，因为大模型我们都知道它有很多不靠谱的地方。对，应该说就是demo上线很惊人。我们经常在节目里面讲，就是demo的时候是小龙女，实际用的时候是贾玲的情况是差距是很大的那我在想车这部分就是大模型怎么样能帮到这个大脑方面，或者说可能是别的什么样的新的一种我比比现在的大语言模型更好的模型，就是世界模型，它是怎么样在做的。我们现在其实这一块对于我们频道而言，有很多人想了解。今天周老师你可以讲的对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就现在这个名词比较多，最主流的有两个名词，一个是世界模型，一个是BLA。对，其实是这样。我先说一下，自驾刚才说我们小脑，如果假设说我们已经小脑做的比较好的情况下，要补大脑主要是要补哪几块？就有两个比较大的难题。第一个难题是说对于这种世界的一些这种泛化性的理解。比如说像现在这些自动驾驶，我们识别这种人车道线，这些基础的符号它都能识别的很好。对。但是你来了一个水坑，来了一些动物来你中间长了一个石柱，这种通用性的识别能力是欠缺的这是第一个难点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个难点是因果推理关系。就因为现在的基本上所有的这种端到端的范式，它都是一种模仿学习。模仿学习它的本质就是你的数据分布，你通过这种数据的积累，它来就是他在不带任何智商的前提下，他去尝试你和你的这个行为。他本身是一种概率分布的一种修正。那这种情况下他是很难去做一些因果关系推理的。因果关系推理不就没有因果关系推理，你对于一些交互博弈你就很吃亏了。举个例子，像现在很那个自动驾驶，你很难做这种我这种窄道汇入，我那些叉车加塞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对会车应对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>电机这种都是对于这种老司机，我们这个驾校可能考个几年才能毕业生的那种高难度动作，新手司机就做做不好。为什么做不好？因为老司机你要学会察言观色。对我出我不能只看自己开车，我得观察说。别人他的轮胎稍微。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>转了转一点，还有人伸出手伸出来，怎么这样动的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，甚至他看了你一眼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，有时候这样看一下，示意这些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>输入对于你是不是要加速进去是很关键的。那这几个点就是对应到说其实都是一些大模型的这些方案他比较擅长的点。比如说像LM他他的这个思维链，这COT的方式，就天然的就你很适合做因果关系。因为你可以通过一些这种语言，一些上下文的一些方式，能够去辅助他去做推理。以及说像我们现在比如说那些生成式的这些视频生成的这些方案。你想就是我们现在生成式的视频方案已经非常牛逼。是的，很牛了，已经很牛了。对你说他真的很知道说他在生成什么东西吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不一定，我的感觉是物理的，他们差很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是他对于所有的这个内容他都有生存能力，这意味着什么？这意味着他的这个特征他是能够表示所有一切事物的。就我这个特征我表述出来以后，我到底能不能理解我那么转化这是后面的事情，是OK那也是。但是我至少需要有一个编码器，我需要先把这种这个世界它长什么样样我全部都编码进去。这个就是像这个支架，以前大家可能dance和SPA好像就是这个稀疏什么稠密这个方向好很多很多很多方案其实走的是这种稀疏的路线。但世界模型就提出来来说，我们需要用一种稠密的特征。我们需要我不管这个后面我们怎么处理，我先要把所有特征我都清楚的表征出来。所以这就是这两条路线尝试需要解决，希望解决问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>事业模型希望说我的用特征来表示这个世界，我能够把它还原出来，我能够用一个仿真器，我能够把它进行生成。然后VLA希望说我用一种VLM的形式，我用LLM的形式去做一些推理。自驾它本来它是一个模仿学习的方式，那我们怎么把在这个模仿学习方式的基础上，我把世界模型的这个理念和VR.</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>VRA结合起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>理念结合进来。这个就是未来自驾想要在第三代去真正追赶人类需要解决的问题。大家提事业模型也好，提VA也好，提了各种各样的方案。本质就是说我怎么把这两个已经存在于大模型的技术，我去引入到现代支架这套基础的范式里面，我去做一个结合。我只能说我原先这个范式我不不回退，同时我又具备了这样新的这个能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在这里面你刚才说这个大模型它经常有幻觉或者不靠谱，这个事就是现在最关键要处理的。我不能说完全相信，对，至少从我们角度来讲，我不能完全相信大模型这个输出。所以这个机模它首先必须是一个基于这种视觉，基于一些这种自驾范式的一个机模。就比如说我们开车的时候，你可以理解成说你有一个司机和一个领航员。OK司机才是真正踩刹车，踩彩这个油门的人。他需要有一个高超的基础的小脑技巧，同时他自己能处理一些问题，他处理不了说他去问一下银行业人员，我应该怎么去做做问题。现在很多这种思路是朝着这种方向去，我去我去享受争议的形式去做结合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这个挺好解释一个事情，就是很多人以为是未来一个超级的模型，包含了物理世界的AI，包含了大模型，包含了各种各样的基础的。刚才我们说的传感器的模型，很多人想象的是一个超级模型解决所有的问题。但实际上我感觉越聊越像一个其实像机器人一样的，它其实还是多学科多种模型融合在一起，对去去解决这个问题。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是怎么说，你如果从模型的角度来讲，它确实是一个一个完整的模型。但我们核心关键是说你这个模型怎么训练出来。OK就是任何模型它都不可能说我就一大堆数据，我只用一次统一的标的这个训练方式，我去往里面怼，然后就训出来是吧？你哪怕大模型它也有pretend middle train，poser train, 这里面也分好几层，不同训练先后顺序，为哪些数据网络结构在在什么时候去接进去，这些就是很讲究的事，通过这些范式我们把最关键的东西先固化下来。但在这个计价能力下情况下，我加这个大模型能力的时候，我又不能导致说支架回退。没错，比如说我大模型的那个基础模型也一样，我需要一开始就把这个支架数据去加进去，让它一开始就具备对于这种自驾能力的一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这种场景的上下文的理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以及就因为像现在做agent或者说我跟这个大模型的很多公司也经常有有交流。在去年的时候就分享过一个有意思的观点，就说其实在最近几年，今年可能有一些其他突破。之前几年很多事情是说我其实那个大模型它的基模它可能就有至少百真实的概率。它能够响应对一个问题。在这个基础上你去不断的去做post trade，你去提高这个概率。如果你的基础模型你本身不具备的能力，你再怎么去做后处理，它的上限都是非常低的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，这里可能就引发一个我更痛苦的问题，就是这个模型要求这么高，就是这个物理AI物理的一个大脑出来以后，这个车会不会特别的贵？实际上就是不管是硬件还是软件，我可能都不一定能买得起，会不会有这样的一个问题？因为我相信这个东西现在至少说世界模型也好，物理的模型现在好像大家投入都很大，都是极大的那种。那等着到最后能量产的时候，它是一个什么样的一个水平。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者应该是投产比对。太谦虚了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就这玩意儿能我这普通人能买得起吗？是不是得很贵的车了才行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得所有的量产都有量产的方法。拿大模型公司来说也一样，大模型下刷出了200B300B就一直往上。你真的觉得你平时掉的那个API是那个200B的模型吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说的好，那个active的那个一样的参数是很小的一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它会有非常多不同分层分级的策略，它会给你一个小模型来快速响应问题。你哪天你生气了，你开始骂他了，他给你升级了，或者说他识别出来你这是一个高数题，你要高级智商。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那就像我们最近用vivo 51样，对吧？觉得你太傻了，叫你去用open工程技巧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没错，也有不同的这工程技巧。观测技巧就是或者说坦白说这个开车，你真你你觉得他需要非常高的这个智商吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉其实是不需要。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，所以这其实是一个循序渐进。而如果我们想说聚生智能他又又是一个他要当你的秘书，他要当你的陪考，他还要给教你数学题，当你的家教，那估计智商要挺高的。如果他就切切菜，或者我这个我就开车，他智商要求可能就没有。那你从一个大的模型你开始裁剪，裁到一个你刚好需要刚好能满足的这个部分，这个就是一个工程的实现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以其实看起来总有办法搞出一个适合大家的入门版。就是说入门版的应该总是还是可以的对，就是在现在比如说主流车型，可能有自动驾驶的车型，可能十几二十万都有基础的车型。对，可能是这样子，还是可以搞得出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的那肯定能搞得出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的那大概可能是多长时间呢？其实这个东西的落地，我觉得很多人其实听世界模型已经耳朵听出茧了，或者是物理模型耳朵听出茧了，就觉得说是这样子，但是离我好像很远就这种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这是两个就是当大家进行宣传的时候，往往会你不管是大模型也好，还是说自驾这个企业也好。如果你要宣传这种高端的，我真的是说一个仿真完整闭环，我全部在这个虚拟世界里面去做对抗学习，这种技术，首先这几年发展的非常快，基本上我觉得去年能几十B模型的效果，今年5到6B模型就能做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先这个行业趋势发展非常快，然后其次是说就是我们追求最上限的时候，我们往往是想一个非常完善的这个场景。但是当我们实际使用的时候，我们想要把它用起来的时候，我不一定需要完整的实现这个场景。我举个例子，比如说世界模型，如果你说仿完整仿真闭环，我需要很多显卡去仿真。现在算起来可能性价比没有那么高。但是我这个世界模型，我把它这个编码器我取出来，我直接接到我的这个支架系统里面，我就已经能够涨点了。如果从这个角度来讲，那世界模型现在就已经上车了，是吧？就是说我们研究这因为这些技术它是相通的，他不是说一个个各自独立说我这个东西我就必须完完整整把这个东西做出来。最后你模型都是可以去进行接入的，我把它最关键的这个部分我选出来去进行接入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你可能的一个最佳的猜测，比如说像这种用，我们知道自动驾驶有分级，其实到现在应该国内正在路上跑的都是L二级的。是的，应该都是还是L二级的对，那比如说到L3L4。你觉得可能是一个什么节奏？我们现在大概是多长时间？就是从时间线上来看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己判断可能是2到3年就会有比较大的这个图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>2到3年可能会到L3吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有比较大的L4.</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我自己认为L4我觉得.</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还我自己觉得L4比L.</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>3可能还更快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>更简单一点。Ok这里怎么讲？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>能多讲一点吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么？是因为L4你还是一个统一运营的，L4的运营方他不是这个消费者，说实话消费者才是最难伺候的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白了也对，没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你运营的时候你是有很多云端的辅助手段的，以及我就是说最坏情况我有一个场景我解不了，那我通过ODD我就我这个区域我不开放运营，我到不了就好了，是吧？所以他很多这种手段他可以去辅助。但是当你一个消费者你买了一辆车以后，你你你必须满足他的所有的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没错，我就要求你所有是完美的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以LL三是一个想象中非常完美的一个方案。而L四是一个我们以商业用途为驱动，我只要能商业化OK我们就可以说我们L4我们走出了第一步OK，所以这个L.</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该是在L四级别来算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能才算他算得过来L3。不然的话你卖给消费者。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你有可能你会大量的这种人力物力资源会耗在一些消费者的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是从我觉得这个是从技术的角度来出发。那如果从商业化，其实L3也是有机会的。那机会是什么？就是说L三一方面它从技术角度来讲，它可以往前进。另一方面L3它其实意味着一种商业模式的变化。包括说你的保险，你的一些这种对就是责任主体的一个变更。责任主体变更就意味着说你商业模式的一个变更，本身你只有OEM跟消费者两方的这个是的交互。现在多了一方进入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>整个链条要重重写。是的，就像像巨森很多这种场景，它本来就是为人设计的对，那你说硬要塞一个人形的机器人进来来兼容这个场景，有时候也是没那么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>快的对对。比如说你如果要做商业运营的时候，我受限L3我加一些前提条件。但是我提前我告知所有消费者，我在什么什么场景下有可能失效。在告知的情况下，这个三方形成一个新的模式。如果消费者说也愿意，也希望说有个更好的这个支架系统，那会不会提早到来也是有可能的是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，我现在其实最期待的就是说这个车以后我不用开前面空间给它空空出来，能干嘛干嘛，放一个桌子也好，或者干个什么也好，以后是真的不需要去开。尤其是在美国，看到是有人真的这么搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后国内也有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后国内也也也是也是有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么说呢？永远有相相信自家敢在驾驶舱上睡觉的人。没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常不推荐这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对还蛮危险的，别这么干跳动。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>千万不能这么想，保持乐观非常重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，对，这个是我我觉得是我是很期待，就是做做了一个开了十几年的老司机，我是很欣喜的看到这个自动驾驶是进步到现在。我哪怕是我说的这个SW3.0时代的，我都觉得他有救过我一两次命。我有两次在那个极端天气，大雨大雾的时候，我完全看不见，他还能看得到那个标线，还能帮我前面我慢慢的开，我自己慢慢的快开不了了，他能帮我渡过去，那我觉得说这个就已经很有价值了。那那现在最新的这种能够帮我自己超车或者干嘛的那我就更更开心了。是只是说现在说到底还是L2，我还是不敢完全交给他。我也出现过一这些很风险的场景，让我很吓人，后背发凉的也有。所以像这种事情我就是真的非常期待你们后面可以做出，就是又好又便宜又好用，而且不要太久，两三年我们就能有了。但我绝对要支持一个国产的，我就不会说一下特斯拉了，因为特斯拉我等的时间太久，我又被坑了一回，这次我吭的太久了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说的很好听。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我被老我被老马这个屁坑了几年了。我从20年坑到现在，每年他都说明年会支持。两年两年又两年的三个两年了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>股票一直买，但是功能没见加。是是是，希望杨总给我们带来更多的科技的便利给我们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是值得期待的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>保持乐观。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢杨总谢谢杨总，谢谢杨总。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谢谢杨总。好好，我们就这样吧。好，谢谢。不好意思，我听不到你的声音。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我没办法跟你们这边真的很吵。就是我听你都有点困难，这是真的听得到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我这边完全听不到，我就看你嘴型。</p>]]></content:encoded>
+            <pubDate>Thu, 23 Jul 2026 23:00:00 GMT</pubDate>
+            <guid>6a61e88ea3fec224d5a23342</guid>
+        </item>
         <item>
             <title>谁是上半年最佳AI？美国造超跑，中国造街车！中美AI格局变了！</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a58af48016dcc7e05432f6f</link>
@@ -5075,37 +5250,6 @@ Apple podcsat朋友请移步👋
 <p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我个人看完这个发布会，我是觉得说，我们整个行业已经开始从卷大模型到去年卷agent到现在edia出来喊说gave law结束了。但是现在我们又看到说我们又可以去卷垂直模型了，就是垂直模型的scaling low远远还没有结束。这是我看完这个大会，我觉得我自己非常兴奋的一个点。就非常高兴今天跟大家分享亚马逊的reinvent大会。我觉得通过我们自己作为一个创业者跟一个用户的角度来跟大家分享我们看到这次大会的一些兴奋点。然后也非常谢谢大家收看，希望下一次的大会我们再见，拜拜。</p>]]></content:encoded>
             <pubDate>Sun, 07 Dec 2025 23:00:00 GMT</pubDate>
             <guid>693587764ef12f9fe962af92</guid>
-        </item>
-        <item>
-            <title>Scaling law终结｜中国“应试教育”报应在了美国模型上？解读AI大神Ilya最新访谈</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/6931678e3fec3166cf4271a9</link>
-            <description>🔴怕水勿入！怕水勿入！怕水勿入！
-如果我告诉你，现在的 AI 其实只是一个为了考试得高分而疯狂作弊的学生，你会怎么想？它能拿奥数金牌，却连一个最简单的代码 bug 都修不好，甚至修好了 A 又搞坏了 B。这不是它笨，而是因为我们奖励错了方向——这叫 Reward Hacking（奖励作弊）。 为什么那个能碾压人类的“刷题学霸”，到了现实工作中反而不如一个只学了 100 小时的普通人靠谱？ 这期视频，我们就来聊聊 Ilya 最新访谈揭示的 AI 致命缺陷…
-00:00 现在的AI是不是只是一个狂刷题的应试学霸？
-04:16 奖励作弊机制是如何培养出AI的讨好型人格？
-08:07 缺乏情绪感知的AI为何注定无法拥有真实智能？
-10:48 通用大模型的暴力美学定律是否正在走向失效？
-12:00 只有逻辑慢思考的AI是不是进化的残缺幽灵？
-14:40 我们是否误把AGI当成了无所不能的最终成品？
-16:00 大力出奇迹的ScalingLaw是不是对资本市场的谎言？
-20:59 真正的AGI是不是应该被定义为超级学习者？
-22:40 为什么跑分榜单在实际业务落地中毫无参考价值？
-24:20 特斯拉这种专用模型会不会才是AI落地的正解？
-25:35 什么时候我们能看到真正由AI独立署名的产品？
-27:15 软件开发是否正在经历从确定性到概率性的跃迁？
-29:03 AI介入后的工作流是不是彻底颠覆了传统产研？
-30:22 人类大脑准备好去适应非确定性的AI世界了吗？
-【订阅JustSayAI早晚报】
-🌈新朋友！订阅「JustSayAI早晚报」· 每日两封 · 一键听报
-🌟老朋友！加入会员获取JustSayAI早晚报+深度研报+文字专栏
-【主播小红书】：
-📕叫我小苏就好啊
-【关注频道】：
-▶️Youtube｜📺B站｜📕小红书｜📻Podcast
-📱商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[]]></content:encoded>
-            <pubDate>Thu, 04 Dec 2025 10:58:30 GMT</pubDate>
-            <guid>6931678e3fec3166cf4271a9</guid>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,220 @@
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
         <description>如有干货，纯属巧合</description>
-        <lastBuildDate>Sun, 26 Jul 2026 05:01:59 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 05:15:42 +0800</lastBuildDate>
+        <item>
+            <title>梁文锋：最顶级的精明，看起来往往像理想主义！｜DeepSeek梁文锋会议解读：</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a6b2b0956a3f3491ba7871c</link>
+            <description>所有人都在夸梁文锋格局高，创始人看到的却是一张算得极精的账：硬件10个月回本、API按成本6倍定价，融资的钱继续买卡。“反正开了你也做不了”，这句话才是把同行吓惨了的成本壁垒；从绕开英伟达生态，到Agent自我迭代，这场闭门讲话泄露的，是理想主义背后的商业门道。
+00:00 “梁圣”的克制，是格局还是一套精密算法？
+05:18 10个月回本、6倍定价，这笔账到底怎么算？
+09:28 融资全部买卡，贵四倍也买：不比放银行香吗？
+11:07 谁有资格上车？DeepSeek把融资也做成了定价权
+14:49 开源只是试吃，真正的护城河藏在哪里？
+20:07 TileLang重构底层算子，国产芯片真能绕开英伟达？
+21:31 Claude加一两个工程师，竟然做完AMD硬件适配原型
+24:45 模型越来越少谈，为什么真正卡住的是上下文与工程化？
+27:27 具身智能为什么要等？现实世界才是最后几十公里
+【 JustSayAI 早晚报飞书版上新】
+🔥订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
+📱 商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>三位播客主播围绕DeepSeek创始人梁文锋被泄露的内部投资人会议讲话（长达3-4小时录音、42页文字整理）展开深度解读。对话核心议题包括：梁文锋的“克制”哲学是否真实、其十个月回本+六倍定价的商业模式如何成立、开源策略的真实意图、两轮融资背后的资本博弈，以及AGI发展路径的阶段性判断。主播们将梁文锋称为“梁胜”（推特网友因其算账精准而起的昵称），认为他是一位“非常精明”的理想主义者，并对比了张小龙的“克制”与梁文锋“克制”的本质区别。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>“克制”是核心关键词，也是数学方法论</strong>：梁文锋讲话中“克制”一词出现数十次，但并非道德品质，而是从量化资本的数学获利方式推导出的方法论。克制体现在两方面：克制盈利冲动、克制捡芝麻（做浏览器、社交等周边产品），聚焦AGI大目标。“所有芝麻都是在摘西瓜的路上捡的。”</p>
+</li>
+<li>
+<p><strong>十个月回收硬件成本+六倍定价的商业模式</strong>：梁文锋宣称API定价基于成本六倍、十个月可回收硬件投资。主播解读：这六倍利润只算了设备折旧和电费，没有计算研发费用、人员工资等大头——毛利率虽高达80%以上，但对比Google、Microsoft约60-70%的毛利率，实际并不惊人。真正要表达的是“我有定价权，我会算账”。</p>
+</li>
+<li>
+<p><strong>融资逻辑是“代客买卡，十个月回本”</strong>：梁文锋称融到的几百亿将全部用于购买GPU，“贵两倍也买，贵四倍也买”，因为十个月回本，“这比不比放在银行香吗？”主播将其理解为：拿投资人的钱买卡，十个月回本，六倍定价卖API，即便最坏情况也能靠卖API续命。</p>
+</li>
+<li>
+<p><strong>开源是战略而非理想主义</strong>：开源相当于试吃，但秘方是自己的。开源后，第三方即使拿到全部代码，也无法做到同等成本水平，最终仍会回来购买API。“开源了你也部署不了——没有硬件、没有机房、没有运维人员。”这是最核心的供应链管理能力。</p>
+</li>
+<li>
+<p><strong>融资操作的稀缺性博弈</strong>：两轮融资几乎无间隔，估值上涨30-40%。梁文峰自己拿出200亿真金白银，腾讯出大头，国资委和几家老牌创投入局，阿里缺席。背后是大量投资人被拒之门外，形成A+轮、B+轮的持续加价机制。</p>
+</li>
+<li>
+<p><strong>与张小龙“克制”的本质差异</strong>：张小龙的克制是坐拥腾讯流量下的被动选择——“多做一步被抓去，少做一步也不行，只能克制”；梁文锋的克制是算清整条供应链后的主动布局，“算得非常精”。格局不同：张小龙是产品功能层面，梁文锋是生态层面。</p>
+</li>
+<li>
+<p><strong>AGI发展五阶段论</strong>：大语言模型→思维链（DeepSeek把OpenAI的推理过程打开了）→Agent（卡点不在模型，在人类工作的上下文不够）→模型自迭代（“模型自己迭代模型，自己还花呗”）→具身智能。梁文锋判断具身智能应留到智能基点突破后攻克，现阶段投产比太低。</p>
+</li>
+<li>
+<p><strong>绕开英伟达生态已成时间问题</strong>：DeepSeek自研底层算子，让AI模型自身适配国产芯片。引证AMD最新芯片的硬件适配代码就是由大模型（Claude）协助完成的——给一个总目标，一两个工程师就搞定了早期原型。Linux创始人Linus也已表态：要么接受AI生成代码，要么滚蛋。</p>
+</li>
+<li>
+<p><strong>梁文锋认为这个讲话泄露后不会被公关掉，且大概率是真的</strong>：与黄仁勋“酒桌讲话”（被公关）和李笑来录音（被黑惨）不同，梁文锋的讲话公开后反而被“往上抬到升级的标志”，这侧面印证内容的真实性——因为“关着门才会说的话、台下说的话”才具有这种真诚性。</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>“梁胜”外号的由来</strong>：推特网友因为梁文锋算账算得太精，给他起了“梁胜”这个昵称，主播们全程以此称呼他，甚至调侃“梁观音”——如果梁文锋连运维人员都帮客户配好，那就是观世音菩萨了。</p>
+</li>
+<li>
+<p><strong>梁文锋因内部泄露而暂停融资的反应</strong>：新一轮融资已经在推进中，泄露事件让他“不高兴不爽”，直接暂停了这一轮——主播判断这印证了讲话的真实性，因为“能够有内鬼终止交易”，这种反应不像精心策划的战略性泄露。</p>
+</li>
+<li>
+<p><strong>主播对具身智能叙事的嘲讽</strong>：具身智能必须讲，因为“你让我这些匈奴小民怎么能感受到这个震撼呢？只是写个文章和编个代码，大部分人是感受不到的——你得让我实实在在看见机器人包鸡蛋才行。”</p>
+</li>
+<li>
+<p><strong>三位主播的最终行动</strong>：讨论完梁文锋的商业模式后，小松说“已经很实际的往DeepSeek的账号多充了点钱”，另一位主播紧接说“我们就不讲虚的，落到最后就是充钱打钱充钱打钱”……用真金白银投出信任票。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>梁文锋，他的起源是做量化的，不可能是从道德层面上考虑这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就是个数学问题，大家叫他梁胜，梁胜其实我觉得他是算的非常精的。我如果融这么多钱，就全部买卡，就贵两倍，也买，贵四倍也买。因为老子十个月能够回收收他的成本，就这比不比放在银行香吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我有定价权，我会算账。硅谷有几个公司能敢承认说我能赚钱的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不是说你奥匈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我就比较紧张，不是说你我说所有人都是垃圾。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这周有一个很值得跟大家聊的，就是梁文峰那个泄露出来的讲话。首先这个讲话是真的还是假的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大概率是真的，是吗？我觉得这格局的话不像是这个真的假的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该也不会删帖了。好，我们就姑且当然是真的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是用反例来证明，对吧？你看他不是说号称停止了新一轮融资，暂停了新一轮融资，对吧？然后对，而且这个原因就是很简单，就是因为这个不高兴不爽自己的内部的东西被泄露了，对吧？然后从这一点来讲，其实就已经印证说明是真的，要真是假的无所谓了。反正我觉得不管是战略也好，战术也好，但是我看了那个东西之后，我倾向于是真的90%是真的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有一眼假，搞不好是跟贤哥一样战术泄露，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我倒不觉得，这我觉得反正很开门。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得挺好的。因为我觉得从这个讲话因为非常长，看完以后我觉得这个梁总不只是个有格局人是个真实的人。对对对，摆脱了低级趣味的人是吧？是个摆脱了低级趣味的人，是个非常精明的人。怎么精明呢？就是我们今天跟大家从从这个创始人的角度来跟大家聊一聊，就怎么来理解来拆穿一些东西，我觉得可能对大家会更有帮助。我们先一人讲一个点，你印象最深刻的要不贤哥你先讲一下是你印象最深刻的几个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>点行我觉得我看到的最深刻的一个点就是克制这两个字儿。咱不说是不是真克制，但就是这两个字出现，因为我做了一个高频词排序，除了那些什么AI、卡、什么英伟达之外，有一个词出现次数特别多，几十次，就是克制这个词儿，这个词我觉得是精髓。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个让我想起了几年前的张小龙。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>太值钱了。还真是你要这么说，让我突然觉得有点恍然大悟的感觉。反正因为克制这个词儿，其实他在里面用的方法不是说要强调自己，这是一种品质，我觉得是一种方法论。就是他是从量化资本或者叫做量化这种数学方式，然后怎么获利的方式来来谈克制的，我觉得这也太牛了，真的就是用数学去搞商业，这是一种降维的方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我先给我们解读。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>直接解读是吗？行，我就说首先克制体现在几个方面，在他在几个点上提克制。第一个克制就讲的是盈利，对吧？就是要克制盈利这个事儿。就讲到自己为什么不追求高盈利快速盈利。然后第二克制就是说他的目标大的愿景是AJI，而不是现在的所谓的捡芝麻。它里面提到就是说他所有的芝麻都是在捡西，就是摘西瓜的过路上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>遇到这个隐身奥特曼吗？去年干的那些事情，又做浏览器，又做社交，又做soa对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么都搞。他说那句话的时候疯狂就是说我不是针对你们某一个人，我是针对在场的所有人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不对？有没有那种感觉对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>奥匈我不是说你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>奥匈对我就比较紧张，不是说你我说所有的人都是垃圾。对，不开玩笑说所以就这就这做到这两点克制。我觉得作为一个商人来讲，尤其是说你看我看到评论区有一个特别牛的一句评论，就是点赞最多就是这是一个带有原罪的，然后有理想的创业者的自白。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这不是我说的吗？那我看到一个高赞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>评论是这么说的。当然你也有同死的高就是一样的高论。确实是就是说大家觉得做量化的人就是有原罪的对吧？就是割了所有人的韭菜，现在来讲又又痰克制，我不是这么看，但是我起码就是说从我这个点上来看，我看到整整个三个多小时还是四个多时录音，42页的PPT，42页的文字整理，我真的是有点感慨。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就感觉，打住一下，打住一下。来来来，我给你拉回来，你先不要感慨，就是你觉得就包括老兄你讲讲你觉得这个梁总，现在推特上面人称这个梁胜，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，特别说要改名叫梁胜。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>梁胜这个克制跟几年前这个龙哥还出来讲的时候，张小龙的这个克制你觉得有什么区别？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得这还挺大的。龙哥张小龙的这个特质指的是产品接整个产品的设计，然后整个的那个里面的，我觉得说更多是产品设计功能级别的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的意思是格局没打开？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是说他的因为我们其实微信我们比较了解，就围绕他做生意做好几年，他那个他到后面是微信支付之后，才是商业化比较强的一个产品。微信支付之前不是的，他是以社交为目的的对，这个差别很大。然后梁胜这里有一个很大的问题，就是我看到的印象最深的是说他说的API的定价是十个月可以回本的一个东西。然后约等于什么？一个是六倍的一个利润率，这个我就不太懂了，我没有看懂。就是说这玩意儿怎么算的出来是这么个数呢？因为其实整个API的投入应该是非常大的，我觉得十个月是不太可能回本的。因为我觉得说不要说你是等一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>等下来我打断一下，这个十个月回本是指deep seek自己买硬件十个月回本，还是用户去部署买硬件十个月能回本？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他太多细节不清楚。我觉得可能贤哥可以帮我们讲一讲，就是在什么情况下他能做到。因为我我光看这个大标题就没有看懂，因为本身这个是泄露的文件，我看了很多都是二手分析的，我都不知道他一手到底怎么讲的。这个算法我就觉得很奇怪，是因为哪怕是我不要说我自己部署deep seek，我就使用deep seek，我做一个应用十个月，我能不能回把我所有的本都回来，我也不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为它不是一个标准的财务说法。如果说标准财务说法，我们会讲到怎么样去摊销？然后毛利率多少？对，所以这个等于是绕了一个圈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>贤哥给我们讲一下呗，所以我觉得贤哥真的要帮我们解释一下，因为我觉得这也跟你刚才讲的克制有关，因为如果能看得起这笔账，这克制我信。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以说你要把它放在语境里来看，我觉得他这一点只是个论据，根本就不是说论点。所谓什么叫论据，就是他要证明自己一个观点。那为什么呢？他讲这个东西的前提背景是什么？是说我们不想定高价，对吧？我作为一个开源模型来讲，我不想定高价。而我要实现什么呢？实现我远大目标，在这过程中的话，我还能持续经营，然后这是一个前提背景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二点来讲就是我们需要做个假设，这个录音是真的情况之下，什么录音？那肯定是他开电话会，做这种投资人的电话会，或者说是面对真实投资人坐在那儿他侃侃而谈。但你想能砍三个多小时，在这过程中肯定对方也是很高级的投资人。然后投资机构已经是把他的财务数据什么各方面的尽尽调已经做了一次了，这是一个规矩。先大家比如说先接触好了，要谈融资，先签NDA，就是保密协议。对，然后你先一波资料过来的，什么财务数据，过去12个月的东西，然后你现在的这个团队介绍等等的主要产品都有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就等于大家上下文已经有对齐了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后你这个时候你跟我聊的这个东西绝对不是财务层面的。首先他说我是我这个公司买了这批设备，然后十个月之后你我用这批设不是这个设备变成大模型。完了十个月之后我能够把这个设备钱收回来。但我模型开发的钱，我测试的钱，我人才我我人员工资。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧我这我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都没算在里头，所以说这个六倍的利润是什么利润？六倍利润我认为这个事情很简单，就是什么？就是我你用我的API跑token，我要花耗电钱，对吧？我要花设备钱，那你给我的钱和我用来生产token的成本来讲是六倍的关系，是这样一个事儿。然后至于说你我是不是真的靠你从这API收的钱就能把所有大模型的钱都收回来，那不可能。别说他了，硅谷有几个公司能敢承认说我能赚钱的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有一个基于成本的六倍定价。对，基于它的成本做一个六倍的定价。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没错，你短期内实现盈利的可能性都没有，就现在靠API实现盈利可能性都没有。所以我更倾向于这个话的前提是说，首先让证明自己是有定价权的这很重要，就是我有定价权对吧？然后第二来讲就是什么呢？就是我会算账，这个算账是说我能够把未来账算清楚，我觉得这一点就够了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我补充一下，他这个算账有一点很关键。首先我们如果只看这个六倍定价，你会觉得我靠这公司才80%几的毛利率，对不对？已经很毛了，非常毛的对，没扣掉什么电费那些的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>真的，刚才说一大堆的大头没算进去，就超毛的毛毛。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的不要命。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>研发费用都没算进去。对，吓人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个可能弄完可能你对比一下google那个microsoft大概六七十的这个毛利率的话，这不算什么对吧？对，这可能还没没到，对吧？你会觉得但是其实我觉得有一点很关键。他说我如果融融这几百亿，是500亿还是多少？我如果融这么多钱，我全部会买拿来买卡，就全部买卡，就贵两倍也买，贵四倍也买。因为我觉得都是划算的，因为他妈老子十个月能够回收它的成本。你懂我意思吗？就这笔不比放在银行箱吗？你懂我意思吗？换了一个。对，算了一个很明白的账，就是大哥我拿你们钱，我最好的方式就是带回本，代客买卡，十个月回本，然后在六被定价。我万一不行了，我靠卖API我还过得还不错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我把你钱给你续上，你还是有钱能赚的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是不是这么理解？贤哥。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对了，还是那句话，我觉得最重要是说明我有定价权，这个太难了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个太羡羡哥我觉得这个可能是不是可以拆开看一下，因为像dept这种熔法，其他家可能也不是这么干的对吧？对呃比如说像美国的根本没办法对标，因为美国没有一家开源模型公司，没错，是去融资的那没有然后中国现在像上市了的那个质谱跟mini MAX，然后他们是已经上市了的，可能讲法完全也不一样了，因为他们最近应该也经历了各种拷打。我看很多都把他们当SARS公司来估值了，再买一下就要暴跌了。因为SARS公司的那个毛利的净利是计算是非常严格的，它增长率要求都很高。然后那现在可能正好真的卡在一个问题，你把它当SARS我肯定是会死人的。但是按照一个新的算法，这个好像看起来就挺好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像又很有开辟了一个新的赛道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是对了这么个看法。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得就是说他创造的这种范式或者模式来讲，就已经是非常奇特的。咱举个例子，这点是我特想聊的。有两个点大家可能不太注意。第一点就是说这次融资是刚刚发生没多久，对吧？但他现在已经在做第二次融资了，大家看到了吗？而且这次融资就是说这两次融资间隔基本上没有间隔，而且估值是涨了的，又涨了百分之。就听说听说预估估值会再涨3%到40%，这个是我经历过的这这点上，我觉得可能大家可能不太理解这个过程，就是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是当我一旦释放，就是梁峰一旦释放，说我deep开始融资了，然后大家很多人都会蜂拥而至来跟他谈。但谈的过程中，其实他是在挑选什么人能成为我的潜在投资人，对吧？然后最后他以这个方式定了个价格，他他是拿自己拿200亿出来。然后腾讯出了一个大头，还有国资委的钱，对吧？还有几个老牌的创投机构的钱都在里面，阿里没在里头。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我告诉大家这背后是什么？这背后一定是有更多人想拿钱出来，他没要。为什么？就是现在现在这个估值之下。现在这个估值之下，我只释放这么多股份，而且这里面大部分还是让给梁文峰自己的。所以就是说梁鹏没有稀释自己的股份，他是拿自己的真金白银投出来，但是还有一大堆人想投进来，那这时候干嘛做一个什么所谓的A加轮B加仑，这个加仑就是什么样？就是我都跟你谈完了，但是这个价格我给不我不给你，我会给你一个这么高的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以就是我本来是下播了的，我又延迟了15分钟.</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再加推几个名额。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后是不是在这个过程中？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，在这个过程中就是说对于新就对那些没投进来的投资人特别难受。因为他本来想投进来，就是千方百计想投进来，但投不进来。但他又想投，那只能用更高的价格投。但然后但是对他来讲更更有保险的是什么？是因为已经有前一波的人把他定价，已经有钱进来了，所以他们后面的钱会更安全一点。所以说我就在我看来就是梁文峰其实是还继续拿钱，他因为他有的是这个底气，还可以再继续高更高定价。这一点上来讲的话，是差就是说再融资的这个原因，也是底气。但是这个泄露出来之后，让他很不开心，不是说暂停了这一轮，所以我觉得是这故事就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能够有内鬼终止交易。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就是我想回答一下，刚才call back一下，call back就是刚才那个小松你问这个问题，就是他是不是故意的战略性的露出？我是不觉得，我觉得这个不存在战略，就是因为我看了整个的文章，42页我真的认真看了。就是我觉得它里面有很多东西是很真实的，就是说是那种闭着门才会说的话，就关着门才会说的话，而不是台上说的话，是台下说的话。咱就想想最近，咱就不说远了，最近你能记住的就是说闭着门说这话被泄露出来，然后最后还落着。好的，我认为没有一个就是咱之前黄仁勋不是号称有一个什么酒桌上说的话，对吧？没有被拿出来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>马上就公关掉了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，马上公关掉就不停的辟谣等等的。然后这还有之前我记得什么有一个叫李笑来的对吧？大家不知道知不知道他的也是什么私下说的话，后来出来之后被搞得就现在已经被黑的不行了，反正就这种，我觉得私下说的话能拿出来说，能被泄露出来，最后还落了好的没有。但梁文峰这个事儿让我很惊讶，就是他这东西出来之后，没想到就变成了大家把它往上再抬到升级的这么一个标志。我没想到没。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我我我个人会很不喜欢去聊升级的这个事情，包括这个AGI他讲这个愿景，我个人很讨厌这一套的叙事。对，但并不代表说我不认同，我不喜欢讲，但是很多人会关心。对，刚才老师讲了一个问题很好啊，就是第一个开源公司出来融资的，应该是第一个。好，或者说融这么大的了，我搞这么大阵仗的。对，至少搞这么大阵仗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是从财务模型上，我是觉得之前肯定没看到过大家这样讲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以其实大家可以去回看，像我们去年的很多节目，其实已经把它的这个开源策略讲清楚。在call back一下。其实当时我们的预估就是它其实开开不开源不是重点，因为这个是一个策略，对吧？你可以把开源理解为说我去打广告，我去我去投流，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是试试吃，就是试吃，但是秘方是我自己的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且这次你看完这个讲话以后，你会发现说，其实它最核心的能力是把成本压缩到一个非常恐怖的一个级别。就十个月回收这个硬件成本，然后还可以六倍定价卖给你。这样这而且这个定价是大家觉得非常低，而且我能接受的就这是他最厉害的地方。对定价能力，或者说我们以前做这个行业，我们叫供应链管理能力，对不对？叫供应链管理能力，微超对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个其实是非常强的，所以说他开源和不开源没有影响。就我开源了，你这个第三方谁你把你拿去部署，你做不到，比我成本更低，最后你还会来买VIPI。对你除非真的就是说像阿里，我要用你的是这个号了。没办法，我就硬得扛你这个三年回本的这个水平去布在我自己阿里云上面对吧？我做不到你十个月回本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>举个例子，对吧？所以就是说他这时候他选择开源或不开源他无所谓，那开的名声更好，我干嘛不开对不对？反正开了你也做不了，我开给你了你也补不了。就好像说梁胜杰拿着那个deep seek整套的这开源给到老修老修送你老师头都大了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我没有硬件，我买个头，我没有机房，我买个头。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有运维人员。老师说梁胜帮我买。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>卡买运维员，这个投入都得多大，我搞不了，你钱给我也没有用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>假设帮我买卡，一年回本就行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你那都不是梁圣，那是梁观音了，都是观世音菩萨了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我去租给隔壁的小王，对不对，是吧？所以这个我觉得是一个非常重要的一个反认知的东西。所以基于这套叙事我才能够去讲AGI，我才能讲克制，你知道吗？为什么当时说你说张小龙讲克制，我就好吧，就大家听得津津有味，我是一直觉得好吧，因为你坐拥腾讯这么好的流量，吧？你做不起来或者你多做一点，其实可能都是错的。你能做的只有克制，你不克制你就死。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就这么简单选择。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你今天多做一步，你被抓去了，在微信上面多做一点，你被抓去，你今天少做一点对吧？也不行，所以你只能克制呗，所以克制到时候好多需求我们当年提的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>到现在还没做。正常的他他那边本身自己内部的斗争就已经很厉害了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是他的这种克制。但是我是觉得说格局没打开，你打开到良胜这个级别的克制，其实他的克制我不知道你们怎么理解，我理解他的克制其实是他已经算好了这一条供应链，他怎么去玩，我怎么布局。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我是觉得还是站的位置不一样。梁胜为什么会更高？是因为他是从最高的那个位置去想，就是不光是产品要活，它的生态要活下来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>投资还要布局一下它的相关生态的这。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后相关他后面我们讲过，不管说是原罪还是怎么样，但是你作为一家运行的公司，你最终要长久运营，你总是得有一个利润跑过来的那我觉得这是他要操心的多的事情。但是你如果是张小龙当时的那种场景，他是不用担心这个东西会不会因为赚不到钱而死的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是觉得是不会的。就比如说你卖水，你做农夫山泉对吧？你敢说你做一个暴利定价吗？十倍定价你敢吗？对不对？没意义。因为这个市场那么大，你做十倍定价干嘛会有人买。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但可能还不如说你这个成本定价高于成本多一点，定价更更赚的更多其实是一个这是一个财务账？特别是像我们其实做过这么久的零售行业，我们非常知道他讲的这个定价是怎么玩？这个定价你是基于成本定价，贴近成本定价，还是怎么定价，取决于你这个市场在哪里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你看到是AGI是星辰大海，是他所谓说占人类10% GBT的这样一个商业规模，那肯定不没必要没必要去做这个暴利的生意，对不对？根本没必要，是你你也不会做。所以我觉得从我的角度我是这么理解，所以说大家叫他梁胜良胜。我觉得其实是这个就是什么，其实我觉得他是算的非常精的，算的非常好的，而且是非常聪明的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>接着小苏这话说，咱就说点这个专门供给咱member的话，就是我觉得这里面有一个事情，就是我们不要把这个事情当成道德层面的东西，来判断这件事情最大的危害是什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一直没有合适的机会跟大家宣布，就是现在早晚报服务已经升级了，你可以通过飞书来订阅我们的早晚报。每天早晚飞书会直接推给你一条语音的音频，以及若干条深度解读，已经帮你生成好的语音播报，你点开就能听了。所以想要订阅我们早晚报的用户，想要尝试我们早晚报的用户，都可以先在飞书上面去体验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们讲回来讲回来讲那么多，但是我觉得总体来讲，我觉得还是有很多乐观的东西在里面。比如说绕开英伟达这个生态这个事情应该是从梁文峰的这次讲话里面也是坐实，应该是一个时间问题。而且是可以比算力更有更值得大家期待的。因为他们应该写了一个叫做太阳line的一个东西，它的烂的东西去去重构这个底层，它这个算子能够去让我们现有这些模型能去适配国产的这个芯片，从而绕开英伟达这个生态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它里面有一个逻辑我听懂了，但我不知道，我想跟老师也求证一下，它里面的一个逻辑是说，当这个AI智能体自己发展到一定地步，尤其这个智能再提升的话，其实它是自己就可以绕开底层代码了。就可以不用说一定在扩大这个底层之下去开发了。因为AI本身自己就可以开始自己做自己的底层了，这点上我们能从逻辑上能理解，但我不知道是不是真的，但是起码在工程化上我觉得是可行的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实你说这个方向是对的，而且最近其实有一件很重要的事情，就是大家关注一下AMD的那个新的芯片。AMD其实就是他们出了一个新的芯片，其实就是跟有跟cloud那边去配合的。他们有一个专门为cloud去预训练做训练相关的芯片，他原来有很多东西是他们想重新做优化，然后原来是觉得做不了，要得派一个很大的团队去跟cloud做配合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>后来cloud那边直接自己让cloud自己模型去开始去写这个硬件的适配，然后给的是一个只给了一个总目标，没有给具体的交代。然后只是过程中需要什么给他填相关的上下文给他去做。然后只是这个cloud加好像一两个工程师就把早期的原型给搞定了。然后当时AMD还觉得说这。他们那边已经搞了个原型了，我可能得再送一个小队过去。对，然后cloud说不用你这个，我这里可以自己搞定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>按道理这种硬件层面的代码，它的不管是数据量，或者是说这种质量，就是数据量少，但质量要求又高。我感觉理论上就直觉就AI可能还没那么容易能够去写。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，直觉是不行的。但是实际上他们做成了，就是最近这个新闻其实有些人可以去看一下，就MD的这个新的这个芯片，是由大模型去帮他们去写的适配相关。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你讲的是正面的。还有一个反例，就是微软不是用这个去重构了一个windows的什么东西，忘记了，反正就是windows里面混入了大量AI写的代码，直接导致崩溃。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>会搞玩砸了。会有的对，但是我觉得总体是乐观的。因为比如说我们现在其实除了微软系列之外，所有的手机这些都在跑的就是linux底层这个kernel。它的创始人就是linux，他也是已经明确的说了，你要不就继续，我现在已经基于有AI生成的代码跑下去，要不你就滚蛋。就是他已经明确来讲这个事儿，因为这个确实整个的生产和审核效率是以前顽顽达完全达不到的那这个制造工具的这个属性，是已经是坐实没问题的。但是刚才说的准确性，我是肯定觉得说人还是关键，还得介入。比如说cloud那边可能派了一个诺贝尔奖级别的人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说是诺上次我们说的那个transformer.</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的作者跟他去合作的。那你也不知道，对吧？那个脑子里想一下他脑子里想一下，你就免疫的是那个预训练的，整个几千万的训练都不用训练。他一脑子想一下就知道那里不对，那说不定他拍的是这个级别的人一两个。那够那确实一个人顶100个人的研究员都有可能，那那这种也可能也够了。你不知道他只是他跟你说是一个人，也许那个人特别的顶尖，这是很正常的s solution。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在的人才储备，我们之前还提过至少有十多个这种诺诺奖，或者是什么公司的顶级创始人，什么VC的联合创始人，一堆人都去了。大家去的都是做technical staff，就是作为一个技术工作者而已。就这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能他在做这个事情的时候，人才其实是很好的。只是说最令人惊人的是，主要是你在这个cloud这种辅助情况下，能够把这个事情给做出来。那这个可行性行了。只是说也许现在配的人还要很高级，那以后也许不需要那么高级的人也可以做这个自回归的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就很厉害了。他应该里面应该是有大概有一个阶段性论述，我觉得讲的挺好。就是说第一阶段应该是做大语言模型，到第二阶段就是思维链，就DD psk火的那其实就是把OpenAI的这个思维链这个推理的过程打开了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>类似这个对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他他这讲的我觉得特别有启发，真的就上台阶。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是，然后再来就是说agent，我们现在是属于在这个agent的阶段，但agent其实很大一个问题，现在你会发现说我们谈模型越来越少，是因为说它卡点不在模型，在于我们这整个人类工作的上下文大量的不够对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的还有harness，就是这种工工程化的整个过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是一旦这个东西突破了这个东西一旦突破了，它很快就会到一个模型能够自我迭代的一个阶段，就持续学习。对，实际去学习的对，能够像梁文峰自己也讲到这个点，我觉得现在也是应该是明年的一个主要趋势。就是说模型自己迭代模型，模型是一个成熟的支付宝，自己还花呗，自己去迭代，自己去进步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个应该是在下一个阶段，就是它所谓的叫自迭代的这个基点，智能基点，我觉得那个是下一阶段的持续学习，我已经很期待了。我们不需要每次都给他写很强的prom，或者说很多上下文，或者做交接，他就可以持续的学习。就像小朋小孩子一样，不会说今天教他的东西明天就忘了，或者说再重新再教一遍，那就永远都是小孩子。所以就慢慢的要用到青少年的一个阶段了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这块现在已经在发生过程中了。像高德刚刚这几天发的office 5，它的一个特点就是说以前你写的很多的提示词是会降低它的performance的，是会降低它的表现。现在的建议是说大量可能要把你原来70%到80%的提示词给删掉。由大模型自己决定该怎么做，这个已经出现这个端倪了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Agent也是一样的，因为agent毕竟是跑在这个大模型的大脑之下的，他是他的手脚，所以他们两个是互相促成的。这个之前我们有讲过很多大模型和agent之间的配合关系。这两个东西现在如果从梁峰这边的这种判断来讲，我觉得说是很重要的。其实你到最终还是要看大模型的智能的，然后才再是agent只不过是交付到各个场景的时候，可能这个大模型对的智能程度要求是不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个东西也跟我们上周像去WIC去聊到那种支架也一样。其实支架他们我当时问了一个看起来很傻逼的问题。因为是我们很多人想知道，我就说这个这么聪明的车我买得起吗？是吧？我就问了这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他说你这是个好问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但你觉得你车上跑的那个模型真的像云端那么聪明？然后他说你真的觉得他需要那么聪明吗？然后这两个问题？那那果然一就是没有那么聪明，第二个他也不需要那么在他很多时候并不需要那么聪明。很多场景之下，其实如果说调整的够好，就是这个放到端侧的大脑跟端侧的手脚能配合好，他的那个能力也是很强的那这会有一个我觉得说这个过程没错，有可能如果说实现的合理的话，他可能会更早到来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这也是梁文锋锋梁文峰讲的，到最后一个阶段才能到聚生智能，这个我特别认可。因为你现在去做聚生智能，坦白说投产比不高。对，就用梁文峰的观点来讲，我翻译成人话就是投产比不高。你现在就死磕他没有用。因为你无法穷尽这个现实社会所有的这些规则。对你哪怕模型再聪明，对你还是要预训练、中训练、后训练，持续做持续投入。这个投产比太低了，你还不如到了某个基点突破了以后，模型能够自我迭代，自我学习了。到那个阶段你再去攻具身智能是比现在省力的多的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为到那个时间你基本上可能没有到百分之百自动。但是你普通的人加上你的大模型，还可能就可以干得很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包含汽车。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我只觉得对，包含汽车。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我觉得你可以佐证一下，就是虽然说特斯拉就没声音了，但是特斯拉这一套的端到端以后的这些技术路线，完全是在这个方向上去做的。是的，其实我觉得它的大的这个方向是对的。然后还有一个是我们一直骂google，但是我觉得大方向看google，你看google现在做的所有的东西。对他不给你推pro模型，他就一直给你们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>算flash，而且发新版也只发flash。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且你看它的germ line Spark，虽然这个产品的功能巨差巨难用，但是有一个非常核心的，它就是用flash模型自我学习，自我迭代。你的这个习惯跟工作流，就你看他的方向，然后包括google在布局的那个机器人的开源模型，端侧这些能力。你看google在大的方向做全是对的，但是他的在某个点上做的产品全是错的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这块儿我觉得我想提一个，就是我们要保持一定警醒。就是这篇这虽然这个42页东西看着非常有干货，就让我是受益匪浅。但也不见得梁文峰说的东西都是对的，只代表他一家之言，只也只代表他关上门说的话。所以就刚才你说巨星智能这块儿，我更觉得就有些人他就擅长做这个，或者说有些人的底蕴，或者这公司本身。那当然然后你让他再从头做，比如从A镇做起，从大模型研究起来是不可能的。就这样的话，他就彻底的陷入到自我的这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我应该应该说这个市场里面会有很多人他愿意去赌博。我可能做的比你快，我可能说某一个点我突破的比你快，那我就可以获得超高的回报。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不？我觉得快不见得就是我觉得人类真正实现AGI的这个时间上来讲，不会因为有更多人去做去身智能就变快。这我是觉得不对的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是一个局限性的问题。贤哥讲的特别对，就是批判的来看梁文峰的很多观点。首先他他这个从一路从大云模型到计算智能这个逻辑是对的。而且我觉得是这个算计是对的，这个计算是对的。就是说如果从一个做生意的角度算投产比，或者从一个很精明的商人的角度是要这么做，是要做取舍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所谓做取舍，对就什么做什么不做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个很重要的是说，你不管是投资也好，或者代言模型也好，它不接触真的实体的东西，生产制造这些东西，他没有一个很切身的体会在里面。为什么这么讲？就是说老师经常讲一句话，就是说软件的问题是都可以解决的，没有不可能解决，没有解决不了的软件问题，没有就没有，对不对？所以理论上只在纯软件界面，从单元模型到AGI一定能实现。但是只要软件加上了聚生智能，你要到AGI，那就是千山万水的阻拦，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>看看特斯拉就知道了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对不对？对，这现实就是这样，就是一个是可穷尽，就是我们有一句古话叫什么？就是以有涯去逐无涯殆矣。对，傻逼对吧？就这个意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是这个故事必须得讲，如果不讲到具身智能不行。我想我们自己在WIC这边看到的所有的企业，这个AI之后的未来必须得是剧情剧的。我觉得大家必须得故事得讲我这个剧本怎么演，不然没办法演的。你这个无线的这个场景都在剧情这一块，都跟剧情有关系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这个事而且你让我这些匈奴小民怎么能感受到这个震撼呢？你只是说写个文章和编个代码，这大部分人是感受不到的。对，只能够你要让我能实实在在看见他他他那包鸡蛋才行。那个机器人尤其他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个思路听起来有逻辑，特别的自洽。我觉得说我会想到他具象化的一句话是就是谷歌的那个哈萨比斯讲的。谷歌deep mind的老大哈萨比斯，他竟然讲说他在20年前就定了这个基调，就是说去实现通用人工智能，然后让通用人工智能去实现一切。其实就是这么个事对，就是这么个事情，他就很具象的把它分成了这么个阶段，每个步骤关键点的都讲了。这个故事本来就20年前大家就听着就觉得很爽，现在听依然还是很少。因为它真的很难实现。它后面那个尾巴真的到最后一公里，最后的我觉得可能不止1公里，最后的可能几十公里上百公里都不好搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都很难搞很难难搞。是的，我觉得这个是这样的，理论上在软件在虚拟的世界里面没有解决不了问题，但是我们在现实世界里面遇到的都是阻碍，对吧？今天有个部门强，明天有个这个真的强，你不知道的很多的阻碍在在这个现实世界里面。但是我是觉得说反正看完这个梁胜AKA梁胜的4个小时的发言，我觉得还是让我看到一个更真实的人。对，然后我是觉得说看完以后我也更有信心，我觉得说一切都会更好。至少我是觉得说我们有能够看到有一些人还在做这样的事情，然后敢讲很多真话。我就觉得，对，就这个世界不都是吹牛逼，对，不都是泡沫。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，而且我很实际的已经往DPC的账号多充了点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>充钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我要充钱钱。我现在想的就更多的一些场景我要多用这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们就不讲虚的，我们落到最后的动作就是充钱打钱充钱打钱充钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>多充钱多烧token。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是是是好，那我们就对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个观点我觉得特别值得聊一下。对就是。</p>]]></content:encoded>
+            <pubDate>Thu, 30 Jul 2026 23:00:00 GMT</pubDate>
+            <guid>6a6b2b0956a3f3491ba7871c</guid>
+        </item>
         <item>
             <title>WAIC独家｜智驾的终局是物理AI，L4可能比L3更快？｜对话千里智驾CTO杨沐</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a61e88ea3fec224d5a23342</link>
@@ -5184,72 +5397,6 @@ Apple podcsat朋友请移步👋
 <p class="transcript-line"><span class="time"><strong>[00:50:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好，谢谢各位，谢谢拜拜。</p>]]></content:encoded>
             <pubDate>Thu, 18 Dec 2025 11:00:00 GMT</pubDate>
             <guid>69438656c4f10bdeea00f9df</guid>
-        </item>
-        <item>
-            <title>卷起来了！行业垂直模型时代到来？｜亚马逊云科技re:Invent 2025解读</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/693587764ef12f9fe962af92</link>
-            <description>为什么你的 AI 项目总是死在 PPT 阶段？真正的企业级 AI 绝不是靠后天“养”出来的，而是要靠“胎教”——在预训练阶段就注入行业数据，而不是等生下来再用 RAG 这种“外挂”补课。 亚马逊云科技 re:Invent 2025大会的新发布，给了整个行业一个创新的答案，让每个企业预训练自己的垂直模型变成可能！
-00:00 为什么说很多AI Agent项目最后都死在了Demo里面呢？
-02:08 Amazon Nova Forge，从“胎教”开始训练垂直模型？
-05:07 Amazon Nova Act，给AI长了眼睛跟手！
-07:33 为什么Vibe Coding会留在POC监狱里呢？
-08:55 为什么说Kiro的SPEC流程能够救企业的命呢？
-09:24 为什么说Kiro是亚马逊内部正在使用的成熟产品呢？
-11:48 如何用自然语言去定义Agent的边界和红线呢？
-12:40 为什么商业级别的可控性才是最重要的呢？
-14:47 AI从“魔法”到“魔术”的转变意味着什么呢？
-15:32 垂直模型的Scaling law真的远远没有结束吗？
-【订阅JustSayAI早晚报】
-🌈新朋友！订阅「JustSayAI早晚报」· 每日两封 · 一键听报
-🌟老朋友！加入会员获取JustSayAI早晚报+深度研报+文字专栏
-【主播小红书】：
-📕叫我小苏就好啊
-【关注频道】：
-▶️Youtube｜📺B站｜📕小红书｜📻Podcast
-📱商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你胎教的时候就已经在给他喂行业数据了。他一出生他就懂得说黑话了。就把一个训练垂直模型的成本大大降低了。你以前想说我做法律，我做金融是需要一个自己的垂直模型的，但是谁敢去把它给训练出来呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这样子的话，它相当于是懂了这个行业的基本的行话，然后又懂了你专有的数据。如果我现在在这个胎教的环节，我就给你弄好了，就会很好的去解决做大量后训练的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实就是拒绝了现在模型那种当玩具这么一个属性。我觉得更多是真正进入到生产环境中能让它真正能用上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一开始从卷大模型到去年卷agent，但是现在我们又看到说又可以去卷垂直模型了，就是垂直模型的scaling low远远还没有结束。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天很荣幸跟大家在线上观看了亚马逊2025的reinet大会。我觉得这次看完这个大会给我最直观的一个感受就是大家从卷大模型卷agent到现在，我觉得已经完全打开了。未来我们可以去卷垂直模型的这样一个领域了。这一次大会的最核心的主题应该就是agent，对不对？其实过去我们谈agent是谈的非常多，但是其实很多AI项目或者很多AI agent的项目，最后都是死在了demo里面对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为以前其实很典型的一个情况就是大家是上限特别高。我一个东西做POC，做MVP对吧？概念验证一下，最小可用产品看起来都很屌，经常看起来很智能，但实际上你还没上生产线，你在测试环境多测两下，你就发现我靠非常拉胯，可能会让你直接怀疑人生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我看到这次大会他们提了一个词叫做POC的监狱，就是概念验证到生产环境的这样一的跨越，其实是非常漫长的。就是过去我们其实做非常多的agent其实都是做成这种像reg级别的这种agent对吧？就是通过这种知识库去搭建它。要么不够准确，要么就是自己训练的时候又会遇到很多什么上下文遗忘，或者是说开始又自由发挥不受控的情况。这次nova forge这个新的平台，其实我觉得对我印象最深刻一点就是它支持就是能够让你用你行业的数据，就在他预训练的阶段就能够植入进去了也也就是说就是在一个宝宝还没出生的时候，你胎教的时候，就已经在给他喂这个行业数据了。他一出生他就懂得说行话，说黑话了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？所以这一块其实你刚才的比喻蛮接近的。其实这个nova verge它是非常激进的。因为其他的模型厂商训练从来没给你暴露过这种程度的东西。那你就可以再去训练中间后面的一些环节。它能够让你把你自己专有的一些数据和场景的数据给它混合进去，这样子的话就相当于毛坯房的硬装，你还能参与进去。而不会像以前你只能看那些各种吊机装集团，他们在那边打，跟你没什么毛关系。现在的话就真的会像你刚才说的，他胎教，他正好快要生出来的那个期间，你把把你的一些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>给它植入进去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也就是说你如果选择了AWS，然后你用了nova那你在预训练阶段的时候，就能够用你的数据去训练一个你自己的这种行业模型，就把一个训练垂模型的成本大大降低了。你以前想说我做法律，我做金融，我做量化，或者是我做风控各种各样的行业。其实我们都觉得说好我自己这个行业是需要一个自己的垂直模型的。但是谁敢去把它给训练出来，对不对？我们看到这样的模型真的是少之又少。你更多是说在deep seek千问上面后期参数做一些微调，做一些这种调优，对吧？顶天是这样子。但是谁能够真正在预训练阶段把你的行业的数据融进去，让他原生第一天就具备了这种用行话，用行业思维来思考的方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>刚才老师举咱们自己的例子，其实公司企业来讲的话，尤其存续时间很长的，它有巨大的数据对吧？过去的历史数据还有需要训练的东西。而且有些公司甚至就连API都没有。那这种情况之下，竟然他们能提供的这个底层模型和平台，能够在没有API的公司里面也能够应用起来。现在这种agents这种方式来做，我觉得这一点上也是一个巨大创新。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这其实是在一个很常见的一个to b的需求。就是我有非常多老旧的系统，有可能是10年前的对吧？但是这个系统现在写这个语言的人也走了，对吧？我找不到人了，但是我勉强保证这个代码还它还能运作，没有太多的bug。但是我一改可能就都是bug对吧？或者是说我有很多这种老旧的系统，现在根本就连API都没有，那你叫我的新的业务怎么去跟他协同工作？这其实是非常大的一个痛点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对，就这玩意儿我还记得以前我们做那个企业服务的时候，经常被迫要做什么事情。就是比如说老旧那个ERP，你根本想不到他有的时候可能你不要说API，他自己内部都很难查清楚，那这个时候就怎么办？我们可能手工去pack一下去截一下他们的各种API和一些脚本，然后我们去分析他的数据，都要这么干。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>实际上我是发现到最新的amazon的nova act这个产品，它实际上就是act这个部分。我们所谓的就相当于给AI长了眼睛跟手了。这个东西的话就是解决我刚才说的hack的那个事情。我们以前hack还是用技术的方式hack的那他的话其实这一次是用到了把一些工具还有环境以及整个大模型三样东西放到一起去浏览。这样子的话，它就能够真的是针对你这个老破小的环境去真正的去理解说我在没有任何这种给我接口的情况下，我也可以理解你这个系统在做什么。然后去理解你的数据流向是什么样子的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他会里面还提到一个web game，然后能够把很多的AI放到一个训练场里面一起来训练。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后训练之后能训练。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>出一种AI直觉，我觉得这个挺神。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>模拟数据其实是很好的一个训练方法。其实现在最新的那个deep sik那边，它有大量的数据，就是用模拟数据做的DPC3.2的很多的就是用这样训练的。所以应该说现在是行业内最好的一种弥补你那个互联网数据不够的方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像这个里面我看到他一个实际的案例，是租车的那个盒子，然后它的话整个系统是非常老的，因为我不知道它那个系统至少20年了。对，然后有大量的老旧系统。然后它里面出来讲的那个人刚好是做quality assurance的，就是做质量保障的。所以我特别能理解，你可能想象不到他每一次上线一个版本都为了测以前存在的版本，就是上线了一个新版本。那我要测一下以前存在的老版本的功能要测多久，你可以想象不到，他要测3到4个星期是有可能的那到现在的话，他就上了这套系统之后，他能够提升五倍以上的时间，可能也就是一周以内左右可以把这个事情给测完。那那这个的话实际上是是一个很很明显的一个飞跃。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前有一段时间caro也非常出圈，对我们我们也特别去想去用它。然后这一次发布会他也特别提到了kiro。老师可不可以跟大家讲一下，就是这一次他们提的像caro的一些案例。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Caro这个东西的话，它最大的一个特点就是说跟cristal是另外一个方向。就是croco其实大家知道说大部分基本上都是做那个氛围编程的。Web coding就是你极致的想要做，马上做一个什么东西马上可以去做起来。很主打的就是一个随性和一句话去写需求。但是这个事情就是我们开篇就讲了，这个东西其实最大的问题是基本上会留在PUC监狱里。然后你真正把它要上线到一个可运营的产品，它其实还有蛮多的路要走。而且最早做的这个原型可能大部分代码也都用上，实际的痛点就是这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但实际上kiro它解决了一个问题，就是说它是叫spec driven。你可以理解成它就是比较详细的一个文档驱动的一个开发方式，就是先策划再执行这件事情。它就适合是一个真正交付一个稳定的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我们常说，我现在想要做一个CRM，我们可能对科室就喊一句这个话，他就去干了，对吧？他也不跟你确定是什么，他就干了。然后干了一会儿跟你说这个是不是你要的，你会发现基本不是你要的。然后那到了hero他是不让你这么干的。你说这个事情他就会先跟你开始说，我们必须要先来写这个需求文档，它要产生一个requirement点MD的文件。接下来的话需求写出来了，能得到你的确认了，他再开始去产生一个design点MD的文档，也就是设计文档。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些东西也得到你确认了以后，他再出一个任务清单的task DMD。然后只有当你这些东西都确认无误了以后，才开始写代码。这个其实跟web coding是你可以感受到它是完全截然相反的。所以到最终相当于于是这个叫我们叫spec流程，它是能够救你的命的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实很多企业他可能觉得，那我web coding就很好了，对吧？但实际上你通过web coding，老板觉得可以，但是程序员用的时候，很多时候其实程序员他无从web起。最后只剩web没有coding，就写了一大堆这种死生代码，你可能也用不了，他也看不上我，还不如我人工自己写。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实像Spike文档，刚才老师讲的这一套就是标准的工作流，其实非常成熟的一个工作流。而且像caro这样的产品，他自己也是亚马逊内部在正在使用的产品。那应该是沉淀了一整套完整的知识体系，包括这种工作流程、工作方式，包括你刚才讲他每一步都会生成一个点MD的一个文档。其实这些流程在很多小企业它是没有的那如果你一开始在构建第一个产品的时候，就不注重这些。具体的流程的时候，你到后面一定会吃亏的。你就到后面再强的agent可能也救不了你的13代码了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他在大柏林举例子也是很震撼的数字，比如说代码重构的项目，30个人需要做18个月，结果真正做起来的时候用了kiro，然后才用了5分之1的人，六个人对吧？做了七十多天就做完了。所以就是说真的有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>多少他们亚马逊需要内部的一个项目。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，而且我们从AWS听说这个产品是AWS内部重新写了一遍bedrock这种核心级的产品，上面承载了大规模大模型的调用服务，都能这么快重写。那你想一下其他的产品用KO写起来是什么感觉？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>本身caro是带了一套他自己成熟的这个方法论过来，而且他这里面在有一些边界，就是是说你他真正不知道的一些地方，他不会去装作他他知道，这点也挺重要的。因为其实我们用其他的工具的话，它背后训练的是那些大模型。比如说不管是cloud gm I还有OpenAI的code x等等那些大模型，其实他们对于这种工作流是不太熟悉的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我举个例子，为了让你的bug通过率提高，他可以说这个bug不用修，这个bug不严重。这个我真的碰到过恰恰恰，就是因为不经过没有经过企业流程的那个AI他才会这样干。如果企业流程应该是非常清楚的知道，有一些级别的bug是一定不可以让他过的。但是他是对bug既不分级，然后他还为了专门去通过这个PKPI，然后他把一些本来不应该过的bug直接让他过了。这种就是没有受过这种工作流训练的AI会干的事情。但是在亚马逊的这个里面的话，caro的这块你会知道有很多东西不能做，然后你不懂的东西不会装懂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这点我觉得特别重要。老师讲的这些就是有bug硬说没bug。这个事情就有点像伊利亚之前讲的那个讨好型人格AI。他为了完成这个目标，为了是的达到这个结果，为了通过这个考试，他做了非常多的强化学习。但是最后变成了一个讨好型人格，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这次亚马逊给到大家的一个做法就是说我们用在to b里面这个事情是要可控的。哪那你只有1%的概率，那你也是要去阻止他。实际上在他的agent的这一套编排的流程，其实它是支持自然语言，用自然语言去定义agent的边界。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这个其实是我印象非常深刻的，就是他们一直在强调的那我觉得目前大家可能都是在看到agent AI进步的方向，但很少有人真的在这一块去用很多的力气来解决这些问题。包括我们自己做产品就有遇到非常多这样的问题。很多时候agent或者AI为了讨好我们，就是硬把这个东西做出来了。但实际上这个东西做出来是不可控的，我们又没有一个去check的流程。那这个时候我觉得这个对企业就非常有用。就是你可以用自然语言去定义它agent的边界，什么能做什么不能做什么能退款对吧？什么不能退款，什么话能说，什么东西不能乱发。对我觉得这个是对我们自己来讲也是一个非常痛点的一个需求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我觉得今天小苏说那个感触也是我的感触。就这个可控一定是商业级别的可控，而不是说只是说一个图片生成的时候多少生成一个手指或多生成手一个手指这种创意性的可控。这一点是我这一次看他大会，我最深的一个感觉。它不是一个纯粹用AI炫技，能让大家知道现在你看AI又能做这个了，现在就能做这个。而真的考虑到企业以前在存续阶段，他留下这些历史问题，无论是代码重构，还是说要整个的流程上面要怎么样加入AI，这是一个巨大的一个工程，怎么去做？然后这个不靠单点的去解决一个AI的模型的一个参数就可以了。一定是说从安全，然后云，还有存储各方面去做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们之前讲过的很多问题就是大模型本身。每一家的大模型有自己的各种各样的人品级别的偏好。他们也有每家自己训练过的这种约束，但同样也有他们自己的漏洞。这些东西其实是非常难管理的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后再多一点协作的时候，如果没有这么一个核心的一个策略引擎在下面去把一些硬的一些我们说的红线，对吧？我们的企业管理经常说这是红线，是红线的东西给你卡住的话，其实这个东西是就是你怎么跑你都觉得很虚。就好像我们自己做过的一些产品，这个我们全靠那个大模型跑的。我们知道总会有那么百分之几的概率会出严重的bug对吧？但是我们又不知道他的百分之几会出在哪儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是我就想到一句话，总有人是在台前非常闪亮的，但也是总有人是负重前行的。我们在聊AI的时候，我们聊非常多产品，ChatGPT gm I吧？这些明星级的产品他们当然很出彩了，作为我们每每个人的copilot，让我们的效率更高。但是也有非常多在to b的领域，像亚马逊这样就是做着非常多的脏活累活，基础设施搭了非常大的基建。是为了让我们这些创业者能够在上面跑出一个可靠稳定的，能够去让这个商业社会运转的更好这些模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得通过这次大会我就看到说，过去我们都在把AI讲成是一个魔法，对不对？这个好神奇，这个好炸裂，这个是个魔法。但我觉得今天通过像亚马逊云科技这种基础设施的厂商出来发声，告诉我们，你们不要只看到台上的明星，你们应该看到AI背后的这些基建。他也在进步。他的每一个进步能够真正把这个魔法变成一个魔术。就是变成一个可以拆解、可以教学、可以分享，甚至你也能够学得到的一个魔术。我觉得这个是这一个真正的AI平权。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我个人看完这个发布会，我是觉得说，我们整个行业已经开始从卷大模型到去年卷agent到现在edia出来喊说gave law结束了。但是现在我们又看到说我们又可以去卷垂直模型了，就是垂直模型的scaling low远远还没有结束。这是我看完这个大会，我觉得我自己非常兴奋的一个点。就非常高兴今天跟大家分享亚马逊的reinvent大会。我觉得通过我们自己作为一个创业者跟一个用户的角度来跟大家分享我们看到这次大会的一些兴奋点。然后也非常谢谢大家收看，希望下一次的大会我们再见，拜拜。</p>]]></content:encoded>
-            <pubDate>Sun, 07 Dec 2025 23:00:00 GMT</pubDate>
-            <guid>693587764ef12f9fe962af92</guid>
         </item>
     </channel>
 </rss>

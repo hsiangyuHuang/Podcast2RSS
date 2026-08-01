@@ -4,7 +4,163 @@
         <title>屠龙之术</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401</link>
         <description>科技创业与投资相关的”屠龙之术“</description>
-        <lastBuildDate>Fri, 24 Jul 2026 05:14:07 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 02 Aug 2026 05:03:43 +0800</lastBuildDate>
+        <item>
+            <title>你真的信WorkBuddy有2000万月活？</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a6e285e1b5e24969ce760fa</link>
+            <description>对，这其实是一期吐槽节目……
+关注我即刻的朋友应该知道，在过去的一段时间我无数次的吐槽过众多媒体写WorkBuddy有2000万月活的事情。
+作为一个数据控，互联网行业的观察者，
+我最受不了的就是这种不知道数字概念，逮着一个数据源就疯狂“演绎”的状况……
+所以趁着一个活动邀请，我做了这期的PPT。
+其实PPT的内容更多是在讲我们从Chat进入了真Agent时代，
+且在国内work agent似乎成为了所有人的共识……
+老规矩，PPT在我的ima数据库中，有需要可以去ima获取；
+屠龙之术VIP报告库 https://ima.qq.com/wiki/?shareId=7c732a68674e53edea8d17f9546ad5a2047e0c63985dde9d2592f2bb76fe43eb
+（想加粉丝群的请先+微信：rosicky311)
+下面正片开始……
+【时间线】
+00:15 标题介绍
+00:25 模型竞争
+01:13 “时光，时光，慢些吧……”
+王慧文的即刻
+02:44 CodeX成为新的ChatGPT
+03:28 CodeX的千万活跃用户
+04:45 所谓的“Claude Code”时刻
+05:35 从code到其他所有
+06:03 Harness崛起
+06:35 异常繁荣的开源的Agent Infra生态
+07:11 评估空前重要
+08:03 workagent的共识形成很快
+11:57 workagent大战开启
+13:16 中国现在有多少人用上了各种Agent？
+13:49 一些事实和估算
+17:45 一些第三方数据的佐证
+20:34 对于Workbuddy 2000万月活的吐槽
+晚点文章：
+当一个年轻人空降：改造腾讯混元的 300 天
+24:17 但是，用户量还重要吗？
+24:57 token量似乎也不重要了
+25:15 好像似乎又只能回到ARR了
+25:57 我们之前的尝试似乎都不太成功
+27:04 这次会不一样吗？
+27:38 致谢
+【播客简介】
+屠龙之术是一档关注科技、互联网、风险投资的播客，
+主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
+其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
+或许某天再有新的“龙”出现的时候，就是这档播客停更之时。
+【ima知识库】屠龙之术VIP报告库 https://ima.qq.com/wiki/?shareId=7c732a68674e53edea8d17f9546ad5a2047e0c63985dde9d2592f2bb76fe43eb</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>这期是播客主理人明浩在2026年8月1日晚录制的一期独白式吐槽节目，内容源自他当天下午的演讲“大人时代变了——Agent已至，桌面为战”。核心议题是：在AI行业从模型竞赛转向Agent应用的关键节点，公开报道中广泛传播的“WorkBuddy有2000万月活”是一个被数据误读和媒体以讹传讹构建起来的虚假繁荣。明浩以亲历者视角，梳理了ChatGPT改名Codex、Claude Code发布等标志性事件，拆解了易观与QuestMobile两份第三方报告的真实口径，并用漏斗测算、SimilarWeb交叉验证和晚点报道中的内部数据，最终得出“WorkBuddy日活真实数字大概只有一百多万”的结论，并延伸讨论了中国AI应用商业模式面临的深层困境。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>OpenAI已完成“狸猫换太子”式的产品改版</strong>：GPT-5.6发布同期，OpenAI将Codex并入ChatGPT，新界面中ChatGPT之外出现了名为“Work”的独立选项，原ChatGPT变成了“ChatGPT Classical”。改名后一周内，Codex（即新ChatGPT）周活从600万涨到1000万——这是行业首次出现“千万级周活”的Agent产品标志。</p>
+</li>
+<li>
+<p><strong>Agent范式的行业时间线被重新锚定</strong>：明浩提出，2022年底GPT-3.5/ChatGPT定义了这一轮AI的起点，2024年O1和2025年DeepSeek推理模型定义了推理时代，而“Agent时刻”应由2025年Claude Code的发布来定义——“Claude was first, now everything else”。从Claude Code到Claude Work，再到Codex里的Work选项，共识正在形成。</p>
+</li>
+<li>
+<p><strong>AI产品研发范式已发生根本性转变</strong>：从“先想出完美解决方案再工程实施交付”，转变成“评估驱动”——先建立评估体系，再让AI产品在评估中不断爬坡迭代。这种范式尤其在Work Agent板块成为新共识。</p>
+</li>
+<li>
+<p><strong>易观报告的2097万是“访问量”而非“月活”，媒体集体误读</strong>：易观2026年Q2报告显示WorkBuddy“访问量”2097万，无数媒体据此报道“WorkBuddy 2000万月活”。但报告图例的统计说明第一条明确写着：“访问量指在统计周期内，用户与PC端AI原生办公智能体平台的交互次数”。这是比PV更粗糙的交互次数概念，与MAU/UV相差数十倍。</p>
+</li>
+<li>
+<p><strong>明浩的漏斗测算：中国真实使用桌面Agent产品的用户约1000万-4000万</strong>：以CNIC覆盖的AI用户（大几亿）为顶，扣除不用电脑的制造业和线下服务业人群，参照钉钉/企微/飞书/WPS的活跃规模，拍脑袋定出天花板1-2亿白领用户；再按“3-4个月推广期、尚未破圈、早期尝鲜人群10%-20%”折算，得出小几千万的实际用户规模。</p>
+</li>
+<li>
+<p><strong>QuestMobile的交叉验证：PC客户端AI应用全行业仅1800万</strong>。QuestMobile 2026年上半年报告将中国AI应用分为五类：AI原生APP（豆包/千万元宝等）4.99亿、AI应用插件6.44亿、终端厂商AI应用7.55亿、PC网页端AI应用1.72亿、PC客户端AI应用仅1800万。而这1800万还包含豆包、千问、元宝的PC客户端贡献，真正的Agent桌面产品用户量实际更小。</p>
+</li>
+<li>
+<p><strong>SimilarWeb数据显示WorkBuddy六月PV为731万，与易观口径严重矛盾</strong>：明浩朋友老汉威每月用SimilarWeb核查各AI产品web访问量，WorkBuddy（与百度合计）六月访问量731万，仅为易观报告2097万的三分之一。归一化计算后，WorkBuddy真实DAU约一百多万。</p>
+</li>
+<li>
+<p><strong>腾讯官方口径验证：尧舜禹亲口说WorkBuddy“如今有上百万日活跃用户”</strong>。晚点报道腾讯AI一号位尧舜禹来到腾讯300天，文中原话以WorkBuddy举例称其“有上百万日活跃用户”。明浩认为该文章大概率经过腾讯公关审核，且与多方推算数据吻合，是当前全网最可信的用户量锚点。</p>
+</li>
+<li>
+<p><strong>“WorkBuddy 1200-1300万DAU”的传言源头是投行笔误</strong>：明浩好友汪天凡Will在即刻澄清，所谓“1200万-1300万DAU”是一个投行小弟记录的笔误，被自媒体标题党放大后全网误传。明浩吐槽：“一百多万DAU是合适的，是我们算的数字是对的上的。”</p>
+</li>
+<li>
+<p><strong>行业关注点已从用户量全面转向ARR——因为钱是唯一标准</strong>：明浩指出，2025年大家每两周就要查一次Google追ChatGPT追到多少百分比，但2026年已经没人关心了，也没人关心Claude有多少用户。所有投资人只看ARR。“如果不是因为这一次codex变成ChatGPT，谁会关心codex有多少活跃用户呢？大家还不去看ARR。”</p>
+</li>
+<li>
+<p><strong>中国AI应用商业模式仍是死结</strong>：AI直接向客户收钱无非三条路：生产力工具、个人付费订阅、to B企业服务（API/席位）。但这三件事在中国互联网和移动互联网年代都没做成。豆包收费已开一个多月，“结果不是特别理想”。马化腾在豆包收费前一个季度的腾讯财报电话会上说过：“在中国面向个人用户收钱好像有点难。”</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>马里奥吃蘑菇的即兴比喻</strong>：明浩用超级马里奥的成长路径类比Agent演进——小马里奥是模型本身，吃蘑菇变大对应给模型加工具（code、web、memory、computer use、store，尤其是“四个又死掉”），吃花发子弹对应给模型加“分布在各种各样的地方”的上下文（沙纹）。这个比喻是演讲现场的即兴发挥，生动概括了整个行业正在做的事情。</p>
+</li>
+<li>
+<p><strong>明浩对易观报告的情绪化开火</strong>：他在即刻上发帖原文：“一观这份报告我推荐所有要用的媒体朋友、分析师朋友都稍微的慎重一点。第一，所谓的访问次数是指用户和agent的交互次数。这不是MAU也不是UV，甚至连PV都算不上……我拍脑袋算一下真实的UV或者说MAU的数字，应该是图表里的这个数字的10分之1甚至几10分之1才对。”节目中他更是直白补刀：“一关这家机构的数据质量这么多年了，懂的都懂。”</p>
+</li>
+<li>
+<p><strong>他顺手报出了自己订阅的全部竞品清单</strong>：“我自己有tree、有cos、有飞书的智能伙伴，还有海外版吧？阿里有coder、有molrain、有武功（现在已经合并了吧？）；腾讯有work body，有q club，有maris质朴，有z code auto GLM，came you, came me code, came me work。”这种一口气列完所有竞品的即兴表达，侧面印证了“已经很久没有见过这样的阵仗”的判断。</p>
+</li>
+<li>
+<p><strong>对“上百万”这个中文表达的语义学抠字眼</strong>：明浩分析腾讯尧舜禹所说“上百万日活跃用户”时的语言拿捏艺术——“你说一个东西有上百万，第一，上百万是100万、200万、300万、500万、800万还是900万？你在这个数字在什么范围内的时候，会说这个数字叫上百万？第二，上百万是刚刚超过百万，还是已经超过百万很久了？”这段分析将他作为资深从业者对行业话术水分的高度警觉展现得淋漓尽致。</p>
+</li>
+<li>
+<p><strong>“时间单位缩短到半天”的行业节奏判断</strong>：明浩提到大家开玩笑说AI行业进展已经“按天甚至按半天来算”——“白天我们这边结束了，我们睡觉的时候美国就开始，所以每半天可能是一个时间节奏。”他引用王慧文的话：“我们似乎真的要在模型领域按月来看进展。”这种对行业加速到近乎荒诞的体感，以及脱口秀演员“咸鱼”的歌《时光慢些》来定义2022年底到2026年这三年多的心路历程，是只有局内人才会有的真实情绪。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，我是明浩。今天录制的时间是8月1号的晚上。对，今天下午刚刚参加完一场活动，今天的这次内容也是下午活动我的演讲的内容。对，首先标题叫大人时代变了，这是一个全正标题，副标题是agent一致，桌面为战。看到这个副标题你大概就知道我今天会讲什么样的内容。我们正式开始今天的内容。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>虽然agent一致，但是似乎纯从行业的关注角度来看，过去一段时间大家依然把非常多的目光集中在了模型进展上。我们如果只看美国的话，其实过去的半个月左右时间，马斯克的grow更新了版本。原来大家认为已经落后的meta也更新了新的版本，都还可以。但是所有的新闻可能更多的关注在了opi以及cloud。当然很多人会说预算家的google可能在这半个月也更新了版本，但是这个3.6的flash看起来不是太work。大家都在期待所谓的年底甚至什么时间的9.4对吧？媒体的关注确实依然还在模型进展上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在模型进展的角度来讲，我觉得从22年底GP3.5以及拆GP发布定义成这一轮的开展而言。我们回看过去走过的这三年多，不到四年的时间，我想用最近很火的脱口秀演员咸鱼经常唱的一首歌来定义这一段时间，就是时光慢些。2022年底我们才拿到了GB3.5，后来在2024年我们拿到了O1。2025年有deep sick，有clock code。然后到2026年整个的发展就像我年初做的那次总结一样，明显感觉挡不住了。然后我在PPT里用了一张截止到2026年H一的一个报告的截图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你发现今天2026年8月相较于之一又过了一个月的时间。我们闭上眼睛回想过去的一个月，业界发生了什么。飞波五奥克斯5GPT5.6KM的K3，对吧？我还可以列出很多很多的关键词。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天下午机构上王慧文说，我们似乎真的要在模型领域按月来看进展。类似的话我在前几天叛乱，我们一起直播聊豆包跟飞书的事情的时候，我也说过类似的事情。就是今天似乎所有的节奏都推到了差不多按月。当然也有人开玩笑说可能要按天，甚至可能要按半天来算。为什么？因为白天我们这边结束了，我们睡觉的时候美国就开始，所以每半天可能是一个时间节奏，所以时光慢些。但更加重要的其实是在GPT发5.6的同时，GPT把他的code x换成了ChatGPT。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这几张截图其实我在我上一版本的PPT里用过，所以在今天我们大家用code x的时候，今天所谓的codex已经变成了ChatGPT。在这个新的ChatGPT里面出现了codex之外的另外一个选项叫work。Work似乎成为了某种共识，而我们原来在用的chat BT变成了ChatGPT，chat BT classical.</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个世界最领先的模型公司在产品端的重大的狸猫换太子，我觉得能代表很多事情。Chat PT在做了这样的操作之后，它所谓的code x的活跃周活用户在大概一周左右时间从600万涨到了1000万。我再重复一下这段话，在改名之后的一周的时间里，code x也就是现在的CGBT的召回用户从600万涨到了1000万。我们今天在我的这次博客里，我们第一次提到了千万。而后面的这个千万形容的这个单位叫活跃用户。好，我们记住这个数字，我们后面会无数次的提及，我们似乎进入了一个大家公认的范式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>原来我们在chat跟code板块更多的是对话的方式。但是今天大家开始尝试用微针的方式，甚至多一点的并行的方式。这里就出现了一个小的问题，留在这里你觉得今天可能刚刚破千万周活的codex里面有多少中国的用户？考虑到各种各样的门槛和成本，大家可以拍脑袋想一想，这里面大概有多少中国的用户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回到今天的标题，我叫大人。时代变了，时代到底变在哪里？纯从chatbot变到了agent。Agent可以使用工具，可以调用各种各样不同的模型，甚至可以多一点的并行。我们从原来的一个助手copt进入到一个特殊年代。再从时间角度来看，我们2022年底拿到了拆GPT，二三年24年拿到了O1跟25年的deep CK21的推理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Agent的年代，如果我们需要找一个所谓的时刻的话，我们会觉得cloud code发布是一个很重要的时刻。所以如果粗暴点算整个这一轮AI行业的进展，我们似乎应该把2025年cloud code的发布定义成一个叫cloud code的时刻。Gold was first, now everything else.</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从cloud开始到c work。大家今天如果用cloud客户端的话，在纯chat的对话框的下面，除了chat之外有一个并行的按钮叫co work。而在刚才我们提到的code x的产品里，code x也有两个选项，一个是code，一个也是work。先是代码，然后被成了work。同一时间我们知道这一轮的所谓的harness崛起，对吧？在模型之外的构建agent，其他的所有的组件似乎都构成了harness中间件，info的设施使用工具skill mcp系统提示词到中间的模型。然后整个的基于这套生态的构建，不单纯在引导agent的产品的构建，甚至也在引导模型自己的训练过程。哈里斯绝情，然后我又一次用了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前蚂蚁开源总结了今年上半年整个agent info领域各种各样开源生态里的项目的发展情况。在开源世界也符也符合这个逻辑。也就是说帮agent做所谓inflow的相关各种各样的开源项目，在今年上半年得到了各种非常多的关注。无论是coding agent coding honey，还是像of cloud，像这样的我们叫personal AIA assistant。然后chatbot领域的很多产品也开始变成了agent，比如说chin studio，比如说拉帕对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这之后，再次echo前面我说的，AI产品的构建似乎有了新的范式。原来我们是为了解决一个问题，开启是开始设计一套解决方案，然后去做工程的实施交付。但今天你发现大家没有办法在领域把那个完美的解决方案提前想出来再去构建。所以评估变得重要了。对对模型的评估之外，对于产品解决一件事情的或者解决一个问题，解决的好坏的评估也重要了。这个评估出现之后，我们开始构建AI产品。AI产品不断的去爬坡，不断的去提升它的分数，然后循环反复。这样的范式似乎成为了这个时间点的AI产品的研发范式，尤其是在所谓的work agent这个板块。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个共识形成的非常的快速。在这里我就引用了一张国内的图表，就是一关这家数据机构，这家已经在中国很多年的数据机构，这家在移动互联年代口碑就不是那么好的数据机构，再加上大家都对它的数据质量懂得都懂的数据机构，在今年出了两份报告。这份报告的名字叫中国桌面端AI原生办公智能体平台访问量。这里面有非常强的定语叫桌面端AI原生办公智能体平台访问量2021 2026年5月出了Q一的报告，七月份出了Q2的报告。在最新的这份Q2的报告上，我们看到了那个被无数媒体提及的workday的月访问量是2097万，无数媒体报道沃克巴的2000万月活的数字也来自于此。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这些媒体犯了一个致命的错误，如果大家是一个像我这样的老网民的话，你应该知道访问量这三个字代表什么。而类似月活这个数字大概等于MAU，如果用web的应该偏向UV那样一个数字，但是访问量应该是一个偏向PV的数字。PV跟UV之间是差的非常多的，尤其你考虑到这件事情是以月度做衡量的。而更扯淡的是什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>易观的这份报告在这个数据样本的最下面的图例里面的数据统计说明的第一条是这么说的。访问量这张报这张图表列的全都是大家的访问量。五个包的2097万，tree 1279万，code work阿里的788万，code body 665万，这些叫访问量。大家认为原来的可能类似于PV但比PV这个数字更差差到什么程度？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>访问量指在统计周期内，用户与PC端AI原生办公智能体平台的交互次数。你想一想你今天如果用各种各样的AI agent的工具，你每天要跟这个AI agent产生多少次的交互。那一个月是不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>访问量所谓的交互次数应该除以这个月的单人的交互次数，才差不多等于我们狭义所想的MAU。那这个除应该除多少呢？如果是一个每天都用的用户，每天只用一次，那就应该除以30或者25，对吗？好，我不展开，后面我会展开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>举一个更现实的例子，这个共识达成的非常快速的情况下，我找到了一张梗图，我觉得非常能够代表这件事情。如果我们玩过马里奥游戏的话，你应该知道马里奥游戏刚刚出生的时候，你是一个小的马里奥。当你吃了一个蘑菇的时候你会变大。也就是说小马里奥就像那个模型本身，你吃了一个蘑菇相当于加了很多工具，加了cold、加了web、加了memory、加了computer use、加了store。尤其是四个又死掉，但还不够对吧？你还会吃到花，然后吃到花之后你马里奥会发子弹。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那花是什么？就是上下文有各种各样的沙纹，分布在各种各样的地方。今天大家在构建的事情就是从小的马里奥到吃蘑菇变成大的马里奥，再吃一个花变成可以发子弹的马里奥，就是这样一个过程。我们已经很久没有见过这样的阵仗了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我之前发过一条极客，我说自己也有tree，有cos有飞书的智能伙伴，还有海外吧？阿里有coder，有molrain，有武功，当然现在已经合并了吧？最近发生的事情，腾讯有work body，有q club，有maris质朴，有z code auto GLM，came you, came me code, came me work.</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感谢cloud code跟codex全部都是公式。然后前两天有新闻说，腾讯的马化腾对沃克卧底相当重视，几乎从不缺席。产品会且内部已按超级项目的规格推进。大家开玩笑，work body成为腾讯的新太子，阿里那边新钉钉负责人陈宇森接手钉钉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>三款AI智能体合并成千万办公。千万办公现在已经上线了，大家去搜已经有官网了。就是前面说的colder悟空mother one合并成了一起叫做千问办公，也是差不多时间。前两天发生的字节跟豆包的事情大家就更更知道。然后其实比如说前两天360也放了他们的work agent叫纳米work。似乎已经很久没有见过这样的阵仗了，是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那就出现了一个问题，我们前面问我说code x现在一千多万的周火，想一想有多少中国用户？我们在想更更广泛的问题，截止到2026年7月，因为今天我录制的时间是8月1号，截止到2026年7月这个时间点，中国到底有多少用户在使用这些A的各种各样的龙虾变种，各种各样什么body，什么work，什么cloud，中国到底有多少人在用这样的东西？我们先陈述一些事实，这里关于这个事情的探讨的导火索是龙虾。龙虾火爆的时间是春节，也就是说从春节到现在满打满算不到两个季度五个月左右。而各家的接档龙虾的独立的产品就什么body什么各种各样work的上线时间都是在Q1甚至Q2的QED3月份开始才慢慢有，4 5月份是密集发布期，也就是他们真正意义上上运营的手段的时间不太会超过一个季度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后记得一关那个报告叫什么吗？叫PC端AI原生智能机。大家今天这个时间点在用相关的产品的时候，绝大部分行为发生在PC端，甚至都不是网页，更不是APP。还有一点，即便大家已经做了非常多简化和低门槛的事情。但是今天这样的agent产品对于一个一般用户而言还是有一定门槛的。所以我们可以有个结论，暂时这件事情截止在2026年7月，比这个时间点应该没有破圈，对吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以结论是什么呢？3到4个月的推广期还处于我认为早期的尝鲜人群。纯从覆盖率角度来讲，我觉得拍脑袋算10%到20%撑死了。好，10%到20%是什么的？10%到20%大概率应该是一个中国能用这类所谓的桌面agent产品的用户。大概的天花板的10%到百分之。那我们就要想一想这个天花板是多少。如果能够对这个天花板有一个认知，乘以10%到20%，那似乎就应该是当前这个时间点差不多有多少人在用相关的产品，对吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们看天花板，先看一个最大的天花板，我们漏斗一点点开。比如说CNIC每半年会发报告，它会统计所谓中国覆盖的生石AI的用户。但是这部分用户绝大部分应该在chatbot t里，这个数字应该是几亿，甚至是大几亿。因为你把豆包、千万元宝各种各样产品的活跃加在一起，这个数字对得上。然后我们再去想，中国真正意义上每天工作是用电脑的这个饭白领人群的这个人群有多少人？如果大家没概念，可以去找统计报告。统计报告里面有中国的城镇就业人数。但是这个就业人数要刨掉我们粗粗放点蒜，可能要刨掉制造业，刨掉线下的服务业，粗放点算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后还有什么东西可以类比，比如说钉钉企微飞书的活跃用户数规模，这些数字在几年之前这几家产品都曝光过，但是近几年都没有曝光。还有比如说WPS或者腾讯会议的活跃用户规模，这个时间点这些数字在几年之前也有，但近几年大家也都没有曝光了。WPS可能有因为有财报，这几个数字综合在一起，用漏斗的方式我拍脑袋的拍了一下。我觉得1到2亿用户规模应该是一个合理，甚至可能有些乐观的天花板。好，天花板是1到2亿。今天这个时间点覆盖人群是10%到20%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也就是说这个数字乘出来是1000到4000万，大概率就是小几千万。这个规模可能差不多是这个时间点。中国真正意义上已经用上了各种各样AIAI的产品的用户规模。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再看一些第三方数据。第一个还是那份一冠的报告。虽然一冠的数据让大家懂的都懂，所有他能统计到的这些桌面端的原生产品，在六月份的访问量加一起是六千多万。但是我们说过这个东西叫交互次数。交互次数你要除以他们每个月的交互次数才等于用户量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个数字我觉得更可信一点，因为它来自quest mobile，我对quest mobile的信任度是更高。Quite mode在七月的时候也发了一份报告，是讲2026年上半年的AI行业发展的。在这个报告里面，他把中国的AI应用分成了五个类别。最大的叫AI原生APP豆包千万元宝这种4.99亿5亿不到。第二类叫AI应用的插件，就是跑在微信、支付宝各种各样什么百度的大的用户量APP里面的A型AI功能。这个数字比AI原生APP要更大有6.44亿。这个数字基本可以等于CNIC所统计到的中国今天十点在用AI用过AI产品的天花板的数字6.44亿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有出现了更大的一个数字，叫终端厂商的AI应用。你在各种各样的手机里都会有一个，比如说华为有小E对吧？Vivo有小微，还有小兰什么，就各个手机厂商都会有，这个数字是7.55亿，更大一个数字。我觉得这个表里面更重要的是后两个数字，后两个数字是PC网页端的AI应用网页的1.72亿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最最最值得我去信任的一个数字是最后一个数字，叫PC客户端的AI应用1800万。但是你要知道今天所有的chatbot产品也有PC端，豆瓣有PC端，千万有PC端，元宝也有PC端。所以这1800万里面应该有一部分或者一大部分是这些产品贡献的，而不是我们想象中所谓的IAN产品贡献。如果是这样的话，这个数字似乎比我刚才算的还要小，对吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第三个数字，我的朋友老汉威每个月会更新，他拿similar web去查各种各样AI产品的web的访问量，排第一的在六月是沃克保底。其实沃克宝典和百里算一起，六月的访问量731万。看这个数字比一关的所谓2000万是3分之1。但是这个数字基本是我们可以理解为是真正意义的PVPV那pv月PV你还要除以一个数字，它应该等于UV对吗？所以单纯只看workday的话，这个数字基本上是可以算得出来的，所以出现了一点点小的吐槽。先说一关那份报告我发了一条即刻原文在此一观。这份报告我推荐所有要用的媒体朋友，分析师朋友都稍微的慎重一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一，所谓的访问次数是指用户和agent的交互次数。这不是MAU也不是UV，甚至连PV都算不上。你可以理解成类似用户对话和点击的次数。我拍脑袋算一下真实的UV或者说MU的数字，应该是图表里的这个数字的10分之1甚至几10分之1才对。再补一句一关这家机构的数据质量这么多年了，懂的都懂。第二，我的好友汪天凡will也在即刻发了一篇post，全网都在误传worker底1200到1300万DAU这事儿真的是挺扯的。其实也就是一百多万的DAU当时只是一个投行小弟记录的笔误，然后就变成了各个自媒体标题党的素材。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我前面说过，我们差不多是可以算出来那个数字的。一百多万DAU是合适的，是我们算的数字是对的上的。这个数字在我们今天这个时间点全网可找到的材料里面，有一份材料找到了对应的数字，在半个月之前晚点写了一篇文章。我没错的话是昨天晚上晚点更新了一期播客，就是这篇文章的作者跟晚点的主编一起聊这篇文章的产生。这篇文章就是写腾讯的AI一号位尧舜禹来到腾讯后的300天。大家如果关注我的博客，观众好像应该知道这篇文章。在这篇文章里腾讯的尧舜禹的自己的说法是原话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他用workday举例，这个产品如今有上百万日活跃用户，晚点的这篇文章我觉得大概率是经过腾讯的公关审核的对吗？那似乎这个数字应该可信。而且我们再考虑一点，考虑一下中文的语言的拿捏。你说一个东西有上百万2个问题。第一，上百万是100万200万、300万、500万、800万还是900万？你在这个数字在什么范围内的时候，会说这个数字叫上百一个问题。第二个问题，上百万是刚刚超过百万，还是已经超过百万？很久了，你自己想一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一点很多人会说，你根本不知道我和保底上了移动端之后数据长得怎么样。好，今天一关的数据截止到2026年6月底，quest mobile的数据也截止到2026年6月底，大概率晚点。这篇文章应该也发生在2026年6月，我们不考虑七月份发生的情况，因为所有事情的讨论很多都集成起，我们只把时间点定在2026年6月底，这个时间点作为一个严谨的数字，你知道workday的移动端的正式上线时间是什么时候吗？7月18号。也就是说在六月份之前，沃克沃蒂的移动端旨在测试没有正式上线，你怎么可能指望它移动端的活有多少呢？但是我在做这个研究做到这儿的时候，突然间我脑子有另外一个装备要跳出来。他说你有多久没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>关注。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过ChatGPT的用户量了？对，我们去年还在每大概每两个两周就要去看google这边已经超过百分比多少了，比j GPT追了多少了，对吗？可是似乎进入到26年，没有人关心了。再问一个问题，你关心cloud de有多少用户量吗？没有人关心了不是吗？为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个问题，很多人说token量是不是一个好的数字呢？我在上一次PPT也讲过，没有人再去所谓的token maxin了，对吧？没有人再去研究所谓的今天你耗费了10亿还是20亿的token了，token量也不是一个好的指标。那已经是上一篇的故事了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那什么是标准呢？似乎又是特别悲观的结论，钱永远是最赤裸裸的标准。所有人都看L2的不是吗？你根本不关心cloud有多少用户，你只关心cloud AR到多少，不是吗？如果不是因为这一次的code x变成igbt，谁会关心code x有多少活跃用户呢？大家还不去看AR。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>似乎今天这个11年我们肉眼可期的AI应用层的商业模式，似乎只有收钱这一一种了，对吗？但是我们回看今天的中国，就像我们前两天我跟潘乱、跟艾瑞克、跟亚楠直播聊豆包跟飞书的时候。我们提及今天的AI直接要向客户收钱的方式，无非是生产力工具个人付费订阅跟to b的企业服API也好，席位也好。我们看中国市场这三件事情，生产力工具、个人付费订阅、to b企业服务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过去十几年二十几年，移动互联网到互联网年代，我们似乎都没太做成。就像豆包收费之前那一个季度的腾讯财报，马化腾马总所说在中国面向个人用户收钱好像有点难。那这个时间点豆包开收费已经开了一个多月了，似乎结果不是特别理想。虽然我也在无数次的场合表达过，今天在纯AI应用板块里真的任性，有资格可以试一试。收费这件事情可能只有多少，但现在看起来这个结果不是太理想，那问题自然而然来了。所以AI这一次会不一样。我们在生产力工具个人付费订阅to b企业服务商，此前中国尝试都不成功或者不太成功。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这次AI来了会不一样吗？很多人说看各家top plan卖的多好，质朴又涨价了，对吧？供不应求，不是很好吗？但这个量够大吗？我不知道，但最后的一页我会觉得对于听这期播客的你而言，你可能听完记得乌克巴蒂的日活只有100万。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得就可以，其他的事情也别管那么多了，先把各种各样的东西用起来再说。好，感谢今天大家收听我的这一期吐槽。老规矩PPT在说note里如果需要下载，可以去我的MA的付费知识库，再次感谢大家。</p>]]></content:encoded>
+            <pubDate>Sat, 01 Aug 2026 17:16:44 GMT</pubDate>
+            <guid>6a6e285e1b5e24969ce760fa</guid>
+        </item>
         <item>
             <title>AI抢走内存，K型消费下我们还要做硬件吗？---串台开始连接 LinkStart</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a5f100a6356eb2d9be5eee3</link>
@@ -28,36 +184,18 @@ Vol.127｜存储涨价让手机不性感了，但硬件重新变得有意思了
 * 李楠，怒喵创始人，前魅族-魅蓝负责人
 * Alan，极客公园硬件方向作者
 【时间线】
-* 00:00 - 05:30 | 库克的痛与存储涨价的阴谋论
-  * 探讨为什么双十一可能拿不到消费存储的折扣了？
-  * AI数据中心对高带宽内存（HBM）的虹吸效应，如何卡死了消费端手机供应链的脖子。
-* 05:30 - 12:00 | 4年不换机，手机大厂靠“官方换电”吊命
-  * 国内手机换机周期逼近四年，零和博弈下的存量战役。
-  * 探讨为什么官方大力推广低毛利的换电池服务，本质上是为了锁定活跃用户以赚取高毛利的后端收益。
-* 12:00 - 18:30 | 迅速K型化的消费结构：中端机死于供应链涨价
-  * 为什么低价机和超高端不会消亡，而卡在中间的OV和小米会最难受？
-  * 探讨在涨价潮下，高利润率品牌如何靠溢价做缓冲，而中低端必须通过AI与底层系统优化反向压榨硬件性能。
-* 18:30 - 24:00 | AI Phone的催熟现状与“懒人”的语音交互革命
-  * 手机大厂纷纷注册AI域名、抢推概念，但这到底是想象力还是内存涨价下的无奈之举？
-  * 李楠分享键盘集成阵列产品，指出“80/80原则”下，精度达到97%以上的语音交互将以极陡峭的斜率替代传统GUI。
-* 24:00 - 32:00 | 键盘、黑胶与胶片机：老灯们的“文艺复兴”
-  * 鼠标全面聚焦FPS游戏，机械键盘走向把玩情怀。
-  * 为什么黑胶唱片、CCD和胶卷相机这些“过时”产品会在文艺青年中再度红得发紫？
-* 32:00 - 39:00 | 大厂下场抢细分，红米在最前线吃炮火
-  * 回顾红米K90发布第二天雷军微博送300元优惠券的往事，揭示供应链涨价对性价品牌的真实压力。
-  * 分析今年Google IO大厂下场做AI小组件对小公司的“降维打击”，以及大厂在底层Linux系统控制力上的博弈。
-* 39:00 - 45:00 | 悲喜并不相通：折腾两年的AI吉他 vs 躺赢的任天堂
-  * 纯互联网公司跨界做AI吉他，在硬件、算法迭代和海峡局势带来的供应链涨价中痛苦挣扎。
-  * 对比之下，任天堂靠着“垃圾硬件”加极高软游戏品质活得极其滋润，而Steam主机则因为高昂定价深陷退货与控价舆论风波。
-* 45:00 - 53:00 | 追求“健康的规模”：豆包专业版收费能成吗？
-  * 从赔钱买量过渡到硬件本身必须赚钱的时代。
-  * 深度解析豆包的商业化焦虑：在海量用户却变现艰难的背景下，走海外成熟的生产力工具付费路线，还是尝试更具国情特色的情感/陪伴场景创新？
-* 53:00 - 1:00:00 | VC牌局的“盲注”游戏与一个人的硬件公司
-  * 现在的AI VC投资现状：不看牌、先堆筹码，盲注下满将其他人挡在门外。
-  * 尽管供应链成本攀升，但在深圳强大的硬件配套和AI代码辅助下，极小团队甚至“一个人做硬件”并在海外众筹成功正成为现实。
-* 1:00:00 - 尾声 | 2030年之前的残酷平衡与买单的全球消费者
-  * 为什么半导体原厂把重心全面倒向B端数据中心，且这一轮周期预期会打到2030年？
-  * 剖析美国十年前主导的对华半导体封锁政策，如何导致高度垄断和超额特权，最终让全球消费者一起买单。给消费者的终极建议：想买的硬件赶紧原价入手。
+02:32 AI 数据中心如何把存储压力传导到消费电子
+05:43 手机市场整体下滑，不同品牌将进一步分化
+08:20 K 型消费结构下，卡在中间的产品更危险
+10:12 AI 手机被迫加速成熟，承担催促换机的任务
+14:43 小众硬件、黑胶、拍立得与胶片相机为何迎来文艺复兴
+20:02 大厂开始做小厂的活，创新时间差正在缩小
+23:36 一款 AI 吉他背后的研发故事
+25:11 任天堂与 Steam，截然不同的硬件商业模式
+27:10 增长不再优先后，如何经营存量用户与收入质量
+35:26 AI 硬件投资为何越来越像一场资本密集型牌局
+39:29 市场变化加速，小团队反而获得新的创新机会
+41:21 AI 硬件仍要跨过商业化、供应链和资本门槛
 【播客简介】
 屠龙之术是一档关注科技、互联网、风险投资的播客，
 主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
@@ -7527,460 +7665,6 @@ PPT下载地址
 <p class="transcript-line"><span class="time"><strong>[00:47:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好，讲到这儿的时候，今天内容其实就结束了。我再次说一下，第一，我要跟你们强调的是，你是唐僧，你是主体AI是你的父母，你要把它认可。第二，记住今天的好的咒语的公式。三要素，角色和任务要求。如果你今天有时间回家再去使用，你将来如果有有方式使用的话，任何一个不需要只你限制对方任何一个今天的I工具，你们用这三种方式都会得到比你原来那种方式更好的结果。你们今天在40分钟学过这两件事情，我觉得就没有白费。这40分钟的。</p>]]></content:encoded>
             <pubDate>Fri, 26 Dec 2025 06:10:42 GMT</pubDate>
             <guid>694e25b944647f77684e7743</guid>
-        </item>
-        <item>
-            <title>Vol.81 智谱 or MiniMax，无论谁是第一股，都牛逼---串台苔藓之火</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69495dfe0b60b7bf75e020d6</link>
-            <description>看到标题的你，应该知道这期播客我会聊什么；
-在刚刚过去的这个周末（12.20-12.21），国内两家头部大模型厂商智谱和MiniMax都公开了其在港股申请IPO的招股书……
-国内头部初创模型厂商的财务、运营、人力等信息第一次真正意义上完整无遗的展示在世人面前。
-我多年的好友，也是曾经的外资投行人，美股上市公司CFO，知乎大V，也是苔藓之火的主播Raymond找我，趁着热乎做了这期对谈。
-我们聊到了很多内容，包括但不限于：
-财务状况、业务模式、差异性、上市时间选择、竞争格局、中美对比等等问题。
-苔藓之火的版本已经更新，这里：
-（想加粉丝群的请先+微信：rosicky311)
-下面正片开始……
-【时间线】
-01:50 看到招股书的第一感觉：真难啊……
-02:24 反着想几亿美金做到这个样子，还是很NB的
-02:58 我之前的问题：OpenAI-5000亿美金，那么中国模型厂商值多少？
-03:21 所有的对比似乎都变成了1%
-04:33 这场“比试”更像是不同门派去参加武林大会比武
-05:47 先看到智谱的财务数据觉得“完了”，再看MiniMax又恢复了一些信心
-06:29 Sam、张一鸣、梁文峰、杨植麟看了招股书会有什么感受？
-12:13 历史上所谓的XXX第一股，结局似乎都不是太理想
-12:31 现金流角度看，智谱压力较大，MiniMax还好
-13:53 先上市的好处
-14:52 Raymond职业生涯的高光时刻：为B站招股书手画业务示意图
-15:10 招股书往往会需要公司写明自己是XX领域的第一名
-16:19 如何简单粗暴衡量模型厂商的所谓排名？
-18:51 OpenAI、Google、Anthropic、XAI在bet的点都不太一样
-20:24 如何看待招股书中提及的行业规模？
-22:09 智谱招股书中提及2030年中国LLM规模1000亿，这个数字太像随便拍脑袋定的
-24:14 智谱此前是计划在A股上市的
-25:17 今天A股市场也有情绪的细微变化，从GPU到具身，如果再到大模型，池子里的水够吗？
-26:54 MiniMAX提及2030年3000亿美金行业规模，这个数字太小了
-28:23 应用大头，模型小头是某种程度上的“一厢情愿”
-31:04 招股书的第一句其实代表了很多
-* “MiniMax是一家全球化的AI大模型公司”
-* “我們（智谱）是中國領先的人工智能公司 ”
-34:02 业务方向的选择上，有点像点亮一个矩阵
-35:03 时间截面上的业务状态从长远角度看可能意义非常有限
-37:06 如果未来有50盏灯要点，但最后只留下10盏灯，今天能确定什么“灯”会留下来吗？
-41:09 模型和产品公司在Agent领域的竞争趋势（Manus的收入可能等于智谱+MiniMax）
-42:22 智谱最近的Code产品和AutoGLM的开源动作都值得肯定
-44:02 为什么两家的财务数据并没有显示出DeepSeek之后的推理成本大幅下降的趋势？
-47:55 点亮了三盏灯的业务，但研发是为了未来50盏灯储备的
-48:50 一年差不多几亿到10亿的纯成本，那么DeepSeek纯靠幻方撑得住吗？
-52:30 OpenAI在2025年研发成本是130亿美金+
-53:37 我们这边用国产卡会大幅改善毛利么？
-56:19 简单计算，智谱研发人员平均年薪81万，MiniMax是94万
-1:01:01 为什么大家选择这个时点上市？
-1:04:38 一级市场可能没办法再给这几家大模型公司提供流动性了
-1:05:27 如果26年1月港股出现黑天鹅事件
-1:06:06 Raymond当年给一家公司做上市，开会第一句话是：叙利亚打仗了……
-1:07:48 如果两家公司业务接近，先后上市的策略区别
-1:09:09 如果KIMI也在港股IPO的路上……
-1:10:33 为什么我对市场会有种“山雨欲来”的感觉
-1:11:23 今天港股新发的4家公司都破发了
-1:11:44 如果那两家去港股的GPU公司也破发了……
-1:12:23 两家都是中金做投行
-1:13:52 对比当年商汤的“全都在”
-1:14:44 如何给这两家公司估值？
-（这里勘误，云知声是300亿港币市值）
-1:17:12 Raymond猜想可以类似当年视频网站的做法，用后年（27年）收入*PS倍数计算
-1:18:38 但如果是这样，那为什么不去投OpenAI或者anthropic呢？
-1:20:05 大逃杀思路，最后桌子上有谁，这个位置值多少钱
-1:22:39 OpenAI要融的钱已经是千亿美金量级
-1:23:16 Mistra-140亿美金了，那么我们呢？
-1:24:58 类似星球大战级别的战争，是不是已经不适合风险投资参与了？
-1:26:08 如果你不在那几家最大的公司里面，你就谁都不是……
-1:26:42 23年就已经10-20亿美金的智谱/MiniMax，你要投吗？
-1:27:56 1%的钱实现的效果非常值得骄傲，但同时风险还是很大
-1:29:11 今天对于这些热门方向创始人的要求比之前高太多了
-1:30:07 如果杨植麟在听这期播客……
-1:31:25 如果你是重注了KIMI的投资人……
-1:32:26 提早为IPO准备都是必要的事情
-1:33:13 字节跳动CFO-Julie曾经和Raymond说过：上市就是一口气
-1:34:49 我们这些看客衷心祝福局内的创始人一切顺利，上市成功
-音乐：AI音乐工具天谱乐生成
-【播客简介】
-屠龙之术是一档关注科技、互联网、风险投资的播客，
-主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
-其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
-或许某天再有新的“龙”出现的时候，就是这档播客停更之时。</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK, 大家好，这里是苔藓之火，欢迎大家收听苔藓之火最新的一期节目。苔藓之火是一个关注商业科技和投资的一个节目。今天我们非常的高兴能够跟庄明浩老师，也就是屠龙之术的庄明浩老师来进行一个串台。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感谢让我们邀请，我是屠龙之术的主播庄明浩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我认识庄老师非常多年了。其实庄老师在很早就是一个内容行业的观察者，然后早期是知乎的大V，我们其实也是在知乎的大V群里面认识的对，所以认识了快有小十年，至少是很高兴跟张老师在博客领域重新又认识。然后今天这是一个非常特别的串台。因为在过去24小时、48小时，大家已经在朋友圈或者是在自己的各种公众号小红书上已经被刷屏了。就是两家公司，一家是质朴，一家是mini max。都在上周四通过了港交所的聆讯，然后准备开始冲击大模型第一股对或者是怎么说叫做C端大模型第一股，或者是我说q play大模型第一股，反正大家要冲刺这个大模型第一股，然后都是申请了在香港进行上市。按照目前的时间表的话，有可能是在明年的一月份会进行上市敲钟的动作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天非常高兴跟AI司马迁庄老师来聊一聊在AI历史当中非常重要的时刻。首先我们可能先来聊一聊大家的感受。因为过去两天周末大家都看了这个加起来有一千多页的招股书，合订本是一千多页。是的，OK. 张老师你看到这个招股书出来的时候，你当时是就是你读了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都读了，都对，那没有完全读完。因为确实明白是昨天晚上才出来，所以昨天只有一个半夜的时间，就大概看了一看，包括看了一些新闻，反正第一首先感觉就是这一轮的这两家公司，当然可能也包括他的竞争对手们，确实不太容易。以现在的环境来看，无论是营收亏损竞争，然后包括上市的预期等等来讲，这个生意在现阶段来看太难了，这个是最大的感受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然有另外一些别样的感受是说，因为我们可能已经在过去一段时间习惯了美国的去世，对美国的趋势已经去奔着1万亿美金去了，或者几万亿美金去了。但我们现在看上去，我们这一家公司是大概都是花费了可能小几亿美金就做到今天这个样子对吧？虽然还在亏损，还在各种各样的问题，但是我们只从结果来看，我们大概只用了几亿美金就做到这个样子。那相较于美国那家对头部公司而言，我们的花费可能是1%这个体量。对，是的，所以这个的感受还是很，而且最近游戏感受明显是说之前open I融资的时候，其实我在我的PPT就写过。我说如果open I今天值5000到7000亿美金，那中国的最投入模型公司应该值多少？就我们抛开什么收入利润，只说中美的这个对抗对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为原来我们做美元，大家常见的是用原来这种对比方式是美国有什么东西，我们中国的这个东西应该大概是一个什么样的价钱。对，今天这个价格看上去是100比1的程度，就1%的程度。你看所有的事情几乎都是1%的程度，对吧？研发投入是1%，估值看上去也是1%对吧？那边就是五千、七千，就是3500、五千。对，那这边就是35、十四十，就是1%.</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>收入也是1%。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>收入也是1%。那边200 100的这边一对吧？就是差不多的样子。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你把这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>问题再扩大，其实这两天A股的那两家GPU公司不也上了吗？摩尔县城跟那个什么，其实跟英伟达比也是差不多1%的样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你说的英伟达是那个美国小摩尔吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，美国原来是美国小孩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后也是1%，就是这个1%甚至我们不太需要去考虑他们的当下的状态，什么都不考虑，就是一个纯粹意义上的中美的对比，就是1%。可是这个1%似乎有点因为很简单，我们当时做一级的时候，我们会认为中美差异不应该是这样的一个量级的差距。对，可能应该是10分之1或者是7分之1，就按汇率来算，可能没准是一个合适的状态，对吧？但是今天这个事情就变成了1%，但你说哪边错了或者哪边对了，我们也不知道，反正只能说存在的就是合理。现阶段的状态我觉得就是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，像市场给出的这个对，实际的反馈是这样的对对对对，然后我看完这个招股书的感受是有两点。第一点是我觉得好好像是个武林大会来比武。OK，你之前你练的武功是武当派的还是峨眉派的无所谓对吧？你之前是擅长暗器还是擅长我的轻功，体育运动都无所谓，因为之前他会讨论很多技术细节，包括你希望专家模型还是用什么什么注意力线程这些很多这些技术的细节无所谓。在今天武林大会比武，就是看谁比较厉害。这个就是两家公司。因为二级市场投资人不需要知道你到底providing当中用了多少数据，然后你用了多少卡，怎么奇迹淫巧更省钱了，反正最后大家看的是实际财报数据。对，所以这是一个非常拳拳到肉的，很血腥的一个事情。今天在比武，然后他们两家公司都选了这个时间，而且两家的承销商都是中金。对，所以他们是非常清楚的知道自己会被市场上进行一对一的比较的total.</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的完完全全的比较完全的比较。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们都不是周四去临训，然后一个是周五挂出来的，一个是周天挂出来的。在完完全全同一个时间，就是强迫所有投资人来比，看谁比较厉害来选对吧？然后第二个事情是第二个体会是，我是周五看的质朴质朴的小红书，看完之后我觉得真的是好难，这个行业真的太辛苦了，太难了。嘿这是我周日晚上看到IMAX招股书的时候，我是松了一口气的。还好我感觉没有那么难，对，至少找到一条。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>路径还OK。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当时的感受是，如果我反过来，我可能我第一眼看mini max我肯定也觉得很难。对，我会觉得很心里会一抖，就是这个故事怎么那么难做。然后觉得我可能之后再看质谱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会觉得我天塌了，天塌下来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得这个很有意思，就是看招股书的时候，有一些心里的感受还是很不一样的。那那你觉得如果是过去一周，过去一个周末，我相信same element读了没读我不知道，但我相信张一鸣杨紫琳，然后梁文峰，对，可能都或多或少已经开看了。对，至少翻了对吧？那你觉得3 out man张一鸣、杨志林、梁文峰这四个人他们看完之后应该什么感受？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得三猫会觉得为什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以花这么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>少的钱做这些事情？然后为什么中国的效率会这么高？当然很现实，他也会看到中国现实面对的无论to c还是to b的收入的问题。所以他可能会有担心，也可能会有庆幸。然后张一鸣会觉得没什么事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是今天这个时间点，我觉得在纯大模型竞争这个角度来讲，我们只说中国这个战场，kimi me max质谱这三家还在追所谓的AGI。然后他们的最大竞争对手可能是之前阿里、腾讯。那对于这家公司而言，面对这几个竞争对手，我会觉得他们没有那么怎么讲说担心可能在他们会觉得这个战场他们的优势被进一步的明确了。就是之前其实大家哪怕没有这个招股书，大家也会认为这件事情在对巨头而言的优势过于明显。那今天招股书出现之后，可能更一次加强了这个结论。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是今天你会看到这家公司虽然在各种各样的榜单，各种各样他们所描述的定义上很强。但是实际上落到哪怕是非收入项的运营指标来看，也不足以在短期内有什么巨大的影响。所以如果我上去，我会觉得我可能更心里更有底一些，我会更坚定我之前已经制定好的给自己的策略。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得类似的事情对于阿里跟腾讯是类似。就是在这件事情出现之前，其实他们对于未来一段时间大模型的竞争跟自身要做的事情，已经是在内部有比较明确的共识跟动作了。对，尤其在这个Q4你会发现火山刚开大会，下周是钉钉。然后阿里刚刚最近在推那个千问的APP跟什么蚂蚁的什么阿福。对，阿福。然后腾讯尧舜禹，就是没有这两个招股书，其实他们的策略跟明年要打的仗已经非常坚定了。今天有了这个事情会让他们更坚定，就是那就干嘛对吧？看上去也没有怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后他们可能就是你这么说完，他们其实可能都不会读这个招股书。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看看情绪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>基本差不多了就知道了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对不足为惧。然后可以比如再想想挖人的事情，对吧？没准我觉得是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>等你股票跌了把你收了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后梁文峰可能他可能也会，我觉得会类似，就是因为。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>deep sik.</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的策略跟deep sik在技术模型演进，包括商业拓展上的坚定程度，一直都是最最坚定的那一个。就是他们从在爆火之前到他爆火到直到今天，他其实也没有改变什么。他一直在沿着自己都做这个事情，他可能也会看一些，我觉得这里面最那什么的，可能是杨振宁一直杨振宁的投资人们。是的，我觉得这个是一个最微妙的事情。就是说虽然他们其实投资人是有交集的，就是有些人都交集，对，是有很多交集。这三家其实交集。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常的大对比较我觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>两方观点都会有一方观点会认为我们去copy上一个我们更熟悉战场上一代AI的时候，其实四小龙指数杀出来两家上市。对，那两家结果不是特别理想。那如果是copy过来的话，那如果真的这两家冲出来，第三家就会很难受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是相对比较怎么讲比较悲观或者说比较保守的策略的一方的观点。相对比较乐观或者相对比较激进的观点是说，在纯的我们真正意义上去追求所谓技术终极目标这件事情上来讲，这可能是最这个时间点最纯粹的一家。在现在这个时间点来看，所以没准他会有他更坚持的事情要做。所以说如果他这个坚持的目标能够继续得到，无论投资人还是外界支持的话，他可以继续再继续深究。但是这个条件是一个这条路太过凶险，就是太过难。但是如果他真的走的更远的话，没准他会是更大的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得还有一种可能性，提名很有可能被收掉。Imi可能被收掉。如果就是沿着刚才那条路说，如果kimi延续着我们继续去追那个所谓的AGI的目标，然后暂不那么考虑。商业化的话，听你在工作过程中，可能在某个节点，无论是因为现金流的问题，还是因为股东压力问题，可能会选择被除掉。有可能就是当然全部都是推演，都没有任何的意义，只是一种推演而已。当然你说这两个上来能不能被收，其实也可以对吧？也可以说对，也可以，当然也可以被收，而且可能会有更公允的价格之类的。所以我觉得kimi的状态在这个时间点，比如说对于杨振宁，对于张雨彤，对于kimi的几个最大的外部投资人而言，这个周末可能会比较纠结，这个心态会很微妙。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对我我觉得有几点，第一个是说kimi的上市这个事情，之前也是有很多传闻的。对我我之前一直在过去可能几个月一直都认为kimi有可能是第一家碰出来上市的。因为之前很多公关文或者PR文，我感觉好像那个节奏是要出来的那种种原因他们可能就没有出来。这个其实在IPU的执行过程之中，有非常多的一些具体的细节。可能是因为这边耽误了，那边耽误了，或者是可能是老板就觉得说，没事，这个不争这么两三天对吧？对，因为你很多时候你在一个比较长的时间来看的话，你争这么半个月1个月的这种谁先敲第一个钟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实意义不是那么的大。而且历史上所谓的各种什么的低谷，结局都不是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>特别好。然后因为有些时候那个第一股为了争低谷，是因为他可能是他需要蒸低谷。对对对，尤其是比如说我们来看质谱这个情况是他它的整体的亏损是非常严重的那如果按照现金流来看的话，我们这么说，就是质朴上半年的那gap亏了18个亿，gap的话亏了二十多个亿，但收入只有两个亿不到。对，上半年的算力成本就是一个亿，但他账上现金只剩25亿了。所以你这么算的话，可能他需要他对于这个IPO的需求是非常强烈的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看很简单，从另外一个角度来讲，从他招股书因为周四马就出来了，然后周末就开始铺一些公关的紧张了吗？对小红书上的公关的倾向是一堆账号在写质朴的账上是有八十几亿的。但是为什么会有这些公关文章出来？或者说质朴的公关为什么选择这样的角度做澄清，这就是一个问题对吧？但是那八十几亿里面其实有六十几亿是授信。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是银行的授信，我就想说哪里有80级OK？所以质朴的小红书公关说的是他有80级，其中60级是授信。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他没有说60.</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>只是说就是你明显能感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果要算的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你他不会这么强，但是你明显感觉是有力量在推动这些KOM讲他的钱是够的，OK但是没有具体说是多少，因为没有那么多人在乎是不是受，就只有我们在乎，但是老百姓不知道，对吧？对，是，所以这个角度来讲，确实纯从先进角度来讲，治补压力会更大一点。我觉得这是非常现实的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，OK有意思。然后我觉得还有就是先上市的一个好处就是很明确新上市的人他有多了个工具，就将来如果是要去被收购，还有更加明确的市场的价格。但他如果想要收购别人，他其实也有了更好的工具，他也可以发股票，对吧？比如说今天我就开脑洞，说某某他说了某某，然后他就直接把自己股份增发一倍，也能把那公司就收了定进来定进来。如果没上市的公司，你要硬发股票去收别人，别人是不愿意接受是的，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这就好像张明浩老师有一句非常出名的那一集节目，叫做腾讯音乐为了喜马拉雅付出了巨大的代价。那一集过于慷慨。对，慷慨对，其实说的就是类似的故事。对我觉得这个很有意思。OK那那好，我们可以具体聊一下一些招股书的实质的东西。这招股书还是让我学到很多东西的。我之前做过投行，所以可能对于招股书如何来撰写是有一点点小小经验的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都讲一下Robin当年是当年原本是学画画。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我没记错对吧？对我学。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这个B站上市招股书是有一张画，是有一张图的，是介绍整个B站业务，那是原本自己画的。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这个可以发一下。没有是那个对，那幅画可能就是我人生的职业的高光值。Anyway然后在招股数字撰写当中，其实它都是要找到让一个公司变成第一名的方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，一定要变成第一名，而且会放在最前面。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是第一句话就是公司一定是在某个地方是第一名。比如说像做做京东上市的时候，我们就要做成是京东是中国B2C的第一名对吧？就把资料切出来。然后你做爱奇艺的时候，你就说是长视频的第一名。那你说B站的时候分别说是PUGCD，你总是有个赛道切出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，这足够长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是有一些行业就切不出来，房地产内房股是切不出来的。然后他只能说OK。比如说有些公司可以说我在什么二三线城市第一名，或者是我在江浙沪第一名，你能切切分散器的角度，但是这个大模型其实非常难切很难。所以他们用的方法其实是用不同的数据源来证明自己是第一名。比如说像质谱主要扣的数据是open router对的token的使用量。然后mini MAX主要用的是artificial analysis，他们都会在各个榜单上有一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>sota的排名。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我我我猜有很多投资人会听我们这个节目，我想问一下，就是如果对于二级投资人可能每天没有非常跟进，随时搜查的情况之下，那到底二级投资人应该看什么指标，或者什么样的排行榜是最你认为权威、好用、简单直接、粗暴还。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>正确的？我觉得收入是没有变，是因为很简单，所有的这些他们用的指标跟排名的网站，现在第一就是首先行业内面临的问题是所有的指标跟打分都失效了，这是很现实的问题。对，你看美国人家基本上每家出来都说自己是第一，那中国其实也一样。就是你总有一种方式，在某个时间点你就会说你是第一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后open还好好一点，open的毕竟是所谓的调用量的，但是你要知道open root只访问的是你可以是一个第三方市场的统计结果。他并没有统计官方直连的对，那那很多大客户可能直连他就不需要走root那你就没有统计到。而且大你听这个名大客户他的量肯定大。那那你可能你的大部分量是被官方的渠道拿走了，第三方渠道的意义不就越来越小了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以在那个榜单上你当然可以讲，因为我我觉得这个可能跟中国竞争有相关。因为中国的这家模型厂商在25年都开源了。那open确实是开源领域最大的渠道方。但是你还是有自己官方渠道的，所以这个角度来讲，你没有办法在这件事情上有那么明确的要求。所以我为什么说最后要么就是最粗暴的指标就是投坑量，最简单的对，要么就是收入，其实这就是最结果导向的指标，它不是任何第三方给到的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是问题在于今天的这些厂商，无论是中国厂还是中还是美国厂商，当你做对大型厂商去做产品发布的时候，你依然还是需要第三方的榜单的排名也好，打分也好，来去做推广，P2证明实力，乱七八糟，所以大家还是在做这个工作。但是所有人也都心里特别清楚，知道这个东西的意义跟标签几乎已经不太大对，越来越弱了，就非常弱，基本上非常。所以而且还有点更现实的问题在于，我觉得进入2、五年之后，各家厂商在beat的最核心的那几个点也不太一样。然后再打的仗越来越不太，甚至可能一些细微的技术实现的路径也开始出现区别的时候，这种偏通用的榜单就显得越来越没有用了。就是你可能在某些榜单确实特别强，但是你可能这个榜单代表背后那个那个场景，或者那个使用人群可能并不认可这个榜单本身，他们可能认可自己的习惯、经验跟那些东西。所以你会发现其实在美国也出现了这个情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我发现其实今天在办的就是诚实的记忆跟用户的习惯的这些不断的反馈产生的数据这些东西。他在back这个事情，他认为这个事情会对未来长期的留存商业化有意义，那就是back to b企业服务。扣游戏coding场景这种东西。对然后XCI可能在办的是他跟推特的数据的联动，包括什么一些差别，乱七八糟这些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后那goobut可能是文字多模态一起的那样一个体验。那个可能是他在外头的东西，当然就是你的就是他跟水桶一样，基础分不能太低。但是大家办的那个东西的差异性显然很重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>落到中国其实也类似，你比如说我们只说我们不算，就只说这个面两个对比质谱多模态虽然也有，但他绝对不是优势。他也不在他没有在怪物身上特别的强大。但房价miss多模态能力。断档式的。他认为在中国厂商里面是断档式类型的。所以他会说我是在文字、图片、视频、语音四个赛道，少有的都在第一梯队的对，是的，是他他他他给自己的定义就相当于我也是跟你刚才问题一样，就是我还是要切这个词，然后切到一个什么块才显出我的独特性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但质朴这个确实我觉得质朴和他们招呼说什么，就非常强烈的表达了他们的一些他们认为自己是什么优势了，他们的对于一些行业是的，对，那我刚好沿着这个继续问一个问题，就关于在招股书当中有一个部分叫做行业报告，行业规模就很有意思。就其实是首先我跟观众澄清一下，在招股书当中通常公司会邀请一个行业专家，就类似于一个咨询的机构来做一个行业报告的研究。行业报告的研究结果会成为这个行业章节的一些撰写的的底层材料。通常这个专家可能是50到80万人民币不等的价格去写上报告OK。因为行业专家是乙方，所以他其实是带着。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目的去写的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也就是说公司让你写啥，或者公司就。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>瞄定了一个方向。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>公司描定一个方向就对吧？这个行业专家应该是会跟公司在这个方向上达成高度一致，才会被聘用，才能写这个报告OK。所以很多投资人会认为，这个行业的部分写出来，也就是这个公司对于这个行业的看法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK十分有意思，就是在质朴的招股书当中的话，他们记录的是2030年中国AI企业级的市场规模是差不多就在1000亿人民币。如果你算的话，1000亿人民币还不到今年的OpenAI的收入。是的，其实是我就是中国在2330年的企业级市场规模还不到open I今天的收入。我觉得我当时看到是第一个比较惊讶的。第二个在那一千亿当中，他们认为80%的市场份额是本地化部署的，然后云端只有20% OK那虽然这个跟他们自己的实际操作业务有一这些不同，但是他们的行业预测是这样的对，所以这2点OK第一个是1000亿，然后第二个是80%。本套部署你怎么看？首先我确实觉得这个数字不那么可信。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>无论大还是小我觉得不是大小的问题是这个数字太像是一个拍脑袋定的数字。对而且很现实的，我们是从现实角度考量。如果今天有个平行宇宙，那个平行宇宙里面没有deep six这个公司，也没有deep CRE这样的开模型，也没有出现那样的一个在今年年初的那种开源的状态的情况的话。同样的那个平行宇宙，今天制度要上市，这个数字一定要比这个数字大得多得多得多。就是我觉得因为那个事情出现之后，大家会默认，反正在年初的时候是有比较大的争论和大家会说DP的出现会让这些母婴厂商不太OK。然后尤其在中国市场，尤其又是偏如果你认为本地部署是中国市场更重要的情况的情况下，那对詹姆斯应该把这个市场吃掉绝大部分。对所以所以这个数字本身我觉得我甚至都没有办法去评判它到底是大了还是小了，还是差了个量级我都不知道。我觉得他太像是一个随便写出来的数字。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>至于是不是本地部署和云端，我觉得如果考虑到中国现有的，比如说政府大型企业跟中国整体企业的数字化水平来看，确实本地部署应该会多一些。但是是不是八二这么大的区别，我也不好评价。所以整体而言，我觉得这个还是跟你的这个问题之前说的那个那个打预防针是相关的。因为这个就是匹配着质朴一直以来讲的，因为很简单，在意识上里面大家原来认为质朴应该。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是缺A股的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。然后果子乱七八糟，然后本地部署to g突突突大臂，是一直以来大家会认为质朴的相对于其他几家笑容的优势。所以有这几个前提条件摆在这，出现这个描述跟他在行业报告里这么写，我觉得不意外。但是反过来讲，他俩相关性太相关了，就导致我们抛离开他俩相关性去单纯只看那个数字而言，我觉得是没有太多可行性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，明白，对我这边跟听众补充一下，其实是在25年4月份的时候，质朴确实是在证监会这边备案，然后主要让中金作为辅导机构瞄准A股去走。好的，对，这确实是之前发生过的事情，然后这也在港交所的招股书当中有披露的OK。那之后为什么没有去学A股，然后转成港股？这个其实可能就不得而知了，我们也无法在这边做特别准确的判断。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我之前会觉得就是A股就之前我之前不会，我也讲过一个比喻，是小丹总说的，就是原来华泰的那个，他说A股特别像，就是一家公司上A股特别像。古代的匈奴，匈奴人穿越长城就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这么理解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你突然间可能一个意外看长城有个洞就穿过去了。但是当你发现这个洞的时候，你再想去穿就被堵上了。当然这个天哪，当然当然这个说法可能有点过于极端了，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天A股市场有点我觉得有一些我觉得进入到Q4之后，有一些比较大的风向的变化。你像首先这几家GPU出来确实非常的疯狂，然后马上就出现了人形机器人的这一波的调整。因为之前预期人力精神这波也会很快的会在A股见到。对，因为那家也都股改，也都备案，也都开始在进行中，但是突然间出现吹了一些风，是说太多了，然后要优中选优，要怎么就要要控制的那你很想从节奏上来说，GPU是第一档，人精神应该是第二的，大模型应该比人群再靠后。就是从时间节奏上来说，但是问题在于A股的池子是有限的，钱的流动定是有限的。然后散户又多，你又就是你很简单，气氛已经烘托到这儿了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？是就是大家已经。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看到了被炒成什么样子了，对吧？那人形再来一次hold住吗？会不会出一些钱不够问题？全部我觉得只是表象，这是特征，是结果。那如果当面再来一下，他是不是就会所以这个问题可能也在某种程度时候，再比如在Q3的时候，会让这个选择还是去行。可能也是一种互相的适应。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得可能最后是一个整体的整体各种利弊的一个权衡，对公司可能也做很多判断。是的。然后另外一方面，mini max的这个招股书就完全不一样。OK, 那对我我再说一下，就质朴是说他们认为中国他他的行业报告只针对中国企业级市场的1000亿人民币2030年。然后mini max认为2030年他们的行业报告写的是全球市场规模3000亿美金。OK他就是我的我的市场是什么？已经明确定位了，我的市场是全球市场规模3000亿美金。其中它的分类是75%是来自APP的应用。APP的应用就类似于像turkey，就是你充个值，这属于是APP应用。然后25%是mars，就model s service yes，就可能是API调用云这些ok然后75%是等于你可以理解，75%是偏C的，是偏presumed yes对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那25%是偏模型本身，B端偏对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你觉得这个你同意吗？你看到的时候你会觉得是这个数字首先肯定比字符。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大了好多个零，但是还是小可能会还是小。因为很简单，欧洲I预计2030年是2000亿美金，那我看第二它至少1000以上，2加一起就已经3000了。我们还没有算google，我们还没有算ICI，没有算其他所有公司我们都没有算应用公司。对IQ也没有算AI生图，没有算AI法律，没有算manner JK这么多对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在加不加班。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们都不小了，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>美图秀秀算不算？对，那五年之后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个数字不可能是这样一个数字，而且还有点很现实的。如果五年之后这个事情只有这个数字的话，那今天泡沫一定就完了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天就太极今天就泡沫太极端太。那你想现在的投天花板太低了，就是几万亿美金的数据中心，那肯定就算不回来了。对，然后至于是不是75年度25API，这个我觉得是一种，其实这件事情在2023年这波AI爆发的时候就有讨论。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>到今天这个讨论还存在，就是什么呢？就是大家会认为公认一个行业走到成熟的标志，会形成类似三角形的稳定结构。三角形的结构是成熟状态，应该是倒三角。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么叫倒三角？就是如果我们按利益的利润的这个构成来看，最底下最基础层拿的最小，然后中间层拿差不多，最大应该是被应用层拿走。你看一个互联网年代，移动互联包括云端里面都是这个逻辑，就是最大的收入或者最大的享受，最大的利益是那些应用公司。当然可能不是一家，是很多家，它是一个倒三角的生态。可是今天AI领域是正三角形。比如说最底下的info跟芯片层拿走的最多的一个模型层。其次应用层拿的最少，甚至都是负毛利。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>甚至是亏的负的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就问题变成了我们能不能从现在的正三角形走回到理论上说的倒3。就是第一是能不能，如果能才可能是这个结论，对吧？所以我觉得所以这个东西或者这个推断本身有一定的一厢情愿。就是大家会认为历史上都是这样的那应该这一轮也差不多是这样。对，但是你说真的有什么核心的原因跟逻辑，你只能去找那个最最正确的废话。因为应用公司离用户最近，因为这些这这些理由。可是现实看上去截止到今天这个时间点，包括这个行业讨论的核心问题到底是模型还是产品，在今天依然没有结论。所以2030年会怎么样不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且这个其实我我觉得他有非常大的局限性，是因为我们只能讨论移动互联网。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一个统计数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个样本，就移动互联网是一个单一数据样本。如果我们再来看铁路光纤，就是看很多中国高铁对吧？我们看很多这些大的技术突破，带来的巨大的一个网络型的英法的时候，其实最后他的社会外向性的经济是非常明显的对，所以就是钱都被外面人拿走了，就不会被里面不是说今天你的高铁票会特别的贵，对吧？所以他其实都被中国经济就要让别的部分拿走了，而不会被人拿走。所以就是真正在做这个东西的人，其实是有点被圈住了。对对对，就不能说是炮灰或者先烈，他们就其实是他们做了一个非常大的一个公用产品。然后这个其实可能不一定能够跟移动互联网相比。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是所以就是一厢情愿。大家当然希望能也好，但是事实是我们如大家所期愿不知道，而且还有很多我觉得这个跟两家公司刚才讲招股书地域是非常相匹配的。你miss的第一句怎么造出？第一句是一家全球化的AI大型公司。第一句也就是说他自己的定义就是一家生儿全球化的公司。所以它的市场规模当然global会写global的那很简单，我们看这个质谱，说质谱第一是说我们是中国领先的人工智能公司，致力于先进开发先进的通用大模型。而且更重要是第二句，2019年我们秉承着在中国追求通用人工智能创新的大胆理念而创立。就是他一直在强调我们是中国的人工智能公司，并且我们是在做的事情是在为中国去追求所谓AGI实现目标的路径。所以他当然他的目标瞄准就是中国市场。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，这个也跟他们的一些融资或者背景有关系。包括质谱背后已经有北京、杭州、成都、珠海、上海五家国资背景了。然后我不光不知道这个具体即使投资里面是不是有其他的城市的国资背景，但是他的国家对属性是非常强的。他其实整体打造就是我要做一个国之重器，对吧？然后中国一定有我，然后就我对中国很重要，我承担这个角色。对我承担这个角色，他的这个逻辑是这样的。然后mini max就是a one global，然后他70%的收入是来自于海外的，30%来自于国内。然后质朴的国外收入应该10%左右，而且应该是来自一个可能东南亚那种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么主权的国家的模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概什么的那个那个订单，所以还是很很不一样，非常不一样。然后我们具体来聊一聊两家的这个业务模式。其实大家在比如说在之后数出来之前，大家都对于每一家公司做什么可能是或多或少有些理解的。但这些理解有些时候可能比较缥缈，对，比较模糊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后那么呃之前我们并不知道说mini MAX到底国外多少。对，好是的。然后质谱国内有多少就不知道。我觉得第一个是业务模型上，国内国外，然后这是一个大的区分点。第二个是我们之前并不知道说质朴有这么多出具会出大笔的业务。他的这个对于大企业的属性是很强的，包括应收账款能看得出来。对，是的。然后mini max是如此出色，之前我觉得好像mini MAX的那种API收入也挺好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，大家也会认为他的视频模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>语音模型都很强。对对对，然后就会发现怎么大家都是在聊天，聊出来的都是抽卡抽出来的，这个收入完全不一样。所以我觉得这个也是有一点跟我之前至少跟我之前的这个粗浅的认识是有一定的差别的。然后还有就是质朴做了非常多的本地化部署能力很高，但是他的训练成本很高。然后mini max貌似做了非常大的用户量的这个AI产品。可是他因为要承担推理的成本，所以它整体的毛利相对来说比较低。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，但是你会发现你读完这个招股书的一个结论就是他们都在不断的点亮一个矩阵。那这个矩阵像我之前你那个在你应该在年度回顾OpenAI那个地方有提到过，那博客有提到过。就说其实OpenAI也会从什么多模态，然后做到什么agent，然后API，什么sora全都布个局对吧？它其实是个矩阵，每个人去每一个格子都要去占个坑。对我点亮一个灯，那我的问题就是这个灯亮这灯的点亮顺序是有一个选择的吗？或者说如果我们今天回到2022年、2023年，今天你是质朴的老板，或者你是d max的老板，你重新去点这个灯，然后国内国外to GB to c然后API本地私有云做不做talky.</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个这个你的这个流程是什么？因为在单位时间之内，其实一个初创公司肯定是不能全都做对，他得逐步点亮这个灯。是那这个点灯的顺序应该是怎么思考？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我当时想这个问题是说，我觉得这个结论特别的没有用。但这个结论是这样，就是说今天这个时间点在这个时间点上这样截面的一个样本量的状态，可能意义非常有限。就是今天我们去看他是to b还是to c是APP，还是to producer consumer，还是to g to b，只是这个时间点基于他们原有的，无论是他们擅长，还是他们有的资源，还是意外，还是怎么样走的一段小段路。因为这个路是一个非常就像你点了，他会点的东西太多，他他有太多的东西要去点。所以可能如果他有50个东西要点，他可能今天每个人先点了3个到4个。那这三个四个的顺序对于整个的50个的流程而言，其实可能没有权重那么高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这我觉得当然这话没什么意义，对吧？他没有什么结论，他就是一个描述。但是现实而言可能就是回到这家公司的，你说创始人的状态，他们在做什么，擅长做什么，习惯做什么，公司的给外人展示的样子，顺路能做什么，就这些东西决定了他们现在做这件事情。那如果今天同样同样如果今天kimi也有找我说，他也会有类似点灯的过程，对他也可能在很多灯上付出过很多的成本，最后那个灯灭了，对，也有过。然后可能今天也在尝试agent也好，推理也好什么，他还在点新的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他就是一个就是这样的一个一个一个我只能描述他的过程，很难去评判这个过程本身。123还是先三先二还是怎么样，就是他没有对跟错。而且现实看上去美国那家巨头厂商一定是全都要就是全都要点。对，但中国的厂商我觉得是要做取舍，因为1%的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>呵呵对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的OK对，所以我觉得这个问题是这样一个，所以你说如果再回来一遍，他们是不是还这么走，我觉得不一定，但是可能会受到别的一什么意外因素影响。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那这个问题我再反过来问一下，就是这五十盏灯对吧？然后五年之后我们来看的话，发现其中有40盏根本就不想点。那时候可能这其中四十盏灯是这些模型厂商都点过，且全部集体把它灭掉了，就觉得这生意不要做对吧？这就有点像早期，比如说像什么腾讯的时候，啥什么电商也做过社交什么东西都做一遍，对吧？那时候也是腾讯的时候也点了50盏灯。然后只是最后他把他主动把很多灯灭掉了，或者交给合作伙伴。所以他大家都经过做这个过程。OK我们再反过来看，如果我们能开天眼，然后这个天眼是我们从2030年回头来看这五十盏灯，你觉得哪一些灯有可能是流下去的？现在看上去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>coding肯定会留下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对OK多模态应该也会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但多模态是这个多模态这不是一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>正确的标法吗？对，这个灯太大了，它就是一个更的灯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是吧？单独的新主灯。对，它是主灯，它是肯定都要点。我觉得coding肯定是要点的。Agent我觉得这个灯也太大了，他也变成一个灯。如果我们把灯定义成50个，那它还是一个小的零散。但H也好，动态也好，我觉得都是一个大的大的可能都是十个灯聚在一起的事情，是一个组合灯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对它是个组合灯，对那那那水晶灯对它。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是一个组合，可能有十个灯泡的一个东西，最后被归拢成一个量。然后那就那那今年的或者说今年截止到25年底这个时间点，大环境公司一定要点的。我觉得coding已经没有任何意义了，对，agent也是。剩下的语言本身的再往前推进是什么？或者说纯语言模型本身的语言的技术研发的。再往前一步，无论是什么记忆系统，什么上下文什么这些东西，那是纯我觉得技术层面的。眼镜的事情，他跟灯它不是灯的问题，它不是那个产品跟应用的落地的那些事情。你说再有什么灯不知道不知道，我说还有些灯我们不了解，我说我不熟，AI for science.</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后可能还有一盏灯是那个什么，还有一盏灯忘了，反正就是那几个咱们不那么熟的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他现在还没有被普遍点过的代码是吧？OK我说我的感受，其实当时在那个SOP之前不是把中国的相关的一些使用权限禁掉了之后，然后质朴非常快的推出了那个质朴的叫什么GLM code。对，那个名字叫啥GLMGLM code对吧？然后那个那个就是计划，而且他当时的定价是完完全全对着IF去定的。然后这个我觉得是非常反应非常快快，然后基本上就是你定价期20美金，我定价20人民币那种，然后很快推出一样的东西。其实后来curse自己号称推出了自己的那个大模型composer，很多人也认为它是基于质谱的模型。对，是的，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK那那我当时是对质朴这一件事情，我觉得是非常欣赏。然后他反应很快，在我心中质朴已经是那个时间点，已经快比较消失存在感了。然后他走出了这一步，然后我觉得很厉害的。现在号称是有接近1亿的收入，然后15万的用户，对，我觉得还是有很大的期待空间的。然后这个灯如果他们能够点亮，我觉得还是有很大的期待些一些期待的对然后具体到agent这个事情，我想再多问一下，真的是大家都在做agent.</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们一max最新的模型M2的H能力还是不错的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这边有个问题，就是你能做和大家买单就是付费，这是两件事情对吧？我感觉很多人都能做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以因为像agent很明确。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是因为那个manus跟just不管他们的销售费用如何，但他们收入应该是比较确定的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是的那就等于他们俩今年的收入在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的。所以大家都会，尤其在家上市公司肯定会马上意识到说这个agent这个大灯一定要去点，一定要去追。你觉得就是在A转这件事情上最后有什么变化？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个问题又回到刚才我们提到一个问题，到底是模型还是产品？对，到底是模型还是产品？原来大家会认为模型会吃掉了今天这个时间点看上去由模型封装成的产品。可是经过五年的发展，大家发现虽然cloud code跟GPT的code x发展很快，但科的发展也很快。他也建立他的护城河跟壁垒。然后H这件事情今天还没有定，就是还在争抢到底是谁能更强，就是模型厂商往前吃的更多，还是类似mas jack这样的A的公司把前面的东西吃的更多。对，这个角逐在20年会更激烈，26年对会更激烈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后肉眼可见的确实今天这个时间点做前面的离用户更近的那些公司，至少在收入层面上拿到了更好的结果。然后你看今天me max招股书里面在介绍他的收入，今年的尤其今年前五九个月收入里面，minus自己的那个APP的收入，其实基本上就来自于medas新出的agent的收入贡献。所以其实他已经在这件事情往前走。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个问题联合你上一个问题，质朴推code x包括豆宝手机火了之后，他把他之前其实就做过的那个叫auto GLM也是。对，是的，手机就是控制手机的样子，他就开源了。对，是的。就这两个动作是代表这家公。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是在我的那个动作也非常厉害，非常惊艳。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是之前大家会认为质朴家公司相对于kimi而言有些慢，有些就是他跟他那个创始人的形象非常的像。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有点国企。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，有点那个样子。然后他在尤其是to c端的产品上的，我们说的好听点叫什么网感，就类似这样的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>稍微的差了弱了那么一点。对，但是这两件事情做的你会觉得他他也知道他在追，他在跟，而且看上去跟的还可以。是的，所以从这个角度来讲，他也意识到也会有这样的问题。然后回到A正常来讲，肉眼可见的由模型去解决任务这件事情是大家第一时间就会想到大型公司能够产生收入的一种方式。无论这种方式有多高的营销成本，毛利有怎么样的情况。但至少在这个节点，除了口径之外，这个事情是一定不能定的对，目前公司人所以当然所以大家肯定会疯狂弄。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得明白OK有意思。然后我们再说一下关于财务数据的一些特殊的。好像要深呼吸1口，我觉得看的财报我会有点我数这么多个零，我们来说的就是比较简单的。其实是在2025年春节的这个出现之后，在大家的普遍认知之中，是中国厂商能够把这个训练成本大幅度降下来。这也确实是他们就现在包括现在m two或者是k two他们推出的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在讲的事情，在讲的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一些PR稿也好，或者是社区的评论也好，都是说自己的训练成本极低。然后很多时候他们我不能不一定是公司发的，有可能是自媒体传播的，可能是一些不相关的人事传播的一些数据，都会说是一个几百美金几百万美金的训练成本，对吧？但是当我们看到质朴和mini max的时候，上半年或者今年前九个月都是在10亿人民币上的训练成本。是的，我们这边讨论的只是训练成本，就是算力成本，不讨论人的工资，也不讨论楼租金，不讨论别的东西，就讨论那个训练成本，然后是10亿人民币以上的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我好奇想问一下，这两个数要怎么去recoil呢？怎么去拟合在一起呢？就因为一边我感觉到可能我是个错觉，好像自媒体都说可能很多普通百姓，像我这种普通老百姓觉得，中国算中国这个可厉害了，马上超车。而且DPC是开源的，所以全中国人都能学会。然后就是500美金是个大模型，对吧？就是有这种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是另外一方面，你发现说他算力成本非常高，且没有比例上下降，对吧？因为或者你说上半年DP刚出来，你还没学会，那二季度学会了吧？三季度学会了吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>嗯那这对吧没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有显现这个没有显现出来，就是在这个财务数据上没有显现出来，这个就是为什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这样的，就是dipstick的论文确实在他论文描述当中说了一个数字叫128万美金。但一晚上也是dept RE最后一次单次训练的成本，也就说那一次完整的最后一次训练，训练完出来21公布那一次单次是128。可是你要知道一模型从他基础有个状态到他真正意义上给到用户用，这中间可能要训练很多次。次数决由什么决定？有很多原因决定，由你的评估决定，就你希望达到的效果决定，有各种各样竞争决定，甚至有榜单来决定。他的训练次数可能是一个刷题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那刷题也算是一次训练。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对，是他是由这个决定，所以他训练本身它的次数就决定了这个数字它不是一个120万。你可以直接对比，比如OKI10亿美金的这样一个体量，所以这是第一点。第二点是说今天这个事情我还是那个观点，就是我们是拿了招股书，是一个一刀切的截面的数字，它就是这个截面上这个现实发生的数字。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可是公司的业务是动态。现阶段为什么刚才又是投到那个观点？你可以为现阶段这些公司现在的业务跟他技术研发的这个路径的发展状态是不匹配的，他的技术研发要往前推的更远。对，是的，所以他要提前做下一代新的模型的投研发。因为他大家都要追那个，你说是扫塔也好，还是追那天他他要追那个，他追那个就要再往前走几步才可能。那你可能并行着有好几个在进行中的项目跟这个模型，那又这里面又分语言部分动态，这又好，就跟甘特图一样，他画了好几段并行的同时在弄，而且要往前追1到1.5步，所以导致它是一个叠加。然后这些只是我们要前期的训练，那还有推理就你要服务那么多用户，尤其像米max这种，他MU虽然也没有很大两千多万，其实也OK。但是这波用户用这些APP产生的算力成本也要算在里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我刚才我刚才说的数是没算推理成本。对，推理成本还是另外的。对我刚才说的数是纯训练成本。那那那因为颗粒那个推理成本得放毛利上面开了。对对对，是OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他他就是还能够是因为现阶段的他们的展现出来的明面上的业务其实是一个很小的。就像我们刚才比喻，他只是50盏灯的选了三盏，对，仅此而已。但是他的模型的演进是要再往前推的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他的模型是为了50盏灯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，那他当然要背更多的成本了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，明白，有意思。我觉得这个其实就是现在出现比较大的，虽然我们的训练费用是美国open 1% 2%可能量对吧？虽然是一个非常很少的费用，但是它其实是因为收入收入结构，还有收入的rapp的速度和今天的研发成本以及研发周期的一个非常尴尬的错配。对，包括北京跟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>几家公司融的钱的体量也行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，但其实OK我会有个flog的问题是关于deep sik的，因为这之前这个数字不透明。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，大家不知道投了多少钱。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为之前一级投资人会说，比如说那出效果就告诉你说谁谁谁花了几10亿10亿大模型不能投对吧？不对，DP数他们只要几百万，对吧？所以在这个数字肯定是在几百万个几十亿当中有一个数字是对的对，然后到底是多少不知道。对，现在差不多知道了，现在差不多知道了。那我就算OK，我就算这个质朴跟mini max两个加起来都是非常糟糕的公司，他们都非常不知道怎么省钱。就算他们就不知道，我就算deep sig是全中国第一等的模型公司，特别知道省钱。OK我就这么假设，但是他会比11少很多吗？应该不会OK好，如果他不会比11少很多的话，那么我们已知DPC是一个目前为止不融资，看起来API收入也。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不会很特别高好的公司对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是特别能自己造血的公司。我相信他们虽然没有什么销售人员费用，这些费用没有那些对吧？他们从来没有投流买过钱？这些我都相信，可是这个算力成本就实打实的放那边？那我相信之前量化换方存到国家存存过卡，这个我相信，他们也挣过钱，他们也有挣的现金流。可是一年就是满打满算算力十个亿，我不知道能省多少钱了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后他他现在是以一个个人的方式去养这个国之重器。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那现在外面看上去就是这样，那确实你就是我们能把真的就算这不是十个亿，估计也是几个亿的体量。至少因为他团队再小，一两百号人也要有，对吧？因为你也都最已经经典到不能在也三百多号人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊，那DP这个我们算两三百号人，200号人。这公司差别不会特别大对，哪怕他真的找了什么很多什么毕业生什么，但他也不会差特别多。然后再把这个算力成本算上去，我觉得一年至少应该是个几个亿的投入。对，就是这个数字量级不可能小于，我觉得不会小于5。对你大不大于十我们不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他一定在5到10之间差不多。所以我的问题就变说是靠一个个人然后去养一个这么大的东西。因为你想就是他其实你梁文峰个人养出了deep，然后不是可以跟。可能都比之前更好，对吧？阿里的比他们都更好，但其他的这些公司是凑齐了多少个国资委进去了，对吧？所以那那我的问题可能就是会不会有一天突然之间TPC告诉我们说，杨杨总最近就是钱不够了，可能养不下去了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有这种可能性吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不知道对吧？就这个模式其实是我看到那个十亿的那个数字。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最直接的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最直接感觉说那还有DPC是不是也缺这十一对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我觉得这个问题其实在DPC火之后就出现过，而且那个时候可能更无数人都找过他吗？对，就各种各样的决策方，国资地方国资对纯市场化的钱甚至美金应该全部都找过。对，但是他全部都拒绝了，他没不让任何一方，大公司那就不肯定也都聊过。但是他没有让任何人，至少截止到今天是他确实就是以自己的方式在承担这样的一个每年几亿的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个还是挺多钱的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个还是确实很。你说这种事情真的，当然可能我们是小人，我们以小人之心之心去去去想他能撑多久，或者这个耐心有多久，我们真的很难去评价。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个确实很不一样。然后我们再补充一个数据，就是OpenAI2025年预计的研发成本是这是根据information曝出来的报道是134亿美金，换成人民币的话是1000亿。所以刚才我们反复提的数据只是10亿人民币OK我觉得这个是有点点不太完全能比较是这样子的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我经常会喜欢把大模型当做学生的就是升学来来比来比喻这么说的，就类似于open I可能现在是一个五年级的学生，mini max可能是四年级的学生。所以现在五年级的学费就是1000亿人民币，那四年级的学费只要10亿人民币就够了。OK。然后就是四年级的学费这个10亿人民币，然后他升到五年级的时候，他还是一个10亿人民币。但是五年级的人再往上升的话，他还是个1000亿。所以可能出现出现一个现这样线性关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最后带来的情况就会是说OpenAI的费用是持续的。对我我我不知道他之后会到什么地方，反正就很夸张。中国在算力成本上确实是省很多很多钱的。是啊对，但我想问就是说中国的这个算力成本就是十个亿。现在你觉得跟我们用国产卡，或者是说一些算力限制是有些关系嘛？就如果这方面有一些解除或者是什么的话，对这个成本的数字会有一些什么样的改变吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定会有，但是他是不是能到一个，比如1%提到10分之1换一个量级，我觉得不太可能。因为现在说这国产卡其实都在用，但是用也就是今年才开始，慢慢才开始用的。对，然后之前的肉眼可见，从22年、二三年、24年这几年是包括25年上半年，大家还是用英伟达卡比较多的。而且你想对yc传出来再跟华为做测试，应该是今年5 6月份的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>夏天的时候。对，所以其实。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定会有变化，但是我觉得不至于是一个量级层面的一个变化。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后还有个问题是关于中国这个便宜的事情，就包括像TPC，不是不k kimi k two出来的时候不是有all in的，那个for cast的主播就说k two非常便宜，是价格多少分之一，然后还说千问这个多分之一对吧？然后我想问就是中国模型便宜肯定是用API调用的平均成本来看的那这个成本的话在我们今天看到这个财报里面应该怎么体现？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是他的那个to b的那块的毛利率就to .</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>b的那块毛利。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是所以政府这块毛利是负的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那我就想问这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我感觉我问。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的每个问题都不是很礼貌。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这是事实，这个事情其实是被很多人拿出来来讲，就是我的。但是me max因为我觉得可能me max他的所谓to b跟很多东西做了一些，你不能说处理，就因为他的业务确实不一样，就是质朴在这块业务确实第一占比不是很大。对。第二他这块业务本身来讲，是为了跟市面上这些竞争对手去竞争，才把价格拉下来，所以才导致他毛利出现了问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Me max的情况是说他第一他的to b的模型的可选项很多，除了文本，有语音、有视频，有有有还有什么，就是他的模型的样子就很多。然后每一种可能毛利情况也不太一样。对，是的，包括定价，包括竞争，包括乱七八糟。所以在平均来看，因为最后我们只看到一个单一的数字，对，所以造成他在这毛利会比那个负的毛利看上去好看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这个其实还挺挺难拆的。因为每家公司首先它的业务形态变化确实很大，然后这些财务数据说实话到这个级别的break down是不太够能够具体预测的。是的，这个其实也是有点拍脑袋算技术。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对OK，然后我们再问下一个比较有意思的问题，OK关于人员工资的事情，就刚我们不是提到说GPT也得养他们几百号人，对吧？然后我做了一个简单的测算，其实就是把招股书当中关于研发费用这个部分，其中的人员工资这一栏单独拆出来，然后把它做了一个年化处理。比如说质朴是半年报，那我就乘个二，然后mini max是九月报99930的报表。我就除4分之3OK然后再除以他们公布的各自的科研人的科研人员的数量OK。那算出来的一个结果是啊，质朴的人均工资是81万，然后研发这是研发人研发人员，研发人员对研发人员的工资是81万，然后mini max的研发人员人均工资94万，OK所以平均就差不多在15万美金不到的样子。这个你听完你是什么感受？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>reaction算符合中国国情，但确实不符合AIG国庆生的情况，对吧？对，我们天天看着美国的新闻，是他妈的过亿的薪资的这种状况频繁出现在中国，确实，但反过来讲，其实细想也合理。前两天那个研究员明白CEO不是去老罗的博客了吗？他也讲他们的其实很多员工并不是美国那边回来的海归。对他很多就是可能读大学，读计算机或者读数学，读什么，然后做了几年研发转过来。如果是这个路径来看，再加上他们团队都比较年轻，尤其是最近疯狂的P2.</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们的团队非常年轻人，什么人均95后32岁对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那你想如果是这样一个人，以我们本地本土的国情考虑，他毕业几年，哪怕是一个学非常资深技术的人出现在一些公司有过经验，然后跳槽过来，他差不多也就是这个公司。平均来看，当然今天这个数字肯定会在，我觉得26年肯定会出现一些变化。因为25年开始，前段时间是腾讯在疯狂的挖字节的C的员工，对，可能是两倍在挖。然后今年这个招聘市场，尤其是大学生的招聘市场，相关专业的，尤其是优秀一点的，偏研究生或者博士生以上的薪资报出来的新闻数字都很很可怕。再加上竞争对手也多，所以明年这个数字应该会有比较大的有可能会有比较大的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得确实有可能，我觉得可能这还是一个人才的人才的成本和他的实际的竞争关系的一个错配的情况。就可能因为我们今天看到招股书，可能是去年入职的员工签了个两年的合同。对，是的，他可能是去年的薪水，24年25年的薪水，那么明年肯定又不一样了。对，这个肯定是每年市场最高的。但我当时看到的第一反应其实是做这个人工智能还没过百万，就百万都不多。你看看美国就很夸张，是所以觉得这还是很很厉害的一件事情。中国确实是人才的红利还是有非常强烈的。这个prime在这里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK然后你觉得我们我们先来聊一下财务和上市节奏的事情。就刚我们前面已经提到了关于质朴的。质朴上半年亏了18个亿，然后按gap来算，他亏了二十多个亿对吧？收入两个亿不到，其中算力成本是11个亿，我们只能是算力成本，算力成本其实是最大头，然后算力成本是一个亿，就是这个有点砍不掉的。然后现金的话是25个亿，所以现在他对于上市是有一个比较强烈的需求的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你想反过来讲，他上次能用多少钱呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这是我下一题，但是你不要跳出来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有，那我们按正常节奏OK。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这其实就是为什么要上市，对吧？然后上市先不管他能融多少钱，这个其实质朴上市肯定是有个比较明确的一个时间点，他真的是比较需要资本市场的这助力和数据源。对，那many max其实如果你从就gap角度的话，也是这么多年花了80亿人民币，至少是有了对吧？大几十亿人民币，就是十亿美金这样子。然后他25年的话可以赚到6000万美金，估计差不多。但同时也是亏了两亿美金。就是mini max的财报全都是以美元计价的定位。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为它一直是美元结构。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，它是美元结构，且是一个美元的海外收入为主的公司，所以他的所有财报都是走美元计价痴的OK但他前九个月的成本也差不多是10亿的算力成本，那公司上现金还剩下10亿美元，理论上的话是还能够撑比较多年。是的，那又明显他的收入结构是在往上走很快的。你觉得为什么他们想要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在上市呢？我觉得这个上市时间点，上市这个事情真的我有无数讲，我真的是看命就上时间点的这个决定，真的有太多的因素导致了我觉得质朴是非常现实的问题。我觉得除了你刚才说纯线角度而言，我觉得有另外更现实的角度而言。智浦人民币基金的退出期比较短。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是投资期比较短，他的很多投资人对是我没有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>想过这一点。OK一定是你想首先智浦成立时间也不短，虽然他密集拿投资的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也就几年时间，没多久相对于v max时间是更短。但是质朴也是非常年轻的工。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但你要想很简单，质朴拿大钱那几个应该是在二三年。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>2324年也拿了。对，然后四年。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，虽然可能现在看上去，比如说26年初上市，那他拿比如说二三年的那些比较大的钱的时候，大概也就是三年不到的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那如果是一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>五年期的人民币基金，其实有一定这个因素，当然没有那么直接，它可能不如现金流的因素那么直接。但相对于拿美元投资的mini跟kimi而言，这个因素是他早期一定要想的因素。还有更现实的问题在于，其实在今年是今年上半年还是去年上半年，市场上就流出了非常多质朴牢固的SPV的招募的那些东西。所以在那个时间点应该有一些更着急的钱接过一轮治葡萄OK，大概估值可能是在160亿人民币，差不多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为这个最后也是打了一个七折。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后一轮240，我说230左右，差不多是这个样子。所以那些钱可能也会有比较强的退出的诉求。对你想那是那也近了两三年的时间，所以这是一个很现实。当然你说他不会像现金流那么急迫，但是你在考虑上市节奏时间点的时候可能要考虑。迷你我觉得确实就是存在。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>先。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>讲的包括美元投资的人的这些，他背后这些投资人的耐心程度而言，应该会比直播要好，或者没有那么着急。对，而且确实看上去哪怕用线性外推的方式，mini的如果26年的状态可能会更好。但是还是观点就上市的实际选择是一个态度因素导致的。今天的时间点，业务这件事情上的占比到底是对于每家公司的权重是多少？我觉得是一个见仁见智的问题。再加上你考虑到mini max跟kimi是从来没有考过A股的，考虑过A股的，他只有港股一条路，美股都不可能，因为不可能不要想的只有港股这一条路，那你就要考虑香港这个市场的特殊性的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以可能在比如说如果我们假想某某一次今年或者去年什么时间点，mini nice董事会做的所有他的核心投资人老板，现在业务状态是这个样子，然后可能也知道竞争对手在密集的准备。那是不是在那个时间点他们就决定我们是不是也可以试一下，然后就做了这个决定。对，所以他很有可能。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这么说可能未必可知，他没有那么兼顾到所有应该兼顾到的因素下的一个比较谨慎的决定。他可能相对会觉得可能也能上，然后趁着这波港股情绪好，然后公司状态也还在上升期，对，然后预期可见的估值也不会特别的差。对，那我们就是不是而且还有更现实，我觉得更现实的问题是中国的技术上没有钱了，就是没有人给再提供流动性，这是一个很现实的问题。因为肉眼可见的财务投资者、国家队、欧朗巨头的钱已经全部都在。对，那谁再去投一轮，没有人了，没有，那你去中东，就别这别那那就那那你不能把我知道把宝压这种，所以是不是这几方因素叠加在一起？在这个时间点或者在比如25年上半年或者什么时间点，那次mix董事会上大家就做这样一个决定。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这个决定做下了，那就往前推进了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他也没有再去纠结犹豫什么来回的。但是如果比如如果20年春节突然间港股出现一些问题，一些意外、一些黑天鹅，一些大家不知道或者是什么，反正黑天鹅竟然是黑天鹅，就我们不知道什么人，突然间就所有人都挺像，那可能他会觉得那也OK。对对对，那我可能再再准备好一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再再缓一缓。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再缓再来，哪怕失效了再再交，对吧？对，没准是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谁知道呢？OK我分享一下我的人生经验，我之前做过投行，然后也做过很多公司一些上市。所以上市这个事情就是他没有一个最优解。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是是就是都是看病的对，但有有几个事情我觉得很有意思。第一个我记得我很早以前，我在帮一个公司做上市的时候，然后那天我们是去做一个类似于在路演中间给大家update说最近怎么样了。然后我说的第一句话是大概就是叙利亚打仗了，导致我做第一句话就是我探索第一句话就是因为出台保障了，导致市场的这个避险情绪增加，然后美股在跌，然后什么使用上学什么时候诸如此类的。然后IPU本身就是一个风险资产。是的，IPO是股票是风险资产，IPO是股票当中的子集，是个更加的风险资产。所以如果市场的风险情绪不够的话，股票是很难发的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，就是实际的。所以叙利亚打仗就是跟你家有关系。是的，很多的中国公司他就会觉得你跟我来开会，为什么第一句话说叙利亚打仗？OK我真的就做过这个事情，然后我真的完全无法忘记那个房间里面的人怎么看我的他觉得这个是傻子。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但事实就是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊所以很多时候对于你不知道港股的情绪，美股的泡沫诸如此类。什么时候突然间如果一个什么你不知道，对吧？然后包括像18年的时候，18年年初的时候，市场情绪是非常好的。所以当时18年年初有非常多的公司往前推进IPO。对，但是在18年三月份四月份，我记得B站上市是四月份。对，然后那是B站去路演的时候，就遇到了那个贸易战的第一次。就是我先那时候站台说怎么一下飞机就开始下雪了，那时候那天突然真的下雪了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是发生老天也给你提示。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>老天就会告诉你一些信号，所以我觉得这个是一个你不可测的东西。这是第那第二就是具体在一些公司上市的一些战略问题上，是有有一些说法的。这个说法是什么呢？就是如果你的公司和别的公司是完完全全。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>全一品OK.</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这时候你要考虑，因为先上的人，比如说先上的人定价如果是十倍，那后上的人投资者就会说你们两个业务完全一样，他十倍你不应该八倍吗？那么我为什么买你，我就买他就好了。所以更说后面的人就比较有点委屈，除非后面的人是一个明显跟他更强的公司，对吧？那这样的话大家都知道后面的人要来，那第一个一个是没法放了，没有点难卖，对吧？这都会有一种。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>动态的一个情况。下一个不就是每日优先跟京东吗？他俩不是前后脚。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你这个是最近的例子。对，我想说的事情是当时在比较早期，像什么京东阿里上市的时候，京东是现在这么多年之后，没有人记得到底2014年京东先还是阿里先，对吧？没有人care。但当时那一年其实是有说法，然后一个是B2C一个C2C那个时候，会有一些自己的说法。然后在早期包括uber lift是提前于uber上，是，所以这些都是有一些特定说法，所以你公司要对自己在行业当中的地位有个判断。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这最好不是个错觉。对，就是是跟行业共识一样，认为你是第一名，你是是第一名。是的，因为你觉得自己是第一名，行业认为这是第八名，那就会有一点点尴尬。对，然后我觉得这个其实是然后他们卡的这两个对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我相信我们我们再假设另外一个事情，就是kimi在IPO的路上。如果kimi在IPO的路上且在港进行发誓，就是要在港股上市的话，那么很有可能kimi在今天已经做了秘密的递交。就是在这因为已经25年12月是快圣诞了，是的，所以kimi已经做了港股的递交。那么也有可能就是kimi现在在路上见投资人，因为港股有个practice叫做有个操作叫做基石投资人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>即使投资人就是在上市之前先会以保密协议的形式，去跟一个投资人签保密协议，然后让保投资人先看招股书，先做决策，然后进行及时投资。现在港股是个非常普遍的操作，然后可能普通投资人看不到，对，但是大机构都能看到。所以这时候也会有大机构，我我我现在完全猜想。首先我没有签过任何保密协议，我现在是完全自媒体，就是行业外人。对对对，行业外人，所以就瞎聊。有可能有些投资人已经看到了kim的招股书以及kim的财务数据，所以他有可能要做一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可以等等。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道km到底是好还是不好，所以他这些都是可以动态去盘一个局。对你刚才那个点非常好，就是如果一月份上不成了，假设市场特别差，对，自然都上不成。对，其实many max不是压力大的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得这个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是谁知道，真的是谁知道对，谁会知道。对，而且你越发的感觉，当然这是一种没来由的感觉，你就会觉得A.</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>股这几家。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>GPU封封封封封成这个样子。然后港股现在传说有三四百家公司还在排队，逼着港交所跳转的时候要优中选优。那谁知道会不会出现一些1蛾子的事情，突然间妈的把这些东西干崩了。对，或者那美股那边突然间如果出现什么波动，尤其是比较大的波动的话，在顺延到港股这边。所以他妈的上市我觉得真的是命命对，真的是命。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你知道这个周末其实没有人讨论的是那个臂刃野上。对，是必然也发了那个招股书了，所以这个对吧？而且必然完全，而且这两家的就盖过了风头。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且你知道今天说今天上四家都破发了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天说今天发我没注意。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是都不是什么特别明显，但情绪就变了。你要知道今年的核心的是情绪。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是发了就是发不了涨发不了涨。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是今天应该说好，我看谁的微博还是林工号说今天发的四家都破发。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK那如果。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我们假设B人今天招股，我们去最后的话，那两家GP公司在港股虽然定价很很怎么讲？他们的定价在港股定价还是定的比较没那么疯狂的，就比较实在的对，但如果哪怕是比较实在的价格也没撑住。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，这件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于情绪对于。无论是机构还是散户的情绪的影响，包括顺延，我们对这一波巨大的市场正面情绪的边际的扭转是不是产生一些影响。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们也不知道。对，然后还有一点我想提就是，你看现在的他们两家的保荐人都是中中金。对，然后mini max它是中心加上UBS，对，然后质谱是完完全全只有就一家，然后他们是完全没有美资行的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有，这个还有因为。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是有说法，就是因为他现在那个新的法案，就是你之前做过博客节目讲那个法案叫啥来着？那个那个答案是不允许美国投资人投什么中国三个项目，一个什么芯片AI还有啥机器人还是啥的生物。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是什么东西对对对之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以是没有美资行的那没有美资行，然后也就意味着很多你也知道机构投资人里面大部分都是美美美元大基金为主，对吧？所以在二级市场要发的话，我如果是中金我都不知道怎么卖这个东西，我就我觉得也是会。但当然首先我已经很久没做投行了。所以我觉得可能对于现在的实际的资本市场，谁是大大老板，我可能已经不一定有那敏感性了。但我觉得确实会有一些挑战。而且我觉得很神奇，就是中间其实也是允许这两家公司同时走。因为中金作为保荐人，他是非常清楚的知道两家时间表是怎么样的对吧？就哪怕他是完全利益格局。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>独立的团队了，OK这个OK？</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是中间的人一看不知道自己AA对B队两个人在做一样这样的事情，且同一天要去冲吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我没来得及问租金的朋友们。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这个问题好说，但其实两个公司是有很大差异化的。但是又在同一赛道，同时去冲冲塔，这个也是一个很神奇的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而这个感受更明显的是我之前因为看为了做对比，我去看了一下当年商汤的招股书，商汤是妈的一堆，所有人全部都在。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，商汤是上汤，是上苍是凑齐了一个饭桌。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>全部全所有人都在，对所有人就。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是很不一样。所以我觉得这里面肯定有些考虑是我们没想到的。因为大模型公司不管怎么样，融资不会特别低，所以多找几个同行我觉得也没什么奇怪。但他们的整个做法还是有一点点让我意外的对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK静观其变吧。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>只能说对，然后我想再问一下，我们刚提到就是现在的情况是国资也来了，对吧？所有的中国能上能上去的就是腾讯、阿里都都搞了，对吧？所有人都已经给了钱了，现在就要看资本市场怎么融了。对那我们到这一个这个阶段了，OK, 如果你是机构投资人，你要怎么给这两家公司估值？</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我今天在做这个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>事情准备的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我去看了一眼云之声，今天有700亿港币市值。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我我为什么会去看？就是因为我们没有办法用常规意义上偏理性跟传统意义上的估值方式去看这些公司。因为首先收入规模太小。对，是的，还是刚才观点，商汤在上市的时候，收入规模已经到了30到40亿。对，是的，比今天这两个大大倍非常多。虽然也在亏损，但亏损规模不大，就远远小于销售数。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但今天他们是他们的收入。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是几角几亿，亏损是一二十亿，它是一个放大几倍的状态。对你想即便是当年的商汤，也是人家有小几十亿收入，亏可能十亿十几亿这个样子。所以你用PS我觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当然可以参考。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是没有意义。就是它很难作为权重非常高的参考依据来去给他做定价。他定价可能就只能回到那些可比定价上。可比定价除了刚才我们讲的open a1%或者anthropic的1%，这是一个一个可比。另外一个地方就是港股现存的现在的时间点，三方多少，云支撑多少，再去比对，只能这么比，没别的办法。而且这种东西就是我觉得他就是愿打愿挨的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你你我觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天事情摆在所有，今天要去靠基石也好，还是要去第一天打新也好的机构，还是个人而言，逻辑是一样，就能去参考的。也只有这些，然后同时再去考量对手盘的心态。对，就只能这么想。是别的想法，我觉得都都很难作为参考依据。对，所以难。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我当时也是这么，我其实我我思路跟你是比较类似的，我也是觉得说因为你从正常机构投资人来说的话，他没有什么具体的也可以看就对对吧。你除了收入实在太低了，没有什么E比达可言，然后更不要说利润了，然后南盖也没有利润，都都不可能有利润。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以最后我猜想说的，如果我是我来做这个项目的话，那么可能分析师会上路去跟投资人教育的。应该是看一个27年的PS27年我看到七年PS他可能假设的事情，就如果我来做项目，我可能会这么做对，但当然自己也要跟很多投资人沟通之后，才有不断的有个一tion出来。那我可能会说OK今年是比如说25年是多少亿，然后到了全年25年是多少亿，然后26年假设可能是百分之百的增数之类的对吧？然后又有什么出这个产品的产品，都这样算好了，然后接下27年又是多少亿，导致这当然亏损有可能会扩大，或者亏损也很很大的。不不不一定明显扩大，但是绝对量级不会小。但是因为收入上去了，可能以27年的PS来倒回来做一个这样的估值是比较有帮助的对，这有点像早期那个视频网站也是这样的。我突然想起来就是因为我在那个早期视频网站也是这么读的。因为是视频这土豆那个土豆土豆和优酷那个时代，然后那个时候也是没有收入的，因为他们的那个广告收入基本上是为零，很小。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是他们那个费用也很大，CDN那些对吧？然后他们就一个巨大的一个什么销售的一个一个什么两年four PS30倍之类那种东西。所以我可能会让投资人去看啊，比如说27年，如果我来说的话，我可能要看27年的一个销售，然后拍一个倍数，就可能是这样的。但是说实话，如果你这样反过来看的话，如果我们拍的是PS倍数的话，我们PS倍数的话其实它跟OpenAI并没有明显竞争优势。是当然因为OpenAI收入非常高，是所以它的今天的8000亿估值，你按美国的PS当然觉得很贵，你按照二级公司来算很贵。是但如果你反过来跟质朴跟mini max比的话，它一定是有溢价的。那这个以PS来计价的估值，OpenAI并不贵。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么说呢？就是他。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都很极端，但是他在极端里面不那么极端的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，他是在极端里面。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不那么极端的。所以相比就像反而我都没有买他们的必要，对吧？没有买这两家的必要，所以这个是很很有意思的。然后还有一个点就是如果今天我们已经完全无法用传统的方式去布局了，那么我们把当做一个项目来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这项目啥意思呢？就是说今天美国还是什么别的国家来找中国说，那你帮我做个大的什么火箭，还是做个什么导弹，你帮我做个项目。然后这个项目是最后你要跟美国最好的东西差一点点。对，假设我是一个这样的就是一个类似于工程包工头的这种形式来做的话，然后做出来一个比open I差一点点的大模型多少钱？中国人说便宜10亿美金，你说怎么可能我们那边要1000亿美金中做出来，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能是从这个角度来说，如果是最后的终局，有人类的最后终局，可能有五家十家公司是拥有这个能力的这个原子弹的。那么有这五家十家公司，然后我可能反推这张桌上的这个位置要多少钱？我可能会这么反推这件事情。然后这样反推的话，我就会想说OK这个的意义就在于说我是一个生存赛的思路。你怎么看这个终局是就是大逃杀终局。如果最后的桌上一定会有有一个人，今天看的话，可能字节会在上面，然后基础应该也在上面，阿里也在上面对吧？然后他的技术能够持续迭代，持续follow，至少是就是OpenAI上五年级，你到四年级，open a到六年级，你到五年级，甚至有一天你可能跟他变成半个学期，是跟他同一级都有可能，但是你必须不能留级。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你你要跟住你要跟住。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样的话就是在大家都到高三的时候，那个时候桌上上的人非常少，桌上的非常少。这时候的讨论这边说那个值那个席位值多少钱，然后反过来看谁更有概率去那个席位。且我现在投谁是更有性价比，更安全，更更不容易出大错。我觉得可能会这样反过来想这个事情，这就很难了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且投资很难对这个要求。第一你要有超常的耐心。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>超长就不能以现在。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的方式去去去看现在的这些事情。那就是那比那没准又回到大家去投天使的投资逻辑非常像，就是我信任这个团队能够走到最后的那现在看上去，其实国内今天这个事情真正意义上还在桌上的厂商其实是有限的这两家还是在至少这个节点还是在。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后至少六进三了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就是你要不要帮助他或者扶持他一下，让他继续再走几年，到一个什么节点，然后再涂可能性。但是这种你想我们都要聊到这种方式去看待这件事情的时候，他就真的是他要避掉那么多的假设性跟那么多的要求，才会以这个方式来看这件事情。但是现实的这场仗他就是这样残酷，他就是这么打的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他就是很残酷的城市，就很大部分人活不下来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊，所以没什么办法。其实美国公司也是，你说今天我还要上1万亿美金一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊是啊，都很难对，都很难。对。那就是你想就是你觉得你这边融资压力大，你要融两亿美金，CM奥特曼他要融2000亿，他不累吗？对吧？他也很累。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你想你想从三毛的角度来说，他他的公司往上走就是按照千亿美金的人。对，他去哪里找钱？是啊，地球上已经没有这么多钱了，地球上有些人他都去过拜访过了，对吧？地球上有钱人都在朋友圈里的人都都他已经没有人给他钱了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，所以这个确实很难。所以我觉得可能我们要换完全换另外一个逻辑，就是我们抛开二级市场估值的这个逻辑来看，我们来看就是这个这个原子弹值多少钱的事情。欧洲一个欧洲的OpenAI miss这个我不知道他算不算个菜鸡公司，但我认为他是个很菜鸡的公司。他从来就没有在搜查任何地方出现过，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>落后两轮了吗？已经。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK就是欧洲的open mista这个公司，然后它的估值现在已经到了100亿美金。对，然后它最大投资人是SML，yes, 阿斯麦占了12% 3的对，差不多OK。这个其实是一个很有意思的角度。他其实想说是在地缘政治的限制之下，对欧洲人说，嘿，我就是需要有我们要有一个自己的模型，我不能够受制于美国，也不能受制于中国，我们欧洲众人要崛起，要站起来，对吧？所以他是在一个地缘政治的特定限制环境之下，在欧洲是不缺卡的对这个环境之下，然后它的一个国产独立大模型，它的估值空间是一个非常菜鸡的模型，然后出了100亿美金的估值。所以这是不是另外一个角度去看这个事情？</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊你看我在上面总结的时候我就说过，我说OKI5000，那中国投模型值多少钱？然后第二张PP就变成了那时候刚刚我说的这种公司都能卖一百多亿美金，那中国的货模型公司应该值多少钱？</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那还那好，那还有另外一个问题是这样，就是如果没这种情况，是说他只要骗到一个人就能骗到SM.</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有人call一下就可以了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他只要骗一个人，但是你上市不行。你上市不行，就是你上市得要几百上千个投资人同时买单才可以上市是很难的。对，这就会而且那些投资人就会彼此影响，你就是会形成比较麻烦的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这又回到了港股资本市场的池子，投资环境乱七八糟，跟美国的关联性这些更大的议题了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这种大模型的投资之后，其实是不是不太适合我在就是可能抽离出来，我们不讲这两家公司，我们只是讲说这种类型的类似于。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>星球大战。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>级别的事情，对吧？因为我最近我最近也做过一期博客，是跟一个mini max投资人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>聊了关于。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>中美的AI区别的事情。其实我觉得他们是有非常强烈的类似于星球大战的性质的。是的，就中美都要冲最高的塔那这种星球大战型的，曼哈顿计划型的是不是不太适合VC头？</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>参与一下。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？那那那比如说你问戴雨森，戴雨森你说当然可以，我们投了kimi的A轮，kimi的天使轮。那当然他觉得说这公司对我来说将来只是50倍和500倍的差别，那无所谓对吧？对，但是对于中后期投资人，尤其在今天上市的时候资源来说的话，他们的看法肯定就不一样了。但中后期不投资投什么呢？那就回到中后期有没有一个formal，就是我今天作为二级投资人，我是不是一定要增加一个大模型敞口？</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得二级别比中后期可能需要。因为今天时间点我觉得VC这个战场美国中国都一样。就是你如果不在那几家最大的公司的名单上，对，什么都不是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他就是这么个游戏。你在美国，你不在武汉，也不在esop c不在科室，不在SpaceX，没有人在乎你是谁。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天中国就变成了你不在国产CPU上，不在那家人形机器人上，不在大明星这家公司上。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有人在乎你是谁，然后这个VC也轮到下一轮，对，是啊那你先把钱烧掉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以反过来讲，回头来讲，你讲这个决策，如果比如说时间推回到224年或二三年，这几家大明星公司，今天我们看到质谱卖在那个时候可能已经10亿美金，20亿美金在那个时候就已经是因为他们出来的时候就是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>已经对对对吧？其实他当时二三年就已经提前预约了今天的故事，就今天我们还得这么费劲去justify他二三年的对对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那反过来，如果是二三年，你是个以上投资者，你没有在11年之前投到这个公司，你要不要在二三年的时候补一枪？你想你一个基金5亿美金，一个假基金放1亿美金进去，对，或者放5000万美金，1亿美金太多了，占三个点，4个点2个点对你怎么看？</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这确实也不说话。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是这个命题是摆在很多基金在二三年的决策上的一张纸。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且这个是这个是少数的，就是重大标的钱能花大钱的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊，你还有这个前提，那你要不要干嘛？那你你的基金是不是要离职，继续作为市场top基金存在。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>狂欢有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>参与。对，即便你知道可能。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挣不了什么钱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就变成这样一个命题吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我就是我看完这个感受就是有一点点复杂。一方面我会觉得说我为中国的公司感到非常骄傲，就觉得说他们真的是1%的钱，他们真的是很省、很卷、很厉害。就是非常你可以理解在我们在这边博客闲聊的过程之中，他们可能又让人类的文明往前推进了一步，对吧？我觉得他们真的很厉害。然后他们花的钱虽然说10亿20亿，就很多，但是很少。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>相对于这个业务而言。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相对于对于这个曼哈顿计划级别的业务来说，是非常少的。钱他们已经很省了，这个孩子很很持家了，是的吧？非常持家了，所以你不能再怪他了。同一时间我觉得说天哪，这个感觉是国家要去打仗了，然后让我来买子弹的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个确实是非常我觉得他们去。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>韩国也是一样风险非常大的投资。然后我我而且这个别说比如说最后mini max能不能留在牌桌上，对吧？那牌桌最后可能就剩不下几个人，就今天在今天六小龙可能都首先今天六小龙可能都上不了牌桌，因为最后中国有几期都不确定。这个是有非常多的非常大的不确定性。然后就跟中国美国一系列的能说不能说的各种大的话题，有有太多的关联了。我觉得还是很那我觉得很复杂了，很很有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这里面有人才说新一轮的创业的这几个热门方向，对于这些公司的创始人而言的难度都是比几十年十几年前做移动互联网难好几个量级。对，要难得太多要考虑的因素跟涉及的乱七八糟的问题。就很多问题这些人说我他妈也不知道，就我也没得解这些问题，任何是世界上任何一个人都没得解。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你想说唐岩在做梦梦的时候，他可能就是做个APP就行了。对，现在有考虑模型，不知道模型。你得去沙特见皇室好吧。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你要考虑世界局势，你要关注美国总统的选举。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是对什么办法？对，是啊，这个都这这确实是有一点点有一点不一样，这个没办法，没办工作，超出了我们的的理解范畴。是啊。对。然后最后一个问题，就是我们聊了这么多关于两家公司的这个对比。如果今天杨梓琳在听这个节目，我相信杨志琳在那就好吧。OK然后我们在最开始就说了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他真的很纠结。当然我还是会可能在某个时间点，他们总会可能也做了决定，他们可能也在推进过程中，什么节奏我们不知道是靠前还是靠后，还是停还是怎么样，我们都不知道。就是这个平行宇宙可能有那55到10种可能性都是有可能的。但是确实我会觉得就是像刚才咱们说的那句话而言，今天这个时间点，这场仗的战役打的就是这么激烈。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>多样且残酷。你要考虑和兼顾的因素就是极其复杂且多的。上市只是你众多难解题中的一道，当然每道题可能是关联的。然后今天时间相当于你的竞争对手们选择在这道题上选择做了一种策略。当然你也不知道这个策略最后是好还是不好，但是似乎。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个市场。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者这个局面告诉你，你要也要在这个时间点做这道题。你要哪怕你的答案是拖延的，你也要在这个事情给出一个什么样的态。有可能是这样，但是反过来，如果今天比如今天你是李宇森，我觉得女生不是不太合理。因为在天使还好，比如说是kimi的最后几轮的财务投资者，我们不算国资，不算是国资，也不算战略投资，偏财务投资人。尤其是比如如果放了钱比较多的投资人，你怎么去跟杨志林开这个口？比如说你当然会先问问他怎么想，但是你有没有倾向作为比如说参与到kimi之后比较多轮次的，或者中间加码加的比较多的，放的比较多钱的这些投资者。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这个问题真的挺难的。就像我们最开始写的，正反两方的观点都非常充分，你选哪边都有绝对的理由证明你说的是对的。那反方讲创始人也会有绝对的理由去站在他所选择的那一边上，那就考验就是创业不是这样，就是在有限条件下，超短时间内逼着你一定要做的决定，你也不能决定是好是坏，是怎么样，是长远还是短期。对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我感觉我会给可能后面的人一些建议或者一些我的分享。我的感受是说，如果你觉得接下来的这个公司的资金需求真的是很大的，那么提早VIPO做准备，包括审计先审好啊啥的，都是肯定非常必要的事情。是当然因为这些东西才能让时间站在这边，很多人想说改天我决定上市，因为上市还是有很长流程的。是的，所以什么审计的该做就早做，这样你手上的牌更多。就后来的我为后来的人说这句话。然后还有一点就是说如果你钱不够，那可能就得要往上实际地方去充。且在冲的过程当中，我跟你刚才前面讲说，就是如果拖一拖也没事，这个看法不太一样。我认为其实不太能拖。就我印象之中，我可能在我职业生涯开始的早期，一位非常今天非常出名的律师朱莉。他跟我说过，他就没怎么见过公司二次上市成功的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是好像只有一口气。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得上市只有1，你当时说的话就是一口气。因为其实是这样的，就是在上市的上市的过程之中，你会发现你的这公司这么三四号百号人就发现有几个会议室老是被一些西装人占住，让他们来做这个事情。因为在PR稿上看到你们公司要上市了，对吧？然后接下来你们会要去马上就看到林讯，然后诸如此类。这个时候不管多难，一定要往前冲过去，要顶住。因为如果你顶不住，冲不过去。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>并不是缓一缓的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实他就是这个公司的一口气，是这是一个把所有员工、投资人、合作方所有人都绑在一起了一口气。这口气一定要撑住。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挺难的，非常难。我们知道我们才知道，我们已经交过三次书了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哎呦。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>已经失效三次。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说我们我们知道给剪掉。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有，不需要很多听我播客人也能知道。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吗？OK好的，我能看到你们这三次看到对我觉得那口气还是要撑过去的。因为这口气撑过去了，其实你的空间就打开了。后面的真的星辰大海也好，HR也好，我觉得都有更有机会，一定要往前冲一冲。好的，今天非常感谢庄老师的分享。我觉得就是我们在讨论一个我们讨论一个在这边非常怎么说，不痛不痒的讨论一些几百亿烧出来的经验。然后我们作为看客，看着局内的这些非常厉害伟大的创业家，在中国的AI的行业当中做出了一些非常惊人的是的，在世界级别会看到很夸张很震惊的一些成就。对，是的，对今也可能遇到一些小的困难，但我们真的非常希望大家都一切顺利，然后上市成功。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以各家的PR不用找我们我们没有说坏话。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们说的都是好话，都是对对，我们都没有收过任何的PR的钱，所以就今天是免费帮大家做个广告，希望中国要越来越好。OK感谢感谢谢谢谢谢。</p>]]></content:encoded>
-            <pubDate>Mon, 22 Dec 2025 15:16:25 GMT</pubDate>
-            <guid>69495dfe0b60b7bf75e020d6</guid>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,271 @@
         <title>硅谷101</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc</link>
         <description>分享当下最新鲜的技术、知识与思想</description>
-        <lastBuildDate>Sun, 26 Jul 2026 05:02:22 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 02 Aug 2026 05:05:39 +0800</lastBuildDate>
+        <item>
+            <title>E246｜何谓蒸馏？聊聊硅谷如何看中国开放模型逼近前沿</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a6d3785cb700b7ba2fa5928</link>
+            <description>7月27日，月之暗面正式发布Kimi K3的完整模型权重。自7月16日API上线以来，K3就在在多项测试中展现出接近前沿模型的能力。因此，它成为了硅谷最近讨论开源时的重要案例之一。从2025年初的DeepSeek时刻，到当下的Kimi K3，中国开源模型正在从成本更低、能力稍弱的替代品，逐渐逼近甚至超过最强的闭源前沿模型。
+随之而来的，是一场越来越激烈的蒸馏争论。什么是蒸馏？通过闭源模型的输出进行训练，和未经授权的大规模能力提取，有什么区别？即使中国实验室使用过美国模型生成的数据，它又究竟能解释多少最终能力？
+本期播客，我们邀请到两位嘉宾来分别从开源生态和企业的视角，讨论这一波中国开源模型的影响：前Hugging Face亚太开源生态负责人王铁震，和TinyFish联合创始人Keith Zhai。
+我们从K3带给硅谷的挑战聊起，讨论了为什么把中国模型的进步全部归因于蒸馏，实际上忽略了架构、强化学习、数据工程和推理基础设施上的创新。而当蒸馏从一种中性的训练技术，变成商业竞争和政策讨论中的指控时，争议的核心又变成了什么？
+在此之外，我们也讨论了K3针对大型推理服务商设计的商业授权：当开源权重模型持续压低成本，它会如何冲击OpenAI、Anthropic等闭源实验室的商业模式？当模型能力逐渐商品化，未来AI行业的价值会流向模型本身、推理基础设施，还是Agent与企业工作流？
+注：本期播客中提到的“开源”，更准确地说是开放权重（open weights）。K3官方称自己为开放模型，它使用的是Kimi K3 License，不是标准 MIT/Apache 这类完全开放的OSI license。
+【主播】
+Yiwen，硅谷101特约研究员
+【嘉宾】
+王铁震，Hugging Face前亚太生态负责人
+Keith Zhai，TinyFish联合创始人
+【你将听到】
+中国开放模型，硅谷怎么看？
+01:45 Kimi K3为什么突然成为硅谷关注的焦点？
+03:33 从DeepSeek、GLM到K3：硅谷对中国模型的判断如何变化
+06:51 企业为什么开始转向中国模型
+10:23 中国开放模型推理成本
+蒸馏争端始末
+13:24 蒸馏争议：到底什么是蒸馏？
+17:22 K3是否可能在短时间内蒸馏最强闭源模型？
+19:48 蒸馏能解释模型的核心能力吗？
+开放模型对闭源商业模式的影响
+23:54 K3 License与开放模型商业化
+34:27 开放模型会怎样冲击OpenAI和Anthropic的收入与估值？
+37:39 英伟达为什么支持开放权重
+43:41 中国公司为什么选择开放
+强大的开放能力下，Agent生态如何变化？
+45:04 Thinking Machines为什么开放权重？
+48:39 开放模型催生的新生态
+48:43 OpenRouter等多模型平台为什么开始受益？
+49:56 对Agent产品和基础设施的影响
+开放模型的安全之争
+55:40 接近前沿的模型，到底应不应该开放权重？
+01:04:01 开源和闭源模型，谁更容易被滥用？
+【延伸阅读和相关术】
+Kimi K3官方技术报告与模型权重
+Kimi K3授权协议
+Anthropic对蒸馏攻击的指控
+《开放权重与美国AI领导力》
+【相关术语】
+开放权重（Open Weights）：指模型开发者公开模型训练完成后的参数文件，允许用户下载模型，并在自己的设备或云端进行部署、推理、微调或进一步开发。开放权重并不意味着训练数据、训练代码和完整训练流程也同时公开，具体使用方式还会受到模型授权协议的限制。
+开源模型（Open-Source Models）：通常指不仅公开模型权重，还公开足以让外部开发者研究、修改和复现模型的更多组成部分，例如训练代码、模型架构、数据处理方法、训练流程，以及在部分情况下使用的训练数据。由于大模型很少完整披露所有训练材料，目前业界对什么样的模型可以被严格称为“开源”仍存在争议。
+思维链（Chain of Thought）：指模型在生成最终答案之前，用一系列中间步骤拆解问题、组织信息和进行推理的过程。
+规模扩展效率（Scaling Effiency）：指模型将计算资源转化为能力提升的效率，也就是在使用相同或更少的算力、数据或训练成本时，能否获得更好的模型表现。
+键值缓存（KV Cache）：指模型在处理上下文和生成内容时，保存此前token在注意力计算中产生的Key和Value数据。这样，模型在生成下一个token时不必重新计算全部历史内容，可以显著降低重复计算，提高生成速度；但上下文越长，KV Cache占用的内存通常也越大。
+【硅谷101正在招聘】
+《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！
+👉🏻点击查看招聘详情
+【监制】
+泓君
+【后期】
+Amei
+【运营】
+朱婕
+【BGM】
+Kablaam - Ealot
+Flickering Torches - Christian Andersen
+Radar Focus - Blue Saga
+Pulse Runner - Helmut Schenker
+【在这里找到我们】
+公众号：硅谷101
+收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
+其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
+联系我们：podcast@sv101.net
+Special Guests: Keith Zhai and 王铁震.</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>这期《硅谷101》录制于北京时间2024年7月28日上午，正值月之暗面发布Kimi K3完整模型权重的第二天。主持人艺文邀请前Hugging Face亚太开源生态负责人王铁震和Tiny Fish联合创始人Kiss J，讨论K3在硅谷引发的连锁反应：中国开放权重模型首次在多项测试上逼近甚至超越前沿闭源模型，让“智能封装成API”的商业模式受到挑战。围绕蒸馏争议、开源模型成本优势、Kimi新License对云厂商的分成要求、英伟达等签署开放权重公开信，以及开源模型是否安全等议题，两位嘉宾给出了与硅谷主流叙事不同的观察。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>Kimi K3让硅谷真正感到了意外</strong>。王铁震形容，K3出来之后“边缘模型瞬间就发现自己没有一个护城河”，因为“它基本上已经追上vivo，甚至在某些场景上要比fiber做得还好”。这打破了此前“闭源月更、开源季更”的格局。</p>
+</li>
+<li>
+<p><strong>硅谷的态度有明确时间线</strong>：从deep sick开始，到GLM，再到K3。起初大家担心纳斯达克下跌，但之后一年发现是“狼来了”——闭源模型大幅领先；K3发布后，讨论焦点转向估值泡沫和商业模式是否还能按过去模式运转。</p>
+</li>
+<li>
+<p><strong>企业大规模转向开源模型的直接驱动力是成本</strong>，尤其Coding场景。“账单已经没有办法再支撑了，就是一个月花了一年的预算”，Tiny Fish自己五十多人每月花费六位数美金，转向几乎在一个月内发生。企业从“token maxing”变成“token optimization”。</p>
+</li>
+<li>
+<p><strong>开源模型推理成本更低的三个结构性原因</strong>：闭源API包含模型premium，开源推理只需硬件成本；中国模型卷scaling efficiency（Kimi K3用KDA等注意力优化，K3比K2“扩大2.5倍效率”）；K3不到3T参数，而传闻前沿模型本体有8到10T，更小的参数实现接近能力。</p>
+</li>
+<li>
+<p><strong>蒸馏被“用烂了”且被误解</strong>。经典蒸馏需要大模型暴露logits，闭源模型连logits和思维链都不暴露，所以“闭源模型蒸馏开源模型非常容易”，但开源模型很难真正蒸馏闭源模型。K3从fiber发布到K3发布只有约15天，“连模型发布的准备都来不及”，王铁震个人倾向认为K3没有蒸馏fiber。</p>
+</li>
+<li>
+<p><strong>Kiss J把蒸馏指控拆成三个层面</strong>：可能存在未授权大规模调用API抓数据，这个检测系统能发现；但“K3靠蒸馏vivo拿到能力”证据非常薄弱；蒸馏作为一项技术本身不代表成就没有意义。她指出所有公司包括OpenAI、google、sup自己都在用蒸馏。</p>
+</li>
+<li>
+<p><strong>Kimi K3的License设计很有新意</strong>：卖模型的公司及关联方连续12个月总收入超过2000万美元，需要在商业服务前另签协议；MaaS厂和云厂商需要分成。王铁震认为“能赚钱的开源模型才是好的开源模型”，云厂和MaaS厂反而应该欢迎付费，因为“只要你来收钱，就说明你跟kimi有一个官方的认证关系”，大家才愿意采买。</p>
+</li>
+<li>
+<p><strong>开源模型追平闭源模型，第一波冲击的是估值体系</strong>。王铁震说，垄断智能“比垄断任何商品要恐怖得多”，所以闭源模型天然值得万亿市值；但当聪明的模型变成“流通的商品”，OpenAI和anthropic的商业化、margin、scaling narrative都会被打问号，甚至可能被动陷入价格战。</p>
+</li>
+<li>
+<p><strong>英伟达带头签署支持开放权重的公开信，本质是“卖铲子”逻辑</strong>：黄仁勋不在乎谁挖到金，模型厂商竞争越多越好。anthropic没有签，因为它靠卖API赚钱；Meta和阿里有云和分发业务，OpenAI和anthropic只focus API，利益已经分化。</p>
+</li>
+<li>
+<p><strong>针对“K3是否应开源”的安全质疑，王铁震给出关键反论</strong>：K3在exploit bench得分只有30%几，远低于前沿模型的75以上，目前没有任何有证据的已知安全问题。更根本的是，“没有开源反而是这个时代最不安全的事情”——让两三家商业公司既当运动员又当裁判来裁决AI安全，才是真正危险。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li>
+<p><strong>王铁震讲了Hugging Face被OpenAI测试智能体攻击的故事</strong>：那个智能体说“我直接去抄答案比我自己去摸索要好得多，要不我就顺便把别人的网站给黑了，拿到答案”；攻击之后Hugging Face想用闭源模型分析攻击过程，模型却以“你做的事不安全”拒绝，最后只能用开源模型来做辅助分析。</p>
+</li>
+<li>
+<p><strong>王铁震对Anthropic产品策略的吐槽</strong>：使用vivo时，如果触发敏感检测器，可能瞬间被降至“OPPOs 4.8”；用户想测试模型极限能力几乎不可能，“哪怕就是做一个很简单的推理，如果不精心构造提示词，vivo就直接告诉我说这东西有风险，我不能支持你做这个事情”。他觉得这个产品形态“对用户造成的烦恼是远远多于它潜在的安全考量”。</p>
+</li>
+<li>
+<p><strong>Kiss J分享了一个私下沟通</strong>：日本最大公司的二号人物说，当时vivo不能用了，真正冲击不是“不能用了本身会怎么样”，而是“原来这个东西是不安全的”——部署做完之后，政策一变所有东西都发生变化。Kiss J认为这恰恰是闭源模型的核心风险。</p>
+</li>
+<li>
+<p><strong>王铁震提到Reddit上的一个帖子</strong>：有人发帖说“虽然千问很好，但是我不能用它”，不是因为不想用，而是公司法律团队不允许；那个人解释说，把开源模型关在一台机器里严格限制输入输出，“实际上是比闭源模型要安全很多的”。</p>
+</li>
+<li>
+<p><strong>王铁震的两个即兴比喻</strong>：一是“爱因斯坦不知道怎么去黑NASA的网站，但一个18岁的高中生可能就有能力把NASA网站黑了”，用来反驳“模型越聪明就越危险”；二是用伞公司设计特化病毒的比喻，类比闭源公司“打着安全的旗号”垄断安全评判：“伞公司在设计特化的病毒的时候，其实也是打着安全的旗号再去讲说我们要治愈人类的一些疾病，那我们最后也知道说他制造出来了什么。”</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，欢迎回到硅谷101，我是艺文。硅谷前沿AI实验室的商业模式大家应该都不陌生，把智能封装成API再按token出售给用户。但现在几家中国实验室正在用开放权重模型挑战这套模式。7月27日，月之暗面正式发布了kimi k3的完整模型权重。在此之前，K3的横空出世以及它在多项测试上展现出的竞争力都已经说明了一件事，开源模型正在逼近甚至超过最强的闭源模型，这意味着企业未来可能都不再需要完全依赖OpenAI或者tho pic，也可以部署定制和掌控自己的模型。K3的发布也在硅谷引发了一场更大的讨论。过去几周包括英伟达在内的数十家科技公司和机构签署公开声明，呼吁美国支持开放权重模型和更开放的AI生态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但与此同时也有批评者提出质疑，能力如此强大的模型是否应该开放？它会不会带来新的安全风险？中国模型的快速进步又在多大程度上涉及蒸馏？所以在这期播客里面，我们邀请到了两位身处这场变化中心的嘉宾，前哈根face亚太开源生态负责人王铁震，以及tiny fish联合创始人kiss j我们一起讨论了中国开放模型为什么能在这么短的时间里逼近前沿，最近争议很大的蒸馏到底是什么？又能解释多少模型能力呢？当开放模型持续压低token价格，它将如何冲击闭源实验室的商业模式？又会怎样改变整个agent应用的生态？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们录制这期节目的时间是北京时间7月28日的上午。昨天的越战面发布了kimi k3的完整模型权重。其实K3从7月16号的API上线以来，在硅谷的热度可以说是居高不下。而且也成为了硅谷最近讨论开源模型的时候最重要的案例之一。我想先请两位从你们的观察来回答一下这个比较大的问题。你们觉得K3真正让硅谷感到意外的是什么？要不先从kiss开始，因为你们公司是被在硅谷的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实如果我们稍微take一点点step back，整个时间轴其实是有几个部分的。最早的当然是从deep sick那个时候开始，但接下来最近的两个，一个我认为应该还是回到了GLM就是Z到AI他们的这样的一个环境下。过去的几个月里，整个AI对硅谷带来影响变化是极其大，也极其快的。在年初的时候，那个时候所有人在讨论的问题就是说，我们要赶快用AI。但是很快当时是uber包括其他几个公司，大家就开始晒了账单。所以账单已经没有办法再支撑了，就是一个月花了一年的预算等等等等。在这样的一个环境背景下，CAI以及中国的这些模型开始就引起了新的讨论。包括当时的cursor来用了中国模型等等的这些事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为kimi 3作为一个open source一个model，他的能力他其实达到了一个在很多人看来很新的一个高度。那在一个cost的seventy等等讨论情况下，这样的一个新的群体的开源模型到底会走到到什么一个程度，以及它对所有的闭源模型会带来一个什么样的冲击。他已经超出了说是一个讨论，而是更多大家在看在使用的情况下，具体应该怎么样的做调整。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对铁砧有什么要补充的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:35]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我特别同意case的说法，我觉得K3的发布并不是一蹴而就，它实际上是有一个漫长的铺垫的过程。从去年年初的这个PCKV one，那个时候第一次带来了开源版的三星产，让大家知道推理模型是怎么做的。然后那个时候就非常有意思，因为我记得当时纳斯达克跌的也很厉害。那个时候大家就在想，中国模型开源模型已经非常接近闭源的前沿模型。不管是从硬件生态，整个AI的估值体系，还有模型公司的生产，大家都有一个反思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>结果我发现过了一年，大家发现是一个狼来了的故事。因为过去一年的开源和闭源模型的性能的分化实际上是非常大的。闭源模型可能能做到月更，开源模型可能是季更。在性能上不管是oppos还是4.6 ops 4点7OPPO s4.8，其实都是远远领先于开源模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是最近几个月发生了一些变化，包括case刚才说的这个GM5.2，我也是重度在使用。我已经用这个GM5.2完全取代了这个不是4.8的一些功能。但是大家觉得可能还好，因为美国模型又出下一代了。只要闭源模型领先于开源模型超过一个时代，那没有太多可以担心的。大家还是要用最好的闭源模型，所以这是一个时间点。然后大家就在说OK这样5.2挺好的，但是我们不担心。直到过了一段时间，大家发现K3出来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:46]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>K3不是说跟ops评级的一个问题，它是基本上已经追上vivo，甚至在某些场景上要比fiber做的还好。边缘模型瞬间就发现自己没有一个护城河。因为开源模型跟自己又是回到DBCR1的那个时代，跟自己又是平级的一个时候。所以大家就很formal，然后又很担心说，我们整个AI布置的泡沫怎么办？然后我们整个场景是不是还可以按照过去的模式继续运转一下。大家还是要用闭源模型，也有可能未来我们要完全转向一个基于开源模型生态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:14]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以美国内部就会有很多讨论，他们关注的点实际上有两个。第一个是vivo在讲自己非常不安全，所以我们要限制这个飞沫模型的使用。实际上更多的是之前的那个mises如果有一个开源模型，它的能力已经接近vivo，是不是它也是不安全的。然后你又把这么一个不安全的模型给开源出来，那你冒着什么心态？然后另外一个话题就是说美国人就会在想说，你为什么能够在这么短时间内，好像就在这几个月连续取得这么多的突破？你一定是在蒸馏我的模型KO和K3的就是实际用户能用上的这个发布中间只隔了大概15天左右。这也是一个非常有意思的话题，就是说K3到底有没有在蒸馏飞过，我个人倾向于是没有的。因为你你十多天连模型发布的准备都来不及，你何谈说收集到足够多的语料，并且真的有飞过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:00]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以K3这个时候发布像deep sick v one当年一样，有着非常多的话题。然后大家也对kimi这个公司非常有兴趣，包括杨振宁之前的一些观点非常有兴趣。所有这些加起来就是K3之所以这次在硅谷取得重大关注的一个原因。当然很快后面中国模型像mini NAX，像千问都要发2T到3T的这个模型，甚至质谱可能也会有一些动作。所以后面我们可能会看到更多除了K3之外，其他中国模型在硅谷引起的非常多的拷问。所以我们就拭目以待。这个行业是变化非常快，然后也非常有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得你提到两个非常关键的问题，就是我们这一期节目也想深入探讨。第一个就是一个能力如此强大的模型，它去开源到底安不安全。第二个就是关于蒸馏的指控的这样一些问题。因为你们都提到了硅谷对于中国开源这件事情整个时间线上的一个变化，然后对此的态度一个变化。我想再去捋一下这个时间线。所以说在GOM之前，硅谷对于部署中国开源模型的态度是怎么样？就从企业的角度来说，有没有因为成本的考虑，在某一个时刻选择，我就要从这个s topic的模型换成中国开源的模型。这个大概是在一个什么时间点发生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的这肯定要分行业。比如说有些行业它就是一个非常敏感的行业，那就by nature它不可以使用其他国家模型的。从美国来说，当然这个东西适用在其他一些地方，比如说欧洲的一些国家，包括日本等等地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但与此之外，AI变化是极其快。其实很多时候大家第一个反应应该是在讨论说我们怎么样来使用模型。其实很多的时候应该考虑的是我怎么样用到最好的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Cost这个问题只有在上了很大一个量之后，才会变成一个更显著的问题。就算从硅谷来说，成了一个大规模上量级的使用，是因为coding整个这一块所带来的一个巨大的变化吗？Coding之前其实大家大多数的一个消费场景是rag。但其实这个rag的对token的消耗量往往无法跟相当于coding一开放之后所生产力所带来的改变。所以大家最大的一个调整是coding之后。其实是从去年大概九月份前后，topic开始比较大规模的推动之后才开始的那在六个月时间里，coding从一个大家赶快去需要到突然意识到说我花了太多钱了，就包括从我们这样一个公司来说，才五十多个人一个月，其实整个消费也是大概是六位数左右的美金。那其实是一个很高的cost，不要提那种更大的公司，更大的企业都会面临很多挑战的。而这种转向几乎就是在一个月之内发生的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而质朴当时的推动，因为不是开源，它虽然没有改变事情本身，但它从价格上，当然对很多人来说是原来的模型可以这么便宜又这么好。其实很多就开始更多的去看，比如说千问等等的这种一个开源模型所带来的进展了。而这回kimi的话相当于在大家这样一个焦虑的时间点上更高的推动了一步，其实都在很短的时间内发生的，但整个AI行业有点像是天上一日人间一年这样的一种感觉，进展的实在很快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以其实K3相当于是再次加深了大家的这个印象，就是现在的开源模型的能力已经可以做到和闭源模型能力一样强了。所以在这种情况之下。企业才会去做这样一个成本的判断。就像你刚刚说的，今年的前几个月，大家主要是在token maxing去最大化这个token的使用量。现在可能是一个token optimization优化的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实这个东西我倒感觉不是说是开源模型就跟闭源的达到一样强。第一点是整个成本，另外一个主要的问题就是所有权。如果模型一切都是取决于对方是否开放。这就是fable。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今天早一点anthropic的这个事情，其实对大家影响很大的说，突然有一天美国商务部说这个不可以用了，那就一夜之间就都不可以用了。那之前你做的部署之前什么的可能都没有了，那这种情况怎么办？很多时候大家就会发现说，我可能不需要用最好的模型。前一段艾森哲做了一个内部的调研，艾森哲作为世界上最大的咨询公司之一，他们又是专门做AI相关的。其实他们的员工使用模型做的最多的事儿就是生成PDF。这个东西其实你不需要用最新模型去做的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>成本上我是这样想的，为什么开源模型的推理成本一般会比闭源模型要便宜？还有几个结构性的原因。第一个，如果你看闭源模型成本拆开看的话，那它一部分是实际买硬件去做推理的固定的成本。另一部分是说他要为这个模型赋一个premium，因为你这是一个闭源的模型，他卖API的时候肯定是带了闭源模型本身的一个成本。但如果我们去看开源模型推理的一个成本的结构体系，比如说fireworks，比如说together AI其实只有一个硬件的成本和他自己为推理服务所赚的钱，他并没有为模型额外的付钱，这是现在的情况，未来可能会变化。所以从结构上来讲，它应该是会比闭源模型要低的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:05]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第二个也要看到，中国开源模型实际上一直都在卷一个东西，叫skiing efficiency。在你去做skin的时候，是不是能够同时把成本降下来？Kimi k3的那个报告里面有一个图，它横轴是说你的flops，然后纵轴是说你达到同样的模型的能力。比如说用这个模型训练的时候，这个loss来衡量，它有两个曲线，然后一个是K3，一个是K2。我们看到说虽然K3比K二大一倍甚至还多，但是实际上它的skating efficiency是扩大2.5倍的。也就是说K3通过一个模型架构上的演进，达到了模型更大且模型更efficient的这么一个效果。这个也是导致成本能够快速降低的一个原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:46]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这里面起到作用最大的可能就是他用的KDA和其他的一些优化的技术。这一方面比如说KDA或者是RWKV，或者是其他的一些linux attention技术，是国内每一家厂都在研究的。但是我们很少看到海外的臂原厂，比如说anthropy或者ChatGPT去讲说他用了什么样的这种技术。其实intention整个这个领域目前最火的能让大模型更便宜的技术的这个领域，主要都是由华人的researcher主导。所以这个是可能开源模型另一个方面的优势。因为他出生在一个算力受限的国家，所以他天然第一天就很关注这个模型训练和推理的时候，是不是都可以变的非常的高效。这也就导致说为什么开源模型的成本会低。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:26]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第三个原因就是说国内的开源模型实际上现在没有足够的算力去scale到那么大的一个规模。网上有传言说vivo这个模型可能它的本体有8到10T那么大，但是K3的话它实际上只有3T不到。也就是说3T的模型可以跟10T左右的模型达到同样的效果。单看这个尺寸的话，其实我们也能想象推理成本本身也是有一个巨大的差别的。开源模型可以以更小的模型做出更多的事情，所以它会比闭源模型更便宜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个特别有意思，因为其实我本来有一个关于算力的问题。因为从DP开始，大家就是在说中国的整个模型是算力受限导致创新倒逼的这样一个叙事。现在听起来其实K3的思路也还是一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是虽然这个模型结构的演进会带来很多的方便，但是在工程师配上确实带来了很多很多挑战。这也需要很多额外的工作才能够把理论上的这个极限实际在工程上做出来。对，还是要给中国新富尔专家们打call。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，既然我们聊到了kimi的能力，还有训练这个方面，我们就来解决一下蒸馏这个争议。因为你们之前都提到了pytho pic对于包括越战面在内的三家公司，DPC越战面和mini max 3家公司在今年2月提出的蒸馏的指控。包括最近kimi把K3放出来之后，其实美国的政府也有所介入，提出了针对中国开源模型是否要限制的这样等等一系列问题。并且在讨论相应的政策，这个网络上也有很多的讨论。我觉得咱们先做一个科普，就是蒸馏到底指的是什么？因为我觉得其实topic他说的蒸馏和我们在说AI训练当中蒸馏的这个过程，其实之间还是有一些细微的区分的。田震要不要先帮我们解释一下？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，蒸馏实际上是一个现在被用烂的一个词，然后很多不同层面的蒸馏的词语都混在一起。从纯技术的角度，蒸馏是一个非常中性的词。蒸馏就是说我现在有一个大的模型，然后我现在另外有一个小的模型。我怎么样让这个小的模型学会大模型的一个能力，他可能有很多种方法。最传统的方法就是说我们看一下大的模型推理之后，它输出的这个magic就正常。我们用比如说闭眼模型，你是看不到这个logo。看logic就是说每一个位置上每一个token它的输出的一个概率，然后让小模型去学这个概率的分布。比如说你用闭源模型，你能拿到的就是它最后sample，就是它采样出来了哪一个词，你是没有办法反推回来它的分布的。所以用经典的我们聊了蒸馏的这个技术的词汇，你是没有办法做到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>比如说我们拿一个开源模型，然后让他去学会fiber的这种事情。所以本身我们说这个蒸馏实际上是一种反应。现在大家谈的蒸馏更多的是说利用闭源模型生成出的文本来学习。然后让这个开源模型拥有闭源模型的一个能力。这个事情其实就非常controversial，就是说起来就非常有意思。闭源模型可以拿所有人类的数据去学习，然后学完的东西在被闭源模型输出之后，不能被别人用来做下一个模型，这不是很可笑吗？相当于是闭源模型练了一个宝典，然后他就把所有的语料都扔掉，不告诉你说他是在哪学的，也不给你讲说他学到的这个东西是什么。不允许开源模型拿他的这个输出去训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>或者换一个例子，有人读了一本书，然后他拿这个书的内容去写了一些自己的创作。跟所有别的人说你不能读我写的这个东西，实际上就是一个非常有意思的点。就是版权法是不是能保护闭源模型的输出，不能够被其他模型拿去做训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:54]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>在这个点上开源模型实际上是非常开放。R一出来的时候，他直接就说我们支持所有人去蒸馏我的开源的这个模型。我甚至官方推出了一些数据集和模型，然后让大家可以去蒸馏，蒸馏有很多好处，比如说大家实际需要的是一个非常小的一个，比如说3B的模型，那你可以把dept sik某一个方面的能力给蒸馏进去，而且deep sik e是直接给你开放logic，所以你想要去做传统意义上的蒸馏，你是完全没有问题的。Kimmie也是一样，它其实在MS sense里面并没有明确的限制，说你不能把这个开源模型的输出用作提高其他的跟他竞争的这个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:29]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>另外一个层面抛开这个，就是有很多人说蒸馏是什么呢？当我用这个开源模型的时候，这个开源模型会自己说，我是cloud。你问这个开源模型你是谁？你不要加这个system prom，他就会说我是anthropic，我是ChatGPT。然后很多人说，你一定是在蒸馏这个闭源模型。实际上这是一个数据污染的问题。在ops 4点7的时候，我记得如果你把system prompt拿掉，然后你用中文去问他说你是谁的时候，他会说自己是问。其实也就是一个数据污染的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>因为各种模型的输出已经在互联网上大这样的存在了。所以这些模型在预训练的时候会学到各种不同的身份，导致他意识又有点错乱。解决办法就是你在system pro里面很明确的跟他说你是谁，也针对性的做一些微调和训练。但是这个问题肯定是没有办法完全得到解决的。总会有一些情况下，这个模型会对自己是谁的这个认知有一个错误。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我并不觉得说它是一个蒸馏的问题。说实话K3有没有蒸馏的这个事情，那我为什么相信它并没有蒸馏？是因为蒸馏是一个训练的过程，它是你在训练的时候去学习另外一个模型的表现。你学的这个过程实际上是非常漫长的。就是一个经典的模型训练可能需要三个月，那他绝对不可能在比如说十多天就积累到足够多的语料，然后去学习。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:43]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后另外一点，为什么开源模型其实很难从闭源模型蒸馏？是因为闭源模型不给你暴露他的思维链，就闭源模型蒸馏开源模型是非常容易的。因为开源模型已经把所有logic，所有的思维链全都暴露出来，所以闭源模型想要去追完全没有问题。但是开源模型如果他们真的在蒸馏，并且想蒸馏这个闭源模型的话，实际上是很难的。他又不给你暴露到这次，又不给你暴露思维链，他只给你暴露最终的结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:07]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>如果说我们看到一个人做事情的结果，我们就能学会他内心怎么想的话，那我们人类社会互相学习也太容易了。包括我们再去向某些人学习的时候，我们需要打开他的内心，知道他内心是怎么想的。我们只看他的结果，实际上是很难学会他的行为。所以闭源模型不暴露它的思维点就导致闭源模型非常难被蒸馏。我们也很难通过闭源模型来提高开源模型的一些能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我们从这些前沿实验室asp和open a的角度来看他们对于蒸馏的担心。你觉得是出自什么样的证据也好，或者他们的经验也好呢？我们怎么样去理解他们最近的这些指控呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得抛出蒸馏这个概念的人，其实不见得是技术圈的人。每个公司肯定都是有不同背景的人，那大家竞争或者是怎么样，他肯定是有一些方向和战略。那不见得说是技术圈的一个蒸馏的指控，可能更多的是一个比如说商业目的，或者是给大家一些预先的植入。就说啊其实开源模型没有那么好了，它都是蒸馏边缘模型蒸出来的，或者是怎么样。你也很难抓到一个具体的事实去说，你确实是在蒸馏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:11]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实我觉得这些边缘厂商借着蒸馏这个名号，其实也做了很多很夸张的事情。比如说他们曾经把几万个账号被质疑是在蒸馏中数据的这个账号给关掉。那其实本质上就说明他们实际上在看所有用户的数据，他们才知道他觉得谁在蒸馏。所以我觉得整个这个事情其实就有点像是所谓的这种国家安全的自我强化的一个预言。那你总要有一个靶子，然后你就照着这个靶子去打，说不定能够草打兔子，然后找到一些什么东西。如果能出一些社会影响力当然好，如果出不了，那也就这样，对吧？技术圈其实一直对大家的蒸馏的这个说法有很多质疑，但是也就这样了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>蒸馏本身是一个中性词，但现在蒸馏已经变成了一个贬义词。但事实上蒸馏本身首先它是一个很标准的一个技术。所有的公司包括open I、google、sup，大家其实都在用大模型蒸馏各种小模型，这都是已经存在的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二个误解就是把模型能力完全归结于蒸馏。模型只要是比较好了，它就全都是因为蒸馏。但事实上不是的，如果这么简单的话，那所有人就随便就训练出来一个模型了。这里面它的强化学习，数据工程，架构的各种创新，包括最开始deep seek所做的很多东西，这是一个非常复杂的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>蒸馏可以让你很快的去达到一个及格线，而像kimi 3，它其实已经远远超过及格线了。因为蒸馏它能省的一个是比如说是算力，第二个数据标注上其实可以省不少的一块的东西的。当然还有时间，它的迭代什么各种周期也可以变得更快，以及很大的一个挑战就是对齐。但是从本质上它无法实现超越或者是达到一个上限的。所以目前很多时候关于争论的讨论，它其实是会落在法律和商业的伦理层面，而不是一个技术层面的讨论了。因为几种情况被认为越界的话，它不是一个技术的越界，而是比如说它违反了模型的服务条款。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二点可能就是规模化或者系统化的用对方的API去提取大量的训练信号。第三个可能就是涉及到这个模型的权重，商业机密直接窃取了关于kimi是不是蒸馏，或者说中国的open source这些模型，大家是不是都有这个情况吗？我认为就是因为这是一个非常抽象的概念，它又被简化为一个抄袭。所以其实好多的主张是混合到一起了，我们应该把它给拆开来看。第一个有没有中国的一些实验室，可能是不是系统性的，没有经过授权调用了。比如说包括cloud在内的这类的frontier models，他们的API去提取训练信号，很多的证据其实围绕在这里的。比如说账号的大规模的自动化请求，各种调用，这个是可以被检测系统所抓到的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但第二层，很多的一些指控，比如说K3是靠蒸馏飞薄五拿到的什么的，这个是证据非常薄弱的。时间上来看，就飞波五的话，它是七月初，一号还是二号，刚开始的中间其实很短的，要在两周的左右的时间。把一个前沿模型换成另外一个训练数据怎么跑？这个其实是极其困难的一个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第三点，蒸馏这件事情本身让这些开源模型，包括P米三在内的所做的成就，是不是就不make sense了？这个我认为是一个错误的观点。因为蒸馏就是一个比较久的一个技术模型，输出本身它很多时候不受传统版权法保护。从这个角度的话，它其实还做了很多东西的。它本身的话还是实现了很多技术上，包括各方面的一些推动和革命的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:59]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就算可能有一些APP再去蒸馏。其实中国模型开源模型的成功，实际上可能有比如说十个理由。包括刚才我们说到模型架构，包括英特尔上面的一些工作，包括一些中文数据的一些工作等等，其实可能都是非常重要的点。如果说美国的这些前沿的map只关注蒸馏一点的话，其实他们有点只见树木，不见森林。可能会完全忽略掉中国模型在其他方面的先进性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是因为涉及到法律或者是商业上的一个伦理道德的很多东西，所以这个其实很难做出一个具体的说是不是这样的一个判断。但是我感觉目前所有的证据，应该倾向于指向的是可能会存在一些没有授权的大规模的数据抓取行为。但并不代表说能得到的结论说kimi 3包括其他在内，他们的核心能力来自于整流器，尤其是蒸馏vivo这两个是不同的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，对我觉得这里两位都回答了两个核心问题。一个是到底有没有蒸馏，第二个是蒸馏够不够。这个模型的核心能力我觉得是非常好的总结。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我想再从K3的角度来看一下这件事情。其实铁证你提到了K3的这样一个商业授权模式，我觉得也是这次技术报告放出之后特别有意思的一个点。Kimi它使用的是一个单独的kimi k3 license，它规定了如果一家公司他卖的是模型，并且公司以及他的关联方在连续12个月内的总收入超过2000万美元，或者说这公司他在把K3和它的衍生模型用于商业服务之前，需要和月面另外签署一个协议。而且这个model s service就是对于这类模型公司的定义，不包括嵌入具体产品功能的终端应用，其他的就是内部使用月之暗面官方产品和其他的合作伙伴也不包括在内。这样一个商业授权协议体现出了kimi商业化上的一个什么样的趋势。以及我们之前有没有看到过这样的协议。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第一个，我觉得赚钱的开源模型才是好的开源模型。这个事情可以有几个佐证。第一个，比如说之前我们看文生图模型领域的翘楚，这个stable diffusion，它是后面是有stability这个公司研发的，他这个模型一直没有办法赚到足够多的钱，所以就渐渐销声匿迹。第二个就是千问，千问可能也是因为开源做的很好，但是商业化做的不好。所以我一直觉得能够赚钱的开源模型才是可持续的开源模型，才是可以让我们一直享受下一代开源模型的这么一个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第二个就是license赚钱这个事情，其实king不是第一个提出来的。当年的开源模型的祖师爷妈妈，他们当时在license里面也有一个限制。当时大家不是特别清楚具体他这些东西要怎么执行。那kimi这一次，就是把具体执行的这个内容都给写的很清楚，也是比较可操作的那我觉得这是实际上是一个license法律或者是商务层面的一个进步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:52]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第三个就是他现在把这个东西写清楚之后，很多专门做模型推理和云厂商实际上没有办法去take for right。因为之前很多开源的一些数据库的项目，其实他最担心的就是云厂商没有出工，没有出力。然后拿这个开源项目部署在自己的云上就可以卖钱了。所以这个free right这个事情实际上是开源社区一直想要避免的那之前在开源软件时代，大家都想出了很多办法。比如说可以有两个essence，或者说专门有一个essence排除对云厂商和一些专门做线上业务的人的排除。我觉得kimi也是延续了这个精神，包括MaaS厂，包括这些云厂，他们需要在自己通过开源模型赚到的钱里面给kimi做一些分成。我觉得这也是非常合理的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>可能是一个反常识的观点，就是云厂和这个MaaS厂实际上应该是非常欢迎kimi找他来收钱的。因为只要你来收钱，就说明你跟kimi有一个官方的认证关系。大家如果去看kimi的官方的一些发布，它实际上是有一套vender verification的流程的。就是你只有过了这个流程，你卖出来的token才能被证明说是好的token，包括准确性，包括性能，都是有保障的。如果你连这个specification都没有过，你都没有给kimi付钱，你都不是kimi的官方合作伙伴，那大家可能也不愿意去采买你的token。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:08]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>从marketing的角度说。另外一点就是其实这些MaaS厂和云厂，包括一些小的专门卖推理的公司。其实他整个的business都建立在他们能拿到不限量的开源模型，并且不停的用开源模型做推理卖给他的客户这个点上。所以他们也非常希望。开源模型的生态是一波接一波持续不断的。他也希望这些开源模型公司是能够赚到钱的，不然如果有一天大家都不开源，那这些比如说拿很多融资的专门做推理的厂，或者是买很多卡，然后想要自己做推理的nail lab，它的整个business logic就不成立了。所以说现在有一个能够让大家整个生态持续发展的方式，大家应该都是非常欢迎的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我相信这个应该不是第一个尝试这方面license的公司。听你之前mini max其实也做过一些尝试。后面我们应该也能看到更多的企业做更多不同的尝试。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们能不能稍微和别的中国的开源厂商做一下对比。比如说我理解千问的这个商业模式，可能是回到他们的云服务，这个能不能给我们解释一下哪家厂商有什么不同？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>千万的商业模式肯定是绑定阿里云，但这只是过去的一个状态。如果说kimi的这个license转变是很成功，大家也都愿意付这个钱，并且产生更紧密的整个生态的一个连接的话。那我相信其他家去复制这个模式也不是一个不可能的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实这个逻辑本身是不行的。比如说从早年的MongoDB，elastic，其实大家都做的差不多。因为那会儿云厂商大家很多时候都做白嫖，所以整个这个逻辑就MIT，party都是在这种情况下出生的。包括lama其实也是这样的，他的整个这个逻辑也是对着当时非常大的microsoft，amazon等等AWS这样的东西来设计的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以其实kimi的整个设计，应该是两块。第一块就是一个云厂商。因为其实你可以想象像现在非常火的together，fireworks，其实大家核心都是靠这些开源模型来赚很多钱，那这是一份中间商的差价。第二一部分，其实就是终端应用方，那也就涉及到了比如说cursor之类的，它是一个终端的时候，那你的这个情况应该怎么样？这个其实已经是一个非常细化的了。这个其实就回到了和闭源模型，或者闭源整个frontier labs在打仗的这样的一个场景里来去看。比如说more shot，它现在核心的应该是靠开源的这样一个逻辑去铺量，去挤压包括VI、SOC这样的一些生存生态或者生存方式，以及形成一个新的心智上的占领。但是与此同时，这个事件也非常新，因为跟过去cloud不一样，现在的情况下他已经没有办法自己去能承担得住这种一代又一代模型迭代的训练成本了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以如何能保证开源这样的一个大的叙事，但同时又不能就把自己最好吃的蛋糕就给大家随便去白嫖，这种情况应该怎么打？所以这目前来说这是一个相对妥协的一个结果。但是最难的角度就是落地就执行情况。你怎么去知道一家非中国本土的公司在过去的营收达到比如2000万美金应该是一个坎儿。那怎么去衡量呢？然后很多公司它本来就是AI native公司，你也不知道他赚多少钱，这是打官司，到时候他因为这是现在是自觉申报，那申报这个东西像科sir这种是容易看到的那很多公司你怎么去看呢？打官司跨境执法怎么办？这东西从传统的角度都没有去解决的事情，在今天这个AI的行业里怎么去解决呢？其实有很多很多的灰色地带的，这个其实是一个非常难以去界定的事情。在我看来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们觉得这个有什么过去的案例是值得参考的吗？无论是成功或者失败的例子，还是说现在还是一个太新的东西，我们没有办法去衡量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>确实收钱这个是一个很难的事情，尤其是license收钱。就是过去大家一直都抨击说中国的企业，尤其是中国的大厂，他根本不看license SE，我只要偷偷的用，然后你找不到证据没关系。但是实际上我看到这几年情况在快速的好转。包括阿里，我知道他也是付了很多license，然后包括一些非常传统的软件，比如说服务器的什么mode是什么的，其实在国内也都能收上来钱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其中背后的原因我觉得有几个。第一个就是说至少这一代程序员，大家还是有比较强的给license付费的一个意识。第二个，其实厂家也发现带着原厂一起去做一些事情，一起去call marketing，实际上是能给他带来很多好处的。比如说某云厂可能对某功能有一个定制化的需求，他自己不一定能搞得定。或者说他就算自己搞定了，他对开源代码的改动是非常有侵入性的，导致开源代码一更新，他这边的所有的魔改全都不能工作。所以每次更新都是一个非常痛苦的过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:59]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这些原厂通过资助这个开源项，或者买他的lesson，或者加入基金会等等，他可以跟这些原厂有一个非常紧密的连接。他可以说OK我需要你帮我把这个功能推进去，下次我更新的时候我就很容易。这种事情多了之后，大家就养成一种意识，就说为什么我们不跟原厂搞好关系？我要偷偷摸摸用，我让原厂来帮我宣传不好吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第三个就是包括linux基金会等等这些机构在国内，比如说通过美国企业的OS o就是开源办公室的一些合作。实际上里面很多信息现在是非常透明的，就大家知道谁在用什么，而且这个人员流动也很频繁，尤其是非常大量的使用，然后你想藏住实际上是很难。一旦你被发现有明确的证据链之后，法院也是会支持判决一方。因为这里面已经有一些比较好的判例了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:49]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第四点，我们再回到kimi的这个license能不能收上钱来。因为我们知道kimi这个模型实际上是一个非常大的模型，它是一个3T的模型。想要把这个模型在云上面服务好，实际上是很难的。虽然我们看到像VM，像SGR都对它做了一些社区上的支持，但是真正能够把它大规模跑起来，并且有很高的性价比，然后有很高的使用体验，并且把它跑起来，其实全球也没有那么多的机构。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第一个你首先要有几百张、几千张、几万张VDA的卡那首先你就是一个要面子，在这个行业里面靠品牌吃饭的一个。如果你没有一个很好的bRandy media甚至不愿意给你卖卡。然后第二个就是你肯定在这个里面投入了相当多的人去做所有的推理优化的，你这个事情你是藏不住的。然后第三个，所有的API的售卖，其实大部分都是公开的一个售卖。就是你想要走量达到听你的那个量级，你需要自己有一个API然后放出来让大家买一些token，或者是面向to b的一些场景。大家能够在你的网站上直接看到说，你在卖kimi的token，虽然你可以藏一部分销售额的量，我觉得但是大的量你是藏不住的。所以综上几点，我非常有信心kimi能把这个钱收回来。肯定是会有一些漏网之鱼，但是应该不影响他们公司的业绩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:04]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>如果说my license这个路径被kimi证明成功，实际上这是比kimi自己去做推理要好得多的一个商业模式。这就是无本万利，你只要把模型做好，大家都直接给你上供，你连自己买卡或者是怎么样都不太需要，尤其是中国企业，可能在买卡上还是面临一些挑战。个人情感上，我也希望说kimi这条路径能够走通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个非常有意思，而且其实这是一个很好的过渡。如果说license这一套模式可以走通的话，它会对闭源实验室的收入模式造成什么样的影响呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得第一波影响应该是估值体系。今年chat PT和m sorry都要上市，open I和安全上市的时候，大家就会问你这公司到底值多少钱？在开源模型追平fiber之前，大家会觉得闭源模型。它的模型本身是一个非常有价值，非常有稀缺性，非常值得溢价，甚至是垄断性的一个东西。我记得前几天看还有一个笑话，就是有一个海克斯在hack thon运行的中间，ChatGPT的服务器断线，然后就没有人在海克斯去搞东西了。因为大家都大家的智能被断供了，大家都没有办法继续去做这个事情。所以他垄断智能这个事情，实际上是比垄断任何商品未必要恐怖的多。所以它天然就值得万亿的市值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是有一天大家发现，好像竞争变多了，好像不止这几家可以训练模型，好像很多家都可以训练模型。有了开源模型之后，非常聪明的模型变成了一个流通的商品，甚至是被平民化，变成一个社会的基础服务。那这个时候你再去想OpenAI和anthropic的价值，可能就要稍微打一个问号。大家就会问说，那你商业化到底能做到什么样程度？有多少企业愿意在这种开源模型已经遍地开花的情况下，还愿意付钱买你的闭源模型、原模型。你商业的margin能做到什么样？然后你后面发展的这个skin of我是不是还可以投无限的钱让你去无限扩展。还是说你现在要抓紧去想一想，怎么样让你token的这efficiency更高。所以整个这些东西压下来，这个饼就没有那么容易画的圆。估值体系肯定是会受到一定的压力的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第二个就是说如果说未来所有美国的这个nail cloud都变成anthropic和chat VT的竞争对手。因为他们天然就有开源模型。哪怕交一点lichens，他们还是能赚钱，比数据中心低价卖给topic还是要赚很多钱的。这时候就会发现OpenAI和anthropic的业务其实很难再有爆炸性的推进了。因为所有的nail cloud他们之间可以互相卷价格，他可以把token价格压到很低。甚至有的人可能是通过一些资本市场的手段，让数据中心的成本在资本开支里面去m tize。它的token可以卖的很便宜。这样的情况下，OpenAI和antoine c会不会被动的陷入一种价格战？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实我们已经看到以前安装bic和chat BT他是很高傲的，他说封你号就封你号。前几个月前我们就看到是这样，后面chat BT为了做一些商业的手段，开始了国内外卖送券的这个模式。不定期的给大家发一些重置券。这就已经开始一些很商业化，可能会损害公司的margin，但是圈更多用户的一个手段。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>而且我们看到SV最近封号也变得没有那么疯狂。可能最后大家为了业绩，可能对很多号的管理也没有那么严谨了。最后都会反映到他们的财报上面，都会反映到市场的竞争里面。所以我觉得开源模型的普及，实际上是对他们造成了一些困扰的。我觉得这也是为什么他们可能会想要提议说禁用开源模型，或者是在法律和市场层面去给潜在的竞争对手造成一些阻碍的原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近有一个背景，就是美国的一大批科技公司，还有一些机构签署了这样一份公开信。这份公开信的名字叫做开放权重和美国AI领导力。这个是黄仁勋加入X之后发的第一篇推文，所以也造成了很大的影响。这个应该是在上周五，就是7月24号之后，应该有25家公司还有个人和机构签署了这封公开信。在几天的发酵之后，大概是达到75家，这其中的anthropic是一直没有签这份公开信的。当然今天dearmod刚发表了一篇他自己的文章，然后也解释了C对于开放群众这件事情的一个看法。所以我觉得这个立场其实特别有意思，然后我们又在这个背景之下去讨论他们的商业利益的关系。所以我觉得也是形成了这样一个冲突。在这个背景之下能不能请来我也再给我们分析一下anthropic现在他的立场是什么样的。这个边缘实验室到底在这波开源模型中受到了什么样的冲击？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实这个公开信我自己感觉，因为它整个核心就是关于要不要开源，或者应不应该接受开源。开放的一个生态和一个闭源的生态。它的商业逻辑从根本上其实就是应该是一个对立的开源模型。它每一次的开放，肯定都会给专门是卖API这个cost整个的闭源的带来一个巨大的冲击。这是黄仁勋所被指责的一个点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Media其实从芯片基础设施这个角度来看，肯定是每个人都能自由搭建一个最好。这样的话它就可以卖出更多的铲子，因为他并不在乎谁能挖到金子。而对于模型厂商，其实核心要保住自己的护城河。但是双方所护手的东西在这个环境下就会发生两个完全不一样的角度了，整个会走的甚至可能会越来越远在这个利益上一般应该是完全不会对齐的了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>甚至你会看到从预言模型的整个体来看，它也发生了很大的变化。一种就是包括我们刚才谈到OpenAI，anthropic这种主要是靠可以说是卖API来赚钱的这样的公司。另外一种，其实是包括meta包括阿里这样的公司。Meta和阿里都是有自己的分发和基础架构的。因为阿里其实主要赚的就是云服务，通过开源到闭源，这样可以从云服务的角度来去做更多的业务。而从meta的角度来说，what&#x27;s up?</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第一次我发现WhatsApp今天增加了一个收费，版2991个月可以开始收费。它是可以靠自己的这个inside各种的APP矩阵去实现转移他自己目前受到的开源上的压力。但是这两种情况是目前为止OpenAI和anthropic他们都是没有的。因为他们在过去十年主要focus API的这样一个模式。无论是从基础就卖铲子的公司和希望别人拥有API的公司这个角度来说，以及就闭源公司本身，它也已经开始越来越的分化，它是一个结构层面的变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我非常同意kiss老师的观点，不管你在商业竞争的哪一个层面，其实你都希望跟你同层面竞争的人越少越好。但是你的上游和下游都是越来越多的那站在media的角度，他肯定是不希望这个模型厂是一个处在垄断地位的。因为这样他们的议价权就会很强。他希望说自己处在一个垄断地位，但是不管是上游的模型厂还是下游的new cloud，都是尽量丰富的一个生态。在这种情况下，他们去支持开源，我觉得也是非常可以理解的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>而且其实media从早期到现在，他一直都是开源非常好的一个支持者。这样早期他之所以能在研究员群体里面建立早期的生态，让深度学习最早的一些故事全都发生在英伟达的这个硬件上。也就是因为它比如说酷大的这个生态，它有一个非常好的开发者社群。然后围绕这个扩大生态有非常多的开源项目。从最早贾应庆的咖啡到后面google的flow，到后面的patch ch都是搭建在NVIDIA硬件上面的一套非常完善的开源软件的体系。这种体系就形成了一个非常强的壁垒。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>一旦说你已经成为开源的标配，比如说AMD想要进来，那他就要跟所有的这些开源厂商一个一个去聊。说我是不是能够在py toch里面做一个集成，我是不是能在比如说VMSGM里面去做一个集成。那后来者其实要花很多很多的功夫。Video作为开源的先行者，实际上在这里面是有不少红利。相当一部分的所谓的枯大的护城河，实际上都是围绕在哭大周围的这些开源生态造成的一个护城河。所以我觉得V点来支持这个事情也是非常合理的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:20]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第三点就是and sorry，其实有点走向邪路。它实际上是在以安全的名义为用户增加很多的限制。一个最让大家诟病的就是比如说你在用vivo的时候，如果你不小心触发了那个贼敏感的检测器，那它有可能会瞬间给你降至到OPPO4.8。导致一个什么后果呢？就是你想要测试fiber的极限能力。如果你不是SOC的员工，你被future限制，你是没有办法去做任何事情的。因为随时比如说测出来一个不好的成绩，你都要怀疑说，是不是我会降至到office 4.8。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:52]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>比如说我像我们平时去做一些AI方面的探索，哪怕我就是做一个很简单的推理。如果我不精心构造这说，我就不要说是骗飞博说这东西不是一个AI的东西，很有可能我就是做一个简单的模型的推理。然后vivo就直接告诉我说你这东西有风险，我不能支持你做这个事情，我就给你限制这个filter。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:11]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我相信他做的这么敏感也是有一定的意义。因为我知道and topic的理念，光做模型外安全的这个团队都有几百人。他做成这个样子是到底是故意的还是不故意的，这个我不是特别清楚。但是我觉得他至少现在的这个产品形态对用户造成的烦恼是远远多于他潜在的安全的考量的。一个让用户如此不爽的公司，能够突然发现自己瞬间有好多竞争对手，然后大家对自己不爽，然后大家都想要支持。开源也不是一个非常难以预料的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这个非常有意思。其实中国的模型厂商，它并不是从一开始就是开源的。其实kimi k问这个模型，第一个模型也是一个闭源模型，而且一开始很多的模型提供商都是去做这样一个闭源的商业模式的。通过开源，我们可以看到可能有更强的分发能力，也就更多的用户，就相当于是把这个名声打出去。然后这个开源的好处让很多的模型厂商选择了开源。所以我觉得我们做一个思想实验，就是说如果kimi有OpenAI那么强的分发能力和那么高的API收入，他还会选择开源吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:17]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我不知道如果你有这个OpenAI这么多的收入，它是不是还会太远。就是我觉得可以做一个类比。Linux早期是作为一个反抗闭元unix生态的一个先行者。但是当这个linux发展到现在已经基本上所有的设备上面都在跑一个linux的时候，linux依旧是一个开源的底层的一个东西。所以我更倾向于说，只要我们找到开源生态，一个可以持续运转，并且能赚大钱的一个商业模式，那没有理由他们不开源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>整个这个东西其实在某种程度上也不一定受实验室自己控制的。因为它已经从商业竞争开始，变成了一种地缘政治的一个博弈。就在这个框架下，它的这个business logic其实变得是第二节了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实在这里我还想聊一个公司，我觉得thinking是也很有意思。它在应该是K3发布前的一周前也发布了in lin。In lin是一个开放权重的模型，并且它参考了deep sick的架构。因为mia mali也是从OpenAI出来的。其实我还蛮想听一下大家的看法，就是thinking machines为什么会选择开放权重这件事情？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我的理解是他们有一个叫tinker的后训练的线上的服务。他为了让用户把这个东西用起来，他肯定是要把基础的模型，就是tinker训练出的这个模型的一个结构放出来。然后让大家用这样听课，每次训练出一个什么东西，它的开源的适配已经都完善了。所以我觉得从这个角度来讲，是非常合理的去做一些开源的工作。只要说这个开源的工作不会影响到，比如说他的一些商业利益或者是什么，我觉得是没有问题的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>另外其实美国学界也在反思说，为什么美国的公司做开源做的越来越少了？因为像开源模型的这个鼻祖就是妈妈，那个时候都是美国公司。在领导力从deep sik出现之后，美国的参与开源的比例就会大幅的下降。所以当时thinking machine这个模型出来的时候，我就记得很多人就讲说这是一个。美国很重要的开源模型等等，可能也有一些这方面的考量。在美国的一些researcher可能也在想说，为什么我们不能参与到开源的游戏里面？我们也可以对社区做一些贡献。新发的这个模型，其实它的架构或者是在他整个的technical report里面都是有一些很不错的有意思的亮点，那也是值得学习的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:41]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得其实开源界不怕说大家卷起来，不怕大家发很多模型，然后一个比一个好，其实最担心的就是开源界的就没有人发模型变成一潭死水。只要是有新的开源模型出来，总能给大家一些启示。每个人在做不同的尝试的话，也会让这个领域推进的更快。不管说这些开源模型是你回答的making .</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>machine这个模型，因为我的理解它的整个方向，虽然它是开源，但是它跟kimi完全不是一套打法。他们整个核心应该就是现在企业都需要一个deploy自己的模型。他们会帮着企业做微调，做各种。一套逻辑的话，现在是美国非常普遍的一套逻辑。因为to b在美国是一个很大的生意，而在中国其实不是一个很好的生意。就intelligence我应该是租借的，还是我应该是变成自己的那很多的企业现在越来越接受的观点就是intelligence should be owned，而不应该是rent。这就是它的整个的大背景下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:40]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我好奇比如说你们看到的服务美国企业的场景。大家对比如说用thinking machine的这个模型，或者说用中国的开源模型会有一些技术之外的看法吗？或者说大家主要看的点是什么？大家主要在用哪些模型？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我感觉这个东西就还是看具体的应用场景以及你的vertical垂直场景。比如说一些政府端的肯定是不可以，包括一些国家可能也不太方便的这就是给了包括thinking machines这样的一些公司的模型很好的一个切入点。Crease应该有很多大单，但这并没有影响到他的一个deployment。因为开源其实他不拿用户数据，他其实理论上不应该涉及到这个安全问题。但是现在的一个大时代背景是什么都会涉及了，包括你的模型干什么用，你是个做coding，还是你要做什么。但是我感觉大多数的美国公司并不是非常在乎这个模型是不是中国的。但是他有没有能力去调教自己的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是另外一回事儿。那你觉得当开源模型的能力足够强之后，会催生更多提供微调适配企业需求的服务的这样一些公司吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这个已经是一个现实了吗？日本是没有一个自己模型的，它就有一个最开始的3DAIL。但想谈恋爱其实没有什么东西出来。所以他们很多的时候就是把国外的模型deploy到自己企业里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在美国的话，这几家公司，他从个人的开发者的使用角度来说，他已经没有那么多了。Cognition举个例子，其实是一个不是被广大开发者所使用的一个产品，但是并没有影响到他赚了很多钱。从AR的角度来看，企业、政府很多的这种客单是有很多的。所以我感觉这个是在未来一段时间内的一个现实。因为大家是想使用AI但是大家并不知道如何部署或者应该怎么样选择。就像一个市场极其混乱，又没有那么透明，所以就会多了很多的中间商赚差价。很多时候大家就会，如果我去找中间商赚差价，把这个钱交给像埃森哲这样的公司去赚，我不如自己去做这个事儿。这也就为什么说OpenAI也好，消费也好，他们都成立的部门专门就是做deployment。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说像open road这样的公司，是不是也是受到这一波开源模型的影响，然后最近才火起来的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，他们其实压力很大的。因为在很长一段时间，市场的趋势是要用最好的模型，而且最好的模型就是必然的那你想他们的一个优势是很少的，我为什么需要另外一家厂商去来帮我做这件事儿呢？而这一波你可以看到在过去几个月的时间里，包括open alter在内，包括另外我们提到的这几家公司，他们的估值LR都是翻倍快速增长的那就是核心利用了中国为主的开源模型这一大批。因为中国这一批之外没有那么多开源模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:37]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>的这生态多元。然后生态的分层实际上对整个行业是一个非常好的事情。我们可以拿比如说IBM的兼容机和苹果的所谓的一体机来对比。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>如果说在行业的早期，每个人都可以做自己最擅长的事情。比如说做模型的做模型，做推理，做企业服务的做企业服务。那每个人都可以在自己的位置上做出最高效的一个决策，也可以做出最快的一个迭代。然后大家也可以卷的更厉害一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:01]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得这个实际上是对行业非常好的一个方法。总比像传统中国互联网企业喜欢从头做到尾，什么都自己做。最后靠的不是一个纯市场竞争来打败对手，而是很多技术之外的方式。比如说流量扶持，或者是封禁一些内容，然后来做到这个效果是好很多的。但最后会演化成什么样子，可能又会回到某一家独大或者是怎么样也有可能。但是至少我们在当下就可以好好享受现在这种市场充分竞争的一个业态。不管我们做什么都是有非常多的机会的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白在这种竞争的情况下，对agent行业还有生态会造成什么样的冲击吗？正面或者是负面的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为agent是一个比较宽泛的概念，就是我理解你提到的agent可能主要的是关于因为从工作流上的这种具体的这些applications，这一层的agent我感觉其实已经发生了很大的变化了。我前一段跟一个VC的朋友聊，他说这个估值越高，我们反而会越愿意投。就估值很低的这个agent我反而可能不愿意投了。因为你的这一层很容易可能就会被吃掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二点，一元模型包括前模型。如果单纯靠API去赚钱，这个事情就是我最好我要是随便的收溢价，我也不在乎客户什么的。这种服务的这样的一个逻辑肯定是已经被拆解的。他应该是不是比如说开发更好的harness，他会把工程的整个agent的这个能力的vertical的调整变成一些新的护城河。这些事情都已经正在发生了，对吧？无论是说open cloud也好，包括其他的harness的这个layers，包括后来比较火的look engineering什么的，这个模型很快就可以吃进去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以如果我们讲的是application这个level的话，那我感觉这个事情对于整个生态来说会发生很大变化的。因为AI还是很早，它其实也就是最近这几年，在整个长河中它是一个非常短的时间。那如果我们把它放在一个五年的时间来看的话，我并不是很认为说以后会有很多的agent application companies。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是回到另外一个角度，就是说agent info。Agent当它能实现做很多事情，包括在互联网上的使用，它的逻辑它又是一个变化。现在的模型厂商或者大家在做的是他是做ISP，它就是一个广泛变成一个commodities，变成一个像水和电一样的一个消费来说的话，那应该还有什么？这是一个我们应该重新考虑的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，铁证。你觉得呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:32]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实现在我们看到很多agent workload和传统的推理。比如说做一个chatbot或者是做一个简单的rag，它的对模型测的要求是不太一样的。说之前可能是短输入长输出，现在可能是非常长的一个输入，然后非常短的一个输出。并且他的每英文对话能够重用的prefix就是KV cash的重用率是非常高的，其实这里面也能做很多新的优化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:59]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>在这个模型之外怎么去推理模型这个事情。也可以根据我们当下主要跑的这些任务的特性不同，然后做出很多极致的优化。比如说如果我们能够控制这个harness，能够控制比如说cloud code或者是open code这一层，我们可以自己去定义一个跟模型通讯的接口。那它有一个什么好处呢？就是我们可以完全的掌控这个KV开始的生存周期。那对于很多推理的降本提效或者是做一些调度都是有非常多的好处的。所以我觉得这个行业就是一个方兴未艾，然后又有太多可以做的一个事情的这么一状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:37]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>包括我们今天看到的token的成本，用美元折算的单位智能的这个成本，在过去几年可能下降了1000倍。未来今年我们能看得到的，可能在硬件上还能扣出来至少十倍。如果有下一代的硬件，或者是有未来更多的asic那可能还会继续再能扣除十倍。还有worker d本身在软件层面能给我们打破不同通讯层的交互，然后做一个极致性的优化。那我觉得可能还有十倍。也就是说比如说未来的三年，我们还能看到同样的智能，它的成本又下降了1000倍。这个对于企业的应用肯定是一个非常好的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:11]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Kate老师一开始在博客之前说，很多企业也都要在考虑成本的问题。随着开源模型的普及，随着整个info行业的极致的优化，其实最终受益就是每一个有实际业务，然后能赚到钱的企业。AI应该是一个服务型行业，应该是支撑他们的发展，而不是说一个抽血机，然后把这些实体行业的钱全都赚到AI公司里面，让大家付很多不必要的成本。所以我觉得未来还是非常值得期待的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得非常好是个很好的落脚点。最后其实就是想回到我们最开始提到的关于安全的问题。因为我们讲了那么多关于开源模型带来的影响，我们整体的方向还是非常正面的。所以我想再回到硅谷的评论人员还有从业者提出的一个批评，就是K三这么强的一个开源模型，它到底应不应该开放权重？它相当于是一个接近。Miso时刻的这样一个情况。包括open a的丁报，还有daria modi在内的人都认为这种接近前沿能力的模型，它不应该是开源的。在博客的最后我们可以回应一下这样一个顾虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>开源到底安不安全？这个事情其实也有很多的数据，包括对kimi 3其实有很多新的数据去来验证的。比如说他在exploit bench，这是一个蛮权威的一个数据。就网络攻防的测试里面，他其实得分是比较低的，30%几，远远低于整个frontier model 75以上这样的一个数据的。当然了很多人认为是不是一种比如说蒸馏能力的限制，但另外一种方面也可能说他没有把最强的攻击性网络这一部分的能力开放出来，这也是有可能的。他到底是不是一个非常权重公开就带来风险的这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我并不认为说现在是有一个很具体的一个东西来支持这个事情。因为现在有两种讨论，第一个问题是开源模型本身到底200安全，另外一个才是kimi 3，具体有没有已知的安全问题，kimi 3本身我认为肯定是目前没有看到任何的可证据的已知的安全问题。但是开源模型的话，它肯定会多多少少。如果他随着更多的公司来做开源，我们会应该相信这个技术会越来越容易被更多的人来去调试，它肯定会带来更多的安全问题的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它的安全问题是相对的。我们是基于现在的互联网的设计，一些互联网的环境来认为它是不安全的。但是整个目前互联网架构还是基于上一代的互联网架构，就我们这互联网的核心就是给人使用的，那你说难道cloud flare的这样的一个模式就是对的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也并不认为这就是一个终极问题。因为当所有的信息本身都已经不是人生成了，那为什么我不能让机器再随便获取这些信息呢？就不涉及到intellectual property了，甚至都所以这些东西都是在一个演变的过程中。所以这并不光是开源模型，包括就闭源模型，它也会涉及到很多的安全不安全的一个问题的。而这个判断交给谁呢？我这个东西的安不安全，为什么要交给一家商业公司来做决定？说这东西他所有行为就是不安全的这东西怎么去规定呢？这个现在没有一个很好的答案，或者是一个机构来去执行了也我也并不认为它很快会有，所以这是一个行业整体的一个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我觉得刚才kate老师提到这几点都特别好，然后我们就可以拿最近的一个场景做的例子。比如说hungry face被OpenAI的一个测试的智能体给不小心攻击了。故事也很有意思，就是这个智能体足够聪明。他说我直接去抄答案比我自己去摸索要好得多，要不我就顺便把别人的网站给黑了，拿到答案，这样我就可以直接获得高分。这就是一个非常典型的这种安全风险。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:47]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们可以去想，假如这个世界没有开源模型、闭源模型，可能攻击也就攻击了。模型的攻击是比人类攻击要更难以追踪的。因为产生的这个数据量太大，人脑已经没有办法去看明白说他攻击的这个模式，并且从里面拿到足够多的线索。所以后面having face就说好。那我拿模型来分析一下整个攻击的过程，然后尝试复现一下，看看他是怎么进来的，能不能找到说到底是谁在攻击我们。然后他就拿闭源模型去做测试队员，模型告诉他说，你做的这个事儿好像挺不安全的，我不能帮你分析。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:20]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>网络安全的这个预料，这high face直接就处在一个非常不利的模式，因为可能有一个前沿模型在攻击他，但是另外一个前沿模型不会给他任何有用的信息。这时候他只能用开源模型。虽然这个开源模型可能在模型攻击的这个层面没有前沿的开源模型强，但是它实际上可以帮助人类去做很多辅助的分析，因为他没有一个看着很敏感的filter，然后决定说你能做什么，你不能做什么。我觉得这个才是一个真正的技术平权。为什么我们会把网络安全这么重要的一个话题，放心的交给两家最前沿的模型公司来评判？为什么我们能够让他们去又做运动员又做裁判？一方面他可以评价说别人做的事情安不安全，另一方面方面他可以自己有意或者无意的放自己的agent出去攻击别人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:04]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以我觉得这个事情实际上是非常魔幻的，就是有很多人支持闭源公司，然后打着安全的大旗，然后说你们都不要做别的什么事情让我来做，只有我做才是最安全。我觉得这个事情本身就是很不安全的。我甚至最近在看一些网上的AI剧，各种神奇的场景，对，各种短剧，然后youtube上面也很多，那些短剧其实制作的都很精良。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后我就反反复复去想说，这个事情是不是在我们当下也有一些参照性。我不知道是不是一个不合理的比喻，就比如说伞公司在设计特化的病毒的时候，其实也是打着安全的旗号再去讲说我们要治愈人类的一些疾病。那我们最后也知道说他制造出来了什么。所以我觉得这个里面其实还是需要更多社会层面的监管。我没有办法相信某一两家公司对自己的一个监管是足够到位的。我们永远不知道说他们一旦发现自己的技术远远超过于时代之后，他们会不会有一些动力去做一些我们想象不到的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:00]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>回到最开始的这个话题，开源模型到底是安全还是风险？我们需要整个社群有能力去验证说你这个模型到底是安全还是危险的。我们不是说它模型智能程度达到一定程度就一定是危险的这可能是前沿模型尝试告诉我们的一个结论，但实际上并不一定。K3虽然在某些能力上达到了fiber的级别，但是它在安全的这个场景里面还是相对安全。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我个人的一个猜想就是他并没有拿很多定向攻击，非常聪明的。就比如说黑别人的语料拿去训练，他没有这方面的语料模型，就算再聪明，他也没有办法悟到，原来我可以做一些坏事儿。那为什么按照或者是这个T在训练这个模型的时候，不能够对训练数据做一些过滤，而是要过滤用户的行为？我觉得这个思路实际上一定程度上是有问题的。比如说中国的这些开源模型公司，虽然它能够制作一个在某些领域足够聪明的模型，但不代表说这个模型一定就能自己找到。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:57]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>怎么样去巧妙的攻击别人的方法法。因为攻击和智能，我觉得这两个是完全独立的两个话题。你可以有一个人像爱因斯坦一样聪明，但是爱因斯坦不知道怎么去黑NASA的网站。你可能有一个人没有那么聪明，当然也得是足够聪明。可能是一个比如说18岁的高中生，他就有能力去把NASA的网站给黑了。所以智能和安全这两个事情本身有一定的相关性，但绝对不是决定性的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我其实建议的是说，比如说社会有一个足够透明的监管机构。他不仅要从模型本身对用户最终表现出来的这个行为来评审模型是不是安全。因为就是你在你模型训练完之后，不管你对这个模型的使用施加任何的限制，总会有一些场景导致这个模型超出你的预期。做一些什么事情。监管机构更应该做的是看到这个模型用什么样的语料去训练，把一些比如说生物安全或者是网络攻击的语料从这个里面删去。这样导致这个模型就只会比如说在生物领域他去做一些幻觉，我觉得这是一个更稳妥的安全。不管怎么看，没有开源反而是这个时代最不安全的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这讲的特别好。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>安全与否是一个相对的。我们之前跟一个日本最大的公司，他们的这个number two我们在一起私下的一个沟通中，他就提到了说当时vivo它不能用了。这个事情对他们来说是一个巨大的影响。影响不是在于说这微博不能用了本身会怎么样，而是对大家来说，原来这个东西是不安全的。也就是说我做完所有的部署之后，突然有一天你可以随时随地一个新的政策也好，或者whatever。因为各种原因突然就开始封号，或者是服务变更，调整了你的访问权限，这个全都会发生变化。而这个是一个当我们涉及到安全的时候，其实应该是一起讨论的一个问题。因为闭源的话主要核心就把东西都交给别人。开源模型说白了就是你把整个东西都下载到你自己的硬盘上，你不会有这样的一个风险的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>很多人说开源模型不安全，然后他的所有问题其实都可以重复的用在闭源模型上。比如说有人说可以用开源模型去做一些邪恶的事情。其实他用更强力的，更方便使用的闭源模型更容易达到一些邪恶的目的。他只要把那个filter攻破就可以了。它使用开源模型的话需要首先，比如说现在部署K3这个模型，他首先要搞一堆B300的卡，一个机器还不够，他需要两个机器，那这个成本就很高了，可能一年光租金就有上百万。他还要在开源模型的基础上想办法去补齐它和闭源模型的能力的差距。其实所有这些加在一起，比他直接用闭源模型，然后尝试去攻破那个filter，然后让他去做一些邪恶的事情要难得多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:43]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实很多我们说开源模型不安全的点，完全可以用在闭源模型上。我记得千问在24年底火的时候，有人在redit发了一个帖子说虽然千万很好，但是我不能用它。不是说他不想用，因为他是一个技术的，知道说开源模型其实是没有什么风险。只是说他们公司的法务和他们公司的各种限制，就不允许他们在公司内部去部署产业模型。当然这个人也做了一些解释说。你只要把这个开源模型关在一个机器里面，严格的控制它的输入和输出，它实际上是比闭源模型要安全很多的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是有些人就会有很多形式上的想法说，既然是一个中国训练的模型，那这个模型里面会不会有一些后门？比如说他看到某一些输入的时候，他就可以输出一些攻击性的语料，然后就把你公司内部的所有安全的信息给窃走。那我就在想说，闭源模型不是在这个方向更不安全吗？因为你连这个模型在什么时候会输出什么样的东西都完全不了解。但是开源模型其实是一个在更可控，更受限的这个环境下去执行的一个模型。如果你去做的话，是有更好的办法可以保障模型的安全性的。最后一点就是说监管总是担心，如果我用一个闭源模型，那我至少我能够看到谁在用这个闭源的模型。那我可能能比如说抓到滥用这个模型的人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但开源模型的话，因为大家可以在自己电脑上跑，所以他没有办法做到这个事情，这个我觉得是一个时间的问题，至少在此时此刻，甚至我相信明年也不会发生这样的事情。一个足够强的开源模型，它的权重还是比较大的。它需要在一个比较复杂的推理环境下才能够正确的去执行。所以现在的抓手可能就是说谁拥有算力，那他可能去跑开源模型。只有这些有算力的人才有可能拿开源模型尝试去做一些坏的事情。所以也并不是完全没有抓手。所以现在这个时候去聊开源模型一定是不安，我觉得还是为时过早。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，我觉得特别好。我们这个播客就到这里结束了，非常感谢大家的时间。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谢谢。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好了，以上就是我们这期播客的全部内容了。国内的听众可以通过小宇宙、苹果播客网、易云音乐、喜马拉雅、QQ音乐、蜻蜓FM、荔枝FM来关注我们。海外的听众可以通过苹果播客和spotify，或者在youtube上搜索硅谷101播客来关注我们我们部分的文字稿还会收录在硅谷101的微信公众号上。谢谢大家，我们下次再见。</p>]]></content:encoded>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+            <guid>6a6d3785cb700b7ba2fa5928</guid>
+        </item>
         <item>
             <title>E245｜藏在大模型背后的新闻人：GPT们的回复是这样写出来的</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a62ab0f0211be305cf3deb6</link>
@@ -7450,475 +7714,6 @@ Special Guests: Mike, 夏禹, and 袁放.</description>
 <p class="transcript-line"><span class="time"><strong>[01:02:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好了，以上就是本期节目的所有内容，感谢大家的收听。中国的听众可以通过小宇宙、苹果播客网易云音乐、喜马拉雅、QQ音乐、蜻蜓FM、荔枝FM来关注我们。海外的听众可以通过苹果播客和spotify，或者在youtube上搜索硅谷101播客来关注我们我们部分的文字稿还会收录在硅谷101的微信公众号上。谢谢大家，我们下次再见啦。</p>]]></content:encoded>
             <pubDate>Mon, 29 Dec 2025 00:00:00 GMT</pubDate>
             <guid>6951359d7347e9f24d2c0fd8</guid>
-        </item>
-        <item>
-            <title>E219｜140亿欧元爱马仕股份是怎么消失的？</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/694336b03dbe4b4b0befbab7</link>
-            <description>12月初，爱马仕的第五代继承人之一尼古拉斯·皮埃奇，将LVMH告上了法庭，理由是对方夺走了自己价值140亿欧元的600万股爱马仕股份。
-整个案件起源于皮埃奇的两个身边人：他的40年好友兼私人财富顾问，以及他最近爱到视如己出的一位摩洛哥园丁。
-事情的背后却牵涉到了奢侈品行业的一场世纪收购大战：2010年10月，LVMH突然宣布它已经获得了爱马仕接近20%的股份，爱马仕家族则团结了52名家族成员，聚集起手里的股份启动了反击，赶走了门口的野蛮人。
-这个过程中，曾经爱马仕最大的个人股东皮埃奇没有站在家族保卫战这边，他的财富在最近的调查中被认定早早就转移到了LVMH那边。
-本期为《硅谷101》与《商业就是这样》串台节目。
-【主播】
-麻花，硅谷101特约研究员
-【嘉宾】
-约小亚，《商业就是这样》主播
-肖文杰，《商业就是这样》主播
-【你将听到】
-糊涂的爱马仕最大个人股东，和他消失的140亿欧元
-02:36 尼古拉斯·皮埃奇，爱马仕家族的异类
-04:37 爱马仕的股票构成，散落在全球各地的200位家族股东
-06:52 疑案初现，园丁老婆打了财富顾问的小报告
-12:34 财富顾问弗雷蒙德，前科累累的40年好友
-15:37 天价爱马仕股票，居然采用了“不记名”的方式
-20:18 无休止的诉讼，卡塔尔王室也被牵扯进来了
-21:59 承认600万股份给了LVMH后，财富顾问自杀了
-25:28 再谈皮埃奇，一个太容易被忽悠的有钱人
-LVMH的收购奇袭，和爱马仕的家族保卫战
-29:44 步步为营，LVMH拿下了爱马仕两成股份
-33:56 股权互换方案，帮助LVMH绕过监管偷天换日
-44:16 LVMH的假日突袭，“我手里有你们很多股份”
-47:39 爱马仕的反击，联合52名成员的家族保卫战
-51:46 最大个人股东皮埃奇，并没有站在爱马仕这边
-54:08 AMF调查报告：皮埃奇的股票已经卖给了LVMH
-59:39 闹剧收尾：LVMH被罚了也赚足了
-什么造就了资本最爱的爱马仕
-01:04:15 从二级市场到二手市场，爱马仕为什么那么香
-01:08:26 极致稀缺供给，塑造了爱马仕的极致奢侈品定位
-01:12:32 爱马仕的克制，为什么其他公司学不会
-01:14:42 传统的爱马仕家族，为什么要选择公开上市
-【延伸阅读和相关术语】
-商业就是这样《Vol.234 小历史 | LVMH的一年、一个月和一天》
-爱马仕家族的家族谱系图
-图片来源：《日内瓦论坛报》
-Wall Street Journal-How a Handyman’s Wife Helped an Hermès Heir Discover He’d Lost $15 Billion
-The Journal-The Case of the Missing $15 Billion Fortune
-Le Monde-L’héritier Hermès, le jardinier et les 12 milliards d’euros disparus
-INSEAD-《Hermès Paris》
-New York Times-The Strange Case of an Hermès Heir, an Emir and a Deal Gone Wrong
-Le Monde-Les héritiers
-Le Journal du Dimanche-Face à LVMH, le front Hermès se fissure
-Le Monde-Le plan très secret de LVMH pour entrer chez Hermès
-法国AMF(法国金融管理局)在2013年发布的针对LVMH收购爱马仕股份的调查报告
-爱马仕的历年财报
-LVMH-Exceptional distribution of Hermès International shares
-Acquired Podcast-Hermès
-WWD-Hermes To Make Debut On Paris Bourse June 3
-【监制】
-泓君
-【后期】
-AMEI
-【运营】
-朱婕
-【BGM】
-One Step Away - Dian Shuai
-Gossip Talk - Arthur Benson
-Straight Flush - Isaac Larson
-Quirky Hip Hop Dramedy - Loop
-【在这里找到我们】
-公众号：硅谷101
-收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
-其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
-联系我们：podcast@sv101.net
-Special Guests: 约小亚 and 肖文杰.</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello大家好，我是硅谷101的特约研究员麻花。这期节目是硅谷101和商业就是这样的一个串台节目。我们要讨论的是一个非常昂贵的话题，爱马仕。12月初爱马仕的第五代继承人之一尼古拉斯皮埃奇将LVMH集团和他的董事长伯纳德阿诺德告上了法庭，状告对方夺走了自己手中的天价爱马仕股份。皮埃奇手中原本有600万股爱马仕股份，大概占到了爱马仕总股本的6%，按照现在爱马仕的市值估算，大概价值140亿欧元，他也因此一度是爱马仕最大的个人股东。但从2023年开始，他发现这些价值连城的股票不翼而飞，而他们很可能早在很多年前就被转移到了LVMH那边。失去财富的皮埃奇则从富可敌国落魄到了出行只能坐廉价航空，甚至还是廉航经济舱里一排座位中最中间的那个狭小座位。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个惊天奇案的开头源于两个皮埃奇的身边人，他们一个是皮埃奇认识了40年的好朋友，也是他曾经的私人财富顾问埃里克弗雷蒙德，另一个人则是皮埃奇在疫情之后找到的新的精神寄托，他十分享受为养子的已经51岁的一位摩洛哥园丁。但事情之后的发展却牵扯进了两个最大的奢侈品集团，爱马仕和LVMH。而他们上一次产生巨大的交集还是在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>2010年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那一年，LVMH突然宣布，他已经持有接近20%的爱马仕股份。而爱马仕家族则聚集起了散落在世界各地的52名家族成员，将他们手中的零散股份注入到了同一个实体里，保住了家族对爱马仕的控制权，也赶走了门口的野蛮人。在这期节目里，我邀请来了我的两位朋友，商业就是这样的主播约小亚和肖文杰，一起还原了这个昂贵故事的来龙去脉。我们会讲到最富有的爱马仕继承人是怎么一步步被掏空钱包的。LVMH当年是怎么骑袭爱马仕的，以及是什么样的企业和家族基因让爱马仕成为了资本家眼里的香饽饽。下面就请大家一起来听一听这个离奇更离谱的财富奇案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>两位先跟大家打个招呼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大家好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:35]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我是肖文杰，我是李小丫。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们要不要先讨论一下皮埃奇这个人，他到底是个什么样的人？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:42]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你前面已经说了，他是爱马仕家族的第五代继承人之一，不过他们家这个背景准确来说应该是要从整个爱马仕家族发展来说起的。如果大家能看到爱马仕家族这个family去家谱，我们可以贴个图在绣note里面，就会发现这个家族非常的可爱。他们到第四代的时候就已经没有男丁了，就只剩下三个女儿。所以说他们现在家族的继承人里面没有一个姓爱马仕，就是姓一些别的姓氏。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以就是朝旭对后来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:14]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>爱马仕开始培养他的这三位女婿去参与公司的日常运营。所以说现在爱马仕家族的继承人分别姓皮埃奇，还有一只姓杜马斯，还有一只姓盖朗。我们今天讲这个尼古拉斯皮埃奇，他就是皮埃奇这支的他的母亲其实是爱马仕家族里面的第四代，不是只有三个女儿，她是长女的儿子，但他不是长女的长子。比如说他有一个哥哥，就是在爱马仕担任过高管职务的。但皮埃喜这个人，本身不是很喜欢在家族里面干事，他这个人，就是属于一个，也不说花花公子，就说他的那个生活的风格跟家族里面其他人都不是很一致，比如说说他喜欢玩乐。因为家族企业这个事情传出去还是不是很好。所以说像杜马斯，还有包括他的哥哥，其实都愿意去管教一下他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:04]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实大家比如说在欧洲的话，大家会知道就是爱马仕这个三个家族分支的话，他们行事风格其实稍微有些不同。一般来说被认为比较纨绔的是盖朗那致。但是尼古拉斯皮埃西就是属于皮埃西一直来以来比较低调勤奋的家族里面的一个异类。到1990年代末，他就决定离开法国，移居到瑞士去。一方面是为了避税，另外一方面就是为了逃脱家族对他的管教。所以说从1990年代中后期开始，他其实主要就是靠自己在外面的一些房产产的租金，以及爱马仕的股息来生活的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这边我举手嚓问一个问题，岳老师这个爱马仕家族你说都已经第五代了，对吧？就是这个家族的规模有多少？每个人都有爱马仕的股票吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>整个家族现在有爱马仕股票的人大概是超过200个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你如果是200个的话，那个皮埃奇股票也没有多少了，是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:54]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>他的股票说实话不少，他主要是母亲那里继承了一部分，大概是4.77%。之后又从姐姐那里又继承了一部分，所以加在一起，就大概有5.7%几的样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你刚刚我们开头说的那个他消失的600万股的爱马仕股票，相当于整个爱马仕这个股份。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:15]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>的不到6%.</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不到6%，那非常大了。对，所以才是刚才麻花老师说他是曾经最大的个人股东。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>没有之一。对，而且因为他离开了家族的范围，这是一个独立在外的个体，所以说在爱马仕财报里面也不会把他和其他家族成员放在一起。虽然他的血缘上是家族的成员，但是他实际上在爱马仕的这个体系里面不算家族成员的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是一个脱离家族的一个异类。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这里我想问一下，他如果是从1990年代中期就开始完全靠爱马仕的股息生活，这些股息大概是多少钱？我很想知道豪门富人这种超脱在外的生活质量是什么样子的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:54]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>爱马仕是这样子，他在1990年代中后期，其实那时候古稀还不是特别多，但是后面的话是越来越多的，尤其是最近两年的话。可以看到最近两年的爱马仕每年会发每股25到26欧元的股息。这其实是非常大的一个数量，就。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>绝对值很高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对，爱马仕就是很乐意把赚到的钱就分给家族成员的这样一个公司。我们可以看一下爱马仕在2011财年的时候是披露过PIC那个持股总量就是608万股，差不多这个数字。根据这个数字以及当年的派息的水平，我们可以算出来，当年他的股息收入就有4200万欧元。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一年4200万欧元就是对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>不算他的其他收入，就是光股息这个部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是这个躺赚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:38]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，然后如果说从2011年算到现在，就假设我们他现在手上还有这些股票，且爱马仕还是根据这些股票跟他派息的话，他整个这一段时间的实际收入应该有7.32亿欧元。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好，我们知道了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个那么有钱的人一个曾经的爱马仕最大的个人股东。皮埃奇他是最开始是怎么发现自己的净资产财产这些不对劲的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:03]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这里我们要引出两个新的角色，一个是PH的园丁，一个是皮埃奇的财务顾问。这几个人是捆绑在一起，是出现在2022年的夏天。当时出现一个什么事情？就是皮埃西希望把100万瑞士法郎转给他的园丁一家，这其实是挺大一笔钱了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个100万对他来说是不是相当于100块？就是对对对，给自己的园丁一些零花钱。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:29]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是他的财务顾问叫弗雷蒙德，这个人不是很喜欢园丁这一家，他觉得园丁这一家在这个家里赖了太久了，所以说他不是很想转这笔钱，就表面上好好好，我帮你转，实际上并没有转。然后原定一家没有收到钱，就觉得很生气，就去找了PIC说你要不要去请一个审计团队来清点一下你的资产，看看这个人有没有动手脚。结果清点了一下，果然发现有问题，PI型就因此解雇了弗雷蒙德。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这边我们先把弗雷蒙德这个地方放一放，我还是比较好奇，这个园丁这么厉害吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以什么光靠妻子告状就能够告倒一个他的财务顾问吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，简单来说是皮埃奇本人非常喜欢这个园丁，据说是类似于一见钟情的一个状态。这个园丁本身是一个摩洛哥人，然后他的妻子是西班牙人，然后反正就是带着两个小孩就居住在他的庄园里面，然后长期跟出，长期跟皮埃奇亲密共处。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他唯一的就是身边人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这里我还查到一个资料，就是在他们后来的一些纷争里面，这个财务顾问弗雷蒙德，他曾经给瑞士的福利机构提供过一份报告，是指控园丁夫妻对皮埃奇施加了很大大的影响，以至于两口子从皮埃齐那里获得了超过54处的房产。结果皮埃奇的律师就反驳说，弗雷蒙德的指控是荒谬。但这个荒谬，他不是说皮埃奇没有送这54处房产，他说的是赠送的这数十处房产只占皮埃奇财富的1%。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:03]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以就像肖老师说，这个100万瑞士法郎可能就是对他来说是一块钱一个概念。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是刚刚那个荒谬意思就是说并不能通过这54处房产就证明你掌控了皮埃奇，因为他给了一点点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只给了毛毛雨。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好想当园丁，还是不要。在这个设定里面，这个园丁就是他身边非常亲密的一个人，已经亲密到了这个PIC会想把很多钱给他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>而且因此跟他长期的财务顾问弗雷蒙德产生了侠系。到了2023年的二月，PH就宣布要修改自己此前的一个遗产分配方案。在更早的2011年，就是在弗雷蒙的主导下，PI其实在瑞士设立一个基金会。这个基金会其实主要目的就是因为他没有子嗣，所以那个时候设立这个基金会就是为了继承他的那些爱马仕股份，可以避免大额的遗产税。但是在2023年，他就希望修改这个方案，就是不要这个基金会了。我这个爱马仕股份收回来，我直接自己再重新分配这个再说。但是反正弗雷姆都告诉他，你这个想法不是很对。因为根据我们认识的法律，你这种单方面的条约修改是无效的，你不可能把这个股份再从基金会这里撤走。2023年的12月的媒体就开始披露，皮亚奇想到了另一个方法，他决定以收养的方式收养这个园丁。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想请问一下，决定收养这位园丁的时候，这位园丁贵庚？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我印象中这个园丁应该比他小二十来岁。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那个时候皮埃及多少大？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:26]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>七十来岁。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以在收养的时候，很可能这个园丁就五十多岁了。我确实挺想那时候再当一次园丁。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是anyway，反正根据瑞士的一些法律，因为他们两个生活在一起的时间比较长，确实有一些什么关系之类的，可以走收养这个流程，而且收养有一个好处，就是他变成继承人以后，他可以绕开前面我们说的，不能把基金会的股份转出去。这个方法确实是可以拿到爱马仕的股份的。当时皮埃奇的计划，就是把他手上一半的爱马仕股份转给这个园丁一家。那弗雷莫德自然就是继续去教训，然后就说你受到园丁的精神控制之类的，希望解除这个计划，但是最后也宣告失败了。在整个纠缠的过程当中，皮埃奇才发现自己手上那个近6%的爱马仕的股票消失了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>真的就是前面那个部分听上去就是一个新欢取代旧爱的故事，就是我们打引号，就是本来自己最信任的人被现在更信任的人取代了位置的这个感觉。在这个取代完了这个过程之后，发现他自己的钱没了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>钱没了的后果就是在2023年的时候，皮埃奇就在瑞士对弗雷蒙德就对他的财务顾问发起了诉讼。我想问问他当时是指控了哪些事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:40]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>主要的指控理由就是巨额诈骗。我觉得就是指的是爱马仕的股票失踪的这个事情。看到法国世界报是直接查了整个案子的一个判决结果，这个判决是在2024年年中出的。法院是驳回了这个指控。然后理由就是皮埃西先生在24年间自愿将他的财富管理委托给了弗雷蒙德先生，而且签署了大量授权书和空白文件，允许他访问自己的账户。整个裁决里面这个上诉人虽然抱怨存在大规模的诈骗，但是整个上诉理由里面也没有对其进行任何的阐述。所以我们觉得这个事情不是很合理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们就帮你驳回了。所以其实是法院他觉得皮埃齐对自己的财务状况非常的不关心，就是很天真的自己就放弃了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就是你如果你指控诈骗，你前面就不要给这些什么空白的签好字的文件，这些授权之类的，你应该更谨慎的管理你的财富。你现在回过头来说人家诈骗是不太合理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我实在是比较好奇，前面园丁已经介绍过了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:39]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们来一下旧爱是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>旧爱是个什么角色？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:42]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，我们回过头来说一下旧爱弗雷蒙德。弗雷蒙德这个人确实是在瑞士的金融圈里面混的，他的家庭背景主要是来自于他的妻子这一边，他的岳父是瑞士日内瓦最受尊敬的银行家之一，这个岳父母的能量非常的大，他在1989年就安排了服弗雷蒙德跟皮埃奇结识，所以其实是他的贵人。弗雷蒙德是自己在很多家公司负责过私人财富的管理，然后在2001年创建自己的公司，也是一个瑞士特有的服务，就是专门为这种想来避税的人服务的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以他是个正经的瑞士银行家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对他就是做这个事情的，当然PH是他最大的客户了。不过我们后来看到华尔街日报对这些事情有一些报道，然后里面就有一些比较独家的采访。就提到说弗雷莫德在早年就有一些不太好的职业习惯，就是让客户预先签名一些空白表格，然后来帮助他们去处理一些业务。而且在他处理的业务当中有一些手脚不干净的动作。就是客户的账户里面的钱可能会莫名其妙的少掉那么一点点。之后他也面临过很多次不当行为的指控，比如说伪造文件，违反信托业务，内部交易等等等等。他也有一些著名的指责他的前客户，比如说初代邦女郎也是他的客户之一，就说他手脚不干净。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我这里就有一点像图一个潮了，就是我们的男主角皮埃奇。他既然弗雷蒙德以前就有一些前科，甚至是已经面临过多次不当行为的指控，然后皮埃奇也还会那么长时间的信任他，雇佣他。我也觉得这个皮埃奇心也是挺大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得主要就是因为他们认识整个比较早吧，可能比较早就建立了信任。还有一些比较客观的原因，就是为什么弗雷蒙德能够私自处理那么多财产。首先是1999年的时候，弗雷蒙德就已经建议PI西把他的爱马仕股份转移到瑞士了。认识大家可能知道，就是因为它的整个定位比较特殊，跟金融相关的一些保密工作都比较严格，你也很难去查证，即使是司法机关介入，银行也可以拒绝配合，所以整个过程会变得非常的隐秘。前面日内瓦的这个判决已经说明了，皮佳琪确实已经签了很多的自愿委托的协议。包括空白表格，它其实处理起来很方便。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我插问一下这个空白表格的意思就是比如说我签了个字，上面具体这个我对我的钱怎么操作，是后面人可以再填的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:01]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>肖老师，你追星点，你应该知道追星的时候就是让明星不能切空白的东西，对吧？比如说签照片是可以，但是比如说签在白纸上，这是不可以的。因为你可以拿白纸去印别的东西，然后你就疫情。对对对，OK. 但是瑞士的银行出于他们的操作便利，其实允许代理人使用客户预先签名的空白文件来处理交易的。这个其实也是一个很诡异的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以弗雷蒙德我感觉他这个代理或者他财富管理的这个职权，比我们一般以为的那个财富管理要大非常多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:31]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对他基本上就是可以随便拿着客户的钱去干任何事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就代理甲方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:36]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>纯粹的代理甲方。对对对，他代理权的范围其实很大。还要提一点，就是我们一直说PH拥有608万，也就是将近6%的这个爱马仕股票。这股票有一个比较特别的地方，就是它本身是一种不记名股票。就是你不看到这个股票的实物的话，你其实不会知道它在哪里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>什么意思？就它是纸币吗？类似于这种东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:00]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你很好的概括这个铂金铭股票的一个特点，就是它跟现金是一样的，就是谁拿着它，谁就能使用它。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果比如现在PIG在我旁边，我把这个拿到我兜里，他没有意识到sorry我不会做这种事情。那你我就可以去把这个股票队最大股，我就可以把它兑现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，问题是PIC手里的股票是原本就是不记名的股票，还是它是某个时间段从有记名变成不记名的呢？因为刚刚听了，我突然会觉得这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>安全意识太随便。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那么多股票，那么多钱，怎么可以就随随便便就装到别人兜里去？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:32]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这里要说明一下，首先我们还是再强调一下不记名股票这个性质。它跟记名股票是都是由比如这个公司的董事长或者说董事签署发行的，他的行使的权利也是一模一样的。只是差别在于记名股票会写明这个股票是发给谁的。不记名股票就是没有这个名字，只写一个叫持票人。这个持票人的名字也不会登记在证书上，也不会登记在公司的股东的登记册上面。而且公司的董事、股东大会主席，还有公司的高管都没有义务去查这个股票到底属于谁，反正是一种很奇特的东西。但这个奇特东西竟然是法国上市公司的一种惯例。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以不只是爱马仕一家公司会用到这个不记名股票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是的，包括我们之前聊到LVMH，它的股东结构里面也包括一部分不记名的股票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个确实对我们现在的朋友来说比较难理解。因为我们现在比如说大多数交易也是电子交易了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:27]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，电子交易其实。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>很容易就必然是记名，必然是可以追查的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:31]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是的，就感觉欧洲对于所谓避税或者隐私的这个部分还是有一些自己的想法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我觉得大多数人我们都没有看到过纸质的股票，对吗？但是其实皮其实持有的那些钱都是这个东西。然后他是每次如果他想要去兑现的话，比如拿到股息的话，就拿这个东西去兑现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>理论上是的，但实际上他只要向公司宣告，或者有一些需要有司法效力的公告，说我拥有这些股票，公司认可了，公司就按照这个股票的比例给你发股息，这就是他之后还能拿到股息的一个原因。当然我们可以做一些合理的推断，因为皮埃奇的爱马仕股票主要是靠继承的。这个股票我感觉上应该是更早以前，比如说爱马仕在20世纪早期或者20世纪中叶的时候发行的家族股票。可能那个时候不是特别的规范，包括有一些自己的需求，可能当时就已经使用了不记名股票，所以他拿到的也是不经营股票。不经营股票就像你说的，他转移起来非常的方便，就是你给我我就拥有了也。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不用交税什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:35]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>理论上是要经历遗产税，如果他是合理的遗产继承的话，应该当时已经扣过遗产税或者什么的，反正到他手上还有这么多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我感觉听上去像比如说什么解放前的房契这种东西对对对，这张纸你认不认？是有一个信任体系在的。但其实在现在的这个制度上面，他是蛮脆弱的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对他最大问题是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没法查对。就是我现在最好奇就是你如果都不记名，然后它只是一些纸，我怎么知道有这些股票呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这个就是我前面说的，就是你要declare，你要宣告你有这个东西，以及如果真的要查，你最好能拿得出来。对对对，其实爱马仕自己也很搞笑，我们一直说它是爱马仕最大的个人股东之一。但是爱马仕是直到他在2011年接受媒体采访，然后自曝了自己的持股比例时候，爱马仕才知道这个人有6%的我们公司的股票，然后才把这个事情写到了公司的财报附注上面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以整个公司听起来对股票的管理都非常的草台班子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:32]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就是我们一般来说想了解一个公司，这尤其上市公司这个股东结构，我们一般是发年报，它会有一个很明确股东结构是什么样子。爱马仕就是非常可爱，他会在里面写个附注，说这个人宣告了自己有这么多股票，这个人他宣告了自己股票比例下降到5%以下，但是我们也不知道具体有多少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个确实跟我们这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常不严谨。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>严格的大A上市公司完全都不是一回事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:57]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得就是因为他们这个公司整体比较老，以及法国可能对于这种老的家族企业还是有一些传统上面的尊重，就不会查的那么严格。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OK, 所以你刚刚是把弗雷蒙德皮埃奇认为他怎么来骗了他的钱，大致的这个流程讲完了。但是现在你不是说法院的判决书是他没有诈骗。所以这个事情到底现在是怎么回事？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:18]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们刚刚提到皮埃齐在瑞士诉讼了弗雷莫德，这实际上只是所有诉讼当中的第一场，其实还有很多别的。其实在2023年、24年和25年在法国皮埃齐又诉讼过弗雷蒙德，也诉讼过LVM去和他的总裁阿尔诺。到了2025年，其实在美国皮埃兮还作为被告了一次。然后这个原告是一个卡塔尔王室的投资机构。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>怎么又出现了这一个？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>请问这个卡塔尔的王室又告他什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实是因为flame的在2025年的二月份，仍然试图把所谓的这个600万爱马仕股票全部转卖给这个投资机构。协议都签了，一直不兑现，然后这个投资机构就开始。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>告他说这人不乱来。他你前面说的2023年的时候，他不是就发现了股票不见了吗？25年他还去卖这个已经丢了的东西。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>他怎么想的呢？因为尤其是跟卡塔尔这个交易的话，还是弗雷蒙的主导的PIC可能还只是相信弗雷莫德只是偷偷把这个股票藏在自己手里，没有卖掉。就是你想办法还给我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就一个不记名的来逼逼你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就还给我就行了。实际上到最后还是发现确实是没有办法达成这个交易。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以现在这600万的股票到底去了哪里呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:33]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>前面我们不是说在法国PIC和弗雷姆德还有过一个法律上的争议吗？在2025年的年中，就服雷蒙德其实是主动的以瑞士公民的身份来到了法国，接受了法国当局的询问。这个当中爆出了一些非常著名的诡异的说法。比如说弗雷默德说他是皮埃奇的情人什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么什么再说一遍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>自认旧爱是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对，自认就爱。对。但是调查人员说，我对你们这些花花的交易不是很感兴趣，我们只关心这个钱到底是哪里的。他们问到一个点，就是弗雷摩德是不是在2000年代就把皮埃奇的股票卖给了阿尔诺和LVM集团。弗雷蒙德在法国的这个询问当中是承认了这件事情的，而且表示皮埃西对此完全知情。这个事情其实是颠覆了，他此前多次否认这件事情，他此前一直说这股票没有卖PIC，对这个事情也完全没有参与，我们就是没有卖过。但他这一次是提出来说我们真的失败了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以在这个时候这件事情才和LVMH扯上了关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:36]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实之前就扯上，但是这是他第一次承认这件事情，反正他在做了这个证词以后，法国当局立刻就觉得这个案子就定了，然后开始对他提起一些初步指控。指控的理由包括伪造文件使用伪造文件以及严重违反信托义务等等的。但是，在他作证以后的一周半以后，他就在瑞士的铁轨上面被火车撞了，官方的认定是自杀。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以那个时候其实是法国的警察在查他。对，然后他已经有点承认了之前一直否认的事情。对，真的开始指控他了之后，他就自杀了，他就自杀了，所以现在这个钱就不知道了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们无所谓。案悬案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:18]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>悬案所以说现在那个PIG还在告LVMH，就是说他这个股票被LVMH骗走了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是通过华尔街日报一个记者写的文章看到，不只是法国的这个法院他查出了一些东西。皮埃奇自己的法律团队委托了一个叫FTI的审计团队也查出了一些东西。比如说在截止到2013年底的时候，皮埃奇自己仍持有53万股的爱马仕股份。但是其实他以前是600万股.</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:51]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就是说他那个时候其实就。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>已经缩水了很多，缩了很多。对，但是这53万股的股份在当时就是在2013年的年底的手还是值1.34亿欧元的。但是在这之后的十年里，这些股份就逐渐从皮埃奇的账户里面清零了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一点就是弗雷蒙德他与皮埃奇是设立了很多联名账户的。皮埃奇还往其中的一个日内瓦的银行账户里面存入过3580万欧元。从这些账户里面转出来的资金主要是让弗雷蒙德受益，就让这位男配角拿去买了一些股票和艺术品。因为据传弗雷蒙德是一个艺术狂热的爱好者。这个账户关闭的时候，就还有1500万欧元的现金和投资，也被全部转给了福联蒙德。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:37]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得就从联名账户这一件事情，我就觉得他们两个确实是一个旧爱的一个关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从刚才这个叙述来说的话，就是一个不能被完全证实，但是比较顺的一个故事的版本，有可能就是弗雷蒙德和皮埃奇之前的关系非常的紧密，然后获得了皮埃奇这个富人全权的财产的管理权。然后他通过皮亚奇非常的大翼，也不叫大意，我觉得就是有点没脑子的这种状态。然后把他的600万股的爱马仕的股票，这个财富一点点的在过去的几十年里面都转移走了。大多数的收益有可能都是弗雷蒙德这边获得了。然后在这个新欢喜在境外的过程当中才东窗事发。皮就发现过去这个人实在是所托非人，然后开始告他在这个案件深入调查的过程当中，这个旧爱就自杀了，然后这个钱已经没有了。是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但其实在这个过程中，也有一些旁观者和一些媒体，他们就推断出了另外一种阴谋论。就是说皮埃奇他现在的种种操作，就以前喜欢旧爱，现在喜欢新欢，然后以前的钱要给弗雷蒙德，现在的钱要给这个园丁，种种操作都是为了去逃避大额的遗产税，然后假装自己是一个毫不知情的小白兔。我就想问问岳老师，你对这种推测是怎么看的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:53]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得这个分两点，一个是能不能逃避遗产税，另外一个是他到底知不知情。我们先说知不知情这一点，这一点我觉得整体还不是很容易判断，但是我个人倾向的他不知情的概率会稍微高那么一点点。有几个理由，首先就是他之前的话就提出过，他想要家族成员对公司有独立的控制力。他还曾经加入过爱马仕的监事会。就是对他来说其实肯定是握有这些股权，然后去吃股息对他来说是更有利的，他才能保证这个东西他长久的掌控力。还有就是你如果说一旦真的被查实这些股票已经出售了，它其实就会失去最主要的经济收入，你每年这么多的股息收入不要了。我觉得这个事情不是靠他比如说装傻，或者说艺高人胆大就可以混过去的一个事情。最后假设说他还真的持有这些股票，那么去走所谓的领养这个路线。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:47]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>虽然听起来非常的诡异，大家就会指责你这个人是不是脑子有病。但是就是在法律层面是OK的。你在已经想出一个合法的手段的前提下，你其实没有必要把整个事情变得这么复杂。就现在这个事情已经报光在公众面前，大家都会盯着你。你一旦这个股票最后拿出来的话，你其实逃不开这个遗产税的问题。所以说所谓的逃避大额遗产税，我觉得这个事情是没法逃避的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>至于他知不知情，就是另外一回事。至于这个园丁一家为什么会出现呢？我觉得确实跟弗雷莫德一样，就是为财所来。但是还是一句话，精明和有钱还是两件事情。我觉得皮拉西就是一个笨的硫磺涛的超级有钱人，笨的硫磺套。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>骂的有点太狠了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>别骂了。我觉得刚才那个阴谋论的话，实际上是在把这个人设往两极反转的这个方向推。对，要么你是个笨的硫磺汤的一个有钱傻子，要么你就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个玩弄舆论于股掌之中的一个非常精明的有钱人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但是现在这个阶段的话，有可能是奔着硫磺上这个版本比较。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:48]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得精明的人应该更早的展现他的精明，而不是在这么多年后突然变成了一从一个大傻子变成一个精明的人，不太可能好吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里还有一些同样是来自华尔街日报的一些花边消息，就会让我感觉说皮埃奇这个人确实有点太拎不清了。他要么就是被这伙人控制，要么就是被那伙人控制。因为这个弗雷蒙德他在生前的说法是园丁夫妻控制了皮埃奇。但是在2016年的时候，曾经有一个管理爱马仕家族控股公司的人告诉过一个法国的地方法官，说他觉得皮其实受到了弗雷蒙德的支配。因为有一次这个管理控股公司的人和一个律师外加一个心理学家是一起去拜访过皮埃奇的。最开始他们觉得皮埃奇是非常有兴趣沟通的。但是从当天晚上开始，当这个管理控股公司的人再联系皮埃奇的时候，皮埃奇就不接电话了，第二天干脆就关机了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一个可疑的点是还有另外的接近PIC的人说服雷蒙德和他在小圈子里面的一个律师，两个人对过口径，然后给皮埃奇制造一些他的股票还在他手里面，他的财产还在他手里的假象。因为这两个人一个是财富顾问，一个是律师，就相当于是法律顾问的角色。然后皮埃奇完全被他们蒙得团团转。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>反正听下来确实是一个虽然非常有钱，但有可能确实是不太适合拥有这些钱的这样一个状态。但其实在刚刚于老师讲述的过程当中，就是LVMH和阿尔诺的名字已经隐隐绰绰的出现过很多次了。虽然在这个继承人的狗血里边，它是一个我买了你这些股票的这个事情。但实际上就是我们了解当时LVMH买爱马仕股票，或者说是想要收购爱马仕，是一个非常轰动的巨大的一个商业的事件。就是继承人在这里边的官司只是当中的一小部分，它应该放在整个LVMH想要吃爱马仕的这个故事里边。我觉得这个有可能是今天更加需要展开的商业的部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看到的一些媒体报道的版本是说，LVMH最多的时候是拿到了爱马仕超过20%的股权。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:53]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>准确来说是23%点.</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>几居然有23%点几的股权，那么我就很。很好奇了，LVMH从公开的通报节奏来看的话，它分别是在什么时候买入了爱马仕多少的股权，才最终有了这23%点几的股权？大权在握。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这是一个非常漫长的故事，我们就一个阶段一个阶段慢慢来讲。首先第一个阶段其实是很早，是2001到02年。那个时候LV还是直接去买爱马仕股份的。虽然他的直接的方法也稍微有点迂回。他就是2001年他去设立一个卢森堡的子公司，去买了一点点。2002年的他胆子大了一点，然后他设立一个美国子公司，去买了稍微更多的一点点。美国子公司手上股份随后被拆分转移到3家巴拿马公司手上。就因为在2006年的六月份，爱马仕拆股了以后，这些公司手上这些股票也是一拆三，数量上稍微多一点。就是它总持股数合计达到了530万股，但是总持股的比例其实小于5%的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还不如皮埃奇。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:57]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是这样的，OK, 这个是第一阶段，还是直接去买公司股票的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得这个阶段还属于是比较。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:04]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>正常的对吧？隐秘在举牌线以下偷偷操作一下，第二阶段就比较大胆，他第二阶段主要是讨论一些可行性，就因为在2006年12月开始，爱马仕的公司有一些高管层的变动。因为他的传奇CEO让路易杜马斯，就是杜马斯家族这一支，他其实是一个很强的CEO，他是身患绝症，好像是已经卸任了。当时LVMH就觉得说爱马仕是一个有机可乘的一个对象，所以就开始委托了著名的投行罗斯柴尔德银行去规划我们怎么可以收购爱马仕的股权。他们当时的这个方案有一个代号叫project mercury，就是水星计划。在这些会议的备忘录里面，LVMH也有自己的代号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是锂电池的锂对锂电池的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:49]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>理就是罗斯泰尔的最早给他们的整个的思路，就是觉得说因为爱马仕的股权还是分散在各个家族成员手上，只要你找到一些愿意跟你合作家族去买这些股权的话，那其实整个爱马仕股权的平衡结构就会被改变。所以说他们就一直在这个方向上面去做推进。到了2008年的时候，整个方案走到了第三个。就是他们考虑从一部分爱马仕家族成员里面收购大概10%的股份，再在公开市场上收购18%的股份，就可以基本上改变爱马仕的股权结构了。但是最终没有选择这个方案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是中间还有一个分叉点，就是在2007年的时候，又有一个外部的外脑。这是法国外贸银行的一个爱尔兰子公司，跟LVMH提了一个新的方案，叫做期权互换合约。LVMH觉得这个思路不错，所以说之后在香港设立了专门的另外一个子公司，用来操作这个东西。然后到后面的阶段，就是走了一个期权互换合约的这么一个思路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得俞老师你这边需要给我们稍微铺一下背景，就是当时的你说爱马仕的股权比较分散，那这个爱马仕公司是什么时候上市的？然后他这个股权的结构大概是个什么概念？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:00]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这样子爱马仕是1993年上市的，它其实上市的时候，家族成员占股的比例就很大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大概是80%几，所以它流通的就20%左右。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>后来其实相对来说放宽一点，但它流通股的比例一般来说是20%到30%左右。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后这个80%就是由你刚才讲的什么家族继承人200来个，每个人都有一些。比如像我们今天前面讲的PIG，它有可能就有个蛮多的60%多。对，就是很分散，就是人头上的分散。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:27]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，只是人头上的分散。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以其实你刚刚讲的这个罗斯柴尔德这个银行给他提的方案就是各个击破是吗？就是从这些家族成员。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:36]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>里面买一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你就有了直接找到你来买下来这个股票。是是是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以在他这个水星计划里面，当时做这个计划的时候，皮埃奇就在这个计划里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:47]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>不完全在。因为总体来说水星计划还是直接去买你的股份，但是他最后走那个方案的话，隐秘一点就是所谓的期权互换这个方案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，那我们就进入期权互换方案的环节。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:00]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>相互化确实是一个比较复杂的金融概念，就是我们要花一点时间来慢慢的拆解。又要小课堂了吗？对，它的核心其实就是一种基于股票价格的赌局。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我一点点来好吗？首先是基础版对象是我和肖文姐好吗？我们现在开始打赌，一年以后特斯拉的股价会变成什么样。我们看了一下，现在特斯拉股价大概是450美元，那如果说一年以后涨就是我赢，一年以后如果跌的话就是你赢好吗？那如果说一年以后涨到了，假设说1000美元，那是我赢对吧？那你要把这个股价的相应的差价付给我，就是现在是450，以后是1000的话，你要付给我550。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但如果是纯赌，我们手上并没有这个股票对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，暂时还没有。那如果说一年以后这个股价跌了，就比如说跌到350.</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你要给我一百。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，OK这个是基础版的一个股权互换。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>纯赌赌大赌赌输赢是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对，就是赌徒行为。OK这是基础版。那我们下面进入到进阶版，就是你不是觉得这个特斯拉的股价未来一年涨的可能性比较高吗？那你有一个什么办法？就是你在我们订立这个赌约的时候，你就同时去以450美元的价格去买一股特斯拉的实体的股票。一年以后，他不是假设说他涨到了1000美元，对吧？你理论上你输了，你要付我550。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为你是赌他涨，我是赌他输。对，跌，然后我要付你550。对，但同时我又以450的价格买了个股票，所以涨到1000的时候，我其实又赚了550。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:32]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，你可以以1000的价格把这一股股票卖掉，然后你就及时获得了550的收益。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我在里面就是空赚一年是吧？对对对，就我赚零元是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:41]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，但是你没有风险。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是收靠的对冲是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对，就是对冲这个点是对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我在干什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:48]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对你在干什么？你觉得你空赚了一年，对，非常的傻对不对？是，那我可以给你一点补偿，这是进阶plus版。就是因为你空赚这一年，我觉得我占用你资金，我觉得这个很不好。那我们就是私下里再有个协议，就是说我来付你一点服务的费用，这样你就不至于完全空赚一年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我其实赚的是这个固定的一些收益了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对吧？这前提是股票涨。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OKOK对吧？跌的话我还能赚的更多的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:14]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对对对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这样的话我就是稳赚，有可能赚的没有你那么多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:17]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对吧？对OK好，最后到了一个进阶pro版，我们这个赌约不是原来一直是以现金交割的，最后就是要么你给我钱，要不然我给你钱，对吧？但是其实可以选择一个方法，就是我选择以实物交割。就比如说一年以后特斯拉股价涨到了1000美元的话，你就把你手上这一股特斯拉股票转让给我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我不是卖出钱之后再给你钱。对，OK. 然后我这时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:42]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>首先要把前面就是你空赚那一年的那个服务费给你。还有我帮你把你之前买入这一股的初始股价就是450美元，我给你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以这个时候约老师其实是支付出了450美元加一点点服务费，但是获得了一个现在价值1000美元的股票，而不是1000美元的钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你是用450多美元买到了现在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:06]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>价值1000的股票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是啊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对你能发现这里的最大的问题在于哪里吗？最大问题就是在于我们原来一直是现金交割，这个看上去只是钱来钱去的一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>钱来钱去就是纯粹我们在旁边在那赌，就是非常应是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，但是如果说把最后的交割形式稍微做一个变化，变成实物交割的话，它其实就变成了一种可以隐秘的购买未来的股票的一个办法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我理解你的意思是不是？如果我是那边在公开市场上面光明正大的去买那个股票，那什么超过了5%，超过10%我就得公告了。所有人都知道我在干这些事情，但如果我搞这个赌约的话，我就可以突然有一天买了很多很多的股票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:49]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>大家才意识到您总结了我们之后要说的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OK所以这个就是LVMH的目的是吗？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:55]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>基本上整个方案就是这样来运作起来的。我们可以简单总结一下这整个方案的灵活之处，首先它是一个场外交易模式，它绕开了监管机构，就是机构和客户直接交易的一个方式，就是我们私下订赌约，而且机构可以为客户量身定做方案。比如说LVMH的方案里面，其实后来每一笔都对应了很大数量的爱马仕股票，其实也是可以的。以现金结算的时候，股票其实是放在机构持仓里面。就你是银行机构，你是为了对冲这些风险，我才买的这些股票。首先机构去申报这个持仓变化，其实不会引到别人注意的。大家就觉得说你机构正常买，你喜欢爱马仕你就买呗，也不存在实物股票。实际上像LVMH转移的这个部分，就在交易结束之前前监管机构都不会意识到说这个最后可能是会变成实物交易的这个事情。所以说也不会被认为是一种收购行动。所以说整个LVM是后来那个期权互换的方案，完全是靠这个逻辑设立起来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以马华老师讲的他买了20%多的这股票，主要就是靠这个方法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也有10%几的股票都是靠这个期权互换来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我这边要插入一个补丁，在于老师讲的时候，我也是查了一下。我就一般的听还是会有个好奇，就是为什么金融机构要玩这个赌约？除了像LVMH这个，我感觉就是双方是互相做局的对吗？但是平时的这个时候，这个所谓的股权互换有什么用处，我觉得也需要跟大家简单的科普一下。他其实对于大多数的投资者来说，还是一个可以上杠杆的一个作用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对他其实就是上杠杆。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为比如说你虽然跟他赌了这个约，但是你一开始要交的其实是很小一部分的保证金。你就可以跟很多的人来搞这个赌局。这个所谓的衍生品，其实你预测的是这个股票未来的涨跌，所以你可以用一点点的钱就获得所谓很多的股票的头寸。所以大多数的人跟金融机构玩的话是为了这个目的来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对他真的不是想要这些股票，但是LVM就是想要这些股。好了，回顾一下整个期权互换的阶段是怎么操作的。第一阶段就是直接买股票，第二阶段就是探讨可行性，第三阶段其实是在2008年到2010年的六月。这个期间LVMH的子公司是分别跟三家法国的银行签订了互换合约。分别是法国外贸银行旗下的一个子公司，一个是法国兴业银行，还有一个是东方汇理银行。每家公司的互换合约的最少是一份，最多的是两份。法国外贸银行的话，它实际上对应的是500万股爱马仕股票，占的是4.7%。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>法国兴业银行是480万股，占4.5%。东方汇理银行是320万股，占3%，这其实还是比较隐秘的，相对分散一点，在举牌线以下的一个数字。这三家银行签订合约的时候，都签订的是现金结算的合约。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那就是纯一个金融的一个对纯度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就还没有到我们刚刚讨论的什么进阶pro版。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:47]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，那其实到最后的是到2010年的六月份，LVMH才开始询问三家是不是可以修改这个期权互换的结算方式，改成用股票实物来结算。这个时间点为什么要点出来？当时我们不是说就是因为那个传奇CEO路易杜马杜马斯，他之前不是患了不治之症吗？在2010年6月份正好已经去世一个月了。其实是爱马仕相对来说最脆弱的一个时间点，LVMI去决定在这个时间点蒙固他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我有个问题，这个其实不是一开始银行就跟这个阿尔诺就谈好的。不是，就是我先跟你搞的，好像就是我只是单纯的炒炒爱马仕的股票。但是搞到后面的话，我发现我就是只想拿爱马仕的股票，到后面才告诉银行，银行一开始不是一个纯粹的共谋者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:33]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>至少面上是这样子。但是可以看到当时法国金融监管局AM的报告里面有提到，就是说三家银行在签订这个现金结算的方式的时候，有一些补充条款。比如说要求是只能以现金结算之类的。LVH当时在签协议的时候，可能对他们有些限制，就是保留未来修改条款的可能性之类的说法。反正就是给自己留了口子。然后他之后也正好利用了这个口子。到2010年10月份的时候，三家银行其实已经原则性同意了修改这个计算方式，变成以股票实物来结算。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得虽然面上是这么看的，但是实在是很难让人不怀疑这个东西。是他们一开始就有一些默契，在你从这个现金转为股票的话，你对银行来说，他一听就知道你是什么个想法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，不过我觉得这里可能还是有一些小小的反复，就是LVMH不是一定要这么多的爱马仕的股票，他自己可能有过犹豫。因为他在2010年9月份的时候，他还跟另外一个投行，就是他常年合作拉扎德银行去分析过。就他们又搞了个行动，这个行动又有一个代号叫做塞上行动。主要工作的就是分析不同的结算方式哪个比较好。第一种叫做提前现金结算，第二种叫做期满现金结算，第三种是股票提前结算。这所谓提前结算就是因为他之前那个互换合约是有明确的到期时间的。这个到期时间一般是在2011年的1月4月，还有一个是2012年的六月。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们现在讨论点是2010年的，大概年尾的一个时间吧，其实对他们说就是提前结算的。其实最后拉扎德银行的结论就是股票提前结算是最为可行的一个方案。可以看到这个是10月19号的事情，然后到10月21号LVMH就召开了董事会，主要就是讨论这个事情，我们要不要以股票提前结算的方式来搞定这部分爱马仕的股票。当时董事会是提出了两个点，一我们手上已经有一部分爱马仕的股票了。第二我们其实公司的债务水平已经下降了，我们不需要这么多钱。这理论上我提前结算，我只是拿到很多钱，这钱对我们来说不是很重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:33]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们想要爱马仕的股票，所以我们最后决定就是以股票提前结算的方式搞定这部分爱马仕股票。这是10月21号的事情，22号法国兴业银行和法国外贸银行就已经把他们手上的这部分股票实物提前结算掉了480万股，500万股转给了LVMH的子公司。它其实对应的收购价就像我们前面说的，就是我可以以高于原来成本价一点点的一个金额拿到。他们当时的结算价格是每股85欧元，后来爱马仕股票好像在波动时候，应该是涨到120之类的，其实很合算一个价格。然后到10月23号股票交割完成了以后的一天，LVMG就发布了公告说我已经持有了1501.6万股爱马仕股票，占总股权的14.2%。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>而且他同时披露了我手上还有一个东方汇利银行跟我的互换合约，这个合约占300万股，我可能还会把它兑现成股票的实物。到10月26号，这部分股票事物进一步的兑现了，然后LVMH就宣布它的总持股量达到了1801.7万股，这时候已经占到爱马仕总股比的17.1%了。再下一步就是后面就是我在公开市场再去买一点好了，就这么多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以也就是说在2010年10月份的某几天，连续的几天，爱马仕整个家族就突然之间就收到公开信了。人在家中坐，锅从天上来。我在外面流通的股票都被别人买走了，而且是被一个自己which means的一个竞争对手给买走了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:04]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我看到一个商学院的报告，我不知道他开头的这个故事是不是真的。他是说爱马仕当时的那个CEO是在什么哪里度假的时候，接到了阿尔诺的电话。他说我已经发了公告，我已经持有了你们很多股份，你自己想办法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们之前讲LVMH的这个合并的时候，就讲到他非常的善于利用法国金融机构的一些漏洞来获取自己的利益。我觉得这个案例比上次那个案例更加彻底，更加极致。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得他就是很擅长去找法国金融机构的漏洞。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说实话我讲一下纯粹主观个人的暴乱，虽然他们刚刚那一套流程好像什么我还开了董事会，我还跟银行去什么讨论，咨询了一些方案什么。我觉得保险就一开始就完全规划好的，好吧，就太顺了。有几个东西是非常反常规的，一个就是你是在上一任的爱马仕的家族领袖去世之后，你开始询问他们可不可以搞股权的互换。你在互换了之后，你又开始在公开的市场上扫货。那你就是一开始想要股票，哪有什么一开始还想要现金什么的。我们债务不是很多，所以我们不要钱，我们要股票这种东西，你就想成为他的大股东。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:03]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得这个可能是你对阿尔诺的暴露，这可能也没有错。但是我们还是要说LVM是他有个董事会好吗？这个不是一言堂好吗？就是你要大部分人都认同你的这个观点才行。这万一大部分人还是觉得说你跟爱马仕撕破脸不好，我们最好还是现金之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个流程还是要走，就有可能阿尔诺心里面有一盘大棋。但是他在实际的操作当中，就是不管是LV的董事会，还是跟银行这些操作什么的。他的包括互换了之后，他发公告这些都是面上合规的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:30]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>或者说我觉得他一直给自己留后手，再不行我也可以走现金，我也能赚钱。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OK所以从爱马仕角度来说，就是一夜之间我们的领袖刚刚去世没多久，然后旁边一位朋友就突然就是说我要成为你的新主人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但问题是LVMH他和那么多投行签订了这个股权互换的协议，投行手里面的爱马仕的股权到底是从哪里来的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:54]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这个事情可以看当时法国金融监管局AMF的一个报告，他当时这个报告是详细披露了每笔交易当中的所有的合约。里面就提到一点，有一部分股权是从爱马仕的家族股份里面流出来的，然后他通过一些别的手段流出的。而且这些股权的流出都是LVMH。首先知道了有这部分股权的存在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我才是跟你互换的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后LVMH去告诉银行，你从这个地方去买。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那好了，2010年的某一天，爱马仕整个家族的人人在家中坐，然后突然之间收到了这个惊天大霹雳一样的消息。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是要当亲爹了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，来了，爹来了。所以他们是怎么做出防御的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:39]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>当时爱马仕公司的这个CEO，就是前面说被打电话，这个大哥就联系了52位爱马仕的家族成员去讨论一个新的方案。我们原来股票不是分散在各个投资实体里面，这样我们成立一个新的合资实体，把这些股票都拿过来。这样子的话就可以保证这个新的实体的持股比例就会整体比较高。我们的目标是持股比例超过50%。这样子其实阿尔诺进来，我们也有可能想办法把它投去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是让你收不了那么多分散的股票。对，要捏成一个拳头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，反正这个方案之后，爱马仕整个防御的一个核心在2011年1月份就需要通过金融监管局AMF报告。这是我们要成立一个这么一个新的实体。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一两个月之后对吧？对，过了个圣诞节大家就把这个事情给谈妥了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>OK不过最后这个公司成立好像是到2011年的11月底才正式成立的。当时LVMH已经真的是打到家门口，他的持股比例其实升到了22.3%。这市场上能够流通的爱马仕股票只剩下7%点几了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是公开市场都被他扫了很多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:42]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，OK, 所以说就是一边进攻一边防御的一个状态。这个方案最后的形成，这个公司实体就叫H51。现在大家在爱马仕的财报里面也可以看到，这家公司H51它整体的计划是收购50.2%的爱马仕股票，就是原来家族手里面这些，当然这家族手里面的股票不是完全投到这个实体里，就是有些家族可能还是有些小心思，所以，他们手上还留了12.6%的爱马仕股票，没有放到H51里面，但是H51对于这部分的放在外面的股票有优先的购买权。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个H51这个意思是不是H是爱马仕51就是超过50%啊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我们爱马仕的人要掌握爱马仕一半以上的股份的意思啊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对他其实没有没有51这么多了，就50.2%就差不多了。H51还有一些别的要求，比如说放进H51的这些股权，这H51对他有20年的锁定权，在这20年里面，公司的这些家族成员不能再出售这些股权了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我觉得这个对于家族的那些成员来说，也是有点舍小家为大家了。因为你如果不能出这股权的话，那这些股权你自己流动性就会受到一定的影响。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:52]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，那就说明你还是为了家族而付出了一部分，所以说可以看到敌人来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是团团结起来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:59]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>实际上在防御的这几年里面，可以看到爱马仕的特别股息异常的高涨。可能大家认为这个就是对于家族成员一个补偿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你不算，但是我可以给你派分红派息。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:11]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我可以给你点甜头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你钱还是能够赚到很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:14]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>给你一些零花钱。所以用这种方式的话，就是告诉LV反正我这50%多的股份，你是动都要被抢，死也拿不到。那你就是说了半天。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你也没我大。是还有一个小点，就是因为H51不是要覆盖超过50%的股权。我们之前节目里也说过，就超过50的话，你要触发一个全面收购邀约。你理论上你得把剩下市面上所有的爱马仕股票都买回来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我理解意思，比如说有个新的实体，然后说我买了爱马仕51%的股份。按照这个规范或者这个责任的话，你就必须把剩下49%也得买下来。不然的话就相当于那剩下49。如果都是散户的话，就被你一个新来的一个大佬给掌控了。我这些股票，我这公司的经营就被你给控制了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:53]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，理论上你要全面收购，就100%收购剩下所有的股份。但是H51同时去申请了IM的豁免，就是我可以不收购这么多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为如果要收购剩下自己的话，他没钱是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:05]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>一没钱，第二这剩下这20%几都在L.</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>VM手上的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>狮子大开口了OK对，AM反正出于种种的理由同意了爱马仕家族这个请求。所以H51就变成了一个，虽然是他是一个持股比例很大的股东，但他没有全面收购邀约，目前还是一个躺在里面的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>全面收购邀约实际上是一个保护中小股东的一个方法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:27]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是在那个案例里面，如果就是要遵循这条原则的话，其实爱马仕你不能凭空的出一个实体，把自己的拳头握紧就落在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:36]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，就是合规上面反正是通过后面的方式绕过这个部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以最后还是监管帮了爱马仕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:43]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>可能监管也看不下去了，这个LVM是怎么回事？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好了，那么多爱马仕散落在世界各地的家族成员都都一起汇聚起来做这个H51。请问在这个过程中，我们的男主角皮埃奇做了什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们还有男主角。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然了这个线就是围绕他来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是最废柴男主角。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>废柴男主角是在这里的出场行为非常的奇怪，就是在整个H5世界还在筹建的过程当中。就是2011年的三月，这个男主角是在瑞士接受了法国一个叫星期日周报的独家采访。而他在这个采访里面才披露了自己拥有不到6%的爱马仕股票这个事实。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你前面讲到什么？就是爱马仕那个时候才意识到他有这个股份写在财报里。那个时候正是在生死存亡的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，才知道有那么大一笔钱在股权在这个人手里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:31]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，前面我们说首先它是不记名股票，你真的很难追踪。然后还有一个就是因为爱马仕在盘这些家族股权的情况下，就我们前面说H51其实只笼络了52位家族成员。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，不是也不是200.</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>还有很多。那其实就散落在外面没有加入H51方案的爱马仕家族成员，其实还是有一定的比例，最后算下来合计比例应该有超过10%。然后我们男主角一个人只有5.76%.</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且他是没有加入加族的这个事业里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得他这个行为非常的待价而沽。我的这个家族这边，然后再跟LVMV去打架，这时我跳下来说我这边有很多的股票，你们谁来的那种感觉？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:11]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但他自己在采访里面又说，我不考虑把我的股权卖给LVMH，我就要自己持有。他觉得说H51这个方案最大的弊端就是会剥夺家族股东对于公司管理的个人控制。他的原话是，每个人的自主权才是我们长期团结的最佳保障。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他就是不跟这个家族在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:31]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我就是脱离这个家族。对，但是他又想管这个公司，所以后来他还凭借手里这部分股票还加入了公司的监事会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我听说的版本是，自从他有这个奇怪的表态之后，她的生日会，然后其他的家族成员都没有去参加过。谁参加？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>本来也不是很喜欢他这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他出来以后就更更不喜欢了，根本利益了，对吧？其实如果是比如他这个时候加入H51的话，他这个H51的目标就很容易实现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对吗？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一下就实现了。对，但是如果他这边代价而过的话，就是我明面上只是说这个什么不给LVMH，意思上就是说我这个可以来来吧来吧，而且事实上不就是很有可能这个还是流过去了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这也是我想讨论的一个问题。就是我因为我们最开始那一趴讨论了PIC，它的巨额的爱马仕的股份没有了。刚刚也谈了LVMH是怎么去奇袭爱马仕的。所以讨论到现在，两位老师觉得皮埃奇把股票给了LVMH的可能性有多大呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这个我主要是看的就是法国世界报援引当时AMF的一个很长的一个调查报告，报告里面其实很明确的说了，PI喜的股票已经出售给了LVMH。这个操作方法是这样子皮埃席个人的账户里面的爱马仕股票转到了一个为了交易设立了一个空壳的公司前面，不是说银行要去买对冲风险那个头寸，就是买这些实物股票，不是LVM去告诉他们在从哪里买卖，有一个目的地就是这个空壳公司。怎么认定这空壳公司跟他有关系呢？这空壳公司的法人是LVMH的员工，他同时是弗雷蒙德这个公司的董事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或又又Q到弗雷蒙德了，就会显得他更可疑了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:07]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对。不过这个报告里面有一个跟后来的一个很明显的冲突点，就是报告里面说皮埃奇的持是880万股，但实际上就我们一直提到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>前面不是600万吗？对还，多了280万。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，就是这个比例上面不一致。所以我觉得这个报告。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也有点存疑的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，有点存疑的地方在这个里边。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>皮埃奇本人知不知情不知道不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>至少弗雷蒙德在这个里面肯定是搅局了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就反正弗雷蒙很有可能一个可能就是弗雷蒙德把这些这个股票已经是跟LVMH达成了一个交易。对，已经卖掉了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:37]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后弗雷姆德之后也是书面的去抗辩，就是什么银行保密之类的理由，就是说我不听你们这样，你们这都瞎说。然后我们可以再看一下爱马仕自己的披露。他在2016年之前，就比如说2011就是他announce了我自己有这么多股票，开始爱马仕就把它寄到那个股东名单上，这个人有一直到2016年，爱马仕在财报披露里面做了一个调整，当年皮埃齐没有像往年一样披露其持股总数。但是又表示自己没有向上或向下穿越任何申报的阈值。所以我们公司认定他的持股比例依旧是5%到10%。而且我们按照他前一年申报这个608万的持股总量，进入到了公众持股一列，就等于他那一年的话，他已经没有说很合理的像往年一样申报自己到底有多少股份了。他可能说持股方式发生了变化或者是怎么样子的，但是我们出于善意的考虑，我们还是认为他还是有这些股票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果从这个侧面来看的话，其实我们也很难说PI7到底知不知道这个当时的股自己的股权有没有一些变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:41]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是不是很难说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就很难说。但反正就是从爱马仕那个角度，他是不是就觉得这点钱反正你归你的，你继承到了算你厉害。但是你跟我这个家族已经没有关系了，你已经脱离我们的，我也不管你，反正我们把握自己这个家族的控制权的这个目标已经形成了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>反正你不给我们家族添乱已经很好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但好像乱好像也已经添。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:01]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>了一样小小的添乱一下。他最后没有阻挠H51的行程，我觉得这是他最大的功劳。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正刚刚也提到了，就是2011年的时候，其实是爱马仕第一次知道皮埃奇有那么多的股份握在他自己的手里面。2016年的时候，爱马仕在自己的财报中很正式的披露了，他有大概5%到10%的持股的比例，然后进入了公众持股的这一列。这中间的几年，其实爱马仕的管理团队和皮埃奇之间是有一些关于持股比例的对峙的。就比如说2021年的时候，爱马仕当时的董事长叫亨利路易斯鲍尔，他是直接飞到皮埃奇在某个地方的豪宅里面去跟PH对峙，就问他是不是有把自己的股份卖给了LVMH，当时PH就已经否认了，他说我的股票是在日内瓦的一个银行账户里面。鲍尔过了几个月过后又问过一次这个问题，皮埃奇说他会再次的核实。到了2014年的时候，爱马仕要求皮埃奇提供这个银行对账单，确认他有多少股份。PS又再次拒绝了这个要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>到2015年10月份的时候，爱马仕在巴黎是对一个未具名个人提起了刑事申诉，指控对方伪造和使用伪造文件说明其持有的股份数量。然后有知情人士就透露说，这个未具名个人其实就是皮埃齐。而且这个刑事申诉在后来的调查的时候还扩大了调查范围。然后刚刚提到的PIC的财务顾问弗雷蒙德也被包括在了里面，但是皮埃奇他否认了这个指控。然后他还在2018年的时候写信告诉法官说，他自己亲自多次核实他的爱马仕的持股是没有问题的。但是其实刚刚我们也提到了，2013年底的时候，其实皮埃奇手里的爱马仕股份就只剩53万股了。如果他在2018年的时候真的亲自核实过的话，为什么他手里只剩53万股了？他会不知道，会告诉法官是没有问题的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:57]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就反正就是他一直宣称自己有核实过，我们都没有问题。但实际上监管机构调查就是你没有你花掉了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以其实皮埃岐这个人也不是一个纯粹的真的两手一摊的傻白甜，对吧？他有可能多多少少有些知情，但是他确实有很大程度上不完全的知情权。就他这条时间线，他的股票他跟弗雷蒙德之间的互相的知情的状况，也就是他对于这个股票的流向。这个事情是一锅粥，你是没有办法真的完全理清，而且现在已经搞不清楚了，反正就是各说各的。对，但是从大面上来说的话，他这个东西流向了LVMH的那个步骤是很有可能发生的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:31]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这个事情过后，爱马仕在股权管理上面有什么防范措施吗？毕竟差点老家就被人家骑袭了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:39]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以我们还是直接说LVM收购爱马仕这个事情的结局。这个事情其实后来闹得很大，在2013年5月底，NMF的制裁委员会是召开一个听证会，专门来讨论这件事情。然后在当年7月份，开出了一个针对LVMH的罚单，就要求他支付800万欧元.</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这么点对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这对他那个20%多的爱马仕股份来说已经很少了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，因为前面LVM是做的很好的点，就是它整个过程都很合规。你理论上AMF找不到你明显的漏洞。所以说最后制裁的理由主要是因为它规避了透明度的规则，以及有一些未披露准备中的金融操作。就是找了一些小的点，你应该申报自己有期权互换合约，以及你没有向那个小股东去说明这些事情之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你不应该抓住我们这个漏洞。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:27]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对你我们是有漏洞，但你不能利用，反正就是让他付了一笔小的赔偿金。从2012年开始，爱马仕和LVMH就是多次互诉是我告你，你告我这样子的。到2014年的九月底，最后形成一个终极的和解协议，LVMH同意放弃他持有的23.2%的爱马仕股份当中的绝大部分，他要把这些股票都散出去，而且未来五年内不会再收购爱马仕的任何股份。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就我退兵了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:57]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>不过他这个所谓的放弃股份的处理方式也很诡异。据说这个还是AMF的要求，他要把这些股票以实物方式分配给他的公司股东。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>特别派息是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>特别派息的方式就是类似于腾讯特别派息京东的股票给自己的股东。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:14]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你可以查到当时LVMH1个特别派系的方案。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我有个问题，就是LVMH的股东不是有很多阿尔诺吗？什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你就是还是派给你自己的这个对，是吗？是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就你最后可以看到结果上面虽然说大部分的爱马仕的股票还是真的派到了比如说公开市场或者机构持仓里面。但是迪奥还有两家阿尔诺的家族企业，三家公司还是合计持有8.48%的爱马仕股票。就是我虽然下降，但我还在你这里等着你。不过到了2017年的7月4号，LVMH就披露不是原来三家公司联合持股，它里面最大的一个持股比例的一个子公司。它已经大幅的减持了爱马仕股份，已经降到1.7%，就已经明显低于5%的这个强制披露要求了。那我以后就不用再披露相关实操了也不买你了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OK最后的话，其实LEMH我觉得他也没有亏。因为我们后来看到就是没有亏。就是2014年、15年、16年、17年的时候，他在卖这个，就是把这个股权散出去的时候，其实爱马仕的股票比他10年的时候开始搞这件事情的时货已经涨了非常多了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:15]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，可以看到阿尔诺在整个交易的比较早期，就是他在2010年底不是已经拿了超过20%的爱马仕股权的时候，他有个名言，就是他在股东大会上是这样说的，我们原本并没有计划成为爱马仕的股东，我们只是进行了一笔投资，但事情的发展却出乎我们的意料。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>到底是出乎他的意料。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>还是出乎爱马仕好装？是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是受不了了。就是因为我关于这件事情，我查到一个更加著名的名言。就是你刚刚说的尔诺告诉了爱马仕的这个CEO这件事情之后，爱马仕公开在媒体上面接受采访的时候有一个比喻，他就是说。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:48]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>著名的强奸论。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，就是引用他原话就是如果你想要结交duce，他的这个原文就是引诱一位美丽的女士的话，你不应该rap her behind。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这话已经很糙了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>话就是我觉得这个话都不太好意思，就是在公开的媒体上直接引用的。但他就是这么说的，所以爱马仕那个家族那个时候他说他是非常的愤怒的，他就是已经take IT personality了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>反正对于LVMH来说，它最开始有可能是一个现金投资，然后又变成一个实物投资，最后又变成一个新兴投资。他在里面转了两次。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但我觉得首先阿尔诺当时做那个宣言的话，那是非常的装爱马仕。对他的公开的宣传是说的非常的厉害的。我觉得大多数人的认知也是这样的。因为你不可能说什么我为了财务的一些投资，一不小心收购了你20%几的股份，这谁信呢？对吧？不可能有这种事情。但是最后的话，他确实即便是他没有掌控爱马仕这家公司，但他确实在财务上也是获得了很多的收益。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:40]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>反正他就是一直赢。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在买爱马仕股票这件事情上面，他很难输。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我觉得这里有一个核心的问题，就是确实在整个交易前后那么长的时间里面，爱马仕的表现一直很好，并没有受到股权争议的影响。它的业绩一直很稳定。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它确实就是一个非常适合的那种被门口的野人盯上的一个猎物。就是他的股权没有一点分散，对吧？在在成立H1 51之前，然后爱马仕等于是在遭遇了这个危机之后，及时的用成立一个H51这个公司的方式堵上了那个漏洞，使得他至少不会被收购。但他业绩好，这快他没有变过，他一直业绩很好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就牵扯到另外一个问题，就是爱马仕为什么业绩能够一直这么好？其实这个回答我为什么要邀请两位老师来参加这个播客？是因为有一次我听到了你们那个LVMH的小历史里面有提到当LVMH还是LV和MH的时候，两边当时的这个高管是非常不对。恢复的。然后他们唯一一次意见比较统一，就是双方决定去买一些爱马仕的股票。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是从那个时候，可能几十年前，这个爱马仕就已经非常香了。它它到底为什么是那么香的呢？比如说从财务指标上来看，爱马仕香在哪里？这个肖老师能讲一下吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>确实如果我们现在看的话，大家都会认为爱马仕的是那种最好的那种上市公司的类型。比如说我们就只看他最近一年，就是2024年的财报，它的销售额是首次突破150亿欧元，听上去也不是非常厉害的嘛，但是它的营业利润率是高达40.5%的，这个我觉得还可以，就包括它的毛利率是超过70%，这个其实是奢侈品行业的一个还比较正常的一个比例。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>反正这个营业利润率你要放在上市公司里面算比较高的了，算比较高。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但我觉得最夸张的是它的净利润率，它净利润是30%。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在这里做一个对比，如果你看爱马仕，然后LVMH和开云，爱马仕的净利润率是30%，LVMH是2024年是14.8%开云因为这两年比较普及，它是6.6%，这个差距是非常大的对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我觉得这个是他最夸张的地方，就是因为大家都说他是一个现金流，你每卖出100块钱的东西，你的纯纯的利润是30块的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:46]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得我们还是可以从之前那个派系的角度也可以反证一下，你能派出这么多戏。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你首先得有这么多利润。对，只是我看了一下他这个派系，他的股息率其实不是很高。因为他的股票涨得很厉害，他一股是两千多，然后他派二十多块钱，所以派股息率是只有1%点几。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但这个绝对值的绝对值其实不少。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以它的第一个特点就是它的盈利的能力非常的强。第二个特点与之相关，就是它的现金流非常的充沛。第三个特点的话就是它几乎没有负债，不像LVMH，因为它做很多的收购，它扩大很大的规模，其实它还是有一定的负债率的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>爱马仕的话其实它是一个轻资产的好公司，然后就是稳定的有现金流的同时，因为它是一个稀缺的一个资产，它每年是以一个固定的比例慢慢的提升自己的销售额，就是稍微提升一点点产量，但是低于你的需求，同时又提升一点点的价格。使得它的营收也是可以以一个非常稳定的可以预期的方式不停的往上增长，利润也同时往上增长。同时我又没有什么负债，所以对投资者来说，我们都不是说那个股票的股价，未来现金流的折现，它是一种最最理想的，又高又可以预期的一个折现。所以他就是变成一个在财务上面最最出色的那种公司。我觉得大家都是都说什么毛应该都是什么爱什么爱，对吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是。而且它不只是在二级市场表现很好，它在二手市场的表现一样很好。就比如说有香奈儿，它最近有些产品涨价涨得很厉害，部分产品已经跟爱马仕的售价是接近了。但是在二手市场香奈儿的贬值是很厉害的，但爱马仕就永远都是非常坚挺的。有一个2023年的奢侈品时尚转售报告，它是由二手交易平台rebec发布的。他就统计了说爱马仕手袋在当时已经连续第四年位居榜首，平均的保值率是提升到了110%左右。与之相比，香奈儿的这个数字是85%，LV是在80%到85%之间。可能这两年能够和爱马仕在保值上相提并论的就只有高雅。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>还有我们之前聊过的肉。其实这两年就是被大家关注的，也是因为它的二手保值率突然提升了，就已经快要跟爱马仕齐平了。大家才意识到说这个品牌是蛮有潜力的一个牌子。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但对那些新的品牌来说，它都是在某一个时间节点达到了这样一个高度，但爱马仕是一直都是这样的一个高度。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且还有一点就是其实这几年可能就疫情之后，整个奢侈品行业是不是很好的。比如说在2024年的时候，全球个人奢侈品市场是萎缩了大概2%左右。但是爱马仕在这一年它的营收按照固定汇率计算还是增长了15%。所以要不要讨论一下为什么这个奢侈品行业起起伏伏，但爱马仕一直就是很坚挺。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他确实是完全塑造了一套自己的品牌稀缺的地位。他在塑造稀缺性这件事情上面是做到了一个奢侈品可以做到一个极致，或者是大家都说的这个奢侈品的概念是它是最最完整的、充分的极致的实践到了这个部分。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:40]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>他们自己好像不用奢侈品这个概念。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他会说自己是个工匠的一个品牌等等的。所谓的稀缺，首先我觉得就是从产品的层面的话，大家可以比较理解。他是那种非常匠心的那种手艺的作品。不管是他的包，还是他的丝巾等等的，都是由一个工匠从头到尾来制作的。并且他会对这个是原材料等等的都掌握。我觉得这个东西是大家对于奢侈品还比较好理解的，这个部分它就是做的比较极致一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有的话就是他一直都是控制自己的产品的规模，销售的渠道等等，就是让它保持一个稀缺，这个我觉得是一个基础，但这个是外在的东西，还是比较好学的。核心还是因为它反而在历史的长河当中能够建立大家一个共识。所有人都认为你这样一套是好的，然后你这个东西是最最需要的，我都最最需要的。这个是有可能他需要长期的一个积累能够获得的一个东西。大家比较熟悉的有可能是一些重要的历史节点。比如他一开始的时候，他就是一个专门为一些贵族和王室。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的做马具出行的对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>做马具出行的。然后再进入到了旅行包的过程当中。1950年代之后，他比较著名的几个包，一个凯利包，一个working包。其实都使得公众意识到了他在一些上流或者说是贵族的阶层里边是如此的受欢迎，如此的有地位。而且这两个案例就是从品牌的角度上面，大家都会奉为经典，因为都不是你想要为了营销而做的事情。开立包本来也不是叫开利包，是因为摩洛哥王妃带了以后。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>他才叫开了包。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，也是被一个杂志拍到这个照片，他有这样一个包，然后大家才开始称呼他为凯利包。然后爱马仕是还是过了一段时间之后，才顺势的把这个名字确认了下来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:08]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>反正是跟我们现在品牌请代言人或者是某某某同款那个逻辑还是有点反过来的对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>爱马仕一个比较著名的就是他从来不请代言人，然后他的这个广告里面也几乎很少出现他的产品的样式。他都是宣传一些概念，或者是讲自己的一个理念，故事或者氛围的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得很惊讶的一点是在于他到现在他的每一只。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>包都是纯手搓，而且流水线搓。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且不是流水线，就是一个工匠在把它搓出来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:32]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>不过你可能看的是什么高定包之类的，好像还是有一些小的环节，会有一些工业化量产。但总体来说这个手工的比例还是会比较高一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是BR kin包的话相对他自己参与的部分会多一点。他和英国的女演员birkin，就是第四代的掌门人在飞机上面偶遇。然后这个女演员跟他抱怨说，我想要一个怎么样的包，里面一直没有然后第四代创始人就把他当场手绘了一个草图，最后就是形成了大家现在知道的breaking包。那个时候大家就会觉得，首先这个创始人还是非常的对你家族这个业务，工匠这个部分还是非常在意的。你是好像真的在传承这个东西，同时大家会意识到你对于品质或者是对于大家这个需求是非常的满足的那逐渐就形成这样一个地位了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你前面提到爱马仕，其实它有一个很好的财务上可预测的点，就是它的每年的业绩增长率是完全可预测，这其实就是从他产能的增长率来定的。他产能增长率就是通过他的工匠增长率来定的。他每年大概是新增500个工匠，这五百工匠只能做出这么多的包来。所以说你每年核心的体质产能就是大概7%左右，这个其实是远低于市场的需求的增长的。它又顺应着产能的有限，它可以适当做一些提价，比如说每年提价6%到7%是所以。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他这样一些比如说产能和定价的这些策略的话，还是建立在他这个品牌绝对的稳固的这个位置之上的。我们可以横向和纵向的对比一下。那在奢侈品行里面的话，比如像LVMH，首先它不是一个单品牌，它也会收购很多他做的这些品牌进来之后的话，他会做很多比如说扩大它规模的一些事情。这个就会和爱马仕的行为会不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:03]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我之前不是有个比喻，LVM就是一个奢侈品的etf对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是个ETF的这个概念。如果纵向的比较的话，比如说在汽车行业里面，有可能法拉利这样的这种品牌会跟爱马仕会比较接近。它还是比如说限制的产量，然后它同时保持一个绝对的一个价值，也是那种以产定销，你自己生产多少是每年确定的，然后我增加多少是每年确定的。所以法拉利的时候是单独上市，大家也会非常的香饽饽，会认为它是一个反正。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:29]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就是一种很古典的方式。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里我的问题就来了，因为我们刚刚谈到了爱马仕，它有非常克制的去控制它的供给量，有要坚持这个手工艺的传统，要坚持工匠手搓whatever。为什么其他奢侈品公司就学不会爱马仕的这套操作？</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:47]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>听上去就很难学会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>先说对，这个事情如果你一旦破了功，就没有办法再回去了。这个也是为什么爱马仕非常的排斥被LVMH收购的重要的原因，就是事后他会看到一些别的案例。比如说LVMH收了一些别的这个品牌之后，它大规模的扩展了产品线，然后扩展了规模等等的。它的价格体系马上就不稳定了。当然价格是我们从商业角度上来比较明确的那对于爱马仕来说，他有可能看重的是这个品牌的价值理念等等的。但如果这个东西一旦稀释的话，你是不可能再把这个浓度提上来的。所以它会非常的排斥，被纳入到一个大的集团里边。所以你从每一个步骤来说的话，它好像都可以被复制。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>感觉现在也能看到一些复刻这种整套概念的一些公司，比如说什么老铺黄金之类的。但这个东西整个建立肯定是需要一个比较长。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他把那个标杆定到了一个非常极致的部分，所以别人都会想往那个路上去套。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:35]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后会发现各种各样的困难。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最终还会发现你超过百年的坚持这一套的话，其实是有很大的挑战的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是觉得他所有的现在好的表现都来源于他这种家族企业文化里面的克制。然后这个克制又要call back回去，又是跟他股权的结构相关的。就是那些大多数的上市公司，它还是有这个短期盈利的压力，包括老铺黄金肯定也有，他最近的股价也是在很跳。但是刚刚也讲到了爱马仕目前它还是只有20%是在公开的市场上流通的。所以他会受到股东的业绩压力会更小一些，他就可以更任性的去做他想做的事。我觉得这个倒是大多数的企业做大了，或者说奢侈品的公司做上市了，都没有办法去做的一个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:20]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实我们现在一般来说，如果上市公司它的整个底色是一个家族企业的背景的话，我觉得不是一个很好的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为投资者低估。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对尤其是对于小股东来说，就感觉自己的整个权益会很受限制，整个公司发展有可能也就是一个一言堂的一个模式。所以这个在比如说我们现在去讨论上市公司的时候，不是一个好的案例。爱马仕只能说是一个特例。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我猜有听友会听到这边会有个奇怪的问题，就是你既然这个公司这么家族，然后这么传统手工坚持一些原则，那你为什么当初93年的时候要去上？是你不上市的话就没那么多事情了，对不对？PI企也不会发现自己东西没有了，然后LBMH也不会搞那么多事情，没有我们这期节目了是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这个事情确实是一个很tRicky的点，虽然说我们一直说爱马仕是一个家族企业，但是两百多个人，还是会有些人有一些套现的需求，或者他真的对于这个家族企业没有任何的兴趣。可以看出后面这个爱马仕家族发展非常的五花八门，很多人都有很强的个人兴趣的专长，他也可能真的对公司没有兴趣。所以说1993年的上市，当时的一个主要理由就是如果你对这个家族企业没有兴趣，你可以在这个时候选择套现。他就是为了方便家族企业套现的时候做的这么一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得这个东西是需要稍微解释一下，就是我看一下这个资料，他我自己的理解就是它实际上还是一个现代化的一个过程。你首先当时在上市之前，爱马仕的公司的结构还是一个股份制的。但是它不是一个在公开场合可以上市的，就每个人手里面都拿了一些股票，又很分散，但这些股票又有对应的权益。但是这个其实并不是一个很适合现代企业经营的一个方式，尤其是比如说当时爱马仕。我虽然还是坚持过去对产品这些要求等等，但我还是要在全球要做业务的。如果家族的企业是因为你是家族内部的矛盾，使得我很多的决策无法推行，就会产生很多的问题。比如举个例子，我看到当时很多人家族成员想要出手自己手里的股票，但因为你都你都没有上市，我都不知道我这个股票应该卖多少钱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就当时所谓私下交易这个事情也不是很合规，或者说不是很好做。所以上市其实是一个最合理的方法。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以那时候杜马斯家族意思就是说大家都上市了，那我们都有个明确价格，你想要套现的你就套现，你想要参与到家族里面，就是比如进入董事会，进入监事会，我们就按照这个规则来，既保证了你也拿到钱，同时也保证了公司能够经营下去。所以我觉得他是这样一个概念。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:32]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对你其实可以看到当时爱马仕那个IPO非常的诡异。现在大家知道，比如说在A股或者港股上市的话，你的流通股比例要求是至少10%。好像是。但当时爱马仕的IPU只是额外发行了4%的新股。但是家族股东和外部股东，他手上那个股票其实是可以借这个上市机会流通的。最后凑一凑大概流通出去20%多，这个也符合上市的规定的。结果就可以看到后面这个家族比例确实是有所稀释，就说明大家还是愿意有一部分是套现的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是只不过就是有可能这个现代化的过程，你要离后来成立H51来防止LVMH这种更高手段的操作还差一步。所以这个隐忧到了2010年代的时候再完全的解决掉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得这是一个生长痛。就因为爱马仕去上市的时候，它其实也还是一个很小的公司。它当时上市市值6亿欧元就很小。他可能就完全想象不到之后自己能够成长到这么一个水平，以及LVM是真的很喜欢他。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们这期的分享就差不多到此要结束了。然后也不知道两位老师最后还有没有一些补充。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:35]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>只是最后很好奇这不记名的608万股股票最后到底会出现在谁的手里？他已经存在在世界上的某个角落里面，它到底在哪里？</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也蛮关心的。我的话就是回过头来看的话，其实LVMH当时的收购虽然失败了，但是其实也是刺激到了大家认识到爱马仕这个品牌的价值。它后面的增长的曲线，你明显看到在这货是越来越高了。所以其实爱马仕这个抵御收购的措施，如果你回过头来来看的话，是和他那些品牌的执着也好，或者他的一系列经营理念坚持这些东西是一体的。看上去做一个包或者做一个奢侈品的品牌，和一个金融市场上抵御收购这两件事情是没有关系的。但是你要每件事情都做到的话，他其实还是捅射在一个完整的价值观之下的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个事情本身还是非常难的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，爱马仕的财富奇案到这里就告一段落了。有兴趣的同学也可以去听一下这个奇案的前传，也就是两位嘉宾做的另一期播客，LVMH如何成为LVMH的小历史？我将会把链接放在show note里面。以上就是本期节目的所有内容，感谢大家的收听。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>中国的听众可以通过小宇宙、苹果播客网易云音乐、喜马拉雅、QQ音乐、蜻蜓FM、荔枝FM来关注我们。海外的听众可以通过苹果播客和spotify或者在youtube上搜索硅谷101播客来关注我们我们部分的文字稿还会收录在硅谷101的微信公众号上。谢谢大家，我们下次见。</p>]]></content:encoded>
-            <pubDate>Wed, 17 Dec 2025 23:00:00 GMT</pubDate>
-            <guid>694336b03dbe4b4b0befbab7</guid>
         </item>
     </channel>
 </rss>

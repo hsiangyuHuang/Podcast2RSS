@@ -4,7 +4,168 @@
         <title>硬地骇客</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/640ee2438be5d40013fe4a87</link>
         <description>一起探讨技术、产品和商业之美</description>
-        <lastBuildDate>Tue, 14 Jul 2026 05:07:26 +0800</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 05:13:51 +0800</lastBuildDate>
+        <item>
+            <title>EP119 对话刘可凡：用 try-catch-finally，给独立做产品的内耗写个处理流程 🐛</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a6f9a0cab3a91c24a0eae0f</link>
+            <description>作为一个 Indie Hacker（硬地骇客），最难的往往不是技术，而是如何面对没有老板、没有 KPI 之后，内心深处排山倒海而来的内耗与焦虑。
+本期节目，我们邀请到了刚在 TEDx 完成分享的 刘可凡。他将程序员最熟悉的编程逻辑 try-catch-finally 引入人生管理，分享了一套独特的方法论，教你如何在不确定的自由中，与内耗达成和解，建立一套稳健的自我运行系统。
+本shownotes由 castwise.ai 制作
+Podwise - Podcast Knowledge at 10x Speed!
+podwise.ai
+Apple Store 下载👉🏻 apps.apple.com
+硬地笔记
+00:48 独立开发者面临的责任驱动型内耗
+07:06 编程思维构建内耗应对框架：Try-Catch-Finally
+20:24 稳住长期节奏：Finally 仪式感与 AI 任务拆解
+28:41 识别伪命题与应对创业焦虑
+欢迎关注我们
+* 知识星球:t.zsxq.com
+* 官网: hardhacker.com
+* 小手册: book.hardhacker.com
+* 用爱发电不容易，请我们喝咖啡☕️: afdian.net
+* 公众号/小红书: 硬地骇客
+* 商务合作: hardhackerlabs@gmail.com
+* 另外，现在加入「硬地骇客」会员服务，即可在会员专属的微信群与其他朋友一起畅所欲言，成为会员也是对我们持续更新最大的鼓励！</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目是《一骇客》EP119，主持人seattle与一笑邀请到嘉宾刘可凡。刘可凡是悉尼大学网络安全专业毕业生，曾在大厂担任网络安全工程师和云ERP项目管理，后辞职成为一人公司创业者，目前同时经营三块业务：在线教授美国高中APCSA课程（Java）、辅导美高数学建模竞赛，以及为浙江海宁一家工厂做电商直播带货（沙发套、抱枕套）。他刚在TEDx上做过一场分享，主题正是本期的核心议题：<strong>用编程思维（try-catch-finally）来应对独立开发者/一人创业者的内耗问题</strong>。对话围绕这套方法论展开，探讨了如何启动项目、如何验证方向、如何建立长期节奏，以及AI在具体任务中的使用边界。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>try-catch-finally 框架</strong>：这是刘可凡的核心方法论。<code>try</code>对应“先跑起来”，解决“光想不做”的拖延——不要等准备好再开始，先上线最小可行的一步；<code>catch</code>对应“出问题后处理”，把模糊的恐惧变成具体的、可验证的假设；<code>finally</code>对应“不管结果如何都要做的收尾动作”，即每天雷打不动的关机时刻，防止过度消耗。</p>
+</li>
+<li>
+<p><strong>启动标准与完成标准必须分离</strong>：“很多人可能会质疑，这样做不就是降低标准吗？不是的，它降低的只是启动标准。这个启动的标准可以非常低，低到你没有任何理由拖延。然后完成标准可以慢慢往上提。”刘可凡强调，完成度为零的时候，任何行动都是质变。</p>
+</li>
+<li>
+<p><strong>可证伪性是验证方向的核心工具</strong>：借鉴卡尔·波普尔的科学哲学，创业者应当给自己设定一个“可证伪的假设”——例如“三个月后某项指标要达到某数值”。如果没达到，说明这个方向和理论有问题，就该调整，而不是盲目死磕。“没有失败的事业，只有失败的假设”，如果项目失败，本质是某个具体假设被证伪了。</p>
+</li>
+<li>
+<p><strong>警惕“圣光教”式的不可证伪理论</strong>：刘可凡自创了一个比喻——圣光教教主说“圣光总有一天会来临”，教徒问怎么还没来，教主说“因为你仪式做得还不够”。这种永远无法被推翻的理论会让人无限期地投入而无法止损。他还引入了逻辑学中的“爆炸原理”（Explosion Principle）：前提为假，可以推出任何结论。比如“我当上美国总统就给你100万”，这句话永远为真，因为它永远不会发生——识别这类理论可以帮助创业者看清自己是否在追逐一个虚构的目标。</p>
+</li>
+<li>
+<p><strong>AI不能替你思考，但能帮你拆解具体任务</strong>：这是刘可凡对AI工具的明确边界界定。“AI的算盘不是你的算盘”——他发现AI的建议倾向于把人引向大公司的利益偏好（因为RLHF驯化的结果），所以涉及人生方向、重大决策时不能问AI。但对于具体任务，比如选品、筹备演讲、拍短视频，AI可以很好地做组织协调和任务拆解的工作，因为它有清晰的SOP路径。</p>
+</li>
+<li>
+<p><strong>亲身实践：写了一个MCP服务器让AI像调用函数一样调用人</strong>：刘可凡分享了他正在尝试的“AI用人”范式。他写了一个MCP服务器，接入Claude Code，让AI在任务执行中通过调用外部工具来调度人工完成具体动作（比如拍短视频、找播客）。他的预测是未来趋势将“从人用AI到AI用人”——人作为AI的手和眼睛去执行任务。实测结果：在转化效果上达到了真人水平，但完成时间大大缩短。</p>
+</li>
+<li>
+<p><strong>AI的效率提升已经把人力成本降下来了</strong>：在网店业务中，刘可凡用这套“AI用人”的框架完成了原本人力不足以支撑的短视频和内容产出。虽然没有办法给出精确的量化数据，但他确认“在转化上面，相当于已经达到了人的效果。人能做到的AI通过它的手段也做到了，跟人的效果相比并不差。”</p>
+</li>
+<li>
+<p><strong>一个人做产品，最难的从来不是技术和产品，而是每天面对自己的心理波动</strong>：这是主持人开篇点出的核心观察，也是本期节目的叙事起点——自由的反面是责任，以前老板替你背负的营收压力和生活压力，现在全部落在自己身上。</p>
+</li>
+<li>
+<p><strong>做生意的本质是搭建系统</strong>：刘可凡解释自己为什么选择一人公司：“做生意的过程其实就是逐渐去发展一个系统一个体系的过程。我比较享受这样子的打磨，看到这个系统能跑起来，觉得很有成就感。”他不像典型独立开发者那样直接卖软件，而是把软件当作提高公司运营效率的“基础设施”。</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>误打误撞进入数学建模教学赛道</strong>：刘可凡的APCSA学生考了满分5分后，又要学数学建模竞赛，直接来找他。他其实没带过这门课，“但是我想想我可以先跑起来再说，不用准备那么多”——于是现学现卖，每次备课都从零学起，还要先给自己讲一遍确保能让学生听懂。他对这个新业务的描述是“误打误撞进入了这个赛道”。</p>
+</li>
+<li>
+<p><strong>大学期间的“无人监督”是他内耗的源头</strong>：刘可凡描述澳洲大学的教学方式是“方向式的”——每周一节大课，之后全靠自己在图书馆自习。这种“既当执行者、又当监督者”的双重角色，让他意识到内耗的普遍性：“原来大家都是在跟自己心里面那个监工去做斗争”，这也是他人生中第一个“内耗”觉醒时刻。</p>
+</li>
+<li>
+<p><strong>对AI利益倾向的直白判断</strong>：“他的利益比较偏向大公司，他给的建议就是比较倾向于把你往大公司的染料上面带……AI的算盘不是你的算盘。就算你教他我的算盘是什么，他还是会默认去使用他的算盘。”这是对话中最具争议性和信息量的一段即兴表达，道出了刘可凡对AI产品底层逻辑的不信任。</p>
+</li>
+<li>
+<p><strong>缓解焦虑的方式是“撸铁”</strong> ：“出去锻炼，去健身房撸个铁，或者睡个觉，反正就是不要给自己太大压力，因为这年头做生意谁也饿不死，亏了就亏了呗，又不会要你的命。”刘可凡对焦虑的态度很实在：焦虑是现代人常态，尤其生意越做越大时越会患得患失，这也是为什么“做大事的人喜欢拜神”。</p>
+</li>
+<li>
+<p><strong>“生意越大越焦虑”的观察</strong>：“生意越做越大的时候，你就是越会去患得患失。”他提到做大生意的人喜欢拜神也与此有关——现实的波动性大到无法用理性完全掌控，所以才会去寻求超自然的力量来获得心理锚点。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，欢迎收听一骇客，我是seattle，我是一笑。本期节目由podd wise赞助播出。Pod wise是一款为播客听众制作的AI学习软件产品的slogan是read before listen。Model wise通过AI对博客内容进行转录、提取、总结分析等一系列操作，帮你掰开了、揉碎了硬核的播客内容。同时与notion read wise等平台的打通，嵌入知识管理工作流，协助您的其他包括新闻、news、letter、blog的内容，帮你打造第二大脑。Hot wise也为本期听众准备了三个5折优惠码，针对本期在小宇宙与我们互动的精选回复，欢迎大家踊跃来玩。好的，那开始我们本期的节目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天我们聊一个很多印第骇客都会遇到，但是很少有人真正认真讨论的话题。就一个人做产品的时候怎么跟内耗自处？因为很多人想象中的印尼骇客可能是很自由的，没有老板，没有KPI，然后也不用开会，自己决定方向，自己写代码，自己发布产品。但是实际上等你真正开始了，你才会发现另外一个问题，就是你自由的另一面。实际上你是要背负责任的，包括你自己的营收能力对吧？包括你自己的生活这部分责任是你要背的。以前可能是老板替你背了，你的工作其实就是达成老板的目标。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后如果产品没有人用，你可能就会怀疑说，我是不是方向错了，如果功能没有人反馈，你是不是会怀疑说，是不是我能力不够。如果说增长慢了，你可能就会想说，是不是因为我自己做的太慢了。别人的产品可能都在突飞猛进，一天发三个版本，我可能三个礼拜才发一个版本，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得很多时候最大的问题可能不是技术，也不是产品。就是你如果作为印第安克，你每天都需要面对自己的这些心理波动。我们今天特别请到一位嘉宾可凡，他刚在tedx上面做了一个分享。比如说一个人做产品的时候怎么跟内耗相处。我觉得可凡这个主题跟我们的节目特别契合，所以今天也邀请可凡来我们节目分享一下，我们先欢迎可凡，可凡先跟大家打个招呼，顺道介绍一下自己。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello大家好，我叫刘可凡。我毕业于悉尼大学的计算机专业，我学的是网络安全。在毕业之前我做过网络安全工程师，在那里我带过云ERP的项目管理。后来我干脆就是辞掉了他们大厂的工作，然后我自己一个人做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在是一边线上去教美国高中的ABCSA，说白了其实就是教java。另一方面我是再去带美高的数学建模竞赛。我还在帮浙江海宁的一家工厂做电商带货，主要就是卖沙发套、抱枕套这些东西。然后今年7月份我在GTX分享了一场主题就是今天我们要聊的用编程思维对付内耗。所以说我算是一个一直用工程师的思维去过日子，去做生意的人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK我有一个问题还蛮好奇的，美高的数学竞赛跟建模，你是怎么跟这个关联上的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个东西就很直接，因为我之前有一个同学就是学APCSA的，然后他就是跟我一起学。今年不是考ABCSC，然后考完了以后他就是跟我报喜，然后说老师你教的太好了，我直接考了五分，他满分就是五分。然后我就很很惊喜之后，这个学生不知道怎么搞的，他要去学这个数学建模竞赛。然后学数学建模竞赛他也找到我了，他也找到我了，但是我之前没有带过，但是我想想我我可以先跑起来再说，对吧？不用准备那么多，所以说我就先自己去学习数学建模的基础。因为我之前也对它有一定的了解，虽然说了解的不是很深，主要就是大学里面教的那个data science。然后我自己还记得一点，我觉得就把每个数学建模的课程看了一下。然后我觉得我能够跟自己讲，能够跟学生讲，我就是去接他这个单，就这么就是误打误撞的进入了这个数学建模的这个赛道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你这个挺厉害的，就相当于说那边的东西其实你也是现学的。但是因为你是大学毕业了，对吧？你之前可能有更多的一些基础，然后他是高中生，然后你可能就直接看着他的书，然后看完之后直接去教他了。然后他也考过了对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是说才开始上了三四节课，上了三四节课，就是我每次备课都是很累，因为我要自己从头学，然后我不仅要从头学会，我还要自己给自己讲一遍。这样子的话学生听了才会觉得，这个就是能让我听懂，不然说老师自己都一知半解肯定是不行的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，那我就想问一下，你为什么想去tet x上分享一个人做印第骇客，怎么跟内耗相处？你怎么想分享这个话题，就这个是怎么来的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我自己在毕业之前，我已经就是在帮家里去做网店的生意了。然后包括我整个上大学的过程，也是一个跟自己去做斗争的过程，为什么呢？因为在澳洲他这个教学主要是方向的教学。比如说每周的作业，考前的复习，它主要不是老师去盯着你，而是说就是你自己去听大课，每周上一节大课之后都是你自己在图书馆去自习。这样子的话相当于你既要做执行者，你又要去监督自己。所以说这样的一个过程就让我觉得比较内耗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我就想怎么样去解决这个内耗，不仅仅是学习，包括是做网店也是一样的。我既要作为一个老板去想着，我怎么样去规划，我怎么样去任务进行拆解，我要去把这个任务具体落实去执行，不能光想不做，但也不能光做不想。所以说这样子的一个矛盾就让我去思考，怎么样去更好的让这样的内耗缓解，不说解决，因为这个东西就是人或多或少都有，但是问题在于你怎么样和这样的矛盾去和平共处。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK你是从什么时候开始有这样的想法，说我要解决这个内耗问题的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一开始是没有的，一开始就是我跟所有的同学一样，后面我才发现我其实一开始觉得这是我自己的问题，我感觉别人也有，但是好像别人也没那么严重。但是随着我跟其他同学接触的增多，我越来越觉得大家都有这样的内耗的问题。只不过大家都不说，因为这个东西就属于自己的私事。后来我觉得原来这是一个非常普遍的东西，然后原来大家都是在跟自己心里面那个监工去做斗争。所以说我就觉得这个东西可以拿出来去讲一讲这样子的自我调试的方法论讲给大家是非常有价值的一件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK, 那你能给大家简单描述一下你自己的这个方法论吗？就是你是怎么跟内耗相处的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK OK这个就是我刚才说的这个编程思维，它的这个股价就是try catch。Finally, 首先它在编程上面是什么意思呢？就是首先是踹，踹在编程里面就是先跑一段代码，如果出现了问题以后再处理。我们很多人总是想着准备好了再开始，想清楚了再行动。但是我们什么时候真正准备好了？几乎所有需要我们认真准备的事情，我们都不会说自己已经准备好了。所以说try就是告诉我们别处理情绪，先处理动作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>具体怎么落实呢？就是先上线最小可行的一步，不要等到完美了再去做。我们要把启动标准和完成标准分开。很多人可能会去质疑，这样子做不是就是降低标准吗？不是这样子的，它降低的只是启动标准。这个启动的标准可以非常低，低到你没有任何理由拖延。然后完成标准可以慢慢的往上提。那么这样子的一个MVP心态也可以用来去启动自己。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说完成度为零的时候，任何行动都是质变。我自己之前我要去完成一件事情，我首先要去列一个很大的计划，然后我觉得就是要步步为营，这个想法非常的好。后来我就是觉得我一直在列计划，然后我最后什么都没有开始。所以说只有把自己先抛进去，把自己先扔进事情里面去，再去看下一步怎么走。所以说try就是先上线最小可行的一步，别等完美OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你讲的这个try我觉得挺好的。我想问一下你，你刚才说不要把启动跟完成混在一起，对吧？那我们心里边可能时常会想着说，我要干这件事了。实际上我脑子里面想的是我要完成这件事儿，对吧？你的思路是说你要把这个事情变成我要启动这件事儿，你这里有没有什么样的方式方法来把这个事儿更细化一点。因为从我自己的感觉里面，很多时候我想干这个事儿的时候，我也在想着说这个事儿完成以后是什么状态。我不会想着说我启动的时候应该先做哪一步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，这就是很关键的事情。我们很多人就是想做一件事，总是想着就是我要把这件事情给完成。但是很少有人会说我就是要把这个事情启动，就是我要去开始做这个事情。就比如说要做一个生意，你实际上很多时候你会想着我做生意成功了以后会怎么样，那这样子的话就是给自己的压力太大了。所以说当你想的是我做生意启动以后会是什么样。这个虽然说就是没有这个完成对完成的想象那样就是那么的光鲜，但是至少他让你的这个想象变得现实了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你也有具体的操作路径去想到怎么样去达到那样的状态。想象如何达到人工开始一桩生意的这个状态。你想象如何成功赚到1000万甚至一个亿的样子，那他要现实的多，然后对自己的压力也小很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解。那你讲的这个启动跟完成这件事儿，就是我其实还往再往前倒的话，我还有一个疑问，就是想请教一下在启动的这件事儿的时候，你怎么能够确定你启动的这个方向是对的，是不是这个东西就跟你自己的MVP要结合起来？就是我的意思是说，因为很多人在启动的时候，他可能不会想太多，他可能先动起来了，然后动起来之后可能一头撞到南墙上，然后就挂了。然后有些人可能是因为他想太多了，他觉得这也不行，那也不行，他就不动。这其实是两个极端。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对对对，你这个问题问的太好了。真的，你这个问题问的太好了。因为这个就是我接下来要讲的cache出了问题以后怎么去处理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你在try的时候，比如说你现在行动了，然后你心里面总是会想，万一我搞砸了？万一比如说我要做短视频的话，我想着就是我发的视频没人看怎么办，对不对？或者说万一有人去对我留负面评论怎么办？或者说万一就是我我不行怎么办？就是你会有一个疑问，就是我这个方向到底对不对？有些人可能就是觉得我既然开始做了，我就要一直做下去。结果就是做了好几年都不知道自己的方向，对不对，还在坚持做，结果就是竹篮打水一场空。所以说catch的作用就是把你的心里面模糊的恐惧变成具体的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在我们印第骇客总是会强调这个验证，也就是validation。那么验证它是什么样的呢？把可证伪的假设去写出来。一个科学家波庞朴他说过一个理论它是科学的还是非科学的，最关键的区别在于它是不是可证伪的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可证伪性就是说我提出一个断言，比如说就是我说这个悉尼明天会下雨，那么这个就是一个断言，它是一个理论。然后它由什么来验证？它由明天会不会下雨来验证。如果说明天这一天确实下了，那么这个理论就是得到证实。如果没下，那就是得到证伪。当然一次证实他不代表完全证实了他就是说如果说有很多的这个现实案例都能支持他他这个理论就很可能是真的。但是没有说一定是真的。但是如果说有一个情况，就比如说明天没有下雨，那么这个理论它就被证伪了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说我们在自己做创业的时候，我们在做自己的这个生意的时候，我们也要给自己一个可证伪的角色。就比如说我做这件事情，我三个月之后我要看到什么样的一个效果。如果说没有达到，那么我可能就是要去换方向，我可能就是要去调整。所以说这个就是一个把你的现在的努力和未来的具体结果去挂钩。如果说这个具体结果还没有达到，那么这个方向就可能要调整。当然了，这个具体结果它不一定就是比如说赚个多少钱，不一定是这样。他可以是比如说具体的数据，就比如说我的粉丝要做到多少个，或者说我的某项数据，某项具体的指标要达到多少。那么我们去做这样的假设，通过这样小型的验证去判断一个方向的可行性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK. 那你对于做这个可证伪的假设的这个假设点，你有没有什么建议？对，就是比如说我假如我是在做一个自媒体，我在做一个播客？那我播客的这个可证伪点，比如说我做了三个月，我这个可证为点应该设什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者说能不能以你自身为例？线上网店那三个月你自己的指标会怎么设？能不能给大家举个例子，就是怎么样把这个指标定好。因为我感觉举个例子，假如说我自己要做自媒体，我的目标是赚钱。那我的这个指标我是要赦说我三个月涨多少粉丝，还是要设我三个月赚到钱了？我不知道，反正这是我自己的一个疑问。你能不能从你自身的这个经历里面给大家分享一下，就是你自己的这个指标是有哪些的设置或者怎么样子。对首先。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是一个很重要的点，就是这个真伪性它不在于设置一个宏大的目标。他这个可真伪性的这个断言，他根本上是在去验证你的创业理论。也就是说他是保持着一个科学的态度的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说你读到一个你觉得非常认可的这样的一个创业理论，或者说一个思维框架。那么你想要去应用这个框架，你想要用这个理论为你自己的实践服务。那么你做假设的目标应该是去看这个理论到底是不是真的。也就是说你不是说就是为了一定是成功，现在就是纯粹想知道就是你现在手上拿的这本真经是不是真理。你从这样的一个思维角度去出发去做这个断言。这样子的话你就不会去说，我做的假设就是我三个月内要挣这个1000块钱，我三个月内要挣1万。这不太现实，因为现实它是波动非常大的。但是如果说你想去验证你手上的理论，根据那个理论去做出假设，这个是有依据。对，如果说现实把这个理论啪啪打脸，那这个理论就是有问题，或者说假设做的有问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK那你能不能给大家分享一下，因为你现在自己在做网店，对吧？那你在做网店的这个前期，你的前一个月或者两个月，你的这个可验证的假设是什么？你会怎么调整？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在做的一个假设就是因为我现在不是做那个网店，然后我现在就是在对这个多智能体框架感兴趣。然后我现在就是做了一个假设，我觉得现在的趋势就是从人用AI到AI用人的这样一个转变。这个是我做出的一个预言，我会去看这个情况有没有在发生。我在看采取了AI用人这个企业，他会不会有更高的效率。我自己去采取这个范式转变，他会不会带来更低的成本，或者说更高的效率。因为传统上我们一直把这个AI去当成一个工具，去当成一个提高我们效率的工具。但是现在随着这个AI越来越聪明，越来越能承担一些在一些事情上面的引导或者协调的角色。然后人的话作为这个AI的手或者说眼睛去替AI工作，然后达成人为AI设置的一个大势的目标。所以说基于我心中的这个理论或者说对世界的理解，我做出这样一个预测，这个世界将是从人用AI到AI用人。所以说我就是在为这个假设去押注，我去研究这个多智能体框架，然后去看就是把这个东西用到我的生意里面，然后看这个成本能从原来的多少降低到多少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK. 那我有一个问题，就是你刚才讲的这个大的环节上面，就是你说从人用AI到AI用人，就是我感觉这个范式可能是一个我们不谈太久，不谈十年，我感觉这个范式可能是一个2到5年的一个范式。或者说从你的角度认为，你认为它是现在已经在发生的，可能即刻在发生，正在转换的。反正从我的角度，我感觉这个题材是有些大的。就是他可能会经历比较长的一段时间，比如说两年以上，然后可能你才会经历比较大的范式转移。我不知道你是怎么理解的，但我想说的是什么呢？就是这个事情跟你踹的这个点上，是不是会觉得说好像它有它这个主题有点大，这个母题有点大，还是说其实你在try的这个节点上面，你更在乎的是你的人力成本降低。你可能在几个月内你在考核你的人力成本降低的这件事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，虽然说这个范式非常大，但是我做的事情非常的小，非常的具体。就是我首先就是写了一个MCP服务器，这个MCP服务器就是去让AI能像调用函数一样调用人。然后比如说这个AI它在执行过程当中，它可以去调用外部工具，然后输入一定的参数，这个工具调用会去让人去做一定的事情，这个工具其实很简单，我把这个工具写好了以后，就是去接入这个cloud code。然后我让他去做一点小事儿。比如说我去让他拍一些短视频，或者说就是找一些播客去做。然后我现在在做这个事情，我发现这个东西它确实效率提高了很多很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK你用AI的形式其实已经变相的提高效率了。然后对比你之前你可能拍短视频，然后你去做这些博客，你可能需要很大量的人力，甚至你们公司以现在的情况的话，其实是不足以完成这件事儿的。但是因为你有cloud de，其实你都完成了，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个就是一个很大的对对对对对，是这样的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你有度量这方面的所产生的价值吗？因为现在其实很多AI的产品里面，大家都说这个AI产品是一个AI slop，对吧？就是可能做了之后没有人看。比如说你自己用cloud code也好，然后你自己做的那些是短视频也好，博客也好，然后它所带来的流量等等之类的，是有达到你的预期的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在转化上面将相当于说已经达到了这个人的效果。人能做到的AI通过他的手段也做到了，然后跟人的效果相比并不差。当然说也不也不能说就是在效果上面。比人更好，但是他把这个工作的时间大大的缩短了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK对，所以说在这一点上，其实已经能够证明你自己的效率已经提升很多了，对吧？那你在做完这个catch之后，你刚才不是讲说catch，try的话就是我们要去把这个东西先启动起来。然后catch的话是说我们要能够可验证，对吧？那如果我在第一个阶段验证过后，再去尝试这个try cache的这个步骤，还是要去怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后就是finally，finally是什么呢？就是在代码当中，它的意思就是跑完一段代码，他无论是顺利跑通了，还是说出现了问题，我都会去雷打不动的去执行一段收尾的这个代码。那么这个在我们生活当中，在我们工作当中会怎么去应用呢？它就是相当于是一个雷打不动的收尾仪式。就比如说一天下来，就比如说到11点了、12点了，那就不做了，去睡大觉，然后有什么事情明天再说。我们很多人执行力的问题不是说开始不了，很多时候都是开始了，但是确实停不下来，为什么呢？因为我们很容易对于一件事情，总觉得有什么地方可以改的更好，可以再继续去优化。越改越想改，最后就是改到精疲力竭就再也不想碰了。所以说如果每天都是这么样的高强度的去擦干自己，那么总会遇到这个倦怠的时候，总会遇到这个burn OT的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说finally作用就是稳住长期节奏，就像跑马拉松一样，不要一下子跑太快，然后稳住长期的节奏。这样子的话能够行稳致远，能够去持续的去跑下去。OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你讲的这个挺好的，就是相当于说我要有一个固定动作，对吧？比如说每天要结束了，我要有一个固定动作，那你的每天结束的这个点是以时间为准，还是以自身的状态为准？假如说每天1到10点钟，我雷打不动的就要睡觉了，对吧？然后还是说我以我自身的这个状态，我觉得我现在还能干，然后我就多干一点。如果我现在我觉得我今天状态不好，我就少干一点。就是你是怎么定这个收尾动作的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最简单的就是一个明确的时间点。就比如说我每天晚上12点就不做了，或者说每天晚上九点就不做了。这样子的话，无论你今天做的怎么样，无论你对你今天进度是否满意，你都会在这个时候停下来，然后去休息，或者说去干别的事情。比如说给自己冲一杯饮料，或者说去看一部自己喜欢的剧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家都OK。那等于说每天晚上要有一个仪式感一样的东西，是吧？然后那你在每天启动的时候也有仪式感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>启动的话就是不一定。我觉得仪式感最主要是收尾的时候。因为仪式感这个东西你长期的去做，你会去形成一种习惯的一个雷打不动的习惯。然后这个习惯会给你自己心里一个锚点，就是我到那个时候我就不做了，我每天都是这样子的。但是这个启动的话还是我说的就是标准一定要非常低。如果说启动它都要一个沉重的仪式的来去启动的话，那就是会给自己带来比较大的压力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实我觉得作为印第骇客这方面也挺难的。就自己一个人工作的时候，他不像说我们自己上班？我们上班早晨九点你不到的话，你没打卡，那今天工资可能就要扣多少钱？下班的话老板没走你先走，那你绩效可能就会出问题。就是我觉得这个也是对它不像你自己上班，你自己就有这个开始跟结束。但是你自己在家工作的话，有可能早晨今天懒了就没起来，对吧？然后你觉得今天状态好就多干，明天可能觉得说这块burn note了，然后我可能三天都没干，我觉得这个事儿还是一个挺难的事情。你说这个雷打不动的收尾动作，其实相当于你还是得有一个你虽然不上班，你得有一个上班的感觉是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，当然你也不用自己每天996，对吧？比如说你每天做多久，比如说6个小时或者说8个小时，给自己一个正常的时间，关键不是说在于显得自己很努力，主要就是让自己有一个稳定的节奏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，对我觉得这个节奏还是蛮重要的。如果你这个节奏不保持的话，或者说你保持的不好，可能很长一段时间你都回不到这个节奏里面了，对吧？你可能出去旅游了一个礼拜，回来之后你发现好像这个节奏跟不上了，很难启动。对，因为现在你刚才也在讲说自己在用class code，在用一些别的AI工具。其实我觉得AI工具里面现在有一点比较好的，就是你可以让AI帮你拆今天的动作。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个就是我我特别想讲的，我觉得AI它最重要作用不是说就是帮你去思考。因为很多东西，尤其是涉及到现实当中的东西的思考还是要由人来做。因为AI不能代表你的利益，他的利益。当然是比较我觉得就是我跟AI长期的交互，我发现他的这个利益比较偏向大公司，是他给的建议就是比较倾向于把你往这个大公司的染料上面带。所以说你自己有自己的利益，然后你得替自己去思考，AI的算盘不是你的算盘。就算你教他，就是说我有我的算盘，我的思考方向是什么样的，他还是会默认去使用他的算盘。因为这个人类反馈强化学习，他是被相当于说是驯化过的，所以说他的思维是符合特定的利益偏好的。然后你自己要知道你自己想要什么，你自己的这个思维方式和他的思维方式是不一样的，所以说AI不能替你思考。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是对于一个具体的事情，就比如说要去拍一个短视频，或者说做一个播客，或者说要干一件别的什么事情。就比如说去办一个活动，他是能做一个很好的组织协调的工作的。然后这方面他可以去拆解任务，还可以去把一个项目拆解成一个明确的步骤，然后去执行它。所以说我们很多时候把这个AI当成请教人生建议或者说咨询的工具。但其实他给你发那么多东西，你看了以后你反而可能觉得更焦虑了。因为他给你一大堆信息，这个信息你也不知道能不能信，所以说这个就很难受。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你能不能给大家举个例子，比如说你自己在做网店也好，你在教学生也好，你自己会怎么用这个AI，就是用它来降低自己的这些阻力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我现在就是不要选品，对吧？那首先我会让他去拆这个选品，他这个动作有哪几步。然后对于每一步继续拆解，我会把这个拆分的方案跟家里人聊一聊，然后让他们去指出他这个不准确的地方。因为选品这个事情它是一个很具体的事情，它是一个相当于是一个明确的任务，而不是说我我的我的人生道路应该怎么走。这个你不要问他好吧，这个你不要问他他给你的这个建议可能就是跟你不太一致。然后再比如说包括就是我要做这个演讲，那么我怎么去筹备，我怎么去联系他他们这个主办方。然后这个也是AI可以去拆解的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK所以说就是把AI当成一个工具，当你有具体的事情的时候，你就可以让AI帮你去拆解。因为这个具体的事情它可能是有标准的SOP的对吧？他有标准的路径，然后你可以让他去拆。即使他的路径你觉得不对的话，你也可以在他的上面优化？但是假如说你要问他说我明天该吃什么，他跟你的想法思路也不一致，他也不是你，他可能很难替你做决定，吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗯所以我觉得你这个思路还是挺对的，就是相当于说当你有具体的事情的时候，你去请教他。对我觉得这个还挺好。对，那可凡你现在相当于也是是艺人公司是吗？你是为什么想去走到这样做的？你为什么不去公司上班也好，为什么想去做艺人公司？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为在这个地方我能够去更好的去利用做一个工程师的这个系统思维。包括就是我在上大学的时候，我非常喜欢那种自己写一个系统这样的一个作业。如果说让我去刷那种算法题、利库题，我是非常难受的。因为我觉得在这个方面我不喜欢去做那种零碎的解题，我更喜欢就是去搭建一整套能跑的系统。然后因为你做一个可靠的软件系统，做一摊生意都是可以去模块化的，可以就是能自动化的地方就自动化，它能够去先跑起来再迭代。所以说对我来说，做生意的过程，其实就是逐渐去发展一个系统一个体系的过程。然后我比较享受这样子的打磨，看到这个系统能跑起来，觉得很有成就感的一件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK, 那你现在艺人公司的主营业务是什么呢？就是你自己核心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在做哪块儿？现在我主营业务就是包括卖家纺，还有编程教学，还有这个数学建模教学，主要就是这两块OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在讲印第安克，可能很多人是卖软件，你可能更多的是卖教学对吧？就是卖课程，然后在家卖产品对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是软件它其实就相当于是这个公司的这个基础设施。它是相当于用来去提高公司本身的这个运营效率的。他不是说就是直接去拿软件去卖的，这个是可能是我跟别人不一样的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK比如说现在有一个刚开始做产品的人，他有想法，但是总觉得可能还不够好，还不敢发。你会有什么想告诉他的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得可以先发，但是发之前做些事情，这个软件开发里面不是有那种测试点吗？比如说你点一个按钮，它会有一个技术，或者说就是访问什么页面，它会有一个技术。那个软件里面去加入各种各样的这个测量点。然后这个测量点就比如说用户对什么这个feature非常的感兴趣，然后用户对什么feature不感兴趣。这个可以通过这种测试MVP的用户使用统计去得到。然后你根据这些数据就可以去迭代调整。然后包括你可以去从那个用户那里去获得反馈建议。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括设计就是软件设计，它也是相当于是以用户为中心的一个迭代过程。你把相当于是一个原型产品去给用户体验以后，用户他会去感受到自己的这个不足的地方。然后他会去跟你去说，包括甚至如果没有用户的话，就是没有用户愿意用你的这个产品的话，你可以去招一些人对吧？就是比如说招一些被试，然后去让他们去做一个访谈，让他们去体验使用你这个软件，给他们布置一些具体的任务。比如说你要去评估你的软件的易用性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果说用户需要用你的这个软件去达成一个什么目标，你去让他去做这个事情，然后去观察他在用这个软件过程当中什么地方卡，什么地方疑惑了，去把这些去记录下来。然后去询问使用这个软件整体的感受是什么样。这样子的话，就算你一开始没有用户，但是因为你从真实的这个使用者那里去获得了反馈。你可以进一步去改善这个软件之后会有真实的用户来去持续使用，然后形成粘性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解，我再问一个问题，因为我们刚才讲try catch finally对吧？那其实finally里边其实是要有一个固定动作，然后能标识说我这个事儿是每天结束的时间点是什么？然后我要有一个固定的仪式感，那你怎么定义失败呢？假如说我这个事儿catch的时候我已经不太对了。Finally其实讲的是说我每天的这个固定动作，那假如说我这个事儿就是挂了怎么办？我需要重新启动，或者说我怎么定义我失败了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先就是没有失败的事业，没有什么东西能否定你整个事业，只有失败的假设。因为你说这个项目失败了或者说事业失败了，那么这是对整体的否定。世界上没有什么东西是能被整体否定的。但是具体的这个假设，具体的认识是可以被啪啪打脸的。比如说我做出了一个假设，就比如说我相信按照我这样的一个做法，成本能降低百分之多少。但是比如说几个月后，两个月后的成本能降低25%，但是事实结果是这个成本反而增加了。比如说我用了这个AI我发现这个成本反而变得更高了，那这个理论就被啪啪打脸了。那相当于说这个理论就被证伪了。这个是失败，而且是板上钉钉的失败，你必须就是面对它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是说这个失败，他又是一个成功之母，为什么呢？因为你能去分析这个假设哪里做的不对，他忽略了什么东西。他的任何的认识他都有一个适用范围。这个理论虽然说在一定条件下正确，但是你不符合那个条件，所以说就不行。所以说让你去迭代你的思想，相当于说实践出认识，认识反过来指导实践。他就是这样子，让这个认识随着这个实践不断的迭代调整这样一个过程。所以说这样子的话，你始终是在不断的去进步的，你始终是在让你的这个思维不断的去成长的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说你亏了钱，但是涨了认知对吧？对，但前提就是说你要时刻的去复盘，如果你不去复盘的话，你失败了可能就真失败了，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是有一个非常重要的点，什么叫不可证伪呢？我自己编了一个笑话，世界上有一个宗教叫做圣光教。然后这个圣光教教主他说大家都在信圣光教了，圣光总有一天会来临。然后圣光来临的时候，全世界所有人都能获得幸福和和平。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么让这个圣光早点来临呢？那就是去做这个圣光仪。是有一个教徒问这个圣光怎么还没来？那个教主说是因为你仪式做的还不够，你应该更虔诚的做仪式。所以说这个就是不可证伪的理论。因为正光没来这个事情他是一直成立的，然后你也不知道圣光什么时候来，所以说这个圣光来了以后会怎么样，相当于是一个不可证伪的断言。所以说我们就是一定要防止自己去相信这样理论，哪怕这个理论是你自己编的，或者说别人编的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得你这一点提醒非常好啊，很多人可能他不会想到说我信的其实是一个圣光教。对，可能大家就死磕在我自己的那个圣光教里面了。对，然后就觉得说好像我现在还没有搞定，是因为我想达成的一个目的的某一个点其实还没到，对吧？你可能永远在等那个点，但实际上永远等不到。对，就跟之前网络上有一个段子很火，就是去高速公路上面的休息区，然后去卖啤酒。你可能觉得说这是一个好点子，但是没有人会在高速路上去喝酒，对吧？可能类似于这样子，是就是你可能想等这个点，可能永远都等不到。对，这个点挺好的，就是我们真的要去识别这样的点对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实识别这样点很简单，就是逻辑学上面有一个爆炸原理。如果说你的前提条件是永远不成立的，就是前提条件是false。这个false它可以leads to anything。就比如说我当上美国总统，我就给你100万，就是这样的说法，他永远是对的，因为我永远也当不上美国总统。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK，我觉得可凡这个思路挺好的，大家可以用这个爆炸原理对吧？然后去去思考一下自己的那个事情是不是有问题的。那我就想再问一下你自己，到今天你有track cash，有finally有这个原理对吧？直到你去做印第安克，你自己平时还会焦虑吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也有也有，因为焦虑这个东西，你得去跟他去共处。因为焦虑这个东西它相当于是一个现代人的常态。现实总是有不确定性，因为你也不知道明天会发生什么，就是说你只能去在心里面去估摸大概会怎么样。它是一个概率性的问题，尤其是你生意越做越大的时候，你就是越会去患得患失。对，患得患失就是说为什么很多做大生意的他喜欢拜神，我觉得这也是一部分原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是如果你碰到焦虑的话，你自己会有什么方式方法去缓解吗？有没有做一些仪式也好，拜个神也好，有没有这样的方式方法？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己的话一般就是会出去，比如说去锻炼，比如说去健身房撸个铁，或者说睡个觉，反正就是不要给自己太大压力，因为这年头做生意谁也饿不死。无非就是说你太作死了，你不会去出什么大事都能活，反正亏了就亏了呗，他就是不会要你的命。对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解，所以说对于心里面有焦虑的这件事儿，其实撸个铁去产生点多巴胺？然后去去弄点这些东西，其实对你缓解焦虑还是有很大帮助？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是这样OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天特别感谢可凡在我们节目的分享，就是我觉得try cash finally是一个很好的一个方法论，尤其是刚才说的这个逻辑爆炸思维？然后大家可以去验证一下自己的是不是其实前提假设就是错的，我觉得这个真的是特别有用。也许真正优秀的印蒂艾克，他不是说他不会焦虑，而是说他知道怎么跟焦虑相处，他用track catch finally，然后来缓解部分去自己去做产品也好，然后自己去做生意也好的这部分焦虑？然后还有一些焦虑，他可以透过撸铁，通过一些别的方式，然后透过流汗，透过产生多巴胺，去把它解决了。对我觉得这个是一个特别好的一个思路。如果大家有这些心理方面的问题，包括不知道产品该怎么开展，不知道产品做了之后有没有人用，我觉得可以尝试一下这个方法论。我们今天就感谢可凡在我们节目的分享，我们下期再见。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以上就是我们本期播客的全部内容，感谢大家收听，也欢迎大家踊跃留言。如果你喜欢我们，欢迎点赞并分享给感兴趣的朋友。如果你在用苹果播客收听，也希望你花几秒钟给我们一个好评，这会让更多的人了解到我们要是能再点击一下订阅，那就再好不过了，我们下周见。</p>]]></content:encoded>
+            <pubDate>Sun, 02 Aug 2026 19:39:44 GMT</pubDate>
+            <guid>6a6f9a0cab3a91c24a0eae0f</guid>
+        </item>
         <item>
             <title>EP128 从 Palantir 到 OpenAI：FDE 会成为 AI 时代最重要的新岗位？ 🧬</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a55209c27a4eec16c4026c5</link>
@@ -4589,191 +4750,6 @@ Apple Store 下载： https://apps.apple.com/app/id6499190232
 <p class="transcript-line"><span class="time"><strong>[00:54:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以上就是我们本期播客的全部内容，感谢大家收听，也欢迎大家踊跃留言。如果你喜欢我们，欢迎点赞并。并分享给感兴趣的朋友。如果你在用苹果播客收听，也希望你花几秒钟给我们一个好评，这会让更多的人了解到我们要是能再点击一下订阅，那就再好不过了。我们下周见。</p>]]></content:encoded>
             <pubDate>Mon, 28 Apr 2025 22:00:00 GMT</pubDate>
             <guid>680f7d0f7a449ae85839741d</guid>
-        </item>
-        <item>
-            <title>EP99 对话阿越：当程序员爱上威士忌酸，调酒笔记的诞生故事</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/6804c7a6cdd692da157ef12d</link>
-            <description>一杯鸡尾酒的成本究竟是多少？为什么酒吧里的鸡尾酒那么贵？
-本期节目我们邀请到了90后程序员兼调酒爱好者阿越，他开发了一款名为“调酒笔记”的APP，旨在让更多人轻松享受在家调酒的乐趣。阿越分享了他从酒吧高价鸡尾酒到自学调酒，再到开发APP的经历，分享了鸡尾酒的基础知识、调酒技巧以及APP的开发理念和未来规划。如果你对调酒或独立开发感兴趣，不要错过这期访谈！
-更多内容信息和时间线参考下文的硬地笔记，欢迎收听本期节目。
-嘉宾介绍
-阿越：00 后程序员，鸡尾酒爱好者，调酒笔记App作者。
-* 小红书搜 “调酒笔记”
-* 调酒笔记官网：https://cocktailnotes.cn/
-* Apple store： https://apps.apple.com/
-本期赞助
-Podwise.ai - Podcast knowledge at 10x speed 🚀
-Apple Store 下载👉🏻 https://apps.apple.com/cn/app/podwise-ai/id6499190232?l=en-GB
-硬地笔记
-00:00:04 节目开场及嘉宾介绍
-00:01:23 嘉宾阿越的自我介绍及调酒笔记 APP 介绍
-00:04:20 阿越的调酒兴趣来源及鸡尾酒基础知识
-00:18:04 调酒工具及便利店调酒
-00:24:50 在家调酒的建议及调酒笔记 APP 的开发理念
-00:34:32 调酒笔记 APP 的未来规划及节目总结
-提到的名词：
-* 鸡尾酒 (Cocktail): 一种混合酒精饮料，通常由烈酒、果汁、苏打水或其他调味料混合而成。节目中讨论了多种鸡尾酒的制作方法和配方，以及不同类型的基酒和调味料。
-* 基酒 (Base Spirit): 指鸡尾酒中主要的酒精成分，例如伏特加、金酒、朗姆酒、威士忌和龙舌兰酒等。节目中详细介绍了六大基酒的种类和特点，以及它们在调制不同鸡尾酒中的应用。
-* 利口酒 (Liqueur): 一种甜味酒精饮料，通常由烈酒、水果、香料或草药浸泡而成，具有各种不同的风味。节目中提到了许多利口酒，例如君度、蓝橙利口酒等，它们可以为鸡尾酒增添独特的风味层次。
-* Highball: 一种鸡尾酒的调制方法，通常以高杯盛装，将基酒与苏打水或其他非酒精饮料混合。节目中以金汤力为例，解释了 Highball 结构的特点。
-* IBA: 国际调酒师协会（International Bartenders Association）的缩写。该协会制定了众多经典鸡尾酒的标准配方，被调酒师广泛学习和参考。节目中提到 IBA 的配方是经典鸡尾酒的可靠来源。
-* 金汤力 (Gin and Tonic): 一种经典的 Highball 鸡尾酒，由金酒和汤力水混合而成，通常还会加入柠檬片或黄瓜片等装饰。节目中多次提及金汤力，作为简单易学的鸡尾酒入门款。
-* 螺丝刀 (Screwdriver): 一种简单的鸡尾酒，由伏特加和橙汁混合而成。节目中提到其独特的历史起源，以及作为入门鸡尾酒的简单易操作性。
-* 莫吉托 (Mojito): 一种以朗姆酒为基酒的经典鸡尾酒，通常还会加入薄荷叶、青柠汁、糖和苏打水。节目中提到周杰伦的歌曲也提到了这款鸡尾酒。
-* 老冰 (Aged Ice): 一种经过特殊处理的大块冰块，融化速度较慢，可以更好地保持鸡尾酒的温度和口感。节目中讨论了老冰的制作方法和在调酒中的重要性。
-欢迎关注我们
-* 知识星球: t.zsxq.com
-* 官网: hardhacker.com
-* 小手册: book.hardhacker.com
-* 用爱发电不容易，请我们喝咖啡☕️: afdian.net
-* 公众号/小红书: 硬地骇客
-* 商务合作: hardhackerlabs@gmail.com
-* 另外，现在加入「硬地骇客」会员服务，即可在会员专属的微信群与其他朋友一起畅所欲言，成为会员也是对我们持续更新最大的鼓励！</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，欢迎收听异地骇客。我是seattle，我是一笑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是龟龟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>本期节目由power wise赞助播出。Auto wise是一款为播客听众制作的AI学习软件产品的slogan是read before listen。Auto wise通过AI对播客内容进行转录提取、总结分析等一系列操作，帮你掰开了揉碎了硬核的播客内容。同时与notion read wise等平台的打通，嵌入知识管理工作流，协助您的其他包括新闻news letter blog的内容，帮你打造第二大脑。Hot wise也为本期听众准备了三个5折优惠码。针对本期在小宇宙与我们互动的精选回复，欢迎大家踊跃来玩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，那开始我们本期的节目。不知道大家有没有下班后小酌一杯的爱好之前我家里夏天会时不时采购一些啤酒，但说实话就主流的我们国内，不管是喝啤酒还喝白酒，我自己觉得口感其实都不好，一个苦一个辣。如果说你想要微醺的话，还是得付出一些小的代价。那在家放松的话，其实除了喝些这个，还能不能喝点别的？为此我今天特别邀请到调酒笔记APP的阿月，然后让他来跟我们分享一下在家调酒的乐趣和入门的方法，当然还有他创造这款使用APP的故事。欢迎阿月来我们节目阿月能不能先给大家介绍一下你自己，还有你的产品调酒笔记。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello大家好，我叫阿月。我是一个00后的程序员，同时也是一个酒精爱好者，通过一些途径接触触到了鸡尾酒，然后成为了个调酒的爱好者。我喝过很多的酒吧，然后也自己动手调制过很多的鸡尾酒。机缘巧合下就做了这个百度笔记这个APP。我们这个APP它提供了一些配方，有可能是很经典的配方。比如IBA的配方，然后里面会有很多很多的经典的鸡尾酒配方，还有一些便利店的配方，让你只需要进入到便利店里面，你就可以享受到一个调酒的一个乐趣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK相当于你这个调酒笔记是个百科全书，是吧？我想喝什么酒我就去上面翻一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以说是一个百科全书。但我觉得更像是一把螺丝刀，它是一个工具，平时没用的时候它就在一边。对，然后等你微获得微醺的感觉的时候，他可能会给你提供不小的帮助。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解我想先理清一个概念，就是因为我们讲调酒，或者说你的这个产品叫调酒笔记。那调酒跟我们平时听到的这个鸡尾酒，他们是等同关系吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不严谨的的情况下，就从我们爱好者的角度出发，他们确实是一个可以说是一个等同的一个概念，就是调酒，就是调制鸡尾酒。就比如在我们我是一个写前端的，我们用我用的编程语言是javascript后，里面有双等号，有三等号。就不严谨的情况下，他们可以画双等号，但不能画三等号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我们的精酿啤酒，它其实也算是调酒的一种。对它可能会有各种风味的精酿。对，但精酿不能算是鸡尾酒。调酒就包括了精酿跟鸡尾酒，可能还有其他的OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你能不能跟我们分享一下，你是怎么对调酒产生兴趣的。因为我们一般情况下接触调酒，我估计十有八九的人可能都是在酒吧里面。对，但是我其实不太常去酒吧，或者说我去酒吧可能也只喝精酿。我就想问一下你，你是怎么对调酒产生兴趣的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我自己也比较也是一个比较爱喝酒的人，但之前也是跟settle一样，我们喝的就是啤酒比较多。对，然后到了大学之后，身边有几个朋友他好像是有一点痛风，然后他们喝不了啤酒。对，他们是对，他们是遗传的。然后后面我就觉得说那白酒，对，白酒其实就有点苦，有点辣，不太好入口。对，然后就慢慢的接触到了调酒，后面就慢慢的去那个基酒酒吧喝。什么威士忌酸、金汤力、莫吉托、长岛冰茶、尼格罗尼，这些经典的鸡尾酒就基本都被我喝了个遍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但由于在大学的时候我是学生，鸡尾酒在国内还是很贵的，一杯可能就68、78、88，更贵的还有108这一些。然后就慢慢自己尝试说去小红书或者说其他的平台搜索一些配方。然后后面发现其实不是很难做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之后就到大学毕业之后了，我第一份工作的是跟我姐姐一起住的。我姐姐也爱喝酒，女孩子就鸡尾酒它是一个比较好出片的一个酒，就是拉他一起入坑玩家庭调调酒了。然后巅峰的时候我们家甚至有二十多瓶不一样的酒，各种颜色。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我还真的不知道，因为我自己没有在酒吧里面点过这些什么莫吉托、金汤力等等这些东西。我还没真的不知道说一杯这样的酒在酒吧里面要这么贵，其实它的成本没有那么多钱。你自己如果在家调的话，其实价差应该挺大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，鸡尾酒如果按我们这种成本价去算的话，它确实很贵。但是还我们还要考虑到一般机会酒吧都装修什么的都挺好，都非常好看。对，非常有氛围感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>自己买的话成本是非常低的，就比如我们一般用的基酒比较好的，就酒吧用的基酒。一般我们自己买可能一瓶就100元以内就可以解决了。然后一瓶是750毫升。我们做一杯酒的话，大概就是用到45到60毫升左右。然后加上一些莫吉托，加上一些薄荷、冰块，然后还有一些其他的装饰什么的。其实一杯酒的成本是非常低的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>算一下假如说一百多块钱的话，你到个不到10分之1，对吗？不到20块钱可能就解决了那边68的成本，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，可能说是因为鸡尾酒在那还不是很普及，对，所以喝的人比较少，所以客单价会比较高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，是有时候总觉得说好像去酒吧里面点鸡尾酒，感觉女孩子喝的会比较多一些。我不确定，我不知道你是不是也有这样的观察。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我观察的情况下应该都一半一半，但女孩子去去喝的话会拍很多很多的照片。对，因为鸡尾酒非常出片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，可能是我自己的这种观察，就是可能看到了很多人在小红书或者在哪里发的这些鸡尾酒的片子，可能都是女孩子拍的，所以我觉得女孩子喝的比较多。对对对，OK我自己是这样的，就是我有一次在我们街道上面，在散步，就是我一个邻居突然在街上拦住我，他说你过来试试这个，他就给我现场拿了一瓶金酒，然后还有一个汤力水叫tonic的一个水，然后在里边泡了一个黄瓜给我。对，然后我就喝了一口。我觉得这个酒还挺好喝的，就很清爽。其实喝下去的感觉有点像气泡水，它没什么酒味儿。对，但是过了一会儿，可能过了大概20分钟半个小时，然后你就会觉得说有一点微醺的感觉。对，然后我当下我就觉得说这个酒还挺好喝的。他当时给我倒了这杯酒的时候，他给我看了一下说你如果你想复刻的话，你就去买这个酒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，后来我才去查了一下网上，我才知道说，原来他给我做了一杯叫金汤力，就是劲酒加tonic的水对吧？然后里边不管加柠檬也好，加黄瓜也好，对吧？但是后来我自己觉得说，我觉得这个还真的挺好喝的。然后我就跟我老婆两个人去当地的这些卖酒的这个商店里面去买。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是我到商店里面去之后，我才发现其实商店里面有非常多种的酒。它跟我们国内的这种酒的商店是完全不一样的。因为国内的酒的商店，要不然你卖啤酒，要不然你卖白酒，而且很多卖酒的商店里面卖白酒的会比较多。然后再就是很多很多各种各样的啤酒，尤其是什么比利时、德国进口的各种各样的啤酒，对吧？但是其实我们卖这种金酒，然后什么龙舌兰，什么伏特加等等，这些酒其实很少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是在国外的这些卖酒的这些商店里面，我会发现说他有很大的一批里面，他会告诉你说这一排全部都是伏特加，这一排全部都是獭K了，然后这一排全部都是劲酒等等一系列的。他会他他有很多很多这种乱七八糟的东西。对，然后我就产生兴趣了，我觉得他给我倒了一杯他做的金汤力的酒。对，里边其实还有很多什么taki a voda等等之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我相信那些酒肯定也有别的调制的方法，只不过我们不知道我们以前喝酒，从我们自身出发喝酒，其实我们的逻辑就是这个酒就是倒出来直接喝的，其实我们不知道它需要调的。所以我们发现说很多国外的很多酒，你觉得说它不好喝，其实你可能你不会调，对吧？所以说你能不能给我们介绍一下，就是一般你做调酒的话，会有哪些基酒是可以调的，是不是我刚才讲的那些什么voda，什么tequila进等等，这些酒其实都是鸡尾酒的范围，然后一般就是大家会用什么酒去调？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚你刚刚说的这一种，其实它算是一个基酒，对它是一个基酒的一个很重要的一个组成部分。然后我们一般有六六大基酒，你看六大基酒。对，金酒、伏特加、龙舌兰、就是提拉威士忌，还有一个朗姆，一个朗姆酒，然后还有一个白兰地。对，这些基酒都是可以去调制鸡尾酒的，而且也非常简单。对，他们不算是鸡尾酒，算是鸡尾酒的一个原材料，一般我们调酒会用到这些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>啤酒之外还会用到一些利口酒，它算是有风味的。比如说军杜军度，它就是一个有陈皮风味的一个的一款酒。然后它会带一点点甜，然后有一点点陈皮的风味。有一款经典鸡尾酒叫边车，它就是用白兰地，然后还有军度，然后再用一个柠檬进行一个尧禾。对，相传说这杯酒是第一杯鸡尾酒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，OK利口酒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有很多很多的风味，像是小红书上很流行的一个蓝橙利口酒。对，然后它做出来就会非常的好看，它会有一个蓝色的利口酒，有很多很多颜色的。绿薄荷利口酒，紫罗兰它就是紫色的，然后蓝橙就是我刚刚说的，它就是蓝色的，他们都会有不一样的风味。对它指的就是一个基酒，然后通过或者蒸馏的方式做成一个甜味的酒。可能是草本的风味，一些水果的风味，或者说融合一些花香的风味。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一个百利甜，百利甜它就是奶油风味，它非常的多样性，它就是为给我们一杯这杯鸡尾酒提供更好的一个风味。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解，你能不能给我们介绍一下？因为我们知道说啤酒是用小麦酿的，我们的白酒其实是五谷杂粮，对吧？就像类似于这些金9伏特加、威士忌、塔克拉等等这些东西，这些玩意儿是它跟我们的白酒有什么区别吗？它不是用这种五谷杂粮酿的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们就说金酒吧金酒，它又可能又会被称为杜松子酒。对它也是一种以谷粮谷粮为原料，然后经过糖化发酵，然后蒸馏得到的一个基酒，然后再加上杜松子去进行一个浸泡或者串香，各种各样的一个工艺，然后所得的一个白色的一个烈酒。然后朗姆的话它就不是由谷物制作了，它是由甘蔗制作而成的一款蒸馏酒。对，然后他提拉它就是以一个龙舌兰植物来做的一个酒。对，就基本都是原料不太一样。对，但可能工艺可能会有有点相似。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们刚才讲了有6种所谓基酒，对吧？然后刚才有讲了说在基酒里面可以再兑一些利口酒。然后除了这些之外，调酒的话还需要去搭配一些什么东西吗？比如说你刚才有讲说橙汁，能不能给我们介绍一下，还有什么别的搭配方式？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最简单的我们可能有一个结构，就一款基酒，然后加上一些酸，比如柠檬、青柠，或者说加上一点甜糖浆、蜂蜜，最后再补上一点，比如说气泡水，然后汤力水这一些，甚至橙汁、鸡肉汁、葡萄汁这些都可以。最简单的就比如我们举一个海报结构的，金汤力，金汤力它就是一个海报结，它是金酒，它的基酒是金酒，然后加上一个酸柠檬，然后再加上一个汤力水，那它就是一杯鸡尾酒，它是一杯嗨爆结果的鸡尾酒。还有一个自由古巴，自由古巴它是由朗姆还有加上可乐，对吧？这已经很很简单了。你只要买一瓶可乐，买个冰杯，倒上一点朗姆，倒上一点可乐，OK你的自由古巴的鸡尾酒就已经做好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有刚刚提到的伏特加，伏特加有一款很经典的调酒，就是螺丝起子，它就是由伏特加加上橙汁。对你如果不喜欢喝橙汁的话，你也可以加入你任何你喜欢的果汁，葡萄汁、西柚汁、西瓜汁。对，调节就是这么简单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在一讲我立马可能就记住几个。比如说自由古巴，我就去买一个朗姆酒，然后倒点可乐就行了对吧？然后刚才讲的这个螺丝起子，我就用伏特加里面加点橙汁对吧？对，就是如此的简单。对，嗯，然后他就会很好喝是吗？因为毕竟他都有名字了，对吧？他肯定不难喝，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说到这个螺丝起子，它其实有一个很有趣的一个来源。它就是以前禁酒令的时候，禁酒令的时期就不让喝酒，然后工人们就偷偷把伏特加带到到工地之类的，然后就偷偷加上伏特加，伏特加他是无色无味的。对，然后就怼到那个城市里面，然后拿起他们的螺丝刀叫叫，这就是这杯这这杯酒的一个起源，所以它叫螺丝棋子。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK. 我觉得你刚才讲的这些名字，比如说自由古巴，比如说罗斯奇斯，他们都有名字，对吧？然后我们还知道有一些很知名的这些鸡尾酒，比如说周杰伦那首歌莫吉托对吧，还有什么血腥玛丽，什么marti等等这些酒。我就感觉说其实你到酒吧里面去，你告诉他说我就要抹黑头，我就要血腥玛丽等等这些酒其实巴特的都会直接给你做，对吧？他们肯定都知道。对，然后我就想问一下，我怎么知道有哪些酒可以点？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一点的话，你如果是第一次去，你是一个完完全全的小白。那你就看酒单，他可能会有一些经典鸡尾酒。经典鸡尾酒相当于是一个可能是从上世纪或者说几十年前、几百年前，可能鸡尾酒出现的时候，他们就已经就有的了。对，这些就相当于很多but tender他们需要学习的一些案例，然后每家店都会有他们不一样的特调，特调就是他们定的but tender他们研究的一些等独特的风味的一些调酒经典鸡尾酒。就比如你刚刚说的mokete、血腥玛、马提尼、金汤力、海报、威士忌酸，这些都算是经典调酒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>具体可以到我的开始笔记上面看IBA。对，IBA上面的就基本都是经典鸡尾酒。你只要说出来八天的，他们就会IBA它是一个鸡尾酒的一个世界的鸡尾酒公益组织。对他会通过年限去进行一个分类，可能鸡尾酒在哪一哪一段时年限出现的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一开始最经典的鸡尾酒，他们的配料原料配方都是非常简单的。因为以前的工艺复杂，就是比较落后。然后到近代的话就会有一些比较好的工艺，去处理一些比较新的一些原材料出来来做鸡尾酒OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>假如我现在我还不知道，然后我要去酒吧，可能请一个兄弟一起去喝酒，我要装作我经常去的样子，我要怎么点酒能让大家感觉到这个兄弟是什么都懂的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你不用装，因为如果你是一个小白，你很容易露馅的，还不如争取一点是吧？对你可能会很容易露馅。对，然后其实跟真心换真心，调酒师如果觉得你很有趣，他会可能会给你奖励一个shot。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK就是一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小小杯的一个一个小杯，然后给你倒上一个sap这是调酒师他们表达友好的一个方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK对于如果是第一次去酒吧的话，我有下面的建议，就是不要再去为难调酒师了，不要让他们给你算命了。然后看你是说你是什么星座的，然后性格怎么样，然后根据这些去让调酒师给你调制一杯酒。这已经超出调酒师的一个业务范围了，他们哪里会算命，对吧？然后有一个比较正确的一个碘酒的一个方式。假如你不知道点什么，对，你可以跟调酒师说，我喜欢喝甜的对，然后我可能会喜欢一些草本的风味，但是我的酒量比较差。但是我又有一想获得一点微醺的感觉，让调酒师了解你喜爱的风味，然后他自然就会推荐给你，你大概率会喜欢的一款鸡尾酒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，OK. 假如你自己搞来搞去，你说我酒量差，然后微醺要甜的，结果调酒师给你来了一杯，但那一杯你不喜欢怎么办？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你可以及时沟通，如果实在不喜欢的话，可以反馈一下，在吧台不忙的情况下，很多调酒师都会很乐意给你换换一杯的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解，我们经常在不管是在酒吧也好，在电视什么各个地方有戏，对吧？里边都会看到butner他去做鸡尾酒的时候，倒来倒去摇来摇去，shake来shake去，各种各样的姿势。对我就想问一下，如果要做鸡尾酒的话，有没有什么是必备的工具？因为我们刚才讲了说有鸡酒，有利口酒，然后有这些比如橙汁等等这些东西的，有配料，对吧？那工具的话有没有什么是必备的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>工具的话我觉得必备的是一个量杯，一个量杯是最重要的。OK不能说我大概就到这么多，然后等一下你可能就会突然晕倒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解。对，然后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一个是冰块，冰块也是非常重要的一环。然后如果是小冰块的话，你做鸡尾酒的话，它如果那个小冰块融化水化得非常快，那你这杯酒就会被很这这些融化的很快的冰小冰块给毁了。还有一个就是我们自己喝的话，我们我建议是尽可能的用一些新鲜的水果材料。比如说柠檬，我们就用新鲜的柠檬去做柠檬汁，然后不要贪嫌麻烦去买一些预制好的一些柠檬汁，它会对一杯酒产生非常大的影响。如果是用具的话，两倍数就是最重要的。其他的比如你要做sa类的，就是威士忌酸这一类的那你就可能还需要一个瑶湖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我用手盖在那个杯子上面摇一摇是不是可以？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，也也是可以的，也也是可以的，也是可以的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我拿螺丝刀搅一搅，其实也是可以的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是不是用螺丝刀那这种就得分九型了。就比如说我刚刚说的那种开爆结构的那就是确实用你用个杯子，然后拿个拿拿个螺拿个螺丝刀，拿个筷子搅一搅，那这杯酒就完成了。然后像一些少儿类的，就是酸类的酒，它有机酒，然后有柠檬，还有可能会加一些甜。那你就需要用一个剧烈的摇晃来来让他们这三个风味给它融合到一起，让他的让这杯酒更加的平的风味更加平衡。OK甚至拿一个水瓶对你的保温壶加上几块冰，把材料倒进去，然后使劲摇摇完倒出来就可以了。OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你刚才讲的这种是摇的，对吧？他一定要摇的。我们之前就是我们印象中的那种鸡尾酒，就是大众印象中的鸡尾酒是分层的，分层的那种鸡尾酒是不能摇的，是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，分层是为了出片。因为看到一杯每一杯分层的酒，他拍完照片也是要搅拌均匀才能喝的。OK因为你分层就是因为它的密度不一样，对吧？那可能你正常的你的气泡水它的密度比较小，然后你的糖浆密度比较大，所以它会沉到下面，所以分成了。那你总不能说我就这样喝喝到最后全部都是糖浆。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是是是，对，你刚才就讲说冰块很重要，对吧？然后我们冰块的话，我们自己家庭的话，自己拿那个冰格去做，那个冰很容易就化掉了，对吧？然后我们去看日本的那些电视节目也好，日本的那些but tender大家就拿一个老兵对吗？他们讲老兵然后拿一个刀子在那里咯咯咯咯咯，然后放到whisky里边吧？那我们怎么去弄一个那样的冰出来呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一个最快速的方式到便利店买便利。便利店这几年因为便利店调酒非常的的火，然后其实便利店他们相应也提供了一些比较大的冰块。对，你可以到里面去买那种冰块就非常好用。但如果你要自己在家里冻的话，你可以买大一点的模具，然后用煮完的开水，就是凉白开去动，它的气泡就会少一点。那你就比较有可能获得一块比较透明比较好看的的冰。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK。所以说他们的那些老兵为什么能感觉不容易化？是因为它其实是是煮开过的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后他们也动了很久，他们确实是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>老兵OK，了解。对你刚才有讲说最近便利店调酒这件事儿比较火。我就想问一下，因为我看你的产品里面其实也有便利店调酒这个东西。我想问一下，在现在的便利店里边，我能比较方便的获取到什么样的原材料，然后能调出什么样的酒？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在其实便利店调酒，就是说我们在深圳对我楼下的全家便利店，它基本什么样的基酒它都有了。然后它会是一个小的酒板，它可能就50毫升。对它就50毫升，然后你可以买买一个冰杯，然后把小酒板里面的酒倒进去，可能是朗姆酒。对你把朗姆酒倒进去，再买一罐可乐倒进去，倒进冰杯里面，这样你就获得了一杯自由。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>古巴我只要买一点朗姆酒，然后再买一杯可乐，对吧？倒在冰杯里我就已经调好一杯了，对，所以说我感觉便利店调酒还挺方便的。比如说我们自己平时互联网从业者，每天下班估计都十点以后了？然后到楼下的全家便利店7 eleven？买一点这样的东西，走到家里可能就喝完了？然后该睡觉睡觉，该干嘛干嘛。对，确实挺方便的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这样非常舒服。对，而且大概率也会是你喜欢喝的。你喜欢喝橙汁，那就买个伏特加。对，你喜欢有一颗一点点草本的感觉，那你就买个金酒，然后兑点金汤力或者对。倒水也都是可以的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那如果我们在家里边去调的话，是不是就刚才讲的那些工具的话，你会建议我们在家里调的话会配什么样的工具？然后比如说基酒的话，你会建议我们每种机啤酒都来一点，还是说看自己的喜好等等之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>家里的话我的建议是你可以先买一瓶。第一瓶基酒你可以选择是金酒，因为金酒可以做的鸡尾酒类非常的多。然后后面你可以买伏特加、买朗姆酒、买威士忌。对，这四款酒是我比较推荐的。酒具的话可以买一个量杯，一个搅拌棒，一个瑶湖。对，这就足够了。大概只有三个材料，最重要的还是你的冰块OK了解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你刚才讲说一个小的一个量杯对吧？然后再一个瑶湖，因为量杯的话，其实什么样的量杯都可可以吗？只要它有刻度就可以，对吧？然后对我想问一下你刚才讲的这个瑶湖，瑶湖是有专业的这种酒吧的瑶湖，还是说你的建议是什么样的摇壶就可以？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的建议是瑶湖的话基本有个样就是可以了，它是个瑶湖就可以用了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK就是自己的保温杯也可以摇。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吗？保温杯也是可以摇的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但我感觉这种东西就会变成一个玩具，但你就是得如果你真的玩上了，你就会去找各种各样，他可能不实用，但是它好看或者怎么样的东西来，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我认识很多调酒师，他们把这些当成是他们的一些军备竞赛。他们军我在群群里的话，他如果发了一个很好看的调酒壶，对，一个瑶湖，那其他人就会陆陆续续的把他们的调酒壶也发上来，然后给让让大家去羡慕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我想问一下他们的调酒壶，就你刚才讲的他们那种军备竞赛的调酒壶，你有见到过最夸张的调酒壶大概多少钱？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最夸张的调酒壶它可能是就是birdy。Birdy它是一个日本的一个做做这种酒壶很久很久，它可能一个壶都要1000来块，一千多块钱。其实这种对对对对，这种他们其实是不care的，他们喜欢的是那种限量的，买不到的，可能上面有有很多很多不一样的风格，比如说印一些小花，印一些图腾之类的对，他们可能追求的是一个独一无二，我有你没有，但body的话每个人花钱就可以买到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解，所以还是要有那种定制专属的感觉，对吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就感觉什么圈子都是这样的，小圈子里面都全都是这种有个什么小东西，然后我是限量的，反正圈子也没有什么代餐，大家就哐哐买。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那我们再回到你的这个产品，就是调酒笔记的这个产品，然后我自己也下载了，然后我看了一下，就是我觉得我照你的那个上面的那些配方等等，就是你的那些产品介绍，我就感觉我可以很轻松很容易的去找到很多可以调的酒。对，然后你能不能跟我分享一下，你当初是怎么想去做这个产品的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先还是出于我个人的爱好，我喜欢喝酒，然后我乐意去调这些酒。但每一次我都要。虽然我看了很多书，但我每次想调制一杯酒，我还是得去社交平台上，小红书上面去搜索，去找一找不一样的一些配方。我姐姐也是这样，我姐姐就是看那种分层的酒，对，就刚刚说的分成的酒。然后他就要照着配方一点点调。然后每次可能都要在我们的桌我们坐久的那个桌子前面站个15分钟，才开始动手去调制。我觉得这是一个很长的一个时间成本。如果提前把冰拿出来，冰都可能快化完了，所以我就想缩短这一个茶的一个时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给更多的爱好者们提供一个信息聚合的一个工具。让找配方这件事变得更快更简单的同时，也更加的一个有一个专业性。对，因为其实小红书上它很多配方都是乱来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK就是相当于说你你你可以把它当成一份类似于官方的专业的调酒的配方，对吧？然后你到我这里来，他一定他调酒的方式就是对的，是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不能这么说是专业的，但是不会错的太离谱。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK, 对，对你刚才有讲说小红书，对吧？你自己其实之前在没做APP之前，其实你可能去查这些酒干嘛的，可能都是去小红书上查的。然后我看你自己做这个调节笔记的APP，然后你在小红书上的粉丝还做的运营还做的挺好的。对，能不能给我们介绍一下你当时是怎么做这个产品推广的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>产品推广的话，我其实没有产品的时候，我就在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>推广对我第一条。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>笔记就是一条召集小红书的用户们一起来做一个这样的一个产品。对我第一条笔记就是这样的，就是说我想我跟用户们说，我想做一个调酒类的APP，然后暂定它的名字叫调酒笔记。然后希望你们来给他提需求，来给我提需求，你来提我来做对，然后第一条笔记就报了，第一条笔记就报了，然后后面我就称他们为云股东。我每天给他们汇报一下我的开发进度，我的APP开发到哪里了，什么时候差不多可以上线。对，他们确确实实是我的云股东，然后他们也成参与了我这个APP的一个开发，包括网页上线，一个安卓上线，一个APP store的内测，APP store上线，再加上最近安卓可能也要也很快要上线了，他们都是在一陪伴着我来做这样一件事情的。然后我觉得我这个推广能成功的原因，是因为我真正做到了一个用户共创，对小红书上的粉丝非常的热情，然后我也很成功的做了一个用户共创，给他们及时的反应，告诉他们我们这个产品做到哪里了。然后同时我还会给他们分红。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会给他们抽一个分红法抽奖是吗？OK, 对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会给他们抽奖。对，虽然这个软件还没有盈利。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那那你这个云股东当的也太好了，他也没有投资，他还有分红，我能不能也分享？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以，我们明天还会分一波鸿，对是吗？对，会抽也是酒具瑶湖这些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你这个我觉得真的是为爱发电了，就是现在这个APP也没有盈利，对吧？你虽然叫他们云股东，但是实际上他们也没有花钱来来占有这个股份。你这个真的是对为爱发电很彻底，不光是做了APP，还搞活动。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，为爱发电。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得你这个思路跟想法就特别好。就是你在一上来的时候，你说我要做一款产品叫调酒笔记。然后大家如果对这个有兴趣就过来提需求，对吧？其实我觉得你这个就一开始就把市场验证了。如果你第一篇笔记不报的话，你说不定就不会做了，对吧？因为你觉得说这个市场可能没有那么多人有需求。对我觉得你这个思路跟想法还是挺对的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，其实就是我们一直说PMF要前置。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？对对对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我还听过一句让我很感动的话。我们有一个群，然后群里的有一个用户说，我从第一篇笔记看到现在到现在APP store的一个上线，我真的跟看我的孩子长大一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是你已经变成一个养成系的APP了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>真挺好的。对，但是你刚才有讲说，你说你这个调酒笔记虽然有很多云股东，然后你还在给大家去发福利对吧？但是其实你还没有盈利对吧？然后你后续你对于营收跟这个持续性这块你有什么打算吗？因为毕竟你如果长期的一直在不断的再去投入再去做，但是收不到钱的话，我觉得这个事儿可能持续性会存疑我不确定你后续对于营收跟对这块持续性这块有什么打算。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一点的话，我们可能会有一个pro用户，对，可能会推推出一个pro计划。然后pro计划它就可以把他们家里有的材料存到我们的数据库里面。然后我们根据他有的材料来为他们推荐他们能调制的一个酒单。对，因为涉及到这涉及到一些服务器的资源，所以我们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不得不收费。OK了解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，还有一点可能我们会去对接一些鸡尾酒，对接一些，然后可能会联合他们做一些营销活动，像是酒鬼地图之类的对然后对，然后薅商家的钱给来给发分红。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解，我觉得你这两个思路还挺有意思的对，因为只有一个清单的话，其实我是要找说我有这个材料，我有这个材料我才能做这个酒。那现在你给我一个思路，就是我只要把原材料告诉你，你帮我说我能做什么酒，我觉得这个就对挺好的，是一个挺好的付费点对，还有一个就是把我的流量导给商家，我从里面抽佣，对吧？对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你说这个原材料我想到一个东西，因为我之前在网上在那看看B站看的就是有人用AI来创造菜谱。我就跟那个大模型说，我我我想创造一个新的一个菜，然后有一些什么要求，然后他那个AI他就会给他创造一个菜谱，说你要用什么材料，一步步的怎么做。我觉得你可以可以考虑一下这个？有什么材料，然后说。你给我来个random，你给我来一个？给我创造一个新的鸡尾酒，反正我就尝尝看吧，说不定很好喝。我觉得这个也是一个对挺有意思的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，后续可能也会，因为我们现在其实有随机喝一杯的功能。你只要在你的这个你可以调制的这个列表里面点击随机喝一杯，那你就不用想你今晚想喝什么了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>挺好。对我觉得你这个功能点还挺好的。对我我就想问一下，因为阿月你本身其实不是全职在做这个调酒笔记，对吧？因为现在毕竟为爱发电，然后你可能因为你有本职工作，大家其实现在工作的状态都挺类似的。尤其像我们做互联网相关的，可能每天下班可能都90点了，对吧？而且都很卷，工作上班的时候还要勾心斗角，对吧？我就想问一下你，你就是你为什么还会有精力来去做独立开发去做这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一款APP。首先是我热爱鸡尾酒这个东西，其次是我我觉得拥有一款自己的产品是每一个程序员的梦想。然后其实我也算是在爱好这个领域里面追逐自己的梦想了，所以我做这件事情我的精力是非常足的。对我可能坐在晚上洗完澡回家，回到家洗完澡可能会调一杯鸡尾酒，然后放在旁边，然后开始写代码，写到可能一写就是两三个钟，三四个钟，写到晚上2.3点。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解。然后你自己的工作有那么累吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己的工作其实还好。对，可能有时候忙有时候不忙，但没有说每个星期都要加班。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解，所以说还是worklife baLance的对吧？相对来讲比较baLance。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，相对来讲叫baLance。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>阿月你能不能给大家介绍一下你自己的第一杯鸡尾酒是什么？然后你会推荐大家在家调制的鸡尾酒是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我第一杯喝的鸡尾酒是威士忌酸。对，它是一杯酸甜非常平衡的一杯酒。然后他如果做得好的话，他可能还会有一点点奶香的味道。他虽然没有用到一个奶味的一个风味，但是他可能会出现这样一个很很神奇的风味。然后推荐一款入门款的鸡尾酒。如果是自己做的话，我就推荐螺丝起子，包括它的所有变形伏特加，然后加上任意你喜欢的果汁，这就是一杯自己调制的入门的鸡尾酒了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果是去酒吧喝的话，我推荐可能说是金汤力，或者说椰林飘香。椰林飘香它是一款椰奶菠萝，对，一款比较热带的一款一一款酒也是很好喝的。包括我刚刚提到的威士忌酸，是一款酸碱平衡的一款酒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对OK了解。感谢阿月的时间，今天聊了很多跟调酒相关的，对我现在就有很大的冲动，但是我现在这边商店关门了，我有很大的冲动跑去商店然后买点基酒，对，买点果汁？至少先调一杯螺丝起子，或者说来一个自由古巴？对，先感受一下。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你这个我想起来以前我自己有一个故事，因为不算是鸡尾酒爱好者，但是以前去跟他们去酒吧喝，因为他们会弄一些，我也不知道它算不算鸡尾酒，可能算，反正有烈酒的基底。但他会兑果汁，或者兑可乐，或者说兑雪碧之类的。然后这个酒你喝起来就因为它甜的对，然后对酒精味就没有那么明显，其实你不知道自己喝了多少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，然后我们一起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>去的那有一个哥们儿，他就是最后喝到在上厕所的途中，你懂我意思吗？他在上厕所的途中，直接就倒过去了，那就搞得场面非常的混乱，但我觉得挺有意思的。我觉得自己调这个要稍微小心一点，因为它喝起来确实不像酒很好喝。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，鸡尾酒就可以更让你更轻松的获得一个微醺的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且更重要的一个是你自己调的酒，无论再怪他都值得你去尝一口。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，所以说我觉得阿月提的第一点非常重要，就是你一定得有一个量杯对吧？要不然你自己倒一下，你根本不知道你倒了多少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，感谢阿月的时间，然后最后再给你一分钟广告时间，你可以再发挥一下。对，给大家再推广你的调酒笔记。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我先说一段，我想说是因为阿乐这个状态是我感觉是独立开发者很幸福的一种状态。就是他找到一个自己的爱好的东西，然后能够投入其中。因为有的时候独立开发，你想着说我能够从哪里赚到钱，这是一种状态。然后在二月是另外一种状态，就是我就是喜欢这个东西，所以我要为他做的东西。那另外一种状态。对对对，后者这种状态如果再能赚到钱，那就是最幸福的。然后我觉得阿月这个有那么多云股东，我觉得应该也也不远。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，应该也不远。因为我们现在APP store可能只上了一个星期，应该有差不多一两万的一个下载量了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吧？那还是很夸张的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK我我我来打一个广告，想象一个这样的场景，我们加班加到了晚上9点10点，坐电梯走到楼下，可能只有便利店了，我们剩下的时间也不足以让我们去酒吧喝一杯。那我们就走进便利店，打开调酒笔记，选到便利店调酒那个分类下面点击随机喝一杯OK。我们今晚的微醺的结果就在这里，选择乔治走在路上慢慢享受你的一杯鸡尾酒OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这个是一个很好的一个场景。对，就是在下班已经很累的时候，然后打开调酒笔记？随机喝一杯，我觉得这个场景非常好。对我今天特别开心，因为今天是我带着点私心的，因为我想跟阿乐学习怎么调酒，因为我想喝。然后我希望大家在今天听完这期调酒笔记的节目之后，大家能够对鸡尾酒产生兴趣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当你产生兴趣的时候，你不妨可以下载一下阿月的调休笔记？可以在专业知识上再加强一下？知道说有哪些鸡尾酒，然后要怎么调。哪天等你自己觉得想放松的时候，也可以点击一下随机喝一杯对吗？我觉得这些功能都是蛮好的功能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得在现在大家都很忙忙碌碌的这种环境里面，然后能随时享受这种没有负担的这种微醺，就是不会说苦，不会说辣？然后都甜甜的，也能享受微醺。对我觉得这件事儿非常好。好吧，感谢阿月今天的时间。对，然后希望你的调酒笔记后续能越来越好啊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK OK感谢下头，感谢归归。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，我们今天的节目就先到这里，我们下期再见，拜拜OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>以上就是我们本期。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>播客的全部内容，感谢大家收听，也欢迎大家踊跃留言。如果你喜欢我们，欢迎点赞并分享给感兴趣的朋友。如果你在用苹果播客收听，也希望你花几秒钟给我们一个好评。这会让更多的人了解到我们要是能再点击一下订阅，那就再好不过了。我们下周见。</p>]]></content:encoded>
-            <pubDate>Sun, 20 Apr 2025 22:00:00 GMT</pubDate>
-            <guid>6804c7a6cdd692da157ef12d</guid>
         </item>
     </channel>
 </rss>

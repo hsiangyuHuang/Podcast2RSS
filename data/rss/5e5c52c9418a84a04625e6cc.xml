@@ -4,7 +4,581 @@
         <title>硅谷101</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc</link>
         <description>分享当下最新鲜的技术、知识与思想</description>
-        <lastBuildDate>Sun, 02 Aug 2026 05:05:39 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2026 05:23:24 +0800</lastBuildDate>
+        <item>
+            <title>E247｜对话盛颖：xAI，Infra的浪漫，SGLang，开源，平权与“甄嬛传”</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a72bd82008ed7314d6f92f5</link>
+            <description>这期播客的嘉宾是盛颖，xAI前推理团队负责人、开源推理引擎SGLang发起人及RadixArk联合创始人/CEO。
+在开源模型集中爆发之际，盛颖在AI Infra（基础设施）领域的研究和贡献非常核心。她将AI Infra描述为“浪漫的关系”，是产品本身，需要有“美感”。
+由此，我们走进盛颖的世界。
+她曾经想成为一个数学家，沉浸在一个确定、纯粹、仿佛“与世界无关”的世界里。
+但从哥大到斯坦福，从形式化验证到 AI Infra，盛颖一路经历的并不是外界看到的连续发顶刊的高光，背后是不为人知的寻找方向、迷茫、停滞、低谷和重新出发。她逐渐意识到，自己无法勉强去做一件不感兴趣的事；只有真正被一个问题吸引，她才能进入高度专注的状态，并把它做到极致。
+SGLang，是这条研究路径的集大成者。它从一个学术项目成长为面向真实生产环境的开源推理引擎，也把盛颖从研究者带进了更复杂的工程、组织与产业世界。
+在早期的xAI，她获得了难得同时存在的“support”和“freedom”，参与搭建生产级推理系统。但随着SGLang社区迅速扩张，仅靠开发者在业余时间维护，已经无法支撑项目继续向前。为了让这件事真正走下去，她选择离开xAI，创立RadixArk。
+这期节目，我们从盛颖眼中的数学之美、论文和低谷聊到SGLang、xAI与RadixArk，也聊一个人如何逐渐理解自己的天性，并决定不再与之对抗。
+盛颖说，她在乎的不是“making impact”，而是那些她认为正确的事情，最终有没有发生。从“世界与我无关”，到“想要构建那个跟强力AI共存、且人类不会输的未来”，这，是盛颖的故事。
+【主播】
+陈茜，硅谷101联合创始人
+【嘉宾】
+盛颖，RadixArk联合创始人&amp;CEO，xAI前推理团队负责人、开源推理引擎SGLang发起人
+【你将听到】
+02:16 违约金、纽约与数学之美：“世界与我无关”
+16:06 顶刊、低谷期与甄嬛传：“世界又与我有关了”
+26:01 谷歌实习：最早的“AI for code”
+31:54 Databricks：人生导师Ion Stoica与“making impact”价值观
+34:37 xAI：拥有“support”和“freedom”的美好v1.0时代
+44:07 RadixArk：“两个月也等不了”
+48:07 Two Sigma：“有组织的公司”应该有的样子
+51:10 SGLang：“AI Infra是浪漫的”
+01:15:29 SandHill Road的套路与规则
+01:19:33 “养大我”的开源生态
+01:27:03 LMSYS：平等、平权，以及“她赢了，不需要被解释”
+01:37:42 “世间的美好是存在的”
+【延伸阅读】
+本期节目视频版已上线，附精校字幕及术语注解，适合想逐句细听的听友
+“榨”出硅的极限：怎么让GPU不“闲着”？｜与SGLang、RadixArk深聊AI Infra技术与千亿美元市场-硅谷101视频 及文字版
+【硅谷101听友群】
+很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏
+之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。
+在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。
+扫码加入，即刻相遇。
+【硅谷101正在招聘】
+《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！
+👉🏻点击查看招聘详情
+【制片/总编辑】
+陈茜
+【采访】
+陈茜
+【剪辑】
+Frentee Jacob
+【视觉编辑】
+王梓沁
+【音频后期】
+Amei
+【运营】
+孙泽平 13 朱婕
+【BGM】
+The Hoover Dam - Bonnie Grace
+Spring Dance - Forever Sunset
+Curiosity Cabinet - Mike Franklyn
+【在这里找到我们】
+公众号：硅谷101
+收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
+其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
+联系我们：podcast@sv101.net
+Special Guest: 盛颖.</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期《硅谷101》对话盛颖（Radix Ark联合创始人兼CEO），围绕她从江西到上海交大ACM班、哥大硕士、斯坦福博士的学术成长，以及从形式化验证转向AI推理领域的完整历程。盛颖是开源推理引擎SGLang的核心创建者，曾加入xAI为Grok搭建推理系统，后于2025年离开xAI、联合创立Radix Ark，公司成立后不久即获由a16z（节目中音译“Excel”）领投的1亿美元种子轮融资。对话涉及她的个人心路、技术取舍、开源哲学、平权信念以及对AI产业终局的判断，信息密度极高。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>从理论数学到AI推理的转型，充满“空窗期”而非连续的高产</strong>：盛颖坦言斯坦福前几年并不顺利，疫情时期有接近一年的抑郁状态，转AI方向后又有一年“没有新idea”。表面上三年发了三篇论文，实际每篇真正推动只花了三个月，“每年里面有九个月不知道在做什么”。她最终接受了自己的特质——“我只有做让我觉得exciting的事情，才有可能做好”。</p>
+</li>
+<li>
+<p><strong>SGLang的诞生是博士生涯的“收官之作”而非学术副产品</strong>：她在斯坦福的最后阶段，希望把过去所有研究“集大成于一体”，从一开始就决定做成production ready、可被大规模使用的开源推理引擎，而不是停留在论文层面。SGLang最初的设计动机是定义人与AI之间交互的interface（结构化生成语言），后来由于后端推理挑战更突出，开发重心才转移到系统优化。</p>
+</li>
+<li>
+<p><strong>早期xAI是一段被“神化”但真实存在的纯粹时期</strong>：盛颖形容早期xAI“完全没有people game、没有任何politics”，“个个都是人才、互相support、很黄埔”。伊隆·马斯克（节目中称“一龙”）建立了一种“没有边界的文化”，重工程师文化，什么事情都可以touch到。“在xAI待一年，可能是外面好几年的成长。”她将xAI排在自己工作过公司的第一位，第二位是Two Sigma。</p>
+</li>
+<li>
+<p><strong>离开xAI创业是“不得不”的被动选择，而非主动布局</strong>：2025年SGLang社区因外部需求激增而超载，核心开发者都是网上认识的志愿者，“强撑了几个月之后发现没有办法deliver”。她7月离开xAI时只待了10个月，再待两个月就能拿到第一年的cliff vesting，但心理状态已经到了一刻都等不了的地步——“我不配再继续待下去”。</p>
+</li>
+<li>
+<p><strong>infra不是小角色，infra本身就是产品</strong>：盛颖提出“写infra是浪漫的”，它与用户之间虽没有直接连接，但“这个深远影响是从底层就开始往上传递的”。她强调自己在乎的不只是系统的performance，更在乎它是“well-designed”的形式跑起来，还是“豆腐渣工程”跑起来的。Radix Ark的文化是infra first——train job可以慢，但被卡住时必须系统性解决问题，而不是打patch让它继续跑。</p>
+</li>
+<li>
+<p><strong>开源信念源自童年经历，是“空气”而非刻意选择</strong>：盛颖在江西长大，学编程时资源极度匮乏，靠互联网上陌生人留下的CSDN帖子、在线题库自学，“我是被互联网上不知道在世界哪里的人教会的”。因此分享对她来说是理所应当的。她同时指出开源的生态正在变好，但也混入了功利主义者，“让原本相信的人开始变得不那么相信”。</p>
+</li>
+<li>
+<p><strong>Radix Ark的定位不是又一个inference公司</strong>：盛颖明确表示，虽然以推理引擎切入，但公司的长远使命是“下一代AI”，不是模型，也不是现有世界上已经存在的东西。“我们并不是停在这个地方。”她因此不把其他inference公司当竞争对手，“我们希望这些都是我们的盟友”，这也解释了为什么他们继续全开源、没有private fork。</p>
+</li>
+<li>
+<p><strong>关于性别平权，她提供了大量亲历的微观证据</strong>：竞赛打得好，男生会被叫“天才”，女生则被解释为“很努力”“很听话”“运气好”；哪怕成绩比同辈好很多，身边的人会“为每一场赢找理由”。她强调“单独看都很小，但乘以一亿次就是真实的冲击”。她的LMS项目致力于孵化没有背景、没有branding的优秀人才，“如果能改变1%，我愿意用一生去改变这1%”。</p>
+</li>
+<li>
+<p><strong>关于AI终局，她认为“所有人停止”的路径不可行</strong>：没有“上帝”能把所有人安排得按部就班，一定会有人“起义”。如果AI真的超越人类，也阻止不了，“阻止它的方式一定不是呼吁所有人停下来”，而是发明另一条路径——让人与AI共存的路径。她认为今天AI取代的是人类的功能而非人类本身，但这场变革会比以往的工业革命更加剧烈。</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>看《甄嬛传》看到一半突然解出了数学题</strong>：那个理论问题的解法不是想出来的，而是在看电视时突然“回响”——她暂停电视，意识到这就是突破点。这成为她解释自己思维方式的著名例证。</p>
+</li>
+<li>
+<p><strong>哥大offer是在4·15君子协议截止后的第二天收到的</strong>：她当时已接港中文PhD offer并过了协议期，却在第二天收到哥大的普通master offer。她给父亲打电话说要交违约金，父亲一分钟内就回答“好，你去就交”。</p>
+</li>
+<li>
+<p><strong>核心开发者一起工作了两年，从没见过对方长什么样</strong>：SGLang社区“开了很多很多次会，但从来没开过摄像头”，也没人要求过。“我只要看到你的代码，我就知道你是谁”——大家只愿看这个部分。</p>
+</li>
+<li>
+<p><strong>去Two Sigma是为了“体验一把”而非职业规划</strong>：22岁时被“聪明人聚集的地方”吸引，觉得不体验会一直想，“但天天在那玩钱没啥意思”，于是只做了半年。她把Two Sigma排在工作过公司的第二位，称“我在的时候是它最好的时候”。</p>
+</li>
+<li>
+<p><strong>对采访者的意外“respect”</strong>：盛颖坦言本来差点推掉这次采访，但看到采访提纲后改变了想法——因为“很多投我的投资人都没有这么仔细看过我的经历”。她由此感慨：“一个人只要能把自己职业里该做的事情做完，就已经非常稀有。”</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，欢迎收听硅谷101，我是红军。今天我们请到了一位在AI推理领域绕不开的人，他是圣隐radix arc的联合创始人与CEO。今年5月这家公司官宣了excel领投的1亿美元的种子轮融资。像英伟达的投资部门AMD，英特尔的CEO陈立武，还有OpenAI的联合创始人john叔们，都是他的投资人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Radix ark它背后是一个叫做SGM的开源推理引擎，一个从来没有靠市场推广和销售推广过的项目，今天就已经跑在了全球数十万张的GPU上，每天为谷歌、微软、英伟达XAI生成数万亿的token。可以说你每天现在用到的AI服务器背后，很有可能就有他在工作。而SG lane的起点是2023年圣隐在斯坦福读博的最后阶段，和LMC的社区研究者一起做出来的东西。他把他称为自己博士生涯的收官之作。之后他加入XAI为glock搭建推理系统。去年他从XAI出来，和朱邦华一起把这个开源项目变成了一家公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这集的节目录制于2026年的六月初，当时是radix ark刚宣布完融资不久。下面就请收听我们视频主理人陈倩与摄影的对话。这也是一集视频播客，大家可以在硅谷101的视频平台上同步收看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常感谢摄影，欢迎做客硅谷101.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>感谢你们的采访。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看你们是刚刚搬到这个新的办公室是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，6月1号刚搬过来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们现在大概多少人？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在有四十多人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>扩张会非常的迅速吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实比我预期的快，因为我们事实上我们扩张scope增长的也比想象的快。然后各个地方都需要人，我们能招进来的人也比我想象的要更有更多qualify的kinds。所以我们也稍微有点存在，但是我们已经在控制了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天会讲一讲你整个的学生时代，到你之后的这个研究时代，再到就是你出来在X还有你自己现在start up。然后我们可以按照这个顺序来讲哈那首先你其实是大学在上海交大，然后上了ACM的荣誉班，17年就来到了美国哥伦比亚大学读硕士学位了。当时出国是因为大家都要出国，为什么选这条路呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>确实也是因为大家当时很多人是要出国，但是我其实对出国的概念知道的很晚。我觉得我从江西到本科的时候，是经历了一个很强的culture shock的一种感觉。但是我觉得我身边的人更理解职业发展，人生发展，他们有更多的规划。其实我是处在一个无知状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我记得我本科刚毕业的时候，一开始其实我甚至没有升到什么，就是我申请了美国的大学，但我其实没有拿到offer。一开始都是一个港中文大学的一批D的offer，然后我接了，甚至都已经申请了，我就有个君子协议。4月15号君子协议都已经过了的第二天，我突然收到了各大给我发了一个很普通的研究生master offer。它其实是个很普通的offer，就是很多人都能拿到。但是我当时就觉得我想接触一些新的东西。我想因为那个时候的学术中心还是在美国，我觉得我想出去看到哪怕各大的这个master program，它不是一个特别顶尖的program。但我希望我想看到然后我当时我还给我爸打电话说，我们前面PHF能不能回，我还需要交一笔违约金。但是我想出去看看，我还犹豫了一下，然后给我爸打了一通电话，但我爸非常快，就是一分钟就说好，你去就交。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了违约金。你说你从江西到上海其实是有一段culture shock的那你从上海到美国也是不是经历了culture shark也有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我确实是每每一个人都是那个舒适圈打破在早期的经历里。但是我在纽约的感受要纽约是很包容的一个城市。这个shock其实不太shock，就是我感到不一样，但我觉得极大的被包容了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>具体体现在其实什么方面呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我觉得在纽约当时文化让我觉得没有人盯着我看，没有人在乎我穿什么，想什么、做什么，我想要什么。我在纽约感受到的那个shock更多的是一个不需要被榨汁，也不需要榨汁别人的shock。这个shock是从一个被限制状态到一个完全自由状态的一个对它是个shock，但它其实是个更放松的过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挺好的。我看你在各大硕士阶段发表的论文还是比较偏理论的，主要是测试函数，然后线性回归的数学性质。后来到了斯坦福读PHD的时候，你选择了形式化验证方向。先跟我们说一下各大你从事的这些研究，其实对你有就后来的研究有产生任何的影响吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我刚上研究生的时候是没有想要做研究的。但是我第一学期时候上了计算复杂性的课，当时觉得很有趣。然后我又碰巧交了一些当时的朋友，就是当时的陌生朋友。然后他们都是做理论的。然后我就觉得这个领域非常有意思。我就找老师和这些同学们说，能不能有一些问题可以研究，研究了一段时间觉得很有趣，然后也有成果，所以自然而然的就到了斯坦福。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你研究生毕业的时候，有考虑过我要工作，还是说我要申请博士吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我一开始是没有想要申请博士，或者说我也没有觉得我不会申请博士，但是我没有盯着这个目标去，我没有对着这个目标去，我觉得它是open的。所以我也保留了这个选项，探索了一下。但我后来发现这个理论的问题非常有意思，我自己也非常享受。我当时就是觉得我甚至也不需要赚很多钱。我觉得我想stay put，我想找一个没有人的地方。我当时有一次去普林斯顿，我去参加一个shop，然后我当时被那个环境就直接包围了，进到粉丝那个校园那个环境里面，我就突然觉得与世无争，非常academic。跟哥大他也不是很，他就是与世无争，听到那里的感觉就是没有。就是会觉得你人世间的很多这种大家所在乎的东西，你平时去挣扎沉浮的东西都非常的没有意义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是学校的环境给你这样的感觉，还是说那边的人他的氛围是那样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该也是还是那个workshop给我带来的那个环境，加上那个workshop的大家在讨论的这个氛围感，那个氛围感让我觉得所有事情都是不重要的。我觉得人的想法都七情六欲都是不重要的，都是甚至看上去有点荒诞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那什么是重要的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是什么都不重要，是重要的这是一种虚无。你觉得虚无才是他真实的东西，就只有真实是重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后数学在那个环境下就会显得特别的美好，特别的优美。因为它是确定性，而且是绝对绝对化的。然后你再跟他打交道的时候，没有什么其他东西需要思考。它可以让你非常的沉静和focus，或者说你可以在这个环境里面进入心流状态，思考问题的时候进入心流状态。这个心流状态是与人无关，与其他所有事情都无关。大脑被完全的调转起来说进入一种生理性愉悦。我有点描述不出那个感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我能get到你的意思。但是这个状态我觉得非常的纯粹，就是很纯粹，很像一个会成为一个数学家的人的一个状态。但是你后来为什么没有成为一个数学家呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我当时就是很想成为书家。我当时觉得我就要成为一个数学家，我觉得我只想做数学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的发展总是不是那么简单，毕竟我还是有生活上的各种干扰。到了斯坦福之后，第一年也确实没有在，我觉得到斯坦福福就没有那个感觉了。我不知道这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>斯坦福不如普林斯顿纯粹吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>彭斯只是一场抓我我人在哥大，但是我在哥大的时候也能感受到这个氛围。我甚至现在觉得是不是西韩和东海岸其实有点这种文化的差异性。在西寒就是慢慢你会感觉到更多的这种关于成功与否的这种noise，就是你想要参与世界的推动。我又开始觉得我跟世界有关，我又觉得我不想跟世界无关。但是我在东海岸的时候，我觉得我希望我跟世界无关，我希望我被世人遗忘，很不一样的那种感受。当我在斯坦福第一年的时候，想做理论，那个时候斯坦福是有rotation program要配到，是配到了之后，你才决定你后面五年天然世界旅程怎么走。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>前面几期有些是因为各种各样的原因比较复杂，各种各样的原因没有再遇到很很让我觉得能够进入心流状态的问题，也没有跟哪一个老师能够双向的，都觉得很很exciting。可能老师们也觉得我对他的问题不是特别感兴趣，有一些情况有时候我可能也觉得那个老师我们没有完全慢时尚。最后到了第四轮跟我现在后来倒是ark慢时尚的时候，就已经进入到一个新的topic了。是Clark berry教授对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他其实是做形式化验证的一个方向，能不能跟我们的观众来解释一下什么是形式化验证？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个领域也很大，但我可以简单讲我当时做的一部分的话题，一部分的课题。我们当时一部分的课题是我们要把我们人写出来的代码进行拆解和映射，然后把它映射到底下的底层的这个数学逻辑上。你可以把这个代码映射到一阶逻辑。你在这个逻辑出来之后，你就可以从数学角度去证明你写的这份代码它是不是具备某一个性质。我更具体的来说的话，那我一份代码其实以隐藏的来说，我们是有一个东西叫做spack specification。Spark其实是说明了这个代码它应满足什么前置条件，它会有什么样的environment。然后你代码执行完之后要满足什么样的条件，你可以有这样一套语言去描述这个程序，然后你要证明的就是如果你在有这个SPA的情况下，你的代码是不是真的符合了这样一套逻辑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从代码映射到这个逻辑formula之后，formula之间的证明和推理就是我做的那个领域研究领域SMT server做的事情。然后我的研究大部分是在SMT server的那个server本身的优化。优化一方面跟efficiency有关，一方面跟正确性有关。但是它更多的是跟你怎么定义语义有关，就是你定义什么样的语义空间可以去表达你一份代码所做的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但斯坦福其实你开始深入形式化验证之后，我们看到就是开始哐哐出论文了。2020年是拿到了这个R的最佳论文奖，2022年是拿到了这个R的提名，后来又是CBC5的贡献者之一，是拿到cake as的最佳工具论文奖，太高产了。对你觉得这段时间你的一个研究的状态是什么样子的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实这个真实的过程比外面看到的这个简历上的内容要干瘪很多，其实也是要boring很多。我其实在斯坦福前几年的经历并不顺利。一个是我首先刚进来第一年的时候，找导师其实就不是很顺利，被动的进入了这个形式化方向的领域。因为我要读这个PHD，所以我才需要把这个地方不停的去做研究，产出论文是我其实比较被动的状态。当然我在做的过程中，慢慢的也欣赏到了它的美感。后来我慢慢理解这件事情它为什么有意思，以及我后来有些更多的思考。我觉得大家其实还有一个很有意思的未来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是最开始做policy那篇论文的时候，就是我迪士尼一直非常的意外。因为我当时是一个完全小白的状态，我对这个领域不知道，导师给了我一个问题，我去解决它而已。然后我做完它的时候，我也没有任何的认知说什么样是这个领域里最好的paper，因为我看的paper还不够多，所以这个奖出来的时候，我完全没有想到被别人congress时候得知拿到了这个奖。那个是我进这个领域发的第一篇论文。但是发完这篇论论文之后，其实我就又重新进入一个很棒的状态。就是我还是没有找到我想要做的下一个问题在哪，就是extension的问题在哪儿。在那篇文章做完之后，我记得就进入疫情了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>进入疫情我其实有长达一年的时间是没有做任何事情的，接近一年的时间在一个depression的状态里。但我遇到了非常好的导师kark，非常的supportive，他完全理解说我要调整好这个状态，他只关心我是不是有一个好的精神状态，只关心我是不是能够走出来，他没有给我施加任何我需要继续产出论文或者做refer的压力。他说我可以去上一些课，做一下TA，做一些这种很轻量级的事情。这段时间还回国待了半年，一个聊一期。然后我其实没有产生论文，但是卡尔从来没有断过我的经费。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那确实是非常好的导师。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>非常好的一个导师。然后我一年之后才慢慢走出来，之后才又做了sequence的配方。我们前面也有过很多挣扎，证明应该是写了二十多页，来来回回改了四五次，而且有两次我几乎是全部推翻重写的。那个证明已经花了一两个星期推出来的证明世界的证明全部推翻。因为你从一开始的地方发现有个基点错了，那个错了之后，后面所有的后续推理全部是错的。所以那个证明从前面要一直fix到全部重新去全盘重来。但是这个过程走完之后很有成就感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最后这个证明完全写完之后，比一开始设想的要复杂的多很多。我们都觉得这段证明写出来和这段经历非常的accomplish，就是很很有满足感。我记得那个时候柯尔克自己也说，那篇paper里的证明是他过去一年的highlight，当时也是best paper提名，但是没有被公开，就是大家讨论过，最后没有被选上，但是很接近。如果说我在形式化工作的话，这件事可能是我觉得最愉悦的一段时间。从这篇paper开始，我开始看见了形式化理论的这个里面的一些深刻的含义和和它的优美之处。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它的优美之处在哪里呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它让我理解了程序语言设计的几个不同角度，就是形式化的这个方法去设计语言。它是从数学的角度去理解程序语言的程序。我打了很久很久的交道，我打了20年的交道了，但是我从来没有这样以这样的角度去去看待过他。然后他给我了一个全新的视角，但是你会发现程序语言里面它有很多的trade off。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不同角度上，有一些语言更接近数学，有一些语言更接近硬件。其实很难有一个支点，让你一个语言它离数学和硬件都很近。接近数学的语言，它会更容易被验证，更容易被形式化。接近硬件的语言会更灵活、更高效，更接近人的思维习惯。就是当你需要编程硬件里面的具体运算的时候，那样的map就更直接。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后没有再往这个领域继续的走下去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是因为什么呢？我看到了他的有意思的地方，但是我也看见了它这个领域的局限性。它能够在现实中practically被应用的场景太少了。然后你要验证一个程序太贵了，但是它能验证的又很少，不能产生足够大的影响。但是我觉得我想离世界更近一点，我还是想要做更接近真实生活的东西。当时觉得所以我那个时候就开始探索AI，开始寻求方向转化，开始探索AI这个过程其实也不太顺利，可能我又有一年的时间的空窗期，就是你看上去我的publication没有停，但其实我经历了很多的空窗期。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>外界的空窗期跟你自己定义的空窗期是不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我自己定义的空窗期就是那段时间我没有做任何，我其实没有make progress。在我转AI的时候又有大概一年的时间，我其实没有任何新的idea，我实际上没有做任何事情。可能长达一年之后，我突然某个时间找到事情可做了之后，我三个月阐述了一件事情。但是外人看来你会觉得那个作品是我过去一年的成果，实际上它是我过去一年里最后三个月的成果。九个月我都在这个肉的状态，完全不知道自己在干什么的状态里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我非常理解这个过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就像我们记者写稿子也是一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你给我一个月的时间，前面29天的时间我都在做research，或者是放空，或者是采访。然后我其实这个稿子就是用一天时间写出来的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你看上去，比如我形式化，我可能发了三个paper分布在三年时间里面。但免费需要真正的推动，其实它都只花了什么三个月的时间。然后我这三年里面每年都有九个月不知道在做什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你不知道在做什么，你可能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是在在迷茫。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>想要去找到你想解决的问题。因为我听下来是说要去找到一个你真正感兴趣的问题，并且解决它，真的是你的一个driver.</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个驱动力。是这个是就是我我确实有一些特点，就是我没有办法妥协，我后来服从了我的这个特点。就是我原来在不理解我自己的时候，我尝试努力去适应过一些规则。但是我后来发现我自己是不能被勉强的，就是我没有办法做我不感兴趣的事情，没有办法做好，我能做，但其实我没有办法做好，我只有这个事情它让我觉得非常exciting，我才有可能把那件事情做好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个特别纯粹的一个性格。你当时什么时候发现说这个性格就是这样了，我必须要去服从我这个性格呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是一个缓慢发展的过程，倒也没有某一个时间点突然顿悟了。它是一个我慢慢意识到已经有终于有一天我完全接受他了，一个状态。我完全接受它可能是在博士的最后一两年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你本身是一个喜欢intense的人吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是一个必须intense的人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从小就是这样的。对我觉得从你发paper的那个数量跟节奏就能看出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我没有办法，就是我哪怕睡觉的时候也会一直做梦，就是我没有办法停下来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你做梦也会梦到跟你研究或者工作相关的那肯定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>会肯定会会，大家都会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你那时候的梦是完全无关的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我都是还是还是挺有关的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都是生活。就说明你在睡觉的时候，你的前四位其实还是在工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也可能是生活就是工作生活。但他一般来说都不是没有任何关系的东西，但肯定会有虚假的成分，会有想象的空间，但是它不会是毫无关联的。我觉得我PHG经历的那段depression的时期，就是因为那段时间太无聊了。因为疫情的时候大家都slow down了，然后我根本没有办法在一个slow down的环境里面保持我mental的healthy ness。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就是一定要忙起来，然后才能让你健康的运作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不一定要忙起来，我不想忙起来。我master做那个siri研究，做数学研究的时候是不忙的，那个时候你是很沉静的。因为那个问题他就是你除了看着一张纸在那想，其实没什么能做的。我看上去很闲，我每天还我每天可能也就想4个小时，然后工作4个小时，然后我就去打游戏了。其实我妈是打之前打了好多游戏，因为那个问题都太难了，你没什么事可做，你只能空想。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在打游戏的时候也很intense.</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧？其实也没有，我觉得那个siri非常不一样，siri就是有很多灵感，你只能等他来。其实你没什么事情，可能你只能在等你等等的那一刻来临。所以我有大量的时间去打游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是游戏转眼就按灵感来了。然后去写一写是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我当时那个题目做解出来就是在我看电视的时候想到的对，我也不知道为什么，但是确实那个contact是我看电视之前看的一篇paper，然后我就开始看电视去了。看到中断的时候，不知道为什么那个paper的东西突然回响了。Echo说然后突然又又想到了他会点那个点，突然意识到这个地方可能是一个解法突破点，那个就是关键点，就是你那个问题被解决的那个事就发生的那个瞬间，那个是真的是有一个face transition，那个是一瞬间的事情，就是那个时刻好是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个问题被解掉了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后那个电视剧看到那一半，你突然我怎么突然开始知道怎么解决这个问题了，暂停。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢。你还记得是什么电视剧吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>甄嬛传我就我真的记得太太神了。我一般是在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>洗澡的时候会有灵感，突然就也会有。但是电视剧我觉得我很少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为看电视剧你还是要很沉静的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是就看起来你看电视剧的时候，你的潜思维感觉还是在一直在思考一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我会就前面说到我跟我自己和解，我是怎么和解的呢？就是我以前不知道ADHD这个东西，那有一天我就慢慢的了解到了有一个东西叫做ADHD。然后我看完那个各种症状深入理解之后，我发现好多东西都可以被解释。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得你是ADHD.</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我确实是会经常要看心理医生，但它不是一个疾病，它是一个特点。学习之后我发现好多事情被解释了。我就它给我带来最大的帮助是我通过理解它而理解了我自己。像是我找到了怎么使用我自己的一把钥匙，我突然知道了就是手册有了。对对对，它是一个手册。我突然知道就是我不应该腻着我的那个短处去，我不应该腻着我的天性去做事情，我应该顺着我的天性去做事情。他告诉我这件事情，然后一旦悟到了这个之后，很多事情就迎刃而解。其实你你其实很多事情你是不要勉强的，是没有必要勉强的对对，所以我前面说的，我只能做我喜欢做的事情。当你把这个当成真理的时候，你就不再跟他对抗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>特别棒。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我们聊我刚刚说这个是因为对可能我已经开始有点这个症状显现了。它的这个特点之一，就是我看电视的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也是不focus的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我看电视的时候我也会跟不上那个电视的内容，我经常要回退OK，我经常要往回拉。刚刚讲了什么30分钟视频，我经常看四五十分钟才把它看完。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说你自己在做research或者你在工作的时候，就是什么样的时候你会非常的focus，什么样的时候你其实是没有办法focus的呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我自己特别被他吸引的时候非常focus它，这个是两极化的，就是我focus的时候非常focus，focus的时候我会听不见别人叫我的名字，不记得时间，不知道外面发生的事情，会错过很多的meeting。然后不focus就是根本没办法focus，哪怕这个事情很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也不会看甄嬛传的，没有办法focus。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说明针管上不够吸引人，但如果够吸引人我就会非常focus打游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会非常fox打游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>非常focus。有一些运动竞技性运动也会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他需要非常的intense.</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是非常tense，它要非常激烈，有他要competition游戏的话，你是对打完有输赢，球类运动也是你有输赢。这个时候的时候我就会非常focus.</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你是一个好胜心很强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的人我觉得我不是真的很在乎输赢，但是我在乎那个intense的感觉，我喜欢那个感觉，我其实不在乎输赢，我游戏可以输，打比赛也可以输。SOK我也不会觉得我非要赢，但是你这个机制收集进去了之后，我会很享受那个心流状态。还是那个我喜欢心流状态，你的大脑被抓住，然后你就是非常心流。人非常focus时候，那个应该就叫心流状态，是很享受的。所以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>打游戏研究学习这个上面，你都可以获得你的信用状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，学我喜欢的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以再提一个你大学的问题。然后我们到这个公司上面来，就竞赛圈，它其实是一个很有那种天才标签的这样的一个圈子。对你觉得就是天才这个词在你身上安的多吗？很多人会跟你说，这同样是个天才。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不多是不是？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你就是拿了这个竞赛的金牌之后都没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我没有拿金牌。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先对，你是拿了全国信息学奥林匹克的银牌。但是我记得你好像是在纽约的一个纽约那个区域赛冠军。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>区域赛冠军。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK那个区域赛。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>冠军也是组队，就是三个人一个小队，也没有说是我个人成就。我的队友其实非常强，非常运气好，有非常强的队友把我带黑了不不是经常肯定有啊，但是小时候更多一点，后来不是经常。因为虽然有这些拿到这个奖项，但好像其实都不是。就比如说那那银牌不算啥，还有很多金牌选手。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以对就看你跟谁比。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我在的那个环境里面，他们总是有比我更强的。你比如说我在SM，SM里面有比我更强，有很多比我更强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就是你觉得努力这件事情更重要，还是天分这件事情更重要？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我赞成天分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得在研究上面，天分它主要表现在什么样的方向呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>天分是指当外界人不把研究当回事儿，不觉得研究是件伟大的事情的时候，你还想做它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就是你的天分。那是要兴趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得大部分时候天分和性相关性还是蛮强的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这么说，可能很多人想当switch，但不是很多很多人都能研究出来或者解决这个问题。你能解决这个问题肯定是有你的天分在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，是有天分的。但我其实首先不觉得大多数人真的想成为。我见过太多的人，他们想做研究，想成为这些事，是因为他们觉得这件事情酷，是因为外界的环境让他们觉得这件事情很酷。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者当教授是一个类似。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>反正就一些原因，但这个并不是。如果说当所有人都开始觉得当教授是一个被人唾弃的职业的时候，他们马上就不会想做了。就你你这你能识别出来。但是在我当时想做这件事情的时候，其实我是比方说我在的环境里面，其实就大家你没有觉得做theory是件多么伟大的事情，然后你赚的钱也很少。但是你还是想你，还是觉得它有意思。我想做一件事情，是因为我希望跟别人无关，是因为我享受relevant。那个时候才是你真正的所谓的兴趣和天分所在的时候。我也不敢说我有天分，我毕竟也没有发明过什么，也没有什么巨大的数学成就，我也不能算有天分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你肯定是算有天分的，不然的话你paper怎么能发那么多？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有很多人paper发了很多，比我发的特别多的人还有很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那可能就是更有天分的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>发paper只是一个发paper，是有有套路的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么套路？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是发挥per，其实你如果掌握了发挥的，发挥本身是一个技能。发paper跟做resist这两件事情，发paper跟人们定义的作者设置和真正意义上的科学家是三件事情。OK发paper是有套路，你完全可以一个人他就根本就不怎么懂人事，他也能发很哗哗啦发很多篇。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像一个是一个什么命题作文一样。是不是你套或者他那个框去写就可以了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是你只要掌握了这个规则，然后你掌握这个体系的规律，在同样的规律里面不停的产出，你就可以一直发很多的配置。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是顶刊也很少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不少了。现在顶看一年都几千篇上万篇。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这么多人去投稿的话，那顶看还是算少的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那肯定是有spectrum的那肯定那那我可能还是比average要有天分，一对就是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>掌握这个套路本身就是一件有天分的事情。所以你说发菲博尔跟做研究，跟当科学家是三件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>做研究不跟打工人是一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跟打工人是一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是一个非常平凡的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK做研究跟当科学家这两者有什么区别吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>做研究的话就是有有很多研究，他们其实是不break through的，也是不key的，但是不是没有价值。所以做研究它仍然是一个职业，它只不过是一个职业，只不过是我们做。我作为一个researcher，我喜欢享受做研究。所以我在这里做研究，而并不是我比别人更有天分。我没有天分我也可以是个researcher，所以researcher只是一个职业。但我所说的科学家这个名词我可能也用错了。但我就说还有另一类，就真正在推动人类知识边界的人是非常少的。然后这批人一般来说，但我的也很高，就是在我眼中真的在推动这个推动就是指如果不是他这个事情会晚很长时间发生，这个是被我定义的。所谓真正的科学推动者就是推动人类边界的这批人。这批人就非常少了，绝大多数的教授可能都不是，对吧？教主教授还是在第二类是researcher。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以jeffrey hinton，然后杨国坤，还有就是图灵奖的这三个人，你觉得他们是科学家吗？或者是你定义的第三类人吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该吧。不过我没跟他们直接接触过，所以我还是不给我直接评论。我非常在乎一手信息的，我非常在乎true city，我不想评价我没接触过的人。但既然他们世俗成就这么高，他们应该你在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谷歌实习是什么时候？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>22年的暑假。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该是在谷歌实习了之后，你想要转去做AI的。还是在谷歌实习之前，你就看到了这个方面有非常大的一个前景，然后发展的很快了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是在去谷歌之前就想要转AI然后我是因为想转AI所以找了那份实习，那份实习是AI for code。我之前也尝试了一些其他的纯AI岗，他们都不收我，我都没有拿到机会。这个岗位跟program analysis有一点关系，我因为这个背景被招进去了，所以我接触到了AI但我其实是因为想接触AI进去的。但是我进去之后发现当时的人们做AI for coding的时候，还企图利用一些原来的programming里面的他那或者说是什么的非常的无力，其实什么忙都帮不上。AI人的幻想说我是不是可以利用一些另外一个领域的工具，交叉学科的这种。这种希望利用另外一个领域的工具来帮助更好解决这个问题。但是我作为从另一个领域过来的人我其实发现这个工具非常的无力。当时就是看到了那个大模型已经是coding支出，相反我反而看到了大模型其实已经把传统的这个领域里的技术都完全覆盖了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个时候其实还挺早的，22年他应该拆GPT，它还没有出来。但是在谷歌内部，大家其实已经看到了这个方向了，是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我估计其他的公司肯定也是有的，但是确实差距比还没有出来。那个时候是谷歌刚出泡，然后内部有那个lada大家其实已经有所感觉，只是没有到全民爆发的阶段。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时好像有个多的程序员，他号称lamda.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是对就是那个是对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是那个时候那个时候我们还做了个报道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后还讨论了一下这个AI是不是有意识的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是那个时候的事情，我相信很多程序员他们可能也是第一次或者是很新鲜的一个感觉去接触AI，才会有它到底是不是有意识的这种讨论。在那个时候，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实已经有确实已经很多人是已经看见了那个潜力很大的潜力。但是当时的模型潜力离真的生产code还有挺大距离的。我记得当时都是做一些生成1 200行的代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时你们那个小组有多少人？A vocal的小组。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也是一个谷歌内部孵化的创业项目，里面就google x里面全职应该我其实有点不记得，但好像一二十个人。然后那个暑假他们非常激进，他们想要尝试很多方向，所以他们招了跟全职等量的英特，让这些intern全都去尝试，疯狂尝试不同的方向，他们希望能从中看到一点东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后来这个international结束的时候，大家看到了什么东西？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得当时那批人其实很多人后面还是很多人就还在做code。那段经历对我的影响很大，他让我看见了，因为我原来是不知道AI是怎么什么事情的一个人。对我进来就看见了AI原来这么多powers，我发现原来根本就不需要什么显示的reasoning，我是被shock到的那个人，它让我非常坚定的进入了这个新的topic。然后我就要做大模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，大模型其实也有很多分支跟不同的vertical。但是你选择了做inf a的那个赛道，为什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实也不是我选择，我其实也尝试了那个不是英特尔赛道的，就是分析一下算法上的事情。但是我发现我更适合英特尔，我那边可能没太成功，infrared成功了，所以最后登上的就是我的爆发都在info这一侧做。Info跟我的思维习惯更接近，它是reason的，确定性的，基于数学的，然后基于代码，数学和代码这两件事情我都很熟悉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那能不能说一下就是你最开始做SG lying是什么样的一个契机？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我转了AI之后，最后PHD2年就是在做LM inference相关的很多work。这是我的第一个work，连续的一系列work到S让它类似于成为了一个收官之作。我那个时候就是PHD我可以毕业，然后我也觉得我已经做了很多不同角度的research，但他们都比较local，但实际上是我希望把它们都集大成于一体的一个作品。所以在这样的时候，我们就开始把它做成开源，然后希望走向的是product。这个从一开始就想好，从作品上之初就希望它是做成一个production ready，可以被广泛使用的特定引擎，被大规模使用的特定引擎。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你在做SG0之前，VLM已经推出了半年多了。你之前其实在VLAM也是做了一些项目的对吧？就是为什么已经有这样的一个东西，自己还是想要做SGA呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个历史也比较长，我在VM的research paper上，这个其实也是我本来自己在做research。然后其实当时我听到有这个VM项目的时候，他VM当时的idea跟我们在思考的另一个idea是类似的。所以其实当时我是被说，那那既然我们idea类似，那我要不merge进那个项目。在我的视角里我是merge进了那个项目。因为我觉得这个项目已经在做了，我想做的事情我要我们做开源其实是paper之后的另一个节点，并不是在paper的时候就是一个开源项目。真的把它推成开源了之后，你就要做很多除了research之外的，就是不仅仅是innovation的事情。你要做项目的维护，社区的维护，还有很多engineering detail的琐事。那段其实我就没有太贪心，那我还在做，继续做我自己的其他的research，包括SLASN and fairness这些事情，就是survey里面其他的问题，我继续在做research。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>S是一个想要把我的思想能够在一个地方继续往上推的地方。本来它也是以某一个innovation为起点，然后去做成一个general engine。在我看来是当时有很多这样的测评engine，它实际上是其中一个并不是存在我在VRM的这个ending里面，然后做到s ending里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说SGLN跟VMM的核心差异性有吗？还是说其实大家都差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不同的团队做出来的肯定不一样。但是差异性它随着就如果你你不把时间维度放进去的话，他们是会类似的。因为相互会学习，如果你有好东西一定会相互学习会看而止。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是你如果把时间放进去的话，那每个时刻可能大家会有不同的侧重点。比方说实际上在在更更早的进军了这个scare up的方向。就是把大规模的serving production这种千卡级别、万卡级别的serving，甚至千万卡级别关卡级别就做好了。为我们可能在这个社区的覆盖lon tel模型的支持上做得更早。所以大家的focus是有所不一样。但是你现在去看的话，可能两朋友都在又在互相学习。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>来补齐短板。你在data bricks不是也做过五个月的时间？当时公司的联合创始人之一yon sta，对，也是是之前伯克利的教授，他跟你有什么样的合作吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他是我在伯克利visit时候的教授，所以我们在伯克利的时候就一起做了很多的research。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他对你有什么样的影响呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在专业水平上给我带来了很多inspiration。我我其实我跟elsa我们还一直保持联系。除了是我那个时候的research的一个mentor之外，导师之外，他也是我可能lifetime的一个matter，就整个lifetime一个matter那样算，还是一个很特别的人。当然他这么成功，那肯定是很特别的一个人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得他特别之处在哪里？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他其实是个很立体的人，他做很多事情对吧？他同时开很多公司，然后是一个教授。但如果你真的靠近他的话，他的骨子里他最自我认同感高的还是教授这个身份，就是教授和学生，这个是他所有身份自我认同感的。如果你追溯到根源，这是他的根源所在。他很在乎making impact，impact可能是他做所有事情的动力之源，他也把这个精神传递给了他的学生，他的底下的学生和跟他去共事的人可能都受到了这个影响，就是making impact。但我其实不一样，我其实在另一个价值观里面，但是我我但是我能理解到了这套价值观。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以making impact不是你的价值观吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，不是同一类价值观。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你的价值观是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我在乎的不是making impact本身，我会在乎一些我想要make的impact。如果我觉得有一种impact，我有一种价值观，我希望它被执行和被推向这个世界，那么我就会非常努力的去推动它和希望它发生。我会尽一切努力，但其实我不是完全care这件事情是不是我推动的。别人推动也可以，如果有人愿意帮我把这个事情推动，that&#x27;s great.</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但一般来说不会有这样一个人，但是我慢慢学会的是我真正自己想做的事情，没有人会代劳，因为他有他想做的事情，别人有别人想做的事情。最后你自己真正想做的事情，你其实只有自己去坚持不断，你只有自己能够长时间的去为那一件事情所奋斗，然后让它发生。所以在这个逻辑上，我觉得是有一些微妙的不同的。我在乎的是impact的，不是making。所以就是在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外一个价值观说就是making impact有可能是非常的说我希望我个人有impact，但是你更在乎的是这件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我更在乎有一些我觉得正确的事情发生，这个有时候会让我显得很opening，因为我会有些事情我有观点，然后会非常希望我的观点发生。但我其实不是在乎他是不是我的观点，而是就是这个观点我somehow被他in trick的被他给吸引了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们说一下你在XAI的一些经历。2024年10月份你是当时加入了XAI，当时为什么选择XAI呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我当时PHD刚毕业的时候，想要推广HR这个项目。对我so far我从我开始坐在身上之后，我的整个画面都跟身上紧密相关。就是我当时刚去dear boss时候，想要在dear boss面推广它，然后我在推广的推广是这样，或者说我至少找到一个地方可以好好的developed它。我也不一定说它能够取代所有的stack，但是我希望它是给我一块地方可以能好好develop的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我在刚加入的时候，我觉得data Grace跟我说有这样的自由。但是实际上data brase里面的业务模式还是不那么一样的。而且那家公司毕竟是一个已经很成熟的公司，它不是你可以随便说我想做什么，你就做的事情。他做每件事情都需要理由或者充分的理由。然后我作为一个researcher new grad researcher进去，其实也没有太大的power，我自己也不够成熟。就是你怎么在一个企成熟的企业里面去drive一个比较大的effort，我还不会这件事情。所以我觉得当时那几个月没有尝试，没有特别成功，可能也造成了一些影响，但不算特别成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>XI的给的这个机会就是他愿意去支持，我和怜悯是我的housman，他已经在XI那个时候那个时候在开发之前还是在做垂影。但是正好XI到了一个节点，就是需要去做production instance，然后就有了这样一个机会，我和联名可以去XI共同build整个inference step整个inference的这个lotion和team。所以他可以给我两样东西，一个叫做support，一个叫做freedom。同时有support和freedom时候我就能做这件事情了。所以我就选择加入XR线。当时应该只有XI真正给我这两个，我有一些其他的机会，有些是只给散户，有些只给的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实我觉得能这两个支持你去做这个事情，跟要让你自由的去做这个事情，这个机会其实是蛮罕见的。是不是？也是因为XCI那个时候比较早期，所以才有这样的机会。是的，那个时候的XI是什么样子？能不能就在你能说的范围也来给我们描述一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得是我生命中非常重要的一部分。虽然我没有工作特别多年，但是我在很多地方工作过。XI是我回忆最美好的XI时光，是我回忆最美好的一段时光。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这么高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且我离开XI的时候其实也非常不舍。我离开XI的时候是因为因为S一上的开源的一些需求到了一个节点，我觉得我不得不去出来把这个软件新的公司服务起来，然后让我们社区能够很好的继续发展。如果不是因为这个原因的话，我是不可能选择离开XI的。因为也不是说我完全不可能。但我说就是非常不希望也不舍得离开FCI，而且我觉得这个想法不是我一个人有的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我知道在我们早期的那一批员工里面，大家都有很多人有类似的想法。甚至有些人可能在XI的工作已经有点承受不住了。因为压力强度都很大，但他们还是一直在里面坚持，就是因为他们不想离开这群人。我的想法是类似的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以是这群人你们形成了一个非常好的一个team的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我觉得是我觉得早期的XCI，我还我在之前的XI我所体验到那个XI是一个个个都是人才，你们个个都是人才，然后大家互相之间也都很很support了，很friendly，很appreciate，很黄埔。这是我当时XI给我的印象。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跟你的价值观很像。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我觉得非常的就是我觉得当时在XI我能够非常专心的多事情，没有太多的杂念，而且大家都是这样的，就是大家都能够非常直白的做事情，都知道把事情做成最重要。我经历过那么多公司，在d shock之前，那是我第一次经历到一个team，一个公司里面完全没有任何people game，没有任何politics。当然后面可能慢慢的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也会有的公司大多少人？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不到100人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我加入的时候，100人没有politics还是挺难的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能也有我没有看见，但是至少我看见的范围里面我没有看见。不好意思，我很幸运的在一个我能够非常好的思考问题的那个环境氛围里面。然后我只要思考怎么做事情，然后我身边人他们也在思考怎么做事情，大家也会有一些摩擦，那很正常。但是是一些不影响团结的摩擦，这些摩擦是不影响we were always together。我觉得现在我们在rap是带过来的这个氛围的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好棒。你把你在XI的时候描述是V1.0，没加入之前是0.0，现在是多少？3.0、4.0.</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也不知道大家怎么定义了，因为后面就是我也不在了，我只能听听大家的说法。对，但是我能够感觉出有那么几个阶段。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以0.0跟1.0的时候是非常美好的。对，然后一浪的重心也不在你们身上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>0.0的时候应该是一龙不怎么在，10.0是我听说的，我不在0.0。那个0.0的时候伊朗对大家都非常的nice，0.0应该是非常美，好像一个family一样。1.0的时候其实已经开始生长了，我已经开始有有这个生长痛，1.0的中途又回来了。但是我觉得就算在那个时候，1.0里面产生的阵痛，大家也还是共同克服难关的。我没有感觉到军心有什么动摇，我觉得大家都非常团结，然后也彼此照顾。我觉得那个时候是彼此照顾的状态，就得了一段战友情的这种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这段故事特别珍贵，是因为它跟现在大众对XAI的一个认知差距是非常大的。因为现在大家的认知说，就前段时间XI的扣放的全部都离开了，either被法人或者被little for自己辞职的。就感觉这两个narves就好像在说两个不同的公司一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>确实很不一样。因为后面公司大的，我觉得X3是没有过那个阵痛期的，是没有过从很小的很团结的一个是变成一个需要靠体质来运转，而不是靠人来运转大公司的状态。它这个过渡期的阵痛是没有很好的抚平掉，所以产生了这些巨大的变化。但有一天他可能又会找到一个新的solution。因为X还在那里，新的人员在，新的组织架构有限，他可能会找到一个新的solution，但是可能就是一个another company。是从人脸上来看的话，反正一龙还在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这是最重要的。然后又被SpaceX收了，马上要上市了对吧？那这一段我觉得就是对组织架构的一些震动期。因为你你肯定有你的观察，你觉得对你之后做start up，因为你们现在也是几十个人对吧？然后可能很快你们会上百个人，几百个人的一个规模，会对你有什么样的lesson 2D吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有的，我觉得我们现在就在一个很美好的时期，其实我知道我们现在一个很美好的时期，就是这段时间大家会一定会成为他们以后，我们所有人以后人生中非常珍贵的一段回忆。但是我们也一定会面临那个挑战，scare up的挑战。对，就是你在人少的时候，你是可以通过文化，通过人的管理去实现运转的。但你skill上去了之后，其实文化就很脆弱了，人也很脆弱了，个人能力都会变得很脆弱。那个时候你能不能把公司做大，能不能把一件事情照顾好，更多的就是看你的system build怎么样，体系build怎么样。最后是靠体系去支撑的，而不是靠人去支撑的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个转变可能我其实不知道正确答案，因为我没有经历过。但是我能学到的lesson就是这个过程要非常的intentionally的thinking，它不是一个会自然发生的事情，它不是一个你只要公司这个计划有，然后往前move，然后有scope有事可做，你就for granted会得到的东西。他不会，如果你不pay attention，它是会broken，它就会broken。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你当时主要任务是什么？就是当时你在那个XI比如说给brock构建推理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>系统的时候，我们是负责ending那一块，然后我们要同时服务其他很多组。包括products，products是他们会部署做做deployment，然后我们需要跟他们对接，然后他们遇到问题回来会抱怨我们说N这里面可能有什么事，有什么问题，我们也要帮忙的。Deployment上的一些协调configuration什么的，也要跟research team合作。Research am做evaluation。跑r row out用的也是我们的engine，所以我们也要去支持他们这个work code里面的各种适配。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后当时在XI的时候，因为它整个的算力系统也是非常的庞大，对吧？然后他后来也买了非常多这样的卡。你觉得就是在整个的过程当中，比如说你是不是在里面受到了full stack的训练，然后这对你来说产生了什么样的影响呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我觉得在在的是机会，就是能看到是因为当时team想，所以能看到。而且XI我觉得伊隆还是赛特一个我很喜欢的文化，他他有有一些有一些他的问题，但是他有一些很突出的地方，而且我很喜欢这样就是一路能set一个没有边界的文化，一个没有边界的文没有边界的文化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是在XI里面，至少我还在的时候，我觉得任何事情我都是可以touch到的，我不会说当然组与组之间是被隔开的，然后你必须限制在一个很小的scope里面，只能做这一件事情，让你不知道外面发生了什么。Excel面是不会这样的，然后也没有特别多的people management。Excell里面都是technical，而且它非常重工程师文化，所以你做事情可以非常直接。然后这样一个文化就使得我能够看见很多很多的laar和很多个component之间大家是怎么合作的，事情是怎么发生的，它作为一个整体是怎么发生的。这个给我带来非常大的成长。因为原来我确实没有办法看到这么多的东西，并且在X3因为强度很大，压力很大，然后人都是被串出来的，就是你一定要intense。你只有经历过那个intense，你的成长思念，就像你健身，你一定要很累了，你感觉到痛了你才对，基本是会长肌肉。XI的这个intense它给我们带来的成长就是可能你在那里待了一年，你可能在外面是好几年的才能拿到的成长。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你当时是决定说SGA想要把它商业化，然后去成立magic二是一个什么样的时机点？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个是因为当时在25年的时候，前面有几波浪潮把HR推到了一个还不错的被关注点。然后有很多的需求向我们涌过来，想要使用和让我们参与一起开发之类的。但是我们社区S上社区是一个，虽然最早我们也是大学里面做了一些研究，但从很早的时候开始，实际就已经变成一个纯社区项目。就是我们的核心开发者都是网上认识，我们都是网友。就跟我小时候在网上学习，大家可能都没见过面，没见过面。就现在还是核心开发者，我们已经共同工作了两年了，我还不知他们长什么样子，有好几个是这可能里面好像有那么几个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不知道他们长什么样，下次年会的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以把他们请过来。我们已经开了很多很多次会，但是从来没有开过摄像头OK，然后我们也从来没有要过要求过摄像头，对方开摄像头，大家是有一个默契，这个默契就是我只要看到你的代码，我就知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是谁啊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也只想只看到这个部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以开摄像头或者是认识真正的认识对方这件事情不重要。还是说大家都是爱人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以不想开摄像头。我觉得大家没有挨到完全不想看摄像头，没有这么夸张。我觉得是他他自然到你根本没有想起来这件事情，没有说大家拒绝开，但是自然到你根本没有想起来这件事情。对，是个这样的社区。但是这样的社区也会导致我们大家其实没有那么的有组织纪律性。虽然大家都很有热情，然后也非常在乎这个项目。但是你还是很难说让大家有时间去把项目非常严肃的给它做好，做成一个成熟的高质量水准的一个项目水平。对，除非我们有自己的公司，变成我们的服务台。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>照大家其实有自己的服务，也只是是说其他空闲的时间来为这个社区做贡献的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是晚上熬一下夜，然后通个宵，然后周末再工作一下，放假的时候过来写代码这样子去维持。但是我们当时的增长是快到你不可能用这样的方式去维持。那个时候接到的很多需求，我们想要去抓住这些机会，想要跟对方合作，想要deliver一些东西。但是我们还是强撑了一段时间，但我觉得强撑了那几个月之后，发现的就是没有办法deliver。其实大家都是很想deliver的，你觉得我们已经不能再stretch了，你知道这个team已经不能再stretch了，它就是被team的Better限制住了。没有办法很好delivery是一空飞过，或者甚至没有成功结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以到了大概787 7月份那个时候就已经我觉得我自己的焦虑已经到了一个。我觉得如果我们再不出来做这件事情，我再不把这个背后实际上的空白，就是这个是个中空的状态。我再不把这个空白填充的话，我们就快要让外界失望了。我自己焦虑到了一个我觉得我没有办法再拖的这个状态里。所以我从X.</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>I出来应该放弃了很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>经济上也也没有也没有，那，因为而且怜悯他在于他比我多。就是但我确实是每满一年，就是我是万一Cliff的，我出来说是十个月。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我只要再待两个月，我就可以拿到我的那个第一年的vesting.</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以两个月都不能待对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为等不了了，等到7月份已经是等了很久了。其实我可能五月份就已经有点受不了了，到7月份时候已经实在是受不了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果不出来的话，可能这个社区就两个月都等不了了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是吗？对，大概是这样一个结，就是我的心理状态到了一个我没有办法focus做XI的事情，我已经没有办法productive的生产我对XI的价值。但是我不能忍受自己在一个如果我是再一次在上班的，我就觉得我要对他有用，不然我就会觉得我不不配在这个地方。所以我当时已经到了一个我觉得我不配再继续待下去的那个心理状态了，他不是我能控制的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有刚才问了我问一个问题，就是你觉得金钱对你有任何的重要性吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有必须性，没有重要性。它的必须性来自于有金钱可以让我解决很多事情更容易，这个我可以尝试，我承认我没有追逐过他，但是你真的说他们不重要吗？我也没有到那个程度能够给你带来的底气就是比如说我想创立这个公司，如果有一天我融不到钱，我还自己还有钱，这是他他对我的意义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>忘了提一段经历，就你在各大毕业之后，其实是到了华尔街的一个对冲基金叫two sigma里面是工作了有几个月，是不是没有工作到一年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有半年OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那段经历是什么样子的？就是在一个华尔街非常大家觉得说纽约就华街上纸醉金迷。然后在一个对冲基金里面，好像跟你之前做研究的这个氛围是不是会完全不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但我们那个对冲基金是一个tag对冲基金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我知道你其实我还是很对tag的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我当时确实是想要接触金融，觉得挺有意思的。然后我有一任前男友是学金融的，这个剪掉我一定会发出来。所以当时我确实是对那个只觉得竞争挺有意思的，然后有点好奇。就当时量化大家的说法就是那里面的人很聪明，是都是那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是好多PHD什么学物理的就好多PHD。后来我们学校都去量化了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我不知道为什么就是喜欢聪明的聪明人说话，我喜欢做有挑战的跟智商挑战的事情，所以他这个特点，他当时吸引我，当然这个也是吸引很多其他人的原因。那个时候我也就21岁，22岁单纯的被众人吸引。然后我觉得我要去体验一把，我觉得这个事情我要是不体验的话，以后我会一直想着它。但是我又觉得金融不是我的人生追求，我就觉得天天在那玩钱没啥意思。对，所以刚好PHC中间隔了有个半年的gap，然后完成一个体验挺好的，我就去那里做了半年，那半年的回忆也非常好，如果让我排序的话，我工作过的所有公司排第一的是XI排第2 to .</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>sigma哇哦评价那么高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我听说二我在的时候又是他最好的时候。我很幸运，我每次在都是真的最好的时候。后来可能就有些变化，但是我在的时候是to c最蓬勃发展，甚至拥抱开源。他们那段时间to c那段时间是做开源项目的，非常拥抱科技，也拥抱new。他那个AI的data什么的，然后里面的人也是非常的互相帮助，然后我没有感受到任何的多余的东西，所有人都只是在做事情，然后所有人都非常的开放，非常open，非常喜欢吃，质量也很高。然后里面的交到当时交到了很多朋友，到现在也还是我的朋友。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大部分人还继续在华尔街量化里面还是也都会出来开始做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>都有有些出来的，有些还在里面。To c让我看到一个非常organized的公司的样子，至少在当时。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他是非常organized的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我当时觉得to c非常organ，我当时不觉得。我后来去了其他公司之后，我再回想。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就觉得原来其他地方这么乱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我觉得其他地方这么乱，就是to c它都不是一个大的公司。但是to c买的info在我跟其他的比起来是最稳定的一个地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有意思，你觉得原因是什么？公司文化就是这样的，我就让他非常的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>干净沥我觉得是他的聚变不多，它的业务模式比较稳定，所以大家可以在那里一直做maintenance.</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大量的maintenance。所以对于做一个金融，然后追逐那个return的数字，然后赚钱这个事情在你这边就是不是priority，你只是想体验一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我只想体验一下。对我一开始就知道那不是我的priority.</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>体验还不错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，体验不错，挺好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个技术稍微给大家去科普一下，LLM info你们在做什么样的事情，你们在解决什么样的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Info分好几个模块。我们的长远的目标是我们希望整个info我非常严格的说我们的这个结构性思考是我我们希望red rock在一个地方，它可以给你提供很好的基础知识。让大家根据你不同的使用场景，不同的data的形式，不同的产品目标和不同的消费目标。然后你有可能希望model它可能解决的很简单问题，但是你想它很快，又或者是他要解决一个很难的问题，但它可以比较慢。你都可以用这套工具源源不断的产生适应你不同目标的最好的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们希望把这个foundation做出来，这个foundation我统称为info，它会包括传统意义上大家所理解的推引擎推理和训练post training，这些都是大家传统的脑中的key y words。我还想在这里其实加一个component，就是基座模型也是input。在我看来整个这个foundation里面是包括了所有你需要的guide ents，包括了这些cobs two two works and works environment和一些中间状态的模型check point。他们在一起变成一个箱，你可以在这里进行组合，去不断的产生更适用于你的场景和目标的特异化模型。整个工具箱这个foundation是我们要做的引发的部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在我们因为要focus一步一步来，所以我们现在是focus在inference和2。他们处在你这个生产模型整个拍卖的末端。就假设说我前面已经走完了，我的基础模型就portraying已经做完了，我有基本的check point。然后现在我开始要适应不同的task，我需要做过post in的时候，大家开始用RL这个地方已经开始开枝散叶，对吧？因为AI进入人的生活的各个方面，有不同的场景需求。你这个时候你开始需要有不是一个模型解决所有问题。你可以开始有多次训练，产生多个model，解决各种各样的问题。并且多个企业他们可能都想有自己的模型，所以post chain RL在这个地方是一个翻off的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以它是比较适合做我们想要的这种给所有人share技术，然后做一套inference，让所有人都使用的这样一个模式里的。Posting完之后的模型inference，那就更加fout inference就是真的到了末端模型都已经完成了。我inference我需要让你的模型的架构和位置都已经有了，我需要让你模型在硬件上跑起来，铐起来之后可以被你一个人块就可以被铐着，别人可以来，别人可以使用这个模型。New粉丝就是在那个更末端贴近用户的部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>整个的info LM serving的这个版图，其实中间涵盖蛮多领域的那比如说VM是解决内存管理，然后HTO是做KB cash的压缩，s Laura是解决这个多adapter的并发，然后chabal arena做测评，SG line做结构化生成。就是非常多不同的这个方向哈那对这部分的研究，你是有一个什么样的方法论在解决这个问题？还是说你就有一个很完正的这样的一个roman p说这些东西都是我要一起去解决的，还是这些东西是你一步一步的去慢慢的解决这些问题的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得是一次性看见，短时间内一下看见了很多问题，那你做的时候你得一件一件做idea肯定是跑的比动作手要快。也不是我一个人看见，很多人都看见。就是你上来一下看见很多问题，然后大家慢慢的把一件事情每件事情都解决掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但在解决这些问题的时候，你觉得有哪个点是最难的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得没有哪个点是难的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是去做掉就可以了。那你的优先级是怎么排序的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>哪一个能给你带来最大的margin，哪一个是最大的bot先解决最大的botnet，也有一些是对比方说你要先解决memory的KV cash这个碎片化问题，管理问题，然后你才能解决perfect passion的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你觉得现在这些问题完全被解决了吗？还是有继续优化的这样的一个潜力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那肯定总是有优化的潜力。我attention现在有这么多的变种，sport attention还可以做更aggressive，然后新的innovation.</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不会停止的这一块其实应该是一个很大的市场。但这个市场为什么最开始从开源的生态里面跑出来的呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也不能说是开源抛出来，因为inference已经很长时间了。Inference provider你看从fireworks together这些公司已经存在好几年了，这些公司都很不错，就有很大的使用。而且你看influence of landscape有这么多的competence，对这么多个influence关联公司层出不穷，每年都在不停的出。但是你会发现这个游戏里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有输家没有输家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有输家就是所有的influence。Player inference provide the player. 不停的出来有这么多，但是没有任何一个因为有competition的存在而消减下去的，所有人都是同步增长的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我之前其实跟你那个科方邦华聊的时候，他就说做infant的人，他需要的taste跟做比如说pre training的这个researcher它的taste是不一样的。比如说做infrared的人，他的taste是表现在什么样的方面呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我其实不确定是不是真的不一样，是吗？我觉得本质可能是相通的那。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得taste表现在什么样的方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>无论是在做training算法for trading算法，还是在做info你做，但是你说是不是喜欢精益求精。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他是不是细节的活儿？就是因为他这个efficient要做的非常极致，对吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不光是efficiency，如果你是追求一个目标的话，可能就不在takes的这个维度上。就是你如果要的是一个and go and go和test taste，其实就是你关注的不仅仅是and go，并且还有这个and go的组成。就是我的系统不仅能跑，我并且知道它是怎么跑起来的。它是一个设计过的well designed的形式形态跑起来的，还是它是一个豆腐渣工程跑起来的？他们有可能有同样的n and go有case就是说我更在乎它是一个很优美的形式跑起来的，而不是这个很很豆腐渣的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以的方式跑起来的那你在乎吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我非常在乎。这是red dark的文化之一，就是我们非常强调这一点，我们想要成立real shark，想要好好的做一家info first的公司。因为我觉得在很多其他的我之前工作过的其他地方，或者是听大家讨论以product以模型为目标的这些公司，在info的美感上有所妥协。他们在info的功能上还是很追求的。但是在美感上是有所妥协的。然后info的人在整个full stack里面可能长期的处于一个被under estimated的状态，他们需要被迫去不停的support其他的component。他们需要去support的researcher去很好的使用info工具，然后把实验跑起来去迭代。他们也需要support product的人，能够把自己的product a运行的又稳又快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是info自己以我跟info的之间的这个浪漫的关系，我觉得info它不是一个小角色。Infrared本身在我眼中就是产品。你在设计你在推一个产品的时候，因为产品面向用户，你会去想我这个产品不是只有功能，我会想这个产品美，对吧？我希望它好看好用，被人说喜欢我希望它击中用户心里的痛点，用户心里的击中人性。我希望产品击中人性，但是没有人会说我希望info击中人性。但是从我的视角里看我觉得info也是击中人性的，它只是没有直接到用户，没有那么直接的联系而已。但实际上它产生这个深远影响是从底层就开始往上传递。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得刚才你说两个，我觉得非常有意思。第一你是说英法尔的美，第二你是说你跟英法A的关系是浪漫的。这两个词其实我很少听到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我倒是没有仔细想过为什么是这个词，但是它它自然而然存在于我的脑中。其实我觉得写info的人他们都是能理解的。就是你写info的时候你追求，你会去觉得我这个代码写的，我其实不知道怎么更积极的拆解了。对，但是我不是特例，我只是one of them。其实有很多这样有一批这样的人，他们都很在乎你的info构建的时候，这个系统它优不优美，稳不稳定，然后他们总是被迫去做一些hockey的事情来达成目标。其实他们都是会在一个被拉扯的状态里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我明白你的意思，就比如说其实如果你看一些大厂OpenAI有自己的info team来之前，你在XAIXAI自己的infratest是不是就是在这种大厂的时候infer team，它总是一个supporter的这样的一个角色。所以也就是说它有很多你需要去妥协的地方。但是如果你自己出来作为一个inf native，就可以达到你所说的info first的这种美感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，比如说在reality tag其实我们是反观的，比方说我们也有纯林兆的。但是我们并不是说我需要一个info的team去一直support这个train job，跑的非常的on track。我们其实反过来的，我们希望这个training job它可以没有压力，他只需要跑。然后一旦你穿进job被卡住遇到问题的时候，我们希望大家的focus是把这个问题systematic解决，而不是打一个pat上去让这个春节drop必须跑job是可以POS的，我们刷分也不着急刷，我们也不是非要刷一个非常好的benchmark分数，这个在我们这里不是第一优先级，但是我们如果能刷高，当然是好的。我们不会说这事情不重要，但是在time line上，它不是source of the urgency。我们的source of urgency是你的job不能被迭代的时候，这个问题本身它应该怎么样从深层次的解决它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们先再回去一点点，然后让我们的观众更加了解一下英法的这个赛道。比如说我们在基础的细节上面看到这个radix attention，它其实是ST line的一个核心技术之一，是用radix数来做这个前缀的缓存，然后避免重复的计算KV cache。能不能用比较通俗的语言给我们的观众来解释一下这个技术？</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个技术其实也比较简单，就是当你有很多的request发到engine这边需要处理的时候，如果你的request有一个公共前缀，那我们就不需要重新计算这个公共前缀所对应的KB cache，而是可以复用。就是你第一次一个request进来，我已经计算过KV开始。第二个request进来，如果他们share的话，我可以复用，已经计算出来就可以开始。所以这套memory管理系统就是对前缀的结构，共享结构做了indexing和和存储。首先一个是你对进来的request之间的前缀的关系，要建立前缀树来做index。做完indexing之后，你需要把已经计算的K一开始存在common memory pool里面，然后把这个indexing跟这个member pool给mapping起来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>既然它的核心是用重复的前缀，但是如果我们假设用户每次发的问题都是全新的，没有什么共同的前缀。那比如说长文档摘要或者创意写作，那是不是这套机制就有一定它的局限性。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为整体的场景出现，复杂场景的出现，大部分都是会有前缀共享的。因为你只要进入多轮对话，你的后面的对话都会要复用前面已经对话的history。所以前这复用是大量存在在所有的几乎所有的场景里。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是不是说agent来了之后，这个问题是更需要被解决的，或者更需要被优化的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他一直都是需要被解决的。A证来了之后，他确实可能被变得更被大家所关注到了。其实S在刚paper刚出来的时候，如果现在还回去看两三年前的paper，我们确实是以agent为这个入口。就是进来说我们为什么要新设计这样这套体系。当时还设计了一个front end的语言，都是为了agented的use case所设计的。因为我们觉得LMAI它会将来成为变得非常powful之后，你需要构建一套人与AI之间交互的interface。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>S上的创作之初的动机，其实是想要去定义和构建这套interface，让人和会更好的交互。但发展到今天，因为你的挑战的重点可能in inference，就是后端inference挑战重点更为突出。所以大量的开发精力是移到了back的这个time的优化。但我觉得有一天some point，其实我们还是应该回顾一下最初的这个想法，就是为什么要在这个S上的它structure真的是language。S上媛媛初design的时候，是希望它是一个language，我觉得有一天我们会revisit这个部分，就是最终它还是应该是一个language的形式。这个language它是人与AI之间交互的interface。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在看你们social media的时候，你们经常就是说这个模型发了之后，我们是day zero，就是从零天开始兼容的。能不能给我们解释一下为什么这件事情很重要？</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>事情很重要是市场觉得它很重要，我们做事情还是很practical的，我们做开源哪些事情重要和不重要，还是被market所决定的，不是完全我们自己定义的。我觉得market上人性好像大家就是很希望东西刚出来时候我就能用上。这的愿望从user端一直传递到了那些我刚刚提到那些infant provider infant provider进而又传递到了我们，也进而再传递到了模型厂商。所以这个链条式的传递，它其实满足的就是一个人你想要就跟你发布的产品，我要去第一天就去抢购一样的这样心态。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说前段时间发这个deep seek 4发布之后，你们马上就是day zero兼容，对吧？达到这个day zero兼容你们要去做什么样的事情？</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个跟模型的复杂度很相关，就是个V线上做了很多的创新。所以我们其实花了特别大的精力，团队花了特别大的精力去做模型的支持和各种优化。但是我们deep sik date支持这一次feature set做的也非常全。因为我花了很多的时间，非常多的feature都是第一天，并且我们也是我们第一次有RL的daily zero maros是我们的L框架。很多的算子层一些实现都要重写，大部分的code基本上是重写的。因为这个和韦斯的架构设计跟之前已经存在的模型有太多的不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是不是就是每一代新的模型出来，其实都是需要有一个重新适配的这样的一个过程。只是说它的模型架构如果变得非常大的话，可能你的这个effort就会更大一些。但是如果它就是一个非常。小的一个调整或者是一个upgrade的话，就是你这边其实就没有必要去做非常大的一些适配。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果它的架构完全不变的话，其实甚至都不用适配。如果它只是更新位置的话，那甚至几乎不用适配。最近有一些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>研究都是探索模型直接在latent space面推理，而不是逐字去生成token。比如说我们看到之前meta的cocoa还有自己的科拉DRM等等。如果这个方向成熟，你觉得就是在推引擎的很多优化假设是不是可能会发生一些变化或者重写呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果这个成熟的话，那确实很多事情是会变的，因为它退的过程形态不一样了。但是我觉得这个也本来就是你写推理引擎的一环，世界在变，结构在变，然后你的事情一直在变，这是一个本来就持续存在的过程。我觉得这个不是变革，不是真正的变革。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>本身不同的团队或者是不同的AI infant player适应变化的能力，这个东西重要吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>重要，我觉得团队更重要。再提一句，尤其是现在有AI了，AI写代码写的这么快，其实你随时间上变一点，其实就技术上来说，不是真正产生巨大变革的地方，技术上总是能做的。我觉得真正的难点从来都还是在回归人团队本身人和团队本身。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那为什么你们的人，你们的团队就更好呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我们的人和团队团结谦逊，又聪明又努力。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能其他团队也会这么跟我说。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得其他团队也挺好的，我觉得大家都挺好，但你每个群体都会有一个自己的，最终会形成一个自己的文化，大家各有所长。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你强调的就是公司内部的企业文化是什么样子的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我希望大家是focus谦逊，focus on tumble, 精益求精。这个是我们我们追求极高的审美，我们追求把事情做solid，我们希望这个人都是自己特别挑剔的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人都是自己。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>本身特别挑剔的人，对自己的作品特别挑剔的人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在今年年初的时候，我们看到这个VIM的核心团队也是商业化了，成立了infrared公司，然后也是融资了1.5亿美元，估值8亿美元。这个产业之后会有更多的竞争对手吗？更多的公司会商业化来做这个事情？</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得完全有可能。而且其实它就是持续不断在发生的，就是in front和rear fan这两家之后还有新的influence的company在不断的涌现。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谁会变成赢家呢？就是核心的竞争点，团队的竞争点会在什么样的方向呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我其实不觉得我们在这个赛道，虽然我们有S上，S上是一个，但我觉得瑞萨克的那个长远使命其实是不属于这个赛道的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们能不能详细来说一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我如果按照前面说的，我觉得red jack我说的目的是我们想把最好的AI带给大家。这也是我们非常朦胧的一个目标。接下来一年要做的事情，三年要做的事情，五年和十年其实都讲出来会非常的不一样。我们最终想要我不想透露，我不想disclose，但是我可以大概的说，我认为remark最终使命是要做下一代ai.</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>下一代AI下一代next .</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>generation AI我们的本质还是不是单纯的infer implementation.</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>意思是你们想要做模型吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也不一定是模型，它是下一个形式。我现在就我不讲他是什么，但我可以说我们并不是停在这个地方。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是说这个influence或者是instance只是一个起点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对它是一个前提条件。但我们想我们要做的也不是模型，我们将来想做的事情不是一个现在世界上已经存在的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我其实不觉得我们跟existing的这些inference player是一个category里面的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是它还不存在，但是你觉得它一定会发生的。我觉得它会发生，然后你想把它找出来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者是我希望它发生，我想看到它发生。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就很好奇，你能跟我说一下，我们后期。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>把它逼掉吗？不能。好，对，但我可以说就是influence不是我们的，它是一个起点，它不是的长远核心。所以我们其实跟其他的in first company都是保持良好的关系。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们那里是全开源的吗？但实际上也不是阿利萨克的所有物了，但实际上是MX下面它是属于社区的。但是我们公司的所有贡献在线上都是开源的，我们是没有private fork。我们的愿望也很简单，我们其实是希望这些东西被所有人使用。我们并没有想要通过这个地方制造一个difference，然后去获取利益。所以公司的命脉是不在这里的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们看到其实有不少的做推理引擎的创业公司。虽然有些公司他们自己不做引擎，但是也是在这个引擎上面去做服务的。而且现在体量也不小了。比如说faster是最近完成了3亿美元的融资，估值50亿美元。Fireworks AI现在估值有40亿美元，然后together AI现在也是在寻求10亿美元的新融资。同时我们看到这个AWS，google这些大的云厂商也是在提供这个托管推理服务。整个的AI引发的生态链最近在发生什么样的事情，能不能给我们梳理一下？</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得influence这件事情其实很早就存在，也发展了很久。但是今年AI可能在变得更加成熟，尤其是在消费这个爆点大家都看到了，AI变得更有用之后，整个市场的effort可能会有更多的从垂直转向exposure。开始需要让它盈利和兑现的时候，然后这个转化就会使得input的市场进一步的本来就已经很exposure，现在更更大的export。所以你会看到很多这种疑惑，春香冒出来各种各样的inference公司，但同时所谓的AI native的公司，他们也开始感受到了你继续使用existing的模型去做prompting engineering的局限性。与此同时也有更多的公司开始需要利用好自己的data去做的这个需求。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个需求它从另一方面也在推动RO这一块的市场化。一方面你看到有很多的新的应用上市公司出来。另一方面你发现你会看到一个establish公司在往RL那边move，在往RL那边扩张。我觉得这可能是这一批公司里面最大的两个趋势，最明显的两个趋势。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Boston还有fireworks也是你们的客户，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但以后的用户。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得你会发展成竞争对手。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不知道他们有可能觉得我们是某种意义上的竞争对手，但是我们不把他们当成竞争对手，我们是更想和谐相处的。我一个是我们其实重点重心并不在这个地方，不然我们就不会把我们的音粉丝给他随意使用。对还去支持他们使。第二点是我们因为我们这个开源的意愿，我们希望被大家都使用，所以我们并不是也不想跟他们成为竞争对手，我们希望这些都是我们的盟友。然后我们更希望的是focus在AI本身的一些技术迭代上。然后我们希望把这些技术可以跟他们所共同发展，促成他们的这个业务模式的增长。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在你们服务的客户大概是什么样类型的企业，或者是他们有没有一个什么比较典型的使用场景可以分享的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们各个hip的客户都有从这个data center new code就是hyper scale，就这些是cop就他们有GPU，我们帮他们想跟他们一起会帮他们sell GPU到这些intern provider。我们其实也想跟他们合作，也是希望他们成我们客户。但现在还是一个user的关系。再往上到AI这些公司，他们想要使用AI info去波兰train他们的model，或者是serve model也好，他们也是我们目标客户。还有一些传统的大公司，他不是完全的AI公司，但是他想要用AI来助力他原来的业务，那我们也希望在这里可以提供一些价值。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>SG line之后还开发了miles，这个是主要是用在RL上面的。你们为什么同时要做influence跟RL training？</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我们做的是整个AI in inference和21是就我刚刚说它是在最靠近用户的两个末端的步骤，所以我们从末端步骤开始布局。但是我们要做的是整个能够把AI制造出来的能力。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这两个东西同时做难度吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还好，因为它俩其实非常相关。R里面很大一部分的挑战是来自于rd engine的，engine它也是跟它influencing。如果RL的话，你更多的是要做一些调配上的工作和可能为此transferred之类的胶水性的工作。Scheduling算法也有一些新的东西，但是系统层面他们有巨大非常非常大的overlap。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你刚刚给我讲了两个很好的教授，这种教科书级别的教授有没有哪个管理者你是觉得你遇到过是最好的管理者，他们的特质是什么样子的？</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实管理这个词也很宽泛，就不同位置的管理者他们的功能也是不一样的。管理与被管理它其实也不是一个单纯的管理位置管理的关系，它其实也是一个职能分工的关系。就是一件大事要做成，它背后一定要有一个有一个人有一个人他非常的跟这件事情绑定，他是不遗余力的要推动事情发生。这个人不管是方的也好，是CEO也好，他可以是任何一个人，但是一定是有这么一个人的。他以某种形式他跟这件事情被绑定了。这个角色这个人他需要有很清晰的想法，知道我们要我们从哪里来，我们要去哪里，我为什么要做这件事情，团队为什么要做这件事情。他需要能够有这个坚持，并且他要能够看见未来，看见一个他想推动的未来。不一定，也许没有他就不会发生，但是一定是一个他能看见的未来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有vision这些东西是最重要的。但是你。有vision的这个人，他并不一定需要具备管理者需要的所有特质。你与此同时公司里面还需要的其他的管理者，他们又需要执行不同的functionality。比方说能够真的把一个精神变成真实，变得可执行，能够把人与人之间的这个合作关系调度的很好。但可能都是不同人的功能。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>管理者非常重要，然后它架构制度非常的重。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是对，但我觉得我现在想法都很初级。我其实现在exactly就是处在一个思考这个问题的阶段。就是我觉得我们刚刚我们刚好就是在一个从我还能一个人看清所有事情到我现在看不清的这个阶段了。所以我其实最近就是在想这个问题，我还没有我还没没有找到答案，我现在看到的都是挑战。那现在这个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挑战跟你当时刚加入XI的时候面临的挑战是相似的。因为你不一样，比如说XCI你也是把它看成你的baby，看成一个很重要的一个事情。当你在孵化它的时候，因为你加入XI的时候，它应该还没有inference team。然后你其实是把它给build起来的这样的一个很重要的核心的人。你觉得就是在回顾当时你面对的一个局面跟挑战的时候，跟现在有什么样不一样吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是完全不一样的，因为毕竟在XI我不是XI的owner。就算我想虽然我它当成baby，但其实其他人并不觉得他是我的baby。所以我其实并没有被赋能，我并没有被in power OK。我有想法，我有观察，但是我很多事情是改变不了的，我是没有办法去做很多决定，或者是告诉其他人一些影响他人的决定的那我的责任其实也没有办法扩展到那样那么大的边界上。但是我在XI确实学到了一句话，这个XI的两个leader，就是当时tony和国栋分别跟我说过，我不知道他们是不是串通，他们都跟我说同一句话，就说那个那个authority和responsibility要match。我在XI我是没有authority的，我只是一个小经历的而已。就是我其实没有权利做很多事情，所以我就没有责任。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OKOK但是所以你自己对你觉得你自己有责任。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我其实没有没有我其实没有，因为我负不了责，我不能决定事情，我就负不了责对吧？这个事情如果我不能决定该怎么做做错的话我也也担不了责。做做对了就不是我能控制的事情。但是现在的话就是说这个公司那那我要做决定，我必须要做的，它变成我的义务，我必须要做决定。那他做的好和坏，所有的责任全部在我头上。如果事情没有做好，我就要背锅。对，那当然做好了你也会开心，做好了其实这么多功劳做坏了是我的责任。这个就是跟之前的事情完全不一样的，角色挑战也是完全不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从研究员到大厂再到自己出来创业，你对自己的定位有什么样的转变吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我其实没想过这个问题，我觉得我一直都只想我想做什么事情。我做件事情能够借用的身份也好，资源也好。当时的我觉得什么是最好选择，我就会去做什么选择。但他们都只有一个目的，就是我要做我想做的那件事情。两年前的时候我可能觉得我想我想要创造那个未来，professor是一条路。两年后的今天我觉得process这条路走不通，我就开始开开公司创业。不管是我是做professor还是开公司，他都只是approach。我没有想过这个身份本身意味着什么，我不不是很在乎那个身份。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是因为你选择路不一样，你要做一些其他的事情来辅佐你最终想做的事情。比如说你现在是一个非常明星startup的founder，你要去融资对吧？你要去招人，你可能要去做一些其他以前你没有想过要去做的事情。所以就是比如说融资，跟投资人聊这件事情对你来说是负担吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是这个事情我觉得融资这个事情我以前确实不懂，就是被迫去做的。那这件事情总是要做first principle thinking，我如果要做我的目标，这件事情该做，那我就去做它。我们当时融资还是挺曲折的，那个具体我就不讲了，但是挺曲折的。但是我现在觉得我经历了这么长时间之后，我现在对这个行业有些更多的理解了。我其实觉得我在跟他们打完交道之后，我昨天我们聊完之后又做了一些更多的思考。我现在觉得我对投资人有更多的respect，我觉得我更理解他们的一些想法，为什么整个行业是一个这样的状态？</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，当然就是send hill，它有一套它的游戏规则。这套游戏规则我理解其实跟之前做research的时候是完全不一样的。你觉得你自己在适应这一套新的游戏规则的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得没有真的不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>本质逻辑肯定是不一样，但是本质逻辑都是不同的体系。然后还是人性，你追根到底还是所有的人性本质逻辑没有不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你把东西做好，你追求的一个真的东西，你把它给做出来说出来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是吗？就是我觉得它它体系不一样，它的学术界的体系跟融资体系、投资人体系肯定是不一样的。所以你的规则不一样，你的这个门槛不一样，你做事的方式肯定不一样。但是归根结底，他所有事情再次说下去都是人人人之间是共同的。所以当你进入另一个体系的时候，其实只是要学习那个体系是怎么回事，怎么运转，然后各种历练是怎么样的一个平衡关系。然后你如果还是以同样的人的根本作为推理基点的话，对整个体系的理解还是推出来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个挺有意思，就像他crapper一样，它是有套路的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你学到了这个套路，其实你很快所有average这东西都是有套路，或所有common的事情都是有套路的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后的这个投资人应该是说结果非常好了。英伟达MD英特尔这几个最大的半导体公司都罕见的集体的投了你们。除此之外，你们也是拿到了非常硬核的很多的投资人背书。你觉得他们为什么投你们？他们看中了你们的什么？</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也很想问投资这个问题。对我觉得我很难为他们代言，就是他们看中了我们什么。但我如果说现在让我思考一下的话，那我觉得我们是在这个赛道里面一个跑出速度的玩家。我们跑出的速度让大家可以看见我们的未来，我们也觉得我们可以有机会创造新的market，也有机会去助力现有的market。我们可以内部更多的其他的AI公司，或者是想要进入AI的公司，去enable他们制造AI的能力，可以让他们更多的接近AI和为了创造更多的价值。我们如果能提供这部分价值的话，这个就是我们值得被投资的原因。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们还是看重这件事情，觉得这个事情是关键的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得肯定很多人是看这种事情的，当然早期投资也有一些也看人。我其实更喜欢看人的应该。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但可能后来可能接下来A轮、B轮、C轮之后的industry就会看数字跟业绩了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我们第一轮因为有这个开源的技术在，他们肯定是人和事一起看的那至于他们为什么看中了，我就不替他们回答。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你为什么对开源这么执着。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个是追溯到我其实想纠正一下，我觉得我不是对开源执着，在乎就是我没有刻意要在乎和执着它其实它是自然发生的。当然我从这里获得价值观确实跟我以前的经历有关。我出生在江西这样一个中部的省，也不是很发达的一个省。然后我小时候受到的教育，我已经在江西省受到了很好的教育。但是你放眼全国能甚至国际去比的话，我当时受的教育还是很很朴素的一段教育经历。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当时我想要学编程，其实没有太多的资源可以学。所以我大部分的学习都是从互联网上拿到的。计算机那个时候也不是最火的专业，计算机竞赛更不是大家追捧的竞赛。所以你能够在市面上搜集到的教材，或者是各种资源都非常的稀少，都是未经加工的OK。所以当时我的学习全都是来自于我去互联网上去看到的那些非常random别人留下的帖子，CSDN对吧？各种当时online judge的那个网上题库，我从那些地方学到的东西都是来源于学。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不知道是谁的人我至今也不知道他们是谁。当时我也不知道他们是谁，我只是过去非常词的把代码拿走了，我回家研究，然后我都不知道写这个代码的人，把他生出来的人是谁。我是被被这样一群人，被互联网上不知道世界上在哪里的人给瑞兹起来的，就是我是被他们教会的。所以sharing open的这个文化，它对我来说是一个就像我生活的空气一样存在。我没有觉得我在刻意追逐他，但是他对我来说就是一个从我很小开始，他就一直在我身边的，像空气一样，我觉得他理所应当。你有一个idea，你做了一件事情你不分享出来，那才觉得奇怪。我其实是这样一个状态。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得开源社区在最近几年有发生什么变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个好的变化，一个不那么好的变化。好的变化是我觉得开源越来越多了，就是大家越来越追追追求开源，越来越愿意开源，越来越相信开源的价值。不管是大家的这个mindset，就是你人对开源的欣赏，还是资本对开源的认可，都是上升状态的。但是有那么一点不好的变化是他的这个追捧上升中也开始掺杂一些其实不是那么纯粹的东西在里面。你掺杂一些不是那么纯粹的东西，一个是会破坏原来我们所想象的那个开源带来的那个美好的事情本身。另一方面是你如果开始有这样的东西存在了，会让原来相信这件事情的人变得不那么相信。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>开源里面混进了一些功利主义者，这些功利主主义者的存在使得那些本来不是功利主义的人分不清清楚开源里面的成分哪些是纯粹的，哪些是不纯粹的。他们的影响的不仅仅是他们自己。这是我可能觉得开源也你在变好的过程中，也同时会开始出现了一种baLance。就是东西总是阴阳总是共存的，它一种baLance。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家最近对开闭源之争也聊的蛮多的。你觉得整个AI的走向会慢慢的往闭源那边去迁移吗？还说以后我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是共存状态，我觉得他也不会停，而且根据我的了解，他也没有停。有更多的人一直在想要进来贡献自己的力量，但我也不觉得所有东西都应该还有。因为你不能没有规则，你也不能没有界限，就是完全的开放开源这个状态。如果如果你没有掺杂太多的可套利的空间的话，它可以是美好的。那你一旦把它完全打开的话，人性的恶也会被放大。是，所以我觉得两种argument都是正确的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我确实也不觉得AI应该完全的展现在所有人面前，他确实有risk，我不否认这一点，我也不站在AI应该完全被握在一小批人手上，我也不站在那一侧，我觉得AI应该均等的被握在不同的人的手上。我们想做的就是这件事情，就是reality fc不是纯粹为开源服务的，其实就是我们是有开源文化在，但不并不意味着我们做的所有事情都是开源和为开源服务的。我们也为闭源模型服务，但是我们说的这个decoratin ation是我们允许，我们认为开源闭源是共存的，但是我们希望闭源它存在，但不如三重lize理解。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这个怎么实现呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我们希望提供这个能能创造最好的闭源模型的拖train，让所有人都拥有制造属于你自己的AI的能力，但是你制造出来的AI属于你自己。我说昨天呼吁。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是大家都停的研究，但是他又加了一个附加条件，就是我像make sure大家都停止了，我才停止。就是你现在comfortable就是这些最强大的模型都被握在这么几个的闭源模型的player手中。这件事情吗？这件事情它能被打破吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>觉得我觉得这件事情很难发生。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它是违背人性的。你是说所有人停下来AI研究这种事情。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是因为你跟大家没有在你这样一个体系里面，大家没有拿到同样的资源，所有人都想要接受到最好的AI，所以这个事情很就很难发生，我不觉得他不正确。其实如果说现在有一个非常强力的强强力的上帝，他下来安排每一个人做什么，那事情是可以发生的。我不认为那是一个非常差的世界。结局就是大家都停了，然后用specific领先。我不觉得这一个极度差的世界结局，但是世界不可能停在那个地方。因为没有一个这样一个上帝下来，可以把所有人安排的按部就班，一定会有人要在里面起义，所以我觉得它不可能发生。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这个事情会往哪里走呢？终局可能不知道是不是一个会非常美好，就像你说的一个非常decentralized，每个人都能有自己的AI的这样的一个终局。但是你觉得what next？</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这看我往多远的未来去想。如果我讲到恒远的未来的话，我觉得现有的AI还没有强到，它会真的完全控制和威胁到人类。所以在可见的目前，我能够guarantee看到的未来里面，人类还是安全的。我觉得如果是这样一个前提下的话，大家还是会互相追逐，然后AI会变得越来越强。但是它这个强是一个productivity上去取代人类的一些功能性。他不能完全的取代人，他只是取代了人类的一些功能。但这个变革肯定也是巨大的动荡，它会对人类的社会结构、权力结构对产生巨大的动荡，就是跟过往发生过的每次工业革命一样的一个一些席卷性的这种动荡。可能比以往的工业革命更加工业革命，但是它是个你可以理解的范畴。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>更远的未来如果说AI它真的可以强盗已经开始操控人类，就是它真的已经over人类，说明是人类了，能够做人类做的任何事情。如果那天真的能来的话，我们是阻止不了的。我觉得那天就会来，或者说你想阻止他的方式，不是通过呼吁所有的人类停止来阻止，这个事情是不太可能发生的。对你阻止他的方式一定是发明发现另一条路径，使得你允许AI继续前进。而人类还不会说你。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在这中间想做什么事情？</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我想我想要build的那个未来就是一个跟强力AI共存的未来。我们现在说我们要把强力的AI最好的AI带给所有人，人类需要这个公平。你不太可能通过一小部分人把好的AI握在手里，其他的人都无能来来维护你表面上的和平，这是不可能的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果说AI一定要往前走的话，那所有人都往前走，所有人都能够去。不一定是所有人，不是literally所有人。但是我说大家都不是被这样棒的，而是你如果你是个你有这个小idea的潜力，你知道往前走的时候能够接受到最好的人类知识的话，你需要在这样一个竞争环境中往前走。它是一个健康的与AI共存和大战的状态。你需要有这样一个假设，然后整个人类他们才能是团结在一起去寻找这个solution。所以这件事情是必然的。我们不管如果那天发生，真的有一天你需要让人类寻找一个新的solution的话，这个它都是个前提。你先要让所有的人类平等共处，共团结一致，然后你才能再寻找一个人类与爱共存的世界。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>LMS你在享受一下那段经历吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>IMC是我们想我跟联名最早一开始想成立一个机构，这个机构可以让不同学校的人参与研究，belong到今天，虽然他是一个no。我们大家都在里面power time的帮一些事情，但是MG的其实是一个我们想要非常严肃做的事情。如果说red shark有一天我希望他永远走下去，但如果有一天他不是走到底的话，LM是那个我终生会做的实验。但是他跟right上有些共同性，就他们的都有个共同的value，就是关于平等和关于平权。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我这次的评选是来自于我们希望能够孵化优秀的人才做的项目。即便他们没有充分的背景，没有充分的后台，没有充分的branding。这个是来源于一些我自己个人经历，也我经历过低谷的事情。很很低谷时也经历过很很高昂的事情。我自己能感受到这里面的difference。可能同样是我同样做了一件事情，我在高昂的时期做的那件事情，非常容易被大家关注到，被大家记住，甚至被大家夸大。但是我在低谷时期做的事情有些也不错，但是其实你就很难被大家所所看见，或者是被他认可。但我觉得这个底粉是没有必要存在的，而且它是破坏社会公平竞争结构的那我们这次希望做的是抹平这个差异，希望好的项目真的能够被推托托举出来。并且我们希望credits能够分到做事情的人身上，让可能还没有积累，没有established的人对项目有更强的掌控权，保护为是的真实的开发者的掌控权。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对象的掌控权。我看你在开源社区的时候，还做了一些蛮多其他的一些项目。就比如说这个LM arena这个东西其实在行业里面影响也是挺大的那段时间你其实主要还是一个主线，就是说不同的项目它在不同的project这样来推进是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Arena是当时我们做LVN时间的一个其其中一个fun project。我是觉得这个事情挺有意思的，然后做了一下，然后他意外的得到了挺多的关注。可能大家当时就觉得排行榜这个事情，可能本身它就具有一定的娱乐性。但是我觉得这个arena确实是我们开始做的。但你真的说把它壮大，然后做成公司，那确实还是我们后来就是伟林是我们把这个项目交给了伟林他们。然后后面一些新的人也加进来，是后面这个新的团队把他们真的做成商业级别规模的一个项目。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是刚才你说每个人要公平，要平权。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>平权更多的是说相同。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的机会相同的机会。对会特别是对于tech方面的一个，怎么说程序员也好或者是researcher也好，就是你对这件事情的在乎是因为什么样的契机或者是什么样的经历可以跟我们分享一下吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一部分是我觉得我好像天生就是这样的，就是我生下来就是在乎这个事情。另一部分可能也是一种延伸，就是我觉得我从小到大是我觉得我是经历了看见经历和看见了很多性别歧视。我觉得虽然大家回避这个就没有这个话题有一定的可蒸可争议性，就是你怎么鉴定是或者不是。但我觉得我还是很明显的说这个事情它存在，你无法回避它存在。而且我非常切身的经历过无数这样子的例子，它每一个例子你单拎出来它都非常小。但是它是那种一件在你生命中无时不刻每天发生的频繁的小事。所以他其实对那些被影响到的人造成的影响，不是你听到一个例子时候所感受到的冲击，而是把那一件小事的冲击乘上1亿倍，那才是对那个人生的真真实的冲击。然后你再把它扩大到整个群体，它所造成的这个互动性影响，就是common sense的影响，刻在所有人共同认知里面的影响，是没有办法用一个例子去去说清楚的。我觉得这个是它它造成了我为什么特别在乎平权和和公平平等这些东西的一个性格特质原因。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第三个就是我刚刚跟你讲的，就是我自己经历过，我知道我能感收到。就有有些包括我自己做的，我发那些paper，有些paper其实我觉得也就一般，但是那个paper可能就是因为是我发的，或者是我一个斯坦福发的，伯克利发的，然后大家就会觉得它是一个标准。但其实同期可能有些跟我做的paper差不多的paper，我其实只是一个researcher，我不是那个科学家。但是因为这样一个身份，让我之前paper被定义了。但是我觉得这个事情他本不应该这样子。虽然我是获益者，但是我当我是获益者的时候，我觉得我有我有我现在终于有力量可以因为我是获益者，我终于有力量把这个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>事情往外推动一点。EMS想要以什么样的形式去把这个权利很公平的分给每个人呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>很难。首先我们都知道这是一个结构性问题，他不是我能做的，或者是一个机构能做的。我记得有有一次我跟让索维卡聊天，我忘记是具体聊了什么内容了。但是我跟他说我想改变一些东西，他聊到一个什么事情，我说这个事情我想改变，然后说你改变不了，或者是在问我说你觉得你能改变吗？改变的了吗？然后我就说我说我不能改变，我确实没办法改变。但是如果我能改变1%的话，我愿意用我的一生去改变这1%。</p>
+<p class="transcript-line"><span class="time"><strong>[01:32:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一样的答案就是我觉得我改变不了。这个挑战对于我来说，在这个挑战面前我太渺小了。但是我觉得我能改变一点点，或者是改变我身边的一点点人。然后这个一点点人他们会再把这个精神再传递到更多的人身上，它就发生一点点变化。那那我觉得他值得我用一生去做。</p>
+<p class="transcript-line"><span class="time"><strong>[01:32:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是这个里面有一个很微妙的地方，就是你所说的所说当我们想要改变一件事情，推广一个价值观，或者应该改变身边的人的时候，这个传递是非常容易出错。对，是非常容易出错和被人利用。其实真正最后你能够传递的是，你是不是能够把就是你要pick人非常重要。有很多人他就不在这个里面，他根本就不在这个体系里面。所以你不是所有人都可以被他就可以。所以你要找的那些人不是打个比方说，我现在想帮助弱势群体，但不是说我真的去帮助弱势群体，这事就能被解决。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>解决不了，你要解决的是你要找到那些跟你一样想去找到想帮助弱势群体的人的人。你只能去找到那个能把这种散布出去的人，而不是直接去做到。就比方说哪怕你培养更多的学生成为老师都是不够的。你要培养的是想要去培养把学生培养成老师的老师，你需要把那个recursive的链条建起来才有用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，然后这个事情它会非常的慢，所以我觉得我做不了多少事情。但是它的好处是你如果能做到一点，它就做到了。它不是个会回退的边，它不是一个会回退的改变。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是一个gradual的。就是你往前退了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它就是往前推了。对它至少是solid的一个improvement。我觉得sold improvement只要它是solid的话就可以。如果它不扫，但看上去很，但是看上去是个big jump，但它不solid，那你这个big p就是没有意义的。我们平时退项目也这么跟他们说的，我说不用着急，我们不用到那个够，但是你要但是我们我们重要的是你team能不能训练出一套系统化方法。我的每一小步的目录是不是solid？哪怕我就动了一点点，比你那个动作很大，也不能将来还要退回来要好很多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在resort世界也会有性别歧视吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他也不能叫歧视，其实没有那么严重。</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但性别不平等这可能。</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>都没有到平不平等和歧视的地步。但是他会有，但是这个很多小很小to的很seto的这种意识层面的不对称是无处不在的。我给你举个微妙的例子，就非常有多微妙，这个事情就是微妙到你会觉得他不是个事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就打比方说想说比方说我竞赛出身，我打竞赛，竞赛打的很好。如果我是个男生大家就会说我是天才。如果我是个女生，他就会说他很努力，他很听话，就是我很用功。对他会觉得你或者你运气好。</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我小时候经历的是什么呢？就是有一年的竞赛，那年我一直是成绩是各种大赛比赛都是很好，都是顶尖最好的。反正至少是比我们学校里跟我peer的那个人要好很多。但是身边的人会找无数个理由来解释我为什么好。他们觉得你赢是不应当的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们否认你是天才电视。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他们不否认他们不会否认他们。但是他们会觉得你就是如果换一个人，那个人赢是理所应当的。但如果是我赢了，他们会觉得你这个赢需要被解释。但是你正常情况下一个人赢是不需要被解释。我为什么要去explain他为什么赢呢？他厉害。对，但是我的每一场赢都要被解释，背后都有个原因叫做我为什么赢，而不是你为什么输。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个解释可能是他这个他他的对手最近状态不好。然后下一场他的对手状态还没回来，然后下一场是他这个题压中了。这个题他以前做过好的，但是可能你其实这个任务其实我并没有做过，但是你就你感受到这个也不是故意的恶意，让人很窒息。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些微妙的存在也会出现在你之后，做研究、读博士、做项目。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，是远远不都会。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一直有这样的存在。就是说你赢了，你比人厉害，大家就会给你找理由说，他为什么为什么是他为什么。</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他们会说我要进去研究一下这个人为什么可以他为什么可以，他为什么能发这么多黑粉？</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为没有看甄嬛传。</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一旦有一个合作方，然后这个合作方他是男性或者是他是establish的，别人就会觉得这个idea会不会不是他的，这是件很微妙的事情，就是你单独去看的话，他们都很小。但是我说这是一件持续发生，每天发生，每分秒在发生的小事，而且它会波及到每一个在这个群体里的人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Exactly.</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你根本就没有办法跳出个框架。因为一旦你跳出，别人就会觉得你小气，别人就会觉得你格局小我年轻的时候在对这件事情的态度会更极端一些。但我后来觉得我已经觉得没什么好，就是这个事情是不需要被讨论的。你要解决这一点只有一个方法，就是你让所谓的入侵者，或者说如果在这个specially脏头发就是女性真正拥有权利，除此之外没有别的办法。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你就是不断去赢就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，而且这个权利是所谓的人类的真的top 0.001%、0.01%、0.1%、1%里面全部平权。他们只有真正获得权利，这个事情才会被改变，其他所有的一切通过education是达不到任何目标的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得在过去十年有好一点点吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是没有，肯定有好一点点。对我觉得是社会是在向前，但是它你如果拆分到不同的方面的话，有些地方可能也在也也有也不是都在变好，对他那个价值观是一个很很波动的状态，但你整个来说的话。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是在变好好的，我觉得我们cover了大部分的东西。你让我再看一看有没有什么问题，你觉得有什么问题漏掉的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我没有想过有什么问题要问对，但是我倒是结尾的时候，我倒是可以有一件事情想说。昨天你们过来，然后你给我看那个dock的第一眼，我其实当时挺感动。就是那个dock里面已经有很多对我的描述，就感觉你们已经我不知道这是AI生成的还是人做的，就是没有。我们看了很多人人做的挺详尽的，就是我觉得很多投我的投资人都没有这么样的去看看过我的经历。在我跟他们聊天中，我发现他们不了解我的经历，他们不了解发生过什么。他们可能别的侧面去打听了，但是这份dock还是我当时印象很深刻。我觉得包括融资的这段经历给我的一些成长，就是很多职业本身我们觉得会做的事情，其实它不是自然发生。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然也许我原来觉得一个做采访的人，他就应该对被采访者先有一个深度的杀力。但事实上很多的采访者，他们并不一定真的会做这件事情。然后也许我们觉得投资人他应该对方子做了很深度的调查，但实际上大多数投资人都没有去做深度的调查。也许我们觉得一个PHD应该好好做研究，大多数PH未必真的好好在做研究。有很多事情它在定义里面该发生的其实不会发生。我后来发现一个人他只要能把你职业里面该做的事情做完，其实就已经非常稀有。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我昨天看那个dock的时候，我不喜欢采访，本来我们也差点就要退掉了。但是我昨天看那个doc时候，其实我觉得我愿意好好做一下采访。因为我觉得你们做的这个劳动我是respect，我就想说一句respect。</p>
+<p class="transcript-line"><span class="time"><strong>[01:39:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢，我也很。</p>
+<p class="transcript-line"><span class="time"><strong>[01:39:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我觉得就是很多就刚刚聊到的，我的PHT其实前面有很多波折，融资时候也有很多波折，我们这个开源项目做起来也有很多波折。但我现在真的要我说结局怎么样的话，其实这三段波折或者说过往，包括童年的很多波折，他们的步骤之后的终点都非常的好。我的PHD第一年rote找导师不是很顺利，但是最后我找到那个导师，他是一个教科书般完美的道士。我们这个开源项目一开始也有各种各样的被被打击，但走到今天我们有了一个这么好的团队。我们团队大家都这么能没有能量，是为了有热情，还这么团结。我们融资我前面也经历了很多各种各样的事情，但我觉得最后我们容纳下来这些投资人，也是教科书般完美的投资人。是我我在当时刚出来融资之前，最终一无所知，所以我想去学点东西。我就去看了一些书，然后理解了一下融资的书，怎么去融资的书，类似，可能方德和投资人之间的相关的一些书one one差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:40:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我想理解。</p>
+<p class="transcript-line"><span class="time"><strong>[01:40:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是什么东西。我那个时候我很多名词都不知道的，我不知道什么叫tom shit OK。就是我们在这样的状态下成为融资，我也不知道什么叫做估值，什么叫做C的人我都可能就没有概念，很多基本概念我都不知道，都不理解。然后披萨是什么我屁事up这个词我都没有听说过，什么叫P那是什么？对，要写多少页，每页写什么对吧？对，是完全没有概念，就是没有概念到批示大哥这个词，我都没听说过他们说的是什么东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:40:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有个人跟我说，你们有没有拿到，他说啥是成熟。我是在一个这样的状态里面，但是所以我就去尝试去学点东西。但是我从书本里面看到的，书本里写的都是美好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:41:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>书本里面告诉我的那个投资人和founder之间的关系是一个终身友谊的关系，是一个你们并肩作战的关系。虽然我早有准备，童话总是美好的。虽然我早有准备，但那个现实不是这样的，但是现实总是复杂很多。但是我最后真的跟我们pair的投资人这些partners，他们又回到了我当初在textbook里面看到的那个所谓的投资人跟方的之间关系。书本也没有骗我们，包括我以前PH之前很多人跟我描述过的PHA导师跟学生之间的关系，可能也是过于美好的。但是我最后拿到了那些美好的描述，他们都没有骗我。</p>
+<p class="transcript-line"><span class="time"><strong>[01:41:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>世界上存在那么纯粹，那么好的导师，存在那么好的投资人，存在这么好的采访者。但是绝大多数人他们没有坚持到把那个跌宕起伏的过程走完，没有坚持到相信那个好的东西是其实是存在的。只是说你要筛选，只是说你要有耐心，等着他最后显露出来。你要有这个耐心，让那些其实不是理想状态的沙粒自己脱落掉。</p>
+<p class="transcript-line"><span class="time"><strong>[01:42:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后很多人可能在中间就开始怀疑了，然后放弃了。对，怀疑他放弃了，或者是他不再相信，就借这个机会。我其实想说就是那些好多人都存在，所有好的东西都不是编出来。但是你要非常相信他，你要相信到你身边没有这样的人，你还相信他。然后有一天那个跟你一样相信的他有一天会跟你相遇。坚持这一段特别好，刚刚我都有点想流泪。</p>
+<p class="transcript-line"><span class="time"><strong>[01:42:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你知道吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:42:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个人太好了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:42:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后两个问题，就是你是一个逻辑如此缜密之人，但是就像你说的，这个世界上很多东西是乱的，或者是他逻辑上是不成立的。就很多random的地方，就世界是一个草台班子，就是这件事情能自恰吗？还是说你其实是会suffer的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:43:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就我在我的逻辑里是自洽的，我的逻辑不受我看到的事情的干扰。Suffer也有，就是会撒粉儿。就我其实很emotional，我是非常emotional的人。其实就是很多很微小的事情会对我造成非常大的情绪影响，但是我能够把那个情绪影响跟我的价值观构建分离开。</p>
+<p class="transcript-line"><span class="time"><strong>[01:43:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比方说我看到了很多事情，他们我不想看到，我不希望它发生，但他们都发生了，然后我觉得很不高兴。但是我看完他们之后不会导致我觉得那个是正常的，我仍然会坚信那我没看见，但我相信农业是对的。我仍然会坚信就像我刚刚说的，我仍然会坚信有一个我想看见的世界。但是我现在没看见他，只是我还没看见他而已。这个事情我可能会相信他几年十年的时间我还相信他在那里。这个东西很难被改变，但是我过往的经历告诉我，他们其实都存在，最后我都遇到了他们。所以我有很多正反馈，但我觉得有很多人是没有看到正反馈的，所以你也不能说就是要求所有人都坚持。但是我觉得我是幸运的，因为我全都看到正反馈，就是我的正反馈循环，让我可以在后面的遇到这种类似情况的时候坚持的越来越久。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能我第一次说我等了几个月，然后他被验证了。下一次我等了几年他被验证了，再下次我等了十年他又被验证了。但我就知道了他总是那么严重。下次我可以等20年，再下次我可以等，就没有人生可能等完了。但是我想就是至少我等到了，我觉得别人也能等到。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你有没有想过，因为你是对的人，你是正确的去做这件事情的人，所以你等到了。比如说有些人他可能对自己的认知有误，他可能不是最正确的那个人，他可能不是有天分的那个人，可能他等下去就是等不到的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是需要找到这个自洽。比方说我说我等了10年之后等到了，但是我其实自己的心里的一些认知跟世界一直是不吻合的这十年里我一直都是割裂的存在，我觉得也OK就我也可以一直就很割裂的存在。就算我整个人生都很割裂，我也不想妥协，就是你能不能找到那个boundary，这是重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实这件事情OK就是我想说有这个割裂其实是完全OK的，他不会真的很痛苦，人们只是害怕而已。但如果说有个人告诉你说就这样就这么回事，没关系，其实就真的没关系。但是首先这世界上也没有绝对的正确，我也不能说我是正确的人，大家都是正确的人。但我只说每个人都有你自己的想法，然后你所谓的正确在别人的眼中不正确也一次OK，也是完全OK，没有任何问题。但是它的唯一重点就是你是不是按照你自己的想法去认知和和行动，还是你其实就是被别人牵着走的，或者你觉得自己在妥协。你只要不觉得自己在妥协都没关系，哪怕你真的错了就错了，也没关系。但是我非常不喜欢的是大家都变成了不不能执行自己意志，这样是不好的。如果所有人都执行自己的意志，哪怕你不和谐，那这也是自然存在。</p>
+<p class="transcript-line"><span class="time"><strong>[01:45:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实本来就合理。好的，以上就是我们所有的问题了，非常感谢，感谢摄影。</p>
+<p class="transcript-line"><span class="time"><strong>[01:45:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好了，这就是我们今天的节目。不到两个月的时间，AI市场经历了开源模型的大爆发，而SG类它也成为了AI时代的核心技术层。大家怎么去看摄影的经历与你受到的启发，欢迎给我们写评论留言。如果大家喜欢我们的节目，可以通过小宇宙、spotify、苹果播客、B站还有youtube来找到我们我们部分节目的文字稿也会收录在硅谷101的微信公众号上。感谢大家的收听，我们下期见。</p>]]></content:encoded>
+            <pubDate>Wed, 05 Aug 2026 04:30:00 GMT</pubDate>
+            <guid>6a72bd82008ed7314d6f92f5</guid>
+        </item>
         <item>
             <title>E246｜何谓蒸馏？聊聊硅谷如何看中国开放模型逼近前沿</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a6d3785cb700b7ba2fa5928</link>
@@ -53,6 +627,11 @@ Anthropic对蒸馏攻击的指控
 思维链（Chain of Thought）：指模型在生成最终答案之前，用一系列中间步骤拆解问题、组织信息和进行推理的过程。
 规模扩展效率（Scaling Effiency）：指模型将计算资源转化为能力提升的效率，也就是在使用相同或更少的算力、数据或训练成本时，能否获得更好的模型表现。
 键值缓存（KV Cache）：指模型在处理上下文和生成内容时，保存此前token在注意力计算中产生的Key和Value数据。这样，模型在生成下一个token时不必重新计算全部历史内容，可以显著降低重复计算，提高生成速度；但上下文越长，KV Cache占用的内存通常也越大。
+【硅谷101听友群】
+很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏
+之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。
+在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。
+扫码加入，即刻相遇。
 【硅谷101正在招聘】
 《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！
 👉🏻点击查看招聘详情
@@ -7424,296 +8003,6 @@ Special Guests: 张璐 and 徐皞.</description>
 <p class="transcript-line"><span class="time"><strong>[00:44:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，这就是我们的第一期节目。也欢迎大家在评论区写下你们对2026年AI领域的看法。记得收听我们接下来的两场直播。如果大家对这种形式感兴趣，还有很多人说希望听到我们的直播回放，我们以后可以尽可能多地同步上线我们的播客账号。我是红军，感谢大家的收听。</p>]]></content:encoded>
             <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
             <guid>69682efcaa3ca0c1c64a78ea</guid>
-        </item>
-        <item>
-            <title>E220｜谈谈Hyrox，“找虐运动”如何火遍全球</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/6951359d7347e9f24d2c0fd8</link>
-            <description>在所有的体育运动里，Hyrox绝对谈不上轻松。它要求参赛者在跑8个一公里，并在每个一公里之后做一组高强度的力量训练，比如让女生推动100公斤重的雪橇。
-但就是这样一个运动，成了这两年全球最时髦的健身项目。它2017年成立，初创期就遇到了疫情，2021年在伦敦办赛时只有几百人参赛。但到2025年，伦敦赛参赛者已经达到了3.4万人，和一场城市马拉松相当。而25/26赛季，它预计会在全球举办100场比赛，参赛总人数预计突破130万。
-人们会用很多词来形容Hyrox，心肺拉爆、成绩打卡站、肌肉盛宴、大型荷尔蒙现场……它也正在成为新型社交货币，你玩过Hyrox，就是健康生活和强大意志的证明。
-我们很好奇，一个对普通人来说并不算简单的小众运动，是如何引爆全球的，也想去看看，当AI逐渐充斥我们的工作和生活后，AI暂时无法进入的，这种需要肉身高度参与的沉浸式线下活动，满足了人们的哪些需求。
-【主播】
-麻花，硅谷101特约研究员
-【嘉宾】
-袁放，Hyrox中国区负责人
-Mike，国内某连锁健身房前团课负责人
-夏禹，Hyrox官方教练，多场赛事参赛者
-【你将听到】
-Hyrox火爆背后，半低不低的门槛和想寻求突破的人们
-02:28 Hyrox的比赛规则，8段1公里跑+8个体能项目
-04:21 Hyrox背后，混合训练是怎么火起来的
-06:10 同为混训练赛，Hyrox是最简单易上手的那个
-08:05 把人累到暴汗，Hyrox真有那么低门槛吗？
-13:00 谁在参加Hyrox：工作高压人群需要追求突破和运动释放
-14:47 再虐也要参赛，寻找成就感、目标感，给自己打个分
-16:01 不到一年，首期教练的课从不满员到排大队
-18:04 传统健身房没落后，社群运动成为新增长点
-一个小众运动是如何成为社交货币的
-20:22 Mike的Hyrox初印象：洋气、身材好、颜值高
-22:49 剖析Hyrox：难度不高，但强度很大
-25:15 Hyrox成了“汇率”最高的社交货币
-26:38 从飞盘到露营，上一代社交货币是怎么贬值的
-28:06 Hyrox的核心人群，也是新兴消费和生活方式品牌都在争抢的人
-30:12 从Hyrox到“苏超”，人们关注有沉浸感的线下生活
-32:38 Ins、Tiktok和小红书，放大了Hyrox的观赏性和荷尔蒙
-33:51 肌肉也分有用和没用，Hyrox更接近大众对肌肉的审美
-35:15 UGC内容+碎片化信息，让Hyrox不比赛时也能有传播
-36:46 开了Hyrox课的健身房，就像购物中心有了网红店
-39:40 谈谈一项运动成为流行的偶然与必然
-推广Hyrox，从和健身房搞好关系开始
-42:09 盈方投资Hyrox，看中了一个可以量化训练成果的健身赛事
-44:04 拆解Hyrox商业模式：门票+赞助+零售+IP授权
-45:24 另类团课：标准化的比赛规则，和非标准化的训练课程
-46:42 4年时间：伦敦站报名者从600人到4万人
-48:59 拓展赛事的首要战略，拓展合作健身房
-50:39 沉浸式带动观众，把观赛点安在比赛场地中央
-51:28 从10家到200家，说服健身房为小众比赛和小众人群开课
-55:18 Hyrox的推广，国外重精英，国内重鼓励
-57:25 赋能合作健身房，小红书和滴滴都一并用上了
-01:00:14 避免热度消散，和生态参与者打造利益共同体
-【延伸阅读和相关术语】
-Hyrox比赛规则详解
-混合训练（综合体能训练）：区别于单一力训、有氧运动，强调平衡发展身体稳定性、灵活性、协调性、力量、耐力、爆发力等多项运动素质，致力于帮助训练者达到全面强健的目标，从而提高生活质量的训练方式。
-三大能量系统：人体能量系统主要由磷酸原系统、糖酵解系统和有氧氧化系统构成：磷酸原系统作为瞬时供能机制，通过ATP-CP分解为高强度短时运动提供6-8秒能量支持；糖酵解系统在无氧状态下分解糖原产生ATP，维持1-3分钟中高强度运动需求；有氧氧化系统主导长时间低强度活动的能量供应。运动强度和时间共同决定三大系统的供能权重。
-【监制】
-泓君
-【后期】
-AMEI
-【运营】
-朱婕
-【BGM】
-Whiskey &amp; Gasoline - Def Lev
-The Vindicator Waltz - FormantX
-The Pump - Bonkers Beat Club
-In a Minute - John Runefelt
-Star Voyage - Out To The World
-【在这里找到我们】
-公众号：硅谷101
-收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
-其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
-联系我们：podcast@sv101.net
-Special Guests: Mike, 夏禹, and 袁放.</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，我是硅谷101的特约研究员麻花。今天要和大家讨论的是这两年在全球爆火的一个体育赛事hyo x健身跑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Start and real season like .</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>come .</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>to you from home .</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>car really take.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>2017年，德国企业家克里斯蒂安托茨克和奥运曲棍球冠军沃里茨福尔斯特共同创立了high works，想要给那些每天在健身房挥汗如雨，但又没法测试自己训练成果的人一个比赛的舞台。八年之后，他显然有了更多重的色彩。首先，这个比赛或者说运动完全谈不上轻松，他不是单纯的跑步，也不是单纯的撸铁。我在健身房看到过不少人在做他的训练时头戴痛苦面具，失去表情管理能力，也在赛场上看到，即使是那些全身都是训练痕迹的人，也会累到气喘吁吁，甚至抽筋无力。但就是这样一个高强度的比赛，却拥有火箭一般的爆红速度。2021年的伦敦站，他还只有几百人参加，但到2025年的伦敦站，参赛者已经达到了3.4万人和一场城市马拉松。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相当于官方数据显示，在2425赛季，hero x吸引到了65万选手，而在2526赛季，他预计举办100场比赛，参赛总人数预计突破130万人，每场hirose都是一场荷尔蒙和肌肉溢出屏幕的视觉盛宴，它也成为了一种非常时髦的社交货币，专业运动员和健身房用它来刷成绩、打广告，普通人用它来证明自己。狠狠付出过。我甚至在赛场上发现了一些六七十岁的参赛者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们做这期节目的初衷是想了解一个新晋小众的体育赛事是怎么火爆全球的。人们为什么会把虐当做社交货币？但因为我们做过很多期科技和AI的话题。我也在想，当AI逐渐充斥了生活，hyo x这种需要肉身高度参与的沉浸式的线下活动，究竟从哪些方面满足了人们的需求？当我们因为AI的便利而有更多自己的时间时，运动本身又会发生什么样的变化？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这期节目的第一位嘉宾是hero x的首批官方教练和首批参赛者夏雨。在正式和他聊之前，我先要介绍一下hero x的赛制。他的比赛分为八段，每一段都有一个1000米的跑步，外加一个力量训练。这些力量训练包括滑雪机、推雪橇、拉雪橇、农夫行走、投墙球等。尽管比赛强度大，但却不设关门时间，也就是说理论上你比个10个小时都没有问题。此外比赛设置了男女的单人、双人、四人组以及混双和混合四人组。你可以根据自己的能力决定是个人完赛还是组队参赛。下面是嘉宾夏雨和我们分享的他对这个比赛的感受，以及他的学员们为什么会选择这项运动。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:10]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>Hello大家好，我是夏雨。现在我是hera x的官方合作室友，也是官方认证的教练。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你第一次了解到hero x是什么时候？在什么情况下了解到他的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:23]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>24年年末的时候，大概在10月11月份时候，那个时候是Harris刚进中国。因为第一场比赛是在24年的11月份，是在北京的农展馆。在比赛之前大概两三个月，因为那时候是我的上一家公司，Harris他们的中国区的负责人在找一些合作的场馆。所以其实我们第一次知道这个比赛是从场馆知道的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你当时是参加了，还是说你了解的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:52]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>你是当时就参加这场比赛，我就有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>参加会感觉难吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:55]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>因为本身我之前就是田径运动员，大家都会有涉及到跑跳，所以当时我那一个多月时间更多的去把跑步的专项对中超跑的内容去练了练。我觉得还可以，整场比赛下来没有想象中的那么大。但其实比赛，大家都是在比赛前，就像考试一样，其实心里都挺紧张的。但其实真正去感受了这场比赛之后，结束下来我反而觉得没有想象的那么困难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我知道hero x它是混合训练的一个原理，你能不能先跟大家科普一下？就比如说混合训练它相比于纯粹的有氧或者纯粹的撸铁，大概是有什么样的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:32]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实简单来讲，为什么大家说Harris比较好入门槛儿？就以混合训练来说，因为它有有氧和无氧。有氧大家其实都比较理解，比如说散步、爬坡、登山机、健身房这些，其实它都算有氧运动。无氧的话更多的就是一些爆发类的动作，而举重，所以做力量这些都是无氧类的训练。所以这场比赛他把这个结合在一起了，所以更多的就是混养的概念。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么？我感觉好像混合训练的概念或这种运动方式，这几年在全球的健身运动当中是比较流行的。背后有什么原因吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:10]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实它就是一个体能训练的最基础的原理。因为体能我们就三大板块。身体功能系统其实就从ATPCP来说，这是第一个，就是大概它能持续10秒左右的一个爆发训练，大概是百米冲刺或者说举重这种训练，它靠的是这个功能系统。第二个就是磷酸基酸，这个可能就是会有持续的中强度的状态。然后最后一个就是有氧，基本上就这三个功能系统在维持混氧的这个状态，就是要考验你这几种功能系统哪一个更厉害，你是否能完成这种强度比较高的，既有力量又有有氧的状态。这个混合训练的模式是会让你发展的比较全面。比如说你的最大摄氧量、心肺功能、肌肉耐力、肌肉力量，这些其实都会有涉及到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我能理解如果是混合训练的话，他可以把这个受训者更培训成一种多边形战士，而不是一个只是耐力好或者只是肌肉很大的那种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:08]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也查到其实混合训练的比赛在以前还有斯巴达，包括斯巴达又衍生出了迪卡斯巴达室内赛，然后还有cross。这几年还有扩大的亚洲比赛，叫什么权力游戏。对，我不知道你有没有参加过前面说的这些混合训练的比赛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:27]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我自己本人没有去参加过，但所有的比赛形式包括内容其实我都有了解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以相比于刚刚提到的那些其他的混合训练的比赛，hero x它的一个差异化在哪儿呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:39]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>第一点就是它比较统一，就cross fit它其实要求的更全面。他每场比赛是积分制，你不知道他到底会比什么。他甚至会有游泳圈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会比游泳。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:50]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>有游泳、举重、短跑。比如说体操类的项目，体操、举重和游泳池他涉及的三大板块。所以他可能会有爬绳子，会有一些双A臂，就是一些比较难完成的体操类动作。包括其实你对于这个比赛是未知性的，比赛之前你才能知道我们这次的项目是什么。你不会像Harry现在你就知道，你从网络和途径上你能知道我大概这八个项目和8公里，就相当于是我是开卷考试，我们所有人练的都是一样的内容。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就不能像Harris一样说我可以提前三四周或者提前好几个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:22]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>月去就像Harris。其实他在德国那边一直到现在有八年很久了，他就是一直是这个模式，他这8公里和这八个动作就从来没有变化过，流程比较统一。第二个就是他和斯巴达来比，就是户外的那个斯班牙其实更多偏向越野跑，它对于你上肢的力量要求比较多，因为它会有好多爬的、抓的、挂着的项目，它对于你的上肢和耐力，还有下肢其实都有要求。但其实Harris这项比赛更多综合考量的是你的肌肉抗乳酸能力，它的下肢其实相对来说使用是比较多的。你跑步啊啊，雪橇车，推和拉弓箭步，其实都是好多下肢和单腿的动作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实那天我有去看您上了一节Harris的训练课，然后其实我全程是嘴巴就没合过，我就在想这些运动怎么那么难。但是也有很多人告诉我说，hero火起来就是因为它的门槛低。我上完这课就特别想问问，到底它门槛低在哪里？我完全没有看出来我们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:23]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>课堂上的动作，你仔细其实回想一下，他并没有那么难去做到。因为其实我们观察一下，在herts比赛中，除了推拉雪橇这种需要你极大的绝对力量，其他都是比较能完成的动作。因为他判定标准也比较简单，比如说我的膝盖到底有没有落地站直，然后我推到哪里，打到哪个位置，或者我要完成多少米或多少次，他都有一个明确的目标。对它不像cross fit，那你需要解锁一个倒立撑或者一个双A臂，你至少需要花很长的时间，几个月甚至半年的时间去把这个动作做好。但如果你cross说的这场比赛你这样技能，就像你没有考过这个题一样。但你当前比赛你要不完成这个，你就不算过关，那就很有收藏风险，所以这个门槛就比较高。但harass的所有动作和内容，其实门槛没有那么高。因为它都是人体的基础功能，站立、行走、抗旋转核心，就这些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还听到一个说法是说很多参加helo x比赛的人都是之前玩过cross fit的，所以他们来玩等于是什么降维玩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:28]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>你可以这么理解，因为他们的身体素质其实比较强，因为不管是核心力量，我觉得他们都是有的。但降维打击不代表成绩会好。Parras这个比赛是一个入门门槛很低的比赛，但是能把它跑得快，门槛其实并不低，就是大家能完成，那这也是他比赛的标准，就是我没有关门时间，大家都是一样的内容，但是你要把它完成的更快。其实这是一个比较难的动作，因为你要不断的压缩自己。其实大家可能会觉得说海尔斯是否会无聊或干嘛会一直都是这些动作。但其实这每个项目，哪怕这一个跑步都需要你研究很久的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你是在2024年11月份的时候，去参加了第一次在国内的Harris比赛。但是是什么时候想到去做他的教练的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:16]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实是在参加比赛之前，我就有在售这个课程了。因为已经是官方认证的教练，当时场馆也有签约。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么想要去当这个教练？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:26]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得这也就是契机，让我认识到这场比赛。我也觉得很好，因为他可以让这些指铸铁的人我觉得他可以跑步跑起来只跑马拉松或者跑步的人，让他也稍微接触一点力量训练。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你相当于是你如果做help项链，你是可以帮他们去改变他们那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:42]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>能力维度的对对我觉得是能让他多涉及一点自己不感兴趣的事儿。因为其实原先最开始的时候在北京特别有意思，我们开的第一家馆上课会用跑步机，那是我非常觉得有意思的经历。大家当时会想说，谁上团课会用跑步机？那为什么不能自己在健身房去跑跑步机？为什么我还上课上跑步机？但其实你想这其实过了差不多一年左右的概念。我相信有很多接触过haris的人，或者去上过这个课的人，或参过赛的人，他慢慢对于跑步的这个概念已经有了一些变化。甚至逐渐慢慢从不喜欢到疑惑到喜欢这项运动了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跑步当hero x的教练到现在，你大概接触了多少学员了？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:24]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我得想一想了，几百名肯定是有的了。对，大几百人我觉得是有的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里面有多少学员是跟着你留下来持续在训练的，有多少是被吓跑了的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:40]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得一半儿这个东西就真的很喜欢这个运动的人，他本身就很喜欢运动。他可能不只是因为haris像你说的之前有过cross fit或者其他的综训，或者平时就会上一些操课，我自己也会练他这些人他就比较喜欢运动，所以有Harris这个存在，他觉得这个更适合自己或更喜欢他会一直上，但不喜欢你说那些吓跑的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就可能是被那个课吓跑的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:05]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，可能就是你可能没感受，或者你那次感受看了。对，或者你平时可能就没怎么训练。但是你因为最近有点火，我想试一下，但自己感受了一下，又觉得会给自己找个理由说可能不喜欢或干嘛。但这是个人原因。在我看来我觉得留下来的会比吓跑的会多。因为本身来上这节课和上堂课的人，可能他就有训练的经验了，很少有这种特别小的小白桦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>干嘛对每个人的因素不太一样。留下的会员那个特点，我觉得更多的是因为他们有目标感，享受挑战，能看到自己进步。而这种流失的原因，我觉得更多是低估了训练强度，可能时间安排困难，没有比赛目标，但被吓跑的一般可能就是第一堂课后，但一般坚持到第三节，我觉得都会喜欢上和感受上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就喜欢上这种受虐的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，画引号受那种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们谈一下这个留下来的学员，他们大概是什么样一个人群画像。就比如说年龄、职业或者收入水平大概是个什么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:08]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得年龄可能是25到40岁这个年龄，我觉得职业这个就是比较极端，要不然就是有很稳定的工作。对于每天有自己的作息和工作时间的，另一个就是真的很闲的自由。对，就自由工作者就是我我我有我大把的时间，我比较喜欢运动，运动是生活一部分。收入水平我觉得收入水平应该都还算不错。因为真正能花出一些金钱和精力来做这件事情的人都还是有可观的收入的。白领、创业者或者金融从业者，我觉得都会有。是为什么？因为高压职业其实需要运动释放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且是需要越虐的运动释放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:50]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对我觉得是需要这种。因为他们的生活态度就是追求突破，然后喜欢量化目标，我就把这我觉得这些是关键点，关键对，这个我觉得是关键的，然后愿意挑战自己的舒适区，因为他们消费能力我觉得是够的，也注重品质和效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>高压人士更喜欢找这种极致的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:14]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实是这样的对，因为有很多我的会员，他们其实都是从业可能AI的金融，创业的这种，其实我觉得都是比较高压的职业。因为面对人群每天要讲话比较多，所以运动释放是一个方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我能不能理解一些比较普通的运动就已经满足不了他们去释放自己的这种压力的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:34]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>因为普通运动你自己去健身房撸个铁，找个健身教练或私教。为什么大家现在私教可能上的少也不少，就是因为你都知道你今天要去干嘛了，你已经知道你接下来要发生什么了，他没有太多未知的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实那天我在课上看到训练强度非常大的，包括明天的比赛，应该来说对大多数来说还是很难坚持下来的。我知道最后完善率很高，大家其实强度还是很高的。为什么这些人他们愿意那么早虐的去参加这个比赛？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我是觉得因为训练这些人都有自己的一个规律，不管是训练和干嘛。但其实大家平时训练就是训练没有什么太多目标，有的人可能有目标，我要到雪季了，我要滑雪。有的人有目标，平时可能我会骑车或干嘛。但大部分人可能为了身材好看，他都有目的性的，可能为了我身体健康。但其实这样的一个赛事给了他们一个自我的目标，虽然我玩赛慢或快，但是这是我一个自己的成绩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:31]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得更多的一方面是那种成就感和完成的感觉。因为我们哪怕说不比赛，有一部分学员真的是他只练他很认真的去上这个haris课或只上这些综训的课程。但他从来不比他一直说自己害怕或干嘛。但是我们就把每节课其实当成一场小的Harris比赛。因为我觉得完成了这个事情和把这1个小时度过了很有成就感。每个人都有自己的那个因素和要求，但我觉得更多归根结底的就是能有一个展现自己的过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>2024年可能是第四个季度开始开课，当时是每堂课都是满的了吗？好约吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:07]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实当时还好，大家对于这个就没有那么超前。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看parks课应该一节课是12个学生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，只是我们的那个店是12个。但其实它的上限大课很大的，他一节课最多能能在24或30人以上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你是最开始的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:23]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>你是每天16人左右，然后平均我觉得十个人是有的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最开始可能不是一个满课的状态。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:30]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>现在我觉得现在上这个课的人其实蛮多的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>要排队的是吧？对，从什么时候开是要排队，要去提前去抢这个位置的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实我觉得根据赛事的影响能力，你从24年开始那场我清晰记得可能有两三千人。到25年的第一场上海，就可能已经快翻了一倍，5000人以上到6000了。再往上甚至现在已经达到两天的比赛。当时只是一天，当时不是两天就开始比赛，是一天，所以他们的赛事是早上的男女混双八八这些组别到晚上是接力了，所以一天从早到晚上，现在已经变成两天了。甚至其实在国际赛事上，他们有三天的。前一段时间刚好是英国刚比完，我没有想到那么夸张的数字，他们那一场比赛有三万多人参加，三天就很夸张，强求需要到后面要排队了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就第三个人要排队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:25]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，要去冲冲。但这个他们有他们计时的规则。所以回到我们刚才讲课的那个，我觉得是根据赛事的影响，慢慢大家知道这个比赛了，慢慢参与的比较多了。因为尤其是这些爱跑步的人，可能就来试一试力量。因为这个跑步毕竟有一半的时间是在跑步，所以我觉得2、五年中旬就已经开始了，因为那个时候慢慢合作健身房比较多了，影响也大了，赛事也做起来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你大概是从什么时候开始发现说我的课开始满员了，或者说什么时候开始有会员跟你说，夏老师你的课好难抢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:58]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我觉得就是从25年中下旬开始，在我们上海比赛后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得接触heros应该也正好有一年了一年多了一年多了。这一年你能感觉到它在发生什么变化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:12]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>大家可能只观察到了关注他人变多了，比赛变多了，人变多。但其实我觉得这个更像是一个趋势和我们传统健身房的趋势。所以大家为什么慢慢都不是办会费，干嘛这种更慢慢倾向于团队感觉，社群感觉这其实很重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我能理解heroes被大家喜欢也跟这种社群运动、团队运动是有关系的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:35]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>因为他很有凝聚，就像大家一起上团课，就像你上次你看到我上课，你可能不太会，但今天你有两三个朋友一起叫你，我们要不要一起试一试？我觉得你可能会觉得试一试，我的目标不是只为了练我，练我们一起来。好久没见了，吃个饭回去喝点什么，我觉得这是一个契机。Harris包括任何团课，我觉得都能给大家这样一个契机。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我理解这种组队性训练的模式被大家接受了，也是侧面带动了heroes火的一个原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:05]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>他只是其中很小的点。我觉得Harris火的一大部分原因是因为他给了大家展现自己和总结的舞台。它更像是一个年终总结和自我的一个总结，我觉得这个是重点。大家练了这么多撸铁这些训练和上了这么多课，他没有太多用处。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就一定要给自己打一个分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:25]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，因为所有人都能看到，因为它是一个舞台，哪怕别人看不到，你自己也能看到。就是这一次比赛你可能很慢，但这个成绩这个卷儿是你自己的。对我觉得这个对于现在大部分人来说，可能是比较有荣誉感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我终于去弄了一个别人都不敢去的比赛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:41]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>对，也可以这么理解。因为你看你的视角就是这种的，你看到的。我就觉得大家很恐怖，很可怕。但是当你真的能融入进来或去感受他的时候，就像大家为什么都会说着魔上瘾了，或者说这个感觉挥之不去，感觉好快，没有退的那个劲儿。对，就还保持一个可能就是这个原因。你真正自己感受过这个状态，对肾上腺素分泌，你去感受一下体育的这个状态就不太一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这期节目的第二位嘉宾麦克是国内某连锁健身房的前团队负责人。迈克在分享中提到了一个比喻，是体育运动和社交货币以及社交货币汇率波动之间的关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Hello, 大家好，我是麦克，一位我自己觉得还算比较资深的运动体育跟团课的从业者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果您是一位自认为比较资深的体育行业从业者的话，请问你第一次听到hero x这个比赛是在什么时候呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:40]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这个倒没有特别多的时间，应该就是在去年年头的时候。因为陆续的开始了，会在小红书上，还有一些周围的朋友圈上能够刷得到一些跟havas相关的比赛的一些照片，或者是录像啥的。当时就觉得这个好像当时也没有听过，这该怎么读？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK所以从去年年初听说了过后，因为你自己也有一些运动习惯，有想过去参赛吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:06]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我当时看到这个比赛的时候，第一想的话是参赛的人的身材都这么好，以我现在这个水平去的话，估计是自取其辱，那就算了。所以我自己没有想过，也看到其实周边会有一些过往去参加其他比赛的一些朋友，他们会去组队的，会去参加这种比赛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你周围是以前参加什么比赛的人会去参加hero x.</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:29]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>比如说参加lululemon的，还有斯巴达，还有一些比较厉害的兰cos fate选手，他们也会参加这些比赛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK, 那你围观过tax的训练或者比赛吗？有啊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:42]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>有一些场馆现在会有一些比赛的这一类的课程。无论是像雪橇车也好，还是像划船机、滑雪机这些比较拉风的，这些都还是比较吸引眼球的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你觉得感受如何？看了过后会让你更想去还是更不想参加呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:59]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>看到过之后会更想去尝试。我的第一个感受的是很洋气，这个东西之前没有见过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很洋气体。现在哪个方面呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>好像全国没有哪一个比赛的人的颜值这么高。再加上的话即便肌肉非常大，训练线条非常好，但也没有到达那种特别恐怖，觉得好像自己不能够去参加的这种地步。第三个的话就是他的动作难度其实没有这么高，但它的强度比较的厉害。就对于像我这种可能想去尝试一下的人，觉得可能倒还好，但是最后能完赛或者拿到什么样的成绩的话，还是打一个问号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是好像haro x他是不设关门时间的，就是你随便去比多久都是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>OK的那自己咱不还是要这个脸吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，那你能再解释一下难度和强度的区别吗？什么叫难度不是很大，但是强度比较高？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>比如说有一些比赛当中，它会让你有倒立走的环节，或者是爬绳的环节，还有挺举和抓举的这一些动作。这对于一般的体育上来说的话，那其实上手的话难度就非常高了。但是对于paris来说的话，跑你是可以的，推雪橇车你的腿好也可以。拉雪橇车的话，你的背部肩部的力量足够厉害，也能够完得成就是对于一般的在健身房当中有训练水平的人来说，他迁移到hyo x的难度没有这么大，只不过在一定定的时间之内去完成一个定量的挑战，对自己的心肺，就可能自己平时的训练模式中，如果没有这一部分的话，会有比较大的挑战。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这正好是我的一个疑惑，因为我自己平常有健身的习惯，然后我有一个团课的教练，他看上去是一个非常fit的人我的教练他是一名合格的教练，然后他说自己没有能力去参加那个hero x比赛。但是我偶尔也会在网上刷到，就是有一些平常看上去没有什么运动痕迹，甚至年纪很大的人，他们会去参加heroic。所以我就很好奇这个比赛并不简单，然后也确实是挺累人的，为什么还有那么多人愿意去尝试它？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:11]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得第一个的话，它还是一个偏团体性团队中的一个活动。比如说这几场的比赛，我们能够看到有带着自己爸爸妈妈一块儿来参加了。还会有一些我们知道过去在自己印象中间好像不算特别fit，运动强度不算那么厉害的那些明星，他们也会去参加比赛，这对于他们来说的话，难度没有这么高，但是咬一咬牙，在别人的鼓励之下，即便是可能动作有一些走形，不过还是那句话说叫做完成比完美重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我能理解他是一个进入门槛很低，但是想要玩的好的门槛很高的一个比赛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:55]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，不过可能也没有这么的低，至少可能平时运动习惯和运动基础还是有的。比如说你刚才说的你的团课教练，我相信他的整体的运动基础来完赛肯定是没有什么问题的。他觉得自己比较困难，一定是对他自己还是有比较高的要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK, 因为您一直在从事体育行业，然后我也想问一下，你就是你自己感觉hero x它跟其他的运动和比赛最明显的差异之处在哪儿呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>从大多数人知道这个比赛开始的话，最明显的差异之处就是在各种社交平台上面，它出现的这种方式，以及说它要占据整个社交货币的比较高汇率的制高点。就是大家觉得它够洋气吗？他现在大概是在所有的活动的一个食物链的较为顶端的那么一个位置。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个该怎么去理解？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就是用hero x这个国家的人要比其他的国家的人，他的汇率要更高一些。就能兑换出来更多人的关注也好，还是说你身份的标签也好，你总能兑换出更多的这一部分东西来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我理解他已经成为了一个跟什么穿长袍或者我去登喜马拉雅山一样，是一个非常fashion的一个事情，一个标签。然后就能够非常自豪的跟人说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:18]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，但是货币这种东西它会变的。他有可能今天比如说利率发生了变化，你这边也会发生的变化。通货膨胀高了之后，也会对这一部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>通货膨胀这个词用的非常好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:33]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，所以说咱们目前这个阶段的话，它的汇率是非常高的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么咱们就拿飞盘或者露营来说，就是因为它好像疫情的时候和之后的那一小段时间是非常火的。然后突然之间这个社交货币就不那么通用了，为什么？包括露营也是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:51]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第一个的话一定是通货膨胀超发引起的，就是越来越多的人来玩了。原本我是很少的那一帮人，后来我发现我的邻居也在玩，可能家里的表哥表姐他没在玩，好像所有人都在去玩。一开始的话可能是到安吉的某一个山边小溪边是这样的。结果发现的话可能在城北公园我也可以玩，然后我在楼下小区中间的绿地上我也开始玩。渐渐的大家都会发现，好像这件事情没有那么长命了。但我觉得它本身起来，这件事情是跟我们疫情当中的出行不便，又有渴望有这么一个机会，能够两三个人碰一下头，跟自然去接近。就这种户外或者是人相聚晒一晒太阳，看一看树木给人带来的心情的这种愉悦的感觉是非常直接的。放开过之后，大家发现选择就会是更多了。我可能我今天选择在家打游戏打一个晚上，然后晚上跟别人去吃一顿火锅，看一下电影，跟去露营相比起来，他觉得可能前者的这个效用函数产出会更高，他就选择前者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果是他是一个很吸引人的比赛，然后你觉得他目前的核心人群画像大概是什么样的一群人我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>觉得第一波的话，他肯定还是跟一二线的这些25岁到35岁的男男女女相关。第二部分就是有比较好的运动基础的这么一帮人相关。第三拨人如果一定要去再有一个交叉的话，他可能会跟去追求更好的生活方式，对自我的生活状他有更好的觉知。包括你在场馆当中看到的那一部分人，他为了去追求他自己的这一项目标，不断的去训练，不断的跟他自己较这个真儿。并且是他在这个过程中间一定会做出很多的牺牲的。无论是工作时间也好，无论是他要挤出很多训练的时间也好，尤其是要跟他的伙伴一起来凑上这个时间，其实是不容易的。他在克服了种种的困难之中，去追求这种历劫后的濒死感。他一定是有点东西，也是在里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的一个生活和工作上的狠人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对他可能往往在很多方面不是一个生活到工作上的狠人，但是他在这一件事情上来说，他是一个狠人我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚刚听你讲，然后你总结了几个特点，一个是在一二线城市，25岁到35岁的男士或者女士，一个是有运动基础，然后是一个比较看重生活方式。然后突然我就觉得好像这也是很多现在的消费品牌、生活方式品牌都在努力去争取的那群人。就好像就这群人，他们一定会在某一个地方去投入更多的精力，花更多的钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我觉得也可以这么来去理解。他花时间包括他花钱关注什么东西，在为他自己的生活去投票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得hyo x它的核心人群在国内和国外有什么区别吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得人的生活状态是一样的，只不过整体的比例上来说的话，可能国外会更多。比如说为了自己喜欢的东西去投票，花更多的时间在看似好像没有意义跟回报上的这种人会更多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今年国内还有一个特别火爆的比赛是苏超，就是江苏的城市足球联赛。他是江苏的13个地级市，每个城市各派一支球队去出战，既有职业球员，但更多的是各行各业的业余爱好者。因为这个比赛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>牵涉到了城市的荣誉之争。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>城市一哥之争什么的，甚至还有一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>口号是比赛第一，友谊第十四。反正比赛特别火爆，在网上关注度很高，线下也是一票难求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你觉得苏超和high .</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>rox它的火爆有什么相似之处吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第一个的话就是人们更关注于线下生活了。与其说大家在线上来去刷刷这些东西，不如线下的真的去呐喊一下。现场的是人的呐喊的那种声浪感，还有现场的那这种味道，现场的声音它其实是像浪一样会推动着你的，你去感受它其实不是靠耳朵，你可能是靠胸腔再去感受它。你可能所有的这些肾上腺素也好，各种激素也好，都是拉满的。然后你在很专注的看着一件事情当中的时候，你的手心跟脚心是出汗的。人对这种状态，我觉得他是一个很本能的吸引的一个事儿。其实跟小时候看到谁家结婚或者路边出了什么事故，谁打架跟围观这件事情从本质上来说，对于人来说可能没有什么区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第二个的话，它其实又是对于一部分可能是有一部分运动基础的，我想去参加，那我就去参加Harris的这些赛事。其他的赛事我可能本身的运动技术没有这么好，但是我又想去参加这个，那我就以一个观众的一个身份，或者是我就以一个地理性的，或者以一个社区的一个身份。比如说苏州人、南通人、泰州人、淮安人，什么是徐州人，以这样的一个身份去参加。他就是我自己的那一个部分，我在场上我自己跑不动没有关系，我家乡的球队在替我在上面跑，对吧？它其实是一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以会有一种就跟看演唱会一样的沉浸感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:15]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我觉得这个是非常像的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且他又拉低了普通人去参与到一个比在里面的门槛，或者说拉近了他的距离感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，与其说是这样子，更不如说的话说操比赛的观众，他就是这个比赛的那一个部分。你能想象中一个球场中间没有观众呐喊比赛的这种样子吗？是非常恐怖的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我想问一下，就是你觉得如果没有tiktok、ins小红书、抖音这些社交平台的话，你觉得hero x他从2017年创立到现在，中间还隔了一个疫情，就他这么短的时间，如果没有这些社交平台能火那么快吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:55]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得肯定不会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得社交平台放大了它的哪一些特点？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:01]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>有了流媒体也好，他一定是把最吸引人的那一部分人，然后通过剪辑也好，通过故事性也好，通过参赛选手的第一视角也好，变得更加吸引人，更加的会有代入感，更加具备欣赏性，这肯定是第一点。把它放大的是哪一些？那就是人身上亘古不变的那个东西，喜欢看别人去竞争，喜欢看别人冲破自己的极限，也喜欢去带入自己的很多情感到其中去。这个就是所有的体育运动都一样，是最迷人的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还比较俗的想的是，是不是读图时代就更方便去看那些，因为哈洛克人好像肌肉都很发达，身材都很好，然后就方便看更多更健康的肉体，所以他就会更火一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:51]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>的确是这样子，但是说想看更美好的肉体，大家有很多其他的渠道来去看。但是这种充满了力量感，又好看又有用的这一部分肌肉，的确是可能只有这种竞技的舞台上才能够看得到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么叫有用的肌肉。肌肉也分有用和没有用吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>那当然了，其实我们很多去健身房去练肌肉，去撸铁的这部分人，有的时候会自嘲一句话叫死。他指的是我可能就追求肌肥大大就好了。但实际上的话，你看很多足球运动员，他并不会像橄榄球运动员那么的大。因为对他的奔跑能力，对他的无论是有氧状态还是无氧状态下的体育上的要求也好，都会使得他说对于我不一样的项目中间，我对我自己的体能形体的要求是不一样的。那么对我身体的负荷可能也是不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Hero x也好，cross fit也好，你去看他们运动员的身材，会发现其实会有不一样。Harris作为一个跑步运动员的一个身材的话，他其实打个引号的可能更接近于我们对身体的审美。其实我大了过之后，对于敏捷性它就会或多或少的会有一些影响。我不能说完全有利或者是不好，人身体是非常综合的，他今天的身材是这个样子，一定是项目对他有所塑造的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我听到一个说法就是说因为有了社交网络以后，其实是把大家参与hero x的一个时间给隐形的拉长了。因为他虽然每年在各个地方有一些比赛，但他比赛也只是两天的事情。但因为有了社交网络，那些愿意去训练的人，他们就可以把自己平常训练达成什么目标也记录下来发网上。好像也是这种碎片化的传播，好像也是帮到了他能够更快的流行起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:43]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我觉得这就是非常好的一件事儿，就是因为有人不断的在记录自己的生活记录，自己的训练。所有人的状态一定都是高高低低、起起伏伏、起起落落，也有可能会受伤，也有可能会康复。其实他会被各种各样毛蒜皮琐碎的这些小事挡在自己的每一天的训练当中的。可能是比如说自己生病或者是其他的工作上的一些问题。但是始终是有一条主轴贯穿在这当中来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:14]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们花了很多时间寄情于这件事情上面。久而久之的会发现说，就是我每天我时刻好像就是我的后台的内存就挂了的一件事情。在那个地方上，如果今天没做这件事情就浑身难受。我觉得到那一天的时候的话，可能就是对于比如说全民健身，全民运动这件事情来说的话，就真的是融入到每个人的生活当中去了。这种难受我觉得是很有益的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们再说回来谈一下high rocks。因为我们之前也谈到过一个话题，其实现在疫情过后，国内的健身房它都是非常的精打细算的。他要去算我引入一个新的操作项目划不划算，包括我的场馆需不需要去重新再为他准备一套练习的设备，或者场馆什么的。其实我们刚刚谈了很多hero x他不是一个有非常多的人会立刻去参加的一个比赛。而且他确实是对这个场地的要求，对设备的要求会很高。在这种情况下，为什么国内还是陆续开始有越来越多的健身房愿意去开hero x的课呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:20]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>它一定现在还是是处于一个能量比较高的一个状态。我们刚才用说的汇率是最高的，那么这种状态的话，大家都会去储备比较高汇率的货币。第二部分的话，其实是有很多的场馆。他其实在自己的城市或者是自己的区域吸引的人群，或者他标榜的这部分东西可能就是最潮的。就在这种状态之下的话，他不会让自己落于下风。而他吸引的那一波人的话，可能竞技水平最高的，也最愿意去尝鲜的这么一部分人。而这一部分人他是可以源源不断的再去带动那一些我愿意去尝试的，或者我愿意在小红书上看到过有人去练这个东西的而过来。而这一个其实就是一个非常明显的信号效应。我有了这个东西就代表着我是最丑的，我的运动水平是高的。我就直接可以拍下来这个，然后发到其他的市场品上面，就告诉别人说我在为大家都知道的这种东西而去努力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们看到大部分人去参加这一部分比赛的时候，他都会去说，我今天挺难被拉爆了，今天表现的不好，我今天多亏了谁谁谁谁怎么样。但实际上的话，它是一种很隐形的一种炫耀，就是还有哪一种东西能够去证明一件事情，我比别人厉害，我比别人更加的投入，我比别人更加关注。还有什么东西能够铁证如山的证明这件事儿。我觉得还是就现在咱们这个阶段的话，你有了这一个品牌进来，然后你有一帮很酷的很厉害的人在玩这一波东西。然后你带动了你的场馆的社区的氛围，也不断的加入到这地方来。这件事情铁证如山，就不需要去证明啥了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK这听起来就有点像一个很知名很网红的品牌去了一个商场，然后这个商场引了流，就有点像harrows给这个场馆太卡了，是这个感觉吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是，就是我从静安寺里出来，往嘉里中心那边走，那上面挂的海报最大的是哪一个？那我今天就知道，这个人现在就是最红的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK就是因为社交货币效应太强了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对我们今天不太可能抛开了环绕在我们周边的这些东西来谈论其他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得一个运动的流行和不流行有多大程度上是偶然的，有多大程度上是必然的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:48]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>50%对，50%。偶然的地方是在于说是不是国民心理状态。目前是这个样子。我们其实国内能够有的参加了这个比赛，可能两只手基本上能数得过来，对他来说选择并没有这么的高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:07]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>那么必然的事情来说的话，就是大家的健身人口的渗透率在提高。这个人群提高了之后的话，他一定会产生分化。而分化了过之后的话，他就会参与到别的地方去。人这种见异思迁，又喜欢不断的寻求挑战，又不断的想要去标榜自己跟别人不一样，他就会去选了。这么来去看的话，必然的部分是随着健身人口渗透率的提升，这件事情是必然的那另外50%的偶然的地方是在于在我们这一个选择还不是这么多的情况之下，它是一个偶然出现的一个状态。比如说十年以后，可能那时候的赛事种类有一百多个的时候，大家就很难再去说有哪一个圈层的活动能够拖延而出。他可能都是在自己的圈子里头，是一个明星的赛事。但是他玩的什么，对于另外一帮人来说的话，可能大家就完全不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家不会说存在这一波人，然后为了追风去追那一波人的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>运动的一个OK。对，可能不说路人王就是玩他的这一部分蜈蚣足球，就是踢他的这份足球。可能网球、乒乓球、羽毛球那个时候又有他自己的一个很细分的赛群。他可能是有中国的箱根驿传出来，有中国的甲子园的比赛出来，有中国的足球小将，有篮球小将出来。那个时候的话大家都在自己的那一部分人里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这期节目的第三位嘉宾是hero x中国区的负责人袁放。袁放最初在营方体育工作，2019年营坊战略投资了hero x他也在之后接受了heroics在中国的推广和落地，我们一起聊了hero x的商业价值和商业模式，以及最重要的怎么在中国推广这个小众且陌生的赛事大家好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是hero x健身跑中国区的总经理，我叫袁放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>英文名字叫做放，我查资料的时候发现就是hero，他是2017年在德国创立的，2019年的时候您方就已经是他的战略投资方了，为什么从很早的时候你们就会投了这个赛事，是觉得这个新赛事有什么商业化上特别的商业潜力吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为盈方本身他就是一个体育营销公司，我们的工作就是去研究为什么大家会喜欢其中一种运动，这一种运动能给大家提供什么样的价值？我们怎么才能够让这个运动去发展的更好。所以说从这个角度来看，为什么当时营方去投资harrows他就不奇怪了。因为当时herr cx这个项目决定要来到中国大陆来进行发展，然后让我来接手这个项目的时候，我也稍微有点猛。第一我没做过线下执行的工作，而且这样一个我之前都没有听过的赛事，我不太想去尝。是但后来跟我们的创始人沟通了之后，我才理解到他这个赛事初衷愿景是什么。他想面向全球喜欢健身的人群和喜欢跑步的人群，打造一个新的运动。因为这个概念是特别大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>首先我们说耳熟能详的运动网球，即便你之前很少打网球，你至少知道大致的规则是什么。所有运动的根基在于规则，如果没有一个统一的规则的话，他这项运动是很难发展起来的。但是健身对于大众接受的来说，之前是没有这么样一个大家都认可的规则的。我如果我邀请你去参加一场健身赛事，那你可能会一头雾水，说什么叫健身赛事？</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会问你是要测我的体脂率吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，你说是看我们谁跑得快，还是谁举重举得高，还是谁的形体看着更好看？他没有一个全球大家都认可的，都能够参与到其中的这项赛事。所以当初hero x的打造就是希望面向全球的健身人群，打造一项标准化的赛事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你这么一说，我能理解的就是说其实这个比赛是给了一个平台，让爱热爱健身的人有一个标准化的竞技的一个规则。那海洛X他现在的商业化路径或者说变现模式有哪些？除了那个比赛会员，好像是比赛要去交什么参赛费，除了这个还有其他的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第一肯定是门票类的收入，有的是观赛，有的是参赛，它是有一个报名费。第二点就是商业化的收入，就是我们合作的品牌去到hero x的比赛现场，包括日常健身房，赞助商是我们的第二块收入。第三块可能就是涉及到零售，因为很多人他参与到这个赛事当中，他希望自己有一个身份的认可。我穿着heros的衣服、鞋子也好，还是日常背的包包，戴的手表也好，他是有一个零售的收入。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第四大块，因为hero x它本身它是一个埃批。参加hero x的选手他都希望自己的成绩是不断的提高的。所以比赛之后他会找到我们合作的健身房，很多合作健身房会来找到我们说，我们的会员想去来练你们这个hierarch比赛。我的教练怎么才能够更好的帮助会员来进行提升，我的场馆怎么去打造，能够让运动员有一个在赛场上的感觉。所以说我们会会跟这些所有的授权健身房来联合起来，就是以练代赛，以赛代练这种形式推进下去，才能够让大家更加深入的投入到比赛当中。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就围绕IP的话，应该是有场馆的认证，有教练的培训课程也算是一块？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对了，heros归根结底它是一个耐力类的赛事。它最终考验的其实并不是说谁推雪橇最快，谁拉雪橇最快，还是谁波比跳最快，而是说谁的运动表现能力更好。那么如何提升大家的运动表现能力，我们会给大家提供一个基础包。第一，我给你非常详细的去介绍什么是hero赛事，他跑几圈儿，怎么跑？有哪些力量训练，有哪些项目训练这些力量项目，有哪些我们总结出来的技巧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>每一周我们会上传不同的课程的示范，非常详细。比如说这一堂课一共50分钟，它包含多长时间的热身，多长时间的主要训练。这一场训练是训练力量的，还是有氧的，还是心肺的，还是什么的。然后每一项训练有多少个动作，重复多少次，这一堂课能够容纳多少人，我们都写的非常清楚。这个是相当于给到我们健身房教练的一个工具。但是你是直接使用这个，还是就是说你会有一些变形，你是会有一些添加一些自己的东西。这个我们没有强制要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以比赛规则是标准化的，但是培训的模式是非标准化的。是的，明白。我们再谈一下tax在全球和中国的一个推广和运营。先谈一下常规的操作。如果是一个新的赛事，从创立到推广到全球大概会被分成几个阶段。然后每个阶段大概需要做的关键动作是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Hero x其实是17年刚刚做了第一次试水，在德国汉堡，19年我的母公司就是营坊把heroes收购的时候，其实当时还是一个在欧洲刚刚做起来的一个小型的赛事。收购了之后就20年，21年就是疫情了。所以相当于来说hero x的全球化大概是从21年开始的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我21年当时的伦敦站报名人数有可能不是那么准确，但是大差不差，我记得是六百多人还是八百多人报名参加。直到今年是25年年底，大概过了四年的时间。今年的接下来的伦敦站应该是12月份是4万人参加。我说的只是运动员，还不包括观众，观众和运动员的人数大概是1比1。这次上海站是第一次，观众的人数比运动员人数还多了。所以四年的时间，伦敦从600人发展到4万人，这个故事在全球各个国家其实都是同样的展现出来了。当时我去的第一个赛事是二三年10月份，新加坡已经上来就是四五千人了，那是第一站新加坡。然后我又去了趟巴黎，法国巴黎那个也是第一站，好像也是五千多人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当时我自己就发了几个小红书，我说，这个赛事真火，我明年我要大动作把它引进到国内。发了这一篇文章之后发现五个点赞的。我回国之后，我就二三年底我就接手了这个赛事。当时我小红书我翻了大概十页20页，发现只有可能五六篇关于hero s的帖子，还都是在咱们中国香港。大家可能因为那个时候22年底中国香港是第一次办赛，大家可能有一些人去参赛。但我去了F45健身房之后，我就问一些教练和学员，我说你们听过heroes没有？问了十个，大概有八个都没听过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>偶尔已经是二三年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>二三年底二三年底偶尔有一些。他好像是欧洲有个跑步类的赛事，我听说过。所以说我们是从24年初开始，在我们的社交媒体平台开始进行宣传推广。其对我们来说第一年是特别难的。我们当时的第一个战略就是说我们要快速拓展合作的健身房，他这个社群的概念就开始出来了。后来这些健身房就开课我们会发现不温不火。经常会发现开了一堂课，两个人来报名来上课。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是一般健身房团课都得满四个人才能开课吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以当时我们很苦恼。我们就在想high rose他和平时日常的训练团课有什么不同？那就在于它是有一个赛制，我们是有一个衡量你的训练的水平的这么一个东西在里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当时我们在国际上有个叫体能测试项目，也是heroics我们自行研发的，它叫PFT physical fitness test。就是因为很多人在没有参与herself之前，不知道该报哪个组别，他不知道自己有多强或者有多不强。所以他研发了这么样一套算是小型的微缩版，它永远都是这六个项目，跑步加上波比跳，加上弓箭步、划船、俯卧撑。求。所以当时我们就做了一个算是PFT测试手册。在短短的三四周时间内，我们就开始刷小红书，就看到这个话题就已经出来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>PFT然后我们在大概去年9月份的时候，我们联合这些所有的健身房，我们说咱们推一波，不管怎么样让大家来比赛先感受一下。所以说我们中国大陆的第一场比赛是1600人参赛。其实它的起步已经比中国香港高了，已经比伦敦高了，已经比纽约高了。这一场比赛过后，我们感知就完全不一样了。随之我们就宣布了，我们即将要办上海站。从上海站的裕宣布报名当天开始，我们就看到第一天就报名了。北京站可能前两个月的报名的人数，然后随之他就像滚雪球一样，即便是你不参赛，你买一张观众票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也可以去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>看我也可以去看。而且因为它不仅仅是一个观赏类的赛事，你是可以走进到那个场地的最中央。当然你不会阻挡运动员，我们会把赛道和观赛区划分。但是赛道和观赛区它是有一种这种犬牙交错，这种参差的。就是说你在那里做波波一跳，我离你的距离大概就1米。在伴随着现场的灯光音响音乐，MCDJ这种氛围的渲染。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>心里这么描述了去参加音乐节的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为一个人过去参加比赛了，他还可以带来四五个人来进行训练，同时这些人健身房开始组织自己的出征团，随之话题量就越来越大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>咱们刚刚提到一个点，就是其实第一年最重要的一个战略是快速去拓展合作的健身房。大概是疫情之后。但是我有了解到一个情况是说，疫情之后，其实很多健身房它是有很大的经营压力的，他们开始去计算很多成本，就是我要引入一个课程，要引入一个训练模式，是不是划算，就包括很多团课都在这个里面受到了影响。然后健身房的经营者会去想，我的集体训练的教室要多大，它能够一次能够容纳尽可能多的人才是更划算的。或者说我把这个场景拿来做私教训练是更划算的。在这种情况下，你们怎么去说服他们去为一个新的比赛，新的训练去开馆。而且他肯定是要很多的线下的投入，然后去的人还不是很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，我觉得这个问题问得非常好。第一我们确实要收费。第二，我们今年年初25年的年初，可能授权的合作建设方加起来可能十多家、20家，到今年年底我们现在将近200家。为什么大家愿意去花这个钱？就是侧面的印证了这个东西对于健身房来说它是有价值的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第一，carrots给到了健身房一个训练的目标。其实这事儿就相当于我们小时候学习加考试一样。OK我这学期我好好学，对吧？期末考试考好了，过个好年回家亲戚朋友问我多少分，我可以很自豪的告诉大家我考多少分。但考完试之后，我升入到下一个学年了，我是不是要根据我之前的这个查缺补漏，是不是有更加有针对性的学习？</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>同样hero x比赛不是目的，而是告诉大家你的目前的体能的水平和一个运动表现的能力的范围是在哪儿。同时我们健身房还可以借着heroes搞自己的小型的比赛。其实这事儿就相当于日常的学习，就是训练月考，就是健身房搞的这种小型的测试赛，期末考试，就是在你城市举办的hero x比赛。他其实通过这一系列的机制，让大家更好的训练，更量化自己的水平。对于健身房来说，这个是非常好的一个工具，它带着大家提升了大家的社群的粘性。同时Harris还有双人赛、四人赛。而且从团课这种机制来说，人越多训练的越热闹，他会逐渐的一带一，口口相传。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个教练很好，很有训练水平。我上完一堂课，我第二天起都起不来，人的这个本性就很好玩。我受虐完了不行，我一定要让我朋友跟着我一块受虐。所以的健身房他就抓住了这么样一点，能够给他带来生意。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，再说一下这个赛事的推广。因为咱们刚刚也提到，可能欧美它是一个健生习惯非常发达的地方。然后中国就是像我这样的菜鸡还是比较多的。所以咱们如果是在欧美推广heroic和在中国推广heroic，它的重点会有什么不同吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>确实是有一定的不同，我认为这也是我们前期推广的难点，就是大家对于赛事这一个模式的认可。可能从过去的几十年发展起来的欧洲或者美国，他的体育产业发展的是比较快的，大家有很多赛事可以去参加。所以当heros这个赛事新出来的时候，大家可能也是愿意去尝试。但是国内相对于来说，人口基数比较大，但是参与的不同种类的赛事还是相当少的。我日常我所谓的健身房，我就去举哑铃游个泳，我没听说我健身房还要办个赛事。所以在落地的过程当中，我们就很强化对于健身房的这种引导，说其实你也可以办赛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们是鼓励健身房去做这个月考的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>只有办的比赛越多，参与的人越多，它话题就越多。他就会带动更多的人来参与到这个赛事当中，那么它才能形成一个产业，卖鞋的才能卖的更好，教练的课才能会卖得更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以国外推广hero x的话，它最开始的重点是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我认为从国内和国外来讲，它都是从社群出发的。其实在全球任何一个方面来讲，它都是没有说重金投入什么广告宣传，那请代言人这些我们都不是很看重的。但是在推广过程中的方式方法会有一些不同。比如说内容传播的调性，我们通过什么样的方式去鼓舞大家。如果国外它可能有一些国家，它比较强调的这种精英机制，他会搞一些精英运动员，不断的让你去挑战。我们国内可能更多会选择一些鼓励机制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我刷到过什么60岁的.</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>爸爸还是是的，就是他也能参赛，你也能参赛，我也能参赛。让大家先放下对于赛事的这种戒备感，不一定只有经常参赛的精英大神才能够参赛的。我们鼓励你，只要站在赛场上，其实你就是一个强者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们会在全球去找一些那种健身领域的role model或者KOL，通过他们来带动这个比赛推广吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们会采取另外一种模式。我们认为你首先要先爱上这一项运动，你才能够推广这一项运动。所以说从最开始来讲，我们并没有说追求一个流量的加持。说我们看一下谁的社交媒体的关注的人多，我们就找你来代言。因为这个时候感觉是有一点空虚的，他并不能够很好的去传递heros这种参与的机制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而是我们等了一段时间，我们去宣传推广一段时间。然后我们看到那些开始愿意分享内容的人，他开始参与赛事，他自己本身成为了一个赛事的爱好者。我们反推，我们回来找到他说，我们关注到你一直在推herr&#x27;s这个赛事，我们非常愿意跟你建立起这样一个长期的合作的关系。我们我们管它不叫大使，我们叫运动挚友。这些运动挚友你会看到他的粉丝量未必是很高的。但是它的内容一定是能够传递我们这种精神的方方面面。也许是精英精神，也许是参与精神等等的。我们是需要不同同的人群画像来能够让大家产生共鸣的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚刚也提到了就是我们要有合作的场馆，也要有合作的教练。还有包括会有一些课程，就whatever。它是什么标准化或者不标准化的，怎么去管理这些场馆教练和课程，来去减少会员在平时训练时和真实的比赛里面的一个这种。它可能会有一些gap。因为有些场馆它没有那么大，它的设备也没有那么齐全。我不知道怎么去弥补这种训练做作业和去参加期末考的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>明白针对于合作的场馆，我觉得最重要的是我们要找到一个很好的平衡点。这个事情有两个极端，一个叫疏于管理，一个叫过度管理，这两个极端都是不可取的。还是回归到我们跟健身房合作的初衷。每一个人有自己的想法，有自己的见解，有自己的训练模式。它可以在整个的运动员成长的路径当中，起到一个很好的参与性的作用在其中。所以说我们只是希望提供这么一个平台和一个工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们其实也在不断总结各种经验。比如说这一家健身房他做的活动就非常好，那么我们就会跟这家健身房就说OK咱们能不能一起做下来，把你的经验咱们分享出来给到大家去看。但当然你做得好并不意味着我把这一套东西搬到另外一家他就一定做得好，但是至少它是一个起步点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是同样另外一点，我们不可以说去把大家限制在这么样一个条条框框当中。因为我认为运动本身它就是开源的。再比如说我们合作的赞助商，他说我赞助的赛事，但是我想触达我们更多建人群。我们会跟赞助方我们约定好一个说OK，我们怎么去把这件事情去落下去。比如说我们前一段时间跟小红书，它有一个运动打卡节，他来找我们合作。我们说我们其他的不需要，你也不需要太推广horror赛事，但是我们希望你能把这个推广给到我们各个合作的健身房，让大家在小红书上参与的落地页面能够找到跟我们合作的健身房。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如说我们的出行方式，上次我们跟滴滴做了一个小型的合作。因为我们知道赛前一周大家都想去再训练一场，或者说去比赛，大家都有出行的需求。那你能不能给到健身房更多的出行的福利。我们作为一个埃批，是我们希望能够加持，能够赋能我们合作健身房。我们把这么一个底儿给你保证了，但是往上能走到多远，我们相信在未来可能会出现一个健身房的超级hirose品牌。大家都认可他这个训练，都认可参加他的组织的小型的赛事，会有不同的人，他会有自己的思路，自己的见解。只要不违反我们现有的这么样一个合作公约，你把你自己的会员粘性做起来，你把你的质量做起来，我们更愿意帮你去助推打造这么样一个榜样效应。那你其他建设就可以跟着他去学，这才是一个生态系统。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后问一个略显沉重的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好有多沉重？</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>又这几年有很多运动它其实都是活过的，比如说像飞盘，然后露营什么的，但是这些运动这几年都不火了。所以hy rox会去做什么事情来防止自己很快的maybe也有一天他可能大家又忘掉，他就喜欢新的运动了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说这就是我认为它的一个生态系统的重要性。如果我们只把自己当做一个产品经理来看的话，就是说我们产品就是这么好。我们不听取其他人的意见，不跟其他人去合作的话，那么我们相信这很快我们就销声匿迹了。我们现在跟健身房沟通的这一点就是第一，我们首先非常感谢你们来支持我们，愿意跟我们合作。但是有一天这个东西没了的话，对于大家所有人来说都是一个损失。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们现在需要做的是共同把这个埃批给它做起来。它属于我们这里面的每一个人，同时还包括大家所谓的hero x的竞品，对于我们来说他们不是竞品。所有其他的赛事我们没有任何去跟他们去竞争，去贬低，去抢大家的关注度。因为我们认为现在这个行业它还处于一个初期。如果我们只是一个小小的蛋糕，大家每个人都在这个蛋糕当中想多咬一口的话，所有人都会饿死。但是如果说我们把大家都聚集起来，共同把这个蛋糕做大，甚至是有更多的蛋糕，我们才会形成这么一个产业。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个好的IP它是要给整个产业来赋能的。我们在每一个产业当中的不同的参与者、贡献者，在从中不仅能贡献自己的力量，同时还能够有自己应得的收益，才能够把这个产业去做起来。就说白了就像。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>打造利益共同体。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这个总结的非常好，我觉得这句话是个精髓。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>行，我们这次分享也差不多了，非常特别棒来参加我们节目的录制，谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>本期节目到这里就结束了。在看训练看比赛的过程中，我一直在想，人们在潜意识里到底是怎样一种力量推动他们去完成这么一项高强度的运动。直到看到一位63岁的参赛者比完全程并获得了好成绩，我发现也许很多人都想在自己的某个精神角落有那么几个瞬间成为平民英雄。希望听到这里的每一位听众在2026年都能有更好的身体和精神状态。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好了，以上就是本期节目的所有内容，感谢大家的收听。中国的听众可以通过小宇宙、苹果播客网易云音乐、喜马拉雅、QQ音乐、蜻蜓FM、荔枝FM来关注我们。海外的听众可以通过苹果播客和spotify，或者在youtube上搜索硅谷101播客来关注我们我们部分的文字稿还会收录在硅谷101的微信公众号上。谢谢大家，我们下次再见啦。</p>]]></content:encoded>
-            <pubDate>Mon, 29 Dec 2025 00:00:00 GMT</pubDate>
-            <guid>6951359d7347e9f24d2c0fd8</guid>
         </item>
     </channel>
 </rss>

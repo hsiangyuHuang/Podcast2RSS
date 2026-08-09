@@ -4,7 +4,138 @@
         <title>屠龙之术</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401</link>
         <description>科技创业与投资相关的”屠龙之术“</description>
-        <lastBuildDate>Sun, 02 Aug 2026 05:03:43 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 04:44:29 +0800</lastBuildDate>
+        <item>
+            <title>AI by the numbers-23页PPT solo</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a789a5ac4079d62c57fca54</link>
+            <description>最近有做二级的好友找我去他们基金的策略会做分享，
+因为当天的演讲嘉宾中有专门讲述模型进展和算力需求变化的专家，
+他希望我的内容偏向AI商业化和场景落地的，所以有了今天的PPT……
+还有一点是，8月22-23日小宇宙也要在上海WHYS翡悦里举办一个线下的活动：先声信号塔
+23号那天我也会有一个小时的meetup环节，今天的内容其实也算23号活动的“前菜”。
+老规矩，PPT在我的ima数据库中，有需要可以去ima获取；
+屠龙之术VIP报告库 https://ima.qq.com/wiki/?shareId=7c732a68674e53edea8d17f9546ad5a2047e0c63985dde9d2592f2bb76fe43eb
+（想加粉丝群的请先+微信：rosicky311)
+下面正片开始……
+【时间线】
+01:28 标题的由来
+02:17 SP500的屡创新高
+03:51 AI股和软件股的分化
+04:34 老生常谈的CapEX
+05:43 AI最直接的收入体现：Cloud
+06:22 Anthropic和OpenAI的ARR
+07:38 Claude的场景扩散
+09:01 毛利的测算
+11:07 deepseek“斩杀线”
+12:41 Agent范式
+13:52 国内Agent相关数据整理
+14:49 一些关于国内Agent用户量的事实和推测
+16:16 一些更可信的数字
+18:39 “Infra”的意义
+21:05 ARR超过5亿美金的初创公司榜单
+23:17 一级市场Q2热门方向
+25:08 增长角度看国内AI应用
+26:35 那些“明星”
+27:54 Roblox的股价
+31:29 一切才刚开始
+32:15 当前最大的共识：一切皆loop
+33:23 致谢
+【播客简介】
+屠龙之术是一档关注科技、互联网、风险投资的播客，
+主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
+其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
+或许某天再有新的“龙”出现的时候，就是这档播客停更之时。
+【ima知识库】屠龙之术VIP报告库 https://ima.qq.com/wiki/?shareId=7c732a68674e53edea8d17f9546ad5a2047e0c63985dde9d2592f2bb76fe43eb</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目是播客主理人明浩为朋友基金策略会准备的闭门分享录音，主题为“AI by the numbers”，核心是用数据而非观点来审视当前AI产业的真实状态。明浩以“AI司马迁”自居，通过23页全数据PPT，从美股表现、模型厂商收入、毛利率数学、中国AI应用落地数据（豆包、work body）、美国VC投资风向等维度，试图回答“AI应用到底发展到哪一步了”这一核心命题，整体基调冷静甚至略带悲观。</p>
+<h3>关键要点</h3>
+<ol>
+<li><strong>美股AI叙事的“K型分化”</strong>：过去一年半，美股市值层面，AI相关标的与软件公司（SaaS）出现巨大分歧。大部分软件公司距历史高点跌去50-90%，而AI标的大幅上涨。市场明显在用AI替代传统软件的逻辑定价。</li>
+<li><strong>算力投入的“危险区间”与“没人敢下调预期”</strong>：美国头部科技巨头的capex合计已接近美国GDP的3%，类比当年光纤泡沫已属危险区间。但当前全产业链（云厂商、芯片、SaaS）没有任何公司敢下调预期，微软云季度增长高达40%-60%。明浩自问：“当很多事情遇到人类的极限之后，这种态势还能继续保证吗？”</li>
+<li><strong>OpenAI与Anthropic的ARR口径之争</strong>：截至7月，OpenAI的ARR超400亿美金（扣除微软分成后的到手收入），Anthropic传闻超700亿美金（不扣AWS与Google Cloud分成的总额）。明浩指出这如同游戏行业流水口径——一份流水可以是发行商、CP或渠道的流水，同一份钱可以被重复计算。</li>
+<li><strong>OpenAI的“3000亿美金”预期与收入结构变化</strong>：OpenAI今年破1000亿美金问题不大，秘密路演中传闻明年年底ARR目标为3000亿美金。关键结构性变化是：<strong>coding收入占比已从高位降至40%</strong>，接棒的正是企业级服务。</li>
+<li><strong>大模型降价的“毛利幻觉”数学题</strong>：以成本1元、售价10元为例，毛利90%；打对折卖5元，毛利仍高达80%（仅降10个点）。而DeepSeek V4刚出来不久即打2.5折（卖2.5元），毛利依然有60%。明浩以此解释为何各厂商敢于激进降价，降价空间远大于表面感知。</li>
+<li><strong>“斩杀线”模型：DeepSeek Flash V4成为行业标尺</strong>：以最新版DeepSeek Flash 0731为基点画矩形，凡能力不如它且价格更贵的模型（GPT、Claude、Kimi等）均处于“斩杀线”内。各家被迫“逃离斩杀线”——无法更便宜，只能往右上角堆能力。他承认单维度打分有局限，但趋势清晰。</li>
+<li><strong>范式转移：Coding Agent 成为新ChatGPT</strong>：官网下载的ChatGPT客户端已实质变为Codex，“纯对话版ChatGPT classical”已很难找到。客户端对话框下方出现“chat”和“work”两个按钮，全球范围内腾讯work body、阿里“枪办公”、豆包企业版、Google AI Enterprise都在跟进“work agent”范式。</li>
+<li><strong>中国AI应用的现场“打脸”数据</strong>：豆包以3-4亿月活尝试付费，专业版推出近两个月，付费用户仅“小几十万”，即转化率约<strong>1‰</strong>。明浩在演讲现场问一两百位投资人“谁买过豆包付费”，无人举手。他判断1%的复合转化率在国内已是极度乐观。</li>
+<li><strong>5亿美金ARR俱乐部榜单“非常boring”，甚至是死亡名单</strong>：全球未上市的AI公司（含数据、算力、模型、应用）中ARR超5亿美金的公司，看起来是榜单，实则很快会被巨头盯上。Cursor、Replicate等真正应用公司寥寥，大部分是数据公司（Scale AI、Surge等）和算力公司，资本市场用脚投票的结果依然极度偏向卖铲人。</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li><strong>“百多万DAU”的误传链条</strong>：全网疯传的work body“1200-1300万DAU”实为一位“同行小弟”的笔误，被所有自媒体引用。真实数字是<strong>一百多万DAU</strong>。明浩吐槽：“你可知今天这个时间点做自媒体的门槛有多低？”并调侃晚点文章用“平均已达百万级”来修饰周中周末的波动——周末不上班没人用work body。</li>
+<li><strong>现场举手投票的残酷时刻</strong>：面对一两百人的投资圈观众，明浩问“现场有人买过豆包的付费吗？”结果<strong>没有一个人举手</strong>。他说“很赤裸裸”，并以此引出“做个屁的付费”的悲观结论。</li>
+<li><strong>明浩的自我身份自嘲与“老故事”</strong>：他自称被大家戏称为“AS马迁”（AI司马迁）。在讲Roblox案例时，他调侃自己“又开始讲原来那个趋势，元宇宙的趋势”，承认自己多次复述相似叙事，但也直面“看透叙事”与“二级市场买股票赚钱”之间并无直接关联的巨大难题。</li>
+<li><strong>大神离职也要写PPT的即兴吐槽</strong>：引用谷歌首席科学家Jeff Dean离职BP时，明浩忍不住吐槽：“这种大神离职也要写PPT，而且前面几页也是写他们是谁……太有意思了。”只剩一页是介绍业务，标题为“一切皆loop”——即RSI自主进化的核心逻辑。</li>
+<li><strong>亲密工具的私人表露</strong>：明浩自认“沉浸式翻译”的核心用户，并提及最近在换电脑，发现GPT官网已经很难单独下载纯对话版客户端——他个人体验与行业范式转移形成微观互证。</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，我是明浩。今天的内容其实是今天下午刚刚参加完一个朋友基金的策略会对他找我说想聊一聊AI应用的话题给我布置的任务。所以我做了这次内容，这次内容PPT大概二十多页，真正的讲述时间可能半个小时左右。有大概345页是之前我讲过body那个PPT当中的页面的延续，然后剩下的内容基本上是重新整理的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我之前在小宇宙的新上的那个语音的功能上，我说22号和23号在上海有一次活动，小宇宙官方组织的活动。因为那个活动我会做一些我自己的小的设计，因为我有1个小时的me up时间，然后今天的内容某种来说是那次活动的一个小前哨。对我保留一点点秘密。如果我对这个事情有兴趣的，欢迎大家在8月22号23号来上海线下的小宇宙活动找我。我应该是23号那天的1个小时的时间，具体是哪个小时还没有确定，这次活动的这个票还没有开，应该是8月12号跟8月14号。在消费者APP内开，有兴趣可以去等一下，我们正式开始今天的内容。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天内容叫AI by the numbers，就像这个标题定义的一样，我今天的PPT除了封面页、尾页跟倒数第二页之外，所有的页面基本上全部都是数据。对，我在这个PPT的首页上画几个小字叫没有观点，只做记录。前几天在跟叛乱艾瑞克亚楠直播讲豆包跟飞书的事情的时候，现场有一位听众，是我的朋友，在微信里跟我私信说，他觉得我讲的比较有道理。我说其实我没有观点，只是陈述了我所看到的当下时间点发生的事情，就像大家戏称我为AS马迁一样，我只是做了个记录。那今天的内容其实也一样，我们一页一页讲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一页我放了截止到8月5号，也就是上周的第三个交易，还是第四个交易日的标普500，就过去一年左右多的曲线。所以回看这一年多，我们可以想一下，从去年8月到今年8月，这一年中发生了多少的事情。然后再回看11年的时间维度，看整个标500的趋势，基本上这张图其实我每一次的标题都是差不多的。这次标题叫屡创新高。对哪怕经历了七月份这个大家非常痛的史诗级别的回调之后，没过多久我们只看标普500的指数也再次创了新高。过去一年发生过非常多的事情，战争，甚至各种各样的中美贸易战的问题，甚至再往前推类似地皮卡一这种事件。可是无论有什么样的事件，似乎从一个相对长的周期来看，标普500依然还在上涨的过程中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一张图所以从结论来说，什么大跌不大跌的，我觉得不重要。全产业链的需求看起来非常的强劲。没有人在今天这个时间点，云厂商、芯片公司、半导体公司、SARS公司，没有任何人敢下调预期。对，没有。但这似乎听起来很危险，不是吗？我们再看整个市场的区分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二张图表是过去应该是一年半左右时间，整个美股市我们把核心的TMT相关公司分成。软件跟你明显感知这两条曲线之间出现了巨大的分歧。大家似乎认为AI开始替代传统异常的软件跟SARS。所以大部分软件公司距离历史高点应该都跌了，可能50 60 70都有，对吧？甚至很多公司跌了90%以上。可是AI相关的标的应该在过去一段时间涨得非常的好，尤其近可能半年左右的时间。所以AI跟软件似乎成为了一种分量有没有的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二张图表，第三张图表，老生常谈的cap x一个结论，我在上一次的PPT里也讲过，这个结论特别的简单。开发S的预期在过去三年一直都是偏保守的。每一次各家公司发财报都往上调来年的KPS预期。每一次我们在年底去预测来年的KPS投入的时候都是保守的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天这个时间点，似乎美国最头部的几家科技巨头的开发者已经占GDP的快3%个点了。这个数字类比当年的光纤已经是一个挺危险的区间了。但很多人会说这次不一样，对吧？最有名的AWS微软、google和meta 26年的KPS距离25年都是几乎翻番的那27年？当很多事情遇到人类的极限之后，这种态势还能继续保证。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>虽然没有人敢往下跳，但是再往上调能调多少呢？但我又会想，类似的话语似乎在去年年底我也问过，可是今年告诉你市场还会再往上加，那明年不知道。今天我再说，我做这次演讲的时候，找我的这位朋友给我下的命题是将来应用的。然后我说是否可以拓展到今天这个时间点AI的输入获取方式上，这也可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果是这个角度来说，AI肉眼可第一个最直接的收获的方式就是云厂商的所有增长。所以你发现美国最大几家云厂商AWS google云、微软云。在过去几个季度，亚马逊应该重回了AW超过20%的季度增长。微软云跟公有云都是每个季度40%、50、60这样涨，非常疯狂。Cloud云是我们看得到的，但云似乎听起来是一个间接的收入获取方式。真正意义上我们去看AI行业的落地，我们看收入似乎大家只能去看open a两家的AR这两个公司。AR似乎也在很多人的评价体系里面，作为最重要的观测AR行业进展的指标之一，对吧？那最新的数字，OKI的七月份的AR应该超过了400亿美金，传闻报表应该超过了700亿美金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这个计算方式有各种各样的分歧，比如说OI的计算方式应该是扣除掉微软的分成的，也是到手收入。但是SOP的计算方式是不扣AWS跟gool cloud的分成，是直接全部都算的。所以这个流水到手的确认收入到底该怎么衡量？这件事情是持续甜蜜行业无数年的一体。就像当年我们看游戏行业的流水，一份流水可以是发行商的流水，可以是CP的流水，可以是渠道的流水，甚至可以充值厂商的流水。同样是一份流水可以每个人用很多次。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那问题来了，AR能代表一切吗？或者说这个问题的反面，我们今天都会认为模型像一个巨大的无往不利的锤子，我们需要找钉子对吧？拿着锤子找钉子，那我们就看场景。可是这里出现了一个议题，我在上一期的PPT也用过这样一张图，就是抠图做的SP在过去半年左右时间的拓展的行业方向。比如说他们从纯从模型开始拓展到了finance、金融机构、法律、security安全、live science、生物医药design设计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以及。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近新出的enterprise企业。然后最近也有传闻，早会还在秘密的路演，传闻明年年底预期早会为二将跑到3000亿美金。今年破1000亿美金大概率问题不大明年就是3000亿美金。但是在预这个预期当中，你会发现coding收入占比已经降到40%。接档coding等是and Price企业级服务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个议题就变成另外一个更重要的议题。你发现google我今年去拉斯维加斯google cloud大会，google w推了goole google的AI的and press OY最近也在推and press，甚至国内的腾讯的work body在推企业，千万办公在学企业。豆包最新的跟飞猪合并之后，豆包内部在做的叫什么？叫豆包企业版，对吧？似乎这件事情成为了共识。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们再看一道题，我觉得这个议题更有意思。我用了一张最近也有很多人转的布隆伯格的奖。各家模型厂商最头部模型的input跟output单价的。比如SK最贵的肺部input有十美金，output要50美金，oppoa 5.6，so最高级的input可能五美金，output 30美金。然后同样画deep sik，deep sig是零点几，所以那个线几乎可以忽略不计。所以推特上有人说，他还以为做这个图的人没有画DBC和平角线。但你细看其实DB画一条黑黑的线。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后如果大家之前听过最近一段时间传出来林文烽那个语录的话，应该也会看到他对推理的毛利这件事情也有一个他的讲述。他说他大概可能降多少，还有什么60%的毛利对吧？这个数字是怎么样？或者说因为更简单，数学题这样计算，我这个数学题一说大家就能明白。但是他之前应该很多人没有这么想过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如今天你有个产品，你的成本是一块钱，你卖十块钱，你的毛利是多少？90%对吧？然后你想竞争突然间激烈了，我打折打半半折对折，你卖五块钱，你已经让了非常大的利对吧？你已经打了非常大的折扣。可是你想你一块钱的东西卖五块钱，你的毛利是多少？是80%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从毛利角度来讲，你不过才降了十个点的毛利而已，有点奇怪对吧？你再看同样的，比如说DBSKDBCKV4刚刚出来的时候的价格，没过多久就打了一个折，这个折是多少？2.5折。如果还按这个公式来算，是不是这样我们不好，但我们只按照公式来算。如果是一块钱的成本，原来卖十块钱，你的毛利是90%，对吧？你打0.5折是2.5块，你的毛利是多少？60%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的毛利不过才降了30%，所以这个空间非常大。当然因为各种各样的原因，最近DBC可能要调价，甚至可能会比较大幅度调价。这就是各家厂商竞争，甚至一些别的原因导致我们不展开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后再引用一张图，我在机场发了，我说斩杀线。这张图有两个坐标系，一个坐标系是这个模型的打分，一个坐标系是模型的价格，横坐标是价格，纵坐标是打分。Deep sik flash的起初版到deep sik flash的0731的正式版，模型能力大幅提升，还更还变得更便宜了。所以以deep sak flash v4 flash的0731版本作为一个基点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做一个横向跟纵向的巨型，在这个矩形里面的锁母星，理论上说似乎都没有意义。为什么？在这个模型这个剧情里面的被框住的模型，要么是没有bpc的能力强的，但同时比它价格更高，那为什么要用呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我们看到了从一个结论上来说，这个曲线拉出来之后特别的明显。你发现GPT也好，消费cloud也好，甚至GRM kimi所有人在做的事情。你把那曲线一拉，所有人做事情就要逃离斩杀线。我们要么比DBC和V4的能力强，要么比他便宜。但便宜看起来很难，所以只能比他强。所以逐渐的往右上角移动，这个斩杀线的这个能力或者斩杀线的这个说法特别的具象化。当然今天来看，我们去用一个打分的方式，这种特别单维度的方式去去评判模型本身可能也有问题。但是这个状态的趋势我觉得非常明显。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再一张图，这张图是上一次PPT用过的，我叫可能是一次范式转移，是什么呢？就是这一次的code x变成了新的ChatGPT。我最近因为在换换电脑重新去下载，你发现今天你去GPT官网去下载拆GPT的时候，下载到本地那个APP。其实原来的collection只不过今天已经叫x GPT了。你想去下原来那个纯对话的叫ChatGPT classical，我都不知道去哪下了，我可能只能通过网页的方式去实现了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后出现一个大家认为的范式，就是agent成为新的范式，甚至从所谓的coding agent拓展到了work agent。所以我们在codex里面除了看到codex，看到另外一个选项叫x GPT work。我们在最新的客户端里，在那个聊天对话框的下面有两个按钮，一个是chat，一个是work。然后就像我上一次PPT讲的，coding was first, now everything else.</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个有个work，我们看到work body，看到了枪办公，看到了德国企业版，看到了tree work，看到这些work。对，可能是一次范式转移。进而大家知道我要讲什么。如果听到我听过上一期播客应该知道我会讲什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我再次强调了一关的那份中国桌面端AI原生办公智能体访问量的报告，对吧？Work报的2097万，截止到6月，这个2097万是访问量，甚至只是交互次数。它跟我们想象中的MAU跟UV差距非常大我同样用了之前quest mobile出的半年的AI报告，我也再次强调了quest mobile统计的数据。截止到6月底，中国的PC客户端的AI应用，PC客户端也是在电脑上装了AI应用的产用户是1800万。而更重要的是这1800里面应该有一部分甚至一大部分装的其实是原来的豆包千问跟元宝的客户端。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为今天这个时间我们讨论比较多的，所谓这一轮的work agent，真正意义上推广期应该是从Q2才开始的。同样的，我用了之前的一些评判方式。比如说我们澄清的事实部分，龙虾是春节才火的，后面才有这些所谓的work agent的出现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天这个时间点，大部分用户的行为应该在PC端，比如说workday的手机端正式上线时间是7月18号，今天才不过八月初，对吧？使用上依然是有门槛的，所以我们会觉得它没有破圈。没有破圈大概率可能就是我们拍脑袋想10%到20%的覆盖率。那这个10%到20%是什么的？10%到20%就是中国到底有多少用户应该或者可能会用到这样的产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就像是一个天花板，那就是天花板的数字来自于哪儿？比如说我们可以去看CNIC的中国所有I用户的那个数字，但那个数字是一个大吉的数字，我觉得没有太多的帮助。我们可以去找一些，比如中国有多少白领用户，中国的城镇就业人数里面扣掉所谓的制造业跟线下服务业还剩多少人。我们甚至可以去找钉钉企微飞书的活用户规模。比如说WPS腾讯会议的活用户数规模这个数字，反正我个人拍脑袋，我会觉得1到2亿应该是一个有些乐观的数字了。1到2亿乘以百分10到20%的覆盖，可能今天就是小几千万的这个盘子。在这个时间点我觉得是一个相对有些乐观，但已经比较合理的数字了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后一些可能真实的数字，比如说之前will我的好友will在即刻上写，说我和保底全网都在传的1200到1300万DAU这事儿挺扯的，其实也就是一百多万DAU那个数字是一个同行小弟的笔误，然后就成了所有自媒体的素材。所以你可知今天这个时间点做自媒体的门槛有多低？然后之前也说过，晚年写了一篇尧舜禹的文章，尧舜禹说今天work body是一个上百万日活的，再次强调你在什么场景下会用上百万这个数字。800 800 900万的时候你会说接近千万对吧？500万的时候你大概率会说是500万，300万的时候你也不太可能会用上百万，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后再过在前几天晚点又写了篇文章，写的是，腾讯、阿里、字节的AI办公大战。在那篇文章里晚点说据我们了解，就据晚点了解，我和body的日活跃用户数在周中与周末波动比较明显。当然了，周末大家不上班干嘛要用workday呢？但平均已达百万辆级，也就是说平均达百万级就代表周末是不到的，周中是到的，平均一下算。也就是这个时候大概率大家可以感觉到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>同样是在这篇文章里，有另外一个数字，我觉得值得带，值得大家去看一下。豆包是在六月份开始呈现专业版，就是开始尝试收费的。我之前跟兰溪也聊过，我们聊过豆包可以尝试哪些收费方式。豆包最后选择了生产力工具这个方向。这个方向可能在国内我觉得3%的复合转化率是一个极度乐观的数字，常规来看可能不到1%，那豆包之前应该是三四亿左右的月活，如果按1%算，就应该是300万左右的付费用户，那现在豆包付费跑了快两个月时间，就付费用户数是多少呢？晚点那篇文章是小几十万，那小几十万大概率就是1‰左右，这个数字很赤裸裸。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我今天下午做这次演讲的时候，线下大概一两百人，大部分是做投资的。我问了一下，我说现场有人买过豆包的付费吗？没有一个人举手，很赤裸裸。当问题走到这儿的时候，你会发现，因为我在说今天我的朋友给我的议题叫AI应用。似乎这个议题听起来有些悲观，但有些凄惨。只有1‰的转化率，做个屁的付费，那有没有别的方式呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有另外一种换我们换个角度去考量。我们说今天的open ana SO pic，质谱也好，kimi也好，me max也好，DPCT也好，这些公司都已经很大对吧？从估值角度来讲，他们已经非常大了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>似乎很多公司不是模型厂商，也想做自己的模型的训练。哪怕不是做纯粹的模型，也想基于开源模型做各种各样的针对自己数据的训练，跟所谓的强化学习环境的搭建。那这些事情是自己做，还是跟人合作，还是找别人做？是全部都自己做吗？当然不是了，对吗？哪怕是欧派燃烧配也不可能把所有的事情都自己做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那就出现了一批公司，做的是什么呢？叫AI training的data，就做数据的跟RL的环境搭建。这件事情在我去年年底的PPT里也有非常详细的解释。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天我们回头来看，美国的历史上已经出现了一众公司。第一批公司当然是做AI数据的公司，他们的营收规模可能已经超过了10亿美金，AR他们的估值可能已经几十个币了，对吧？这一波公司scale n苏格点AM2克对吧？然后还出现另外一些公司，是做所谓的强化学习环境搭建的那这些公司相当于在帮模型厂商，或者说想做自己内部要落地的跟AI模型的公司提供一套强化学习环境搭建的解决方案。在这个公司发展也很快，估值涨得也很快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>同样的是在我用了很多次蚂蚁开源的报告去讲整个26年Q截止到26年8月初时间点，什么样的开源项目在这段时间长得很好。那给model就是给模型跟给agent做音乐，做软的音放。我不说硬的的音响，我们只是做软的。英特尔的相关的厂商在过去的八个月时间里面长得也非常好。无论是在商业世界的考量，还是在开源的技术考量，似乎帮模型厂商做更detail跟执行的事情也成为了一个很重要的中间台。这公司涨得也很好，我们相当于再往前推，再去找应用的可能性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>既然大家只能看A2，我们就还是看AR。我们刚才说小北跟欧派的AR跑到了四百甚至大几百亿美金。但今天我们看这两家中心公司之外的非上市公司的AR尤其是AI公司的AR到一个什么什么量级，应该算第一梯队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个数字今天是5亿美金，去年的时候差不多是一亿美金，对吧？之前说过一亿美金R俱乐部，那今天可以说一个类似5亿美金AR俱乐部的。我们把所有做AI相关业务公司，包括做AI数据的公司，包括做模型的公司，应用的公司，甚至把算力公司也算上。没有上市的公司里面超过5亿美金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>二的列表有人做了，我放在我的PPT里，就是列表列出来。我第一眼看上去一个非常直观的感受，这是一份非常无聊的榜单，非常boring。curse.</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>前面说过的三家做AI数据的公司，together AI lambda replete capacity可怜low eleven lives minus这些公司made journey也在那。有一堆是做data的，有一堆是做算力的，有一堆是做其实做模型的对吧？可能跟eleven lab你可以为是做模型的公司，mister也是做模型的公司，多模态真正意义上的我们叫APP就应用的公司。Cursor repeat the lable hax feed minus.</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常的boring对吧？甚至我们在去年讲以美金俱乐部的时候，也出现了一辈子的。就当一个板块或者一个方向跑出来这样的公司的时候，马上这些公司就会被蒙丽莎人盯上。所以这份榜单看起来是一份top AI初创公司的榜单，但实则可能是一份死亡名单。好，我们从转化从AR2的角度似乎也没有答案。那我们能不能再往前推推到更早期，看今天这个时间点美国的意义上的VC们在投什么，来去看可能的应用拓展是不是也可以呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们看CB inside刚刚出的state of venture q2的数据，top 10以due count就是多少个项目定义的top 10的方向。第一个方向人形机器人。第二个方向，世界模型。第三个coding，第四个并列第三，lego第5。我们前面说的帮大模型厂商做辅助的公司。第六并列第五的边缘也同样并列第五是AI photo和video的生成工具。我们这个算应用公司就是视频跟图片的生成工具。然后第八名personal AI assistant并列第八的excise，同样并列第八的GPU公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你听完这前十个板块，真正意义上符合我们定义的应用的板块风向可能似乎只有coding legal AI photo和video以及personal assistant。而这里面coding已经是兵家必争之地了。Legal我也强调过很多次，legal现在最火的两家公司Harry跟libra的压力非常大。因为cloud已经推了cloud ligo，欧派应该也在做对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再看看国内，国内可以看一下，比如说过去半年用户规模的增长。我们在外部端看到了增长的似乎只有AI办公工具就是work agent。然后在APP端可以看到，比如聊天机器人chat board还在涨，其实还在涨图像生成效率，提升效率对吧？似乎work一阵子还是共识。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我们看各个应用的所谓所属赛道的这个应用增长之星，同样的一份报告还没有1000万以上的。先看这个APP端，千问极梦、豆包、爱学、豆包、元宝、蚂蚁、阿芙、deep c夸克。MU1000万以上的没有应用公司，或者说都是上一代的巨头的公司，巨头的项目。MU100万到1000万，一个叫love k键盘，小荷叶医生开拍，可灵讯飞、小一小云雀、艾玛猫香讯飞爱学志不轻言。你看这个访谈的时候，你真的会。有点失落。然后在web端基本上是类似的，甚至web端比APP端更看不到一些初创的可能性的公司。然后是同样的这份奇异因子的报告，他评了一份26年上半年的明星公司，或者涨得比较好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可伶vivo AI triple AI mercy cos roding me max ACE studio沉浸式翻译AI meta这里面可菱MINMAX扣子不需要多讲对吧？Triple AI跟mercy是两家最头部的，中国做AI3D的公司，这两家公司在过去几个月应该都拿了不少钱。沉浸式翻译可能很多用，反正我是沉浸式翻译的核心用户了。然后ACE studio，AC studio的创始人，最近上一期播客讲他们的他们是一家做AI音乐的公司。ACSW原来是做独立的音乐APP，后来这个APP被下架了，现在在做A音乐的模型加agent然后v go点AI是做AI视频的，roading又是做3D的，AI ta是做AI虚拟角色的。这些公司看到这些名字，你当然可以说他们是应用公司，但是似乎。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也没有回答。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好我们真的今天在期待什么样的爱用的爆发的这个问题，对吧？然后在倒数第，这是我倒数第三页，因为今天是一个二级市场闭门会，我选拿一支公司的股票来作为一个收尾，我觉得它叫一个我这张PPT的标题叫一个没什么结论的故事，放的是一家公司从21年上市到今天的月K线图，过去五年左右时间。然后这个K线图的就是两个山峰。然后现在就是第一个山峰发生在21年，它6 7月份上市，到Q4开始暴涨，从几十块小几十块涨到了一百多块暴涨。然后那个时候发生了什么呢？在22年的八月还是九月，facebook改名meta，很多熟悉我的人应该知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我又讲我又开始讲原来那个趋势，元宇宙的趋势。这家公司是当年元宇宙的代表公司，趁着这个热度，他从小几十块涨到了100块。但是元宇宙很快就破了，所以他在22年就暴跌，又跌回了十几块。对，跌回来十几块。然后从22年就一开始十几块，一直就十几块，一直十几块，一直一直没有任何的起色。直到25年的25年开始，又开始暴涨，这轮暴涨的原因是因为各种各样原因。那你要想二三年22年底才GP发布，2324年两年AI这件事情，或者对这个公司的股价没有任何影响，无论是增还是减都没有影响。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那五年开始涨的时候，他在讲什么故事？第一在讲他们自己的AI的生成能力变强了。第二他们的DAUMU还在涨，然后确实很多核心的数据都不错。然后趁着AI在改变游戏的这件事情的更大的趋势开始逐渐成熟，他们迎来了新的一波暴涨。25年的公司又从二十几块涨到了巅峰，涨到了150块，直到涨到25年的Q3。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Facebook, 不，另一家可以去投google，google in one发展的新的世界模型基尼3。如果大家有印象的话，基尼三用的很多示范案例。比如说如果影响我的PP用过，比如说是用的七龙珠的悟空，在他那个龟仙人的小岛来回来飞，然后用了地铁逃亡的那个类似的画面，用模型直接一句话生成。如果大家有印象的话，当时很多新闻说游戏行业完了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果大家有印象的话，然后那一天第三发布那一天，这家公司的股价跌了百分之，我没记错，跌了26% 1天。我当时的反应就是说这个事情一定是过分的恐慌了。因为大家知道，从商业角度来看，即便有了今天的所谓的世界模型，距离真正颠覆游戏行业还有太远的一条路。但是我们从现在这个时间点回头来看，在那个时间点之后，这家公司的股价就一直在跌。中间可能有一些回调，但是这个趋势没有任何变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>直到上个季度，就是上个月公司发新的一轮财报，它的DAUM又开始下降了。当天一天这公司跌了37%还是33。这公司又跌回了20块左右，这公司叫rob locks。你总会感觉你可以看透很多的所谓的叙事。但是这件事情跟二市场去买一家公司的股票之间的关联性到底有多多深？巨大的难题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后倒数第三页，我画了个标题叫刚刚开始，也是刚刚发生的新闻。吾爱刚刚更新了他们的ChatGPT，他把ChatGPT5.6那个刺激的版本luna已经免费开放给所有的chat GP用户。我发现还在践行把智能普及全人类的它的宗旨。然后纯从收入的角度来看，H6Z最近发了一张图，从家庭的单位来看，今天这个时间点，即便在美国，付费给AI工具的家庭只占全美家庭的2.2%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一切刚刚开始。倒数第二页，我用了一张最近刚刚从google离职的首席科学家jeff定的BP对，这种大神离职也要写PPT。然后他把他BP几页放在了这个推特上，然后其中前面几页就是写他们是谁，他们还要写他们是谁，太有意思了。唯独有一页是介绍他们的业务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的这页。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我用的标题叫一切皆loop。那一页的话就是今天十点我们可以在很多的实验场景里见到怎么做实验。我们先设定一个实验的环境，让实验跑起来，然后去评估跑出来的结果，这个结果再去倒推我们对实验的设计。这似乎听起来是一个在科学实验领域最最常规的范式。这种范式今天似乎在AI领被认为是可以实施的，也就是大家在谈论的RSI自主进化的核心逻辑。一切皆可loop可能是当下这个时间点电影行业最大的共识。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，感谢大家的收听。老规矩，我的PPT会放在我的ema里。同样的这次PPT是作为8月22号23号那天活动的一个潜在。如果那个周末你在上海对它感兴趣我推荐你来听一听。要是8月12跟8月14号在小宇宙的APP里去讲，希望能够在23号现场看到大家，再次感谢。</p>]]></content:encoded>
+            <pubDate>Sun, 09 Aug 2026 15:25:36 GMT</pubDate>
+            <guid>6a789a5ac4079d62c57fca54</guid>
+        </item>
         <item>
             <title>你真的信WorkBuddy有2000万月活？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a6e285e1b5e24969ce760fa</link>
@@ -7481,190 +7612,6 @@ PPT下载地址
 <p class="transcript-line"><span class="time"><strong>[00:42:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后再预告一下，一月底不出国备案的话，应该一月底或2月初的时候，我会再更新一版应该超过150页的PPT。然后全部推翻去年11月份做的内容。对，感谢大家，我去睡觉了，不，我要去剪辑，然后写成note。大家听到的时候应该已经应该是凌晨，感谢。</p>]]></content:encoded>
             <pubDate>Sat, 10 Jan 2026 21:31:52 GMT</pubDate>
             <guid>69629a78f8b05f9f75e200a5</guid>
-        </item>
-        <item>
-            <title>Vol.82 我和小庄聊了聊他们的“职业分享日”</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/694e25b944647f77684e7743</link>
-            <description>最近，我儿子（小庄）学校组织了一次家长-职业分享日，就是请一些家长去学校分享他们的职业内容；
-我也报名去给六年级的小学生分享了AI的原理以及最基本的提示词技巧；
-活动之后他们学校还安排了学生要进行职业体验，我借着这个由头和他直接录制了一期简短的播客，让他体验了一下播客录制-剪辑-编辑-上传的全过程；
-在我们俩的对谈之后我还把在学校分享的内容也加到了这期播客之中……
-PS：印象里这也是我第一次用AI生成的PPT做对外演讲，不得不承认notebooklm的能力还是太强了。
-PPT下载地址
-PPT下载地址
-PPT下载地址
-（想加粉丝群的请先+微信：rosicky311)
-下面正片开始……
-【时间线】
-* 第一部份：我和小庄的对谈
-00:11 小庄听的第一场分享：一位军事UP主
-02:36 第二场分享内容：游戏制作
-04:37 我去年去小庄学校讲的其实也是游戏
-08:36 我这次的主题选择：AI如何更好的帮助学习
-12:00 话题又聊到了豆包手机
-* 第二部份：我去学校分享的PPT内容
-16:56 AI学习之旅
-18:05 我之前尝试的PPT主题：火影/蛋仔
-19:41 两代AI的不同
-23:15 我们是如何获得这么强大的AI的
-27:55 一个示范案例：AI做图
-30:58 唐僧取真经的比喻
-32:06 强大的孙悟空（AI）底层到底是什么？
-34:29 幻觉与价值观/情感的问题
-37:15 如何控制好这个强大的孙悟空？---紧箍咒
-39:01 万能咒语公式=角色+任务+要求
-40:45 一个示范：解释黑洞
-41:36 示范案例：练习英语
-43:28 示范案例：作文
-44:27 示范案例：解释现象
-46:13 强调观点：你是主人
-47:33 未来的路还很长
-音乐：AI音乐工具天谱乐生成
-【播客简介】
-屠龙之术是一档关注科技、互联网、风险投资的播客，
-主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
-其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
-或许某天再有新的“龙”出现的时候，就是这档播客停更之时。</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你参加两场是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都都是什么内容？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一场是关于一个网红，然后他就上帝视角看军事的。对的，然后他但但他其实没当过兵，他就是通过卫星开源地图，就是谷歌地球来分析这个军事情况，看军事基地啥的。他曾经是去做广告的，是个广告公司CEO。他转行过程比较痛苦，然后到现在他转行的比较成功，积分也非常多。今年多少分？抖抖音B站什么油管加起来能有100万了.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那应该赚的还可以。对的，那他会给你们讲什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他跟我们讲这个，他他先简单给我们讲一下他现在在干什么，又讲了一下他以前做的广告业，然后广告业怎么去做，然后再讲了一下转行。因为转行他他认为是一件非常痛苦的事情。很多人转行需要非常久的时间，然后才能非常成功的积分。然后他跟我讲了去做一个自媒体需要的一些基本的素质。比如说要对社会有足够高的洞察能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他第一个讲的是这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是，他是在转行后面才讲的这个。还有比如说因为他跟我们说有很多不同的赛道，有宽赛道有窄赛道，他告诉我们是去从宽赛道中找一个窄分区。比如说他就不止做的是精神分析，他做的是开源卫星军事分析。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是很少人做这个很对的。那他怎么怎么赚钱呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他就是有时候会打广告。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么类型的广告。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他没说他他没有说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他还讲啥？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还讲当时做广告的时候需要富有创意。因为当时他跟我们说，广告是观众，不是观众群众了解一个产品最直观的一种方法。因为当时很少有那种大屏幕，那种手机就是很少能插进去广告。所以在一些报纸上面的广告是顾客引起兴趣的非常重要的一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们现在是他自己做还是他公司做？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说自媒体吗？对，自媒体现在是他自己做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他多大？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他应该年纪不小，他是中年人了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你们的同学的家长应该也年纪不小，是真的。第二场。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二场我记得是关于做游戏的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我去年讲的这个，对，跟我比怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比你那个讲的就是稍微没那么专业一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对的，我已经不是专业的，他为什么比我还不专业呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我就去年看过你的那个PPT，然后我就觉得他那个PPT深度不高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实那是讲什么了呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他就他其实主要还是实验，他因为他是针对那些还没有接触过游戏是怎么做的，他一直在跟我们讲游戏后面是什么样子，一直在讲，比如说我的世界，然后后面运行一个那个是怎么运行起来的。它其实主要部分还是通过了一个小游戏，给我们看就是看背后代码。然后他就是什么超级无敌简单的英雄打怪的小游戏，还是拼单词，然后才能打怪的那种小游戏。他在旁边把那个代码栏放出来，给我们一个一个讲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那现在有I之后，代码你不都能写吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是他他反正也提到这一点，然后他说虽然现在AI能写代码，但是AI写代码的能力是局限的。比如说我那时候做游戏，那个做长春做游戏的时候，AI只写了最后1000条。但是你要想我的世界它应该不是一个AI能写出来的，因为它太长了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是他演示的那个什么拼单词的游戏，现在应该很简单，对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就能写出来。对，然后他除了那个拼单词游戏，他们讲了一下贪吃蛇，然后贪吃蛇演从几十年前变到现在这个样子，然后这个进化evolution，然后那个马里奥就是当时马里奥闯关，然后到一直到现在变成碎石上面的时候，然后他是他都没有讲他是做他做不做游戏，他就是在那一直跟我们讲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以相当于是科普游戏行业，而不是讲怎么做游戏这个选题。是的，我去年跟你们讲是怎么做游戏对吧？分工有哪些工作，工作流是怎么样？这些工作流的员工在干什么事情，最后整成一个游戏的完整的交付。我之前讲的是这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后他还讲了一个东西叫游戏这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>抛物线真。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跑就是正常。比如说马里奥他跳起来，然后再落下去那个抛物线，然后他他给我们讲了一个，就是其实他跟我们把游戏简化了，他有一个叫他细化了一个分区，叫太阳光照射到一个物体上，他是怎么反射出来的那我用了超级长的故事，然后好多什么delta什么希腊字母，反正完全看不懂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>展现出的样子，就是一个阳光照射下来反射。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，他他讲到一个游戏，然后具体那个名字忘了，但是因为他就是他画面非常精细，然后其中就包括如何计算这个太光打到一个物体上，它是怎么反射过来。他其实跟我们讲了，比如说室内的灯光照上去，然后以什么角度照上去，它会怎么弹出来。然后户外的太阳光在什么时候，上午、中午、下午下不下雨，阴还是阴天，然后怎么照上去，什么角度照上去，怎么反射物体，那个粗糙度是怎么样子？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>听起来他应该是干过这个活儿的对，要不他也不会讲这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他还讲了一个东西在刺客信条里面有个bug，然后他曾经遇到过，然后他是这样子的，他跟我分析结果，他觉得大概应该是有一面墙，然后那个墙的东西是不能越过去的。然后那一面墙有可能就是因为那个马车移动速度有点快，然后它帧数又不高穿过去。所以他在分析后面一帧的时候，发现马车已经超过去了，然后一下子拉回来，然后一下拉太猛了，然后就撞人身上了。对，然后还是我第一次知道这个棒的。原来有时候会有一种就是游戏里会有一种墙的设定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你像其实你像黑神话悟空里面也非常多，他们叫空气墙。你以为就是你看得到走路的时候被挡住。对，因为他后面东西没做，或者他不希望你去，然后又又没有。但是你视觉上已经看到了，他又不可能把那地方涂黑，那会很怪。他就涉及到空气墙，让你不要去。因为你去了可能把就像刚才那个报错了，突然间出了个bug，可能会影响一些更更复杂的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以它相当于把你就局限在一个范围内。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这是游戏的某种的游戏的边界，是一个很很重要的事情。要不然你像现在你们很多人，你像我的世界之前打造的叫开放世界，就是它其实不限制你想做什么都行。但是这种游戏本质上来讲，他在做的时候对游戏公司的要求就特别的高越开放，越难做。因为你不限定它就难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我的世界有一点好处，它是什么？我的世界它不是一个固定地图，它是有个种子，然后他开始你就是64个往外刷新，所以相当于它这是随机的，然后地形也是随机的。所以我的世界你想达到边界，它是很难的一件事情，除非你比地图刷新速度还要快。好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这也是他的一种取巧方式，无论来说整体感觉怎么样，这次是因为你们每年都有对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你那个多了，我感觉原来你看原来每个年级只有五六个的选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是因为这次我还我我去我是去了五年级。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这两个都是五级的家长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对的，所以我在看那个迎宾，那个地方那有好多好多易拉宝，然后就全都是人，所以这还真不少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们这次是789，然后五六是分开的。对我我们是六年级的在一起，然后五年在一起，那加起来可能有十几个选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后还记得还有一个人讲，还有一个爸爸。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我不知道讲的是什么。对我跟你们讲的更多是如何。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>运用AI当学习工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我选了一个角度。所以很多人很多五年级的人都分不清到底该去哪一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个也是我跟你们班主任去探讨的选择。因为这个话题太大了，可以讲的东西太多了。但是最后你们老师说班主建议是找。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个跟学习有关的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也不是他没有那么直，他至少他说要找一个角度。我就想了一下，我就说要不讲这个角度，然后就给你们其实我讲的那个事情讲了只讲了两件事情。当然我会把这个讲的内容也会放在这期播客里，大概40分钟不到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实是2个2两大块内容。一大块内容是我们怎么得到了今天这么强大无比的I工具的实现原理。但是这个是个简单的原理，更重要的是让大家知道，他并不是真的了解一些东西，他是在猜的这第一个第二个事情我是告诉你，你的同学们怎么用好。其实最简单的一个逻辑是记住它的三要素。三要素是你跟他对话的时候时刻记住，三要素是角色任务、你要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说你要写一篇作文，你首先不可能让直接给你写。你比如说你是一个小学语文老师角色，你的任务是今天我要写一个科幻的校园的主题的作文。就是任务要求是你给我提要求，这字当然是可以要求要要求是比如说你给我提五个创意的点子，或者五个创意的方向，标题或者标题也好，或者是框架也好，五个、十个、20个这都是要求。然后比如说要尽可能用六年级小学生理解的语言。这都是要求，就是你所有对他的任务最好都符合这三个要素的话，他会给你的结果会变得很好。然后我除了讲完这些内容之外，我还给你们现场同学演示了我先让他随便写一句话的要求。比如说当时举的例子是解释黑洞，解释那就是一个跟一本书一样，非常拗口的一些专业名词叠加在一起了。然后另外一个解对比的就是你是一个天文学家，今天你需要给六年级小学生讲清楚黑洞的概念是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>并且用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>通俗易懂的语言，然后他就会同样AI工具，类似的两个任务要求得到的结果完全不同，完全total类的不同。所以我一直在给他们讲的重我不断的在重复在讲的重复，记住这三件事情，角色任务要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是现在就是很多AI它是我用的时候发现它是有一个对话的。但是我现在看起来如果你在对话的刚开始就让AI了解，你要不开启新对话，他应该还是以你第一个跟他说的那个问题的角度来去分析。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是上下文的记忆。你现在在强化的功能就是在记忆上做更长的探索。就像人一样，你是记得你可能几年前发生的事情，要让你想一直想不到，或者说你在做新的决策的时候，你会记住那个记忆的原因，导致你做今天的决策。所以这是我们希望那个人越来越跟人相像的一个很重要的角度。他们在研究这件事情，这可能是今年的这个事情。再聊聊有没有什么别的。比如说我跟你之前跟你说那个多宝手机，你想用它拿来干嘛，你想过吗？就真的今天有一个手机，你可以真的就跟他说，他就可以实现你要做的事情，而不需要你再去点去找、去搜索。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得那样就是首先我们不需要频繁的掏出来，然后就用眼睛看着手机，眼睛比较好。而且比如说你在开车，比如说我在做别的事情，然后手机放在那边，我又不想让手机去打扰我分散我的注意力，我就直接跟他说了一句，再加上这个东西，它比siri要强很多，所以说这个处理能力肯定是比他要好的。理解也能更理解我。因为很多时候c siri的话不是特别好用，所以说很难满足很多人的一些比较高端的需求。如果他能这个杜邦手机能被所应用都授权的话，我觉得会更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一会儿可以你可以可以去试一试，试试各种可能性的方案。我们小时候就爸爸小时候，我们那时候有一个科幻的电视剧叫霹雳游侠。你可能都没看我都不知道演的什么。他那个那个电视剧演的就是一个人开了一台车，那台车是智能的车，就是绝对异常者。你跟他说任何的话，他都是他甚至能跟你笑了，你的情绪就跟今天豆包一样。同时它能控制所有车的这些东西，比如速度，选择线路，它可以自主做决定。你只需要跟他下任务，然后他可以帮你做各种。然后那个时候你想我们小时候是9几年，我们会觉得那个东西太科幻了，但今天已经基本上是可以实现。你想现在的电动车基本上都有一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真正。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>驾驶语音的操控的方式吗？你可以跟他说打开空调，调整座椅，选择路线，帮我推荐餐厅都可以的。它不单纯只是控制车，他可以对环境，对外界的所有事情做改良。所以你会发现，科技还是挺那什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我昨天去讲的时候，我说特别羡慕你们这代小朋友。就是你们出生或者你们在接触这个世界的时候，这个世界的科技就发展到这个程度了。你像我们小时候还没有这么疯狂的，我们我们小时候连电脑都没有。最小的时候妈妈有电脑，然后开始有智能手机。然后到今天为止。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说你就是你的爸爸妈妈羡不羡慕你们这些孩子？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不知道不知道，有可能他们也没想过这个角度，未必。他们也不是从事这个行业，所以不一定一会儿可以去试。一会儿你可以去淘宝手机去试一试，看有什么方案。因为昨天我去实验，叔叔不开玩笑录制然后很多人也不知道这个东西，然后我们就在现场演示。我说你直接跟他说，我说帮我打开小宇宙的不开玩笑的博客，找第一集点赞，然后我就给大家看。然后他真的就是点开小宇宙搜索不开玩笑，然后所有人都震惊了，然后翻地，然后我下这个任务其实有点麻烦。我要知道第一集，因为不开玩笑，现在可能有几百集。他要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一直翻。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你在下面对，因为第一集在最底下。然后我们录的时候，是那个沈岩叔叔就是不想让主播说，那行，我们今天因为那是已经那个节目快录到尾声了，我们今天就录到他翻到第一集为止，然后我们就把手机放那，我们继续聊我们的。然后他一直在那翻，一直在因为他翻的很慢，他一屏大概也就翻三集，不想相信已经两三百集了。他一直晚上我们一直聊聊到最后他聊到他翻到了第一集点了个赞。然后我们给大家看了一下，然后那场节目就录制结束。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你说这个豆包手机，他是就是他，你跟他说一个指令，他是会自己把手机打开，就是他他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在后台做执行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以相当于就是你不用点，然后他就自己点开了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是啊，一会儿你可以试一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他他就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以选择看着他弄你也可以选择让他自己弄。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他能黑着。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>屏对可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那挺可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是有那个现在手机不都上面有摄像头，那边不有灵动岛吗？就那个黑的那个。对对对，你可以选择让他在那里面，他自己在后面弄你也可以选择看着他弄，有点像科幻对的，对吧？然后感觉录播课怎么样？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还好没有我想象中那么恐怖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为博客这个生态或者波克这种形态就是一种比较简单，然后大家比较放松，没那么正式。哪怕他有麦克风，有摄像头，他也没有那么正式。大家就是聊一聊自己想聊的话题，谁愿意听，谁听没听也没关系，大家聊完开心其实就可以了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我今天内容叫我们的西天取经AI学习之旅，召唤你的齐天大圣，让你成为让他成为你的超级学习伙伴。所以大家记住第一件事情是说，在大家都非常熟悉西游记了，对吧？你要记住你在今天的角色是唐僧，那个AI是孙悟空，他确实非常的厉害，他叫齐天大圣，他什么都会，但是重要的是你要用他的能力帮你去取得真经。记住了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是今天的技术第一件事情。今天记住事情不需要太多，记住件事情就好。我首先要说一下，我这个PPT是用AI做的。看看这底下有个logo看到了吗？叫notebook LM。这是一个谷歌最新的软件，它是来专门做图片跟PPT，他已经能力已经非常好。而且你会发现他已经几乎因为我每天会做非常多的PPT的文件，你们应该日常中也会用到。今天他已经开始逐渐在替代我来做这件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后再讲一个小故事，我在做第一次这个话题准备的时候，我当时你看我今天这个PPT的内容或者这个主题是西游记的主题，对吧？大家都知道西游，有人不知道西游记讲什么故事吗？有人吗？没有是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我第一次做这个PPT的时候，天真的认为你们都应该知道火影忍者。我知道有人不知道吗？不知道。好，来来，我们先把手放下，我们想我想知道有有想有哪几个小朋友不太知道火影忍者是什么的，你看还是很多的是吧？那火影忍者到底是什么？是到底OK？好，所以我第一次做这个PPT的时候，我给大家的指示是说用火影忍者的主题来讲述这个话题。然后做出来的效果其实对于我来讲很好，因为我知道是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是当给我我给我看的时候，就是我儿子的时候，他说可能有个问题。他说大部分的同学可能只知道火影忍者的名字，但是不知道具体讲什么故事，所以他们并不了解这个PPT会讲什么。我说原来是这样，然后我就想我们换一个主题，我的第二次第二，今天我你们看到这个版本是第三版，我的第二版PPT用的是大奖派对。你干嘛？你咋不用？我有我以你们需要一会儿可以给你看一下。我一会儿我给你看，一会讲完给你们看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后比如说这个散开，可能大家知道人会多一点，但我还是会觉得有一些小朋友们应该不太知道对吧？有人不知道吧。所以我就跟up商量，我说如果我们想做一个比较能让大家都知道的事情的话，应该选一个什么样的主题。我们俩最后讨论说西游记，ok因为西游记不太有可能有人不知道在讲什么，所以我最后的版本变成了西游记的版本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后先讲这件事情，AIAI这个话题在过去几年你们即便不太了解，但也应该知道它特别的热，好像所有人都在学，似乎这一代AI特别的厉害，然后AI在改变世界。但是你知道AI这个事情，其实在科研跟学术界已经是一个几十年的历史。大概在1940到5年左右的时候，世界上最优秀的科学家们就在去年UAI市场。所以到今天可能已经几十年的时间。我们这一代AI特别强，但是上一代人其实已经在进入我们的生活中了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果你们父母用iphone的话，你们大概会知道iphone上有一个语音助手叫siri。你可以跟他说，比如说今天提醒我帮我定一个九点的闹钟，比如说今天提醒我一下今天的天气是怎么样。你可以跟他说，他会告诉你这是上一代。比如说大家可能有一些家里的同学会有小度，或者天猫精灵，或者各种各样的音箱。或者如果大家用你们家的小爱同学也是，包括你们家可能如果是电车最近几年比较买的比较新，你不会跟他有语音的对话，你好未来，你好理想这样的对话？这些其实是上一代的的，你跟他去对话是可以对话。但你会觉得他有些时候很笨，他似乎不知道我在说什么，他在用很机械的方式来回答我的一些问题，甚至有些东西是会卡住。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有一点，比如说大家如果你们在家里最近几年买过新的扫地机器人的话，你会知道这个扫的很多扫机器人是可以跟他语音说的。比如说你好，谁谁谁，你帮我扫全屋，你甚至可以跟他指定说今天不要扫卧室，今天只扫客厅跟厨房。你听这个任务，你打开这个任务，他这个任务能够执行的前提条件是说这个扫地器人要知道哪里是客厅的，哪里是厨房，哪里是卧室，对吧？他甚至要知道你们家的地图，这一代的AI的努力能够做到这种。但是上一代如果大家几年前家里有扫地人的话，他是做不到这种程度的。所以我们身边的AI其实也在发展，他在疯狂的迭代。那这一代AI是以什么为时间点切割的呢？ChatGPT世界上今天这个时间点最优秀的AI工具的发布时间22年的11月30号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在22年11月33 10号之前，大家大部分看到的AI能力是上一代的人。今天我们在讨论的很多I的话题是基于这个是之后的过去三年的事情。所以他特别的强。你们用的比如大家可能有些人用过豆包，用deep seek那个元宝问ky max，在GPT gym a crop cloud，这些全部都是我们叫这个的这大概能力很强，非常强。他神通广大，上天入地无所不能。你今天问任何一个AP这种AI的up任何的问题，看起来它都能给你一个非常完整写头头是道的答案。但是注意我刚才说这句话，我前面说就要看起来看到首先我还要说的就是他是齐天大圣，他大闹天宫，不过他打的外国10万天兵天将，他非常强。但注意我们最开始说过谁你是唐僧，你今天要控制他，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们怎么从原来的那个笨笨的AI变成了今天看上去看你看无数的强调叫看上去我为什么我一会儿会讲为什么是看上去为什么他从原来笨笨的样子变成了今天看上去无所不能的样子？我们怎么得到了这样一个看起来那么无所不能的东西的？今天这个事情我们是通过什么样的方式？世界上最优秀的科学家和研究员们用什么样的原理跟技术方案做出了这样一个强大无比的东西。3D的要素，它叫AI修炼心法，揭秘三味真火的配方。PPT帮我写的，不是我我要做这个类比的三个事情，海量的数据，算法跟算力三个要素，数据算法和算力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>首先海量主义是什么？大家可以想象一下，人类我们从古代的猿人，稍等我讲，我们从古代的猿人走到今天间，人类经历了可能几千年的发展。可是在过去几千年发展当中，人类真正义上有文明的时间并不多。什么时候人类产生了文明？大家会比较公认，就是说当有了文字，清朝等等等，有了文字之后千年，但是钱有了文字之后，人类才出现了文明。你想你今天说的学的几乎所有东西都是你基于文本产生的。所以有了文字之后才有了能力。然后当然文字之外还有图片，还有视频，还有语音，还有我们看到所有这些物理世界的东西，所有这些东西，我们把所有的这些东西，你要知道所有的这些东西total类的放到了这个炉子里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>首先海量数据喂进去之后，光喂进去没有意义，这个数据大到什么程度，我不知道大家是否用这个。比如说你用妈妈的手机，或者你用你的电脑，或者你用的手表的，它总有一个内存的空间对吧？内存空间存储空间的这个标志的这个单位可能原来是诏，比如说512兆，或者到今年可能1G2G对吧？比如说常规印象值，现在我拿手机拍一张照片给你们，这张照片大概可能两三兆对吧？两三兆，然后1024兆是1G，再往上是什么？1024G是一T对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那如果再往上1024T是什么？大家知道吗？MM是小的，KB配置更小，KMGT再下一个还知道吗？对，叫它的缩写词叫PB。PB有一个的单词可能大家没学过，你看大家学的英文单词数字，先是thousand，一千下一句是什么？真正的不，我们我们下一个单词是什么？Million, 是加了1000，million再下一个单词？吧再再下个单词是trading，再下个单词咋知道吗？分析google place，还有还有金靠锥顶20 110.</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的15次方.</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那等于是十五，10到10就十后面加15个人，所以你想每三个零加一个单词，对吧？Thousand是三个0，再加三个零是对，再加三个零是每次加三个0，加了5次到15次，15个是考真理，世界上的数据有多大？我就给大家举个例子，比如说微软做了一款类似游戏的东西叫模拟飞行。他模拟了全世界所有的机场、地貌、天气，各种各样的数据，所有世界上所有能想到的地方都可以。他把相当于把地球模拟了一下，这个东西做出来2.5的PB人类的数据这么大，相当于我把这么大的数据全部喂到这里。但问到这里没有用，他要记下来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就像我们学了很多的知识一样，我们怎么记下来？就像我们吃很多的东西怎么去消化的。这个消化的过程就是算法，它通过一种方式把这些庞杂的乱七八糟的各种要清晰记下来。但是这个过程记下来的这个过程我们需要能量，就像我们吃东西一样，我们消化的东西之后是给我们身体提供能量。这个能量来自于哪儿？算看到了吗？这个过程是我先喂他超级多的东西，然后他通过自己的消化系统把它消化了。消化的过程中是需要能量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>三件事情，数据、算法算。我们得到了这样看上去跟人类似乎没有太大差别的。然后我们想一下，比如说你们的脑子，人类的脑子是一个特别厉害的事情，他特别聪明，你们通过学习就会掌握无数的知识，而且可以泛化。你觉得A可能就差不多会B了，它的运算的效率很低。如果用电流角度来讲，人类脑子的电流的瓦数只有20万，也就是说比一个灯大不了多少。可是今天我们要做这个东西，它它的电力消耗也是巨大。所以人类通过这样的方式得到一个这么无敌的孙悟空了，对吧？他能多无敌。我再举个例子，比如说今天现实的场景就是说我用手描绘了一个比如说一个冰箱的样子，然后我希望这个冰箱的能力非常强我给它加了个翅膀对做一个示意。然后比如说我希望今天我想找一个比如广告公司或者一个图片设计公司，把这张我所描绘的东西变成一个这个样子的广告片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你想象一下，如果没有今天的能力，你这个工作原来要怎么实施？你先用手画这个，我觉得大家大部分在座的同学们应该也都能画不错的样子，差不多对吧？甚至说画画画的更好。但是从这儿到这儿，原来我们要实现这个工作，可能我们需要拿着这个东西去找一个专业的绘画画的人。或者无论他是用笔画还是用电脑画，可能他需要工作三天左右甚至更长的时间才能变成这个样子。做好之后你会觉得可能比如说这个地方画错了，不太满意，你要帮我改，他可能要再加10。然后比如说这个字写小了，里面我再加他要再加个时间。今天有了努力之后，这件事情可能几秒钟就实现了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后你甚至可以给他提各种各样无理的要求。你说把这个翅膀画的再大一点，是我画的小一点，我这冰箱画的大一点。但是比如说这个背景色是蓝色，我不喜欢我想换成红色，换成橙色，这个字体不好看，换另外一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你可以给他提任何要求，任何要求，他没有任何情绪的，会无条件的满足你所有的要求。今天别的所以出现了一个问题，这个问题是什么呢？如果你是原来做画画的这个人，你的工作是不是就被替代掉了？今天我说从这儿到这儿中间做执行的那个人，如果是这样的话，那未来学画画还有意义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这里考虑另外一个故事，比如说大家知道照相机是几百年前发明，基本零年之前在三四百不重要。然后大家去比如各种博物馆，尤其是。展览，比如欧洲的什么伯爵公爵的时候，你看到过很多那种油画的项目，很大的一个画的它的伯爵，比如像蒙娜丽莎那样的油画，像大家看过对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你要知道在照相机发明之前，有非常多非常厉害的画家是只画人像的，而且他们的画很贵。比如说今天我是一个贵族，我需要把我的这个样子保留下来，我要请很贵的画家，我要坐在那儿，然后他一笔一笔给我画出来一个很大的那样的画，对吧？可是你想某一天照相机出现。我一拍结束。对，专利还没那么贵。对，那你说那些坏瑕疵，他们原来可以挣很多钱的工作消失了，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那他们之前也挣了很多钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以是不是现在也很浪费？所以这个问题没有答案，你们以后遇到问题的时候会展开讲。我只是给大家举个这样的例子。所以你会发现他的能力很强，他可以七十二变，他变什么都可以。你可以给他提任何的无理要求，他都能满足你。即便可能满足不是很好，但你可以继续提，继续再提，对吧？所以这是人家现在的能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们回到你们，我刚才在PPT最开始我说你们要做的是唐僧对吧？那西游记的故事里面，唐僧干嘛去了？是取真经去了。他取的真经是为了黎民百姓的普度众生的？那今天似乎你们的学习过程也是某种在取真经的路上，你们也会遇到各种各样的困难，各种各样的挑战，就像唐僧当年经历九九八十一难一样。今天唐僧是用了他孙悟空的能力来获得了真经，似乎你们在取真经的这个路上也应该有一个很好的得力助手才行。今天很幸运，你们这你们我觉得你们这代人非常的幸运，你们在很小的时候就开始进入AI的时代了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我们今天要学的是什么？我们不是说怎么造出孙悟空，前面那个例子跟他怎么得出来，你们知道就好，不需要学习。而是学什么呢？怎么当好唐僧，也是说驾驭好这个神通广大的徒弟孙悟空，让他甘心情愿地帮你去扫除那些障碍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好。我们先看一下孙悟空底子里到底是什么？今天这个时间点的底子里是一只学会了世界上所有知识的鹦鹉。刚才有人问过一个说法，我后面会讲到它是一只读过全世界所有书的超级英五鹦鹉是什么？鹦鹉是复数。他不是在思考，他只是在模仿。模仿是什么？他在做的更他在做的事情更简单讲来讲，他是在做语言概率的预测，而不是在进行有感情的思考，他是在做预测。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我举个更现实的，比如说今天我在黑板上写今天天气真横杠后面那个填什么好看，大部分说好，明明说不好，有没有说坏，大部分。好，对吧？今天天气真好，今天天气真这几个字就是刚才你们说的提示词，他能说出来。好，就是他猜的概率他猜到了，或者说他通过学习跟了解所有人的信息之后，他知道80%的人会说好。你想他所以为什么是鹦鹉呢？就是他你问他问题对吧？他会根据你记忆他根据他记忆当中所有书的内容，一个一个的去猜出最像人类说的下一个字是什么。这是它的工作原理，它是概率的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后还有一个逻辑，接下来我再给你展开，还是刚才那个例子，如果我只写了今天天气很棒，你们会说什么？你发现了吗？大家的答案变得分散了，没有像刚才好词，那么突然间大家几乎所有人都会选择。也就是说你给他的问题越不清楚，理论上说他想他的答案会越分散，越未必适合你。反过来讲，你给他的提示越精准，他给你答案就越精。因为它的逻辑是他是靠猜的概率，这是原理。为什么后面或者说怎么用，我们后面会展开。所以他既然是猜的，他就会有问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第一个问题是什么？刚才有人说过一本正经的胡说八道，我们和专业名词叫幻觉，他是猜的对，比如说你今天老师问你一个问题，你不会你当然很多很多小朋友应该会沉默，但也有一些小朋友会选择我瞎说一通一样。对，没准蒙对了对吧？然后第二点，他们没有感情，不懂对错，他们没有道德观和价值观。所以我们要用好这样一个看起来非常强大，但实际上有很多问题的一个东西，就跟孙悟空一样，该怎么办？孙悟空特别强大，但是他的生性比较顽劣，就这样会闯祸，那怎么办呢？步骤我们需要紧箍咒，我们需要一些原则或者一些规则来限定这个厉害的速度。所以唐僧这个观音给了唐僧紧箍咒，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>什么东西绝对不行，对于你们而言绝对不行的是直接要答案。你直接要答案相当于你没有任何思考，他会越来越好，但你会越来越笨，你们肯定不幸运是吧？然后还有一点，什么样应该是对的呢？比如说你遇到一个难题的时候，问AI解决思路，问他的思路怎么一步拆开，而不是问他答案。比如说不懂单词，让他帮你解释。而且比如说你可以跟他提要求，比如你没有听懂，你说你让你用六年级学生能听懂的方式解释。你还没听懂，你说你能不能用六岁小孩子的方式解也可以，你给大家可以给他提无数任何要求，total也可以。比如说你写作文没有灵感，可以问他有什么切入点跟tips点子，你可以跟他头脑风暴，你可以问对吧？跟他碰撞借力，这是聪明的做法，还是那观点，他是孙悟空，你是唐僧，你要做的事情是借他的能力帮你取得成绩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他特别强，超级强，七十二变、上天入地、法天象地什么都会。所以今天这个节点，他现在大家的能力比较强的是，比如说整理信息不知疲倦，随便问、随时问、怎么问都可以，擅长发现规律跟总结跟整理，这是他做的事情。但他会有问题，他需要海量的数据，东西越多量越好，无论是你的提示还是学习的过程。如果你给他带了偏，因为我说过他没有道德观，没有价值观。如果你的引导是有偏的，他就会偏了，懂吗？他缺乏常识，他会犯一些我们人类古代会犯的常识性错误。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是一个观点，他是一只鹦鹉，他并不真的知道一加一等于2，他只是看到了所有一加一都写的等于2，但他不理解为什么是该你了，懂了吗？好，我们进入到正题了。怎么用？我们怎么念紧箍咒的咒语，念对了才能得到好的结果。这个对爱说的话，就刚才说那个同学说的叫提示词，就是你问AI的话就是你的问题。像唐僧的紧箍咒一样，念对了孙悟空就会为英雄，念错了他就会脑子最差的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就比如说帮我写一篇作文，你跟他说帮我写篇作文，他当然会给你写一篇作文，但是忽略问题是什么？你没有你没有告诉他写什么主题，给谁看的，多长多少字儿，你得说清楚，对吧？帮我写作文，这是最最的长度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那稍微好一点咒语是什么呢？比如我们好的语言叫你是一位小学语文老师，你是一位小学语文老师，请帮我列出三个关于难忘周末的作文大纲。原来说过不能让他直接说吧，因为这对你来讲没有任何意义，但他可以帮你舒服大方，你要求他三个、五个、十个、20个都可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>难忘的周末是你的主题作文大纲，是你的要求或者说是你的任务的更细化的原因。你还有要求他生动有趣，不能平太平，要有起伏，对吧？还有重要的对于你们来讲，要适合六年级的学生，不能写的太复杂太太多生词。你可能不太适合作为一个论点学生来写。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你发现了吗？这是一个好的提示词。当然我这么跟你讲，你是记不住的，因为你可能只能记住写作文是这么要求的。但是别的怎么办呢？你们今天听我讲大概4到50分钟，如果只记住一页，只记住这一页，听听就够了，就没有白耽误你那四五十分钟时间。绝对意义上的好的咒语应该符合这个要素。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个要素是什么呢？角色任务要求三个要素。角色任务要求你们可以内心重复一下角色任务要求。好，我们回头来看，还是看这个好的助理完美的符合。刚才相对要是你是一位小学语文老师，是什么红色是吧？请帮我列出三个关于难忘周末的作文大纲。任务要求他自己都说了，要求生动有趣，符合这个医学上角色任务要求是吧？角色任务要求你希望能扮演一些一位耐心的数学老师，一位知识渊博的历史学家，一位旅游达人，甚至扮演你自己都可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>角色你要告诉他任务，你要让他干什么？解释一个概念，修改一段语法，提供创意的简洁都可以。这是干什么？我觉得大部分的人用一段能力之后，这两件事情基本上是知道的角色跟任务。但难的或者说怎么让他再一次的更精准的能够满足你的要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>要求其实是很重要，但很多人不知道怎么描述要求。用简单的语言是要求，用复杂语言也是要求，列出表格是要求，画成图也是要求，用比喻来解释也是要求，不要用比喻来解释也是要求。200个字、500个字、1000个字、1万个字都是要求我们试一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如说解释黑洞，你们可能在你们的三里面可应该学过，或者必须会不会，那正好可以用它来学。刚才这个公式。如果是这样一个公式，应该有角色，你是一位天文学家或天才老师，任务向我解释什么是黑洞，任务要求请用六年级学生能够理解的方式，能够听懂的比喻，让解释变得更深的角色。任务要求看到了吗？对吧？那这是他给出了大概一个示例，你可以解释，因为他给你画个图，让你更清楚的知道或者更容易的理解黑人。这个具体是什么样的，我们后面会真实的让你们看一下这之间的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如说练英语，你要知道今天的大部分觉得AI工具是可以语音的，可以语音，而且是可以一句一句来回来对话的。所以如果今天比如说我我我的英文很差，我没有办法跟apple的对话。英文因为我没有，我们今天看英语好太多了。那怎么办？比如他下周要去辩论或者要去参加比赛，那他需要练一个议题，那这个时候怎么办呢？来帮你。比如说请帮我修改这段英文作文，找出所有的语法和拼写错误，并用一个表格列出来，左边是错误，右边是正确的写法跟中文解释。你会发现这件事情跟你们老师对你们要求很像。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他的任务是修改英文作文的语法和拼写错误，要求我刚才还是观点，这两句话角色跟任务大部分同学能想到，我觉得但要求很浓烈。他的要求是用一个表格列出来，左边是错误，右边正确答案怎么解释？当然你们可能有老师的各种各样的批改要求，要求更多。它相当于进一步的把它那个颈柱收缩了让它变得更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二点，比如说就是刚才那个场景语音的当你的20小时口语做什么角色？任务我们来练习在餐厅点餐的英语对话，请你扮演服务员，我扮演你发现跟我对话的那个服务员，我要点餐用英文点餐角色任务。然后第三个要素就是要求，我们一次只说一句话，就是我说一句你说一句，等我回复完以后你再说要求你今天就可以用来这种方式来练你的口语，totally是可以的。是。然后比如说作文的问题，你看到一个作文题不知道该怎么展开，或者说你去描写一种情绪。比如说你只会用高兴或者难过这种非常简单的词，你想让你的词变得高级一点，所以你知道该怎么弄，或者你想不起来，这时候都可以让人家来帮你。比如说圆它可以帮你的灵感，发动机帮你提供灵感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我要写一篇关于未来学校的科幻作文。任务？请给我五个非常有想象力的创意的点子要求注意是点子不要写这种也是要求对吧？要求这个后面都会给你看真实变成什么样子。第二种，比如说你的词汇方法是就是我的作文里用了太多高兴这个词，但是这个词太平了。请帮我提供五个可以替换的描写新情绪、开心情绪的成语或者优美的句子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>本质上来讲，这是一个任务加要求问题，对吧？他再去是还记得前面三个要素，记得吗？角色任务要求三件事情。然后比如说解释什么是光合作用，什么是股骨头定理，勾股定理，sorry, 大家可以帮你做什么？比如说请把勾股定理的原理，比如说我们平时你们讲的，我这里头应该是用三角尺来讲？或者用轮廓来讲？但很多可能同学觉得不太好理解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那今天好我的要求变成什么呢？你用乐高积木来作弊，乐高大家都知道，并且我今天虽然11岁了，但是我不太懂。我要求你用一个六岁孩子能听懂的话就给我解释，那大概率我也能听懂对吧？这样子可以这样要求。对你像常规是你们这么讲，但有些同学不太能理解。对，所以比如说还有另外一种方式，比如这道数学题我不会做，你拍给他，请不要直接告诉我答案，因为告诉答案没有意义，我是不会做，我不是不知道答案怎么办呢？如果今天你数学老师应该你怎么会帮你？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一般的这种方式是说他要求是什么？像一位老师一样，要求一步一步的提问，引导我思考，直到我找到解决的方法。什么意思？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你不要告诉我答案，也要不要告诉我一步步怎么解的。你要提你要问我，让我去理解这件事情，并且一步一步的引导得到最后的改革，你会发现这件事情跟你们老师做的事情是一样的。所以你要你的角色、任务、要求这三个要素非常的重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后到这儿，其实实际的内容就讲完了。我再次给你们收敛到今天我最最开始强调的那个观点，你们是它的主人，你们是唐僧。悲哀当然是神通广大的孙悟空，但他需要听从你的指引，甚至AI是钢铁侠的战甲，特别厉害，威力无穷。但是重要的是里面的那个人你要来控制他，你才是那个有思想有目标、有创造力的师傅，也就是唐僧应该永远是你的徒弟和工具更好吗？因为永远是你的徒弟和公主，他的强大取决于你的智慧，只有你的更强，他才会变得更强。听懂了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后还要记得AI不会取代你，但是会用AI的同学会比较容易的超过那些不太会AI是否会取代人类。这是今天这个时间点2派观点非常极端的两个观点。一堆人会认为一定会取代，一堆人认为永远不会取代。没有人每每一这两方都有非常强烈，你们甚至可以举办一场巴伦辩论赛来去辩证问题。没有答案，只能我特别期待你们长大的时候，你们真正意义上是我们叫AI一代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>等你们长大的时候，这件事情已经变成你日常生活中无所不用其极的渗透到那个程度的时候，会变成什吗？今天没有人知道，没有最后一页，这是最后一页。PPT你的神通才刚刚开始，你们要取经的路还有很长很远。似乎唐僧的这支球队，但你们没有，你们冒险才刚刚开始。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好，讲到这儿的时候，今天内容其实就结束了。我再次说一下，第一，我要跟你们强调的是，你是唐僧，你是主体AI是你的父母，你要把它认可。第二，记住今天的好的咒语的公式。三要素，角色和任务要求。如果你今天有时间回家再去使用，你将来如果有有方式使用的话，任何一个不需要只你限制对方任何一个今天的I工具，你们用这三种方式都会得到比你原来那种方式更好的结果。你们今天在40分钟学过这两件事情，我觉得就没有白费。这40分钟的。</p>]]></content:encoded>
-            <pubDate>Fri, 26 Dec 2025 06:10:42 GMT</pubDate>
-            <guid>694e25b944647f77684e7743</guid>
         </item>
     </channel>
 </rss>

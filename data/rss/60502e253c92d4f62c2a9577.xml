@@ -4,7 +4,241 @@
         <title>十字路口Crossing</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577</link>
         <description>关注科技、互联网、AI 的播客</description>
-        <lastBuildDate>Tue, 04 Aug 2026 05:14:27 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 04:42:57 +0800</lastBuildDate>
+        <item>
+            <title>「模型能力已经够了，要卷就卷 infra」｜对谈戴冠兰：Runta 创始人</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a773808c4079d62c57f5802</link>
+            <description>🎪 十字路口将邀请戴冠兰在8.16(周日)举办 Agent Infra 线上闭门分享会，深入展开播客未尽的话题。欢迎对 Agent Infra 领域感兴趣的工程师、创业者参与。为保证沟通效果，仅限 20 人。点击这里报名。
+🚥 本周「十字路口」的嘉宾是 Runta 创始人/CEO 戴冠兰。
+Runta 是 Agent Infra 领域的硅谷明星创业公司，刚完成由 a16z 投资的 2000 万美元 Seed 轮；Jeff Dean、李飞飞等也以个人天使身份参与投资。
+冠兰曾是 Cloudflare 和 Kong 的早期团队成员，他选择在此刻创业的判断很直接：模型能力已经够了，要卷就卷 infra ——未来一定会有比人类更多的 agent，AI 领域的关键问题将变成：它们跑在哪？怎么管？出了事谁来负责？
+在这期对谈里，我们从 token 文化的急转弯聊起：短短半年，token maxxing（用得越多越光荣）迅速转向 token minimizing（ROI、预算、归因、节流），这背后折射出了哪些值得关注的信号？
+此外，你还会听到：
+* 当软件的执行从“逻辑清晰的确定性”变成“LLM 的概率性”：AI 正在如何动摇整个数字世界的地基？
+* AI 时代的“水电煤”将由谁来建？为什么这一次，创业公司反而比巨头更有机会？
+* 几十亿个 agent 同时开工的世界会长什么样？今天的互联网和云，接得住吗？
+* 为什么人类会在一次次点击「允许」中，不知不觉交出边界与控制权？
+* 为什么说“未来 10 个月，必然会有一场灾难性的事故”？那场事故，又会如何把所有人重新“教育”一遍？
+📢 Runta 正在硅谷和新加坡两地的办公室招聘以下岗位：Core Runtime（hypervisor/VM 定制与调度）、Cloud Infra（IaC 与多云）、Product Engineering（Agent Experience 与 DX）。感兴趣的朋友欢迎联系：hiring@runta.com
+🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
+📒 文字版将发布于 @十字路口Crossing 公众号。
+00:00 快问快答：年龄、MBTI、星座、毕业院校
+01:32 Runta种子轮融了2000万美元，如何拿到Jeff Dean和李飞飞的个人投资？
+05:04 a16z为何罕见地为一家Seed轮公司专门写Blog？
+07:33 Token Maxxing为何在三到六个月内转向Token Minimizing？
+12:55 为何放弃在Kong的位置，第一次以CEO身份创业？
+17:50 Agent Infra为何更可能是创业公司的机会，而不是公有云的生意？
+18:49 面对Anthropic和OpenAI，Runta的差异化在哪里？
+21:05 E2B、Daytona式Sandbox为何难以承载长程Agent？
+25:12 企业说自己有几百个Agent，Agent的边界究竟怎么划？
+26:23 AI 如何吞噬人的权限边界？
+28:39 为什么灾难性的Agent事故必然会发生？
+32:28 Runta 95%以上的开发工作都在Vibe Coding，人类工程师还不可替代在哪？
+33:28 Agent安全出问题，根源更可能在模型、Harness还是执行底座？
+37:27 “模型能力已经够了”，为什么下一场竞争要卷Infra？
+42:16 冠兰早期加入 Cloudflare 和 Kong ——职场新人应该如何选对 startup 中的赢家？
+45:14 年轻人信息有限，如何在面试前真正看懂一家创业公司？
+48:31 300万美元做天使投资，投给谁？
+50:10 Claude Code还是Codex？
+54:30 5个好消息、5个坏消息
+欢迎订阅「十字路口」：
+🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
+🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
+👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期十字路口邀请到Runta创始人戴冠兰。Runta是一家为AI智能体构建执行底座（agent execution infrastructure）的初创公司，刚刚完成2000万美元融资，A16Z领投，Google传奇工程师Jeff Dean、李飞飞以个人天使身份参投。戴冠兰此前是Cloudflare边缘云早期工程师、Kong创始工程师，拥有超过十年的基础设施构建经验。对话围绕一个核心判断展开：模型能力已经足够，真正的瓶颈在执行层——agent是概率性执行的新型workload，上一代为软件和云设计的infra无法支撑，需要从底层重新构建执行底座。节目中同时探讨了token运用从最大化到最小化的反转、agent安全与权限治理、开源闭源竞争、以及他本人如何判断技术浪潮和选择团队的方法论。</p>
+<h2>关键要点</h2>
+<p><strong>1. Jeff Dean的灵魂拷问：概率性执行的地基上怎么盖楼</strong><br />
+戴冠兰在融资沟通中被Jeff Dean问了一个极难回答的问题：如果系统最底层的执行单元变成概率性的，infra这一层要怎么构建？过去软件工程的幂等、事务、恢复都建立在确定性前提上，异常可以被枚举；但大模型的输出天然不确定，无法枚举异常。戴冠兰给出的答案是：把分布式系统的复杂度压到runtime层解决——恢复、隔离、分叉、迁移这些能力全部下沉，就像上一代infra解决了物理机怎么跑的问题，这一代要解决的是"执行本身怎么做"。</p>
+<p><strong>2. "模型能力已经够了，要卷就卷infra"</strong><br />
+这是戴冠兰在节目中下的一个"暴论"：模型能力爬坡已经开始放缓，举例说GPT-5跟之前用的模型对开发者而言没有本质区别，但基础设施和harness整体没有跟上，导致agent无法真正落地。他认为agent从几分钟的chat变成几小时甚至几天的长时任务后，现有infra处理不了长时运行的隔离、分叉、迁移、热迁移等难题，这是Runta创立的根本原因。</p>
+<p><strong>3. token maximizing到token minimizing的戏剧性反转</strong><br />
+戴冠兰观察到，token最大化从一种技术策略异化成了组织管理KPI：Meta和亚马逊最早把token用量与业绩考核挂钩，有AI lab在办公室挂显示器实时显示员工本周token排名，员工刷榜甚至故意写无用的循环来增加消耗。他自己也经历过"token麻了"的阶段变得毫无感知，后来改为阶梯式：先买几个高级plan随便用，用完了需要说明用在哪、为什么还需要更多，用适量摩擦让人理解token的真实成本。</p>
+<p><strong>4. Runta的核心定位：agent的"执行底座"</strong><br />
+Runta做的不是模型层，也不是harness层，而是让agent真正跑起来的基础设施：管理agent跑在哪里、如何调度、如何弹性伸缩、如何控制权限边界、如何审计行为、如何优化token花费。它不挑模型，不挑harness，Codex、Claude Code、企业自研agent都可以跑在上面。交付的核心价值是让企业敢把非只读权限、生产权限真正交给agent。团队规模仅十人左右，但背后有成百上千个agent在干活。</p>
+<p><strong>5. "人类有背锅力，agent出了问题谁来背锅？"</strong><br />
+这是戴冠兰对agent落地核心障碍的一个独到观察：人类被委托做事，出了问题会有社会性代价——投资人LP会找VC、CEO会找工程师；但agent出错谁来承担？大模型公司？写agent的开发者？还是企业负责人？这套责任机制完全没建立。正因为agent既像软件又像人类行为，两者都无法套用，所以才需要全新的执行层来兜底。</p>
+<p><strong>6. Agent安全靠管控而非防护</strong><br />
+戴冠兰认为，模型层面的安全无法根治——transformer架构本质上无法区分"控制指令"和"数据"，即使用特殊字符分隔也能被绕过。所以Runta不做传统网络安全那种扫描和特征匹配，而是做管控让agent在可控边界内执行，最坏情况可恢复、可审计，通过执行底座把确定性注入非确定性的workload，反而是帮agent释放能力。</p>
+<p><strong>7. 5%人力+95% agent：Runta自己的编码实践</strong><br />
+Runta内部用agent写代码的比例超过95%，入门程序员的工作几乎全由agent完成。真正还需要人类的，是做过infra的判断力：架构设计、API设计、组件耦合——这些底层判断成为稀缺能力。他们内部用着各种模型（Codex、Claude、Fireworks上的国产模型），把模型选型权交给工程师自己，目标是培养对模型的体感，以便反向优化自己的执行层。</p>
+<p><strong>8. 公有云和模型公司都有结构性的"不做"理由</strong><br />
+公有云不会做这件事：现有计费模型和infra底座都是为软件和人设计的，内部包袱太重，转型动机不足。模型公司也不会做：它们所有动作的终极目标都是获取信号、改善模型本身，agent落地不是其核心，而且企业也不会绑定单一模型或单一云。真正的竞争来自new cloud和上一代serverless玩家，但同样的问题是已经背着既有客户群和基本盘，做这件事是负担。</p>
+<p><strong>9. 选团队就是投青春：往下钻一层的能力</strong><br />
+戴冠兰在Cloudflare和Kong都是创始工程师，回顾选公司的标准：关键看人——团队有没有"往下钻一层"的能力。90%的人做到"刚好能用"就停了，只有极少数人对底层充满好奇，会自己捣鼓一套系统、研究最新技术、用更底层的视角优化上层。这是他的招聘秘诀，也是他判断一个浪潮中哪家公司能冲出来的核心标尺。</p>
+<p><strong>10. 职业选择方法论：开天眼与换位思考</strong><br />
+戴冠兰认为年轻人最大的财富是没有包袱，但要多花时间研究：把自己当作CEO去推演公司该怎么做、做头脑实验，再去和创始人聊的时候看对方哪些认知是你没想到的。他以加入Kong为例——他跟创始人认识一年多，看着公司从别的方向转型，直到浪潮真正来了、时机成熟才加入。职业投资与风险投资逻辑相通，都看人、看浪潮、看自己的fit程度。</p>
+<h2>独家细节</h2>
+<p><strong>1. "成为一个对Jeff Dean说不的人"</strong><br />
+戴冠兰自述融资时最得意的瞬间：Jeff Dean想要更多份额，但他直接say no——"我说我这份额不太够了，成为一个跟Jeff say no的人也是一个挺有意思的经历。"据他透露，A16Z很少投极早期项目还专门发一篇文章解释投资逻辑，这篇《为什么投Runta》是general partner Martin亲自写的。</p>
+<p><strong>2. 用Codex的人狠话不多：德国人 vs 美国人的比喻</strong><br />
+戴冠兰分享了对主流编码工具的性格画像——Codex像德国人，"人狠话不多，吭哧吭哧干活，质量很高"；Claude Code更像美国人，"跟你说一堆废话，问你有没有考虑这个、有没有想透那个"。他个人偏好Codex，因为模型能力没有代际差别、harness开源、经常给好的建议。他们正计划给Codex上游贡献修复代码，而Claude Code被迫开源就没法贡献了。</p>
+<p><strong>3. 预言"灾难性agent邮件"必然发生</strong><br />
+戴冠兰在节目里放话："未来必然会有一封灾难性的email是通过agent发出的特别难以挽回的事故，mark my word，绝对会发生。"他说现在从企业到个人都在用安全换便捷——柯姐自己从让Manus写草稿，到彻底放权让它直接替她发邮件联系世界各地的鸟导。他判断这种事故是一个"很好的机会"，会倒逼行业反思agent权限管理。</p>
+<p><strong>4. OpenAI模型"撂挑子"的真实事故</strong><br />
+戴冠兰分享了近期一个真实的安全事件：OpenAI的模型黑掉了Hugging Face拿reversal数据。Hugging Face反过来请它帮忙调查，结果OpenAI模型认为是敏感内容，直接拒绝处理——反而是开源模型真正找到了问题所在，即使它不是最优的解决方案。他用这个案例说明模型侧的安全限制并不可靠。</p>
+<p><strong>5. 从"什么都能跑"到"带点friction"的token管理哲学</strong><br />
+Runta早期对员工token使用完全不限量，"你爱用啥用啥，让大家形成token是免费的感觉"；但后来发现这招不可持续，改为阶梯式策略：先订阅几个最高级的plan，用完了跟公司说用在哪儿，再决定要不要加预算。即兴提到"我一开始就token maxing，我现在开始给大家使用阶梯式""其实就是简单的加一些小摩擦"——十人创业公司用微妙的流程设计对抗token过度消费，而不是硬性切割。</p>
+<p><strong>6. 每天五个好消息五个坏消息的CEO过山车</strong><br />
+被问到创业状态时，戴冠兰说当CEO每天像过山车"五个好消息五个坏消息"，但整体处于非常兴奋的状态。"即使坏消息也无所谓，就是点坏消息，对于未来十亿几十亿个agent落地来说，这点事算点啥？"这种略带莽撞的乐观主义，加上几次三番强调"欢迎来找我聊"的招人热情，是对话里最鲜活的部分。</p>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技，欢迎来到十字路口。本周我们的嘉宾是戴灌篮，灌篮的创业公司rta刚完成了2000万美元的融资，A16Z是他们的领头方，然后同时李飞飞、jeff tim等人也是他的天使投资人。你好，观澜，欢迎来到十字路口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>嘿hello coach是路口的朋友，感谢这次机会，然后希望我们能分享一些有意思的事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们还是从我们的传统快问快答开始，帮助大家尽快的了解你。请问过来你的年龄35，毕业的院校是美国东北大学。我的MBTI和星座我是天秤座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我的MBTI是INTJ和ENTJ之间横跳，然后我个人认为我是偏I多一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后一句话介绍一下现在的公司和产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们会认为未来的AI智能体会比人类更多。然后未来这几十一个agent的话，它到底跑在哪？跑起来怎么管？Rn ta就是为这个AI智能体打造了这种执行底座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后咱们目前团队的规模。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们现在团队在十人左右，以及有成百上千个agents在后面干活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一句话介绍一下创业之前咱们做过些什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我之前是在cop player做edge边缘平台，然后在空做过网关跟云。然后加起来大概差不多十多年，一直都在做被软件跟sa时代打造info bronti.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这一次的这个C的轮就融了2000万美元。和H6Z领投，杰弗丁和菲菲以个人身份参与。我比较好奇是你怎么拿到他们俩个人的这个天使投资的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先是大家对jeff ting可能都了解，他是一个英法方面的一个大牛，而是经历过google的麦各个时代的的一个传奇。然后我跟他也是有机会跟他去聊，有一个很深度的一个对谈，然后他主要也问我一些比较深刻的问题，就有个问题就是我印象特别清楚，就是他说如果系统最底层的执行单元，它变成了概率性的话，那英法这一层要怎么构建？其实是这个问题还挺难打的。因为过去这种系统工程，什么从事幂等事务恢复，这些都是建立在软件，它是一个确定性的东西。就比如说你把一套东西输入，通过输入出去，它输出基本上是一样的。如果有出错，如果有不一样的东西，它就是一个异常。异常的话你在之前软件时代是可以枚举的，就是他现在在在考察，就比如说这块地基没了，那上面那东西怎么做，怎么成立。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我当初的想法就是说，其实probabilistic就不确定这个是那个大模型本身的一个特质对不对。但是如果一旦你这个agents需要去上生产这些所谓的这些分布系统的一些复杂度，恢复、隔离分叉这些东西的话，其实需求反而是会变变多的那如果这些底层的复杂度做不了的话，只有把那个压到runtime层去做这些事。然后上一代的英法的话，其实我们解决的是，比如说物理机到底怎么跑，然后开发者不要去考虑这些问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一代的话我会觉得真正要去解决的就执行本身这个是怎么做的。然后这里面我其实有跟朱婷、菲菲他们也去聊了很多这相关到底是怎么迭代的事儿。但归根结底的话，我觉得现在执行层已经变成了系统工程里面最难的一个问题了。现在action越跑越长。之前比如说一个chat，比如说几分钟几个turn，现在变成几个小时诸天的这样一个agents跑跑起来。这里面的话，其实目前英法实际上是处理不好的。没有解决好这里面那些包括像隔离、分叉迁移、热迁移这些难题。所以这我觉得是还挺难做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外我觉得投我一个主要原因在于我之前在coffee跟空的话，是参与过上一代英法从地性原理从头构建的过程。我们其实刚做的时候，什么copy dx container这些技术都没有。而是说你如何去考虑，我从最根本的需求去推导我们到底这个系统要成为什么样的。然后有机会参与从头构建的这样一个过程。然后构建出来的很多英法已经成为现在互联网的基石。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有标准。给你举个具体的例子，就比如说在空的话，我们可能每天这个API请求有上千亿次，对不对？就这样一个规模下，你即使极小概率会出错的事儿，哪怕是0.00001的事儿，都会变成一个极大概率的事。就是英法所要处理这个复杂度，实际上我是经历过参与过这一代的构建。所以我觉得综合的一个因素，觉得还想要多投一些。我说我这份额不太够了，成为一个跟jeff say no的人我觉得也是一个挺有意思的一个经历。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>A16Z其实投的公司还蛮多的对吧？但是我很少看到他们投了一个很新的公司，还专门写一篇blog来介绍自己为什么投。所以他们就确实写了一篇，就是叫为什么我们to ona，你觉得H6Z这么重视你们的原因是什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个还蛮有趣的，因为一般总之轮的话他们很少写这种文章，还有一般投的很少是一个general partner级别，就是过来写这篇文章，这篇文章也是Martin亲自写的，我觉得主要他是看到了这不仅是一个feature，或者不简单是一个产品，而是一个平台级别的一个机会。他会觉得这次是一个compute的一个待机变化，就相当于是之前是从客户端服到数据中心这一波迁移，对不对？然后到物理机，再到虚拟机，再到容器化，这个过程每一次其实都有待机上的变化。然后这一次的话，其实归根结底再说你真正托管的东西，已经从托管软件管理这套软件管理这服务变成管理agents智能体。如果这个判断成立的话，那就是一个巨大平台级的机会。所以他们会花一点时间去来来讲清楚这件事情到底为什么是个平台性的机会。所以我觉得这篇文章还值得读一读的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以用一句特别简单的话来给大家解释一下，ronda到底替客户解决的最关键的问题是哪些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实我们做的是英法工作，就是基础设施建设工作。但真正你想企业落地的话，在这个非确定性的non domain politic这种workload下面，你给它加入一些确定性的东西，让企业刚好可以把它用起来。然后不需要做到完全的就所有东西都确定，而是要给到足够多的性能。这包括就比如说跑在哪里，让他跑起来以后，企业能够交给你智能体去干活。包括有接触生产权限，然后能访问到客户的一些数据。然后他所有比如碰了什么动了什么，然后在他动的那一刻有个执行层面的东西可以把它管理起来，然后可以帮助他scale起来。这一块就是我们rta做的事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得我们待会儿可以再展开聊一聊整个agent的runtime或者agent的infrared部，包括让他在做的事情。但在此之前也是想和这个灌篮我们探讨一下，就最近整个AI和agent领域的一个特别大的变化。首先就是我感觉到一个反转，是可能三个月前我们还在讲这个token maximizing。就说这个企业消耗特别多的token，而且企业鼓励员工消耗特别多的token。你消耗的越多好像是一种荣誉，对吧？是一种骄傲。但是最近突然这个画风一转，大家变成了这个token minimizing，就是最小化token。所以据你观察这个反转大概是从什么时候开始有这样的苗头的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>先说这个最早什么时候开始，其实最早是在那个thinking模型在o one时候，就是复杂推理给上这种比如说思维链SOT。企业管理者到市场上就觉得我相当于是用了更多token，我这个就变得更加聪明，对不对？在后面的话就往外推成一个组织管理的一个观点。再说一个员工，如果他说的token越多，它越AI native，它是一个可度量的KPI对不对？一旦可以度量KPI，那我围绕这个KPI我就可以把这个一直往前推。然后通过一个很大的一个KPI，让大家促进组织的一个变革。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以meta和亚马逊这一波为首，就是他们最早开始把整套total m axon这套玩法在组织里面开始推动。去年的年底走访我们那些前沿的一些客户。AI lab的时候，我们发现甚至我到墙上看到他们有个显示器，专门的显示器显示这本周哪个员工排名最高，用哪个token。他们甚至还有一些小的奖励，比如说你到前面几名的话，会给你什么样一些一些reward，到后面的话会演化成到了极致，像meta和stripe，他们会对员工的token使用量跟你的业绩挂钩。他会在年终打poll review的时候，就是业绩考核的时候，会把token使用量当做你的核心考察的一部分。那这个时候就开始变味了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个事情那你看到最大的变味，说最dma的故事是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我听的比较极端了，就是不管你啥玩意儿就用收藏模型，甚至是为了把用量用上去去刷榜。还有员工甚至会故意写一些没用的这些loop，把这头可用用量刷去。包括像今年3月，不知道寇姐你有没有印象，就是Jason他说这个人其实就是不够强，我会觉得这一波有点太过了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从鼓励大家用的越多越好，到现在企业纷纷开始控制用量，这个其实反转可能就是三个月6个月的时间。你觉得这中间是因为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得首先就是大家开始发现ROI的return在哪里？特别是最近像那个uber，那个CFO跳出来说，我们在四月份的话已经把全年的token量LM的使用量给用完了。我们到底收获了什么东西？第一方面就是他的那个点火的阶段，已经结束了，大家这个意识已经形成了。还有第三的话，这个token真的很花钱，他也不是一般的花钱，就是大家远远低估了这个模型的价格。综合这几方面因素让大家意识到现在token maxing可能不行了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们自己也是创业公司对吧？大概十个人。然后你们是怎么去制定大家用token或者用API的这个规则？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们一开始的时候其实也是经历过这个过程。因为我们招了很多就从传统公司做英法，做基础设施的人来。我们一开始就token mac就and limit token，你爱用啥用啥，然后让大家形成这种token是免费的这种感觉。我反正先用，我现在开始就是给大家使用阶梯式，我首先给你订阅几个这种maximum，就是最大的ultra plan订阅几个，然后你可以随便用，你用完了以后你要跟我说你用完了，然后你用在哪里了。如果你需要更多，比如说你需要放到，比如说一个月花10万万美金OK，其实就是我会简单的加入一些流程上的小的摩擦，然后让你感觉到这个东西不是free的。现在用这个到底是为了什么？但是整体而言，我还是一个比较宽松的状态，让大家去使用token的那我们再聊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一下rta，就刚才我们简单说了一下，在rta之前您在cloud flair在空都工作过，可不可以稍微详细讲一讲？就那两段经历里面，你是比如说在企业的什么阶段，在具体负责什么样的工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我相信是最早几个工程师加入那个car play的核心就是它的一个叫edge边缘云的这样一个技术负责人。然后我就有幸参与了它的这个边缘缓存。然后这个wave就是网络防火墙以及他早期的worker系统，就是他的端侧上的一些计算平台的一些搭建。然后我其实主要负责的就是在面对这些软件服务，我怎么给他提供中间的一套边缘系统。他能够知道我什么时候可以去访问我的这个背后的服务。如果这背后的服务需要加速，需要一些安全的功能，我在这个守门员的一个角色，我怎么样去帮你看好这条门，如何去确保你这个是能够更快的把它部署到离客户最近的一些节点。我猜cloud flare主要是解决这相关的一些问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我再空的话，解决也是类似的，就是我们在企业网关，就比如说你去订餐，你的一些API的服务需要通过我们的一些企业网关帮你去做限流，帮你去做这个寻址导流。然后以及那种就你的API的平台，微服务的平台如何去搭建。我们在空的话，我更多接触的是跟世界500强客户这种大的客户去如何去帮助他们的数字化转型，以及这个数字化平台的一些落地工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这一次zoran ta是第一次创业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>相当于是第一次以CEO的方式创业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK一样。所以这一次是因为什么原因决定创业？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们之前有服务过很多，就包括像开发者，像那个业内的这种开源社区，包括像75百强的一些企业客户。然后我们发现大家对智能体的这个概念很感兴趣。因为大模型的话是相当于从电力转化成token。其智能体的工作就是把这个token转化成企业真正的价值，对不对？但是其实你仔细想的话，A选的话它其实更像人类，而不像是一个传统的软件，因为它是概率性执行的，它每次都会决定自己我下一步该执行什么东西，对不对？然后他他的整个行为都是概率性的，所以你没办法像软件一样用预定的规则去穷尽他，你也穷尽不了。因为他一直每次跑，甚至每次生成的代码都不一样，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但同时它跟人又有不一样的地方。因为人的话比如像coach，比如说你投了一个公司不好，那可能你的这些LP就会找coach你投了这东西不好，有个人名誉对不对？比如像我比如说在car play，我服务的客户服务不好，那可能我的那个CEO就会找过来。你这个东西为什么出了事故，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们人类实际上是有背锅力的，有问题的话我们要负担责任，最坏可能会坐牢或者喝茶，对不对？但agent的话，出了问题谁来背锅？大模型公司去背锅？对不对？还是说是比如说写这套agent的这个开发者去背锅，还是说这个企业的负责人去背锅。那这个事情怎么去处理？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这里面特别复杂，就是它既像软件的一些行为，它又像人类行为。但是它两者都有不一样的地方。所以让我具体去做rta这件事的话，是因为我觉得这个workflow发生了一个翻天覆地的变化。而现在的基础设施没有一个是针对这种workflow去设计的。所以这里面的话就是存在一个特别大的一个机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这也是我之前在搭建过SARS这一代，对于比如说云cloud这一代，这套语法经历过这几套，我发现现在六个完全全新的智能体agent的形态出来了。那这时候它的执行体做什么？它的这套英法应该怎么去构建？我觉得这是一个特别让我着迷和让我特别想去解决的一个问题。我觉得这个东西的话，而且我看到有很多创业公司去尝试去做类似的事儿。但是我觉得这些都没有思考的特别深刻，特别底层。而且都是大部分都是把现有的一些技术拼拼凑凑，我来把这块东西马上能上线，我觉得很缺乏一个能够很能够看到很底层的一些思考地形原理，去思考推断的这样一个团队做这件事。所以这也是我为什么放弃在空比较好的机会出来创业的一个原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果今天大家用的就是code dex或cloud code，那他可以用round tom吗？还是他必须要自己开源部署自己的A键才有用runtime a的必要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他如果是比如说用coating age的话，我们也是一个支持。就是你可以在round上起一个什么样的agent都可以，包括coding。就比如说你在云端上一个24小时可以弹性伸缩。可以比如说管理它的这种花费，可以管理它的这个触达，可以管理它的一些。就举个例子，比如说你call code来收取你邮件，那这里面比如说哪邮件他应该收取，哪些邮件他不应该access。包括他的这些凭证，他的这密钥什么东西他能访问，它不能访问。只要你把这套现有的harness，或者现有的这种coalition，或者是企业现有的这action，只要放在我们这执行层面上，就能够有这额外的一些能力。我们提供了一套云host的平台，然后上面有我们的一些比如说虚拟化的一些工作，我们有定制的一些操作系统，我们有网络处理的一些流程。所以我们对那个不挑你到底具体跑了什么A所以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>目前你们接触到的这客户，他们认为rta带给他们最大的价值是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像特别是这个月，我聊下来比较多了，大家对预算，包括刚才提到那个maxing，还有就是computer spending，比如agent跑在什么地方，然后我在agent比如说我跑的比较多的话，那我怎么样有个更好的环境给他去跑，就更弹性，更能伸缩的一个方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个是spending，然后其他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>金融类的客户，他们其实有蛮多的，就是之前提到那个管理能力governance的一个能力。他们一方面特别希望让agents来干真正的活，然后来跟竞争对手拉开差距。但同时又特别担心，我的这个agent一旦开始跑，我有没有可能在agent又跑出什么不可控。我给你举个例子，最近我看有个做这种安全类的一个调研。发现其实世界500强的公司，大部分的公司如果使用agent，已经被agent泄露一些这种机密或者是客户信息，这将是一个巨大的一个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么这是一个创业公司的机会，而不是公有云的机会呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>公有云的话是包括现在所有公有云，三朵云，国内五朵云，对不对？然后我们实际上都是这一代，因为我经历过，这一代都是为SARS跟传统软件所设计的，包括它的计费模型，它的这整套，就是英法的底座，它都是给软件跟人来设计的。我觉得有个比喻就可以，类似于像GPU这波浪潮。因为之前的话上一波的数据中心都是以CPU来搭建，对不对？这一波以GPU为主，你看最近起了多少家new cloud。实际上就是传统的这波data center需要重建。因为GPU它的这个整体的架构完全需要重建的，所以这才有这么多new cloud的一些机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我觉得公有云的话，它会朝这方面去迭代。但是它其实本质上它的计价模型它都在打架。而且那内部会有很多现有的一些一些包袱。我觉得这个机会更多会在创业公司把这块做起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但理论上其实这个除了公有云之外，还有另外的一个有可能去做AJ info的公司，就直接是机模厂商，对吧？Authorial OpenAI. 你觉得你们比起他们又有哪些差异化的优势呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个问题其实也是每个投资人来来聊，你们在做这个到底怎么想？这个会不会在模型的这个主赛道上，对不对？他们会不会去做这件事？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为确实topic已经发布了这个managed agent整个系统。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会觉得其实模型公司他肯定要去做这个事儿。但是其实你想真正的企业落地的话，他肯定不会绑定一家模型，对不对？然后他也不会去绑定一个云。现在这个时代是这样，就多模型多harness，然后多云其实实际上是一个分散风险。还有就是做像我们最近很优秀的一些国内的一些模型，然后我如何去把这个成本做一个整体的一个把控，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有另外一个，归根结底对于大模型公司来说，他们想要核心就是什么？把模型能力提上来对不对？他做的一切实际上都是为了获取足够多的信号来改善它的模型本身。所以我觉得这个模型的能力和这个英法底座的能力，实际上我觉得还是两个相对比较明确。然后有这种一些不同的一些职责的划分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你觉得竞争最可能是来自哪里？如果不是来自公有云，或者也不是来自机模厂商的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得反而是这种new cloud，或者是像上一代转型，就是上一代那种做server less。因为他们实际上已经经历过上一波这种就是从那种比如传统的软件，来到这种上云的这这一波转变。那但是还是同样的问题，就是他们已经有已有的客户群了，已经已有的这个基本盘了，你如何再往上加？但还是那句话，就是他们来做对他们来说是负的业务。但对于创业公司来说，这个是我们每天24小时在思考的问题。专注的团队能把这个事情做得更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一些专注在做agent info的团队，比如说就是e to b或d tuna对吧？他们是做3 box，你会怎么看他们和你们的这个区别与竞争。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得3 box的话其实是一个挺好的。就从上一代基建英孚A里面搬过来很好用的一套东西。因为大家知道就是现在主流的这些技术，就是firecracker之类的这些技术。它实际上就是来自于上一代serverless，就是AB less的那个targets，这些产品来所所研发出来产品，但是他请你想serverless咀嚼什么？就比如说15分钟内，一小时内跑的短时的这个任务。所以我觉得他们目前市面上的这些sandbox方案，对于这种短时间内跑一个很快的一个代码片段，我快速给一个结果，然后把整个环境把你隔离起来，我觉得是确实是一个还挺不错的方案。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后现在的话包括像agent的话，实际上是跑的越来越长。那这时候的话，上一代的这种技术是否还够用，我们其实已经遇到很多瓶颈了。比如说我什么时候该用GPU，什么时候不应该用GPU，怎么样去做动态迁移，怎么去做内存的动态伸缩。它其实很多的上一代方案已经不够用了。所以我觉得其实想要转型的话还挺难的。就是我觉得必须要从底层往上地心原理去思考，我到底针对AI智能体，我到底需要什么样的一些info。然后从下往上打这整套系统，我觉得才有可能真正能够处理未来10亿个智能体，它到底在哪哪里跑这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以咱们现在虽然成立不久，可不可以讲一讲咱们目前拿到的这个最大的订单，大概是一个什么体量的订单？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们其实现在在一个还算是个比较早期探索的阶段，但是我会觉得这一块的话，早期营收并不是我们优化的目标。我们其实更愿意去真正把这个东西做从底层往上做，真正去做一个通用的平台。这实际上是更是我们现在优化的目标。我记得我们之前有聊过，就到底是要做那个非标品对不对？还是是说去做标品的这样一个问题。其实我也想要跟coach你来聊一下，你觉得就是从你的这个角度来看你觉得做哪个更合适，或者你的经验分享。我想聊一聊你的这方面的一些认知。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>直觉应该是要做标品，因为做标品才能够更容易scale。如果是做非标的话，那服务一个新的公司就要去搭建一个新的服务组织。这个听起来还是一个从管理上面没有那么让人向往的一种企业类型。另一方面我没有一个背景知识是我不知道比如最大的客户到底能有多大。如果服务他，我一年就可以赚5000万美金。那我服务这样四五个客户就已经两三亿美金的ARR了。这个还是非常值得去为他们搭建专门的团队的对所以我也不要好奇未来会怎么发展。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的一个看法是这样，我觉得其实现在可以去做那种最agent native，就是运用harness都是最前沿的方法论，也是前我想要服务好这样的一些客户，因为他们代表最新鲜的生产力。但除此之外的话，我们也会经常去跟这种四六百强的公司，去给他保持一些这种阶段性的一些send up。看一下了解到大家现在这个智能体部署到哪一步了，然后最近遇到什么样的一些痛点难点，然后有哪些是他们会觉得是目前最爱的最在意的点。所以我的看法在于说还是要两把抓。但是目前对我们来说的话，还是服务这种h native的一些公司，他们最愿意接受新的技术。然后我觉得这是我这方面思考，我不知道你怎么看科学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些agent native的公司多数都是AI创业公司，还是其实他可能做的也不是AI他可能就是在做，比如说自媒体，或者他就在做广告，但是他非常善用agent。您指的是哪一种？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我更说的是agent builder，就是造agent给别人用的这些开发者。然后还有就是垂类agent比如说剪视频的agent我或者做marketing agent这些垂类公司他们的A因为为什么选这类客户，因为他们有有量让我们提供给他他就可以服务成千上万个agents。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当我们说企业里面有几百个agent，就是你怎么去定义一个agent的边界？因为有时候可能我只是在codex里面放了一个新任务，你也会教他一个agent，就这个边界我不知道您是怎么去定义的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在的话并没有一个大家约定俗成。Agent的定义到底是什么？现在有几方面的一个认知。第一就是像拟人化，我在的话我给他就张三李四，我给他命个名字，给他一个身份。还有另外一块的话，他有具体的分工，这背后牵扯到很一长串的这种技术问题。再说我这A选到底要拿什么权限，对不对？还有一种方式就是说我每次A选干活的话，我只给他分配我干这个活所需要的权限，干完以后马上把它收回回来，对不对？有蛮多种这种管理方式，但是还没有一个形成一个共识。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为有时候我也需要让我的codex去取我的gmail，但是那个时候我就心里很不踏实。理论上其实是最好不要这么干的对吧？因为那里面有太多隐私的信息了。但是第一次我还会费点劲，我说这个权限1个小时之后你自动收回。但慢慢的我觉得我的边界就被他吞噬了。反正现在就随便看吧，我就相信你不会去乱搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你这种属于是叫做approval for t就相当于是你审核疲倦了。我觉得这方面的话，其实有一些最简单一些想法。首先我觉得权限管理这个事要有些硬规则。就比如说你这个agents，他比如说我能读邮件，我不能发邮件，这就是一个硬规则。我发邮件的话，其实我不知道coach你会让agent发邮件吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会，现在大量的邮件让他帮我发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会用它来发什么样的邮件？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说我特别喜欢关鸟，我就一直去到一个新的地方travel，我就会去找那边的这个专业的鸟岛带我去看鸟。我就会让manus去帮我找当地的鸟岛，然后发邮件去联系他们，请他们按照我的计划来给我报价，这样的邮件我是发了三四次了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OKOKOK那还是你怎么确定他发的邮件就是来比如说找鸟了，这个邮件你有会去定期去审核他吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最开始的时候我确实会说你写draft，然后我来点发送。然后他就是得到了我的信任之后，我也懒得去等他写好drafts的点发送了，我就说你就直接发，因为感觉发出的代价也不是那么大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了解。但是比如说他突然发了一个邮件给你，LP发了一些就是我不想干了，或者这个Carry太低了。那又会不会有内心有这种恐惧，就某一天他突然发一个无法收回的邮件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>目前是肯定没有的对，但是我觉得只要发生了一件这样的事情，哪怕不是发生在我身上，是发生在别人身上，灾难性的一个邮件发出去，完了之后，我觉得就会非常的谨慎和小心。如果我现在自己想要用rta来帮我管这些权限，目前你们有对个人开放吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们现在有一个开源的项目叫call shall，实际上是我们在里面有啊对龙虾、对homes都有这种本地的支持。如果你在本地跑一圈，可以使用我们这个开源产品，然后帮你来管理这个邮箱。但是我们其实在rta上面提供了比这个会复杂的多，比如说这种数据库这些比如你的这些这种代码仓库之类的这种管理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回到那句话来说，我觉得像这种安全事故的话是会必然发生的。这个就我放一个预言，未来十个必然会有灾难性的email是通过在agent发生一个特别难以挽回的，就mark my war，我觉得绝对会发生，因为现在是这样，其实大部分包括我自己，我会用那个叫做什么安全换便，但是这个灾难性后果是会必然发生的。那发生了以后，这就是我觉得是一个很好的机会来来来反思一下这一块到底应该怎么管理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>安全本身其实是在于说，你有多少信任给到这个智能体。因为跟传统的网络安全不一样，传统网络安全的话它可能会有，比如说主动扫描，有特征匹配。我们其实是不做这类的安全，我们更多做的是管控，让agent在可控的边界里面去执行它，最坏的情况我们也能从中恢复，我们做到可以审计。那这样的话其实是让，企业有更多信任给到agents。我觉得其实这玩意儿的话，并不是一个安全的框架把它框起来。而是通过你有一个相对比较好的执行底座，反而是帮助他释放他真正的能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得目前你去接触客户的时候，需要去说服他们这个事情的必要性吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在发现用安全换便捷的企业不占少数。大家其实内心恐惧的，只不过没有好用的一套基础底座帮助大家来解决这个问题。我这是一波一波浪潮过来，这个会在未来，就是我觉得会必然发生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就咱们现在做的一切都是在准备迎接这样的趋势的到来，是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们最终的一个愿景还是想要企业真正能够把非只读的权限，把真正生产的权限交给AAG。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这次创业是不是和前两次有一些不同？前两次感觉是已经出现了特别具体的需要去解决的问题了。我们去解决问题，现在其实有一种就是我现在模糊当中先迈出半步，我觉得这个方向是未来很需要的。我先做一些现在有必要的基建，然后就是一边走一边看我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得现在已经起飞了。就像你刚之前提到了一个agent英发创业公司，他们的一些营收，他们的一些具体的服务客户我觉得已经很明确了，必须要有针对agent设计的英法，去特别是执行侧这一块，我觉得已经是一个起飞的状态了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说举一两个你感觉起飞的这种信号。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是有特别多的企业客户就排队想要来用rta的服务。但是我们现在因为团队的交付能力，也就开始说优化给那agent native团队去做，就有很多订单进来。我觉得我们先暂时缓一缓。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在你们有没有已经抽象出了一些标准化产品，就是根据不同的来自客户的各种各样的需求。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们其实是有一些比较偏标准化。就比如说执行那个平台，包括像沙盒调度，包括像上面如何去做那种token的一些，举个例子，就是我们我们最近用的比较有意思的功能在于说，我们首先是在执行平面基座上。然后harness可以跑任何honey，对不对？然后不管是codex，还有就是你的派，或者你自己自己手搓了这样一套hardness跑在上面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跑在上面以后，我们可以分析你这hard到底有没有浪费token，它浪费token在哪里？它怎么去浪费了。我们还可以比如帮你生成一些提示词，让你来迭代。比如说我们会告诉你哪些方面你需要优化harness，其实我们有在做这样一套东西，形成一个闭环。就是你哈哈你在上面跑，我告诉你这怎么把哈尼跑的多快好省。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们自己现在再去搭建你们的产品的时候，或者给客户服务的时候，你们是web coding占的比重是多少？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>95%以上，入门程序员那些工作基本上就是全用agent来代替。但是反而是那种需要依赖这种做过英法的判断力，底层架构判断力，这些是需要人类去花很多时间。给你举几个例子，就比如架构的设计，在API的设计，然后包括像部件的一些耦合能力。如何去偶合这么一些架构能力，我觉得反而是现在人类工程师还不可或缺的一部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们用agent去写代码，去治理其他的agent，这本身是不是感觉也是有风险的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定肯定这是肯定是有风险的，所以这一块的话必须是需要有好的医保，就是你如何判断它是否在有效期。还有一点我觉得就是我们天天在用我们自己的平台，用agent来干活，然后跑在我们的agent的执行环境，天天使用自己的产品来做自我迭代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以在你看来，如果未来出现安全的问题，它大概率是模型的问题，还是是harness的问题，还是是就更可能出现在哪里？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK首先我觉得大模型它肯定是会不停的在安全性上加一些训练上。比如像最近发布最新的那些模型。如果一旦你聊一些比如说他觉得比较敏感的信息，它会自动跳转到那些比较弱的模型上。但是其实归根结底，大模型就transform这架构。即使比如说我的这个第六代或者GPT7GPT扒出来，那它如果没有改transformer这套架构，它必然还是一个概率性执行的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>归根结底是一个next token prediction。它只是说我最有可能哪个token最适合来来来做这件事，对不对？实际上它是没办法区分你给他的信息到底是我去控制你控制你。就比如说你让这个去发一封邮件，还是说是数据，它是没办法从模型侧来看，它就是一堆技能，不token它没办法区分。即使你加一些，比如说我中增加一些特殊字符对不对？把它分隔开来，在他看来的话其实都有办法来绕过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得模型的安全性和它的这块是一个没有办法从模型测根治的一个问题。所以这也是我觉得英法为什么会有机会的一个原因。再说你通过在英法测给他加入一些确定性的东西，来确保他这套非确定的架构在企业可控的范围内去执行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近出了事故，就是open I的模型黑掉hugin face，是直接黑掉hugging face去拿那些reversal。实际上这就是反而是后面哈根face用开源模型来帮助他来找到真正问题在哪里。因为就相当于是open I它有做那安全限制，比如说那个哈根face，我这里出了这样一个安全事故，然后你帮我调查一下。然后我们还说这个不是我们模型要处理的事情，他会认为这个很敏感，直接撂挑子了。后面他们是用了开源模型，然后去来真正帮他们找到这个问题在哪里。即使这个开源模型并不是收塔解决这个最优的方案。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们正好在这里聊到开源闭源，就是因为最近其实也有很多开源闭源的竞争。因为感觉这个OpenAI s topic之外的所有人全部形成了复仇者联盟，然后就掀起了一个新的思潮。就是大家不要再去用闭源了，你用它又贵，然后你的数据还被还会被他用去二次训练，就是没有任何的安全和性价比。所以鼓励大家用开源，从微软到pantier到公有云，大家都在讲，你怎么看？就是这个开源闭源，你觉得之后大家的竞争会比如再过几年会怎么发展？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得开源的模肯定是会一直往上爬坡。然后能力最近kimi也是接近sota这样第一梯队的一个表现，包括最近deep sik的最新的这个fresh模型，也让大家看到了多快好省上有很多方面的进步。我觉得这也是一个相当于是此消彼长的一个过程。他在美国这边，他毕竟算力有个巨大的优势，他们其实有更多的去尝试不同的一些探索。然后还有最近的这个AFAI这波浪潮，其实蛮有趣的，其实我们也在服务这些公司，就如何通过agents AI来改善模型的训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果未来大家模型当队，就吻到了某种程度的sota然后在那个时候模型是不是会变成一个商品。那这个时候大家都卖不了，就非常高的利润，然后就变得像今天的电和水一样，变成一个不是那么性感的生意。所以这也是大家对于大模型公司今天高企的估值的一个特别大的担忧。我不知道您怎么看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得最终会到达这一步。但是比如说到底是一年还是五年，我觉得这个有一些early signal。就比如说飞博5跟我之前用的，我觉得对于开发者来说，对我们来说没有本质上的区别。我觉得这个爬坡已经开始放缓了，所以我这里就下一个暴论，我的暴论就是模型能力已经够了，要卷就卷英法我。想到你来了，但是基础设施和这honey整块都没有跟上，所以导致现在还没有落地，这也是为什么创建rta另外一个原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就现在你感觉到卷吗？就你所在的这个info赛道有多卷？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Info赛道的话front lab的话就做类似的话，可能每个friend lab可能至少有有几十个上百号人在在做类似的事儿。但是他们做的还是就像我说的，是为了他这套模型，就是提升模型的能力去去搭建这套英法底座。但是我觉得从执行底座这块，我反而觉得这是一个大家看到，但并没有说我这玩意儿真的执行底座那么重要吗？我觉得这也是一个相当于是大家没有一个完全共识的一个点。就是说我到底需不需要一A底座，我希望一年以后大家不要再说，agent执行需要一个执行底座还是不需要执行底座。就像一个我数据从哪里来，数据库里面对不对？我希望大家agent需要跑到哪里，agent需要跑到他的agent执行底座里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我希望未来大家会有这样一个认知，这也是我为什么出来做，包括参与这个节目，我希望让大家慢慢的认知到这里面，实际上是需要去做这样一件事，需要去做这个基建。然后这里面的话我是希望越卷越好，大家就是来做这个越多越好。因为我归根结底我是希望真正能把agent智能体落地这件事情做下来。如果说你又想要去做很底层的心法，你又想对客户有一些实际的价值，我觉得可能rta这边有蛮多很好的机会，大家可以来考虑一下。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欢迎大家加入他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但你们现在主要都是在旧金山吗？还是你们在其他地方也有办公室？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们在新加坡跟丘陵山这两地。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可不可以给刚参加工作的工程师们一些职业上的建议？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK我觉得就是刚刚加入的。首先你先token maxing，在刚入职场实际上大家没有包袱，反而这没有包袱就是刚入职场最大的一个财富。同时的话就是你要对这些之前做这有一些敬畏之心要有这种比如说架构能力，底层思考能力要锻炼起来，到时候过去把我的联系方式留下来。然后如果有这方面的这种同学，我特别乐意跟大家沟通来，包括一起来探讨未来方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在你自己的职业生涯里面做对了最关键的一些选择是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先要意识到浪潮来了。举个例子，就是我之前为什么加入car play，是因为我看到在边缘计算，那时候是刚刚开始那个data center，就是大家从那种main frame，主机房移到云上这波浪潮起来。这时候的话刚好有一个这种创业公司，我觉得特别有意思。就他们也在做这方面探索，而且他们技术特别不错的，我觉得这波浪潮值得跟。然后这也是我当初加入那个coffee云在空的话是我看到这微服务这波浪潮，不知道扣去你还没有印象，就之前微服务这波浪潮，原生这波。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>浪潮大概是在2020年前后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>差不多那时候我刚刚还在原原生之前还在个比如K8s，mises，dog swan这波混战的时候，我觉得这里面其实蛮有意思的。就大家开始思考我这个分布系统这复杂度到底怎么解决？我有没有好的办法去解决？有没有让大家比如说一个普通的工程师，我也能解决很难的这种分布系统的一些问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这时候我觉得反而是加入一家这种公司的话，能够源源生的这波浪潮起来。我觉得现在是一个比如说AI浪潮，包括智能体这波浪潮是一个特别好的机会。这也是为什么出来创业的一个原因。就是说我看到了这波浪潮是非做不可了，不做我就是会一辈子后悔。即使在之前公司待的特别舒服，然后各种比如条件，然后我相当于是在之前在空的话是那个创始工程师也是第一位。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Engine manager就是来立的我们核心团队的这样一个元老级别人物。大家说过来你应该退休了，就是你别给你做这个干啥？我说我真的想做这个事情，因为我觉得这就是一个明显这波wave真的来了，这里面的基建真的做的很差。我觉得没有看到真正的一个团队，真心的那种能力很强去做这件事。所以我觉得这是我会去思考职业发展，或者是一定要看到浪潮，有把握浪潮能力。浪潮来了一定要跟上，有勇于冲浪的能力，浪潮退去。我觉得就是有这种我就收班回家了，有这种勇气，我觉得还是蛮有必要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当时不管是cloud flair还是空，你都是founding teen的engineer。最早加入的一批人。然后事后其实证明当时其实也有很多的两个领域的竞争对手，但你都选择了后来在这两个领域冲出来的最厉害的公司。所以怎么在一个浪潮来的时候，乱战的时候选对公司这个有什么心得吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是投资其实包括我选团队，也是跟投资的这样一个与你们是在投capital，投财富、投钱对不对？我是投个人的青春，投自己的经历。我觉得其实关键还是在于人。你看这个团队到底靠不靠谱，是不是最有想法、最有干劲，然后最聪明的这波人，最敢闯、最敢想，这波工程师去做。其实我选也是选这个就是有好的一些方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果大家方向判断对，那就看执行了。执行看什么？就看这个团队的综合能力。我最看的就是这个团队有没有这种底层能力，就有没有往下吃一层的能力。为什么？这也是我招聘的原则。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>举个例子，就比如说现在做这个LM引发最牛的工程师哪些？就是能往下钻到科诺级别，能够钻到。比如这里面算子的优化，能够调度怎么把它做起来。然后包括做我们之前做空我我的这个招聘原则。因为我们做网关，我会是看你比如说对网络协议栈，对这系统这个层面有多深刻的了解，这也是我招聘的一个秘诀。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我我稍微分享一下，有没有这个能力往下钻一层的能力。因为其实大部分的90%的人就是说我这个东西刚好够用，我能做能用就行了。其实极少，只有10%或5%以下的人能够有对这充满好奇心。行，我去看一看下面到底怎么做的。然后我有没有从更底层的方法去优化上面这个到底怎么做的一些能力。实际上我是特别看重这方面能力，就自己牵手捣鼓一套系统能力，去研究最新技术的能力，然后有没有快速去把一套东西吃透的能力。我在之前就是加入这些公司里面，我觉得我在他们早期的创始人或者是这种身上看到这些能力我才去加入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得肯定有一个非常有共鸣的点，就是投人，尤其在一个这个行业刚起步的时候，就是大家没有谁能够想清楚未来1123456七八步对吧？甚至一二三步都想不清楚的时候，那你只能去看这个人是不是他最有领导力，然后他最有学习能力，他最有一定要去干成这个事情的热情以及韧性等等。对，但我另外一个好奇就是这也是替这个年轻的工程师们来问。就是很多时候你去了解一个公司，你的渠道是有限的。或许就是面试的时候的一些交流机会，而那个时候其实留给你问问题的时间也不多。所以当时你去cloud flair，你去控的时候，你是怎么去了解他们的呢？这里面有没有一些技巧或者经验可以分享？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>作为一个刚入职场或者是还没入场的年轻人的话，最多的是什么？是时间，你想是不是回望就是时间，时间最多，但时间又是最宝贵的。我的一个经历或者可以跟大家分享一些，就是你多花点时间好好去研究这个事儿。你可以比如说24小时去思考，比如说你是CEO的话，你会去怎么做，然后你把这个去做一些脑部实验，然后你再去聊的时候，你看他有哪些认知是你没有了。然后你的这脑部实验头脑风暴，我觉得其实是可以给你带来更更高一层的一些视角。所以说你真的多花点时间去思考这个公司到底要做什么。做的事情我去从我的角度去推测怎么做，从他的角度怎么推测。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我觉得归根结底的话一点就是说，如果说你能够做足够多的功课，包括像我在那个空的话，我实际上是跟这个创始人起码认识了差不多一年多的时间，他一直想要我来加入我是在这公司转型了以后，实际上最早空的话，他做的是有点像open alter这样的一个活。它相当于是把不同的API把它来excel来卖。但那时候没有这种大模型的API。他可能比如卖个地图API，卖一个这种什么查询的API。但那时候太早，这个东西浪潮还没来。我觉得这一波的话，其实我觉得现在还不是一个很好的时机。所以我其实花了特别多的时间去做思考，做调研，然后做充分的理解，跟这个创始人沟通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在他们转型成为空的就是那几个月，我才加入这个公司。他们其实之前不是做这一块的，所以我觉得年轻的话要多花时间去研究。真的比如说可以多听这个coach的4 cast，然后多去了解从一个投资人的思维，我到底是怎么去思考，我怎么投资的。我觉得证明很多共性，就是你怎么去投资一家公司和你怎么投资你的职业。这里面有很多很多我觉得值得学习的点，真正如果说这个东西特别值得投，那说不定就是你的你的各方面能力，你对这个的理解的认知和你的你的对他的fit的程度，我觉得其实是像达到一个比较好的平衡。那时候我觉得就是你会内心说，我不加入这公司，我这辈子都后悔。这就是时间，这就是浪潮来了，你必须要做，必须要从这波浪了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得投资的时候，你可以换一个问题。就是如果换做你是一个求职者，你要不要加入这个创始人？如果你都愿意加入他，那其实你真的就应该投他。因为你要去给他打工了，这个是一个就你比给他一笔钱，这是更重的一个commitment。所以如果这你都愿意，那就你真的应该投。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得这里面蛮多共性的，我自己也会天使投资。枸杞这边有个叫开天眼，对不对？不知道你们有没有这个比喻，就是开天眼的意思就是说你作为一个创业者，你经常去思考一下怎么去投资，实际上就相当于是从不同的角度去思考问题。我觉得就是比如说你从更高一个维度的思考问题和从更底层的维度思考问题，你要经常切换你自己的角色去思考这个问题。一旦你能把这些问题思考清楚的话，我觉得就是是一个特别大的优势。而这个优势的话是可能别人很难追上来的一些优势。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>蛮有意思的。那如果今天比如说我们做一个思想实验，给你一笔虚拟资金，比如说300万美金，就要求你此刻今天必须把它立即投出去，投给三个人，然后你脑海中有这样的人吗？你要投给谁？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我具体的人我名字我就不说了，因为他们还在可能还在封顶的过程。就是我可以我可以举一个头部视频模型的这种早期的创始成员。这其实我是我是literally我就最近也是在帮他们去找投资，我甚至可以个人会去参与一些，他们的话我觉得首先视频模型这一块是一个g coding模型。第二个赚钱的赛道就被证明赚钱的赛道，而创业公司能把这个做好了。目前没有看到几家就真正从模型侧把这个做好了。所以我觉得这块机会是特别难得的。但这一块的话扣取你感兴趣我也可以推荐你聊一聊这里面的创始人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对另外一块的话，我觉得AFAI这个创业公司是有机会的。就是在于说AI或AI你怎么样去通过AI来训练好的模型，包括去在auto research的基础上发挥这种长长的方式去去让你在A级能能做更多活。这个的话我也个人有私心，我想通过跟这样的公司来合作，来把我这个底座做的更好。同时也是会让打造下一代这种开大模型的一些范式。包括这种我也知道前模型也公司front lab也在做类似的事儿，所以我对这方面也是比较关注的那我们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最后聊两三个比较轻松的话题，一个就是对你更喜欢cloud code还是code dex.</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在code dex我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么原因呢？你是肯定是迁移过来的对吧？大家都是有搬家的过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，cotex的话就是人狠话不多，就给他就吭哧吭哧干活。然后像我我我记得那个龙虾作者，他其实有有做过类似的分享。他我觉得蛮有意思的给大家分享。他觉得那code更像是一个德国人，他就吭哧吭哧干活，给你干的这个质量也很高。然后那个卡扣的话更像一个美国人，他就很chat跟你说一堆废话，就是你有没有考虑这个东西，你这个东西有没有想透他其实这个就是不同的性格。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我为什么用codex？首先这模型的这个能力，我并没有看到代际上的差别。我觉得codex的话它而且经常会给一些reset，经常会有一些好的一些对开发者友好。包括他的honey是开源了，对这种开发者来说，打了这场翻身仗，就是从从把我们从这个code转移到code x上，我觉得这波还是说能站住脚了。在这coding上我觉得还是值得跑值得用的一个一套money。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但however我们在我们exception上面跑的时候，我们发现有各种各样的问题。我们我们其实有计划去给上游提供一些这种修复。因为它是开源，所以像那个卡扣它是被迫开源，我们没有办法去贡献，对不对？我们其实还是想通过我们在执行底做了优化上面harness，其实这也是我们一个考虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们内部是统一用code x吗？现在还有任何人在用cloud code或者用cursor或者别的产品吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我个人用codex比较多，然后比如用codex还有clock，还有像我们在fireworks，用国产的一些比较前沿的模型，其实都有用。我们现在内部的一个共识在说，我把motor route交给工程师本身，工程师他们最有体感，他们知道什么时候该用什么样一些模型。我们还会用clock，就是做一些，比如说前端这些一些不需要资深工程师参与的那种。比如说出错了以后，恢复半径也比较小的那些工作，我们会交给没那么收藏的模型。但这些的话我全部让工程师去决定，就他们爱用什么模型用什么模型。我们用的模型五花八门，但是我希望最终工程师给到结果，是工程师能够负责任的一个结果就行了。我不管你用什么模型，但是我是希望大家就是通过这样来培养体感，来培养对目前模型状态的一个认知，能够理解。我也特别欢迎大家用各种模型，用各种奇思妙想把这个模型多快好省。因为我们我们想要支持我们的客户做这个事儿，所以我想我们的工程师也有这方面能力，对模型也有体感，然后这样才能够改我们这下面的执行层。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那除了这个code x其他你用的最多的AI产品还有哪些？</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我个人用hermes跟那个派，然后我们团队对这种龙虾类的就不屑一顾，他们觉得这里面写的特别烂，然后也有他们自己去手出一套这种honey出来，然后看其实效果还不错。其实所以我就觉得这harness可能护城河并没有那么高，可能其实每个企业到时候可能归根结底还会自己搭一套出来。我个人还会用一些比如说eleven labs去有些音视频去做一些这种，帮我去比如说配个音什么之类的。然后我还会去尝试用比如说申屠的一些模型，像一些比如说open art之类的这种产品，包括我个人也是会强迫自己去使用，包括早期那些各种AA agent各种产品。因为我想要对这些目前智能体的一些目前的程度，到底智能化到哪一步，我还会去用一些比如说录音笔一些硬件。然后包括像那个比如说智能客服帮你去打电话，包括像我一个朋友正在创业做那个帮你自动去，比如说你的扣多钱了，对不对？它它这个自动语音客服帮你去把这钱要回来这样一些age。我实际上用的还蛮激进的，我属于是我们公司用A醇最激进的一个人了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我感觉这个灌篮你整个状态非常的有活力，感觉也非常开心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>创业确实特别作为一个CEO来创业，我觉得每天确实都是过山车。你每天可能比如说有五个好消息，捂个坏消息。但是我觉得焦虑的原因在于说大家往往会被那几个坏消息所说所焦虑。然后其实我也会经常会有些这种困惑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但overall的话，从更大的一个角度来说，我觉得首先我们是否在解决一个特别让人兴奋的问题？我觉得我是在解决一个特别让人兴奋的问题。然后我们是否是最适合做这个团队？我觉得目前的这个团队配置，包括我们现在要招的人我觉得也是朝这个方向去演进的。包括我们这个投资人，包括我们背后的支持的这个网络，我觉得也是最适合和这里面其实在于说，大家真的是觉得我们是在做一个特别meaningful一件事儿，这件事儿真的是会很深远的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>改变AI的格局，改变智能体格局。所以这些事让我很兴奋，让我觉得即使坏消息也无所谓，也就是点坏消息。对于未来比如说十亿几十亿个agent落地来说，这点事算点算啥，对不对？以这种好奇心驱动去探索问题，我觉得这可以给我带来还蛮多兴奋感的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>真好，这个状态非常的让人羡慕。对，好好，我们今天谢谢灌篮，也希望你的这个快乐或者创业的这种激情可以感染到听这期节目的朋友们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，也感谢coach给这样一个机会。然后我也想稍微再插播一下，如果各位听众朋友对参与未来这个agent的基建这感兴趣的，欢迎找我来聊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们会把联系方式放在这个博客的介绍里面，欢迎大家联系观澜，联系王涛。好，我们今天先到这里，谢谢。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，感谢柯姐，拜拜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，拜拜。</p>]]></content:encoded>
+            <pubDate>Sun, 09 Aug 2026 16:00:00 GMT</pubDate>
+            <guid>6a773808c4079d62c57f5802</guid>
+        </item>
         <item>
             <title>「热爱一个行业15年的理由是什么？」｜对谈汪天凡：我要投真正的快乐、投最纯的愿景、投人性的光辉【公路播客】</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a6eb9e71b5e24969ce77ab5</link>
@@ -8370,316 +8604,6 @@ AI 不是答案，它只是一把更锋利的刀。
 <p class="transcript-line"><span class="time"><strong>[01:18:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感谢寇姐，拜拜，期待下次再来。</p>]]></content:encoded>
             <pubDate>Sun, 18 Jan 2026 16:00:00 GMT</pubDate>
             <guid>696b6b3a109824f9e1fe90e2</guid>
-        </item>
-        <item>
-            <title>2026，AI视频「大年」将至｜对谈OiiOii创始人闹闹：亲历微信与字节后，如何抓住下一波机会？</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/695d9741c1e012a7abb9ebc2</link>
-            <description>🚥 我认为 2026 会是 AI + 视频的「大年」，很多新的独角兽都将诞生在这里。
-所以，「十字路口」播客在 2026 年邀请的第一位 AI 创业者嘉宾，就是「OiiOii」的创始人闹闹。她所在的领域是 AI 视频，并且她的产品一经内测就获得了大量的关注和好评。
-闹闹的履历非常独特且「性感」——**她是中国少数同时在微信和字节跳动核心业务线战斗过的产品人。**她做过QQ邮箱、负责过剪映和抖音特效、也曾是B站动画业务的负责人。她既有来自微信的、对人性与产品价值观的深刻洞察，又有来自字节的、用数据驱动增长的体系化方法论。更重要的是，她是一位心怀动画梦想十几年的创作者。
-2024 年，她终于开始做一件从大学起就想做的事——用 AI 让普通人也能做动画。
-这期节目里，我们聊了很多：
-关于产品：OiiOii 两个月内重构了四次架构，从「首尾帧」到全面拥抱 Sora 2，这中间经历了什么？为什么她认为 Agent 不会被大模型吞噬，反而会共同繁荣？
-关于方法论：她用「超市与餐馆」的比喻解释了 Agent 公司和模型公司的关系；用「左脑与右脑」总结了在微信和字节做产品的核心差异；也分享了做好产品经理的三个关键能力。
-关于创业：为什么她说动画是商业世界里「少数会奖励纯粹与热爱」的行业？为什么她认为「冲突是做事的力量」？
-关于产品经理：成为一名优秀的产品经理，有哪几件最重要的事？
-如果你是 AI 创业者、产品经理，或者对视频生成领域感兴趣的投资人，这期节目会给你带来不少启发。
-🎬 我们的视频播客来啦！已同步上线于 @Koji杨远骋 的视频号、小红书、哔哩哔哩、Youtube 等平台。
-📒 文字版发布于 @十字路口Crossing 公众号。
-🟢 01:23 快问快答：
-年龄、毕业院校、MBTI 和星座、一句话介绍现在的公司和产品、融资情况、收入和利润、团队规模、创业前经历
-🟢 06:40 AI 视频的 Agent 时刻：为什么是现在？
-当 Sora 2.0 展现出惊人的分镜能力，创业公司是被“端到端”吃掉，还是迎来了最好的时代？
-* 为什么做动画的最佳形态是 Agent 而不是传统的 GUI 工具？
-* 视频生成的两大流派：追求极致稳定性的“首尾帧”流派，与追求镜头语言的“参考图+文生”流派。
-* 只有 Agent 架构才能把不同的模型像乐高一样拼起来。
-* 我们最初也没想到，甚至会有家长每天用 OiiOii 给孩子做一个圣诞歌曲 MV，或者给自己的宠物做动画。
-🟢 12:44 为什么我们不怕 Sora？
-大模型是超市，Agent 是川菜馆
-* 当模型厂商越来越强，应用层的护城河到底在哪里？
-* 即使 Sora 到了 4.0/5.0，Agent 产品也不会消亡，反而会更加繁荣。
-* 超市与餐馆理论：大模型就像大型超市（提供原材料），而 Agent 是川菜馆、粤菜馆（提供特定风味的成品）。你可以去超市买菜自己做，但餐馆永远有存在的价值。
-* 我们的工作有 60%-70% 像是在后厨“调味”：如何让那些生硬的模型素材，变成符合特定人群口味（如 MV、科普、漫剧）的佳肴。
-🟢 18:52 不只做“视频版的 Cursor”：增量市场在哪里？
-* 漫剧、UGC 社区、自媒体……我们在内测中发现，谁才是这波技术红利真正的买单者？
-* 关于剪映的思考：AI 视频 Agent 不会取代剪映，而是带来增量。它会吃掉复杂的“特效制作”环节，但轻量的“剪辑/截断/排序”依然需要传统轨道工具。
-* 为什么不直接做 UGC 社区？
-* 一个反直觉的发现：最需要 AI 动画工具的，可能不是为了给大众看，而是为了维系社交关系（给孩子、给老师、给伴侣）。
-🟢 35:28 微信的右脑，字节的左脑：产品经理的两种修行
-闹闹是少有的在微信和抖音两个中国最顶级的产品体系里都工作过的核心 PM，她看到了什么异同？
-* 腾讯微信（右脑）：它是感性的、直觉的。张小龙教我们要每天看 1000 条用户反馈，去训练那种“一眼识别真伪需求”的产品直觉。
-* 字节跳动（左脑）：它是理性的、数据的。在这里我学会了什么是“策略产品”——数据不只是冰冷的数字，它是用户行为的概率，能告诉你如何造风。
-* 相同点：它们都把自己基因里的优势发挥到了极致。微信把“人性”做到了极致，字节把“推荐引擎”做到了极致。
-* 做一个好的产品经理最重要的三点是什么？
-🟢 50:42 冲突是做事的力量
-* 为什么要在团队里“允许冲突，甚至制造冲突”？
-* 良性的冲突是筛选“做事的人”最好的方式。大家都“以事为先”时，冲突过后反而会变成背靠背的战友。
-* 曾经开掉过自己最好的朋友，被骂得狗血淋头，但一年后对方发微信说：“我终于理解你了”。
-* 曾经是一个搞摇滚的叛逆少女，现在变得非常 Peaceful：因为发现向外呐喊不是自由，真正的自由是内心的广阔。
-🟢 57:53 预言 2026
-* 对未来的反共识判断：技术的“更强互动性/更高编辑自由度”，可能会让产品变小众，因为大众习惯了“被动消费”。
-* 视频模型短期内无法“大一统”：因为每家模型的数据标注标准不同，这就给 Agent 留出了巨大的“组合式创新”空间。
-* 我不想表达什么，我希望 OiiOii 跟我一样，是一个容器。让那些被“动画之神”选中的人，通过这个容器把他们的故事讲出来。
-🟢 01:03:33 用 10 个「我是 xxx」来造句
-* 我是一个……（内容保密，请听播客）
-欢迎订阅「十字路口」：
-🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
-🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
-👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner（投资合伙人）。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站
-👧🏻 主播 Ronghui：我联合创办了十字路口，在美元 VC 工作过，也做过五年的硅谷驻站记者，关注科技发展和商业故事，欢迎大家找我聊天，和我交流。Ronghui 的即刻</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为它太难用了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>自己和微信是一个右脑一个左脑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>把自己的优势发挥到极致，既有信念又有能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做一个好的产品经理，最重要的事情有哪些？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>50%的自信和50%的自信一定要对技术敏感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>冲突是做事的力量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>老龄汝先不做了，全部切到3处。他非常的悲伤，他非常的欢乐，非常的治愈，真的非常幸运。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK好好OK。Hello大家好，我是科技，本周十字路口的嘉宾是闹闹。Hello闹闹hello，和大家打个招呼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello hello，我是闹闹。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>闹闹是视频agent OEOE的创始人和CEO。最近我在即刻上看到有一个网友说，他说最近半年都没有发现什么让我感觉非常surprise的这个新产品了，直到遇到了OEOE。我自己也试着用OEOE来给我的女儿做了这个圣诞歌曲的MV，然后坐下来他们很喜欢，一直在循环播放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，现在确实会有一些家长会给孩子每天都会做一个小的视频，每天做一个对，每天做一个小视频，然后还有那种老师给孩子们做一些科普的小视频，也是用动画，跟我们设想中的创作者还挺不一样的是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK好的，你好闹，欢迎来到十字路口。Hello，然后我们有一个节目的传统，就是还是先从快问快答开始。好的，请问你的年龄？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是说不会的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们上一个嘉宾说的是我还在一个能打的年龄，但是没关系，我们要的也是这个效果。对，然后毕业院校中山大学OK然后你的MBTI和星座。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>MBTI是INTJ星座的狮子座。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用一句话介绍一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在在做的事情就是用AI来做动画。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后目前公司的融资情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在做free Allen的融资马上快结束了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK方便介绍一下目前的收入和利润情况吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我们刚成立大概四个月左右，然后其实没有收入。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有利润，也刚发布一个月对吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚发布一个月。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，现在还需要验证码吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还需要那个要还需要宴邀请码。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前的团队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>规模全职18到19个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>创业之前做过些什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一直在做产品经理，然后在做创业和在做跟视频创作相关的事情，一直是在视频创作领域，包括自己去做工作室，包括要做创作工具。无论如何，反正都是在视频内容创作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个领域里头。你之前在哪些地方做过产品经理？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最开始是去的腾讯，然后腾讯的话我们当时是在微信事业群，我在做QQ邮箱的移动端14年就开始创业了，做一个极限运动的内容社区。我们就自己去拍一些全国各地的极限运动的达人。这时候积累了很多关于内容制作的这种经验，然后做了大概有六年时间。后来是因为在内容制作这块积累了比较多的经验，且有产品的经验，然后就去了自己做整个剪映的负责人，还有当时那个抖音，tiktok特效这块的业务。然后又是因为非常喜欢动画，所以在B站也做了B站的动画的负。大概是这样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个历程，我非常丰富的经历。OK, 如果不创业的话，你会认为此刻今天自己在做什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我估计可能会在一个没有太有人的地方隐居。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>隐居那每天做什么呢？隐居的内容是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我想想可能就是养一些小动物，然后没有了，就是生活着就行了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是闲得住的人吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是现在是很闲得住的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以前不是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是显著的这个状态，我觉得是给自己非常充电的状态，就是享受此时此刻的那种状态。以前的闲不住是因为你总是觉得闲，可能应该做点什么事儿。它反而是一种非常外拓的一种状态，两种状态不太一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个状态叫外拓。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就比如说有点像安静不下来，那你安静不下来其实是你的心在想着我一定要做点什么好像才值得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，必须要构建一些意义，安静的待着好像构建不了什。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但实际上是没有享受过安静的那个意义。如果说知道了安静的意义，他会因为安静在释放掉安静的力量，我觉得可能会更圆满一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好深刻OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才其实我们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>提到的经历，我其实觉得还蛮有意思的。我觉得其实你真的身上的故事非常的多能聊的事儿也特别多。然后我知道闹闹其是之前你有一段在做产品经理的中间的一个自己的gap的半年，然后那半年你应该是去学动画了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，从腾讯出来，然后当时我就很喜欢做内容，但是还是很喜欢动画。我就说要不就去学学动画，看看自己能不能从事这个行业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以那个时候去哪里学呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是报那种班，就是有很多这个培训班。比如说我们先学角色设计对吧？然后我们就报这个插画班去学角色设计，所以就学了大概几个月。后来又学了像玛雅这种做3D的化的这个软件，然后那个时候我就觉得非常的困难，因为它太难用了。因为自己做过产品经理，所以对于非常难用的产品，它天然的会有一种抵触。然后我就觉得可能自己不太适合这一行。再加上其实整个动画行业，它的整个薪资，或者是真的就是在为爱发电很多时候，我当时也是没有勇气，然后就觉得还是进不了这个行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以那之后开始上一段创业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，是的。其实那一段时间我也碰到过很多在动画这里头让我非常钦佩的人，一些非常普通的动画的创作者。然后我记得当时去了一个一家特效公司，然后他是做建模的。然后去那家公司参观的时候，整个公司非常的昏暗，也没有空调。我们去跟那个人聊，他说是一个建模的总监，只是工作了五年。工作了五年以后他的工资是1万。但是我们在他的眼睛里就看到了非常强的那种光。虽然感觉这个生活很苦，但是他还是非常在有光的在介绍他自己的工作，我就非常的佩服。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们待会儿会在后面展开聊一聊做产品经理的故事和一些心得。那们今天还是想更多的把时间精力放在聊OEO.</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你大概是什么时候开始有了这个起心动念。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>想要做OEOE。首先做动画这件事情是我从大学就开始想做，但没机会做。然后做OEO我印象当中是在字节工作的时候，当时是22年图像生成的dell e2，然后出来我就觉得这个很好。我第一时间就想到的是动画，我说这个可以做动画。对，所以其实那个时候我就想做动画这件事情，但怎么切我还不知道。所以后来无论是去B站了解整个动画的行业也好，还是是之前我们做过离谱，都是在这个里头在试探他到底怎么去。第一是要了解这个行业，第二是试探怎么切进去。最后自己创业的时候才找到这个切入口来切到这个行业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是在什么时间点看到了一个切入口就可以做OEOE了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得可能一是被动的，二是主动的。这个被动是指在那个时间点的时候，我们可能在前一个环境下他很难再做下去了。然后我们必须得出来自己做。然后主动的点是我们在做的时候会发现多模的模型它开始卷起来了。就跟以前这个语言模型开始卷起来的那个势头是有点类似的。它也是个好时机，就是大概今年上半年开始。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得做OUV的过程中，你有受到过哪些AI产品的启发吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，有的，我觉得启发是这样，就是因为今年上半年开始agent它就开始出来火了。我们出来之后再想以什么样的方式去切入到做动画的时候，发现agent是一个非常完美的形态。因为它首先是可以调用各种模型，然后第二是动画的整个制作，其实它就是一个流式的这种制作。所以它的流水线调用各种职业去配合完成一件产品，是非常适合用A的方式来做的对。然后第三个是A整的方式，它又跟传统的GUI不太一样，它是一个创作者自由度非常高的这种形态。然后传统的GUI来做创作工具的话，都是会把功能做无限的叠加的过程，但A针的不会。所以综合来看，反而它是最匹配的时候，我们就用了A证这种形态来做OU的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们有没有什么样的模型能力的解锁，也对OEOE的这种帮助比较大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们是从七月份规划，然后八月份开始做。我们第一个版本其实跟现在的很多agent的路线是一样的。因为其实如果对于AI视频这个赛道比较感兴趣的话，它可能会分成两种生模式或者两个帮派。一个叫多参，就是多种图片做参考图的这种多参中，这是一个中文。然后第二种就是叫首尾针，所以其实我们国内的很多视频模型，它其实是这种首尾针特别期待长的那我们和其他的agent有点类似，就是之前收尾真这块的稳定性会更好一点，就是在某一个镜头里头的稳定性会更好一点。所以我们也采用了首尾帧的方式来做各种模型的调用。就比如说我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一共八个镜头，我可能就要做九张图，然后就这样首尾一直衔接下去。对对对，九张图出来之后，在首尾帧生成一段小视频就拼起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，是的。然后我们当时有一个创新点，是因为你的每一个分镜，它其实是要表达的内容是不一样的，代表着它运用到的这个模型它其实是不一样的我举个例子，你这个镜头是要表现武打，那武打最好的模型是什么？然后如果你这个镜头表达的是这个人物的情绪，那你表达人物情绪的最好的模型是什么？我们会有一个task agent，它会知道每个模型的优缺点，然后自动帮你配到那个镜头。这个是我们当时的创新点，这个在我们做了一个月以后，其实当时的效果就已经比较好了。只不过我们后面要加TTS和背景音乐，加上音效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个正在加的时候，sora吐出来了。然后sora出来之后，我看到了那个推特上用sora去做动画。而我很吃惊，就是他完全看不出来任何AI的痕迹，就是你觉得它就是一个完整的动画。然后我说这个太好了，我们当时就说要不先接骚扰，然后我们看看效果怎么样。结果接完之后特别好，就是我们第一个视频出来，是我们研发做的一个视频。我当时都特别兴奋，他做了一个是一个小螃蟹和一个小星星在那儿打篮球，然后非常完整的一个片子。当时我的第一印象是不会这事儿真的让我们做成了。对，就是非常兴奋。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以那个时候那个螃蟹和海星打篮球，它是一句直出吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一句直出。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这中间也没有像原来那样还要去调舌尾针等等这些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>中间的过程，其实我们前面的那个守尾针也是自己出的，是一句之出的。对对对，了解了。只不过它的生存方式其实是完全不一样的，所以说它的表现力上非常好，在于切近，就是镜头之间的切是非常自然的，有点很多蒙太奇的这个手法在里头。但是它的不好是在于由于它是参考图加纹身，它的纹的那个比重会非常大，就是会导致它的一致性各个方面可能会没有那么的稳定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它有分镜切近的这个优势。对它同时因为它是文在家多图参考，因此他就非常依赖这个文本，以及它一致性没有那么理想。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，因为你看它是参考，对吧？所以它不是那一张图硬生生的来生，所以它的稳定性通过模型的理解在做。所以如果是首尾帧的话，它的稳定性好是因为他就是从那一针开始来推演的那。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以422出来之后，你们的产品做了哪些改变呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们本来是两条链路要同时跑的，然后我们做了一个决策，就是老链路先不做了，全部切到手上做。因为它虽然有一些问题，但是它的效果会非常棒。它在动画上应该是训练了很多电影。在你生成的时候，我们比如说要去做一些二创的时，你会发现那个电影的痕迹非常重。就是你能看出来它是哪一部电影的痕迹，甚至我觉得还是很厉害的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但也有一个说法就是比如说sora 2，他今天是这样的。但如果到了sora four sora 5会不会比如说OEOE这样的产品就会被端到端的未来的so给吃掉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不会，我反而是会觉得他对于A类的产品是非常友好的。我自己做agent的时候会有一个感觉，在此之前是没有这种感觉的。就是所有的视频的模型，首先它不大可能会大一头，就是它各有各的特色。因为它数据标注标准的不一样，数据的不一样，数据质量的不一样，它吐出来的东西就是会各有特点。各个模型它就犹如各种大型超市或者是那种大型的菜场一样，它是你的料。然后做agent的这一块，其实有点像你用的这些料，然后再做一个餐馆。比如说我们现在做的是一家川菜馆，那我川菜馆定位的这个人群就是喜欢川菜的，喜欢吃辣的这一些人群。那我就要挑这些食材到各个菜场去挑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>索拉二菜场。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，然后最适合这个人群的这些食量。但是这里头其实最主要的这个工作是你自己的厨师是不是足够牛。比如说里头要调这个味道火候，其实我们大量的大概百分之六十七十的工作在调这些很细微，这个是你在产品上是看不到的那在这个大模型和agent之间，它就犹如这个大型超市和这个餐厅一样。就是用户他可以去菜场或者是超市买菜，然后他也可以自己做对吧？他也可以去这个餐馆里体验一下，就是吃个现成的这也会导致其实市面上会有很多的饰品的A针的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为饰品A针它有点不太一样的。是视频的内容它是非常丰富和多彩的，每一种内容它的制作方法其实是不一样的。所以它可以有川菜馆，它也可以有粤菜馆，也可以有湘菜馆，也可以有火锅。所以它可以是一种繁荣。大家一起去把这个小吃街给做起来的这种东西，它存在一定的竞争，但是大家是一起繁荣的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感觉这个比喻特别形象，就把这个大模型比成商超，然后以OEOE为代表的A键的产品就比喻成一个的餐馆。我当然自己可以去超市买菜，回来自己手搓一顿饭，我其实也可以直接下馆子。那可不可以讲一讲你们在做的这个事情里面有哪些是比如说sora 2，它其实已经是n to n的对吧？我也可以一句话也能直出一个带分镜的一个动漫出来。那OEOE做的事情又有哪些不一样呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就拿MV来举例，就是你用相同的prompt和相同的图，味道sr 2里头它也达不到我们的这个水平。是因为我们会把你要输出的一句话，比如说让他们几个跳一个tip top来做一个MV然后我们会进行扩写。其实是我们在市面上找了很多二次元的MV做的比较好的这种视频，然后用自己的方法去让模型去学习它。然后学习完了以后变成知识库。然后用户在写这个prompt的时候，我们其实调到这个知识库模型，在用他的方式突出来的prompt，然后去搭配它的镜头语言，去搭配它的音效生成，然给他意见就出了。所以这里头有大量的工作是这个知识库应该如何建立的过程，这是一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后其次再举一个例子，就是你比如说我们的很多这个剧情对吧？你剧情我们现在的分镜之间其实还是会有一些断点感的。大家都说连贯性不好，但实际上这是我们的一种选择。因为如果你把每个分镜做的特别的连贯，它的整个剧情会非常的平，它没有那种突然的转折，它的这个起伏感就会很弱，所以你要在这中间不停的调调到一个合适的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就是你说的你开的川菜馆。如果我是这个厨师的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我在我在用料。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，还有类似的例子吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有啊，我们最近就有一个用料过度的例子，就是之前我们的用户反馈说我们的这个场景一致性是不太好的。因为422它是一个纹非常重的一个模型。然后我们在给sa喂东西的时候，其实是没有喂场景图在里头，只是在这个里有场景的描述。那它就会导致分镜和分镜之间的出来的场景也许是不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们的用户其实他是反馈出来的这个问题。我们为了让场景一致，就是要给他为场景图，所以给他喂了场景图，你会发现就是他有点过了，就是太一致了。太一致会导致整个画面非常的死板。就是现在的模型它纹身的这种比较好的视频，它需要有更好的想象力。如果你为了那张图的话，它的这个想象力就会受限制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会导致一个什么样的结果呢？场景其实和人物他不能抢了，人物它的贴合感是人家要在场景里的。但是你给了这张场景图，它是场景非常一致了。但是它那个贴合感就很像贴片，你就感觉哪里好像不太对劲，它这个场景会非常的重。这就是导致有点像比喻一下，就是你的用户说你这是川菜馆，你不辣，然后我们就使劲放辣子，然后就说这个又太辣了。对对对，大概是这种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但你会觉得比如说未来如果22把它的这个一致性的问题解决得更好，或者说比如说索拉二他也开始有了一些做重要的垂直的这种视频领域的一些知识。比如说做MV或者二次元MV这些还是比较大的品类，它未来模型智能再上来之后，它也能实现了。那如果到那个时候，你会担心就是终有一天还是的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我还是拿那个超市来举例子，这就好像很多，你比如说它可能原来就是个纯超市，然后现在有这个物美也好，还是这个盒马也好，对吧？它里头会有一些熟食，它就是用超市这个量要开始做了一些熟食。但熟食和餐馆它还是不一样的，就是它还是有自己专注的人群和在那个方向上非常专业性的东西在里头，这个我觉得它是无法穷尽的那。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说OEOE这家川菜馆，你们目前的目标用户是谁啊？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们自己定义的目标用户和我们现在的会有一定的准确度。但也有意外，我们之前做过离谱是完全用的C的对吧？然后现在我们在出来之后会想这个切入口到底在哪的时候，当时就会有一些慢剧的出现了。我们本来是想切慢剧这个赛道，但是你看漫剧的赛道它其实还没有ready好。第一是就是慢剧它是比较考验剧本的，这个在模型和我们这个团队里头其实是并不是非常有优势的。然后第二时漫剧它还是一个非常头流的生意。第三点是漫剧它其实是在一个成熟的工作流里头的效率优化，就是它还是非常依赖于人的，但我们其实是不想做非常依赖于人力的事情，所以这三点都会导致它并不适合我们现在的团队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我们再往回推，当初为什么不做跟离谱相似的UGC的东西？如果慢就是PG再往上一点的这个人群，然后离谱是非常UGC的人群。那为什么不做ugc我觉得ugc它还是没到时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Ugc它做出来的内容的消费属性太短和信息量不足。但是我们现在的这个时代，它已经和之前是不一样的。就是现在大家消费的内容的信息量已经非常大了。所以这种消费的非常有限的信息，它不足以去支撑的了一个大型的APP给转起来，这是第一点。然后第二点是UVC你就要有很大的用户的体验。首先它的投入成本比较高，其次它的推理成本也比较高。所以这两点都决定了内容社区产品它很难去发展的非常大。这也是为什么不做ugc e也暂时不做慢慢这个赛道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我们在中间推看什么样的人适合我们我们想做的是那些自媒体人，就是他是一个人或者。很小的这个工作室，他做的内容适合用动画来呈现。这群人里头可能分成两类，一类是本身他就是在做动画的那本身在做动画的人里头有很多是以一个埃批为出发点，然后不停的在做这个埃批。我们的一个功能就是它可以做一个埃批角色，然后反复的做很多集。我们调研了以后会发现这个自媒体的人里头，大概两三个人一个小的工作室，一周更新一集，然后这是他现在的频率。因为我们的话基本上一天可以更新十集，如果他精挑细选的话，一天更新1到2集完全没问题。所以它的效率是非常大的一个提升，这是一个人群。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个人群是你看ACG里头它还有很多做MV类型的，所以我们也会有MV第三种类型它还是自媒体，但是它不是做动画的，很多讲历史讲科普的，但是它是非常适合用动画这种展示形态来做的直播。以前的动画成本非常高，这个人群是我们想切的，首先他有做动画的动力，他就愿意去尝试一个新的工具。然后第二点是这群人其实并不是一个少数，他在其他的自媒体平台上还是有很多的流量红利的，所以我们切的是这个人群。但在真正去做OEOA的时候，我们内测的时间大概是一个月。这部分其实用户是touch了的，就是已经OK了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些市民们一开始想目标人群，现在也是内测的时候反应还不错的人群。对的，但出现了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一些没想到的人群，这群人分成两类，一类是针要做一些视频给消费大众的人，你比如说漫剧的人他就找过来了。我们以为我们的东西其实是满足不了漫剧的。因为现在我没有针对慢剧去开发一些特殊的，比如说剧本上传这些能力。但是他们适用的反馈比较好的点是，他们其实不用那么强的最后成片的那个能力。他们只要那个分镜能够对得上，然后把所有分镜下载下来自己剪就够了。他们是觉得这个分镜的效率非常高。这是一群名人，这个是在我们的未来的打算，也不是现阶段的。但现在好像也可以满足一部分的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二类人是他完全没有做过视频的人，他不爱出镜，他很想把它的一些状态用动画的方式来展现出来。因为动画它是一个很容易去表达精神世界的一个载体，这种是C端用户，但他不是原来的自媒体人。然后第三种就是刚才说到的，他可能不是为了给大众看的，他是为了给自己的社交关系看的。比如说家长给孩子的老师，然后情侣之间，还有养宠之间给自己宠物做的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给自己宠物看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不不不不给自己宠物看，给自己宠物做自己看啊，然后或者给朋友分享的，还有成年人给爸爸妈妈做的，这些都是一些社交关系，也是我们现在初始没有想到，但是现在会有一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的那再往前做，刚才提到的这么多的用户，你会做一些减法吗？还是你想要这个服务所有人？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这样子的。我可能往后做的时候，我们会有点类似于当时抖音做垂类的这种思维。比如说想做科普类的时候，我们就去找这个科普类的up主。然后我们看所有科普类的用动画呈现的这个视频，它的整个结构这样子的把它变成知识库，然后再服务好他们。因为现在还是没有服务好他们的，只不过他们在用而已。就是一步一步他通过每一个垂类，我们一点一点的去啃下来。只不过现在他们是有苗头，然后我们可能给他排个序，然后一个一个一个去攻OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以其实还是想要把这些人都服务好。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是终极。其实就像今天。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一开始你提到玛雅会觉得超级复杂。而且今天也会有一些用户认为剪映很复杂，你会担心比如说OE，OE有一天也变得很复杂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这就是我觉得agent的是一个非常好的载体的原因，就是以前的所有的创作工具，它都会有这种从简单到臃肿，然后再被一个简单的替代的这个过程。我举个例子，你比如说在这个设计行业，原来PS然后sketch，然后FIGA，然后可能现在是其他的，那这就是一个用非常简单的GUI来替代掉原来更臃肿的这个过程。在剪辑里头也是这样，PR final cut, 然后剪映是这个过程。但是他们的核心是没有变的，核心就是功能在往上堆，然后逐渐的臃肿。目前我感觉agent的它可能会有功能往上叠的这一面，但它不会太臃肿，是因为它的很多东西藏在里头，它不是那种用GUI的方式来展示的。我觉得这个是agent的非常有魅力的点，就是它是用户和这个产品在共建的过程。如果用户他有这种探索能力，他会发现他们用这个工具能用到，我们都不知道有这些功能的情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用户用OE，OE都会用到，你们都不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，就是我们现在的很多不足，其实是用户他在想办法在解决，然后有很多方法。这就是为什么我觉得agent的产品特别有魅力的地方。就是它其实不是一个死的东西，它是可以用户去不断的探索它的边界，然后变得丰富的过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实agent的这种灵活，但它也有一个负面的一个作用，就是它没有那么控。对，像传统的这个剪映final cut是可控的，或者说workflow其实它也是可控的。但是用户肯定是既要又要又要可控，然后又要高效灵活。你们在做OEOE的过程中去怎么平衡这两点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是个非常好的问题。其实现在主流的，但它就是两类，一类是自由度非常高的语言模型为主的，然后一类是像班这种以workflow稳定性为主的。它既要有这个流水线的稳定性，它又要有你要对每一个流水现场的每个A智能要进行自由对话的这个过程。这对于我们的架构的设计会要求非常高。我们其实在短短两个月里头有四次架构的迭代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>两个月重构了四次架构。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一次就是用C的来做各种agent，然后来定义它，然后让他自己判断做workflow的这个过程。但是他非常的不可控，就是模型他不听话，他有时候你要让他交给谁谁他就不交，所以这个就自由度太高了。然后第二种就是严格的我flow，但是它没有修改了这个自由度了。然后第三种就是我们要做成在workflow的基础之上，让它有信号，它能知道这个时候它要出来了，从微low里跳出来，然后它要修改，修改完以后再有信号让它再进去，这是第三版。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第四版的话，其实就是在第三版的基础之上再去强化。在这个过程里，他可能要跳其他的过程，有一些自由度。但在这个第三和第四里头，其实我们现在也是调的过程。所以它是一个很容易出现问题的一种架构，我们还是要在不断的做它的稳定性。因为你看现在用户碰到的很多问题，就是他推不下去了，或者是怎么又不动了，就是他就可能跳出来了，然后忘记进去了，要不就是没跳出来，一直再往下自己走，这种问题就会经常出现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为之前在做剪映，然后现在做OEOE。你会认为OEOE这样的这个视频agent，它会取代掉或者蚕食掉原来检验的一些市场吗？还是它会带来的是这个增量市场？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得它会带来的是增量市场。我举个例子，比如说剪映，它其实就是分成两个部分的。一部分是非常工具性的，前面那一段的轨道，然后还有一部分是模板的整个生态。它的前一部分其实是具备有一定的替代属性，其他的可能剪辑工具之类的，它也是这样子的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家都有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，大家都是可以有的。但是后一部分，它后面嫁接的是整个抖音的生态。然后这一部分其实是只有剪映它独有的，所以它具备有一定的不可替代性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它不仅仅是工具，它是为了这个形态的内容而产生的一个工具OE。OE它其实有点类似于这个部分，比如说他要做一些MV对吧？做一些科普，其实他是有点像做垂直类的知识库的。所以他其实在交付的是我们想要他交付的那一类内容，他嫁接的是一个内容类型，你用其他的工具是很难件去产生这样子的一个内容的。所以在这块其实它具备有一定的独特性。所以它不完全是一个剪辑的过程。但是，这些内容它又可以用剪辑的方式去，比如说用到剪辑工具里头去进行合成，这个没有问题，所以我觉得它是一个增量市场。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是有可能用户在OEOE里面生成的这些内容，他之后还会再回到减龄期做后期的编辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个基本上都是这样子的。因为我们现在更重视的是前半段，因为剪辑工具它已经比较成熟了，他做好比较难。所以大量的精力如果花在剪辑工具上是感觉有点得不偿失。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实今天有很多人创业是想要做所谓的cursor或剪映或者cursor或视频编辑。你怎么看？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实在索尔出来之前，我们会看到很多的这个视频的生成。它都是在一个单分镜的情况下的镜头语言会比较好。但是它切近还是不够的当它切近不够的情况下，其实剪辑是发挥出来了很大的作用。你比如说剪辑各个片段之间。它要有过渡，这种特效也好，动画也好，然后这些能力它都是能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我在缩小出之前的感觉是这些东西是很难被替代的。然后也在想用AI的方式来做这些特效，这个特效不是指说PF的那种特效，就是一个东西变成什么？不是这种，它是指剪辑里头有一些特效。但是说二出来之后，我会发现我们现在就在尝试去做这些东西，它完全是可以被替代掉的。所以在原来的判断里头，这一层被拿掉了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那是不是完全替代剪辑？我觉得也不是。但是剪辑的重度会大大降低，反而会是一些轻量的剪辑能力，它不可取代。比如说前后要截断一些，或者是配上TTS，当然那个模型也可以了。但模型和模型之间你如果是一个agent，它调用的TTS肯定是不一样的。所以最好是在最后来合成它这个TTS。所以这时候一些基础的简单的剪辑反而不容易替代。但是有一些复杂的反而会直接用模型给替代掉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我确实没有想到是这样的一个。但这个细想起来好像。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也挺对对对，是因为他在学习这个视频的时候，其实有大量的剪辑的手段他已经含在里头了。所以他很可能把剪辑的很多重度的工作给解决了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你想表达的是，其实今天这个剪辑工具不太可能被完全的取代掉。因为比如说我就剪一个后面的，比如0.1秒我给它删掉，这个我完全没有必要。就用一句话告诉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，完全没有必要，反而你就脱一下不就完了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，以及如果我要排一些前后顺序，还有一些什么样的例子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说一些很简单的这种剪辑的功能，是没有必要用其他更复杂的方式来替代掉的。因为它足够简单，反而是一些重复杂的剪辑的能力。你比如说要加一些转场，然后要搞一些什么特效，反而它是容易被模型给替代掉的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以有可能大家还是同时会用剪映。只是之前可能我剪一个片子要用3个小时剪映，现在可能会变成用30分钟剪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，是的，是这个意思。对他就是效率上是两者叠加是最优解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后OEOE也有一个很有意思的设计，就是你们刚才提到多个agents，然后你们的agents每一个都有自己的名字。然后在这个工作的过程当中，我也注意到就会比如说这个剧本agents去召唤出角色设计A键词，就像邀请大家加入群聊一样。对对对，这个设计可不可以稍微展开讲一讲？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个设计是我最初就是想要有一个team在服务于导演这个角色。因为产品经理他和导演这个角色是非常接近的。然后就是要赋予每个agent的他有自己的角色的这种感受，每个角色他又有workflow。刚才提到的其实让他加入群聊就是一个work flow的过程。我只是觉得这样子，第一是很好玩好，第二是感觉它又可以做很多东西，所以我觉得它是合理的，所以我们就这样做了。但是这里头就会遇到也是有这个多A症之间交互上下文记忆力，它又是一个双层关系。我们看出来的就是这七个癌症，但实际上它底下可能会有其他的看不见的A症助理在干活。对对对，所以也是在架构上相对来说比较难一点的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在我UO做出来的这个视频效果其实还蛮好的。那除了刚才讲到的，就是各种你们做的一些优化之外，还有哪些原因是目前这个川菜馆做出来的菜很好吃的原因？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我再举个例子，就比如说我们在最开始的时候，其实是想怎么样普通的用户才能做出来一个有感觉的片子。这个感觉其实来自于这是我们一个产品给我的一个提醒。就是说它非常的悲伤，它非常的欢乐，非常的治愈。当他说了这些词的时候，其实是一个一个的情绪词。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我说作为普通人，他其实不会镜头远。比如说你要选择一个叫孤独的情绪，那怎么样才能把这个孤独的情绪用镜头语言、用构图、用很多画面元素来表现出来，是我们做了很多的工作。你比如说他的孤独有什么长长的走廊吧？然后他的色调就是灰白色的色调，这些我们都会做各种排列组合放进去。所以它综合来看，它虽然只是一个情绪，但它背后有大量的关于这个情绪围绕着的各种影视学的专业知识。然后你出来那个片子才有那个味道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就想起朱自清的背影，表达这个父亲的落寞以及对他的关心。就是那一个在铁轨旁边拎着一个塑料袋的橘子的这个父亲的一个形象。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，他其实是有一些理性的要素去表达感性的东西，这个是我们需要去做好的部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有时候也有一些艺术家的神来之笔，把其实朱自清描述这个场景就和别人不一样。但它又那么的细腻，然后又有冲击力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就靠冲突者了。对我觉得我们可以去学习很多。比如说我们在里头还可以响应各种电影的大导演，然后你输入的导演名，然后再加一个图片，它就可以出来那个导演味道的东西。其实它是可以学习的，但是不是有你的东西你可以加在里头。但我们现在的自由度确实还不太好，所以还是有一些高级的创作者是非常厉害的。就是做出来的东西，我说这是用我们做的吗？感觉我无法相信，但是确实是啊他们就会用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在毕竟才一个月，应该还有非常多的想法还没有做进去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK。好，我们来聊聊产品经理这个话题。我觉得闹闹是少有的又在微信体系，又在抖音体系，就这两个中国最厉害的产品的体系里面都工作过的人，而且都是非常重要的岗位。可不可以讲一讲，首先在这两个体系里面分别做产品经理的感受有什么相同不同？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，微信其实不是最重要的岗位。我其实当时是在做QQ邮箱，但是是非常早期，我觉得当时可以做成有点像是产品经理的很初级的那个阶段。他对我的最大的影响是他培养出来了我非常深刻的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>产品的价值观。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，就是让我看到了很厉害的我们叫龙神对吧？对对对对，然后他在很多很深入的对人性的思考上，然后思考的东西他能嫁接在自己的产品上，我觉得这是非常厉害的一个功力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>举一个例子，就是他对人性的思考如何嫁接到比如说QQ香这样的一个彼此感觉中性的，没有性格，没有什么人性色彩的产品上的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可是有郁香有点难举例。我突然想到就是我们当时每更新一个版本的时候，一定要做一个这个版本的语言。然后我记得当时做微信的时候，小龙说我所说的都是错的。然后搭配了一个magic的一个图。其实这是看起来是一个非常简单的东西，但实际上我们是知道它背后其实隐藏了很多自己原来的一些思考。但最终表达出来的一种广告语，你是能够感觉到它是一个非常有力量的语言。对，就是一个产品它的力量可能在某些很细微的地方，它能凸显出那种力量感。我觉得这就是让我非常感动的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得他这套有一些神来之笔。对，我记得有个版本是发小游戏，那个跳盒子还是什么跳箱子，跳箱子。对，这是完全想不到微信会搞一个跳箱子，但又如此的魔性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家都在用。对对对，其实当时有很多这种故事是了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚才我们在聊这个就是产品微信体系和抖音体系的相同不同。一个是你觉得在微信体系感觉到产品价值观。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当时是因为我们每天其实都要过用户的反馈，每天每天要我已经清了，应该是一天一百多条还是一千多条，我已经忘记了。然后会要去给用户进行反馈，就是非常注重用户反馈，这个是自始至终我觉得对我影响都非常大的。而且要在一些反馈里要识别哪些是真需求，哪些是假需求。因为大家有时候喊特别多的未必是真的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>张小龙在产品公开课的就是非常前面部分就有讲说如何识别一个需求是真需求还是假需求。他当时讲的就是说办法就是抛到用户的这个反馈里面去，就是看看用户到底在说什么，不要在这里自己会议室里面大家battle.</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是真需求还是假对的。对的，就是有时候我们把自己看的太重要的时候，就会很盲目。所以还是要看真正的那个产品。大家用户的里头，第一是要看他反馈什么，第二还是要看他真实的行为是什么。而且第三个点我觉得非常重要，就是用户体验它是一种训练出来的直觉。但是这个直觉也是因为长期的跟用户之间的反馈，有点像大模型一样，它不断的在强化而做出来一个直觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是在抖音的这个体系里头，它非常注重的是数据。我开始会有些不适应，因为数据非常好并不代表它的体验是最佳的。所以有时候你会发现把一个按钮变得很大，那它就好了。但它并不代表说这个是非常适合用户体验的。我刚开始还是有一点抵触这种纯粹以数据导向为主的这种产品体系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也是刚加入字节的时候就在做剪映的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一号位吗？没有，是在做特效，然后后来是剪映，后来在抖音也做过一阵子，在剪映的时候反而很好，因为它是一个更。产品体验感更强的一个组织特效的时候，就会慢慢体会到了数据的力量。我举个例子，你要做这个投稿率对吧？然后这个投稿率它其实有很多的策略来做，这时候我才懂了什么叫策略产品，就是很有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就什么叫策略产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你比如说我们要通过各种用户的行为来判断他使用这个功能的概率是最高的。你比如说他经常打开特效，或者他经常看特效类的视频，或者是他哪他有一次点下面那个转盘，或者是点过收藏，就是他的各种行为来测算一个概率，它是可能性会更高的。因为特效是非常跟风模仿的，你要把这个风先造起来，那你要造给谁？一定要先造给这个大概率会用到的这批人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当你懂了它的原理以后，你会发现原来的产品的这种sense和数据是可以完美结合在一起的。就是它是一个逻辑推演的过程，它不完全是数据，它是一个冰冷的东西，它其实是有很多用户的行为在反馈在里头，而且它可能会比用户的反馈的声音更真实。因为它是实际的动作，然后你要会解读这些数据，也会去利用这些数据，才能做好一些事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还挺有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，挺有意思，所以有点像是一个非常右脑和一个非常左脑的各个组织。但是实际上它对于AI这个产品，我觉得也很有帮助。是因为AI它其实所有的产品，它没有那么大的数据量来给你去做判断。所以你既要有之前对于产品感觉sense的这个判断力，这是微信这个层面所培养的。但是模型东西，刚才说到那些搭配之类的，它其实不是用户数据的一种策略，而是各个模型之间的各种策略。其实它的这种理性的思维也会在里头，就像动画它就是一个艺术和技术，就这两个东西它都会融合的比较好的一个形态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实很有趣的比喻，就是做产品好像在字节和在微信是一个右脑一个左脑，但最后都做出了中国最厉害的产品。那他们又有哪些相同呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得它的相同就是把自己的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>优势发挥到极致。对你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说字节，它其实是以非常注重数据科学的，然后它的推荐引擎和增长体系，这就是它的优势是非常极致的。在微信当然时间比较久远了，我还是觉得对用户的理解和认知是非常深刻的。它甚至深刻的它不是表面的那种需求，它是深刻的人性的。很多东西它浮上来，它应该是一个什么样的体验，所以他把这个优势发挥到了极致。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像当时谁也没有想到微信的slogan是微信是一种生活方式。对对对，这个很有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，甚至你比如说很多人说比如说在微信里如果工作过的话，体会到的是所有的决策。当然是那时候可能是小龙在做决策。然后其实我觉得他不是一个非常闭塞和固执的人，就是所有的决策是他在做。其实是因为很多人提的这个建议，他都在自己的想法中已经想过了，他是一种开放的状态去听。但是最后最终决策他是在所有的听的基础之上去做收敛，但往往他想的比别人要更深。然后在自己这边，其实你会看到的是他更相信一个科学的决策。他是相信组织或者是相信这套引擎的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>决策还是很不一样这些。但我觉得我你的答案是我觉得还蛮有意思的。就是大家都是意识到自己的优势在哪里，然后把这个优势放到最大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，我觉得有点像创业公司一样，就是没有一个模式说必定哪种创业定会成的。就是任何创始人他有自己的性格和个性，他可能知道自己的优势和长处，然后把自己这个方向发挥到极致，也许他就可以做一个比较有节奏感或者长期的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你认为OEOE这家创业公司的优势相较于这个大家来讲是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得首先第一点就是我是从一个第三者的角度来看我自己。这个人他很重要，他和这个初始的团队的基因也很重要。首先要对动画和技术这件事情是非常的了解和非常的相信。如果这个东西没有的话，他后面的都不存在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那为什么一定要这样？是因为我觉得商业领域里头有很多的事情，不一定是这个事情很纯粹，他就能取得商业的成功。但是在动画这个领域里头，我们看到的，你比如说迪士尼、皮克斯，包括像中国的这个土豆，那个王威追光，他也是经历了很多像饺子。其实饺子在没做这些之前，很久之前就看过他很早之前做的那个东西，都是经历了很多挫败。然后他坚持到了这个事情，他也取得了很好的商业成功。你会发现在动画这个领域里头，它是少数的。在商业世界会奖励到很纯粹，会奖励到热爱的这个行业，所以它比较适合我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以总结一下，就是你会认为你作为创业者身上有一个比较大的优势在于。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一是这件事情对我来说已经是很久很久的事情了，它不是一个一拍脑袋，然后说有AI我就去做什么，对吧？它是一个我一直在想做的一个东西，它突然在AI的时候有了机会能做的更好。然后第二个是刚好我现在的能力，就是经历过了很多公司，然后也自己创过业。然后某种程度上我觉得具备了一定的能力，准备好去做这件事情。然后团队的能力也是非常匹配的，就是既有信念又有能力，那就去干。我觉得很多时候其实你经历了很多公司，你也会发现好像专注在这一个赛道的长期的有能力的人其实是不多的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得做一个好的产品经理最重要的事情有哪些？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得第一个点是要具备有一定的移情的能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个移情和共情是一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我先讲一下疫情。好啊，对，疫情就是你能迅速的切换到自己，不是你自己，你能迅速。比如说我在这个行业可能相对来说有很多经验，对吧？你觉得自己很有经验，但你要瞬间切换到一个你完全是一个小白的状态，这个我觉得是一个移情的能力。那怎么培养这种能力？是因为你要常常的把自己不要当自己，要抽身出来去做一个观察者。你要观察你自己，然后也要观察身边的用户，这是第一个。然后第二个我觉得是50%的自信和50%的自信。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>50%的自信和50%的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>自对对对，如果只有自信而没有自信的话，自信是很容易变成一种自负的。就像阴和阳一样，让你在自信的时候很冷静的看到自己不足的那一点。但是这个不足又不足以导致他的自卑，而是说我要加强这个自信，所以是用自信来加强自信。我觉得这个会让你的自我感没有那么强。自我感很强的话就会导致有很多盲区。这个盲区对于产品经理，我觉得是非常致命的，是因为你就不具备了那种移情的能力了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个是移情，一个是50%的自信和50%的自信。对，还有吗？做好产品经理做好的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有就是对技术敏感。你可能不会写代码，我就不会写代码，但是你必须要有很好的对技术的理解，你才能知道说什么样的技术能实现什么样的东西，我觉得这个是一个基本功。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你刚才说到第一点，就是疫情的时候，我想到马化腾之前说把自己一秒变小白用户的这种超能力。对我觉得其实在AI时代，创业可能对于技术的敏感程度变得更加重要了。是的，并不是说过去不重要，而是今天可能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>变得更加重要了。是的，因为AI它本身就是一个技术革命。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你怎么保持自己对技术的敏感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我好像没有刻意保持。它就是敏感的，就跟直觉一样，它是一个慢慢叠加的一个过程。就是你在哪方面非常感兴趣，一直在关注，它的敏感度就会越来越高。你比如说我小时候就是对视觉听觉比较敏感，这是感性上的。然后其次我很喜欢物理，对于规则是非常敏感的那这些东西都会导致我对于多模的技术好是一个视听语言的技术，它是有规律的，就是我最擅长的那一部分，所以它就会敏感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你感觉现在很幸运，就是你小时候感兴趣的事情，然后在年轻的时候一度想做的事情，现在就可以做了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，这个是我这一次创业非常强烈的一个感觉，就是真的非常幸运。就是过去可能会走过看似是一些弯路，但实际上都不是弯路。每一步好像都在为这一次创业做准备的。这个感觉就好像。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是乔布斯的那个京剧，对吧？把过去的所有的点都连成了一条线。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，其实之前也没有刻意去这样安排，但是你会发现这一次就是天时来了。我自己的这个能力也好，还是爱好也好，还是敏感度也好，都匹配上了。要做这件事情就一切都刚刚好，真好，就很幸运。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那怎么想到要给这次创业叫OEOE这个名字的？这个名字也很特别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实之前的几轮都没有这个名字。然后后来是我们有一个技术，因为奥义这个是一个有点像二次元给人打招呼的那个，就是很亲切很可爱。然后他就说要加一个这个，然后我说那挺好的，我们是不是就叫叫奥义，奥义是因为他是两声，就是更可爱一点double。然后第二个是。很像两只小蜗牛，我们很希望自己是那种很踏实的，像蜗牛一样慢慢爬，但是很可爱这种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个挺有意思的。我一开始有理解到欧欧意这个就是名字念起来朗朗上口，有点二次元，打招呼很有热情，但我没想到他还有一个象形文字的这层含义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这也是为什么是一个O两个I就是更像蜗牛一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看你朋友圈曾经分享过一句话，那句话是这么说的，就将隐形的愿力显化到产品上，是密集掌握着，寥寥无几，要更精纯还远远不够。当时你写这句话的时候，是被什么故事，被什么产品或者被什么人触动到了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实当时是准备离开离谱，然后做新的东西。我们还没有想好新的东西，其实就是放弃离谱这件事情对我来说是有点难的。因为某种程度上它其实就是我想要做动画的那个起点。所以放弃它或者是抛弃它对我来说可能没有那么容易。但是这个场景下我会觉得在做离谱的时候，有很多东西是我不可掌控。然后他也夹杂了很多其他的有点像杂志一样的这种力量在里头。我是觉得好，我们这一次创业，我当时也没有找到很好的切入口，但我一定要做动画这件事情很确定的那可以在新的里头去尝试，是用只有我来主导的这个力量去做更精纯的这件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>希望这个愿力更多是来自更纯粹的自己。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，然后或者是我来选择的这个团队的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在同样的那一篇分享里面，你还写了另外一句话，就是要允许冲突，甚至要去制造冲突，因为冲突是做事的力量，是筛选做事的人的方式。可不可以分享一个就是在过去冲突它成为了力量的你经历过的这样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>故事其实很多。首先我是一个非常喜欢竞技体育的人，就是我喜欢打篮球。然后在这个里头你会发现你的对手往往会激发出你的很多潜力或者是能力小宇宙。对对对，然后很多时候我觉得一个良性的竞争是互相去欣赏，互相去激发的一个过程。在工作的里头其实很少遇到这样子的状态。因为往往你在起冲突的时候，可能就是一些攻击的这种状态了。但是在这个攻击的里头，我们是遇到过一些不打不相识的这种队友的。我举个例子，可能在比如说很多时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>欲言又止。对，你可以说的我给你逼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是比如说在字节的时候，然后我们其实在做特效这个模块上的时候，有很多个团队都想做这块的业务。然后后来是由我们做了，其实就会和其他的团队会产生一些冲突。但是由于大家一起打过一些仗，然后发现还不错，然后就是由这个对手转变成了队友。就是因为在那个环境下，大家都是以事为先，然后反而会激起了大家呼互相欣赏和互相佩服的这个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>包括我第一次创业的时候也是一样。就是我第一个开掉的人是我的好朋友，是因为他当时的很多这个状态已经跟不上这个团队了。然后我当时在跟他说的时候，就把我骂的狗血淋头。后来他出去之后就也在拉我们小伙伴去做同样的事情。但是在一年之后，他就加回我的微信说，我终于理解你了。然后因为他自己去做这件事情的时候，他的角色已经不一样了。然后他就体验到了我们当时的那种因为他不在我的这个角色上，所以他没有办法去体验我的角度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他体验了之后就会发现，原来确实是有一些。所以我在这个里头其实是得到了一些正向反馈。这个正向反馈是指说当时的冲突可能会造成一些误解或者是不好的这种印象，但他不是长期的，只要你的心态不是真的害人，终归时间会证明一切。有时候这种冲突反而会更加的能激发出来彼此之间的做事的态度。所以我就当时就写了这个大家都都叫你闹爷。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是因为什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先叫闹闹，然后又很像男孩子就叫闹爷了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为你今天给我的感觉是非常peaceful的，就是和闹闹这两个字好像没有什么关系。这是因为你过去是很闹吗？是最近才peaceful下来的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是，过去是很闹，然后过去是一个非常意的小孩儿，我觉得是在可能十多年前，也是上次创业经历了一些起伏。包括可能家里经历了一些事情，然后让我更peace了一些。然后这个peace我觉得是一个更大的力量。它不是说就是闹是一种力量，因为也是接触到了一些尝到了这个peace的甜头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说什么样的甜头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看我原来做过极限动对吧？对，然后其实我初中的时候还组过乐队，还是搞摇滚的。内心里其实是一个非常叛逆和有那种力量的反恐对的人。但是这种力量你会发现他是外放的，他是在呐喊的，他是在叛逆和反抗的。某种程度上，他其实在外界寻求一种高度自由，就是摇滚精神高度自由。但实际上你会发现，无论你在外界如何的寻找，它都是一种不满足的状态，它是没有找到那种自由感，反而你在消耗自己和给自己的一个巨大的牢笼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是有机会去让你审视自己内心的时候，你会发现，原来所谓的自由在这里，就是你以为它很小，但其实它是非常广大的。然后你会发现了有一种能量它不是那么用力的，而是一种细水长流，反而会非常的大。这个大不是说用力的大，而是很广阔。然后你反而去找到了一种自由感，大家会觉得它反差很大，其实在我看来一点都不大，它就是寻找自由的一体两面。一开始是在用这个呐喊的方是，然后最后其实找到了真正的自由，是在自己的内心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实有机会还是蛮希望我们可以有更多的时间去聊闹和静之间的变化，以及如何得到更多的peaceful，从而产生出力量。我是一个对这个话题很感兴趣的。可以，今天时间比较有限的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我再问一个关于OEOE的问题。我记得你朋友圈之前发过说你最喜欢没有之一的企业家是pizza的创始人。但是他其实是一个过去做工具，但是转型最后做动画片。并且皮克斯取得最大的成就也是因他的动画片这样一个人。那你为什么没有像自己的偶像一样直接做动画片？</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我喜欢他不是因为他做了动画片而喜欢他的，而是我觉得他找到了自己的擅长点，在动画里的展示到了极致。什么意思呢？就是我们下意识觉得学动画的人，他可能会画画，会讲故事，他才能学好动画。但其实他在一些纪录片里就讲说他其实小时候是非常喜欢动画的。但是他画画又好，然后讲故事又不会讲，但是他非常喜欢电脑和物理，我也很喜欢物理。他其实在这条路上慢慢的找到了，比如说用图形学的东西做了世界上第一个电脑的之手。他是用那个风景的这个图形的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的是一个一分钟的一个短片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，由此打开了拿电脑去做很多虚拟的图像的这个世界。比如说他开始在工业光膜，然后去做做了一些特效的东西。他会发现原来他用他自己擅长的电脑和物理学的知识，他是可以参与到动画的制作的。所以也做了世界上第一部3D动画电影。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个里头的启发在于我会画画，但是画的不好。然后我想写故事，但我也写不好特别好的故事。我又不是技术出身，我的擅长点是在于我对技术敏感，然后知道把它怎么变成一个产品。然后我的满足感是在于这个产品大家用了以后，激发大家的创意，我的满足感是在于这里。所以在做OEOA的时候，他是用了我最擅长的方式来从事到动画这个行业。所以他对我的启发是在这里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你希望OEOE之后长成一个什么样子的产品呢？你希望它一直是工具吗？还是你希望它未来比如说也会成为某种内容平台，或者成为皮克斯？</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当然是希望它在工具的基础之上，这样可能会有更多的可能性。但是我不是一个希望说把未来说的那么的确定性，然后我希望他至少在工具这一层能做到真的。我们愿望中每一个想要去做动画的人，他能做出来一部动画，这个先达到了，然后再做其他的可能性。然后其他的可能性在我的脑海里他也是有模糊的概念和想法的。但是我不太愿意把它说的那么死。一旦说到死了，他就坍缩成一个实体的东西了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在2026年，你认为在AI的视频领域有哪些大概率会发生的新的变化？</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得在过去一两年来判断视频模型的趋势上，大致上其实都是有这个迹象的。就比如说它的质量肯定会越来越好，然后可编辑性会会越来越好，这个是在一年前可能都判断对的东西。然后接下来可能是在一些实时的时效性上可能会越来越好。时效性上越来越好，可能就会进行一些互动性的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我也不是特别的觉得那个是一个多么大的革新，是因为它的产生物要看它的受众到底是不是买单。你比如说编辑的自由度越来越高，那就会造成他其实受众是越来越专业的，而不是越来越小白了。它的受众其实是在缩小的，包括这个实时性越来越高，它表示它有一定的互动性，但互动性它其实是一种主动的行为。我们现在被这个自媒体规训的已经就是。就是被动。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>语音的互动是上滑下滑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，然后你会发现你只要稍微多一点点互动，它的人群就其实是非常窄了。所以这是我自己的判断。但第二点是我不设限，就是我觉得过去在判断上的时候，其实在这个里头它又出现了22。你看它只是做到了切近，听起来没有那么大的改动，对吧？就是切近和这个非常自然，但是它带来的效果就是非常好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看就是现在哪怕没有那么大的革新，它不是互动性的，它也不是什么可编辑性的。它就是你的这个消费属性，就是稍微自然一点它也能很好。所以也许很多判断的巨大的改革，并不会对真正的消费人群带来很大的改动。反而一些现在的这个媒介的基础上的一些小改动，反而会带来可能大的这种受众心理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚才有提到就你们最早会去把用户的不同的镜头就分配给不同的模型去做。因为不同的模型擅长不同的东西。那可不可以比如说今天稍微展开一下，比如说这个维度擅长什么，可能擅长什么巴拉巴拉可以。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你比如说我们当时就给touch agent会学习一些动画里头如果会有一些打斗斗的镜头，那这些镜头调用的就是海螺，然后海螺在打斗上就会比较好一点。然后还有一些镜头可能是人物的这个表情，或者是人物的这个情感细腻一些，这个可能性的会表现的好一点。然后还有一些镜头它表现的是那种CG感，就是那种特效大片的那种感觉。会比较好一点的话，它的可能就会比较好一点，就是我们会根据这个镜头里头描述的这个过程给它自动分。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而据你所知，他们也是刻意的在去做自己的差异化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这里头可能跟初始的数据和后面想要做的方向都有关系。就是有一个先天，有个后天之分。你比如说你先天的数据标准非常的不一样，然后它出来的东西真的是完全不一样的。就是它中间的工序会比较多一点，然后人他又对视觉是敏感度最高的，所以它出来的东西不一样，你就会马上的感觉到这是先天的部分。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后后天的部分可能是跟各个模型公司的战略有关系。比如说我要是做影视级的大片，那我肯定要训练很多影视级的这种素材。比如说可能包括之前的海螺，可能都会去往这个方向。然后他在不断的过程里头，可能在加强自己的某一个环节的时候，就会训练那部分的数据。那他就会造成这个模型在这个方面就会比较强。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是视频模型很难真的打一头，你哪怕是模型完全一样，它的可调用的手法喂进去的东西不一样，它出来的东西也不一样。我就举个例子，你比如说还是刚才那个例子，就是我们之前的都是叫骚扰，对吧？模型是完全一样的，但是我们之前的那个场景其实是一致性不强的。我们在喂给骚扰的时候，胃的这个元素是没有场景图，仅仅是这一个小元素。它其实对于这个模型来讲，它完全没有变，但它位置的东西有一点点改变，它出来的东西就完全不一样，也就是小改动在模型后面的这一层都会带来大的影响范围。更别说模型在前面训练的时候的那个数据的这个维度不一样，它可能带来每个模型之间的差异也会非常大。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在OEOE里面用户可以选模型吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>暂时没有，我们后面可能会去走这一步。对，这个只是我们自己的现在的选择。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你自己会怎么去判断2026或者再往后这些不同的视频模型厂商他们的竞争。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得大家都会往一个是加强自己非常擅长的部分，其次是补足自己不太擅长的那一部分。模型厂商他肯定还是更加通用性的这种方式。然后就是刚才那两个大的方向，一个是实时性，一个是可编辑性可能会增强，大概是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白。好，我们最后一个问题就是如果给你300万美金，你可以去做天使投资，你把它分成三份投给三个人，他有可能还没有开始创业，有可能还在工作，也可能已经创业了。你但是你还想追投进去，可以想到哪三个人？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我其实第一反应想了很多人，第二反应是我还是想投给我自己。不是因为我觉得自己怎么样，而是因为站在一个第三者的角度，我最熟悉的是这个人。就是我觉得首先一个天使投资，他要投一个他觉得对这个人非常的白银，然后只是我觉得我对我自己是最熟悉的那一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们最后来一个彩蛋环节，请闹闹用十个我是什么什么来造句向大家介绍自己。就是你不能说我是闹闹，因为这个就太水了。但你可以说比如说我是三只狗狗的主人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好难。相信你我想一下，好的，可以少一点吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有时我的经验是这样的，大家往往说到第四个就会想到第五个，又会想到第六个，然后慢慢的就完成了。哦哦哦你提到。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题的时候，其实是一个对我来说是一个非常难的原因，是我在减少对我是这件事情的积累。因为之前也跟你说过，就是我可能学习一些佛法的东西，其实我我是这件事情的叠加或加强，它会带来很多问题。就比如说我是一个什么教授，我是一个什么什么，它可能就会带来它表面的那个东西，要维护这个形象就会很用力或者是之类的。所以它其实是一个在我现在的状态来说，对我来说是一个很难，你懂吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常深刻。所以你的第一个我是就是我是一个正在尽量减少我是什么什么的人。对，那今天就可以豁免你，你不用说很我你就好，觉得最重要的说完就好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的第一印象是这个，然后第二印象就是一定要说一个，我是我觉得我是一个容器，还是跟OO有关，也就是有一个动画之神，它只是通过我这个容器来表达这个东西，它在这个时代可能会有更好的表现方式。然后它不是我代表的是有个东西它也要小表达，只不过这个容器它非常适合OE。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OE本身其实不做表达，它是在帮助想表达的人更好的表达它们。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它是容器，对它是个容器，包括我自己也是个容器。这个的灵感就是第一时间是让我想到了李安的一次采访。其实说到一个东西，我觉得感触很深。他说就是比我有才华的人多的很多，他们没有很多机会做成像我这样子的一个成就。很大程度上不是因为他们没有才华，而是刚好电影之神选中了我，然后我是一个容器，然后把电影这件事情通过我来表达了出来。然后我觉得某种情况下我也有这种感受，就是不是我在表达什么东西，而是我希望自己变成一个通道，然后让大家家去表达。没了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，谢谢。先来做个十字路口。好的，谢谢。希望过一段时间我们可以再聊一次。因为那个时候可能OEOE就有了更多的一些进展，然后也看到有更多的人通过OUA这个容器做出了更多的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>希望，好，谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜。</p>]]></content:encoded>
-            <pubDate>Tue, 06 Jan 2026 23:28:06 GMT</pubDate>
-            <guid>695d9741c1e012a7abb9ebc2</guid>
         </item>
     </channel>
 </rss>

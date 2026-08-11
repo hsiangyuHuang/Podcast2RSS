@@ -4,7 +4,277 @@
         <title>硅谷101</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc</link>
         <description>分享当下最新鲜的技术、知识与思想</description>
-        <lastBuildDate>Thu, 06 Aug 2026 05:23:24 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 04:58:31 +0800</lastBuildDate>
+        <item>
+            <title>E248｜一个“催发货”AI要跑通260步，和阿里瓴羊朋新宇聊聊中国式FDE</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a7a72b57bb1a8868fb4b2eb</link>
+            <description>不久前，我们聊了硅谷最火的新职位FDE（前线部署工程师）。硅谷的逻辑是，AI要进企业，就要开行业最高的薪资，派一批最聪明的人驻扎进去。但这件事在中国，还是同一个剧本吗？
+我们邀请到阿里巴巴集团副总裁、瓴羊CEO朋新宇。他是阿里数据中台方法论的创立者，他的团队做这件事已经5年，比“FDE”这个词流行起来还要早。在AI浪潮到来之后，他们发布企业级Agent平台：AgentOne。
+他们的做法很不“硅谷”，不接定制化的大单，不做1000人天的驻场开发。他们找的是企业里最耗人、最耗钱、最耗时的环节，把预设好的agent接入企业私有数据，去解决真实的业务难题。
+举例来说：一个催发货流程，客服agent需要跑通260步流程；一个顶级人类投手，90天内调价10000次，AI要学会这10000次调价背后的决策逻辑，这背后靠的是团队配合和工程化的推进。
+在朋新宇讲述中，没有全能型的个人英雄，也没有对SOTA模型的迷信。“企业算得过来账，背后用什么token，老板不会在乎”。务实，算账，打地基，这就是FDE在中国的故事。
+【主播】
+泓君，硅谷101创始人，播客主理人
+【嘉宾】
+朋新宇（花名小芃），阿里巴巴集团副总裁，阿里瓴羊CEO
+【你将听到】
+01:48 硅谷的风向变了：AI战场从C端回到B端
+06:33 一个“催发货”背后藏着260步流程
+12:30 90天调价一万次，AI向最优秀的投手偷师
+19:39 为什么顺利的部署都是“自上而下”
+25:07 做标准化增长agent，跟Palantir反着走？
+31:14 销售Agent实战：从最落后区域到销冠
+36:06 部署周期：1/3熟悉岗位，1/3做建模，1/3调教AI
+42:36 FDE团队画像：BA定方向、AI架构师选模型、业务首席当教练
+47:00 Token成本，模型策略，“账算得过来”最重要
+53:28 中美FDE对比：信息化地基、付费习惯、工作方向
+58:03 人才观：懂AI、懂业务、懂数据
+【延伸阅读】
+E240｜OpenAI联手PE砸下40亿美元，聊聊硅谷最火新职位FDE
+【硅谷101听友群】
+很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏
+之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。
+在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。
+扫码加入，即刻相遇。
+【监制】
+泓君
+【后期】
+Amei
+【运营】
+朱婕
+【BGM】
+What We Discovered - Philip Ayers
+Signal Containment - Out To The World
+【在这里找到我们】
+公众号：硅谷101
+收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
+其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
+联系我们：podcast@sv101.net
+Special Guest: 朋新宇.</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目是硅谷101主播红军与阿里巴巴集团副总裁、瓴羊CEO朋新宇的深度对话。朋新宇是阿里数据中台方法论创立者，过去五年带团队服务了上千家中大型企业。对话背景承接此前硅谷101关于FDE（前沿部署工程师）的节目——评论区对“AI落地是真实变革还是新瓶装旧酒”产生分歧，因此节目邀请这位中文世界最有资格回答该问题的人，从中国具体业务案例出发，拆解“中国企业级AI落地”背后的方法论、真实账本与商业逻辑。核心议题包括：FDE与驻场开发/运维的本质区别、agent如何在企业内真正产生业务价值、中国与美国企业级AI市场的结构性差异。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>FDE的本质变化：从交付功能到交付业务效果。</strong> 朋新宇明确指出传统驻场开发和FDE的最大差异不是名字，而是“原来是交付功能变成一个交付一个业务效果”。FDE需要具备三个维度的融合能力——“AI的锐度、行业的深度、数据的宽度”，核心工作不只是保证系统正常运转，而是让系统运行向业务目标持续靠拢。</p>
+</li>
+<li>
+<p><strong>“催发货”260步案例：AI客服打通企业全流程。</strong> 一个看似简单的“催发货”售后场景，实际覆盖约260多个内部处理步骤——包括核查订单、库房派单、配件补发、赠品追送、多平台协同等。这260多步能覆盖95%以上的催发货场景，AI客服的价值在于把内部的系统流程、数据节点全部打通，让AI不仅“态度好”而且“能解决问题”。“客服最重要的是解决问题的能力，而不是语言沟通。”</p>
+</li>
+<li>
+<p><strong>AI投手的震撼数据差：3个月1万次 vs 100次。</strong> 瓴羊在帮助一家多平台投流企业做复盘时发现：最优秀的投手在三个月内做了超过1万次价格调整（平均每天约100次操作），而做的一般的投手同期只做了100多次（平均每天一次）。这种靠“老师傅带新徒弟”根本学不来的经验，AI可以从行为数据中学习、建模、自主进化。</p>
+</li>
+<li>
+<p><strong>企业AI场景选择三标准：耗人最多、耗钱最多、耗时最多。</strong> 朋新宇给出了一个清晰的企业AI落地筛选框架——不是所有场景都适合先做AI，而是优先找“哪里耗人最多（如客服接电话投诉）、哪里耗钱最多（如营销投放、赔款止损）、哪里耗时最多（如查询答复以小时/天为单位）”的地方。“企业用AI是希望能够找到重复的工作，用AI最高性价比和最高效率去解决它。”</p>
+</li>
+<li>
+<p><strong>AI实施不是“买系统”而是“雇员工”——4+X方法论。</strong> 朋新宇将agent实施类比为新雇一个拥有5到10年工作经验的员工：“你进到你公司以后，你只要给他权限，给他目标，给他裁量权，那他就可以去工作了。”瓴羊的产品架构是“4+X”：4个预设agent——营销、销售、客服、运营，各自以“最佳投手”“最佳销冠”“首席客服”为岗位标杆设定；X则是企业的数据资产、权限边界和上下文管理。</p>
+</li>
+<li>
+<p><strong>一周灰度上岗机制：从凌晨低谷到高峰全量。</strong> 瓴羊的agent上线不是一次性切换，而是用一周时间逐步放量：第一天只切凌晨0点到2点的低谷时段数据，复盘调整后，第二天切中午12点到2点的高峰全量流量（不是10%抽样，而是全量——“只有全量我们才知道你异常的边界”），第三天放大到8小时，以此类推到全天接管。这个过程还配有“AI导师团”调教，让agent逼近企业内最优员工的水平。</p>
+</li>
+<li>
+<p><strong>商业模式两条路：按坐席收费与按效果付费。</strong> 一种是替代逻辑——原客服500人，现在以约8-9折成本做到同样效果；另一种是增长逻辑——营销投放在人工转化率之上的增量部分做分层结算。朋新宇强调按效果付费已真实发生，且客户续费才是真正验证——“客户能算得过来这个账，他一定才能去做续费和服务。不要去默认我们想要比客户更加聪明。”</p>
+</li>
+<li>
+<p><strong>企业内部token账单“烧爆”是普遍现象。</strong> 朋新宇以自身经历举例：Q1结束时公司一个AI项目收入300万，但投入1200万，到季度末才基本打平。他的判断是，要解决token成本问题，核心不是追逐最强模型，而是做性价比匹配——“对模型不会有执念”，在不同的场景下选择最合适的模型，降低客户的决策成本——“他一定是关注能够给我带来的那个账，我算得清楚就OK了。”</p>
+</li>
+<li>
+<p><strong>中美企业级AI市场的两大结构性差异。</strong> 第一是基础不同：美国有Salesforce、SAP奠定了工作流和数据标准，中国企业普遍地基不稳，FDE必须从打地基做到装修；第二是付费习惯和人才环境不同：中国大企业都有内部IT团队，纯交付价值有限，真正的优势在于“懂流量、懂互联网平台的运作方式、懂平台之间的能耗”。</p>
+</li>
+<li>
+<p><strong>今年企业一号位的态度发生天壤之变。</strong> “原来都在讲怎么用、能不能用，现在直接跳过，什么时候开始帮我用上。”变化发生在今年春节之后（推测指DeepSeek R1引发的大模型应用拐点）。从关注模型参数和跑分，到开始关注执行任务和实际业务效果——“哪里耗人最多，他就琢磨帮我提高人效；哪里耗时最多，能不能帮我提高速度；哪里耗钱最多，能不能帮我省成本。企业家是最聪明和最敏锐的动物。”</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>300万收入 vs 1200万投入的内部账本。</strong> 朋新宇在节目中罕见地披露了瓴羊内部一个AI项目的真实财务数据——Q1结束时收入300万、投入1200万。这个数据直观揭示了当前企业级AI的烧钱规模和打平周期，也是他在讨论token成本问题时主动拿自己“开刀”的真实案例。</p>
+</li>
+<li>
+<p><strong>“没看到之前我不知道我要什么，但是这个就是我想要的。”</strong> 一位制造业董事长在瓴羊团队快速做出MVP原型后的原话。这句话解释了为什么说服企业一号位往往不是靠逻辑推演，而是“让他想到的看到的结合起来”——“最难的是你把你的东西装在别人脑袋里面”，“他终于看到了一个他脑子里面的产品”。</p>
+</li>
+<li>
+<p><strong>董事长一年给全员讲课15场：先行者的动员方式。</strong> 一家成功落地销售agent的企业董事长，为了推动组织转型，自己先学AI，再以董事长身份给全员和管理干部做培训，一年超过15场。“他说我先学会，我再给员工讲，员工才能去理解我的思想和能用好这些系统。”这揭示了企业级AI落地最大的隐形门槛不是技术而是组织生产关系。</p>
+</li>
+<li>
+<p><strong>“人天”的荒诞与“从养鸡场到炒蛋”的比喻。</strong> 在讨论传统定制化开发时，朋新宇提到有客户要求明年买1000个人天的投入，他评价这类“从0到1全包”的项目“对客户来讲、对我们来讲边际效益都是非常低的事情”，并用了极其生活化的比喻——“从养鸡场到养鸡，到下蛋到炒蛋，所有都干完”，形象表达了对纯定制化交付模式的消退判断。</p>
+</li>
+<li>
+<p><strong>“数据科学家”改名的考究。</strong> 朋新宇回忆起十几年前国内也用过“数据科学家”这个title，后来特意改了——“在国内这个语境里面，数据科学家是非常神圣的一个title，所以我们叫做数据科学。数据科学是讲究方法，科学不是你的位置。”这个措辞变化背后，是他对AI时代“方法论落到业务场景才有效”这一判断的坚持。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，欢迎收听硅谷101，我是红军企业。软件市场有一个老规律，客户每花一美元去买软件，就要再花6美元把它用起来。那AI时代，这6美元的生意正在被重新分配，这是所有巨头突然冲进B端的原因。我们之前说AI是不是泡沫，但答案不在聊天框里，而是在企业的账本上。之前我们其实聊过一期FDE的节目，讲AI如何进入企业级市场。评论区就分成了两派，一派是说说AI真正在帮企业落地，另一派质疑的观点就认为20年前就有驻场开发，这是不是换个名字新瓶装旧酒。所以我们决定找一个真正在做这件事情的人当面来问一问。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这期嘉宾是阿里巴巴集团的副总裁，瓴羊的CEO朋新宇。他可能是中文世界里最有资格回答这个问题的人。他是阿里数据中台方法论的创立者，过去几年帮几百家中大型企业搭建了数据平台，他带着团队做这件事情已经五年。比FDE这个词流行的时间还要早。我们之前的播客讲过FDE的硅谷叙事。这集我们就来讲一讲一个个具体的中国案例，还有案例背后的那本账。下面就是我与彭新宇的对话。Hello小鹏，你好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>hello红军。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>hello大家好。因为我知道其实你也是阿里数据中台方法论的创立者。要不要跟我们简单介绍一下自己，以及瓴羊它具体是一个什么样的公司，你们现在具体在做些什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实用一句话来说的话，它其实在企业服务的范畴里面，我们叫企业级增长的agent我们的核心还是去帮助企业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做消费流通。我觉得在过去，其实硅谷讲的都是C端的故事。最开始大模型开始的这一轮，大家都说，谁的产品先冲上APP store的第一名，谁的日活先破亿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我们说从今年的上半年开始，我觉得整个硅谷的风向变了。比如说OpenAI成立了专门的部署公司，anthropic他是拉着黑石跟高盛做了一个15亿美元起伏的合资公司。同时我们看最近的一些新的动作，微软它也新成立了一个运营部门，叫做microsoft frontier company。背后是25亿美元的投资和6000名工程师。他们也是说自己超越了我们所谓的FDE的概念本身。亚马逊也是在投入数十亿美元专门打造这样的组织。所以我觉得从今年开始，我在硅谷观察到的一个现象就是整个AI的战场正在从C端回到B端。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OpenAI它的FDE在旧金山的中级岗位的基础工资是16万到28万美元。我们说传统的解决方案的工程师，他大概是比这个职位高出了60%。所以小鹏你们有没有比如说FDE的职位，然后你觉得这个岗位需要什么不一样的能力？为什么他会比市场传统的驻场运维价格要高出这么多？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个国内也在关注，但是如果换一个名字就能够去工资升级，这个不符合企业逻辑，不符合市常逻辑。其实看到背后的本质还是一个东西稀缺。这类人才的稀缺，它采用这个溢价空间换这个发展的时间，那是缺什么东西？原来这波人做运维就是这个系统就这样子，我是保证你健康运转着，但如果没有做任何变化，他凭什么会要去议价？今天我们看到的如果要做的好的FD其实刚才讲的就三个能力。第一个它是要有AI的锐度，第二个是要有行业的深度，第三个它是有数据的宽度。这三类结合在一起的，但能够做到今天这套系统运行的，不是说他今天是不是正常运行，而是说他今天的运行是不是按照我的业务目标，是在往好的地方做，还是变差好的地方，我怎么让它更好，差地方怎么干预他，我怎么调教他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个角色是原来仅仅做运维做不到的，必须要运维之上能做到对业务理解，对数据的理解，我能调整一些。不管是技能的调整，数据的语料的上下文的调整，包括一些memory的管理。其实这些工作是原来做传统交付是不存在的，或者他不会遇到的问题。所以这是最大的差别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对听起来对人的要求求还是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挺高的那最终可能一个成熟的一个业务，企业里面需要要么是有这类人，他能够去在这几个领域都能兼顾。要么是我们有大型的客户，我们有这样的持续的运营。陪跑的FD。但我觉得这两种未来都有机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为FDE我们其实也刚刚做了一期播客，很多听众他就在我们这个博客下面留言。他就说这个FDE是不是就是我们之前说的什么驻场运维，驻场开发是不是又换了一个新名词。你觉得我们现在瓴羊在跟客户接触的时候，当我们提到FDE，它跟我们传统说的驻场开发、驻场运维，他们之间的本质区别在哪里呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这种我觉得本质的变化是原来是交付功能变成一个交付一个业务效果。如果从AI这个大的语境下，我们分三个方向。第一个是以业务结果为导向，我们要找到这个对的问题很重要。这个问题一定是一个有业务目标、业务数据和业务过往历史记录的。如果用AI的视角来讲，它能构建一个测评集，构建一个指标体系。第二个就以企业数据为基础。其实今天我们如何能够构建一个企业的数据，能够通过agent调用大模型的能力。既能去保护隐私，又能够去发挥大模型最大的智能的上限。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三件事情，以岗位标杆为预设。为什么我们会去定义首席客服的agent以及最佳投手的agent最佳销冠的这样一群的。其实是我们把这些在这个企业里面它的岗位的标杆作为H的预设。它起步可能就是一个工作五年十年的这么一个投手或者客服。所以我们今天虽然它的名词叫FD还叫什么？其实我们有一个很传统的词就叫CSM客户成功。我们希望的客户成功，最终是对业务的结果好一点，更好一点，我们叫Better and Better。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我理解这一轮我们在说到FDE跟我们去做这种企业级的部署的时候，跟之前的几轮的根本区别就是说它是有结果的。他的结果能验证。不管我们说成本的削减，或者是效率的提升，或者是新业务的拓展，相当于是以结果为导向的变化，就是它确实对企业有帮助。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且是以企业的业务增长结构可度量的结果。其实在企业车和个人车最大的不一样是在企业侧的话，用AI是希望能够找到重复的工作。我觉得用AI最高性价比和最高效率去解决它，那个人可能是找到AI的上限，我能突破我的边界。那企业很多是要去约束边界。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>能不能举个例子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>to c其实可能大家经常听到一个词需要新奇特。这就是我是个人的体验，会让我眼前一亮的。但是用完了以后，过了一周两周你就会变得稀松平常了。其实对于企业测试来讲是另外一个词，叫多快好省。但其实它是有个比较比较是一定是一个参照系的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个例子我们帮助一些客户，比如说其中有做一些3C数码的，它其中有一个环节叫做催发货。它有三类不同的处理方式。第一种是比如说买了两台空调，但是你只发了一台，所有客户打电话过来我要催。那这个流程就是我要去核查我的订单，然后去我库房，然后再去派单去发。第二类是催配件，我买的空调我忘了发一个配件了，原来的客服流程再去找到配件仓库，然后我们再发出去。第三个还有一种叫催发货，我买了一台空调，我确实收到了。你当初不是和我说给我赠一个电饭煲吗？那为什么没有送到像就这么一个催发货的环节，最后客服售后的这个环节大概有260多部。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>260多不这么多。我理解就是客户打个电话，客服接起来，他要是跟内部的流程沟通，是这个意思吗？就是难是难在这儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，内部的流程可能有的是内部系统，有的是外部系统。比如有的是电商，它在多个平台，有的在京东，有的在天猫，有的在不同的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，有些配件可能客户还要下单。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，这个两百多部的背后，其实它能覆盖95%以上的。可能有5%可能会有些新的东西进来。但这个95%我要去熟悉这个流程，我要去新招客服，培训客服，我去上岗他考核他，其实这些是非常有确定的标准的那我如何快速的去让客户能拿到货，以及让客户满意的拿到货。我们让客户不投诉，以及让客户不去要投诉为了要赔款这样的客户。比如说我们通过我们销售的H的，客服的H的以及和h one的这样的结合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我昨天正好和同事我们还在去复盘一些case。我们在其中有有一家他要超越他现在的一些传统的机器人。其实我们发现上线开始就比他传统的机身效果好。昨天我们在看到说也已经逼近了超出了人类最好的状态的平均水平了。所以能够看到这样的工作在企业侧都是普遍的存在，它有边界。同时它今天是有巨量的重复在发生。所以我们把这些情况在企业是归类成这么三类的场景的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一类是哪里耗人最多的，比如说这种打电话接电话投诉的。第二个，哪里耗钱最多的，有些地方可能是赔款止损，有些地方是营销投放。有些地方可能是我要花素材的各种的试验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三个就是哪里耗时最多的。比如说我们经常会打电话给客户说我为什么没有到？一般的可能说不好意思，我帮你查一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们查了半天没查到以后说，我晚点给他打电话，一般是以小时为单位或者天为单位。这些都是对客户来讲就耐心，你有的超过1个小时可能我就退掉了。其实不是说所有的场景，我今天都会用刚才讲的业务结果为导向，能做得到的一定是这个业务结果。它是非常具体可以度量的耗钱最多、耗时最多、耗人最多的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且我觉得你刚刚举的这个例子非常有意思。传统意义上我们在理解一个客服以及客服机器人的时候，大家想到的都是说客服怎么态度好的去应对消费者的。不管是投诉还是怎么样，是一个语言沟通。但是您刚刚讲的这一点，让我意识到了客服最重要的是解决问题的能力。而他解决问题的能力其实跟你对整个公司业务流程，每一个环节它是怎么运转的这背后的一整套系统，我们可以把这些东西都称为数据都记在脑子里。现在其实就是让AI把这个背后的一系列的体系给打通了。现在我们说不仅仅是人能解决问题了，那AI只要把数据打通，它也可以解决问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我很好奇的是，就比如说催发货，可能是有配件的问题，有赠品的问题，也有是多个订单重复下单的问题。但是整个这里面可能都涉及到一个企业它的内部是怎么运转的，以及它的核心的制约因素是什么。在这一点上你们是怎么跟客户把他们的核心痛点梳理出来的，就这个过程会花多长时间？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们有一支队伍就是SCSM这个队伍。比如说我们在中国这个线上销售，其实淘宝天猫是非常大的一个体量的存在。其实我们这些人和这些客户的陪伴的经验，都是从多年来在这个平台陪着这些客户去成长。所以我们自己能够有一套最好的SOP，比如说催发货或者是售后的这么一个业务流程的理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是今天AI的实施可能和原来传统的软件的实施最大的一个对它的理解不一样。是我们把软件实施是我们消费套系统。其实AI实施如果类比消费套系统可能还欠缺一点。其实它是我们新雇一个员工，所以我这里的比如说这个客服，或者是这个营销，或者等等销售，它默认就有技能。它会自动会处理，自动能够拿到你在市场上招聘一个5到10年的一个员工的水平。你进到你公司以后，你只要给他权限，给他目标，给他裁量权，那他就可以去工作了。而不是说你今天是给你的同学买了一套系统，买了套工具，我们上来就这个人就是会干活的，你只要给他权限，这两个我就是有本质差异。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们刚刚提到的就比如说催发货的这样一个场景。假设一个标准的电商企业，他需要雇佣多少个AI员工。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是根据他的业务体量来的。比如说销售金额的2到3个点，3到5个点，各个企业不一样。几个点是成本是给客服。那我们今天用AI一定是在要么是同样的成本之下，做到你原来同样效果之上的业务结果，才能去说这个事情是一个work的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解它是所有的企业都通用型的使用。就比如说您刚刚提到了几个大的领域，向客服投诉，然后营销治理。我理解其实这个就是您刚刚提到的耗人最多、耗钱最多、耗时最多，比较典型的三个工种。大家在具体应用到一些场景的时候，是所有的企业都用的很好吗？会不会有一些企业，比如说他们内部本来它的数据就是不全的，所以他也会上手比较困难。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这就是今天我们说FD里面我们说第二条，以企业数据治理为基础，这个很关键。比如说从我这里雇佣一个工作5到10年的这么个员工，但是进来以后你的企业的这些基础的信息，知识库，你都是乱的那这个人进去也是傻眼了。所以我们雇佣这个员工，比如说这些大企业，他有自己的一些私有的上下文，企业的各种知识库。我们的FD在这里工作就是要去帮他梳理和治理他的企业的数据，如何让这个data for agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们在帮一家企业，它是在多个电商的平台，淘宝、天猫、京东，或者是在抖音去做投流。他发现他有好几个投手，但是投手和投手之间天壤之别。其实发现内部做复盘总结，我们进去发现，我们把这几个投手过往三个月你的投放的行为做了一个分析。我们发现做的最好的一个投手，他在三个月里边他做了超过1万次的价格调整。做的一般的投手大概在三个月你就算100天好了。做了一百多次一个投手其中一天大概做一次左右的操作，那个投手可能一天平均做100次操作。这个差异你如果靠人去学，其实靠老师傅带来新徒弟你很难去学。这就是发挥今天AI的哈里斯工程，能够去做自我学习和进化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果把这件事情理解成为工作的几个基本的元素，第一个是个学习，就是数据采集，第二个就是建模，第三个就执行，第四个就是迭代。只是第一件事情，往往原来很多企业说，这个事情是我有经验，其实很多经验它一定是有它存在的场景，这个场景一定有局限性。只有什么情况下他没有局限性，就是把你过往三个月所有的行为，我们能够有一个数字化的度量和学习。其实这个学习背后AI一定比人能够对你的行为的总结提炼和发现更加全面和深刻。所以我们把这些东西今天成为我agent的这个数字员工的技能之一，成为他未来能够用每天新的对话，处理的异常信息，bad case、good case能够去做净化。这样的话形成这么一个工作模式。所以在企业侧其实发现像这样的环境是通用的，但是每一家工作的细节是不通用的那这个环境正好就是我们这套h one能够去从你的数据收集到模型建模，就工作的那个C的这些梳理完了以后，你的工作的建模，再到你执行任务的推进，最后你能够做到尽快的迭代。所以这部分是通用的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以AI它其实是在向人类最优秀的投手去学习的。比如说90天他进行了一万多次价格调整，这是人做的调整，还是说它已经形成了一套机器建模的方法论，它会在系统里面做很复杂的设置。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里面其实所有的操作其实都是人在做的，只是他可能借助一些工具，但是那个行为就是物理上有人在做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我发现这个点很有意思。因为刚刚我们讲了客服，我觉得企业内部的数据很重要。您刚刚讲到投流的这个例子，我理解现在市场上比如说大家要投这个淘宝天猫平台的投流，或者是其他的广告投放的投流。几个大的平台是比较相似的这一类的A证的产品，它是不是一个比较标准化的产品呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，国内最大的SARS平台就是这几大电商平台。这几个平台它已经最大公约数了，大家在下面的素材、价格、系统、数据已经标准化了。所以这部分已经能占了这个企业做投手80%的数据准备和系统学习的能力。所以这部分东西是FD站在这一个巨人的肩膀上工作的基础，是非常重要的。只是我们在一个类别说中国没有一个独立的SARS公司，只是中国的平台企业承载了SARS公司的能力。所以这些能力我们今天在AI时代它是可以被利用，被发挥的价值更大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的对我们刚刚提到了，其实AI在向人类最优秀的投手学习。我能相信不管是现在还是说他未来的工作能力，他一定是会投的比人更好的。但是只要AI投的比人好，这样就会带来一个结果，大家会更多的去用这些AI类的工具。所有人都在用工具的时候，你觉得这个差异会被抹平吗？最终它真的是一个生产力的提升，还是说它是一个先行者的优势。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果用传统的生产三要素来讲，生产资料、生产力和生产关系。现在这个阶段大家都是在生产资料上的能力提升，有更好的算力，更好的智能，能够让个人生产力的边界变得更大。但是我觉得未来提升的就是能够通过AI能制造新的生产力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我就是一个在线20小时的投手和服务人员，我觉得这个就时间先后，不可能永远有绝对的竞争优势，一定是个时间窗口。在这个时间窗口之下，谁能够企业更好的拥有和运营自己的数字员工，在企业社会增长做服务的，我觉得这个可能是最领先的。第二个，能让这个是持续能领先一点点的，是我觉得还是回到企业自己核心的生产资料。不管是过去的时代，还是今天AI时代，最大的企业的生产资料就是数字化。这部分还是有蛮大的文章。大家经常会看到，我们建议数据平台可能给内部看数用。那今天的数据系统，我们给AI用，你建的好坏在这里是有差异的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个企业它的数据平台建的好坏，它的区分点是什么什么是一个好的数据平台，什么样不是？然后什么样的企业它可以建成好的数据平台。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实好也是一个相对的。其实对于企业来讲，我觉得还是一个比较可以度量的。就是你落到具体的业务效果上来，能不能有正的经济效益。今天的看下来，交付完一个agent会交付完一个系统才刚刚开始。你的企业真正是让这些数字员工能上岗工作，为你接单接流程。为你推进工作任务正式开始，这两个是不一样的。原来是数据平台交付完这套系统就结束了。今天在这里是交付完以后你用起来用的好坏最终是用业务结果来买单。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家其实从去年今年都开始在谈这件事情，包括开始准备去使用agent企业现在用agent到了哪个环节？是已经到了一个可以验证交付结果的环节，还是说他们只是刚刚开始。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从我们所服务的客户和接触的客户来讲，我觉得是有结构性的差异的。走的比较掀的，就可能有数字化技术比较好的，就类似于原来在电商，在互联网积累比较好的。还有一类就是一些大的企业，它本身内部原来的IT信息化做的比较好的。第二个是我们现在是看到是在比如说投手或者是说客服，其实我们有不少的企业他已经就在用了。那可能用另外一句话讲，其实大部分的企业真的做出效果他不会去讲的。今天可能是企业和to c不一样，to c是一个新的功能，好的功能它立马就会让全天下知道。对企业说他只要这个效果他持续在用，那其实这个就是好的，这种是用结果来买单。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解你们今年去谈客户的时候，你觉得要让他们把自己的一部分系统放在这个agent上，他是得从上往下推动，还是从执行层自下而上的跑起来？今年企业对agent的改造业务流程，他们是一个什么样的态度？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这是好问题。这两者都有。目前我们看到的进展顺利的是自上而下的涉及到生产关系的问题。自上而下是这个业务的一号位，他能决定既有IT费用又有业务费用，那它才能够去算总账。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天如果自下而上的话，我们就遇到反向的一例子。曾经遇到一个客户，他的某一个业务部门，他想做业务的agent但是他今年没有预算，但是他的IT团队有预算。但是今天这个IT团队可能和这个业务之间是不同的部门。我们就在这个过程中发现，需要通过我们的这个业务方案去设计，既能满足IT的先进性，要满足业务的效果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实发现这个生产关系蛮难去弄的。因为可能IT要的先进性不一定是业务要的效果，业务要的效果可能今天不一定是最先进的那今天反向是成功的是我们遇到的是有的企业，可能是比较传统的企业或者制造业。它的一号位董事长就是非常明确，我今天必须要去拥抱AI要去用好AI用在哪里。说说他选定一个销售端，从哪个区域开始自上而下。自上而下以后发现他的财务IT以及它的销售线都动起来。生产关系重新发生了变化以后，业务的这个销售agent它从一个区域复制到全国的区域，就形成一个很快速能够去推动的一个局面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对企业在推动这部分业务的时候，因为它会涉及到很多企业内部的这些数据，大家要把各个流程，各个部门的数据，还有一些方法论都拿出来，把它做成一个agent。企业在跟你们负责前端部署的人在沟通的时候，这会是他们有顾虑的一部分吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是个好问题，也是一个我们的优势。原来四五年的时间，我们帮助了大几百家到上千家的中大型的客户部署了数据平台。所以本身原来部署数据平台就是已经帮他数据做了治理，做了打通。所以基于这个平台之上去找业务，今天就是一个水到渠成的事情。今天可能遇到一些新的企业，构建的A型的过程中，他要花很多的代价。还是要在下面构建今天企业级的数据的管理和清洗的这些能力。但是我们因为原来积累的投资的大客户就好几百家，他本身就原来持续在数据平台上做数据积累，基于这个上面去找这些应用就比较方便。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我理解您提到的大客户是之前跟阿里已经有商务合作的这样的一部分客户。您又是做数据中台的，所以其实是沉淀了很多的数据的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果大家跟你们一起去合作一个这样的agent，它的商业模式是什么？最终这个数据它是在企业端还是在阿里端，还是说大家共有的这。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是两个问题，一个是商业模式，一个是技术模式。商业模式来讲，基本上就这么两大类。一种是按照坐席收费，就工作量。第二个逻辑就是按效果逻辑。第一种是比如说刚才讲的客服，他原来是500人要去接管他的一年的生意的这个服务。那今天我们用同样是500元的价格，比如说有个8折9折的投入，能做到你原来一样的效果。就是我们叫做按照成本人力成本替代的转化逻辑。第二种就是我们基于比如说做营销，做投手这些增长。原来你的转化率比如说是20%，做到你原来人工转化率之上的部分，我们做分层要这么两大类。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在按照效果付费的已经真实发生了，有的有达成效果了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吗？肯定是有的，而且是连续续费或者连续在服务中的客户。这些客户其实我们首先默认的是所有的做生意的，他比我聪明。今天他能算得过来这个账，他一定才能去做续费和服务的。不要去默认我们想去能够比客户更加聪明，或者是我们去包装一些东西，让客户能够我觉得基于这个包装溢价，我们原来有个词叫PUC，其实今天叫MVP可能不需要去做概念论证。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为你今天我是一个数字人，在这里你上来就能体验，就能用了。那最终是要是基于他家的业务单元，他家的数据单元能做一个最小能价值验证。客户最终验收通过OK，那你就继续用。这种才是一个比较互信和有持续粘性的这样的一个服务方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>前面刚刚讲的是商业模式，第二个你刚刚提的问题标还有一个是技术模式。我这里可能讲三个词，定制化、标准化，还有一个词是个性化。原来过往的大部分都是希望用定制化的方式去满足企业标准化的流程。可能每个企业他说我的工作流程和别人就不一样，你要去做定制。那这里是把他原来已经工作内部非常顺的，不管是八步还是十步的这个流程把它刻画下来叫定制化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用定制化的方式解决它标准化的问题。这个标准化问题就是看这个企业对他的业务的流程和理解总结的到不到位。如果到位，那这个确实有效。如果不到位，可能能解决30%的问题。那天天会有76% 10的新的增量，那这个就会变成一个又长又久的系统交付的工程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就今天的这些哈里斯工程，能够把原来企业的工作流、数据流，包括企业的上下文，我们把这些工作区间能够标准化下来。同时因为今天有了自主进化，所以这些在面向不同的客户回答问题的过程中，他你就能做到个性化。所以对于AI的领域来讲，他可能未来更多的是用标准化的方式去解决个性化的问题。因为既然定制化就很难去做到个性化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我理解当我们在说标准化的时候，比如说我们给企业是一个标准化的产品，就是类似于比如说我提供了agent one，然后我上面有几个大的方向，你只用去采购我这个agent的席位就OK了，这是一个非常标准化的产品。但是，定制化就是说你的企业可能会有一些特别的业务需求。我可能需要再跟你的数据打通，他能回答更多的个性化的问题，我需要把你的这些信息都接进来，因为这样哪怕我是一个客服，我才知道是哪个环节出了问题。但是在真正涉及到这一部分的时候，你觉得这一部分很多的大的企业，比如说他有电商的企业，那他可能还有线下的，大家的问题完全不一样，就是这些他都是能用这种标准化的手段去解决的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>前面那个环节我们如何去分辨它是定制的还是可以被标准的。其实定制就是你去问他企业里面的每个人，他的流程可能都不一样。你最终需要做内部叫做企业流程培训完了以后，你这套系统才能上去。那今天的分支点是什么呢？你把现在企业真实在工作的这些人的行为能不能数据化？通过数据最终帮他表达你这个企业最好的销冠是什么工作的，你这个企业最好的投手什么工作的那这个工作是不是你希望负责到所有的人的？如果是这个是一个参照系的话，那可能和原来的离散的似是而非的标准，这是本质的差异。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这种你们会给企业做一些定制或者企业专有的软件吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们现在已经很少去做企业专有的软件，我们还是聚焦围绕着企业里面增长的问题。增长的问题就是最终我一定是用能数据能度量。当然我们也遇到一些客户也会说，希望明年买我们一千个人天的投入。其实这种方式我觉得在企业侧也要发生变化。未来我觉得买这种人天的方式，其实定制的方式其实会越来越少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人天是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是这就定制。比如说我一开发一个功能要100天，他估算他可能我大概有十个系统或者是有100个功能，他可能自己算下来差不多1000个人天的时间才能开发完成。所以他会去找我们，或找市面上的一些公司说你能不能帮我来开发一下。那这个开发其实对我们来讲完全是一个从0到1从养鸡场到养鸡，到下蛋到炒蛋，所有都干完。这类事情其实对客户来讲，对我们来讲边际效益都是非常低的事情。所以我们反而是说今天只是聚焦就是在做销售、做客服、做营销。基于这些场景之。下的问题跟着我们去接。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们现在更加倾向于去做标准化的agent增长类的agent我觉得这个点非常有意思，我们可以讨论一下。我现在觉得过去在SARS那波很热的时候，大家想要去做这种标准化的产品。这一波很热的公司是plentier。我觉得他大概有46%到47%的营收来自商业客户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>主要是派他的工程师去一个企业里面改造。就像您刚刚说的，从0到1把企业内部的系统搭建出来。就像比如说他要1000个人天来去搭建一套系统。我理解现在像OpenAI，然后微软他们可能也是想用这一套AI工具，把这些工具布局到企业内部。那他们，其实就做的是一个一个企业纯定制化的思路。然后我理解你们反而是在走一个相反的做产品的思路。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对plantier其实它有个前提是服务这些企业，他原来都是有基座的，他去帮客户去找出有价值的问题，而不是去帮客户去实现他给我列出来的to do list的100个功能需求。这两个本质的差别。我们现在交付和服务中的客户是我们进到客户里面，可能和企业的CEO业务总裁到下面的一线人员，我们都要去做交流，做访谈。这种是和他一起先找到他公司里面这个阶段在销售侧或者在营销侧，或者有些是可能在他业务增长侧最有价值的问题。这个问题最终还是回归到我们所擅长的，作为他的业务的增长就是三类。要么是销售的增长，要么是你今天营销的ROI的增长，要么是你今天客服本身的服务营销的RY的增长。其实我们在中国这样的企业和这样的客户群体非常大。所以我们今天不是说每个企业我都能服务，而是说我们找到企业里面有每个这样问题的场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们能够提供服务。你们是一个垂直一个赛道一个赛道的做。基本上通过一些典型的客户场景把一条赛道打通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是如果具体来讲，它肯定也是一些行业专属的应用，或者数字。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>员工了解。如果是这种比较标准化的服务，我理解他按坐席收费就好了。他按效果这个要怎么计算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个使用的方式是标准的。比如说大家都会这个数字员工，比如说我刚才讲的那个投手，他其实帮我去每天采集各种的市面上的新品也好，同类的企业他发的新品新的价格，从采集数据分析数据做决策，然后调整自己的策略，就是这个方法是标准的。但是每个微超是完全不标准的那可能每个行业有的行业它的转化率，比如说2%，有的行业可能转化率20%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有些品可能在不同的渠道，但是转化率不一样。这些地方可能我们没有办法说有一个标准的。今天说一定给他提升十倍五倍的，还是根据数据来根据你的过往的，你在不同的平台，不同的时间，不同的促销期，你的效果怎么样。我们做一个分析完了以后，我们做一个MVP，我们AB test。这样一些比较以后，最后有效果我们会和你做一个业务的模式的结算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得当下这个阶段肯定也在试对很多企业来讲，今天其实在这里的投入肯定是希望能拿到更高额的一些回报。所以我们会有这样的一些企业，我们愿意做一些尝试。比如说有的叫对赌，今天其实我们不叫赌，还是要做测评，有这么一个测评，我的智商就类似于模型的说他一样，我能够去拉到什么一个水位线。这个我觉得今天对智能和对今天企业的数据，让模型更好的放大是一个很好的方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们刚刚其实聊了客服，然后看看有没有投手或者销售的例子。而且我对销售非常感兴趣，我觉得投放它可能还稍微标准化一点。我理解销售它每个行业之间可能就差别更大了。比如说酒的行业、媒体的行业、to b的行业、to c的行业，它是完全不一样的。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们有一家制造业，他原来有很多线下的渠道，各个省代渠道的销售人员就服务各种的经销商。而且这些人员最大的一个麻烦可能约束就是他的上班的时长和客户的时长。即使在一个区域，他一天拜访，可能他手上大概有二三十个客户。但是他如果按照拜访了，一天只能2到3家，那先去哪一家后去哪一家，这是一个时间的规划的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二件事情是我见了这个人我应该是和他proposal什么东西，以及和他交流什么话题，以及这个话题最终可能和我企业内部需要我的任务和目标是什么关系，这个叫方案。第三个是我和这个人沟通完了以后，他可能有些要执行的任务可能不是我预设的，但是可能有一系列的一些动作，这个动作可能和他的内部的业务的系统要去录入。其实原来这件事情想想都是靠着人力的。今天我们帮这个企业是从一个省的试点开始。这个试点原来是一个最落后的销售的区域。那在今年的上半年，那个省评为最先进的。你想想这些过程可能AI能在各个环节能帮助，但是缺少一个销售AI能够把它从事前、事中、事后都能穿起来。前面的路线规划，中间的我要去做哪些客户见面的材料准备，以及准备完了以后，我的小鸡和我系统怎么录入打通，如何去到我后面的内部的相应的其他人员跟进。原来这个销售可能每天花一半的时间在做资料准备，可能晚上大概花2个小时做复盘做系统。今天可能对销售他的工作时间效率大大提高，而且他的最终结果就是那个省拿到这公司的销冠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>印象深刻。对我们从。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>企业的消费侧来看，增长就这么简单。可以理解三大类，售前、售中、售后。售前其实就是营销售中就是销售，售后就是客服。其实你售前再看，他也是这么三大类。投钱做预算分配、做渠道分析、做人群挖觉。投中做素材生成、素材管理、素材的优化。投后做复盘，做渠道筛选、渠道优化。你看到这几件事情，其实背后都是数据加AI能够肉眼就能看得到，能在这里能够去提供很大的价值的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是这个怎么穿起来，你再看售中销售也是这么三件事情，新客、新购转介绍，哪里有新客，哪些新客变成新购。所以你看到会有什么试驾、试吃、试穿一堆的，都是让他你的新客户变成我的新的购买用户，都是为了让你能够更好对我的产品有理解。那我要把这个试的机会给谁？这里你看到都是有数据加AI的机会，能够去找到在企业私域的信息化数据范围之内能辨得出来最好的，或者是能够去规划出来最好的策略。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看客服也有这么几类的，可以抽象交付履约。比如说我买一个东西什么时候上门安装。第二个是售后投诉，我买的东西，刚才讲催发货，缺了个角，什么缺了一个什么配件的投诉。第三类就是长期复购，我新产品来了或者我新的功能升级了，不会让我来继续提供服务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这几大板块往下拆解和理解，其实我们今天这几类的就是基于这些岗位最佳投手、最佳销售、最佳客服，不坐席的这样的一些人设去做agent的设置。同时我预制的这样的一些agent，它有一个比如说工作5到10年，或者是一个本科生的这个水平，或者硕士生的水平的这么个人。那今天进来的企业来干嘛呢？你需要有企业的资产给他去打理。这个资产就是你企业的数据权限，资金的审批投放的权限，克服相应的收入和资金赔偿的上限，给他这个权限。那你在你企业全部工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么说我们说营销销售和客服是这样理解的？是因为站在企业的生意的逻辑来看，这几个角色是在每个企业都存在的。最大工业数的岗位，这些岗位是能看到通过数据加skill能最大化的把它变成agent能够去自主上岗，自主进化的体系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们现在内部有多少个这样的不同的agent？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们提供的agent的服务方式，如果简单来讲就是4加X4个预设好的agent加上X这个X企业的数据资产和企业的上下文管理。那四是分别是哪四个呢？一个叫营销，一个叫销售，一个叫客服，另外一个是运营。我们在这个行业里面能做到5到10年的工作技能人，叫做最佳岗位的实践的预设。然后同时X就是雇了一个这样人进去以后，你给他什么样的权限，什么样的企业的数据，什么样的企业的审批权限和资金的管用的权限。所以这个理论的X就是我们需要去和企业一起去梳理，去治理，以及在原来他有或者企业的平台之上，能去做一些数据资产管理的，能够让前面的age更好上岗，更好工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对您刚刚提到的那个帮助制造业做销售的这样的一个agent。从您的员工开始接触了解这家企业，到真正的把这家企业适用于他们企业销售系统的agent打造出来，这个过程大概会花多长时间？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这还是一个好问题。我觉得我们讲起来很容易，但是其实做起来还是蛮难的。特别是在新的技术革命的开始，有人相信，有人怀疑，有人在不断的摇摆。所以我们做这件事情可能花了一年多，可能讲起来两句话，讲完核心的是这个企业整个的组织生产的关系。解放思想很重要，先去熟悉工作岗位，这个花了可能。但是比较大的时间可能占了3分之1不止，完了以后才是去做建模。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后面我们同样花了大概3分之1的时间在教练团。因为我们有这样的A选出来以后，并不代表他今天就完完全全是一个优秀秀的投手或者优秀的一个销售。所以我们有一个AI的导师团，我们要去调教他。就前面的学习和中间调教加在一块花了3分之2的时间。另外其实真正的实施执行和系统的上线反而是快的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>暑期工作岗位这个我理解其实就是我们今天提到的FDE前沿部署工程师。他要真的到企业内部，然后跟大家沟通交流，包括他是不是还得在每个企业轮岗，看这个企业它是怎么运作的。假设他们的销售发现我们是抱着这样一个目的去的，我们可能要建一套agent的系统。会遇到执行层的人会比较抵触的这种现象吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定会的这是人性。所以我们刚才前面的话题就是说能看到跑得快的是自上而下的跑的比较快。但是我们清醒的看到，我们做了几个成功的企业。有部分的企业其实CEO或者董事长做的最多的这件事情是动员思维的转型。所以我们有一位董事长，他一年在企业内部给他的全员和管理干部培训，自己做董事长，学习AI去讲课超过15场。他说我先学会，我再给员工讲，员工才能去理解我的思想和能用好这些系统。所我觉得思维转型是非常难的事情。但是惊喜的看到是说，这些员工原来担心的，其实大家都在互联网谈的一个词，就是人会被替代掉。其实发现在企业侧不是这个样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实企业是我们觉得同样会形成K线进化，也是IT的团队。这些成员原来在数字化时代是非常有竞争力的。我觉得在这个AI时代他是更加有竞争力。他首先他base是了解AI或者是用AI的工具，是有技术背景的，所以他上手快。同时只要他往业务再走一点点，他可能就是企业内部的FD。他能找到企业内部更多比我们这些对企业不熟人，找到更多的企业的三个点，就是耗钱最多、耗时最多、耗人最多地方。找到这一点去雇佣和陪练这样的agent上岗，那它的价值就更大。所以这个人K线往上走，另外第二类的可以就往下走。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你如果今天我就和你对抗，你可以对抗一个工具或者对抗一个项目，但是你对抗不了这个趋势。但是我们看到这个董事长一年培训了15场，然后发现他的财务，他的IT还有他的原来渠道的一些销售的负责人，慢慢变成了一个叫做帮助客户成长的这样的一些导师也好这么一个角色。这个角色其实我把它翻译成为是企业内部的FD。我觉得往K线的上面走，这波人是有巨大的机会。这里面可能我觉得首选像原来的ITCIOCTO的这样的组织，他们只要往业务走一点。原来很多做技术都是这样子，上面的业务同学们需求给我提清楚，我就干就好了。但是今天是反向，是你要去学会提问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说我们刚刚提到的像销售客服这一类的职位，他们会有向上走的可能性吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然今天他可能不是自己去上岗，做真正的一线的接线或者是处理投诉的人，他是这个客服AIA能力的，他去每天做异常处理，每天晚上的复盘一样，他要去做总结，他要去做任务派发新技能的，让这些agent去学习。这个人他整个的成长路径就不是原来说我去处理100个更刁难的问题，而是如何让我这十个跟着我的agent能够去覆盖原来超出我工作量和工作能力范围之内的工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得他们的工作性质跟工作方向发生了变化。可能以前从一个执行的职位变成了带着一群agent管理他们的职位。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是所以这些人在企业侧或者在市面上他会越来越值钱。而不是今天我们换了一个title叫FD就值钱了。而是这些人具备我刚才讲到的以业务结果为导向，以企业数据为基础，以岗位标杆为预设的这个人，他能够帮钱拿到结果的至少也不低，他是值钱的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们刚刚提到了首先要熟悉工作岗位，然后这有可能真的也是要企业的一把手从上到下整个大家思想体系的一个变化。另外您提到的第二点是建模，第三点是有一个AI导师团，他来用这个工具，这个具体是一个什么样的步骤？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们举一个agent的上岗的例子。我们在一家企业其实不是说我今天部署个系统立马就切换上去，我们是大概一周的时间。原来我们可能有个词叫做灰度，能给我多少流量，或者给我多少的客户量，或者是DAU进来。我们不是这样子，我们是第一天我们切晚上0点到2点的客服的数据进来。因为这个时间是客户需求最少的时候或者低谷。这样的话即使我的第一天上去有什么问题，那影响面是可控的那基于第一天的工作上岗以后，我要去做评审，做分析，再做一些调整。第二天的时候我就改他的上岗时间，是从下午的12点到下午两点，这个时候是这一天工作最高峰时刻。我们并不是抽高峰时刻里面的10分之1的流量，我们要是这个时间段全段的流量，只有全量我们才知道你异常的边界。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>同样我复盘你在最高峰的表现，哪些有毛刺，哪些有你客户投诉炸毛的对，哪些是你处理比人好的，那我就去做一些调整，第三天可能我会放大到8个小时，以此类推到一周的时间，让它变成一个能够符合我整个企业设定的参照系。这个参照系可能是他最好的坐席，要么是他今天内部比如最优员工的一个标准。所以是这么一个工作模式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我理解整个这个过程，其实他要把它测试运转跑起来，然后在这个过程中不断修正。他其实还是需要花很多的时间，有一轮轮的反馈的。是就原来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们是把它当成一个工具，现在我真的是把它当成一个我的同伴，教会你以后我不在的时候，或者是在晚上凌晨的时候，你就真的是能够完全接管我，而不是说一个指令。现在可能有一些默认叫自动回复，自动回复都是一些FAQ。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们具体真正到前沿部署的这些人，比如说他要去熟悉这个企业的工作岗位，然后要建模，同时还要在AI使用的过程中不停的拿反馈。你觉得这个人他是需要一个什么样的素质跟画像的？因为我感觉这是一个很难的工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我们做法不是一个人，而是一个组织，要一个人有这样的那全才非常难，而且这个人的宽度和时间那就非常碎片化了。所以我们基本上分这么三类。一类我们叫BA以业务结果为导向的BA这种是对客服流程本身有两百多步流程，我们怎么能编排或者怎么能阅读这个客服处理，这个是最佳的一个方式。他能够去找出最好的AI的工作的模式出来，设定出一个比较科学的数据标准去做评测。其实它是偏业务，像美妆、家电、家居，还有宠物、汽车，这些专家今天就是在我们这个组织内工作的一员。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个我们叫做AI架构师。我们今天把业务问题要翻译成为用什么尺寸的模型，以及什么环节我应该要去人干预，什么环节应该要去用机器接管这个AI教育这波人可能他的视角是今天对新的模型，新的A型的进化的一些能力，他能有足够的掌握。他可能是就在AI进化的最前线，最新的资讯，最新的产品，他都要去去能快速的上手，快速的能给出结论，并且快速的知道我这个业务应该匹配什么样的一个解决方案。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三类才是首席客服，首席销冠。这类人他是能够把前面的业务问题变成了这个agent以后，在过程中能够继续参与到调教他。这个调教这里面，我们的角色会变得弱一点，会退后会在客户侧去挑选出来他客户里面最好的这几个角色，能够去组成这个AI的专家团或者AI的教练团。如果企业内部未来大的企业或者是原来平台化做的比较好的IT能力和技术能比较好的企业，那这几种角色它内部应该都会要具备。可能在这个阶段，通过我们的方式是能够去快速知道的横向你们所在的这个行业里面最好的水平是什么样子，能能少走弯路。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那在一开始的时候，是谁说服这个制造业的董事长来做agent的呢？我觉得拿下客户可能是第一步，而且这个客户他能说服董事长，他可能级别还不能第一，他得有更好的vision。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没错，对于一号位来讲，他就关注我要么收入增长，要么利润增长。其实我们只是在今天应用AI的这个时代之下，用H的这个方式去让他理解这个事情，能满足他的收入增长或者利润增长，或者人效增长的诉求。所以不是说我们用有一套什么样的方式去说服谁，而且这里面找到大家共同想往那个方向走的这个意愿，那其实就是一拍即合的东西。我们说最难的是你把你的东西装在别人脑袋里面。那今天是正好他脑袋有这样的一些发展的诉求、期望、动力。我们在这过程中去帮你的动力更快的，能看见更快的，我们叫做MVP，能让他想到的看到的。是能够结合起来。所以我们像刚才讲的那个企业的董事长，是因为他讲的这些东西，我们的团队进去以后，快速的通过今天AI工具去做出来MVP。他的董事长就给他们的团队说了一个很具象的词，就是说没看到之前我不知道我要什么，但是这个就是我想要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有意思，他还是看到了一点点产品，他大概对他想要的东西自己也有一个清晰的画像，这个东西可能就是做出了一个他脑子里面的产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>您觉得今年这些企业的一号位，他在接受agent包括主动去拥抱AIA政策的趋势上，它有发生什么样的变化？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个天壤之别。原来都在讲怎么用，能不能用，现在直接跳过，什么时候开始帮我用上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从什么时候感受到这个趋势的变化的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就在今年春节之后，这波龙虾兴起以后，以及后面的哈里斯工程，包括现在路虎，这些慢慢能够让原来大家关注的AI都在模型参数，说他这个跑分到今天能够看到他执行任务了，那对企业来讲是非常立竿见影的。他脑子没多一本账，还是回到刚才那三个标的已经慢慢出来了。我哪里耗人最多，他就琢磨，能不能帮我提高人效，哪里耗时最多，那你能不能帮我提高速度，哪里耗时钱最多能不能帮我提高？所以企业家是最聪明和最敏锐的一动物。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说他们现在用一个AI客服成本是多少？然后他需要去付token的用量的使用费吗？因为其实也是从今年开始，硅谷的大公司也要求员工开始去用A正的。但是我理解他跟您这边的可能还不太一样。他就是比如说鼓励大家去用AI工具，但很快就发现自己企业的token的账单给烧爆了。现在在您接触的客户中会有存在这样的现象吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是普遍存在的，就拿我们自己举例子好了。我们在Q一结束的时候，其中有一个AI的项目，我们收入可能300万，但投入1200万。但是我们慢慢到这个季度结束，基本上能看到就会打平掉，所以出去投入还是有的。但是今天正是因为我们自己是这样经历的，所以我们反而设计了这样的。而是你背后你能解解决的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是那句话，能不能算得过来账？你算得过来账背后用什么token？其实对他来讲，大部分老板他是不会care的。而且有些时候我们看到很多问题在客户侧，他并不是模型先进性的问题。它可能就是刚才讲的最后一公里的企业上下文，企业的数据规不规范，企业数据好不好用。这些问题可能今天不一定是要用最好的这个大模型，今天反而我们是把这些降低它的选择和降低它的本身。就不属于他应该要去判断的范畴之内。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天我买一个电脑，在行业里面还会去说我关注我电脑的CPU，我的芯片，我的内存，企业也一样的。我觉得他一定是关注能够给我带来的那个账，我算得清楚就OK了。我们希望在这一层通过我们的实验尝试去帮助客户。未来在我这个平台上，他去雇一个外呼机器人，或者是外呼agent或者是质检agent或者是电商投流agent那它是算是总账的。背后你用什么模型，什么方式，可能这是留给我们团队的，我们的技术能力做到多好，就是我们未来的利润的空间和你成长的空间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有意思，你们现在用的是哪个模型？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所有的阿里云的平台的模型我们都在用。但是对于客户来讲，其实你是系统模型还是今天的开源的像提名，像质谱这些。我在我们的阿里云平台都有这样的模型。那这样模型我们反而是用这样场景来去帮客户挑选，在什么场景下用什么模型对你的性价比最高。可能我们对模型不会有执念。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们现在的策略我理解，根据刚刚您说的，应该不仅仅是说我只是无脑用最强的模型。而是可能是比如说好的模型配上，比如说阿里的一些开源的模型，可以下载到本地的，大家是综合来调度。现在是这样一个思路吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你其实谈到这个问题，就是说怎么部署的问题。其实部署我觉得分两类，一类叫做系统部署，一类叫做模型部署。今天我们这些agent目前就把它简单理解成一个系统。好，那这个系统可以在我阿里云上公有云上，也可以在你企业自己的环境里面思路，这是没问题的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个是模型思路。模型思路，我们发现大部分人是混淆的。一两年前大家可能都在谈，我能不能下载一个开源的去思路，那有人在这样干是因为模型的智能需要去做后训练。今天其实吉姆已经强到没有人再去提后续的这些事情了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个是比如说今天像开源的大尺寸，不管是我们阿里的大尺寸的模型，还是像今天K这样模型，都是两点几TB的参数。那有没有算过这个账？如果你要去思路这个模型，你没有个几千万的初始化的投入，可能几千万对今天最新的先进模型都还打不住。所以这个成本账没有算过。第一个是需不需要要成本耗不耗得起。所以这个模型思路，我觉得这个事情未来更多的会交给像这样的agent他去选择在什么场景下用什么样的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家还有一个问题的混淆，就是如果我不思路模型，我是不是这些数据就给了你大模型公司了。只有思路我才能把这个数据留在我的企业内部。其实今天我们用agent去调大模型的过程中，其实我们和大模型对话。大模型并不会吸引这些数据。而且这些数据可能对到目前来讲它是污染。但是真正说能够去收集采集的是b coding这样的agent。像ChatGPT你和他对话，他是能够去采集这样的数据，它是为了让你更好的优化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个是ChatGPT c端产品的一个默认设置，当然大家也可以关闭用于数据训练的这个按钮。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天我们这层在哪里？就在你的agent里面，你的客服agent，你的销售agent，你的营销age。其实agent可以部署在你家里，部署在你的环境里面，你可管可控。所以在系统这一层可以管控你的数据安全，数据的合规性。在模型这一层，我觉得还是今天在市面上要用你最符合的模型和性价比匹配你解决你问题的模型是最优的方案。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>综合来看，今天模型的能力已经很强大，强大到很多用AI它就已经有一些效果了。所以大家不用事事都用最好的模型，反而是现在在一个拼效率的阶段，就拼谁的运营效率更高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我觉得刚才这个话题在to b这一侧，不是模型的先进性，而是他和他业务场景比较多快好省可以用最好的模型，这些地方我有收益那我就做。但我们今天可能是用一个适中的模型，能解决你场景原来对比下来就能达到很好效果的，未尝不可。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我刚刚问这个问题是因为您之前有提到过，比如说模型能力一升级，然后很多harness工程就无用了。你们跟企业做企业级的agent，我理解就是模型能力一升级，你们会需要及时更新你们的agent。对你们来说它是一个风险因素还是一个利好因素？它是会增加你们的工作量，还是说这个其实还OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前还OK。如果他用了我这个A，那我一定是在稳定的绑定这个模型。行，已经是确定的，而不是说随着升级它就自动升级，而是要经过人工确认的。比如说我们一个员工上岗，还是要经过刚才那个阶段的验证，只这个时间会缩短。所以这个验证在目前如果没有客户或者是我们主动升级的情况下，他还是用原来那个方式去工作，是保证效果最稳妥的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天一定是我们在在哪个地方测试到这个模型带来的足够的理由去升级。我们去升级。这个升我觉得从长远来看一定是好的。只是在这过程中，我觉得这也是FD在里面的关键作用。我们要去测，要去对比效果再去做升级的方案。而且升级方案可能并不是一个API级别的切换。在企业这侧他也绑定了很多企业的流程、权限，包括企业内部的管理的边界。看起来切换很容易，但其实在企业这一侧，他其实要的是稳定的工作输出。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你觉得中美的企业级AI现在大家有什么？因为市场商业环境不一样的地方，然后他们之间有什么区别？</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>先说企业，再说这个角色。像在前面的信息化阶段，有sales force，有SAP这样的企，其实他已经奠定了很多的工作流，以及奠定了很多的数据标准。在中国其实在这一块是缺乏的。所以我们在中国做FD大部分做交付。为什么现在交付不是我们这些同学或者是其他的这个行业他们想去做，而是每一家都没有一个比较平稳的地基，所以我要先去做地基，所以这个交付就先到了。我们从第一天打盖楼再到上面装修，一系列事情都要去完。这是我觉得本身的这个基础是不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个才是说今天美国的企业和中国的企业，其实付费习惯也不一样。你们在硅谷应该是很直观的，大家对尊重知识，包括人力成本也贵很多。但在中国是不一样的，因为中国每个大的企业都一个IT团队，这些团队如果说仅仅是交付的话，那其实他内部他也是能做的那为什么你在这里能做出比他好的价值？这里会遇到一个市场稀缺和一个市场饱和的一个问题。所以这个可能一种是系统的环境，一种是人才的环境。这两个不具备完全的apple和apple的可比性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个是说这个角色这里的人的工作有什么不一样。在硅谷，其实这些人可能今天有几个大的平台，可能包含像sales SAP传统的这种SaaS，还有像facebook google这种的互联网平台。可能在中国其实像淘宝、天猫，企业微信，他们要去更多的站在客户视角，怎么去利用好已有的互联网的平台去工作。传统如果仅仅做一个功能集成的交付，那它会落到非酋的一对上。今天可能如果是从互联网平台出来的人和做这些事情，他就有天然的优势。那如何懂流量，如何懂互联网的运作方式，如何懂互联网之间的这些能耗，这个是蛮不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，您觉得中国跟美国的FDE现在是领先同步还是滞后？因为刚刚我听您说你们的几个客户，你可能花了一年的时间跟他们去做部署。其实我感觉你们走的还是非常的早的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们没有FD这个词之前，其实我们干的这个事情可能就是和我刚才讲描述的FD就往这个方向去的。并没有今天因为有FD这个词来了，我们就套上去。所以我们原来五年前就一直有这么一个团队就叫CSM。所以这个团队只是我们围绕着原来是客户成功，是今天有了AI来了以后把AI纳管进来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们如何进？必须让客户成功。我觉得我没有数据，所以我没法对比说比他好还是比他不好。但是我们这几年一直在这样做，但是我们越来越能感受到，其实最终是用客户的订单，客户的续费来去对你表达你做的好和不好。所以目前我们看下来，收发收购。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>太谦虚了。作为瓴羊的CEO，您现在最关注的三件事情是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好问题我想一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如是客户的拓展找到好的人，还是整个技术方向跟战略决策的把控，或者是怎么样去提升运营的效率。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>抽象层面可能就三个东西，一个叫做人，哪些人？不管是客户策略的人，还是我们自己的员工层面，人是能够去更好的更快的从AI里面冒出来。在内部我们每个月会有一期叫做AI最佳实践的员工座谈会，员工的分享。我们希望能快速的去找到或者去帮助这样的一些同学们能冒出来，能够去成长。客户侧我们也是一样。所以客户侧我们每个月都有一期，或者每年我们都有一个很固定的一个活动，叫做数据同学会。希望能找到这个行业里面头头脑脑的过去一年发展成长和蜕变最好的这些人能去交流。我觉得人是所有的这些事情的前提和根基。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个是事事情这里我觉得是势能，我们得找到在这个势能上的事情。比如说我们最近在做的这个a one上的这些客服、营销、销售这样的A型的。其实我觉得找到这样的事情，其实最终是要能够看到他的自增长。但是在客户内侧他能够自己口碑相传。比如说刚才讲的有些例子，其实都是一些客户和我们讲的，或者是客户和其他的客户讲，再来反馈到我们这来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三个就是橘橘是局面，这个局面就AI的格局，AI的发展的局势，以及今天agent的一些进化的局势。这里面有技术侧的，有工程车的，有在模型侧的，可能有在业务架构侧的。所以总结下来可能关注人事局。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在在AI时代，您刚刚提到了人，你们也会去做最佳实践的员工分享。您觉得现在人的技能应该往哪个方向转变？如果大家想要自己在AI时代发展的更好的话，你们更倾向于招哪一类的员工呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们也在尝试，其实我们不知道最好，所以说我觉得应该是要招的更好，只能Better and Better。所以现在我们能看的就这么三类的结合。一类是懂技术的，第二类是还是要了解业务的。要么技术往业务走，要么业务往技术走。那目前看下来，技术往业务走可能难度更低一点。这业务可能我们不要是个全才，可能是个专才。你要么去把一个营销多平台或者单平台做的很好，要么是你把一个行业里面的客户的各种边边角角流程理解的更透。所以我们这里有不少的这种叫客服专家，叫营销专家这样的角色。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三个，我觉得还是懂数据。其实总书记并不代表说我天天看报表，而是你看的报表，你们至少在你脑里面，我觉得有几个东西。第一个同比，你看到这个数据理解，看到同比这个是健康与否。如果只是给一个裸数据说今天我增长180万，但这是好还是坏不知道。第二个我们叫做对比，你是和自己对比，还是和竞对对比，和另外一个品牌对比，还是和你自己家的另外一个产品对比。第三个我们叫做占比。你虽然做了180万，这个市场上你是1‱，还是说这个10分之1，但你的模式就会不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这些可能是基本的一些数据思维，最终可能落到AI这一侧。我们也是要让AI有这样的能力。你有这样的能力才会有这样的判断，有这样的判断他才会有这样的策略，他的执行才会慢慢变成进化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么要数据？数据其实就给了一个参照性，就给了一个靶子。这个靶子就是个设定目标，你不断的超越它，那这个数据就成为你的一个拐手杖。综合来讲，今天就要懂AI，懂业务深度，有对AI的锐度，懂业务的深度，还有数据这个宽度。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对您的这个分享让我想起一个很有意思的话题。之前AI刚来的时候，硅谷有一个职位叫做data scientist的，就是数据科学家。很多做数据科学的人他们都非常的慌，因为AI就可以做各种的数据分析了。他不是首先取代的是我的这个职位。然后您刚刚的这个分享，我突然意识到不管在什么职位上，只要大家真的做的比较好，他都是很有价值的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我觉得这是自然进化的规律，也是AI进化，我觉得也逃不开。刚才你说了一个词，数据科学家。其实我们在十几年前，我们在国内我们也用这样的词去定义。其实后面我们改了下，后面加去。因为在国内这个语境里面，数据科学家就是很非常神圣的一个title，所以我们叫做数据科学。数据科学是讲究方法，科学不是你的人的位置。这个不一样的科学的方法和科学的工作方法要落到你的业务场景里面。这个数据科学才是有方业务。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是说在现在这样一个时代，资深的人会更吃香？如果是刚刚大学毕业的应届生，刚刚开始熟悉一个职位，你觉得这一类的人他会有优势吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得to c和to b不一样，to c可能去做一些创新，可能今天没有差别。但是to b来讲，你的行业经验落后，还是有壁垒有价值的那只是这个价值原来可能是十年他学会了，今天你有可能一年或者两年你能掌握。对当下的这些年轻人，其实我们如何能站在别人的肩膀之上去成长，而不是从零开始去学习。这种新的工作方式和工作习惯可能会让我们人和人之间产生新的差异。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为我们今天其实聊到整个企业级agent您这边确实我们也能看到很多的结果，就是它能帮助企业降本增效。但你觉得有没有一些之前做不了的一些业务，有了AI以后是可以做的，就是它可以帮企业完全打开一个新的领域跟新的增长市场。现在你们有看到这样的一些趋势吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得特别像应该做size，就很多做不到的。但是今天我觉得回到企业侧就两个方向，一个是加AI，一个是AI加加AI就是我们自己也帮助不少的企业上线了一些系统，用一些工具。比如说我们数据分析的工具，数据治理的工具，还有一些风控的一些工具。那这些工具今天加了AI以后，它的效率效益最终回到业务效果上来，它会有一个增值。这种现在也有不少的企业还在这个方向上去发力，我觉得这个是非常有必要的，不能一口吃一个胖子。而且有些系统，特别是对一些工具型的系统，sas型的系统，并不是这些系统没有价值。特别是在这个阶段，这些有些软件的工具，它的价值会重新分配了。只是原来这个软件我必须要打开这个软件的首页，log in进去我才能使用，那是人用的那今天可能这些系统它可能是给AI用，它可能不需要人登录，所以它的价值会重新分配。那这些系统还是有效的这是加AI的方式去用的。第二种叫AI加谋定的是我是在某一个领域，我要真的是要重新用AI的方式去改造它，去定义它。比如说我们刚才讲的AI客服、AI营销、AI导购、AI投手这类的地方，反而是回归到企业本质，哪里耗人、耗钱、耗时最多的地方，那这些地方是容易去探索AI加的方式的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，特别精彩。好好。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢小鹏。好啊，谢谢红军。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，这就是我们今天的节目。大家听完这期节目有什么样的感想？欢迎给我们写评论，写留言。播客的听众可以通过小宇宙、spotify还有苹果播客来关注我们。视频的听众可以通过B站还有youtube搜索硅谷101播客找到我们我们部分节目的文字稿也会发表在我们的微信公众号硅谷101上。我是红军，感谢大家的收听，谢谢。</p>]]></content:encoded>
+            <pubDate>Tue, 11 Aug 2026 01:45:00 GMT</pubDate>
+            <guid>6a7a72b57bb1a8868fb4b2eb</guid>
+        </item>
         <item>
             <title>E247｜对话盛颖：xAI，Infra的浪漫，SGLang，开源，平权与“甄嬛传”</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a72bd82008ed7314d6f92f5</link>
@@ -45,18 +315,14 @@ SGLang，是这条研究路径的集大成者。它从一个学术项目成长�
 【硅谷101正在招聘】
 《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！
 👉🏻点击查看招聘详情
-【制片/总编辑】
-陈茜
+【监制】
+泓君
 【采访】
 陈茜
-【剪辑】
-Frentee Jacob
-【视觉编辑】
-王梓沁
-【音频后期】
-Amei
+【后期】
+Frentee Jacob Amei
 【运营】
-孙泽平 13 朱婕
+朱婕
 【BGM】
 The Hoover Dam - Bonnie Grace
 Spring Dance - Forever Sunset
@@ -7860,149 +8126,6 @@ Special Guests: 于振华 and 大卫.</description>
 <p class="transcript-line"><span class="time"><strong>[00:38:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，这就是我们自动驾驶的节目。更多的观点与路线的碰撞，我们会留在今年的节目中持续的放出来。如果大家对这个话题感兴趣，记得在苹果播客小宇宙spotify上持续的关注我们。我是红军，感谢大家的收听，以及祝大家新年快乐。</p>]]></content:encoded>
             <pubDate>Thu, 15 Jan 2026 02:00:00 GMT</pubDate>
             <guid>69684b5910309210cb7f9c82</guid>
-        </item>
-        <item>
-            <title>新年直播1：AI的2025与2026，技术领域的共识与非共识</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69682efcaa3ca0c1c64a78ea</link>
-            <description>本期节目是硅谷101新年直播精华系列的第一期。我们将三小时完整直播拆分成了三期播客，分别围绕2025年备受关注的几个领域：AI、自动驾驶与美股投资。
-回顾2025年的AI行业，我们见证了开源势力的崛起，见证了硅谷的人才大战，见证了“循环融资”模式的上演，也见证了万亿大基建和能源争夺的疯狂。
-这一年，共识出现了转变，企业不再追求最贵最好的模型，而是转向垂直领域的小模型。大家比拼的也不再是谁的AI智商更高，而是比谁的能力更能落地到应用上。
-站在2026的开头，我们很好奇这一年的故事将如何书写：是新一轮的范式革命？还是在Scaling Law的道路上继续前行？抑或是迎来AI应用爆发式的增长？
-在这次直播中，嘉宾带来了一个有趣的洞察——头部玩家已分化为以OpenAI、Anthropic为代表的“模型中心派”，和以Google、xAI代表的“系统中心派”，后者凭借完整生态和反馈闭环，很可能在未来重新定义Scaling Law。
-【主播】
-陈茜，硅谷101联合创始人
-【嘉宾】
-Howie Xu（硅谷徐老师），资深硅谷技术高管、财富500强Gen首席AI/创新官
-张璐，Fusion Fund创始合伙人
-【你将听到】
-01:25 2025年AI回顾：哪些趋势超出预期
-02:09 AI发展主线与范式转移：企业AI共识成形
-04:28 DeepSeek启示：中国模型与开源冲击
-06:01 Neolab 2026年前瞻与下一代模型探索
-10:57 Scaling Law未止：数据、算力与系统优化
-16:50 Meta困境：收购Manus与模型战略争议
-25:11 OpenAI上市路：估值挑战与生态竞争
-29:08 Anthropic的ToB定位：在AI Coding战场稳扎稳打
-35:22 AI应用元年？2026年或迎爆发增长
-41:22 观众QA：垂直Agent与行业机会
-【延伸阅读和相关术语】
-本期播客中提到的Neolab：
-Thinking Machines Lab (TML) ，由OpenAI前CTO Mira Murati创办
-Safe Super Intelligence（SSI），由OpenAI前首席科学家Ilya Sutskever创办
-Humans&amp;，由前xAI研究员Eric Zelikman创办
-【监制】
-泓君
-【后期】
-AMEI
-【运营】
-朱婕
-【BGM】
-The Secret Spring - Helmut Schenker
-The Light from Within - Howard Harper
-Ever Forward - Francis Wells
-【在这里找到我们】
-公众号：硅谷101
-收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
-其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
-联系我们：podcast@sv101.net
-Special Guests: 张璐 and 徐皞.</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，欢迎收听硅谷101，我是红军。今天的播客是我与我们的视频主理人陈倩在硅谷101视频的账号上，在2026年1月3号做的一场3小时的视频直播。在这场直播中我们主要讲了三个大的部分。第一部分是AI的2025年与2026年技术领域的共识与非共识。第二个部分是我们回顾了过去这几个月自动驾驶领域的商业战争，还有特斯拉FSD的表现。第三部分是从华尔街的视角，大家如何看待2026年的美国股市？我把这场长达三个半小时的直播浓缩成了三期播客，大家可以挑自己感兴趣的部分来听一听。下面就开始我们今天的第一场直播。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一场我就先跟我们的两位嘉宾来聊一聊AI这一场他会加入我们的谥号懿徐，也就是大家非常熟悉的硅谷徐老师。他是资深的硅谷技术高管，也是财富500强jane首席AI创新官。还有一位也是我们的老朋友了张路，他是学房子的创始合伙人。接下来我们就有请两位加入到我们的直播间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>you新年快乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>happy year, 新年快乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>新年快乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我第一个问题，我们来总结一下2025年的整个AI的发展。如果有一件事情是超乎了你在2024年底的预期的，会是什么？我可以先抛砖引玉一下，比如说我没有想到玛塔落后这个新闻事件会这么抓。然后经历了大规模的裁员，包括TPT lab的一个重组，甚至是搅动了整个硅谷的AI人才大战，然后也包括验国坤的离开，这一点我是完全没有预料到的。还有就是我没有想到硅谷会以这么强势的一个姿态给追回来。我也很想问一问两位，你们觉得2025年有什么样的事件或者是趋势，你们之前是没有预料到的？我们先从路开始，然后好意好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>回想24年到25年的话。第一个是说我们其实从过去十年一直在布局企业级的人工智能的应用，就不是to c是to b的应用。所以我们一直还是比较相信垂直领域小语言模型的应用落地的可能性。但说实话在24年的时候也没有预期到说25年大家的转向的共识会这么快。大家能意识到说scaling law不是解决所有问题端的钥匙，而且也会更加实际和现实的去考虑说在行业落地的话，并不需要最贵最好的模型去解决所有问题，而是去关注一些小语言模型。通过这种鸡尾酒的方式去进行当地化的微调，去进行各种各样，尤其是数据隐私监管比较多的这些行业的垂直部署。我记得大概是去年的一月份，当时无论是一月份，每年都有几次大会，像jack Morgan house car conference，再到后面的doubs。去年我记得当时我去了之后，就听到各大的500强公司，甚至是全球的一些领袖在探讨这个问题的时候，对于这方面的认知转向速度很快，我觉得这个是一个比较大的惊喜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那认知转向之后的话，我们也要看说实际的行动。尤其到下半年年底的时候，第三季度、第四季能看到在大的企业里面，对于垂直领域AI布局的预算的增加，还有包括在董事会层面的讨论，已经不是说我们要不要应用AI这个问题的答案一定是yes。Young, 那是怎么样？How and how much?</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我们要放多少预算过去，我觉得这个是一个让我比较惊喜的一点。另外一点的话，其实当时24年预想25年的时候，会觉得25年会是很混乱的一年。我记得当时在大公司的时候，我们当时还在讨论说上台之后也不知道整个监管各方面会不会有很大的变动，会不会对科技行业包括AI的发展产生巨大的影响。但是你回头会发现，反而25年监管在大规模的放松。所以形成了一个不只是人工智能，是多个技术叠加的高速发展的一年。所以去年一年整个不仅是我们，还有包括我们认识的其他的创业投资的伙伴。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实大家的核心就觉得很忙很累。但同时有一种非常有热情，很打鸡血的状态。它不只是单一的一个AI的叙事，它其实是AI有一个叫做AI原生企，还有就AI赋能的各种产业的医疗金融各方面技术的一个叠加增长。包括还有太空科技、国防科技等等。所以是让人非常兴奋的一年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常好好意。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我就先顺着你刚才讲的一点，就是meta我觉得meta的model落伍，这是一方面。但另外一方面我们也看到在2024年年底的时候，大家就觉得开源的模型的战斗已经结束了，拉马一统天下。但到了2025年发现不是这么一回事情。然后出来横空出世一个deep seek一年走下来。这个deep seek moment它deal implication其实远远超过我们年初的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>为什么？因为让我们看到了好几件事情。第一个DPCK不是一个公司能够做出来。但大家后来发现，包括kimi包括一些其他的模型。其实中国开源的模型很多都做的很不错，都是以比较小的代价就能做了。另外一个其实不只是一些大公司，像OpenAI anthropic XAI的能量也很大。Google made a但其实说老实话，大家后来发现一年下来，包括出走OpenAI的以前的CTO mirror，他做了一个thinking machines，包括SSI做了好几个new lab出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以说我觉得deep seek是只是一个开端，就是做大模型这件事情并不是说我们2024年认为的这五家四家大厂所垄断，或者说只有他们能做。不管是开源的模型，美国以外的公司，还是说真正的research，可能是发生在这几家公司之外。这个我是觉得在2025年的年初的时候，是没料到有这么深远影响的。当然了，以DP为首的一批开源公司的结果我们看到了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:05]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>因为即使是在美国的很多的enterprise，现在都在用这些开源的模型。New lab就是那些新的做AI research做研究的一些公司，我不觉得我们今天看到他的结果了，但是我觉得至少业界的人认为他们是在做一件很有意义的事情。他们这一批公司会有希望做出OpenAI在2019 2018年做的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那既然刚才他提到了new lab，我就把那个问题提上来说一说。就包括你刚才提到的thinking machine lab，包括EISS covered的这个safe super EN pallidness。你觉得so far我们还没有看到他们出一个非常重磅的东西出来。你们觉得他们会在2026年爆发吗？他们会出来一个什么样形态的东西？他们会和主流的LIM是一个不一样的应用的形态，还是基础模型的形态，还是另外一个到达AGI的形态。这个东西我们会在2026年看到吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:06]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我个人是有期待的，我觉得是有这个可能性的。现在最重要的一件事情是很多很多非常聪明的人，愿意集中精力，资源很投入的去做这么一件事情。而且这些不同的lab都有自己的thesis，都是有自己的angle。我觉得肯定会出来一些结果，是不是会像GPT34那样，2020年、21年、22年这样子一个huge moment，这个我觉得还太早。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>露娜我知道，因为硅谷的VC也都是在大价钱在往这个new lab里面砸钱。你是怎么看他们在2026年发展的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得其实你看这个new lab，包括就像浩毅提到的，今年年底的时候有几个新的成立。包括像XAI的其中一个funny member，也是我们认识很久的eric，也出来做了一家新的公司。你就会发现不只是这种特别大的，特别有名气的科学家，其实这些主流的模型公司的核心的科研成员，他也会在做的探索的过程中，可能有一些新的模型架构的想法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是这类公司它有几个特点，一来是说它本身公司的一个特性和设计都不是设计来去优化短期爆发的。它本身的设计就是为了去探索下一代的长线的新型模型架构的搭建。所以你会发现这些公司的特点就是它为什么叫new lab。因为它更偏研究型，他也更专注的安全性，他会对很多不同的方向去进行探索。所以你会有一种感觉说，可能在AI的这种应用，包括我们投资创业的生态里面，如火如荼在往前走。但是他们那边的话，怎么这么久才发了一篇paper，再怎么这么久可能在做了几个一些开源的一个模型，但是这是他们本身在设计之初的底层的一个逻辑。所以其实你说你想去期待他们像XGP当年一样，对行业突然间进行这样的一大的一个冲击，甚至说去冲击整个主流IOM的架构的话，我觉得在短期是比较困难的。但是我觉得现在大家也在看到，到底LM是真的能达到AGI的最终的一个方向吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>包括其实现在大家对AJI的定义，我觉得都很混乱。我个人非常喜欢的一个HI定义是，我记得在他的AI conference上，我听开普老师提到的，就是说人工智能能够做90%以上的工作，比90%以上的人做的好。所以你其实想这是一个非常清晰的定义，但是我们距离它还很遥远，在这个过程中大家也有很多的探讨。现在是不是世界模型，甚至说我们是非常相信我们刚开始是二维的语言，下一步的话三维世界等等等等，它是会进阶的那这些new lab它是不是内部的讨论，是说我们现在要去对标IOM去做一个新的架构，还是说我要布局的就是。接下来三年、五年到那个时候，AI所需要的底层的基础设施的技术，还有说architecture的建立。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>另外一点的话，我也是觉得说因为它的这种比较偏研究偏安全性的设定，他可能和我们传统意义上看到的，无论是从以商业化为基础或者是说VC口去追求的这种高速增长的公司的特性是不太一样的。所以确实会有很多钱，像用大家的定义说可能会被浪费掉。因为你会发现研究了很多之后，可能探索出来说这个方向是走不通的。但他对行业有没有价值呢？确实也有价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>另外一点，当时我们记得是2019年ChatGPT这个让大家非常惊艳。再到后面的话，2022年再到2023年。但是现在也要知道，我们被惊艳的门槛也在变高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你现在也很难说出来一个架构，你说我现在比现有的高十倍，十倍很可能只是一个季度的参数。你大家想一想，我们大概可能从一年多前的时候，一个million token的训练的成本，到现在已经降了几百倍。所以其实我觉得现在大家的预期也会比以前高很多。这也是为什么我个人可能觉得26年比较难。能够从这些neo lab的公司里面看到一些让大家觉得说真是有一个breakthrough。但是他们做的东西还是对行业和长线是非常。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有价值的对那你觉得在26年这些大模公司会对scaling law有个更进一步的推进？因为比如说我们在GPT5推出来的时候，市面上大家都说scaling law已经hitting a war。但是谷歌的杰瑞奶新一代出来，大家又说谷歌是对scaling law的一个进一步极致的执行。说明scaling law其实还没有点点，我还有继续往前推进的可能性。刚刚才路也说了，就是在过去一年，我们看到整个的token价格也是一个急速的下降。其实整个的算力的性能也在一个急速的成长的这样的一个过程。大家觉得26年我们还会看到scaling law的一个进一步的往前推进。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:38]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我个人是比较乐观的，我是倾向于scaling law还是非常strong的一派的。第一个就像你刚才提到了，OpenAI捂出来，然后给人家感觉也就一般般，但是真的又让他重新燃起。但我觉得这一个例子就正好说明，其实OpenAI在上半年的时候，甚至之前他自己内部都已经觉得这个预训练也差不多了也已经tape off了。所以说他花了大量的精力是在预训练之外。但是其实谷歌的证明这个方向是错误的。据说open I现在又开始重新要把这个focus又又要放回预训练里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我是从一个computer architecture的角度来讲，我们一直说算法、算力、数据这三方面。虽然说数据大概从t GPT出来，那个moment已经把网上的数据都已经扒光了，但是实际上我觉得远远不够。因为数据到底应该是怎么把它给curate，什么样的数据是好，什么样的数据是不是不好，应该要放多少这个比重？其实我觉得这里面有太多的permutation，大家没有把这件事情搞清楚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:43]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Google的很多的G的最近的2.53的很多突破，其实跟很好的数据，并不是说网上的数据一下子多很多了，但是把数据给整理好，清洗好，怎么用法，这上面花了很大的功夫。我觉得现在还有很大的空间，这还只是公开的数据，你怎么去用，还有很多domain knowledge right。以前我在pa network管AI的时候，当然了，今天的笺跟当时的第一版的jm差很多。但是就发现他们对安全界的数据不是说不了解，是一丁点都不了解。要让他去理解domain knowledge，这还是有很长的路。这是从数据的角度，从算法的角度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们刚才已经说了，你其实有不同的angle可以去思考，去看不同的东西。刚才我很同意录的一个看法，就是不一定2026年今年会出什么成果。但是大家会试很多东西，即使你试错了，或者说有一些东西试了没有用，这本身就是一个progress，我觉得大家也是能够互相学习的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:40]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后算力这方面，虽然说你看伊朗马斯克建了最大的数据中心，甚至于以后要做百万张卡。但我觉得不是说把卡都串起来了就一样的。这里面有太多的从computer arca，从数据的class，你怎么去把卡连起来，然后使得它的容错带宽。你到底是训练了多少时间会崩掉？因为什么原因崩掉？这里面有太多的工作可以做。所以说从我的角度来讲说预训练scaling law已经差不多了。我不敢说这出在哪里，但是如果我们若干年以后回来看，觉得还有十倍的空间，我完全觉得是可以想象的这是我的看法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>各位有什么补充吗？对我觉得我也同意陶宇讲的，26年的law还是成立的。但是一方面它不是唯一增长的一个路径了。二来的话他可能也是由于现实的原因，可能会成为更多少数玩家他可以去负担的这样的一个发展方向。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>另外的话，现在对于scaling law的理解，不会是在像以前觉得说你只是扔越来越多的数据，有点像无脑一样的用数据去堆砌进行推进。而是更多是从系统层面上的一个selling。包括我们提到的刚才浩伟提到的一个算力，还有包括system整体的一个优化。谷歌其实它就是这点比较有优势，像刚才浩也提到了，它不是说数据更多，数据的质量很重要，还有数据的优化，还有就是数据的多样性。另外一点的话，谷歌还有一点优势，就是它这个闭环真实世界的一个用户反馈。它这种快速的用户反馈，多线产品搭出去之后的话，反馈再进行产品的优化，这也是他scaling law成立的原因之一。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在提到说现在其实我们的叙事也在改变，对吧？25年和24年相比的话，大家不再只是追求说哪个AI最聪明，模型的效果最好。哪个AI成本更低，哪个AI可以有更实际的落地应用。那这个时候的话，你再看谷歌它的很多系统优势，他在这个层面上去有一个系统方式的横向纵向的scaling long对他来讲就是成立的这也是为什么你会看到说gamma这次表现这么惊艳。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我们内部也了解到，谷歌毕竟还是有一个非常强的部门，就是deep mind。Deep mind其实从几年前开始，他们内部已经有很多新型的模型架构了。他就可以和现有的他们的这么大的模型进行整合和各个角度的一个协同的一个优化。这也是他一个非常大的特点。所以我觉得今年会非常有意思。大家会看到对于过去的很多的一种scouting的方式的一个修正，也会对更多的系统是玩家的看到他们的强大的一个实力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得现在其实你看AI生态可以分成两类公司。一类是模型中心的公司，比如说还是像OpenAI anodic。还有一个就是系统为中心的公司，谷歌是一个代表。其实XAR也是在以系统为中心的方式去搭建这样的公司。所以你看马斯克一开始他不只是在训练模型，他整个生态从硬件到软件也希望自己去搭起来。他用他的超能力，无论是资金层面上还是说执行能力层面上，往这个方向去发展。包括apple虽然说现在大家对它的批评比较多，在AI这一波大科技公司的竞争中，但它还是有非常强有力的一个系统优势的。所以你其实从这个角度去看的话，大家对于scaling law的理解，还有包括说定义都会和以往几年会很不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，接下来我们聊聊几个大的player公司他们现在发展的情况哈那首先我们来预测一下meta在2026年，然后因为现在TPD lab大家对他们的态度也很高。最近其实还有一个新闻，就是meta收购了中国团队manus，交易金额据说是在20到30亿美元之间。然后听说仅用十多天就完成了谈判，非常快。因为我记得manus他们整个团队前到新加坡再到美国来，其实也就一年多的时间。大家觉得meta这么快的出手，它背后意味着什么？他就为什么要收购manus，以及你们觉得26年meta给大家一个OKI can come back这样的一个surprise，还是落后的更远的这样的一个比较悲观的一个预期。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我可能是有一些自己的偏见，我其实说实话现在对meta挺失望的。因为我刚才也提到了，我们之前一直非常看好开源生态。当时拉妈岁出来的时候也很惊艳，也非常希望他们在这个方向上继续去推进。但后来lama four之所以出来之后，大家的批评就是表现和大家的预期差很多，也是因为他们内部的战略调整，希望AI不是去reasoning，去做推理模型，而是说更多的去关注产品端，太早的去向产品端去推进，所以导致当时发布其实很不尽如人意。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>在向他提到的deep sik发布之后，再让大家看到其他公司开源生态做的角度。在他过去这一年非常动荡的从scala I的收购团队内部的调整，再到过去对minus的收购。Minus和meta的收购，就minus来讲是一个非常好的退出，而且minus整个团队的执行能力，还有包括产品能力是非常强的，他们的数据也很好。但是我就有一个疑问，就是现在meta最需要的能力是什么？他们最需要的是应用能力还是模型能力？我个人觉得他其实可能更需要的还是模型能力。那他为什么不去更多的去追逐一个更好的一个模型公司，而是去花大的一个价钱去收购一家应用公司。当然我也听说了一些界面上的rumor时候，他们也问了好几家公司，他们可能也是有自己的一些想法和布局。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是至少来说今年下半年meta那边在AI这边是从整个第一梯队完全掉下来了。再加上我其实之前虽然说对于杨丽坤的评价，可能也是有各种各样的不一样的看法。但我还是觉得当然也有一种可能是说他错了，但也有一种可能是说不定他们就是在黎明前的黑暗。他们如果说坚持当时对于世界模型的一个继续的投入，说不定也会出来一些新的东西。对于像meta这么大体量的公司来说，或者你就有实力像谷歌一样可以弯道超车，马上走到第一步，或者你就做一些跟别人不一样的东西。如果说你做的永远都是说这个科技行业里面连前三都排不进去的话，这个就很痛苦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是另外一方面，我觉得meta有一个非常大的优势，就在于它的创始人非常有执行力，非常有got。然后有什么决策了之后，你看它本身的转向能力也很强，而且本身对公司的控制程度也很强。本身公司它的现金流各方面现在还是处于非常好的一个位置。所以我觉得它是有试错的成本的。也是希望他的这个人才储备，还有包括整个公司内部的结构可以更快的稳定下来。我们也是希望能够看到更多的科技公司，尤其是大的科技公司玩家可以进到生的梯队里来。不要让google一家逐渐做大。做的太大的话，一家独大对于生态来讲也不是一件好事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:06]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这个上面我跟路的观点完全相反。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太好了，我都喜欢观点相反的嘉宾来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:13]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得没了没事找事去做大模型，我觉得他就做做应用挺好的，没了。作为一个世界级的公司，它需要有一定的研究能力，有一定的对模型，对AI要有一定的深度的研究理解，做一点大模型这本身不是一个问题。但我觉得没了，它最大的优势其实还是应用。怎么样让用户体验到JAI，在我用不管买的任何产品能够有更好的体验，我觉得这是最重要的。我没觉得他必须要做大模型，他就去买OpenAI其他的anthropic的model的API。What&#x27;s wrong with that? 我一点都没觉得有任何问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实我对还有一些其他公司也挺失望的，比如说微软，包括苹果。但我对他们的失望不是他们大模型没做出来，我是觉得他们没有把应用给做好。当然了，你可以说你要把一个应用真正做好，你需要应用到模型到硬件，完全把它给串起来可能是最好好的，这是有可能的。但我觉得今天没了，最大的问题还是应用里面我看不到模型的能力的体现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是觉得meta其实已经到了这个体量的公司，它不做大模型，它未来其实是有比较大的一个生存的挑战。而且其实meta虽然在表面上，大家看它是一个偏应用的公司，它其实内部很多东西都是做对，包括他们的server也都是自己的。而且很多年前，大概不到10年前，他们当时其实就推出过一个产品叫graph search。那个时候其实是一个比较大的宣布，当时带队团队也都比较强。那个时候他们其实就已经在比如说AI搜索这个层面上去布局了，只是后来有一些数据隐私的考量，这个产品没有去继续推进。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我觉得其实meta无论从未来公司，如果我们经常讲说未来人工智能是像electricity一样，是像电力一样。那你作为一个这么大体量的公司，如果电力不掌控在自己手里，它还是有一定的危险度的。尤其是硅谷的这几家科技公司，也很难讲说谁和谁是一个比较紧密的合作伙伴可以去协同发展。当然你说短期时间的话，可能说他还是有一个比较强的惯性。但我觉得尤其是在看到扎克，他本身也是一个比较年轻的CEO和创始人。一方面是公司的愿景，一方面也可能是个人的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:27]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>愿景和野心。小扎其实是很早就对AI在OpenAI成立之前，小扎就对身边的人说，他对AI怎么怎么感兴趣。因为我以前有一个同事是在小张身边，就是负责AI。那是2013年14年的时候，可想而知他是对AI的憧憬，并不是说只是因为最近拆GPT这一点，所以说我一点都不奇怪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:48]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我完全同意录你说的，从一个长期来讲，你需要对这个技术要有一定的掌控。但我不觉得没了，急着做这件事情。因为说老实话，不管是我们说的new lab什么，领到了100 0到了1000亿美元，你都能够买得下来。而且现在的模型的shell flight保鲜期太短了。你即使今天做到世界第一，so what right now你稍微有六个月打个瞌睡就已经是掉到很后面了。所以说我不觉得是只争朝夕的这么一件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:17]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>而且我对只争朝夕这件事情，我觉得是从一个industry的角度来讲，我觉得是一件好事情。但从一个单一的公司来讲，我并不觉得你miss了一年。你这一年只是去做应用，然后到了2027年再去想模型，我觉得也来得及。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你的整体这个观点我是同意的。其实我觉得你这个观点也适用于apple，包括大家对apple的批评这么多，你但你看到其实apple他现在我之前说要和OpenAI合作，现在这边的更好了，我马上和谷歌谈一个合作。他他牢牢把控住自己的硬件层面，它本身是一个数据的入口，还有应用的入口，所以它这个真实世界的这个叫AI音法，就是AI layer，AI interface, 它抓在手里它就有很强的优势。但我觉得其实像meta的话，它确实有一个比较特殊的位置是尤其像比如说它和apple的关系就很treaty，它一直想摆脱apple，但是又不能摆脱。所以是不是能够通过AI这一波趋势，让自己有更强的一些独立性，我觉得可能也是一个机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，没错。其实我们看到它其实已经通过AI的发展，包括在它广告的算法上，已经是需要了很多的二级市场的红利了。而且我听到一个说法就是硅谷的这几家大公司，包括这几家大公司背后的founder，他们都非常的希望自己能够带领公司成为第一个达到AGI的人。所以这是他们想要留下拉克斯他们的野心所在。所以不管是自己的野心还是公司为以后的发展所在。所以也包括你看伊朗mask，你看扎克不，你看谷歌这几个人，包括brain也回来了，对吧？好像除了apple没有去卷这个大模型之外，其他的公司其实也都是在去卷这个大模型想要去拿到的。所以可能2026年我们就继续的拭目以待。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就像你说的，这里面有很多的成分是个人的一个激情，不是从商业模式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，很多是founder个人的机型在的那我们继续来聊一聊open a在25年的cem搞定了open a的一个关键架构的转变就是让它变成了一个可盈利的公司，也就是说它可以上市了，它很有可能会在2026年上市。接下来如果你觉得从一个资本的角度看，怎么去看他的估值呢？他的收入能够对其外界对他的期待吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得首先架构其实是它它一直以来比较大的一个雷。所以我觉得它其实能把架构这一层尤其适合它比较大的一个投资方，也就是微软可以谈到这个程度，已经是一个很大的moston了。但是你说他现在的收入水平，还有增长水平，以及他最新的这样的一些估值，是不是能够让大家觉得说真的到二级市场得到一样的倍数的一个期待和对待。我觉得这个是大家有很大疑问的这也是为什么你看他宣布IPO之后，anodic那边也马上提出来。他们觉得自己可能也会有机会以更加合适的收入和估值的比例去获得资本市场上更多的支持。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>另外的话就像你提到的之前它最新做的GP5等等这样方面的发布，还有gma前后的一些发布，其实让大家比较失望。包括我现在听到的，无论是从用户端的数据留存，还有包括现在你看y commentor YC的这些初创企业，它一直在调用API之前，其实调用API最多的就是从OpenAI去调用。但是现在其实调用最新的这个batch大部分用的都是gerda的API。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然这还是一个早期的阶段，本身OpenAI还是一个非常大体量的，无论从用户的惯性，用户的数量，还有包括他收入水平都是一个巨无霸。但是他现在的利润空间基本上很难让大家能够看到说未来他怎么样成为一个不只是一个盈利公司，而且是一个真正能盈利的公司。现在至少说大部分的投资人是很难看到它的路径。再看到它的竞争对手，其实GPI现在基本上他的训练的成本可能是open I的不到30%，这还是他没有进行极致优化的一个结果。所以我觉得它面临的挑战还是比较大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但另外一方面就是因为它的利润率的问题，还有包括他现在巨大的成本的问题。所以他可能也确实需要更多的资本市场的支持。所以你说他需不需要IPO呢？他一定需要IPO但他IPO之后的话，他这个价格能不能撑得住，我觉得这个可能对市场和对公司都是一个比较大的挑战。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以，你觉得我们在今年会怎么样？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:33]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Open, 我觉得主要还是一个故事，我说的故事没有任何贬义和褒义的，因为我觉得这是一个未知的。Sam ata是一个很能讲故事的人，也是能够赢得投资人信任的一个人。至于说他是不是能够把这件事情做出来，是不是OpenAI有前途，或者这个前途是无量的，这件事情我觉得还需要很多去证明。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:57]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>过去我们看到的一件事情就是ChatGPT已经有可能接近10亿用户了，这是第一个把这件事情给做出来，有这个红利。但是10亿的用户到底粘性有多强？我觉得半年前大家还是觉得这个OpenAI x GPT是其他人吃着脚都赶不上的。但我觉得现在有很多人是有质疑的，包括salesforce的CEO已经说了，我已经从这GPT改成gina当然了他是有做PR之前，但是半年前我个人是不会ChatGPT转成jmi，半年以后我还没有转。但是我说但我觉得我是有可能在今年转，因为也要看怎么做，所以你就能够看出来其实是有所松动的。这个10亿用户，另外的他做的东西很多，他做的东西跟s topic比起来要杂的多，广的多。到底是一件好事情还是一件坏事情，我觉得现在很难说。而且我没有看到一件事情是铁板钉钉的，但每一件事情都让我感觉到有很大的潜力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，市场太大了，就是说他一上来就要吃掉所有的市场，还是说他像antha bake一样就专攻一个市场。接下来的一个问题，我们来看一下antha robic在26年会有什么样的一个发展。Anthropic他说也会要上市，但是我们看到and robic他其实在整个的商业还有收入上，他是特别去打coding这一块的那wife coding它其实在2025年是一个关键词，大家会觉得这个市场会在2026年继续的扩大。And thorax会不会独占这个蛋糕？现在winter f已经被谷歌给收了，那接下来现有的这些小一点的初创公司，还有这些player会不会被ando orbic吃掉这些蛋糕。接下来and big的商业化，它其实还能往哪里扩张吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Anthropic我觉得过去两年是非常稳扎稳打，他做事情非常的聚焦，把企业服务这一块基本上从两三年前，不能说远远落后于OpenAI。但是是大家还记得吗？在两年前open a的CEO1个周末被fire掉，但是又回来了。那个时候其实绝大多数的企业只用OpenAI。但是那一件事情让很多企业就在想，这件open line瞬间就可以消失掉，那我是不是要有一个plan b所以从那个开始到现在，大概两年两个月的时间。Roughly我觉得基本上财富五百，财富一千的公司，如果说你只用OpenAI的公司其实很少了。所以说大家都开始要选择，不管是将来或者说anthropic，anthropic是一个大赢家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我不知道现在企业服务API调用这一块是不是已经完全超越了OpenAI。但是即使没超越，我相信现在已经是在超越的路上走，但是我是比较相信的opening还像现在这样不聚焦的话，他超过OpenAI。从企业服务API这件事情到今年的是铁板钉钉的事情。所以说从这件事情上来讲，我觉得anthrops非常聚焦，非常有成就。但是今天这个AI时代，其实没有哪个公司有真正的有护城河。三年前我觉得大概AI coding这一件事情，大概get hub应该是完全占领了市场，其他小打小闹的公司一堆。到了一年前发现科舍那是开始就在，但现在又发现class code又起来了。说老实话，我不觉得这个战斗结束了，我觉得又会有下一个什么东西出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>用户的粘性没有那么强，不管是企业服务的API还是AI coding agent。但是这对我们用户或者说是消费者，或者说是一些在这个平台上面做的企业可能是一件好事情。这是一个百花齐放的一个世界。总体来讲我觉得SP非常好，但是不代表他们就可以心安理得的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我同意浩毅讲的，其实在外coding层面上的话，现在其实是还是在第一阶段。今年的话整个市场规模市场的应用，它会进一步加速和扩张。大家就会看到说AI不只是一个C端的一个娱乐的应用，它是一个企业生产力，这个是很关键的，尤其是像curter，他其实后面也有调用cloud，所以他cloud go出来之后，他自己是一个自己本身模型的原生的代码模型coding agent。所以它的整个使用的体验，还有对一些开发场景都非常，受到开发者的欢迎。过去这一年，其实很多公司都从curse r在转向cloud code。所以我觉得代码这方面的话，anodic确实现在在市场上的地位还是比较坚挺的。当然也会进一步进步，根据它模型的进一步的提升等等。再加上现在可能是科技圈用这种coding a证比较多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是就像我提到，它会逐渐形成一个非常明确的企业生产力。它在大产业的一个推进之后的话，它会是一个非常巨大的市场量级。所以它的这个收入水平还有收入的潜力会进一步增加。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>另外一方面的话，我觉得anthropic还有一个优势，就是在于他们其实一直以来像浩宇提到的稳扎稳打在做to b而且他很强调安全。所以他可能希望自己成为这些高监管行业，或者说对于数据敏感行业的一个默认ai比如说对于很多行业，我们提到非科技行业，比如说金融、医疗保险等等。这些行业追求的并不是说你的模型表现能力要最强，但他们的第一要义是要很安全。我这边有监管，有compact，有数据隐私的问题。你是不是能够理解到我整个现有的这些架构在监管层面上的需求，然后可以让我有一个安全的AI本地化部署等等等等。这现在的pic一直都在推进，这也是他们一直想达到的一个目标。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实像25年的时候，他们专门推出了一款专门针对金融行业的产品。当然那个产品推出之后的话，我听他的反馈意见也是包不一。但是至少说他们的思维理念是比较明确的。他没有说去很发散的说我要又做硬件又做infrastructural y做芯片等等等等。他很明确说我就是要做to b的这种敏感行业的落地ai那这个会不会形成对一些初创企业的竞争呢？当然会，因为我们主要就是投to BAI的。但是也能看到说他毕竟还是作为一个大模型公司。那到底是做一个通用的agent还是做一个更加细分市场的小的一个垂直领域的agent这个还是他需要去考量的一个未来的战略的发展方向。所以的初创企业还是可以更快和更聚焦的一个方式去获得一些市场先机。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最后一点，我觉得anthropic比较好的一点，就是没有太多的历史遗留问题。刚才浩宇也提到，其实NNR一直也想推to b但他们在to b上遇到的一个最大的竞争对手拦路虎就是microsoft。包括现在你会去看OpenAI成本利润的架构，中间其实很依赖于microsoft的arger。所以在这个角度上你会看到为什么OpenAI开始也去跟别的云平台去谈合作。但是anodic从一开始就没有这个问题，它并没有绑定到某一个云平台上。他可以拿谷歌的钱，他可以拿amazon的钱，他现在开始和微软合作。所以他在自己的成本结构层面上有更多的灵活性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然他现在也是还是存在跟open a一样的一个大模型的问题，就怎么样进行成本优化。如果你真的想成为一个在26年可以去IPO的公司的话，这些财务数据是要更好的去体现的。所以他们怎么样去探索下一步的盈利，还有包括盈利路径，同时不要牺牲自己的高增长率，这个可能是公司内部现在比较重要的一个方向。但整体上我觉得他还是有很多跟open I相比比较大的一个利好的方面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>特别好。我们说2025年很多人说是应用的元年。在这一年我确实是看到非常多的start time。很多的应用其实是变得好用了，跑出来了。甚至我们自己的团队的视频其实都在用非常多这样的一个工具。然后在应用上两位觉得2026年我们不说这API或者是开发者，就是像我们还有可能很多在看直播的观众们，他们自己的一个体感是什么样子？大家会不会觉得会有更多好用的应用会爆发出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我是非常相信的。我像我们尤其是专注早期投资，像我去年投的最后一个项目给公司汇款是在圣诞节那天。人家说money never sleep，我们说创新也never sleep。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:04]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>所以过去一年我主要是投资人不睡觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>投资人也不睡觉。所以现在大家是一个大公司在进行军备竞赛，小企业其实也是非常打鸡血的状态。在往前就是因为像你提到了，现在很多垂直领域的应用层出不穷。而且它发生的这个过程中，它已经给大家铺设开了很多可能以前大家没有想象过的一个应用场景。如果我们以前看科技行业应用新技术，互联网，然后AI但整个科技行业在美国GDP也只占10%。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但如果你看金融医疗保险，所有的这些服务行业加到一起的话是美国GDP的50%以上。每个行业里面的各种各样的应用场景，它都有垂直AI agent的一个落地的机会。再加上在开始的时候我也提到在过去25年一年，我们觉得非常惊喜的一点就是这些大的企业它在AI层面上的，无论是说整合的速度，还有预算的提升都让人很惊讶。大家可能知道的银行JP Morgan chase，它是美国最大的银行。CEO公开也在来讲，他们公司内部部署给AI相关的预算比剩下其他的排名前十的银行的总和还要高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们就有三家公司在跟他合作。这三家公司都是初创企业，可能就是A轮左右的企业，就可以看到他拿到订单的量级，还有包括速度非常的惊艳。最快的一个可能不到几个月的时间，就是一非常大的一个订单就签订了。所以你看到这样的一个部署的过程，它带来的不只是一个商业验证和市场验证。更重要的是说我刚才提到谷歌的一个优势是什么？真实世界的反馈，你有快速的一个闭环的反馈，你的产品才可以继续优化，然后再可以更快的进行再部署。所以现在我们也在25年看到了这个趋势的开始。26年我觉得一定会加速，尤其是早期科技创新的这个领域，可能会比去年要更晚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的好的，看起来确实是一场硬仗要打。郝颖你觉得呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>今天你刚才提到2025年是应用的元年，我觉得看要看这个元年是怎么定义的。如果说这个元年定义是说开始看看到一些比较有意思的application，就是应用，我觉得可能算。但是如果说元年是说大规模爆发，那肯定算不上。我觉得2025年从某种角度上来讲，如果我是站在一年前，我在预测会不会今年的应用会有更多。我觉得一年以后好像比我想象的要少一点。至少从广度上来讲，从深度上来讲，我觉得一些application是不错的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:26]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>最重要的一个application可能就是我们刚才也提到了很多次，就是AI的y coding或者说是AI coding。不管是科室cloud code，其实一堆今天的程序员也好，或者说是非程序员也好，开始用lovable这一代的产品。我觉得这个应用算是很多人在用了。但你说真的是对我们工作生活都产生了很大的价值，我觉得没有。第二大的应用可能就是在企业服务里面，客服也有好几个公司c error background可能几十个甚至于几百个，或者说你可以说所有的企业服务的AI公司都在多多少少在做一些support的一些功能。这一块的应用我觉得算是起来了，做的也比较深了。开始除了这之外，陈倩你跟我做过一期节目，我做那个AI浏览器，我自己也在做。但是我觉得你说AI浏览器是不是已经走入了千家万户，那显然还没有到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但至少能让大家感觉到，一年前我刚开始做AI浏览器的时候，所有的人都在问，为什么要做一个新的浏览器？浏览器战斗已经结束了五年十年了。但今天至少你在硅谷大家都说，对做AI浏览器是一个很有意义的事情。但是这个战斗其实还没有完全开始，更不用说走的很远。所以说AI浏览器虽然一块，但其他的我没有看到很多的应用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:47]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我自己其实也在想，为什么这里面一个是周期的原因。我是说一个新的技术，等到他有新的application，有应用，总归是有一段长时间。但是我觉得里面有好几层。我自己在想的第一个是我觉得chat PT说老实话，虽然说我们刚才已经说了它的护城河不够深，但是他在绝大多数人的脑子里面已经印的比较深刻了。很多时候你要去做一些比较match的一个应用的话，其实ChatGPT做的已经不错了。这时候你再去做一个新的应用的时候的机会就不是那么多了，除非你的功能就是要好很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第二个，所有的模型它的功能都在提升很多。这个其实对很多做应用的人多多少少是造成一点困扰的。并不是说他们没有空间，但是他在提高很多。有几件事情在里面，一个事情是说我本来做的一件事情被模型做掉了。过去三年一直在讨论这件事情，但我觉得不只是这个对应用开发者其实很难，为什么？因为你的模型不断在变化，不要说5.0到5.1这些模型不同，我这个模型就用5.1出来了以后，说老实话这个模型版本没有变。但是它模型背后的能力其实也在变，或者说他的一些所有的特性其实也在变。我觉得对今天的开发者这件事情还是蛮困扰的。每天都是不一样的世界，但多多少少我希望2026年有更广的应用在我们的手机上面出现，在我们的test上面出现，而不只是少数几个应用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常好，非常感谢一个路。我们接下来take一个观众的问题。然后我看到有观众问说两位对于domain specific agent的前景有什么看法？比如说面向传统的供应链supply chain，还有retail行业的agent我觉得这个问题提的非常好，因为agent确实是2025年的一个关键词。然后两位觉得在2026年会有什么样的发展呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实现在一个方向就是从chat到agent再到multi agent的。然后我觉得我们specific就是我刚才提到的行业的垂直应用的这些agent的发展方向，速度是很快的。就比如说像前段有一家比较大的一个保险科技公司，刚被一家保险公司收购。那new from insurance大概卖了15亿，不到20亿美金。他们其实是作为一个相对比较简单直接的应用，它是用人工智能去自动化procreate。其实你说它有做整体一个平台服务吗？并没有，但是因为它的量级做的很大，其实也就五六年的时间，做了几亿美金的收入，最后退出也是一个比较好的价格。物流供应链我们大朋友看到特别大的，但是这个方向有一些中型的，比如说收几千万美金，包括我们投的一些公司和科氏工业在合作的也在快速崛起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我可能觉得说今年还有两个比较大的方向，一个是医疗，一个是space。就是太空科技，整个太空生态它的这个数据量的崛起，它本身又比较AI robotics原生。医疗的话，因为现在其实数据隐私和数据孤岛的问题。应用了这些father computing，也就是money学习之后，也得到了非常好的解决，又是一个很巨大的市场。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以这些领域的station，我们也看到很多公司在早期阶段在崛起。现在他们的量级可能还比较小。这也是为什么可能像哈利提到的，可能说普罗大众在市面上还没有关注到他们。但是因为我们是做早期投资，我们能看到这些公司从可能没有收入增长到几千万美金的收入，甚至很快的增长到上亿美金的收入。增长的速度。我觉得是在过去十年，任何一个技术发展的趋势和技术创新趋势都没有这么快的一个发展的体现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你一旦要做到一个domain specific在某一个领域，就意味着你对这个回答或者做事情的精度准确度的要求就会高。不像ChatGPT或者说任何一个语言模型，你有的时候hello是nation，大家哈哈笑一下，尤其是consumer也无所谓。甚至于我是作为一个programmer，像curr或者说cloud code，其实很多还是一个presume的应用。就是他做错事情了，我有人不断的在修正，也能够去检查。所以说OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:55]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是之所以做垂直领域比较难，是因为很多时候他对你的期望值很高。他希望你不只是90%对，也不甚至于不是99%对，是希望你是全队。世界上没有绝对的事情，但我觉得这件事情就很难了。就是为什么在这种情况下面你需要做很多doma specific的，不管是AG类的，或者说做一些数据的处理，或者说自己的模型微调或者怎么样。因为你很难让一个horion tal generic的一个agent把它做成精度很高。所以说这里面会有的C的agent也好，模型也好，平台也好，数据各方面也好。但最重要的原因是我对做的事情的期望值很高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:38]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>非常感谢两位。好，大家新年快乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>新年快乐，新年快乐，拜拜嗨。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，这就是我们的第一期节目。也欢迎大家在评论区写下你们对2026年AI领域的看法。记得收听我们接下来的两场直播。如果大家对这种形式感兴趣，还有很多人说希望听到我们的直播回放，我们以后可以尽可能多地同步上线我们的播客账号。我是红军，感谢大家的收听。</p>]]></content:encoded>
-            <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
-            <guid>69682efcaa3ca0c1c64a78ea</guid>
         </item>
     </channel>
 </rss>

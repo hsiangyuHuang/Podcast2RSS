@@ -4,7 +4,242 @@
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
         <description>如有干货，纯属巧合</description>
-        <lastBuildDate>Sat, 08 Aug 2026 04:51:49 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 16 Aug 2026 04:31:43 +0800</lastBuildDate>
+        <item>
+            <title>AI办公这个“垃圾赛道”，大厂到底在抢什么？</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a7eea1317676351c571e68e</link>
+            <description>00:00 AI 办公的竞争毫无意义？人口基数就那么点，大厂到底在急什么？
+02:44 卡帕西盛赞 Claude Tag，海外的极客早就不开代码客户端了！
+06:15 资本家最想要的，是不是一个永远不睡觉的赛博黑工？
+09:27 从“临时租客”到接管全公司的“龙门客栈”
+12:26 WorkBuddy 狂送免费额度，到底哪家赢了？
+17:45 深扒单任务成本，云巨头的底牌露出来了
+23:59 飞书为什么并入豆包？
+28:15 谷歌 Gemini 3.5 Pro 为何难产？人家早就看透了，直接卖算力才最赚钱！
+29:52 没云底座的 OpenAI 和 Anthropic，是不是只能硬着头皮继续讲大梦？
+31:38 好在，AI 终于变成了一门算得清的生意。
+【订阅 JustSayAI 早晚报】
+🌈 新朋友！订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
+📱 商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目是两位AI从业者围绕“AI办公赛道”竞争乱象的深度对谈。对话从近期国内AI办公产品（千问办公、沃克巴黎、翠）疯狂投广告的“三国杀”现象切入，核心议题是：大厂为什么挤破头进入这个看似用户基数不大的赛道？两位主播的核心判断是——AI办公本身不是目的，而是大厂撬动云业务增长、消耗token、获取优质过程数据的战略入口。节目通过对比海外Slack+Cloud Tag模式与国内办公习惯差异，结合两位嘉宾自己做AI数字员工的创业经历，拆解了字节、阿里、腾讯、谷歌、Meta等玩家的不同路径和商业闭环逻辑。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>AI办公竞争的本质不是办公，是云业务</strong>："AI办公这个领域的竞争，基本上我觉得没有什么意义。这个人口基数也不多，然后能够给你带来价值也没那么大。"真正的价值在于：进了办公场景后token消耗量跟以前不是一个数量级，且能获取有明确目标的优质过程数据，最终在云业务端实现盈利。</p>
+</li>
+<li>
+<p><strong>大厂飞轮逻辑</strong>：C端办公市场抢入口→消耗更多token、贡献优质过程数据→云业务部门降本实现盈利变现→模型部门用优质数据做后训练降低训练成本→提升模型口碑→再吸引更多C端用户。“在云业务部门实现这个盈利变现。然后再到模型部门把训练的成本降下来，更多的优质的数据去做后训练等等，去把模型口碑再提升上来，再去C端飞轮就转起来了。”</p>
+</li>
+<li>
+<p><strong>单任务成本的概念正在出现</strong>：DeepSeek跑基准测试只要0.03美元，引发行业对“一个agent完成一个办公任务要花多少钱”的重新思考。如果未来AI完成确定办公任务的成本可以被测算，企业采购的逻辑会被重构——“哪些活就是让AI明码标价去干了，剩下的事情留给人去完成一些关键的判断”。</p>
+</li>
+<li>
+<p><strong>Cloud Tag是行业风向标</strong>：海外已经开始把群聊变成AI工作流。S&amp;P自身百分之六七十的产品迭代PR直接在Cloud Tag完成，大家不需要再开Cloud Code。Karpathy等大神认为这是AI以来最新一轮的全新交互。核心是“上下文会比智能更重要”。</p>
+</li>
+<li>
+<p><strong>国内走出了一条新路子——AI群聊</strong>：群聊本身不适合人——“信息太散了，它没有结构”，但AI特别适合在群聊中帮你整理碎片信息，留判断给人。翠（trial work）与飞书深度结合，“你的账号弹过来信息给我发那个报告结果，上面写了一个from trial work”，实现了两三年前想做但做不了的“数字员工”。</p>
+</li>
+<li>
+<p><strong>数字员工的历史性转折</strong>：几年前做数字员工只能偷偷摸摸用GUI方式操控企业微信，“因为官方不希望你用任何全自动的方式服务人，所以风险蛮高的”。当时智能比上下文重要，因为AI掉链子概率太大。现在工程化成熟度大幅提升，核心变成了权限管理——“要给这个AI授不授权的问题”，海外Cloud Code也没做到这个程度。</p>
+</li>
+<li>
+<p><strong>沃克巴黎（work body）火的三个现实原因</strong>：①大量免费credit可用，搞副业的人不想付出太多成本；②智能程度“完全够用了”，可达性好；③先发优势——很多人最早知道它可以干这些活。至于模型自定义是爽点，但“如果我是极客我为什么不用Codex、OpenCode？”</p>
+</li>
+<li>
+<p><strong>千问办公与沃克巴黎的产品路线差异</strong>：千问办公“很全但你不让选模型”，只有一个通义3.8 Max，博主认为这是对的——“通用办公场景真的智能不是最重要的事情，一个水桶模型搞定所有场景”。而沃克巴黎可以自定义模型，各凭优势。</p>
+</li>
+<li>
+<p><strong>ChatGPT和Gemini达到10亿用户的结构性变化</strong>：增长中有相当一部分来自to B（ChatGPT Work），六个月后50%以上用户使用场景增加两三倍。ChatGPT从2022年到现在三年多增长到10亿用户，破了人类历史（TikTok上次用了五年多）。这印证了办公场景带来的token消耗是十倍数量级以上的增长。</p>
+</li>
+<li>
+<p><strong>没有云业务的大模型公司在被动挨打</strong>：OpenAI和Anthropic相对被动，“他没有一个像云这样的业务，得天天去找他们搞锁定算力”。谷歌的战略是“我掌握了分发，我掌握了云，模型只要不掉队就赢了”——3.5 Pro Gemini难产不是技术问题，“可能就不想产，其实是不想产了”，因为成本高且日常办公不需要SOTA模型。</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>“龙门客栈”比喻</strong>：从过去“AI是租客”——只能限定在几个客房活动，到现在“你问AI，他都了解的一清二楚”——AI像开龙门客栈的老板，公司所有消息流经它，“上面什么菜多少钱？今天谁杀了几个人？你在龙门客栈里面看的一清二楚”。现在企业对AI的管控已经能做到“明厨亮灶，有KDS，有看板，有追踪，谁进去住进去了，谁退出来了，什么时候退的房”。</p>
+</li>
+<li>
+<p><strong>老板视角的洞察</strong>：“大部分员工如果有老板在的话，提供的是情绪价值——我很努力，我及时响应。”但其实大量有用的关键信息上下文，人类很难读到，而AI可以全盘掌握。“群聊不适合人的”这句即兴判断被反复强调。</p>
+</li>
+<li>
+<p><strong>字节的“养猪”吐槽</strong>：豆包做了非常好的C端产品实践，但复盘时发现用户都在问“豆花帮我盯一下钓鱼”这类琐碎问题。“心想张一鸣心想，我靠，我他妈投这么多钱训练模型都解决你们这些傻逼问题”——随后字节组织调整的逻辑就清楚了：飞书并入豆包专心做产品，让火山引擎负责收钱，“不要你们卖，你们就研究客户，把场景挖得越深越好”。</p>
+</li>
+<li>
+<p><strong>组织架构透传</strong>：千问办公是阿里云做的，整合了钉钉悟空、骡子快跑等三大团队，与千问C端mac APP不是一个团队。翠（trial work）跟飞书也不是一个团队，“其实现在相当于在做一个快速的整合，它整合的还是相当的快”。</p>
+</li>
+<li>
+<p><strong>Meta和Grok的“卖算力”转向</strong>：Meta把搞了半天的闭源模型又开源了，“过两天就开始卖算力了，已经开始卖了”。Grok本身算力过剩，“本来无一物，何处惹尘埃，我本来就是各方面都做的不怎么样”，干脆直接搞算力生意。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI办公这个领域的竞争，基本上我觉得没有什么意义。这个人口基数也不多，然后能够给你带来价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也没那么大有一件事情是明确的，就是你进了办公场景之后，你的token消耗量跟以前比不是一个数量级的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有可能还有一个就是你的这个优质的这个过程的数据对也更多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这两个事情都是很有价值的的，就是大家的语音业务都是蒸蒸日上。是所以用了A键以后，他上下文要读，要不断的加工，就算什么事情没干，这个token量也比你以前一个人用的AI那个要大多了。觉得可以赚钱了。对，云业务绝对赚钱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>C端搞办公市场抢入口，抢人口对吧？去消耗更多的token，贡献更多的优质的过程数据。然后反过来在云业务这一块，把token消耗的成本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>降下来对吧？降到可以有一个经济学算得清楚是任务级别值多少钱，用多少钱可搞定某某某任务。对，这个就不得了了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在云业务部门实现这个盈利变现。然后再到模型部门把训练的成本降下来，更多的优质的数据去做后训练等等。去把模型口碑再提升上来，再去C端飞轮就转起来了。对，争取更多的用户。哎呀呀老师逻辑自洽。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么感觉逻辑自洽了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是昨天早晚稻告诉你的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近这个AI办公三国杀对不对？这个翠亚千问办公，沃克巴黎对不对？最近在国内开始疯狂在抢地盘，据说现在电梯广告都已经接不过来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>电梯广告你听完这个巴蒂就来了。那个work.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是那种感觉，对，各种work对吧？我觉得说这个也值得跟大家聊一聊，这个东西到底是AI在进步，还是一个行业的内卷，还是人性的沉沦，我们可以聊一下。对，老兄你觉得最近这一波办公有什么亮点让你记得比较深刻的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得还是要call back一下那个SO pic的cloud tag。因为这个东西我觉得是行业的风向标，所以就是说这几个月他烫了这瓶水下去之后反响特别好。S本身自身，他们现在的一个数据大概是百分之六七十的产品迭代的PR相当于产品变更。已经是直接在这个cloud tag也完成了，大家都不太需要再去开cloud code这样子的一个不管是桌面端还是你的那个terminal，大家都不用开了。这个变化其实我觉得是特别大的，包括那个卡巴基大神，对吧？卡巴西的大神也是在说这个cloud tag应该算是AI以来的，可能最新的一轮全新的一个交互出现了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是好像被低估了。很多国内的人其实也不太明白对color .</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>tag这个东西。没错，因为我觉得还是海外跟国内的工作习惯不一样，差别还挺大。就是海外现在开始用群聊了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？史莱克现在也非常火了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，slack因为毕竟在海外就是仅次于office的这个企业级应用，就是聊天、开会、搞文档，对，啥都能搞。对，而且很灵活，对于很小的团队他也可以用的很好是说到国内的话，可以看得到，这是至少在办公场景里面，这个东西没毛病，只是说大家的使用习惯对还还是有比较大差异的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有的海外其实就是碎片化比较强，而且海外还有就是说海外有一个东西跟我们国内很不一样，是叫做work life baLance，工作生活平衡这个事情就是slack。一般来说工作之外的东西肯定不会在上面出现。但在国内我们这个工作的时候，其实很多东西是已经是界限越来越模糊了，都在弄。所以这个东西的话，我是觉得国内反而是走出一个国内新的一个路子。就是像最近我们用到的trial，其实trail work这个东西是跟飞书结合特别好。因为都是自己的戏的，因为我们自己也是字节系的老用户了，都用了五年了。对我现在感觉最深的就是说当你那天做那个我们讨论一个问题的时候，对，是你的那个账号弹过来信息给我发那个报告结果，然后上面写了一个from tree work。我那个时候觉得说这个是让我觉得特别心动的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的账号发给你吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是你的账号不是一个boot。这个我觉得是我们当年两三年前最想做的那个数字员工现在实现了。因为以前我们做数字员工也只能通过，就是因为在国内，国内很简单，大家就是企业微信。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是先通过微信背后用这个视觉操控的方式。对对对，来自GUI对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，当时就是最最原始的GUI，而且还是得手机操控。就是因为本身官方不希望你用任何的这种全自动的这种方式来服务人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是不我们当时做了好多个给这个行业做的一些聊天服务产品，背后都是用这个GUI agent去帮他控制。对对对，所以风险其实蛮高的，但是客户其实很想要他的能力。但我觉得以今天的认知来看，我是觉得说可能上下文会比智能更重要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这样的对，当时那个时候上下文还不如智能重要，因为当时我们觉得智能可能更重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，就是那个时间一定是智能更重要，因为那个时间点大家都不知道AI能干什么，而且AI确实有很多掉链子的，就是掉链子的概率太大。现在其实是很小，现在这概率说是已经低了很多了。因为毕竟各种各样的honey这样子的工程化的那个东西上来了，所以现在变得就是上下文爵变成了最最核心的一个部分。然后卡color tag已经证明了在上下文，就是企业里面能把上下文的权限管理，加上上下文的这种各种人员的这种权限职责，各种边界，能够很好的交给cloud这样子的一个高智能的一个模型。它可以处理的很好，大家可以把很多日常的工作都迁移到上面去。对，确实是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后国内的话我觉得就是另外一条线。因为国内其实就是说呃从老板的角度来讲，我觉得是非常希望直接能够有一个永远不睡觉的员工在干的对吧？这是绝对希望的。但是以前一直以来有一个问题，就是说员工大量的这种上下文其实也没办法交给AI这确实是很实际，很多所谓的SOP都不是真的SOP。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我应该这么讲，我们就是在没有群聊的AI的这种工作群里面，我觉得大部分员工提如果有老板在的话，提供的是情绪价值，我很努力，我及时响应对不对？但其实这里面大量的有用的关键的信息的这些上下文，其实人类其实很难去读到。对，但是最近我觉得确实这个群聊更适合ai群聊更自然。我觉得群聊不适合人的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为群聊我们自己知道，群聊里面就是特别难受，对，就人特别难受的信息太散了，尤其是那个信息多一点，一下就冲掉了，它没有结构。对，交代过的事情也不知道谁对了，谁确认了没有，这些都不知道。但这些东西我们用这个AI它特别适合去帮你整理，但是留判断留给我们。他把我们聊了一堆的这个碎片的信息整合下来之后，问你到底哪些东西是最高优先级该做，哪些东西是可以以后做，他也会给出一些他的判断。对对对，然后这个东西的话，其实我觉得说是国内走出来的路子是特别好的。就是他可以直接通过像CLI这样子的能力，完全操控我的跟我的权限是一样的。只是我授不授权给他的问题，这个是一个挺大的差别。我觉得在海外cloud code也没有做到这个程度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得就是让他做什么出来，现在已经不是我们讨论的范围。就比如说你让他做个网页，做个什么vibe coding，我们聊了很多了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就做出来不稀奇。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做出来一点都不稀奇，做出来一点不稀奇。对我觉得我觉得更最近我更大的一个体会是，当我把这个机器人拉到我们的群聊里面，我们很明确知道说这个群聊我们聊了所有东西会给人看，人就是FYI知道一下是，但是我觉得我们聊了很多东西是让AI看的。我会这样。但以前类似这样的一些项目管理，我们可能要做做一些什么那个叫什么什么听必选基。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后什么TAPD，腾讯也是notion，对，都有。然后包括后面我们飞书多维表格也做过也都做过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以前我们在做这种跨团队的一个群聊一些管理的时候，有时候怕一些东西忘了，可能要专门有个助手对吧？我们我们有一个admin然后帮我们把这个甬道维护一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是开会的时候还得指定一个人去做会议纪要。然后后面好一点是可能各大腾讯会议，各种会议最后能够转入一些会议的关键纪要。但是问题是还是是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>撕裂的那问题是你还要指派到老修是的，领这个任务你去执行，然后每周我们还得开个会复盘一下。老兄你有三个任务没做，你怎么回事？你解释一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个东西还是撕裂的。就是既要纪要，然后那个记录只是记录，但是他没有变成一个任务，跟着人去走，而且还得有我们自己得费劲得去追，到底谁在做这个事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你人是这个hub，对吧？那现在这个AI就好像在你们公司是开龙门客栈的，反正你所有人都要经过他。这个上面什么菜多少钱？今天谁杀了几个人，对不对？你这是在龙门客栈里面看的一清二楚，对吧？这整个公司的消息就是你问AI，他都了解的一清二楚。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后现在最大的变化，其实我觉得现在也发生，就我们几年前为什么做不了数字员工？有刚才说了偷偷摸摸做，差不多是这个问题。现在的问题就是说大家企业在转了，大家正在往这个方面转，就是说开始给这个AI与合适的权限。所以就是刚才说龙门客栈，我就是说其实这里面很重要一点就是说以前可能我们的AI是租客，就是他来住这个房子，就是临时拿一下。他就是在那个小区域里面，我们给你限定了，你肯定是客就哪几个客房。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在是龙门客栈，你要明厨亮灶，你要看我的后代有没有做人肉馒头。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在一定是可以管控到明厨亮灶，有KDS，有看板，啥都行，就全部都有追踪谁进去住进去了，谁退出来了，什么时候退的房。因为cloud tag它它也是很典型的，它是住在slack里面，他实际上是住在人家的这个龙门客栈里面的对，是不一样的。然后你像国内不管trial，然后work body或者是阿里的这种办公千问办公，大家都是房东对吧？我只是说我要给谁钥匙，给这个钥匙能开哪些门的问题。就是我原来的我我是非常清楚知道我这个客栈里面的每一间房、每个通道、每个地方怎么用的。只是权限我要怎么开给你那现在其实这也是一个我们经常说的honey engineering的问题。现在大家这块的成熟度比以前高很多，我是觉得说可能在不远的将来，就是这个数字员工是真的能跑的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>通信了一段广告，最近早晚报也做了非常多的升级，我们已经发了多少期？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>五百多期了。对，然后深度解读可能都干了一百多期了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不对？对对对，非常感谢大家对我们早晚报这个邮件产品的支持。对，我们现在也是推出了IM端，那在IM端就更方便大家去使用了。首先第一个，你每天可以收到两条语音的播报，对吧？了解今天的早报跟晚报，然后每次你还会收到三条，就是今天的深度研报，也是用语音播客的形式跟大家来做一个互动。关于里面你感兴趣的不懂的环节，你可以直接在你的IM端跟他聊天了。对你就可以随时随问的随时做笔记，或者帮自己整理研报。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们过往五百多期的新闻的数据，已经是一个非常详实的一个AI新闻面的一个数据库了。加上我们调优的我们三个人的这个模型在里面，我觉得可能很多时候可以一键帮你洞悉到就是你最关心的这个AI动态。不是拉回来一下，就是我们今天聊的这个事情是把办公跟团队的这个AI共享上下文这两个事情是独立分开的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它是两个两件事情的。因为我觉得现在更多场景，比如说我们用AI做个什么什么应用，做个网站web coding，这是我跟AI的事情，我跟color code，我跟codex的事情，他还没有进入团队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，到组织还没有到还没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个感觉就有点像你现在今天你用code x你的聊天跟你的工作还是混得不清楚。就从产品层面你会觉得说为什么在手机上看不到工作，然后为什么为什么工作跟聊天混合我要要分开来，这个边界还不是很清楚。对，2两个2个边界不是很清楚。我说今天你把这个产品上面的矛盾放大到这个组织里面来看，我觉得今天也是这样子的对，他说聊天跟工作这个事情还没真的就完全打通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这样的对，然后包括你像最近这个work body很火，然后前文办公我们上次也跟大家快评过。没错，就是好像这个流派也都不太一样，对吧？就是我比如说我用天文办公，我最大的一个感受就是它很全。对，但是它不让你选模型，就只有一个queen 3.8 max。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他最多帮你选了一下，有的时候要经济一点还是千分的模型就对了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得这也对，因为有时候在一些通用办公场景，真的智能不是最重要的事情。对，所以我们不是说快三点不好，是我觉得很好了，是一个很水桶的模型。对，但很多人就会觉得，我为什么要用？我用workday work body，我可以自定义模型，它没有一个特别强的模型。买腾讯的混元不怎么样，你对我爱用哪个用哪个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我爱用哪个用哪个。对，是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但实际上就变成说我的感受是可能在办公这个场景的话，上下文会更重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是千问我觉得说做的好的是说他融合了他自己你原来钉钉那么多的经验，其实很多时候是不需要让用户多选的对，用户就直接用就好了。我是觉得这个方式是对的，就是我一个水桶模型搞定所有的场景，我觉得这个是对的。只是说大家可能发挥自己的这个优势不一样，对吧？就像如果我们对比word body跟trail，你work body可以自己搞各种各样的模型，这个也是一个很爽的爽点，我觉得然后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>work body我就一直不明白他为什么会火。对，比如说我要给家属装workday的话，其实他第一个问题就是说每个模型有哪个区有什么区别？哪个模型跟哪个模型有什么区别？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好难回答对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那第二个，如果我真的是极客的话，来用这个work body的话，我为什么不用code s我为什么不用open code？对，这问题就来了，就问题就来这里了。所以我就觉得说有点我有点不太明白沃克巴火的原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个可能刚好我最近有个朋友找我，他是想做一些自己的副业，他用的就是work body，然后我就刚好可能他的场景能能回答你的。这个就是有两个很基本的问题。第一，workday大量免费的那个credit可以用，这个很现实。有很多人搞副业不想付出太多的成本，这是第一个问题。第二个就是说他在跟work body合作的时候，他觉得说这个东西的智能程度虽然有时候不太够，但是完全够他用了就是够用，可达性特别好，他身边很多人就有在在用。就是我觉得说很重要的一点是everybody他在首发这个上面是很重要的。就是很多人最早知道他可以干这些活，然后会使用它去用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从替代成本上来讲，其他的后面其他我们刚才说的千问办公也好，或者是three work这些。其实对于普通这些他没有怎么用过AI办公的人，他其实并不知道为什么我要换你。其他几家好像都差不多，他就是这种感觉。我觉得说就是够用这条线，其实大家都已经过了，就是日常办公够用，然后它有先发优势。我觉得说这一点就本身就可以解决说为什么你觉得有那么多人在在用我哪里？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得work party最大的阻力还是微信，对吧？今天对于AI最最不友好的应该就是微信了，对吧？那那对于AI最友好的，我个人就是我觉得飞书这些都都对，甚至钉钉我觉得对AI都很友好。对，所以我倒是不担心像千问办公，然后还有这个翠，他们在这个企业领域，或者是最佳实践的，等于我觉得他靠他办公端去推也够了，对不对？他靠他办公端去推就行了。但比较搞笑的是，像翠跟这个前文办公都不是钉钉或者飞书直接关的，没有什么优推他们对吧？对，那腾讯这个更复杂了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我我觉得那个work body，因为本质上我觉得AI办公这个领域的竞争，基本上我觉得没有什么意义，就没有任何意义。这个人口基数也不多，然后能够给你带来价值也没那么大。这个竞争我没有搞懂你为什么竞争，我觉得更多可能是焦虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是有一件事情是明确的，就是你进了办公场景之后，你的token消耗量跟以前比不是一个数量级的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有可能还有一个就是你的这个优质的这个过程的数据对也更多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这两个事情都是很有价值的那最前者这个token消耗量变大，我觉得是非常务实的，就是大家的云业务都是蒸蒸日上了。然后第二，因为这个道理大家以前讲过很多了。因为用了A证以后，他上下文要读，要不断的加工。就算什么事情没干，这个token量也比你以前一个人用的UIAI要大多了。这个消耗量是明确的。因为在海外已经验证了这个事情，就是大家而且企业也愿意为这个事情付钱。因为看起来沉这个知识好像沉淀了到了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>自己的手上，我只要云业务部门努力降本就好了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在是说每一个task，就是每一个办公任务的成本，就是完成他要多少钱能够完成这个东西的概念开始出来。因为像前段时间deep seek有一个概念已经把老外打的很惨的。就是他跑基准测试能只要用0.03美元，就是他让大家惊呆了，就是说可以用0.03美元去跑完很多agent的一些基准测试，而且拿一个高分。那这个事情就大家会发现说0.03美元就能干，然后大家会去衡量说那一个AI代理完成一个任务的成本可能是0.03美元。那这样子的一个概念提出来了之后，大家会去想，完成一个办公任务的这个成本是多少？如果以后能被测算了，那这个事情他就会可以很好被企业采购。有道理，但是现在不没办法算，等我们就刚才讲了那么多的乱局，肯定是很难算的。但是如果哪一天一个agent完成一项确定的这个办公任务的成本是可以被测算的那这个东西他就会重新可以来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你就大大的好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>越多越好。而且边界可能也会很清楚，就是哪些活就是让AI明码标价去干了，剩下的事情留给人去完成一些关键的判断也好，或者是人情世故的跟进也好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>模型也省力，对吧？反正有这么多优质的这个过程数据，我起码对更多的这个资源在后训练上面我也轻松一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对，就是因为这个过程数据第二点就过程数据特别重要。因为这个场景是大家愿意把自己的数据往里灌的，你其他场景没有确定性，你C端谁知道怎么灌的。那些搞图，搞搞视频，搞其他东西的数据量其实就算大也很多，没有太大意义。但是如果是在办公场景里面，他至少是有明确的目标任务的那这个数据能够拿进来再去找下一个。这个能够被明确定价的这种场景，成本搞得够低，然后任务又很清晰。那这个至少云业务是非常明确的可以赚钱的对，云业务绝对赚钱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>C端搞办公市场抢入口，抢人口对吧？去消耗更多的token，共更贡献更多的这种优质的过程数据。然后反过来在云业务这一块，把token消耗的成本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>降下来对吧？降到可以有一个经济学算的清楚是任务级别值多少钱，用多少钱可以搞定某某任务。对，这个就不得了了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在云业务部门实现这个盈利变现。然后再到模型部门把训练的成本降下来，更多的优质的数继续做后训练等等，去把模型口碑再提升上来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再去C端飞轮就转起来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，争取更多的用户。哎呀呀老师这个逻辑自洽。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么感觉逻辑自洽了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是昨天早晚稻告诉你的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也是想我们自己的业务跟AI天天工作突然有了点灵感，好像是这么回事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实是这么回事，确实是这么回事，对不对？我觉得这个就是呃有些事情我是想不通，我就会这样子丢到这个AI里面去跟他聊。或者我觉得以后应该丢到群聊里面去跟他聊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，群聊里面有AI然后就是了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后去获取一个更多的视角。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是让他炮轰我们那个脆弱的部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是这个事儿。对对对，是是这样，是啊，我觉得是这样的。你刚才这个确实就是我也想明白，为什么work body，因为为什么work body现在这么重要？因为它能带动整个腾讯的云跟它的这个模型，对吧？这两块它相对弱的地方。没错，有道理。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且云那边收的钱是真金白银，哪怕现在可能贴一点，现在贴1点99，让你用一年也没事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>况且他跟这些模型公司？还有各种说不清道不明的这种关系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，再加上数据，刚才说的数据那层数据是很值钱的，数据是非常值钱的，很难买到好的数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这有可能确实是这样。我觉得这个导师闭环，你说你说像字节，像千问办公，他有可能就是还是背着一个比较大的to b的壳子在做了。你像他们也都是做了团队整合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，都最近都做了组织架构，你看那个那个都很大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个新闻办公，新闻办公是阿里云的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>算了，你看这不是又是与阿里云吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>道理透传一下这个关系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是那个天眼查透传一下。千问办公是阿里云做的，跟千问这个C端的团队，千问也有自己的这个C端的mac APP，对还不太一样。是，那他等于是整合了原本的钉钉那个什么悟空。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，悟空对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有什么什么一个什么什么骡子快跑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，三大团队应该是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有三大团队，有三大团队。对，三大团队去去去整合的。但他还是背负了一个比较大的，我觉得这个产品确实就是你做的在在这种你作为一个C端用户，你没办法说他哪里没有对陈碧，对我当时在用新闻办公的时候，我觉得说这个不太像是赶出来的东西，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你也这么说，没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>太像是赶出来的东西，还是比较完善的。是的，对，毕竟你是要对to b去做的话，很多东西还是有一些考虑在里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？像那个tray的话，它也跟飞书不是一个团队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是其实现在相当于在做一个快速的整合，我觉得它整合的还是相当的快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实是每家可能路数都不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是云业务我一直觉得最后云业务都能够赚到钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>难怪这个谁啊火山。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>引擎也在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>火山引擎接管了豆包的这个sales.</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对不对？是啊是啊，最后要收钱赚钱的地方，我觉得云业务都会赚到钱的。因为这个AI的这种agent的算力的消耗，A整弹弓的算力消耗就是大大的增加了，场景频率都增加了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也就变成说我们回过来从组织的视角来看，为什么豆包跟这个飞书整合。我们说飞书并入这个豆包，其实就是很简单，你就专心去给我做产品的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，把场景挖的越深越好，这没有问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你把产品给做清楚，争取越来越多的用户拿到更多优质的数据。钱不要你收，对吧？你去找那个谁收钱，你去找火山引擎。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>交给火山引擎会想办法帮你收钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们不会卖，你们不要卖，你们让这个火山引擎去去收钱，你们就研究客户。是的，搞产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>把场景用的多多的，然后让大家尽可能多的去用。因为这里我觉得可以提一嘴，就是最近是ChatGPT跟jm来都到了10亿用户。全球是啊其实它里面有一部分增长当然是to c的，但其实它有相当的增长是to b就chat PT ChatGPT改名叫ChatGPT work那个那个部分的时候，他其实也给他带来了很多的增长。因为其实这些场景其实都会带来。只要如果你能找到更多的这种场景进来，他的那个token消耗是可能就是十倍数量级以上的增长。因为它就是会有很多，因为它里面有个报告，就是讲很多人有用ChatGPT和开始用和他六个月以后用。他们大部分有50%以上的人，他的使用场景都是增加了两三倍以上的。如果你有给他足够多的场景，让他去尝试，他就会尝试。尝试以后他就会习惯，他就日常就在用。所以这是他们增长特别快，因为这也破记录了。ChatGPT从22年到现在，三年多的时间增长到10亿。上一个这样的现象级产品是tiktok.</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也发了公告，所以google史上还要增长。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>增速快也是最快的。然后chat BT这个是破了人类历史的三年到10亿，它tiktok上一次是用了五年多。这个其实都是在讲一个事情，就是说如果只是人现在是不知道在哪些场景要用。如果你产品化做的好，有很多场景能够让他用起来，它的使用成它的使用率粘性是非常高的那。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得你回到刚才我们讲豆包，其实豆包其实完成了一个非常好的C端的产品实践。但是我觉得他可能今天复盘的时候发现妈的没有给我任何贡献。叫什么养猪。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还要去盯钓鱼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>丁丁钓鱼对吧？豆花帮我盯一下钓鱼，就是心想张一鸣心想，我靠，我他妈投这么多钱训练模型都解决你们这些傻逼问题，我靠。然后你说这个我好，我要做豆包办公。我做豆包办公的话，你叫现在叫我去招人对吧，你就要叫我扩张对吧？你们飞书办公做的好，来来，我这边做豆包办公，反正我们to C2B一起做，对吧？全部都做入口，全部都做入口，全部去去把功能队上来，体验队上来，给我这个火山云引擎争取更多token的消耗，对吧？哎，然后还能帮我把我未来的模型做得更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为你刚才也提到界面来，其实我们也看到界面来，这就是谷歌最近的一个季度的营收，应该是云业务增长还超过50%以上，好像60%多对吧？就是那个收入是非常高的。而且谷歌也大力在做的，不是头头部的这个引擎，那个大模型就专门做flash模型。也是为了去解决更多这种日常的这种场景，包括一些他也在做那个，他自己也有一些办公的那些东西也在做。就是他的age也在做，我们原来觉得是看不懂，现在好像串起来讲，就是如果从企业的角度来讲，最后你回到了云基建这边去做整个营收的增长好像都对的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以你这个哈萨比斯，什么jeff定，你们就不要再再胡搅蛮缠，跟我们搞这些什么东西了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你的科研梦可以去去别的地方搞。对，在我这里我是真的要搞钱的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么说你这个3.5 pro german搞不出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一直难产。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>难产了几个月了，我觉得也不是难产。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能就不想产，其实是不想产了。对，大家看是难产，其实最后现在看，那你就知道他是把它规划到别的地方去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为因为你你明显就是说我按你现在这个路线去做，我这一版的成本其实特别高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我的智能需求没有那么高，我不用做一个sota的顶尖模型来完成日常办公的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>够了，我就我做到这不够了，对吧？然后我现在就卖10亿用户，我他妈到处都是入口，你只要网页用AI搜我一次，我都算你我一个用户。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且他那个基本3.5和3.6的那个速度确实很快，对吧？你实际用起来它的速度特别快，你确实感觉他这个使用起来体验也很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道怎么讲，反正我最近用code dex做页面的话，一些快速的微调，我就会在旁边开个3.6 flash。我确实觉得它调的很快，然后它的前端能力还是好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是好。对，没问题。因为前端也不要那么复杂的模型就可以搞定。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但实际上就是说你们说他美国豆包我也没有意见，确实是这样，确实是经常会出很多胡话，在解决一些严肃问题的时候，但我觉得可能背后反映出是还是一个趋势的问题。就是今天我掌握了分发，我掌握了云，然后我的模型只要不掉队，那这个生意就能够赚起来，至少对google来讲不掉队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后极致的优化这个模型，就是我们刚才说的那个单任务成本这个事情如果他能跑得出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就很很厉害了。那其实你看今天可能很风光的OpenAI跟anthropic相对来讲就更被动。他没有一个像云这样的业务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他得天天去找他们去搞锁定算力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就对他们来讲，就这个生意，他他没办法这么正常的去做。是的，对，就我今天要做一个能够正常运转的生意不行，我还我像OpenAI，我还再去讲故事，讲更多的故事，造更大的梦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，是这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得包括像这个SpaceX SAI，他这个生意都已经是可以赚起来的一个生意了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，SAI最近都跟英伟达做太空的那个算力送进去了，是吧？又是云计算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看对，因为那个group现在其实在美国市场用的还蛮多的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且girk er最近出了一个group boot。对，其实跟我们这些各种办公已经是一个路子了。是啊是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且他自己本身是算力过剩的。是的，他自己本身算力过剩，而且相当于说这东西来说，本来无一物，何处惹神，对不对？我本来就是各方面都做的不怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，一直追赶都追不上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>换一个角度，算力卖一卖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>算力卖一卖，直接搞算力他了。对，没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>meta也是。时间别搞了，别搞了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>继续开源卖算力。你看麦特最近都把他那个搞了半天的闭源模型给又给开源了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？我就过两天就开始卖算力了，对吧？已经开始卖了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>已经开始卖了。是的，好像有看到小。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也有看到新，开始卖算力了，对不对？我觉得这个生意就变成说AI，变成一个可以算得过来的生意也挺好的。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个浇水终于交上了，可以算得过来账赚钱的一个生意上去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最怕就是说你不是一个正常的生意。这个对大家他其实都有点觉得说这东西妈的到底是不是泡沫，这东西到底是有没有什么问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，是就好把几家都聊完了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就把几家差不多都聊了一遍，反正就是聊一下接AI办公这个事情，跟大家串讲一下。今天贤哥正在外面happy，贤哥正在跟朋友们在喝。我跟老邱先跟大家哈拉一下，聊一下这个AI办公，当然就是一家之言，仅供大家参考，好不好？是的好是的这期节目到此结束了，拜拜。</p>]]></content:encoded>
+            <pubDate>Fri, 14 Aug 2026 10:16:57 GMT</pubDate>
+            <guid>6a7eea1317676351c571e68e</guid>
+        </item>
         <item>
             <title>DeepSeek V4 Flash斩杀线逼疯硅谷，Google高层先地震了？其他模型还能活多久？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a7478dbc4079d62c57e62e6</link>
@@ -5251,258 +5486,6 @@ Apple podcsat朋友请移步👋
 <p class="transcript-line"><span class="time"><strong>[01:20:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜。</p>]]></content:encoded>
             <pubDate>Tue, 06 Jan 2026 09:13:51 GMT</pubDate>
             <guid>695cd03ec1e012a7aba2861a</guid>
-        </item>
-        <item>
-            <title>年度颁奖：Google无敌、Claude Code封神、阿里逆袭与奥特曼的忧虑</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/694a7c9d0b60b7bf7508d595</link>
-            <description>Vibe颁奖，不用感谢CCTV、不用感谢MTV，感谢小小苏、老修、闲哥就好！
-🏆年度最佳产品
-00:00人民公园说AI年终颁奖盛典
-02:05 Claude Code如何重构工作流？
-08:34 为何Gemini 3值得再拿一次奖？
-19:40 Nano Banana的战略价值远远被低估了！
-🏆年度最佳团队
-23:04 OpenAI的组织能力太强了!
-25:31 价格只有Claude四分之一的Codex凭什么口碑爆棚？
-27:00 谷歌AI团队如何重构成为真正的“六边形战士”？
-33:36 Qwen开启了怎样的AI盈利“教科书”打法？
-🏆年度最佳Boss
-39:54 为何说闫俊杰最像中国的OpenAI创始人？
-44:14 Hassabis的至暗时刻他是如何坚持做多模态的？
-48:14 被逼宫的奥特曼如何靠身段柔软上位？
-🏆年度最佳逆袭奖
-55:24 老牌巨头甲骨文如何靠AI一夜回春？
-01:02:32 不起眼的Claude如何一年实现十倍逆袭？
-🏆年度特别奖
-01:09:23 腾讯挖来的天才少年将如何改变战局？
-01:11:00 为何Karpathy被称作AI界趋势吹哨人？
-01:16:09 谷歌Antigravity如何让编程变成新体验？
-01:20:44 2026年AI Agent如何彻底接管繁琐工作？
-【订阅JustSayAI早晚报】
-🌈新朋友！订阅「JustSayAI早晚报」· 每日两封 · 一键听报
-🌟老朋友！加入会员获取JustSayAI早晚报+深度研报+文字专栏
-【主播小红书】：
-📕叫我小苏就好啊
-【关注频道】：
-▶️Youtube｜📺B站｜📕小红书｜📻Podcast
-📱商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello大家好，我们今天进入到我们的人民公园说年终颁奖，然后又到了这个一年一度的环节。虽然我们也只做了一年，但是弄了半。其实对，一年两度。因为我们上半年搬了一次，大家说AI圈一天，人间一年，所以我们上半年其实进行了一次颁奖。那果真对不对？上半年我们没班出去的，下半年就拿不到奖了，所以我上面就找不到人了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>关键是咱看不到了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以一年班两次还是非常有必要的，所以我们就今天直接话不多说，开始我们的just AI人民公园说AI年度颁奖盛典。我们这一次会班出五个大奖，我们先一个一个来，我们先颁第一个叫做年度最佳产品奖。这个其实是我觉得我们几个人心中最重要的一个奖项，就年度的最佳产品对不对？所以也会来分别的跟大家做一个提名。我们先请老师来讲一下，你心中的2025年度最佳产品是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>作为做产品设计的还有工程实现的人都没有悬念了。就是cloud code为什么把它放在这儿？因为从年度的角度来讲，它其实今年3月份左右才刚刚生出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有很多人在去年都没有办法想象有这样的一个产品，现在居然住到你的电脑里面，就是原来我们讲过了很多的这个AI大家要开个浏览器，然后在那边跟他聊，或者下个APP跟他聊。然后谁也没想到现在cloud code其实是已经住到你电脑里面的，已经是一个专业的工作搭子了。我想想我今年的有差不多有七八个月的时间都在上面写代码，做做那个产品，还要搞原型，还要搞测试，还搞运营，还搞知识库，还有搞一堆的自动化的数据处理，全部都在这上面做的。就是说它名字叫cloud code。但其实我好像看到他有在想考虑改名字，改成cloud agent了。这个就是让大家知道一下，它确实真的已经变到是真正一个通用，而且是住在你电脑上的，它不再是一个远程的云端。我觉得说只是可能还有很多很多非产品技术的人，现在接触没有那么多。但是他现在在运维，甚至有一些运营工作都有，都已经很多人在用了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我我也在用，只是说cloud code它是一个命令行界面，像我这种不会技术人我其实用不太懂。那我用的是google的那个antigravity。然后其实它的设计就会让我觉得，原来这个东西它不仅能够写代码，其实可以帮我管理很多本地的文档写作，甚至我的字幕翻译的工作流都可以在上面做对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>包括其实到包括说你最近跟我一直讲的一些痛点，就是你要发很多视频平台的这个问题。最新版的cloud code已经支持原生直接控制。Chrome浏览器是带着session的，就是你登录好的账号都不能都能用，不再需要重新创建session的。像这些的话，就基本上你可以说他就是真的住在你电脑里面的一个专业工作搭子。你不用想它到底是什么形态，它你原来说这个命令行可能看不懂，但是你只要一旦配置好了，它可以持续的去理解你现在的工作状态，然后帮你去完成工作任务。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个我觉得是其实是一个划时代的一个产品，只是他现在还交互上确实很生硬。可能各位就是像小苏和杰哥你们可能还用不太起来。但是我觉得这个就跟早期的这个我如果弄弄个类比，就像特斯拉最早期的时候其实做的是跑车，我们大概大家都接触不到，但是它的性能其实非常的优越。然后可能电池没有那么好，但是等到它做到model 3的时候，大家就全都用得起来了。我猜他得有一个这么个降低它的使用门槛，还有就是这个适配性的一个过程。那也许是未来一两年，但是我相信他会很快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我们从企业上的使用来看，它今年其实可能给他带来了有整个公司的营收，才八九个月的一个产品。整个公司的营收已经超过20%到30%了，差不多是这样，一年已经能够搞好几亿美金进来了。所以现在他可能很多人还没用到，但是我会特别的想要提名这个产品，因为实在是太喜欢了。我现在只会在看到一个没用过的人我都会安利这个事情一定要用起来。好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我能理解你为什么要提名他，因为他其实叫cloud code。但是这个本机的这个agent的时代其实是由他来开启的。你像现在后面出的这些IDE，像curse或者是这个antigravity。其实像特别是google的这个新的这个IDE，它基本上就已经不需要去用那种命令行，或者是说用IDE的界面了。它有一个agent mode，就直接是一个agent的界面。然后你只要授权给他某几个文件夹的权限，那他就可以帮你控制电脑。其实我觉得这个已经是我日常用的很多的一个东西，我相信明年这个东西应该会有一个更大的一个突破。那你我记得上半年你颁给的是，那现在为什么就不香了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是是这样子是这样子。咳嗽其实还是发展的不错的。因为其实可以在我们刚才讲的这个领域做的很好。就是他把像cloud code CLI这种这种很交互，很不直觉，就是很面向技术人员的这种东西，真正提到了说我们普通人都能用。就是cro的那个破圈还是非常标杆的，可能还是今年破圈最好的产品。但是我相信它带来的直接的生产力的提升和稳定性、透明度，这些是不如cloud code来的好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为cloud code我看到的数据是anthropic的数据，是说它整个公司今年已经服务到30万家企业。而这个数字在2024年的时候，可能只有几千家是这种水平。他他没有公告24年的水平，二三年的时候你们猜是多少？二三年的时候是1000家都不到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以这个整个的我觉得说就是企业的采用是最真刀真枪的一个事情。就是说它已经是直接让企业买单，而且带来的结果。然后kersey更多的是也有很多个人在用，就是他有百分之五六十的用户，其实都不是企业用户，还有很多正向的影响。但是我会更愿意说给到已经是实际带来生产力提升和企业大大范围的持续买单。这样子的一个产品应该是更多的企业和个人要去用起来的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>按我理解cursor就是那口气没上去，就是变成AIIDE以后没有办法变成一个全能的agent。那口气没有上去就停留在应用层面的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但问题是在这种AI实施打架的阶段。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他能不能把这口气再续上就不好说了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为这口气比较难的。对他得他得是大模型底层加agent加各种各样现有的已有的API3个东西合在一起。其实这个东西没有像SO pic一样的这种背后专门做大模型基座的公司一起合作的话，其实是很难做出来，很难做。因为科技毕竟自己不做大模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没错。好，老师讲完了他的今年的心头好，从cursor变成了高code之后，杰哥你讲一下你今年你想提名给谁？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>老修这是把人家小甜甜变成牛夫人了。刚我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还真的是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我可是比你长情多了。我记得上半年咱们年终颁奖的时候，我把我这边的还是发给Jamie的，对吧？然后deep research，我下半年的时候，或者说咱们年度的颁奖，我还是要颁给google的下面奶，然后这回是M3，我觉得jm 3尤其是出来以后，我对他的信任度完全上升了一个档次。真的就是把很多一些问题，我会把它当成一个良师益友来交流。而不像以前一样，还是抱着一种试探或者说测试的心态。然后他以前我是这样一个问题，我会把就会扔给至少2个AI或者说有时候3个到4个AI我想看看各个AI之间的差距，然后现在这种动作比较少了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我会互不信任原则对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以前对对对，以前是不信任人，而或者以前是挑剔心态。大家怎么讲呢？就是说我用这个东西，我是看看你行不行，而不是说我增加你的。对，真的要信你。然后现在不一样，现在有点儿我觉得有点可怕，就是说我会真的直接先选择相信，甚至这种变成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有有直接弊端。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就像男女朋友谈谈多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是过犹不及。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对男女朋友谈时间长了之后，你会首先想这个人怎么样，我先会相信他，然后他说的谎话都变成真话了。当然了，这个只是个开玩笑，但是确实沾面三我觉得像无论现在图形生成也好，对吧，还是说文字，还是说图表，尤其现在用的那个看法比较多，然后直接就生成这个文稿，文稿还能继续修改，而且还能直接导出到这个google doc，或者生成一个前端的UI的交互，这个是我最近发现一个新功能。我以前很多天马行空的想法，虽然说以前都得跟产品经理先沟通完，再跟意外沟通等等等等，得求爷告奶奶，现在你跟自己沾边的三一玩，能玩出好多好多花样来，我觉得特别爽。所以我给大家举个例子，就是说作为一个普通用户来讲，我最近就是最近两天一个用法，我觉得当时给我非常大启发，因为我最近要想买一批二手设备。就是上次我不提供，我正在弄餐馆。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后弄餐馆的时候，最大的问题就是说这个装修阶段你需要有很多的code，需要由设计师先确定。确定完了之后，你要再去找那个供应商去询价。询价完了以后，你还要找专门的持证的工人去给你安装。所以这中间层层你可以想到叫层层扒皮，或者叫层层加价。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是还有一个市场叫二手市场。二手市场的问题就是说鱼龙混杂，而且里面有很多虚假信息。所以之前这个gap其实是很难被弥补的，这种信息差其实就是价值。然后最近我就是在在设计师设计好之后，他给我一个范围，然后我去询价。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>询价完了以后我不直接购买，我先去让那个Jimmy I给我找二手市场的信息，然后他会给我一个范围，就是说什么样的东西在现在当前这个时代上，或者是当前这个时间点上，有哪些设备有可能在哪个年代生的生产的还能够符合你的要求，性价比还比较高。然后我再去这个二手市场上，比如像facebook market什么的之类的再去找。还真让我找着了。甚至说你知道吗？为了找这个，我把扩大范围都扩大到100公里的范围，也就直接找到美国去了。然后我直接你知道吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>被找在美国一个二手商店里面找到了我需要的一个排风机。我再把这个信息贴给jima，让他给我评价。他给我的反馈让我非常惊讶，你知道吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我给大家举个特别有意思的一个例子，就是这个产品如果我买个新的话，大概要2000块钱，就两千加币。然后我这个二手产品才不到300美金，然后算下来的话，包括关税等等，运输费都算一块儿，可能不到500块钱。比如说直接给我省1500，我又找到了另外一个就是比它档次更低一点的，但是只需要大概300块钱，差了100块钱。于是我扔给这边来，这边之后给我你再给我一个什么建议，他让我两个都买回来，到时候卖掉一个，中间还能赚个差价。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>国内现在开餐厅买的二手餐具的那些人都赚翻了，就是这么赚的，你知道吗？关键什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是他已经让我觉得他他的智能它的智能已经达到了一个可以跟我平等交流的地步。甚至说在某些方面还给我灵光一闪的启发一下。他的想法是说让我去趟美国，别白去，把两个产品都买回来。而且他还直接给了我怎么写邮件的时候的建议，就让我说给第二个人说，别说你已经跟第一个联系了，是说我可能估计要去一趟美国，要方便的话我可以去看一下。他的意思是说你去了如果觉得还能再砍砍价，把东西拿回来回到温哥华倒手一卖，能够把这趟路费加上第一个产品的钱都赚出来，我觉得牛逼了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我觉得这个事儿，说句不好听的话，咱仨聊你们俩可能不见得能直接给我这个建议。因为但毕竟不是这个行业的，再加上这肯定会是盲区，对吧？但是这么细的一个领域，他能给出我这样的建议，而且我觉得这个建议可以被采纳，这点上就让我非常惊讶。所以就变成了什么呢？就是说现在我跟gina之间的这种对话的关系，我觉得在在变化。但是同样也从也说明我当时信任这个games，那当时把它作为上个咱们上次颁奖时候的这个最佳产品的提名，我觉得这个并不是感情的问题，而是在这个产品使用中，他确实给了我信心，所以我还是坚定的提GM3。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你之前不是用了很长时间的，就是OpenAI的pro的用户，之前你不是说你已经很少在用了，那你现在用的情况是怎么样？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我还是会用它，因为我我的感觉可能是一种先入为主，就是gm它会比较的严谨，而且很流畅。你比如说你像我刚才说的，要编个合同，或者说做一个比价，甚至说我做一份长的报告。他上下文什么的让我都很舒服。但是GPT也好，还是ground也好，我都觉得他会有给我不一样的这个风格。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个风格很重要，我觉得这个风格不是说内容的准确性的问题，而是什么样的。而是说当你在面对一个问题的时候，你我们时刻提醒自己，还有其他可能性，对吧？尤其是说他们的书结果往往不是说相反，而是说有不同的角度，甚至说可能答案是一样的，他解释是不同的。我觉得这对于所谓我们要培养自己批判性思维等等这种提法来讲的话，就是一个实践。而对于大脑来讲的话，我认为这样才能够让我们能够真正进入思考，而不会说完完完全全的就是说相信未来AI时代我们就不需要思考了。我反倒觉得未来你要想提出好问题，或者说能够跟AI更好协作，那就是要有这种批判性思维。这种批判性思维现在目前来讲我没有什么抓手，我的方法就是用不同的AI来推来来面对同样的问题。当然了你也得确实得想去阅读，然后最近确实感觉自己阅读量增加了，每次看一个问题可能都得阅读几千字才行，才能找到最终我想到的答案。时间上并没少，但是确实说感觉自己的这个学习能力变强了。自夸一下的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你现在是不是两边deep research，还是互相经常对比来看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哇塞我觉得那个是个大量的脑力劳动，有的时候也得自己整理一下心理建设。真的有的问题你就说你好奇是好奇，但是你想要大量心力之后的话，你也会有点打怵。但是有些问题确实是，比如像这回我跟大家为什么举这个例子，就是我真省钱，就这一件这事儿来讲的话，那我直接省出两三千块钱来。这两三块钱的话不是说不是说大风刮来的，可能就是说这一下就把我这一年的几个AI模型的续费，你就会赚回来了，对吧？这个知识的不会，我觉得是值得的，值了，绝对值得来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且这还值，就好像请了一个很强的秘书，请了两个很强的秘书，你又觉得他很聪明，你又不能开掉他，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还真不是真不是我如果说上半年的颁奖的时候，我绝对会把他们当成秘书，但我现在真不把他们当秘书。对我觉得他们像我同学了，而且他们的同学都而且是高中同学，什么样？他们是带着自己的知识体系来的，不是说我们大家都在同一个课堂里面学老师的东西了。大家都是一帮白纸。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一帮开始会PUA里的同学。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他们会争论，会PUA。甚至说比如说人家擅长地理，那我这不擅长，我就得虚心向人请教。人家说了一个东西我还不能判断对错，我还得去问问另一同学。他他跟我说一事儿，你听听这事靠谱吗？然后另外就是你别信他的，你得你得这么琢磨，你得这么琢磨，这课堂越来越意趣了。当然了肯定上面还有新的东西，没准以后还有新的同学加入。但是也许半年以后可能就把他当同学了，变成导师了，那就说不准了他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我讲一下我的提名，我我我提名这个老修一直觉得说他不算是一个像gm这种级别的产品，但我觉得我还是要提名他。为什么？我觉得他应该以后会大过gm奶，就是nano banana。对，为什么我会提名他？因为我觉得第一个理由，最重要一个理由，他今年养活了很多人。对，这光靠难道不大的这个模型，你看诞生了多少现在做生图，PPT的一些产品对吧？其实最后都是套人的这种nano banana，然后做出了非常好的产品交互效果对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对的，对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我提名他。对，然后首先是因为他养活了很多人。然后第二个是我觉得他设计的非常的极简，就好像当时google搜索的那个搜索框一样。因为它的功能非常强大，就基本上指哪里改哪里，对不对？但是它的交互就只有提示词，它并没有别的交互。甚至也不需要你去规定说有一个地方给你选16比9，这个地方给你选什么。没有，它就只有有一个提示词跟你的交互。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当然就是我我也吐槽过他，就是因为他太强了，所以你的提示词如果写的不够细，他反而不够智能。也就是说他其实能够识别，比如说你要一张什么样的照片，比如说用柯达什么样的胶卷的颜色，然后多少毫米的镜头，50毫米吧？中焦背景虚化，光圈多少，这些他都能够理解。但是如果你没有给他这么精确的提示词，可能出来的东西是一个比较随机的，有可能很好，有可能也会很差。但我觉得这个恰恰是你说一体两面，所以既是它的优点也是它的缺点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>作为一个优点就变成说我任何在nano banana上面去设计的新的产品，本质上都是把它的提示词能力做成GUI，就做成用户界面，对不对？做成你可以选择的用户界面，可以配置的选项。然后让你可以做一个精确的，不管是PPT或者是信息图等等这样的输出。所以我觉得他真的是一个养活了很多人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个，他真的作为一个产品本身，他做到了极简。但同时作为一个商业产品本身，它也就只有一个API给到开发者。但是他可以做出这么多我觉得让人印象深刻的产品，我觉得这是非常不容易的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第三个理由，我觉得是基本上它是集结了google所有这么多年的商业模式跟数据的积累。就是它可以理解这个世界，它可以识别定位对吧？它可以知道不同的光影，它可以知道一些物理的效果，然后通过文本还有图像跟世界的这个知识做融合，它不是一个2D的东西，我觉得它是一个3D的东西。其实比对，你老兄你记得它可以生成好多这种，比如说基于地理位置的一些场景，然后基于这种2D图转3D的对吧？这种就是3D的一个知识。对他来讲，我觉得这个是非常厉害，应该有可能会开启未来人跟AI交互的一个新的想象力了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实从这个角度来讲，昨天应该是20号，就是andry卡帕西发了一个他的2025年总结。它里面讲到的最后一个就是nano banana，是开启了一个新的范式。我觉得都在在在他说之前其实没有仔细的去想过，你刚才在梳理一下，我觉得确实是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为他有两个特别惊讶的，特别惊艳的点，是让我印象很深的两个很很直观的一个case。第一个case就是你给他一张大学的黑板，上面正写的是数学演算的一些草稿。你只要顺便说一下，他正在推演，然后他最后其实可以把你没写出来的那个推演步骤和结果都能给你直接推理上去。这其实是根本不是图像这个世界的事情，然后这印象就特别深刻。这其实就是它的多模态运算，还有整个对世界的理解是完全跟以前不是在一个层次的，是真正的融合在底层的。我们之前也聊过好几回，所以这个印象特别深。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二个就刚才说的地理位置，它其实是超出了你的可能的那个基本的东西。地理位置是已经是可以说我记得印象最深的实际上是有人拿去干嘛了。你记不记得以前经常有人就什么某个地方随便拍一张，然后让人家来比说猜出来这个地方是在世界的哪个角落。对，然后这个有个竞赛的，然后这个竞赛以前玩的时候就是用大模型找还是挺困难的。现在有了那个banana简直不得了了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你就直接改变了抓小三这个行业的规则。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>太吓人。了完了你应该要过一架飞机，那个飞机可能是几点几分，从哪个机场飞出来的，然后光线从哪里照过来的，全部他都懂。你们现在因为现在已经可以直接给一个GPS坐标，它去生成那个地方的一个风景和实际的东西了。他就结合这个东西来找，太吓人了。就是你这就是他理解世界的层次，已经是超完全超出了我们想象。现在所以现在要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小心这个东西，抓小三可能很厉害。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，其实可能很可能不光抓小3，或者是泄露你个人的隐私可能也很厉害。我们现在说再往后面走一层，可能是视频和世界模型。因为它也是以图像每一帧的图像连贯起来的一个过程，所以这个图像能先做到这种程度，后面的这个未来确实有可能有很大的一个空间。我们现在是一下子可能想象不到，但是确实感觉点醒到说，这可能是一个划时代的，也许是确实是一个范式转移的一个点。当然但是可能还没打开，但是这个点已经足够令人惊人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且这块很重要，真的就可能就是范式性的转移了。这图形可以承载的信息和传递的速度，效率的效率那是完全不一样。跟文字就像刚才我说的是有时候你要看一个几千字的东西，你还要自己点心理建设。扔一个图上面可能防能够传递信息和情绪都比文字要多多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是对的对吧？最佳年度产品奖我们颁给谁？经过我们三个人一致的决定，我们颁给nano banana和banana.</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>竟然颁给了一根香蕉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以刚才的原因其实老肖也讲过，贤哥也讲过，就是一个是范式的转移，还有一个真的可能会是开启下一个时代一个非常重要的一个拼图，对吧？那包括他在端测的能力其实也非常强。可能我就觉得未来结合agent，结合端测，结合nano banana这种已经接近世界模型的这样一个能力。我觉得可能会有非常快的在用户交互上面，或者是下一代交互设备上面突破。所以这个是我们想颁给banana的一个最重要的一个原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好了，我们就进行到第二个奖项，第二个奖项就是年度最佳团队奖。年度最佳团队奖我们也希望跟大家来讲一讲这产品背后的团队。这个奖项我先来讲，对我想颁给的是OpenAI对吧？虽然OpenAI在今年大家听到的都是负面的声音，对不对？融了很多钱，然后又花不出去，然后到处搞这种合纵连横对吧？跟阿川哥搞一下了，然后跟这个甲骨文，跟这个微软也闹了一下，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>各种对不搞对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>绑定英伟达算力，然后跟博通又签大单，整个真的我觉得就是一个现代版的合纵连横的一个山姆奥特曼，也是非常厉害的一个人。对，为什么我颁给open a的原因是恰恰是OpenAI现在今年做出这么多产品，你想一想有多少？一是依赖奥特曼个人的能力。坦白说我觉得奥特曼个人在OpenAI里面其实也不用干什么活，他主要去外面融资，就好可爱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>纵横就行了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他本来也可爱，对，去做社交花蝴蝶就可以了。其实在里面的整个产品团队，他的交付能力、迭代能力，我觉得已经脱离了一个强人的一个范围了。我这个是我觉得至少比马斯克强的一个地方，所以我特别希望把这个奖颁给OpenAI团队。你看他今年发布了什么，sora对不对？然后发布了这个AI浏览器艾特as包括GPT5。但是大家看它亮出来的每一个产品的洞察，包括它的产品能力，其实都是非常强的。我真的很佩服他背后的产研团队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我补充一下，他他其实在编码产品这一块进步也很快。就是他的那个code x GPT5 code x专门为编码这一块做的这个大模型，以及相应的所有的IDE和云端。这一块的话其实它就纠偏就特别快。他刚开始做的是纯云端的，后面很快他也把它嵌入到这个IDE里面去了，就是我们说的集成开发环境。那像这整个的结果是它在两三个月左右的用户量增加了二十多倍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后现在的口碑也其实非常好，就是我刚才提名的cloud code是最佳产品。那它其实跟cloud code可能有它的70%到80%的这样子的一个功力跟那个口碑了。其实就是说很多场景其实大家会觉得说会拿这个code x做平替，因为它开出的价格很有优势，你这可能跟他的就是三个奥特曼的融资能力有关的。就是他最后给你的那个可能能力接近80%到90%的水平。但是价格可能只要cloud的3分之1、4分之1甚至更低，它都可以跑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后也有很多人现在就转向那个code x去做日常的编码。然后这个其实我现在也在转，我们现在前段时间还在跟学哥说，我们开一个账号，我们搞起来对吧？我们已经开始用起来了，那实际上的效果确实也不错。所以我觉得它的产品的迭代能力是真的是很强的。因为它的这些东西，code x绝对不是山山姆奥特曼能搞的，一定是他下面团队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且他下面团队code x我知道说他其实里面的核心人员也经过了一两次的迭代了，我觉得也其实体验也很深的。因为原来用GPT编码，我们是直接都是放在不考虑的这个范围内的。现在已经变成首选的top 2了。这个其实是进步很快，就半年左右时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那老肖你的提名也是OpenAI吗？还是有其他的团队？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是团队，不是团队的话，我还是提名的是google AI的团队。那个AI团队的话我原来是不知道它后面的发展历史，这次为了提名我特别看了一下它发展历史。其实它的发展历史跟open I的GPT是非非常密切的。他是在GPT出来以后二三年做了一个重构。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>原来的话是有一个技术的大神，就jeff dean那边去引领的。后来jeff n就从这个管理岗转成手机科学家了。然后后面由戴米斯哈萨比斯去接手，就是deep mind这块接过来。然后也把gami还有那个google cloud三块地方合在一起。就是因为我们不断的去讲讲过很多次，整个google的AI其实我们最后看到的整个东西是它软件、硬件以及科研三块地方全部接在一起，才做成的一个最终的一个集大成结果。就是真的六边形战士，其实这个的配合要求是极高的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Open I的团队的话，我觉得说创新绝对是我我也觉得非常佩服他的创新。因为所有的。Google做的这些东西都是在OpenAI之后做出来的，基本上是这样，都是open I先做了一个打出来的一个东西。你所有google现在产成功的产品都能看到open I前面先铺了一个产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>让帕洛特曼同志。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>先走一步。对，让他先剖开还是怎么样，反正我后面就跟上了。对，基本上谷歌的所有的产品都是基于可能有一个创新之后，他把它稳扎稳打，做成了一个企业和个人可以稳固使用的产品。这个当然我觉得其实本身已经很难了。因为对于谷歌的产品整个的创新是它是从硬件到软件再到消费端，三样东西都做了的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个我觉得实在太难了。因为我们实际上从工程团队来讲，只是做软件就很困难。再加一个跟科研团队，就是有做很多基础的也很难。然后再到消费者团队，其实就跟这个三个跨度实在是其实很大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就对于一个能把这三个东西融合到一个，最后我们出了除了jim I这样子的这个原生多模态的这样子的一个底层的大模型fo ation model加上然后能够跑用好它的TPU的模型。它其实从界面二开始，也就是前两年了，就已经开始用原生自己定制的这种芯片来训练大模型。这个东西的话，它从成本上其实就比别人低了可能一个数量级的水平。然后它的整个的配合程度也会跟其他的厂商不一样。其他厂商再怎么样，它的卡肯定还是得N卡，就是英伟达的卡为主的。他这里其实训练已经是可以用自己的卡了。这种其实从很相当于从很早的时候，它的这个性能的优化以及数据的融合，这种深度其实是不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是很难打通，其实就是这种东西你说他在一起，我们说起来云淡风轻，其实是非常难做的。你就算是手上是自都是自己的团队，其实也是很难凑到一起做成的。而且他后面的人不是数百人，应该是数千人以上级别的协作。然后这种协作级别最后能做出这样的产品，就今年到我觉得应该到这一两个月，就是从市场的反应已经看到了，就是大家真的在用起来了。这个时候我觉得说其实是证明了它底层的这个优势，现在发展就是真正跑出来，然后后面的团队实在这个配合是神级的配合。我觉得说我还是会特别羡慕他们这个团队。其实就是他们相当于把初创团队、成熟团队全部跑到一起了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是这么个水平。我就想跟哈萨比斯说，你打分你至于吗？这么有前瞻性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是如果听咱节目的人应该已经听出茧子来了。咱们对这个google，对江民的各各种的各种的吹捧，也不能叫吹捧是吧？各种的赞美，反正我接着你的老师就说，就是我觉得确实是一个大公司大的难处，对吧？红楼梦里面特意说这句话，就是确实是一个几千人甚至上万人的组织。你要想把它协调起来，还能把这个产学研都能够结合在一块，太难了，对吧？咱国内也有负面的例子，咱就不提了。然后我想提的这个团队的这项奖项，我想提一个国内的团队，我想提阿里。但这倒不是说为了标新立异，去上半年的时候提的是deep sik，但这回我提阿里，我觉得是因为在尤其是最近三四个月，两三个月可以看到阿里无论是千万也好，还是夸克也好，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为咱们也清楚，国内阿里它不是一个团队在做AI，它是一个组织或者说一个协同的一个过程，就跟有点像google。但是他也是把自己的这个基因做了再再多改。毕竟是个电商公司的基金，然后怎么能够在AI层面上能够做到落地，我觉得这是最难的。如果说我们说科研能力可能还稍逊一筹，但是千问本身模型的能力我们看得到，对吧？咱们也看也上次节目也说到去参加那个真实测试基金的这个就是炒币的测试。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后再加上说最近大家可以看到千问自己的这个APP，APP的火爆程度，包括下载量等等等等，包括营收这一块。我觉得作为一个电商基金的团队，他能够把AI这么这个能力迅速搭建起来，并且能够做到to c端，这个是个非常难的事情。这有点类似于老修的逻辑说google。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是在中国我觉得在今年下半年已经完全走出了自己不同的道路来。就是场景落地AI能力，然后融合到自己以前的业务里面。这一点来讲的话不是无中生有，我觉得这个就是所谓的AI加，真正是把AI加到自己原来的业务里面来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一点上目前我看到夸克的浏览器也好，还是千万的APP也好，我觉得做的非常好。当然了国内还有其他竞争对手，像豆包，还有说像mini MAX等等等等这些东西。但是阿里作为一个大公司，它能这么迅速的坚决的能够把这个事情做到底，并且还能产生商业化的一个示范。这一点上来讲的话，我是觉得给全球的AI公司都能做一个好的例子。而且这个势头还没有倒还没有结束，可能刚刚起步而已。那作为马云都已经重新回到杭州了，对吧？咱们重新来讲的话，要给无论是团队也好，还是说给这个公司也好，还是给投资人也好，树立这样一种一股信念。但是更多的事儿是团队做出来的。我们也能接触到一些阿里的朋友们，然后包括年轻的人，就是在阿里团队里面，我觉得都能够把这件事情做成一个很有价值的事儿，就是能够把这个价值用这个产品来体现出来，这是团队的意义。所以我想把这个奖提名留给国内的团队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>阿里确实是我们最近接触了好多阿里的朋友。真的好拼好拼，11点多还能扣得到人我觉得这个真是有点厉害。而且我觉得在千问这个事情上面，确实他们自己内部的口号就是mega，就make阿里巴巴great，确实是这样在做。我觉得这个很不容易，真的很不容易。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你刚才拿帽子过来是吧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>连改都不用改。对对对，刚才老师讲那个google AI的整合不容易，但其实阿里的整合谈何容易，对吧？阿里的业务跨度也非常大。包括我觉得从我个人角度看，阿里最有意义的一点就是它有可能会开启AI怎么盈利这个事情，一个教科书级别的一个打法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么？就上期我们讲GUI agent，讲豆包对不对？怎么在手机里面用GUI agent的能力调用各个APP去做事情，然后结果上线两天被阿里跟腾讯封了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这个事情你反过来看，如果有一个模型能够自己在内部就把自家的产品服务整合到一起。比如说我用千问，就现在已经接入了高德，对吧？用千问就可以去问导航，问问这个美食榜的排名，甚至是未来我用千问就可以点外卖、下淘宝，甚至可以订机票、坐火车票。其实这个都是阿里自己内部的服务体系，直接在千问里面就可以打通了。那我们畅想一下未来是不是他自己的一个商业帝国的入口就变成千问了。那再往未来不想是不是未来就是苹果在手机里面，只要跟腾讯的元宝跟千问谈，我怎么通过系统级别的agent能力调用你们两家的服务。结束了这个事情就结束了。有可能把APP盈利的模式就是能够完全的搬到这个AI上面来。我觉得很有可能阿里通过他这种生态的示范，会给大家提前让大家看到未来AI怎么盈利的一个可能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，确实说不定都已经在谈。为什么我就感觉你记不记得苹果的apple intelligence中国又跳票了。本来是说应该是今年年底或者是明年春天的，现在好像说又跳票了，就是可能要更晚，但是他的合作伙伴应该没变，就是阿里。其实最近几个月苹果这个AI我们都说了，这确实一直不行，人也跑路了，然后各种东西没做出来。但是他很坚定的就是要换这个google的界面上去做他的那个助手。其实我在想，如果是国内，其实千问应该是最合适的。就是说不定是重新改了一下方案，就直接让千问来帮助他更深入的去去解决apple intelligence相关的很多事情有可能是这样做的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有可能是因为生态，因为你像google也有他自己的这种机票，地图这种服务。那其实你在现在的这种apple intelligence上面你就可以看得很清楚了，就是超过了本机智能的东西，它会切到GPT。但是有一个问题是GPT它没有生态，没有服务。那这个时候有不可能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他没有这些东。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我想要保证用户体验最大化的情况下，加上我未来能打开商业口子，能盈利的情况下，我最好是找一家又有模型又有生态来谈。他肯定是找google或者阿里是最合适的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你除了这个生态，是不光是软件生态，就相当于硬件生态，连那个delivery最后一公里交付全部都搞定了，那阿里这边就是全部都有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个其实确实挺深刻的，很有可能的一个配合方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在搜索引擎时代，google每年要付给苹果几十亿美金，还是几百亿，我忘记了对吧？的一个入口的费用。如果我把这个事情谈成了，我用apple intelligence调度你所有的这种google的不只是搜索了，还有其他的服务。那这个生意模式可能又能让苹果躺收好几年，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，然后同样的找千问也一样，阿里的飞猪、饿了么，这些全部给他吊起来。这个出去旅游住酒店，买买菜买菜买饭是吧，全部给你搞定跑腿，什么都有，真的是什么都有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，所以我觉得这个可能有可能开启AI商业模式的一个非常重要一笔。但是讲回来这个奖我们到底颁给谁，对不对？到底颁给谁？我们三个人经过一致的商量，不是google.</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该叫定的激烈讨论。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们班给OpenAI我们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>激烈讨论了好久。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我我我讲一下为什么姑姑跟大家讲一下为什么我们班给OpenAI。Google跟阿里都是躺在金矿上面思考人生，思考对了结果，然后干就是了，对不对？我内部整合一下，但OpenAI叫做平地起高楼。你记得去年24年底的时候，OpenAI才几百号人，可能还不到1000号人，今年膨胀到了三四千号人，对不对？这一年膨胀了这么多人的情况下，加上他不依赖强人去管理，加上他这么快的产品交付跟迭代的能力，我觉得这个是难度非常大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是在一片盒子前面，对，敢为天下先。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就阿里跟google可以敢为天下后，但是OpenAI可以敢为天下先。这个组织能力我觉得我试想了一下，特别难做到，我不知道该怎么去做到。可能把领导换成马云，换成哈萨比斯，都未必能够做到open I这样的组织能力，这个我是respect。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实作为创业者来讲，我们也是非常心向往之。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以对我就觉得把最佳团队颁给OpenAI是合情合理的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们要颁给OpenAI，真的是这样。就是国内的创业者，我也看到大很多的人都是很遗憾说没有机会去ONI工作一下。因为干大家就是看他干的真的是太快了，太牛逼了。这么多新的东西怎么搞出来的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括这个分手见人产品，吧？就是有不少从open I出来或者被挖走的人都没有说open I的整个组织模式有问题，也没有说他这个产品的开发或者团队的氛围有问题。说可能离开都是有其他的原因，就比如说薪酬或者其他的事儿。但是整个从里面出来的人都是受益匪浅，这一点上太难了，太不容易。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且他站在了这个时代的风口浪尖，他的面临的压力跟选择是非常大非常多的。所以这个时候他还能用很朴素的方法去所谓叫AGI那个目标去前进，去发布产品，去敢为天下先。我觉得这个其实是非常难的。改天我们出一集专门跟大家研究一下open I的组织文化。所以这个关子先放在这里，我们进行到下一个环节。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>下一个是年度的最佳boss奖，年度的最佳boss奖。我先跟大家讲一下，年度的最佳boss奖，我先跟大家剧透一下，我们有三个提名，一个是哈萨比斯，然后一个是这个mini max的创始人严俊杰，还有一个是山姆奥特曼。至于哈萨比斯的提名原因，刚才老师已经讲了，这里就不再赘述了。但是老修特别提名了这个mini max的创始人闫俊杰。这个我请老修单独跟他讲一下提名的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我提名他的原因其实跟我们刚才聊到谷歌很像。就是他是我在国内能看到他把科研工程跟消费三个东西都跑通了，就是端到端跑通的一个人这一或者说一个公司，应该叫但是他能出来把这个事情讲，因为其实国内的我们知道很多的情况下，是大家不太好说了出来说那他其实现在是至少说从我是从去年开始，他接触，接受极客公园的一个采访。在讲那个时候才刚刚出GPT4O的时候的事。那时候在讲多模态要不要做的事。那他的几个战略判断其实到现在看都是完全都是正确的，他产品都做出来了，也能够产品已经在外面能够实现一定的比较高的一些营收和粘性。就在海外在海外市场不管它的音频视频，其实在海外市场都已经是有其实挺高的收入了。就是它的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个亿对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该是过了。然后它的估值我觉得之前我是具体的数字不知道，但是之前其实提到几十亿的估值也有，因为毕竟是估中国的，没有像美国那么夸张。美国随便现在那几个领头的都是几千亿是吧？那很吓人，上千亿的他他可能是几十亿的这个水准。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后现在最新的我也不太清楚，但是我觉得说很重要的就是他的那个他真的把这个他自己是一个科研型的人才，他真的把自己科研和工程这些部分的整个大模型多模态的音频视频，以及到今年它实际上把编程也打通了。它有一个mini MAXM2的一个编程的这个模型，其实在现在也是跑的非常的好。那那这个的话其实是我觉得是非常难做到的。我们刚才讲团队其实都有讲到，他其实如果对应在中国的这样子的一种情况下，他现在其实好像也就是数百人的团队，就是几百人，可能四五百人的这样子的一个团队，其实是很小的一个团队。但是他，同时有音频视频编程的这些产品在全球范围在跑。他个人其实也还很年轻，其实从创始人做这个的角度来讲很年轻。他开始的时间，实际上是在ChatGPT这个惊爆世界之前一年左右开始的。就是21年底22年初这个时候他就开始做mini MAX，一开始做的是音频起家，然后把音频做到基本上是全球顶尖的那几个，然后后面再做了视频以及相关的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那它的整个的背景也其实也很符合，我们到后面来看的话，为什么他能做成他的团队能做成。他是从小县城出生的，然后一路是读到清华的博士后。然后在商汤这边是从实习生开始做，一直做到副总裁，然后再出来创业。他再出来创业的时候，就是看到了这个二元模型这个AI的机会。因为当时这个机会，他在他的这个里面有一些东西可以我很推荐大家去听。就是他在罗永浩的那个十字路口，老罗的十字路口，他有个3小时的访谈在最近有放，我是听了两遍，大概他有讲到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实那个时间节点，很多在他业内的人是能看到有机会。但是可能很多人并没有出来做，也想象不出来出来做能做的这么大。包括我们前面有讲到像cloud code。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>背后的那个那个anthropic的创始人达里奥。他其实当时在百度干过中国的百度，然后在中国百度干过。就是在那个时间就是林俊杰的判断，就是说达里奥在那个时候应该已经也看到了，这个未来是可以的。因为达里奥后来是回到OpenAI去做ChatGPT了，接着做ChatGPT了，做GPT的那个我们当时看到的3.5，其实是达里奥做的，然后那那段时间做的，然后他就是说最早的时候像达里奥这些人，在中国的百度大家都看到了这个，AI未来的可能性应该是挺大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是这个真正能做出来的人还是很少的，和人和团队还是很少的那他的话起步的时间其实比较早，然后刚好切入那个点就找了一波人专心做这个事。但是在那个点拆GPT出来以前，其实还是主流的投资机构和个人肯定是无法理解的，大家都无法理解这个东西是什么。他刚开始做的事还是非常艰难的。然后他开始做的时候也会不断的看到OpenAI在前面跑的这么牛逼，他们做出来的东西跟他差距很大的这个痛苦，对吧？但是到现在的话，其实就是在追赶的过程中间，他的自己的音频视频编程这些东西都不会说比他差一个量级的，其实是同一个量级的水平。这个我觉得说在他几百人的小团队，而且钱也不多。因为中国团队其实拿不了那么多钱，也没有那么多资源。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个不用讲了，这个硬件就差很多。他能够做到这个程度，前面几期我也讲了很多产品上的选择。我确实就在用mini max做我们的这个大模型基座里面的一些事情。比如说音频和一些编程的事情，我确实就在使用，确实价格便宜量又足，质量也不错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我就会这个是我这今年以来，我觉得国内的整个的个人和他公司产品特别打动我就是他整个分享的这些整个过程其实很困难，但是做出来的结果我觉得说已经是能够在全世界范围达到这样的结果，我觉得是很值得大家去了去respect一下的。而且，按照现在的一个节奏，他们也应该是可能国内AI创业公司里面最早能够去有上市机会的。应该是他们可能在最快有可能明接下来的几个月时间就能在香港那边去上市了。这个我觉得也是一个挺值得关注的一个机会，对吧？就是对于大家如果做投资的小伙伴，其实可以值得关注一下他的这家公司。因为他我从我的从我来看，他其实非常像OpenAI。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个奖项蛮意外的对，因为大家知道这个最佳boss奖上半年我们提的是梁文峰，对不对？但是我们在想说今年下半年还要不要给梁文峰，其实想了很久，并不是不想给他，而是因为他今年下半年还没发力。但我相信明年会有的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我猜下个月可能就要发力了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过年到时间了，又可以多吃皮了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是我们已经搬过了，下个月再说。炸弹。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，我们下个月再说。而且梁峰今年已经拿了像nature，还有好多地方的大奖，还有是什么times好像都把它给评上去了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能不太在乎我们这个奖了是吧？那也不会亲自来领了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这边先让让让个位让个位。对，那我想请那个贤哥来讲一下你的提名。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我必须得说我必须得说必须得说。因为上半年的时候我颁奖提名是扎克伯格，小扎。对，当时就说说有可能会打脸。当时我还记得我在对我还记录节目里面，我特别坚定说我说我评价小扎就是八个字，杀伐果决，买定离手。我还特意解释了一下为什么这么说。下半年打脸来得有多快，是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家只有离手了，现在整个都没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，只有离手了。没错，分手，而且分手还见不了人品，对吧？杨立坤走了之后也没留下什么好话。所以说对下半年这个提名的时候，我特别谨慎。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>虽然说提出来这个人，大家可能就会觉得切赛马奥特曼，但谁都会觉得他是个很牛的boss。但是从我来讲，从我个人来讲，我怎么来看这个最佳boss这个提名。首先我们来看就是作为一个boss来讲，你不光是得说人前光鲜，我觉得你还得能够承受人人后受罪。从这一点来讲的话，我觉得就是能够看到的这些boss来讲，有的太年轻可能还处在上升阶段，有的又已经是退居于二线了，对吧？然后有的还处在跟整本身的业务若即若即若离这个状态。因为毕竟可能大公司来讲，AI也只是它的一部分而已。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但对于扫描奥特曼，我认为在我看来他不能用这个沙发果决满地离手来来来评价。我觉得他更多的是什么？就是身段极其柔软，非常柔软。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么这么讲？你看首先他他是曾经被逼宫的对吧？那能够在当时已经失去了自己的管理权，然后甚至说直接就差点就被踢出来了。但是能够在迅速之间获得很多员工的支持。我看我前段时间看过一个访谈，就是他手下的一个很重要的核心的这个角色的一个访谈。就说当年怎么样能够经历这件事的时候，在一个周末他就获得了几乎90%以上的员工的签名，来支持赛罗奥特曼重回董事会，重任CEO。这件事儿我就认为这样一个boss他获得的是说起码是绝大多数人的一个欣赏或者说认可。这个做人太不容易了，而且是在当时那个条件之下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后再紧接着就看啊就看今年咱就不说过去的事情，看今年他做了几件事儿，让我觉得非常佩服。第一点来讲的话，当然就是说各种融资，各种社交花蝴蝶对吧？能够把各大公司串联起来，然后把什么oracle，把什么英伟达等等的，包括特朗普对吧？包括孙正义全都搞在一块儿。还能够把彼此竞争的这个对手能够搞到这个钱搞在一块儿，这个太不容易了。大家可以想象就是说这件事儿本身是应该说是他的过去几十年、十几年、几十年的这个能力的一个释放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然在这个面前来讲，我觉得能做成这项就可以说可以算是顶级的这个boss了。但是还有几件小事儿让我觉得特别的，当时感觉很震撼，咱们就分享一两件。就比如说我前两天听说他任命了一个首席AI科学家。这个科学家好像是23岁一个瑞典小哥，还是哪儿的小哥。反正北欧的小哥是没有大学文凭的高中毕业生，成为了这个AI的首席科学家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得以三三奥特曼而言，他能有这个魄力，能启用这样的人，并且能够识别出来这样的人，并且能够说当然我想我相信open亚里肯定没有滥竽充数的人。如果真有这种人的话，整个的科研环境或者说这个创业公司的环境不会好的。那说明这个人能够被识别出来非常厉害。你就想是有伯乐，然后千里马对吧？如果从我们这个文化体系中来讲的话，伯乐可比千里马要重要多了。咱们就不说这个23岁小哥怎么样能成为科学家，我就说能够被三毛他们发现，并且能够被任命，并且能够说直接能够重拾这么重要的职位，这点上我对这个boss本身特别的钦佩。这是我想分享的第一个事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个来讲的话就是说前前两天前两天g GPT5.2发布的时候，正好赶上open edge十周年。如果有兴趣的大家可以去看看当时这个赛文奥特曼写的一封信，就是这十周年的这个相当于是回顾，也是他的一个感慨。我觉得文笔写得非常优美，就像年初的时候他写的那封信差不多就是我觉得他本身来讲的话，是个很擅长输出的人，而且他的输出不是说建立在凭空的这种无病呻吟，或者说是啊过分抒发自己的感想。你比如说简国内前段时间有个在南极的CEO，发了封信，引起了好多员工们的反弹。可是你看在奥特曼这封信写完之后，我就作为一个外人，完全的局外人，我来看这封信我都会有一些思考。我觉得这样的这个担心的内容我就不在这儿复述了，就这样的这个人他本身是有魅力的，然后这种魅力又在这个AI时代被这个时代的洪流所放大，并且能够主导这个时代的一些方向。这就是我们经常讨论到底是强人创造时代，还是时代创造强人的这个事儿。我认为在这个时代上，他给出了一个人生范本，这个很厉害。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后最后我还想说就是说恩和爱我们可以说它是个AI的非常硬核的公司。但三褒曼我感觉他并不是一个技术出身的人，对吧？我们可以看到他并没有任命，把自己放在这个所谓CTO，或者说什么样的职位上面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反倒是他能够领导这样一个最前沿的、最硬核的科技公司往前走。而且也能够让萨姆奥特曼同志先走，后面人还能够以他为马首的时间来拷贝他的产品。这一点上来讲的话，你想想就是在一个科技公司，它你不是科技老大，你还能够被服众，而且你还能够团结这么多人，而且还有这么多人被挖走之后，你还能继续让这个团队继续自我更新，或者说新陈，这个叫什么，叫新陈代谢。这一点上来讲的话，boss肯定要有很非凡的能力才行。所以我的这个提名不是说为了安全，真的是我在上半年或者说在整个全年2025年看三胞胎的表现和表演，为他鼓掌，所以我特别提名他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我其实我同意你这个讲法，我觉得他的人格魅力应该大于他的能力本身。我觉得他是一个很细腻而且是有同理心的人。然后你看他的文章，他写出来的东西，包括你看他的团队，你都会发现说他跟其他人不一样。他就不是技术出身的人，或者对技术有什么样执念的人，反而他是像YC的这种投资背景出身的人，但是他又敢为天下先，去做一个往AGI冲的一个目标。其实我们知道如果谁去冲这个目标是最危险的，对不对？就谁先去冲这个目标，谁先去做敢为天下先的这个事情是最危险的。任何做投资人，其实我觉得他其实去做业务的时候，他可能未必敢这么去做。所以我觉得这个来讲，对我的感受来讲，我觉他是一个很特别的人，所以我也是会愿意心理上投一票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这个奖项我们商量了一下，就必不能给open a或者萨姆奥特曼对吧？这个奖项今年我们商量一下，还是要给到哈萨比斯，为什么呢？因为我觉得刚才老师讲了很多，哈萨比斯怎么整合团队的，然后那个贤哥讲了很多OpenAI怎么怎么山姆奥特曼这个人怎么样。但我觉得哈萨比斯来讲，就我个人一句话，打份工何必这样，你已经尽力了，对不对？不要？就是今年不给你这个奖以后，比如说这个轨道上去了，你千万不要做个孤城，对不对？绞兔死吧？走狗烹，这种事情也是会发生的对，但我希望这个哈萨比斯同事一路走好，还是能够带领苹果AI的团队，明年的GN4 jam.</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看你到底是黄金乌鸦嘴。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，持续的惊喜让大象会跳舞是非常难的。让大象会跳舞，但当大象转起来的时候，有可能你就先死了。所以我觉得这个奖今年要颁给哈萨比斯。我觉得他是有勇气的人，他是有担当的人，他是有梦想有责任的人是个好人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看看是不是到底是战是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>诸葛亮还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还是司马懿对对对，对，这个奖项颁给哈萨利克斯那我们进入下一个奖项。下一个奖项我想先来，对，就是最佳逆袭奖。对，刚才讲这个三毛奥特曼就给我讲兴奋了，然后我这回先抢先说一下这个奖项，我提名这个最佳逆袭奖，我提名当当可能跟大家想的都不一样，我提名的是oracle甲骨文这家公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看大家可能会觉得，哇塞你讲AI评奖怎么可以讲到他，那就有的，就是oracle这家公司，肯定大家可能不是特别了解的人，会觉得这个为什么会提他。但如果说对他很了解的人肯定会知道，就是说这家公司其实还是挺传奇的那经过几次转型尤其是说这个公司今年下半年，我觉得是给了大家一次发大财的机会。大家知道曾经有一天，它的股价涨了将近40%，直接涨了几千亿。甚至说把这个哈萨比，不是哈萨比斯坦，把oracle这个创始人的身家搞到了全球首富，展示了全球首富的这个地位，你就想就是这家公司他曾经是做什么，他一直是做to b业务的对吧？他没有说像google一样，或者说像那什么一样腾讯一样，他做to c业务，让全天下人所熟知。他作为这个to b业务做的非常成功。当时在在国际上来讲的话，甚至说在中国当时在市场份额都是非常大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且他这个公司也不是说他创新了一个什么业务，或者说他创造了一个什么行业，他真的是说一步一步的通过自己的一些营销手段，通过一些自己的定位，他就是产品定位，然后搞上来的。而在AI时代其实来讲的话，它已经是被应该是处在被淘汰的这个阶段上了，对吧？或者说这个位置上了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但能够比较危险，就是变成反正好像可有可无的那种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没错，基本上就是说你要是不断消退，把位置让给年轻人了，对吧？这帮老灯们，你赶快去赶快下去，让我们的中灯新灯们上来。可是在这时候，老树开花你说这件事儿多有意思，对吧？人家迅速的一下直接对方达成了很多跟大厂的这些AI基础建设的协议。把自己从一个数据库公司变成了一个在新时代AI时代的基础建设公司，基础建设提供商的公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能够说市值一天涨将近40%，反正我是没怎么见过这种案例，肯定是有，但肯定不多。尤其是在这种这么大体量的公司之中，还能出现这种情况。所以我觉得逆袭非非此莫属。但是也同样看到，自从九月份它大涨一波之后，又开始连续暴跌，然后这回又跌回来不少。然后在今年周五，好像还涨了就涨了1 6% 7%的样子。然后就这种过山车式的狂欢式的转型，这个是我觉得是在故事中是最好的一个版本，或者说在故事里面是最喜欢大家看到的情节。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该说作为下半年，尤其这两三个月，讨论最多的是AI泡沫。之所以说讨论这件事，是因为肯定有不少人，大家有这么一个疑虑了。当然如果是共识，那就大家就早就把这个泡沫戳破了，肯定还是有这个争论的焦点或者争论的这个理由的那上次我们请嘉宾ramon我们也聊过。但是无论怎么样，在这个时代上一定会有弄潮人的。一定会有些人因为这种时代的波动，或者说这种激烈的冲突也好，或者说共识的这种撕裂也好，赚到钱。那oracle它作为一家老公司能焕发这种新春，这是我提名他的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我我觉得oracle有点像我们刚才讲的那个科的，就是那口气要冲上去，他知道这是一个很危险的事情，但是他必须借NVIDIA这些事情，他要把那口气冲上去，把自己变成一个基础设施的公司，那事实上他应该也做到。我记得应该是美国前三三了，应该我没记得没计划还是前四，可能是这样的一个级别了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>前四应该。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是估计在是那样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>估计在微软亚马逊语音和那什么之后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，因为我个人以前是在大家要去IOE那个时代，我是在那个E里面就带有EMC。对，然后其实我我我们当时会觉得说IOE这几家其实代表的是那个年代的美国的基础设施。但是作为dell本身，就他一直是作为一个硬件供应商的角色，他一直那口气就是上不去，就可能从这种最早做PC到做服务器，再做存储等等等等。他一直没有办法把自己做成一个这种平台级或者基建级的公司。一直作为一个供应商，我在那个公司里面我其实经历了非常多，那口气没有上去的那个感觉，那个憋屈。然后我我会当时我会认为oracle是跟deal差不多的那种公司，就很无聊很无趣，就是一个to b的公司。但是我觉得最近看到他那口气能够上去，我是特别高兴的对，所以我觉得我挺同意贤哥给他的这个提名。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我讲一下我的提名，我的提名是千问对，就是为什么给他最佳练习奖？刚才我们已经之前已经聊过千问了，但是我再call back一下为什么给到千问？就是他能够在更名千问这个APP的时候，短短的二十几天DAU、MAU就月活做到3000万。这个其实是一个很强的一个破纪录的方式。当然他做了天量的投放，当然他有很多东西，但不可否认我觉得在这个产品上面，我看到了一个就是阿里想做一个好产品的一个决心。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后在这个产品上面，我看到的就是阿里想用AI这个入口把它生态打通的这样一个决心。我觉得让我看到非常多想象力。大家可以回听刚才我们讲阿里的那段论述，我就我觉得有可能未来请问是一个连接阿里生态，或者是连接你买东西、买机票、订酒店对吧？然后这个导航找美食的一个非常强的一个入口。甚至是能够去跟苹果这个级别的OS来谈合作的这样一个入口了。我觉得这个事情是让我想提名千问的原因。就真的他从开源到现在的产品化to c这个逆袭，今年特别是下半年进步的非常快，这是我想给他一票的原因。这个老师讲一讲你的提名。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我要提名的这个其实可以call back一下贤哥刚才说的oracle。因为oracle其实是技术行业大家绝对非常服的大神级别的公司。就是他之前在做数据库这一个这一个这一个产品，把这个数据库做到了出神入化。我们以前其实做过大量的项目里面，其实如果用的oracle这个项目就稳了。如果用的不是oracle，可能事情会很惨。所以我们经历过非常多不是oracle的这个事情掉链子的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是让我现在特别感叹的就是说oracle在现在刚才我提到一个词叫可有可无。就是说它的云服务确实转向的也很好。但是它这可能在第四或者第第第的这样的一个位置。第三第四这样的位置，它不是那么的优秀。他每一次的转型其实转都还可以，但是在这一次真的是生死攸关的。这次转型的时候，让我看到说，他可能又又能有一个新的机会出来。因为他的技术积累其实是非常深的，他的人才也非常好。然后我想提名的其实恰恰相当于是一个新时代的oracle了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Oracle这个词本身是先知的意思，或者是我们翻译成甲骨文，但是它是有先知的意思。对我看到的现在这个先知实际上是我提名的，是想提的是s pic，就是做cloud code cloud。这个大这一家公司，为什么是他呢？因为其实在去年的这个时候，我们按照年度颁奖，年度的维维度来看一下。如果在去年的12月份，大家其实看不出来他有这么大的潜力。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们当时只是觉得说他还在去年只能说他基本奠定了一个事情，就是编码方面他做的不错，有有挺好的这个突出的地方。但是大家看不出来，它是一个叫属于第一梯队最顶流的那个水平是看不出来的。现在他是他现在跟OpenAI应该是估值是非常接近的，上上千亿美金的这种水平，对吧？应该是1800亿还是多少，也可能越来越高了。对，然后这个是在去年完全看不出来的，去年你可能不会觉得他跟open I差不多，只会觉得他好像是一个open I里跑出来的一个一小撮人搞了一个产定位还比较独特的企业服务的产品，一家小公司而已。去年的感觉还是这样子，在今年已经你完全不是这么感觉了。完全你会感觉它是一个非常有深度，然后交付的产品很可靠又安全背有安全背书，然后有交付质量的一家公司。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那为什么一年时间能变这么快？我觉得最后倒过来看一个事情，就是用钱投票的事情。他在24年的时候，他的收入其实是按照他这几个主流的，比如说路透社，还有一些其他的一些媒体报道的。是在去年的你24年年底的时候，他的收入应该可能只有8亿到9亿，不到10亿美金的一个水平。那到现在的话，其实他在今年的那个五月份的时候，它就其实已经到30亿了。然后到今年9月份的时候，它已经是有做到50亿。九月份的时候就已经是去年的五倍以上了。然后现在在九月份到年底这第四季度，最后这一个现在按照他的那个预期，然后这个run rate它实际上到年底应该能跑到90亿美金的一个水平。其实就相较于去年，可能如果按8.5亿来算的话，它其实已经有十倍的增长，一年时间十倍增长，这其实是去年完全看不出来的那在这么短的一段时间，光cloud code就帮他赚了可能10亿到20亿美金左右的这种水平。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就到做到现在的话，在当时可能才几个月时间就快跑到10亿了，就快把他去年一年的钱全占了。就是这一年多一点的时间，他的服务企业数量从不到1000干到了30万家。这里面你可以看跟他的收入好像可以对得上。因为这里面企业有些企业肯定不是那么大的。我们相信做企业服务都知道挣钱的可能就是28法则。20%的企业可能是非常有钱，然后80%的其实可能是比较小的给你。但是他这样子是非比较健康的，就是说你的量可能是有大量的中小型企业，甚至小微企业，他会直接为你的这个产品买单，为你的这个cloud code以及cloud模型直接买单。而且持续粘性非常的高越用越多用用量越来越多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为今年其实cloud出现了非常多次的这个outage，就是它的那个服务有点跟不上需求，有出现大范围的降。智，就是智力水平下降，然后被人家抢客户，干嘛就出了好多事。但是依然最终智利回来以后，大家首选的还是他。因为我们会知道说你多掏一点钱就能得到更好的一个智力结果，这个事情是去年也是完全无法想象的。去年我们只觉得说我靠这样能能做个实习生都不错了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在实际的情况是已经有很多大的公司，包括我们刚才提到的像mini max国内的这种公司，他们都已经在用自己的大模型在做实习生。所以他们都会不断的在讲，未来的2到3年，很多知识工作者的初级知识工作者的很多工作可能会被替代。那我看到的结果至少在编码这一层，我们实际已经替代掉了一些初级的前端工程师和一些UI设计师的工作。我们确实已经不需要了。那那也是通过cloud code和cloud的模型去实现的。因为他们做出来的效果确实能够达到他们的水准。那那像这样子的一个事情的话，我觉得说是特别惊讶的一个逆袭。就是我而且希望他继续逆袭下去。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你应该属于AI时代的真正的原生公司，把AI用到极致，而且还能把AI能力变成AI就变成AI输出，变成AI产品。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>确实而且直接把钱挣回来了，他是这样的钱能赚回来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个奖项我们颁给谁一下？对，我们最终这个奖项我们颁给的就是robic。对，所以刚才老师讲了很多班给ensuring的再说。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，但确实我觉得如果说千问是很有可能找到一个叫做。AI的商业模式或者to c的商业模式的话，那anthropic应该是很确定的。已经找到了一个AI to b的，可以增长的，我觉得是非常确定性的商业模式。就冲这个非常稳定的结果的交付，我觉得就应该值得把这个奖颁给s orbic。对，那好，这个所有的奖项都颁完了。但是最后我们有一个小彩蛋，就是我们三个人会每个人颁一个刚才没有搬出去的，但是又不得不说不得不班的一个叫做特别奖。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不得不提一句的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个特别奖它可以是公司，可以是产品，可以是人，可以是一件事情。任何东西就只要跟我们今天聊的AI相关的，都可以当做一个特别奖。所以我想请贤哥先讲你今年的特别奖，你想颁给什么东西？</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，首先先说特别奖，就得先说特别在哪儿，对吧？然后我想这个奖项我给他定名叫什么呢？叫做最佳，或者叫最最具韬光养晦奖。为什么这么讲？听这个词儿就是听起来是个褒义词，也许是个贬义的用法。为什么这么讲呢？就是说说明今年他没什么发力，也没什么可讲的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个奖颁给谁呢？我提名是腾讯，为什么这么说呢？可能也没有人给我竞争这个提名，真的想不到。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，为什么？因为咱上半年其实提到元宝，对吧？咱们当时班班那什么奖的时候还说的元宝，然后说到最佳那个应该是产品，还是团队也忘了。然后当时就说说那个逆袭，还是什么忘了。然后当时就说说这个元宝动作又快，腾讯也在经常发就是后后发制人，看到别人怎么样成功之后，自己做到极致，然后把这个生态整个拿掉，而且背靠着整个腾讯，无论是他自己的这支付也好，还是说自己的微信这个生态也好，它一定能做的很强。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是整个下半年看起来，我觉得元宝虽然进入了千家万户，成为了说从乡村到城市，大家都在用，而且经常在微信能看到的，没有说特别影响整个AI进程。但是我最近观察到有一个什么事儿，就是看到他挖了一个大神，就是叫尧舜禹。大家听这名儿就知道他不是一般人，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个名字就很重要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你这个名字就太大气。尧舜禹当我靠，但是这个人确实很牛，真的是我觉得是天才型的。就跟就是我如果跟他比，我就是来人间凑数的。人家清华姚班姚姚班毕业之后。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个就是当时预测应该小时候我们经常提到的那个那个尧舜禹是吧？就是说当时说下半场就是推理的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该对，下半场就是他写了一篇文章，对，2 0222年把它写上名字叫叫AI下半场。然后后来又成功预测，不光是预测了，而且他是能够把自己的一些想法提出来之后，在OI实现了。而且最近好像我看到一个榜单，把它评为AI领军人物之一。因为他能够对AI算法提出了具备非常前瞻性的或者说开创性的能力，都不是一个想是就是不是一个理论了，而是真正把能力实现出来的。包括我们后来看deep p research的deep search什么功能都是由他的一些想法来变现的那现在这个人成为了腾讯的AI手机科学家，所以我就不多说，我觉得你腾讯的野心，以腾讯的生态，以腾讯的财力，以腾讯现在已经把人挖到手了。那天时地利人和如果都凑齐之后，明年他要不干点什么，那我明年下半年再骂他。这就是我提问提名他最佳韬光养晦奖的一个原因。这是我的特别奖，下面老兄或是小苏你们谁接一下？</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是特别想颁一个特别的奖，是叫趋势吹哨人，为啥就是给那个安卓卡帕西？今年其实有好多迷茫的时刻，因为今年这个变化实在太快了。年初deep seek搞一波，后面有一大堆交错的很多产品对吧？不断的弄。其实那个时候我们有很多东西其实都不知道该做什么，或者说该往哪里发力。然后其实我后来我现在全年一回顾发现每次出现大的变故的时候，这个安卡帕西总是能够很温暖的实时的去分享一些他对这个事情是怎么看的，他怎么做的，特别重要的是他怎么做的。而且他也做了好多次的公开的分享，他觉得以后应该怎么样。他的话我是觉得迷茫的时候，你看看他就行了。就算你啥也不干，就是你很久没看AI了，你就去看看他的博客，看看他最近有是接受了什么采访，你基本就知道现在这个AI时代的情况怎么样，然后该干嘛了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为他他其实今年我觉得有两个事情特别的让我是感觉压力降低很多。第一个就是他讲那个web coding的时候，就是他他自己是在什么shower time，就是冲澡的时候想到了这个词，想到了这个氛围编程web coding这个词。讲到说其实现在代码变成了大家可以通过大模型，可以通过想到啥就写啥，一次性的把一个一些原型快速的想出来，然后直接去交流原型，然后直接这个东西用完就扔掉都可以。这个东西其实能够让很多原来不编码的人都具备了编码的能力。然后编码的能力其实恰恰意味着你可以去去改造世界，去实现你原来没有好多想不到的事情。那这个东西我觉得说是当时其实我们实际也这么在做，但是没想到这玩意儿确实有这么多价值。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后也直接就引发了像我们自己频道，我们自己有个试验性的产品，我们自己的早晚报，其实就是web coding做出来的，主要就是web coding做的。只是稍微用了一点点工程师的这一些能力，但是主要是web coding去去做出来的那这样的一个产品其实让我们大大的说去理解了全球、国内、国外的这么多大模型的这些边界，以及让我们自己有信心。其实虽然web coding现在做出来的东西做原型不错，但是做生产环境的产品还差蛮多的。但是我们会有信心说越来越多的去引入大模型，直接去做我们的这个AI数字员工同事了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对这点我觉得是其实是特别重要的，尤其是在他分享了一个很具体的怎么用的时候，他讲说他用的web coding，其实稍微做完原型以后再迭代，他也很痛苦。一个bug能改几个小时。然后跟AI讲，AI讲的都是好像都听懂了，情绪价值拉满了改都改的跟屎一样，这个很正常。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>越感觉就这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他他最后怎么退回来的？他说我只用cursor里面的自动auto complete，这个时候的带宽感觉差不多了，就是上下文我自己自我自己差不多都提供好，一边写一边看他的建议，而不是跟他聊，用语音对话。你要怎么样，然后等了等他半天以后再来改。我原来也是这样，后来我发现他说的这个实际的他自己实际这个做法，我也改成这样的做法，我发现确实效率提高很多，就是你改写代码的质量也高很多。也不会说一个一个人写，一个人等等AI写，等AI去写，然后我们再debug。我可以一边写一边debug，这个效率完全不一样，整个的体感完我有非常大的提升。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>像这种其实这种方式就是我在国内的国外的各种各样的科技博主，其实没有人会分析这种层面的一个很小的实操。他就是说它在使用的时候会转成这个方式。虽然还有用语言去干一些事情，但是很多时候可能是用这种方式去配合。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>像这种很小的实操，他会在他的分享里面会讲到。那我就觉得直接是受益，然后压力也会小很多。因为其实在用新的web coding的时候，会有很多焦虑。在等等AI实现的时候，你会觉得他又要生成一坨屎了怎么办？然后他最近好像前两天又发了一个，就昨天又发了一个今年的年度总结。其实是从他的角度也给了我们一些启发，对吧？所以像这些的话，我觉得很重要的一个他的结论是说当前AI还远远不够好，可能只发挥出了10%的潜力，还有大量的机会我们可以去做。然后这个是我觉得说我特想特别想班的，就是最佳趋势吹哨人安锐卡帕西，大家可以值得没关注的，非常值得去看一下。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小苏那你你来颁一个特别奖。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对我我讲一下我的就是我之所以想要颁特别奖，也是因为我想临时班给他。因为我最近用的特别多，就是google的这个新的IDE叫antigravity反重力。这个其实是整合了win serve团队以后，google推出来的这个IDE。之前老肖已经安利了我一年，说赶紧去用curse或者cloud code这些东西我们都用不起来。因为我对那个传统ID见面，我就不像老是程序员出身，我都没有感情，对不对？我看着他我就爱不起来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我当然我知道你很难受的，你很难受。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的对对我当然知道他可以做ABCDEFG我知道，然后我知道他也不止ID我也知道，但我用不起来。但直到用了这个antigravity以后，当然我讲一个就是为什么用？因为我觉得今年充的最值得的一笔钱，就一个月20美金的google会员，然后直接送你这个N这个无线套餐，对不对？还可以直接调用cloud最好的模型，包括GPT的模型。没错，基本上就是涵盖在google的套餐。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>全有用，全部都有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我靠。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且用量比cloud code自己的pro给的还大好几倍。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我就觉得这个东西真的太爽了。好，这个是直接原因。好，我讲这个用完以后，我的最大的一个感触就是它超越了一个IDE。就是他让我看到了一个非常大的可能就是age mode。就是当你在授权了计算机的权限以后，开启了它的AJ mode以后，它就能自动帮你干活了，就各种活都可以帮你干了，不只是帮我写代码了，对吧？我在他我在本地搭建的一个结端云结合的一个产品，就是把我们这种很难翻译的字幕给到他一部分给AI处理，一部分在本地跑我的字幕库的规则，然后最后生成一个字幕加那个show note给我这样一个任务。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这个东西在云端的模型是很难去做的那由此我展开了非常多的实验，包括我用他的agent mode去帮我清理电脑垃圾，然后整理电脑文件，快速转格式，我会发现就是很多工具型的软件基本上就不需要用了，甚至以后我们跟电脑交互的方式就剩那几个APP了。那其他那些工具型的那些很繁琐的PC上面的一些设置，基本上你就可以不要用了。我看之前他们就是上一期的嘉宾，就是张贺老师就在讲。其实现在GUI agent最大的一个机会，其实在PC去解决那些老旧的系统，然后繁琐的设置，令人烦恼的地方，社会的各种系统对吧？然后政府网站等等你不想做的事情，包括我们像我们做自媒体要跨平台去传视频，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后一个视频要传五次，传五个平台，不同的规则，我觉得都可以通过本地的这种agent来解决掉了。所以这个antigravity就是让我看到了一个非常大的一个产品的机会。或许可是也有，但是我觉得这个产品他把age mode单辟一个路径，我觉得是让我非常我觉得体验非常好的一件事情。所以我想临时把这个产品，把这个特别奖颁给他。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你这也算是安利了，你说完之后我都想拥有了，明天就去找试试看了。又有一个学习成本了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个真的很很好，这20美金的套餐里面包含的东西太多了，而且这个UI上面真的有有创新。因为win f本身它它前身是win serve，我的win serve本身的优势就是在交互上其实做了大量的优化。对你们可能不编码的人，其实会比较容易就能够用好他的这个UI是这样子的，最早做edge model的就是win serve。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，那咱这个特别奖也就不要再评123了，大家各取所需。希望能够对我们的听众们有一点点的小启发，或者说有一点点的小共鸣。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今年的奖项就全部都颁完了。然后如果大家想要更全面的了解一下我们今年的总结，也可以回看我们上一期的这个年终颁奖，就年中间的那个颁奖。其实我们年终其实给了很大的份额，给到了deep sick梁文峰对吧？那今年年尾国内我们也提名了像严俊杰。但我觉得展望2026年，我觉得展望明年，我觉得更多的我们应该我自己的预测，我们不会班太多的奖给基础模型了。有可能更多的国内的创业者，国内的应用型的产品会在这个榜单里面越来越多，占据越来越大的一个比例。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是我个人的一个预测。因为明年一定是走向生态加模型应用的，是非常关键的一年。Agent跟模型只是它背后实现的方式。但是有可能我觉得我的预测是我们在明年会看到一个非常清晰的AI在各个端的盈利模式的出现。然后我们也会看到集中的国内有好多的模型公司集中的去上市。我们可能也会看到OpenAI的估值突破新天际。但是我觉得明年是商业化非常重要的一年，这是我个人非常期待的一个点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>老兄你对2026年的AI行业有什么样的期待或者看法，或者有什么关注？</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我的期待是也很很直接，就是可能我们身边我们现在手头干的很多事情都会用agent直接代替了。包括我们剪片子发片子到网上这样子的小事。为什么这么讲呢？因为其实就是AI编码今年已经冲到了一个新的高度了。这个手段一旦被解放，其实就好像我们人类掌握了火一样。我觉得这个火火掌握了以后，我们去哪里放这个事情同这样存在的它的风险，但是有些地方可能会烧的很好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我最想看到的是在我们团队人睡觉的时候，AI就能帮我们解决一些维护重构，以及一些比较清晰的小小的feature的那些就小的一些功能的迭代。所以我是觉得在明年是很有可能可以实现的那这样子其实他是真的在我们身边7乘24小时在做的一个数字员工伙伴了。我希望能把这个事情能够真正做起来，在226年做起来，得到一些成果。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看2026年最关注两件事情，一件事儿我就是关注这个AI眼镜。因为我觉得明年真的要有一个硬件可以新的硬件要出现了。这个硬件无论是说它在单这个时代是以什么样的一个颠覆方式出现，还是说以一个什么样AI加的方式出现，一定要出现了让我们能够体验到手机以外的一种新的感受，然后能够跟AI更好的交互。所以这是我特别关注的，无论是哪一个厂家的，是雷军做也好，咱雷雷老板做也好，还是说google做也好，还是apple做也好，反正你不管谁，你赶快给我拿出来，让我能试试，这是我最关注的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个就是说我希望当然我衷心希望中国的AI企业能更更凶一点。为什么这么讲呢？就是说现在中美之间其实AI是白热化的一种竞争，未来还没有格局，是没有成出现之前我们这种最终的and user来讲的话，我觉得是在享受这个时代的红利的。然后现在美国市场上资本驱动之下，大家用钱投票用脚投票，肯定会说在很多地方都有非常快的这种迅速的动作。但中国中国是以这个产业基金，还有说各个大厂也在引领着朝代在这个朝这个趋势在往前走。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我希望更凶一点，比如像前两天这个AI豆瓣手机的这个对豆瓣手机助手这件事儿？我们也谈论过，大家有兴趣的可以听听上期我们的节目，我说说的更凶是说在落地方面，往往在这个模型应用方面，在和真正的一线的生产力结合方面，能够看到更好的产品，能够整个提升幸福感的这些产品出现。这是我最关注两件事儿，我也期待着我们的节目里面能够多看到这些产品，然后多谈论，也能够给大家多安利。反正这一期节目是我们可以说是年度的一个总结，但更更多是我们自己对产品的一个看好的一个分享。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好啊，那今天就是我们2026年之前，应该不知道是不是最后一期，但起码是我们2025年的年度的颁奖。今天的奖最好是跟我们年终颁奖，就是中间的中年终颁奖一起联合使用，效果会更佳。感谢大家跟我听，我们在这儿抒发了一个多小时，也希望对大家的2025年画一个圆满的小句号。我们期待2026年跟大家一起做你们创业路上BGM，做大家AI信息的一个分享者。OK. 那拜拜。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>拜拜，谢谢大家，拜拜。</p>]]></content:encoded>
-            <pubDate>Tue, 23 Dec 2025 12:12:50 GMT</pubDate>
-            <guid>694a7c9d0b60b7bf7508d595</guid>
         </item>
     </channel>
 </rss>

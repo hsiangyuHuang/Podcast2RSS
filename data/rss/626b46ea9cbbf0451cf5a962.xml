@@ -4,7 +4,416 @@
         <title>张小珺Jùn｜商业访谈录</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962</link>
         <description>世界变化太快，我们想和你一起，探索新世界！</description>
-        <lastBuildDate>Fri, 14 Aug 2026 05:01:25 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 04:38:57 +0800</lastBuildDate>
+        <item>
+            <title>151. 17岁被2026年ICML收录论文的小少年：我bet开心！开心！开心！</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a8472b95aeb2a5712e8de78</link>
+            <description>今天是一集很可爱的播客，嘉宾是出生于2009年，现今17岁的高二学生苏庭灏 （Jonathan）。他高中阶段独立做预训练研究，发表的一篇关于Attention机制的论文刚刚被ICML 2026 Main Track接收。
+我们的节目访谈过许许多多成熟的AI研究者，但这是第一次，我打开了一个高中生的AI世界。他的表达时常有些令我新鲜和奇妙。
+我们聊了聊，过去2年他充满惊喜、趣味，还有哭鼻子的AI旅程，也聊了聊高中生视角下的模型、商业、教育与人类未来。他说，AI让他和同学们有时会感到失去了一些人生的意义感，因为不管你做什么AI都可能比你做得更好，他为此难过了一段时间。
+但后来他调试好了心情。他想好了，他就是想让自己开心，让自己喜欢的人开心，让所有人都开心！——开心是人之根本——既然AI不可控，就不要杞人忧天，要多和喜欢的人聊聊天呀：）
+参加完韩国ICML，中途在城市停顿几天，他就要去农村支教了。那是全然的另一个世界。他提醒自己，要离开AI，沉浸到另一个抓昆虫、玩狼人杀、慢吞吞的人类世界。
+接下来，就是我和苏庭灏的聊天。
+OUTLINE:
+00:03:04 我想做一个全世界最好的大语言模型！
+00:08:12 喜欢自由探索，喜欢下象棋，象棋如游戏
+00:11:15 我如何独自做预训练，预训练有点magical
+00:13:07 我白白丢了1500，我特别特别伤心，我都哭了
+00:13:55 被2026年ICML收录的论文《Attention Projection Mixing with Exogenous Anchors》
+00:17:48 高中自学AI之路和那些灵光乍现的时刻
+00:21:44 我一生中前20最开心的时刻 ，遇到每个人我都会问：AI会灭绝人类吗？
+00:28:22 我眼中的模型公司、应用公司、机器人公司、AGI与商业世界
+00:31:46 作为AI原住民的05后，我会教我父母用AI，我观察AI让好学生成绩更好了
+00:36:47 一位高中生视角下，AI降临后的教育突变：人失去了意义感
+00:40:05 我希望AI发展别那么快，给人类一个缓冲的时间
+00:41:32 我同学说，我现在从读书到当医生还要10年，但没人知道10年后是不是AI做的比人好
+00:47:09 AI降临前后的两个世界和两种生活
+00:51:44 我从韩国ICML回来马上穿梭进另一个世界：在农村支教
+00:57:21 开心是人之根本，开心的总量是有限的
+00:59:12 狂想未来，我希望所有人都开心！！！
+PHOTOS:
+(第一次参加ICML的Jonathon)
+（象棋比赛中的Jonathon）
+（在支教的Jonathon）
+LINKS：
+我们的播客在小宇宙、Apple Podcast、Spotify等全音频平台播出；
+我们的视频播客在小宇宙、Bilibili、小红书、视频号、抖音等全视频平台播出；
+如果你想服用文字版，请搜索我们工作室的公众号：语言即世界language is world。
+DISCLAIMER: 本内容不作为投资建议。
+CONTACT: xiaojunzhang@lisw.ai
+Jump into the new world-and explore with us!😉</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目嘉宾是出生于2009年、年仅17岁的高二学生苏廷号（Johnson），就读于香港德瑞国际学校。他在高中阶段独立完成了一项关于注意力机制（attention）的预训练研究，论文刚被 <strong>ICML 2026 main track</strong> 接收。播客主持人小俊与这位少年研究者聊了聊他过去两年充满趣味、惊喜乃至哭鼻子的AI探索旅程，包括30天读论文挑战、自费数万元做实验的“烧钱游戏”、论文被接收前后的心路历程，以及他从高中生视角出发对模型公司、商业竞争、AI对教育与人生命意义的冲击、支教生活等话题的独特观察。</p>
+<h3>关键要点</h3>
+<ol>
+<li>
+<p><strong>ICML论文核心思路</strong>：论文框架基于“value learning”思想，将第一层attention中的value以残差方式加到后续若干层。他发现可以将第一层attention projection的宽度乘以2，然后切分为两部分——一半用于本层计算，另一半用于后续残差连接，效果更好。与Kimi陈光宇等人做的“attention residual”是两种不同思路（后者用attention做残差，前者做的是attention projection的残差），他直言“当然是Kimi（的方案）更work，scale已经被2.5T证明了”。</p>
+</li>
+<li>
+<p><strong>烧钱做研究的真实成本</strong>：整篇论文训练花了约3万人民币，最大模型只有0.5B。为了冲顶会，他算了一笔账：扩大模型需要约6000元。当时他“特别紧张”，深知即使投入也可能被拒稿白花钱，但在家人支持下迈出了那一步。他还讲了一次翻车经历：同时训练三个模型却忘记保存checkpoint，白白浪费了1500元，“我都哭了，我特别伤心”。</p>
+</li>
+<li>
+<p><strong>25分钟从零写transformer</strong>：他跟随Andrej Karpathy的YouTube系列视频入门（约20小时的内容），学完后给自己设挑战——不看任何参考，从零写一个简单的transformer，最速纪录是约25分钟完成。他真正的入门起点是B站上吴恩达（Andrew Ng）的课程，以及一次为期30天“每天读一篇论文”的密集训练。</p>
+</li>
+<li>
+<p><strong>做AI研究靠“直觉”和“灵感乍现”</strong>：他将预训练比作“把具体的材料变得更好”，而“后训练更像塑造一个身体”，认为预训练有种“magical、魔幻”的特质。他提到自己尝试了约200次不同的架构改进，“机缘巧合”才获得成果。他特别强调理解QKV的“啊哈时刻”来自一个比喻：Q代表“我想寻找什么”，K代表“我是什么”，V代表“找到我之后你具体输入什么信息”。他甚至透露，自己是在访谈前晚才真正理解KV cache为什么可行——因为“之后的token根本影响不了之前的”。</p>
+</li>
+<li>
+<p><strong>两次情绪低谷与“斗不过就加入”的心态调适</strong>：约一年前他看了讲AI威胁论的视频后曾伤心了几个星期，抑郁到和好朋友说“如果AI真的会毁灭人类，我们就去个小孤岛说话”。后来他调整过来，给出的答案是“斗不过就加入”——既然AI不可阻挡，就投身AI研究。他的态度是：“不能预测未来，也不知道未来会发生什么，有可能现在是杞人忧天……现在跟你喜欢的人在一起，看你喜欢的视频，玩一些喜欢的游戏，别想那么多，走一步是一步。”</p>
+</li>
+<li>
+<p><strong>采访了35个人“AI会不会导致人类灭绝”</strong>：在ICML韩国会场，他主动与来自德国、新西兰、格陵兰岛等全球各地的人交流，每人都问同一个问题，得到的回答中约有13.5人认为AI会导致人类灭绝（约38.6%）。他的个人判断是，如果AI的目标（如搞科研）需要巨量电力和空间，而人类对其最终目标无贡献，AI有可能选择消灭人类；另一种可能是控制AI的人变成“神”，其他人沦为“蝼蚁”。</p>
+</li>
+<li>
+<p><strong>“人生要是发展太快大家都没工作，发展慢了我就没工作了”</strong>：他忧虑AI发展速度的两难——快了导致大规模失业，慢了则自己作为AI研究者找不到工作。他相信如果AI能研究AI，“已经是最后的10米”，那时比赛已经结束、大局已定，因此这是他认为AI最后一个替代的岗位。</p>
+</li>
+<li>
+<p><strong>开源模型让国人自豪</strong>：Kimi K3发布当天他“高兴了一整天”，DeepSeek-V3出现时同样非常开心。“因为我作为一个中国人，我当然特别希望国内的模型更好……领先或超越美国模型，那高兴了一天。”他心中前沿实验室的大致排序是OpenAI和Anthropic第一梯队，MiniMax、智谱、DeepSeek等第二梯队。</p>
+</li>
+<li>
+<p><strong>AI重塑他对学习与目标的理解</strong>：他观察到同龄人普遍用AI做作业，自己也用AI代做功课后将省下的时间用于Anki（他称“andy”）背单词或用ChatGPT自学更多东西。他认为AI加剧了学生分化——“成绩好的同学成绩更好……如果你只是拿AI做完作业然后去玩，成绩会更差”。他也坦言，AI让他和同学们失去了一部分“为科目奉献”的使命感——因为学数学可能只是为了向大学证明自己能吃苦，而不是为了推进人类知识边界。</p>
+</li>
+<li>
+<p><strong>连续四年北京农村支教</strong>：他在北京周边约四小时车程的“虎鲨”（音）村支教，组织国际学校同学教当地小孩英文和象棋，设计了“廊坊”（卡片奖励机制）——用积分兑换乐高和零食，还和13个朋友一起教30个孩子。结尾的“羊肉串之夜”被他视为近期最温暖的时刻之一。</p>
+</li>
+</ol>
+<h3>独家细节</h3>
+<ol>
+<li>
+<p><strong>面对巨额实验成本的少年窘迫</strong>：当他犹豫是否要花6000元扩大模型训练时，向他爸“报销”的对话变成了父子间的默契——“在这之后就是我爸丢了1500”。他描述这次经历时带着哭腔说“我那是一个昂贵的游戏”。</p>
+</li>
+<li>
+<p><strong>AI威胁论冲击后的“小孤岛”愿景</strong>：他在情绪最低谷时曾对好朋友说，如果AI真的要毁灭人类，“就去个小孤岛在那说话”——这句带着少年气的脆弱表白，是他在播客里为数不多流露真情实感的时刻。</p>
+</li>
+<li>
+<p><strong>对“开心总量有限”的物质主义解释</strong>：他说开心是有限的，因为“脑子里那个多巴胺控制欲望、控制你开心或不开心，既然是物质，所以有限”——并以此为推理起点，认为“生活就是苦，但你要选择为什么而苦”。</p>
+</li>
+<li>
+<p><strong>支教与ICML之间的“世界参差”</strong>：他刚从韩国ICML会场（满是千问、Kimi、智谱、OpenAI、Anthropic的讨论）回到北京，四五天后就抵达没有电子产品的农村教书。他刻意“心理暗示”自己别想AI，“故意告诉自己别多想这些东西”，享受抓昆虫、狼人杀、“慢吞吞的小车”和草原农场。</p>
+</li>
+<li>
+<p><strong>自嘲“最像人类的就是AI犯低级错误”</strong>：他观察到AI和人类一样会犯错、会被trick，这反而让他觉得AI“有点像人了”。他还透露自己曾尝试用AI做倾诉工具，“说实话我也用过”，但觉得效果不好便放弃了——并坦言自己认识一个同龄女生，每月付费用AI偶像聊天，这让他意识到AI正在填补人际温暖的缺口。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，我是小俊。今天是一集很可爱的播客，嘉宾是出生于2009年，现今17岁的高二学生苏廷号。他高中阶段独立的做预训练研究发表的一篇关于attention机制的论文，刚刚被icml 2026 may track接收。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们的节目访谈过许许多多成熟的AI研究者，但是这是第一次我打开了一个高中生的AI世界，他的表达时常有些令我感到新鲜和奇妙。我们聊了聊过去两年它充满趣味、惊喜，还有哭鼻子的AI旅程，也聊了聊高中生视角下的模型，商业教育与人类未来。他说AI让他和同学们有时候会感到失去了一些人生的意义感，因为不管你做什么，AI可能都比你做的要更好。他为此难过了一段时间，但是后来他又调试好了心情。他想好了，他就是想让自己开心，让自己喜欢的人开心，让所有人都开心，因为开心才是人之根本。既然AI不可控，那就不要杞人忧天了，要多和喜欢的人聊聊天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>参加完了韩国的icml，中途在城市停顿了几天，他马上就去农村支教了。那是全然的另一个世界，他提醒自己要离开ai沉浸到另一个抓昆虫、玩狼人杀慢吞吞的人类世界。接下来就是我和17岁小少年苏廷皓的聊天，期待2026年我们和AI共同进步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我参数没调好，白白浪费了1500。因为我同时去了三个模型，三个模型都没save，在这之后就是我爸被丢了1500。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>迅雷也好花钱，我那是一个昂贵的游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对我都我都哭了。我想预设的原因就是因为后续更像塑造一个身体，预算更像是把那个具体的材料变得更好，来承受之后的后续练的塑造预训练有点这个magical有点魔幻一样。也不能预测未来，也不知道未来会发生什么，有可能现在是前忧天。现在跟你喜欢的人在一起，跟你喜欢的朋友在一起，看一下你喜欢的视频，玩一些喜欢的游戏。别教练那么多，走一步是一步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你喜欢农村吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我叔叔我是挺喜欢的，虽然很多东西都不方便。农村的都是一些慢慢吞吞的那些小车，对面就是一些草原农场，觉得能真正放松下心身，离开城市里的烦恼。那张先来给。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听众朋友们打个招呼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好啊，大家好，我是苏宁号Johnson，我是就读于香港德瑞国际学校。我现在是高2，马上升高三了。我其实是上海出生的，我二三年级才来香港。这次是ICML2026韩国会议，我有幸我的一个论文被纳入了mean track，所以我挺开心的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是为什么会开始做AI，并且想着要投一篇论文的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个就是x GPT出来以后，我记得很清楚，我在油管上看到了一个视频，那个视频就是OB的那个组，他们做了一个demo，他们用那个正常语言就是说做一个小游戏之类的。我当时我记得很清楚，就是我看那个视频就暗笑，这肯定不行，你用人类的语言怎么可以做个程序呢？因为我之前也做编程比赛之类的，我印象中就是程序就是死的，你说一不能输2，那时候我就特别忌讳惊奇，过几年他GPT就release了，我就特别惊讶。因为他可以做一些小文章，会做一些诗。我在我印象当中，程序根本做不了这些东西。所以我记得就是当时很好奇，所以我在网上查查一点资料，跟的是哔哩哔哩那个stanford Andrew老师的一个课程。吴文达对吴文达对，吴文达问答。他那个课程是把我带入门了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是上一年这时候看了那个andy party，他的油管上有差不多20个小时一系列的一个视频。就是从零教你怎么写一个GPT，怎么写一个transformer，就是从零做起。那时候我还没有学的那么多，所以那时候是云里雾里的。看那个视频我特别烦恼。有时候因为这根本看不懂，为什么做这个，为什么做那个，为什么这个不行？我就挑战自己30天就是每一天读一个论文，读每天读一个论文就写笔记。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>30天每天读一篇论文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>读一篇机学习的论文。二三年是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是是是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>上一年25年，25年这个25年开始25年这是对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>之前我一直在学历的那个戏学习的东西，但是还是大部分时间还是做别的，没有那么感兴趣。但是我通过几篇论文，比如那个lovey posies，比如IMW这些经典的论文，我就有了一些一点的research感觉就知道哪些论文好的，哪些论文是坏的。为什么这个论文读的很舒服，为什么另外一些论文读的特别困难？而且我还看了一个关于象棋的论文，就是象棋和那个机器学习的论文。我印象很深，就是我觉得他写的不是那么好，这个有点差。我自己有可能以后也写一个比这个更好的论文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我看完那个angry capacity的一系列视频以后，我第一个想法是自己训练一个世界上最好的发言模型。那个虽然很小，但是真的很小，里面是最好的。现在我去网上查了查，比如一B或者是0.5B或者是0.25B这些模型我需要多少GPU，需要训练多少天，多少token上面训练。我自己算了，你说他发现即使是用了一个很小的模型，但是训练的钱也是十几万或者是上百万的。所以我就发现不行，所以我就自己看了一看一些其他的论文，把先进的论文要自己实现在我写的那些transformer代码上。比如new on，或者是比如value learning，或者是gated attention这种论。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我就是机缘巧合试了试，我好像试了200次不同的改进，最终机缘巧合，我很开心，我很幸运有了一些成果，所以我就是打算投icml，那时候当然我也听说过三个顶会，就是那个europe I clear和那个SML。所以当时ICM有一个开始了，真的，我想碰碰运气。这次我出的那些reviewer都是很专业，他们给我一些建议，最终的评价和打的分都是很好的。所以这是我的学习的经历。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你去年每天读一篇论文的挑战计划，持续了多久？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>持续了30天，30天后就是考IDCIC了。因为我现在是IGCIC然后到IB的系统，那时候就开始考IDCIC了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没时间读你在里面发现了什么样的论文是优美的，是好读的，哪些是不好读的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得男人最好的是那个贪心的遭遇。你谷歌的那个transformer那个论文一开始很难，但是你读懂了以后就豁然开朗，特别开心。我得见多了以后，或者是那个lottery hypotheses，大的是数学难度，但是还是很好一篇论文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你到底是对写AI的论文开始感兴趣了，还是对AI感兴趣了？在这个过程中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我是对AI感兴趣。因为我一开始发现训练AI的话，脑子里AI是一个不同的生物，不同的一个动物，做AI研究有一点像做比如生物的研究，就是你改改这个改改那个，看有什么变化，还是靠你直觉。所以我还是对AI本身有个兴趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>讲讲你自己的成长经历。你知道你是在上海出生，然后去香港读书。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是在上海思南路幼儿园读书，去了在黄埔师范小学读了一年，就去香港了。我觉得印象很深，就是感谢我在上海读了一年的小学，因为基础我还是打的比我同学好。比如我真的一些同学过年来了，但是他们一直在香港，所以他们的普通话交流也还不行。当然香港国际学校国际化的教育也是对我很大的帮助。因为幸好不是在高考这个系统，要是在消化这个系统，有可能就没时间做我喜欢的东西，还是得感谢我父母，因为他们给我这个空间，我可以探索我想做的东西。比如我之前探索了一些数学竞赛或者编程竞赛，或者象棋，走了很多弯路，特别多的弯路。什么样的弯路？比如一段时间我对奥数感兴趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>数学是小学还是初中？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>初中初中对奥数感兴趣。但是做了几年发现最终我对这个科目没有那么大的兴趣，而且我自己要睡也不是那么强我还对象棋感兴趣，对象棋感兴趣我是挺自豪的。我象棋是2025年16岁以下。第二名我是自己自学，自学了一两年，花了挺多时间，就是网上看一些书，看一些视频，然后自己刷了几盘。最后也是也是运气好吧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我发现你的学习方式都是通过自学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是现在有了那个网络，现在更有AIX GPT deep seek免费的AI现在你想学什么都可以学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们家当时是为什么搬去香港？是因为父母为你的教育考虑还是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该是我父母的工作了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>工作原因工作原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该也是教育。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在你的成长过程中，你的探索非常的多。做过数学竞赛，但是发现自己不喜欢，然后发现自己更擅长象棋，为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为是一对一，当然你也不要很多思考，你输的话就是因为你的毛病，你赢的话也是，因为你自己。而且象棋是一个很考验，就是脑力或者你持续性的给企业，因为后期都是这样子。比如我在2025年下最长的一盘棋是两个半小时，两个半小时我和另外一个人对意。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你觉得象棋对你的性格塑造是什么样？比较有耐心。我发现你是一个很喜欢竞赛的人是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个我是喜欢游戏的人，我喜欢输赢这些的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是一个胜负欲很强的人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有时候其实我也觉得我不是那么生活性很强的人，就是觉得那个象棋跟玩游戏一样，考研思考，就是胜负能输输的话很伤心，赢的话很开心。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个象棋你是主要是在哪个时间段玩的比较多？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>两三年前，我两三年前开始的就是看网上的一些china，很开心的就是晚上一边看视频一边下棋。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>下棋之后你就对AI产生了兴趣。对，好像是这个时间线。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是，那上去之后，我就有点时间可以做自己想做的东西，就是看你们的视频。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你开始自己做一些预训练。也。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是啊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我为什么你会选择是做预训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是那个ADC fc课程上有的，而且说实话我只会单元模型和预训练。我想预测的原因就是因为后训练更像塑造一个身体，预训练更像是把那个具体的材料变得更好，来承受之后的后续人的塑造。预训练有点magical，有点像魔幻一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个描述有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然预训我也不推，其实不推荐别人作业训练，因为我感谢父母特别支持，我愿意为我烧钱。你比如我那个论文，我是烧了3万块钱，我记得我那个论文那时候最大的训练的模型只是0.5B我知道要是我想被比如那个鼎汇收取的话，必须得扩大，必须get up。我算了一下，我扩大的话需要差不多6000块钱。那天晚上特别紧张，就在想要不要花这些钱，有可能因为我也知道即使很好的我们有可能也被那个拒绝possibility卡它必须得lucky，有可能我give up之后有可能也不会接受，所以就白白浪费了6000块钱。但是最后还是因为我哥哥，我爸爸妈妈都支持我，现在最后决定迈出了那一步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以在school ops上还是很成功的对，是你在做你的AI实验之前，你会做什么准备？你是怎么准备数据的呢？每个模型公司现在都很关注这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说实话我数据集也不是那么大，最大的也是用过那个20B的数据集。我用的是那个find web EDU免费的一个训练单元模型的数据集。说实话我现在的训练模型的那个代码只是我一个人会用，要怎么用？其实挺耐洗的，那个不怎么干净。我也知道我现在这个大麻训练的时候有很大的inefficacy。又一次挺丢脸的，我忘了那个最后每次去玩有一个那个checking，就是每次去玩那个model会被那个save，以后可以用了，我参数没调好，白白浪费了1500。因为我同时训练三个模型，然后三个模型都没save，所以之后就是我爸爸丢了1500。是训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也好花钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我那是一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>昂贵的游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，我都哭了，都有点脸，我特别伤心。我就为什么我没想到之前再看一遍？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个时候你父母会怎么说？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那时候我告诉我父母，我父母是特别支持我的我妈妈一直跟我说吃一堑长一智我之后也没犯这种低级的错误，这也挺好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你从这篇论文的训练是从什么时候开始的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>2025年.</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你就是你先开始自己读论文挑战计划，挑战了30天，可能停了一段。对，然后到25年底你开始决定要做一件什么样的事情的目标是发一篇论文，还是说你的目标是要做一个什么样的探索。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我当时就跟着angry party去了。会了怎么从零做到transformer。所以我当时就想做一个世界上最好的大语言模型，就是这个想法。但是很快发现不行。现在我既然已经做了一个底层的框架，我就想试试一些网上我看到过的论文，想试试它。就是机缘巧合改了改那个architecture，然后最后挺成功。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做了多久？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>做了差不多半年，比如那个one b就是吃了差不多250多次，而且有一段时间我还是挑战自己，就是没有任何视频，就是从零写一个传说，就是说脑子里背，那我就强调自己越快越好，这是speed。我的最好成绩是好像是差不多25分钟，从零写一个transformer，哇塞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>25分钟从零写一个transformer.</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有一个特别简单特别小的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的这篇论文选择方向是attention，为什么选择这个方向？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我选的是，但是因为我饰演最多的就是那个value of learning的这个论文，就是改。但是里面的那个value我也不是故意去选是做tech还是做messages，或者做其他的一些比如position ebel ding之类的。所以我觉得也是机缘巧合才在这个上面有了一些进展。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能不能介绍一下你这个论文思路？开始attention projection .</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>and对这篇论文大概的框架就是value learning。就是把第一层的attention里面的value加到之后几个层面，就是做残渣。我去问了，我们是发现你可以用RS norm在这些残渣的上面，比如那个value可以延展到那个key和queue上面，最后效果更好。因为它是第一层的value，得做两件事儿。第一件事就是在这一层被使用，然后第二件事就是加到周的几个层上面做穿插。我发现可以分开这两个功能，就是把第一层的attention projection宽度乘2，在切一半一半用于这一层，另一半用于之后残差让它效果更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这跟kimi他们提出的那个注意力残差有什么关系吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有区别是什么？有很大的区别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是两种思路对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对方两种思路。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他他是你们也交流过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该是是是。我跟kimi有个高中生陈陈光宇陈宇交过，是个很好的人。他们做的那个tension residual，就是用attention来做。参加就是参加那个hidden ate visuals，我是是那个参差attention projection，所以听起来有可能很像，实际上不是一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得哪个思路更work？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然是那个kim d了，scale已经被2.5T被证明了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很有意思，就是你看陈光宇他很喜欢AI选择是加入一个front lab，然后把自己的想法得到更大范围的验证。你为什么没有做这个选择呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实那时候我就是自己瞎摸索自己虾实验。我其实那时候也是没有对ICM没有抱有多大希望，只是我有点时间，我也没什么想玩游戏，我也没什么什么做的。就是我就对这个也有点兴趣，没对这个论文抱了那么大期望，也是没想那么多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果之后有一些lab想邀请你会去吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然了，非常欢迎，在师大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你其实真正开始学AI的论文是从25年。然后你25年底就开始自己做实验，就被icml收录了。是啊这个周期非常的惊人，是不是说明其实学AI它并不需要你是一个生根非常多年的一个人，就是你能不能讲讲你在AI上探索的一些感受？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，我觉得一方面就是比如现在GPT transformer大概的框架其实不需要那么高。数学或者是概率与思维都是那个mayoral modification，都是相乘，只需要高中数学就可以差不多，理解了。另一方面应该是培养这个直觉，培养这个transformer GPT认为学习的直觉应该说一段时间。因为什么叫知觉？就是有时候想理解一个东西，你灵光一现很快就理解了，有时候就是得几十天才能理解。我真正是两三年开始接触的那个神经网络的，一步一步从神经网络到超学习，从学习到穿super也是需要一段时间的。And那个视频说差不多一年半前先看到过的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在看两年的视频，然后才收敛太多论文是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是，我在油管上看了很多很多视频，就是讲解他出门之后才有一些直觉，他有一些乍一性的理解。比如and capture那个视频，其实是我两年前一年半前发现的那时候我试图理解那个视频特别困难，我只是跟着他什么程序我就写什么程序。之后哇哇有一个东西挺好的，我没有任何理解，但是通过好像半年或者一年的一些在subconscious ly不是故意去想，而是在你脑子里来沉淀。沉淀了半年，沉淀的一年才突然理解一些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说让你非常哈姆问是哪些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如啊哈moment.</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说你的灵光乍现突然理解了一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如就是具体那个attention，这个QKV也是灵光乍现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得你能比喻成人吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者生物吗？比如我看那个很好的视频，他就说Q是代表我想寻找什么，我这个字想寻找什么，K是代表我这个字是什么，别人可以用这个key来寻找我。所以QK or product，然后之后给出了一个数字，那个数字就是每个head都有，那个数字就是表示这两个tokens我都打了连接。最后那个V就是代表就是你找到我，就是你觉得我有趣的话，你具体输入什么信息，我是这样理解那个QKV的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有哪些啊哈moment.</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有一个啊哈moment是挺惭愧的，我是今晚才理解那个KV cash的。之所以KV cash能行，是因为之后的token根本影响不了之前的觉得可行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你周围有人跟你聊这些AI的话题吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有人。因为我父母都是北大的，但是我妈妈是中文系，我爸爸是历史系，都是文科的。我聊天对象最多应该也是差这部戏。我听会deep sk或者网上看一些视频。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>同学聊AI吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他同学都会用AI来做的作业，自己学校的一些布置的一些project。但是他们也很可惜不是对AI有多大的了解。比如有些人他们都比如说cloud这种XGBT，他们都不知道他们自己用的是什么模型。比如说clock一一打开cloud用的不是那个fable，不是用那个office 5，是用的是sn its 5。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你会怎么跟同学或者老师来描述你现在在做的事情？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有一些朋友就问我这是什么，我也会解释。但是当然要是你对这个领域没了解的话，也具体理解不了做的事情。但是他们也是当然很愿意了解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你其实没有什么交流对象，对吗？在你做AI这件事情上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大部分时间90%都是我自己做做那个论文。那段时间我还在那学校上课，我记得很清楚，我在那个校车上坐课堂里，有时候也做，吃饭的时候也做，或者课间的时候也做做了两三个星期。我也不知道为什么那时候我那么喜欢，但是记得挺清楚的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你在学校里面是一个什么样的学生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我是挺受欢迎的。我我我不是什么不愿意跟别人说话，自己做自己的人我是特别喜欢跟我喜欢的朋友一起说话聊天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实性格挺活泼的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我感觉是的，我觉得我是这次去了韩国，而且我也以后才有了变化。我觉得我之前是啊稍微偏爱的人格，那现在声音应该偏E，为啥？因为ICM第一天有一个象棋社交活动，7点到9点艾希曼韩国场地有个房间，房间里都是那些棋牌，完了你可以找个人给你下。而是我一生中前20最开心的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>给人说hello hello，你的研究方向是什么？你研究方向是什么？我们一起下棋，一起下棋一边聊天。见了很多很多人从德国来的人从苏西兰来的人，比如说那个creation island来的人，那个是全球各地都有。之后的几天我也锻炼了我的声音能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是又能下棋又能聊AI是人生两大快乐的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是我那时候也是挑战自己，而我每个人都会问一下，他们觉得AI会不会导致人类灭绝？那时候到现在问了差不多35个人，有13.5的人觉得AI会导致人类灭绝。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你怎么看？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得还是有一些概率，也是瞎说，因为没有人可以预测未来。但是我觉得要是AI之后，AI很强的话，他的目标跟人类有很大的区别的话，或者不包括人类的存亡的话。比如他有可能AI之后的目标是搞科研，是把物理化学经济和生物或者是外太空都研究完成。当然它需要很多的电，需要很多的空间。我可能觉得人类不会为他的最终的那个目标有贡献，有可能就是选择消灭人类。或者要是AI能被人类控制的话，而且很强的话，一些控制AI的人就能变为那个神了。因为他能控制无所不能的AI，然后其他人就可能变成蝼蚁了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>近期出现的x GPT解决了十个数学问题。数学科研是数学研究也是有点被能被AI取代的前兆了。就是所有人都是向上的，所有人都有啊都寻找自己人生的目标，寻找自己想以后想做什么，以后想成为上班的人。你发现那个AI比你做的东西比你做的更快，而且比你做的更好，而且有成百上千的AI我觉得很多人会变得抑郁，或者变得迷失方向。我觉得不是一个很好的未来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听起来很悲观，AI的未来，是不是不该研究AI了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得也是大师。谁都阻止不了美国想持续领先中国，想超越美国。做公司都想挣钱，要是你能做了一个特别厉害的AI所有公司可能都把燕工裁了，用你的AI是赚了很多。目前从现在看来，我觉得AAI听不了，停不下来，没办法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你无法阻止。是的，那应该怎么做？从一个高中生的视角来讲一讲，你觉得大家应该怎么做，来怎么来面对ai.</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我没那么多想法，我现在的希望就是我希望AI还是向前发展的，别发展那么快要是发展太快的话，大家以后都没工作了，要是发展慢的话，我以后就没工作了。另外一点我选择做AI的，按道理来说，要是搞AI研究的人能被AI替代的话，那时候已经完了已经完了，没得可说了。所以现在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听起来就是下一步大家想做的就是下一步让AI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>来选AI是是要是这样子真的成功，有真的有指数级的增长的话，那时候已经不可控了，已经晚了。因为这很快就有一些工作都会被爱泰迪，也会研究自身技能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于你来说，你觉得下棋更有趣还是做AI的研究更有趣，这两个有共性吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有，因为下棋你可以选择下三分钟的棋，十分钟的棋或者60分钟的棋，你试试输赢了。要是你赢的话很开心，不赢的话不开心。搞AI研究有点相像，但是时间线更长一点，你想出一个主意动一下脑子，要是你成的话你就特别开心。当然而你不成的话就特别有个最大loop。就是比如一个星期或者一天，或者是很快就能发现是你做的是好还是做的不好。比如象棋，很多的象棋网站都是你相关企业就可以，大家告诉你是哪儿走错了，哪儿走对了。很快就feedback。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以AI要慢一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>AI也是慢一点。但是要是你兄弟砍下的模型，一小时以内也能训出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会觉得在跟AI对弈吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不是这样想的，也是想法就是一个人在一个道路上下摸索。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的目的地是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在目标是去一个大元模型公司去实习工作。希望我们明年暑假能这样。近期的目标我准备去考北大，争取考进北大元培。我听说元培学院有很大的自由空间，它可以三年毕业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以毕业快很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是啊，对，这几个星期跟那些人聊，他们的想法就是之前大学是垄断了教育，垄断了信息。就那时候没有那个网络，没有那个internet，你就只能去最先进的大学来学最先进的知识。现在有了AI有了那个网络，你都可以网上查，或者让爷爷教你。他们觉得就是为了有这个大学的名牌，给你个证书，社交的机会跟那些高质量的人社交的机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在你心里。Front lab的排序是什么样的？包括美国和中国的这些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大概上最好的就是open I和s topic。第二等的就是米质谱deep seek，有可能是这样，有可能是我还不清楚，没有那个那个么强的来分化的一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你有读他们的论文吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如那个technical report，我有时间的话，有兴趣我也会看看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是你觉得他们学习的比较好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我评价不了我是谁？我怎么能评价这一个大公司的写的论文，不是写的那个那个report写作，我觉得都一样，都是特别专业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在你眼里你怎么看待这些模型公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也是我觉得挺客观的一种角度。因为这些模型公司每个公司都得说他们想做AGI，每个公司都得说他们最终的目标是AGI，最终能融资希望能挣最多的钱。美国政府想让我西华贝克打上一个顾问，一个被西尔伯克拒绝了，或者但是OPAI很欣然的接受了。我其实对这个也没什么多大的看法，反正就是不同公司的一些理念。但是他们最终都得说我们想做AGI，我们之后能做成AGI，然后最终目标还是挣钱吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>要那么多AGI公司吗？你感觉我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有可能不需要那么多。但是每个公司想做AI的公司都得说他们想做AGI。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你知道什么叫应用公司吗？Roman对你觉得模型公司和应用公司的分界会在哪里？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得我我我没资格说这些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我好心的视角。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>模型公司就是负责把模型做好，可以以后应用。当然要是模型是自己能做应用的话，那是最好的。比如那个codex或者那个cloud cover，就自己做应用最好。应用公司因为他们最终也是在上面加点东西，他们也改不了具体的模型，也是靠模型来挣钱。所以我觉得应用公司是就是只能听模型公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这应用公司会比模型公司大吗？直觉来说估值会更高吗？市值会更高吗？他会挣更多钱吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从现在来看，因为我只是比模型公司挣过更多的钱。因为现在除了好像SRB，其他公司都在烧钱，都没有那个profit。当然有个公司能做出AGI，要是那时候AGI可以自己代替应用公司自己做个应用软件，就是直接把那个应用公司能踢出去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有可能你眼里如果实现AGI，AI可以做什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如之前很火就是问那个AI straw这个字里面有多少R或者是我想洗车离我家有50米，我应该开车去还是走路去？那AI有可能也回答不了，但是现在能够回答了。我觉得现在是AI虽然特别强，特别聪明，但是有时候有一点，比如1% 0.1%的时候能看出它其实只是一个预测下一个token的一个model。虽然特别强调讲的特别聪明，有时候也能看出来不是能特别理解逻辑的东西。所以我觉得真正HI的话跟人那样聪明一样强，比如说跟现在模型一样聪明一样强。但是没有任何时候你会觉得它只是一个预测下一个token的，而是逻辑性很强，不会发现那么多低级的错误，而且能做XO人类能做的事情，比如控制电脑或者控制器AI或者那时候他可以自己研究那具生职能，给自己造一个身体。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给自己造身体这个有趣AI不仅能做AI他也能给自己造身体。然后每个身体可能是不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是啊有可能AI能发现能更好控制的身体，有可能是他更好控制有六只手臂的机器人，或者一条腿的机器人，或者没有脑袋机器人。不能预测未来，这以后有可能就过几年就能揭晓答案了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你以前大家可能会叫90后，是互联网原住民。你觉得00后是AI原住民吗？或者10后？你是09年.</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我是09年，我觉得已经算是AI原住民。我认识的所有人里面，所有同学我是年级同学，他们都用AI都会用AI有时候会做一些功课或者自学都会利用妍。虽然利用的不是百分之百，但是他们都会利用岩至少毕业，我父母用的枪，就像之前那个互联网，那些原住民的时候出生的人，他们也会比父母用那个AI更强，就是能查东西都得叫父母一些东西。如果也会叫我父母怎么用AI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会教他们做什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我叫父母，我爸爸怎么用kimi？用kimi做那个PPT，用kimi做研究，用kimi做那kimi agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>已经是你交朋友用AI了，那同学也会用它来做作业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>老师怎么办呢？我觉得他现在是个很大的问题。我们是国际学校也挺开放的，就比如上课你可以用电脑，有时候也可以用手机。考试的时候你不能因为考试时候你得靠你自己脑子，考试的时候你得自己背东西，自己写东西。给你省出了很多时间，但是你省出的时间你得自己分配。我自己的学习方法是我用一个叫andy的背诵软件，就是anche对我最强。比如我之前有可能我需要做完功课再做angy，我现在就是直接用AI做功课了。因为我觉得功课让我学习的效率不是那么高，我可以借用其他我自己的方法，这样子效率更高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你也是拿AI把作业先做完。是的，但是你剩余的时间你还是要去学习。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然了那是当然了就是因为我觉得所有功课提高的效率不是那么高，或者当然有些功课，比如数学功课，老师布置的很好啊，我会做。但是那一些其他科目的功课有可能对我帮助没那么大，或者是我已经知道怎么做了，但是我得花时间做。我还不如就是花点时间在其他方面上，比如用NY用x GPT来教我一些东西，我能学到更多东西，能背的更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其他同学除了你以外。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我当然我是我们学校里，我们班级里最支持别人用AI的人我也会告诉他们怎么用或者有什么用的，最好用什么模型，哪个模型现在竟然是最好用，现在是最好的，有些人会用AI做作业，有些人选择自己做作业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们还会用AI做什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他们会用AI做。比如班级里有个小演讲，你得写一个演讲稿，我了你得做个PPT给全班人来展示你所学到了什么。在课间有50%的几率，他们的屏幕是在哪个叉GPT或者是AI模型上面。AI是个当然是特别好的工具，但是我没有查GPT，没有模型的话我是写不出那个论文的。因为我那个HRPT问了很多问题，我怎么怎么投，具体应该怎么回？那些reviewer怎么控制我训练的时间。要是你有动力的话，用AI能走出很长的一段路。现在有了AI自驱能力，自制能力，这个很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这会不会是让成绩好的同学成绩更好？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得是。比如我认识一个他叫isak，我是他好朋友，他成绩是觉得那个特别好。我跟他介绍了以后，跟他简单一些说一下怎么用以后他现在是效率提升了很高。他也是说他有些功课就不会做用AI来做我自己花点时间做其他东西更高效率的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是如果你只是拿AI来做完作业，然后自己去玩的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你成绩会更差，那是当然了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以A的人也更加的分化，对吗？我不知道在高中你能看出来吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>完全同意。现在更是你现在有互联网，香港有instagram微信里一些短视频，抖音短视频。后面有一群人来想怎么让年轻人或者是做人多看短视频。我现在也是看很多短视频，我想改很容易，就是把时间花到五块钱的地方之上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>以前没有手机，没有什么可以吸引你注意力的东西。现在有很多东西吸引你注意力。比如就是50年前你给一些孩子一个AI让他自己学学习，他用了很高兴的就自己学他自己想学的东西。但是现在他是得做一个choice对他们的选择，但是当然选择视频让他们更开心。然后觉得现在虽然机会很大，但是有些人就是不会把握机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>老师会对于大家使用AI来做作业提出什么质疑吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们学校老师也是接受的，也是理解。因为他们也是控制不了，控制不了我们是不是用AI。比如有些人他们用AI就是用AI写个东西，然后之后都不改，就是这个老师的我觉得老师很容易就看出来，你怎么这星期的提高那么大，怎么写作的风格怎么应该那么好，写的那么好。当然老师也理解，但是我这个学校也是挺好的，其他人平均学习也是挺好的。他们也是知道过度依赖于AI最终考试也不会对你有任何帮助。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我又要问一个很大的问题，你从一个高中生的角度怎么讲讲，你觉得AI来到我们世界以后，青少年应该怎么教育？你觉得在前AI时代你的教育和后AI时代你的教育发生了变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>发生了很大的变化。学习一部分的原因，学习就是因为你觉得这个科目对你感兴趣，客户对你好，或者是你想在这个科目里探索。有了AI之后会感觉到你的学习，你的探索以后没什么用。因为现在AI这么聪明，之后也会发展更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我举个例子，我一个同学他也是开始用AI来学习。对他就发现有了AI以后，你可以AI就是会用AI就是用AI比如做一个短视频，然后AI作为一个动画来给他解释这个科目，学习效率更好。但是他也会觉得好像缺少了成就感，缺少了困难度。因为之前你学习，比如学习物理化学，比如高中生物学物理化学，其他人要是没学习到的话，他也是不知道。那现在有了AI即使没学化学物理的人，他们也是可以一键问恋爱，然后得到的回答问的比你说的更好。所以这是我也有点潇洒了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是失去了成就感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是完全失去，就是失去了一部分的成就感。因为之前你学习，比如物理化学数学，你能看到我现在比一部分人好，我到大学或者就去读博，我学习数学，有可能推进数学。但是现在这个AI你可能觉得我其实学数学，我只是为了给大学证明我是一个能吃苦能学习的人，而不是为了这个科目而学习。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是说当你跟AI做比较的时候，你可能没有他强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是你只是比可能同龄人强，你只是为了证明这件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你之前学数学，数学都学得很好。向前看看出了一个大陆，我在大学学的读博士学数学能为了人类做贡献。那现在有了AI你就发现其实这个道路变窄了，是变更困难了。虽然你学这个科目的目的不是学习这个科目人生，而是发现就是为了大学，为了大学那个申请而学习。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就失去了一部分为这个科目或者说为人类做贡献这种使命感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是大概意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个很重要对吗？不对，我觉得很重要。比如我只认识几人，他们对比如那个航天五物理很感兴趣。但是他们现在就用AI学习，他们觉得以后AI有可能也会做这个工作，做的比他们更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如前几年创作视频时的特别特别烂，一页就能看出来什么是真什么是假。现在我是差不多分辨不出来了，就是那个最好的C单词一个生成视频，我也是分辨不出来什么是真，什么是假的，都想象不了四年后或者三年后多大的变化。有点好，不想说，有点硬。我我我因为是用错了，现有点抑郁。以后有可能对人类贡献不了，要是我想走这条科研路的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能变得更窄更困难。那应该怎么做？那你现在想的有可能的使命会是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我就刚才说的，我希望现在AI发展没那么快，永远触摸不到指数级增长。是的，慢慢的往上走，别走那么快，别走那么慢，给人类一个缓冲时间吧，来适应这个新时代，当然听这个博客的人，就是我接触的这些人，他们都有AI有很强的理解，很对也很感兴趣。但是我有时候也会惊讶到一些一般人，就是对AIG领域没什么那么大的兴趣的人，他们不会怎么用AI，他们甚至没意识到AI现在有多强。他们印象里还是前几年那种AI的感觉，而不是现在最先进的AI有时有多强。能做那么多的事儿，给一个化妆时间，让所有人都意识到AI会带来多大的一些贡献或者危险来适应。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一部分人就会想，我做数学做物理既然都做不过你那我就打不过就加入，那我就来造ai我就来加入这个阵营。所以我就是这想法这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>想法我就是这想法，因为我我就记得一年前想了想AI可能最后代替的工作是什么？我的想法是最后在代替的工作就是AI研究者。因为要是AI能研究AI的话，已经是控制不了，已经已经是最后的10米了，比赛已经完了，大局已定了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在你们的高中，你们会觉得AI研究者是一个什么样的职业？因为其实这个过去不存在，也就是这几年才出现，过去都没有人提。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，他们觉得就是挺酷的，但是我要看我那个opening I不是什么其什么什么工厂挖人挖几个人，那个十几million的应该都挺酷的。而且他们开玩笑的跟我说，就是你之后别造个样来代替我们工作。比如我那个IC同学，他是做那个。医疗的他以后想当医生，他就说你以后也千万别做一个能代替我们医生的医疗的一些。应该他们也是知道这个行业，他们具体是做什么，也是有点兴趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实你这么一说，他其实冲击了很多其他职业的人的发展轨迹。是的，说一个医生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如我同学他跟我说他现在从高中到医生还得失联。比如去英国或者去的香港那个HKU premier，就是那个medicine差不多十年我也会跟他说，有可能十年后也是完全不同的景象了。因为那时候机器人他们做的诊断更好，他们那个手也不会抖，也不会累。但是虽然没有人可能预知未来，所以我也是想说也是一些焦虑的一些想法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我记得很清楚，就是前一年就是这时候，我好像抑郁了，伤心了几个星期。因为那时候我看完了一个视频，就是讲AI会代替人类AI之后，两个可能发生的情况就是人类被AI灭绝，第二个情况就是有些人能控制AI变成神，然后其他人只能吃喝享乐。虽然我印象很深，那时候我记得我伤心了一段时间，我会跟我好朋友就是说那时候AI真的想会没人的话干嘛呢？然后我就跟他说，就去个小孤岛在那说话，但是也是走出来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么走出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也不知道怎么说，就是看网上一些视频，或者跟AI本身对话，就发现也不能预测未来，也不知道未来会发生什么，有可能现在是杞人忧天，真的是瞎着急，白着急。现在跟你喜欢的人在一起，跟你喜欢的朋友在一起，看一下你喜欢的视频，玩一些喜欢游戏。别教练那么多，走一步是一步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>想那么多没有用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，想那么多没有用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会跟你比如说想当医生的同学，或者可能有想当老师的同学，或者想当科学家的同学，你平时会给他们一些建议吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我会给他们说一下我的想法，比如说基金前AI那么差，现在A那么好，就过十年后或者。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只要拥抱AI对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，建议他们多用ai我觉得做任何事情你想一想应该可不可以帮我做，就这样子把的事情交给杨洋。觉得自己有意义的东西，自己必须做的东西，自己开心的东西来自己做。当然他们可以听，可以不听，也是希望我们女儿一起开心当朋友。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人类的情绪现在AI代替不了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得现在可以了可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>举个例子，我在学校里认识一个女生，他喜欢一个偶像，网上一些APP，你把偶像变成一个AI他是每月付钱，每天跟那个AI偶像对话，他挺开心的。而且比如网上很多的这种网站，比如charter AI这种天火的网站，就是跟虚拟的人物说话。上一年好像有个人跟我同龄人，你15岁的时候，他因为跟一个AI说话，那个AI不知道为什么就是建议他自杀。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他他哪一家是他的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>AI他一个虚拟人物电影里的人物说话完了给了他很大情绪价值。然后他那时候肯定也是精神不是那么好，这也有这种状况，比如那个SO pic近期也发现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后来他那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>事儿怎么样了，他最后也是停止AI做了他做了15岁，家长在那投诉我那个AA公司另外一个数据就是现在有50%的美国，我这种同龄人用过AI当做一个倾诉工具。我今天我这一天怎么样，我什么烦心事儿，什么开心事儿，说实话我也用过，叫我去做工作，但是我觉得不是那么好，所以也是没用。我也能认识到AI对一些缺少人和人之间的温暖，人和人之间的一些互动，一些人AI对他们的吸引很大。比如我经济出了比如AI男朋友，AI女朋友，而且虽然记得还是很不好去的话，好像得十几秒钟后才能回复。但是我相信三五年后会有很大的进展。我那时候我觉得一部分人或者选择给男朋友恋爱，女朋友这种的，也是一个很大的道德问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，也有人说他们完全不介意。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是应该。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是你能接受吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我的看法是在这个这么crazy这么疯狂的时代，还有很多很多变数。我觉得做让你开心的事情，让你向往的事情，别想那么多以后的东西。我自己也是希望这样子，别想那么多以后的事情，就是现在开心是一天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你之前也抑郁过，当然可能不叫抑郁，或是叫你之前也低落过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，低落过低落。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你调整回来了。对，是我相信很多人在面对AI的时候都有过低落的情绪。你是怎么调整成一个更健康的心态的？去面对ai我们应该怎么保持一个好的心态？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是斗不过，就参加那个摄像什么就对，斗不过就加就加入，对，斗不过就加入。AI也是一个很好的工具，你能AI能省出很多时间，能做对你意义更大的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你现在怎么使用AI？比如说你会用什么样的模型做什么样的事情，你觉得它们分别有哪些优点和缺点？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在主要用是XGBT，我觉得查GPT现在跟上一年的模型判若两个人，就判若两个模型。现在能做出很多很多的程序，自己在我电脑上做一些东西，自己能控制我的那个电脑。近期我让他做了一个小游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还真挺好玩的。什么样的小游戏？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是一个有无限打怪通关的小游戏。我有一个想法，你之前你要想做一个好事的话，一个很伟大的事情的话，你得知道伟大事情是长什么样，或者是伟大事情是怎么做两件东西，你必须知道伟大事情怎么做，而且是长什么样。现在有了AI只需要你知道伟大事情长什么样，让AI来去做。比如我以前要是我想做小游戏的话，我可能得看视频查资料。那现在我就不用了，我现在就跟AI说，大概的一个我脑子里想出的东西就可以帮我做。虽然把很大的乐趣去掉了，但是还是省了很多时间，所以我也不知道具体是好坏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我要发一篇顶会论文，我就告诉他，我想写一个这样的论文，你告诉我应该怎么做，有哪些to do this。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得现在还没穿那种还没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>到这个地步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是应该可以。对，那应该可以，就是你给AI8个H100的MVDAGPU，你比如租一个比如说cloud或者x GPT模型。你的那个目标就是在i clear投稿结束完成之前做出一个论文，就是做任何地方论文。但是你必须保证i clear会接入你的那个论文，我觉得他现在已经可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得使用AI之后让你的生活有变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>遇到很大的变化，比如我现在不用做一些功课了，省出很多时间，我也不用自己去查资料整理资料了，手术很多时间。我有什么问题也不用自己去看一些网站，手术很多时间。虽然存出了很多时间，但是我这几天也是跟一些业界的人他们说话，他们也是觉得虽然省出了很多时间，但是现在更忙了，反而更忙了，因为能做出更多东西。而且现在要是你不是用最领先的AI模型的话，会感觉有点浪费时间，浪费精力。我有封某。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于你使用模型，你还有补充吗？你刚才说ChatGPT.</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>主要的就是t GPT那个code x近期希望尝试一下kimi k3，但是好像K3很火，很多人用，所以现在有点慢。Deep sit你现在用吗？我也用，比如说要很快的一个回答的话，我也用deep sit，而且K1K3出现那一天，我高兴了一天。因为我那时候以为国内或者open source模型得需要几个月才能追上的，但是发现他其实没那么多长时间就可以追上了，他开心了一天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么这么开心？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是因为我作为一个中国人，我当然特别希望国内的模型更好。文物模型领先或者超越美国模型是那高兴的一天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你怎么看这些闭源模型和开源模型，你觉得他们未来会怎么发展？</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我在这上面没有读读过很多东西，但是我觉得也是不同的方法。他们那个开源模型并模型都是目标只有一个，就是那个AGI，都是不同路线，但是最终的目标还是一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得AGI如果实现的话，能实现的最不可思议的一件事情可能是什么？我是最酷的一件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得最酷的一件事情就是24小时你能感觉跟你一样智商或者比你更聪明更快的一个生物交流，就好像就是跟外星人交流。我还有感兴趣是AGI实现了以后会用什么方法跟你说话，有可能那时候用的不是算出门，又不是GPT这个底层模型，用的是其他的那时候跟AGI对话，看看这种新生物，可以说新生物应该也比人类更聪明了。他是怎么运行的？它是怎么思考说话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你做研究的过程中，你有感觉到非常像人的一点可能会是什么吗？有过这种感受吗？突然像一个生物。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者说我有个观点，如果有时候AI也会犯些低级的错误，人类有时候也会犯低级的错误。所以有时候就是AI想的太完美了，因为AI是人上门训练出来的。所以人犯的低级错误，我也也会犯低级错误。所以我觉得最像人类就是犯一些低级错误。而且我记得很清楚，就有一次trick AI的一些问题，有些问题我也被trick到了，发现AI也挺像人类了，会犯一些低级错误，但是大部分时间还是挺聪明的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挺理智的。你最近是不是还在支教？最近是暑假，是的，为什么会去支教？</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是四年前我去了一个暑假夏令营，最后一天有个活动就是帮助当地小孩做一些功课。比如数学功课、英文功课。我发现当地一些小孩离北京是有差不多四五个小时，但是英文学发音或者是用中文字来记的英文发音。所以我第二年就是我带了我一些同学，一些国际学校的一些同学，我们就在外国人这环境里长大，说的英文还是算正宗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>领他们到叫胡莎的一个地方，领他们到那儿教当地小孩英文，我也教了教当地小孩的象棋，因为我对象棋感兴趣，之前我也是想挑战自己，看看能不能教一些小孩儿。我是绞尽脑汁想怎么设计一个课程，怎么设计一个机制，能让那些小孩对英文产生从兴趣。或者他们每天开开心心来我们这个课，至少他们觉得对英文不是那么反感，觉得英文还是能快乐中学习到的那我设立一个叫廊坊的东西，廊坊就是在网上买的小卡片，说是廊坊他们可以用这个廊坊来买不同礼品。比如那一年我们花差不多五百多人民币从淘宝上，从超市里买了一些吃的，比如乐高玩具这些之类的，放在桌子上面，说这个是吃几个廊坊，这个是吃几个廊坊。他们上课回答问题，上课积极发言，用了一些小游戏，他们都可以用廊坊来换这些东西，他们都特别开心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>之所以为什么我连续办了三年，就是因为我们离开的时候，他们会问我们的签名，说下次你们来吗？明天你们来吗？特别就感激我们有个小游戏，他们做的就是递给那个小纸片，就递给你觉得最有趣的老师，会这种知识文的老师其实喜欢你的话，递给你的话你会特别开心。他们有时候也会用狼分上课，赢了奖励那些廊坊买食物，然后再给我们这些老师，给我们这些老师买，就表示他特别喜欢你。不是我们现在游戏，比如三二一木头人、两真一假这些小游戏，他们特别喜欢我相信这些小孩子特别喜欢我们这些做的活动。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们只能收30个人，我们是托村长来给我们救人的。甚至于到最后几天，他们都得靠关系，比如村长打电话才能来到我们这个森林营就很受欢迎。而且我们从香港来的人也是接触了到了我们接触不了东西。比如一些人他们是根本没来过内地，没来过北京，没来过这些农村，他们见识了很多东西，于是我相信成长了很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你去过几次了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>已经虎鲨吗？不是第四层。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它是在北京的周边。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>北京周边。对，北京4个小时三四个小时。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第四次也就是过去两年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，过去了，这是我们第三次。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>走你会跟他们怎么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>解释ai说实话我这个没尝试过，因为他们number夫人都没有电子产品，没有手机之类的。就是我觉得叫他们AI也是离他们有点太远了，有可能他们也是用不到，而且我们也没那么多电子产品可以发出来，他们每个人可以试试起来挺可惜的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会在这两个世界里感觉到很参差吗？就是一个是AI的世界，你刚从icml回来，然后另外一边马上要去支教，你会怎么看这两边的世界？你这个行程好紧张。对的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我刚从韩国回来。对对对，我完全没想过这个事实，我去韩国见到了很多很多厉害的人，就是那个千问的人，你自己的人，或者一些好玩连麦器那些人特别开心，认识了一个很多很多东西，很多很多人。完了回来就过好像四五天，就是做那个支脚了。我其实没想过有多大的区别，我喜欢安琪拉，所有人都说的都是AI最先进的AI东西。有什么什么什么千文，什么什么K什么什么质谱，什么open I什么是s bic。然后到支教室环境，也就是明天该备什么课，今天晚上吃什么？今天晚上我们是去外面农场里散步，还是去旁边的一些地方来抓一些昆虫？所以向前说这段时间你有机会离开AI离开这些城市的一些很快节奏的一些东西，在农村里可以去享受一些当地的一些场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你喜欢农村吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我说实话我是挺喜欢的，虽然很多东西都不方便，但是那个节奏是很慢的。就是城市里所有人都是来来往往，坐火车，坐地铁、坐滴滴。农村的都是一些慢慢吞吞的那些小车，很少能见到人迹。对面就是一些草原农场，觉得能真正放松下心身，离开城市里的烦恼，也是离开城市里的一些很快节奏的一些事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很有趣，会在农村思考AI吗？思考人工智能和人类的未来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有没有我我是之前告诉自己抓紧这个时间离开这些东西，就是别多想，就跟你同学跟这次来的人，跟这次的小孩就多交流，玩一些游戏，比如狼人杀、捉迷藏，就故意告诉自己别多想这些的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>心理暗示不错，你是一个会心理暗示的人是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我希望成为一个能心理暗示的。当然心理暗示是一个很OP的一个技能。但是你能控制自己的一个人设的话，在自己脑子里控制人设的话，是个很好的一技能。我希望能做成这个技能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你未来希望自己是一个什么样的人？</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>希望我是一个能让我自己开心和能让我周围我喜欢人开心的一个人。开心很重要是吗？我觉得开心很重要。做任何东西，做寻找人生意义，做任何东西目标就是为了生活开心。比如现在学习，现在考高考那些人，他们就是现在努力，然后为了之后考进大学找好工作开心。或者是比如我下期也是为了下期赢了让我开心。我觉得开心就是人类的根本的，没有那个情绪，做人会很努力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有人会觉得成功很重要，我为了成功，我不开心也可以忍受你不行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>成功了以后就开心了。现在牺牲一点开心，为了以后开心都是为了开心而努力而开心。为工作开心的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>总量是有限的吗？还是无限的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得开心总量是有限的，因为你脑子里那个多分明那个多巴胺，对多巴胺控制欲望，控制你开心你不开心之类的。当然因为是物质，所以有限的。你现在开心了，以后就不能开心了。比如毒品就是很极端的一个例子，你现在特别开心，那你以后就特别不开心。所以我觉得开心是有限的，很多人就说生活就是苦，但是你得选择你是为什么而苦。所以还是选择自己为一个目标而苦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后得到开心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我听到网上看到一个冷知识，就是有个人不知道为什么没有任何情绪，他虽然能跟你对话逻辑，但是他做一个决断，做一个比如今天起来选什么衣服，去喝什么咖啡，还得需要差不多半个小时或者1个小时。所以我觉得情绪也是强化学习，这个事儿得让我开心，我多做这个事，不开心少做。就是那个那个hab这么不同的习惯就是这样形成的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说说你对未来世界的想象。比如说五年后、十年后、20年后，你觉得这个世界，这个社会会是什么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得五年后应该初步的鞠生智能已经被研发出来了也有可能在街道上能看到一些机器人在街道上行走，AI会是很普遍的。在那时候有可能你戴着一个眼镜或戴着一个耳机，或者任何东西都会能给AI对话，或者是伊朗马斯发现那个那个new link就直接住你脑袋里的。我觉得那时候应该还挺危险的，没人可能去做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是五年后，我觉得十年后会有聚生智能的那个AI就是帮他们的主人做一点东西，比如买菜，比如去开车去洗车。我觉得失业率会有上升，有可能50%失业率之类的。大部分人都有UBI可以在家里吃喝享乐，就是在家里做他们想做的东西，所有人都看AI短剧让自己开心的事情，我也不知道，有可能我是完全是惧生之能，完全特别难的克服。有可能是50年后也没有具生，只能在街道上走的，我觉得50年后会是什么场景？我对那个cyber punk，就是这个johna特别感兴趣的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那个那个sao 2077他们那儿那时候人的AK要对自己的身体进行改造，那时候也要很强的AI但那些很强的AI已经被政府或一些组织被控制了，播一些游戏里的一些入耳。那时候AI已经被很强的人控制了，有很强的AI被已经被人控制了。而且网络有网络也就能生存吗？网络已经是被打的稀里，有可能有原子弹战争。我就希望不是往那边走吧，不是往the stoppered 3款2077那边走吧，希望有疫病。所有人都得在家里快乐，能在那比如虚拟世界里可以做一些词，想做的东西，自己有成就感，希望所有人都开心。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后我想问你一些快问快答，因为我们也是希望能够多留下一些人类很有生活气烟火气的东西，一个是一个全球范围内你喜欢的食物。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所有人问我是喜欢吃什么？我最喜欢吃披萨，吃披萨。因为我特别喜欢吃那个芝士，我也特别喜欢吃那个那个香肠，所以披萨食堂的都有。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我特别喜欢吃披萨。一个全球范围内你喜欢的地点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>地点的话还是我香港的那个家。因为周围我都知道，了如指掌，都知道去哪儿走能安静一下，去哪儿走可以买到吃的，或者去哪儿走K散散散步是有很有安全感的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个少有人知道但是必须知道的知识点，可以是一个冷知识。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我刚才说的，就是你以前想做一个伟大的事情，你得知道伟大事情长什么样，而且怎么去做。现在只用知道长什么样，让AI去做就行，我觉得是我一个挺好的想法。有没有改变过你的一本书？说实话我改变过最大的一本书是网络小说，比如青年。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你知道吗？我当然知道，你知道你看过吗？我看过他的剧。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如那个庆余年、斗破苍穹多，完美世界，那个剑客将夜，在庆余年这种网络小说，这说实话对我影响最大。但是就一个正经的来说的话，对我影响最佳的正经的书是atomic habits，就是那个很小的那个，每天改一下你的习惯，会有很大的收获。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你为什么喜欢庆余年？你喜欢他的世界观。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不是喜欢那个世界吗？我就喜欢那个故事。四五年前看的那个剧院看的那本书，虽然不是我印象最深的那本书，也但是是我第一本的看过的中文小说。我喜欢去年就是因为穿越，现代人到古代我有可能也是向往。虽然古代也有很多不便，很多不好，但是古代没有AI。做事情都是人和人之间的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你喜欢人和人的关系的什么温暖。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的那一面对我就喜欢那个。我觉得人是特别希望跟其他人有深度交流，分享彼此。所以现在很多人才会有AI倾诉，因为他们可能生命中没有更倾诉的对象，只能找AI来去作为代替。我觉得人类是一个群体生物，之前就开始就是个群体，小村庄或者小省，或者是这样的发展出来的。为了繁殖，我们基因里也会希望你多跟异性交往，异性深度交流。另外一个科学家发现很大的就是预测你之后开不开心。你老以后说是开不开心，一个重要点就是你周围有多少人，你给倾诉的对象，倾诉的对象越多，你之后越老了以后越开心。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以人和人的交流很重对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>很重要。我觉得所以我现在我也是试图多跟我朋友说话，多跟我喜欢的人说话。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你心目中影响AI进程的几篇论文。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那当然是他是so you need，或者是那个浪漫那个techy report或者是那个现在rope也也那个be kimi也没用，用那个rope。不是mumba moba挺重要的。忙，就是那个kim的KDA演化出来的，KDA是慢慢演化出来的。我要是传统的话，你是比如MW那个b on a lot of we have posses那个rocky那个paper，就是这些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给你当下的认知一个关键的重要的but是什么？这个问题稍微有点重的，but堵住你会读什么？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在赌注就是AI以后代替不了所有人和工作。但现在社会你想正常的生活，每天开开心生活的话，你都在做一个赌注。就是说以后AI代替不了我，AI代替不了我这个人，我以后还会有新的目标、新的追求、新的想法可以探索。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的工作室的名字叫语言及世界工作室。当你第一次听到这个名字的时候，你会想什么？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就会想到语言，因为现在语言做语言研究都是在错误。这是trance transformer，我觉得语言是一个很魔幻一个东西。因为刚才说是人和人之间交往很重要，而且那个原是交往的桥梁，所以更重要。而且我觉得世界的语言很新奇，因为我印象里我的理解就是每个字都是在一个space里面。有可能一个语言是把一个vector space面丰富了，用了另外一个语言就是把同样的vector space丰富了。但是有更深层次理解，更深层次的一个更更密集。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你最近体验到开心的一件新奇小事会是什么样？</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>近期最开心的就是那个deep seek 0731出现的时候特别开心，和那个km MEK3出现的时候特别开心，和我和我的猪脚朋友，我们13个人交往了我们30个小孩子。然后那天晚上一边吃肉串儿一边喝饮料，每个人就是站起来，别人碰一下鞭扬他说表达一下自己的想法发言，我觉得是特别温暖的一件事。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有趣我觉得聊得很开心。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也是我想问问你觉得AI会导致人类灭绝吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你遇到每一个人都会问这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都会问我其实不知道希望人类能控制。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那当然所有人都行，我也行。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我但是我觉得想到一点会比较可怕，是AI的智商当他提升所有AI的智商都提升，但是人类都是一代人，一代人他都要经历缓慢的成长期，所以我们的培育其实是比AI慢很多的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且你比如10年出生，15年、20年出生的人，他们一生出来就知道AI，知道AI就可能比自己聪明，比自己想的更快，做的更好，可能就受到了那些向上的动力了。因为知道以后。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>向上的动力。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>向上动力因为我现在学习，我必须得学，我半生化为AI学这个东西上面才能有可能毕竟AI但是AI也会自己把自己进步，让那个更好的去谈。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我倒没有思考过，就是对于更年轻的人，他的人生的使命感可能会有一些影响。因为当你第一天就发现了一个生物比你更聪明。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感到有点绝望。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有一点儿那个play to ardo他们都是哲学家，他们都是问的一个问题，就是我的人生意义是什么？我以后想做什么？要是AI能把很多道路给切断的话，我觉得是要找人生意义有些更大的难度。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你现在觉得人生艺术吗？开心。对我现在。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>人生意义就是让自己开心和让其他我喜欢的人开心。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好了，今天的节目就是这样。这里是商业访谈录，是一档由语言及世界工作室出品的深度访谈节目。你可以到公众号关注我们的工作室，获取更多的信息。我们的公众号是语言及世界，language is world, 我们希望和你一起从这里探索新的世界。也欢迎你在小宇宙的评论区与我们有更多的互动。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Will explore the new world from.</p>]]></content:encoded>
+            <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+            <guid>6a8472b95aeb2a5712e8de78</guid>
+        </item>
         <item>
             <title>150. 对英伟达研究副总裁刘洺堉的4小时访谈：功夫、Cosmos 3、开源世界模型、黄仁勋、你不需要击败所有对手</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a7cbeb017676351c5710266</link>
@@ -15729,522 +16138,6 @@ Chatbot之外不错的交互是什么？
 <p class="transcript-line"><span class="time"><strong>[00:47:29]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>好了，今天的节目就是这样。这里是商业访谈录，是一档由语言及世界工作室出品的深度访谈节目。你可以到公众号关注我们的工作室，获取更多的信息。我们的公众号是语言及世界，language is world, 我们希望和你一起从这里探索新的世界。</p>]]></content:encoded>
             <pubDate>Tue, 09 Dec 2025 14:42:24 GMT</pubDate>
             <guid>693834013fec3166cf262bd0</guid>
-        </item>
-        <item>
-            <title>121. 对DeepMind谭捷的访谈：机器人、跨本体、世界模型、Gemini Robotics 1.5和Google</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/692965c0ba2292550f3551f7</link>
-            <description>今天的嘉宾是Google DeepMind机器人团队的高级研究科学家兼技术负责人谭捷，他的研究方向是将基础模型和深度强化学习方法应用于机器人领域。
-中美在机器人领域一直存在两种叙事：市场普遍认为，中国在硬件上发展更快，美国在机器人大脑设计上更领先。
-本期节目中，谭捷将带我们一窥硅谷视角，尤其是Google DeepMind视角下的机器人前沿叙事。
-前不久，他们刚发布了新工作 “Gemini Robotics 1.5 brings AI agents into the physical world”（Gemini Robotics 1.5将AI Agents带入物理世界），我们也聊了聊他们的最新发现。
-由于嘉宾工作环境的原因，会出现一定程度的中英夹杂，还大家多多包容和支持。
-02:00 机器人是在真实世界里做图形学，图形学是在simulation里做机器人
-嘉宾小传：小时候喜欢打游戏，读博士读的计算机图形学
-从图形学转型机器人的变轨
-我在Google的第一篇论文《Sim-to-Real: Learning Agile Locomotion For Quadruped Robots》（从仿真到现实：学习四足机器人敏捷运动），开创了强化学习和seem to real在足式机器人上的应用
-Paradigm Shift，过去十年第一个是强化学习，第二个是大语言模型
-大语言模型对机器人的影响（大语言模型类似大脑，强化学习类似小脑）
-13:06 机器人基座大模型到底是不是一个非常独立的学科？So far, not yet
-今天的机器人发展到什么阶段了？
-从demo到真正落地，隔十年并不是一个非常夸张的事
-从我的角度来说，我不得不承认，最近几年的机器人智能发展主要还是依赖于多模态大模型
-但多模态模型缺什么呢？缺少robot action的输出
-当你真正有一个generalist model（通用模型）的时候，specialized model（专有模型）就完全不能与之竞争
-23:44 Robotics最大问题是数据，它在一个非常复杂的unstructured environment里，可以发生任何事情
-最大的问题还是数据问题
-但是robotics是在一个非常复杂的unstructured environment（非结构化环境）里，可以发生任何事情
-它需要极大量的、非常diverse（多元）的数据，但这些数据现在是不存在的
-现在有很多startup叫data factory（数据工厂）
-所谓“数据金字塔”包括哪些？
-​27:52 Gemini Robotics 1.5：我们有一个方法叫motion transfer，这是独门秘诀
-Gemini Robotics 1.5最重要的发现是什么？
-第一个是我们把“thinking”加入了VLA模型
-第二个非常重要的突破是cross-embodiment transfer（跨具身迁移）
-Gemini Robotics 1.5的工作中，我们做了一个快慢模型的划分
-它应该是个过渡的方式，因为现在受制于算力的限制、模型大小的限制
-当你要一个unify model（统一模型）的时候，它必须非常大
-Motion Transfer？It’s very secret
-47:32 生成极大量仿真数据，是弥补它缺点的一个重要手段
-我们比较重视的一点还是数据、数据、数据
-遥操作是非常难以获取的数据
-我们会花更多的精力，比如利用simulation数据，利用human video（人类视频），利用YouTube上的一些数据，甚至利用模型生成的数据，比如VEO生成的一些数据
-真实数据没有sim-to-real gap（仿真到现实差距），但是泛化性是由数据的coverage（覆盖）导致的，并不是因为它本身是真实数据还是虚拟数据
-在不远的将来，传统物理模拟仿真会慢慢地被生成式模型的仿真所取代
-我信仰的是scalable data
-01:03:48 世界模型就是Vision-Language-Vision，vision和language in，生成下一帧的图像
-世界模型的定义是：如果给上前一帧，再给上机器人的动作，你可以预测下一帧
-从另外一个角度，VEO它是一个视频生成模型，但是Genie它更像一个世界模型
-当你在每一帧的时候，可以有一个输入来改变你的下一帧，那个感觉就是世界模型；但是如果它是一个已经生成好的、几秒钟的静态视频，那就不是
-世界模型其实就是Vision-Language-Vision，vision和language in，它可以生成下一帧的图像
-01:08:29 如果你有灵巧手，触觉就非常重要，之所以我前面觉得触觉不重要，是受限于当时的硬件
-如果你有灵巧手，触觉就非常重要
-之所以我前面觉得触觉不重要，是因为它其实受限于当时的硬件
-现在还在夹爪时代
-在所有夹爪能完成的任务里，我还是觉得视觉可能可以解决95%的问题
-在未来，人形机器人不会成为唯一的形态，但一定是个主流的形态
-如果你的目标是solve AGI in the physical world（在物理世界实现AGI），那么我会非常聚焦于最终的形态是什么样子，其他的东西可能都是distraction（干扰）
-01:17:35 一个有使命感的人，他不会容忍说“I’m on a wrong ship”
-这几年Google AI或者robotics的研究文化上有没有发生过变化？
-不管是从promotion、performance review、incentive，还是各种各样的structure上，Google想创造一个环境，使得更多的人可以一起解决更大的事情
-像Gemini Robotics，它更多是自上而下
-我发觉好像国内不一定比我卷，我一周可能工作70到80个小时
-真的，这个时代真的是等不起，不然别人都做出来了
-AI有很多是数学，华人数学比较好
-《106. 和王鹤聊，具身智能的学术边缘史和资本轰炸后的人为乱象》
-《109. 机器人遭遇数据荒？与谢晨聊：仿真与合成数据、Meta天价收购和Alexandr Wang》
-【更多信息】
-本集的文字版本已发布，请搜索我们工作室的官方公众号：
-语言即世界language is world</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得在硅谷，大家都觉得机器人可能是即将发生的一个最重要的变革。所以所有的公司都投入巨资去传他们的机器人团队，去做机器人大模型。然后到最近你可以看jm 58 lix第一代就是三月份的那个版本。那个时候可能已经是120个人在author上，这次可能160到180个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>德林招人，然后有一个就是白人美国的一个PHD毕业了。然后他就跟我说，我真的希望你们team能多招点华人。然后他说他还学到一个词叫妞妈牛马。对，他说他特别喜欢自己做牛做马。对他他自己也对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他说他是不是对这个词有什么误解？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello, 大家好，欢迎收听张小珺商业访谈录，我是小俊。这是一档由语言及世界工作室出品的深度访谈节目，我们希望和你一起从这里探索新世界。今天的嘉宾是google deep mind机器人团队的高级研究科学家兼技术负责人谭杰。他的研究方向是将基础模型和深度强化学习方法应用于机器人领域。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>中美在机器人领域一直存在着两种叙事。市场普遍认为中国在硬件上发展的更快，而美国在机器人的大脑设计上更领先。本期节目中谭杰将带我们一窥硅谷视角，尤其是google deep mind视角下的机器人去世。前不久他们刚发布了一个新的工作，叫做mini robotics 1.5将AI agents带入物理世界。我们也聊了聊他们的最新发现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello, 谭老师，先给听众朋友们打个招呼，并且做一个简单的自我介绍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，非常高兴今天能来到这里，我叫谭杰。然后我现在是google demand的一个研究科学家，我加入这个团队可能快十年了，以前是上海交大毕业。小时候特别喜欢打游戏，所以读博的时候出去读了一个计算机图形学。后来觉得同学和机器人有很多相似之处。你可以认为机器人就是在真实世界里做图形学，或者图形学是在stimulation里面做机器人。然后为了使得自己的工作更有一些影响力，然后你可以看得见摸得着，后来就转了机器人。开始的时候叫google brain，然后加入以后就一直在这个团队里面。后来和d man合并以后，就变成了google demand robotic team。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是你的第一个工作吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实不是的，我在读博之前在上海做了一个很短的startup哦啊那个start up.</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是本科硕士毕业创业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后那个start有点像现在的酷家乐。我不知道傅家乐还在不在，好像好久没有关心这个领域了，就是做图形学。对啊，然后但那个时候我觉得时机也不是很成熟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>后来我就出国读书了，读完书以后我又去了一家startup，是做相机的。那个start p叫light，是光场相机，不知道大家听说过吗？就是在美国还是在在美国在美国在硅谷，对它是一个你可以先拍照后对焦。而且它不是通过计算，而是它采集一个光场非常复杂的一个物理原理。然后使得它有使得那个相机有一些特别的功能。然后在那儿做了大概一年半以后，后来就加入了google。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的研究方向是怎么发生变化的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是博士是做图形学，对吧？那个时候我也在pixel实习，就是我一直做的那个叫动画。动画其实有很多种做法，在pixel的时候，披萨有很多自己的坚持的原则。比如说他从来不用动作捕捉系统，他觉得所有的东西都应它是首条的对。但是你如果是做动画的这个研究的话，其实它并不是关于首条这些动画。而是通过用数学的方法，物理的方法，看你是不是能在一个仿真环境里面，使得一个比如说人的形态或者动物的形态能自然的行走。对，然后那个时候我做的这个叫physics space的character animation。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>后来就是做着做着觉得这里面有很多AI的成分，就是我越来越多的用AI来解决问题。可能是我就是第三第四年的时候，我觉得这个东西跟机器人太相似了。然后我又觉得我不想自己的工作只是为了娱乐，为了这个游戏和影视。所以我就跟我导师说，我想尝试一下机器人，我要用这个图形学的方法来变革整个机器人的行业。就是变革对，听上去非常的宏大。我导师也是非常的怎么说开明，就是我导师叫凯瑞刘，我在卓杰tec读的博士，到后来去了stanford，他现在stanford，然后他就说那就做呗。然后我们最后就是我最后一个project，就是完全用图形学的方法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在一个很小的人形机器人上，让它能够倒立，让它能够在不同的姿势里面坐着，然后站起来之类的，就做了一些很简单的控制。那个结束以后我想去找一份教职。那个时候觉得在在美国找一份教职。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是哪一年？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个是2015年，然后他想找一份教职。然后那时候我其实还收到了很多好很好的学校的interview，比如cornel什么的。然后那时候我就说我要用图形学的方法变革robotics。我觉得那个时候大家是有很多很多怀疑的态度的。因为我也是刚开始这个领域，我绝大多数的这个背景还是在医学上。所以我并没有拿到我想要的教职，于是就去硅谷工作了。然后我就去先去了一个startup，然后后来去了google。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时robotics处于什么阶段？你想用图形学变革robotics，为什么？图形学是变革robotics的一个非常好的方法，因为之前来我们节目的嘉宾王赫也说过，robotics这一波人都是图形学计算机视觉领越冒出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我就举几个例子，就是我是图形学领域的。大家可能知道有一个非常著名的berkely教授叫sergant。他以前是做图形学的。就是我跟他经常是在siggraph做presentation的时候，就是前脚后脚，可能是我先走，然后他他再做，但是我们都不约而同的转了what x就说明这两个领域其实非常相关。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后在那个时候我觉得robotics还是处在一个非常rule base的。大家用传统的控制方法，比如说有一个方法叫MPC model predictive control。就大家建一些物理模型，然后通过一些最优化的算法然后计算比如说运动轨迹。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个其实有很多很多难点。我经常跟别人说，就是说以前你做这个robotics你肯定要一个PHD，否则你那个数学都搞不明白。但是图形学，它其实就是有很多AI的算法在里面。就是那个图形学因为很简单，因为你都是说所有都在电脑里，都在stimulation里面。所以你可以获得这个机器人的所有的你需要的信息，比如说关节利益，各种各样的都可以。于是你就可以用AI的手段来解决各种各样控制的问题。然后我那时候觉得其实stimulation和真实世界都是差不多的东西。所以说如果他在stimulation里面能够work，那么他在真实世界应该能够work。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而在那个时候就说机器人还是很傻的那时候有一个darroch chAllenge，就是那时候有很多人形机器人去做一些比较简单的事情。比如过个坡，开个车，拧个阀门什么的。然后那个时候机器人都摔什么的，就看上去很傻。但在图形学里面，就是在这个stimulation里面，机器人能够翻跟斗，能够跑步，什么都能做了。所以那时候我觉得两边的差距还是很明显的。所以我觉得如果说我们能把simulation的东西放到真实世界里面，那么机器人会有非常非常长足的进步。这个就是为什么我觉得我要用black fix的技术来变革机器人的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>杜老师你会发现这个方向是正确的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题其实还挺难回答的，现在看肯定是正确的对，就是在google里发现的吗？对，就是我的第一篇在google的论文叫seem to real learning a jl local motion for quite pad robots seem to real，就是从仿真到真实世界。对，然后我用的方法也完全是叫deep pr inforcements learning，那个对于哪怕对于graphics也是比较的技术，然后在机器人上根本没有人用。然后第一篇paper出来以后，就是获得了很多好评。这个也是我觉得第一个就在过去十年里面第一个怎么说呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Paradise shift发生的就是用强化学习解决走路和步态的问题。我给你描述一下，就是说可能十年前大家觉得最好的机器人是波士顿动力的机器人，他们的狗叫spot，他们有人形叫atos对吧？然后他们能够跑酷非常厉害，但是整个学术界都不知道他们怎么做的。后来最近大家都知道他们是用MPC，但做到了极致。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是就在可能五年之后，你觉得大家都能跑跑跳跳，大家都能打拳跳舞。比如今年你看到比如说榆树什么，他能打拳击，能够跳舞。然后最近反正各种上墙翻跟斗都行。其实就是因为大家采用了同样一个技术叫强化学习。然后seem to be。所以其实我我个人觉得就是我我开始那篇论文其实开创了整个强化学习和seem to real在都是机器人上的应用。所以现在回头来看那篇论文，或者说计算机图形学的确彻彻底底的改变了机器人最近5年到10年的发展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你当时用强化学习是从大元模型里面借鉴的这个方法吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有，因为大语言模型的兴起是可能是过去五年的事情。那个强化学习可能是八年，那是2018年，就是七八年前的事情。那时候还没有大元模型。那个时候是从哪里借鉴的方法呢？那个时候有个特别火的事件叫阿尔法狗，就是低卖的。他那个下围棋，然后用深度强化学习。那时候有很多很多方法，其中一个方法叫PPO。对，然后那个就是我我我利用的一个技术，然后它离强化学习时间上还有点差距。但是我觉得第一个就是过去十年里面，第一个paradise shift肯定是强化学习。第二个para dim shift是大语言模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于机器人领域也是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吗？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们叫聚顺智能还是叫机器人？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>聚顺智能好像是国内说的比较多的对对，都都可以。其实是这样子，就是radix就是以前当我们说in body AI的时候，它不代表一定有这个硬件的本体。你在mulai里面做机器人也叫引暴力的AI对于我们来说就是我们不光在relation要做robotics，我们在真实世界里要做robotics。所以我更倾向于在机器人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对那大语言模型出现以后，对于机器人领域它带来的影响是什么样？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是在大语言模型出来之前，很多机器人还是在那种底层的控制，就说你怎么能够好好的走个路，然后做一些什么路径规划，使得你手可以在不撞到任何东西的情况下，比如说抓到这个瓶子。但是机器人是没有common sense，他也不懂这个语言。所以你要让机器人做一件事情，你得编个程是吧？然后他才能做一件事情。但是等你有了大语言模型以后，第一他理解人类语言了。所以说你让他做什么事情，你可以直接用男丑男鬼精的对话然后做事情，这个还是很重要的突破。就是任何人都可以指挥机器人做事儿了，这是第一件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二件事情就是common sense。以前大家觉得这个机器人好难，就是不仅是控制问题，因为机器人它没有common sense。对，就是你比方说你帮我做杯咖啡，非常简单一个指令，其实完全不知道什么意思，他也不知道应该是哪些步骤可以做做一杯咖啡。但是如果你就想去问姐妹奶或者问ChatGPT，你说如果我要做一杯咖啡有哪些步骤，那么他会告诉一步一步的列出来。然后你说我可能需要更细化的步骤，它可以给你列一个非常详细的plan。所以说当你用大语言模型来控制机器人的时候，这个机器人就有了common sense。他能理解要做一件事情它需要哪些具体的步骤。如果每个步骤都足够简单的话，它就能一步一步的把它做完。对，这个就是说以前的机器人是没有大脑的。就是有了大元模型以后，你可以认为它现在有了大脑和认知，使得它可以做很多很复杂的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>强化学习相当于是什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就有点像大脑和小脑。对，大脑是思维对吧？然后是推理，是做计划，所以说大元模型更像大脑。但小脑是直行，就是你要走路，你要控制平衡，你要控制你的双手，你要做手上的manipulation。这个就是强化学习非常擅长的一部分，所以你可能大脑小脑都需要有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我前几周在杭州主持云栖大会的聚生智能分厂有个观点我印象很深。就是他们提出聚生智能机座模型不应该被视作单元模型的一个延伸或者分支，而是一个独立的方向。他们觉得就是为机器人训练的是一个独立的机器人的制作模型，机器人大脑。就是他们在非常强烈的强调自己这个学科的独立性。你怎么看待他们这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>观点是我觉得没有对错可言，就是大家会有自己的不一样的偏见。从我的角度来说，我不得不承认就是现在最近几年的机器人智能的发展主要还是依赖于多模态的大模型。所以它不仅仅是语言模型，它是一个多模态模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是多模态模型它缺什么呢？就是它缺就是robot action的输出。多模态模型它可以输入，比如说图像，它可以输入语言，然后他的输出可能是文本。对，但他不能输出对机器人的控制。于是我们经常做的事情就是拿大元模型作为一个基底模型，然后加上一些机器人动作的数据，使得它能够输出机器人的动作，使得它能够控制机器人。所以从我的角度来说，我做的很多工作，还是说怎么样补全现在这个多模态模型，使得它可以输出机器人的动作，使得它能够控制机器人，它到底是不是一个非常独立的单独的学科。So far not yet.</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得未来可能当你碰到各种各样瓶颈的时候，当你需要不一样的data的for format的时候，当你需要可能一个更加完善的word model的时候，可能它会变成一个更加独立的学科。但现在我觉得绝大多数的在做VOA的，在做机器人大模型的，其实还是在大语言模型或者多模态语言模型上做的一些怎么说？翻译chin，对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以三号他还是一个眼神。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>So far对我觉得至今为止，我觉得它其实并没有一个什么质的改变。对它更多的是采集更多的极限数据，然后扔到大元模型里面去做不同阶段的翻译。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以今天你觉得robotics它它发展到哪个阶段了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得我我觉得它的就是progress非常快。最近的一年它的这个进展让我觉得非常的怎么说impressed或者surprise。但是要解决这个聚生智能，或者使得机器人有真正的应用，我觉得那个那个gap还是很大的。的确现在你可以说你让这个机器人模型做一件事情做得非常好，我觉得是可以的。你其实看到很多网上的video，包括你可能在coral看到就是dinner的，比如折衣服的那个demo。其实他做这个非常类似的，或者一个比较窄的领域的操作的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他可以做的非常好的。这是因为强化学习。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家号称是强化学习，但我觉得肯定不止强化学习。因为我相信来的那个可能也是B1A加上强化学习的方案。但是他依靠了多少B1A依靠了多少强化学习，这可能只有问他们才知道了。所以如果你是做一个任务或者一系列非常接近的任务，现在可以做的挺好的。但是如果你要真正的generalization，就是说你要真正的泛化能力，你希望有一个就像人形机器人，它可以做好多事情，现在还差得很远。现在比如说哪怕像jm rob x这样的模型，它非常强调泛化能力，他可以做很多很多事情。你可以用自然语言说你开这个水瓶盖子或者把这个包拯好或者怎么样，但是它成功率还不是很高。如果你更多的是像非常简单的pick place，把什么抓起来，放到什么地方，也许它成功率有90%几、100%。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是对于很多需要精细操作的东西，比如说把这个拉链拉上，这个就是非常难。其实你要抓到对的地方，然后往一个特定的方向拉，像这个比如成功率可能就是百分之三四十，所以说百分之三四十的成功率在现实生活中是不可用的对。所以我觉得其实虽然我们的进展非常快，但是我们的这个gap也非常的大。所以我觉得还需要好几年的时间使得这个机器人能够足够的完善，然后进入到各行各业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>来帮助我们。大概如果定义成一个GPT的这种标尺的话，大概到了那个时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对这个其实很难做对应。就是我是这么想的，就是说现在大家看到了足够的science life，说我们可能scale up现在的这个training recipe是会work的。但是可能还需要两三年的时间，使得你能够达到一个GP3级第四的这样的一个水平。使得你可以真正觉得这东西还是真的是会有用的。然后我觉得可能还需要额外的5到10年时间，使得它真正的落地落地。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的时间更长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这样子的，一般性就是说做research做研究是这样子，你有个想法，从想法到一个prototype，然后那个是很快的。因为你做完一个prototype你就可以写写一篇论文，所以那个周期可能是六个月，最多一年。当你写完一篇论文到你有胆量拿出来做live demo，而不只是录一段视频。你有胆量拿出来做live demo，那可能需要一两年时间。就是你有很多因为你在写论文的时候，你有很多很多assumption，所以它可能只在一个非常小的区间内是工作的对吧？然后等你开始做live demo到你要真正落地，那可能是5到10年，你就想自动驾驶。对，从最开始比如说在打part take chAllenge，你说我可以开好二十几公里，到后来每一个厂商都能说在一个固定的园区里面做一个demo到也许今天就算落地了。因为韦某和tesla都有自己的自家的产品，当中的确隔了十年，对吧？从那个demo到真正落地隔十年并不是一个非常夸张的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>L3L4也没有真正的应用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得对帷幕它其实是没有，它有的就是taxi的这样一个business对吧？在在旧金山它也在有限区，但是它可以把这个driver真正的掉，所以我觉得已经越来越近了。但是这是另外一个例子，就是说从你有一个idea到你真正落地，其实非常遥远。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我就在想，你看自动驾驶是一个这么就是它的动作输出是一个这么有限的一个领域，都要这么多年，那机器人就让它一个领域一个领域的做就好了。为什么要去追求它的足够的泛化性能？我们为什么需要一个机器人的足够通用的大脑来做机器人这件事情呢？我们就像自动驾驶一样，就是每一个领域做让他做好每个领域的事是不是就好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个很好的问题。我觉得这里面很多争论都是比较philosophical的。我的感觉就是两条途径都是有可能的。你先做非常专业化的事情，然后你在一个领域落地。First是你做一个最general机器人，通用的人形机器人，通用的人形机器人。我觉得并没有对错，但是这个世界的发展无关乎对错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者是这两条路，亦或者可能那最后会发生什么呢？就是可能会有一个大佬，他可能是伊朗musk，可能是Steve jobs，就是一个visionary的人。他灌输了一个概念，这个概念是说这个人形机器人，通用机器人是最终局的这个解决方案。当一个大佬发话以后，就会有很多follower，然后就会有很多钱进来，然后就会有很多talent进来，最后就促使了其实另外就这一条路径成了真正的被解决的路径。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以说我觉得并不是说做specialized的机器人，然后一个就是doma sop是错的。只是可能现在因为硅谷的这个发展，因为有一个大佬特别提倡这个方向。同时还有一个就是大元模型，其实也就证明了如果你做specialized model，就是以前的语言模型通常都是specialized model，对吧？你做比如英语到中文的翻译，它可能是一个model。然后你做一个什么其他的EQA可能是另外一个model。然后后来你发觉当你真正有一个general model的时候，那么specialist model就是完全不能与其竞争。对这也是另外一个例子，就是说为什么大家更相信general的机器人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你刚才提到过去一年进展非常的快，可能超出预期。它它的进展快来自于哪些变量？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个是DRM的发展，比如说java的发展，比如说GPT的发展，比如说有很多技术的变革，比如说现在很多model就是叫thinking model，对吧？它在。在inference time它可以用很多的token budget来来提高你的最后答案的准确性，对吧？这个是一个从技术角度一个比较好的变革。然后这个使得其实robot can think as well，就是我们最新的java bodies 1.5，其实有一个比较重要的突破，就是利用这个thinking的能力。这是技术上的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个就是从重视程度上，就是我觉得在硅谷大家都觉得机器人可能是即将发生的一个最重要的变革。所以所有的公司都投入巨资去传他们的机器人团队，去做机器人大模型。所以如果CEO们都重视了，那么分配的资源也好，算力也好就会增长。所以说这个使得从另外一个角度也加速了机器人的发展。第三点就是因为这个使得硅谷现在非常卷。以前大家觉得这个996是中国传统，那现在硅谷也是996.</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在是现在也是996。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，至少做AI做机器人的肯定是996。对，为什么会996呢？就是没有人想输在这场competition里面。对，因为所有人都希望自己自你的公司或自己团队是世界第一的。如果你是世界第二的，你团队里最优秀的人就会觉得我要去那个世界第一的团队。因为在那儿能做成事儿，所以要防止这个发生，你就只能加速工作，加倍工作，使得你永远永远保持在这个第一梯队或者是整个行业的最前列。然后使得大家花了更多的精力，更多的时间在这个科研上。这也是为什么就是我觉得最近发展特别快的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是这最近一年发生的变化，还是最近两三年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得可能是最近一年半到两年的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是拆GPT出来之后。对，然后又过了一段时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>基本上就是ChatGPT出来之后，大家意识到这个东西可以用在机器人上，然后大家就开始非常卷。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你刚才说的未来有两个关键的阶段，一个是要先到达GPT3的时刻，然后再去落地。那你觉得从现在这个节点到GP3中间差的是哪几步，就有哪些关键的问题解决了，可能它就到了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一个最大的问题，可能还是数据问题。对，就是对于你做语言模型来说，数据是free的对吧？就是网上已经有那么多数原数据，然后VKPDA，然后你可以tize很多的书本之类的，所以那个数据太太太多了。而且语言相对来说也是一个narrow domain compared to robotics。但是robotics就是在一个非常复杂的n structural environment里面可以发生任何事情。所以说我觉得它需要极大量的非常diverse的数据，但这个数据又是现在不存在的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在有很多startup叫data foundry。对，他们就是通过比如说摇槽的方式来克拉更多数据，通过simulation的方式来collect数据，把这数据卖给做做模型的厂对大厂。所以我觉得数据还是一个从根本上制约发展的这样一个botnet。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>泰与模型面对的是数据强的问题，机器人领域是没有数据的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个是数据，还有其他的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在看到的其实最最明显有数据，我确信如果就现在的数据量完全没有办法separate就是model的能力。所以现在当你数据大到一定程度上，我肯定会发现第二个瓶颈可能是比如说模型的architecture或者是其他的。但是因为现在数据是如此的少，所以你还没有发现到第二个瓶颈是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那到底需要什么样的数据呢？怎么定一个好数据呢？就真实数据，真实世界的数据就是太变幻莫测了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以需要很多很多很不一样的数据。我觉得机器人领域经常大家会聊这个什么数据金字塔。对，这个新金字塔是这样子。最底层就是非常scalable，非常大量的数据，这个数据可能是互联网上有的数据。然后上面一层是可能是video数据，而且这个video数据有可能是我们叫egocentric video数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你从人的视角看到你做事情的那种数据，这种数据也非常多。Youtube上其实有很多很多这样的数据，这样数据也非常容易踩。因为你做事情你可能无非就是再额外戴一个眼镜或者戴一个camera就能采这样的数据，所以它量也非常大。但是因为人和robot它的形态是很不一样的，所以这个数据也不是特别的有用，至少大家还不知道怎么用它。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在上面可能是比如说流程数据，这个数据其实和robot形态可能更接近了，这个数据也有很多，比如说robot action的标注。但是有一个叫seem to your gap，就是你做在multi的数据和真实世界的物理毕竟还是不一样的，对吧？它只是一个数学的简化，在上面可能就是robot specific数据，你通过瑶操或者其他方式获得的这个机器人数据。所以大家一般认为有这样一个金字塔，就是你每一个level的数据都需要，但是你需要的量不一样。然后你采集不同level的数据，你需要的cost也不一样，但是这些数据都很重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是你倾向于认为的观点吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是这样一个数据，我觉得是这样的观点。对，就是底层的数据它是有它有很多量很大量，但是它可能它的质量不是特别高，因为它跟机器人有很大的gap。对，但是通常大家都说在训练这个机器模型的时候，你有预训练和后训练，就是free train、post train.</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在预训练的时候你可以用各种各样极大量的数据。在预训练阶段他需要学会的只是一个intuition或者是对物理的理解。它并不一定要对自我那个形态的认知，或者对task，对这个任务的认知，但是他需要学会物理，所以你只需要很大量的数据。但在精彩最顶端的时候，你需要就是这个机器人，它是这样一个夹爪，它是这样一个构型。然后你做这一个任务，比如说我打开这个瓶盖，它需要非常精细的非常高质量的数据。但那个数据量可能不需要很大。所以我觉得整个金字塔都非常的重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实关于数据，然后关于架构有很多的争论，这个我们稍后再说。我们先来聊聊你们最近的工作。你们刚发布这个german robotics 1.5将AI agent带入了物理世界。在工作中你觉得最重要的发现是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这边有两个比较重要的发现，第一个发现就是我们把thinking加入了VOA模型。就是以前的BOA模型，它的输入是图像，它的输入是语言来表达的。这个任务是什么？然后它的输出就是马达的角度，比如说就直接对机器人的控制，现在我们就是把叫thinking trace，就是这个机器人是怎么想的，把它也作为输出。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说比如说我要我要做一个task，这个task说我把我的这个衣服按照颜色分类，于是他得就是机器人得先想这个复任务其实还挺复杂的，你得想这个是红色，所以要扔到红色那一堆里面。这个衣服是白色的，所以要扔到白色那一堆里面。所以它其实有很多很小的步骤。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而以前就是上一代的这个机器模型，它是没有办法想这么细致的东西做一个这么叫毛t step task。就现在这代模型就是他能想说这个是什么颜色，然后如果我知道这个是什么颜色，那么下一步应该做什么。所以它是输出是先是一些文，本来想这个问题怎么解决，然后在这个文本的基础上出一堆action然后做这件事情。然后接着是继续输出一些文，本来想下一步应该干什么，再输出一些action。就是使得一个非常复杂的，需要很多步的一个任务，它可以被分解。然后这是一非常难的任务，它现在可以做了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个好处是什么呢？就是说机器人可以向人表达我下一步想干什么，为什么我想这么干？使得在人机交互的时候，它增加了很多透明度。这样的话就不管是从安全性的角度也好，从这个人机交互的角度也好，它使得这个问题，这样使得人可能会更安心一些。因为你知道这机器人是怎么想的，所以这是一个我觉得还比较重要的突破。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个非常重要的突破，我们叫crossing body and transfer，什么意思呢？就是说我刚刚说了就是机器人数据非常稀缺尤其是你用机器人A采的数据，只能学机器人A上的这个task和skill。当你机器人A它可能升级后，它可能它的比如camera换了一个新的，或者它mount在一个不同的位置，或者我的手臂多了一个自由度，那么一天踩雷它都没有用。而且还有一些其他的就人形机器人或者K机器人B机器人C他们因为构型不一样，所以他们的数据是不能放在一起互用的。这样就导致你其实数据量就更更少了。因为你对每一个单一的机器人，你都得单独的采数据，就在jl body 1.5。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们发现不管你是用什么样的机器人，至少我们测的三个机器人。一个是阿罗哈，是一个非常简单的双臂的机器人。一个是by ARM Frank，是一个更工业级的更powerful的机器人，还有一个是aproned的人形机器人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当我们把所有的数据放在一起，然后我们又开发了一个新的技术叫motion transfer。它可以更好的利用这种是crossing body的数据，使得在机器人A上见过的任务，机器人B也能够执行。就举个例子，就是说假设你学会了开车，我从来没有学过开车这个任务，但我也学会了开车，它可以跨本体。这个从根本上解决了一个问题，就是数据量不够的问题。因为任何机器人他做的任务采集数据被其他机器人都可以利用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>先说第一点，就是thinking加入VLA，因为它的模态转换就是会比较多。你觉得它在不同的模态，比如说文本，然后包括运动不停的转换过程中，它会发生混乱吗？怎么解决这个问题？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们其实没有发现有发生混乱这个问题。就是因为你在输出的时候，一般性都会非常清楚的说下面我要输出的是文本，然后你会有一个起止起始符和终止符。然后你会说下面我们输出的是这个动作，然后你有起始和终止，所以他们是不会混在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在大元模型加入和在机器人里面加入thinking，你觉得不同是什么？它的核心难点是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是大语言模型其实它比较大对机器人模型其实没有大语言模型那么大，为什么呢？因为机器人模型它要很快的做influence，它不能说我可以等5秒钟，然后我再做下一个动作，对吧？所以它的influence的budget非常小，就是你还是希望比如说每0.5秒或者每一秒它可以做一些动作。所以说它的thinking的长度和大元模型是非常不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它thinking的更短一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要短很多。就是大语言模型它可以为了解决一个东西，它可以想20秒，然后给你一个答案，只要那个答案是对的，你一般都很高兴。但如果你交给进行一个任务，如果他每一步都要想20秒你就崩溃了。所以他可能每一步想的只有0.5秒，所以他们俩的感觉是非常不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他能处理的最复杂的问题会是什么呢？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我们现在在DOA上的thinking还是相对比较弱的thinking。因为它就像我说的，它其实有很多限制。所以我发觉一般性如果你是一个task，只需要几步的分解。说比如说我要sort food fruit by color，或者sort close by color，他可能第一步是认清楚颜色是什么，第二个是认清楚在另外的几堆东西里面对应的颜色是什么，第三步是把它放到对应的堆里面。这种比较简单的推理是可以的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是如果你需要他额外的再去获取信息，那个是做不了的。比如说我说你帮我帮我整理一下行李，他可能说整理行李的话，我想知道你要去哪旅行，你要去多久，然后那边的天气状况是什么样。他需要额外的获取更多的信息，然后通过这所有的信息再做thinking。在BOA的那一段是做不了。所以在我们减秒到1.5的时候，我们其实把我们做了一个快慢模型的这样一个division。就是有一个比较慢的模型，它是可以做这种非常长的thinking的，然后它可以做一些决策。比如说你帮我打包行李，他可以去搜search，它可以搜你的calendar，它可以搜weather report，然后它可以先响20秒，然后come up with a plan，然后问你这个plan是不是合理。然后到了VOA那端的时候，它执行这个plan的时候，他可以说我可能需要把这一堆衣服放进来，就是他可以一件一件拿下来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这相当于大小脑吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小脑一般是运动控制，所以它更多的是他们都是大脑。但是大脑也有分层分层对你你很多大脑的事情，你是要做很多计算，要做很多planning的那是比较慢的思考。很多大脑的决策是instinct，那个就是比较快的思考。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你们是把它拆分成了一个ER和一个VLA2个模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，ER其实叫in body reasoning，所以它更多的是一个慢思考的过程，然后V1A是它要出robot action，所以它更多是在执行端，所以它是一个非常快思考的过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是选择了一个双模型结构对吧？它不是一个端到端的统一模型。那你觉得这会是一个过渡的方式，还是一个终极的方式？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在觉得它应该是个过渡的方式。因为现在受制于很多比如说算力的限制，受制于很多现在模型大小的限制。但我觉得可能再过几年，当算力不是很大问题的时候，我觉得如果有一个unify的这个model，那可能是最佳的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你有两个模型的话，你总是要界定他们之间是怎么交流的。现在这个大模型小模型行之间是用语言来交流的。但是语言它并不是一个怎么说呢？High band with的交流方式。因为语言其实它会丢掉很多信息，所以你希望其实是一个模型，它内部不需要一个额外的interface来做交流。所以这样的话，如果你有一个模型的话，其实它当中没有这个信息的损失。但同时因为现在算力的等等原因，使得这个非常实现非常困难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它需要特别大的算力吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你要做reasoning的话，然后你要做比如说web search之类的，其实你是需要一个非常大的模型的。对，那个是就是你很难在real time或者在每秒钟做5到10次的决策。但小模型的话你可以做5到10次的决策。所以你当你要需要一个unify model的时候，它必须非常大，因为它要做reason。现在的算力是不足以支持这样的大模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在的快思考和慢思考分成两个，相当于是两个步骤，两个阶段来完成。对，很大的一个原因是因为算力还不够，有没有其他的一些原因？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得现在主要是算力原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这个也make sense。因为自动驾驶其实最后也过渡到了端到端？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但自动驾驶其实它不需要很多planning的过程，因为它planning有很多是通过传统方法。比如说我有一个map，当我有个map，然后有A点我要去B点，然后我怎么样找到一个路径。这个都是用传统方法做的。它并不是真正的端到端，把什么mapping和planning都做到了，就是执行的一起。其实planning在自动驾驶里面是一个分开的步骤，是一个传统方法做。就是像google map，百度地图也好，然后执行的话，其实对于自动驾驶它是一个非常快的。因为自动驾驶它车速非常高，所以他做决策的那个速率也非常高，所以自动驾驶的这个端到端模型不会很大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们在做实验的时候加入了thinking容易出错的环节可能是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有一个可能就是over fit，就是当你加入thinking的时候，你需要标很多这个他是怎么think？就是在做training之前，你不是采了很多数据，然后采数据的时候你得说我是这么想的，我下一步干什么？然后这是我我的动作。但是如果你的这个标注它非常的单一的话，就是非常容易出现overnight的状况，就是过拟合十吨。你只有做这样一些事情，那时候他的这个thinking是make sense的。如果你做一些其他你没见过的任务的时候，因为他没有见过，所以他的thinking确实会非常奇怪，然后他会做完全不make sense的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你刚才是分享的第二点就是跨本体的能够运用数据。这个里面有没有更多的可以跟我分享的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我给你举个例子，就是我觉得我第一次看到这个结果的时候，我还是怎么说呢？印象非常深刻。因为我觉得这是真的一个质变，大家说跨本体已经说了很多年了。是但是我觉得这个概念是有点oversell，就是哪怕早期其实google自己做了一篇配文叫RTX。就是它跟比如二十几个不同的学校，不同的lab，说我们收集不同的机器人数据，我们混在一块儿，然后我们训练一个大模型。然后说我们发现了这二十几个学校的数据放在一起是有优势，是有advantage或者benefit的对，但其实那个东西很难量化。然后包括最近看physical intelligence很多很多圈大模型，机械大模型，他都会说我有有不同的本体，我把数据混在一起，然后使得我们这个东西更general。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这个也很难量化，这次就是我们发现比如说我们有一个阿罗哈，阿罗哈A是一个叫table top robot，所以说他做的事情都是在table top，就在这个平面上做的事情。我们所有data collection可能就是从这个桌面上抓一个东西放到别的地方。在这个桌面上做一些比如说开瓶盖，写字之类的事情他没有见过，就是3D的场景他没有见过。比如说在一个垂直的平面上，或者一个厨子它有高低的地方，他可以做很多事情。他没有见过这样的数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说如果你给他一个书橱，然后他有高低，你说你把上面那一档的这个书给我拿下来，他是做不到的。因为这个完全在他的训练数据集之外，他会做的事情就是他还是在桌面上在那磨磨蹭蹭摸一些东西。虽然说那个书架是垂直的，但是我们有另外一个机器人就是叫bian frana。然后他做的很多数据采集都是在这个垂直的领域，它有很多工具，它可以从一个叫work bench上面垂直的拿下来，然后把数据放在一起训练。罗汉是从来没有见过这个垂直的这个场景的，但是当你把这个franca能做的事情放到阿罗哈这个场景里面，就阿罗哈突然间也能做这样的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么做到的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我们有一个方法叫motion transfer .</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>motion transfer。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他就是说第一个是你不仅要把数据放在一块儿，同时你在模型的architecture上，模型的这个training recipe上，你要做相应的改动。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是一个已经能够泛化到很多领域的一个方法。就可能除了你们现在实验的这三个。它能够有一定的放缓性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先它并不代表说我你先给我一个新的机器人，它不用任何训练就能做那些事情。他不是这个意思，只是说在我有训练数据的机器人里面，虽然我们没有见过这个task，但这个task是别人见过的，我就能做那个任务。所以它是有一定的泛化性。但它的泛化性是任务层面的泛化性，并不是机器人本体上的泛化性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个能够更接近相对接近跨形体的通用智能的是一个可行的路径是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是个可行的路径。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个还挺本质的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我非常同意。所以我觉得我们团队就是看到这个结果以后，都觉得非常激动人心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Motion transworld怎么做的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个secret source OK。所以这个问题在core的时候会问了很多遍，对，但真的很难评论。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多研究者会提到说就是具身智能难点不一定在算法，而是在信号。因为它缺乏像语言模型那样清晰可以验证的反馈。你怎么看这个问题？然后以及你们的robotics在系统的设计上是如何获取和构造这种型号的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我其实不是很理解这里面反馈的意思，就是我觉得当你有数据的时候，然后你是用传统的比如说模拟学习，就是invitation learning的时候，已经有了足够的信号。我并不理解说他缺信号是什么意思。但是如果你说我是用强化学习，但强化学习需要一个叫reward signal。但是很多任务其实你很难写一个reward function，比如说我要把这盘菜放到冰箱里面，这个怎么用一个数学来表达成功与否？这个reward function很难表达出来。我是同意的。这个我觉得就是得分不同情况来解释。我觉得对模拟学习或者invitation软件来说，我不觉得信号是个问题。但对于强化学习来说，你怎么用reward function来specify你的任务，的确是一个很难并未解决的问题。如果是reward function的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们是怎么解决这个问题的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在我觉得这个问题并没有很好的解决这个问题，为什么？这只是可以岔开讲一点，为什么强化学习解决了足式机器人走路的问题？是因为这个reward function特别容易，也不能说特别容易，就相对来说比较straight forward。对，就是你只要向前走了，然后没有摔跤，所以你可以很容易写一个数学的表达式。但是对于my pulau来说，你有太多的不同的任务了。你比如说我希望抓起一个筷子，你其实很难用数学来表达，数学就是expression来表达我是不是有个筷子。比如说我要把东西放进抽屉里，你其实很难写一个数学表达，就这个东西是不是在抽屉里，然后有成千上万个不同的这样的任务，你都要用reward signal来保证它。我觉得这是一个几乎不可能的事情。这就是为什么强化学习在manipulation里面并没有解决的很好的原因，就是这个reward function非常难以specify。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于你们这种跨形体迁移的任务，他怎么设计呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我们现在主要还是做invitation。对，我们并不是通过强化学习，所以说只要你就是学会了，就是因为你是有榜样的。Invitation其实是有label，你有榜样的。对你只要使得你的神经网络它的输出和你的label尽可能接近就没有问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们的secret还有什么可以更多的分享一点的？Motion transfer.</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>it&#x27;s very secret.</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哪些因素有可能会决定这种迁移的上限？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对这是一个很好的问题。其实虽然我们有很多例子证明这个迁移是成功的，但是我们有很多例子证明有在很多场景中这个迁移并不是非常成功。我觉得两个不同的机器人，它到底形态差多少是会有很大影响的。比如说我是从一个单臂夹爪机器人要迁移到一个双臂人形机器人，这肯定是一个非常难的问题。所以你看我们三个机器人都是双臂的，然后虽然它们构造很不一样，比如说有的是六个自由度的，是七个自由度的，是更高自由度的，但是他们都是双臂的。如果你是夹爪到，比如说灵巧手，五指灵巧手，它肯定也会比夹爪到夹爪要难一些。所以说还有一个叫embodiment gap。如果那个embodiment gap非常大的话，这种跨过的迁移就会比较难，这是一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二点就是我们发掘在不同的影保定门堂上，你就是收集的数据量也非常重要。如果你已经收集很大量的数据，那么其实不需要那些其他的引爆里面牵引，其实做事情已经做的非常好了。所以你其他的引爆里面给你的那个正向的那个delta是会非常小的。但是如果说有一些机器人，比如说人形机器人，你要采集数据是非常困难的。但是你可能在阿罗汉上有非常多的数据，这样这个迁移就会非常有效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么你们这篇论文是写的标题是将AI agents带入物理世界？你们这次在AI agent上借鉴了哪些？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是说首先robots就是一个physical agent，是对我觉得对agent定义就是说他能够做决策，然后能够actions。对，然后这里面其实这篇文章就强调了一点，就是说有一个非常重要的agent feature，就是它可以use tools。对，现在就说我们的引保定谜憬model，它其实可以写扣的，他可以查阅。比如说网站他可以用这些tools来做决策。其实我们有好几个video是比如说你帮我做垃圾收集或者垃圾分拣，你是根据不同的地点，他可以说，我是在采访cisco，他可以设置group map找到你的地点。然后他可以根据当地的这个法律法规决定他是应该如何的做这个垃圾的分拣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些都是use这种digital tool的例子。这使得机器人它可以，比如说web search是它的knowledge base宽广了很多。它并不是只有说大模型，它已经capture的common sense。它可以通过web search和其他的这些tools，使得机器人的functionality也好，它的capability也好，有很大的扩展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>沿着the robotics 1.5往后发展，你觉得下一步的关键突破口会是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题非常好啊，其实有很多很多方向可以发展。这个我们在其实在最后的一章也讲了一下，就是未来的一些方向，我觉得可能我们比较重视的一点就是数据，就像我说已经强调好多遍，数据。对，就是我觉得瑶操还是一个非常难以获取的数据。就是有什么办法我们可以利用越来越少的摇仓数据，越来越多我们可以快速获得的数据，来训练这样的大模型，可能是非常重要的一步。所以我们会花更多的精力，比如说利用simulation数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>仿真数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>利用human video在youtube上的一些数据利用，甚至是现在模型生成的数据，比如说VO生成的一些数据。这种数据因为你可以大量获得，所以说我觉得这是一种更精细的，更有效的获得机器人数据的方式。然后如果我们能在这方面有些突破的话，那我觉得就解决机器人问题指日可待。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原现阶段用真实数据有多少？</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主要是用真实数据OK对，所以成本会很高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那成本非常的高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>国内其实在数据问题上有很多的争论，王鹤就是一个仿真数据的代表派，然后好像除了他以外，大家还是更加倾向于依靠真实数据。因为真实数据的泛化性可能更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以真实数据没有seem to real gap。但是泛化性是数据的coverage导致的，并不是因为它是真实数据还是虚拟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>数据范围不够大对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果你从来没有采集过在厨房烧饭的数据，你就很难你的模型会烧饭。对，所以说它是coverage问题，并不是真实还是虚拟数据的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过去几年是不是从大语言模型里面，在应用到机器人领域了很多的研究的思想。你觉得对比一下就是机器人机构模型和大元计算模型，你觉得它的研究范式有什么不一样吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还是很不一样的。因为像我说的，他们其实并不是两个独立的学科，他们是更多的是A利用了B对所以说在比如大元模型上你有很多，比如多模态我怎么训练，我的预训练应该怎么样，我的候选人应该怎么样，LRL应该怎么用，对吧？但机器人现在对这些大语言模型的应用，还是说我加一些更多的data，在已经有的大语言的这个基础上增加一些新的输出。所以说做法上还是很不一样，比如说很少有公司真正的从头开始去retrain一个机器人的大模型。为什么？因为cost和data，因为你pretend一个大模型其实非常贵，你可能需要好多万卡或者好几个月的时间。对，然后同时你也没有那么多的机器人的数据，所以基本上大家还是因为数据局限，因为训练大模型预训练的成本。所以大家基本上是在一个预训练好的大模型上加上机器人数据进行一些微调。所以这就使得整个范式就非常不一样。所以其实两边有相互借鉴的点。但是其实他们并不是两个平行的学科，所以两个完全是一一对应。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以相互借鉴。所以其实我刚才说的云栖大会他的那个讨论其实不成立。就他他说我们只是一个独立的大脑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这至少我现在觉得他们还没有那么独立。也许未来当你发展到一定地步的时候，当那个机器人数据足够多的时候，当机器人的大模型遇到新的瓶颈的时候，他们可能会变成完全独立的学科。但是现在我觉得完全机器人大模型还是非常依赖于已有的这个大模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个有利于大公司，对于大公司来说，他自己也有基座大模型，我是这么觉得的。我们回到数据的话题，国内有一个非常先著名的仿真数据驱动派就是王贺。他的观点跟你类似，就是说故人瑶操采集真实数据的成本非常高。然后他当时给我算了一笔简单的账，就是一个人形机器人一台最少是10万制造成本。1万台买下来用于数据采集意味着十个亿。然后每台两班倒还雇人，瑶操四个人一个月可能就需要小几万，此外还需要标注和质检，每个月维护1万台机器人的成本在数亿到10亿。你觉得他这个账算的对吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你刚刚说的那些数字都说的比较快，所以我没有仔细算。但是in general我是同意他的。这个就是你需要瑶操的话，你需要有机器人成本，你需要有运营成本，你需要有质检成本。其实这东西加起来是非常贵。虽然我没有算那个账对不对，就是具体数字对不对，但是我觉得这个东西肯定是一个不是很scalable的方式，而且我会非常诧异，如果就是终局。Eventually大家是通过完全瑶操的数据解决机器人的，我觉得这个可能性是非常低的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在这个背景之下，仿真数据就是一个可行的方案是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但仿真现在就是什么叫仿真？现在这个定义越来越模糊了。怎么说？以前仿真是指物理仿真，所以说大家说的仿真可能是布莱特SA jm这些叫仿真。它其实是在计算机里面解物理方程，然后计算运动轨迹，这个叫仿真。这是以前的仿真。就现在因为video generation model，比如说vio，比如说sora 2，它的兴起，很多人认为仿真其实就是生成一段视频。如果这个视频它看上去物理正确的，它也是一种新的意义上的仿真。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它是生成式I带来的一个新的仿真形式。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我觉得不远的将来，传统的物理模拟的仿真会慢慢的被生成式模型的仿真给取代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个生成式模型的仿真现在发展到什么阶段了？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚开始对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个听起来经济很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它真的经济，它可能不经济。因为你要生成视频其实更贵。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他需要算力成本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是他需要更多的算力成本。但是你其实解决了很多问题，就是比如说我要生成任意场景，你在传统的仿真里面你需要有一个人建模，建完模以后就像做游戏一样，你需要很多designer把所有的场景，所有的资产拼在一块儿。然后我要500个家庭场景，你就得一个手建，对，这就非常困难。但是我要500个家庭场景的视频，你只要500个不同的prompt，对吧？你要说我要有一个粉色的床，加上两个床头柜，另外一个你说我是有一个很大的，比如说白色的床。就是你只是输入的这个语言不同，就可以瞬间生成两个完全不同的视频或者仿真。但以前你在传统的仿真里面就得手做一个一个的把这个场景给建出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说到sorry to，你觉得它有范质性的变化吗？它也是一个革命性的变化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Sorry到sorry to肯定是质的飞跃。但sorry to和VO3我觉得没有太本质或者让我觉得特别惊艳的地方。但有一点可能值得说一下，就是在未来两三年里面在过去两三年里面，这个视频生成模型的发展是非常迅速的。就是我自己可能有一个比较错误的判断，我记得可能几年前流浪地球的导演来自硅谷，他就问我们说下一代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>流浪地球三要比如上映的时候，那是几年之后，那个时候他那个导演这样一个工种是不是还存在，或者是有很多电影制片的工种是不是存在？因为好像开始你只要说几句话就能生成一个小的clip，然后你可以拼成一个电影。那个时候我觉得那不可能，那个可能还有好远才能够有真实的video generation。所以我就安慰他说不急，那个还要好久。对，我们正在努力的做，但是时间没有你想象中来的那么快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时觉得有多久？</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当时觉得可能2030年你可以开始有一些可以应用的这个视频生成。现在是2025年。对，就是我觉得我肯定是低估了视频生成的发展速度的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它里面关键的变化变量是什么？为什么突然有一个质的变化？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有很多数据的原因，对，也有很多人才的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他怎么准备的数据呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这我就不是很清楚了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我不是做也不是那个方向的对，但是他们这个行业确实能帮助到你们的数据问题，所以sorry to的让你们也很兴奋是吗？机器人领域的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人我觉得所有的视频生成模型的进展，都会让机器人领域感到非常兴奋。因为这就是一个新的仿真或者新的word model。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它里面有世界模型吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>世界模型的定义是如果给上前一帧，然后给上这个机器人的动作，你可以预测下一帧。对现在所有的视频生成模型就是绝大多数的它都不是说我可以通过输入一个机器人的动作或者人的动作改变下一帧的结果。所以现在我还不会称之它为世界模型。但是感觉从现有的视频生产模型到世界模型就不是很遥远。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很有趣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者从另外一个角度，VO它是一个视频生成模型，但是吉米它更像一个世界模型。因为吉米是你可以玩的，你可以通过按键你可以改变生成的下一帧是什么样子的对吧？你可以驾驾驶驾驶着一只龙，然后你可以说我要左转右转，又看到完全不同的世界。所以当你在每一帧的时候，你可以有一个输入，改变你的下一帧，那个感觉就是视觉世界模型。但如果它是一个静态已经生成好的几秒钟的视频，那就不是世界模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个现在谁做的好吧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在硅谷谷歌低买的，我觉得sorry做的也不错，就是OpenAI做的也不错，还有很多很多小公司也在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做真实数据和仿真数据，他们可能的优劣势是什么？怎么怎么弥补仿真数据的一些缺点？</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>生成极大量的仿真数据，弥补他缺点的一个很重要的手段就是仿真数据它不够真实。但是如果你在仿真的时候不断的变化，它就是仿真的一些参数。但是你生成极大量的数据，就是从平均的意义上，它可能也足够cover这个真实世界的物理了。所以说有一种方法就是用，怎么说呢？用compute来解决这个精度问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用算力来换精度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你没有那样的精度，但是你可以生成极大量的数据。这样的话当你做平均的时候，当你学习的时候，因为数据量大，其实你是取这个均值相当于所以说这可能就是和真实世界的物理就比较接近了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你刚才说的就是用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>视频分成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>来做仿真，现在它的瓶颈在哪里？</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一个是它有很多幻觉，第二是它有很多非物理的现象。就是有很多人经常测这个视频生成模型，就是做体操。如是那段做体操的，然后在整个过程中那个人还是两条腿是吧？然后就说明这个模型还不错。但很多时候这个人在做体操的时候，在翻滚的过程中，就不知道有多少腿会被生成出来。对，其实有很多这种pollution nation或者是非物理的现象。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我这个是题外话，我就开始很困惑。因为王鹤是来过我节目，他他是国内非常强调仿真。但是我那天去那个云栖大会的场子，那里所有的人，因为王贺那个团队当时的人走了，然后剩下的人全部都不相信仿真数据，都是用真实数据的。他们的逻辑是什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我个人感觉是仿真数据是需要一段基础研究的，它不是那么简单，就是直接的。但是真实数据就是现在已经证明你有更多的数据，我的效果就会更好。所以说它可能会有一个玻璃天花板。虽然它加速很快，因为你有数据我就可以马上看到效果的提升。但是因为你最终的数据不可能无穷无尽，他肯定有个玻璃天花板。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就他很快会达到他这个领域的数据墙。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道是不是很快，但是eventually它会有一个数据墙。但是如果是仿真数据的话，就是你现在是因为有seem to gap，所以你可能开始的时候效果不是很好。你加数据，你觉得很多东西可能都在noise的范畴之内，你没有看到很明显的提升。但是一旦比如说research的突破，它就没有那个玻璃的天花板。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这是一个信仰问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多research都是信仰问题，绝大多数research都是信仰的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你信仰的是仿真那一盘。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我信仰的是scalable data的那盘sable data。包括仿真数据，包括人带着camera采集的数据，不是瑶草他自己采集的数据，包括用视频生成模型去生成的数据，就这些东西都是可以用算力来给你无穷无尽的数据的。但是真实的机器人数据是需要Operation，需要cost，需要robot。我觉得就是不是一个很scalable的数据。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以不管怎么样，只要stable就可以。那听起来仿真数据是一个更可能stable的一个方案，其实这个也可以用来解决大于模型的数据墙的问题，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在其实很多单元模型感觉就是经常大家会说一个吃了吐吐了吃的问题，就是你先吃了。Internet data的internet scale data，然后它开始生成各种各样的新的文本，新的数据。然后他再吃回去，然后又生成新的。这也是一种方式来解决data不够的难点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>仿真数据。做他的人多吗？在一个robot的团队里面。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在一个rose，这完全看这个robot团队他信仰是什么。像库克迪曼他有一个酵母周克的团队，他是一个非常知名的做仿真的一个团队。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，英伟达也很信仿真。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>英伟达也很像仿真。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>硅谷基本上都是仿真拍的那也不是，有谁不信？</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我我我觉得其实硅谷大家都会讲的差不多的故事。只是他们在他们的数据的mixture里面，只是他们的仿真数据的多少问题。就是大家都会不会说我孤注一掷的只用一种数据源。对，大家都在不断的探索。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用数据反正是越多越好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不完全是对数据，但是数据质量还是非常重要的。如果那个数据质量非常差，那越多的数据可能效果越差。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>总评判数据质量在这个领域。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这个领域其实没有标准。评判数据质量其实大家还是researcher，他可能就看着那个数据，觉得那个数据太陡了，不够smooth。这个数据已经采过了，就是有很多很多人为的评判标准，它并没有标准化。这也是使得一个新兴产业叫data foundry。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得特别困难的一点就是data方式他采了很多数据，但是我们并不能告诉他采的数据好不好，所以我们拿过来用，如果效果不好，我们肯定说因为data没采好，他们肯定说你们的毛都没穿好。所以这里有一个扯皮的过程，原因就是data，也就是数据质量没有很好的定义。但的确这是一个科研问题，就是现在没有很好的定义。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果学生智能机器人领域只解决一个最重要的问题，就能带来飞跃，绝对是数据问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>总结数据问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你怎么看？王欣欣的那句话，就是他觉得大家对于数据的讨论太多了，忽略了架构本身的创新。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得架构本身的创新是重要的。那个general body 1.5说的什么motion transfer这些，它其实有很多程度是架构和算法的创新。但是巧妇难为无米之炊，如果你光创新架构，也许你会在学在机器学习中更加efficient。但是你的数据的量和coverage不够的话，你的方法能力肯定是不行。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>国内还有一个很多的讨论是关于模型架构的。一一拍是觉得端到端是一个统一的模型派，另外一个是觉得是分层式的这是两种不同的技术，but还是最终会殊途同归。我刚才听你说，我感觉是会殊途同归的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我可以再分享一个另外一个故事，虽然我说了我的第一篇论文在国外论文是做强化学习，但是我个人并不是特别相信，虽然我在那篇论文里有很强的叫sign of life。你觉得这东西可能能行，但是你也碰到我也碰到很多难点，比如说这个reward function怎么调。然后如果这个trend的效果不好的话，因为那时候PPO效率非常低，所以那个时候我在想有没有什么捷径，于是我就想要不我们就把传统的控制理论和强化学习结合一下。就是我底层还是传统控制理论，但是它有一些参数我用强化学习来调。然后其实我们团队就做这个方案，做了很挺长一段时间，效果也不错，因为他就是立竿见影。因为底层的东西已经差不多work了，强化学习可以立刻让他work。但是整个历史的轨迹并没有朝着我想象的这个方向走，而是他们完全做端到端的强化学习，就是state in action note，然后这个的确几年之后成为了主流。就是我觉得有的时候你为了解决一些现实中的问题，或者你觉得在短期能够取得更好的效果，你会有一些shortcut，你会做一些分层的模型。但是至少从我过去的这个经验告诉我，就是说也许你直接投入，最终你相信的那个端到端的大大模型或unify大模型，最后可能会胜出。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你们现在投入了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在基本上都是端到端的，除了短期的，给你做一个prefer concept，说ER和比如说DOA它可以interact。短期内你可以已经用这个模型了，但是同时我们也是大量投入，就端到端的一个unify的这个模型。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>BLA会是一种终极的架构，或者加L2LVOA.</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是现在我觉得效果最好的模型。但是大家也在讨论，就是蓝规矩它可能在描述机器人，尤其是非常复杂的这个行为的时候是不够的为懒鬼。就像我说的，它是一个有着信息损失的一种表达方式。所以说大家经常说，也许下一代是word model，因为word model生成的是visual，是下一帧，对吧？你可以看到比如说我在转笔的我在转笔过程中我的每个手指是怎么动的。但是假设我在转笔或者用筷子的时候，你要用语言来表达我下一步应该干什么，那是很困难的对所以说很多其实好的这个表达方式可能是visual的。所以说word model在现在在硅谷是非常流行的。说可能下一个下一个新的范式。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它是替换BLA的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它不一定替换BLA，它可能会跟BLA共尺寸。因为可能BLA它会变成，我不知道创造一个的名词就是VL然后可能是VA当中那个V还是个visual，就是你的vision进去，你的栏轨迹进去，它可以生成下一下一帧的这个image vision。然后再基于这个可能去生成下一步的action。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在世界模型它的关系是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>世界模型其实就是VIDIV对吧？就是vision language in，然后它可以生成下一帧的图像。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你认可王欣欣说VLA加LRL是一个相对傻瓜的架构吗？不傻瓜。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个做出来可厉害了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这商业模型会更好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>至少现在很大很多研究方向是朝那个方向。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它更符合世界物理的规律。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我同意。对。还有一点就是大家可能觉得VRA看上去比较傻瓜，是因为现在其实很多VLA的探索都比较熟练了。你可以想一年前VOA完全不work的时候，大家还有各种各样的比如说我怎么表达这个action，对吧？我是用action token，还是用一种action expert，还是用diffusion，还是用其他方式。很多东西就是在过去一年中一年里面就是慢慢的怎么说呢？Converge了。所以大家觉得可能就是套用一个模式，你就可以得到一个结果。但其实我觉得整个BA的发展，其实还是需要很多很多talent和时间的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我们在讨论一个机器人大脑的时候，国内叫聚生智能。那它这个智的定义是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他聪明，他知道他该干什么，他能够思考，他能够决策，他能够行动。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它有一个非常确切的一个定义。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说聚神。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>智能的智对他让他更灵活，他是让他大脑更聪明。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这两点都有，就是大脑小脑都有，刚刚我说的就是大脑你需要具有common sense，你需要有解决问题的能力，你需要能够根据现有的状况给出一个很好的规划，吧？然后这是质的一个体现。在小脑方面或者在运动控制方面，你需要能够英文叫做extra，你可以用比如五指解决很多manipulation的问题。你可以用双足很敏捷的做很多比如说跑、跳这种某宝相关的任务。所以说我觉得这是包含这个大脑和。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小脑的机器人大脑的。你觉得需要增加更多的模态吗？除了刚才我们说视觉语言动作还需要增加。比如说触觉、味觉、嗅觉这些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个到底应该在大脑端还是在小脑端是不一定的。但是我觉得机器人的发展肯定是需要增加更多的模态的。就是现在这里也有一个很小的故事可以分享一下，就是我的心路历程。大家一直都说这个text of sensing，就是触觉是非常重要的，我也是一直相信的，因为initially ly你每天都有这个皮肤，然后感受着你触摸到的世界，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后在stanford有一个论文叫阿罗哈。那是我第一次看到人可以通过视觉完全通过视觉，要操一个罗汉机器人做非常复杂的事情。包括从皮包里面拿出一个信用卡也非常薄的东西。我以为这种东西只有触觉才能做成，但是阿罗哈的出现就是狠狠的打了我的脸。然后我意识到其实很多东西用视觉也是可以解决的。于是我又hold了这个belief for a while，就是我觉得可能视觉对视觉就够了，或者说视觉可以做95%的事情，可能剩余的5%才需要出去。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>直到最近零销售开始变得越来越普及。然后我开始去一些地方，就是用咬糙的手段来控制那个灵巧手。然后有一个例子就是用灵灵巧手用剪刀，就用剪刀是一件非常简单的事情。你把手往两个环里一套，然后你就可以用剪刀了。但那个时候他是没有触觉反馈的，我完全通过视觉，我把那个手就是控制的那个灵巧手的之前的手往剪刀那2块1套，然后就开合我这边的手。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是因为我们没有触觉，所以我不知道什么时候开，什么时候关。因为那两个环非常大，所以有的时候你在不恰当的时间开关的时候，你只是守在那个两个环里面动，但是并没有控制整个剪刀的开关。所以这个时候让我意识到，其实如果你有灵巧手的时候，触觉就非常重要。之所以我前面觉得触觉不重要，是因为它其实受限于当时的硬件的。如果你只是一个夹爪，那么你可能远远的看到我的夹爪开着关着，我就能做很好的判断。但是当你有一个灵巧时候，你有五个手指，你要做很复家的行为和任务的时候，那么触觉感觉是必不可少的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以当你觉得触觉不重要的时候，可能是当时的发展阶段还没有到。对，加入更多舞台肯定是的。只是今天觉得他不必须，是因为可能硬件的水平还不够。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我们还在解决一些非常简单的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是视觉可以解决95%.</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的问题是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在那个夹爪时代OK那现在你觉得视觉能解决多少问题？</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在还在那个夹爪时代，所以我觉得在夹爪时代，在所有夹爪能完成的任务里面，我还是觉得视觉可能可以解决90%多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以视觉是最重要的一个模态。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>视觉是对于现在已有硬件最重要的模态。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。马斯克说奥特曼斯最终将通过观看youtube视频学习执行任务，他觉得纯视觉就OK了，你不认可他这个观点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得把这两句话贴在一起讲，我不知道马斯克的原话是这样子，还是三号经过了剪辑，把两句其实可以有非常不同含义的话贴在了一块儿。机器人看youtube视频学会任务，我觉得非常重要。这个其实印证我前面一个观点，说你不需要摇槽，你需要的是比如说video数据，因为它是一个scale的数据，这个我完全没有任何意义，我是非常同意这个观点的。而且我以前在很多我自己的talk有说，希望有一天我们的机器人可以坐在电视机前看看nett flix，看看youtube，它就学会了各种技能。这个我没有任何反对意见，下一句话说他可以完全通过视觉解决所有的问题，这个我是不同意的。而且这句话跟前面一句话是没有任何关系的。因为你通过视觉学习东西和通过视觉解决问题是两个不同的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>车你觉得自动驾驶它是通过纯视觉来解决问题吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>自动驾驶是通过纯视觉来解决问题，至少tesla选了一条纯纯视觉的道路。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你觉得机器人不行。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为manipulation是一个非常复杂的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他需要跟现实世界有反复的互动，而且每一个的互动的形式可能是不一样的。是的，不过这也跟你怎么定义你的机器人有关系，你让他到底是做什么任务的对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是当当我们说的是一个通用人形机器人，它有五指灵巧手，它能做人所有人能做的任务的时候，那个时候触觉就必不可少。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看现在的硬件它也没有收敛，那未来出现的硬件有没有可能不适配今天的大脑呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就说明crossing body的非常重要，是就是说明我们做的这个研究方向还是非常重要的。但是我个人还是觉得在未来人形机器人还会成为一个主流的形态。它不会成为唯一的形态，但它一定是个主流的形态。所以如果你只能get on一种embodiment，我还是会get on人性。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是要如果只bat一种架构的话，它是端到端的。如果只bat一种形态的话，它是人形的对，就不要去做那些比较现实的那种分支的事儿，因为他可能会浪费很多的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实有很多可以聊的地方，就是这取完全取决于你是在一个大公司做事情，还是你是在做一个startup。这可能也取决于你是在硅谷做事情，还是在中国做类似的问题。因为我觉得每个人的目标是不一样的。是如果你的目标是说我要找我的目标，或者说我个人倾向于做的事情是solve AGI in the physical world。所以说我会非常聚焦于最终的形态是什么样子，最终的模型是什么样子。所有其他的东西可能都是就是destruction，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是如果你是一个创业公司，然后资本对你的这个生存或者对你的盈利是有个期待的。那么你其实很难说撇开所有的不盈利，我就是说我要做20年以后的最终的模型。于是你可能想的是我能够在短期内有一些落地，然后把数据飞轮转起来，然后慢慢的来把这个问题解决。这个其实有一个对比，可能是我不知道是不是非常恰当，就是韦某和特斯拉其实采取了非常不同的策略，他们都是是想解决自动驾驶。那韦莫是看到最后我要l four对吧？我要不管在什么地方没有人真的没有人驾驶，我连那个方向盘都不要，所以他做的很多决策都说我怎么样能够达到L4。但是特斯拉就说我们不急，我们反正卖车，我们可以从L2L2.51点往上做，然后把那个数据飞轮转起来也白了，我们可能也会达到14，所以我觉得这两条路没有对和错，我也说并不是说鼓励大家一定要做端到端，一定要做人行。只是大家在就殊途同归，就用不同的方式解决同的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你举的这个例子非常有意思，但是今天大家会觉得特斯拉是一个更正确的道路吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个很难评判。这个是韦某也有非常成功的在旧金山或者在好几个地方运营的案例。而且我觉得韦某有点特别伟大的地方是，他真的把驾驶员给从车里面拿走。就是我自己也是特斯拉用户，我觉得FSD非常厉害，我经常用。但是这个和你有勇气把驾驶员拿走，我觉得是一个0到1的突破。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很有意思。我们刚才其实说你个人的研究主线没有说完。你在google做了第一个强化学习的培以后，后来的发展是什么样的？</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我做强化学习我就做了很长一段时间的，就是不太的就local motion之类的，做了四组，然后做到一个地步，我觉得那个领域就非常卷了。那个领域就是因为有了强化学习，强化学习并不难用，其实非常好用。我觉得这也是一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么说呢？再拆开讲一下，就是这个从宏观上来讲，当一个技术越来越容易用的时候，那个技术很快就会普及。比如步态的控制，那个人形机器人走路。如果那个东西像我说开始使用MPC model predit control，那个时候你需要一个PHD，你才能真正理解那个数学，然后才能解那个方程。那么这个算法或者这个技术离普及就还差好远。然后那个之后就是reinforcement就强化学习出来了。强化学习就是我我觉得现在很多高中生都可以往上当一个强化学习的这个包，比如PPO然后从NB那拿一个什么ICM，然后把它放在一起，然后串一下depo一下。就是很多可能高中生都能做这个事情，于是这个东西就说明马上会变得非常卷，因为很多很多人能够进入这个领域来做做贡献。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的确强化学习瞬间就解决了所有的镂空模式的问题。同时就是在未来你可以看到就是prompt engineering是几乎所有人都能做的。因为是自然语言对吧？你可以跟这个模型用各种方式使得这个模型帮你做事情。所以说我觉得大语言模型的出现，可能很快会解决很多很多不仅是robotics是各个行业的问题。所以说我做了朋友做了一个阶段以后，发觉强化学习已经普及了。不管是在美国在中国，大家都开始用强化学习解决机器人不太问题的时候，也是我觉得我还是怒放去解决一个可能更难的还没有全民都可以解决的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>于是那个时候我就开始，这是哪年了？那个可能是2一二年的时候，然后那时候就开始做机器人大模型，就是基础模型。对，然后那个时候就是google发了好几篇相关的论文。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>C can是用语言模型让机器人有了common sense，它可以一步一步分解一个很复杂的任务。然后RT one是说我们可以用一个transformer这样一个architecture，吸收很多很多的数据，使得它的这个performance越来越好。然后RT two是本来就说我已经有一个VRM了，我可以它已经有这个internet scale data的训练，然后我可以加上一些action的训练，使得它可以借用所有的internet上面的知识来做很多事情。然后到后来gw x就是有一个非常强大的基底模型，计算模型，前面白色也非常的强大。我们发现如果你的这个基础模型非常强的话，那么你在加入action data的时候，你有没有你就不需要那么费力，而且你的泛化性等等方面都会变得更好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我突然意识到，强调机器人基座独立性的人，他是创业公司，所以他自己没有那个基座大的一个模型。然后你们在juma之上，所以感受是不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常可能就是根据你其实在做的事情，你的认知也会非常不一样。比如如果我跟赵一年以前，或者如果我跟很多比如在学校做机器人的，比如老师也好，学生也好，大家会觉得有一个泛化能力非常重要，而且很难做。那个叫visual generator。就是当你的光照变化的时候，当你的布景变化、颜色变化的时候，那么机器人本来能做的事情可能突然间做不了了。因为你可能没有收集过之类的数据，但是因为我们train GMGM它有个非常强的叫vision encoder。那个Vivian encode已经见过全世界所有因特网上的数据假设？就很多很多数据，我们就发现这个relation come for free，我们不需要做任何的研究或任何的东西，它的visual generation ation就已经特别好。所以当你有一个已经非常强的基底模型和你还是没有这个非常强，或者你用一个开源的模型，或者你从头开始圈一个模型，我觉得大家认知会是不太一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也很有意思。你之前创过业，然后加入大公司，在大公司待了十年，为什么？那你接下来的十年你会愿意在大公司，还是会愿意比如说自己创业或者加入一个创业公司。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是每个我觉得很多人都会有个创业梦。我觉得小时候也没有，小时候本科的时候，我觉得我也年轻，想闯一闯，想看看这个世界什么样子，想知道创业是什么样一种感受。然后那时候正好有一些朋友有一样的志向，于是我们就去创业了，非常锻炼人我觉得不管是从技术，从你要想产品，从融资，从各个角度都非常锻炼人。所以我非常怎么说呢？非常感激那段创业的经历。然后现在我觉得在大公司其实是一个非常不错的选择。主要原因还是现在很多事情感觉只有在大公司能做，因为大公司有资源，大公司有算力，大公司具有一大批和你一样有着使命感，然后非常聪明的人。像这种大模型时代，其实很多事情，尤其是当你的这个使命是sop AGI in the physical world时候，我觉得其实并没有太多其他的选择。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是什么时候意识到的？你什么时候会有很深刻的这种感受吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这可能是最近几年，对，就开始我觉得在大公司就挺好的。Pay as well a nice environment的free food对吧？也有很多的自由去去explore你想做的事情，你觉得不同的好吧。但是这一两年当AI真的开始卷起来的时候，其实你也看到很多学校老师他们要么去创业了，要么在大公司兼职。其实他们都是需要有更多的资源，对吧？更多的算力。所以说如果有一个大公司，它能提供给你算力资源，而且领导足够重视，大家有就相同的够的话，我觉得是一个非常难得的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得这几年google AI还或者robotics的研究文化上有没有发生过变化？</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个变化有很大的，就是因为我怎么说也算元老级的员工了。也是因为我是九年前加入的，可能我加入的时候正好是这个team起步的时候。那个时候其实就非常的，怎么说松散管理，就是每个进来的researcher都独当一面，你想做什么你就做，大家给你足够的信任，而且人比较少，所以资源分配也不是什么问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人有多少？</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当时可能我加入的是十个人，对，就非常非现在多少人？现在150个人就给我把那个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以十年前、九年前只有十个人在研究robotics。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在我在google brain OK，而且那时候可能在GLE brain也没有很大，也就几十个人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对那会不会更怀念那个时候。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得感受是不一样的。对，然后那个时候的就是you can do whatever you like，感觉是非常爽的一件事情。但同时你也发觉就是你你个人的impact是非常有限的。其实你就像一个very well pay的PHD对吧？或者可能very well pay的assistant professor，就是你有一些自主权决定要做什么研究了，然后google pay well，但是你很难想象就是我能做一个非常大的惊天以泣鬼神的事情。因为每个人都非常松散，就是我也很难聚一拨人，大家做一个大的事情。对，然后慢慢的就是我觉得google也意识到这一点，觉得我们不想只是有一个academic lab，but very costly. 所以说google也是希望你们可以有更多人做类似的事情，然后非常的聚焦的解决一个很大的问题。所以不管是从promotion或者是从performance review，从incentive，从各种各样的structure上，就是google想创造一个环境，使得更多的人可以解决一起解决更大的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他需要团队写。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他需要团队协作。对，然后到最近你可以看jr 8 lix，不管是第一代，就是三月份的那个版本，那个时候可能已经是120个人在list上，这次可能160到180个人，真的是需要一个很大的团队齐心协力。然后有一些人是解决比如说infrastructure，就是比如说data pipeline或者training pipeline的问题。然后有些人是做research，然后有些人是做比如说evaluation。因为你有很多robot，他要并行的做这个测试，有些人是得做data collection，做maintenance。就是你真的需要一个非常大的团队，非常强的算力才能把这样一件事情做好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从比较分散的结构到一个能够集团军作战的结构，它的管理方式发那变化。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那变化非常大。就是我觉得开始的时候人比较不适应，我觉得我是因为我一直在这样一个团队里，我是随着他在不断的变化。并不是说我开始在一个非常松散的团队突然间空降到一个集团军作战的团队。如果是那样子的话，我能够非常想象这个会有culture shock。但是因为我在不断的随着它变化，其实也在不断的shape这个变化，所以说对我来说并没有一个不适应，而且我觉得这是一个好的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多人会讨论AI的组织是要自上而下还是自下而上？</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们是什么样的？我们是都有像general alix是更多的自上而下。就是你你得确定一个方向，你得确定一个。你想就是那么多人他要做实验，资源也不是无限的，你也不是有什么几百万张卡是吧？大家可以随便用。还是有很多的coordination，还是有很多自上而下的决策。但同时我们也有除了genetics，我们还有很多其他的research，那个是自下而上的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为还是researcher都很强，他们都非常紧跟这个时代的潮流。他们会想到各种各样新的方法，然后想做实验。他们会自下而上的和几个人一起形成一个很小的团队，做这种非常快速的迭代，然后fell fast。然后如果这东西做成了，他们会想把这东西集成到比如gma robotics里面，使得它有更好的更大的一个impact。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想到今天反复在聊的那个secrets motion transform，它是自上而下产生的还是自下而上产生的？</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那就是自下而上产生的，我们的目标是我们想解决这个data auto neck。所以你细分下来会有一块就是我们希望我can train on the multiple input dim data吧？所以这个是自上而下的，就是what是自上而下的，我们要什么？但好奇是经常是自下而上的。就是当很多人知道我们需要这个的时候，他会有各种各样的想法，说怎么做这个，然后就会有很多很小的团队，他们尝试不同的方法，其实很多方法都是work的，很多方法其实他们甚至是compatible的，他们可以像搭积木一样搭在一起，其实这个motion transfer就是这样一个例子，就是其实有三四个不同的团队，他们有一些想法，而且这个想法是你可以全部interest到一个系统里面的，然后造就了这个motion transfer.</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以google现在相信大力出奇迹吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就大力是必须的，但大力不是sufficient的对，就是有necessary condition和sufficient condition，就是充要条件。对，就是大力士必要条件。如果你不scale up，我觉得就很难有奇迹发生。但是如果你光scale up，但是你不够聪明，你不够有足够的创新，光堆比如算力堆data我觉得是不够的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们最卷能卷到什么程度？</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在这个问题其实我最近跟很多，我回国，就是我知道国内很卷，所以我就想知道国内有多卷，我发觉好像国内不一定比我卷。对，所以我们team都都挺卷。然后我先跟你说，我一周可能工作70到80个小时，感觉可能比996还要更辛苦一点。但是这个感觉在硅谷，现在如在AI圈子里面已经是常态了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家一提到google都会说他研究的文化很好，他的研究的就是底蕴很好。但是同时大公司也会有大公司宾馆，就每个公司都有你觉得现在还强吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大公司病肯定是存在的，就是大公司总是在决策上要一层一层的获得provo。大公司在很多地方都非常conservative，对吧？大公司总是有各种各样的垄断和PR的risk，所以我觉得大公司总体来说还是比较conservative的。然后我除了做这个研究，还有另外一个就是我要做对对team负责的工作，叫research iteration speed。就是我要保证大家想做的东西很快能做出来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这就是你得fight整个大公司并如果researcher说我想要用这个data，但是大公司说我要用这个data，我需要过do diligence，我过legal compliance，我要过这个过那个，那那流程非常复杂，你可能需要几周的时间。对，都都用不上那个data。或者说我想试一下这个新的机器人。那同样就是以前在google可能需要可能3超过30个business days。从你表达这个意愿到你可以把那个purchase order发出去，所以这都非常的慢。我我我不得不跟很多google内部的，比如说离购团队或者说Operation团队做很多合作，跟他说这个时代你是等不起的，你等了30天以后，你那些非常有使命感的researcher都跑了。对，真的就是这个时代真的是等不及，或者是别人都做出来了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>于是我觉得自上而下，就是google d麦的对robot x还是非常重视的。所以他们也开了很多special case，使得我们可以加速不管是采购也好，实验也好，数据也好，就各个方面的一些叫material speed。所以我想说的是，大公司病仍然是存在的。但是如你工作是一个非常重要非常怎么说呢？非常competitive的area，我觉得你还是有一定的。怎么说？Language使得公司为你们团队做出一些变化开绿灯。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们怎么考核researcher？</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是个非常好的问题。我觉得每个团队都会有，就是每个公司都会有自己的标准。然后我们就一直就说impact是这种，impact有很多很多，怎么说呢？方面像以前google还在发很多论文的时候，你的论文的数量质量section就是一个非常重要的指标。如果你这个论文发布的东西，它被集成到产品里面，然后这个产品所带来的价值和收益就是另外一个很重要的指标，就是他会有各种各样的这样不同的access，然后综合的评价这个人的performance。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们会末位末位淘汰吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们谷歌也是被淘汰是一个非常怎么说呢？非常vega的定义，就是google的确是a performance review非常regress。然后google对最底层的就是最底下的它有一个bucket叫media improvement。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果你的performance没有达到标准的话，它会有一个plan，使得你的manager或work with you，使得你能够达到标准，否则的话是会被淘汰的。它可能不如有一些公司，比如说meta对吧？它就非常clear cut，它有一个比例，然后这个比例之下可能就被直接淘汰了。Google可能会更耐心一点，这个文化也稍微更好一点。就是因为每个人都有自己的priority，每个人都有自己各种各样生活中的不同的状况。所以说哪怕你在一个performance review里面可能表现不是很好。You will have a second chance to prove yourself.</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得meta对于最近硅谷的人才流动有带来什么变化没有？</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个变化是非常大的这就是我觉得matter做了好几件事情。第一个是他把AI人才的价格超高了，非常的高。对，就是A二三是不是真的值这么多钱，我其实不知道，那个有有很多种说法。第一个是说这是供求导致的，就所有的大公司都希望发展AI就AI first，所以他需要大量的有大量的需求。对，但是AI人才的供给是非常有限的，尤其是最优质的AI人才的供给。所以因为供给需求的关系，使得这个价格非常高，这是一种说法。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二种说法说AI人才的确值这个价，因为算力是非常贵的。如果你把算力浪费了，那么那个钱也是很多的。不如你花钱招一些人，好好利用这些算力，然后创造价值，因为那个价值是远大于这些人的cost，这是第二种做法，就是这个value是在哪儿的。还有第三种做法就是说挖这些人和买类似的公司，挖人还是便宜的对，所以说这个价格还是值的。我不知道其实很难判断是不是一个人值一个亿美金，但是我觉得meta最近的一系列操作的确扰动了整个硅谷。对AI人才的这个价格。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你们是好事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从某种程度上对我们是好事，是因为整体就是水涨船高，就是大家的价格人才。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是好事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是作为一个怎么说manager对吧，就是我每天都得不是不是就经常得说，他说那他给了我一个office多少钱？我就得想就是你。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有什么招呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得首先看看那个价格是不是合理，如果那个价格不合理的话，或者是会非常影响整个team的这个怎么公平。因为其实很难一个人别人要强特别多。当然有了这种情况，但是可能很多时候就是一个single case，他在matter会获得一个非常高的薪水。那这种情况的话，如果就会影响到team的公平的话，就是你可能还是会从别的方式来留住这个人，而不仅仅是从薪水。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能留住吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>经常是能留住的。我觉得其实很多人，尤其最优质的人才，那些被挖的人，他真正care的不一定是钱，而真正care的是他们相信在机器人行业很快会有一个质的变革，巨大的变革。如果这个变革发生。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>买它还是get google not yet。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果这个变革发生，他们是希望在driver seat。我觉得一个有使命感的人，他不会容忍说我在i&#x27;m on a wrong ship，对吧？我一定要at the right ship。在这个发生的时候，就是back on meta是back on google，就是在哪边有更多的资源、更多的算力、更多的支持、更多的talent。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你经常能留住成功。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我经常可以留住人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有失败的吗？当然也有失败的哪个多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当然成功的多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那他为什么这么多多情挖人，他是着急了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这也有很多因素，我觉得没它的确肯定是着急的。因为整个AI的行业发展如此迅速，然后在可能过去一两年里面，比如说meta的模型并不是不在first tier了，对吧？然后他们肯定也是希望自己的这个AI和大模型团队能够挤进first丝贴。所以其实要从头培养一个大模型团队还是非常困难的。所以可能挖人是一个最直截了当的方法。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我有一个好奇的基础问题，它一亿美金一般是有什么条件？它是几年的一个package？</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道，我很希望我知道是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一般来说硅谷是什么规律？</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一般性就是大家说pack的话，case by case，就是经常可能是四年的package。对，但在这个case上我是真的不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得现在其实回国还是一个非主流选择了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得我也看到很多人回国，也不是了，没有很多，但是我的确看到回国的例子。所以它是如果你从数量角度来说，它的确不是一个主流选择。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在robotics领域华人有多少？还是挺多的。像你们team.</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我加入google brand的时候，我好像是唯一的华人。对，那那当然是九年以前了。然后这几年就是AI和robotics融合越来越多，然后AI藉华人其实很多，CV藉华人也是很多的。然后像我们team可能百分之五六十是华人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么华人在这一波浪潮里面这么多人？它是有什么背景原因吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI有很多是数学，我觉得华人数学比较好，华人特别吃苦耐劳，他们又talent又能吃苦，我觉得所以他们特别容易取得成绩，我觉得这可能是主要原因。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以前就是在AI之前，大家会说硅谷的大公司里面，华人做的管理层的很少。你觉得AI是不是会改变这个现状？</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得会的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以及以前也会抱怨说华人在海外不团结。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我其实我我在我在美国十五六年了，我并没有感觉到华人不团结的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有以前说是印度人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我觉得印度人其实他是有一些优势的。就是我的确能很清楚的看到，在美国的高层里面，印度人的比例是占比更高。但的确印度人的表达能力更好，他们可能很多印度人英语是母语，而且很多印度人，尤其是可能家境比较好，环境条件比较好。印度人他受到的教育在表达能力上还是要强于中国的传教育的。而且印度人可能更外向，更愿意speak up，所以这个在西方文化中非常重要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你觉得华人在这一步里面会改变这个格局。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得肯定是会改变的。我觉得华人其实更刻苦，更talented，就是很多华人他也在不断的adapt这种西方的文化或者西方的游戏规则。所以我觉得毫无疑问，华人会在哪怕在硅谷的大公司，占据越来越重要的位置。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得现在有迹象了一个苗头。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了没有我觉得其实有很多华人高管是吧？就是最近回字节的永辉，也是在google的华人高管。其实有很多华人高管一个很有意思，意思里头最近招人，然后有一个就是白人美国的一个PHD毕业了，然后他在考虑是不是要签我们，然后我就跟他聊了一下，然后他就跟我说，我真的希望你们team能多招点华人。我说为什么？我觉得这不是diversity，就是非常不diverse。他说他有很多华人的这个就collor ate，他跟很多华人合作，他觉得真的就是做AI做机器人的华人非常的努力，而且非常的productive。然后他说他还学到一个词儿叫牛马牛马。对，他说他特别喜欢自己做牛做马，对，他他自己也对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他说他是不是对这个词有什么误解？</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，可能是他他可能这个词在他心目中就是刻苦努力的象征。对，然后他觉得很多华人都说自己是牛马，然后他自己也想当牛马。然后他说对他就希望蒂姆林能可以有更多的华人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>录了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没录了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他是不是见到你才这么说的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我知道他就因为我看他以前的论文也好，什么他的确有很多华人的合作伙伴。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有意思。回到机器人领域，你觉得未来五年、十年我们可以。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>看到什么样的世界？我觉得未来两三年我们应该会看到一个就像你说的GPT时刻。在这个时刻人们会真实的意识到这个robots coming，就是generous robots is coming。我觉得那个时候会有更多的钱就跻身里会更热，会有更多的钱投入集成领域。那是可能未来的两三年。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我觉得未来的五年之内，就是机器人会在这种有泛化能力，机器人会更快的落地，它会开始在各种产业里面发挥它的作用。我觉得在家庭里面广泛的落地需要更长的时间。所以开始的落地可能还是偏传统领域，比如说制造，比如说物流或者是超市等等。但是它也不再是以前的传统的自动化的那种一成不变的动作。他们有些方法能力可以做更多的事情。我觉得在十年的这个长度周期里面，我觉得机器人开始广泛的进入家庭。然后他的确可以开始为人们的每天的生活做出非常多的贡献。</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果机器人拥有了智力，它到底是机器人呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那人工智能是人工还是智能呢？这个可能不是特别重要。我觉得很多东西它更多的智力只是一个统计规律上的结果。所以我觉得至少用现在的方法做人工智能，做机器人，它可能还是更接近于机器。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这次回国你有什么感受？</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>中国发展真快。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从哪些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>角度生活非常便捷？就是我回国不是你好久没回，非常经常。对我可能是二三年年底回来一次，然后之前回来了一次。我可能平均两三年三四年回来一次，然后每次回来都觉得有巨大的变化，因为长期没有在国内生活就是完全没有意识到生活有多么便捷。不管你要买早餐什么的，美团一下就好了，然后出门什么都非常便捷。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我我我待在了上海，然后来了北京，然后觉得大城市就是上海的其实发展也很快，就是有很多以前我在上海长大的。以前可能大家知道就是外滩、陆家嘴，就几个很局域性的区域，就是黄浦区。然后这是第一次去徐汇滨江，感觉有很多新的发展，新的商圈，感觉特别高级。然后生活就是说有很多展，有很多的秀，我觉得生活肯定比在硅谷要丰富多彩得多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跟国内聚生智能机器人领域的人交流，你觉得中美有什么不一样？</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个很好的问题。就是我我听到的就是第一点就是中国的硬件发展特别快，这个我也是在美国能够非常明显的看到的。运输也好，支援也好，新海图也好，就是很多很多硬件公司像雨后春笋般的为全世界提供着便宜又优质的机器人硬件。从AI的角度来说，我觉得中国发展也非常的快。但我同时也听说中国的大环境和文化和硅谷还是不太一样的。在硅谷大家会有一个信念，就是哪怕你并没有做出什么初期的结果，只要大家相信一个东西，大家还是愿意花时间、花精力。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>花钱上去做的。这个时间能有多长？这个时间可以很长，十年。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说十年，我听说在在国内大家会相对追求比较短期的目标。就是你在短期内要落地，要盈利，要看到快速的不断的发展。否则的话就是你可能不会受到很大的重视，或者得到足够的资源。但是我觉得这个在大模型时代，你真的需要烧很多钱，你才能看到结果。就是很多时候你要看到300，比如说在robotics上你需要几万小时的数据。如果你只有几百小时的数据，其实你都无法验证skating了。但是很多可能国内的，不管是企业家投资人也好，他们希望说我先给你一点点钱，然后你采十几个小时数据，你给我看结果不错，然后再给你继续投资或者投算力。但是可能开始的初期的这些钱是远远不够的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说真的有的时候在技术上需要一个信仰。我觉得马斯克是一个很好的例子。马斯克说我们要做什么的时候，绝大多数人是不信的。但好在他做成了很多事情，可能也使得在硅谷大家愿意相信一个看上去非常ambitious，非常不着边际的信仰，大家愿意相信，愿意投钱，使得促成了很多硅谷让人难以想象的快速的发展。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是也会有一种观点说，就是硬件的发展还是在国内，这我同意。对于你们要做机器人来说，当然你们说现在是做的是大脑，那如果要做一个机器人本体的话怎么办？</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不考虑地缘政治的关系的话，那我觉得我相信肯定是中美应该更好的合作。比如说很多智能的发展可能在美国会有更快的发展。但是比如说供应链，硬件制造，本体甚至一些控制，我觉得在国内其实做的相当好了。如果中美能够有更好的合作，我觉得对全人类类来说，可能是一个尤其是机器人领域是一个非常重要的里程碑。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我突然在想，google这条路可能类比于搜驾驶，它可能更像微梦这条路。但像国内这些公司，因为它有硬件，它可以大量先采集数据，他们是不是更像特斯拉的路线？</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以这么说，我觉得本质的区别是特斯拉的车是有用的，所以说它是有数据飞轮的。现在虽然中国很多企业有着更好的硬件，它可以采数据，但是这个硬件还没有达到一个包20的，它是有用的，所以数据非常转不起来，所以说他你其实很难跟特斯拉类比，特斯拉解决一个更简单的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常好的垂直场景。对你现在看到这种类似垂直场景没有在机器人上，当然自动驾驶也是一种机器人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我只能从我熟悉的这些创业者来讲，比如说coral上让人非常惊艳的就是戴娜的demo，我觉得是一个还挺不错的。这个垂直领域至少在美国，人力成本比较高。就是在不管是收拾衣物，还是折餐巾，还是各种这样的垂直领域，其实cos还是挺大的。然后这些柔性什么布料这种的manipulation传统来说是非常难的。因为你很难写一个controller或者一个传统规划算法来做好它。这的确是需要AI的价值的。所以我觉得戴娜他找到了一个AI能够增加W取代传统算法，同时那个vertical的确有一定的量和需求，找到了一个交集上的一个点，总体来说我觉得要找到那个交集还是挺难的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这不是你想做的事情，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Soft HI in the typical world.</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>翻译的这个场景。当如果你的那个实现，就是那个通用的机器人大脑实现的话。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它会覆盖这个利率吗？会的是会的。对的。我觉得当一个journalist真正成型的话，就是specialist其实很难生存的。就是因为我一个机器人其实可以做你的事情，但我还可以做100个其他不同的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>极端一点的话，你的那个事情能覆盖掉特斯拉做的这个事情吗？因为它也是以某种程度的机器人。如果当你的机器人如果通用的话，那自动驾驶这个垂类机器人是不是就失效了呢？但是这个很极端。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当我有一个人形机器人，它能够像人一样会超越人的智能的话，那么的确我不需要车来自动驾驶了。OK有个机器人它来做自动驾驶。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你相信这个吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个没有必要，但是这是可以取代的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是从效用上不一定需要它。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是你想一想，就是未来如果你你反正买一个家用机器人对吧？然后你有两种选择去买车，一个是带自动驾驶功能的，它要更贵，一个是不带自动驾驶功能的。但是你知道你家里买的那个人形机器人，它是可以做帮你做自动驾驶。也许你就不需要再去买那个有自动驾驶功能的车了。但虽然我觉得这个场景不一定会实现，就像你说的非常极端。但是我觉得就是当一个journalist真的进入这个世界的时候，我觉得specialist很多specialist都很难生存。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这generalist的多少年能进入时间？</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>觉得就像我刚刚说的，2到3年应该有足够的突破，然后5到10年是它能真正落地的一个时间线。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得他能有多general呢？他能通用到所有任务吗？我觉得不太可能。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我我我我以前就是在硅谷跟大家交流的时候说机器人的发展有这么几个阶段。第一个阶段我叫他就是mention，这个其实已经实现了。就是你在这个车厂所有东西都是机器人。对，机器人的，但是你都是编程的对吧？它就是固定的，这个规则固定的。第二个我们叫它telly Operate robot，就是这个机器人它的硬件是很完善的，但它没有大脑。但是你可以通过这个瑶操的方式做很多很多的事情。现在基本上你也可以看到，特斯拉比如在很多场景里它是瑶操的，但是你有时候分不出来它是摇槽的还是自主的，就说明它的机器人硬件已经非常完善。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第三块就是它是一个journal alist但它不是特别的general，它能做一个narrow ain的事情。其实可能self driving就是其中一个场景，对吧？它是智能的，自动的，但是它不是做所做的事情。下一个就是真正的journalist，他可以开始做家庭里所有的事情，他可能跟人一样capable。这个时候可能就是人形机器人在家庭落地的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后最后一个stage叫super human capability，就是因为强化学习，因为机器人它可能有碳基生物所没的一些存储，然后power density之类的。它可能在很多领域会超越人类的智能和体能。那可能是最后一个stage。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们需要担心人类的安全问题吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>需要。虽然还挺远的，我觉得但是我们应该时时刻刻记住，这个AICFT和机器人CFT他们不是儿戏。当AI它能够自我迭代的时候，或者机器人能够自我迭代的时候，我觉得人类是面临生存问题的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们要提前做些什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得就是像郭迪曼的在做所有的AI模型的时候，包括做机器人模型的时候，它都有一个叫responsibility and safety council。他就会审查你所有的可能的对社会的影响和他的safety的consequence。然后他会给你很多很多的guideline。然后同时在我们team其实有很多做robot safety的研究，包括AIC的研究。所以就是说你就得be aware，你知道他的后果可能很严重。所以在每一个发展的周期，每一个发展的stage，你得做相应的研究。在我觉得在words k scene ro如果你的机器人的这个能力超越了我们对AI安全的理解的时候，你应该停下机器人能力的发展，然后让AI safety或者机器人safety catch up，然后再齐头并进的做这两方面的研究。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过去这两年的发展，你有觉得在你训练机器人的过程中有什么出乎你意料的？没有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个太多了，我觉得一年前我觉得机器人还挺傻的。我记得一年前我们想做一个Christmas demo，就是拿一个圣诞节的袜子抓起来，然后塞一点礼物进去。那时候我觉得机器人连袜子都抓不起来OK。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说今年那个机器人已经可以做很多很多事情，就是我们在coral做了一个demo，然后我并其实我那时候并不在，但是我就是同事跟我讲，有一个很msr researcher，他拿了一个box，那个box上有很多很多什么按钮，插插的什么像耳机线一样插耳机线那种东西。然后有很多slider或者是nog当然这个东西机器人肯定完全没有见过，因为是他自己可能带来的一个设备，然后他就给了我们25个task。这个25个task，比如说把这个按钮按下去，或者是把左边第二个开关打开，这些也是肯定在training data里没有的。然后我听说这个机器人做了十个就完成了十个。这个从以前来讲是不可思议的，因为泛化性一直是机器人非常难以解决的问题。虽然我就说这个模型并没有完美的完成所有25个task，但是完成十个我觉得这个在六个月前是不可想象的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以发展的非常快。王欣欣说能干活机器人现在是一片荒漠。</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我基本上同意，能干活的humanity机器人现在是片荒漠。</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听说你日常生活是一个很潇洒的人，你平时会干嘛？</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我平常会干各种各样的事情，我比较喜欢出去旅游，然后我也我比较喜欢种花。</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我玩赛车。</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我有时候会去练练赛车，后来发觉在真实赛道练习赛车太贵了，我在家里买了一个很好的模拟器练赛车。</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你还是我来baLance.</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我还练钢琴。对，怎么说呢？你人总是需要一些爱好，然后总是需要一些解压的手段的，对吧？否则我觉得工作压力还是很大的，就是工作时长也很长，压力也很大。所以我觉得工作之余还是会花一点时间。我还有一个我有两个娃对他们年龄差距特别大，所以是大娃12岁。我可以开始教他一些编程，机器人的东西，特别有意思。然后小娃五个月特别可爱，所以说工作之余还是有很多非常有意思的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:57:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会在训机器人和带娃的过程中，感觉到两者有一种本质的不同吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:57:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常相似的。就是强其实本来的学习基本上就是两种学习方式，一个是强化学习，他就是不断的探索，然后他获得一定的reward，然后reinforce他做一些事情的能力。第二个就是invitation，他看着爸妈做什么，吧？看着他身边的小伙伴们做什么，然后慢慢的学习，这两个是非常相似的，然后经常会做一些类比，就是说我们这个机器人is like two year old，就是你你可以因为在随着这个小朋友的发发展，他开始慢慢的有了势力。有了势力以后，他开始慢慢的学会抓取，然后慢慢的可以做起来，然后可以开始走路了。Motion其实很多东西和这个AI的发展是非常相似的，只是somehow我觉得manipulation happens earlier。但是在for kids，但是对于机器人来说，manipulation is way harder than emotion.</p>
-<p class="transcript-line"><span class="time"><strong>[01:58:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人类学习中的数据是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:58:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你视觉看到的东西和你触觉摸到的东西，和你听到的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[01:58:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们天然就在这个真实世界里。</p>
-<p class="transcript-line"><span class="time"><strong>[01:58:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们在不断的获取数据。然后我们有个大脑，它可以存储很多数据，它可以distill这些信息。然后怎么说strengthen一些就是神经元之间的连接。所以整个学习过程和机器学习是非常像的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:58:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以机器人真的到现在像几岁小孩。</p>
-<p class="transcript-line"><span class="time"><strong>[01:58:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得你说如果是local motion的话，那我觉得机器人已经比我好了。比我就是前不久不是有北京有一个新人奥运会，就机器人运动会，我觉得就是你说的那个人形你跑得比我快。从手灵巧手的map lation来说，先不说灵巧手，就是说夹爪我觉得他可能就真的像两三岁的小孩，他抓的不是很稳，但是他能够大概的理解你要他干什么，然后follow the instruction，然后他可能尝试几次，他能做对就是可能两岁的小孩的水平。但如果是灵巧手的来说，我觉得nothing works。</p>
-<p class="transcript-line"><span class="time"><strong>[01:59:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从整个人来说，就是一个完整的人来说，他像几岁这是一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:59:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很奇怪的问题。因为他的走路和行动能力感觉已经超越成年人了。但他抓取大脑的能力可能还是像一个小孩。所以整体我不知道你怎么。</p>
-<p class="transcript-line"><span class="time"><strong>[01:59:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>算是他发展的非常的不同步不均衡。</p>
-<p class="transcript-line"><span class="time"><strong>[01:59:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为我觉得在这个步态、行走、local motion上就是强化学习。就是在过去五年里面基本上解决了这个问题。但是在手的控制和manipulation上，我们并没有找到一个很好的解决方案。</p>
-<p class="transcript-line"><span class="time"><strong>[02:00:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当人和机器人共存的世界出现以后，你就人和机器人本质区别。回首你能接受你的小孩以后跟机器人谈恋爱。</p>
-<p class="transcript-line"><span class="time"><strong>[02:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个我没有仔细思考过的问题，我觉得他们区别还是很明显的，所以这个问题得仔细思考一下，我并没有一个很好的答案，就是说他们的区别是什么？因为这其实跟机器人是不是真正有意识是相关的那。</p>
-<p class="transcript-line"><span class="time"><strong>[02:00:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>意识又是什么呢？好像也没有。</p>
-<p class="transcript-line"><span class="time"><strong>[02:00:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这是一个哲学问题。对现在的机器人对我来说，或者现在机器学习在对我来说，只是从大数据里面找到一个统计规律，然后这我觉得和人的意识还是非常不一样的。但是意识究竟是什么？是从什么时候开始你可以判断说机器人有了意识，这个我并没有更好的答案。</p>
-<p class="transcript-line"><span class="time"><strong>[02:01:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对所有问题我想说的是，就是我觉得绝大数的绝大多数的人，尤其是不是在跻身行业里的人，对机器人的发展是over estimate的。因为大家习惯于把最好的结果拿出来拍一个video。尽管这个video它不是很具有非常不是很representative，它可能只是代表了我拍了十遍里面最好的结果。但当观众看到这个video的时候，觉得这就是机器人已经有的能力了，所以大家可能觉得明年我就能买一个人形机器人在家给我服务了。</p>
-<p class="transcript-line"><span class="time"><strong>[02:01:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得可能投资人会稍微清醒一点，但是投资人也是经常over estimate整个行业的发展的。所以我想说的是我个人虽然非常的感到非常的exciting，觉得这是一个非常好的时机和时代。但是我觉得我们还是要保持冷静，去真正理解机器人现在的状况。我觉得虽然整个科技的发展在加速，但是离机器人应用的这个gap还是比较大的。所以我觉得还需要等待一段时间，使得机器真正的落地。</p>
-<p class="transcript-line"><span class="time"><strong>[02:02:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这行业会不会有巨大的泡沫？</p>
-<p class="transcript-line"><span class="time"><strong>[02:02:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这可能会有巨大的泡沫，这个取决于就是到底机器人发展有多快，这是第一点。因为也许在未来两年中它持续加速？第二个是大家有没有找到落地的场景。就像大家开始找落地场景，一年以前我觉得是不可能落地的，就是这种AI机器人在短期内，但现在大家似乎找到了一些可能可以落地的方向。如果这些速度持续加快，然后落地持续发生的话，可能它不是一个泡沫。但是大家可能觉得就是这个机器人进入他们的生活就是人形机器人进入他们生活，我觉得那个还挺遥远。</p>
-<p class="transcript-line"><span class="time"><strong>[02:02:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个时代可能有会有几个最重要的需要被定义的问题。你觉得机器人领域最重要的几个被定义的问题会是什么样？</p>
-<p class="transcript-line"><span class="time"><strong>[02:03:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个很好问题。其实我真的希望机器领域有这样的问题。但是机器人是一个非常，怎么说呢？化学科复杂的，就是它是很多很多一系列问题叠加而成的一个综合性问题是而不是说如果我解决一个问题，机器人就突然间能够work。如果你一定要说有一个问题，就是如何能够获得高质量的数据，这是可能我们现在第一个亟待解决。</p>
-<p class="transcript-line"><span class="time"><strong>[02:03:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的问题是。是我自己看也是机器人这个行业的时候，就感觉跟AI行业还是很不一样。因为我觉得AI还是一个明确的主线的，但是机器人好像是这里一点，那里那一点都还没有解决完，都还没有解决，但才刚开始好像。</p>
-<p class="transcript-line"><span class="time"><strong>[02:03:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我同意。对，我说的就是说其实机器人行业还挺遥远的。大家不要高估了现在机器人的能力，然后低估了机器人能够实现的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[02:03:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后几个快问快答，一个全球范围内你喜欢的食物。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说吃的吗？我有太多喜欢吃的了，我是个吃客，对，吃货。对。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你推一个硅谷的餐厅给大家，就是你特别喜欢吃的。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>硅谷一个就是在我家边上有叫pinks bistro，那家是一个云南菜。对我觉得在硅谷云南菜挺少的，所以我特别喜欢一个。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>全球范围内你喜欢的地点。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>上海。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>基于所有读过的书推荐两本必读书。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有一本书叫start with why，我觉得那本书彻底的改变了我就是communication的这个skill。第二个叫好像我记不起起完整的确切的名字，就是seven habits of highly infected people。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多人推荐过这本书。你心目中影响机器人进程的几篇论文。</p>
-<p class="transcript-line"><span class="time"><strong>[02:04:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多论文都是我们team的论文。对，我觉得像我说的，我的第一篇论文seem to real learning edge allow motion for credit pad robots是一篇非常重要的强化学习的论文。而后面的就是一系列robot transformer系列的论文，RT1、RT2、RTX, 包括general robotics这些都是非常重要的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[02:05:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>基于你当下的认知，一个关键的重要的batt是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[02:05:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个重要的bt是机器人领域的吗？都可以。我觉得对机器人领域重要的bt就是你得相信synthetic data的价值。我觉得光靠real data是解决不了机器人。</p>
-<p class="transcript-line"><span class="time"><strong>[02:05:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好了，今天的节目就是这样。这里是商业访谈录，是一档由语言及世界工作室出品的深度访谈节目。你可以到公众号关注我们的工作室，获取更多的信息。我们的公众号是语言及世界，language is world, 我们希望和你一起从这里探索新的世界。</p>]]></content:encoded>
-            <pubDate>Fri, 28 Nov 2025 09:17:21 GMT</pubDate>
-            <guid>692965c0ba2292550f3551f7</guid>
         </item>
     </channel>
 </rss>

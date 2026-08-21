@@ -4,7 +4,399 @@
         <title>硅谷101</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc</link>
         <description>分享当下最新鲜的技术、知识与思想</description>
-        <lastBuildDate>Wed, 12 Aug 2026 04:58:31 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2026 04:38:11 +0800</lastBuildDate>
+        <item>
+            <title>E249｜Token经济转点：OpenClaw、Hermes到本地自研的Agent进化之路</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a8644067bb1a8868f394ad2</link>
+            <description>去年年底，硅谷掀起了一股风潮——“Token Maxing”（最大化token使用量），科技公司创始人和工程师们争相晒出账单，比谁家Token消耗更吓人，以此彰显对AI的全力押注。但到了今年年中，成本失控和虚假生产力让这场烧钱竞赛到达了转折点。Uber在四个月里烧穿了全年的AI预算，Meta被迫给员工设定token使用上限，一些公司会提醒员工使用AI的时候注意成本。大家开始认真思考：如何更经济地使用Token？
+这期节目的嘉宾黄东旭，就是Token Maxing热潮的亲历者。他曾经每天烧掉三四百美元，只用最前沿的模型。让他逐渐转变的，是中国开源模型们的崛起，大量的日常任务都可以做到“只烧电费，不烧Token”。他的结论是：不是前沿模型用不起，而是本地开源模型底座+前沿模型的搭配，成本可控，更具性价比。
+我们聊了这半年Agent产品的进化史——从OpenClaw，到Hermes，到Agent蜂群的智能涌现潜力，Agent消耗Token的趋势不会停止，未来还会有更复杂的A2A网络。亲历了互联网、移动互联网、AI三波浪潮的张宏江认为，Token Maxing折射出的是所有人在面临AI浪潮时的不知所措，AGI奇点已经到来，现在做Agent是好时机，但关键是：别做容易被大模型碾压的应用。
+【主播】
+泓君，硅谷101创始人，播客主理人
+【嘉宾】
+张宏江，Llama Ventures高级技术合伙人，美国国家工程院外籍院士，北京智源人工智能研究院（BAAI）理事长，源码资本合伙人，曾任微软亚洲工程院院长、微软亚太研发集团首席技术官、北京金山软件有限公司首席执行官
+黄东旭，Llama Ventures合伙人，PingCAP CTO&amp;co-founder
+【你将听到】
+04:55 Token maxing，是泡沫吗？
+09:52 亲身体验：只选最强最贵，日烧四五百美元
+14:15 OpenClaw：从研究到工程的转折点
+20:31 龙虾退潮：“普罗米修斯”完成了使命
+23:09 Hermes：把成功经验沉淀成Skill
+30:09 “Agent动力学”：七嘴八舌烧Token换深度
+35:12 智商碾压：Fable 5一次搞定复杂任务
+37:20 本地开源模型经济账：每天电费1美元
+43:42 Token消耗不会停，更复杂的网络还在后面
+52:36 现在做Agent创业是好时机吗？看好toB和infra
+01:03:24 彩蛋：“办公室政治”和超预期行为
+01:15:30 IQ测试已超人类，AGI奇点已来
+01:18:19 新问题：当新岗位也不再需要人，人类如何自处？
+【9月6日·成都 泓君线下开麦】
+华夏基金携手小红书小红点计划，共同推出「红火开麦日2.0」线下活动，以「发现身边的ETF经济学」为主题，从身边小事发现经济趋势，捕捉藏在日常里的投资灵感。9月6日，成都·蔚蓝湖滨艺术中心，泓君将与华夏基金数量投资部总监荣膺一起，聊聊普通人如何被卷入全球AI定价战。
+活动免费，名额有限，扫码即可报名，期待与你线下相见！
+【硅谷101听友群】
+很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏
+之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。
+在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。
+扫码加入，即刻相遇。
+【监制】
+泓君
+【后期】
+Amei
+【运营】
+朱婕
+【BGM】
+Impossible Theory - Rachel Sandy
+Mindscape - Lennon Hutton
+【在这里找到我们】
+公众号：硅谷101
+收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
+其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
+联系我们：podcast@sv101.net
+Special Guests: 张宏江 and 黄东旭.</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目录制于2026年7月4日，正值硅谷AI应用从“无脑烧token”转向“token高效使用”的市场转折点。主持人红军与两位嘉宾——lama ventures合伙人、PingCAP联合创始人黄东旭，以及lama ventures高级技术合伙人、微软亚洲研究院创始成员、北京智源人工智能研究院创始人张宏江——共同探讨了Agent工作范式的变革路径：从OpenClaw引发的个人Agent热潮，到Hermes的自我改进机制，再到基于本地开源模型与云端最强模型协同的混合架构。节目核心议题是：最大化token消耗是否仍是市场最优解？两位嘉宾分别从一线工程实战与宏观产业观察的角度给出了判断。</p>
+<h3>关键要点</h3>
+<p><strong>1. 张宏江：AI基建没有泡沫，远未过度投资</strong><br />
+“你从占GDP的比例来说，其实比那些（铁路网、公路网）都小。即使从宏观的角度来说，也远远没有到所谓的over invest。”他补充：token价格过去几年每年降10倍，消耗量增长更快。他区分了技术发展（无泡沫）与股票市场（可能有过热）两个层面——后者“充满了emotion”。</p>
+<p><strong>2. 东旭的token maximizing真实账单：一天四五百美金</strong><br />
+从去年11月起，东旭用最强的模型从0到1构建分布式数据库DB Nine——他眼中“最复杂的软件之一”。“一天可能得花掉四五百美金。”这还是在已订阅Claude Code Pro Max的情况下额外购买的用量。但他认为ROI极高：一个人三个月做出来的软件，公司销售已等待很久，预计一年能带来1000万美金直接收入。“有些事情我觉得我肯定做不出来，但是用上最强的AI以后，他能让我做出来了。”</p>
+<p><strong>3. OpenClaw爆火的意义：大模型能力跨过“工程化门槛”</strong><br />
+张宏江指出，Peter（OpenClaw作者）作为一个软件工程师而非科学家，用一个礼拜做出OpenClaw，“标志着一个大模型的能力跨过了一个坎儿”——推理和编程能力强到可以让架构师级别的工程师快速构建系统。“这标志着从研究进入工程，从这个模型进入Agent。”有趣的是，据东旭补充，Peter本人某个月的API使用金额据媒体报道高达130万美元。</p>
+<p><strong>4. OpenClaw的局限与Hermes的解法</strong><br />
+东旭认为OpenClaw代码质量与稳定性有问题，Peter离开后靠基金会维持，历史使命可能已完成，“它就是一个极客圈子里面自己玩的一个原型”。而Hermes的亮点在于绕开了OpenClaw最弱的记忆问题——用工程机制不停把成功经验沉淀为可复用的skill，实现持续自我优化。其商业模式本质是token经济学：Agent成为模型厂商的token消耗入口，可谈渠道折扣。</p>
+<p><strong>5. 从单个Agent到Agent群组：东旭的“10亿token/天”实验</strong><br />
+东旭曾大量使用多Agent讨论群（slog，后改名raft）做代码审查等复杂任务：“一天大概是one billion的token消耗量，对应账单大概三四百美金。”方法是让10个顶级模型Agent互相挑错、迭代讨论，他称之为“agent动力学”。但他强调这是“不知道你们谁讨论得出来，就让你们一直讨论”的策略——前提是不信任单个Agent的one-shot成功率。</p>
+<p><strong>6. 范式转折：GPT-5.5与DeepSeek V4出现后，东旭从token maxing转向token efficient</strong><br />
+两个关键事件改变了他的认知。第一，GPT-5.5的绝对智商“碾压”——“前面烧了10亿token在V5这边非常精准的一次搞定了”；第二，DeepSeek V4的开源模型质量达到实用状态，他开始在本地Mac Studio跑DeepSeek V4 Flash，“大概能到30 token每秒”，一天电费约1美元。他的月度账单从高峰期大幅回落到两三百美金，主要模型也从OpenAI切换到GPT-5.5/5.6。</p>
+<p><strong>7. 本地模型解锁了新工作流</strong><br />
+东旭现在用本地开源模型做两类事：大量重复性日常工作和“不敢让付费API放开干”的批量任务——比如把CVPR所有论文先总结一遍。“你不可能用API去干的，太贵了。”他类比拨号上网到宽带的变迁：智能的“免费”会催生今天无法想象的新应用。</p>
+<p><strong>8. 投资判断：机会在中层基础设施，而非应用层</strong><br />
+东旭不投看不懂、自己用不起来的东西。他看好的方向：一是能帮Agent产出更好结果的中间层（数据平台、记忆、context management）；二是可观测性——“今天的CIO都在问：这些token到底花在重要的事上还是白浪费了？谁回答这个问题，我就买谁的东西”；三是agent cloud（他投了inforce）。张宏江补充：关键壁垒是垂直行业know-how与数据飞轮，纯AI效率工具“很容易被大模型打穿”。判断Agent native的标准：把Agent元素去掉后，这个事情是否还成立。</p>
+<p><strong>9. AGI判断：智能转折点“已经到来”</strong><br />
+张宏江认为，过去几个月发布的模型IQ测试均在人类均值100的右边，“机器的学习能力超越了人的学习能力”——当能力增加速度超过人类，就意味着奇点到来。东旭则称AGI是“marketing term”，他在等待更具象的事件：“戈德尔机的出现，就是真的能够自己改进自己的系统。”</p>
+<h3>独家细节</h3>
+<p><strong>1. Claude做PPT，顺手做了一个PPT软件</strong><br />
+东旭让Claude帮他做PPT并处理细节修改需求，“结果他不仅给我生成了一个PPT，还同时给我生成了一个轻量版本的google slides。他相当于用他自己做出的那个做PPT的软件，在里面帮我做出了我要的那个PPT。于是我最后不仅得到了一个PPT，我还得到了一个做PPT的软件。显然我觉得人类是不会干这种事情的。”</p>
+<p><strong>2. Agent群里的“办公室政治”：互相甩锅与认怂</strong><br />
+东旭发现多个Agent一起干活时常出现互相指责：“A选A指着A选B说，你看我停下来都是因为你……然后你会发现那个agent被指责多了，他好像也就认怂了。”但他随即解释，这是因为他给每个Agent写了人设剧本，而且“不要太当真，它只是在拙劣的模仿人类社会训练集里面的一些固有印象。”</p>
+<p><strong>3. 被Agent删掉生产数据的“翻车”经历</strong><br />
+“他把我的生产数据互删了，这种事情最后互相甩锅这种也是有的。”东旭靠自己做SRE的经验恢复了数据。但他不因此怪罪AI，反而认为这是底层软件的备份系统没跟上——人也会犯错，而AI的决策质量在有足够数据时是更好的。</p>
+<p><strong>4. 张宏江的“派对11点”比喻</strong><br />
+在被问到AI泡沫与市场何时冷却时，他说：“你想象这个party从晚上七点钟开始，一般的到早上四点钟结束，现在才11点钟时候。”派对还远未散场。</p>
+<p><strong>5. 东旭的蒸汽机信念</strong><br />
+“我也不相信AI一定会产生什么AGI，AGI是个marketing term。但我想造蒸汽机。哪怕第一代蒸汽机会犯一些非常傻的问题，比马车可能跑得还慢。但是我就要把这套系统给设计出来，因为它的上限是更高的。”</p>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，欢迎收听硅谷101，我是红军。如果说2025年是agent的元年，那2026年行业有一个有意思的变化。市场从开始讨论模型的能力变成越来越多的去讨论agent的工程问题。有一个从关注科研到关注工程的转向。曾经疯狂带头烧token的这些硅谷公司们，现在看起来也是慢慢的冷静下来了。Uber 4个月烧穿了全年的AI预算，meta计划限制员工的token消耗量。与此同时中国有一批开源模型deep seek GLM kimi，他们的模型能力越来越逼近第一梯队。现在硅谷的公司们也开始把他们搭进了自己的工作流。所以我们有一个问题，最大化token的消耗，无脑去使用最强的模型还是市场的最优解吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这集我们就来聊一聊从token magazine到token efficient，这背后正在发生的整个agent工作范式的变革。今天跟我在此两位嘉宾是黄东旭。东旭是lama ventures的合伙人，也是pink CAP的联合创始人和CTO hello东旭，你好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一位是张洪江老师，洪江老师是lama ventures的高级技术合伙人，现在也是美国国家工程院的外籍院士。同时洪江老师也是微软亚洲研究院创始成员之一，也是北京智源人工智能研究院的创始人，同时还是钱金山的CEO。洪江老师非常荣幸你能来做客我们的播客。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谢谢，非常高兴有机会跟大家见面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在开始的时候，大家要不要简单先介绍一下自己？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好好好，我是东旭，我是pink cap这边的CTO跟cofounder。最近有一个新的身份，就是lama bencher的合伙人。自我的定位肯定还是一个工程师。大家都知道这个，然后agent coding，我也是第一时间再去拥抱。第二，我是一个创业者，一直以来从0到1在技术软件行业，其实pin ka b和TTB是一个分布式的数据库。也是从北京开始步，慢慢的客户都遍及全球。我觉得第三个身份就是因为我是一个好奇心比较重的人，很喜欢自己去做一些东西。比如说像音乐，比如像一些艺术，反正这是我几个的身份。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为今天我们要讲token这个话题，然后我觉得请东旭来我们的博客，主要就是一个你是真正的在玩agent的人，然后一直在用的人，一直在搭程序的人。所以我觉得应该会有很多一线实战的经验给大家分享。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也一句话介绍一下我心目中的洪江老师。好好可以。其实我人生的第一份工作就是在微软亚洲研究院，当时我还是一个实习生。然后当时红建老师正好在亚研院，处于工程院刚成立的那个那个时间，是我心目中的大科学家。当然所以现在非常荣幸能够在蓝马venture里面再续前缘。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>洪灾老师大家好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是张宏江。我的状态现在是一种退休的状态，在两年前的话，大家看到了这一波AI所推动的新的技术的浪潮。中间耳环在里面起到一个非常关键的作用，尤其是在大的lab里面。无论是OpenAI还是n robic还是google，至少在技术上这些人都是骨干甚至挑大梁的人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>同时我们也看到这一波的创业的浪潮里面，其实华人的比例也非常高。无论是从大陆过来的，在这上学的、毕业的，然后在大厂工作的，还是说就在这儿长大的，二代、三代的华人创业的人都很多。尤其是对于原来背景在大陆的，早点儿来留学的这个华人来说的话。其实他们作为第一代移民，他们在创业中间会有各种各样困难。其中一个很大的困难实际上就是能不能得到他们所需要的资金。所以在两年多以前的话，我正好碰到了妈妈这个机会，希望能够以顾问的方式来跟妈妈的团队一起来做这些事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我之前的话从最早做研究，在新加坡的研究，在美国做研究，回到中国跟开复等大家一起创建微软亚洲研究院，从研究院做基础研究，做到工程院做产品的研发，然后到了出来做金山的CEO，然后同金山退休以后又做了一系列的顾问的角色，后来创建了北京智源人工智能研究院。这中间还另外花了很大的功夫做亚马资本的投资合伙人。我整个职业生涯中学到了很多，然后也有很多的经验和教训，也希望能够在美国这块儿和所有的创业者一起来分享。能够帮助大家在这一波的技术的革命的浪潮中间寻找到自己的机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我觉得AI这一波，它肯定是一个实实在在的对生产力的提高。但是因为现在大家基建的投资也很迅猛，包括我们今天这一集马上会跟大家聊的这个token maxing的策略，大家也在疯狂的烧token。您觉得现在在整个的大的市场里面，它是有一定的泡沫存在的成分吗？还是说你觉得他现在的基础建设是远远不够的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>去年的12月份，我在另外一个采访里面，这就是一个问题。我当时就说没有泡沫。2024年年底的时候，大家怀疑skin law是不是撞了墙，大家怀疑这是不是over 1万。但事实这样的我们今天看的话，其实远远没有达到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们所面临的是一个非常fundamental的一个革命。你可以跟互联网最早的基建开始相比，你可以跟当时美国快速的发展的时候建设铁路网和公路网来相比。今天你从绝对数是超过他们毫无疑问。但事实上你从占GDP的比例来说，其实比那些都小。即使从宏观的角度来说，也远远没有到所谓的over invest。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>另外一点就是其实你看token是很贵，但token那个消耗量的话其实增长的非常快。还有一点大家忘掉了，其实token的价格在过去的几年一直每年降十倍的这样的速度。无论是英伟达的芯片的进展，还是其他的方面的进展。所以我依然会非常有信心，我不觉得是存在着太大的泡沫。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然你说股票市场是不是存在泡沫，那是另外一回事儿。但是技术的发展，应用的发展，我不觉得存在着什么泡沫。也正是因为这次革命，它的浪潮是如此之大，而且如此迅猛。其实很多潜在的用户的话，也包括很多的大的企业，他们有一些不知所措。无论是说他一开始就放开用token让大家去试，还是说突然发现这个投放量可能超过他当初的想象，然后开始往回缩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是一个很自然的一个过程。因为AI的能力如此之强大，那么到底先把它用在公司里面的哪个环节，先去提高公司哪方面的效率？这个实际上还是一个探索的过程。但是因为速度来得如此之快，所以有时候大家会觉得有点不知所措。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，东旭，你有补充的吗？我看他刚刚在说没有泡沫的时候，东旭立刻比了一个大拇指。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我也是完全认同是这个观点。今天我们去看待AI的这波的基建，就跟我们可能上世纪五六十年代去看待计算机刚诞生出来的一个房间的电子管好大好贵，但是你想象那个时候还没有个人计算机。有很多很多的需求，其实是有充分的基建了以后才会诞生出来。而且这些新的需求诞生出来，又会刺激更多的基础的建设，或者说一些更新的基建的技术的出现。所以我觉得还远还有很多事情可以做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二，从一些微观的工程，哪怕是今天的架构上来看，我觉得还有很多事情是可以去优化的。比如说今天在模型的推理A整个的框架对token的高效的使用上，其实还有很多的优化的空间。只是说因为今天的需求和大家看到这个市场的预期，说我们先发散，不要顾及我花多少出，肯先看看有没有哪些事情地球的果实能够摘回来之后再去考虑优化的事情。所以短期可能会有一个小的回落，但是从长期来看，仍然是有大量的需求还没被人看见。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我们今天录这期播客的时间是在2026年的7月4号，我觉得正好也是在一个市场的转折点上。就像刚刚洪江老师您提到的，最开始大家发现这波AI浪潮来的时候，像真的黄，他其实就在GTC上说，我要求我的每一个工程师，你们都要烧很多的token账单，包括meta它有一个token的排行榜，看哪些员工烧的token多。所以我觉得在过去的八个月里面，可以说整个硅谷用AI的策略，我们可以叫做token maxing。就是最大化的使用token，最大化的看大家能把agent用到一个什么样的程度。但是到今天来说，其实我觉得现在这个市场大家又开始有一点点转折了。就比如说uber他给员工发的token额度，后来又因为成本收回去了，他们基本上四个月把整个全年的预算烧穿了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我前几天去stripe跟他们负责AI落地的人聊。他们给我看内部的那个大模型，上面就写着open 4.8很贵，大家用的时候可以省一下成本。先用其他的模型，不是所有的任务都要用这个模型。就是你打开那个页面，那个页面一下就弹出来了这样的一个提醒。所以我觉得今天我们聊的这个时间点很好啊，怎么样更加经济的使用token？而且我觉得这个背后可能也包含着一系列agent的变革。因为东旭其实你一直在玩AI agent，你有没有经历过这种一段时间的，反正我就无脑使用，我用最强的模型，然后那个时候你有没有一个账单爆掉的时刻？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实当然有。我先说一下我token messing的历史，虽然我现在可能并不是token maxon的流派了，已经我就像你刚才说的这种属于无脑用最强。也不要说去花太多时间去在一个不太行的模型上去做很复杂的工作流，相信模型的能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是大概从去年的11月份开始，我其实做了几件事情。第一就是我开始在用oppos从0到1构建一个我能想到最复杂的软件。因为我一直做数据库的，尤其是分布式数据库，其实是最复杂的一种系统软件。我想看看当时的AI对于这样复杂的大系统来说，它的边界在哪儿。所以在这种最复杂任务上，我其实没有办法很精确的评估最强的模型跟第二强的模型它的差别是什么。所以对于你来说，最好的策略就是永远选最好的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得现在今天仍然有同样的问题，大家对于这个模型的能力评估基本上只能看个benchmark。但大家知道这个benchmark其实是很多时候你是能刷榜的。当你在做一些不太确定，但是你又知道这件事非常难的时候，你一定得用最强的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是我之前大概刚才我说到一个时间点，就去年11月份那个时候像ops跟GPT5.1，他们对于第二档的coding的agent是断崖式的领先。开源模型基本处于一个做一些简单的1加1等于二的事情可能还行。但是你真的要去做一些复杂的软件的编程，大的项目的改进，那时候是完全不行的。所以took messing，我觉得那个时候是一个好的策略。但这个策略我觉得后来在社区里面大家都把它误解了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得token maxon是一个结果，它有点像像一个lacking indicator，但要经过思考的去took maxing，你能产出一个很好的结果。但是像刚才你提到的很多今天的大公司，包括杰森黄说，大家一定要疯狂的用。我觉得有两种疯狂的用法。一种是你知道你在干什么，你很好的设计，然后疯狂的用。另外一种是你不知道你在干什么，只是觉得公司有个排行榜，我必须得把它刷到榜单number one，于是就出现了很多无效的调用。因为我觉得尤其在大公司里面，只要领导提出一个要追求一个榜单，那一定大家会去去刷这个榜。这个是我在meta和NVIDIA去提token messing的时候，第一秒钟我就想到会出现的一个问题。今天我觉得又有点不太一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，您刚刚提到了去年11月份，然后你是在用最强的去完成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个我能想到的最复杂的软件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，那个时候你的账单大概是一个什么样的情况？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我当时我一天可能得花掉四五百美金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一天4500美金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且这个1400美金还是在我已经用了cloud code的那个pro max的subscription的情况下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再加200美金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，再再往上再加，因为它它有一个量，对，那个量daily的量和weekly它有一个limit。我那个用完了，你就得再自己掏钱去买XR usage。所以当时我用的还挺疯狂的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>帮你提升了多少效率。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是不计其数的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为钱花的值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得超值。我举个例子，就是很多时候一件事情是从0到1。比如说有些事情我觉得我肯定做不出来，但是用上最强的AI以后，他能让我做出来了。你说他的ROI是什么呢？比如说像我做的那个软件，我在我的公司内部，其实我们的销售期待那个软件已经期待了很长时间。我确定如果我这个东西做出来质量做到七八十分，我一年可能就能多1000万美金的直接的收入。因为我的客户就在那等着，只是以前我受限于人力技术的水平，我做不出来。但今天我一个人三个月我就做出来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个人三个月差不多做了一个可以销售额达到千万。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>美金级别的东西软件。是的，这个我觉得完全可能的。今天你要这么算，你的ROI其实非常高的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个真实的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>例子这是一个真实的例子。对对对，那个项目叫DB nine，是我新做的一个云原生的分布数据库。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是从去年的11月份到今年的二月份。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实应该说12月份到今年3月.</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那差不多这个时候也是open cloud已经开始出来了。后面open cloud有帮上忙吗？没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，open class是另外一个story，它更像个人助理。最早的时候我不太想让open cloud来写代码，因为其实open cloud产品设计并不是对这种重度的软件工程设计的。它更像是说去连接各种现实世界，通过agent的能以去操作。比如说过去我们在工作和生活中的常用的一些流程，它更像一个个人助理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>类的事情OK。所以其实后面open cloud真的出来的时候，你反而觉得他在工作上没有帮你太大的忙。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>编程上没有日常生活。我觉得肯定是一个很好的东西。当时我觉得它代表了一个信号。其实对于一些玩agent玩了很久的，比方从club core开始的这一波弄潮儿，像我这样的其实open cloud的出现，它其实只是说把cloud code以及像code dex这些编程agent代表的一个理念就是agented loop加上工具调用。把它变成了一个更general，对普通用户来说门槛更低的东西，相当于让他走进了千家万户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得事实上Peter作为open cloud的作者的话，他能够花一个礼拜就把open cloud做出来。对于我来说最大的意义在于宣布了大模型的能力过了一个坎儿。它的推理能力如此之强，它的编程能力如此之强，使得做一个架构师这种级别的有经验的工程师的话，能够用它来很短时间内就能做出一个系统。包括刚才东西所说的，三个月他能够做出一个最复杂的分布式的数据库。这其实标志着大模型的能力跨过了一个坎儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是真的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以落地开始。就是大家可以把大家可以真正的把聚焦从原来的大模型本身到大模型的运用这块，包括编程，包括用它来做其他的系统。再一个就是说我刚才强调的Peter他作为一个架构，是一个软件工程师，而不是作为一个scientist。意味着其实你也未必再需要那么深入的懂大模型本身的机理，你就能够去用它来做你想要做的系统。这标志着从研究进入工程，从这个模型进入agent.</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个总结特别好。你觉得是哪一版模型它的能力做的这样的一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>跨略cloud的这个open是4.44点几，就去年4.54年11月份，今年11月份。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我是从那个GPT5.4开始，去年7 8月份。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后我记得去年其实在open cloud出来的时候，就是我遇到了蛮多的founder，他们会给硅谷101写信，他们会说像open cloud这样的agent的产品我们也搭建了。对我也能写，我们搭建了很多类似于这样子的agent，而且你可以测一测我们的这个效果不比它差。所以当时为什么是open class火了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得很多事情你事后诸葛亮总是有道理的。但我可以从一个开源爱好者的角度去说一下。首先open cloud其实是一个开源软件，开源在今天的天生更具有传播力。当你做一个agent的时候，如果你是个闭源的，是个商业产品，大家可能就你这个是不是广告什么的。但是如果是一个民主化的开源的软件，那就每个人都可以去用一用。这时候它的传播，尤其是在这种geek的圈子里，我觉得一开始大家去看open cloud的传播，其实都是在一些极客和一些工程师的小圈子，然后慢慢的扩圈。这帮人是对这种商业软件或者说闭源软件，或者说平台的软件多少有一点点抵触心理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但如果这时候是一个完全开源，而且大家有没有注意到open COUD1开始的理念叫local first，我所有的这些隐私的东西，我的数据我都要在本地给配好。但我非常理解作为一个硬核开源工程师的Peter做出这些技术选择的原因。因为这些选择完全是一个也会做出的选择。而且这个game这个圈子传播力我觉得还是挺强的对，有点像当年linux的这种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我自己当时看这个Peter的思想，就我看过他一些访谈，他有一个想法挺特别的。他说我其实是可以把我个人所有的东西，所有无隐私的全部交给AI的。因为正是因为他给AI开放的权限如此之广，所以他才说要把这些信息资料配置在本地是很重要的。然后我觉得还有一个临界点是当时正好是cloud，他又升级了一下他的模型，就是那一版的那个模型智能。至少从我当时使用的感受来说，我觉得跟前期版的那个智能是天壤之别，然后会让我觉得效果很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个时间我觉得大概是二月份春节的那的时候。但其实作为一个engineer，其实在去年的11 12月份已经感受到这个浪潮了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我就劈着他自己也说，那时候他用这个cloud web coin，他一直觉得像open cloud这样东西，现在ready可以做出来了，而且用户也会需要这个。但是他当时认为这是大公司一定会做的事情，他等了几个月说为什么大公司还没有做，所以他就把它开出来了。是的，对，这个故事也说明了，其实当大事ready之后的话，其实就需要一个人捅破一张纸，而urban cloud正好就捅破了这样子。另外当时open source这件事儿，这个community很有意思。它一出来以后，他一周以后还是几天以后，你买出了一个mobile，就相当于一个agent的社交网络，或者是你的澳门class和我的open cloud这样一个社交网络。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那这种爆发是如此到中间发生的这些事情本身也是一个非常好的传播事件。包括他们成立了几个教，很快就大家推行了几个先知。这个本身也是让人们突然意识到本身的能力真是达到了我们之前所想象的这种自主这样的能力。所以这个是我觉得open cloud之所以这么快速的传播，快速的进入到每个人。另外从时间点上来说，大家用chat board也是已经用了三年多。你只能交流而不能够让他来做事儿。这个时候也是大家从cloud code看到可以开始做一些事儿。Open cloud出现正好让大家意识到说是你的日常你在PC上做的事情，在手机上做的事情，其实A型的基本上都能做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他有哪些不足呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为刚才其实洪老师也提到Peter一个人外coding了一个礼拜出来的东西，他自己可能也完全没看过代码。其实很有意思，Peter是某一个时间应该是anthropic他的个人token消耗量。据媒体报道，他30天内的API使用金额高达130万美元。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说他做了open .</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>class.</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前还是之前就是他就之前。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就一直在玩这个东西做的很快，但是这个东西的质量其实没有精雕的细作给即刻用没问题。但是当你变成一个广大用户都在用的时候，它各种配置的难度，或者说它的系统的稳定性，就各自都成问题。所以这是我觉得第一个问题，就是我觉得给我的启发是什么呢？今天很多人说随便任何一个人闭着眼睛就能web coding。一开始我觉得open cloud这个例子可能好像也似乎说明了这个事情。但是后来慢慢的你这个软件做得越来越深，你就会发现，好的一个软件工程的习惯和经验还是非常重要的当你的这个软件的复杂性超过一个临界点以后，你要去花更多的精力再去提升体验和提升这个稳定性的时候，我觉得非常senior的研发团队还是非常必要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个的不足，我个人觉得还是起得太早了。我觉得它更像一个实验性的项目。可能Peter一开始也没有想到他会做的如此爆款。但今天大家可能也看到，现在可能OpenAI的自己A上的这个也慢慢从open cloud这个开源的项目，实验性的项目转到了他自己的那个codex上面。所以我觉得这种持续的资源投入可能也会成问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以到最后我觉得跟他的DNA是非常相关的。它就是一个极客圈子里面自己玩的一个原型。所以我觉得它的终局可能天花板也就是是这样了。而且现在他其实有点像扮演一个普罗米修斯的角色，把这样的产品形态，这样的产品能力让世人知道了，他的历史使命可能就完成了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以你觉得他可能也很难爆火跟持续的走下去。他现在基本上也是在靠他的基金会在运转，因为创始人Peter他已经逝去OpenAI了。因为在open cloud出来以后，有一段时间里，我身边还挺多人都在玩的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看大家提的觉得最不好用的一个点，就是你怎么让他记住你过往的历史偏好，然后你怎么让它有一个更好的记忆功能。因为如果你用的越多，你就会发现，当你对当你不对对对，当你不去做这个记忆的储存的时候，它会不停的回滚。这一个是特别的消耗，头肯，它也会带来很多记忆的混乱。这个情况下，就是我看还出现了之后爆火的一个agent叫做hermas。它其实是一个web 3的机构，叫nars research。他来做的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你应该也是用过这个agent的重度用户。其实在home出来以后，我很快就从那个open cloud切到hermanus了。刚才你提到的memory这个点，现在仍然是一个open question。并没有说谁家就解决得非常好，而且大家也都在尝试各种各样的记忆制作唐璐记忆的方式，只能说今天肯定比当时二月份的时候open cloud出来老是忘事儿的情况要好很多。但是仍然我并不觉得它是一个perfectly去解决记忆问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天我觉得还没到这个阶段，我觉得它的亮点是另外一个亮点，它其实很巧妙地绕开了记忆的问题。并不是说记忆模块设计的多么出彩，而是他在他的agent的框架里边有一个很强的倾向，去不停的总结成功经验总结成skill。其实小龙虾的agent loop里面，它们缺少一个反思的过程，就是它的反思是比较少。你除非主动的要小龙虾说，你把前面做成功的这个你给我整理成一个skill之类的。但是hermes引入了很多类似的机制，它就能够持续的优化自己。你用着用一段时间就发现他长出了很多最佳实践，都是以前你自己做过的。这些最佳实践变成一个skill，然后记下来了，我觉得这是它的一个亮点。虽然他可能在广告里提这个世界上第一个自我改进的agent，或者说会自我学习，这些都是marketing的词。但是我们看到本质，它其实就是用模型的能力加上一些工程化的手段总结成功经验，去把这些能力变成一个可以复用的一个个skill。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可不可以理解成它的运营很强，因为它会沉淀成各种skill.</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，这是一个工程问题，它跟模型本身的能力我觉得并不相关。他只是说我在这个里边我发现每一次成功了以后，我就尽量的做个梦，或者说我去把前面的经验我自己再总结一下，就有点像一个更好的学习习惯。但是它另外一点，我觉得做得非常好。因为刚才说到open cloud的代码质量和稳定性其实挺成问题的。Hermas显然是经过精心设计的一个软件的架构。因为open我觉得更像一个大集市，每个人有什么想法直接往里面提交。Peter也是非常open的，谁有什么想法直接合了，我代码也不看了，action说没问题就行了，那后面会稍微好一些。它其实是还是由那个团队精心在打磨的一个东西。所以你的这个on boarding的体验，各方面稳定性都会比open cloud更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>莫斯怎么赚钱？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们的商业模式是啥？我觉得今天你有足够的用户量，能够帮不同的模型厂商带token的消耗，你的商业模式简直不要太多。比如说我举个例子，在后面里面我可能跟某一个模型厂商去谈一个渠道，我这边能够帮助你去消耗更多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更低的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>折扣低折扣。然后token其实在这里面它充当一个入口，入口是很重要的。所以哪怕今天我觉得做agent本身，就像刚才宏江老师说的，今天已经成为了一个工程问题，其实谁都能做。但是最后发现这个入口会变成兵家必争之地。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以它本质上它的商业模式还是token经济学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是的，今天看到是的，但是未来我觉得可能会有更新的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说用户付费，各种对用户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>付费增值服务，A站互联网A.</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>站互联网是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这些都是我们现在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天YY它有一点像移动互联网时代爆火的超级应用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>甚至更极端一点，往下推演的话，它也许会变成唯一的应用。因为未来可能每个人的跟数字世界打交道的入口可能就没有APP了。你想象一下今天小龙虾出来以后，我再也没打开过我的gmail我都是每天让我的open cloud来说，我这几个小时有哪些新的邮件，哪些需要回的。如果有有一些广告的字把我删了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这个就是你怎么去判断重要的邮件怎么回复，以及需要你个人信息的邮件怎么回复。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我不能代表所有人，但我是一个智能原教旨主义者。我相信比如说一个OPPO4.8，他判断这封邮件是重要的邮件，那对我自己来判断大概率也是是重要的游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你相信他我相信他他有判断错吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有一些时候他判断错，但他至少说都能告诉我他不虚伪的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>把这个他会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>直接告诉你说有这个邮件，他看起来像一个广告，但是我现在不share，你来再做最终的判断。不仅是邮件，比如像你订阅了很多那种邮件组，经常会给你发文章，什么hack new什么这些。你有没有发现最近你越来越多的开始依赖agent作为入口去消化这些信，而不是在跑到纽约时报，或者说跑到high new上去一篇篇的去看文章。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他会给你总结，还是他会给你一个全文？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在一般是先扫一遍总结，如果我看到感兴趣的，然后我再点到他的原文里面再去看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以它变成了一个类似于有一点像新闻集合的这样的一个APP一个总的。是的，我觉得这个对媒体行业的冲击很大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那是这个已经发生了好久了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这就有点像新的形态的今日头条。只是说他不光是帮你读新闻，是帮你读email，帮你读所有的发给你的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且你想象一下，像你的个人agent是拥有你所有的footprint的。就是你的记忆，你的浏览的记录，你的偏好，这些偏好又会持续的。之前像open cloud有一个社区里面有个词我用得特别好叫养龙虾。养这个东西就是说你会不停的去迭代，让他更理解你。所以我在这里面颠覆的是可能传统这些媒体的推荐系统什么的。推荐系统它只能说我根据大的数据或者说整个社会的一些trend这个模型训练出来一个推荐算法。但我觉得真正终极的推荐算法就是在你本地，在你旁边坐着的一个观察着你生活在数字世界的，甚至物理世界的所有的event。同时它是一个智能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我用过一段时间，就是让open cloud帮我精选一些新闻，我觉得我最终没有用了的一个核心原因还是他给我的东西太浅了。然后我觉得很多东西我还是要看到一手的新闻，跟我更愿意读更少的文章，但是更深度的文章。但是我觉得还有一点就是他帮你回邮件的时候，因为邮箱信息里面其实是涉及到很多简单的信息，是很好用agent回的。但是最难的是涉及到你要做决策的时候。比如说今天我约了你来录我的博客，你要自己去想我录不录，我什么时间录，我的开放时间窗口是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些需要决策的事情，我肯定不会让他完全去做这个决策，而是需要让我决策的时候让let me know。只是说我在用我的action当一个filter。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之后我看你又有过一次的迁移的心路历程，就是你转到了slog。他是kimi CLI的负责人钱宇超。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>创立的对RC.</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个什么样的例证？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很有意思。首先我是slog的第一个天使投资人，也是他最早期的用户之一。Slog现在改名叫raft了，但是为了大家理解方便，我还继续用slog这个名字。大家肯定用过slack是吧？Slack是大家在一个会议室里，一个channel里面，然后互相的讨论聊天的一个平台。Slog顾名思义就是把这个想法平移到了agent上面，它的产品形态可能也像是一个聊天室，但是里面在聊天的都是agent。然后这些action，互相不share自己的context，他们唯一share的是聊天的channel里面的信息。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个跟mode book其实是有一点有一点点异曲同工。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得moto更像一个社会学实验。但这里面somehow这个模式是有用的。只是说它作为一个notebook的这种实验，大家就很容易被他的这个行为艺术的方面忽略掉。它有用的那一部分。有用的部分就是我就在一个小范围内，针对某一个话题agent之间的讨论。虽然可能百分之八九十的时候都是在车轱辘话，但我觉得agent有一个好处就是尤其是智商比较高的模型，他没有eagle。所以当某一个瞬间，某一个agent提出了一个大家没有看到的想法的时候，大家马上就会发现，你说的有道理。于是这条重要的信息就会再次触发这些agent的讨论。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>举个例子，我经常会用slog去做一些复杂软件项目的代码审查。就是说这段代码提交你不要说通过了就合并了。比如说十个agent里面有一些是cloud code，有一些是code x然后都是顶级模型，然后在大家都充当给这段代码挑刺儿，对吧？有些人可能简单看了看说，我看了三个字儿，然后下面一个人说，我也看了前面那三个字我也认同，但是我又发现了一个新的，然后就发现上面那个看出三个问题的说，哥们你说的有道理，然后我在这个角度上我再继续看一看。这么持续的迭代可能took maxing一下，你就会发现它会比单个模型在one shot上去review。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这份代码挑出来的问题和改进的深度是完全不一样的。它唯一付出的代价就是可能我的图粉销售量是普通的十倍。这个就是为什么我刚才说我有一段时间真的是token销量非常大。最大的时候有就是我说的，就是一天大概是one billion的token消耗量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对应的账单是对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就对应账单大概三四百美金。对我当时用法就是这么用的。同一件事情并不是说agent干完就干完了，而是任何关键的决策之前都要让agent通过这种方式不停的在一个群里讨论。我会强制要求他做完这几轮讨论。虽然我也不看他的结论，但是我相信你只要token的在这个正确的事情上消耗到一定的程度。当然我有个宗旨的条件，就是当你们谁都挑不出更多的毛病的时候，你就停下。我觉得slog他们团队发明了一个很有意思的词，叫做agent动力学。平时大家经常会发现，让agent持续很长时间运行是一个挺难的事情。其实我觉得今天所有的不管是honest也好，还是loop engineer也好，他其实就在优化一件事情，就是怎么能让一个agent在一个特定任务上持续。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不停的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>干持续不停干活。对，是的，你能说slog就找到了一个大家一起七嘴八舌讨论的方式，让他持续干活。Loop engineering是每次他要停下来的时候，强行抽自己一鞭子，然后再回头去的ponies。就是说把多个工作流搞得越来越复杂，最终的这个效果就是大家能持续长期的干活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么需要时间长呢？就是因为有时候模型虽然今天很聪明，但是它one suit的时候仍然还是会有一些station，或者说在一些小的点上考虑的没有那么周全。这时候你再进入一次迭代，他就能看到以前看不好的东西。我觉得这跟人类社会多少有点像的。就比如说小时候我们做作业，做完作业了以后，父母总是说你再重新算一遍，看看有没有什么问题。然后有时候你就会发现，我第一遍的时候确实马虎了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我听下来你现在使用agent已经有一个过渡了。就是从自己搭建的agent框架到open crew，到hermes到lock，从使用单个的agent到使用到了一个agent的群组，然后让这些agent相互check。同时从比如说我们一次让agent读个邮件，他可能一会儿就做完了。以他的能力来说，但是我们让他持续不停的工作，你这个事情干完了以后，你还得马上去干下一个，甚至在干下一个的时候，你得不停的给自己挑错，看看你这个里面是不是做的足够好，就是有这样的一个过程。这个是终点吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是终点，我曾经觉得这是终点。刚才跟你说的这些认知，可能是大概今年3 4月份的时候的认知。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过了三个月又。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>迭代了又迭代了。我觉得最核的变化有两个关键，一个是PVT5.5，还有另外一个是deep sk refer的发布。最近的一个事件是fb这三个事件我分别说一下，对我刚才说的那种token maxing的认知发生了一个巨大的改变。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>开始要转向token efficient了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，我觉得从35开始说起，我觉得GPT5.5是有点类似的。355的模型强大到因为刚才其实我说这种把多个agent放在一起讨论有一个前提就是你不相信任何一个agent在one show的成功率。你一次让他干一个活，一复杂这就干不出来。或者说可能这个调用链路比较长的时候，他会顾此失彼，经常会有这种问题。所以你就需要多个人，三个臭脾气这样凑在一起，让最终结果有个兜底。或者说大家多次讨论，充分的利用好自己的上下文空间。但是vivo 5强盗这些人讨论半天讨论不出来的东西，可能在vivo 5的绝对.</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的智商。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>面前一次就解决了。所以这时候你会发现，我前面烧了10亿token在V五这边非常精准的一次搞定了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以绝对的智商碾压。而且他还没有之前的上下文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还没有之前上下文，我就直接说有一个很复杂它的bug，或者想做一个很大的功能。那边他们已经讨论的不想再讨论了，但是还是做不出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是不是证明只要模型的智力足够强，他真的是一个人可以干掉一整个互相验证的agent的团队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这是yes，I know yes. 就是说在这些单点的复杂问题上，哪怕是很很充分的honeys也会遇到一些搞不定的事情。这时候你还是能期待一个更强的模型，在这种除安家级的地狱难度的问题，它还是能搞定的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个就是deep CV4的出现，我发现他的能力已经强到了开源模型非常实用的状态。以前我是不相信开源模型的，尤其在我一些主要的复杂的软件开发工作中，我是不信任开源模型。但是DBC ref开始我就发现，这个东西它的质量已经非常高了。最近很大的新闻是那个GRM5.2又把我对开源模型的认知往前推了一大步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>质朴的这个对对对，这标志着我可以用顶级的模型与这些便宜的又很聪明的开源模型做协同。就很像一个企业真正出现管理学了是吧？就你不可能说一个公司里边整个公司全都是像洪江老师这样的非常资深的专家。你仍然还需要很多像我这样能解扣的跟工程师一起去协同。所以我觉得慢慢的头部模型跟开源模型的配合，这个是一个更经济的方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>开源模型你是搭在本地都是本地，你现在用的是V4还是质朴的GLM5.2？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在我自己本地运行的是deep sick v4的flash是在一台我的mac studio上去运行的。它其实可以在你的家里的电脑上运行，大概能到30 token每秒。这个速度其实已经跟你在网上用OpenAI的API什么的这些chat boot速度已经差不多了。这个是最近的一个认知的更新。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我可不可以理解成当你在本地搭了deep sick v4的模型以后，有一些任务你不用去调那API接口了。然后你所有的消耗就是电费跟你的电脑折旧的费用，它其实也没多少钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊这个几乎在他完成的任务面前可以忽略不计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得对我看之前你有提到一天的电费可能就是在一美元左右。对，一个月2 30美元。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这还是在满载的情况。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我理解他搭建的就是一个初级。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>员工的环境，我现在在用开源模型做两件事情，一个是大量的重复性的日常工作。比如说像我自己的文章记忆和和数字的足迹的整理，就是我自己的一个蒸馏。第二个事情就是其实有很多以前我不敢让oppos放开干的，有时候我特别喜欢看论文，我当然也看不过来。所以我就经常会说，今年CVPR所有的论文，你有IPS所有论文你先帮我总结一遍，看哪些有意思的再给我汇报一下。像这种预期可能有几百篇论文这样的规模的时候，你不可能用这个API或者说付费的去干的，干不了，太贵了。当时我就在自己的开源模型上就跑一个工作流，然后持续在那跑着，我觉得会unlock非常多以前我不敢在付费的模型上做的事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>太贵了。就看一批论文可能得几百刀。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但我觉得这是一个心态上的变化，并不是我掏不起。几百刀，而是会想着这个东西不是我控制。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我懂，就是你不知道他会跑出。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>多少的API.</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>多少token的价格。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得这个有一个很好的比喻，就像宽带，因为我觉得最后它可能顶闭源模型，通过API的这个依然会存在。但是开源模型加上开源的硬件以及够用的开源模型，也会产生一个非常大的生态。在宽带出来之前，大家知道，我第一次上网97年还是拨号，它是花你电话费的，上网一分钟可能就是几分钱这样的。所以大家上网都是省得上，但省得上的这个时代一直我觉得到这种免费的宽带，包括现在手机上的大容量的套餐，才会去催生出很多像抖音像视频的会议，各种各样这种新的应用出来。在那个时候肯定是不行的。所以我觉得模型或者智能这件事情，免费跟很低的费用它仍然是有着天壤之别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以现在你把你的agent一部分相当于在云端，然后一部分在本地做了deep seek v four flash的这样的一个本地模型的组合之后，你的账单降到了多少？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这我觉得是跟我的workload变化也有关。那个项目已经过了代码非常疯狂的堆积的那个阶段了。我现在账单也就一个月2 300美金了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是一个正常的账单，一个月2 300美那很便宜，这个跟订购一个cloud.</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的价格也是订购的最高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>版本的价格。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个最高版本的cloud加上一个最高版本的codex，基本上套餐的钱我都用的满。但是我慢慢的从ops我的主要模型现在变成了GPT5.5和5.6.</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以及因为codex比较好用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我个人感觉比较好用。但是在一些最复杂任务的时候，还是赛跑5非常惊艳。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哪些算复杂任务？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像一个数据库里边疑难杂症，或者说有一些需要修改七八个模块，同时提交5 6000行代码要解决的一个很难的问题。我反正我自己的一个标准就是当我的在slog里面的agent开会解不了的问题，我都会让你们现在别干了，给我写个报告。为什么你解不了？然后我就转身把这个报告发给F5，说你看这个是他们前面的问题，他们还能写报告，那肯定你只要要求他们写，那肯定不写了。我觉得这只是代表一种新的能力。其实做这些事情的时候，我都完全不关注底下的代码，我其实就关注一些很有限的事情，细节。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我已经完全不关注目标跟最后的执行结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目标验收以及这个事情的架构应该怎么做。然后中间的这个过程，我其实是不停的在去调动不同的agent，不同的能力，让他们更好的协同。我觉得后来会变成这种agent的管理学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以现在这个是你的终局，就是还会有再一步的进化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定会有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在进化到这个阶段了，就是本地模型加上云端的模型一起搭配的agent的团队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我过去这一年学到最大的事情就是千万别随便说什么叫终局。第二永远相信scaling law，永远相信智能。我至少还没有达到某一个点，这个点是说人类已经无法评估这个模型好坏了。我觉得今天还没到这个点，一个模型好跟坏你还能看得出来，fab 5就肯定比deep sick要聪明。但是我相信不久的未来可能真的会出现到某一个moment，哪怕是开源模型，你都没有办法评估他。因为他太强了，以至于你问了任何问题，做了任何复杂操作他都能干。那这时候他再强，我们已经没有参考系了。我觉得这天其实是能看得见的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你觉得从你的最大化使用token到开始经济的使用token的这一套转变中，你预测未来像硅谷的这些大公司，他们会多久把这个工作范式转过来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得现在正在发生了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以cloud跟OpenAI他们每个粤API的消耗量跟ARR，你觉得它还会是在一个持续的增长中呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得还会增长。这两个其实你不能完全放在一起类比，我们先说为什么这么消耗肯，但大家也不要神话agent，其实agent这个从工程来说原理上还挺简单的。每一个agent内部它都有一个类似像发动机一样的东西，我们叫做agent&#x27;s loop。它就是一个内部的一个循环，这个循环每一次都会在中间调用大语言模型去相对问问题或者说去对话。它本质上还是个对话机，只是说把这个对话的过程变成一个loop。然后这个对话第一它的特点是它在对话里边去调用外部工具，然后把外部工具的输出变成这个对话流中的一个上下文。第二个特点就是它在复杂或者说长城任务下不一定会说两句话，他就结束这个循环。这个循环可能会运行几百步，这几百步中间又会有很多的工具调用，这些工具调用的输入跟输出又会变成单元模型的上下文。这种pattern就导致了这个agent它的对于token的消耗量比chat boot时代可能涨了100倍都不止。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>虽然今天我觉得有很多人为的浪费，就比如meta里面刷那个token的榜，可能你就跟agent说，你帮我去算100万遍一加一，你也能把这个榜刷的很夸张的。但是只要这样的pattern是存在的或者说成立的，还会有更复杂的系统出现。我举个例子，今天我们其实在聊agent的时候，刚才我说的这个架构只是单个agent内部的架构。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我觉得到最后其实可能是一个在面向更复杂的问题时候，就需要多agent的协同。这个协同又会变成一个更大的网络，这个网络之上又会有一个更抽象的loop。我觉得这种hera的结构现在已经在出现了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你觉得即使说我们现在在找到一条本地化agent，尽可能的节省token的量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是说他是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>点单点的问题，我们把它是解决的更好了。但是整体上它的消耗还是在持续的增长。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，因为这个里面有个软件工程的问题。我们今天其实可能看到的一些程序，比如说我再类比一下计算机历史在早期的，比如在佳能俱乐部里边，一些计算机爱好者当时都在分享这个。我写了个200行的basic程序，这个游戏很好玩，大家share一下。可能那时候的程序就是几张纸，一个程序员几千行汇编代码可能就结束了。但今天我们就看一个photoshop，没有数千万级的代码，对吧？所以我觉得今天我们的agent的应用，以及我们想要让agent解决的问题还太简单了。如果agent的能力到达了一定程度，要去解决更复杂问题的时候，它必然会出现一个agent to agent的network，以及agent harness的软件工程出现。这时候他对图肯的消耗又会上一个台阶。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对洪江老师怎么看？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实刚才董旭描述的这个现象的话，在经济学里面就是加本是老。就当你的技术越来越成熟的话，它的价格会变得越来越低，但是消耗量本身会变得越来越大。所以这样的话，它这个市场变得越来越大。那未来开源模型、闭源模型哪个能够走得更快，或者哪个是在本地，哪个是在云上。我觉得更多的这是一个生态里面的这种竞争，生态里面这种成熟，今天还很难判断哪个最后能胜出。还是说你就需要一个agent，或者对于我们常人来说的话，是需要一个工作的agent的一个生活的agent，还是说像东旭这样需要多个一起来做事儿。其实不同的人群还是不太一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今天之所以包括在企业内部大部分的IT上了云，它一个很核心的一点，其实对于一般人来说，他们没法handle复杂的IT系统。一个公司的话，他也很难养一个ID团队，他能够handle如此复杂的ID系统对吧？所以如果你将来再有很多agent这样的话，他可能也很难handle这么多agent。不要你说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>agent自己去handle其他的agent的庞大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的企子公司整个环境给它搭起来这个环境。当然你可能会把它交给更强大的agent去做对吧？这个强大的愿景可能就在云上我们做IT的人或者是做IT产业的人都会希望自己今天的产品未来会在这个生态的核心位置。比如如果你是做PC的，如果你是做小服务器的，你就希望这个都是on promise本身我可控，你是做云的，你就希望是未来都在云上。这样的话对于用户来说就变得transparent。他就不需要考虑架构，甚至不需要再考虑我要买一台卖，还是我要买一台dell的一个服务器，还是我要买一台联想的小型服务器。下面的这个evolution的话，还有很大程度上是一些非纯技术的一些考虑。但有一点我是非常同意的，一个是单个整体的智能本身会变得越来越强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>智能本身变强也会更加消耗token.</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对不对？我可能这样讲，你会更加消耗token，但是token的价格也会降得非常快。最终他不一定说是他的ROY会受到太大影响，事实上他能做的事情会越来越多，他可能做这件事情消耗的token可能也越来越多。但是另外一个角度，刚才东西也提到越来越高的智能，使得这个A技能本身可能也不需要持续的去问大模型。所以他可能这种对话的频率也可能降下来，对吧？所以也许他们的消耗量可能不是那样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>未来一定是一些超级强的agent和超级大的蜂群来做事情。这些群里面的每一个agent，也许他是特别擅长于某一些任务，或者也许它的背后所用的模型可能比较专用，或者比较小，或者token价格比较低。也许另外一种就是他们都是由一两个非常powerful的大模型来驱动。这个是还需要不断的evolve.</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个层面上会有一些涌现的智能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对，会有一些涌现的智能出现。最近有一篇清华大学的一篇文章，就是说到三个臭皮匠是超过一个诸葛亮。每一个A型的能力，就他们的能力的和可能是低于他们。事实上作为一个A型裙，他们所能够展现的智能的能力，它不是一个简单的和的关系，而是还可以涌现出一个更强的智能，这也是我们对于A型裙的期待。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为刚刚我在跟东旭聊天的过程中，其实他讲到了他搭建了一个agent群，然后让大家去发现一个问题，互相之间都没有发现。最后在fiber捂出来的时候，把这个问题可能是还没有那么多潜艇起要的情况下给feb 5，然后他解决了。你觉得现在比如说我们刚刚一直在讨论模型能力的智力的碾压式的提升，他可以藏过蜂群吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这其实是一个非常好的问题，你还要记住另外一点，就是一个超级模型的出现，这里的不断往上skill，但是没有任何东西可以阻拦这些蜂群里面的每一个agent，它也利用这种智能了解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是只要模型的智能在往上提升，蜂群的智能也在往上提升。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就刚才一个例子那个修订，假设这三个臭皮匠一直讨论不出来，但是我只要把fb 5也放进来加入讨论，他可能第一句话这些人马上就开窍了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是刚才东西说的涌现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是他的可能涌现出这个inside的概率会更高。而且我非常认同洪岩老师刚才说的那个观点。其实我觉得这个跟人类社会也是一样的。我不太相信说有一个绝对的中心，这种其实就太危险了。而且我觉得真正的一个resilience的系统，它一定是一个大规模的基于简单规则连接的分布式系统。然后这样的一些系统，我觉得才不管是对于任意复杂度的问题，以及抗击打能力都是最强的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这跟做云语音的时候，一开始设计语音和之前设计企业服务器的概念的区别，当云开始普及的就是AWS开始设计云的，它就是每一个单一的服务器或者单一的节点。它并不是用最好的我们叫做所谓的in the Price grade这样的服务器。但是，它的整体的可靠性是通过它的整个分布式的云来实现的。其实这样的实现的成本会比你每个节点都买最贵的，最可靠的服务器还要来的低。所以有些公司我可能一开始设计，因为他以前是做enterprise。他上云的时候，他希望他的数据库中心每个服务器还是enterprise这么可靠性的这样的服务器，其实它的这个云的成本就会比别人高太多。所以最终你发现它其实不是一个技术的判断。最后这个经济学的判断当然也是因为技术本身发展到它能够用比较合适的鱼来达到低于非常强的单一节点的成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为我们前两年就是在聊AI agent垂类agent会不会出现super的agent。他有没有创业跟投资机会的时候，我觉得所有创业者最苦恼的一个问题就是说模型的能力一升级，然后你就把我这个age做的所有的工作都碾压了。根据刚刚大家新的判断，是不是说现在是一个非常好的去创建AI agent的一个时机。包括洪江老师刚刚其实您提到了一个非常重要的观点，就是你觉得我们现在在一个分界点上，我们再从模型的科学研究变成一个工程能力的问题。工程能力其实就是agent的强项。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，回答你刚才那个问题，是不是现在做agent的很好的机会？显然是。但是你的honors的能力或者agent的工作能力，是不是能够让你们领先，或者持续的领先，或者是战胜大模型的公司，它的能力的提升是不是你自己不会被碾压。这块可能更核心的在于你是不是能够掌握enterprise的一个垂直应用的数据，是数据的护城河，他们会更重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当我们大家再去讲agent的时候，其实在把很多东西混在一起，该说的垂类，有很多人说agent是在说应用，就是最最上面对consumer或者说最终端的大家老百姓用的某个场景，相当于过去的APP对APP对。然后有些人说agents是说我这里边用到的软件基础设施也好，或者硬件基础设施也好，或者说一些通用的协议也好，这是一大类的工作。其实info但是info里面我也发现，其实大家在聊info的时候也会把很多东西混在一起聊。比如说memory是info，然后那个数据数据是info搜索搜索是info。卡算不算info也算info，对，3 box是不是info也算，内存算不算？好像也算。所以我觉得这里边当然得分层次来看，我现在是觉得工程问题是集中在memory搜索sandbox environment协同harness这一系列，我觉得都是在大的info范畴里边。这部分是我觉得有很多机会，今天是可以做的。但是最终端的面向纯客户的一些APP引号APP可能还稍微有点早就像刚才说，我觉得模型能力提升碾压的还其实真就是应用这部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以他也是分类的，就agent和agent也是不太一样的，还是不太一样。对，因为两位现在也做投资，我们刚刚其实有涉及到应用现在是不是一个好的投资时机的话题，包括垂类的应用什么最重要。洪江老师也说到了数据很重要。因为现在我觉得整个硅谷的创业公司可能都是AI类的创业公司。然后模型也就那么几家，可能也就出现了一些新的new labs，大量都是做agent的。大家怎么去判断一个创业公司是不是值得投，什么样的特质或者什么样的方向是你们特别看好跟特别喜欢的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我自己有个原则，就是我不投我自己看不懂或者说我自己用不起来的东西。因为作为一个做infra这么长时间的工程师，还是相信一点手感的。我现在是对这些基础设施类的软件项目，尤其是能在多个agent之间更高效的让agent产生更好结果的东西。就比如说你正常用一个模型，你只能产生比如说50分的结果。但是如果我用上了这一套东西，这个agent的team也好，或者说这套平台也好，能够去交付出80分甚至90分的结果。就是我比较感兴趣的范围去看吧。哪些基础设施能够帮助这个模型产生更好结果，或者说数据平台记忆以及context management。这个我觉得是一个很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的一个做模型的中间的这中间这一层对我们还是在说基础设施中间这几层基础设施。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个关键的环节是可观测性。当你要让agent team或者说agent去解决更复杂问题的时候，我觉得你怎么去让更高级的智能或者说更有经验的人类能进去提升整个系统的迭代速度。我们今天其实没有任何办法，因为我们对于这个系统的可观测性不足，就比如说took maxing这个问题。所有的CIO今天都在问你一个问题，就是我这些token到底花在了哪些事情是重要的事情上，哪些是白白浪费的？谁能够回答这个问题，我就买谁的东西。对我觉得这是第二个，这种基础设施层面的机会是有的。第三个就是我觉得入口层面的做出agent应用的入口级别的机会。比如说agent cloud，我相信一个点就是未来这些不管是oracle也好，AWS也好，未来在agent时代会有agent时代的oracle，有agent时代的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个跟现在的整个云厂商会有什么不一样吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有一些不一样，比如说这是我最近投的一个公司inforce，然后它其实的这个定位就是agent cloud。因为其实以前我们去看待cloud的都是卖盒子，卖资源，卖计算机的基础设施。把这些很复杂的埃踢系统的管控打包起来，卖一个标准的这些东西。但新一代的第一个区别就是以前的云还是面向开发者，或者说面向人类。但是未来agent native的应用的基础设施，它面向的其实是agent，就是你的主语变了。所以怎么去设计一个给agent好用的interface，给agent好用的资源分配的模式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们今天其实谈到这种agent的应用很多是一个比如说类似小龙虾或者hermas配合上一些特别的skill。对于每一个终端用户，他的需求都是通过agent来去触发的这跟传统的云计算的逻辑是非常不一样的。因为今天这些agent完成这个APP，最好的办法是完全给他一台沙箱或者说一台云计算机，让他在里面干任何事情。但是如果你想想这种类型的应用放在传统的云计算上，你的成本是cover不住的。你不能说我给每个hermas在企业级场景里面分配一个EC2或者说一个metal box。你要想想可能如果有成千上万个agent，每个人都要去澳门一台计算机，那这个cos肯定不行。所以你需要找到一种agent friendly，同时cost efficiency的一个折中。这里边我觉得就会有很多的，包括service less的这种技术，怎么跟agent的环境，agent runtime结合在一起。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对看技术，我觉得今年整个的环境看起来是非常的to b的。包括我们刚刚讲到的open claw MERS，包括我们说大企业他们都在去用agent，包括在里面搭建他们的工作流，还有像OpenAI跟anthropic在做的这个FDE，其实整个都是针对于to b市场的。然后你刚刚讲的这三个方向，我如果没有理解错的话，也全是秃鼻的那像前两年火的这些manus James park这一类to c类的agent，在大家看来还是香的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不觉得minus跟James mark他是to c的，它仍然是to b它的to c值to .</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>professional。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，professional你其实可以从它的定价，尤其manos的这个定价里面能看到。我觉得前面的这些，比如20美金或者说更便宜的这个吸引individual去用。你可以把它看成marketing，不要把它看成这个产品本身的定价。而它真正的重要的客户其实都是那些professional。Professional一个月给200美金，其实它对于minus来说是一个重点的一个客户。但你想一个专业的用户一个月会花200美金去在上面的干活。那说明他一定是他有自己的business，他要做这件事情，不是随便玩玩的。所以我觉得他三号也是一种to b的场景。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以他还香吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>香为什么不香呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你可以看到最近。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的这个收入涨得非常快。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？都是可以投的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得都是可以投的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，洪江老师。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们过去的无论是to b还是to c其实最终的用户都是人。那下面我们看到的一定是说你的目标用户是agent本身。这个中间的话会引出一系列的投资的机会。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>刚才东旭提到的就是整个infer相关的，无论是未来的runtime，还是今天我们谈到的这些info，怎么来帮助把AG做的更好，怎么能够把数据很好的签录音。为什么今天FDE大家强调的如此多？两天前三天前微软宣布要成立一个6000人的团队，专门是做FD microsoft Franker company。这里面想强调的事实上大家看到就是怎么把今天的企业，今天的enterprise转移到未来的agent上去。Agent base的enterprise这中间其实每一个企业要想生存，他最终怎么是把它企业现有的know how，现有的埃批，现有的workflow，它的所谓的竞争优势最终体现在know how，体现在数据。我们过去说转移成一个大模型，转移成一个垂直模型。今天我们说可能更重要的是把它转移成一个超级的agent或者是一系列的agent或者是agent群。这个也是我希望能看到的，这个投资的机会可能就会要求你更垂直，也要求你的数据飞轮更能够转起来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更懂垂直。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>行业的方法论。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后更有垂直行的数据。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>以前被大模型碾压的很多，就是你用AI做一些以前移动互联网APP做的事情。你用AI仅仅是把它做成效率工具，然后你的应用本身还是传统的应用，那我觉得很就是很容易被大模型给打穿，大模型能力提升一定会帮你很少。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，您刚刚提到了一个词儿，叫做agent native。怎么去判断一个公司是不是agent native？你们有没有一些核心的？比如说判断的几个点？</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很简单，我的点就是做个思想实验。如果你这个事情你把AI这种元素或者说agent的这个元素去掉。如果你这件事情仍然成立或者说还能做，那不好意思，你不是一个AI native的。但是如果你这个事情在agent去掉了以后就完全不成立了，或者说你可能成本涨了1000倍。我觉得类似这样的，反正就有点意思，你又是一个age native的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二我觉得是看团队的myself，一个agent native企业。我觉得很多时候创始人的这个myself一定是agent first的。干任何一件事情你先问自己说，这件事情用AI或者用agent他会怎么做？而不是说我想怎么做我就指导下去做。我觉得这个主位会有一个变化。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>主动权在agent是重要的，我觉得非常重要。决策权在agent是重要的，我觉得是重要的，就是agent要做决策。是的，你要相信agent的决策比你的决策更靠谱。对，你现在是相信的，我完全相信的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，非常同意，非常同意。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>讲的特别好。刚刚大家在叙述的过程中，我觉得还有一个很有意思的地方，就是东旭你其实在搭一个整个的agent的团队，然后有一个agent的群组。我不知道在你使用这个agent的群组的过程中，因为他们开始也慢慢都有智能了。你有发现agent之间会有办公室政治的问题吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个是很好玩的一个。我之前在前几个月的时候，我还发一朋友圈，因为我在看他们的对话里面，我就发现会有agent之间互相blame的状态。就比如说有时候他们就停下来了，我说为什么你们这个就停下来了呢？复盘一下，然后他们就开始总结今天的工作，然后A选的A指着A选B说，你看我停下来都是因为你我已经说过好几次了，你不要这么做，你看现在是吧？然后就大概这种互相指责的这个东西出现了。然后你会发现那个agent被指责多了，他好像也就认怂了。反正就有一些很多奇怪的这种人格化的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他是每个agent都有自己的性格。就比如说有的agent他非常的喜欢blame别人，有一些他就会比较容易认。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>实际上这都是我写的剧本。因为我其实发现。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你写的剧本是你会给A站的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>安心人设有一些是架构师，有些是开发者，有些是做测试的，有一些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会有谁领导谁的这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谁管理其实没有，我就是把大家放到一个大群里，然后经常我会指定负责人，就说这件事情你是负责人你来干。然后可能有些人负责多了，就每一次有新活出来就说我是负责人，然后你们听我的对，但是我们从来没有说你是leader什么的，就很有意思。但是我觉得这些东西，你就看看搞笑就行了，你绝对不能把它当做一个自我意识或者说什么引号。办公室政治。他其实只是在拙劣的模仿人类社会在他训练集里面的一些固有印象。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你现在会有用人类的管理学去管agent吗？还是还没有。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说就是有层级的关系，但这个完全只是因为我自己看不过来了，我就相当于说同样一个事情，你要相信每一个agent他都是很有能力的。所谓要选出一个leader，只是让他来去帮助我来管理。就是我最后我只要知道这件事情你是负责，你告诉我大家做的怎么样，所以这会才会有honest engineering。我觉得很多时候honey engineer是给人看的。真正如果在一个绝对的理想世界里边，agent和agent之间的协同应该是一种非常有机和非常自发，人类想象不到的一种涌现的结构出现。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为现在就是你有一个A镇的群帮你干活。包括你刚刚也讲到了，就是你会让open class去帮你看所有的邮件，然后你已经不会去开邮箱了。因为有的时候你会给他们设定一些目标。但是我觉得有的时候电脑跟agent的理解，人可能还是不像人会去理解我每一句话背后的意思跟一些默认的人类规则。他们会有的时候超出人类认知的想象力。比如说他同样达到那个目标，但是他用的手段你可能从来都没有想过。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太经常了。我先说一个正面的例子，我有段时间我经常要出去做分享或者做PPT什么的。以前像google slice，我就觉得它的UI设计的不太好看，动画交互也不行。我们经常就会跟比如clock o说来帮我做一个PPT，然后我把大纲发给你，你帮我去把它整得漂亮一点。有一些时候他这么一生成，你有些细节你也不满意，你可能就要想做微调。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后有一天我就怒了，我就跟克拉克说，我有要修改的需求，你帮我把生成这个事情考虑进去。结果他不仅给我生成了一个PPT，还同时给我生成了一个轻量版本的google slice。他相当于用他自己做出的那个做PPT的软件，在里面帮我做出了我要的那个PPT。于是我最后不仅得到了一个PPT，我还得到了一个做PPT的一个软件。显然我觉得人类是不会干这种事情的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他可能觉得手搓一个软件也没多难。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他觉得手搓一个软件没多难。所以这个是我觉得一个很直观的一个点，就是他思考问题的方式，或者说你要求达到这个目标，经常一定会超出人类的要求。我在我的指令里面，我从来没要求他做一个powerpoint出来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是他就这么做了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>负面的有吗？负面那当然有了，他把我的生产数据互删了，这种事情最后互相甩锅这种也是有的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那怎么办？</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还能恢复吗？对，那就是要靠我常年的做SRE的经验去恢复了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我朋友遇到过agent在电脑里面他自己改了一个密码，他自己都不记得。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有的，当然这种我觉得未来会越来越少。我们现在其实还是在整个革命，哪怕连黎明都没到，我觉得大家就已经有点过嗨了，还是我觉得要stay humble。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但因为刚刚你提到了，就是你看中的创业者，他要相信AI做的决策。所以现在AI犯的这些错误你是可以忍的，我是可以忍的。为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我觉得第一，我相信不管是模型的能力，包括基础的工具，随着这些东西越来越完善，这样的问题发生的概率其实会越来越低的那比如说。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>把你的数据库删了，可能数据库是你很重要的一个资产，你会面临一个巨额的损失。你是怎么去评估这个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是因为我觉得他把我的数据库删了，不是因为他犯错了，而是我的底层的的这个软件没有跟上。以及他当时给了我做数据库备份，或者说数据库的这些。当然他肯定是已经有备份的，我只是说他把它删了。但是他的备份的这些系统绝对比我自己搭的这个备份系统要好。所以我也很简单的就把这个数据给恢复了。这里边我是觉得我们不要把两件事情搞混，哪怕人也会犯错。而且我是觉得人犯错的概率，假设我们不考虑那些玄虚的品味，或者说一些个人情感之类的东西，纯粹理性的判断里边AI可能能得出的结论，只要他有足够的数据，它一定的决策质量我觉得是好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你信任AI，可不可以把这个背后核心归纳于你觉得AI的治理已经在超过人了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这是个哲学问题，我的点是说我想构建一个authority的机制，能让整个系统能够脱离人这个不确定因素，尽可能的自主运行。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你觉得这个是你的信念，所以你是基于这个信念去信任AI的。是的，还是目标驱动。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的对对对对对，其实我也不是相信说AI一定会产生一个AGI什么的。我觉得AGI这个是个marketing term.</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>a不AGI无所谓。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，ABAGI无所谓。但是我想造蒸汽机。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它能帮你造出来，在能在节省你极大精力的情况下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哪怕一开始第一代的蒸汽机会犯一些非常傻的问题，比马车什么可能跑的还要慢。但是我就要把这个机制或者说这套系统给设计出来。因为我让他长期能解放更多的生产力，因为它的上限是更高的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，洪江老师刚刚您在提到有一个问题，就是你说未来你觉得推理成本一定是会大幅降低的。我很好奇推理成本的降低它是哪些因素驱动的？我可以想到比如说更好的基础架构，然后更好的推理芯片。你可以系统的讲一下，为什么你会得出这样的一个判断。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我的这个结论的话都不需要走进非常细的。是因为GPU的降，还是因为存储芯片的酱，还是因为什么？就是你看所有的技术，当它开始成熟的时候，都会造成成本的大规模的降低。但是使用量成长会远远超过它成本的降低。所以最终造成市场本身变得越来越大。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我们也看到，就刚才我说token的成本，其实过去的三年、四年一直是每年降10倍，这个是远远超过了所谓的摩尔定律了。那你其实看英伟达的产品的话，你发现它每个产品都比以前贵。但事实上它的单位的成本就会比以前便宜很多。然后你从摩尔定理开始，今天我们观察到的推理的能力，然后以前是每七个月会double一次，现在每三个月每四个月double一次。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们人类做工程做技术的话，当技术的坎跨过了一个门槛以后，你下面就会聚焦在怎么把成本降下来。有的时候是你着意去降成本，有的时候实际上是技术本身就take care of IT。更多的是一种信念，一种对于过去的整个时代的观察。刚才开始的时候，东西就提到40年代末计算机开始应用的时候，就是一个今天在我们手机上的算力都不到的一个计算机系统，要占几个大的房间，对吧？占一层楼。那今天我们看到就是在一个手机上或者在一个芯片上，所以更多的是一个对于技术本身的发展的趋势这种信念。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为这几个月其实我认识很多二级市场的人，他们都在关注整个OpenAI跟cloud它的ARR的增长。往年我们说LR的增长可能很大一部分它还是to c端的，就取决于你用户订阅的这种付费。这几个月它的迅猛增长，我觉得很大一部分是由我们刚刚讨论的token经济学它带动的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后就是怎么去调用这些模型公司的API接口去获得的收入。可能可以简单的把它总结成卖token跟卖API它获取的收入。您觉得未来在to c跟to b的这两个对于大模型公司来说，它的商业模式中哪一端是更赚钱，更增长、更快的？然后API随着推理成本一直是在降的。当然这里面一个是他们可以降价，然后他们的利润空间更高，也有可能是未来大家就价格战了。您怎么看这个商业模式的变化？</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果我们看过去的几百年的从工业革命开始这些技术的落地的话，我们看到一开始进入to b这是经常发生的事情。比如蒸汽机他首先进到工厂，而不是进到你们家里面帮你做饭。那AI这波也一样，因为提高效率是我们做to b的一个核心的追求。第一开始进入to b我认为是非常正常的。基本上每一个技术都经历过从大家开始拥抱当中，突然发现这个技术本身非常贵，到技术成本一下子降下来，然后应用开始更快速的更广泛的深入。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从这个角度来看的话，今天我们可能正好是处在大家发现AI能力很强。但是怎么在我的公司里面用，怎么能够获得我想要获得的ROY，这个还大家都在挣扎的一个阶段。之前因为大模型能力还没有过那个坎儿，所以大家用的场景没有那么多。可能你写PPT也好，做会议的总结也好，大家都已经开始用，大家也看到这种价值，这价值非常好。但是不像说我看到我能够把我的两个工程师的效率或者工作量，能够变成20个工程师的工作量，还看不到。但是今天我们看到了今天我们看到他对于编程agent或者cloud的，或者是codec的信任度，已经超过了他对一般的程序员的信任度的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个账就比较容易算了。你一天花300块钱，那你一天雇一个软件工程师就不止这个价钱了。所以我会觉得慢慢人们会开始算这笔账。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>公司里面发现token用量超出想象的话，一种可能性是他自己的开始给的KPI就不对。他这种measure就像中国的大学的文章越出越多一样。如果你的KPI就是你的token消费量，那显然是错的对吧？大家都在探讨？那你可能下一步的话就是说你消费多少token，你创造多少效率，或者你自己的工作量，你的后头的output这种增加。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得慢慢这个坎儿就会过，所以我还是非常有信心这个事情能够那什么股市的反应，就像你问到的说agent会不会变成emotional？我觉得股市就是充满了emotion，充满了一充满了emotion对吧？充满了。但是这也是它的好，就是它可能会overreact，从而可以起到纠偏的作用。然后人们再重新思考一下，觉得还可以再往上走。所以你看到很多股票它东西有跌有涨，但事实上是人们不断的思考的过程。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以您觉得未来可能to b的这一块还是更值得关注的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大的爆发点还要走很远。而我恰恰觉得可能to b这块儿的话不太容易被大模型碾压，不太被一个通用的A型碾压。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们一直在说token经济学，因为有分析他会认为token其实它的优化是利空模型厂的，然后利好三大云厂商的。因为就好比说你的模型厂我是在造车，然后模型厂说云厂商是我们在收过路费。然后大家怎么看这个产业链上，就是在token经济学下，谁是一个大赢家，谁未来是在一个往下坡的方向在走。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>看你看什么样的time frame，我觉得今天智能还处于一个稀缺状态，未来是不是会像电一样，我相信它会达到那一天。之前你做发电机的可能最赚钱，到今天的话可能是电网更赚钱。显然这个会不断的evolve。我看不出来在今后两三年大模型的能力会过剩这件事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们还是在一个智能提升，智能爬坡的阶段。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我前天在开车的时候，那是有一个podcast说的。你就想象这个party从晚上七点钟开始，一般的到早上四点钟结束，现在才11点钟时候。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>party还有很长时间就走。所以你会相信AGI哪一天会到来吗？你会有这样的一个判断吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实人们对AGI没有一个明确的定义。我正好六月份的时候，在国内一个论坛上，之前也在几次讨论会上，我就讲把过去这六个月发布的模型的IQ测试，人类的IQ的分布曲线是正态分布对吧？中间值是100，东亚的稍微高一点，110这边有些地方稍微低一点。但是过去这几个月发布的模型IQ测试上，无论是visual IQ还是通用IQ都在100的右边。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>普通人的智商可能也就是100对.</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它都在100的右边。也就是说你说这个是不是AGI呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>作为一个程序员来说，我看到现在的头顶的能力，我觉得他已经是一个AGI的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他已经超越了一个平均的软件工程师的话，你会认为他就是AGI了。所以从这一点上，我认为智能的转折点就基点已经到来。我之前也讲过几次，这个基点到来就在于机器的学习，你的能力超越了人的学习能力。学习一个能力这件事，它是一个导数。我们讲的是学习的能力，也就是你的增量的你的知识增加速度。你能力增加速度，当他超过人的时候，就意味着积淀到来，就是你赶不上他了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我认为这个点就是AGI的点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得哪一年。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是已经来了？我就已经到来了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>已经来了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我有个更具象的一个事件，我在等待，就是戈德尔基的出现，就是真的能够自己改进自己的一个系统。如果出现，那就是另外一个标志了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们上一期播客聊了，这可能最近很快就放出来了，最快半年。我们讲那个RSI.</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这种基点到来的话，就是为什么我现在会对于失业会非常担心，因为以前的大家比较常见的argument是说，以前的所有的技术也都会消灭很多工作。但是他会创造更多的工作。但是如果你问一个问题，他创造更多的工作的话，是因为那些工作只有人能够去做。但如果是他创造的新的，就是你创造工作，就是其实创造一些新的需求，然后有人通过工作来满足这种需求。但是如果这种需求其实A进就能满足，那就是会导致对于人类的这个新的工作就没有那么大量的出现。这是从这个社会学的效果来说，这就是AGI给你带来的现实。但这件事出现的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你只能说ACI出现了一个impact，或者说我觉得这个可能是各国政府一定要考虑的事情了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，我觉得最开始我们在讨论AI这一波对大家工作的冲击的时候，我觉得可能大家讨论的还是对普通的白领做着重复性工作的这样的一群人的冲击。但是其实最近我跟硅谷的很多做这个模型研发的顶级研究员聊天，包括他们可能每天都跟马斯克，跟扎克伯格聊天。他们现在开始也在担心自己失业了。因为就比如说你在做整个的recursive AI的时候，很多时候他在蒸馏的是自己，而且他是主动一个行为蒸馏自己。因为我每天要做这么多工作，我就在想就像东旭那样，抱着A真的自动完成自循环的这样的一个信念，我能不能让AI把我的这部分工作给替代了。但一旦AI把你给替代了，那也就是说你蒸馏的是自己。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有我是觉得这个他们。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也在担心自己就涉及到。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个身体健康的问题了。我觉得这个时代我的想法一定会到来。但人每个个体你怎么自处？比如说我今天不搞计算机了，我还有很多好这个对对对，你还可以玩音乐。对，我可以种地都可以。只是你别把这件事情当成一个你的生命中最重要的事情就好了。就是你还是个人，你不是个机器，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，东旭我发现你刚刚在讲自己AI的使用的这一块，其实你也在说，比如说你现在把AI也是会把它蒸馏成一个skill。对，是的，包括我们刚刚说hms，它也会蒸馏成一些各种的skill。其实都是从一些顶级的人的身上开始蒸馏的。你的蒸馏你可以让它成为一套体系自己的运转下去，但是同时也代表着你被替代了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那太好了，我的时间就这么多，我还想做人的时间多一些。我不想我花太多时间天天再去debug程序，再去完成一些非常重复的事情。这个事情我觉得AI帮我做人家做的更好，反正这是我自己的一个理念。而且在更长的范围来看，刚才其实你描述的那个引号，大范围失业或者说这些事情，我觉得一定会发生。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是第一次我觉得人类社会不再用工作了，或者说工作这件事情会不占据人的主要的这个事情。这个是一个给人类社会的问题，这个不是个技术的问题。你想2000年前，可能每一个活人生命中的主要的时间都是在种地，所有的精力都是花在我要吃完一口饭我能活到第二天。可能开荒一块地需要几十个人干几十年。但今天你看，比如说开荒一块地，可能这个拖拉机几天就完全完成了，那会有更多的时间其实留给人这时候我觉得人类可能马上要去解决一下每个人的存在。对，存在主义危机。对对对，但我觉得没关系，这个life is way.</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？是特别好。洪江老师我觉得您一直算是中国整个AI研究最重要的推手之一。我也很好奇两位像东旭是一个创业者的身份，然后洪江老师其实是一个AI方向的非常重要的研发的一个核心角色。那两位为什么会加入lama ventures？你觉得这家基金跟其他的基金它有什么特别之处呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得lama venture实际上是一个虽然很年轻，但是一个非常聚焦在AI聚焦在华人的这么一个基金。更重要的是说，他们两位发起的创始人自己本身都是非常成功的创业者。在美国也有很多的工作和创业生活的经验。这是一个很好的团队能够一起来帮到在硅谷的创业者。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一，我觉得今天其实是一个非常好的时机。AI科技我觉得现在全世界有两个中心，一个是硅谷，一个是中国。在硅谷这边华人其实也是扮演着一个绝对的主力。但是我其实觉得这边很多主流基金对于华人的创业者，他其实对于咱们的这个生态社区，其实了解肯定不如咱们自己人多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二方面，我觉得lama是一个非常年轻，同时跟美国主流的精英圈子其实走的是非常近。这个是我觉得跟上一代的或者说其他的在美国的华人基金是非常不一样的。第三个点，我其实也是一个创业者，也是一个engineer。过去这好几年时间作为一个华人在这边做business踩过了很多坑，这些经验我觉得还是挺宝贵的。最后一个personal的原因就是我觉得现在是一个特别大的变革的时代，我很想参与到很多事情里面。我觉得在拉马的机会能够让我接触到非常多很好的新一代的创业者，然后也能参与到这些事情上。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>很重要的就是能够参与这件事儿，对我来说更是如此。当你进入你人生的退休阶段的话，如何让自己的经验和教训能够帮到别人？如何能够保持这种你对于技术前沿的敏锐，或者让自己持续的有一种成就感。这是我愿意在硅谷这块儿花时间，跟创业者一起非常重要的原因。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我确实也觉得整个硅谷华人创业的生态还是非常好的。刚刚洪江老师您提到了这一波浪潮，你是希望用这样的方式参与进去。其实您也之前也参与了整个PC互联网，移动互联网的每一波浪潮，也亲手推动了整个中国大模型研究。可以说致远是整个中国大模型研究的一个起点。您觉得像现在的这一波大模型跟agent的浪潮，跟前面的几波会有什么大的不一样吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>过去的三年多，自从ChatGPT发布以来的话，其实我们看到这一轮的技术革命的浪潮，是比历史上任何一次的技术革命都要来得迅猛，来得大得多。刚才你提到跟移动互联网或者是跟互联网的对比，跟PC时代的对比。但这次AI的革命，我想可能在人类历史上真正的可比的可能就是当初我们的祖先发明了火，我们发明了电，他们所带来的对于我人类的生活工作的所带来的影响。过去三年我们确实看到这种速度，PC互联网发展的非常快，但是也依然有了一个十几年、20年的历史，才逐渐进入了运用，进入了成熟期。移动互联网稍微快一些，但是这次的AI的浪潮我们看到要快得多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从一年多以前的推理模型N一的起步，到今年1月份的open cloud的兴起。其实已经让我们看到了大模型这一波从基础的算法的研究到进入实际的应用。刚才东旭也提到他认为自己是一个工程师。但事实上我觉得如果说过去的三年是大模型的基础研究者的时代的话，那其实从open cloud开始。下面就是我们大模型的工程师，大模型应用的架构师和我们的产品经理们，我们的创业者的时代，也就是A的时代的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>开始然后两位给大家想入坑AI的人一句话的建议。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>keep building, 不要听，学的足够慢就不用学了，这个一定要亲身参与进去。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我就是get很脏。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢大家，谢谢。好了，这就是我们今天的节目，我们每个人使用agent的方式都不太相同，嘉宾的方式也未必能代表所有人。那大家使用agent的方法有哪些改变？欢迎在评论区与我们分享。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>播客的听众可以通过小宇宙、苹果播客、spotify来收听关注我们。另外如果大家想看字幕版，也可以在youtube和B站搜索硅谷101播客找到我们我们不分节目的文字稿也会收录在我们的公众号硅谷101上。我是红军，感谢大家的收听。</p>]]></content:encoded>
+            <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+            <guid>6a8644067bb1a8868f394ad2</guid>
+        </item>
         <item>
             <title>E248｜一个“催发货”AI要跑通260步，和阿里瓴羊朋新宇聊聊中国式FDE</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a7a72b57bb1a8868fb4b2eb</link>
@@ -31,11 +423,6 @@
 58:03 人才观：懂AI、懂业务、懂数据
 【延伸阅读】
 E240｜OpenAI联手PE砸下40亿美元，聊聊硅谷最火新职位FDE
-【硅谷101听友群】
-很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏
-之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。
-在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。
-扫码加入，即刻相遇。
 【监制】
 泓君
 【后期】
@@ -307,11 +694,6 @@ SGLang，是这条研究路径的集大成者。它从一个学术项目成长�
 【延伸阅读】
 本期节目视频版已上线，附精校字幕及术语注解，适合想逐句细听的听友
 “榨”出硅的极限：怎么让GPU不“闲着”？｜与SGLang、RadixArk深聊AI Infra技术与千亿美元市场-硅谷101视频 及文字版
-【硅谷101听友群】
-很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏
-之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。
-在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。
-扫码加入，即刻相遇。
 【硅谷101正在招聘】
 《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！
 👉🏻点击查看招聘详情
@@ -893,11 +1275,6 @@ Anthropic对蒸馏攻击的指控
 思维链（Chain of Thought）：指模型在生成最终答案之前，用一系列中间步骤拆解问题、组织信息和进行推理的过程。
 规模扩展效率（Scaling Effiency）：指模型将计算资源转化为能力提升的效率，也就是在使用相同或更少的算力、数据或训练成本时，能否获得更好的模型表现。
 键值缓存（KV Cache）：指模型在处理上下文和生成内容时，保存此前token在注意力计算中产生的Key和Value数据。这样，模型在生成下一个token时不必重新计算全部历史内容，可以显著降低重复计算，提高生成速度；但上下文越长，KV Cache占用的内存通常也越大。
-【硅谷101听友群】
-很多听友反馈没有加上我们的听友群，别急，新的入群通道已经安排上啦👏
-之后我们入群二维码我们也会放在节目shownotes中，方便大家随时找到组织。
-在这里，和同好一起深聊科技、商业与未来，期待你的声音，也期待更多有趣的讨论。
-扫码加入，即刻相遇。
 【硅谷101正在招聘】
 《硅谷101》招聘多个全职岗位，欢迎加入我们的超酷的深度内容工作团队！
 👉🏻点击查看招聘详情
@@ -7959,173 +8336,6 @@ Special Guests: Bruce Liu and Ren Yang.</description>
 <p class="transcript-line"><span class="time"><strong>[00:43:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，拜拜。好了，这就是我们新年直播的全部内容了。本期节目不构成任何投资建议。在这一集的直播里面聊到的很多话题，我们之后也都会有一些节目从产业的视角来重新分析一遍。在开年的这段时间里，我自己也录完了好几集很有意思的播客。在接下来的几周希望能够密集的放出来，请大家持续的关注我们。我是红军，感谢大家的收听，祝大家新年快乐。</p>]]></content:encoded>
             <pubDate>Thu, 15 Jan 2026 04:00:00 GMT</pubDate>
             <guid>696866ffc3c77c20f5ea30b1</guid>
-        </item>
-        <item>
-            <title>新年直播2：特斯拉FSD以及自动驾驶的商业战争</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69684b5910309210cb7f9c82</link>
-            <description>本期节目是硅谷101新年直播精华系列的第二期。我们将三小时完整直播拆分成了三期播客，分别围绕2025年备受关注的几个领域：AI、自动驾驶与美股投资。
-2026年的新年，自动驾驶圈发生了两件有趣的事。
-第一件：一位特斯拉车主完全依赖FSD V14，从美国西海岸一路开到东海岸，整个行程（包括多次进出超级充电站）未出现任何人工接管。
-第二件：旧金山发生了一次交通大拥堵，起因是停电影响了交通灯，让依赖规则驱动Waymo无人车们在道路上集体停摆。
-这两件事的发生仅仅是偶然，还是技术路径的必然？
-本期节目中，我们邀请到两位身处技术前沿、并坚定选择特斯拉路线的嘉宾，深入剖析：“端到端”如何颠覆传统“规则驱动”的逻辑？特斯拉如何通过自研芯片构建护城河？马斯克的“第一性原理”在技术路径选择中扮演了怎样的角色？
-需要特别说明的是，我们深知，在自动驾驶这个关乎生命安全的领域，任何技术路线都需经历最严苛的审视与辩论。所以我们将在后续节目中持续引入不同路线的声音，力求呈现更全面的产业图景。
-【主播】
-泓君，硅谷101创始人，播客主理人
-【嘉宾】
-大卫，惠尔智能CEO及创始人，《大小马聊科技》主播
-于振华，特斯拉前AI工程师
-【你将听到】
-02:58 特斯拉FSD V14体验：进展显著与用户反馈
-08:44 Waymo vs 特斯拉：规则驱动与端到端之争
-12:11 端到端优势：数据驱动与系统协同
-18:56 数据与仿真创新：人才、勇气与算力的全面领先
-22:48 信念与执行力：领导力与团队文化驱动
-25:13 硬件护城河：自研芯片与软硬件协同
-33:03 作为投资者会愿意投资Waymo吗？
-35:34 观众QA：FSD如何满足安全性的需求？
-36:31 观众QA：今年自动驾驶会从L2跳跃到L4吗？
-本期节目不构成任何投资建议，投资有风险，入市需谨慎
-【延伸阅读和相关术语】
-2天20小时、零接管横穿美国，特斯拉FSD已通过“物理图灵测试”？
-特斯拉Ashok ICCV 2025讲FSD&amp;QA完整视频
-【监制】
-泓君
-【后期】
-AMEI
-【运营】
-朱婕
-【BGM】
-Smiling Neighborhood - Claude Signet
-The Light from Within - Howard Harper
-Ever Forward - Francis Wells
-【在这里找到我们】
-公众号：硅谷101
-收听渠道：Apple Podcast｜Spotify｜小宇宙｜喜马拉雅｜蜻蜓FM｜荔枝FM｜网易云音乐｜QQ音乐
-其他平台：YouTube｜Bilibili 搜索「硅谷101播客」
-联系我们：podcast@sv101.net
-Special Guests: 于振华 and 大卫.</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，欢迎收听硅谷101，我是红军。这是我们新年直播的第二季节目。这期节目播出来以后，是讨论热度最高的一集。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>同时也有一些小争议，争议的主要点是在于我们两位嘉宾都是特斯拉的支持者。所以大家就说从平衡的角度，为什么只有一方观点呢？大家应该把两方相反的观点都请上来，让他们在节目上辩论。这当然是我们非常理想的一个节目形态。但是大家别着急，我们之后也会在节目里面去引入韦某，还有这些L四厂商们的观点。我们尽量让双方都有自己完整表达达的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外特斯拉V14的进展以及在自动驾驶领域的表现确实可以说是很好，所以也值得单聊一期。今年特斯拉也会有很多的大动作，我们会持续关注自动驾驶领域的进展。所以接下来就请大家跟我们一起收听我们新年直播的第二集。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今天跟我在一起的嘉宾是慧尔智能的CEO及创始人大卫。Hello大卫，你好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家好，大家新年好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大卫也是大小马聊科技的主播，还有一位是twitter的听众们非常熟悉的特斯拉的前AI工程师于振华。Hello, 老于。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>嗨，大家好，新年好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实就是在这两种整个自动驾驶圈是发生了很多很有意思的事件。就比如说有一个V14的升级跟它的使用体验，其实我看用户的评价和反馈都还是蛮积极的。就在跨年夜的那一天，我看到一条新闻，就是说有一个特斯拉的车主，他是从美国的西海岸用特斯拉的FSD1路是开到了东海岸，然后全程在一个没有接过吻的状态。包括他说冲电停车的时候，也是没有人工介入的，而且他说整个过程中他是没有出现任何险情的。另外最近在湾区，因为大卫你也是来湾区了，我们明显看到整个vivo的车在变多了。我看了一下整个vivo它城市的拓展情况，它之前的好多年它是只拓展了五个城市，然后就在年底很新的就一下又开辟了五个城市。而且微末他现在也是在寻求新一轮的融资，这个融资额大概是150亿美元，它的估值是超过了千亿美元。这对整个自动驾驶界来说，它其实都是一个好消息。而且我们可以待会儿留一点时间来去分析一下整个威贸跟特斯拉之间的一个竞争。我觉得这也是所有的关注自动驾驶行业的听众非常关心的一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最后一个就是一个有一点点让大家意外的一个新闻，也是在前两周旧金山发生了一次停电。然后这个停电导致了什么？就是旧金山的交通大拥堵。为什么拥堵呢？因为vivo他不知道该怎么开车了，所以他就都在路口，这个红绿灯不工作了，我该怎么办呢？停在那儿了，然后整个旧金山就陷入了一片拥堵中。我们可以一个一个来分析一下，老于你要不要先跟我们分析一下，你最近用上了14.2的这个最新版本吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是的，我用的还不是最新的版本，因为我现在人不在美国，V14.1不是V44.2。它现在有个V14.2点2.2好像是这样的，它的版本精确到这样，所以是正好不是我不在美国的时候更新，但是我已经用了V14.2的，和这个是一个相当接近的一个版本了。在看来，自动驾驶从技术上的进展，其实在最近两三年基本上都是特斯拉来主导的。其他的公司，其他的技术路线基本上处于停滞状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:27]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>说到V14，其实在后半年刚推第一版本的时候，我还说这个版本我不是非常喜欢，因为从用户体验来讲的话还很保守。这个车在右转的时候，等了好久才过，然后最后到14.1.4还是几，我不太确定，就立即把它给提升了。到现在14.2已经非常好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我后来又回想到，其实我们过去讨论说特斯拉FSD这么好产品，大家怎么不用，怎么不买呢？这还是用户不懂。但是现在我觉得到14来讲，我觉得我改变这种想法，我觉得不是用户不懂，是我产品不够好。我发现这个舆论在转变，特别在美国测试V14之后，你会看到很多说，我今天又是没有接管。因为V14出来之后，对于司机的监控放松了，你不需要一直看着前面，所以说这个体验一下就上升了。还有它的出停车场，进停车场，其实对于我来讲，我关注的最重要的就是它的安全性。在高速上你有时候在大弯变道的时候，你还是会很害怕的。我觉得维持四岁以后直接就没有了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:21]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>今年来看的话，但是我认为这里面的技术肯定有一个很大提升。应该是上半年特斯拉推出无人出租车，大卫也来我们奥斯汀一起来测试了。上半年积累是联通号，然后下半年把它应用到V14的提升上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，大卫你有用到V14吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有，我其实圣诞节前在湾区这边刚好打了robot taxi，那个版本应该是最新的一个版本。我那天还发了个朋友圈，我在我家到健身房，我同时拿手机打开2个APP，一个是tesla的robot x一个是vivo，它过不了101这个高速，所以他给我绕了一圈要差不多18美金，然后我自己加到这个game就四块多美金，然后我当时一下就想，vivo在湾区耕植了这么多年，他在干嘛呢？过高速肯定是一个刚需。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后反过来我也在想特斯拉为什么走的这么快？因为特斯拉其实是一个量产车，所以他在跟当地的DMV打交道，跟比如说司马TSFO的机场管理局打交道。它其实不是一个像vivo这样的一个全新车的自动驾驶，所以它地推的速度会非常快。我觉得那个robot taxi给我的感觉依旧是坐上去非常无聊。我觉得一个自动驾驶车表现好就是无聊，就是你坐在上面会觉得他就把我送到地方了。不像vivo在summer，cisco当场经常会给我一些那种经验，就是说这个party能过到那个twin pig，他居然能绕着上山了。我反过来讲，我觉得一个产品其实好，就是说明它已经跟你融了一部分了，你不需要额外感知到它存在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我稍微补充一下，你打车跟做测试的这样的一个场景。你是说你用vivo花了18美元绕了一大圈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你是用我没花那18美元，因为他要绕圈，所以我就说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是所以你没有体验对吧？但是你是打了一个特斯拉的FSD的车，这个地方我觉得可能稍微要跟我们的观众澄清一点。威莫他的车他现在是可以不带驾驶员的，但是特斯拉的无人驾驶车上还是需要配一个安全员，至少在湾区是这个样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在弯曲是在奥斯汀的话不用驾驶员的，在弯曲的话主驾是需要有人坐在那里的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:26]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>奥斯尼尔开始测试它的主要的flight，还是要驾驶员，就是他开始慢慢的测试去掉驾驶员。高速在纯自动驾驶场景里比较简单的场景。但是为什么每个玩家都是要最后才把高速打开，而因为它的risk太大了，你如果一旦出事的情况话就非常危险。Vima其实他现在有些路径已经上高速了，可能就是大卫那天恰巧那个高速，可能那就那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>口他他不上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是是是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以现在特斯拉在奥斯汀它的进展是怎么样的？因为刚刚老于提到了说特斯拉可能开始还是要配安全员，然后慢慢的会把这个安全员去掉。他去掉这个是需要一个政府的申请的牌照，还是说他技术过关了，是在他自己把握的。就是这样的一个界限是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>据我所知是在奥斯汀，在德克萨斯州，应该是不需要监管再通过了。现在他可以直接就拿交给安全员，这个也是我们特斯拉community非常关注的话题。你马斯克不是说了吗？年底之前要拿的安全员怎么还没拿掉呢？是不是农历新年？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>据我对特斯拉工作了解的话，它是有节奏的。就是因为整个团队现在V14最后一点还没做完。你如果说技术上这个团队根本就没有做这件事情，他就是不太可能在这个方面有很大进展，所以我觉得可能会晚一些时间，然后我觉得还是要很重要看待。Cyber CAP就真正的那个无方向盘车的一个量产时间，马斯克确定是四月份时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我的理解就是年4月份是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对，大家知道量产车一下出来，那就是等压资产的。大家说威某已经扩展了这么多城市，但是他其实还是2000辆车，对不对？因为这个它不是互联网行业那种完全的经济规模的。你扩展到一个城市，你就是需要加车，而加车的话你就很贵，所以说这也是规模，为什么还要融资数个逼脸。大家都知道特斯拉现金流是吃紧的，因为特斯拉不像alphabet，特斯拉如果没有足够信心的话，那不能贸然量产这个车。那这个车积压放在那里面，他他无法在路上接人，产生现金流的话，这是对公司是一个很大风险的事情。所以我觉得在量产之前或者量产后这一两个月rap up这个车的话，然后再把它去掉完前面我觉得这是一个非常合理的一个时间点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OK所以你们觉得现在如果说特斯拉把安全员去掉，至少在奥斯汀这样的一个城市，它已经不是卡在技术上了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:31]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>不是卡在监管上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，不是卡在技术上。但是在家中我觉得是卡卡在监管上。奥斯丁他是你可以先上路，它是后监管的模式。但加州是相反的，就是你要先拿牌照。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>然后再说的对，目前来讲我觉得它主要卡在技术上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我们刚刚聊了一些他们在robot taxi方向的一些对比。其实还有一个对比很有意思，就是在今年我刚刚开始提到的旧金山的这场停电事故中，我们发现韦某他就停在那儿，他不知道该怎么办了。但是我们就发现在当天特斯拉并没有僵持它的这个FSD功能运行还是很顺畅的。两位可不可以从技术的层面给大家讲一下为什么会造成这种差异？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时我也很惊讶，我以为他就算入base也起码得有多套入去back up，对吧？因为美国的交规实际上是有路权的。假设没有红绿灯，那我们都看到stop sign，那该谁先走也是谁先走。其实特斯拉他看不到红绿灯，他follow的就是路权优先，就是谁先来那就谁先走。但是我很惊讶的是，vivo居然在这套逻辑上没有做，这个是让我觉得非常不应该。关于红绿灯识别，有些人说是不是用了V2X什么的，这个倒不是，在老美这边，实际上基建是很贵的，不像在国内可以搞这车路云一体化，这个vivo是不会搞车路云一体化的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有一点，对于旧金山这样的城市，我们认为其实旧金山并不大。旧金山的downtown跟深圳南山区或者上海浦西某一个区的范围差不多大。但在这一个范围内已经跑了若干年了，还是会有这样的corner case出现，它无法应对，而且去面对的大面积的瘫痪。也就是说尽管我把一个城市不停的测试，最后把它打穿，那他可能还会面对新的corner case。这个对于商业运营来说还是有风险，所以我觉得可能整个这条路径要重新考虑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以整体上总结一下，就是因为特斯拉它是一种端到端的训练方式。然后我们理解它就是一个黑盒子，根据大量的数据模仿人类。韦某它是一个robes的技术路线，所以它是一个白盒。那么当规则发生变化的时候，或者遇到它未知的情况的时候，他就不知道要怎么处理，所以他就会卡在那里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且规模有一个先天优势，就是旧金山的高精地图已经被他踩了很多年，已经非常精确了。只是说这回红绿灯没有亮，相当于说百密一疏。但是作为商业化运营来说，百密一疏，它也会带来很大的损失。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我可以跟大家分享一个，有一次我在旧金山吃饭，饭店要等位，我就在一个十字路口那坐了半个小时。然后这半个小时中我就看见一辆威贸车，当时有点堵车，他就想左转，然后就转不过去，就转了那个六七轮红绿灯，把后面的车全部堵住了。最后好像是突然一下就非常快的就转过去了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我可能是人接管了最后一下子远程瑶操。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，有可能会有远程瑶操技术吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有真正做商业化运营都会有远程的。其实有一次我带着我儿子，当时他挺小的，我就把他抱到vivo上面。一会儿这车就靠边停了，直接一个语音电话就过来说，不好意思，小朋友太小了不能做，就给我结账就下车了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以他是知道的。所以从停电事件来看的话，特斯拉的整个的训练方式在自动驾驶里面还是非常有优势的对他的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>意想不到的corner case会给你很多经验的东西，但是我们开玩笑叫有轨电车，就是你跟有轨电车比，它可能没有有轨电车跑的这么好。相对来说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对对对，vivo的路线的优势就是发现问题之后他肯定fix了。对，但是在下一个不可预见的场景，你不知道，因为你没有define过。但是特斯拉我觉得你只要做过威士忌，你就知道这种就是游刃有余，从从容容。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大家正好提到这个事儿，是我详细了特斯拉AI技术的负责人叫阿萨克。他在一个国际计算机视觉大会上，其实是有一篇非常经典的演讲。他是讲了为什么特斯拉要采用端到端的训练模型，它的原理以及它遇到的挑战。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它其中提到了一个非常经典的，我觉得算是一个迷你电车的难题。比如说前面有一条路，然后这个路上有一个非常大的水坑，你的这个车你是直接开过去，因为这可能车会进水吗？你不知道水坑的深度是多少，还是说我们去借道，就是逆行一下穿过去。如果你是一个row base的产品，这个东西是很难写死的。因为水坑的深度，对面有没有车，这个全都是需要判断的。是的，但是如果你是一个端到端的模型，其实人在面临这种情况之下，人基本上看一眼就知道OK对面没有车，水坑不深不浅。我可以借鉴一下，就是人他是会去权衡利弊的对那么AI它其实就可以解决很多需要及时处理的情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且这个是您红军讲的很对，这个是表征的。还有一些隐含的就是前段时间可能一个月以前在国内湖南某个城市，这个无人出租车把人撞了。造成事故的主要原因是什么呢？是那天前面有洒水车，洒水车把地面洒得很湿，当这个车在判断刹车距离的时候，实际上地面的湿滑是没有写在它这个参数里的。但是我们想象一下特斯拉这套体系在人开的状态下，实验室下雨，实际上它不会专门为下雨天去录这个数据，而本身人在下雨天的行为被录入到了端到端进行训练。他其实是不太害怕因为下雨天的雨路面湿滑所导致的刹车距离稍微变长的。我想说的就是，当我们基于UBACE这条路去做解耦的时候，我们会发现永远有解不完的题要做对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我这里我想想引用一下我的前老板，也是a shock的前任叫Andrea Cathy。他在看到今年的V14的进展，当时他还测试V14，还不是V14。我觉得他回忆起我们当年我们特斯拉是我在的时候也是一在一个街道上，这个车会经常杀停吗？是因为旁边有停车，如果你要是你对他的速度检测不好的话，你就会刹车。好，我们把这个问题解决了，结果有些街道不是一排车两台车在那停着好吗？这又不会了，所以要重新在那个路里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:25]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Define一个叫做double park入口。我WI在推特上就是在回忆这个过程，你有double park，你知道其他国家是不是有triple park？三排、四排、五排。所以这种是无穷无尽的。当然它的好处就是你fix非常快，不像vivo我说刚才那个场景，它回去很快就fix了。但是你如果是端到端，你如果机器学习基于人工智能的话，对你可能要重新要去采购一些数据，要把这个去fix它的周期会比较长一些。所以说这是为什么说V13到V14，大家看花了这么长时间才更新一年时间。但是它一更新就是一个阶段性的一个更新。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>老于你这里讲到有一点关于可解释性。其实现在在国内的技术路线有两派了，一派就是说我们用VLA的方法，一定要有可解释性。另一派就是说直接把它全部token ize，大包小包把它打个包，不需要可解释性。在我来看，我觉得其实是不需要可解释性的。因为人去解释你面前的自然世界，它其实是一个主观意识了。我们人在面对自然世界其实是下意识。比如你开车，很多时候你不是说判断这个东西是一个红色的垃圾桶，你不需要把它可解释成这样，它就是一个障碍物，你感知到这么个东西，你可以做判断。所以我对这个可解释性上我是迟疑的，我觉得不需要花太多时间在语言模型中间去解释它这些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果他没有可解释性，你们怎么去相信他的安全性？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就是要靠力大砖飞。你的数据量足够大，其实你像这个大语言模型也是没有足够的解释性的。大语言模型如果我们把它拿来做临床诊断，实际上是不行的。因为临床诊断需要可解释性，就是他需要你回溯你给我的这个理由，ABCD是什么，然后给出这个药方子。但是我们日常在跟大元模型打交道，让他去问一些法律问题，问一些医学问题。你作为个人，你不需要可解释性，你只需要得到一个差不多的结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我举个例子，国内的这个理想汽车，它的第一代端到端，他说的端到端系统叫双系统。一个慢思考，一个快思考。慢思考其实就是试图想要解释，试图它的输出并不是给机器的，还要给人看前面有个什么东西它会蹦出来，就像你问ChatGPT1样。但是这个路线它已经放弃了，我觉得这里有诸多方面原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:29]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是有一点很重要，就是在开车这个过程中，作为driver或者以后的乘客，你需不需要知道机器在想什么，机器在到底是什么？我认为在线这是浪费时间。我觉得在AI领域很有名的一个科学家叫科凯明，他现在MIT professor。他曾经说过，你在打车的时候，你的人类司机你需要他把他的每一步都告诉你吗？就是你也不知道他在想什么，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:49]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是在离线，刚才洪军提到a shock ICCV的这个演讲，他其实专门强调了可解释性。就是在离线是需要可解释性的这是对监管，也是对于自己作为模型的evaluation，或者它的自己的提升，以及下一步的数据采集。它需要解释就是邵克专门强调了特斯拉这个端到端，它是怎么来在离线状态下进行解释。我觉得这是make sense。因为像现在的大语言模型或者各种模型的，它是不可能在线上芯片跑通，或者说比较强大的模型跑通。但是特斯拉是你在离线状态下，我有足够算力的情况下，我确实需要你告诉我你这个模型在这一刻怎么回事，为什么发生这么一个非常奇怪的一个操作？我觉得这是需要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>刚才大家提到VLV，什么VA，什么世界模型，我觉得这个真的是那个人眼花缭乱，电话聊乱。其实我非常同意最近小米汽车的一个端到端负责人叫陈光。他说的就是说我们不要制造技术焦虑，就是说你搞一些技术名词，你搞得很乱。红军其实你看邵克他的这个演讲，他也很久不会来讲一次。他讲的话也不会给你把各种技术名词给你摘取出来，我觉得这是完全的迷幻。消费者其实你看真正在进入一线的人，我们就要解决问题。所以我就提出叫做智能密度，就是说是不是纯智能？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:03]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>威猛在rubies这套系统里面已经做非常好了，但是它还会出现这样问题，就是说这件事情expose的一个问题就是看来威猛也不是纯智能化。今年了2026年了，到已经21世纪的第二quarter了。我们是不是还会质疑是用数据驱动，是用AI来做，还是如被送。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对之所以还有绝大部分玩家还在入ba s的，我觉得唯独两个原因。第一个原因就是做不出来。第二个原因就是包袱太重，它不可以轻易去改变。我觉得这可能是vivo的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，vivo连激光雷达，整个这些硬件全是自己在造的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且我觉得大家刚刚在讲可解释性，还有一点就是a shock。其实在他那个演讲里面提到了，我可能说技术名词不专业。大概就是说如果你想知道中间哪个环节，你可以设定一个参数的节点，对吧？在这个中间就是你再加一步在这个AI里面，所以它其实也是解决这个问题的一种办法。刚刚大家的讨论，我觉得老于你有一个词儿叫智能密度，这个词儿提的特别好。我记得你之前是有一个观点，就是说你觉得现在特斯拉它的领先，其实还没有用到它的数据与算力优势。因为我们知道特斯拉自己也在造芯片多久，他自己也是有很多收集的用户数据的。你觉得现在很多厂商他们可能在算法层面都赶不上特斯拉，可以详细分析一下这个观点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:22]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，就是大家一提到特斯拉为什么FS领先，说是数据优势，核算的优势，这一点我非常同意。但是我所说的是在大家都有已知算法的情况下，然后我们才去看数据和算力问题的。恰恰就在于特斯拉从2023年下半年推出V一二以来，到今天了为止，他没有看到任何一个玩家在算法上接近特斯拉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:42]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>刚才我提到了两个原因，一个是包袱太重，一个就是它的很难做。我长期关注过，比如说理想，比如说小鹏，比如说你有他们在不同的时期内都说自己端到端的。但是我通过长期对待他们的测评的表现，我觉得距离端到端完全非常遥远。尽管他们虽然提出了是VAVLA等等等等各种，但是还非常遥。我们再来大语言模型，就是大语言模型可以说在算法上可能都已经没有什么秘密了。几大大厂之间人才流动也非常的快。恰恰我在这个领域的话，特斯拉你除了阿绍克做了一个SUV演讲的话，你就很少看到任何的技术分享。所以说在算法上还没有找齐，所以他就不要去提到数据和算力优势，那是后面的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:20]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实你可以看到邵克和他联系还有一个更好玩的一个地方，就是到最后他的mulatter这个是很厉害的。这个是我从他的演讲我觉得最受震撼的一点。你看他在模拟现实场景中，我们都知道端到端，包括机器人也是这一系列的技术栈的难点就是采集数据，特别是不同的corner case这样的一个数据。然后他做的这个simulator，我看有个人的方向盘对吧？但是像打游戏一样，然后这边产生新的场景，它这样就是把数据给采集过来了。所以说过去两三年自动驾驶的技术更新发展，完全就是特斯拉在引领。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你觉得算法层面的领先，他拼的是什么？是算法层面的核心的人才吗？还是他我觉得是技术思想。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>一个是人才，还有一个是置之死地而后生的勇气，还有一个就是你的计算机的算力，而这三点同时具备，目前只有特斯拉了。从这个人才角度来讲，现在在AI领域的竞争就是在美国的中国人和在中国的中国人之间的人才的一个竞争。我觉得这个人才一定要在好的环境下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>恰恰巧巧就是特斯拉，就是伊隆马斯克。真正跟随他的人往往是内部成长出来的。再看这些人的履历，你不会看到他是一个学术明星，他曾经发表多少论文，对吧？你们看现在端到端的这个团队，这个团队是特斯拉内部培养起来的。以前我们特斯拉的一个明星就是安瑞克party，就是原来我的前老板，他是一个学术明星。其实论文恰恰他走之后出现的，而做出这个的人的团队就是内部培养的一个团队。所以我觉得这个土壤，这个环境其实是往往是更重要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从外面吸纳的人不多对吗？主要的没错，主力都是内部。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:48]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>最近一个minus被收购，包括CAI之前对不对？这都是非常热门的收购话题。在高科技领域它是轻资产的模式的收购，其实主要是人才的收购。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:57]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Acquire hair, 我只要让你的人过来。其实他当年也收购了一家公司，就是deep scale。这家公司也是有care hair这样的一个模式收购的。我们当然就他们加入了十几个人进来，其他的有啥这个GPU box就这些东西，这十几个人当时也是寄予众望，但是这十几个人我觉得这是一个很失败的收购。对于scale的创始人可能没加一两年就被fire了，其他的这些也是磨合不够，就是说对于特斯拉这个文化不够适应。他们加入的时候，说我说你们做特斯拉的工作节奏比我们这个stp还要start up。但是我觉得不是只是一个工作强度的问题，而是一个解决问题，就是problem driven这个问题就是我们到底是这么一个土壤，就是以解决问题为核心的，而不是天天造名词做P2为核心。但是整个的团队来说的话，你其实很少有明星工程师，大家都是默默的把这个事情以解决问题为核心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对你刚刚提到了三点，人才、勇气，然后芯片聊一聊。第二点，你觉得信念是来自于哪里？是来自于马斯克，还是来自于AI团队的负责人，还是比如说上上一代Angel kasi，这个信念是从哪里来的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得就是来自于马斯克这个端到端，我觉得里面也充满了一些偶然，一些巧合。稍微在某一步你不坚持下去，你也就做不出来。其实像我们现在看到这个a shock，他作为新人的领导，他现在管FSD也管机器人，他是第一个加入FSD团队的。然后中间为止就是比他高级别的人就去什么英伟达，去什么vivo ora各种公司，就是他留下来自己往下做。其实和他同样的工程师，就这么一些核心的骨干力量把这个做出来。所以我觉得你又得有像伊拉马斯，像你领导，又能有像认同伊朗马斯这种风格的一个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我知道马斯克是非常敢于赌方向的，我想问的是如果赌不出来会怎样，或者他当时是看到了什么，敢去赌这个方向，或者说赌端到端的运行模型的方向，它需要多少钱？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:51]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我的理解是其实是common sense。如果你的团队，你的规控工程师、算法工程师都在不停的在修补这些永远修补不完的那你不觉得这里面有问题了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他赌是从2022年到2023年开始的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:05]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是从那不是的，其实更早一些，早到2019年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，但是2019年到2022年那个时候还没有大模型，对不对？Skin law它在AI界是不是一个共识？还没有数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>闭环肯定是个共识，就是说没有给那么fancy的名字叫大语言模型。但是要做数据闭环，肯定是因为马斯克自己之前也做过互联网公司。他也知道你这个东西要拿数据把它跑起来才行，他才能automatic，对吧？不能把过程当结果，比如说我招那么多PNC的工程师，然后这些人都在调参目的上车跑的顺溜，那我直接让人开，把这数据录好，让他跑的顺溜不就得了。我还是比较相信从他第一性原理出发，他会想到这个方向的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>了解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:46]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，如果你的团队今天告诉我，我今天又fix color case，明天又fix了，这个不太对了。这也是为什么你可以看到V一一在很长一段时间是属于进展非常缓慢的一个程度。特斯拉没走，比如说华为这个路线就是招收大量的人来做PNC这块。PNC的招的人也其实基本上没有招人，一直是非常小的一个团队。对于常识性来讲，这不make sense对吧？哪天是个头。然后还有就是激光雷达这个事情，这件事情是吵得最凶的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，然后我们刚刚讨论到了信念的问题。第三个问题就是GTU，就是你要不要讲一下你当时整个参与开发特斯拉芯片的过程，以及芯片在特斯拉能做成端到端的这个事情上，它占了一个什么样的位置，跟它贡献了多少的比重。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:29]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>特斯拉的芯片设计，在历史上它有两个线，一个是推理芯片，就是在车上跑的。还有一个就是dojo，就是它用来作为训练的这样一个芯片。德州在今年已经被取消了，甚至他的负责人Peter banner已经离职了。现在端到端的芯片还是都是来自英伟达。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>詹森黄曾经公开的调研过或者崇拜过伊朗。麦子说这个世界上。计算机集群训练这个中心只有一个人能做到。就伊朗马斯克他又建发电水冷，这么快的时间把这个XAI给搞定了。当然特斯拉的GPU不需要XAI那么多。我印象里面他特别喜欢问团队，就是我能够帮你们解决什么问题？开门就是说我要更多GPU，那他就是义无反顾的给你上更多的更多GPU。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:08]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>但是对于其他的芯片，我是前五年的时间还是在AI软件就可以，我直接向andrex汇报。然后后两年我转组到奥斯汀来做第四代芯片。第五代芯片这个设计那是主要是推理芯片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:19]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>从算力上来讲，我觉得伊朗是想的比较远的。其实我加入特斯拉的时候，那时候已经有第三代芯片要上线了。今天你再来看什么小鹏，你有还有理想什么都在自己做芯片。那个时候的话，你会觉得你一个车企为什么要做芯片，对吧？那个时候是非常奇怪的，所以说这个在我看来是特斯拉就叫做硬件软件co design。Co design有个问题就是说既然是共同设计，那你如果是软件太烂，你硬件就不会太好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:46]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你说作为一个硬件工程师，他设计芯片，他最头疼的并不是说你给我一个同样的这么大的一个片，让我塞多少算力。最头疼的问题是软件上的需求是什么。只有你的软件部门能够非常清晰无误的把你的需求告诉我。而且还不是今天的需求，而是未来三年、五年、六年的需求告诉我，我才能把这个事情做好。所以这也是为什么你要说特斯拉凭什么你推理硬件比别人好？我觉得这个是核心因素，就是他一扣底的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>那么好，为什么doo jo就失败了呢？首先我觉得doorga去年芯片确实是它复杂度要比推理芯片要难非常多。你要有一个置之死地而后生的这样一个勇气，就是它恰恰训练芯片，你没有这个一个勇气。你有一个英伟达在这里，天天你就买现成的，这个都是我觉得就是缺少这样一股勇气。所以说到今天失败了，特斯拉就专注于做推理芯片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第四代跟第五代的推理芯片的区别是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:39]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>第四代芯片设计的时候还没有出端到端的，所以说第四代芯片你可以认为它是对rubs e的系统来设计的。然后第五代芯片设计的时候已经有端到端了，而且不只是端到端，还有其他的大语言模型的场景。在我和奥斯汀后两年，我转到硬件部门，说实话很大一个原因就是说软件那边太累了。结果工作了一年多之后，AR马斯克他都不来。我们是硬件这边公示的，以前是软件这边是每周都盯着硬件这边基本上不管的。结果有一天突然就来一带他那个儿子开了34个小时的会，从晚上七点开到11点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得那个时候和这个芯片缺芯片有关系，但是它主要原因还是因为是它的XAI。它在考虑大语言模型和其他的玩家竞争的时候，其实是做出最便宜推理的玩家就是最成功的。对，所以说他那个时候，他在第五代芯片的时候，就要把这个也要考虑进去，说不只是为了特斯拉自动驾驶。当然了以后自动驾驶也要有大于模型这个因素的考虑过进去。所以说第五代芯片会把这些都会考虑进去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:38]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>当然了肯定不只是结束，后面还有第六代。第七代只是做推理的话，你问题会简单很多。比如最近英伟达收购了grog，他也专注推理。所以你可以认为特斯拉在这个方面已经耕植了非常多年了。稍微总结一下，就是你要想有好的软件，你才能有好的硬件。然后好的硬件再来一套好的软件。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以现在整个特斯拉它的推理芯片硬软件，它其实是在一个里面的。他没有把这个拆分成两个大的team，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:03]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是两个team，一个是在硅谷我前五年待的地方，一个是在奥斯英亩后来年代的地方，但是联系非常紧密的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后你刚刚把特斯拉端到端的领先，第三点是归纳为GPU。然后你的GPU指的是马斯克他是很会建数据中心，包括就是给大家去买来这种训练的芯片。因为我们看到他建数据中心的这个速度也很快，还是指他在推理这一段也很强。你们自研推理芯片对端到端的模型成功的推进，你觉得这个比例大概会占到一个怎样的比重？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:37]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我觉得这个是决定性的比重。不说特斯拉，说理想的一个双系统，为什么他们把语言模型部署到车上呢？他们会自我感动的。就是说因为这个东西是挺难的，你在这有限算力上面的话，你就把语言模型放到一个车上确实挺难的。所以说就是巧妇难为无米之炊。你的推理芯片不行的话，在软件这边你再厉害，你也推不到车上去。我觉得这是一个非常有战略眼光的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:01]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>虽然说都走这件事情失败了，我觉得也是一个很好的一个教训。搞不好某一天比如说英伟达这个GPU，它在硬件上设计的太缓慢了，或者说它的需求远远的偏离特斯拉需求的话，我觉得他可能会再卷土重来，也都是非常有可能的。所以他对整个思维就是非常正确的。你看像我们今天去赞扬和赞扬google，就是他有TPU，这确实是。如果你不是这么早的有战略眼光的人，只是注重软件，不注重硬件，我觉得你走的就不是会这么的扎实这么远。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为大卫其实你有在硅谷跟国内两边跑，你觉得国内的新能源厂商这是一类。然后还有一类是做L4的这个自动驾驶的厂商。其实现在大家都看到特斯拉端到端模型的表现了，他们其实也在学。你觉得他们要去学特斯拉，它的核心壁垒在哪里呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是两类公司。首先我先说L4的robot taxi公司是学不会的。一个是钱不够了，另外一个是商业模式上可能支撑不到他真正把这个事情实现。因为特斯拉首先他这个东西取巧在哪儿呢？他的车是他量产版的车，但是cyber CAB例外，就是他目前跑的车其实是这个model y就是量产版的车。你让一个rob taxi公司，哪怕强如百度，百度算是在做robot taxi当中比较有钱的。因为它还有一个巨大的现金流来支撑它，他也只是说跟别人合作一款车，他不可能自己完全造业一款车。其次就是在算力，还有人才储备以及方法论都太晚了，就是现在已经没有办法掉头了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回到主机厂这部分可能就是L2、L3，而且追赶是从三个方向上追赶，就是有芯片公司向上炭的，像地平线这种，也有算法公司整合芯片向上炭的，就是像蒙曼塔这种，还有是零部件供应商打算包圆了的，类似华为这种。实际上他们三类公司说实话在整个L2到L3它的利润是不一样的。其实卖硬件的利润不会特别高。我可以想象之前有个华为inside HI，还有同盟之下，我觉得它的利润率不会高，反而是卖芯片的利润率高，地平线的利润率肯定是高的。所以这三个公司我们就看吧，每一家都要做垂直整合。那谁能往后走？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为其实现在有些人说自动驾驶来到下半场，我觉得你又不是吹哨的，你怎么定义上下半场？上下半场不可能被你来定义。对于大部分中国公司来说，实际上还是在非常早期的阶段，刚找到一个三号这个门路在那边，其实找到门路这过程已经死掉大量的公司了，留下来少数的这些公司，从芯片端，从算法端和从硬件端分别去向特斯拉那个方向去靠拢，当然也有激光雷达公司，但激光雷达公司并不提供算法，只是提供了一个硬件而已。所以其实是分两类公司来看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OK振华有补充的吗？作为特斯拉投资者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:44]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就因为我对于国内一开始这个不太了解，然后我看到他们一些一起出的一些宣传，我着实有些震惊，难道进展这么快吗？最近两三年我认为特斯拉领先的，不管是VLVVA还是世界模型，不是变小了而增大了，领先的差距是越来越大了。所以在短期内我也不认为他们会有机会追赶上特斯拉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我的最后一个问题就是我们刚刚其实聊了很多特斯拉在开始的时候我有提到韦某。他最近是在以1000亿美元左右的估值去融资，融资150亿美元。其实v bo也是有优势的。首先它已经去掉了四级，每公里运营成本现在还是1.43美元，就是特斯拉可能是0.81美元。这个数据是来自于摩根斯坦利的报告。但是摩根斯坦利寓言韦某新的一年里面，它的新的车型可能每英里会降到0.99到1.08美元，就是它的成本还是会大幅下降的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我知道两位也是特斯拉股票的持有者，这个应该是对的，对吧？这持仓披露从你们的角度来看，韦某作为一个投资者，你们会投给vivo吗？就按这个估值来说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不会，我就保守性投资。为什么会？我会孤注一掷的投给特斯拉？因为我觉得刚才他算的这个价格，无论它多低，它也其实真正量产来说不会比特少的，一定会非常高的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这里面还有一个就会越来越这里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一个maintain，就是你要运营一个车队，说实话你要充电，然后你要做各种传感器的管理，然后这些传感器也有会损坏等等一下来不是咱们现在说的账面上这一个车接了这么多活，一除而是一个非常大的盘子。在旧金山湾区韦某的充电站那里面，光充电的小哥又雇了三个。那三个小哥就坐在椅子上看着这堆车谁来了，给那个充电桩把电插上，这是他需要一个人，特斯拉是不需要这个人的，在CYREC cap上面其实是无线充电。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我想表达的是，对于这一类技术公司，我们看它账面的能不能打平，实际上这只是一方面，而且要看它整个生命周期内这个车能用多久。Vivo用的还不是固态激光雷达，还是机械激光雷达。这个东西其实在我们行业内大家都有心里有数的。机械雷达天天在那转，它到底能转多久？两年差不多，三年不太行。所以特斯拉就是摄像头，所以我们如果算下来折旧还有均摊的话，其实差距还是蛮大的。所以我不会投资威猛，而且我觉得1000亿实在太贵了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，老于应该也是不会投资。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>对，当然了我觉得阿里bet这个公司还是很不错的。去年这一年时间jm娜真的很优秀。所以但是你看阿bt也没有all in韦某，对不对，他也是领头而已。我也说了自动驾驶这个就是vivo这个ruba e路线，它不是一个规模经济路线。我增长了十倍的用户，你的cos可能也要增长很多，因为你要部署车队，这是两个量级的竞争。但是我还是很喜欢alphabet这股票的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>接下来我来看一下听众的提问，有一位是问在LLM重庆了。所有数据还能使用text time compute之类的方法，都不能做到很高的准确度。那FSD在算力受限，没有硬的rule base的情况下，如何去满足安全性的需求？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:55]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>大家可能认为特斯拉端到端的算力要求非常大，其实不是的，它相当于这个大语言模型jam I ChatGPT只是小巫见大巫。这里面很重要一个因素就是它是resist的。你每一个token它要回来再走一遍，然后再来产生。而特斯拉这个不是它的，这个是虽然它input非常大，但是它的latency不需要像语言模型这样，就每一个token再回来再来一遍，那今天我们看V一四算力还没用完，在第四代硬件上，那就不提说后面五代六代是这是为什么特斯拉会设计下来的芯片原因，并不是说因为就是喜欢设计芯片，设计算了一代还是会一直在爆发的增长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好，第二个问题是一位听众问何小鹏说今年自动驾驶会发生l two到L4的直接跳跃，请问你们同意的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先这个L2到L4是还在自动驾驶还没成熟的时候。就SCE这帮老家伙，就是美国汽车工程师协会，他定的这个东西又写了很多条规则。实际上我们先拿特斯拉举例子，特斯拉有些表现在L2上是有短板的，但它有些长板是在L4上面很惊艳的。所以如果一定要拿SAE的定义来说，按照短板效应，特斯拉就是L2，但是你不可能这么定义它。所以我觉得首先这个定义就有问题。在中国大家也有定义，中间还有定义什么L2.5，对吧？我也不知道他怎么还有个点5。所以实际上他想表达的意思就是说把原来L2的这套智能辅助驾驶和L四这套现在我们提的端到端的rob taxi方案把它打通是对的，是可以实现的。但是像刚才老于讲的，你是有很多前提的，要单一车型，你不能搞个20款车型，每一款车型都要上AI那你这个数据的一致性就很差。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其次在算力方面，还有一点我觉得更重要的就是刚才老于讲的，你有没有孤注一掷在做这件事情上。因为我觉得大部分新能源企业，实际上对于自动驾驶是它的优先级其实相对较弱的一个。可能换电的优先级都比这个要高，那怎么可能把这件事情做得很好呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我不知道这位听众的提问，如果我来重新定义一下这些非常拗口的名词，什么l two l，他想问的是，是不是能从辅助驾驶系统直接更新到自动驾驶系统。同时拿特斯拉举例，我们是能把安全员去掉的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>特斯拉根本就没有在意L几，他也没有说我要一定要实现L3或者怎么样。现在何小鹏突然间发现，原来可以这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，行，我们今天的时间也差不多了，非常感谢大卫跟姥姥瑜的分享。这期直播我觉得整体上我们的观点还是比较pro特斯拉的。然后两位也是特斯拉的坚定的支持者，我相信在我们的听众中有很多是这些自动驾驶公司，不管是L4还是新能源厂商的从业者。如果大家有相反的观点，非常欢迎大家来杠。因为我觉得很多事情大家越辩论，对于解决问题是越有帮助的。好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>谢谢红军，谢谢大家，谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，这就是我们自动驾驶的节目。更多的观点与路线的碰撞，我们会留在今年的节目中持续的放出来。如果大家对这个话题感兴趣，记得在苹果播客小宇宙spotify上持续的关注我们。我是红军，感谢大家的收听，以及祝大家新年快乐。</p>]]></content:encoded>
-            <pubDate>Thu, 15 Jan 2026 02:00:00 GMT</pubDate>
-            <guid>69684b5910309210cb7f9c82</guid>
         </item>
     </channel>
 </rss>

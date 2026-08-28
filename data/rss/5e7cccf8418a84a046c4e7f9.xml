@@ -4,7 +4,281 @@
         <title>创业内幕 Startup Insider</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e7cccf8418a84a046c4e7f9</link>
         <description>GGV纪源资本出品的非严肃商业访谈</description>
-        <lastBuildDate>Sat, 22 Aug 2026 04:39:49 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 12:18:46 +0800</lastBuildDate>
+        <item>
+            <title>S8 Vol.22 基元律动王云鹤：Token成本如何实现「多快好省」？</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a90b41e8e912c9d31d9b032</link>
+            <description>用上AI Agent之后，Token越耗越多？越来越贵？
+Agent承担管理记忆、调用工具、规划步骤、检查结果；而模型又在代码、上下文和推理上各有长短板。让一个顶尖模型“打天下”，昂贵也未必高效。这便让位于基模与Agent中间的Harness成为行业焦点，它将调度细化到每一次查询，在效果与Token成本之间寻找更优解。
+本期节目，我们邀请到基元律动创始人王云鹤与纪源资本投资经理周钱晟，拆解多模型Routing背后的商业逻辑。时下很火的Harness，到底是什么意思？Harness对于模型的意义体现在哪些方面？个人与企业拥抱智能化，存在哪些差异化需求？AI Native团队如何重新分配人与AI的工作？Agent爆发前夜，创业公司还有哪些机会？
+02:34 在AI最热的时候离开大厂去创业
+06:49 创业门槛相比以前更高
+08:55 究竟什么是Harness？
+12:22 Harness反哺下一代模型
+15:17 用“四驾马车”来理解基元律动的Harness
+18:43 把Agent的Token价格打下来
+21:11 企业不能跳过信息化直接走向智能化
+25:24 四五个模型，融合出更优解
+28:21 Harness层，不会被吞噬的是什么？
+35:24 从个人好用到企业落地的鸿沟
+41:07 “古法编程”时代已过，团队需要怎样的人才？
+47:53 AI领域的创业机会与认知
+51:20 基元律动的人才招聘需求
+53:03 评论区抽取5名听众送出基元律动Token
+《创业内幕》粉丝群已经开通，在这里，你可以跟节目制作人/主持人直接沟通，也可以第一时间了解到纪源资本线下活动动态，见到纪源资本的投资人，结交其他互联网圈子里的小伙伴。
+入群方式：
+1）添加微信号“JiyuanFans”为好友，并在好友请求中标注“创业”
+2）把你的全名和职称发给创业小助手；如果您想约访谈，请添加小助手微信，并附上访谈嘉宾简介，小助手将帮您对接。</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期《创业内幕》由主持人丽丽姐对话AI创业公司基元律动创始人王云鹤与纪源资本投资人Alex，围绕AI agent产业链下半场的核心议题展开：当大模型能力趋同、token价格高企时，harness层（模型与agent之间的组件协同层）如何通过模型路由实现「多快好省」。王云鹤是北大博士出身的90后AI专家，2024年4月创办基元律动，主打开源项目OpenScholar（节目中音译：open scala），核心利用per-query级别的模型智能调度，将agent的token成本降低50%以上，成立仅一个季度即获1亿美元天使轮估值。Alex则从VC视角分析了AI创业门槛提升、honey层在模型迭代中的作用，以及创始人团队稀缺性等问题。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>创业核心逻辑：打掉token高价，便宜用上SOTA模型</strong>。王云鹤最核心的洞察是：“一旦用了模型路由之后，10%的活被最贵的模型干了，但他可能拿走90%的钱。”基元律动通过动态路由让不同难度任务匹配不同价位模型，在任务成功率与海外顶尖模型相当的前提下，综合token成本可节省“百分之六七十甚至更多”。</p>
+</li>
+<li>
+<p><strong>「四驾马车」比喻公司战略路径</strong>：只服务一个模型的harness是一架马车配一匹马；跨模型聚合平台（如OpenRouter）是同时有候场马匹；基元律动现在的open scala做的则是per-query级路由——实时调度模型，让一架马车同时牵着四匹马跑；未来计划把自研的高性价比模型也装进这架马车。</p>
+</li>
+<li>
+<p><strong>routing是harness层最不可能被模型吞噬的环节</strong>。王云鹤回应“顶尖模型吞噬一切”的行业判断时承认，prompt工程、RAG等优化手段会被下一代模型吸收重新变“没”，但只要模型长期保持多元化格局，routing就是核心壁垒，“大厂都有自己的大模型，只有创业团队能做好第三方去中心化harness——让所有模型公平、公开、可审计地路由。”</p>
+</li>
+<li>
+<p><strong>独家行业数据：中国模型在OpenRouter调用量已反超美国</strong>。他援引OpenRouter数据分析：“只看模型调用量不提价格，今年中国模型占了70%以上”，而去年同期美国模型占比70%以上；OpenRouter的token开销近半年增长五倍以上，这也是其被Stripe以高于估值5-10倍价格收购的原因。</p>
+</li>
+<li>
+<p><strong>harness正在反哺模型进化，且是必然发生的</strong>。Anthropic通过Cursor的真实用户轨迹和反馈迭代Claude，随后又将cursor能力吸收进自己的Code；OpenAI同样通过Codex闭环再合并入ChatGPT——“大量的模型公司已经拿harness作为一个非常重要的组件去产生数据、插上真实环境的反馈，帮助自己的模型训练下一步AGI。”</p>
+</li>
+<li>
+<p><strong>融合模型实践：四五个国产模型并行跑，成本降到1/3</strong>。王云鹤日常主力用的不是单一模型，而是基元律动自研的智能融合路由——把任务拆成标签、模型拆成标签，多个模型并行执行再由一个模型整合输出，解决单模型的长序列不足或代码能力短板，成本仅为市面上最贵模型的约三分之一，代价是推理时间更长。</p>
+</li>
+<li>
+<p><strong>成本管理方法论映射到组织架构</strong>：“充分发挥AI的能力，然后在关键岗位上补人。”系统架构设计、运营、产品思维、创意类工作以人为主，具体执行尽量让AI为主。王云鹤还提到一个量化案例：自己用AI写一个前端页面，“30块钱加上人的一些想法，就能解决很多原来靠人头的生意。”</p>
+</li>
+<li>
+<p><strong>对B端落地的清醒判断</strong>：国内大量企业连上一波SaaS/IT化都没完成，“AI的前置条件是你先有足够多的好数据和工作流，然后才能AI辅助你”，不可能跳过IT化直接智能化。他认为当前更适合采用agent的是SMB（中小型企业），律所是典型的token重度开销场景——知识产权律师需要海量检索和阅读长文档，但面临“信不信AI”的痛苦：“AI的平均出错率已经低于人在这个领域的平均出错率了，你只能选择相信他。”</p>
+</li>
+<li>
+<p><strong>「agent代练」将成为一个新职业</strong>。他认为未来用户需要像游戏代练一样帮自己训练和配置agent的人：“你要给他足够的知识，跟他做足够的人设对话。”他本人就养了好几个agent——有具体做事的、有专门批判他的、有帮传递信息的，让部分agent完全独立于自己的性格去工作，产出质量明显提升。</p>
+</li>
+<li>
+<p><strong>投资人视角：天使轮1亿美金估值不贵</strong>。Alex的核心观点是，AI创业的竞争壁垒已归结为“人才密度、算力储备、工程化优势”，“这几个优势归结在一起变成了一件事情，就是钱和估值”，因此传统意义上低成本的天使轮“未来可能会不复存在”。他评价王云鹤“对模型底层认知、算力与模型匹配问题想得非常清楚”，且有把团队团结在一起组盘子的稀缺能力。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li>
+<p><strong>王云鹤自己的AI会骂脏话</strong>。主持人问他如何排解焦虑，他说“跟AI聊天就能缓解很多焦虑”，随即被追问AI会骂他什么——他承认：“会骂脏话……可能我有的时候聊天的时候……我最多说你这个小垃圾。”节目现场气氛相当轻松。</p>
+</li>
+<li>
+<p><strong>团队内部最会用OpenScholar的人是韩凯，但号被小红书封了</strong>。王云鹤分享了一个内部轶事：这位早期成员用open scala写小红书内容并自动发布，结果账号被平台封禁——“他其实是对人做入侵式修改或者说一些其他攻击，所以从合规角度就要做更多授权。”</p>
+</li>
+<li>
+<p><strong>与大厂/投资人的深夜对话也有AI参与</strong>。王云鹤提到前一天被一个投资人追问“全球到底有哪些人在做你们的事”，当场没能给出sharp的回答，但回家后跟AI讨论，AI给出了分析：“所有大厂的云都有潜力做这个事情；OpenRouter往下做就应该自己去做一朵云。”——创始人把AI当作战略思考的对话伙伴。</p>
+</li>
+<li>
+<p><strong>面试方法深度优先搜索，希望候选者讲出他不知道的事</strong>。王云鹤说自己面试风格像DFS：“他只要达到了我感兴趣的位置，我就往下探一层，直到他看不清楚。”他希望候选人讲出自己不知道但方向“大概率正确”的事情。他还提到昨天面试了一个特别想要的人，但没匹配到现成岗位，“他其实可以通过AI转到别的岗位上”——AI让转行和岗位匹配都变得更混沌了。</p>
+</li>
+<li>
+<p><strong>90后创始人自嘲“也算老登了”</strong>。主持人介绍他是“中国最优秀的四位AI专家之一、小科学家”时，他立即接梗；谈到自己天天用AI辅助工作时，还提到一个有意思的观察：“古法编程现在已经变成了一门手艺，就是抖音上有人直播说今天用C++给大家写代码。”——用“古法编程”描述AI时代被边缘化的传统手写代码，这是播客现场即兴产生的概念。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我们做open square的初衷就是要把大家用agent的时候，token的高价格打下来。因为一旦用了模型路由之后，10%的活被最贵的模型干了。但是他可能拿走90%的钱。我们其实是要跟海外顶尖的模型差不多的任务成功率的时候，我们其实可以省到百分之六七十甚至更多的这种成本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我有选择用哪个模型的权利吗？我在C端上是有的，但是真正当我用起来以后，你模型的迁移和转移成本是很高的那今天如果有一个中间商，他能帮我去做routing，他能帮我去做排布，他能帮我去选择。一方面把我的token成本降下来，第二个就人人都希望自己用，都用sota模型，都用最好的模型。但是你不想用最高的价格去用扫塔的模型，这个就是人改不了的这个点。基于这种前提之下，不同的角色他的token的消耗成本理论上是不同的，就应该是归到不同的模型上面去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在的整个成本管理就是充分发挥AI的这个能力，然后在关键岗位上补人。因为有一些事情AI干不了。比如说系统架构的一些设计，包括一些运营，包括产品思维，需要一些创意类的东西。我觉得还是以人为主，具体执行我们会尽量会让AI去为主。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>亲爱的听众朋友大家好，欢迎收听本期的创业内幕。我们今天有幸请到了两位嘉宾，一位是AI创新企业机缘律动的创始人王云鹤，然后另一位是我们纪源资本的投资人alex。欢迎两位。请大家跟听众朋友们打个招呼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家下午好，我是王云鹤。今年4月份我们成立了一家公司叫做资源律动。然后我们现在在做harness这一层的一些创新的一些东西，然后我们也做了一些开源，也欢迎大家试用我们的一些产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello, 大家好，我是alex。今天也很高兴有这个机会能跟大家探讨和交流一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我们今天这期请到云鹤和alex。主要是因为最近这个AI的讨论实在是太热了。其实行业里一直有说法叫AI的上半场拼模型参数，下半场拼工程驾驭。过去大家就是扎堆做大模型，我们VC肯定也是看了很多很多类似这样的项目，整个产业已经从能不能做AI进入到能不能稳稳的用好AI的一个时代了。今天我们请到云鹤，就是想他来分享一下做机缘律动的一些想法，以及AI的一些洞见，包括未来和现状。同时我们也有幸第一次邀请到alex来我们的博客，他也是我们公司的AI的专家，我们也可以来请他聊一聊，从VC的视角看一下AI今天在市场上我们的一些共识和判断。首先第一个问题，我们就先给云鹤，要不然请您先跟我们聊一聊您的这个公司的名字，机缘律动的由来，您对a agent的底层逻辑有什么样的一些理解？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概在三月底，就是我们决定做这个事情的时候，其实我们一直在kick off说open cloud。就是说整个coding已经能力到这个程度的时候，harness这一层能给我们带来什么？当时有一个讨论就是模型，其实每家模型的表现全是不一样的。比如说千问的coding领域的java能力可能是国产模型里最好的。另外就是说当时的GRM虽然代码能力很强，但是它的长序列的长度不够好。那基于这个假设，我们去讨论hardness的时候，就是说agent我们希望它帮助我们解决很多事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在不同的任务上，不同的模型它的harness这一层的组件要调整的方向不一样。比如说有的模型它的prompt可以做得很长，有的模型它的reg可能要去做一些压缩，包括一些memory层面的一些管理。我们其实就画了一个图，就是说不同的模型想在一个给定的任务上调整到最优的时候，它中间的这些焊接组件调整的方向不一样。我回头把那个图发给你，我觉得那个图蛮有意思的，就是说它是一些箭头的，其实很像律动的这个感觉，所以起了一个名字叫ray m然后反过去再去想什么东西。在rythm想了很多次，最合适的还是token，就是整个harness，包括现在做的所有的agent的事情，其实都是token在流动的这样的一个感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以就是token是最小的单元，是底层的逻辑对吧？动其实你想强调的是一种协同和流转的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常模型在里面，不同的模型要协同，然后不同的一些基础元素在按照最优的方向去做一些调整。那其实跟我们现在做的很多的一个核心组件叫做agented routing。它其实就是说在做agent的时候，harness其实在实时的query y的去调度，说什么样的模型对这个任务是最优的。其实也是在reason在做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得对这也对应了您目前在做的一些产品，对吧？其实这个云鹤刚才我们还没有时间让他来介绍自己，我先简单的先抛一块砖。我在去见他之前，然后alex特意跟我说，他说丽丽姐我们投到了中国最优秀的四位AI专家之一，然后小科学家。我们说的这个小不是是说他的这个学术成就，是他年纪真的不大，90后来执掌这么大的一个团队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也算老登了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>要不然云鹤介绍一下自己的履历。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一开始我其实一直在北大读博士，大概是一二年我就决定说我要去搞人工智能。满中国其实没有一个专业叫人工智能。最后我发现北大又是个专业，然后我就去北大了。17年的时候其实我面临一些选择，就是到底是去当教职还是去工业界。当时反正我跟几个大厂接触。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果在大厂里继续做下去，我相信以今天AI的热度应该是前程似锦的。但是您选择在最火的时候，其实离开去创业是什么样的契机让你决定我当下必须要做一个机源力动这样的一个项目。您设计的这个产品究竟有什么让你最打动的地方？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在那个时间节点，对我的选择就是接着做模型还是先做harness。不管是open cloud它的热度的变迁还是怎么样。其实整个honey这一层，包括从硅谷带回来的信号，包括我自己的一些切身体验。我觉得这个上面的机会会比模型那一层的机会要大得多。因为我可能上一份工作面临的压力主要会集中在模型层面的一些东西。但是我会从harness这个角度来看到一些新的创新的一些机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后honey这一层其实迭代非常快，包括现在有很多coding的一些机会，包括我自己。其实我近三个月最大的感悟就是我整个人的进步速度要比以前快得多。因为我每天跟人家协同的工作量确实很大，包括其实我们很多的事情在大厂里是干不了的。比如说一开始我们就决，比如说我们要做一个a native的公司。我们其实从5月1号开始做open scala这个开源项目的迭代，到现在已经迭代了五个大的版本。这个迭代速度远超正常的大厂的组织协同产生的一些结果。然后另外从harness这一层，不管它的routing角度，还是说从它积累的一些真正的用户的数据来看，它对下一代的模型其实意义也蛮大的。所以我就是觉得这个机会还蛮重要的，timing很重要，就是确实是在那个时间节点做这个事情，我觉得是一个合适的选择。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，其实公司从三月份正式成立对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后不四月份。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>四月份对，四月份成立OK。然后到今天我们录这期播客的时候是七月底，就是三个月1个季度的时间就拿到了一亿美元的天使轮估值。资本市场其实是非常的认可，这个问题我也抛给alex，就是你怎么看天使轮就这样的一个估值公司。我们当时是看好了机缘律动，或者是说云鹤本人哪些地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题要分成两块。首先第一块就是包括之前我跟我们的同事，或者跟我们合伙人交流。其实我们也认为可能短期之内，如果是一个新的公司，不管它是应用还是做这个info还是做模型也好，做任何一块我们以前说的就是这种传统意义上的天使轮，未来可能会不复存在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也就是说一个公司如果他要想要reach他的top或者找到一个天花板的话，今天大家会看很多东西。包括你的人才的密集度，你有多少的算力储备资源，你有什么工程化的优势。其实这几个优势归结在一起变成了一件事情，就是钱和估值。所以如果我们跳脱于这个思想去探讨，说是贵还是便宜，其实不重要。所以我想讲的一个结论就是说今天可能我们比以往的创业的门槛更高，然后需要的人才的密度和需要的钱都会更多。所以我认为云鹤兄拿这个1亿美金其实并不贵，这是我的一个看法。第一次跟云鹤聊应该是在线上，我记得跟于思我们一起对当时芸鹤对做什么这个想法并还没有完全想清楚。但是我们在线上聊的时候，我感觉他是一个非常有激情的，也是对模型的训练也很有经验的一个创始人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实真正见我觉得是我们一起吃了饭，我第一个反应，我觉得云鹤长得很高。然后因为我们一起见的时候，我觉得是几个同事，包括是云鹤的几个兄弟都一起在，后来也是团队的成员。我的第一个感觉就是他是有可能能带领团队和整个公司走向AGI的一个创始人。一个是我觉得他对模型的底层的认知也好，尤其是算力怎么跟模型的匹配这两个问题，我觉得他想得非常清楚。第二个，其实我觉得他对整个团队的凝聚力也比较强。不管是CTO也好，还是其他的技术研发人员，我都是觉得是挺有意思的人。他有这个能力把大家团结在一起，并且是组这个盘子。我觉得这个还在今天也跟以前一样，都是一个非常稀缺的能力，所以这就是我当时觉得他比较独特的几个地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我们其实刚才就是反复提到的两个关键词，一个就是honey，一个就是AI的agent。其实我们今天邀请云鹤来，既然有机会请到他，我们先让他用通俗的语言给我们解释一下，就是您提出的这个honey engineering到底是个什么？行业经常说就agent等于基础大模型加honey，您如何理解这样的一个公式？包括说今天我们去做创业机缘律动，以围绕tennis这个生态，我们其实来做了各种各样的延展。你要不要先给我们科普一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>先澄清，harness这个词完全是硅谷做的。就是在harness来之前，其实我们是围绕着agent去想agent这一层怎么协同。然后这个概念我对他其实又爱又恨，因为他现在已经无限大了。因为agent的属性就是一个很大的概念。就是从agent其实发展的变迁很长，从二三年24年就开大家开始提，那个时候可能我换一个prom，就是今天你是个谁，明天你是个谁，可能就是手搓了一个智能体。然后到后来其实大家加了很多的工具调用，包括长城任务，包括coding的能力的融合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在有了各种各样的agent那当然你可能给他一些memory，包括你给他一些背景知识，然后他来帮你做各种各样的事情。我觉得未来可能会出现一种职业叫agent的代练就跟游戏的代练一样。就是你要给他足够的知识，然后跟他做足够的人设的对话。我自己就养了好几个agent，有的人是辅助我做事情，有的人可能就是专门批判我，有的人是来帮我中间传递这些信息。然后这几个东西其实做一些协同，它产出的交付件最近我看起来会比之前好很多。就是我一定要让有一些agent完全是独立于我的这个性格去做。如果从这样来看，其实agent基本上就是没有肉身的帮你做事的这样的一些东西。好，那harness的概念就非常大了，就base model到agent之间的所有的组件的协同。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哪怕你加了一个工具到掉了一个计算器，它可能都叫hardness的出现。所以harness我对他充满了想象力，所有的这个东西都可以变成harness。但是他其实也会有有一些不好，因为有些人会觉得说harness的门槛确实也很低。这里面有很多东西是可以手工设计的，包括怎么样的OK。我们其实会引出来一条稍微跟别人不一样的，就是我一直在讲的routing。Routing其实也不是一个新词，但是我觉得它在现在的这个agent的任务里非常重要。就是这一层不光要驾驭一个模型，其实要把很多的模型放在一起。通过绕线的方式，通过一些整体的方式，让这些模型在里面协同好，才能达到最高的性价比，甚至超过原来的那些模型的智能上限。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>产生更好的一些结果。对，就是过去我们其实讲prompt就是提示词对吧？提示词其实就是教AI怎么去说话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者说我给他一个任务对不对？给他一些人设或者你给他query OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那普通的这个A阵框架如果他没有哈尼斯的话，今天我们可能会看到很多像A人本身一些幻觉，包括错误的一些执行。他就是一个会空想但是会做错事的一个天才。但如果有了honey，他就是会规划、会校验、会纠错，甚至可以再随时的补充各种各样的技能。我可以理解是这样的一个生态吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者harness其实是帮助模型做了更多的，比如说memory的一些管理工具调用过程当中的一些辅助。比如说我们前一阵子专门做了一些coding agent的尝试，就会发现coding agent的harness跟通用的之间，可能需要做的就是prompt层面的一些精细化的设计。因为那些prompt要符合coding的一些逻辑，然后工具上跟coding无关的可能要关掉。那可能harness其实就是在限定的场景下把这些模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>把这些能力去做好。永枭雄你觉得下一波模型的skill或者说模型的变得更强的这一块，就harness到底在里面会占多少的一个比重，或者说它的重要性大概是怎么样？与之而来的一个问题就是honey是不是会成为下一波模型的一个底层基础设施。因为其实刚刚丽丽说了，今年3月份我们聊的时候，honey的概念就是当时要做agent，就是一个prompt编排加工具调用的一个概念对吧？对，然后可能当年做routine也没几家公司有一些这个起色，但是体量也不是那么大。但是我觉得有个转折点，前两天我们不是看到新闻，就是open root这家公司被收购了，而且是一个很不错的价格为strip收购了。所以这个事情我们可以想就是几个点，一个就是它有什么指向性，然后第二个就是我刚刚讲的，他到底在下一步模型训练当中是怎么样的一个作用和角色。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先提单独的这个harness，我觉得harness促进模型进化的这个事情已经是必然的，而且是正在发生的。比如说anthropic在干什么事情，或者往前倒推，最早的coding agent是cursor，但cursor加上anthy c的模型其实促进了anthropic自己的模型的迭代。包括它的真实的用户的一些轨迹，包括一些真实的环境，feedback各种各样的一些事情，促进了s topic的模型的演进，乃至于S2 pic模型。足够能力强了之后，他又把curse的那一层吸收到它的可靠code里。Open a其实也在干这个事情，就是说他发现codex很重要，然后codex在升级之后，code dex for everything, 然后再把codex跟ChatGPT合在一起。所以我觉得大量的模型公司其实已经很重视harness，并且拿harness作为一个非常重要的组件去产生数据，插上真实环境的这些反馈。然后来帮助自己的模型训练下一步的ACI，或者是大家在讨论的更多智能。我觉得harness在里面的重要会非常大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后再回到alex讲的那个open rot，其实open roto的数据大家如果认真去分析，我觉得非常有意思。首先去看去年的open router上模型的占比，是以美国模型为主导的，大概占比有70%甚至更多。但今年open router上模型调用量，咱们只提模型调用量不提价格，是中国模型占了70%以上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，将近百分之。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实对，然后再去讲这个东西就有意思了。就是全球有那么多的大模型，为什么我们还需要一个open alter？我觉得open cloud在里面做了一些关键的因素。但实际上是大家发现模型的能力在大面上，或者说在基本的batch bar上达到了趋同的状态。但是有一些别的不一样的一些能力，需要多模型来协同。所以有了open router。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那OPPO route的模型的token开销占全球的token开销最近半年上升的非常快的五倍以上。这个也是open router被一个非常高的价格，就是比它估值要高上5到10倍这么一个价格被收购的。对我觉得所以OPPO的价值就是在于说我们真的需要好多个模型，而且有那么一个聚合的API的平台是很重要的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>刚才我们其实讲了很多关于AI基本的一些情况，就是咱们机械律动主要解决它是一种哪一环节的核心问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我原来为了给一些想快速了解我们的人换了四驾马车。可能有一些传统行业的人人会去问我说什么是harness？然后你们的harness会长成什么样？低价马车就是说因为只服务于一个模型或服务于一族模型的harness，那他可能就是一个马车加上一匹马。然后有了overcloud，有了harmless agent，有这些跨模型的一些agent，然后那边有一个聚合的平台，那就是open router。可能就是一个马车同时牵着一匹马，但同时后面有三个马在那里候场。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>机械律动现在干的这个open spill，我们的概念就是要把这个routing从任务级的变到perish，把力度从原来的那个程度做的更细一点。然后通过每一个query的时候，通过我们的学习到的这些模型路由，去让这个马实是在里面去调动。那这架马车就可能同时在牵着四匹马往前跑。未来我们希望通过我们掌握的这些东西，我们有一个自己的一个好的模型，然后也装进这加码车里，然后一起跑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，您现在已经运行到第几步了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是在第三步。第三步其实目前跑的很好，因为我们自己也做了一个API，就是用了无问芯穹的云，用了阿里云。您可以把它理解成类似于open alter的这样的一个API，就是talk reason的A片。然后其实最近用户量跑的很大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，咱们要解决的其实就是您说的，我把好多个模型高调用的这么一个事儿。对，那这个事情在您创业之前没有人做吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从不同的角度会有人做。比如说大厂的云在怎么做，他就是说把所有的开源的模型都布在他自己的云上，然后用户去给他，然后他去做。其实还有很多的非常不错的算力的创业公司，比如说无人星球，国际流动。他们其实也会跟大厂的云做类似的一些事情。通过info让这些模型去产生更好的一些结果。但是从哈里斯这个角度，整个hardness框架里，然后把整体的绕线插进去的。目前我们这个概念算比较早期的一些个践行者。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得对要实现这样的一个产品性能，咱们的技术护城河在哪里？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最重点的还是说你要了解这些模型的特性，然后用一些公开的半池mark，包括去你自己建的一些内部的一半ch mark，把他们的真实能力摸清楚。第一步就是说你知道什么样的任务该匹配什么样的模型，然后你想做到实时的去做调度。那其实还有很多的一些功能化的一些东西，包括算法的创新。比如说我们其实做了两套版本开源版的那我们为了让大家在笔记本上或者说在一些小程序上用，大家这里没有算力。所以我们其实就用了一个决策树的方式，就是把用户的上下文的信息通过一些in bedding的方式，加上一些关键词的识别，做了一个决策树。其实开源版大家在github都可以看，就是大概会有一个380倍左右的一个销量，去做一些实时的毫秒级的一些路由。因为这就是考虑到用户的感受，我们才去做这样的事情。但这东西它能力其实是不够达到我们真实的这个想法，但是基本上大家日常使用是够的。所以其实我们会把它变成一个模型化的一个东西，把它变成参数化，就是要解决复杂的一些语义理解，包括长上下文的一些理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为人真实在用agent是一个非常复杂的事情。它有可能前两轮在写代码，中间就说了一句，后面他又做个PPT，然后他又想去写他原来的代码。你如果做一些频繁的模型切换，其实KV开始就不留存了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这东西听起来简单，但实际上仔细研究又有很多的AI的东西需要去做对。然后什么时候用一些machine learning的算法，什么时候用一些财政化QQ开始怎么管理，怎么留存，包括堆栈的一些使用，其实这一层就很复杂了。然后要做很多的一些模型评测，包括一些数据的清洗，包括我们其实自己为了这件事情还做了一个数据管线。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那像我们现在的用户应该是什么样的人？比如说是程序员还是一些B端的公司。像您刚才说的，像阿里这样的公司，哪一类是您的目标用户？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当前我们其实跑起来还是以C端的用户为主。就是我日常的办公助手，打工人，传统的一些东西。甚至还有一类最近很有意思的观测，就是学生对这个东西诉求很大，可能他就是要做一些快速的一些论文的学习，包括一些idea的source，包括一些简单的demo的一些代码的实验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实正常的办公场景也有这些人。就是我们有好多个社群，然后有的社群就会大家真实反馈出一些东西，他要解决一个他原来想做的事情。比如说他在企业内部要实现他的报销系统，那这个东西他其实原来搞不定。就是因为如果您用一些chatbot这样的东西，其实不具备这些工具调用的一些能力那他其实就是用我们这个东西加上他自己的一些弄好搓了一个EXE的文件，解决了他这东西。然后他就把这个东西很高兴的分享给自己的周边同事了。就是用我们这东西解决他问题，收获了他的一些成就感。于是我们又多送了一些token给他，然后让他多去跑一跑，我觉得挺好玩的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个个人用的话贵吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个月大概多少钱不贵。其实我们做open schola的初衷就是要把大家用agent时候的token的高价格打下来。因为我们有一些真实用户的用例，会看到一个事情就是一旦用了模型路由之后，10%的活被最贵的模型干了。但是他可能拿走90%的钱。我们其实是要做一个动态的这种管理，包括一些公开的一些半痴半喝，其实我们也做过一些评测。大概比如说跟海外顶尖的模型差不多的这个任务成功率的时候，我们其实可以省到百分之六七十甚至更多的这种成本。就综合的成本如果按token计费的话，我们是比市面上大多数的竞品要便宜很多的。这个我觉得其实也是能够打动很多C端用户，包括自费上班的很多人的情绪的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实今天本质的问题还是token成本太高了。对，尤其是sota模型，它的这个模型定价权，包括是这个model swing out，就大家都在宣扬什么model swing out这种说法，那其实它sometimes也是work的对吧？但只是就是价格太贵了。然后我觉得今天有这么一个公司愿意把token的成本降下来。因为其实像刚刚云科说的这个普通的C端，包括是像我们自己，你被token的用量的成本限制其实是非常厉害的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但是其实我们自己在投资上类似这样的项目比较少，我们还是比较青睐to b的这种的公司的。你怎么看？就是今天目前企业级采购AI的生态应用，它的痛点主要是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得今天其实国内和国外的生态有点不一样。比方说像海外，因为海外整体的这个埃踢的基础建设还是比较领先的。然后不管是数据的结构化也好，还是整个流程哪几个节点，比方说CRM干什么，ERP干什么，这个都很清楚。所以美国有一种新职业叫front line engineering就是open a他派人进场帮你企业怎么去把AI的这个功能部署化。其实这就是为什么SaaS跌的一个原因。但是我其实跟云鹤兄很早我们也聊过这个事情。国内的很多公司其实是不具备让模型公司进场的这个能力。因为大部分都是可能是小微企业，他根本就没有IT信息化，就是它在上一波SARS时代都还没有辐射到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得alex讲的这个很好。就是我比较熟悉的一些客户聊过一个事情。他在上一个时代就是信息化落后了，他甚至说没有做基础的IT化的一些东西。他的想法就是说现在AI这么厉害了，我能不能不要IT化，我直接走向智能化，说这个不可能。因为AI的前置条件是你先有足够多的好的一些数据，包括你的工作流，然后才能AI过去辅助你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后B端其实我觉得当前的这个阶段，就是有一些SMB其实是更适合用这些agent。因为它这些SMB的人整个组织的结构，包括人的使用的体验其实也会不一样。另外弊端只是说我们现在还没有太多的精力，包括我们其实是想让整个的使用体验更diversity的更大一点。然后我们重点当前可能会C端，但是其实B端我们也有一些聊得还不错的客户，但是可能不太方便在这个博客上讲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>正好讲到这个商业模式这一块。你们觉得未来在中国的这些企业，如果他要更好的用AI的功能，然后他不是直接自己去部署这个模型的话。你们觉得是比方说是像我们这样子的公司，会有专门的员工，就比方说engineering对吧？去他的现场帮他去跑通整个事情，还是他们自己内部会有这么一个人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>产生真我觉得这个分企业，不同的企业确实形态不一样。包括其实你说这个模型的私有化部署还是都用API，其实各个企业的诉求完全不一样。因为B端市场这个东西dev的非常大，但是B端包括丽丽姐刚才说的，其实有一条很重要，就是token经济。到底最后的头部开销是C端还是B端？短期不知道，长期有可能会是B端。到底谁会真正为token付费？因为现在中国的格局就是C端token付费这个事情似乎没有特别大的进展。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对所以云鹤你们的客户主要是国内还是海外？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当前我们是做国内为主，因为我们就三个月，我们先把国内的这些事情跑顺了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你有没有一些实际的数据，比如说用了我们的这个open s rella这个产品之后，这个用户他实际的成本大概降低了多少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个有，我们其实内部还在做一些活动，就是我希望大家真实在用。然后通过一些晒账单，比如说谁真正省了多少钱，谁今天开销，比如说省钱可能足够多，那我就再给他发一些激励，每天都会做一些偷更省钱的一些排名。我觉得至少50%以上的成本的节省是有的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对你所以您现在的这个用户主要是一些程序员和极客是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不完全是因为AI的这个用户画像也是非常割裂的。你比如说最极客的人，甚至连你客户端都不需要。他可能就是github录了下你的东西，然后他用他一些自己手里的API子就去配了。对，然后真正用我们API的可能是这种办公室坐着的人居多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就像我这样的，可能对AI有一定的接受程度，但是又不是技术背景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后又真正的想去解决一些问题。比如说写PPT，比如说做一些以代码为辅助的很多的一些能力。确实在二战那里，我觉得代码这个能力其实很重要。因为你整个代码就是跟你这个电脑，包括数字世界的这些协同。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>刚才云鹤提了一个观点，他有点跟我的这个常识不太一致，比如说像我们过去像这种互联网大厂，它一个厂基本就把所有产品都干了。你看阿里就好多产品to B2C的它都有。那刚才您提到的就是这个单一的强力模型，其实反而不如多模型协同好用。这个是为什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是各家早期的bk路线，加上自己的数据和业务形态，决定了它模型会有一些长短板。比如说deep sic他可能就是做的长序列做的很好，然后他的这个info做的非常优秀，导致他的这个长上下文显示性价比很高。但是他一些特异化的能力就是不如一些其他的模型做的那么强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对您日常里大概用多少个模型一天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我基本上是几个模型都会用deep sak GLM kimi千问，然后我们六月份其实还推出了一个融合模型的方式。就是我们会把整个从任务匹配到模型使用变成一个复杂的推荐系统。就任务会拆解成标签，模型会拆解成标签，然后在实际的使用状况中通过routing把这些东西调动起来。我们其实还当时做了一个智能的模型融合的一个方式。那个模型现在是我的一个主力，就是他用了四五个国产模型一起组合。然后在我日常用的，比如说像写网页，写一些PPT，包括一些日常的聊天，我会以那个模型为主。当然没有免费的午餐，就是它会带来的额外的成本是它的推理时间会比较长。因为有些模型虽然很便宜，但是很啰嗦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个一分钱一分货。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不但其实就够用了。因为我觉得如果我不写特别重的叩鼎，我觉得够用了。然后它的成本会跟市面上最贵的模型来看，大概只有3分之1。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以我会理解多模型的这种智能调度，它好像就有点像咱们说专人专岗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我找了一堆是可以的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如说客服，我就找了一个可能便宜点的，把客服这事干好对吧？写PPT就找一个专门写PPT的对。明白了，特别有意思。其实整个行业痛点还是今天我们我们面对的这个通用的。一个是AI算力的，这个成本比较高。第二个就是这个落地也很贵。就是我想问问咱们做这样的一个产品，咱们目前公司本身成本优化体系有什么样的一些好的方法和策略吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在判断一个供应商靠不靠谱，先判断这个供应商跟AI协同的比例有多大。用AI的这个团队，我会可能愿意接受他的这个成本会高一点，因为它可能迭代速度比较快。因为写前端、写后端、写网页的这套供应商其实现在还有蛮多。但是有一天我自己做了一个对比，我自己就是跟AI碎片化的聊天。就是我可能一边在跟人讨论事情，一边去找AI去写一个前端。其实那个前端界面写得非常好，那天我好像给您也看过，30块钱加上人的一些想法，就能解决很多原来靠人头的这个生意。所以我们现在的整个成本管理就是充分发挥AI的这个能力，然后在关键岗位上补人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为有一些事情AI干不了。比如说具体的一些系统架构的一些设计，包括一些运营，包括产品思维，需要一些创意类的东西。我觉得还是以人为主，然后具体执行我们会尽量会让AI去为主。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以就是您把整个自己的成本结构也做了一些拆解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他也映射到我们公司的一些管理结构上。就是说什么样的岗位上会以人为主，什么样的岗位上会以AI为主。当然我觉得现在AI native这个词大家讨论的很多，我觉得不够到定量的时候，当前大家反正都在跑。但我其实就是有点反对烧token那个事情，就是说卷token开销，但是我是极度建议我认识的每一个人都会恩爱去多聊天。有的时候你会感觉到跟这个人聊天可能还不如跟AI聊天。学习进步的快是很正常的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为咱们自己的产品其实从一个季度的时间，已经到了这个0.5.0的版本了，对吧？我也看了一些公开的你们本人的文章，咱们目前到了这个新的版本上，跟咱们最开始的想法进行了哪些技术上的一些迭代。然后另外就是我本人有一个非常好奇的问题，AI为什么它一定要加上一个自正自测的这个环节才能闭环？比如说我做出了一个东西，那么我有另一个agent来验证它，市场上会有这样的产品吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会有多agent的协同。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就很多agent来交叉验证。这个为什么是这样做？因为这成本上看起来也不是特别经济。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但实际上就是AI有幻觉，这个事情到今天也解决不了，你只能说假想说这些AI能互相挑毛病。网上不是有一个梗，就是一开始程序员都跟AI讲，我大概要让你干什么？你如果想不清楚，你就先问我问题，然后我跟你讨论，然后你再去执行，别瞎干。因为AI迭代速度很快，然后信息量很大。问了一段时间这个程序员就已经躺平了。AI问他说你看要不要这么干？他说你不要问我，我什么都不懂，你干就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，回到您说我们做了五个版本，我也自己在做一些科学实验。就是我一边做，我也一边在思考到底harness这一层什么东西是重要的。因为比如说0.2，其实我们在skill和memory这个层面做了一些东西。到0.3的时候，其实我们重点是在优化整个版本的体验，包括一些核心的稳定性，包括我们推出客户端，其实我我也是在测试什么东西重要，以及大家到底需要什么。于是到了0.4，我们其实还差了一个coding的能力进去。就是刚才我也提到了，在coding的模式下，可能有些工具就是要先被搬掉，然后才能去执行。要不然它这些工具对整个coding任务是有干扰的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个时候其实我们还做了一个harness，这一层的coding的best mark，当时我们大概联合了七八个团队一起做的。然后那个工作其实也蛮有意思。就是我们会发现哪怕coding这一个任务，不同的harness在同一个模型上表现差异非常大。这就涉及到它工具的编排，包括它一些工程化的一些设计。然后到0.5，其实我们就是在不断的强化我们自己的这些routing，包括融合的这个routing。这个过程中其实整个投资界有一句话就是顶尖模型会吞噬一切。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，harness这一层在大家看来就是原来你们的都没了你的rag没了，这些东西都没了，那你们这harness做起来也没啥意义。但其实首先要回应第一个观点，就是原来这些prompt，原来这些reg没了吗？其实他可能就是升级进化了，他们又换了一个skill。然后另外就是说确实很多模型特异的优化的手段，任务特异的一些优化手段会被下一代模型吞掉。包括做一些应用的话其实很危险的。除非你这个领域足过的专精吹好，那你可能reg发挥的价值会比模型本身的发挥的价值大的情况下好。你模型频率不需要更新的那么快，不然很多做的很累的。就是模型一更新好，你所有的东西可能不过去了，需要重做好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以其实从harness我们做了三个月，包括我跟很多的朋友去讨论，包括我们自己团队的背景其实也很符合。包括有华为的，有字节的，还有阿里的、美团的、智谱的等等这些。同时我们在讨论就是说honey这一层到底什么不会被吞噬掉。其实最核心的如果我们的假设是模型长期还会有这么多不会故意的情况下，那可能最重要的就是routing。所以我们现在整个的研发的最重点的这一步就是routing在highness这一层。然后就是routing如何产生新的一些学习的范式，对下一代的模型影响是什么？就是别人有了模型做harness，再怎么增强自己的模型，是这样的一个循环。一开始我们先假设我们自己没有模型，那我们先把harness做好，学习别人的模型。那下一步我们自己的模型会不会有我不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这就是您的第四个马车。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不知道这投资人就喜欢听这种故事，就是我有一个饼先放在那了，对吧？你再给我更多钱我就做出来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为其实还有一派观点比较有意思，就是我我原来真的对投资圈的这个熟悉程度不多。然后后来我就是因为干这个行业，所以跟很多投资人聊天。当然有些投资人其实给我的反馈也挺有意思的，就是美元还在讲另外一套趋势，就RSI recursion self improved intelligence everything这些东西。其实讲到概念我觉得也是一样的，就是模型在真实环境的这些反馈，然后怎么去循环递归了自己迭代自己。其实我们现在可以观测到的模型更多，未尝我们不会去找到一个更好的ISI的路径。这就是AFAI的那个对我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得这里面可以探讨一点，就是你如果做IC对吧？那其实又回到我们之前讨论那个问题，就是honey到底在下一代模型当中它有多大的作用。就比方说云鹤你自己希望你这个模型未来是做成什么样子的一种模型。以及它跟我们今天所讨论这些开源的中国的这些leader也好，美国这些闭源的leader也好，它到底是呈现一个什么样子的关系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们未来想要什么模型，其实也是从客户驱动，就是大家到底希望什么样的模型，大家其实可能不需要另外一个，比如说像deep这个或者说像kimi这么大的模型。因为这两天其实梁文峰讲的那个话挺好的，就是从AI往下推，第一性到底是什么？先解决成本问题，最后才可能是体验的问题。但我觉得这个东西我们可能要做的是一个有性价比的模型。但是它可能在整个agent任务里，比如说它的工具调用的成功率，包括他任务规划可能是更强的。在同一个成本的这个level里，我希望能有一个比较好的一个模型。这样的话我可以进一步给用户以更低的成本提供更好的服务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是哈迪斯不就目前在解决这个问题吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那honey解决的还不够。Harness跟模型它是一个互相交叉迭代的一个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这里这个观点其实是这样，就是今天我们中国这些开源模型已经验证了。你不管是推工程化也好，还是你做各种各样的架构的创新也好，这个东西还能做，而且你成本还能降。那只要模型它还能往上走，其实honey就到不了头。对，因为你们是相辅相成的关系，就是你harness还可以去做KV cash的排列对吧？然后reg的这个步伐这些东西还是可以去降成本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后又回到我们前面讨论那个问题，理解就是说你作为一个我们不管是个人还是你组织里面的个人，就是弊端里面的个人。就是你个人是没有办法去调度和分配模型的，你也没有去跟模型的一个议价权，这个是个很现实的问题。对我有选择用哪个模型的权利吗？我在C端上是有的，但是真正当我用起来以后，你模型的迁移和转移成本是很高的那今天如果有一个中间商，他能帮我去做routing，他能帮我去做排布，他能帮我去选择。一方面把我的token成本降下来，第二个。就是人人都希望自己用，都用sota模型，都用最好的模型。但是你不想用最高的价格去用sota的模型，这个就是人改不了的这个点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以基于这种前提之下，这就是我对harness的理解和我觉得云鹤他们能去做和第四架马车能做的事情，就是如何让B或者C就是他们个人也好，还是企业里的个人也好，他让他去用起来一个最合适的模型。这个合适的模型不是一个，应该是一个模型S就是它有多个模型，对，然后不同的任务用不同的，因为人也都是社会上多元化的。比方说今天在录播课我们是一种角，我们做项目的时候是一种角色，我们在跟家里人商量吃什么的时候，另外一种角色就不同的角色它的token的消耗成本理论上是不同的，就应该是归到不同的模型上面去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，刚才我们讨论的其实都是说它这个技术上层面的，那实际从技术到真正的业务，它还是有很大断层的。比如说今天你看AI其实各个大厂都在努力的尝试。就包括我们公司其实在自己的这个投资的条件里，也有自己训练了一个小小的模型来帮我们做一些分析。但是他没有大规模的去往下推广和应用，我们没有说全公司每个人都可以自由的调用它。你觉得这种差距，它产生这个鸿沟的原因是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么去弥合它？我觉得不同企业不一样，因为我有些朋友的公司，他是所有人都在用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我知道有些律所。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，我觉得gap还是在于，虽然AI的能力这两年提升的非常快，但仍然可能还不够。然后另外如果在B端使用，其实就是老生常谈的那些问题。比如说哪些东西可以私有化，有哪些东西是不能上云的，哪些东西是怎么样的，包括企业的人与人之间是怎么协同的。因为这里面还展开讲，就有一个有意思的事情，比如说做coding。一个人解决一个coding的项目其实是很容易的，用现在最顶级的模型。但是往大了讲，一个项目分下来十个人都用AI做。如果你一开始不做软件工程会出现一个问题，就是每一个人都说我完成了，但那十个人做完的东西合不到一块儿去。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就是那个agent代练。对，就是有点类似于这个概念，就比方说我们游戏里面人家用啥，然后今天一上来就我还得从头开始去训练我这个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，那这事儿现在就解决不了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>慢慢会解决的。但是其实从agent到企业所有的弊端，生意其实不可能完全避免。定制化交付肯定是要配合企业的需求去做一做，只是说不同的企业阶段不一样。从我们公司角度来讲，我们去选择的东西也会选择一些我认为具备这些ready条件的公司。其实我心里有一个画像，就是我需要服务的人数越少越好，但是这些人均的通用开销越大越好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，比如什么样的公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如就是您刚才提的律所，是一个典型的偷坑重度开销的。因为原来我们也做过一些AI法律的一些应用。在原来的团队，其实尤其知识产权的律师是非常痛苦的。因为你需要做非常大量的这种检索，然后检索完之后需要阅读的这个token就很长。然后如果你的AI不准的话，返回来的东西律师还要再重新审。那这种情况下，律师有的时候就很痛苦，说我到底信不信ai.</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对这就是一个好问题对吧？因为他没有判断力，他的知识不足以支持他做这判断。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以我过往的经验，包括C端B端，其实你只能给大多数人的客户去讲，因为人也是会出错的。就AI的平均的出错率已经低于人在这个领域的平均出错率了。你只能选择相信他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不然没有办法解这个问题。对在我们做SARS投资的时候，当时看最大的一些客户，比如金融行业的客户，他们对AI的接受程度怎么非常高？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就除了律师，可能另一拨人就是这拨人。就包括他要做很多的行业报告，包括做一些关联的行业的一些分析。金融的这个领域，前一阵子我看到一个词，我觉得非常有意思，叫做information engineer。Maybe就是说大家其实是知识的工程师，知识的工作者。其实大家就是在不断的上网去找信息，跟人聊天，去获取最新的一手的信息。最后总结成我一个desire的格式的一些东西，然后再去内部的做一些汇报和沟通。这些东西其实都天然适合用AI去做对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是其实我前一段时间查了一只股票，然后我突然发现这股票表现怎么这么好。后来我去交叉查了一下它的财报，因为财报是非常准确的公开信息，他居然也是调用的错误的，而且那个数据风马牛不相及。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个东西你看就是一个agent或者说一个AI产品好不好用，它其实是一个系统性的问题。它有没有可能是你的搜索引擎比较差？对，不就是正常普通用户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Lily姐你这个场景到时候就直接找一个agent代练就专门训一个。比方说我就是投资的，我炒股票的，或者说是我调用公开信息的，我指定是谁，指定是哪个引擎，指定是哪个data set，就解决决这个事情。但是只是因为今天代练不了而已。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>打比方我今天有一个agent，它可以去调用我的同花顺的那个数据，那这同花顺会让我去调用吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就有一个合规性的问题。我们团队最早用open cloud人是韩凯。这个兄弟就是用open可乐写东西，然后发小红书，然后他的号被小红书封掉了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就小红点从网络安全的角度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他其实这个是对人做入侵式修改，或者说一些其他的一些攻击了。所以这个东西可能就要从合规角度，你就要做更多的一些授权。但是如果你要是从CLI的角度，你当然有更多的手段。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧？他是直接就是让他的龙虾发好了之后，直接发到他小红。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，他会去做一些听起来不是那么安全的操作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，那小红书肯定要封他，对吧？因为他会疯狂的灌水。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个其实两边都是token消耗场景，一边可以用AI来做监管，一边可以用AI自己去去发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我们回到刚才这个问题，如果按照云鹤的这个假设的话，就是你目前看起来个人用AI最多的公司可能是你的核心用户。对，刚才咱们说了金融律师都是一个场景，你觉得互联网大厂会是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他会有能力自己去做这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我就想说，因为他们其实程序员最多的一个地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但他们其实我们的用户客群里真有这些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>人偷偷的用吗？他是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道，因为我们也没有权限去看用户的这些真实数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也有可能他自己在家里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>搭的一个对他有可能就是跟他一些工作上机密无关的一些事情，再去做一些自己的东西。可能会去做一些科研，一些调研一下这种报告什么的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>明白，大学里会有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在会有这种类似会有。其实好多大学生也在开始这些东西，因为科研上的压力其实也蛮大的。帮这个老师去做一些项目，其实也需要这些东西去辅助。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，那我也想问问您，您的团队创始团队很多都是您以前的同事，您的后来招的这批人里边，您对他的员工的人物的画像有什么样的要求？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我面试其实很奇怪，就是因为我过往面试过的人可能非常多。比如说30分钟之内我会做一个类似于深度优先搜索的面试的behavior interview。就是我喜欢根据这个岗位和这个人的一些履历去预设一些问题。然后每一个问题他只要达到了我感兴趣的位置，我就往下探一层，直到他看不清楚。我希望这个人能讲出一些我不知道的事情，但是这个方向跟我讨论大概率是正确的。然后他不需要知道太多的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我又希望大家其实现在对AI的基础知识有一些东西。因为我前两天跟我们用户群里的一个小孩聊，就是大二的小孩儿他就问我说现在AI已经这个样子了，什么都懂了，那我还需不需要去学学很多AI的知识？其实我就建议他，虽然我们现在不用人的古法编程了，但我其实是希望大家去知道说，比如说我刚才提到的这种深度性搜索原来是怎么写的。这种架构就是你要有引导AI和review AI的能力，然后你的知识面足够广泛，然后你又有独立的一些人格的一些思考。我觉得我希望我们团队多是这样的人，在跟AI协同的这个大环境里，能发挥自己独特优势的人会让我更感兴趣一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你更喜欢那种成熟大厂的程序员，还是说我都不创新精神。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为这种人可能在大厂里也有，在创业公司里有。因为我们团队现在有是字节来的，也有是华为来的，也有创业公司过来的。我觉得这种人在什么地方都会有，人有的时候跟团队也不一定完全一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，您刚才提到一个非常重要的词儿，我觉得很有意思，叫古法编程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>古法编程现在已经变成了一门手艺，就是在抖音上有人直播说今天用C加加可怎么给大家写代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>科技发展太快了。其实有的时候我会去想，如果大家都不去学这些东西，再过十年之后，如果突然间有一天AI没了。还不会写代码了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他们所以就是云鹤你会焦虑吗？你这个行业它变化太快，就像你刚才说的，如果突然有一天我突然发现我辛苦苦做的事儿，它可能都不存在了，我要全部推翻。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>焦虑肯定是会有的，但是我觉得焦虑跟这个兴奋它是一个互相来回迭代的。你也会发现在这么无序的变动中，什么东西是有意思的。比如说harness这一层，我们就认为是routing是有价值的。而且routing这个事情可能只有一个创业公司能好好的把routing做好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为大厂都有自己的大模型，除了一个创业团队，很难有人说我要去做一个第三方去中心化的harness，把所有的模型公平可公开审计的让他绕挺好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对你怎么排解这种焦虑呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实有的时候用跟AI聊天就能缓解很多焦虑。你把你焦虑的问题给AI他会有各种各样不同的角度去跟你去讨论。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个是我提供的最赛博的一个解决方案。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在其实AI对很多细节问题，他关注的是比人好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就比如说昨天有一个投资人跟我聊了四个半小时，他就问我你们现在做的这个事情，全球到底有哪些人在做？如果是你自己在做，其实也不是一个好生意。对我当场其实没有特别sharp的去回复他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但实际上我回来跟AI讨论，其实所有的大厂的云都有潜力做我们在做的这个事情。而且如果抛开技术细节谈意识形态，可能在做的都是这些事情。比如说像open router一样，open rotor其实往下做，它其实就应该自己去做一朵云，就open router聚合了这些很多的API，然后再往下做，那只是说大家的技术路线和back的东西不一样。OK其实我们干的很多事情就是跟大厂的语音somehow底层逻辑是一致的。就是把这些模型调度好，只是调度的方式不一样。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以这个是你的AI告诉你的答案是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也不是的，我经常会跟他一起讨论了，就是我的AI经常还骂我的他会骂你什么？会骂脏话，骂脏话的，骂脏话的，真的吗？真的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他是从哪里学的呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能我有的时候聊天的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你你你说了脏话给他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我也没有，我最多说你这个小垃圾。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他可能是在网上学的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或许，因为早期有一些模型出圈不就是骂脏话吗？因为我们具体调到哪个模型我也不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我这个问题可能我觉得有一点挑战，就是你用了这么多agent觉得哪个最好用？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有最好用的模型，不同领域不一样，每个领域可能会有一个最好用的，比如说做一些快速的一些搜索。我觉得豆包挺好用的，我经常带我家小孩出去玩的时候，我就用豆包。这个数是什么？那个数是什么？对，然后真让我说模型哪个好用。现在我自己最高频的是我刚才说的那个融合的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你自己的融合的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为原来其实好多模型它自己会有一些缺陷。比如说GRM的上一代5.1万在长序列，其实就是不够长。然后有些模型它可能代码能力不行，就是说3到4个模型在前面去跑，并行的跑跑完了之后有一个模型做整合，然后输出最后的结果。然后你要是真让我说我的体感里国产的模型里最适合我的模型是这样的，对我们的HR来说，他选择kimi最好，那这个就是完全diversity的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。您要不要给我们判断一下？比如说未来我们不敢说太远，因为BI变化太快。所以未来一年AI agent这个行业产业，它最关键的变化是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得可能用agent的人会越来越多，你看我觉得你已经属于非行业的人里面对AI了解的很多的人了。但实际上还要去跟大家解释什么是chatbot，什么是agent，什么是harness。这些东西会随着AI的这些价格，包括影响力，让大家对AI的接受度会越来越高就整个agent的需求，我觉得它是一个爆发的前夜。然后可能更多的弊端的市场就是因为这些所有的假设是模型能力还会持续在涨，模型能力持续在涨，但其实agent会事半功倍，就会让很多的能力释放的更快。为什么有open可乐呢？一定是前面有了可乐的code，有chat PT这些好的模型才会有了这些东西。我觉得agent可能未来就是让大家更多的可以接受它，使用它，产生更多有价值的一些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跨任务的泛化其实挺重要的。对对对，第一个问题就是云鹤刚刚讲的一个普通人不同的任务，在这个泛化机制下怎么完成最高和最优质量的，而不是不停的在串记忆也好，还是不停的在左脑博右脑这个事情。对，因为你一个普通人角色是多元化的，你肯定是要跳过不同的任务。对，然后这里也考验你记忆和技能的持久化的这个抽象能力，就是他到底是多久，对吧？大家推这个长上下文的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个就是路由决策的准确性和成本的感知。怎么选模型不同的这个问题，怎么去匹配成本最优的和质量最高的模型，其实就是一个质量和token成本之间的一个权衡。然后你去搞这个上下文和状态管理的效率，那基本上就能做出一个好的agent来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，那alex我最后一个问题也给到你，就是你觉得从VC角度看，我们未来在AI领域会更多看什么样的一些赛道的机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没问题，问的好透题给大家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很难回答。其实我觉得一个好的公司，首先还是有一个好的创业者出发的。因为这个时代的变迁和机会的改变的太多了。就比方说我们在两年前我们讨论AIGC，一年前我们去看AI native的创业者或者是AGI的产品。那到今天为止我们又有不同各种各样的机会。我觉得首先还是要像云鹤刚刚所说，有一个AGI的这个mine set，然后整个组织架构公司的管理能力都是以一个AGI的公司。就是比方说你一个个人能用调动多少个agent对吧？你的个人能用多少个AI的模型，然后把你的任务最简化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得首先是团队的基因和创始人的属性，我觉得更重要。其次，不只是局限在整个AI的硬件上面，包括刚刚云河讲的honey也好，AI的info也好，以及潜在上面的。虽然我们说应用这一层非常薄，但是我觉得如果你真的把worker打得非常透，那我们很多被投企业里面有这样非常好的产品。你的整个用户的增长，你的收入增长是非常会快。所以我觉得大家今天也倒不至于说是形成了一个盖棺定论。慢慢的我们还是会看到更多的机会在每一层里面都出现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我来简单的翻译一下，其实VC也不知道自己要投什么，这个技术发展太快了。所以刚才alex里面的一个要点就是我们还是先投团队，先投？要找到顶尖的科学家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我最后想补充一点，丽丽姐我觉得其实今天整个业界的生态变得非常多。不管是我们去看硬科技未来产业，还是看我们今天所谓的honey也好，我们的模型，我们的应用层就是上市还是第一步。那反倒是你真正的有这个AGMI set，有通往AGI的这个确实道路也好，还是说是你有很确切的模型的优化也好，还是你有很具体的产品。那你只有有这种my set的时候，二级市场才会给你对应的估值。不然可能你就是上市以后，也还是有很长的一条路要走。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我今天跟二位聊完，我觉得我一个非常深的感受就是AI的这个模型能力当然非常的重要。但是它不是谁的模型更强，谁就能控制整个AI产业。相反更多创业者能找到的机会，就是你要能更好的去驾驭落点，管住也哈里斯今天在做的这些事儿，其实是有大量的机会的那同时第一是对用户是有好处，第二是对创业公司可能也是有更多可以去挖掘的一些地方。就像刚才其实云鹤说他今天做的事儿，大厂其实也是可以干的。但是只有说我们真正创业公司，才能把一个细分的功能或者一个细分的点做到极致的好，这个也是创业的魅力今天这期节目我觉得非常开心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>首先今年已经是我们第四期第五期AI的节目了。过完年就是讲龙虾，然后龙虾完了之后，其实今天又没有人提了，又在讲honey，对吧？这个变化太快，但是我希望大家也不要恐慌，就是拥抱变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>德鲁克有句话说的特别好，他说动荡的时代最大的危险不是动荡本身，而是沿用过去的旧逻辑做事儿。我们在新的技术背景下面，对AI今天产业的变化，其实我们用AI的角度去看这个世界，看AI其实更有价值。然后我也相信像我们这样的真正的我们三个这样的人工智能，其实也不会被AI真正的替代和淘汰，多有趣，对吧？你指望3个AI能像我们聊的这么好玩吗？我觉得也未必。好。本期节目最后，我们就是像平常一样，我想问问云鹤你们最近在招什么样的岗位吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>愿意用AI的，然后有激情的我们都找。其实AI也会让岗位匹配变得非常混沌。昨天我在面试一个人，我特别想要他，但是我其实没有匹配到合适的岗位上，但他其实可以通过AI去转到别的岗位上就非常有意思。一个非AI背景的人用过AI其实可以在AI领域发挥很多事情。只要这个人有想法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是他可以批发到任何一个方向里去了，对吧？对，有意思，转行变得更容易了。对，然后我顺便要提一下，云鹤他们公司的实习生，其实也是常年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在招的对，实习生我们一直反正都很欢迎。然后我们这边反正有一些类似于小的new lab这样的形式。我们现在有几个实习生，我可能都会跟他们每天在一起讨论，这个还是我觉得非常重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且我上次听他说过他的实习生的工资，我吓了一大跳。我不能说，但是他那工资特别好，我都想去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>您可以去，你也可以去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且上次我们俩聊天的时候，他还说他的实习生其实刚刚被聘用了助理教授是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们有一个实习生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以是一个非常极客，很年轻很酷的团队。所以也欢迎各位听友听完这期播客，积极的在各大招聘网站上去搜索机缘律动，看看有哪些适合的机会，或者直接联系云鹤本人。对，这个也并不难，在我们的公众号，他本人的这个知乎上都可以直接留言。也欢迎我们的投资界的朋友啊听完这期播客之后，如果对巨猿律动有兴趣的话，当然我知道你们可以直接找得到云鹤，当然也可以通过alex和我来直接联系他，然后我们也会来帮助大家去链接。好，本期节目聊得非常的开心，也按照以往的惯例，我们抽出五位听友，欢迎大家在喜马拉雅和小宇宙下面积极留言。刚才我们跟云鹤商量送出我们纪元律动的token，然后我们肯定是要送的更多，欢迎大家来试用我们的产品。那本期的节目就差不多到此结束了，我们下期再见。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>拜拜。</p>]]></content:encoded>
+            <pubDate>Thu, 27 Aug 2026 22:00:00 GMT</pubDate>
+            <guid>6a90b41e8e912c9d31d9b032</guid>
+        </item>
         <item>
             <title>S8 Vol.21 快音李岩：谁在决定你听到的新歌？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a877965e52eebcb9f4f26f1</link>
@@ -4674,133 +4948,6 @@ XR眼镜是一扇门，通往一个正在成形却尚未抵达主流认知的未
 <p class="transcript-line"><span class="time"><strong>[00:36:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家再见。</p>]]></content:encoded>
             <pubDate>Thu, 20 Nov 2025 22:00:00 GMT</pubDate>
             <guid>691f9096a95705a796b2945f</guid>
-        </item>
-        <item>
-            <title>S7 Vol.33 智慧芽张济徽：全球1.5亿专利数据库背后的大生意</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/691655d935d6c0616bd77572</link>
-            <description>知识产权是创新的基石。它保护了创新者，也让未来的更多探索成为可能。
-不过，历经数百年积累的全球专利文献早已浩如烟海，其复杂的检索流程、专业的技术与法律属性，都使得这些信息难以被高效地获取。
-而传统知识产权服务门槛高、成本高——专利查新及申请往往耗时耗力、费用不菲，人工检索效率低下，结果也难以保证准确——让成熟企业与初创公司在创新之路上望而却步。正因如此，一些企业敏锐地捕捉到这一机会，借助AI打破知识产权壁垒，让创新更快触达世界。
-本期节目，我们邀请到服务知识产权和科技创新的AI智能体公司智慧芽的创始人兼CEO张济徽，探讨垂直AI智能体如何让知识产权信息「平民化」。知识产权申请与保护，一般会经历怎样的流程？AI智能体如何帮助企业快速检索并整理专利信息？面对地缘政治与文化差异等全新挑战，知识产权管理与服务又有哪些新的增长机遇？
-【01:33】一次创业比赛，改变职业轨迹
-【04:22】用AI智能体实现专利信息的“平民化”
-【06:11】AI催生“按流量收费”新模式
-【09:02】目标客群呈现“433”比例
-【11:02】垂直智能体Eureka：解决专利查新与研发痛点
-【15:37】在某个国家申请的专利，在全球都受到保护吗？
-【19:37】被视为商业行为专利申请，“是防也是攻”
-【22:37】越来越多中国出海企业评估专利侵权风险
-【24:04】“很多路我们选择不走，才走到了今天”
-【26:29】AI定制化与本地部署的新趋势
-【28:11】全球化运营：东西半球协同合作，也各有分工
-【34:13】评论区抽取5名听众送出精美周边
-《创业内幕》粉丝群已经开通，在这里，你可以跟节目制作人/主持人直接沟通，也可以第一时间了解到纪源资本线下活动动态，见到纪源资本的投资人，结交其他互联网圈子里的小伙伴。
-入群方式：
-1）添加微信号“JiyuanFans”为好友，并在好友请求中标注“创业”
-2）把你的全名和职称发给创业小助手；如果您想约访谈，请添加小助手微信，并附上访谈嘉宾简介，小助手将帮您对接。</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跨境电商的客户，之前他们出海的产品都还没确定侵权，只是说咸鱼有侵权。比如德国就有权利把他们的商品扣留在海关。所以很多的企业尤其是出海的，都会提前用我们的产品先搜一搜，分析一下到底他们的侵权的风险程度多高，再决定要不要出海。当我们在分析这个专利的质量好不好，其实从其中一个维度，如果一件专利一家公司愿意出很多钱去在很多个国家申请下来，代表这个专利是非常有价值的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多央国企大企业自己的IT部门都说，我们装了一个deep什么都能干。不过其实没有这么容易，各行各业水还是很深的。因为我们是真的花了很多时间去做后期的训练，尤其是deep在幻觉其实是蛮高的。所以用我们的垂直的这个模型幻觉非常低，而且每一个答案都是能关联到专利文献，有reference check，可信度也很高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>亲爱的听众朋友大家好，欢迎收听本期的创业内幕，我是主持人lily。本期我们请到的嘉宾来自于中国领先的科技AIA的公司智慧芽的创始人和CEO张继威。好，张总跟大家打个招呼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>要不要请张总跟我们先介绍一下您本人和智慧芽这家公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>智慧芽是一家专注于做科创领域的AI agent的企业。过去这些年我们是从专利数据库起家，也因为有专利数据的积累，所以让过去几年的AI的这一波浪潮能赶上。我们全球现在一千多号人员工。我本人是新加坡国立大学毕业的校友，本科是生物工程。也是机缘巧合下在有一次美国的实习过程中接触到专利，所以从那开始已经在这一块做了十几年了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我看到其实您之前是在NUS，是第一届生物工程专业的毕业生。是在沃顿交换期间进入了一个创业大赛决赛。对，我们还是挺想听听这段经历的，有这样的一个想法，为什么没有在海外创业，而是回到了中国？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>先说说这个实习创业项目，我觉得至今还是蛮少有的。当时是派有创业倾向的新国大学生到海外全职的在当地的创业公司实习，然后part time在当地的商学院上课，所以我是去了U片。然后这个项目真的是改变了我整个人生轨迹。因为在去这个项目之前，对于创业这个entrepreneurship都没有什么感觉。因为在东南亚长大出生，反正从小父母亲都说了，可以选择的就业机会就是工程师、医生、牙医、律师。从来没有说创业者是作为其中一个有可能的人生的道路。所以去了这个项目在美国一年多，改变了我整个的看法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且当时参加这个创业实习项目的过程之中，有一个机会可以去参加沃顿商学院商业计划书比赛。当时就自己主动去参加，组了一个团队进到决赛。在三四百人我记得一个厅里面，然后给投资者评审委员会去路演。当时还是蛮紧张的，因为也是我个人的背景，英语其实也不是我的母语。所以当时为了练那场路演就练了给几周时间，是很好的经验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比赛结束之后，实习的创业公司是想留我继续去干的。不过就因为美国的签证问题，h one b当时每年的h one b大概是几万个机会。当时申请没申请到，然后毕业了在想着想干嘛，就开始创立了智慧芽了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>智慧芽简单讲我们其实专利搜索从这个领域切入，然后根据大数据和人工智能的能力来实现。用您的话说叫专利信息的平民化这样的一个构想。你有没有一些具体的例子？比如说今天我就是一个创业者，我怎么样通过咱们的AI agent来实现平民化的这个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为当时在美国实习的时候，我就帮当时实习的创业公司做专利竞调，找了很多专利文献，自己看花了。大概半年时间吧，终于学会看懂怎么分析意见专利。因为专利还是又非常技术的文档，且又非常法律的文档，所以真的不容易读。也跟大家说一下为什么有专利这个概念可以理解成它是一个交易行为，它是当地的政府和发明人之间的一个的交易。发明人把他关于这件发明的一切信息都发布到这篇文档，叫专利。对应的政府就会给他20年的权益，让他可以作为独家去商业化的一个权利。所以专利很有用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们在智慧芽这几年积累了过去几百年的全球，从第一件专利到现在每天在更新。然后怎么去把它平民化呢？就是我们有一个团队天天就是做数据治理、数据挖掘，每天给这些专利打标签，去解读这些专利。然后通过这些加工处理过的专利信息，就能在上面做各种应用。而过去几年由于大模型的技术推出，所以我们现在也能把这些已经高度处理过加工过的数据拿来训练我们的大模型，就形成了我们自己的一些特色和差异化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>您本人是因为有专利，所以才发现这赛道的机会的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，我本人也有几件专利，不过也就是因为当时在实习公司的时候，帮他们做很多专利申请了尽调方面的，所以才真正了解这个赛道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白咱们的目标客户是大B还是倒闭。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是个人。其实过去这些年我们的PMF product market fee也一直在演变。一开始我们的产品还没有这么成熟的时候，第一个群体是高校，大学他们的科技处。因为高校都有自己的科技组，去负责把他们的教授、研发人员的技术成果商业化，所以这个是我们第一个群体，然后我们再慢慢持续迭代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个群体就是中小企业研发部门，因为过去他们从来没接触这些专利的信息，或者很难接触通过我们的产品有很易用性的这个界面等等。企业的研发部门也能用我们这些信息去做他们的研发规划。当慢慢产品成熟了，我们就能切入这个大企业。因为最终有研发投入的企业才会对我们这些产品有需求。而通常研发投入都是一些相对比较大的企业，或者相对在创新方面的要求比较高。也看各个行业的属性，比如说生物医药也有很多biotech，一些小的创业公司也会有这个需求。不过通常来说至少是有几百号研发人员的企业会对我们这块有需求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们在商言商，今天这个看起来就是我们从小B切大臂，然后甚至是说我们把个人如果他有一个小公司去申请的话，他其实也算是一个小B来看的话，那我们怎么收费呢？就因为其实不同的客户对于费用的敏感度是不一样的。我们是按账号收还是按照用量来收过去？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些年一直都是按账号的年费来收。然后过去半年一年我们也在面临着转变，因为AI开始要以流量来收费，其实这个的我们叫go to market GTM还是蛮大的转变。对于我们自己的销售团队的要求，以及客户做决策的这个流程，都改变了以前账号的考虑的形式。或者他们基于多少个人，只要认可我们的产品，我们就卖多少个账号。现在是因为以流量每个A卷是按次数，其实这个收费模式也有了改变。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个对我们的客户来讲，他会不会觉得是一个很大压力，他就流失了呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说不容易，我们也都还在经历这个转变的过程之中。我们还是保留着核心产品，还是以账号的形式。不过我们新推出的agent，而且也是部分的agent是以流量来收费。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白了明白，所以其实我们是有传统的SaaS产品的对吧？对，然后另一部分，其实就是我们的AIA阵产品。那部分产品我们就按AI的标准来符合那个行业业的一些要求来收费了。是的，我其实很想知道您这个获客怎么来。因为其实sas是典型的28原则，-80%那部分肯定是那种超大公司，有相当强研发能力的。比如说像自己这种剩下的那一堆小客户，你是怎么能让他知道这么一个产品。因为其实不是每家公司每天都有专利的需求，至少我每天看的项目更多的都不是这个方向。你是怎么找到他们的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对这个28原则，我们内部有很多讨论，理想应该是朝28原则。不过当我们自己分析我们内部的客户群体更多会分成三类，而且是433的比例。40%是大客户，30%是我们叫meet market中型客户，然后30%是小型的SMB。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们自己是从meat market开始的，尤其是在欧美，1万到10万美金以内的客户，电销是能完成这个销售的签单。然后一开始也会有雇佣很多sdr来帮忙做这个coco去接触客户，然后做个演示。销售周期大概在两三个月以内。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过去两三年我们开始慢慢从meet market中型的客户往大客户去打。而且在所谓的me market里面其实是有大客户。只不过是说大客户之前只是其中一个部门买了我们一两个账号。而过去两三年我们发现最适合我们的扩张，up sell的是把已有的很多客户去做整个从买一个账号到买几十个账号，从一个部门开拓到几个部门，慢慢把我们的客单价提高到几十万美金。然后最小的那个群体就是从几年前我们也开始所谓的PLG。通过一些免费的账号形式，包括一些市场的ICU、ICM来获客，来降低我们获客成本。因为这些小客户客单价偏低，且我们的续约率也偏低。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白了，我们其实今天推出自己的AI agent，我们叫ERICA。是的，对这个产品它能帮我们实际解决什么问题？你能不能把这个场景给我们还原一下？因为包括我在内，相信很多听友对于知识产权无论申请还是应用都相对比较陌生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，有两个场景可以简单介绍一下。一个的确是知识产权的场景。比如说要申请一件专利权，不是直接就说我要写这件专利然后去付钱。因为每一件专利的撰写成本也不低，大概在国外是一万到几万美金不等。因为你还要付撰写的钱，还有付给国资局的钱。在撰写前通常会做一个报告，我们叫查新报告novelty search。去看看市面上有没有类似已经有人做过的。如果已经有人做过了，你就没必要花这个钱，花了钱又申请不了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而查清这个过程其实是蛮复杂的，里面要用各种不同的检索策略。你首先可能要用关键词来检索，之后要用各种行业分类号，然后还要用这件专利的引用和被引用。所以如果人手动去做，平均下来要花半天一天时间才能把全球过往几百年的专利能授权。然后才明确的说到底有没有相似的申请，下来的概率是多少。而这整个过程现在用一个agent，我们就要查询报告agent。就能完成大概几分钟到十几分钟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我们的A卷会把每个步骤做出来，而且每个步骤我们内部也采用自动驾驶的这个体系，就做到L2L3在中间的合适的过程，让用户能反馈说，你这个步骤我想添加一些或者想修改，然后再往前走。所以大概这个是一个知识产权的场景。另外一个可能也简单很快说一下是研发的。以前研发真的是用专利去了解。比如说我要出一台新能源汽车，首先要了解特斯拉的汽车是怎么做的，他们的锂电池的技术各方面。现在用我们的agent直接问新能源汽车锂电池的发展技术路径有哪一些核心的技术，哪一些核心的发明人。这个我们也能一键式的把整个报告生成，然后返回给用户了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但这个事儿一般的这个大模型也能干。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们的区别是垂直，所以也是过去这几年我们自研大模型的一些心得。尤其是dipt sick出来的前后。Dipt ypf出来前，我们还会做很多pre training，就是花几个月几百张卡去训练我们的大模型。Dc出来后，我们就全部聚焦投入在post training。怎么去对于我们的场景，我们的领域去做这个fine tuning，去做rng，去做强化学习。其实也因为我们这些年积累的数据弄好，所以我们现在在我们的领域，跟专利相关的做出来的关键程度、相似程度是非常高的，而且幻觉是非常低的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说就最近跑很多客户，这几天在北京很多央国企大企业自己的IT部门都说，我们装了一个deep，什么都能干。不过其实没有这么容易，各行各业水还是很深的，因为我们是真的花了很多时间去做后期的训练，尤其是deep c在幻觉其实是蛮高的。所以用我们的垂直的这个模型，幻觉非常低。而且每一个答案都是能关联到专利文献，有reference check，所以这个credibility可信度也很高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白了，我们也是基于OpenAI的整个这一套开源的系统开发的。是我们就针对这产权这事儿的。就像您说的，他检索的这个数据库和维度应该是有比较大的差异是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，反正现在各种大模型开源闭源了都各有优势。对，我们都会用。然后一些新的场景，因为要先在用户端把场景闭环先迭代，先确认客户是认可这个场景的价值。认可了之后我们就会拿开源的来做自研，去进一步的迭代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们现在使用的这些数据库都是全球公开可以检索的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>理论上我们专利文献每个国家都是要公开的。因为国家做专利就是希望其他人能看到专利，站在巨人的肩膀上就不再重复造轮子，专利信息都是公开的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我确实问一个小白问题，比如说有一个美国有一个什么专利是关于新能源电池的。但是我是中国人，做了一个同样的东西，我也可以申请这个专利吗？它是全球排他的吗？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以有几个概念，假设美国已经有类似的专利了，理论上就不能再申请专利。因为国家知识产权局审查员在审查的时候，不管是全球哪里或者是100年前的有人发明过，你就不能再申请。不过另外一个概念是，假设这个技术是在美国申请了，他没有在中国申请。那理论上你是可以用他的技术，在中国没问题的。对，不过在美国用你就会侵权。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我报专利的时候，我是会报全球通用吗？还是怎么样？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当一个公司一个申请人申请一件专利，通常先在他自己的国家申请。每进入另外一个国家，新的国家都是成本。所以都要去申请才有这个权利。当我们在分析这个专利的质量好不好，其实从其中一个维度，如果一件专利一家公司愿意出很多钱去在很多个国家申请下来，代表这个专利是非常有价值的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为你到每一个国家申请也是要花钱的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，所以通常大的几个美国、欧洲、中国等等，这些都是大家会去申请的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像欧盟他算一个组织还是算N多个国家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欧盟每个国家有自己的，不过整个欧盟联合起来有一个欧盟专利，所以可以世界申请一个类似欧盟专利的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，要不然你每个国家都搞，那成本就太高了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，而且还要翻译成当地的语言这些，所以很麻烦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是是是，但是我这边其实有一个问题，知识产权这事儿在中国喊了很多年了，现在已经大幅的好转，科技上的就不说了，我们现在在版权问题上都已经有了很强的意识。玩抖音的时候你就发现他很多音乐都是翻唱，因为这里面涉及到版权。对，所以今天我们在中国做这样的一个生意，会不会遇到一些挑战，可能有些人就说我就用盗版，其实也是OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的盗版最近几年都很少看到了。我觉得因为也是各方面的发展，普遍的知识产权意识，包括国内的创新越来越多。甚至在某些领域，比如锂电池，比如光伏、新能源汽车很多我相信其实已经都比国外领先了。所以这些企业有这个动力去申请专利，去保护他们自己的创新点，自己的知识产权。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过去其实在智慧芽创立之前，应该就有这样的机构。类似我们的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有的首先国家会有自己的官网，然后类似我们这款产品在欧美，因为他们毕竟比较成熟，所以欧美是有一两家是做了几十年了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我们现在在美国和中国哪个市场的收入更好？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在全球的分布，国外大概是占60%，国内是占40%.</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那也不少，海外主要还是欧洲和美国是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欧美还有日本。因为我们的市场就是沿着研发投入大的地方、区域和行业。美国一年投入大概在5000亿研发。第二是中国，第三就是日本了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就有研发能力，他才有这个需求。是的，那你怎么看待我们和传统的这些巨头的竞争？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我们这块的产品我们认为已经是全球第一了。过去这些年的积累迭代，尤其是我们用了很多AI传统的国外的巨头，他们相对的迭代速度比较慢。而且这些巨头我称之为出版社的基因。他们以前就是搞数据，相对来说应用一些新的AI技术，应用程度是没有这么好。当然他们的优势是在数据的处理，数据的加工是做的不错的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们刚才其实更多的是说帮他们在申请过程中去排查和节约成本。我们一旦有了大量的客户之后，客户在保护自己专利和隐私方面，咱们智慧芽可以帮他们做点什么吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在也因为AI，因为agent成本真的大幅度的降低。以前很多企业想要申请一件专利的确不容易，你还要找一些外部的专利机构帮你评估，帮你挖掘这些发明点。你应该怎么撰写你的专利，可以有更高的概率能申请下来等等等等。现在我觉得有了新的这些AI的技术，基本上很多人都能自己撰写专利。小部分还是需要专业的专家过来评估，帮你去申请。大部分应该真的是只要有好的创新的点，理论上这个申请的周期成本都会降下来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说有人侵权了我们的客户的专利，我们会发现？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看到一个实体的产品也好，它背后到底用了什么技术。除非你真的把这块产品拆出来反向工程，所以没有这么容易发现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且他做一些微创新是不是就不算是我们侵权了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些也是很多细节，这个要看到底微创新到什么程度。不过很多时候申请专利这个事情，它是一个商业行为，它既是房也是供大部分的企业是房，这个权利是我拥有的，如果别人用，至少我有这个权利去告对方，到底要不要去告对方。再看在一些商业的决策，所以有些公司就只是申请专利的，比如跨控，还有一些企业把这个license给其他公司去用。所以都有各种不同的商业模式，围绕着专利去发展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白了，这个其实跟药也不太一样。软件上的这个药它其实过了20年，是多少年？我不知道，专利一过期就可以做大量的创新药和仿制药了，而且这个在全球也是一个共识，就是你要普惠。但科技的平权是挺难的一个过程。对你其实没什么产品，它也没有什么一个实体的汽车什么放在那儿，它其实就是一个软件。这个软件我要卖钱，我对知识产权保护就应该是极其严苛的。但是我其实能看到这个领域确实在过去十年发生了翻天覆地的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看我04年参加工作，我都不知道这个微软是要收钱的。买个光盘十块钱一张，装上就能用，这东西还要收钱。但是到现在的话，基本上你的授权期一到，系统就会提示我说你赶紧要续费一次还不便宜，续几千块。不然的话你的outlook用不了了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么也用不了了。是的，而且现在今天应该还是微软有手机操作系统的专利厂商，每卖一台安卓系统，应该我记得是要给微软付钱的，所以这里面的专利的讲究还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>蛮多的对对，我们这里边其实还提到一个今天可能比较现实问题，就是我们的公司不知道自己侵权了。打比方，就是很多公司现在出海，等他到了海外才会发现他可能面临一些专利诉讼的风险。智慧芽目前在这个领域能帮助他们做点什么吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过去一两年我们也发现，尤其是华南的客户、广东的客户，跨境电商的客户，很多都采购了我们的产品。之前他们出海的产品被竞品都还没确定侵权，只是说嫌疑有侵权。那当地的海关，比如德国，就有权利把他们的商品扣留在海关。所以很多的企业，尤其是出海的，都会提前用我们的产品先搜一搜，分析一下到底他们的侵权的风险程度多高，再决定要不要出海。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个评估它是收费的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是买我们的账号也好，或者用我们一些agent就能很快的评估到底他的侵权风险程度。如果风险程度高，那他们可以用些什么策略去mediate这方面的风险。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哎其实我在录这期播客的时候，还看了沙利文的一个报告。今天智慧芽在中国知识产权信息服务领域的市场占有率是第一位的。然后节目一开始的时候少说了一句，智慧芽其实是一家独角兽公司，先后完成了好多轮的融资，应该是到一轮了。现在是吧？是的，对，所以这个是一家被资本青睐的一家非常优秀的知识产权领域的公司。就是我挺好奇的，就是你觉得咱们公司走到今天，能够作为行业领军企业做对了什么事儿呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，回过头来看，有做对一些事情，不过其实也踩了很多坑，尤其是外部的各种不确定性，AI的迭代，地缘政治等等，团队也会有焦虑。而且我们也是蛮全球化的国际化的公司。可是慢慢的发现，真的一家公司的初衷，文化价值观是帮助一家企业能坚定地走下去。尤其是困难的时候，怎么样能让大家更有凝聚力？而回过头来看，因为有很多路我们选择不走或者选择不做才走到今天。前几天才在团队内部分享，就我们的精品已经也换了几代了。刚开始见到的精品都已经不在了，那为什么我们还是能继续走下去？的确很多可能那个时间节点的一些热风，大家说就不做，还是坚持自己的一条路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你觉得你哪些东西没做，你现在看起来是对的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多，尤其是在国内。当时说做一些大项目，尤其是大企业，让国企政府的项目。因为大项目的确可单价更高，几百万、上千万。不过因为国内的整个生态环境，做这些大项目都非常重定制化的。我们也有做几个，不过做一个亏一个。而且这种定制化项目很难像我们SaaS产品标准化的编辑成本是零的。所以像类似这样的一些大的项目，我们就决定是不做的，也让我们更好的专注在把产品打磨好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我听下来第一是我们其实进入的时间点是很好的。2007年我们已经入了WTO，我们整个的过程中，第一是势头好，然后中国的发展好。更主要的是我觉得咱们智慧芽在选择客户上有所为有所不为，坚定了自己的产品策略。我其实做定制很难，要耗费大量的人力。但是你就是还是要看到，今天其实去全球化的这个趋势下来，中国还是国营企业最有钱的那现在这个情况下，民营企业可能手里也没有那么多sas的预算的时候，您会考虑重启跟他们的合作吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，国内跑下来一遍，的确让国企还是比民企预算会更充足。然后的确最近因为有了大模型，类似deep sk这些，现在我们是刚刚研发出一款能把线上的一套SaaS更好的本地部署，而且我们已经成功交付几单。因为现在大模型，然后运用向量数据库成本是非常低。而且他对我来说其实还是一个产品，只是说把我们线上的产品搬到线下给客户。这个我认为是会一个趋势。因为越来越多企业要用AI他们对于数据安全的要求都很高。都说这套大模型要加我们自己的数据RAG，那这个大模型应该要放在他们自己的私有云本地部署。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，您现在也在做这个事儿是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>开始在做对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这个会对成本有比较大的挑战吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说我们在做这块的时候很明确跟我们的销售团队说，还有我们的产品架构怎么去enable这个事情。每做一个项目至少50%以上一定是标准化产品的成分和收入。而且这块产品是我们自己线上产品的一个本地化的形态，所以不需要也不应该要改太多的，所以交付的成本可以偏低。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是说我们其实还是做有限的定制，不是说我完全帮你从头定制一个产品。对，那个确实难度太大了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且现在的定制因为有了agent，所以其实都可以通过新的agent的框架，很快的能招一个agent了。就不像以前真的是一行一行代码很重的定制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白现在其实像地缘政治对我们这种企业有影响吗？因为这个里边得给大家补充一个背景知识，就智慧芽的团队其实现在来自于新加坡、中国、欧洲有四十多个国家，他们是一个真正的日不落的公司，然今天就像我们其实涉及到了很多技术专利问题，那这个会在本地遇到一些挑战吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，肯定地缘政治也是对我们有影响的。首先运营团队服务器，我们从很多年前就开始，每个国家都有一套完整的产线的部署。欧洲有欧洲自己的，美国有美国，国内有国内，日本有日本的。其实很多年前各个客户都已经对这个数据安全有这个意识了。不过因为地缘政治加上芯片这些在这方面要更多的投入。另外一块客户也会对于自己的数据安全，尤其是AI这个大模型提起来的会更多。所以我们也为什么刚刚提到本地部署的需求越来越多，因为最好能解决或者满足客户的安全需求，就是把整套的部署到客户的本地。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你们怎么开全球的武汉ans meeting.</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还从来没有看到全球的，我们这个太强大了，时差差太多了，语言时差。所以现在我们内部是east way，东方和西方两套班子产业是一起的，销售市场是分开的，各自做各自的决策。因为假设在国内的想要指挥说欧美应该怎么做销售不实际，也相反的，坐在欧美的来指挥国内的销售怎么打不切实际。所以这个销售体系是两套分开的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你知道我当年就是这个欧汉speeding，常一周至少得有两个会，一个是早上七点钟的，一个是晚上差不多十点半。这两个会的时间其实对我们都非常的不友好，但是这已经是我们能给出最好的选项。而那时候没有远程办公，大家都是要聚在会视力的。你想要等到十点半，可能你就已经有点累了，但是还是要在会议室开会的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，我自己经验比较难协调，就是国内欧洲和美国东岸要协调起来。就是我们的晚上时间差不多就两个区域的，总能协调到涉及到三个区域的，每次都是我们这边要牺牲在晚上跟他们开会了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，包括美国里边，其实纽约和旧金山的时间又不一样，我们那时候非常的挑战。但是今天看起来那是一段非常美好的时光，那是全球科技发展最好的时间。对，就那段时间，虽然大家在不同的时区里，但是我们在做同一件事儿。是的，今天是在即使在同一时区都在做不同的事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，的确回想起来，90年代2000年代应该是全球化最不错的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是人类历史上第一次实现了真正的全球化。东西方文化的这种交流交融和互相理姐在那个时候是最好的。但是你怎么看？就是今天我们跨文化管理，这同样也是一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很不容易，毕竟过去十几年来回飞都很很不一样。你说欧洲，其实欧洲也很多个国家不一样的。英国和美国虽然都讲英语，其实非常不一样，而且我们也有团队在加拿大，加拿大人也和美国人非常不一样，最近他们两国也搞得不咋地了，所以文化很不一样。比如说在国内这些年也学会和销售团队聚一聚，喝白酒定个指标。然后国外英国人就喜欢拿着一杯啤酒站在酒吧路边上一整晚，然后边聊边喝。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我去年在伦敦的时候，我妈我爸就悄悄跟我说，她说你看旁边那桌儿坐老半天了一个多小时，他们也不点饭，就两杯酒一直在那聊聊，坐在户外聊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且很冷。是的，而且很冷。对，他们就喜欢在路边这么聊。对，国内就很快，你六点吃饭喝喝78对就可以了，结束了。对，真的很很不一样，话题也很不一样。国外就喜欢聊足球了，聊这个那个的，只能说建立信任就是要时间。对，因为毕竟大家的文化基础不一样。不过你说基本的人性都是希望被尊重、被看见、被认可，基础是一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，特别好。听到您最后的这个结论，我觉得是我们本次节目一个非常重要的浓。好，今天我们做专利的智慧芽的专利，在文化管理上其实就是尊重、看见、理解，这个其实很重要，尤其对于我们今天越来越多的出海公司来说。你像刚才张总讲了，他在路边很冷的时候，端着一杯啤酒在外面喝。那你回到国内就要在工厂里和大家喝白酒，要入乡随俗。对，特别好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这期节目我自己的收获特别大我见过至少七八家这样的公司，就都在做跟知识产权相关的。然后有的是做合规的，有的是做sas的。但是其实智慧芽依然是这个领域里跑的最快并且最大的一家公司，我们今天了解了很多关于知识产权的内幕，同时也感谢张总的分享，让我们看到了一家公司十几年下来坚韧不拔走到今天的各种各样的一些有意思的故事和经验。好，我们本期节目差不多就到此结束了。如果各位想要了解智慧芽或者使用智慧芽的产品，应该怎么样找到我们的产品？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家都可以上网搜智慧芽，来我们的官网有很多免费试用的AI agent都可以用起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>咱们对于中小企业有没有一些好的package？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，那相信就是我们我们听友里很多都是小创业者，刚刚开始创业或者还在路上。欢迎大家先从保护知识产权做起，用智慧芽来保护自己，然后也用智慧芽能找到更多好的专利来合作。本期节目我们就到此结束，感谢张总的精彩分享。欢迎大家在我们的喜马拉雅和小宇宙下面积极的留言。我们将抽出五位听友送出智慧芽自己的一些小的周边。好，我们下一期再见了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>拜拜。</p>]]></content:encoded>
-            <pubDate>Thu, 13 Nov 2025 22:00:00 GMT</pubDate>
-            <guid>691655d935d6c0616bd77572</guid>
         </item>
     </channel>
 </rss>

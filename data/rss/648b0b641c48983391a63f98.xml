@@ -4,7 +4,198 @@
         <title>42章经</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98</link>
         <description>和有趣、有独到认知的聪明人聊天</description>
-        <lastBuildDate>Mon, 10 Aug 2026 04:43:03 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 30 Aug 2026 06:36:11 +0800</lastBuildDate>
+        <item>
+            <title>一个人、两周、数百美元，如何训出登顶 Hugging Face 的模型 | 对谈研究员逯雨鑫</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a8ed6e7ef65145dfcc5d249</link>
+            <description>活动预告🥳：9 月 12 日，我们会请到雨鑫做一场线上活动，大家记得翻到 shownotes 末尾查看报名信息！
+最近硅谷有了新热点：主权 AI 和 Personal Intelligence。简单来说，就是很多人开始相信，未来会有越来越多的应用公司和个人，训练自己的模型。
+对绝大多数人来说，训练模型仍然是一件听起来遥不可及、门槛很高的事，但我们这期节目的嘉宾逯雨鑫却认为，它非常简单，简单到他此前没有 AI Lab 的经历，也不是 AI PhD，只用了 2 周和数百美元，就后训练出了两个登顶 Hugging Face Model Trending 榜首的小模型。
+他具体是怎么做到的、摸索出了怎样的 Pipeline？过程中踩过哪些坑？以及无论对个人还是公司来说，训练模型最大的卡点都是数据，那么他是怎么攻克这个难题的？在蒸馏路线、数据来源上，又有哪些 secret sauce？
+节目后半段，我们还进一步讨论了主权 AI、Personal Intelligence 和 Local AI 相关的各种问题，比如这些事情普及开来的门槛在哪里、未来 AI Lab 和应用公司的分工与价值会有什么变化等等。
+就在一个月前，我们还在讲 AI 应用遭受的冷遇；但录完这期，我们好像又看到了应用的曙光。也许在不久的将来，越来越多的应用公司都会成为 Neo Lab，Local AI 也可能成为一个 PC 级别的机会。而拥抱模型训练和 Local AI，最好的时间可能就是现在。
+希望雨鑫摸索出的实践路径，能给应用公司和个人带来一些启发。如果你还想了解更多，也欢迎报名 shownote 末尾的线上活动，来和雨鑫直接交流（尤其欢迎应用创业者！）
+【人类博物馆】
+导游：曲凯，42章经创始人
+52 号珍藏：逯雨鑫，某知名 AI Lab 研究员；以个人开发者身份、数百美元成本微调的模型两次登顶 Hugging Face 热度榜；focus 在 post-training（蒸馏、SFT）与数据工程，近期方向为 continued pre-training
+【时光机】
+Part 1 训模型的实操经验
+* 01:33 非 PhD / AI Lab 背景，凭什么能训出榜一模型？
+* 03:23 训这两个模型的成本具体有多少？
+* 06:08 个人训模型的完整 Pipeline 和避坑经验
+* 11:33 最大的难点和卡点：数据
+  * 11:48 合成数据效果并不好？
+  * 12:16 数据从哪来、具体要用多少、如何配比？
+* 15:34 数据难以提前预估效果的原因：Capacity Gap
+* 17:18 简评蒸馏的各种路线，以及到底什么叫「聪明地蒸」？
+* 20:01 自己训、自己用，性价比真的更高吗？
+* 22:10 坑最少的开源模型是？
+Part 2 对主权 AI 的思考
+* 23:44 自己训模型会成为应用公司的标配吗？
+* 25:25 训模型可能会成为一件商品化的事情？
+* 27:01 应用公司反而可能会成为 Neo Lab?
+* 32:07 AI Lab 和应用公司之间的分工可能会有什么变化？
+* 33:39 现在 AI Lab 砸钱买数据，就有点像移动互联网早期字节砸钱买用户
+* 35:31 如果主权 AI 真的兴起，AI Lab 的价值会有什么变化？
+* 36:59 Local AI 会不会成为 PC 级别的机会？
+* 40:17 用户最终会不会还是希望用上 SOTA 级别的智能，而不是 Local AI？
+【活动预告🥳】
+9 月 12 日，我们会请到雨鑫做一场线上活动，感兴趣的朋友欢迎点击链接或扫描下面的二维码，一起来认识&amp;交流！
+【The gang that made this happen】
+* 制作人：陈皮
+* 剪辑：陈皮
+* 片头：Mondo Bongo - Joe Strummer &amp; The Mescaleros
+* 片尾：Spacemen 3 - Set Me Free (Reprise)</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>本期节目对话研究员逯雨鑫（据文稿自称“陆雨欣然”，标题记作“逯雨鑫”）。他是非典型 AI 从业者：此前做 Data Engineer，后自费读 AI 方向硕士（非 PhD），在没有任何 AI Lab 全职经验的情况下，用约 5 天完成第一版、两三周完成第二版微调模型，并登顶 Hugging Face 开源模型榜。对话围绕单人低成本完成模型微调的真实流程、成本与踩坑细节展开，并延伸讨论模型训练商品化、应用公司与 AI Lab 的角色反转、开源模型的未来和 local AI 趋势。节目整体观点偏向“教大家动手”和“唱多应用公司自训模型”。</p>
+<hr />
+<h3>关键要点</h3>
+<ol>
+<li><strong>登顶 Hugging Face 的真实成本和配置</strong>：该项目底座是 James（原文作“java/詹姆斯”）42B，训练硬件只有一张 5090，配合 QLoRA 和约 200 美元的 Cloud Max 订阅用于合成数据。真实训练时间只有十几小时，几版迭代的硬件成本作者估计“绝对不会超过 100 美元”。第二版主要时间花在数据整理而非训练上。</li>
+<li><strong>训练效果的诚实描述</strong>：模型在 agentic 领域对标 t3 的 benchmark 从约 15 分提升到 55-60 分，但“其他 benchmark 上或多或少都会有一些下降”。它不是一个全面更强的模型，而是在特定领域明显偏科的小模型。</li>
+<li><strong>完整的个人微调五步法</strong>：①明确目标，不要盲目追热点；②选择底座模型——偏中文向必须选 Qwen（作者明确表示 James 12B 的中文很差，“大部分时间都在说粤语”）；③搭建数据管线，合成数据、开源社区数据、真实轨迹数据并用；④选择训练方式——作者对比后认为 SFT 对个人最实际，RL 被“吹得很神”但效果不如 SFT；⑤迭代，用 benchmark 找错误再补数据重训。</li>
+<li><strong>数据是真正的护城河</strong>：“我 95% 的时间都用在了做数据上。”作者强调 AI 合成数据质量仍很差，必须大量人工审查（V2 约 5000 条数据他亲自审了约 500 条），且需要反复与 AI 对齐目标、一版一版修改。合成数据只适合“靶向治疗”模型的具体病症（比如模型过度自信、没完成就说完成了），核心数据仍要来自真实使用轨迹。</li>
+<li><strong>蒸馏中的“capacity gap”（能力差距）是常见失败原因</strong>：“飞波五”（原文对某模型的记法）真实体量在 3T 参数以上，要蒸馏到 12B 的小模型，学生根本学不到老师的全部能力。遇到这种情况需要一版一版测试，判断是数据问题还是师生差距问题，调整训练策略，而不是轻易放弃。</li>
+<li><strong>关于蒸馏方法论的直接比较</strong>：作者明确表示做过大量实验比较 on-policy 和其他蒸馏方式，结论是“on policy 蒸馏是最强的”，SFT 加上好的靶向数据就是“好的蒸馏”，其他如 OPD、RL 都是“锦上添花，而不是真正解决问题”。他还特别指出，AI 合成数据无法自我进化出高质量数据，需要人工介入。</li>
+<li><strong>应用公司自训模型的成本预测</strong>：小模型（特定领域微调）从训练到可用，几千到 1 万人民币以下即可搞定；更大规模的模型约需十几万到 20 万以内；如果只是小并发用户，一台 H200（作者估约几万块钱）足以支撑十几个员工的使用。Serving 端才是后续的大头成本。</li>
+<li><strong>对“模型公司”形态转变的独特判断</strong>：未来 AI Lab 会减少或上移去做 research 级的前沿探索和预训练，应用公司会接管开源底座并自训迭代模型。中大型公司养一个“三四人的小团队”做内部模型会变成标配，小型公司则去采购中大型应用公司或 AI Lab 的 API/token。这与“红杉文章说 AI 应用公司会变 Nvidia”的判断一致。</li>
+<li><strong>开源收紧的紧迫感</strong>：作者提醒“之后开源可能会受到重创”，并举例千问 Qwen3.7 没有发布小模型，一旦开源被堵死，应用公司将无底座可用。因此他建议应用公司“不如从现在就开始”建立自训能力，顺便劝 CS 学生尽早转型往 AI 靠。</li>
+</ol>
+<hr />
+<h3>独家细节</h3>
+<ol>
+<li><strong>前史：为“武侠小说荒”做微调模型</strong>。他最初做微调是纯出于兴趣——喜欢武侠小说，但“除了金庸好像还有几本特别好的，剩下就没有了”，于是自己做小说微调模型，过程中踩了很多坑。这是他不那么“高大上”的起点，也解释了他后来践行的“锚定真实需求”路线。</li>
+<li><strong>公开向社区“征集数据”</strong>：V2 版本能在两周内完成，一个重要原因是他在 Hugging Face 上积累的关注者“给我提供了很多关于飞波舞的一些珍贵 real trace 数据”。这说明个人开发者可以从社区反向获取独家数据，不仅仅是单向开源自嗨。</li>
+<li><strong>对 Qwen 的“安利式吐槽”</strong>：作者具体描述了 James 12B 中文有多差——“无论是哪种量化版本，大部分时间都在说粤语”。这种细节很难出现在官方评测里，但对选型极具参考价值，也解释了为什么他建议中文用户优先选 Qwen。</li>
+<li><strong>亲自审核数据的疲惫感自然流露</strong>：“我的数据量是 5000 条，我可能自己审就得需要审 500 条。”他抱怨 AI 合成数据“经常会有各种问题”“完全是不对的”，甚至需要“一遍一遍和 AI 来确认目标”。这是对“AI 自我对弈生成数据”叙事的一盆冷水，来自亲历者的一手体感。</li>
+<li><strong>披露行业内幕：黑客用数据泄露威胁 AI Lab</strong>。他说自己和朋友、包括一些 AI Lab 都遇到过“被黑客威胁为什么你的数据泄露了”的事件，并明确表示批评中转站“不仅是比较灰色的地带，其次他们会卖你的数据”。这些说法带着强烈的个人情绪和产业一线观察，是公开报道里很少听到的。</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Do something there.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天很开心请到了雨欣，因为雨欣之前一段时间最有名的一件事情就是他自己做了一个至于java跟faber微调的一个模型。然后当时是在hugging face里面排名开源模型的榜一，然后超过了众多大家耳熟能详的这些模型。雨欣来简单介绍一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我叫陆雨欣然，后我之前是做过一阵data engineer。后来因为也对这个AI方向比较感兴趣，读了一个关于AI方向的研。目前也是在一家AI lab做一名AI researcher。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但我的了解就是说你是做完了你自己的这个模型才加入的AI lab对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我觉得特别有意思的就是我觉得今天大多数人还是觉得是模型是一件非常难的事情。大家不知道这里面都有哪些步骤，该怎么做这件事情。以及大家印象当中的训模型的人一般都是什么各种PHD，researcher之类的。但你的背景听起来不像是一个典型的能力模型的人，对吧？就是你之前也没有在AI lab做过，你其实没有参与过实际的这些是模型的事情。然后你至少目前的这个title你还是一个AI的研究生，对吧？你也不是一个PHD。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我想就有几个简单快速的问题。第一是你为什么能做这件事情？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一点就是我也是一开始的时候对AI很感兴趣。就是我是从2022年到二三年左右，然后GPT第一次对外开放的时候，然后我使用上了。使用上以后，的确我发现了很多很有意思的事情。后来做dad engineer的时候，也遇到了很多AI行业的一些目前是领军人物。之前的时候也是一个研究员或者是一个研发者，然后跟他们也是聊了很多，对于自己也是包括对这个行业也都更加了解。所以说我最后去选择了AI这条路线。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这条路线的话，我个人觉得并没有多难，并没有大家想象的必须得很厉害大牛，各种名校毕业的PHD什么的。我个人觉得，如果说你要是搞学术方面的，因为其实AI方面其实有很多种，一种就是工业级的，一种就是学术级的。学术的话就是帮助这些工业的人士更拓展一下思路，然后包括一些新的方法，新的研究领域什么的。但是其实真正能使用到让大家可以训模型的，其实就是工业界的那工业界的其实就是两种方法，就是比较出名的，一个就是SFT，一个是RL。所以说只要把基础我不好，其实每个人慢慢的也都可以做到。尤其现在还有这么多这么强的AI伙伴。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以其实就你的这些东西完全是自学的，是吧？可以这么理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最基础的东西是我自学的，后来也是上研究生帮我夯实了一下基础。我觉得研究生更能提供的是一种方向，只要你走对方向，自学是完全OK的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个模型你能不能快速给大家讲一下，就大概花了多少天花了多少钱的成本，或者用了多少卡之类做做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我个人的这个项目是java 42B的一个酷炫，时间成本就五天左右。第一代然后第二代可能多一点，第二代可能用了两三周左右时间。金钱上成本其实非常低。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我之前的时候整个项目是用了就一张5090，然后用的q lora，再加上一个二百刀的这个cloud max订阅会员。科技max订阅会员用于合成一些我想搞的领域的一些靶向数据。然后加上我又在网上，尤其是V2的时候，在哈根face的很关注我这个模型的一些粉丝，或者说群众，然后给我提供了很多关于飞波舞的一些珍贵real trace的一些非常好的数据，然后帮助我去做成了这个V2。所以说我觉得如果说你只是想单纯的在特定领域上提升的话，只要花费可能很少的钱。因为其实我的5090，现在目前我看无论是国内还是美国，租卡都非常便宜，好像一两美金，可能就1个小时。然后真实训练的时候，其实也就是十几个小时的事情，可能几版迭代我估计硬件成本的话也绝对不会超过100刀的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以总的算下来，其实你就画的也就是几百刀。对，然后宣传这个模型最后的效果大概是怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前我这个在agented领域里面，尤其是对标他三的这个benchmark上，然后原版是差不多好像是15分，然后我提升到了55分到60分的这一个水平。但是目前对于很多个人还有应用公司，只能说往特定的领域去提升，然后其他benchmark上或多或少都会有一些下降。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哼就我能不能简单理解，其实你是用作为T恤的这个更高级的模型，然后做的合成数据，然后做SFT蒸馏出了一个特定领域的小模型，结果就是这个小模型在某些特定领域的表现是要强于原来的模型的。是的，哼但这件事情就是听你讲起来好像很简单，而且我们刚才一直有在讲的，就是你的背景也不完全是一个多fancy的这种AIR的背景。所以这件事情现在为什么不是一个大众化的事情，或者就首先要确认一下，说你觉得你身边做这件事的人多不多，是我们有盲区，其实大家已经都在做了，还是确实不多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你们的预测很对，其实就是大家都是没有做。大家没有做，我觉得最主要的原因是在于觉得这个东西非常复杂，其实实际上并没有这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哼所以你能不能给我们大概完整的讲一下，说从你想做这个模型开始到把它做出来，中间大概是分了哪几步。然后你是怎么做，中间可能遇到了哪些问题，怎么解决之类。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我觉得你要明确自己要做什么。因为其实对于很多个人开发者来说，上来就想说我要拿热度，现在什么火做什么。其实现在什么火竞争对手也非常多。所以我觉得先明确目标。比如说我是在应用公司可能搞这个business的，那么就围绕着business你去想一下你想要做什么。你对于这一点先有一个明确的想法，就可以进入到第二步了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>找一个底座模型。找底座模型的话，这个里面也有很大的这些问题。比如说一些架构什么这些东西我觉得也得需要具体的去看一下哪个方面适合你。比如说詹姆斯12B我遇到最大问题，包括我现在也没有解决的问题，就是他的中文非常差。尤其是在12B模型的情况下，无论是哪种量化版本，大部分的时间都在说粤语。所以说如果是你是一个偏中文向的，那么你就要选择一个类似于谦问这样一个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后等你选好底座模型了，我觉得就可以开始专心的去想一下这个数据管线该去怎么做。数据管线的话，目前就是有几种。第一种就是合成数据，你可能扮演一下用户，然后AI帮你生成。也可以说你用两个模型。第一个模型是比如说GPU5.6，可以当作为用户。然后另一个模型可以当做真实使用的模型去合成数据，然后也可以选择去网上。其实现在对开源社区非常友好，还有很多好的数据在having face上也好。还有我没记错是model school，就是国内的一个非常出名的一个也是类似于hugin face一个平台。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这些好的数据拿到以后，或者是说你自己做好以后，我觉得就可以下一步了，就是考虑一下你想怎么做。现在其实在工业界非常流行的就是两种做法，一个是SFT，简单来说就是蒸馏，把你的老师模型，比如说飞波舞也好，干嘛也好争下来，然后把数据喂给你的小模型，这样的话就会有一个很明显的提升。但是这个具体的这也得看你的数据质量是怎么样的。然后还有一种就是reinforcement learning，也就是RL被吹得很神。其实我觉得效果是没有SFT好的，所以说我最后只选择了SFT。当然这期间还有很多别的方法，比如说OPD什么这种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得目前来说对于很多应用公司，对于个人来讲，只有第一种是比较实际的。因为后两个成本会非常高，然后之后就是一版一版迭代，包括你做完以后这个模型了，你需要看一下效果好不好。比如说你有一些特殊的benchmark，你可以跑一下看一下这个效果如何。如果说不好的话，那你可以从中看一下这个到底是为什么不好。从错题里面，然后从这些里面你再去迭代，到最后就可以发布了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实整个流程就非常简单，我觉得如果对于一个比较了解这个流程的，可能也就只需要几天。然后如果不了解流程，我觉得也很快。我之前学到的很多基础知识，我觉得其实对于大部分人来讲是没有必要的。比如首推mlp开始什么其实都没有必要。我觉得真正的难点就是在整个这套流程下来，其实就一个就是数据短。很多人都会觉得这个AI可能是有很难，比如说在info什乱码七糟，其实这些问题你自己多看看书，自己多搞搞，其实是很快就解决的。真正的卡，我的95%的时间我都用在了这个做数据上。所以说真实的问题，我觉得就是对于数据的一个洞察力，这也是最难的一点，也是目前AI所有领域里面遇到的最大的卡点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这里面你刚提到那些流程里面，是不是大多数都是有第三方的开源的一些工具，架构什么的，是可以直接用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实整套流程全部都有，包括训练的脚本，然后包括已经公开的一些好数据，但是mark这些全部都是公开开源的。你可以在任何网站上拉下来你想要的代码，然后你可能用agent然后加上自己去学习一下，很快就可以改成你针对你自己模型的这个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这个过程当中，你所有的都是用的cloud或者codex这种的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我这个个人项目全部都是用cloud去完成的。然后codex的话其实我不是很喜欢，因为GPT现在这个模型有点不太适合去做规划，他适合做去执行，去写代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白。然后大家经常在讲，这个新模型其实挺重要的，是说你我要有环境，要有自己的bench bug之类的。但我听起来其实还是你刚才强调的，如果只是一个工业级别的去使用的话，这些可能也不是特别重要是吗？或者就直接用第三方的就OK对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，很多时候都是由第三方去搞定的。其实大部分人环境都是可以在网上很便宜的价格去买，比如说e to b之类的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你刚才也提到说整个环节里面，你觉得最重要的还是数据这一部分是吧？对，但那我的理解是你的所有数据是不是都是蒸馏的这都是合成数据吗？还是你也加了一些别的，你刚才好像提到你有些这个社区贡献。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的是对我觉得数据，其实我很大的一个经验就是合成数据其实并不是很好，他只能去帮你把向去处理一些问题。比如举个例子，我记得比如说詹姆斯12B它这个小模型它有个什么问题呢？就是过度自信。简单来说，跑这个benchmark的时候，尤其是踏三的时候，我发现在很多题里面它的最容易错的问题就是你没有完成。但是他就宣布了我完成了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那么你怎么去找到这些专门去治这个病的数据呢？这就公开数据，还有你自己比如真实使用下来，这样其实是找不到的。所以说这些你可以合成一些八项数据。当然大部分的数据我觉得最好是一些你自己使用下来，还有现在比如说公开一些比如vivo 5真实使用的一些数据。然后这期间还分了thinking和no thinking，就是带不带推理去蒸馏的时候一个问题。个人觉得这个对于个人项目特定领域提升的话，我觉得都可以。所以说大家也可以去多关注一下这个公开数据，然后包括自己有一些好的数据和AI交流的，也其实可以提供给hugging face或者model cope这种平台上，然后帮助更多人去完成自己的小模型或者大模型一个后续。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你实际过程当中，你觉得做数据这块到底具体的一些难点，一些复杂的地方在哪？然后你大概是遇到的一些问题怎么解决的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我觉得最重要的问题是现在模型还不够，包括其实目前最流行的RSI也是在说自己合成数据什么的，然后去去搞，然后自我提升，自我迭代。但实际上现在这个模型还是无法做到合成数据就是非常好的，经常会有各种问题，比如说就是得需要大量人工去负荷，然后包括我之前这个个人项目的时候，我也在哈根face的首页上提到了。为什么我花了很多的时间做这个V2？主要原因就是在于审核数据。这个审核数据我基本上，比如说我的数据量是5000条，我可能自己审就得需要审500条。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为AI目前合成数据还是非常差的，我觉得很多的病也都在里面。比如说我说让他去帮我做一些治疗过度自信的数据。你如果说只跟AI这么说了，他做的数据其实完全是不对的。你真的得需要自己去审，然后包括一遍一遍和AI来去确定你的目标。比如说你觉得这一版是有什么问题，你就告诉他，然后他再重新去一版一版改。所以说我觉得这个是最耗费时间的一个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你看你第一版是花了几天，对吧？第二版是两周，然后这里面大概有多长时间时间是在做数据这块。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一版三天左右在做数据，然后训练也就差不多一天。然后第二版的时间，我觉得差不多两周的话，我得用12天再做数据，所以说大部分时间都是在搞数据，其实训练非常快，只要你有好的显卡，尤其像你这种小模型，自己微调一下的话，非常快。几个小时一把，几个小时一把这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说起来对我觉得说到底是多少条的数据是比较合理比较好的。以及这里面到底真实数据和合成数据的比例是怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真实数据的话我差不多用了60%到70%左右。然后剩下的是靶向的去帮助这个模型去解决一下他自己的一些错题的问题。数量的话我做是能得做出差不多可能小一万条这样的数据，包括那个整合，包括一些好的轨迹什么的。但实际上真实用到的话还得剔除一大部分，所以我觉得真实使用下来就是几千条的一个量级就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你刚才其实我听你讲的时候，中间提到过一个点，就是说你得先去真的训练一遍，去测一下结果，然后再去返回头来改。我们之前交流的时候，大家也提到过类似问题，就是好像大家很难纯靠看数据本身来知道结果，对吧？因为你训出来之前大家也不知道怎么样的数据是好的，它最后效果到底会怎么样，我不知道这块你的经验是怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实这一块没有什么太大经验，就是100万来测。你只能在做之前的时候，你看到这个数据是有问题的，你就能明白你这一版训练是错误的。但是如果你的数据包括AI帮你去校对，然后包括自己去亲自采样去看了，你觉得很好，但是你训出来还是可能会有问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就涉及到一个非常重点的一个知识，叫capacity gap。就是所谓的老师太强了，学生太弱了。因为你想这个飞波五它的真实的体量应该是在3T左右以上的一个模型。然后结果你要把他的一些真实的一些轨迹，什么真实的一些作答，你争到一个12B的小模型里面，中间会有一个非常大的一个能力也就学不到。所以真实的情况就得一版一版测试，然后看一下是否真的会有一些明显提升。如果没有的话，是否是老师太强了，模型太弱了这一类的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得整个数据里面最重要的就是在于一版迭代。就是不要觉得一般做的没有自己想的好，我就放弃了，我不适合。其实并不是，所以说这方面就是得需要有耐心就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后张流因为你实际做过，大家过去几年一直有各种讨论，觉得说什么软蒸、硬争，聪明的蒸不聪明的争。你觉得你这种现在算是怎么个争法？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>蒸馏它有很多种，一种就是属于OPD，然后也就是on policy，一种是o policy。其实on pose的话，我可以明确跟大家说，我是用几台H200，这一台就是八卡那这样我去做过大量实验，蒸馏是最强的。然后其他的话包括OPD也好，包括reinforcement learning都是在锦上添花，而不是说真正解决问题。SFT的话包括靶向数据，公开的一些好的数据什么，觉得算是一个好的蒸馏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个好坏到底是该怎么定义？是按结果去定义吗？还是什么？因为我觉得还是你有，我特别同意你强调一个点，就是大家今天在讨论这个问题的时候，其实都是从AI lab的角度去考虑。但实际从工业级角度去考虑，其实就是怎么有效，怎么成本低，怎么来，对吧？对，那那就是最基础简单的所谓的应征，我也不管这些东西，就是最好的一个方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个里面我可能明白你想讨论的一个问题，就是我觉得好争和不好的蒸馏方法，就是你的锚点是什么？我觉得和你的目标不同的话，那就是不好的蒸馏。比如说我就是锚点benchmark，然后我争了很多关于benchmark的一些衍生变体，类似于这种东西。然后结果实际上你的目标是什么呢？是我只是想提升一下安全边界，那这就是不好的蒸馏。我觉得只有是比如说你想做什么，然后你真往这个模型它的分布往这边拉了，我觉得才是好的蒸镏。不管它奔驰bug是掉分了也好，还是说任何也好，只要跟你的方向是一致的，我觉得都是好蒸馏。然后数据的话，这面只要跟你方向一致的数据，它都是好数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就除了那个头部的那些AI lab，其实因为其他人大家也不承担AGI的责任。也不用想说我怎么宣传一个更好的高无智商的模型，对吧？其实就是很实打实的，我只要用起来更好用就OK了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，这也是其实我这个项目能成功的原因。因为其实现在大家更多的是用了真tic和coding。然后我的个人项目锚点就是在这两个领域里面。所以说自然而然就很多下载量，然后很多人去用。所以说我觉得关注一下大家真实的一些使用，是比锚定bench bark是强的。当然了对于很多AI公司来说，bench bark只是一个考试。所以说他们的目标和大众的还有应用公司的目标其实是完全不同的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，所以我觉得现在大家在讨论英文公司，反正非AI lab自己去研发的时候，核心的。一个点就除了我们刚才讲的一些表现上的东西，另外最主要的点就是从成本的角度考虑。你最后测起来，你觉得你自己做的这个成本能降到多少，跟其他那些同等级表现的模型去比的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>几千到1万人民币以下。我觉得对于一个应用公司来说，应该就能训练出一个自己比较想要的模型了。当然我说的是小模型，如果大模型的话，那卡量还是需要上去的。所以说可能大模型的话，应用公司可能得花十几万或者20万以内。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这里面如果考虑到后续用户真的去调用跟使用token的成本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个就很贵了。那你就是serving端了。Serving端的话就有更多的坑了，比如说SGL和v lam架构什么的。这样当然这些的话成本上的话，比如说应用公司，如果想搞这个的话，你要看一下部署的模型是什么，那也得看你有用户多少对不对？然后这需要去核算一下。但是我觉得驾校模型如果是单纯的几并发，或者是实际并发这种特别小的一个需求量的话，我觉得一台H二百几万块钱就可以搞定，你基本上可能十几个员工的使用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，刚才问一下在整个这个过程当中，还有什么你觉得有什么坑是大家需要去注意的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实就是别放弃，然后每一个地方都会有很多坑在等着大家。其实我也是，包括我最早的时候公开的一个微调模型，就是搞小说的。然后我做这个小说模型，当时是纯粹的是满足一下自己的想法。比如说举个例子，我很喜欢武侠小说。武侠小说的话除了金庸好像还有几本就是特别好的，剩下的时候就没有了。我看完以后，其实我再想找一个好的小说，那可能就很难。所以说我就开始自己做这个微调，这期间也踩过很多坑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我想说其实千万的模型是坑最少的。包括后来训练，包括infer，包括一些脚本什么部署什么的。我觉得千万的模型目前来说是小模型里最好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家可以以重点去搞一下千问的，像扎马斯，包括前一阵出的这个好像是叫muse这个模型30B的，其实都是架构非常不主流。所以导致的训练起来会非常的复杂和非常麻烦。然后具体的每一个训练的时候遇到的这个问题，我觉得目前公开的开源的都有太多的去教你去怎么做了。只要不要太相信AI及时去查询。然后看一些大家真实的做法，成功的案例，我觉得其实都可以的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得今天整个市场上面有你这个能力，就一个人能SFT出来一个类似你做那个模型的人大概会有多少人？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实现在还是挺多的。但是这个东西我觉得就是很多人把它想的太复杂了，其实我觉得并不难。对然后我觉得未来可能通过这次的博客，可能会有更多人去搞一下这个东西，我也非常支持。因为只要有更多的人搞，社区才能更建大。然后其实也让大家知道AI这个东西并不难，大家如果感兴趣的话，可以抽出自己的，比如说课后时间或者是业余时间，可以去专门去玩一玩，成本也不贵。然后搞一搞。我觉得如果成了对不对？可能真的可以按照你的想法去部署去做这件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你觉得未来训模型这件事情会变成一个像互联网移动互联网时代的一个每个公司的一个标配的一个团队跟配置。就是几个人，然后每家公司都能有这么个团队，都会顺自己的一个小模型，或者是一个基于开源模型去做一些事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得可以的，尤其是一些中型的或者大型公司，可以直接整一个三四人的一个小团队就完全可以了。他不需要说有很大的一个开销，然后只需要可能预算就是这几个人的工资，然后加上部署，包括加上训练的一些，包括显卡一些费用。而且我觉得目前来说，现在这个显卡还有内存，RAM在一个特别高的一个点。因为其实很多厂商也都没有预测到AI能火成这样。所以说，现在是有一个非常明显的一个短缺的一个情况。但之后如果说供应一旦上来了之后，我觉得就会像当初咱们买的这个手机流量一样。最早的时候可能是三十刀，不是30人民币。现在就是在美国，还有我听很多国内朋友也说，现在都是无限量使用了，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得未来也是一个这个方向，只要显存价格下来的话。所以说我觉得很多中大型公司的成本在未来很有可能是会大幅降低。所以肯定是会有一些自己的部门。然后小公司，我觉得如果是没有专门的这个预算的话，也可以去找一些未来还会存在一些AI lab，然后去做一些商谈。到时候我估计肯定是价格是比现在是砍了非常多，因为之后的这个AI lab成本也会大幅降低。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，但我在想，就像你说的，现在可能每个环节都有些第三方的解决方案和开源的解决方案。我不知道现在有没有，或者为什么没有人做一整套的pipeline，把这些结合起来，提供一个完整的服务，说让每个人可能不需要自己去做和学，每个环节你就直接跟着我这个走，最后你就自己能训出来一个小模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的这个想法是目前也是我觉得除了RSI以外，所有的公司都在想搞这个事情。但实际上，比如说举个例子，比如说AI lab提供一个应用，然后你可以直接选择模型，然后选择自己的数据，然后进行微调。目前有一家公司已经做出来了，在海外也就是uns off在hugger face上比较出名，但是价格其实也挺贵的，我觉得。目前很多国内的公司也都打算做这个，但是这面其实对于infrared的话可能会有一些难，还有包括serving端什么的。但是我觉得未来的确这是将是一个趋势。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，听起来之前几年大家讨论的是这些AI lab的模型会不会商品化。然后我们聊到现在，我感觉就是未来是模型这件事都会变成一个商品化的事情了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，完全是可以做到的。因为我之前是在hugger face上有一个平台叫hugger face job，他是专门去做这个事情的。但是目前坑比较多，因为现在英特尔还是搞得不是很好，这面无论是国内厂商还是海外厂商都在去搞这个东西。就是把这个训练做成一个商品化的一个事情，让大家每个人都可以更简单的方法去做到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你怎么看未来写AI APP跟应用公司之间的一些关系的发展？因为你看最近我们也看了很多文章，尤其是海外的，大家开始有些迹象，就是有几件事情。第一一是大家开始强调所谓的主权AI这件事情，就是我要用自己的数据训自己的模型，而不是直接用那些AI lab的模型。我们也看到说美国那边包括做数据标注的也在自己学模型，对吧？强迫靠这种公司，然后像harv这种自己做应用的也带训自己的模型，然后像fireworks等等这些做infer的也带训自己的模型了。就未来是不是大家其实都是模型公司，或者就没有这个概念了。大家每个人都是模型公司，也都无所谓，是不是模型公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得AI lab的确会减少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我确认一下你说的AI lab会减少是说它的价值是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>价值可能还是有一些AI lab是会很高的，为什么呢？其实我觉得还有一些就像我所说的这个小型的一些应用公司。比如说才发布了自己的第一个产品，就是做了一个简单的APP，然后研究一下健身打卡什么这一类的。如果说这时候他们直接来一个AI团队的话，这个公司的话成本包括效益我觉得是并不是很高的。因为完成自己的主业才是重点，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你像这种的话，我觉得很多AI lab就可以在前期的时候去承接。然后等这个应用彻底的起来了，可能人已经变成了几百万几千万用户了。然后这时候再发展自己的这个AI的团队。所以我觉得未来的确会留下一些真正强的一些公司，然后做一些这类的一些service。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我感觉你这个还是按照今天这个状态来讲的。如果按我们刚才逻辑推理的，就是后面会有一个非常成熟的平台化的。不管是一个第三方公司还是个开源的解决方案，那似乎就是应用公司。就像他今天要做一家应用，他就要有个后端要有前端。当然AI时代H不知道会怎么变化，但是我就说这个门槛可能会降的比你刚才讲的还要低，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我的感觉是AI lab现在很明确的方向就是在追求更高level的一些事情，去解决一些科学的问题，诺贝尔的问题，emphasize的问题，或者具身的问题。然后基础的那些墨迹能力，其实在当下的办事会上已经都讲完了，所以开源模型可能就已经完全足够解决日常大家的很多问题了。所以那个AI lab我觉得在我们还是说回到像他去探索更高的智能和解决AGI这块是有很高的价值的。或者说他做的模型更好，他还能解锁一些我们现在没想到的场景。但是很多日常的场景和这些应用公司今天在做的事情，也许未来真的就是他自己基于开源去做一个内部的模型，就把这事儿干掉了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实是的，因为现在的确是包括很多，就像你说中大型企业就已经开始。开始搞这个东西了，的确是未来很有可能这个AI live他们主要是搞的是研究。我觉得还可能还会做一些serving这个服务，提供给一些小型的公司做一些。比如说就像提供一个平台，然后你们把这个训练，这个脚本，这个数据我自己上传，然后自己去搞。或者是说直接有一个开源的一个项目，然后直接是把所有的paypal安全整合在一起了。关于一个模型的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是其实我觉得未来可能对小型的公司直接去搞这个AI还是有点不友好。因为其实现在训练，我自己观察来看，还是数据是最重要的一环。这个东西可能得需要AI live去搞一下。然后对于中大型这边都有自己的团队，自然而然是没有问题的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我最近看应该是美国红杉他们发了一篇文章，说最新的AI应用公司其实未来反而会变成牛奶。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有可能比如说行业一些比较领先的，比如说business，比如说大模，那可能很多公司就会继承大模的这些模型，然后反而去成为一个新的u like。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就像我们当年看推荐算法时代一样。最终其实是自己现有的应用。有的场景有了商业化的闭环，有了用户数据，才有了更好的推荐算法。其实你去看，没有一家所谓的第三方中立的公司说我就是做个推荐算法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得的确是之后的lab就会偏向于这些应用公司更多一些。然后很多新兴的一些小型公司可以直接拿他们的模型去做一些自己的事情，而不是说AI lab去包揽了所有的领域。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为像我们包括刚才跟你聊，然后跟一些resource聊，我觉得大家其实有一个共同，只是说数据还是最重要的对吧？数据是决定模型表现的，而最终还是真的跟客户接触的，跟用户接触的公司有第一手的最真实的最好的数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些数据的确是最宝贵的资源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我的体感。你看像最近你可能也知道，就是至少国内大家比较流行的论调，沈柏清吃掉一切。然后英语公司现在是非常的冷的一个时候，然后我们前几时候还做了一期博客讲这件事情。当时我其实也是整体有点偏悲观的。但这几周聊起来，我反而觉得就是我们刚才说那句话，就音乐公司其实才是下一个new lab。现在的这些AI lab和new lab肯定仍然是上升的，在未来一段时间也仍然是上升的。但是应用公司的价值也是在上升的，这两个其实是在同步上升。然后在未来的某个时间点，也许会发生一个转变，就是模型的价值慢慢的往音乐公司去亮度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得在未来真正能存活下来的AI lab，其实是往就像你说的这个research，然后往更高的层面上去发展了。包括做一些前沿的开发，然后包括整体的一些模型的前训什么的，可能后续就会发放到很多的应用公司里来了。因为应用公司他们并不想把自己的一些数据分享给别人，然后可能更能想帮助自己在这个行业里面占据地位。所以我觉得的确会发生一次反转，但是这个反转，我觉得是AI lab往上走了，就是完全是不去碰后续这一块的这个东西了。然后应用公司反而去接管，然后拥有着自己的这个模型。然后包括可能很多小型公司会跟这些中大型应用公司去调用，然后包括买一些API，就可能中型应用公司有一些token plan了，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，所以我其实反过来也有点理解，为什么大家所谓的AI lab愿意花这么多钱去买数据。因为我感觉现在可能很多人还没有意识到数据的价值，它有点像移动互联网早期像字节的那个时候就大家都觉得你为什么要花那么多钱去买用户，那个用户获取成本其实挺高的。然后后来大家发现说一开始时候其实反而是最低的时候，后面会越来越高，我觉得数据可能也是一样的，对吧？就是现在AF就是要花更多的钱，把能买的数据先都买回来。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为其实包括你可能平时的时候让AI去，比如举个例子，你用GPT5.6，你可能说帮我去写下一个播客的稿子，或者是去调整一下这个东西。这期间，其实你的数据就是非常宝贵的。你和他聊天的时候，这就是你真实使用体验下来，然后AI帮助你真正解决问题了。所以整个这一条数据其实就已经值钱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看可能说现在AI lab现在一直在搞数据，在买数据也好，其实就是因为想看AI真正帮助你解决的问题，它是怎么完成的，包括你的真实问题会是什么，这些都是对于这个AI提升非常有用处的一个东西。就包括其实我记得每次发模型的时候，可能会有一些公司说，我们现在免费使用这个模型。你免费使用下来，那AI公司人家这个成本多高，他们serving的话可能加起来很多B300。B3买1台对于他们来说，无论是租还是买都是一个非常大的数目，可能几十万、几百万这样一个级别。他们为什么做？不仅是在宣传自己的模型，让你真实体验一下。也其实在丛中在收集好的数据来去帮助自己去迭代下一代模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我就是我们聊到这儿，我有个很好奇的问题，就是你最终为什么你还会选择去了一家也来？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为其实就像我说的，我觉得肯定还是会有AI lab是赢家的。那么真正你去选一家还是有很大希望可能往research RSI这方面搞的。做到像我之后说的，可能就是直接搞research级别了，然后做一些培训什么这一类的。包括其实我觉得目前kimi质朴这些公司，其实最大的价值就是黔讯。因为你目前应用公司也好，什么也好，你真的无法去做到前训。如果你想前训一个模型的话，我可以给大家估计一下这个价格。那就加一个B300，或者就不是加一台可能加128卡，加上更高264卡，然后去做这个前序还得做好几个月。所以说这块肯定还是AI live占主导。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是其实还有一点，我觉得是未来的一个非常大的问题。就是如果AI line没有人开源了，那可能对于英文公司来说，其实也是一个比较毁灭性的打击。这期间就需要从很多之前开源的模型里面去拿出真是好的，然后自己去做后续，然后自己去迭代。所以说其实我觉得现在很多中大型应用公司，如果有足够预算，其实想要搞下去，就得从现在就开始自己的去迭代模型了。对后续我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得至少从今天看，未来相当长一段时间应该就只要有竞争，应该就是会有开源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，明最后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我想问一下，就是你觉得未来，因为之前大家有过一个类比跟讨论，就是在计算机刚出现的时候，是那种超大？一间房子都放不下的一个大的机器。然后大家会觉得说是不是全球只有那么几台机器，就有点像今天的全球就那么几家AI的lab。最后他慢慢的演变成了每个人一台PC的这个时代。那那这里面就是从IBM变成了微软和苹果这样公司的机会。AI会不会未来也是会往这个方向走从几家大的模型变成说未来人手一个模型，我就是跑在自己的电脑上，自己的手机上，自己的一些端测产品上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一定的现在已经有这个方向发展了。因为简单来说，你调用API的时候，你的数据就是可以被你的上游看见。很多人用这个中转站，很多人说很便宜什么的，就是可能几十块钱包月。为什么我不支持中转站呢？因为很多中转站不仅是比较灰色的地带，其次他们会卖你的数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前已经看到过太多的案例。我包括我身边朋友，包括有一些其他的AI lab都遇见过一个问题，被黑客威胁为什么你的数据泄露了？所以未来大家为了保护自己的数据，一定会往这个local AI上靠。而且随着英伟达，包括还有国产的比较出名的芯片，他们几个都会做大做强做更好。基本上我觉得每个人手都会配有自己的local ai然后这个local AI的话，数据就是永远保存在自己的电脑上，不流行任何地方。所以我觉得这绝对是一个非常大趋势，也是为什么千问他一直在发小模型的原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后之后随着电脑的升级，可能就像我之前看到的报道说，马上2027年2028年苹果要出2t RAM了统一内存的电脑了。那2T的话相当于可以跑到基本上现在的GR5.20都没问题了，就相当于自己有非常强大local模型，你再也不需要去调用上游的API了。所以这绝对是一个非常好的趋势，这也是未来每一个人都希望它有的一天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，最后你还有什么想要补充的或者跟大家分享的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得最重要就是如果现在大家包括应用公司想要去搞AI那就不如从现在就开始。因为其实之后开源可能会受到一些重创。比如说你看这位千问在3.7模型的时候，就并没有发任何的小模型。如果他没有发的话，那大家怎么办呢？大家可能说，那我们只能自己去搞自己的后续了，就已经直接把路堵死了。而且很多人完全不会只会说我就部署在我的电脑上，我用我的显卡去部署个小龙虾什么的。这样这种情况下的话，我觉得就是一个非常大的一个阻塞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后可能未来也会遇到这个问题，所以我觉得不如说很多应用公司现在就可以开始专门去搞这个事情。然后很多可能学CS的就主动去往AI方向靠一靠。这样的话他们可以在未来，尤其是在闭园的情况下，可能会有一些更好的发展。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，好，行，谢谢。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今天就不好意思，我想再补一个问题，你说hello，我是陈皮在刺杀章京做内容。我的这个问题就是现在有一部分人，他们的说法是用户最终对智能的需求可能还是要到达salt level。那假设比如说像open IE anthropic这样的公司，就一直在发最前沿的模型，那用户就真的会愿意用自己的本地模型吗？因为本地模型可能离骚它还是有一些距离，哪怕这个差异可能对大家日常生活和工作来说已经没有那么重要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个问题非常好，也是我觉得很多人都会面临的这个问题。就是local AI的话我自己的使用率其实目前来说并不高，因为local还是会有一些错误，可能没有这些骚他这些模型，包括最前沿的这些模型好。但是我觉得就像我说的，很多人做的事情，他可能对数据非常敏感。其实我这回发这个hugin faste上很多人都反馈，其实很多人还是愿意用这个local AI的。他们就是很多人对数据非常的敏感，尤其像我收到最多反馈的是super security。这方面的话，你包括还有生物领域，这个飞博物全是巨大。如果碰到这种巨大的情况下，你只能去考虑local AI这种模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有一点，可能日常聊天大家更愿意用这些大模型。可能因为在手机上，目前阶段还是无法部署一个非常满意的模型的。但是未来很有可能会发展到部署一个自己比较满意，比如说R7B模型可能会放在手机上了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果是达到这种程度的话，我觉得很多人可能问一些简单问题，就靠自己的收集。因为其实这个对于大家来讲，你这就是沉没成本，对不对？我手机已经买了，我去搞这个东西，我天天问这个AI那我相当于什么？我是免费的，但如果调API我就每个月可能得花二十刀、三十刀去买这些公司的API的服务。对于我来讲也是一个额外的开销。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二点，就是所谓的安全性问题，大家可能会更关注一点，包括很多人写小说，小说这一点是因为我是以前专门做这个模型的，所以我非常了解写小说的这个情况。这一块儿这个图片的消耗量是非常恐怖的。做完这一本小说的话，可能我得需要花几千甚至几万人民币的一个价格。但是如果local AI去帮我做，然后我自己可能再做一些调整这样一个情况。所以说我觉得未来还是更偏向于local AI因为大家更想保护自己的隐私省钱，然后加上很多领域大模型巨大的情况下，我觉得可能会更好一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，我也想再追问两个小问题。就是logo VI它的成本更低和速度更快这块我觉得是比较好理解的。但是关于隐私这部分，我不确定它是不是一个真需求，或者说我们当然都希望保护自己的隐私。但实际上就比如我们现在用的很多APP对吧？就他们可能都在想办法的去获取我们的数据，但我们可能用着用着也就无所谓了，这是第一个问题。然后第二个小问题就是刚刚您也有提到saber security，然后我们最近也有看到一些公司在做这方面的事情。比如这种公司它加上sota模型，是不是就能够一定程度上解决大家在隐私方面的顾虑，而不是人人可能到最后都要选择一个local AI的解决方案。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个就是有一个非常好的一个案例出现了，就是hugg face被这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>opening.</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，被这个攻了。然后最后他解决问题是使用了咱们中国国产模型，然后本地部署。因为无论是cloud还是GPT都在巨大，所以未来我觉得很多公司可能真的会偏向于自己的这个模型。其次，这个隐私问题，的确是可能很多人不在意，但是其实还有很多人也是在乎的那关于这个saber security的时候，就算是目前很多sota这些模型场合说，我们把这个问题可能融合了一下，就是说解决这个问题不去答了或者任何情况，但是还会有很多其他的领域出现问题。还有一种就是生物领域，很多人在做research阶段的时候，vivo一直在去打，这时候，你就无法拿到这个骚塔模型，那已经去答了，然后可能还有几个其他选择，反正都不是最糟他的，那我就选个中等的自己部署，然后自己把这些数据都保留下来，是不是更好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外补充一下，我觉得一个是说所谓的搜索到底多sota才算搜索，还是说后面慢慢的大家会觉得说今天用的已经够了，你用更好的。就是它从性价比角度来讲，可能总归有个点就不太make sense的。就像是有很多人觉得可能4G就够用了，我没必要用5G或者5G肯定是够用了，我没必要再用6G的实施类似的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我觉得刚才陈皮，他刚才说的这个点是很对的。就是大家一直在追求着最先进的，其实不管他有没有用，对不对？很多人都是在搞这个心态，所以说大家不管自己的需求，简单来说是盲目追求最强的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有，我我我是觉得怎么讲，最后肯定还是豆包的用户是更多的。你们现在讲的其实还是小众的一个人群，只是这个小众人群在今天AI里面相对话语权比较强而已，大多数人其实是不care或者不会这么选择的，大家还是最终是看性价比的，以及最终你说隐私的问题，我觉得不是用户个人去care和选择，是从应用公司的角度来说，会自然的推动这件事情。因为应用公司和某些公司天然是一个有点竞对的一个状态，对吧？就最终你如果用的个人模型，可能是因为苹果在推这件事情，而不是个人的选择。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我觉得未来以后也是差不多是这样的一个情况。就像你是我的豆包，用户其实是最多的，因为它是最方便的。然后他也不用去多搜他他只要能解决掉大家的问题就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，今天聊得很开心，然后我觉得提供了蛮多非共识，但和我们最近看到的一些趋势是蛮吻合的，然后非常感谢雨欣的时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Let me help you see. You, what we could be, baby, I got. You, baby, I get.</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>It&#x27;s this world.</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>We can to them.</p>]]></content:encoded>
+            <pubDate>Sat, 29 Aug 2026 13:00:00 GMT</pubDate>
+            <guid>6a8ed6e7ef65145dfcc5d249</guid>
+        </item>
         <item>
             <title>从蒸馏到合成数据到 RSI，模型竞争的下一个焦点是什么？｜对谈 Evolvent AI 联创孟繁青</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a75424b000a55a9bb042560</link>
@@ -7411,234 +7602,6 @@ P.S. 丁丁之前曾在微信做过 5 年的搜索产品，也在美团做过策
 <p class="transcript-line"><span class="time"><strong>[00:41:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢曲老师。</p>]]></content:encoded>
             <pubDate>Mon, 05 May 2025 14:00:00 GMT</pubDate>
             <guid>6818517a6970cc7b4db62789</guid>
-        </item>
-        <item>
-            <title>Agent 开发的上半场: 环境、Tools 和 Context 如何决定 Agent｜对谈 Sheet0 创始人王文锋</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/68032a401f1db84a563d5d83</link>
-            <description>活动预告🥳：4 月 26 日，我们会请到 sheet0.com 创始人文锋做一场线下活动，大家记得翻到 shownotes 末尾查看报名信息！
-关于 Agent 这个话题，我自己有一些核心在思考的问题，相信这些也是很多人同样会有疑问的地方，这期播客中我们就这些问题展开了讨论，并基本得到了一些答案：
-1）怎么定义 Agent，Agent 最重要的是什么
-2）今天的 Agent 和两年前的 Agent 的区别是什么
-3）如何简单快速理解 Function Call，Coding Agent，MCP，A2A，Computer Use，Browser Use 等概念
-4）不同方式的区别是什么，有什么优劣之分吗
-5）怎么看通用 Agent 和垂直 Agent 的区别，终局是什么
-6）AI Coding 和 Agent 最终会是一件事吗，或者二者会有什么关联
-7）Workflow 和 Agent 的区别和终局
-8）RL 这件事在 Agent 里的重要程度是什么，一家公司（尤其是做 Agent 的创业公司）到底该如何使用 RL
-9）大模型自身的 Agent 比如 OpenAI Operator 和其他应用产品的区别是什么，最终市场形态会怎样
-10）如何快速判断一家 Agent 公司做得好不好
-另外，在整段讨论中，本期嘉宾文锋基于长时间对 Agent 的研究和实操，还提出了很多理解和分析 Agent 的框架和关键要素，以及在接近结尾部分留下了让我非常有启发的一句话：AI Coding 是大模型的灵巧手。
-【人类博物馆】
-导游：曲凯，42章经创始人
-33 号珍藏：王文锋，Agent builder，sheet0.com Founder &amp; CEO，连续创业者，有近十年 AI、Data Infra 产品设计和 Coding 经验。sheet0.com 已开放 waiting list 申请，即将内测。
-【时光机】
-* 00:47 Agent 三要素：LLM、Context、Tool Use
-* 1:17 这波 Agent 和过去两年的区别是什么？
-* 2:30 怎么理解 Agent 中的 Context？
-* 4:21 快速理解 Tool Use 的不同方案
-  
-  * 4:40 代码调用支线：Function Call、MCP、A2A 之间的区别是什么？
-  * 6:35 模拟人类支线：浏览器是大模型能调用的最重要的工具
-  * 7:07 两条支线各有优缺点，也可以混合起来
-  * 10:27 Manus、Devin、Genspark 各用的什么方案？
-  * 12:25 Browser Use 的核心价值是给用户提供「安全感」
-* 14:19 AI Coding 和 Agent 最终会殊途同归吗？
-* 16:15 Agent 的终局会走向通用还是垂直？
-* 17:17 脱离了 RL，Agent 就不成立了
-  
-  * 19:15 所以 Agent 创业公司该如何使用 RL？
-* 22:54 一个非共识理解：聊天框 + 场景推荐 UI 界面就是最好的交互形态
-* 31:54 Sheet0 是一个怎样的 Agent 产品？
-  
-  * 34:15 怎么把任务执行的准确率做到了 100%？
-* 35:39 Workflow 会被 Agent 颠覆掉吗？
-* 36:49 不同 Agent 的核心区别是什么？
-* 39:05 AI Coding 是大模型的「灵巧手」
-* 41:41 Agent 有两大「信任」命题
-* 44:22 分享一个预测 Agent 未来发展的思考框架
-* 47:33 如何快速判断一家 Agent 公司做得好不好？
-【Reference】
-文锋推荐大家都读一读强化学习之父 Richard Sutton 的《Reinforcement Learning：An Introduction》
-【活动预告🥳】
-4 月 26 日，我们会请到文锋做一场线下活动，感兴趣的朋友欢迎点击链接或扫描下面的二维码，一起来认识&amp;交流！
-【The gang that made this happen】
-* 制作人：陈皮、Celia
-* 剪辑：陈皮
-* Bgm：Mondo Bongo - Joe Strummer &amp; The Mescaleros</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Do something there.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天北京风特别大，感谢文峰今天还跑过来录这期播客。然后正如北京的大风，一个非常尴尬的转场，今年AI最热的大风现在就是agent了。所以文峰正好做了蛮长时间agent的，你可以跟大家介绍一下自己。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，我是王文峰，是一个做A两年的一个程序员出身的创业者，同时也是徐老师的粉丝。然后我们在做的一个产品是data agent。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在大家都在讲各种各样的agent，那agent到底怎么定义？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得最好的定义是astrop y的一个定义。Astrop y的定义的话是说agent是模型基于环境反馈去使用二的一个程序。这里面的话其实我觉得有三个点需要去拆开说一下。第一点是模型，这个大家其实是最容易理解的。第二个的话我觉得是环境反馈，这很关键。第三个的话就是to，就是说agent我们需要去take action，其实通过调用to的方式去实现的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你怎么看最近这波agent的热？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这一波agent跟过去非常不一样的一个点是这次agent真正的是能够去实际的解决问题了。像上一轮agent大家讨论的时候，其实是在二三年的四月份，当时代表性的产品是RT GPT。但是当时它更多的可能是一个玩具，它并没有什么实际能解决的一些问题。但是经过两年的发展，A人现在真的已经落地了，就在实际的工作生活场景面给大家带来了真正的价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这两年主要的变化你觉得是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看到的有两点，第一点的话确实是底层的模型有了非常大的一个进步，尤其是OE出来之后，给agent带来了长思维能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主要这个就是因为RL深度学习在这个角色上的使用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？对我觉得这个是一部分。还有另外一部分可能是大家没有关注到的一个点，就是说其实是工程这个事情上面也有非常大的突破。也就是说是怎么去给agent更好去构建一个合适的context，然后去解决问题。这个我觉得是从工程这一侧或者说产品这一侧的一个进展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你刚说第一点是模型的进展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，第一点是模型，第二点是agent的context。Context这个怎么理解？Context其实是定义了所有大模型需要去利用的信息的一个总和。比如说比如说以代码为例的话，它包括了整个代码库的结构，代码库的源文件代码，还有整个代码库里面会有哪些API可以使用，包括人类的输入，其实这些都算context。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说可以举一个具体的产品的例子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实每家的产品的康不一样。我以我们产品的为例子的话，其实我们产品是一个帮助大家去收集数据分析数据的一个agent。对于我们而言，我们看到其实包括了网页，还有是我们帮用户收集过来的数据表格。还有包括说用户他想要一个数据的，就是那句段prompt的，还有包括我们分析数据的时候生成的这些SQL，其实都是context。其实这contest是比较琐碎的东西，大家加在一起一个整体，我把这些整体去一起输入给大模型，然后大模型来判断出来说，我应该给用户一个什么样的一个结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我明白，但我在想这些过程当中的信息被留下来再使用，或者不管是加到prompt还是rag里面。这个不是之前本来大家就都应该是约定俗成的一套做法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这个核心是你的这些康泰从哪里来。比如说我刚才举的例子，网页，那网页里面它其实网页一般有很多无关紧要的信息。首先第一点，我怎么把一些我关注的信息我处理出来，这是一部分。另外一部分的话，比如说我要生成C口，那这个SQL是怎么准确的那我需要去校验。我校验的话我需要利用到数据库，那我一套SQL能执行成功。其实这些信息是需要以某种自动化的形式去提炼出来。以前用reg也好，还是说其他什么办法也好，就这些信息主要输入来源是人A症的。更强调的是我的这些信息来源是我通过某种自动化的方式获取的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我觉得我们先把一些基础概念快速的给大家介绍一下。因为大家经常听到很多概念，对吧？比如说什么包括MCP，包括google前两年出的A2A然后也有这种所谓的computer use，brothers use等等各种各样的说法。在你看来你觉得这些是怎么分类，或者有没有什么优点之类。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实刚才曲凯老师你提到的像方程靠也好像MCP也好，说A退也好，或者bread use这些东西也好。他们其实都是在解决一个事情，给大模型提供更好的一种使用工具的方法，让大模型更好的去take action。而这里面的区别是什么呢？其实你可以理解方向靠是最早OpenAI提出来的让大模型使用工具的一套方法。可以理解它是个0.1的一个版本。然后MCP在这个基础之上，它又更近了一步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们可以理解它是大模型使用工具的0.2的版本，但是MCP非常大的作用在于，它其实类似于说统一度量衡的一个事情。因为以前的方程靠那个阶段，大家使用工具的标准是不一样的。相当每个国家它可能有自己的这么一套度量一个方法，我到另外一个国家之后，我就得重新学一遍。但是MCP把这个事情做成标准化了。这时候相当于有了一个说放之四海都皆准的一个方法，大家都可以去调用任何人的工具，那其实相当于这个事情的门槛一下子降低了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后a two a其实我觉得A2A没什么意思，更像是一个KPI工程。因为a two a它自己定位自己跟MTB的区别是说AMTP它只能跟其他的two或者说是API去交互。但是A推他说的是我可以agent和agent之间的交互。其实从我们开发者的角度来讲，这个事情是没有区别的。因为agent其实你也可以定义成一个图，就是它可能有个调用的函数入口，那个东西用FCP的包装下，它也可以被其他的A智能去交易，可以纳入FCP的范围之内。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以从这个角度来讲，内推我觉得是属于强行造了一个自己的一个概念。然后找了一堆合作伙伴过来去推这个东西。我觉得这本质上是一种标准化语权的一个争夺。但是我觉得从工程师的角度来讲，我们是更喜欢MCP的内推。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有提供新的东西。明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后又它其实强调的是说，我把浏览器这个事情当做一个工具，我让大模型去调用。可能说全世界成千上万的工具，那浏览器可能是最重要的工具的一种。明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在听起来，我感觉其实整体是分成两派。一派是直接用代码来解决问题，对吧？我理解不管是MCB还是AA to a等等东西，所以它是用代码去解决问题。然后另外一派是你人去解决问题，对吧？不管是computer youth还是brother youth，其实它是通过可能视觉识别加上一些RPA的方案去解决。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实不矛盾，你也可以用以MCP的方式去进行所谓的broadview。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么做到？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为实际上我们是怎么去用bra use的一种方式，其实就是纯粹的通过图像GY的方式，就是我推算出来某一个坐标，然后可能把鼠标移到这个坐标上面，我点击一下或者说我输入个什么东西。但实际这个方案是远远不成熟的。就国外有一个adapt的公司，其实是在二三年、24年非常火的一家公司。但实际上公司已经死掉了，因为这个事儿太难了。所以说现在大家去用broader的时候，其实也是通过浏览器的API把它包装成一个类似于说MCP的two。然后我再通过代码的形式我去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>调用这个明白，就是其实它前面类似演了一场戏给人看，背后还是用的那些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>MCP跟脖子其实是两个叫做正交的两个东西，就是互不影响。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但那是不是有个问题，就是说因为毕竟很多公司没有兼容MCP的这些东西，然后甚至于说往后走，可能有些公司为了保护自己的用户和数据，它也不会兼容，所以就变成有些产品是必须要使用。真的不知道，这又是真的是模拟人操作来去完成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得首先是这个样子的，正儿八经去使用MCP的标准姿势是什么呢？假如我是开发者，我现在发现我想要用MCP去用某一个SaaS软件。那这个时候我其实不需要SaaS软件本身去支持MCP说我不需要，他已经给我提供了一个MCP的一个接口了。因为MCP是个标准化的东西，我自己可以按照这个sas软件，它开放出来那些open API，在open AP上包一层，我就可以把它当做一个MCP去用了。所以说前提在于说我这个SARS是不是它已经有了一个open API。因为OpenAI在国外的软件生态来讲，基本算是一个标配了。基本上所有的SARS都会有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但国内还都是没有的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这个问题就是国内海外是非常不一样的。如果说这个SaaS产品或者是另外一个软件产品，它确实没有开放出来一个所谓的open a片或者一个什么样的SDK的话。那这个时候确实是没有办法以代码的形式去用。但是你也可以这个时候尝试着去用视觉的方式。就是我们前面提到了，我用浏览器，相当于把浏览器的截图我传给大模型，大模型判断上面的一些交互元素，把坐标算出来。然后我再通过鼠标键盘的方式去控制。这两种办法就是API也可以，然后GUI也可以，就取决于说在什么样的场景下面更高效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以简单可以得到一条结论，就是说如果未来MCP或者后端各种接口支持的话，其实它直接调用就OK。如果他不支持的话，那就只能通过视觉和模拟人去使用电脑的方式来去解决这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且我觉得这边还有一个点的话，是每个的agent它可能想解决的问题会不太好。所以我觉得具体说哪个部分占的比例更高一点，可能是需要认证的开发根据自己的需求实际的配比。另外一点，我觉得视觉的方式，虽然说现在包括稳定性、准确度没有结果那么高。但是它有个好处是它的成本低。因为我们自己的产品，其实这两种方法都用了。实际体验下来你给他截个图，然后让他去判断，其实速度要更快的，而且投屏消耗量也会很少，至少会少一个数量级的这么一个情况。问题是GUI的这个生成的结果有些时候会不准确。比如说我图片上有一个提交表单的一个按钮，很多时候可能会去把那个坐标位置算错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，所以你看我前几周在美国的时候，就有一个也是很专业的做agent算法相关的人问了我一个问题。他说他非常不理解为什么minus要用浏览器来做这件事情。他的理解是其实后端的代码什么都可以接通，就直接实现了。如果是你的话，你会怎么回答他这个问题？因为我看你们的那个产品里面，其实也用了类似minus那套逻辑，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这边其实会有两个视角可以来去回答一下这个问题。一方面就是从技术的视角，一方面是从产品视角。技术的视角我简单说一下，用浏览器这种方式在成本上来讲会更低一些。另外一点的话，其实让agent的实验结果。那还有很重要的一个点是在说这个结果我用户是不是可信的那我们再去让用户使用A证的过程当中，怎么去给用户营造这么一种可信的氛围感，我觉得这个非常关键。其中一个非常重要的一个手段就是说我让用户可以全程看得到，我是在怎么去帮你完成你这个工作的，让他能看到其中的每个细节，而且这个细节是以他能懂的方式去get到。浏览器这种天然来讲，对于人友好的这种视觉化的呈现方式，是要比代码这种看起来黑乎乎的一个窗口来讲，然后更生动更直观的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>David算是哪一种方案？David其实就是从coding的方案，David其实都有啊，他也算有computer。对，然后minus是典型的也是coding和brows结合的对，然后最近just mark新出那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你看没看，我看了一些对你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得他是什么方案呢？跟minus是很类似吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>能稍微会有点不一样，真是。Buk我自己跑了些任务，其实我没有看到特别多的像devin或者说是max这样，就是有一个肉眼人能看到的浏览器，或者说是他是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在后端去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他应该后端也会用了一些网页的API，但没有把这个事情包给用户。所以我觉得他可能好像不是一个我心目当中的agent。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但从用户的角度来讲，你反正最后帮我解决问题就好了。我为什么要care说你到底有没有在哪儿跑一个什么东西，或者他多fancy的在像人一样在使用电脑或者使用浏览器。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个非常好的一个问题。从我的视角来讲，其实我想举个例子，就比如说像我们两个是同事，那我们两个之间应该怎么去建立信任关系呢？我觉得更多的一个办法就是假如说你给我分配一个任务，你能看到我是怎么做这个事情的，以及说你后面知道我大概是一个什么样的思路。就相当于你足够的了解我之后，你才会对我产生信任。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个点是make，就是包括像mass这种。我觉得其实一个核心的点在于说，大家觉得agent这个事儿还是不I的不靠谱。对，所以我需要在给你看到过程当中的东西，然后我需要说人不断的去引爆对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你要回答他的位置，让人时刻感受到你是在掌控一切的。是因为跟人一样，就是大家其实都会有一种不安全的这种感觉。那怎么去给人建立起这种安全感的这种边界？其实把一切做透明是对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这个在我自己用manner的时候，也会觉得他也有个缺点。就是有时候他跑着跑着他提了一个问题，我可能没看到，我就也没管。然后我本来等了可能半小时小时，我觉得他要跑完了。对，回来一看可能还在第二步问了个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这个就是一个UI上还是可以去优化的一个点。另外一个这个事情的话，其实我觉得也是可能是他们现在极端性的一个点。就是后面比如说他给你的邮件或者给你的短信，或者说跟你平时工作用的IM打通之后，其实你会以一个更容易去看到的方式去收到这个通知。所以我觉得这不是什么大问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以总结一下，其实应该所有的这些不管是什么use也好，还是什么coding也好，都是当下A真的可以用的工具。对。然后根据不同的场景，好像目前来看大多是一个组合的方案来实现一些东西。是的，然后最终你觉得比如说AI coding和现在大家讲的agent最终是不是一件事情？因为至少过去半年里面，市场上最热的拿到最多钱的两条赛道就是agent和AI coding。然后本来这两条赛道我觉得是分别的两件事情，但是越看这两条隧道，好像越未来有可能走到一起。因为现在反正很多H也在用AI coding的解决方案。然后AI coding里面也有在讲说，其实coding这个东西是整个互联网整个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一切的基础设施。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这两天我忘了看到哪个新闻说coding可能也是未来什么AGI的一个基础理论来说，也确实是这样。比如说我举个可能不那么恰当极端例子，你说不要做use对吧？那我可以你自己做个broker然后自己用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，理论上是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是说复用的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是经济性的问题，还有是时间成本的问题。AI coding我认为其实只能说是大模型的一个图。这里面其实我觉得有两个点很关键。第一个是写作，第二个是复用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在大家说一下coding，讲说我现在有一个问题，然后把它拆解，拆解完之后我的每一个子问题可能我都去写个程序把它跑起来。那相当于我这个事儿我是从头到尾去做的。但实际上这是一个非常低效且消耗成本的一个事情。其实我们去看在现代化的软件看过程当中，我们非常强调说我怎么去服用。那本质上其实是为了让这个事情更高效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以对于agent而言，最优的一个选择是我现在解决一个问题是我首先看我手边有没有一个我直接能用的工具。当假如说agent找了一圈之后，我现在没有一个我可以直接拿来用的工具。这个时候其实他可以再退化了，说我用AI coding的方案，我去现场造一个我自己独特的工具出来。所以我觉得他们两个之间是一个这样的一个关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你觉得AI coding可能是对agent的一个补充。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，就是一个很强有力的一个工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。然后另外一个问题，就是我自己是觉得当下这个市场大家对于agent的讨论和理解，跟两年前大家对于大模型什么的是有点像的。当时大家在问说会不会有一个通用的AGI模型，还是会有垂直的模型，还是说很多创业公司要做自己的小模型等等，对吧？现在其实大家也在开始讨论说未来是通用的agent还是垂直agent。我不知道你怎么看这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得我们其实现在处于也将长期处于一个所谓的垂直A韧性的这么一个时代。对我最近其实非常喜欢去举一个例子，比如说做饭这个事儿，也就很多人都会做饭。但大家的区别是说，假如说徐老师咱俩做饭，可能就是我们拿把手机拿出来，把菜谱软件打开，然后对着菜谱我们做顿饭。但可能更好的一个是说，他就像是五星级酒店一个大厨。我们能说我们跟那个五星级的大厨是一样吗？不能。核心区别是因为人家做的那个饭，可能从美观程度，从美味程度来讲，都超出我们很多倍。所以说人家是专业出身，我们可能就是一个会做饭的一个普通人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>讲回来就是今天我感觉至少从资本市场来讲，当你说你要做个agent，大家就会尤其想问说那你有没有好的算法的人，你后面要怎么做IL怎么做差异化。但从你的视角来讲，你觉得RL这件事儿跟创业公司的关系是怎么样的？或者说RL跟agent之间的关系，它最后到底怎么应用呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>L这个事情我觉得有几个点比较关键。首先是agent这个概念就是从强化学习里面出来的。所以不是说L对agent多重要，而是说你脱离了强化学习这门领域，你agent这个概念它就不成立了。所以说我们做产品的人一定要追根溯源的看，最早agent它们的定义在强化学里面是怎么定义的那在强化学里面，agent的定义其实主要有三个关键的东西。第一个就是状态，第二个就是行动，然后第三个就是激励信号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是怎么去理解呢？实现状态其实就是我们前面一直在强调的context。就是说我在经过了若干个步骤以后，当前这个agent是在一个什么样一个情况。这个地方就包括了可能是说他的记忆。他现在看到的东西，action其实就是twins。我现在有了一个判断了以后，我怎么把这个action实际的去执行。它其实就是通过函数调用的方式去执行。因为函数接口这个东西就是代码与这个数字世界交互的这么一个媒介，所以这个是action。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一个就是最后那个激励信号，怎么来理解呢？其实就是说我现在action通过函数调的方式执行完了。这是我需要做一件事情来判断，是说这一步我做完之后，我的整个的状态离我想要达到的目标是更接近了还是更远的那这个其实就是一个一跟负一的这么一个区别。就是说我需要去通过这种激励信号来判断我应该是往左边走还是往右边走。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那对于创业公司来讲非常关键的一个点是你如何去让你的产品变成一个环境。因为你只有有了环境，你才能够去描述说，商学里面的那个状态是什么？以及说你可选的这个行动空间有多大。那这个时候就是说你程序里面我follow这个事情，就是说你有多大的这个节点，它其实是由你的这个行动空间去决定的，以及说你怎么去定义你的结果。那为什么一定要把结果定义好呢？因为只有把结果定义好了，他才能收敛。只有我能收敛，你才能够让大模型去判断是说我一个行动做完之后，我离你的这个目标是更近了还是更远。这时候你才能够去设计这么一个激励信号，不断的去让你一步两步、一轮、两轮、三轮的去让agent自我迭代，直到实现了那个目标。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说具体的建议，我是建议所有的A的开发者或者说产品设计者他们去看一下强化学习之父萨横写的那本书。你只有看完这本书之后，或者说有了这样的一个myself之后，你才能在设计产品的时候不断的去思考，不断的去调整，去定义你是一个什么样environment。在这个environment里面你的程序之间的状态是什么样子的，然后你的行动空间有多大。通过这种方式，我觉得才能够去定义出来一个好的能够自我迭代，然后能够去基于动态的情况，去不断的修正自己的这个路径，最后能够实现用户目标的这么一个程序出来。所以说我觉得就是你不理解强化学习，你就很难理解被认可到底是什么。你很难理解这个到底是什么，你就很难去设计你的产品长什么样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们屡一下你刚才说的那几个点，第一是状态，对，第二是就类似于行动。对，然后第三个是奖励函数。对我觉得第二和第三个其实是相对好理解的。因为哪怕不是agent领域里面，包括所有的模型领域里面，大家都在讲说，其实最重要的是evaluation体系的搭建，对吧？就是评估体系，你这个东西的标准等等，这个东西肯定是特别重要的一部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后多柚子其实我们刚才已经讲了很多了，那不外乎就是在现有的环境之下，我不管是用work flow，还是用agent，还是agent去使用word flow，还是用各种brother use，还是用coding，反正各种方式都上，怎么样能把它解决好？然后第一个它的状态跟环境，或者说就是context这件事情。那从这个角度来讲，IDE肯定是一个特别好的环境。但minus那种其实浏览器你很难讲它是一个独好的环境，相对不是通用的一个工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对于minus来讲，浏览器它的二不是它的环境，它的环境是他的刘班图那个系统下面的那个目录，我觉得是这个样子。首先我们来讨论一下怎么去定义一个环境是好的还是坏的。其实刚才我们在讲相关数据里面的概念的时候，我们讲奖励信号环境的核心作用是提供奖励信号的反馈机制。所以我们要去看一个环境好不好，我们得要去看这个环境能不能基于我行动的结果，对这个结果提供一个奖励信号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那ID为什么是好呢？是因为它的学名叫做集成开发环境。就是我A智能现在生成一段代码，我这代码立马我能在这个环境里面我去运行一下。那这个时候代码它如果出错了，跑不起来，那这时候这个IDE它其实就会生成一个错误信息。这个错误信息天然就是一个反馈信号，那优盘图它提供不了这种反馈机制，它其实是更多是一个容器。你为了构建起来这种反馈信号，你可能还需要围绕乌班图，然后去自己在上面搭一套东西出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK，然后你自己是之前做了一年多的对吧？对，所以你在做了一年多里面，你觉得跟今年比如说新进来做的人对这件事的理解。因为我知道你也聊过很多做医生的人，对你觉得大家认知上有哪些区别吗？或者有哪些是你踩过的坑什么的，可以跟大家分享。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有一个非常重要的一个点的话，就是一个好的agent应该是尽可能的去不让用户动脑子的一个产品。这个怎么理解呢？就是说我们可以来看上个世代产品怎么样子。上个时代的话我们会看到一个产品功能越多，它就能够解决的问题越复杂。但用户学习理解使用这个软件的成本会越来越大。就是用户的整个认知负担是会不断被加重的。但是agent我觉得不一样，agent我觉得应该是一个让用户越简单，不用动脑子，然后就能够用起来一个产品，然后他越强大，他应该更懂用户的偏好。所以我觉得整个A的这个产品设计应该是得往这个方向去走的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像是我能积累更多的context，我有更多的用户的数据，用户的意图识别，我还知道怎么样在适合的时间问出对的问题是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说从这个角度出发的话，我觉得其中我自己的一个跟大家可能现在有些不一样的观点是。大家现在可能会想说，chat到底是不是一个对于一个来讲好的一个交互形态。我认为其实这个聊天框就是最最重要的一个交互入口。因为我觉得对于一个agent产品来讲，用户交互的自由度是远远要比用户交互的准确度要来的。关键就是用户想怎么讲都可以，对吧？如果你一旦限制用户的交互自由度，对于用户来讲就是说他得要习惯你，而不是说你习惯用户。那这个时候用户的这个认知负担就加重了。所以我认为A类的产品，用户交互的自由度第一重要的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从目前看到形态里面来看，什么样的一个形态是最有助于用户交互自由度的提高呢？其实就是这么一个聊天框，他说什么都行，那难道用户交互的准确度不重要吗？其实也很重要，就是现在他讲说我需要写到一个很好的一个prompt，这个其实就是说你准确度的问题。但是我觉得你作为开发者或者说产品设计者而言，其实有很多的方法能够辅助提高这个准确度的那比如说him loop，包括说你可能记录了一些用户的偏好。其实现在devin也好，menacing也他能够积累一些知识下来，那知识可能就是用户的偏好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实你可以在产品设计里面不断的去做一些向用户提问的问题。比如说他给他提供了一个比较模糊的东西，然后你去跟他不断的去澄清，然后具体然后detail到最后这个东西逐渐就变准确了。所以从这个角度出发的话，由于你有很多的方法可以提高用户交互的准确度。其实这应该是你作为产品开发者需要考虑的事儿。你不能把这任务交给用户，我们要做的是怎么让你这个产品更智能，让用户就像一个非常幸福的小朋友一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能够用你的产品。这个就又有点所谓的web coding的那种感觉了。就是让用户在那个web里面心流的那个状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你可能感受不到时间的流逝，你不需要动脑子，你就感觉自己坐在那儿就是一个非常放松的一个状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之后事情就做完了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后事情就做完了。我觉得agent的就应该做到这点。所有实现不了这个承诺，或者在设计上没有这种意识的agent的产品，我觉得都是伪agent。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说聊天框就是最好的交互形态，你不需要加额外的接口，你不需要再加其他的组件。你只需要做的事情是你把合适的一个组件在适当的时机跳到用户面前，然后让他去交互。就比如说可能你在后台设计的底层代码实现里面可能有200个组件。那这200个组件可能对部分用户来讲，他可能一直只能看到10个。那剩下190个他用不到，用不到就意味着不会影响这个用户的理解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我是同意的。我觉得如果纯是聊天框不一定是最高效的方式，但我觉得他在适时的时候推出一个合适的产品界面，能让用户去选，应该是一个很合理的选择。所以总结一下，我觉得首先意图识别是特别重要的，首先得知道用户到底要干嘛。是的，但是我觉得context是两个互相印证的。就是我如果context足够多，我可能能猜到用户要干嘛。是的，或者用户要告诉我要干嘛以后，我还是要收集更多的context来帮助用户完成，以及说我要知道中间有哪些问题是要提出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这里面很重要一点，就是你自己的模型得有能力判断当前的状态是不是足够的。如果不够，你应该在环境里面，通过环境给你提供的API自动去get。无论是rag也好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者什么样的方式也好，这个我觉得跟模型的智能是相关。另外可能也是跟垂直领域的能耗是相关的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这里面有一个点就是system prompt。Prom其实就是你作为这个original开发者，你需要去负责的东西。这个prom基本上现在。像我们看cursor也好，winsor也，你会发现他们CD pro非常长，几千行。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是预制的problem。对，而且我觉得这个确实在垂直领域里面才成立的东西。因为我只有知道他上来要干嘛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我才能写好这个system。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我必须要了解这个领域，我可能才能写得更好。比如说就举研究的例子，我就知道说他肯定是要去搜网页，肯定要去搜集一些数据跟文章。然后他肯定要把其中的一些东西要摘出来，把这些东西再放到不管excel还是一个PPT1个什么这样报告里面。我知道他一定会做这几步，所以我可以针对每一步去做优化，去提前预制好我的prompt等等这些东西。是的，但如果这个东其实它不是一个比如说研究类的A症，它是一个通用A证的话。这个人上来他有可能是想做研究，有可能想做个动画片，也可能想生成个什么东西，那这个准确率一下子就下降了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为它可能尽管每一步有90%成功率，但是若干步骤以后，它就是一个陈述的一个关系，而不像垂直认的。首先第一个，它可以把每一步的成功率提到百分之百。第二个，它哪怕出现问题了，他也不会说上一步会影响下一步的结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我记得之前好像是苹果还是谁，他做过一个事情，就是说就是你打开这个网页的上一步，你是在看什么网页。也是一种context。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，其实就是我们讲connect里面包括历史的对话信息。其实历史对话的信息只是说人看到的历史对话信息。其实对于机器而言，它在你没看到的后台可能访问了很多个网页。相当于说我当前的这个状态，其实由我过去做的所有的事情所决定的那我过去所有的这些事情，包括我做了什么，我看了什么，我发了什么，整体而言构成了现在的这么一个状态。这个状态的整个集合其实就是所谓的上下文，就是context。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后包括OPI最近刚出的那个它的记忆系统其实也是一种context。对，所以我们我觉得如果骑手的时候能有更多的context肯定是最好的。你看我前几周跟张旭光吃顿饭，我觉得他提的一个点就特别好。他就说当你点开某一个APP的时候，就打开那一下，其实就已经提供了海量的context。是的，我点美团，我就告诉他我要点外卖了，然后我点滴滴我就告诉他我要打车了。然后这个产品里面的所有的东西是基于这个context来设计的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为这个样子的话，相当于把大家去拉到了一个共同的下面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就把意图识别收集到，然后再在跟他交互合作的过程当中不断的去积累context。是的，然后这块也有可能是有用户的信息，有各种你在执行流程当中的信息，然后有各种网站，各种环境的信息等等，对吧？所有的这一切都集合起来，然后去继续去识别意图，然后去判断中间哪一步可能会遇到什么问题，然后再问用户准确的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是我们说你想更好的了解一个人，你就去看他的过去。你更好的想了解用户意图，你去看它从哪里来，它中间的路径是怎么样，你把这个路径你都需要保存下来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以google很早就在保存cache。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这个就是google在AI native时代最大的竞争优势。它是有一大堆的用户的点击的数据，然后可以去帮忙去分析意图的。对，就包括其实大家讲说到底数据对agent重不重要，数据这个东西还是很重要。但是我觉得有一个限制条件是说它得是高质量的数据。那什么是高质量的数据？高质量的数据是说我不仅要知道数据的输入是什么，我得要知道结果是什么。我同时更要知道从输入到输出中间发生哪些事情，中间的这种各个变化的数据是什么。只有这些数据综合在一起，就是它其实是一个数据序列，这个就很关键。比如说下围棋，我只知道这一步棋怎么下不关键，重要的是我得知道前面他100手棋是怎么下的，最后才可能说下这步棋，从而我能够推理到后面几步棋它是怎么样子。这个时候整个的这个过程的数据，这个棋盘盘面怎么来的才是最关键。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们再回到刚才那个地方，就是有没有技术过产品上的点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得product model的很重要，就是你得要去能够去理解到现在模型的边界上限在哪，哪怕是现在最先进的OE还有就是3.7也好，你得要知道在极限情况下你想做的那个事情，他能不能给你做到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个顺便可以聊一下你们现在在做的产品，你之前给我说过一个你们的demo。对我觉得这个点上可能就是你刚才讲那个相关的一个延伸，就是你们选的一个方向是基本上已经实现了一个东西。对，其他的好多做agent的，我觉得还是在偏讲故事的阶段。所以你可以给大家介绍一下你们目前的一些产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们的产品其实是一个data agent。然后我们的目标是把整个的数据收集，然后到数据处理以及到最后基于数据的行动，整个链路都闭环。然后我们现在其实是在数据的收集处理这方面，其实已经做的比较好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大概的它使用的场景会是怎么样的，能不能举一两个例子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先第一个场景的话，就比如说是你需要去找一些销售线索。比如说我们的一个用户，现在是他们有很多的开源用户，他们希望知道这些开源用户是哪个公司的。因为他们很有可能想把他们自己的商业化的版本去卖到这个公司里面去。那以前这个事情是没有办法做的，就是你只能可能人肉的一个一个去分析。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但现在的话，模型是能够做这个事情的，具体怎么做呢？其实就是我们会进入到用户的github的主页上面去。在主页上面去分析他有没有一些可能跟他是哪个公司的一些线索。比如说代码提交记录，或者他自己的一些社交媒体账号。如果有社交媒体账号，我们会进入到社交媒体账号里面再去看他有没有公司信息。就跟人去手动翻它是一样的，我们是模拟了人的这么一个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK还有别的例子吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一个例子，就比如说是找到YC他们最近几个batch的公司列表，然后再找到公司列表的这个创始人，然后再找创始人的twitter去关注一下，然后给他们发个私信。由于我们用一些AI coding的一些技术，所以我们能够保证这个流程是百分之百准确的。实际我们也跟TP预测之类的产品，还有是mesa的产品对比了一下。他们其实并不能保证这些公司一个不落的抓取下来，这是一个点。第二点的话，其实我拿到数据以后，我是需要有进一步的动作的。就是我可能要去跟这个公司的创始人去建立一个联系，跟他reach out一下。但像depuis这样的产品，它的报告生成完就是一个报告，在没有后面了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Windows他们现在也不能做后面那一步吗？他们好像可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Minus的话现在就是没有办法保证成功率，因为它是在中间动态随机生成的代码，它需要不断的去做debug跟调整。对那所以你们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从技术上是怎么解决这个问题？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我们相当于自己内部做了很多的这种小的兔，然后再让他去调用这些小的two的时候，因为这个two我们自己内部人士已经验过测过的，所以他能够去保证百分之百准。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你给他提供了一些更好的工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，而且这个工具，其实因为我是程序员出身，所以我非常喜欢用一个词叫复用。如果有一个工具，我下次用的时候，我不是把它从头到尾重新写一遍代码。而是说我把已经测试过的工具我用起来之后，其实效率是更高，而且成本更低的。但像minus的话，现在它没有这个机制的，它每次都是打开那个IDE，然后从零开始写代码。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，所以今年就还是AI coding的能力，还不足够百分百的准确率完成这件事情。所以是人先去做了很多工作，然后再让AI去调用这些工具，会是一个更好的结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这就是你要选择通用性还是准确性的这么一个区别。你越通用就意味着你的方法要更泛化，更泛化就意味着它随机性更高。但我觉得这是炊豆腐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是因为如果很通用的话，团队自己要写超多量的一些工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，所以我觉得核心还是你怎么去更好的去利用这些工具。比如说发邮件或之类的，你可能这种场景比较简单。但如果你写一个，比如说我们讲你数据库，你有可能从头给他写一个吗？不可能。你更好的是想我怎么去更好的方式，然后以MCP也好，或者什么样其他方式也好，我去在我的任务里面跟数据库。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做交明白。然后我就紧接着想到另外一个问题，就现在也开始有人在讲说，work flow是不是未来要被agent颠覆掉？如果这么讲的话，可能至少相当长时间内玩flow还是非常有价值的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我觉得可能跟人性有关系。大家再去聊一个事情的时候，非常希望去把一个什么东西踩一下，创造一种对立的视角。然后无论是从流量角度或者怎么样获得更多的眼球。实际上我觉得agent跟wolf LOW长期会处于一个共存的一个状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>WAR flower跟应用的核心的区别其实很简单就是。One flow是人驱动的，agent是AI驱动的那人驱动的好处是什么呢？好处就是它一定是稳定可靠、靠谱的。但是它的缺点是在于说它不够泛化。Agent的特点是反过来了，就去它足够的泛化，它能够解决我之前没有想到的问题。但问题在于说十次里面它可能会有五次把这个事情搞砸。所以我觉得可能AI会负责20%更开放的问题，但剩下80%可能是更常见的问题。换言之，其实AI主要负责常委会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，所以你最终你们现在在做的产品跟其他的那些agent的区别，你觉得是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我判断agent不同的标准是我去看他们的deliver result，而不是说大家好像看到一个事情都能干。那从deliver result的角度去看的话，你会发现James mark也好，deep reserve也好，mada也好。其实最后给大家呈现的主要的形式跟内容其实就是一个报告。当然minus要做的更深入一点，他们有可能还可以呈现图表或者说是简单的一个网页。但我觉得这个只是报告的另外一种表现形式，但本质而言，它是给你提供一个报告。所以我觉得从这个角度出发，其实我觉得大家都是调研agent，那这个是一类。因为至少我们目前没看到这个minus可以帮我去美团下个单，或者京东买个什么东西。另外一类的agent就是所谓的coding agent。那扣件式的D的结果就是代码本身。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你刚才定义挺好的，就是可能像minus的bug什么，它其实属于调研类agent。对，然后还有一大类可能是coding agent。那你把自己定义成什么类？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我自己其实是个表哥agent。我们之间的核心区别是说大家在去分析问题的时候，一般来讲会有两种my set。第一种就是我可能只是说电信的去分析一下某一类问题。电信分析一般来讲，我可能就是用deep a research之类的报告，然后我去看一下大概是一个什么样一个情况，建立一种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一种分析场景其实是定量的分析，我需要知道一个非常准确的一个数字，那这个数字怎么能保证这个准确呢？就一定是我得要分析那个数据源是准确的那这个数据源一般来讲就是一个比较完整干净的一个表格。我们做的事情，其实就是把各种各样的数据语言首先变成一个完整的表格，而不是说我就是用一个什么搜索的一个接口，拿到各种各样的网页去做总结。对，我们不是的。我们是先把各种各样数据变成一个结构上一个表格，然后再拿这个表格来去做下一步的分析。所以说我们之间是一个定性分析与定量分析的一个差异。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你的核心是中间会有一个AI生成的表格。对，但你这个表格里的，尤其是里面数据什么的，会遇到AI我们经常讲的那些它它的幻觉什么这些问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正我们在工程上把这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>已经解决了。OK然后我想到了一件事儿，就是是不是AI coding它相当于是大模型的一个翻译跟一个助手的感觉。就是是不是所有的任务都中间可以加1点AI coding来解决正确率的问题，来解决所有的幻觉等等的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是的，用现在比较时髦的话来讲，我觉得air coding就是大模型的一个灵巧手。对，因为我们现在都在讲说，如果让大模型不断的去做一个任务规划的话，一旦它每个任务的成功率是90%，那可能十步以后它就是一个0.9的10次方，它成功率就很低了。这样的话我们怎么去让上一步的失败不影响下一步，那可能我们就需要中间以代码的形式运行它。因为代码我只要能保证90%成功率，有可能十次里面九次成功，我只是把九次成功那个代码我留下，然后做一个正确的case，然后再进入到下一步。那这个时候其实就能保证每一步都百分之百准确的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很合理。但因为我不知道你们从实际的操作和经验来讲，是每一个大模型的操作都应该先翻译成头顶，翻译成一段程序。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个地方还是想拿MCP来说例子。因为MCP背后调用的那些所有的to本质上全是代码。对，所以从这个角度来回答徐老师你的问题来讲，我的答案是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想再回到我刚才问过的一个问题是说你自己做了一年多agent然后你有什么能跟别人分享的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个问题其实没讲完，刚才其实提到了p model fit。第二点我觉得很重要的就是你得想明白你给用户到底deliver的result是什么。那你只有把result想明白了之后，你才能够不断的去通过设立起反馈的一个激励机制，然后不断去优化这个结果。因为如果你这个事情想不明白，他就不收敛，不收敛就意味着你可能deliver那个结果就是一个比较差的一个质量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说像我们做data的这个场景，我们其实试过Operator，试过真Spark，试过GLK，你会发现它确实也能帮你。比如说YC刚才提到的例子，他确实演的深圳YC公司的表格。但是你会发现那个表格永远缺一些公司的。而且你让他去进一步的，你想去知道公司的创始人是谁，创始人是哪个学校的，工作了多少年，他的推特账号是谁，它是完全解决不了问题。其实我已经有了一个基本的数据之后，我在这个数据上我进一步去丰富我的数据。它做不到。你只要把结果想明白了，你才能够去不断的在在基于第一步的结果的基础之上去优化第二步结果。哼就是一旦你把结果想不明白，你会发现你这个东西就算不好，变成一个所谓的看起来有点像通用的一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得另外一点还很重要的就是我觉得做agent的人要解决两个信任的问题。第一个信任的问题是你作为agent的开始，你要足够的去相信大模型，那这个点会产生什么样的影响？如果你不相信大模型，你会做一个事情，就是说你不断在代码里面加一些什么限制条件。比如说就写prompt prot说你就是个谁谁谁，你只能干某某事情，不能干别的事情。那这种事的影响在于说，你会发现大模型的整个的泛化能力，其实被你人为的影响变低了。那用现在我自己的一个词儿来讲，就是说你会导致你们的agent对大模型的智能利用率下降。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我们跟人聊也经常会发现确实有这种例子。就是本来在大模型上你是想去做更好，然后封装东西，最后反而做了半天，可能不如我把这个需求直接放大模型里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，这个就是由于你自己对大模型不够的信任。你作为开发者你会产生一种内心的不安感。这种不安管会促使着你用一些传统的所谓入base的方式解决这个问题的时间。最后你会发现这是在开倒车。所以说agent的开发者需要去解决自己内心对弹幕牺牲的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一个点就是你得一定要想好，你的这个产品该怎么通过设计去解决用户对你结果的信任。很好的一个例子的话，我觉得还是deep sik r1。就是在DPCR1之前，其实我用一些像DPC这样的产品。他甚至那个报告我在看到的第一眼，我其实是会以一种更批判的角度去看，说这个东西到底是对的还是错的，为什么呢？是因为我不理解他这个东西怎么来的。但是R一出来以后，他把中间这个raining的过程告诉我，在我心里上会让我更舒适的感觉说我看到他怎么想的，所以我更愿意去信任这个结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我前几天跟朋友聊，我就讲了一个事儿，我说其实manus很大的一个价值是它给所有的agent创业者打了个样。也许过一段时间以后，大家回头看，就是man这个产品现在就好像当年的开店AI一样。就是让大家知道说OK上一代的大模型，最适合的就是chatbot，chatbot就是类似CEI这样的产品形态，对吧？就是对话题大概就是这么做。然后大家在这个基础之上去不断的怎么样改。然后现在的agent可能都很多都是在menus那个基础上去不断的去修改。我不知道你怎么看这个问题？它是不是一个比较通用的一个产品形态呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是的，我觉得minus是在damming的基础上，在UI世界上更进一步了。其实核心就是他把中间所有的细节都暴露出来。人看到这个东西之后，他心里面就会存在一种满足感，更安全感。是就是你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于未来几年A正的发展会有什么预测吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得以现在AFM速度去预测几年这么一个时间跨度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得太难了。我预测半年到一年的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我其实想分享一个框架，就是跟大家一起思考这个事情。首先想要去预测，一定得要先去抓关键变量。Agent这个事情里面的关键变量是什么？其实前面也讲到了，区分agent的方法是去看它的结果的好坏。通过结果的好坏来判断它到底是不是一个更专业的一个agent。结果其实就是上下文contest加LM。所以说我觉得核心变量就是这两个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你想认真的突破，那你就要contact或者说IM至少有一个是突破了的。首先来看IM，IM的下流突破，我觉得基本上也就是看GPT5为什么时候出来。我觉得从时间点上来讲，我觉得可能GPT5是在今年年亿左右会出来。可能年底的时候或者明年元旦之后，我们可能发现agent的能力会更进一步。这个是一个节点。另外一个节点的话就是说GPT5出来了以后，什么时候成本会变成溢出来的5分之1，甚至说是10分之1，这个过程可能也得需要一年的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就比如说deep stick are three maybe.</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在不知道它会有多大的突破因为本质上我觉得这个事情还是得需要finish model去做突破的。那也就是说可能比如说什么时候DP这个V4出来，然后基于V4可能我再生成一个什么样的一个推理模型。所以我觉得这个是一个你从模型的角度去看，第一个更先进的仿电视model什么时候出来，以及说仿电视model的成本什么时候能降下来。因为仿真模拟出来了之后，我们就能做demo了，demo有了之后大家就有预期了。但是只有到成本降低之后，这个东西才能规模化使用。所以我觉得接下来真正很好用的颗粒验证的以外的A真的出来。我觉得可能还是得到26年的下半年，就是大规模的大家真正能用上，这个是一块。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一块的话，我觉得就是从context角度来出发。其实也可以来看个例子，就是cursor他为了把整个coding这个事情的慷慨做好，围绕VS code其实做了大量的二次开发。他们是从22年开始，然后到去年下半年，其实中间是花了一年半的时间。这里面我觉得工程量是非常大的，我觉得这也是大家现在普遍的我认为的一个误解。就是我觉得agent这个talker，其实我觉得不是agent里面的这个工程复杂度，我觉得是远远超出大家想象。你想让agent在contest这个层面去做突破，你是需要大量的工程上的尝试跟积累的。所以说我们从现在这个时间点去看的话，假如说deep这个出来之后，大家第二天立马开始干这个agent，然后优秀的团队干得快点，我觉得也得要六个月，就慢一点就可能就一年了。所以说可能到今年的Q3，我觉得可能会有一些更好的agent的一个产品出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我再补一个问题，因为你都在讲到说判断你agent就是它的result怎么样。但result好的就一定是说这个agent的公司好吗？因为有可能有的公司它就是通过各种手段，可能它就是某一个prompt写的特别好，然后它的result在阶段性就更好。所以我想说，如果假设你是投资人的话，现在你面前有好多做agent的公司，你会问哪几个问题来判断这家公司的好坏？因为投资人现在遇到各种公司，你来的就是一个挺好profile的founders，然后可能有一个算法或者什么技术的挺好背景的一个人，然后讲说我要做某个领域的agent然后其他的讲的东西，其实大差不差。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也都差不多。那其实我们去问就一个问题，我就会看他们团队里面有没有人去看我前面提到的那个沙特那本书。因为我觉得你只要看过这个书，你就一定会有曼在的有这种message的人，他一定不会去能够长期容忍我用一些非常符号主义的那套方法去达到一个结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你这个要求可能有点高了，有很多人可能凑巧就没看过那本书。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我其实就会可能问一个事情，就是你的产品里面的环境反馈的激励信号是怎么设计的？对，就是到底在你这个产品里面什么样子的一个行为是一个好的行为，什么样的一个行为是一个差的一个行为？我觉得这个问题很关键。因为有了这个信号之后，你才能够让大模型去迭代。就是说把上一轮的结果跟环境提供的这个好与坏的评价丢给大模型，还是大模型大家去迭代一轮。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从这个角度来讲，确实通用好像就不如垂直通用，你很难定义这个东西了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这里面补充一个点，就是说大家现在觉得有大模型之后，结构化数据这个事情不重要。不，它其实还很重要。因为大模型的输入我们可以是非结构化的。就是我把什么乱七八糟的文档、文本、PDF图片我一股脑塞进去。但是大模型的输出一定得是结构化。因为你只有结构化了，你才能够去用代码或者说是规则的那一套东西去校验。要不然他是没有办法去校验的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说你的这个激励信号其实最后在代码上体现来讲的话，就是你大模型里面输出的结果里面可能某个字段的值到底是什么。对，就是你这套标准是什么。所以我觉得让我问话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会问这样的一个问题，minus的基地信号可能是什么？如果你负责的minus这个产品的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我想不到。因为现在他们官网的那些例子我看下来，其实本质上的判断还是在让大模型本身或者我写了另外一个prompt，然后去去判断说这个东西是好的一个结果还是坏的一个机。但实际上如果大家去用XGB4G的产品，你让他比如说我最近在写PPT，写了一段开场白，然后让他不断优化开场板。我给他说不满意你改，不满意你改。你只是说提供这样的一个feed bag的话，你会发现他最后是陷入一个奇怪的一个死循环里面，它它会出不来的。所以一定得要给他提供大模型本身所不具备的那些反馈信号，我觉得他才能够把这个结果从这个死循环里面跑出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以如果我问你这个问题，你们自己产品的反馈信号是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我可以讲一点，就是我们取数据这个事情不存在designation。就是因为我们其实让大模型负责的是整个页面结构的分析，然后还有页面与页面之间关系的分析。通过这些分析的结果，我会生成一段脚本，然后正儿八经的其实往下来收集数据，生成数据的这个过程其实是用代码实现的那代码其实就是一个典型的能够给我提供反馈信号的这么一个机制，这是一个点。另外一个点的话，表格这个东西其实很直观，一个地方是空的，我一眼就能看见，那其实这个也是一个反馈信号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，很合理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得对对对，因为那个报告不一样，报告那个东西就是你很难去精确的去描述到说哪一行哪一个字怎么样。但是表格的话由于是个结构化的，所以我是可以去描述它的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，我觉得今天我们其实讨论了很多agent的相关的问题。我相信把那些大家核心关注的问题都比较快速直接的去cover到了。然后包括文峰也提了一些他自己做这么长时间agent的一些经验。我最后一个问题，给大家三个理由说同样场景之下为什么用你们而不用minus或者S4或者其他的工具产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得都不用三个，就是你只要有对于高质量数据抓取的需求，你会发现现在市面上的A站的产品，只有我们的产品可以做到就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>百分百准确率。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，百分之百准确率，然后百分之百稳定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>百分之百不给你丢数据。OK. 所以什么时候大家可以用到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这周的时候我们就会开放线上的waiting list。差不多大家注册了waitings list以后，可能在2到4周的左右时间，你就会能够正儿八经的使用我们的产品。大家可以去访问我们的官方网站，实际体验一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以防大家不太知道SHET0点com.</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是表格的那个单词。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK好，谢谢文峰。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，也谢谢曲老师。</p>]]></content:encoded>
-            <pubDate>Sat, 19 Apr 2025 14:00:00 GMT</pubDate>
-            <guid>68032a401f1db84a563d5d83</guid>
         </item>
     </channel>
 </rss>

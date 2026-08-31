@@ -4,7 +4,268 @@
         <title>十字路口Crossing</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577</link>
         <description>关注科技、互联网、AI 的播客</description>
-        <lastBuildDate>Mon, 24 Aug 2026 04:34:05 +0800</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 07:45:10 +0800</lastBuildDate>
+        <item>
+            <title>AI 下半场，不会只剩一个超级模型｜对谈 Kevin Ding：Pyromind 创始人/CEO</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a90fc5e1352af56ff3d48af</link>
+            <description>➤ 本周「十字路口」的嘉宾是 Pyromind 创始人 / CEO Kevin Ding。Pyromind 所在的赛道，常被称作 RL as a Service，也就是强化学习即服务、或后训练即服务。公司前不久完成天使轮融资，投资方包括高瓴、百度风投、蓝驰、Atypical 等机构。
+但在 Kevin 看来，RL as a Service 只是起点，不是终点。他在节目里说，Service 只解决了一半问题；真正要让 Agent 在生产环境中持续改进，还需要把训练、奖励、反馈、部署和数据回流串成一条可以自动循环的管道——也就是 Pyromind 正在押注的 AutoRL。
+我们也聊到了 Pyromind 的真实落地场景：工业质检、工艺参数优化、GUI Agent、Coding Agent，以及企业里那些 ROI 明确、数据足够富集、好坏标准相对清楚的生产问题。
+同时，这期也会讨论一个非常现实的问题：企业 AI 到底怎样才能不是项目制咨询？
+Kevin 坦诚，第一次进入客户场景时，FDE 的工作不可省：要理解数据制式、评价基准、业务流程和奖励信号。但 Pyromind 追求的是让这部分工作在相似模态和相似场景中逐渐递减，把一次性交付沉淀成可以横向复制的 AutoRL 管道。
+Kevin 重点分享了他们的新工作 PyroDash：一个由 4B 小模型、强基座模型和协作引擎组成的大小模型协作架构。Kevin 认为，这背后对应的是一个更大的判断：需求世界是多元的，不是所有问题都应该被收拢到一个中心化大模型里解决。
+这期适合所有关心 AI Agent、后训练、企业智能、工业 AI 和 AI infra 的朋友。
+🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
+📒 文字版将发布于 @十字路口Crossing 公众号。
+00:23 快问快答：年龄、毕业院校、MBTI、星座、一句话介绍、融资情况、收入及利润、团队规模、创业前经历、PMF 跑通了吗？
+01:55 为何 AI 终局更像 Agent 蜂群而非超级基础模型一统天下？
+03:44 为什么 RSI 在这一年变得重要？
+05:21 RL as a Service 解决了哪一半问题？
+08:32 Pyromind 如何优选最适合 AutoRL 的客户？
+10:16 初次进入场景为何 FDE 不可省，后续工作量又如何递减？
+22:13 如何能让工业客户算清 ROI？
+23:22 哪三条标准决定一个企业需求该接还是拒绝？
+26:29 企业 AI 为何绕不开成本、效率与隐私的不可能三角，后训练如何破解？
+27:03 PyroDash 怎样让 4B Worker Model 与 Base Model 协作，兼顾效果与成本？
+29:23 Harness 能改善流程和速度，但仍解不了哪些企业的关键需求？
+34:02 两个 FDE 如何支撑十几个 B 端客户，Pyromind 又把哪些工作收回产品层？
+38:20 模型越训越好、训练需求越少，Pyromind 究竟赚得更多还是更少？
+40:58 中国 SaaS 难做，Pyromind 为何认为 AI ToB 能把 ROI 重新算清？
+42:06 云厂商也能做后训练、又掌握算力，Pyromind 会被吞掉吗？
+47:47 Hugging Face 上小模型下载仍占主流，为什么需求不会都归拢到一个 Base Model？
+欢迎订阅「十字路口」：
+🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
+🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
+👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期节目邀请到 Pyromind（文稿中口述为“para mind/paramount”）创始人/CEO Kevin Ding（Kevin丁）。Kevin 94年生，曾在阿里云负责弹性 GPU 实例与训练 GPU 集群，后于 2024 年创立 Pyromind，专注 RLS Service（强化学习及服务/后训练及服务），近期完成由高瓴、百度风投、蓝驰、ADBO 参与的天使轮融资。对话围绕 AI 下半场的路线分歧展开：是走向一个中心化的超级模型，还是走向“agent 蜂群”的服务化形态。Kevin 结合自身从 RL service 到 Auto RL/RSI 的产品演进、工业客户实践，以及最新开源工作 Paradise，阐述了他对后训练、奖励解耦、隐私和分布式需求的理解。</p>
+<h2>关键要点</h2>
+<ul>
+<li>
+<p><strong>核心判断：AI 下半场不会只剩一个超级模型</strong>。Kevin 认为 ASI 的终局形态更可能是服务化的 agent 蜂群，而非单一中心化模型。理由是现实世界的场景无穷无尽且持续变化，“用一种有限参数的模型去泛化掉无限的场景，在 Transformer 架构上实现还蛮有挑战的”。</p>
+</li>
+<li>
+<p><strong>创业是逐步浮现的，不是一开始就想清楚</strong>。Pyromind 最初只计划做扁平的 RL service，但后来发现这“只解决了一半问题”——训练之外还需要解决奖励问题。于是推出 EchoMind，把“生产数据回流 → 奖励结构 → 训练 → 部署”的整个 RSI 循环自动化。</p>
+</li>
+<li>
+<p><strong>产品双层结构</strong>：Studio 是训练 infra 服务，用户只需配置逻辑节点和 DPI/TPI，物理扩展由 Pyromind 完成；EchoMind 则向用户提供一个代理 URL，插入 agent 后自动抓取轨迹、构造训练 pipeline、迭代模型并部署回去。</p>
+</li>
+<li>
+<p><strong>客户选择三条标准</strong>：ROI 必须可衡量、不偏离研发主线（动态场景）、场景在企业内和跨企业有扩展性。最典型的客户集中在工业领域，如英伟达上游企业和 PCB EDA 厂商，因为数据富集且好坏标签天然明确。</p>
+</li>
+<li>
+<p><strong>工业的两个“甜品区”场景</strong>：工艺改进（如电镀参数优化，把老师傅经验迁移到模型）和多模态质检。量化效果：质检误报率在约一万张样本上从 23% 降到 8%。</p>
+</li>
+<li>
+<p><strong>商业模式与定价</strong>：Studio 按资源（CPU/GPU/存储）计费；EchoMind 按场景价值与“cota”（类似 credit 的资源单元，非 token）计费。ROI 明确的场景下，单体客户年付费可达百万至千万人民币区间。</p>
+</li>
+<li>
+<p><strong>关键方法论：奖励信号要能解耦</strong>。Kevin 强调，横向可扩展的产品必须找到“无状态”的部分——即 Auto RL 管道和奖励结构本身，它可与生产上下文解耦。不能把 A 客户的状态打包进产品再卖给 B 客户：“如果你的环境跟用户上线耦合在一起，那它就是一个有状态的环境。”</p>
+</li>
+<li>
+<p><strong>Paradise 架构：4B worker model + 任意 base model</strong>。Paradise 是一个协作式引擎，4B 小模型在端侧（Mac 可运行）处理简单问题，复杂问题路由回 base model。训练分三阶段：难易分类、冷启动路由、GRPO 过程，奖励结构含正确性和带系数的成本。效果上 benchmark 提升约 10%，小系数下可省约 20% 成本；下一步规划加入“隐私奖励项”，对敏感 token 做 masking 后再路由回大模型。</p>
+</li>
+<li>
+<p><strong>Harness 解决不了隐私，参数必须被修改</strong>。Kevin 认为 harness（工作流、skills、memory）本质是在 context 层面工作，“天花板存疑”。本地部署开源模型做路由也无法保证结果质量，只有通过训练修改模型参数，才能解决企业私域问题。</p>
+</li>
+<li>
+<p><strong>与同行差异</strong>：a play compute（原话如此）走企业内纵向全包路线；DeepMind 系创业公司“那个专家”与 Pyromind 理念更接近，横向只做训练/RL，与 marker、clay、Harry 等有合作。法律等垂直领域已出现直接竞争。</p>
+</li>
+</ul>
+<h2>独家细节</h2>
+<ul>
+<li>
+<p><strong>最有成就感的时刻不是拿融资，而是和 CTO 关小黑屋论证</strong>。Kevin 说和 CTO 一开始对 Paradise 架构观点不一致，经过多次“关小黑屋”式的内部辩论后达成共识。他把这种多视角碰撞类比为 RL 训练：“不同的视角进来，就都是自带奖励信号的……提炼出来的结果有可能就离真相很近了。”</p>
+</li>
+<li>
+<p><strong>团队只有二十多人，却用 2 个 FDE 支撑约十几个客户</strong>。Kevin 对 FDE 的定义收窄为“只做前半段”——把需求接回来并完成一次奖励结构适配，后半段交付的是能让数据自动回流、模型持续提升的 RSI 管道，而非传统意义上从头跟到尾的交付工程师。</p>
+</li>
+<li>
+<p><strong>EchoMind 定价的“cota”不是 token，而是自建成本账</strong>。Kevin 透露 cota 对应“做一轮 Auto RL 的内部成本 X”，主要是 GPU/CPU 资源消耗，再加上嵌入奖励价值后的百分比。这是一种客户可感知的配额体系，而非行业通用的 token 计量。</p>
+</li>
+<li>
+<p><strong>引用 Hugging Face 报告验证分布式判断</strong>：Kevin 说报告显示 100B 以下的小模型占据下载量主流，100B 以上模型下载量很小。他以此说明“需求世界是多元的”，社区对端侧小模型的需求与 Paradise 的方向一致。</p>
+</li>
+<li>
+<p><strong>创业前的阿里云经历与现在一脉相承</strong>：Kevin 认为做 infra 和做客户都是需求驱动，“英特尔不可能闭门造车”，现在也一样——提炼场景共性、找到可产品化的点，这个思维模式完全相同。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技。本周十字路口的嘉宾是py mind的创始人和CEO Kevin丁。Paramount所在的赛道是非常热门的RLSS service，也就是强化学习及服务或者后训练及服务。他们前不久刚完成了天使轮融资，投资机构包括高瓴、百度风投、蓝驰等。你好，凯文，欢迎来到十字路口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello大家好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们还是从快问快答开始，帮助大家尽快了解你。请问凯文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的我是94年的，32岁。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的。请问你的求学经历？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>伦敦广学院kiss.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>商的MBTI和星座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果是按测试结果来看是INTG，但是我的感觉可能IE之间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>星座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是摩羯摩羯哥对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们一句话介绍一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>parameter最终定位就是一个凹头2L它跟现在大家一直在讨论的这个RSI这个方向，其实是相当于它是一个比较具象化的一个实现路径。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们待会儿再展开聊一下。然后咱们的融资情况。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们是去年公司成立之后就做了一轮，高瓴、百度风投，还有蓝池，还有ADBO投资。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们目前咱们团队的规模是我们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在有二十多个人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们现在收入和利润方面讲吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>具体数值就先不share了。但是现在我们我觉得比较振奋人心的一点，我定义就是说他初步的跑通了这个PMF。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么样的PMF.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跑通了两个方向。一个方向就是证明我们提供auto ail这种方式，实现了RSI在生产环境是有价值的，这是第一点，就是它的商业模型至少是成立的。第二点就是说它的这种可扩展性，就是说在横向的这种场景和客户的这种复制上来说，我们的工作量是逐步递减的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白咱们在创业之前做过些什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我之前其实有很多精力是放在偏info这里的。因为我之前也是在阿里云，然后在阿里云其实也做了这个弹性GPU实力，包括训练GPU的这些集群。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当时咱们是看到了什么样的机会决定创业做para mind。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实当时我的想法是这样，就是模型预训练这个事情，就是到现在为止，其实远远没有到终结的时候。当时看到一个趋势，就是到25年下半年，也看到无论社区也好，还是硅谷也好，还是国内的技术圈也好，大家都在讨论AI可能要进入下半场。下半场的这个说法就出现了两个方向。对，一个方向就是认为我们继续沿着预训练走，ASI到来的形式会是一个超级庞大的中心化的模型。它能够解决绝大多数的场景里面的问题，效果还足够好。然后另一条路线或者另一个讨论的方向，就是它最终ASI的形态会是一个服务化的形态，是一个agent的蜂群的形态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我个人来说肯定偏向于后者，所以我觉得这个更实际一点。因为我们这个世界上需要具备AI解决的问题和这个场景，它其实无论是从当下时间点看，它已经是无穷无尽的了。同时随着时间的推移，它还会产生不断的新的场景出来。而且这个场景本身它也不是静态的那在这个模式下，我们尝试去用一种有限参数的这么一个模型去泛化掉无限的场景。这个事情目前来看，我觉得在至少在transworld这个架构上实现还是蛮有挑战的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到目前为止又过了一年多。就是你有看到一些信号，就是这个让你感觉你一开始的bat是越来越成立了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，因为首先这个理论我们看到的是第二条路必然是成立的。就是我不能说真伪第一条路，但是我我我能论证的就是说第二条这种服务化的路线，它是一定成立的。因为需求是一直在那里的，然后需求一直也在增长的。然后这一年我看到的一个变化就是说大家为什么现在去提RSI？为什么在之前RSI其实没有热度没有那么高？其实这就是服务化带来的一个结果，是因为你去agent布的多了。我们可以想象一下，就是正常一个人日常带了几十个agent再去做一件事儿，他是不可能有精力去维护每一个agent的这种演进的对吧？而SIV需要就是因为其实agent现在开始多起来了。我们这一个个的agent在嵌入到场景里面的时候，我们对它最终的衡量方式是它得在一定的这个时间轴上表现都得符合我的预期。那这个实现的方法就是这个agent需要自我去迭代，然后你agent本身需要有自我改进的能力才能做到这件事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以咱们一开始做power mind的时候就想到了要用auto RL去做RSI吗？还是这个是在过程中慢慢浮现出来来的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>实话说其实是过程中浮现出来的。因为我们去关注后训练这个场景，一方面我们自己本来就在看这个方向，另一方面其实讲一个有意思的故事，就是后训练这个事儿对我们自己影响也比较大。因为你你会发现以L为代表的这种后训练技术，它其实是拿到环境的反馈，然后去更新，拿到它是一个持续的过程。其实对我们自己去研判方向，我们团队也是这样子的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们其实一开始在创立之初，我们认为做到r service，做到一个扁平的service形态，其实就已经差不多能满足这些agent的部署的这些要求了。但是我们后来发现，它依然是不够的。因为service它的面向的对象终归还是要有一个developer在那边去驱动这个agent去改进的，对吧？所以我们在这个阶段我们才去想，其实这service只解决了一半的问题。因为我们真正把这个RSI跑起来要解决两个问题，一个是training一份，一个是这个奖励的问题。所以我们就开始规划说2211怎么跑起来。那同样的奖励就纳入了我们的scope。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以用一个具体的客户的例子来讲一下。我们只给他单独做RLSR service和我们现在要给他做auto RL具体的这个服务的内容有什么不同吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得比较好的例子就是那个GY agent的一位客户。因为他们下游有蛮多的消费的部署量的。他会收上来很多这种用户，这种特定的需求，其他自己的产品迭代还有有一些需求进来。我们一开始提供的our service是给了他一个studio，然后去把一个通用的一个training pipeline去给它固定下来。但是他依然是要不断的去投入，自己的这个算法工程师也好，或者什么样的人也好，去不断的去更新这个agent本身。我们只给他去把训练这件事情解决的很好。因为就是你想一个训练要去完整的解决完，就是完成一版模型更新。它其实除了这个需求侧的一些分析，就翻译成奖励，然后设计算法，然后训练，同时后端的这个infer也要被解决。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们当时把infer那个问题全部给解决掉了，但是他依然没有摆脱掉，说他依然会去投大量的人力去搞这个东西。然后我们后来去就是到了第二期的时候，我们去把这个9Y方向的这种奖励做了。做之后，我们发现其实这个loop其实可以自动化的跑起来的。因为只要它的这个末端部署的这些agent，它能源源不断的收上来用户在在真实环境下的一些反馈。那这个东西收回来之后，我们就在想，为什么不让他能够自主的循环去跑起来？所以我们我们在第二期就给他把这个echo my产品推过去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实咱们现在提供的这个主要的产品有两个，一个就是paramount studio，对，然后另外一个叫echo mind。然后可不可以分别介绍一下他们俩是什么样的产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Studio就是我们提供的解决训练info的一个service，我们会在这个studio上去实现大量的这种训练所依赖的逻辑节点。为什么强调的是逻辑节点呢？因为开发者再去配这个节点的时候，他是不需要去关心他在物理机上的实现的。他更多的只是配置了一个训练的参数。然后这个逻辑节点，它横向的case给的，你可以去做这种单点的单卡的算力，然后单台的到多台的这种都是可以在一个逻辑里面去扩展的。然后这个扩展的工作是我们去做掉了。然后对于训练开发者来说，他只要去把训练的这个参数以及像DPI、TPI去配备好就可以了。然后对于echo y的这种产品来讲，就是我们去把刚才所叙述的整个RSI的流程全部都包在这个x my的背后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们给用户透出的是什么呢？是一个proxy，就是一个代理的URL。这个UIL只要去插入到某一个agent里面，其实它就可以去源源不断的去把agent在这种轨迹抓取下来。它就是一个相对来说比较整齐的一个数据集。这个数据集它去过这个奖励结构，然后去生成这样的一个training y pipeline，然后去训练拿到结果，然后再部署回去对吧？这一套流程全部被FI这套产品去包起来了。对，OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那prom的现在典型的客户画像是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们去做客户的选择的时候，他其实需要的是真实世界的这些数据。并且这真实世界的数据一要产生于生产场景，第二个它最好是在模型能力之外，对吧？这个其实对模型的效果提升是最明显的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们去选择客户的时候就在思考，哪里的这个real最富集的对吧？就是我们当下有有一些比较重要的客户，就是集中在这个工业领域的。比如说是像英伟达的上游这些企业。然后他们有一个特性，就是经过过往的这么几年的制造1.0、2.0的一些改造。他们其实在企业内的这个数字化做的还是蛮好的。同时，经过了这么多年的生产，又积累下来一批非常可观的数据，这是一个指标。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个指标，就是工业场景还有一个好处，它除了数据富集之外，他自己对于自己的精益生产它是有定义的那这样的话说出来数据往往都有了一个相对明确的好坏的标签，你标注这个问题也天然的就被他解掉了。与此同时我们同样的毕竟还是一个商业行为，我们也要去衡量一下它的这个RY。然后这三个条件都满足情况下，我们在产业链上的工业的客户，他可能是一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比较好的画工业客户是一类。哼还有其他的比较典型的客户画像吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有就是像agent或者是和具身相关的对和具身相关的对，具身相关的其实我们也会看，当然当下来看，就巨声他是一个相对独立的这么一个板块。因为我们我们目标还是去做后训练驱动的这种RSI，当下偏软领域肯定会做的会更快一点。因为具身你还要需要去考虑硬件的一部分东西，对，这个是一个更复杂的一个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后再咱们给企业去做RL，不管是RLS service还是我们做auto RL的过程当中，最花时间最花钱的是什么部分？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最花时间的实际上是在初次进入一个场景的时候的这个FDE的工作。就是你看我们虽然说做RSI，但是我们并不排斥完全的FDE。因为本身你去让把RSI渗透到某一个场景的时候，这个FDE这个阶段是不可省的。然后我们在初次进入的时候，需要去把他们场景里面的这个数据知识，还有他评价基准。然后同时我们自己做的这套，比如说奖励agent，reward agent或reward model去适配到这个场景上，这个是比较花时间的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是好处就是你在这类型的行业，其实在初次冷启动是需要做一些工作的。但是后面scaling起来他的工作就是递减的对，这个是我看到一个比较好的一个现象。因为其实做奖励这个事情他最终还是会收拢到模态上。就是他在相似模态上的话，其实有相当一部分工作是可以复用的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以去年那一大批不管中国还是美国做RLSR service的公司，现在大家都和咱们一样，慢慢的开始都要去做auto RL或者叫自己RSI了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得大家是有分化的，因为首先对于这个下半场这种需求来说，它是非常丰富且非常宽的对吧？比如说去年和我们应该说我们同期去看了一些这个公司他们在做的事情，比较出名的应该就是a play compute，他其实到现在为止已经更往前走了一步。他会去提供一个非常完整的这种服务的基础设施，他去把agent serving这些东西全部都做了。然后他面向的可能是几个比较头部的企业，我去把企业内所有和agent和AI相关的东西，我全部都做掉了，这是一个路线。然后还有一个路线，是应该是近期比较出名的，是那个专家，他也是deep mind的人出来去搞的一家非常优秀的一个公司。然后他们做的就和我们的理念会相似度相对会高一些。他们就是单纯的去做这个二号21，同时他们跟这个marker，或者是clay，或者是Harry，他们也有一些合作。然后他们的这个定义我觉得跟我们就会相对来说比较相似一点。我们更希望做到的是auto这个事情，我们去把这个五状态的RS的能力提供出去，它是一个可以平台化的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>无状态的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为这两个分支其实你能看到它的属性，前者叫它computer做的，就相当于是，我把这个企业里面所有的这些场景我全部都报掉了，对吧？它是一个更加宽并且更加重的一个方式。然后后者，它是一个skinning的方向不一样，就是a comment，它是在一个企业内纵向skin，然后对于逝水这个思想，他是做只把这个训练这一件事情做好，然后横向去skin，我们更倾向于用这种方式来做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后回到刚才那个状态的问题，因为其实有状态无状态，它最典型的例子是做环境。因为其实大家做后训练，这个环境是被高频提到的一个词。然后我们对环境的理解就是它原本其实在coding领域，环境是一个非常典型的东西。因为你去把这个compiler去提供出来，对吧？它其实你每生成一个新的代码片段，去compiler去跑一下，它都能够拿到一个个比较强的一个奖励信号。它是否通过了对吧？但是它的一个特性就是它跟你本身这个生产环境里面的这些信息它是不耦合的，它是可以被抽离出来的对吧？但是对于实际生产环境来说，这样的环境就比较有限对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你比如说是刚才举的那个例子，就是像这个GY类的agent对吧？你想去把他每个用户的的一些自己的需求去做好的时候，你是不能脱离他的这个用户上下文存在的。如果你脱离了，他就缺乏了生产价值。如果你跟用户上线了耦合在一起，那它就是一个有状态的环境。所以我们要去做的事情，是在这么长的链路里面找到那个可以横向去给你的无状态的东西。这个东西它就不单纯的是一个，而是说他应该是一个auto LL的这么一个管道。这样的一个管道就是你给他去喂数据，他拿到数据之后，通过real agent及reward model去拿到的signal，然后去迭代一轮。这种其实你本身的这个alto l的这个管道以及这个reward本身，它其实就是一个无状态的，它跟生产上下文其实是不耦合的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这里我有点困惑，因为它一旦是奖励信号，它应该就是在真实的这个生产环境里面出现的奖励信号，他怎么能抽离出来呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你对于这个场景来讲，它需要去做一层解耦的。因为奖励信号本身实际上是当模型去在这个场景里面去一次。对应的这个real model或者说real agent，他去给出一个这种优势就是adventure ge？就是你给出一个这种优势才能找到这个更新的方向，这是一种方法。第二种方法就是它生产场景回流回来的数据，它包含了一些人工的这种扎基本，这样子其实它也是一种奖励。但是这两个信息就是它本身跟它的上下文其实已经解耦掉了，它是包含在用户去回流过来的数据集里面的，而不是包含在我的环境里面的。也就是说这里面的模式的区别是，对于我们要去做一个横向可以skating去卖给不同客户的这个产品来讲，我不能去把A客户的这个状态打包进我的产品里，把他们再卖给B客户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样是不行的。可以再稍微展开一下，刚才咱们提到的这个第一类的典型客户是工业。有工业的客户，咱们再给他提供服务的时候，我们具体帮他们做了什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>工业其实我们现在偏软的主要看两个场景。一个是和工艺相关的，就是对于这种工艺改进的这种模型，其实他去做这个post training还是比较甜品的一个地带。然后第二个就是做这种质检的，质检的其实它也是个典型多模态问题，也是一个比较甜品的地带。然后工业领域它有个好处是，无论是工艺还是质检，其实它的数据富集程度是我们无法想象的，就是非常富集，而且是他对这个东西的结果是好还是坏，都有明明确的这个评价基准。OK对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前比较好理解。工艺可以举一个更具体的例子吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>工艺其实就类似于像电镀，我们其实可以不用深入到它具体是怎么做的，他其实就是说在生产线上有一批参数要配，然后这批参数配好了之后，他的这个产线后段就能拿到他想要的这个东西。了解，但是参数裹配的不合适，拿到就不是自己想要的东西。然后现在的做法是还是有老师傅在做这个事儿的，对吧？因为这个还是其实它就是一个人驱动的一个事情。然后你去做后训练，对模型做后训练的目标是把能够有效的去根据它历史的数据和未来增量样的生产数据，去把人做这个事情的经验去迁移到模型里。这样的话其实模型在去做这个事儿的时候，无论他在长期来看的这种品控的保护上，就是品控做的这个水波动上，还是说随着它增量数据越来越多，他可能会比人做的更好。这个上面他其实模型现在是有能力去做到的那咱们怎么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>收费我们现在就是有两层产品。一层产品就是我们定义our service的这个service层，它就是studio。然后这个其实对于用户来讲，它更多是自助式服务。这里我去计费的方式就很简单了，那就是白资源的这种计费。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>方式IO吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是类似于CPU存储GPU这样的。因为这是在这个service层的service的计价，其实大家也都比较归拢。因为其实cloud service做了多年了，对吧？然后对于上层的这种auto l的产品，我们就是掰这个场景价值来去记了。然后他记的方式也是quota，我们会去根据他场景里面的更新的频率来去限制给它一个echo mine的实例，它的扩大的限制在哪里？对，这样的话其实就是白效果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我们对于emmy的auto l这样的产品，我们是嵌入了我们提供的这个奖励价值的。我们相当于除了把这个训练service做好之外，我们同样的用我们自己的这个奖励结构去给出了他正确的一个更新方向。所以对于客户来讲，他其实什么都不用管他收到的是一个更新好的这么一个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以第一部分这个service是等于训这个模型一次性的收入，后者可能是更长期的收入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实前者也是长期的，只是他俩的边界就是在于谁来维护这个RSI的管线。如果是studio的这个用户的话，其实他这里面的管线是客户自己在做的，对吧？包括real function也是客户自己去写的，我们只提供稳定的一个。但是对于emi来讲，因为我们自己介入了它实际场景里面的这些的问题，所以说我们会把它内化到我们的这个role model上面，我们来去维护这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>像一个典型的用户，他向你们付费大概是什么量级？就你能从他那儿收到或者赚到多少钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我们做的这个RSI这个形态，它适配的这个光谱是很广的对所以说对于大颗粒度的企业来讲，其实它付费还是蛮高的。就是在ROY很明确的场景下，其实单体客户付费基本上也是到百万到千万人民币的这个区间了。但是因为本来RSI这个事情，或者说auto RL这个事情，它能够改进的场景可以有这种放大效应非常大的这种OI的场景。同时它也会有一些比如说developer做coding的一些很小的一些场景。小的场景的话其实对于用户来讲，它的颗粒度可能就比较小。我们去做这个为什么一直在强调横向？就是本来auto RL这个事情，它就是应该无缝地渗透到所有类型的agent里面的。至于说我们的这种大颗粒度的B端客户，还是小颗粒度的这种偏C端pro c端的这种客户的付费。它都是取决于这个agent本身能给他创造多少的效益出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我们的这个echo line的机架，就是一个单一的这种cota的机架。我们其实也很很容易去区分这个场景，就是对于高价值场景来说，其实它的这种生产路P里面积累的数据量也是相应的会大很多。同时他要求也很高，你要去做的这个训练轮次也很多。所以说它对应的ICMID的cota消耗就会是一个非常可观的数字。然后对于一些比如说pro c的这种很小的场景，他可能要求没有那么高，他只是说达到某一个贝斯量就可以了。同时他在一个相对窄的抖音里面积累的数据也没有那么多，那它的扩大消耗就会比较少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他说code消耗的时候说的是token消耗吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实是我们定义的这种应该说一个应该说这个资源单元。就是我们去衡量本身那个echo I去做一个RL在嵌入奖励价值下的一个单元。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以它等于就是比如说minus的credit.</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是类似于credit。对，OK它跟token其实不是特别的绑定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对它和什么绑定呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它就是我们去做一轮这样的一个奥特21，对应的其实我们自己会有一个成本账，对吧？就是你在做这种多模态的这种长年轨迹，他做一轮我们大概成本是X，同时我们嵌入了奖励价值之后，我们会对扩大去定一个X往上去加一个百分比的这种行为。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们的成本主要是token成本还是是什么成本？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们实际上是训练消耗的资源成本，主要还是GPU、CPU这样的资源。对，就是我们自己的内部的那个成本是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在企业主要找到你们，他们会怎么表达他们的需求。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这就是涉及到需求侧了，就是客户他能get到或者说最最直接的方式就是你的结果是什么？为什么我们去做，像这种质检领域和工业领域这两个领域的这种结果是显而易见的。然后对客户来讲，他其实只问一个问题，就是我我需要付出什么？然后我付出了这个之后，我能拿到什么，这个给他解释清楚就好了。那就是为什么我们会我们觉得rs service不够，吧？因为我们如果说面向这样客户提供了一个service，还需要让他去自我自主去开发的，这个肯定是不合理的。我们提供eco mind，我们可以明确的告诉他，就是在你历史的这些样本上，然后我们去做X轮的这样的训练，就能拿到一个相应的一个指标。然后其实像质检这个领域，我们其实比较有效的可以把误报率从当下的23%直接降到8%。能给他去，这只是在大概一万张的这个样本上去做的，然后这样子其实他的成本和收益就非常明确了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那他一般会怎么理解你们的报价？因为你其实自己创造了一个定价的体系，但到他那儿他会对标什么来去理解这个价格。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实是客户对价格的理解更多的是在于这个事情在我的场景上的RY有多少，以及我付出这个代价在玩玩里面占比，他要去判断这个东西值不值得搞。其实对我们来讲，总归因为我们的这个消耗其实主要还是电的消耗，所以说总归下来这个账是双方都算得过来的对，因为我们选场景的时候，也会去选这个放大效应比较好的场景。就有一些场景，企业内不是所有场景我们现在都要做的。比如说有一些像偏办公的，偏这种发票的，或者说差旅的这种agent，那我们其实做起来就感觉会比较吃力。因为它的这个RY是不好衡量的，你的定价体系在这里去说得通，就有一些有一些难度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有没有什么类型的需求是总找你们，但你们觉得就确实在这个时候就不做拒绝。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得就是一个是这种RY不明确的，就是我选场景有三个依据。第一个依据就是RY必须得是可衡量的，然后如果是不可衡量的，我不好定价。第二个就是他不要偏离我们现在的研发主线，我们现在其实去搞的是这种主要是动态的场景。因为落地的话，其实你不可能做单模态，对吧？然后第三个就是这个场景本身，它在企业内的这种扩展和跨这种企业的扩展，它得是有扩展性的。所以说符合这三个条件的偏软的领域就是一个是工艺。工艺它本身像比如说电镀这个工艺，它在所有的这种PCB的这种行业里面它都是通用的。然后质检就是像可见光质检，包括结构光质检，这个其实在几乎所有的制造业都是通用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>用起来还是蛮和他其他环节解耦的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他其实倒不能说解耦了，因为他现在其实本来都是流水线，他其实前后的都是息息相关的。其实现在还有一个挺好玩的一个case，就是他这些场景，它整个这种生产流水线是很长的，他会把这个比较长的这流水线里面的这种叫PQ face的这种控制整个去出一个报告，就是process and quality这种控制，他会去做一个更抽象的一个报告。好处是什么呢？就是它是可以被AI很好解决的一个单元。我们去看是这么看这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的前你看在阿里云是做info然后现在开始感觉非常要深入到各个客户的这个业务的一线的现场。就这个中间是一个什么样的过程，就对你来说这个创业的这种体验、经历。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得跨度没有那么大。因为做英特尔本身就是一个需求导向的对吧？英特尔不可能闭门造车的，我们基本上都是以这个需求驱动的方式来去做的。现在其实做客户也是一样的，我们再去看到这个场景之后，然后客户有明确的需求，我们去提炼其中的共性，然后找里面可以去give up的点，找到之后我们就把它做成一个产品。这个路径其实在英特尔时代就是这个思维模式，完全是相通的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就还是从需求出发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我们其实之前在20阶段也做了很多这种商业的这种客户。对我自己在想就是AI现在在落地的这个阶段，或者说产生价值这个阶段，它需求其实是分层的，就需求的这种接受度是分层的。第一层就是这个东西是不是好用，以及它效果是不是好，是不是好用这个事儿是不是简单，这个事儿其实有很多方式可以实现。比如说现在自动模型做的API就非常应用，对吧？API之外，比如说DSH，他做这个job c harness对吧？这个东西也很好用。用对吧？好用解决了，然后效果怎么解决呢？效果就是你可以加大量的hardings逻辑，让这个模型没对齐到你的需求上。同时你也可以去做后训练，你用训练的方式来提升模型能力，来达到效果好用，这是这其实是求的第一层。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后下沉到第二层，他就会考虑第二个问题，就是我做这个事情OY是不是合理？我得有收益，我做的事情没收益我就不会做了。然后再就是说本身搞这个东西，其实企业里面需求到第二层的时候，他就会追求一个不可能三角了。就是我既得成本好，又得效率好，未来还能不能满足我的隐私的这个需求，对吧？他到了这一层的时候，就会对需求这个就要求就会很多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说我们选择去做oil，我们为什么没有去做harness？我们没有去集中精力去做，总选择21以及把它做成RSI。其实我们看到的是长期来看这种auto 21的形式的RSI，它是可以正好把这两层需求都完美的承接掉的。尤其是刚才提到的那个深层次需求里面的不可能三角。这个东西实际上就是我们近期发的一个工作，就是那个paradise.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？对给大家讲讲paradise到底是什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为paradise h我们做最初是源于我们自己的需求。其实我们主要还是外部口径太贵了，我们是做了一个协作是可以引擎的。然后这个引擎它会把一个4b size的模型和一个base model连在一起。当然就是这种协助性的引擎，因为它在拼接的这个对象是这个上下文的评级，所以说它对base model是没有要求的。你base model可以是任何一个，我可以是开源，可以是闭源，因为我也不需要它的梯度。但是我们训练一个对象，就是那个4B的模型。我们选这个size有一个原因是它刚好在端侧就是mac上可以跑起来。所以说这就代表了你首先有一个推理成本是零的东西，只是它问题就迁移到它的效果不够好了，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说要对他进行训练了，然后训练大概就三个阶段了。第一个阶段是要去给他做这个难易问题的分类。第二阶段去做冷系统，也就是说看到的结果是一个请求打过来，小模型会先接接了之后他会去看这个问题到底是不是是不是一个他能解决的问题。如果小模型能解，它就直接端侧就解决掉了。如果他解不了，他就会路由回这个base model。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第三个阶段就是一个GRPO的过程。这个GRPO过程就是我们开放的这个奖励结构，就是一个正确性和一个成本。当然这个成本奖励是带一个系数的。用了一段时间就发现一些比较有意思的结果，它的baseline表现会比纯的这个base model会有一些提升。同时因为他做了这个分类之后，他把简单问题自己解决掉了，所以说他成本一定是降。然后我们有一个数据，就是在benchmark表现提升大概10%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你用pda h的架构的话，其实当拉姆达比较小的时候，还可以省掉大概20%的成本。当然就是这个架构我认为它潜力肯定不在于成本。因为我们再去推广这个paradise的时候，它成本是一个非常好的一个突破口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我们现在在构建的就是这个隐私问题。隐私问题其实它就更具有这种弊端属性了。就是它的企业里面的问题，他总归还是可以分为公域跟私域的。公域跟私域指的不是B端跟C端，指的是这个问题。有没有好的base model，他现在机构模型不是所有问题都解的非常好的，对吧？公寓就是指这个问题，机构模型本身的贝斯纳还不错，这种情况下其实可以用我们的pardon这种方式去训一个这种worker model。然后他只是训练对象不一样，然后思域问题就简单，就是你一个张到端的模型解掉就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你觉得harness再怎么进化，他仍然有他解决不了的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那其实是一个很好很轻的一个方式，就是说我们在思考的一个点就是怎么样能够通过一个不要去投入那么大的人力的同时，去把那个不可能三角能够好好的解决掉。这个其实就是一个后训练方法来去做的事情。因为你想在这个成本、速度和隐私这个三个维度上都去追求一个最优解的话，你终归还是要挖掘一下模型的能力的。你乘坐harness可能能解决速度的问题，但是隐私肯定是解决不了的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以harness不能够解决隐私的问题。然后咱们可以解决这个具体的隐私问题是怎么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>定义隐私这里其实就是公域和私域问题，这个肯定是要分开看的对吧？就公域问题就是base model解的很好了。对于企业来讲他现在是有一些问题是不希望打到这个base model，有一些问题是可以的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>隐私这个方式，就是我们在公寓上去做这个work model，这个works model。你在训练它的时候可以去给他构造不同的奖励项。我们现在发那个partition，就是开源那部分，只提供了两个奖励项，一个是正确性奖励，一个是成本奖励。他就把刚才说的成本和表现这个东西先去cover掉了。然后同时还有一个奖励项是可以去构造。但是我们现在还没有去发出来的一个工作就是隐私奖励项。他对这种敏感类token需要有一定的masking能力，你需要去挡一层，然后用这个work model去把敏感信息挡掉去做一些处理，然后再路由回base model。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以当你说到这个隐私的时候，就是说不想把这个任务丢到公寓去，他不想留给吉姆去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是不是所有的这种信息或者说上下文都是可以。这对于一个企业来讲，不是所有的信息都可以被丢给一个机模的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是harness不也可以很简单路由一下，就是如果本地部署一个开源模型到自己的服务器上，我就把这个有隐私相关的问题，也就是路由到自己的本地部署的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以它就是一个不可能讲你如果是用这种方式的话，那你怎么确保这个模型生成的结果是满足你的这个要求的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们不也有一样的问题吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说要训练，这就是我们去搞这个模型训练的一个最终目标。就是这个模型本身参数是需要具备修改的。如果说你用一个不修改参数的方法来去搞这个事情的话，它天花板其实是存疑的。因为就到了深抖命之后，有很多问题如果你不通过训练解决的话，他是有可能是完全做不到的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这个可以展开一下？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我们在一个需求场景上，如果拿到了明确的这种他的这个场景里面的这些数据也好，或者评价基准也好，它其实是可以去翻译成一系列的这些奖励信号的。我们可以教会模型怎么样去按照目标来完成这个任务。但是模型要学会它它是不可能单纯的通过行来学的对吧？Harness他给提供的更多的是一些流程性的东西，或者word fo w或者skills，或者memory，对吧？它都是在本质上来讲是在context上在做一些工作。但是你如果说不去修改这个模型，它不去训练它它可能模型能够解决的这个问题就相对来说比较有限。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且这个还依赖于你本身部署的这个模型在预训练阶段它的样本分布。我们其实还有一个客户是做PCBEA这个方向的，就是在这个PCB板的这个电路图设计的一个EDA软件。它是一个比较独立的这么一个短命。然后绝大多数的基座模型在预训练阶段是不可能见过这样的样本的那这样的样本其实你哪怕是你拿一个很大size的一个base model去部署到本地去，你让他解这个问题再怎么做，其他都很难达到就是一个非常理想的一个状态。最终还是要对于这个模型参数本身还是要去做修改的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们去区分公域和私域问题的最重要的原因是，也不是所有的场景都需要完整的预训练。因为他当这个问题已经被贝斯莫都解过了，比如说coding类的这个问题，你想在一个具体场景上再让他解的时候，就没有必要再去从头预训练了，对吧？你去把worker model，去把你特定的这些要求去虚拟去就好了。然后对于像刚才提到的这种很深的东西，那他肯定需要一个NTN的model来去做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以thinking machine的tinker和你们有哪些相同，哪些不同。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实是不太一样的。因为tinker提供的还是这种老AAPI，对吧？我们现阶段其实不太会花太多精力去做lara这个事儿，因为怎么说呢？劳尔的训练它固然是非常有效的，但是它有一个要求是，第一他得跟机构模型要绑定起来。你去在某一个机构模型上做的lora，其实再去跨机构模型迁移的时候，会有一些这个工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们paradise这个工作是解绑的，完全就可以申请换。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为就是呃训练方法来讲，work model跟那个base model之间就是context的这种联系。所以说他在训练阶段，它就是一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>完全独立的在服务一个客户的过程当中。其实咱们刚才也提到FD这个词，其实我理解它就是需要人入场，对吧？FDE只是一个比较好听的说法，其实也是我们要自己派人过去对去沟通、去服务，去给他梳理他的各种东西。你现在是怎么理解这个事情，或者你在追求尽可能弱化FDE吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我倒没有说一定要弱化FD，因为我觉得在很多很长一段时间，这个角色都是被需要的。我追求的东西是FDE这个角色的宽度，对吧？其实我觉得是现行主流的FD，它的定义宽度是很宽的，他得进去去理解需求，他得去做相应的这种适配，然后去把交付做了。然后交付的形态往往也是base model加harness，对吧？这是一个比较典型的这么一个FD的行为。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我定义的FD，其实我觉得他只要做前半段就好了，就是把需求接回来。我们把第一个场景的需求在这个RL的这种产品上去做一次适配。这样的话其实后半段就是交付的这个东西，它更多的是交付的这么一个能够让把生产数据回流回来的，能够提不断提升模型表现这么一个RSI的管道就可以了。这样的话其实至少在我们实践角度来看，FD的工作量负载会相应的下降很多。然后实际上我们现在去服务的也有十几个这样的一端的客户。最终大概2个FDE去支撑他们的需求，还是可以能能支撑得过来的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但他比如说回来之后，像用的r auto RL的这个部分，你们要有其他的同事去承接吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们需要的就是因为接回来的需求，我们在第一次做一个场景的时候，本身做奖励结构购这块还是需要去做一次。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>适配的那他是不是也叫某种意义的FDE呢？就是泛化一点来定义的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得不能算。因为我们我们自己的角色分配是就接回来这部分人，他们其实是更加做基础和通用产品的这种角色，就是通用的这种板块的角色OK。他们做的事情是在我们现行的这种奖励结构下去不断的去把其他场景去接入进来。然后这个东西是一个他们主要做的是跨领域的问题。然后对于FDE来讲，他就是把一个个需求接回来就好了。它其实是一个T字型的结构。对听起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们在非常的追求我们的这个business是要能够scale起来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一定是这样的。不然的话你会变成一个这种比如说技术咨询服务这种全方位一体的公司。然后不是说这样的公司没有存在的意义，主要是说如果是用这种模式的话，其实你选取客户的策略就应该选取最最头部最大的他一家。你这一家客户就能够把你整个生命周期都cover住的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我的判断是说，为什么一开始在讲ASI到来的形态是一个agent的蜂群的形态？它其实本身就是一个分布式的一个市场，所以说这个事儿你不能用中心化的思路去做它，对吧？如果是前者的话，就是我做成那样子的话，那就走appear full那个路线了。我们就用中心化的方式去做了。这只是我们的一个观点，就是其实在下半场的这个光谱里面，它其实是非常广博的，我觉得是容得下任何一个形态存在的对，只是说我们选择的这个路径是更多的用这种奖励结构去把这个动态这个场景的问题变得越来越通用。因为就是随着你收的这个动态的场景越来越多，其实它奖励本来是有一定复用性的。那有复用性为代表的可以用方法能力去解这个领域的一些新的问题。那这样的话，其实我认为它是能够跑起来一个飞轮的这是我们内部的一个视角。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从外部视角来看，对外的我们更多的定义产品的方式，是需要去把我们的角色跟客户的角色以及双方的边界得划定清楚。如果你划定不清楚的话，你这个business就是一个非常模糊的一个东西。然后我们划定的界限，就是为什么要选择这种RL的这种方法？有种方法就是它的界限就很清晰。我跟客户之间传递的无非就是数据集，然后回到就是回到一个更新的模型，这样子其实你就是数据进来，模型会还给他。我们这个管道是无状态的，然后客户那里他看到的是我用我的数据拿到了我一个提升好的模型，这个其实结果对大家来说都是可以接受的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果这个模型训得越来越好，所以他后面需要的训练越来越少，那我们是会赚的越多还是赚的越少？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>实际上就是它是分两层，一层就是客户给我数据，然后模型还给他，这属于是应用模型。这种模型如果说客户的这个场景它是静态的那其实你可能做一次训练就够了，他把这个问题都解决好就完事了。但是绝大多数不是这样的，绝大多数就比如说我们做公益的和AVI的那种，他上游来的这些需求天天都在变，你要去做持续训练的一个原因是你需要维持这个应用模型的能力，不要掉点对吧？如果你给一个静态的，它不能去解决有很多的这种变化，那它就会出现掉点工艺。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者AVI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AVI就质检对吧？对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们为什么会天天变呢？我理解他们不是一个蛮固定的一个工作吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是从流水线上理解。是的，但是实际上它的具体的case就是千变万化的，一直在变的。因为我们想这些客户接到的这些订单，他接到的订单需求肯定不是固定的对吧？那这种一条线上的这种生产也是混杂的了解这种其实它一直在变的，它不能做粗分类。因为就是你做粗分类看起来它流水线是固定的。但实际上你涉及到工艺和质检这种很深层次的问题，它有一点细微差别，对它的结果影响都很大。所以说这个场景只要是变化的，就需要用这种持续学习的方式来保证这个应用模型始终维持在一定水平线之上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们现在再去和客户交流的过程中，他们应该就同时也会看其他的一些可能的能帮他们解决问题问题的提供商，对吧？不管是机模或者云厂商，对你们遇到最多的这种就竞标的竞争对手是谁？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对目前来说我觉得竞争还相对不是特别的多。因为我们做的这个短命，怎么讲呢？就是它本身具备一定的壁垒，它不是一个非常开放的一个领域。所以我们在这些领域面临的竞争可能是一些传统的这种SaaS服务商。他本来就在这个企业已经深耕了很多年了。那我们进去做的这个事儿，如果跟他们的业务没有冲突，那其实大家各自安好。如果有一些冲突，那可能就要谈一些这种合作的模式，对，然后纯粹去做这种RSC的这种竞争对手现在是比较少的，至少我们在我们选择这个领域是这样的。对，当然其他领域就有很多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你指的具体是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一些agent这种领域，比如说为什么要举那个水的例子？因为我觉得他是一个做的蛮成功的一个case，他就跟Harry去合作。在法律领域其实就有很多这样的case。你比如说我们去要去做类似的事情，那肯定就直面他的这个竞争了，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，还是前面那个问题，我不确定是不是已经回答了。就是这个SARS很难，那咱们也to b为什么咱们就不难当？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你把B端里面所有的事都做了，它就是一个很难的事儿。但是你看我选场景，我有三条准则，我这三条准则去抽象出来的，就是过滤下来之后的这个场景本身就相对来说切面比较整齐。然后再一个就是弊端的，生意的最本质的核心还是算账，对吧？你RY那个是一个很重要的点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以SARS为什么算不清楚那个账，你们为什么能算清楚，或者你觉得你有可能可以算的比他们更清楚。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原因就是还是这里面的引入了一个变量，就是你看AI时代去做这个B端生意和software这个时代去做这个生意，变量就是在模型本身上。因为现在这个模型还是很伟大的，对吧？它还是能解决很多问题的，只不过就是你要正确的去教他，对吧？然后我们做的事情就是在教模型，教会模型去把这个问题解掉，而不是说我给他提供用一个这种软件式的这种固定的服务。因为这个的厚度是完全不一样的，同时它又能创造更具有RY空间这么一个case，那它的这个成交的这种模式就会相对来说就容易很多。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你会怎么去看待云厂商未来潜在的竞争威胁呢？因为他们其实好像也能做你们做的事儿，对吧？或者说你们今天做的事儿，最后就是在卖给客户的时候，还是需要GPU、CPU, 还是需要去找一个云厂商来配合你们部署。对那会不会慢慢的这个云厂商就是吞噬掉？我觉得首先。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一点就是如果说这个领域大家做的多了，对我来说是我很很开心的一个事情。本来大家在RSI这个路线上都是会有自己的坚持和自己的探索的。第二个就是。云厂商其实它的业务是非常广的，它的目标也是非常多的。它跟模型一训练回程变成一样的结果。就是当你要做一个平台，这个平台目标是超级多的时候，你最后落下来的那个形态就不可能像我们这么的敏捷以及这么的专用了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得今天的这个筋膜和多模态的筋膜他们够用了吗？因为他们在继续就进化，再有新的sota对咱们来说还能产生显著性的价值提升吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得现在寂寞状态是够用也不够，就是够用了。就是大家的宏观认知、感性认知都觉得寂寞很强。然后为什么说他够强又不够强呢？就是你一旦到一个生产环境里面去跑的时候，你会发现其实还要补足很多工作。他不是说这个模型API队到现场，然后他自己就跑起来了，他能把这个问题解得很好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就你们做的工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我们做的工作就是这里面的很多很多的工作，我们也尝试去找到这种相对收敛的一个路径。因为其实你解决这个问题最直接的方法就是扑人，对吧？你啥不好人去补。对，但是这个方向我我我只是觉得他不太不太可扩展，所以说我们去扩展的方法就是在初期用一定的人工去把这个奖励网络构建起来。其实你再去扩展的时候，就相对来说它会是一个更好的一个形态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>构建这个奖励网络，你们有一些什么样的方法论或者窍门吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实它就是在模特上要统一，这是最重要的一个点。就是你跨模态之间去构建的话是有难度的，是有很大挑战。因为完全不一样。对，然后你去在同一模态下去做，总归还是有迁移性的。还有一个问题，刚刚您提到的就是关于机动模型的演进，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么我们长期来看要主推佩尔戴？是因为本身我觉得现在所有的这种AI领域的创业团队，我觉得基本上大家都是站在巨人肩膀上去往前搞的。但是这个架构本身就是在基膜的基础之上去做了一个works model及这个RSI的这种patch，给他用这种方式来去做。所以说基膜眼镜本身在party是这个架构下本来就是一个很好的事情。筋膜其实越好，说实话你对沃克model来说，它压力不也越小。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个和筋膜的竞争是不是也类似？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>筋膜其实不会形成太多的竞争的，就是你筋膜它总归解决的问题是有宽度的对吧？你筋膜解的这个宽度内就follow prodest这个架构走就好了。如果解决筋膜宽度之外，你就做一个端上端模型就好了对吧这个其实是一个他俩这种问题，他对这种后训练的依赖是没有变的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为啥我们说是面向需求的？就是你从需求侧才能拿到这种有效的这种场景级的奖励。明白。然后拿到场景级奖励，你要去训一个work model还是训一个base model，这不是由客户来选的。如果说未来出现一个客户说我就想把公寓问题做一个私有模型来解也可以，这是他的选择。对，我们只是从这个大的范围来看，很少有人会选择这么搞了。对，我或许未来会有一家公司或者一个地域说我要做主权模型，我就把coding问题要重做一遍。可以的，我们面向需求，需求才是我们的这个驱动源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们最后聊点轻松的，就是创业到现在最有成就感的一件事情或者一个时刻大概是什么？我其实觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是近期，近期我觉得我跟我的CTO friend，我们去讨论pradesh这个架构的时候，其实一开始我们的观点也是不一样的。然后我觉得最有成感的一点就是我们达成共识那一刻，你说服他还是他说服你，不存在说服，我们是很开放的。大家其实在论证这个事儿，我们其实内部论证有很多，有的时候就是直接关小黑屋，然后去论证这个事情，包括巨神领域我们也论证过，对吧？就这种论证我觉得是非常受益的。就是大家从不同的视角来去看这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白我达成共识那一刻感觉很有成就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，这其实就是为什么我很喜欢去跟大家一起去聊这个事情。就是本身大家不同的视角进来，这就都是自带奖励信号的。然后你这种多目标的奖励信号下，提炼出来这个结果，它有可能就离真相很近了。对，这个是我觉得比较有成就感的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你自己平时会用哪些AI产品？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近我觉得coding的多一点。最近比如说PI派这种多年的一个极简的agent，所以就是蛮好的，包括DAC是还是很屌的对吧？这个已经是堪比历史上stars增长最快的项目之一了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是应该十四五万了。我们录播课程一个是有才三天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你喜欢用什么模型呢？你现在比如此刻有一些偏好吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我之前反正就在这个cloud上面去搞搞，然后近期的话就是kimi，kimi有了就还是很强的。然后前段时间就GM出来的时候也会去搞。然后另外就是现在千问系列，千问系列其实从我们从哈尼face上那个数据来看，他最近那个14号不是发了一个报告。千问在实际的运行时里面，这个下载量还是蛮高的。他也成为了一个用量比较大的一个模型了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>包括千问3.8 27B这个小模型，我觉得它反响也非常。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好是的是的是的，就是哈尼的那个那个报告其实还有一个数字挺有意思的。就是他看到这种local类的这种模型，下载量基本是就100B以上的，这种下载量是很小的，基本100B以下占据了下载量的主流。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这说明什么问题？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说明就是说我们去搞牌戴着这个架构，其实方向上和我觉得和社区的这些也是相似的对吧？大家为什么还会去下载这些小的模型去做？所以说这就说明了这个需求世界它是多元的，它不是所有需求都要归拢到一个大的base model上来统一的这样去解决掉的。依然哈弗斯坦依然有海量的小模下载量，就代表有大量的需求是需要用分布式这个形态去解决的。所以我们在这个时间点去推这个飘带式，我觉得也是一个非常正确的一个时间点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好，最后一个问题，就是你现在最期待达成的下一个moston是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得下一个milestone就是最重要的，就是说拍戴是能够获得这个社区最主流的一个认可，就是这个形式，因为这个认可的要衡量基准，可以去看看它在生产场景里面是不是真的解决了一些空间的问题。不光是match mark，因为这毕竟是我们长期看的方向。对，因为中期和短期看的方向，我们现在已经验证的还比较好了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK, 对，好，谢谢Kevin。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感谢OK。好，我们今天先到这里，拜拜。</p>]]></content:encoded>
+            <pubDate>Sun, 30 Aug 2026 16:00:00 GMT</pubDate>
+            <guid>6a90fc5e1352af56ff3d48af</guid>
+        </item>
         <item>
             <title>22 岁的具身 CEO、5 轮融资、过亿美元、“不知天有多高”、“一年吃了十年的苦”｜对谈黄一：萝博派对创始人/CEO</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a8aab34ef65145dfcc3ea11</link>
@@ -16,30 +277,29 @@
 如果你想了解这一代年轻创业者如何做决策、如何管理同样年轻的团队、以及如何与泡沫共处，这期节目会是一个难得的样本。
 🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
 📒 文字版将发布于 @十字路口Crossing 公众号。
-00:00 快问快答：年龄、MBTI、星座、毕业院校
 01:50 创业仅一年，黄一为何说自己经历了“压缩的人生”，把十年的苦一年吃完？
 02:27 一年 5 轮、融资过亿美元，VC 投 22 岁的黄一时到底在投什么？
 05:24 市面上 FA 众多，创业者该如何选择？
 07:30 明知具身存在泡沫，创业者如何借势而不被泡沫吞没？
 08:30 同时拿到多份 TS 后，如何挑选既适合当下、又能支持后续轮次的机构？
 10:02 小米、宁德等产业方的钱，和纯 VC 的钱到底有什么不同？
-12:04 RoboParty 为什么一两个月就融一轮？融资节奏由什么决定？
-14:30 为什么“愚昧之巅”，反而可能是创业的最佳时刻？
-17:27 黄一花两三天“追”一位浙大工程师，靠什么让对方相信尚不存在的团队蓝图？
-20:08 第一代机器人“做完感觉没用”，开源后发生了什么，竟然改变了 RoboParty 的方向？
-21:05 从结构到算法全栈开源，RoboParty 未来靠什么建立壁垒、赚到钱？
-25:19 为什么不看好轮式机器人？
-26:55 从“愚昧之巅”往下走，哪些时刻会让年轻 CEO 的认知被瞬间打散？
-29:33 从第一代原型机 RPO 走向 RP1，真正让团队从“自大”滑向现实的难题是什么？
-32:25 RP1 相比上一代原型机，解决了哪些真实使用问题？
-35:46 十年后的具身终局，会由 OpenAI、智谱式模型公司，还是更懂 Robotics 的创业公司做出来？
-37:54 近 150 人的 RoboParty 如何用“蜂巢结构”控制管理半径，又如何与制造流程兼容？
-42:25 22 岁 CEO 如何管理比自己年长、且在具体领域更懂行的同事？
-43:53 为什么高薪大厂人才愿意降薪加入？RoboParty 又如何做到一年半几乎零主动离职？
-47:00 如今约 300 家具身公司，到 2030 年可能只剩多少家进入下一轮竞争？
-50:04 大脑、小脑和本体方向都在探索，黄一如何决定 RoboParty 做什么、不做什么？
-53:46 RP1 为什么先服务科研教育，而不是家庭、工厂或文娱场景？
-01:01:42 把具身智能比作 42 公里的马拉松，本体、小脑和大脑分别跑到第几公里？
+11:35 RoboParty 为什么一两个月就融一轮？融资节奏由什么决定？
+14:01 为什么“愚昧之巅”，反而可能是创业的最佳时刻？
+16:58 黄一花两三天“追”一位浙大工程师，靠什么让对方相信尚不存在的团队蓝图？
+19:39 第一代机器人“做完感觉没用”，开源后发生了什么，竟然改变了 RoboParty 的方向？
+20:36 从结构到算法全栈开源，RoboParty 未来靠什么建立壁垒、赚到钱？
+24:50 为什么不看好轮式机器人？
+26:26 从“愚昧之巅”往下走，哪些时刻会让年轻 CEO 的认知被瞬间打散？
+29:04 从第一代原型机 RPO 走向 RP1，真正让团队从“自大”滑向现实的难题是什么？
+31:56 RP1 相比上一代原型机，解决了哪些真实使用问题？
+35:17 十年后的具身终局，会由 OpenAI、智谱式模型公司，还是更懂 Robotics 的创业公司做出来？
+37:25 近 150 人的 RoboParty 如何用“蜂巢结构”控制管理半径，又如何与制造流程兼容？
+41:56 22 岁 CEO 如何管理比自己年长、且在具体领域更懂行的同事？
+43:24 为什么高薪大厂人才愿意降薪加入？RoboParty 又如何做到一年半几乎零主动离职？
+46:31 如今约 300 家具身公司，到 2030 年可能只剩多少家进入下一轮竞争？
+49:35 大脑、小脑和本体方向都在探索，黄一如何决定 RoboParty 做什么、不做什么？
+53:17 RP1 为什么先服务科研教育，而不是家庭、工厂或文娱场景？
+01:01:13 把具身智能比作 42 公里的马拉松，本体、小脑和大脑分别跑到第几公里？
 欢迎订阅「十字路口」：
 🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
 🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
@@ -8281,350 +8541,6 @@ Pilot的第一款游戏《女吊》上线后，最让Justin开心的是另一件
 <p class="transcript-line"><span class="time"><strong>[00:29:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，拜拜，再见。</p>]]></content:encoded>
             <pubDate>Sun, 01 Feb 2026 16:00:00 GMT</pubDate>
             <guid>697c3998073030367a6ee5ef</guid>
-        </item>
-        <item>
-            <title>视频剪辑的「Cursor 时刻」来了？｜对谈 ChatCut 创始人李凯文：从金马导演到 AI 创业</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/697195ab109824f9e1df1e6d</link>
-            <description>🚥 视频剪辑，会迎来自己的「Cursor 时刻」吗？
-当编程世界被 Cursor、Claude Code 等工具重新定义之后，一个更难、也更少被认真讨论的问题开始浮现：创作类工作流，尤其是视频剪辑，会不会迎来类似的拐点？
-本周「十字路口」邀请到的嘉宾是 ChatCut 创始人李凯文。在成为 AI 创业者之前，他是鞍山卖打口碟的初中生，是罗德岛设计学院的小天才，也是一名广告与纪录片导演，短片作品曾入围金马奖。他拍过商业广告，也剪过大量没有剧本、极度混沌、需要在现实中慢慢“找秩序”的素材。
-正是这段经历，让他对「AI + 视频」形成了一套明显不同于主流叙事的判断。
-大多数人在押注 AI 生成视频，但凯文坚持&quot;不生成任何像素&quot;；大多数 AI 视频工具瞄准专业剪辑师，但他选择服务&quot;还不是剪辑师&quot;的人；大多数创始人在谈模型和算法，但他在谈&quot;炼金师文化&quot;和&quot;上帝之手&quot;。
-这些看似反常识的选择背后，藏着一套关于 AI 时代创作工具的全新思考框架。
-欢迎收听。
-————————————————
-🎬 这是「十字路口」第一次尝试一种新的视频播客拍摄方式。
-这一期，我们没有坐在桌前对谈，而是把整个对话拆成了两个连续的场景：
-第一部分，我和凯文一起开车前往郊区——我开车，他坐在副驾，我们在车里边开边聊，持续大约一个小时；
-第二部分，我们抵达他曾经隐居过一年的郊区湖边，在湖心亭坐下来，继续完成这场对谈。
-🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、小红书、哔哩哔哩、Youtube 等平台。
-📒 文字版将发布于 @十字路口Crossing 公众号。
-🟢 01:59 快问快答：年龄、毕业院校、MBTI 和星座、一句话介绍 Chatcut、融资情况、团队规模、创业前经历
-🟢 03:06 离开市中心：上帝之手推你去做自己的 0→1
-突然被推到的人生分叉口。
-* 一见钟情的房子，让他先“抽身出来”，再决定下一步：先离开旧身份，才可能长出新方向。
-* “憋一个招”：一年不接广告，只做一个属于自己的东西——可以是片子、产品、App，先让它发芽。
-* ChatGPT 出现像“时代交接”：刚用完未来，再回到 Premiere 的远古——于是诞生了“用聊天剪视频”的执念。
-* 他把创业说成“接上帝的活”：问题既简单又难，拼的不是技巧，而是对生活的简单但深入的洞察。
-🟢 08:02 第一个投资人
-VC 的价值不在“聪明”，而在“让你觉得自己也可以很强”。
-* 金马期间遇到 Antler 投资人 Eric：先给一小笔钱，看你能不能把它变成作品——像在押注“毅力”和“把事做出来”的能力。
-* 罕见的“empowering figure”：坐在他旁边，你不会觉得自己渺小，反而被放大。
-* 找出创业者失败的理由太容易，世界上大多数事都不会成；难的是有人愿意认真寻找“为什么你能成”。
-🟢 09:25 产品第一性：剪辑其实大部分发生在 Word 文档里
-* 经验反直觉：剪辑看似多模态，但剪辑师大量工作以“文字”为载体——先把视频转成可编辑的文本。
-* 早期策略是 “1000 个 true fans” 的小而美。
-* “穷创业”的隐喻：别一开始就给孩子存折里塞太多钱。
-🟢 11:18 早年的冒险肌肉：从鞍山到 Kent，再到 RISD
-* 他的“全球化启蒙”来自打口碟：没有互联网、没有评价体系，审美判断全靠自己构造。
-* 把热爱变成交易：背着一书包碟春游、塞耳机“强制安利”、电话里放歌卖首版——这是一种天然的产品传播力。
-* 人生地不熟也没关系，先试再说。
-* RISD 的“外星球感”：强调独立思考，输出“有灵魂的创业者”——他把这当成自己后来做产品的气质来源。
-* “dancing lessons from god”：愿意把人生当作被推着学舞步的过程，而不是等一条确定路径。
-🟢 17:08 导演 vs CEO：片场像 SWAT，创业像长期投资
-电影是一次军事行动；创业是把人当资产来复利。
-* 导演工作是典型的 day one：每次从 0 到 1，把 vision 变成现实，靠的是厚脸皮、三顾茅庐与完整 ownership。
-* 电影组织“只筛选不培养”：为了零失误而选择有经验的人；更像特工队，决策常常必须独裁。
-* 创业则相反：要对人有长期态度，把培养当投资——你不是一次性用完团队，而是让团队成长。
-* 他的 CEO 自我定位：铺马路的人——把路铺平，让十个人的聚力大过一个天才。
-🟢 21:33 融资方法论：找化学反应，而不是完美话术
-* 与刘元的化学反应来自“电影感性”：理性之外还能保持天真与好奇的人太少，而他在投资人身上看到了这个特质。
-* 你没法练出“每次都中”的完美话术；重要的是找到能同船很久的人。
-* 面对拒绝的唯一策略：放平心态，聊下一个；能成往往是天时地利人和，缺一就不行。
-* 这更像长期关系的开始，而不是一次交易的结束。
-🟢 25:21 人生杠杆：有事做，是最大的财富
-财富自由的人会羡慕你，不是因为钱，而是因为你有一个值得投入的“事”。
-* 他第一次感到“有钱人羡慕我”：不是我更富，而是我有明确的事在做。
-* Koji 的共鸣故事：当你什么都不干、没人找你时，抑郁感会像潮水一样涌上来——从此知道必须找事干。
-* 导演是没有杠杆的生意，用时间换钱；产品/软件则是强杠杆，但还能做自己热爱的事。
-* 痛苦与享受不矛盾：关键是你是否相信这件事有价值——越难受，越享受。
-🟢 30:03 愿景图景：别再造轮子，但你不得不经历造轮子的过程
-未来不是“颠覆编辑器”，而是让 AI 成为剪辑助理，工作在编辑器之上。
-* 视频早就通过微信/聊天被剪出来了；未来只是把这种协作变成系统能力。
-* Premiere / Final Cut / 达芬奇 / 剪映在编辑器上 99% 重合——轮子已经圆了，重复造价值不大。
-* 真正难的是抽象层：让 AI 理解剪辑工作流，看完素材主动给你更高水平的成片建议。
-🟢 33:34 目前最难的问题：风格从哪里来？
-“好看”没有 bug 可以测，那风格怎么被 AI 学会？
-* 剪辑有两层：先解决对错（口误、卡掉半句、竖屏比例），再进入风格化（个人风格、节奏、气质）。
-* 风格不是“从 A 到 B”的训练，而是 workflow 的副产品：你遵循流程，不把 ego 放进去，风格会自然长出来。
-* “硬强化学习”像武侠小说走火入魔：你没找到关键，只是在大力出奇迹。
-* 下一步路线：把真实剪辑师工作流拆成多个 agent 流程，靠 checklist 和 common sense 这种“训练数据里没写清楚的东西”去抬高下限。
-🟢 37:10 关键选择：不做生成像素
-世界每天在 AI 革命，但地铁里的人们刷的视频剪法一点都没变。
-* ChatCut 是“蓝领” AI：最接地气的 AI，专注解决真实创作者的工作流，不追“性感但虚”的炫技。
-* 类比 Frame.io：再小众的环节，只要解决得够扎实，就是 multi-billion business。
-* 现实验证：专业剪辑师很难被撬动工作流，于是他们改变目标——去服务“想表达但不会剪”的广大人群。
-* 产品价值判断：让新手直接达到 80 分的收益，可能比让专业剪辑师效率提升 1.3 倍更大。
-* 视频的核心是人与人交流；完全脱离现实世界的内容很难感染人。
-🟢 43:00 技术关卡：上下文与多模态还没到“可剪辑”的成熟度
-* 视频是 token 黑洞，上下文限制必须突破。
-* 多模态理解目前还不足以精确到剪辑层面；Gemini 是好的开头，但离“可用剪辑”仍有距离。
-* “cursor for video editing”的难点：没有足够开源“剪辑代码”，大量知识在人的脑海里与常识里。
-* 把能力拆成两半：
-  可验证的（剪口误、自动竖屏、抖音风格）先做满，就已经足够产生巨大价值。
-  不可验证的“好看不好看”，先不强求绝对答案；平台的优势在于积累数据与工作流信息，持续调 prompt 与能力。
-* 一个关键取舍：宁要 80% 且允许人改，也不要 90% 但人改不了——把控制权留给人。
-🟢 45:34 为什么“上帝的活”没人接？
-找到那个 “yeah this works” 的简单认知。
-* 他把自己优势归因到纪录片：unscripted 创作面对混沌素材，从无序里长出规则——这正是自媒体时代的主旋律。
-* 纪录片的工作流可复刻到抖音：程度不同，本质相同，都是在混沌素材中找叙事线。
-* 反例也很清晰：scripted 电影里“最好的表演 take”不可被 AI 选出来——那是 AI 不该碰也碰不了的部分。
-🟢 50:23 别追“绝对正确”，要培养“好习惯”
-* 决定结果的不是目标，而是习惯——AI agent 也是。
-* 剪辑没有绝对对错，充满机缘巧合；你逼 AI 找唯一正确答案，它永远是错的。
-* 更有效的做法是建立习惯：缺素材就回看、故事到这就找 sound byte、转场就拼命找 transition——细微点塑造宏观风格。
-🟢 52:48 模型红利
-* Gemini 2.5/3.0 对产品是“巨大帮助”。
-* 原本可能必须做 RAG / 向量库来解决上下文，现在可以先不做，产品迭代速度被直接释放。
-* MG 动画能力很大程度来自 3.0。
-🟢 56:19 “为爱而做的人”
-* 炼金师是“双重身份”：工程师/产品/设计之外的副业式执念。
-* 在 AI 时代工程师也要学会炼金：只做作业的人会被 AI 逐步替代，炼金师不会。
-* “炼金” = Tinker：不断试、不断撞意外，最终把意外系统化制造出来。
-* 你能听见音乐时，弹什么都对。
-🟢 01:04:34 电影不会消失
-* 现在做的每件事都会成为未来拍电影的燃料。
-* 电影不是目的，是封装器：你拍得好不好，取决于你对生活的理解，而不只是热爱电影本身。
-欢迎订阅「十字路口」：
-🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
-🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
-👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner（投资合伙人）。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站
-👧🏻 主播 Ronghui：我联合创办了十字路口，在美元 VC 工作过，也做过五年的硅谷驻站记者，关注科技发展和商业故事，欢迎大家找我聊天，和我交流。Ronghui 的即刻</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欢迎收听十字路口，我们关注新一代AI技术浪潮带来的行业新变化和创业新机会。十字路口是乔布斯对苹果公司的一个比喻，形容他站在科技与人文的十字路口，伟大的产品往往诞生在这里。我们长期观察AI创业，如果你正在做一件让你自己感到兴奋的事情，哪怕他还只是一个想法，我们都很愿意听你聊一聊，我会认真看每一条留言。嗨我是科技。本周十字路口我们第一次尝试了一种新的视频播客的录制方式。这一期我们没有坐在桌前对谈，而是把整个对话拆成了两个连续的场景。第一部分我和嘉宾一起开着理想mega前往郊区，我来开车，他坐在副驾，我们在车里边开边聊，持续了大约1个小时。第二部分我们抵达了嘉宾曾经隐居过一年的上海郊区淀山湖的旁边，在湖中央的一座安静的亭子里面坐下来，继续完成了这场对谈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>本周的嘉宾是谁呢？他是AI视频剪辑工具chat cut的创始人李凯雯，他过去十年的职业生涯都在做导演，而作为导演他非常的厉害，他的第一部短片作品孽种就入围了金马奖。我现在先自己开车去他们在上海乌鲁木齐中路的办公室接上他，然后开车出发。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>李阳。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>同学导航去淀湖桃园。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你现在这剥壳做了多久？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做了两年的时间。OK做了100期.</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也是那个频率是一周一期，一周一期OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是我们第一次用这种方式来录，不有可能我可以把它拍成某种有趣的系列，每次去个不一样的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个好的一个系列。Founders and cars go to places.</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>已经在开车驶离市中心的路上了，我们还是先从快问快答开始。请问凯文你的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>年龄92年，哇哦你毕业的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>学校罗德岛设计学院，你的MBTI.</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>和星座MBTI很久之前测过，已经不准了，不提了。然后星座双鱼座。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你自认为自己现在的NBTI是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>ANTP.</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后一句话介绍chat cut聊天的方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>剪视频。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>融资的情况目前是大概是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>千万人民币左右的种子轮刚融完。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们的收入和利润。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>情况不太好透露吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>目前团队的规模，十个人一句话介绍一下创业之前在做什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>创业之前我是一个广告纪录片导演，我之前是在vice和discovery，home production的创始人，然后24年短片金马入围。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在在开车离开上海的路上我们在这个路上就可以聊一聊你的来时路。然后等我们到了目的地之后，我们再来聊AI以及聊这个AI的产品chat cut。我记得有一次你跟我讲说，离开市中心是你人生的一个关键词。那是哪一年的关键词？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>二三年那个时间，那个时候是我刚拍了很多广告和纪录片之后，然后遇到了上海的比较特殊的那个时期，突然有更多的时间去做一些思考。就比如说我怎么突然拍上广告了呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你怎么突然拍上广告了？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>16年底的时候我去了vice media，被派到了vans的中国。然后在美国的时候，你做这种媒体，你可以通过平台的本身的收益。但是在中国，就比如说当时是你把你的片子放到爱奇艺上，或者优酷，或者腾讯上面，你靠那个流量去给你分钱，那个几乎是不可能成立的了解。所以说在中国就多了一个commercial部门。所以其实去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>vice的时候，一开始是认为vice是一个自由表达做自己的内容的地方。然后来了中国之后发现这里的商业模式是那样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我没觉得那是个问题，我是真想着做那个商业项目。因为就是你商业项目你是有预算更多的人去配合你做这事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你其实是主动拥抱了商业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我彻底的主动的拥抱了商业的。一有一部分是从学习的角度，我对那个很好奇，当那个钱不是问题的时候，咱们能有什么样的想法能去拍。然后从一个商业的角度，就是我觉得当时大学刚毕业的时候，假如说是我自己去拍一个短片，没有人管你要那个短片。对，但是你如果是说我给burger king拍了一个项目，对，咱们看都不用看，但是这小伙好像有两下子，burger king都找他拍，就是给adidas拍过。那得是什么样的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么拍着拍着那两年就想逃离了？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>广告它有一个实打实的技术的提高。还有一部分是虚荣的这部分。然后当他的这个唇虚荣的这一部分笑出来之后，我对于做纯广告那个兴趣没有那么大。然后广告是一个非常全面的一个要求，你有这个idea，同时你又得去说服你的演员和客户，和甲方和乙方和乙方的甲方就是乱七八糟的。我看见了很多人他非常擅长做这事儿的时候，我就明白了每个人的品种不一样。而我如果去硬去跟别人比那个广告导演的综合素质，我觉得未必有一个特别好的一个结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个时候想好接下来要做什么了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们现在去的地方也给了我特别大的一个启发。当时我们也是拍一个项目，就是在那个湖旁边OK。然后我去看景的时候，我就是觉得这太棒了，旁边有一个那种中介，我就说咱们看一眼，就是说可能搬到那儿不太现实，然后去看了一眼，然后看中了一个房子。有的时候这个不是说你做了一个决定，而是说上帝手在推着你就是觉得that&#x27;s the one.</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一见钟情的房子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得不管怎么样，先抽身出来，然后咱们再想下一步是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个时候开始拍孽种，这不后来入围金马奖的短片了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个时候是开始想要做一个属于我自己的一个事儿，它可以是一个片子，它可以是一个产品，它可以是一个APP。我这一年我可以我就不接广告，然后我就是接一个招照片具体是什么不知道，但是咱们先那个先憋着，让那个让它发芽，然后写了很多短片，那种是其中的一个。那一年的时候把它给拍出来了，其实拍那种的同时也是ChatGPT刚出来的时候，所以说就是我生活中开始用很多AI我也同时生成了这个check卡的这个idea。你刚用完GPT，然后再开始剪片儿，用premiere能感受到这两个时代的一个交接。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉自己在穿越。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是在说未来世界和远古时代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，然后我一直在琢磨做check的这个事儿，上帝一定会把这事儿给做了。但是是不是上帝让我去做这事儿，或者说我要不要把上帝这个活给接下来，就是解决一个普通人的问题。实际上它听上去既简单又难，它不是在于你有多么技艺高超的一个表达，对，而是说就是你对生活里面的问题的一些单单是深入的一些洞察。然后在这点上相比于一个纯工程师背景的人去做的事儿，就是我觉得我具备一定的这个优势。如果让上帝去安排，不一定会安排我。但是上帝如果还没指出一个谁的话，我把手举起来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这中间有哪几个阶段呢？从你萌生想要做这个事情，到今天我就开始。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>深入的想这个APP到底它是一个什么样的一个APP？就是刚开始的时候是一个ChatGPT或者cursor for video action，但是它到底是什么意思？它落地之后是一个什么样的一个APP？然后开始构思，然后在金马影展的这个期间遇见了angler的这个合伙人eric，新加坡的一个VC的。他会直接说已经跟你相处一段时间了，然后我给你很小的一笔钱，我看看你能用这个做出什么，看看你有没有一个做一个事儿的一个毅力。而且就是我也很有幸，我们遇见的第一个投资人是他，就是那种传说中的emiral figure。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个怎么讲？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是有很多人他的个人能力非常的强，他个人魅力也很强。但是你坐在他旁边的时候，你会觉得他这么强我是非常渺小的，我什么都不是，我怎么能跟他比呢？但是有的人是他个人能力强的前提下，他会放大他身边的每个人的能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我记得你曾经说过一个评价，就是说你见了很多VC投资人，好多人都是在找你身上不能做成这个事情的原因也有，但是艾瑞一直在试图寻找你能做成他的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，完完全全就是这样。找一个事儿不能成的原因很简单，世界上大部分的事儿都是不能成的，如果要找毛病的话，就是根本不用找。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以拿到庵tor的钱之后就开始做。然后第一版发出来的时候是顺利的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是当时的我们的目标用户，我是一个相对专业的一个用户。专业用户其实check大概的一个思路是你把视频通过某种方式去转录成文字。因为这也来自于我们剪辑的这个经验，就是很多时候剪辑是发生在这个word文档里面。剪辑听上去是一个很多模态的一件事，但是实际上一个剪辑师在剪辑的时候，大部分的工作是以文字为载体。所以说check它可能核心有两点，一个是用一个巧妙的方式把这个视频转录成文字，另外就是AI真正产生价值的部分，是怎么把这个已经转录成的文字去编排成新的一个剪辑，然后通过工程的方式把它映射到这个神经线上。然后我们第一版的时候其实只做到了第一个，就是我们只是把这个语音做成转录。然后人可以通过编辑文字稿那样的方式去编辑这个视频，他甚至都没有AI的剪辑的这个功能。然后接下来的版本里面，就是到了四月份的时候，我们才刚开始有AI剪辑的这个雏形。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以一开始是来不及做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是你如果有1000个true friends，它是那种你出什么他都会用，然后每年付你30美金，你把这些人服务好，你其实不需要特别大的去scale，它更多的是一个business小而美的这个产品。当时的时候我们是没有想要做这个能scale的这种大AIVC bax 2，我们就是没有ready for。所以说我们能做到的就是做出一个MAP，然后找到你的第一个customer，然后你的前十个customer，你的前100个能持续使用你的APP的人。但是现在我的观点变了，但是当时我觉得是好的学习的经验。就比如说你小孩留学去美国，你爸最好别一下在你村庄里面一下放个50万美金，可能一下染上了不良的习惯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你的意思是穷创业反而让你经历了更多，学到了更多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>别人可能有别人的方法，但是对我来说它是一个特别好的学习的一途径。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这让我想到其实你是从辽宁的鞍山。然后去美国直接读高中，而且在in school是一个非常好的高中。这个是怎么做到的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我小的时候学习是属于班里面中上的，不是一个特别好的学生。但是我就是对外界的这个世界特别有好奇心，比如说当时的那些电影，我就是有一个我就看一，然后音乐有一个我听一个。只要是唱的不是中国话的歌，我就觉得这个听一听，然后这个别人能听明白，然后我装模作样我能听明白，然后我爸也比较支持，就是我的这些兴趣爱好。就是我爸出差的时候，当时有个东西叫打口碟，都按斤买，就是我爸就直接买一斤回去，我就一个一个听。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>玩的太开心了，每次收到一斤像拆盲盒的快乐。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个时候它不仅是盲盒，而且你拆完了也是盲盒。因为这个东西不像是说我拆完了一看涅盘我上网一搜，别人说这个好，因为还没有那个internet，就是说你整个评价体系都都得你自己去构造这个东西好听不好听完全是靠你自己去判断，靠你两只眼睛两只耳朵去听。然后就是我对外来的这个文化特别好奇，以至于我初中的时候英语就特别好。当时是can&#x27;t正好来上海做那种面试招生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但他怎么知道你的存在，或者你怎么知道can&#x27;t school来上海？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你在鞍山，这个就是当时做的一些调研。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是已经决定要去美国读高中了，所以开始在做这个调研了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想要去美国读高中OK，然后原因一个是我对外面非常感兴趣，然后我看那些美国电影，我觉得那个就是我的灵魂的所在。当然后来并不是完全是我想那样，而且我妈是一个高中老师，出了名的比较狠的那种，我的成绩应该不出问题，就是去我妈的那个学校。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个时候在鞍山，大家去美国读高中，这仍然是一个极其小众，几乎没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这样我觉得就是我对于新的一个事儿或者一个新的地方，我从那个时候我就一点儿没有那种会是什么样的。我这人生第一步的时候，我会不会遇到it&#x27;s OK，就是let&#x27;s just try，感觉对于风险的承受能力是非常高的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他来上海招生，你是感觉自己身上的一些故事或者性格打动了他们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在初中的时候我开始卖打口碟，我首先有这个销售能力，另外就是你对一个东西，真正你有多热爱这个东西。我初中的时候就是热爱音乐，热爱到已经就是疯了的地步。别人春游的时候都是拿着那种面包饼干什么的，就是我就是背我所有的打口碟，就是在书包里面，然后我就是你在我旁边走，我就是耳机塞到你耳朵里面去推销吗？对，你听这个，你买不买不重要。但是你听这个东西，你就只有我一个人觉得这个东西听吗？就是说第一次听到beetles，第一次听到涅槃，我觉得这个东西太牛逼了。然后你听你觉得就是说甩你的脑袋，你怎么能觉得它不好听呢？这太好听了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这是非常热情驱动的一个创业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是完全热情驱动的一个创意。然后我还记得买到了一个，比如说一个002的1个新专辑的一个手版。然后当时的那个打火机，就是别人那口都打的巨多，然后我那口就打的很薄。所以说我那一首歌没打掉，然后我就给同学打电话说，嘿you know我弄到了一个blink into的一个新专辑的手办。然后我现在的电话上我直接就开始给你听一下，然后我就打开我的stereo，然后电话上听我说牛不牛逼，50块钱买不买，明天就没了。我说那给我留俩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇呀。我觉得现在听起来仍然是非常快乐的一段创业，对这个很幸福。如果别人不买的话，你也自己留着，也是一个自己的资产，对吧？这个也不会因为卖不掉而苦恼，这样的商业模式真的是太爽了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实做一个start up就是你成不成功，不管个人能力有多强，都是上帝去决定了很多的这个因素。但是我觉得作为一个创业者能做到的，就是说我选择做的这个事儿是他失败。It&#x27;s OK我们一起做的这个事儿和一起做这事儿的人，即使这个事儿成功与失败，就是我们的过程一定是好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>沿着这个路，其实你很容易就会走上。比如说去读个商学院，或者读个经济，或者读个计算机是吧？但是你后来去了罗德岛艺术学院。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我高中在cat的时候，我就热爱上了电影。当时我有几个电影学院的选美国，他挺好的一点，就是他鼓励你去那个college visit。然后我去了罗德岛设计学院的时候，我觉得一下能感觉到这的人太不一样了。然后他的那种发型和他的那种穿着，和他的那种他听的那个东西你没见过，然后他看的那些东西你也没看过，就是感觉有一种完全来到一个外星球的一个感觉，是一个特别鼓励那种独立思考的那种地方。所以他出的那些start of founders都是感觉有灵魂的那种star还有哪些？比如说那个bran chest key和joe gaba的L.</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>BNBANBNB。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后family guy的创始人是can school和risi是我的ali.</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你这还蛮特别的经历，可能找不出第二个鞍山人有和你相近似的经历。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一个作家叫kt money，他管这个东西叫dancing lessons from god，就是我是愿意去take dancing lessons from god。但是东北是际上它是一个比较保守的一个地方，可能是到我这儿就是出现了一个基因的一个突变。然后东北确实很少有这种冒险精神的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在越来越少了。其实都说导演很像一个片场的CEO1样，他要统筹所有的事情一样。那那你真的创业做CEO了，你觉得两种CEO的角色都当过之后，有哪些相同。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哪些不同吗？我觉得就是有很多相同的一些点就比如说一个导演，他是一个综合素质的挑战，你对这个世界有一个自己的一个认知，然后你有一个vision，但是你有一个vision它只是一个刚开始。作为导演的话，你得有能力去吸引到这个资方，没有能力去吸引到crew，没有能力去吸引到好的演员。然后让他们去达成这个region。他是一个需要你有很强的抗挫折的能力，以及厚的脸皮，然后以及三顾茅庐的一些精神，最后去take complete ownership是这个vision。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外我感觉特别相似的点就是导演每次的工作都是从0到1，每个片儿就是全新的一个片。Always stay one is always stay one, 我都是要很快的进入到这个舒适区之外的一个环境里面，完全从零把它到一给做出来。这个是一个极其高度相似的，和这个创意不。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相同的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得最大的不相同是一个影片拍出来的时候，这个东西它就不动了。但是一个APP产品发售的那一天，你实际上你才刚刚开始。你要去打造这个东西，最终他是什么模样，需要一个很大的一个思维模式上的一个转变。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才说的其实是作品的角度一样，从管理的角度或者就从经营一家公司。因为做电影其实你也在经营一家临时组建起来的一个组。那这个又有哪些相同不同吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得电影的组织是一个纯只筛选不培养的一个合作方式。OK广告公司在选导演的时候，他得做过，比如说我们要拍车广告，这个导演得是之前拍过五个一模一样的车广告，这个人我们才会考虑这个，因为这个事儿容不得一毫秒的闪失。与其一个公司它更像是一个swapping，就是拍电影，他是一个特工队。对，一个特工队，然后特工队里面他不是一个那种很理想主义的。就是说咱们talk about ideas，当然你talk about ideas，但是你在拍片的时候，它就是一个军事行动。做决定的时候需要一些独裁的一些，就是我们不商量，我们这么做了。然后做一个startup的话，对人要有一个更长期的态度。你要做一个真正的一个好的一个start up的话，你应该对人更像是一种投资。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你会觉得做电影导演的这种独裁感更强，做一个SATUP的，你会怎么看待不同的管理风格？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得导演他可能看上去是一个非常独裁的一个角色。但是其实任何一个好的一个管理者，独裁这个事儿他就不work。是不管是这个公司运营，还是更大层面的独裁，都事实已经证明了，它的原因是很明显的。你如果能找到跟你一路的人，然后激发别人的这个能力，然后十个人聚力去做一件事儿，肯定是要远远大于一个天才。但是他是一个独裁的一个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你是什么风格的一个管理者？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我一直把自己当成一个，我是铺马路的那个人。然后大伙儿来的时候就是非常的顺利，大伙儿有完全一致的认知，对这个片子有非常清晰的预判，然后把这事儿能顺利的完成。然后一个CEO我觉得我真正的工作是给大伙把这个柏油马路铺的特别平。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们公司的目标是谁定的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的公司目标这个是我们可以是一块去商量。我跟现在的这个产品同学，我们现在的合伙人，他是有大厂的这个经验，特种兵的那种方法论，然后加上我的一些直觉上的一些判断，我们是一个完全互补的。然后我们会自己去立一个这。目标让我们去完成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你从一个非科技行业的从业者，现在做了一个AI data一样。今天很多人在自己的行业里面，他也有一种受困于此的感受。这种困顿感大家想去突破它，所以你会有什么样的建议吗？就怎么离开那种困顿？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得就是事儿都不是说出来的，然后也不是学出来的，都是做出来的。就是现在AI的coding的一个好处就是你没有什么借口，就是说我不去做一个事儿，就是现在迈出第一步是很简单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的那我们刚才聊到你拿了answer的钱，做出了第一版MVP的产品。然后后来是真格投了，是刘元丽的的一个投资一样。所以你和刘源在接触的过程中有一些什么样的故事吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是当时没有任何的market的情况下，已经有很多付费用户了。下一个slope是一下要远高于现在这个阶段。你要做那个就是真正的需要一个c start up。然后我那个时候开始回国开始融资，然后我那一个月就是什么都没干，然后就是一个一个见投资人。我就像那个GPT1样，我得到了深刻的情怀学习。然后在中间的那个期间遇到了刘言，我觉得上帝之手就是把我们俩放到了一起。就是说中国这么大，这么多投资人就是out of all the investors，out of all the start of founders, we were able to meet他是一个特别喜欢电影的一个人，做这个AI started，他需要很多理性，但是同时也需要很多感性。有的时候你看数据看多的时候，你的感性的那一面会被逐渐的消除掉，能保持自己的感性，能保持自己对这个世界的天真的一个看法的人是非常少的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刘媛她是具备真正的感性，然后具备真正的一个好奇。给我印象最深的是就是我们聊了很多电影，然后我一开始以为他只是把我放到一个温水里面，然后最后要怎么样去煮我，然后我也给他推荐了很多电影，但是他凌晨两点的时候会说，凯文我看了你给我发，他是真的好奇。然后我觉得就是我觉得这个非常少有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但对电影的共同好奇，那怎么就导到这个投资的发生，或者就你们对事业上的这种共同的追求和彼此的认可。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他真的是在试图完完全全的了解我，然后他再见到一个我的一个模型，然后在未来能对我做出一个对未来的一个判断，然后他不喜欢正确的答案。我没没跟他聊过这个，但是我觉得就是假比如说有一个AB然后这个就像赌马一样，这个A是70%的胜率，然后B是30%的胜率。然后这个理智的情况下，就是大伙儿可能都选A但是你即使这种情况下，你即使对了，你也不会从中得到特别多的满足感。得是你做了一个特殊的一个选择，然后你对了，但是大多数人都错了，这个时候你才会得到更多的满足感。在这一点上，刘源跟我是我们俩就是一模一样的，就是做了一个对的事儿，可能就是it&#x27;s OK，it&#x27;s mine. 但是如果说做了事儿给别人打脸了就是。That even Better.</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都在追求各种体验。对你刚才讲说你在建了非常多VC之后，有一个强化学习的模型一样。对，有什么tips可以给到其他还在创业的还在融资的founders吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先放平自己你的心态，你不管怎么样，你没法练出一套完美的话术。就是说你每个都中对这事儿不存在。然后世界上有很多VC然后你要找到的是跟你能有化学反应的一个VC对，因为投资不是一个一次性的一个事儿，不是说投完了人就走了，而是说大伙儿会在同一条船上待很久。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有点像一个长期关系的开始。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对它是一个长期关系的开始，然后这个事情发展不是我一点一点接近了，最后融了。而说就是它发生之前都看上去都是不可能的。所以说就是面对拒绝，然后去聊下一个。他不是所有的事儿都能得出一套方法论的，你就是得不断的尝试。那是这个是这个是那个，然后有一个零了，它也没有什么特别可复刻的原因就是天时地利人和，然后这事儿就成了，然后这个天时地利跟人没和，就不行了。这里好美啊呀，这个像一个咱们拍戏公，当时我拍片看景的时候就看到这是一个湖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是它巨大是大到有点像一片海耶。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太棒了。我开始做check之后，就是我高中那学校是一个就是我同学都很有钱，以前都是我特别羡慕他们。但是我开始做全卡之后，我跟他讲我做的这个事儿的时候，我第一次就是我能感受到有钱人对我的羡慕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇哦就是你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个人有事儿做，那个是你最大的财富。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>同意也要。我人生最痛苦的一个时间是14年15年，那个时候聚美上市了，那一年我应该29岁，然后也有了一笔钱，然后我就裸辞了，然后就去美国，就住在我一个朋友家里。他当时就已经买了一个湖景房。然后当他白天要去上班，他上班之后，我就自己在他的湖景房三面环湖的客厅的白色大沙发上躺着。然后第一天心情非常好，然后他自己换上装备出去绕着湖跑步。然后第二天、第三天，然后到第四天的时候，就觉得我第一次感觉到了抑郁是一种什么情绪。我觉得摸手机没人找我，再摸手机还没人找我，这个世界好像就是离我远去了也没有人在care我，我也不知道我还能和谁发生什么样的联系，那个真是巨大的痛苦。然后我就知道了，从此以后必须要找事情干，这个就是躺着根本就不快乐耶。你当时在这里住了几个月。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一片住了一年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>整整一年，春夏秋冬四季都都经历了一样。住在这里的时候生活方式是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时有车，然后每两周去一次山姆，买所有的吃的东西。然后当时对健康就是比较有意识的，我每天得多走路，然后我得working。当时还开始做一个事儿，就是冥想。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那一年的开头和结尾，你觉得你自己有什么变化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得那一年开头结尾我就完全不是一个人了。已经之前是一个上海的广告纪录片导演，经过那一年就是我觉得可以摆脱那个身份以及任何一个身份，自己就是有更强的定力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样你当时做导演的时候，一天的酬劳是多少？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一天10万块钱，然后那个就是Normal life，然后就是i show up is like。但是我觉得导演是一个没有杠杆。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的一种时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>换钱也有了。Check up这个idea之后，觉得哇哦这个东西它是有强烈的杠杆，但是同时就是我仍然是在做我喜欢做的事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以做到现在这个chat cut多数的过程你还是是享受的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他就有一本书叫the men&#x27;s search for meaning，就是挺有名的那本书。就是你过程享受和痛苦是不矛盾的。他更多的是在于就是你做的这些事儿，你有没有believe和你根本上觉得它有没有价值。你如果觉得你的这个东西是有价值的话，你其实越难受，最后你是越享受的。它是成正比的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就越难受，感觉到越享受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就像电影一样，不经历九九八十一难，直接西天到了咱们取经，那个就不好玩。那个电影所以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你其实在期待着一些磨难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>影视真的是一个纯高强度的压力测试。那个片场你能发生的事儿，就真的是每天你很难去想象，他在你日常生活里面去发生。然后现在对我来说就是从别的角度不说，但是就从这个抗压的角度，就是说磨难在我身上的这个就是没有什么能触碰到我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所谓的关关难过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后关关过也要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后就开始也更自信自己可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>解决问题，也甚至是说这个关关难过的假设还是说就是你为的是关后面的那个东西，但是that&#x27;s the job，而不是说为了后面那个东西。如果这个关不存在，就是说i have no job.</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>The obscure is the way, 哼就是有一本书。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>叫障碍本身，难关本身，它就是一种生活方式，它就是道路本身。对对对，当时做导演的时候，拍片儿的时候，你遇到的最大的难关是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个还真没有哪个是单一的一个巨大的难关，就是everything goes wrong。而且这个我感觉也是跟那光棍难过一样。Everything goes wrong的假设是is supposed to go right，但是我的心态是nothing supposed to go right，就是of course he goes wrong.</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>that&#x27;s the job. 我们现在终于到了湖边，这就是你经常会来的一个地方吗？是的，一般在什么样的情景会来到这个湖的中间的这个亭子之前。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是住在后面的一个小房子里面。然后早晨可能就是第一件事儿可能就来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再来聊一下chat cut。其实chat cut在做的一个事情是说用自然语言去帮助做视频的编辑。有人觉得这是一个一定会发生的未来，但也有些人认为它可能永远不会发生。我理解你肯定是相信他一定会发生，所以你才选择做这个事情。当你在想到他的时候，现在脑海里面有一个什么样的图景吗？你现在有办法把它描绘出来吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得它不是一定在未来会要发生。对我觉得在过去视频就是这么剪出来的。就是你可能视频是一个剪辑师在premiere里面的操作剪出来的一个东西。对，但是视频都是通过聊天的方式。客户拿着一个微信说你这镜头给我放这儿，你这镜头给我放那儿，都是通过聊天的方式去剪出来的。当然你如果说特别细活的时候，存不存在那种情况，就是说我就要把这个东西挪一针，然后我其实手挪一下比我用聊天我还得说半天，然后他还给我挪错了，就是这种情况是可能的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我们现在这一大段采访，对，然后到check里面，它可以你可以说刚才提到了这几个点是不要提的。然后我记得当时说的这句话是很好的。放到最前面，然后帮我加上合适的音乐，帮我加上合适的MG的动画。你可以说这样的一句话，然后它可以帮你剪出一个大致的一个效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我觉得未来它的这个APP的形态，我觉得有些事儿不用去有天翻地覆的表象上的变化。因为就比如说剪辑器是一个被解决过的一个问题，就是premiere final cut达芬奇甚至剪映。它在编辑器这方面是99%的重合度。但是高度相似的。因为就是经过时代的打磨，这个轮子就是圆的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们不打算重复造一个轮子吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得造一个轮子没有特别大的价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果说我们这个愿景是要做一个自然语言一样视频编辑器，那这个中间你觉得会经过几个步骤？那分别是什么步骤？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你不用去完全造这个轮对，但是你不得不经历这个轮子造的这个过程。因为你没法拿着premier来做你的这个底层，去直接在premiere里面去改。你可以做插件，但是那个东西它是有很你受制于人，因为轮子不同程度上你要去做。但是最核心的这个部分就是AI还是抽象的这个部分，就是怎么去帮助这个人去做一个剪辑助理的一个工作。就是他得掌握的是这个剪辑的一些真正的工作流里面的一些流程，而不是说在页面上有一些所谓的创新。AI其实更重要的解决的是在这个功能，也就是说剪辑编辑器之上的一个层面，它是一个思维的一个层面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Check经历的是一个AI在他是一个小学生，但是下一步的工作是把这个小学生送到读高中读大学，然后让他对这个世界有自己的一个判断。就是你素材扔进去的时候，他可能不用等着你指哪打哪儿，而是说一看这素材明白了，然后我给你讲讲这个东西怎么做。然后我给你剪出一个高于你的这个水平那个视频。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以第一步你们现在在做的还是要再造一个编辑器吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一步就是我们的工作，它可能是一个比较平衡的发展，有这个编辑器的成分，然后有这个AI的成分，它是一个比较平衡的一个发展。它不是说咱们造出一个编辑器，然后咱们编辑器造完之后，轮到AI了，咱们去开发那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI所以在过去的这一年多，做菜开头的过程中，你思考最多的问题是什么问题？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>核心的问题可能是这个风格化的这个东西风格到底来自于什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个风格指的是影片的风格是就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>影片的风格。OK你在看一个人剪辑的时候，剪辑有两个层面，一个是涉及到对与错的这个东西。就比如说你中间说一句话，把这话没说完卡掉了。对，这就错了。我让你剪掉口，然后我看没扣没剪掉，你错了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你如果是在解决了这些基础的问题之后，就是说他已经没有对错的这个东西的时候，比如说每个youtube或者说每个自媒体现在有很强烈的自己的个人风格。整个剪辑的过程里面就要理解这个风格化。你怎么用AI去复刻这个风格化这个东西。我觉得这个是一个现在还在探讨着没有人有答案的一个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我理解这个难是难在它很难有强化学习所需要的那种反馈闭环。AI coding之所以能够那么快的发展，是因为有bug，它就是有bug，所以这个是很容易拿到强化学习的反馈。但是怎么样一个片子好看，这个非常的主观，非常的风格化。在你思考这个问题的过程中，你觉得他有可能是通过什么方式去解决吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就比如说我在剪west的片子的时候，我在剪discovery的片子的时候，就是我的思路不是说OK李凯文来了，咱们拿出自己的风格，那就是咱们剪一下。而是说你follow一个process，你遵循自己的一个流程。然后因为我用这样的一个流程，我每次就是我不把我的异构放在里面，而是说这个素材量很多。但是没事儿，我们先看采访，然后这采访也很多，听起来也很难去记住这些每一个点。我们先有一个word文档，所以说刚才提到这个为什么剪辑很多都是文本上的工作。所以说就是每次我follow这样的一个workload，它最后导致了我形成了这样的风格，也就是说它不是一个A点到B点的一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说你如果用这个传统工程的思维说，这是A这是B咱们强化学习，大力出奇迹，这个就是中国武侠小说里面走火入魔写成的，就是硬来了，你没找到这个问题的关键。但是你如果观察着他在刚开始在做这一步的时候，他用了一个这样的一个技巧。所以他最后呈现是这样的，它会帮助你自然的形成一个风格。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这个要怎么去变成chat cut的一种能力呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>下一步的工作就是我需要把真实的剪辑师的工作流做成不同的agent的工作流。然后去观察他们在不同的语境下，不同的素材里面不同的表现。很多东西需要人去给定义的，因为我觉得你说的是完全正确的，剪辑有很多事就是人类的common sense，他没有内化在这个LM的训练数据里面。所以说有一些工作流他先做什么后做什么，这些小的这些checklist，像这些细节，实际上它很大一部分决定了这个成片是什么样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天做AI视频的这个工具蛮多的，大家有不同的路径，但这里面有很多关键的选择。比如说一个关键的选择是用什么模型一样，然后另一个关键的选择是我给用户多少的自由度，我要不要做workflow？没有，我要不要用深沉的画面，还是我就是原教旨的只用用户拍摄的画面。就是在这一系列的各种关键选择里面，可不可以讲一讲你认为自己已经做出了哪些非常清晰的，你自己很笃定的选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的目标就像1加1等于二一样清晰，原因就是我们自己就是用户。有的时候他的这个问题提出的时候，可以直接想一下现实生活中每天在拍东西，在创作的这些人，他们的需求是什么？我觉得就是AI生成视频没有给真实的世界带来特别大的影响。就比如说你坐在飞机里面，你看前面那人看的是什么。然后你在地铁里面看见一个人在刷抖音，他刷到的是什么？然后这些视频是怎么剪的？一点都没变，那个视频是怎么出来的？一点都没变。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说他就是这世界它是矛盾的，有的东西看上去每天都在天翻地覆，每天都在革命。但是有些事儿就像我们坐在这湖边，就是这一点也没变的。我们的AI就是我们一直把它比作它是一个蓝领。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>世界上最接地气的一个AI解决的就是最真实的创业者的工作流。假如说这个工作流里面你解决一个问题，你解决好了就是that&#x27;s a billion。比如说free male may就是一个好的一个product，它就是做那个视频review，就是那个审片。这是多内存的一个market，但是就是multibillion er company，因为它不那么sexy的解决了真实世界的一个真实的一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也有另外一个观点，就是认为其实视频剪辑这个里头是环环相扣的。你刚才举例的这个审片，它其实不在乎剪辑的这个工作流里面。剪辑因为它环环相扣，因此大家会很谨慎的去改变自己的剪辑的工作流。也就是你做到现在，你有看到有哪些苗头吗？会在什么样的剪辑的环节，因为AI的出现产生什么样的可能的改变。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你的这个评估完全是在我们的这个现实中也得到了验证。就是一个专业的剪辑师，你很难去触动他的这个工作流。之前我们target很多那种专业的剪辑师。然后这也是我们改变了我们的target的一方面原因。就是我们意识到了这个生态系统的庞大，我没法造出一个premiere，然后我们在premiere上面加一个A这肯定是做不到的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们改变了这个对目标用户群的定义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为你轮胎跟地表接触的时候都有了。现在对我来说最exciting的是就是我们的用户他可能之前都不是剪辑师。就比如说他是一个一直想要做内容起号的一个自媒体的人。然后他之前觉得做一个内容，就是剪辑一直是他不做这事儿的一个原因，太难了。现在拍摄它特别简单，你拿出一个手机去拍画面，就是不比这些相机差。对，但是剪辑就是最重要的一个卡点。然后我觉得就是解决他们的这个能一下让他们达到一个80分。我们给这些人提供了巨大的价值，甚至比让专业的剪辑师提高工作效率1.3倍，我觉得那个要更有价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以在这里举一个具体的例子吗？就是比如说刚才提到的这样新的这些目标用户，他们因为有了chat cut，他们现在剪出了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么样的新片子？就是比如说别的AI的视频的APP，这个东西是用哪个出来的？一看你就知道这是google bill，这是clean，这里面的水肯定是记梦，然后这也是漫画风格，肯定是什么什么什么。但是用拆开剪出来的片儿，你完全看不出来它是没有AI痕迹的。因为它就是只触碰剪辑，我们不生成任何的像素，它只生成上面那个动画，就跟你用AE去做那个觉动画是一模一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说我们用户群里面发现的那视频天差地别，就什么样的都有。就比如说有一个老师他就发现，我如果直接把我那些课件或者那些大纲，我直接扔进去做成一个的MG动画。然后我再录一段自己的视频，然后再就是用那个jacka剪一下，我直接就能做成我的一个自媒体的一个账号。然后我们会有那种房地产的那种视频，他现在直接能自己去做这东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看到另外一种路径，他和你们的目标用户是一致的，就是我不要去服务用户。最专业的用户在premiere里面他们过得好好的，我就想去服务那些想用视频表达但今天还没有能力的人。这样的人群是广泛的那有一些产品的做法，他们是帮这些用户去生成视频，然后再用生成的视频去剪辑出一个完整的片子。因为这背后有一个假设，就是用户要自己再去拍东西，这个是困难的。因为拍摄本身虽然工具很简单，但是视觉语言的表达很困难。因此他就只需要用户有idea就好，他把这个idea翻译成视觉，再生成出视觉，最后组合成片子。但这个显然不是你们选择的路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它的这个就是我们对未来很显然有一个不同的一个认知和一个判断。就是我觉得视频它根本存在的一个原因是什么？就是它是一个人之间交流的一个东西。但是你如果是说里面完全内容是不跟现实世界相关的话，你很难去感染一个人。就比如说你录了一个很糙的一个视频，但是这个视频是你一个真人对一个观众讲一个故事，它能引发的一些东西，不是说他不专业能掩盖的。但是这个人是具备生命力的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI能取代很多东西，但是我觉得它取代不了最核心的这个东西。我觉得就是做生成，它一定就是一个创作手段之一，它是一个艺术的手法之一。但是我觉得你如果是正常那个东西可以代替别人的拍摄，那个就是对世界的一个错误的一个判断。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得可以有部分的生成，但是不能是全部的生成。因为全部的生成没有世界的真实的样子，它很难打动人。今天虽然AI做了很多突破，但还是有很多做不到的事情，那从此刻到如果有一天真的一个自然语言去做视频剪辑的那个chat cut它诞生了。我觉得这中间还有哪些技术上做不到的事情需要去属于突破。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是首先这个上下文的这个limit那个叫什么？上下文的限制这个是一定要突破。因为视频是一个消耗大量投屏的一个东西，然后现在的这个上下游的limit是一个问题。然后就是多模态的发展，实际上多模态现在还没有一个真正意义上的一个特别成熟的一个多模态的一个模型。Google是对这个原来算是一个好的一个开头，然后他对这个音频和里面说的话有一个大概的一个理解，但是他还没精准到能去做剪辑的这个程度。我觉得这个多模态和这个上下文的会是一个比较大的一个突破。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天curse r之所以成立，是因为背后有非常多的代码，这个是他训练的材料。对，但是要去做一个比如说curse for video editing，就是我们在做的事情。背后没有那么多的开源的代码，因为视频剪辑它对应的这些全是在脑海里面的知识。没有这些知识，没有这些东西，你要怎么去训练一个AI它可以很好的去帮人完成剪辑的工作呢？你们现在是一个什么样的思路要去完成这件事情？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是剪辑它没有那么多的代码，不是因为剪辑要比代码要难，而是说剪辑它更多的是很多common sense的这个东西在里面。然后common sense是L一本身就具备的一个东西，那个是一个前提。然后另外的话就是我觉得剪辑还是得分成两块去提高。一个是能验证指哪打哪的那些东西，比如说我要剪，可恶我还没剪完，然后我要做成一个抖音风格的一个东西，看有没有给我变成15屏，16比9。就是有一些东西是能验证的，然后有一些东西确实是好与坏什么的那种。我觉得如果是做到第一个程度的时候，它其实就已经提供巨大的价值了。就假如说你能指哪打哪的那一天，就是你画的稍微说清楚一点，或者说你要什么你稍微说清楚一点，我觉得他就是能提供巨大价值。然后另外我们也得去通过我们自己的平台去收集这些信息。然后一个是调优我们的prompt，然后一个是我不敢说应不应该这个事儿是不是一个训练的一个模型能出现的一个事儿。但是我觉得没有那些代码that show，但是我们自己做一个平台的一个优势。第一个我们去积攒这些信息。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得其实你还在挑战一个非常难的事情。你来的路上其实我们有在聊，觉得这个事情是上帝一定会选一个人来做，因为它一定会发生。你之前在看谁会去接上帝这个活，好像没有人接，然后你接了，那为什么没有人接呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个OL interesting。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为其实有两种创业的状态是不一样的。一种是我在做的事情，有1万个人都在做，也有另外一个事情是我在做的事情没别的人在做，也明白。然后好像你在后者，但这两种它各有各的好与不好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我们也不完全是在后者，我觉得他是很多人觉得我们在前者，甚至可以这么说，然后很多创业者也会觉得自己在前者，也把我们归类为前者。但是我为什么说上帝这个活儿没人去接，他的原因是这个你能锁定这个一个方向和找到一个东西的一个切入点和一个好的一个方法论，是一个非常难的一件事。这个切入点是一个非常细腻的一件事儿，然后他有的时候不是需要你一个特别天才，特别划时代的一个想法，他通常都是yeah this works，就是我需要的是这个，它是一个很简单的一个认知level的一个东西。然后我觉得恰巧我的纪录片的背景在这方面起到了一个特别大的一个作用。还是说纪录片它是算在这个东西叫unscripted，就是没剧本的创作里面。它包括就是现在我们几乎讨论的一切的content creation。就比如说你是一个youtube r你是在做一个unscripted，与unscripted相反的那个是script TTS，那是电影的那种创作，就是有一个严格意义上的一个脚本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你剪辑的时候需要解决的问题不是说我选哪句话，我怎么样去筛选内容，我怎么样去找到逻辑。而是说这个逻辑已经是铁打的了，但是我怎么找到这句话的最好的表演，我们怎么找到这句话？这个信的逻辑已经定死了，我们怎么能去切机位找到最好的呢？我觉得是AI不要去碰也解决不了的一个问题，就是梁朝伟对张曼玉说，我有个船票你会不会跟我走？他有100个take，你让AI去给你选，就是forget IT看你的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后在unscripted这个层面里面，就是纪录片是最难的。因为它是素材量是巨大的，而且他的目标是最盲目的。你王冰你拍了就是铁骑去拍了三年，你要剪三年，最后剪成3小时。你不是说带着脑海里的一个印象，然后最后要剪成我脑海里的那个东西。你是完全要面对自己每天的这个拍摄，然后去有机的形成一个有生命力的一个东西。但是你找到了这个东西之后，他的工作理由是完完全全复刻在你拍抖音也是一模一样的。因为它是不同程度的一个问题。比如说你拍抖音，我去长白山滑雪拍了一堆random的这个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你在一个比较低的一个程度上，你是在解决王冰纪录片导演解决了同样的问题。就是一个无序的一个素材里面，我们怎么去找到这个规则？这些规则里面可能有三条可能性的规则，但是这个是我觉得最吸引眼球的。所以说就是非常巧，我在AI出现之前就是在做大量的央视探索频道外资的这些纪录片。所以我对这个混沌chaos虚无的这个宇宙FC that，然后我从中得到的这个东西，它恰巧它是现在的一个内容content creation增长的一个最大的一个趋势，就是自媒体youtube ER其实都是纪录片，就是我们现在在做的。你可以觉得我们在做一个抛开，但是我mentor。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外就是我当时迈出这一步的时候，是在一个特别好的一个时机。它是到了lam已经出现了1到2年，但是AI coding才刚刚出现。然后也就是说刚才提到actor给我的最大的一个影响就是enter它。因为是第一个投lovable的公司，所以说我们有无限量的love credit，然后我能在一个刚开始的时候就是说OK有一个label，那我web这个就是还等啥呢？但是我现在想起来，就是在那个时候你开始卖这个东西，现在能有一定的起色。相比于你现在说，我也想要有一个check up这样一个想法，然后我现在开始去搭建这个团队。就是我觉得这时间稍微有点晚了，这世界没有停滞不前，还有我然后有其他的人在蹭我这样的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你把这个坑给占住了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的这个萝卜已经扔进坑里了，然后你也可以硬塞一个萝卜进，但是就是life is not going to easy for you。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>像你刚才提到的，之前做纪录片，比如说拍了三年的素材，最后要把它整理成3个小时的有完整的生命力的一个故事的叙事线。这个其实是有一些know how有一些方法在自己的肌肉里面。你是怎么把这些方法落到chat cut这个产品上面，表现成一些功能，一些他今天大家看到的feature.</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的yeah有一种消费的一个理论。就是说一个人他做的一年之内会取得什么样的成绩，不在于他给自己列了什么样的目标，而是在于他养成了什么样的习惯。OK然后我觉得这个在a agent里面，它是一个被低估的一个方法。就是有很多人觉得这个AI它是一个应该是这是原素材，这是结果，或者说这是context，这是我要的结果。然后它应该有一个特别线性的一个连接。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是实际上可能很难去让一个很多人理解的是这个问题有很多不同的对的答案。我在剪片的时候，它有太多的机缘巧合的成分在里面。我可以这么剪，我找素材的时候一看到这个，我没在找这个，但是我看见这个就是放这i works，他没有什么绝对的对与错，所以说就是你如果用AI去找一个绝对的对错的话，它永远都会是错的。你只能去给他养成一个好的一个习惯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是说当你这个地方有缺失的时候，你要去看素材。然后当你的这个故事发展到这儿的时候，你一定要去找一个这样的一个想法。然后你在这个sin的转场的时候，你要尽全力的去找一个transition这样的一些点。而不是说这是元素材，这是好的剪辑。我给你10万个样本，我觉得还是找到一些细微的点，然后细微的点决定了宏观的它的样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是非常原教旨的自然语言剪辑派吗？比如说也有人会认为我自然语言可能只能解决一半的问题，甚至更少的问题。是其实还是有很多的剪辑是需要用拖动，用滑拽之类的去完成。我觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是我们能找到的一个平衡。就是从原则上来说，剪辑一定是一个人机互动的一个事儿。就是AI它的再强，我看不到它有一天能完全取代一个人。所以说在check里面，时间线的编辑其实是一个比较重要的一个功能。然后我们的文字的编辑也是一个花了很长时间去做那个东西。所以说从原则上来说，肯定不是百分之百的依赖这个AI能去达成所有剪辑。甚至我觉得假如说AI能达到80%，但是给人空间去改，相比于AI达到90%，但是你人改不了了，我宁可去要那个80%。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从你们做像cut开始到现在，其实模型也经历了非常多的发展。然后你有感觉到最近这一两年的哪些突破对你们的帮助最大的。不管是多模态还是LOL.</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得就是分成两个部分。一个是对于产品的帮助，在产品这方面，就是G2.5出来的时候，对我们的产品是一个巨大的一个帮助。然后这次3.0升对我们来说也是一个巨大的一个帮助。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以分别讲讲这个帮助是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前比如说你用cloud或者GPT那种模型，它的那个上下文长度就是不够。比如说你半小时视频可能就已经报上下文了。然后现在GMI的话就是它one million token，甚至是两个million token。就是之前可能做视频剪辑第一个想到的事儿得是你得去做一个rag，也就做一个vector database。因为你第一个要解决的就是上下文的这个问题。但是现在实际上其实先不用去解决这问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外就是我们的这个MG动画的功能，它很大一部分程度就是因为3.0的那个才成立的。所以说MG的话我们其实也做生成式的。那个AI跟别人不一样的是我们不生成像素。就是我觉得生成像素那个是where I draw the line，我们生成代码的方式。然后这样的话未来你可以用就是跟你做PPT1样，他只不过是替你做了这个PPT，而不是说我给你生成了一个奥特曼，把你的房子给踩扁了那种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后多模态的进步好像对你们影响不大，对吧？因为你们不用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>生成多模态的进步，就是在这个阶段对我们影响不大。但是动模态是一个绕不过去的一个东西。然后下一步我们会去融入更多的多模态的，一个是用来分析，一个是用来生成。然后我们不是说完全不想做生成，而是说我们不想做一种无效的那种迭代。就是说人家出了个新模型，我们也连一个API然后表现自己很勤奋。但是实际上你不增加价值，就是我们得有一个好的一个切入点，就是在它的模型API之上，我们加入到跟剪辑有一个好的一个结合。然后这个对于我们来说，它才是一个值得做的一个事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在你看来未来什么样的一个图景，你会觉得chat cut算是达到你想象中的一个成功了？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可以绕一点的回答这个问题，就比如说sara刚出来的时候，那个时候我们刚开始琢磨做这个全卡的这事，然后sora出来还不是那个A出来，是那个那个demo出来。当时滑雪那哥们儿一看觉得还拍什么电影，以后就用这个就完了，当时就是世界一下慌了。对，然后他的那个东西标识性很强，一看就是sorry真厉害。然后它是一个好的事儿，也是一个坏的事儿，它限制了创作者在其中的参与的这个部分。因为就是你做的那个东西怎么着，不管你怎么去prom，它最后出来的还是一个solo出来的一个东西。对，然后它是一个可辨识的一个东西。我觉得这个是首先我们要回避的一个东西，它不是一个限制别人的一个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得对于我来说，成功是一个check卡可能是一个就像你写邮件的时候，或者说你常工作里面用HI GPT1样。它是一个完全跟你的质量已经没什么关系了。因为它是一个每个人都可以用的一个东西，让其实达成的是你心中自己，就是你用GSP做出来的东西。一开始的时候你会觉，我有了HTP什么都能做，但是最后还是达到了，就是你找到了你的这个水平。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个很有意思。一开始我们可能以为有了HT GPT，大家的能力都会统一。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拉到1000分。耶耶耶耶。是的，但是我觉得这个就是你有一个上知天文下知地理，而且你一直可以操纵他，你应该是一个天才。对，但是没看到有特别多的天才。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们来聊一下团队之前其实在十字路口的开放麦，你有一个分享我印象很深。就是你讲说你们团队里面有很多的炼金师这的身份，就可不可以再快速的介绍一下炼金师是一个什么样的一个身份？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个炼金师他一定是一个双重身份，就是他本来有自己的一个职能。比如他是一个工程师，他是一个研发，他是一个设计师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他是一个产品。炼金不能当饭吃。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只能当副业。炼金是副业，不能当饭吃，或者说炼金是一个荣誉。我可以说当你做一个东西就是做到一定程度的时候，你是一个炼金师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后给它的定义就是他是一个有点像古希腊的那个词儿，就是amateur。我们现在把它翻译成业余。但是实际上什么是一个amar，就是他为爱而做的一个人，就是阿莫尔与他相反的是专业的人。他其实在现来说专业是好的，业余是不好的对，但是在古代那个就是专业的事，就是说你为了钱做这事儿，然后一个是为了爱做这事儿。当然钱是一个基础，但是我觉得他一个东西的突破往往来自于一个人内心对他的一个执念。但是我觉得现在有这个AI coding之后，可以让你的团队规模不那么的冗余，然后让每个人都更更大的发挥自己的灵光那方面的价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以在chat cut里面有哪些功能，或者有哪些我们今天看到的部分是因为炼金师为爱而做的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是MG动画是一个对我们来说是一个突破，然后它不在我们的PRD或者说每周的目标里面。他是产品同学，他对这个东西自己有执念，然后他在做其他的事儿的时候，他一直就在外面这个东西。但是他刚做出来两天gm y3就发布了，哇哦GM31做我的fuck你这就是咱们别的事儿先放下，咱们先做这个，然后这个就是一个命运给我们的一个机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外就是可能有的人会把这个说法理解成，你不尊重工程师。其实这个传统的方法也有的，但是我的意思是工程师也可以是练金师。甚至说在这个AI时代的工程师，就是你最好也学会炼金。你只有这样AI不会淘汰掉炼金师。你如果严格按照做作业的话，就是AI会去逐渐自己把作业给做了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以听起来其实你是在想要营造一个团队的氛围，也是比较去empower大家，去激发大家，让每个人都可以比较自由的为爱去。做一些灵光一现的功能出来。那在面试的时候怎么去找这种人呢？你会问什么问题呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是之前可能是更关注这个人的技术背景，还有没有能力去把我们需要解决的问题去解决。然后我觉得现在的话更关注一个人的综合的这个素质，可能就是他特别喜欢吃一个东西，他特别对一个东西特别感兴趣。就是你如果对任何一件事都没有兴趣的人，他可能就是对任何一件事儿也不会有一个好的一个标准，然后你就很难去炼金。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是会让我想到google曾经也讲说80 20的演化。是的，20%的时间是给大家自由呼吸自由创造的。就今天notebook OM都是这样做出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也要我觉得可能有很多特别伟大的产品，它一定是具备一定程度的炼金的成分。就比如说cloud code，就是class code不来自于一个立项。他就是那个人说我自己得给自己做一个东西，然后IT worked。就是我觉得人类历史上，现在我们在课本里面读到的，很多时候是那种一个伟人。他为了一个伟大的事儿做了很多付出，得到了他想要的那个结果。但是很多时候是他不知道结果是什么样的，他是就是一个尝试。然后最后这个红水加绿水是蓝水，然后这蓝水一放到伤口上方向我就愈合了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们管它叫炼金，但是这个词儿实际上是一直存在的，它叫tinker。他在鼓捣这个东西，他在研究这个东西，他们不知道这个东西。他的工作就是咱们试试这个，nothing，咱们试试这个，再试试这个。然后我觉得就是下一步我需要学会的，或者说我们需要提高的是如何将这种意外的这种收获，把它给系统化的去制造这种意外。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它有可能系统化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得完全有可能，这个就是管理的这个难度和它的意思所在。对，如果就是一加一等于2，那个没什么意思，就是它得是系统性的去制造，就像那个fantasy这样很脆弱的那个理论。我特别喜欢那本书，就是说你得去制造利于你的这个意外。因为那个的杠杆是远远大于一加一等于。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以听起来就是你还是蛮期待一些意外的发生。这是不是也是因为背后你暂时还没看到一条非常清晰的路通向no.</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是完全相反。我觉得正是因为就是我能特别的清晰看见这个东西的结果，所以说就是我不用按着团队的脖子说，按照大哥的意思走，而是说这个结果他特别清晰。所以说你走只有这条道你能走，就只有这条路的人能走，你想走就想走，let&#x27;s OK two, 因为我能放心大胆的让大伙去走，因为就是我能看见那个东西。当你能听见这个音乐的时候，你谈什么都是对的。然后相反的情况是你如果是目标不清晰的时候，你做什么都是错的。老板不知道自己想要什么，所以我做什么他都是不会满意的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很有趣。如果说这个生活的幸福度的满分是十分，你觉得你自己现在有几分？</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我现在是九分。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常高。这是一直都很高吗？还是最近那么高？是chat cut带来的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得就是我在跟别人提到check的时候，就是我能第一次感受到就是我身边有一些财富自由的人投来羡慕的目光。是因为就是我有事儿可以做，然后这个事儿它不是一个arbitrary一个武断的一个事儿。就是说我做了一下市场调研，然后我觉得there is in AIB editing.</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是因为你在为自己的热爱去做。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也就是我能感觉到上帝的时候在推动这事儿。就是我一直说上帝，但是是一个无神论者。OK this is my life&#x27;s work，然后感觉这个能去让你找到你的lives work，能找到这个VC，能去也be a real project。这种事发生的几率不高，所以说就是我拍过很多片子，其实人生就是一部电影。有的时候你得知道这个是电影的哪一幕。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>This is the good thing, 就是电影里面的很多悲剧是那种一个好事发生的时候他不知道珍惜，然后作为观众的时候，你看这个男人不懂事儿，这个女的这么爱他他都不知道珍惜。最后他有一个悲惨的一个结局，就是我在这个电影里面，现在这个故事线里面，我没有那个问题，就是i know IT，I know就是i am very happy。你知道自己被爱着你也要那。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>失去的一份是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我觉得当一个人特别的具有竞技的这个心理的时候，他可能就不会完全的快乐。然后我可能会有一天到达那个境界，就是说我又能高效的做出所有的工作上的决定，但是同时又能保持心态完全的平静。但是今天的这个境界还是一个受一个做一定程度的操纵，然后去有一个跟别人compete竞争的一个心理。然后我觉得可能是一个在这个阶段需要的一个东西，但是这个东西的存在会让你的幸福指数稍微降低一些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果有机会你还会想要做导演吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>导演他是我任何时候都可以做的一件事儿。正是因为这个，所以说我不会说特别着急。就是说我几天没拍片了，我得拍一个片儿。就是我现在做的每一件事儿，都是会让我成为一个更好的一个导演的燃料。就是我在骆驼岛设计学院第一天上那个电影课的时候，教授问的问题是你如果不是一个导演，你会去做什么？然后有人会说我去当一个木匠，我去当一个画家。其实我最感兴趣的是接我爸的那个场子。然后教授就说其实那个就是你的电影。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就你最想过的人生，可能就是你最适合拍的电影。也就是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>电影它不是一个东西，电影它是一个载体，它是一个封装器。但是很多学电影的人会以为热爱电影本身就足够你能拍一个电影电影它只是你对生活的一个理解。我觉得现在做这个缺卡是我现在需要做的事儿。电影你看侯孝贤就是我可以到那个年龄的事儿，还算是这个事儿，也好OK。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢凯文过。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢凯，也祝福chat card.</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>希望可以越做越好过，谢谢你状态可以一直保持在九分。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢十字路口，好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>拜拜。</p>]]></content:encoded>
-            <pubDate>Sun, 25 Jan 2026 16:00:00 GMT</pubDate>
-            <guid>697195ab109824f9e1df1e6d</guid>
         </item>
     </channel>
 </rss>

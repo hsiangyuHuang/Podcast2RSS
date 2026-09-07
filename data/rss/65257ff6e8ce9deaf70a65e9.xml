@@ -3,8 +3,205 @@
     <channel>
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
-        <description>如有干货，纯属巧合</description>
-        <lastBuildDate>Sat, 22 Aug 2026 04:34:16 +0800</lastBuildDate>
+        <description>AI界德云社！</description>
+        <lastBuildDate>Tue, 08 Sep 2026 06:48:05 +0800</lastBuildDate>
+        <item>
+            <title>豆包到底能不能工作？产品老炮被AI骂垃圾，才发现是我不配！</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a9cef66f03e74ee6b05c1c6</link>
+            <description>00:00 豆包可以工作，但是我不配！
+02:54 需求才打10分：被AI骂垃圾？
+07:08 招AI当管培生，参会最快？
+10:16 多烧TOKEN，第二把才能跑通？
+12:46 老板最怕什么：凭啥喂给AI？
+15:32 所谓的独家绝学，其实只是风格？
+18:20 多轮任务总崩溃，命门在记忆？
+22:30 手脚勤快多动脑，及格线到了？
+26:01 水桶模型：办公千万别缺模态
+28:08 办公重做：本质还是Office三件套
+31:21 大会小会全录音，不信进不了公司
+【订阅 JustSayAI 早晚报】
+📮[JustSayAI 早晚报·粉丝专属福利]
+每日两封 · 一键听报！现已全面支持邮件+IM+Skill端
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast 📱
+商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>这期节目是主讲人系列对话中的“AI办公产品巡礼·豆包”篇，两个人均为有企业服务和软件研发背景的产品老兵。对话起点是一场经典“拷问”：豆包到底能不能工作？其中一位主讲人自嘲“豆包可以工作，但我不配”，因为自己文档散落、上下文管理混乱；另一位则展示了完全不同的用法——把飞书里五年积累的文档、看板、会议记录一次授权给豆包，让它当自己的产品助理和项目经理，结果被AI反向评价：“你的需求只能打10分，是个垃圾。”从这段冲突展开，讨论延伸到办公Agent落地的前提、上下文管理、企业数据安全焦虑、多轮任务能力跃迁，以及各家办公AI产品的路线差异，最后给出一个极其朴实的建议：所有会议先全部录下来。</p>
+<h2>关键要点</h2>
+<ul>
+<li>
+<p><strong>“豆包能不能工作”的本质，是你有没有可被读取的上下文</strong><br />
+  一位主讲人直接用“豆包可以工作，但我不配”开门见山。对比身边已深度使用飞书的同事，团队开会默认开录制、项目文档/看板/岗位职责/历史会议纪要全部沉淀在飞书，AI获得授权后一个小时学完全部资料。自己本地、GitHub、笔记各存一点，AI无法形成连续认知，所以“不是工具不行，是你连原料都没给够”。</p>
+</li>
+<li>
+<p><strong>AI当产品助理后，会拿你自己定的标准反过来骂你</strong><br />
+  另一位主讲人让豆包扮演产品助理兼项目经理，结果AI学习完他的文档规范后，先给他每天提的需求打分：“这些需求全都是只有几句话的需求。关键的什么原型文档、原型图，还有词汇表，还有很多的流程周转的关键词状态变化你都没定义，你给我这个需求只能打十分，你至少要做到60分才能交给我，我才会往后面自动的流程往后面转。”他感叹，以前这套标准化管理流程人受不了、做不下去，“以前我自己人都做不到的事情，让他给做到了”。</p>
+</li>
+<li>
+<p><strong>对AI“一把过”的要求过高；判断标准应从一把成功转向多轮稳定</strong><br />
+  普通用户总希望AI一次交付完美结果，但主讲人指出就像第一次让实习生买咖啡，人也不可能一次准确理解需求。AI真正的历史问题是多轮任务失败率极高，迭代十几轮后结果崩坏。现在前沿模型已经能在前3到5轮把任务做到七八十分，之后十几轮连续修正还能保持七八十分，这是从“玩具”到“数字员工”的关键临界点。</p>
+</li>
+<li>
+<p><strong>针对“凭什么把我的数据喂给AI”，答案是：AI学走的是行业通用打法，你真正值钱的只是风格</strong><br />
+  很多老板担心AI学会自己的“核心秘籍”，但主讲人指出行业内的最佳实践在同行之间本来就透明，AI学的也只是那些可复制的80%。“你觉得有价值的，对他来讲只是风格”，“太阳底下不会有什么新鲜事”。真正不可替代的关键知识与决策链条，本来很少进入系统，AI学不走，连核心员工也学不走。</p>
+</li>
+<li>
+<p><strong>GPT-6在智能体评测上的巨大跳跃被认为是未来Agent工作范式</strong><br />
+  对话提到GPT-6在一个考验“智能体像新人一样工作”的测试中得了99.9%，而当时被认为编码能力最强的模型只拿到约38%。这个测试模拟一个完全不了解环境的智能体，自己理解任务、探索条件、反复试错、失败后纠偏。主讲人怀疑结果有“作弊”成分，但认为就算70%也是巨大跨越。AI办公正在从“按指令完成单步任务”往“手脚勤快+动脑干活”的方向升级。</p>
+</li>
+<li>
+<p><strong>办公AI的产品差异越来越小，选谁更像选信仰和生态</strong><br />
+  三家产品辨析：千问属于“水桶模型”——没有明显短板，无特殊偏好时用了不容易犯错；腾讯系Workbody整体做的是“全部给你配满”，各家模型自由拼接，试图再造小程序生态；豆包身上体现的是字节对文档一体化的信仰，产物全部沉淀回飞书云文档，逼用户被动积累上下文。模型产品的最终能力趋于同质，区别只剩风格偏好和生态绑定。</p>
+</li>
+<li>
+<p><strong>老板们的数字化转型第一步：别选模型，先开会录音</strong><br />
+  面向企业AI落地给出的最直接建议不是招顾问、不是“蒸馏员工”，而是把过程会、复盘会、展望会、批评会、批斗会全部录下来。“我就不信agent进不了公司”。会议记录被AI整理后人工复核，可以低成本地把原本散落在线下聊天中的信息变成结构化的组织上下文。</p>
+</li>
+</ul>
+<h2>独家细节</h2>
+<ul>
+<li>
+<p><strong>“我不要冰的”不等于“去冰”</strong><br />
+  主讲人拿实习生买咖啡举例：“我说我不要冰的，我很忙，你先去帮我买一下，然后买回来是去冰的。但其实他不知道，其实我可能就是要三块冰。”AI和环境里的真人都难以从一句模糊指令中识别这种隐藏偏好，真人还可以向同事打听，AI只能去翻文档和记录——它甚至不知道你平时喝的是楼下哪家星巴克。</p>
+</li>
+<li>
+<p><strong>贤哥的“武林秘籍”被当面戳穿</strong><br />
+  主讲人提到一位叫“贤哥”的朋友，说自己有几本“武林秘籍”，不愿意喂给AI。主讲人的回应是：“贤哥你过滤了，那是你的风格，不是你的秘籍。”直接把很多老板把个人经验误当成不可替代的组织资产的普遍心态讲透了。</p>
+</li>
+<li>
+<p><strong>一句话点破“土老板焦虑”，现场随即“失敬”</strong><br />
+  讨论到企业主害怕AI学走核心能力时，一位主讲人直接用了“土老板”这个词，被另一位打断：“你不要直接点名人家土老板。”他随即圆场：“失敬，失敬，我们自己也是土老板。”这段一来一回恰好反映了播客里坦率、不端着的表达氛围。</p>
+</li>
+<li>
+<p><strong>给家属配AI办公：懒得选，全部选Kimi</strong><br />
+  主讲人讲到自己帮家属配置国产模型套装，家属追问“这个要选哪个模型、那个要选哪个模型”，他“心想算了，全部选Kimi，因为多模态”。还提到非技术朋友用Workbody遇到卡顿就切到DeepSeek，觉得“DeepSeek写中文就是比其他家好”。在工具能力趋同后，模型选择逐渐变成一种个人化的信仰。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们很多客户都要问说我怎么数字化转型？我突然想到说我以后就建议你们所有开会全给我录下来，上下文就有了。是不是过程会、复盘会、展望会、批斗会全部给我录音起来，我就不信agent进不了公司，这是不可能的事情。我是心里马上有好几个典型的老板画像出来。我凭什么要喂给你豆包，我凭什么喂给你？先问我凭什么喂给你walk body，你是谁？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我的信息非常值钱的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你凭什么要给你？你来学我东西，你不付我钱吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>聊一下豆包工作，豆包到底能不能工作？历史拷问对不对？一个经典的拷问，豆包到底能不能工作？我们今天来聊一下这个话题，是我先讲一下，我觉得豆包是可以工作，但是我不配，我真的不配。为什么？就是我就最近沉迷在这个，跟很多朋友在探讨这个结对编程，我最近这个很上头，我也跟老肖讲用这个code s，又有架构师，又有前端又后端，还有这个测试等等。做这个结对编程，我就发现说上下文管理是一件很难的事情。老师知道我这个人就是文档这块不太执着，对文档这个规范性要求不好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这次应该有更深的体悟体会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了我这次有更深的体会了，就是这个agent点ND要维护好，上下文管理怎么交接，然后哪些坑不能再犯，这些都是要文档化来管理的。恰恰这个就是比人做的很不好的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是已经你已经很好了，毕竟进入了编程领域，这很不同了。变成你遇到最后最大的坑就是文档和代码两个事情有没有管理好。因为这两个过程中，他得有一套的各种各样的流程去管理。那这个东西你的感觉是正常的，就是我自己跟豆包工作，我很简单是需要有一个产品助理去管理我的日常的产品需求。同时这个人也得去做一个日常的项目经理，去管理这个项目的推进。这两个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我都以前最讨人厌的工作是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是最讨厌最得罪人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的就是像这种项目经理。就是大家都觉得你啥也不懂你就天天问进度怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会买奶茶对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是实际上我有一个很有意思的感觉是他可以做的很好，尤其是我人都做不好的事情，他给做好了。因为我的规我的规范标准去管，人人都受不了，但是他可以工作得很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实坦白说你给我的文档我基本上不想看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为我们这个文档要求是很细的，就是正常人看下去，通常看着看着就神游了。那我就说我手上的这个标准，我拿给交给了AI之后，AI学习的其实非常的好。他最后反过来评了一下我的需求写的怎么样。我现在的日常基础需求100分只能拿十分。这个垃圾。对，就是说太多的详细内容包说你是垃圾都没给他，就是说全部卡在你那儿了。他给我的反馈是说这些需求全都是只有几句话的需求。关键的什么原型文档、原型图，还有词汇表，还有很多的流程周转的关键词状态变化你都没定义，你给我这个需求只能打十分，然后你至少要做到60分才能交给我，我才会往后面自动的流程往后面转。所以这个东西其实就是我我会感觉说，以前我自己人都做不到的事情，让他给做到了挺好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得这有个点，就是因为编程应该就是一个纯数字化的工作团队。对应的就是说比如说你的所有的文档都是在飞书上吧？所以你才能说做的比别人更好，吧？你像我可能并不是所有文档都在飞书上，对吧？我本地有一点，我github有一点，我这个笔记里面有一点，所以我我我不是这种，我是很零散的对吧？但是你不一样，你可能你整个团队围绕的工作，包括你的这些敏捷开发，什么各种看板，你都是在飞书里面文档化的。没错，所以你的这个小助理上岗肯定比我的更快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里我确实忘了讲为什么我1个小时能能设置好啊。因为这1个小时我就是授权他的飞书能够访问我所有的文档权限，尤其是这里面我所有的刚才说的看板，以及我们团队的每个人员的每个岗位在做什么事情，大家怎么协作的。包括说我们以前历史存档过的那些项目管理的文档，全部都是一次性都给他了。对，这个量很大，但是它其实吸收的OK还有一点，还有就是我们甚至包括开会，我们开会都是在飞书的那个会议里面开的。然后整个飞书的妙计转过的这些文档的所有的权限。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也全部都开放给他。所以我这突然有一个感觉，你看我刚才的疑问是什么？就是说像我这种文档很零散，甚至我这种是不文档化的人，对吧？这种怎么怎么去用好这个AI，或者是说把AI放到我的组织里面，突然有心生一计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你刚才这个提醒了我，就是你所有什么立项？过程的这个检讨会、复盘会，然后最后表彰会你全部给我开这个飞书会议你全部给我录，不用你全部给我录下来对吧？对，全部给我录下来对吧。老板我觉得以前我就我觉得我们很多客户都要问说我怎么数字化转型。我突然想到说我以后就建议你们所有开会全给我录下来。上下文就有了，对不对？你的这个agent肯定最懂你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对你这个操作是对的，因为其实这是我们研发团队的标配。因为我每次开会大家都会记不得自己有什么事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>难怪我每次开会你都给我录。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们每次都是录制默认打开的，然后后面有那个AI整理一下一些待办事项。虽然有些东西会记错，但是我们人工会再去复核一下。所以我刚才说很多就是工作边界一定要清楚。助理就是助理，你可以帮我整理所有的信息。但是最后最重要的那个代办事项的优先级是你必须要跟我确认的，确认后你才能分发给所有团队的成员。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，其实这么干的，我这两天也一直在想，你说这个AI办公大战我们巡礼？逐个聊。之前我们聊过千问办公粹？现在聊到豆包办公，很快什么等等的我们都会聊对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就一直在想，最后我们这个办公的agent到底有什么区别？有有能够做出什么差异，有什么不同？刚才这个老师这个用例确实就是给我打开了一个新世界，而以前很多老板总是想我要用cloud还是用GPT，国内的用哪家是最好的，你给我介绍一个。我要引入我们的公司做数字化转型，我要什么老师傅，那个老师傅全部把文档给我吐出来，我要蒸馏员工对吧？我心想其实也不用这么暴力，对吧？你这个开会习惯开会录制带着agent参会对吧？对，我就想以前是在叫做招顾问，我觉得现在可能更有点像招个管培生。你可以这么理解，管培生其实这对他最进步最大的就是参会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>参与各个部参会，然后各种文档让他整理，然后给你汇总，整理文档的，然后大家去开那个文档的评审。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是对对于一个新人来讲，进步最快的。快速的参加各个部门的会议？整理会议纪要，主持一些会议，做一些部门的协调等等。这个是对个人来讲肯定是进步最快。当然反过来对AI来讲也是进步最快的对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实很很重要的一点就是说如果历史就是你刚才讲的历史，你没有文档，那就是马上要带着他开，就是你各种开会。还有一个就是你的一些关键的群聊，关键群聊你把他给拉进去，而且飞书本身也就是就飞书的群聊，飞书本身也支持那种历史记录，可完全可见。这个你就把他拉进来，然后他自己去看一过去的一些历史记录。因为这个其实的用法，我觉得就是我们之前有一期聊脆的时候讲到，类似cloud tag的这种干法，就是把这个大模型拉到你的日常的办公群聊里面，让他就是看整天在那看上下文，然后让他每天自己去总结，谁说了什么话，结合每个人的他的JD他的工作描述，然后你去理解他到底在做什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这个讨论的上下文，坦白来讲，就是类似这样的上下文是有点垃圾的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是太散了。还有他就是经常不清楚每个人到底说起来是在干嘛。所以他这里其实需要更高维度。他要从组织的角度知道每个聊天的人，他的职位、工作的内容，以及他跟现有的很多文档之间的关系是什么关系的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要整合起来。因为这样的上下文不如一个会议的上下文更有用。因为一个群聊其实很多废话，根据了大部分的上下文的窗口。因为或者是一些反复性的讨论对吧？但实际上上会的时候，至少说大家是有所准备的对，然后你也知道老板的精神是什么，对吧？老板骂了谁你也知道。所以说整个虽然说它整个占用的上下文更更大，更容易塞爆，但是实际上我觉得它反而会比一些没用的上下。其实你想我我是这么想，我觉得一些没用的文档放到企业里面去也是一个垃圾上下文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，是这个我们之前也经历过有很多烂的SO就是很多鞋。我们做企业服务的时候，企业有很多SOP。但是SOP其实他自己比如说就有大量的版本是错的，或者过期的，过时的信息没有维护的。你多个版本放在一起像AI就是灾难的。因为AI最怕的就是有那么多个版本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后一进垃圾出。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后同一个事项有不同的做法，然后又有不同的决策人和决策链，那他疯了，那他肯定不知道怎么办，最后也只能找你。其实他看了最后是一堆冲突。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他还是做不了。对。然后我再讲回来，就是我最近还是是有一些比较深的感悟，就是说办公这件事情。因为我们之前聊过一期节目说为什么大厂最近都在干AI办公，都在干AI工作？为什么？结果我们得出了一个结论，当时观众说你们这个瞎扯就纯瞎扯，但我觉得这个叫什么话糙理不糙，这个结论就是让你多烧token，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我最近最深的体会就是说一个事情，我们当然不是说现实这种事情可能也类似，就是我们让AI干一件事情，我觉得往往第一把不会成功。对，但是第一把的token你一定要给他烧掉。对你第一版的token不烧掉，不总结，你第二把就不会中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实就类似我们以前说数字化转型，信息化是第一步。就是大家你什么人都先挂一个。最早以前不就是大家先能上一个什么IM对吧？不管是什么样的，即即时通讯软件，你先上一个，然后ERP怎么样能先上一个，能对所有的物理信息有一个数字化的对应就可以了。但是现在到AI的话，就是至少AI要有一个上下文，它能够有这些刚才说的信息化基础的信息给到他他来加工成有价值的数据，然后再来加工成后面有价值的这个工作结果。我觉得这个过程是肯定少不了，就是过程中间就肯定会出现这一步，是你原来很多线下聊的事情，你总得有个方便的方式给他挪到线上去。就算在我们软件编程也会有你比如说我们在刚才的群聊，如果群聊里面是那种大家线下比较多的，一定最经常看到的就是什么我上了，什么时候发，这里哪个，然后突然发一个什么任务编号发进去，然后上下文啥也没有，因为全在线下讲完了。对，那这个是最经常碰到的那这种情况下你一定会有一个新的方式去采集这些信息。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在脑子里马上出现几个典型老板的画像。他就是会说老兄我凭什么要喂给AI，凭什么凭什么你来学我的东西，你不付我钱吗？我是心里马上有好几个典型的老板画像出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我的信息非常值钱的，你凭什么要给你看？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>马上就会。我心想我身边好多好多老板就会问这个问题，我凭什么要喂给你豆包，我凭什么我会给你先问我凭什么会给你walk body，你是谁对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我都能想到哪几个人呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这个是个我觉得挺值得思考的一个问题。就是为什么我要把数据为？其实我觉得反过来回答一个问题，他不需要你这些核心的数据，我觉得是这样的讲，就你觉得有价值的，对他来讲只是风格。对，并不决定他的模型的任何的训练或者怎么样。因为每个企业我觉得好像好多我们国内的企业，他不重视标准，他更重视风格，就我是怎么样的，我这个什么员工第一，我这个什么顾客第二，什么什么类似这种东西对吧？换一个角度想你会给AI的更多也只是风格而已。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实不用担心这么多，因为其实AI其实对于我们人类常见的各种工作流程还蛮熟的。然后其实更大的问题是他确实没有风格，甚至说很多时候是完全不知道。就有时候他更懂你做的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他更懂你是说他在举一反三的时候，他会告诉你说你们老板说了，这个用户体验很重要。你们老板说了，这个不用管，赶紧上，对不对？这个其实是什么？这是风格。我觉得这个不是标准，这是风格。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该说真正的一些关键的流程，我相信怎么着也还是固定在企业自己内部的。就是那个20 80的原则，就是有20%的东西，其实你大概率你是就不会放到那个系统上的对，那就是会有或者在系统上只是留一个痕迹。比如说我觉得我们以前做零售很有很多关键的环节。比如说关键的什么库存的确认，那一步是人点了一个确认。但是到底真实的库存是怎么样的，只有人知道，其实系统还是不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你换过来讲，就这些东西你只要做一个，你比如说你做零售好了，对吧？我今天是个小白，我没有开过多少店，我今天找个业内最好的ERP厂商，我去跟他签约对吧？大商超怎么做的我马上都知道了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是？所以理论上来讲，这些东西在现实当中也没有秘密，对吧？就是你你认为的关键就老兄你觉得你这个小助理，产品小助理，你给了他多少本文档？你觉得很牛逼，这个东西只有人人无我有，对吧？但没有这么牛，我觉得不可能吧？对，不可能，我觉得不可能，不太可能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们都是遵循一些行业内的最佳实践去做这些管理也好，或者是不管是个人就是AI人的管理，或者是员工的管理，或者是说项目的管理，其实都是最佳时间。只是加上了一点个人的风格和企业风格以及自己的风格。因为我们可能自己对于一些关键点有自己的一些偏偏。好，我喜欢这样管。对，那这些东西的话大家都有你每个人甚至你可能看到我的你觉得我做的很垃圾很正常。对，就是这个东西其实所以数据上，其实我觉得说对于大多数的企业，其实根本没有那种担心，不用担心就是你的风格其实别人也很难学走。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我就一直想跟很多朋友说，我说这个世界归根到底还是透明的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是太阳底下没有什么新鲜事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，太阳底下不会有什么新鲜事。然后我记得这个事情讨论最早是贤哥，贤哥说我有几本武林秘籍，我这个不想喂给他。我说贤哥你过滤了，你那是你的风格，不是你的秘籍。对所以我最近在用这个编程的过程中也是这样一个感受。我当我觉得AI更懂我的时候，当我觉得它的智能涌现，往往是说它懂得了我给他最早立下来的规矩，或者我要求他有哪些边界是要死守的，或者是最后他在很多轮以后他还记得这件事情。对，会用你的这个胶带去review这些项目，代成果等等这些东西。这是我觉得说我昨天刚跟你讨论，你觉得说这cloud做的最好的还是在多轮的以后跨仓库，对，然后跨这个记忆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>去实现很多的任务。跨仓库，然后跨多智能体验，都都能都能够有一个一致性的一个规范的记忆和标准去做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是很重要的对，我就是这个智能跟厂商自己理解的智能好像不太一样，对不对？对厂商理解的智能可能是像今天GPT6发布了，我又创造了一个什么AGI时代，对不对？我又干嘛，做一个游戏多酷炫等等。但其实我们真的落到日常来用的智能，其实只是说他懂你，他记得你这么多东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是你这里我其实想到一个很重要的点，就是我们经常衡量一个员工靠不靠谱。其实我们会经常说一个员工是少返工的，一个活交给他他就能够稳稳的交付，人狠话不多，这样子是一个很好的一个员工没错。但是我们经常在跟AI聊的时候，有没有发现，其实是反过来的。我们经常希望AI一把就把一个什么东西做好。经常讲的是这个AI一把搓出来的一个什么东西很好。但是实际上恰恰是因为很多时候都在讲他一把怎么样，没讲他后面很多把以后，他会变得很烂。然后这个事情其实就是人跟AI之间的差距。就是我们一个人其实为什么我们我们背后我们都会知道一个优秀的员工交给你一个很好的结果，其实也是他在背后做了很多轮迭代的对，不是说这个员工很牛逼，他他加班你没看到他一次就能做到。他很多时候要不在加班，要不找了外援，他自己花钱请了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人帮你咸鱼找人帮你做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他说做了很多事情，对，他自己还找了外包帮你做事。其实我见到的一般优秀的员工都会做很多外包外场的一些帮助，然后让他这个东西做的更好，甚至自己花点钱去把这个东西质量再变得更高都有。那那其实就是说他其实也是做了很多轮，把这个优质的结果交给你了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后AI的话我觉得之前最大的问题就是说他其实多轮任务的失败率是极高的。基本上你就想他每次都有95%的成功率，他十几次之后他那个东西也就不能看的那那这个是之前的问题。但是现在的话其实就其实有个很大的改观，就是可能在他能够在前面的3到5次左右，就能把这个成果做到七八十分给到你了。而且后面持续再做十几轮，他能不断的自己再去修正，这个结果给你的东西还是有七八十分。我觉得说这个是一个其实非常重大的一个飞跃。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个以前在软件，就是我们编码这一块应该是在去年的时候出现的那现在我是觉得在工作这边出现，因为编码就是差不多在CloudOps 4点6这样子的一个智能水平。就是说我们会发现它多轮的这种协作。就刚才你有提到我经常讲的cloud的，可能整个的长期记忆管理的这一块做的特别好了之后，他的交付就稳定了。现在我觉得是各种工作，千问的办公，然后豆包的这个工作，还有work body大家都开始出现了。就是长这个智能体长城工作结果已经相对质量比较好了。但是这个里最核心的就是我们刚才说的土老板，可能大家都会怕的，就是你会不会把我的核心学走。我觉得说这一点其实是还远，他学的还是在2 80里面的80%，那个部分就等于20% AI学不走，你的很多的核心员工都学不走，对吧？那这个地方的话其实就是还是回到说你先要能让他把那个10%做好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你不要直接点名人家土老板。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>失敬。我们自己也是土老板。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我觉得从用户的角度来讲，一把过是天然的需求一把过是天然的需求。但是我告诉你，就是我觉得这个要求太高了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当然太，而且我觉得长期来讲，一把过也不可能实现。因为你看比如说我交代我的实习生去做一个什么事情，你觉得他能一把过吗？我第一次叫他去给我买咖啡，他能够精确的知道说我要什么样的口味温度。我我其实我很一下交代的很细。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这里第一个问题就是其实你的需求是没有讲清楚你到底要什么。我说我你很难讲清楚。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我说我不要冰的，我很忙，你先去帮我买一下，然后买回来是去冰的。但其实他不知道，其实我可能就是要三块兵。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对，哪怕你这个时候你考验的，比如说我们是一个真的人的话，他可能会去问其他同事，小朱同学确实喜欢，是对吧？但是AI的话他也他可能也会去问，但是他能问的就是问文档，问过去的各种各样的东西，他还是不会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>真的去问这个楼下瑞幸星巴克，你们这个客户他的喜好是什么？对，比如长点心眼，然后拿个小本本记下来，写到这个什么咖啡店MD.</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，但是他要经过一个对知道这个环境的熟悉的过程。这个过程的话他其实就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他可能不知道星巴克在哪里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？他完全不知道，他都不知道你平时到底喝哪一家星巴克是吧？附近我们这附近有那么多家星巴克，他知道哪一家呢？对，所以这里有一个过程，所以这里但是我觉得特别值得讲的就是一个是现有的智能已经到这个反正我是觉得临界点到了，他可能还没有那么好，但是临界点到了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后尤其还有一点就是说最先进的智能是也这块应该是已经甚至可能拉满了。就是我们刚才你提到的GPT6。GPT6的话前昨天刚发，那它里面有一个特别值得关注的，就是它有一个叫阿KAGI3的一个测试，他拿了99.9%的分。这个分有多恐怖？就是现在最好好的，我们编码最强的那个是office的5，还有飞博5，office 5大概只拿了38%，他拿了99%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个任务它是干嘛的？这个任务就是我们刚才说的那个任务，就是考验一个智能体，像一个新人那样的工作。这个智能体啥也不懂，他就通过说你交代他任务，然后他自己去理解这个任务，理解周边有什么环境，有什么条件，然后自己通过多层的迭代去完成这个任务，反复的去试这个环境里面有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>手脚勤快一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>来说也也得动脑也得动脑的动脑手脚更勤快，手脚必须要非常勤快。就是说把各种可能性他自己都要去试，而且试了很多轮以后，他会不断的失败。那他要知道怎么样在纠偏，跑回到正确的路上。你看以前我们说的最强的cloud oppos，他大概是做到300分之38。这里面我们当然说这个有可能他作弊了，搞到99%，我是怀疑有作弊，但是他如果能把它提升到70%也是非常高的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这个是说明一个趋势，你看最近google 3.8 flash对吧？就在3.8 flash其实他其实就做了一个事情，就是他们对他们来讲就觉得更能干活，他会在干活的过程中用更多的推理去去解决你刚才讲这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就手脚勤快一点多动点脑还得动脑。对，就我刚才其实前面讲的豆包工作那个例子，就是说我本来是只是让他排个优先级，而且只是让他做产品助理和项目经理。你只要帮我把这个是什么任务描述清楚，然后大概的信息收集好，然后让我判断就行。但实际上他多做了一步，他去基于他对这个语音bug的理解，还给了我一些优先级判断的一些辅助信息。这个信息其实我就是觉得是属于这个agent在理解这个环境和问题的时候，他动了脑。对他如果没动脑，绝对到不了这一步。因为这一步实际上需要专业知识的，他给了我这个是一个专业的判断，然后我可以更好的判断这个东西优先级应该怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像这样的东西，我是觉得说从最顶层的就是GPT6，它现在这一块它是号称是拉满了。那这块如果拉满了的话，那后面的agent的智能程度应该还可以有一个更大的飞跃。因为它除了手脚情，还能很有脑子的来帮你思考，说这个事情应不应该这么做，然后应该什么时候做，怎么做，他都可以更好的去思考。他现在有基本的思考，我是觉得已经到50分到60分的水平是可以了，然后干的慢一点。但是他干出来的水平能跟一个正常人的60分差不多。我是觉得已经到这个临界点了，就是这个节点是属于我，我会说我会愿意让这样子的人来当我的数字员工。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我会去考核他下一步快其实还蛮重要的对，所以我会一直觉得说很搞笑的，就是我觉得google的方向是对的，就是他舆论管理特别不好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近不是劈柴CEO劈柴出来又被被骂的很惨。我的3.5 pro.</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到现在还没发发了七代了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>七个小版本了。对，然后还在3.1 pro是吧？然后现在小版本已经发到3.8 flash了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我上周去线下一个google会，我发现他们好像也不焦虑这个事情，还会自嘲说明我觉得说其实真的我我觉得我是认为google的方向还是对的，就是模型越来越快，然后flash模型一直搞。那个过程中多推理，手脚多勤快，多动脑筋，这个方向一直是对的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个不可能三角里面就是又快又好又省钱，这个不太可能三个不可能三角里面谷歌选的是快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实回到办公这个领域，国内这几家我是这么想的。我昨天看的是workday的这个生态发布会，还有可能就是把各个大厂什么skill，什么什么接口接进来接硬件。是的，据说是说再造一个小程序生态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>号称就是十年前的那个小程序黄金时代又来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>且不论真假好不好？我们且不论真假，但我是觉得说你说这三家来看，你看千问跟豆包属于水桶模型，就是多模态，对不对？然后该有的都有你很难说去找到说他缺了一个什么，对不对？就比如说比如有的比如说我们用一些GOM，你就知道说缺的多模态这个蛋就很疼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，直到最近GLF flash上来才基本上补上是吧？Deep sick也是最近才出了vision，才出了视觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个蛋很疼，这个是非常疼的，就是千万不能缺模态对吧？那其他就不说了，就所谓办公领域一个水桶模型其实很重要，不是说你长板有多长，然后腾讯沃克玛底的做法就是我全部给你配满，你爱用哪家你用哪家。这也可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就自己自选，自选都给你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也可以对吧？对我上次给家属配了那个国产模型配上去，他问我说这个要选哪个模型，那个要选哪个模型？我心想算了，你全部选kimi。因为多模态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是这个东西其实已经有一点点信仰成分了。像我一些是是非非技术行业的朋友，他们用work body就是说我觉得有点难的时候，我就切换成deep sick。我觉得deep seek就是比workday里面原配配的那个要好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是实际上这个东西到最终是不可能有什么本质上的区别的。还是只有风格上的区别，就是你会有一个信仰，你会觉得deep sik写中文就是比其他几家好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是有信仰的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你会有信仰，你会觉得GO编码就是比kimi好，对吧？就是会有有这种风格上面的偏好，但我觉得本质上完成一些任务上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是趋同性越来越高了。特别是在工作这个程度，编程是还有一些差距的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>编程鞭策力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>编程策略，因为编程的复杂性还是蛮高的，但是在工作上我会感觉上不没有那么明显的差距了，我这感差距不大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是你你说工作，我们把工作抽象来看，无非就是几个事情，熟悉的事情反复做，别犯错，对不对？不熟悉的的事情手脚勤快，多动脑，多学习到熟悉为止，沉淀规范，下轮继续迭代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我来看就是70%的工作其实就是office三件套对吧？只不过是这三件套现在用AI重做了对吧？就是文档word文档PPT跟excel，现在我们用AI来做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是那你看你说的AI办公AI工作也好，无非就是说白了都是到之前用这个IDE这样一路继承过来的。他的底层还是编码对吧？你丢个三张excel给他他还是用编码的方式帮你把事情给干了。比如说千问我会定义为它就是反正你如果没有特殊偏好，你用它不会犯错。对，然后比如说work body，那你就可能有一些自己的模型上面的信仰。或者你有你有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一些文字风格上的信仰。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在国产的生态下，你想用一个体验更好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在就是说你为了可能你的老和客户他喜欢某种样式，某种风格的文字，某种风格的报表。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？对我，那你错的更多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你可能必须得用某几个模型组合，你才能做成那样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这样的那像豆包我是觉得说他更多的是说背后这次的豆包工作背后还是整个字节团队对于文档这件事情的信仰。我觉得他们还是蛮重视文档的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是文档整个数字化的那种一体化。我觉得因为整个豆包工作加飞书，这是两个合在一起。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且你看这个飞书文档也整合到一部分，整合到这个豆包工作里面去了。也就是说明他的产物很多给你的都是飞书云文档了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也就是说他的各种动作是在逼迫更多的沉淀文档。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说像我们，我觉得说我会爽，是因为我们是飞书的五年的老客户了。飞书一上来我们就在用，然后我们大量的文档在里面，我所有的权限控制管控，然后包括对外联系人的这种客户联系，我们的客户资料都在上面对吧？我们在上面的那些哪些信息能给AI看，哪些不能给AI看，我们很容易就已经设定好了的。现在去工作起来我们就会很顺。但是我相信大多数的公司没有这种这样的管理力度的，大家也没有这么强的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我说被动沉淀。对，就被动沉淀是很重要一件事情。我们今天是讲讲这个豆腐包工作为主，就其他几家我们之前有讲过，大家去回看。我们讲如果讲豆包工作为主，我觉得他做了一个比较好的，就至少说对我我这种人哼就让我被动沉淀文档，就所有产物给我放到这个飞书云文档内置那个。包括工作里面去，对，所有财务都放那边去，我自己要，我自己导出为我本地的格式，我不要，我就放上面。下次再call back去引用它，下次再去再去回顾说之前你给我交代一个什么东西，就是这种被动对我这个人是有好处的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后对于大部分的老板，我觉得是这样的，就是我觉得落实到具体动作，我的建议非常诚实。你们就是所有线下开会，线上开全部给我录音，全部录音。对，全部录对，什么事都不要干，你就是每天抓录音，这个会有没有录音，我要听到录音。我不信你这个AI转不了，你知道吗？我不信你这个整整个agent进不了公司，我就不信了，我靠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，就第一步信息化我给你补上，就完全信息化数字化都一起走都上了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是先给我录音起来，过程会、复盘会、展望会、批判会、批斗会全部给我录音进来，我就不信agent进不了公司，这是不可能的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，所有的大会都大会小会都别漏。这个应该第一步有了，后面就至少有了，有了工作的基石就可以启动了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这个是我最近我们在研究这个豆包办公，我觉得这几天下来比较深的一个感受，然后分享给大家。就是之前这个豆包，大家都说这个豆包到底能不能工作，大家有很多这种疑问。我之前用豆包问养猪，叫豆包帮我看钓鱼的这个讨好型人格的豆包到底能不能工作。但是我觉得今天告诉大家的结论是说，你管他能不能工作，你要先配，对不对？对，我是肯定不配的，你不能跟我一样不配，对不对？对吧？就是我我觉得豆包肯定是能工作，对，但是看你是怎么样去沉淀你的企业的上下文给到豆包。好，我们今天这个AI办公巡礼之豆包篇到这里结束好不好？大家期待我们后面的更新，好吧，本期节目到这里结束。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢大家，拜拜。更多评论区见，拜拜。</p>]]></content:encoded>
+            <pubDate>Sun, 06 Sep 2026 04:46:57 GMT</pubDate>
+            <guid>6a9cef66f03e74ee6b05c1c6</guid>
+        </item>
         <item>
             <title>DeepSeek Harness：Agent工厂来了，但老板你真的配用吗？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a871d9a1352af56ff396d59</link>
@@ -5320,128 +5517,6 @@ Apple podcsat朋友请移步👋
 <p class="transcript-line"><span class="time"><strong>[00:42:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜，期待多聊，拜拜。</p>]]></content:encoded>
             <pubDate>Mon, 26 Jan 2026 09:07:55 GMT</pubDate>
             <guid>69772d39ef1cf272a7897f15</guid>
-        </item>
-        <item>
-            <title>Claude Cowork、Antigravity、Manus｜为了买数字奴隶这件事，我们吵起来了!</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69666a63ef1cf272a73c2d16</link>
-            <description>Claude CoWork 刚发布就把大家吓惨了，把 Claude Code 的神力直接搬到桌面，这是要把打工人最后一点价值都榨干吗？为什么Antigravity 上手第一周我就无法自拔？Manus 背后 8000 万个虚拟机到底在搞什么鬼？这一期我们把 Agent 和 Computer Use 彻底扒干净了，告诉你未来 5 年 AI 到底怎么动你的电脑！
-0:00 终于等到 Claude CoWork ！强在哪？
-6:13 Antigravity，小苏的最爱！
-8:31 闲哥，我真用不起来AI IDE！
-17:15 代客上网，什么鬼落伍方案？
-22:15 能用代码解决为什么要用图形界面？
-29:32 小扎买Manus它难道是看中了这？
-31:41 Manus 隐含的价值在哪？
-【订阅 JustSayAI 早晚报】
-🌈 新朋友！订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
-🌟 老朋友！加入会员获取 JustSayAI 早晚报+深度研报+文字专栏
-【主播小红书】
-📕叫我小苏就好啊
-【关注频道】
-▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
-📱 商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我花了钱了，我就要把你榨干，就有点那种黑心资本家那种感觉。你坐在那儿，看着电脑在那工作，时不时的看一看。小同志，你这个做的不太好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以跳车跑，随时看，可以打断他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧？没想到你有这种变态的爱好，真的是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们这一期来聊一个话题，就是今天刚刚发布的cloud cover这个产品？终于是把大家心心念念的，也是老修最爱的这个叫做cloud d code，做成了一个非编程民用版本给到大家。但是目前就是仅限尊贵的这个max用户了。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这种平民还用不上，没办法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但是我就觉得今天这一期是想跟大家聊一个话题就很好玩。就是cloud code一个以扣的而生的一个产品，最终被大家玩坏了。完成了这样一个桌面端的agent产品对吧？那也是大势所趋。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实这段时间，我们三个人其实有三个方向，各自试了3种不同的agent产品，很长时间的一段体验，因为最近我们在重构早晚报，老修是用这个cloud code在解决很多后端的问题。我是用google的这个anti gravity在解决很多前端的设计跟交互的问题，对吧？然后贤哥就是用这种web的，就像这种menus这样的产品在解决很多信息筛选的一些问题。所以我们三个人刚好就借这个cloud的k work的发布，跟大家一起聊一聊我们自己用这些agent产品的一些体验。对那老师先讲一讲，就是cloud code它这种长成命令行的东西，其实对于我们大多不写代码的人，就很难做成一个桌面搭子，对不对？对，那那这个问题就是我想问的，就是说他现在发的这个在work有没有很好解决这些问题？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实在work应该说就是核心解决这些问题的，我们有一个场景特别痛苦的。因为毕竟比如说你们两个跟我肯定就有类似的一件事情。不管我们在电脑上干什么，我们总是要把我们找到一些资料整理成特定的格式，当做上下文交给AI去去复制粘贴给他，对吧？就这么一个实际上是非常断裂的一件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原来在cloud code上是我想的是用编代码。因为代码里大部分的东西都在你本地的文件里面。Code可以去缓存、识别、分类，然后去把预测我上下文到底要做什么，他就很多东西不需要我去整理。我们就是说这个代理就是agent这个词，它最重要是agency，就是主动性这件事。那这个东西的话，其实coworking他就是把这个事情再往前推了一步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从我的理解上来讲就是说cloud code相当于cloud code的agent隐藏在后面，这个could work。它可以去调用这个cloud code这些agent去做这个任务的时候，它不需要你手工去整理这些文件了。你原来有很多文件，它可以自己你去通过你的合理的授权。他在本地有一个虚拟机，用这个虚拟机来把你的很多的文件，一些文字，散落在各地的文字。他在授权的特定的目录和磁盘之后，他能够自己他就知道说要去哪里去整理，不需要你再去自己打开一个某个文件夹去整理。那这些活儿他就可以自己去寻找，然后自己去整合，然后去当做你现在要完成的一个任务的上下文去搞定。这个是for work他现在核心去解决的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为有了这个本地虚拟机，还有还解决一个很大的问题，就是它跟你的电脑，就是深圳是开辟了一个安全区域。他不会说他跟你打架，你在操作这个文件的时候，他也在操作你这个文件。那他的话就会用合理的方式去读取你的文件，或者把你的文件做一个拷贝到一个地方去，再进行进一步的一个操作。他不会跟你去打架，那他的整个安全的限制也是做的是很好的那这些东西他就隐藏了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些原来在cloud code里面，我们是通过每一次操作，我去告诉他怎么授权，可能怎么样去读到哪个文件夹。但是到了go work的话，它更多就是自然语言的描述，以及比较大的这种文件夹磁盘或者一些任务级别的一些授权，就是本地文件的一些授权，它就可以把那个很多事情就可以做清楚了。不像原来cloud code是非常细小的，我很小的一个文件授权或者一个动作都是要授权的。在在class code里面，像这个的话，我觉得说，实际上是很大的一个进步。然后这种东西其实我们在其他的端，比如说像你刚才提到的那个反重力antibody，还有像其他的像curse，其实他们都有做过类似的事情。只是说这次科沃克做的更深。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他这个本地虚拟机是为什么只在我们刚才说的尊贵的max用户，而且他也只给mac OS做一个苹果的这个操作系统才有。因为他用的是苹果的一个本地虚拟机。这个虚拟机不像我们以前看到的web上面的那种比较轻量的什么乌邦图的那种虚拟机。它这个是苹果本地的虚拟机，它要比它更完整，然后权限控制的更严格，更可以控的非常的细。然后你相当于我们常说的那个词叫做安全沙盒，他就可以在这里面很安全的去做。那这个事情的话，是以前都没有其他的产品做到这个程度的一个企业级的一个安全。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我正想问你就是像我用这种AI的IDE，其实它也是授权文件夹，然后让他针对某个文件夹进行这种修改或者agent的操作。那顶天的加上google的这个antigravity，它可以暴力的就直接调用你的chrome就帮你上网。他略过了虚拟机这个环节，他就直接操作，就全部都是直接操作的这个东西。对，那其实跟那个cloud的这个科work可能还是不太一样的。因为像antigrav hc这种，其实你如果一次操作说错了，我就试过这种情况，文件找不回来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他就操作的是你的你的电脑。那他这样子用虚拟机就是沙盒隔开了antigrav y第一周就出了一个大乌龙，就有一个对不知道是丹麦还是哪个地方的摄影师，把antigrav拿来做一个性能改进，结果把他20年的那个照片全删了。就是授权的时候授权错了，是这种事情，这种事情到可work就不会有了。因为这个本地虚拟机最开始的时候的合理的一些划分跟授权他会给你分开，就不会有这种事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是我就遇到过这样的问题，就是把我的某个文件夹我授权完以后，但是我进行了一些agent化的操作。因为他们不现在都有这种age mode，然后这种操作以后，经常可能有的文件被误删了，或者就是说你退不回来了。对，所以我按我理解就是cloud的这个cold应该是针对于这张IDE的场景做了一些减法，就把原本编程的那个部分减掉了。但是java的部分它就是加了这个本地的虚拟机进去，以防就出现一些极端的情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对的，那在这个做法其实很聪明，而且其实我们在别的更外部端的见到过。比如说我们经常看到的那个像minus，还有什么just mark等等的这些。然后还有各种各样的有些开源框架，其实都做了这个事情。给这个agent配了一台电脑，然后这台电脑是一个云端跑的那个服务器。那他可以在他自己的那一亩三分地去做事情，而不干扰你的那个内容。大概是这样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个其实某种程度上原理跟这个是很像的。因为从我们就相当于说，我们真的是叫什么科work这个名字已经取得很直接了是吧？是在work一起工作，在一起工作的时候，肯定我们俩不能一起抢电脑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个事情我觉得说最佳实践在这一次实际上是用的很好。只是说他这次是给你搞定的，是桌面端最深入的，因为你越接近你的OS你的操作权限，然后权限控制都可以做到一个很好的平衡。权限又大，然后又可以控制的很精气，而不会去不小心就把你的什么东西损坏了。这个是我觉得说扣work给我们带来很大的一个想象空间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，其实cloud code早就应该改名了，对吧？Cloud code它不应该叫这个名字，但现在改过来，然后做了一些减法，我觉得还是挺好的。像包括我这种用本地IDE的，其实我对本地的权限这一块我也是有非常深的感触了。但是像贤哥他就不用这些，我们用的这个贤哥都不用，没错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是不用，我是用不起来。一个就像老师？Clock code它是只针对自己的尊贵的用户们，然后对我们这种说想想蹭一蹭的蹭不到，第二个就是说你说爱奇艺这种方式，虽然小苏也给我推荐好几次了，但我就是觉得学习成本比较高。确实可以，确实高。我用Venus挺好啊。就是我觉得在这个时代了，AI都吹的那么牛了，那你这就不要让我有什么学习成本了，你最好让我享受生活。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我享受生活方式就是什么呢？就给我解决麻烦，对吧？那直接给我安个浏览器插件，然后直接就开始上手用，然后能解决我很多的这种小问题，或者说浪费时间的这种必须做的事儿，我觉得很爽啊。反正我还没有体会到爱IDE的这个流畅性，因为这个我能想象，但是说还没有是下决心去学。我以前经历的就是小苏说的这个，这个就是从IDE角度来讲，它的这个优势在哪里？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们可以PK一下，其实IDE是一个中间产品，因为它本来是用来编程的。但其实你发现其他的一些工作，它并不是那么界面没有那么原生，就不像cloud for work这种东西，让你觉得他就是在帮你干活的，就是你还是要有一点转化成本的。但我是不会去用像menders或者是说像german奶油，就是age mode的，对不对？这种所谓代课上网的这种功能，我自己是不会去用的。因为我感觉我看不到过程，因为那个IDE的过程我可以看得很清晰，甚至授权我可以卡的很死。但是那个对像是像但是这种像这种age mode或者是menus这样的东西，对我来讲就是我觉得有很多事情他可能在云端做不到，我会有一个怀疑。然后第二个就是说我觉得那个过程我是需要把控的那这个过程他自己去发挥了，我会有不信任感，这是我可能不用的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我个人感受，咱举具体的例子，就比如说你看之前没有这个，我没用matters之前，然后用gm用的比较多。有的时候我有一个具体问题的时候，我希望他先把问题描述清楚给germany对吧？让germany去做一些research，然后我先要去阅读resets，阅读完了之后我要提炼出我的新问题来，再次进行这个交互。尤其是说是那种信息收集型或者说比价型的这种东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱举个具体例子，就是说最近最近我这个车亮灯了，说需要做保养了。这个里面有一个东西是防冻液。防冻液的话如果我要到车行去做，那人家用什么都可能你也看不到。对，加完了之后没错。然后这时候我就说对，要纯黑盒没错。但是其实在海外这边来讲的话，很多都叫DVDIY。你能直接买到原厂的，你也可以买到OEM的，你也可以买到第三品牌的等等的。而你也可以找车行做，你也可以找这个dealer做，就是这种独立的所谓的独立的这种运营商做，也可以找这种完全没有那个什么的，就没有场场店的，直接开个小车就过来给你弄的都可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这个里面就水分水很深。如果你想想图想简单的话，那肯定就是花钱。但你要想省钱，性价比高又能保对你的车有保障的话，那你需要做很多比价。那之前我就直接扔给gina然后让gmt去给我做research，做完research之后再跟我去对品牌。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他要问我问题，我们车什么型号什么的，现在我就直接照几张照片，一个是我现在是这个防冻液的这个页面到哪儿？一个是我车什么样，然后直接告诉他我在温华，我就让他去搞了，说给我出两版这个性价比最高方案，并且告诉我dealer现在多少钱，有没有优惠。真的你知道吗？小苏我怎么理解你说那个就是控制感，但是我要的其实不是控制感，我要的结果。所以我是看着他工作，一个拿着杯茶在那坐着，就有点那种黑心资本家那种感觉。你知道吧？就是你坐在那儿，看着电脑在那工作，然后还时不时的看一看。小同志，你这个做的不太好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>随时还可以打断是吧？对吧？对你那个可以随时打断。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个感觉特别爽。没想到你有这种变态的爱好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且他勤勤恳恳的把每一步给你列出来。当然你也不我也不会去看，但是他一看到他说把这个工问题分解成多少步，然后他去学习了youtube。对我经常会说你先去youtube给我学，我学完之后你再来搞，你不要自己想。你还要给我告诉我你看哪个youtube。我还没事，我就是他在那工作，我还去youtube我自己看。然后就有一种感觉，就是真的是资本家那种爽感，就是我我花了钱了，我就要把你榨干那种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我我我问你一个问题，就比如说这些事情难道你用deeper research不能做吗？就是你要你可以要求他不输出报告，只交付结果，你自己这可以做的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就可以，但是你你你是没有那种爽感。就是我当时说的，就是你坐在那儿，你看着你的浏览器，再通过你的这个youtube账号在在看在关注东西。相当于你自己看了，就是我的感觉就是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是说我找开小窗监控员工的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？而且不是开，我就明目张胆站在你旁边监控你。然后你那那我说什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我知道你的爽感在哪。因为对对对，按道理这个事情deeper research也是可以做的，只是说他给你看到的过程是他在浏览什么网页，他只告诉你过程的结果，他没有把没错，就是他没有把他在操作工位没错，弄个录像机给你没错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你就没有享受到那个过程。你还记得网上有一个视频，就是什么？就是有一个人去退货完酝酿了半天，结果到那之后本来以为要吵一架，结果店员直接给退了，他很不爽。然后那店员就问他说你是不是想吵一架？然后那个说对，然后说那好，我给他陪着吵了一架。吵了一架之后，最后也退了，然后特别高兴。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我觉得过程有时候很重要，起码我看到他工作有时候确实是。比如我问一个问题，其实我不知道该怎么去做做research，但是我看到他分解步骤，然后其实就咱不开玩笑说是有启发。好的，然后等他看了他收到了某个youtube之后，我会去看。然后看完之后我可能觉得不够好，那我就下一个问题继续问他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这个过程中，其实我觉得跟deep research的给我的获得感是不一样的。Deep research给我的获得感是说我现在学新知识，可是这个时候我就说我看着manus工作，我学的是新方法，就是学学新的这种工作方法。也不见得一定是每次都学到新东西，但是能够验证一些我的想法，我也觉得挺爽的。所以说就前一段时间这个案例就让我觉得怎么着，就比如说我就说防冻液这个事儿，我一下子从完全不知道到知道结果是什么样，同时还知道思考过程，然后省掉了我大概四十多块钱，我一个月的manus的会费就有了，对吧？就这么一个小问题。好，对，就正好了。对，而且这件事儿其实整个花了我半个小时，但是我让我很就爽了半个小时是真的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得这个就是情绪价值的交付。你像比如说我一样完成一些任务，有时候我就会偷懒，我就用deep research做。我说你不要给我输出报告，你给我说要的这个东西的结果，你去帮我做一个什么事情更狠。比如说你去给我逆向某个网站的这个基本面给我做出来。举个例子是这样的一些事情，我说你不要输生成报告，直接给我网页，直接给我代码，他是可以做的。但是他的情绪价值是没有像你刚才讲那个场景给那么高。他他就是每做一步给老板发一个信息，说我做到了，我今天去哪里打卡了，明天去哪里打卡了。对他并不是像那种eleven那种那那做到了给老板发个视频，我今天在这里打卡。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我给你举个例子。对，我给你举个例子，比如说你儿子以后上中学了，他拿了100分回来，你很开心对吧？但是还有一种开心是什么？就是你每天晚上回家的时候，你辛苦一天发现回家的时候他都在那安安静静的写作业。你看他在写作业，你也不管他在干嘛，你看他写作业他没玩手机，你也会很开心，这两种开心是不能互相替代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我昨天刚跟我儿子讲，我说你想不要被骂，你回来你不管写不写作业，你先给我拿开启台灯，坐在书桌上面比出那个姿势，你今天就很平安。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你现在能理解我的感受了吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你其实还有一个隐藏的那个爽点没讲出来。我我我其实有跟你体会过类似的，应该是你在看他干活，这个看他干活为什么你会看他感觉的爽呢？应该有一点是因为他是用了你的那个油管的，就是youtube的账号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看他在看的时候，他已经知道你平时已经看过哪几款油了。他都知道大致你需要的油是哪几个型号的，哪几个品牌的。因为你在上面你看过他其他博主的分享。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后它是基基于你的这个它是基于你的这个身份，还有你的这个过往历史经历，而且还是基于你的埃批去找的。他跟我们做deep research不一样。Deep research其实在跑的时候，它是兴起了一个session，然后从这个完全独立的一个角都去去研究，相对比较中立的一个角度去研究。但是你恰恰你这个事情最适合的就是带着你平时的使用习惯去去这个为基础，然后去找那个资料，然后再拿整理给你。因为这些，这就是你平时看过的，你想一下是不是有这个不行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我我我还要再再挑战，我是不开心。对我我一直觉得我要问老师，就是我一直觉得像这种什么GY agent，我们之前聊过豆包这种方式，操控手机对不对？然后还有这种computer use这种代课上网，就帮你点点开浏览器，一层一层上网，不管它权限控制怎么样，就我们我们就理解为暴力的代课上网。我一直觉得这种是一种很不智能的，很落伍的，或者就是说很折中的一个方式。我不知道你从技术角度来看怎么理解这种行为。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是现在to c你还是觉得他挺智障的。但我现在看到的我们可能也不能泛化，就是说to c就是纯是可能像杰哥都买油这样的一个事情，冷这样的事情。然后我我我是觉得现在menus其实我自己也经常用，就是去解决一些简单的这种一些原型的调查，然后一些知识的整理数据的。就是从互联网上去找数据的时候，我会先优先用它，用完以后搞到本地了，我又变成cloud code。我觉得两个加在一起，因为到本地我肯定有更深的数据加工，然后更多的一些常用的工具组合，有我有自己的工具组合链。但是在云端收集数据的时候，我会用的去去找，而且会让他去可能提炼一些重点出来。就是他的相对而言，他就是能用上我的一些那种，我有一大堆的身份。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实在那个官方谷歌账号我的好多个，然后还有各种各样平台的账号我有很多个。其实因为不同的账号可能对应的不同的一些使用的一些领域的一些知识。然后我可以利用menus去帮我说，用不同的账号去把这些东西收集一回来。收集回来以后做一些粗加工，然后细加工我自己在做。我现在也是组合的，其实没办法说像用一个工具全部搞定。那像你刚才说的反重力这块，实际上他他是跟我的cloud code是比较重合的。因为我cloud code基本上也会做他那方面的东西，所以我现在主要可能是这两个工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个对外粗加工，外部的搜索就是用minus，然后在在本地的话，我就用cloud code两边一结合就搞定了。我觉得这样子其实是我目前比较舒适的一个状态，而且也没花多少钱。这两个其实价格还OK比我原来用GPT加煎饼奶，再加group三个其实要便宜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我还是有我还是觉得说两点之间直线最短的，能用代码解决的尽量用代码解决是最快的对吧？为什么要用图形界面去解决这个问题？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是代码的代价太高了。其实现在代码很，还有就是不直觉。代码虽然能解决，但是它的代价应该还是比浏览器这种。就是我们刚才说的像Venus这种很聪明的解决方式是他用浏览器插件获得你的身份权限，然后在你的授权之下去完成一些这个任务，这个其实是很清亮的，就是说他只是在浏览器上点点点，这个花花不了你多少资源。但是你如果说到了代码就不一样，到代码的话可以说至少十倍到几十倍的代价可能是要有的。就是你你至少要真的要好好的推理，这个变成了说难者不会，会者不难。比如说贤哥你刚才说的那些事情，我可以做个代码一下子给你搞定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是第二次不用了。对，第二次这个代码就不用了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就浪费一次性代码。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>即抛型的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且就那这种对我可能很容易。因为我熟悉使用cloud code对吧，他是写cloud code打开都不知道该干嘛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得我更多代表了更多数人，就是真理虽然掌握在少数人手里，但是这个便利性是要满足更多数人的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那还有没有更好的产品？因为其实我自己使用这种antigravity过程中，我发现它的局限性也是很大的。它不是像柯work或者不是像贤哥用这个menus，实际上就是一个很直觉的东西。如果你不是写编码的，或者说你不是比如说像我是用它来做前端，对吧？我用它来做这个产品原型，甚至我用它来做设计，那这个是可以的，甚至做一些字幕的处理，这是可以的对，那可能就是说像我这样去折腾它的人是很少数的。因为很大多数人看到那个编码界面就直接再见，就直接不玩了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，比如贤哥可能看到那编码界面，你就算跟他功能吹上天了，他可能也不会去用了。你吹去年跟贤哥吹了一年的科技，你看贤哥用了没有？贤哥肯定下载都没下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我都不会让自己陷入到那种境界的，我连看都不看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能我刚才也会觉得说这种come computer use的这种效率其实未必是高的。但是老师也给大家解释了，这个computer use在to b里面是非常重要。To c的话可能还是智能不够，或者是说还是要靠很多的token消耗去换取一些非常我们习以为常的一些常识。但我不知道这个会不会是个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得肯定会是个过程。就是现在这个token的下降已经比去年下降很多了。其实就是现在现在的这个体验上，你会发现好像没有像以前随便做一个小任务都要花掉你随便。因为现在不是各种各样的平台，上面都是一大堆的credit。你随便做一下，以前的花很多，现在其实都花费都不高了，优化都好了很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但其实这个事情我们在聊GUI agent的时候也在聊，我觉得GUI agent最理想的情况还是用本地的算力是最好的。就这个事情我可以接受你笨，我可以接受你慢，但是我不想接受你花钱。你知道就你不要花我云端的token.</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是你可以花，但是要少量的花，这是最好是很多事儿都是本地的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>偶尔去云上赚，关键的时候在上云一下就好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是现在这个坎还没过，就差一点，差那口气，你不然苹果AI早就我了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我就想说这个事情，我今天看到一个新闻，就是siri要跟german nice合作了，对吧？我觉得这个也是一个很重要的信号。会不会因为我在想，你作为苹果来讲，你选germ line，选OpenAI其实大差不差，反正都是比你好的。但是他们两者也不一定能够帮siri提高多大的上限。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但我觉得有一个问题估计是苹果考虑到的。就germ line的端测能力其实是在安卓上面被验证到了，所以这个是很重要的。哪怕可能这个阶段就是我觉得多少有点竞争对手，对不对？就是安卓跟这个IOS对吧？但他也愿意引入dream的，我觉得可能更看重的是端测上面的一些能力。或许是苹果有在想这个事情，或许是别的原因，但不知道。但我从我个人角度，我不知道我理解对不对，我觉得端测能力还是蛮重要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我从商业角度来讲解读这新闻，我觉得是这样，就是两害相权取其轻，咱们都学过。然后首先我觉得是两个问题。第一个问题就是说apple始终是自己没法突破自己的AI模型能力，对吧？那在这个市面上来选的前三名里面，起码gm是可以排在前三，怎么怎么数都是前三。第二来讲的话，如果如果我是个手机用户，然后我必须选择想用AI那我可能就会问了Jimmy，如果我不跟Jimmy合作，那我可能是会选择google的手机对吧？那现在我apple也用google的模型了，那我就没有理由去换apple的手机了。所以我认为从底层的这种选择来讲的话，如果说AI是个是个决策因子的，而且是关键因子的话，那现在两个因子是一致的那我又重新回到选择手机的这个是这应该叫什么习惯程度上了，那我还是会继续延续用iphone。所以我觉得是从商业上来讲，这是一个很好的判断。当然我听说不说是觉得cloud code太贵了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个也有可能，我觉得cloud这个公司也是很神奇，反正就是有各种各样莫名其妙的标准。就听说前两天还把X的使用权限给他干掉了，但马斯克他们那些人气死了，对吧？那这个这个经常干这种莫名其妙的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我有一个问题，就我特别想问你们俩，就是咱们刚才说的minus，对吧？Minus用这种browser的Operator方式。但其实之前我们看到的更多是AI公司做浏览器，progress也好，OpenAI也好，对吧？那其实我我个人感觉，因为我都有，我都下了，而且我有的还都先付钱了，但后来都不续费了。就是我的感觉就是让我去换一个浏览器，其实是一个挺大决心。对你想我所有密码，乱七八糟什么都在上面对吧？账号什么的，我何必我再弄它，还要在什么旁边侧面，还要有个侧栏等等，要去适应。但现在manus用这种方式很轻，就是一个google的或者说浏览器的插件。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就这种方式就这两个。首先咱说功能上差距大不大？第二来讲的话，就是说你们两位觉得minus做这件事是不是一个妙招？然后后面是不是大部分人都会选择退回来用浏览器插件的方式来来实现AI功能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是觉得浏览器插件只是一个形式，就短期的一个形式。因为menus他做过浏览器。只是没有发布。我看过他做过那款浏览器，其实完成度已经算挺高的了。但是为什么没有发布？我觉得有几个原因。第一个就是这个东西的推广成本其实比AI高。那你有可能就是你在推广这个menus加浏览器的时候，你就是双倍的这种成本了，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二个我觉得对于浏览器的使用群体来讲，就这帮人还是比较挑剔的那浏览器它其实是沉淀的非常多细节、操作，包括很多的这种经典的设置在里面。坦白来说，这是一个要花15年十年时间去做的东西。你能够干得过chrome吗？你能干得过这个safari吗？这个不，我觉得不太可能。哪怕是somebody现在也就是也躺平了，对不对？他们也躺平了这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我是觉得说躺平都出了好多事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就做浏览器本身是吃力不讨好的事，没错。第二，做浏览器这个事情本身是一个要时间积累的事。第三，做浏览器这个本身是一个要有生态支持的事情。你三件事情你都能做吗？我觉得这个是挺难的。所以对于menus来讲，他做好他原本的这些agent，或者是说做好他原本的，他不是也有一个Monica这样的插件。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得对他们这个体量公司来讲，应该是已经达到上限了。如果再多一份浏览器的这种支出成本的话，对他们来讲其实非常不可控。而且整个资本市场对于他的评价也会不太一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那为什么他今天被这个meta给收了？不是据说又最近又被调查了吗？上一集我们下一期我们聊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了聊商务部调查了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>调查的对对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>上期我们聊，但是这回听我们上集讲这个menus被收购的这个事情。对，那我是觉得说他还是让小扎看到了一种想象力，我觉得这个是重点。如果他推出了一个浏览器，对不起，小扎不会看你。然后可能google也不想看你一眼，就有点像今天的property。其实我觉得他应该最好的结局是卖给google，对不对？但现在好像没有人想理他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，很孤单的，就是属于明昨日黄花的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不也不是也不是，但是我是觉得说他可能就是动到了一些巨头，不想让他做的事情，或者是说你要就是你作为一个公司，你要卖给别人对不对？你要想长得好看对不对？对，所以我觉得menus他可能也考虑过这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那最后为什么能够小佳愿意去买它？一定是看到了说他把他背后的这一套computer use或者虚拟机等等这套的方案讲的很好。然后我能够想到说你这套东西装到我的这个头戴眼镜里面，就能变成我云端的虚拟机。我小张未来有机会抢到下一个AI智能终端的入口。我能够跟apple我能够跟google，我能够跟windows，我能够平起平坐。这是想象力的问题，这不是说你做了什么的问题，这是想象力对这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我特别要补充一下。其实你去看那个meta收购这个minus之后，它有个官方的通告通有个通告稿其实写的很简单，但里面有有两个数字特别重要。第一个是他用了大量的非常多万亿的token，这是一条。也就是说它的使用率一直都是在全球排名top几的一个水平之内。对这个东西是很惊人的，就是它的使用的时长，使用的场景非常的多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是第二个还有一个数据可能很多人没有注意到，他是说他创建了8000万台虚拟机，给用户去完成任务。8000万台虚拟机，这是一个非常巨量的数字，而且这里面其实包含了很多隐藏的信息。就是说为什么它的很有价值？就在于你在这个虚拟机里面做了多少事情，然后有多少的用户的上下文的数据都是有经过这个数据虚拟机处理的。而且它的处理的程度和记录的程度是其实不是一般的一般的我们网页上可能做个追踪的那那种程度，它是非常深的那像这些数据其实非常有价值，而且这种东西是很通用的，它是一个通用的一个方式。你我们可以看到他只是在25年的三月份出来，到现在一共才九个月的时间。但这个东西其实已经成了事实上的一个最佳时间，就是大家都在想办法利用说我在背后创建一个虚拟机，然后给这个agent做了一个配套，配了一个独立的工作空间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他可以在里面去完成很多任务，而不需要来打扰你，而且也不会破坏你的原有的很多的文件。这个方式不管说你从可视化上贤哥看到的情绪价值，一直在干活好嗨，还可以看回放转给别人看，还可以让人家知道这个东西怎么出来的。但是更重要的是它背后其实这样子的一种模式。它它其实收集到了极多的中间的过程数据。对它这个是个过程数据，它这个是一个非常好的上下文采集器，就是这个context的非常有价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且实际上就是我在我们这期节目之前，有放出来有看过minus的手机科学家，就是记忆超peak同学，他有分享了三个多小时的整个minus之路的一些过程。其实里面他们有做了大量的上下文精简，上下文命中以及a agent成功率提高的这些动作。然后有很多工作，其实由于他们的刚才说的两个事情，一个调用量极大，第二个是虚拟机创建了特别多，里面积累的特别多的这样的过程数据，而且是非常深度的观测数据。他们实际上跟所有的顶级的这些模型厂商都是非常密切工作的。包括谷歌的deep，然后那个anthropic，然后open I他们都是密切在工作的。因为他们是消耗大户，对吧？就相当于我是油老虎，你们天天这些控油的，我天天都要跟我来做交互这个是过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他在这个过程里面，其实他有好多的上下文，然后好多技术的突破，然后这种上下文的这种命中的优化。其实他们有很多的论文都是跟着他们一起做的。有好多的东西甚至是在work以后，deep mind或者是android c他们先把论文写出来就发掉了也没带上。他们也有这样的好多这样的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以这种就是因为是可能有一些是比较小的，不是说什么好像大家看起来很小，但是这些小的东西其实恰恰就是做agent最重要的。它不是说像transformer出了一个框架，这个agent就好用了，而是它非常多细小的这种什么上下文命中，上下文改进。然后虚拟机给你独立出来工作空间，然后甚至还给你虚拟机为你不同的工作任务预装不同的虚拟机。这些东西的价值是现在其实已经是成为了一个事实的最佳实践。有好多地方都在，包括今天的2 pic我觉得它的这个扣work其实是有肯定有一定程度是借鉴了这个设计理念的。而且包括科沃克现在在展望未来他要做什么，其实这个事情已经是minus做了的。他说他要做多端，就是说我可以在手机端去发起一个任务，然后云端干完，然后同步到我的电脑上。其实这个Venus现在是因为本来就是云端的，它其实这个事情已经实现了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你可以APP给他下任务，你可以手机上web页面给他下个任务，然后到电脑上去收割那个结果，这现在他已经实现了，然后这就是交互类的东西。然后他然后还有就是虚拟机本身的刚才这个设定。那那像这个科work，现在这个虚拟机也是本地更深度的一个虚拟机，完全控制更好的这个权限的控制，可以做到非常细致。但是他本质也是先给你分你的工作的区域，就是让你跟他不会打架。他是你的小助手，在旁边有他自己的电脑在干活。所以这里有很多的理念，我觉得是实际上影响了现在很多这些主流产品的那我觉得这是一个特别了不起的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是它值钱的点就是它有很多的过程数据，对吧？就像当时OpenAI想要去收这个one serve一样。对，就是这里面的编码过程中的提出的问题，提出的这种需求，其实这些过程数据是很重要的。然后还有一个就是它的token的消耗量其实是极大的，其实这是一个非常量化的指标。结合上你的用户数，其实你会大概知道说你这个事情我嫁接进来，我meta进来，我能够做到多大的量级，我也能够算出来？这个是从财务上，他们其实是很容易去预测推演的，然后包括这些过程数据对他们也是很重要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我是觉得说微软没有去拿下这个manner，这个可能是一个比较，我觉得如果能微软拿下是一个还不错的事情。但是我觉得这个微软可能有很多考虑，包括微软在国内这边可能也比较熟悉，对不对？所以他可能不会去做这样的事情，或者他们评估过说内部有更好的方案也说不定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以从整个商业环境来讲的话，我觉得不能光谈技术，真的要整个考虑这个。所以我真的上次咱节目就说，就是和meta这次握手对吧？我真的是觉得意料之外，情理之中。对对于对于meta意料之外，对于meta情理之中。但是这件事本身来讲的最终赢家其实是Venus。只不过现在这个商户调查还结果怎么么样还不知道。所以还这故事还没完，还可以等等下一次的节，下次节目没准咱们接着聊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再下回又能分解了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们用的分享。对好，我们就扯远。这期节目就到这里结束。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是谢谢大家的小分享。好，咱们下期再见。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜拜拜拜拜再见，拜拜。</p>]]></content:encoded>
-            <pubDate>Tue, 13 Jan 2026 23:30:00 GMT</pubDate>
-            <guid>69666a63ef1cf272a73c2d16</guid>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,190 @@
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
         <description>AI界德云社！</description>
-        <lastBuildDate>Tue, 08 Sep 2026 06:48:05 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2026 06:28:01 +0800</lastBuildDate>
+        <item>
+            <title>GPT-6说自己是AGI，李飞飞和马斯克不服了！｜聊聊GPT 6、世界模型、Cybercab谁才是AGI？</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6a9eb788a0210c197dcefd1b</link>
+            <description>00:00 为什么说Claude要爆雷了？
+03:06 GPT-6 Astra强在哪？
+07:16 强如灭霸为什么还要找手套？
+11:05 李飞飞的世界模型真是三无产品？
+13:40 为什么说数据用完是个伪命题？
+16:23 谁能拼出真正的物理世界模型？
+19:40 没有手和脚，怎么能算真正AGI？
+22:20 Cybercab为什么非要做成两座？
+25:25 远程操控：会变成菲律宾外教吗？
+27:30 真实路测数据为什么大多无效？
+28:55 大脑自习室和身体，谁才是AGI？
+【订阅 JustSayAI 早晚报】
+订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast 📱
+商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>三位AI行业观察者围绕“谁才是AGI”展开了一场概念混战：一边是刚发布的GPT-6，被发言人2形容为“agent时代真正来临”的信号；一边是李飞飞World Labs放出的世界模型视频，被发言人3批为“三无产品”；另一边是特斯拉Cybercab在奥斯汀正式上路，成为第一个物理上没有方向盘的规模化运营车队。对话从模型能力评测一路聊到语料枯竭之争、世界模型四大门派的技术拼图、以及自动驾驶每英里成本的经济账，三方各代表“大脑”、“自习室”和“身体”，最后结论是都不算AGI，真AGI需要“五岳派合并”。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>GPT-6让“OpenAI倒闭论”松动，但风险转移到了cloud身上</strong>：发言人1自称“坚定的OpenAI倒闭论倡导者”，用了GPT-6后“让我对GPT倒闭的怀疑又少了一点”，但开始严重怀疑cloud上市后会爆雷。他认为GPT-6“快、讲人话、UI美感好了一点”，对比favor 5“就是性价比超高”。</p>
+</li>
+<li>
+<p><strong>GPT-6真正值得看的不是常规benchmark，而是“2KAGI3”这一个指标</strong>：发言人2解释，这是一项专门评估agent在陌生环境里学习、用工具、依据反馈调整行动的任务。favor 5只有30%几分，GPT-6裸模型拿到60分以上；如果接上harness（长程记忆+上下文压缩），能达到99.9。他给出的参照系是：“真人去做也就60到70分。”也就是说，带好工具的AI执行任务已经超过普通人。</p>
+</li>
+<li>
+<p><strong>agent时代的两个标志</strong>：发言人2提出，第一，所有操作由agent代劳；第二，“我们做出来的软件大部分时候不是服务人了，是服务agent的”。发言人1补了一句暴论：“GUI软件就是时尚雕花，压根就不是给人用的，就是为了让人更好用一点。”GPT-6这一次针对computer use做了OpenAI史上最大规模的后训练，方向如果验证对了，国内明年就能追上——“腾讯、千问大家都会了，他比你还强”。</p>
+</li>
+<li>
+<p><strong>复杂专业工具的门槛正在消失</strong>：发言人3以blender为例——“以前是1‱的人用它赚钱”，现在普通用户借助GPT-6和MCP就能渲染出比“很多专业人士做的都不差”的3D作品。他类比Photoshop年代靠技能红利“不断换女朋友”的故事，感慨如今“脱开了一个潘多拉魔盒”。但发言人1当场泼冷水：做出一堆3D小场景“目前来讲我看不到什么作用，就自己爽一把”。</p>
+</li>
+<li>
+<p><strong>李飞飞团队的世界模型是“三无产品”，但方向被看好</strong>：发言人3认为其展示视频确实做出了一图生成3D世界、连续输出、镜头走位、子弹时间这些效果，但没有论文、没有开放数据、API只给固定公司，“真正能复现和还原的我还没看到”。同时明确表态：“世界模型一定是未来的巨大空间，比现在大语言模型还要大十倍甚至百倍。现在只是种子阶段，你要说AGI时代到来，那是纯粹胡说八道。”</p>
+</li>
+<li>
+<p><strong>世界模型目前是“四大门派各干一段”，合起来才完整</strong>：发言人2拆解了竞争格局——李飞飞这边解决空间结构和环境渲染，谷歌的虚拟模型可以自由探索但只支持一分钟左右，NVIDIA/谷歌那边做底层物理交互（碰撞、摩擦力、力道），meta和“杨丽坤”离职创业的方向又各不同。机器人训练需要这些全部拼起来，现阶段“四家合起来才是一个完整的世界模型”，真要一统江湖还得靠“‘五岳派’合并”。</p>
+</li>
+<li>
+<p><strong>另一种反共识：语料并没有用完</strong>：针对发言人1“2022年之前的优质语料基本殆尽”的判断，发言人2给出反例——质谱5.3 flash从文字跳到全多模态一起训，训练量级比5.2提升了10倍以上，能力直追cloud的favor系列；brook出到了4.6，groot“掉队了一段时间”但训练量很大。结论是“大力出奇迹仍然有效”，数据可以加工后重新学。发言人1用一句话总结了这个分歧：“学渣才抱怨环境，我书都读完了，学霸默默回去复习。”</p>
+</li>
+<li>
+<p><strong>Cybercab的历史意义与冷酷经济账</strong>：发言人2强调，这是第一次把物理上没有方向盘的车投入商业运营，但目前政府注册的只有45辆Cybercab，车队主力是420辆Model Y，且监管期仍需“云兜底”远程接管，这是“最大的坑”。两座不是为了约会，而是为了每英里成本：Cybercab预计能压到0.7-0.8美元，对比Waymo当前约2美元；两座设计车更轻、能效比Model Y多跑60%、采用unboxed模块化组装、制造和维护都快。特斯拉真正的护城河是“百万级量产能力”。</p>
+</li>
+<li>
+<p><strong>特斯拉真实路采数据的悖论</strong>：发言人3在研究世界模型后突然想明白——真实驾驶数据大量是无效的常规路况，“红灯停绿灯行，千篇一律”，极端天气下人类本来就不开车，数据也采不到。因此，世界模型/物理模型作为虚拟训练基地，可能才是让自动驾驶和机器人“迅速往前前进一大步”的关键，这比特斯拉攒下的几十亿真实里程更有想象力。</p>
+</li>
+<li>
+<p><strong>“GPT-6是AGI”没有人信</strong>：发言人1明确下注：“如果操控电脑叫AGI，我肯定不信；两年后再看今天的GPT-6，肯定不贵、随便用——那能叫AGI吗？”发言人3补充了判断标准：“未来真能做到AGI，必须跟真实物理世界发生真实交互。”最终三人给出的AGI路线图是一套分工：李飞飞的问题要问马斯克，马斯克的问题要问奥特曼，三者需要互相回答、合并统一。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li>
+<p><strong>Cybercab远程操控的荒诞脑洞</strong>：当发言人2提到真正的无方向盘车没有传统远程驾驶台时，发言人1立刻想到国内英语外教的前车之鉴——“我最怕做成国内那个英语外教，最后在菲律宾搞一堆人远程教课”，随即调侃马斯克干脆出个Cyber Carrier游戏专门培训驾驶员，大家拿手柄“上下左右WASD”开车。这种把无人驾驶和远程外包合并的联想，是典型的口语即兴产物。</p>
+</li>
+<li>
+<p><strong>“我老婆别以为我很会用电脑”</strong>：为了论证真人未必能跑赢AI agent，发言人1拿家属举例——家属单位那些“奇奇怪怪、很难操作的Windows网站”经常找他修，“我说你别以为我真的很会用电脑”。搭档补刀：“你主要是面对那种奇形怪状的设计，真的很难用”，而AI靠穷举也能解决。这个生活化细节比任何benchmark都能说明问题。</p>
+</li>
+<li>
+<p><strong>Photoshop时代的“泡妞红利”</strong>：发言人3回忆专业软件稀缺年代，“我身边有好多就干这事儿（靠Photoshop修图），然后人家就不断换女朋友”。他一边说“你用这套了多少妞”，一边感叹技能垄断的昔日红利，语气里既有调侃也有对普通人被工具挡在门外的复杂情绪，最后还自嘲“能力不足，但好奇心不灭、焦虑的心还在”。</p>
+</li>
+<li>
+<p><strong>“AAA王总”命名学</strong>：三人聊到李飞飞新模型的名字时跑题，总结出一条规律：老外取名偏爱宇宙名词，而且名字全带A——“一般都会用A开头的。要是这个AAA王总，主要是A。人都排在前面。”道出硅谷AI模型命名“看起来越像AGI越要往A上靠”的观感。</p>
+</li>
+<li>
+<p><strong>“看得见的山，跑死马”</strong>：发言人2回忆自己作为特斯拉老车主的心路历程——“每一次你都感觉很近了，其实还得有很远的一段路去走”，发言人3立刻接了句老话：“望山跑死马。每次老马都给你们画一大饼，搁一座看得见的山，让你慢慢跑，是慢慢追。”用马斯克的名字双关“老马”，把特斯拉发布会、Cybercab、FSD的画饼循环总结得既准确又好笑。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>来来来，先上报论我是坚定的OpenAI倒闭论的倡导者，对不对？GP6出来以后，我觉得让我对GPT倒闭的怀疑又少了一点。但是我开始严重怀疑这个上市以后cloud会爆雷，我也会爆雷。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这一次我终于找到了一个跟他棋逢对手的这个模型，可以给他干。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他干飞了，干cloud干的这个大快人心。对对对，因为这次我感觉虽然说还是贵，对不对？但是实实际际的解决了非常多的问题。比如说快了对吧？比如说讲人话了吧，比如说前端的这个UI美感好了一点对不对？然后对比favor 5就至少不会让他一个人遥遥领先的，吧？就是说如果你说它贵没问题，但是你对比favor 5，它就是性价比超高，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那包括这个速度确实消耗的很快。我就是做了一个我把早晚报，我们的早晚报NCP不是放出来了吗？我就做了一个mac APP，非常快非常非常快，直接这个板块就给我上了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我发现说它的整个美感，然后包括是计算机的这个应用，我觉得这一次可能是他最重点讲的部分，就computer use，就是人类能用的这个电脑AI已经会比你会用。我比如说这一次他放出来很多这种computer use的工作。比如说他就让这个attra开了一个画板，在看板上面开个画板，然后我给你一张我的老修的证件照，让他对着用这个画板给你画出来。很多工作就完成的特别好。然后包括他这次三弟有很多人做很多3D的场景小游戏，用这个blender也是用这个MCP加computer use去做这个3D的渲染，做出来这个效果也非常好。我觉得这个就对了。他这次据说是一个OpenAI史上最大规模的一次预训练加后训练，而且特别是针对computer use做了大量的后训练。所以我觉得这个事情看一下，如果这个方向真的踩对了，我真的就等我们国内的computer use方案出来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>国内的其实做的也已经很不错了。现在所以这里其实我觉得GP6对我而言，我觉得说最重要的就真的是显哥刚才提到的agent时代。这个agent时代就是我来看的agent时代是什么？就是说因为小小苏你刚才讲的computers也是age时代，重要的就是你所有的操作由agent代劳的时代，以及我们我们做出来的软件大部分时候不是服务人了，是服务agent的这个时代来了。也就是说GP6我们已经不再去看它的上限了，我们现在也没啥上限。好看的就是他基本上能干的这个大部分的事情我们都知道了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就这次反而超过一些部分，超过fable还不是重点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，不是重点，其实不是重点。所以他在里面他好多那个指标，benchmark跑过了里面其实我觉得真正重要的只有一个指标，最重要就是那个2KAGI3，那个那个指标是专门去评估说一个agent在不熟悉的环境之下，他去学习环境，然后去应用工具。然后根据拿了应用了之后反馈到的那些结果，我接着再判断我下一步怎么做，然后去完成任务的这样的一个评估，是o offer 5只拿到了30%几的一个分数，然后GPT6是拿到60分以上。就是apple to apple，就大家完全相同的环境的话是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果GP6再开一个外挂，就是他把他的那个相当于我们说的那个马鞍harness搞上去，harness搞上去以后，他能做到99.9。这个harness搞上去以后是什么？主要就是长城的记忆，然后那个上下文的各种的压缩，他能够做到99.9，能把这个事情完全做好。也就是说他完全可以跟真人一样去完成。然后实际上如果是真人去做他的一个测试，大家能觉得能玩多少分？真人是做不到100分.</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我都不会用。真人去做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个二三的话，大概能做到60到70。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我跟你讲大概是这样，你都别说叫我去参加这个测试，就是我家属经常他们比如说单位的一些网站，一些奇奇怪怪的很难操作的，还是windows的来找我。我说你别以为我真的很会用电脑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是你主要是面对那种奇形怪状的设计，你真的也是很难用的。但是AI不一样，AI如果他的有一套好的方式理解方式的话，他至少给你穷举，也能穷举出来。所以这个里面就是说人类大概也就是拿到60到70分了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也就是说在没有使用一个好的harness，就用大模型本身的一个聪明水平，他通过基本的这些是应用，他也能拿到六七十分，跟人类差不多。如果他有好的人类调教的honey之下，他其实可以拿到几乎满分的水平，其实这个才是最关键的部分。也就是说那一个代理他真的一个agent代理，他真的可以去帮我们很好的完成任务了，就比我们人本身做的还更好。那这个时候就是我觉得他这个是真的新的时代过来，就是说AG时代来是从两方面来的。一方面是真的我们我们人开始觉得说很多活可以交给人干了。然后第二个就是很多的我们的软件，我们真的不需要为人设计了，还要简单一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以前的这个GUI软件，这个就是时尚雕花，这东西就压根也不是给人用的，就是为了让人更好用一点。而这里贤哥是不是有感而发对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对了，刚才你说blender我就想插嘴，你知道吗？Blender这个东西我以前不知道，我只是偶尔就耳目着听说过，但这回一看身边人都在搞，然后才明白它是一个免费的三弟渲染的工具，而且巨难使，就巨复杂。然后之前就这么讲，如果说有人给你1000块钱让你去学这东西，我觉得都不见得真的有人学，就是特别难。但是这回用那个什么，因为奥斯卡有好多人做出来的这3D渲染东西，无论是这个房屋的还是建筑的还是什么的，就这种模拟3D模拟的，我觉得比很多专业软件做的，或者叫很多专业人士做的都不差。所以这一点我就感觉到，这么复杂的模这个工具，以前可能是非常非常可能1‱的人会在用，对吧？然后这1‱的人用好了之后，那自然就能赚到大钱，或者能能完成很多事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但这1‱的人用限制了什么呢？限制说这个工具本身的推广。咱就举个例子，就说当时photoshop，我记得有好多人都是靠这个专业玩photoshop谋生。无论是改照片也好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是说做什么修图也好。怎么着在下那。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你说你用这套了多少妞，对不对？反正我身边有好多就干这事儿，然后人家就不断换女朋友的。然后咱就是说现现在现在有多少类似这种photoshop，就当年photoshop这种什么CAD什么这种专业软件。那如果说GPT6出来以后，已经已经可以做到比像我们老袖端说比普通人用的还好这个地步。那像我这种就是能力不足，但是这个好奇心不卸。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这时候就焦虑的心还在。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>绿胜利的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>心还在。对。然后你说就这种情况之下的话，我就很有兴趣就让我的奥斯卡来去代替我实行。我的想法就是这个就让我想到什么，就是咱们做一个不恰当的说法，就是灭霸强如灭霸，他还去找那个手套去，对吧？还得要找那五颗宝石去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你现在那个那个什么GPT里又出来之后，剩下就是什么就给他配不同的工具呗，而且越大的工具越好，越越不好用的工具越好。以前你是畏首畏尾，觉得要学一个东西花上上千个小时，甚至说什么1万小时钉力。现在你就让他搞不就完了吗？不就花几千块钱吗？这个就是我觉得脱开了一个潘多拉魔盒，谁知道会出现什么新的东西，谁知道会新出来什么新的作品呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这一点上让我们但我问你有什么用？请问有什么用？就做出这么多三弟的这个小场景，目前来讲我看不到什么作用，就自己爽一把对吧？此处可能还会有人不服，比如说我们的李飞飞同学？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近这step放出了一个所谓世界模型，就是可能在一个你给他一个固定的一个镜头位，他给你生成整个这个世界的这个模型。这个宣称也当然自己还是比较低调的。但是还是大家说这个是不是AGI，这个是不是一个新的方向，对吧？我们说这个GP6，GPT6做到现在，他们自己喊的AGI我是没有看得太出来对吧？对，如果是操控电脑，那是AGI，那我可能我不太相信对吧？我觉得操控电脑这个事情，如果这个方向验证对了，明年你再来看，明年你再来看什么腾讯，什么千问，大家都会了，他比你还强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>估计比他操作的还好，是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以这个我肯定是不信的，给大家下投一下。如果说这个GBT6是AGI，我肯定是不信的那而且我觉得我们在这两年以后来看，今天的GPT6肯定是不贵的，随便用对吧？随便造computer use，随便用，那是AGMAGI吗？我觉得肯定不是，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以关于李微微同学这个话题，贤哥是不是要来跟我们说两句，来跟大家宣布一下，我们早晚报just AI早晚报上线了MCP的能力。我们现在早晚报也有了三个版本，一个是邮件版本，你只想要比较轻的打扰看看邮件，你可以订阅我们的邮件版本。如果你想更深度的互动，能够聊天，有更多的上下文，结合一些新的事情，用早晚报的新闻库和知识库来帮你分析国内外的热点大事，你也可以用我们的IM版。现在如果你更喜欢手搓，像我自己就手搓了一个早晚报的mac APP，对不对？那这个时候你就可以使用我们早晚报的MCP了，然后放在你的各种的coding agent、code x、cloud code里面。反正三个版本一个早晚报，然后任君选择。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好不好？对，大家如果说长期听我们节目的，肯定知道，我是一直关注模型，就是我特别而且是李飞飞这个团队。之前他差不多不到一年前出来创业，然后迅速融入了几个亿，然后就好像前一段时间又融了十个亿，然后这段时间前两天放了一个新的视频出来，对吧？就是先发布了一个什么阿特拉斯。对，这款。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>模型又叫。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没办法，老外取名是有偏好的这几个这几个人的，还有几个宇宙的名词。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一般都会用。要是这个AAA王总，主要是A。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人都排在前面。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，就这个东西，虽然是有咱们会这个我看中文的这个互联网世界里面，好多人都说这怎么怎么牛，一张图就能生成3D世界，还原真实什么世界什么的，我觉得有吹的过了。但实际上来说，它这个模型确实挺强的，就是它实现了什么？实现了说OK通过这个越多的图就能越真逼真的还原3D世界，而且还能在里面有连续的输出，然后还能够说有这个镜头位走位什么的，还能说通过几张图就能做出子弹时间，就很炫。可以这么讲，就是你其实你只要看他发布自己那个视频就能感觉到。但是大家要清楚，这现在目前就称之为三无产品。对，就是又没有论文，又没有说开放的这个数据。也API也只给一些固定的公司使。所以就是说真正能够实际上复现和还原的我还没看到，所以这也就是他一个宣发的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我跟我是个人感觉，世界模型一定是未来的一个巨大的空间。因为咱们说大语言模型肯定是有头的。现在来讲咱不说别的，咱先不说这个GPT只能发多少代，能不能发到GP8是吧？然后这边那你能不能把这个3.5真的做出来？那谁克劳code上市之后市值是多少，这咱都不谈。但就咱就说大语言模型本身，大家都明白它是有局限的对吧？然后现在互联网整个这个世界上语料基本上都训练完了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>2022年之前的这些好的语料或者说有效的语料都已经基本都殆尽了。然后再后面的话，有有污染的也好，还是新的也好，余料也好生成都很难了。然后再往下说说智能，智能这块儿的话，我觉得现在到common use就已经接近到人的水平了。就在起码在使用软件方面，刚才老徐也说了，就接近到人的水平了。那下一步是怎么着呢？所以下一步总得往别地看，转头看一眼。之前李菲菲也好，杨丽坤也好，还有说meta也在做对吧？也在做对，都在做对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大家其实都明白，就是语言只是我们理解世界的一部分，那总要有其他东西。所以这个物理模型也好，世界模型也好，怎么叫都行，肯定是突破语言的这种载体的。而且一一图胜万言，这些东西都很很很容易说到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你讲到一个点，就是数据这个事情，对吧？我们说刚才讲若GP6是大脑，那这个很多人说李飞飞这个words lab其实最大的一个场景是来训练一些仿真的一些数据。其实你看在工业，机器人等等场景，它是属于说大脑也不太行，数据完全不够对吧？属于这样一个事情。所以说这个事情能不能拿来运用这种做这种仿真的这种数据的生成，这个其实是大家讨论的最多的一个点。我先问一下老兄，你觉得这个你认同吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得说首先有一个反共识的问题，就是大家觉得数据用完了这件事其实不是很多其实很多现在不管包括OpenAI，或者说我们国内也有很多前沿的这些实验室，比如说就是像kimi，质谱这些的，他们的技术的一些负责人都有出来讲过。就是现在的我们经常说的skating law，就是大力出奇迹这件事情还是有效的。为什么？其中一个事情就是因为数据其实还是有一些数据是有价值的对，但还是有很多数据可以再重新，就像我们温故而知新一样的问题。就是我们学一个东西的时候，你第一次学跟后面你在提炼之后学，以及有人教着你用不同的方式重新学一遍，它这个东西都是会不一样的。这里还是这条路线，现在还是有用的。所以现在你可以看那个模型还是在更大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说最近brook出到了4.6，这可能很多人没注意这个事儿，那就是马斯克的groot好像掉队了一段时间。但是其实他的那个训练量是很大的，就是包括我们现在最新的那个像国内的质谱的那个5.3的flash，它的那个训练量级可能都提升了原来的好几倍到10。如果跟5.2比好像已经到10倍以上了。是这样子的跳跃，就是他是他但是他是从文字跳到了多模态全部在一起。然后他就有十倍的大小的跳绳。然后能力的话他也有很多也直追cloud的那个favor的系列。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这里的话其实大家都会发现说，其实在国内可能有些算力差一点或者更容易差一点的时候。数据差一点的时候，通过后期努力，通过别的方式把数据再再重新去去学习，不管是预训练还是后训练，它的效果都会很好。因为特别是质朴这边，我记得他们的应该是技术的CEO有出来说，然后其他人都又出来说他们在很后训练很多数据，就是重新再通过刚才各种各样的加工之后，其实他还是可以发挥很好的效果，这个是最后的实测，大家也都给出了肯定的结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我知道对这个观点好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我只是但是实际比这个很复杂很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以学渣才抱怨环境，我书都读完了，学霸默默回去复习对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然然后然后第二个就是说其实世界模型这个我也研究了一下，应该说离那个成熟还蛮远的。就是现在四大家跟应该有好几家。刚才贤哥全部细数了一下，都提到了就是有李飞飞在家是比较新的。最近一年多才做的比较早的其实是谷歌，谷歌的那个虚拟模型你都做到2.0，是3.0了。我们之前也讲过我也讲过这个模型，他在里面就可以随便模拟一个世界，然后你根据上下左右可以去去探索。对，但是它有缺点，只有一分钟，就是时间长了，就一分钟时间左右的那么大的量可以给你看，长了不行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后media也有自己的那个应该是叫Cosmos是吧？就是专门跟仿真机器人相关的对，然后还有meta，meta那边还有一套，那个就是杨丽坤同学在离职之前也有一直干干了好多的一些东西。对对对，然后杨丽坤晚上出去也要干一套，现在怎么样了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还不知道，知道嘴炮还没打起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但总的来说就是这个世界模型如果说要真拼成一个完整的世界模型，是他们这几家全部拼在一起才是一个完整的世界模型。是的，也就是说他们四家这四大家至少在一起，他们互相的竞争边界还没有打到一起，就是各自还在各自的那个那个界面里面去做，还是我们讲一个具体的。对对对，讲个具体的。比如说是一个机器人训练的话，机器人训练大概像飞飞的这边的这个atlas。它就是解决最开始的那个界面的渲染和整个空间的结构和一些基础的结构。他可以给你渲染出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后打星际去探路的那个一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后可以渲染出来，然后大概这个基地在什么位置的坐标也是有的，很精确了。但是它很细的那种交互，就是比如说我们两个人真打在一起了，就我们两个人之间的摩擦力、力道，这他他是没有办法做到这种力度的，他也没办法做到这个程度，现在是差差很远。这些的话就是谷歌那边的那个模型和像那个NVIDIA的模型，他们就可以搞这一块。就是专门有那种底层的action，就是大两个东西撞到一起或者是物理之间碰撞、交互、摩擦力什么的，他们那个就可以做。像这些的话属于是不同的一个层面了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>赶紧出来吹，赶紧卖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是要嘛对要嘛对吧？他能做，能把前面这一部分做好，也很牛逼了。因为这些也以前是没有那么精确。如果说做到像谷歌和那个机器人那么精确，他们的成本又太大，他要宣传整个环境它也很困难。对所以这里边的话它还是一个组合的一个概念。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是在四大门派各展拳脚。但是真的要实现这个所谓世界模型AGI，还是要有人一统江湖，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说开宗立派大家都在做，但是真正能一统江湖还远的还早早得很。我觉得刚才老肖说的特别对，就是未来可能是四大模型，甚至五大模型，甚至几大门派合并成为一个五岳派，然后最后一统江湖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我刚刚要讲什么南岳什么衡山什么的，对对对，讲不出来，文化不够。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后要合并，最后一合并这个才行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是在大语言模型咱就可以想象出来，它只是语言文字，而文字东西毕竟还是提炼过的思想，而且阎王绿觉。所以说真正写成文字之后，很多东西还是表达不出来，但一图胜千言对吧？那你说图片所含的信息，我始终相信对真实世界的还原要大多。而且未来真的能做到AGI，真的是要跟真实物理世界，就是我们所在这个世界发生真实交互才行。我觉得这个事儿肯定是巨大。未来而且比现在大语言模型可能还要十倍甚至百倍于语言模型的这个规模。但是现当前阶段还处在，真的我觉得也就是种子阶段还刚刚发芽。你要说AGI时代到来，那纯粹胡说八道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还是要把另外一件事情再联系起来一起看，就是特斯拉的cybercafe对吧？我们刚才讲这个GP6GPT6这个事情，就是大脑对吧？我们的大脑这个东西，然后李飞飞我们说这个world lab这个可能就像一个学习方法，或者一个学习的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>自习室。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>自己成长或者是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>模拟的空间，你可能都是这样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你现在要有手脚，吧？对，如果你没有手脚部落到实体，你怎么去做AGI？这个老马同志又站出来说，我太他娘的，这个才是AGI对不对？最近说这个cyber cab在奥斯汀正式的上路了。对，老修作为多老韭菜要不要讲两句？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，多年老韭菜又看到了相同的套路，就是他跟你讲看起来很近的，其实也还有很多东西要注意。对，但是我觉得说还是很有划时代意义的。最值得首先提的是，他第一次把无人驾驶，就是真正没有物理上没有方向盘的车给拱到这个路上去开了。因为所有的自动驾驶都是有有方向盘的。不管说是威猛跑，萝卜快跑，还有作死等等这些，就美国主要两家是跟jokes两家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我想问一下，像这个cyber cap后面有没有人在那边云遥控？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以，云兜底的时候现在还是要有的。现在是在监管期间还在干这个事儿，而且这其实也是最大的坑。也就是说这一次最有价值的意义是它真正的运营起来了。因为运营跟那个只跑跑民用的科技是完全不一样，它是他是一个运营车辆的。我们在国内经常说你跑滴滴跟跑家里是完全不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我跟你讲，我最怕这个事情，就做成国内那个英语外教，最后在菲律宾搞一个什么好用的一群人是被外教在那边教。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，但是他真的是开了很一个很好的头。因为用马斯克自己的原话，他这次就是说是特斯拉的又又一次革命。那革命在哪儿？革命主要是说他点了一句话是说你的车95%的时候是闲置的，就是我们自己的家用车95%的时候是闲置的。他希望的是未来所有的像我们的家用车都能变成cybercafe跑出去。这句话是很有野心的。但是他现在的cybercafe t的cap的话，实际上这20 0真正政府注册的只有45辆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可是我那百五的时间很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，所以这里面有很多事情要做。他就只有45辆车，然后是cybercafe，然后其他的那种无人驾驶的车辆是model y，model y有420辆，是这样子的一个度，虽然model y是那个cyl camp快十倍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的cap我感觉也不能拉什么东西，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就两好像只能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>坐俩人小。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>轿跑对吧？对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>出去约会装逼，在上面看电影，顶天就是这样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这里其实恰恰就是他有价值的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也恰恰是不。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是不是，而是他这个他为什么选两个座位？这个真的是我原来也一直想不明白，为啥两座位呢？正常你不也得四五个座位是吧？再小像我们说五菱，五菱迷你也是五个座位的，就是把人挤进去也不该。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这为什么？他其实还是从另外一个角度来看，就是这种的商业化运营车辆最重要，最后比拼的就一个数，就是每英里的运营成本到底是多少。那现在的话他讲到的是说，比如说vivo到现在正在跑的，他每英里大概得跑到两两好像是两个美金还是更高。然后到现在最新一代说可以降到一半，就是10.99美金左右，也能跑一英里。那那这个cber track cyber cab的话，它的预计是能比vivo最新一代还能再低，就能跑到0.7、0.8。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那跟两座有什么关系？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个东西的话就是两座很有很大的关系。因为两座它特别的轻，而且它的整个生产制造非常的快。它有专门的一套生产线来做这个两座的，他完全他有一个叫做你大家以前应该听说过什么丰田造车的什么加斯汀time是本田还是丰田的？应该是丰田的。加JIT什么的，IT这种还是说及时的时候，每个配件就在该出现的地方可以组装。是那个特斯拉走的是它叫做on books，就是不用拆包装的，直接拉过来把它整套模块化组装。它是走这套，而且它还有它的电池组是专门为两个人的跑位去设计的。明白了它的电池组的功耗能效非常强。要知道model y现在是全球最最经济的车辆，就是在这个三殿之下，它每公里我觉得每度数跑的公里数是最多的。然后如果换算过来，就是说它能比model y多跑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，60%到你这么讲就通了。因为它整个轴距短的，然后整个两门的话，它车身的刚性其实是一体化要求更高的，会比像四门这种东西，它至少工艺步骤会降低。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是它的差异化竞争还是在于说要摆在他那个位置。在美国的话，主要是威猛跟周这些他们都有很大的问题，就是量产不行，就量产。但是特斯拉的绝对是量产能力是比他们强N多倍。对，是百万级别，几百万。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有没有这个汽车生产制造的伙伴？到时候来给我们评论解释一下，这个我们太专业。对，大概粗浅是这么理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是就是从目前看到的信息，就是说它的两座还是为了说最开始这个生产制造以及控它的这个成本上面去做的。而且还要还有一个事情还要好维护。就是他刚才说的那么多的组件，本来在制造的时候就已经是很好造了，那维护的时候他也要好维护。然后后面还有一些没还没验证的。比如说他能够自己去自动去充电，自动去清扫它里面的东西，这些还没搞定，但是它是一整套的设计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有一个很重要的就是说再一个没有方向盘的这个车，它的那个远程操控。你刚才问的远程操控，他跟正常的有方向盘的车还是有一些差别的。因为像比如我们国内我们知道那个萝卜快跑，像这样子，对，他是专门有一个很大的办公室里面真的有很多人方向盘真的是坐在那个模拟的上面，是在控制的方向盘。然后跟你的实际的车他一个对应的是，他是没有这一套的。因为这车上是真的没方向盘。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能上下左右W拿个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>手柄是吧？对，所以他这些东西的话弄得好，那当然可以减少这个控制的成本。这里就是说因为投入实际的运营到最终你看车车的制造和维护成本，以及每公里的耗电成本都下降了的话，那接下来就是人的运营成本的问题。那你你没弄好，那你外面挂了一堆人在远程操控。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那还是不行的。叫马斯克用NASA做一个cyber Carrier的游戏出来专门培训驾驶员。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以这个事情是就得得看到后面的情况了。但是这可能会是短期内应该蛮大的应该是一个蛮大的坑。这些东西的话如果他确实OK的话，以后又有很多东西可以迁移到model y上的话，那这个就很吓人。因为model y在全球的保有量就很吓人了。那那当然这个东西现在就是个故事，你说对来model y可能很好，但是cap这里就是我是觉得说打响了第一枪，真正物理上没有驾驶员的这一步开始运营了，然后还有很多的坑。但是我是觉得说还是我是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>觉得说让老马同志先走。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有看起来蛮有前途，但是我会想起我自己的特斯拉。就是每一次你都感觉很近了，其实还得有很远的一段路去走，就大概是这种感觉。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这就是老话讲的我望山跑死马，对吧？就是每次老马都给你们画一大饼，搁一座什么看得见的山，让你慢慢跑，是慢慢追。不过后来就是说我其实这回研究这个世界模型，就看世界模型这事儿的时候，我才突然想明白一个事儿。就是说之前一直说特斯拉有真实数据对吧？它这个世界包有量有多少，他一直在自己做这个数据采集和数据训练，也有自己的大模型等等。但是做这个世界模型之后，就是李云飞他们现在正在强调的说这个世界模型未来可以给机器人也好，还是自动驾驶也好，作为训练基地，作为这个虚拟的训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我才明白一个事儿，就是真实数据里面其实有好多都是无效的。比如说像我们每天开车出去，大部分都是安全的，对吧？都是在在这个常规路线上收集的东西。这个东西千篇一律，或者说大家都是一样的红灯停绿灯行。当真正的说这种物理极端物理天气或者什么的，也就不开车了。所以这些数据可能也都采集不到，可能也真的是说未来是不是世界模型或者说这种物理模型才能够让机器人和自动驾驶能够迅速的往前前进一大步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这样，这三个代表要出来开个会，就是李飞飞的问题。那要问马斯克来回答，对不对？这个是马斯克最有发言权对吧？然后这个马斯克的问题，最后可能奥特曼要来回答一下。很多东西是这么一个沟通方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得对于特斯拉来讲，如果这个方式可行，他早就做了。你明白我意思吗？他不会去说自建车队做这么多的这种数据的采集。如果他现在说这个方向是对的那他原本的采集的数据全部再拿来学习，再仿真一次就好了。当然已经也有部分是这么做了，他肯定不敢全部都这么做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对不对？是这样，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说只是说都只能说互为补充。我觉得刚才老徐讲那个最好，贤哥讲的那个就五月这个要统一一下，最后得统一一下，捂你不统一这个对吧？你各自表述，这肯定不行。好，反正就是我们今天大概从大脑聊到这个自习室吧？再聊到这个身体，反正到底谁是AGI3个代表拉出来，这个留给大家自己去评判。反正我觉得从我的角度来看，AGI它就是一个名词，对吧？真的到了那一天，你可能已经忘了AGI这三个字了，好不好？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是大家要想知道更多AI消息，一定订阅我们早晚报。我觉得早晚报真的是太好的信息源了，每天早一早一晚有了它之后，很多事情其实真的像小苏说的，不要去关心那些名词了，多关心真正发生的事情和自己有什么关系，这也是我最大乐趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，这期节目到这里结束，拜拜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>欢迎大家在评论区留言，谢谢，拜拜。</p>]]></content:encoded>
+            <pubDate>Mon, 07 Sep 2026 23:00:00 GMT</pubDate>
+            <guid>6a9eb788a0210c197dcefd1b</guid>
+        </item>
         <item>
             <title>豆包到底能不能工作？产品老炮被AI骂垃圾，才发现是我不配！</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a9cef66f03e74ee6b05c1c6</link>
@@ -5399,124 +5582,6 @@ Apple podcsat朋友请移步👋
             <content:encoded><![CDATA[]]></content:encoded>
             <pubDate>Thu, 29 Jan 2026 09:33:24 GMT</pubDate>
             <guid>697b27f3b4be4c149b20751d</guid>
-        </item>
-        <item>
-            <title>大模型下半场，有人先走物理AI这条路！｜揭秘阶跃星辰50亿融资背后在下一盘什么大棋？</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69772d39ef1cf272a7897f15</link>
-            <description>六家变四家，AI 创业淘汰赛的第一枪已经响了。强如 OpenAI 做 C 端都要被 Google 摁在地上打，创业公司还有活路吗？马斯克都搞不定的物理鸿沟，阶跃星辰凭什么敢上？这期我们彻底把&quot;物理 AI&quot;这个财富密码给扒干净了，揭秘阶跃星辰AI战略，50亿融资背后是在下一盘什么大棋？
-* 00:00 六小龙变四小龙，淘汰赛这就开始了？
-* 01:28低调的阶跃星辰，为什么拿这么多钱？
-* 05:36 中国的产业AI有大把机会，马斯克说：我懂！
-* 10:56 OpenAI 做 C 端也会被 Google 摁在地上打？
-* 13:52 为什么国内做 C 端软件，纯属找死？
-* 17:18 强如马斯克，也缝合不了AI和车？
-* 29:40 不做AI，车企只配做躯壳吗？
-* 32:30 为什么说，物理AI是难而正确的路？
-* 37:30 Day One多模态！这故事我好像在Google那听过？
-* 38:50 AI 原生产品不稀奇，AI 原生团队才吓人！
-* 42:10 物理AI落地，不能只活在硅谷精英的嘴里
-【订阅 JustSayAI 早晚报】
-🌈 新朋友！订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
-🌟 老朋友！加入会员获取 JustSayAI 早晚报+深度研报+文字专栏
-【主播小红书】
-📕叫我小苏就好啊
-【关注频道】
-▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
-📱 商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>纯软件加AI这个事情在大厂面前基本上是指无论强如OpenAI，今天在C端做这些事情会被google摁在地上打。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是强如特斯拉group跑到这个车上面来以后，它这个融合明显，现在是有一道墙有开的，而且我觉得这道墙也不会那么快就直接给打通。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如你想再做一个小google出来，我觉得这没有出路，他不做to c的东西，我觉得反倒体现出的这个战略定力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一起聊聊皆悦星城这家公司。截止到我们这个视频发布，大家应该已经看到这个新闻，去接悦星城又拿到了一笔融资。从这个融资新闻来看的话，我觉得他应该也已经是挤进了我们说六进四这个格局了，对吧？像灵异万物跟百川其实都已经改变了在大模型这一块的一些策略？那现在剩下mini max字谱，然后kimi还有一个皆月还在all in这个大模型的这个方向，从六小龙变成了四小龙，对吧？我觉得也是一个开年非常好的一个消息。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后跟大家来一起聊一聊街悦新城这家公司。这家公司其实它的C端产品大家用的不多，对吧？或者是说它对比像mini MAX质谱，或者kimi他的这种知名度可能没有像他们那么高。但实际上我觉得你越往深挖，我觉得这还真的是一家值得跟大家聊聊他商业模式的公司。所以我们今天跟大家来聊一聊这个话题一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不知道你们两位怎么看，反正在我看来的时候，我觉得他是找到了to b端他自己生存之道。而且来讲的话，他在这个阶段闷声发财，已经达到了一个一个阶段。这个阶段是进入淘汰赛的资格，就有点像咱们跑马拉松的时候，或者说咱们看那个奥运会的时候，长跑5000米1万米的时候，大家有没有看过？就是前面多少圈你的可能都不看。但突然发现怎么着，刚才一块起跑线老人就分成几个方队了。从最开始的八个人就变成三个人了，四个人了。所以现在来讲，刚才说这个淘汰赛就是把整个原来说AI6小龙，现在变成AI4小强也好，四小龙也好，现在这四小龙我觉得都不是小龙了。大家可以看到他们的估值多大，包括这个杰瑞这回拿着这么大一笔钱，那这个就不是小龙，我觉得已经是这个就是青年龙了，对吧？有点像这个哪吒里的这个小龙人，对，有点像对敖丙了，就是说自己可以独当一面了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确我觉得确实是这样，这个定位还是比较特殊的对吧？就是可能刚你刚才讲说我们现在进入到6进4，你看质朴它可能更偏突击对吧？大客然后定制化，我记得他之前的这个招股书里面，应该定制化的比例是相当高了，应该百分之七八十。我如果没记错的话。还有像这个mini MAX比较特殊，它就是一个纯出海C端的这种的增长方式跟打法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外kimi现在可能一直在往编程上面靠，对不对？最近编程的口碑特别好，我不知道他是不是想做说中国的anthropic等等这个方向。但目前只有我看到是杰瑞一家在做这个physical AI，而且是特别坚定的在做这种物理AI的这个方向。而且他并不是，我觉得他商业模式对我来讲是我觉得初看不理解，然后细想我觉得可能是对的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你想就他现在在国内有60%的手机厂商，其实是接了它的模型。只是大家不知道，比如说我自己有一台OPPO，那像OPPO的这种视频，食物等等，这种就多模态的功能，其实这个方案用的是接阅。对，那包括荣耀也是包括荣耀也是因为在手机厂商很多都会宣称自己做大模型。其实他做的是语言类的部分。其实很多多模态其实是用的这种合作伙伴的方案，我觉得这个还是挺make sense的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后还有一个就是他在这种车机上，包括智能座舱上，现在是通过千里科技，然后跟这种吉利来做这种合作，也做了一个吉利千里的这样一个智能的这样一个架构。我总的看下来，你知道我想到什么？就是这种绑定强大KA制，我觉得这个方向至少这个阶段打AI我觉得特别靠谱。就是比你突击打单这个事情，我觉得它的效率可能会更高。比如说我手机我绑定60%，那就是相当于把大部分的就是你能数得出来的主流国内的品牌的手机厂商，我跟他做深度的合作。在车这一块，我先绑定一个吉利，把这个主流的大的这块玩家给绑定了，把它绑上这个AI的船，对吧？大家就没有回头路了。我觉得这个是一个比较这个阶段，一个非常我觉得精准的一个刀法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是我个人如果说你来问我，我说为什么我觉得physical AI这个蛋糕或者这个概念切的好。第二个它这个商业的路径，我个人分析make sense的地方在哪里呢？就是说它切了中国，你一个AI公司要在中国生存，你就必须要有中国特色的打法。目前我觉得最贴合AI的中国特色的打法或者产品或者场景，就我们说场景，估计就是手机跟车了，对吧？这首先它是国策，第二个它带动民生，第三个它是天然的数字化，并且天然的需要智能化。所以这一刀切的，我是觉得从我角度看，我觉得合理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但实际上如果我们说从创业角度去找这种方向路径切入点的话，我觉得这个点是切的特别合理的。因为这两个大件既是我们内需拉动内需最大的这种贡献之一，仅次于房地产。然后再来一个就是说这也是我们出口非常重要的两个品类，我觉得这个事情你做透了，你不管是内需还是做对外，我觉得这个空间还是比较大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>包括像我个人会觉得像车机这块，其实华为已经走出一条路了。其实华为做的很好。但是华为有一个天然的问题是它不那么方便出海。就这一块的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是你能看到说揭开他的，包括整个投资人背景对吧？然后包括他现在跟荣耀一起出海，我觉得说他是能够找到这个缝隙的。就作为节约本身，他跟强供应商合作，他是能找到这个空隙的。所以我刚才在讲说他做这种大KA制对吧？强强绑定制。然后还有一个就是说他的这种切切这个市场的策略，看得出来是一个成熟创业者的理性选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我觉得你刚才说的这个就是基于现在和过去的分析，但是还有一个对，基于未来想象这部分还没有说。就你这么想，就是说作为一个大模型来讲的话，除了算法，还有算力以外，那重要的还有一个数据，那真实数据从哪获取？然后现在接月他能够接入这么多手机，四千多万台手机，然后日均好像说服务能服务到2000万人，然后再加上上百条上百万那样的车，那未来肯定会越来越多。尤其我听我看到那个最新的新闻，他这个手机都随着荣耀什么的都靠到欧洲，到非洲，到到这个叫哪去了，迪拜什么地方，各种地方去了。这些数据对于国内的厂商来讲，不光是国内，我觉得应该说全球的AI其他公司来讲都是非常优质的数据对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>尤其刚才咱们强调一个physical ai未来是不是真的能够把agent的范围扩大到机械，扩大到硬件，扩大到非常广泛的应用的场景之中。尤其是把这些数据什么的能够汇总起来，能够再次训练模型，让模型往前再走一步。咱们如果从这个角度来看，你看四条龙对吧？那有多少人能够真正获得这种物理型的AI的数所需要的数据，然后能够真正在这个实际场你能应用起来，这个想象力非常大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个有点像之前我们跟老邱在聊，老修觉得说像wind serve对吧？或者像curse这种，它就是非常重要，包括menus。老修有讲过一个就是说他的客户需求跟过程数据非常的直接，非常的值钱。我不知道你们怎么看，就是我觉得杰瑞没做在APP端，在软件上的直接竞争这个事情，贤哥你怎么看？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，咱们刚谈创业公司了，咱别忘了后面还有几个大家伙趴着，或者说正在这虎视眈眈，对吧？你看字节前段时间咱们也聊过豆瓣手机的事情，他也是尝试了想要撕开一个大的口子，能够真正做AI时代的底层的操作系统。然后那个千问，包括腾咱们今年期待的腾讯会怎么样。所以这些人他们本身都有巨大的流量池，或者巨量巨大的存量。怎么样能够在AI时代能够更上层楼，能够让自己的这些存量的东西能够释放出更大的价值来。这些本身是他们这些人思考事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>作为创业公司，你必须找自己新的路。如果你想模仿别的大厂，比如你想再做一个小google出来，我觉得这没有出路，对吧？Google本身自己还在百尺竿头更进一步，而且人家的现在已经陷入到连续循就是进入到连续循环了。所以从这个角度来讲的话，就是他不做APP端的东西，或者不做to c的东西，我觉得反倒体现出的这它的战略定力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>直到今天说因为融资进入了大家视野，然后因为说这个大的钱让大家眼前一亮。但后面可能一段时间之内还是无法直接的感受到它的模型的威力，可能只能在榜单上看到。但是是不是就是说未来我们的这个国产手机上面和车上就能够用上了，而且你发现很丝滑，这个才是关键，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是一句话，就是中国人讲究的是闷闷声发大财。虽然在现在这个阶段来讲的话，无论从融资还是说从这个推广来讲的话，都要讲究声量。但是真正有用才是最好的口碑。我是这么觉得，在C端市场不是说不可为，而是说要看清楚自己的定位，你现在在处在什么阶段，这很重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是觉得做C端加纯软件这个事情，基本上在国内也不要做，这就是大厂的事情。对，这个你做了也没有用。我觉得给大家举个例子，强如OpenAI对吧？今年在今年去年在推的这么多C端的应用也是非常吃力的。强如OpenAI对不对？拿那么多钱，哪那么多基建这条船上绑定了那么多人。你做个浏览器，你做个sora，你做个社交类的产品都非常吃力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个东西并不是说你砸了钱推广能起来的，这个东西有很多这种偶然性，有很多这种你控制不了的东西。就像open a你今天就要重做一次，能不能再把ChatGPT做到当年的几周，做到几亿的用户的这种高度。其实他自己心里也会有点犯毛，对不对？所以我觉得就纯软件加AI这个事情，在大厂面前基本上是只无的。你看OpenAI今天在C端做这些事情，会被google摁在地上打。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>同样的我觉得今天你在中国做一个所谓的C端的一个所谓AI的APP，除非你另辟蹊径，切得巨细无比，否则我告诉你就典型上搜一个场景千问对吧？发布一个agent的能力，直接帮我点外卖，直接帮我买机票。他自己在阿里的体系里面都不用跟你们分成，都不用跟你们对通，没有跟你MCP对，没有跟你a to a，我内部直接就闭环掉，对吧？这个事情你怎么办？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你做不了，你做什么AI行程规划，你不如千问加飞猪，你做什么AIGUI agent点瑞幸，你不如千问千万加淘宝闪购对不对？千万加饿了么对吧？就这个事情他他他永远是大厂的这个势力范围。所以我是觉得说你在中国至少我觉得不做什么，你要看你就看你看他做什么没用，你要看他不做什么，你不做这个纯软件的这个事情本身我觉得是我觉得是比较节省。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>资源的对，是特别明智的一件事情。其实刚才已经有提到，对我觉得说对于有一个很底层的洞察，就是说他其实去掌握了特别重要的这个过程的数据。这个过程的数据不是仅仅是软件端的过程数据。而是把硬件的最后的真正的端到端的这个物理世界里面的这个过程数据能够采集到。就是用户到底怎么在用手机，怎么样在开车，以及怎么把手机跟车结合在一起。还有一些hand off的过程，这里面的那个数过程数据怎么给弄的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为这个数据其实是很重很独特的那不是像普通的这种C端的这些应用。因为C端应用我们知道在国内就是这几个大的已经是他随时霸占的。或者他想霸占的时候，他有大量的金钱以及渠道可以去抢这个人。我觉得说不做这方面其实是一个特别明智的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不然的话，其实我们我们有看到，比如说像之前像越战面kimi那边，他们其实花了很多的钱去去打广告。比如说在B站上各种地方去打广告，告诉人家他可以用。确实也有那么段时间，大家都知道了他，但是由于还是主要都是由聊天机器人try boot以及或者是网上做一些当时可能有做的OK computer的一些操作，computer use的一些操作。对，但是这些东西都是纯纯软件这个层面的，所以其实很快在比如说字节的扣子升级或者开源，然后阿里的千问在打包出来。他那边还好，就是说后面融资能力还很强，还有弹药可以接着再打下一波。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不然差点就很危险。而且口碑好啊，他确实在开源的编程里面口碑也好，其实我觉得口碑这个也很重要，就这个阶段。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，所以这些事情不能真的去搞，就是在国内去做C端是真的很危险，就是你你谨慎去做，然后还是要找到自己的像这种能够做借阅这样子能够端到端的去把这个东西给搞。这个端到端是端到了硬件这个层面。那像这些的话，其实是我觉得说在他在融到更多钱的时候，其实也是确实是市场在投票。就是它的整个模型确实更务实，可以说是不会像其他的模型。可能很多时候在说参数，在说很多很多的评测，但它实际上是已经把这些东西基础的东西做好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后同时刚才其实贤哥和和小苏你们都提到他在车机上的一些使用，就是车跟手机上面的一些使用，其实它的现在的采用量也是很高的。因为这个其实也是我刚才觉得说跟它的底层大模型step 3的结合是特别密切的。因为实际它是在走在控制这个硬件的这条很实际的路上。他不会说可能像我们所熟悉的这些OpenAI，germany或者国内的这个kimi质谱这些，可能在AI编程，然后在日常的一些文字处理，一些图像处理上面好像很大家大众很熟悉。但是实际上它在端侧上面直接把最高频的你的手机和这个方向盘这两个东西给已经深度的渗透到。应该是有车已经上上到数千万的这样子的一个量级。就是它它的走法是跟特斯拉的这种完全自控是不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它实际上是有很多联盟，它除了最核心的是有吉利这一块，其实还有其他的一些厂商。目前是最在最近前两周在美国的CS大展上面，实际上在美国那边是引起了很多很多轰动的对现在所以像这些事情我觉得都可以去印证说为什么现在他能融到比较多的钱。我是觉得他是非常务实的，在软件的这个大模型底座和硬件的这些车辆和手机这两端都达到了很好的一个渗透率。我觉得说他有很大的机会去做一个快速的发展。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为最近我们也听说这个group也上上这个特斯拉。我不知道你体验下来你觉得感觉怎么样？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>郭尔克上特斯拉其实是个特别其实很惊艳的一个体验，但是他同样也是爆出了他的一个短板。我这两个拆开来讲一下他的经验体验是什么。今天体验是说他真正的能够在以车这个为核心的这个场景之下，能够帮你去做路径规划。比如说你有很多想去一个地方看个电影，你想不想来的那个电影院在哪儿，或者想去野个餐，想不起来那个地方名字是什么，只能说说它旁边的一些，有个什么山，在一个什么山什么湖旁边。像这些它都可以模糊的帮你去定位到这个地点，交给这个FSD自动驾驶来让你让把你给带过去。这个体验其实是非常惊艳的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是它也有一个很像目前你最好看的，是体验完全断裂的问题。就是说它是停留在说你可以看到它不直接操控这个FSD，就是说它跟他跟这个FSD是泾渭分明的。就是我在前面帮你规划，大脑想好了干是FSD干最后那个物理移动的那个部分。所以说FSD本身控制的很多的传感器的信息，这个circle他是不知道的。他没有FSD的那些摄像头，眼睛没有他这些传感器。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他不知道车外等于是假肢，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是他你可能假肢都说不上。如果我问brook我前面这段路上面到底有什么问题，他那他是不知道的，他不知道这上面这条路上面怎么回事，因为他不能调动FSD上面的这个模那个摄像头来看一下，这个是不行的这现在是完全断开的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但FSD又不会说话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是问题就是FSD比如说你突然开开趴幽灵刹车一下给你刹车了，你其实是不知道为什么它杀车的那像这种体验，就是说现在是完全是断开的那像这样子的话，它主要是为那个robot taxi，就无人驾驶商业服务这部分去服务。那他的这个东西可能不会那么在意你这个人到底怎么样了。整个GLK这边也是一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那group的话，其实它目前你可以看到在国际范围内，他实际上是为了在抢一个独特的一个心理心智去定位。就是说大家知道groot是一个可能没有审核那么严格，好多地方都爆出了搞黄图，搞黄视频什么的，就都在在那边弄全世界范围。他马斯克自己还把自己穿了个比基尼，然后说搞得不错是吧？就这些事情他实际上是他的目标又不一样，他他完全跟FSD这两个东西，它不是有一个共同的一个目标在跑的，他们有各自的东西，所以他现在跑到这个车上面来以后，他这个融合明显。现在是有一道墙隔开的，而且我觉得这道墙也不会那么快就直接给打通。所以这里面就会有一个很直接的问题，就是强如特斯拉，但是它的这种端到端的体验，它是不是那么care完整的端到端的它只能只解决一部分。那他要完全整解决，你至少他不会为乘客，为驾驶员去解决这个事情。因为他他目标的更大的范围还是无人的这个部分，就无人驾驶这个部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>商业的无人驾驶这些东西。Gw ker只是一个娱乐辅助的这这种这种定位，那他他就没有说那么深度的去帮你去想问题。这种东西其实就会引发一个我就刚才说缺点，这个断裂节点有点像什么呢？有点像就是可能我们其实挺希望说像用过iphone的，我们可能知道iphone有非常多的无缝的iphone、ipad和mac这样子的无缝的体验。但是这种东西你其实就是很难复制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是后来到后来我们会发现，有了安卓这样的体系以后，虽然没有官方给我们做一套这么多个硬件可以做起来连起来。但是在在这种各种手机品牌以及和很多企业应用里面，他们可以自己去利用安卓这样子的一套体系，自己去那个因为它比较开放，是开源的，大部分的东西是开放的。而且它的软件跟硬件是由谷歌在最底下去兜底的，你不会有出现很大的问题。不管说这种消息的推送，还有电话的稳定性，还有基本手机的安全性，这些东西全部都搞定了。然后你自己要在你自己的客群上面，比如说像vivo要推要把这个照相搞得更好。然后小米你要有更多的这种米家的联动，反正所有的东西你可以自己再去基于你自己的能力去去拓展。那现在其实在车车的这种自动驾驶和我们刚才说的AI的这种更智能的大脑合在一起的时候，就没有这么一个完整的一个操作系统。像安卓一样的这种操作系统，能够让你去把这两个体验很无缝的给它做在一起。那这个东西的话，其实我我现在看到的是，如果这个部分能够做的好，其实是一个很大的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为对于比如说像这种垂直整合来讲，国外就特斯拉。但特斯拉你刚才讲的强如特斯拉，其实它垂直整合，我觉得他最大问题还是组织的问题了。对，马斯克肯定知道问题了。对，但是一个是组织，一个是时间吧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，就是坐车跟坐AI这是做自驾，做FSD跟做这个大模型，语言模型，这是两拨人，这个可能还是有区别的对对对对对对对，那那当然就是我觉得特斯拉肯定是在往垂直整合这个方向走。因为在马斯克这个脑子里面，我觉得XAI对他来讲就是他整个帝国的大脑，对吧？他帝国可能有火箭，有有汽车对吧？有这个机器人，有有这个robot taxi。对，但是这个大脑它绝对希望是XAN，因为这个大脑肯定不能在别人手上，所以他做SAI的动机，包括最后SAI会上车，这个事情是连贯的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是国内像这样垂直整合的，目前就是我觉得小米，小米算一家对吧？小米整个魏小李自己也在做，但是其他们没有小米之前的这个生态，还有华为的方案，它更多是一个强供应商。你可以把我觉得华为会更像博士这种强供应商。就是说他整套的这种含华量特别高，就是它整套的方案对不对？所以对厂家来讲，相对黑盒，这里面会有很多博弈在里面了，对吧？那剩下的就是你刚才讲的那个安卓方案。当然还有一种方案就对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你找一个厂商，找英伟达，找一个什么谁去直接买一套方案，找富士康找谁买一套方案。对，这个我觉得在车里面比较难。这个不像手机的这些车里面，我能卖ODM的，说实话我那我应该很强才对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是能用得上车级别的ODM应该也蛮强的，自己的能力应该要很好，才能整合的进去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你那时候听说富士康要坐车，我就心想你肯定是ODM的逻辑来想这个事情，但是他不make sense的，它离消费者太远了，对吧？它离消费者太远了，所以我是觉得说你刚才讲的那个还有一个缝隙，就是有点像开放生态安卓这样的一个缝隙。这个还是可以去做的，这个还是值得去做的，而且也是有可能的，因为这里面的博弈太长了，每个车企都有自己的小99，但每个车并不是每个车企都能够有那个资金，有那个实力去做AI建支架的。就算有，他可能组织的整合未必能比马斯克高明，这是一个问题对不对？所以我觉得他有一个空隙，能够让这种类安卓这种开放生态进去。所以我看到阶越的这个定位，我觉得OK是从产业中来的。有想法。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该说是在四小龙里面找到了自己的位置，而且就是我还是想谈人。因为我其实跟对君悦这家公司之前并不了解，然后就是看了他的商业模式融资引起了我巨大兴趣。就去看他的这个创始团队，尤其是看到胤祺这回加入。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实他之前就是接月的发起人。对，说他公众不知道，这边跟大家也稍微爆料一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者说是他们没有深度参与。对，没有深度参与到经营和那什么。但这回不一样，他本身他自己还兼任千里的董事长，而且他当时做旷视也是做的AI视觉识别的时代，对吧？1.0时代虽然差一点点上市，但是后来这个跟吉利联合之后，然后做这个现在就叫千里。所以我还是想从人上抢。就是从人上来说的话，那他岂不是说一个白丁，不是说一个重新组一个团队去做，而是说真正是说把以前从旷世时代带下来的人，智能的这些体验和智能的这种经验，将放大到更大的一个市场上去做。尤其是在智能这个车辆，把这个车如果我们把车看成一个硬件，同时它需要一个大脑，它是一个身体的话，它需要一个大脑，也就是说大模型的话，那我们就可以很想明白了。它就是一个大号的手机，或者说比手机还要做的更多，尤其它还能采集到更多的数据，尤其它还有它还具备算力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就前两天我看了就就前两天，前两天不是看了一个一个特别大的新闻，就是XAI有一个程序员接受一个播客采访，大概70分钟的采访，结果刚采访完没有两天就被XI采访。因为说要说太多了，要泄密了。对，然后说说当时他卸了一个密，我就当时我听了之后我也傻，我觉得真牛。就是说当时说算力怎么解决，说那么多特斯拉车在街上跑，就让他们去做做算力中心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我靠，然后做移动算力中心，我当时想这确实是很牛的。因为这些车本身造的时候，就这个智能的或者叫机器能力就能达到一定的端测的算力能力。又有数据采集能力，这把它运用起来的话，这是多大的一个联网，这才是真正的AI时代能够实现的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个AI自己的迭代和进化来讲的话，靠的是什么？靠的就是这些什么算力，电力等等这些东西。有车的这些车主去维护，有这个大模型公司专注去做大模型去做迭代。去做算法之后，把这个支架做的越来越好，更多人也来用，这不就成了一个良性循环。这种循环可是真正大家用钱买出来的，和这种只纯靠自身堆出来的东西是完全不一样的。这个确实是一部未来的好棋，也可能在未来两三年就能实现一个巨大突破。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我这里我觉得想补充一个东西，就是捷越在车机这个地方的一个定位有点巧妙。我我自己我觉得就是国内现在其实华为跟百度应该是在这个自动驾驶这一块肯定是最领先的。但是他们这两家其实我们肯定也知道是有各方各各有各的强势，或者是说各种各样的因素。刚才有提到华为出海的有很多的困难，其实我会看到说它很像video自己出了一个自动驾驶的体系，也应该就是在前不久，刚刚一个咱们这一个月以内，刚发的它其实是对标的是特斯拉的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个ODM方案。我们讲土土一点就ODM方案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是可以做ODM，就是你自己可以拿去做，然后做出来的效果跟特斯拉的这个很像。那他这个是肯定是针对于说没有办法自己研发的这些企业做的那那他还是很多的，更多是面向欧美这些市场的那实际上就是我觉得像金瑞这边的这一个这样子的一个技术底座，其实完全是刚好在国内可以类似它这样子的一个相对比较中立一点，而且就是大家的合作体量上比较对等一点，对吧？不会说对方太过于强势，这样子的一个方式，而且他能够现在先跑通的，也是说先跟吉利这样子的巨头能做标杆，然后再去复制。那现在他的这个位置我觉得是相对比较好的，因为这条路线确实需要一个第三方，你肯定得是一个得是一个有有这种激馍能力，而且加上你已经在相当大量的数车辆以及一些大牌的厂商验证之后，可以去被推推到很多地方，没有什么太多障碍的这样的一个状态。所以我觉得这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也是一个其实挺好的点。因为至少我们看到NVIDIA25年年初，他就在说想做这些东西，他他也一直在讲physical AI。但他实际上到年底的时候，交出的答卷的很重要的一份。因为他当时推了连推了六六大套体系，其中一套体系就是关于车的这块自动驾驶这块的这个体系。那我觉得说这个说明这个战略上的这个方向是没有问题的那现在就是说你在国内怎么去把这个东西先做出来，同时还在国际上面去推。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但我觉得你刚才讲的就虽然说逻辑正确，但是还是会提出一些挑战。你方便大家理解。我拿手机来举例，你比如说老修，老修要做一个老修牌的手机？你带着现金去找联发科，把买一套ODN方案，然后改一改自己的图标，其实也能做得出来，对不对？这是一种方案。还有一种就是老修今天愿景非常大我要全栈自研？我要做成一个下一个苹果，对不对？那你就自己做，这是一种方案。那你要自己去研究这个操作系统，对吧？你要自己去研究硬件。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一种就是说我用安卓，我用安卓的生态，我就接入安卓，我做我自己的老修UI对不对？我做好我自己的这个UI层面的系统，这也是一种方案。实际上我会觉得说，因为你始终跟厂商在博弈，你知道吧？就是每个厂商如果你是卖一套成熟的方案给他，你们是交易关系，对不对？那很简单，我算得过来这样，我付你钱，我给你提要求，不行，你给我改，这个好办。另外一个我全站都自己做了，华为、苹果OK那反正我就是自己一套生态，我足够强，你们要干嘛你要跟我谈，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也是另外一种，这是少数玩家做的事情。其实最后大多数玩家都接入了安卓，那为什么？是因为google把那些事情都做了，对不对？问题是这样子，而且它它是google，对，它是google，它有GSN模块，对不对？他有所有的这些就是国民应用的APP在上面用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>保证人家是说用你这个手机的下限不会有问题，你自己提高上限就好。但实际上大家别忽略，这个事情是特别难做对这个路径是很成熟的，是有东西可以借鉴的。但其实你每天都跟车企在博弈，为博弈的是什么？我既不是跟你好像是很严格的甲乙方关系，可能我还要跟你有一点点资本关系，对吧？然后我又不是说你车企强到你能全站都自己做对吧？你可能两端都不讨好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这个时候基本上做不了这对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我这里外不是人。对，那我就里外不是人。就我们自己做过这种行业的改造的经验，就是我们自己也明白对不对？这个很难的。两套组织，两套人马，两套思维方式，这个其实是不好整合的。但今天能够整合，我是觉得说他有一定的背景。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为刚才贤哥有讲到像这个印奇先，之前也是千里科技的董事长，千里科技其实是吉利旗下的，就是之前的力帆对吧？那其实他是对产业有一定的了解，或者是说能够借上吉利的？做出了一个像浩瀚千里这样的的架构。对我觉得这个其实已经很难了。可能也是像李书福也是有远见，或者也想做这些事情。但其实你要找到下一个李书福，这个是有挑战的对，所以你就只能说现阶段我能如果说我能做，还是说全力把吉利打好样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个是我现在能做的那大家可能看到吉利好了，这个吉利的儿子好了，吉利的孙子好了。我做吉利的这个我远房亲戚我也想来分一杯羹，那这个可能就会有可能，否则就是说你像华为的方案，他可能更全栈自研，或者说核心的这种在自驾里面的流程。其实如果你体验过华为的自驾，我上周有稍微体验了一下，我觉得还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很爽很厉害。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是对就他他太垂直整合了，它太垂直整合了，就是这个东西对厂商来讲是黑盒子。对对对，厂商来讲是不可接受的，你知道吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>厂商就很怕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这相当于说我你说上戏会讲说我把灵魂交给别人，这个是有道理的，这个很怕的，对不对？不可审计，对不对？而且是你把握了所有关键的工艺环节，包括技术，这个其实是很可怕的。但千里今天做这个事情，我觉得是难难而正确。从创业角度我觉得难而正确，这个我respect，但是我希望他加油。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但你看那个投资人用钱用那个十十金白银来支持的，对吧？所以说明这个还是有人认可，而且觉得这条路是走得通的。就像刚才老师说的是这个第三方存在的必要性是很强的。至于说是几几月，能不能下一步做到服务好吉利的同时还能再有其他1到2个大客户，并且能够说在手机和车这两个大品类上往前走一大步，真正把这个physic AI落地。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这件事的挑战我就远大于说这个故事本身，就相当于这个小酥，我能明白你意思，就是说你对这个事情本身来讲的话，觉得难度是很高的。我也同意完全同意。这两个行业本身就是非常的复杂的，涉及到的人，涉及到的政治关系，涉及到的各方面，宏观的、微观的、外部的、内部的情况都特别多。但是毕竟我们现在处在AI时代，对吧？如果说没有说这个AI创业，没有说大家这个四小龙各自想要找到自己的定位，能够说成就是就是能够支撑自己这个百亿以上的估值，千亿的估值。那没有这个时代，我们可能想象不到。所以这个时代还是对消费者最好的时代，就是对我们under user，对我们这个最终消费者来讲最好的时代。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我现在就是这两天看这个节日的事儿，加上加拿大卡尼不是去中国了吗？然后说开放的有4.9万辆电动车能进进加纳。我现在就特别想，真的是很快能够开上一辆咱国产的电动车，然后有支架的体验，然后到时候给人别嘚瑟，但你就不知道这4.9万辆能不能落上一辆是在我手上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得你可能会失望。这个东西本土化的这种难度还是特别高的。因为车它首先是制造业，它的整个组织体系，它还是一个制造业的逻辑，就是你你要去在里面去孵化AI团队，或者你要借外力帮你把AI做起来。这个事情难度是巨大的，这个难度是巨大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为老兄你记得我们昨天也在聊，对不对？我们昨天那期节目也在聊这个事情，就是说不同的组织它接入AI小公司，然后中型公司、大型公司这个摩擦系数是不一样的，对不对？小公司我们随便就上了，中型公司可能大家有一些小九九还不太好办。大型公司你的所有考核review招聘都是有。不管是你考核人，比如说代码招人等等，它都是有一套规范的。我怎么把这一套规范用到AI上面？用不好就会显得很傻逼，对不对？所以说这个问题是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在这里用不好直接情就不是傻逼那么简单了。就是花了钱，然后大家还能抵制，然后最后那个还出不了活。就是很多越大的企业用AI其实很可能会出现的情况就是他花的时间比以前更多了，然后产能还下降了的这个情况已经就是屡见不鲜的。所以这个对组织的整合其实要求挺高的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实像捷乐这样子的，他是坐车和手机这两个部分，其实就已经要有很多还有大模型这几个团队在一起，他的要磨合在一起的难度很大。然后我相信也会有大量的年轻人在里面，因为这个公司其实成立的时间才几年时间，确实很短。然后这个其实就是我们昨天聊到了，可能比较好的解法还是得是就是得有大量的年轻人在里面。然后还有就是几个创始人必须得是啊确实是有足够的经验，然后能够去发挥他们这个快速决策的，然后做对决高质量决策的这种能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这样子的话才能够说把几个从我们要说从研究，因为大元模型这种大模型AI它实际上很麻烦一点，它是属于要科研的，他就是是科学家类型的人。要能够先跑通，然后再变成这种产品端，最后再变成消费端的。车车跟手机绝对是大家最高频的消费品了。这三个地方的跨越，其实对于团队的每一个就是从从科学研究到产品研发，再到最后的整个的产品的实际的运营落地和后面的售后等各一样的一很多的东西。它整个链条对于整个的领导人跟具体干事的团队要求都特别的高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个东西我觉得说对于一个相对于正在快速成长期的创业公司，想要是个优势。因为AI恰恰就是把这个人员的产能不足的这个问题，它能够提极高的极极高的去提升。但是又保持了你几个几个核心人物的快速高质量决策的这个事情还是在继续发生的那我觉得说这是一个。很难得的一种整合到这种程度的这种团队。也只有做到了这一种的，这相当于这几点是一点一点都不能少的。他可能才能在现在这么竞争的这么强烈的竞争之下活下来，还能够融到更多的钱让大家去认可你往前走，我觉得是非常困难的。但是已经是相当于有一定的成绩来证明他们可以往前跑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你像接月这个公司，其实我觉得他做的很好一点，就科学家带队最早的这个江大兴，然后对一多模态，我觉得这个点是你是不是很熟悉的google的味道，对不对？就是google在重做这个AI重做german的时候，其实他们之前就放弃了很多，包括什么tensor pro这些都全部都放弃了。对，一开始我就是做这个多模态，但是在两年以后或者一年半以后，他就尝到了很好的这种甜头，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是当初的努力是对的，你去看一下他的团队也很有意思，比如他原本的这种算法团队，其实都是来自旷视的这个体系的。旷视大家之前刚才已经给我介绍过吗？那最典型的就是他做了很多人人脸识别的，包括像face加加这样的产品，大家如果不知道可以去回查一下。包括这个数据团队是整个来自这种microsoft搜索的团队，我觉得这个也是非常强的一个组合。完了以后现在你在做这个大模型，其实跟之前的AI1.0跟microsoft这些搜索这些bean这些东西其实是有继承关系。但是没有绝对的这种因果关系的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我个人是怎么样，至少从团队上或从人人来讲，并不是这样。就是你一个AI native的产品不新鲜，但是你一个AI native团队这个事情有点可怕，这个有点难，这个特别难。就从我们自己招人用人这个角度来讲，我觉得特别难。还是我忘记是谁说一句话，老兄我不知道你记得吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正你钱要给够，然后人要够年轻，钱要给够对吧？资源要给够，卡要给够对吧？大概是说你要你要做到你要做到这样的程度，而且你是不能我觉得不能用老人。对，那再加上说你后面要做，你其实你连做大模型跟做这个跟做自驾的人都是不一样的。对你不要再说汽车制造。的对对，就是如果大家了稍微了解一下这个管理的半径，这个是很可怕的一件事情。但能整合起来是最好的，非常考验创始人的非常考验创始人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是。所以我个人也是希望今天这期节目我们是借接阅这家大家不是很熟悉的公司。其实这个选题很危险，就是有可能我怕很多人会不看，对吧？因为这家公司可能很多人没听过。但实际上为什么我们今天想聊这家公司？主要是因为我觉得把它的一些商业模式，然后包括融资路径，包括一些这种商业的实现的路径，跟大家讲一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得大家会发现一个很有意思的就是一个打法，一个案例。我觉得从逻辑上来讲，这个案例是精彩的。但我更期待说可能26年他拿到了更充足的弹药以后，能够交付更好的结果。同时通过这个案例，我是觉得说可能会帮助大家有一点点想象。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是在中国跟在美国做AI我们面临的环境，包括这种消费者的不同环境的不同，资本市场跟消费者的宽容度不同，这个事情其实是很微妙的，就像我觉得像刚才老师讲的XAI对吧，甚至OpenAI就在美国的资本市场还是相对是宽容的对吧？那可能用户不那么宽容，对那那在中国可能是用户更宽容。我觉得中国真的有全世界最好的这种AI的客户，这个是我个人的观点，就是宽浓度极高对吧？对于隐私不能说漠视，对吧？所以天然的就是像把AI加在手机跟车上面，对于中国的用户来讲，这个是没有任何能够这是一个丝滑的迁移。你很难想象这个事情能在欧洲发生，我觉得不太可能，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个事情你首先车大车在欧洲就接受不了，对吧？首先第二个，你叫他放弃这个盲按的这个操作按钮，然后去跟车机交互，这个他也接受不了。第三个，中充电的基础设施，可能他也一时半会儿也做不到，对吧？所以我觉得说这个宽容度在国内的这个消费市场的宽容度真的特别好，包括基础设施也特别好。所以我觉得说从整个从全局来看，从不管市场国内外的格局，包括国内的一些优势，包供应链优势，包括基础设施优势来看。我觉得接阅这次发出来的这些，我觉得打法路径操盘是非常值得跟大家分享，也值得说大家多去思考的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>主要我觉得还是看商业模式，看商业结构。我们很希望能看到这种新的东西出来，给咱们自己也是一个很大启发。就到底AI能走到什么样的路来，faced AI到底怎么落地？然后这个东西不光是停留在黄仁勋和马斯克嘴里面，真的能不能真的落地，然后真的能不能另辟蹊径，或者说能够跟最后殊途同归，这个都是未知数。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>看看2026年，反正我现在其实挺期待这几件事儿的。一个就是说deep sak春节时候会不会让大家不休息，再发个什么论文出来，或者发个大模型出来，新模型出来对吧？然后一个就是看看现在新上市这两家公司，包括现在的AI4小龙，他们今年的表现都怎么样。然后再看看说北美这边这个OPPO AI会不会上市，这2026年觉得值得期待，东西还挺多的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，好，我们这期节目就到这里结束了，谢谢大家的收听，拜拜。好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜，期待多聊，拜拜。</p>]]></content:encoded>
-            <pubDate>Mon, 26 Jan 2026 09:07:55 GMT</pubDate>
-            <guid>69772d39ef1cf272a7897f15</guid>
         </item>
     </channel>
 </rss>

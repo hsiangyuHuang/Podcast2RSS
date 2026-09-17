@@ -4,7 +4,250 @@
         <title>此话当真</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/646f194853a5e5ea1408d97c</link>
         <description>真格基金出品的泛商业类播客</description>
-        <lastBuildDate>Tue, 18 Aug 2026 04:36:28 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 06:52:17 +0800</lastBuildDate>
+        <item>
+            <title>对话张托肯：用 AI 三天设计一颗芯片后，一位清华博士决定「开卷」</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6aaa86279d326477816a2744</link>
+            <description>三天，张托肯用 AI 设计了一颗芯片。
+他把这次从零到流片的全过程写成《三天从零到流片：AI 带我设计一颗 Attention 计算芯片》，文章很快传开。
+通过真格「Token Grant」的算力支持，他进一步推进开源探索，展开一项「芯片开卷」计划。张托肯是清华大学电子工程系博士，目前在苏黎世联邦理工学院从事博士后研究。
+过去一年，他不断把 Agent 接进真实的芯片设计工作流。连接 Agent 与商用 EDA 软件的 Virtuoso-Bridge-lite，在 GitHub 阅读量超 4 万、下载超 1.7 万；用 Vibe Coding 做成的模拟电路原理图画板 Analog Canvas，上线两周用户即超过一万人。
+在他看来，工程师最高的梦想之一，就是自己做出来的产品或技术，真的有人在用。
+除了让 Agent 干活，张托肯也在不断给它们「出考卷」。作为清华大学优秀助教，他觉得训模型的本质也是一种「教书育人」。他搭建面向芯片设计的 Benchmark，希望告诉大家，模型究竟能做什么，哪些任务已经在模型斩杀线之下。
+他想做的，是让更多人不必从零开始，把时间留给最后真正的创造价值。
+先把 0 到 80 分交给 AI
+01:04 Token Grant：不做前置绑定，最先支持 build 一个 AI 原生产品
+01:35 为什么芯片行业也需要一次「开卷」？
+06:38 一根 USB，让 Codex 从聊天窗口走进物理世界
+08:32 Agent 能参与芯片设计的哪些环节？
+09:48 纯数字芯片设计，Agent 参与度可达 80-90%
+三天从 0 到流片，是 AI「带我飞」
+12:56 为什么数字芯片设计是 AI 落地的最佳场景之一？
+14:01 通过 AI 进行芯片设计和做日常任务有什么区别？
+14:45 用 AI 做芯片需要更多测试和工具调用，对模型智能要求更高
+16:18 临危受命，借助 AI 三天完成原本一个月的任务
+17:05 不是我用 AI，是 AI 带我飞
+当 AI 接手执行，工程师开始「升职」
+18:51 满意的交付无法用 AI 一键完成
+20:31 AI 缺的不只是 Context，人的需求本身也在不断变化
+20:58 少做微操、只看结果，从 AI 的「加一」升到了「加二」
+21:41 带好一群 Agent，也需要领导力和组织能力
+22:29 用 Agent 重做模拟电路画板，上线两天半获超 2 万次访问
+让 AI 干活，也给 AI 出考题
+24:11 AI 让开发速度快了上百倍，重写代码比修补更省事
+27:10 4 万次阅读、1.7 万次下载，开源工具还被写进了毕设致谢
+29:24 Benchmark 不只比较谁更强，还要测出 AI 能替代哪些任务
+31:50 50 道模拟电路题，AI 已做到中上研究生水平
+32:30 模型本身能力对效果的影响远大于 Harness
+不做 AI 中转站，做 Agent 的驾驶员
+36:28 写教程教人不如直接教模型，训模型就是教书育人
+38:20 模型也要靠「做项目」积累经验，好的任务本身就是训练数据
+40:13 AI 时代最容易被低估的能力，是「会用 Agent」
+41:21 Agent 驾驶员要熟悉车性、开得快也刹得住
+43:12 模型要真正懂芯片，最缺的还是数据和基建
+《你的第一个 Agent，我们为你充值》
+「真格基金」与「十字路口Crossing」共同发起「Token Grant」，将为每个入选项目提供五万人民币 Token 费用，从最早开始支持大家 build 下一代 AI 原生产品，【投递入口】。
+模拟电路原理图画板 Analog Canvas
+张托肯与几位合作者通过 Vibe Coding 开发的在线原理图工具，支持 MOS 管、BJT、无源器件、信号源、放大器和逻辑门等常用元件，并可导出 SVG、PNG、PDF 及网表。工具发布两天半后，已有超过 7000 名用户使用，累计访问超过 2 万次。
+EDA 桥接工具
+指张托肯的开源项目 Virtuoso-Bridge-Lite，可让 Agent 操作商用 EDA 软件，给 AI 一双能进入工业芯片设计环境的手，更好发挥 Agents 的能力。项目在 GitHub 累计获得超过 4 万次阅读、1.7 万次下载，并衍生出十多个二次开发项目。
+Razavi Bench
+由张托肯与 Behzad Razavi 共同整理的模拟电路推理评测集，包含 50 道经过专家校订的题目。用来观察不同模型在模拟电路领域的能力，并尝试将模型表现对应到更直观的人类学习阶段。
+监制：Yanyang、Cindy
+后期：Yanaego
+《此话当真》是一档由真格基金出品的泛商业类播客，真格基金投资团队将在此和各领域的领军人物一起分享最新热点和行业洞察。
+真格基金创立于 2011 年，是国内最早的天使投资机构之一。自创立伊始，真格基金一直积极在人工智能、芯片与半导体、机器人与硬件、医疗健康、企业服务、新能源、跨境出海、消费生活等领域寻找最优秀的创业团队和引领时代的投资机会。
+真格，你的创业第一站！</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h1>主题概述</h1>
+<p>本期“此话当真”由真格基金品牌团队 Cindy 主持，对话“token ground”得主、清华电子工程系博士、现于瑞士苏黎世联邦理工学院集成系统实验室和人工智能中心做博后的张token。播客标题为“对话张托肯：用 AI 三天设计一颗芯片后，一位清华博士决定「开卷」”。核心议题围绕 agent/AI 如何进入芯片设计流程：从三天从零到流片一颗 attention 计算芯片，到提出“芯片开卷计划”，再到开源 EDA 桥接工具、模拟电路画板与芯片设计 benchmark。张token 反复强调，AI 的角色不是简单“我用 AI”，而是“AI 带我飞”；芯片设计中大量 0 到 60 分、0 到 80 分教科书 level 或研究生 level 的部分应被开卷和加速，人的精力应转向更高层判断、验证与价值创造。</p>
+<h1>关键要点</h1>
+<ul>
+<li>
+<p><strong>“芯片开卷计划”的核心判断</strong>：芯片行业通常给人高度封闭印象，但很多部分可以、也应该开放。一颗芯片要有商业价值可能需要 99 分甚至 99.99 分以上，而培养芯片工程师非常慢、行业长期缺人；初学者大量时间花在 0 到 60 分、0 到 80 分的教科书 level 或研究生 level 问题上。这些部分应通过 AI 方法极大加速，让人“从 60 分甚至 80 分，甚至在以后直接从 90 分开始，再做到具有商业价值”。</p>
+</li>
+<li>
+<p><strong>三天从零到流片的 attention 计算芯片</strong>：起因是课题组拼板 MPW 芯片有一块面积空出，若没人用就会浪费，他在最终 deadline 前三天接到任务。懂相关数字芯片设计的人认为这工作至少得做一个月或一个半月以上。他从零开始让 agent/AI 帮构思架构定义和每一步，并把全过程记录在公众号文章中。他特别强调标题里最重要的两个字是“带我”：“我觉得完全是 AI 带我飞。”</p>
+</li>
+<li>
+<p><strong>agent 在芯片设计流程中的侵入比例</strong>：去年年底，数字电路部分“几乎没有一行代码是手写的，全部都是 agent 写的”；模拟设计当时约 10%；验证部分虽有很多 debug 靠他读博多年经验人工判断，但 labor work、trivial work、大规模认知劳动、大规模数据处理由 agent 完成。加权换算后他当时给出约 30%。他认为纯数字芯片现在无疑可达到 80% 到 90% 以上，模拟芯片是缓慢过程，未来可能饱和在 40 到 50 左右，整体取决于芯片系统如何定义。</p>
+</li>
+<li>
+<p><strong>数字芯片是 AI 落地最佳场景之一</strong>：他把数字芯片设计称为“封闭世界的胜利”：工具链完备、边界条件明确、容易刻画，很多层面很像编程。做芯片与编程“区别有，但没有想象的那么大”。拆开后，大规模信息提取加工、代码脚本、命令行任务、数值建模分析计算，与训练 agent 的 terminal bench 高度相似。数字芯片还容易验证，且商业价值高、市场广阔、定制需求会增加；国内产能上升、价格下降、周转周期下降后，更多公司有动力做自己的芯片。</p>
+</li>
+<li>
+<p><strong>开源 EDA 桥接工具的独家反馈</strong>：他今年 4 月开源了一套桥接工具，让 agent 更好操作商用 EDA 软件，这是做模拟芯片设计无法绕开的软件。至今约四个多月，迭代超过大几百次。GitHub 阅读量超过 4 万次，下载量超过 1.6 万次，star 超过 680，fork 150，明确做二次开发的项目超过十几个。有 B 站粉丝把项目和开源工具写进本科毕业论文致谢；有若干公司改版后直接放到公司内网环境，作为生产环境一部分。</p>
+</li>
+<li>
+<p><strong>模拟电路画板与“重写”开发观</strong>：他因自身痛点做模拟电路画板：调研市面几乎所有工具，要么不好用，要么不好看，于是决定重新 web 一个，目标“做世界上最好用的原理图画板”。招了几个朋友干了半个月左右，线上宣传后三天或两天半，全球范围内超过 7000 人访问量和超过 2 万次访问量。他认为用 agent 开发比传统开发快上百倍，“量变是引起质变的”，发现问题就干脆重写，代价很小，“无非就是多消耗一些 token”，因此可以保持最佳状态、轻装上阵。</p>
+</li>
+<li>
+<p><strong>benchmark 是两把尺子</strong>：第一把是相对比较，看不同模型能力差异；第二把是绝对能力定标，告诉行业现在模型能解什么、不能解什么、哪些任务以后不应该人干。他把这比作教育学：模型到底是本科生水平、硕士生水平、校招生水平，还是入职一年、三年、五年、十年水平。Razvi bench 有 50 道模拟电路问答，前年 GPT4O 时代表现非常糟糕、几乎完全不可用，今年 6 月之后模型已到不亚于中上水平研究生人类。实验还发现 test time scaling 非常有效，模型本身能力对最终效果的影响远大于 harness：同一模型换五个 harness 分数差不太多，换不同模型则“泾渭分明”。</p>
+</li>
+<li>
+<p><strong>“我们在故意放水”和“babysitting”</strong>：他认为芯片设计难度可能没有上限，自己能较长一段时间领先于模型能力。现在让 AI 做出一些分数，“都是处于一个我们在故意放水的程度。我们在 babysitting”。出题像老师出题，可以从一年级出到六年级、中考，至少出到本科或接近硕士水平。模型斩杀掉的任务越多，反而越利好芯片行业，因为可以花更少人力、让 AI 接管。</p>
+</li>
+<li>
+<p><strong>个人决策与真格 token ground</strong>：今年三月到五月自媒体大火后，很多投资人联系他希望出资创业，但他今年 1 月已答应瑞士导师毕业之后来做博后，且“我个人是非常看重已经做出的承诺的”，因此回绝了投资人邀请。真格的 debi 提供了一种不以立即创业为前提的 token ground，最打动他的是项目本身“不做任何的前置绑定而直接给予资助”，他认为这是需要很大格局和魄力才能做出的决策。</p>
+</li>
+<li>
+<p><strong>人的角色变化与最被低估的能力</strong>：他说“我升职了，我从 AI 的加一变成加二了”，会派其他 agent 去审查中间过程，交互越来越 high level、方向性，看交付结果。他认为最容易被低估的能力是用 agent 能力，人作为 agent 驾驶员很重要，像汽车出现后需要司机、飞机出现后需要飞行员。他高度欣赏优秀 web coder，并持续寻找合作者。对未来的判断是：核心瓶颈是数据；几乎不可能从真实芯片厂商获取大量真实数据，只能想办法合成数据包；芯片厂对信息安全重视，更愿意用本地模型，而本地模型距大规模效果还有距离。无限 token 时，他会大规模合成有效数据、做更好基建，“Scaling up”。</p>
+</li>
+</ul>
+<h1>独家细节</h1>
+<ul>
+<li>
+<p><strong>“临危受命”的真实场景</strong>：三天做 attention 芯片并非提前规划，而是课题组拼板 MPW 芯片有一块面积空出来，如果没人用就会被浪费，他在最终 deadline 前三天接到任务。在有 agent 之前，这被相关数字芯片设计人员认为至少要做一个月到一个半月以上。</p>
+</li>
+<li>
+<p><strong>用 codex 打通 chat window 到物理世界 hardware</strong>：最近他尝试拿 codex 接上真实测试仪器，在电脑之外插一根 USB，让 codex 读取端口，再控制电压、电流激励信号，用另外的仪器去测。结果是他跟 codex 说话，那边就能出来相应波形。他把过程录下来并发文章，名字是“听说你还在首领 LDO，我用 AI 控制芯片测试的供电和参考源”。他认为这在芯片设计领域很刷新认知。</p>
+</li>
+<li>
+<p><strong>开源工具被写进本科毕业论文致谢、被公司放进内网生产环境</strong>：B 站粉丝把开源项目写进本科毕业论文致谢；若干家公司的人把工具做某些改版后直接放到公司内网环境，作为生产环境一部分。他认为工程师最高梦想就是自己做的产品和技术能被用上，尤其是被商用。</p>
+</li>
+<li>
+<p><strong>每日 token 消耗的私人账本</strong>：他提到中午在上一次重置后约 24 小时内，消耗了 cloud max 20 的 30% 左右，vivo 或 oppos 5 都消耗了 30% 左右，顶配的 GPT20 pro 20 也消耗了这么多。最近做模拟电路画板消耗比较多，在具体优化用户体验。</p>
+</li>
+<li>
+<p><strong>清华优秀助教经历与“直接教模型”</strong>：他之前在学校拿过清华大学优秀助教，教过很多课，也在网上写教程教小白，写过“混合信号电路设计师的入门之旅”，做一个非常经典的芯片小模块。原动力是太多人问非常小白的问题，他觉得痛苦，认为不必浪费优秀人才时间和精力从零学起。现在他的判断是：“比我写一个教程去教人效率更高的就直接教模型。”</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>题目写的是三天从零到流片AI带我设计一个attention计算芯片。这个题目里面最重要的两个字是带我都不是我用AI我觉得完全是AI带我飞。不过我之前在学校的时候也拿过清华大学优秀助教。这些问题在这个现代还需要浪费这么多优秀人才的时间和精力再来从零学起。我们不如有一些整理好的knowledge直接吸收走。我觉得比我写一个教程去教人效率更高的，就直接教模型。从去年年底的时候，我就发现数字电路部分几乎没有一行代码是手写的，全部都是agent写的。我从AI的加一变成加二了，我会去派一些其他的agent去审查中间的过程，我相信以后所有人都可以升职。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>欢迎大家收听此话当真。真格基金团队将在此和各领域的领军人物一起分享最新热点和行业洞察。真格你的创业第一站，我是真格基金品牌团队的Cindy。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>本期我们邀请到了真格基金与十字路口联合发起的项目token gram得主张token grand为每位获奖者提供5万元人民币token费用。从最早开始支持大家build的下一代AI原生产品，欢迎token。请先跟大家介绍一下自己以及目前正在做的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢兄弟，我叫张token。Token是token，他也是托举与肯定的意思。然后我自己的话是2026年从清华电子工程系博士毕业，现在正在瑞士的苏黎世联邦理工学院做博后是在集成系统的实验室和人工智能中心。我拿token ground这个项目的项目名字叫做芯片开卷计划，这个名字是我第一次提出的，我非常喜欢它是出于这样的一个认识，就是说芯片行业通常给人一种高度封闭的印象。但我认为其实有很多部分是可以开放的，也应该开放的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为一颗芯片它具有商业价值，或者说具有广泛的商业价值，可能需要99分以上，甚至99.99分以上。但培养芯片工程师非常的慢，行业长期缺少人才。相当多的人，特别是初学者、入门者，他花了大量的时间精力在处理一些0到60分，0到80分的东西。这些部分我觉得都是一些教科书level或者研究生level的。这些部分应该被开卷，应该被通过AI的方法极大加速。大家就可以直接从60分甚至80分，甚至在以后直接从90分开始，再做到具有商业价值。这样大家的整体技术水平可以更加的繁荣，把精力留给真正具有价值创造的部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>开钻这个词特别有意思，就看到不管是咱们公众号还是B站，也跟了很多具体真的在做的事情。比如说咱们最开始有哪些灵感来源的场景，或者说做了哪些比较有意思的尝试，可以跟大家分享一下吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>灵感来源就是做一系列的公众号，讲AI故事。这一系列本质动机和出发点在于我去年的时候就已经在尝试拿agent来帮我做芯片。也是2025年的11月12月到26年的一月这三个月。当时就发现，原来agent已经能帮我这么多了。但是我身边的很多人都完全不能够理解。在这样的巨大反差和认知差之下，我决定站出来拿着大喇叭跟大家吼，大家可以用agent来帮助自己，大家可以开卷，已经到了可以开卷的时候了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时大家表示不理解的时候，会有哪些具体的反馈吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不理解的话主要就是几个问题，第一是幻觉，因为大家对大语言模型，特别是当时吧停留在在网页上的时代，当时agent可能还不是那么的火。大家无法理解一个对话的大语言模型怎么就能够调EDA工具了，怎么就能够去处理文件了。大家对此表示高度的怀疑和不信任，认为这个中间有巨大的幻觉和潜在错误的可能性。另外的质疑点就是模型本身能力不行，因为或多或少有很多人在网上跟各种大语言模型去聊过关于芯片的问题，但是在一些很早期的时候，模型给出的回答都是很差的，到了今年初以后才开始逐渐步入正轨，到达可用的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你是怎么了解到的？真格脱困关于这个项目这个过程里面有没有哪些印象深刻的瞬间？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个契机其实是今年大概三月到5月份。当时我自媒体大火之后，就有很多投资人联系我希望出资让我创业。但其实当时有一个非常大的concern，我在今年1月就已经答应了我现在瑞士的导师毕业之后会来瑞士做博后。这也是我当时个人发展规划和时间节奏的重要一部分。我个人是非常看重已经做出的承诺的，所以说就没有把它割掉，所以回绝了这些投资人的邀请。那这个时候，真格的debi就给我提供了一种新的思路，一种不以立即创业为前提的token ground，我就以这个契机申请了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最打动我的瞬间其实就是这个项目本身它的愿景和诚意，就是不做任何的前置绑定而直接给予资助。我认为这是一种需要很大格局和魄力才能做出的决策。我非常欣赏这一点，这也非常触动。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我明白最近没几个月或者说每一段时间的变化都很快。从咱们的这些视频和文章里面看到这个工作的状态或者说流程也是在有变化的。从咱们最早开始接触AI或者agent工作流到现在，对比更之前还在更传统的工作模式下，咱们个体体感上觉得有什么变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>体感上的变化我觉得就不断的在用惊叹和震撼两个字，不断的被AI的能力，被AI的进步所震撼。去年年初之前，所有的操作基本都是手工的，手动点点点，不同的文件之间需要手动搬移来搬移去。但是后来在agent普及之后，这些工作都可以被更加智能化的方法给托管负担从我的心之中卸下来了，这个是一个很大的变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得给你带来最惊叹的一个瞬间会是什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最惊叹的一个瞬间可能是近期做的几个尝试，最近的话就是尝试拿codex去接上这个真实的测试仪器，就是物理世界的硬件，就是在电脑之外的一根USB插上，然后让codex去读取那些端口，再去控制这些电压、电流激励信号。再拿另外的仪器去测，发现我跟codex说话，那边就能够出来相应的波形。我觉得这个是之前人们很难想象的事情，在芯片设计领域也属于一个很难以想象刷新认知的事情。当时我就把这个过程录了下来，还发了几个文章。当时我起的名字叫做听说你还在首领LDO，我用AI控制芯片测试的供电和参考源。这件事情我也是比较震撼的，因为真正的打通了从chat window到物理世界的hardware。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像刚才这种更specific更专有的这些场景，当时想到做这些的目的会是什么吗？或者有哪些契机吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>细节很明确，就是因为我真的在用，来自于我的真实需求。因为我真的需要用这一套设备去测试我的芯片，所以说我就用AI来帮我做这个事情是非常自然的。这个事情也是我认为agent所解放的一种possibility。其实大家的末端需求都是高度碎片化的。有agent之前可能有一个第三方方来帮我们满足这种需求，然后再把满足需求的这个产品再卖给你那他肯定很难去满足所有人的碎片化需求，它只能满足一些大面上的共识性的需求。但是除此之外，我们还有最后一公里，无数的最后一公里。像现在我们每个人都可以用agent帮我们自己完成最后一公里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你第一个B站视频其实也说现在有agent可以帮你替代一个流程，以30%的工作。这30%更多的是像这种末端更碎片化的这些需求。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都有30%的话。当时我是这么划分的，就是在芯片设计流程中，它有数字芯片，有模拟芯片。然后我的博士方向主要是做数模混合芯片，一种以模拟为中心，但是也有很多数字电路辅助它的一种混合芯片。在其中模拟算是核心，数字算是辅助。但是数字跟模拟混在一起之后，中间是有大量的接口问题，很容易出错，所以需要大量的验证。所以又加一个验证，这部分我是分成了这三大部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这三大部分中agent可以有不同的侵入程度。从去年年底的时候我就发现数字电路部分几乎没有一行代码是手写的，全部都是A写的。所以就侵入程度非常高，在模拟设计的话可能还显著的低很多，所以当时是只给了10%左右。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在验证部分。我认为虽然说很多debug还是通过我自己读博多年积累的经验人工去判断的。但是还是有很多labor work、trivial work、大规模认知劳动的work，大规模数据处理的work是agent完成的。所以我认为他也做了可观的贡献。最后加权换算下来，我给了一个30%左右的比例，我认为是比较客观和公允的那。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在这个比例有变吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我相信这个比例是可以提高的。当然了这个比例也随着芯片本身的特点而有变化。比如说对于纯数字的芯片，现在无疑可以达到80%到90%以上，对于所有人我相信都是可以的，但是对于模拟芯片，可能它会一个缓慢的过程，从10%到23% 10左右，我觉得它可能在未来会饱和在40到50左右。那么对于整体的芯片系统，它肯定有数字部分，它也有模拟部分，最后agent到底能侵入多少，就取决于这个系统是怎么定义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的那刚才提到这一切开始的契机是今年自媒体上的一些文章爆火。在做这个自媒体的过程中，你觉得最大的learning或者收获会是什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最大的learning我觉得就是输出、反哺、输入。也靠这些来让自己急速的成长，不断的去探索前沿，不断的去探索前人没太做过的事情，并且以一种更容易被受众所接受的方式表现出来，展示出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得像这个火的契机，是因为他真的打中了一个很强的需求，还是因为别的什么原因？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个有天时地利，也有人和，因为我们正在一个巨大的智能化改革的浪潮里面，我们非常有幸又遇到这么大的一个时代契机，这就是时代整体的beta。那在这样的一个大环境下，那肯定对于agent在每个行业中有怎样的应用，大家肯定是有一个起步的兴趣的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>单说芯片在整个AI或者A正这个浪潮下，针对于这个领域，你觉得它有什么独有或者说不同的地方吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>应该说AF芯片设计有一大部分是封闭世界的胜利。这个事情也是我跟飞我一起提出的一个名字，就是说数字芯片设计的工具链其实是非常完备，非常多样的。而且它是具有明确的边界条件，非常容易刻画，所以它在很多层面上都很像编程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多人都问做芯片跟编程有多大的区别？我的回答一直是区别有，但没有想象的那么大。而且我们不能够拿AI做芯片作为一个整体来做，因为设计芯片范畴实在是太大了，芯片设计的整体是非常复杂的。但是拆开之后并没有那么神秘。有至少几类任务是很容易能让agent介入的。包括大规模的信息提取和加工，各种代码脚本、命令行任务，还有就是数值的建模分析计算。这些你拆开来看，它其实跟我们现在用于训练agent能力的这些terminal bench高度相似的。对于这些任务，通用AI其实已经具有了足够的能力和泛化性，可以做出可观的贡献。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像你之前也提到数字芯片设计是AI落地的最佳场景之一。这个是为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是因为刚才说的它容易验证，比其他很多领域更加容易verify。技术层面它是可行的。还有一个是商业层面，就是它是具有高价值的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为数字芯片的市场足够广阔，需求量也会很大，未来还会更大会出现大量的定制需求。这里有两方面的原因，一方面对数字芯片产品的需求会越来越多。因为以后在不同的领域，在不同的地方都会有自己的定制芯片，定制AI芯片、定制推理芯片、定制通信转包芯片等等。同时国内的产能也会急速的上升，之前我们国家的芯片产能一直受限，一直比较紧张的状态。但是在未来的两年是三年或者更久，他一定会得到解决。当供给上升，价格下降，周转周期下降之后，就有更多的公司，更多的人有动力去做自己的芯片。这两边结合起来，自然会让AI辅助做数字芯片的需求急剧上升，很容易的转换成商价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像在AI进行芯片设计的辅助过程中，整个过程它跟目前我们去调用A正做一些日常任务有什么区别吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>至少两点，第一点是用的工具不一样。很多模型在最开始的时候，比如说在去年的时候，他们说的进入到生产力生活是面向word、PPT、excel等这些常用的办公工具，还有你那些常用的编程工具去做特化训练。那我们做芯片，基本上完全是另外的一套技术栈。虽然说接口很多时候它也是能用编程的方法来理解，但是训练过和用通用能力泛化出来的能力去应用它还是有一定差距的这就是工具链的区别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更大的一个区别在这个验证上面，就是对于一些场景这个准确率它其实要求不是非常的高。就是它大面上看得过去，就像现在我拿AI去写一些文章或者写一些code，也是经常需要返工，那返工就返工。也可以接受。但是对于芯片的话，它对于验证的多样性和全面性准确性要求非常多。因此需要更多的测试轮数，工具调用和工具交互的轮数。在这样的情况下，对于模型的智能要求其实是更高的。如果说处于一个很笨的状态去交付几百轮甚至上千轮，那这个其实没有人能够有承受。我们都希望他更像人类工程师一样，用很敏锐的观察和具有经验的思考来迅速的找到有效的信息。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个事情我认为对agent和对所有的模型来说，其实是一个很大的利好。因为我们对准确性、全面性、多样性的要求越高，其实agent的轮次不可避免的会很多。所以当这个技术更大规模的落地和推广之后，这个token的消耗量我觉得还能够大幅上升。我认为这中间有巨大的想象空间，它也有巨大的商业价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个过程也是需要要包括模型更高的智能以及很多经验的输入。所以这也是为什么那篇三天从0到6篇这篇文章就会觉得很有兴趣。就是你花了三天时间可以用AI设计了一颗attention的计算芯片。能不能跟大家来分享一下一开始的过程？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实也是一种机缘巧合。当时我们课题组恰好是要去做芯片，就是要做一个拼板的一个MPW的芯片。然后其中有一块面积恰好因为某种原因而空出来了，如果没有人用上这块面积，这块面积就会被浪费掉。这就是为什么我说这是一次临危受命，就是在最终deadline的前三天接到这么一个任务，在有agent之前是完全不可想象的。所有懂相关数字芯片设计的人都认为这个工作至少得做一个月或者一个半月以上。在这样的情况下，我也是从零开始，现场让agent让AI帮我构思这个芯片的架构定义，帮我构思每一步应该怎么做，帮我去想，我把全过程也在公众号文章中做了记录。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>题目写的是三天从零到流片，AI带我设计一个attention计算芯片。这个题目里面最重要的两个字是带我都不是我用AI我觉得完全是AI带我飞。因为我在之前对于attention在芯片上面的硬件实现，其实理解并不是非常的多。每一个细节都是我跟AI不断的沟通，他交给我，我去想办法验证，验证好了之后再搬到芯片里面去实现，再一步一步的把它堆起来，堆成了一个可以送去流片的状态。我其实只提了一些比较模糊的方向，我真正感觉到了一种当领导的感觉，具体的任务都是AI实现完成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的感觉。AI让大家都学会了怎么当好老板。这篇文章也是5月2号到5月5号，也是最高效的一个五一假期的度过的方式了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，刚才这个三天被AI带了流片，其实也是我对于未来AFO芯片设计的一种期望，就是我心目中的未来AFO芯片设计可能也就长这样，当然比这更好。只是说类似的模式，我作为一个芯片设计师，不一定所有的我都懂我可能懂一些大面上的，我懂一些方向。在A的加持下，它能够帮我赋能，增大我的大脑，延长我的双手，让我的能力边界得到扩大。我觉得这样是我对于未来AFO芯片的一种预期和盼望。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，包括像那篇文章下面最高赞，就说这种程度在未来的使用会是常态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，我相信。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说在你感受，包括日常的这些工作流程里面，现在AI能完成什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得能完成非常多，包括刚才说的这种做一个attention芯片，其实类似的活我最近又做了非常多。虽然说没怎么发表，但是这个是我完全可以的。特别是经常看到一些sota模型做的已经非常好了。他们已经能够非常熟练的运用一些三大家的EDA工具，然后很快的就做出来较为合理的芯片模块，并且过一些比较全面的验证。这个我认为还是在飞速进步中，这个是我认为现在AI能做的以及正在做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是在这个大背景下，其实很多人就问什么时候AI能够one button做出一颗芯片？其实我非常不喜欢这个说法。像现在大家都知道AI编程能力很强，但以我的使用经验来看，我没有任何一个软件是one button做出来的。没有任何一个我满意的软件、网页或者小工具是一键做出来的，或者一句话one prompt做出来的。还是每一个都通过了大量人工的校正参与，或者说是沟通协调。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我认为这个事情跟人类社会是很一样的。就是在任何一个公司，你招过来一个能力非常强的员工，也很难说给他一句话。他哼哧哼哧干两个月，也不需要跟大家开会就把所有事情干完了，我认为这个是很困难的。所以我认为对于AI能做什么，我们需要不断的根据客观实际情况，以及我们对于一些类似事物的理解，来对它做一个预期的校正。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是说one button不太实际这件事其实更多还是在于他有缺失的context，或者有很多隐性经验没有办法放进来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一是context，二其实是人的需求都是不断在变，特别是芯片。每个芯片在设计最开始的时候，跟它最终做成的样子很可能差很多。因为很多设计的指标，很多内部的决策都是在一边做，一边开会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一边你跟人家也一起合作很长时间了。你觉得在这个过程里面，你作为人的角色有发生什么变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得我升职了，我从AI的加一变成加二了。当时在用cloud sont这个4.6的时候，可能还需要微操一些细节。到了今年的时候，微操的细节越来越少，我跟他的交互越来越是high level的，大面上的、方向性的。或者说我就只需要看交付的结果，以及我会去派一些其他的agent去审查中间的过程等等我觉得我升职了，我相信以后所有人都可以升职。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这会也意味着贾尔或者说能跟agent更好的传递好需求的人，得是他先有能力去进行这些更框架性的总结和给agent的指导。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我认为这个能力很重要的，就像人也是需要所谓的领导力、组织力，公司越大这种能力越重要，也越困难。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>agent肯定也是的，你今天消耗了多少头看啊？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就我现在的话是中午在大概24个小时，就是上一次重置之后，大约消耗了cloud max 20的30%左右。不管是vivo还是oppos 5都消耗了30%左右。然后这个GPT那边也是一个顶配的GPT20 pro 20也消耗了这么多。今天的话可能还在做我最近在做的模拟电路画板，这个是消耗比较多的部分，在具体的优化用户体验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能介绍一下这个模拟电路画板吗？因为看到这也是你最新的一个更新视频的呈现效果真的特别好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢。这个的话其实也是来自于我自己的痛点需求。因为我之前尝试在百分之百用编程的方法来做模拟电路。也去跟我的很多朋友去收集他们的data或者说任务，来一起做一个模拟电路的评测集。在这个过程中我就发现让芯片设计师来直接用编程的方法来做模拟电路，其实对很多人是很痛苦的那效率是不够高的那有没有办法来把那个拓扑原理图再给画出来？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我就尝试用一些既有的工具去画，但是这个时候就发现过去的工具已经不能够满足我的心意需求。这个情况下我就调研了几乎市面上的所有已存的工具，要么是不好用，要么是不好看。因为我觉得我对于审美还是有较高的要求。那在这个情况下，我就想干脆重新web一个算了，所以就重新web了一个。这个既然要干，那目标就是要做世界上最好用的原理图画。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这样的愿景下，我也招了几个朋友跟我一起干干了半个月左右。在三天之前我去在线上做了宣传，到今天才刚刚三天或者两天半的时间里，在全球范围内已经获得了超过7000人的访问量和超过2万次的访问量。我认为这个还是在所有的画板里面，它非常好的一个效果。而且我相信现在只是他的第一阶段形态，在未来还会有更多的工作，超出现在很多人的想象。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他解决了很多你调研过的市面上工具没有的一些，包括你提到的审美。你觉得是怎么做到不让这个项目可以实现你要求的这个审美的水平的呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>审美的话这个就完全是一个艺术设计的范畴了。在用户体验上，我觉得用agent来开发跟传统开发最大的几个区别是它的开发节奏要比之前快上百倍。在这样的一个前提之下，量变是引起质变的。也就是传统上我们做任何的代码改动都有非常长的流程，而且要瞻前顾后考虑这个向后的兼容性等等。你考虑到这些就很容易堆积成历史的这个史上版本。如果说我们现在为了去考虑兼容性，为了兼容一些不好的feature而做出的妥协，他所付出的代价很大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另一方面我们直接干脆重写一遍的代价很小。我们就更倾向于我但凡发现有什么问题不符合best practice，那我就干脆重写。每个部分都在不断的重写，就是每个小模块都在不断重写。最近的话也发现有另外的引擎可能会有一些重构，这个的话还没有尘埃落定。但是我觉得这种重构在现在无非就是多消耗一些token，而你们又给了token的资助，所以我就更加敞开了让vivo重写。那在这样的情况下，我就可以一直保持在最佳状态，轻装上阵，轻装前行。我肯定比过去的那种要好很多很多。所以这个是从第一性原理上来讲就会变好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>敞开了之后会感觉自己在这个项目的过程中也会少更多的这种吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，我相信这也是token ground的一个初衷。然后token ground给我们的一些可能性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你在复盘你的工作的时候，有感受到现在整个项目的节奏推进的更快了之后，原本被替代的这些时间会用来做什么新的事情吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我个人来说可能就是多个项目并行推进。就比如说这个画板是推进的一部分。但其实我自己还有别的，包括benchmark的建设，然后包括其他的科研工作，这都是多个并行在推进。有很多个agent在背后正在工作中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括这个滑板的项目在内，你就是你也有很多开源的项目和尝试。你觉得在这些项目已经运行了这样一段时间之后，有什么印象深刻的反馈吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个反馈还是很多的，各种声音都有。印象最深刻的也是反响比较热烈的，其实是一个桥接工具，就是让agent去接上这个商用的EDA软件，是一个但凡做模拟芯片设计就无法绕开的一个软件。我写了一套桥接的工具，让agent可以更好的去操作这个软件。这个是我今年4月份开源的，至今就已经有大概四个多月的时间，可能也是迭代过超过大几百次。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是收到了相当多的反馈。印象比较深刻的可以说是有两类。第一类是数字上的，从这个项目发布出去之后，我看到了很多数字，这些数字让我深刻的感受到了agent所解锁的可能性，以及agent所能够带来的代码平权、开发平权。包括在github上面阅读量就超过了4万次，然后下载量超过了1.6万次，然后star数量超过680 fork 150。还有一个数字是比较重要的，就是明确用我这个项目再做二次开发的项目，这种项目就有超过十几个。在这种情况下就说明是有较大的反馈的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一类反馈是从各种社交媒体上的四面八方的反馈，包括B站，包括小红书或者口口相传的等等。举两个例子，第一个例子是说有一个B站的粉丝，他直接把我和这个开源项目写到了他的本科毕业论文的致谢里面，我觉得这是一种非常高的赞誉。第二个是有若干家公司的人跟我说，他们把我这个工具做了某些改版，然后直接放到了他们公司内网的环境里面，作为他们生产环境的一部分。这个也是一个非常高的认可。因为所有工程师的最高梦想都是自己做的产品，或者说自己做的技术能够被用上，尤其是能够被商用。这些都是令人印象非常深刻的反馈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像刚才提到的，有很多也是在进行这种二创或者二次开发的，他们都是有做了什么改动吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有的让它计算效率更快，有的让他接上了RAG，接上了知识库，接上了优化算法，接上了版图设计等等。各自根据自己的需求去加，就更加的展示出了agent所解锁的这种多样性和可能性。每个人都可以根据自己的需求去定制，最后的一个里至少得让自己用的顺手。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚才聊了很多，包括大家都是怎么在解决这些最后一公里的事情。你也提到你还花了很多时间在做这种评测集，能跟大家分享一下，比如说当时是怎么想到去建立这些评测集，或者说建立这些bench mark的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个跟最后一公里是互补的两个方面。这个真的属于地基，就是我们现代化的AI native的，几乎它的能力引擎都是来自于基座大模型。我们如果说要提高在一切应用上的使用体验，那最直接的方案还是去提高基座模型的能力。那这个情况下评测集就非常重要，因为它可以刻画基座模型在不同领域的能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我认为bench它其实是两把尺子，第一把尺子叫做相对比较，我们可以通过benchmark来比较不同模型的能力差异。现在其实大部分benchmark都是这个状态，包括什么sweet bench，terminal bench或者别的artificial analysis等等。基本上它给人的作用就是说比较一下这个模型比那个模型又强了一些，新出的模型又进了一步之类的。这个是一个相对比较。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我认为对于芯片设计领域还有一把尺子非常的重要，叫做绝对能力的定标。现在大家都知道模型能做一些事情，但是到底能做哪些事情，能做到什么程度，很少有人能够量化出来，并且以一种更容易被大家接受的方法让更多人知道。我就非常愿意告诉大家，现在模型的能力到了什么程度，哪些任务是现在的模型能解的，哪些任务是解不了的，哪些任务是被很多模型都能解出来的，以后就不应该人干了。像有了benchmark之后，我们就能够对这些问题进行一个非常定量相对客观的回答。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我更喜欢的一些描述就是说他可以认为是一些考试，或者说它非常像教育学。我们说一个人他会做芯片，这个会做也有非常大的区别。你是本科生水平、硕士生水平、硕士毕业的校招生水平，还是说你刚入职一年的水平，三年工程师经验，五年经验、十年经验，这都是完全不一样的能力刻度。现在AI到底发展到哪一步了？是几年级了？这个事情其实没太有人具体的知道，每个人都说我能做得很好了，但是我觉得不是很客观。我就希望做出来这样一个绝对的定标，来告诉大家有了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个定标，包括这些过程的测评下来有得到什么结论吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最直观的一个结论是现在AI的能力其实已经超过了很多人的想象。很多人之前的理解，特别是芯片行业的很多人的理解，一个例子是这个razvi bench，它是有50道模拟电路题目的问答测试。这个测试里面在前年发布的模型，这个GPT4O时代，它的表现是非常糟糕的，几乎就是完全不可用。今年6月之后的模型已经到了不亚于中上水平的研究生人类的水平了。这里有一个非常陡峭的上升曲线，之前人们可能意识的比较少，那我就把这个给刻画出来，所以也是一种结论。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个就是对于测评本身，尤其是agenting任务就明确的发现了，包括test time skating非常有效。还发现这个模型本身的能力对于最终效果的影响是远大于honey的影响等等。所以说就是更加的凸显和强调了机模能力的重要性。具体的信息我还在准备写一些论文的过程中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么得到。模型能力本身是要大过harness的影响的，包括你怎么看最近大家对于harness的这个意义和讨问了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个的话我是做了一系列实验。比如说用同一个模型换五个不同的harness，在同一个五十道题上面去做三遍，然后做出来分数差不太多，那就说明没什么区别。然后换不同的模型，比如说你就换GPT5.6的sol terra和luna，横坐标是时间，纵坐标是分数，那它就是泾渭分明。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像现在模型的更新速度同样也很快。怎么避免说刚才咱们定的这些标准，这些评测机不会过一两个月就过时了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是一个好问题。这其实也是一个具有两面性的一方面。我们看到它过时了，实际上过时的这些任务或者说题目，它反而可以更好的告诉整个行业的人。这些问题就是被大模型斩杀掉了以后，我们可以花更少的人力来做这些事情，可以想办法让AI接管了。所以这也是个好事，模型斩杀的越多，对于芯片行业越是利好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那另一方面，在持续建设奔驰车的过程中，我觉得我是有信心能够在较长的一段时间，可能2年到3年的时间里面，一直领先于模型的能力。因为我认为这个芯片设计的难度，它可能是没有上限的。现在我去让AI能够做出一些分数，都是处于一个我们在故意放水的程度。我们在babysitting。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个还有一个比喻，就是说我们从小读书到大，每个年级都有每个年级的考题。我作为一个研究生毕业或者博士毕业的老师，我可以出来一年级的题目、二年级的题目，出六年级的题目，出中考的题目。我可以一直至少出到他本科或者说接近到硕士水平。所以我认为这个还有非常大的空间。如果说让很多基座模型都已经在我以及跟我一起合作的人出的题目，已经完全难不倒他了。那我觉得这个af芯片设计这整个topic已经到了一个非常高的水平。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Babysitting这个词很有意思，你现在在给他出的这些题，或者就是你跟他设置的这些流程里面，目前有让你意外的部分吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是有的，经常会感叹这都能做出来。比如说最近的一个版本的benchmark是release了50道题，但其实是测了可能至少80道题，就发现有一些提示，几乎所有模型都做得出来，我就把它给砍掉了。我们让AI学习的效果最大的一部分可能是那个模型之间有差异的部分。这样就让它一步一步的向前，然后我们一步一步的培养他升级打怪。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会说他是一个好的学生吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>模型做到什么程度你才会说它具备了芯片设计的能力呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得他做到什么程度，其实都有一部分能力。就像一个学生一样，实习生有实习生的搞法，十年经验的工程师有十年经验工程师的用法。所以理论上在一个公司里面，每一个大型的芯片项目可能都是几十上百个人。在这样的团队里面，什么水平的人都有。能对他的能力有客观清醒的认识，然后把它合理的用起来，我觉得就够了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你是现在怎么理解逊模型这件事呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得就是教书育人，包括我之前在学校的时候也拿过这个清华大学优秀助教。我是教过很多课，然后在网上也写过很多教程，去教过很多小白。当时我写过的一个教程是叫做混合信号电路设计师的入门之旅，做了一个非常经典的芯片小模块。我当时写那一系列的课程的原动力就是太多人问我一些非常小白的问题，我觉得非常的痛苦。当时可能是2024年开始写的，我觉得这些问题在这个现代还需要浪费这么多优秀人才的时间和精力。再来从学习。我们不如有一些整理好的knowledge，让大家以最快的方案，最容易吸收消化的方案直接吸收走，就不再需要走这些重复的坑了。所以我就不断的去做这种教育也好，或者说是宣传也好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在对于AI时代，我觉得比我写一个教程去教人一个人一个人的让他去看课程效率更高的就直接教模型。我加了模型之后，所有人他需要用到的时候就从模型中直接获得。不需要用到的时候，那就把时间精力省下来干别的事情。那对于整个人类的知识水平和整体的效率肯定是更高的这也是我比较相信的一个愿景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很有意思，感觉不管是每个领域，其实都是在做某种程度上去总结这个经验，然后传代的是就像那个机器人的robot master，其实就是每一代的学长留下来一些东西给下一代。不管是在芯片还是在很多这种应用的行业，很多价值反而就是在这些testing knowledge，或者说这些很难被写下来的经验里面。作为一个助教，包括在做AI的老板这个过程中，你觉得怎么更好的把这些经验传递给他呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>经验传递给他。其实现在我非常认同的就是正经的模型训练的方案就是数据。其实现在所有的模型核心瓶颈就是数据，我认为这个事情也是正常的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就像我们所有的人，他可能有预训练阶段。这个义务教育到高考预训练之后，他有各种后训练就上本科了。上本科了他就开始去进入各个专业，各个学院去学每个方向的内容。为每个方向再往后到研究生level一些项目或者说这个research。还有更细的经验。那每往前走一步都会面临缺少数据，缺少信息。人的这些数据和信息都是通过学长学姐、导师，然后学校的各种内容或者说实习而获得的。我举一个非常好的比喻，就是说一个学生从零开始，一直到他有所事业的成就，最大的变量就是他做过哪些项目，项目本身好不好。他做过很多好的项目，获得了好的引导，它就可以变得成功。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多不同学校之间的差异，很多时候我们仔细去看也是这些项目制。他这些项目做到每个学生身上，他的培养效果到底差多少。放在实习也是我们不同的人去了不同公司实习。为什么后面他们能力的成长不同？就是他们去实习拿到的项目到底好不好。所以这个项目这个任务本身非常重要，这个环境非常重要。这些内容我认为可以非常好地迁移到训模型角度。我们其实也是通过类似的项目实习来教模型，也就是大家所说的后训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说到这个比喻很有意思，像回到比如说你在这一两年跟AI很密切你的协作，包括这些项目的完成的过程中，你觉得AI时代最容易被低估的一种能力会是什么吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个挺反直觉的，我觉得最容易被低估的能力是用agent能力。因为很多人处于一种被动的状态，他们可能会期待这个agent或者说AI随着发展，自己就能够按照自己既有的方案去one button的调用，或者说就AI说什么就是什么之类的。现在很多人会有一点变成AI中转站的感觉，这是不对的。我认为不管agent不管AI怎么发展，把人作为agent驾驶员这个能力还是非常重要，甚至说越来越重要的。就像汽车出现之后层出不穷的新车，其实也都需要司机有足够的驾驶水平、驾驶技术。飞机出现了也需要飞行员的驾驶技术，驾驶技术我觉得现在非常不重要。我是高度的appreciate，高度欣赏这种优秀的web coder。我一直都在不断的寻找优秀的web coder作为我的合作者一起去做的各种项目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>擅长驾驭agent或者是擅长会用这些agent人，你观察到他们具备哪些特质吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最大的几个特质，第一个是熟悉车线。就像每个老司机都是熟悉车线，知道这个车在怎样的情况下是有异常的，怎样的情况下是可以高速跑的。熟悉车型之后能够开得快又能够刹得住，最终还能够有效的把人或者货物送到目的地。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拿一个3到5年的时间线来看的话，大家是会减少需要驾驶agent的时间吗？或者说驾驶agent这个过程会一直存在吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>肯定会减少的。你看之前大家都是手动挡、自动挡到自动驾驶。现在很多人买一些自动驾驶程度比较高的车，你可能90%都是车自己在开，这个事情是必然。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>发生的那像在这个很快的改变的过程中，你感受到最大的变化会是什么吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我感受到的就是认知在不断的刷新，太快了。对我来说年度汉字就是快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么说这个快？</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是我们的很多判断要不断的与时俱进。比如说AI不能做什么，AI能做什么了，这几个事情是需要不断刷新的。我觉得能力边界在不断的前移，然后我在不断的尝试用到这些能力边界的部分，这个是一个非常大的感受。这个遍地都是机会。我觉得现在其实能够再碰上一个如此大的浪潮，我觉得也是一代人的幸运。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在你感觉AI还不能做什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那可多了。最主要的我觉得他还不能够完全担负起一个员工级别的责任。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在你的这个定标里面，真的可能有几年经验的一个工程师。这样真正懂芯片的一个agent，你觉得它最重要的一点会是什么吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果说要到具有1到3年经验的话，我觉得最重要的还是数据和基建。这个还是万变不离其宗。这个重剑无锋。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚才你提到有了更多的token，其实可以少掉很多这种和限制，那假如有一天有了无限的token的话，你觉得你会做什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我希望大规模合成有效数据以及做更好的基建，为训练模型或者说为整个AFO芯片添一把燃料，更大的扩大规模。Scaling up.</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你会预想一年之后这个目标会有什么进展。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一年之后这个数据获取和合成的效率肯定会比现在高很多很多倍。这个事情是我非常愿意做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得过程中你会有什么变化吗？你会期待自己的一年后会是什么样吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一年之后可以通过一些方法来证明自己，真正的推动了AI在芯片设计领域的能力提升。我觉得能有办法来证明difference就非常好，这也是需要一定时间的。另一方面我希望继续去做宣传和督导工作，让更多的行业同仁，不管是工程师、学生，不管是实验室还是公司，都更充分更多的认识到agent在芯片设计中的能力，并且真正的用起来。以上两点，一年之内既为AFO芯片的能力建设做出贡献，也为行业扩散做出贡献。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那刚才像提到的，其实行业扩散或者说走向这些在公司内部，或者说这些商用，其实还是蛮重要的一步。现在的这些进展里面有得到哪些反馈吗？比如说就是往这一步走的时候，会需要先克服什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得现在还没有克服的，其实还是基座模型的能力。芯片厂商跟其他公司一个很显著的区别是对于信息安全的重视程度。这也是为什么我一直在说合成数据非常重要。因为以目前的各种沟通和广泛的交流下来，几乎是完全不可能从真实的芯片厂商那边获取大量真实数据的。所以可能只能想办法来合成数据包。那在这个大背景和基础认知之下，大家对于云模型的接受程度是非常低的。如果要用到各个芯片厂里面，大家最愿意的还是本地模型。而现在的本地模型或者说能够担负得起的本地模型，距离这个能有大规模的效果，我认为还是有一点距离的，所以还需要一些发展的时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是需要等待模型的一些进展。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对模型智力提升或者在保持不变的情况下，然后成本再下降一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也想问一下token给现在正在申请或者说刚拿到token grant就是这种更多的开发者，如果只给他们一句话的话，你觉得你会说什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>希望大家把token变成行动，做一点前人没有见过的东西出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢token。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢Cindy，谢谢。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以上就是本期此话当真的全部内容，希望当下的思考能够带给大家一些启发。如果大家有好的创业想法，也欢迎和我们聊聊。同时也欢迎大家在各大平台订阅此话当真播客，我们下期再见。</p>]]></content:encoded>
+            <pubDate>Wed, 16 Sep 2026 12:11:58 GMT</pubDate>
+            <guid>6aaa86279d326477816a2744</guid>
+        </item>
         <item>
             <title>从「同事.skill」到「人生系统」，你害怕被蒸馏吗？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a82e0405aeb2a5712e823d5</link>
@@ -7358,382 +7601,6 @@ Al lnfra下隐藏的千亿市场 – 人人都是产品经理</description>
 <p class="transcript-line"><span class="time"><strong>[01:10:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，今天和托尼聊得非常开心。如果大家想加入反曲或者成为反曲的实习生，欢迎和我们直接后台联系。然后如果大家有好的创业想法，也欢迎留言，同时也欢迎各位听众在各大音频平台订阅此话当真播客，我们下期再见。</p>]]></content:encoded>
             <pubDate>Wed, 16 Oct 2024 03:56:02 GMT</pubDate>
             <guid>670f39520d2f24f28977593f</guid>
-        </item>
-        <item>
-            <title>聊聊 AI 技术应用、创始人心态和创业的大与小｜对话Castbox王小雨</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/66e9a7a25ca6d0ace389af8c</link>
-            <description>2016 年，Castbox 成立并进军海外移动端播客市场，填补了市场空白，注册用户曾一度达到 3000 万，位列第三方播客产品榜首。
-2018 年后，Spotify 掷重金下场播客市场，Castbox 面临着商业化的难题和大环境的挤压，创始人王小雨带领团队经过艰难探索，最终实现了矩阵式打法的转型突破，发展了一系列娱乐相关的产品。如今，这位毕业于北大心理学系，有着多年开发经验的前 Google 员工王小雨，正沿着她的创业路径，领导着一个有着 50 多款产品和全球 5000 多万月活用户的公司。
-作为互联网创业时代的踏浪人，王小雨和团队积极关注着 AI 技术的发展，上线了数款 AI native 产品。对于如何在互联网环境下做好一款 AI 产品，她有着自己独到的见解。本期节目我们邀请到了真格基金投资副总裁 Monica 与 Castbox 创始人兼 CEO 王小雨，一起聊聊她不寻常的创业路径背后对创始人心态和创业形态的思考，以及对公司在积极纳入 AI 技术过程中所遇到的变化与挑战的看法。
-【主持人】
-谢岩 Monica 真格基金投资副总裁
-【嘉宾】
-王小雨 Renee Castbox 创始人兼 CEO
-【时间轴】
-Renee 的创业经历：从 Castbox 到产品矩阵
-* 01:15 北大心理系、大三自学编程、勇闯 Google 后选择离开创业
-* 12:56 创立 Castbox，月活一度达 3000 万
-* 15:48 单一产品商业化困难，转型矩阵式打法
-创始人如何有效组织和管理公司？
-* 24:04 发挥各家优势是跨国组织的效率密码
-* 25:32 Founder Mode 带来的启发：不管规模多大，创始人一定要抓细节
-* 27:30 保持开放性很重要，引用新范式是更高级的杠杆点
-应用 AI 技术给一家公司带来了什么影响和挑战？
-* 30:53 从生产到推广环节，AI 技术应用带来了历史最快的增长
-* 37:31 如何在公司中推广应用 AI：founder 要能够发掘出水下的新技术人才
-* 40:12 管理是反规模的：小公司能更好适应新技术的纳入
-* 43:21 矩阵式打法背后：以市场和收入为导向会更轻松
-* 49:08 面对大模型生产力转化的不足，主动增加工程投入有价值吗？
-创业者视角 VS 投资人视角；单一产品做大 VS 矩阵式生意
-* 53:07 聊聊投资者心态：不求每一次都成功，但是最成功的必须在自己手上
-* 54:59 做公司的两种心态：作为生意和作为事业
-* 56:12 留在牌桌上才能等来机会，永远保持对市场、对新鲜技术的嗅觉
-* 01:00:39 互联网产品早期就得砸钱吗？
-* 01:01:56 不是所有互联网产品都是赢家通吃，学着接纳多样化产品的自然规律
-如何在当下做好一个 AI 产品
-* 01:04:07 只看应用层，最后满足的还是用户需求
-* 01:06:05 互联网已经不存在什么新东西了，品类是前提，组织能力很重要
-* 01:08:21 今天的 AI 产品经理需要真的懂 AI，知道 AI 的边界在哪
-* 01:14:06 潜力产品的两个特征：符合成瘾机制 + 激发心流状态
-聊聊创业本身，有关创始人的心态和行为
-* 01:19:09 创业作为一种生活方式
-* 01:20:52 第一个话题：创业者的耐心
-* 01:25:31 创业有 upside 和 downside，我的 downside 是至少投资人不要亏钱
-* 01:28:45 不迷恋宏大叙事，先立地，再去找顶天的点
-* 01:30:18 第二个话题：创业者的悲观与乐观
-* 01:33:48 出海创业者是否需要到美国去？
-* 01:38:01 快问快答
-【相关推荐】
-公众号：Renee 创业随笔
-播客中提及的文章：创业的耐心、悲观的乐观主义者、Founder Mode
-Renee 提及的书籍：《闪电式扩张》、《Four Thousand Weeks》、《弗兰克尔自传》
-【Staff】
-监制：加分、Stone
-后期：Keyone Studio
-【关于真格】
-《此话当真》是一档由真格基金出品的泛商业类播客，真格基金投资团队将在此和各领域的领军人物一起分享最新热点和行业洞察。
-真格基金创立于 2011 年，是国内最早的天使投资机构之一。自创立伊始，真格基金一直积极在人工智能、芯片与半导体、机器人与硬件、医疗健康、企业服务、新能源、跨境出海、消费生活等领域寻找最优秀的创业团队和引领时代的投资机会。
-真格，你的创业第一站!
-【联系我们】
-公众号:真格基金（ID:zhenfund）
-官网链接：www.zhenfund.com
-邮箱：media@zhenfund.com
-你可以通过小宇宙、苹果Podcast、喜马拉雅收听我们。
-如对节目有任何的建议与期待，也欢迎大家在留言中互动~</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我是觉得最主要的其实还是公司找到公司的一个势能，然后这个势能是能够有很好的，就是叫顶天立地。你顶天你网上网上能讲故事，像google对吧？立即你就有个印钞机，比如像google，然后头条也是。但是像我们现在的公司其实比较难顶天，就还没有找到那个能顶天的点。但至少先把脚踏实地先把地给立上，因为这个是我们能控的。然后能不能找到一个更大的故事，我觉得肯会找到的。我见的所有公司，只要是CEO亲自抓的不见得好啊，但CEO不抓的一定不好不好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们总是觉得其实苦难能成就人，其实苦难根本就不会成就人。就是没有任何苦难能成就人，苦难是没有办法去解决的，只能超越。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>欢迎大家收听此话当真。真格基金投资团队将在此和各领域的领军人物一起分享最新热点和行业洞察。真格你的创业第一站，我是真格基金投资副总裁Monica。本期节目的嘉宾reve，王小雨跟我们之前邀请的嘉宾有一些不一样。他2016年就离开google开始创业，推出了最早的博客平台之一cos box，注册用户曾一度达到3000万，位列第三方播客产品榜首。真格基金也是小雨创业最早的天使投资人。今天小雨的公司已经在八年后发展成一个有着五十多款产品和全球五千多万月活的APP工厂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而今天我们想要邀请他来，是因为我们看到了在AI的浪潮中，小雨如何通过自身快速的学习，不仅很快上线了数款AI native的产品，更是将最新的AI技术非常快的融入到各个产品的工作流中，甚至实现了组织和人才的整体进化。过去这么多年打造海内外产品的心得，在AI的时代有着怎样的变与不变？我想听众中的很多创业者对于如何带领自己的组织实现AI进化的过程，小雨也给我们分享了很多一线实战的心得。在这个过程中你也能感受到这位真性情的女性创业者自我蜕变。我们聊得很开心，也希望你听的有收获有尽兴。对你还不那么熟悉的这个听众，可以简单介绍一下你自己。尤其是当时怎么开始创业的，现在这个grow network主要是做什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我自己其实是15年回的国，我之前是在日本谷歌，然后当时是在那边工作。后来15年就是大众创新万众创业就回国了。然后16年年初成立的这家公司，然后也很快。其实当时拿到真格投资也是比较偶然。其实我是参加一个真格的活动，然后当时也是很快的就做了个决定，那个时候就拿到了真格的TS就是创业开始走上了正轨。我本人其实以前本科是学心理学的，本科是北大心理系，而且我是化学竞赛保送的北大。我还不是高考，所以我高中前只会化学。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以化学竞赛保送你学了心理，后来你又转了工程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>后来其实没有转，我是双学位学了个数学，但是大三开始就自学了，是编写写代码。是当时其实是有一个前男友有然后让我帮他写的，他是计算机系的。他让我帮他交一个计算机系的作业，是用VB然后我就花了一晚上，从不会到给他写出了一个类似于其实他给我了一张他和当时的女友现在的老婆的一张照片，是让我帮她拼图，就做他和他当时的现女友的合照的拼图。但他要把那个作为作业提交，然后我就发现就在这过程中，我发现我还挺会写代码的，但那是我第一次正经的写一个项目。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以大家要珍惜。其实每个前任其实对于你来说说不定都是一笔意外的财富。即使最后没有在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得通过这件事我就发现写代码很好玩，然后我也就挺感兴趣的。后来就开始就开始真正的认真的学。其实后来有学java，还有当时学那个graphic，就是应该叫什么open j，反正一个图形界面的东西。后来大三就开始接接一些外面的项目。当时做图，我最开始做photoshop，然后还接过3D项目，后来就做网页，做flash，再后来就写安卓了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我从09年10年我就开始写安卓，就当时做安卓开发。后来其实还有在那个友盟创新工厂做工程师，就是做安卓。后来去了google就是做偏商务。所以说其实在1 1516年创业之前，基本上大概已经有一些这种研发的一些经验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你必毕业的时候就是去了友盟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是我是一毕业先在一家传统行业做了一年的销售，这就是走了很多弯路。我大学的时候是有一点点抑郁症，所以我就一直没有办法特别努力的去对生活提起兴趣。所以我大学的期间就没有找工作，就是没有像正常人一样，大三大四就开始实习找工作。当时大三大四不是接一些活，然后正好有一个给我做网站的活的老板说，我们这儿也有销售值，要不你过来做个销售。但其实我的peers都是大专生，一个是电话销售的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但你也不介意。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我那个时候好像对职业发展没有特别大的那种特别大的这种ambitious，就是那种特别大的这种野心。对对对，但anyway后来就是正常了，就开始说我要开始回归正轨，就做正常的职业规划。然后后来就去了友盟做工程师，再后来就到了google，在北京，在google这四年就学会了很多如何出海，然后如何做APP，做预运营推广变现这样的一系列的这些偏商务上的一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个时候其实整个google也才在中国还很早说相信你应该接触的那个时候应该是移动互联网刚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>起来最早的那一波。对我当时在那个组叫OPG，其实是以前是做add sense的。我相当于是整个我们全球上第一个做mobile的，就是做移动的。我那时候叫ad mob，我们都是做变现。但我算是第一个dedicate的，就是百分之百做移动的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得有的时候就是趋势比人强。其实是那个时候找我的时候就是想找一个人专门做移动，然后我也表现了很强的欲望。因为我当时说09年开始我就自己做安卓开发了。对，也在这方面有积累。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你去过的时候，你是先以工程师什么精神？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是当时进来就是商务了，面试的岗位就是商务。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你当时自己就想要做什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为当时在友盟那时候就觉得我的工程师水平肯定很差，因为毕竟基础差，然后自学的肯定还是不太成体系。但我觉得你构建一个商务，从研发产品，然后市场，然后运营其实都很重要。我觉得我需要那个business那边的一些基本常识，我觉得我当时是没有商业常识的，所以就去到那个商业那边了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也没有商业常识，但是google high了，你去做商业对不对？因为我觉得你是什么打动了google。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我觉得那时候还挺感激在google的一个当时招聘我的人。其实我是在google被拒过一次，然后我算是第二次补漏进去了，中间还有一个算什么的party manager帮我写了非常多的素材。因为他觉得我是一个有学习能力的人，真的很感激他。第一次被拒了，后来又有一个更株尼的岗补录，然后就是刚才说的，有个面试官可能在面试中看到了我积极学习的这种潜力，就捡漏进去了。所以是这么一个比较艰辛进的。而且我当时为了面google我是辞职。我是有八个月没有工作，就借住在北大的那个宿舍，我就是研究生宿舍。我这天现在水房晃悠，就问他们谁师兄师姐又在google实习。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后因为他每一次一个名字半年之内只能提交一次申请，我就每次换个英文名提交申请，每次只申一个岗位，原则上可以申三个。但我为了让我的这个简历去更match这地，我就会稍微做一些顺序的调整，肯定不会说做假，但是就会highlight一些他所需要的这个需求。所以我每次就换个英文名，换个电话号码，换个邮箱，就重新提一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我发现你真的是对于自己想要的这个事情，可以其实可以为他非常心无旁骛的付出。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>直到正好在0几年，也作为一个工程梦想的人，就是说engineer你觉得能进google就是很重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，皇就是感觉就是皇冠上的。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>十几年前的事儿。但是当时其实我就拿了所有别的公司的offer，什么百度的、微博的。但我就是拿一个聚一个就等就一直在等我。这是真爱全都是备胎。对对对，都是千斤顶拍手用的对对，所以anyway，反正最后拿到了也是我觉得运气和努力的一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你真的是真的是努力，真的是努力。所以你在google主要做的事情是帮助当时这些开发者去出海。所以在这个过程中，其实你是得要非常了解google的这一套体系，然后它这个变现广告等等。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为我在google，我在北京和日本是帮中国开发者。其实是大中华区，包括台湾和香港地区就帮大中华区出海。然后我在欧洲是管一面就是中东、北非，还有欧洲的开发者，帮助他们在全球市场去变现。我觉得那时候在google确实学得比较认真。我那时候在google就每天都加班，然后在欧洲你知道欧洲人是不加班的。对我就每次五点多跟大家一起下班，然后等人走的差不多了，再悄悄的溜回公司，就感觉偷感很强，就是为了再加会儿班。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后那个时候也会要很多数据权限，因为原则上sales是不给权限的。然后我就花很大的力气，但我也有理由了，因为我那个时候算为数不多的做mobile的人，就没有BI支持我们。我就说我因为要这些business opportunity，然后还要了一个很高的权限。我有很长时间我比我们的BI权限还高。就是有的数据报表，然后就自己跑SQL，然后找developer的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我记得我走的时候，我在AT我是全球平均的AM的七倍，就我的revenue contribution。但是我们的AT，它每个国家或者每个地区会有一两个人，反正还是挺努力的，而且在那个过程中确实学会了很多。然后也知道说在不同地区不同国家该怎么运营游戏，或者它的用户需求是什么样子，以及不同国家的这些developer它长什么样，就很有感觉。我的竞争对手，我也清楚他们的目标市场。我觉得在google这段时间也摸了很多，所以也为后面创业打了一些基础。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以当时是什么样的契机，听起来你在google发展的也如日中天，而且当时正好也是整个行业的红利期。对，怎么就想到自己出来创业。但顺便也可以正好介绍一下这个的现在做的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当时主要就是因为我我手上管的开发者，你会觉得他们都做的还挺好的。然后你就觉得这里面机会也很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有印象当时赚钱赚的最多的开发者是做什么的都有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就比如说那时候管的开发者，比如那时候头条就是我都到一二年上映，是不是早知道就加入头条了。然后猎豹那个时候就是很多开发者了，其实还有很多水下的开发者，就大家不知道的。但其实很多水下开发者都就是做的很好，做游戏的，做应用的，就都有。反正主要是是主要基本上都是基于google play的，或者基于apple store的这些移动开发者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当时反正第一是觉得确实机会很多。第二就是当时确实有一些犹豫了，说我是留在google，因为我的留在google账号，就我们当时manager他换到别的team了，他跟我说那个manager的岗位我是可以去升一下，因为在google其实这种坑比较少。对，还有一些这种机会。第二，也有一些去其他的大公司的机会，然后也有加入其他创业团队的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当时就是觉得，因为我那个时候的男朋友其实是个教授，是在大学教心理学的，他也还蛮有意思的。然后我就咨询他，我说你觉得我去哪个选择？他说其实你去哪个选择，你都没有一个平行宇宙可以验证，其他选择更好。而且就算你说你选了觉得我两年以后觉得这个选择很差。但你过五年以后，过十年以后，你再回过头来看，可能又看法又不一样。他说所以你真的不用去特别计较得失，你就觉得这里面的每个选择能让你觉得最兴奋，或者你觉得你最有意就让你感受最好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得他还是挺有智慧的一个对，这个前面有能说，对对对，我就觉得他说的挺好。我就后来想了想，我觉得可能还是创业让我最兴奋。然后我就说我就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>选择是因为当时你在那个平台上见到了这么多创业者，所以让你有这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这肯定是一个激励。因为你能看到一些row model，或者一些好的做法，然后你也有一些know how，你也觉得自己也可以做，我觉得它是个多方面的，因为其实看到这些开发者的人也很多，对吧，然后也不是说所有人都出来，我觉得这就是各方面的一个综合考虑。我觉得自己出来，其实出来之后先做的cast box，其实先不做卡司，先是做很多其他的产品都失败了，就做一个失败一个，做一个失败一个，就失败了好多好多个。直到做cos boss的时候，当时其实cos box就是我花三天时间改的。给介绍一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>cosine x是做coast box.</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实是一个podcast的一个APP。我记得我们当时是去看罗永浩的跨年演讲，然后朋友就说说你看苹果有官方的podcast，google没有，你可以做。因为他也知道我在找方向，然后我就是大概元旦的2016年的1月1号开始做用了三天的时间，然后做了一个demo，然后四号就上线了。很快那个产品就量还不错，然后用户时长各方面还可以。那时候其实我们还已经有公司合伙人了，我们合伙人还在做别的APP，因为我们当时都在几个方向一起看，后来我们这个方向我先做起来，然后大家就慢慢把精力都放在cast box上了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概前几年很顺，1617年就是融资也很顺，公司发展也顺。而且那几年我觉得大家也愿意加入创业公司。后来到18年会遇到很大的瓶颈，那时候spotify就开始重金去进入podcast了。然后他们每年会花10亿美金的级别的预算去买内容。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我记得他们对买了很多，当时在就rogan这种，对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还买了很多network。他们然后wondering那些当时对美国比较有名的，后来都被买了。第二就是google那时候也出了他的官方podcast，然后它那个非常小，就只有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一段时间关了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他关了用户又来回来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实我这里可以插一句，我看了一下，我不知道这个数字是什么时候数字也是我在网上看到的，是说cos box当时是一度把这个覆盖了全球175个国家，月活用户超过了3000万。所以在podcast即使现在我觉得在国外。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是应该是下载3000万下载3000万的下载3000万月活一直一直是在500万左右。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以这个其实在在整个播客的这个领域里边算是比较。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实是这样的，你在第三方里面肯定算是最大的，但是跟苹果和modify比是比不过的。因为我们的用户其实华人比较少，主要还是英语用户。但你其实看那些英语节目都能看到你的播放器是谁。基本上我们肯定是排在spot 5和苹果之后，那个时候能排到前三，但后来就遇到很大的冲击，就比如像招rogan一下子一亿美金，一年就签独家签给spotify了，反正遇到很大的瓶颈。其实这是一个我觉得任何事情它都是一个多面的因素。然后再加上18年下半年其实融资也很难，就是从18年中旬开始。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前你们融了多少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前一直融到B轮，这21年又融了个C轮，然后一下子融资也变得很艰难。Podcast本身其实又离钱比较远，因为poly guas大家想当然就觉得它是免费的。因为苹果就是免费的，所以它变现有比较艰难，然后增长又遇到瓶颈，然后你融资又融不到，所以那个时候就会遇到比较大的困。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以那个时候大概公司有多少人，然后你们看当时开始做商业化了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那时候六十多个人那时候做商业化，但是就是很难，因为大多数听port cast的时间都是不看屏幕的。对你就只能说但你要插广告又很音频广告又很打扰用户，是然后付费的话，用户又没有付费习惯。对对对，所以就是一个比较深有感触，对，道出了很多podcast的心声。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，直到现在仍然如此。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以就是有困难，所以18年就想该怎么办。然后第一次矩阵产品做成功的，是当时做了款游戏数独。那个游戏第一个版本就是用户的时长，就是每天使用时长就四五十分钟了。你四五十分钟你就算放一些差评，你就算十分钟放一个差评，你也能有四个差评的钱。对，所以就是一下子那一款产品很快就收入超过了coast box，但那个产品其实最开始就三个人做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就盯这个游戏。然后后来做了大概小半年，我们这个合伙人天天在半夜看数据，看到凌晨三点就想说我到底买哪个点才能把这个用户买正，就是做一些运营上的一些调试。然后又过了大概几个月，这产品就做正了。然后刚才说没过多久就超过cos box的收入了。但其实那个时候只有一个人，而且他是一个人顶住了很多的压力，包括他自己也不确定这事儿能不能做成。但anyway我们就不断的在在应用和更多的游戏上去做这种矩阵式的打法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我们到今天为止，其实立项做了七十多个产品。现在还survive的，还在线上的，已经比较成熟或者是还在迭代的大概有五十多款。上次见你其实还是49款，然后这次就是最近两周有2个APP上线。我这个思路觉得就是现在就相当于是产品线，就是这种多产品线。然后有AI的产品，有游戏的产品，有工具的产品，有社交的产品，就这么一直往前推，大概是这么一个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在可以跟大家简单说一说现在的公司状况。比如说公司有多少人，我想这个非常少见的。你们现在已经是一个自己有利润的公司了。在这么多的产品线，我好奇这个收入利润大概是一个怎么样的分布情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们其实团队人很少，只有一百多人，我们也不想人太多，我们宁愿人少一点，把美不做扎实一点，少一些人和人之间的这种组织的内耗。但是产品线我们最开始大多数人其实是在中台，他们是做一些共用的东西。比如说前端的模板，UI的交互的模板，比如说买量变现，包括ASO user support还有后端，这些其实都是在中台。就大多数人都是在我们的中台部门。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实项目组很少，可能两三个人先做一个产品，等这产品做了半年，然后他已经比较mature，然后开始赚钱了。这两三个人的团队可能会变成四五个人的团队，他们在做一款新的，但是老产品他们还在维护，然后新产品再做个半年一年，等新产品再做成功了之后，他们再做第三款。但是因为我们现在挑的产品基本上还是属于生命周期比较长的。这也是跟我们选择的市场有关系。我们大多数还是选择欧美发达，就英美澳加日韩这些发达国家。所以他们对于产品本用户可能会走，但是这种产品的理念或者对于他们对产品的选则不会太新鲜，太太容易说过时，所以这个产品就可能能赚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如像我们2020年的产品，到今天已经五年了，现在每年可能收入还在增长。那sport就更早了，他只是每年的收入还是比较稳定在增长的。或者有的时候可能有短暂的一些市场竞争的原因，或者说有一些其他的一些外部原因，它可能会有一些萎缩，但是可能又有一段时间他又起来。所以它整体上每个产品我们觉得至少能赚个10年到20年的钱。这是我们追求的一个成功的产品的一个最后的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这说是利润还是？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，主要是考虑利润。因为你要只有收入没有利润，那这个就不能算个赚钱的产业。对对对，这个亏钱的产业。对，所以我们会希望能够有一个更多可持续发展的这么一个前提。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，那如果回顾起来，因为我觉得cos boss现在虽然说像你说的经历了这一些起起伏伏，但现在已经是一个五十多个产品，然后又比较好的这个信息了解，不断的有新的产品出来的一个状态。你会给现在状态打多少分？你觉得过去，你觉得至少让公司能够到现在状态，你觉得比较重要的几个决策是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我个人就现在就60分及格，就是还活着，很谦虚。你要是死了，那感觉就不及格，对吧？我觉得核心的能到现在还能活着的，就是还能及格的。我觉得最核心的原因就是首先我们就有几个合伙人确实很不错。我是真的觉得现在就只有60分。因为其实我觉得我们还有好多其实没有做的特别好的。就现在只是说我们在各方面没有特别大的短板，导致说现在还在这市场上。但是我觉得其实各方面真的都是可以有很大的空间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他回过头来就回答说，为什么什么东西能在这儿？是因为就有几个合伙人，他们真的是挺厉害的，我特别运气的就是我们公司的几个合伙人都是以前做过CEO。连我们的HR的负责人，包括我现在是助理，还有我们的COO，还有以前的CTO现在的CEO，包括现在CTO以前都是自己作为一号位创过业的。所以我觉得他们的整个状态确实是我觉得跟完全没有做过一号位的是不一样的我觉得他们对于这种危机意识，然后他们的谦卑，然后他们的对事情的思考，确实深刻了很多。因为他们挣扎过，所以我觉得他们也在这过程中，我觉得确实是帮着公司走到了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我记得你之前的一个访谈里面说，你当时决定要创业的时候，是没人、没钱、没方向。就像你说的，很多也就是自己在那coding出来的那你是怎么找到这样的一个团队？我想给很多听众里边可能对正在寻找团队，正在思考创业的同学可能也会有一些帮助。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如我们现在这个其实他现在是扣CEO，最开始是CT后来我发现觉得人家比我厉害。我说那咱俩这样扣CEO，你主扣我不扣他，最开始他说他很早前就认识我。因为我以前在youtube上还教人安卓开发，然后当时我就会把一些安卓开发的一些方式传到那个stack overflow上。然后他说他通过那个网站知道的我。但后来反正也是朋友介绍了，然后我们就在一起就是说创业，还有一些其他的朋友是他拉过来的，还有一些就是在过程中就不断的去各种拉人过来，我觉得是这样，就从我内心，我是真的很尊重他们，而且我是真心希望他们在这儿能多赚点钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时他们加入的时候，你们公司在什么状态？你是怎么说服他们？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得也赶上那几年，其实整体上大家对于创业是比较友好的那时候大家都是想创业，这厉害人都是1617，包括18这3年加入进来的。他们那个时候就是整个社会的氛围。他就是大家觉得，我要创业，然后is自己创或者加入一个。大家只是觉得加入一个可能更有保障一点，因为大家会一起努力。其实我觉得是运气的成分更大一点，但是我觉得我们努力的成分是至少没让他们走。就是在这过程中，我觉得我也有很多改变了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我注意到你们其实整个团队，包括新加坡、中国、美国都有。一开始团队在哪？跨国的这个团队是怎么样形成的？然后你怎么去思考这个分工和协作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们是这样子，我们主要是BD是在美国和英国。因为我们还有看到还有很多媒体客户主要在分布在美国和欧洲。然后研发的话就是北京、武汉、成都，还有像日本。这些国家主要是因为比如说比如像日本其实现在成本很低的，就是日本其实现在成绩分比上海低。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但日本会不会年轻人不大愿意加入创业公司？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以从外面找人过去，因为日本很多人还是喜欢去日本的，我们现在日本的研发就是从美国找回来的，然后成都就是美术人才多，然后北京就清北这些，他们这些素质高的学生比较多。就是我觉得还是利用各地的优势，然后我们把它用好，然后尽量让每个地区之间尽量让他们交流少一点，共同合作的需求少一点，也要有交流，但不是说他们的就尽量是选一些相对独立的这些，所以一个项目就放在一个地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，现在公司设计就有点也像这个中台的感觉，而不是说某某一个团队他就对对哪个团队就在哪一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但比如说像UA那就都在成都，就不会说UA我们北京有一个，成都有一个，那不会都在一个地区。我看你问题里面也有一个关于开放式和独裁。其实我是觉得开放的反义词还不是独裁者。开放其实是一些比较固步自封是封闭。但是独裁其实还另外一个故事，因为我今天早上来的路上还在看那个LBNB的CEO。最近有个采访，就是有一个分享叫叫founders mode.</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近非常火一篇文章。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，我今天早上录人还在看。确实是我觉得作为CEO也好，核心创始人也好，一定要抓细节。就是你很难说我把这事儿交给别人。然后不管是公司多大规模，比如说像英伟达，其实老黄都是抓细节的。你看之前小米来发布会，他还飞过来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>几十个directly。对我记得我当时我前段时间听雷军跟李翔的一个访谈，然后真的让我对雷军非常的路转粉，就3个小时访谈。就是你能感觉到，首先他是真心热爱坐车这个事情，他是真心很热爱这个。然后他说他还专门到他们车有一个就是我忘了那个词了，意思就是要在那种冰天雪地里面做测试。然后他作为这个CEO是专门他自己亲自跑去做测试。然后那些做测试人都说从来没有见有哪个车的车上的这个CEO自己来看他们做事，然后他就在那儿跟他们一起。吃盒饭，一起跟他们在冰天雪地里面去去测试。是那那篇文章我们也会放在这个show notes里面，是那个program，就是YC的方面学习一下。对对对，它其实就是讲的这个manager mode，我觉得现在整个硅谷都在传这篇文章，这个就有点像当时我记得几年前也有一段时间硅谷在讨论是否要founder friendly我觉得接下来的可能都会有一个这样的趋势，这样的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我就觉得你要是我见的所有公司，只要是CEO亲自抓的不见得好啊，但CEO不抓了一定不好不好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它是个必选项，但它应该是个必要非充分条件。对，但是我觉得开放性这个我觉得还挺重要的。就是我觉得之前我没有办法，前几年我其实没有办法appreciate这些很很好的这些我的这些合伙人的他们的价值观。我觉得随着我的这个创业慢慢越来越成熟，我会真的觉得他们身上有很多厉害的地方。然后我会在他们擅长的地方或者他们厉害的地方多听他们的想法。可能具体到业务，我们还是要很细节的管。但是我觉得就是他们擅长的东西，我觉得我还是挺真的觉得你把他们的价值发挥到最大，其实公司就至少死不了。但是能不能说活得更好，其实还有很多其他的因素了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我好奇比如说有哪一些是你觉得你原来会特别需要自己做，然后现在有哪些事情你是觉得其实可以的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说像你问的这个AI这个事情，我们怎么在团队内部去推？我曾经跟欧洲的开发者交流也很多。然后我会发现，因为我们跟我们的欧洲的竞品比，我们的AI确实用的是更多的，比例更高的。然后我就在想，比如当时我们AI为什么在我们的公司内部去推广开呢？其实是我有这个意愿，但不是我的这个影响是当时我们的HR负责人，我个人觉得他很厉害。我现在自己每天也在他身上学到很多，他就是办了一个活动，然后这个活动他就通过一个比赛，通过复赛，大家怎么去改进我，怎么去提交一个用个AI轮子公司内部对公司内部的比赛。然后我们的半决赛还请了你们争一战的同学去打分，决赛的时候我还请了很多硅谷的一些投资人帮我们去打分，去review。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个活动之后和之前，我觉得第一是整个workflow确实有了很大的变化。比如我们之前有一个图，那天那论坛没讲，是另外一个新的游戏叫art puzzle。它就是以前一个小地图上，然后你不断的给它装修，然后那里面的很多物件以前是要人工画，然后有了AI之后就都是AI去画。它就基本上把workflow重新改了，就是人围绕在AI为主线的workflow上来做补充，而不是说AI给人来做补充了。这就是那个活动之后的一个变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后通过那活动又identify一些我们一些小朋友，他们原来就很关注AI但原来是自己花钱掏腰包去那个auto DL上买时间去训模型。现在有了这次比赛，我们注意到这些人，我们公司买了很多GPU。因为那个时候3090409没那么难买，因为我们也不要训练大模型，所以不需要H100。但是我们那个时候就是为他们搭建了一些环境，让他们的工作更有效率。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这个在系统动力学里面，其实是所谓的用的叫更高的杠杆点就比如我天天跟你说，你要学AI明天我跟他说你要学AI这个其实是参考点或者说是一个一个元素。这个在系统动力学里面是非常低的杠杆点，就是非常没有效能的。但是你改变目标，改变规则对吧？然后你引用新的范式，这个是更高的系统的，就能够改变系统的叫leverage point。所以我觉得他的那个合伙人，他就是用一个更高级的这种杠杆点，去让我们的团队更主动的去拥抱这件事情。然后那之后其实我们就开始已经进入到一个正循环了。然后这时候就有一个叫增强循环。所以慢慢大家就用的越来越多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们从开始那个时候是什么时候？就是你们开始关注。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI去去年去年的Q2。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那从那时候开始，然后到现在你说有你们也做了很多。那天你也在我们的讨论中，你也分享了，可以跟这个听众朋友分享几个。就是等到现在，到底给你们带来了怎么样的去改变？你们真正在不论是workforce好还是产品中有哪些例子可以给大家分享一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我们是这样子，我脑子有个结构图，其实AI对我们两块改变，一个是air productivity，还有一个是n native。Productivity这边其实又分为从权限流程。比如说从生产环节，生产环节最简单的那就是AI写代码，AI写dark dog，或者是AI帮你加一些注释。因为我们的项目很多，你可以用一些代用AI先把一些老的代码先加上注释，让它更容易被理解。然后这样子你比如说你去维护姥姥的产品的时候，你的那个成本就会降很低。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那在生产的过程中，还会用到的最大的就是出图。出图这边其实整体上有自己训练loa，然后也有自己训练check point的。然后批量出图之后再从中筛选。比如说像我之前那次分享的，像那个stanford的那个叫lier diffuser，它是一篇paper，他就说可以出背景是透明的图。以前没这个paper之前，我们就是人口图。有了这个paper就直接出没有背景的PNG的这些图，那就又把workflow又又做了一些优化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们还有一个产品叫找不同。以前是用stable diffusion的web UI来做，那个difference就有点慢，或者是出图吧就有点慢。然后后来有一个叫focus，就FCUS，它就会让出图更可控。包括现在不是有这个flax，我们也在看说flax是能不能用在我们的生产中，就是在整个生产环节，那是不管是写代码还是出图这边都是比较有效的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在运营发布这边，最常见的就是做localization。我们以前所有的产品都是支持所有语言的。刚才你刚说170多个家，我们是所有产品都支持这么多国家。以前我们是找了大量的叫wonder，还有一些志愿者帮我们翻译。有了AI之后，我们会自己内部写了个CMS，就把这个东西传到各个探员模型，让他们都改改完之后让他们彼此在评审，然后最后出一个好的。但是对于我们的ASO的团队是很简单的，他只要用CMS传一下，然后背后就是就大语言模型之间的PK了。然后包括我们把用户的反馈收集回来，用大眼模型做分析。再比如说整个发布过程中，基本上的所有的出图，还有所有的这些细节，就是不管是大语言模型还是多模态模型来做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这个是生产，然后一个发布，最后还有一个推广。其实现在promotion就推广环节其实用AI用的是最多的。其实黑键典型就是帮助推广环节。对，然后嗯因为推广是这样子，你不管是生产还是发布，它对质量的要求都是比较高的，他的品控都是比较高的。但是推广不一样，推广最主要的是多，然后要花样新。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说是生成这个用于推广的素材。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，所以它对素材的内容质量相对来说，对你用在产品的这些内容对表性ISS比起来，其实推广的素材是要求很低的。有了AI之后，我们现在每天生产的图片是大概全产能是去年同期的十倍。然后视频也挺多的，而且他能什么换口型，然后AI translate对吧？数字人，我觉得整个这个推广环节，其实是AI是有非常大的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你说因为推广环节它对质量是不够，所以你们看到其实用AI生成的这些，就它的效果它的效果其实比起以前的这种做，其实没有大的差。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这样子，肯定还是人做的会更好。比如你找个真人录肯定是更好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但如果说是最后这个广告，因为你是广告最后实际落地的这个效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你东西多了，你可以在一堆里面去筛。而且其实刚才说的你可以不用AI全流程，你可以copilot。比如说你找一个真人录一下。然后其中比如说西班牙语换英语的时候，因为他的人种长得差不多，你就用那个leap sink稍微改一改。对，所以最后其实如果是这样的素材的效果，AI生成的有差，但是推广的结果来讲那是更好的。因为它的量起来了，相当于以前你让一个人说的英语，再说个西班牙语，你没有办法，所以你西班牙语是用英语的那些人说话，然后配了西班牙字幕，你现在就把他说的话也变成西班牙语了，那你其实就有很大的效果的提高？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那做了这些改变，就你们在他给你们最后带来的影响是什么呢？我记得上次你是分享了一个你们好像做地图，你们的这个效率的问题。最后你是看到说是我还是同样的人，同样的这个团。对，但是我的效率提升了，收入增加了。还是说因此而去减少了团队人数，或者重构一些团队。这个带来怎样的影响？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这样子，没有到重构团队，但是肯定会重构每个人的工作的内容。因为AI在迭代，你每次出一个新的东西，你可能原来的他的工作流程就会有一些改变。但人可能不会说马上裁掉，还是说他们还是会用这些AI。他以前的工作流程是用来抠图，现在他用来挑图。对，所以就是我觉得人的那个工作内容有重构。但是人的这个团队可能基本上还是因为当时的每个项目组相对是比较固定的，他还是这些人。从我们的实际的体验来讲，就去年我们用了AI，从3月4月开始用到去年年底，是我们历史以来增长最快的这九个月。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你说收入收入。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对收入和用户，包括利润，因为你就是能看到它每个月month over month都是有一个比较不错的增长的对在这个过程中，我是觉得有很多的就是你就人就可以有很多的时间腾出来去做一些其他的更有价值的事儿，或者说更有一些Y6的事情。像以前你要是自己管那么多wonder，你光跟他们联系，确定他们有没有翻译，然后他们中间这个来回来去哪儿翻译的不好。这沟通其实需要很多的时间，现在他们就可以拿这时间去做新的产品。可能我们产品线多了，但是其实整个ASO组没有扩展太多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你前面讲的这个非常轻松，我们看到一个新的技术，然后我们就用上了。其实我想真正做起，大家都知道，首先原来这个团队人也不是天天去看paper的这么一群人，对吧？你是这样的一个文化，这样的一种工作习惯，它是怎么产生的？你是怎么去在公司里面去推广这样的一种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先是这样，如果我们只看出图这个领域，其实很多厉害的人，他也不是说看看paper，他是有很多出图的社区的对，就是这一些社区，因为一旦比如我刚刚说的，其实你哪怕你不去看stanford的那个paper这个东西，它也会很快在github上有一个开源。然后它会作为s on那个插件嵌入到stable diffusion的那个web UI里面。这些我会发现我们很多他们的这些主要的关注是来自于他们的社区。就我们那些做的好的这些人，他们其实在这过程中他就是有正反馈，找个新东西，然后发现用了，发现就好了。然后他们就会不断的在社区里面找新的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这个还是你们原来那一群designer，但是你们去鼓励他们去去开始去学习这个是是是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我们会在这过程中，其实先是把他们发现发掘出来。如果以前没有一些内部的一些比赛、活动，那这些人他就隐藏在水下了。其实很多小孩儿，尤其现在以后，他至少跟我们都挺爱的，他们就不太经常表达自己。所以你要是没有一些触发催更，对你是很难找到他们的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个也挺像那方的某那篇文章里面，他其实举一个例子，就是说那个Steve jobs其实他会定期的带一群他觉得对公司有影响力的人去offside。但这个是跟层级完全没有关系的，这个就是最直接的founding的一个。他就是如果说你的founder都不能够跨级去发现好的人才的话，这个怎么能够叫fend more？是的，我觉得尤其在一个公司需要面临这样的转型的时候。其实这个时候正好就是你需要打破原来所有的这个level，去重新去可以说就是V就是V发送的这个人才。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对。所以你会发现任何技术early doctor可能都有5%的人。如果你公司有100个人，对吧？你差不多肯定公司有五六个或者四五个就是对这个新技术比别人可能关注的更多，或者更敏感的。但是你先把这五个人给找出来，你先不能说我现在默认我这是100个，我运气太差。这100个人里面一个都没有，这个就基本上不太现实。但你找出来之后，你给他们去赋能，然后你就说那你能不能带着小组做一个这project，你把它做起来，这个其实还是挺重要的。但有的时候我们自己也要学了学了之后我们也会把一些我们见到的一些有意思的项目发到一些群里面，然后他们也会给我们一些反馈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且我在想说，就是你前面提到他既然对整个生产运营的这个workflow，其实工作流程都发生了这个变化。那也有一些跟不上的人，或者说一些本来资历比他们深的人。可能这个时候大家一方面你要改变工作习惯，另外一方面你还要改变原来的可能公司内部的这个层级。我好奇在这个过程中你有遇到什么挑战吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实就是小公司的优势。这话不是我说王慧文说就是管理是反规模的。就是你发现一旦这个公司的管理的人多了，你会发现它效率就会低。就像你说的，他改变起来就会很难。对，就不以个人意志为转移。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，但其实因为我们公司人很小，而且刚才说的每个组其实人都很少。我觉得其实挺像之前跟美国有一个newsletter，他采访了perplexity COO好像是一个他的也算是他的一个cofounder。他就提到其实未来的组织就会很像那个黏军，就是一个个小细胞，然后大家非常有效的工作在一起。比如说公司太大，比如假设我现在想如果我们是个1000人我觉得真的是很难改变。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我们现在组织结构，就刚才我说他中台虽然人很多，但中台其实也是一个小的年均每个组织就每个项目的BU其实他人也不多，对他来说他就追求效率，因为他所需要改变的无非就三四个人。因为他自己已经变了，他总有个好朋友对吧？所以除了他俩之外，可能还再有五个人。然后其中有一个比较好说话就不用管他。然后你改变了三四个，然后最后一个就自然而然他就进到这个组织了。所以我真的还挺期待未来有了AI之后，因为它你可以理解人类就是个CPU，一堆堆AI就是GPU它帮你做并行运算，就是你需要的人就越来越少。之前有一个诺贝尔得奖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>经济学家不是讲你觉得人只是CPU。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>吗？就是你你负责指挥。我的意思就是你跟的工作，你看就是说他就讲那个internal transaction cost和external transaction cost。就说为什么有的时候你一个公司足够大，它会有很多wonder？是因为它的公司规模越来越大，它的内部的这种叫transaction cost越来越高的时候，它就必须有外部的对，但反过来，你如果都是外部的，它也会很高。就正常情况下他就最后达到一个平衡了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>戴雨森好像有一次在你们的节目里就提到，他就说以后公司可能会无限大，或者是无限小，对吧？就是无限大的。因为他这个internal transaction很低，他就很很smooth的构图，内部沟通也可能很小，是因为EXO transactions也很低，对他来说就是打破这个边界了。我们在过去这一年adobe AI这个过程中，我就真的能感觉到说有了AI它就是能让小团队内部的交流变得更有效率。而且他们可能对他来说，他愿意加AI不见得是去加人对吧？他可能买更多的AI看就是AI的各种账号对吧？就verses.</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>加个人就相当于你扩张这个组织能力的这个边界成本其实变低了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，而且所以就回答你说怎么能够改变，就只要你团队小，你就都好掉头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个鲶鱼只要找那么两三个鲶鱼，你就可以把整个对激活起来。但如果你组织太大的话，听众里边我相信也有各个所在企业的个size可能也不一样。比如说我有见过一家公司，他们其实原来的业务也做了几个亿人民币的这个收入。他们做的也是跟原来是跟NLP相关的那其实他们自己的这个RND的团队可能就5 66 70人。那你想基于原来这种NLP，然后加上一些模板什么这种方式，他们其实达到一个不错的效果。那这个时候如果你跟他说，我要把这个项目技术这样换了，那可能我真的就不需要这么多人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在一个稍微有规模的公司里边，其实大家这个就变成说，比如说我是这个VP engineering，我是CTO，我如果用了这个，似乎我里边的很多，我觉得对于有一些组织来说，这个是一个阻力。就是我应该卖给谁谁有动力来去用这样的一个东西。那如果我需要的人少了，那是不是意味着其实我的地方，因为我觉得现在很多组织还是按照你的人头，你的high on来去展现你的这个重要性。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这是特别好的问题。因为我也就是说做矩阵verses把一个产品做大，就是我先回答那个大问题，然后最后再回过头来就讲你说的这个就是原来这人员首先你能不能把一个产品做大，它有的时候不是个意愿问题，它其实是个能力和时机问题，就是你有没有能力把这个产品做大。现在是不是这个时机？它这种产品就是有一个把这种产品做大的机会。从医院上我们都希望把每个产品都做得很大。但是如果现在没有能力或者没有这个时机的时候，我们至少比如先做矩阵式打法，我觉得有一个好处就回答你刚才那个点。就是说做矩阵式打法的好处是我们现在是非常市场追问的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是整个公司是一个以用户为导向，或者以市场为导向，以这个revenue为导向的这么一个内部的一种文化。如果是以市场为导向，或者我以利润为导向，那他考虑的就是开源节流，对吧？他可能考虑的不是说我怎么让我的团队人更多，从而让我的影响力地盘更大。他可能这是一种导向方式。但是他如果是以市场为导向，或者他这个市场就是需要这样的一个东西。那我怎么最低的成本满足市场的需求，这个还是挺重要的。我觉得这个其实是我个人感觉比我们之前做过这种单一产品，哪怕单一产品的时候，我们六十多个人在做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后现在可能一百多个人做五十多个产品的时候，就会觉得大家的这种市场导向、用户导向，然后利润导向的这种模式我更轻松。就哪怕之前人更少，六十多个人我不会说，我拽着他们去跟他说，你要这么做。但他们说我的人少了，我的资源不够。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前刘润写过一篇文章，我觉得挺有意思的。它就是叫商业里的加减乘除。其实你说的那是叫减法和除法。对，减法就说OK我就预算就这么多，对吧？给你多就给我少，这是个减法。除法就是说我们就按2Y来算，你要的十个人你就要创造更多的收入的时候，你就可能会掂量掂量是不是可以要五个人创造同样的收入。所以我觉得这个是一个先不说能不能做成这种现象级的，或者这种叫大产品，就先说矩阵式打法的好处，就是市场追问的这么一个企业文化在我只说它的好处，但它也有它的很多问题了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那如果是一个单一产品的公司，那这个是不是更难克服。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一些单一产品？我觉得我们最大的问题，当时因为卡斯沃它本身它不在一个串的上，它不在一个这种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>增长可以解决大部分的问题是吧？对我觉得的确是你想如果说一个公司还是很快发展过程中，那对于一个CTO来说，可能他哪怕想要扩张团队，想要招人，也没有那么快能够招。那对于AI来说，我的确就应该尽快把AI产品用上去。然后这样的话，我50个人团队现在可以做。以前我可能80亿百个人团队做的这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，但你要做出这些，其实对公司好的改变，他反而还更难。是是是的对，而且我觉得另外一个也是又回到这个方的梦，我觉得在这种情况下，在这种比较大的，又需要部门中间这种利益也需要去变化情况下，还是像你说的，你就是得放着非常在一线。所以我看到你自己也在读那些paper，然后也在看着做一些文章笔记的时候，我就想说其实这个的重要性？Adopt任何一个技术对这个公司的重要性，我想CEO是应该比所有的更清楚的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得其实你刚才提到两个点，首先我都很赞同，但你说的关于第一个点，有的时候确实很难，因为我们也是从难的过来的。就是说当你大环境也不好，你自己的业绩也有很大压力的时候，你没有那种松弛感，你没有那松弛感，你说我再去去IOK的很多时间去比较，没有目的性的去探索。这虽然可能你大的topic是一定的，比如我就看AI对吧，但是其实AI下面还是有很多有可能不能马上转化成生产力，或者转化成revenue的这些点。那你到底要不要看它？当你有松弛感的时候，你就我能稍微做一点所谓的无用功。对，因为我18年就遇到很大困难的时候，你真的是没有心思说我去广泛的看一看更多的东西。肯定想我怎么先解决今天这个员工工资的问题，对吧？我明天要解决一下这个银行贷款还新的问题，所以这是一个了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二就是说关于CEO要不要学，我是觉得真的要学。虽然我跟很多人观点不太一样，是因为尤其像我们这种小公司，你说你招一个人，你觉得能解决这个问题，那人家干嘛来？你这就y me就是你解决不了这个问题对吧？就是Y我们都很清楚这是很重要？是一个新的技术杠杆。但是y me人家这么厉害的人凭啥来我们家，我们也不是什么特别厉害的明星创业者，或者也不是那种非常promising的公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那来我们这儿都是肯定已经是我们范围内能找到最好的人了。但是你还是得自己在这个loop里，就是你得知道你对这个事儿有个基本的判断。没有这些所谓的厉害的人来，你也能至少往前推进点。但有就是最好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，还有一个就是关于在这个组织里边去AWAI这个事情，就是我经常会看到的一个china ge包括其实你看哪怕在国外，就你去问很多enterprise，你让这些已经有一定业务的公司去看AI这么一个相对来说比较新的技术，他总能说出一堆问题，对吧？他有holy nation，就像你说的，大家一看，尤其是一个你原本都有专业的人来做这个事儿的时候，你一看你这个图好像也不是很行，对吧？你这个效果也不是很好。这个其实是有时候在组织，我不知道你有没有遇到一些这种抵制的diss他的这个声音。我觉得一方面是说，有时候就现在的这个AI你还是得要花钱engineering一些这种资源，才能真正让他在组里面到一个可用的这个程度。在这个投入之前还是得有人去做这个决定的。所以我就好奇你有没有说到这样的声音，你怎么去在内部解决这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>先说第一个点，第一个我肯定是有的，就遇到非常多的就说你像说的这种diss说他做的不能用或者这东西不好。我觉得就是先找到一个，哪怕这一个点很小，可能先让他们尝到点甜头挺重要的。哪怕这个东西很小，但他就是解决了一个小问题，对吧？就是他一旦用起来了，他就会觉得这个东西他就有兴趣了。我觉得找到这种切入点还是挺重要的，切入的点，切入的人。所以有的时候我觉得不着急说在一个人上死磕。我觉得就是创业给我最大的感受就是有的时候不用那么说，我就一定要怎么样，其实这也不是创业给我觉得这是我的那个心理医生给我的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实有的时候灰度是一种一个人成熟的标志。因为小的时候你会认为这世界就是黑白，你觉得任何的灰度在你这儿来都不能接受。或者说当你慢慢意识到灰度的时候，你会发现这世界上好多事就是无可奈何的。然后你就会陷入一种轻微的抑郁，而这种抑郁是常见的抑郁，他就是一个人成熟发现了很多事情不可控的最后的一个结果。其实我现在是没那么纠结，说我一定要怎么着，或者说我一定要把这个人我就天天坐在面前把他说服了，我觉得也没有。就说如果他这个点他不买单，我下一个碰到一个新的东西，我觉得可能适合他，我会再问问他，我觉得反正允许灰度，这个是挺重要的一种人成熟的标志的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二，关于这种工程性的一些东西就确实需要的。就是说你把一个工具用好，其实需要很多工程能力的。比如说我们之前有一个刚才说到product v其实我们还有很多AI native的产品。我们有个AI native产品其实就是换脸，就有点像那个妙鸭那种。我们那个产品在美国一天的自然新增其实是几个小时，就七百多万，750多万。但后来因为被平台alert，就把我们把线流了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但anyway，其实那个是主要的换脸技术，用的就是roop。你其实root你直接用它的开源的，它其实换脸效果它就可能有很多。因为facebook它的换脸它不是上传图片，它是用头像。然后很多头像它可能有点偏，或者它的颜色取的有点问题，他就可能效果没那么好。那你就要不断的去优化这个loop，让它的效果更好，成功率更高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就确实需要很多工程问题，那可能这时候你就要工程上去做一些解决。这个其实也是需要很多耐心的，我觉得这个耐心是必不可少的。因为你可能你做的工作其实是很少的，你相对人家训练大语言模型来讲，我们做的工作很少。但不管是我们用rag，还是我们比如说用更好的prompt，还是我们加一些function扣，甚至我们翻译一些东我们翻译的比较少，但是有的时候也会翻译一些。就说不管你用哪些小的技巧或者技巧的叠加，你让这个单元模型发挥了更大的作用。其实这件事本身就是挺有价值的，但中间有很多挫败感，你可能你搞了一周也没啥进步，所以有的时候也别给他们太大压力，就是让他们有这个时间去试错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小雨聊的其实是在移动互联网的这个阶段发展起来。从16年开始是其实现在我觉得我们看到了很多的AI产品。我觉得作为投资人和创业者，我觉得其实现在大家都有这么一个困惑。就是看到AI很多产品其实也都可以赚钱，对吧？有很多小的方向。其实你看到很多没有什么差异化，这种chAmber陪伴生图似乎也都可以赚些钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是从创业者角度来说，似乎你也可以做一个小而美的生意。但从投资的角度来说，什么样的生意它是最后可以做大？然后是什么样的生意，它其实是一个小而美的东西，就是无法突破天花板。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那对于公司来说，我到底是应该像day one我就去看这个产品是否以后是next billion dollar company。下一个抖音，下一个头条，还是说我报的这个赚现金流。对他这个矩阵的这个方向去看我这个其实也是在现在，我觉得这个阶段的这个AI的阶段大家所考虑的问题。所以我就好奇，就是你当时是不是也我想，尤其是你在跟当时的投资人去聊的时候，是否也会有过这样的讨论，这到底是个什么样的公司，对吧？你又是怎么思考这种一个killer adverse一个矩阵的这么一种模式的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我先从两个维度去理解。因为我们刚刚也拿过很多投资人的投资，然后也对投资人还是比较了解。因为你们作为投资人的这个视角，因为你们投的很多企业有可能成功率是比较低的。对它已经有很多人很多的企业最后会失败。所以你投的那些成功的企业，一定要有非常多的倍数可以cover它所有其他的这种失败的投资。所以他并不要求每一次投资都是成功的，但是他要求最成功的投资出现在他身上，就这是投资人的心态，所以我觉得这个是非常合理的。因为你如果比如说没有所谓的百倍型项目、千倍项目、万倍项目，对吧？那你很难去cover整体的这个投资回报率。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得其实创业者不能叫创业者，比如说像我们做公司，我先不说他的心态是什么，其实做公司有两种做法。有一种就是说我就是奔着现金流去的，我只是拿它作为一个生意来做对，对吧？然后第二种像你说我是拿它当一个这种事业，变成一个这种next p就是可能现在B练都不行，吹炼刀了咖啡。对，首先这两个心态，其实我觉得没有说谁好谁坏。闪电式扩张里面也说过，作为第二种公司，你要有两个前提，第一你要赶上这个投资的夏天，就是你至少在你所有的核心的融资环节中，你必须是那个时候赶上投资的夏天。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二要赶上你这个赛道，也是一个非常promising的赛道，就两个都满足。那两个都满足的前提之下，我觉得你在讨论我刚才说的那个，你是不是有可能做成下一个很大的事情。如果比如说你确实短期之内没有看到前两个能不能做，第一个先活着对吧？然后你在活的过程中，你看看能不能有一些机会，或者能不能有一个可以让你就是孤注一掷的这种机会。我觉得这个可能是更practical的一些想法，但有的人说我就走。第二种我觉得也没有问题，我就是快进快出，输了我就大不了就从头再来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，你当时开始的时候你是什么想法？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实是这样子，我其实是偏第二种，但做到第二种我就发现好像不太对，所以就不得不往第一种走。我们是有一个艰难的转型期的。因为你会发现其实真正今天做的好的这些互联网公司，移动互联网公司，其实很多是他们的CEO也好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们的创始人其实都是0几年就开始创业的，或者进入这个创业环境的。他们已经积累了一些成功的经验，也有一些失败的教训。同时他们有一个团队了，有一个就是相对来说他知道谁好用，对吧？就是他可能很快攒个局，对吧？就像比如张一鸣，他他其实没做头条前，梁汝波选去了，就他能很快把这个初始的这个局攒起来。然后他也大概有一些know how，同时他也有一些这种所谓的除了团队之外，还有一些其他的人脉资源。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后在一二年可能就比较早那波就开始去创业。其实1314、15年这几年融资好的时候，正好他们有些积累。对，等到18年虽然资本市场不好，它其实不好不是投，是更投确定性的。然后他们在18年，虽然我们这种没有积累的公司，他拿不到平面就投资的这些关注。但是他们能拿到premium，就是他能拿到更多的关注。就是说那时候钱还是很多的，只是会更多的往这种先进的或者说更确定性的事情来投。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得最开始也是因为我1516年刚创业的时候，我自己的认知就是不够的。等到17年18年的时候，我们又没有积累。然后我又没有一个特别好的一个能力，也没有那样的一个运气说去承接比较聚集性的或者头部性的资源。那这个时候就会比较尴尬，但是我们还想活下来，所以这时候就可能不得不往第一个转。其实你的那个问题列表里面有一个倒数。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个问题就是说有哪些你觉得很重要，但是却没有被问的。其实我就觉得你说创业到底是运气重要还是努力？或者是我个人觉得你一旦已经创业，他已经是叫幸存者偏差选择过的，就一定这些人都很努力，然后性格上也都是愿意take risk的那这个时候我觉得运气也是挺重，要的就是你的时机，然后你的天时地利人和，对吧？就这些我觉得有很多，怎么说呢？就是更大的一些东西在共同作用着一个公司的发展。但是我说这个话不是让我们变得更悲观，而且是让我们变得更乐观。是因为我们知道有些东西我们控制不了，但我可以先把能控制的我去把它控制下来，比如我先确保公司能活下来，能赚钱，然后我也确保我去永远保持着对最新鲜的这些技术，最新鲜的这些比如市场，这些商业模式的关注。如果有一天能有一个机会，我们把它做大，我们就做大，就不能说自己先疲惫了，或者自己先躺平了。但这个过程先让我们先活下来，然后活下来的过程中，再去寻找更好更大的机会。但是过程中也把团队不断的去新陈代谢去换得更好，也让大家成长更快了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>正好你提到你们有这个AI的这个APP就可以。顺便讲一讲，就是从关注AI以来，因为刚才讲了我们很多都是用AI来去提升现有产品的效率。你们除了干的换脸之外，还浪费了什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个AI的我们也有做一些AI chatbot，然后cast box本身也做用AI做了一些podcast的digest。就是它的一些包括summary，然后包括可能未来也会再做一些AI的一些产品，现在AI native这边，我们是希望能够再把量扩大一点，我是反而觉得机会挺多的。因为首先其实可能不在你们投资人的视野上，但我其实知道很多其实AI产品做的很好，而且很多不见得是中国开发者，像什么土耳其，什么白俄罗斯。有前段这个APP很有意思，我看了看就是AI bible，你可以跟bible.</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用AI对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后那天我还在看一个文章，他是跟那个古兰经聊天，有很多那个人去问，他不是有那个摘月吗？他说我能不能摘月持续两个月，然后那个真人就会回答最好不要，会影响你的生活。但其实这个有的已经都做出来，像我说的bible，然后有的我知道团队马上在做，我是觉得机会特别多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这又回到我们前面的问题了，就是在这个时候你会怎么去决策，我是否要这个机会值得去做。你是抱着这个cash flow profitable的一个这种标准，还是说你会希望他能够成为一个nice。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有的时候我们创业者也有两个误区。有一个误区就是说觉得其实互联网产品早期就是要砸钱去烧规模。第二就是说所有的互联网产品都是赢家通吃。我先解读一下，我对这两个不也不能叫人家是误区，我觉得就这两个观点我不认可。但是我想说一下，我对这两个观点，不能说我不认可的都是有误的。就我对这两个观点的看法，我不是说这两个观点不对，我是觉得它不全对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先，其实你如果刚才说的这个互联网，如果都是说前期的烧钱，你会发现有两个点。比如像头条，他们早期其实就是赚钱的。然后因为他那个现金流，就他的那他早期是那个native广告，他的广告就是内容，就他的这个产品形态就是很赚钱的，所以他很早就把商业化做的很好，所以他有更多的钱，只是让他有更大的空间，然后去去或者接受更长的回本周期。但本身它的LTV肯定是算得过来的。那那包括他tiktok也是，只是他知道他的这个产品在他的规模起来之后，他留存才会更好，他的LTV才会更高。所以他可能是用他未来的LTV再折算回来现在的这个CPI，但它本质上也是压着LTV在买的，而不是说所谓的烧钱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二，是不是所有的互联网产品都是赢家通吃？我觉得有的平台型的产品，或者这种网络效应很强，或者有很强双边效应的，确实是。但是很多产品它是个饭馆型产品，就是它的网络效应很一般，平双边效应也很一般。然后marty home成本又很低，然后多样化需求又很高。像这种产品它就叫餐馆型产品。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但不是说餐馆详细产品你就做不大，像餐馆有很多就是500强的公司，非常有钱的对吧？就是什么百盛这些很很好的这些食品的公司，餐饮公司他也做得很好。但是这些餐馆它就不是个赢家通吃的产品，但这种商业它本身也有价值，哪怕像拼多多这种，我们觉得一定要提前砸钱的。其实他们很早拼多多他们是把他的interest，他每个channel他有账期，账期有利润，他拿这个利润作为这个channel的员工的工资和奖金的。所以他很早是有一套他可以让他所谓永续经营的，不依赖砸钱的这样的一个模式。但他通过砸它可以砸的更牛。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>包括还有我刚才说的那很多产品，它如果不是个赢家通吃的，你要不要做？我觉得是这样，我现在做这些产品，我觉得我还是会尊重它的本质。如果这个产品我们拉克里做了，最后做的就是个网络型很强的产品，对吧？就是个网络效应很强的产品。我们如果能够把它做强做大，我觉得肯定我们不会放过这个机会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但如果现在短期之内没看到，它就是一个我刚才说的一个如果是个饭店型的产品，那我们也接纳它的自然规律。同时在LTV不管这LTV的预测你是用未来预测的还是用现在的预测，你用一个真实的LTV去推广。只是说你能承担的你的这个回本周期有多长。那我们现在肯定能承担的回本周期还是挺长的，但是也要尊重规律。所以我觉得现在我做这个产品更多的还是首先我要确保我们在牌桌上。因为你不做，你说我通过学习看别人的，就是我觉得还是挺难去真的获得一手信息的。但你做了的话你就有机会，但你不做是肯定没机会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说你们已经做过这么多款产品，那你觉得做这个AI的这个产品的时候，从0到1所有这些增长，包括原来你们的这个中台这些能力，你觉得哪一些是在现在做AI APP的这个时候是仍然通用的？你又发现有哪一些跟以前不一样的地方呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正通用其实基本上AI这一波说实话如果只是看大眼模型或者这种大模型训练，其实还是大厂的机会。因为我不可能买那么多卡，对吧？那比如说如果是只看application，其实我觉得基本上还是得通。因为你最后满足的还是用需求。其实用户不care你这个后面的是AI做的还是人做，他要的是满足他的需求？解决他的痛点，或者能够正好触动到他的痒点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我觉得有很多我觉得一些native的AI native的公司比我们做的好的。有的时候我觉得他们勇气更大一点，或者他们就不怎么会迈的更大一点。有的时候我们还是相对会谨慎一点，可能因为立项的原因，包括因为其实你知道现在很多AI产品，它的确实收入天花板，先不说比大公司，在我们内部就比游戏都会低。那低的话，很多大家的投入的资源，或者说不管是我们的市场分析部门，还是我们的推广部，你确实投入的资源就会少一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得这个是可以预测出来的。就比如说你原来在你们原来要决定做什么产品，就非AI的时候，你们会事先去做预测一下，这个可能它天花板怎么样。你觉得现在这个S其实是不是你做的时候，其实你也是可以大概测的预测一个是比较低。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的对对对对，大概其实都能测出来的。因为你其实现在那个data点这些数据现在是三四套了。对，都很多。比如你通过他的DAU和它的install，你就知道它的大概的LT了。他如果他的DAU是3，假设200万，它的每天的新增是20万，那其实LT基本就十天，对吧？那这LT10天你大概能算出DAU，然后你其实一算，你就大概LTV就能算出来，然后你再算它每天的这个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以因为你们我记得之前也提到过，其实你们在做AI产品这个时候，你们尽量不做这个先行者，不做第一个做品类的人。所以其实从当时你们做的时候，市场上其他的品类的其他竞品的数据是大家可以看到这个APP就算做成功了，他可能的天花板。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，其实是这样的，我觉得现在互联网到这个阶段已经不存在什么新东西了，哪怕有af他只是说这个东西有点像叫历史的偶然性和必然性。就是你说远古时代有一个猿人，说这猿人特别牛，然后不断进化成人类，而且每一代后代都至少有个男性的后代。然后这男性的后代还又生了男性后代。然后你学生好厉害的，天时地利人和，有这么一个厉害的猿人对吧？但你今天往回推，任何一个男生都有他爸他爸都有他爸，他妈都有他爸，就是他最后终于有一个能推算回去那个人，他中间有很多高手之间对决，有一些随机性、偶然性，但是最后你一定有一个成功的人。所以对我们来说，为什么有的时候我们这个阶段，因为我们现在人还比较少，包括整个团队资源还是比较弱。我们为什么选择是去参考那些已经冒出来？是因为你要是底下做那个概率，那就太怎么说那这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说你会担心你突破不了那个天花板吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我倒是觉得还好。如果你看今天的所有的大公司，它确实没有一个人说是我独创了一个东西，他开创的他其实还是个组织能力的一个PK我会担心我们的组织能力不够强。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这个是很有意思。就是因为我觉得大家在讨论一个AI APP的这个空间能够做到多大的时候，当然要你说投资人多大都希望最后不是下一个抖音头条，那好歹也应该是下一个独角兽。你的意思是说，其实你觉得并不是在我一开始时候就看到说这个APP有可能成为独角兽，或者说某个品类。比如说大家最近对于陪伴品类产生了这个困惑，对吧？去质疑它不是这个品类的问题。你觉得最后能够在一个看似甚至很拥挤的品类里面，它仍然有可能因为组织能力而使得这个公司突破其他产品的这个对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但前提也是这个品类是一个足够大的很大的。对你还是是前提的。我觉得这个就是最其实最后真的就是算期望收益，对吧？就是你各种条件概率。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们刚刚提到说，你说觉得这种做增长这个事情，可能买量算LTV什么这种事情，其实跟你们做移动互联网的时候没有大的差别。那你觉得从产品上，就是你觉得就是设计好，然后做一个AI的产品，跟以前做移动互联网，是的，就以前没有AI说的产品，你觉得会有什么不一样的地方吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得那个产品经理真的要懂AI他要知道AI的边界是什么。就说至少这个业务负责人，他要知道说我怎么能够把AI leverage的更好。因为毕竟其实最后提供这些服务的是AI。对，如果你对这个AI它的边界，它的能力不够认知不够强的时候，你就会做的就是很就为了加AI而加AI你做不出一些native的这些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看我那天在咱们那个会上，他不是当时那会上还讲了一些产品，之后我还把那些产品都下来玩了一玩。因为我以前关注国内产品关注的少，我主要是看海外。我基本上会把那个apple store所有的我都会下过。这样它每次新出来一个，它就不是个云了，是个get对，然后我就会每天有新的我都会用。然后海外那天他们提到了很多产品，我也都用。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为有的产品我觉得他就是跟AI结合的还不错，我觉得就会有意思一点。然后你能明显感觉是他这个产品经理他是怎么玩好AI的。我觉得这个还是挺重要的。我因为我觉得ai.</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很大一个差别。为什么会想问这个问题？就是你会发现其实以前大部分的产品就是产品经理你是能控制你每一个button，你每一个按钮按下去是什么，每个按钮完了以后界面是怎么样的。这个AI其实你的产出其实是你不可控的。而到底是把这个当成一个我觉得anger说过，就是how的nation到底是一个feature还是一个bug？我觉得这个在不同的产品中其实是不一样的。所以其实我觉得前段时间其实大家也在探讨到底什么是AI的产品经理。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像你说很多产品经理可能他原来的确不懂这个AI对于很多人都要是新的这样的人怎么去找呢？或者说并不是在外面去找这样人。内部的这些人，你是通常找一个懂AI的人，然后让他去摸索产品，还是说反过来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的个人懂产品的人让他摸索AI。那学习能力强的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你还是找的是内部原本的片。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，他还是要懂产品。因为其实懂AI，其实好奇心，我觉得然后你不断的就keep fresh，就是保持最新的信息，还是相对容易的。但是真的一个好的产品经理挺难的，其实我觉得产品它真的需要很强的洞察，然后设身处地的思考，然后他还要懂点工程。你这样的话工程师给你排期就不会瞎给你乱报。对，就是我觉得产品经理真的是世界上最伟大的公众。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回过头就是现在听起来你的整个像一个factory，像一个工厂一样，已经这个round比较好了。你内心还会希望你下一个做的P是一个独角兽级别的，或者说这个home run.</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的一个P对我我首先还是希望我们产品能够真的覆盖带更多的用户。比如有的时候我在飞机上，反正我在海外比较喜欢定廉价航空。然后我就坐在一个人最多的位置，我就看周围的人在玩什么。然后有的时候就比如看到周围的人有可能在玩，因为我们的游戏叫咕噜，就真的在海外有的时候能看到用户玩我们的游戏，我就觉得很兴奋，然后我就觉得这种还是挺有成就感。所以我是希望能做一个至少产品能覆盖的人会更多一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我觉得你的焦虑比起投资人这种，我希望这个投出来的就是一个独角兽，焦虑相对来说会小一些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为我觉得我的焦虑都是可控的。深有感触。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有哪一些你做了这些AI native的APP，你觉得有跟你原来的期望相比，你觉得哪些比你预想的要难，哪些别人预想的要容易？有哪一些领域是你自己目前你觉得还比较exciting或者说想要尝试。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在给我们那个AIBU负责人，其实我大概列了十几个产品，我觉得都是他可以做的，我觉得都挺好玩的。其实AI native无非就两波，一波是基于大语言模型做对吧？然后一波是基于多模态其实因为我们的整整体上focus都挺简单，我们就是聚焦娱乐。所以在娱乐行业和luCindy其实不算啥事儿。因为它毕竟不是说我去寻医问道，然后我去解决法律问题，对吧？他可能很lumination会比较不能接受。所以我是觉得不管是多模态这边还是大元模型这边，都真的好多可以让我觉得挺excited的。我是觉得想想都挺兴奋的，就觉得怎么还不上线。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后其实你刚才讲的这个数字陪伴这些，就现在的数字陪伴其实说白了很多就是一个chatbot对吧？他他只是说加了一些情景，确实有的时候会觉得没有那么有意思。但是如果比如说数字陪伴多一些，就是让对方都不知道是个AI还是个真人。如果真的能达到那样程度，其实我觉得还是挺因为大家都是用户，都是挺孤单和无聊的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那可以讲讲刚才说就是你觉得有哪些比你想象的哪一些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得有比想象其实都没有那么难。因为其实现在因为现在这一步AI就说你要不就有API，要不都有是有开源模型的对，所以基本上都不会说有工程难度。这工程你就是用好这些，容易的话我觉得都还算是挺容易的，就是做出来都是很容易的。但你说真正的达到用户痛点那个是有些难，但我觉得不是AI上的难度，它是用户的需求的理解的难度。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得还是看这个期望？期望适当的放低。所以有的时候我也在想，一方面我也很能理解AI这个陪伴全包的这个需求。但的确你看到那么多公司遇到瓶颈，就是我觉得很难说这个事情，比如说技术没到位，还是说就是这些公司本身，但他就并没有能够做到这么大，是个品类问题，还是一个可能公司个体的这个问题。可能我还是在追问一个问题，就是你自己也经历过那么多这种APP的这个产品周期，就是你觉得一个能够比其他APP持续的更长，然后能够做更大的这个APP在早期会有什么样的特点？</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这样的，首先我觉得这个APP还确实是得是这个趋势下的，本身它就是个大赛道的东西。比如说我们先拿游戏举例，比如现在你知道美国排名第一的一个游戏是中国开发者做的，叫block但他的团队其实就在北京，他就是做俄罗斯方块的变体。哦哦哦这个产品现在在美国的游戏总榜是排第一的，而且已经霸榜很久了。其实就是个北京开发者做的，他首先就是一个其实是这样的，因为我以前学心理，有一个心理学的研究是讲成瘾成瘾是你的脑子结构会发生变化。但游戏你肯定不是说希望用户成瘾，因为它是比较负面的。但至少他有个叫上瘾，叫hook那上有个前提，就是你的那个叫情绪曲线一定要非常有波动，而且非常的变化快。你以前可能一个好莱坞的电影，比如你看华尔街之狼，那可能是30分钟一个G点。那现在你看好莱坞的大片儿，就是每一分钟都有个爆炸。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，那更别提前短剧了。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>叫短句一样的。就是说就那个情绪曲线，你只有到达一定的这种密度和这个高叫差别阈值之后，这个产品才会让用户爽。就比如刚刚我说的像block这个游戏，就是说你每加一块你会小爽一下，每削一层你就大爽一下，对吧？然后你全整个屏幕清了，你就超大爽了，对吧？然后还有个叫near miss，就是心理学上有个叫near miss，就是你快失败那个瞬间情绪波动最大。对，其实我觉得就是你一定还是要顺应这个时代，而这个时代现在被短视频训练的就是波动很大。这时候你说你做一个，这就每1个小时给你一次反馈的那你就真的是你很难在大范围内去获得用户。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我觉得首先这是一个前提，首先你这个产品你就符合这个机制，刚我说的上瘾，其实第二个就是说叫心流。其实好的产品我先不说工具型产品，我就只是说这种娱乐性产品。你能不能让用户进入这个心流的状态，这个还是挺重要的。其实大多数你看最优质的娱乐型产品，它是能进入心流状态的那心流状态其实有三个前提，就是非常明确的目标。操作也难，高操作高技能的这样的一个行动，最后有非常及时的反馈。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再问关于AI的这个问题，因为你从去年开始也一直很关注AI的这个发展，对于过去一年AI发展，你觉得有哪一些让你最惊喜的？一些项目也好，或者一些milestone也好，你觉得哪些可能不及你预期的？就整个行业来说。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这样子，就是整个大家对AI的预期，我觉得都是波动挺大的。对对对，过两天就改变世界了，明天就说屁也不是。对，其实我是觉得真的是进步挺快的。然后大元模型这边就不用说了，我觉得视频这边其实也有很大的进展，多模态这边尤其像跟视频相关的，图片就是真的社区贡献很大，它的整个你会发现他社区力量很强。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我个人对AI过去这一年就从我开始关注，这一年半的时间我是觉得它的发展是对我来说是超我预期的。自从大家聪明人都来了之后，你就会发现真的是日新月异的。然后你就会发现被很多好的这些intelligent启发的。然后我自己其实用的比较多的是perplexity，cloud这些。我都是pro诱惑，都是咱都是付费玩家。反正我觉得产品真的好多有意思的产品，就每天都有新的。然后每天都让我觉得这个东西这人怎么那么有创意，就是想到一个这么好的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得小雨的心态真的是非常的开放。所以这是为什么刚才我一直在问你关于大和小的这个问题。我觉得其实现在很多创业者，大家在看到AI的时候，尤其在思考一个创业的时候。对我觉得这个就两种心态对吧？一种就是像你说的，我看到这都是挺不错的，挺有意思的这些机会。要么我是个用户，要么我可以去做一个很有意思的这个产品。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是有一些时候大家在思考说，对我是保持创业的时候，我觉得这个创业者往往心态可能更重一些，对吧？他看到这些都很有意思，但是这个能拿来创业吗？这个能够做多大呢？投资人又要考问这个问题，所以我觉得这个是大家很交织的。我不知道当时如果你回忆一下当年移动互联网是不是当时也是一样的，对吧？你看着好像大也很小的一个天气，很一个计算器是是的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得就包括你说头条早期，其实很多投资也会有各种串联着。所以我是真的觉得如果要是创业，有一个好的商业模式挺重要的。你的心态是完全不一样，可以是说你让这些所有的钱变成了一个锦上添花，而不是雪中送炭，其实你会可能跑得更远。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，好，我就跟我们聊了很多关于AI这个话题。最后我觉得教我说的这个renew在他的好几篇公众号里面文章其实让我特别有感触。我想借这个机会想听他多分享就是关于创业的这个。我觉得你提到的有几点，一个是关于耐心。对，关于耐心。在具体问的问题之前，我先high level问一下，你就回顾一下创业现在有八年对吧？对你觉得跟自己原来想象的最大，有什么是符合你的预期，有哪些跟你想象的不一样的？</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是觉得现在我已经把它变成一种常态了。最开始创业的时候没想到这个东西是个常态，就是这种创业的状态，我现在就把它当做一种常态了。我觉得可能人是一种生活方式。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会怎么描述？创业作为一种生活方式。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就反正你有可能超过所谓正常人的你需要承担的责任。你有需要像常人一样，你身上是有很多你觉得你需要去不断关注最新的技术，然后最新的市场动态，然后最新的这种趋势，你需要有这种危机感，去不断的去看最新的东西。你需要保持一个专注，然后稍微让至少让生活简单一点，然后对这个事情上可以多一些精力投入在创业本身。然后你需要有些自己的discipline，就是你只有自己比较discipline之后，你才有比较大的底气去影响到其他的人。我觉得它整体上是一种lifestyle，我觉得挺好玩的。我反正创业之前没想那么多，然后创业之后才发现，这是一个很大的事儿，就是很就很大的commitment。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我也不怎么生活。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，但我觉得挺好的，我也挺享受的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听小雨聊也能感觉他是一个行动力很强的一个人。所以我第一个问题是关于你其实写了一篇文章是关于耐心，文章里边如果你不记得的话，你当时提到了一个thousand weeks。对，four thousand weeks.</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后也是个心理学，不愧是这个心理学出身的。我看你真的是读了很多心理的这个东西。你说这是一本反时间管理的书，是要放弃对时间的执念，接受自己的有限，从而为我们人生创造更多空间。这个听起来似乎很不像一个创业者会有的感受。因为大家觉得创业者就应该对教练说有比常人更多的责任，也比常人要做更多的这个事情。你什么时候对这个事情会有耐心的感触？你觉得有有什么东西是你觉得以前会很急，而现在不会的？</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就先说那本书，它说有耐心，它是有三个逻辑。就是说第一你要保持对问题本身的好奇。第二它叫激进的渐进主义，你不要说我一口吃个胖子，对吧？当时我记得举的例子说，每天早晨写1个小时书的人，他可能更容易把这本书写完。而不是说恨不得今天一天8个小时我不出来，他可能更容易疲倦。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第三个它就叫创意。在无创意的尽头就是你可能先不那么着急创新，follow别人做。然后做着做着你就走到一个分岔口，你就自然而然的就创新了。对就其实其实瓦特也不是发明了蒸汽机，它是改进了蒸汽机。所以就是我其实最开始对这个耐心有理解，还不是这本书，其实有一个叫禅与摩托车维修艺术。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他就讲说你做一件事很着急的时候，就说明你根本就不享受这件事。你希望赶紧把这事做完了，我去做新的事儿。当你说我做这件事很享受的时候，你原则上你就不应该着急，你就享受这件事儿就好了，对吧？就只有你着急就说明我赶紧把这事儿解了，我棒。但有的时候你看咱们也都是有一定经历的人。你回想起你人生中任何一次想法说我只要怎么怎么样了就怎么怎么样了。你会发现你就算怎么怎么样了，你也不会怎么怎么样。这个因果关系。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实没有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对事件其实。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有那么可就。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有什么相关性了。就是说你每次都觉得我只要投一个独角兽我就怎么样。然后你发现投完独角兽之后，我只要这个公司能退出了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就那其实你只要享受这个寻找以及陪伴这个可能的独角兽的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过程就好。如果你很享受这个所谓的叫价值挖掘的过程，对吧？享受跟这些创业者交流的过程，然后享受赚钱的过程，其实它就永远不会有一个节点，它就是一种生活态度。所以我就是在想说，其实创业也是一样，我觉得我还是希望公司能多活一年，就是每多活一年他就淋漓效应，他就有可能再多活一年。对，但是比如说这过程中，我觉得我还是很discipline的，很用功的，但我对结果没有特别苛求，就是说我一定要今年就怎么着，明年就怎么着。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得比如说我我我回到就是我提了一句那个博客，他提到他决定要不要做汽车这个事情的时候，因为这个可能是一个上亿美金投入的一个事情，就他会去想说，这个事情如果不能够做到多大了，就不值得我去做。其实投资也是这样，就逼着我们每天都去想说，这个事情能够能能够做多。你觉得这个会跟刚才那个耐性就会是个冲突的东西，或者说我觉得因为你这个成长过程中，你也遇到身边很多这些非常成功的也做了一个算成功的企业家，你会觉得他们的心态会有什么不一样吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他其实是这样的，就是说这些我看忘了是哪本书了，好像是富足，还是戏曲，反正有一本书他就讲说其实有的。然后他很多东西他其实是你的起点，可能有一些random在里面，但你可能起点越高，你的资源越多，你资源越多你能做的事儿就越大，你能做的事儿越大，你impact越大，你的结果就越好。然后你结果越好，你有更多的资源做更大。他其实很多其实确实是一个这种可能之前一个初始值的不一样，会导致最后一个非常大的叫牛尾效应。就马太。对，就是富者越富，这个确实是一个真实的现象。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后从我们的角度，我现在也是会希望我们是往正向的positive那个look去走。我觉得这两个不是很冲突。从我的角度，比如我们。现在看到一个更大的机会？而且是我们擅长的，我们也会去去去做。我觉得雷军他也不是day one，他就要做做电动车？他也是从金山这么一路又做起来的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我我觉得并不是说去排斥说我们有一天做一个很大的东西的可能性。但我只是觉得在这件事出现之前，我觉得至少先过好现在把手头现在的有的资源把它发挥到最大。然后把我们现在手上做的每一件事儿，先在我们的范围内做到最极致最好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在是一个主播的身份，不是个投资人的身份。那你怎么看待投资人的？比方投资人会给你压力吗？因为我觉得现在其实也有一些声音去说，因为就像我们前面讨论就是AI你看到很多这种小的机会，但是你是很难确定这一把就是一把拿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一些声音也说，那你是不是应该先boost strap对吧？你拿了投资人钱你就会有压力要把这个做。那是不是应该不strap 1段时间，等到事情更清晰了我再去做。或者甚至有一些生意你就干脆就不要拿投资的钱。因为就像我们所说的，投资人对我们也是拿别人的钱，对吧？我们也有这样的压力，你怎么看待这个事情呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得是这样子，就是从融资的角度，我觉得确实是你如果因为其实拿了投资人的钱，其实他是加了个金融杠杆。是但是投资人真正能赚到钱，也是需要有金融杠杆他才能赚到钱的对对吧？他是有一个叫upset和当下的对，就从我的内心，我的当下的是至少投资人不要亏钱，这确实是我内心，我希望我至少不要把公司做酶或者做到亏钱，最后这公司就清算。对那这个是我的一个我自己内心的一个当下。我觉得你很难让我说，我拿了投资人的钱，最后投资人还在我这项目亏了。我觉得对我来说是就是很难，不是因为你是投资人，然我这么说，其实对我来说我还是很难过内心这个坎儿，包括我对员工也是一样。如果员工跟着我干了几年，最后就说拿了很少的工资，最后又没有结果，其实这个事儿对我来说还是觉得没有履行好我的责任。对，所以我觉得我至少先保downside。但是说你说upset以后，比如公司会不会就是IPO或者说特别好的一个PE值很高的一个IPO。因为其实IPO现在不难，你大不了还有一些新加坡可以上。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是能不能有一个高P值的一个推出，我觉得这个事儿我觉得确实个人来讲，它有很多因素是我们不可控的。但我觉得这些不可控的，我觉得我们可以等，因为他不可能永远不好，就我的观点，他也不可能说永远好。所以我不好的时候，我觉得你先保当下的，然后好的时候我们去抓upset，我觉得这是我所谓的耐心。我说不是说我们不去抓upset或者我们就凑合，我觉得那个肯定凑合不是一种态度。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，明白。因为有些创始人会觉得说一方面AI？就是我们要招我们要有最top的人才。是你们投资不是也看团队，也看人，所以要有好的背书？我要能够有这个大的故事。当然我觉得你刚才所说的这一点真的就是一个公司。因为它穿越周期就是一个周期，肯定不是永远都是可以让你不断烧钱的。所以我就好奇说在对这种当time的这个时候，现金流的这种方式会影响你招到你希望top的人才吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正我还是觉得形式比人强。比如说你像我有一次跟王俊俊吃饭，他就跟我讲他和早期和头条之间的那个白。因为早期其实豌豆荚更有吸引力。是然后那个时候他说很多人会同时面豌豆荚和头条，然后最后留在了豌豆荚，但是也不影响头条今天那么牛逼，就是反正自己那么牛逼，就是我觉得他有一个首先并不是所谓的那些最光鲜的人一定最好。对，包括像我们今天在我们船上表现最好的人，也不见得是所谓的你当时招的时候觉得是个特别明星的star的人，他可能contribute最多也不一定对我觉得适合可能比所谓的好更重要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你招人的标准和方式这些年有变化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>变化肯定是有了，因为你的阶段也不一样，包括我们吸引人的点也不一样，然后包括其实我们做的业务的内容也不一样，对吧？投资人不是面试者或者选他，肯定还是有要跟他有个匹配，肯定是有很大变化的。但是我是觉得最后你会发现好的人他是个筛选机制，他是一个最后你可能进来一拨人，然后这拨人里面就是有一些最后慢慢的你会它更适合你，它有更大的contribution。然后有些人可能你来的时候，你对他寄予厚望，来之后发现他可能不是说人家不好，有可能就在我们这儿他发挥不了它的作用。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我是觉得你是不是在穿地上，是不是在，真的不重要。你也看到很多特别估值特别高的公司，突然间一夜就崩盘了。所以我是觉得最主要的其实还是公司找到公司的一个势能，然后这个势能是能够有很好的，就是叫顶天立地。你顶天你往上能讲故事，像google，立即你就有个印钞机，比如像google，然后头条也是顶天？你有一个很好的AI追问的这种视频的这样的一个平台，然后内地它真的是个印钞机，就是很多公司是能顶天也能立地的。但是像我们现在的公司其实比较难顶天，就还没有找到那个能顶天的点，但至少先把就脚踏实地先把地给立上，因为这个是我们能控的。然后能不能找到一个更大的故事，我觉得可会找到的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就不同阶段需要不同的这个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人是的是的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，我们回过头来说，还是说创业这个事情。另外一个就是现在大家都知道我们前面也提到，就是现在的整体的宏观环境是有很大的挑战。的确也有很多，就像小鱼说的，不再像原来就是你可以在一个资金充裕的情况下，你的可能做事的方式和有决策都会不一样的。就我见你的一篇文章提到的这个主题是悲观的乐观主义者，那篇文章非常有意思，所以我就好奇你当时是怎么开始思考这个话题的。然后包括你也说你的创业过程，包括你所在宏观微观都有了起起伏伏，就这样现在对你有什么样的影响？</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当时确实看弗兰克尔那个自传，然后当时觉得他首先提到这观点，他就说你不能过于乐观。比如举个例子，他就说我每次都觉得下一个节日我就能放出去了，下一个感恩节，下一个圣诞节，对吧？你每次到那天来了，你还在里面待着，让你很快就绝望了。但是讲的是那个集中营里，对，集中营他就是24分之1的幸存者。然后他就讲这24分之1的就是其实5%的人他到底是什么画像？然后你不可能特别的那种盲目乐观，但也不能太悲观，你都撑不住。对他其实这个叫理性乐观。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你对现实是有一个基本的判断的，但你对未来又还是有一些底层的充满希望的，我觉得这个还是挺重要的。其实有的时候我最近也在看什么黄征这些人，他们写的这些文章就是他他最近写的少。我看了早期的文章，就他们也是，他们其实对现实是有很好的判断的，他们公司内部其实讲的就是叫事物的本质，然后尊重常识，其实这些都是非常理性的。你不要一厢情愿的觉得就要怎么样，就是你回归事物的本质，然后你尊重常识，你能够有一个最合理理性的判断。但是在底层，你还是要乐观的，太理性或者太正确有的时候就会容易悲观，对吧？就是你会觉得什么都不可能。但你如果没有一些那种内心底层的那种非常长远的事情的那种future picture，我觉得也很难坚持。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就悲观者正乐观者成功，但是你也不能够一味的乐观。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你会发现抑郁症的人他都很聪明。因为抑郁症他对现实的判断是更趋真实情况的，所以他就很容易抑郁。但是你如果没有一些非常fundamental在底层的这种对这种特别长远的事情的这种期待，你就很容易陷入到现实的这些悲观情绪当中，你就很容易抑郁。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多他的正确是来自于可能他看的事情比较的近。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对或者对他的正确是他看的事情比较对对对，但他的悲观是因为他只看到了进的事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是你写的那一篇小短文，可能读后感。对，里面提到的一段话，你说如何找到生命的意义？那篇文章就给了三个答案。一个是成就一番事业，找一个爱的人，经历困难的考验。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但他也说的那第三个点是你不要没事儿找事儿。对你这还挺重要的。我们总是觉得其实苦难能成就人，其实苦难根本就不会成就人。没有任何苦难能成就人，苦难是没有办法去解决的，只能超越。我觉得这个还是挺重要。我觉得有的时候，因为我以前还是受中国的传统文化影响比较多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还说我们吃得苦中苦方为人上人。但其实。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是我觉得其实苦难是带来创伤的，就并不能成就一个人。我觉得我们就正确的面对这些困难和苦难，但不要去神话骂他们。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你会给这样出海的这些创业者怎么样的建议？因为我觉得这个里边其实大家经常讨论的一点就是说我是否要到美国去才能够去，我是否公司到美国去，我创始人产品是否要在美国，我才能做出一个了解美国用户的一个一个产品。从你过去这么多年的经历来说，你是怎么思考这个事情？然后现在在做一个to global market的一个产品，可能会跟你们当时会有什么不一样吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得你经常在美国，或者你或者偶尔去美国，肯定是比你完全不去美国有帮助。这个是前提，肯定的。但比如说你说你完全不去这个事儿是不是一定是必要条件？我觉得也不一定。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们当时团队一直都在中国。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为早期我记得我在google那会儿，那时候我们google IO就请很多中国的顶尖开发者去美国。就在很早前了，那个都大概是15年前了。然后很多创业者是第一次去美国，甚至很多创业者是现办的护照，就说明他以前都没出国。就是在在10年前后，其实这个我刚说他是一个肯定是个有加分项。但是真的我觉得它是非必要的，非必要非充分。但我觉得肯定是有帮助。你不能说他他这个完全没有，就你更能理解用户，你脑子里有他的画像，你肯定是有帮助的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我是反正创业者，你像很多创业者在这两年出海什么的特别多。然后就去海外调研，然后去硅谷调研、去新加坡调研、去日本调研，反正我还是这几年接待了一些。因为我在国外时间比较多，我觉得最核心的还是产品得有竞争力，我觉得这是最。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>核心的那你觉得说其实你并不需要人真的在那边才需要产品有经理，我觉得这个是很有意思。你看其实原本就是你像你说猎豹对吧？这个字节就是当年你都会往出喊那波，好像大家并没有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>觉得也不在美国。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对你好像并没有觉得你一定要要在美国。我不知道现在这个差别是不是说，其实我们现在其实是对于这产品的要求更高了。如果你现在只是想要做一个你只是想做一个生徒，可能你也的确不需要去美国。是的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这样子。第一个是要求高了，第二他确实有很多新元政治的一些潜在的风险。对我之前有一个在美国的朋友，他就是在疫情期间赚了非常多钱。他做什么呢？他就是做那个检测，他其实在美国就挺。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>重要的对对，是他没有present.</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是他压根都拿不到这单子。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这个跟这个地缘政治有关。其实我觉得还是回到我们最前面，就你想要做一个什么样的公司有关。就是到底你的人在不在那边，其实我觉得这个不是一个先决条件。对对对吧，就是你完全可以做出了一些traction。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你说这个公司我发现我要到next level了，我需要更了解本地的一些情况。比如说很典型的大家经常说这个PLG，其实我觉得PLG其实大家讲课的时候是有个误区，就是PLG当时在讲这个事情，product growth其实是在这个SARS的背景下。那SARS这个背景，你只要要到后面的这个growth的阶段，你是势必要去变成要有sales的这个体系的。这个时候你是必然要在海外的。但是如果说我们只是做一个简单的移动应用的，可能是并不那么需要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？其实我觉得用户没有那么care这个，他做的这个APP developer，就是你不是，如果你不拍他脸上，对，其实没有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那么你的to B2C其实其实也不一样。是是是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你公司做到一定程度，你开始做branding的时候，肯定他你的你这个south在哪？对他来说是有一些所谓的刻板印象。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说我觉得可能因为to c我我自己因为其实我之前在to b的这个领域看的比较多，我就觉得to c毕竟人性更相通，对吧？而且他又是遵循一个大数的定律，不像to to b你看to b你就是那么一些客户的这个数量上，肯定不是人口基数的这种数量。而你的组织他在里边人的一个组织里面，人的行为不是人正常的行为。是的，他这个受组织约束的这个行为。这个时候他跟这个文化，跟他这个土壤的关系就很大了。所以其实我觉得有些APP可能的确我是不是真的day one就要出去，可能也是一个很综和一个决定。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，我觉得这个聊了很多，我们最后的一个环节，也是我自己最喜欢的一个环节，就是这个快问快答的准备了一些小的问题。然后我觉得可以听听人类很快速的一些想法。第一个问题，你创业压力最大的是什么时候？你会用什么方式解压？</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以前就是刚创业那会儿比较大，因为那个时候确实是就需要补的窟窿太多了。这一年我觉得我都没啥太大的这种是不是说太顺了，不顺的还是有很多问题的，但是都没啥压力，就是我觉得我主要是跟自己和解了，最近这两年跟自己和解了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你用什么方式来解压呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>解压压力大的时候，因为就没啥压力，就也当时压力大的时候，当时压力大了就健身，然后也没有什么其他的更好的方式。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实我我看到其实你也有文章里面提到这个断舍离，还有冥想，还有你也提到你去会见这个心理医生，这些对你有什么样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的人都很有帮助。其实我现在也没有那么绝对，但其实断舍离跟那个公司就是断舍离就是你把东西变少，其实它就跟公司要有存余很像，公司存于就是开源节流。那断舍离就是少买多扔，他就是反过来，就少进多出，反正我现在买东西就比较少。第一，我确实现在也没有房，而且我是在我们那几个城市，我是每个地方住一周或者两周，我就换一个城市，所以基本上就一个行李箱，一个登机箱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你enjoy这样的状态吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也没有特别enjoy，但它就是一个被动的一个结果。就是你就都希望哪儿都能稍微照顾一下，就不要有太多的问题。东西也比较少，就一个登机箱，然后基本上就能去另外一个国家呆一个月。但当地可能也有一些我的一些杂物了，然后也没啥东西。就现在我也没有什么个人存款，然后也没有房，也没有车，我也不会开车，我有驾曾经有过驾照也不会开，然后也没什么物件。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得这个对你这个状态对你有什么影响呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得特别好，就很轻松。我没有存款，但我也没有贷款，我没有任何负债，然后我也没有什么固定的开销，所以就很轻松，就是很自由。就是我觉得你说一个人，你说你完全不受外界的影响，我觉得不太现实。你说你本来就有很大的这种固定开销，然后你说我现在能做到特别轻松，我觉得就很难。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我做不到在你们公司赚那么多钱，你自己不会忍不住去想我怎么花这些钱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这是我上周末上了个历史系的课里面，他对资本家的定义。虽然资本家其实不是个好，他就说资本家是用来不断的去扩大再生产。对，因为对我来说，我希望这个钱不要进我个人口袋。就比如说你可以让投资人有个好回报，让员工有一个好回报，我但我希望更多的钱是进入到公司，用于未来的扩大再生产。其实也不是说有多高尚，我只是觉得这个钱在这么花的时候，我会觉得更有成就感。刚刚说我们虽然很多立项不需要砸很多钱，但我也希望这钱在公司，万一以后公司的账号出问题了，或者有一些极端事件，对吧？我觉得至少能让公司活着。我说这个对我来说就挺重要的。我觉得versus个人消费，我不个人消费并不是因为道德上的原因，是因为我是觉得个人消费没意思，就是对比你把公司做的越来越好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得这个是来源于一种危机感吗？就是危机使得你不大敢去，这就是比方说大家对于未来的这个期望比较低的时候，大家才会存款存更多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，我觉得不是危机感，因为我其实去年花了很长时间学财务。不是去年就过去几年我上过三门财务课。我在NUS上过一次，就是EMBA上过一次财务课，在北京上了一次课。后来我还自己单独上了一个财务专业的一个财务课，这几年就学了三次，就是一门财务课。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我就觉得其实财务有个很重要的东西就叫固定成本。我觉得很多时候人的压力或者焦虑是来自于固定成本。高就我我其实不止公司，不止个人，我公司也是，我尽量不要固定成本。比如说我会跟我们的HR说，我们尽量。在就尽量不那种大规模扩张对吧？或者尽量不选那种特别贵的办公室，就是尽量把固定成本压缩在一个，或者我们尽量不买办公室。因为你买了之后，你每个月还的房租就是固定成本。如果你租一个房子，你虽然这个也是固定成，但你可以换一个可变固定成本。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我要我要cote一下你那个文章里面说的，我觉得这个context还是比较重要的。你这文章里面说，当然这篇文章是22年3月份，已经过了两年多了。我不知道你有个印象，你说你说创业之后很难在物质上获得愉悦的感觉了。因为创业本身带来的刺激感、成就感和自我膨胀感，似乎超过了其他物质可以带来的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你现在没有这个固定资产，但是你说不会没有安全感。因为你知道自己已经拥有了让自己活得好的能力和社会资源，这些intangible的assets让让你活得更轻松。所以我觉得这种安全感本质来自于你在别的地方的一个自信，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个就好像大家说起最近的这些，说这个公司，你要有现金流，你要能够盈利。其实再回过头来看，在其实年龄最好的时候，其实投有些比较有经验投资也会这样去听你公司就是说不是不在乎，是不是你现在就要所谓的cash for positive或者盈利，而是说你要随时观测，你要知道自己。你现在也许经济环境的确比较好，你可以加一些杠杆去放一些新的东西。对，但你要知道哪天你要收的时候，你随时是可以收的，你是具备那种能力。你现在可以没有，但是你自己知道其实你不是会断掉你的这个来源。你觉得这个安全感其实它对？</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>来自于这个就叫固定资产随身带。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你的对自己就是你自己其实最相信。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实如果你刚刚说从公司它是另外一个，就是说你从完全从财报分析，其实就是说其实哪怕像亚马逊它其实都是亏损的对，但你会发现它的catch flow永远是正的对对，它是有一个足够大的体量，能够让他做一些这个叫负的，叫currency window。就是把这个开始window，把它能够变成负的，然后从而导致它涨上去。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个就是你自己的一个杠杆。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，这也是它的杠杆，我觉得杠杆是永远可以加的，就是在你能handle的前提下再加太多的金融杠杆，还是会有的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>压力比较大对对对，我我对我刚才的感受就是说我觉得就是这种能够这么在没有，因为我觉得有很多时候大家用带有这个固定资产，其实是为了给自己某种安全感。因为我自己也是中美什么两边跑的比较多起来，我自己身边好像像你这样到处跑的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人也多起来。你是这个圈。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我就会发现其实这些人其实挺有钱的，其实自己都挺成功的。但是他们反而不那么在乎，可能有些人就还是在租着房子。所以我觉得可能就是这种他能够选择这种表面上看起来很容易让人没有安全感的生活方式的背后，其实是他在别的地方已经很有安全感了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过去6到12个月？整个AI发生了很大的变化，整个世界发生很大变化。你觉得你有什么观点发生过比较大的变化？</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就觉得确实是以后真的好多人他可能要重新换个职业了，确实好多原来的工职业就没有了，但他也会换个新的职业。虽然是我不觉得他对人的影响会那么大，比如说跟文职相关的好多职业。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实以后就这个是在你们自己内部用上了这些AI工具以后，会有明显的感觉。在整个创业过程中有哪个人对你影响比较大？</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还挺多。因为我从22年，主要那一年在新加坡待的比较多，跟非常多我觉得很厉害的人，有一些很近距离的交流。我对他们的很多思考，包括逻辑，我觉得都给了我很多启发。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说有一个大佬，他就跟我提到说，其实任何一个东西它都是有浪潮的，有高有低。然后他就跟我讲他们最开始做社交的经历。他说那个时候最开始一拨人，然后后来每一波浪潮都会淘汰一波人。然后有一波人是主动选择就不干了，他就会到低点，然后低点新起来一波又会进一些新的人。但是有但是慢慢的通过几轮迭代之后，就哪怕其实社交它那时候它的这种所谓的这种高点低点不明显，他也是有周期的对，然后经过几个周期，最后就是沉淀下来了一波。他们一直跟着这些周期不断学习一波新的浪潮来，他又学新的一些所谓的认知又有提高，然后慢慢就做出了一个真正的有价值的社交产品品。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但他就说其实他觉得AI也好，区块链也好，他都是这样子。然后他就是有一个周期，但只是因为区块链加了金融杠杆，然后AI加了科技杠杆，它的可能周期会更更陡或者更快、更更平就更剧烈。但是本质上你如果能不断的在这个周期中循环中你能坚持，然后同时你能跟上新的周期带来的新的冲击力，那你才有可能最后在这个比赛中赢。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对的，最后一个问题就是未来的一年和三年有什么期望和小目标？</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正我觉得还是希望未来一年我们AI能多推出更多的新产品。因为现在有几个在立项已经在走了，我觉得可能再希望把这团队扩大一点，然后再多做一些。我希望比如说三年之内，我们有一个所谓的叫killer APP能出来。但是是希望，但是说没有也能接受。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我对这个事情就是你其实没有那么大的执念。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有执念。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>心态非常好。现在这个grew network在招人吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也在。所以要是大家小伙伴们尤其对AI有兴趣，对游戏有兴趣，对出海有兴趣，都可以来找我。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果这个感兴趣的话，要怎么联系你？</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我可以留个邮箱或留个联系方式都行。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，没问题。好的，非常感谢瑞珈。今天我们这个虚的实的聊了非常多的时间，是不是太无聊了？有没有没有没有我觉得挺有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原来我觉得说我的这个破法应该是给大家一些答案。但我觉得现在其实在这个变化那么快的世界，其实没有什么答案。反而是我觉得我身边经常会遇到这些创业者。其实大家其实大家更希望在摸索过程中，其实看到很多自己的同伴，看看大家的状态是怎么样。大家都是他身边这些同伴跟他一起同行的，这些心里也是ambition的人，对吧？在面对这样的一个比较大的心态，大家是怎么去应对的？我觉得这个其实比起所谓的答案rich，我觉得也没有不能给大家一些能够继续走继续走一走的这么长远的一些勇气。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说这个叫历史的偶然性和必然性。很多成功我们都把它归结为历史的必然性。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常感谢磊磊今天的分享，对我觉得对于我自己来说，我觉得也非常的有收获。我觉得我们谈论AI很多时候谈了很多新的东西。但是就像我们今天讨论的，其实很多对于一个组织的思考，对于怎么在海外做这growth做公司，对于一个创业者的一些变化和挑战，其实很多东西是不变的。所以今天也希望听众，不论你是正在创业探索中，还是说你的公司也在想要向AI转型过程中，还是说你还在犹豫要以什么样的方式要是否要加入AI的变革中。我希望今天的ren非常走心的这分享都能够对大家有所启发。好，谢谢。如今这段时间谢谢大家，谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天跟小雨聊的是有些天马行空，也希望让大家看到一个更完整的创业故事。如果大家有好的创业想法，欢迎与我们建立联系，同时也欢迎听众在各大音频平台订阅我们的频道。此话当真，我们下期再见。</p>]]></content:encoded>
-            <pubDate>Tue, 17 Sep 2024 16:00:34 GMT</pubDate>
-            <guid>66e9a7a25ca6d0ace389af8c</guid>
         </item>
     </channel>
 </rss>

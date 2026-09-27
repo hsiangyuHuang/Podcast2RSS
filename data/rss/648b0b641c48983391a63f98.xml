@@ -4,7 +4,189 @@
         <title>42章经</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98</link>
         <description>和有趣、有独到认知的聪明人聊天</description>
-        <lastBuildDate>Sun, 30 Aug 2026 06:36:11 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 06:58:52 +0800</lastBuildDate>
+        <item>
+            <title>AI Trading —— 决策便宜，行动很贵｜对谈超 3w Star Vibe-Trading 作者浩哲</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6ab71039195d838e2aea294a</link>
+            <description>这几年，很多人都在用 AI 炒股。最近，模型厂和大厂也在主推 AI 在金融场景中的应用。
+但 AI 到底怎样才能更好地辅助交易？会给市场带来什么变化？用上 AI，人人就都能像巴菲特一样了吗？
+这期播客，我们请到了很火的开源项目 Vibe-Trading 的作者和维护者吴浩哲，聊了聊 AI Trading 相关的各种问题。
+浩哲本科毕业于武汉大学数学系，目前是香港大学在读博士生、HKUDS 成员，一直在探索 AI 与金融的结合。Vibe-Trading 开源半年，已有 3.4w 个 Star。
+节目里，我们就从这个项目讲起，拆解了 AI Trading 到底是什么、由哪些部分组成、哪个环节最关键，以及它和传统量化有什么区别、人又该在交易流程中扮演什么角色。此外，我们也聊了聊最近很火的 Jev 到底能不能在 AI Trading 中发挥作用。
+贯穿整期节目，还有浩哲的一个观察：
+在金融里，决策很便宜，行动很贵。
+你可以轻易获得成百上千个判断和信号，但真要付诸交易，「可解释性」就变得非常重要。你得知道判断是怎么来的、为什么值得相信，才能决定自己是否愿意为它付出真金白银。
+节目最后，我们还聊到了一个颇有哲学意味的问题：随着 AI 越来越强，「Human in the loop」或许不是因为 AI 需要人来判断，而是人需要通过参与，来确认自己的意义感和价值…？
+【人类博物馆】
+导游：曲凯，42章经创始人
+53 号珍藏：吴浩哲，Vibe-Trading 作者及维护者，武汉大学数学系本科，香港大学在读博士生、HKUDS 成员，长期探索 AI for Finance 的研究与实践
+【时光机】
+* 01:26 介绍下 Vibe-Trading：为什么开源不到半年，就能有 3 万多 Star？
+* 02:20 在金融里，决策很便宜，行动很贵
+* 04:35 AI Trading 就是在几乎免费的决策和代价昂贵的行动之间，建立可验证、可审计的通道
+* 07:25 AI Trading 和量化的区别
+* 09:59 用 AI 抓市场情绪，对 Trading 有帮助吗？
+* 11:33 AI Trading 里，行业 know-how 都可以由 AI 来判断？
+* 13:43 存储行情中，用 AI Trading 的一次操作实例
+* 15:42 用 AI Trading 的人多起来后，会给市场带来什么变化？
+  * 15:19 「安息吧，财报后漂移！」
+* 19:57 AI Trading 系统的四大组成部分，和其中最重要的一件事
+* 23:53 数据多，其实真的不等于有 Alpha
+* 27:23 Jev 对 Trading 的帮助，可能约等于零？
+* 30:26 交易的本质
+* 32:34 Kimi、Workbuddy 等在推的 AI for Finance，和 AI Trading 是两件事
+* 34:00 AI 会给人的投资能力带来怎样的变化？
+* 35:40 不是 AI 需要人做判断，而是人需要 AI 来体现价值？
+* 37:42 上手 AI Trading 的建议
+【The gang that made this happen】
+* 制作人：陈皮
+* 剪辑：陈皮
+* 片头：Mondo Bongo - Joe Strummer &amp; The Mescaleros
+* 片尾：Carsick Cars - 松</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期围绕 AI Trading 展开，主持人与港大在读博士、HKUDS 数据智能研究室成员、Vibe-Trading 作者浩哲（文稿中自我介绍为吴昊哲）对话。浩哲自述武汉大学数学系出身，做过传统挖因子、深度学习、大模型处理文本、agent，几乎把 AI trading 的几大方向亲手做了一遍。今年 4 月 1 日开源 Vibe-Trading，不到半年 GitHub 超过 3 万 star，来自超过 20 个国家和地区的贡献者。核心议题是：AI trading 不是让模型预测涨跌或自动下单，而是在“几乎免费的决策”和“代价昂贵的行动”之间建立可验证、可审计的通道；讨论延伸到项目转型、市场影响、数据对齐、harness、jeff、AI finance 与投资者增强。</p>
+<h2>关键要点</h2>
+<ul>
+<li>
+<p><strong>项目定位与转型</strong>：Vibe-Trading 最初是给量化研究员用的专业工具，去年年底内部名叫 quana agent，做了一堆量化能力，包括 400 多个因子、九个市场的灰色引擎、统计检验。今年发现需求相悖，改成二级市场交易台，用自然语言把投资想法变成跨 desk 研究团队，覆盖宏观、公司基本面量化、风险回顾。浩哲认为受欢迎的关键是“踩对时间了”：今年 3、4 月市面上没有一个 all in one 的 financial desk agent。</p>
+</li>
+<li>
+<p><strong>AI trading 的定义</strong>：不是 AI 预测明天涨跌的“神谕”，也不是 AI 自动下单、躺着赚钱。浩哲的原话是：“AI trading更多的，不是让模型去做出更多的决策，而决定哪些决策更有资格去变成行动。”它要在“几乎免费的决策和代价昂贵的行动之间去建立一条可被验证、可被审计的通道”。模型负责产生决策，读材料、想假设、写代码、给判断，这一侧很便宜；harness 决定哪个角色有资格变成行动、做到多大、规则外谁拍板，这一侧反而最贵。</p>
+</li>
+<li>
+<p><strong>决策便宜，行动贵</strong>：金融里决策从来不稀缺，市场每一秒都在报价，研究 agent 一天可以对几千只股票给判断，决策“几乎是免费的”，真正贵的是行动。研究结果能不能让人检查、能不能让人理解，是他越来越重视的问题。量化信号如因子、IC、夏普比率对普通人是天书，无法解释“我为什么要买这只股票”。AI 应辅助主观投资，把研究变成现金流、催化剂、风险等能讲清楚的理由，最后操作仍由人做。原话：“一个人要为自己的行动负责，他就必须要向自己去解释这个行动。”</p>
+</li>
+<li>
+<p><strong>自己实盘：80%—90% 遵循 AI 建议</strong>：浩哲现在炒股使用自己的工具，买卖时相信 80% 到 90% 都遵循 AI 建议，人的作用是验证推理链条是否合理、最后验收。今年 7 月存储行情整体下跌，市场讨论中国厂商扩产会不会压低存储价格。他的 agents 提出：内存、闪存、机械硬盘都叫存储，但受到的冲击不一样，并围绕问题做验证实验。最终选到希捷，因其主要做机械硬盘。AI 结论偏谨慎，但通过人和 AI 合作，最终决定在“菜包前买入”。他认为这说明市场因新闻对整个行业定价时，会出现一些不充分的定价。</p>
+</li>
+<li>
+<p><strong>AI 普及对市场的三个影响</strong>：第一，信息被价格消化的速度越来越快。2000 年之前有名的“财报后漂移”现象，约 2022/2023 年一篇论文叫“安息吧。财报后飘逸”，指美国指数里这种漂移好像从 2006 年起就已经不存在；AI trading 普及后甚至可能缩短到几秒钟。第二，超额从单个信号搬到组合条件，所有人都能一键跑因子时，单因子 alpha 很快消失，价值在跨 desk 数据同时拿到、对齐、拼接。第三，错误传播更快，AI 制造误导，如五角大楼附近爆炸假消息导致美股短暂下跌；multi agent 在共同股票市场交易可能产生合谋、内幕，如何确权没有答案。</p>
+</li>
+<li>
+<p><strong>好与坏的 AI trading</strong>：好系统应该是“决策尽可能多，而且还便宜，但是行动尽量的少。每一个行动都要有它的来由，有它的边界，有人负责”。收益率、胜率不是原因，更像结果，完备系统可能自然结出好结果。坏系统有两种：把每一个便宜决策都变成行动，即过度交易，很多用 jeff 做确定的就是这一层；或过于谨慎，一个行动都不敢做，但系统也给不出到底是为什么。</p>
+</li>
+<li>
+<p><strong>核心要素：数据对齐、harness、model、人</strong>：模型智商决定系统能想到什么；独家数据决定想到的东西别人有没有想到；数据对齐决定想到的东西是不是真的；harness 决定想错了能不能被系统自己阻止。前两样让决策更好，后两样守护从决策到行动的这一刻。浩哲认为智商和独家数据的边际价值在下降，数据对齐和 harness 的价值在上升，其中数据对齐最重要。口径对齐例子包括：价格有没有付全，数字单位是千美元还是美元；EM 到底是一个月还是一分钟；小交易所单一数据源挂掉后降级到加密货币交易所美元计价，金额差六七个数量级。还要严格做好 PIT，缺数据时 agents 应主动暂停并告诉用户缺数据，而不是静默使用。</p>
+</li>
+<li>
+<p><strong>数据多不等于有 alpha</strong>：在大家都能拿到的日线和另类数据上能找的规律，已经被价格吃掉了，不太会通过采买数据找到 alpha。买数据真正的作用是让命题可以被检验：“数据本身其实并不会告诉你答案，他只是会让你去验证你的想法到底是对还是错。”个人和小团体拼数据广度拼不过机构，更应拼数据对齐质量，以及把数据结合起来的想法。</p>
+</li>
+<li>
+<p><strong>jeff 对 trading 帮助约等于 0</strong>：jeff 优化的是金融里非常便宜的那一侧，即决策，而金融缺的是决策到行动的可信转换。金融核心材料里数字、日期、噪音、故意误导的文本，恰恰是 jeff 不擅长的。jeff 只给概率不给理由，长期很难让人相信。浩哲的比喻是：“jeff更适合当一个门口的分拣员。他不适合去做一个把这整个链条快递给你的那个快递员。”它适合做新闻初筛：这条新闻是不是原始公告、是否相关，量大、便宜、不涉及算术和日期，做错也只影响少看几个公告。forecast 问题也严重：交易是对概率下注，不是对答案下注；两个 90% 不能简单 0.9×0.9，因为判断常基于同一条新闻，新闻错则所有假设全错。</p>
+</li>
+<li>
+<p><strong>AI finance 与 AI trading、投资者分层</strong>：AI finance 更多是让金融机构工作变得更好，如 ISOK 今年 5 月开源的金融模板、Kimi 九月份发的产品，关注交付具体工作成果、能否每天接着用、是否稳定；AI trading 的最终目标是问 AI 能不能持续跑赢市场，需要一直向外表现惊艳。差距更多在细节：谁能接上更多机构数据，谁能更好理解团队工作方法，谁能让成果被同事接受、复核、继续修改，换更强模型解决不了。对 20—30 分的人，AI trading 帮助风险把控和研究，不必再听小作文；对五六十岁已会基础判断的人，可做更专业的 fundamental、宏观；对八九十分人群，AI trading 让 idea 在多个维度被验证，宏观不会写代码、量化不懂价格背后的经济学原理，AI 都能帮他们更自信。0 到 1 建议：先想好愿意花多少钱承担风险，隔离风险，单独账户，不能当致富密码；也可以让 AI trading 帮自己尝试从未试过的市场或领域。</p>
+</li>
+</ul>
+<h2>独家细节</h2>
+<ul>
+<li>
+<p><strong>项目前身与内部命名</strong>：Vibe-Trading 启动得比较早，去年年底内部名字还叫 quana agent，本质上做了一大堆量化东西，包括 400 多个因子、九个市场的灰色引擎、各种统计检验。今年发现大家需求和这个相悖，才慢慢改成二级市场的交易台，量化只是其中一部分。</p>
+</li>
+<li>
+<p><strong>前天刚修的 bug 与数据源降级</strong>：浩哲提到一个不是段子的 bug：有些弱模型真的会把用户输入的 pro max 中的 EM 随机分配到月线或分钟线。另一个例子是，小交易所只有一个单一数据源，数据源挂掉后会降级到加密货币交易所的以美元计价的数据源，一切看起来没问题，但金额差了六七个数量级。</p>
+</li>
+<li>
+<p><strong>今年 7 月存储案例的私人决策</strong>：存储行情热后整体下跌近半个月，agents 围绕“内存、闪存、机械硬盘都叫存储，但冲击是否一样”做验证，最终选到希捷。AI 给的结论比较偏谨慎，但通过人和 AI 合作，最终决定在“菜包前买入”。这是浩哲自己的实盘例子。</p>
+</li>
+<li>
+<p><strong>即兴比喻与争议表达</strong>：jeff 适合当门口分拣员，不适合做把整个链条快递给你的快递员；谈到亏损责任时他说：“总是赔钱了之后说能不能未成年退款吗？大家也都知道不可能。”聊到白酒这类判断时，他直接把场景归成“情感陪伴”，认为本质是 AI 和人在辩论，人已经不太在乎逻辑观点，AI 用逻辑回他，但人还是会说“我觉得他不会消失，他一定会好”。</p>
+</li>
+<li>
+<p><strong>论文、假消息与哲学结尾</strong>：他引用论文“安息吧。财报后飘逸”，说美国指数里财报后漂移好像从 2006 年起就不存在了；提到五角大楼附近爆炸假消息导致美股短暂下跌。结尾他抛出一个反问：“人是不是就该问自己，我还能做什么？这个世界还有什么事情需要我？”并判断“人的这个决定权不能随着机器能力的上升而消失”，因为人需要通过创造、通过决定、通过承诺、通过责任来感受到自己的生命存在是有分量的。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Do something there.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，我们今天很开心请到了浩哲。因为昊哲之前做了一个AI trading的开源项目，是非常的成功，有非常多star而他自己也是用户所以我们今天想找他来跟大家一起交流一下AI trading现在的一些新的变化。浩哲你先可以先简单自我介绍一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，感谢曲凯老师。大家好，我是吴昊哲。然后我现在是港大的在读博士，在这个HKUDS数据智能研究室，同时也是这个开源项目web training的作者和维护者。我是武汉大学数学系出身。然后这几年其实一直在做AI和量化交叉的这些事情。从最早的传统的一些挖因子，然后到后边的深度学习，到前两三年比较火的用大模型去处理文本，然后再到最近的做agent。其实差不多把AI trading的这几大也都已经亲手做了个遍了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今年的4月1号，我们把这个web trading开源了。到今天不到半年，give up上已经有超过3万个star然后有来自超过20个国家和地区的贡献者。做完这些就感觉我对整个AI trading的看法和一开始也挺不一样的。今天刚好和徐凯老师可以好好聊一聊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好呀好，我们要不先从你的那个开源项目讲起，能不能先给大家介绍一下那个项目？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的。By trading是什么的话，我想用一句话来概括，它相当于就是给了每一个普通人一只。你用自然语言提一个投资想法，它就可以变成一支跨das的研究团队来覆盖掉宏观面公司基本面量化，然后包括一些风险回顾。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实一开始，web trading并不是这样的。一开始它其实是一个给量化研究员用的专业的工具。我们这个项目其实启动的比较早，去年年底的时候我们内部名字还把它叫做quana agent。因为我们本质上做了一大堆量化的东西，包括有四百多个因子，然后九个市场的灰色引擎，然后还有各种各样的统计检验。但今年我们发现就是大家的需求和这个还挺相悖的，所以我们慢慢把它改成了一个二级市场的交易台，就是覆盖了所有二级市场该有的方面，量化只是其中的一个。我觉得这个变化的背后，其实是有一个我越来越重视的一个问题，就是研究结果能不能让人检查，能不能让人理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大家都说金融需要可解释性。但其实我们从另一个角度来说，量化对普通人来说就是天书。你给一个普通投资者去看一个因子信号，去看一个IC，去看一个夏普比率，其实他什么都解释不了，根本没办法通过这些数字来去对自己说，我为什么要买这只股票？其实这就跟我最近一直以来的一个观念很像，就是行动很贵。就是一个人要为自己的行动负责，他就必须要向自己去解释这个行动。一个他看不懂的量化信号，其实他不会为他去掏钱，也不会为他去担责。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以如果说作为一个开源项目，想要让人更多的去用起来，我觉得就是需要去辅助他的主观投资，去把AI的研究变成他能讲清楚的理由。比如这家公司的现金流怎么样，这个催化剂是什么？风险在哪？然后最后的这个操作行动其实还是他自己做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过去一段时间我觉得甚至于过去几年，其实大家不断的在用AI尝试在金融跟财务领域去做很多事情，尤其是炒股这一块。我记得之前有看过一个数据，说某个模型的第一大场景就是用户跟他聊天，其实就在问各种股票的事情。所以我想问一下，就是你们这个开源项目你觉得之所以成功，除了你刚才讲那个点，我觉得它是一个大的理念，有什么具体的一些点是让他这么受欢迎？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实更多的我觉得是踩对时间了。就是在今年3 4月份的那个时间点，其实市面上没有一个all in one的这么一个financial desk agent的出现。可能我们更多的是踩中了那个风口。然后我们也确实是想把这些复杂的能力去把它下降到普通用户上。所以说我觉得这个是一个很关键的点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你所谓的all in one是哪些方面的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>In one就是整个二级市场的所有的工作台。哪怕你不是普通人，你是一个从业者，你也可以说在里面去做一些本来的工作。比如说如果你是一个做fundamental的，你完全可以用这个工具去测试一下你对于整个宏观市场的直觉，或者说你整个的一个量化的思路。或者说直接把你的fomented的之前的从业经验，直接转换成一个可以自动化执行的一个量化策略。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白。然后其实你刚才也提到了，就是我们之前也聊过一些人在讲说AI会给量化带来新的以待的变化跟机会。但后来我们发现可能更多的大家能看到的，接触到的都是AI在辅助主观投资这件事情。当然我们在提到AI trading这个词的时候，我觉得各种投资行为都可以理解成AI trading对吧？主观的投资也算是一种锤定，然后量化也算一种锤定。然后包括很多人在用AI去做一些focusing的这些垂鼎也是类似的，我能不能请你帮忙定义一下AI training这个词及它最适用的一些场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得在讲这个AI确定的这个定义之前，我想先讲一下我这一年以来最确定的一个观点。就是这一年以来在别的行业里面，其实大家都会提到一个问题，就是AI让自我变得很便宜，难的是决定做什么。就比如说我们拿着软件开发来说，就是AI可以帮你去写代码，去补测试，去排查错误，可以帮你去运行，可以帮你去运维，然后成本也下降了。但是开发流程中还是需要有很多重要的判断。比如说用户需要什么功能，值不值得做方案，怎么取舍，这是在别的行业里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但我觉得在整个金融里面，这件事其实是反过来的。因为金融里边决策是从来不稀缺的。因为市场每一秒都在报价，每个价格背后都是有人做了一个决定。社交媒体上每天也会有很多很多的观点，一个研究agents一天可以说对几千只股票都各给出个100个判断。这个样子就决策是很多的，几乎是免费的，真正贵的反而是行动。所以说在讲定义之前，我所有的观点就围绕了一句话，就是AI trading更多的，不是让模型去做出更多的决策，而决定哪些决策更有资格去变成行动。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我觉得可以先说AI确定不是什么。因为现在大家一听到AI确定脑子里都是两种画面。一种是AI预测明天涨还是跌，像一个神一样去发他的神谕。另一种就是AI帮我自动下单，我只要每天晚上一起床，我就可以躺着赚很多钱。这两种其实就都只看了一小部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我的定义就是AI确定是在几乎免费的决策和代价昂贵的行动之间去建立一条可被验证、可被审计的通道。因为其实展开来说的话，相当于就是如果说我们要把一个投资判断从想法走到下单，再走到复盘。那其中就是有三个角色，就是模型去负责产生决策，读材料、想假设写代码，给判断这一侧很便宜，而且随着未来的这个模型的发展，它只会越来越便宜。然后harness来决定哪个角色有资格变成行动人的话，就是去决定什么能做什么不能做，做到多大规则之外的事情谁来拍板，以及如何去制定哈尔尼斯的规则这一侧反而是最贵的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>讲到这里的话，其实会有一个很天然的分别出来。就是AI trading和传统量化之间一个很值得讨论的区别。就是传统量化其实是人先把角色想好，固定成了规则，然后让机器便宜的大量的去执行责任。其实在写规则的那一刻就已经定下来了。因为我们在开发量化策略的时候，可能你在一开始就知道了你这个的换手率是多少，策略容量是多少。而AI trading是机器在不停的去产生决策，他读的更多的也是非结构化的一些数据。比如说新闻公告、电话会议，比如说社交媒体决策其实是在不停地冒出来的。所以说责任并不像量化一样，只需要在写规则的那一刻定一次。而我觉得是需要有一个闸门一样的东西去持续的去对它进行把关。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也可以举一个例子，就比如说我们对现在一些很火的股票去分析它的这个基本面。那我们就去看它的这个现金流到底是经营真的变好了，还是说是一次很偶然的变化。AI的话就可以帮你先整理一些财报和公告，把相关的一些数字、出处、时间全部找出来，再列举一些可能的假设和解释。这其实最重要的就是去分清哪些是这些材料里面的事实，哪些是agents去根据这些材料给出了一些假设。那接下来我们就需要根据这些假设去做一些检验。比如说现金流改善是不是来自应收账款的回收，还是说只是延后的付款，那同行是怎么变的那有没有和之前判断完全相反的证据？如果说进一步需要把这个想法变成一个交易策略的话，那我们到底能不能拿到这个实时的信息回测，有没有去偷看未来，以及扣掉所有的这些成本之后，结论是否还是成立的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说就是在整个金融研究里面，最后应该留下的应该是一个有依据以及也有适用条件的一个判断。就是哪些证据去支持它，哪些信息我们没有然后发生了一些改变的时候，我们就需要去修改它的结论。就比如说我们突然获取了哪些信息。但如果证据不够的时候，也必须要停止在不能判断，而不是说给你一个模棱两可的一个结果。至于这个东西最后要不要去买卖下单，那这个就是交给人来去决定的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>总而言之，我觉得AI确定更多的就是一个从材料到假设，然后再从假设到验证，然后再到一个有边界的执行复盘。所以说我觉得就是我的观点和大家还挺不一样的。现在市面上的观点应该更多的只是其中的一部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后我知道现在有些人在用AI去扒那些比如twitter edit里面的很多评论，去分析散户对这只股票某个资产的情绪什么的。对他其实跟我们讲的那些实际的去看逻辑，看数据都还不太一样，但更多的是看市场情绪，我不知道你现在有没有借助来做这样的事情，然后你觉得这种做法实际带来的价值是怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我确实是有过这样的做法，我也可以说这种做法是很有效的。因为大家都知道一些论坛上的这些舆情，其实更多的都是一个反向指标，当然这会带来一个问题，就是如果说每个人都去这么做，那一定会有反向而行之的人。就比如说当我都知道大家都开始去8，比如说小红书，推特上的这些所谓的散户的发言。那我能不能说有一些机构他可以说去弄一些机器人，去专门去做一些这些虚假的信息。那其实也很有可能这个东西没有人能说得好。因为本质上我吹顶这个事情就是一个零和博弈，你本质上赚的是别人亏的。所以说就是一旦这个方法变得足够的被大众所知的话，那就一定会有相应的反制行为。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说我觉得当然也扯远一点讲，就是没有任何时候是有一个一成不变的获利方式的。我觉得更多的就是需要一直变。举一个比方，相当于他就是你一直在打游戏一样，你的对手也在变，你的版本环境也在变。所以说你本质上就是你需要一直变，你的方法也要变，你的风险偏好也要变，然后你的想法也要变。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我在想你刚才说的这些里面，比如说他怎么样去交叉验证，他看完有A这个股票，他要去看这个行业，再去看B他就是看C等等。这些里面就很多是人的能耗的部分，对吧？就是有的人会觉得说，我这边讲看完A的利润，我要去看一下行业利润。有的人可能觉得我跟关注A的收入，或者A最近的一个投入，它的成本等等问题。得到这些哪些是AI能自主的去决策的去判断，哪些是需要人去加进去的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得可以武断点来讲，就是所有的行业know how本身都是可以由AI来判断的。因为本质上这些知识在模型的迭代过程中，其实都已经被蒸馏到里面去了。需要人来判断的更多的是风险层面的。因为人到底能承受多少风险，AI其实也不知道，因为每个人是不一样的，所以说我觉得更多是这个层面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>紧接着其实就是我想问的下一个问题，跟这个相关。如果模型已经把这些都争了进去了，那所有人他自主的去用比如说GBT或者其他的一些air lab的这些产品，直接去聊天框里面去问问题和分析。跟我单独做一个第三方的工具的区别是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>区别更多的就是我们刚刚提到的一个可选即可验证以及可以rerun的一整个流程。因为本质上无论是code x还是cloud，我们可以把它理解为一个偏黑香一点的东西。就是很多时候你其实没有办法去重新跑一下这个数字。然后又因为大模型会有一定的幻觉，就导致你每次rerun可能并不是一个确定的答案。我们需要有自己的工具的话，更多的就是因为我们可以完全控制模型能生成什么，然后什么东西必须要通过一些正确的计算来做。对我感觉是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你现在自己在炒股的时候，是使用的自己这个工具吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以你觉得你最后在操作的时候，在买卖的时候，到底多大程度上是遵循了这个AI的建议？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>相信80%到90%都是遵循AI的建议。更多的我的作用就是像刚刚提到的一样，去验证一下这个推理链条是否是合理的。当然这里也有一些我自己的一些例子也可以举。就比如说今年7月份的时候，就是存储不是行情很热，然后也经历了一段很整体的一个下跌，将近了半个月。其实那段时间大家讨论的一个话题就是中国厂商扩产会不会压低整个的存储价格。我的agents提出了一些问题，就是内存、闪存、机械硬盘，其实它们都叫存储。那他们受到的冲击不是一样的吗？然后他就会围绕着这个问题去做自己的一个验证和实验，最终得到的答案是显然是不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是整个市场会因为这些新闻去对整个行业去定价，那就意味着其中会有一些不充分的定价。比如说当时就选到了一只股票叫做希捷，因为他主要做机械硬盘，然后我们就去对比了细节，整体的这个财报后的涨上涨表现以及一些历史的样本。AI给的结论虽然比较偏谨慎，但是通过人和AI的合作，最终还是决定在菜包前买入。就用这个例子来看的话，应该是差不多80%到90%的空间都留给了AI去做。然后我就是去负责最后的验收，以及去看一下逻辑是否合理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我在想如果百分之八九十都已经是听AI的那最终为什么不能让AI自主的去操作这件事情，然后甚至于说它就变成了一个近乎于量化的一个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>能更多的还是一个全权的问题。就是我并不觉得AI training这个事情最终会发展到成为一个成规模的，人们不需要管，只需要他需要去决策的这个事情。因为哪怕说是量化行业，就是尽管它已经很自动化了，但是你也需要为你的每一次开仓，每一次亏损是要负责的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白。然后现在我感觉用AI去做辅助交易的人越来越多了，包括各种机构和个人。那这个会对现在的市场交易会有什么影响吗？因为像你刚才举的那个存储的例子，如果大家都用AI的话，都用类似的功能的话，那可能这个东西又变成一个共识了。就是市场会变动的更快吗？还是会怎么样？这个我不知道你现在觉得有没有已经看到一些苗头，或者未来会怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个问非常好，也是我觉得当今应该大家都要关注的一个问题。我觉得大概有三个。首先最重要的一点，就是信息被价格消化的速度会越来越快。就是刚曲凯老师讲到的那个，不知道大家有没有一个knowledge，就是在2000年之前，学术上有一个很有名的经济学现象，叫做财报后漂移。就是好财报出来之后，其实股价并不是一天就涨到位的，而是会在之后的几天，甚至几周，甚至几个月里慢慢的往上飘。因为读财报、改模型、开会下单这些东西在当时那个年代，其实每一步都需要人来做，但是这个时间在21世纪之后，其实是在慢慢缩短的。我记得好像是在2022年还是2023年，其实好像就有一篇论文，它的名字还比较有趣，叫做安息吧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>财报后飘逸，指的就是在美国的这些指数里面，这种漂移好像是从2006年起就已经不存在了。财报里的意外信息其实在发布的当天就已经被完全消化完了。当然我觉得随着AI锤炼的普及，我的判断接下来它甚至会缩短到只有几秒钟，就是无论什么信息它都缩短到只有几秒钟。所以说这其实就有一个很重要的投资者行为改变了。就是在之前读其实是一个很有价值的事情。因为你并不是每一个人都能去读懂一份年报，读懂一份财务报表。但在现在来看，这个事情已经没有任何门槛了。每个人都有一个可能说一分钟就能读完一份年报的一阵子，比别人先读到或者说先读懂，其实就没有那么值钱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我觉得第二个点就是在于所有人都有了一个agency，可以读一份很强的研报之后，其实整个的这个超额就可能会从单个信号慢慢搬到一个组合条件上面。就比如说所有人都可以一键跑一个因子的时候，那单个因子的阿尔法其实很快就已经消失了。那剩下的机会其实根本就不在这一个阿尔法里面，而是在需要把这些数据同时去拿到，同时去对齐，在同时拼接到一起。相当于就是真正的有价值的东西是在这个跨desk之间，或者说并不在单个因子的边界上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后第三点的话可能更偏正式一点，就是刚刚我们提到信息处理的速度会变快。其实这也有个问题，就是会让错误传播的更快。这个我觉得是当今很多监管部门都在关注的一个问题。我觉得其中一类就是专门针对AI去制造误导，就比如说一些假消息，我记得前几年好像是有一个用AI去生成五角大楼附近发生了爆炸，然后美股就出现过短暂的一个下跌。所以说相当于就是当每个人都有很多的这种系统去直接去读这些消息，形成判断并下单，这些误导就会很快的传导在价格上。这对于监管层面来说其实是一个很有挑战性的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有一个就是可能会有一些意料之外的情况发生，就是关于如何确权。因为其实我们也研究过一些multi agent在一个共同的股票市场进行交易会产生什么影响。一些研究的结果就是他们会不约而同的产生一些类似合谋，然后内幕这些的。操作。这些操作如何去确定这个责任方是谁？到底是模型厂还是使用的这个人，还是交易所？其实是一个现在都没有答案的一个问题。我觉得这些问题是当今最应该被解决的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你觉得AI training里面最核心最重点的到底是什么？就是如果所有的人和机构大家都在用类似一套东西的话，那这里面的好坏拼的是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>来确定。我们可以简单的把它归成四大类，数据的对齐，然后一个harness一个model，然后这个model的话它就有不同的智商，不同的偏好，以及还有人首先我们需要先定义一下，一个好的AI trading是什么？一个坏AI trading是什么？就是我认为一个做的好的AI确定的系统应该是决策尽可能多，而且还便宜，但是行动尽量的少。每一个行动都要有它的来由，有它的边界，有人负责。然后至于大家很关心的收益率、胜率这些东西，我觉得它并不是一个原因。它更像是一个结果，就是一个完备的系统，可能自然而然的就会结出一个很好的结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然做的不好的系统就是有有两个例子。首先第一个就是把每一个便宜的决策都变成了行动，这就叫过度交易。最近我们看到很多用jeff去做确定的，其实本质上就是这一层。然后另一种就是太过谨慎，就是一个行动都不敢做，但是系统也给不出到底是为什么。这两种就是我觉得是做的不好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>系统有了这个定义了之后，我觉得其实很多东西就清楚了。就比如说一个模型的智商，其实它只是决定了这个系统能够想到什么。然后独家的数据就是决定了这个系统想到的东西别人有没有想到。数据对齐就是去看他想到的这个东西到底是不是真的。Harness其实也就决定了他想错了，能不能被系统自己的阻止住。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>前两样更多的就是让决策变得更好，后两样相当于是帮你守护从决策变成行动的这一刻。然后这个就回到我们最初提到的一个观点，就是在金融这个里面是反身性的，就是决策是很便宜的，行动才是最贵的。所以说我们并不需要在决策变得更好这上面去下文章，就相当于就是智商和独家数据的边际价值其实是在下降的。行动很贵，因为你每一单你都要付手续费，你亏损了你是需要自己承担的，而且你没法撤回。那总是赔钱了之后说能不能未成年退款吗？大家也都知道不可能。所以说后两样的这个价值其实是在上升的，也就是数据对齐和harness。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果挑一个最核心的话，我觉得就是数据对齐是最重要的。对齐了可能不只是一件事情。这里我也可以举一些我们开源项目上遇到的一些问题，其实有些也蛮搞笑的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第一个我觉得是口径对齐。就比如说最常见的一个问题就是价格有没有付全，这个数字的单位到底是千美元还是美元。我还有一个很搞笑的点，就是EM到底是一个月还是一分钟？这个并不是一个段子，是我们前天刚刚修的一个bug，是有一些弱模型真的会把用户输入的pro max就是这个em随机分配到月线或者是分钟线。还有一种就是比如说一些小的交易所，他只有一个单一的数据源。如果说这个数据源它挂掉了，会降级到这些加密货币交易所的。他们那些以美元计价的数据源，一切看起来都没有什么问题，但是金额差了六七个数量级，这是口径对齐很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后第二个我觉得量化里面也很重要的一个概念叫poising time就PIT。因为我们在做回测的时候，其实很容易就会导致一些问题。就是你2020年的一次选股，你可能用到了一个这个公司后来才更正的一个数字。今天来看我们可能觉得这个数字非常正确，但站在当时就没有人能拿到它，毕竟它是未来的事情。你相当于提前看了答案，那回测肯定是好的。所以说在处理这些东西的时候，我们一定要严格的做好这些PIT相关的工作。第三点的话，我觉得就是缺数据的时候，agents能不能去主动的暂停，并告诉你说这里是缺数据了，而不是说静默的去用这些数据，然后再去做因子的一些回测。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你刚才提到一个点，你说独家的数据其实可能没有大家想象中价值排名那么高。但我知道有一些人做交易，他其实比较看重的就是比如说谁在买，谁在卖，对吧？他能知道或者说他提前能拿到一些内部的信息，但这个不是说违反信息的那个法律。但大家就尤其是你看像一些专业的机构券商，他可能能够提前的跟董秘什么的有一些沟通，对吧？然后他能公司会提前有些合法合规的一些电话会之类的，那这些东西如果拿到了，是不是会对结果有非常大的影响？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个问题其实我先给出一个很肯定的答案，就是数据多其实真的不等于有阿尔法。因为在大家都能拿到的日线和另类数据上能够被找到的规律，其实已经被价格吃掉了。不太会存在说通过一些采买数据能够找到阿尔法的点。然后我觉得买数据，其实它真正的作用是让你的这个命题可以被检验。数据本身其实并不会告诉你答案，他只是会让你去验证你的想法到底是对还是错。因为很多时候你以为一个想法不行，其实更多的只是数据不够，或者说口径没对齐，而不是说想法本身错了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后这就又刚回到那个问题，就是很多人他喜欢去采买一些很独家的数据。这里想说的就是，这其实作为散会也好，或者说一个小的团体也好，肯定是要有自知之明的。就是机构在数据上的投入绝对是个人和小团体根本就没有办法去比的。就拼数据的广度肯定也拼不过能拼的。我觉得更多的就是一些数据的对齐质量，以及去把一些数据结合在一起的一些想法。这样的话其实是能抓到一些没有太被市场反映到的一些价格。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，你看我们今天聊的时候，你提了蛮多次说AI去帮忙读财报，去看数据之类的。但这些我理解都是比较显性的东西，就是他已经到了逻辑推演的比较后期了。但就有些人他可能是更主观的那种更fundamental的去做个判断，对吧？比如说AI如果起来什么东西就会起来，那这种是不是AI是不太适合做吗？我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这种其实反而是AI最适合做的。我可以把刚刚的问题归结为是价格的传导链，就是刚刚您说到的AI起来什么就会起来。我觉得本质上就跟什么，比如说油价起来，然后美债价格起来，黄金起来会带给这个市场什么影响，其实本质是一样的。AI很擅长做这种deep research相关的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但你说的这个还是更严谨逻辑链条上的一个逻辑。我讲的更多的是，比如说我举个不一定恰当的例子，比如说白酒，如果你让AI纯看财报，也许他觉得不是一个好的事情。那有的人就会觉得说他有一个大的方向的判断，他觉得说白酒一定不会消失，对吧？他就会怎么样。这个是不是AI就不太能做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个的话就会陷入到一种扯皮的经历。我觉得更可以把这个领域归成情感陪伴了。因为本质上是AI和这个人在进行辩论，就是他已经不太去在乎这个逻辑的观点了，更多的就是这个人他去自说自话，然后AI去用逻辑回他。但是那个人还是会说，我觉得他不会消失，他一定会好，所以我觉得是就变成这种的一个感觉了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你好，和我理解的。然后你刚才提到的jb，你觉得jb实际对AI trading的影响是什么呢？尤其是在focusing领域对吧？Focusing本身很多就是在做一个概率的一个投入。那债务是不是在这些这方面上确实是有帮助的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能也要先泼一盆冷水。就是我觉得jeff对trading的帮助也不能说没有，可能就是约等于0，我能理解他受到关注比较火热的一个原因是因为在agency浪潮里边，大家反复去调用大模型，只是为了去得到一个答案，然后又慢，然后它又贵。但是jeff把这件事情做成一个又便宜又快，加上这个相关的生态，也就马上跟进。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我觉得把这种能力放到金融流程的话，我觉得其实还有很多很多问题没有解决。第一个问题就是它优化的本来就是金融里边非常便宜的那一侧。就是我们刚刚也一直在提到的一件事情，就是金融里边决策是很便宜的，价格几乎为零。他缺的根本就不是便宜的决策，而是需要的是一个决策到行动的一个可以被大家信服的一个转换。但这个其实本质上相当于就是把原本不太值钱的东西变成根本就不值钱了。其实对整个AI确定的领域来说，我觉得起不到一些推动的作用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二点就是金融最核心的一些材料，其实本质上就是他不擅长的。因为jeff刚出的时候我也去看过，我记得他官方文档上好像是有写到有一些它的弱点。就比如说数学计算这些比较。但是我们想一想数字日期，很多噪音的材料，有人来故意误导你的文本。这不本来就是金融世界本来的样子，那就相当于就是他不擅长的东西，偏偏是金融领域本来的样子。所以说这也是一个方面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后另外一个问题，我觉得就在于他只给你概率，然后不给你理由。这也是刚刚提到的一点，就是我觉得其实大家也可以思考一个问题，就是如果说你真的去把你的钱去给jeff，你真的会在一个很长期的时间去相信他吗？因为本质上他根本就没有给你任何的分析链条。他只是告诉你说这个东西买，这个东西不买。然后可能等你反应过来的时候，他已经亏了很多很多的钱了。所以说我觉得这就是jeff目前不太适合吹牛的一个原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然我觉得他在金融里面还是可以用到很多别的方面的。就比如说我们每天可以收到很多很多信息，他可以做一下初筛。比如说这个新闻是不是说这个公司的原始的公告，还是说它是转载的这个材料和这个问题有没有相关性？这些问题其实就是比较便宜，而且量很大。你一天你可能要做个几万次、几十万次，它不涉及算术和日期。而且最关键的一个问题是，他如果做错了，他也只是影响了，比如说我今天少看了几个核心有价值的公告，但是我其他的公告漏就是也进来了？那其实对我最终的一个人的判断不会产生什么影响。所以说比较形象的一个例子就是jeff更适合当一个门口的一个分拣员。他不适合去做一个把这整个链条快递给你的那个快递员。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后刚刚李学凯老师也提到这个forecast里面这个问题，forecast零这个问题其实也比较严重。就是我觉得交易的本质上其实是对概率去下注，而不是去对答案下注。一只股票的价格我们可以形象的理解成它是对未来各种可能性的加权平均。你的赚钱的逻辑就是你的概率和市场隐含的概率之间的那个差值，再扣掉成本概率相当于就是你的一个决策能够配上多大的行动。就比如说60%的把握去配一个小仓位，更大的把握你配一个更大的仓位，那可能百分百的概率你可能就all in了。但是这里有一个问题就在于，如果说drive返回50%，那它可能就是一次抛硬币，那它本质上不也是一种幻觉吗？那你就不该行动。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说未来一个比较重要的问题，就是AI说自己有多大把握，但这个把握到底靠不靠谱？因为我们用一些简单的数学逻辑也能发现，如果他说两件事情都是90%的把握。就比如说两件事情是分别是这家公司下个季度的营收会超预期，然后第二件事情就是这个超预期会带来股价增长。这两个东西一个概率模型都给了他们91%个把握。那么很多人就会说，我0.9乘0.9，那我这件事情我不就是81%的把握吗？但是这个就悄悄假设了这两件事情是独立的那它真实的这个联合概率你根本就不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>金融离这个问题我觉得就非常的严重。因为你很多个判断其实经常用的是同一条新闻。如果说那个新闻是错的那你相当于你所有的假设全部都是，那你再怎么去每个都是98%，98%我他其实也都是不会成功的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你现在自己在用的是什么模型？然后你觉得目前的模型对于AI确定这件事情大概是一个什么样的水平，是已经完全足够用还是怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我日常使用可能和大家也是一样的，比如就是code x和cloud能力上的话，我们刚刚提到的所有凡是和主观投资相关的，我觉得都已经做的很好了。因为本质上主观投资就是deep research。Deep research这个问题在去年的时候就已经有一个很明确的答案了。AI做的确实会比人好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后现在好多AI lab在做那个AI finance的事情。比如说最近kimi推出的一些东西之类的，这块你是怎么看的？它跟AI trading之间的一些异同是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>本质上AF trading的你的最终目标是想去问AI能不能持续跑赢市场。但是AF finance更多的是在去做AI能不能让金融机构的工作去变得更好，就比如说ISOK今年5月份开源的那些金融模板，它就是相当于做的是金融机构里面的一些什么估值复核，然后材料、对账这些东西。Kimi九月份发的也差不多是这个形式，这些产品更多的就是去关注交付具体的工作成果。他们更多的侧重点应该是去做能不能每天接着用能不能更稳定，而不是说去做一些持续的经验性的东西。因为我个人认为AF trading更多的就是一个你需要去一直向外表现出你很惊艳。接下来的整个AI金融产品的一个差距，我觉得更多的也是会体现在一些细节上面。比如说谁能接上更多的机构的数据，谁能够更好的理解这个团队的工作方法。然后谁能够更好的让这些成果能够被同事接受，能够复合，能够继续修改，谁才能够更有机会被长期使用。所以说讲到这里，其实大家也都明白了，就是在这个领域其实模型进步已经显得没有那么重要了。因为你光换一个更强的模型，其实解决不了些问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以总结一下，你觉得AI确定的工具或者说模型智能这些东西本身，他对于在做投资的人来说，更多的他是一个比如说本来他的投资能力可能是30分，那那他用了一些确定会从30分变成40分，还是可能甚至于更差，或者还是维持在这个分数。然后80分的人用的是会变成90分还是怎么样，还是不一定一定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是对某个人是有增强的。我们就分几个层次来讲。如果说是对于一个本来20分30分的人，那AI trading可以说是帮助他们更好的进行比如说风险把控，更好的进行研究，不必再去听信一些小作文和一些抖音上的建筑。对于一些五六十岁的人来说，他们可能说已经会了这些基础的判断，但是他们没有办法做更深的研究。那有了AI之后，他就可以去尝试做一些更专业的东西。比如说fundamental，比如说宏观，再往后比如说八九十分钟人群。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对于这群人来说，我觉得更多的就是去让他们的这些idea在各个维度上都被验证。就比如说之前其实从业的时候会有一个现象，就是在各种二级机构里边会有。你比如说你一个做宏观的，你其实很难说你自己去亲身去验证一下你这个东西的历史的回测。因为很多做宏观的你可能连代码都不会写。很多做量化的，你本身就是理工科出身，你根本就不知道里面这个价格所代表的经济学原理。我觉得对于八九十分的这个人群，AI确定一定是能够帮他们去从多方位去验证他们的观点，也能让他们变得更自信。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然我觉得还有个题外话，就是现在大家总想要去谈论什么AI能不能替代人，或者说AI直接帮助人去做确定。我在想会不会有一种可能不是说AI需要人去帮你做判断，会不会有一种可能是人需要AI来体现自身的价值的。这个也是我最近一直在思考的一个问题。举个详细的例子，相当于就是我们今天我们去给AI定价，很多时候就是看他能解决人多少的这个复杂的工作，他能省多少工时，他能替代多少个员工，值多少工资。就相当于就是AI需要通过它必须要替代人来做什么才能证明自己的价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但如果未来模型足够强，很多事情做的比人类好得多，这个问题我觉得就会反过来。那人是不是就该问自己，我还能做什么？这个世界还有什么事情需要我？我觉得这个东西其实可能比刚刚谈论的所有的一切都更有价值一点。因为这件事情可能是要比失去一份工作更难受。因为工作除了带来收入，其实也让人觉得你被人需要你对别人的生活产生了影响。我觉得AI train也是你参与到其中的话，你有一些正反馈。所以说我就觉得未来可能哪怕他真的能足够强的去进行自我的确定，我觉得可能最后还是一个human in the loop的一个状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为今天把人留在这个流程里面，我们刚刚提到很多是因为AI很多工作和他的很多抛出的这些东西文档需要人来审核，需要人来把关。尽管以后他们真的不需要这么多的帮助，他们已经不需要审核，不需要把关，但我觉得人也需要参与，因为需要保证自己的生活有方向感、意义感。就是往深一点想，我这次其实有一点那种哲学和神学的那种意味在里边。就是一个人值得被尊重，或者说一个人他的社会地位较高，其实更多的是因为它能够带来更多的价值，还是说因为他本身就是一个人呢？我觉得这个问题在现在来说可能也没有一个什么答案。但是我觉得在以后来说，人的这个决定权不能随着机器能力的上升而消失。因为我们需要通过创造、通过决定、通过承诺、通过责任来感受到自己的生命的存在是有分量的。当然是有点扯远，但是我觉得AF吹牛大概也是一个这么的发展方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>挺好的，这个结尾上了下价值。然后我们最后一个问题，就是对于现在可能对用AI trading感兴趣的人，但还没用的人，有没有一个0到1的一个建议，说大家现在应该先去做哪些事情，怎么样把它用起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然最好的是大家可以先来用一用web trading。但其实我觉得对于这个AF垂直领域，如果大家想要去做的话，第一件事还是去想好自己到底愿意花多少钱去承担这个风险。要先隔离风险，你不能把它当做是一个致富的密码。因为坦白来说肯定会有相应的反制手段出现，他肯定不可能是。一直赚钱，他更多的就是一个新的交易模式。所以说我觉得第一件事肯定就是明确自己的风险偏好，然后给多少钱，然后一个单独的账户，然后去想想办法，看怎么样去尝试一些你没有尝试过的东西。这一点我觉得也很有意思，就是很多散户他可能更多的是因为这个市场不适合他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然这个并不是说A股怎么样，我觉得就是很多人比如说他的性格，可能他就适合去做一些大宗商品相关的东西。他可能对大宗商品相关的逻辑推理，他就是有自己的天赋。有的人就适合在这种四五千只股票里面去看各种各样的基本面。有的人可能就适合去看这种技术图形，他就能做的很好。每个人的天赋点可能也不太一样，所以说我觉得更多的也可以去让这个AI training去帮你去尝试一下你从来没试过的一个市场或者领域。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK. 好，谢谢浩哲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，从手边流过。汇成一条深蓝色的河。在你的身旁不停奔流着。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>冷血还忍受着。在星河的边缘不停的闪烁。照亮你亲手制造的彩虹。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不知不觉无常的一切。那些进入脑海的瞬间，变成一次彻底的危险。向左向右向内。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一卷也无法了断，不吃不休。</p>]]></content:encoded>
+            <pubDate>Sun, 27 Sep 2026 13:30:00 GMT</pubDate>
+            <guid>6ab71039195d838e2aea294a</guid>
+        </item>
         <item>
             <title>一个人、两周、数百美元，如何训出登顶 Hugging Face 的模型 | 对谈研究员逯雨鑫</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6a8ed6e7ef65145dfcc5d249</link>
@@ -17,7 +199,7 @@
 希望雨鑫摸索出的实践路径，能给应用公司和个人带来一些启发。如果你还想了解更多，也欢迎报名 shownote 末尾的线上活动，来和雨鑫直接交流（尤其欢迎应用创业者！）
 【人类博物馆】
 导游：曲凯，42章经创始人
-52 号珍藏：逯雨鑫，某知名 AI Lab 研究员；以个人开发者身份、数百美元成本微调的模型两次登顶 Hugging Face 热度榜；focus 在 post-training（蒸馏、SFT）与数据工程，近期方向为 continued pre-training
+52 号珍藏：逯雨鑫，Mind Lab 研究员；以个人开发者身份、数百美元成本微调的模型两次登顶 Hugging Face 热度榜；focus 在 post-training（蒸馏、SFT）与数据工程，近期方向为 continued pre-training
 【时光机】
 Part 1 训模型的实操经验
 * 01:33 非 PhD / AI Lab 背景，凭什么能训出榜一模型？
@@ -7428,180 +7610,6 @@ Part2 关于国际化的经验和思考
 <p class="transcript-line"><span class="time"><strong>[00:53:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好，谢谢。</p>]]></content:encoded>
             <pubDate>Sat, 17 May 2025 14:00:00 GMT</pubDate>
             <guid>68274977457b22ce0d0dc9e9</guid>
-        </item>
-        <item>
-            <title>AI 下半场：聊透 Benchmark 与 Evaluation | 对谈前 Kimi 产品经理丁丁</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/6818517a6970cc7b4db62789</link>
-            <description>活动预告🥳：5 月 24 日，我们会请到丁丁和 Fellou 创始人谢扬办一场线上活动，大家记得翻到 shownotes 末尾查看报名信息！
-像 RL 这个概念一样，Benchmark 和 Evaluation 也是做 AI 的人经常挂在嘴边的词，但到底该怎么理解这个概念，该如何正确的设定这些问题和数值呢？
-正巧前不久 OpenAI 研究员姚顺雨的那篇《AI 即将进入下半场》特别火，他核心讲的就是「我们当下已经进入了 AI 的第二阶段——从解决问题转向定义问题，评估的意义会超过训练本身。而这其中，评估最关键的不是设置更难的基准测试，而是要在实际落地的场景中重新设计一套实用的评估标准」。
-所以这期我们请到了前 Kimi 产品经理丁丁，从她在大模型公司一年多的实践经验出发，请她分享些对于 Benchmark 和 Evaluation 的思考，相信大多数人听完这期都会对这些概念有更深的理解，也可以开始自己设定一些评估问题和标准了。
-P.S. 丁丁之前曾在微信做过 5 年的搜索产品，也在美团做过策略产品，所以在节目最后她也分享了一些从古典产品转型 AI 产品经理的心得。
-【人类博物馆】
-导游：曲凯，42章经创始人
-34 号珍藏：丁丁，前微信、美团、Moonshot 产品（负责 Kimi App）
-【时光机】
-* 1:27 进入 AI 下半场，「重新定义 Benchmark」比「刷榜提分」更关键
-* 3:23 回顾 AI 上半场，国内大模型公司的发展重心历经了哪些变化？
-* 5:51 一味追求 DAU 是一种偷懒的经验主义
-* 7:07 数据固然重要，但更多的用户数据 ≠ 更好的模型智能
-* 9:28 如果你是梁文锋，你要不要承接这波泼天的用户？
-* 9:59 Evaluation 和 Benchmark 是拉开模型差距的一大关键
-* 14:40 对于没有标准答案的问题，该怎么制定 Benchmark？
-* 17:55 怎么衡量 Benchmark 的好坏？
-* 22:14 创业公司的 Benchmark 有多少道题比较合理？
-* 22:38 能通过高频的用户 Prompt 反推出一套 Benchmark 吗？
-* 24:23 让模型「突出长板」好，还是「全面均衡」好？
-* 25:42 以 C.AI 类产品为例，示范一下该怎么设计 Benchmark
-* 29:28 Benchmark 是团队的核心机密，算法同学都不应该告诉
-* 30:07 AI 产品经理和古典产品经理有什么异同？
-* 31:49 怎么更好地理解模型边界？
-* 33:38 未来每个人都要具备全栈能力
-* 35:38 做微信产品积累下来的 knowhow
-* 39:52 分享一些招 AI 产品经理的标准
-【Reference】
-* OpenAI Agent Researcher 姚顺雨的最新博客内容，探讨了 AI 发展的「下半场」：ysymyth.github.io
-* 一个顶级 AI 产品经理的自我修养 | 对谈光年之外产品负责人 Hidecloud
-【活动预告🥳】
-5 月 24 日，我们会办一场线上活动。感兴趣的朋友欢迎点击链接或扫描下面的二维码，一起来认识&amp;交流！
-【The gang that made this happen】
-* 制作人：陈皮、Celia
-* 剪辑：陈皮
-* Bgm：Mondo Bongo - Joe Strummer &amp; The Mescaleros</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Do something there.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们今天很开心请到钉钉，因为钉钉之前从24年初开始加入KIMI。对，然后那个时候是kimi的APP刚上线。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，相当于是去了以后上线了kimi的APP.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后就是一直做kimi的APP，然后做了大概。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一年多的时间，也算是kimi的早期的产品同学之一。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后最近是刚出来。对，然后我们可以从最近比较火的一篇文章先切入进来，正好通过那篇文章聊一下模型的上下半场的问题。就是前两天OpenAI的那个人，他写了一篇文章，然后标题大概就是AI的下半场。然后我看他里面讲的核心的点是说，大家对于当下模型的能力的开发，其实已经到一定阶段。然后之前的很多evaluation用的一些benchmark可能没有那么有效了，应该需要一些新的更偏向于实际落地的一些evaluation。The bank, 我不知道你是怎么看这个问题的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在聊这个问题之前，可能我们也是要有一个最基础的概念。一个是关于evaluation。什么是evaluation？其实就是你对模型的性能的好坏进行分析和评估的一个过程。而benchmark其实就是一系列的基准的测试。你也可以理解为给模型出的一套套题，然后来看它表现怎么样，然后下半场那篇文章传播非常广，它其中最重要的提出了一个观点，就是在这个阶段可能定义问题会比原来的去把现有的一些benchmark刷分更重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这些benchmark可能跟业务的真实的场景或者用户实际的需求之间还是有gap的。所以我记得这个文章里面也有个观点说，就是鼓励研究者是需要产品经理的这个思维去关注实际的产品体验和效率的问题。不然就会出现可能所谓的智能的水平越来越高，但是实际解决问题的效用并没有被提升的状况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对它里面提了一个点，我觉得确实挺对的。就是现在的各种看他那个刷分的结果来讲，可能很多AI已经达到研究生博士生的水平了。但实际上在落地的时候，可能最多连个实习生的水平都还算不上。这个背后的原因到底是什么？就是班级mark设定的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为实际上在我们真实的业务场景，至少我感受到的除了基准测试之外，我们其实还会关注很多结合业务以及结合用户真实使用的这个benchmark。因为上述的我们刚刚提到的这些基准测试，它和真实世界中模型产品不同业务的出入之间的偏差还是会比较大的。比如说你是一个端到端的这个模型产品，那你要去评估的除了基座模型本身的能力之外，你可能还会有在整个流程当中的system prompt，包括搜索API，可能你还会有知识库，然后接口等等一系列的这个流程，最终共同构成这个用户的体验。然后另外就是你在不同业务或者不同领域内，实际上你的出入可能跟我们看到的那些基准测试的所谓的题目是完全不一样的。基于这个前提也会表现出来说，benchmark的分数很高。但是如果你完全拿来即用的话，可能你在真实的业务场景当中的表现并不会特别的好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你是认可AI下半场整个这个说法的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我完全认可。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以回顾上半场，至少国内的认知来讲，应该是从二三年初开始，一直到可能24年底或者25年初这两年的时间。然后在你从的这些经验里面，包括你看到国内这些大模型公司的发展来讲，你的上半场我们能总结哪几个阶段？然后大家核心提炼了哪些认知跟一些答案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先是上半场大家还是在努力的提升基座模型的能力，或者说是还在努力的挖掘print train的潜力。对kimi来讲，其实也很早就意识到了RL的重要性，但是IL的效果最终是必须base在一个很好的基础模型，或者在很好的print环节上的那其实从deep seek这个成功的经验也验证了这一点。然后另外是我觉得大家在过去的一年当中，都在积极的尝试用现有的基座模型的能力去包装出一些好的生产力的产品。但是我们也会同时看到，比如说在过去基座模型能力不足够OK的情况下，或者训练范式没有调整的情况下，提示词工程会被提到一个非常重要的一个维度。甚至可能我记得应该是在去年的上半年，大家还在说你一定要去成为一个提示词工程师，或者这可能是一种新的职业。今天不是说提示词不重要，那它可能相比过去非常复杂的这个提示词。由于基座模型的能力的提升，它可能会只需要你更加简单清晰明确的描述你想要的这个结果，就能输出跟以前一样，甚至超越之前的一些结果的能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我记得之前sam奥特曼说过，好像其实是工程未来是不存在的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得他说那个不存在的意思是指，比如说专门的提示词，工程这个职业不存在，但是我觉得提示词本身是一定会存在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我的感知是好像从二三年开始，几家模型商大家开始追求free training的程度，然后追求AGI。但过去的一年多的时间吧，大家其实各自都落在了像刚才讲一些产品上面。比如说kimi是落在他的APP上，字节落在兜包上，mini max可能最后选的是token星野这些方向上。然后大家开始去卷说谁的DAU更高。然后deep sik出来以后，反而好像一个类似警钟还是什么样这个东西。大家又发现说原来智能更高以后，前面这些东西可能都没有那么重要，对吧？所以现在我的感觉是大家又回到去追求AGI的路线。从你的视角来讲是不是这么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我觉得一味的或者单一指标去追求DAU，某种程度上是一种经验的惯性，或者有点偷懒的行为。因为过去在移动端互联网时代，你说大家用什么去衡量你的产品是否成功？用户规模可能就是一个非常直接的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个其实正好可能跟benchmark也是相关的。就是大家没有一个客观的指标能够评价说你这个东西到底做怎么样。你很难讲说我的模型做了一年就比别人强多少，就搬出mark。因为大家都知道其实它是可以刷，可以怎么样的。所以大家要去评判这个东西，不管是要内部定OKRKPI，还是外部去面向资本市场也好，面向用户也好，那能评价的可能就是DAU了。所以我觉得这个也是一个必然的结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得DAU并不是不重要，而且其实你必须要有用户，你才能获得反馈，获得真实的用户输入。只是说一味的去追求DAU，其实对比如说模型能力的提升，它可能是没有帮助的这里面我觉得也可以去引入奔驰mark来源来理解这件事情。比如说我们所说的benchmark有哪几种来源？一种是刚刚说的一些基准通用的benchmark，然后还有一种可能就是用户线上真实的反馈，可能是关联，比如说DAU或者用户使用的。然后还有一种是人工构造的benchmark，然后包括合成数据的benchmark。但是刚刚我们说的这个DAU它会积累用户的benched mark，且你有一定的DAU规模，一定是能够帮助你获得独家数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是问题就是用户的输入很多时候的噪音太大了。比如说一个快手来的用户和一个真正的生产力工具聊。比如说50轮上下文，最终输出一个调研报告的用它的数据可能完全不一样。也就是说用户的数据仍然重要。但是高质量的用户数据和我们想要提升的模型能力之间，它必须是align。就是你必须得挑选准确的，才对你的模型智能的提升是有帮助的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们一直在讲说数据是对于模型来讲特别重要的，可能长期来讲数据也是壁垒。然后大家也在讲说这个ChatGPT早发了，然后这么多用户用都有很多数据，所以它的模型效果会更好。但同时过去几个月的时间，很多人在讨论说deep到底要不要接这些用户，这些数据到底对dept sick有没有用。所以你觉得这些数据到底对于模型进展，对于智能水平提升的作用有多大？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当然是重要的。因为当你没有用户数据的时候，其实公司的人或者产品经理本身也是局限的。他也不是一个每个行业的专家，他也没有自己去尝试模型所有的用法，他也没有尝试各种模态的混合的输入。而我觉得用户的数据或者高质量的数据，恰恰是去提供了这些行业的这个视角。如果你能结合一些，比如说专家的这种，不管是访谈也好，调研也好，那我觉得就能帮助每一家基座模型公司更好的理解用户，以及定义出更好的benchmark出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但你看OpenAI的数据肯定是远高于其他家的，anthropic一样追上了。所以这个的原因是什么？是不是数据在里面是有用，但是用处还没有那么大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是是因为最终的表现，它其实有非常多的环节，你说的这个基模训的好不好，那后训练的过程当中你做的好不好，你用SFT激活的好不好？然后你当时有没有在用RL，还是大家都在用这个SFT，因为RL也依赖一个高效的info的基建，然后包括对这个范式的绝对的笃定，所以这个里面就是层层沉积出来，然后最终构成了它是不是一个好的体验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以以你的模型产品的视角，如果你是半年前的梁文峰，你要不要接那些DAU跟数据？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我如果资源充足我一定想接。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你前提是资源充足，对吧？但恰恰就是不够充足。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是想见那是不是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>古典产品经理的通病。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你会吧对吧？你这么多用户来还是有这个想法的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得但从最后结果来讲，他们好像就顺其自然。对他也没有特意的要去接这个东西。是然后。我们讲回到你在模型公司里面做的那段时间，最终你总结下来，你觉得你最大的几个收获和经验是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还是对模型评估，然后包括对整个benchmark的认知。因为我之前是做过搜索的产品的搜索可能之前也会有一些评测，这个工作还是有点类似的。但只是说在过去做搜索的时候，你的评测的数据集变化的速度可能没有那么快。你可能能用相对比较通用的一套测试集，然后用很长的一段时间。但是你在模型公司，因为模型的能力它其实也是在动态的迭代的那当模型某一个维度上的这个能力通过一个benchmark已经解决了，那这个benchmark的生命周期可能就结束了。那你可能就需要定义很多不同维度，不同梯度的benchmark，来一步步的推进模型的进步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最终这个模型智能的体现就是benchmark的难度。无非就是说你出什么样的题？然后你得到一个什么样的结果。而最终让各家模型产品拉开差距或表现出各自特点的，恰恰是可能他们对benchmark在出题上这件事的不同的定义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我能不能简单理解说，就是evaluation肯定是最重要的。对于模型的表现和产品最终表现来讲，然后evaluation就是通过benchmark来去评估跟实现。然后benchmark就是可能比如说第三方或者内部的产品自己出了一套题。所以你能不能举一些例子，这个题大概到底是什么样子的一些题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说一个典型深度搜索的题，可能就会有一道题是你能帮我把腾讯过去十年的财报都找出来，并且预测一下今年它的净利润会上升多少。那这个时候模型可能会有一个输出，那就会有另外一个比如说reward来评价这个模型的输出到底好不好。刚刚我们看到的那样一个输入输出，以及评价它可能就构成了一个benchmark基础的一个最小颗粒度单位。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是实际上在不同的业务当中，评测的标准或者在意的点是非常不一样的。可以举一个例子，比如说刚刚我们讲到的，如果你是做深度搜索，那你会希望模型的输出是什么？我觉得大概率你会希望他能够基于你索引到的所有的数据源，给出一个尽量真实的并且全面的这样子的一个要求。但如果你是一个，比如说CAI，它可能是一个情感陪伴类的那刚刚那个标准就变得不重要了。你不希望他在情感陪伴的时候说出，根据你的心情状态，我对你有以下几个建议，一什么，二什么。但也许这个结构化的输出在比如说研报等等很多场景下是非常适用的。所以这又call back了刚刚我们讲的，其实在不同的业务场景，这种评估的标准的好坏是有非常大的一个区分度的对所以我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听起来这个问题其实就是用户可能真实场景中会给了一段prompt，吧？它是作为一个问题，然后你去评估的时候，它可能不是一个这个东西对错或者好坏。它可能会分好几个维度，可能甚至一个很复杂的表格来去评价这段话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得你最终一定能够抽象出来几个维度，然后你去让模型学习你这种对好的判断。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这几个好也是会分优先级。我在想有的场景里面，比如说他给用户的是不是口语化足够，然后长度是不是适中之类的对吧？它可能是好几个标准，那这几个标准有可能有时候是相悖的对吧？有可能这个是A好，那个是B好。那最后怎么定义好呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是会回到那个真实的用户场景，比如说CI的那个场景。那个时候其实事实性和完整性或者真实性就不那么重要。在产品侧的业务视角已经做了一层判断，比如说对用户意图的理解和口语化可能就会比其他的指标更重要。所以在这个过程当中，你抽象不只抽象的是元素和分类，你同时还会抽象它的重要性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这里面有一个非常有意思的例子，就是当时deep seek出圈的时候，很大的原因是大家觉得deep sick的文风特别的有意思，因为显得非常的有哲思和优雅。但是其实他背后反映的是他们团队对于什么是好这件事情，一定有这一条隐含的标准，就是模型这样回答是好的。因为在那之前没有任何一家公司，哪怕比如说我们把时间倒回去，在dip sick没出来之前，我们在内部说这个文风是重要的。大家一定会觉得它是一个好的指标，我觉得也未必。所以其实模型评估本身就是特别难的一件事情。因为我觉得所有人都有共识的，且100%正确性的这个评价标准其实是不太好制定的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我听起来这个世界上好像就没有百分百，它还是一个比较偏人类喜好的一个结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>看你是哪些领域，数学题肯定有对吧？代码题肯定有这种有ground truth的，我觉得就比较好做。然后我觉得今天也是大家会非常偏好采用的，因为它就是有个标准答案。但是比如说对于一些不好量化的层面，比如说刚刚我们提到的语言风格，包括表达等等我觉得这些其实是不太好制定，甚至是没有共识的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以从这个角度我在想两个问题。一个问题是如果是这样的话，那会不会未来应该多模型，每个模型有自己的性格，有的人就喜欢这个人，就喜欢那个，这是第一个问题。然后另外我觉得还有一种可能性是未来benchmark会不会细到说他会给不同的人群做分类。就是我有1000个用户，但我甚至于极端我会有1000个benchmark给不同的用户，然后每个人得到的结果是不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对于第一点，我觉得是的，其实现在就已经有一些偏好了。比如说当你编程的时候，你肯定第一优先级就选择cloud，但是比如说你可能做一些深度搜索的时候，你可能今天就会去用O3。然后对于第二个问题，我觉得他可以转换一下。最终还是要把这种个性化抽象到某一种模型能力或者产品能力上。比如说我举个最简单的例子，我能不能通过memory来解决你刚刚的个性化的这个偏好？我觉得是有这个可能性。其实OpenAI本身也自己在努力，所以可能不一定需要像你说的那么细分的这个benchmark。但它一定是通过某种模型内化的能力，能够帮你去达成你最终的那个目标。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我又想了一个极端的例子，比如说假设还是一个CAI产品，然后CEI这个公司本身应该是说希望这个产品的情商越来越高智商越来越高。但如果这时候有个用户说我就喜欢蠢的那他相当于说他自己去通过各种对话去调教这个boss。当然他希望这个box变得越来越蠢，但同时这个公司的底模就是想把这个变得越来越聪明。那是不是一个矛盾的事情呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得不是，因为他希望他是纯本质上是一种只能遵循的能力，也是模型的基础能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就是要让他足够聪明，以至于他可以办蠢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，最顶尖的我觉得人也是可以做到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这样大智若愚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>面对不同的人完全可以去迎合你的喜好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK明白benchmark我听起来我觉得好像大家能想到的应该差不太多，所以没有一两个例子就是你觉得这个benchmark真的是很巧妙，别人想不太到。但定出来以后对产品提升，模型提升特别有帮助的这种。因为你刚才那种我觉得就是比如大家坐在那儿就硬想，总归能写出来各种。包括你去看用户的，比如他互动的一些数据，提问的数据，去做个排序之类的，也大概能分成一些。最终A和B两个公司它通过benchmark定义的不同带来结果不同。那这个benchmark不同到底体现在哪儿？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先在同一领域benchmark的难度可能就会不一样，而这个难度通过什么体现呢？就通过你怎么理解这个业务。比如说一开始你可能做搜索的时候，你会用一些特别简单的题目。但你当时可能会觉得这就是用户的输入。但是再过一段时间你会发现，你看到有一些比如说金融领域的人，他可能通过上下5到10轮的对话，然后你发现其实完全可以通过一个比较复杂的prompt的提问。然后也能让模型直接一步到位输出那个结果。那这个时候可能你就会有一个更难的一个benchmark，那对于这个benchmark你觉得什么是好？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个标准各家公司其实也一定会有差异的。而这个差异会直接引领着这个模型迭代的方向。然后另外一个是我觉得就过去可能模型确实会出现。比如说你训好了A你可能就丢到了B但是我们最希望出现的场景是在前一代模型的这个基础上，你新的能力又不断的增长。那你这个时候你更看重哪个方向的能力？其实我觉得也是一种取舍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那benchmark好坏是不是还是一个相对偏主观的一个事情？就有哪些客观的指标能够衡量呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个比较好的一个benchmark可能有几个原则，比如说它首先一定是真实的，能够反映线上用户的需求。然后也有一定的难度和区分度，它不是所有的难度都是一样的。再其次可能就是这个benchmark是随着你整个模型迭代的生命周期去进行流转的。就刚刚说的这个，你可能会抛弃这个bank mark，你也可能会加一些新的题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看古典产品经理可能他看的指标就是用户的一些使用频次，使用时长对吧？放到AI里面可能就是对话轮次，然后包括一些典型的像留存这种数据，benchmark和这些数据是挂钩的关系吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它一定是有个关联关系。因为benchmark本质上反映的是模型某一方面能力到底好不好用。好不好用本质上又会被转化成用户指标，只不过今天的这个用户指标可能。就像我们刚刚说的，你模型好并不一定代表你的DAU好。然后你在不同的业务下关联的用户指标可能就会变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以及它的最佳用户指标是什么？会不会是一种我们没有想到过的，但是更好的指标？我前两天还在想一个事情，就是minus火出圈了，那minus的核心的用户指标有可能会是什么？比如说我能想到的是最少步骤，但是结果被用户下载或者引用的这个比率。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以benchmark跟最终的用户指标是一个强关联关系吗？就是你们会看，比如说我今天出那个benchmark，然后如果它变得更好，理论来说这些用户指标应该变更好才对。是的，对，如果没有变更好，就是你要去改你的benchmark.</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>至少要让他们去不断的alive，不然你的评估就没有意义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是它应该是个关联的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后包括比如说可能我们在做evaluation的时候，会涉及到auto eva和human ever。你用大模型去评价自己模型的任务完成的效果，和你用人最终去评价你端到端的这个效果。然后我理解这两种的这个evil，其实它也是需要被不断校验的。不然就会存在着模型去自动打分，然后打出来发现跟真实的用户体验之间，它其实是有gap。这个过程本身也是动态的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就你现在跟AI公司产品经理交流下来看你觉得大家对于benchmark这个事儿的理解跟实践是都已经在一个差不多的水平，还是会有哪些差异化的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先创业公司和大厂可能会有一些话，大厂我看到的是不同团队还在像以前那种方式流转。比如说你的高质量的这个数据标注，然后包括这个评测集，它完全是由数据团队去做的。然后一个评测或者策略产品拿到这个结果，然后再去跟比如说功能侧的或者端侧的产品再去做沟通。我觉得他的这个断点其实是比较多的。但是我觉得对创业公司来讲，因为团队足够小，或者组织方式的不一样。其实我觉得大家认知迭代的是比较快的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>多久benchmark变一次是比较合理的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得没有标准答案，越快越好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是看数据什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，越快说明你模型能力迭代的很快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但对于很多创业公司来讲，他如果不去动模型的话，其实它迭代的应该是他的一些比如预制的prompt和他的工程测的能力，对吧？然后影响他的结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我有一个补充的点是你在一开始用户基数比较少的时候，你的评价维度可能会相对来讲单11点。因为你的用户分化也不严重。然后当用户变得更广之后，用户需求分布也会越来越不一样。在那个不一样的情况下，你仍然要去适合不同用户的一个最好的效果。那你的标准可能也会进行补充。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的调整。对我又想到几个问题。一个是你觉得市场里面，尤其是这些创业公司来讲，它的benchmark大概在多少量级是相对你觉得比较合理的。就比如说你今天自己要做一个创业公司，你大概会一开始出多少道题来去测这个产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我可能会给自己比如说400道题.</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个题会越多越好或者越小越好吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得不是，就是你能够去衡量你的模型的表现就OK了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我能不能说我先产品上线，然后用户使用起来。然后我把用户所有的prompt排序，或者做一个什么类似模糊搜索这些东西，最后我就排出来前面400个，然后我就说这个就是我的benchmark。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说的这个特别有意思，因为这个就是以前搜索的就斑马之一，对高频query的这个效果。但是还是那个问题，就是你可能要过滤一些噪音，或者是没有那么有效的这个用户数据。然后另外一个是就是就跟搜索一样，你很多的需求你可能非常的长尾，那你只解决头部的400，那剩下的比如说你假设整个QV量是100万，然后头部400可能占了比如说中间的20万，那剩下的80万要不要解决？肯定要解决。所以就是又回到我们刚刚说的原则，你还是要尽量的去符合线上用户的这个分布，而不是说单一的说有一个top的。但是我们确实会更关注，比如说大家都会去看点彩，就这种很强烈的负反馈的信号，这种可能更能帮助你去判断一些底线的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果现在比如给你一家公司，它的benchmark比如说是比如说400道题，比如40道题或者100道题，你能很快的分辨出来这个奔驰马的好坏吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概会是什么样的？我觉得首先要看它是不是一个我所了解的领域。假设是，我觉得当然能，因为你能知道它，比如说这些benchmark它是不是有梯度的，然后是不是符合你对产品理解的，比如说用户需求，或者你一些真实的分布的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你举一个典型的坏的38个例子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这搞了这么多好的benchmark，从来没让别人问我说一个坏的benched mark长啥样。比如说他特别简单，或者说它benchmark里面单一的都是类似的某一个维度的，然后某一个困难程度的，就是一个非常糟糕的一个book mark。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我另外一个问题就是我听到这，我感觉去给模型的表现做奔驰mark有点像给你一堆点数，你去点不同的技能树的感觉。所以有没有一种可能是我就是把所有点数点在某一项上，让长板足够长，然后用户对我这个产品的这个长板感知就足够明显，然后我反而能脱颖而出。还是说我要去平均去点这个点数才是最好的选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题可能得分为两层看，一个是基座模型的能力。我们会看到的是基座模型能力的越强，它会在一些垂类里面表现的确实也越好，就是泛化能力。对对对，你就什么都不做，你就天然一个人生就是比一个小学同学更聪明，这是一个视角。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但另外一个视角，我觉得确实也有在这个之上的一些垂直产品或者模型或者agent的这种机会。但那个是不是完全只基于模型能力，而是加入很多其他的，比如说工程能力等等，包括一些独家的数据，包括加入对业务本身的理解。比如说可能有一个业务他就是做销售，那他可能对销售这件事情的这种交互也好，或者这种抽象的这种反馈的信号也好。它就是比其他任何一家公司或者任何一个人了解的更多。那它可能就能设计出更好的一个基于模型的产品。然后它也能告诉模型到底应该去奖励什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我们举一个例子，我觉得大家日常可能都用过的就是类似CII这种聊天类产品。所以假设现在你就是做一个AI陪聊类的产品，觉得难点可能会在哪儿？会要怎么做这件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感聊天或者陪伴的这个场景。因为它没有一个ground truth或者标准答案的。所以这个时候它的评估标准到底怎么定才是完全准确的，这件事情还挺难衡量的。比如说你现在在跟一个陪伴型的这个产品聊天，你说我今天失恋了，我和我的对象分手了，那你的预期模型会怎么回复你？比如说如果没有做过一些口语化或者是情绪识别回复的这个模型，他可能就会说听到这个很难过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我给你推荐以下几种方式去放松你的心情。一下楼跑一跑。二去见见朋友。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常有画面感，好多模型确实是这样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，但是你觉得肯定比较好的，你会希望他首先他就像一个真人一样，可能会问你说怎么了？如果他具有memory的能力，他可能甚至会问你说，不是上个星期你跟我讲你们俩之间还好好的吗？然后有的模型就会关心说具体是出了什么问题。但可能有的模型的回复就说抱抱你，我一直都在这里陪你。如果你有什么不开心的，可以仍然跟我分享，那一个真实的人，他在这种情况下，他到底预期获得一个什么样的回复？这件事情我们是没有一个非常细的百分百正确的一个答案的。我们只能尽量的去说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这个情况下，我们希望模型首先关注到用户的情绪的变化。其次从memory的角度，我们希望他能够去知道这个用户的比如说情感的状态，要不要进行一些call back。比如说再从一些心理咨询师的所谓的专家的角度，我们会讲说我们不先急于给解决方案，我们是关心说这个背后到底发生了什么事情，让用户先把自己的情感的状态和具体的故事去倾诉出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我听起来就觉得这个事儿确实非常难定义。因为有的人可能就是喜欢解决问题。对，有的人喜欢解决问题，有的人喜欢别人可能就是怼他一下，说你失恋了又咋样，你就给他当个事儿什么的。有的人就喜欢有个像闺蜜一样去安慰他。对，几乎无法来定一个好的奔驰mark。所以从这个角度来讲，我觉得未来一定会出现一些小众猎奇的产品。因为你像你刚才讲你的奔驰mark定义的，它只能可能照顾到80%的用户。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也许加上个性化和协作模型足够强的能力也能解决。但是我其实也在想一个更抽象的问题。就是我们刚刚在定很多评价的标准或者价值观的时候，你会发现我们整体上是一个人类价值观的一个映射。但这件事情对吗？这个确实很抽象，这个太抽象了。但是无非就是你觉得整个人类世界当中，一定有在某个问题上有一个相对好的一个答案，所以你再去做这个映射。但这种映射真的是对的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不我在想确实就是答案，我觉得分两种，对吧？一种是说社会约定俗成的一种答案。另外一种是可能有一个更高级版本的答案。就是好像你在讨论一个问题的时候，可能你身边的朋友都会给你一个答案。但这时候可能会有一个类似教授角的人，他会给你另外一个答案。你会觉得这个可能是一个比较醍醐灌顶的一个答案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得比如说就是在做题，然后在生产力的很多场景，这个现在还是work的。但是比如说刚刚我们讲的一些场景，有的时候就会想说，这样就是完全准确的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不好说。对，所以从这个角度来讲，确实做生产力类的一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>产品确定性更强，或者说它的标准相对来讲，我觉得应该是更好找吧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就更好做，这个benchmark肯定是更好定的对，所以未来就以前不是会有公司说偷金融对公司的代码，未来会不会说我偷benchmark？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个话题特别有意思，我觉得blog确实是一个核心资产。如果是我的话，我可能就会维护一个只有自己知道的一个benchmark。这个ban mark甚至我觉得算法团队的同学也不应该知道。因为如果知道了，他们可能在训练的过程当中会不由自主的让模型去打出这个问题，或者会不会被hack。我不确定，那我就会每次可能上线之前过来测，但是我不会公布这个benchmark具体是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就确实benchmark是一个特别重要的东西。是的，所以你觉得你做了，因为你之前其实最早在微信做搜索类产品，对吧？然后后来又在美团做过策略产品，然后你又在km ME做的模型产品。所以你回过头来看你觉得AI的产品经理和古典的产品经理来讲，大家的相同和不同的地方在哪？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得相同的地方是懂用户，然后相同的能力点叫做翻译能力。这个翻译能力可能仍然是发现问题，并把用户和业务的场景去做抽象。比如说可能过去的抽象是抽象在了交互的设计和整个结构的设计。可能今天在模型也就是把业务的整个的流程抽象出一种好的评估的标准，观测的指标。所以我觉得这个抽象能力，以及这种对用户场景需求的这种翻译能力仍然是重要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另外一个是我觉得原来古典产品经理非常多的，还是说对交互体验这种敏锐的感知能。到底什么是美的，什么是丑的，什么是符合直觉的设计，什么又不是这种能力？我觉得仍然是需要的，而且我觉得是稀缺的。因为现在大家说了很多关于模型的，但今天一个不同的产品，基于模型能力的最好的交互其实还没有诞生。而在一些垂类的产品里面，可能交互会更加的重要。这个交互甚至直接反映了你能不能为模型的迭代或者产品的迭代设计出一种合适的反馈的节点或者反馈的信号。我觉得不同就在于对数据的重视程度会发生非常大的变化，就是现在会比以往更重视数据的质量。然后还有一个就是对于模型能力边界的理解，这个过程我觉得还是需要很多时间去积累的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这块我觉得可以展开讲讲，我觉得这块应该是最难也是最重要的一部分。就现在模型的进展其实还是很快的。有的人就担心说，是不是我现在做的这东西半年后就被模型颠覆掉了，就没有用了。或者说我做这整个这个产品是不是就在模型的发展路线上，就是怎么样去就像你讲的，能更理解模型的边界以及能够预判模型的边界。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我先说方法层面，因为这个问题可能也会有很多之前的产品也会跟我去做讨论。我觉得你还是要多用，然后你去用不同的最好的模型，以及他们的API，你会理解不同模型在不同领域或者不同能力上的表现。你也会更加熟悉模型，每隔比如说一个月2个月，因为它一定会有新的版本的能力的提升，这是第一点。然后第二点是我觉得之前内部的同学也会在分享说，把所有你觉得你想做的事情先用AI做一遍。比如说以前C端我们除了PRD之外，可能我们先要画一个交互对吧？那你可以试着把你想要的这个交互逻辑清楚的说出来，然后让cloud可能帮你去制作一个交互。因为在这个过程当中，你就会去摸到这个模型能力的边界，以及帮你能够实现什么。然后在这个动态的跟模型一起迭代并使用的过程当中，你可能会发现它某个方向的能力，它会比你想象的变得越来越强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这个例子其实也可以去call back。前阵子非常火的4O的言出法随的图像生成。你在没体验到它的这个模型之前就会觉得说，你要可能生成一个指令遵循的，特别是上下文多轮修改的图是非常难的。但是你今天其实你会发现说，原来搜完全能做到，那它可能就是一个伴随着模型能力边界的迭代而产生的那在这个基础上你可能又能快速的去做出一些新的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另外一个是我觉得你的动手能力要很强。然后你不需要像过去的产品一样，有非常强的模块流转的这个意识。而是你要完全丢掉这个意识，你就把自己当一个产品经理，当一个设计师，同时再当一个前端。现在可能当后端不能完全实现，但也可以试一试。然后你去完成全流程的这个闭环。那我觉得对你理解模型这件事情也是会更有帮助的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以未来你是不是也觉得每个人真的会变成全栈，我觉得是你自己会看论文吗？因为之前还有给我们做了一期博客，那期其实也很多人听。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是那期的忠实用户。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以张涛其实他讲了很多点，就是说他自己会日常想去看一些论文。我不知道你觉得这个是AI产品经理的必备的一个东西吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是因为我觉得这个习惯是非常重要的。因为我觉得你去理解那个原理，以及你在理解原理的基础上去做验证，它本来就是一体的。我没有见过说哪个人去用，但哪个人完全不关心原理的实现。你肯定会知道说他为什么会这样，他某些能力做的比较强，但是我觉得可能不一样的是你理解论文的那个深度，跟算法同学理解论文的深度可能是完全不一样的。然后论文也分很多种类。比如说你如果完全是在讲算法的，我觉得可能我努力看也不一定看得懂。但是再讲一些比如说比较前沿的一些判断的论文，其实你也可以搭配着去看一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以从你做过模型产品的这个视角来讲，你觉得创业公司或者说在做AI产品的人，他们做哪些事情是不会被模型未来碾压掉的？能给一些大概的判断标准吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我觉得它可能是有一个很深的领域内的弄好，然后它同时又具有对模型的理解。它可能会在这个阶段成为最快的把这两者结合在一起，然后形成一定的产品壁垒或者说行业认知，然后积累用户的这个公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们最后还是讲回到你微信那段经历里面。我们稍微回顾一下你在微信那段经历里面，你觉得有哪些印象很深刻的东西吗？因为我们前面讲了很多AI产品的东西，对吧？那段经历反而是大家会认可的，说古典产品经历可能很经典的一段经历了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有一些产品原则，一个是先做产品结构，然后才是细节。比如说我们会发现微信里面有很多的功能，如果把它都用比如说不同的tab来表现，不做层级的拆分，那可能今天会非常的冗余，然后也会非常的复杂。但是直到今天，可能微信还是比较简单的，然后也只有四个tap。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个真的是张小龙一上来就已经想好的，说我要这几个tap，然后我要怎么做朋友圈，做公众号再怎么做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得底层的结构，它是从一开始就想的非常清楚的。然后包括它也抽象了，像扫码就是一个新的一个入口，扫码提供的背后就是一个服务的一个能力。这些都是甚至是在小程序诞生的两年之前，龙哥就已经想好了。然后另外一个就是功能模块之间是有机联系的。比如说当时很多用户都说，要不是只有一个微信头像，你有多个头像。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以左滑右滑的那种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？但实际上你会发现用户的背后的需求叫做他想要有更多的头像的照片展示给别人看。所以本质上它的需求应该去被朋友圈去承载，而不是说我要在这个单点上去做设计。所以这个就是刚刚说的功能模块之间是有机联系的。然后另外一个是我们不会主动强教育用户去一定要用的哪个功能。而是可能用户在用这个功能又往下再下钻一层的时候，他发现可能有一些新的体验，然后他才会去触发到这个能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不必要的。所以你后面在其他公司，包括模型产品公司做过以后，你的这些东西仍然是适用的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是适用的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是它底层原理其实还是一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>底层原理是一样的。我觉得微信出来的产品，它有一个被培训过的点，是大家都会基于一个更全局的视角去真正的想什么是好的体验。但是今天可能在一些公司，因为验证一些能力和功能的设计太简单了。然后上AB实验是非常方便的。你可以跑八个实验，甚至20个实验，你只要选那个最终把指标做正的就可以了。那你在做这个方案的时候，特别是年轻的同学吧，你就不会去真的想说用户需不需要这个，然后跟全局的联系，然后到底这么做是不是好的。因为我可能只要跑十年就好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你看其实我们刚才讲过好几次古典产品经理。但其实这个概念最早提出来，我理解就是说古典产品经理是靠很多他个人的经验和感觉，靠用户感知来做事情。然后它应该最早对应的是更多的AB test和实验型的数据驱动的产品。这里面比较典型的像美国那边很多大厂，其实它是做很多AB test的，自己也是以这个出名的，对吧？他也做各种AB test，然后最终他应该是结果看数据，数据如果好的话，哪怕你解释不清楚这个事情为什么是这样，它也是好的。我不知道你最后会同意这个说法吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谈这个问题之前，我觉得可能得要往上说一层。就是我觉得每个产品首先它是有自己的个性，或者他是有自己的感觉的。比如说微信给人的感觉就是他比较内敛，然后他又极致的简单。然后可能instagram它给人的感觉就是它很时髦，它也很漂亮，它是一个很fancy的感觉。所以我觉得这个调性肯定是不能通过AB实验去得到的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个还是很古典产品的视角。就是我这个产品打开就是很乱，但是它留存就是比原来高了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这是一种价值观的取向。你是不是就为了比如说追求指标，我就是能容忍加那么多，但是就比如说微信的取向就是绝对不可以。然后第二个是关于指标，你选的到底对不对这件事情。因为一旦公司大了以后，你每个部门的指标和每个业务的指标，它其实还是会存在被hack的空间的。因为他关注的不是一个统一的一个大指标，他不会去遵循某一个所谓的调性或者价值观的体现。他可能只要坐正我这个业务的指标就可以了。即使他可能非常违反直觉和到最后对大指标来讲，它可能甚至是负的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白。好，那我问最后一个问题，就是现在如果一个创业公司，他想要招一个好的AI产品经理，因为现在其实挺难找的对吧？没有一个画像是典型的说这个人就是可以做AI产品经理的。你觉得到底大家要怎么找这个人或怎么培养这个人？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先如果从一些背景上来讲，我觉得可能我确实会更偏好初创的模型产品或者更小公司里面就是完成这个从0到1或者端到端的这个同学。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是更全栈，更自己从头到尾做过一些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二个是因为我也也看到过有一些同学他会用自己的业余的时间，他会去做一些小的demo或者小的产品出来。然后我觉得这是一个非常好的信号。因为如果你是一个好的AI产品经理，你本身就像你说的，他可能是个全站，你这个产品可能不用特别突出，但是你肯定自己一定跑过一些东西，验证过一些东西。然后第三是我觉得确实你可以直接问他，就是说你最喜欢的模型是哪个？你平时用的最多的模型是什么？你一般在什么场景下用，然后为什么你用那些？即使可能他前面那两条没有满足的话。其实从第三点你也可以看出他对整个行业的理解，包括热情，包括整个的专注度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，感谢丁丁。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢曲老师。</p>]]></content:encoded>
-            <pubDate>Mon, 05 May 2025 14:00:00 GMT</pubDate>
-            <guid>6818517a6970cc7b4db62789</guid>
         </item>
     </channel>
 </rss>

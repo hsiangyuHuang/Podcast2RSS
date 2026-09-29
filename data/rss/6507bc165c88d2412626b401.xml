@@ -4,7 +4,288 @@
         <title>屠龙之术</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6507bc165c88d2412626b401</link>
         <description>科技创业与投资相关的”屠龙之术“</description>
-        <lastBuildDate>Thu, 24 Sep 2026 06:58:42 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 07:50:26 +0800</lastBuildDate>
+        <item>
+            <title>当AI开始设计芯片---聊聊EDA与AI时代的芯片设计</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6ab9f026e742e36efcbc0d88</link>
+            <description>上期播客关于AICC的节目中我提及到，
+作为一个平时关注模型、应用、平台这样广义上的“软件”层的行业观察者，
+会发现越来越多需要了解的是“硬件”层的相关事情，比如能源、数据中心，
+以及今天这期播客的议题：芯片。
+为了回答我的很多问题，本期播客我找到了一位非常合适的嘉宾进行对谈，
+他就是在芯片设计行业有超过20年工作经验，
+来自新思科技的产品解决方案销售总监---严华。
+我们围绕EDA行业地位、系统厂商自研芯片趋势、AI对芯片设计的影响等等话题进行了对谈。
+且基于今天对谈的内容，我用AI生成了一份简单明了的PPT。
+PPT在我的ima数据库中，有需要可以去ima获取；
+ima相关链接我放在了shownotes末尾的小组件中。
+下面正片开始……
+00:34 新思科技的介绍
+03:29 新思科技的行业影响力
+04:44 20年前的芯片行业和今天的芯片行业对比
+09:13 为什么人人都想做自己的芯片？
+16:05 芯片的自研如何开始
+20:39 AI来了对于EDA行业的影响
+26:58 人类的边界、安全、权限
+28:06 作为硅基员工存在的Agent
+34:35 当所有人开始认真算账
+39:46 当前系统遇到的瓶颈
+44:58 未来几个人就可以设计芯片？
+47:24 AI全自动造芯的“神话”实现了么？
+53:05 我们需要什么样的芯片人才？
+57:15 写在最后
+【播客简介】
+屠龙之术是一档关注科技、互联网、风险投资的播客，
+主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
+其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
+或许某天再有新的“龙”出现的时候，就是这档播客停更之时。</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期是明浩在《通灵之术》中的对谈。对话背景是他上一期聊完 ASCC 大会后，作为偏应用层、模型层的行业观察者，在基础设施层、算力、芯片、元器件等问题上遇到大量不理解之处，于是邀请新思科技严华来答疑。严华介绍，新思科技早期是 EDA 公司，后来进入 IP，并在收购 anseis 后希望从 silicon 走向系统。核心议题包括：EDA 在芯片设计中的“隐身”角色、新思的市场地位、系统厂商自研芯片潮、AI 芯片自研的经济账、AI 与 agent 在芯片设计中的引入边界、EDA 商业模式变化、流片风险、AI 全自动做芯片的真实进展，以及未来人才与教育。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>EDA 是“写芯片的 Word”，新思处于垄断性位置。</strong> 严华用写文章比喻 EDA：芯片是在 EDA 工具上“写”出来的，但手机、电子器件里看不到它。EDA 全球产值约 129 亿美元一年，半导体约 8000 亿美元，EDA 只占不到 2%、约 1.6%。新思每年保持 40% 到 50% 市场占有率，第二名“差一点点”，第三家约 20%，其余非常小。</p>
+</li>
+<li>
+<p><strong>客户从专业芯片公司变成系统厂商。</strong> 以前高通、飞利浦、next p 等只做芯片；最近特斯拉、meta、OpenAI、字节、阿里、手机厂商、云厂商、模型厂商都跳进来。项目周期从以前 24 到 36 个月推泡，压缩到 12 到 15 个月很正常，车周期甚至压到 7 个月。系统厂商要求“保姆式服务”，新思工程师驻场支持，做着做着“也很可能我们的工程师就跑到他们那边去了”。</p>
+</li>
+<li>
+<p><strong>自研芯片首先是一本经济账。</strong> 量大之后，买芯片的钱加在一起不如自己做。训练可能继续用英伟达，推理则可能自研 ASIC，因为电费、机房冷却、算法固化、合身程度都不同。严华举例，扫地机器人主控芯片加 sensor、低功耗、流片和团队，估计要“几亿美元”投入。推理芯片追求更低功耗，就不需要那么强散热。</p>
+</li>
+<li>
+<p><strong>IP 和搭积木降低自研门槛。</strong> 新思提供已经流片成功过的高速接口 IP，客户像搭积木一样复用，只负责内部核心想法。新思从 EDA 到 IP，再收购 anseis 后从 silicon 走向系统，因为两颗芯片叠在一起后发热量变大，需要系统级仿真去控制单颗带发热、风冷、自然冷却等。</p>
+</li>
+<li>
+<p><strong>AI 引入芯片设计从 2020 年开始，核心矛盾是低容错与 AI 幻觉。</strong> 芯片容错率非常低，软件有 bug 可以再 release，芯片失败可能让公司明年破产。2020 年新思推出强化学习，2023 年发布 copilot。现在已有将近三十多个 agent，全球三十几个客户一直在用或试。严华强调：“agent 还是离不开工具”，工具是芯片设计行业积累下来的约束，最终签核仍需人负责，“agent 不会为你芯片的失败负责”。</p>
+</li>
+<li>
+<p><strong>EDA 商业模式正在探索。</strong> 以前工具给人用，按席位或 license 收费；未来 agent 像“硅基员工”，24 小时七天可用，使用频率更高。新思内部在讨论从 software as a service 转向 result as a service，按 token 还是按结果收费还没定。国内很多 open source 模型本地部署，收费更难；FDE 因此更重要，因为每个客户环境和需求都不同。</p>
+</li>
+<li>
+<p><strong>流片风险、PPA 与数字/模拟流程。</strong> 3 纳米流片光照一旦错就全部作废；以前有流片失败案例，近两年大量采用 IP 和工具后，很少听说流片失败或跳票。芯片设计讲 PPA：performance、power、area 互相冲突，线粗性能好但面积大，线细电阻高 power 变大。数字设计和模拟设计是两套流程：数字从 RTO 语言、VELOG 到雨或非门再到版图；模拟从原理图直接到版图，靠人画。</p>
+</li>
+<li>
+<p><strong>AI 全自动做芯片的真实进展被严华逐一盘点。</strong> 三星 2021 年与新思合作 3 纳米只是强化学习参与；英伟达“切弗尼O”用 AI，但大量辅助模型工程师编写验证脚本；联发科用谷歌“阿尔法chip”，ara trip、ara chip 团队复现争议大，谷歌公布权重后“没有人去跟他们玩”。中科院计算所“启蒙一号”65 纳米 2023 年 6 月流片，用 AI 全自动流程加 open road，BSD 水管单向无回逻辑，400 万逻辑门，对标英特尔 486，但面积大十倍。very call 宣称从 219 个字到 GDS、毫无人工参与，但没有推泡；辣椒后面全部交给博通，只做前面 RTO 生成，且用谷歌开源语言。结论是：“真的是从头到尾毫无人工参与的，其实还是没有出现。”</p>
+</li>
+<li>
+<p><strong>未来趋势：3D 折叠、散热与系统级竞争。</strong> 华为套定律、TSMC 的 SOIC 都在解决 moto 带、多颗带之间连线太长的问题，把芯片折起来，但散热成为大问题。老黄讲限制 AI 再往前发展的就是铜线，因为铜线发热太大，所以大家要做硅光，让信号在硅片上以光传输。英伟达不单是芯片公司，也是生态公司、数据中心公司。</p>
+</li>
+<li>
+<p><strong>人才与团队规模。</strong> 最对口的是集成电路专业，通信、电子等弱电也可以，强电偏 answer 和系统。团队规模上，泽库就是 OPPO，做手机芯片时 3000 人，真正芯片设计约 1500 人；节俭的汽车芯片公司后端外包给 service 公司，可能两三百人就能做下来。未来跨界、创意、用自然语言表达需求的能力都重要；目前客户仍需要理工科严谨背景。严华也一直和自家小孩聊 AI 冲击，思考文科、创意会不会更有价值。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ul>
+<li>
+<p><strong>“硅基员工”与“碳基员工”比喻。</strong> 严华把 agent 比作硅基员工，把人比作碳基员工：碳基员工 996 就要回家睡觉，硅基员工 24 小时七天都可以用。但招进来以后不可能什么都懂，新思先给它 training，让它了解新思所有工具功能；它还缺客户的脑力值，需要在客户处断一段时间后自我学习。</p>
+</li>
+<li>
+<p><strong>系统厂商的“保姆式服务”与人才流动。</strong> 传统芯片设计公司只问问题、修软件 bug；新进来的系统厂商希望新思工程师一起做项目。严华直言，做着做着，新思工程师很可能就跑到客户那边去了。这暴露了系统厂商自研芯片时专业团队稀缺的现实。</p>
+</li>
+<li>
+<p><strong>散热玩笑与海上数据中心。</strong> 聊到把数据中心放到天上，严华吐槽：“天上因为没有空气，根本无法传热，我也不知道这个热量怎么散掉。” 明浩则提到，美国最核心孵化器 YC 这一届最火的项目是在海上建立新的数据线，拿船运、像挖井平台一样。这些是公开报道里少见的即兴玩笑。</p>
+</li>
+<li>
+<p><strong>“token 太贵把员工请回来”的笑话。</strong> 明浩说，之前大家头脑一热都干了，现在追寻性价比、ROI，是可长期发展的道路。他还提到“token 太贵了，又把员工请回来了”的笑话，反映国外厂商大模型 token 收费让部分使用者力不从心。模型发布也在拉帕雷特最优曲线，强调单位 token 价格与表现之间的性价比。</p>
+</li>
+<li>
+<p><strong>严华调研 AI 做芯片时会问刁钻细节。</strong> 因为很多新闻说“我用 AI 毫无人工参与做了颗芯片”，严华会问：整个流程用到哪些工具？某个节点用什么语言？结果 AI 回答和新闻里不太一样。他能数出来的真正流片案例，大多只是强化学习参与、AI 生成代码后仍需验证，或者根本没有推泡。这个内部调研视角是播客中自然流露的独家判断。</p>
+</li>
+<li>
+<p><strong>教育私人对话与“人形电池”玩笑。</strong> 严华说一直和自家小孩聊 AI 对软件、芯片行业的冲击，思考未来文科、有创意的人会不会更有价值。明浩则调侃，如果 AI 离开人、离开工具就能做出芯片，那离电影 magic 不远了；严华接话说，人只有给他供电的功能了，“人形电池”。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，我是明浩，欢迎收听本期通灵之术。我上一期更新的节目是关于ASCC大会的。然后作为一个之前一直关注偏应用层跟偏模型层的行业观察者而言，你会发现当议题探讨到基础设施层的时候，我遇到了非常多的难点跟不理解的地方。包括当前这个时间点对算力、对芯片、对机组、对元器件、对很多东西的未知的东西。然后今天很有幸的请到了一个可以帮我去解答很多这样问题的嘉宾。所以今天这期节目是一期对谈。要么我们先请今天的嘉宾先做个简单的自我介绍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家好，我是来自新思科技的严华。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后新思科技可能不太了解的公朋友们不太知道这家公司，比如在行业的地位跟影响力，对吧？这个要不简单介绍新思科技，比如说公司的业务跟状态好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>新思科技是早期是一家我们所谓的叫EDA公司。EDA对，EDA大家也可以去问一下豆瓣，全称叫elective design automation OK它就是中文翻译叫电子设计自动化，主要是针对这个设计芯片的软件层面。EDA以前其实在存在在芯片出现的时候它就有存在。但是大家一直不知道他是做什么的，它到底是什么叫EDA，或者说怎么去比喻。我其实一直给大家做一个比较能理解的一堆软件。我们所谓的软件其实就相当于我们用的编辑文章的一个工具。比如像word .</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>WPS或者像编程领域IDE。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有点像你这个从word角度来看，OK就是我们从word角度来看，就是我真的芯片是在我的一篇文章是在word上去写出来的对，但是当我去推泡的时候或文章发表的时候，你是不知道我是在用什么工具。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就写出来他在这个层面就消失了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是从EDA新思从EDA到了后期又有了IP，哼那IP是属于像知产权的一些段落，我就把它比作为一个文章的段落。这个段落当我已经在其他芯片上都已经做过做过推泡过，有成功经验的那当把这些段落作为比如接口IP把它引入到这个芯片的时候，其实我是引用了一段文章。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那是可以复用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，可以复用。对。那当这篇文章发表了以后，是不是这篇文章获得诺贝尔奖，还是这篇文章就是一个报纸上登出来的一个文章，还是没有人发表的文章。这个是就是看整个设计就是芯片设计师的能力了，就跟我芯片ED.</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>A这层是没有关系的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，那设计师的能力，那那比如说设计师要做一颗AI芯片，或者要做一颗手机芯片，这就像你用word去写一篇记叙文还是议论文，这就是一个它的目标，对吧？就是我们在写一篇文章的时候会有一个目标说你要写一篇记叙文还是议论文，那这个就是目标。所以其实这样一比喻，大家就知道，原来其实EDA这个东西它是脱离于芯片。真正大家在拿到手机，拿到这个电子器件的时候，它是不存在这里面。是的，它只是一个平台，让芯片可以在这上面完整的产生出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是做设计。那新思科技在这个领域。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的新思科技，我想因为全球比较大的EDA公司也没有几家了。因为其坦白说EDA这个软件真正在，我这么比喻。从我们角度来看，整个EDA的全球的整个产值大概在129亿美元一年。对，一年。全球的半导体的产值大概在8000亿美元OK。所以其实真正ED的这个规模不占到整个半导体的只有不到2%，就是1.6左右OK如果从这个角度来看，但是整个芯片设计是离不开1.1的。当然对新思科技在这样的ED的这个市值里，这才那个市场里面，我们基本上每年大概保持在40%到50%的这个市场占有率。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二名比你们差一半。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二名跟我们差一点点。OK那那那。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们两家加一起基本上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就没有其他的。还有第三家可能占20%左右。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后那就其他余的都是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常非非常非常小了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>基本上某种意义上你们在定义这个行业的，比如说标准、走势跟一些状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以这么讲，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我会有另外一种感觉是说，就像咱们刚才聊的，就是您在这个行业其实已经快20年了，对吧？那其实20年之前大家对于芯片这两个字，我们都不要说芯片设计，就芯片这两个字理解跟今天当下这个时间点，比如说行业观察者跟比如原来我们这些互联网人对于芯片的业务，我觉得完全不同。但是从你们的角度来看，你们这比如说从20年，从您所我觉得从你们是相当于这个行业的最源头发起的那个状态。而又因为你们这个市场地位导致其实你们的感觉或者说你们对趋势的把握，其实是最春泥江水暖鸭先知的那一个态度，对吧？然后那您可以说，比如说从您从业这将近20年以来，您看到比如说从客户层的变化有什么比较大的趋势，尤其是最近几年AI兴起之后的这个变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实以前芯片设计，包括芯片生产都是一个非常专业的领域。生产当然大家都知道什么台积电，最近三星这些他都是一直在生产上。其实芯片的从设计到最后制造，这个中间一般来说是分成两块。就是我们中间通过版图的传递，然后传递到制造工厂，他才去做真正的芯片做出来。对，但在这个版图之前，所谓的版图就是它画成了一个像这个像画图的一个软件一样。把它画出来之前，其实我们这称为芯片设计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>芯片设计以前早期像我们所谓的高通或者我们以前最早的飞利浦、next p，早期的他们都非常专业，只做芯片。但是最近几年这是应用厂商都纷纷跳得进去。那像这种大厂，不管是这个另外里面像特斯拉也自己在做芯片，那meta也要自己做芯片，是那这个OpenAI也说要做芯片，最近不是有个测试。对，然后在国内也有好多像字节阿里都纷纷跳下来要做芯片。所以我们的客户群体从一些非常专业只做芯片不做系统的人，变成了一个系统级的厂商。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这种系统级的厂商进来这个领域之后，他给我们的要求就变完全不一样。因为以前一颗芯片可能要24个月或36个月才能最终去推泡。我们所谓的叫推泡就是交给台积电、三星这种去做生产。那现在可能一个周期项目周期压缩到12个月到15个月，这是非常正常上正常。对那比这两年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说AI来了这波之后的变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI来坦白说AAI从从我们感知AI就是芯片设计行业感知AI实时输送2000 2020年之后才有这个AI的介入。那个时候的AI还是非常在芯片领域非常薄弱。这个原因是因为芯片它是一个非常高精尖的东西，它不像我们软件的，因为大家都知道软件总是有bug的对对吧？就这个大家上网浏览的时候还看到过什么微软在发布会的时候有蓝屏，对吧？这软件有bug它是正常的，但是芯片当它有这种错误的时候，它很可能导致这个芯片就跑不起来。所以芯片行业是一个容错率非常低。我不能说没有错误，100%这个没有错误，但是它这个容错率非常低的行业。AI，大家都知道他的患者有一些幻觉，所以AI怎么跟一个容错率非常低的，你要得到一个容错率非常低的结果，要利用它的我们所谓的叫relativity，就是它的生产力，那这个怎么去把它做一个平衡，我们这个行业做了很多的探索。OK所以也是从2020年开始，我们才陆陆续续看到有一些AI的功能应用在这个芯片设计上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>顺着您刚才也在聊的话题，就是大家都知道过去这几年可想的。比如说刚才您已经提到了，比如汽车公司对吧？尤其是电动车这一波，对。然后云厂商尤其是大型的云厂商，无论是中国还是美国，然后今天这些年似乎头部的模型厂商，然后可能手机厂商就不用讲了，我觉得都已经是非常常见的一套态势了。甚至比如自动驾驶也有一波。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你会发现就这些厂商可能原来确实如你所说，原来他们都不应该在芯片领域出现。但是今天因为各种各样的原因，他们都出现了，相当于变成你们的客户。这些厂商，比如说一家公司在什么样的阶段，或者他遇到一个什么样的选择的时候，才会去想主动的说自研的芯片。就无论是手机厂商还是车企，还是比如说这机器人，我觉得没也应该也在想对吧？当然我觉得某种来说这件事情如果是个极端态，它一定是必选题。但是似乎总有在中间有个什么样的节点，或者应该有个什么样的标志，似乎他要动念想说搞这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这个其实从我跟客户的沟通下来，我感觉这其实是一本经济账OK。就是说我们把芯片，以前很多像MCU的芯片都通用，芯片对它的量很大。对，然后其实各个地方都会用到，对，电视机或者说你的扫地机都可以用到。但是当比如说某个扫地机企业，他大量用了这个芯片之后，他发现买芯片的钱加在一起还不如我自己去做一个这样的芯片的钱的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说那那当然就大家也知道不同等级跟不同程度的芯片的成本肯定是几个量级的差距。比如就像你举例子，比如一个扫地机器人用的这样一个芯片的，尤其是主控的芯片，它大概的比如说他要预期它的投入量级应该是一个什么样量级的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果按扫地机器人的角度来说，我觉得投入量级还是相对比较大的。因为现在扫地机器人它有很多的sensor对，是他要自要自动化。它其实就像一个机器人。对，是他的这个sensor加进来加加后台处理，而且要控制一些发热，然后要用扫地机人的电池，它是有限的对，然后不能走到十步就回去充电了。那又有有一些低功耗。其实整个设计下来，再加上生产流片，我估计可能在要再加上整个团队几亿美元的投入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>肯定是需要的。几亿美元就是你你相当于要想这件事情，就要把这个钱先想好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我的天，对，所以回过头来说，像这个我再举一个比较更合适做自研芯片的，像AI这个层面。早期大家可能都是买英伟达的芯片，然后去做训练。但是当这个英伟达的芯片训练完之后，你规模小的时候还好。对，我们买几片跑一跑训练一个模型，或者买个几百片的。但是这个在规模大下去，整个电费，包括整个你的英伟达的芯片的投入，让他觉得说可能我自己去做一个这样的芯片更更有效果。或者说现在AI把这个训练跟推理是分开了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对分的非常开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对分开了以后，当AI在做训练的时候，他大量需要数据的计算，大量的算力，那可能英伟达的芯片比较合适。当他做推理的时候，他可能未必合适。对，可能需要一颗asic芯片。这个asic芯片它在用英伟达的去跑电费，包括整个机房的冷却，整个投入就非常大。所以他可能会考虑说，我是不是从推理的角度，我就自己去自研一颗芯片。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个逻辑可能似乎今天这个时间点，无论是模型厂商还是云厂商，还是类似我们叫通用工厂，这些公司其实都在沿着这个逻辑再往下做各种各样的尝试，对吧？最近欧派还不是出了那个，他们说测试之后的效果很好，当然可能还处于测试中。然后中国的这些模型厂商，比如说大家知道的可能deep sik跟国产的芯片的匹配的事情，也耽误了他们的模型发布。其实都在做类似的这件事情的某种我们叫探索。但是我又有另外一个问题，比如今天我就是一个民生厂商，我真的想在推理层面做针对我的推理场景下的这个芯片探索。那之前此前其实也有一些专门做推理芯片的厂商，他们也做了一些适配这个场景的尝试。是当然你看今年英伟达NMD不也收了两家，也是这个逻辑，对吧？对，其实在某种程度来说，AI这一波可能22年底到今天不到四年的时间，其实已经出现了比较大的分化。而且是似乎连英伟达NMD这种最头部的厂商也看到了这种趋势的变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是其实这个就听到第二层面，就是当你推理的算法合适不合适用这种通用的芯片。OK虽然某些芯片主打是做推理的对，但是每家自身的推理算法不一样。对我怎么把我的自身的这个推理算法通过硬件的形式把它固化，这个就是自研芯片的另一个就像这个均码的衣服，大家穿都能穿，但是是不是合身，这就是有另外一个考量了。这种合身起源可能比如说汽车领域需要更高的安全性，是从这个大模型的领域需要更更低的功耗。对，因为我的电费的开支，包括冷却整个一整个架构冷却其实是非常大的一个对他们来说非常大的一个FA。甚至前段时间新闻不是说还要放到什么天上去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正最近有一波就天上有点远。但是这一届很有意思，这一届美国最核心孵化器YC这一届最火的一个项目是在海上建立新的数据线，就拿船运对一个像那个挖井平台一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，海水是大家可以想象到的，但是天上因为没有空气，根本无法传热，我也不知道这个热量怎么散掉。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>星辰大海。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以不管我们怎么样去我们大家的玩笑，可能他们有更高精尖的技术，但是就终结一点，就是他们对散热。因为芯片的算力上来之后，对散热的要求，这也是说为什么大家有些就要去自研芯片。他可能觉得我的算法，我适合我的算法，我可以用更低的功耗去做到，那我就不需要很强的散热了。所以这些都是不同的从我们角度不同的客户他有不同的想法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对需求也不一样，是个成本、性能、功耗各个角度优先级权重也不一样。是的，那他们比如说这些客户，当他们想真的想开始动工的时候，会首先找你们吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那肯定是第一时间找到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那他们比如说优先找到，你们会先问什么样的问题呢？尤其是这些不是传统意义上的只做芯片的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先这些公司能成功，当然他们自己非常有智慧。当然所以他们也知道要把专业的事情交给专业的人。首先他们要做自研芯片，肯定会去请一个非常专业的团队。但是他们对我们所谓的推泡流片周期的压缩，导致有很多手段他们需要寻求我们帮助。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一个是从我们EDA工具本身来怎么去提高效率。因为他们的要求就像推理芯片，它的这个算力并不小，整个芯片大小面积也很大。还有就是一些我前面讲的IP，那一些高速的接口高速接口，以前芯片公司都是自研的，全部都自己画。对，然后自己画完之后，我不能把这个自己刚画出来的接口放在芯片上一起去对泡，那样风险很大。他要去先试流片一下，然后这个芯片接口通片成功了，然后我再把它整合到一起。但是新思可以提供这样的已经流片成功过的这种高速接口，让就像搭就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相当于你们有一套类似模板的库的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个就像搭积木一样，它会很快。那它就可以把比如说USB接口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比较成熟的一些这些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>接口搭起来了。他只要负责他自己内部的核心想法就可以了。所以基本上现在做芯片就是拼拼搭。这也是为什么一个是门槛低了，这么多系统厂商愿意进来做芯片。另外我有成功配套的经验，又能保证他在这一块上的成功，这个是没有问题的那它自研芯片，只要能在自研这一块能保证它的这个容错率变得很低，那它的这个死芯片的tayle一次成功率就会变你变高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你听起来你们的公司是不是特别容易去到这些公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的工程师有很多，有时候我们派去工程师去支持客户。因为新进来的系统厂商以前是不一样。以前传统的那些芯片设计公司，他只是问问你问题。对，如果我的软件始终有问题，你来帮我解问题。但是新的厂商不一样，新的厂商他希望是保姆式服务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他什么都什么东西都想要知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>虽然我请了一个团队，但是我人人还少。然后你的工具那你就来帮我们一起做项目了，做着做着也很可能我们的工程师就跑到他们那边去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了也正常也正常。毕竟是一个还是处于高精尖的领域，还是有太多的复杂性跟经验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>导致的对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且确实成本太高对吧？每一次流片跟选择一个东西能不能成，真的直接决定很多钱的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为像现在如果是新盖的3纳米一次流片，因为它做的那个光照，整个光照可能就几美金往下一投一次对一次。因为这个光照如果是错的那就全部都没点回来，这个后面就要看这个光照，要么就是重新再出光照。所以软件行业以前软件行业专门说，反正我这个逐渐还是迭代对吧？允许犯错。对我今天release个版本，如果有问题明天再release。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那你听起来这件事情是有概率性的，它不是一个五次就一定会出结果的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，芯片是这样，芯片以前做芯片其实是很难。为什么只有那些传统的做芯片厂商才能去做开发芯片？他们真的是有我们以前真的是看到过这流片失败的案例的。但是近两年我觉得大家大量采用IP，然后有的工去的这个加持之后，没有听说这个流片有失败的案例出现。因为现在大家都在做，比如手机芯片，汽车芯片，都是等着要上车的，等着要上手机的。很少听说一颗芯片跳票了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个而现在不说车的那个周期已经压到7个月了，我的天哪，对，太吓人了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我是觉得以前跟现在还是不一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那我们就聊这个问题，就是我觉得今天这个时间点。就是所有的软件厂商，无论是做什么软件的公司，可能都回避不掉AI带来的巨大的影响。刚才你也提到当这一波来临之后，无论是在时间、在进度、在成本、在流程上，我相信也有很多的AI的变化影响。然后明显感觉比如我们这做投资的，过去这可能一年多时间，从软件股的表现来看，大家会认为对软件股是一个非常大的影响。所以软件股大家会担心未来可能就不需要所谓的软件。但是这个层面级的讨论，我觉得更多还是在偏个人软件跟比如企业软件这个层面。但是我觉得你们这个领域非常特殊，所以为什么今天找您，我觉得这个就是一方面，确实这个最大的大的环境，确实大家可能有种共识是说，当时我似乎不太需要人。但是问题在于你们是那个软件里最复杂跟最尖儿上的那个地方，就是复杂度也好，而且你们又受益于AI行业的巨大的正向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以比如说您怎么看？首先我们宽的角度来看这个问题，就是从比如说您在公司内跟我们工程师去沟通，包括跟我们客户去沟通。首先从大面上来说，比如AI这件事情或者这个技术能力对于比如说芯片设计这个板块有什么样的正的负的各种各样的影响。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实整个AI颠覆软件行业已经有一段时间了。这个可能大量的工程师，就是一线的工程师，以前写软件代码的那些工程师都离开了这个公司。这个当时其实对我们是有一些影响的。但是其实软件这个行业可能AI的替换率已经达到国内可能已经到七八十了，国外更最高的可能到90了。但是首先这个AI的引入还是它即便到90，它还是有对人有这个要求的，有这个对人有这个需求。所以这个是一方面，就是我们该怎么去面对，我们在AI这个上面是怎么该怎么去面对，我想是一个是自己心态的把握。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那回到芯片设计这个行业，其实我前面也提到，就芯片设计它比较容错率比较低。对，是它跟可能我开发的游戏软件，我开发一个什么样的软件不太一样。我容错率因为我的容错率，如果我允许AI的幻觉在我整个流程中存在，最后退票失败，他其实可能整个公司明年是一次破产。对，并不是这个我可以撤回再再发布一版的问题。所以从我们角度来说，这也是为什么我们从2020年才开始有一些AI在芯片设计上的引入。当时我们从我们公司角度是有推出的一些强化学习相关的，就是呃让你在某个点上可以从烦躁的比如说不停的尝试里面抽身出来，让AI来帮你做这样的尝试，是然后得到最优解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其次这个AI也会让你因为整个声芯片设计，我们可能我要展开我讲一下，你展开讲一下，就是芯片设计有最终比如说我们业内专门说PPA，什么叫PPA performance power和area k这三个角度它是互相影响相冲的对，当我一根线画的粗一点跑蜂子就好了，但是面积变大了。那一根我为了面积线画的细一点，它的电阻变高了，那power可能就变大了。所以我们怎么样在不同的指标里面要去寻找平衡。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我多问，就是你们的软件还要承担类似模拟那层面的事情吗？就是设计就只是画，那相当于那那模拟这层。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>模拟这一层，这是另外一个。其实这个就是我我我如果有时间的话可以展开一些。其实以芯片设计分成数字设计和模拟设计。OK它一开始完全两条道路，它是通过数字设计是通过不同的节点，从人类可以用的叫RTO语言，就是VELOG这种语言，左手到雨或非门，然后再到版图。那模拟纯粹就是从原理图，大家可能以前就学的什么电容电感这些原理图，然后直接到版图，是靠人画的这种版图。所以数字流程跟模拟流程是完全两套不同的流程，对还不错。但最终到了版图之后，有可能因为现在数模芯片很多都合到一起，最后去做这个流片。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对所以从我们角度来说，这个AI的引入，我们也担心说是不是以后一堆工具不要了。对，但是从最近因为各家都有发布一些agent，包括其实我国外有好多公司小公司都成立了一些做agent的这个公司。我们看下来agent还是离不开工具。我个人认为不能说这个表达。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这有一个我觉得最近就正好就可能大家更理解。比如说GP6出来之后，大家都在用GP6去操纵blender做3D设计。哼就是理论上来说，其实今天大模型是可以直接做3D模型的对，但是为什么大家从实施跟眼睛看的效果角度来讲，用它去操纵blender再去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做还是更好的对，其实我觉得主持人您很敏锐。其实为什么需要一个agent去操作工具来做这个事情？Agent它可以去自由发挥，去想一些这个软件的代码，或者说整个芯片的代码。但是工具它是其实是这么多年芯片设计行业积累下来的约束。那我们容错率靠什么？靠的其实就是这些约束。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>和约束加在一起的最后结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当你的这个代码通过这么多的工具的验证，然后得到的如果是一个绿灯。那其实平时我们人做的时候也是通过这些工具得到绿灯，我们才能往下做下一步。来保证这样的整个不同的流程里面，错误率变得最低。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以从我们现在这个角度来说，agent它能替代一些人的工作。但是还是离不开工具。因为工具其实就是讲个这个就是可能说是honey的一部分。对，因为现在很强调agent。前段时间这个小龙虾很火。对，就是把要把这个钱都转出去了，对吧？你如果无谓把没有任何限制的，把所有权限都交给他，没有任何约束，他其实并不一定能做好事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那在比如在你们提供给客户的服务，除了传统意义上的软件的之外，那你们应该也做了一些AI的工具，跟无论是agent的还是还还是什么样的流程的东西，变成提可以提供给客户的交付的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实像现在我们已经有做了将近三十多个agent.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都是做什么功能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>承担什么样的对，在整个里面整个设计过程中，新闻设计过程中有将近有三十几个agent然后我们已经全球应该有三十几个客户已经一直在在用。对，在在试。因为agent这种东西，怎么讲呢？我可能就像其实我们把agent作为一个硅基员工，那人就是一个碳基员工，是就像我们招一个员工，招进来以后你不可能得到的，认为他什么都懂。但是硅基员工的好处是说，我们在公司内部已经给他做了一些training，他已经了解新思所有的功能工具的功能。那当他进来以后，他还缺什么？缺客户的脑力值。因为我前面讲了，他对word每一个功能，每一个选项他都知道怎么用。但是客户写的文章他不知道，这个客户是写什么评论文还是记叙文不知道。那当这个agent在这个客户断了一段时间之后，我们当然希望agent有这个自我学习能力，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，锻炼一段时间之后，那你以后就不用跟他讲的这么复杂，说我要写个记叙文，我要怎么怎么。那你就跟他说我要写什么东西，我的目的是什么？然后他就知道你要写一篇这样的记叙文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还有另外一个问题，就是商业模式上对你没有改变。因为原来的软件商业模式就是无论是按席位或者按license这种方式。那到了AI时代之后，从这个收入获取方式上有变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们也在思考。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这个议题是一个开放议题，其实大家都在试对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为以前的工具是给人用的对，那后面的工具是给agent用的那如果agent有更多，比如说agent跟人的，我们这硅基员工跟碳基员工的区别，碳基员工996就要回家睡觉了。对，是规矩。员工24小时七天他都可以用。所以他对工具的这个使用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>频率对会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>变得更高。当然工具如果还是按原来这种方式，还是说我们后面要把它它导向成说result，按结果对吧？对，result as a service. 因为前面你也讲这个AI的出现，让很多软件公司的股价都受到一些影响。因为软件公司以前是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不承担人造成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>SAS叫service as对，sorry，soft as a service. 那现在我们是不是是从result的角度可以跟客户去讨论这个事情，但这些我们都在讨论，内部在讨论。所以未来这个agent是不是一种是说是不是按照跟着你使用token的角度来看，你的agent是不是够聪明。我做同样的事情，这个A公司的agent可能使用token就只有几百个，但是B公司要几万个。对那怎么样来收费？其实还是要这个我们也还没有还在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>探索中，我觉得今天的事情整个业界都在探索中。对，所有的厂商，所有商都。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且坦白讲国内跟国外的这个模式也不太一样。国内很多open source的这个模型，它只要在本地部署，其实他可能都做不到的对对。但这种情况他如果通过本地的这样的。这个集群去做这样的芯片设计，用了这样的agent我们该怎么去收费？这个我们现在也是在过程中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对在讨论的过程中，是对还要考虑到客户自身的，比如AI的深化的能力状态，对很多东西的要求都都千奇百怪吧？所以为什么大家开始用FDE？其实就是用人去搞定这些中间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的是区别吗？是的，这个是，但这个FDE我们已经有在往这个上面改变了。因为以前我们卖软件，就是卖一个做好的软件给客户。那现在其实如果要把agent要部署到客户，那客户端客户环境的话，每个客户的环境都都不一样，是每个客户在不同的点的需求都不一样。是啊有的客户第一就是第一步到第二步之间的交互，跟另外一个客户第一步到第二步的交互，其实可能这都在不同的层面上。所以这个FDE的这个引入就是更重要的，因为要根据客户自身来把这个agent部署进去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，其实你们也在承担这样的一种探索的角色。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为我们还发布了，我们之前我前面讲了2 2020年我们发布了这个强化大学学习。对，2023年我们发布的cop pilot OK co pilot，当时的code pilot意义就是说我们把我们所有的知识库全部放到这个code里面去。想到一个辅助的角色。当你遇到客户以前客户遇到问题bug，这个软件跳出来报网警了，他会找A一来问，那他现在就是问他就好了。所以当这些工作都被copilot接接接下来之后，A一的转型就变得方便了。因为A有足够的板去做这个FD的这个事情，是对我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也符合当前可能过去这几年整个软件生态的一些变化，甚至也可能跟用户这一层使用各种各样的，比如coding的工具的变化也一样。就最开始都是简单的对对答，然后变成copy，到这一代变成了agent的形式，对吧？那再往后可能大家又探索什么自动化，乱七八糟这些事情，我觉得一样就是相辅相成的那现在这个时间点，比如说因为你们直面了非常多不同种类不同行业的客户，对吧？就是所有的厂商，似乎今天这个时间点，所有的科技公司都要往自研芯片上走。然后似乎这一时间产生的需求特别的爆，是不是这件事情在过去几年有一个时间节点是一个比较明显的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是觉得过去几年其实从公司的revenue角度来说，当然因为客户的个数变多，对客户的项目变多，会导致我们客户对软件的需求变大。但是最近我是觉得似乎这个趋势又有些减缓，平平了。对对对，因为该进来的都进来了，是是，这是大家都一开始在做的对，未来当agent起来之后，能有什么巨大的改变，其实我们也有所期待。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个时间点也也我觉得很多行业可能都遇到类似的状况。就是前面可能如果我们只开业行业的话，其实从22年底二三年初，到过去可能25年、20年，大家基本上只有一个策略，就是策马狂奔。就只有这一个策略是对的，没有任何别的策略选择。但是到了20年你发现无论是主动还是不动被动，无论是原来不做AI的这些厂商，还是今天只在AI领域只做最前沿的模型厂商而言，似乎大家都开始去考虑很多的。比如说性价比的问题，LY的问题，这个钱的量级的调整的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你像我觉得最典型例子就这两天，你看这两天发布模型的状态，就是先是这个就大概两周之前支付发了5.3 flash主打的就是便宜，就是超级便宜。对，然后马上街乐5 preview也是其实是打性价比的。就它的你看他所有的官方推送画那个曲线全都不是那个打分表，都是那个帕雷特最优的曲线的表。就相当于我在什么成本上，就是单位token的这个价格跟表现之间拉那个帕雷特最优的曲线。然后他马上发之后，小米的模型一发一样，他他拉的还是那条曲线。然后你看这两天发的这个GP6的，so跟luna，包括这个OPOS5.5，这都不是最硬跟最贵的，跟最强的它都是性价比的考虑。哪怕是今天这个时间点，市面上最说在这边就最有钱的人，最在承担探索这个边界的厂商，其实也都在考量性价比ROI的这些事情。确实如果放到今天我们这个议题，从芯片角度来讲，我觉得过去几年中国跟美国的这一波硬科技的大的崛起，无论从商业航天、火箭、电动车、巨身道I模型，就是整个的科技的大的崛起，确实是一个一浪接一浪的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得其实某一种程度是好事，因为之前大家头脑一热都干了，对，就干了。但是现在大家如果去追寻性价比，这些也其实是一个可长期发展的一个路道路。我记得前段时间有这个笑话，就是说这个token太贵了，然后说又把员工请回来了。对对对，所以这个有些虽然是个笑话，但这个进一步反映出其实国外厂商的这个大模型对token的收费，还是让有些使用它的人有些力不从心。对我觉得回到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>芯片这层面，比如当一个厂商从这个叫叫策马狂奔到开始出现，我相信你们也应该遇到一些厂商也在在这个调整的过程中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那他们在这种事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>上时候会跟你们聊什么呢？比如说有什么东西可以复用更多的资源的更高效的转化还是怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这些上面，其实我从我们的客户角度，其实我们软件并不是说就是从我们整个商务模式的角度来说，并不是说越多的项目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就会代表越多收入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对觉得说其实越高的复杂度，或者说客户的这个客制化的内容越多OK，其实才会对我们软件有更高的价值。比如说一个就像前面我举个例子，这个mcu芯片，这个小小的一个mcu芯片，他做20块，其实他需要的方法学都是一样的，工具也都是一样，也没有任何花出来，它每款就是投片投个几十颗，真正赚钱的是后面纺织厂手机电，三星这些对吧？但真正对软件有要求，比如说它的复杂度变变高了，或者说就像我前面讲，它从训练模型走向推理，更甚至于说他要最近华为又出出的这个套定律，对吧？把二维的芯片把它折叠起来，那这个复杂度就非常高。是啊那从这个角度标准之前的工具可能都不一样了，都不能用了，要重新再对，要重新再去探索。这像这个当然华为有套定律，这个TSMC有SOIC，哼这样的其实是类似的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实基本上大家都有往这个方向去走。原因在于说可能单颗带，以前叫moto带，就是多颗带之间的这个连线太长了，导致这个芯片的性能无法进一步提升，所以才会想到把它折起来在一起。但是折起来之后有很多别的问题。因为它散热是对它是硅片，对它散热是个很大的问题。这个也就是为什么我们新思科技，我前面介绍的时候，我说我们原来是一家EDA公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，现在其实新思科技收购了anseis之后，我们希望从silicon走向了系统。所以当你两颗芯片叠在一起的时候，它的发热量变大了。那我们怎么样去控制单颗带的这个发热，这是从silicon角度来看的。但是当发热量上来，因为你是铜肯定要发热。那这个发热怎么让它快速的去散掉散掉那是通过这个液氮，还是通过什么样这样的风冷，还是自然冷却。有没有在这个芯片安装以外形成一个自然冷却的一个体系，这个都是靠这个系统级的仿真。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这似乎也对你们提出新的要求，就是不单纯只能只关注纯芯片那个片本身的设计层面的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个因为是我们的客户也变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你可能是系统层的对，你看现在英伟达也是卖一整套的，他也不是只卖一颗。对，所有人大家那那乐见其成，我买一整套适配性也好对吧？然后也稳定，然后传输冷却成本乱七八糟的这种考量都是个。当然英伟达也乐见这种脐橙，对吧？对，所以确实我觉得这也是一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>英伟达是帮人家做数据中心的对，就是不是蛮新鲜的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他他他他最后大到就是他那他今天为什么敢给他最新的客户都折旧的底，就是因为本身他那套系统你插在A的数据中心跟插在B的数据中心没有区别，对吧？那那我那你最后真的你公司倒了，你这个东西我直接转给另外一个人是转的掉的。因为都是标准一套系统。是对，所以我这个逻辑老王是想的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很明白的对对他主要是他的扩大的这个生态。所以英伟达不单单是一个芯片公司，是它其实是一个也是个生态公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>古塔也好，光也好，网络传输设备也好，都是一起的。对，甚至包括存储的整合也是，所以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是这样。道光其实现在因为AI的发热太高了，大家都要CPU。对，要做那个硅光。对，那如果信号是在硅片上以光传输的话，它就没有发热的这个概念。对，所以大家都在想办法，因为老黄也讲说，现在限制这个AI再往前发展的就是铜线了。对，因为铜线的发热太大了。对，所以其实回过头我们的客户变成系统厂商了，所以他对我们的要求就单单是一颗芯片，有更多的系统级的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>复杂的东西就的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK我们做一些稍微远一点的，比如畅想，您觉得就是按照这个范围再往下翻，比如再再走个两三年时间，您觉得在比如芯片设计的这个你们相对比较更熟悉的板块中，会出现哪些比较大的变化跟趋势吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从我的角度来看，首先我个人是一个觉得在整个芯片设计流程里面是离不开工具的，不管A型的参与度到什么程度。但是其实国外也有一些专门做agent的公司，它主打的是你用了我的agent，你是不需要异地工具的。他把EDA工具都在agent里面做一些training。对，做内化。但是从我的角度就是因为我可能没有想这么远，就是你真的内化了之后，他给你的答案是不是符合原来的这个公式逻辑。他给你的答案有没有带有幻觉？所以有些东西这也是为什么，其实我们这个行业一直觉得take泡以前真的是有失败。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从我们角度tapp是一个非常严肃的事情，就是我们希望他能做到零容错。所以从现在这个角度，我们的工具能给它加上约束，agent去处理以前人可能处理的事情。包括像这个语言的生成，包括可以做这个PR。但是最后我们所谓的叫做谦和这个动作，我们相信可能还是离不开人的。因为人最终还是要a agent时候不会为你芯片的失败负责的。所以人还是需要为这个芯片的结果负责。对，所以从这个角度，因为现在都因为大家agent都在往前发展，对，这个也不知道最终谁会胜出。但是从我个人观察，我是觉得EA厂商它本身首先有工具，其次因为做颗芯片的know how一个在工具里，一个就是我前面讲的客户的能耗。那agent可以把客户的能耗去掉，把它这个学习。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到学习掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那加上EDA工具，它也可以做个芯片。所以未来我觉得可能IC行业也会有这个人减少的趋势。一个简单的芯片可能两三个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人就可以让现在比如说这个人的层面上是个什么？你比如刚才讲我们一个，比如说一个扫地芯片，是您说可能要准备几亿美金的钱再说。对，那从人的角度来讲，一个这个量级这该怎么去评估？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果从前到后要做一颗AI芯片的话，或者做一颗手机芯片，我们讲个这个以前我们有个客户叫泽库，就是OPPO大家都知道。对，他们当时是3000人，他们做的是手机芯片。对真正芯片设计，因为这里面包含软件，对，那真正芯片设计可能在1500个左右。我的天哪，所以如果但是他们的这个scope长大一点，就当时他们是尽量减少IP采购。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多东西都是自己搭对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这就会花花了蛮长时间。投入会比较大对。那如果像现在比较节俭的一个汽车芯片公司，它如果是后端外包给这个service公司的话，可能整个公司在两三百人。就算是团队对，两三百人就可以把它做下来。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为对前面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我讲的就是一个是工具，一个是APP。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就搭积木的工作相对多一些了。对，就不需要很多东西都从头造轮子了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你像今天，比如说你像最近潮流比较热闹的，你像open I这种公司，包括招聘人公司，他们想做的可能更多还是推理行为。那他们的团队也要到这个体量吗？差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OpenAI做芯片，最近那个那个辣椒，对，那个辣椒其实讲到这个就是我我其实也做过一些研究，就是关于到底agent做芯片到底能做到什么程度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是他们的定制化程度是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是，就是大家都好多新闻，现在好多人都这么讲，我用一颗，我用AI毫无人工参与做了颗芯片。对，然后我就做了一些探索。其实这个也是问这个AI的，因为我们问的问题会比较刁钻一点。比如说比较直接整个流程里面用到哪些工具，或者我们会问他它某个节点它是用什么样的语言，对，就我们会问到一些细节。那AI回答出来的问题跟新闻里面可能就是不太一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是你新闻也不会被爆到这种程度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是说我们看现在真正实现就是流片的，这个我能数出来的。我当然我把以前就是我讲的这个强化学习也算算进去，对吧？当时三星21年的时候，三星有有个我们新思合作做过一个这样的3纳米的制程的。但这只是强化学习参与，在这个里面并不是AI独立去做的。是英伟达当然它也号称它的这个叫切弗尼O这个有用AI这个AD系统去做。但是它是用大量的辅助模型工程师去编写了很多验证脚本。它虽然它生成了这些代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是就还是逻辑数的逻。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个还是要验一下的对，所以他才敢放出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后包括那个联发科号称用的谷歌的，当时就是因为谷歌当时做了一个叫阿尔法chip，那个ara trip，现在做ara chip这两个人出来自己搞了一个意见的公司。当时这个故事比较奇怪，就是他们当时谷歌说他们做的这个芯片，然后美国哪个大学去去复现，那个教授是没有办法复现。那最近他又谷歌又公布了他们的AI用的权重，然后就是没有人去跟他们玩了，所以到底能不能复现我们也不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，那真正我觉得我们看到过有流片的，一个是其实是我们中科院计算所做的一颗65纳米的，这个叫启蒙一号。启蒙一号是最后是去流片的，二三年的六月去流片，用AI的全自动流程加上这个open road，就是开源的EDA去做的。它摒弃了传统的就是我前面说的VERLOG网语言到网表的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它是用一种叫BSD的这种算法。他就相当于因为电流从我们的这个芯片有input和output。对它就像水管一样，电流它从头往它不会往回走的。所以它用一种水管的弯管的方式去把它直接搭出来。比如说我进去的多少电流，出来多少电流，那通过这个电路里面水流的控制，水流大小，对它叫单向无回的这种逻辑来去做的。但是同样他们用了很多形式验证，就是静态验证去验证它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，那这个是推炮的，然后推泡我来比较一下，它号称能对标英特尔486。对，那英特尔486有多少门级？他用了400万逻辑门，intel 486才40万逻辑门。也就是他的这个芯片推泡出来的面积要比英特尔四八六大十倍。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以更多是一个尝试性的对demo对对对，只是为了做这个实验做的，它不存它没有可可操作跟可。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>被落地的。然后这个二三年very call又做了一个宣称从219个字直接到GDS，毫无人工参与，也是用open road做物体实现设计，中间用了VERILOG versify的那些综合工具。这个东西它没有腿跑，因为它只是用了一个虚拟的这个世界标准库，所以他没办法去推荐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最新的就是这个辣椒了。OK对，辣椒也是，他后面全部是交给service公司博通做的。对他只是做了前面有一部分，其实相当于我们芯片里面的这个RTO的生成，就是整个芯片设计的语言的生成，他是做的，但他不是用芯片设计语言那一套，他用的是谷歌的那个开源语言那套去做的。所以真的是从头到尾毫无人工参与的，其实还是没有出现。这也是为什么看完这些就深挖这些之后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>执行方执行细节。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对细节之后我对这个行业还是有点信心的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是没有达到理想的工作状态，还很甚至可能还很远。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很远也不好说。对因为现在就像我们最早在二三年我们做copilot的时候，那个时候的语言我们觉得大模型其实我们对模型有有选择吗？有都试过。这个模拟性的能力对回答问题的准确度有很大的影响。但是很快就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>基本上是没都都。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK了都OK了。对，很快，所以模型的发展非常快。我们也不能说这个可能未来3到6个月就出现了一个高而已。对，这个我们不太好，现在的这个不太懂，好做forecast。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实这行业现在真的我操太太就是一个月1，你像软件层基本一个月就是一个版本。对，每个月就是一个大版本，就是今天的事情一个月之后就变成感觉上个版本，上个时代的古老的。故事一样太太恐怖了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是，但我是觉得不管怎么样，就对比软件行业，人还是需要就是你要做一个什么样的芯片，还是要人去从顶层架构商业逻辑上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是今天这个时间点最核心的这些芯片设计的人，他们的构成的背景大概是什么样的路径。学通信的，学电路的，还是学计算机的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是学就现在很多大学都有集成电路专业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是最最最最最最最对口的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最对口的对，然后当然你说的通信，电子这些都属于弱电，也是可以的。强电就可能就是跟answer相关的去系统了。对你觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI来之后，这个事情会有变化吗？就是对这些人的，因为就是我说过无数次辽AI话题最后大概率都会跑到教育上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>教育。对，其实这个也是一直我一直在跟我们家小孩在聊的内容。我是在想说AI如果真的是像软件行业或者像芯片行业这样的冲击以后，是不是我们现在因为我们现在其实我们国家的这个大家学生高考学生都希望往选择数，就是叫叫数数理工科。对，那未来会不会那些有创意的或者说是文科，那他他会更有创意。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更有想，你比如你们面对的客户当中，有没有这种比较意外的构成的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但目前没有，目前还是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>需要严谨的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常的还是需要理工科。这个还是需要人来做事情的，不是天马行空有想法的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们这个行业太特殊了，我会觉得他就是尖儿上那个位置的地方，就当某一天如果是你们这个都被搞定了，那那真的人家就躺下吧，就别也别想别的了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果他真的是全套agent或者说离开人，离开工具AI就能做出芯片的话，那我觉得这个离当时我看那个电影叫magic不远了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那都是科幻电影演的极端太了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人人只有给他供电的这个功能了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人形电池的变成了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对所以但这个还是回过来我们严肃来表达一下对未来这种学子的期待。一个是我觉得跨界的人才还是会很重要。对你单单只会芯片设计不一定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为对你们都跑到系统层了，对吧？都跑到甚至要看插手应用层的事情了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是就是你整个跨跨界的这些knowledge怎么样去整合。然后有创意的人或者说那些AI当然我们现在看AI就是你跟他讲不同的语言，可能得到结果不太一样。就是怎么可以把你的需求都表达描述出来，用自然语言可以表达出来的这种能力，这个是我觉得通的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>能力都需要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>未来都需要我觉得未来你怎么去跟AAI去接触的这些能力。但是从另外一个角度就是说，我也反过来思考，就是说我们像我们公司有些工具，ED工具，它本来就是设计for human，本来就是为人设计的工具。那些工具未来可能就不见了，并不是说他可以完全替代工具。但是我们反过来当然承认有些比如说看波形的工具，本来这些模型打开就是给人看的，人来找到这个布星里面的问题的，但是未来可能就不需要了。因为未来可能就是agent跟agent去沟通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他可能不需要看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不需要可视化的东西了。对对对，所以有些东西我们也在思考。当然我不能说完全工具是一个都不能少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那是这还是要从我们所谓的叫第一性原理出发，来考虑到底我这个中间要的是什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，今天聊的差不多，非常感谢严总的这个精彩的分享。对于我这样一个硬件外行来讲，学习到非常多东西。因为就像我们在我们私下来刚才聊的时候，就是我们原来这些做比如互联网，做包括做投资的，原来研究行业的时候，其实并不需要那么深的对科技跟技术底层的理解。但今天没办法，今天所有的硬科技，包括AI，包括大家讨论的算力芯片，各种各样的事情真的到一些非常深的程度的时候，它就是需要这些更硬的东西来去支撑这种理解。再次感谢大家收听。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后如果大家对新思科技有需要了解，可以去他们的官网查一下。比如他们最近在招什么人，对吧？我觉得是一家非常好的公司，非常强的站在产业链非常核心位置，并且有垄断状态的一家公司。好，再次感谢。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好好感谢明浩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感谢。</p>]]></content:encoded>
+            <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
+            <guid>6ab9f026e742e36efcbc0d88</guid>
+        </item>
         <item>
             <title>AI进入生产阶段之后， 智能、算力、芯片 会走向哪里？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6ab2b85df04646b3a955a1de</link>
@@ -7083,210 +7364,6 @@ https://www.acolorbright.com/en/insights/aesthetics-of-ai
 <p class="transcript-line"><span class="time"><strong>[01:21:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以。</p>]]></content:encoded>
             <pubDate>Tue, 31 Mar 2026 16:00:00 GMT</pubDate>
             <guid>69cb42fee2c8be3155f7d2b8</guid>
-        </item>
-        <item>
-            <title>Vol.91 数据角度看OpenClaw的企业落地---对谈Oceanbase</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69c67ffde2c8be3155a8420a</link>
-            <description>OpenClaw的热火依然在延续，国内的各家互联网大厂对针对🦞门槛高的问题在过去一段时间做了很多很多的“工作”；
-在这些厂商的共同努力下，国内使用个人用户市场OpenClaw的渗透率极速提升。
-但在个人市场之外的企业市场，因为OpenClaw天生的架构、数据、安全等问题，其落地面临诸多困难。
-从这个切入点开始，我找了两位在数据库领域有非常资深经验的嘉宾一起聊了聊……
-【对谈嘉宾】
-* 刘华阳：PostgreSQL ACE、某互联网企业数据库架构师
-* 戴涛：OceanBase 创新和 AI 业务负责人
-本期节目也是OceanBase播客《赛博赶海》的第一期节目；
-（想加粉丝群的请先+微信：rosicky311)
-下面正片开始……
-【时间线】
-00:34 两位嘉宾的自我介绍
-01:20 企业角度如何看待OpenClaw的落地
-03:08 过去几年其实每年春节都有一些新的技术热潮
-03:59 企业想实施🦞时候都有什么顾虑/问题
-06:22 其实很多事情是“历史的重复”
-13:03 算法、算力、数据三要素中，数据似乎边际更重要
-15:17 AI是否会再次带火数据治理
-21:15 现在数据库加上向量就等于AI数据库了？
-23:31 现在企业很多在做的是缝合怪
-23:56 Google Maps的“Ask Maps”
-25:56 记忆的问题本质上也是数据的问题
-33:44 蚂蚁阿福上的记忆能力展现
-34:36 AI陪伴领域的记忆变种需求
-37:15 对于企业用户，markdown真的很难接受
-38:31 安全对于中国企业来说是很重要的命题
-40:22 这一轮对于安全的讨论是边际更多的
-43:17 Oceanbase已经不单纯是一家数据库软件厂商
-47:50 中美对抗角度看数据库软件发展
-49:50 投资人视角如何看待2B市场在中国的新机遇
-57:13 给焦虑的企业主一些建议
-【播客简介】
-屠龙之术是一档关注科技、互联网、风险投资的播客，
-主播庄明浩是一个游走在互联网和风险投资行业的边缘人士。
-其工作多年所积累的认知似乎都成为了某种意义上的”屠龙之术“……
-或许某天再有新的“龙”出现的时候，就是这档播客停更之时。</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 大家好，我是明浩屠龙之术的主播，也是今天赛博赶海的串台主播。然后今天非常有幸邀请到两位嘉宾聊一聊现在这个时间点可能很热门的一个话题。当然我觉得今天的节目可能跟大家最近一段时间频繁听到的很多节目的切入角度有不太一样的角度。我们可能更多会集中在偏数据这一层面去解读最近一段时间AI行业最热的话题，关于agent跟龙虾的这个议题。然后要不我们今天先请两位嘉宾做个简单的自我介绍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK, 好的，我先做一个自我介绍，我姓刘，刘华阳，然后是一家企业的数据库架构师，也是这家企业的数据库部门的负责人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>戴老师好，大家好，我是戴涛，目前在oc base负责AI相关的解决方案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，听到两位老师的这个背景，大家应该知道，我们可能会集中在探讨AI这种范子。今天尤其是26年初这个时间点，突然带来的新一波浪潮所引发的对于数据的讨论。先问几个小问题，比如说两位老师都养自己的这个open cloud，或者说有什么在过程中遇到的比较有意思的事情。无论是你们的还是你们听到，还是你们朋友的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都可以OK。好的，那我先来作为这个企业里面的一个作为服务数据库的一个部门或者是一个机构。其实我们对这个open cloud的这个产品是有一些看法。我们先不说养不养它，就是在这个整体的open cloud这个设计当中，其实在企业的落地里面，我们觉得可能会有一些问题。对，尤其是在数据的这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以今天会聊这个问题，会我怎么做比较多的延展的这件事情上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后主要是数据库其实还是要说到老本行，就是数据库。我这三句话离不开数据库，无论是AI还是agent我们都是要有数据的。当然没有数据的话是不能做这件事情的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，现在open cloud一个最大的争议的地方就是它对使用数据的一个范畴与安全性的一些问题。这是我们可能待会儿要深入去说的是的这个部分。其实我们特别想的就是说就是OK现在养龙虾的人都是人，他不是企业。是的，就是我们为什么会很少听到某某大企业去集体养母家。对，这个是因为open cloud在数据端，尤其数据库这个方面，它可能有很多的缺失。因为它是一个开源的软件。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个人做的对，所以说其实我们就是我作为一个斜的数据库负责人，我其实特别想跟我们的戴老师去聊一下天，多多沟通一下，多多学习一下。您觉得open cloud这一部分，比如说在数据库端，如果我们企业想去真正的应用这个部分，那企业应该怎么去做？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这几年其实每一年的年头，都会有些新的出现的。对的，你像咱们二三年初，因为ChatGPT，对吧？对，基本上它是22年底开始的，去年是做什么DBC，DBC8个minus出现是吧？今年就是说close。对，龙虾就是变得非常火。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>刚才其实像那个刘老师谈到一点，龙虾其实他的创业的一开始本质上解决问题，他是个人助理。是的，而且他不是面向极端的他所以你会发现他很短时间之内get hub上他那个star数都排在第一，对吧？对他解决了很多梦幻中的那种叫数字贾维斯的概念。对对对吧？我跟他说句话，虽然他不是个物理实体，但说句话他就帮干活是吧？他其实是个数字假维斯，他是个偏个人东西。企业这侧他一定会跟进。我觉得很多客户已经在跟了，对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们会问您什么样的问题呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他们跟的时候他们会很谨慎。对，当然他们会发现，比如说龙虾的话是个人助理，企业要的东西是啥呢？企业要的东西其实是个数字员工。对，他要是说我能把我这些企员工的经验把沉淀下来，一定的范围内替掉了员工，甚至说你让员工更高效。或者说其实我有更多的一员工之后，我能做一些更多严重重要的事情，他去在乎一个态度，他要东西。其实跟目前企业的这个open cloud这个东西不完全一致。所以在企业端要做很多事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后比如说我举个例子，比如说像数据对吧？对我们的客户就会提出来，就是说你像open close的东西，它是存在文件上面的，不安全。我上周见客户的时候，客户基于我们一个大厂给那个open克布了一个东西，对吧？他就问那个客户他怎么问呢？他说请你告诉我，你talk你没必要。结果啪我一下，我截屏一下，就出来了，就算了是吧？那当然我现在也给他展示一下，比如说我们蚂蚁上次搞了一个数字实习生，对吧？展示一下。我问了同样的问题，我回答的很好说这是个机密问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有有围栏有限制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以发现没有。就是一个C端的东西直接部署给企业，很容易有过安全问题是吧？蚂蚁做这个B端东西就好一些，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第一个是安全问题，第二个问题就涉及到说要大量接入。因为你像我们可乐，你不说个人电脑上就相对简单是吧？那你说权限一开就好了，对吧？企业你怎么怎么能对？是啊，每个企业有少的七八家系统，多的是上几上千套系统吧？我怎么怎么开是啊这东西你说我能把它全部开放出来吗？对吧？而且就在企业内网，我别说是把系统开发出来，哪怕把你一个电脑曲线，一个IP权限开放出来，都可能都有一些问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你发现说他们对说企业级特性，个人特权这个问题什么边界？其实有很大的一个顾虑。所以你发现国内很多企业，它是去把你家动禁掉的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是就现在只能做的方式更多是合理方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是一刀切禁掉的对吧？它就在这一个模式。所以你说你刚才已经问过说我们养不养是吧？我们的办公电脑是不能养的。当然办公室被禁掉了，你只能在云上搞一个东西吧，或者家里面搞一个像现在什么买个mini买个mini买个mini还没没有用，就买个小迷你主机。对对对，可以搞个会加一个费用店可以做。其实你会发现说目前极端它就是这样一个样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现实这个问题确实在过去这一个多月时间，它就是这种冲击和碰撞的。对的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个过程中其实今天我我我插我插话了，不好意思，没关系。就是你看现在我们做各种项目，其实我觉得它其实就是一个历史的一个重复。我们经常会遇到几个问题，比如说在数据的传输当中，数据丢失了还是很有可能的。比如说我们在清洗数据或者在数据传输当中，由于某些原因数据可能缺少了。或者是比如说在数据的传输当中，数据传输不及时，然后导致我们最后汇总到大数据里的数据可能是不正确的。那么我们可能还要再去重新的传输，重新的清。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时大家都特别欣喜大数据来了，然后又特别期盼大数据来了。然后大家后面就特别恨这个东西，因为太难用了。但是到了现在大家可能会很少再提这个事情。因为为什么？因为可能现在大数据的解决方案里边有单一的或者是只有几种数据库的存在，就是相当于它的整体的架构变得简单了。其实我特别想问，就是现在AI特别热，大家都特别想进入到这个里边，企业也非常想尽了降本增效，是不是我就特别害怕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回到大数据那个里面的问题，就是我们的这些AI的产品里，比如说现在又引入了适量数据库，包括我们的比如说可能把声音，把图像再转成对转成这种，比如说拼靠这些产品就产品又太多了。然后这里，最后，我们需要把这个东西又进行2G然后再喂给我们的大模型。那这里可能是不是又会出现像我们大数据里面的，比如说数据缺失，数据不准确，数据一致性的问题等等等等。而且还有一个特别让人头疼问题，也是大数据曾经遇到问题，就是成本的问题。我这存一份儿，那存一份，还要存一份副本。大数据里边又要存一份，可能ETL的软件里面又要存一份，然后这个成本居高不下。就是单位有的时候上完这以后叫苦连天。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>跟刘老师问了一个非常好的问题。其实这个问题你发现了，就IT这几十年以来，会不断重演一循环反复一些故事。你刚才刘老师问的问题的核心点在于什么呢？就是说你会发现新的这个技术浪潮出来之后，企业里面会形成新的一些数据孤岛。然后甚至说不因为不同的技术站对不同数据隔离？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>核心其实这个问题所以你发现了，就是先就是说一开始新的一出来百花争鸣。然后的话说慢慢会觉得是需要治理。因为刚才有人说了不舒服，用的不好是的就要治理。比如像前几年，像我们有些名词，像业务中台的概念，就试图想从治理的角度上去处理的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在AI的话说也是非常明显。我举个例子，比如说咱们基本上24年左右国内开始谈RIG。A agent开发。你会发现其实你看就两年左右时间，企业里面就引入了很多套agent有开源的开源不同版本的对，不同开源厂商？商业化的是的，然后那个IG也一样，所以刚开始技术初级跑起来的时候，问题不大，你未尝鲜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为技术里面它有一个说现在这个成熟曲线，作为那种说刚开始是接触善于接纳这个新技术理念？是没问题的。但是真正的企业里面大量的受众，其实需要这个技术相对成熟以后，他才他有更有收益的？最后你会发现说我们现在客户已经提出来了，就说AI两年一年？对重构造轮子，所以他们也会会提出也有些治理的概念。虽然就这个名词不完全正确，但是我就有些思路给抛出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如说他们提出来要构建AI中台，但这个中台是不是业务中台来说，收银台不一定，但是意味着什么呢？它系统是从从基础上统一各种的一些调用各种能力。比如说我刚才举个例子，我现在企业里面每做一个应用里面一个案例，这里的应用那里面带自带了一套H的框架。怎么维护呢？每个的框架里面底层数据库也不一样是吧？是的，技术也不一样。所以如果说有它中台，它可能不是业务实体的，也就偏技术中台这种这东西PI的一些能力的。比如说怎么切片，怎么统一存储，怎么怎么搜索，包括怎么做整体编排，包括像做小龙虾，统一小龙虾的这种调度，统一搞出来，这对企业来说它是很有价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我说的第一个概念说，这企业发现了他要说要做的东西，但是最后形成结果未必是人在中台。但是我说统一技术栈，减少这种说技术上的这种说叫这种多技术栈，应该是这种对技术是架构的复杂度，对吧？第二点，其实刚才其实刘老师也谈到，就是说什么点呢？数据因为你想你统一记录站之后，原来是因为多记录战造成的，说是数据它也不是统一的对那你发现AS了之后，其实我们的精力都不如原来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那原来程序开发是指什么模式？先看需求，去做做面对象设计，做表设计，也要是做开发模式是吧？现在你想说我们未来开发是啥？我给agent，我给web coding，我给他一个需求，需求直接结果了，我管他怎么实现，怎么设实现吗？我管他这个面向对象怎么做吗？当然大系统和系统不行。对，但是你说一个切量级系统是吧？因为业务团队大量切换系统，他不需要这种东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那这时候你发现说他需要什么？他需要说是一个能支持他敏捷快速变化的这个东西。没办过企业里面各种稀奇古怪的数据全部存起来。而且的话说能支持我实时访问，支持我一些这种轻量级分析？这是刚才说的我向量分析各种这种方式分析。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你会发现，对于客用户而言，如果你要结合H的开发或者web开发这种概念之后，你会发现未来的这种数据形态，它会变成说对企业而言就是个统一大数据回库的概念，对吧？各种数据多模态数据统一存储，各种负载。我管理TPIP下降是吧，是统一处理。而且各种那种图像图文英式图像文本映射水平数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你不要还考虑说稳定什么稳定系统啥的，统一给，我来帮你处理，我来帮你存储，那对于未来就非常有帮助。企业现在已经发现这个问题了，他们试图去做一些治理，而且也提了很多新的想法。别重新说一里做对，比如像AI仲裁的概念是吧？而且其实像我们这种产品厂商，其实也在往这方面去努力。也是不是说其实通过一些更好的技术方向情况下，能在我们看得见的未来的这种3到5年里面，更好支持目前这一波AS的发展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家就是今天这个时间点，大家都说愿意这一波发展三个要素，算法、算力跟数据。似乎在这个时间点，如果我们只看过去这一段时间跟未来短期内来说，这三个要素里面对今天这个时间点业绩发展并影响更大的应该是数据这一项。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我来提一下，因为刚你说三个话题。对，因为今天正好今天是26年，对吧？对，AI出来正好是五六年出来的，到今年正好是70年。对，是的。刚出来的时候，因为貌似会议，对吧？它的核心其实是算法。对，是算法。当时是研究各种算法对吧？对，不管你是符号主义、连接主义，讲的是算法本身。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是什么时候发现注重这个算力呢？80年代英特尔CPU，包括来说99年英伟达CPU？你会发现你需要一些新的一些算力解决问题。但是你会发现这十来年数据面很重要。一个标志性的一个里程碑就是李菲菲去搞他的那个音频就来因为有了18年那台车才有新盾。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做2个GPU连在一起做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>才有新盾搞出来。现在的所谓的这些，对，这些就计算模式，对吧？才会有有全部模型这个东西是吧？是的，所以你发现2010年开始，李飞飞去搞这个所谓的刚说。对，但它仍然是在于说偏研究领域。对，是的，偏说互联网产业领域的时候。是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对于企业而言，就像您谈到的，其而言来说，因为去年还有个事情就DBCG，对d bcg解决了说这种超海量算力使用成本的问题。对训练？就是你发现了其实我们对算法不是很焦虑了。对，我们对算力不是很焦虑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那时候企业的焦虑点发生了，或者聚焦点什么，就是数据。所以你说现在AI的这三个角里面？对，现在就变成说你真的到企业应用来看看数据，还有企业每家企业它的经营的最核心的东西，除了他的管理制度以外，在数据上面。所以现在做切换点之后，就刚才你谈到说为什么我要强调话题的时候，你发现我们的很多企业它它动起来了。由于DBC的推动，由于国内各种芯片的推动，是吧？对，由于各种而且推动之后它动起来了，而且发现说他的数据很有价值，不管是训练还是推理情况下，或者说把企业数据，比如说能做一些更加智能化情况下都动起来了。所以我现在看了一下，这个趋势很明显的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚才戴老师的话给我展开了我的思路，我又有一些新的想法了。就是我在想AI是不是又能带火一段数据治理这么一个事情。因为现在AI要投喂数据，这些数据都是从企业来的。现在企业的数据的准确率是不是准确的？我们的企业的数据散落在各种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>地方平对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们其实实话实说，我们把它收集起来。我们对一些数据的准确度我们也不看去完全保证。我们如果把这些不完全保证的数据喂给AI，让AI产生了一些结果。比如说经常在网上看到的这个商户删了数据，误操作的这种事情，我觉得就不太好了。当然这些可能是比较表面的。当然更深层次的，比如说我们通过AI来推演公司的未来的发展的一些模式，或者是推演公司发展的一些未来的数据。那这个推演错误了，那这个事情就大了。所以说我现在又回到了这个事情，就是OK外行看热闹，就是大家都在养龙虾，就是现在听说这个60岁的老太太都想去养龙虾，我觉得这个事情就有点儿有点儿有点失控了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我觉得企业现在不动，或者是动的非常的慢。其实有他们的考量，就是可能在AI的方面可能已经稍微的成熟了。在在企业应用里，但是数据的这块，数据的准确度，我们用什么去存这些数据？比如说我们有图形视频等等等等这些，那这些应该怎么去处理？因为现在的这个产品太多了。是的，那比如说作为一个比如说数据库的负责人，我不可能说我引入一个数据库，然后不经过测试长期的一种投入，然后就把它弄进来。然后假如说他的版本有问题，或者它有bug，那这些都是对企业是毁灭性的。所以说就刚才像戴老师说的，就是我特别认同就是架构一定要简单，不要说给我弄十个八个什么矢量数据库、图数据库，然后ES那个那个成本高，咱不说就是整体的，我觉得这个东西可能数据的处理上一定要失控。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>基本上是这样的。因为刚才这个刘老师谈了几个观点，第一个就谈到其实是数据治理的问题。这个问题我再给你拆开看一下，其实它分成宏观、中观跟微观的视角。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>宏观视角你会发现，其实去年咱们在中国提出互联网加的概念之后，你发现其实说我们的顶层设计在搞什么高质量数据集。你发现高质量设计核心其实就解决数据治理问题。他要从国家规范上面，包括说一些行业上面去推的东西。因为只有高质量数据的，只要数据质量是高的，才你才觉得说你这个训练推理是好的，对吧？这我这是宏观的问题是吧？其实国家已经动起来了。因为我们也会看一下一些国家课题上面确实有一些上面一些打算指引。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二就属于是中观，中关其实在企业的车，对，其实你发现其实树立这个治理的话题，它不是一个新话题。很多年前就在讲。但是由于历史上各种原因，数据烟囱各种什么问问题，真正把它做好的，你发现不多。但是你发现这个问题在AI时代，他就他会很要命。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他放大了必须我们得做好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但很要命。所以你会发现其实我们很多客户就提个概念，他要做数据整理，就是他要需要什么工具？比如说我说数据这有典型的几层，统一的数据存储，统一的数据加工，对吧？还有一些比另外一些比较像血缘跟踪，各种一些数据工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，你上再把数据服务暴露出来，所以你说可能说它是一个大平台，也可能是很多平台共同组合起来。那帮你解决这个企业里面跟我说中关税率这个问题，他可能不完全是某一个产单一产品的决掉的。但是就比较OBOCB这边的，现在我们有一些像梳理这点些能力和经验是吧？但我觉得大差不差，就把这个图再拼起来。然后我说在微观层面上，有可能企业现在可能不是马上我就要做企业，随着你因为企业他他跟人一样，他有性格。他说他可能是他是尝鲜型的，为啥要老板想尝鲜是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，老板觉得说我现在先做AI因为我他怕错失，然后这时候你说我先搞一两年做事治理，来不及。对，是的，那这时候我可以在你局部上面？我在微观上面，比如说我现在这个某个域，你看你的生产域、营销域、销售域，或者说你在这个IT开发，每个月我先做起来，没关系，我先做一些局部的一些AI东西。这话说这两不误，所以说你不是不做是吧，你可以另外一条线在推，但是另外你还会你可以单独一条线，会在一些局部上去做一些试点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我们这里发现，你说企业推荐他节奏，大概你说先先走先走0到1，他总要走第一步，对吧？对，比如很多企业是IT是吧，ITIT先搞个知识库，或者是营销搞一个说比如说这种说营销生图，是声纹的东西对吧？现在就走第一步，走完第一步之后，然后你走来就说从1到10。那你要考虑到说的，我可能我在我的个各个主要板块，我就铺点进去搞点自媒体，搞点知识库，搞点说真正这种说提效的东西，或者降本东西，或者说我能增加收入的东西，这是第二步。第三步收入有可能就要刚才说的结合AI中台土地数据你做或结合数据，我做进一步推广，就他他一定是这样一个迭代的一个过程。所以我觉得这个事情，其实我觉得是一个自然规律，咱们也不着急对吧？说来弄着呗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>虽然AI说发展很快，但是我觉得伴随这个发展，它的企业信息化真正一个成熟的是有点周期的。特别刚才说的一些龙虾，对吧？我就说是需要点时间，然后让它成熟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。然后我这边其实有一些同事，就是之前的同事其实也问我们企业在AI方面有没有推进。然后他们发现一个问题，就是现在的数据库只要是加上向量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们就说是AI.</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>数据支持AI的数据库。我作为一个数据库的从业快20年了，这个人我不太认同这种概念，我觉得这是个综合类的产品才能叫AI数据库，而不是说支持向量就叫AI因为它是向量数据库。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个概念，其实我就是一个缝合怪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>缝缝合怪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我说你得从时间上倒序来看。向量数据库不是说因为大模型出来之后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对才出来的。是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他其实十几年前就有对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实外部三那一波的时候也在套这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他其实十多年前他就出来做产品的，他其实解决的不完全是一个说大模型的问题，但它有它的价值。因为它把一个图形为因素数据，变成一个高维空间一个点。这样的话就将来在这个高维空间里面求找销售部，他觉得这个问题对不对？但是为什么大门出来之后就发现它就膨胀非常快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为你发现说有模型之后，我肯定以为因为最开始出来的模型是大语言模型，我的语语它会有语义。因为传统的原来的搜索其实是关键词搜索，它是一个k words，对吧？这样的搜索情况怎么样？所以你发现在大模型出来之后，它引入叫云搜索概念。对有余数之后的情况下，就会把这个所谓的向量数据库的就激活了。所以你发现向量数据库它有几个流派，对吧？纯向量的关系，加向量的，就是说加向量的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我说这里面差异在在什么呢？因为你发现其实你在做，特别是你现在结合现在这种web coding也好，龙虾也好，是不是你的很多一些需求你让AI去做情况下，其实你很难，它是一个跨领域需求。他不是说这个事情只有一个说一个向量需求，很多事情它只有一个说文本检索以那个设计，它以偏文本为主导，加向量，你发现没有，它是一个多模态需求，你发现没有？就是说单纯的向量或者说原来数据库里面这个外挂，这种分货怪，他解决不了他的核心的性能问题和价值问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得也很有意思，就是现在很多企业还是在掉入缝合怪的一个状态。比如说像现在就是我们的这个向量的数据在数据库里面，我们的标量的数据也在数据库里面。可能我们的一些音频，视频等等等这些图形的数据都在各种各样的数据库里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我们现在就做了这样一个东西，就我们内部的东西叫什么呢？叫混合搜索。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>前两天google map迎来了史上最大一次更新，他现在主打就是ask maps。他举的案例就是说比如说我要这附近找一个适合约会，宠物友好人不太多，我马上就要去的一个什么样的东意大利餐厅，然后最好能提前预定。当然我们听到这个需求之后，你还是可以用传统的关键词太来去解。但似乎就是这种需求，当它变成一个没有边界，没有办法用传统意义上的说关键词跟他的方式去限定的时候，你还要给他结果，还要返回合适的方式。那似乎对于比如像google map的团队而言，要做的事情就是刚才你说的所有这些事情。而且你肉眼可见这种趋势会随着AI大部分推进发展之后，这种需求会越来越多跟常见。甚至可能成为某种意义上的新的用户的界面的交互的范式，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那当我们都要去面临这样的解决方案的时候，对于在做相关业务的公司跟企业而言，似乎就要有一个新的底层的配套的。无论是数据也好，架构也好，去适配这样的需求。那似乎确实再往这儿走，对吧？确实看上去，而且我看那个广告是goom map什么十年以来最大的更新，就是他把这个ask map放到这样一个高度，就代表确实可能最先进的这些厂商在面临这样的这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>刚才他他那个广告我说我们24年就已经24年。我们在用户大会上发布了我们的这个产品特性的时候，加州举例子，对，应该说搜索500米之内，那就是说各种价格，各种类型的而且好吃的一个餐厅，就这样的一个示例。就是说这个事情出来，google web做一个重大特性提供。我们也把这个事例也搬到我们的官网上了。OK我们官网上有一个东西来说基于高德地图去做的，你就能说比如说在杭州是吧？所以就说几百米之内最好的一个什么一个酒店啥的，我现在挂着有啥实力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们正好就聊到这个业务落地的角度。我们业务落地我觉得第一个问题是关于搜索引发的这个数据也好。我们聊第二个问题，可能关于是AIG模的AI这波大模型，包括最近龙虾热，大家探讨比较多的关于记忆的事情。因为大部分人出来之后，大家都会说它的上下文结构一直是很多厂商在突破的一点。但上下文我觉得是一个这个问题的狭义的展现，它不仅仅只是一件事情。然后这个龙虾是很多人也会说，在龙虾的整个的架构创新过程中，其实对于纯跟进模型业务发展比较多的人，他还会觉得他并没有做特别多的0到1的创新。但是他做了很多工程上的架构的设计，尤其在45点MD那个文件的设计上，大家会觉得有很大的不同。也是带来了个人用户在用过程中会觉得龙芯阿哥我们去用一个普通大屏聊天，它确实在记忆这一层有比较大的区别。似乎双引号的记忆这个问题。也跟这一波大模型发展的过程中变得越来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再把这个问题放大，甚至记忆本身，其实也是数据的泛的数据层面的问题。只不过现在厂模型厂商们在做的是把自己本身的模型的上下文在做扩扩在不断的在加大那个数字对吧？然后那当然就会出现了引由此引发了很多问题。同时可能这个市面上也会有一些专门针对AI直播大模型引发的记忆问题，做我们叫记忆的外挂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就像刚才说我们做记忆的单独的外挂系统也来去解决或者是来去在很多固定或者说特定场景内解决模型本身带来的记忆的问题，对吧？这个包括龙虾用CMD来去解决某种程度的问题，包括用markdown这个格式，可能我觉得也是一种妥协之举对。他也绝对不是最后的标准答案对吧？那但是他至少这个方案本身可能在现阶段可能就比较匹配当下的发展状态，技术方案成本各种各样的实施，吧？那就是记忆这个问题，大家如何看待这轮发展，包括对相关厂商的要求提出什么样的要求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我特别想接着刚才那个话题说，比如说我不是第一次来了，我是第二次来了。那第二次来可能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我上次问过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是可能我这个问题可能有一些标记。比如说上次我是一个人来的，可能这次我还是一个人来的那他推荐的这个产品是不是有机就是他的记忆。我上次来过OK，那我根据他上次的推荐，加上这次的这个又提出重这个重复的问题。那我可能通过AR来给它计算出来一个差不多的这么一个部分。就说我需要去把之前的信息要存储掉。但是现在这个部分其实我觉得对AI来说可能会很简单，但对企业来说非常的困难。因为我们真的不知道这个数据会存多长时，因为我们企业里面数据会定期清理掉。比如说OK这堆数据，我们标定它存三年，这个数据存五年，他到了时间我们会清理掉。对，但是AI的数据我怎么标定？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>理论上应该一直都存着是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我我到现在我没有办法去标定，我说这个数据我什么时候要删，没有人能告诉我。那可能就是现在有一个最大的问题，就是我可能要存的时间很长，同时我还要调用它。那这里就会牵扯到很多问题的。比如说像成本的问题，我怎么调用问题，怎么存储问题，什么接口之类的一堆的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谈到这个企业这种智能体agent的时候，因为它基本上有个公司怎么理解agent呢？就是大脑加记忆对，加工具推理加工具。对。嗯，所以大家的记忆是一个非常重要一个环节。就刚才林浩说的这个问题，还有很多解法，对模具厂厂商的话说就是无限的增扩大增加那个窗口。对，嗯因为说白了因为他他是按照talking赚钱的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以是他恨不得这个越大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你再大越浪费越好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>再大你想你有极限。对我我给一个大英百科全书，我给个磁卡，你的你能处理吗？还是处理不了，对吧？虽然你总是有些极限，虽然你从企业的回到这个架构治理角度看，理论上模型最好变成说是做无状态的，造出最高效的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所有这些记忆，因为该有它有非常多的一些类型是吧？对，是的，应该通过一些外部的解决方案去解决掉。目前看其实企业很多种，刚才您谈到的像龙虾里面的八个大文件，这其中一种或一些本地的一些缓存。对我觉得那么干燥叫本地缓存是吧，本地存储，还有什么解法呢？其实你像之前谈到的RIG，RG其实理解其实也是一种记忆。对，只不过它处理是企业里面的大量这种文档，对文档知识的这种记忆，对吧？它是一种解法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二种就是还有这种，他说因为从去年开始谈这个，做一个叫记忆体的概念。对，就是我可以把一些说不是这种文档，偏这种对话式的东西，或者偏这种说喜好偏好性东西？我把它变成一个说一个解决方案，它叫记忆体。就对我们来研发说，你想你就看你要处理什么样的记忆。如果说是知识的记忆，就是说像这种企业一些特定知识，因为模型它是面向泛行业的，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你企业内部的一些特有知识，我个人的一些特殊文档这种记忆，你通过RIG去解，我把我的本地文档，本地的一些东西一起解决掉是吧？当然现在还有新的一个流派，就是说我的一些技能的记忆，我从skill school来记，我本地一些SOP的做法，它不是一个知识，可能是个技能。我把它变成一个skill，一个知识这么一个解法对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二种情况下，就刚才刘老师谈到的这种我多轮对话，我人机交互，我给模型交互，我搜索这种多轮搜索之间这种记忆，你刚才说通过机器去理解，那解什么问题呢？就是说这里面分长期记忆管理、短期记忆管理。因为记忆就是短期记忆吧？短期记忆刚才说的可能跟人一样，你就你忘了就忘了也没事，很重要事情。屏幕上被喊骂不起，看到东西也会把它记住，把短链接变成长期记忆。还有一种东西，比如说叫私有记忆，就我自己知道的东西，我谁也不告诉对不对？是的，还有说比如说是团队及公共记忆，比如你多个字点之间，它有共享记忆。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你发现其实我需要一种具体的解决方案去解决刚才您谈到的这种不同场景下面这种记忆处理。比如刚才说你做的API级别，就是你记忆的新增，然后你记忆这种追溯，记忆的更新对，记忆淘汰机制，就是这样一个状态。所以你看我们其实也针对不同场景内推出了不同的一些解决方案。比如说刚才谈到说针对这种说奇迹这种知识库的场景下，其实我们做了一个叫抛出一个软件。它是这种企业级，因为也结合我们OB更强的这种混合搜索，统一这种追求能力。曾做了一个说企业统一IG能力，然后针对这种记忆体，我们做了一个primer这样一个软件。你刚说的是，而且它是跟开源的那个麦不准0 map准ZO.</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>专门做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>API是一致的。你们不也有去年4月份出来的？对，我们跟API1致，但是提供了一些更强的一些功能。这个情况就是说不管是你的这种说纯的知识记忆，还有这种说偏对话这种记忆都能做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>再给你举个例子，你像比如说在淘宝里面的话，说他去年出了个新功能，淘宝APP里面叫AI万能搜。A one搜就是说说它这个收费场景。我每周五的时候，比如说我今天我给老我给老板人带来礼物是吧，我该送什么礼物，我问他个东西是吧，那律师，他能把你原来问的东西能把它记下来，就是说第二次再重新推给你。对，是的，这是一个完整的叫搜推的方案。这个方案里面他那个记忆体前周去EOB做的，告诉他他还不不是去用我们的抛，是基于说是把OB变成一个向量存储之后把这一个小知识库上能能去做些一些检索吗？对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二个是我们去年的蚂蚁，去年推荐出了一个很好玩的应用，叫做蚂蚁阿芙。我春晚上还上了，对吧？蚂蚁阿芙用它的定位叫什么呢？叫家庭的医生，私人医生。对，但是阿芙刚推出的时候，他是没有记忆的。每次你问他问题，他就单次的。你发现这新病人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>每次都是新的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>新病人是医生，这个不行，这个东西你我请了私人医生，你还不了解我，这个不行。所以你发现阿福他也会得跟OB一些结合？叠加一些记忆的能力。正好你发现他说他就能提供一些这种偏说能把一些历史上你问的，比如说我今天我不舒服，今天我母亲不舒服，或者说能帮我一些血检报告，我传训练报告给他是吧？这情况下记下来，记下来之后你知道他。第二你在未来在问他问题的时候，他能带出这些关键信息给他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这都好了是吧？对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有你说像互联网企业，他们做那个什么陪伴场景，做的那个陪伴对吧？陪伴场景之后，你说你说你多人去去对话，你说原来怎么做？原来是把多人对话全部给他不行，搞死成本搞死了。你加入机体之后，加点时间提取，把这关键信息提取出来。比如说我大学毕业的，我是哪天在工作的，我什么时候去过哪里玩。这些记下来之后，其实你每次只需要把一个很小的窗口给他回去，又能节能talking？又怎么虽然我说的那这个东西。不同的一个解法，决定说你的成本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，戴老师今天给我扩展思路，这样我们就能节省这个使用token的费用了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是这样，很多都难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题用不起，真的是用不起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个我们后面再聊，这个我反正我们的现实案例是我们是一家我们公司其实是一家做社交的公司。确实在AI上的尝试也是这个逻辑。就是确实大家会认为传统的或者说基本的大模型更多是在做普通的语言的。如果我们加一层情感，他要做更多的更复杂双引号情感的表达。那这种表达看上去他用通用模型能力的基上文就是解决不了，他就没有办法这个事情做偏。那你当然可以用一些提示词工程去往这调一调，但是那个成本就像你说那个太就我们也试过，发现成本真的扛不住，就是因为现在用户也没有办法直接付钱。就是在国内海外可能还好一点，对吧？所以大部分都去这个板块，大卖场基本都在海外做，国内不太做，所以B站我没办法中间尝试过那种方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一定阶段为什么我们会自己在做自己一套自己系统？就是刚才你那个逻辑，既然在这个场景下用通用大模型的上下文的记忆能力解决不了或者成本太高，那我们就自己做一个做一套，或者说只限定在这个场景内解决我们现有面临问题的这一套东西。然后这套东西你会发现，其实市面上也有一些做相关G系统的公司都在解决类似的问题。就是针对一个固定的场景，在已有的上下文跟模型能力通的基础上，在这个场景下无论是提高效率，还是更接近人的感觉，还是降低成本。反正你有一个原因，以及在认识上深挖做出来一个东西，现在看上去已经有一些效果在显现的过程中，所以似乎我们可以看到，妈我还是认为马当今天我看到这是一种中间态的妥协的方式。但是这种方式让大家已经看到了它相较于通用的一个我跟一个常规的GGP或者是豆包去聊天的巨大的区别。那再往后推，似乎应该还会有更好的我们能够体验感受到，更容易提升这个感觉的一套记忆的东西的演进。所以我觉得确实他在往这个方向在走。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实刚才明浩老师说的那个markdown作为公用的，我觉得OK对，但是今天作为企业的这个用户，我们实在是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原因。原因在于就是每个企业都是有这个安全数据要求的。你比如说我们企业就是要过2万、14000等等这些。那数据是要经过审核，我们每一个操作都要审核，每一个操作都要记录，每一个这个数据的存储都是要有一个安全的一个范围之内的，都是有人去检查你的。而现在这个open cloud这个企业没法用，一个最根本的原因是企业他真的没有办法拿这个东西去突破这个真正的安全的数据的防线。那如果用完这个以后，企业数据暴露了。比如说我是个乙方，那甲方直接就要投诉我我我就没有办法去干了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>数据泄密安全合规的根本就过不了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这根本就过不了。所以说我就是我还听说有一些其他国家的这个案例，直接就禁掉了这个产品。其实我们对产品的数据在这个方面的安全还是比较看重的。或者是这是一个没有办法逾越的部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这对中国企业来说，这是个非常重要命题。因为你看龙虾出来三个月了，对你发现其实现在中国的热度比美国高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>超级高对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对你说中国的大量企业基本上就互联公司，我牵有牵引，对吧？就是各种的楼下各种玩法，反而到时候你看看美国的那几家AI公司，比较安静，反而特别安静。这里面我先不说这个路线这个问题，因为传统上都是认为中国的场景更丰富。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>再一个现在如果龙虾作为一个主流，我们很多一些企业级客户？不管是处于工薪私心，比如说交际的一个需要，他要看看这个龙虾是什么东西救一下。对研究的需要，要自己去去去玩一下。或者说现在企业和内部很多说也提升了一些需要？所以发现现在我们能看得见今年，因为今年是在三月中。对你看到今年这个事情，现在是一定是一个大话题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且我而且有可能龙虾变成一个入口，为什么入口呢？你看你不管是你嵌入到微信，嵌入到钉钉，嵌入飞书里面，他变成就是刚刚说一个数据贾维斯。对，我会把我的原来的所有的搜索，传统知识库搜索，传统这种说企业制度搜索，我一定是任务。对，还有一些比如说一些应用之类的web coding，一些写代码，包括一些这种是问数。对我全部都会丢给他。他就变成说其实是一个应用入口了，就从他这走。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，印象跟创业GB一样，对它是一个对话框，都是一个应用入口。所以这时候你看这时候，如果我们现在已经看得见很多客户也这么想的对吧？对，也这么想去规划就不做。那这时候刚才您谈到这个问题就来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那也是我们想马上谈的第三问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>安全和隐私问题。做完你咋搞对吧？对你说一下，你刚刚才我举个例子，吧，你说你就问人家有一个东西密钥一下出来了是吧，这这哪行这哪行是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就是我我会觉得这一轮当然可能也是因为逐渐的成熟。这一轮关于龙虾热之后的安全和隐私的探讨，其实是比想象中更热烈的。甚至很多有一个侧面说很多用户可能都没有装，但他会提前担心。是的，这个事情哪怕是个人用户。是的，所以我觉得这个议题就变得更加。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以反问一下，为什么是中国这些安全厂商对这件事情这么的突然间的你像老周富盛其实都是最安全的。他为什么突然间的脑袋亮了一下的感觉？就是因为确实这个问题，他把我们真的走到了。因为我还是那个观点，就是我们从原来的纯语言走到了agent对吧？就是从语言到行为，你走到这儿的时候，确实模型本身看起来能力已经ready了。我们真的要去做行为了。那行为必然会面临权限、数据围栏所有这些事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后龙虾相当于是一个极端，按我跟你说，他把这个事情推到一个极致，说我完全不care，就百分之百的开给你。我们做出来这个东西，所以他当然会在某一部分人群内得到巨大的欢迎。是的，但是他因为他是个个人的个人的是开发人的，他当然可以他的方式把这推到这，告诉大家模型现在已经能做到这个样子。但是问题在于他推的那个地方太不安定跟太开放。双引号的开放了。所以我们需要是说，我们当然承认这件事情已经走到这儿了，走到行为走到一阵子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是龙虾的示范不是一个双引号好的示范。那我们要在中间找到一个合适的方式，适合无论是个人还是企业来去把它真正意义继续让这个事情往前推。所以似乎我觉得安全是一个太宽的话题了。就是它里面涉及到的数据安全、隐私权限、账户乱七八糟这套整套题。本来网络安全就已经是一个百花齐放，产业链非常复杂，且有非常多公司在做的板块。今天似乎把这个议题又推到了一个，就是你要知道原来那个行业的分工已经武装到牙齿了。然后今天框给了给相当于给了一个全行业的统一命题让大家去解决。那就是这个问题被推到了这种程度之后，你会发现这个问题好难解，好难解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，其实从我们企业的这个角度来说，其实我们更希望能更简单的来适应AI并不是说要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>加那么多东西复杂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我们其实非常熟悉SQL，我们有没有可能说，未来使用AI的查询，我们其实还用我们原来的那套现有的方式来去，哪怕就是稍微的去改改，但是你不要就是说整体推翻它，然后让我重新再重来一遍。从人员的消耗上等等这些都是问题。其实我觉得从数据库厂商是不是可以考虑到，这个是不是一个切入的一个点，就是我们把这个企业的一些简单使用AI的需求融合到数据库里边，融合到搜索里面去做这个事情。有没有这种可能性？</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我回忆一下刚刘老师的题目，就是我们今年把我们的产品愿景改改一下，就是我们现在不完全定义成数据库厂商了。其实我们现在定位就叫智能数据平台厂商。为什么这么说呢？就是data base它也不是个新东西是对吧？五六十年年代出来的，一直到70年代、80年代，从IBN的DB two work出来，就正式开始搞是吧？AWOB在之前我们这个产品创立的一个基础，其实它是以分布式数据库。没折叠海量交易。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为原来淘宝的需求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>淘宝支付宝需求上账这一个场景，对吧？对那么极端时候你发现我们其实不断在做小做是一种海量大集群，可能三立三活的状态，吧？嗯，那企业端的话可能你没有让基础设施，所以我变成叫三副本，会在两副本加上一个监控级别这个架构是不是？然后我们又推出了叫什么呢？推出了一个叫主备架构，单机叫主备架构是吧？比如说因为企业里面有有应用，你也不需要三副本，对，成本是很高，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，去年还推出一个子产品叫CKDB，它解决了个嵌入式跟端的产品。因为OB是一个云的一个产品，对吧？因为它分布式为主，唯一产品这些端上我们也在做，所以你发现其实我们是通过不同的一些产品组合来去解决说传统的这个AI搜索的问题。所以它的产品质量定义叫AI数据库。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>偏这种举例，像刚说的AI搜索混合搜索是吧，或者说一些叫AI函数这概念，它提供的各种各样的一些AI搜索场景。但你发现你再往下走之后，显然它就不是个路数。就是说你需要啥呢？你需要其实说是一个我叫AI数据库库，刚才说的可能叫那个lake bax换一个lake house。它能统一处理你的各种一些数据，而且包括那种图文音色数据？这么来来处理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以再回到刚才说的，你说的就是说那个你问的问题，因为分为几个层面。第一其实说那个SQL作为底层而言，它是一个通用语言。对的，我们会继续以这种SQL为一个基础语言，能使得它数据库越来越强我刚才说的说AI数据库的概念到AI数据库湖库的概念，会增加各种文档，这种数据处理这些环节编程。而且它可以写sick base为主的，这个可能会拓展一些新的一些语法来做成一个大基础。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二话说你也会发现，其实我们很多业务用户不需要怎样的secure。对，您是专业用户还是不知道骨灰级的专业用户对吧？对，所以这种用户cycle就是说这不管数据库也好，数据库库也好，我们我是定位叫数据智能数据平台公司。它其实是针对您这样的客户，来提供一些标准服务的是吧？但是我们其实上面还有一些中间建设，中间建设层你发现它是解决说传统这种生产业务用户，业务用户其实cycle还是蛮难学的。是因为cycle的底座它是关系代数。对对对吧？你要没一点关系代数的基础就用不了起来，还挺麻烦的是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>虽然你说真的要花点时间学的也还是可以。但是你对于那种普通用户咋办？是普通用户你发现你说的，你说他会基于农家乐入口处知识库加web coding？加各种东西的话变成它一些工具，包括skill变成各种工具，它会这么去去用AI，未来就你又回到刚才的问题，就是说它需要一个统一存储，统一任务调度，统一的这种过度负载在一个情况下。所以我们会以传统的叫数据智能数据平台，再加上各种应用中间件的形式来满足这种客户的一些一诉求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然这里面就会叠加说跟企业级的一些安全，企业级和东西，我们都会做是吧？你看比如说刚才你看谭小龙虾，我们现在也在做我们自己的小龙虾，不是给我们内部做，给用户来做，就说在一些我们的一些大客户上面，他有可能也需要的东西。因为觉得企业家安全问题，别人说的说mark大文件不安全吧？嗯，把它放到数据库里面。本地不安全，我放在云上沙箱和内部沙箱里面。对，还有你的skill文件，你skill文件也不能说随便改的。是啊，有些skill是一个SOP。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你不能动，我把skill文件也放数据库里面，因为数据库它好管控。对对对，所以这样我们的结合本身一些标准的一些数据库，数据湖库这些已有的特色？结合现在小龙虾的一些本质，一些这种诉求把它变成说缙云上沙箱的这种所谓的一种标准服务。而且结合安全管控这么去处处理这些问题，这话就很很好做一些的了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在这个数据库如果要是咱们刚才说的是一种理念，做成数据库平台，那么我还是一个比较爱国的人。有没有可能我们以这种方式超越国外的，那些老牌的厂商的那种，还是那种单体的怎么样，就是在上面增加一些功能而已。这种产品我们有没有可能就像我们的这个军工产品一样去超越的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个是非常好的一个话题。因为技术的替代其实它有多个维度。有可能是说因为你结合起来大的这种说宏观的政治经济形势来看，其实刚才话题是一定是成立的对，因为其实你在传统情况下，你回到30年前，这是20年甚至十几年前，我们所有数据库基本上是美国的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那那这个时候到现在，我们其实也会代表着新的技术路线对中国的产品。是的，世界的或者第二季或者第三季是吧？所以你会发现其实说我们会在国内市场上会有很多不管出于供应链安全也好，还是很多说避免对美国依赖独家依赖情况下，它一定很多一些企业或者说是一些区域市场，他会选择我们的第三级的产品，或者中国的一些产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实中国的很多产品，我说中国的是很卷，对吧？对，超级卷选出来产品之后，你发现它的质量是非常牛逼的。现在我在这边，在我加入市场上，我直接的产品竞争好了。你说你看看，你说我比如谈金融板块，你说有哪个银行，有中国这些六大行，这个成长起来的没有的。一般我们最好的压力，你看像运营商，拿国家运营商有什么江苏移动、浙江移动、广东移动这么体量大对，没有的。所以说你把我们阿里拿出来之后的时候，直接正面竞争进入这个市场。所以我说刚才您问的问题，我们觉得我们的愿景是我们希望我们成为一家全球知名公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后明浩老师我还想问您一个好问题，今天我还是本着一个小学生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的一个别就交流。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是如我从投资的这种角度来说，假如说咱们去找这个好的数据库公司，去投资。如果您是一个资深的投资者，那么您以哪些指标或者是以哪些方面可能去判定？</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>上一次跟咱公司问CTO的时候，其实也聊到这个议题。首先国内的一市场看公司还是大家会把to b跟to c作为一个比较大的分隔。在数据库厂商可能或者说偏软的公司，或者偏甚至包括SARS公司，可能算我们叫to b这个市场。然后to b这个市场其实过去十几年一直都是有不错的基金持续在看的。但是国内的to b市场遇到了一些现实的挑战和问题，这种挑战问题前两天美股那边很多sas公司，包括我们今天提到的什么snowflake sales的都在暴跌。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后前两天美团的原来的帮二把手王慧文说过这句这样一句话，我觉得说的很好。他说大家原来的投资逻辑是说，我们看到了美国非常丰富且繁荣的to b的生态，企业服务to b SaaS云所有的厂商都很大，长得都很好，都无限的扩展？他们也做并购变得越来越大。我们原来也期待中国也会这样。但是过去的十几年，似乎基于我们这边所熟知的移动互联网的语气下产生的这配套的这些公司而言，并没有得到那个好的结果。我们原来期待是说我们这些公司会涨，或者说会类似他们那么大。但现在他们暴跌之后出现的问题是说，因为AI的崛起，似乎看上去美国的一个公司会像中国这些to b公司一样不太值钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个玩笑，但似乎带来另外一句话是说新能源时代出现之后，无论是web coding的演进，还是厂商对AI能力的拓展，还是说我们的言论更更大的话题是说今天所有的事情都怎么都被值得被I重做一遍，对吧？还是这种议题而言，你似乎会发现今天去以to b跟to c去区别看这件事情，可能本就看的本身的方法就出现了挑战。第二，我们似乎会觉得因为AI的能力的提升，组织公司的形态，包括他们去采购相关的服务，这件事情的流程跟状态在中国可能也会出现变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得再举个更现实的例子，比如说这就是我还是觉得这种龙虾的兴起，让我们看到了很多不一样的苗头。大家原来会说中国的用户是不愿意付钱的，无论是to b还是to c？就是会有一个通用的这样的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但你发现这轮龙虾出现之后。厂商的coplan是要限量卖的，当然他们有算力的限制。但更重要你会发现，其实面临新一波的技术浪潮的时候，个人也好，企业也好的复议院其实某种上是比原来那个最悲观的结论上要好一些的。这个度我们不知道是多少，但肯定不是可以所有人都拍一个最极端的不行的结论。就这个的天平的偏转，我觉得再往这边偏，就这是一个看得到的事情。然后再落到比如说偏数据库这个角度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我不是这个专家，我只能说偏软件，或者偏SaaS，或者偏云，或者偏to b服务这样的公司。常规赛大家来看无非就是那些方式，那些更战术层的操作指标，收入？市场占有率，在各个行细分领域的影响力，口碑品牌历史的投资者，然后发展速度，然后影响力的变化，占有率的提升。它其实是一种偏常规态的战术层的讨论。但是我还是那个观点，就是这种战术上的讨论在过去十几年其实被证明是不太至少那一波厂商是不太work的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是AI这波来了之后，这件事情因为刚才我们谈了这么多话题，就数据这件事情的地位跟状态，他已经不单纯只是一家纯软件公司那么简单的事情了，对吧？我们都愿意变成，我们不是一个软件，我们变成平台化运营的方式。平台化运营方式就理应应该用平台企业的方式去衡量了。如果这个逻辑跟这个天平能转到这边一些的话，那似乎这件事情就出现了变化。所以就是我觉得就是所有这些我们刚才聊的角度评判标准、逻辑框架或者说加权平中的这些权重而已，都是一个度的感觉度它它没有明确。当然你可以去写那些明确的指标，但那些指标都是滞后的。就是很多这种度的天平到了一定的阈值之后，他可能就把局面打开了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得某种来说，我们从往前推大模型到多模态，到去年dipstick到这轮agent，其实某种上也在把这个天平往这边推。而且随着这而且我还是觉得某种来说回去回看过去几年的AI行业发展，基本上是符合某一项技术到了一定程度之后，它就会打开一定的东西，一定的局面。无论是开源软件to b的生态，还是个人用户的什么变化，这个事情已经就证明了好几次了。对，那这种更是他就是因为纯底层技术模型的能力到了你在做之前是不知道的。但他到了就是到然后突然间无论是开源软件，还是一个什么特别的方案，还是一家公司做的一件什么事情，他就打开了一一波窗口跟一个局面。然后再以这个方式扎实之后再做延展。然后再就是然后你要在过程中这个底层技术还在更新，它会再打开，再更新，再延展。所以似乎我们就看到了这样的一个趋势的演进过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那反过来，为什么历史上中国的议事一样，美国议事上过去几年对VI的投资是越来越多的？角度也是这个原因，就是它不断的在证明，不像之前我们谈论的很多，比如什么web 3，什么元宇宙，甚至包括当年的大数据云，就是它不像那个时候，它变成了一个可能三年期结束之后，大家就没有人讨论这件事情了。是他今天看上去不是这样，他在持续的打开很多事情。而且你像刚才讨论过程中，我们不是强调的成本的问题，算的问题。你像今天我们真的去回到今天我们讨论最开始龙虾引发我们今天所有讨论。你说今天这个世界哪怕这些厂商这么狂推，这么用力度的去各种各样的策略。今天真正意义上，比如中国的在本地也好，在云端也好，部署了龙虾的用户量级还是一个很小的数量级。可是你要知道这么小的数量级平摊到这么多厂商身上，云厂商、模型厂商、互联网公司，你会发现大家已经遇到了瓶颈。那才刚刚开始对吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多事情才刚刚开始，还远远没有到说那你就想你极端的一下，如果未来真的每一个用户都有一个agent也好，个人的类似贾维斯也好，还是那样一个什么东西也好，他真的他的能力可以到像靠电影演那个样子的情况下，那你需要在今天的基础上涨多少呢？复杂多少呢？这个议题当然这么说特别的看多，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>特别像那个忽大忽悠对吧？特别像一个讲故事。但事实你想其实就是这么个逻辑。所以如果是今天只是个开，只不过是因为模型能力提升到了一定程度，打开了agent这一轮的探，并且A的这种走到这儿之后，需要我们底层的记忆也好，数据也好，数据库底层也好，存储也好，所有东西与之相配套。那你发现上面那条路才刚刚开始，那就就再往前走呗，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天就收拾到最后一个问题了，今天确实我觉得个人已经非常焦虑了。企业主其实也是，包括你们在做跟你们面对的客户。今天如果真的给到一些面临今天AI浪潮来了，有非常强烈的交流，想让自己的业务跟AI产生关联，产生绑定的这些企业主也好，他们的CTO也好，还是他们的CIO也好，有什么好的建议？哪怕是一碗鸡汤，哪怕是一个案例都可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那我就先说吧，就是我希望我们的AI在使用之前它是安全的。并且它的数据应该进行哪怕是部分治理，它也是治理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>戴老师其实AI一共今年70年，他其实基本上每十多年它就会有一些浪潮，又会有寒冬。但是这一波看起来可能会真的会持续改变我们很多东西。所以我们说如果以终为始的思想四方式去看情况下，企业主也好，还是我们大量这些用户也好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他最好是一种偏说思维方式，是一种偏主动求变。对，要快速进化的思维方式。是的，不要迟疑是吧？所以今天想想说AI能帮助我们解决什么问题？快速用起来。但用的时候不要说一一上来就过于激进。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小不满意。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>小步快跑，怎么办？因为企业的他的他方式跟员工不一样，个人用户尽量最激进方式去拥抱AI对企业化作为小步快跑方式，也一步一个节奏的方式来推动AI在企业里面大量一些落地。其实也真的说把，因为刚才也谈到了说数据是更重要一个话题。所以我们也是说最后也是希望说企业的说以类似像采用OB这样统一数据底座的方式？真正把这个企业的数据发挥更大的智能化AI价值。在我们也希望这样的过程中的时候，陪伴企业一起来成长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感谢大家收听赛博赶海的第一期播客节目，今天视频在这里，然后大家有什么想说的或者想讲的，想对两位嘉宾有什么询问的，欢迎大家在留言区评论，感谢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好不？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢。</p>]]></content:encoded>
-            <pubDate>Fri, 27 Mar 2026 16:15:10 GMT</pubDate>
-            <guid>69c67ffde2c8be3155a8420a</guid>
         </item>
     </channel>
 </rss>

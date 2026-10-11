@@ -2,8 +2,19 @@ name: Podcast RSS Update
 
 on:
   schedule:
-    - cron: '0 20 */2 * *'  # 每两天的北京时间 04:00
+    - cron: '0 20 * * *'  # 每天北京时间 04:00（UTC 20:00）
   workflow_dispatch:      # 允许手动触发
+
+permissions:
+  contents: write  # 提交数据并部署到 gh-pages
+
+# 定时与手动任务共用队列，避免重复转写和同时推送数据。
+concurrency:
+  group: podcast-rss-update
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Shanghai
 
 jobs:
   update-rss:
@@ -11,22 +22,22 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-      
-    - name: Set up timezone
-      uses: szenius/set-timezone@v1.2
+      uses: actions/checkout@v7
       with:
-        timezoneLinux: "Asia/Shanghai"
+        # 排队结束后读取最新分支，避免重复处理上一轮已提交的数据。
+        ref: ${{ github.ref_name }}
         
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v7
       with:
         python-version: '3.10'
+        cache: pip
+        cache-dependency-path: requirements.txt
         
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        python -m pip install -r requirements.txt
         
     - name: Run RSS update script
       env:
@@ -38,16 +49,19 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        # 添加所有数据文件
-        git add data/podcasts/*.json
-        git add data/episodes/*.json
-        git add data/transcripts/*/*.json
-        git add data/rss/*.xml
-        # 如果有变更，提交并推送
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update podcast data and RSS feeds" && git push)
+        # 按目录暂存新增、修改和删除，兼容首次运行时没有转写文件的情况。
+        git add -A -- data/
+        if git diff --staged --quiet; then
+          echo "No podcast data or RSS changes to commit."
+          exit 0
+        fi
+        git commit -m "Update podcast data and RSS feeds"
+        # 兼容任务运行期间的代码更新；有冲突时失败，不覆盖远端改动。
+        git pull --rebase origin "$GITHUB_REF_NAME"
+        git push origin "HEAD:$GITHUB_REF_NAME"
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./data/rss

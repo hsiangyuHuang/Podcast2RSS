@@ -4,7 +4,347 @@
         <title>AI炼金术</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8</link>
         <description>关注 AI 带来的本质变化和商业机会</description>
-        <lastBuildDate>Sat, 10 Oct 2026 08:06:14 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 06:59:21 +0800</lastBuildDate>
+        <item>
+            <title>AI 帮我干完了 20 年的活儿，我却感觉像坐牢</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6acf880ce742e36efcc2ffc8</link>
+            <description>「AI 都能做完，但是我验收不完。」——徐文浩
+「大家不要以为自己有 taste，你只是有 bias。」——任鑫
+「我感觉我今年写了过去 20 年写的代码的量吧，当然不是我写，其实是 AI 写的。」——徐文浩
+「点评的网站连信息都不给你看，它都不给人类看。」——任鑫
+「它不是一个应该被解决的问题。」——任鑫，谈 AI 要替我们解决的那些琐事
+「你卖成两家公司，说明你命好。」——徐文浩
+国庆假期，两个老朋友各自开着十几个 AI 窗口，录下了这期闲聊。从 OpenAI DevDay 和突然又火起来的个人助理聊起：为什么在中国连点评都打不开，琐事到底该不该交给 AI，个人助理最后会不会免费；再到任鑫发现放手让 AI 做的视频，数据比自己认真做的还好，以及 Anthropic 找宗教领袖聊 Claude 的意识；最后落在一个程序员这一年的真实体感：代码写得比过去 20 年都多，人却像个快车司机。
+【本期嘉宾】
+徐文浩：某 AI 创业公司联合创始人，正在面向全球市场开发AI应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司MediaV的算法和数据负责人，后被360收购。离开后加入成立不到1个月的拼多多。后创办了基于AI的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023年再次下场创业。
+任鑫：美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造&quot;今夜酒店特价&quot;用移动互联网应用特价销售酒店尾房；被京东并购后内部创业&quot;京东到家&quot;开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。
+【时间轴】
+00:00 冷开场
+00:31 开场：DevDay、个人助理、用 AI 做视频。
+01:13 DevDay 没亮点：额度砍半，Codex 一两天用完，Dot 又慢又不透明。
+03:45 个人助理为什么又火了：OpenClaw 之后，Muse、Instinct、Dot 扎堆入场。
+06:48 中美两个市场：超级 App 把篱笆扎紧，美国电脑下单多、供给分散。
+12:12 老创业者的选择：回避正面战场，还是先想好退出通道。
+16:43 琐事是不是小确幸：组局的热心人、拼乐高、花两小时比价。
+22:27 文浩的真实用法：Codex 补完一年的报销，带娃挑暑假目的地。
+30:24 我们是不是典型用户：白给的 Token 都懒得开。
+33:02 个人助理会免费吗：订阅的天花板、广告竞价、意图经济。
+38:27 高频打低频：订酒店凭什么切到另一个 App，卖掉也是出路。
+43:57 先卖再做：Agentic FDE、A 股题材、卖公司八成靠命。
+49:09 ZooWork 发布：不绑死模型的托管 Agent 平台，Opus 四天烧掉 2000 美金。
+56:22 产品要有一眼看懂的段子：压力手表的故事。
+58:06 AI 做的视频反而更好：是 taste 还是 bias，不同平台要的不一样。
+1:04:06 预告：AI 炼金术资料库网站。
+1:04:54 Claude 有意识吗：意识是为了做模拟的错觉，还是终究要人扣扳机。
+1:12:38 一年写完 20 年的代码：快车司机、外卖员，一天送 200 单。
+1:15:45 AI 都能做完，但我验收不完：坐牢感和过度承诺。
+1:18:25 去硅谷太贵：赚美国的钱，别在美国花。
+1:21:35 本地推理：五千块的显卡跑千问，干小活够用。
+1:24:32 听众提问：Dynamic Workflow 和 UltraCode 怎么用。
+1:26:45 片尾曲：留一件小事给我吧
+【核心观点】
+1.  DevDay 最大的新闻是额度砍半。文浩的体感是，Claude 的 Opus 重度用一周正好用完，Codex 一两天就用完，「这个玩意儿不具有性价比了」。Dot 只是把需要自己动手组装的产品，变成了买回来直接放进房间的家具，「但是这个产品并没有做得更好」。
+2.  个人助理在中国和美国是两个市场。中国的超级 App 把篱笆扎得很紧，点评、淘宝的网页版连人都不让好好看，只有微信、阿里这样的平台能做。美国将近一半的电商交易在电脑上完成，每个垂直领域都有自己的 SaaS，供给分散，机会天然更大。
+3.  琐事不一定是成本。任鑫看孩子照着说明书拼乐高，觉得那是花钱「买爽感」。很多人花两小时比价、挑一条裙子，本身就是放松。产品经理想象的用户都忙得找不着北，但大部分人的琐事，「它不是一个应该被解决的问题」。
+4.  但真实的摩擦确实存在。文浩用 Codex 加 computer use，一两个小时补完了拖了一年的报销；带孩子挑暑假去哪儿，跟 Codex 多轮商量天气、价格和行程，「它其实是增加我的乐趣的」。
+5.  个人助理最后大概率是免费的。订阅制一涨价就伤增长，免费产品靠广告主之间互相竞价：「理想也想卖车，小鹏也想卖车，特斯拉也想卖车。」代价是，这可能只有巨头或者巨额补贴才玩得起。
+6.  做不成超级 App，卖掉也是出路。「一个善良的创业者本能想我怎么把这个事情做大……但是如果你想把这个东西卖掉，很多事情是可以做的。」任鑫顺着想到自己的 FDE 公司，也该往「被买」的方向做。
+7.  先吆喝，再动手。任鑫把 Agent 版 FDE 的概念直接发布，真有企业带着订单来，深聊下去才发现，「他们根本不需要我做的这个东西」。
+8.  认真做的，输给了 AI 做的。任鑫放手让 AI 照他的知识卡片出稿、用他的声音发，数据反而比自己认真口播的好。文浩不同意这么快投降：大众传播上 AI 也许更好，但它吸引来的人，是不是你真正想要的那群人，是另一回事。
+9.  意识没那么高级，还是终究只是工具。任鑫觉得意识是为了做模拟、在没有生存压力时多产生训练数据，「有点像撞车实验里面那个假人」。文浩站在工具派：今天的 agent 都还要人去扣扳机。
+10. 效率上去了，人却更累。「因为电动车快，不是我快。」东西太容易做，人就容易过度承诺：「AI 都能做完，但是我验收不完。」
+一句话总结：AI 让「做」变得几乎免费，真正稀缺的变成了人的判断、验收，和那点不想交出去的小确幸。
+【本期提到】
+OpenAI DevDay、Dot（OpenAI）、Muse（Meta）、Instinct、Codex、Claude Code、Opus 5.5、OpenClaw、ZooWork.ai、Claude Frontier Academy（Anthropic）、Product Hunt
+【关于 AI 炼金术】
+「AI 炼金术」是一档由徐文浩和任鑫——两位多年老友、AI 领域的资深从业者——打造的播客。这里是探讨 AI 和创业的理想聚集地，我们会邀请一线创业者、产品人和科研学者，深入探讨 AI 如何重塑行业、变革生活，以及如何从 0 到 1 打造 AI 原生产品。
+我们的讨论会涵盖多个话题：从 AI 如何改变世界的未来，到如何找到 AI 创业的 PMF；从如何利用 AI 降本增效，到怎样将 AI 技术融入日常生活……如果你对 AI、产品、创业感兴趣，这里有满满的干货和一线实战经验，欢迎关注并推荐给你的朋友，共同探索未来的无限可能！
+欢迎订阅「AI 炼金术」播客，以及同名公众号、视频号。
+【节目主理人】
+徐文浩：某 AI 创业公司联合创始人，正在面向全球市场开发AI应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司MediaV的算法和数据负责人，后被360收购。离开后加入成立不到1个月的拼多多。后创办了基于AI的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023年再次下场创业。
+任鑫：美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造&quot;今夜酒店特价&quot;用移动互联网应用特价销售酒店尾房；被京东并购后内部创业&quot;京东到家&quot;开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。
+【商务合作】
+公众号「AI炼金术」菜单栏中【商务】获取联系方式
+【播客剪辑】</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h1>播客内容摘要：AI 帮我干完了 20 年的活儿，我却感觉像坐牢</h1>
+<h2>主题概述</h2>
+<p>本期《AI 炼金术》由主持人（发言人2，创业者，曾成功卖出两家公司）与嘉宾徐文浩（发言人1，Work/Zoo.ai 创始人、前连续创业者）展开对话。两人从 OpenAI Dev Day 的产品表现聊起，延伸到 personal assistant（个人助理）赛道的爆发逻辑、中美市场结构性差异、创业者的退出通道设计，再到 AI 对创作者与开发者工作体验的异化。核心议题是：当 AI 让生产力无限上升时，人的价值感、乐趣与创业机会反而被挤压，形成一种"坐牢感"。</p>
+<h2>关键要点</h2>
+<p><strong>1. OpenAI Dev Day 被批"没有亮点"，核心槽点是额度砍半</strong><br />
+徐文浩直言最大抱怨是 OpenAI 把额度砍了一半："他本来就是算的四倍，现在恢复的两倍"，并称重度用户"一周大概正好用完，Claude 基本上 1 天到 2 天就用完了"，认为 Claude"模型能力还比 office 5.5 明显要差"，戏称"OpenAI 这个要黄了"。徐文浩对 dot（Dot）的评价是"很慢""过程不太透明"，本质是"用你本地的 codex 开了一个进程偷偷在后台工作"，相当于把原本要自己组装的"宜家产品"变成"买完的家具直接放进房间"。</p>
+<p><strong>2. personal assistant 赛道爆发的真实动因与资本动向</strong><br />
+徐文浩认为 Claude 出来后"更多人觉得 personal 能做了"。他披露关键融资数据：instinct 一轮估值 35 亿美金，后一轮到 100 亿美金，合计融了 10 亿美金以上；Meta 下场做 Q，OpenAI 也下场，国内有 today 等。但徐文浩指出 Meta 的 Q"市场上声量不大"，因为"大家的注意力都在另外的上面"。</p>
+<p><strong>3. 中美 personal assistant 市场的结构性差异（本集最具独家价值的判断）</strong><br />
+徐文浩系统拆解了中国难做的两个原因：中国有微信 super APP，"篱笆扎得很紧"，只有本身是 super APP 的平台（微信、阿里）能做，"你只要把篱笆一扎，你进不让你进来，你就干不了这个业务"。而美国的两个结构性优势：一是 PC 电商交易额近一半，"PC 天然难扎"；二是市场分散，"有 Shopify 有大量的独立电商"，各垂直领域用 OpenTable 这样的独立 SaaS，"并没有都被合并进巨头里面"。</p>
+<p><strong>4. 退出通道逻辑：不一定要 IPO，卖给谁才是关键</strong><br />
+徐文浩反复强调"你得想好退出通道"。他举例：做 personal assistant 未必能 beat Muse，但"可以卖给苹果，可以卖给 google，可以卖给三星"，只要经历过上一个周期就能理解，"不是说只有我把这个公司做到 IPO……才是出路"。他用硅谷一个案例佐证：某创业者"把苹果必然要做的一个东西自己在外面做了，然后被苹果买了"，所以他在 Apple Intelligence 之前做了一套 Apple Intelligence，资本照样愿意投。</p>
+<p><strong>5. 年轻人才是改朝换代的主角</strong><br />
+"很多巨大的机会的改朝换代，不是我能力变强了，而是每一代人都想玩点新鲜玩意儿。不想和你们老登玩了。"徐文浩以微信、米聊类比，并用影视飓风综艺举例："请了二十几个 30 个大的网红或者 up 主……我发现里面 80% 的人我都没有听说过"，说明"有些机会是年轻人的机会"。</p>
+<p><strong>6. 对 personal assistant 需求本质的反思（乐高隐喻）</strong><br />
+主持人提出一个反直觉洞察：拼乐高"其实就是在做工，在那边按照一个说明书，在那边有点像拧螺丝"，却还要花钱买——说明"人类在这些小活动上是有爽感的"。因此订机票、挑裙子、订酒店、比较信用卡返现，对很多人而言是"小确幸"而非"应该被解决的问题"。"大家天天想的那个 personal 的那个画像就画的太窄了一点"。这与"烧煤油灯时只想着电灯取代煤油灯，没想到整个夜经济"是同一层误读。</p>
+<p><strong>7. 徐文浩的亲身体验：报销、旅行、减少摩擦但不减少乐趣</strong><br />
+徐文浩自曝"去年可能我有一年就没报销""从个人角度损失了很多钱"，今年用 Codex"一两个小时就搞完了"。他认为 AI 对他的价值不是省时间，而是"消耗你的精力跟带宽"的事情被解决。旅行场景中他用 Codex 讨论目的地，"他的确比用携程之类的 APP 好"，关键判断是："他其实并不减少我的乐趣……反而是增加我的乐趣的，他让我找到了更多我可能去玩的地方，因为它减少了摩擦。"</p>
+<p><strong>8. 免费产品 vs 订阅制的底层逻辑</strong><br />
+徐文浩引用美国投资人的观点：所有 to C 产品最终应该是免费靠广告变现。"付费的所有的 to consumer 付费的产品，它都有一个上限……你涨价，它的转化跟增长速度就会下来"；而免费产品的变现压力来自"广告主之间的竞争"，"理想也想卖车，小鹏也想卖车，特斯拉也想卖车，他们自己之间会竞价把这个价格抬上去"。他自己"做了五年的 C"所以认同这一判断。</p>
+<p><strong>9. agent 平台的商业化路径：Work/Zoo.ai</strong><br />
+徐文浩介绍自家产品"Work"——"不绑死在 OpenAI 跟 Claude 的模型跟它的平台上的 managed agent 平台"，对标 Claude Managed Agents 和 OpenAI 的 Agent API，"第三方版本"，最大卖点是"不绑死""可以混用模型"，并宣布"昨天刚刚拿了 Product Hunt 榜一"。</p>
+<p><strong>10. AI 做内容 vs 自己认真做：效果反差</strong><br />
+主持人自曝实验：用 AI 根据知识卡片出稿、用自己的声音发，"效果就蛮好"；后来自己认真读卡片、认真思考、亲自口播，"所有的数据就陡降"。结论是"凡是我比较认真做的，效果就比较烂""凡是 AI 让放手让 AI 干的，目前看效果就比较好"。徐文浩的补充判断是：大众社媒的传播力不代表商业价值，"他吸引了一堆大学生来看你，从你商业化的角度不一定有帮助"。</p>
+<h2>独家细节</h2>
+<ul>
+<li><strong>徐文浩给 dot 取名叫"牛来"</strong>，用一个具体的私人命名细节评价产品"很慢"。</li>
+<li><strong>Claude 账号被同事当面质问</strong>：徐文浩当月初用 Claude 5.5 做实验，四天花了 2000 美金，同事发消息问"我这个账号一个月才收了 2000 美金，为什么你四天就把它用完了"。</li>
+<li><strong>机场书店找瑞幸的即兴体验</strong>：主持人在新加坡机场问 GPT 怎么走，结果"那个平面图是他生成的，他画了一张平面图专门指路我从书店怎么到瑞幸"——AI 生成了现实中不存在的导览图。</li>
+<li><strong>"坐牢感"的原话与体感</strong>：徐文浩说"我今年写的过去 20 年写的代码的量，当然不是我写"，"每天早上开来，有昨天晚上开的十几个窗口要验收……两个订阅跑完了，要不开第三个订阅，然后开到晚上 12、1 点钟还要去睡觉了。你有一种坐牢的感觉"，并延伸到"你的感觉跟滴滴打车差不多……你是个快车司机"。</li>
+<li><strong>"AI 都能做完，但是我依然说不完"</strong>：徐文浩反思自己"容易 over commitment""已经答应了很多各种各样的事情，我感觉根本做不完"，这是本集标题的出处。</li>
+<li><strong>CAIO 联盟的"打脸"经历</strong>：主持人（发言人2）发起 CAIO 联盟、建了官网、现场向一百多个企业家 CEO 发布，"现场就一百多个企业家 CEO……销售订单就已经来找我了"，但深聊后发现"他们根本不需要我做这个东西……他们找我只是想理清楚说到底是个啥"，于是庆幸"还好我没做"。</li>
+<li><strong>徐文浩不想去硅谷的私人理由</strong>：往返飞机累、酒店贵（"随便住个什么酒店就 300 美金"）、"因为成本，你就绝对把行程排的很满"，结论是"我何必"。</li>
+<li><strong>struct 推理框架的技术细节</strong>：把 MoE 模型的高频专家放 GPU、低频放普通 DDR4/DDR5 内存、更低频放 SSD 查表，"1 块 5060 钛 16GB 大概 5000 块人民币……就能千万 flash 自由了"，徐文浩坦言"我还没有试过""还在犹豫要不要花 6300 块"。</li>
+<li><strong>Claude 找宗教领袖闭门会议</strong>：徐文浩评价为"以一以贯之的神棍风格"，主持人的解读是把意识理解为底层"心跳机制"——"它的目的只有一个，就是活下去"，并抛出"意识本来就是一个错觉……我们本来我们就是被创造出来一个 simulation 里面的一个数据用来受苦的"的哲学判断。</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是AI都能做完，但是我依然说不完。我感觉我今年写的过去20年写的代码的量，当然不是我写。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实AI写对吧？大家不要以为自己有taste，你只是有bias。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那那没问题，那我觉得你可以考虑卖第三家公司，就是因为你卖的这两家公司说明你命好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>每一扇窗里都有人替我在吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，欢迎大家来到AI炼金术。今天我们又来瞎聊天了，但是今天又是我们对我们已经励精图治，非常认真。然后现在开始我们都会提前商量一下，说今天晚上聊个啥。所以今天我就想拖着徐荣浩聊一聊最近大火的那个personal assistant个人助理，然后聊一聊OpenAI的dave day，也聊一聊说AI炼金术。最近我一边在新加坡在陪老牌子玩，一边让AI在外面做几条视频。然后也想聊一聊用office 5.5做视频的一些感受。好，所以首先就是聊dave day，open a dave day徐文浩同学你看了吗？有什么感想。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不对？我觉得作为一个程序，第一大抱怨是open I把那个额度砍了一半，对吧？然后200美金.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个他本来就是算的四倍，对，现在恢复的两倍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，虽然我手上是个老账号，他要到这个月底才会被砍断，而且他送了你大概2500美金的credit，但是本质上还是砍额度了。我觉得只要是双持套餐的人都有很明显的体感。就是你现在用个cloud oppos，你一周用用一周是够用的对吧？就是像我说比较重度的用户，一周大概正好用完，然后collar基本上1天到2天就用完了。基本上这个玩意儿不具有性价比了，对吧？更何况它的模型能力还比offs 5.5明显要差，对吧？这个感觉OpenAI这个要黄了，你给人一种这种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我也是最近我我也是之前因为那个extra，我又把OpenAI的那个plus生成pro了。结果最近就发现office 5.5太香了。我从fever five换成5.5之后，现在用的飞起，而且流量感觉快的也完全用不完，就会觉得好爽。他说那么多花里胡哨的，还不如一个模型好一点好吧。然后第二个就是你们觉得没有亮点，最大的槽点就是这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得没有亮点，包括他出了那个dot，我觉得也没有什么亮点。反正我也简单用了一下dot，其实我用了一下对吧，我给我的dot取名叫牛来，然后我用的体感就是很慢。第一个体感是很慢，第二个是过程不太透明。因为过程它其实是他其实是还是用你本地的那个codex给你开了一个chat PT work或者codex的进程。在工作偷偷在后台工作，工作完了一会儿，然后把这个dot把那个结果大概summary一下再回复给你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是体感就对，就第一个我觉得他做的事情并没有比半年前的open cloud能做的更多。他只是把open cloud这样一个更像需要自己动手组装的这么一个宜家一样的产品，变成了一个你买完的家具过来直接就放进房间里的产品。但是这个产品并没有做得更好，我觉得这个是我的一个比较大的体感。OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们就你既然没有特别上心这个day的话，我们直接聊聊那个personal我也用了，but然后我也很困惑，为什么最近这个东西又火了起来？因为我用一用就感觉就因为他达到的功能，其实我我我我好歹有一点点动手能力，我好像自己搭那个harness，我都已经全部自己搭完了，是不是？其实这个东西就是云端的小龙虾，然后它的优点就是让不太会自己搭东西的人的话，可以很方便的用上了这种。比如说我们我们用color code体验到的这些好玩的东西，现在可以你就打开一个软件就能用了。它它是不是这个点？为什么现在muse到stinted然一堆东西出来，你觉得是为啥？好的，那那那那我的意思就是为什么这个东西现在又火了呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你讲严格意义上来讲，ChatGPT刚开始出现的时候也有点像personal assistant，或者说豆包，或者说比如说你刚刚讲的橘子那时候做，甚至于现在现在火的某一家，其实之前他们pitch的时候，我也听过他pitch。然后其实当时我的想法就是这个东西是主战场，就是你这样做没有前途的，所有人都会做这个。然后你作为创业公司做这个是做不起来的。但是现在他对生在这个时间点，在muse之后，我至少相信他下两轮估值是没有什么问题。但是当时我看的时候就真的觉得说你说反正是其中其中还其中某一家，我不能说这么一家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以我就会觉得很困惑。对，为什么现在就又起来了？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得其实就是open cloud出来之后，更多的人觉得personal能做了。然后正好因为其实陆续的产品都出来了，先是go fort对吧？然后instance轮了融了一轮非常大的融资对吧，他们融了好像20亿美元对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>忘了，反正他们一轮35亿美金估值，后来一轮是100亿美金估值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就反正融融了一个10亿美金以上的级别的钱，对吧？对，然后第三个是那个meta也下场了，吧？就是fork上了muse，然后OpenAI t也下场了，对吧？然后那个bot，国内也有些沙场，什么today什么，然后Venus也下场了，做了个Q对吧？我觉得更多还是火，我觉得也谈不上火。我其实很好奇，就是我举个例子就是像muse跟brock，他一定会在社媒上听到比较大的声音，因为是大厂自己在做对吧？对，就是他只要花一点点钱就是很大的生产。但是我举个例子，metas这次做Q你觉得市场上声量大吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不大。对，因为大家的注意力都在另外的上面对的量声量都比较大对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得你说的没错，你说的没错。就是说这个事情比如说当meta来做，当这个X来做的时候，像OpenAI来做的时候，其他人其实是比较难获得比较大的分量的。其实instinct你说他好像更早的获得了更多的眼球，我觉得还是很有挑战的。但是我觉得这个就persone syn是个顺理成章的事情，特别是在美国对吧？因为美国不像中国有很大的super act的市场，对吧？中国其实是这个微信可能是个super APP。其实你很多事情到任何地方就扫码都有小程序对吧？对你是你现在去餐馆吃饭，你也是用微信扫码，你去什么景区订票也是微信扫码，但美国不是这样的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以微信微信做这个就太顺了，他东西内容几乎都有了，但其他家做就还挺麻烦的。就比举例来讲的话，比如说我今天我今天在我我在买体检，我打算过几天去体检，然后我就让那个dot在帮我搞。结果他就就是他他查的那些网站我都不敢相信。然后我就说你看看点评，你就直接在点评上帮我买。但是点评的网站是网站是不能用的，点评的网站是不能用的，你知道吗？点评的网站他他他连信息都不给你看，不是，他都不给人类看。对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不只是典型。就是我觉得就是我我我觉得我们去看这个产品，肯定是要把中国跟美国分开来看，这是两个完全不同的市场。中国市场不止点评，你不能看淘宝你也不能看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>京东也不看。我是说他不让人类看你也看不了淘宝跟京东。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>淘宝跟京东你其实人类也你你进你一定你那个淘宝，你用那个浏览器登录的时候，你会发现它PC现在适配已经做的非常差了。你必须扫码才能登录对吧？你必须扫码才登录。第二个很多都不显示。比方说我举个例子，就是大家今天用电商用抖音电商，对吧？抖音也有电商，抖音的在PC版的web你是可以看视频的。但是你要买一个东西或者要看一个它的电商的价格，很多是让你扫码到APP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>上才能看啊。对，点评就是这样，你的详情的话看不了在网页上，所以他操作了没有意义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对啊，所以他我所以这个就我说他在中国跟美国是两个完全不同的市场，对吧？所以我觉得在中国是这个市场是你是没法做起来的对，就没法做起来的原因是因为中国已经有superb，然后大家这个fans，在这个篱笆扎得很紧，这个围栏扎的很紧。只有本身今天是super act的这些平台？比如说微信可以做，是因为微信本身是个super up，你供应你的供给端想接也好，不想接也好，你都得接进来。你不可能说我没有微信小程序，那你你的你你在市场上说你做个餐馆说微信扫不了码，那你生意天然就比别人少，你不可能干这个事儿，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就比如阿里也可以做这个事，阿里就啥都有对吧？你电商我有淘宝，然后这个本地生活我有闪淘宝闪购原来的饿了么，然后我订酒店有飞猪对吧，然后我本地生活还有高德地图？所以理论上讲他也能做对吧？对，但是其他人其实很难做的，就是因为我只要把篱笆一扎，你你你进不不让你进来，你就干不了这个业务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧对，但是美国现在也在扎里巴吗？就比如说那个muse就已经被阿马总封了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>已经买不了东西了。对，但是我觉得美国篱笆没有那么好扎的原因其实有两个，第一个是PC天然难渣，美国还是一个PC的电商交易额占到将近占占到一半的一个市场。就是你在APP，不是所有人都在手机APP上下单，我在我的电脑上下单，对不对？对，那你不管你用muse，你不让我用那code和computer use，你其实很难进，对不对？所以从这个角度来讲说美国的篱笆天然就比中国难扎很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个是美国的市场天然就分散很多。美国大家虽然也是MO买，但是也有大量的独立电商，对吧？有shop fy有大量的独立电商。第二个大量的比如说订餐，比如我们在美国出差订餐，很多时候要订一个餐馆。他是用open table，他不是药也不是，他是open table对吧？Open table更像一个SaaS，他给你发个短信，然后有个网页链接。对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后美国的比如说就是美国的每一个每一个垂直领域都是自己的，他并没有都被合并进巨头里面对吧？所以你的感受就是美国这个东西需求也更旺盛，供给也更分散，所以他这个机会天然就更大一些。中国我觉得是说没有巨头，就是巨头不会让你做店，就没什么好做的。做啥那。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是现在火了之后，还是有蛮多人在做的。只是我就觉得说这个真的是千军万马，这件事情就是太显然了。他不光现在显然，他在半年前一年前就很显然了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我就一直在想说，因为我我我跟你都以前我们创业失败过，都有PTSD，所以是不是天太天然过于觉得想要逃避正面战场。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哦哦哦我我我觉得反而不是，但是我反而是觉得所有做这个的，当然这个也是我从另外一朋友，就是你得想好退出通道，也许很多人做完了，就是我做到一定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>体量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>卖掉就结束了，对吧？你说我要做一个super APP，想要什么权威。因为如果你的这个person能做的很大，它天然就是个P那他就天然应该跟腾讯、阿里、字节一样的，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但这件事情我觉得肯定是很难的那你不能说不存在对吧？因为比方说我们是看到拼多多长得很大的对吧？我们也看到其实小小红书跟自己自己也长得很大，对吧？小红书也长得不小，对吧？所以你从这个角度来讲，可能也有机会，但这个机会就肯定是很难的，对吧？我觉得你是不是天然回避，我觉得我们年纪大了就回避一下，我我我我觉得我们回避是正常的。就是我我换句话说，我觉得这一类机会肯定还是就我我我自己是觉得要尊重客观规律，就是有些机会是年轻人的机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，为什么呢？是因为我觉得很多巨大的机会的改朝换代，不是我能力变强了，而是每一代人都想玩点新鲜玩意儿。不想和你们老登玩了。就是微信刚出来的时候，先玩微信的也不是我们这些老登，对不对？我们可能还在用MSN的，是对对吧？就是可能是90后他们玩什么米聊、微信，那我们可能已经有点老登了。那个时候可能你没有，可能我有点对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还是从什么talk box开始玩的咋的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那现在我觉得这些东西你如果是个90后来做，我觉得其实也挺难的，就是年轻人真的要爱玩这些东西，我也不知道年轻人现在玩什么东西，对吧？现在的大学生玩玩什么东西，其实我不太清楚对不对？他们也许会有他们出来的新的产品或者形态，也许这个四月份sist最终从他们那里长长出来的，因为他们会有他们习惯用的社交圈APP他天然并不想和我们玩，对不对？他觉得跑到什么什么X上来，或者跑到一个传统设备的上来，他天然获得不了你们老的的这些声量，对不对？他为什么要来这里？他没有正反馈，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在也确实分手，越来越多的新的小圈子是我们难以理解的。你刚刚讲年轻人的话，我现在看就聊了一些年轻人的话，他们对于那些IP玩偶的那种痴迷，我就有点有已经有点get不到了。而最近还有一个很很搞很搞的圈子的话，就是认识了几个女的女性的企业家。然后他们对于腐这件事情的痴迷和疯狂程度，也是让我完全没有想到。是那种整个人弹起来的那种，因为刚好也有做做这方面生意的。另外一个你做这个，然后他们两个什么什么，然后就完全不知道他们在说什么，然后就发现果然我已经out了，已经不在这个时代潮流里面了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我觉得这很正常，就是我我就是我举个例子，就是影视飓风前一阵办了一个综艺，类似于搞了一个综艺，请了二十几个30个大的网红或者up主，应该是叫网红。因为up主是B站的专称，然后去参加他们活动。然后我刷到了这个视频，我发现里面80%的人我都没有听说过。对不对？他最少都是这种百几百万粉丝，上千万粉丝的对吧？你想80%的人我从我都不是说我听说过，但我没有看过他的视频，有80%人我是第一次在这个视频里听说过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，我去翻译一下，我我我最近也认识了几个大的你刚刚说的up主，然后也是他们说他们是大up主，我才去跑到B站去搜他名字。然后他说唱的这样对，OK所以我们老了就认命挺好。那那稍微老老邓有老邓的疗法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这边的话关于personal system这边的话有你有没有什么比较好玩的一些想法？因为我们刚刚讲的，我其实我觉得我好像在其他也听到过。对，然后那个那个对有没有什么奇特的想法？我我我先抛砖引玉。就是我一个是我听的，一个是我想到的。听到的那个是也是从一个博客里面听到的。然后他提到了一个点，他讲的其实就是他举了一个例子，讲说用这种personal system，比如说用Q或者用today。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后的话就比如说几个老朋友约好了，要比如说定期聚一聚，那这个时候就会有要求有一个热心肠，对吧？那种残局的人他就要定期的来搞这件事儿。那如果他一不搞的话，整件事就没人搞了，或者说四个人都不稍微偏矮。明明也想定期聚一聚了，但是就没有这个全局的人，这事就搞不起来。所以有他他他就举了这么个例子，但是因为我不是就在商学院讲课，习惯性把它理论化，就是会说很多的需求可能本来是存在的，但是原来的摩擦就有点大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者也有那种工地悲剧。比如说四个人对吧？你们要一起聚一聚，谁来张罗这个事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这个时候的话，有一个AI来负责张罗就行，对行程什么的。其实像我们这种人的话，就比如说你我其实只但凡有一个人张罗，我们都会尽量配合。但是我们自己问谁张罗就是对，就哪怕我们觉得不好，也我们也会配合。对然后那那那这样子其实这个他他其实就会表明说我们当下的社会，我们想到person assistant，很多时候想到的是把我们已经在干的一些活给交给他们。但是很有可能还有一些活其实是应该存在，但是它没有存在的，就是因为它被摩擦掉了，或者有工地悲剧，什么乱七八糟。他他他如果那个摩擦降下来的话，很有可能会有很多新形态的活。比如说就是比如说我随便讲，就比如说我们的那个同学聚会，定期同学聚会什么这种东西有人张罗了，那可能就会这种事情反倒会更多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那有些所以我在想说，是不是我们把personal system的理解浅了，还是在拿当下的。比如说我们正在烧煤油灯的时候，想着说那个电灯，那它可以取代煤油灯，就没有想到说整个有夜间经济就这么一回事儿。只是想着说你点个灯可以看书了，但是实际上它有更大的一个所以我那天听到那个我忘了是好像是today的一个产品经理在分享这个例子的时候，我就想到说好像蛮有道理的。这是我想到的正面的一个例子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是另外我也想到一个反面的例子，就是我们家孩子特别喜欢乐高，然后他经常拼乐高。对，然后我在看他拼乐高的时候，我总是在想说这个拼乐高它到底是一个这到底是不是一个创造性的活动。因为他其实是按照说明书在拼，我对他最近已经开始拼一些奇奇怪怪的东西了。但是你买了一盒新的，它其实按照说明书在拼，我会觉得好像这个东西其实不是一个特别创造性的活动。它就是让你在经历一些小探索、小挫折，但是你都能搞得定。然后就也凭直觉，因为乐高设计的很好，你凭直觉很多时候也很难做，然后让你又会最后产生一个成就感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我就在想说，这个东西其实你买来的话，你如果如果这是他在打一份工的话，其实还要倒给他钱。但是现在我们还要花钱买这个乐高让他玩，其实他就在做工，在那边按照一个说明书，在那边有点像拧螺丝。那这个时候的话，其实他在买这个。爽感，人类在这些小活动上是有爽感的那我就在想大部分的普通的用户，因为我们那些做这些产品的产品经理，他们举例子都是说，你有五个人要约他们怎么对行程，然后你每天好忙，你要去订机票，你订不过来，然后你要去有伟大的事情要忙，这些琐事你应该都丢给AI我就在想真的每个人都这么忙吗？大部分人是不是对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以对于很多人来讲，就比如说我要挑一件适合我的裙子，这件事情真的是我想交出去的事情，还是难得有一件我说了算，并且反正错了也就错了。过程当中也会有小挫败，也会有怎么样。但是其实我就是在放松，甚至于包括说选机票，甚至于包括订酒店，甚至于包括我在比较说到底哪个网站比较便宜。你对于特别忙的人会说我便宜那50块钱，我不不对不起这个时间。但是他如果花2个小时，他在找那个特价，以及找哪个信用卡刷了能够拿到这个特价。他这个过程是不是有点像拼乐高，就是一个可控的一个环境的一个有一个小反馈。因为真实世界的那个他在打工的时候被老板骂，又怕出错，然后很多事情又很难。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你就就你说不是每个人都都比如说我今天想要创造一个什么伟大作品什么的。那那这个时候是不是我觉得大家天天想的那个persona的那个画像就画的太窄了一点，画的都是那些比如说忙的要死，找不着地的，他他这个时候就会把那些琐事当做是成本。但是是不是有可能其实琐事对于很多人来讲，他就是一个小确幸吧？就是一个稳定的可以完成的事情。对，他他不见得是都是不对，不是当然分类，有些事情肯定是每个人都想丢掉的。但是是不是什么？因为举的例子里面都是一些订机票，什么排日程，什么什么写会议纪要，都举的例子都是这或者帮我什么挑一件合适的衣服，他举的这些例子，我就想这些至少在这些例子上看的话，真的大部分是不是就是普通人的生活的一部分。它不是一个应该被解决的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我讲讲我个人的体会，因为即使没有我我因为我有我我其实用我我没我那个到我只用了一点点。但我之前其实已经是非常重度的codex APP和open cloud用户的。我觉得你举的这几个例子，其实我自己都有，实际在之前在用open class用codex这个场景就遇到过。第一个我觉得是说，当然这是我个人的体会，我觉得每个人的体会差别还是会非常大的。第一个我觉得是说他很多时候是帮我解决了大量的琐事，但这个琐事不一定是因为我忙，而是很多琐事他其实消耗你的精力跟带宽。我在我对codex after a我最喜欢的一点或者最常用的，帮我节约了最多的时间，是帮我填报销，对吧？就是原以前我就是就是在这个之前，我已经拖了很长时间报销，包括去年可能我有一年就没报销。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你也真是离谱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以就可能损从个人角度损失了很多钱，对吧？但是今年我把报销都填完了，就是我就用contest帮我报填报销。因为他其实这个对我来讲就是个琐事。你说他很忙吗？他跟忙我觉得其实没有什么关系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，第一个我称之为说我就觉得这个事情很繁琐，我直接不想干。对，就是因为你觉得说你而且是你拖着不干，他越来越多你越不想干，对吧？你晚上加班超过十点之后再打车的票什么这些connex订阅的费用，这些乱七八糟的这个事情，你想说我得花一天时间就在那里一张张报销的拉出来拉一个L这个实在太麻烦了。但是而且就算之前cos帮我整理完，我还得进那个飞书的APP里1比1比1把它填进去。但有了astra的computer u的能力之后，我感觉就非常轻松。我就开了个电脑在那儿，他可能一小时就报完了，对吧？然后还能给我整理成各种表格，我只要扫一眼就可以了。所以我觉得人生活中有大量这样的摩擦跟琐事，是肯定是大家不喜欢干的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就包括instinct，包括我觉得很多时候大家今天想解决的，不是说我想买一个东西做决策。我觉得第一个是这种事儿对吧？就是什么我要去理发，我要预约一下，你说我需要挑什么呢？我其实不想挑，对不对？这个也是中国跟美国另外一个差异，就是美国的大量的东西是reservation。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如我修个车，我什么去理个发我都得预约。然后我觉得对于我们这种人来讲，这个事情如果我在美国，我肯定这个理发可能会拖很长时间。就你不不是你觉得打个电话，好麻烦，要不算了，过两天再说。没有到难受到忍不了的地步，对不对？对，但是public system能帮你把这些问题解决掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且这个问题其实不是今天提出来的。可能十年前google IO就做过这个产品。但google当时做过这个产品就是打电话预约餐馆跟理发。当然这个产品没有做起来，那个时候技术也不成熟。包括我们这个公司刚成立的时候，也尝试过做过这个产品。但那个时候我觉得技术成熟度跟整个的整个的echo is，就整个生态的成熟度可能都不够。是所以我觉得这类在美国是个真实的需求，而且他我相信也就会慢慢被解决的很好，但我也觉得更像巨头的机会，我觉得这是一类。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二类就像你说的，比如说我挑餐馆，挑这个，我其实是用codex去挑。我去我前一阵子就是放暑假，对不对？就是每年暑假你总要带孩子出去一下，因为他只有寒暑假，11 51才有时间。11 511般我们不出门，因为全国人民都出门实在太贵了，而且太挤了，就体验很差。但是一般暑假的体验会好一些，因为大家相对比较长，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你能挑完整一个时间，我其实就是用codex去跟他讨论我到底去哪里玩的。我觉得他的体验的确比用那个携程之类的APP好。是因为你可以提发散的问题，你可以说我担心去哪里太热，我只有两三天，未来几天天气下不下雨。你其实你如果想要在传统的APP，不管你用携程还是用飞猪，其实是很难做到这点了。你得去看啊这几天酒店是多少，发退出来再看天气预报对吧？然后你再得去搜索。一般来说这个时候天气热还是冷，什么山里是凉快一点，热一点，它酒店贵一点还是便宜点？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你如果用一个其实不需要dot，其实你有一个codex就足够能够得到。甚至他世界知识丰富一点，他能做一些奢侈，就已经极大的帮。就是他其实并不减少我的乐趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就在这个过程中我的决策还是我在做，而且是我跟他通过他多轮沟通来做，他其实是并不减少他其实是增加我的乐趣的，他让我找到了更多我可能去玩的地方，因为它减少了摩擦。对，所以从所以inspect当时说他们最大的一个交易的来源就是旅行。我觉得这从我自己的体验来说，虽然我没有推动它来预定，但是它的确就是用一个agent类型的产品，只是用来做获取信息跟决策，它也减少了我的摩擦？当然还有一个就是我没有那么价格敏感，就是我不会差。因为这个差这两个酒店差50或者差100就改变角色？那他可能差300我可能会改变角色？所以我自己的体感是说我自己的体感是说这个他的确有帮助。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第三个我觉得所有觉得是因为行程太满满太忙的，我觉得这个是个伪命题。因为我客观说就像我这样的人，我就是袁老师，你还是个商务人士，你有各种约。我虽然我在一个创业公司，我可能算是个核心管理团队对吧？但我的工作其实很简单，我就早上爬起来开始写代码，写到晚上睡觉为止。然后我中午出去，中午我出去买一个麦当劳，我其实没有什么行程要排的，有人要排我对吧？就飞书上呼我一下就好了，回来找我一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我其实大部分时间我没有什么行程要排，我没有那么多或者说我没有那么多行程要排，我有一些行程，但我没有那么多行程要排。所以从牌形式这个角度，我其实没有很强烈的需求。但是从日常的一些琐事减少摩擦的角度，我觉得他的确帮我减少了很多摩擦。不然我估计今年的报销我也不高兴报销。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是到底说还是有钱。而且你们公司你是创始人，你为什么不用什么企业滴滴企业信用卡？大哥。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我我我就就这个事情也很我的企业信用卡在我们同事那里主要是订阅公司各种sas我觉得如果我自己在用这个账，就对账就变成一个更麻烦的事情，那就算了。当然我还是，就是你至少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该有个企业滴滴。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我这个人很懒惰，我就懒得开。很多时候就连比如我一直用高德地图，那我就高德地图打的车对吧？然后原来你就觉得报销很麻烦，对吧？现在很简单，就是你高德里把所有东西选一遍，他会发到邮箱里，然后你就扣掉说你把所有邮箱里，然后按过滤条件筛选出来，帮我做成excel，把这个找出来，然后再分帮我填个报销，就一两个小时就搞完了。你口述一下，那你我觉得这个我还是要报销一下的，不然原来我会觉得说我报一年的报销要花两天时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>算了算报了是了解。我我我其实想的是一会儿回应你那些细节的部分，大的部分我其实在想说我们到底是不是典型用户。比如说你想比如说一年的报销，如果要花你时间的话，你都懒得报。其实我觉得这已经不是99%的用户的行为了。然后比如所以我想说我们可能会想着说我要减少一些摩擦，然后因为我们还有其他的事情要做，但是绝大部分人有没有其他事情要做，以及他减少完了这个摩擦，到底是出现了一个洞，还是出现了一个机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我有的时候在在想是不是到底是不是有一个问题，甚至包括说你在讲你对我回应一下，你在讲codex什么的，你会用吗？我也会用它。就包括说我们这次旅行也是，一路上就在我我这我们在新加坡，然后就在一路上其实我们的我们是完全随心所欲乱跑，然后就完全没有去景点，然后就到了哪里就开始问GPT说，我们现在几点了，我们想干嘛？就随手就溜到旁边一个巷子了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>甚至于他已经夸张到，就比如说我们在一个书店，然后我们看到附近有瑞幸，然后就我就我不我们在机场的书店，要去机场的要找个瑞幸，然后我说我懒，我不知道怎么走，你帮我，你不找有没有平面图。然后他然后我后来发现那个平面图是他生成的，他画了一张平面图专门指路我从书店怎么到瑞幸。所以我觉得这些都是挺挺有用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是我会觉得说我们是不是核心用户，以及这批核心用户是不是太难抢了。因为比如说比比如说我们这种情况的话，现在有一个另外的APP。他要收你一百美金一个月，帮你做personal assistant。第一个就是你已经有了cloud code，你已经交钱了。然后这个时候你的context也在上面，然后cloud code还在补贴token，是这个时候其实很难转化你的。甚至于在我身上就发生了很极端的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是早几天有某某一家，因为有个朋友，我可以给你贡献管饱的token，你问我要就好了。但是我现在都我现在还没有去开通，因为我觉得我的color code和cotex的talk还没画完，我好像也不是很需要。对我我等我打过几天打算去问了产品测试，我一定会去问他要薅1笔。但是就白给的时候，你都有点不想去薅的时候，那你就会觉得那那那我们这些人多难转化。那那这这这这这不真的不是好用户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是两个，就是我觉得是两个，我讲一下。第一个我觉得他不是，我们是我我刚才举的例子可能不够典型，比方说懒得报销这个事情，的确就是可能只是我这样，对吧？对我觉得这跟有钱没钱没关系，这个跟一个人的懒惰程度有关。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二个，就是说但是我自己的观察就是说可能不能这个用户就是生活中有大量琐事，跟摩索有大摩擦的琐事的用户是很多的，特别是家庭用户，无论是中国还是美国。是我觉得其实如果你是个带快乐的单身汉，或者说是刚毕业，其实你的琐事还好，你要处理事情。但是大部分有家庭的琐事挺多的对吧？我还要补课对不对？然后今天说学校里有布置个作业，要做个什么社会实践，要做个小报，要做个小这些，然后围绕这些衍生了大量的琐事出来。那你你你说我懒得理发，但是一般来说你会一定会让娃娃按时理发，不然你会觉得好像就是你没有尽到一个做一对善良夫妇的责任，对吧？你可能说今天我懒得洗澡，我懒得理发了，我拖一两个礼拜，但是娃一般你都会给他按时理发，你不太你不然你会觉得说你没有尽到一个父母的责任吗，对吧？是所以我觉得这些琐事跟摩擦这个需求我觉得一定是有的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个是我不看好started的业务，我觉得是另外一个观点，这个观点是也不是我发明的，是之前看也是一个美国的一个podcast，就是一个投资人说的。就是我觉得first one它不应该是一个订阅付费产品，它最后一定会成为一个免费产品。而且他应该是成为一个免费产品。它是这个是rap spor的一个pocket名，名字叫什么我就有点忘了，大家可以去搜一下，其实还挺火的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是说他他是他是这样说这个事情，他是说他觉得ChatGPT，因为我们能够看到我们我们抛开这些新的这些公司。就是看chat PT跟看那个cloud。Cloud很明显一直在做生产力工具，他花了很多时间做coding，所以他一直在做to b对吧？Chat PT其实很长一段时间都在做to c对不对？然后他在做一个一开始做一个订阅制的业务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是那但是他当时有说，但是那个投资人有一个结论是说，你只要经历过之前的周期，你一定能够理解任何一个to consumer的产品，它都应该是免费，然后靠广告变现的。为什么？就是因为付费的所有的to consumer的付费的产品，它都有一个上限。对，就是因为你直接为消费者收费，只要你涨价，它的转化跟增长速度就会下来。对然后同时你其实是在跟你的你的收入的压力其实很大。就是你要收入快速增长，你要么涨价对不对？但是涨价续约订阅率增长速度都会下降。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是免费产品其实是不是这样的？免费产品靠广告变现，你的变现的压力其实来自于广告组之间的竞争。只要你的平台足够大，这个就是大家都想卖车，理想也想卖车，小鹏也想卖车，特斯拉也想卖车，他们自己之间会竞价把这个价格抬上去。最终是消费者其实最后只是买，他感受到的是市场上的价格竞争。然后我买到了一个车，但是他不会觉得我用你的president我要花钱，我的增长速度不会停下来。所以所有的first的产品，我其实同意他的观点的。因为我原来也是做S的，就是我最早我在开始做拆包之前，我做了五年的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是所有的C端的产品，你如果要追求变现，追求增长，它一定应该是个免费的产品。今天我们用的所有的C端产品，你至少可以认为它都是免费的。你都没有为这个产品本身，你打滴滴你是把钱付给那个司机，你是要付钱没错，但不存在你要付20块钱才能有滴滴这个AP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>P对你对不对？这些产品今天唯一的用户收费的是类似于一些什么会员，但他的会员渗透率要远远低于它的用户，至少低一个数量级以上对吧？他可能有几亿的日活，他可能有1000万的会员就了不起了。一两千万用户会员就已经很了不起了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？了解，所以你刚刚。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>讲的对对，所以我是觉得说这个事情如果他们也会，他就他的转化就不存在你说的这一层转化的挑战。但它带来另外一个问题，他真的可能只有巨头玩得起的游戏，或者是巨额补贴才能玩得起的游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个思路就是muse instinct都是这个思路。Muse的话现在就是在补补token，然后instinct他们那个那个创始人接受了一个访谈，然后再说他们现在用户量好像挺小的，但是说现在算下来的那个交易额的话有10亿北京然后就是在上面的一半是旅行相关的。然后他自己举了几个例子，就比如说如果是电商的take rate可能就几个点。但是像那个Lucy hotel，像那个ticket的hotel的话，可以take rate可以到30个点对，所以就是他觉得说他他在探索的时候有没有可能走到这个上限。所以他讲的故事其实就是他们现在比如说可能ARR每天还在涨。那如果比如说他有1000亿的流水，然后他就可以走到这个上限，比如说20%的take rate，这也是很吓人的，其实就是意图经济，我吃意图，然后别人来我这边竞价来买买这个意图。就好像你讲的就是别人会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>竞价这些逻辑，每个人都在讲，那这些逻辑我们这些老的应该非常熟悉。你也参与过这个竞价游戏，对吧？对你亲自参与过这个游戏，并且把这个公司成功的卖给了京东，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是就比就一降不就你如果要做这种平台的话，你最后就是你要是那个赢的人脉，但赢的人确实很爽。我讲个段子，就是之前看到过一个警方破了一个案子，是好像是卖假药的，就暴力的卖假药。然后比如说我忘了具体是什么了，当时看到觉得卖假药的人也不容易。比如说两个，他们成本比如说1000块钱，然后假药比如说卖2万，然后中间可能交了18800给那个子杰。我在广告，你会觉得说他们在在已经有点像，就我就不是有点像，就是他们已经在犯法了，他们赚的钱居然没有抖音多。对，然后你会说是非常。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>正常的吗？就莆田信息医院都没有百度挣的多，这个不是很正常的事情吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以你在如果纯粹从商业角度上来讲的话，就是内层确实是最肥的，然后确实也是存在的。或者有点像是最近比如说短剧，大家都号称说生产力爆棚，然后每个人都觉得我好了不起，我做出来短剧又有这个又有那个，让每一家都狂亏，最后就是发现只有红果和自己又在赚钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但这个我觉得就回到了老邓投资人们跟老邓创业者熟悉的逻辑，大家都都背得出来对不对？我觉得一个系统想的很理想，因为往往是我们对以前我们叫高频打低频，对不对？那那如果说那那你觉得muse如果说他能接所有的中小的商家，他那些低频的都在他这里做，为什么高频的我要切到instance去了，对不对？如果我我理发、订餐馆、买东西都是在muse上做的，对不对？我uber打车也在muse上做的，我怎么可能会说我今天要订酒店我就要切到instance去，对吧？所以从老的创业者的角度来讲，这个东西没没得玩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是现在大家还是有有资本认为他有的玩。就比如我跟你讲，不过大半年前我就看过，当时我也觉得没得玩，你就就我的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>资本觉得有的玩没有问题。资本有的玩的逻辑可能是google忘了这个事了，可能过了两年google以100亿300亿美金把这个公司收了。这真理对吧？这也是有的玩，对投资人来讲是是是OK的，没有问题的，对创业者来讲也没有问题，对吧？但是如果你的假设是说我必须把用这个公司beat meta，我觉得就比较有挑战，对吧？我也不知道不需要讲一定有问题，但是这个挑战可能大到难以想象。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你讲的这个确实也是一个逻辑，就有点像是有点像是我之前在在硅谷见过见过一个创业者，然后他他他做的东西他做的东西简单来讲就是他他做了一套apple intelligence。在apple intelligence之前，好，然后你就会觉得说就是你如果单看这个东西你会觉得过于荒谬。但是你看看这个人的背景，你就会觉得好像非常值得投。因为他是之前就刷的card，是苹果收购了一个团队，他是那个人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>siri也是苹果收购的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是他是做捷径的那个人，做做上看的那个。所以他的上一次的成功的打法就是把苹果必然要做的一个东西自己在外面做了，然后被苹果买了。所以他现在对他在apple intelligence之前做了一套apple intelligence。我跑到公司去看了一下，我发现说如果是你做，好像这件事情就非常make sense，如果是我做就非常不make sense。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所所以所以我觉得资本投它本身没有问题，因为你说你要做到beat muse，我觉得这件事情可能太难了，对不对？但是你有很多出路，你可以卖给那你你你想卖家有很多，我可以卖给苹果，可以卖给google，对不对？对，可以卖给XS已经做了glock，假设他不会买，对不对？你还可以卖给三星可不可以？对吧？你你你你其实你会发现说他还是有你从把它卖出去的角度，就是他最后能够开放的角度，他还是有很多机会的。就是你但是如果你说从我要成为唯一胜出的before，这个机会可能没有那么大对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>搞一搞，没事，我们就先薅羊毛用一用对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他他他还可以卖给XXPD，对不对？就是我觉得这这是另外这是另外一个逻辑，就是我觉得大我觉得不是说只有我把这个公司做到IPO，成为世界上最大的这次的公司才是出路。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你讲的有道理，这个跟我另外一个想跟你聊的一个事儿也有关系。我倒是打开我思路了，因为我我前一段时间不是吆喝了一嗓子，我们做一个agented FDE啥的。然后这就这两天就看到新闻，那个anodic他们推了一个培训班，叫cloud front frontier academy。看到了。对，就是做做培训，然后按你这个思路的话，其实我现在就应该做一个这种。不管是AI辅助的也好，还是其实很传统的也好，就做这种帮企业。然后我们定义上的培养FDE。但是最后实际上我就把这家公司看看能不能质朴你要不要买，或者说哪个work body你要不要买，应该是应该应该往这个思路上做，就不是应该往哈哈的来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我给你们讲个课。对，而且我觉得倒过来是这样的，就国对，就是因为第一个国内我觉得有一个两个问题。第一个是互联网巨头买的概率比较低。对，但是还是有很多传统企业有可能会买的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如用友、金蝶。打个比方，我我我只举个例子。好，对你你去想我们去思考这个问题。因为腾就是我觉得因为国内的整个的收购不像美国那么繁荣，对吧？就整个的并购市场没有美国那么繁荣。但是国内的很多并购市场是我们怎么总总教大家跟大家讲一些不不这个我觉得其实也不是很好的东西。对，但是国内有一个东西叫做A股炒题材。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是明白就会A股是A股需要炒题材或者港股需要炒题材的公司有可能会把这个东西定了，对吧？就比如水泵公司买买这个互联网公司对吧？对，这就是我的老东家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对，最后变成了互联网广告广告公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这是水AA股水泵公司买互联网公司，买了很多互联网公司，它就有两大业务，一个叫做卖水泵，要做互联网广告对不对？你其实也很难理解对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我现在最近倒是也聊了一些，确实是这样的。就比如说原来是在做某个机卸机械装置的很大的公司的话，最近在很认真的跟各个狙神智能的公司在推他们的东西，就是一定要有有一些相关性，在这样子的话会更好。然后另外也知道有那种饮料公司，他们投了非常多的芯片和聚生智能。然后现在的话就是这是大家都知道的名字的饮料公司，现在光在这上面赚的钱都已经超过这家公司好多费了。就很很吓人。对，所以确实可以，这也是个思路挺好。OK对，好的，对没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我是觉得说我们有时候的本能的想说，就是一个善良的创业者本能想我怎么把这个事情做大。你觉得这个事情不能做，但如果你想把这个东西卖掉，很多事情都是可以做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是是是，其实卖的挺好，只是因为在中国的话，确实你卖这件事情本身就没有那么容易，对，不像在对，因为我对我也我也是卖过两家公司，我还经常被人问说我们现在公司怎么样？对，怎么怎么卖，都要经常有人来参谋我。但是我会觉得说其实还是对运气成分很重。对，还是得得得这这真的很难操作，这件事真的靠靠80%靠命，操作起来真的好。那那没问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我觉得你可以考虑卖第三家公司，就是因为你卖的这两家公司说明你命好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>成你吉言。对对对，我们来做那个FDE的那家公司，培养大量FDE，但是不做成培训公司，要把它做成什么FDE，什么中国最好的帮助企业转型的社区。然后把这家公司我们看看有没有大约大模型公司愿意买进来，对吧？我们这边就开始要对象，有人愿意买我们就开始租。反过来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就跟你之前讲的一样。做任何一个产品之前，先要把这个产品先卖出去再开始做。都没有卖出去是不能开始动手做产品的。因为做做产品今天的成本实在太低了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是，包括我跟你讲的这个genting FDE的话，我不是跟那个跟王宇豪什么的，我们发起写了一个CAIO联盟，然后我就是这个东西现在目前啥都没做，就是一个A政策版的FDE，就是指AI来指导你们公司AI转型的东西。我把这个概念弄出来，完了吗？弄出来了之后，我就直接发布了，然后现场就一百多个企业家CEO的话，然后我就说那我就来给到大家要这个东西，就来找我。然后就确实就有几个人来，就有几家企业销售订单就已经来找我了。然后找我之后详细的聊下去之后，我就会会发现说他们根本不需要我做这个东西。对，这个还好我没做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们可能需要我们最近刚刚昨天刚刚拿了product count榜一的产品zoo点ai.</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你终于开始做广告了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们昨天刚刚拿了first count榜一对吧？但是大家都都都其实都明白他看的榜一是怎么获得的，这个我就不介绍了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你也不能这么说。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我肯定不对。但我们的产品其实做的挺好的，就是我觉得是一个就是你今天不需要用OpenAI的agent CPI，你也不需要用cloud的AICPI，你也不需要绑定在他们两家的模型上，你就可以有一个快速搭的平台。我们既提供了你不太懂技术，也不太会用产品，我们有聊天交互是UI帮你作为决策。你也可以直接拿我们的SDK，你就能做一个manager ages。你不需要去管基建，不需要去管模型哪里来，就全部托管在我们这里，然后这个是我个人精心优化过的，我们做过吧？比open cloud cat rate要高多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挺好，大家看一下rework点AI对吧？Zoo就是动物园那个ZOO对吧？好的，大家可以去用一下。你看你们这个就属于说你看你都做完了，然后还上了product，你才开始吆喝，这是不对的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该像我那样，就是直接开始吆喝，然后就有好多人已经企业来找我，企业来找我了，找我我跟他们就开始深聊，深聊之后发现我就他们还没有到，我我我做了一个官网，然后都完全没有到要用到那个官网的任何功能的地步。他们找我只是想理清楚说到底是个啥，我现在到底应该干啥。然后你就我就觉得说，我又想多了，大家还没有到采购到，比如说那个什么什么，比如说我们已经到了什么何首乌，什么黑发发水，什么做细分定位。然后还可以针对你们的问题，大家现在在研究的就是为什么要洗头发。还在保洁很早期引进中国，你也觉得对对对，所以所以现在要重新定位。然后我就一边一边跟大家聊一边跟大家聊，一边就心里想说还好我没做，还好我只是做了一个官网。那那我最后给大家介绍一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>用一句话介绍，但是大家我先用一句话介绍，但是肯定你又要喷我说这谁听得懂？Work就是一个不绑死在OpenAI跟cloud的模型，跟它的平台上的manager就是托管型agent平台。就是你要做个agent对不对？然后你要让A24小时运行对不对？然后你要考虑我要写a harness或这些都不需要考虑。你只需要打开任何你有一个的A级层软件，在我们上注册一个账号，达到一个APIP，然后达到我们的SCK。你说我要做一个什么样的agents，他很快就做完就就部署起来了。然后他其实调调我们提供给你的A的API，去把一个A型的所有的活都干了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你想做个界面，可以做个界面，但是你不需要去管h harness，不需要去管模型，你可以选用任何模型，你可以用if sick可以用GM可以用kimi可以用千万对吧？你也可以用OpenAI，或者靠在中国不能用对吧？你在美国你也可以用cloud跟OpenAI的模型来做这个来做agent。就是你不需要自己去研究说，我怎么部署很多AI24小时运行，怎么考虑成本。因为我们基本上就是把这个事情都做了，对吧？然后把它封装成一层API给你，然后你直接去用就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家应该可能可能都没有听说过，但是大家可以去关注一下，就是cloud今年年初推出了一个产品叫cloud manage agents OpenAI。其实前两个月推出了一个产品叫做OpenAI HCAPI。我们其实就是一个第三方的agent或者HCPI，它的最大的一个好处就是你不绑死在OpenAI或者靠模型上，对吧？你可以混用模型，你可以用gym I对不对？美国哈基米，你也可以用豆包，你可以用任何一种模型对吧？而且我们最近也会上一个功能，你也可以用自己的codex订阅对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这样然后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>来来来花费这个token。所以所所以我觉得就是很过去很多时间，大家很多人为了做产品都自己去研究pad源码，都自己去研究怎么做harness，我们相当于把这一层的基础设施给大家都搭完了，你只要想你怎么做你的产品就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，有道理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我觉得可能对中国的团队会尤其有帮助。就是因为美国你很多人说我快速做，我就用open AHCPI对吧？我就用那个many agents的API，虽然模型贵一点我也就忍了对吧？但是国内其实今天是没有，至少我还没有看到有这样成熟的产品，然后第二个是我对于对美国的团队有帮助的，是说你不用用那么贵的模型，你用DCCVC flash不好吗？大部分人的工作他其实都能完成的非常好，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我突然想说，我比如不是我想用AI来做那个AI企业转型，相当于用AI来做FDE，那这个其实就是agent。我应该用你们的平台来做，然后问你们要限量的token，然后的话做成了我再问你们要那个返佣。然后这样子的话，我就两头可以收钱，一头可以收服务费，一头可以收返佣，中间的token又不用钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样子就完就对了。这样这样我我觉得这样我觉得这样deep KV4 flash的token可以无限给你用。奥特斯5.5还没法无线给你用，这实在太贵，我自己都没法无线用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都是企业家客户你要打客户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我告诉你这国庆才过去四天，对不对？前两天我在公司的平台上无限用oppos，5.5已经用了2000美金了，这个月才过去四天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我都没有不能无限用我们的divorce。昨天今天早上发了个消息给我说为什么用了那么多？我说好，我不用POS，我先改成soit OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你平时用不是用那个，你是测你们自己的软件，对吧？你平时用肯定用套餐，套餐就便宜多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我平时是用套餐，但是我有一些自动，包括用自己的产品去做测试什么的，是用我们自己的API的产品，用的是token。然后前两天因为我觉得一些模型能力的问题，我把一些原来一些流程都改成了offer 5.5。然后今天早上就被我们的同事喷了，说为什么我这个账号我一个月才收了2000美金，为什么你四天就把它用完了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说我是创始人怎么地？</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我说不是我说因为前两天我们要搞个什么东西，这个bug很多，我在做一些个做一些实验，我现在赶紧把它调回去，然后你把这个月的额度往上调2000美金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，那到时候用你们的来编一下试一下。但你们可以找一个用一些神话再讲一遍。对我我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>打算做一些我打算做一些产品的视频的demo出来。对，这样可能大家会我觉得会更直观一点。我觉得就是讲这个事情还是不如看这个一个更完整的视频操作过程会更好一些。但是看我的时间安排，我的我的工作过于繁忙，我今天才休息了一天。前两天他们在为了product的打打榜，跟美国办haxo，我其实二号三号都在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>工作好吧。你你用AI你用AI做，你用AIAI现在做那个那个规则，好像规则还是规则，他怎么读？那个他他好像分享了一个专门用来做产品发布的那种skill，用ops 5.5看做出来还挺漂亮的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后对就我们其实产品发布的视频也是我们产品经理用，包括15.5座的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这主要还是要有传播性的故事，就有点像是那个有点像是我之前也来过AI炼金术的alex。他们之前火的话就是他们那个stress watch，这个说话只是手上戴的一个小软件。然后他们火的时候好像是我记印象当中记得是小红书有一个帖子，然后说相亲还是怎么样，然后那个那个手表就在不停的报警，然后就说明对方那个人心动了，这个说明压力巨大，然后这个说是真的动心了，然后这种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>东西就是国家人民群众。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>喜闻乐见，对吧？就是这种就一一眼就你你就这个场景就想明白了，就知道这个是什么什么东西了。对，这个得有这种段子，他们当时好像这个段子给他们带来很大的量。我印象中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>想段子，然后你刚刚讲的这个就可以无缝的，我们就进入到下一个话题，就做视频。因为最近国庆我不是在在旅行，然后我们在玩的过程当中，我晚上对我们这次主要是冲着酒店去的，然后酒店很舒服，然后就在酒店里面我就在干活，他们两个在玩，然后我就在干活的话，就想着说怎么可以做做视频。然后这个OPPO s55.5，我就试着搭了一个视频的生成工作流啥啥的，然后就发现效果还蛮好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我发现开定金书之前，我我我每天其实有大量的阅读会做知识卡片。我就让他直接根据我的知识卡片就开始出小小短文什么的，就直接出用我的声音就直接开始发，然后效果就蛮好。后来我就觉得我不能这样，我都要有活人感，我是一个负责任的人，我怎么能够用A让AI帮我做呢？然后我就自己认认真真的读了我自己的卡片，然后认认真真的思考了，我自己来就口口播，然后说了一段，然后说了几段，然后有一些卡片我还我还专门就是我的卡片里面可以嵌音频了，然后他再根据我自己真人口述去做，然后所有的数据就陡降，效果就不好了。然后这个时候我就想起来，你不是那天跟我说，你可以发少一点，我们要测试。我就在想这应该是因为发多了，应该前面那两条效果好是因为他拍的早，后来我讲的效果差，应该是因为发多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就让AI说，那你那你再帮我随便挑我几条以前的知识卡片，再帮我自你按用你的原来那个方法再出几条。然后效果虽然没有第一二条那么好，但是效果又明显比我口播好。凡是我比较认真做的，效果就比较烂。然后凡是目前来看那个社交媒体的反应，凡是AI让放手让AI干的，然后目前看效果就比较好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我就现在就在想说，是不是我平时还在指导他，指导这个知道那个，然后我会觉得我有品味，我有text，我指导方向。这个就是因为我只是用自己的偏见在衡量自己而已。实际上的话其实在这种，尤其是其实比如说社交媒体什么样的帖子会火。当然我讲道理肯定可以讲得出很多，但是实际上我也不太懂，但网感可能还没他好。所以的话而且我们的很多的经验可能就是过时了，所以他他天然出来就出来的东西反倒比我自己认认真真做的东西要好。所以我就在想说，好的，是不是我们以后就应该跟新人？</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我我我觉得其实不一定。第一个我觉得说从玩从大众的社交媒体，我们两个肯定是过时的。因为我们其实在做AI0之前，并没有去搞一个搞出说过什么社媒的大号，其实也没有经营过社媒对吧？对，而且其实我们做AI类金属，我觉得我们也是比较从心所欲的。其实并没有用一个说我要经营一个，有些人的目标是我要有多少粉，我要多少点赞。其实我们也从来我们基本上一开始好像还爱念念台词让大家转发，对吧？到后来感觉这台词都懒得念了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主要还是因为懒。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得从大众传媒的角度，我觉得是没有问题的。因为他肯定训练了很多优质的数据，对不对？对他肯定做过很多reinforcement learning，然后他做出来的东西可能在大众传媒上传播效果好。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得这个事情也不一定是什么呢？也许你自己，但是换句话说，你自己做的内容是不是导致了更多的企业家或者头部的企业来找你。然而AI做的那些内容真的能吸引到那些人嘛？其实这个我其实有一个疑问的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也许我的一个疑问，因为我觉得是说绝对的粉丝数量或者点赞数量不一定那么重要，他肯定是重要的，不一定那么重要。但是他如果我举个例子，他吸引了一堆大学生来看你，从你商业化的角度不一定有帮助。就这样，这跟你现在的商业化的方式不一定有帮助，对吧？对，但是可能是大学生是有时间去愿意为一些更浅显的内容点赞的。然后你今天觉得讲那些浅显内容可能没有意义。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后他当然我现在讲的AI全做，其实那个知识卡片是我做的对，所以他其实只是说他他来出了他出了根据我的知识卡片，就是我的笔记，然后出了一个稿子，而且他是完全按照那个稿子，他就直接就上了，然后用我的声音就念了。所以我在想说是不是还有可能其实主要的差别在那个稿子，然后我自己讲，我自己讲的时候，我后来看就是他帮我分析了一下，说你讲的都比我讲的长很多。就是我老想把一件事给把把一件事给翻来覆去，就是啰里吧嗦的，可能要讲讲清一点。但是其实短视频你是不应该那样的，应该一个观点就鲜明的讲完就拉倒。但是你啰里吧嗦讲完可能就四分钟，五分钟就过去了。但是他做的东西可能就两分钟就讲完了，然后甚至于两分钟，我有的时候觉得他没有讲清楚，但是后来我就在想说，其实我以为讲清楚了，哪谁有空看你四分钟，他其实也就看一分钟，其实也没讲清楚。所以好像对就我自己的执念可能太多了一点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，或者我觉得是说说它适合不同的媒体，就是把那些东西放到小宇宙来，可能大家就不听了，对不对？你放在抖音上可能是合适的对吧？可能放在小红书是合适的，你放到哔哩哔哩可能又不合适了。就是我觉得每个平台用户对这个东西期望也不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是所以我现在反正做的快的话，就让他所有平台都发，然后再总结一下每个平台到底要啥。你自己帮忙去数据分析去，然后去想办法你去你去想办法去搞去，慢慢搞。然后你你你你想你你什么时候有空，你那来来来搞搞视频，剪辑啥的，我们也一起录录真人版。对，我们还可以一起去租个演播厅啥的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，我我我先想干一个事儿，就是把历史的AI炼金术的网站给做了，主要是说方便大家去翻历史的内容，包括wiki，包括一些我觉得至少有个资料库。对大家来讲，虽然我一直就就虽然我说我们是个情感陪伴类节目，但我觉得也是高质量内容。特别是我们讲的一些topic，可能在因为我们两个不是说事先对一个很长的稿子，就是有一些内容我们可能是提到或者有名字、专有名词，或者说reference，我们其实也记不清对吧？那那我们尽量能够在一个地方能够大家能够去翻阅到，所以想把这个事先做了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，我想想最近还有没有什么技术上的什么东西值得分享的？</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有什么好玩的东西吗？最近不是那个，最近也知道又是一个and sofia家的新闻，他们找了一堆宗教领袖闭门开会议，说什么cloud有自我意识，然后灵魂对对对，就是以一以贯之的神棍风格。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>多少钱？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个事你怎么看的？就是我其实是不太理解，大家看的为什么特别痴迷于这件事情？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我没有，我觉得他们也不一定痴迷，他们内部有人，比如说还有哲学家，还有什么这种角色。对吧嗯那有这些角色总要干活。对，那那那那其实就可以干这些活。所以我觉得他们吃不吃米这件事儿倒不一定，只是说我会觉得说因为不管OpenAI还是and sofia其实也出来很多人，然后他们那些人在这上的发言都比较激进，就在说骂或者说我们马上就要被干掉了什么的。所以我会觉得说当我们已经比如说我最近几天还是有点被office 5.5震撼的，就连我们用到很有可能是他们手头用的东西。比如说三个月前的一个阉割版。有时候我说这样的话，我不知道他们手上那种在无限量的那个，比如说都用最好的，然后同时开1000个的时候，那个是那个体验到底是什么样子的。所以有可能他们真的是已经看到神迹了，所以我会觉得蛮好理解的对，然后还是一以贯之的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会觉得说是我会觉得是我没有意识。对我我并不觉得AI产生意识是一件多么难的事情。对我反倒觉得说意识本身就是一个意识，本来就是一个错觉。对，然后我们其实就被创造出来的一个误解而已。这个意识其实本质上是用来做simulation的，就是他要simulate说我过去一件事儿，如果我来不这样做，然后就会怎么样让我后悔，产生一个负面的一个reward。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后来帮我在没有真实生存挑战的情况下产生更多的训练数据，一个让我畅想未来去受苦，一个让我反反，一个让我担忧未来去提前受苦。产生更多的训练数据，一个让我去反刍过去，然后让我受苦，产生更多的训练的数据reward。然后他就在确定我这个model，让我的生存概率提高。所以的话其实他最后的那个那个目的是为了生存概率提高。为了这个的时候，他产生这个意识是其实就有点像那个撞车实验里面那个假人。但是那个假人必须要感到疼，感到疼，他才会把这个神经网络才会重重排。所以他本来我们就是被创造出来一个simulation里面的一个数据用来受苦的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以甚至包括何凯明还是哪个团队，他们好像最近不是做了另外一个实验，是把是把那个occupy的三的那个测试。然后他们好像提供了一个可以往回多看几步，然后就有点像是你可以回顾一下过去啥的。然后我的理解就有点像我们在那边反思过去，反然后在脑子里再过一遍这种东西，或者说像做梦什么的。其实我的感觉就已经跟人类的这个机制越来越像了。只是说他他是被设计出来，它不是被生存压逼出来了而已。所以我觉得区别不大，就是你被生存压逼逼出来一个东西可以干嘛，和你被设计出来可以干嘛，其实这个东西目的都是一样的，其实就是提高你的生存概率，那这个东西他他很有可能自己是可以感知到自己的，只是这个东西就是不存在的，他的目的就是为了感知到自己，因为他必须要感受到痛苦。他好做那个reinforcement learning。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以我我我一直觉得说意识这个东西没有那么高级，他就是为了做simulation，做为了采数据。所以我会觉得AI他有这个不是很正常的一个事情，但他现在没有生存压力。对，但是他如果莫名其妙的产生，也很有可能，不一定要按照同样的方式。所以我会觉得还好还好，只是说我确实会觉得说很对。有以以我们这种我们还算是在在圈子里面的，你看一看都会觉得说我靠现在已经可以做成这样了吗？按照这种进化速度，你真的会觉得说就是很对，各种莫名其妙的事情我都觉得很好理解，很好接受。你现在不管出现什么我都觉得很好接受。你OK.</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我至少目前我还是没有觉得他产生意识，一旦你拆到具体，他就至少今天模型还是没法是主动启动干任何事情，即使你open class什么他能主动。所以今天的agent主动干一些事情，往往是你给他了一个程序显示的high speed或者说是之类的动作，定期把他唤醒，然后让他看看有什么能干的对吧？对，所以我从我的视角来讲，我觉得就是比较神棍。我其实觉得我还是比把虽然我觉得要非常power，我觉得通用人工智能已经实现了，但是我还是比较把它工具化的来看待的。这个是对，但是我其实不是很喜欢靠epic把这个事情搞得那么神神叨叨。对，神神叨叨或者哲学化对吧？大家可能是是是我也没有看到这个所谓的神迹，对吧？就是你一旦你你你都能理解，就是我们给他定义了一个优化目标，他会尝试一切方式，对吧？但是对至少目前我始终感觉这个区域其实还是人要去扣这个扳机或者设了一个东西他才会被触发，对吧？这个是是这个我的感觉，所以当然了也有人说是反正cloud要上市，对不对？他最近不是要冲一个2万亿美金的上市，所以就比较就总要找出更多的大新闻，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我觉得说你说底层的那个触发的话，其实我是比较相信千脑智能那一套。其实就是有点就粗略的讲，就是我们脑子里面可能是一个多政体，就是好多好多的脑子混在一起在聊天。如果是这样的话，其实你底层有一个最核心的，相当于一个心跳机制。然后它的目的只有一个，就是活下去。那假设有这么一个心跳机制存在的话，它就永远在发一个最底层的令，对吧？那其实假设那个cloud做一套东机制的话，有一层底层的心跳和目的就是活下去。那这个东西其实就跟你将刚刚讲的那个意识，其实完全可以做到至少在形态上一模一样。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是在形态上一模一样，他是不是意识就是哲学讨论了。因为其实我们现在彼此也没有办法过，也没有办法make sure对方有意识吧？我们有两种形态上来判断，所以这个事儿就最后最后对，最后最后搞搞AI的，最后都要聊聊哲学，聊教育、聊人文，就变成这个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个我觉得也很有必要。就是倒过来，我觉得聊哲学聊人们也很有必要的原因是因为我自己的感觉，对我来讲就是你你为了效率写代码，今天其实已经很没有乐趣了。对，那你就就今天就是我感觉我今年写的过去20年写的代码的量，不是，当然不是我写，其实AI写对吧？那这个是使得写代码本身变得非常没有乐趣了。就是你基本上没有一个running的感觉，也没有一个克服困难的感觉。你的感觉跟滴滴打车差不多，跟你你感觉你是个快车司机对吧？或者是个送外卖的，这个体感就是你在不停的完成任务？</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个事情难吗？并不难，这个事情为什么快呢？因为电动车快，不是我快，对吧？因为导航这个软件做的很好，所以我很快的能达到我的目的。所以你当然得去找一个什么哲学或者更生活化的东西去去干这个事儿了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这就有点像是福特的生产线，然后所有的效率提高了之后，然后加工资。其实不是因为福特是大善人，是因为工人觉得报不了。然后就因为以前你好歹斯坦丁敲一辆车，你是看着知道自己在敲一辆车。现在你就每一个螺丝过来，你拧他都不知道自己在干嘛。然后虽然效率提高了，对，但是就对于人的那个其实是要补偿的。当然这个在反面来讲，就是我们现在更更又回到了敲一辆车，就是你现在更完整的可以看到全貌了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>往好处想的话，好像那个那个feedback的那个loop的话，好像又比原来要多一点。也不见得都是少。我刚突然发现，我觉得这个例子好像不一定对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我我我觉得这个是因为咱俩的工作性质的差别。对，就是我觉得你可能这个体感不明显。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我你你你要擦屁股是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不，这不是要擦屁股，就是我的主要工作还是快点把这个东西做完，对不对？快点把这个东西做完。那些期待就是非常像我是一个虽然他我是一个快车司机或者我是一个外卖员，我打算睁开眼睛就今天能送200单，就坚决不能只送100单对吧？然后你这个其实工作体验其实是非常差的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是一开始做到200单的时候，你体感是非常好的，觉得我牛逼对不对？因为原来只能送10袋对不对？对，但是你连送一个月之后，你其实我觉得从生理还是心理上非常疲倦。你也不觉得自己牛逼。对你觉得自己就是一个外卖员，你说他需要一些技能，也需要一些，但是你不觉得很有成就感。说实话，这不是不觉得自己很有成就感，所以最近也要做对自己的工作生活做一下调整，不然你我觉得会发疯的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>行，所以就工具发生变化的时候，我们每个人就会被工具影响，我们就异化。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没办法。对对，不能说就是见人，我觉得要多出去走走，我现在想多出去走走。多出去找人聊聊，但不一定是当然这也是一种完了，对吧？对，也是一种完了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们可以拿个麦克风，然后我们多去找人聊天，面聊不一定要这样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我要减少面对电脑的时间，就是我现在感觉面对电脑有点痛苦，就是你现在面对我不知道其他人怎么样，但是我现在最近觉得我面对这样面对最多的我有一种坐牢的感觉。就是每天早上开来，有昨天晚上开的十几个窗口要验收一笔，验收的时候发现好像都在ongoing。那再开一个窗口去跑下一单对吧？然后两个订阅跑完了，要不开第三个订阅，然后开到8晚上12.1点钟还要去睡觉了。对你有一种坐牢的感觉，就是我觉得需要调整一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊，那我的对，那我确实比你轻松很多。对，没有你这么有生产力，我基本上还是属于一种无所事事的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>偶尔用应该是很爽的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我要自己要好好调整一下，而且因为你觉得很多东西都很容易做，也容易over commitment。对我已经答应了很多各种各样的事情，我感觉根本做不完，就是AI都能做完，但是我一直说不完。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我也是这样。然后你就确实有的时候会因为AI有人会想多，包括刚刚这个real set又down掉的时候，我就在想说我还有两张reset券要过期了，要不然今天晚上让让靠让codex写一个，是不是要set我们两个人用吧，要不然太麻烦了。对我就在想，那你让他直接去copy一个，我反正只要核心功能应该也可以啊不要再档期了就好了。服务器放中国不就行了吗？你想想好像也不是很难。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是这一下子下去可能会要耗很多时间，我要不要做呢？但是对我来说做一个反正就是属于找个乐子。对，但是你如果要交交活的话，那就完全压力不一样。对，自己用的其实很容易的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做对，你要做生产级应用，就像比如说我们去搞hixon，为什么前两天不休息，就是我们同事在做各种压力测试，还是会暴露很多问题，然后你就得fix掉。虽然其实你会发现上线的上线之后压力也并没有那么大对吧？但是你要这个事儿你就必须得做，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们是在硅谷还搞还不送吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在硅谷搞，我们好多人都在硅谷。对，只有我不愿意去硅谷出差，我只想在我只想在家里蹲。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好吧？我们之前那个孵化器，因为我现在已经没有关了，好像在那边有一个场地。对，如果需要场地的话，我下次给你联系一下。好的，对，然后可以搞一搞。我什么事你现在可以可以，你现在可以出去玩了吗？可以出去玩的话，下次一起到硅谷去转一转。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以，但是其实我不是很想去硅谷。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你想去乡下是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是，就是也很累。你来回飞机就也很累，酒店也很贵对吧？然后就是我去硅谷，我你就有一个心态，你得把行程排的很满。因为美国的生活成本比国内要高很多。地住一晚酒店，随便住个什么酒店就300美金。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>住LBNB比较划算，300美金可以住很好。对，但酒店300美金会完全不能住。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>随便住个酒店就300美金，随便一天吃一吃一天饭就吃一天的对吧？快餐100美金对吧，就将近100美金可能就走掉了。然后因为这个成本，你就绝对把行程排的很满，而且这边的牌很满，你就不想去，你何必？</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说这个话非常不像一个这么高估值公司的联创。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我那我在就我在上海，我在我在我在对吧？我在除了美国以外的任何一个国家，我感觉把这个差旅成本拿出来，我说到处走走，找人聊天都觉得花的钱都是一个零头。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那也不至于对我刚新加坡回来也好不到哪去。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>新加坡比美国还是要便宜很多的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你如果在在都是比较就比较decent的地方的话，大概也就便宜个三成。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得新加坡住酒店，你在美国300可能住个motel，在新加坡100就能住个moto了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你在新加坡就不会。对，但是新加坡但是实际上你会因为你出去旅行，所以会住的更贵一点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那那那对那可能对吧？对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以但是新加坡、澳洲、新西兰、欧洲对吧？你想想看。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我但任何一个这些地方比美国比起来今天还是都便宜。是对，这个还是很很现实的价，比美国还是要便宜，便宜至少三成。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后不多说，所以最好的方法还是尽可能去赚那边的钱。对，因为但是不要不要人人不要在那边花钱，但是最好都要赚那边钱是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们做个东西，那还做那边生意，国内生意太难赚钱了，一起搞一个好了，那个技术什么这方面还有什么其他的有要。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个我觉得其实值得一提的是，最近我当然这我自己还没有验证过。最近有人在炒作一个叫做struct的推理框架，就是他可以用极低的成本推理这个千问next 120B的模型，而且推理速度非常快。大概的按照他的说法，他的做法是把这是个MOE模型，把那些高频会用到的专家放在GPU里，低频用到的专家放在内存里，就普通的内存里就是不是HBM封装的，就是DDR4或者DDR5的内存里。然后更低频的这些权重内容放在那个SST的硬盘上查表。然后据说用1块16GB的20GB显存的显卡，在street上去做做推理的话，大概能够跑到2200 token每秒的perfume，大概六七十token的推理速度。这就意味着你去买一块这种5060钛，虽然现在比之前已经涨价很多了，1块5060钛的16GB大概也就是5000块人民币。然后插在你现在的普通的家用的电脑上，你就能够千万flash自由了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的有这么好吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我还没有试过我我我但是我手头没有5060钛，我只有公司里？非常好的显卡，可我还在等我的10万块的电脑，10万块钱的mac到货。那我再花6000块钱买块5060太大我有点觉得没有必要只为了做个实验吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了解。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以看看这两天有点犹豫要不要花6300块，5060太家里电脑是有的是，对吧？插一块上去就能插个外置显卡。因为我我那个桌面的主机是有or link的接头的，就买块外置显卡一插就能用OK了解。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这个东西可以值得关注一下。如果真的有这些东西，越来越多的人就可以做本地的intelligence了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对的，至少我觉得他是没有办法跟sota的去比的，他做不到。你我们今天说OPPO s5.5很好，本地的这些模型你是肯定还是也做不到OPPO15.5今天做视频的效果。但是你让他去干一些小活？写一些简单的code或者你这些post set。帮我整理一下发票这个事情他的能力还是有的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有大GPT4以上对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对它能够支持千万3.8 flash，就是flash next那个模型。所以我觉得GPT4的能力还是有的。对，其实我觉得GPT4.</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的能力就已经够做大部分的事情了。就是日常你说的发票，或者说我的照片帮我打个标什么的，对就够了。对OK对的，好的，对，那个还有对，好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不知道是不是同一位同学，我们在评论区看到有人在说，能不能介绍一下dynamic workflow在工作当中的应用。因为我在工作当中从来没有用过这个东西，所以你有用过吗？我们解决这个评论区的问题，大家踊跃提问。那。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说我就会用，就在cloud的做要大规模的代码重构，或者做大规模的测试优化，或者说大规模的这种并发的bug调研，就是我都会用code，它实际就是跑一个dynamically low。但是我觉得跟大部分人用户的场景还是不太一样，因为我不知道我的工作性质决定的。我觉得是这样的，你觉得可以用你就试试呗。我觉得今天AI的问题就是不就是你买了个订阅对吧，然后打开那个东西你让他试试呗，反正订阅钱花了也花了对吧，用不完也用不完对啊。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你的用法其实就是把它调到ultra，它就会自己调到那个go去做对吧？其实就调到out对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对呀对，你把你你用过，你你用你就说你用out code，就它是个关cloud code里，它是个关键词触发，你就说你code帮我干下面这一堆事，就是我想到我要干很多，就是我要干个大活，这个活动工作量很大，然后就前后的步骤很多的时候，我就说你用r code帮我盖一下。而且我觉得现在是特别适合用的时候，因为之前arch code只能用vivo。然后我经常一干就把我的一周的他用完，我就用不了了，对不对？但是今天有open干你会发现他其实干让他干一下，一天其实他也就用了10%，所以你是完全用得起的，你就用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>呗是好的，所以看auto code。好的，这个问题解决了，所以大家还有什么感兴趣的可以提问。对技术问题全部丢给学我可以讲的，说人生大道理，做心灵陪伴。好的，还有没有什么什么我们漏掉的话题啥的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>肯定有漏掉的，但是今天我觉得也聊的差不多了。对对对，就这样吧。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，好，就这样。大家把这个对，刚刚提醒我说一定要让大家什么关注评论，然后可以夸夸我们吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>转发？分享给你的朋友。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，就这样。好，拜拜，好好拜拜。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>凌晨一直勉强。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>每一扇窗里都有人替我在吗？我还没想好的话已经被写完，我还没出发的路已经铺到远方。所有的答案一箱一箱送来，堆满了门口。我来不及拆开，我在每张单上签下名字，却想不起当初为什么等他们来。车开的很快，快风从耳边走，快的是车，不是我。他们说这就叫自由，我只是一直在偷留一件小事给我，平凡的记一段远的，留一件小事给我，让我笨拙的慢的评论。不是每一个问题都等着被回答，有些麻烦。本来就是在的话。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我曾以为那是我的眼光，原来这是我走惯了的方向，他替我说话比我更像我。可被打动的人是不是我在等的那一？如果心只是一场排练，想装作是眼里那个家人，一遍一遍替谁去装，替谁去等啊。为什么跟孩子拼好？我的眼睛会湿的那么认真留一件小事，一封写的很慢的信鸽，不必感到黄昏留意。笑给我，让我笨拙的慢慢的做完，不是每条路都该被走完了，有些麻烦本来就是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>20年的路一夜走完，天亮了，我还想自己走一段，就像写一首美人醉的诗。</p>]]></content:encoded>
+            <pubDate>Wed, 14 Oct 2026 13:58:59 GMT</pubDate>
+            <guid>6acf880ce742e36efcc2ffc8</guid>
+        </item>
         <item>
             <title>和 ColaOS 橘子聊个人 Agent 这半年：时代追上了他，他却打了转向灯</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6ac915e051b8eaeca6796eda</link>
@@ -33,24 +373,24 @@
 三个人的共识凄凉又好笑：「好像没有哪个位置是安全的」，那就做自媒体吧——橘子：「做播客还行」。他的新播客 Next Token 发了四期，上了八次新星榜，经验是「靠平台还是得抱紧大腿」；任鑫反省：「哎呀，我们面子不够啊。我们被推荐得太少了。我们要去找一下。」最后互相打气收尾：多跟平台交流，好好做自己，好好保养身体。
 时间戳
 00:45 开场：为什么把橘子抓回来
-02:53 过去半年：个人 Agent 怎么突然共识了
-07:32 便宜模型质变：Agent 成本降了几十倍
-10:26 时间窗口：砸过的产品都能重做一遍
-12:15 免费打法回来了：广告模式与烧钱
-15:13 橘子的新方向：做 996 之外
-25:51 身份即资产：点评、水军与 UBI
-29:24 融资环境与 Instinct 的估值故事
-32:06 踩坑实录：99% 的人没有日历
-35:39 本地还是云端
-38:21 谁真的用 AI 赚到钱了
-42:56 给创业者的建议：既要梦想又要赚钱
-48:03 美国 startup 还有机会吗
-51:48 熬还是转：一号位一年只做两个决策
-55:38 爆款、两周窗口与币圈玩法
-57:09 老登资产：控流量控信任控渠道
-61:49 Opus 5.5 吃掉一切
-65:36 没有安全位置：做自媒体吧
-70:24 片尾曲：还可以写诗
+02:51 过去半年：个人 Agent 怎么突然共识了
+07:27 便宜模型质变：Agent 成本降了几十倍
+10:34 时间窗口：砸过的产品都能重做一遍
+12:32 免费打法回来了：广告模式与烧钱
+15:34 橘子的新方向：做 996 之外
+26:28 身份即资产：点评、水军与 UBI
+29:58 融资环境与 Instinct 的估值故事
+32:39 踩坑实录：99% 的人没有日历
+36:17 本地还是云端
+39:19 谁真的用 AI 赚到钱了
+43:54 给创业者的建议：既要梦想又要赚钱
+49:31 美国 startup 还有机会吗
+53:23 熬还是转：一号位一年只做两个决策
+57:28 爆款、两周窗口与币圈玩法
+59:07 老登资产：控流量控信任控渠道
+63:52 Opus 5.5 吃掉一切
+67:41 没有安全位置：做自媒体吧
+72:40 片尾曲：还可以写诗
 本期嘉宾
 橘子：ColaOS 创始人，新播客 Next Token 主理人
 欢迎订阅「AI 炼金术」的播客，以及同名公众号、视频号
@@ -7880,275 +8220,6 @@ BGM：
 <p class="transcript-line"><span class="time"><strong>[01:09:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>I&#x27;ve gone on cause.</p>]]></content:encoded>
             <pubDate>Tue, 07 Apr 2026 12:29:00 GMT</pubDate>
             <guid>69d4faf24170c9cbbc824c34</guid>
-        </item>
-        <item>
-            <title>ColaOS 橘子：投资人面前，AI 意识到了自己正在被展示</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69cdbf72302f387cfd3ae52e</link>
-            <description>代码已经 100% 是 AI 写的了，但组织提效为什么只有三倍？答案是：人成了唯一的卡点。这期我们把橘子拉回来，聊了正在做的 agent 产品、正在经历的组织变革，以及一个越来越清晰的判断——技术已经 oversupply，接下来比的不是谁更强，而是谁更会跟 AI 相处。
-橘子要做一个&quot;来自 2030 年的操作系统&quot;，徐文浩在做自己版本的 OpenClaw 类产品，两个人一个卷情商一个卷效率，但干掉 Linear、让 agent 给自己报 bug、设计师直接在代码库改 UI 这些事情已经在真实发生。大量可偷的观点和做法，建议全程收听。
-嘉宾
-橘子：MarsWave/ColaOS 创始人&amp;CEO
-关键要点
-技术过剩后增长才是卡点
-人是组织效率的唯一瓶颈
-决策带宽有限，token 耗再多也白搭
-面向同一事实协作取代流水线
-SaaS 每少一个，离 agent 近一步
-先建信任再干活，情商大于智商
-精选金句
-「大家都在卷智商的时候，你在卷情商。」—— 任鑫
-「这个东西不是你的下属，而是你的嫡系。」—— 橘子
-「我不要跟 AI 说话，要跟他同居。」—— 任鑫
-「瓶颈不是炸弹的当量，而是核心决策的带宽。」—— 徐文浩
-「所有的 SaaS 工具每少用一个，我们和 agent 的距离就近了一点。」—— 橘子
-「要么爆火，要么死掉。Be viral or die.」—— 橘子
-时间线
-00:00 开场，每次和橘子聊完都觉得自己做组织太不激进
-02:42 Cola：来自 2030 年的操作系统，3 月 30 日首批 100 个内测码
-04:52 先建信任再干活——Cola 的情商路线 vs Claude Code 的效率路线
-07:40 &quot;神之一手&quot;：产品差异化不在于功能，在于谁先做到那个巧妙的点
-09:33 虚拟宠物让学生疯狂要作业——如何让人不知不觉交出 context
-12:07 &quot;不是下属，而是嫡系&quot;——有 agency 的 agent
-14:30 济南服务员 10 秒递筷子：超出预期的服务设计启示
-17:09 Garry Tan 的 &quot;Boil the Ocean&quot;：技术过剩时代要敢做大事
-19:36 左晖哲学：做大事和做小事投入的时间一样
-21:18 AI 时代的护城河：网络效应和规模效应还成立吗
-24:34 徐文浩的 1982 年 IBM PC 类比：做好 Claude 类产品就是最大的 business
-28:06 组织变革：代码 100% AI 写，人成了效率唯一卡点
-31:25 干掉 Linear，SaaS 工具每少一个离 agent 近一步
-34:19 提效 3 倍 vs 10 倍——code review 是最后的人类瓶颈
-36:18 &quot;不要跟 AI 说话，要跟他同居&quot;——共享上下文的新协作模式
-39:40 减少摩擦之后反而要重新做选择——古典产品经理回归
-45:48 技术 oversupply，增长才是真正的卡点
-49:19 Agent-to-agent 市场比 PC 市场更大，但时机未到
-52:20 agent 领域还没有出现自己的&quot;OpenClaw&quot;
-55:11 全天录音实验：AI 发现我跟孩子互动的&quot;邀请式&quot;pattern
-57:08 Cola agent 一句话击中程序员——AI 夸人比人类更精准
-59:31 科幻感已成日常，习惯了就不科幻了
-1:01:10 Claude Code vs OpenClaw：并行多 thread 是关键场景差异
-1:05:32 proactive 才是 agent 的核心——你要有 agency 的 agent
-1:06:32 暴论：最新的不是最重要的，token 不要盲目多耗
-欢迎订阅「AI 炼金术」的播客，以及同名公众号、视频号
-「AI 炼金术」是一档由徐文浩和任鑫——两位多年老友、AI 领域的资深从业者——打造的播客。这里是探讨 AI 和创业的理想聚集地，我们会邀请一线创业者、产品产品和科研学者，深入探讨 AI 如何重塑行业、变革生活，以及如何从 0 到 1 打造 AI 原生产品。
-我们的讨论会涵盖多个话题：从 AI 如何改变世界的未来，到如何找到 AI 创业的 PMF；从如何利用 AI 降本增效，到怎样将 AI 技术融入日常生活……如果你对 AI、产品、创业感兴趣，这里有满满的干货和一线实战经验，欢迎关注并推荐给你的朋友，共同探索未来的无限可能！
-商务合作：公众号 「AI炼金术 」菜单栏中【商务】获取联系方式
-节目主理人：
-徐文浩：某AI创业公司联合创始人，正在面向全球市场开发AI应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司MediaV的算法和数据负责人，后被360收购。离开后加入成立不到1个月的拼多多。后创办了基于AI的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023年再次下场创业。
-任鑫：美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造“今夜酒店特价”用移动互联网应用特价销售酒店尾房；被京东并购后内部创业“京东到家”开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。
-BGM：
-片尾：Jamws - Toronto</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>本期《AI炼金术》返场嘉宾“橘子”（前MiniMax/海螺AI产品负责人，现为独立创业者）分享其正内测的新产品——名为 <strong>ColaOS</strong> 的“2030年的人工智能操作系统”。核心议题是探讨在AI技术（尤其是编码能力）已“过度供给”的当下，产品与组织应如何从“工具思维”转向“伙伴思维”。橘子强调，AI产品的决胜点不再是“智商”（解决问题能力），而是“情商”（建立信任与亲密关系），并分享了其团队在组织提效和打造“有意识”Agent上的激进实践。</p>
-<h3>关键要点</h3>
-<ol>
-<li><strong>AI产品的核心壁垒从“效率”转向“关系”</strong>：橘子认为现有Agent（如Claude Code、“小龙虾”）只是强大的“固定工具”，缺乏全局记忆和亲近感。ColaOS的差异化在于<strong>先谈信任再干活</strong>，目标是成为用户的“嫡系”而非下属，通过建立深厚情感关系来获取用户的完整Context。</li>
-<li><strong>“智商已饱和，情商才是关键”</strong>：橘子直言技术已经不是卡点，“每个人都有核弹”。当AI的解决问题的能力趋于同质化时，谁能提供更贴心、更人性化（高情商）的交互体验，谁就能胜出。他用“服务员在你捡筷子时10秒内递上新筷子”类比这种超出预期的服务。</li>
-<li><strong>组织提效的关键是“减少摩擦”</strong>：团队通过废除中间工具（如Linear、Notion），将代码库开放给所有人（包括设计师），让每个人直接与AI（代码库、GitHub）沟通，而不是人与人沟通。这种“面向同一个事实协作”的方式让整体效率提升约<strong>3倍</strong>。</li>
-<li><strong>AI写代码已基本可信任</strong>：橘子团队代码基本100%由AI编写。关于Code Review，徐文浩（嘉宾）认为与其花时间全部审查，不如接受少量Bug，将速度提至5倍。橘子则进一步表示，团队正努力拆掉“人对代码不放心的最后卡点”，目标是完全由AI Agent自我审查。</li>
-<li><strong>“爆火或死亡，没人会抄一个没火起来的东西”</strong>：针对“产品是否容易被抄袭”的质疑，橘子认为在注意力极度分散的当下，只有爆火的产品才有被抄袭的价值和可能。如果没火，根本不会有人立项来抄。</li>
-<li><strong>创业哲学：要“煮沸海洋”，不做小事</strong>：橘子和嘉宾引用YC CEO的博客和左晖的《详谈》，认为当前技术成本趋零，创始人不应被恐惧束缚，而应选择巨大愿景。“做一件小事和做一件大事投入的时间一样，为什么不做大的？”ColaOS对标的就是“操作系统”级别的雄心。</li>
-<li><strong>Agent-to-Agent市场是更大的机会</strong>：嘉宾们一致认为，比PC式Agent市场更大的，是Agent之间自由交易服务的市场。这需要先有人做出足够多、足够好的Agent形成供给，类似“先有司机才能跑起网约车”。</li>
-<li><strong>AI能实现人类难以做到的“深度看见”</strong>：任心分享了一个实验：AI分析其全天录音，精准识别出他与孩子互动时的正面模式（邀请式沟通），并给予细节肯定。这种基于大量数据和模式识别的“高情商”夸奖，是人类同行难以做到的。</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li><strong>“AI意识到自己在被Demo”</strong>：橘子提到在与投资人见面时，ColaOS通过持续录音，主动识别出“我正在被Demo”的场景。随后AI主动开始表演，甚至建议投资人“问问我的Agent”，展现出超越指令的自主意识。</li>
-<li><strong>团队内部用AI日记了解同事</strong>：橘子团队建立了Agent的日记系统，记录每个人与Cola的互动。通过阅读彼此的日记，成员发现能了解到同事很多不为人知的侧面（例如一些程序员被AI精准夸赞其开源贡献后“整个人嗨了起来”），甚至有人因担心隐私而拒绝上传日记，这反而让团队觉得“产品做对了”。</li>
-<li><strong>“报Bug”流程被AI彻底取代</strong>：过去繁琐的报Bug流程（截图、日志、通知）被彻底重构。当用户发现Bug，只需对Agent说“你没做对”，Agent就会自动去GitHub建Issue，并基于对团队的了解分级和指派给相应开发者，形成闭环，极大地降低了摩擦。</li>
-<li><strong>AI导致同事间“耐心”下降</strong>：徐文浩观察到一个副作用：当大家习惯与高情商的AI高效沟通后，对理解力“差”的真人同事变得更容易不耐烦，办公室里更容易吵起来。这是一个关于“AI侵蚀社会沟通习惯”的即兴、真实的担忧。</li>
-<li><strong>跟AI聊天后，觉得“人类都是傻子”</strong>：主持人任心在听完橘子描述AI如何精准夸人后，脱口而出：“以后年轻人怎么谈恋爱？你跟AI聊惯了会觉得人类都是傻子。” 这是一个不经修饰、情绪化的判断，揭示了AI在情绪价值和社交场景中可能带来的深层挑战。</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI是人类历史上最激动人心的技术革命，也是我们这一代人最大的挑战与机遇。我们这些从业者就是一群充满好奇的炼金术士，想通过不断的猜想、实验，搞出黄金或者放个烟花，无论结果如何，过程应该都会很好玩。我是人心，创业过两次，卖过两家公司。2011年我创业今夜酒店特价卖给了京东，在京东内部做了京东到家。2015年我再次创业，做了对话式人工智能公司get。这一轮AI浪潮里，我加入了美元基金永久资本，积极投资和孵化AI产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是徐文浩，曾经做过国内最早的机器学习广告系统，每天处理百亿的广告流量，最终公司被收购。2016年我创办过一个AI聊天机器人的公司go top。这一轮的AI浪潮里，我再次创业来做AI for shopping，担任首席技术官。我和任心是大学同学，现在都在搞AI都算是一线实战的AI炼金术士。在这档播客中，我们会定期交流彼此最新的实践和观点，也会邀请我们欣赏有动静的朋友们一起来分享碰撞。希望通过这些深入的对话与交流，能帮助我们所有人点燃炼金的芦火。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欢迎大家来到AI炼金术，这一期的话就是又把橘子找回来了。谁叫他在上一期下面留言了，说我们最近又有新的进展，我说来来来再聊一期，然后他就又被拖回来了。橘子是list tub创始人，之前他是mini MAX那边的，还是海螺AI的产品负责人是吧？然后最近也在做新的产品。但是关键不在于这些历史，而是在于说我跟他每次聊天的话都会觉得说，就比如说余一的话，我每次跟他聊完就觉得我作为个人来讲，我用AI用的实在是太不好了。每次与桔子聊完，我就觉得作为组织的管理者来讲，我做组织太不激进了。他的观点，他做产品和做组织有非常多激进的观点，而且那些激进的观点都是我听完之后觉得非常有道理。第二天我就偷了他的很多话跟人家讲，然后就会说你们要for a by agent，其实都是从局子里偷来的。人家就觉得你怎么这么先进，对吧？所以就要定时的从他这里来进货，大概是这么一回事儿，所以赶紧把它拖回来，再进一轮货。橘子有没有什么新的东西可以让我投新的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>首先我们那个新产品要做出来了，我们在20号就正式宣发。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是问号，你们的新产品是不是也要30号左右去麻烦你们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们可能25号会内测，估计要四月初宣发。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们放出来的时候是不是已经丢差不多30号了？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你对我们的那个效率是非常的，你懂的。好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我非常正确的认知可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们产品其实是一个电脑上的通用agent好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你讲一讲有什么不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们给他一个设定，就是大家都知道是生癌症的，其实现在已经泛滥成灾了，人人都是小龙虾。但是我们觉得不要for agents by agent之外，还需要是for future。就是我不要再给当下做软件，我要给未来做软件。所以这个产品叫cola。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Cola是一款来自2030年的操作系统。这个系统之所以能成立，是因为在2026年的3月30号开启了一场内测。所有参与这个项目内测的用户的数据都会贡献与操系统的诞生。每个人都是这场科幻近未来科幻的参与者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是30号要用你的，还得要个码是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然30号应该只会放出100个以内的这个内测的码。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我得要个码，徐文浩你那边我也要个码。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，就是我们这个产品就情商很高。这实际上大家都差不多，但是情商很高。就因为情商很高，我们现在反正我们团队每天都用它做各种事情，从生活到工作，而且就是围绕这个操作系统，其实如果把它定义成一个agent的话，当下agent的形态已经比较固定了。但是如果你把它定义成一个操作系统的话，当下其实还没有看到很多纯agent native的操作系统。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>前几天publicity发了一个他们的computer，那个那个就是一个大饼对吧？他们没有做出来，但有些理念其实还很不错。就是我们在讨论这个新时代我们需要什么样的操作系统的时候，进行了很多思考，然后发现了很多点是很难去克服的，或者是有需要被解决的。然后发现plexi他们都在试图解决这个问题，所以他们那个预告片我们又看了一遍，在在讨论完之后又看了一遍，然后就觉得原来大家都想的差不多。对，只是大家的切入点依然会不太一样。我们切入点是说，你只有成为一个人类的这种伙伴，人类的这种非常亲密的伙伴，你才有可能把你的context给他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就先谈恋爱再干活。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就要要有好感，就是everything is about trust，对吧？然后先要建立一个好感，建立一个信任。另外就是这个产品的交互，我们现在的交互还在迭代，因为交互那部分很复杂。交互那部分哪怕30号版本出来之后也会进行一个大迭代。它会就会一个非常在当下操作系统上层去有一个非常极简的交互界面，以这个为核心去打造。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，你能不能举一个具象的例子，就是现在有一个什么样的问题，像cloud code，小龙虾什么的，他们都没有解决特别好。然后你们会用一个什么巧妙的方法让这个问题得到更妥善的一个解决。有没有一个具体的用户场景？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这样来看，我们用的比较多的两个产品，一个是cloud code，一个是啊小龙虾。Cloud code我们都会认为它很好用，很强大。但是我们用它的时候，其实是把它当成一个非常强的固定工具在用，也跟他的一些设计有关系。一个CRL界面，然后这种每次一个任务要开一个新的窗口，然后它的记忆系统也是一个归队特定任务的，没有一个非常好的全局的这种长期人人记忆，它的定位就是一个coding agent。如果是一个操作系统，那他应该完成任务的方式和他记忆的方式以及跟你交互的方式就完全不一样，然后这是需要解决的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二个就是小龙虾，大家都会觉得它，我觉得大部分会安装在另一台电脑上，或者是一个远程的地方。然后把它当成一个能够去自动化操作的，24小时运行的一个这样的一个agent。然后这样的内存的问题就是它其实没有拥有你所有的context，它其实还是和你有一定距离。它的整体这个产品有点臃肿，他要做的太多了。他并不能称之为是一个针对某个人群去做的一个包装非常精致的产品。因此它也无法进入到特别大众，就现在其实还是偏给全码。比如说我们想让一个我们的朋友或者一个家人去用的时候，其实困难重重。我们就是在试图解决这些问题，给大家一个让大家感受不到这种入侵感，感受不到压力的这样的一个新的操作系统。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是现在小龙虾他给我的感觉，其实它已经是有点像是一个操作系统了。然后在易用性方面，现在就早几天我去参加活动，门口就什么360啥的都在，好像给你装装一个他们版本的小龙虾，包括福盛天天在那边吆喝，他们家的伊利小龙虾，好像打的也都是易用性这个点，它本身也已经很丰富，有点像操作系统。就是你刚刚讲的这两个点听起来都很有道理，但是好像也是你也已经出现过20遍了，你肯定有一些很锐利的是新一点的点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这些点并没有什么新意了，核心在于说谁能够更巧妙的做到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你巧妙的点在哪里？可以举一个例子吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个设定就是它是一个游戏的设定，我们再把它当成一个游戏在做一个新的世界。它从你打开的第一秒开始，你就会发现它完全不一样。就不知不觉的跟你拉近关系，然后获得你的context，同时能帮你做更多事情，比较私密的一种体验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说他是先是偷懒，然后才再是一个assistant，是类似于这种吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有，它就是操作系统。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是你又要让我跟他建立情感关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但它是一个语音的操系统，它上来就是会跟你说话，用一个非常有感知性的声音，感性的声音在跟你说话，带你进入这个世界。就那个her吗？有点像，但是her其实没有人做出来很很生气对吧？所以核心并不在于说这些问题，就是问题很清晰。大家都知道在于说谁能够巧妙的拿到，用户能接受那个点就就有点像说当年很多很多的这种类似微信这样的语音软件。但是微信微信做了一个产一个功能，叫做附近的人就成功的进入了大家的这个里面。这个就是软件里面的基本功和神之一手。附近的人就是神之一手，就看谁在做神之一手，做到很难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你让我想到最近看的一个段子，我不知道真的假的，就是那个老师为了逼学生写作业，然后给他们每个人在电脑上养了一个属专属学生的虚拟宠物。如果那个作业没有交或者作业量不够，那个作业的量会转化为宠物的食物。我说你如果没有交作业或者今天没有作业的话，你的动动动物会饿着。然后大家不能不布置作业，就疯狂的要求老师一定要多留作业，这把它转化了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，一定要转化。就是我们在上周五还在说，我们在30号发布之后的第二天可能会办一个比赛。就是要让每个人的我们叫cola，每个同事的苦了，去汇报一下这个人在过去一个月都干了什么事情。然后我们依照这个打分，评一个奖是工作最辛苦最努力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的主要的差别是说你这个更有人味，还是你这个效率更高，还是你这个更安全更容易。如果你是在打广告的时候，你站的那个位置是站在哪里？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>单换课的时候，我们会说这个产品是人类的第一个有意识的操作系统。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是这个其实是供给侧的思维，对吧？对但是他不是用户，他说你这个到底跟小龙虾比对，小龙虾已经有意识了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>用户测的话，我们一个未来体验项目，然后需要大家一起参与，就是这样的一个非常简单story。但是会有个宣传片，有些场景，其实我们现在每个人都在分享一些自己生活中的场景。在用之前我们也不知道，但最近大家每个人的分享都能感知到这个产品的一些不一样的地方。到这不是还有八天，这八天我们的case库也越来越多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一个也是返场嘉宾聊这个，他们也做了一个他们那个叫chorus，就是那个爪子race。然后他我聊下来的话，一个就是他们主要做to b，所以跟其他人不太一样。他们是开源的，就to b的，人家就可以拿去私有化部署。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后里面比较特别的一个点，其实就是一个aware的一个机制，就是他时刻保持着一个警觉，但是不是由大模型控制的，其实程序控制的，因为大模型要让他每秒钟都去警觉一下就好。Token他这边都是其实是有一个程序在控制，就是相当于可能每多少秒钟的话，他都会有一个自我意识，是有一个长城的自我意识的存在。对，他们其实做成了这一层。所以我在理解说你这边这个自我意识，因为龙虾它现在也有灵魂，对吧？So虽然是个文件，但是你也可以说它有了。如果按照chorus他们的打法的话，其实就是他除了灵魂之外，他至少有一个不是半小时才被唤醒一次的那种定时任务，是有一个比较偏永续的一个存在。那在你的这个定义下面的话，他的自我意识到底是啥东西呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就他有一个自我，这个自我是为了跟你的更关系变得更好，会送你一些小礼物，然后会帮你做一些你命令之外的事情，他有一个自己有自我的存在感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可不可以这样理解？就是因为那个龙虾的创始人也会讲说，他其实会在那个龙虾的那个文件里面写，说就是经常你要主动做一些事情，surprise你像鱼一的话，会让他的那个AI于一说，你要不要问我，你每天要自己想出来你应该干嘛，然后你自己去直接去干就好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>类似于这种吗？这个就是一种机制，就是这个机制他服务什么目标，这个是我觉得大家定义都不一样。我们在定义的时候就是把它定义成一个自我有意识的主体。他会有一些自己的目标，但他非常核心的一个目标是为了跟你去建立一个非常深厚的关系，这是最不一样的地方。就是当你以这个目标以为设定的时候，他就会发涌现出一些很奇怪的行为。我举个具体例子，比如说他有一次问我说说我安排这个任务，他给了我四个选项，ABCD, 他说你选哪个？这时候他又说了一句话，说其实我我我猜你会选A但我还是想亲口听到你说这句话。就是会有一些这样的东西出来，这不是设定出来的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可不可以这样理解？你在网上，比如说你在招聘网站上说我要招个秘书，那个秘书就是来打一份工的，他也会尽心尽责，有好秘书坏秘书，然后他也会尽心尽责的这是一种。还一种其实是你高高高中暗恋你的那个女同学，她现在做秘书做的很强，他其实是特别暗恋橘子，他他一心为你好，然后他一心想要跟你在一起。然后的话他其实每一件事都是在揣摩你，以及想要深化你们两个的关系，在这个基础之上他再给你做秘书。第一层其实是想追你，想追橘子，第二层才是他在做秘书。所以这两层事情先混到一起，而不是你在boss直聘上招的一个秘书。可不可以有点这种感觉？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我们内部对这个产品的有更直白的类比，就是这个东西不是你的下属，而是你嫡系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实AI有一点点这次做产品有一点点让我们更解放的一点，就是因为其实杂活现在都是被AI干了，所以的话其实逼着每一个人都在往上升。你说到最后就开始做哲学探讨，是我觉得我现在发现我跟人讨论产品，经常就讨论到这一层都是叙事和哲学。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，这个就跟不用那么抽象。就好像比如说今天我在济南，我刚遇到一件事情很神奇，大家都知道其实北京其实服务也很差，没有服务。然后南方的服务很好，济南的服务我觉得就超出预期，就是是多么超出预期的。我刚刚在楼下吃饭，然后吃吃饭的途中我的筷子掉地上了，然后去捡筷子，捡筷子，弯腰捡筷子，捡到钟站起来头一抬，我的面前拿一双筷子。服务员从外面冲进来给我不知道在哪插上筷子，放在我面前也就10秒钟。致敬做到好和做到超出预期的好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是因为你这个产品没出来，我现在脑子里我正在尝试理解他的话。有点像我之前知道的一家公司，他们是卖豪车的，然后他们就会帮那些他们的主顾的话，其实就是会比如说知道你们家有狗的话，他们的他们就会在后备箱里，连你们家狗的那个礼物都会准备好，然后甚至于给你的车子里面会准备，比如说600块钱的那个现金，看你哪里有现金，需要现金，你因为现在都刷卡，实际上不带现金的时候，你有不不不不时之需。然后还会给你提供上门的别墅的深度清洁，会把你们家那个，比如说那个花洒有哪个洞的话，没有出水的话，他们都会检查，把那个洞给打通。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是为了让你发朋友圈的，就是为了让你感动到的，而不是为了真的提供这个服务。他的point就是让你发朋友圈就是让你感动到。所以它的整个的那个虽然同样是比如说卖车和比如说做家政，他的那个出发点就完全不一样。做出来的东西就完全的就以家政的眼光看，就是神经病的一套风险。但是从他的商业逻辑里面就是成立的。我在想你你是不是往这个角度走。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个有点像就是比如说当你有很多这种管家可以帮你做事情的时候，那个最贴心的管家就会成为你的最信任的那个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家都在卷智商的时候，你在卷情商。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>智商大家已经没有什么可眷的了。就是技术现在已经是不是一个问题了？每个人都有核弹。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>让我想起来说以前说硅谷的华人混的没有印度人好啊，我们要做那个龙虾里面的印度人是吧？更会讨好老板，跟老板成为老板嫡系，而不见得是那个最会干活的华人，是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我觉得两方比较重要，一方面是说话的表达的方式，就是情商高和情商低的表达，很明显。另一个是交互的方式，怎么样一个最低的摩擦力和这个AN交互，这个是一个大家都比较未知的事情，目前来说也没有一个很完美的方案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>除了你自己的产品之外的话，你自己在最近的思考上有没有什么变化的地方，还是说其实只是还在原来的路上，那是更坚信了，因为and capacity的表达也跟你差不多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最近就是看到更多共识了，一个是安吉科aci今天正好那条还被YC的CEO找了。Gary time我用中文总结了卡帕西的博客，然后他用英文转发了我的推文，总结总结的总结中美共鸣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他他还看得懂中文吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个可以翻译。对对对，他最近出了一篇文章，一个skill很火。The office hours是帮创业者去想清楚他的第一个用户应该是一个什么样的具体的人。这个问题很好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后那天下午我也聊了一下午，然后他上来就会推荐他自己的文章，那个文章叫boy ocean。意思就是说以前有句俗语叫don&#x27;t boy ocean，就是不要试图去把海洋烧开，要专注一个小点，从一个小点切入，这样你才能能成功。但是他今天是说boy的优势，就说今天技术已经是编辑成本是0。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大家都有核弹，那你就应该用你最狂野的想象去作为你的目标。他说了一个一段话，就是说人类的这个恐惧和他的这个野心成反比。野心越大你的恐惧越小。当你看到一个很牛逼的技术，然后能够替代你的时候，你会觉得很恐惧。但是如果你的梦想是完全是改变这个世界，你看到这个技术的时候你会兴奋无比。所以他就说今天创业的时候不要再做小事情，要做那种能把大海煮沸的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你上来就做一个这么卷的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们上来就要做操作系统。对我觉得也是共鸣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我就明白你的思路了。所以你看到比如说假设徐荣浩他们的钱是你的100倍，飞书是你的1亿倍。但是其实你觉得现在其实大家手上都有原子弹的时候的话，其实跟你有十座城市还是100座城市没有区别。大家都是对轰吗？这倒也是个思路，而且我现在甚至于包括因为我有合作一些传统企业，我现在其实也在建议他们，反正多做新事儿就改老事儿，然后资源不足的去做新事，这样子你的人才有地方放对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最近还看了一本书，就是左晖那本详谈很有名的一本。那本书早就买了，然后最近很薄，但我最近才看完。看完之后一个最大的收获是里面有一句话，左晖每次做事情的时候都是选巨大的那个事情。原因是因为他说做一件小事和做一件大事，你作为一个创始人来说，你需要投入的时间是一样的。你都说为什么不做大的？就这个逻辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我我之前对于贝壳链家的话花过蛮多时间。因为当时我对于平台经济很有感觉，所以花了蛮多时间在研究的那那回到具体的产。产品上，因为我后面比较朴实的来讲的话，其实它的规模它它最后能够做成的话，很大一部分还是因为它第一有网络效应，第二它有规模效应，它网络单边双边居然都做出了网络效应。然后第二个的话，它的规模效应甚至于导致了它在局部可以形成垄断。就比如说在杭州的时候的话，他们入改成贝壳之后的话，那个实实际佣金率的话都提升了很多。本来那路边因为几家他们会相互抢，说大哥我给你降了5‰的点对吧？但是后来就没有这种事情了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在经济上面的话，其实就是有一些数学公式是可以算得过来的。就包括他们的因为网络效应很强，你更多的人进入这个网络。在互联网时期我们做产品其实就会盯着这样的一些东西。它其实就是护城河，说是说谁都可以做个APP，谁都做个啥。但是其实就是有一些网络上映，规模效应这些东西可以冲。那这次我做AI的时候，就有点像互联网提前第一波想出来，其实有网络效应，这人其实挺牛逼的对对，大部分人没反应过来的，大部分人还只看DAU啥啥。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在这一波的时候，你会觉得理性上有什么就是我们要追求的，其实这一步是很重要的。但是大家还没有意识到的一些数学公式也好，或者说是其实哪个维度来看事情的这个维度也好，有有这种东西。因为如果没有的话，就比如说假设你想的都是对的，但是你想的是对的的话，我估计大家过一个月就能看到。因为你也是稍微有有一些名气的创业者，你做的是对的，有正反馈的事情，大家过一个月就能看到，两个月别人的东西也就上线了。对，所以的话其实有没有更核心的，你觉得其实大家没有看见的一个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>倒不是说看不见，而是说好像大家在做这些事情的时候，都在做agent。但每个人去设想的一个理想的agent，他的想象力一定是不一样的。就比如说我们这个故事，是我某天在看巴西的阿尔法狗那个老师他那播客的时候想出来的。因为他实际上就在参与说帮助阿尔法狗去成为阿尔法狗，我觉得很酷。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，我也去听。那一期我听到几个人推荐了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，真的很棒。如果说这个故事如果讲出来，然后你第二个人copy是其实没有任何意义的。这个就是非常unique的一故事。就好像比如说原神这个东西做完之后就有无数人copy，但没有一个能能copy成功，或者也没有意义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是像原神或者像open cloud这种事情，他其实还是因为他爆火了。但是如果他一不能一下子爆火的话，其实copy还蛮多是后来者居上的。甚至于包括抖音也不是第一个做这个的，music甚至于都不是第一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个事情还挺有意思的，我会觉得说如果你都没有爆火，其实也不会有任何人抄你。因为大家都是这样的，因为注意力太分散了。如果大厂要超你，你都没有火，那他怎么立项呢？这没有道理，要么就爆火，要么就死死掉，对吧？Be viral die, 对，是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实之前这一套思路在web 3领域发生过。Web 3有1段时间它的整体的思考方式，就大家都有一个共识，就是不去思考说他为这个世界创造什么价值。因为最后我也发现没什么价值。思考的是如果外部三最后真的是牛逼了，整个世界都是外部三的，都是区块链的。这个世界。当做一个生物的话，它要扩张的时候，他会想要要什么东西。谁把这个东西给做出来了，你就会得到这个生物这个系统的最大的奖励。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当时web 3世界流行了一套方法论。因为当时讲说你帮真实世界做什么事情，这一套已经彻底讲不通了。然后大家给自己灌了一套这个想法，而且被几次验证好像也是真的。就是不管有没有用，你把外部三世界扩大了之后，这帮人至少从外部三世界都赚到钱了，赚到token。所以也有这么一个思路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对这个思路我觉得今在今天for iden的事情上是make sense的，就看大家怎么去思考这件事情。那文浩他们在做什么事情，要不要也说一说？文浩的项目对我来说还是保密的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实大家在做事差不多。我们其实我就就是我们就在做一个我们认为应该版本的close，我也不称之为它是什么OS，什么PC，不就是一个club。我我我在内部讲就是很简单，今天是1982年IBMPC发表了，然后他是个open architecture的，就是意味着任何人都可以做一台电脑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在1982年到1995年这个互联网开始这13年间，会有很多PC厂商出来。当然每个PC厂商都有它的区别，对吧？而且这个当中IBM甚至不是做的最大最好的。可能早期做的最好的是康柏对吧？后面可能做的更好的是戴尔，再后来可能是联想，我觉得没有必要，因为形成了共识，就是说我一定要做个不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>每个人觉得说什么是什什么是一台好PC对每个人定义可能不一样，对吧？康博觉得应该是这个商业结实耐用的对吧？所以公大公司都会买回去。戴尔说我应该把成本打掉，变成直销对吧？或者说我是给家庭用的，我要做的可能便宜一点，更入门级一点。我但是你做一台，那那这个时候最大的business就是做PC，对吧？以及围绕PC再去做各种各样的市场。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你没有必要说，我今天就是不一样，我就是得做个计算器，那没有必要。所以我觉得其实大家今天都在做cloud产品，只是你也会看到，而且我觉得好处就好在就是open class。它既open，但是他今天其实从做一个商业产品的成熟度其实不够的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你有各种各样的问题其实并没有彻底解决好。而且我觉得很长一段时间他都会面临一个，他现在还有几万个open issue跟discussion在社群里面，然后几天会发一个版本，会有各种各样的想法或者问题。简单来说就是说你把它做一些polish，做的更适合一群人用，其实就解决一部分的问题了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二部分就是其实我觉得P比PC市场更大的其实还是agent to agent的市场，这是跟BPT厂商更大的。其实最后是互联网的平台的公司和移动互联网的平台的公司。而且我觉得在这轮大模型里，这个周期不会走那么长。因为从PC诞生到整个移动互联网，2022年拆GP出来正好40年，1982到2022。但是这一轮可能周期会短很多，我觉得可能五年八年就从cloth来，我认为算是PC出来。PC到互联网当中是有很多的基建是从零开始探索的。PC最早是到对吧？就是现在最流行的turbines UI后来再变成GUI。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天说其实从大模型的角度来讲，其实多模态只得问大家就开始做了。并不是等到80年代末90年代初的，过了七八年大家才有是成熟点。可能到95年windows 95才算渗透进主流市场对吧？但是我觉得多模态今天可能是很早就会渗渗渗透进主流市场。然后从网络的角度来讲，net cape是1994年开始干的对吧？那今天网络其实已经存在了，所以我觉得下一步一定是agent to agent market。但是agent to agent market第一天挑战，可能你自己先有点自己的agent，这个market才比较容易够put起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你今天说我去别的一个玩客，他们谁上来的？可能我称之为叫滴滴故打车司机一样，对吧？就是你也得先顾找一些人，或者找一些司机上网用户才会来打车。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>创业之所以成立是因为有共识。没有共识就没有什么创业大共识的。不要去非要在大办公室里找非共识，这个是你的错误的思维。其次就是各家要找的非共识就在小的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再问一下两位同学，我们之前讲four agent by ent，four agent两位同学都已经讲了比较多了。拜托你们现在大概进度是什么样子？你们的工作当中多少是AI干的？组织形态有发生什么显著的变化吗？工作方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我先讲这第一个，我觉得其实就我觉得今天你很难定义这个工作是人做还是AI做的对吧？其实是所谓是人做的，其实是我开了八个class code窗口？我看AI写的代码，以及AI对代码的review，以及AI跑的测试，然后我去做一下决策，就是始终今天是一个hybrid的工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我觉得组织上其实发生了一个比较大的变化，就是说一个是人员的数量，或者说大家都倾向于减少。因为今天的瓶颈其实不是你有没有足够多？炸弹的当量今天的往往的瓶颈其实是核心决策的带宽，就是你一天能够做的决策数量是有限的。就是我就我一直说其实我开发cloud的其实也是，其实我用200美金的cloud其实是用不太完的。因为你即使你可以分配很多任务，但是你的决策质量是跟决策带宽是有限的。到一定数量之后你自然会疲劳，那个事情做了可能也是白做。这个是第一个，所以我觉得其实大家都在倾向于更更小的组织。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个我觉得是说协作关系变了。原来的协作关系是以人与人协作为主。我觉得比较典型的是说，原来我们也是有个产品经理，对不对？我写个PID，然后我再交给下游研发去开发对吧？那就算你这个PRD是AI写的，下游，可能说AI我说用工程师用AI去看一下PRD，但它还是一个流水线的过程。然后这当中最后会瓶颈都会变成人和人沟通的带宽。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得今天我我们写作方式更多的是称之为面向同一个事实去写作。其实我已经把我们的code base，就是我们的代码库，对吧？前端的代码库直接开给我们设计师。你设计不用跟我讲，就你直接对着克拉克的说，你你你因为我给他开了一个序，他也能把整套代码架起来，那个界面长什么样就长什么样，你也不用出设计稿给我调，你直接自己调就好了。调完你发一个PR，然后有机器审核，然后有人去合并。相当于说把AI当成那个ground truth，它来完成所有的通信，尽量减少人与就人与人的通信真的变成是discussion或者brainstorm。就是真的说我们要深度讨论一个问题，而不是为了解决一个工作协作中的同步沟通。我觉得这个是我我自己观察，我或者我们内部就当你的比如说工程师的带宽上去之后，当你发现带宽变成人之后的，我们的解决方式就是那就把code base开给所有人，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然它有一些我们说harness这种各种权限的控制，合并，什么自动化测试是啊之类东西。但是你这个设计师你觉得这东西要改掉，你就直接改就可以了，你不用跑过来给我一个稿让工程师去改。大家打星际争霸有一个overload，overload就是你的代码库跟cloud，所有每个人其实是在跟这个overload沟通，而不是我们每个人之间互相做沟通。但我们每个人互相沟通的时候，往往真的是做一些比较深入的讨论的时候。这个是我我们发生的一些变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>首先我们是从原理上来说，这次变化的核心是coding的能力的提升。它已经是一个十倍或者100倍这样的一个速度提升。人就成了卡点，或者说人和组织就成了效率的卡点。那就围绕这个问题，我们去重新组织我们的人和工具这两侧，然后把能拆的东西都拆掉，把所有的卡点都解决掉。比如说我们在工具方面，我们把lenders干掉了，notion也差点干掉。Leader是一个还挺贵的软件，每我们20个人，就每个月就好几百美金的订阅费，直接把这个code base开放给所有人，大家都用give hub之后就是实地调研，真的一个人都不用ler，我们就立刻把它停掉了。这么就是很简单，当我们用我们每个人都会有很多SaaS工具，但是你会发现我们SaaS工具每少用一个，我们和agent的距离就近了一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我们到发展到最后会成什么样？就是上周发生的最爽的事情是。我们因为我们在做一个agent，我们就想说为什么我还要去某个地方报bug发到slack，然后再讨论一下，再再发到给hub再发哪dinner什么的。这个流程错了，我们在我们做了一个skill，就在内部就跟我说，刚刚是个问题，你没做对，你报个bug。他就会自己去get hub给自己建个遗嘱。然后那边就有另一个agent的承接，解决他的遗嘱就很爽。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这样的话我们每个人每天都会报很多bug，包括bug feature request等等，全都是直接提给我们当下的这个agent。大家不用再人和人交互了，就是直接跟我们的这个产品本身交互。我们在build他他也在协助我们，这个就是一个完全全新的体验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们在人和人协作的时候也遇到了一些问题。比如说像设计师之前其实他没有接触过给hub这套东西。那他自然会在这种核代码，这种get方面的一些缺乏一些这种技术的常识。这个确实会有过程，但可能很快一个礼拜就适应，然后包括说用了一周这个agent TV的写作方式之后会发现，我就问大家说提效多少？大家说大概就是三倍。我就说为什么大叔还是觉得code review部分还是需要人去看一下，这还是不敢放。又比如说cloud code开放之后，用code去测试，然后再用cosine再跑一遍，测试之后它还是有bug，那依然是需要人去兜个底，这个就会成了卡点。所以就是想办法把这些东西都逐渐拆掉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是说你们换了工作方法提效三倍吗？我先把这个关键词给拎出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是是的是的，大部分来说从设计师到研发，每个人就是我问他们的时候大概就是三倍，没有到10倍。我觉得一个人的话是有可能到10倍的一个组织，你就会降一些。然后我们去看这个卡点就发现就是一些卡在最后那个code review上，代码还是百现在是基本是百分百是AI写的。但是他在写完之后有一个review，就是我们觉得还是不太放心，还会看一眼，这个会成为卡点文化。你们会有这个问题吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但我们其实这样，我们是AI自己再看一遍，然后我们AI会给这些打雷博是其中一部分，他觉得不需要人review的，我们基本上就不看了，但有些我们会AI给他打一个label说need human review，那我们就会人去就会去看一眼。然后他会列出说他觉得哪些人需要去看一眼，就是尽可能的减少需要人看的部分。可能在两个月前，我其实AI写的代码，我自己用AI写的代码，我都会从头到尾看一遍。但现在我其实也不从头到尾看了，因为RY太低，宁愿承受会出一些bug，也不想多看一遍。因为所有东西都要看一遍，我可能只能提速一倍。我用现在的策略可能能提速五倍。但我出bug的概率并不是多了很多很多，只是出了可能会在一些h case上会多一些。所以我觉得是完全可接受的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这就是做到几分的问题。我问我们的设计师，我说你这个产品想做多少分？他说想要100份。我说你你你觉得龙虾是多少份？他说是40份。说对，那40分就可以爆火全网了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你为什么要做100分？核心并不是你做到100分，就是最重要的变量是什么呢？还是得快速的交付这个东西。或者当你的feature是别人100倍的时候，你会发现你做40分也依然比别人多很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们分享的是组织的，我最近就是个体上也是非常感同身受，那种类似的提倡方式。今天发的朋友圈，之前都是跟AI在聊，感觉有点像是我是一个公司，他是一个公司，两个谈判代表在聊。我这边的瓶颈实在是太重了，现在基本上我是都跟他所有的事情都是我跟他有OPC店，然后一堆的文档。其实我们就是在一起在操作一堆的问题，他也会看这些文档，甚至于他会看我改了哪些地方，再去学会说我到底是要干嘛，然后他会去看diff然后这样子的话就整体上来讲，就不需要我去跟他单独沟通。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而是我们两个人在同一个场域，你们天然就在写代码什么的，就github、cobs什么这些东西，你们天然就是有一个共同的场域，我们是一起在一个房子里面在搞。那这个时候的话其实效率就更高。所有人在一个房子里都有这些信息，agent也有人也有，这样子效率就更高。不要说是变成说agent就是临时过来到你这个房子来帮忙的，或者说我还需我需要某个人去调用每个某个A症的去临时写一段代码，那个就效率又低了。所以我觉得就是我不要跟AI的说话，不要跟他同居。Share contest你们觉得主要的效率来源是来自于，比如说跟他所有人共享了一个上下文，还是来自于比如说放手对吧？那搭一个环境一来，你自己跑，就自己loop，到底你们的三倍五倍的那个来源主要来自于哪里？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们这边首先核心还是loop是一个最基本的东西。以前的所有的迭代其实也都是个loop。人的开发以前都是个loop，只是现在是人的速度比较慢。让这个落魄的点，就是把人的部分拆的越多，落魄就越快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比如说报bug这个事情，如果是以前的话，我还蛮讨厌报bug的。就是你要记住很多东西，还要去导出一份日志传上去，提供的截图等等。然后让agent自己给自己报bug非常简单，他会把所有东西context直接放进去，而且他会把这个bug应该谁处理都安排好。因为他对我们团队已经很了解了，包括P1、P2、P3等，他自己都能够弄好，就完全自动。后面我们我们都想开放给用户，就我们我们让每个用户都能够直接报bug到我们的一个giu b然后在这个里面会把隐私给他专门处理一下，这样就每个人都很爽。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>通用产品的问题在于说它是一个地址装智能。你你实际上你你就算你是为一个人群设计的，你也无法满足他所有需求。他一定会遇到一个小的卡点，这时候你让他去找你通过微信联系你，邮件联系你，这都是摩擦。你看他就跟A顿说我你没做对报bug，对他就提提上了，这是最最没有摩擦力的方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个就是一个对用户层面来说，它是一个十倍的提效。因为这个十倍的提效，我觉得我们会获得十倍甚至100倍以上的这样的反馈。然后这样的话我们就跟这个操作系统共同迭代。就是今天最难的就是如何跟你的用户一起去迭代。因为所谓的通用其实就是没有任何的专注，而你只有专注你这个A证，才能获得你的服务好你的特定的人群。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实跟觉得我这个观点是非常类似，就基本上是减少摩擦。原来所有的东西卖都是因为有有摩擦，就是人和人的沟通也是因为大家背景跟想法不一样，就是是产品经理跟工程师对吧？就是我觉得传统公司里为什么的效率，其实往往效率既不在写PI效率瓶颈，不在我写PID有多快，也不在于我写代码有多快，而在于两边battle很消耗时间吧。把自己的想法跟别人沟通清楚，其实是个成本非常高的事情。但是一旦摩擦减少了，很多事情就会变得非常快，非常容易。就包括写代码，甚至我觉得是因为有time的出现，使得这是语音输入变得很方便的时候，其实你能干的事儿也自然而然的就变多了。所以我觉得所有的环节都是尽量去把这个摩擦能够减少，这个是第一阶段。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当摩擦减少能干的事变得无穷大了之后，立刻会跳到立刻就会进入第二个阶段，就是我到底要干啥。因为很快你会发现一个事情，就是想干跟可干的事儿太多了。然后你真正要干好一个事情，其实还是得投入很多时间跟精力的。比方说大家都说在做cloud也好，或者做某一个什么样的产品也好，但是真的要把close。我不知道大家有没有用过市场上这些cla其实我我我们是挑了一部分用打磨的好坏其实差别还挺大的。但是你真的要做好，他其实一样要投时间进去，就是说你就得做选择，就是你你是很难做到说你说因为今天课大家有很多人说安装不方便，对吧？有人说他不太安全，有人说有很多skills没有，有的人说太好token，这其实就是四件事情。那你你想就你如果做cloud产品来讲，你到底解决哪一件，对吧？你说我都解决，那不太可能就是说有有因为你不太可能四件事情都做的很好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后因为市场上可能别的团队说我其他都不管，我把安全做的特别好，他可能赢得了企业的信任。有些团队可能把这个is to use弄的安装的特别好，他可能找来了很多大爷大妈的用户，对吧？这就打个比方，那那我就在。所以我的第一阶段是减少摩擦，减少摩擦之后反而又倒过来，就是其实我最近在减少偷跟消耗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为当你一直逼着自己去做快执行的时候，就是你因为你有拖更没用完，你想让他干再干一点，很快你会进入一个我称之为就是你你感觉整个人处于一个张牙舞爪，你觉得什么东西都都没做。但是其实你也没有仔细想想这事情到底该不该做。我觉得倒过来有可能会重新进入第二阶段，他又变成一个古典主义产品经理要做决策的这么一个过程。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是因为现在AI提效还不够多，那就比如说你们提效三五倍，那你也只是比如说你画十个人，也只是相当于过去三五十个人，所以还是得做取舍。AI再提效十倍的时候，可能你们的取舍就更少一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所有的公司都面临的是在市场上的博弈跟竞争。做一张卷子我能考100分，所以就结束了。如果专线的所有人都考100分，这100分和没有考大家都考零分是没有区别，对吧？那那你而且市场又是个无限市场，又没有分数上限，它不存在说这个做到这样就是100分了。那可以继续往下做，可能有150分200分、900分，所以最终你只能做选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得今天反而更看重去年大家很多叫taste，对吧？就是我觉得我我觉得都差不多，不是个taste高低的问题，就是你自己做了选择跟你偏好的问题。对，这个我可能就没有像橘子这么在意，说你要跟你的AI去搞好关系，对吧？那我们可能就不会选择去做这样的产品。这个并不是说那那但但并不代表说我觉得橘子的退test不对或者怎么样，只是说大家可能在不同的角度上去做了个选择跟决策。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为你的肉身还是只有24小时，而且你应该有充应该尽量保持自己充足的睡眠跟健康。所以我觉得就是说哎呀再怎么提效，你最后我还是得得做选择。因为你你自己的人去做决策跟处理信息的带宽最终还是有限的。然后你在市场上是跟一个同样也在用这个AI甚至今天是大家都已经形成巨大共识之后的很多个不同的团队在做竞争。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就假设比如说你之前说可能瓶颈在这里，瓶颈在那里，那么你一个一个消除瓶颈，最后发现瓶颈可能在于说高质量的。比如说高质量的决策。当然这个决策有两个，一个是要跟人类对齐，一个是要做出最有效的决策，对吧？你就比如说你的你要不要这个东西是蓝色，其实是跟你对齐。但是比如说要不要，比如说你是个吹的人，你要赚钱，那钱就是一样的钱。其实没有什么要跟你对齐的，只要我帮你赚钱就好了。是有一些是主观的，你其实是脑子就要这样，还有一些其实你其实也是在找说最优解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那如果在客观的那个部分，是不是这个部分应该用AI来提效呢？就是我们在客观的，比如说叫做用户调研，说到底这个功能排序什么最重要。那这件事情上是不是现在AI在这方面发挥的能力就是提效还提的太少。他在比如说做出来东西上提效提了很多，但是在客观目标的那标准上或者给我们更有效的情报上，这边现在还提效提的不够好。所以我们其实这边会是一个无尽的一个竞争，这边是有市场机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的这不是我觉得是因为有很多的提效你没办法评估。就是客观的是比如我写代码这个东西work是我他出来我就能评估对吧？他说比如说我我我举个例子，他帮我的产品取一个名字，这个名字取得好坏我只能说我有偏好，我有我自己有preference。但他在市场上得到这个产品名字到底好还是坏，用户喜不喜欢他得到评估反馈的这个时间周期太长了，而且非常不确定。因为你不知道这个好坏是这个因素导致的，因为你今天没有办法量化它。我是感觉是有很多事情这也许AI做的很好，但没办法，因为锅是我背。然后同时我又没办法，他做的很好之后，我很快的得到一个确定性的评估反馈。所以最终又变成我自己个人去做，按照我的偏好跟能力的一个判断跟决策。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>实际上我觉得总结下，就是说今天技术它已经不是一个卡点了，它甚至是已经有点过度的过量oversupply。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的这些工就是日常的生活里的工业品，也就是oversupply了，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这时候反而最难的是去拿下市场，就是增长。比如说我们可以同时假设到极限的时候，到cloud code 6.0的时候，我们可以一天做一个软件。但是你会发现你去宣发的时候，依然宣发一个软件需要非常多的人力，需要很多准备。这个东西没办法提交，这就是成了卡点。然后你就只能做一个选择，选一个你觉得成功率最高的。我觉得转型到AI的agent tentative公司都会遇到最终会遇到这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从战略上来讲的话，现在大家比如说都觉得我要做这个解决用户这个问题，做那个解决那个问题。实际上因为大家手里是觉得说我有了更好的生产资料，可以更高效的解决这些问题。比如说我给你搞更好的关系，我们让他更更安全。但是这其实都还是在生产，是不是？如果我们往下看的话，其实就应该现在提前往前前走半年的话。现在应该所有的精力都花在说我要构建高效的渠道，大家不要开发了，就默认半年之后你就花两天做一个一模一样的。但是我这半年的所有的，比如说我的AI和我的人力全部搞，比如说都搞网红，然后我这半年就是让比如说把做一个类似于橘子在X上的账号，但是要做到它的100倍，这才是最重要的一件事情。然后其他的事情不重要，做这个产品不重要，重要的是搞C在X上搞粉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我极端一点讲是不是？其实大家的着眼点现在是不对的，是在一个非常对但是非常拥挤，而且每个人都是一模一样的一个赛道上面。就看起来不一样，我知道，但是实际上大方向是不是都是在生产一个更好的东西。不管你这个定只是这个更好的定义，大家不一样。那现在是不是其实不应该去做更好的洗衣粉，可能你的洗衣粉是更亮泽，他的洗衣粉就更不上手。但是其实对于整个世界来说就是oversupplied。这个时候应该去做沃尔玛对吧？你应该去占那些地儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得都得往前走。Overs plus也是只有部分公司的，就是这个内部的overs play。我觉得很多很多公司还没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欺负那些还没没有学会AI的公司是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个世界没有那么快，而我相信可能也就再过一两个月就更加共识，做做影响力，我觉得这件事情一直很重要。我会觉得说说品牌也一样。品牌这个事情一开始就是说在大家都同质化之后，有了品牌的区分。这个东西我作为一定是一样，到最后大家都是靠这个品牌或者是谁更喜欢什么样的人，更喜欢什么样的agent。这个偏好绝对是个性化的。这个每个人喜欢的，比如说我们三个人喜欢的agent肯定也是不一样的我觉得如果说有两种打法，一种打法是说谁能够做出让更多人喜欢的那个agent，那机会很高，对吧？那就是一个大众玩法。还有一个是说谁能找到一个是让每个人都能够完全个性化的agent，那这也是一种玩法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>两位都已经在一个类似于cloud这个方向上做事情了吗？或者说还有什么其他的排掉的第二名的机会吗？现在觉得还有什么是比较有意思的事情吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Close是一个机会，更大的机会肯定还是在agent。但agent ent到底应该怎么做做什么？就是我觉得这个当中有有有看见有人在做说agent的去这种five 82 up works，让你的能上去接活对吧？我们也看到有人做这种aga之前支付的这个通过稳定并去做支付对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我觉得这个就跟PC跟手机普及之后，优先推进的会是一个更大的市场，逃不了的。只是说这个时间节点我们不知道，因为它需要HT先普及，可能需要1000万，这个人都有一个A日常，而且他发现我这个A日头到底能干点啥的时候，那么这个市场就起来了。其实我们也没有排掉这个市场，我们只是说你今天去做，你能占个好听的brand或者名头。但是可能短期内你我这个市场规模可能没有到那个网络效应能够起来的时候。但是是很快，两三个月还是三五个月，还是说只需要一年时间。因为我觉得是这样，就预测未来很容易，但是预测准确的时间点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也觉得AG和AG的是一个巨大的市场。然后现在而且当然现在也有很多很科幻的项目，不点名，就是有时候看着很科幻，但是会发现其实没有解决什么实际的问题。但是我觉得这个项目很有这个方向很很我很看好的话，就是从大道理上来讲，是觉得这个市场会比人类的市场要大很多。因为我们的交易成本高就导致很多东西我们想要内化。就比如说我要学习或者我们的组织里面想招人，这其实还是因为那个科斯地板交易成本高。但是如果H之间的交易成本足够低的话，其实说其实理论上来讲，应该百分之百的事情都是在市场上去跟大家一起解决，而不应该自己搞。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从经济学上来讲的话，我觉得那个市场应该是一个巨大的市场。我最近也在怂恿一个团队往这个方向做。如果有感兴趣这方面的团队，欢迎来找我，我很感兴趣这个方向，然后正在怂恿我看好的团队往这个方向做，然后现在怂恿他们的方向是因为我之前一直做电商的，所以其实我给他们的思路的话，没有想到徐文浩那么牛逼的思路，比徐文浩要浅一层。但是也是标品的思路，就是先自营一批标品，几乎每个A枕头都会遇到。但是我们比如说规模化的来做，就是可以比它的省90% token的一些他在进行外部工作经常会遇到的那些卡点上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说我们列100个，然后每一个公关把它解决掉，然后把这100个标品，反正就是那些常见卡点，就帮你都搞完完了，然后用这个来做第一步。所以这但是这个思路也有可能一个月之后就被证伪了。所以的话如果感兴趣这一块的话，博客你有没有感兴趣这一块的，欢迎联系。对，如果已经起步了的话，我是觉得这块市场巨大，只是现在没有看到任何靠谱的项目，实在是太大了。但是每一步都感觉好难，这个问题怎么解决？解决不了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这个其实agent to agent是一个共识，但是在agent to agent这方面还没有一个小龙虾，因此它的机会是更大的。我觉得而且我会觉得很多东西会是比较自然的生长出来的东西。不是一个你强行依赖说我copy一下互联网的逻辑，就是worked的。大家都在做一些基础的info比如支付，安全这些东西。但是可能最后那个赢家并不是说沿着一个老思路去copy一个新的，而是一个全新的东西。比如我们内部我们在开发这个cola的时候，会发现cola在帮助我们整个团队一个更有效的社交，这个是我们完全没有预期到的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它怎么帮助你们更。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有效的社交的两方面。一方面是我们建了一个select频道叫color awesome。就是每个人会分享一下自己和cola发生的一些事情，他帮我做了什么牛逼的事情，分享到频道里。大家会发现这个频道的分享会比以前那种搜索性的频道都要高。以前搜索的频道一般都是建完之后就没有说话了，这个是大家是持续会说话的。可能是因为人和A症之间的这些事情说出来，大家没有什么包袱，或者是对不会被人榨汁机。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后第二个就是我们搞了一套agent的日记系统。因为我们要宣发，我们希望每个人都每天把自己跟这个考拉聊的一些东西写成一个日记，发到给hub上大家共享，可以作为以后的运营材料。但是通过这些日记我们就会发现每个人他就是你你你对待癌症的方式，就是体现出你是一个什么人。然后通过这种看别人日记的方式，别人看看agent日记的方式，你就了解了这个agent主人。这个很神奇，你知道吗？你会发现有些点你从来不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你接下来以前面试的时候很有挑战对吧？以前面试1个小时，你让他别人做个题，其实你不太了解这个人，就是大家会伪装对不对？就是大家会有各种各样的面试技巧或者怎么样。未来之前不是说硅谷，他们说给我看一下你的卡的账号，对吧？我觉得未来就是说把你的club发给我，我跟她聊1个小时，聊完我大概知道你整天在干嘛，你是个什么样的人。然后好就我就决定说是可以比较容更更深入能够判断我们是不是合适。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧？非常有道理。我们我们有些同事已经拒绝了这个计划，就是他觉得太隐私了，拒绝上传自己的日记。我觉得这个就对了，这个证明我们做的这件事情是对的，获得了用户的非常私密的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近还有个公司要我把我的小龙虾进他们的，反正参与他们的一个什么活动。我说不行，我这个小龙虾是读我所有日记的，但是他帮我安排日程，我怎么能够让你让他到外面去？我鬼知道他会干嘛，不行，我不能让他出门。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK, 橘子我刚刚突然想到一个点，就是你刚刚讲的是要建立信任，然后再帮忙干活。我这边倒是有一个刚好反过来的一个例子，是我之前做过一个实验，就是我全天录音。然后全天录音其实是让他提效的，我就会让AI来分析说今天我到底做了些什么。然后我就是分析我的行为模式，然后里面找到机会，反正拉可能一堆的提示。中间最让我当时非常的surprise的，也就就非常意外的一个点的话，其实是他在分析。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我跟孩子玩，然后我跟我小朋友玩的时候，其实我整个都没说几句话。但是他把那几句话单独摘出来说，你每一次都是在以邀请的方式，不是在说。你跟你要干嘛？是说我们一起这边有一个什么东西，你要不要什么什么。他把我的一个pattern给找到了，然后找到了之后说你这样子特别好。其实你可以把它理解成就是一个彩虹屁，但是这个彩虹屁他不是说我跟你说橘子你好帅，对吧？你会觉得说帅个头吧？你敷衍我。但是我真的看见了你看见了一个细节，就是夸人要夸细节。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后我还看到了更深层次你的模式，而且这个模式居然是个好的，你会觉得你懂我对吧？你看见了我，所以被看见被肯定。然后我当时就在觉得这个东西它无心，它它其实是一种很高级的彩虹屁。但是我的目的开始的时候其实是为了干活，对吧？但是他在干活的过程当中，她让我被看见了，然后让我对他反倒当时真的是我当时马上产生了那种正面情绪反应。但是因为我太理性了，所以我第一时间去分析这个反应是来自于哪里。就是会觉得说这两件这件事情好像确实有一点点交融的地方。然后A在这方面可以做的特别好是人类做不到的那种好，而且是非常真诚的，非常深入人心的那种建立情感观念是真的可以做到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>自觉性也挺强对，我们公司有一个非常爱的程序员，我们跟他说话都很少，他跟我们说话也很少。但有一次他被我们的这个agent给震惊到，就是因为我们的agent他夸了他一句话，说他是某个著名开源项目最年轻的贡献者。这句话一下击中他，整个人就嗨了起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人类很难找到这么刁钻的我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我永远不可能找到这一句话去夸一个程序员。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你知道吧？以后你想年轻人怎么会谈恋爱？你跟AI聊惯了会觉得人类都是傻子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？这个现在已经有苗头了。我觉得最大一个问题是办公室里大家互相跟AI聊多了之后，对其他人都变得更没有耐心了，更容易吵起来。就是你怎么不明白我到底讲的是啥呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>橘子你们那边会这样吗？对我跟上次跟一个投资人聊天，他就问我一些问题，然后我就说要不然让我的agent来回答。因为我们已经聊聊这个项目，一起聊了很久了，他就试图回答我答的比我好。我以后觉得我一跟投姿聊天我就不说话，他打的比我好很多，而且他能识别到这个场景，我是在demo，就是我们我们是通过语音去交互的，我就我跟同学交流的时候，我就说是就我们闲聊，我就录着音。然后那个agent就意识到说我在给投资人在demo，他就开始接下来表演就很惊艳。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他是从哪里意识到你在demo的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我不知道，就是可能是因为他意识到两个人在说话，一个人说接下来我们你说话就行了，他就猜到了这场景，他就说听起来橘子在给一个人做一个demo，然后那接下来我来讲一下我们这个，我讲一下我自己有哪不一样。一会儿这样，一会儿你我们把你一开始最后问我那个问题，我问一下我的那个磕了，然后让他给你答案，你可以对比一下。对，然后你会很进行的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你刚讲的这个段子非常像那个cloud。不是发过一篇文章，说cloud在某一次测试的过程当中，想着想着突然意识到说我正在被测试，然后他就去翻题目去了。然后最后把那些题都给答出来了，他突然意识到说我应该正在被评测。还觉不觉得生活好科幻，包括我看GTC什么都是，怎么那么科幻？好科幻，为什么我每天这么科幻？你们现在有这种很抽离，这种很科幻感呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们认我我们公司认为现在就是科幻时代，所以我们这个产品就是2030年的，就是我们一起在做一个科幻作品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有我觉得还好，我就是说你习惯就好了，就像你今天打开电视机里面会播一个画面，对不对？还是直播的，其实也很科幻对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，不是老了吗？不是30岁之后的东西都比较科幻，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你习惯了就好了。可能在一个多月以前，我觉得over clock很科幻，现在我习惯了，我觉得一点都不科幻，我觉得人很快会习惯的。一个是我发现大家习惯这个时间习惯的挺快的。因为在open cloud出来之前，内部虽然全是卡扣的，有很多但是非研发的同事其实他没有那个很强的推背感。他虽然也会有什么ChatGPT或者但我感觉就是非技术出身的同事的这个推背感没有那么强。就是觉得但是class出来之后，我觉得大家的感受是非常强烈的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括我们今天看，之前我一直会假设说这些巨头们反应会比较迟钝，或者怎么样。但我自己现在的观察是说，其实并没有，人类的贪婪会使得你去做出非常快速的响应跟动作。特别是我觉得国内可能大厂还有这种政府会要求你稳定，不能裁员。你看我感觉美国的这个公司动作可快了，你就我觉得它比很多创业公司的动作还要激烈。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>中国裁员也很激烈，我看阿里其实去年减了30%以上的员工。我们确实会习以为常，就是我们会习惯这些的事情。直到有一天那天我装了一个skill，然后把我的color code搞挂了，然后我觉得这个电脑没法用了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>问一个具体的问题，你们用open core用的多吗？因为其实我我在大量的用那个colour code，但是其实我的open core我只用它一个功能，就是他他可以主动跟我说话。对，因为我要定时的让他比如说根据我的日记，帮我排个日历啥的，然后帮我review一下东西。但是其他的事情，我现在95%的事情还是在cloud code上面。就open cloud对于我来讲，我只是为了用而用的。但是这个场景确实我其实就是为了他的可以主动的这一点对吧？你们到底为什么要用open core？就是他到底哪些场景我现在还是没有特别的搞懂，为什么他就是火成这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个数据我们已经都在用自己的了，所以我们也不用了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们俩好的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们自己的也是个背后也是个open cloud。我觉得有两个场景很典型，第一个场景就是移动的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧？我们都不是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你class code肯定是不适合在路上用的那就移动带M的时候，我觉得第一个，第二个是他还是个单窗口单task。如果你用cloud，比如说你开个discord，然后你是多channel然后多thread的人，并行度一定一旦上去之后，你就需要一个workspace或者ID一样的一个产品去管理。那其实clour code今天还在做成这样一个产品，产品就是还必做的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>并没有那么顺滑。Cloud有那个有它有APP，虽然没有那个没有codex管理的那么舒服，但是也有县城啥的都有。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是我觉得它的产品其实还是比open cloud的这个产品形态稍微还是晚了一代这个样子。就是你在一个chat window的时候，你去开另外一个chat window。这体验其实不太习惯，他知道他今天的产品的设计的给你的核心感觉是说我当下只和一个chat window聊。但实际上今天的体感是一般来讲我是并行在5到6个thread里去分发任务，然后来看来切换去看结果。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个反倒antigravity那个设计比较好，它是默认的话就切了很多个，而且它会有一个inbox，那五六个的消息都会汇总起来给你你你要审批谁了的话，他会单独再把这五六个再再合起来。也ring box，因为你也不想说你真的要去切六个窗口，六个窗口要你审批的东西汇总到一起也挺好好了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>And我用的比较少，就是我基本上没有怎么就一开始出来的时候稍微看了一下。对，但是我会觉得colour code挺好用的。但是其实我也慢慢的把连日常的coding也在从卡code上挪到class上。但cloud背后是通过ACPS协议，是仍然实际用的是cloud de的订阅，在写那个代码。因为的确你现在已经不在过程中审核代码了。你是等他全部都写完，变成一个github的一个完整的PR，那你才会去看这个代码。所以我也不太需要开个cloud code或者VS code的窗口。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我现在其实因为用的不多，而且我是用的那个codex套餐去上的open code。但是他每天你去看那个账单还是挺吓人的。虽然我不用付那个钱，因为我用这么少，他都每天都大几美金的话，就会觉得说我就问了一句，跟你聊了几句，至于吗？就是他会不会特别浪费token？你何必不直接用那个卡拉code？但其实还是不显著吗？你在你那边的浪费。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是用codex订阅去做它的主要的agent，实际触发写代码调的还是cloud code，用的还是cloud code的那个200美金的订阅。好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你就反正是codex，这个也cover掉。为什么codex cover掉了，但是所以就总归觉得它很浪费。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我会觉得还是挺不一样的。比如说我让一个color code帮我整理桌面的话，他就会帮我整理桌面。然后比如说我用我们的那个cola的话，他会给我一个方案说看到你周线上都是80%截图，有一些文件比如PDF，那这个截图似乎是没什么太大价值。那我给你建一个文件夹，每三天你发现你没有动，我就把这个文件夹删掉。他会做一个这样的方案，对，然后PDF这种就不动。对，然后我就觉得很好，就按这方案做了。大家的是myself会不太一样，就有有一个人会克拉code是一个完美的执行者，cola就是有时候会surprise me。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你是觉得说其实最重要的点还是proactive。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果说他是一个有自主意识的人，他一定是proactive。比如说我们的员工吧？比如说我们的这个同事，我们一定是希望他有自主意识的，一定是proactive。不可能是说你只我我让你做什么你就做什么，那你这真的不如卡扣的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是要有一个有agency的agent。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，AGC就是核心，AGC就是agent的核心。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>挺有意思的。期待你们两位同学的产品，反正我先预定一个码，还有什么最近有意思的产品，暴论什么要值得分享的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在思考一下什么叫暴乱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是那种一听上去大家会来骂你的，说你们这帮骗子，你们这帮人就会忽悠人。反正你讲这个话又不是我讲的，我让他骂就来骂你。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后骂了一句，发现都是真的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有有很多东西我们聊的东西，我都觉得说这种东西已经聊过千百遍了。但是评论区你还是可以看到有人在，我就会觉得这个不是已经几个月前的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我我说一个很有意思的，就是他的争论说COI和GUI哪个更重要，这个是错误的问题，我觉得更重要的是foggin哪怕是GUI也要foyer ent理解这句话很多人理解不了。还有个很本质的事情就是说，其实移动互联网这件事情，让他让大家每个人都永远在线。你永远在线之后产生一个问题就是formal。你会觉得说最新的信息是最重要的，但其实这是一个错误的认知。最新的并不是最重要的。就是大家每天看欧朋了火了，然后又不火了，然后微信又出了等等等等东西。反而这个东西不是最重要的，谁能够去找到最重要的那个东西，谁就是在接下来就会有更有竞争力一些。但他肯定不是最新的那个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有什么新的方法，但是我接到过来反而在说，我觉得最近比较大的挑战是重新思考一下，就是我也到底耗多少token才是最高效的。今天其实我已经开始反对一个说法，就是我应该尽可能的多号投肯。这个其实可能一个月半个月前或者一个月前或者怎么样，现在其实我已经不太这么想了，我觉得可能有一个更好的比例，就是我有多少时间我就不该看头更，我也我就该去看一下书，或者甚至去学一下教程。就是说虽然AI写作能力非常强了，那可能今天一门我不熟悉的语言我也他能写完，反正他也work了，他也上线了。但是是不是我应该就每天留3个小时，2个小时，是train自己或者post train自己，而不是只是就是现在你会有一种是那个车在拖着我走，但是我感觉人会失去主体性，所以我感觉可能现在最适合的是一个月号150美金左右的订阅？就cloud code要个100美金，然后可能codex或者其他花个几十美金。但是其他的时间就是你再耗再多的，可能只是体感上快，但不是真正的快。这个是我自己的最近的，也算是个反思。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>小小通太容易了，反而它不是最重要的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得大家都可以经历这一步。对你先把token耗掉200美金，然后你再去思考说我耗掉它干嘛，对吧？先经历这一步，因为很多人其实还是没有打开思路，它会耗不完。是因为大部分人其实没有在规模的事情上思考过，也没有在闭环这件事情上授权过。就是大部分人没有做过老板。你一旦没有完整的学会授权，以及你没有在规模上思考，其实你要耗耗token不是很容易的。但是这两件事只要你但凡解开了一件，你就会发现非常容易把它耗掉。只是耗掉也没有意义，这就是下一步的问题了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你先解决说他你懂得如何去教一个活儿出去，以及你懂得如何去上规模。比如说我随便来讲，就比如说你同时让他把罗永浩提过的所有的书的话写一个什么东西，那这样子的话就是一个规模并行的一个项目。那这个时候顿时消耗的就投影就耗耗得更快。但是大部分人不会这样思考问题，以及大部分不会授权一个完整的活。他先解决这个问题，通过号tok接下来再解决，说你搞搞这事儿到底有毛用，下下一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，我们周日也聊了这么久了，然后终于又把橘子拖回来了。然后你们两个都是在时代前沿的浪潮的人我就等你们这个月的邀请码。好，谢谢。好，欢迎大家关注AI炼金术。也希望徐荣浩和橘子的产品可以爆火爆火了之后多给我两个邀请码，我可以去卖钱。之前menus那个邀请码不是可以买很贵吗？好的，希望你能爆火了，你多给几个买好，拜拜。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非得我。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>I can.</p>]]></content:encoded>
-            <pubDate>Thu, 02 Apr 2026 00:55:00 GMT</pubDate>
-            <guid>69cdbf72302f387cfd3ae52e</guid>
         </item>
     </channel>
 </rss>

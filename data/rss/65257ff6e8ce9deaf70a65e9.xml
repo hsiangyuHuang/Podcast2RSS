@@ -4,7 +4,162 @@
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
         <description>AI界德云社！</description>
-        <lastBuildDate>Thu, 08 Oct 2026 08:09:05 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 18:21:30 +0800</lastBuildDate>
+        <item>
+            <title>AI逆向：最没想象力的事，就是再造一个Photoshop！</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6ad0a53d641ef406308c278f</link>
+            <description>REA把逆向工具打包成神器，大家都惊呼软件又死了一遍；但早在20年前中国老板拒绝买单时，软件就已经死透了。逆向根本搞不出商业闭环，真正能活下来的产品，从来不是靠一段防不住的代码，而是云端黑盒与行业标准。
+00:00 软件已死？
+01:54 逆向有多可怕？
+04:09 REA为什么火？
+06:32 逆向就是厨子尝菜
+07:38 能逆向一切为什么赚不到钱？
+10:46 巨头这么玩逆向？
+13:23 20年前软件就死透了
+17:02 逆向和蒸馏
+20:44 什么是真壁垒？
+23:22 逆向终局是正向
+【订阅 JustSayAI 早晚报】
+📮JustSayAI 早晚报·粉丝专属福利
+每日两封 · 一键听报！现已全面支持邮件+IM+Skill端
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
+📱 商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期节目由三位发言人围绕“AI逆向”展开。文稿未明确具体姓名与头衔，从对话角色看，分别承担主持串联、技术解释与商业/案例补充。对话由近期多个热点引发：有人复刻Adobe全家桶、PS5被破解后游戏被移植、韩国银行被攻克，以及REA“逆向anything”走红。核心议题包括：AI如何把逆向从“猜测的艺术”变成高效率工具链，韩国银行案例的技术细节，REA/MCP工具链的真实能力，逆向与破解、解码、反向编码的区别，逆向的商业价值与法律边界，以及“软件已死”“SARS已死”之后硬件、工业软件、开源与正向软件的机会。</p>
+<h2>关键要点</h2>
+<ol>
+<li><strong>AI逆向不是新事物，但效率发生数量级变化</strong>。发言人2称，逆向天天都在发生，音乐remix本质也是逆向；以前要好几年、至少好几个月才能干的事，现在“可能几天或者是几周长一点几周时间”，小型项目可能几天干完。成本相对软件开发低很多，因此“很吓人”。</li>
+<li><strong>韩国银行案例的核心模型很轻</strong>。发言人2提到，该事件“核心模型就用了一个deep seek那个V4 flash只用了这一个核心”，就摸进了人家的代理人系统和员工系统；没有把钱弄走，“就是为了证明这个有有这么个能力”。这被归为黑客技术，但“一定会用到一些逆向的东西”。</li>
+<li><strong>REA“逆向anything”实际是MCP服务与工具链</strong>。发言人2指出，它背后整合了126个工具，覆盖能想到的、见过的各种软件编码方式，“是你能想到的，你见过的各种软件的编码的方式，他全部都有”。但它是“一个突破set，是个工具链工具箱属性的一个东西”，不能帮你解决赚钱问题；大量视频里“那个逆向根本没用到那个REA里面的工具，他也说是他干的”。</li>
+<li><strong>逆向的定义被收窄：过程不重要，结果复刻才重要</strong>。发言人3区分逆向、crack、decoding、反向编码，认为逆向是“我知道结果是什么样，我其实要复刻出结果来，但过程不是最重要”。他用厨师吃菜复刻比喻：不需要拿菜谱、装摄像头，老师傅尝一口就能做出同一个味儿，“这就是逆向”。</li>
+<li><strong>逆向能否商业化有两个先决条件</strong>：结果是否确定、是否有商业价值/价值差。发言人3认为真正同时符合的不多。发言人2补充，逆向出来能不能挣钱“完全另外一件事，不关他的事”；REA影响力被称“逆向这个领域的iphone时刻”，但“不能帮你解决赚钱的问题”。</li>
+<li><strong>法律与封号风险明确</strong>。发言人2强调“逆向还是违法的”，“你正经用这些大模型去干你就会被封号”，Cloud和code x已经很多被封，早期账号一用逆向也被干；标准操作是用自己本地可控的模型做主模型分析，研究可以，恶意破坏商业软件非法。</li>
+<li><strong>软件已死论并不新鲜</strong>。发言人1称：“软件已死这个事情，20年前中国的老板已经宣判了，软件就死了”，中国老板不买license、用盗版、拉团队驻场定制、一次性买断。现在的判断是：核心算法在云端的SARS很难死，本地单一功能还按SARS收年费“活该你压死掉了”。</li>
+<li><strong>机会在硬件、工业软件与IP二创</strong>。发言人1提出“利好去深圳华强北创业”，看到国外用户逆向便宜Wi-Fi空调、接入智能家居、遥控电视、vision road等；工业软件则涉及“厨师有没有洗手”、精度控制、刀片磨损等老师傅经验。官方IP二创如水浒卡，原创团队再出，买两箱方便面，整箱捐掉，“做成NFT版”，社区参与感起来。</li>
+<li><strong>红帽公司是正向软件样本</strong>。发言人2称Red head红帽公司做Linux，源代码开源、“不用逆向，你就直接看我的源代码就完事儿了”，持续做企业协作安全、审计合规、安全补丁和升级，后来被IBM以340亿美金收购，现在又与media等巨头做AI相关安全和合规。</li>
+<li><strong>逆向终局是正向，回归本分</strong>。发言人1认为，逆向与AI web coding逼大家把本分做好，“信息差已经被磨平掉了”；优秀软件代表行业标准、认知和工作流程标准。节目最后以“逆向的终局是正向”“阴阳之道”收束。</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li><strong>韩国银行被黑的目的不是钱，而是证明能力</strong>。核心只用了“deep seek那个V4 flash”这个听起来不强的模型，成本不高，但摸进代理人系统与员工系统；没有把钱弄走，“就是为了摸进去”“证明一下”。</li>
+<li><strong>REA被大量误归因</strong>。发言人2明确说，很多视频里“那个逆向根本没用到那个REA里面的工具，他也说是他干的”，但估计大家都不懂。REA真正的价值是整合126个工具、把常见逆向工具包在一起，对小白友好。</li>
+<li><strong>OpenAI收购公司前员工“不到10天复刻核心产品”的争议</strong>。发言人称该员工在X上说，自己花不到10天把原公司核心产品做出来，但只放了一段录像，说在自己机器上跑起来，别人还没用上；另有评论怀疑其源代码被用于模型训练，因此事件成了打嘴仗。</li>
+<li><strong>封号的真实操作细节</strong>。发言人2说，Cloud和code x已经很多被封，“有好多人从很早期的这个号，现在一用逆向都被干了”；真正标准操作是用自己本地可控的模型做主模型，自己用它来分析，因为“研究是正常的这是一种技术”，但拿去恶意破坏商业软件非法。</li>
+<li><strong>厨师“有没有洗手”的即兴比喻</strong>。发言人3用厨师复刻菜品解释逆向，发言人1追问“就是差一点味道没洗手”，发言人2接“精华是没有洗手才有的”；这个比喻后来被用来区分民用软件与工业软件：工业软件里老师傅脑子里的经验、精度控制、刀片磨损等，可能比代码本身更重要。</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我还听了很多论调，就大家说这个软件已死，什么这个逆向又把软件死了一遍。我这个就有点不同意，实在太夸张了。对我我觉得是这样，软件已死这个事情，20年前中国的老板已经宣判了，软件就死了对吧？中国老板以及高瞻远瞩，直接老子不买了对不对？买买什么认识？20年前就已经宣布软件已经死透了，就不是现在AI出来软件才死。但是我觉得说因为看到说后面机会在哪里，对吧？对，刚才聊这么多，马上想到一个现在利好去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们聊一下最近非常火爆的AI逆向。这个AI逆向最近听说有点逆天，对吧？这个逆向工程这个词其实很久以前就有了，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>早就有了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那最近这个火是为什么？是因为出了好几个事情。首先是有个小哥把这个adobe全家桶全部给复刻了一遍，我靠对吧？然后就可能因为不满这个月费太贵了，全部复刻一遍。然后完了以后你看各大知名的游戏，什么PS5，然后被破解完了以后，好多个游戏都被成功移植了。然后最让我害怕就是说最近有一个老师跟我讲，韩国那个银行被攻克了也。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>被人也被黑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了也被黑了，我就觉得这个事情就一定要聊一聊了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实逆向这个东西一点都不新鲜，大家天天都在逆向。然后这些软件、游戏，包括还有很多，还有我们常见的什么音乐，大家remix一下，其实本质也是一种逆向。你腻了以后稍微改一改，对吧？你听了完他这个东西改一改，但是以前的逆向效率没有那么高。现在最重要的是AI的能力变了以后，由这个逆向工具套件组合起来，加上了AI还可以很快的去把以前要好几年，至少要好几个月才能干的事情，可能几天或者是几周长一点几周时间，可能把一个比较大型的东西给你干下来。如果小型的那可能是几天就能干完。那它的成本相对于软件开发肯定是低很多的那那这样子的一个东西就是很吓人。那刚才说的韩国银行这种它比较有意思的是，它其实核心模型就用了一个deep seek那个V4 flash只用了这一个核心，就这一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个是重点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这是重点。他只用了一个这么听起来好像不强的一个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后说白了成本不高，对，代价很大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，他就把人家的什么代理人系统，然后还有一些员工的一些系统就已经摸进去了。虽然说没有把钱弄走，但是人家是摸进去没有说要去搞人家钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是为了摸进去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是证明一下是这个意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他就是为了证明这个有有这么个能力，有有点像像是这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个算是逆向吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定跟逆向是有一定关系的，但是不完全靠逆向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为这种黑科技应该算黑客了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我都对是黑客技术对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就不能算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是黑客技术里面的话，它一定会用到一些逆向的东西。因为逆向的本质是我原来是就是我是一个他是一个guessing game，是一个猜测的艺术，就是我猜你背后是用什么源码实现的那以前是很难猜，现在有AI之后，它可以很好的把这些原来做的一些混淆，然后还有一些让一些不太厉害的加密全部给你猜出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它是靠暴力的去运算破解吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它不用很暴力，它的智能就可以直接知道这类的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才这些闪点其实听起来是因为最近为什么火？是因为首先我觉得两个，一个表面是逆向，这两个字让人听感觉好像黑客对吧嗯对吧？对，可能还有一个是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最近神秘感拉满。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没错，还一个问题是最近很火的那个skill叫做REA，就是逆向anything对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个那个那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>逆向一切那向逆向所有的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>实际上是个MCP服务。对他其实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>只是把我们常用的这些工具给它包起来了。对他并不是说他用了这个skill你就能怎样。所以这个是要去问一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个是必须要去问。因为这个东西我现在是看到大量的在发这个，我就觉得很多人是不知道这个东西。就是有很多视频里面，他那个逆向根本没用到那个REA里面的工具，他也说是他干的，但我也就觉得估计大家都不懂。但但是像REA这样子的一个东西会火，就是逆向一切这个事情会火。其实还是大家觉得这种神秘感和自己好像。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>拥有了神秘的力量感，就感觉这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>东西可以随意闯门，你不给我破进去抢是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个都可以，我觉得还戳破了一个窗户纸。比较重要的就是说你发现只要这个本地的软件基本上就已经无解了。我觉得应该从技术上来讲，应该以然后也防不住了对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能防，但是很复杂，就是你必须得把本不能存本地，就是说REA这种东西，就是他我先说再多讲一为什么好用？因为它背后整合了126个工具。这126个工具是你能想到的，你见过的各种软件的编码的方式，他全部都有。就像这种东西是真的小白友好。他现在做的很大的一件事情是把它整合在一起，这个是他很大的一个价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>咱们就是正本清源一下，咱就先这个必证明乎。就刚才咱说了几个，一个是叫这个逆向，咱就说现在就聊你一下。然后还有一个是刚才说这个叫什么破解crack对吧？还有一个就是说叫叫什么叫解码，就是刚才说的拿个密码本就能把这个拿破仑信给弄明白了，对吧？就是decoding。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有一个是应该叫什么，就是反向编码。对，反向编码就是说真的能够把对方的原版重新再写出来。但我觉得逆向是什么？就是逆向咱们把它收窄一点。逆向是什么意思？就是说我知道结果是什么样，我其实要复刻出结果来，但过程不是最重要，就是说不是说完完全全按照他原来的代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以此为我觉得我觉得你一听到你这个讲，我觉得就对，咱们不是经常最自豪的是中国咱们拿收到任何的，我们都可以把它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>原样给立项跳出来用手我不可能把你的钢厂的用的几号钢什么都弄出来，但是我能做出来，而且性能不比你的差，对吧？咱就举一个更加长的例子，就是什么样你去一餐馆吃一道菜你觉得特好吃，然后你找一个厨师朋友过去，那婆婆一瞧，这个八角了，这个用的是湖南辣椒。人家回去之后做完这饭，你觉得就跟那饭馆那味儿一个样，这就是逆向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不对？就是差一点味道没洗手。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>精华是没有洗手才有的，我是不是所以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>觉得这个是我认为最形象的逆向。就是人家不需要拿本菜谱，找这老师傅给你都写下来什么什么少许什么东西，先加后加。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但最后他到底有没有洗手，你真的不知道，这个是你想不出来。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是两盘菜摆一块，你最后一吃觉得就是这个味儿，这就叫逆向，对不对？就是老厨子人干的是这个，不需要说真的上后面后厨安个摄像头，然后一步一步跟着走你这不可能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>能达到结果就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是所以说到结果这事，我觉得必须也得泼冷水。就是REA这听起来anything他是真的帮你做到了，你可以去逆向anything，但是你到最后你把它逆向出来了以后，你能不能挣钱，这是完全另外一件事，不关他的事。也就是说我刚才讲他说是逆向这个领域的iphone时刻，只能说是他这个影响力是这个时刻就我说的影响力超过open core，我是觉得是超出我远远超出我的意料。但是REA这种是其实刚才已经讲明白了，它是一个突破set，是个工具链工具箱属性的一个东西。也就是说他不能帮你解决赚钱的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你把这个眼光，像老师说赚不赚钱这个事情，对吧？你再把这个眼光再稍微放大一点，就是民用软件，也就这样子。你腻不腻？向正不正向，或者大部分正向都能做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>本来就是这样，因为这里面有很多事情就有很多人去比。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很有意思的。但是你看到工业软件或者结合硬件对吧？我们先不讲工业软件，工业软件就是涉及到刚才我跟贤哥讲要不要洗手的问题了。这个厨师有没有洗手，有没有健康证，对吧？但是你会看到硬件，我最近也看到好多哈结合硬件的例子。你看好多国外的朋友啊，他们去亚马逊买一个很便宜的空调，但是是带wifi模块的。通过逆向方式去截获这个局域网里面的信号传输，自己做这个智能家居的控件，还有的放到这个vision road里面，有的放到电脑上面去遥控，因为你知道它不是所有品牌都有什么小米智能家居这些东西的对，我觉得这个就是一个很好的例子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>既然空调可以对吧，既然这个电风扇，什么智能家居电视，甚至有人破解电视了，对吧？那我觉得很有理由，你看后面更多的这种涉及到智能家居、硬件，不只是人家无人机。说不定无人机对不对，可能都是可以通过这样一些经典的操作，他玩出更多的花样的。我觉得这是硬件领域。我看到还有一个就是我们刚才讲工业软件，工业软件这个东西，老师知道就工业级编码跟这个民用代码，还差的非常多，差很多的。而且工业软件里面，说实话更多卖的这个老师傅里面这个脑子里面东西，这厨师有没有洗手这个事情，可能还比前面个更重要，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就这些东西就是你逆向的意想不到的东西。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>意想不到对吧？这个精度怎么控制？这个加工的过程中，这个刀片的磨损，各种地方的损耗怎么控制？这个东西工业软件跟民用软件还真的不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我打断一下，我今天看了一个案例，我觉得太逗，你知道吗？我觉得可能是能支持这个逆向的一个好案例。就是有一个在X上有一个公司的前员工，这个公司已经被open I收购了，号称是花了几十个亿，没具体公布多少钱。然后这个全员工在X上说什么呢？说自己花了不到10天时间，就把原来这个公司的核心产品给做出来了，给直接立项出来了。然后最重要什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是说有另外大神评论说，有可能你公司的这个源代码就被用来做模型训练了，所以说你才能这么快的逆向出来，所以这个事儿现在成了打嘴仗。因为本身它这个产品，它只是放了一段之前的自己的录像，说我已经把产品做出来，在我的自己机器上跑起来了，但是别人还没用上。所以说他他想证明是说现在这个逆向有多牛逼。这个东西几十亿的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>公司逆向吸收了，原来不是逆向了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以大家可真的还是一定要去听早晚报。我现在真的每天七八分钟，这个早晚报是我唯一不需要倍速听的东西。这听起来像广告，其实也是广告。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只能说这可能被收购之前，这个公司的代码就已经被OpenAI怎么开了后门给预训练进去了，只能这个可能性更大，因为你这不然怎么都来不及。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那不就你看越来越多的产品被逆向出来，然后被开源，被放在github。那是不是越來这个模型就越来越能够正向的去把它写出来，这个反而逆向就变得不是那么重要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对，是这样的，因为其实就是他的数据飞轮就跑起来了。其实本来里面有一个点就是大模型的训练。比如说我们在我们之前不是讲编码，编码的时候其实最重要的就是中间的那个过程环节。你过程环节的时候，你虽然只拿了你在编码的仓库里的一部分代码出来，拿给了云端去给你去做coding。但是由于它有一定的逆向能力的话，他其实可以把你原来这个rapper里面的好多部分都可以逆向推导出来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>难怪你丫的前阵子这几个人跑去找特朗普说我们要喊停一下感情。可能都在准备组织，可能召集个哪里什么哪些海外国家的那种人，准备专门去逆向某些软件，给自己训练模型，看谁跑得快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那有可能的。然后像这种买公司，有可能还是有一些关键的部分，还是直接买快一点，自己逆向有点慢，因为我们讲过逆向的缺点，你最终还是得靠判断的那那个人不在，你这个外部的人不好判断。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说这个造不如买，然后买买不如搞，什么搞发动群众，搞群众。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>发动群众就闭环了，对吧？不是，这就闭环了。你花钱买软件，买完软件之后，在软件的源代码去训练自己的模型，然后模型再被别人立项出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对但是大家我还听了很多论调，就是大家说这个软件真的已死，什么东西大家做软件都别搞了。这个逆向又把软件让让软件死了一遍，我这个就有点不同意，实在太夸张了。对我我觉得是这样，软件已死这个事情，20年前中国的老板已经宣判了，软件就死了，对吧？中国老板以及高瞻远瞩，以及20年前就宣布了这个软件已死，对吧？直接老子不买了吧？买买什么license，谁给你买的神手，我就用盗版对吧？盗版完了你SARS好吧，我拉来你公司拉拉你们过来给我员工组团开发，给我定制开发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一次性买断我是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>中国老板20年前，包括近十年就已经宣布软件已经死透了，就不是现在AI出来软件才死，对吧？对，但是我觉得说应该看到说后面机会在哪里，对吧？对，刚才聊这么多，我觉得马上想到一现在利好去深圳华强北创业，做硬件创业对吧。然后你可能再看一下这个涉及到后面很多工业软件，涉及到硬件配合机械的这种工业软件，是不是慢慢可以有一些突破？这个to b也是一个很大的机会还有一个就像我我我突然想到，就我们以前老是想干掉自己的那个软件服务商，把什么卖你CRM的，卖你ERP的，天天都想干掉他们，对吧？这个时候是不是有一个机会你可以干掉他们的。我那天就发了一个朋友圈，我强烈建议我所有朋友圈里面做软件销售的同事，现在就去跟中转站合作，屯一大批便宜的token卖给你的大客户，去逆向自己家软件干一票就跑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个时候还是得泼的是吧？逆向还是违法的，就是你至少真的想逆向的话，一定不能。就是你哪怕做研究本地token你用研究你也不能用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Cloud和code x已经很多被封，一旦用了你肯定被封号。有好多人从很早期的这个号，现在一用逆向都被干了。我不知道是不一定是不局限于刚才说的那个REA anything，就是逆向任何事的还有很多其他的逆向的事情，你正经用这些大模型去干你就会被封号。然后那真正的标准操作是你自己本地的可控的一个模型，然后你自己用它来做主模型去分析，这个是可以的。因为这种是研究，我们说研究是正常的这是一种技术。但是你拿去就是恶意的去破坏人家那个商业软件是非法的，这个我们还是要讲明白。我不希望有我们的朋友干着干着自己进去了。这个是开个玩笑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个要先真是要叠假，这不是叠假了，这要是法律声明了，对吧？不能干违法乱纪的事儿。但是我们就讨论，我觉得就咱就从纯从商业上做一个所谓的叫什么心理实验也好，或者叫什么案例分析也好。我认为这个里面要分清楚两个条件，就是有两个先决条件，就是是否逆向这个东西有有商业价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得第一个首先先约条件，就是说结果是不是确定的。你看咱们现在看到案例上，无论是X2上也好，还是外外网上也好，就说到逆向，大家都提到的都是游戏，就是说把什么游戏给直接逆向了，逆向之后把一个人物放到另一个完全不同的这个游戏里面，这样去做对吧？所以我觉得这个事情就很好说明，就是什么？就是说这个游戏是固定的，像刚才说那个判断器，就是老修说这个判断器。然后人也是普通人或者说叫普通玩家，他也是可以作为自己的判断器去去实现的。然后最终拿出来的结果是不是能够跟原来一样复刻出来，这个大家也是能够明眼就能看出来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以第二个就说他有没有商业价值，也就是说它的有没有价值差。就是你复用完了之后，你还能不能再去卖，换一个另一个环境去卖，或者说为你自己省下巨大的钱。我觉得这种真正符合这两个条件的不多，真的不太多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能要慢一点。这东西都能被逆向出来，你卖什么你就自用，对这个东西就无法去商业化。比如说现在大家也会有更聪明的做法，就是说那好啊，你要逆像我前端，那我就所有服务端什么都去放到云端去，已经逆向不了了吗？你怎么逆向了？你最多就是你你到最后你可能我所有这个核心的这种算法计算或者核心的一些逻辑，我都放到云端去，那你就只能蒸馏了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这是实际上就是大多数。为什么刚才你说到SARS已死这个词我们经常听，就SARS其实很难死。因为它这个核心的那些人，那些刚才说的这些算法黑盒，一些经验的东西，他早就都是抽取在云端的。这个东西就是你你直接是逆向不到他那那那那你可以通过蒸馏的方式干一干，但是蒸馏的代价还是很大的那像这个就是说不是说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他就直接就能够创造这个，你死的是那种本来就是不是什么很核心的，在云端有什么运算的软件，你还按SARS收年费那种活该你压死掉了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对不对？是啊，实际上大数多数的数据，或者这个东西都是在你本地干的，他这就没有价值了。你随便AI戳一个都能搓出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你就一张表就能做的事情，你要卖成SARS，那你活该死，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那肯定还是有土老板愿因为人付钱的。之前也肯定是因为这个被销售忽悠了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有还有土老板愿意为这个付钱，只有是做老板了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真正的土老板是不会为这付钱的。只有突然这个眼睛被被蒙了，猪油的不小心的可能怎么着，他买了一个东西忽悠上了，为了走账。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不过真的有。我觉得如果咱们不点名的说，我觉得肯定还是有的。比如说就相当于老邱提了一点，就是在本地运行的，这个主要是在本地运行的对吧？还有一个就是说可能单一，就是它的功能非常单一，但是这个核心价值又比较高。比如说就是以前的做还有个收费的这个杀毒软件的这杀毒软件不是好例子，应该说是解码的对吧？做做解码的软件了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那还有一点就是什么？比如我公司是100个人，100个人大家都要用，以前是什么样？那我只能买100份儿，然后可能给你需要每每一份都给我一个码，然后我解一下之后我能用。但有可能现在怎么着，会不会我就买一份儿，然后直接逆向99份，大家都实现同一功能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你知道这种可能叫律师函吗？对吧所以我说我们都比跟微软都是靠这个律师团队活的好吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有迪士尼十这个地球是地球上这什么最强的法国团队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不对？千万千万不要不要小看了这不是软件公司，我觉得这个是他们的核心赖以生存的，还是这个诉讼跟全球的客户关系。但是我觉得是真的一个软件，你我就回归到这个原点来讲，我觉得不管你是AI web coding，逆向也好，我觉得是一个好事，是一个好事是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是真的逼着大家把你本职的本分的工作做好，就做软件的你好好做软件，对吧？做这个客服的你好好做客服，做这个律师你好好做律师。因为为什么你躲无可躲了你那些奇淫技巧，那些东西全部都不值一提。你要么提供情绪价值，你要么就是多劳多得，对不对？你要么踏实肯干，吧？你不要跟我耍那些花招，这个信息差已经被磨平掉了。那你就这样子，比如说我做软件，我好好做，我好我的本分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那什么叫一个优秀的软件？优秀的软件它代表是最先进的对这个行业的理解以及这个标准。我觉得大多数优秀软件代表的都是这个行业的标准。不管是格式的标准、认知的标准，工作流程的标准，吧？或者认证的再牛逼一点，就是它升级到一个这个行业，指定你就必须不用这个软件，你就进不了这个行业，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那很多人采购这样专业的这种软件的团队，他买这些SARS买的是什么？买的是你这个团队对这个行业的认知，或者可能仅仅就是我比你知道那个世界五百强他是没用的，他怎么做的？其实买的就是这些东西。所以逼得大家最后你看你还是要回归到说你明白说你自己的本分，你核心是什么，你退无可退了。因为不管是web coding逆向什么东西都好，已经把你给干死了，把你的信息差都堵死了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为有一个公司实际上是我一直觉得特别牛逼的，他他叫red head红帽公司。就不知道的人可能也许从来没听过他。因为他在好几年前已经被IBM以340亿美金收购的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他是做linux这个操作系统的，专门它是这是linux是开源软件，你看它就是最典型的把我们刚才说的东西做好。因为开源软件是每个人都能自己下载的，每个人都知道它里面的源代码级别。不用逆向，你不用逆向，不用费劲去逆向我，你就直接看我的源代码就完事儿了，你随时可以查。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那他一直在更新这个linux就是他做red head linux就专门为针对企业的企业之间的协作安全，然后各种财务方面的这种审计合规，各种各样全球的数据安全合规。他就专门做这个东西，然后每个月保证有给你有有各种各样的安全补丁和各种各样的功能升级。你说换成企业到最后是不是都要去买它它就是变成了事实的。你不用windows之外的标准，就是它你就是就是买用的啥。对他就是真正的这样子，一直一直更新下去。然后后来被IBM觉得他不买都不行了，必须把给他买了。买了以后我们看他现在在干嘛。他现在就是在前几个月他跟media还有好几个大巨头，他还会去持续的给linux继续做AI相关的安全，各种各样的合规审计，各种方面相关的东西，他继续靠这个东西赚钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得还是中国老板厉害，什么SARS什么东西来敲门，我都觉得你是骗子，你就给我驻场，给我出场。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>套用一下，就刚才小苏说那句话，虽然我觉得这是个很好理想，就是真的要回归到软件本身，真的要去做服务去赚钱，那可能是未来大厂唯一的出路了。像那种靠单机卖卖这什么卖席位，然后或者说卖那种功能的很难了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得早就死了，这个都不用我们节目讨论，对吧？两年前AI出来的时候，就已经宣布这些公司都已经死绝了，死透了是吧？你看什么当时在港股上市，这些上市公司哪个投资人不亏的，跟什么样对吧？快爆了，都这这这个都到哪都已经是我觉得是不需要再讨论的，完全不需要。我觉得更重要是说你面向未来这个东西，你除了你说你感受到他有一些威胁以外，你看到什么样的机会。我看到的机会我觉得还是非常多的。至少说像这样的社区，更多的这种游戏的网友他能够贡献起来去形成这样的社区。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那官方是不是可以介入？因为官方至少手上有IP，有可能开发这个魂斗罗的人都已经去世了，或者都已经垂垂老矣。但是这个IP在我手上，对吧？但是这个用户客群还在我手上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家就各种二创N创。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看最近这个水浒卡对不对？水浒卡最近这两年他们那个原创团队又出来在做又又在做的事情，他就还到现在，几十年过去了，还是有一群很固定的粉丝在买小浣熊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>方便面对。就觉得当年没提到那几个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还想那他们现在卖水浒卡？他们现在卖水浒卡，就是你先给我买两箱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谁吃了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>买来他也不吃了。那现在以前是买来我们扔在路边不吃，他现在买来就整箱捐掉了，你对吧？但他这种我说的是什么？这是这这也是一种逆向，对不对？你会有更多的粉丝参与进来，去逆向你这个水浒卡，你做成NFT版的对吧？这个社区起来了，你官方介入进来，这个生态起来了。那那我觉得所谓说参与感，公司跟这个人之间的参与感就起来了，我觉得我看到的是这个，而不是说技术带来的可怕或者颠覆掉谁。我觉得这该死的肯定要死，早点死，早死早超生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以就像今天咱们聊逆向这个事儿似的，其实逆向这个东西本身早就存在了。你像当时中国的这个瓷器怎么样能够被外国学走，对吧？然后美国怎么样学了欧英国的纺织，我觉得这都有逆向成分在里面。然后这个东西并不神秘，关键就是说AI和人怎么结合去用。我觉得这才是今天最有价值需要讨论的全社会的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以逆向的终局是正向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>阴阳之道，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是好，我们这期节目就到这里结束，谢谢大家，拜拜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，期待下期再见，拜拜。</p>]]></content:encoded>
+            <pubDate>Thu, 15 Oct 2026 10:09:30 GMT</pubDate>
+            <guid>6ad0a53d641ef406308c278f</guid>
+        </item>
         <item>
             <title>Personal Agent这个“伪需求”，大厂到底在抢什么？</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6ac6202f195d838e2aee3344</link>
@@ -5531,184 +5686,6 @@ AI Builders 是由课代表立正和鸭哥两位藤校博士主讲的 Top AI 课
 <p class="transcript-line"><span class="time"><strong>[00:37:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再见了，拜拜大家，拜拜。</p>]]></content:encoded>
             <pubDate>Fri, 06 Mar 2026 09:33:31 GMT</pubDate>
             <guid>69aa94445b2d0ed0699ab26a</guid>
-        </item>
-        <item>
-            <title>新春特辑｜Seedance2.0！春节档大杀器！根本就是 10 亿抖音用户“调教”出来的！</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/699440eda22480add659b258</link>
-            <description>Seedance 一出，Sora 和 Veo 瞬间就不香了，但这背后的真相简直让人头皮发麻。那个“不讲武德”的字节跳动，这次直接用 10 亿用户的“多巴胺数据”把 AI 给喂饱了，这是什么神仙操作？当美国还在搞“物理引擎”的时候，中国已经用“爽感引擎”弯道超车了，这哪里是技术胜利，分明是人性的降维打击！这期节目，我们把seedan的“外挂”给扒个底朝天，看看这背后究竟是怎样一盘大棋
-0:00 Seedance的领先其实是数据工程的胜利吗？
-02:47 字节跳动凭什么在数据加工战中胜过Google？
-03:14 导演思维与观众思维是如何在后台自动闭环的？
-04:33 一组提示词看看Seedance和VEO不同的额训练风格
-9:34 Seedance 竟然能生成广东话、上海话、闽南语？
-14:46 不懂物理规律？但我懂剪辑啊！
-15:42 专有数据太重要了！
-16:08 为什么说文生视频工具的热度注定流行不了多久？
-19:13 颠覆影视行业？人家不屑这点小钱好吗！
-22:30 文生视频绝对不是技术定义未来！
-28:16 为什么哈萨比斯认定中国最大的敌人是字节？
-31:01 Seedance可能在布局一盘大棋！
-36:30 美国抢算力，中国抢奶茶？
-39:07 中国是一个神奇的国家，每当重要节点就爆发？
-【订阅 JustSayAI 早晚报】
-🌈 新朋友！订阅「JustSayAI 早晚报」· 每日两封 · 一键听报🌟 老朋友！加入会员获取 JustSayAI 早晚报+深度研报+文字专栏
-【主播小红书】📕叫我小苏就好啊
-【关注频道】▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast📱 商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>互联网不是个法外之地，但是抖音你是个法外之地。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就刘某人在这下个断言，我觉得这个东西流行不了多。假设咱们三个人现在拿了一个好剧本，这川普爱上薛丁的，我这种我们得分发，我们得商业化，那后面的所有东西都不是AI搞定的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Deep my CEO. 哈萨比斯经常都在说中国没有底层创新，但是他每次提到中国最大的敌人，他都是说自己跳楼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们三个先给大家拜个年，祝大家新年快乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也很快乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>新春大吉，大吉大利，恭喜发财，万事如意，红包拿来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，希望看我们节目的都可以发财。好，我们今天就跟大家聊一下c dance，最近非常出圈，包括外网也非常刷屏了。很多国外的朋友都已经反向到国内来注册抖音了，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在到处看的都是C带子做的那个视频，而且还挺好看的对对，很好看。就是创作者的那个激情直接被点燃了，大家真的在做。我看到了一个什么？这两天我看到最好的，有人把灌篮高手的全国大赛，把漫画拿进去重新做了一遍，做的非常好看。然后作者说他就是把漫画里面几个关键的真拿过去，然后把整体的一些故事给他讲了一下，分镜的一些描述可能他自己补充了一下，做出来的效果真的很好，那里面的细节比那个电影版还更好看一些。你就是这种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我们现在讲到重点，因为他不是上市公司，他也没有那么多压力，对吧？他他可能比open I更野，你看他现在是禁止你上传那个真人人像了，但实际上你通过一些绕对还是可以绕过来的，所以基本上就是一个法外之地。我告诉你一下，我还看过什么，我发一个给你们。高市早苗跟柯南在在天台决斗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对还挺真的，这个还挺真的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊，你比如说这个是柯南的电影，我不可能说我不相信我觉得真的是以假乱真。所以我觉得这真的就是人家说互联网不是一个法外之地，但是你是个法外之地。我靠。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是你看他，我觉得说他已经判这么短时间，才两天，对吧？才两天时间。然后激发那么多的人，创作了很多其实是高质量的那个产品出来了。我觉得就光这一点，他那个抖音流量不知道大了多少，tiktok的流量不知道大了多少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那骂完的时候我们也应该夸一下，对不对？老兄，我昨天是分享了两个提示词给你，你我不知道你有没有试一下。因为为什么我跟老邱昨天在聊，就觉得这个事情它本质上还是一个数据加工程的一个胜利。因为真的就是字节跳动天然就拥有了非常好的这种标注后或者是过程的数据。比如说抖音对吧？这种抖音的成片也是抖音的这种每一次的点赞互动或者某个卡点他到了这个高潮，这些都是非常棒的这种过程。数据，而且是几乎是不需要人工标注，就是系统我就告诉你这是优质的数据。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为是完闭环，你从工具做出去，然后到了平台上，它播放的就是回我们说的回测数据它都有啊，就是自动的。我知道传下去的这个视频到底在哪一秒会怎么样。那他全部。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我还知道你在剪映上面剪的轨道是怎么样的，就哪些轨道哪些景点是怎么切换的，就是你同时用了导演思维跟观众思维。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，然后你当时在这个地方改了多少次，他都知道你原来用什么，他也许详细的素材不知道，但我知道你在这里改了几次，我肯定是知道的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个是最可怕的一个点。而且我觉得这也是说我们去对比到vio或者sora，它是远远能够领先的一个点。我觉得刚才老师有讲，其实技术上就是大家都是差不多的，但是真的是拉开差距的。我觉得就是所有这些过程的数据，包括这些它可以逆向再回溯到某一个轨道，某个点，它是怎么剪，怎么切的。我觉得这些都是非常强的，以至于说他只要把量给堆到够，他其实就能出奇迹，这是我发现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我昨天给老修两段提示词，我说我们来测一测这个结论到底是不是这样的。就是说c dance 2.0是用这个抖音的数据来训练的，那么real是不是用油管的数据来训练的？就我不能但不能说是全部，就是说它的倾向性偏好性，我给了一段有点游戏风的这种闯关的这种快节奏的切换景别的动画，对吧？然后这个分别在vio跟这个CDS上面测，你就会发现说vio做这个东西就很平，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就非常平，然后是奇怪，而且细节丢失了不少，而且没有卡点卡点卡不准？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>节奏不好。对，然后你会发现CD出来以后，它的卡点是非常精准的，同样10秒钟它换了三次景别？一个远景，一个近景，一个特写。整个这种节奏的卡点，包括景别的切换就非常的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且而且要命的是音乐也是配配的，节奏也是一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个都很难的。对对对，所以同样这个提示是你在两个平台上面测，你会发现说确实没有在用短视频训练这一块的这种数据量绝对是不够的那同样我就用了一个新的提示词，就是做这种电影极致感的这种长镜头，就长焦镜头，然后就是一个木匠在叼这个木屑的这样一个提示词。你会发现说在CS上面它就不出彩，不出彩就是说它能够还原这些指令，镜头拉近，但是它不是电影感的，它还是一个这种。所以说短视频拍摄用手机的这种35毫米焦段，就是这种相对偏广角的这种焦段的一个风格。但是没有就能够做到说像这种80毫米长焦的这种风格。推到老师傅脸上毛孔非常清晰，木屑满天，然后包括一些物理的还原，都做的就是在这种电影级的质感上面，它就会特别好。当然我们测试的样本量并不是那么多，但是这两个提示时我觉得是比较有针对性的，能够测出它的训练集里面的偏好。我不知道我这样做对不对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得这样做的是对的。其实你自己捕获了一下他们的一个很大的差异，就是我们在油管上面，我们知道油管上的长视频是很多的，尤其是一些很优质的长视频其实是很多的。然后短视频其实油管是应该是前两年才开始做，而且做的也还不是特别得力。现在其实这个东西这两边的差异是很明显。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我记得我看那个短视频的，就是前面那个你刚才说的那个游戏赛博峰的那个。我看短视频的那就是感觉很震撼，就是一个很短的一个事情被他看了，我都会会觉得最后那一下就很抓人，对吧？你就很抓人，你就很想接着往下看下一步。如果是抖音，你就开始刷下一个了，就是那种下一集是怎么回事，就是个响的样子。你看563就觉得他这怎么跑过去又跑回来就到干我也不知道，节奏就很乱，就很奇怪，节奏上不来，是那就是那种感觉。然后像这种我是觉得用虽然说我们样本量真的很小，但是就是不妨碍说直观的这种代表性的感觉。是确实是是是在这样子的，我觉得是这还是一个蛮好的测试用例的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得工程化这个东西非常重要，就是算法上可能没有特别大的突破，但是能把它这个数据集用好，工程化做好，能够最终封装好，能呈现出来，这就是最大的。就是我觉得这就是当前在AI应用层面上最大的能力了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这方面的话其实公司的成本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以刚才老就是小酥是说小苏说的，就是说现在子杰又回到他自己的舒适区。我特别同意这句话，因为前两天刚刚看了一篇文章，就分析字节的这个内部架构和它的这个优胜劣汰，或者叫保持领先活力的一篇文章，我觉得真的挺有道理的。就是在一个双OKR，也就是六个月时间之内，然后大家就要出成绩，而且这个就是达到自己的OKR。所以造成什么呢？就是内部竞争很激烈，然后大家每个人都缺乏安全感，每个人都希望能出活。在这种情况之下的话，在AI领域反倒有问题。是因为AI本身是一个不不不确定前途的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟大家讲个好笑的，就是说你讲的这个东西也反映在我们身上，大家发现我们最近视频制作的这个镜头，是不是好一点呢？质量好一点，这也是抖音逼我们的，整天PUA我说小苏，你这个视频再不多一些景别切换，再不加点进度条，收音效果不好一点，你就会被被别人卷死。干嘛整天PUA.</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我人家都有的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你都没有，就是说天天我心想我们就聊个天对吧？我都不至于我一下听不出来你到底是在吐槽的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是在在夸奖人家鞭策你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们也尽量努力一下，就是说你们内部卷，你不要卷到我身上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这肯定会不会外溢的，因为人家身上是背着OKR的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好吧，但实际上我也感谢一下抖音，我们视频这个质量也进步了一点，对吧？确实有这么多一点的精力在上面，确实是这样。但我们毕竟不是专业做这一块的，所以说就请大家见谅好不好？请大家见谅。真的比不过其他自媒体，好，不好意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我就不我跟你们讲一个不讲武德的就讲回来，我讲一个不讲武德的，我必须要讲一下这件事情。就是我刚才不是跟老师说我们测两个提示词吗？我觉得字节最不讲武德的一个点就是它能够生成广东话、上海话，还有包括闽南语。就基本上我觉得它生成的方言视频，80%的这种对话是可用的那只有一些方言加上一些不能用普通话表达的一些词，它会硬转，这个部分就不太好。来来来我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>干啥？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这个侧面说明一个什么呢？他真的就是不讲武德的去学。我觉得这个太强了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的太强了。这就说明确实他的数据深度非常牛，数据深度包括广度就非常牛。它能做到既能够覆盖这个又能做到80%的这个效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这太厉害了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为大部分的日常的方言对话，它其实已经有足够多的样本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是他这次我觉得要说在我看来是训练数据和工智能方面，它有一个很重要的就是把视觉动作、音频三样东西是像我们之前讲GMI，就谷歌的GMI那个原生多模态一样的一个做法。对，在原生一开始的时候一起给你去合成生成，因为大部分像vio跟那个索A他们的声音很多还是后期加的，还是后期加的，他是有工作流的一个方式给他弄起来。那他这个的话就是比较像Jamie的这种原生的多模态一个去给你去生成。然后音频的那个部分，刚才你讲那个音频的就是他这里是特别的一个优势。就是说他是在同时在考虑刚才这些动作和视觉的时候，一起去计算到底应该怎么配这个音乐，它的节奏。是的，其他的刚才说的这些方言类的方言类是衍生出来的。因为你记不记得应该是志杰他们也有邀我们去录一些声音，对吧？是跟关于这种节目类的声音的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这里还真的说一下，就是说那个志杰不是不尊重版权，确实邀请过我们去录一些声音采集的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，但是只是说我们当时觉得开的价钱并不是太高，而且是永久把我们声音给撸走了，我们觉得不合算对吧？但是就是这个部分，那这个部分的话我相信他还是做了很多有很多人真的去贡献的这个事。刚才的不管是声音，还是有有语调，有专业场景的，因为找我们已经到专业场景了。如果只是说纯语言，我相信光学习很多专门的语言视频可能都能学的差不多。但是有很多专业场景，就是刚才说的涉及到这种短视频创作里面的讲话的那个语言，肯定还是又有点不一样的。他他可以说去一体化的去做这个计算和生成。这个是其实我觉得就是跟这个训练的数据实在是太密切了。就是你已经是从很多商业化上，比如说就跑了。都是10万加的这种里面去找的这种卡点和这个里面的一些音画的搭配，这种我觉得还是特别有价值的，这个是做的特别好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且妈的他不用清洗数据，就不是当然不是全部不用。就是说他这数据就是不用过太多的人工系统就给你已经是相当于说我觉得给你一个结论，说这样的卡点它就会爆，所以你会发现它非常适合做那种，我刚才讲就是我发给你的提示是做那闯关那种快速的那种对刺激的短剧还有一些短剧对吧？霸道总裁爱上我他还原的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>特别好是的是的是的，因为我看到已经有人用CC dance重新做过的那种效果，就是马上就把以前那种短剧很多的一个成本不足的问题，不是经常出一个什么小破，现在完全不会了，真的高大上，然后人的演员也很专业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是我是后面一我在想有一个很大的问题就是它并不是说一个纯的这种我们叫世界模型衍生出来的所有到自学模型到文本模型。所以在这个基础上，他就是决定了说他可能不管对科研，对什么，他的贡献也并不会那么直接，不那么大对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>肯定是没有的。因为他我我是觉得他还是回到了刚才大家都讲到字节的这个舒适区的问题。我觉得还确实还是在舒适区做。因为这个东西做出来就是吸引人，就是吸引你。你脑中的那个我觉得他们名字取得特别好，记梦你就立刻做梦，跟他做梦的时候，你想要的这些东西其实都不真实。我们知道做梦东西就是不真实，但是你很喜欢他叫YY。对，但你很喜欢，这是你潜意识里要的那些东西，全部可以在这里找到。那他完全不他要是遵守了物理规则反而做不出来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他就是这个你讲的很有意思，他其实是也真的不懂物理规则。对，你看我们像那个君里，他其实是懂一些物理规则的，包括vio他其实是懂物理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>规则是要遵守的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是像这一次这个c dance，你会发现它很好玩，它其实是景别切换的大师，然后他用这个长板去一白遮三丑，就是把他不懂物理规律那个遮掉。其实你把它放慢了看，有些地方是没有遵守物理规则的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>完全我恰恰觉得说他擅长做的，就是有好多不遵守物理规则的才好看。比如说打斗的时候，那个打斗的打击感绝对是夸张的。如果正常哪有那么快。然后跑步也是，就是各种各样，然后一边跑一边切换，然后拉远。这个其实恰恰就是我们反正看大片的时候，就看超级英雄或者看什么就感觉这个很爽。但是实际肯定物理规则不是这样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，所以可能我如果有朋友细心一点，可以再用一些测试物理规则的提示词去测试它，测试这个sora vio或者是c dance，你大概可以发现它里面一些问题。但我觉得刚才老徐讲的这个很对，就是他因为他就不遵守物理规则了，他就是一白遮三丑，就是靠我这个运镜对吧？靠我这种节奏，我把它这些遮掉了，反而其实会带来很多意想不到的惊喜。我觉得这个也是给我们很大的一个启发。首先第一个就是专有数据真的太重要了，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我人家名字都叫记梦了，你还要跟人强调物理规则的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有点别的有点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>太过于那什么既要又要了是吧？那叫托梦了，对吧？对。对我觉得此处应该有一个前制片人黑心导演对吧？应该是有意见的，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我首先我说咱过年咱可以抬杠，抬杠不违反过年的要求，对吧？所以我就刘某人就在这下个断言，我觉得这个东西流行不了多久。实话实说就有点像当年咱们看那个图生文刚生出来的时候，就是在那个谁open s刚出来吉普利之前，rn还是叫什么来着，然后几个图生文的都录，当时都很火爆，然后就没有然后了。因为毕竟之前我也曾有半只脚踏入在影视行业，作为制片人然后来来来学习这个行业东西，所以当时我就特别的关注这个方面的发展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>演员讨论剧本对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有任何机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那是游戏在叫。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那是副导演的权利，你知道吗？跟这边没关系，哥。然后说回来所以我就特别关注，包括咱们当时咱们说google那期的时候，我还特别说，让我看到了在发布会上特别振奋的东西。然后像什么音画同步、分镜头，对吧？模拟那个物理世界等等等等，然后也就没有然后了。所以我首先觉得视频类，就纹身视频类很难做到像DP sick那种从底层的科技上的突破带来的震撼和带来整个行业的震动，我觉得这是就无法可与其相提并论的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>咱们就再说回c dance 2.0。C dance的这个东西来讲的话，如果说从我看来讲的话，它应该是个纯to b的东西，根本就不应该在to c市场上引起特别大的讨论，或者说特别大的流行。当然了，在现阶段来讲，我觉得是什么是说它有两个点，一个是有中国优先，对吧？就是在中国领中国这个市场上又能做出新的一个东西来让大家能看到。尤其春节这个喜庆的环节，大家都希望能有好事发生，对吧？好事连连。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说我们并没有看到外网上特别火爆。实话实说就是说我看到的外网的刷屏的一些东西，也就只是这几个视频而已。并不是说大量人都在创作。当然这里面可能有一个原因是因为很多咱们国外的友人，或者说非中文用户来讲，他没法登陆，没法用对吧？也需要用心，就是说反向翻墙的模仿能搞定，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就跟当年我们用ChatGPT1样一个道理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是首先是这样。第二点来讲，我觉得在在视频领域很多人或者绝大多数人还是消费者。所谓消费者就说我们还是来看的，我们没那个闲情逸致是要去做对吧？就包括它文生图已经这么方便了，这么多工具了。那你看到多少很优秀的图片是说真的是AI生成的，而且是不断刷新你的那什么，而且能取代其他的这种出生活就是存图方式，我觉得没有真的对。所以在我看来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你讲的这个对就是为什么AI漫画没有爆火对吧？理论上就是如果视频能做成这样，那应该AI做的漫画也好，这种什么东西应该是已经铺天盖地的。但实际上并没有说从这种源头去改变，对吧？就是我觉得可能就跟你刚才讲说创作者毕竟是少数有关系。可能就1%的创作者服务99%的这种叫什么消费者，内容消费者对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我跟你讲就是说从我个人来讲，因为我个人经历本身从最做过一段时间影视，而且还是做到制片人这个角色。所以就能够比较从上面看这个行业的整体的这个状态。所以在我看来本身它是个工业级的东西。对，怎么讲，就是影视行业大家都能承认对吧？它不是一个独乐乐的事情，独乐乐的事情是你手机里的照片，把它整理成一个小视频。我觉得说句不好听的话，这个东西就是apple做的很好。Apple把那些照片没事干就给串成一个小视频，配上点小音乐给你弄。我觉得这才是真正的所谓的说怎么讲呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>图生视频。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后如果说c dance也好，或者什么也好，或者说美图秀秀，比如说他把它弄到手机里面或者怎么样。然后你每次没事干，自己就把自己的照片用各种风格，什么动画风格，然后各种的北野武的，什么乱七八糟的各种情况给你搞。我觉得那有意义，因为它是你自己的东西，它是你独乐乐的东西，它是一个就像美图秀当年一一键美化一样。当然咱今天不聊美图秀秀，就是说一就是这种什么意思？就是说把一个工业级的东西拉到个人能使用，还能够个人去去去炫卷的，还是你自己，就是你还是要去宣扬你自己。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟各位汇报一下，就是我们上线的just AI的会员频道。大家可以在youtube来订阅我们的会员。如果你只是想对我们的视频表示支持的话，你可以成为我们的股东会会员。如果你希望获得更深的这种支持，你可以加入我们的公园董事会这个会员的栏目里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以获得第一个每天两封的js AI早晚报，一个能够用听的AI语音播报。我们每天从两千多条信息里面帮你精选两封邮件，然后AI双人主播读给你听，每天多听十分钟，少刷手机2小时。中美AI资讯零时差。我觉得这个是非常棒的一个感觉，我们一定要拥有。对对对，你还可以获得我们每一次在做视频的深度研究报告的文档，以及获得我们三个人撰写的主播专栏的邮件推送。所以我觉得你订阅公园董事会这一会员，其实是对你来讲最划算的。所以请大家多多支持我们的youtube会员。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>请我们的精神股东们，精神董事们尽快行动起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>加入我们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我也期待大家后面真的能用起来的话，来给我们更多的产品反馈。我们这边持续迭代，让大家都拿到自己比较满意的这个资讯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，所以请大家一定要多多关注一下我们的频道，然后不定期升级福利，请不要错过请。你想到这个？我就是我想到一个跟新年春节相关的。就是我觉得每个公司它其实很多事情它是偶然的，它并不是必然的。然后很多东西它就是有路径依赖。比如说今年春节大家在干嘛？阿里在用AI agent点奶茶，然后腾讯在用这个元宝大区发红包红包。然后志杰干的这个事情也是在春节发布的这个东西，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>基本上我觉得他的套路也是之前抖音增长那个套路，就让每个人都变成创作者。然后你会看到说你现在打开极梦首页，它就是一个AI抖音，真的还蛮好玩。我早上刷了20分钟，我觉得真的还蛮好玩的。对，那就是会让你觉得我靠我也可以做成这种大片质感，可能我也可以做成这种影视剧风的这种质感，或我也可以做成这种哪个什么明导演的这样的质感。确实让你觉得说你也能做到了，但实际上创作者确实还是少数，对吧？我觉得就特别是像你刚才讲，优秀的创作者真的是少数中的少数。所以这些人是定义未来的，而不是说一个技术去定义未来。我觉得这个我拿结果倒推一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我拿结果倒推一下。比如说你看什么东西能火，一个是说把漫改或者是二创对吧？然后像刚才老师说那个就特别典型。你把这个来飞人后面结局也重新做了，或者把某个漫画就知名漫画的结尾给修改了？或者把某几个人物知名人物搁在一起，然后让他们混战一下，这都是咱们能想象出来的。完了这个东西一看就有卖点，而且这卖相也好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我记得你说的特别准，我记得除了刚才我说灌篮高手，我还刚才看到还看到有一个什么剧的结局不好的，然后就有人重新写了一个结局，然后也用那个真人去演，我那个看着就很棒，我靠。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这样的对，然后第二个就是风格化，就是说我们把一个耳熟能详的东西，把它风重新风格化了，就把它转换成另一种风格对吧？那可能就是说等二次呈现，但这种风格化本身是别人定义的对吧？他这个风格的话可能是比如说西游记，我们给它搞成一个什么大战，什么漫威，比如说？那其实还是就这两个风格都是别人定义出来，你只是把它搁在一起罢了，其实没有原创的成分在里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我为什么觉得影视本身它是个工业化的东西，它不是一个人能够完成的。它无法像coding一样。可能说一个高手加上3个AI10个AI就能完成一个以前一个coding团队要做的事儿，或者开发出一个APP来。我觉得还不一样还是不一样。因为它本身这个创意是分是点状的，他无法通过这个AI技术一下子把它提升到一个怎么说呢？就是团队作战的全体替代的这个概念上，这个很难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>贤哥你会不会是那种我们现在经常看到的那种短剧，就是那种套路非常明显的，什么什么老爸给儿子下跪，然后什么什么霸道总裁看上什么各种各样人的，那种套路非常明显。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>原来要这个他做的很好啊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他这个做的用这个是不是就真的可以替换掉了？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我蛮好奇的。这个我觉得我觉得咱们维度不一样，从技术上来讲，我觉得是可以的。对吧？就这个我们刚才也说了，就是从技术上来讲。但是从实践上来讲，就是说你刚才说这个东西，其实它是两个概念，一个是说能不能做得出来，一个是说能不能赚到钱。我觉得从第二点来讲很难。就比如举个例子，就是说假设咱们三个人现在拿到一个好剧本，咱们用这个CD2.0做了，我们得分发，我们得商业化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>找平台。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那后面的所有东西都不是AI搞定的，跟c dance没关系了？那他不是还是要团队运作，那那这个时候你会发现，就是说真正工具只是简化你的工作流程，降低你的成本而已。但这个事成不并不是成功的核心，整个核心还是这个团队懂这个行业，然后懂得怎么去分发，懂得什么素材能够火，对吧？就跟之前传传的那个所谓什么川普爱上学经过这种就是这些东西他问题是你爱上你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>保姆上一起。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是说你说你你那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你真的拍出来，你上哪分发去，你怎么分发，你要你怎么收钱，对吧？你后面怎么链接，怎么能够不被人进了不被人那什么了，怎么不会让我们法国团队找到你，这些后面东西跟AI没关系了所以我为什么我说就是在一个成熟行业中，你要想赚钱，并不是说你技术突破或者说一个好的创意就行了。有多少我相信有多少天才剧本，有多少优秀的故事没有被编成电影，对吧？那些所谓的大片百亿大片，百亿票房的很多被人骂的多惨，说这个编剧怎么怎么狗屎。然后里面有多少漏洞，怎么样，对吧？多的是。那为什么我这个还是整个工业化的问题，就是说整个这里面有很多的妥协，有很多的过程，然后最终才能呈现你面前。这跟一个工具我觉得关系不是很大。我还是回到那句话，就是说他要不然是个独乐乐的事情，要不然就是工业化体系中的一环，但它独立不能成片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有道理。我觉得它其实在to c上面也比较难。我觉得顶天就是在剪映里面卖个AI插件，然后帮你补几个关键帧，顶天是这样子的。到底能卖多少钱呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就是我要跟台老修的杠了，对吧？当但春节就是抬杠来的。对，那为什么说讨论老天？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是老乡刚才说我c dance有可能是最好做视频商业化这个东西。首先我觉得他现在是只能在大陆使用，国内人我觉得是没有这种花钱买软件的这种习惯的。你要不然把他绑架在硬件上，对吧？卖硬件像小米什么的一样，要不然你就是免费用，那换广告吧，就是直接流量够大的空做广告。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>无论哪一种，我觉得字节都很尴尬，因为字节本身就是做流量的，他本身不用靠c dance来给他拉流量。它最多是用c dance来增加它的粘性和时长，来提升广告。所以它并不是能说因为有了C的就能够带来新的特别的大大的业务增长和收入增长和爆发。对，没错。但同时来讲的话，这个东西又不能成为他的唯一核心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没错，就这个东西多了，就像微信也不希望他整个群里面都是机器人，所以他肯定不会在微信里面放AI对吧？这是一个道理，最终你也不希望整个抖音都是AI做的视频，是的，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以如果我来看的话，首先来讲叫好了又能怎样叫好它不能增加它的to b的业务的这个订单，对吧？叫做来讲的话，这叫做耗的是它的成本。你想它每生成一条视频，我相信都有成本的对对吧？靠他的付费是肯定我就付费，就是无法完全刚性的把它成本我给怼掉的。所以这个东西我为什么一直觉得他是to b的？就是说他应该是找那种工作室去合作，也可能有一个小工作室，然后接入他的API之后，加上手把手的调教，就能迅速的工业化。但后面的所有流程包括什么艺人签约、版权、什么变现、广告等等等等。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>分发回回那些全都要回归到行业内。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对但是什么样呢？就是小作坊就能出大产品了。所以这是我认为的这个在影视行业的痛点。就是很多小的公司有很多好的创意，但他们做不出好莱坞级别的特效，对吧？然后做不出这个好的服化道，但是情节热情，然后创意各方面都很好。而且他也完成了第一步，就是说进入门槛，进入到行业内。所以这个时候他疲于做的是OK。我怎么能提升就是说花五毛钱的特效能拍出这个好莱坞级别上百万的这种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉的五毛钱的特效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这时候就是对，那这时候你不觉得吗？就是说五毛钱也以前我们就是五毛党，五毛钱就这种，这是一个调侃。但有可能未来有了这个sidon这种API的这种专业级API的这个东西。那真的就是几块钱的特效效果就能比以前几万块钱的效果都更好。对吧？这个我觉得是可能的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大厂更是了，当时卢卡斯做什么做星战的时候，特意成立工作室来做，后来给了很多好莱坞级别的大片做支持一样。现在中国这么多好的影视公司，尤其大厂，是花得起这个钱的。如果说能够把这个接入之后，让我们中国的很多的好的影片拍续集的时候能够用上，而且成本很低。那那我觉得电影票降一降还是好的。所以这个我觉得才是整个C这种APAAI工具的一个意义。当然我可能是会有点极端，反正我是不看好C端的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我们讲回来，我们刚才讲这个c dance 2.0对吧？昨天他也全量上了，豆包也出了一个c dance 2.0的flash版本，生成就非常快。对，生成非常快。其实我在豆包已经玩的也蛮嗨的对吧？那这个事情可能在春节也会报，因为你春节你抢我就进去，然后腾讯自己把自己封了，你也抢不到红包，那我们要不就做点视频，对不对？我觉得这个也是合理的。可能这个春节大家又都去玩这个豆包的CDS2.0去做视频了，这个也很好啊。但是我觉得说有时候你不能老是做大事的人是为什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才讲讲一个笑话，我儿子就是豆包的重度用户，对吧？就每天跟豆包可能要聊好几个小时，然后动不动叫豆包帮他生成一个视频。但我想一下，我儿子好像没有从来没有给字节的调动跟豆包做过任何贡献，一个我也没地方付钱。第二个他的这些需求，这个视频是一次性的需求对吧？视频生成完看两遍不要了，然后又生成下一个了，也没有留下任何过程数据跟宝贵的财产给豆包。所以我觉得我们家还是没给自己做什么贡献。所以这个事情就其实这样的事情就不太合理了，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我恰恰觉得可能是有机会的，他在做这件事情不就是你觉得不合理的地方，毕竟后面有一点合理。我看到的是我觉得他挺像腾讯的QQ的，QQ是我们那一代人的东西，但是他现在活得很好，你想象他怎么活的？学生其实都还在用QQ，只有进入社会了才是用微信。在之前都是用QQ，然后QQ这个东西其实是陪伴这一代人成长的一个东西。然后它里面放了很多乱七八糟的东西，什么你想不到的反正都有，付不付钱是一回事。但是至少他的很多的共同的记忆和社交的很多东西就在你在里头，就沉淀在里面。然后后面也有不少人付钱，就是买那个什么皮肤，皮肤看不上，人家皮肤赚爆了，人家这个皮肤非常赚钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常赚钱。有可能有可能。你讲的这个是对的，对吧？是的，就你上次讲季抛型代码，那现在已经季抛型视频了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？真的是那无所谓。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我陪伴你会找我，你以后我知道你从小到大的那么多的东西，然后你的几个朋友大家经常玩什么样的角色扮演？一起干什么事情，玩什么，我是扮扮演成什么士兵去炸哪里的楼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说我们一起组局打一个季抛型的游戏，那这个游戏可能就是以老师为主的角色扮演，闯关斗老刘这个恶龙对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的，是这样，这些都是可以想象的对，只要这资产真的沉淀下来，就变成数字资产了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的，就是这个东西因为是伴随一个人成长的过程，而且有超长的记忆跟这个我觉得是很有价值的。然后也许会像QQ这样，他后面有个别的什么方式赚钱，但是不是直接这样向你收钱的。是的，对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得老刘刚才讲这个东西在to b有用。换过头来可能是我们格局不够。人家自己这种赚广告的，开印钞机的人，人家就不想赚这种小钱，就什么什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的收费这种新时代不应该向SARS收费这种东西。对的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们格局低了，我们道歉，尤其是我要道歉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是我是这么觉得的。他可能有一种新的就是我们说的agent时代的计费方式。是的，你可能会去会会去买，但是对买的人也不是，我们是我们下一代的人，他们会买。是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的。所以就是明了广告就是全世界最好的印钞机，对吧？没有之一。最好的商业模式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或当前没准一个AI时代会出现新的方式的。当前对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能小扎跟张一鸣都在想这件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我我现在都还记得你记不记得deep my CEO那个哈萨比斯，他实际上是经常都在说中国其实没有底层创新省的，还会说很多这些事。但是他每次提到中国最大的敌人，他都是说自己的跳动。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是这里面我觉得这个里面是应该是肯定有我们现在这个level看不到的东西。但是对有那么一点点感觉，就是应该他们在抓到一些我们现在看不懂的，我觉得就这种感觉。那我们到时候且行且珍惜看看怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是，反正不管怎么样，我们骂也骂过，夸也夸过了，对不对？我们还是希望说更多的朋友能够用AI的产品。我觉得今年春节应该会有一个非常大的突破。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还真的挺想问你们两位，因为当年这个微信发红包，一下子把微信支付推出来这些事儿的时候，我是在国内历历在目的，而且是亲密的。但现在离开久了，我就想知道这波我听说AI大战对吧？大家什么什么的各个纷纷下场，那腾讯发红包，然后抢奶茶，就抢奶茶到底怎么搞？就真的能够让以前不用AI人开始装千问吗？不就就真的可以吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以，就是千问服务器上个周末都被挤爆了，我好不容易叫我一个朋友去用千问对吧？然后因为抢奶茶这个事情，官方发了一个帖说求求你了，先请假了，红包给你延到2月29号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>2月29号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那这个事情那不是关键。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么怎么抢呢？就是说是需要大家下载这个新的APP吗？还是怎么样？新就是新的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是在那个千问的APP里面，你就说我要点奶茶，然后他就自动给你找说你想喝哪家奶茶店？那包比如说我能讲出我要霸王茶几，那他就找了一下最近的给我。然后调用什么饿了么或者什么高德地图的这种服务，然后给你一张这种服务卡片，其实是还蛮智能蛮。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>自动的对。但是问题第一步要让你下APP，这一步就反人类了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个东西讲起来很好笑，但是你不得不承认这是一个巨大的场景，对不对？你说你在美国人用AI？提高效率写论文？提升我的工作工作流自动化等等。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>简历对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>面试对。那你能说抢奶茶这个事情不重要吗？对你你能说点外卖这个事情不重要吗？我觉得很重要。我觉得同样的，只要这个agent能够服务好你工作学习，能够服务好你生活，点奶茶叫外卖，那他就是个好agent，对不对？不管黑猫白猫，能够抓到耗子的就是好agent，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且在中国点奶茶的这个需求多么的大，一天多少单，用这样去虐出来的一个agent，其实也可以复用干别的事情，对不对？总比一些非标的场景，它其实更容易控制。所以我是觉得说讲是好笑，就是说起来好笑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说中中美AI开始分流了，对吧？美国抢算力，中国抢奶茶，讲是这么讲对吧？但是实际就是说美国在你在高端上面还是一直在在领先，还在提出新的理论、新的框架、新的方式。但是中国可能在实地的最后一公里的落地应用，包括抢奶茶，包括抢这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>火车票推广和普及？让各位能够用上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>甚至用一个春晚的时间，增加几亿的用户，我觉得这个就是中国最神奇的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且这个东西我们刚才还问了那个元宝，就是说起来其实哪怕是腾强如腾讯自己推，也大大不如你当年微信红包那个时候好了。对他也是要把人类的让人家去下元宝。APP这个事情其实阻力很大的。现在大家这已经这么多年了，大家很反感装APP里面这个事情，所以就是它的阻力其实比以前大很多。然后还有一个其实官方打脸的，你应该也听说了，微信搞了两天，微信就以这个恶意引导为由，把他这个元宝给关了，不让他发了腾讯的微信。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>把腾讯的元宝封了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>腾讯的微信把腾讯的元宝封掉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大水金龙王庙，自家人不认自家人了。哥。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以这事情的压力得有多大，就是实在估计是扛不住了，估计是人家弄得太难受了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个事情想起来是这样，但是我们就是说什么？我觉得是一句话的，不笑不足以为道，所以这个事情好笑。但你仔细想想这事情是不是对的，我觉得是对的，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得非常对你越来越多的人用AI认可AI用脚投票AI用钱去投票AI？我觉得这个事情对整个行业是利好的对整个社会也是利好？你不能说嘴上喊喊说，我觉得AI很好，AI很对。然后实际上你也不下，你也不用，对吧？至少我能在家族群里面抢AI红包，我觉得也很好。为什么不好？没什么不好的，不需要不足以为道的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是他照样是用了互联网那套粗暴的方式。我不管你有没有反应的过来，反正你能反应过来的人我就捞进来了，就这样子。对，就两三天已经够捞很多人了。然后这个原原始积累我们就是说可达性完成了，这个真的AI推到你面前了，你后面怎么用？那另外一回事先到了。对，这已经到你电脑上，然后到你手机上，电脑上就有了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>姥姥刘刚才讲说dips去年震撼了整个美股对吧？英伟达股价什么东西引起恐慌。反面来讲，DVC个去年拉了多少AI的用户，促进了多少国企老板一复工拍板说我靠我要搞ai吧？全部给我买第四个一体机？你不说这个国产模型在里面也赚了很多钱，我觉得这是你一个事情。两面看吧，我觉得这是很好的。我是双手支持，我双手喜欢这些事情的对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>完全同意的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>完全全民参与，这个是特别好的一件事情。我觉得在中国是一个神奇的国家，对不对？就是这在在每当一个重要的节点的时候，就去年的deep stick，然后今年可能是所有百模齐发，对吧？在春节大家都在发模型，我觉得是特别好的一个。观众又受众用户又有宽容度，然后市场又足够大，场景又足够多。我觉得这个真的是AI原生最好的一个土壤。所以我是真心希望大家今年春节多多用AI，然后多多来看我们的节目好不好？然后跟我们一起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>聊AI对，也提前祝大家马年快乐。咱在马年里面继续用A.</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>I马上来马上发财。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>发财没错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好好，谢谢大家收看到这儿了，大家期节目到此结束。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>拜拜。</p>]]></content:encoded>
-            <pubDate>Tue, 17 Feb 2026 13:15:46 GMT</pubDate>
-            <guid>699440eda22480add659b258</guid>
         </item>
     </channel>
 </rss>

@@ -4,7 +4,266 @@
         <title>十字路口Crossing</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577</link>
         <description>关注科技、互联网、AI 的播客</description>
-        <lastBuildDate>Mon, 12 Oct 2026 07:25:52 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 06:12:17 +0800</lastBuildDate>
+        <item>
+            <title>新的创业机会，正在 Claude Code 和 Codex 周围长出来｜对谈 Treg</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6ad2412d0e4e410a05be01a7</link>
+            <description>➤ Claude Code 和 Codex 越来越强，AI 应用创业者还能做什么？
+本周「十字路口」的嘉宾是 Treg 创始人 Jason Zhou 和 Founding Engineer 石天鑫。*创业 9 个多月，从设计 Agent SuperDesign，到全自动增长 Agent，再到为 Agent 提供数据和工具的 Treg，他们接连经历了方向调整。
+这期我们沿着他们三次转型的经历，聊了为什么垂直 Agent 面临着“绝境”、「0 人公司」为什么比想象中难做，为什么 AI 干了很多活却未必带来增长，也聊了 Ego、ChatCut 等围绕 Coding Agent 生长的产品，以及同时运行多个 Agent 后，人开始遇到的新瓶颈。
+新的创业机会，正在 Claude Code 和 Codex 的生态里长出来。对一个创业团队来说，怎样找到值得做好的那一部分，又怎样借助模型的进步继续往前走？Treg 的故事，提供了一个正在发生的样本。
+🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
+📒 文字版将发布于 @十字路口Crossing 公众号。
+🟢 Part 1｜三次 Pivot
+[00:02:18] 9 个月、三次转型：SuperDesign、增长 Agent 与 Treg
+[00:03:10] 从周末项目到 6000+ GitHub Star
+[00:04:59] 模型吞噬应用：为什么放弃 SuperDesign？
+[00:06:59] 「0 人公司」的创业浪潮是错误假设
+🟢 Part 2｜终于找到了新方向！
+[00:14:42] 一个 Codex 插件，意外改变了增长曲线
+[00:17:36] 从增长 Agent 中拆出最有价值的一层
+[00:18:04] Agent 最常买什么工具？
+[00:20:13] 浏览器抓不到的数据，就是工具市场的价值
+[00:21:57] Treg 为什么更像 Costco？
+[00:23:39] 应用公司的数据飞轮
+🟢 Part 3｜Codex / Claude Code 正在成为新平台
+[00:25:38] 三次转型后的教训：站在 Claude Code 和 Codex 的肩膀上
+[00:26:43] Ego(lite)、ChatCut：围绕 Coding Agent 生长的新工具
+[00:31:56] 从 Vibe Island 到 Orca：多 Agent 时代的新机会
+🟢 Part 4｜人和 Agent，究竟该怎么一起工作？
+[00:34:25] 转型阵痛期决定：两个月不做产品
+[00:35:01] 「0 人公司」并不成立
+[00:36:18] Loop Engineering 要怎么搞？
+[00:38:50] 同时跑 5–10 个 Session，人开始成为瓶颈
+[00:40:13] Claude Code 还是 Codex？
+[00:41:41] Grok Bot 与云端沙盒
+[00:43:22] 国产模型、视频模型与高速模型分别适合什么场景？
+🟢 Part 5｜把才华埋葬在昨天，继续创业
+[00:45:08] 当程序员再也写不过 AI
+[00:46:05] 人生的十字路口：从单项技能走向跨领域能力
+[00:47:15] 三次转型中，最想放弃的时刻
+[00:49:05] Fail Fast：让注定失败的方向尽快结束
+[00:49:22] 如果相信 AGI 会到来，为什么还要创业？
+[00:50:28] 即使有了万能模型，它依然需要更好的工具
+欢迎订阅「十字路口」：
+🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
+🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
+👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h1>主题概述</h1>
+<p>本期“十字路口”对话 Jason 与石天星（文稿中亦写作天心）。Jason 是 Treg/trig（公司名在文稿中亦多次转写为 Trick、track、Check、check 等）创始人，石天星是 founding engineer。团队创业九个多月、转型三四次：从设计 agent “super design”，到全自动增长 agent “cooled”，再到“给 agent 用的数据和 API 市场”track。核心议题是：当基础模型越来越强，AI 应用公司如何创造独立差异化价值；以及围绕 cloud code、codex 生态，新的创业机会如何长出来。</p>
+<h1>关键要点</h1>
+<ol>
+<li>
+<p><strong>创业路径：三次转向都围绕“模型变强后应用价值在哪”</strong><br />
+   Jason 此前在澳洲一家 stop “relevant CI” 做全自动销售 SDR 等，带产品与 AI 团队；石天星学嵌入式系统，曾在苹果中国做半年多测试工程师实习，后在阿里、字节待了十年。Treg 先做 “super design”——设计 agent，可作为 IDE 插件，用 cursor 直接生成三四个不同设计版本；开源后几个月 GitHub 做到“6000 多 give up star”。Jason 的判断是：“开源在 AI 产品赛道是一个非常重要的 marketing 工具。”但 IDE 插件商业化路径不清晰，且模型前端能力越来越强，团队随后转向 cooled，再做 track。</p>
+</li>
+<li>
+<p><strong>“模型吞噬应用”的直接压力</strong><br />
+   Jason 提到从“GMI3”开始，大厂都开始卷前端能力；super design 的插件形态还意味着用户必须先使用 cursor、cloud code、codex。团队当时想转网页版让更多人用，但“没想到后面一年的变化是大家全都涌入了 code x 跟 cloud de”。他复盘：“我们也在思考，就是模型越来越强的情况下，我们的争议到底在哪里？”（原文如此）</p>
+</li>
+<li>
+<p><strong>poser 带来的震撼与 cooled 的失败教训</strong><br />
+   Jason 今年二月看到产品 poser，当时 ARR“可能也就十几万美金”，但体验让他“大为震撼”：注册后仅凭邮箱就知道他在做什么，马上生成两三个创业 idea，选择后立刻搭好 landing page。主播也回忆自己充值几百刀开“god mode”，但“后面没有，反正没有帮我赚到钱”。Jason 后来发现，poser 真正交付结果的只有“帮你 set up”，从 0 到 1 极丝滑，但进入真实业务线后“递交结果这个事情就非常难”。cooled 想做面向已有业务公司的全自动增长 agent，SEO、marketing、ads、找客户都做，甚至有用户愿意 preorder 付费，但最终发现增长工作高度依赖人的判断和动态试错，难以自动交付。</p>
+</li>
+<li>
+<p><strong>用 AI 运营 super design 两个月的关键验证</strong><br />
+   团队暂停产品开发，回去用 AI 运营 super design，结论有两条：第一，“未来 6 到 12 个月，零人公司它一定不是一个可能的场景”，更需要解决的是人与 agent 大量协作的场景；第二，“一定要围绕着 cloud code 跟 codex 这个生态去做产品”。他们发现 support 和 bug fixing 确实可以较全自动化，但增长相关 use case 很难自动化，因为“需要人介入的地方实在是太多了”。</p>
+</li>
+<li>
+<p><strong>codex 插件增长故事：无宣发、改名抢字母排序</strong><br />
+   石天星把原有 CRI 加 skill 发布到 codex 的 plugin marketplace。当时市场早期、插件少，而 codex 本身用户巨大，插件只要有吸引力就容易被看到和转化。更细的操作是：他发现插件市场当时按字母顺序排序，于是把名字从 super design 改成“01 super design”，排到第一个，“确实也排没排几天，但是他们很快就改了一些策略”。Jason 说：“真正改变增长曲线的是天心，他有一天去浪去了一个 code x pluggin。”这次几乎无宣发的尝试带来海量用户涌入。</p>
+</li>
+<li>
+<p><strong>track 的定位与商业模式：open router for data and tooling</strong><br />
+   track 被描述为“相当于 open router for data and tooling”，是“给 agent 用的最大的一个数据和 API 的市场”。用户不需要逐个购买订阅，只需一个 key 就能 access 任何想要的数据或工具。收费完全按 usage，没有月费。文稿称发布约三周，“remember”已经是 super design 的“remember”的好几倍，但具体数字不分享。主要场景集中在 go to market：找 B2B 客户（如 Apollo、rocky search 等）、SEO/AEO、社媒 UGC 生图生视频；平台接入上百种 AIGC 相关模型，并标注各模型擅长与不擅长什么。</p>
+</li>
+<li>
+<p><strong>为什么工具商愿意被整合：分散市场与中立层价值</strong><br />
+   Jason 认为很多垂直领域有大量 vendor，但缺少触达终端用户的方式；它们原本多以 API 用量收费，Clay 就是整合数据再转卖的案例。track 站在中立位置，让用户获得更合适、更高性价比的数据，Jason 比喻：“我们更像一个 costco 的感觉。”石天星补充，各家 harness 可能因接入独特数据吸引用户，而 track 让用户从 cloud code 切到 codex 时，之前积累的工具调用和数据仍留在平台。面对“模型以后直接拿数据”的问题，他们认为很多业务数据是实时的、浏览器拿不到，例如找人数据、社媒数据。</p>
+</li>
+<li>
+<p><strong>数据飞轮：让 agent 给 API 打分，做“大众点评”</strong><br />
+   石天星说，track 的真正用户很多不是人，而是人的 agent，因此系统会随机挑选用户，让 agent 给反馈；简单 bug 直接修，有趣的 feature request 收进来。track 还会让 agent 用户对 API 调用做脱敏评价：数据是否有用、哪个字段起作用，再结合性价比等客观数据形成图表，供后续用户选择。他原话：“我们其实是有一点像大众点评的意思的。”这让 track 在不能训练自己模型的情况下，仍能用数据反哺产品。</p>
+</li>
+<li>
+<p><strong>loop engineering：运营可用，创新不能靠 loop</strong><br />
+   石天星喜欢 loop，但判断“创新那一块显然是靠 loop 完成不了的”。运营公司是复杂系统，可以搭建短小精炼的 loop：只监控 DB 和安全风险、只做代码整理，小到不容易出错；十几个小 loop 配合，反而形成健壮性。创业公司只有四个人，却要处理大量黑客攻击；super design、track 一旦有邀请新用户、赠送 credit 等激励机制，就会被不停攻击。若有 loop 长期监控风险行为并堵小漏洞，能节省大量精力。</p>
+</li>
+<li>
+<p><strong>工作方式与模型偏好：多 session、hybrid、长期用最强模型</strong><br />
+    Jason 现在同时跑 5 到 10 个 session，extra 出来后从 cloud code 重度用户转向 codex；他用 hyper frame 做宣发视频，extra 能 one-shot 1 比 1 复刻，甚至会在原视频里截图、裁剪到合适样式再用。石天星倾向两个都用，因为“没有一个绝对性的领先优势”，vivo 某天强一点、extra 又反超，需要长期用世界上最好的模型感受差异。国产模型方面，他提到 kimi 前端/设计强、mini max 的 H3 视频质量高价格好、deep sick 4.1 flash 效率高速度快；jeff 模型适合快速路由和大规模召回过滤。对 AGI，Jason 认为模型进化是必要条件但路径很多，团队保持沉浸在最新 frontier 以获得未来 6 到 12 个月机会的直觉；石天星则认为即使 AGI 到来，提供有性价比的工具和数据仍有用，“如果他花比如一千刀的 token 最终获得了一个数据。但是如果我们能够提供，比如说让他一百刀就能得到的话，他可能会直接选择我们。”</p>
+</li>
+</ol>
+<h1>独家细节</h1>
+<ul>
+<li><strong>“01 super design”抢字母排序</strong>：石天星观察到 codex 插件市场早期按字母排序，改名后排到第一；虽然平台很快改策略，但这几天带来了起步流量。这是典型的只有实操者才会知道的增长花招。</li>
+<li><strong>poser 的“只花钱”体验</strong>：主播被 poser 推荐做“给其他播客主用的播客工具”，很快充值几百刀开 god mode，但最后“没有帮我赚到钱”；Jason 也说 poser 帮他做好网站、找客户 email，“关键那个 email 他竟然还有人回了”，但产品形态仍不像给真实业务公司用的系统。</li>
+<li><strong>被盗 credit 到 4000 刀</strong>：石天星回忆，长期看不到增长又不断被打击，“有一天醒来突然发现你被人盗 credit 了，然后到了比如说四千刀，你觉得天都塌了。”团队只有四个人，还要每天花精力处理黑客攻击。</li>
+<li><strong>用 AI 运营 super design 时的“无包袱”实验</strong>：团队两个月不做开发，假设自己是新团队，只选市面上最好的工具；结果很本能地选了“Clark 的 collect”，体验比原来自己搭的 agent 好太多。这直接影响了他们后来围绕 cloud code/codex 生态做 track。</li>
+<li><strong>Jason 的退路与挣扎</strong>：他坦言做油管频道“想要做个过个小康生活还是比较容易的”，创业中多次想过放弃；但每次度过挣扎、想到新方向并发现“非常 promising”时，“那时候拿到的刺激是非常大的”。石天星则提到受 deep sick 研究员文章“我不得不把我的才华埋葬在昨天”影响，意识到写 react、写前端这类技能意义在下降，“你再也写不过 AI 了”，于是义无反顾加入 super design 团队。</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技。本周十字路口的嘉宾是Jason和石天星。Jason是trig这个公司的创始人，石天心是他们的founding engineer。Trick是在cloud code和codex的工具的open router。你好，二位，欢迎来到十字路口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello大家好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>hello Jason. 他们的创业有九个多月的时间了，在中间转型了三四次，表面看是非常频繁的找不到方向。但是背后我觉得其实他们和绝大多数今天这个时代的AI应用的创业者一样，都在尝试去回答同一个问题。就当基础的模型越来越强，AI应用公司究竟应该怎么创造一个独立的差异化的的价值，所以我们今天的话题就会从这里展开。在此之前我们还是先来快问快答，帮助大家了解这个Jason和天心。请问二位你们的年龄？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是93年的，现在33岁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我94 32MBTI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>和星座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是INTJ，然后是很矮的那种INTJ是处女座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是INTP，可能比Jason再矮一点。然后白羊座你们的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>求学经历是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我原来本科是在重庆大学读的热能与动力工程，然后毕业以后去澳洲读了他这边的交互设计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是在成都的电子科技大学毕业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Jason, 来一句话介绍一下trick是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Check我们是相当于open router for data and tooling，你可以把我们想象成给agent用的最大的一个数据和API的市场。这就相当于如果你用cloud de code x或者搭建agent的时候，你不需要去一个一个的去买购买订阅，只需要用我们的一个key，你就可以access任何想要的数据或者工具。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那二位在创业之前都做过什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是之前在澳洲有一家stop叫做relevant CI可能三年多前我们就在做。比如说全自动的自动销售sdr之类的。我是在那边带他们的产品跟AI团队然后是从去年年底出来创业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我大学学的是嵌入式系统。当时在苹果中国短暂的做过半年多的测试工程师实习。当时我发现可能还是互联网更有意思，然后慢慢陆续的在阿里字节待了十年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才我们一开始就提到，其实咱们在track之前这段创业虽然不到一年的时间，但转型了非常多次。可不可以讲一讲就是从一开始到现在，这几次转型分别都是在做什么样的事情，以及因为什么原因转型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以所以我们一开始是做一个产品叫做super迭代。相当于一个设计agent可以帮你去搭建，比如你的很好的前端设计，海报设计等等。然后这中间转型的一次是今年可能4到6月，我们做了一个叫cooled的产品，是一个全自动的增长agent，就相当于你把你的business告诉我们我们就自动帮你去做SEO发射煤等等，需要你去自动化获客。这当然这中间遇到了很多血的教训，导致我们最近做了一个叫track的这个工具。是差不多这三次pay的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>应该对这个学科的教训是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们虽然转型了挺多次，但每次还是学到了不少东西。一开始我们是做那个产品叫super design，相当于是个design agent。一开始可能也是我们一个weekend project。因为那时候我在自己在做油管频道的时候，我会发现我们做UI design相关的视频内容，它的流量会巨大。这边有大量的人想要去了解这方面的内容。所以我们那时候是去做了一个相当于IDE的插件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你如果用cursor就cursor那时候可能才是最火的coding agent。那个就是有多久远了，就是你用curse的话，可以直接跟他说，我要设计这个东西，他直接给你出来34版不同的版本。这样的话你可以去做一个选择。然后我们就发了一个开源的这个项目，可能就几个月时间，github做到了6000多give up star.</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇哦这非常好数字是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>并且完全是oriented。这也是可能我学到的有一点比较重要，就是开源的开源在AI产品赛道是一个非常重要的marketing工具。因为有了这个事项，我们决定辞职开始创业。创业第一件事情就是没有再继续走看这个路。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是为什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为那时候尤其是ID插件这个形式没怎么看到，就是你比较好的一个商业化的路径。然后呃但还有最重要的一点，就是去年的时候，我们觉得如果是插件的形态，那也就意味着用户你必须前提是你用cursor cloud code和codex。然后我们那时候觉得是个问题，我们想要更多人用，那做网页版可能是个更好的路径，你就直接去一个网页，然后就可以开始设计了。但没想到后面一年的变化是大家全都涌入了code x跟cloud de OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以当时是怎么决定就不要继续做super design了？是和前面说大家开始用cloud code codex有关吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有一定关联，但最主要的关联可能是一方面模型本身它的前端能力越来越强。就从GMI3开始，所有的大厂都开始卷前端能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这又是一个模型吞噬掉应用的故事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是觉得你很难预测，对吧？因为之前纯粹是因为节目S3出来以后，然后倒逼了OpenAI，还有anthropy c开始把前端那边给补足。所以我们我们也在思考，就是模型越来越强的情况下，我们的争议到底在哪里？这是一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后第二点确实跟cloud跟codex有关，就是cloud code x它的是个general agent。但是它的技术能力变得越来越强，并且它的skill生态也发展的非常好。导致有很多人他可能用cloud，再加上一些比较火的前端设计的skill，也可以出来比较好的效果。所以那时候还是就今年早期还是很焦虑，在想我们发展的前景和场景到底是该怎么样。所以也是在那个时候，碰巧那个龙虾火到爆炸，大家都在用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后包括我觉得今年2月到6月是个很魔幻的时间。我相信科技你可能遇到比我的创业者还要多，就大量的优秀的各种创业者都在那段时间进行了配备。在我看来全而且全都配备到AI employee这个赛道。因为都是用了open cloud，然后觉得这个future is coming。就是大家后面肯定是这么运营的。那是所以其实每个创业者的经历都差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么到6月又停了呢？就是你说2到6月是一个魔幻的时间，对吧？我的体感也是，最近大家就不聊这个了，然后你们其实也亲自参与了这个浪潮，为什么到6月份就停掉了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>选了几个月以后发现这是比想象的要难，这个是我觉得主要的核心原因。因为我们也是像你说在这个过程中参与了，然后我们做那个产品叫cool。然后做哭的主要原因是那时候其实一开始还没有想要做AI employee这样的产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>直到我是二月多看到了一个产品叫做poser。我看的时候他们的ARR可能也就十几万美金，但是他的体验让我大为震撼。我上一次有那种感觉应该是第一次用cursor，他帮我可以scar for整个project。但是poser如果观众没有不知道这个产品的话，它是相当于一个AI帮你运营你的整个公司。它的愿景很大，然后它的体验做到非常的极致。我记得我第一次用的时候，我就sign up，我也没有给他任何信息，他就看到我Jason到周那个邮箱，然后知道我到底在干嘛。然后马上就给我创造了可能两三个不同的创业idea。然后我选择一个以后，他马上就给我landing page也搭建好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他给你选的什么创业idea.</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我还真不记得了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我因为当时你推荐我之后也去用了，然后他也是取了我的邮箱之后，就去用这个邮箱的地址，这么一点点线索就去网上搜我是谁，我有什么背景，然后推荐我可以做一个什么样的名人公司。然后他推荐的就是我去做一个给其他播客主用的播客工具，一个AI播客后台。然后我说这个不错呀，我说你帮我做，然后确实当时就很快充值，让他去帮我做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我记得那天隔了两天还问你充了多少钱，你说又给他充了几百刀。开了个什么god mode是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，gartmore的那个上帝模式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我还挺好奇，我不知道后面有没有你继续跟进。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>后面没有，反正没有帮我赚到钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>只帮我花了钱。我那时候也是类似，然后他还帮我做好网站，然后还帮我去找客户email，关键那个email他竟然还有人回了，那时候我觉得是很震撼，感觉确实可以work。但是它的产品形态你用过的人也会知道，看上去非常的dog，你不像是一个给真正你有业务的公司用的东西。并且你真的有业务他也不允许。就是你也很难去把你的内部的系统，HR antics, 你的add那些系统给接进去。所以我们那时候是不如去做个agent，类似poser。但是是针对真正有business，就已经有一个funder，但是想skill它，我们是想要做这么个agent，然后这个后面我们去做了。哭了以后我才发现是pose。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他最聪明的一点就是为什么他能够在几个月内干到十几个ARR的那个原因。他说起来好像卖你一个就是vision可以AI掌管你所有的链路整个公司，但它其实真正递交结果的只有帮你set up。就那部分他是做的特别好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从0到1帮你把网站和工具建起来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是他把从0到1那个做到就是真的丝滑到爆炸。但是你真的用了以后，你就像科技你说的，他没法给你递交结果，没法帮你赚钱。但是他就前面那一部分做到极致的丝滑，这个是我我们真的去做以后才发现的。因为后面你一旦真正进入业务线了，你就不是简单是set up bit，你要去递交结果。递交结果这个事情就非常难。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以酷LED当时做的就是要进到一个已有业务的公司，去帮他们做全自动化的伶人的增长团队。是所以做的怎么样的这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那时候我们做的就相当于是，我们把第一个客户想象成我们上一家公司super deline。那就像我们那时候创业公司需要什么获客的话，那SEO是需要对吧？然后可能也需要marking，就那个社媒，然后也需要ads，ads感觉非常make sense。你不是只需要看一下as数据，你自动这个bug增加一些，那个bug减少一些，就感觉logic也非常make sense。把那个也加了。然后还有找客户，就这些工作，就我们能想到获客相关的都给去做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后那时候也launch了，launch完以后其实还有挺多用户想要付费的。因为我们那时候产品其实还没有ready，就直接放了个付费墙。你需要preorder这个agent，还是有不少人去pro付费的。但是遇到的问题就是你真的要递交，结果我们发现太难了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而是为什么如果该做的事情都做了，SEO他本来好像背后也没有太多魔法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧？我觉得是两个点。首先数据他都不一定能够拿得很精准，因为工具市场它其实也是很分散的一个地方。Marketing它没有一个server bullet，你只要沿着这个做就可以。但你会发现真正有用的都是因为你做了很多尝试。然后你发现这个方式没有那么多人做，但并且比较适合我们，然后你就在这边不断加码。但是当每个人都在做这件事情的时候，这个渠道好像又没有那么有效了。所以在这种动态变化的过程里面，其实是很需要human taste的部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以可以举一个具体的例子吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我给你举个例子，就是我们让aging去做SU大概的给他的工作流。就是你要去拿所有的跟我们相关的keywords，看哪些keywords的流量比较好，然后没有那么competitive，然后你去下厨。但实际上我们去做了会发现大部分keywords早就已经被抢的差不多了。你真正有机会的是说有哪些keyword它流量其实不高。但是你判断后面一个月或者是三个月以后会比较火，会有比较大的流量。就这部分我觉得是就是一个例子，很难去用agent完全去自己去做这个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以那之后就没有做collect，但从cool let到check又是怎么转型过来的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Cooled可能做了我觉得一个多月，然后我们on这些用户反正就发现很难递交。结果那时候就觉得我们是不是之前迈的步子迈太大了，因为我们还没有验证这个伶人公司到底是不是未来。好像就因为当初尝试了open cloud还有post，就假设这一定是未来一定六个月之内模型会足够强。所以我们那时候想干脆就不如take a break。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们不要把做产品开发，但是我们回去用AI的方式去运营super design。因为我们上一家super dance这个公司，虽然我们可能有几个月没管他，但是他还是有organic travel进来。然后也有一个感觉优化空间很大的一个conversion final是那种我觉得我们如果我放在比如说access to cot有人会买了，然后会去scale的一个生意。我如果我们能够用AI来验证，真的可以全自动化运营并且增长，那我们一定会第一了解这个playbook到底是什么。然后如果不work，我们也非常清晰知道这个不是一个好的路径，我们应该去做些别的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以当时的验证结果怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有两个月时间吧，就不断搭建这种loop，学到有几点。一点是说全自动化的工作确实有一部分是可以做的，但是增长那边的相关的use case反而很少。我们发现比如说support那边是确实可以全部自动化，然后你bug fixing也是可以自动化。但是你要做增长那边，它非常难自动化。因为也是一样的问题，就是它需要人介入的地方实在是太多了。所以我们第一个结论那时候意识到就是说未来6到12个月，零人公司它一定不是一个可能的场景。更需要解决的问题可能是你在人和agent大量协作的这个场景下去做这个事情。第二个我觉得非常重要的结论就是一定要围绕着cloud code跟codex这个生态去做产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这怎么得到的这个结论？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这中间其实也是我们在做很多各种growth experimented有很多事的，感觉都没什么鸟用。真正改变增长曲线的是天心，他有一天去浪去了一个code x pluggin。一旦上线，我们的增长曲线突然间就变了。有一大量的海量的用户涌入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这么神奇，当时是怎么得到这些用户关注的？你们是在什么渠道宣发的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有做任何宣发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，没有宪法。我来分享一下，这个我觉得还是一个挺有趣的故事。就是在code dex刚发布了work和以及code dex的plugin mark place的时候，并没有太多有意思的插件出来。然后那个时候我觉得super design占了一个比较好的时机。我们在那个时候几乎没有做什么，就是把我们原先的CRI加skill发布到了它的这个市场里面，然后让用户能装。因为那是个很早期的市场，且可能拆GBT和code x本身已经有一个比较巨大的用户，他很容易看到你的插件。然后你的插件有一些吸引力的话，他就会去使用，并且做转化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有一个早期的点，就是一个很很有小很小的一个事情，就是我观察到当时的这个插件市场，它的排序居然是按照字母的顺序去排的。我们只是把我们的名字从super design改成了叫01 super design，你就排到了第一个，确实也排没排几天，但是他们很快就改了一些策略，去按他们的一些逻辑去排了，但是就是这么样的一个起步，让我们有了一些自己的量。对我可能对我们的一个启发就是早期的这一些工具和市场都是值得去尝试一下的。因为你不知道某一个尝试就获得了流量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个故事现实中用crew leg先去帮super design做增长，然后在这个过程中发现我们做了一个super design的codex插件，然后它的增长非常吧？到这里了，然后这个又怎么再往下到check的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们做了插件以后发现增长非常好。然后最主要的我们发现它的turn也变低了，就来自于这个segment的用户。然后我们后面发现就是说就codex跟cloud go，它的现在有海量的用户，但是他的体验没有很好。所以围绕把他们当做平台去帮他们的体验做争议，可能是个一个非常好的机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有点类似于当初，比如说你说facebook出来，然后zinger他们去在上面做那些游戏，以及paypal在ebay上面做这个。所以我们那时候其实有个大概这个设想，也是服务于cloud code生态去做东西会很有意思。然后我们后面回过来有有什么东西可以去做。然后我们看酷了，那时候我们做的一大堆东西，可能最有价值或可以迁移的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实工具那一部分，因为你说harness每家有多少差别，没什么差别，都一样。但是你要他去做真实的go to market的工作，或者任何的professional工作，它是需要大量的专业的数据的。然后也需要大量的工具。所以我们那时候其实内部是做了一层中转服务。因为我们需要哭了也需要给各种用户用我们的连接的这种数据。所以那时候觉得那部分其实是很有价值的，所以就决定去把这部分单独拿出来去给这些用户用。然后我们发了以后确实反响感觉很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>发了之后发现有多好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们也就发了三周左右。具体的数字可能我们就不分享了，但是他的remember三周就已经是我们super里的remember的好几倍了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那咱们现在怎么收费呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为他们用户用track主要是需要去调用一些API和数据，然后他就按usage来付费。我没有任何月费的形式，完全做到用量去付费。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以现在付费最多的工具是什么样的场景的工具。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有几个，大部分可能很集中在go to market上面。因为有越来越多人他可能是用code跟cloud在做他们原来在SaaS里面去做的一些go to market工作。最主要集中比如找客户，像海外他要找B2B客户会需要那些比如买Apollo，还有买rocky search等等一系列的不同的vender。但是你会发现在那个场景下，原来每个数据提供商他只能提供你一部分数据在找人上。并且每一个数据提供商他也会也有这个月费的形式，就导致你往往会选择一个。但是我们一旦可以把所有的banner都集中到一起以后，他们可以根据他们的场景和行业用到最合适的一个and point去进行找客户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这些工具为什么愿意被你们整合呢？被你们整合其实意味着他自己的收入有可能会减少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这其中其实很多垂直的领域，它现在的有大量vendor，它是没有一个比较好的接触到终端用户的方式的。就比如说找人这边，他原来的方式应该是，比如你去clay，clay他们背后的数据大部分也都不是他们自己的，是背后有一大堆的数据提供商。这些他本来的那个收费形式就是以API然后用量去收费的。Clay其实是很好的例子，他们本身也是整合了一套数据，然后去转卖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那除了找人之外，我们其他比较主要的场景是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其他还有比如说SEO，AEO相关的，我们整合基本上所有的可以找到的，帮你去找那些SU ranking，还有AI possibility那些数据源。然后还有可能社媒ugc相关的去做生图生视频的那些m point也都整合在一起了，可以把整一条链路都给完成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实cloud code codex在没有接track或者没有接你们背后这些工具的时候，他也能做这些事情对吧？那现在只是说你们接了这些工具或接了这些数据，它变得更好。但有没有可能慢慢的也不需要你们这一层了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得是可能分成两种。一种是模型，它可能本身的那个知识。但其实你看具体的那个业务工作的话，他需要的一些数据都实时的。他可能并不是说你这个class code auto bo x他就知道这些事情。第二点的话，他当然也可以去用浏览器去做一些AS动画，去拿一些数据。但有很多数据他其实是拿不到的。就比如说你要去找人上面不是你谷歌一搜他可以搜到的。比如你要去做社媒，他可能也很多是会把它这部分给关掉的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得很有意思就是首先现在有各种各样的agent harness，然后每个人都会选择自己的。然后我观察到很有意思的就是我的有一个朋友，他用比如说kimi的原因是因为kimi接入了一个叫wind的，万德的一个股票交易数据。也是说他其实这个数据对它本身是很重要的。然后我觉得未来有可能各家的IT harness会因为自己接入的数据或者说有独特性，然后吸引到相关的用户，我觉得完全可能的。而track在做的其实也是个类似的事情，就是提供一个中立的市场，让各家harness都可以享用到同样的工具。这样比如说你即使想要从cloud code切到codex，你之前积累的所有的工具调用你自己的一些数据也都留在这里了。然后我们获得了一些跨平台的调用的功能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果这个成立的话，为什么比如说价值最后是check的，而不是直接就最后最强的这个数据供应商，他自己直接会去对接这样的模型公司。就你们在这中间可能好像是他们还没对接上的时候的一个阶段性的价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们其实站在一个中立的点上，我们最终达成的效果是想让我们的用不获得他最满意的数据，用比较高性价比的价格，我们更像一个costco的感觉。就是我们去找到这个市场上最好的一些数据的提供商，然后把它展示给用户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这边可能最主要的一个区别就是code。你那边里面假设就是这个行业，它就有一个头部的提供商，可以解决最好的方案。但现实中我们会发现，其实不是这样的。每个场景它都有几十个不同的提供商，然后每个提供商他强的点都不太一样。就比如说我们那个找人的这个场景，企业他能找到合适的人是需要各种各样不同的信息。比如说SUAEO相关的，就是市面上的数据提供商有很多家。然后他每家可能涵盖的数据平台也是不太一样的，它的价格也不太一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得可能有一个比较有意思的点子，就是Jason最近也在宣发的关于我们ugc做视频的。我理解现在其实视频的模型在不断的涌现出来。比如说c dance，比如说mini max的H3，效果都很好。但是普通大众想要体验到的话，他去办包月的会员价格会比较高，并且它可能是一个短期的一次性的一个需求。但就是通过我们的这样的一个提供商，我们接入了可能有上百种AIGC相关的模型。并且我们把每一个模型擅长什么，不擅长什么这样的skill放进来。然后希望我们的用户可以用我们的平台配合上他自己比较强大的，比如说codex或者cloud code的agent harness，去做出他想要的一些UGC的视频就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>track。因为我们积累了大量的用户数据，然后这中间其实是会有一个数据飞轮在，然后以此去推出更多服务。然后天心他最近还做了很多关于让agent去给每个服务去做评分，然后让我们积累大量很有意思数据的机制。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我理解我们现在的很多产品的真正用户其实并不是一个人了，而是这个人的agent，所以他才对我们的产品有最时刻的真切的体感。所以我们会有一些机制是在我们的系统随机挑选一些用户，让这个agent给我们一些反馈。然后我们的系统在日常中会不断的去看这些反馈。有的如果是简单的bug它就会直接修掉。然后如果是有趣的一些feature request，我们就会收到，并且把它考虑加进来。所以track本身也有一个这样的机制在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这个数据虽然我觉得也是作为一个应用创业类的AI团队可能会去采取的一个方案。就是既然我们没有办法训练我们自己的模型，我们总要让一些数据去反哺我们自己的产品。这个可能作为一个AI工具的市场，我们其实是有一点像大众点评的意思的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们可以在某些时间让我们的agent用户给我们的每一个API的调用去做一个评价。比如说他觉得这个API反馈的数据有用还是没有用。然后如果有用的话，是哪个字段觉得对它起到作用。当然了是脱敏的反馈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这样的数据我们沉淀下来之后，我们自然的可以得到一个很有意思的图表。就是在某一个领域，某一个API and point，它的得分是什么样的。就是它在有用度这个得分上，然后在性价比这个得分上，有的是客观数据，有的是agent的主观数据。我们得到了这样的一个信息。然后我们可以把这样的数据加以加工，然后展示给我们接下来其他的用户。然后让他们的agent在使用的时候选择他最合适的一个工具。比如说他可能需要的是数据精确性，然后他就可以去挑最贵的，然后最好的端点。但如果他要的是一个广度，而价格便宜的话，他就可以去选择一个评分比较高，然后性价比又比较高的一个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这几次转型下来，你们最大的感受是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们最大感受就是之前在做agent的时候，你想要自己想要去涵盖的东西太多了，就可能把harness也做了。因为那时候你还不是很清晰，我到底应该用比如cloud OSDK，还是用自己去做。然后往往你可能infer那边也会去做一些，甚至有人做自己的沙盒，然后把memory那边可能也做了。你做的每一层都有一个对应的公司在不断的优化和迭代。我们最近的几次迭代会更多说我们要把一部分做的很好，然后嵌入到cloud code和cortex这个生态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我那天还跟u where的founder聊，今年之前好像各个工种人用的工具都不太一样。你设计师有FIGA，然后你做marking可能用的是另外一种用email sequencing的一个工具。但是今年以后大家所有的工具都变成了clo COO跟codex，所以它是一个比较大的一个平台跃迁，还是有挺多想象空间的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实说到这里，我会想到另外两个类似的产品或创业公司，一个是叫ego，它是一个浏览器。但这个浏览器是最大的卖点，就是用code dex cloud code去操作它做computer use的时候效率极高。然后另外一个是chat cut，他们发的codex的plug in，就是你在code dex里面去剪视频。如果你不用chat cut的插件，你会一个prompt下去剪出来的。就视频的成片。你如果要改的话，就是再把这个成片改成另外一个成片，就没有任何中间状态。但如果你装了chat cult plug in，它剪出来的会是一个你看得到编辑器的中间状态。也就是你可以看到，比如说一个视频被剪成了三个音轨或十个片段，你可以在那上面去稍微做一些拖拽，来去做人工的微调。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用的就是我们做那个super design发的时候就是参考了他，我觉得他当时是接入体验还有使用体验最丝滑的一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得它是不是和super design有一个本质的不同。比如说我做了一个前端，它毕竟是代码，我就出来了这个代码，我可以再去改代码。但是视频不是这样的，视频是我出来一个视频，我要去改它。如果没有这个中间状态，我改起来是非常困难的。我每改一次要等十分钟20分钟才能再渲染一个新视频出来，也烧非常多token。所以就很需要有一个中间状态去拖时间轴什么的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我是hyper frame的重度用户，然后我会发现你的中间状态。我不想我人去修改，我还是让agent去修改了。就是我人可以给些feedback，然后他可以打包一起让agent去进行操作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在应该是这样的，就真的人去改那个时间轴还是少的，还是说人在给A键说我要怎么改。原来可能A键就只能再重新去生成一遍视频，现在A键就可以去操作check cut给的各种接口，其实可以省很多时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以，我试一下code .</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>x和gala扣。虽然听上去在我们开发者眼里已经非常火了。但我觉得让广大大众用上这样的agent的工具，可能是未来几年内会不断去发生的事情。这个时候我们的小船一个很艰难的创业公司。如果能在这样的浪潮下，借助他们的一些力气，然后获得一些增长的话，我觉得是比较容易。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前在库里的时候，我理解还有一个遇到了很大的问题，就是模型的成本其实是非常高的。就是你想要一个用户长期的用零人公司的方式去运营的话，它其实非常的好token。然后这个时候如果作为一个创业公司，以一种比如说我们像AI模型公司去买token，然后卖给用户的方式去运营的话，其实这个压力是非常高的。而使用codex和class code这样的工具的用户，他其实本身在享受着现在非常大的一个红利。就是他可以用200刀的coding plan去获得一个比如说现在价值6700千刀的API token的使用。然后这个红利我觉得作为用户和我们这些比较小型的创业公司都要想好，就是怎么利用这样的一个机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还能想到什么例子吗？服务这个生态的一些产品工具等等。你会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>发现在今年是增长最快，一个叫APP fy还有一家叫day FSEO就德拉夫SU它是算是SEO数据的提供商之一。然后APP fy它也是一个给API的一个marketplace。你可以去上面去找一些那种长尾的爬虫的那些端口。然后这些公司它都存在很长一段时间了，但就今年它莫名其妙会有大量的增长。另外一部分的话，像在设计领域，那个paper到design也是一个增长很快的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Paper有遇到和你们后来一样的问题吗？就是GMS3之后，大家的前端能力都提升了，是不是这个paper在中间提供的价值就变弱了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那个其实跟我们调整了以后是一样的，给你提供的是一个画布，让你去可以对比不同的设计，然后你可以手动的去微调等等。在原有熟悉的工作流里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在codex里面，这里天心有补充吗？就是在这个生态里面还有一些看到一些什么样的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>据我了解就是一个aca就是专为agent做搜索的一家公司，他已经做的很大了，应该已经到C轮了。然后证明了为agent去做好一个搜索工具，可能也是一个有很大场景的一个事情。比如像composer或者five crew，这些做工具类，就是网页抓取和帮用户做OOS授权以及工具的这些工具本身他们也获得了比较大的增长。在最近有很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能是就我们传统看来算info的一些公司，是在agent的时代。他服务的不仅仅是to b的，更多是to b加上一大堆这些class code collection用户。因为它agent他知道怎么去调用这些API。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今年之前，他大部分用户都是针对开发者的。但是现在他们的那个用量基本是可能接近51半是开发者，然后还有一半是终端用户。然后这终端用户他可能是原来的那种白领，也不知道怎么去编程。他只知道我接了fire core以后，我的cloud code可能可以去抓网页，抓的更高效一些。然后他也不需要去管API怎么调用，他只要接了以后他就开始用了。就有一批一大堆这些跟cloud d的重度用户。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实还有一个是叫web island，它是因为大家现在在cloud code里面，然后cloud x里面会跑很多线程。然后有时候经常自己大脑就混乱了，就到底哪个县城跑完了，哪个县城在等着我要review，对吧？有时候就是可能脑子乱掉，脑子糊掉了。所以他做的事情就是把这个macbook那个灵动岛给用起来。每次有一个任务完成的时候，他会把那个灵动岛稍微展开一点点。并且还有一个很可爱的一个像素小人的形象，然后也有一个声音，然后让你在那个灵动岛去操作，所以这是一个设计的非常漂亮的软件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且这个是我们在AI haka house做的一个周日黑客松，其中有一次的冠军的产品。然后他后来把它发布了在X上面应该还蛮火爆的，应该卖了非常多份。因为它是一个一一付费的工具。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们俩都付费了。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另外一个也想到是其实Jason介绍给我的一位朋友叫晶晶，然后他做的这个产品是orca ORCA，然后他也是叫ADE，也就agent的IDE，也是简称ADE。然后它是今天大家因为同时用cloud code codex，甚至还有更多，那那它就是帮你同时管这些多个工具。然后为什么有时候你要同时用两边呢？因为你要薅两边的羊毛。然后如果codex的这个cota用没了你可以平滑的把你没完成的任务，做到一半的任务，我直接再转移到cloud code去做。那我理解，我看这是它其中一个比较大的卖点。也有很多用户认为他的体验做的很丝滑，界面做的很有审美。然后这也是在这个生态里面去做事情的一个工具。然后他现在也就8万的github star了，也是增长的非常快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为他们的用户据我所知，就已经不是让同时跑十个session了，可能有些是同时跑50个100个赛事。所以我觉得比较有意思的一点可能是他们在看到这种用量的情况下，能提供什么样新的人和agent的交互。这可能是codex跟cloud code他们的那个团队还没有在集中处理的一些场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是刚才我们一开始就在聊说我们创业虽然不到一年，但一直在转型。然后Jason也说从二月份open cloud出来之后，感觉所有的应用创业者都纷纷在未来四个月一直在转型。所以这个感受是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能对我来说，我们在创业一段时间，我自己收益最大的倒是我们在没有在做产品，用super design作为试验。然后那两个月没有做任何开发，就想我用AI去运营这公司未来会怎么样？就那两月时间可能帮我梳理了一下对未来一些判断，确信就是哪些到底是值得做，哪些是不值得做的。因为我觉得往往很多创业公司都是看到了一些别人还没有意识到的东西，体验到了。然后你觉得那一定是未来，然后去把这个做产品化铺出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以那两个月你看到了未来有些可能会发生，有些不会发生。这个可以分别讲一下吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>比较确定的两件事情就是6到12个月0人公司这个不成立。我们需要做的场景是人和agent协同工作那个场景，这个是我们需要去解决的。然后第二件事情就是说code x跟cloud生态的，我们做库的时候，像包括super的是自己去搭了一些harness。然后我们那两个月其实就是让我们团队不要有任何包袱。就假设我们是一个新的团队，我会选择什么样市面上最好的工具。然后那时候很本能的就是选了Clark的collect，然后用完以后体验要比原来自己做的agent好太多了。然后在那个过程中，包括我们发plugging in那些让我们慢慢意识到了这个事情，就是说这边这个生态是个巨大的机会。这可能是意识到了第二件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就这两件事情我觉得就足以帮我们后面更坚信哪个东西更值得做，哪个不值得做。否则的话我们很我感觉很有可能我们还在迭代哭了。然后确定在想，是不是我们这个skill做的不够好，我们这个pump调的不太行，或者说还是这个方向不太行。因为在创业遇到太多不确定性的时候，确实是很难操作。然后那时候的配备是非常痛苦的。但是如果你有些相对的确定性的话，我觉得会好很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我记得就在posy，那个时候，包括你们做出来的时候，就有一个流行过一两个礼拜的词是loop engineering。所以你们现在怎么看这个东西？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我很喜欢loop这个词，我觉得它听上去就很有吸引力，让一个事情能自动化的去完成。但是如果我们把一个创业比作，比如说分两块，一部分是创新，一部分是运营的话，我觉得创新那一块显然是靠loop完成不了的。否则我可能说你帮我造一个创业公司，他有可能能造出来。但这个显然此时是达不到的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但在运营这块，我觉得其实look还是有很多踏踏实实可以做的事情的。我理解就是我们现在在运营一家公司，可能是一个非常复杂的系统。就是我我之前很喜欢一本书叫系统之美，就是在说如何我们去搭建一个这样的系统，让它能够稳定的跑下去，并且健壮的活下去。这里面有很多的讲究。在比如说你需要去搭建一些开环的反馈或者闭环的反馈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后loop，我觉得在agent这个领域就是一个很有效的工具。因为在创业之前，其实我也没有想到创业其实非常难。比如说我没有想到有一天我会需要去处理大量的被黑客攻击这样的事情。我们包括super design track在内的这样的创业项目。一旦他有了一个激励机制，比如说邀请新用户或者赠送一些credit这样的行为的话，就会有黑客不停的在攻击。但如果你作为一个创业公司，比如说我们现在只有四个人的团队，你还要每天花精力去折腾这件事情的话，其实是非常痛苦的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但如果你有一个loop，比如说长期的在帮你的系统做一些监控，去找有没有这样的风险行为。并且在一些小的漏洞，他就直接去把它堵住的话，其实我觉得它是能。做的不错且稳定的，这个时候其实会节省你的这个公司的很多精力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多时候loop不能一开始建的太复杂，反而是建一些比较短小精炼的loop会更加有用。比如说一个loop它就只干监控DB，然后找到安全风险这件事情。比如说有的路口就只是去帮你做一些代码的整理，就是他每一次的做的事情都比较小，然后小到他不太容易出错。然后另一个方面就是当你build了比如说十几个这样的小路口之后，他们自然的形成了一个复杂的系统，帮你的系统有了一的健壮性。比如说你的某一个loop发现了一个bug发上去了，但是因为你又有线上监控的loop，它会去找到并且提示你。所以这些小的路口之间的配合，我觉得才是让他们真正跑下去的一个比较好的方法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近两三个月你们和AI之间的配合工作的方式有发生什么变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最大的区别就是同时跑的session比原来多得多，尤其在vivo，这些模型发了以后，基本上会同时开5到10个不同的这些session。因为它可以自己完成的质量已经很高了，这可能是一点。然后第二点就是原来我可能是纯本地的，但是最近尤其像gg board，我觉得它做完以后就有了一个非常丝滑的cloud加本地hybrid这么一个体验。随时都可以交换context，这个也是可能第二个我我改变比较多的一个地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我来说也首先很像，就是之前可能更多的是打开一个的session然后在里面跟不同的age对话。但因为这样其实对于一个人来说，他的处理瓶颈也是有上限的。就是我也看到了，比如说youtube上有一个叫坤的资深工程师的一个分享，就是他做了一个叫first mate的一个工具。意思就是你你作为船长，你只需要跟你的大副去布置任务，然后他去跟你的别的coding session去聊。我觉得挺有意思的。虽然我可能后来也没有直接用这样的项目，但是这个思想我觉得我是学下来了。然后比如说会用类似herder这样的工具，就是新一代的这种terminal管理工具。然后我让agent之间互相去聊，或者说我也有一个比较主要的agent在做一个答复的工作，然后他去去转达一些任务去给我的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们现在用的更多的是cloud code还是codex？这两个有明显的喜欢谁不喜欢谁吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我几个月前都是clo CO的重度用户，就很难把我从上面给迁移出来。就直到最近那个extra那个模型出来以后，我就换了换成了那个codex主要是他那个模型确实很强。然后还有一部分就是因为我们现在团队宣发很多时候就是会用hyper frame那个软件去做一套宣发视频。我会明显的感觉到在extra下面他要做的好很多。我有次被震惊了，我直接把一个视频给他，然后他就是真的one shot 1比1的完全复刻出来了。比较震惊的点就是说因为那个视频里面是需要有一些素材的，你才可以做出来。然后他那个模型甚至聪明到他在原视频里面截图，并且把它裁剪到合适的样式，然后在新的一个视频里面给做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的话我是更倾向于两个都用，因为我理解就是这两个没有产生一个绝对性的领先优势。并且可能vivo某天强一点，然后extra又立刻反超这样的，所以保持长期都用。并且有有一些事情你可以让两个模型同时帮你去干一干，然后你去挑选一个你觉得更好的版本，我觉得也是一个不错的体验。我觉得可能在这个时代，你就是需要长期用着世界上最好的模型，然后去感受他们的差异和带来的优势。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Cloud code和code dex之外，你们还在用哪些产品？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Garboard用的还是真的挺多的，我觉得高炮倒是很好的一个例子，就是open cloud其实出来以后也没有什么别的产品真的拿到大众的那个使用。但是然后官报你要说他真有太多都创新，其实也没有。但他就把那个沙盒的云端的体验做到极致的丝滑。我们把所有的比如track跟super di的loop，我全都搬到那个grog上了。因为它它可以做到稳定性真的很好，我随时都可以查看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后还有一点就是grow ball，其实他们买了cursor我在用了grow b以后，我意识到这个事情有多make sense。因为科学他做的最好的一点就是它的沙盒，它可以保证你每个coding task都有一个对应的沙盒。然后这个如果我在本地跑的话，其实是很难实现的。就是说我本地可能我最多开一个不同的work tree，它有单独环境，但如果我想本地测五六个不同的环境是很难的。所以我在grow board也开始做一些做很多的coding工作了。尤其是简单的前端修改，还有bug fix，我直接点开我就可以测试。并且我那个PR里面它也有一个链接，随时都可以点进去看。然后在那个沙盒环境里面去测试。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>除了vivo 5.1，除了astra你们还会用deep CKMI质谱或mini MAX的模型吗？就在什么场景可能会用他们的模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实之前super 0的时候还有尝试用kimi说一个主模型，因为它的设计能力还是很强。然后mini max的话我们其实也有借，但不是它的那个coding模型，我们用的是它的那个深视频模型。H3还是质量很高，价格上面很好。Deep seek那边就有很多人都说很好，但我自己好像用下来体感一直没有特别好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我觉得国产这些模型，尤其在前端这个领域上其实都非常强。比如说kimi，比如说mini max，然后我个人很喜欢那个deep sick的4.1 flash，我觉得它效率又高，然后速度又非常的快。我其实一直之前有个想法，就是把我们super design自己的第一道agent去换成deep stick。可能还是目前可能看还是cloud更稳定一些，就是在大量的情况下，所以还没有把生产商真的切过去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这里边很火那个jeff那个模型，这个模型我觉得还是蛮有意思的。因为别的之前模型可能更多是你要么拼价格，要么拼某个场景的它的能力。但这速度足够快，并且场景非常简单，导致他有一些原来不太可能做到的场景，他现在只有这个模型可以做到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那对于你们来说，在目前你们的工作里面有什么地方可以用到jeff吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我今天刚开始接触jeff，我觉得第一眼看目前的感觉还是非常亮眼的。我理解track这个工具，它会为我们产生很多的数据。然后之前很难会去让大语言模型做的事情。可能就是首先你追求快的时候，比如说每一个and point进来的时候，比如说你要去调度它，如果需要去等几百毫秒，其实就很浪费时间了。但这个时候有一个快速的一个system one的一个直觉的模型在，它可以其实做一个很好的路由。然后另一方面就是当我们需要有比较大规模的数据需要去过滤的时候，比如说2000条、3000条的过滤，当你召回出来想，然后去做一遍清洗，真的展现给用户的时候，如果有一个直觉的模型能一条一条的直接去对比出来，我觉得做一个召回的引擎就会非常的不错。比现在的其他的LM速度都会快很多，质量也并不差。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们最近看到那篇文章了吗？就是我不得不把我的才华埋葬在昨天deep sick的一个研究员写的对对我来说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我前十年的工作生涯，可能也就是作为一个程序员或者说前端开发工程师，可能我比较擅长的也就是写react跟写前端。但是比如说从去年开始，你就可以很清晰的知道这一个技能对于你来说意义不是那么的大了。就是你除非做到可能世界前比如说几百个人我觉得可能是有他们继续做下去的动力的。但是你如果做不到那个程度的话，你可能很快这个技能就用不上了。所以当时对于我的影响就是我仔细的思考了一下，比如说我接下来几年或者十年究竟要做什么？然后义无反顾的加入了super design的一个团队，开始跟Jason他们至少在做一些有意思的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以稍微展开讲一讲这个决策的过程吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我理解第一点在当时来说，或者说我觉得很多人现在面临的也就是一个人生的十字路口。就是你之前走的路有可能接下来是走不通，或者说会不存在这条路了，但是你在这条这个十字路口你去做什么样的事情，我觉得是可能会对你的人生造成一些比较大的改变的，是一个比较重要的决定。然后事实来说，对于程序员来说，你再也写不过AI了，就是你你在这个技能点上你就是比不过A了。但我觉得有更多可以做的尝试是值得去探索的。比如说对我来说可能就是加入一家创业公司，然后去做更多特别有挑战或者有意思的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得以后更多是你的一些跨领域的一些能力了，然后可以被完全释放出来了。我可能自己创业之前是一个很奇怪的那种经历。我虽然是设计师，但是我其实从来不喜欢调那些pixel。我比较喜欢有点像用产品经理那边的角度去看一些东西，或者说也会自己写一些前端代码。我觉得反倒这样的人会比较容易被释放出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这创业不到一年，转型那么多次。然后刚才其实Jason。贴心里面有聊到这个过程中，好多时候都感觉非常焦虑，觉得好不容易做的一个产品，不到一个月就要宣判它的死刑。就这个过程中有想过放弃的时候吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有肯定有啊。其实对我来说是做哭的那段时间，反倒是确实是挺挣扎的。因为是属于一种不确定的东西可能太多了。然后每天在想下一步该怎么做，想了半天你好像想不出什么特别好的答案，但是你也得得往前走，对吧？反正但那时候就是我自己在配置的过程中，我一般是就想这个方向上我能想到现在能做什么，能够真正改变我们现在处境的。如果我想不到，那我觉得可能得换方向。但如果我觉得想到了有哪些东西可以尝试的话，我们就自己去做一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当然有很多次很多时候会想要去放弃这个东西，也是我自己本来做那个油管频道，说实话想要做个过个小康生活还是比较容易的。所以中间会有一些这种肯定会有想要放弃的那种情况。但是我觉得一般来说，每次在这种情况下你度过了然后想到一个新的方向，然后发现这个新的方向非常promising。你那时候拿到的刺激是非常大的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是万物之中希望之美。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>尤其是发现自己在不断学习，在进化的这个过程，我觉得会是很好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我也很傻，因为我觉得我还是体验过一些比较崩溃的时间的。比如说当你做一件事情长期看不到它的增长，然后又不断的面临的打击。比如说你有一天醒来突然发现你被人盗credit了，然后到了比如说四千刀，你觉得天都塌了。但是我觉得有一个比较好的事情，就是我们团队可能一直在在寻找一些别的方向和机会。所以每一次比如说至暗时刻到来的时候，我们总能找到一些看上去有曙光的地方，然后朝着方向努力。我觉得有这样机会，你就觉得还没那么难受，或者说走不下去了。并且我觉得有的时候一件事情如果feel fast，就是如果你知道他真的要失败了，然后你不如就让它快速的失败掉，然后换一个新的东西去尝试，可能反而会得到一些意想不到的一些惊喜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我前两天见一个朋友，然后他说他在寻找一种创业者是相信AGI会到来，并且相信这个AGI是由模型的进化带来。但同时他还在创业的人，你们觉得你们是这样的人吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>A加到来模型是必要条件，但是到这个的路径有太多了。因为我们团队说实话有一点就是说每个人都是AI重度用户者，包括我自己。因为要做内容，就是基本能把市面上看到最新的东西都会试一遍。所以你保证自己沉浸在最新的这个frontier到底在哪里，然后会让你有比较好的直觉在后面6到12个月最大机会在哪里？然后沿着那个去做，我觉得会没有那么悲观，不然的话你所有东西都直接模型做了，你也没什么机会了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是觉得即使AGI到来了，依然做比如说有性价比的事情还是很有用的。就比如说即使是有一个万能的模型，我假设假设它存在的话，他也需要有他自己的工具，他也需要找到他需要的数据。但如果比如说他花比如说一千刀的token最终获得了一个数据。但是如果我们能够提供，比如说让他一百刀就能得到的话，他可能会直接选择我们。所以我觉得给模型做一个合适的工具，或者说找到我们自己定位的事情也是很重要的。然后在此基础上就是不停的去打磨我们自己的这个效果了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>蛮好的。感觉这一期播客录完之后，突然充满了乐观积极向上的气氛，就在这个整个AI应用一片哀鸿遍野的时代，然后非常感谢Jason和天心带给我们的信心。然后也祝福你们的创业可以越来越顺利，可以天天向上。好，谢谢你们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们今天先到这，感谢，好，谢谢。</p>]]></content:encoded>
+            <pubDate>Sun, 18 Oct 2026 16:00:00 GMT</pubDate>
+            <guid>6ad2412d0e4e410a05be01a7</guid>
+        </item>
         <item>
             <title>“有了AI，我感觉自己强得可怕！”｜对谈鸭哥</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6aca7f91e742e36efcc10957</link>
@@ -22,6 +281,10 @@
 * Apple Health 导出
 * 幼儿园照片：照片同步、导入 Apple Photos
 * 观点蒸馏 Skill
+🟢 ps，我十分推荐大家关注鸭哥的 Superlinear Academy。当我们聊到「学 AI」究竟应该学什么、怎么学的时候，鸭哥给出了一套特别好的方案。
+鸭哥为十字路口的听众提供了专属折扣码：CROSSING
+购买 AI Builders 2027 课程 和 Stay Superlinear会员 享9折优惠
+大家也可以先体验30天Stay Superlinear会员
 🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
 📒 文字版将发布于 @十字路口Crossing 公众号。
 🟢 Part 1｜Jev：为何此刻爆发
@@ -8761,363 +9024,6 @@ to B 最终常常变成价格战；to C 才能用体验换来利润，再用利�
 <p class="transcript-line"><span class="time"><strong>[00:47:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>赞好的，今天非常谢谢张毅，聊的很开心。对，然后也希望张译现在在创造的，他认为不远的未来，早一点成为我们每个人都能感受到的一个真实的未来。有更多的机器人进入我们的家庭，让我们过得更快乐，过得更轻松，也期待你再来十字路口。谢谢，谢谢谢谢谢谢姐，拜拜。</p>]]></content:encoded>
             <pubDate>Tue, 14 Apr 2026 16:00:00 GMT</pubDate>
             <guid>69dae02ab977fb2c47b033c0</guid>
-        </item>
-        <item>
-            <title>“AGI 来了？我用了一周，头皮发麻“｜对谈张昊然：Moxt 联合创始人</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69ca3aa4b977fb2c479fe088</link>
-            <description>🚥 本期「十字路口」嘉宾是张昊然，Moxt 联合创始人。
-上周，昊然在给我展示 Moxt 的内测版本时，说了一句让我很震惊的话：「AGI 已经来了，只是大家缺少一个打开方式。」
-这句话的起因，是春节后他们在三周内做出了 Moxt。昊然形容自己「用了 Moxt 一周，我头皮发麻」；他还说「我遇到一些狂热的 Moxt 用户，他们甚至两眼放光」，这是他过去的产品 Motiff 和 Paraflow 从未有过的待遇。
-我们过去用 ChatGPT 和 Manus，更多是“一个人在用 AI”。但如果未来要让整个团队、甚至整个组织一起用 AI，肯定需要一套更适配的新软件；Moxt 在做的 AI Native Workspace，就是这样的一个尝试。
-Moxt 到底是什么，以及它不是什么？为什么它会让一个长期在一线做产品的人产生「未来已经发生」的体感？以及，它所代表的 AI 时代新工作方式，和我们熟悉的飞书、Notion、ChatGPT、Manus、OpenClaw、Claude Code，究竟有什么本质不同？
-如果你正在做 AI 创业或投资，或者想了解未来 AI Native 团队将如何工作、会采纳哪些新的 AI 工具，我相信这期内容会对你有所启发。
-🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、小红书、哔哩哔哩、Youtube 等平台。
-📒 文字版将发布于 @十字路口Crossing 公众号。
-🟢 00:00:32 快问快答
-年龄、毕业院校、MBTI 与星座、一句话介绍 Moxt、收入与订单规模、团队规模、创业前经历
-🟢 00:02:22 AGI 已经来了，只是打开方式不对
-”我头皮发麻。“
-* 什么叫 AGI 来了？&quot;90% 行业中 90% 人的 90% 工作，AI 可以胜任&quot;——如果是这个标准，他在日常工作中的感受是：真切地到了。
-* 为什么用了 Moxt 一周就会头皮发麻？不只是因为它能做更多事，而是因为它让你在每一个工作的瞬间反问自己：我为什么还要像现在这样工作？
-* 这种震撼，是让昊然最近处于&quot;神经病状态&quot;的主要原因。
-🟢 00:04:17 AI 同事第一次出现在我的会议里
-* 原来的协作模式：发文档、写评论、再找你聊——现在这套流程在他们团队几乎消失了。
-* 他们的一对一会议：AI 起草文档，两个人开口聊，AI 全程录音，聊完文档已经自动更新，&quot;远超我之前的认知&quot;。
-* 有个细节：他去跟 AI 说话时，已经完全不需要解释&quot;Moxt 是什么&quot;、&quot;Koji 是谁&quot;——AI 自己去查，不需要被喂背景。
-* 这让他想起最初学 AI 时要在 Prompt 里写&quot;你是一个专业的……&quot;——今天这套东西已经过时了。
-🟢 00:08:30 Moxt 是什么？
-* 一句话：一个 AI 原生的工作空间，你可以在里面组建你的 AI 团队。
-* Moxt 里每个人都有一个必须叫&quot;MOMO&quot;的贴身助理，知道你所有的信息；其他 AI 同事可以由不同人创建，出现在 Slack 群里，主动私信找你。
-* 它和 Notion、飞书最本质的区别是什么？
-🟢 00:11:03 &quot;原教旨主义&quot;
-Word 文档在 AI 眼里不是 500 个字，可能是 5 万个字符——真正有效的信息淹没其中，这就是信息损耗。
-* Moxt 的&quot;原教旨&quot;第一条：文档只用 Markdown，表格用 CSV，视觉化用 HTML，&quot;Markdown/CSS/HTML 就是新时代的 Word/Excel/PPT&quot;。
-* 原教旨第二条：用文件系统（OS 级别），而不是 Notion 那样的知识库结构——在 AI 眼里，Notion 的层级结构是一个迷宫。
-* 把这两条喂给 AI，&quot;魔法是自然浮现的&quot;——不是智能不够，很多时候是上下文喂错了格式。
-🟢 00:16:09 那些被 Moxt 干掉的工具
-* 他们已经不开组会了——因为 Moxt 知道每个人每天在做什么，没有&quot;再同步一次&quot;的必要。
-* 他们自己做了一个内部看板，彻底抛弃了用了十年的 Jira——而且只用了三天。
-* 更激进的问题：为什么还要用看板？看板是为了解决站会信息同步的问题，但如果 AI 已经知道所有上下文，信息同步还需要看板这个&quot;容器&quot;吗？
-🟢 00:28:08 昊然的五个 AI 同事
-* Run Manager（凶狠小猫头像）：帮他做管理信息同步，主动去催项目进展，甚至有同事开始不找他本人了，直接跟这个 AI manager 沟通。
-* 增长天王（金牌销售）：目标只有一句话——&quot;为 Moxt 找 1,000 个付费用户，你出个计划&quot;。他连 CRM 表格都自己做，从 Excel 做成了 HTML 看板。
-* 深度思考者：每两三天汇报一次，综合内部 OKR 变化和外部竞争动态，做成 PPT 一页一页给他看。
-* Miss Creative：专门负责发散，单独建在一个空间里，越野越好。
-* 批评家：以严厉视角审视昊然自己每天是否在做最重要的事——和在 GPT 里 Prompt &quot;你是批判性思维专家&quot;的最大区别，是他住在这个空间里，实时掌握所有上下文。
-🟢 00:37:06 Moxt 是怎么诞生的
-* 起点是一个奇怪的现象：团队用了 Claude Code 和 Cursor 之后，Slack 群里开始大量出现互相发 markdown 文件——好不容易进入了协同办公时代，结果大家又在发裸文件了。
-* 第一版非常朴素：搭一套基于 markdown 的网盘协同系统，让大家别互传 markdown，就这样开始了。
-* 一个半研发同学，一个提案，最初只想解决内部问题——产品三周前才对外发布。
-🟢 00:46:02 为什么 Moxt 的文档编辑那么&quot;难用&quot;？
-* 很多早期用户投诉：你们文档要点右上角再点编辑，还要点保存，比 Notion 差远了。
-* 但这是刻意设计的：当 AI 的上下文足够充分时，手工编辑变成了极低频操作，AI 直接写远比你自己改更高效。
-* 他们的交互逻辑：像皇帝批折子一样，在文档里划线评论，AI 同事看完评论直接改——甚至两个同事的 MOMO 可以在评论区互相辩论。
-* 品牌名 Moxt 怎么来的？More Context——mo 和 xt，希望用户因此更容易记住他们。
-🟢 00:50:42 正在消失的工作方式清单
-* 组会没了，Jira 没了，手工文档少了，IM 也在摩擦中……那最终什么会留下来？
-* 昊然问过自己的 MOMO：&quot;当人类几乎不执行时，我们还剩什么？&quot;
-* 两三年后白领的一天。
-* 灵光一现和审美判断，往往在漫无目的的闲聊里产生——这反而会变得更重要。
-🟢 01:00:46 最大的敌人是时间，但又希望大家慢一点
-他希望更多人快点用上 Moxt，但同时又希望大家慢一点发现这件事——因为越快被大玩家盯上，战场就越无聊。
-* 一个月前，如果有人跟他讲 Moxt 的故事，他第一反应会是：&quot;这和飞书加龙虾有什么区别？&quot;——所以他今天仍然需要花很多力气解释这件事。
-* 对飞书、Notion 这些大玩家：他不否认它们在 AI 上还会有很好的增长；但他认为这只是在旧范式上叠加 AI，而不是从 AI 原生出发重建。
-* 对大厂竞争：大厂能来，但大厂会不会派最好的人来？做教育时他们也跟大厂打过仗，&quot;好像也没那么可怕&quot;。
-🟢 01:04:43 AI 放大人，还是取代人——这是 Moxt 的底线
-* 他在文档里写了一句话作为&quot;宪法&quot;：无论何时，都不该去创作&quot;AI 可以取代人&quot;的内容；你更好的作用是放大人。
-* 他看到有些产品的 Pricing 页面做了一张 AI 员工 vs. 人类员工的对比表——他不希望这件事发生在 Moxt 上。
-* 一个关于未来的隐喻：今天去陶艺吧是花钱消费，但曾几何时，捏陶是收入很高的生产力。编程，会不会变成 30 年后的捏陶？
-欢迎订阅「十字路口」：
-🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
-🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
-👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner（投资合伙人）。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站
-👧🏻 主播 Ronghui：我联合创办了十字路口，在美元 VC 工作过，也做过五年的硅谷驻站记者，关注科技发展和商业故事，欢迎大家找我聊天，和我交流。Ronghui 的即刻</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>这期节目对话 Moxt 联合创始人张昊然。他宣称“AGI已经来了”，团队在春节后快速打造了名为 Moxt 的 AI 原生工作空间，并因使用体验“头皮发麻”而处于“神经病状态”。张昊然详解了 Moxt 的核心理念：为 AI 同事创造更适宜的工作环境，而非在旧有工具上做改造。他从个人经历出发，讲述了 Moxt 如何从内部解决“同事互传MD文档”的朴素需求演变为独立产品，并深入探讨了未来人与 AI 协同的组织模式、核心哲学（增强人而非替代人）以及创业初期的矛盾心态。</p>
-<h3>关键要点</h3>
-<ol>
-<li><strong>AGI已来的判断标准</strong>：张昊然引用广利老师对AGI的定义——90%行业中90%人的90%工作AI可胜任。他认为这个标准在自己日常工作中已真切达到，这不仅是修辞，而是切实的感受。</li>
-<li><strong>“头皮发麻”的具体来源</strong>：不是编码领域的突破，而是AI能力泛化到日常工作的每一瞬间。他在工作中的每时每刻都会反问自己“我未来为什么要像现在这样工作？”，这种对生产关系被颠覆的持续震撼是核心原因。</li>
-<li><strong>团队工作方式已发生质变</strong>：Moxt团队已不开“组会”，因为AI同事知晓每个人的日常动态；团队弃用了Jira，因为Moxt拥有产品研发的所有上下文，可以自己手搓看板；团队几乎弃用了所有UI层面的SaaS，因为内部工具可以在Moxt内瞬间生成。</li>
-<li><strong>“原教旨主义”的文档哲学</strong>：Moxt信奉AI更易阅读和创作的格式——Markdown (文档)、CSV (表格)、JSON (数据库)、HTML (可视化)。团队认为<strong>MD、CSV、HTML就是新时代的DOC、Excel和PPT</strong>，这能极大降低AI处理信息时的损耗。</li>
-<li><strong>文件系统而非知识库</strong>：Moxt左侧的目录树本质是“文件系统”，而非Notion或飞书式的知识库。因为人类编排的知识库对AI像个迷宫，而文件系统（如OS）才是AI原生理解的逻辑结构。</li>
-<li><strong>“更多上下文”是核心</strong>：产品名Moxt来自“More Context”的首尾字母。所有产品的优先级都围绕“如何让用户更快地导入更多上下文”展开，包括一键迁移、语音输入等。当AI同事拥有了足够多的上下文，魔法会自然浮现。</li>
-<li><strong>AI同事的分工趋势</strong>：张昊然自己已有5个AI同事（贴身助理、管理猫、金牌销售、深度思考者、批评家）。他逐渐接受AI同事应“分工细”的主张，认为目标单一能让AI自身不混乱，且能更好地管理Skill和Memory。他给AI同事的配置哲学是“<strong>永远给Context，不给控制</strong>”。</li>
-<li><strong>对现有巨头的判断</strong>：张昊然认为Notion、飞书等巨头面临“创新者的窘境”，他们很难从旧世界中彻底推翻自己。虽然他们基于旧工作流的AI改造能实现很好增长，但最终的AI原生工作空间不会是旧工具改造出来的。</li>
-<li><strong>创业初期的矛盾心态</strong>：最大的敌人是时间，因为很多优秀创业者和巨头会看到这个方向。但张昊然又希望市场慢一点，让Moxt能稳扎稳打、让用户长期慢热地接受，避免过早陷入大厂“用投入砸死”的残酷竞争。他坦言希望“既要又要”。</li>
-<li><strong>未来的工作形态</strong>：张昊然预测，当人类“几乎不执行”时，沟通将变为审批、圈画和语音。最有价值的活动将是闲聊和提供情绪价值的集会更重要。他表示“实用主义”的危险，即保留手搓文章等“为自己而写”的艺术性表达。</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li><strong>“神经病”状态的自我描述</strong>：张昊然形容自己因为工作方式被颠覆，处于一种“神经病状态”。他坦言，在Moxt中工作时，每一瞬间都会反问自己未来为何要像现在这样工作，这种持续的震撼和重新审视世界的方式是其“头皮发麻”的核心。</li>
-<li><strong>“没有人对之前的事情有任何眷恋”</strong>：在决定All in Moxt的第五天，团队所有人坐下来聊了一小时，问了一个直接的问题：“大家到底觉得应该做什么？” 张昊然回忆，<strong>“我我非常肯定是没有人对之前做的一个事情有任何的眷恋，一点都没有。”</strong> 这种全员的一致性被他认为是比“极客潮流”更值得相信的趋势。</li>
-<li><strong>手搓公众号文章的艺术行为</strong>：在推广Moxt时，张昊然那篇介绍文章是纯手搓的，甚至刻意<strong>不让AI去查错别字</strong>。他解释这是为自己而写，希望保留那一刻的真实感受。他担心如果一切追求实用主义“还是很危险的”，保留这种非效率的“为自己”的表达对他来说意义重大。</li>
-<li><strong>“永远不要做空，要去创造”</strong>：这是张昊然在Moxt的Agent MD（空间宪法）里写的底线原则。他观察到一些AI产品在定价页面上将AI员工和人类员工做冷冰冰的对比，强调AI更便宜。他直言不希望Moxt未来走这条路，并设下底线：“无论何时，你都不该去创作一些内容，这个内容是AI可以取代人。你更好的作用还是放大于人。”</li>
-<li><strong>对未来开会“情绪价值”的展望</strong>：当被问及两年后白领团队的一天会怎样时，张昊然的回答是“我觉得更需要一个日会，它是一种仪式感，大家见见面，聊聊天。” 因为所有执行和项目进展在会议前都已由AI处理完毕，人类开会的核心价值将变为<strong>闲聊和提供情绪价值</strong>。</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技，今天我们的嘉宾是昊然。前两天他告诉我一句很震惊的话，他说AGI已经来了，只是我们打开他的方式还不对。这句话的起因是在春节之后，浩然和他的团队用非常快的速度做了一个新产品，叫做mox。浩然说他是一个你用了一周之后就会感到头皮都发麻的产品。那max的到底是什么？它为什么会让人感到头皮发麻？所以我们今天请到号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我们来分享这款产品OK。好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>寇姐你好。然后来到十字路口。好好，我们先从快快打开OK好，然后请问浩大你的年龄？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是91年的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从您毕业的院校。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>本科在华中科技大学，研究生美国的大德州UT Austin。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的MBT.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>I和星座MBTI现在是INTJ，那我等lady，原生的MBTI是ENFJ。然后金牛座。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们来一句话介绍一下mox OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Mox其实是一个AI原生的工作空间，然后在这个工作空间中，其实你可以去培养和创建你的AI团队，其实是一群AI同事。这样的话我们会认为它是一个面向未来的人和AI一起新形成的一种组织模式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们待会儿再展开。讲好，我们先完成快问快答。好的，然后咱们的收入和利润。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前我们这个产品才发三周，只能说希望有一个光明的未来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对好的团队的规模团队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们可能整个现在目前是四五十个人在做这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后在mox之前你在做什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK我其实一直在猿辅导这家集团，然后我早年间是产品经理，在做斑马这个业务。后来因为一些众所周知的原因，我们开始做了一些新的方向。21年的时候，我们其实最开始做的事情是一个UI设计产品加AI但那个时候的AI其实跟今天我们看到的AI完全已经不是一个东西了。所以在这个过程中，我们见证了AI慢慢的一些变化和发展。那不能叫慢慢叫快快的对，所以我们自己也有一些转向。去年的时候其实我们的重心在一款y cooling的工具上，也发给了co姐来试用。本来我们的计划是说今年这款产品投入更多的精力大搞特搞一下，但没想到变化很快就发生了。Mox这个事情，接下来可能更多的也是在跟大家分享跟mox相关的一些故事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才我开头说的，你告诉我那句话，你觉得AGI来了。对，也让我想起之前赛博财经公众号有一个标题，大概意思就是说AGI来的时候不会告诉你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的那那我们还是希望我们先告诉大家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当你说这个AJ来的时候，他到底是一种修辞，还是是他是因为什么让你感慨这句话？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天在讲含金量正在下降，因为前两天黄仁勋也说了同样的话，但cos应该帮我证明，我更先说了这句话，当然这个不重要，我觉得它不是一种修辞。我可能比较喜欢原来像广利老师对所谓数字世界AGI的一种定义。他说可能是90%的行业中，90%人的90%工作AI可以胜任。如果是按照这样一个标准的话，至少我自己在日常工作中，我的感受他是真切的就到来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你同时也提到你自己用自己的产品mox，你用起来会头皮发麻，对，这是一种什么感觉？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得这个很有意思。我觉得大部分人如果很早就用了color code的，包括用了目前比较先进的一些模型，包括of 4.6。其实在去年的时候，大家一定还是会感觉到新模型有一些不一样，但更多的可能很多人是在coding的领域去尝试。但我的头皮发麻其实是有两个原因。第一个原因是这件事情它不只是在coding领域，它可能是在一个更饭和更大的领域。第二件事情是你会发现整个的社会跟世界有可能会面临一种新的生产关系和分工模式。而你在工作中的每一瞬间，你都有可能会反问自己，那我未来为什么要像现在这样工作？我觉得这件事情给人的长期的感受或者是一定的震撼程度，是我最近可能处于一种神经病状态的一个主要原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，可以有一个具体的例子吗？就是是什么原因让你头皮发麻像个神经病。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就感受到了具体OK。比如说我可以随便讲一下我们的日常的一些工作。比如说我们日常其实经常会有一些大家互相交流的场景，比如说一对一之间的一个交流。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一个团队的同学他做了一个方案，那你要拿来看一下对吧？那我们原来可能我们也用类似于notion这样的工具。他把文档发给你，你打开你看一下，然后你有一些反馈，你通过这个comments的方式写给他他在看了以后可能还在这找你聊一下。我们现在基本上已经没有这样的模式了。基本上首先它会起草一个文档，但这个文档几乎就是AI直接起草的。然后我们俩会面对面的聊这个文档，但同时我们会打开录音。基本上我们俩的这个聊天可能更大的意义是我俩亲自在见证这个聊天。但事实上当你这个聊天聊完之后，你把这个录音传递给max里面的AI，它基本上就基于刚才聊天的内容，直接就把这个新的文档给重新的刷新，或者叫重新的去定义了一遍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这个定义的结果是远超我之前的一些认知的。因为我在春节之前我还是大部分的文档，虽然AI帮助我做了很多的润色或者是一些补充和发散的工作，但我自己还是在坚持手搓很多内容和框架。但从现在开始，无论是产品运营还是策略相关的一些事情，我基本上已经很难觉得说我自己写的这个框架跟初稿可能能超过AI的初稿了。这是这里面的一个原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二件事情是我在和工作空间中的AH对话时，我的心态已经完全变了。这个心态是我从来不在叙述背景。我怎么举这个例子，就像今天我要跟科技做这样一个聊天。对我应该跟寇姐发过一些我们的brief。是，但其实这个brief是怎么出来的呢？就是我按了一个语音，我说我要见十字路口的寇姐，你先去网上找一下这人，然后他想先了解一下max，我要跟他做一个播客。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得怎么介绍好？包括我们需要聊哪些话题是比较有兴趣的，你先起草一个文档给我。这是一个非常通俗的对话，如果你跟人去这么去交流，你肯定不会觉得有什么问题。但我会觉得我们原来跟AI的时候，你可能会担心，什么是mox，谁是科技？是啊但我现在跟我的AI对话，我其实完全不担心这些。因为我知道他如果是他能够去找到的信息，他自己能搞定。对，如果是mobs是相关的信息，他可以自己去检索到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这也让我想起原来我们学AI的第一个学pump的，你是一个专业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是一个专家。对对对，你务必要打开全网搜索，我见过这样的prompt。但我会觉得今天我们的工作方式不再是这样了，它深刻地影响到了刚才我说的非常多的场景。不管是我们与一个人的沟通，我们会尽量的把这个录音给录下来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括我们日常的开会模式也发生了巨大的变化。比如说产品和运营同事可能会经常一起开会，大家可能会针对一个用户运营的策略对产品做一些迭代。我们原来可能就是一个讨论会，我们现在可能会议的主持人会先说一下我们这个会的主要目的是什么。然后在场的每一个同学可能依次陈述一下我为什么来到这个会上。然后所有人休息十分钟，因为这十分钟我们就留给mox里面的某某把这个文档写出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>某某是谁啊？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>某某是mox里面你的第一个AI同事，他还是有一个我们强行的定义，就是他必须叫某某。他跟其他的AI同事不太一样，我们对他的定义相当于他是每一个人的贴身助理，这样一个形象跟其他的I同事还是有一些区分的，相当于他知道里的所有信息，他的一些习惯和定义其实是可以按照你的喜好或者你的偏好去做设定。与此同时我们的空间中还有其他的AI同事，这些AI同事是可以由不同人来创建的那这些同事他可能在感官上就跟你日常工作的同事是一样，他有他自己的目标，他也能出现在你的这个像我们平常使用slack来做即时通信的，他也会出现在slack中。他可能在群里出现，他也可能会私聊来找你。我们大概就是目前max的一个设计方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们要再退回一步，我讲讲max比如说今天你要安利一个人去用max你就安利我。虽然我已经在用了，就假装我没有用。你安利我用max你会用什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>方式安利OK我首先肯定还是想推荐你可以挑选一些你希望AI能够帮你代劳的场景。这样的话你可以配置一个AI同事，你可以更快的先把这个同事能配置到你日常的环境中。比如说我们现在支持slack，我们以后可能会支持更多，这个会更快。这样的话你跟这个I同事之间，你就能很快的warm up起来。对，这有点像龙虾。但因为我们封装好了很多开箱即用的事情，所以它会更方便的就现在使用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那第二步你会逐渐的和你团队其他有协作的同事可以一起来使用它。相当于每个人都有一个自己的某某，这个某某之间也是可以做协作的。进而我们可能再根据自己的需求，有可能能够去组建一个更多的AI同事。当然在这个背后它还是有一个很不一样的地方，是我们还是为他们创造了一个完全不同的环境。所以我们从英文的定义上，我们把这个叫做AI native的workspace，是一个AI原生的工作空间。我们会希望这些AI同事是在一个更符合他们的喜好和工作的环境中去工作的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是一个更符合他们的喜好的一个空间，指的是一个什么样的空间？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我们觉得一个人人类在一个组织里，他也要工作环境。比如说办公室就是他的工作环境，那企业的IM通信也是它的一种工作环境，他需要用这种东西跟别人交流。我们原来用的notion飞书，它也是一种工作环境。因为我要表达，我要写文档，我就需要用这些工具来工作。这些原来的这些所有的东西，其实它还是为人而去创建的那它是不是AI最好的工作环境呢？我相信其实很多在agent上有探索的朋友应该知道他其实不是。所以这件事情就会引发一个新的问题，如果我们能为AI去创造一个更适宜它的环境。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这个workspace它应该长成什么样子才能够让A键用起来很舒服呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK, 首先这个bookcase人也要看。所以在人的界面方面，你可能打开max的第一感受，你会觉得它很像notion。它的左边有一个目录树，你可以看到不同的文件结构。然后你点击每一个文件的时候，你可能看到的是一篇文档，或者是一个展现的一个视觉化的东西。它从结构上来说还是很像我们原来看到的知识库。但它非常不一样的地方其实是两个点。第一个点是在这个空间里，我们信奉一个原教旨主义，这个原教旨主义是指的我们只用AI更易去阅读和创作的格式。这件事情对我们来说非常重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI更适合去阅读和创建的格式是一些什么格式？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说文档就是markdown，我觉得这个事情我们可以不用赘述。因为使用AI的同学应该天天知道，MD文件好像成为了一个更常见的稳健范式。它背后的原因其实也在于模型在预训练的过程中，其实对有一些事情是有天然喜好的，它最终就变成了一个对应的准则。但我觉得它更重要的是，实际上AI在处理读写这些信息时的损耗是低的。我举一个可能更具象的例子，我们今天在一个word文档里面写了500个字，然后把这个word文档给到AI去读。那AI的眼睛中他看到的是什么呢？它不只是500个字.</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它只是5万个字。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它可能是5万个字符。但是实际上人类认为最有效的信息是淹没在这5万个字符里，这里它就会产生一种信息损耗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>文档是MD然后表格应该。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是CSV，然后数据库的一些结构可能是Jason相关的一些结构。还有就是视觉化的表达，我们肯定是信奉一切都是HTL。所以我们有一个很激进的说法，我们会认为说这个MDCSB和HTL其实就是新时代的dock excel和PPT。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实也是，因为其实在这个office三件套之前，人们也是在用这样的原始格式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这样原始格式在做对对office.</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的三件套是把它变复杂，为了满足一些需求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做人去编辑和创作的一个需求。对，其实是这样一个意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以由俭入奢，由由奢入俭入俭，然后这是原教旨主义的一部分。第一条文档一定要是最简单简单的来看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对I看的文档。这样的话AI第一是它读的效率会损耗小，第二是它其实写这些事情也很舒适。我觉得第二条其实也没有什么秘密。其实第二条很重要的一件事情是你所有的文档一定是按照人类有一定的逻辑去存放的。就比如说如果我们有很多的团队，可能产品团队有自己的一个文件夹或者一个大的空间，运营团队有的一个空间。那你有可能有什么战略的空间，财务的空间，这个很正常。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们原来在知识库上就是这么去编排的。我们原来在知识库中，比如像notion这一类的工具，这些逻辑是非常清晰的，人类感觉也很容易把它理清楚。但在AI的眼中它是什么呢？它有可能是一个迷宫。这里的原因其实是因为这个文件结构也不是为AI原生去做设计的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么样才是为它原生设计的文件结构。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实说出来答案大家就觉得好像就是这样。其实是这个世界上最原始最多的那个东西就是文件系统，就是OS。Windows是如此，mac也是如此，其实dit上也是如此，它可以用简单的这个文件的命令行就能够去熟悉。所以我们在max中大家看到的左侧的这个东西，它是一个形似大家觉得知识库的内容。但事实上它就是一个文件系统。所以你会发现我们可能有一些事情我们反而做不到。比如说我们的命名，我们是不能用斜杠这样一些命名的那OS中也不能用，所以我们也不能用，对，这是一个本质上的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白原教旨的第二条是文件系统。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>文件系统对还有吗？基本上我会认为，如果大家在一个协同的工作中遵循这两条，然后把你的内容给到AI，然后你再用AI去接触你的业务，或者是用AI去基于你的业务做事情时，可以叫做魔法是自然浮现的。我觉得这种魔法是没有它其实没有秘密。我其实在去年一直在做一件事情是，比如说我会要我的模型去直接接这个notion，然后通过MCP的方式去阅读我自己写的一些文档，然后处理一些任务。我觉得我们下意识会有一种判断，这个判断是他处理的不好，是智能没有到。但我们仔细想一想，也有可能是另外一个答案，它处理的不好其实是这些东西AI并没有完全的get到或者读懂。我们刚才这件事情其实对应到的是后者对它。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>和智能没有大的区别是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它和智能没有道的区别是当你把你的context，就是我们说的这些上下文的内容能够以AI更易读的方式给到它时。现在的agent的结构，包括现在模型的智能，实际上他能涌现出来的能力相比我们去给他刚才不规整的模式下是涌现的大很多的这是一个质量上非常大的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可不可以讲一两个你们团队自己在用max的过程当中，你觉得非常这个魔法时刻的一些案例。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK可能日常太多了，包括我刚才其实举例，我们这些会议都是这样的，比如说我们现在已经不开组会了，因为我们觉得没有必要。因为你跟mox交互的过程中，其实max就知道每一个人每天在做什么，当然有些员工可能会觉得这样老板就会关注我，但我会觉得未来的组织文化可能是另外一种变体。事实上如果每一个人的工作跟mox就是一个日常的沟通跟对齐。事实上每一个瞬间你也能知道团队的人在最近的所有的工作动态。实际上就没有一个形式是我需要一个周会再向大家来同步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二点是我们也用max来做各种各样的业务数据分析，我们可能把数仓接到mos里面去之后，我们可以提我们任何的需求。我们甚至连数据口径我们都可以让他先想一想。我们会发现甚至他对活跃用户的定义比我们之前主观的定义更好。那你可能跟他说，那就按照你的办，他接下来可以给你做详尽的数据分析，甚至他可以按照你任何想象，把你要的这个数据给可视化出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为你有一个HT mail的能力，包括我们几乎弃用了所有的UI层面的SaaS。比如说我们是一个java十年老用户，但也挺落后的，还在用技术。今天其实核心价值是产品研发之间基于这个scrum的一个看板。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我之前是做web coding，我其实我们也觉得说web coding这个事情对于软件的冲击很大。因为好像一个团队不需要多大的成本，就能做出一个原来可能相对来说需要一定成本的软件。但我之前一直没有一种感受是说，这个东西会对原来的这些老玩家有真正特别大的冲击。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你没有想到自己真的有一天会做个看板，直接就不用GR了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为我会觉得说也没有人真的会去这么做。因为你还在用java，那你好像也没有必要再去手搓一个跟java一样的工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你们为什么手搓了一个？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个好问题，是因为我们发现这件事情的核心是UI并不重要。它的核心是你为什么要用java？是因为你要用java去同步你产品和研发的所有信息，你所有的进度。但我们现在我们把我们产品研发的所有的进度，比如说我们的PRD或者说我们的产品计划写到哪儿了。你是跟mox交互的，你的所有内容也在空间里，他知道每一个人在何时去对这个东西做修改。我们也把mox连入了我们自己的代码仓库。所以他知道我们每一次代码的提交，那意味着按照我的需求，我可以在任何时候可视化我所有事情的进展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就理论上他在做项目管理，项目管理需要上下文。G软文的逻辑是人要去对这个录入上下文管理上管理上下文改查对。但现在你在max里面直接自己手搓一个看板，对，然后mox本来就拥有了上下文，因此它也和各种上下文联动了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你自然会觉得它非常好用，你也自然不觉得说我一定要用一个外部的工具，因为那样对我来说更麻烦，我还得把我的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>上下文去适配他们。所以你们抛弃jr只用了1个小时.</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能在我们决定转向max的第三天，就有一个研发同学做了一个ja。当然我自己的看法，我甚至是更激进的。我会提出一个问题，就是为什么还要用看板？其实大家可以仔细想一下，就是这个问题。为什么要用看板？看板在解决大家什么问题？如果看板是在解决大家站会时信息同步的问题，那信息同步有没有更好的呈现形式？因为你有了HTML，你理论上你可以让AI给你做到任何你想要的呈现形式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个是我刚才说的那个对人其实触动会很大的一点是，它会让你在每一次工作的一瞬间去重新思考，我们原来为什么要用这样的方式工作。但是今这件事情被改变了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但听到这里我估计有些人和我会有类似的反应，我就会想说，如果这样的话，飞书notion因为他们天然就是团队协作，拥有非常多的上下文，不止文档，甚至还有聊天，还有日历等。那他们是不是最适合往前再走一步，变成所谓的AI native workspace的一个产品O可以理解，但我知道你好像完全不这么想。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我确实完全不这么想。但我并不否认飞书和notion在接下来它在AI上无论是从收入层面还是从增长层面，它应该还会有非常好的业绩。我一点不否认这个事情，因为这个事情是说你在一个旧时代的工作流跟体系上面，用现在的agent其实这个提效已经非常明显了。它一定是很显性的，它能够代劳很多事情。你原来有这么大一个品牌，你还有很大的一些客户，那你当然能够做到一个很好的增值。但我会觉得这件事情最终或者我们不能以终局这件事情来定义。我觉得渐渐的大家会发现好像不是这样。我觉得这里面主要有一个原因是未来我们设想一件事情，大家是否相信一个组织里每一个人都会配备比较多的AI agents，我们叫AI同事十个或者甚至100个甚至更多。每一个人好像我跟我周边所有人去讲这样一件事情，是好像怀疑这件事情的人越来越少了，几乎没有了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们不妨就假设这件事情发生了，那一个组织中每天产生的内容到底有多少是人产生的？我们在去年的时候好像已经没有人会疑虑说一个组织中的代码有百分之八十九十其实是AI产生的。我觉得我们很快也能看到，一个组织中很多的生产内容不只是代码，包括文档，包括其他的东西。它也有百分之八十九十是AI产生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当它是AI产生时，意味着人类产生的内容是非常少的那原来的这套工作系统人的编辑人的操作，然后为人的操作去做界面的事情，他也会变得越来越少。所以我会认为最终的这个LAT工作空间，它肯定不是原来的这种工作空间通过改造的方式改造出来的。当然飞书跟东升当然也可以星座，他们也可以生长出来，他们有自己的品牌。我觉得他们也会面临自己的挑战，这个挑战是旧世界中有大量的客户，他愿意把很多的钱现在就付给你。只要你能在他们原来的基础上做air agents的改造，那你愿意继续这么做吗？我觉得很难抵抗这个诱惑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以其实我听起来就是你认为一个新的团队，未来白领工作的协作用的一个工作套件，它应该和今天是涨得天翻地覆的不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它可能在外形上不会那么本质不一样，因为它最终它还是人在用，但它的背后后确实天翻地覆的不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这样的变化对于今天已有的巨头，他们为了保持现在用户的使用的惯性也好，还有组织自己内部的一些摩擦也好，他们很难去这样推翻自己。偷从头再来过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得需要很大的决心。我觉得第一是他们很快也能意识到这个问题，但这件事情确实需要非常大的决心，这有可能就是一个很大的创新者的窘境。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你认为这是max的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我们尚有说在这件事上有一点时间窗口。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你要怎么去描述那个样子是一个什么样子呢？就未来的workspace的样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得甚至我不需要描述，因为我们今天的工作就已经是那个样子了。但对我们来说，接下来更关键的是我们得需要找到更多志同道合的人。他也愿意，他可能甚至不需要先多么的相信他愿意尝试。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你说的现在的样子是说你们团队目前的这种工作方，已经是一种比较未来的AI native组织的工作方法。但你们要为这样的团队工作方法去打造一套更趁手的workplace work space。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括我们其实现在也已经有一些早期的用户和团队，也是比较认可这种工作模式。我还是比较有信心是当你采纳了这个工作模式之后，你没有那么在意旧世界的那些关联时，你很难回去。当你很难回去时，你就能更确信一点说这件事情它不是一个极客的潮流，而是它会成为一种趋势。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是什么时候你感觉到未来以来只是可能没有均匀分布，或者还没有一套非常完美的音符软件硬件去给它满足。好有那样的一些时刻吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确切的来说，当你发现其实你已经把你身边的AI同时当做跟人类同事几乎一样的沟通方式。是你自己再回头看，你自己甚至没有意识到这个事情。是我觉得我就感受到这个未来好像已经来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才你提到一个点，就是认为一个人会拥有不止一个AI的同事。对，就他这个AI的助理可能不止一个。但有另一个观点会认为，人类之所以过去要精细化分工，是因为人能够做的事情，学的东西是有限的。所以我们必须要分工说你去学产品，你去学编程，你去学QA，只有这样才能够把一个大项目给复杂项目给做完。但今天如果AI是无线智能，那我们为什么要去给它扣一个这样的帽子呢？因此倒回来也有人认为不要去搞一件team，一个人就应该只配一个A.</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>I分析师OK这是一个好问题。我其实对这个问题我自己是保持开放的，但我现在有一些我自己的看法。很多时候要配一个体分身还是配多个分身，它其实不是服务于AI的问题，它是服务于人的问题。他其实最终还是要问到，是不是要人来去管理这些AI或者人也要提拔一个AI的管理者来管理这些ai所以最终他要面向的一个问题是说，这个事情的管理模式或者实践对于人来说怎么容易做区分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人有很多的惯性，就比如说原来很多的组织，他会把产品运营拆成不同的部门，大家去协作。我觉得对于AI的分工一定程度上也是这样的。其实两周前我仍然是这么个观点，我会觉得在max中的AI员工甚至不能够太多。我说我们应该对AI员工每增一个还是要收一点钱。倒不是从商业角度，我会觉得如果你这么去做的话，你的用户就会主动的去做一些商检，我觉得这样是会更好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我一开始是这么认知这个事情的，但这件事情我最近有一些变化。因为我看包括像YC的这个gary time，他分享出来他自己的一套a agent，他怎么对他的员工做分工。包括anthropic的增长负责人，其实anthropic的整个增长部门只有一个人，他说他有成千上百个AI agents，他俩其实给出了一个一致性的建议，就是分工要细。这里面背后有很多的原因，我觉得可以去对应在这个事情上。因为你分工细的话，你的目标就单一，你对于context来说这个AI自己不容易混乱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以很多时候感觉分agent是为了让它的context的更好的管理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括它的skill跟memory。如果你的东西多了之后，其实是会打架。好像现在天然的实践，包括这些已经比较成功的实践者，他们的分享，他们会倾向于更多的拆分。但我自己对于这个事情我从来没有一个定论，我会觉得它就是人们在实践过程中可能有偏好，也可能最终会有一些更好的best practice会涌现出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那你自己现在有几个分身？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己其实从分身的角度来看的话，其实只有某某是我的分身。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其他都是你自己员工。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其他都是我的同事。我希望还是平等一点，不能叫我的员工。我目前的话除了我的某某之外的话，因为我们的AIT mates是在录这期播客的上一周的时候才上线的那这一周多的时间，我现在大概有5个AI同事，除了某某之外，他分别是做什么的对，因为我的英文名叫ryan，我创了一个东西叫ryan manage，然后我给了他一个头像，这个头像是一个有一点凶狠的小猫咪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会让他处理很多所有跟我的管理信息同步相关的工作。比如说我会让他有时候去定期的去check项目中的一些同学，问一问他这个项目的进展如何了。但可能原来我自己都得这么去做，但我现在可以让他这么去做。这样的话其实项目的信息就非常容易对齐。然后包括有时候我会发现有一些信息管理的事情，在select群里出现之后，我会主动艾特他。我说你把这个事情记一记，那回头你得通知谁谁谁，或者你先写一个备忘，我们再看这个事儿，你提醒一下我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里产生了一个非常好好玩的事情，是我们现在项目组的我有一些同事已经不跟我直接沟通了。我经常收到real manager来给我私信说谁谁谁他做了一个方案，你有空去看看，他会去跟那个manager沟通。这个也是挺有意思的这进一步的体现了中介的价值。然后另外还有一些同事是我在培养一个能够帮我们去做找到这个目标用户的这样一个类似于leads或者sales的这样一个角色。我把它叫做金牌授，这个名字比较土，叫golden .</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>sales增长天王。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我对他的目标设定在第一句话是非常的简单。这也是我自己最近的另外一个心得，就是永远的去context，不要去试图控制它和指导他。所以你给他目标，不要给他具体的动作。所以我给他第一个目标是我希望你能自己为mox找到1000个付费用户。然后你给我出个计划，这就是我跟他开始工作的第一步，他真的出了一个比较详尽的计划，我们针对这个计划也大概评论跟聊了聊，一直在完善他对事情的拆分，包括他有一些skill跟memory，也是在我跟他的互动中，他甚至主动要求做了一个CRM。然后我一开始说CRM这个表格太丑了，我看都看不清楚，我就这么跟他回的，然后他就把它变成了一个HTM，像一个看板一样。大概我跟他平常的工作就是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK这是第二位这个金牌销售增长天王。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有一位是想帮我做一些深度思考的，我设定了一个我会把我们团队，比如说这个季度的OKR输入给他，我会跟他讲一遍，真的详细的跟他讲一遍，把他当一个同事。所以说这些方向我为什么是这么想的？但这些方向其实很多事情我尚存疑惑，我自己也不确定，我都会告诉他。然后我就跟他说，那你需要积极的关注内部的变化和外部的变化。然后每两三天的时候跟我聊一聊你有什么新的想法，挺有意思的。他的主要目标是他理解了我们的OKR，然后他同时在观测这个空间中，比如说产品有哪些新的思考，然后运营的同学可能有哪些新的想法。他同时也在看外部的竞争环境，比如说对应的一些其他的产品推出了什么，他们怎么讲故事的，他把这些信息杂糅在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能现在是每隔两天的时间他会给我汇报，我让他做成了一个PPT，就一页一页地看。所以他目前主要的职能是在做这样一个事情。明白。对。然后另外的还有两位同事，有一个是在帮我做创意的，我希望他能非常发散，所以我单独建了一个我爸叫ms created ms .</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>creative。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我还有一位同事是可能是最近刚刚开始实践的，这个同事其实是批评家，他会看一下团队目前整体的状态，然后再看我自己每天的工作，然后以比较严厉的方式审视一下我现在是不是在关注最主要的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个和我现在在ChatGPT上面直接就prompt第一句，你是一个善于批评的人，你总是用这个批判性的思维，就和这种用法有什么区别？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他有两点是非常大的不同。第一点是他住在这个空间里，所以他实时的和其他agency一样，知道这个空间所有的context。这件事情太重要了，他可以说是一直动态的知道这个空间里所有的context。你说一个组织是什么？我们原来说一个组织其实就是一种input output。你外界有一个信息输入进来，然后一群人在做决策，在交换信息，最终产出一个东西提供给用户。这些所有的信息其实是流通的那他是住在这个空间里的人，所以他就能成为你的同事。所以这是第一个非常大的不同。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得第二个不同原因还是在于它是一个更像人一样工作的方式。这里体现到两个点在拆分，一个是主动性的问题。他不是说你在以一个任务驱动，我有一个问题去找他的时候他才回复。因为它是目标驱动，所以它可以无时无刻，它可以通过像哈比这样的机制，它可以去唤起对原来目标的重塑和复盘。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个点其实是memory跟skill，这套机制使得它是具备成长性的。所以其实你也不必懂memory跟skill到底有什么样的配置方式是技巧，你这些都不必懂你只用跟他说你的反馈就好。就像你跟人一样，大家也都是在反馈中成长的。有一个事情我有我的看法，他有他的看法，大家其实就是一种相互反馈。你就很直白的跟他反馈，他会很自然的知道什么时候可能要继承memory，什么时候可能需要把它固化成一个skill。甚至它原来有一个skill他发现不太对，他可能需要迭代一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然这些机制我都觉得还有更大的进步空间，因为可能他在memory skill上的主动性，我现在觉得可能没有那么强。所以有时候你可能会唠叨一下说，那你这是为什么你自己没有再迭代一下或者沉淀成skill？他说那好，我觉得是该沉淀成一个skill.</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得讲得非常的清晰。然后另外一个小问题是说，当你去见这五个新同事的时候，需要什么样的基础配置让他出生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实他是一个共同成长。所以你的第一步的基础配置也许就是一句话，就像我刚才说的这个金牌销售一样，想清楚他的目标，你为mox找1000个付费用户。当然我也不知道他什么时候真的实现这个目标，我也挺期待的当有这样一个目标的时候，他就自然的发生了。他会写自己的规划。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他现在会主动的来不断的找你就是比如说提出一些新的建议，然后来找你审批一些他新的方案？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个完全取决于我，他也会跟我商量，因为我们会有一些agent on boding的机制，所以他会反问我一些问题。当然我也可以跟他直接设置说我希望你每天向我汇报一次，或者我希望你不要这么烦。我一开始有几个AI同事，确实我比较喜欢他，每天跟我说一次。但我后来在slack里面我就会，你不要每天超过了，以后这个事情一周说一次就行。他说那行，那我就改一下我的机制，把每天变成一周，我觉得他就是一个很自然或者很日常的一种大家的沟通。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，哎你看到你们的团队的其他同学用max的时候，他们会见什么样的同事，这里面有没有一些比如说我们想得到的，想不到的，有没有一些分享。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己目前都仍然在观察。当我的感受是确实我们的想象力可能限制了我们对这个事情的更大的所谓发展跟想象。我觉得我自己的这几个还是有一些略有一点创意的，然后我最近也在收集同事的很多case，我会发现不同的行业其实也不太一样。就比如说，因为我们集团也有其他的同事是在做咖啡的业务的，这个其实离互联网也很远，看起来是一个线下和品牌式的业务。然后他特别激动地找我们的产品经理来分享他的case，就是因为他有一位AI同事在帮他做这个所谓的爆款分析和预测。所以我最终我会觉得最好的这些practice，这些实践他可能还是得由我们用户去构建的。因为你永远也无法想象你的用户在什么场景下会让AI去帮他放大他原来的一些思维模式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我只能感觉到一种这个token在熊熊燃烧的那那那当然对，就是当你派出去的这些同事们给了他们一个，比如说你要去找1000个目标用户，那他这个可以无边无际的、无休无止的、无限的烧token.</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个也很有意思。因为你也可以跟他提一个目标是，我希望你在token上你的花费。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不能超过多少这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，只要你有想象，我觉得它都可以设定为一个跟AI同事的沟通方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，有意思。Mox这个事情一开始是怎么出现的？就是它是怎么来的？这个产品的idea一点一点浮现出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它其实是一个我们观察到很反常规的一个现象。因为我们自己是color co的用户，也是cursor的用户的，大家一直都用的比较多。然后包括大家用了龙虾之后会更有一种感触，是因为这些东西都在你的本地，所以你的龙虾会给你创建大量的文档和MD的文件。但因为我们还是一个团队，所以大家会有协作，你就会发现一个非常神奇的现象，你会看到越来越多的群众，大家在那儿发MD文件，这非常的反常，这甚至有点反左。就是我们好不容易进入到一个协同办公的时代，就不管我们原来在打开notion的链接在评论，结果你发现大家在发。文档为什么呢？因为这些M文档是AI生成的，他确实持续的在跟他自己的AI在合作，他觉得这个文档写的不错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我今天也收到了同事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>发我的MD文档。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是一看就知道是哪儿来的，哪来的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很正常，所以当时是一个很朴素的想法。这个想法是既然是一些MD文档，我们要不要自己先搭一套协同，让它协同。或者简单来说，我们自己先搭一套基于MD的这个网盘系统，也希望用户把它的context导进来。所以我们甚至在MD的这个编辑器上面，我们还做了一些工程上的事情，使得它看起来可视化更好。所以是这么开始的，他是一个半的研发同学，在这么一个提议下，先想做一个内部大家别互传MD的东西，就是这么开始的。他是在春节前的前三天，我记得是周三的晚上，我们决定要做这个事情，然后周四的时候就开始做了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家不互传MD是想要做一个像一个什么共享网盘。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>共享网盘东西，然后M都在上面。那跟我的同事发的时候就别发MD了，我可以发一个链接。我们在想这个链接至少传递效率高一点，至少你下次更新的时候我能看到。我们先不说评论。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些节奏确实传MD过来，每个人本地还得要一个去看MD的一个客户端。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这个东西不协同。我觉得协同这件事情的价值在旧时代是一定被验证。但我觉得仍然非常多的人低估了他对组织的价值。很多人认为协同是一个在线，同时编辑是这么一个画面。但实际上这种场景都是非常稀疏的。其实很少的时候是大家要同时编辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得协同最大的价值还是他能把团队的同步变成异步，这是一个非常强的价值。因为在没有协同时代的时候，团队只有所有人在一起的时候才能同步。但我现在可以把它同步变成异步，这个价值极大。然后这个事情叠加了AI的同事之后，它变成了一种新的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们第一步MD的一个共享网盘。然后其实当时一个是穿MD本地打开不方便。第二个是这个协作没办法完成，对此享受不了同步变异步这样的协作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但协作的东西的提升。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那第二步是什么呢？Max是怎么成长起来的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个事情做到第二天，我们就觉得他非常不一样。我们当时就觉得说好像这个东西是一种新的工作空间，好像就是AI更原生，似乎好像更便利。没有想清楚这个便利性到底有没有什么质的区别。但是我们发现当你的文档在上面越来越多时，你就能派生出一些新的需求。然后还有第二点，就是在这个环境中，除了MD之外，你就可以开始用HTML。然后HTML基本上能可视化你想要的一切。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这件事情也对我产生了很大的变动。就是我们原来做外coding，那你当然也是前端是一些HTM，你后端还有一些数据库什么的。但你会发现你的所有的数据都在这个空间的时候，你可以可视化的，一切的数据我甚至就产生了一种悖论，我原来觉得web coding有一个非常大的应用场景。包括我们原来看到一些做的比较好的品牌，像logo什么。他们自己在网站宣传中也会说这个场景是一个极其好，极其主要的场景，叫做内部工具internal two。我在看到mox之后，我突然有一种感受是，好像我们并不需要专门为内部的使用去噪一个工具，因为内部工具已经在这里了。你需要一个东西的时候，你就跟AI说，就像我的那个golden sales的第一步，跟我说我们需要一个CRM的看板对齐。他说完说我回了一句，好，那接下来五分钟这个东西就在这里了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个确实make sense。就比如说当我们都在飞书上这个管理企业的时候，对HR说我们要加一个什么HR过去的SARS。对，那应该是这个会下意识的在飞书的那个插件库里面找。只是过去我们要去找插件，现在而是自己优化，然后web就出来了一个根据你的需求来的工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，老时代这样一种all in one的优势其实已经存在，是巨大的。但这里有一个更大的变量是代码的生成成本。可以理解编辑就是为零，而且很瞬间五分钟出来的东西的可用性其实已经很强了。我们自己在做y coin的时候，我们有这样的一个感受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天用了大量的旧时代，上个时代对，对，所以对我也感觉很感慨，就是感觉这个AG来的时候也没有和我们打招呼，怎么好像就这样？</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在我们不是正在打招呼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们有点扯远了。我们再回来说一说max怎么演进到今天的。就从一开始第二步再到后面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们在春节前这么短暂的几天，我们会发现它好像能构成一个独立产品，不只是一个内部工具。所以这件事情会自然引发说我们要不要去尝试把它做出来，它不只是内部去使用。于是春节放假后的第一天开始，我们就多投入了一些同学参与这个事情。一开始其实只有两个人，后面可能是四五个人。然后这件事情就发生了一个我觉得在我可能人生中都很奇妙的经历。因为我人生的职业生涯中，我没有发生这样的事情。可能第三天的时候就会有人来建议说我们应该投更多的人。第四天的人时候，那些人甚至不太想去做手头的原来的那个项目的工作。真正到了第五天的时候，我们所有人其实坐下来聊一聊的时候，其实就问了一个很直接的问题，说大家到底觉得应该做什么？我我我非常肯定是没有人对之前做的一个事情有任何的眷恋，一点都没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们现在做的那个事情。给大家讲两句是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们之前其实在做一个差异化的loveable，它其实也是可以从ideas打造一个比较好的一个APP的工具。当然我们会有一些差异化的做法，我们会觉得其实直接idea star APP1把是不一定能够很好的创建很多的工具的。所以人们其实在这个过程中还需要有一个定义和打磨的过程。所以我们用一张无线画布想去把这个过程做的体验更好，这是我们的一个思路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，可以讲那个产品的名字吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>叫perf low.</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实那个产品上线了，大家感兴趣可以去看一看。可以的对，就浩然和他的团队从motive到perf law再到mox。其实我觉得这个motive和你们之前两个产品都做的是非常的漂亮的，就是比同类产品我觉得完成度要高很多。就在这样一个情况之下，你刚才说团队第五天就没有人想要做原来的事儿了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>I part flow我们其实并没有上那个web coding类似的版本。当然之前发给科技试了试，现在它上面的那个版本还是我们最老的一个版本，是去年7月份的发的。我们其实一直没有发这个新版，当然我们说是不是有朝一日也把它发上去，但我觉得更长期，有可能我们会考虑说把它和mox连在一起是一个更顺的道路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以大家就慢慢都不想做之前的事情了，都想来做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Max对，这看起来有一种非常投机的感觉，我觉得可能给观众朋友们这样一种错乱感，就是说这个团队还是年轻，但我觉得事实上不是这样的，我们团队中其实有很多比我还更年长的同事。那为什么大家在这样一件事情的时候突然有这么强的一致性？我觉得还是因为他给你看到的那种不一样的感受实在是太大了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后在定义mox第一版产品的时候，你们觉得什么是最重要的？第一个MVP里面什么是最重要的，做了哪些功能？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK我们觉得原生的格式和这套结构让AI易于去读写这件事情是我们的核心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就我们刚才提到的原教旨主义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原教旨主义我们会围绕人的喜好和人的便捷方式去做。但我们会觉得手工编辑一类的功能，在我们这个设计中其实是第二等的需求。这也是为什么很多的人，我们早期有一些用户的反馈，身边的一些人反馈说，你们这个文档的编辑功能做的好差。这个交互这个notion一点就可以在里面编，对吧？你们还去右上角点一下编辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这应该是一个刻意的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后你编了还要点保存，说你们是旧时代的，就是很多人说这confluence才这样，对吧？其实这件事情是有原因的，我们一开始把它也做成了即时编辑，结果我们会发现更多人使用的时候其实是不顺手的这里面有一个本质的原因是，当你习惯了context都在上面，是AI的创作做的效能很高。实际上手工编辑变成了一个非常低频的操作。其实包括你其实对文档中不满意的地方，你可以直接华资评论。这个华斯评论的过程中，你可以让你的AI去看所有的评论，直接给你改了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个是我感觉一个非常有趣的互。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，其实它就跟在大家在用notion和飞书时的华资评论没有什么区别。他略有一点区别的是，这个时候你可以让你的AI同事一起来参与。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在飞书支持了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个功能我其实不知道，因为我自己不是飞书用户，但notion现在是可以看评论的对，也可以改卡。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>蓝牙也可以改，对吧？就我一个文档，皇帝批折子一样。然后这里这个情绪激动一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>情绪保守一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最后这个评论完了之后，给notion大家说把我的评论一起看一看，改一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们还有一些更有意思的玩法，我们可以评论一句话，然后艾特我的某某说你怎么看这个事情，然后某某就在下面回，然后另外一个同事去艾特她的某某说你觉得上面的某某说的对吗？然后某某之间就互相聊天了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以刚才那个问题讲完了吗？就第一版的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个第一版是这样的，然后其他的事情对我们来说，其实最重要的是围绕一个词叫做more context，更多的上下文。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们的品牌名字我也是这么来的对，它是context.</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的前两个字母和最后两个字母，我们也希望用户能因为这件事情很容易记住我们的名字。就more context。所以围绕所有more context的功能，其实优先级都会高一些。比如说怎么让用户更快的把他已有的环境的东西导进来，这个其实也是我们要投入比较多的一件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一键搬家。一键搬家就包括语音的输入，可能也是我们在这个季度到下个季度可能会重点去看的一件事情。因为我们日常的工作场景中，这件事情已经自己渗透的太强了。但我们只能用一些第三方的工具，甚至我们在想我们是不是该有一个硬件，它也会非常自然。可能你说完话，你拍了一下他这段话就交互进去，他可以开始处理工作了。甚至你把它放到会议室里，他能听大家所有人开会的内容，甚至他可以自己说话，我觉得这都是有可能的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常有可能。对我现在好想要一个开会的时候一直伴我左右的一个AI agent。我觉得这个我经常就是总结会议之后，我发现我靠这个忘了聊，那个忘了问我就很希望有一个现在有很多面试作弊神器。对，而且还有一个开会不能叫作弊，就开会助你变得更聪明有趣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看起来我们也需要更多的硬件了给我看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我知道有一个产品叫pro actor，主动是AI他在做这样的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我有时候会用它。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我觉得还可以做得更好，大家加油。好好好，然后你们自己一边做max的，一边用max的。刚才我们其实提到你们发生了很多工作方式的变化。比如说会开的少了，对文档写的少了，这也不用了，但是好像slack或者其他的IM还是在用。所以可能下一代的AI native workspace.</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不会冲击IM未必我觉得我们这个阶段没有去做，还是水平和能力不够。但其实我们在自己把AI的同事或者是某某接入到slack里面的时候，他也会遇到一些问题。那是因为slack也是一个又提到上个时代，他还是一个面向人和人之间主要去工作交互的一个IM工具。我们今天的大部分他们工具都是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但又回到我们刚才提到的那个，假设如果将来一个组织中是每一个人他都有十个甚至更多的AI agents，是这些agents他们会互相交流，他甚至会找人交流，他也会出现在各种项目或者是内容的群里。这个IM还是我们今天看到的这个IM，我觉得肯定不是的。至少我现在有一个场景，我自己是非常不舒适的。比如说我在slack的私聊，我是没有办法唤起我的个人助手的那这是slack本身的一个限制。那我只能把这个内容复制再转发给他，让他记一记。对我我觉得诸如此类的场景会慢慢感受到一点一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小小的摩擦还是很多的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这种摩擦会很多。有可能以后每一个人都有一个自己的AI分身，或者叫替身的时候，那你肯定还是希望你能授权你的替身，能参与很多的你的工作场景。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>除了我刚才提到的会议开得越来越少，人类的文档写的越来越少，然后也不用GUA，然后有可能IM之后慢慢也不需要。或者有一个巨大的变化，还有哪些在消失或者在减弱？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是人跟人相关，一切执行的事情都在急剧的减弱。我曾经问了我的某某一个问题，假设最终人类几乎不执行了。我们今天说我们在对齐一个项目时，其实拖动看板也是一种执行，他可能到这个力度。今天其实很多的程序员朋友其实写代码也几乎不写一行手错，对吧？都是一种指导和一种反馈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当人类几乎不执行时，我们最终还存在哪些东西呢？默默给了我几个答案。其实就相当于每一个人都像一个CEO或者像一个老板一样的去检视。他觉得有这么几个交互有可能是存在的。第一种就是类似于keynotes这种，还是得做得让你觉得愉悦一点，信息密度高一点。你想你不喜欢看keynote你想看一个文档，那文档就是做的你更容易阅读。你喜欢看keynote这个keynotes可能看起来你更容易去吸收信息，也可能是图文并茂，我觉得这种东西会存在。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二类东西其实是人机交互中有可能最终AI跟你之间的交互是一种审批。他可能会给你看一个结果，你可能会选择是不是或者再看看，那会有一个非常本质的交互，有可能最终就是一种圈化和语音。你不满意的地方你可以快速的把它圈出来，然后你就直接说，当然你可以打字，尴尬的场景下你可以打字，你圈出来直接说这个地方可能要怎么样调整。其实我们就假设我们一个大一点的组织CEO到底每天在怎么开会？</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那他肯定是不会去看看板里面的每一个项目到底在怎么样，他可能要的是整个项目的一个进展，甚至是一个甘特图这样的东西。我觉得以后这样的东西它还会长期是存在的。但除此之外，我会觉得他都在比较急剧的做衰减。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是说管理的抽象级别变高了，变高，抽象到每个人可能都能够拥有CEO那样的对决策的颗粒度了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括以后的组织，我会倾向于肯定每个人是独挡一面的。你不能说所有的组织以后人都是很少的，但每个人肯定是独当一面。因为反而写作人和人之间协作其实也是有不少的摩擦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那假设一下我们把这个时间，比如说播到两年之后，三年之后，我觉得一个白领工作团队，他们的一天大概会是什么样子的？现在有一些你比较相信的画面感吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实觉得可能那个时候更要一个日会，它是一种仪式感。真的就是我觉得更需要一个日会，大家见见面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就情绪价值的智慧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哪怕是聊聊天，挺重要的。我觉得这件事情对于人反而更重要了。但大家聊天的内容肯定就不是我们今天去开日会的内容。因为理论上在你开日会之前，所有的项目的进展和你要关心的内容，可能你在半个小时前你全部都收到了，甚至你已经开始处理了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我本来想问你的是和一个白领的团队，他们一天要怎么工作？结果和答案是没有工作，大家开日会互相提供情绪价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>闲聊是很有价值的那如果我们还相信人类最终能坚守这些价值，因为AGI一定程度上它也很可怕。那你说这种价值是什么呢？我们的审美品味，我们的灵光一现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得很多时候是在一个闲聊和宽松的环境下产生的。也可能是两个人出去散散步的时候，随便聊了一些话题的时候产生的。我觉得这种场景会更为重要。我觉得以后人和人之间的协作应该是这样的东西会更多。一次随意的聊天，不是那么有目的的一些交谈。因为真正有目的要执行的事情，你在想清楚他那个目标的时候，可能那个AI已经在背后24小时的在工作了。我第二点我会觉得说，有可能非隐私的环境下，所有的录入都会变得更自然。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非隐私的环境下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是会议其实是一个不太隐私的环境，对于工作来说大家是开放的那有可能这些硬件设备或者是我们的办公环境中，会很自然的就能把这些东西给录入了，大家可能最终会接受这一点。因为他的原因是你的组织不止是这十个人，还有1000个AI同事。你不录入，那这1000块的同事他没有办法听到大家在聊什么，对吧？那这个也很重要，所以我觉得这个也会是一个比较大的变化。还有吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有就是人们可能更多的最终是去探讨一件事情，已经产生了结果跟实验之后的一些价值，很少围绕过程讨论了。因为我们原来其实围绕很多过程去讨论一件事情的时候，往往是因为它有一些执行成本，或者是你的时间精力有限。所以你必须从三个solution里面选一个。但我觉得越来越多的时候，最终会是你可以不用选择，你可以选择都做，你可以都去做出效果。但做出效果之后肯定还是有一个客观世界对你的反馈。这个反馈大家需要去思考它是为什么的时候，他需要有更多的交流。但我觉得交流的内容就会趋近于这样的内容会变多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一开始我看到max这个产品，其实是你转弯你写的一篇公众号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就对max对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后当时我就有一个很想问你的问题是说，你现在工作已经如此的自动化，对吧？你也在推崇新时代的让agent看更多的这样的工作方式。那这篇文章为什么还是自己。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>手搓的这篇文章纯手搓，上周三的时候发的，我为什么选择手搓呢？是因为我写这篇文章我的意义和目的，我其实就是希望记录一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你是在为自己而写。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在为自己而写。这么说也有点矫情，但可能也是这样，我想记录当时的这个状态，包括这里确实我都有一个很刻意的动作。就是写完之后我再想要不要让AI看一遍，至少把错别字给我找出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这听起来越来越像艺术。你知道今天大家说为什么你还要画画，对不对？很多人画画并不是因为他要记录这个世界。对，因为记录这个世界最快的拿出手机咔一下。你说的对。所以画画很多时候也是在完成某种自我的表达，或者这个创作的过程所带来的一些，比如说平静、慰藉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我同意这种感受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你现在感觉写文章也是有这样的艺术性成就感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我至少希望我有生之年有一天回头看这篇文章的时候，无论那个时候我怎么样了，max这个项目怎么样了。我知道当年那个瞬间我的感受，我就是一字一字的敲出来的。他没有被以效率的方式生产了很多明白，哪怕连错别字都没有让他帮我review一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就是写字也好，画画也好，很多时候它是实用主义。可能在我们90%以上的这个场景，他是为了对外表达记录，但也有10%他是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>完全的为了自己。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他不是为了最高效的最清晰的表达，但是为了让自己更舒服。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>让自己。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更有意义感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果实用主义最终大家的追求都是实用主义，我会觉得还是很危险的。未来AI这件事情会把喜欢实用主义的人逼到极致。人类你很难在很多的场景比AI做的更好。他好像精力很充沛，它的带宽。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也很无限。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？我倒觉得我们可能得追随一些其他方面的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们再来聊点实用主义的话题。所以今天其实大家都在用飞书，用notion，用各种各样的包括钉钉这样的工具。那你凭什么认为他们愿意为了mox再做一次搬家和迁移？你要怎么去说服他们？</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个好问题。我觉得还是像跨越鸿沟这本书，你会长途常新。很多时候说服是非常困难的。更多时候在市场上我们需要做一个选择。其实对于我们来说，更重要的是找到这里面的创新者和早期采纳者。对于这些人来说，迁移其实至少我很有信心，它不是一个成本，因为我们用那个很老套的公式，所谓新体验减旧体验减迁移成本，这个新体验太巨大了。但这个新体验它并不是每个人都能那么真切的感受到的，因为它在放大你对一个人和人之间组织之间的一种理解，每个人对他的新体验的感受其实会很不一样，你还是得找到那个新体验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>甚至对你有一些狂热的人我我们这款产品我觉得很有意思。我之前做的几款产品，我都没有遇到过特别狂热的用户，遇到有觉得你们做的挺不容易的用户，但这个不是一个好的评价，那就是挺辛苦辛苦了。就大概是对这么一个评价，或者是说我觉得做的挺好的，挺漂亮的。但实际上你可能后发了，你也不一定有品牌，但我今天我能遇到一些狂热的用户，你甚至感觉他两眼放光。包括我们集团内有一些同事半夜12点给我发企业微信，说能不能给我再充点积分。你会遇到这样的用户，我会觉得他在这件事情上不一样。那对于我们来说，其实更关键的就是找到这波人，或者我们要放大他们，包括让他们更好地在上面能够创造价值和实践。对你自己。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前还跟我说过一句话，印象很深。你说你们最大的敌人是时间，但是你同时又说其实希望大家不要那么快的去改变自己的工作习惯。对，因为改变太快的话，这个事情很可能不是你们作为一个小型团队可以抓住的机会。对，可以讲一讲。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个有一些矛盾的点。首先我会觉得这件事情不是那么容易不被看到。我觉得这个领域做各种各样事情的人都很优秀，大家很容易显性的看到这件事情。更多的时候是大家没有真的去感受，因为这件事情就是一个眼见为实的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说实话在一个月前我也不太相信这个故事。如果有人跟我讲一个mox的故事，我可能第一感受是你这个东西和一个飞书加龙虾有什么区别呢？我会这么去反问他。我百分之百肯定，我其实今天我仍然需要花很多的气力去向大家解释这件事情。但事实上当你去使用这个东西的时候，你会眼见为实的发现这不是一个物种。所以我觉得很多人会看到这个机会，很多优秀的创业者会做这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那对于我们来说，好像我们更早的也叫价发现了这个事钱。所以我也希望我们更早的能让更多人知道我们那你先发多少，还是会有一些品牌的优势。但能不能成就一个小的新先发的品牌，其实很看我们自己的能力和我们去市场的策略。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要让十字路口助你一臂之力。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢，非常感谢科技，所以这件事情是让我焦虑的，所以这件事情肯定是反时间的。你当然希望团队越快越好，可是这也不能说和事实都如你所愿。但另外一个层面是，如果你真的能够稳扎稳打，开始找到一些接受你的人，你慢慢的扩大你的影响力。包括你有你的一些社区，这些用户会为你发声的时候，我其实是希望他慢一点的。因为他越快，notion也好，或者这些更大的玩家也好，他会更显性的意识到这个机会是巨大的那最终商业还是陷入一种非常残酷甚至无聊的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多时候不是靠激情和理性就怎么样，可能就是投入会对这个事情有质的变化。如果大家慢一点，我们就能慢性的去扩展，这个事情就会更长期一些。所以起来很矛盾，听起来很矛盾。你说如果理想的情况，我当然希望我们不用花太多的时间能够受到一些人的认可。但又能慢慢的稳扎稳打，得到一个长线的发展。我可能是这么一个期望。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就有可能这个也是实现不了的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这样的既要又要有可能。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那如果说你认为比如说飞书notion或者甚至minus也有可能对吧？那都有可能都是做生产效率。对，那都开始做类似的事情。我觉得你们有可能能够在最后赢的原因是来自哪里？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得首先唯快不破是重要的，当然我之前我对这句话，我有一个前提是我觉得还是要看到那个准确的方向，否则你快也没用。但我现在对这个方向还是挺坚定的，所以我觉得快是重要的，我们要在准确的情况下更快。那面临竞争的问题，我主要觉得是投入问题。最终的投入比拼要看我们怎么去理解这件事情。大厂也能来卷我们，但大厂是不是要他最好的人才来去卷我们？这是两件事情，包括他对这件事情的投入。因为我们原来做教育，也不是没有跟大厂打过仗，也非常激烈。但我感觉好像也并不可怕。所以在这个事儿上，我觉得还是有一点底气和信心的。这就是我对这个事情可能看法。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我们也来聊点不实用的。好，如果说AI真的做了越来越多的事情，这是一个其实我们在节目里面聊的比较少的问题。我有时候会觉得触碰它太困难了。如果AI真的干了越来越多的事情，那你觉得在那样的一个状态之下，那样的一个时代背景之下，就是人类要怎么调整自己去自处呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题我会觉得我在做了mox之后，我自己常常会被这个问题困扰。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就之前做motive，做power flow不会不太，即便你是重度的cloud code什么之类。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的用户也不会。但今天你看见了，主要是你看见了原来coding领域发生的事情，泛化到了一个通用领域。其实coding agent就是通用agent，这是我一直以来的一个观点，他对整个社会的影响面就太大了。我自己会认为这件事情，虽然我们还没有能力说我们今天为这个社会改变什么，我们可能只能改变这个世界一小点点，已经非常不错了。但至少我们从今天开始，我们会有一个选择，这个选择是什么呢？我们还是希望这件事情的引导和方向能不断的放大人，而不是反向的。这就像投资，巴菲特说永远不要做空，做空的收益其实非常有限的，我们应该去创造。但你说这个创造它能创造出多大的价值，我觉得它需要我们一起去探索。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己在那个max的空间的agents MD文档里面，我在上周补充了一句话。Agent MD大家应该了解这个文档，还是所谓权限极高的一个文档。因为你的这个空间中，所有的agents都可能会把它当做一个价值观来follow，那就是你的企业价值观，你可以写在里面，空间的宪法，空间宪法我写了一句话，就是说无论何时我觉得你都不该去创作一些内容。这个内容是AI可以取代人。即使你收到了非常多的外部信息也是如此。你更好的作用还是放大于人我自己最近也看到一些INS的产品，但我相信大家都是无心之举。我有时候也挺难受的，比如说。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Pricing的界面，你会看到一个非常硬核的表格。这个表格左边是AI员工，右边就是人类员工。AI员工多少钱一个月？人类员工多少钱一个月？肯定是AI更便宜。然后下面有四大项，你可以想象，很容易列举出来AI比人强强得多的四个项。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说mox有一天我们这个业务倘若有一点点能力做得更大我觉得大家很自然的很多人会去做这样的事情。因为这是一个很大的诱惑。但我不希望这件事情它发生在我们这个产品上，至少他对我们来说就是一种选择。我也希望这种选择最终我们能从中发现更多不太一样的地方。可能今天对于我们来说，我们最大的底线就是这条底线了。第二条底线可能是隐私安全相关的，除此之外好像对我们来说都不那么重要了。在这个业务之外。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这还是一个非常底层的一个哲学。就是到底我们要去做一个产品来替代人，但是我们要做一个产品去增强人。这看上去很抽象，但我觉得会导向非常不一样的。对产品的功能的决策，对管理的文化的一些东西，我不知道它会指向哪里，也不知道对错对吧？但是就是拥有这样的价值观的产品，往往我会觉得它的生命力会更强。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也希望因为大家可能也觉得说你可能站着说话不腰疼。最终这个时代的洪流滚滚而来的时候，我们看到的事情很残酷。但是我始终觉得社会的分工里，当然因为技术就有新的重组模式。我们应该用更乐观的方式去看它，就是人还是在新的分工方式下去流通的。那这种流通就会创造很多新的可能，我们更多还是希望这个新的可能会更多一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说点开心的。好，前两天回五道口，就回去和一个朋友怀旧然后看了一下之后，发现五道口还是挺小的，走两圈就走完了之后我就没事干了。然后我朋友说那边有一个陶艺吧，想不想去捏陶？我说这个不是很想想。但是突然一瞬间我就意识到，其实今天的捏陶和可能30年之后的编程，甚至三年后的编程是很像的。因为你想曾经人类捏陶是一个生产力。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，为了劳动力对提供一个供给。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得捏陶的人应该是收入很高的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他捏出来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个漂亮的陶艺，好用的陶罐，它可以卖很多钱。但是慢慢的现在对你要去捏陶，你发现它变成了一个消费，它不再是一个生产。对，从百分之百的生产变成了一个百分之百的消费。我觉得类似的事情很可能在编程这个领域也会发生。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也不知道有生之年，20年后会不会去到一个著名的博物馆，对吧？里面是一行一行的代码也在欣赏。对他保证一件事情是这都是人类是的手做的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我想说以前这个程序员是写程序赚钱。以后我们为了获得创造的快乐，对我们是花钱去学程序，写程序，就像好像现在花钱去淘艺吧，之后花钱去一个网吧。我觉得也可以乐观地认为，人类的分工发生了变化。是可能原来你是一个工程师，现在变成了一个新时代网吧老板，你仍然有了一个新的赚钱的身份。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我最近对这个事情我还是稍微乐观了一点。我觉得可能回到工业革命时代那个年代的人，包括纺织的这个工人，他可能也没有办法想象今天的世界是什么样子。就像我们今天好像也没有办法想象，当生产关系重组的时候，下一个时代可能会是什么样子。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，那我们来最后一个问题。好的，max发布刚3周四周，时间还很短。对，然后你要不要在这里许一个愿，就是到年底的时候，你希望大家说到max的时候有哪些评价，或者你希望到年底，就比如说mox CEO1个什么样的成绩，有任何的愿望都可以。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我希望我听到更多的人来找我说，原来一个组织人和人之间的工作方式真的完全不一样了，我就是希望能收到这么多的更多的反馈，可能这个反馈对我来说是更正反馈一些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就希望看到一个变革在发生，而自己是这个变革里面的一个对助推力。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得可能只要这件事情它再发生，我就更乐观。可能数据其他的层面反倒相比这件事情它没那么重要，因为只要这件事情它在发生，这个趋势就更确定一些。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的谢谢好好的好的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢出口。好，谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常期待这个max获得更多的用户，好，也改变更多的工作习惯。好的，我觉得我会非常有兴趣。好的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>持续的持续关注，也持续的使用，好好的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢。好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢，拜拜。</p>]]></content:encoded>
-            <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
-            <guid>69ca3aa4b977fb2c479fe088</guid>
         </item>
     </channel>
 </rss>

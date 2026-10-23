@@ -4,7 +4,187 @@
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
         <description>AI界德云社！</description>
-        <lastBuildDate>Thu, 15 Oct 2026 18:21:30 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 06:52:11 +0800</lastBuildDate>
+        <item>
+            <title>不要穷人思维！ 全公司升级GPT Pro后我的领悟：花最贵的token干最脏的活！</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6adb20cac96c8942ec111f4d</link>
+            <description>00:00 用最贵的模型干最脏的活？
+01:24 AI最贵的是注意力
+04:24 为什么AI越强人越累？
+06:19 Opus幻觉做创意，生产全靠Fable？
+07:36 想做AI业务？先买顶配Mac再聊！
+09:48 硬核脏活：重写Linux
+13:57 逆向纯属脏活，为什么必须氪金？
+15:01 老黄算账：算力成本5年降一万倍？
+16:57 不改工作流，顶级模型也是浪费？
+18:09 AI越进化，人反而是最大卡点？
+19:48 人变成刹车片：到底谁在喂养谁？
+21:18 走出高光圈：现实脏活AI真搞得定？
+【订阅 JustSayAI 早晚报】
+📮JustSayAI 早晚报·粉丝专属福利
+每日两封 · 一键听报！现已全面支持邮件+IM+Skill端
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
+📱 商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h1>主题概述</h1>
+<p>节目围绕“是否给全公司升级GPT Pro/100档位、是否用最贵模型干最脏的活”展开。发言人1是激进升级派，主张先买顶配Mac、先充最贵模型，把AI投入当投资；发言人3已充值并重构工作流，讲模型差距和生产环境体感；发言人2（文稿中亦称贤哥/宪哥）以开餐馆、注意力成本和损失厌恶提出反方抗辩，认为普通模型或免费模型已够用。核心议题从“充值值不值”延伸到模型幻觉、工作流改造、human in the loop、AI在数字世界与现实餐馆场景的边界。</p>
+<h1>关键要点</h1>
+<ul>
+<li>
+<p><strong>核心判断：最贵模型不是消费，是投资/买未来门票。</strong> 发言人1的行动逻辑是“先看动作再聊业务”：“来先在最贵的时间点，内存涨价最贵的时间点先给我买一台顶配的mac先买……第二个给我充最贵的模型，干最脏的活。干了没有干完，我们再来聊这个业务怎么做。”</p>
+</li>
+<li>
+<p><strong>充值后的真实体验是效率提升与上瘾并存。</strong> 发言人1原来用“gbt加GOM”组合，调度浪费时间；充值后“全程开astra”，单位时间效率提升、能完成更多任务，但出现“效率他娘的太高了”的问题，每天干到很晚。更搞笑的是，他用token编程是“写给我的dots用的，就写给GPT自己用的”，形成“钱又回流到”GPT自己的闭环。</p>
+</li>
+<li>
+<p><strong>发言人3的工作流改造：用高低档模型互相审核、买“保险”。</strong> 他把电脑和云端都做互相审核，“用这个100档位的去省，200档位的靠cloud互相省”，认为花相当于买保险的钱，省下原来乱七八糟收尾的时间。但他也承认前3到4天都在改进工作流，“工作流不改，我也用不上那个点会爆”。</p>
+</li>
+<li>
+<p><strong>反方发言人2：不充值不是因为充不起，而是注意力与损失厌恶。</strong> 他说“AI时代最大的问题就是注意力”“AI在吞噬我的时间，在吞噬我的判断力”；充值后额度没用完会焦虑，“20的我都没用完，我都这样讨厌我自己了”“多亏没充那两百的”。他担心上100档位会牺牲家庭和其他事的时间，而能否创造价值“画一个巨大的问号”。发言人1直接判为“穷人心态”。</p>
+</li>
+<li>
+<p><strong>哈佛/jack face 70万员工数据：单点提效不等于交付提效。</strong> 文稿称大部分员工代码速度增长30%，但最终交付结果一样，审核增加了49%的时间，最终大家感觉更累。发言人1用机器人补货和1%错误率放量1000倍类比：单点机器效率过高，人可能跟不上链条，线下擦错误屁股非常累。</p>
+</li>
+<li>
+<p><strong>模型差距的关键数据：生产环境要低幻觉，创意场景反而可用高幻觉。</strong> 文稿称“vivo 5”自己乱编答案概率只有0.7%，“Office”是7%点几、约十倍；在支付、工作流、to B等关键处要0.7%。但做视频等创意类时，“open那个有幻觉。7%的他去做那个创意类的东西，就比cloud的favor，还有什么astros的都都会好很多”。</p>
+</li>
+<li>
+<p><strong>“最脏的活”案例：Mac清理软件与DHH重写linux。</strong> 推特独立开发者做Mac清理软件，用最强模型加computer youth下载主流Mac软件、监控垃圾存放文件夹路径、针对性写清理策略，收益很高。发言人3讲DHH用cloud favor做plan，约200美金包月跑空，加GPT和groot，再交给deep seek flash和GPT luna执行；两者都说干完、注释充分，code review被注释说服，结果不能用；最后靠GPT6GPDT的soul和deep seek pro完成，多花三四倍钱但省了返工和生气。</p>
+</li>
+<li>
+<p><strong>成本数据：GPT one约1000万-2000万美元，GPT e约100美金。</strong> 发言人1引老黄采访：GPT one训练综合硬件等成本约1000万到2000万美元；2026年做GPT e这样的模型约100美金，“过去这一年整个算力的成本降低了1万倍”。智能未必同倍提升，但成本差价足够支撑“今天用最先进的模型去干最脏的活就是值得的”。</p>
+</li>
+<li>
+<p><strong>human in the loop：人正在从发动机变成刹车片。</strong> 发言人3认为AI变强后，人仍是最大卡点，“我人不能并行”“判断力无法复制”。他形容“必须得把自己从发动机切换成刹车片”。但顶级智能带来杠杆：一年前早晚报上线时“连代码都还不太能写”，现在能写代码、做运维、同时运行好几个项目，思路也被打开。</p>
+</li>
+<li>
+<p><strong>现实世界瓶颈：AI在数字世界提效，餐馆等场景仍难适配。</strong> 发言人1承认这是一小撮人的福利或进步；发言人2说AI站在舞台正中央高光里，“但舞台没有被打亮的那个其他地方还有很大的空间”。贤哥开餐馆是标准SOP，更重菜品稳定、出餐速度、跟人聊天和营销，高级模型用不上；等线上线下结合、foot再用，“到时候欢迎打脸”。</p>
+</li>
+</ul>
+<h1>独家细节</h1>
+<ul>
+<li>
+<p><strong>“逼着老肖一起刻OpenAI的金”是节目起点。</strong> 发言人1说最近感触特别深，以至于“逼着老肖跟我一起刻了OpenAI的金”；发言人3承认“也是很舍不得，但是用了以后真香的那种感觉”。随后发言人1要求“全公司都给我开100档位”，把同桌也拉下水。</p>
+</li>
+<li>
+<p><strong>发言人2的充值焦虑非常真实且情绪化。</strong> 他说“20的我都没用完，我都这样讨厌我自己了”，并庆幸“多亏没充那两百的”；他担心充值后为了用完额度牺牲家庭时间，结果被发言人1当场定性为“穷人心态”。这是节目中最未经修饰的反方表达。</p>
+</li>
+<li>
+<p><strong>“两小儿辩日”式便宜模型翻车现场。</strong> 发言人3讲两个便宜模型执行DHH任务时都说干完了，注释写得“真是太有道理了”，code review的agent因为智能相同被说服，“两个小柚子就是整个代码最后很正式的端到你面前……结果拿起来一，我靠完全不能用”。发言人1接话“稳稳的接住你”，发言人2概括为“蠢的自下了”。</p>
+</li>
+<li>
+<p><strong>即兴比喻密集：发动机/刹车片、喂模型、扫地机器人、餐厅抓老鼠。</strong> 发言人3说人“必须得把自己从发动机切换成刹车片”；发言人2说“你不是训模型，你是喂模型，把它当小……贪婪的吸吮你的营养”；他用扫地机器人类比“最普遍的机器人干脏活累活才卖得最好”；发言人1还开玩笑“你要在贤哥餐厅里抓老鼠”，发言人2回“我们这里没老鼠”。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我说你想了那么多干嘛？来先在最贵的时间点，内存涨价最贵的时间点先给我买一台顶配的mac先买，我先看到你这个动作，你再来找我。第二个给我充最贵的模型，干最脏的活。干了没有干完，我们再来聊这个业务怎么做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我的模型好达到问题，最脏的活在哪儿？这个事儿你得想清楚，就是到底最脏活他能不能干？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，我就是要讲的这个最脏的活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>用最贵的token干最脏的活，对吧？我一直很想聊这个事情，我最近对这个事情特别有感触。以至于逼着老肖跟我一起刻了OpenAI的金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也是很舍不得，但是用了以后真香的那种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这个有个反面教材，今天要拉出来批斗。贤哥你告诉我，你为什么？为什么不充值，为什么不升级？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我这一回你知道吗？我这一回注意赚到了人民这一面，你知道吗？不再是资本家那一面了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不容易。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个不充值，我觉得我肯定是有自己充分理由的。然后首先肯定不是因为充不起，对吧？我觉得现在是真的钱在AI这件事儿上，我觉得并不是说最最贵的是注意力。真的这话听起来有点儿怎么讲呢？凡尔赛。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我觉得AI时代最大的问题就是注意力。就是我现在我觉得没有那么多注意力去满足500或者200的这这一档的AI的需求。什么意思？就是说AI在吞噬我的时间，在吞噬我的判断力。就是我感觉就是我现在如果充值之后，我会有很大的焦虑。这也是我现在来讲的话，就这段时间反正我用code x，这段时间是处在这个频繁重置期，然后经常会有一种损失厌恶，有时候这个额度没用完，就会觉得自己特别不爽。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我就在想你这还是穷人心态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听我说的，所以我就在想，我多亏没充那两百的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你知道我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>20的我都没用完，我都这样讨厌我自己了。不是，因为除了AI以外，我现在不是自己还有自己的事儿。干嘛？你要真让我上了100的，我会觉得我很焦虑。我可能我就会一定会牺牲一些跟家庭时间，干一些其他事儿的时间。因为我就想在这时间内尽快的去把这额度用完。但是对应来讲的话，是不是能创造价值，这画一个巨大的问号。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你们可能还是不能控制你自己了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那肯定那肯定终其一生我可能都在学习怎么控制自己。我想先听听你们两位，为什么觉得克鲁金之后真香？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实是这个老修仙给我被迫充值的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得就该上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是充完值以后我会发现说我原本还是用组合编程的，比如说这个gbt加GOM这样一种组合，其实这个组合的过程中，调度的过程中浪费了我非常多的时间。但是老师给我充值以后，我全程开astra，对，全程阿是非常好。然后我就发现说单位时间，我完成一个任务的这个效率提升了。然后我以至于我可以完成更多任务。这个时候我就出现了神哥刚才讲的一个问题，就是我控制不了我自己，我效率他娘的太高了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>上瘾了，网瘾来了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个雨就上了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，每天干到很晚。然后你知道这个最搞笑的是什么？就我用这些token来编程，还是写给我的dots用的，就写给GPT自己用的。所以你看这个钱又回流到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>自己闭环了。我我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>后面我说不行，我一定要把老修拉下来。我叫老修，也要从全公司都给我开100档位了，所以这个效率给我拉满，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你自己上也不行，还得把同桌拉下水。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我先说这里最重要的是啥？最重要的就是最后我重新重构了一下我的工作流。现在的话我就是特别把电脑上面和云端的全部都做了各种各样的互相审核的工作，就是用这个100档位的去省，200档位的靠cloud互相省。那这样子的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怀疑你是在恶心他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有没有有，就是你其实花相当于花钱买了一个保险，它能够帮你把你原来要乱七八糟去收尾的那些时间给你省下来了。我看我记得有一个小数据挺有意思的，是哈佛最近干的什么一个jack face上面搞了70万员工，他说70万员工的数据统计是大部分人这个代码确实快了，增长了30%，但是最后交付的结果是一样的。又出现另外一个坑，审核增加了49%的时间。对，其实最终的时间大家就会感觉更累了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我花了这么多时间，这个其实是有例子证明。你看最近我们看很多，比如说在我们国内现在投了很多这种AI工厂，然后布了很多机器人。那你会发现说好如果机器人在单点的工作效率更高了，人是会更忙的。比如说他这一筐货他很快就理完了，那人要很快要过去补货，给他清理现场，人会更忙。就变成说如果单点机器效率过高，人可能跟不上这个链条。还有一种是单点的机器效率也不变的情况下，但是它的错误率是1%。那如果这个错误被放量了，放了1000倍，那就是有1000个错误，那人人在线下去擦这一千个错误的屁股，其实是非常累的。所以为什么说最近大家也在讲说妈的AI越越强我越累，我觉得是有这样的原因的对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且还有一个用最贵的模型跟次一点的模型的差距，我原来也不知道，我这次也看到了一个小数据，他就是说我们不是经常用A设，那我原来就觉得说office 5.5应该不错了，但我的体感感觉没那么好。我一直觉得找不到一个数据的支撑，对吧？最近看到一个调查的数据，他说是这样子的，大概vivo 5的自己乱编答案的那个概率只有0.7%。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Office是7%点几，好像是十倍的样子。你听起来好像如果说一个普通人，可能你7%跟0.7%好像也不是会很差。你用在生产上，但是我是生产环境，我就确实我是感觉到这个差别。就是我在一些关键的地方，什么支付，工作流，做什么to b业务，那我确实就要0.7%，就要这么低。但是我们最近不是在研究什么做视频对吧？做视频的时候明显open那个有幻觉。7%的他去做那个创意类的东西，就比cloud的那个favor，还有什么astros的都都会好很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我说老兄你也不用共情，我真的就是说关于我充不充值这个事儿，其实我是有自己的判断的。就是现在目前来讲的话，用最好的模型肯定是能达到最好的效果，但这个最好其实打引号的那我不知道你们同不同意，起码我是这么想的。就是现在有些我身边用的事儿，就是日常做的事儿，我觉得普通模型就够了。就是现在甚至说免费版的或者说deep sak和GRM就足够满足我现在的一些需求了。然后你让我说让我长到一定用大模型才能判断出来说不同的模型的的差距的这种事儿太少了。所以在我自己的头脑里还没形成之前，我没法让AI给我一个答案。这是我自己的抗辩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这个是有不同观点。为什么我坚定的就是我觉得我们今年开始还要加大对这个AI的投入。为什么我一直要坚定执行？我觉得这本质上你可以理解为是一个投资。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我经常会跟我很多朋友来讲，他他说我要这个怎么做，那个怎么做，这个该怎么做？我说你想那么多干嘛来？先在最贵的时间点内存涨价最贵的时间点先给我买一台顶配的mac先买。我先看到你这个动作，你再来找我对吧？第二个给我冲最贵的模型，干最脏的活，干了没有干完我们再来聊你这个业务怎么做对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我已经好达到问题，最脏的活在哪儿？这个事儿是这个事儿你得想清楚，就到底这个活他能不能干？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，我就是要讲的这个最脏的活。我上次给大家举一个例子，大家很感兴趣。就是说推特上面有一个独立开发者，他还做这个mac清理软件。他用这个最强的模型干最脏的活，就是去把市面上所有的这些大部分主流的mac软件下载下来，监控它的这个垃圾存放的文件夹路径，针对性写出这个清理的策略。就是用computer youth干这个事情，就是用最贵的模型干最脏的活，这个事情的收益是很高的。所以这个是我看到一个很好的一个案例。但我不知道你们有没有更好的案例。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我有个很硬核的例子，他是有一个节目是lex。大家应该知道那个老师系着黑领带穿西装。那哥们儿采访过很多名人，他采访了有一个技术的人，可能大家不一定知道是谁，有一个叫DHH的，我知道爹谁很火，他最近火了是吧？你你你知道他火是火的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哪个是我最火？是因为他来中国用tail scale去连他家里的cloud，怕被封号。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看来是跑到哪里都逃不了OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是他实际上是火在哪儿？他首先这个是自动化元老。我跟你说，就是我们原来早期上20年了，快就早期快以前有一个东西叫ruby sonn reals，这有一套框架是这个大神写的，他是greater。这个大神这两年他又开始用AI去写了重写了linux我靠，他买了一个操作系统linux写了一个agent版的linux然后那个名字有点绕口，读不出来，回头大家可以自己去搜。它里面讲了一个事情，就是现在这个事情真的是把人累到死就exhausted。但是应该会过去的，我们后面肯定会有一个好时候，为什么呢？说这个话就是因为把一个极脏的活干得很好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是什么活？我们刚才说了写linux是很难的。你这个大几十年的一个系统了，所以的是操作系统它是非非常多地方是非常难写的。但是DHS它做了一个移植，就是就用cloud favor去做这个plan。这个plane大概可能花了几百美金，就是200美金包月的，是直接跑空跑空了之后还加了GPT和groot。但是这个plane拿出来以后，它分别交给了像那个deep seek的那个flash，然后还有那个应该是GPT的，可能是luna。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>让他们两个去执行，他们两个都说干完了，然后两个活拿出来一看都不能用。但是他们有一个神奇的地方是什么？他们俩就是写代码的时候都做了很充分的注释，说这些东西我实现的多么好啊，就是看起来就都很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>以至于他们做做code review的时候，因为他们俩智能是一样的。他看了那个注释以后，就觉得那个注释写的真是太有道理了，就应该这么写。被说服了，完全就被说服了。两个小柚子就是整个代码最后很正式的端到你面前，全部搞定了，没有任何问题。跑了多少的测试。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>稳稳的接住你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以稳稳的全部都搞定了。你们一定都见过这样的话，对，你可以没问题，你感觉就是特别好，结果拿起来一，我靠完全不能用。你这就是怎么说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的你这就是成语里的两小儿辩日。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这说的就是这个便宜模型的最大的可能是在于说他不光活没干成，还骗你说他干成了。而且你审核他的agent因为跟他的智能是相同的，也发现不了，还跟被他收买了一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有这就是蠢的自下了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回到一个算账，就是单token产生的成本是多产生的成本跟收益是多少，对吧？对，就是这个事情是不是划算的。因为现在整个行业从上到下整个链条都在算这个账，比如说在数据中心它也会算一度电能够产生多少的收益率。那现在做模型一个token能够产生多少？只要这个事情能够被度量，我觉得他就是能够算得过来账的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后你看他跟这个哥们DSS最后还是靠什么？他还是靠着GP6GPDT的那个soul和deep seek的pro模型把这个任务才完成了。大概可能又花了三四倍的钱，但是就没有说要返工了，对吧？你至少完不成，还要返工，还要被他气，这个就省掉了，确实对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是这个首先我承认我绝对承认就是高级模型有高级模型用处。但是咱们类比一下，就跨界类比一下，就是咱说自动机器人现在有翻跟头的对吧？然后有叠衣服的，有碟鸡蛋的，但是我觉得最好的最最普遍的机器人还是扫地机器人，对吧？就是干的就是脏活累活，就是大家每天都得干，但又不想说天天干的事儿。但是它已经实现了说多时代的迭代之后，就能把事做得好，所以全球卖的最好，甚至说能创造几个市值好几亿的公司在这儿。所以我想说就是类比一下，如果说现在的高级模型能做到说真真正正每个人都需要做的脏活累活让他能干完，我觉得就值得去上模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得你讲到了一个悖论，宪哥就是你讲到一个悖论，就是说真的你能用高级模型加脏活累活这样的人，他一定是想到了一个非常值得去做的事情。但是其实大部分人，比如说像贤哥开餐馆，这就是一个标准的SOP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有那么多，没有那么复杂的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该这么讲，就是说你真正开餐馆你干嘛？你首先如果是常客，就是说周边客人来了之后，他你拥有AI你并不能优化太多东西，你更多做的还是说菜品稳定？出餐速度快，跟这个跟人能聊天，然后你能做的说所谓营销。比如说什么网红营销什么那些东西你说让我用高级模型我真用不上。所以这就是可能就当你说那个悖论。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能还没开业，这个焦虑还没到。然后一开业的贤哥说，老兄GEO怎么做？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>快点千人千面给我唱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>宪哥这个可能还没到时候，我跟你讲，我这个互联网是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有记忆的。因为冷打脸那绝对是雷声越来越好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>上的时候你赶紧跟我说，赶快老兄把这个boss打开，我天天整理不过来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我没错，但是真的是有一些脏活累活。比如说我们最近上期聊的这个REA，就是逆向的这个能力。我们贤哥我们最近也接了一个比较大的任务，对不对？确实也就是用这个逆向的REA，我们去把把这个任务给承接下来了，对吧？确实你说这是不是脏活累活？逆向这个绝对脏活累活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，而且你看我们的哥们儿也是应该靠花了一个晚上几个晚上的时间，差不多专门做这种东西。其实就是真的纯，我们说的是guessing game。对，就是你要一直猜的。这个我还是得靠人的智力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在里面去判断，这是当然很没有创意，就是你去逆向，我们是为了完成一个go完成一个目标，完成客户的托付，使命必达，对吧？那我肯定用最贵的，我想干最脏的活，我觉得这个事情钱能到手，这个为什么不呢？这个账是算得过来的。对我那天看到老黄的一个采访，我觉得分享给你们一下。就是说你们可以猜一下这个数，我们在GPT one是几年前，忘了五年前。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>GP1对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更早。对，应该当时训练GP1的模型，整个中综合下来硬件等这些成本大概1000万到2000万美元。然后你们猜今天2026年做一个GPT e这样的模型要有多少的成本，给你们猜一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>几万美金？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>100美金.</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我猜的还算挺接近的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想说千位数，结果没想到100美金位数。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到100美金就是过去这一年整个算力的成本降低了1万倍，真的1万倍。智能有没有提升1万倍呢？我不能确定智能这个不好衡量对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定没有那肯定没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我刚才有一个点没有说清楚，说如果你对未来的投资，你投的是你未来能够产生的利润。那你你如果你看不到利润，那你应该看到这里面有一个差价，就是智能的成本五年降低了1万倍，那未来五年会降低多少倍呢？我觉得你今天用最先进的模型去干最脏的活就是值得的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但我想到一个更有意思的点是，就是不管你用不用，就是你用的少还就是用它。比如说贤哥你的典型可能20美金的就普通的就够了。但这个里面有一很大的问题是说，不管你还是我们我们现在都是human in the loop，就是我们现在都是人在里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个问题其实是一个很大的问题，怎么说呢？就是比如说我应该会比小苏就会有更强的感觉。小苏可能觉得现在就挺爽，就刚好这个是已经有token自由的感觉随便用。但是我其实是不一样的，因为我在追求的是那个生产环境的那个东西，我token就是怎么也不够用。而且不够用的情况下，更大的焦虑是也有跟贤哥你一样的，就是我可能偷个没用完，但是我其实大多数时候是用完了的。但是我没用完的时候，我想的是说我没有用在刀刃上。我就是觉得这周是没登到，没有把最好的那游戏登上去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，登上去。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有就是我什么生产工作流没优化，我这周花了好多时间。你看我开了套餐，其实前3天到4天都是在改进工作流。因为我知道工作流不改，我也用不上那个点会爆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你必须把你工作流都给改造，我必须得改掉。你像我开的老邱给我开那个dot，我第一天所有的大部分的额度全部花在给他造不同的工具。我要给做一个for agent专门的，比如说ISS的新闻订阅了，有一个for agent专门的一些什么工具了，我都得做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以我这里面这种感觉你看讲出来就会感受到，就是说这个东西其实就是我现在都是human in the loop，就是你你AI变强了，我还是人在里面是一个最重要的环节，我还是那个卡点，就是我人不能并行，我最终我们还是没有办法真正把我的我这个我的可能判断力，我去复制个几个，我怎么复制一个都复制不了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不但你你你觉得我觉得是这样，就是我们人在这个loop里面迟早有一天是会成为。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最大的卡点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你现在是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在其实其实现在那就是因为你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在忙就是问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实现在就是所以我特别想讲的就是说智能变大，比如说我们刚才说变大了五倍，是不是最后能够把我这个我虽然更忙了，我最后可能业务变得更忙了。对，但我产出有没有增加，这件事情可能因人而异，就刚才贤哥说的场景不一样，但是我觉得说这个能力特别重要。就是随着未来你可能贤哥你用了20美金，就是我现在用的100美金的灯模型了，可能三个月左右，最慢半年也应该到3个月.</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就是做个祷告。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，那你到那个时候你应该就会感受到我们的感觉，你会发现你怎么用，我靠那个token都用不完了，然后你还有很多事情没有做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我就是说买一张未来的门票。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为现在黑莓的路粉可能还蛮长一段时间都会是瓶颈。但是我觉得说即使是瓶颈，就是你实际上是交付了更多东西。只是因为我们变得更智能以后，我想交付的东西又更多。我才那个但我很实在的去看我交付的内容。我在一年以前我们一年以前早晚报刚刚上线和现在我就知道说我以前才交付的时候，我是连代码都还不太能写的。现在的话不光能写代码，能做运维，而且我还能够同时运行好几个这样的项目。这个是一年以来就是用顶级智能带来的这个杠杆，还有很多的思路会被打开。因为原来想不到的东西，我现在通过做用的这个新的东西会想到，可以这么做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>以前是想不到。就是call back那个lax，跟DHS大神，DSC的大神跟我们其实是一样的情况。没有，因为他是大神，他就不是黑的一个路虎里面最卡的那个点心更多，他照样是更他操的心更多。因为他是大神，他知道有很多地方会卡住，然后他就必须得去做很多事情。那这就好像是个啥，必须得把自己从发动机切换成刹车片，这这就这么个情况，然后你你你不再是那个发动机了，你没有办法说发动机还可以多个发动机一起跑，但是人已经是变成说你就是没办法并行的那个点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你讲这个有道理，以前我们总觉得自己是发动机，对不对？对，一脚油门干下去，AI web coding token烧起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是因为我们很累，是因为我们觉得我们在花我们的时间，它的产出就变大了。但其实这个趋势就在变化中。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是还没变。过去的这个过程，我们做这件事情是在去模型，就给我给他造那么多工具，让我的agent去日夜多干活。其实这些工具最终是搬运成模型的知识。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他他获取了我们的经验，变成了上下文，给他滋养了他的这个工作模式，他的思考能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这样子的，词用错了，你不是训模型，你是喂模型，你是喂养模型，把它当小，他都不是小孩，他就是贪婪的吸吮你的营养。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得我们聊这些，其实还是一小撮人的这种。我觉得福利或者一小撮人的进步，他可能为什么贤哥刚才老是反驳我，因为他不能代表大多数人，对吧？因为你看这个事情，我们都不要说大多数人这个事情要AI我们的这些提效在这个数字世界里面，你总有一天就是你真的就是变成刹车了。对，那你可以想象得到。但是实际上在进入到像比如说贤哥开的餐馆这种现实的世界里面，我觉得AI还是有非常大的这种瓶颈，或者是说非常难以去用这套范式去适配的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没错，我觉得感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我的感觉也是就是说现在如果我们站换一个视角说，AI就是说站在整个的这个舞台的正中央，长在站在高光里面，但舞台没有被打亮的那个其他地方还有很大的空间的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我也一直觉得说写哥你现在阶段还没到，你等你这个店开起来了，线上线下要结合你这个foot，你就用得上了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，到时候欢迎打脸。我觉得那个时候一定是看着每天数着钱，该用的这个token回收一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我国内给你送几个传菜机器人，你自己去逆向一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就直接把我的扫地机人立下来不就完了吗？对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实可以有很多想象力的，你要在贤哥餐厅里抓老鼠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们这里没老鼠。</p>]]></content:encoded>
+            <pubDate>Fri, 23 Oct 2026 08:57:16 GMT</pubDate>
+            <guid>6adb20cac96c8942ec111f4d</guid>
+        </item>
         <item>
             <title>AI逆向：最没想象力的事，就是再造一个Photoshop！</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6ad0a53d641ef406308c278f</link>
@@ -5492,200 +5672,6 @@ AI Builders 是由课代表立正和鸭哥两位藤校博士主讲的 Top AI 课
 <p class="transcript-line"><span class="time"><strong>[00:33:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的。</p>]]></content:encoded>
             <pubDate>Thu, 12 Mar 2026 09:39:06 GMT</pubDate>
             <guid>69b288f884bce022f919628f</guid>
-        </item>
-        <item>
-            <title>全球首份大模型财报！中国硬生生把AI干成了制造业！TOKEN贸易顺差时代来了？</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69aa94445b2d0ed0699ab26a</link>
-            <description>Minimax亮出了全球首份大模型财报！2月份国产模型赚疯了，OpenClaw直接把这股破天富贵硬生生砸到了脸上！中美博弈再起波澜但这回全变了，说好的AGI直接被低价Token虐爆？这期我们就把MiniMax骇人财报和那些内幕给彻底扒个精光！
-39块钱的“包月奴才”，中国模式的降维打击
-0:00 中国生生把AI干成了制造业？
-3:15 川普傻眼了搞AGI竟然不如降本灵？
-6:25 你省着用Token真的就是穷人思维？
-从聊天框到Agent：AI不再是玩物而是苦力
-12:50 聊天框都快吐了能不能直接干活？
-16:05 OpenClaw土老板都想要狗奴才这就是刚需？
-22:30 今年谁不降Token成本谁就没功德？
-暴论AI终局：Token出口与新时代的水电煤
-28:50 把Token做成水电煤抢云厂商蛋糕？
-31:55 AI原生组织为何只能在小公司降生？
-35:05 以后问公司多少人你得感到羞耻？
-37:15 Token出口贸易顺差这事绝了！
-【订阅 JustSayAI 早晚报】
-🌈 新朋友！订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
-🌟 老朋友！加入会员获取 JustSayAI 早晚报+深度研报+文字专栏
-【主播小红书】
-📕叫我小苏就好啊
-【关注频道】
-▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
-📱 商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>中国生生的把AI干成了制造业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回到自己的熟悉的路径上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>川总刚打完贸易战回来，突然发现说，我靠我搞AGI不灵，我搞AGI还不如你搞这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>只要大家有编码的，其实最近都爆发了，那都是一个月挣一年的钱的那就是因为那个token量爆了token了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小龙虾的事情，因为很多事情就是token的费用限制了你的想象力。你省着用token真的就是穷人思维，就是你一定要往利用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就说明你事儿不重要。你要是重要的话，你绝对是不会抢手。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做客这个事儿没有我，那是因为我穷好吗？你会发现这些新时代的AI公司，并不是像过去那种，刘总你公司多少人我觉得今天还是要问这种问题，你就可以去死了。我觉得你猜mini max有多少人？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>两千没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>加起来已经多了少了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天来聊一下mini max。对，就是很多朋友反馈说能不能多聊一下这个中国模型对吧？刚好最近mini max出了一个财报，所以想借这个机会跟大家聊一下，而且最近很火的一个小龙虾，对不对？上期聊了小龙虾朋，大家说觉得聊还不错，有没有后续更新一下？所以我最近也是去自己去装了一个小龙虾，但我觉得我真的没有那个精力去，自己不为难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我就买了那个mini max，那个叫什么max cloud。对，就是mini max的这个云端的小龙虾自己玩了一下，我觉得还蛮好的。我就收回我之前的言论，但是我不收回我的观点。对我觉得说我现在小龙虾对我是个刚需，对我是一个刚需。因为我我彻底发现小龙虾这个事情，每个人都有一个想成为土老板的心，每个土老板都想要有个狗奴才。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实每个人都是老板，都是黑心老板，只是看压迫谁罢了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不要我懂你的，我懂你了，你是黑心老板，我是土老板。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没事，你都想做老板。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，他那个max clove就还特别好，反正一个月39块钱。我觉得这是我见过最便宜的了，就没有比它更便宜的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是，这就这价钱你买只真龙虾你也买不来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，为什么这么便宜？老兄，我这搞不懂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个CS mini MAX现在为什么在全球open alter这个最大的中间商平台，然后的能量排第一。就因为它这个价格确实是非常的便宜，然后智能也够用。它在技术上实际上做了一个极致的一个压缩。这种压缩就是它的激活的参数很少，它只有10个B点，那应该都比其他的要小70甚至80%。如果是很大的比的，所以它这个实际上是一个很经济的做法，所以它便宜，你应该实际用起来感觉也够用，我估计你也没做很复杂的事情，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有我我是觉得说实际上是肯定是够用了，而且我觉得省掉我去部署，我这整个心情就好多了，对不对？就跟你之前你部署的那一个小龙虾在在自己电脑上面，然后我们就玩得很痛苦。对，我我我后面也发现了，就是说你省着用token真的就是穷人思维，就是你一定要往死里用。因为其实有一段时间我真的很节省着用token，然后我也尽量说什么事情我先把这盘做好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就只能说那就说明你事儿不重要。真的，你要是重要的话，你绝对不会想享受偷窥这个事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看我那是因为我穷好吗？穷人思维。这个我先批判我自己，但我是同意的。就是说你在小龙虾出来以后，这个时间节点你是不能省着用token的。因为很多事情就是token的费用限制了你的想象力，我觉得本质上是这样的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，比如说我用小龙虾，我会想说我有一套成熟的工作流，我要在上面有几个助理，我三个助理组团拉个群跟我做一个什么什么事情。然后每个助理的工作流我会把他排好，有一些这种固定的工作我可能就写好程序让他去做。那这样肯定是最省token的，对不对？他就执行这个程序就好了。但是实际上你会发现，就是因为这样的操作，我会错失掉很多的这种智能的机会。就有可能我虽然是用了AI也比别人可能会用一点。但是可能我比别人获得的智能并不一定那么多，因为很多东西它没有超过我的想象力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说句不好听的，你可能还是在做高级版的自动化，而不对AI对自动化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>原有的字去去装那个酒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实对这个就是大家可以攻击我最薄弱的地方，我是犯过这个错误的，我自己知道了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我是觉得就真的是用开始用这个小龙虾之后，才开始在乎token使用量这个事儿。以前你说你买了个GPT的plus或者是买GPT的会员，现在不是了。现在你要考虑从API上到底花多少钱，然后这些token到底是干什么使这些智能能不能换成钱。这之前就真没算过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就跟你算跟就跟你算你们员工一样，对吧？带薪拉屎那也是带薪，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，没错，你还是给他买纸是吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以这个贤哥我觉得特别有一个意思，我觉得你想听一下你从财务上的角度，这是那个mini max。他们不是前面那个财报上面有个恶订货，就是那个电话会议。然后他那个CEO严俊杰是有说算了一笔账，他是换了一个很细的账，就是说他们的最新的模型是M2.5。M2.5以每秒100个token连续跑1个小时，这个的成本大概是一个美元。也就是说1万美元足够让四个agent跑一整年这样子的一个状态。对这个东西，其实我我觉得是其实我是没算过这个账，这样再让他这一算，我感觉我好像是还挺挺便宜的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你那个100个token算是比较大的，你砍掉一半它才三分钱。我记得他那个成本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是100个token我给你一毛钱，说是没概念。100个token有多是大概有多大？一秒能搞100个token，因为我现在是做编码，我们一秒钟大概可能就是跑40到60个token，大概是这样。就是130是我日常的可能两倍的那个速度了，我都跑不出那么快。如果按照我日常的使用的话，那他可能只要5000美金就可以跑一年了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那5000美金那他5000美金才多少钱？三万多人民币，不到4万块钱，一个月才3000块钱多一点。我们现在日常招个实习生都不止3000块钱，然后他还是四个A人可以给你干。如果如果是这样子的一个换算成人力，你会不会觉得特别便宜？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是这么觉得，我觉得对于AI公司千万别这么算账，这是我一个暴论，可以说完全就是说没有任何。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>展开讲讲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就这样这样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>讲讲你你就说你就说因为我确实看了他那财报，因为我关注港股，关注他的这个财报情况。他是可以算是这个AIAI模型公司里面第一个发财报的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>应该是，然后这也是第一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其他的没有。对，而且还搞了个奥林克尔毛。然后我就发现一个问题，就是你看他这个财报是什么？是截止在2025年年底12月31号对吧？那他什么时候上的市？他是2026年1月份1月9号上的是吧，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你这个人其实对他没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反映出来真正上市之后的表现。其实可是咱们现在已经三月份了，就整个2026年都过了俩月了，可这俩月可是翻天覆地。因为对，在那个他上市的时候还没有on cloud，对吧？然后也没有这么这么频繁的调用或者怎么着。所以我觉得刚才他说什么，比如说1万块钱，一万美金让四个A真的跑一年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先两件事儿，第一件事儿就是token的成本以后还是会再降的这相信吧？对吧？随着说各种的模型的推理能力，还是说电力等等各方面的，我觉得token的成本肯定会再降的对吧？所以你现在算这数和6个月以后再看这数，可能都不是一个量级了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>穷人思维对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你不能线性，就是我觉得最重要的就是你不能线性的看AI公司。然后因为你看它它里面有个数字特别逗，说他整个二月份，ARR已经达到一个多亿了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，1.5亿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，1.5亿就已经超过他2025年整年度的收入了。这你说这怎么比对，你要说说那2025年没干事儿，不可能，人家25年干了好多事儿，那你只能说2026年2月份干了特别多事儿。也没有，其实就是他也没有做特别多营销。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看他营销费，还有我是觉得二月份有点魔幻，因为你不止mini max，你kimi 2.5发了以后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>整个月份你就人家也。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>花了20天，然后超过去年全年的业绩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我要cloud也赚了很多钱，cloud赚两个月。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想说的就是这个意思，就是不要用线性的思维去考虑AI公司的财务数据，也不要看他的表现。我觉得这个东西是不成立的。就说以前咱讲什么摩尔县城也好，还是讲什么各种定律也好，我觉得在AI公司里面，我认为有两个东西就是我个人现在用龙虾的一个体验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然这个问完全没有任何数据基础，也没有这纯主观。首先就是当你开始真的用AI agent和你一起工作的时候，你的工作方式就改变了。然后你已经不能按照24小时这么来算。就是我今天比如说我精力充沛，我能工作10个小时，我连续工作10个小时，那我也就到头了，对吧？我不能连续工作10个小时，工作一年我挂了，操我我变成我变劳模了，我变变那什么了，变英烈了。对，但是A镇可以，而且你搭了一个A的之后，搭了一个认定之后，你可能就能有第二个、有第三个、有第四个。如果你有足够的活，他们可以一块干。所以这个活我觉得跟碳基生物的这个东西是完全不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就没有996，没有007.</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？你有这个概念就是当年我记得谁说这句话。很早以前有一本书讲这个人时的概念的时候，我记得里面有个例子说的特别对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>人月神话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是我们说你不能找19个女人的一个月就把孩子生出来，对吧？那意思就是说你找更多人出来也没有用。你搞这么多人出来之后，大家沟通成本也很高，同时干一个事不见得干得更好，这就跟打扫卫生似的。你就你你即使有九把笤帚，你也不见得说比一个两个两个人扫地更快，因为这空间还有限制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你要是说用AI公司本身就就本身自己就有很多AIAI agent在工作，对吧？在编码，在debug，在各种各样的情况。这个公司的工作效率和和产出，包括研发的这个能力，和以前的这种公司是完全不一样的。而且这个东西本身我觉得AIAI本身还没有到头，甚至说还没有建到中场。所以这个工程中还有好多好多可以发展的空间。那这样看来的话，可能未来一个月就能干以前一年的活。所以我的暴论就是不能够线性干这事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你现在说我说5000块钱还是说2000块钱都没有意义，我觉得更更重要是说，你赶快把这agent挂起来，把这个用起来。而且从一个A证的包到三个A镇的，到四个A镇，到5个A镇的。而且你看这些人还能够真的是在干活，每天你睡觉他干活，那你就离真的是每天喝咖啡不远了。这是我就个人很期待一个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我我是看这个数据觉得很有意思。我们刚才提到了其他国内的厂商都爆发，不管是PM还是GLM，只要大家有编码的，其实最近都爆发了。都是一个月挣一年的钱，然后再一个月挣个甚至更久的时间。为什么？就是因为那个token量爆了。Open o小龙虾的事情。但是这个里面一个问题是海外的也都报了，我不知道你们有没有注意到，我们一直聊了好几次的那个curse，就是编码的那个课程IDE，他最近三个月也翻倍了，他是从多少翻上来，你知道吧？他是第四季度的时候，那那从这个10亿翻到20亿美金，他是从10亿美金.</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到20亿都快挂了吗？怎么突然没有？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>并没有，你们可能以为他挂了，我特别去看了一下他因为所以我刚才说是编码这个东西的变化很大，所以我特别去看了一下柯sir。因为科sir最近他其实上了一个头条，可能你们没注意到，就是说他最近的ARR直接到达20亿美金了，然后是三个月内翻倍的，整个二月份的是超过了20亿。然后还有一个是cloud，那cloud的cloud code我们也说他的那个翻倍很快。那他他在前面去年的好几个月已经增长了好多，然后到2 1月份他又翻倍了一次，他现在达到25亿美金以上。像这样子大家都这么多，就是短短一个多月不知道哪里飞来了一堆钱一样，就多赚了这么多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那天酱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>平台对，就这种情况之下，其实大家的刚才你说的那个预判，会不会全部都飘了。大家都觉得我靠这钱太好挣了，我觉得是因为模式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>咱不咱别用那种大词儿，什么范式什么，我觉得就是因为大家和AI对话的模式变了，不再是局限于聊天对话框，或者说做个虚拟女友，而是说真的开始完成任务，然后又找到了这种怎么说呢？就是命令行方式，或者说是找到了open edge open class这种语音，直接让他管理调用线程模型的这种方式或现成工具的方式来工作。这个过程中的智能消耗或者叫token消耗，那完全是基于任务的了，不再是基于情感的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没错，我觉得这个就是不是一个指数级的消耗。你如果基于聊天，那其实还算得出来。但如果你是基于说任务完成，就是大家对AI的期待变了。就是说你不要再给我一个聊天框了，对吧？今天很多人看到一个聊天框的产品都已经快吐了，对吧？你不要再给我一个聊天框，你直接就是manners告诉我们说，我可以直接给你一台电脑，你帮我把任务完成了。今天小龙虾直接告诉你说，我可以装在你自己本地的电脑上面，帮你把你那些牛马的工作给做了，对吧？然后就满足了一个就是大家都有一个土老板的心土老板都想有一个狗奴才的心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得我觉得这是好事。我觉得因为真的这个世界，我觉得人类还是用情绪去撬动的，对不对？我觉得人类很难用理性去撬动。如果你说天天像那个GPT gm这样，就是按部就班的，然后一直迭代升级cloud这样子的，其实人类很难用理性去去激发他，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的小龙虾卡在了一个很好的情绪点，然后整个token大爆发。你看kimi、mini max，业绩都都就二月份就都爆了，对不对？但是你看，但你讲回来，但其实它有亏损，它亏损是就只有收窄，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你max我没有，我没觉得它亏损真的。首先我看到他，首先他的单位的成本价降低了，说明什么？说明他肯定用了更好的模型方式，让大家虽然在用他的token，但是同样他自己的算力支出变低了。所以他整个的单位token就对于他公司来讲的特工成本变低，对吧？然后第二来讲的话，他现在客户数增加快，然后利润水平增加高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他事实是说在2025年的财报里面有一个比较大的亏损数字，但那个其实主要是财务手段，他之前上市之前，他那些优先股估值增加之后，它的优先股作为负债本身增加了，那它整个的亏损就变大了。但是他一月份人上市了吗？上市的时候这些优先股都变成这个普通股了，直接就把这个从负债变资产了。然后等到一季度，如果你再看到财报，那就完全不一样了。这部分亏损首先就没有了。第二来讲资产负债表特特健康，因为这些所有的负债都变成资产了。所以整个来讲的话，就是这件事来讲，他敢大大四大张旗鼓说，或者说直接写出来说句不好听的话，就是因为人家知道这事儿对他是好事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我觉得如果说咱们真看mini MAX财报的话，我关注是两。一个就是token消耗量是不是在增长，在巨大巨快增长。但这件事儿在他整个的电话会中他解答了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他说二月份确定了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，直接就翻几倍，对吧？所以这个是一个既定的事儿，而且厄本cloud这个热度还在增加，所以我觉得这个事儿是第二来讲就是说这个收入构成to c和to b这块，就这块儿我其实特别想聊聊，就是说它里面基本上的to b是占到4分之1，4分之1到3分之1这个样子。然后说的是to c，而且它to c是来自海外，海外有一大块，它就是分之70的海螺。对，海螺AI，还有poke，还有其他的这些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们也算是mini max的海外客户了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我自己他是放炮的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>70%里面有我们一份，我靠。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有我们一份，有我们一份。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真有。所以我说我为什么我看重的是收入结构呢？就是说我特别想聊这个事儿，就是说to b这个生意咱们聊过好多次，因为咱们以前聊SARS也聊，咱们聊什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>To b这个生意其实不好做对吧？因为你需要搞关系，还要去做定制等等等等，成本很高。然后to c的生意好做，但是to c你就要营销。所以他尤其做海外，你要投大投入，投入很多的这种大V，或者说这营销方案等等等等。因为他跟国内有不一样，可能没有人知道你mini MAX是谁。但是整体来讲，我觉得就是在2026年会有一个大的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么？这个我直接抛结论，抛论出来就是说A镇的方式，尤其用A镇调用token这种方式，其实就是一种to b化的to c服务方式。我不知道说明白没有，就是意思怎么讲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个有个黑话叫PLG。对，只显示产品驱动增长。现在我觉得可能PLG可以改成模型驱动增长，或者平台驱动增长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这个真的是我看他财报的时候，我自己琢磨瞎琢磨。所以我也想听听你们两位意见，就是对同不同意我这种预判。就是每未来一个已经用了agent的人，会变成毫不知廉耻的把一个A变成多个agent.</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个很正常，就是我自己用的东西对吧？然后拿来公司用，我恨不得多找老板多报销几次，对不对？然后你像那个那个zoom对吧？然后像notion的很多增长也是从C端的用户，然后再引入他们的企业，其实这个是一个很典型的在海外的一个产品增长的方式。我觉得他这个海外的市场很多真的就是像这样口碑驱动的。我觉得这个反而是我认为比较高效的一个方式，就是模型来驱动增长，就因为你的模型便宜又好用。量大又足，便宜又大碗，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后大家都想用小龙虾，小龙虾大家都觉得说mini max上面用口碑也不错，KIMI也还不错。那那我就这几个中国模型我就都买，然后交替用。刚才老徐不是算了一笔账吗？你一秒钟100个token，我我我用下来一天的成本也才多少钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？一年才两千多美金，你要是真能拿来赚钱的话，它不值。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>觉得那什么就是这里面有个很重要的东西，就是你现在是让他干点活还不赚钱，你可能还觉得是个玩具，但是他哪天能挣钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就完全不一样了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我说的就是对你现在因为不熟，所以你不敢让他干活。但你真的熟了之后，你发现他的智能水平相当于甚至说在某个地方超过你了，你肯定让他拿来赚钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且我是觉得至少今年看起来，我个人觉得说有几个方向是很确定能赚钱的一个。我觉得就是你记得我们上次聊c dance，对不对？对，就是视频生成方面，这个是一个token消耗的大户，我觉得可能也是mini max很想去抢的市场，对不对？像这一块的话，我是觉得说应该是一个重点，包括google也在抢这一块，然后这一块是直接能赚钱的。你看现在真的就是直接的那种做慢剧的公司，一整个公司把来接进来，然后开始去流水线的生产。你现在很多看到什么，我最近很喜欢干什么，你知道吗？就是带你穿越体验什么古罗马男妓的一天，然后体验清朝代建的一天。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这每天都在干嘛？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这真的都是AI剧的那种慢剧对，这个很好看，别的大哥。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的很好看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有，我是跟行业的人交流，就很多朋友在做这一块，做视频生成的，有做慢剧的。对，那确实这一块token消耗量大，需求又多，又直接能赚钱。你这一块在平台上面是直接能够算出这种ROI的。你去投流，然后你怎么转化这已经很成熟的一个商业模式。你只要说用把里面的成本砍掉，你就能赚钱，我的这个是很确定的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二个我觉得我看到有一点是什么？就是大家可能忽略那个小龙虾之外的办公市场，其实也是蛮大的AI办公市场。我觉得今年是比coding更有潜力的一个市场，对吧？在work出来以后，其实我觉得讲的人不多，但我觉得口work这个事情真的会今年我觉得会撕开一个AI办公市场很大的一个口子。这一块AI办公市场，我觉得消耗token也是个大户，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个肯定也不小，适合用的人多，谁谁都不希望让老板知道我在用，他偷摸鱼，但是做的效果还好，对吧？老板照样发工资，要不然老板把我开了个，我还是希望有人来用。Cover d才行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后再来一个就编程的，编程就不用讲，反正也是token消耗大户。对，老修最有发言权。老修现在对不对？我们现在就必须得用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>必须得用X套餐，不用max我都不行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且这个是这样，我们我们做coding的话，你这个东西哪怕不赚钱，我就买kimi买mini max对不对？哪怕就是你赚钱的，我每家都买，对不对？我就算全部跑cloud我都是值得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这实际是购买的。因为每一家有不同的用途，每一家的品味那个品味会有点不一样。从编码上确实我已经是都买这三家，我全部都有用kimi GLM加上mini max。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对那所以我是觉得说你再来论证说你今年这个token的消耗什么东西，我觉得这不用讲了，就今年这三个方向下来，哪个不是token消耗大户。你今年谁不把token成本降下来，谁就是没功德，对不对？这个事情一定要做的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得如果真看财报就盯两个，一个是成本是不是在持续下降，就token成本单位成本是不是在下降。第二就是看利润率是不是在提升，反正我看到mini MAX利润率它确实提升了，提到25%左右，就4分之1。当然这个对于软件公来讲不算特别高，但是如果能够持续提升，往往能顶稳定在一个地方，那很厉害。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以先生我现在有一个更强的感觉，就是我们如果看一下具体的数据，就是linux c端它的海螺turkey这些占收入是67%，3分之2。但它毛利率只有5%，还是蛮低的，就纯C端的这个。另外它赚钱的是B端的API，它的毛率是有69%，这是现在的情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你刚才讲到那个，我觉得我想到了一个更大的一个比喻，就是你你刚才是说这个to B2C我感觉还有点绕，我们可能我会感它更像是亚马逊早期的那种情况。你记得亚马逊早期干嘛是卖书的对吧？他他卖书其实是真的不赚钱，真的是不赚钱。但是他后面怎么赚钱的，大家有没有印象？关键的转折点是那个AWS，就是亚马逊云。对，赚钱。对，然后亚马逊云这个东西它怎么能赚钱呢？就是因为他自己内部服务的特别好，他自己内部有大量因为得得服务的跟他卖书，还有卖各种各样的，受不了了，他服务器几千几万台，然后自己内部搞了一个云，把这些原来是线下的硬件都搬到云端去管理，然后发现，省了好多钱，然后最后还变成利润了，然后还能把这个东西给别人买。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实我现在看到的像mini MAX为首的，我们国内的这些就是看起来低价，好像质量没那么好，但是我其实觉得非常像亚马逊的情况。就是早期他们可能现在你从财报上看，他可能不是开始赚钱，而且很多赚钱的还不是从B端来赚了那么多钱。但是一旦说他现在这个飞轮能跑起来，因为在C端这边能保持。因为亚马逊当时虽然也亏钱，但是在C端不断的有源源不断的现金流进来，然后有其他的方式可以维持这个东西接着跑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后一旦这个赚钱的这个逻辑，如果切换到了说我日常你任何一个黑心老板要请agent，这个agent其实他不会是自己部署的，他其实还是买了别人的服务的。不管是多少层级的服务，它最终其实是一个弊端。服务就是我刚才看的话，我的想法是觉得我觉得你比你以后雇多少个龙虾，这个龙虾肯定不是你自己的IT配的，所以多半是去哪里买的。然后那其实就是to b的这个事情，其实就是to b就是我老板我感觉我是买了一个员数字员工，我好像是自己是我好像像一个C端一样的决策，但是他其实就是to b然后我们普通的人可能也不像老板那样子，我不需要去考虑那么多工作。我就是上个小龙虾，我们现在其实有看到好多产品已经在这么做了，就是套一层产品的这个可去帮他做日常的事情。但它背后其实还是调这几家模型，mini max智谱、kimi绝对是在调的。对的，是的。所以像这些中间可能有一些中间环节，但是它最终它其实就跟AWS的逻辑是一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它是一个底层的，我觉得就是一个新的region的最基本的一个成本基建，就是它很低成本，然后大家会去选，选了以后，对那这个东西往下面跑下去，它的因为前C端还是有很多他直接服务的。他把他这些拿到的那些经验都拿去训他的这个模型。然后模型又通过刚才这种各种各样的中间的中间商也好，或者自己也好，直接服务给B端或者是C端。他最后其实大量的收入还是从B端能够看到的，然后价格是AWS1样。那它的后面的这个成长性就非常强了。这我是感觉是更像这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是其实我我要讲的是说，其实本质上大家都知道现在做模型其实很难做出差异。除了编程跟多模态这两个方向上面，其实你真的在模型侧很难做出差异。那其实你最终你的竞争对手或者说你最大的成本就都会掉到云厂商上面去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这个变量转折就在于说你能不能真的把token变成一个新时代的云或者电，对不对？你能把token变成新时代的水电煤这样的一个东西，去跟云厂去分这杯羹，否则你的价值就被云厂商吃掉了。我觉得这个是最重要的点。所以你变成说你token的质量跟token的价格现在就会特别的重要。然后刚好就是这件事情就会让大家发现说，好像现在token便宜很重要，对吧？可能比追智能更重要。我可能需要说四等智能，但是非常便宜的token，这个可能变成大家非常需要的东西。那刚好像mini MAX这样它有C端的公司，我觉得它有个优势，就是在C端很多这种优质的标注数据能够反哺他去做B端的很多很多进化。对对对，这块就相当于说这些他就是他B2B需要的一些能力，对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这你们俩提醒我了，因为当时还我忘了说一点，就是听到我觉得挺重要的一点，就是听到他那morning call的时候解释这财报。同时他说了一个，他说严俊杰说，要把这个mini max今年做成真正的AI时代的平台公司，对吧？一般听到平台公司，其实我还是比较挺挺谨慎的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是挺灵。这个就挺好像是以前那个老板吹大饼了，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，不光是如此，其实我觉得前两年，如果你说你要做平台公司会被别人嗤之以鼻，尤其是对投资人来讲的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就互联网公就是不不是前两年比较那个的时代，对吧？任何一个土老板上来说，妈的我要做一个平台。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你去给我写的就是平台公司。过去两年投资人都已经不听了，谁要说自己做平台公司叫钱，对吧？平台公司就那几个都已经被垄断了，你怎么可能再做个平台公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后现在林俊杰说我要把一个就是我表明max从大模型公司转成平台公司，或者叫AI时代平台公司。我觉得虽然他这么说的时候是为了拿出一个大家熟悉的概念来说明自己转变的决心和转变的方向。但是我觉得就像刚才你说的那个小苏，你那说的那个是就是说在现在这个时代，到底什么才能在未来更值钱，而不是当天这种钱。以前在互联网时代的时候是流量最值钱，对吧？所以像字节他能搞明白流量怎么弄，然后阿里能给我搞明白就OK了。所以说什么那会儿店小二什么的才是比较牛的人，因为他们掌握流量。但现在来讲能不能掌握token的性价比，这个性价比不是说只唇便宜，而是说你输入输出的智能和你消耗token之间这个的产出要合适，同时我花的钱还要合理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说现在我看到海外这边大家用open cloud也好，用AI集成体也好，都不是局限于某一个一个公司的大模型。比如说我用cloud来分解任务，对吧？然后我用GPT之后做调研，然后用gina做做多模态输出。然后中间是执行层，用这些东西最后我要干嘛做？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>去任务执行已经分解下来，任务执行我用MIMAX，我用这个中国便宜的模型做输出，最终token可能消耗很高。但这里面的话80%都是便宜的token，也就是说靠谱的能执行的token。剩下的20%可能是高级token，也就是说能做分析，能做分解的，能做任务这个多线程的这些分token，那就是可以了。所以整个任务算下来的话，性价比很高，又能产出，最终没准还能靠它赚钱。我觉得这个是未来时代的特别典型的一个NG agent使用的方式。这点上我很看好国内的这种高性价比token输出的这种能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得背后还是说要跟云厂商去竞争这块的利润。不然否则做模型的公司真的就是很很没有机会了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在后面这个模型公司，我觉得不会再有新的出来了。如果咱价格断言说还会有再冒出一家，就是说这个后怎么了？后来者居上大模型公司，我觉得很难了对吧？那后面来讲就是大家都拼拼智能，拼那什么了，拼图。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，因为还有一个就是说为什么说我觉得说这家公司也值得聊一下？首先我觉得这个创始人思考还是深的对。然后第二个我觉得它是一个公众公司，我们可以很方便的从很多角度来来窥探一些究竟。比如说我觉得有一点我想聊的就是你知道吗？你猜他有多少人，你就你猜mini max有多少人，盲猜两千。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再猜一遍，你再猜一遍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>多了少了多了，多了，我以为少，那怎么着也得有一千一二差不多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有428人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>420不到500人是吧？不到500人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那去那个open还多准的open I多少？Open I年初已经去年年初都三千多了，3000人现在多少不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以我当时说两千是因为瞄着open eye那种规模来做的，不是瞄着google来做的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是人数我们约等于差十倍好不好？然后估值差100倍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，以后那你得把agent都算上，到底有多少个agent你在工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是对但是其实他这一次我看的一些分享就是说他们其实内部已经有非常多的这种员工，大概覆盖他们90%的岗位。所以他们做到一个人数大概428人这样一个组织。然后加上他有多少AI员工去去实现的现在的这些交付，我觉得这个是挺厉害的一个点。因为本质上我觉得做模型公司也好，其实你看mini max不止模型，其实它有很多应用。对他有很多随便做一个那种应用的公司，四五百人很正常的，对不对？我觉得能人能够压到这样，已经是我觉得我会想说这里面其实代表了一个很值得大家去思考，就是未来AI原生的组织是什么样。我觉得现在很多公司不能代表未来AI的公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没错，就不能代表也是我刚才call back我的想法，就是说你现在来讲，我们不能线性的用过去的经验来看，今年就是用前朝的剑斩斩建当年的陈，不可能。就是说对你这个东西如果按照原来的经验去考虑马能跑多快，那你都根本想不出来未来汽车是什么样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你你看最近出了一个什么事情，你知道吗？就是那个阿里的千问的技术负责人不离职了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那是个大，然后对起了很多轩然大波，但我觉得这里面可能有很多媒体过度解读。因为有KPI考核对吧？据说是来了一个german的人，然后那个公司还要考核他们千问团队，就是DIU就日活，他说我们google都是考核日活。对，但我觉得我从这个侧面看，我突然也发现说可能像阿里这样的公是他也有组织惯性，我不是不说他是好还是坏，是真还是假，就是他肯定在这个事情里面就遇到了。又有HR部门，又有绩效考核，又有业务部门，又有这种所谓说放权的那一派的，要让你去做做生态，做开源的，就很多的这种东西交杂进来，变得做AI其实不太纯粹，对吧？在大厂做AI不太纯粹，我觉得是可以理解的。因为你你很难说你这么大一个几万人公司突然转成一个day one，就是AI原生的组织，我觉得挺难的。这种只能诞生在小公司了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我觉得反正作为咱们这种升斗小民，也在自己想办法用个小龙虾之类的那对于这种AI大神来讲，尤其是在大厂做的，他肯定会看到更多机会，而且每天脑子里都激荡着更多想法。如果一旦组织，就是当前的组织形式限制了我的想法，然后让我觉得越来越不舒服。然后再过了再达到一个临界点的时候，我可能就会想脱离。这样就需要投入奔到我自己心目中想象的AI时代的组织结构。如果不行，我自己就搞一个。所以这个我觉得是完全特别的理解的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>别说对，所以我是觉得说像v max这样能够有这样的人人效人效，我是觉得说肯定奔着AI原生组织去做的，否则你很难做这样的压缩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没错，一定是的open I不是吗？Open I今天的新闻就是说open I已经开始找律师律所了，开始筹备上市的事儿了。然后是预计要在四季度末的时候上市，要看他是和SRP到底谁先上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，其实像OpenAI也是像人效已经压得很好的。其实我觉得它主要增加出来的都跟核心的模型或者核心的几个实验室没有什么关系。对，其实他很多增加出来是在产品或者是在具体工程实现上面的对，其实像open a也已经是算压缩的非常好的。所以你会发现这些新时代的AI公司，它并不是像过去那种，我们见到一个人，互相握个手。你好，刘总，你公司多少人我去今天还在问这种问题，妈的你就可以去死了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>别有用心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天应该是很高兴的。刘总说我公司三人或者说这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者说苏总咱们上哪去打球，反正这个事儿都让A真的干了，对吧？说如果你你还有什么事儿要自己干，去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这个秘书不错，要不等一下你把这个电脑拔回去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我懂对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>介绍给你用，有几个skill复制给你放在github上面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你自己去下载代码。没错，就是这样的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就是我是觉得说可能在在未来一个时代，大家要改变的是说，至少我觉得很多老板你不要再见面就问说你公司有多少人呢？我觉得这你要羞耻，你要有羞耻感的，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你放心，物以类聚，人以群分的，老板和老板还是一波一波的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，所以我觉得现在可能是应该说我公司有人有多少个，然后H有多少个，有多少个，我个人那几个你要不要用一用跳槽过去，你那边用一下悠悠。对我我是感觉今年到了一个分水岭，就是智能跟这种苦力之间，它会是从两个方向走的越来越远。对，是的，可能24年25年中国跟美国这边可能还是在往工程跟这种智能方面去去融合，就还在融合对吧？那可能我觉得今年我自己感觉就是负责智能的，有负责智能的AI了，但是真的就是负责智能以下的那种苦力的，这一块的中国的优势可能开始出来了。这个是我看到的一个我个人觉得我觉得挺有意思的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，从代工开始对吧？然后就是用最牛的代工，最后成为产业链，这一定会的。我觉得这个跟中国制造是有异曲同工之妙的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，就是中国生生的把AI干成了制造业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回到自己的熟悉的路径上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就回到自己的舒适区。对对我我觉得我开始看到这个迹象，就是在整个成本已经开始被极致压缩，然后到智能开始放缓的时候，我觉得中国制造的token就会变成一个贸易顺差新的对吧新的那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>贸易顺差没错对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没错。你不要说中国的食物贸易顺差，很可能中国的token出口也会变成贸易顺差。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能会出现了太可怕了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个很可怕了，我觉得这很可怕的一个事情。川总刚打完贸易战对不对？回来又要打token栈智能战，就突然发现说我靠我搞AGI不灵，我搞AGI还不如你搞这个token来降本，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为这个东西现在普及率还没上来，agent还没出来，agent的军团还没出来，这个东西他真的要真的起来了，那可又可怕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，其实这个其实是非常可怕的对，所以我就突然就发现说，今年可能真的会到这样一个分水岭，就是真的有专门去做那种快消品类的token的公司的大模型公司，就是专注token易耗品。然后我我我开始感觉说可能中国制造token会出现贸易顺差。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>复制车当时制造业传奇。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，硬生生的把把AI干成制造业。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>已经在这么做了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊，反正是笑谈，一家之言，大家自己先不要当成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>投资建议或者什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这确实对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那聊到这儿了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，都是瞎扯。就如我们这个频道的名字和人民公园秀恩爱，对吧？对，就是翘着脚，穿着人字拖在公园里面聊AI，不负任何责任。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好好，我们今天就先聊到这儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们下期先聊到这里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再见了，拜拜大家，拜拜。</p>]]></content:encoded>
-            <pubDate>Fri, 06 Mar 2026 09:33:31 GMT</pubDate>
-            <guid>69aa94445b2d0ed0699ab26a</guid>
         </item>
     </channel>
 </rss>

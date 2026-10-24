@@ -4,7 +4,271 @@
         <title>42章经</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98</link>
         <description>和有趣、有独到认知的聪明人聊天</description>
-        <lastBuildDate>Sun, 18 Oct 2026 05:59:18 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 06:14:41 +0800</lastBuildDate>
+        <item>
+            <title>少有的同时做过 Agent、多模态和具身的人 | 对谈前混元多模态 RL Infra 负责人淏楠</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6ada2be4c96c8942ec10cb1e</link>
+            <description>这期的嘉宾淏楠非常「折腾」。他读过五个大学，读着觉得没意思就换，也是少有的同时做过 Agent、多模态、RL 和具身的人，而且总是做一些逆势而为（非主流）的选择：
+他曾在陈天桥和代季峰两位老师的 MiroMind 工作，是最早一批做 Agent 的人，却在 Agent 最热的时候放弃更丰厚的 package，转向多模态。在混元负责多模态 RL infra、主导推出开源多模态强化学习框架 UniRL 之后，他最近又换了方向，去了一家具身公司负责模型训练。其实，Astra 的出现给具身行业带来了不小的震动，也似乎抹平了各家此前在「大脑」上积累的优势。淏楠在此时入局，总有那么一丝「49 年加入国军」的意味。
+不过，这些选择看似很跳，但背后的思考一脉相承，既关乎个人志趣，也有对技术发展和未来空间的判断。所以从 Agent 到多模态再到具身，一路做下来，淏楠收获了什么？这几个方向的实际进展，与外界的感知又有哪些不同？前段时间很火的 Minimax H3、GPT Astra，到底会带来哪些改变？这期播客，我们就沿着他的经历聊了下来。
+聊到最后，淏楠谈起具身很兴奋。现在入局具身，可能不但不是 49 年入国军，反而恰好赶上了具身的 GPT-3 时刻？
+【人类博物馆】
+导游：曲凯，42章经创始人
+54 号珍藏：王淏楠，前腾讯混元多模态 RL infra 负责人、主导开源多模态强化学习框架 UniRL，曾在 MiroMind 参与 Agent 研发，现于某具身智能公司负责基模预训练。
+【时光机】
+Part 1 从 Agent 到多模态
+* 02:03 为什么会从在 MiroMind 做 Agent，转去在混元做多模态 RL infra？
+* 06:13 国内外 RL 的差距到底在哪？
+* 07:45 Agent 和多模态的关系其实可以很紧密
+* 08:56 做 Agent 和做多模态，其实都是围城
+* 11:32 大厂不太能做具身？
+* 12:37 多模态最后只有两条变现途径
+Part 2 聊聊视频生成
+* 14:11 Seedance 到底为啥这么好？
+* 15:14 多模态的竞争可能没那么激烈？
+* 16:26 视频生成现在发展到什么程度了？
+* 19:20 「抽卡」依然会存在，但概念可能会发生变化
+* 21:37 视频生成继续发展下去，可能会解锁什么样的机会？
+* 22:22 MiniMax H3 到底什么水平？
+* 23:54 实时互动的技术真的成熟了吗？
+Part 3 从多模态到具身
+* 27:45 好多人做世界模型都做迷茫了…
+* 30:55 做具身的两种正确路线
+* 32:22 为什么 Astra 给具身圈子带来了比较大的震动？
+* 37:27 聊聊具身训练的 reward 和数据
+* 40:12 具身的「大脑」，最后会变成大模型厂商的竞争吗？
+* 41:59 在现在这个时间节点去做具身，是不是 49 年入国军？
+* 45:24 Agent 开发的场景还是不够多
+* 46:42 多模态还有创业公司的机会吗？
+* 47:38 具身里可能迎来了 GPT-3 时刻？
+【The gang that made this happen】
+* 制作人：陈皮
+* 剪辑：二琳、陈皮
+* 片头：Mondo Bongo - Joe Strummer &amp; The Mescaleros
+* 片尾：Alpine Decline - I Got Up (Just Like John Sinclair Told Us To)</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期对话围绕“Agent、多模态、具身”三条技术路线展开，嘉宾浩南（标题称“淏楠”）曾任混元多模态后训练RL Infra负责人，主力推进uni 2O（文稿中亦作“uni 2宝”），现赴某具身公司负责预训练。节目复盘了他从最早一批language agent、到混元图片视频生成与RL Infra、再到具身预训练的路径转换，并集中讨论视频生成是否出现“R1时刻”、实时互动与世界模型的技术阶段、Extra对具身行业的冲击、大小厂在具身落地上的不同打法。</p>
+<h2>关键要点</h2>
+<ul>
+<li><strong>职业选择：不做“整年造数据”的Agent</strong>：浩南称自己是最早一批做language agent的人，主要参与meat training/SFT和web search数据构造，但预判“如果做A真的大概率是以造数据为主干一整年，我会觉得这个东西对个人的积累或者成长可能不是特别有利，对我来说不够有趣”，因此转向多模态。</li>
+<li><strong>Agent与多模态的“围城”</strong>：做Agent的人觉得天天洗数据没劲，做video的人觉得“video不体现智力”；但Agent是交互主线，职业上“公司做的不好，你可以换下一家公司，但你还在主线上”；多模态review data更有意思，但公司不做这个方向时个人发展会受限。</li>
+<li><strong>视频生成没有等来“R1时刻”</strong>：年初团队认为视频里可能存在类似R1的时刻，做了半年发现“不行，它并不存在比较efficient scaling law”；提升仍更偏预训练和数据，后训练“大部分的好多家都还没二还没work”，字节后训练work了，但最重要能力来源仍是前面部分。</li>
+<li><strong>多模态生成的壁垒在数据与产品回流</strong>：RL Infra“便宜”，十来个有经验的同学两个月能推到相对reasonable水平，且开源做得好；但“Data是没人开源……Data就是纯是看你自己的积累，走不了捷径”，最后得在“有产品的地儿”做数据回流。初创重头pretrain视频模型不现实，视频贵、YouTube反爬已很难。</li>
+<li><strong>视频生成仍在“半山腰”</strong>：浩南给C杠2.5约60分，认为“这个能力没有到头”，但context管理、可编辑性、交互体验都不到位；抽卡会长期存在，但未来“并不是质量的问题……只是你和我的偏好不一样”，从质量抽卡变成taste选择；未来半年关键是出现成熟的harness/studio，把电影质感能力最大化、使用门槛降下来。</li>
+<li><strong>实时互动与世界模型的冷判断</strong>：实时互动两条路中，第一条“伪实时”也不成熟，加速trick容易崩，大家“还是保质量比保real time更好”；真real time因模型越来越大而偏悲观。世界模型被市场情绪架高，WSD类demo像塞尔达跑图但视频质量不行；李飞飞卖公司让圈子更迷茫，“做出来能干啥”没想清楚。做具身也不必先完整理解世界再action，“理解我当前，然后就action一步，然后再理解下一”。</li>
+<li><strong>Extra震动具身的关键：输出有物理意义的低维vector</strong>：具身模型输入video，输出的是每一维有准确意义的关节角/控制vector，不是latent；让language模型生成“0.96逗号”式数字序列“怎么想怎么怪”，且不work。Extra理解强、能按指令输出序列，还能通过视觉反馈多轮调整夹爪/灵巧手，“这真挺强的”。OI做具身团队的数据最后也回滚到主线VLM。</li>
+<li><strong>具身路线：大厂做模型研究，小厂做硬件+自有小模型+落地</strong>：大厂做具身难，产业链长、利用率天然低、不暴利，且部门划分细，“你干了别人觉得你overtime了”。小厂壁垒是硬件、把硬件和自有7B到16B小模型绑定调好、再对接外部大模型，尽快落地；卡量上“具身厂商的和那个大模型厂商那个卡的量差俩零”。酒店叠被子是可用轮式机器人做的落地场景。</li>
+<li><strong>数据管线与“软蒸馏”</strong>：小模型先瑶操，成功率50%-60%也可用；失败时让GPT接管，人再兜底接管，接管数据回流迭代，把成功率从60拉到80，形成“失败怎么回来”的every recovery数据；这已经是软蒸馏，具身厂布设备、布素材更合适做，硬蒸馏成本过高没必要。Extra“确实有点算”节点，甚至可能替代部分素材源。</li>
+</ul>
+<h2>独家细节</h2>
+<ul>
+<li><strong>转去腾讯的幕后引路人</strong>：浩南说找工作时“我的好大哥庞天宇拉我说，要不咱们去腾讯干”，他问“庞绍咱们做什么？”对方答“做图片视频生成”，再问自己做什么，对方说“你要不要做做21音”。此前翁嘉毅在y now讲RL很火，翁嘉毅又是CAI lab早期员工，私下聊后他认为“21印刷很重要，而且我很感兴趣”。</li>
+<li><strong>混元内部RL闭环与uni 2O的借鉴</strong>：他描述组里“有inf AOK，有organism，有reward”，图片视频生成需要非常好的reward，“这三者其实就绑在一起闭环了”；做uni 2O“其实借鉴了也不老少之前的比较非常优秀的world，非常优秀的slim这些库”。</li>
+<li><strong>“多模态Cursor”的产品设想</strong>：做会员creator时，他们想做一个多模态里面的cursor：视频生成3段让用户选，扣进去也给你生成；让用户看yes or no、写reject，或propose 1、2、3，第四个让用户填需求，“我希望一的方案上再怎么样”；核心是后训练和Agent结合最紧密，因为“agent其实是一个人机交互非常合理的方案”。</li>
+<li><strong>大厂吐槽与“扎根基层”原话</strong>：谈大厂做具身，他说“你干了别人觉得你overtime了”；谈真要去做具身，“那你就对吧扎根基层，看看这些素材怎么弄？你就真是上手去瑶操瑶两条呗”。他还对比视频生成：“它不是硬核生产力，它是做精神享受的”，而自己想做physical AI，“你到physical领域，你才能改变大家的生活”。</li>
+<li><strong>抽卡像导演选段，李飞飞卖公司让人迷茫</strong>：他把未来抽卡类比线下拍摄某段咔掉、最后给导演选，甚至“你要选什么刘德华还是什么陈道明，可能给你两段”；谈世界模型时则说李飞飞“如果看到了他为啥要卖公司，他缺钱我肯定不缺……反正是给大家做做迷茫”。</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Do something there.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天我们请到的是浩南，你之前是在混元。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是混元多模态，我是后训练技术上学习这个团队下边的音刷负责人。然后我在做所有的动态的二十一音法，也就是这个uni 2宝，也是我在混元最主力的推进的这个work。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后最近是刚刚去的新公司，对，就是某具深公司公司。然后你现在在是这家具深公司做筋膜训练的责任是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是整个筋膜团队预训练的负责人可能后边会有后训练，但是目前主要以线为主，后训练还是以研究为导向，我们叫预言。对，然后真正上生产环节的预训练，其实也跟各家巨深的模型训练情况也差不多，就是模型训练还是以预训练为主。因为这个圈子还没有到真的能做特别好的那种真机的那个阶段。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，我们之前其实很少聊去摄影相关的主题，因为我觉得大家做的都差不多，聊不出来什么太多差异性的东西出来的。但我觉得今天好难来，我觉得还挺好的，就是正好把多模态道具深这个过程可以讲一讲。对，我们先从多模态开始聊起。因为多模态我们在去年，多模态和agent的我们觉得是两条应用落地的主线。当时的判断？那现在agent的其实已经非常明确了，尤其像personal agent什么这些东西都出来了，其实大概能看到是在往哪个方向走了。然后多模态这条线呢，目前我觉得大家看的比较多的仍然是去年我们讲实时互动之类的这些方向。对，我不知道你看起来最近一年，多模态上有哪些新的进展什么的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们说一年的学生，我们往回倒，现在我们今天是在你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个领域里面一年太长了是吧？太长了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实今天是26年的十月，25年的十月，就25年10月这个时间点我还记得蛮清楚的。因为当时我还比较清楚我在干什么。我当时其实是在marion的，这家公司可能熟的人不是很多，但mariee是一个最早期做agent的公司。圈内人还记得25年的二月份三月份开始是二十大爆发，就是zero那个时候的DFC可能刚过春节，头半年到5月份之前大家都在猛灌水做21，然后包括到9月头i clear都在做21。其实大家对agent的重视程度非常不高。然后我当时算最早特别早一批开始结束5A的，从七月份一直干到26年的2 3月份。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个时候还是戴老师是对我发现你带了好多公司都是这种相对水下，对，但其实是对，但其实圈内人会觉得还是挺有专业的对吧？因为戴老师那公司正好最近刚被the information爆出来融资，他自己行业难以为爱为对，这名字还蛮有意思的。那我们的annual，所以讲回来就是你在那边干了一段直接agent是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，当时其实我是做的不是多模态的agent就是完全language agent。也就是大家常见的就是搜网页、看新闻、读网页，帮你搜个什么新闻，他们搜的非常好，这个报告写的非常好的那种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我都不知道你还有过A镇的这一段，那不全了吗？的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我还算A镇真做很早一批，就包括我26年1月份毕业，所以我当时找工作offer比较高的那些，其实都agent。因为2月23月份另外一个重要的事件就是龙虾，就是行业刚爆发，然后大家都想做。所以那时候面的试拿了一些offer，language agent居多，作为agent那段时间还觉得挺有意思的。不过后边也是看到agent的，当时的一些也不叫问题，就是可能跟自己的兴趣和志向没有那么match的点，所以后来没一直做A真的回到就刚才咱们聊说抗疫情年，从去年10月份九月份那时候确实就两条路，一个动态一个A正当时。我认为看到A震觉得OK，我知道大概我在这儿一年之后会做什么，所以我没有特别选这个方向，反而选了一条路。我也想去看看做多模态能做什么。因为我当时也觉得多模态是个落地的好方向，恰好后边有个机会，所以后来去做了多模态相关的东西。对，这可能是当时我自己的一个转变的心路历程。然后在这里边我可以细说说为什么我当时没没选A真的25年的年底12月的时候，我就意识到一个问题，就是如果做A真的大概率是以造数据为主干一整年，我会觉得这个东西对个人的积累或者成长可能不是特别有利，对我来说不够有趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你当时也是后训练那一块，是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我其实主要参与的就是meat training SFT，然后是麦尔曼的meat training那个组。然后我主要其实是在做web search。那些数据的造数据就是当时大家还对agent的数据长什么样，应该怎么造，包括MCP应该是啥都没有，特别清晰。确实这一年发生了太多事儿。对，然后我们当时在摸索这个东西该怎么弄。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我可以理解就是后续念确实日常可能是会有很多无聊的跟数据相关的东西。但是多模态你的后续链不应该是一样的吗？不是也搞很多数据吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有四点就来了，就是到了找工作，就找了几个之后，然后我的好大哥庞天宇拉我说，要不咱们去腾讯干那那我说庞绍咱们做什么？对吧？他说做图片视频生成，就是direction生成这块。然后我说OK，我说那那那我做什么呢？他说你要不要做做21音是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为其实去年年底的时候非常火的一个事儿，就是211，反正很火。主要是翁嘉毅当时在这个y now上面讲了一个问题。然后翁嘉宜又是我们当时CAI lab的早期员工，他相当于在CAB干了一年之后就去OI了。当时也是私下里跟他聊了聊，他觉得确实很重要。然后我当时就OK21印刷很重要，而且我很感兴趣，就说OK没问题，黄绍跟你干，但是我就反而选了一个可能对自己成长没有帮助的这个事儿，然后就去了昆源。多模态下边的RO印发的负责这块内容去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这块跟上一个的区别就是这块更偏infer，就更偏底层架构什么这些东西的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>解决在language上面已经可能探索过一段时间的21印发的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我听过一种说法，就是国内虽然也讲了很长时间的IO然后也有很多人在做，但好像听说跟海外的这个IO上的差距还是蛮明显的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>蛮大的。就是工程实践上面的infra上面的代差其实没有那么大。最大的概括我觉得可能还是没卡，就是二还是废卡笔水顺什么的费卡。对，导致我们这块儿就投入少，然后做的整体上有代差。但我觉得代差的短板并不是主要来自于英法，并不是我们没写出来这一套东西，而是训练上面的各个环节data，包括你能坚持你能投入多少卡逊多久的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，就是你卡少就实验就少，你的这个积累和经验什么的就跑的对应体就慢了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是SFC效率高对吧？对于提点来说，假设我们同样租某某云租一个OK，那我们就说在一个月内要把分数往上推，那确实就是SFD效果最好，暴力往上刷的能力最强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你这段IO音乐做起来跟你预期当中是差不多的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>整体来说可能比较多的就是说让我自己在音刷圈学了很多知识，然后包括这套东西怎么弄。对我个人来说，我觉得很大积累。对于公司来说，我觉得这个东西当时我们在往主线上推，然后后边就是希望diffusion的这块都往上面用吧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后结合我们组内研发的一些算法，一起它其实是一个闭环。就是说你组里有inf AOK，有organism，有reward。因为2L尤其这种图片视频，它需要去一个非常好的reward。然后这三者其实就绑在一起闭环了。然后这样的话希望以这个方式把这个做成对，然后就说到这个东西和agent的关系，其实当时我们的感觉就是两条路，agent和多动态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后来我们觉得要以agent为主线，然后做多动态，就包括后面我们做会员creator，都是说它是一个类似于比如说coding有cursor OK，我们想做一个多模态里面的curse，就比如说你视频生成3段OK你选一个，扣进去也是给你生成。比如说它会让你看一下你yes or no，写个reject，或者说他给你propose 123。然后一般四是让你填一个东西，你可以生成视频三段。然后第四个是你你觉得不满意，然后你可以说我希望一的方案上再怎么样，希望做成一个这样的A的。所以当时我们是希望说后训练这块是和A镇的结合最紧密的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为A阵的能力主要在后训练训，就围绕着agent这整套的使用方法去搭建多模态。因为agent其实是一个人机交互非常合理的方案，所以当时做多模态也是多模态往A阵的方向加，或者多模态加A阵的，然后做这个方案，而非完全的不做H这个也不太make sense。所以做uni 2O包括后边也是做a gt多模态的2L其实借鉴了也不老少之前的比较非常优秀的world，非常优秀的slim这些库。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这两个都做过以后，和单独如果只做一个的话，你认知上的一些区别在哪儿？因为很多人他其实不像你这样有两块的都有机会去试。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得工作的另一方面就是你对这个圈子有一个更深刻的理解和了解。就是非常有意思的一个点，就是大家都觉得对面可能还挺好的，挺有意思，就是有点围城。对，做A站的哥们觉得我天天洗出去，没劲。但做那个video就觉得大家都觉得video不体现智力。做GI当时对年初的时候GOI都快黄了，当时觉得是不是都那个COI爱逆境了，所以第一感觉就是三号我觉得这两个圈子都有比较有意思的事儿可以做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有的公司就更重视，比如说多模态对吧？就是视频生成非常好的，有一些可能包括C端都做的非常好，然后就完全不做的也有？好多初创这刘小龙也有就不打算做这个，我觉得就是agent的确实现在来看是交互的主线。从个人的职业发展角度来看，我觉得就是你在大主线上面的优点就是说你比如说你的公司做的不好，你可以换下一家公司，但你还在主线上，这是我觉得做agent的哥们儿们天然现在享有的好处。做多模态的就是OK，你会觉得这里边好多做起来他可能会相对有趣。就是说我review data的时候，我好像看视频比纯看他给我爬出来的trace，我在一条条读，然后或者写规则让他去筛这个事儿过程上要更有意思，工作体验稍微会好一点。对，但缺点就又说回来了，就是可能如果这公司不做这个，是不是就没有什么很好的发展方向了。其实我猜很多做多模态生成的同学，或者多模态理解同学都有这个感受。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后多模态这块就分成两部分，理解和生成。然后理解站在现在时间点来讲，就是GOI？非常火。腾讯有我和巴蒂，然后现在的GPT six extra，它的电脑使用能力也非常强。这是我觉得搞理解的同学们，现在好像今年又又不错了，搞生成的这后半年就是纯是搞word model，然后后边有一波去做巨深的，这个里边包括我对吧？我其实就是在做动态生成这块，然后后面去做巨深的就分下来几拨人，整个全局视角来看是这个样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我刚刚问的是怎么两边都做完，怎么看agent和那个动态。但你最后的结果是你也没选AG也没选多模态，反正选了巨深。对对对，正好你也提到了，其实在多模态或者大厂里面也有世界模型这条线，对吧？世界模型基本上至少在国内基本等同具身了。所以你背后你的一些选择和考量是怎么样的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是大厂做巨身实际上是不太能做的，其实巨深它它不太够赚钱。相对于大厂的主线业务来说，巨绅这个东西真要做，其实更像一个车或者手机行业，产业链非常长的行业，不是大厂他们喜欢的那种情况，他们对产业链的控制能力也弱。巨深的厂子我觉得很多很更华为就是他对产业链更了解，产业链长，它利用率就天然没那么高，它就没那么暴利，它不像软件，就是导致我觉得做巨深还是要去聚神厂做，但大厂可以做做模型研究，如果你可能觉得OK这个时候还这个行业起不来，那你比如说在大厂做做模型研究，可能会是一个好的事情。不少同学这么想，我觉得有道理，但我可能觉得真要去做最深了，那你就对吧扎根基层，看看这些素材怎么弄？你就真是上手去瑶操瑶两条呗，对吧？在大厂是天然做不成，大厂是尤其越大的大厂它划分的非常好了，是很难去部分get大部分的事儿的。你干了别人觉得你overtime了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但你这个点在所有的领域里面都是一样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？就是大厂固有的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你刚才讲是大厂跟真的做巨深的这些公司之间的选择吗？从多模态到具身，这个选择是怎么做出来的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实多模态我觉得最后看下来就是两条能够继续往下推进或者说变现的途径。一方面就是以地顺着这条路接着做视频生成，然后另外一条路就是做生成action。生成action也是用diffusion这个模型，所以它天然来说从做多模态的技术角度来讲，它的迁移难度没那么高。他们的逻辑非常相近，然后你也非常方便用原来自己的code base试一把，也就是做word action model。最早起航的这波人，其实可能早期都有过diffusion的经验，那就很天然的就转型过来了，或者说技术门槛没那么高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实某种程度上自身的action也是一种模态，对吧？就跟我给你生成视频的情况下又生成音频一样。所以如果你站在这个角度讲，它本质上还在做一个exactly的多模态模型。只是你从视频和音频一起生成变成视频action一起生成，它的逻辑其实是很相近的。这是为什么我觉得很丝滑的就转进去了，包括我好多周围的同学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不，你刚才讲的是为什么能转吗？那为什么要转？沿着你刚才讲你就两条路，一条路是继续做多模态生成，如果不是做多模态生成，那就是去做巨身。但为什么没有继续做多模态生成？</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时其实是跟年初的时候，我们当时觉得OK去年做了一整年。Lange reasoning去年年底到今年时候就在想在视频里面有没有这个是R1时刻。当时我们其实年初都认为是有的，然后后来做了半年发现不行，它并不存在比较efficient scaling law。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那为什么c dance做的这么好呢？它的核心是什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得他们的数据质量非常有关系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但你觉得这个数据质量并不是直接和skating logo是挂钩的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可能我这里面指的更多是test time的scandal。比如说language效果好，是因为language.</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我明白了，你说的是那个RO的那个春天的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>scandal，我觉得其实大家都follow的。是curve的K值，或者说你scandale的这个log是怎么样子的，实际上是跟你的模型结构更相关，就是你是不是能够efficient的scaling。但总的来说对数据是能scalable往前推的，只是我们认为training schedule是不efficient的对吧？就你肯定不可能指望纯靠堆training就能堆到一个。我们往前说language，就是说你希望他能做好这么多现在的这些agent或者怎么样的题，你肯定还是要靠边二熬一下，然后做一做这些的，你才能有r one效果。其实提升不找当时我们一厢情愿的认为说OK能不能在deference tem里做到这块儿。后来发现不太行，就是加上前面的caption改写都最后不太行。他还是更偏硬训练那部分的能力提升。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那你想当下视频生成这一块更拼的还是pretrail的。我觉得是你你觉得这个在未来一段时间也都是这样的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>据我所了解，字节他们的后训练是work了的，但是大部分的好多家都还没二还没work。就是中控台这块即便看work了，我认为最重要的能力来源或者能力提升还是由于前面的那一部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那就说明多模态的竞争可能是没有那么激烈的对吧？就是更巨头效应。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还真觉得是这样，就是真的是针对数据，然后纯净音发其实大家都做的挺好的，其实音发是便宜的，弄个十来个比较有经验的同学，两个月的时间都能推到一个相对reasonable的水平。而且英法这个圈子开源做的比较好。Data是没人开源对吧？Data就是纯是看你自己的积累，走不了捷径。我说你要不就花钱，你要有有产品，帮你做数据的回流或者数据的积累。最后我看起来确实是得在那种有产品的地儿做这东西才能做得成OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你觉得这条线是比较难快速的再往上走的，所以你就选了最深那条路。对我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个方向还是更痴资本，就是说更吃大团队，然后更痴公司，而非一波比较厉害的人就能把这个东西干起来。好像我们是这么尝试过，对吧？半天没成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，然后我们先把视频生成这条线先讲完，就是我最近又在B站上刷到过一些AI的短剧。我前两个月经常给人推荐那个被裁掉的女孩，拍的非常好。但我最近刷到的，我觉得又是比那个再高一个level了，他已经几乎达到了netflix的那个水平了。现在AI短剧我能看到的，从你的经验跟判断来讲，你觉得现在那个模型大概处在什么阶段，后面再会往哪走？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个能力没有到头。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还会变得更好，但肯定没有到头了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且我觉得弄成就就是nearly电影的水平是没什么问题的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你看到这个没无敌超人，我看过这个真的我就也想给大家推荐一下，大家可以感受一下。但我觉得它这里面应该是加了很多专业的人为的因素在里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个说对了，跟我们刚才说会员creator，包括各家要推出自己的studio和相关。就是可能人在创作中是需要参与的，但他并不是像以前那种很heavy的去做很多事儿。你可能更多时候是希望你的case去影响它的导向，这跟code是有一点小差异的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是为什么我认为多模态里面或者视频层里面搞harness，或者好好的做这块的agent是非常有必要的，就是它的交互体验的这个成分，其实是大于call。因为coding其实相对来说有一个最优解，就我们都希望coding能达到又快又好、又整洁又好读，对吧？这个都是大家公认的标准。但影片不一样，他很多时候希望自己去施加一些影响。但总的来说有一些比如基础的就是连贯性，包括这个视频的可编辑性，大家都希望有这些能力OK。然后我现在就觉得目前这个圈子停留在一些搞视频或者玩视频的哥们儿，会去用这些工具去弄他还不够便捷。就是在多模态生成这个方向，模型能力在提升，需要提升。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚才咱们说还没有达到电影的一个质感。然后另外一方向就是说harness或者交互模式，也并没有一套产品能非常成熟的把它这个电影质感能够让大家都能用得上。可能我们说一个比较方便用的是大家都发给我的小红书，其实小红书那个编辑页面就好很多。我觉得未来一定得有一款这种样的harness出现，或者这种交互式的中间层出现，然后套在这个能有电影质感的模型上面，然后把它的能力最大化，也让用户最方便的去操作这个玩意儿。这可能是我觉得多模态生成和agent接下来半年我觉得要推进到的水平。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在的整个的生成模型，现在最多的应该是C杠2.5。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做的非常好。对你觉得它在生成这条线上大概是GPT几，或者说是一个多少分的状态？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得还在半山腰，他们能做到100分的话，那他们现在应该做到了60分。差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得他们还空间还是很大的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常大。比如说徐总可以自己做一条短句试试，其实操作起来非常的散粉的，让你非常痛苦的。他的context管理也不好，各种都做的不到位，我觉得还有很大空间这块儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但抽卡这件事儿是不是会长期存在，只是抽到的概率就越高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得抽卡这个概念之后可能会有一定变化，就是抽卡现在是有一些非常差的clip，你觉得这个形变非常蛋疼，或者说它的这个模型不好了，那未来的抽卡我觉得并不是质量的问题，它都很好。只是你和我的偏好不一样。就是我们对于什么样的影片叫好，影片的case不一样，导致了分歧。所以要选，所以要抽卡，我就抽卡，一定会存在，但存在的意义从这个时代到下一个时代应该是不一样的。这是为什么说他那个60分？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得初稿这就很像之前线下去拍，然后那个可能就某一段咔掉了对吧？或者说你好几段，最后给导演来选一感觉。但再想想就是现在里面会混一些莫名其妙的东西，以后可能不外乎就是你要选什么刘德华还是什么陈道明，可能给你两段对吧？让你选一段。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你可能就不希望他在这块用这种镜头语言，但他就给你弄出这种镜头的效果了，然后你就要给他不要这个要那个当然镜头语言也可以通过非常精细的caption去控制。现在通过这个rich caption、rich description都是能做得到的。在培训的时候这么逊的，但你要让人？你在手机上或者电脑上，你要敲非常丰富的那个东西，你也累。你肯定还是说机器给你propose几个你根据看到前面的影片，然后你接下来可能会觉得有几种镜头是make sense，然后给你process，然后你再选呗。这个我觉得就是所谓taste了，就是可能你希望要用什么样的镜头来表达这段的内容。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近也有他们有个PR比较厉害的，然后开源里面蛮火的。好像是他能够快速的复制一个热门视频，然后就换人什么的。各种这种类型的东西在过去几年里面陆续的有出来过一些，但好像都没有自身成为一个产品，或者怎么样的这种事都会被包到模型里面去吗？或者都会成为模型泛化的一部分吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是的，其实这个能力说实在的模型搞这个并不难，这就是所谓的生产力一体化。我们自己做用uni这个词儿也其实是这意思，就是我们认为能理解能帮助生成，对吧？生成虽然不一定帮助你，但理解一定能帮助生成。比如说换人，这些其实是有非常好的影片理解能力，对于细节理解的非常好，再去做生成才能生成的好。其实各家也都在这条基础上推进，生成理解一体化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你有没有自己想过或者跟其他的同行聊过，就是沿这条线继续走的话，未来更偏影视吧，或者说视频领域会变成什么样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先现在大家是看？就是很多人在消费这个东西，但是创作这个东西的人远没有消费他的多难。你说没多难，就是一个大学生学一学也都会，但还是麻烦。而且成本还是高的对，成本还是高的。这个东西是要通过未来的半年到一年，把这个东西使用门槛，生成成本全拉下来。然后你再去说他们俩去使用，然后让更多人生成，然后形成一个既是生产者又是消费者的这样的平台出现。这是我可能觉得我是很白银。未来我们聊天的圈子里，大家都认为会有这样的一个产品或者平台的产生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后讲到平台这一块，我觉得最近之前我们提到的就是实时互动视频这个方向。这个其实大家经常有提到，真正进入到稍微大众的视野应该是那个H3出来以后，是那个file拿A13做了一个实时互动的模型，然后在外网还有点火，我不知道这块你怎么看，包括他现在是在一个什么样的一个技术阶段。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得他家的水平应该是C32.0，就是他模型能力大概2.0的水平。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说H3是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是它还是会生成不少废的clip。就是说如果你让他propose 222的话，他怀疑我的不太行，那2.5确实更好。另外一方面就是2.5的精细控制能力更强。2.5还真是挺恐怖的，做的就是它能加很多的reference video，某种程度上提升了它的可控制性。就是你可以插很多叫story board。比如说一个人这个人物的正面、背面，然后发饰或者怎么样，他是一张图片里包含了好多张小图。这张小图就是某种情况下这个人的物料，包括整体的故事线这种截图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>2.5是能放很多很多图，然后他能按照你给的图生成一段视频，你的控制能力会非常好。H3就不具备，我觉得是字节在这一块，我觉得有非常强的优势。这个东西不简单，就能插很多video，插很多audio，插很多图片，这很恐怖的。我觉得因为毕竟我们谈到这个东西，你要落地到商品化，然后反映到模型能力，就是你能支持这些东西，才能够support你的产品能能更好的被使用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是纯生成这块，对吧？对。然后实时互动这块，我先讲下我的粗浅的理解。我的理解实时互动其实分两类，一类是真实的互动，一类是伪实时的互动。然后我是这么分的，伪实时互动其实比较好理解，就是它不外乎是生成的速度快于那个消费的速度。但其实它还是在你打完它生成，只是它生成速度足够快，让人觉得说是啊有点像是实时互动。另外一种是真的实时互动，就是它真的是能够去跟你的对话什么做反应。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实三炮我觉得大家应该都在第一条路线。当然我就认为第一条其实现在也没有很成熟。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二条其实有点像世界模型了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，第一条是模型效果崩的比较厉害。后边就这个问题，我们还当时作为一个research topic研究过一段时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>崩逝似的，就还是一致性的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实加速这个东西是有好多的trick的。不管是你的scheduler，就是说你的降噪的那个技术，还有就是重新发就是TCH就是跳层去做腾讯的这些技术。它跳层的相当于不用做了每一层的降噪。然后这样的话模型推理肯定也快。蒸馏各种技术，就包括当时宋阳他们做那个consistently的那个东西，都是一步生成。但不管怎么样，这些东西整体来说容易让他的更容易崩。更容易崩就是指可能镜头转回来后边的东西就变了，或者人脸就变了。很常见的就是说你转回来之后给你画了张脸。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就细节就变了，看起来会有点像那个盗梦空间的那种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是不是有点对，有点诡异。所以大家目前来看，我个人觉得还是保质量比保real time更好。我觉得real time.</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这东西不它都是一个阶段，对吧？肯定两个一起往前走。对，但你现在我不知道你们从学术从研究上能看到说什么节点真的能实现。首先先实现一致性和我们第一种方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可能对就是真real type这个事somehow有一点点悲观，就是在于目前大家模型确实做的越来越大了。为了让他的consent做的更好，其实你在把更多的能力对应的同时，也在把模型size的变得更大，然后这东西天然就更慢。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你让我想到最近那个jeb的感觉，就是你想就是现在大家先保的是质量的对吧？就是先保的是落地实用。所以主线上可能没有在追求实时互动一致性这个方向，但可能这个做到足够好的，突然会出现一个视频领域的jeff的感觉，他舍弃了很多东西，但最后。能够速度更快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>成本更低之类。对，就是关于这个时间点，其实我自己肯定是很难预测。因为我觉得现在目前大家攻坚的还是能力。但是我就说他在60分钟，他还没到能力溢出的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概已经讲就是按你说的就是离那个点其实还是有很大距离的那那我就好奇H3那波游戏外网好多人在发，而且他们甚至于说我看好像有人在一些直播平台里面说进入那个直播间到你能够真的是实时看到它的那个实时生成的东西，所以那个还是以P2为主意。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我是用过的，而且我还训过这玩意儿，就是训过它的后训练，我感觉体感上面没有那么容易，还是很慢的。如果你能真的能够做到生成速度非常快了，那我做21也非常方便了。不然现在OK我生个视频，我等半天我才做完这一圈，然后再去做2，反正我自己感觉这个差的还挺远的。明白，然后听我说第二条路，就是确实我会觉得更像video word model WSB上下左右然后这样去做的。我觉得这个三炮还是我个人觉得是两拨人在玩，一个是做那种WSD的，它做成那种cos o的生成还是生成一段，然后你given一个action之后，它这样往下去生成。比如说之前有一个这个方向有一个demo.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是最早是google发了一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我不过我可能想说的是，最近有一些做出来的结果很像塞尔达那个感觉，但就是在那地图上瞎闲逛，就跑图的那种，视频质量啥的肯定还是不太行。但总的来说有人在做，但这个圈子好像最近有点又不太火，又不太好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得是世界模型是吧？世界模型最近又被骂了是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是感觉好多哥们儿给自己做的有点迷茫，不知道这东西做了for what。尤其是这个领域，目前又有另一波冲击。就是S这种白膜加让更小的地方上去做渲染笔。就是直接我给你出一个巨大个的模型，然后仿真整个世界，然后你在世界里逛，好像看起来更破明星。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且老大还卖了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个就很很对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>讲了好几年故事，最后扭头不做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家就说说OK说这个东西如果就是你真的能做好整个世界的仿真，真的能做好那么好的交互，对吧？李飞飞站在这个圈子最前沿，他如果看到了他为啥要卖公司，他缺钱我肯定不缺。李飞飞在硅谷风投圈这么强的这个好票能力，反正是给大家做做迷茫。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我听起来就是如果你刚才提的连实时生成这件事儿都还远，因为远的话，那世界模型就更远了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得WSD的东西，公司是觉得没落地这个事儿在公司里发生过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是说这个东西但我特别能看见。对我我到现在回头看，我仍然不理解我能耶你刚才讲的就是他们可能上半年的很嗨，最近一下子当了之类的这是从市场情绪带来的，对吧？但你从response的角度来讲，大家应该一直都知道这个事儿是非常难的，短期内做不出来的。不可能是大家以为能做，然后做一下发现做不出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这个东西做research的同学可能大家一直都是做不出来，只是市场情绪大家把大家架在那儿了，就觉得OK要马上做出来。但是可能也没有人想过，这东西你做出来之后，首先你不一定能做出来，其实做出来能干啥？WSE其实不少厂商都在做过，就很多小厂商做过这种video word.</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家讲的做出来就是为了具身。这正好要问你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，后来就发现你要做巨身，为啥不就就做巨身呢？就是巨身没有必要一定要走这条路。后来大家发现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但巨深我爸也在讲这条路，但是他可能也是为了迎合市场。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家都在讲，我我我真做起来觉得真的他没有必要完全在走这条路。我们就拿真实情况，就现在两家公司，就是李飞的word lap和的这个MAMI举例子，其实大家都叫word model，做的东西也不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，这个也是我看大家一直在讨论的。所以我看李飞飞这几年隔一段时间就写一下到底什么是世界模型，把他写了好几篇世界模型的定义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还真是vlog对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后最后我发现身边的人都不白印他那个三弟的路线是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你没有必要理解了整个世界之后再去做action这个东西。比如说的那个就不是这样，对吧？它的late也不是说我OK我建模整个世界不管你是李飞飞那种三弟建模还是怎么样，他其实不需要你把草、叶子、树叶这些都对光线建模的很好之后再往下推进，他不需要这样，你可能就是理解加做action，这个就做机身就足够了。这又说回来，为啥我觉得这块后来大家做着做着巨神发现好像也并不需要先理解完整个事再做action。我就理解我当前，然后就action一步，然后再理解下一，再往下做就结束了。后来那条路当时大家觉得OK你三弟那能不能做仿真场景，就发现是不是那条路能打通real to seem to you这条路了，慢慢好像有点变味儿了，最开始就这是我看下来的感受。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你现在觉得说正确的去做机身，尤其你后面自己要做筋膜的训练，对吧？那应该是怎么来做？大家有什么路线的选择什么的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个问题比较宏大，我觉得就是分2拨。第一波人是想做巨大的模型，或者说这个可能在astra就是GPX出来之前，很多人在做这个，就希望出一个非常大的模型。你说国内吗？国内有国外也有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得市场上一直有一种传闻，就是国内巨深公司融了非常多钱，但真正花钱的还是少的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我说的做这个大模型的是那些几个大厂的的组，然后他们说我家有这么大的好的视频生成模型能不能或者说这么好的大模型能不能调起来，然后做剧深这个就很像asra他们的逻辑，就是希望拿大模型思路做。显然有了SA之后，其实有的人就觉得不太统一性。尤其初创公司是基本不做这条路的。因为说实在的并没有这个技术积累，也没有这个金，也没有这个卡。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也没有这个钱去做。对，就是你想巨升的公司，可能现在最高的估值在200人民币左右，对吧？那可能融到200亿的账上，一共有个五六十亿，都不到10亿美金。那那跟真的搞模型的已经做不了，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是少的对，所以就说回来就是很多公司是希望拥抱extra的，这个其实是也是我认为巨深公司讲道理应该做的。就是说你大概率最后变成了两个系统，就是上面套一个，别再掏一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我们最近很圈子里面很多人在讨论X说对剧情的影响。对，可能很多听众不是那么了解，你可以先把这个讲一下，就是说这个地图也发了这么多模型，对吧？为什么都没有人在讨论它跟的关系？为什么X射出来以后对机身圈子比较震动？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是机身其实本质上需要一个什么样的模型呢？就是它能看懂这个世界，然后给自己的硬件下一个指令，或者说你要操控这个机器人。不管你家是夹爪还是零销售，总的来说你要操控它它的核心就是最后输出一个低维的vector，可能二十多位多少维的这样的一个vector。这个vector的每一维都有准确的意义，表示你的关节角或者怎么样，它是非常准确的，亦有意义的，而非大模型同学可能常规理解上的一个latent。4096这种不是这样的，它是非常有具有物理意义的这样的一个vector。所以它是input video或者多个video.</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能多个角度。你说这我能不能朴实的理解，就是一个机械手或者一个机械臂，它的每个电机会怎么怎么动，多少度？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就这意思吗？就是这意思，大模型的输出一般是可能还是一个vector 366，然后你再考一个mapping到词表，它这个不太是这样，他就是直接输出转角这个模型的input output就是这样。大家可以脑补一下，就你输入一个video，然后video token nice之后later进来，然后transformer就是你降噪，然后出来一个这样的小的，所以它是一个高维到低维的这样的一个input output的结构OK。然后之前，又说到大模型，那你去替代大模型，就是替换中间你这个模型呗。那就是它输入video也给你输出一大堆这样的vector。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前没什么震动，是我给你想让language给你输出一个，对吧？Y是什么样？就是左边一个方括号，然后第一个数逗号，第二个数、第三个数逗号，第四个数，然后括号完这东西你让language moto order grade生成，你怎么想怎么怪？你让GPT给你怎么写一串数字，然后你把这数字再解析成电机转角，然后他去操作。你觉得这正常吗？这不正常的，一是觉得不正常，二是你是不是发现它不work，它输出文字型，他给你输出对吧？它是next soften prediction，还得0.96，就真的是0.96逗号，然后这样一串文字，这有点。变态对于模型来说，然后之前模型也完全做不到。为什么这次很震动呢？就是因为extra有非常好的他的理解能力，而且他能按照你的指令真的就给你输出一段序列，这段序列还真的就能够有意义，真的他就能操控。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他是特意基于具身去训的一个是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该是的。其实OI做巨深的团队是有人的，然后他们也收了很多数据然后去吹。但实际上他们里面真正做巨神的团队是有点儿不知道怎么做我的意思是说他们后来发现他们做的数据或者说能力提升是为给VLM帮助VLM提升。然后VLM发现能力的主要提升来自于VOM，就是相当于大家都最后所有的数据都还是回滚到那个主线蓝规矩模型上面去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我听说OPI里面是有两条线在做机身，对吧？一条线其实是类似于C的，那个就专门我就做LM的，只不过是他可能把那个巨神当做其中的一部分来泛化，另一条线是专门做巨神的那你觉得对于XO这个来讲，到底是这两条线哪个是更重要的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大模型条线就是大模型，我看到他往那边做，据深的人也有点不知道怎么搞，反正最后发现堆到主线里反而是最work的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我能不能解它，其实就是也是一种泛化了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，也是一种泛化了。就一如他弄这个三弟的这个blender这个软件一样，他最后也是这么就推过去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这个泛化里面比较核心的是它也是多模态的理解要做的非常强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>理解强还挺重要的。第二就是说它真的得有最深数据，这波是真的逊了军人数据了。之前是我理解，之前就没怎么去，即便有也非常少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不像这次这么多，就还是我粗浅的理解。能不能说它是分成两部分，一部分是说你首先你得理解看到的那些画面的视频。然后另外就是说你有自身的数据才能把这个理解转化成我们刚才说的一个电机或者那种vector的具体的最后落地的数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得就是当你家的主线模型很强的时候，你会发现好像你自己搞原来那种更robot er的，不如就直接往大模型里一堆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但我之前我听过一说法，就是因为智深现在还每一家的本体和它的设备，它的参数都是不一样的，对吧？那所以你每家还得自己做一个转译的工作，是吧？类似于可以这么理解吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得就是让大模型去操控你家的那个产品。如果你家的产品并不是一个，比如弗兰卡机械臂大家都用，不是那种它其实是有有困难，就是灵巧手这种是有困难的。它其实不准它是通过它动一个关节之后的效果视觉效果，然后猜出来它的一个变量的变化代表了你的哪个关节，会带来什么样的效果。这个其实还真挺强的，相当于你输出一段，然后看一段视频，他能把他输出的东西的影响继续调，对，能跟他在视觉上挂钩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个这不就ISI了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这真挺强的，真的挺强。他动那夹爪，他其实动了一下，发现他这个是这样子OK怎么样。然后他大概理解了视觉和输入同学的关系，他在多轮交互里是看明白了这个的，所以他能动得非常好，这是我觉得还挺挺强的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相当于这个reward是什么呢？比如你就设定说我今天就是要拿到那个苹果，如果你视觉理解判断说我这段画面拿那个苹果就是一个reward的好问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得他是通过其他的领域迁移过来的。又说到我我我不觉得他是真的对着机身去，他应该是在其他的blender任务，他看到了渲染，他这样操作一下，他的视觉上的三弟效果会怎么样？它其实是能形成关系的。其实你做blender，其实你用过它它也是丁咣一顿，靠他那个blender的那个软件，然后才编辑出来的。我觉得它这个东西是确实这块按照这个逻辑是可以迁移的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你提的这个也是我特别想问的一个问题。就是我理解现在数据上分两条线，一种是实体的那种实际的eagle centric的数据，单机数据。另外一种是虚拟仿真的数据，就是像你刚才提的，可能它会有很多三弟，或者游戏，或者这种数据。那你像你刚才提的，你觉得主要是虚拟仿真这块是更重要的，还是因为国内现在其实包括美国，主流应该是真机数据这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>东西看对谁来说，如果说对大模型厂商来说，仿真数据还是很有价值的。它是一个很好的environment，像个game一样。对具身厂商可能不是的。具身厂商最后care的是你的东西能不能落地，能不能操控他家机器。所以他要用一个他的机型，他去踩各种trace，不管你是失败了还是成功了，或者失败的，加个dagger给他继续成功人去接管。就是我觉得大家的态度是不一样子的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但如果如果说虚拟仿真能够，首先它不是纯银已经足够好了。我还能继续基于视频，比如说我不是要做post training，去不断的去针对我这个进行去调的话，那是不是真机数据的价值反而会下降，对未来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我没有感觉他很坏，为啥呢？就是实际上对于真正意义上的操控的成功性上来说，尤其是你的零销售非常复杂的情况下，你还是得拿真正exactly的那个数据去重新去挑去。我会举个小例子，就是其实你说抓这个动作，你拿两个手指就能捏起来，对吧？但是你想要的真正的抓是五个手指非常贴合在你的瓶子上，把瓶子抓起来。如果你全是仿真环境，那可能他最后可能拿中指和食指给你捏起来了，但其实不符合你想要的效果的。这是我觉得最后仿真环境那个gap还不太能够让它真的能成功，除非你仿真环境做的非常好。就另一篇了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>又回到咱们说这个real to seem to real，那你如果CM卫生环境做的确实屌的不行，那可能整个机身的发展路线就要重新考虑。回到real to seem to real，那个还确实是真的能够scout up的，巨神厂商和大米厂商应该都会走那条路。但是目前确实simulation环境非常难做。又说到worse，lab这个路径其实真不简单，这个技术上就非常难仿真，仿的不够好，各种物理的摩擦系数，然后这些都很难做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我还是想再问一下，就是我claim一下，我对于自身的理解大多限于各种PR的文章，我没有聊那么多对不对？但我看各种PR的文章里面，基本上我感觉就是我们都在讲自己又做大脑做小脑，所以估值才足够高对吧？嗯对，但如果按现在的这种发展路径来讲的话，是不是大脑他也没钱没卡来做，他也然后大多数人也没有真的这么做，他说又已经这么强了，后面是不是大脑这块可能又变成LM的竞争了，对吧？可能未来比如说国内又是deep sk a kimi或者C的之类的，海外又是GPT跟cloud去竞争。那国内初创的这些巨绅公司是不是就不用管大脑这块东西了，就自己做好自己的小脑和我们刚才说的那些真的落地的部分就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题还真挺有意思，我分几篇说吧。我觉得第一个就是说是的很多公司讲大脑是为了估值，或者说对估值非常有意义的。第二就是其实当年包括我估计现在戴拿那个主页上面也是这么写的。就是他有那个system 0，system 0是什么？System 2，而非一二。当然他那个blog是S2出来之前他画的，那现在我觉得那就可能不要零了，就是零和一是一个，然后二是一个，二就是exactly那个最大的模型。对，所以我觉得现在发展趋势确实就是一二直接从本体的那个和一个贼大个的language thinking能力都非常强的上面的大脑2一两个组合然后去推进。接下来说就是我觉得这个巨神厂商的卡是远远不够的。可能你后边加俩零，得巨神厂商的和那个大模型厂商那个卡的量差俩零。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且大模型是现在所谓的六小龙也好，还几个，就五六家在分卡，巨深感觉是上百家在分那些卡，而且还得是LM剩下的。所以有回到最早问你的那个选择的问题，就是你看你今天这个节点加跻身第一机身的估值已经都非常高了，对吧？我们去年就觉得巨深，我靠估值怎么这么高有泡沫，结果今年没想到更上一层楼？上一层。对，当然站在你的利的角度，我们希望他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明年还能再上涨。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但今天一定是他已经很高了，对吧？所有的巨神公司的估值，以及astra这件事儿出来，确实对于整个巨大的大脑的故事是有一个非常大的影响的那你在这个点加入，你没有考虑到这些问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好问题，有好多人问我这个问题是这样子，其实刚才就说视频这块做那个不好吗？做那个是没机会吗？不是的，确实是可以一次加入这种橱窗，偶尔去那个大厂做这个。但是这东西就是可能觉得这跟个人的偏好有关系，我觉得它不是。它不是硬核生产力，它是做精神享受的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我会觉得我想做的，或者说在这个行业里要从事几十年或者十几年、二十几年，那我肯定希望说能够更多的。我要说如果说改变人类这个事儿，大家可能觉得有点抽象这哥们儿但我确实觉得应该做点能够影响大家的更生产力方向的的东西。所以我最后可能想做face珂。其实face科埃就是把AI能带到物理世界当中，以各种形式，只有到生活当中，你到physical领域，你才能改变大家的生活。然后我是非常坚定做这个方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以才转的对，所以它不是一个短期利益的一个选择。纯好奇。如果是短期利益驱动的话，最理想的选择是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当年就做一阵的了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家如果在做A证的话，你现在在哪儿做什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该就在美国了。当时tiktok给了一个还是相当可观的package，在今年的美国提个道口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>给你package，让你去做agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们现在出agent产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那他们也是套在他们当时的北美西克套的视频上面的一套。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一证明白明白。如果是这样的话，你现在正在hiking，可能对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那当时我觉得那个offer确实像。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你看你agent也搞了，东哥他也搞了，就是要去搞，你没考虑过AF science吗？好莱坞另外一个word.</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我可以说AF for三这个事儿我还相对了解，就AF science这个东西，后来我觉得就是两拨人在玩，一波是搞science，哥们儿搞AI就是因为我那老板PHE是MIT物理系的，他们就很骚，解PD解ODE拿AI解。这东西也很有价值的，就是那些价值是可以说我都不太了解。我可能给大家描述一个它的应用场景。比如说这个wifi信号覆盖这个东西。OK你在一个大的场景里面可能有遮挡，然后你的wifi怎么布置最好，它就是个非常好的优化问题，包括流体力学这些都可以解一些ODEPE，然后你看AI怎么做这个事儿，是这个方向。然后另外一方面就是AF for science，可能就是最近大家跟AI的哥们儿们搞的，就是可能拿AI怎么去帮助化学去做实验这些。但我就说回来就AF化学，其实你还是需要有一个实验工厂或者怎么样，你能够去做湿实验而非纯干实验的这么一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他不就跟巨莘线下的那些素材什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就很像了，素材也是工厂，所以我觉得你还是需要有一个，刚才说第二条路，你可能还是需要有一个具身这样的的能力在你才能做这个事儿。我不是说这些不好，但是我觉得他可能目前反正在我认知里，要不然就是第一波的人哥们们在做，另外就第二波哥们儿们可能还有点早。目前当然了，你说可能夹爪做的比较简单，也可能能行。但我觉得屈身做好了，也能帮助他们做的更好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们就总结一下，你就我们从agent开始总结，你也干过对agent你觉得当下和未来最重要的一两个点是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Agent这块我觉得它的智力水平，我觉得是完全OK的，可能就是怎么让大家更好用吧。也就是现在大家主线推进这个GOI这块，COI这块儿就是核心还是一点，你怎么让人大家用得上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我感觉personal AI应该就是agent这条线最终的终点了，对吧？它都已经完成的AI了，就每个人日常都能用起来的东西了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得现在开发的场景还是不是过多，比如说黑莓真的现在大家开发就少，还是有各种东西可以开发。那你问我是什么？我可能想不到下一个爆点是什么，这可能还是得看extra下一波爆点是什么。但我觉得agent的这块还是有的玩，还是有的做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先智力能力提升。其实我猜很多人会慢慢觉得OK这个口径能力已经他的每次强。你感觉可能是强一点，体验上好一点，但你已经很难准确的说出来他从哪一个点提升更好了。因为大部分情况下它已经能超过AI音发人的平均水平。我不觉得谁能自信的搞AI研发，说他能觉得他不好。对，所以我觉得大部分情况下就是在一些场景里面做的更好，觉得挺重要的。这是我觉得agent好，我觉得未来还是会推进各种场景，场景还是cover的不够全。对，这是一点的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后动态我这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>悲观说我觉得图片是没什么做的了，主要就是做视频。然后怎么把视频可控性，包括视频里面的harness交互做得更好，这个方向我还挺确定的。我觉得未来半年肯定有更好的交互的studio或者交互的harness产生，做更多的人去使用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是模型你觉得就是大厂的竞争。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实据我了解也没有什么初创再重头pretend自己的video model。这个东西我说实在不现实，其实视频挺贵的，就是大家早年间如果搞过视频的哥们儿肯定爬过youtube。现在youtube反爬机制这么难，对吧？因为最开始我做V6理解的时候，在学校的时候，25年25年初24年底的时候，那爬视频还能爬的，现在咋爬？根本爬不动，一爬就封号。然后各个平台的反爬劲都非常好了，已经都是防止你偷他们家视频。我觉得这个东西对吧？要不就看看什么没做出来的，有很多视频的那几家可能还能做一做小厂应该做不了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后巨深巨深我觉得就是玩法不一样，就是大厂有大厂的玩法，就是做上面那一套。小厂就是要有壁垒，要有自己的硬件。你要不然怎么跟大厂做差异化呢？你如果就是去大模型的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>硬件指的是因为基本大家都有自己的本体。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>硬件就是说可能谁的硬件做的更好，然后谁能把自己的硬件和那个syn一绑定着做的更好，就是cod代的逻辑。然后我在上面再套一个SRA去做，可能这样是我个人认为小厂的核心的壁垒，就要不然变成制造业了，对吧？就小厂的逻辑，我个人觉得是做寇利贷。然后自己的产品绑定自己的train的这种7B到16B的这种小模型调的更好。然后对接外边的一个大模型，然后把这一套跑通，然后尽快的做落地。就是估值这么高，你想要让它更高，你只能是真的落地，真的能够有场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我举个例子，酒店其实是很好的例子，就是叠被子，其实这个事儿是真的可以做的。因为酒店的地是平的，你可以用轮式而非双足机器人。酒店是个既不是纯标准化，也不是非标化的场景，它是某种程度固定的场景，但也它可能乱的程度又不太一样，所以我觉得是这类的场景是能做的。然后我觉得真的要落地的话，其实是可以的。不管是成本怎么样降下来，然后替代一波这种酒店的整理或者怎么样，我觉得是这类的场景是可以做一做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看剧情里面大家一直在讲说等待第三时刻，你觉得extra算吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实觉得确实有点算，就是他真的挺强，在于他可能甚至能替代部分素材源。就是你的模型假如成功率只有60%或者50，在这个场景里，那你可能并没有训练场景泛化的这场有50%非常不错了。然后你让他去操作OK，他如果出问题了，这时候及时让GPT接管。他可能是一个jb说OK你这个实时读视频吗？然后说OK这个要接管了，然后把这个后边的操作root给GPT。然后GPT做完后面的操作，那这条数据瑶操数据是非常有价值，就被留存下来了。然后你再迭代这些数据之后，你再训自己家的那个7B8B的模型，把它成功率从60拉到80。然后你再让他去没有人在的地方去瑶操，然后再去出问题，再去可能rot给一个机器人。这样的话你可能本身模型能够去瑶操一部分数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后不行的话，你再靠这个GPT给你接管，GPT都接管不了了。你再可能一个蔬菜人丁可能是太紧，不是一个人盯一个了，然后你的人再去及时接管。这样的话形成一套比较优秀的数据管线。相当于就是随着你的成功率提高，你GPT调用量就变少，然后你的人的负担也减小。然后这样的话，你跟up的逻辑可能才能真的成型，所以它可能是甚至能蒙住素材。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你落地的时候其实可能也是，然后你可能大部分消息都能成功，然后实在成功不了，这部戏上来要帮你操作一把，而非GPT直接操作机械转角。我觉得GPT操作机械转角是不划算的，太慢了，太费了。所以可能最后是一个大模型管这叫speculative decoding，就是小模型先给你draft一遍，然后你大模型无非就是APP或者不图，那你矩阵里就是小模型先一顿操作，然后快飞我了，然后我接管你做，然后这条接管数据，这也叫every recovery，其实是数据里非常有价值的。就是失败的情况下怎么回来，然后这个再回流，然后形成一个真正意义上能够转起来的管线。因为实际上大部分情况下机身很难加用的情况下，你很难回流这些数据。不像GPT，你用一用我给你回流数据，才能把GPT在这个loop里当成一个非。非常重要的一环，这样我觉得其实是能推进机身的落地的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Extra的机身这一块的东西，你觉得未来会被其他模型蒸馏出来吗？然后也变成了开源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实刚才咱们聊的也是一种蒸馏，对吧？它就是在蒸馏了已经。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我在想的是说这个东西会是一家巨深公司或者一家新公司，说我专门去蒸馏一个巨深领域的一个开源模型，还是说它其实会被已有的，比如deep seek.</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>kimi等等做掉。我觉得我们说蒸馏分两种，一个叫硬蒸馏，就真的是你让它揉出来trace，然后去去一如language里蒸馏，我就据实力争不了。这个东西实在是成本过高，就是没必要。第二是软蒸馏，其实咱们刚才讲的就是一种蒸馏了。相当于你操作一半儿，可能他机器人失败了。然后他接管之后给你生成的trace，你不还是用的吗？但这个量就小很多了，而且他可能你把它带回到那个正常的轨迹或者正常的行为模式里边，然后你的自己的模型还能继续操作，相当于你只争了这一两步了。这我觉得是大家能接受，也能成本cover住的，而且很有价值的数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这种软性蒸馏，我觉得大概率不是大厂在做，是聚神厂在做。因为聚神厂好布设备好在书材里布这个东西我认为是要蒸馏的。或者说我觉得刚才咱们讲这套逻辑就已经在蒸馏了。而且它是一个花的钱和带来的收益，我觉得是OK的，而非应征流。我应征是OK的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我能不能最后这么理解一下，就是据身在国内，你看二三年开始的话，到现在三年多的时间，故事变来了好几波了，好几波大家估值也都很高。但似乎X说出来以后，大家又拉到同一起跑线，而且又有好有坏，对吧？好，但解锁了非常多新的可做的事情。对对对，所以未来几年可能我不知道估值跟市场会怎么变化，但实际从巨身本身的这个发展的落地来讲，就是会解锁新的各种可能性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是兴奋的认为asa对整个行业就刚才说的是不是这个是我觉得是就是他让我第一次感觉到，我靠我这东西真的能落地，真的能做，泛化能力这么强，他们还都不是3.5，但我觉得是一个非常重要的一个节点，对于整个精神领域OK好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常感谢。好，对，我们从A镇的到东坡台道具声基本都过了一天了。对，好，谢谢。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>]]></content:encoded>
+            <pubDate>Sat, 24 Oct 2026 13:00:00 GMT</pubDate>
+            <guid>6ada2be4c96c8942ec10cb1e</guid>
+        </item>
         <item>
             <title>这个破业非创不可吗？｜对谈 Articuler.ai 创始人 Jason</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6acddf92e742e36efcc2448d</link>
@@ -7675,252 +7939,6 @@ Part 4 转化
 <p class="transcript-line"><span class="time"><strong>[00:33:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，拜拜。</p>]]></content:encoded>
             <pubDate>Sat, 28 Jun 2025 14:00:00 GMT</pubDate>
             <guid>685f566108d8fd858662acd3</guid>
-        </item>
-        <item>
-            <title>从 E2B 到 Browserbase，Agent Infra 新热点中有哪些大机会？ | 对谈 Grasp 创始人雷磊</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/684cf1dd4abe6e29cb105710</link>
-            <description>活动预告🥳：6 月 21 日，我们会请到雷磊和 Gus (Memobase &amp; nano-graphrag 作者，solo 项目 GitHub 获 5000+ Star) 办一场线下活动，大家记得翻到 shownotes 末尾查看报名信息！
-Agent 赛道自今年年初被 Manus 引爆以来，热度持续了好几个月。有非常多各种方向和概念的 Agent 项目已经拿到融资，而很多人也已经开始思考：
-下一波机会，会出现在哪里？
-我们看到的可能性之一，就是 Agent Infra。
-原因在于，如果未来真的会有万亿个 Agent，它们将不再只是「工具本身」，而会反过来成为无数软件的「终端用户」。而由于 Agent 和人类的行动模式存在本质区别，我们很可能需要重新设计整个 AI-Native 的软件体系，从代码环境、浏览器，到各种工具，全部为 Agent 重写一遍。
-于是本期节目，我们请来了 Grasp（一款给 Agent 用的浏览器） 创始人雷磊，一起聊聊他对 Agent Infra 的观察与思考。我们讨论了「给 Agent 做产品」与「给人做产品」在底层逻辑上的差异、Agent Infra 的两大明星项目 E2B 和 Browserbase，以及这个领域未来可能出现的创业机会等等。
-Grasp 现已开放 waiting list 申请：https://getgrasp.ai，即将内测。
-【人类博物馆】
-导游：曲凯，42章经创始人
-36 号珍藏：雷磊，Grasp、AirCode 创始人，连续创业者，前字节开发者平台轻服务产品负责人，超过十年开发者领域经验
-【时光机】
-* 1:03 Agent 热潮之后，下一波机会可能是 Agent Infra
-* 3:55 未来应该是「人为 Agent 服务」，而不是「Agent 为人服务」？
-* 6:17 人与 Agent 的核心区别
-  
-  * 6:22 ① 工作范式：人是单线程，而 AI 是多线程
-  * 7:23 ② 责任与安全边界：人可以对自己的行为负责，但 AI…
-* 10:49 Agent Infra 产品最关键的是什么？
-* 13:03 被 Manus 带火的 E2B 到底是个啥？
-* 15:02 虚拟机、云、沙盒、E2B 的关系是什么？
-  
-  * 15:54 Agent 产品一定是在云端运行
-  * 18:35 云厂商就像「地产商」，而 E2B 类产品是「装修商」
-* 21:02 什么团队适合做 E2B 这样的产品？
-* 26:49 Agent Infra 产品 = 给 Agent 用的 SaaS
-* 28:32 海外当红的 Browserbase 又是做啥的？
-* 31:48 给 AI 用的浏览器 V.S. 给人用的浏览器有哪些区别？
-* 35:55 Agent Browser 的三层架构：Runtime + Agentic + Knowledge
-* 42:40 为什么说今天的 Browser Use 很像 23 年的 AI Coding？
-  
-  * 44:35 二者都还有上千亿美金的市场增长空间
-* 47:46 Agent Infra 还有哪些值得重做一遍的机会？
-* 49:04 一个迷思：有没有可能 AI 根本就不需要人类的反馈？
-【活动预告🥳】
-6 月 21 日，我们会办一场线下活动。感兴趣的朋友欢迎点击链接或扫描下面的二维码，一起来认识&amp;交流！
-【The gang that made this happen】
-* 制作人：陈皮、Celia
-* 剪辑：陈皮
-* Bgm：Mondo Bongo - Joe Strummer &amp; The Mescaleros</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Do something there.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们今天很高兴请到grasp的创始人蕾蕾，来跟大家打个招呼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，我也是屈堪老师的老观众，一直很关注自身场景。谢谢。我是一个程序员出身，最早在google，然后中间也经历了很多创业的过程，之后加入了字节跳动。在字节跳动打造了一个开发者平台，在2022年的时候，跟我现在的合伙人，我们自己出来创业，也是做开发者方向的，后面也一直在做AI相关的方向。最近我们在做一个给AI用的浏览器，叫grasp。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我们今天请到磊磊，是因为你看我们之前路过文峰的一起讲agent对吧？你们也挺熟的。对对对，我觉得agent今年这波热潮，其实从minus开始。对，然后到现在为止也差不多三四个月的时间。然后各种agent你就有通用agent，有垂直agent，有agent平台。对各个行业反正很多SARS也可以管自己叫agent对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是对，就这波热潮我觉得过去的差不多了，然后下一波也经常有人问我们说觉得后面有什么东西可以投，或者什么东西会起来。然后我确实觉得给agent做的产品，就这些产品就是给agent做的，可能这个是比较有意思的。然后李磊他们正好是在做这快是是是，你们现在是相当于在做一个给agent的用的浏览器。对，所以你是怎么想到要做这件事儿？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先是这样的，就是刚才你讲到很多做SARS的，也开始说自己是agent的。其实agent跟SARS完全就是两个不同的东西。SaaS是一种工具，你得去用它。但是agent它交付的是结果。所以我们更应该用一个人的方式来去看待agent。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是agent是一个跟人完全不同的一种形态。所以说实际上当你给人设计一个软件的时候，和你给A键的设计一个软件，它应该是有完全不同的思路出发点的。因为他们有不同的场景，不同的痛点和不同的特点。那agent它会越来越多，它会比如说取代一部分人的工作，然后带着人类往前去走，甚至以后的创新发展。那在这种情况下，设计一些为agent使用的这样的软件场景工具，或者所谓的叫agent info。它就是一个非常巨大的机会，这个市场也会有很大的增量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你看现在全球几十亿人，然后你如果再把各种网站，各种公司主体加起来就不知道是多少了，对吧？你是相信未来真的是有千亿甚至万亿1个agent.</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这件事情对业界大家现在经常会有一个讨论，就是说这个agent到底是通用的还是垂直的。其实我觉得这个讨论没有必要，它可以是共存的，就像现在有一个大型的商场，里面既有综合的商超，但是也会有一个一个小的店家。他解决的需求和面向的人群或者提供服务是不一样的。所以说在我看来，未来会有一些通用的agent也有无数的垂直领域的小agent.</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后数量你就觉得是无限多个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>至少比SARS的数量是成千倍的往上涨。因为SARS是一种通用的工具，但是A它是一个交付结果的店面，哼所以店面的数量是无数多的。只要你能够交付在你这个垂直领域的更好的结果，那你就会收获一波你的用户。这个用户量甚至不一定要很大，但是他能养活你。就像有很多小店铺，他长期就那么多客人，但是他能活得很好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你觉得未来像淘宝店一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是我觉得比淘宝店还要更进一步，它会更垂更小。但是背后也有几个大的通用的，它是这样的一种并存的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且会长期并存。明白。然后这个状态我觉得大家畅想未来的时候都会有想到过一点。但因为那个离我们还比较远，所以大家可能还没想到说，到那个时候到底A智能会是什么样子？它跟人的区别是什么？或者他跟人到底是怎么协作互通的一个状态。所以你刚才就提到说，你觉得A智能和人是完全不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，有很大的区别。其实在这个阶段，大家可能还是认为agent是为人服务的。但是在我看来未来应该是人为agent去服务。因为agent它就是有更高的带宽，它能接触到比人更多的知识或者比人更多的信号，人的认知是有限的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们上一期博客里面金健也提了这个点，那期我没听，还没听。对还没听就说明不是超导。他的观点对，他的观点就是说现在是工具为人服务人输出结果，然后agent是辅助人，他觉得未来应该是输入到A镇到结果，然后人是辅助agent的。然后底下就有人喷他说人类为什么不是主体地位？你怎么看这个问题？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得不用太把自己当回事儿，更重要的是你到底能不能交付一个好的结果。我觉得如果人辅助AI能够交付一个更好的结果，那我们为什么不用这种模式呢？而不用一定要去强调自己的地位。我觉得这个地位它本身也是一种异构。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里面一个核心的点是谁去下命令。现在其实相当于是老板让人执行任务，对，就是人是为人服务。未来是不是就是老板给agent和人这个整体下命令呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我觉得人和agent我们不要把它放到一个对立的状态。我们并不是比如说我一定要打败他他也不是来取代我的。我们最重要的目的就是我们要把人类和agent算在一起这样的一个群体往前去发展。在这个发展的过程中，它的不同的阶段。比如说AGI大家比较认可的现在就有五个阶段。第一个阶段chatbot，第二阶段是reasoning，这都已经过了。第三个阶段是agent我们现在正处在这样一个阶段的。第四个阶段就是innovative创新。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在创新这个阶段中，agent会是什么样的一个角色？怎么能够让agent甚至AI做出一些人类没有办法去想到的结果。这些事情之前已经发生过一些了，以后会发生的越来越多。所以在这种情况下，我觉得没必要把它作为一个对立。只要它产生了一个更好的结果，对世界就是一个正向的。但这个就是比较哲学层面了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回到一些更具体的层面上人和AI的行动模式就是有区别的。第一个区别就是人是一个单线程的工作模式，而agent它是一种多线程的并行的工作模式。人只能一件事情一件事做，但AI可以同时出100个方式，然后他再从这100个方式中去获取到底哪个结果更好了，再往下推进。这种情况下它带来的还不仅仅是一个工作结果的变化，而是一种工作范式的变化。所以我们需要去为AI的这种新的工作范式去设计一些新的工具和环境。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这里面提的那点是不是正好最近大家在聊agent？就是多A制的协同这件事情。就是你刚才说那个其实是不是在某种程度上也是一种多agent协同。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不完全是因为多agent它是一种工作模式。我说的是AI和人的一个最重要的区别，因为人和人也可以协作，agent和agent之间也可以协作。但是更关键的是人和agent在工作或者说处理一件事情上本身有什么区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们继续聊agent和人的区别对吧？你刚提的工作方式的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个区别就是责任的问题。人是可以为自己的行为负责的，但是AI它采取的行为所产生的责任到底是由谁来负责呢？这个就引申到对于AI所处的环境的边界，它的划分到底是怎么样的，这种划分和个人也是完全不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白这两个区别体现在产品上是怎么样的呢？比如也有人说现在我做SARS，然后我把其中一个环节交给agent他他就代替人。但你感觉你的观点是这个是完全不work的，未来应该是完全不一样的产品形态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，完全不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原因就是你刚才说那两点。对，所以我们可以挨个讲一下，就那两点原因落在产品上的区别到底是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说第一个点，这个工作模式的区别。因为我是一个程序员，我们就用写代码来举例子。我们人在写代码的时候，它是一个确定性行为。我先写第一个方法，再写第二个方法。然后我再通过某种逻辑把这些不同的方法给串联起来，就形成了这个代码就workflow。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是AI它可能是先生成100个方法。这100个方法都跑一下，看一下哪个是OK的。然后再把这个OK的通过某种方式回到他的系统中进行反馈。这样的话他就会不停的去进步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说在这种情况下，更重要的就不再是说我怎么把这个顺序的代码执行解释下来了。而是怎么样去设计一个很好的反馈系统，怎么样同时生成100个实时的反馈给他，然后他再生成下一个。所以他的执行不再是一个方法先写好了，然后夸一次执行。而是我先输入进入第一个节点，100种方法得到一个结果。这个结果反馈回去，我再生成第二个节点的100种方法，甚至1000种方法。这个是一个完全不一样的思路。体现在软件中，我们就需要有一个非常好的反馈循环。而这个反馈循环在人的这种模式中是不存在的，他也不需要很实时的反馈，因为他在最后看到结果就行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你讲就是人类其实它还是一个线性思考，对吧？他得一步一步做，最后看到结果。但AI或者说机器它有点那种全局观，它直接从结果导向去倒推，对吧？对，就对于人类来讲，是说我要去看地图都要。先开第一个地图再开第二个地图。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对它是一个局部最优，而AI它有可能同时去触发100种探索。这个在计算机领域有一个类似的对比，就是第一种叫做贪婪算法，它永远在看局部最优。而第二种叫做动态规划，它永远直接看的是全局最优。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以人类的方法是叫贪婪的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人类在工作模式上是偏贪婪算法的。当然有些时候我会先全局思考去规划，但是你真正执行下来，因为人就是单线上，他就是一步一步去执行的。但是AI在执行层面上，它也可以在全局范围内寻找一个最优解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以当下你觉得有没有哪个产品已经是在往这个方向去走？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以举一个例子，蒂姆曼团队最近做了一个叫阿尔法proof的这样的一个产品。它的逻辑很简单，就是让模型去解决奥林匹克数学问题。人类的这种方式可能就是一步一步的去学习，当我遇到这个问题是我应该怎么解？但是阿尔法proof它是一种完全不同的模式，它只是设计了一系列的反馈型号，并且通过某种办法把数学问题转化成一种机器能识别的题目。他只是把题目给他，并且告诉他你要去解决它，然后让他自己进行推导和训练，最终也不知道他到底是怎么去解决的。但是从结果上来说，他就是可以去解决这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这里面你看最关键的就是说，如果你为人设计一套解题系统，你需要设计的是怎么引导他一步一步去完成。而你给AI设计的系统，你最重要的是设计的你最后那个反馈信号是什么样的，而不用去在意中间他到底是怎么做的。因为中间他的那个工作模式跟人完全不一样，所以我觉得这是最关键的，也是我说的它是一种工作范式的区别。我们不再是去做流程，而是再去设计最后的那个反馈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实回到我们自己做产品的时候，我们在设计grasp的时候就考虑到了这个点。所以我们所做的这种浏览器跟给人用的浏览器就会有一个很大的区别。我们会非常在意这个浏览器的结果怎么反向的去回馈到这个系统中。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我们在每一步的结果中，我们会去设计循环的一种奖励机制。根据执行和它的结果的一个判断，把它作为一个奖励信号。这个奖励信号就是你这次执行它对结构来说产生了一个正向影响，还是产生了一个负向影响。然后我们会把这个作为一个数据输入反馈到系统中。在这种模式下，我们相信他它会越来越智能，而且越来越优化。这个也就是所谓的强化学习的一种方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这个感觉现在是比较公认的一种方法。对，只是到底怎么做，谁做的更好不知道。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这里面有一个很重要的区别，就是这个反馈信号到底来自于哪？这个在业界有一种说法叫做grounded signal，它的意思就是说这个信号它到底来源于真实的反馈，还是一些人为的判断，这个是完全不同的。实际上你看现在的大模型的这个阶段的很多反馈，它还是来自于RLHF人类的这种反馈。但是真实的情况下，他应该是根据结果本身是不是被完善。这也是我们在做这个事情里面的一个很重要的点。我们要去关注最后真正的真实结果，他操作网页去完成这个任务，那个结论有可能是他真的完成了还是没有完成。而不是当我看到他一个系列的要采取的行为以后，我去判断我这个行为是好的还是不好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK这是第一个点。第二个点你也可以讲一下具体的例子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个点，安全边界的问题，采取责任的问题。比如说如果我今天要去生成一个段代码，这个代码要执行的话。那如果是我自己写的，他在我的电脑上执行没问题，出了问题我也可以负责。但是如果这个代码是AI生成的，他能直接在这个上面执行吗？如果他把这个文件全删了，到底是谁的责任呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说第一个最基本的要求就是说他需要有一个沙盒。为什么今天所有的给agent做环境的这样的一些info都在提沙盒这个概念，都在去做虚拟化。就是因为我们需要有一个边界，把AI它所产生的影响控制在一定范围内。但是在这个范围内也要让它能够更好的去运行。并且我们还希望这个沙盒它的启动，它的执行是足够快的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实回到第一个点，因为AI它能同时执行很多步，所以我们希望这个过程是足够短，他能更迅速的拿到结果，这样他才能更好的去优化和迭代。所以比如说e to b这样的一个产品，它就是主打的是我给了你一个安全的沙盒。并且它通过采用像micro VM这种技术，使得它的启动时间非常的短。这个是第二个点的一个现实例子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你看像所谓的环境，沙河，包括e to b这个产品本身在美国其实现在很火，在国内我估计很多人可能还不太知道，能不能正好给大家解释一下，就是以e to b为例子，它大概是做什么的，是怎么跑起来的？因为minus用的也是e to b。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，其实e to b很大程度上它能火，也是说也是是带起来的对对，其实很多inf它的火就是它上层的应用火了，跟着火起来了。那EQB简单来说，它就是提供了这样的一种环境，让你去跑AI生成的代码。它为了让AI的代码能够更有效的运行，去里面就会做了很多的工作，比如说我刚才提到了它启动会非常快，它采用了一个叫micro VM的技术，这是一个进程级的杀，跟我们传统的理解的那种和容器不一样，它比那个更快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在想就是你看像minus这种，大家哪怕没用过，也看过他的一些案例，对吧？它肯定是后台会生成一些代码，然后执行一些任务。对，然后大家的下意识，至少我自己的感觉是它肯定是在虚拟机或者在云上跑。那这个虚拟机和云和沙盒和e two b这几个的异同是什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先虚拟机它是一种技术，它不是一个场景，它的最关键的点就是说把物理设备虚拟化出来以后，构建一个隔离的环境。那可能虚拟化就会有很多不同的。比如说最早的那种虚拟机比较重，然后后面有了一些更轻量化的，然后包括广义上容器，你也可以算是虚拟机的一种，包括我刚才说的进程级的虚拟机micro VM，所以它是一种不同的技术方案。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>E to b是不是一种虚拟机？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>E to b它是一个解决方案，虚拟机是它其中的一个技术路径。OK, 云和本地其实是有区别的那本地唯一的优点就是它没有网络延迟。但是它带来了巨多的问题，安全隐患没有办法弹性扩缩，它没有办法7乘24小时运行，而这些就是云所解决的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这么说像科学什么那那一堆它都是算本地化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>科学的话其实它是copilot，它的更主要的目的是辅助你去生成代码。首先它不是一个完全自主的agent也不是一个环境。当然它慢慢的也在做agent了当他去做agent以后，你就会发现它的技术架构就会从本地变成云端，他需要在云端去运行它的代码。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我看也有人会讲说，就是因为咳嗽和咳嗽，包括其他哪些产品，会提示说你要把这段程序跑起来的话，可能会遇到错误。它会提示你关闭本地的某个技术的端口，会有这种吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实它也是可怕一种，它本质上是在辅助你去做一些判断，但是并不是交付。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>结果我知道。但是如果比如说我不懂这段代码，它这么提示我了，然后我就同意了的话，那确实是有可能系统就崩溃了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是有这种风险的，是有这种风险的。不过这个也是一种思维模式的转变。从我的观察中，这种模式也在逐渐的发生。因为我周围有很多工程师，我会发现他们之前在使用AI代码的生成器的时候，他们会去关注生成的是什么样的代码。我要去类似做一次code review。但是现在其实很多人已经不关注了，我就让他去执行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就web coding。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那执行出来以后，他的这个结果只要是符合的就OK了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就太把工程师。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是如果在这种情况下的话，你怎么样信任他，其实是一个很关键的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你觉得未来就这些都应该到云端。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对它一定是在云端去执行。但是他会通过某种方式把这个界面展示给你，让你能够看到它。这个展示是一个构建信任的过程。但是归根结底你关注的是那个结果，而不是它生成的代码本身。所以类似的推广到其他行为上，比如说browse use，你关注的也是他通过使用浏览器，通过去采取一些行为得到的那个结果，而不是他具体怎么去用这个浏览器。是所以说这个也是给人用的浏览器和给AI用的它一个很大的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这还挺有意思的一个比较大的观点就是未来的agent包括往agent走产品都应该云端化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，至少它的环境是云端的，它的客户端可以是在本地。因为有一个大前提就是如果你要足够强大的话，它的模型要跑到云端。那在这种情况下，其实把环境和它的模型放在一起是一种很天然的构建模式。但这么听起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>e to b好像做的事情也没有特别多，就是它未来跟那些云厂商的关系会是怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样的我觉得云厂商它更多的就是一个基础设施。它有点像是比如说我们构建一个房子，它提供的是水电这种资源。而e to b是我怎么把这个资源真正的交付到那些使用这个东西的人身上。当然这是人打个引号以后是agent所以说他可以类似是装修商，他去布置这些水管，他是去设计这个东西怎么去交付的，所以说他们本身是没有冲突的那底层肯定还是云厂商会提供那种最基础的算力。而中间的这一层info它提供的就是这样的一种环境，这个环境是AI或者agent它真正去运行的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你刚才例子举得很妙。因为你会发现好多地产商后面就拼商品房了，他就说我卖的都是装修好的房子了。所以是不是后面一些云厂商也会自己做这些事儿？反正我觉得至少e to b是一个很好的被收购的标的，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实一个很有意思的问题，就是说什么情况下一个房地产商他会去做商品房。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个你也有研究，其实很简单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是他只做拿房修房这件事情，只交付毛坯房的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个市场容量不够了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就没有竞争力了。对我就要去往别的更进一步的去卷。回过头来AI的这个市场本身是一个很大的增长的市场。我觉得在这个阶段更多的是应该用一种合作和怎么样把蛋糕做大的逻辑来看这件事儿，而不用过早的去想怎么去分这个蛋糕。我觉得在AI的这个时代，所谓的这些壁垒都是不存在的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白。所以如果按以前的逻辑是说人用agent对吧？然后agent本身是SaaS的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这个时代我觉得agent绝对不能是SARS。Agent就是一个主体，所以说你像我们在做的这种东西是给agent用的SARS，而不是pass。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我刚才还好奇一个问题，比如还是用e to b这个来举例，就是那些代码它不能跑在本地，是因为它有可能出各种问题。那e to b说你放到我这儿来跑，那在他那儿出问题，就是他的那些安全能力也很关键是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以说这就是他所定义的这样一种边界。他就告诉你哪怕在这儿出问题了，我的影响最大会有多大。这个影响你如果说能接受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的那就没有问题。所以因为你也是做这一块，然后你也多年的engineer，你觉得什么样的团队是最适合做e to b的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是那种在真正写代码和开放agent的人。因为我觉得给agent做SARS或者给agent做环境，需要有两个非常重要的能力边界。第一个是你一定要深入理解agent的痛点，所以你本身要是一个agent builder。第二是你本身是这种环境的一个很重要的用户。就比如说当你要给agent写代码的时候，你本身应该是一个很深度的写代码的这样的一个人能回到浏览器。那比如说第一还是一样的，你需要去build agent，你要有这样的经验。第二，你需要有很深度的写浏览器脚本的经验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这个情况下，我觉得反倒是比如说你是做浏览器内核的这件事儿，它没那么关键了。因为首先内核本身技术比较成熟。第二在agent的时代，这个内核可能跟上个时代是不一样的。关键的是你怎么构建一种好的开发体验和A技能的使用体验。所以说一定要在这个场景下有很深的认知。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但主要还是B2B那个就是他又得做过一阵子，又做过环境，对吧？但是这个还是一个很大范围的人群。如果再聚焦，比如说我们刚才讲的是说他必须安全能力特别好，还是说它的云还是什么能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得它不是安全能力特别好，而是他能理解这个安全边界在哪。这里还有一个很有意思的例子，就是e to p其实有一个竞争对手叫forever vm那e to b已经打了安全了，这个是大家拍脑袋都能想到的。但是forever VM打的是什么呢？打的是状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么叫状态？这个就很有意思。我们写代码的人就知道，比如说每一次代码执行它都会有一个状态，代码执行完成以后状态就没了。但是在AI使用代码的过程中，他可能先执行一段脚本，然后中间他就去做别的事儿。然后可能比如说过了1个小时，他想要接着这个脚本往下运行。那怎么样能够保持这两段脚本的状态不丢失？同时这1个小时我不可能一直把环境给它热启动，在那儿等着，因为这样会浪费巨大的资源。怎么做到这两个上下状态的无缝衔接的同时，中间又可以极大的节省资源。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这不完全就是你刚才讲的第一个情况的案例，它解决的就是A症的病情的问题，对吧？它并行任务，然后又要来回反复横跳，然后怎么样能接上，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，可以这么理解。所以说这个痛点其实在人类写代码的这个情况下，它是不会出现的。你就算做了很多年的代码，编译器对你去发现这个痛点，它也不一定是有很大的帮助。反倒是你就是一边写agents一边又写代码的这波人，你就会发现，在这种情况下他会有这个问题。而你去解决这个痛点，你就提供一个解决方案，那这个解决方案就具备了价值，这个价值本身就是你这个产品的壁垒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我再延伸一个问题，我理解这个价值它是给agent的，就是agent会输出的更好。但最后反馈到人类能够衡量的指标上是一个什么指标呢？是说它结果更精准，成本更低。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是什么就是成本更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为安全这个事，其实你挺难去衡量这个结果的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实安全它是一种比较模糊的概念，所以我一直在强调的叫做边界。就是说在这个边界范围内你能不能接受，其实e to b很重要。就是它相当于是把AI放到了一个围栏中。在这个围栏中你知道它最多就只能影响这么多了。那这个围栏到底有多大？太小了可能对AI的限制太大，不没办法发挥它的能力，太大了可能大家又没办法接受，这个度是很难把控的。这个我认为也是e to be很重要的一个价值体现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说minus在年初的时候，他是怎么发现e to b这个东西，然后怎么知道就要用它的呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个其实很简单，你作为一个开发者来讲的话，你要解决你的这个产品中的一个需求痛点。比如说卖可能就要解决我需要给我的agent一个虚拟机，然后我需要在里面去跑一些代码脚本。这个时候我就会上网去搜索相关的解决方案。我为什么要去找别的解决方案呢？因为我自己做，我要解决1234我这些问题。这些问题可能他在e two b上看到了，他们已经解决的很好了，所以我就直接用。开发者其实选东西很简单的，就是你能解决我的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但顺便再问一句，哪些东西是自己应该做，哪些东西是能直接拿别人的来用的。还是你觉得作为开发者来讲，只要有别人做的就会很开心的拿来用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题其实是开发者圈特别有意思的问题，就是要不要重复的造轮子。从我的观点中，我是倾向于用现成的。因为在我看来，其实开发者他的关键的价值也是交付结果。就是当一个需求来了以后，你通过代码的方式去把这个程序构建出来，然后这个程序最终交付出去作为一个结果。怎么能够更好的去构建，更高效的去完成它，这是一个更关键的事情。而不是这里面的代码到底是你用别人还是你自己写的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以如果从我自己的角度出发，我会倾向于去用那些做好了的，除非他没有办法满足我的需求。而且这个需求是一个非常关键的需求，那我就会要么自己写，要么基于他去做二次定制。这也是我们为什么很喜欢开源世界的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你看好e to b吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我还蛮看好e to b的，我觉得它是一个非常重要的agent与这个世界交互的渠道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你刚才说的另外他那家竞品的forever BM.</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在我看来给A就能用的环境，这个市场是足够大的，它能够容纳很多家，每一家可能提供不同的解决方案，可能在不同的场景下它能够满足的更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这些如果对标之前的那些产品的话，大概像是哪一类？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的感觉就是像原来的给人用的SARS，现在只是说它变成给agent用的SARS或者叫info，但是它不是最底层的那个AWS那种info。比如说像data brakes，snowflake这种，我觉得这是一个比较泛化的一层。但是到了今天这个情况下，它可能不是像原来那样一模一样的切分方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是如果A阵头我们假设未来能起来，对吧？有千亿万亿个agent在全世界无时无刻在运行。然后也有很多给他们做的环境跟info或者说给agent做的SaaS。然后这些会怎么影响你刚才提到那些现在的inf就包括this press什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些就是你要么顺应潮流，要么你就被历史淘汰。这个事情我们已经经历过很多遍了。无数的公司它没有顺应潮流，没有变化，它有惯性，它就在历史长河中消失了。但是也有一些公司它很快的调整，它就能适应这个变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>按这么讲，其实就首先如果在听的人认可说未来agent都会起来，我觉得哪怕不知道什么时候大概率它是会起来的那就是背后。现在我们能看到一大堆的机会，有非常多东西是能够重新做一些，市场是非常大的，应该能得到这么个结论才对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个市场在我看来是刚刚才开始，如果你把大模型的出现想象成人刚开始有了智能，我们可能今天还处于我刚刚才会生火这样的一个阶段，实际上还有巨量的事情是可以去做的。甚至因为现在的大模型，其实它还没有真正的与这个世界发生交互，并且获取去反馈，所以他还有很长的路要走，那这里面就会蕴藏巨大的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，讲完e to b再我来讲一下broadbill。就美国那边给A正的做的产品两个典型对吧？一个就是e to b一个就是brother base的对对，brother use应该是被够掉了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好像是YC头。然后最近也刚刚拿到新融资，它也是proud这个领域的一个玩家了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后正好你们现在想做的也是给agent的用浏览器相关的东西，对吧？你可以先给大家介绍一下这个赛道base什么一些公司的情况。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Brother base算是一个现在的当红明星了。从融资额也可以看出来，他一年的时间估值涨到了3亿美金。他其实打的概念也很简单，就是给AI用的浏览器，它跟传统浏览器区别就是它首先把浏览器云化了。它在AI使用浏览器的这些场景上做了一些优化。比如说AI是需要rag的对吧？所以说它在使用的过程中，它可以去自动的获取这个网站的一些信息，作为上下文来辅助AI去操作这个网站。所以它主要就是优化一下AI在使用浏览器中可能遇到的一些痛点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果说e to b当时内部主要靠minus带起来的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>brother base是谁带起来的呢？Base这个就更有意思了，为什么我们会做brothers这个生意，它也是这样的一个逻辑。就是我当时在字节跳动的时候，我特别喜欢移民的一个说法，叫做务实的浪漫。我们前面都在聊仰望星空，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以后未来很大，但是你回到今天，你也需要去解决具体的问题。你需要脚踏实地的去切入那一个最基本的数据。就是说现在互联网上的流量有40%其实已经来自于机器人。那你能够去解决现在的这些40%的流量所遇到的那些问题，它就是一个很好的切入点。所以实际上brow the base很多还是在去解决现在40%的那些机器人，他们再去爬取网页信息的时候，所遇到的那些具体的问题。比如说他不够智能化，比如说他没有办法适应这个网页的调整，比如他因为不知道这个网页的信息，所以当网页发生变化以后它就失效了。类似于这些问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他的客户很多是传统的爬虫公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以这么理解，是对或者是比如说自动化测试就R.</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>PA什么的。对，RPA, 那你看从minus到fellow，他们两个好像都没有用brass base。对，但这是为什么呢？他们也都有AI用浏览器的这个功能对吧？然后同时minus还选择了e to b他为什么不选brose base呢？我觉得可能有一个原因就是peak他自己本来就是做这一块的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个点是如果你真正去使用BAABAB的话，它产品的使用体验上还是有比较多的问题的。而且black base不开源，e to b是开源的，minus我可以基于e to b去做。这个阶段其实大家都处于很早期，你没有办法说真的拿来就用。所以说实际上就是还有很多工程问题没被解决。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但过了这么久，应该有些开源的解决方案，就在product .</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>use里面肯定是有一些的，但是解决的都不算特别好吧，包括pryde自己也开源了一个叫pray write MCP。但是实际上这种浏览器环境本身是比代码环境要复杂一些的。就是它涉及到的网络问题、延迟问题，包括状态管理问题是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>复杂很多的对，正好我们讲一下就是给AI用的浏览器跟人本身用浏览器的具体的几个区别是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先第一个比较简单的点就是给AI用的软件，它一定是跑在云端的，因为AI是不会睡觉的。第二个就是AI它对浏览器的页面的读取，它不一定要跟人一样通过视觉去操作，所以它可以是headless。也就是说他不需要真正的像人一样，就是看到这个界面，然后用鼠标去操作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Handlers这个词在这一类的场景里面总提，对吧？那你能不能用大家都能听懂的话解释一下到底爱丽丝是个什么东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实一个浏览器它有前端的界面，它就是to c的用的浏览器。如果没有前端那个界面，它只是用一种进程跑在后端，它就是had less。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里顺便插一句，如果未来A真的能起来了，那是不是就都是这样？AI是不是就都不需要？前端理论来说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>给AI用的，它是完全不需要一个这样的交互界面，因为人的使用方式和AI使用方式是不一样这样的。但是这种给人用浏览器也会长期存在，因为人也会一直存在下去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是OK，这是第二个点。还有第三个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>点就是从安全的层面出发。比如说如果你今天去用一个浏览器操作的时候，那到底登录的时候要不要把这个账号名密码给到大模型呢？肯定你不希望对吧。但是你也不希望他每次遇到登录问题的时候就来问你说，你帮我做一下。所以说怎么样解决既能够他能登录自主去操作，但是同时又不会把你的账号名密码给大模型。这是给AI用的浏览器里面一个特别的问题，跟人完全不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题你们能解决的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题我们做了一个功能叫做security local login，就是安全本地登录。我们通过对浏览器的一个定制化，使得当你去要登录的时候，它会自动去判断。并且通过一种纯本地的方式，把你的账号名、密码，甚至是收邮件验证码填进去。整个过程不需要人的干预，它是一个全自主的，并且绝对不会把你的任何信息传给大模型，这也是我们做的一个比较核心的差异化功能了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第四个点其实跟刚才我提到的forever VM很类似。就是实际上大模型在操作这个浏览器的时候，它很多时候会是多步骤的，而且很多时候它中间会有很多的间隔。比如说我先去携程，我收到了机票的信息，然后我把这个信息拿到另外一个系统中进行推理。整个过程可能还需要人的介入和参与，最后我决定要买哪张机票了。好，我回过来去操作这个浏览器，你肯定不需要。你回过来的时候，这个浏览器你又从头开始了，你肯定希望是继续上一个页面。但是中间这个推理和人角色的过程可能持续很长时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这个浏览器应该是跑到云端的，如果我们一直让他等在那儿，它就会非常耗资源和占用时间。所以怎么能够让你在下次回来的时候，你直接接着上面的东西继续运行。这个过程中你的感觉好像这个网页从来没有消失过，一直在那儿一样。但是中间又不会消耗你的资源，这也是我们做的一个叫做statement browser version的一个功能在解决这种问题。这些就是一些很具体的问题了。所以这个就是人在使用浏览器和agent在使用流起的时候，它的一些很显著的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你刚才讲最后那个点，我觉得人类也遇到一样的问题。我经常跳出去再跳回来，他又不让我买了，对吧？他说价格已更新，要重新搜索再重新进就很烦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是这个有一个点在于，你的这个行为是跑在你的个人电脑上的。所以它本质上也就是在浪费你个人的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>资源可以浪费，我个人的资源不可以浪费的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为这个东西跑在云端的话，而且agent它是并行的，所以它可能会同时进行很多，那这个资源的浪费可能就不一定能够接受了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是明白，但我这辈子已经做得还行了，对吧？那你们还要做这个事儿的原因是什么？你跟他的区别会是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果你今天想要构建一个有blood use功能的agent，他一共就分成三层。最下面这一层就是浏览器的运行时，你就可以认为它是一个传统的内核。浏览器它解决的就是比如说当我要去访问一个网页的时候，我怎么从网上把这个网页的信息拉下来。那拉下来以后我可能要执行一段脚本，我怎么去执行这个浏览器的脚本，那怎么去渲染图片。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就类似于这些的问题，有点像就是云端有个引擎。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这就是最基本的一个，我们把它叫做run time的这样的一层。不管是brother base也好，还是原来传统的pryde或者to c的话，chrome它本质上都是这一层。但是实际上AI来了以后，上面多了第二层叫做agented层。这一层控制的是AI怎么去跟这个网页交互，怎么从网页获取信息，怎么去产生信息来影响这个网，以及怎么去推理你的整个过程，形成它到底要干什么。再上面一层就是knowledge层，就是垂直行业的know how。这一层我觉得是所有的那些真正去build agent的那些人他需要关注的。因为他需要去设计怎么样去反馈这个系统的这种机制，来去优化它。最后交付的结果给他的终端用户，我们做的是哪个呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们做的就是最底层的这两部分，就是agented加one time，我们把它合二为一。因为在我们的观察中，这两个点，第一它的工程量非常大，需要解决很多的问题。第二是它的很多问题都是比较通用的，开发的时候你都需要去面临。所以我们公用把它解决以后，我们提供这样的一个封装的agenticity brothers给开发者。这些开发者以后只需要带着自己的行业认知，你可能就可以构建一个自己的manus，或者自己的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是base做的是哪一层？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Broad base做的就是wrong time。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那一层就最下面那一层。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最下面的那但最下面那。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>层我听起来因为浏览器已经这么多年了，应该有非常多很好的解决方案的。或者说比如说今天google说我想做一个这个东西，是不是分分钟就能做出来？</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以实际上在我看来，如果纯做下面这一层，确实它的壁垒不是足够大的。但是blood baby有一个很强的先发优势，不过brother baby确实也提供了一个开源的框架叫stage汉。他的逻辑就是开发者可以自己通过stagehand的实现agents这一层，然后你再接他的run time这一层，然后你就可以构建一个agented brother，再把你的行业认知进去。但是在我看来这样的话，它的工程量太大了。因为我们实际做下来中间这一层，包括我刚才提到的secure local log in，比如说长状态的管理，这些都是很复杂的。并且你要去解决这些问题的话，实际上你就是要有对底层的runtime的一个控制能力，你才能够把这个问题解决得更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说你必须要最下面那层和中间层一起做，你也不能说我就是接不了这杯子做中间层。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，如果这样的话，其实很多你想实现的功能就是实现不了的OK所以这也回到刚才点一下，那为什么minus fellow他不用这些？因为他可能是做的一些更通用的agent，他就是需要对底层有更足够的操控，他要去设计自己的反馈循环，就真正的从最底层开自己做。但是未来并不是每个人都需要这样做，也不是每个人都有这么强大的工程团队去做这件事儿。所以我们做的就是把这个工程问题我们帮他解决了，提供这样一种技术架构给大家，然后让大家基于我们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>去构建自己的agent。OK, 我在想你说的中间那层就是A真题那一部分，它具体在产品上的体现会是什么东西？</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>具体的就是比如说你给我一个任务，我们会首先去基于你现在这个网页和你的任务进行一次推理，去判断到底要执行哪些步骤，而不是说你告诉我你在这个地方要执行哪些步骤。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是从这个角度来讲，你跟final的区别是什么？因为他也是说人类给他一个需求，他也是去分步骤再去执行的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先fellow是to c的，而我们是给开发者用的，这个面向的用户不一样。所以从这个层面上来说，理论上fellow也可以基于我们去构建。Fellow没有办法解决你的需求的时候，你就可以快速基于我们去构建一个a gent。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说我想基于你们做个fell，应该是还蛮快的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吧？相对的，但是实际上fellow和minus它都不仅仅用到了brother这一种环境，所以说实际上未来的这种形态就是有大量的AI或者AI环境公司，它去提供这种基础设施。然后每一个基础设施就像一个乐高积木一样，你买了把它拼起来，然后再带上你自己的行业认知，或者你相关的一些特定的解决方案，然后你就可以构建你自己的agent。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得现在大家就认为说agent有些组成部分肯定要有，对吧？AI coding肯定是它一部分。所以他一定会选一个e to b这样的一个coding的在线的云的环境。然后用浏览器去跟人的互联网世界去做交互，去搜集信息期去完成一些action肯定也是有的，所以就会有road base这一类的对，除了这两个，你觉得别的还会有什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先在我看来，coding和broader一定是两个非常重要的环节。这个其实都不用看manus和hello，你就看行业最大的公司ChatGPT的deep research agent本质上就是一个O3模型，再加上一个网页浏览能力和一个python的代码执行器。所以代码和browser一定是两个最重要的环节。除此之外，可能还有一些更抽象的环境，比如说运行数学公式的环境。再往下一层，它可能有一些更具体的环境，比如说跟物理世界的接触，比如说传感器，矩阵智能，包括像李飞飞他们在关注的空间智能，这种就是给模型提供的与真实世界交互的环境。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你觉得中间那块就是除了e to b跟brother youth就没别的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是两个非常大的类，一个类就是coding。Coding解决的问题就是执行一个逻辑，而browser解决的问题就是与外部信息的交互。所以说如果你从大类上来说，其实就是这两类。但是中间会有非常多的细分。比如说我会有不同的浏览方式，我有可能获取信息多，我有可能是产生信息多。那不同的方式它会有不同的痛点，就会有不同的解决方案和环境公司出现。代码也是一样，我执行的是脚本代码，是解释性语言还是编译性语言，它可能都会有一些区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这两个赛道，包括你们现在选的这个赛道，应该是未来非常大的赛道。对，我记得之前我们聊天的时候，你提到我就你说今天的rods右手就有点像二三年的AI coding，对吧？对，这个观点可以再给大家解释一下吗？因为你们二三年的时候，一开始做air code也算是coding产品，对吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实你回过头来去看二三年的时候，那个时候AI coding也有非常多的问题，大家也都在怀疑他到底是怎么样，但是到今天基本上已经没有问题了，那今天的这个时间点为什么是当时的AI coding呢？其实是这样的，就是实际上一个大模型能不能解决某个具体的问题，它有一个很简单的公式，就是这个事情的样本集和这个模型的成功率。因为大模型它本质上是一个概率模型，那他们俩一乘完以后，他得到的那个结果的成功数能不能满足人的需求？如果能满足人的需求，它就会开始变成主流。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回到2022年的时候，那个时候的GPT3是不行的。但是从GPT3.5开始，他就突破了一个阈值，使得像代码这种量级的样本数再乘以它的这个概率以后，达到一个可以被人满足的结果。回到今天，比如说柚子，它的这个样本数是更大的，而今天的模型的概率显然是没有办法去满足它的成功率的。所以说为什么在今天还有很多人会认为说然后就是不实用。但是随着大模型能力的增长，然后他的这个概率的提升，使得当这个样本数乘以这个概率所达到的那个结果能够满足人的阈值和需求以后，这个事情就立马变成了今天的这个coding。而且这个事情会发生的比之前更快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI coding的结果是现在甚至于全球几百家公司在做吧，估值很高的，也有非常多家的。你觉得未来不要做base或者不要做柚子这个领域也会是这样吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实哪怕是AI coding，我觉得还在非常早期。因为如果你从商业层面来看的话，全球软件开发的总市值大概有3万亿到4万亿美金。如果AI能够在其中提升5%的效率，那就是一个1500亿美金的市场。但是今天AI coding可能也就是一个几十亿小100亿美金的这样的一个市场规模。所以它还有很大的空间去增长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回到closer use是一个道理。因为今天大量的这种商业行为都是发生在互联网上的。我们在用互联网去做销售，去做招聘、去做沟通，去展示我们的成果，去获客。这些事情如果能够通过AI提升哪怕5%的效率，它就是一个非常潜在的巨量增长市场。在这种市场机会下，其实你做这个事情它就是有非常大的机会。所以说我觉得现在其实还刚起步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你应该日常也跟不少人在聊类似的话题。你觉得大家对于给agent做产品这件事情，现在有什么很强的非共识吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是agent的产品到底最需要什么？这个我觉得是一个非公式，每个人的看法都是不一样的。有很多人会认为我需要给他更好的上下文，更好的知识，或者说我需要采取更合适的模型。但是在我看来最关键的是怎么设计最好的反馈循环。这个是设计整个A进程中最最重要的一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你看对做AJ的人来讲，它的产品设计本身也是一种环境。对你的那个环境其实是另外一种环境。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们做的其实不是那个环境，他做的是A键的本身环境，是AI和他所处的那个外在世界的一个交互方式。通过这个交互方式，他去获取一些真实的结果，去作用到这个agent本身上。然后通过这种反馈再设计一个奖励机制或者一种反馈循环，使得他去往上提升他的能力，然后交付更好的结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那对于科学来讲，VS code那套东西来使环境。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对于科学来说，其实它就是code里面内置的代码，执行器也是它的环境。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但未来这些东西你觉得都应该到云端。对，但如果这么讲的话，这个就聊的有点偏。但我还蛮好奇的，就是如果e to b未来应该把这些事都做了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>e to b其实现在也在做类似的事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你们的产品什么时候上线？</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概我们预计应该是下个月就可以开放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是如果我用你可能很快能做出一个fellow，那我未来可能我用e to b很快我也能做个自己的curser，至少是个低级版的curser。是这么一个类比关系吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能是一个更专注在你的领域中的curse。你可以把curse认为是一种叫通用的代码agent，但是实际上还有很多专业领域的代码agent。比如说今年这个age就专注于生成一个更好的登录页面。那他在这种环境下他所需要的点是不一样的。这些点更多的来自于上层的需求。在下面的代码执行环境中，它是没有区别的这一套公用的代码执行环境是可以跑在e to b中。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还是在想如果未来A真的特别多的话，但现在捋下来好像就是e to b的那个环境和the youth的环境是值得做的那比如说我今天想创业，我相信未来A真的会起来，我就是要给也只能做产品。那除了这两件事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有什么是你觉得能做的？除了环境以外还可以做工具。因为A线的如果你把它作为一种新的服务对象的话，那在服务人的过程中，这些工具都是有机会重新做一遍。比如说身份，agent要不要有自己的身份？他甚至要不要有一个自己的电话可以接收短信，agent要不要有支付能力所以支付给我机会可以做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你这些应该也都考虑过对吧？那最后选择了brows的方向。原因是第一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我们本身是有很多年经验的这种前端开发。所以说我们对于closer本身以及做这种自动化流程有很深入的理解。第二就是closer在我看来它是agent的与这个世界交互的一个非常重要的渠道。所以说这是一个非常大的机会。我们希望在今天这个很早期的阶段去做这个更大的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，所以你觉得未来几年，甚至于更长时间，你怎么看agent的整体的发展？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在我看来一个最重要的范式转变就是AI会从人类的数据变成他自己去体验这个世界。然后从这个体验中去获取那些真实的反馈，作为数据来训练他自己不停的去增强。只有在这种情况下，他才可能突破人类的认知，去发现一些更新的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么算他自己的体验跟数据呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我举个例子，你让大模型去产生一个川菜菜谱，那今天我们的做法是怎么样的？我会找一个非常厉害的川菜的大厨看到这个菜谱，然后他就告诉你这个菜谱行还是不行。然后我们把这个东西告诉AI然后AI不停的去学习。但这样的后果就是AI会越来越受人类的偏见的影响。这里插一句，我觉得可能人类最大的一个偏见就是我们非常相信人类的知识和人类的先验的这些经验对大模型来说是很重要的。所以我们不停的把我们的知识灌给他，希望他越来越聪明。那有没有一种可能就是人类的这种知识对他来说其实是毫无必要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像那个alpha go一样，对吧？最后发现人类的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>棋谱其实没有那么重要，所以这个就是所谓的叫做beter lesson。所以说在这种情况下，我们能不能去发现一种更好的方式让AI去获取更多的更适合他的数据呢？那就是我需要去跟这个世界进行交互。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我回到刚才的这个例子，其实你让一个大厨来判断他好还是不好，他永远只能无限的去逼近这个大厨。真实的情况难道不应该是按照这个菜谱把这个川菜做出来，然后你尝一下它要么就很好吃，那么就很难吃。然后把这个真实的结果作为一个反馈给他，然后他这样的去学习，他才有可能某一天做出来一个菜谱。然后这个川菜的大厨觉得这个菜谱很难吃，但是实际做出来很难好吃。这个就叫创新，它才能突破人类的边界。所以我觉得未来的这个AI的发展，它一定要是通过跟这个环境和这个世界进行真实的交互，然后去获取一些真实的反馈。所以这就是我认为在整个的agent的发展中环境为什么非常重要的一个原因。明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我最后一个问题就是我听了半天我就觉得那是不是有些云厂商的股票未来应该是能长得更好？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得很关键点，就是说你到底能不能在这个时代快速的去转变，跟上这个时代的发展。就跟今天的智能手机已经比十年前，20年前的手机市场大了那么多了。但是并不是在20年前，你只要是做手机的，你的股票就一定涨得很好。你也可能像诺基亚一样淘汰，你也可能从一个完全不做手机的变成一个非常知名的厂商。不过整体上来说，你说的是对的。我觉得未来的云厂商会有更多的机会。因为云厂商的机会就是来源于他是卖资源的那如果我们这个世界会消耗更多的资源，我们会产生更多的数据，它就更值钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你甚至于会觉得现在有一个新的云厂商的机会吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，在我看来AI的环境这件事情，它就是一个AWS级别的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那就还是我们最早聊过的问题。但他最后跟AWS的关系会是什么呢？因为现在这些肯定都是基于别的云。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AWS级别的机会，AWS自己也可以做，这个是毫无疑问的。但是在我看来更关键的是谁能抓住这个点。所以说如果真的要聊到这么遥远的未来的竞争关系的话，其实你可以认为像我们这种AI native的info就是从上往下做。我们从最贴近agent人的使用的那些环境工具开始慢慢的做。那有一天我们可能就会构建完全自己的浏览器内核。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个就太难了，最后都是大厂在做，肯定还是有道理的，还是一个重资源的一事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我觉得更多的它就是一种相互合作和不足的关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白。然后我最后问一下，我们今天聊的很多东西的基础，就是未来真的会起来，对吧？对，那到底什么时候会起来？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得我没有办法判断这么长远的事情。但是我能够看到的是今天agent它就是不停的在崛起。而且我觉得相对于思考A键的什么时候会起来，更重要的是思考A键的是不是一定会来的。而agent来到的那一天，我们能够为agent做些什么，发挥什么价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是从商业上来讲，这个台面肯定很重要。所以你们那个产品如果做出来以后，你也是会像不要做被子一样，先面向那些传统已有的那些什么RPA。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对它一定是一个转型的过程。这个世界上他不会凭空出现一些需求，他一定是现阶段已经在用的这些人。因为他有一些需求没有办法被满足，然后正好大模型对于他的这些需求能够很好的去满足。比如说智能化营销或者智能化销售。原来的销售工作流和营销工作流它都是不够智能化的那AI或者agent给了他这样的机会。这些人可能是第一波去转型的人，包括自动化测试，可能我们要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>先服务这样的用户。好，OK, 我们今天就聊到这儿，我们发的时候应该会把活动跟上，到时欢迎对给A镜子做产品感兴趣的同学来参加我们活动。好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢。谢谢徐凯老师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜。</p>]]></content:encoded>
-            <pubDate>Sat, 14 Jun 2025 14:00:00 GMT</pubDate>
-            <guid>684cf1dd4abe6e29cb105710</guid>
         </item>
     </channel>
 </rss>

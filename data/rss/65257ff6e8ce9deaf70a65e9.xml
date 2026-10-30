@@ -4,7 +4,228 @@
         <title>人民公园说AI</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/65257ff6e8ce9deaf70a65e9</link>
         <description>AI界德云社！</description>
-        <lastBuildDate>Sat, 24 Oct 2026 06:52:11 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 31 Oct 2026 07:28:56 +0800</lastBuildDate>
+        <item>
+            <title>我爆改黄仁勋的小黄鸭翻车了，却看懂了具身智能的未来！｜MicroDuck是具身智能的树莓派！</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6ae40fa0c96c8942ec1494a9</link>
+            <description>老黄在柏林牵出一群MicroDuck小黄鸭，看似开源卖萌，实则把双足机器人的门槛砸到了地板上。你想花399美金攒机平替，却发现舵机比整机贵，更逃不开英伟达数字孪生平台的隐形税。从百亿闪购Hugging Face到具身智能生态，老黄卖的从来不是鸭子，而是锁死所有开发者的下一代基建。
+🎯本期提到：天翼云・花卷聆记 AI 录音卡 依托天翼云国云算力，一站式完成录音、实时转写、AI 自动纪要，多方言识别、多端同步，高效沉淀会议与访谈信息。 想了解产品详情，欢迎访问官网：【花卷聆记，你的随身AI助理】
+00:00 没自研芯片，老黄凭什么推小黄鸭？
+02:40 华强北抄作业打脸：自攒到底有多难
+05:05 学走路进数字孪生：具身智能真门槛
+09:37 换个机体就作废：具身智能非标大坑
+12:42 129亿买HF：老黄只花了22天工资？
+16:03 一边大赚一边防造反：老黄在慌什么
+18:55 软件行业都没了，新增长点在哪里？
+22:20 既要宇树又要大模型，399可能吗？
+25:38 老黃要的是具身的樹莓派時刻？
+28:38 MicroDuck背后：欧洲主权AI大棋局
+31:58 卖鸭子不赚钱，老黄到底在图什么？
+34:05 Genie 4与世界模型：仿真易落地难
+【订阅 JustSayAI 早晚报】
+📮JustSayAI 早晚报·粉丝专属福利
+每日两封 · 一键听报！现已全面支持邮件+IM+Skill端
+【关注频道】
+▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
+📱 商务合作/听友群：justsayai666</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期三位对话者从英伟达GTC柏林大会上黄仁勋带四只MicroDuck小黄鸭上台切入，其中一位嘉宾自述曾试图复刻MicroDuck却“翻车”。对话围绕MicroDuck本质是双足机器人、399美金背后的隐性成本、软件开源但整机制造未开源、英伟达数字孪生/仿真训练环境、sim-to-real鸿沟、具身智能“树莓派”隐喻，以及黄仁勋收购哈根face、英伟达从卖卡转向卖环境和基础设施的战略展开，并争论小黄鸭到底是不是消费级产品、应走教育比赛还是全球铺货路线。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>小黄鸭的重点不是萌，而是双足机器人门槛骤降</strong>。嘉宾判断“它其实本质是个双足机器人”，以前双足机器人制造费用上万美金、还要专业团队支撑，现在399美金硬件、几百美金就能让人产生“我会想试一下”的冲动。黄仁勋真正要证明的是“双足机器人的这个门槛现在降的特别低了”。</p>
+</li>
+<li>
+<p><strong>复刻失败的第一层：开源不等于整机开源</strong>。嘉宾原以为美国开源、中国copy、去华强北配一只即可，结果“他有明确说我是软件开源，不是整机开源”，制造细节图没开放。即便有大神十几天复刻，嘉宾也承认“大神的这工程能力我根本不具备”，拿到全部东西也做不出来。</p>
+</li>
+<li>
+<p><strong>成本账完全不是399人民币</strong>。仅15个舵机加起来就比399美金贵，接线、平衡电路等尚未计入；最初复刻者花超过1万人民币、超过一千多美金才刚把硬件复刻出来。十几个电机同时发力时电流电压不稳定，鸭子会“鬼畜就在一直走就快摔了”，这些需要工程师实际去调。</p>
+</li>
+<li>
+<p><strong>硬件能拼出来，不等于能走路</strong>。十几天可拼出硬件，但“我要能走路，要到第二个月”，最快十几天到20天基本能走已算很快。真正卡点是训练学校：英伟达数字孪生/仿真平台用强化学习训练几万次学会走路，再集成到端侧；国产平替配件不在其仿真系统里，需要重新训练，软硬件必须有“灵魂和硬件融合的过程”。</p>
+</li>
+<li>
+<p><strong>MicroDuck更像具身智能的树莓派，而非组装机</strong>。开源内容包括电机控制、行为控制、强化学习仿真环境；本地用酷达卡，或去hugging face云端GPU调参，一两个小时、几美金到几十人民币可训基础步态。open duck mini本身就用树莓派做过两代。文稿还提到一张卡据说可同时训四千多只小黄鸭。</p>
+</li>
+<li>
+<p><strong>大模型不能直接解决具身智能的毫秒级反应</strong>。云端extra这类大脑给机器人会“过度思考”，也无法变成极小本地模型做零点几秒、几毫秒快速反应；具身数据必须自己采集、重新学、重新练，换个身体又要重来，是非标品。数字世界端到端容易，一旦进入现实，“效率就是十倍的降低了”，嘉宾认为“至少有百倍以上”。</p>
+</li>
+<li>
+<p><strong>小黄鸭不是消费级产品，而是创造型产品</strong>。贤哥泼冷水：消费者要好玩、便宜、能炫耀，而小黄鸭的快乐来自创造和改造，“它就不是靠消费而获得快乐，而是靠创造或者说创造价值来获得快乐”。团队对MicroDuck预期5万台已很激进，此前桌上机器人出一万多台；第一波热度后“肯定还会有些二手鸭子流出来”。</p>
+</li>
+<li>
+<p><strong>更合理的路线是北美式机器人比赛</strong>。比赛商业模式是报名必须用指定硬件套件，几千美金一箱配件，名人、特斯拉、哈佛等背书，获奖可写进升学推荐信。贤哥认为小黄鸭应走这条路，而不是全球铺货；陪伴场景则因“不用负责任”更合理，只要别“半夜突然学鬼叫”。</p>
+</li>
+<li>
+<p><strong>收购哈根face是防御加入口</strong>。收购价129亿多，约等于英伟达22天收入、40多天利润；哈根face收购前收入1.5亿，收购价近90倍收入，“干90年才能把自己的买，才能给赎身”。对五万多亿市值只是约400分之一。微软、OpenAI、AMD都接触过，黄仁勋买的是“不能把这东西给了别人”的防御，以及开发者入口；收购时承诺保持中立、不强制用英伟达卡，但创始人公开表态缺卡，开源阵营压力显现。</p>
+</li>
+<li>
+<p><strong>英伟达要卖的是环境，不只是卡</strong>。老黄强调基础设施，手里有哈根face开发者入口、仿真训练环境、数据中心整套方案；在德国讲精密制造和欧洲主权AI，话术是门槛已变、生态开源、来我这里训练。小黄鸭营销省下巨额宣传费，让普通人知道几百美金可训练机器人，但最后“还是得用我这个无论是云端也好，还是本地也好，都得用我英伟达卡”。对具身智能不同路线，英伟达的策略是“我都要”。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li>
+<p><strong>复刻者被muse“彩虹屁”带偏</strong>。他想放弃双足改履带机器人，muse吹“行，一定行，这个方向太好了”，让他出方案、买配件，最后muse说“买不到的配件没有一个能匹配我的这个方案”，他才知道方向完全错了。最终折中方案是ESP32可编程板加最便宜7美元的“神卡”，塞进MicroDuck模具里让鸭子能说话。</p>
+</li>
+<li>
+<p><strong>现场小黄鸭的出错可能是故意设计的</strong>。嘉宾反复看后怀疑，部分出错不是没听到指令，而是特意展示异常情况下也能表现不错；小黄鸭有基础出厂设置，任何时候倒下都能自己爬起来。以前精密制造机器人摔下去自己起来代价很大，现在用很低成本就能展示这种能力。</p>
+</li>
+<li>
+<p><strong>黄仁勋在柏林与德国总理辩论半个多小时</strong>。文稿形容“就差拍大腿了”，意思是你练、开始别等着了，“还监管什么，赶快干起来，兄弟”。结合小鸭子团队是法国巴黎公司、大会在德国，嘉宾认为这是在讲欧洲主权AI和精密制造门槛变化。</p>
+</li>
+<li>
+<p><strong>预订量和发货排期很真实</strong>。上台前大概预定1.1万台，电话时又增加1.5万台，约两万多台；官网发货已到4月份，圣诞节肯定赶不上，“六个月后贴到复活节了”。但2万台算下来不到1000万美金，对英伟达“根本看不上”。</p>
+</li>
+<li>
+<p><strong>贤哥的争议判断</strong>：“也许一年以后黄仁勋都不记得这只鸭子的事儿。”他认为不醉翁之意不在鸭子，小黄鸭是让大家知道英伟达卡可以训练具身智能、最后还离不开英伟达训练场；主持人则用“它主打的就是没卵用”“无用之用为大用”概括其传播价值。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>凭什么老黄给你发了一只不带英伟达芯片的小鸭子这么可爱？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为它不需要上面有英伟达芯片，它其实本质是个双足机器人。大家要讲的是这个事情，是这一只好像会卖萌的鸭子，更多的我觉得是要证明说双足机器人的这个门槛现在降的特别低了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看你讲到重点了，我觉得我们这个格局就低了。我们原本以为这东西就是组装机，对吧？结果不是，这东西应该是树莓派对。是的，你要把我都想去搞张卡来搞了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>黄仁勋在这个GTC大会上带着四只小鸭子卖萌。我觉得他想展示是自己的一个野心，就是让这个硬件在AI的虚拟世界里头学本事，最后再把这些本事带到现实世界中来。但当前我觉得有用的这个AI产品，首先是真正融入到咱们生活中和工作中的场景的。就像咱们中国电信天翼云出的这款花卷0GAI录音卡。花卷灵记的好处是什么呢？它首先把记录这件事做好，实时高精度转写降噪，还能区分发言人。它能识别粤语、四川话、闽南语、吴语都能做。但更重要的花卷灵记它背后的这个大模型就能够理解这些对话，提炼重点，然后自动生成智能的会议纪要，最后跟大家一步同步。而且内置了各种的专业模板，省心省力，把整理提炼生成信息都能够一步到位。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>花点0G支持windows还有mac还有安卓、IOS多端同步。这背后是咱们天翼云的国产算力底座，还有全国云网布局五位一体的智能云系统，不光是把信息记录下来，更能够让这个信息背后形成一套新的生产资料，给下一步工作生活做指导。天翼云花点灵气，不只是留下声音，更让每一次发生都有它自己的价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>聊一下英伟达的小鸭子，小黄鸭。对我上周看英伟达在柏林的这个GTC大会，我就印象最深。就老黄叫了一群小黄鸭上来，太可爱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太可爱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，当下我就叫贤哥，赶紧给我们下单，对不对？赶紧下单。但我觉得越看越觉得这只小黄鸭不简单，对吧？小黄鸭藏着老黄的大梦想，对不对？联合我们最近的这些事情，我们一起来跟大家聊聊英伟达的这个小黄鸭，Michael duck。对，这个mico duck之前我跟老肖其实就研究过一波，对吧？是的，我们当时还想自己组一把来着。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后来我放弃了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为太难了，根本不是想象中的那样子，他开源了我就能干，完全不是。就是我我们本来想象中的是美国开源中国就copy抄作业不就完了，对吧？我想象的就是这样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的一个经典模式，还一支，我去华强北配一只，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>压力比华强是有明确的是说是开源的，然后是软件。他当然他有明确说我是软件开源，不是整机开源。也就是说他那个机器制造的部分没开源，他没有开那个细节的制造图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>理论上我们总觉得现在有了vive coding加上传这么强对吧？能传一点什么东西出来，结果就是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们首你我两个都我觉得我们都占。一是大模型，我们能用美国最领先的大模型干干一些活，对吧？也能至少做逆向什么的，基础的那个是肯定可以学习的。是的。第二就是我知道那个小鸭子的大部分的零件，尤其是它的核心的那个最重要的主控零件还是中国产的了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后对重点重点它还不是用英伟达的芯片，对吧？它就还是用国产的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是这只鸭子我们都知道它它本来就没有用英伟达芯片，他没有用到贵的任何的东西，都是中国的好多这个零配件。然后虽然他没有公布完整的清单，但是大家就是倒着去猜，大家猜出来说差不多应该肯定中国能做。然后也确实有大神很快什么十几天就复课了，对吧？结果发现完全不是这样子。现在就是到最后，哪怕大神把他所有的东西发给我，我都没有办法做出来。因为大神的这工程能力我根本不具备。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你看这个就说到一个核心了，对吧？理论上软件开源，硬件自己可以传。然后现在我们又有extra这么强的，能够控制一下机械臂都能够做的还不错的这种比较先进的模型了，加上什么最近逆向什么，理论上我们应该能够复刻一个，但实际上这个困难重重？所以我觉得这里面是不是藏着某个我们不为人知的一些秘密了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是藏着好多个我们认知上根本就是想象不到的困难。对，就这样子的。我自己做的过程其实是碰到太多的。比如说最最基本的第一个是觉得肯定我们自己做的比他做的便宜，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就人家那个卖399美金，我们都说399人民币给他搞定了，结果后来发现人家身上那15个关节，他需要用那个舵机。对，15个舵机存在一起就比那399个美金要贵了。还没有其他的任何配件。那里面的接线，什么平衡电路，还有很多的其他的这些东西全部都没算进来，就已经比它贵了。所以最开始大家复刻的时候，都花过超过1万人民币才能去把这个东西做出来，也就是超过多少钱了，这我理解，超过一千多美金都还才刚刚把硬件复刻出来的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你散装跟这个集成还是不一样的，这个我能理解。但是有没有更深一层的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个实际上这里有个很大的坑，是大家教鸭子走路学习的这个学校。实际上还是英伟达的那个数字孪生系统最好，对吧？对他那个数字来车系统在教的时候，里面用的那些电机和相关的配件，咱们中国的不在里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你看这个就是我说你要把核心点跟大家讲明白。对，核心就在说这个你在哪里训练？这鸭子，鸭苗到处都可以买，对吧？是的，对，但是这个鸭子你在哪里养，在哪里练，这个问题老黄没跟你讲清楚，对吧？为什么？凭什么老黄给你发了一只不带英伟达芯片的小鸭子这么可爱？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为它不需要上面有英伟达芯片，你用别的芯片都行。但是你最终反正来要来我这里训练，因为我这里能模拟的的情况是最接近事实的，而且这就是第一道坎，就是顺藤摸瓜。第一件碰到的事情就是以为可以用国产平替直接替代掉它上面的配件，结果发现没有人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这么做对结果人家其实是在他的英伟达最近不是发了一个笔记本，对吧？这个工作站然后包括他这个小黄鸭，其实是大家线上的整个仿真平台训练的吧？训练了几万次学会了走路，然后再集成到端侧去，让它在现实当中走。对，所以这个事情就是我觉得是实在是这个卡小黄鸭399美金真的不贵对吧？但是真的背后这一套卡住了大部分人OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以刚才的老兄。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说的这个成本问题，其实是我们就普通人最关心的问题，对吧？一开始以为真的是压力给到华强北，给到义乌，能不能399人民币造出来甚至更便宜。结果你刚才的意思是说根本没戏，是不是？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是要做这个事情，你要花出的代价是不能是还有很多隐性成本的，就是刚才说的，你要平替他，你得去这个虚拟的网上学校数字孪生学校里面去把你的配件和你的相关的东西重新去训练。就是你的软件跟硬件必须要有个灵魂和硬件融合的过程。你在他的那个数字孪生世界里面，你要去做做了以后才能过去。就是说他的你每一只硬件的这个鸭子的学走路，不是像我们人，我们人是真正的实脚踏实地去学。机器人它是必须得去这个虚拟的环境学学完了以后再注入进去的，它是这么个过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个过程就是大家为什么要那么多天？其实硬件可以，你看十几天就可以拼出来。对，但是我要能走路，要到第二个月才就是过了快两个月左右的时间，他完全可以走的很好。然后大概我记得好像最快的可能是十几天到20天左右能够基本走，这个已经算很快的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实理论上应该是说这是商用的。压着我买来我自己在在这个仿真平台，我再去训练他什么用这个鸭嘴去夹一些什么东西，或者让他学会一些卖萌、打滚。像黄仁勋不是要technip就不倒下去睡觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，包括skating，他还可以滑滑滑轮滑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实都能做对。理论上应该是说我们想说商用的应该是说能够我在后面不要解决这些基础的问题。对他走路已经会了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能听指令你都不用管这些的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但实际上我们自己去复刻一支的时候，就遇到非常多的问题。就是说是你不知道他用的是什么电机材料是什么。你的整个算法跟你的这个芯片，然后跟你实际在这个路上走，各种摩擦的环境，复杂的因素太多了，导致说你一次一次摔倒。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一次一次失败。对，我连因为经历了这个坑，就是认知升级的坑。你想一下你看到那只小鸭子，其实它的整个的电机，然后里面的线，然后里面的那个甚至一个小小的罗丝，他都会改变它的整个用电的时候，十几个电机开起来的时候，他那个动作的情况经常会出现的。就是那个鸭子其实都是在鬼畜就在一直走就快摔了，就这么个状态。因为十几个电机的实际上在发力的时候电流也不稳定，然后大家共中间的各种各样的电压怎么控制，就非常的复杂。然后这些东西其实都需要有工程师去实际去调的那这些东西我们根本都想不到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为它是一个以小见大的，对吧？你看它不像大模型，就是它有整个互联网的的数据语料，给他做这个冷冷启动对吧？从0到1它就能够拥有智能。你这样回到不管是小鸭子具身智能或者机器人上面，他其实没有这么多。你给他一个extra这种大脑是没有用的，没完全他会过度思考。而且他这个云端的extra大脑给他，你也没办法把它做成一个非常小的模型。在他本地做这种零点几几秒、几毫秒这种快速反应，他根本用不上，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后就相当于说所有跟机器人、小鸭子等等机身智能相关的数据，数据是要自己去重新采集、重新学、重新练的。然后你换了一个小鸭子，换成小猫又要重新来。对，又得重新来，这副身体就不行了。所以这个是非常大的一个坑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这里本身就是大坑，就在于说其实你要训练的这个东西，每次的训练它并不是说可以平移复刻到60的1个东西上的。所以这个东西是非标品。对，虽然非标品，但是他我还是觉得说老黄为什么要带着他去讲呢？他其实更多的我觉得是要证明说这个双足机器人的这个门槛现在降的特别低了。就是这个东西以前是很高的，我其实最开始最吸引我的我想回到最吸引我的时候就是这一点。他其实本质是个双足机器人。大家要想的是这个事情，而不是一只好像会卖萌的鸭子。以前双数机器人都是上万美金的那种制造费用，然后这只是硬件制造费用。刷子好贵，那你随便刷一下，刷坏了，然后背后还有很多专业人员去支撑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个打动我的是开源。因为开源的话它是这个机子的基本的编码，就是刚才说的什么电机控制，然后各种行为控制，包括说他后面这个仿真的这个怎么训练，就是reinforcement learning这块的这个强化学习怎么训练的仿真环境，他都给你弄好了吧。而且还有一点很重要，就是说他用至少是在用英伟达的卡，用酷达的卡，他说明白在本地训练，你用酷大的卡，然后如果你不在本地训练，你去hang in face加个参数去汉in face上调汉in face的那个云端GPU也就大概一两个小时，这也花不了多少钱，有可能就是几个美金，换算成人民币几十块钱。你也可以训练一个基础的步态。这种成本跟以前一个专业团队要搞一开始要先造个万把块钱以上的机器，带着他再去训练它，就是完全不一样。你现在不用担心制造的事了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我你我觉得你看你讲到重点了，我觉得我们这个格局就低了。我们原本以这东西妈的就是组装机对吧？结果不是这东西应该是树莓派对。是的，应该是一个具身智能或者是这个呃物理AI的一个树莓派十个对吧？就这个东西落到我们都能用了，对吧？我都想去搞张卡来搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是的。而且仿那个open duck mini里面其实真的就是用树莓派做的，还有做了两代，第一代就是树莓派是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>啊，所以不愧是老黄，不愧是老黄对吧？所以这个就得跟之前我们说这个老黄为什么买hugger face，对吧？买了hugger face为什么推这个小黄鸭，这里面就能够串起来。贤哥跟我们算算这笔账。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我觉得首先你刚才说，就是你都想搞一个来，这说明老黄很成功，对吧？带着几只小鸭子上台翻个跟头，然后睡个觉就立马就圈了一波粉。反正我看到的数据，就是说之前他上台之前大概预定了有1万1万台，等你给我打电话说让我预定的时候，我听说已经又增加1.5万台。就说这个好像是对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像两万多来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，两万多来了。对，现在我看官网都已经到4月份了，就是说发货，圣诞节肯定赶不上了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后六个月后贴到复活节了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，然后我不过我觉得要先纠正一下。我觉得就是说上来咱们说这是老黄的小黄鸭，这个首先还不是的对吧？因为哈根佩斯还没有说真正被完全收购，还是刚刚签约，还在反这个反垄断审查的。你看哈伦菲斯九月份的时候签约，这应该叫什么公布。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>两方说是129亿，129亿多来收购这个hugging face。你知道你猜猜就是说老黄收购这hugging face花了他多少？这个收入就是多少天的收入。这么说，给你一个范围就是多少天的收入，就买了这个数字15天，22天啊。就是黄仁勋只花自己22天的钱就买了哈根base。哈利base可是几千万的注册，这个真的活跃用户，对不对？然后如果说按利润算的话，就也才四十多天，你就把这个黄仁勋卖卡多赚钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后关键一个多月的工资。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>关键这里面有个数，你要是你不能这么看你如果从哈根face看，那绝对赚大了。哈根face他当时就是在收购之前的这个营收入，收入才1.5亿。也就是说他真正的这个收购价格是他的八十多倍，将近90倍，你知道吗？90倍的收入什么意思？就是说如果按照现在这个情况做，哈根face干90年才能把这个才能把自己的买买，才能给赎身，可以这么讲。对，所以说你看，但是如果从那个黄金这算，就花我几天几十天的钱，对不对？然后拿来玩玩而已。但是你看这么着来讲的话，他到底为什么买它？这个问题一直是让我非常感兴趣，就是他为什么买航空face？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后很多人觉得说他买了哈根face之后，哈根face还是不是哈根廷face还能不能保持中立？是不是就要必须用黄仁勋的卡了，英伟达的卡了，还是说要完全为英伟达服务了。可是人家收购时就说了，说完全不是我还是要保持着中立，还是要继续要发展生态，而且也完全不强制。所以就这种事话一说出来你就知道，格局不在这儿，你知道不在钱上，就是算的不是这笔账。而且你看就是黄仁军，刚才你刚也说哄抬物价，对吧？那到底有多少人来抢这个hand case，那当时抢的微软就是其中之一。OpenAI也说也接触过，当然了都没有说具体的真实报道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>花多少钱想买，但是肯定是给了黄仁勋一些刺激，然后还有那个就是他的其中的一个股东叫什么sale force，本身也是做这什么的，就是说这个行业内的。所以这些整个这些故事你串起来讲，其实黄仁勋买的是什么？我觉得黄仁勋买了两个东西，一个东西叫做防御，也就是说我不能把这东西给了别人，这东西我不见得能用的特别好。但是如果搁别人那儿，因为AMD我听说也去询过这样或者说也去接触过，这要是说也的事儿，对，这要是真说让对方买走了，那说句不好听的话，我这估值或者说我这个几万亿的市值就动一动，可就不是一百多亿的事儿，对吧？你要算笔账，就是说129亿真正跟现在英伟达应该是多少了，现在五万多亿了，比起来就真的是就是400分之1。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>宪哥，我我我觉得我觉得如果你刚才说微软我确实没有，我没有去研究这个事情。如果被微软买走，那可能就是下一个github也就这样了，对吧？对，你那我觉得会不会是这样子，就是我看这个hug face的这个创始人，他其实也公开表态，其实制约我增长的或者我未来下一步的其实就是缺卡。我老子就是缺卡你知道吗？就纯缺卡？那其实之前老黄也找过他他他说不要嘛，他说我们不要，对吧？那这一次他是自己去找老黄的，说明就是说他代表的这个开源阵营，可能现在也有点不好过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不止，我觉得首先来讲的话，就是说老黄心理上肯定有很大压力。老黄虽然卖的很爽，然后赚的也很多。但是问题就是因为这个你赚的多，那自然会有人来来搞，而且你是卡脖子的那这些AI公司融了钱之后，一大部分东西除了买和租以外，就想自己造，对吧？你而且你像什么google什么的，不都人都自己做了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以开卖了，TPU都开始卖了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>开始卖了。对，中国这边给他压力又很大。还是那句话，我觉得首先肯定是防守。然后第二来讲的话，就才是说到底未来芯片是不是能持续这么高利润。那能不能扩到就相当于说到了这个物理模型的领域，到了真正的集群智能这个领域，我觉得这是老黄真正看重的那现在来讲，花我这几十天的钱就买一个公司，而且这个公司已经十年了，已经证明是现在AI时代开源模型最最受追捧的平台，对吧？而且就是有实打实的活跃用户，有下载数据，然后有后台倾向等等等等。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你说值不值？如果你是老黄，然后你做这件事之后，发现我自己的股价还涨了，那你说你高不高兴？所以我觉得从财务上算是肯定算清的。但至于说真正买了之后，你说哈根face是不是还是哈根face，我这个画个问号。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你们两位怎么看，这个我不关心他是不是他给in face我更关心的一个事情是说这个小黄鸭能不能铺货，大量铺货，有更多的小黄猫、小黄狗那么大量的铺开来，我觉得这个事情才还是老黄更想要的。因为你看最早的这个NVIDIA去建生态，这些扩大什么东西。大家忽略一个细节，人家大量的往大学科研单位送卡，培养下一代对吧？从娃娃抓起对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个事情本质也是这样，就是如果今天我们正常一个普通人随便可以买个小黄鸭，自己买个工作站，然后连上云端的卡，同时就可以训四千多只。就据说可以同时训四千多只小黄鸭，一次一张卡，对吧？那这个事情很有想象力，会有越来越多人来投入来做这件事情，对吧？你看大家现在都挤在哪里？因为web coding很强了，大家全部都去给我做软件，每个人都会做，然后软件没了，软件这个行也没了，那那大家还是需要一个新的增长点，去创造这个新的产品，新的需求。我觉得这个可能才是老黄更想要的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且可能从最短期内来看，至少来说小鸭子类的我是已经看到别的了，永远看到小螃蟹这样子的。好玩的。然后另一个方面我觉得他作为宣传还是会特别好的。就好像我自己看到这个东西，我会觉得说它其实跟我们现在大大模型没有关系，它并没有一个任何的大模型智能在上面。其实当然我会想到的就是把它改一改，变成一个一变成一只智慧的鸭子，能陪着我的小朋友玩，我会更开心。不然的话，原来他也就是卖萌。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他是不会讲话，他只会嘎嘎嘎。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不会讲话，这个应该也是他我觉得目的很明确，就是能够让他在各种动作上能够吸引人。他不是靠说话吸引人的，但是我觉得说他打开我的思路，就是说有了这个东西的话，纵使它有点贵，复刻有点贵，哪怕就是1万块钱复刻一只，我自己完全控制的那我很嗨，我现在看可行性实际上是可以的，只是说我做出来这个鸭子没那么可爱。但是我会发现其实我的小朋友也不在意那么可爱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他只要能动就行了。对，实际上你讲的这个点又暴露了机会，又暴露了问题，对吧？机会就是说类似这样的创业机会，其实是未来来的一个增长点？但是问题就是说现在就是seem to real对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有或者虚拟跟现实之间这个鸿沟是在这个小黄鸭上面暴露的巨大的对对，暴露的巨大无比的。也就是说你理想很丰满的，你有顶级的模型，是的，然后你有这个顶级的仿真的训练环境，然后你能够在端侧上面实现这个仿真的训练。但是实际上就是物理世界你遇到非常多的问题，你根本就不可控，对吧？那你看特斯拉就知道了对吧？强如特斯拉到这么多问题，这个小黄鸭遇到的环境不会比特斯拉对简单多少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实是很复杂的，所以我在想我自己的方案的时候就会出现了好又另一个阶段，就是刚认知到了刚才这种从虚拟到真实seem to real有这么大的gap之后，我就想的是说，靠，那我让他不要搞成双足机器人，我就变成什么履带机器人，像坦克一样好，行不行？我然后我当时就跟我们那个时候正好是在打完muse，然后muse就开始彩虹屁吹了我一顿，说行，一定行，这个方向太好了。最后我说行，你出方案，你去买配件。最后他说不行，我买不到的配件没有一个能匹配我的这个方案的。然后我就知道我靠这个方向完全错了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以是整个链条，对吧？就是还是会需要一个比较专项的分工，就是做硬件的，然后做电机的，做硬件集成的，做这个芯片跟模型的，还有包括算法做云端这些的，就是整条链条得通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是是一这还是一个综合项目，就是机器人项目。你里面涉及到什么自动化机械，然后这些东西全部都是有的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说白了你语速遇到的问题，你做个小黄鸭一样会遇到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是大排量不同。对他只是一个缩小的这个双足机器人对吧？然后我你看我后面还想着干脆连腿都不要了，只要一个上半身有个大脑能讲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最后你就是硬编码让他去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是，那你那不就是一个智能音箱。刚你把你的智能音箱搁在扫地机器人上，我把扫地机器人立项了，不就是一个移动版的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>贤哥你觉得真的说到点了，因为到最后我现在用了一个折中方案，是什么？就是ESP32，他专门的一个可编程版，把这个可编程版放到了神卡，这个神卡很便宜，最便宜只要7美元。我就先把这个东西放到一只鸭子的玩偶里面，拿一只Michael duck的这个小鸭子的一个模具，装到小鸭这样子模具里面，然后让他能说话。我就中间阶段我就用这个就够了。但是我会觉得最终可能需要的东西是两个结合在一起。就是我还是希望他有一个聪明的大脑能对话的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实其实我跟你讲，老兄你这需求讲起来是合理，但实际上很过分。你怎么能要求一个机器人，又有GPT1样超过人类的智商，又有什么语速的，能够那种花拳绣腿？能能跳能跑？还是还有特斯拉FSD那种能够避障，能够能开车。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我还只要399美金。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>两千多块钱人民币的，还要反应快？又有系统一又有系统二。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有世界模型，而且我都还过分，我还这是自控的本地部署的什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>千万别想太多是一个模型？我觉得这个就是想太多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他想得出来。我说说我的观点，我要喷点冷水。我首先觉得这小鸭子这东西，它就不是消费级的东西。它虽然说要搞的，你看那个网站上的宣传也很复古，也很欢乐。然后要不要说什么圣诞节可以明显是想做作为礼物送。但是在我看来，以我个人经验来讲，他根本就不是消费级的东西。所以当小苏说他能全球铺货各种我真的不看好。然后我看了一个报道，就是说团队本身其实挺冷静的。因为他们之前其实跟哈根face在收购之前就先做了一款桌上机器人，然后当时是出了一万多台，所以这回他们对这个小小鸭子的预期就是5万台，就已经觉得很很激进了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>首先我觉得这个东西本身，刚才老肖描述一个场景，它就不是一个消费级场景。消费者的要的是什么？就是好玩有趣，而且怎么说便宜，这也想要，那还要好。对，还要能用，而且还能炫耀，还能有一点什么价值，或者说什么其他价值。反正这种东西，但是你刚才所说的东西，所有东西都是创造带来的快乐。比如说我希望在这上面能自创出一些东西来，而且它能最终属于我，并且还能够按照我的需求去改造。我觉得这个东西它就不是消费级的东西，对吧？它就不是靠消费而获得快乐，而是靠创造或者说创造价值来获得快乐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后第二点来讲的话，因为我比较了解北美这边它的这个关于机器人的，尤其在少儿期间，这种机器人各种比赛，各种培训，这种一个活动去活动趣事。其实在美国或者北美这边有好好多这种击球比赛，各种各样的名目，就一个做的特别好，他是怎么办？你知道吗？就是说你报名参赛必须用我的硬件，然后我的硬件不是一个完整硬件，是一套。然后你要报名之后，甚至说几千美金咱们参赛，然后这个你可以寄过一整套一箱子就各种配件。然后你们所有的这个比赛的队伍都得靠这一箱子东西里的东西，造出个东西来来参加比赛。有什么越穿越障碍的，有什么跑步的等各种各样的。这个比赛办的就特别好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个比赛为什么办的好呢？因为他赚钱，为什么赚钱呢？因为其实它是卖硬件的。这个比赛的话就是说好的什么呢？他请了好多名人做背书，什么钱什么特斯拉的什么东西，或者和哈佛大学的谁谁谁过来当这个名誉主席，或者说这场的裁判。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你要在这比赛中获奖之后，以后升学的时候，在推荐信里面可以有一笔可写。所以你看它整体来讲，它不是在玩的是机器人这个技术有多欢乐，而还是玩升学那一套，或者玩的是什么？就是说未来个人价值这一套，所以我觉得小黄鸭应该是走这条路。如果说他真想创造全球轰动效应，那就得组织这种比赛。谁用小黄鸭改造出就像你刚才说的那种，就是既要又要还要还能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这不就是老黄在做的事吗？对吧？老黄也不老，老黄也不觉得说我需要这只小黄鸭怎么样，只要你们下面下游有人把这东西给我搞了，你不管像贤哥这种组织比赛搞硬件，做这个什么陪伴老师讲，这个场景就很大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你用1到1万人家的求婚，你各种的东西对你各种想象。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你只要能把上春晚干什么都行，不要负责任的，因为老师讲这个陪伴这个场景就很很合理，为什么呢？你现在说人形机械进工厂，那我就要要求你这个准确率了，对吧？就是这个误差不能超过多少了。对，你手是不是要调了，各种东西要适配了？人能不能跟上，那你这个东西陪伴不要负责任的，你只要不要侮辱这个友商分化对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你别半夜突然学鬼叫就行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吧？对，你别干这些事情，就是他不用负责任，对不对？不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说就是我觉得一年以后，这老黄还记不记得这只鸭子都是回事儿。说真话就是说不醉翁之意不在鸭子。然后这个东西他就讲的是什么？讲的是说我英伟达的卡可以训练具身智能，然后你最后还离不开我这个训练场，还是得用我这个无论是云端也好，还是本地也好，都得用我英伟达卡。我觉得这是老黄的本意来炫耀一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得不只是卡了，我觉得不只是卡了，因为我觉得老黄这一部，因为我看他最近就一直在强调他是做基建基础设施的。对他不太想强调说他是一个做卡怎么样的，因为你知道吗？现在也有很多这种。你像google TPU，人家据说一张卡用八年。然后老黄自己也说，他现在生命周期也有七八年，我也有那么久。二三如果再说我这个卖卡的，这个可能大家会担心对吧？但我是偏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>卖卖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>环境了对吧？我有hacking face这个入口了，我有开发者入口了，我有训练环境了，我有整套解决方案？然后数据中心我也有整套方案了，对不对？这个我觉得可能是他想要的还是一个环境的问题。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是这只鸭子其实是一个很好的切入点，就是大家放下一种以前的偏见，重新看一下英伟达。因为这一次其实在柏林为什么又火雾？除了我们刚才说的，他要就贤哥你说的，我觉得已经说的很透彻了。他就是要有让人家知道最后训练实际上还要去他那边，要去他的硬件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且是能看到你的效果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是实际上他有更大的梦想，就是我我看到他串起来的是什么？是欧洲的那个主权AI主权的模型的那个概念就是他这次去的是这家小黄，这个就不叫小黄鸭子小鸭子mico duck。Mico duck的是小鸭子的。他的那家公司是法国公司，他的公司在在法国，在巴黎。对，这次是在德国的这边讲的那德国讲的话，他还讲了很多精密制造的事情，就是说实际上是跟机器制造相关非常相关的。他其实讲了很多的东西，也跟这鸭子看起来其实是非常适合的，能够带入到那个场景里面去的。因为你你是他就是在讲这个整个的现在这个门槛做法已经完全不一样了。我完全不需要用以前那种很重型的那种制造，精密的制造，我也可以做出这种双足机器人的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>话术是不是跟德国总理讲说，你们其实不用掌握太强的AI来我这边练就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，然后我这也开源，生态是开源的。然后他也有一个一个也也有专门开源的大模型和开源的这整个的我们刚才说模拟的这些强化学习的模拟，这个反正都是开放给你的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那天不是转给我们看，说老黄跟德国总理辩论了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>半个多小时，就差拍大腿了。你知道就当时我觉得要是说没在这镜头前头，有可能老黄就拍着对方大腿，就是你练，开始别等着了，还监管什么，赶快干起来，兄弟。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，你看这个叙事至少就是说我不说，我们就换到那边的场景，就是这个大会毕竟是在德国办的，我觉得德国如果我是德国民众，我别的也记不住，我就记住那四只鸭子真的很厉害，因为他们那四只鸭子还有一个很特别的点。如果是做机器人的，我相信一看就知道，就是它它任何它有个基础的出厂设置，就是任何时候倒下来了，他都可以自己爬起来。它里面有几次出错，我都觉得我后面再看几遍，我会觉得也许这些出错可能是特意出错的，故意的不一定是他真的没听到，然后他是能展现说这个东西在异常情况下，他也是能够表现的不错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那像这些东西，就像你以前，如果是那种精密制造的机器人，这个得付出多大的代价，让一个机器人摔下去，自己起来，这个其实是很困难的。你现在这玩意儿就商业化的，至少我从这种训练整套的里面来讲，它可以用很低的成本让你起步。这种宣传效果我是觉得是远远大于说本身直接卖这个东西赚钱。因为你就想这东西的那个我们就说营销费用都不知道省了多少钱。就有很多的普通老百姓都知道了，你这个东西可以做到这个程度。为啥你还在做那个很精密的一些一一些巨型的机器人，你是不是可以也从这里面去做一些东西？我觉得说至少他他这方面的作用是应该是起到了的，很有话题性。因为这个可能不在于说他这个卖鸭子能赚钱，这鸭子粉卖了他没多少几万份的对，这实在是赚不了多少钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对你你就算，2万台算一块儿，还不到1000万美金，对吧？对你要跟英伟达比，这人家根本看不上这些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且我们说就算是再回去训练，他也训练不了多少钱，因为鸭子的那个动作也复杂不到哪里去。没错，你就拿去用那个线上的卡，或者说你本地再买一些卡，他也不要多大的算力，他算力也不会要消耗很大。这个我是觉得算起来，如果是光靠鸭子肯定是不赚钱的。但是他如果作为一个品牌，天天就像因为这个我会想起一个事情很有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是前两年我不知道你们记不记得老黄上台，他带的都是迪士尼的那个有一个机器人，迪士尼的一个机器人挺大的。那个迪士尼机器人背后是有专业团队，是训练好久才能上去跟老黄去对话的。但是今年就换成了这么多这一堆慵懒的小鸭子上来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个里面其实也是释放一个很大的信号，就是以前是这种专业团队，专业硬件动感，可能就是随便也是数万美金才能跑起来的机器人。你现在就几百个美金能跑了，就这么个变化。其实就是可能很多人不一定有注意到，也许觉得都是同一种机器人，但是其实是有同源。但是他现在的跃迁就是跃迁到我现在就是几百美金可以搞定的一个事情。那我觉得这个东西也就是回到那个原点，他就会打。我觉得几百美金我会想试一下，那几万美金我肯定不会，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以就是这个几百美金非常重要。你看这几百美金再算下来的话，你要说他的情感价值，我觉得你不如买条狗或者你去领养条狗。在北美？领养条狗很便宜，领养回家之后，你再花钱去呗，打针也好，买保险也好等等等等。但是你说这鸭子真像你说的，拿回家有多少人会训练。所以我就觉得第一波热度之后，肯定还会有些二手鸭子流出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这个你精准的踩到了圣诞节之后是个好时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说但是看世界平板美金这个事儿引起的这个效应，就像你刚才说的，省了多少宣传费，而且让大家觉得几百美金就可以买到一只可以自己训练的鸭子。这个想象力背后，这和现在到底未来英伟达处在什么地位？我觉得他又讲了一个未来的故事。至于这故事什么时候能实现，能像小苏和老邱你们说的似的，能训练出自己鸭子或者让全球铺货，我觉得这都不重要。所以我一直就强调这句话，就是说也许一年以后黄伟黄仁勋都不记得这只鸭子的事儿。但是在当前这个时间点上，确实给这个资本市场也好，给民众也好，都种下了这么一颗种子。知道英伟达在未来集成智能也好，还是说这个机型训练也好，都是非常重要的一环。还是他强调那个蛋糕理论，就是他一直把自己做成整个蛋糕理论最核心的一块。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且也是另外一个路线。你看现在在聚生智能上面，除了说传统的这种像语速这类的机器人，然后现在又多了一种更简化一点点的，价格更低的。可以通过在这个虚拟环境数字孪生里面去实验的，然后就能够训出来一个能够做一些有的没的事情的这种机器人？包括像之前我们讲那个世界模型，之前李飞飞做的那个，今天放出来这个gi 4这个世界模型，其实就有不同的路线，就是大家都在押注不同的路线。那到底哪一个能火，他其实也不知道，但这对于他来讲就是我都要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他都要，而且踩的很聪明。是现阶段的话，就是从我现在粗浅的理解，就是确实硬件的成本实在太高了。我不具备工程师的能力的话，我根本很多东西无法启动。我就算具备了工程师能力，那你得花多我得花多少的成本让我具备工程师能力，那这样子的这些成本都都太高了。我最好是说你给我一个虚拟环境，我不用当工程师，我也可以在里面去训练一个差不多的东西。那以后你的硬件成熟了，我只是是不是像黑客帝国一样，我就是一个注入就可以让让这个硬件它就具备了这个能力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我非常期待这一天，但是我深刻的感觉这一天可能还比较远。在这一天到来之前，大家这个虚拟环境可以死命的造，对不对？适配这个虚拟环境的身体之间这个软件硬件的这种融合，包括以后怎么把大模型再装进来，我不知道怎么装在这里面，感觉两边成本都很高。这些东西如果能融在一起，那那它的这个价值就是我觉得说想象空间是特别的巨大，但是它确实长得可能很慢，就是是一个复杂的系统工程。这也许是三年五年起最基本的一个时间，但是你现在进这个数字孪生世界去训练这样子的一个东西是完全可做的，而且它的成本也不高。可能我们刚才说的就是几张卡，但是到现实里面的那个电机要组合这些东西，它的成本是很高的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>像今天这个吉尼4的看下来，我就觉得。这个物理是好一点，但是我觉得你跟鸭子的物理比实在太远了。鸭子的是现实里面的人走起来那种感觉，跟你看那个看那个很酷炫的视频。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>已经完全不是一个世界了，在数字世界里面还是很容易达到，就是端到端解决一个问题，就是在纯数数数字世界里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但你一旦涉及到现实，这个效率就是十倍的降低了，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是大大的降低，不是十倍，我觉得至少有百倍以上。那我觉得说我真的会愿意先在虚拟环境好好的先把它练好了。也就是说我已经愿意。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为英伟达成功上了老黄车。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也愿意因为他充值了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，说我是觉得贤哥可以期待一下你你那个我们在国内给你买几个送餐机器人，仿真环境给你练好，对吧？看你要练什么，在餐厅抓老鼠抓贼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我餐厅就在什么贤哥餐厅，没有老鼠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正已经知道了，也没有谁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也没有谁，他在贤哥餐厅表演杂技？什么各种各样花式端盘子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这个倒水。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>倒茶是吧？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有面变脸。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>变脸。对，你看这些反正就是招本来大家来了，中国招待大家的那种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>传统技艺全在里面搞一遍。贤哥靠这个把餐厅再将来到开个100家，直接找老黄去买。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>老黄就说以后不要搞鸭子了，还是要搞这种的，直接进餐厅。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他说为什么我说这个小黄鸭大梦想对吧？因为这个小黄鸭它根本也押韵上了。对，就不是给你进工厂。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用的对对不对？对，本来也不是要卖你工厂的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它主打的就是没卵用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你把无用之用为大用，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你看完就秒懂是吧？秒懂这个东西有点意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，所以我说节目的最后这个小黄鸭？大梦想小黄鸭都给我冲起来好不好？我们也冲，我们也我们只能再做一批一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，实在充不到的找贤哥代购。好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们就聊到这里。好，这期节目到此结束。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜再见，拜拜，拜拜拜拜。</p>]]></content:encoded>
+            <pubDate>Fri, 30 Oct 2026 03:38:23 GMT</pubDate>
+            <guid>6ae40fa0c96c8942ec1494a9</guid>
+        </item>
         <item>
             <title>不要穷人思维！ 全公司升级GPT Pro后我的领悟：花最贵的token干最脏的活！</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6adb20cac96c8942ec111f4d</link>
@@ -5481,197 +5702,6 @@ AI Builders 是由课代表立正和鸭哥两位藤校博士主讲的 Top AI 课
             <content:encoded><![CDATA[]]></content:encoded>
             <pubDate>Sun, 15 Mar 2026 00:30:00 GMT</pubDate>
             <guid>69b5818af8b8079bfa553d19</guid>
-        </item>
-        <item>
-            <title>当赛博皇帝，享AI人生！我用OpenClaw养出了三省六部、后宫三千！</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69b288f884bce022f919628f</link>
-            <description>13个小龙虾Agent上朝是一种什么顶级感受？有文有武，有男有女，每天早起像皇上。国外小哥靠“龙虾”给屋顶算命一年躺赚180万美金，欧洲老板裁掉整个团队换成全量OpenClaw。中国AI已经把大模型干成了制造业，Token比白菜还便宜，你还在不知道小龙虾？这期我们彻底撕开OpenClaw的底裤，教你如何像韦小宝一样组建数字后宫，早日实现Token自由！
-0:00 靠破OpenClaw自动接单狂赚180万美金？
-6:10 一个礼拜就把欧洲电商团队全干掉了？
-9:20 13个Agent后宫团，我连夫妻生活都被13个Agent影响了？
-12:20 裁掉整个团队换成龙虾非常划算？
-14:50 中国AI真的已经干成制造业了吗？
-19:40 Memory会挂！韦小宝娶7个老婆后宫也会打架？
-21:35 腾讯QClaw倒贴钱送Token是想干嘛？
-24:45 为什么用了龙虾就再也不想看电脑？
-27:10 跨越鸿沟的技术通常都快得吓人？
-31:30 财务自由没戏Token自由我也行？
-【订阅 JustSayAI 早晚报】
-🌈 新朋友！订阅「JustSayAI 早晚报」· 每日两封 · 一键听报
-🌟 老朋友！加入会员获取 JustSayAI 早晚报+深度研报+文字专栏
-【主播小红书】
-📕叫我小苏就好啊
-【关注频道】
-▶️Youtube｜ 📺B 站｜ 📕小红书｜ 🎵抖音｜ 📻Podcast
-📱 商务合作/听友群：justsayai666</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你知道吗？这件事儿已经开始影响到我们的夫妻生活了。靠我现在13个agent你知道吗？有男有女，有文有武，有事出班早奏，无事卷帘回巢。每天早起我一看上朝了，我有一个A证叫王语嫣，那他的工作就是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给我就夸你们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是帮我把所有的这个数据做整理，负责记录的叫太史公，就是司马迁负责编码那个人叫鲁班，专门负责coding。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你有没有给这十几个人设定一个KPI考核OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>搞起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我回去就把我那个实习生干掉。你太流氓了，你还有王语嫣，这个我就想不到。然后我可能我需要一个潘金莲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得有一个诱因，应该是这个周末发酵了一下，就是周末QQ推出了支持龙虾的功能，对吧？然后开始好多人来接入QQ，而且你看我昨天星期一，昨天早上我出去吃早餐，然后遇到一位律师，然后问我说，你知道小龙虾吗？你装了吗？我说装了，他说这个东西跟豆包有什么不一样吗？我说你就这么理解，就是你相当于你给欧包配了一台电脑，设置。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>相当于你给豆包配了一台电脑，然后这个助理就是除了见不到面，你也没有什么不一样的。他说，我理解了，我回去就把我那个实习生干掉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>别要不然现在什么mac mini不好买的，对吧？顶一个人了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚对，区别就是说对他们律所来讲，他们至少实习生或者他助理还是懂法律的，对不对？那你至少在做一些文书上面，你不会犯一些很低级的错误。但是我是觉得说大模型有可能会犯这样的错误的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是，那不也就是一个skill的事儿吗？靠。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那就是整个review的链条要变的，对吧？你整个评审的链条是要变的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>评审链条review的标准各种东西全部都变了。就是整个组织可能变成了人跟跟龙虾这样的数字员工在工作。这个东西我觉得贤哥你可能你可以注意一个例子。我也是昨天看到一个震惊我的，现在就是在海外的，就在加拿大你那边的，他用这个open core做了一个叫roof close roof，就是那个屋顶的那个roof。ROOFOK, 他这个roof core干嘛真的非常的细致。而且我先说他挣了多少钱，他就搞这个事情，挣了已经挣了180万美金了，180万美金。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他在干嘛呢？他就把open closed这个小龙虾装在一个你今天刚入手的macbook上，然后专门卖给屋顶维修的公司，卖5000美金一台。它包含什么东西呢？它包含它的硬件部署培训和每周都有every week support，然后数据全部在你本地，然后集成好他平时要做的营销，这个hub sport，各种各样的行业软件，他解决一个什么场景，这个场景就是在你们那边不是经常下雪，是不是对比下暴雨冰雹。然后他们这些屋顶公司就是整天一暴雨冰雹，他们就工单激增，然后根本没人没没空接电话。然后这台电脑open clo就在上面全天候自动回复，而且排班，而且去叫人摇人干嘛全部都给他搞了。然后他这个东西就只干这个，就已经挣了180万美金了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一定是业内人士干的，才能这么懂需求，这么知道加拿大人工贵怎么赚钱快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对海外好明显。昨天也是一个海外的朋友跟我分享，他在欧洲做电商，然后就一个礼拜的时间用小龙虾，然后把它原本的整个你知道电商什么运营，然后这种设计、发布，然后比价，对吧？这些工作还是非常的复杂，但是又非常标准跟数字化。那他就把他这些岗位全部给换成了小龙虾。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且他我觉得他最绝的一点是，他原本是请人的，请了很多像欧洲本地的人，其实也是一个挺贵的人工。那后面他就是把小龙虾全部换成cloud模型，全量跑cloud模型。然后这在我们看来这个其实是成本还是很，但是对他们来讲非常划算，就替代人力来讲非常划算。所以他就一个礼拜就把把因为他自己老板懂业务，然后他就把这整个原本这个团队给干掉了。我现在觉得这也是很神奇。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这东西就是我们说的，好像看起来token很贵，但是跟人工一比好像不算什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你根本不会赚钱了。对，是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看今天出的这个腾讯这些什么workday，那个QQ它其实现在这个阶段他基本上token都是送你的，对吧？那我觉得这个又回到一个悖论了，本来中国能力就不高，然后token现在又白菜价，对吧？上期我们讲过，现在中国模型厂商已经把中国AI干成制造业了，对不对？然后妈的你这东西又替代人力，那你是想怎么搞？是人已经很便宜了，然后现在人跟人家抢工作，人还能更便宜一点吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个东西我觉得会对全球产生影响的。比如说现在很多我听说很多印度的这种以前那种客服，还有一些低端的这种公司，就基本然后就死了，对吧？你想它再便宜，不可能比龙虾还便宜，比那个token还便宜。然后token的话，如果说只看cloud可能还贵一点。但是你要是再把中国这些大模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的这些token再算上一笔。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不得了就是对，而且中国以前大家还要拼命的学英文，对吧？还要怎么样？以前为什么印度的客户好？第一便宜，第二你本身就是英文的，然后像菲律宾的也一样。现在来讲的话，有了龙虾，有了这个大模型在底下托底。语言都不是障碍了，就看谁的那个是用的好了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>口音都没有了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是你想加什么口音就可以加什么口音了。你可以这么说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>咖喱味去除剂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以就是说这整个这一套东西，我觉得首先我从宏观上看是肯定是有战略引导的。然后第二来讲就是刚才你们说的入口的问题。这个问题我想的还不够深，但确实也是这样的。就是说如果我们把这个龙虾看成过去的电脑，skill，看成软件的话，那这个东西解释的通，对吧？最早谁卖一体机，然后谁能把这东西让走入千家万户。是啊，甚至说你爸卖那个小霸王学习机都可以。你只要后面您跟当年。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>肯定没有少泡过妞，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>肯定有对吧？还确实是因为女生宿舍的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，确实是因为拿着几张软盘进了不少女从业的家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看哎呀哎呀。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个更厉害，直接进进家里了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是那人家家长请去的。因为花了1万块钱买电脑，那会儿是要朝一个家庭普通家庭一年的工资买台电脑。你不能说里面连windows都不会装，对吧？打字都不知道从哪打起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>总要有一个人我也跟着你去探讨学术问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这点装机问题？咱们几期前就咱们就第一次聊小龙虾的时候，应该是春节前。然后当时我还说，他是小保姆，然后让我觉得我还我不是还说了一句话。我说你想还让小保姆教你弹钢琴，你想多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不就是要让小保姆教你弹钢琴，还要把手搭在你手上，面对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是就这两天，就这两周，尤其我用的小龙虾越来越深入，之前还是云端用，现在改成本地用了之后，我这个就是刚才想回应你的刚才说的情绪价值这块，我觉得就是这个情绪升级了，你知道吧？这两天我老感觉有点自己有点状态不对，老跟喝了似的，有点上头，特别上头。甚至你知道吗？这件事已经开始影响到我们的夫妻生活了。靠真的就是说我们我老婆说你怎么老她垫在前面坐着，成天到晚的也不说话，一天到晚没几句话就在那儿傻乐。就这种情况，我的感觉就是他确实让我回到了30年前，刚刚有了电脑，在486上用用软盘你知道吗？就是一个同学骑着自行车20公里来我家拿了十几张软盘，13张软盘。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我记得清楚神奇宝贝完了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后装仙剑奇侠传代表，又去装这个三国志。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还有什么的，还有什么大航海，都是用软盘搞的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果说能听懂我在说什么的，那那大家握握手。真的就肯定是已经是中灯，至少是中灯了，都不说咾灯，起码是中灯。当年是什么状态？就是人家来了，你家把你装上之后，你们在你们俩一块玩半个小时，他就得回家了，因为得回家吃饭去了。然后今天晚上你就别想睡了，基本上就是趁着背着爸妈熬一宿，然后把这个游戏起码得打穿一遍，或者说起码得打到第二天上学这种状态就是让我这么上这这种上头的感觉已经很久很久没有了，但是小龙虾让我有了这种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你们现在有几个agent，我做了13个agent。我每一个agent我都要给他定义他的soul，然后定义他的这个记忆的方式，然后定义他的这个heart beats，就是他的重复的工作等等等等东西。然后在这过程中，你让我是把每一个agent都起了名字的。你能想象到我这个给咱们做自媒体的助手，我给他起名叫什么叫什么，我给他起名叫晏殊，宋朝的大名人，然后范仲淹的可以说是老师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>名字都已经是太上档次了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是为什么就是我为什么特别想说这件事儿？就是我想用我个人的例子跟大家解释，就是说我是怎么来用这个事儿的。就是我把这些人，这些agent真的做到了人格化。我自己再构建一个我的黄金团队，就像当时打三国志似的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对所有的五虎上将全部拉进来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你现在自创武将，对吧？自创武将之后你还要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给他分配数值，那我好奇你有没有给这十几个agent设定一个统一的KPI考核，然后每个季度要过一次。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后完全不用OKR搞。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>起来完全不会。我跟你讲，你肯定觉得特别有意思。首先我这个13个里面有一个是起源，也就是说这个是没有人名的，完全就是说相当于我的这个心脏。但他不思考，当我的思考的大脑叫诸葛亮，是真正的就是最顶级的，只有他来接收外部信息。但是他只负责分配任务，他不负责执行，只负责编码。那个人叫鲁班，专门负责coding，专门负责这个实施的对，然后那个就负责记录的。就是每天晚上要自己自动备份一下所有的这个对话里面的信息提取，然后进入长期记忆的。这个叫太史公，也就是司马迁太。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有文化了。我们到底那时候用不起来，你那些agent都不知道该该喊他们干嘛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是我在自己对话的时候就很爽，因为我知道职业就是说太史公每天晚上三点钟，你要把所有跟诸葛亮的对话全部搂一遍之后，然后看看里面有哪些东西可以值得记录到产品记忆，就做一次刷新。并且在第二天早起八点钟的时候，给我发一个简报，告诉我长期记忆里面哪些刷新了让我做一次人工检查。就这些事情非常就是我觉得这个是让我很爽，就在于这真的很有打游戏的感觉。就是说我把每一个人格化的agent之后，给它赋予了它独立的任务，并且构建他的这个sort，就是他自己的这个sort的文档，然后再加上它的这个功能的agent，同时我再配上一些能力。当然了，能力本身有些，比如我还给分离出来。比如说我有一个agent叫叫王语嫣，那他的工作就是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就夸你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个好办法，就是帮我把所有的这个数据做整理，就是data做整理，所有data结构化，包括我电脑上data和搜集出来的data。然后另一个专门负责搜索的叫叫孙行者，就是孙悟空直接就是用各种的，他背后配的，我就是用的G的模型，直接用的gm flash那个模型。不是，sorry, 说错了，孙行者后面有配的是glock。The block的模型就让他用X上面去找。所以每一个agent我又花了好多时间去做设置，再想办法把这些A的能够结合起来用。这个工作就耗了我两天时间，然后现在还在继续做。但是这两天时间我就处在这个很嗨的状态，一直在搞一键。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>调度历史名人对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我现在13个agent你知道吗？有男有女，然后有有文有武，有事出班早奏，无事卷帘回巢。每天早起我一看上朝了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>每天早晨都要在道德。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>文官在左，武官在右。每天大家诸葛亮出来先汇报，太史公告诉我昨天又寄了点什么，可爽了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看我跟你讲，所以你看小龙虾这个事情就动到我们的这个民族性了，对不对？人家说manus跟小龙虾有什么区别？Manus就是租房，租房我他妈我看都不想看一眼，对吧？小龙虾去买房，大家都去买房。这么一买完你才知道说，我靠你这个商住两用的水电费很贵。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你这么一说，明天庄成龙家里人又得翻一倍。一说现在买不起真房，我还不能买几个假的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>赶快烧点龙虾。对对对，我觉得真的是这样，这就是情绪价值。我觉得沈哥你这太太典型了，其实我有几个A，但我可能没有你，那么我还文明一点，我更流氓了，你太流氓了，你还有王语嫣，这个我就想不到。然后我可能我需要一个潘金莲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对网易语言我都怀疑你拍照片干嘛使网易语言，我起码知道大家一听就知道是做data的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我太搞笑，我是有有几个这种帮我做研究的，比如说卡帕西吧，就专门帮我解读AI教育的。对我就比较低气。我那个叫卡帕东，对，帮我解读AI新闻，然后我还有几个像什么哈萨比斯，像google的对吧？他是google的。然后比如说google有一些新的能力，我就让他以他的方式来帮我解读。当然我其实是把他们油管上面历史的采访的那种字幕全部扒下来，做了一些训练，相对来讲能够还原他们的观点，然后跟我做一个人机的PK当然我后面对比你这个真的我觉得说我是你这说到接地气。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你都不知道。我就是专门有一个agent是专门负责处理我家务事的，就是说有时候交信用卡。完了那拢一拢就今天要修这个了，家里有什么东西坏了，你知道这个的AN叫什么吗？叫什么？叫双儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我这能拍出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所有男性心中最好的伴侣的这个样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小宝你不能这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>小宝我想着超越小宝的这个生活。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我估计我今天这一期节目大家听了之后，肯定评论区大家很多人会觉得，哇塞这个也太猥琐了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就人人都能做韦小宝，对吧？不用娶一个老婆。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你已经挤了几个身份了，有皇帝的身份，然后有段誉、虚竹这样的身份，然后还有韦小宝的身份，不得了了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以你能想象吗？就是说当你在构建这些agent的时候，完了包括OK给这些agent赋予skill对吧？包括给他tooth，包括给他授权的时候，我觉得这都不叫外包了，我觉得这叫外聘了。外包是说这个事儿本身，我我我把这个事儿以前自己干完，现在交给他干。现在外聘是说这个人能力比我还强，就我把他请进来，请进来之后帮我干。然后这个帮我干的过程中，他还能百分之百对我中心，这个太难了，尤其是说这些队伍最终能自己组合起来，自己还没事，晚上自己开始背着我干。哇塞那太厉害了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我突然想起来这个就是像你讲这个游戏里面叫做什么养成系RPG对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，或者叫策略养成系。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>养成对我玩那个金庸群侠传段对吧？大家如还记得这个游戏，然后我带着钟对，我带着张无忌，我带着王语嫣，我带着段誉出去。然后每人给他路上捡到一本秘籍，叫段誉练六脉神剑对吧？叫张无忌练九阳成功，然后我修野球拳对吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>美人球拳。哇塞这个名字好古早。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>野球拳十级秒杀所有攻击，攻击所有的地的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是不是这样子？就有小龙虾真的就有点像那种养成系的IPG，然后每个人修一本秘籍，然后带大家一起出去组团打怪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我跟你讲，我在我这儿他都不是有点像他在我的感觉上来说，因为整个来讲的话，他就是在帮我养成我自己的一个整个天团。未来我要想做蝙蝠侠也好，还是说我要做这什么来着？帝国就是帝王，那我必须得有一个团队，对吧？你可以想象一下，就是我在这个过程中，我就想象如果假设我是一个王侯将相宁有种乎？我是一个开国皇上，现在拿了天下之后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一天做的那个很有种的，你现在那么多人，你还王语嫣，你还没中对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这就是说就是说假设我是慕容燕复国了之后，那我坐在这个金銮殿上第一件事儿，先得分官，封官完了之后就得领活了，对吧？过两天该该该那什么上朝了，对吧？所以现在就处在这个阶段上，就属于这个0到1的阶段，就已经很让我兴奋了。何况以后这个能够开疆裂土，就是明日不可想象。所以我才call back.</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一会我来加传A加加传我们的龙虾传下去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我听到有人用的方法很好，就是自己培养成龙虾之后，或者说一个agent以后，还可以给团队一块使，这个团队整个来讲都不需要去做沟通了，直接大家一阵交换就完了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我得泼泼冷水，虽然说技术有很多东西很领先，但是体验上要做好，其实是要花很大精力的。我可以反过来讲，就是80%的东西可能好像都行了，但是最后20%需要花费你80%的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>同意就是完全同意这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>有了13个agent，你正在甜蜜期，这前几天是OK的，但是你的后面痛苦的时间可能是现在的八倍十倍以上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>公会打架对吧？韦小宝娶七个老婆六个老婆不和。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我跟你说。最基本的有几个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>问题跟各位汇报一下，就是我们上线的just AI的会员频道。大家可以在youtube来订阅我们的会员。如果你只是想对我们的视频表示支持的话，你可以成为我们的股东会会员。如果你希望获得更深的这种支持，你可以加入我们的公园董事会这个会员的栏目里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你可以获得第一个每天两封的JCI早晚报，一个能够用听的AI语音播报。我们每天从两千多条信息里面帮你精选两封邮件，然后AI双人主播读给你听，每天多听十分钟，少刷手机2小时。中美AI资讯零时差。我觉得这个是非常棒的一个感觉，我们一定要拥有。对对对，你还可以获得我们每一次在做视频的深度研究报告的文档，以及获得我们三个人撰写的主播专栏的邮件推送。所以我觉得你订阅公园董事会这一档的会员，其实是对你来讲最划算的。所以请大家多多支持我们的youtube会员。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>请我们的精神股东们，精神董事们尽快行动起来，加入我。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为龙虾现在天生的问题就在这儿，因为太方便了。我认为是设计上的一个我们叫trade off，是一个叫。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>妥协交换就是说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他为了你很方便，让他的感觉很智能，你说过的事情他都记得，他是把所有的记忆放在一起的，就是没有说我们分成不同的独立的对话什么的。反正你反正在哪跟他聊，他的都是共享的一个记忆的，所以它可以变得很智能的感觉。但是这个东西由于现在AI的智能和过程中间加工的限制，它到最后是一定会丢失，就是不合理的丢失。因为其实你要想，我们人也不是一个很聪明的AGI，对不对？我们人也不是AGI，我们人经常会忘掉好多事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谁叫什么？对我什么时候想过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后想不起谁叫谁，张冠李戴。你明明把老刘继承了老邱？这个事情是要。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>看着你我都想不起来叫什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，你的王语嫣可能都就是记得都是小双的事，小双记得都是王语嫣的事。然后他们两个技能又不匹配，互相做不了这个各自的事情，然后就会出很多乱七八糟的事情。你到时候就要重新去调这调校了，这里面会有很多状况的。这个过程反正我觉得说等你多用一阵子，蜜月期过了，你会发现有很多的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一定是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后面不用多用我都挂过好几个。是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但是我觉得是非常看好的。我刚才讲的时候就是这个体验飞跃过之后，你不会再想回去开APP，开电脑找那个软件。对这个空白的一个东西在那边想，一定不会再这样了。但是这个过程刚开始很甜蜜，过程中间又会过日子了，又有很多状况，大概是这样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都别说那个了，会好的对，都别说那个了。之前咱们我还是追求要一定要找个外部端来来来对话或者怎么样的。现在都直接是CLI或者TUI直接开始发命令了，甚至有时候就拿起来telegram直接就发一个语音了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>telegram得喊一句。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，对，就是这个你说你怎么退回去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？讲回来鑫哥我是觉得就是你北京人民的敏锐度是有的，但是我觉得这个事情也没那么复杂。坦白说这个事情跟高科技也没什么关系，对不对？如果你说从技术角度讲，其实我们很多做技术的朋友都觉得，这不就对吧？这个东西我远程连一下cloud也能做对吧？但是实际上我个人的想法是，它是利好整个产业链的对吧？你这个龙虾出来以后，你看首先终端算力，卖电脑的，卖mac mini的对吧？搞原本这些服务器个人算力的这肯定就很利好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对吧，那那原本那个卖电脑都干不下去去了，对不对？电脑他妈一年都PC都卖不了多少台了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>堆积如山的东西现在都能卖了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>全去你不用说一手的二手的，都已经开始繁荣了，对吧？这个第一层我觉得已经就这一层已经先稳了。然后第二层那些做云服务的对吧？通过龙虾你不要开个云服务账户吗？个人云你不开一个吗，对不对？然后开完户你算力不买一点吗？Mini max买一点，kimi买一点，然后谁家买一点，反正就是开完户的，你要选电信还是联通，对不对？你选一个对还得套餐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还得选个好点的套餐。它那个套餐入门级，玩两天的套餐和玩几天的套餐还不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，有可能校园套餐比较划算。你买个校园套餐，我们比喻一下，大概是跟装宽带一样一个例子，对吧？然后完了以后就是说你这个后面就剩下这些入口了，QQ腾讯、飞书钉钉这些东西又繁荣起来了，对不对？我觉得这个就整条链都繁荣，做软件的、做硬件的、干云服务的、干基建的都繁荣了。那为什么国家不推呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那么代价？代价就是印度的客服们是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得代价是这样，就是我给个暴论，就是以后经验是最贵的。怎么训练龙虾么？养龙虾，然后怎么把你的工作变成龙虾，然后帮你去执行，这个经验是最贵的那以后的人可能去做实习生是要倒贴公司的，这个你同意吧？就我去你律所实习，我去你这个软件公司实习，我是去买经验的，买经验，妈的你掏钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是，这是肯定的，尤其是你初入社会的我们的伙伴们，确实是以后可能会被卡死。因为你就是缺少这个方面经验，就是补不上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，从技术上其实我是觉得他应该是把这个壳可触达性达到了极限，就是说体用户体验提升了极大。你刚才说的那个很形象，就是很多做技术人可能就一般说的就是就这对吧？对，这个也能做，我们这个也能做，那个也能做对，确实都能做。但是真的能把这些东西塞到你的QQ，塞到微信里面，你这个体验还是完全不一样的。在海外就是telegram、WhatsApp, 然后包括日常他们天天可能在用的这个slack等等的这些东西上塞上去以后，整个就是我们刚才说的整个产业链就变了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实你的日常生活的沟通的习惯，你以前我们说要开个APP，要打开电脑什么的，现在都不需要了。你就对着这个在在你的聊天工具上，对着他对着龙虾喊一句是吧？他就帮你去找信息了，然后帮你提醒你下午四点该买个什么菜，晚上几点该做个excel。当然excel他还帮你已经做好了一些初级的数据准备，然后让你只要做做一下确定就行了。对，这个以前你得怎么样打开电脑，打开excel找文件干嘛？我觉得其实你经历过了这个变化之后，你就回不去了。其实你很不想再去打开。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你这话说的特别对，没错，就是真的是用过之后和没用过之前，这是判若两人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是很细微的体验。比如说我给家人装的这个龙虾，他可能一开始也会以为说这些东西跟豆包或者这东西跟什么什么千问有什么区别。实际上用起来他发现说丢个文件让他处理，丢个表格让他处理，他最后还是发一个表格给你。他觉得真的跟我助理一样，你知道吗？豆包不会干这样的事情，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他不对，豆包可能会跟你说，我这里个有个东西处理不了，我能够把文字回给你。然后他可能把文字回给你，但他真的把图表给你了。而且你可能说我现在要发给我领导，我图表excel微信里打不开，你帮我转成PDF，他们也能转成PDF给大家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你以前肯定想不到这些，但它实现的技术其实就是去年我们在讲cloud code。你就像我们去年对做的那个提名最好的这些工具，提名就是curse跟cloud code。因为这两个是编码工具，他们能够实现所有你想要的这些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是大家不懂，龙虾把这个事情做了，其实龙虾龙虾的底层只有四件事情。第一件是读读文件，第二件事情是写一写文件。这也其实这些东西就是日常它的我们说那些记忆。比如说他原生龙虾是个什么性格，然后用户你可能想希望他什么性格，然后还有他自己你用户做过的所有的动作，他把它整成了记忆，整成了memory，记下来只有三层的东西，让他能够记住你的偏好。不管你交代什么东西，他都会尽量的说去记下来。而不会说前面你交过A之后，再到第二件任务的时候，他就忘记你A的那些偏好了，他不会他会记得，就像这些东西的话，其实以前的这些AI他都做不好。因为以前的AI最基本就是我每开一个新的绘画是互相独立的，我这个绘画跟那个绘画没有关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我在那边的编号没办法很轻松的弄到这里来，我得把前面的东西粘过来。像这些小的体验，其实是龙虾把它做好了，这些功能去年就有，但是只有龙虾把这个事情整到了为用户去考虑给他做了。然后后面的话，而且还有就是说他是主动的，能够说没几分钟或者是几个小时，他就整整理一下你是他手头的这些记忆，整理一下他手头你交代过的一些东西。然后看看你放授了权的那些文件夹，他自己就会想说应该给你做点什么事情。那这些东西也是以前agent是没有的。你看ChatGPT豆包也好，它肯定是等你的命令。但是这个agent他是主动的在站在你的跟你沟通的过去的这个记录里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>领导最喜欢的员工，对吧？对，狗奴才。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是啊，但我不要说领导，我们每个人都喜欢，对吧？我心里也很希望有个人天天这么想着我的事情，对吧？对，我就觉得这两个事情你它不是一个技术上的突破，但是我觉得在用户体验上它是很大的一个突破。这个东西我觉得不是一个技术问题，小龙虾把这个东西做活了，这个其实是一个非常怎么说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是一个很准的一个情绪价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对这个情绪价值做的特别好，而且是一个真正的说所谓叫跨学科，跨跨专业的一个事情，就是大厂做不出来。我可以多说一点他那个创作者的那个背景，他叫Peter，他实际上已经财务自由了的。他以前就专门做一个商业软件，就专门整PDF做了13年，然后做的非常的精深，然后把公司卖了以后财务自由了。财务自由以后特别空虚，然后空虚了之后就有三年。他原来是天天都在写代码，七成每个小时，每周工作100小时的那种。但是到了现在这个AI时代，他又觉得他最开始只是很想做一个能够服务自己的那个WhatsApp，把上WhatsApp上面的信息传给他的那个AI去干活。然后后面发现这个东西还挺好用的，然后变成了这个小龙虾。他其实只用了几个小时的时间，这个原型就做出来了。然后后面是他去完善到现在可以大家去部署的这个框架。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样子在全球人都在帮他完善了。我看最新的巨款版本已经是个生态的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以他自己本人也都去了OpenAI了。没错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>本人也去OpenAI了，而且他也是希望把这个东西能做到更多人去用。因为OpenAI现在有八亿多的活跃用户，还是很大的。就是小猪的问题是从技术上看怎么样？我是觉得说技术上看，这是这个事情恰恰说明了一个特别重要的一件事情，就是每一代的技术更新其实都符合。有一本书叫跨越鸿沟，里面就是讲说这个鸿沟其实非常难以跨越。就是每一个技术其实它的发展是经常是远远的快过我们的想象。其实我们这里面的很多技术发展，我们天天都在看，我们我们都会经常感觉到其实会跟不上，对吧？没错，但是实际的情况，就落地的情况，它是有往往它的采用是远远的落后人们的想象的，远远的慢于人们的想象。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是大家经常说什么失业替代的事情，但是其实没有根本没有那么快。好多这种失业替代的事情，其实我觉得海外都已经用了一个词了，叫AI washing是吧？就是用AI来洗白什么的，把裁员各种东西都说成是AI干的。其实是有很多自己经营不善，各种乱七八糟的原因导致的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>早就想干但没有理由的，现在都能给有有AI来背锅了，没错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>像这个东西这么大的一个落差，就是说的这个跨越鸿沟。这个鸿沟其实从早期采用者到大部分人会采用，这个鸿沟特别难跨。这个差不多前期可能要花好长的时间，然后突然就迈过去了，突然到了一下所有人采用。我们现在龙虾你说很多人好像大家都出了产品，其实我是觉得这个时候恰恰还是只在早期采用者那个阶段，也就是少于20%的人在用。很多人可能就是把它装起来就感觉情绪价值就够了，这也不用放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那吃灰也行，对吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以这个事情我觉得是其实是更深的感触。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你这么一说，张小龙当时做微信的时候，其实微信肯定也不是第一个做的，对吧？在国内来讲的话，当时竞争的至少三四家，都可能都不止三四家在做。然后最后他是一统天下，然后他做那几件事，其实我觉得首先微信做出来的这个产品就很克制。然后第虽然说产品很克制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你怎么不说摇一摇呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>摇摇一摇摇漂流瓶摇一摇是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，但我想我想说当老师说那个我很同意，技术上肯定早就领先了，或者说早就可以实现了。但至于说怎么去实现让更多人去接触到，并且能够天天使用，这是完全巨大的一个鸿沟。然后小龙虾可能就是在这个时间点上做到了这一点。虽然我也不见得看好长期小龙虾能够发展成一个超级APP或者超级产品。但是起码在这个时间点上，就像刚刚小苏说满足了很多很多无论是企业到个人，还是说产业上产业链上的大多数人的这个需求。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这是理性来看的，但是所有增长它都不是理性的。对我为什么我刚才讲摇一摇我不是开玩笑，就是没有瑶瑶也不会有今天的微信，对不对？你跟我说你能替代短信，你能干嘛，这都不足以构成卖点，对不对？或者要就也我也有米聊，其实我当年也是米聊的用户。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得来往米聊对米聊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>当时的用户量比微信大得多，而且功能都比较好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，你你也你当然你还可以说，这个马总。做了一个经典的决定，开放QQ通讯录。但我觉得最重要的还是你撬动了人家的多巴胺，或者叫肾上腺素，还是那个对吧？就是摇一摇这件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天小龙虾一样，只是说一个是，当然两个都不是正面的。小龙虾这个事情会让人觉得说有点被替代，或者是说formal？害怕失去的这种感觉？但有一小部分人觉得说我很爽？我有一个狗奴才在我身边我很爽。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我就喜欢及时响应的那种感觉。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但其实这些跟科技都没关，我觉得这些都是情绪的对，但是情绪是第一生产力。我觉得我非常我现在越来越相信这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以肯定会被吸收掉了。就是龙虾这个理念和方式肯定会被吸收掉了，最后变成更宜人的这个产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>会有更好的一个形态出来。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且是我们上期节目也讲了，刚好今天到了这个时间点，中国就是把token的价格打下来了，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>工程就是真的叫什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个人把打下来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>变成了AI制造业了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，对，然后你会发现说真的有一些模型就是负责智能，有一些模型就是负责干苦力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？甚至说你知道吗？我不是用跑的龙虾，我都在考虑要在本地装一个本地模型小模型来跑了，有些我不不不愿意示人的东西，我可能都想直接让小迪本地小模型来处理了。起码我自己现在就是盲目自信的，觉得我这些事情我都能掌握，未来都有机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得好的产品就是要让你觉得妈的我也行，我也行了，我自己也是这样，对不对？就是贤哥一拍手，妈的韦小宝头也行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>乖乖子的膝盖一卷。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，直接来来一把就是虎头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一把就是至尊宝。是。最后就祝贤哥的后宫三千枝繁叶茂，不是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>开花结果，开花结果，也祝大家的龙虾越养越肥，越养越多。自己的通过做海产品，尽快实现财务自由、时间自由、精神自由。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是token自由。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>token自由这个是有点自由。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，这期节目到这里结束了。好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就这样喽，拜拜，这样大家评论区见了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的。</p>]]></content:encoded>
-            <pubDate>Thu, 12 Mar 2026 09:39:06 GMT</pubDate>
-            <guid>69b288f884bce022f919628f</guid>
         </item>
     </channel>
 </rss>

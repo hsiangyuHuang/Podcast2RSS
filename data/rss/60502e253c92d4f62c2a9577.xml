@@ -4,7 +4,284 @@
         <title>十字路口Crossing</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577</link>
         <description>关注科技、互联网、AI 的播客</description>
-        <lastBuildDate>Mon, 26 Oct 2026 06:22:41 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 02 Nov 2026 07:21:13 +0800</lastBuildDate>
+        <item>
+            <title>[年终复盘①]AI带给我的10个Aha Moments｜庄明浩：RSI 来了、AI 的奇观与粗糙、巨头夹缝中的创业机会</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6ae6e230c96c8942ec156ed6</link>
+            <description>➤ 「十字路口」2026 年终 AI 复盘系列的第一期来了！
+今年，我们不打算做大而全的新闻盘点（交给 AI 总结就够啦），而是邀请十字路口身处 AI 一线的朋友们 ——创业者、研究员和投资人，分享 10 个真正触动他们的 AI 瞬间。
+本周的嘉宾是「屠龙之术」主播庄明浩，他的 10 个 Aha Moments 有惊喜，有惊吓，也有看完 AI 带来的各种奇观之后，想要重新找回一点粗糙人味的时刻：
+1.  00:36 OpenClaw：刷屏后留下了什么？
+2.  06:28 Seedance 2.0：字节赢的只是模型吗？
+3.  14:34 Sora 2 关闭：一鲸落，谁在生？
+4.  19:09 RSI：一篇 Anthropic 的文章，让明浩毛骨悚然？
+5.  28:21 老牌硬件厂商为何重回聚光灯？
+6.  31:26 Codex 与 ChatGPT 合并，如何理解？
+7.  35:12 Qwen 小模型：能力下放端侧，旧机会能否重做？
+8.  38:40 App Store 的收入变化：软件的护城河还守得住吗？
+9.  41:33 模型「斩杀线」：模型竞争开始算另一笔账？
+10. 45:12 Opus 5.5，明浩为什么只想说：「毁灭吧」？
+11. 彩蛋 48:38：从《赵云与阿斗》到「十字路口」公路播客，AI 天天造奇观，我却越来越想要一点粗糙。
+🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
+📒 文字版将发布于 @十字路口Crossing 公众号。
+欢迎订阅「十字路口」：
+🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
+🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
+👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期是“十字路口”2026年底年终复盘系列①，主持人科技邀请明浩，以“2026年10个AI Aha Moments”为线索复盘全年AI行业。对话从open cloud引爆、视频模型竞争、RSI叙事、巨头通吃与边缘创业机会，延伸到端侧模型、App Store收入拐点、模型“斩杀线”、AI“奇观”与粗糙小游戏的逆反，核心讨论巨头加速与夹缝机会并存时，从业者和普通人如何理解版本变化与体验边界。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>open cloud在2026年Q1成为“潘多拉魔盒”</strong>：明浩判断open cloud正式发布在2025年12月，但国内影响在春节前后爆发，春节后所有大厂瞬间跟进。腾讯楼下排队安装、抢mac mini、花钱请人安装，成为标志性场景。明浩原话：“那个潘多拉魔盒被打开了，那个感觉是很明显的。”他认为这一轮真正收敛的是harness范式——组件、云端/本地、24小时常驻设备、通知走APP/网页/IM等被打包成一套可操作状态。</p>
+</li>
+<li>
+<p><strong>open cloud热度的衰减曲线被明浩用作观察指标</strong>：他记得open cloud最火时发推特更新当天转发可达几万，后来几千，现在只有几十。他将其视为贯穿全年的长主线：“这是一个非常大的主线。”对普通人而言，当时不买mac mini、不折腾未必漏掉什么；但对从业者，早期体验能让人清楚模型与产品能力的边界。明浩原话：“你可能如果没有在那个时间点体验到那些双引号的难处，你就不太能知道为什么今天新的这一波的代表产品会这么做。”</p>
+</li>
+<li>
+<p><strong>CS2.0发布确认视频模型“要看中国”，字节站到最前面</strong>：明浩称CS2.0是视频模型节点，字节在视频模型领域已奠定公认世界第一。C2.0到C2.5之间半年多几乎没有大动作，但依然领先；语言模型每天更新版本，视频模型有自己的节奏。字节的独特优势在于闭环：短剧/漫剧/真人剧产业落地、广告、分发、用户行为与模型改进互相强化，形成“更强劲的一个RSI的循环过程”。明浩原话：“好就是大，就这么简单。”</p>
+</li>
+<li>
+<p><strong>“骚扰二关闭”引出头部模型厂商能否通吃的议题</strong>：明浩把3月24号“骚扰二关闭”视为第三个moment，认为它同时牵出视频模型竞争和“最头部大模型厂商能不能把所有东西都吃掉”的讨论。他的判断是两方观点都成立，不会谁百分之百吃掉谁。AI进入非主战场之外的边缘战场，机会很多，“不是说所有人都要去做1万亿、2万亿美金公司。作为一家一两百亿美金公司其实也很强。”他举例AI浏览器+AI搜索，以及“开始点”板块的“一鲸落万物生”，称已有四五家公司跑出来，估值10亿美金、月流水千万美金以上、AR可能1亿美金以上，且多为亚洲公司。</p>
+</li>
+<li>
+<p><strong>6月4号“when AI builds itself”定义RSI叙事</strong>：明浩称自己看到anthropic那篇文章的两张可视化图后“毛骨悚然，鸡皮疙瘩起了一身”。第一张图是anthropic的方块logo不断复制、蝶变、叠成更大的logo；第二张图从“人类加电脑训练anthropic”逐步演进到“人类不见了”。他原话：“我不用去看那个技术细节，单纯的看那两张图，你就知道这个世界变了。”他判断头部厂商内部此前一两个季度甚至两个版本前已在尝试，6月4号是偏观察者视角的“定义时刻”。下半年做后训练、RL环境搭建、数据、benchmark的公司收入暴涨，与new lab资金外溢直接相关。</p>
+</li>
+<li>
+<p><strong>上半年出现“文艺复兴”式老公司回归</strong>：明浩0627总结标题叫“文艺复兴”，第一页放2026年金曲奖最佳男歌手张震岳、最佳女歌手蔡依林，感叹“梦回30年前”“那些老朋友全都回来了”。他列举标普外涨幅靠前的戴尔、希捷、西部数据、美光、海力士、三星、AMD，以及港股联想、技嘉等DIY年代厂商，称前20名里16到18名是这些老公司，另外两家是减肥药公司，“似乎好像这个世界只有AI跟减肥药两件事情了”。他同时提出AI内容行业“三次死亡”：素材之死、流程之死、版权之死。</p>
+</li>
+<li>
+<p><strong>7月9号“日记VT6发布”与Codex的“版本之子”效应</strong>：明浩关注的不只是模型发布，而是OpenAI把Codex换成ChatGPT的“狸猫换太子”，codex的MU曲线从100、200、300、500、600涨到最近一次4000万。他认为Codex定义了这一波产品形态：左边项目、中间执行、右边类似显现状态，国内各种agent尤其是办公类agent“全部都是长成这个样子”。他也提到产品复杂后的反弹：ChatGPT太慢，自己简单任务转用CROK bot；客户端同时承载聊天、工作、design、项目后，会出现更极简的新产品“扎你一下”。</p>
+</li>
+<li>
+<p><strong>8月14号“签了3.8的27B模型发布”揭示端侧能力压缩</strong>：明浩引用一张甘特图式时间轴：GPT4O年代，端侧30B以下模型达到上一版SOTA需要18到24个月；到“千分3.8B”达到“ops 4点6还是4.7”的能力只需九个月。他判断前沿大模型在放慢，但小模型通过效率、路由、渗透率等追赶更快。成本是五六维度问题：单价、中美对抗、开源闭源、端侧本地、决策模型等。端侧小模型与决策模型在做类似的事——相对低成本下做更高效的事。</p>
+</li>
+<li>
+<p><strong>8月21号苹果Q3财报后App Store首次收入下降</strong>：明浩称这是连续十几年收入下降的拐点，认为AI coding能力到了，让每个人尝试做自己的软件，或把过去要一个软件完成的任务变成“日抛”功能。GitHub百花齐放是同一逻辑。他举李楠鼠标例子：微动不好，有人自己写了一个开源方案，李楠还转发说“大家用这个，不要用我们自己”。明浩判断，软件厂商的护城河说辞仍在，但“这个浪感觉已经淹到墙根儿底下了”。</p>
+</li>
+<li>
+<p><strong>“斩杀线”与“奇观”成为模型竞争的可视化语言</strong>：AA的性价比帕累托图被自媒体定义为“斩杀线”：deep sick出圈是因为得分高、价格低，其点往横纵拉出的长方形内模型“就没有意义了”。后来质朴在官方公众号推送里自己画斩杀线，国内民营厂商发布时开始普遍放斩杀线，“柱状的打分表已经没有任何意义了”。第十个moment是ops 5.5/oppos 5.5把播客内容做成动态可视化PPT，明浩称给一点风格指示即可跨过线。他用《帝国时代》的“奇观”作比喻：最头部模型要靠造奇观让人第一眼震惊；但天天看奇观已让人“葛优躺”“有点PTSD”。彩蛋是微信小游戏《赵云与阿斗》：所有画面都是文字，弓箭手是一个“弓”字，枪兵是一个“羌”字，武将是“赵云”两个字，靠极度粗糙的画面和成熟塔防玩法排名第一，反映人类对高清精致刺激的逆反。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li>
+<p><strong>腾讯楼下排队装open cloud的现场感</strong>：明浩回忆春节后大厂跟进时，“在腾讯楼下，大家排队去安装的”，抢mac mini，甚至花钱请别人帮装。这个细节把技术扩散还原成具体场景，而非抽象趋势。</p>
+</li>
+<li>
+<p><strong>open cloud推特转发量从几万到几十</strong>：明浩说他经常看这个数字：最火时当天转发几万，后来几千，“现在可能只有几十了”。这是文稿中少见的、可感知热度衰减的微观指标。</p>
+</li>
+<li>
+<p><strong>anthropic两张图引发的生理反应</strong>：明浩描述看完“when AI builds itself”的图“毛骨悚然，鸡皮疙瘩起了一身”，并比喻成“恐怖片里那个地上全是害虫在爬的那个感觉是一模一样的”。这种未经修饰的情绪表达，比技术论证更能说明RSI叙事对观察者的冲击。</p>
+</li>
+<li>
+<p><strong>李楠鼠标微动事件</strong>：明浩提到李楠做的鼠标微动不好，有人自己写开源方案，李楠转发说“大家用这个，不要用我们自己”。这是AI coding扩散到硬件外设社区、从极客圈向外扩圈的具体故事。</p>
+</li>
+<li>
+<p><strong>狂喜播客节AI议题占比下降与结尾祝福</strong>：明浩统计狂喜播客节AI话题占比从巅峰约15%降到百分之十二十一，这次88场里不到10%。他最后一张PPT是模仿gaster手势，标题原话：“他妈的AI不AI的。享受生活。”并说“焦虑留给我们就好了，对吧？你们就不要焦虑。”</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技。本周十字路口，我们又到了2026的年底要做年度复盘的时候了。今年我们准备做点不一样的，不打算做一个大而全的复盘，为什么呢？因为你要追求全面，去问AI就可以了。所以我们今天会做什么呢？我们会邀请一些我们在一线经历了这一整年AI的朋友们，来和我们分享他们各自在2026的10个AI带来的哈哈moments，我们希望能够成为一个系列，能够看到十字路口和他的朋友们的2026。所以我们本周请到了明浩。你好，明浩，欢迎来到十字路口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感谢科技邀请。大家好，我是明浩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明浩你的第一个2026带来的好门门磁是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你想2026年马上已经进入到Q4了。然后大家回想Q1的时候，可能所有人我觉得都应该会想到Q1 open cloud的崛起。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一个就是open cloud.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，当然其实open了正式发布应该是在2025年的12月份。但是真正意义上在国内产生比较大的影响，应该我们预测是在春节左右。没错，就一月底那个时间点。然后春节回来马上所有的大厂瞬间跟进。如果大家有印象的话，可能还记得，比如说当时在腾讯楼下，大家排队去安装的。没错，去抢mac mini的这个设备，然后大家去装，甚至很多人去花钱去请别人帮他装。因为在那个时间点，我们可能还是一个太过新，且太过相当于双引号不太完善的状态。但是在那个时间点，我会觉得参与到行业中的无论是技术从业者，还是研究员，还是我们这些偏产品跟观察的角度来说，大家都充分意识到了我们叫伊顿也好，或者今年更热的一个热词handles也好，所带来的对模型改进的影响跟对普通用户的促进。我觉得在那个时间点，大家是有这个感觉，就是那个潘多拉魔盒被打开了，那个感觉是很明显的。所以大家为什么会那么排除万难的，一定要又去体验并且感受这个东西带来的变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然后面发生很多事情大家也都知道，但是在那个时间点你会感知，确实在26年初的时候，我们真的卖到了一个新的时代。就像其实在二我没记错是在24年的时候，sam就说过L一到L5的划分。那当时划分L3就是agent，l2是推理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也就是在那之前，其实做agent跟做相关的尝试就已经很多了。可是大家都在摸索或者在找一种双引号的范式。这种范式可能包括我们今天回头来看，就是所有harness的搭建可能就是一套范式。就是到底给用户提供什么样的组件，用户需要接受什么样的东西，到底是云端还是本地，有没有一台常驻的24小时的设备。然后这个通知到底是通过APP，通过网页，还是通过一个已经有的IM，就所有这套东西的打包在一起的一个状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能在我们的那个时间点开始，大家认为已经收敛。虽然OPPO UD可能今天大家讨论的人已经没有那么多了。我经常会看一个数字，因为大家如果有印象的话，欧朋克O当时因为是个开发人员，并且是个人开发者，所以他的更新特别快。基本上上每如果今天没有更新，第二天一定差不多是这个节奏。我记得特别清楚，当时最火的时候open cloud发推特更新，当天的转发在推特可能达到几万，然后后来变成几千，现在可能只有几十了。所以回头来看，你会发现这条线应该是一个非常长的主线。在整个今年一整年的我们之前，我们抛开模型层，在这个产品层和应用层来看，这是一个非常大的主线。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以其实今天也会有一些声音，就说你看一下open cloud对吧？大家那么大的热情去那么多的疯狂，大家是不是有点太过于投入了，或者过于去吹大这个泡沫了，放大了一些焦虑，或者放大了一些formal。你怎么看呢？就当时那样的情绪，它好在哪里？不好在哪里？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得好在大家开始尝试，我会觉得这一轮我们今天就最近这Q四大家讨论所谓的personal agent，这一轮的探讨所有的演进其实在OMCLOD那一轮出来的时候的，大家的往未来去推演的时候，其实或多少都推演过。是比如说我要有一个类似我的群组，对吧？我要有一个我的集群agent的集群，那你发现在这一轮的present这个事情已经变成标配了。但是在那个时候还是属于少数人的一些偏极客的尝试。然后大家可以尝试怎么跟AI的agent，尤其是有你给他了上下文，给他了本地权限，给他了所有这些东西之后，怎么去做工作，做配合，做流程的改进。这些东西我觉得都是有意义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是在那个时候我们已经开始去探索，或者说双引号最前沿的使用者跟技术人员在探索这些新的事情。过去这一年无论是产品端的改进还是模型的改进，其实是延续着这些思潮在推进的。我觉得这是好，但是不好。就是说可能确实除了那些最前沿的，或者像我们这些最关注的人之外，大部分普通人可能如果没有参与到那个过程中，今天来看也没有漏掉什么。但是这个叙事其实在过去几年持续的出现。就是经常大家开玩笑说发展太快，已经快到我可以什么都不学，它就过时了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是有另外一个反方观点是说，你可能如果没有在那个时间点体验到那些双引号的难处，你就不太能知道为什么今天新的这一波的代表产品会这么做。就他们在解决的问题就是因为当时我们遇到了这些难处。这个来说可能是体验层的，可能是操作层的，可能是组件层，当然可能是协议层的，是更底层的技术层的那每一层都会有专门的人去解决。然后往前推，它就跟木桶一样，所有的桶的板子都拉了一块儿之后，才到了今天这个样子。所以我觉得是这样，确实我觉得对于一个普通人而言，没必要在那个时间点买一台mac mini装上。然后可能又不太会用，然后又折腾这那的那回头来可能那个是没有必要。但是除了之外，其他的事情我觉得都是必要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得对从业者来说是很有必要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然相当于给了大家一个你说是收敛的共识也好，还是一个相对更加明确你要知道该干什么的这个指向性，我觉得是整个过去一年巨大的贡献。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就这个世界它不是均匀分布的对，所以如果你可以作为early adopter更早的看到一些产品，那也可能你会得到比别人早一点的启发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像今天大家会说，可能慢慢的skills可能也不重要了。因为大家后来越来越发现，随着模型能力提升越来越多，你不需要去预制一些双引号的你的skill，他的模型能力可能已经覆盖掉了。但是你有了那套逻辑跟打法之后，你走过来这一路，你知道你非常清楚的知道模型跟产品能力的边界。然后你也知道他们的实现方式。那你用不用其实你就很自由了。但是今天你没有经历那些，那你只能默默的接受现在的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好，这是第一个。第二个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得第二个是差不多时间也是春节左右时间，就是CS2.0的发布。OK就是视频模型的一个节点。这个节点就是在那个时间点，大家就公认视频模型这场战役还是要看中国，而并且字节已经站到最前面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我觉得更现实的是，如果我们把语言模型和多模态模型或者视频模型分开来看的话。你回看这过去一年，语言模型几乎是每天在更新版本，你看版本号就好了，可是适用模型，尤其以C3为代表的这头部是模型的版本号更迭。其实没有那么快。那没有那么快原因可能是因为顺风型比较难，但更重要我觉得是顺风心有自己的节奏，或者说自己也有自己的节奏来去认真的做这件事情。所以你看现在是CDS2.5刚刚发，那之前是2.0，它直接从2.0跳到2.52.0、2.5之间。几乎没有做什么事情。也就是半年多的时间，你在语言模型这边不可想象，但是在那边哪怕他没有做什么事情，他依然是最领先的。他就已经奠定了大家在视频模型领域公认的世界第一的领先地位。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得是什么原因呢？就是他成为sota那么久了之后，大家也没有catch up。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得就是各家有各家的问题，对吧？因为原来追的比较紧的是google对吧？在海外，然后在中国可能是me max，是海螺，是pig，worst是这些公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>各家有各家的问题，就是说字节相当于在26年CDS2.0发布之前，就已经显现出领先的，但没有那么强势。但是你回头来看，从22年底到26年整个这一波模型训练角度来看，拥有独家数据厂商的这个编辑效应的增强其实已经有苗头了。那在视频领域自己是有这个资格，而且又因为自己是在这几家厂商里面，相对于中国的厂商来讲，它的资本跟人员的富裕程度跟对这件事情的战略决心是超过1个到2个身位的那跟google比的话，google在过去一年经历了别的太多的事情，导致他在摇摆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原来大家会认为google在多模态领域也很强，然后语言模型也很强，然后TPU也很强，大家都认为很强。可是这个故事叙事在去年你瞬间就退掉了。今天大家都说google落后了，那goole落后就要去追。可能上面就在用虚实扣顶，就要追语言模型，然后又加上。比如他的算力其实也是要受限的，他的团队内部之间也要去抢资源的对吧？Goole云语言模型，D曼多模态有视觉模型，各个团队之间也要去想。又因为可能在美国蓄势那边，多模态可能是一个边缘战场，或者说没有那么就可能半桌它不是个主桌，所以他在策略上可能就没有跟的那么紧。或者这件事情对于google讲阶段性的战略选择来讲，优先级不是排。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在最前面。大家还是觉得coding通向最终极的AGI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以可能在上半年他就没追。然后又因为我更现实的问题在于，可能这个配置产业的议题就是去年开始兴起的这这一波AI短剧的浪潮，到今年更疯狂了。我不能说更好，只能说更疯狂。当然他有大浪淘沙各种各样事情。但是这件事情对自己而言就是一个更强的，我们叫loop，就是更强劲的一个RSI的循环过程。就产生了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>字节全家桶，就是字节产生字节分发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对字节消耗广告对吧？字节锁拿掉所有的，然后又因为这件事情对模型本身有错，然后用户行为也全都。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这真的就是RS.</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>I就真广义上的R就全流程的全部吃，而且利润也都全部持。所以这件事情自己就不需要任何担心和怀疑这件事情的任何问题，他就策马狂奔的。而且在这个角度来看，其他精神选手跟他就不是一个量级的选手了。他可能其实理论上说可能跟它是这个圈儿看起来是类似的，但是他可能圈比它小小好几号。当然他也能赚，但它就小。但这个事情在这个世界这个大就是好，对吧？好就是大，就这么简单，那那怎么办呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得CD420的发布跟过去这大半年，虽然它可能占据媒体跟比如说我们这样的传播的版本不是特别多。但是它在真正意义上产业落地跟的相关的漫剧、短剧、真人剧。然后这个是配套的出海到水模型的演进。你看过去这半年多整个视频模型行业在有一些视频模型行业打过这个仗就去追世界模型去了。真正意义上还在打是世界这视频模型的这样他们就是在作为高清4K？超长动作的一致性、稳定性，人物的稳定性，然后你就在追那些古典意义上视频质量的事情了。对，他们都在追这些事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且美国的竞争对手感觉都退出战场了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>基本上我们能够提到的也就是说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>骡马皮卡这些都已经不逊自己。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不那么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也不能说是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你慢慢的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>out了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是不在主流视线中了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你觉得视频模型的战争已经算是结束了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今年另外一个热词就是世界模型。然后大家又会认为语言，然后世界模型包括视频，甚至在拓展所谓的物理。如果实验模型也包括物理，那这些事情到底它是包在一起，会最后用一个通用的方式全部解决掉。尤其是GGPD6发了之后，GP6去做3D的这个事情，搞定这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近一段时间关于这个讨特别多，到底我们能不能够通过当前在语言模型上验证的skin law，就一杆子捅穿所有事情。你包括O45出5.5出来之后，大家去拿它剪视频对吧？这个也是我一个很重要的。如果未来是一杆子能捅破所有事情的话，那他就在一起，可是今天现在看起来还是分开的，那你翻译到底掰哪边？现在来看两边的观点都很充分。从这个角度来说，今天有点所有做视频模型的，做事业模型、做物理模型的的独立厂商其实站在这一边的。但是通用模型的厂商是站在我会认为一杆子就全部捅破的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那到底这两条线是会在什么时间点出现什么样的变化，我觉得也是明年会关注的很重要的节点。你像前两天那个谁，语数的王金星不就说他说GPT7发出来，应该就是把物理捅穿。那就等GPT什么七什么时候发了，那捅穿了。对于所有的今天的时间也在做偏物理AI的独立的模型厂商而言，可能就是个问题。这个问题可能是挑战，也可能是威胁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们之前在十字路口公众号还有一篇文章。因为再讲的就是说这个阿斯卡对巨神模型是不是降维打击，然后真的会毁灭这个普通的巨神基座模型的可能性，从一分到10分是几分？因为那个时候正好我主持了两场论坛，然后上面就有七八个今天还是比较一线的巨声公司的创始人或首席科学家。然后把大家的观点总结为1到10分就觉得会被打击的程度的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得现实的问题在于自身本身的商业模式没有非常丰满，就没有非常的稳定且固化，所以它存在很容易被捅穿的可能性。但是我们经常会有另外一个角度就是游戏。虽然也大家会认为你像这轮，尤其这轮5.5跟6出来之后，大家也会认为游戏也被。但是游戏被颠覆已经这个话题已经被说过很多次。世界模型那波也出来了，什么经济三那波其实都出来。但是每次这种问题出来的时候，好在是游戏本身的固有商业模式还够强，就这个行业的盘子足够大，足够支撑很多事情，或者说这个行业走到这么大是走了很远的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然这个事情你说这个话的时候，同样也会有另外一个声音也会跳出来。就跟最近一段时间大家讨论逆向一样，就软件行业也走了很远。体验、操作、交互大家认为也很重要，也是非常重的护城河。但似乎大家也会有点呆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个就是你和真实世界的联系有多强。如果你一切都是在数码世界里面，这个摧枯拉朽的力量来了之后就是瞬间没了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得4.320，当然他可能再延伸的是短剧行业的事情，那是行业的更复杂的事情。今天可能我看前两天有朋友说，如果回看同一时期的发展脉络来看，红果上线三年的发展速度是超过抖音的。无论是用户量还是用户时间，可能打败了抖音的是红果。对，好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们前面两个，一个是open cloud，然后第二个是C.</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>段20的发布.</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第三个moment.</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三个其实顺眼话题3月24号骚扰二关闭。当然大家会说在那个时间有一种论调会认为纯视频本身模型的独立状态被C34影响过于强烈。然后又因为竞争的疯狂加剧，让OPI在有限资源选择上选择一些调整，然后把它关掉了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>战略放弃。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我觉得这个引发两个议题，一个议题就是刚才我们还是刚才我们聊的这个视频模型的这个题。另外一个议题就是其实也是过去这几年大家讨论特别多的一个议题，就是到底模型厂商，尤其是最头部的大模型厂商，能不能把所有东西都吃掉。现在看起来这个议题的两方观点也都很都有自己非常强的站位。一方会认为就是会吃掉，就像刚才我们聊，他会去捅穿所有事情。今天捅穿了数学，明天捅穿物理，后天再捅穿什么的，可能法律金融anyway什么的。然后另外一派观点会认为，哪怕大模型这么强，你也会在各个垂直板块看到过去几年也发展的非常快的公司。我觉得这两方观点其实都对，没有说谁就一定把谁百分之百的全部透支掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是确实那就对于今天而言，我觉得AI这一波发展进入到了大家可以去认真的看一些我们叫非主战场之外的边缘战场其实也不小。那这边人战场的机会也很多，不是说所有人都要去做1万亿、2万亿美金公司。作为一家一两百亿美金公司其实也很强。那今天你会发现在AI这波大浪之后，这个一两百亿桌的盘子其实非常多的。无论是从技术能力的垂直角度划分，还是从行业的横向角度，其实出了非常多可能性，还有很多的机会可以搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有哪些边缘战场？可以举一些例子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>纯从这个大模型最近的这个板块，哪怕大家会认为视频模型可能已经被捅穿或者可能性，但是视频模型也长出了很多工具。然后另外一个角度，比如说AI浏览器这样一个板块，或者说AI浏览器加AI搜索的这个角度。Policy虽然没有什么问题，但protect一直收入流量都很好。可能protea今天也两三百亿美金的公司了。他虽然在大家认为AI搜索第一天就会给我干掉，浏览器我发现已经把谁还记得open I也发过的浏览器，对吧？Comment对，这已经不重要了，对吗？但是就是在这些大家默认已经没什么人提及跟无人关心的角落，还是有些公司涨得很好，而且立得很开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你像最近大家可能聊的比较多是开始点这个板块，或者说中美两国的观点差别也比较大。这个在美国基本上我那天看谁讲讲的特别好，就一鲸落万物生。典型非常典型。就是开始点就是在核心团队，原来是google出来了，然后google核心团队买走了。然后在那个时间点我觉得开始点A的公司的使命状态已经被判了死刑了，只不过过去几年在延续，这个是死缓。对，就是死缓。然后这个战场其实也有很多公司在做，但是直到今天，直到可能202年下半年这个时间点，真正意义上可能已经现在市场上已经有四五家公司跑出来了。双引号跑出来就是可能估值10亿美金，甚至消息10亿美金，月流水可能千万美金以上，就AR可能1亿美金以上了。已经有不止一项，中国公司、韩国公司、东南亚公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>几乎都是亚洲公司是吧？就是OOC em。当然你说相对于。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>1万亿的OpenAI跟2万亿的S来讲，确实不是什么大事情，或者他们也看不上。但是对于一个初创公司而言，或者对于比如说做早期投资而言，这个事情是值得参与的。而且非常简单明晰的看到了，我会觉得当我今年有另外一个很大的感触是说，当我们频繁的去提及那些最大的数字的时候，我们已经忽略掉了我们起初在追求的不是那个。尤其对于早期投资而言，你要想当年我们投出一家10亿美金的公司，已经是非常好的成绩了，对吗？那今天这个战场里10亿美金的公司可能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚融完天使起步价。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对当这个市场最大的公司已经涨到1万亿美金。2万亿美金的时候，他们已经比很多我们想象中的传统巨头都大，他们收入也比那些传统巨头都大。他们花了那么多钱的情况下，他的那些钱就会变成另外一些公司的收入。这个量级就够养活出来110堆可能几百亿美金公司了。所以今年这一轮RSI诞生了什么数据公司，做后训练的公司，做推理的公司，这不就都是这个逻辑吗？甚至那波new cloud公司不也是这个逻辑吗？6月4号你发了一篇文章的标题叫when AI builds itself。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>RSI阿萨维特。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是一家特别擅长做动画的公司，双引号的动画是什么？就是他们每次去发布这种博客文章的时候，都会配一个可视化的很好的示意图。因为我天天做PPT，我对这种图的感受特别明显。他画了两张图，我看完之后就是毛骨悚然，鸡皮疙瘩起了一身。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一张图是它标题的图，就是它的标题在左边when AID itself右边画了一个动画。那动画是什么？就是anthropic的logo本来是个方块，是一个你可以像马赛克的方块，然后逐渐变成topic s logo，不也是那个样子。然后那个方块复制，然后慢慢再变成SLL logo，然后不断复制，不断蝶不断迭，然后叠出来一个大的SL logo，而且大，再变成一个小的蓝色logo，再点然后再变成一个更大的蓝色的logo。我当时看完就跟恐怖片里那个地上全是害虫在爬的那个感觉是一模一样的。这个太这个可视化做的太清楚了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一生22生3三生万。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>三生万物，就是这么简单的东西。他然后这是一个示意图，然后他在他的文章正式里面画了一张更清楚的，可能是给他这张还是一个偏动画的感觉，他画了一张更可视化好的示意图。就是说我们原来他画几行，第一行是人类加一台电脑训练topic，人类加电脑得出topic的logo。第二行人类加电脑加topic训练出新的topic。第三行人类加电脑加两三两个topic logo，后面这样然后加加到最后人类不见了。就是我不用去看那个技术细节，单纯的看那两张图，你就知道这个世界变了。或者说你要知道6月4号他决定发布这篇文章，就代表他在之前的可能两个季度甚至两个版本之前，在体系内已经开始尝试这件事情了。他才经历过测试实施到可以拿出来给公众看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>6月4号所以之后下半年出现非常多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所有叙事全部围绕这件事展开。所有的趋势同供应厂商已经几乎马上你像当时质朴那个季度财报发GLM5.2还是5.3的时候，唐杰老师说GM6就是最大的下一个版本，就是完全基于123I其实在年初唐杰老师那次在北京大会上也提到了。但是在那个时间点，就是在可能在26年年初的时候，头部厂商的创始人已经看到这个可能性了，甚至内部也在做尝试了。但是6月4号是比如说我们这些偏我们不是研究员对吧？我们不是真正影响参与模型。我们这些偏观察者跟从业者的角度来看，真正有一个最头部的厂商定义了这件事情的状态。我已经在局部看到了这种循环的可能性跟产生的状态，并且告诉你我们在内部什么环节用到什么程度。他在过去的可能一两年时间里面是以什么样速度跟什么样的状态影响我们所有的事情。然后我觉得这件事情引发了特别多，可能下半年所有的这些事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在上一期的我的季度总结的PPT里，我就讲你像伊利亚，伊利亚今天的模型还没有发，但是他之前说他在做叫TTT，就是实时的training，那你可以为一样的逻辑。然后你看田园栋他们那家公司，我看新闻今天他们发了正式版第一版模型，然后他们公司的名字就是RSM，只不过是换了另外一个单词。我sive对recursion，然后对的首席科学家，27年的google老员工jeff丁离职，他那个公司的logo就是一个无限大的符号。然后那个mira他们当时就提出也是在讲loop的过程。这些相当于这些原来这些最头部大厂的最核心位置的研究员跟专家，跟科学家们在差不多的时点点在做类似的事情。可能角度或者说实施路径会有不同。但是我觉得他们是看到了一个大的方向的收敛。就这个大方向可能后来很多人都意识到了，但是似乎到了20年收敛到了一个可操作的状态里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一波new lab出来之后，钱都涌进来了。New lab也好，大的lab也好，都需要建立针对这套RSI的体系。人员、组织、训练、环境、数据，所有事情全都来了。这些钱这些new lab要花的这些钱流到了下游，下游的生态就被硬生生拉下来。所以引发了今年下半年所有这一波，甚至今年Q2可能就已经开始了。做后训练的，做22环境搭建的，做数据的，做benchmark的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>无论是中国美国所有厂商暴涨收入暴涨这个故事我觉得它像一个也像一个潘拉魔盒一样被点燃了。而且点燃之后这个东西因为它是这个过程，你了解这个循环过程，你就知道它打开他就关不上了。当然这引发了更复杂的，比如安全的问题。所有的就跟阿萨伯克那个那个logo，那个动画演的是一样的。就是当它不断的复制，不断的延展，不断的去把它触角展开，那很多事情就防不胜防了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以限制它的唯一的可能是能源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是能源现在又出了问题，就或者说是电力设备。那你像前两天阿斯维又发了文章，是说他们内部去监控到模型自己AI模型可以用大概二十几台电视盒子串起来来跑电视盒子几十美元，中国更便宜，那算力是什么情况？但是模型可以依靠自己的能力把几十台盒子串起来，然后自己跑。你想你光把数据中心的电源看起来已经没有用，当然这都听起来都像科幻片一样的故事了，但是似乎今天在至少在数字世界，这事情在发生了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>昨天的新闻就是net fix拍好了一个纪录片，是记录我们I的那个模型攻击哈尼弗斯。这么快就派出来。对，这么快，8.99刀还是9.99刀就可以买到了。但是哈根face的CEO看完了预告片看他他肯定先看那篇。他说他有点失望，他说他的face太过渲染这种负面的OK情绪，但是现在每个人说话你也不能，你也不知道他的角度、他的利益、他的什么，反正世界就是这么个世界。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>已经走到这儿了，我觉得值得一看。对，因为在我们录播课的今天、昨天都分别有非常大的安全事故发生。你怎么看呢？接下来会发生什么？PHP出问题，然后pink KUP被攻击，就是感觉好像你很难幸免于难。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很难，因为太难了。首先所有的时间全部被压缩了。原来你知道安全领域，大家看漏洞前面有一个代名词或者不叫代名，就是它的形容词叫零day。就是比如黑客去发现一个漏洞，这个漏洞什么叫零倍呢？就是在这个厂商，比如说发现了微软操系统一个漏洞，但是微软定期会更新，它会打个补丁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>零这个漏洞代表着它在打北京之前的漏洞，就是我的这个发现的东西是他没有发现，是市场上没有发现，这叫零类。零类是可以来卖，来去攻击，来做所有事情。然后很多这个黑客的工作就是找这种我们叫零倍的漏洞。但今天零倍可能已经被压缩成，虽然零已经是一个不可被量化的词，它但是它代表其实是一倍，就是你当天之前的。但今天可能这个事情已经被量化到0.000000001的阳极力了。就像昨天PHP的漏洞，其实他们已经在做很多事情，但是没办法，视频被放出来，然后漏洞的逻辑跟实现的方式，但凡没发出来，有一定技术能力的人看到一点点苗头他顺。就是因为这些人天天跟这些打交道，他只要有一点点灵感的火苗被点着了，实施层今天已经没有任何的对从。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>间隔点到b hacking.</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对已经没有任何的难度了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实现在很多的攻击，我觉得不带任何的目的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那天我看谁啊也是一个也是做最近这几个月爆火的，做后训练跟RI环境搭建的厂商的CEO接受博客长，他说了几句话，我毛骨悚然。也是他说最懂代码规则的AI当然最懂得如何利用漏洞。你在追求的73 24小时的agent的同时，也是一个72小时无休息无终止的猫，在一直运作，这是这件事情的一体两面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们虽然在聊啊哈moment，但感觉聊的都是毛骨悚然moment.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也没办法，就是今年特别多的这种时刻。当然我觉得后面会聊到更细节的，就是各行各业，哪怕是最前沿的人，也会经常的感觉无力感。你像今年几个非常重要的时间点，比如前一段时间那个狄浦斯克的研究员那篇文章。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不得不把我的才华埋葬在昨天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你想他是研究员，而且是最一线的研究员，他也然后你像我今天我记得今年特别清楚，卡斯克在看到5.1的时候，还是GPT6的时候，他有一篇文章推送也是讲。他说原来我还认为我能引领一些事情，我还有我的品味、我的审美，我的这些东西的花招，我们可以去教他跟引导他，现在发现我只能站在后面。这个感觉在各行各业出现特别明显。今天我的感觉就是o bos 5.5出来之后，可以做可视化的视频剪辑和播放。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是不是你的第五个航母？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能不是第五个，因为它在时间上比较靠后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们先讲第五个，第五很有意思，第五个是0627，就是相当于上半年结束。我也做了一次总结，我那个标题叫文艺复兴。然后我那个PPT的第一页是放的前一天，我在演讲的前两天的今年的金曲奖颁奖典礼。2026年的金曲奖最佳男歌手张震岳，最佳女歌手蔡依林。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>梦回30年前。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你就说这个世界发生了什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？为什么没有新人出现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么就是发生了什么？然后我的第二页PPT的标题叫那些老朋友全都回来了。我们去看标普外，整个所有的这些标普外最核心的公司的上涨幅度，拉排名的名单，可能前20名里面有16到18名，我数这些公司的名字，大家听一下。戴尔3 desk、希捷、西部数据、美光、海力士、三星AMD。微博也不用讲了，卫星甚至可能在中国港股这边，联想、技嘉，你听到这些名字的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么老登在统计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>等一下就是就这种我们这种80后，在当年攒机的那个DIY的年代的所有这些厂商，全部今年都暴涨，全部是这些公司。那这个世界到底发生了什么？就是为什么就今夕是何年？我当时看金熙讲，当天晚上我就这个感觉，我说今夕是何年，就是为什么会变成这个样子？当然你可以说是没有新的可能性，还是因为一些特殊的需求导致的一些特殊的原因，让这些双引号的老家伙们又回来了。可能AI来了之后，世界上就不会再有新的歌手了。就是新的我们古典意义上定的歌星可能就没有了，互联网时代可能就没有了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为媒体已经去中心化了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>要五百前20的涨幅，我还都不说有17到18家。另外两家公司是什么呢？做减肥药那家公司。所以似乎好像这个世界只有AI跟减肥药两件事情了，这个世界现在对硅基太不友好。这个阿嬷的可能不太有人会这么想，但是我会觉得特别有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很有意思。对这个AI肯定不会这么想，这个是我们这个播客还存在着一丝人类的荣光。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我们也算是一些内容创作者，我们会对这些内容板块出现的事情会更敏感。然后我今天上半年也做了一次演讲，是讲AI内容行业的AIGC的冲击的。我我我当时说是三次死亡，首先是素材自死，素材本身就大家都知道，然后是流程之死，然后是版权之死。流程自死我们已经在剧的领域跟电影领域看到了，甚至音乐领域也看到了。最后就是版权商业化，其实在短剧我们已经看到。再往后到底是什么呢？就是我们商业化对艺术的追求，或者说现代的艺术到底在AI时代会发展什么样子，可能就是一个更更复杂也没有人讲清楚的议题了。当然这个议题业界讨论也很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一定会发生，只是发生的速度和强度都超过了我们的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>正方向是什么样我们都都不知道了。对，所以我觉得这个也。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>蛮有意思。对，OK我们讲了五个了，正好讲到上半年结束。第六个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>7月9号日记VT6发布。这个模型发布大家都已经知道，我就不需要讲了。我讲另外一个角度，发布的差不多时间点，OI做了一个狸猫换太子的动作，把codex换成了拆GPT。大家开玩笑讲狸猫换太子，然后就有了那个可能很多人看过那个曲线，就codex的MU的那个曲线就暴涨。那最近一次应该是4000万，之前就是100、二百、300 500、600是这么在涨。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得在那个时间点，就七月份左右，那个时间点是什么时间？大家可以回想一下，cloud code其实是去年就发了。然后在Q1的时候cloud code基本上大家认为无敌。然后codex在Q2开始追的是这个时间点，然后在0709之后慢慢codex越做越好，然后codex至少在口碑上也追回来了。然后在什么大家会认为双引号，因为我这次的我去狂喜的这个标题叫版本优化了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Codex是上一个版本的版本之子。什么叫版本之子？就是它定义了这一波所有产品的样子，codex基本上是可以定义这件事情。然后甚至有我那天看是谁干嘛的，类似CEO还是谁，就是直接画一张图。他说未来很长一段时间，所有的软件，甚至葡萄和sas软件都应该是这个样子。就是现在我们大部分用的AI软件一样，就是三蓝左边是项目中间执行，右边是一个类似显现的状态。就是你你看今天大部分的产品都是这样。当然这一波post AI又推回去了，但是你回想在普通人家出来前的这一波，各种各样的agent，各种各样的产品，各种各样SARS，各种各样的什么垂类的产品，基本上都长这个样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为生产力长成这个样子，还是是这个共识。Personal a而且它还是没有那么生产力的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就版本有变。所以在那个时间点，你相当于就是我开玩笑要讲，code x是个非常好的老师，所以什么kim code、什么z code，什么一max code，然后。国内这些双引号的各种各样的agent，尤其是办公类agent，全部都是长成这个样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实最早长这个样子的还是minus。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实是的。我觉得codex和ChatGPT的合并其实也带给我一个副作用，就现在我开始用CROK bot，原来我百分之百的任务都在chat PT完成。然后复杂任务我可能会用minus，但现在我变成简单任务，我去用word bar。为什么呢？是因为chat .</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>V.</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>T太慢了。对我默认又开在这个SR6的流传.</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可能又需要选聊天工作。然后你又会觉得有一些事情虽然可能应该是聊天，但你又会觉得万万一这个事情再延展出什么呢？你待会还是会放在工作里。那个聊天存在的价值似乎就对，因为它放在一起就要去承担这种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>包括他给了我优创模式，我觉得我不用youtube模式我就吃亏了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你还要考虑额度重置乱七八糟。所以所有这些事情我觉得都是一次一次就是当你的产品的样子足够复杂，而且你的包袱足够多的时候，就一定会有一个更新更好的，更没双引号更好的东西。因为你没有办法在原有的事情上，所以他自己为什么要做那个到？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后包括昨天晚上cloud也发了为什么？因为他知道原来的东西他已经跟cloud也一样。Cloud客户端现在聊天框，然后他已经说我可以默认帮你去找work，就他不要选了，然后code也在上面，然后他最近把design也放在里面了，他加了一个什么项目，就是你的原来design。因为great cloud design是只能在网页用的，然后他没办法也要加到。相当于它的客户端已经复杂到它可能同时兼具了3到4个大的原来独立产品的。他又不能说一刀切，我全部切掉也不可能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就由俭入奢易，由奢入俭。然后在你已经繁杂到不行的时候，好这个时候就会出现一个新的扎你一下，扎你一下，用极简的方式。对，其实我觉得muse也有这样的是的一个市场定位。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我我我现在最大部分都在muse上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是六个了，对不对？好，我们第七个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>8月14号签了3.8的27B模型发布为什么是选这个？因为大家知道这一年我如果我们只谈论模型发布，可以谈论无数的是选择。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么挑了这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也是看到一张非常好的图，那张图是什么？它是一个时间轴，就像甘特图那样的时间轴。这个时间轴是什么呢？就是比如在某个月或者在某个时间点，二三点什么时间点，比如GPT4O发了，它的能力是这样的，然后往后推这一行，就往后推推到什么时候停止呢？什么时候发布一个新的模小的可以在本地部署的，比如30B以下的模型的能力。到了GTCO，然后他就拉出来一个横条，这个横条代表就是时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白就什么时候端测模型的能力强，到了上一版的sota模行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>V94O那个年代这件事情可能需要持续18到24个月，就是一年半到两年，到千分3.8B千万3.8B就是ops 4点6还是4.7的能力，就是九个月。就是你那个甘特图画出来就特别的明显。因为甘特图是一个非常容易看到这个节奏进度变化的，原来就是这么长，慢慢慢慢慢慢慢就这么长。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个加速的背后的原因是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得刚才我们聊的很多的事情，全部都是模型训练的变化，对吧？强化学习环境的搭建，然后超大当最大的模型，最前沿模型的参数到了T甚至T10T流量级的时候，出现了更多更复杂的问题。激活的问题，专家模型的问题，优化的问题，路由的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以它的速度本质上那样，我如果世界上有一个可以定量，虽然今天没有定义模型能力的直线曲线的话，那明显这头模型其实在放慢一定在放慢。但我们现在没有办法量化它怎么放慢。虽然有一些benchmark对吧，但是后面追的就会比较快，这是一个项。然后就又因为你小模型在小参数量下，可以在其他事情上做得更好。效率与路由渗透率乱七八糟这些事情做过，所以它接的越来，当然不可能永远我觉得永远不可能接近，就是瞬间不可能。但是它越来越压缩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>九个月就代表着今天我们被称为奇观的东西。九个月之后就可以在一台很小的设备上本地跑端测模型的能力。这么快的这么短的时间达到一定能力的话，那一定会打开一些别的东西的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你觉得端侧模型最后还是是今天的基座模型，几个大厂最后做出来的还是在端侧模型会出现不一样的厂商。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这我不知道。那就变成了比如说对于独立厂商他要不要赌，我觉得这从这个角度顺延这个决策模型出现，我觉得也是符合这个逻辑的。如果我们把端测模型，可能大家还是会把端这个词看得太重。但如果我们把模型的，比如说它的大小，它在做什么事情，然后它的成本这几个因素加在一起，作为一个衡量因素来讲，端侧小模型跟决策模型其实是在做类似的事情。就是在一个相对低成本情况下做一个更高效的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更快更便宜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>决策模型在这个时间点出现也是这个原因。当模型的后训练，模型的学习，这个数据环境搭建，包括模型本身训练的本身就是预训练本身的复杂程度。就到了极端情况下的时候，他就会有厂商要做更小的更简单的事情。这些更简单更小的事情，双引号是为成本考量。就成本这件事最简单的是价格单价，可能还有别的。比如中美对抗的问题，开源闭源的问题，端侧本地的问题，决策模型。但通用模型可能也包括今天所有的模型厂商是分就跟iphone 1样分pro max pro然后flash标准版，然后flash还有light去分这些版本，这个可能也是一样的逻辑。所以成本是一个五六个维度的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK这第七个第八个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是另外一个议题，就是8月21号苹果的第三季度财报发布之后，苹果的APP store是在那个地步首次下降收入下降，连续十几年的收入下降。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家不买软件了，不买APP了，你自己糟了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我们进入到了一个这样的时代。那你像最近几个月1两个月逆向的这个事情被讨论，但是我觉得是符合非常符合逻辑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就这个可能从有模型的第一天，大家觉得这是会发生的危害，然后他在此刻发生了。当然就是这件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>事情是不是因为这个唯一的原因，或者他是不是最叫充分必要条件，我们不知道是，但至少这个时间点我们看到了这，或者我们可以找到一些证据证明这件事情正在发生。当然苹果可能自己有自己的问题，它增长的问题，它设备已经普及的乱七八糟。包括苹果的APC运营的，他可能有很多问题导致的这个扭转点的出现。但我们一定这里面很多原因里面有一个或者甚至可能有很重要的一个是AI coding的能力到了。我们可以去尝试每个人做自己的软件了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者一些过去要通过一个软件完成的任务。今天我直接让模型就帮。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我做了日抛，就一个功能就搞定了。今天百花齐放的github成为新的也是这个原因。大家随便做个小东西弄上去就百花齐放什么都有。我那两天看，我记得特别前两天也是国内很有名一个创业者，就是原来魅族的VP叫李楠楠总，他不是做那个键盘鼠标，也上过我播课。前两天就是我看谁啊规章买了个李楠总出的鼠标，他那个鼠标的微动做的不好，会长自己写了一个开源了。然后李楠总还转发说说大家用这个，不要用我们自己。当然，这可能对于普通人而言，听起来还是有点天方夜谭的。但是它相当于从原来一个非常极客，非常假的人群已经扩了可能两个圈了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我最近自己web coding的一个程序是我喜欢观鸟，然后最近又是千禧剂，所以千玺剂在上海，大家就会去南汇东滩看恒育。然后恒育类的鸟是最难辨认的鸟，因为它们长得都太像了，所以这个也是观鸟爱好者特别喜欢的一件事情，就是辨认出哪只很玉。然后我已经尝试学习了三年了，仍然就觉得自己现在考试可能只能考十分。然后我就让AI帮我做了一个学习程序，就要遵循什么沃宾浩斯基曲，然后最近在天天用它，像打卡多邻国一样学很欲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你看多邻国虽然收入用还在涨，但是股价已经跌的一塌糊涂。没办法。虽然大家会认为，或者说如果我们今天是这些软件厂商的，就是站在他们角度而言，他们当然会有各种各样的说辞去，说我们有我们的双引号的护城河这种的。但是这个浪感觉已经淹到墙根儿底下了，至少所以写到未来会怎么样没人知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在感觉还是有一个软件，不管怎么样我都会持续付费。One password。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以最后就变成这些最核心的，比如支付相关的对吧？然后密码相关的，安全隐私相关的，可能也只是可能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们第九个moment是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>美国有一家做那个benchmark的网站叫AA，他在11期间发了个视频，这个视频其实就是一个可视化的的图，我们叫性价比的图，就是帕雷托最优的图，就是纵坐标是这个模型的打分，横坐标是图文价格。然后所有的模型就会分布在这个空间里，然后你就把最上面这些点连在一起。那就代表着当下这个时间点的所谓双引号的拍摄的最优是那个曲线原来就是可能在最底下，然后一点就被拉到无限高，然后就是这个事情。然后再往前推这个图的可视化，我们的开玩笑原来叫斩杀线，是就相当于比如今天如果出现一个新的模型，它在这个横纵坐标上会标一个点。比如deep sick当时为什么会出圈，就deep sig v4.1还是那个版本出现的时候，他打在这个地方，这个地方代表什么？就是他的得分很高，但他很便宜。然后也就是他点打在这儿，然后往横拉再往纵拉拉出来一个长方形，理论上来说这个长方形里面的模型就没有意义了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为它又没有你强，然后还比你贵。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然就是单独的打分可能对用户体验而言不是一个好，但是至少你可以看出这个趋势，所以就出现了斩杀线，也就是说他打到了这儿，那你底线模型要做的事情就是要超过这个斩杀线，要不然你不就没有意义了吗？然后他后面又更新一个很快更新版本，就把斩杀线又拉上去了。然后这个斩杀线的这个图，或者说我们把这个图画出来，把它定义成斩杀线的这件事情最开始是我们这些自媒体作者做的，是我们用一种这样的方式去讲述了这样一个故事。比较好理解，就是非官方做的相当于对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后大家如果还有印象的话，GF5.3的flash有一个上线之前的版本叫牛来。他借了那个蹭了那个电影的风，然后在海外不就匿名打榜。然后等他正式公布的时候，他说这个双引号牛奶的模型就是我的GM5.3的flash。他在这篇质朴的官方的公众号推送里，质朴自己画了斩杀线。然后至此开始你发现基本上国内所有的民营厂商在发布的时候，除了去放那个打分表之外，所有人开始放斩杀线。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实很直观。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>斩杀线实我觉得这个也跟我们刚才讲的话题是一样，就是成本是一个多维度的考量。然后这件事情似乎开始被定义成我们去衡量一个模型好跟不好很重要，哪怕只是为了吃瓜群众们看起来很强的一个表现方式。因为大家已经知道那个柱状的打分表已经没有任何意义了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但说到这里，我想到最近OPPO router就发了一个数据。他讲说在去年一季度的时候，这个top 10的模型就从这个benchmark上，就可能大家最公认的benchmark上打分top 10的模型调用量是八成左右。然后到最近一个季度就过了五个季度，这个sota的这前十的模型的调用量在open router只有两成了。也就是更多的人其实是在用，没有说他的模型，因为他们的任务没那么日常，没有那么复杂。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>价格比较贵。所以我觉得这个未来可能世界就会一方面斩杀线会继续存在，sota的追求会无止境，而且越sota可以越贵。对，就是愿意为他支付的那个溢价，对，也是一定会存在的。但另一方面我觉得会出现免费的那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>open root的图，会有一个是token量，另外一个叫span就是钱花的钱也会有这个往下的趋势。所以这个斩杀线的事情可能是已经大家公认变成一种具象化的考虑。就是单纯打分已经没有意义了。因为所有的榜单只要出现榜单，它就会被打满，接近打满。那怎么去衡量或者怎么去看起来一个模型变得更好，就是用这种斩杀线的方式，我觉得这也直接就echo了。第十个最后一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>压轴的新闻。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是5.5出现之后，然后我是先看到了人，他跟橘子做了一期播客，然后他们那个博客的样子就是三个头像，一个月类似PPT的样子。然后橘子一边讲，一边把他讲的这个话做成可视化的效果。因为我我是一个天天跟PPT跟可视化打交道的人我一下子就get了这个东西了。然后我就看到你，然后你知道为什么会不一样。就是橘子讲的还是一个简单的，比如他画了个坐标系，画了个横线，减你那个是什么？一个学家讲了一个什么skin load，什么一个三维的什么图做出来，我瞬间就一下子就躺在那儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>清华超院助理教授徐梦迪那一期，说实话他讲的内容其实是有点深的，非常深。然后我觉得我录播客的时候，其实可能懂了个六成七成，这个对话能继续，但是我没有真的彻底懂。对然后欧帕斯5.5帮我做了那个动态PPT之后，我又完全从头到尾看了一些播客，我觉得我可能学到了八成功力。可视化非常重要，我们这期播客也会可视化的。所以大家看视频播客看到的会是一个ops 5.5。配了图的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他不需要什么操控剪映，他不需要做别的什么动作，模型相当于你说实话你不需要什么skill，你也不需要什么指示，你顶多可能对风格上有要求。我看你就做了那个捏泥土的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们还是给了一些简单的点去给他一些指是风格上的指示。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但仅此而已，那他就过了那个线了。我的PPT有一页是放了你们两个的截图，然后我放了旁边表情包，就是黄渤跟沈腾那个电影就是毁灭，就是毁灭，就不要扯毁灭。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>震惊瘫坐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我觉得这个为什么跟上个议题是连在一起的？刚才我们说了，单纯的打分没有意义了，所以大家开始追求斩杀线，那就我们就怕了。最优这个事情也没有意义，大家开始追逐什么？那天兰溪讲的一个观点非常好，他说如果大家打帝国时代的话，你会知道帝国时代所有你选你会选国家跟种族吗？美国家的种族最后也会有一个非常大的建筑，那个建筑叫奇观。那个器官会公告天下，你见了器官就你相当于就是告诉所有人来打我。但是器官会有非常强大的展现性，那你为什么要建呢？奇观，因为它叫奇观。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天你看oppos 5.5拿来剪视频，GPT3.6去做blender的3D做各种各样的展现。我今天最近看图纸上是有人拿GPT6去魔改。我把魔兽争霸的人物放进来，场景放进来，然后做成一个塔防游戏或者一个吸血鬼类型的游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也有一些把steam上面的游戏，塞尔达放到这个macbook上可以玩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者马让马里奥去跑神庙逃亡。奇观就是他要让哪怕一个什么都不知道的人看到的第一眼感触震惊，叫奇观。今天最头部模型怎么能让人知道它已经强到什么程度？造奇观。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我们在说这期播客是个阿哈moment，但其实很多时候发一个产品或发一个模型，你要造的其实是魔法时刻。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>买这个我觉得最近就天天看器官，天天看器官就已经看到葛优躺了，就是你已经有点PTSD了，因为它已经超过你原来的想象。就相当于我经常一个比喻，就是说也很多人讲过学霸考100分是因为卷子只有100分。你要给他1万分，他也能考一万分对吧？但是100分跟1万分对于比如一个60分而言没区别，我们现在经常感觉是这样，所以就这个奇观，那你想已经进化到奇观了，那下一步那你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>2027有什么计划？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不知道不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有什么就是在瘫坐正经之外的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个引发一个小彩蛋，就是因为实干，我们我其实原来就开始列，然后我把原来把这个阿莫列到第十个，后来我就发现那十个是比较正经，这个第十个是非常不正经，所以把它变成彩蛋。海带我最近在玩，最近因为一些机缘巧合玩到了最近如果大家关注的话，微信生态的小游戏最火的一款游戏叫赵云与阿斗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>赵云与阿斗对你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听起来就是个三国题材游戏，是吧？它是一个典型的塔防游戏。就是塔防大家一听就懂你想三国这个题材在游戏领域已经用了多少年了。你要知道最近可能一两个时间，他是微信小游戏的一直排名第一，甚至模仿他游戏已经出现一堆了，就模仿这个样子的游戏，他为什么会变成这样，或者他怎么设计的。我们刚才讲的所有这些素材，你想象一下今天最头部的这个游戏厂商怎么做。肯定是精美到无以复加。对，就你想一个青龙偃月刀，可能刀上的那个玉石的那个样子都已经是武装到牙齿了。连一把刀都可能，甚至是一个小兵的一把刀都已经是武装牙齿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人类在过去几年被AI的这一波的图视频，尤其是高清跟高亮跟精细的，尤其中国有短剧，就你想过去几年大家看了多少短剧已经走上进化成就，人类已经被这种双引号精致到极致的画面刺激了。可能中国用户已经小一年了，至少人会物极必反的。所以这个游戏很有意思，这游戏所有的画面都是文字，弓箭手就是一个弓字，枪兵就是一个羌字。然后你的武将是赵云，就是赵云两个字。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是他火的原因吗？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是它火的原因就是因为这个，因为它的玩法本身塔防二和然后比如rocklike，你会随机抽抽五张牌出来，然后去摆放这些玩法都是已经很多年非常成熟的玩法。当然这种玩法的排列组合是一种能力，但最最重要的能力是这个游戏的画面就是极度的粗糙。你甚至觉得是一个比如大学生做的产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说他这个是无心插柳，还是他是刻意的做的这样的风格。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他刻意做的肯定是刻意做的，就是文字。然后比如这是个羽，就代表着我再出个关，他就会合成关羽有趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以在这个时候做一些返璞归真的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我最近玩我就觉得人类真的就是我们被这种高清跟极度细腻的东西，可能真的影响的已经非常到头了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>需要一些砂砾感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>需要一些反的。当然这只是一他他不会活很久的，他一定不会火，人们也会慢慢习惯这种东西，跟因为有很多抄袭的，但是这一步你会觉得就是人类面对这种这种东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他会有逆反的。其实我自己也是，我们当然今天是坐在录音棚录，但我最近不录很多公路播客吗？我也是觉得在公路博客上的那种对状态是不一样的，有点不受控制的，然后有点儿好像在公路旅行的那种沙粒感。其实是就是我觉得会让我自己都状态会比在录音棚里面是不一样的，焕发出不一样的生命力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得这个十月让我发现了这个游戏，我觉得我不错，就是有点意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以2027肯定就是会发生更多让我们震惊瘫坐的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我已经没法预测了，已经没有任何人可以有预测的方式了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是反正做好自己，做出人味仍然是一个还是挺值得期待和追求的事儿的。是的，要不最后我们来送个祝福。就是在这个讲啊哈moment讲出了一些这种什么毛骨悚然moment的这一期内容的最后给大家送一个什么样的祝福？</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我每次狂喜的播那个播客的播客节的最后一张PP都是一样的。就是我之前每次都会统计，因为狂喜播客节可能一天的话就是大几十场，两天可能一百多场议题。我每次都会统计AI话题有多少，其实这个趋势在往下降的。最巅峰可能是在2425年，可能15%，慢慢百分之十二十一。这次可能88场里面可能只有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>8成哇哦不到10%了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我那张图是当时我就用这个PPT，我可能是在讲一个什么动作，然后我就用我手这样举了个这样的动作拍下来了，就非常像那个gaster，然后后面的标题就是什么他妈的AI不AI的。享受生活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，大家听完这期播客不要太焦虑了，还是享受生活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>焦虑留给我们就好了，对吧？你们就不要焦虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢明浩。我们今天先到这里，拜拜。</p>]]></content:encoded>
+            <pubDate>Sun, 01 Nov 2026 16:00:00 GMT</pubDate>
+            <guid>6ae6e230c96c8942ec156ed6</guid>
+        </item>
         <item>
             <title>AI 时代，PhD 路上的 10 个关键问题｜对谈李磊：港大 PhD、小米 MiMo 研究员</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6add84e197726cd467573cf1</link>
@@ -8669,311 +8946,6 @@ Claude 推出 Manager Agents 之后，大家还需要自己搭 Harness 吗？
 <p class="transcript-line"><span class="time"><strong>[00:44:57]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>明天再见，拜拜。</p>]]></content:encoded>
             <pubDate>Wed, 22 Apr 2026 16:00:00 GMT</pubDate>
             <guid>69e8a1f21e94ae6921e403b9</guid>
-        </item>
-        <item>
-            <title>“你有一把能够挖出金子的铲子，肯定不会先给别人用”｜对谈开物纪陆子恒：用AI发明新材料</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69e0344eb977fb2c470e4136</link>
-            <description>🚥 本周十字路口的嘉宾是开物纪创始人陆子恒。他们刚成立就拿到数亿元的种子轮融资，投资方阵容强大：Monolith 领投，光合创投、集富亚洲跟投，高瓴创投、IDG、蓝驰创投、BV 百度风投、L2F 光源创业者基金等老股东超额加注。
-开物纪的使命是用 AI 更快发现并验证能够“改变人类命运”的新材料，并让它们从实验室走向可量产、可商用。
-子恒会和我们介绍：当我们讨论 AI 发明材料时，AI 究竟在“发明”什么，瓶颈在哪里，商业化又将如何展开。
-子恒也在中关村学院带 PhD，我们聊到了 AI 时代的学习和人才：在工具与范式都快速变化的今天，应该如何学习？读 PhD 还有必要吗？又该如何判断自己适合走学术路线，还是去产业一线？
-最后，虽然这一期聚焦 AI for materials，但它对所有想把 AI 用在垂直行业的人都有启发：从如何定义问题、积累高质量数据，到如何把 AI 大模型的能力嵌入业务流程，形成可持续的交付与商业闭环，这些方法论都能迁移到其他行业。
-更进一步说，几乎每个 AI+垂直行业都会遇到同一个问题：当你终于造出一把能挖出金子的“铲子”（模型与能力）时，是把它交到别人手里，还是选择自己下场去挖？
-🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、小红书、哔哩哔哩、Youtube 等平台。
-📒 文字版将发布于 @十字路口Crossing 公众号。
-🟢 00:00:43 快问快答
-* 年龄、毕业院校、MBTI 与星座、一句话介绍开物纪、融资情况、收入与利润、团队规模、创业前经历
-🟢 00:02:44 一块材料，能值多少钱
-从硅谷为什么叫 Silicon Valley，到一个日本团队发现的粉末材料撑起了整个固态电池产业。
-* 材料的本质，其实是一个&quot;往白纸上放原子的游戏&quot;。
-* 历史上最赚钱的材料 IP，往往集中在极少数人手上——Goodenough 一个人做了锂电里大半的核心材料。开物纪想用 AI 批量造出这样的人。
-* 发现一个材料，然后呢？它是怎么变成钱的？
-🟢 00:08:10 材料界的 Flagship Pioneering
-他对标的既不是陶氏，也不是巴斯夫，而是孵化出 Moderna 的那家基金。
-* &quot;如果真的能挖出金子，我肯定不会先把铲子给别人用。&quot;
-* 两类目标同时在跑：一类是&quot;要发财的&quot;，一类是&quot;要 show muscle 的&quot;——具体是哪两类？
-* 为什么他认为，这个行业现在需要的是有人先从头打到尾走出一个范例？
-🟢 00:14:12 那一天，大家吃完饭随手测了一下
-一个震撼了所有人、但没有任何人当面说出口的瞬间——成了开物纪出发的原点。
-* 为什么这帮科学家没有声张？子恒怎么形容他们的？
-* 他们看到的那个能力跃升，和 GPT 3.5 之间有什么关系？
-* DALL-E 的出现，跟材料模型的技术路线选择，有什么意想不到的关联？
-🟢 00:19:12 差异化？现在还没到竞争那一步
-* &quot;今天大家不应该把用 AI 做出来一个好材料当成一个竞争。&quot;——他为什么这么说？
-* 他认为这个领域真正的壁垒，不在模型，不在算力，而在一件很难被复制的事情。
-* 美国那几家对标公司——Periodic Labs、Project Prometheus、CuspAI——和开物纪的路线，到底哪里不一样？
-🟢 00:22:49 克级、公斤级，然后呢
-AI 不是要搜遍整个宇宙，只要有一个能卖钱就行。
-* 从 AI 给出候选材料，到客户愿意在自己产线上验证——中间到底要走几步？
-* 他说这整件事是&quot;暴力美学&quot;——为什么从 AlphaFold 到 LLM 到具身，走的都是这条路？
-* AI 在这条管线里，最大的价值究竟是在哪一步？
-🟢 00:27:43 开了三张 offer，手都在抖
-* 钱主要花在哪里？实验室？算力？还是人？答案可能颠覆直觉。
-* 他为什么说商业反馈不是对研究的妥协，反而是研究的加速器？
-* DeepSeek 和具身机器人的崛起，能给 AI for Science 什么启示？
-🟢 00:35:33 面试的时候，我现在不知道该问什么了
-知识性问题，GPT 全都能答，而且知识面比我强。
-* 他学生成式模型，是怎么学的？一篇论文都没看过。
-* 他说未来五年内，有两类能力会变得非常不值钱——是哪两类？
-* Taste、Vision、主动性——在 AI 时代，他给这三件事排的优先级是什么？
-🟢 00:47:38 给 10 年后的自己：还折腾得动吗
-* 从本科目标&quot;月薪 3,000&quot;，到剑桥，到微软，到创业——每次转变背后，是什么驱动了他？
-* 为什么这么多年在外漂泊，他几乎从来不想家？他的解释出乎意料。
-* PhD 到底值不值得读？他的答案简洁到有点狠。
-欢迎订阅「十字路口」：
-🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
-🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
-👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner（投资合伙人）。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站
-👧🏻 主播 Ronghui：我联合创办了十字路口，在美元 VC 工作过，也做过五年的硅谷驻站记者，关注科技发展和商业故事，欢迎大家找我聊天，和我交流。Ronghui 的即刻</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>本期节目对话了开物纪创始人陆子恒。开物纪是一家用AI发现、验证并商业化新材料的创业公司，成立于2024年9月，团队约10人，刚完成数亿元天使+轮融资。陆子恒拥有香港科技大学博士学历，曾在微软研究院从事AI for Science方向，现兼任北京中关村学院首席材料科学家。节目深入探讨了AI如何颠覆材料发现范式、开物纪的商业模式探索（从发现原始IP到商业化），以及创始人对科研与商业结合、人才选拔与教育变革的思考。</p>
-<h3>关键要点</h3>
-<ol>
-<li>
-<p><strong>AI发现材料的核心逻辑：原子摆放游戏</strong><br />
-    陆子恒将材料发现的本质概括为“在一张白纸上放原子”，目标是找到能量低、可合成、具备所需性质且能商业化的结构。AI的角色是在这个高维空间中寻找“可以被合成材料的manifold”，极大地加速了在最前端发现颠覆性重磅IP（原始化合物）的过程。</p>
-</li>
-<li>
-<p><strong>历史材料IP的商业价值案例：锂镧锆氧（LLZO）</strong><br />
-    2011年日本科学家发现的一种由锂、镧、锆、氧组成的固态电解质材料，使锂离子在固体中的穿梭速度堪比在水中。该材料直接带动了整个固态电池产业，截至去年其售价高达一吨七八十万元。这展示了单一材料IP引爆一个产业的巨大商业潜力。</p>
-</li>
-<li>
-<p><strong>商业模式探索：效仿药界“Black Thistle”，做材料界的“管线孵化器”</strong><br />
-    开物纪的愿景是像Black Thistle Pioneering孵化药物管线那样，孵化出类似Modern a的顶级材料公司。他们希望打通从原始IP发现到商业化放量的全链路，而不是只做轻资产的工具或模型平台，核心是“卖材料”。</p>
-</li>
-<li>
-<p><strong>核心比喻：“你有一把能够挖出金子的铲子，肯定不会先给别人用”</strong><br />
-    陆子恒明确表示，在确信AI能挖出“金子”（颠覆性材料）后，公司的优先级是自己先用铲子挖，而不是出售铲子。他们需要先做出一个从技术到商业化“从头打到尾打穿”的范例，证明AI的价值。</p>
-</li>
-<li>
-<p><strong>创业信号：模型能力的“拐点”</strong><br />
-    触发创业的关键是2023-2024年，团队开发的通用材料模型在预测“比热容”时，能力突然超越所有专门模型，展示了极强的泛化性。这验证了通过Scaling（缩放）提升材料模型能力的可能性，类似于大语言模型的突破。</p>
-</li>
-<li>
-<p><strong>技术路径：大力出奇迹的“暴力美学”</strong><br />
-    开物纪走的是扩散模型（Diffusion）路线，采用基于图的数据结构。他们认为当前所有AI变革领域（如AlphaFold、大语言模型）本质上都是“大力出奇迹”。目前核心成本是“训模型”而非“推模型”，每年算力成本数千万，且需持续投入以突破下一个技术拐点。</p>
-</li>
-<li>
-<p><strong>团队构建与人才标准：寻找“硬核专才”</strong><br />
-    公司需要的是在一个特定领域（如材料合成）极度专业且硬核的人，同时视野广阔。陆子恒强调，做模型、统计物理模拟和实验室里的“老法师”必须“天天在一块儿”，形成对模型能力边界的共同认知，这是构建壁垒的关键。</p>
-</li>
-<li>
-<p><strong>对未来的判断：编码和模型设计能力将变得不值钱</strong><br />
-    陆子恒直言，未来五年内编码和模型设计能力可能被AI自身淘汰。他个人更看重“视野”和“审美”（Taste），并经常在面试中问候选人“给你10亿和100人，你想干什么？”，以此筛选对方的Vision。</p>
-</li>
-<li>
-<p><strong>行业状态：远未形成共识</strong><br />
-    陆子恒认为AI对材料行业很重要是共识，但具体哪种商业模式（卖原始IP vs. 工艺优化）、哪种技术路线能成功，远未收敛。这既是挑战也是机会，意味着目前“没有形成竞争，是大家共同创造蛋糕的过程”。</p>
-</li>
-<li>
-<p><strong>创始人的内在驱动力：源于“安全感”带来的折腾精神</strong><br />
-    陆子恒自述从目标月薪3000元，到想当教授，再到投身产业创业，一路“折腾”。他认为这种敢于探索的底气来自于童年父母溺爱带来的极强安全感，以至于他“一辈子到处跑，没怎么想过家”。</p>
-</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li>
-<p><strong>团队发现AI能力拐点时的反应：一群“闷骚的科学家”</strong><br />
-    当模型能力突然跨越门槛，远超预期时，团队并没有公开庆祝。陆子恒描述“都是一帮非常底层的比较闷骚的科学家”，大家“没有明面上说，但是心里还是觉得比较震撼的”。这种沉默的震撼比任何口号都更真实地反映了科研团队的特质。</p>
-</li>
-<li>
-<p><strong>融完大钱后的真实焦虑：对行业“不负责任”的压力</strong><br />
-    陆子恒坦言，融到数亿资金后感到焦虑。他担心的不是个人得失，而是“对这个行业不负责任”，因为行业对AI for science有极高的期许，作为该领域的标志性公司，必须努力把事情做成，去“负担起大家的期许”。</p>
-</li>
-<li>
-<p><strong>给AI研究员发offer时的“手抖”</strong><br />
-    在谈到公司成本时，陆子恒透露：“我开了三张offer出去，开的时候我手都在抖。” 这生动地体现了当前AI人才市场的极度昂贵和创始人在烧钱决策时的真实心理压力——AI人的成本比别的行业“贵一大截子”。</p>
-</li>
-<li>
-<p><strong>深圳经历对价值观的塑造：“只有能反哺的research才有意义”</strong><br />
-    陆子恒在深圳中科院先进院工作的经历是他人生的转折点。深圳的逻辑是“必须得能反哺”的研究才真正有意义，这让他从一个“特别research oriented的人”开始接触市场，并认识到推动技术变革的力量很大程度上来自“商业诉求”。</p>
-</li>
-<li>
-<p><strong>对未来学习的反思：面试时“我到底问什么？”</strong><br />
-    陆子恒分享了一个深刻的困惑：在面试时，由于GPT能回答所有知识性问题，他感到迷茫，不知该考核候选人什么。他最终发现，可能在未来，一个人的“Taste”（审美）和“Vision”（愿景）会比知识和技术本身更重要。</p>
-</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技。本周十字路口的嘉宾是开悟记的创始人陆子恒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>科技好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>开悟偈是在做AI for science这个领域里面的。AI for material就是做材料，简单来说就是用AI去发现并且验证新材料，同时让这个新材料从实验室走向可量产、可商用。他们刚完成了一轮数亿元的天使加轮的融资。背后的基金的阵容也非常厉害，包括mono is光合创投，极富亚洲高领IDG蓝池、BVL2F光源等等。你好，子恒，欢迎来到十字路口。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你好小姐你好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们还是从十字路口的这个老传统快问快答开始帮大家更快的了解你那请问子恒。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的年龄34，毕业院校本科是南京理工大学，博士是香港科技大学。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的MBTI和星座呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>MBTI我知道我是艺人星座，我是摩羯座。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一句话介绍一下开悟偈和你们在座的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>开悟偈我们是希望用AI发现那些能够改变人类命运的新的材料。我们是scale AI模型以及做材料的发现、量产、商业化。咱们目前。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的收入和利润有了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有进入。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们目前团队的规模。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>十个人左右。咱们成立多久了？去年9月份注册的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>介绍一下创业前在做什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，创业之前是在微软MS2，就是做AFO science这个方向。同时咱们有几个国家人工智能学院去成立了，我也深度参与了其中咱们北京中关村学院，特别是物质方向的建设。现在还有一个身份是北京中关村学院的首席材料科学家，以及物质方向的负责人，厉害带下学生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后子恒你们这一轮的融资的金额非常大。这个消息放出来就是很多人都觉得厉害，太牛了。然后你觉得大家在投你们的时候是在投什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是特别好的一个问题。其实我觉得大家投这个领域更多的是看到，可能到了这样一个时间节点。过去几年模型上有一个比较大的一个能力的提升。以至于可能在未来几年有可能真的会诞生出改变人类文明这种材料是我们的理想。更多的可能是有可能发现那种能够把一个行业往前拉一大步，把一个产业往前做一大步那些材料。我觉得这个是可能很多人投资的一个底层逻辑。当然了也有人说是投团队，那我也认。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说到这里可不可以稍微展开一下，就给大家讲一讲。就当我们说到用AI去发明材料的时候，到底在发明什么？尤其是给完全不了解材料这个行业的人介绍一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这也是一个非常好的问题。其实fundamentally来说，材料是什么？大家回归到第一性原理，材料就是一堆原子，一张白纸上放原子。那我来说我们在干什么？实际上最本质上我有一张白纸往上面放原子，放完以后就是一个材料，但是有很高的要求，这放出来的这个结构，所谓的材料，第一它能量不能太高，它要能被合成，要不然都是假的。第二，他还有我要的那些基础的性质，然后以及后面能把它给做出来，就能商业化，那fundamentally就是放原子的一个游戏，this game。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我们知道这个材料做出来，它会成为某种材料IP对吧？对，可不可以讲一讲，比如说历史上据你所知最赚钱的LIP是什么？它是大众。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>知道的吗？我举几个例子，OK比如说早一点的咱们做这个规单晶硅，现在整个什么AI，电脑什么玩意儿都是那一个个单晶的材料出来。你说这个材料值多少钱？晶圆本身是很值钱的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>甚至硅谷都跟着硅星人icon valley.</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？那更近一点的，2011年几个日本科学家发现了一个材料，叫什么呢？离者、泠流四个元素组成的一个材料。OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个材料有一个特别油腻可的一个性质，它是一个粉末。但如果你把它压成一个片儿，它质地跟什么像呢？跟这桌子有点像，OK比较硬的一个东西。但是你很难想象，锂离子在里面穿梭的那个速度，和在水里面穿梭速度差不多。什么意思呢？你看我要穿过一个固体的墙很难，但我去水里游泳很简单，所以这个性质非常有你可这一个材料品类，就这一个材料把整个现在的固态电池产业带起来了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇哦那在这个过程当中，比如说他能够知道多少商业价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是特别好的问题。目前像固态电池它本身没有商业化走到底，但是可能你在保姆物料里它可能占的比例相对来说是比较大的。如果说到去年的这个时间节点，它一吨可能卖个七八十万，对，还是比较贵的那。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>发明这个材料的科学家，他在里面要怎么分层呢？好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个实验，我也是我们特别关心的，就是在那个时间节点上，这几个科学家是他们当时都应该是东京工大。然后这几个科学家基本上是被咱们的丰田这个公司给养起来了。最早也是他们做了一些资助，所以至少他们研究是free了个人，我想应该也是自由的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在在要用AI去找类似这样的新的材料，对吧？就是历史上大家可能都是用别的方法找到的对，那到目前为止有没有一些例子，有没有一些成功的案例已经发生了，就AI找到了某种新材料。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI找到的材料是有的。我们过去在几年里，其实因为在微软也做一些fundamental research，我们也是找到了一些材料。有一些是被别人验证的。比如说咱们做散热里面的有一些晶体材料，有一些是我们自己验证的。但是目前看到的是这类用AI发现的新材料科学意义很重。但可能它还没有到那种能引起行业变革那么大的商业价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反而在这家公司他有意义的有特别有意思的是两个点。第一个点就是我们做的是非常前沿的大规模的AI的research以及材料fundamental science research research很前沿。第二个这个商业模式其实没有人做过，所以我们也在摸索这样商业模式。我们在寻找那一类能够带来巨大商业价值的原始的IP这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我蛮意外的。原来这些去发现新材料的人都其实是某种科研机构。什么就没有一个专门的商业组织说我们的使命是发现新材料。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>据我所知，可能如果是单纯这个使命，可能我不是那么aware。就是你如果看材料研发其实分两两段。第一段是我们经常讲的，就是我们讲的原始的化合物或者原始埃批的发现，就那个物质。第二段是这个物质它的工艺放量，后面就是它卖钱了，对吧？好，那你发现过去绝大部分的商业化的公司，它在第二段其实是非常强的那在第一段也做像陶氏巴夫，他做一些有机，但是好像完全focus这种特别新的原始埃批的好像比较少，绝大部分发生在高校研究所。而且你会发现有一个特别有意思的，这些重磅的IP往往发生在那么几个人身上，一个人做好几个说别的人都做不出来。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说固定娜ff OK理店里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主材没有多少个，但固定纳夫一个人他应该做了四个还是五个，而且都非常不一样的材料。我也不知道他为什么这么聪明，这也是我们常试图改变的事。我不那么聪明，但是我要AI这么聪明。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就培养一堆这样的good enough僭越了。对，你们在开始做开悟机之后，你们有一些主攻的方向吗？比如说你有没有去bat未来十年最有可能改变人类生活的材料，它会出现在什么方向？比如说是电池，是散热，是PCB还是什么别的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这是特别好的一个问题，这也涉及到两个斗命。一个是商业化上什么东西能挣钱，以及我什么东西能导入进去，就别人真的愿意买我的材料，不单纯是一个科学问题。第二个是有一些材料可能他短时间不挣钱，但是他可能会改变整个人类文明。这两类都是我们的target，就简单说一类是我要发财，另一类是我要说muscle，我要向世界证明这个事情我们能行，以及世界要变化了。这两类分别我们会看一些，第一类我稍微说的虚点，因为这能挣钱是肯定不能告诉你，但也实话说就我们自己也看的没有那么的细，有一些下了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一就您说的整个能源方向，你看AI它fundamental驱动它的其实就是能源，最后拼的是能源。对，那这里面一定有机会当那种理想型梦想型的材料。比如说超导exactly和这个相关，以及我们的核聚变的第一B材料。这一类就是非常相关。它一方面可能有一点商业价值，同时它更多的也是代表人类最先进最高端的文明的这类的材料。我们都会去看。对，那刚刚讲的那个能源一定会看的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个，就是咱们在苏锡常这附近有很多化工，很多这一类胶水听起来很坨对吧？但不是的咱们的那个远洋货轮里面那种大的球形的装甲烷加装天然气高压的那个船里面特别低的温度，特别高的压力，里面要刷一层胶水，那个东西附加值极高，也是被卡脖子的。我只是举个例子，不是说我要做这类也是我们看的类别，就这一类就是附加值比较高，然后同时有比较大的。技术的also next的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>原来比如说这样的材料，它因为商业价值很大，所以它肯定会吸引很多人去创业或去研究它。在过去就这些人他们是比如说一个材料公司做很多不同的跨品类，还是说我就是专门去做胶水，或者专门去做能源中的某一种材料，是专项公司，还是说什么样的平台型公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你追溯到每一个，不管是大的材料公司，就现在的巨无霸们以及新出来的这些挣钱的公司，他第一天成立的时候基本上是一个单品。比如说咱们做Polly买的这个聚酰亚胺对吧？赌棒这几家做的，然后尼龙六六我不太记得是8速还是哪一家了，还是dos反正whatever就是当年是靠一个品类做出来的。后面他可能会慢慢的演进成了我有资本优势了，我可以变成很多个品类。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我之前在做躺倒的时候，因为我们是一个睡眠环境品牌，所以要做床垫、枕头、被子，开始了解了一些材料。对，那个时候我才发现，小时候老听大人说的，这个的确凉。它其实是叫dark rum这个名字，它是杜邦的一个材料，它是一个聚酯纤维的一个涤纶对吧？然后这个材料也是帮杜邦赚了很多钱的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就这一类的就是刚刚说的，当年就是一个大单品，就突然就爆了。这一类也就是exactly我们想做的这类单品，当然希望能做得成了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你会以用一种什么方式来比喻自己的公司吗？我不确定有没有，但是我在想，比如说你会比喻自己是材料界的一个药厂，还是你是什么材料界的台积电，或者材料界的什么AWS，或者材料字节跳动，你会有这样的类比来帮这个。比如说市场了解你们，员工了解你们，有这样的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们出来的时候就一直觉得有一家基金我们特别有兴趣，叫什么呢？Black trip pioneering, 他是做什么呢？主要是孵化药物管线的。一个药物管线就是做一个药，从最后前面的这个lead compound一直做做做做到临床，最后就卖这个药，最后做成的这个管线大部分死掉了。做成的那些管线其实不再是一个药了，变成公司了，而且是顶天立地的公司。有一个大家一定知道moderna.</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇哦black .</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>trip他在药里面能做。我们在材料里面有没有可能做成这样一个东西？我下面的这个顶天立地的那当然这是理想，也是这样的东西才能够真的去对付到大家对这个行业这么高的一个期待，我觉得是有难度的，但是确实值得去做这个事对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那如果要成为这样的公司，你们交付出去的这个到底是什么呢？是材料的专利还是一套研发的管线，还是是什么？这个目前有一些设想。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是一边走一边看。首先是我觉得一边走一边看这句话是对的，应该更能描述我们的状态。就是目前我们的认知上可能能更多的是真的希望自己能从头走到尾，至少走成一个做工具，做模型这个事儿。就像你有一把能够挖出金子的铲子。第一如果真的能挖出金子，我肯定不会去把这个铲子先给别人用，我先挖着对吧？然后第二个点上，我觉得这个行业特别需要的是一个一个从头打到尾打穿的一个范例。都让大家认识到这个东西有用，才有可能的去做一个所谓的平台企业去轻资产的做。所以在这个点上，可能我们目前可能会prefer就是某个节点我可能或者一部分人要去当厂长，这事儿可能是需要的对，就卖材料。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再说回来，就是发现这个创业机会的时候，看到了什么样的信号。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实过去两三年我们在大部分时间是研发我们的模型的。但在过程中我们也尝试了用这个模型去做一些所谓的材料的设计。其实我们我自己本身不是特别信，只做虚拟筛选，我必须得看到拿到那个东西我才信。所以我们有两三个材料还是真的做到能拿到手上，这个状态也是这样的东西。我觉得trigger了我们我们感受到模型能力好，也似乎有一个大的变化。我们跟着我们出来做这个事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在全世界范围内有多少人在做这样的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近这几个月开始慢慢的多起来了。比如说在海外大家可能也看到了那个partial lab，再比如说咱们的project promise，那个普罗米修斯就贝佐斯做一家公司，那个老max willing做的这个cosa I这几个海外的，然后还有orbit materials几个都是海外的那国内的咱们的渗透原理，还有比如说再早一点的真实科技。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你当时提到说你们是看到了模型的一种可能性。对，可能你还记得具体是看到了什么吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实有一个非常好玩的一个trigger，当时是我们的一个同事，某一个做凝聚态物理，我觉得我非常respect的一个同事。当时有个模型叫meta sim，这个反正已经公开信息。可以说最早做的时候，我们想干一个什么事儿呢？想做一个普世的，能在基本上所有的材料品类里，根据原子结构去把它基本的物化性质。可能主要是热力学有些性质给ZO shot infer出来的一个模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个事情就有一点像什么呢？就是像预测万物。当时这位同事就说了一句话，就最早还没做的时候，他说你别说什么什么预测万物了，你就把一个最简单的一个物理性质就是叫风能身子就是原子在晶体里面的震动的这个模式给预测出来。换句话，这个是一个大学物理的概念。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个东西如果换到高中物理里面或者物理化学里面，它是什么呢？就是比热容。你把一个材料的比热容用这个模型给预测的很准，他都不信。其实我自己心里也打鼓，我也不知道信不信。因为我要用一个模型，zero shot任意的一个材料就把它做的还可以。这个就要求模型有非常强的泛化性，我们一开始都不信，但是大家就闷着头先做一做做的时候还你指责我，我指责你这玩意儿到底work不work，花这么多功夫去scale这个模型。但是有一次有一天我们就去测了一下，就是随手测一测，吃个饭测一测测完以后大家就可能状态就不一样了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那是哪一年的时候？那一个月。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>2324年那个时候他喊过来看看，你看小小爱是不太一样的，就是他那个时候的能力真的是超过了当时基本上所有专门针对董明去新的模型。我们没有针对这个性质去训练模型，也没有针对某一类材料体系去去用过这个模型。之前也有人做各种各样的模型去capture这个事儿，但三炮好像有一天突然就能力开始跨过一个坎儿了。这个是对我们一个比较大的trigger TPT3.5。它给我们的一个hint是通过scaling能确实把这个模型的泛化性给做得很好。那你在材料领域里面其实要的也是这个泛化性。我们能不能通过类似skill模型数据的方法，把这个泛化性做得很好。就是纠结这一点，不知道行不行。那个时间节点我觉得大家没有明面上说，但是心里还是觉得比较震撼的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么没有在明面上说呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都是一帮非常低层的比较闷骚的科学家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你们在05年的时候，就去年发了一篇nature是吧？那个是不是也在讲skin law，在材料模型里面的一对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这可能是不是某一些上面是稍微有点误传的anyways那个其实是我们比较早的真的就用生成模型去做材料，化学药品的物质的生成不是一个新鲜事儿。之前做了挺多年了，咱们协天同学做的这个CDVE做的挺早，以前包括做药的，但是早期的做的这些模型，它更多的是用的那种比如说VAE这种比较老一点的架构。但是你会发现也work，但work没有那么好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>本质上我们现在看的不一定完全对，为什么是这样呢？因为像这样的模型架构它不scalable。但是在大概一两年前，大力two，大力three这样的东西出来了以后，你会发现它给我们的hint是diffusion还是可以scalable的。我可以吃进大量的数据。我觉得Megan它的特色就通过了用diffusion这样的model去skill了模型以后，产生了比较好的效果。你可以看到他的能力大幅超过了之前的那些模型。其实没有在文章里面直接去写scaling这个事儿，但实际上底层的驱动是这个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我在想一个问题，就是因为我们非常依赖机模的智能，对吧？那理论上是不是比如说咱们可以用机模去研发新材料，再来一个团队ABCDE，他们也都可以用机模去研发新材料。在这个过程当中，大家如果都是依赖机模，我们的差异化或者我们的优势要怎么做出来呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题特别好。我觉得一个前置条件是今天大家不应该把用AI做出来一个好的材料当成一个竞争。还没有到竞争那个程度。现在这个行业里面急需的是一个任何一个人，不一定是我可以是任何一个人。他用任何一个模型，只要能验证把一个突破性的材料给做出来，并且商业化，整个行业的人都会非常的好过，这个是一个前提。在这个之外就还没有形成竞争，是大家共同创造蛋糕的过程。然后在这个之外可能就是您说的，你能做我也能做，那这个就看大家你信不信自己造的铲子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于我们来说，我们觉得可能scaling模型不管是用synthetic data还是自己尝试后面去创造一些实验的scalable的一个环境。可能更多是我们要做出非常好的那样的寂寞。在这个点上我觉得各家认知可能还是稍微有些区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是有认知的区别对吧？那对认知的区别最后会比如说形成什么样的区别，然后带来不一样的这种差异和优势。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先这个认知分两层。第一层就是模型上，大家对这个事情，什么样的模型真正能带来材料行业，真的能驱动我们发现那个特别贵、特别值钱、特别能带来变化的材料。另一方面是就是另一个层面的认知，可能更多的是我们对模型能力边界的认知。比如说我做了一个模型，它在每个斗命里面到底能产生什么样的商业价值，能不能找到那个东西？这个也就刚好回到您刚刚那个问题上我觉得这个甚至可能在某一些时候会形成一个所谓的壁垒。就是这个团队到底认知上是做材料的人和做AI的人天天在一块儿，他对两边的边界认知都非常清晰，还是两边靠两个团队互相交流，这个一定会形成不一样的文化和不一样的认知能力。这个会直接影响到最后能不能找到这样的材料。所以说至少在我的认知中，做模型的、做统计物理的simulation的和做实验室里面的老法师，必须得天天在一块儿，这个是很重要。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们来稍微聊点具体的，来帮大家更好的理解咱们到底在做什么。好，有没有可能比如说选一个你们现在在跑的某种材料的任务，然后讲一讲比如说从一开始到最后，如果我们真的成功把它做出来，这个中间是一个什么样的过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题很好，那我可能用一个fake的案例去讲，要模拟一个。比如说我在锂电池里面，比如说负极的材料，我要寻找一个它容量比原来大一些，它的功率密度会比原来更高一些，电压比原来低一些的一个材料。那我在商业上可能认知到这个材料。因为某一些背景行业，比如说我的大型储能要起来了，我有一些specific的requirement能做这个事情，那我就有这样的商业需求。这个材料可能目前不太存在或者做的不好，那我反过来就去做这样一件事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我首先通过我的模型去生成或者筛选出那些我认知层面上他觉得比较好的，符合我那些要求的，放在mental的那些埃批那些化合物。好，下面干什么呢？并不是用AI过度的去优化这些所谓的埃批这些化合物干什么呢？咱们也有自己的老法师。那就坐下来开个会，列一个单子，总共比如说几百个，坐下来一个一个看哪些东西我明天可以下实验室，赶紧做做完了就赶紧反馈。这就是我们发现一个逻辑，比如说我做到客机，把它装到一个电池里面，反馈还不错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那下面干什么呢？我们在自己的实验室里把它做到公斤级，做到公斤级以后也没有特别多，不用特别惊讶，公斤级没有那么大。做到公斤级以后，真正使用这个材料的人就可以去试着用了。在他们的线上去试，那试的过程他们会有反馈。一旦有反馈了，好的反馈就代表着要么我们放量，要么别人放量，这个东西就有机会了这样一个流程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以AI在这里面扮演的角色最关键是在哪一步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们认知到的是在最前端发现那个颠覆性的重磅的埃批的那一步，它能发挥最大的作用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个发现可以再稍微展开讲一讲吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我找材料，我不是要把整个空间搜完，搜到1万种，我只要有一个能卖钱就行了，是不是好？在这个角度上，其实最好的情况下是我一击即中。我让AI去推荐出一个他觉得可以行的材料，推一把就成了。但是目前看到的是这个比较难，所以真正我们在做的时候是这样一个状态，是我们会让生成模型、数据库、搜索各方面并行着跑，生成模型不断的生成candidate。我也会把网络上，就包括人类已知的那些材料数据库全部拎出来。然后用我的推测性的这种模型，可能是根据我筋膜改的，也有可能是就是本身筋膜shot能力。我去把可能的看点，它就形成一个队列，一个一个看快速的看看完好的就把它拎出来。拎出来以后就到刚刚那一步了，那速度上就看了，一般来说不同的材料的性质不一样，可能更多筛选的时候，快的几十秒，慢的几十分钟一个单卡。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们现在的生成是transformer还是？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们目前走的可能更多的是用diffusion这个过程去做，而且是一个基于graph图的这样的一个，它不是像语文本那样sequence，sequence那个东西也可以做，但我目前觉得数据可能不是那么的多。不更寻常寂寞。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对这样的数据是什么数据？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是人类合成过的所有的能收集到所有材料，以及我们认知上有可能被合成的一个那些材料，那些结构。最后发现就变成这个模型要学的就是一个在高维空间里面找到那样可以被合成材料的一个manifold。在里面去采药。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我听起来觉得这个事情还挺暴力美学的，就是大力出奇迹的感觉。是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大力出奇迹，就是到今天所有AI发生变革的领域里面，基本上都走的是暴力，大力出奇迹。从alpha fold到large language model，到现在的巨神。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在我们今天录播课的早上醒来看到一个新闻，我不知道你有没有看到，就jm one这个新的巨神模型又让这个往前推了一大步。是你预测你们的第一个里程碑会是什么时候会发生吗？还是现在没有报这样的里程碑式的预期？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得里程碑对我来说可能是两类。第一类是fundamentally去驱动整个人类材料科学的一类工具类的进展。我们希望在未来的一两年能把物质自由能这个东西打穿。这个东西一旦做出来以后，我们可以在比较广的材料空间里给定任何一个材料hypothetical的或者真的能把它热力学上能不能合成非常准确的音符出来，就能代替很大一部分的实验物象实验基本上能带掉，那这个对人类的材料就是这个科学往前走了一大步，这是一类，就是工具上的。第二类就是管线上什么时候能做出来那种改变世界，改变甚至商业生态的，这个说实话我们自己不太确定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这好像是有一种就是把正确的事情用正确的方法论做了。然后在这个过程当中慢慢的相信美好的事情它会浮现出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这个也是过去几年我们一直有一个体会，就是感觉大的路是对的。但是大家都非常decent researcher，所以都非常sceptical。但是每次大的模型的进展的时候，总会给我们那些trigger，会觉得这个事情好像有一点对，再有一点对，一般是这样一个感受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>信念感慢慢的信念。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感慢慢提升，也有挫折肯定会对之前。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你其实在这个微软研究院做了很多年的工作。然后微软研究院其实是一个相对没有商业的目标和压力的一个研究组织。然后现在办了自己的公司，他也是非常研究驱动的那所以也想和你探讨一下，你会怎么看一个这样的有商业的目标压在身上的一个研究驱动的公司。他最好拥有什么样的文化才能够比如说做好、做大做强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这事儿我们还在探索，但是整体上我还是觉得比较有意思。就是你会发现做research，做世界上最好的research是极端有意思的事。这不用说大家做research人都有这种感觉。但是三炮我觉得摸索一个新的可能的商业模式也是extremely exciting的事情。那这个事情是不是有可能有机的结合在一块，真的用那个方的mental的大的技术突破去驱动商业，这是最值得追的那当然这个过程中我们也有相当的敬畏心，有那些管理上面的事儿要做，肯定是要做。因为最终一旦有一个商业反馈以后，他反而真的能把这个技术驱动的更好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们可以看到到今天为止，这几年发生的技术的革命都是在由商业上反过来驱动的。特别强的案例，deep seek, 包括巨绅这些反而是因为这个商业的包括现在核聚变，我不知道啥时候能做出来，包括超导，量子计算，反而是因为大家对这个东西上有非常强的商业诉求。第一资本特别集中，第二就是大家的诉求重了，那推的真的就快了，技术推的比原来要快很多，这是个好事儿，但是压力也非常大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>像刚才提到商业其实会加速一些东西，对吧？然后也会激发一些东西。然后你们融了那么多钱，我蛮想问就是这个会贵在哪里呢？你们的钱准备花在什么地方？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个里面最贵的是两个，大家可能觉得就是我做管线这有多贵，我给大家拆。现在这个时间节点上最对的是算力和AI的人。今年我开了，说出来我都唏嘘。我开了三张offer出去开的时候我手都在抖。然后算力上一年几千万是要烧的那这个很贵。反而你做材料管线上一个实验室没有多少钱，大几百万，很多东西做到公斤级也没有很贵在这宫晋级以及之前AI和人占大头。但是一旦要放产能了，这个就是强的那种属性了。那个部分后端的上产能就特别贵，可能就是上亿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个就贵了，所以目前是算力贵人贵。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI的人贵，AI的人比别的行业的人要贵一大截子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以算力贵。是因为你们要用sota的模型吗？因为我理解是不是比如说有一些用开源的方法来降成本的可能，还是你认为就是必须说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它烧算力烧的多。其实不是因为我们用模型，是因为我们训模型，就是这个模型在某一些能力上还没有认为到我们认为的那个拐点。刚刚不是有一个问题说，我们认为什么样的milestone，第一个是工具上的，第二个是管线上的，在工具上还没有到那个moisture。所以我们要持续不断的迭代这个模型，这个是花很多钱的。Influence反而还好。对如果我哪天就只做inference了，那这成本就马上降下去了。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是比如说像这个前面要花多少钱，目前是未知的是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大概有个数，但是也挺贵的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才提到今天AI的人非常贵，是，然后你也提到咱们为了做好一个商业化的科研驱动的公司，它其实需要把很多不同的优秀的角色揉在一起。对，除了很贵的AI研究员。所以我也想问的就是在这么一个需要把对这么多交叉的人放在一起的一个组织，就是你希望他是一个什么样的文化？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得更多的是大家有共同的believe，觉得应该去一起做一件特别伟大的事情。可能这个伟大一定层面上是技术，另一个层面上是通过技术去驱动巨大的商业价值。其实到今天，这个公司大部分是有底层技术信仰，就是觉得这事儿可能未来几年会有大的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多比如说咱们做化学的老法师就有一些，他之前一直有一些自己的理想。比如说在没有做实验的条件下，能把这个实验的结果，我某一些实验结果猜个7788。这事情在他的印象中是不太可能的。但是我们聊了以后，他认为可能在未来的一两年，甚至现在某些技术上可能能实现这个点了。那对他来说是一个整个他的技术生涯的一个转折点。那这样的人可能就会聚集一帮这样的人去做这个事儿，以及推动这帮人去迈向下一个技术锚点。这个就是我们觉得可能这个行业，包括我们这样的公司能吸引到人的原因。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们应该还是要找蛮多交叉的人才的，这种人在市场上多吗？还是你们觉得今天必须得自己来培养？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们要的那些人，可能并不是要在每个领域都懂一点。我们最希望要的什么样的人呢？是在一个抖音里面特别硬核，超级专业，同时他的视野很广的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是在一个领域是专才。但同时他的知识面又很广。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该说硬核。我们特别看这个词儿，硬核。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这两年其实中国出现了蛮多的AI的人才的培养的新的一些学校组织。比如说像你深度参与的北京中关村学院，然后上海也有创智网学院。对，然后河套，然后可能还有针对更年轻的孩子们的知春学院。你怎么看现在这一些新型的学校机构，他们在扮演着什么样的角色？就是你需要的一些未来的对你们的有价值的人才，你觉得从这样的机构里面出的来吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是很有可能的，因为别的机构我可能没有那么深度参与，本身我在中关村学院也有这样的位置，就是做一部分这样的事儿，组建团队以及去培养学生这个事儿。我看到的是博士生们进来的第一天就进项目，做项目的过程中不断的成长。有一点像一个startup，他最终朝一个目标去，在这过程中他不断的去学习，到今天这个时间节点上。因为AI它是一个特别特殊的工具。举个例子，我最早做生成式模型的时候，我怎么学的呢？我一篇文献都没有看过，一直在问问题，GPT和DPCK都问，就是一直追问，就什么care loss，什么背着inference，各种各样的东西我原来都不懂，后来就是追问，反正就底层的数学我还是考的那就基本上通过追问把自己的一整套梳理的框架给建立起来了。这个我觉得可能就是新的时代，可能学习的方式也不太一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后刚才我们也提到，今天模型已经拥有那么多的知识和智能。大家的学习的方式方法，甚至学习的目标都会发生变化。然后你有一些这样的最近的思考吗？比如说知识和能力。我们在过去，我觉得我们刚才聊天的时候，你提到什么学会数理化，走遍天下都不怕。对，这好像就意味着我有了数理化的知识，我就等于拥有了这个非常牛逼的能力了。但今天好像知识和能力在解耦，那今天要怎么学呢？要学什么呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我真的没有答案，我也特别的迷茫。这个咱们可以聊两句，这为什么会有提到这个问题之前我们也聊。其实是在我们面试的过程中，不光是在这个企业面试，而是之前面有一些学生甚至在中关村学院帮着学院面一些年轻的老师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过程中我们一直在想我到底念什么？我问他啥问题呢？我问他的知识性的问题，GPT全都能答，而且知识面比我强。那这个东西有意义吗？能考出他过往的能力吗？那还是面他解决某一个新的问题的能力。这个事情就是这个点上emerge出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我们自己也不是特别清楚，但是到今天我们还是会问那些特别硬核的抖音里面知识性问题。为什么？因为至少在过去几年里能问得出来，说明他还是能学得会的这也是某种能力。但是在未来真的边界感会不太一样。我不知道这个事儿我也不知道您怎么看，因为AI的知识性特别强，是不是以后每个人就是要学当产品经理，这也看靠近你怎么考虑这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我觉得这个主动性还是很重要的。就是当知识都在那里的时候，你是不是主动的去用好了他们对，或者主动的去寻求了模型对你的帮助。就比如说历史上我们也有很多的图书馆，对吧？也有百度，也有google.</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那其实对，但还是差不多对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但历史上也不是每个人都把这些资料资源或者这些智能用的最好，对吧？所以有主动性的人肯定还是很强的对。然后第二就是我觉得比如说我们可能看的更多的是创业者，所以我会觉得他身上的这种所谓的企业家精神是很重要的这是非常软性的。比如说是不是有韧性，是不是有领导力，比如说是不是有极强的这种愿景，以及这个愿景带来的感染力？所以这种其实我觉得是重要的。还有就是大家都在讲的这个haste就是审美。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个特别重要。这个其实不只是抽象意义的美，其实做学术做科研他也有审美在背后的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还真是您这点今天讲我觉得特别有意思。这样讲还真的taste，特别是做research，这个好像会变成最重要的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还真是taste是一种选择，对它会折射在方方面面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我之前面试所有人的时候，我会提一个什么样的问题呢？假设给你无穷多的资源，以及比较非常大significant的一个团队，我一般会给个数。比如说十个亿的人民币的资金，随你怎么花，没有限制，没有审查，以及100个人的团队你想干什么？我为什么问？因为这个能筛选出来这个人有没有想过。有没有vision？对，这exactly。我觉得可能在这个时代是不是会比知识更重要一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是不是已经有答案了？在这个问题里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们肯定是有这样的愿景，要不然不可能跑出来做创业还是压力很大的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你觉得这个比如说今天如果有一个新的PSD，然后他听完咱们这期播客觉得AI for材料是一个特别好的方向，然后他想要来投入这个浪潮，所以你会建议他从现在开始花比较多的时间去学什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好问题学什么？还是那样，至少到今天为止，我觉得视野面一定要广。第一天参与到一个特别是重大的一个课题里。然后在这个课题里面做最核心的技术的最核心的部分，最硬核的部分，你可以做模型，做模型的开发，但是做的要很深，而且细节很懂你也可以做合成。就是说我就是给我一个新的物质，我硬搓我搓几个月，我就是能把它搓出来，特别难喝，我能喝的出来，这个也行，就到今天还是这样一个状态。你说读哪个专业？我觉得现在看来每个专业只要足够硬核还是可以的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你看重的是去挑战最难的事情，以及在这个事情的挑战的过程当中积累下来的一些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实它也是对人的能力的一个反馈。我做的不是那种每个地方踏实一点，把它组合优化。而是在一个点上锚定以后，把它解决最核心不可拆解的难题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再来聊一个问题，就是你会觉得有时候在未来五年里面，就是大家学到的今天的这些能力里面，有哪些能力会变得非常不值钱吗？Coding coding coding会非常不知情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以及模型的design。这个我有点口出狂言了。但是我目前感觉以后整个AI的设计范式也有可能会变化。特别现在AFAI出来了以后，真的emerge的非常快。那coding以及设计AI这些能力可能都会慢慢的被淘汰掉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你之前有提到二三年、24年的时候，你们看到了一个就是在那个时候的GPT3.5，或者类似同一阶段的模型做的事情，给了你们很大的这种信念感。最近半年有没有什么一些新变化，让你觉得你们在做的事情变得更有可能了，或者更会被加速了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这半年看到的可能不是我们这个短命的AI的模型的进化。因为我们自己也在做，确实有越来越强的能力，而且可能能力增加也不止一点。但更多的我看到的是整个frontier的那一类的BI模型。就比如说cloud，比如说就ops这样的模型，它的能力似乎真的是对我们影响非常大，以及open cloud这样agent&#x27;s system去做影响非常大。就我们现在我们这家公司给每个员工是配了这样的cloud，而且我们目前不设偷坑上线这个东西对整个生产方式会有变化。以及我很多原来需要用人去驱动的工作，驱动的这个search的过程，很多都可以固化下来，要让这些东西去做，这个对我们影响蛮大的。他可能我觉得他不是一个generally对specifically付材料的，而是他对每一家公司，每一个人都会影响很大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外一个问题就是假如今天我们的这个基础模型就停在这里了，OK也不太可能。我们就这么一个假设，就假设它停在这里了，你觉得你们现在这个事情它仍然可能成立吗？仍然可能把在想象中的改变人类的材料做出来吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有可能，只是在什么时间节点能做出来确实不知道。如果模型越强我抽奖抽到的概率越高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我听下来，我觉得现在你们这个就是开武器在做的事情还是蛮明朗的，不管是目标还是路径都是蛮清晰的。但这个会不会又有另外一个问题，就是他太共识了，就太共识的事情做起来有可能反而最后turns out没有那么一帆风顺，你怎么看？还是说其实这里面有一些非共识是我没有感知到的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我觉得这个行业没有形成特别强的共识。就举个例子，比如说你做AI材料，他最重的商业化的兑现，到底是在寻找这个原始的重磅化合物上能兑现商业价值，还是在后端工艺放大优化上。我也能加速很多，能帮大厂解决很多问题，能挣很多钱，这个事情可能不完全是一个共识。另外我在模型的development的时候，到底是要花主要的精力去做什么样的模型，获得什么样的能力，好像也不是特别。我这个行业我觉得还远远没有到形成共识的这个阶段。听起来我觉得可能就是我们逻辑相对比较顺畅。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以最大的共识是非常high level的共识。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这个行业很重要，就是AI对材料行业、化学行业一定有巨大的帮助。那具体什么样的帮助，怎么样的商业模式，怎么样的技术战，好像还没有特别的明朗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才你也说了有些非共识，但都是在执行的层面，你觉得这个非共识会收敛吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个事儿我说实话我也没有特别的想清楚。就像现在语言模型至少过去的某一段时间内是基本上收敛下来了，现在可能稍微又有一点发散了，对吧？我觉得这个时间线我真的不知道材料行业里面会什么时候会收束。我觉得它背景是因为材料这个行业真的太广。其实材料行业是整个工业生产的底座太宽了，每一步都是巨大的市场以及对应的巨大的技术的鸿沟。确实大家focus方向也就确实不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>据你所知，刚才我们提到的这几个在美国做类似事情的创业公司，他们的做法和咱们有哪些相同，哪些不同？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>美国这几家公司其实就那么几个，panic lab、普罗米修斯、cobi、orbitals这几家有一些相似点。就是比如说咱们的period labs，他可能更多的是在用语言模型类的influence做这种逻辑的能力。加上一些met train这样的能力，去做那种偏推理的这种感觉的模型的研发以及下游的发现。这个可能和我们放在门头里去追的，目前看的技术路线不完全一致。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再比如说在普罗米修斯，这个细节我不敢讲完全对。但是他们的人员的背景里面有很多做流体的，做控制的，也有像我们这样做材料的。然后这样的一个背景的人，他们在做的事情其实好像也没有完全的converge。他们在做什么？听说是要造火箭，那那这确实不知道，但是在整体技术栈上，就还是回到刚刚那个没有完全convert。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>特别是在美国。形成了一个什么状态呢？一帮人才密度特别高的，特别天才的人坐在一块儿，天天在一块儿想我们做什么事儿，怎么样能挣钱，怎么样能有大技术突破？可能挣钱对他们来说都是后者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才其实你提到融了很大一笔钱之后，你反而感到有点焦虑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一些我们必须得很努力把这个事儿做成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要不然是对行业不负责任，对行业不负责任。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为这个行业就是大家对他有极高的期许。当我们做这家公司的时候，我觉得是得去负担起这样的大家的期许，是把这事儿做好的。这个确实是就是这样的带来的一些压力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们最后几个问题，一个是像我们刚才聊到的教育。那今天如果比如说你的弟弟，他告诉你我要去申请PHD，你会建议他去升吗？还是你会建议他直接到工业界来？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得会让他去读PHD。PHD是一个至少对个人发展上是一个特别好的一个什么事儿呢？PHD相当于是干什么？是有一个人给你一笔钱不用，还让你去探索你觉得有意思的事儿。天下除了PHD有这么好的事儿吗？是不是这个是人生最好的去探索各个领域，发现你想做什么事的一个阶段。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前也有人在问我说，我要不要去读这个PHD？是不是读完以后就年纪太大就业有困难？我说不要这么想，PHD是给你一笔工资，给你发着工资，做你觉得厉害的事，没有那么好的事情的，是最好的事儿。那肯定去赌博世界大厂打工，那是要回报。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的那我们最后一个问题，就是现在是创业的第一年，对吧？我们都知道可能一眨眼就十年了，时间过得很快的那那假如有机会给十年后的自己说一句话，不管是祝福还是是什么，许个愿还是任意，你会有想说的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这事儿开心吗？第二，还折腾得动吗？这个问题我是真的觉得那个时间节点只要还能折腾就会开心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>肯定折腾得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>动了是吧？真的有个过去几年里我感受到的就是我觉得我自己挺折腾的。原来是在大学里面，我读本科的时候，我的目标就是挣3000块钱月薪，娶个老婆生个小孩。真的这3000块钱是怎么来的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是因为我算出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我爸我妈在我读本科的时候，我的认知上两三千块钱过得挺爽的。OK就这个目标。后来快读博士的时候，又有这样的机会出国了，整个人又开始变又变得到快读博结束的时候，我说不行，我要去当教授。学者这个事情能为世界做贡献，整个人状态不一样了。说读完博以后当老师又觉得不行，我要做产业化那个东西才真的能改变这个行业，才真的能落地以及挣点钱。然后又往后，那是在深圳，深圳影响我非常大把，我从一个非常特别research oriented的人开始接触市场，市场力量真的很大。我18到20年左右。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我在深圳住了三年。那个时候在做什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>中科院深圳先进院，有自己的researcher的团队，做电池方向的研究以及一部分产业化工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以深圳怎么影响你那么大的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>深圳很有意思，整个深圳都非常的有热情，以及它的运行逻辑就build on一个经济的echo system。比如说在中科院深圳先进技术研究院，在先进院。那你要过得好，就是要自己去外面拿到经费。不管用什么方式，你可以孵化一家企业，做成很有钱的，每年给你反补，也可以去拿国家的经费，也可以去拿横向经费，但必须得能反哺。这个逻辑特别好，压力很大。但是只有能满足这个逻辑的，是真正特别有意义的那类research。可能有点急，但这个事情对我影响非常大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以及深圳当年有大量的人创业，然后再往后拿到一个机会去了剑桥。那个时候明显是折腾，2021年的时候，去了剑桥，去逆着疫情去那边去搞research。搞完以后回来拿了一圈教职的offer，最后都没去去了微软去了研究院。因为那个时候感觉，这个AI来了，必须得在大厂才能做事儿。他知道的这个事情折腾是没错的那又到现在折腾就折腾就还有希望，包括现在看很多大厂他在瞎折腾，但回过头来瞎折腾也是好事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得瞎折腾是好事儿的原因是因为你只有折腾才会扩大自己的所谓的运气的面积。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，真的是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但你自己这么爱折腾的这个精神，或者就是你觉得有一些原点吗？比如说是来自于教育，还是来自于什么环境的影响，就有曾经总结过那。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也不知道怎么就变成现在这样了。我觉得有一部分是什么呢？是我非常感谢我父母，就是我爸妈其实对我特别好，就是我有一个特别好的一个家庭环境，小时候父母对我都特别爱我，然后就是有点溺爱，以至于到什么程度，我跟我老婆讲的时候，她说你没有想过家吗？我说我这一辈子到处跑，英国、美国、香港、深圳这么多年，可能想家次数就可能就没有过，没怎么想过家。我原来以为是不是我有什么什么什么，后来发现就是小时候被保护好，我安全感非常强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个好有意思，就是安全感强的人不会想家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就是很有意思。我真的不想家，有的时候就是我我可能刚创业那两天有一点点想。但是你说这么多年在海外好多年各个地方飘，还有那种睡那种很奇怪的房子的时候，不想，挺好的，没有想过家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好有意思。所以你觉得这其实来自于安全感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是我的感觉，父母是我非常强的一个后盾。对他们是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>做什么工作？</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>白玥老师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，我今天谢谢子恒来十字路口。好，也希望开悟偈尽快做出牛逼的材料。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，感谢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好拜拜好，拜拜。</p>]]></content:encoded>
-            <pubDate>Sun, 19 Apr 2026 16:00:00 GMT</pubDate>
-            <guid>69e0344eb977fb2c470e4136</guid>
         </item>
     </channel>
 </rss>

@@ -4,48 +4,406 @@
         <title>AI炼金术</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8</link>
         <description>关注 AI 带来的本质变化和商业机会</description>
-        <lastBuildDate>Tue, 03 Nov 2026 10:05:57 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 08:46:53 +0800</lastBuildDate>
+        <item>
+            <title>Personal Agent 怎么从尝鲜变成常用？｜对谈千问蒋冠军</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6aebf2dec33509d82976625e</link>
+            <description>会回答，不等于能办成事；记得多，也不等于懂用户。对谈千问蒋冠军，我们拆解Personal Agent的两道关：系统怎样承接模型错误，记忆怎样补对当前上下文。从后训练、Harness到服务生态，竞争正在从一次惊艳转向稳定交付。70元理赔背后是目标与授权的边界；“六个月之内升职”背后，则是今天还无法可靠跟进的宽泛目标。
+嘉宾
+蒋冠军，千问事业部 AI 算法负责人。
+本期共创
+本期节目与技术播客「技术有下文」共创。欢迎点击节目名称，订阅收听。
+你会听到
+1. 系统承接错误，不是把任务全交给模型：Skill说明行为，框架约束关键操作，该由用户确认的仍须确认。
+2. Coding有代码库，生活却没有现成的上下文：Personal Agent需要模型、记忆与服务生态一起支撑。
+3. 一个真实案例：航空公司延误，用户要现金赔偿。千问的agent 打电话过去，对方要赔代金券，agent 不同意，“最终就是退了七十块钱回到了用户的那个账户里面”。打电话能力当时还在邀测、测试中，agent 以助理身份沟通。路径可变，目标不丢：千问Go！
+4. Mars 看过《金刚经》，说要吃烤肉也被扯到佛教上；记住不等于用对。记忆要为当前任务选上下文，处理关联、分层与时效。
+5. 上限吸引尝鲜，下限决定常用：把常见任务做稳。过去三个月，千问Agent单任务平均Token用量变成原来的1.6倍。
+6. 花二十块抢十块的券？减少错路与重试，也是降成本。配合Skill封装和压缩，千问相关任务上下文规模曾降低约40%
+7. 后训练补交付落差：千问围绕30多个行业梳理8000多项原子能力，改善真实需求的覆盖与执行稳定性。
+8. 能办事，不等于能接管人生目标，主动提醒要克制。
+时间轴
+00:00 开场
+01:26 为什么现在做 Personal Agent
+08:30 模型会出错，系统怎么兜底
+13:29 小龙虾为什么火了又不火
+16:56 现金而非代金券：守住目标，也守住授权边界
+26:58 个性化与记忆：记什么、记多少
+39:47 从尝鲜到常用：上限、下限与成本
+51:28 后训练：把真实需求拆成可稳定执行的能力
+1:00:50 主动提醒与“产品宪法”
+1:07:25 任务与陪伴：生态接入和长期目标的边界
+1:19:59 云电脑、成本取舍与生态优势
+1:29:51 未来半年与模型升级
+1:36:51 Agent 的惊喜与日常琐事
+1:49:53 片尾曲《交给它吧》
+以上功能与能力描述以 2026 年 10 月 27 日录制时的讨论为准。
+节目主理人
+主持人：徐文浩、Mars
+徐文浩
+某 AI 创业公司联合创始人，正在面向全球市场开发 AI 应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司 MediaV 的算法和数据负责人，后被 360 收购。离开后加入成立不到 1 个月的拼多多。后创办了基于 AI 的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023 年再次下场创业。
+任鑫
+美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造&quot;今夜酒店特价&quot;用移动互联网应用特价销售酒店尾房；被京东并购后内部创业&quot;京东到家&quot;开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。
+商务合作
+公众号 「AI炼金术 」菜单栏中【商务】获取联系方式</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期“AI炼金术”邀请千问事业部AI算法负责人蒋冠军，围绕Personal Agent如何从“尝鲜”走向“常用”展开近两小时对话。背景是海外personal agent产品（如muse、instinct等）密集涌现，而千问自去年11月发布起即以“能聊天会办事”为宗旨布局agent能力。蒋冠军系统拆解了模型能力演进、记忆与上下文系统设计、成本优化、后训练策略、主动性服务边界、生态壁垒等议题，并对留存率、商业化、模型升级导致harness失效等尖锐问题给出坦率回应。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>千问做Personal Agent不是跟风，而是既定路线</strong>：蒋冠军表示，千问从去年11月发布产品起，标语就是“能聊天会办事”，“会办事这部分，它的本质内涵其实就是agent”。他认为AI产品的终局一定是个性化personal agent，“只是那时候没有旗帜鲜明地把personal agent这个词提出来”。</p>
+</li>
+<li>
+<p><strong>Agent能力的技术起点是“模型能思考”</strong>：模型能思考后带来判断能力——先让单次回复质量更高，再用模型自我鉴别路径是否合理；代码能力变强则让工具调用和任务流程规划更顺畅。两者叠加，模型侧才具备agent初始能力。第二步是围绕模型的工具和生态逐步成熟，从信息类agent（deep research）向action类延伸。</p>
+</li>
+<li>
+<p><strong>小龙虾退潮的核心原因在三要素缺一</strong>：做好agent有三个核心要素——模型、个性化数据（记忆/context）、生态工具与体系。“小龙虾是一个非常非常好的理念”，但“效率并不是太高，任务的完成率不是太高”，且在个人记忆和生态工具两部分做得不够强。web coding之所以效果好，正是因为代码库天然构成完整上下文，且工具链极简。</p>
+</li>
+<li>
+<p><strong>真实退票案例：agent打电话与航空公司argue</strong>：航空公司延误，用户买了保险要退钱，要求退现金。agent打电话沟通，对方起初只给代金券（成本更低），agent因用户指令是“就要退现金”而不同意，重新寻找解决路径，<strong>最终退了70块钱回到用户账户</strong>。蒋冠军确认国内已可打电话，“已经在邀测在测试了”。</p>
+</li>
+<li>
+<p><strong>记忆系统的关键不是存什么，而是如何定义因果关系</strong>：千问的记忆存储形式与open cloud类似，以纯文本为主——“模型处理文本的能力其实很强，你反而原始的文本给他，他能够捕捉到的信息维度其实更丰富”。差异在于千问会站在世界知识的因果关联中分析事件关系，以此作为记忆定义和召回的衡量标准，并做分层（核心/短期/长期）和时效性区分。此外还会在事实基础上做抽象：用户提到养老退休、小孩没工作，可抽象出“家庭焦虑”，用于后续主动服务和情绪场景。</p>
+</li>
+<li>
+<p><strong>Token消耗三个月增长1.6倍</strong>：蒋冠军披露，过去三个月千问agent上用户的token消耗量增加了1.6倍，单个任务平均也增加1.6倍。“用户跟产品之间的关系，也是一个持续探索的过程，他觉得这个好用，然后它会变得复杂一点。”</p>
+</li>
+<li>
+<p><strong>成本优化：上下文降低约40%</strong>：除模型路由、量化、大小模型切换等标准手段外，千问在harness体系设计上做文章——skill分层设计而非平铺、自研/深度迭代skill以保证调用精准、把常见轨迹pattern封装成skill、记忆压缩与上下文结合。蒋冠军称“过去一段时间里面，我们差不多让整个的上下文降低了40%左右”。</p>
+</li>
+<li>
+<p><strong>后训练围绕30多个行业、8000多个原子能力做对齐</strong>：千问围绕行业做完整意图透视，归约到模型原子能力，在后训练和强化学习中重点保证这些核心能力的稳定性与覆盖度。“稳定性比模型上限能力更重要”——用户给千问打上“能订票”的标签，就不能只订ABC三类票而DEF订不了。同时做训推一体化，与线上环境对齐。</p>
+</li>
+<li>
+<p><strong>生态割裂问题坦诚回应</strong>：“补不齐，生态不通，那就是不通。”对于携程有、飞猪没有的票，可通过CUA或mobile use在用户授权且对方允许的情况下实现，但“肯定会非常不简洁”，对方禁用mobile use就无法解决。蒋冠军明确表示这不靠“computer use硬点”来粉饰。</p>
+</li>
+<li>
+<p><strong>完成任务与情绪价值：解决问题是底层需求</strong>：千问上50%以上query是问答，大部分创作类也属于解决问题，纯情感聊天占比不高。“解决问题是底层需求，情感是在解决问题的基础上有的需求。”蒋冠军以真人助理类比：用户聊马拉松目标时提醒自律，用户说暴饮暴食吃爽了，“那就不要管马拉松目标，先吃得爽就爽”。</p>
+</li>
+<li>
+<p><strong>长期目标追踪：明确的能跟，模糊的做不到</strong>：马拉松目标这类具体长期目标，千问可以较好follow；但“六个月内升职”这类范畴极广的目标，“这个说实话现在做不到”。当前产品仍要求任务相对明确和聚焦。</p>
+</li>
+<li>
+<p><strong>主动性服务处于探索初级阶段</strong>：从产品定义上克制地圈定场景，选择确定性强的时机（如感冒大概率七天、慢病康复节点）做提醒。核心是“在什么时间提醒什么合适的内容”，依赖模型对事件关联关系的理解。同时用“产品宪法”式的语义约束防止过度打扰，比如不能反复提醒用户不愿提及的疾病隐私。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li>
+<p><strong>“花20块钱抢10块钱优惠券”被当面追问</strong>：主持人问token也是成本，会不会出现花20块抢10块优惠券的情况，蒋冠军直接回答：“有可能会发生。这个今天我们也实事求是一点。”并补充“成本总有一个和预期收益之间的交叉点，这个交叉点是一定存在的”，但判断token成本会持续下降。</p>
+</li>
+<li>
+<p><strong>“产品宪法”的提法</strong>：谈到如何约束模型主动性时，蒋冠军说“有一些产品宪法，我们就是可以这么想象”，用偏文本和语义的约束界定模型能做什么、不能做什么、什么题型可以产生、什么题型不能产生——而非传统if else式的硬编码。</p>
+</li>
+<li>
+<p><strong>云电脑/云手机以体验优先，暂不计成本</strong>：千问购有云电脑和云手机，PC版执行和服务也在云端。蒋冠军明确区分两类功能：成熟chat功能精打细算性能成本；新范式功能“不会太多去考虑成本，唯一要考虑的是延时和体验”，“有用户规模以后我才需要去考虑怎么把单个用户的服务成本降得更低”。</p>
+</li>
+<li>
+<p><strong>“我们不是Anthropic”式的边界自嘲</strong>：主持人问personal agent能否从根源影响用户生活意图（如劝人别买袈裟买蒲团），蒋冠军回应“我们今天也不要太神话personal agent，它没有那么强，它还没有到能够理解人的哲学层面的人生观——我不是Anthropic”，把话题拉回“明确任务的代理”这一当前定位。</p>
+</li>
+<li>
+<p><strong>对六个月预测的拒绝</strong>：“你这个问题就是属于挖坑打脸”，蒋冠军以模型发版“以天为单位”为由拒绝做具体预测，但明确记忆与context的核心技术问题“通过半年肯定会有跃迁”，并举例“今天agent帮你点奶茶和买东西，跟六个月之前春节那会做的已经完全不一样了”。</p>
+</li>
+<li>
+<p><strong>用户“绕路”完成任务的即兴故事</strong>：主持人分享自己约体检的经历——点评不允许爬取，agent只截到首页两张图，随后跑到某健康网比价，算出价格相差10%（推测是手续费），绕开点评体系完成了决策。蒋冠军回应“现在agent相对比较擅长的就是有明确标准、可学习、指令下得清楚的事情”。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>半年前的时候，我们感觉小龙虾好像也来过一波，但是现在基本上大家就不用小龙虾了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为他出来以后，它其实有新功能，它在探索上线，所以用户去尝鲜，所以他出来的时候很火。但是其实真正在市场上提供服务的产品，它其实是下线能力agent的。跟航空公司一开始去沟通的时候说，他说给你退一个代金券。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在北京可以打电话了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，可以打电话。我们已经在邀测在测试了，agent就不同意，最终就是退了70块钱回到了用户的那个账户里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就会发生他花了我20块钱抢了十块钱优惠券的事情吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有可能会发生。今天我们要实事求是一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>欢迎来到AI炼金术。今天我们又升级了一下，那个环境也升级了一下。然后今天非常有幸的请到了一位嘉宾，是的，来自千问事业部的AI算法负责人蒋冠军老师。这个也算是我们这个频道可能去难得请到的最头部的AI和agent的团队的大咖了。先请蒋老师先介绍一下自己呗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>两位老师好，我是前文AI的算法负责人蒋冠军。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好啊，言简意赅。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，其实因为我其实自己也在做agent其实年初的时候我们也很重度的用过open cloud。就是我自己觉得做一个今天做一个agent本身其实已经不是非常难了。但是其实做个agent personal agent还是挺难的，难就难在说其实他要做的事儿实在太多了。就我做code agent往往我开个项目，然后它的上下文其实比较齐全的。其实所以我今天其实也是带着一个比较好奇的心态来的，想要知道说，真的你要做一个面向可能1000万人、1亿人甚至10亿人的personal agent跟做普通的agent到底有什么区别，另外一个可能也是比较好奇，就是为什么这个时候开始做agent，是因为说我们今天看到有group board muse什么instinct，这些海外的公司都出来了。所以我们觉得，那我们也得做一个，就是copy to china。我不知道千问做这个agent是为什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK就是千问的话，其实我们从去年11月份正式开始发布产品开始，我们其实我们的目的就是或者说我们的宗旨就是叫做能聊天会办事。我们相信AI产品它未来的终局，它一定是一个个性化的personal agent。所以说我们在千问最开始去做的时候，我们定的那个标语就叫做能聊天会办事。那会办事这部分的话，其实它的本质内涵其实就是agent。所以今天的话，其实大家对于personal agent的这个概念或者说这个名词比较火。但是其实在过去很长一段时间里面，就是切问题做了很多的关于personal agent这样的一些事情。只是那时候没有旗帜鲜明的把personal agent的这个词给那个提出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是因为记得年初的时候，当时就千万推了一波什么订奶茶订外卖这个过程对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，所以说今天其实我觉得并不是说跟国外或者说跟其他公司一个跟风的一个这样的一个过程。是因为今天整个的市场技术能力就到了这样的一个阶段。其实因为大家在去思考，去思考用户价值，去思考就是我产品到底应该做什么样的功能的时候，其实这个时候其实大家的思路都是会趋同的。而且今天因为技术能力OK，所以在模型这一侧，就是因为今天在模型这一，其实模型本身的能力其实已经比较强了。模型能够很好的做推理，很好的去调用工具，很好的能够把单点的一些事情串联成一个整体，完成一个任务。在这个任务的基础上，我再去根据你个性化的一些，包括你的记忆，包括你的contest内容，包括等等等等的一系列的事情去把它串联起来，变成一个完整的。我觉得这个其实它就是一个personal agent这样的一个产品或者一个功能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>您觉得就是说这个模型大概是什么时候开始？你认为说到了这个他能力满足需求，能开始做percent agent？因为我们以open cloud为例，其实去年11月就已经出来了，其实我们也差不多一年过去了，为什么不就而且年初其实过年的时候已经推过一波奶茶，那个时候其实我们已经看到模型有能力去干这些事儿了。为什么没有更早去把这个产品给拿出来？是因为有就是因为技术上还有成本或者其他的挑战，觉得那个时候还不够成熟。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这是一个逐步发展的过程。这里面其实有几个因素，其实我觉得模型什么时候具备personal agent，或者说具备agent的能力，我觉得它的起点是模型能思考，这一个是模型能力的非常本质的一个转变。因为模型能思考以后，所以在这个过程中它可以去判断和鉴别。就是说我整个的路径规划，整个的模型对于外部的工具调用它是不是合理。这是一个非常初级的，模型最早具备思考能力，它是一个非常初级的这样的一个能力。因为我今天模型能够思考，那带来的一个结果是什么呢？带来一个结果是模型能做判断，就是模型能够根据他自己产出和生成的内容去做一次判断。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，我们最早开始用思考能力的时候，其实是因为思考我让单次的回复结果质量变得更高了。然后因为这个单次回复质量结果变得更高，所以我又用模型自己的能力我去判断了一下我这个结果它是不是合理，我是不是有更好的一个路径去实现这个单点的功能。好，那agent是什么呢？Agent其实它是把这样的单点的功能，就是我发现单点功能不好，我就再重新去做一个规划，重新再去做一个判断，我把几步串联起来，它其实就变成一个完成任务的agent是对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，在这里我觉得思考能力有了，并且在这个过程中，模型的代码能力其实变得越来越强。因为在agent里面的话，它它代码的能力，它不仅仅是说我去完成一个coding的一个去完成一个web coding效果更好。但其实代码在很多，然后因为他能够更方便的去调用工具，更方便的去规划一个任务的执行流程。所以把这两个能力加起来，我觉得是相当于是在模型这一侧具备了agents的初始能力，我觉得这是第一步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二步的话是围绕模型的工具和生态开始逐步的。因为模型有这样的能力，所以其实整个的市场和社会体系会围绕模型的这个能力去建设它的工具和它的一系列的服务。这样这就是就是这里我们可以看到最早被改造的，比如说是模型直接能够调用的工具，比如说搜索引擎。因为有很好的规划和agent能力，所以那时候出现了其实是信息类的agent对吧？那个时候还不是personal的，就相当于你把一个复杂的任务，我可以用多步的规划和执行，去让你的比如说信息检索、信息整理这样的一个工作效率变的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为最早感觉火起来的是deep research，对，ep research，然后是做像notebook一样，然后把deep arch变成一本书像包括当时还有变成一个播客，还要给你做个PPT报告，对吧？感觉解放了大家的很多工作上的压力。但那个时候感觉还是说它其实不是个action，还是个我把所有的数据拿来，那个时候你要承担的责任其实也很小，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我我我其实我也比较好奇说，因为一旦模型变成personal agent它很多之后，我觉得他有个挑战就是说他不能出错了。就比方说我给你出个deep research，我报告给你对不对？错了也是你负责任。你去看报告，你去向老板汇报，然后这个数字不对，老板来骂你，对吧？他今天来给我做个personal agent，然后他帮我订个机票，他要订错了。就是今天大部分机票不是说订错了的火车票，你可以订错了，你立刻可以改签，可以退对吧？你订的机票很多说我要找个便宜机票订来了，肯定是不能退了，所以他还不能错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以我会比较好奇说，今天是觉得说模型的执行准确率已经到了90以上，还是因为我自己的体感是比如我其实没有很重的personal agent tent，我们有coding agent。那coding agents ent我们作为工程师，我们始终感觉他是human in the loop。就是人需要当中去负责去验收，需要去检查，他时不时会干一些。是的，所以是说今天的模型准确率在你们看来不或者因为千万有一个更大的数据跟场景是他到了这一步，其实我订机票可能比人出错概率还低了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先的话就是模型还是会出错的，因为模型出错这个是模型内生的本质的一个能力，它是没法避免的。那今天它为什么可以是一个personal agent的呢？在我看来的话有这么几个层面上的一个差异。第一个是我在执行任务的过程中，我本身模型的能力确实比以前准确率和调用工具的能力会强很多。我有很强的模型自我鉴别的judge的一个能力，去让整个的路径和过程变得更加的一个准确，我觉得这是第一方面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二方面的话，还是围绕着这个模型的这个生态体系，它变得更加的成熟。它其实本质上就我们也不用去神话personal agent它是一个什么样的东西。它本质上其实是解决任务的功能其实变得更强了。因为模型加哈尼斯加生态这个体系变得更强了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第三个的话就是今天我一定是会出错的。但是我出错以后，就是因为我今天已经不仅仅是一个模型直接去输出结果的一个这样的一个体系了。就是我可以围绕生态，我可以围绕我的整个的的那个系统建设去做很多的安全性上的一些控制。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说以刚才那个机票那个例子为例，对吧？那你涉及到订单，涉及到交易，涉及到自己的一些数据的修改。这些的话就是能判断就是这样的行为会产生潜在的影响的那这个时候再让用户去确认一下，就今天的personal agent我们的概念我觉得也不是说我一件事情我交给模型，模型全部帮我完成，还是一个很强的一个人机交互的过程。其实它更像一个助理，对吧？就是说助理今天你让助理给你订个机票，然后那助理肯定还是要找你来确认一下的。比如说你要什么样的仓位，大概什么时间，有一些什么要求，对吧？这些事情还是会来确认。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个确认过程今天是写在harness里的。比方说我只要牵涉到金钱，因为它可能是背后是很多MCP或者是很多工具，一旦牵涉到支付，我们就来找人确认。还是说它本身已经在千万这个场景下，它可能已经甚至已经训境或者融入到模型了。就有点像今天的头部模型，在这些安全性的问题上，它其实是先融入模型了。他会去做个judge，然后判断说这可能有个安全问题，然后我会拒绝回答。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这部分的话大部分功能会集成在那个skill里面。Skill里面就是因为我今天我不管是信息服务也好，其他的具体的一些比如说跟客观世界交互的一些服务也好。我们可以在skill体系里面去限定和约束，或者说去告诉模型。比如说什么样的接口它会产生一些什么样的行为。当产生什么行为的时候，你应该跟用户去做一些什么样的交互等等的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以那我所以说他还是在skills里面，然后相当于skills已经做了这个引导。然后模型本身遵循指令，指令的能力比较强，对它就会去问用户。所以换句话说就是说这个本身它不是一个强的，像我们传统的代码确定性的一个逻辑。它还是一个相当于模型能力上来之后的逻辑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对它没有那么强的说像我们原来写代码一样，if else的if什么它必须什么，对吧？但是我们在基本上这部分大部分的功能是在skills里面去实现的。但是我们在整个系统框架层面，我们还是可以再去做一些强约束，去给他做个什双保险。就保证一些必须要确认的事情，一定要用户去确认完成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解您刚刚也提到说我们的模型能力也变强了，然后生态可用的工具也变强了。然后我们可能我们的godred什么都都更好了。半年前的时候，我们感觉小龙虾好像也来过一波，但是现在基本上大家就不用小龙虾了。那现在我们的这种personal agent跟当时的小龙虾比，这半年他这几方面有没有什么具体的例子来讲，到底哪方面进步了，然后导致什么时候小龙虾这事儿干就很不靠谱。然后现在我们的personal agent就可以做的更靠谱的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这里那个差异在于核心，还是在于外围的整个的记忆和生态体系。小龙虾它是一个非常好的一个理念，包括在小龙虾之前，其实long圈这样的一些链式的让模型去完成更多任务的这样的一些技术体系和框架？只是小龙虾它非常有效的去把一些工具和功能的外延去做了一个更好的一个组织。然后让大家觉得好像今天模型除了能干原来的事情以外，能还能干很多新的事情，给大家的想象空间很大。就包括今天出现的muse其实也是类似的。因为muse其实也有很多的任务，它的完成率它其实可能不会太高，对吧？但是给他给大家会带来一个体验上的一个增量的一个预期。就是说原来我这样去使用以后，它会效果更好，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那为什么小龙虾不火了呢？是因为它这个框架里面，他其实还是有比较多的实现上的一些问题。他比如说效率并不是太高，然后任务的完成率不是太高。因为我今天我要把一个agent做好，我觉得有三个核心要素，模型，然后你的个性化的数据，包括记忆，包括context，然后你的生态工具和体系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们从这个角度去讲，其实今天web coding它为什么就是模型做的很好。第一个是模型能力他很强。第二个是我围绕着我的代码环境的上下文，或者说它的记忆，它其实是非常完整的。因为我的整个代码库就是等于我完整的上下文信息。它跟模型交互的时候，它的上下文是非常容易对齐的。然后第三个是生态工具，但是你在web coding里面，其实你只要代码的编辑器加编译的工具，其实就OK。对，而且这边可能也。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不需要编辑器，就给你个bash。对，那你就直接去文这个广。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这个广义的编辑器对吧？所以说今天就是比如说我在那个coding场景，今天模型就完整的，那个效果和能力就会非常好。这个的话我觉得跟那个小龙虾火了以后，他后来又不太火了，这个道理其实本质上是一样的。因为在这三部分里面，其实围绕着个人的记忆，围绕着生态的工具。那这一部分的话，小龙虾它其实做的其实是没那么强的那反而是今天市场上出现的一些新的产品，比如说像千问，其实它有更好的更全的上下文和个人信息的处理，有更好的一些生态工具和体系来回顾一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谢谢。因为之前我们跟国内的一些创业公也聊过。他们其实最开始也做朋克A型的，比较典型的就是橘子他们对吧？我们称之为他们很早看到这个东西存在，但是做出来也没有什么用，对吧？但是我们其实都觉得说其实很羡慕头部的大厂，就比如说像阿里就是说我买东西我有飞猪，我订机票住酒店我有飞猪，我买东西有淘宝对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我订个外卖，有淘包闪购，感觉都接进去。这个不管对，就不管你给不给补贴，其实只能我干，对不对？但是除了这些之外，因为对我来说我可能要personal agent，也就是帮我订个外卖。最后觉得好像订外卖还是自己看一下有有什么东西可以吃，有什么其他的场景或者数据覆盖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里面的话我觉得场景和需求其实人是固定的，是不会有太多增量的。但是在这些场景和需求下的实现方式和价值的提供和解决方案，我觉得其实差异是比较大的。今天我们还是讲那个以刚才你说的，就是我们接入了阿里生态，可以去做做买东西，订外卖等等等等一系列的事情。但是这里面它其实可能还会有一些相对比较复杂的一些场景，对吧？就是比如说你要退个票，对，我们就是我们就会有一个真实的例子，就是他航空公司他延误了，然后他要去他买了保险，他要去退这个钱。那退这个钱，他希望退现金，然后这个时候他就交给我们的agent去做。就是agent跟航空公司一开始去沟通的时候，他打电话过去跟他沟通的时候，他说给你退一个代金券。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在已经就已经可以打电话了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，可以打电话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>即使就就是即使在国内，因为我知道海外有些是连上了打电话，但国内就是可以打电话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>国内的千问里面就可以这样用吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可以这样用我苹果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那比如说我这两天有一个电话就忘了打，就是我苹果开发票开错了，要打电话给他们说我要重新开发票，我就可以让千问够帮我去做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是我们已经在邀测在测试了，这样的场景其实很多。对，就刚才那个case里面，就是说因为你打电话到航空公司，航空公司从他自己的利益出发是对吧？就是他其实一开始希望给你一个代金券，这样子对他来讲成本低。对，因为你这个代金券还需要在他的这个地方去使用，但是用户其实希望退现金，对吧？所以电话就会沟通，跟他沟通完以后说需要给你赔一个代金券，agent就不同意对吧？因为用因为他的用户给他的一个指令是我就要退现金，对吧？我们的agent又重新的去找其他的一些客户，或者说解决方法，解决路径。最终就是退了70块钱回到了用户的那个账户里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OKOK, 但这个当中我觉得其实有一个新的技术挑战，就是他用什么身份去打，对吧？很多时候我们去给航空公司打电话，他到底是以用户假装用户的身份，还是说我是一个助理的身份去跟航空公司沟通的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在的话还是会以一个助理的身份去沟通，对吧？因为这个确实也是他这个角色，因为你是助理的身份，你的责任和边界会相对我觉得会更加的是明确一些，因为它不能完全代替你。去行使你的所有的权利和承担。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的理解。因为我想到的是说，因为其实一旦可以打电话，还是有挺多场景的。很多但是有很多场景会比较重要，或者我们叫不能出错，对吧？比方说我给银行打电话，说比如说我要去银行说我有一笔这个在海外可能比较多见，国内可能不多。就是银行的比如信用卡，我有一笔我觉得这是一个欺诈fraud d我要refund，那一般都是要报自己的什么身份证号，报自己的什么卡号。但是这个就可能说对身份的要求就变重了。但是现在在国内的这个生态，你现在是起来了吗？还是说还有时间？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是助理你的店你的助理或者你的agent是不是能够把你的个人信息向外界透露？对，那这个的话其实是需要授权穿的，对吧？就是我要指定你，你可以用我的身份证或者说手机号码去完成一件事情。今天我们就是去聊personal agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我们不需要把很多的场景往极端的，或者说往非常边界的那些安全和危险的这种情况去考虑。当然我们整个系统设计肯定会考虑安全的问题，但是我们去想场景的时候，其实大部分场景它并不会涉及类似这样的信息。因为大部分其实你是帮你去做咨询，帮你去做预定，帮你去做信息收集、信息整理加工等等等等一系列。这是大部分的需求。然后当涉及到这部分，就是跟你个人信息、个人隐私授权相关的这部分的话，那你在安全上你就去做一些授权。因为他的角色归根到底他并不是你本人，他还是你的一个代理和助理这样的一个身份去完成他的一些工作了解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那我们现在的主要的场景会是哪一些呢？就是常见的场景就是刚刚举的是一些比较极端的。那阿里你千万购这边主要是购物吗？还是购物之后售后，还是买还是旅行的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主要的场景其实是在财经教育、医疗，然后一些生活服务相关的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>生活服务其实我们很容易理解，财经、教育、医疗具体是指什么？医疗是指是是是让他帮我去挂号，还是说去做跟做信息咨询。比如财经他是让他帮我去建股，还是说去做出分析报告。对像医疗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>里面的话，主要还是一些信息服务，就是专业的医疗知识服务，包括一些比较长城的一些病程管理，这些是比较常见的。因为在医疗里面其实最核心的问题其实是可能是用户跟医生，跟医疗体系，它的那个知识体系不对称。甚至我哪怕是一个慢性病的患者，我对这个慢性病有很多的了解，对吧？但是我其实对于这个慢性病，就是整个的长期的一个康复的一个过程治疗的方式。包括市场上是不是出现一些新药，有没有一些新的解决方案，这个我其实是不知道，或者说很被动的那他当用户比如说有一些这样的新的信息以后，他其实就会来我们这个agent里面，他去帮他去做一些信息收集，然后跟他的自己的一些情况去做判断和匹配。医疗的话，其实我觉得是专业的医疗知识和整个的一些比如说病程管理相关的这一块会更多一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>到财经这里的话，其实就是用户的目的其实会更纯粹一些，对吧？因为今天其实特别是C端的用户，他跟财经类相关的问题，他大部分大部分他其实还是想要去做出他比如说理财的一些判断，这个是他的核心目的。那在理财的判断上的话，他要么就是做一些知识类的问询和查询，对吧？就是一些概念，一些基本的财经知识，或者说一些实时行情，对一些社会热点事件的解读。然后这个公司比如说他自己出的一些公公公告，财报，对后面的一些影响等等等等。他其实就是财相当于是一个财经类的咨询会更多一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那这个听起来就其实跟agent的关系本身。它其实跟之前我们拿个带了web search去做个deeper search就会比较类似了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得本质上其实还是有比较大的差异的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个差异在哪里呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是这个差异的话，我觉得核心还是跟他个人信息在记忆这部分，在上下文这部分的一个对齐。就是说你做一个deep research，它其实是没有状态的。就是我今天我问一个某一个公司它到底值不值得投资，它就是没有状态，就是一个单点的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是如果说作为一个助理来讲，比如说我们千万想给用户提供一个助理类的产品来讲，因为这个用户他关注比如说某财经里面的某个赛道，对吧？比如说今天他关注AR关注芯片，关注大模型，那他的那个过去比如说他他因为他会跟产品进行交互，他也愿意共享一些他的信息。比如说他买过什么样的股票，他过去做过一些什么样类型的跟这些赛道和行业相关的一些信息查询。这个时候你到今天我去问，比如说某个公司它是不是值得投资？他其实是带有非常完整的他的状态的。所以他的角度其实是会有所差异。我觉得这个体验上最终到用户的结果上来讲，我觉得体验是会有很大的差异。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我我我能理解，就是有这个信息它的会更个性化，对吧？就要更会更个性化。但这个其实也对产品有一个新的挑战，就是你希望个性化就需要用户输入大量的信息。假设我今天刚打开千问，我说你帮我推荐股票，那其实就没有区别。这个是没有区别。但是如果我希但是大部分人就是问财经信息，我理解如果是到普通老百姓，本质上就是炒股。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哪个会砸？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>本质上我是认为就是炒股对吧？它本质上我们不用去讲什么高大上的财经信息。就是大部分老百姓来问AI的财经问题是也就A股了吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后第二个是说，如果你需要他录入大量的信息，这个产品一下子就会变得很难用。吧？你说你我假设我要把我的证券账户里，我之前买过那些所有都给你倒进来这个东西才能用。我觉得大部分人就劝退了，大部分就算了，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以这个问题天天问，今天是已经解决了吗？还是因为我们看到也有一些产品是用比较暴力的方式，说我们看到一些产品在海外有一些负面的影响。就是说你把我硬盘上，我电脑上所有文件都扫了一遍，对吧？用过这种，对吧？就是这个感觉又不是很安全，大家会觉得对吧？但是你要让我说，我把这个账户一笔一笔的信息，甚至历史交易记录都输入进来，那我肯定也接受不了，觉得这玩意儿这东西没法用，对吧？所以这个问题在千万里怎么平衡呢？或者说是你们有特殊的渠道或者方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有特殊的处理。就是今天我们跟用户的上下文信息去做一个对齐。它并不是说我强制你必须把你的买的股票信息告诉我。而是因为对于新用户来讲，他其实是没有历史和上下文信息的。但是随着这个用户他持续的跟在使用千万，他其实历史上的一些信息它自然就会被沉淀。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我如果是关注股票的，关注财经的，我肯定在千问上会问很多跟财经相关的问题。那这个时候就是画像它可能不完整，对吧？因为这里有两种输入方式，一种是他在过去使用千问的时候，他沉淀下来的他的偏好和画像信息。另外一种是他就是想解决某个问题，然后他说我就是买了这个股票对吧？然后你帮我去收集他的各种财报的信息，那我们大概知道就是他的偏好，或者说他买了一些什么样的一些信息和股票。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然更进一步，我前面讲到了生态。如果说我们跟那个行业生态，今天在财经上我们还没做完，但是我们也会往这些方向去做。我们跟三方的一些财经账户，生态体系建立起来以后，它它因为账户可以互通，只要用户授权，那其实我都可以知实时的知道。就是在你授权的情况下，会实时的知道你现在到底持仓了一些什么样类型的股票，对吧？但是我是觉得随着agent能力，就你的这个产品或者说你千问它效果会越来越好。用户其实他会让杜他的一些个人信息开放给你的系统，因为用户觉得这样子他得到的结果会更符合他的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>预期了解。我之前也用过，当然那是半年之前了也用过一些产品的话，他们就特别强调记忆的部分，就memory部分。但是之后就发现了发生了一个非常诡异的问题，就是他每次跟他讲一个心事儿，跟我之前的东西没什么关系。比如说我今之前在看金刚经，然后我今天要吃烤肉，他都会莫名其妙的扯到佛教上跟我一起聊两句。那我们到底是怎么样来存这个记忆？但是什么时候有相关性的？Retrieve可以让这件事情就不要那么烦人，但是又是对的，就这两个是不是很不不那么好平衡？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这两个也是一个从技术上来讲也是一个取舍的问OK。就是你要召回更多的记忆信息，你可能就会带来你刚才说的对这个case。但是如果说你的记忆使用的不太充分，用户就无感。就好像你说你能非常了解我，能记住我的信息，但是你完全忽略了我那个。我觉得这里在就是这里有一个比较重要的一个技术判断。就是说我对于记到什么程度，是如何使用，这是两个特别在整个系统里面，在agent里面特别重要的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们就要去找一个标准，我觉得千问在这里还是找到了比较好的一个路径。因为今天你对于一个用户来讲，我要记住什么，使用什么，它归根到底其实是你你过去表达的一个东西跟今天的事情有没有关联和因果关系，对吧？我们的因果关系，我觉得我们去定义记忆，我们不是说我们看了金刚经我们就去记金刚经。而是说我站在客观世界的整个是就是站在世界知识的整个因果关联关系里面，我先去分析它的因果关系在哪里，就是事件和事件之间的因果关系在哪里。根据这个因果关系我去找到，其实就相当于建立了一个你就是你可以把它简单理解成一个图谱，但是它其实肯定不是一个图谱在具体实现过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这就讲到具体任务就会比较好奇，因为听起来好像跟我印象中，就是因为我是个重度的open cloud用户。在年初的时候，当然我们自己也做agent，就是我去看open cloud的这个memory，其实还是比较简单粗暴的。它就定时本章是用一个prompt或者一个指定模型，通过一个promp t把一些东西summary下来。然后每天存个文件，然后他半夜里有个dreaming再总结一下，然后再存下来。他其实没有用什么知识图谱，甚至他可以去用rag对吧？但是我们自己的体会，用rag的这种embedding的方式召回，其实效果并不是很很好，就是很容易要么召回过多，要么召回过少。但听您刚才这个说法，听起来是在做这种像知识图谱一样，把这个那那是做用了一个更复杂的方式来做这件事情吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者说我们怎么去评测这个记忆的方式是相对比较有效的呢？因为我自己用open cloud就觉得这东西挺好的。他的记忆就是有时候会给你惊喜，但有时候也会给你一些惊吓。给你惊喜的时候你就说这个东西他怎么想到跟我变化有关。给你惊吓是说这事儿我不是三天前早就已经否定掉了，但你又找了一个十天前那什么不相关的东西再跟我讲一遍。对，所以我会比较好奇说那实际在千万里面具体是怎么做的呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是它的存储内容和形式可能跟你在open gw看到的是一样的。因为今天其实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是纯文本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，今天其实你纯净你就存成纯文本就行了。因为模型处理文本的能力其实很强，是对吧？这个就是你反而原始的文本给他他能够捕捉到的信息维度其实更丰富。是你给他做了很多的编排或者说embedding之类的工作，他其实反而效果会不好。是对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我刚才为什么讲，那就是说我们要去判断和理解整个世界知识里面的一些事件的因果关系。这个的话其实是我们怎么样子去定义整个千问里面的记忆体系的一个重要的一个衡量标准和手段。就是因为记忆你归根到底是有个SIMMA，这个SIMMA当然它不显示的，显示在你的系统里面。但是你到底存什么，存到什么力度，这个是一个需要去衡量和判断。不然的话，你就是要么你就继续过杜对吧？要么你就记得太少，反而就是反而让用户觉得你不理解，对吧？这是一个实现的思路和记忆的存储标准下的一个比较大的一个差异。这种纯纯层的内容就是跟你刚才说的其实没什么太太大的区别理解，然后可能会做一些分层，就是哪些比如说是核心的，然后哪些可能是短期的，哪些是长期的，然后记忆的时效性怎么区分？您看就比如说你刚才提到open core，他虽然也有记忆，但是他他对于记忆的失效处理的其实是非常弱的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他基本上就是靠文件名里是哪一个日期来判断，这个东西是以前的还是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在的对对对对对，所以说这里面其实是就是怎么用好记忆，它其实是一个细节处理和你的那个跟你的产品功能设计的核心目的非常匹配的一个这样的一个体系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我可以这样理解吗？就是说就我们具体一点理解，就是比方说我会记一下很多事实，比方说我住在我我住在哪里对吧？这样我可以打车，对我来说就比较方便了，或者说我订机票，我知道我不用说我只需要说我要去北京，我不用再去解释一遍我要从上海飞北京。我可以这样理解吗？就是说其实是你们会根据实际的业务场景去定义一些scheme也好，或者我要存的这种事实对吧？就像open cloud会存说就进来他会先引导说你是叫什么名字，对吧？你的时区，你的语言。就是我可以这样理解说它有一层一层从最核心的用户身份到相对明确的一些事实，再到一些相对比如说医疗，我会去关心他的年龄或者病史，我我可以我可以认为他有点像针对实际，我们重视领域去的做的一个特化的设计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有这样的特化的设计，这个特化设计其实就是相当于事实和那个关系的一些定义，对吧？但是在千问实际的那个记忆体系里面，就除了对于这部分事实的存储之外，它还有围绕着这些事实的一定程度上的一些抽象。就是我举个例子，就是有一个用户他在我们的在千问上跟千问聊天。他聊到了他自己的养老退休的问题，也聊到了比如说家里小孩的，他一个三十多岁小孩，然后就是没有工作这样的这个问题，然后在家里就是比较焦虑。所以他的事实是，比如说家庭小孩没有工作，他的养老情况，这些是他的客观事实，对吧？但是我们会在这个基础上可能会去做一层抽象，就是他其实是有家庭焦虑的，或者说在这个阶段至少他是有家庭焦虑的。把这些事，因为这个点其实还是比较重要的。因为在很多场景下，我们去给他去做一些主动的信息和服务的推送。包括他将来可能问到的一些其他的一些家庭类的问题，甚至是他不问家庭的问题，就说我今天心情不好，对吧？那今天心情不好，很可能就跟他的家庭的那个情况其实比较相关。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你光存这个事实模型它也能处理，但是它可能就没有那么精准。所以说我是说我不光是正向的要去定义级，就是说我存一些特定的固定的一些事实关系。我其实我们还会从千问的产品功能反向的去考虑，就是说什么样的记忆的内容的存储。我从产品功能和去满足用户价值的这个角度上来讲，可以做的更好一些，更明确一些。所以有两就是两层都会去考虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这样就有点像是比如说一个人他经常以前又买爱马仕又到处去玩。那你这就可以抽象出这个人可能家里很有钱。然后他说这个月说我穷光蛋了，和另外一个人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，有对，这个例子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也很像说穷光蛋是不一样的了解OK。那刚刚提到这个的话就会感觉说如果聊时间长了之后的话，其实这个context本身就是一个很大的壁垒。本身就是一个好像谁先发积累的这个context。这积累了更多的上下文之后，其他人哪怕模型比如说更聪明一点，更更睿智一点，但是我信上下文信息不在那里我就转不过去，所以大家都要抢先发，是因为这个原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我觉得也是一个比较重要的原因。因为如果说大家对于personal agent的功能都实现的比较好，我觉得personal agents一定是个越用越好的一个产品。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，所以还是希望大家先要多用post date来点奶茶，这样使用的率就能上去是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我觉得今天其实也有一个挑战，就是因为我们看到muse，muse是一个典型的，其实在市场上口碑也很好，一开始用户有甚至初期的数据也很好。但他面临的一个问题是，其实时间拉周期到了20天、30天之后，用户留存就变得很低了。就是今天很多普通用户还是会有一个这样的问题，包括我自己有时候我用over cloud也是有一搭没一搭的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大家会觉得说，personal agent我真的用得上，对吧？如果我只是为了点一杯奶茶，其实我对plus agent最大的期望是你能不能帮我抢到优惠券吧？而不是说你有多了解我。对所以我我我其实会好奇说，在这个personal agent的这个，虽然它会越用越你会越用越好，这个我相信但是会不会有很多用户觉得其实我也不需要，对，就这个东西其实对我也没有什么大用，除了我，只要补贴的时候或者点奶茶的可以帮我抢优惠券的时候，等马上双十一了，你帮我去抢优惠券。Iphone都发布了，你帮我去抢优惠券。他这个时候我觉得很容易吸引用户来，但是抢完这波他可能就好像又又又觉得好像又帮不上我了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是你这个问题里面的话，我觉得包含的信息和层次其实很多，我其实还挺想聊这个。第一个是今天看的大家都是像相同的产品，但是产品的本质差异我觉得其实是非常大的。就是你刚才聊到，比如说open coro出来的时候很火，muse出来的时候很火。但是逐渐的这个用户留存其实就很低，大家就不太用了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这里的话我觉得它的本质差异是什么？本质差异在于这样的产品出来以后，它其实是在探索今天AI产品的上线能力。他说还能这么干，我这些工具和功能还能这么组合。然后其实muse也是一样的，就是open color也一样。因为他出来以后，他其实有新功能，它在探索上线，所以用户去尝鲜，所以他出来的时候很火。而且我相信在未来一段时间里面，肯定还有很多AI的一定产品，它会有能力上线的一些给人的一些新的想象空间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是它是上限，但是其实真正在市场上提供服务的产品，它其实是下线能力很高。我觉得千问其实下线能力肯定是比较高的，因为下线能力比较高，它稳定。就是说你为什么今天你open co你用着用着你就不用了吗？是因为他的下限能力不行，就是你很多的任务他完成度不高，对，所以你就没法用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，open cloud今天还有一个问题，你经常给他布置了一个任务，他做完了，但是他不告诉你，让你去问你到底做到哪了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，所以这是一个真正的好用的产品，就是它的稳定性肯定是很强的，它的下限能力会比较高。然后第二个的话就是你用agent今天就是因为归根到底agent他完成任务的那个就是用户对他的预期和他实际能够完成的预期，这个中间肯定是有差异的。但是今天我觉得在很多场景下去留存用户，我觉得靠把单点的功能做的比较稳定和成熟，其实是会很好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就你刚才觉得就是说，我抢优惠券抢票对吧？今天如果说你有一个agent，你能够非常稳定的帮你去比较可预期的完成这个任务。你这个A选项你肯定会一直用，你可能频率不能不高。但是你只要有这样的场景，你其实是会非常频繁的。就今天我们在千问的用户侧，其实也可以看到很多这样的典型的行为，对吧？就是比如说我刚才说的那个，我们在我们的agent里面，比如说财经、教育、医疗这些用户这些行业它占比比较高，对吧？那我们就看到其实用户他在问财经，他觉得那个千万好用，他就就会就会一直围绕着财经去问，就是他找到了一个它使用的合适的一个场景，类似这样。所以就是你刚才说是不是这个agent就是好像大家用的期望和预期没那么高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得今天整个agent的用户群体的规模，其实整体规模放在市场上还是比较小的。但是需求增长我觉得是很显著的。因为我们在过去三个月时间里面，我们统计了一下我们在我们的agent上的那这些用户的token消耗量就增加了1.6倍。三个月就增加了1.6倍。这个1.6倍就单个任务的平均就增加了1.6倍。这个时候其实用户因为用户跟产品之间的关系，他其实也是一个持续持持续探索的过程。他觉得这个好用，然后它会变得复杂一点复杂一点。他觉得还可以用，然后他下次就复杂，然后他变得更复杂。他他觉得不好用的，他其实是会往回退的，他也在了解怎么去使用这个产品，但是我觉得这个趋势和预期，其实大家都是在的规模，是我觉得在我看来我还是比较乐观。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，您刚才提到那个1.6倍token，因为token也是成本，那就会发生他花了我20块钱抢了十块钱优惠券的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有可能会发生。对，这个今天我们也实事求是一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对吧？这就解决不了。他本来觉得我花100块钱去抢到iphone是划算的对吧？可能第一天黄牛抢是划算的，第二天黄牛降下来可能亏本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是可能是会出现这种情况的对对吧？因为它总有一个成本和他预期收益之间的一个交叉点，是对吧？这个交叉点是一定存在的。但是我就是我就是我觉得从长远来看，这个问题倒不是很大的问题。因为我觉得成本是会持续下降的，就token成本是会持续下降的。我们千万上其实也做了很多的去优化成本的工作，对吧？这个成本下降其实很显著的。然后整个市场和行业对于模型这一侧优化成本的效果也是比较显著的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是那那我就比较好奇，您这边做了哪些成本优化的工作。因为我们自己看到说，大家通常用的成本工作是做，比如说模型路由，就把不同的任务路由到不同的模型上，对吧？然后尽量去保证cash hit，就是不能缓存都能命中，包括今天前一阵很火的那个jv对吧？就是说有很多我用这种decision model决策模型，我不用跑大语言模型吐一堆token。对我比较好奇，现在实际千问在线上用了哪些方式？</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你讲了好多的方式，我们肯定都用了，但是我们可能比你讲的方式可能会更多一些。第一个是最简单的，肯定是模型路由，大小尺寸就会会有显著的差异。然后第二个的话是整个的哈尼斯体系的设计和思考，我觉得这个差异也是会比较大的。今天我不同的哈尼斯，我其实去完成同一个任务，它产生的就是解决任务的轨迹，它其实是差异会很大大的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个我其实也比较好奇，因为我们自己也写。简单来说我们是working agent。因为harness在我看来其实是一个相对来讲比较明确的，其实就是一个agent loop。然后我塞一些工具给他，然后我通过system prompt，它会去决定调用什么工具对吧？是对他能做的事情其实并没有那么多，他其实相对有限的。我要么就并行调用对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者我有一些工具设计的好一些坏一些。那一般来讲是我塞的工具越多，它的能力越强，但是它的token消耗就越大对吧？您说的就是说在他设计上去让这个成本能够降下来。具体是指用什么样的方式？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你比如说第一个是你的skill，你到底怎么使用？你skill里面的具体的那个功能和工具怎么使用？就是你skill你可以平铺给他，你也可以分层的设计给他，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那这个其实就究竟是披露。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，你就就就是你这个影响其实就很大。然后你相似的工具很多，然后你这些相似的工具你怎么样模型相对比较合理的去调用一个完成度比较高的这样的一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个怎么做到呢？就是因为skills都是我加载进来，对吧？然后每个都是一个标题一个描述，他怎么判断哪个skills完成度高，然后来决定去用它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我们对于今天我们的skill不就是不是完全的对三方开放。就是我们引入到我们系统的skill，其实我们跟三方或者二方，还有很多是我们自己的，这些我们会有比较深入的迭代，我们基本上会比较清楚这个skill的功能和范围。这样子的话，其实模型去调用和判断的时候，其实就会比较精准。那这样子就是因为我要完成一个任务，它其实是规划要好。然后第二个是单步的执行成功越高，就你这个单步成执行成功率高，你这个成本肯定就低。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为你就是你老师没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你不用去从事，对吧？其实就是说在这个上面其实会去做很多的工作，那这样子保证就是你整个的上下文其实就会比较短，然后来节省成本。其他的还有很多的包括比如说模型的量化，然后是大小模型的一些切换等等等等的。包括一些常见的一些pattern，把它封装成一些更好的skill。就是常见的那个轨迹拍的，把它封装成一些更好的一些skill。理解，然后去减少模型本身的一些推理的成本和负担。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>理解。因为模型每次写一堆代码，然后干了一个活，写的这堆代码最后可以固化成一个不用你对对对，不用你说我每次再重写一遍这个代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，就是这里面上面做的一些优化的手段，还是比较就包括记忆，刚才讲到的就是记忆，那记忆我怎么样子去做一些记忆的压缩，跟上下文结合在一起，这里面其实都是一些细节的一些事情，还是能够节省掉很多的成本。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从你们的经验跟体验，大概通过我们不讲那些什么模型路由或者量化。因为那个相当于是个标准化的手段，所以就只是通过这些策略，你没有评测下来说这个能够降低大概百分之多少的投资消耗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个的话就是他没有一个标准，或者说没有一个比较终极的目标。因为我们今天可以有更好的路径选择。因为这模型能力本身在变化，你的那个生态体系在变化，对吧？就是说你的路径选择你可以变得越来越多，所以说它没有一个标准和那个但是我们在过去一段时间里面，我们差不多让整个的上下文降低了4%、40左右.</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>40%.</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那很多了。是的，就是空间其实还是很大的那些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二个我会比较好奇，就是我们会在这个千问实际的这个A键场景中会去做，就根据实际用户的模型单独为agent的去做后训练。因为我们大家市场上都能直接调千问的API对吧？千问3.8 max也好，或者是包括有很多开源的模型也都可以自己部署对吧？但是我会好奇说，因为你们会看到更多的用户使用的这个数据，这个数据跟我们拿去跑打榜的数据又不太一样，对吧？因为我们打榜的数据不会打绑，数据里基本没有什么订个票，什么打电话退个款，就是这样的场景。那你们会根据说，因为我们看到了真实的用户场景，所以在而且这个场景里可能我没有那么重视coding，对吧？所以会单独做一个特化的一个后训练来匹配这个场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们会去围绕场景去做后训练，这个工作一定是要做的，因为这个能保证我觉得这里最大的保证的一个是模型下线能力的稳定性，是特别重要的。今天我们因为千问那个基模，我们对外发布做了很多的一些能力上限的探索，但是我围绕着一个具体在哪里，我刚才聊的其实稳定性比模型上线能力更重要，对吧？今天我定个票，我要保证他所有大部分的票他都能定，而不是说今天我能订ABC这三类票，我就DEF的我就定不了了。这个跟用户预期他其实是很不符合的。因为用户可能我认知你我就我给千问打的标签是你能订就是订票，对吧？所以说我们在后训练的很多的那这个工作里面，我们去保证模型的稳定性，去保证它对场景的覆盖，去保证它跟当前的那个线上的整个的用户的需求分布。他是去做对齐的，我们后训练会做。然后第二个的话，我们会做训推一体化的训练工作，就是跟我们线上环境去做对齐，这一点其实也是比较重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天其实如果说模型的智商，模型本身的推理能力，我觉得其实是处在一个比较高的水位的，去实现agent比较高的水位的。前几天我有一个分享，我说其实今天对于personal agent里面大部分的，比如说工作，学习生活类的任务，其实站在模型的角度上，它完成的能力它可以是百分之百的，就是今天你有一个任务，你觉得模型做的不行，你稍微做一些修改，你这样模型去跑，你就会觉得这个跑出来跟你预期一样。那这个时候其实说明一个什么？说明其实模型的能力是够的对，只是我模型去做路径规划的能力，去做工具调用和整个的解决问题的那个方式的时候，有有跟用户真实的情况有一些偏差，就导致他那个用户质量差，吧？所以我们会去做很多这样的一些工作去对齐理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我觉得这个问题其实真的跟用户的真实场景对齐这事儿挺难的。就难在哪儿呢？就是我我们做工程师经常会遇到说，我们有产品经理的同事跑过来说，你说这个AT可以干这个事儿，我干不了对不对？然后我们一个工程师过去把那个pumps改了一下，这事儿就可以了对吧？这个是个挺常见的场景，对吧？但是我理解就是甚至比如说我们给企业做服务，我们可以说我们有个FDE到那个企业内部去驻场，那就可以一个问题一个问题都可以解决掉，对吧？但是我理解普通用户千万不可能说我派FDE到用户家里去帮他来做personal agent，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而用户我理解用户就是说什么年龄段跟什么样的表达方式的人都有，对吧？我会比较好奇，就是在一个模糊的输入的情况下，怎么能够真正跟他对齐，把任务完成的对吧？因为人很多时候有很多言外之意，就是说我就是可能我太太说，最近天气好像有点冷了，要到双十一了，她的意思要买衣服。打个比方，我的意思是最近天气有点冷了，这个意思是要开空调。这可能是两个不同的想法对吧？那那这类问题在前文里面是今天是靠模型或海量的数据，甚至对用户的个性化话能解决吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个肯定从技术上来讲，没有办法做到完全100%的对齐。是，但是他这个问题，你刚才讲的这个问题，它的本质问题是什么呢？其实本质问题是用户的数据分布跟模型认知的数据分布之间的对齐关系。其实它是一个拟合关系，对吧？就是这两个数据分布越接近，也就是模型能够完成用户的那个任务的成功率和规模会越大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在我们这里在千位上具体做了，就是具体是怎么做的。就是说我们因为我们用户规模其实也比较大，而且我们有比较完整的公开的和各种我们采买这些私就是私域的数据。根据这些数据，我们其实大概是可以判断在某一个行业里面，用户的核心需求它是什么？它的表达方式会集中在一个什么样的一个地方。因为这些它其实是相对比较客观的，而且是相对来讲可规约的对吧？或就是或者说我们从技术的角度来讲，它的表达方式是可聚类的，对吧？因为它同一个意思，他只是表达上有一些差异，是可是可取。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那从这个角度我就就是我们其实围绕着所有的行业，我们去做了完整的相对完整的意图透视。然后根据这些意图透视，我们再归约到模型的一些相对比较原子的能力。我们有三十多个行业，然后我们定义了八千多个比较原子的这样的模型的基础能力。我们从后训练上，就刚才聊到后训练和强化学习。我们在后训练上我们会去重点去看这样的这些核心能力它本身的稳定性和效果。因为这部分的能力组合起来其实就是比就是比较相对比较完整的整个的用户的需求分布和表达方式去做一个对齐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那这个会引入比如说用户的个性化信息。因为我们其实传统的搜索推荐，其实很多时候已经引入了用户的个性化信息。那实际在千万的这个场景里，就除了memory部分会再引入其他的。比方说我们在淘宝或者在哪里，我们其实已经有了它的很多的隐性的个性化信息了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在模型训练过程，就是在模型能力上来讲，是不太需要去引入个性化信息的。因为对模型来讲，它其实无所谓，就是你个性化信息也只是输入的prompt的一种方式，对吧？就是我今天我说我喜欢喝奶茶，跟今天我说我是一个中年人，我喜欢喝什么的。那我是一个中年人，我喜欢喝什么的，这部分其实就是我很个性化的信息，对模型来说它无所谓，对吧？所以说我们在模型能力建设的时候，其实它只要是符合客观世界的真实的一个数据需求的分布其实就好了。个性化只是客观世界真实需求分布里面的其中的某一些表述。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>原来它其实是agent hardest的一部分。对对对，不会是模型的一部分。是的，理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那用户实际使用过程当中，比如说刚刚提到一个帮他去搞那个航空延误险，搞成了没搞成，这其实是一个反馈信号。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>部分真实的这部分数据有可能用来强化学习吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这部分数据我们你看就是以刚才这个例子为例，就这样的场景我们会去看。那这样就是说因为我刚才讲我们有三十多个行业，然后我们有大量的意图，就是几千个意图的组合。然后在这些组合里面我可能有不同的轨迹，那我们的轨迹可能就会覆盖到你说的就是这种情况。我比如说我要推一个航空延误的这样的这个case，对或者说我的一些某些样本里面的这些原子的能力，或者说路径轨迹能覆盖到你。这个就是因为后训练的整体的样本规模也不会特别大。但是我们会去评估就是说这些原子能力，这些核心的轨迹它是不是覆盖，然后它符不符合那个样本整体的分布的一些多样性的一些数据质量，然后自然就会泛化到比如类似这样的场景，我今天对航空的我可以这么去干，对吧？那那那你要退一个什么酒店呢？它其实它的范式其实是差不多的对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那回到personal agent本身来说，我觉得今天所有人用personal agent，大部分人得到一个比如这种哇哦的那个感觉，是因为他会主动发起一些任务。比较典型的就是你海外的这些一开始都会引导你去连你的邮箱，连你的个什么notion或者之类的这种知识库什么的。你就会发现他第二天早上跑过来就说，我读了你的邮件，说这几个我觉得要这样处理一下，你赶紧干，对吧？就是他倒过来催我活了，但是我实际就是我们看用的时候，有时候是经验，我说有时候叫惊吓。有时候你觉得这个挺好的，我就没这事儿，我忘了。比方说他可能提醒我说你明天有个会，我可能忘了我想吓一跳，还好他提醒我，对吧？但有时候是你就嫌他很啰嗦，其实绝大部分是别人发的营销垃圾邮件，你都让我去回一下，那好像又没有必要对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我会比较好奇说千问今天会做这种这个就因为一旦到personal他会做哪些主动性的动作，或者怎么去解决这个就对用户的体感。因为你其实很难判断，就是用户到底觉得是他跟完成一个任务不一样。完成一个任务其实我们自己去看那个trajectory，就看轨迹就好了。他干了哪些事情，这个任务完全没有完成，我能客观评价的。但是用户的那个感受就是你你跟他说你明天要记得去开会，他到底是用户说好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，用户可能不一定表达，用户只是看到了去做了。然后用户跟他说，那个邮件你应该要回一下，因为我看到也没去管，其实是不太好评评估的。我会比较好奇，就是这主动性这个事情，今天在千问是一个产品上是个什么现状，以及说你们怎么去看或者解决。这个我称之为其实当个最好的个人助理不容易的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，就是在主动性这部分的话，其实我们也是在我觉得探索的初级阶段。就是今天我们因为主动服务，我到底服务什么？我觉得这里有两个因素去驱动它真正的就是最终的产品它会呈现出一个什么样的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一个我觉得还是要从产品的定义上，你去去做定义和控制的。因为今天你肯定不能过度，对吧？所以说其实我们可以去从产品上，我们先去定义一些场景，就比较克制的去做。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我比如说我有一些比较明确的任务，我知道你这个事情它一定是会怎么发生的对吧？就是我可以定义一些行业，定义一些场景。就是你比如说你感冒了，那你大概率感冒是七天，对不对？对你感冒是七天里面，那我大概率可以可以去做一些记你可以算是记忆也好，可以算是主动服务也好。因为我可能在问某些问题，问某些药的时候，我可能可以给你做更多的一些提醒和判断。当然感冒这个例子我觉得还不算特别典型。但是你比如说像有些疾病，他其实一定是在某个时间点他要去做一些康复或者说怎么样子的对吧？就是它确定性是比较强的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个的话就是在因为你要提醒用户，其实无外乎就是实际和内容。我在什么样的时间我提醒你什么合适的内容是比较合适的那这一部分的话，归根到底我觉得还是那个模型的内生知识，或者说我们的那个模型训练上，对于一些事件之间的关联关系的理解和分析，他是不是合理和相对比较准确的那他就能找到一个好的一个时机去做一个内容的推送，然后再把这两者结合起来，那就是可以把那个提醒的范畴约束在一个相对比较合理的范围之内。但是我是觉得你刚才说的这个问题很对，就是说你这个问题到底最终会解决成什么样子，现实很骨感对吧？目标其实是很理想的。但是从我们线上的一些产品和功能上来说，我觉得用户在很多的场景，对于这样的一些提醒，他还是是比较有用的。因为我们从我们的消费也可以看出来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>大家会担心这个策略太保守。因为我听您的这个讲法，其实非常我们称之为叫古典产品经理，对吧？就是我们找了很多明确的场景，我们相信这东西对用户有用。今天模型其实是一个非常聪明的东西，对吧？特别是像anodic之类的公司，就感觉都把它是人格化甚至神格化了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>很多时候我们也发现说，当我们让模型放开手脚去做一些事情，他也会给我们很多惊喜。就是我们干脆让模型决定什么时候提醒我们，对吧？有时候他们会做这样的决策，比如说我把提定时提醒做成个工具，让完全让模型来决策。它可能没有那么场景化，它可能下限的确不一定有那么稳定。但它带来的一个好处是它能找到很多新的可能性，或者找到很多新的上限，对吧？会担心说现在这个做法过于保守，他其实有时候会让人觉得没有惊喜苦涩的教训。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实并不会。在在我们看来因为今天其实我们还是需要去人工去定义很多模型的能力和边界的。就这样的能力和边界，我觉得他并不是说像很你说的刚才的古典产品经理，就是if else的去定义。因为原来很多的我们传统的软件或者产品，它其实是if else的定义。但今天我们的定义是限制在一些范畴。其实这些定义它其实也更多是偏文本和语义的一些约束。比如说什么样的事情模型能能做，什么样的事情模型不能做，什么样的题型模型可以产生，什么样的题型模型是不能产生的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说你不能老是提醒我某一个我不太想提及的，但是是我的疾病，对吧？涉及到我自己隐私的，你天天跟我讲，就是只要我问到健康问题，确实你这个健康问题跟可能你的疾病相关，对吧？但是你老是提醒他，其实有时候就会让用户非常的反感。这种其实很好理解。我觉得类似其实更像是一个叫做什么呢？就是有一些产品宪法，对吧？我们就是可以这么想象。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，那就是surface一样的说法，对吧？就跟模型有个constitute对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解您刚刚提到那个那个我们帮他用户假设说觉得说他要可以订票的话，不能说这张能订，那张不能订。我觉得阿里在这件事情上定位还是相对来讲就比其他家要更舒服的。因为货大部分都在这边。对，但是也有一些货在人家手里。其实中国的互联网跟海外比还是相对对来讲就是割裂一些。那这个时候确实就可能存在着，比如说有三张票只有携程有，飞猪没有。这个时候是用什么方法来把这三张票给补齐呢？让他真的可以帮我办到？</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个问题补不齐，生态不通，那就是不通好。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？不用computer，柚子去帮他点掉了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>果然是觉得大实话。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？这实事求是。因为今天中国的互联网生态跟海外确实不太一样，对吧？但是就是你你当然你这个时候还看用户他授权到什么程度。因为今天那个除了比较好的，可以直接用一些MCP和API访问的那个是生态这种。因为这样生态对模型是最友好的是对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那还有一些其他的一些实现的方式，就是你比如说CUA或者说那个mobile use的一些那个。那这个的话其实只要在用户授权的情况下，在对方也允许你使用APP的情况下，这个其实也是有方法去实现的。但是这样的实现方法，它其实肯定会非常的不简洁，对吧？或者说对方甚至禁用了那个mobile use，那这个其实就是没法解决。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为实在不行，对方封了你的号是吧？但是别人都不会去怪对方，可能怪你的这个agent。对，你为什么让我被。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>封号了是吧？所以这个也是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>蛮神奇的。第三个我觉得就是今天person region其实还带来一个新的问题，就是因为我我一直觉得说这个难，难在哪里呢？就是你要有一个好的个人助理本身就很难，就是因为你的目标其实是一个模糊的目标，就是他很得得理解你很多你没有明确表达出来的意思，它才会比较有效。如果每一次我都需要用很长的跟你把这个事情讲得非常清楚，这东西就难用了，就对个人来讲都难用了。我会比较好奇，就是在千万里面会把说用户的长期目标混在放在这个agent的system prompt里，或者涉及到产品里面去。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你指的这个长期目标。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我打个不恰当的例子，假设我今天在上班，我说我希望在六个月之内升职。对，这个是我的长期目标。但是我可能这个可能跟我每天安排我的工作进度可能都是相关的对，但是他可能不会在任何一个我的任务里面去说，你记得我干这个事情是为了六个月内要升职，对吧？你可能没有人会这样讲，我觉得这可能是不是一个好的personal assistant。我们先不讲percent agent，就how persons season或者甚至是一个好的朋友会关心的事情，就是你是不是长远来讲变得更好了，而不只是当下我把你这个活给干了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个肯定是产品上期望去做到的这样的这个目标。但是今天的现状，比如说在以千问为例，他能做到的现状是什么？就是说比较明确的长期目标，千问是可以比较好的follow的。比如说今天我要去跑个马拉松，然后我希望我的目标时间是多少。然后他其实还会问很多跟跑步相关的，跟休息相关的那这时候千万是比较明确的能够知道你的马拉松的这个目标，因为它是一个很具体的任务。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后你说的这个升值的这个case，这个就相对比较难糊了。对，因为它这个范畴就非常很广了。那你说谢。就是写周报跟你这个目标有没有关系？他严格意义上来讲它也有关联，但是关联很弱对吧？但是你今天做一个具体的项目方案和规划，那这个关联就很强，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这里面你这个关联的目标跟就是你这个当前人物跟你这个长期的目标之间，他到底内在又有一个什么？这个就比较难，这个说实话现在做不到。但是我刚才举的类似马拉松这样的case就非常明确的那个长期目标，现在基本上是可以比较好的去follow。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>明白。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人类的这个矛盾性怎么办呢？就比如说如果是比如说徐荣浩他是CTO，他要写程序指挥下面人，那他的目标说是写程序，就真的是要把这个系统写出来。但是我说我要跑马拉松，但是我明天又想暴饮暴食。这个时候其实两个都是真实的我们。然后你在我在暴饮暴食的时候提醒我你要马拉松，我就很恨你。但是其实这就是我跟你讲的。这种人是非常之乱七八糟的一个动物吗？这个时候我们的personal那个agent会不会也挺难伺候到这个人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个问题确实比较难，对吧？但是我们还是把他往一个真人助理的一个角度上去想。就是说你今天我围绕着马拉松的目标，我提的问题，那我就是围绕着马拉松跟你去解释和交流。你今天我在讲我暴饮暴食，你问我暴饮暴食对不对？那我肯定告诉你不对，因为你有个马拉松目标在这里，对不对？然后你今天告诉我我吃的很爽，我吃了顿高考，就是你站在一个真人助理的一个角度上来讲，那就对，不要管你马拉松的目标，你先吃的爽就爽。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得人心讲的这个其实可能是有一个就过于极端了，就是马拉松暴饮暴食。但我觉其实生活中有一些目标是介于马拉松跟这个之间。我举个例子，我们家娃上高中，他可能还有一两年要高考，对吧？然后呢，那我肯定是目标要上清华，那这个其实目标其实是没有意义的。因为以他目前的生计，别说清华了，这个上海大学能不能考得上也要打一个问号，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个时候我我我其实我给他光定一个目标是没有意义的，它是一个复杂目标。你要考虑我的现状吧？但是他又应该可以努力？你不能说我今天成绩是算下来只能上这个大专，你说我们的目标定成大专，这也没有意义。但我肯定希望说定一个合理的又适合他的，又通过一定的努力能够得到，并且在这个中间会持续反馈的。因为他可能下个月又考了一个试用了一些成绩，这个可好了，那个可差了。最终他要选择报志愿的策略，最终他有一个这个可能是一个两年或者三年的目标。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他的目标其实是相对明确的，就尽量考一个适合他的好一好点的学校。它也不牵涉到我们说什什么完全矛盾的事情，对吧？但是实际这个又是一个相对比较长城又很个性化的工作。这对我来讲就是你别的事情都做不到，你能把这个事情搞定，我愿意出，就我工资的30%？所以这其实是个高价值问题，听起来又很有希望。我会很好奇就是今天千万能做这个事儿，以及说能做哪些环节的事儿，或者说你们期望能够最终做到什么程度。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得今天千问对于这样的这些复杂的问，因为你这个问题非常的复杂，对吧？他能够解决的难度肯定是比较低的，就是说今天其实肯定是还是做不到的那今天能够解决一些什么样问题？就是说今天能够解决在你这一个环节里面非常具体的。就是说今天比如说我数学要提分，对吧？然后我当前比如说你是高2，假如我高2，我现在你可以跟他讲，就是我有一些什么样的一些学习计划，或者说我有一些什么样的薄弱点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天我觉得对于AI产品的使用，或者对于千问的使用，它还是要任务相对的明确和聚焦，就是你的指令相对要下的清楚。这个你跟一个你的真人的一个助理讲，或者说你今天要雇一个家教，对吧？那你你也是要跟他讲清楚，你看我就是我小孩这个试卷是这么一个水平考试，大概考到多少分对吧？你帮我看看哪些知识点是比较薄弱的，你针对性的出一个方案，辅导对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我觉得今天在使用助理的时候也是一样，就是第一个任务要相对明确。就相当于你有一个学科的一个老师，他会帮你去做一些诊断。然后你有一个其他的，比如说生活情感上的等等等等的。他应该是有一个一个的一个一个专家，类似于你的那个助理或者说你的一个分身去比较明确的完成你的任务。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那听起来就是说比如说其实单环节我千万一定能做，比如说我的目标定成，比如说我多少时间内千万去提分，对吧？对，那我们把它编排一下，变成一个个sub agent，然后有个agent，再有一个控总控agent。去规划这事情不就是听起来就也可以开始尝试了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会有一些这样的尝试。但是你要想反过来，就是刚才任老师讲的一个问题，就是人他是复杂的，就是你帮他规划，他用户不一定听你的那老师对吧？所以说这里面它其实是有很多的变化的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说我是觉得今天能够把单个任务的明确的环节和目标给先做好。然后在这个过程中能够合适的给用户去提供一些建议和必要的一些信息。我觉得现在到这一步就已经是一个相对比较理想的一个状态。然后你再往后发展，那你可能就是一个非常复杂的任务。我可能有多个agent的同时在帮你执行这个任务，对吧？然后去补齐中间的各种各样的环节，然后逐步的迭代，让这个能力变得越来越强。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解我们之前做过一个孵化器，也投资过一些比如说什么陪聊类的，然后孵化过一些什么日日感恩日记，这诸如此类的一些项目。然后我们当时就有一个和发现产品要把用户留住，有两条完全不太一样的路，一条路更偏personal，其实就是我管你这事儿有没有成。比如说明明他是说我要写反思日记，但是我们发现只要一旦反思，他第二天就不来了，我们就说你就感恩，你就棒棒的。然后给情绪价值就有点像男朋友路线，就是这事儿我不要讲道理，一讲道理他就说你居然跟我讲道理。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一条路就是真实，叫做理工男路线，钢铁直男路线。就是你让我干这事儿，我就帮你办成。然后这样子的话，那个事儿的完成率肯定是更高的。但是我们有很多产品上试下来的话，走钢铁直男路线的话，用户就不来了。明明是你要我这么干的，但是你就不来了。所以的话我们既然是personal agent，那我们我们更更想走更偏向于用户的一个更长期陪伴。就是我让你觉得我好，我我挺好的，还是说我帮你把事儿办成。但是你不一定觉得我好好，这两者会不会还是有一些设计上的一些不一样的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天在千问上其实更是以完成任务和达成目标这样的核心诉求会更多一些。而就是而且这样的功能，它的产品流程，其实站在一个AI产品的角度上来讲。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它其实是会更高一些的。对，这就是codex现在的ChatGPT的那个流程其实远比muse高。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那肯定的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者说Carry的AI已经。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>卖身了对吧？这是一定的。因为你归根到底还是要让这个系统也好，这个世界上的其他的一切工具也好，帮用户去解决问题。因为解决问题是底层需求，情感是在解决问题的基础上有的需求。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回到千问的话也是一样，就是我们其实千问上其实大部分是那个问答，就是50%以上的那个query是问答，然后还有大部分的是一些创作类的。因为创作类其实也是要解决一些问题，对吧？然后真正到情感到聊天这部分其实占比是不高的那些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是第二个我会比较好奇，就是说一旦我们讲personal agent，就往往用户真就会真实把很多工具，很多东西给你用。就像我们之前讲我要用computer use，对吧？那我的浏览器给你第二个是我自己的用agent的体验，就是大部分时间其实我是用电脑的，就我从哪儿都，我因为我要干活，我要coding，或者说我要去看同事的code review，或者看PPT对吧？跟别人开，那我都会带电脑。但是比如说因为今天电脑很方便，我可能滔一个手机就开始语音输入，888也能遥控这个东西去指挥去完成这个工作。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>至少我们看下来，其实虽然这一部分用户还不多，但我其实看到在pro就重度用户当中，其实越来越多的是希望无感交接。像我就家里摆了好，就是我包括我的笔记本电脑，包括我的手机，都是连到家里的几台服务器去工作的。就是这样的。我保证我随时随地，包括我睡觉的时候他也能帮我干活。然后我即使没有带电脑，我用语音我也能解决一定的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今天千万一旦变成agent因为我理解它最早其实是个或者主要的用户还是APP。APP在问答的时候其实不需要这些状态，或者我只是存一个记忆的马可档文件就好了。但是一旦说我要去干复杂的事儿，比如说我们刚才说我要打电话退票，对吧？这个可能还不够复杂。假设我要剪辑一个视频，那大概率我就得在那个电脑上他可能得运转一晚上。那我肯定不希望说我这个电脑得永远随身背着。我会比较好奇说，今天千问是把这些事情也做了吗？是像比如说muse，像glock一样给你一个云云端，给了你个电脑，给了你个沙盒，还是说用户可以把自己的电脑给接进来说其实我用手机上跟他聊的时候，我自己的电脑也可以偷偷在直接帮这个手机偷偷在后台工作。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们其实这两个方案都有。第一个是千问购，它有云电脑和云手机。然后第二个的话就是我们千问的那个PC版，其实就是跟本地电脑，因为在本地电脑上，但是它的执行和服务其实都是在云端。所以我是觉得今天的核心的选择，它并不是说我是本地服务器还是云服务器。今天的核心选择的理由，我觉得其实还是问题的解决能力，对吧？这个才是关键。但是这样的功能在前文上其实。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>都会有OKOK。所以所以我可以理解为，就相当于我真的要去做一个复杂的长城任务。其实千万已经给我开了一个服务器，开了一个开了一台电脑在在背后运行了，对吧？这个我觉得又回到我们前面讲的成本问题了。因为这个成本还挺高的高的这个成本还挺高的对吧？就是我们看到还像menus在海外卖，他说给你个mac一个月租金50美元的，对吧？说我说一年都可以买一台新的电脑了，对吧？就是说我们总是希望把这个成本能够降低，即使是他最终会解决，今天能少补贴一点，在不影响效果的情况下，总是好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK就是这里的话就是我们刚才讲到很多的性能优化的这些工作。是那这些工作的话，其实是可以相对比较大幅的去降低对于单个用户的服务的成本的。然后我们刚才聊到就是云电脑，然后云手机这部分。因为今天其实是一个今天其实整个的产品功能的发展，或者说技术体系的发展。它是在很多旧的技术，旧的就是不能叫旧的技术。就是成熟的技术，成熟的功能基础上去发展出很多新的产品，新的功能、新的方案和那个那我觉得对，就是对于这两部分的处理其实是会不太一样的。如果是相对比较成熟的，比如说今天的chat功能，那这部分的话就是会花比较多的心思。因为他的那范式实现方式路径解决方案是成熟的那会在这些环节里面去花比较大的精力去考虑它的性能和成本。因为它服务的用户规模其实也比较大。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后对第二部分就是我今天长出来的一些新范式、新功能、新的实现方案。这部分的话，其实在千问的实现里面，它不会太多的去考虑成本。他唯一要考虑的是就是我延时，我的体验相对好不好。因为我只有在延时和体验做的相对比较好的时候，用户有那个增量价值的时候，才会有用户规模。有用户规模以后我才需要去考虑，我怎么样子把单个用户的服务成本降得更低。所以说那个模式不太一样。所以你看今天像刚才讲到的什么云手机，那个云就是云电脑，那这部分的话，我们肯定是以体验为优先，先达到体验目标，我们再来考虑服务成本。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对然后您这边的话就是整个我们在阿里的这个personal agent。我也不知道为什么现在拍的都换成这个词。对，在这个框架下面的话会觉得说这有没有什么特别的一个技术亮点，或者说过去一段时间的话有没有什么一些独特的一个看待这个赛道的一个思路吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得今天在千问这样的产品上去实现personal a的这样的功能，对，就是站在阿里的整个体系下，我觉得还是有一些相对比较显著的一些优势的是对吧？那第一个是还是阿里的生态还是非常的丰富和完备的。是因为你有一个完整的生态，其实从技术角度上来讲，能够帮你解决掉很多的问题。就是今天我能用工具解决的，我能用skill解决的，我尽量少用模型本身的能力去做推理解决。因为这样子成本高，任务的完成率反而低，对我觉得这是第一点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二点的话是就是整个阿里的千问的基模体系。这部分的话我们可以看到就是千问的基模的能力发展其实是很快的那围绕着刚才我们也讲到了，比如说在前文C端我要去做personal agent，其实做很多的一些后训练工作，去做数据对齐的工作，去做需求挖掘，去做原子能力的定义的工作。我觉得在这个上面，其实就是在基膜上，我们其实还是做出了很多的比较有亮点的，或者说比较有优势的一些地方。因为今天我放到市场上，我可能看的是一些公开榜单，就是看的是一些整体的调用情况。但是我到一个具体的服务，具体的C端的一个场景里面。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说淘宝买东西，淘宝抢券？</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们其实看到的其实是整体的基础的技术能力的稳定性和服务的效率，任务的完成率。所以说这部分其实还是在我看来，我觉得还是比较有我们自己的一些特色和优势的一些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>地方了解。然后美国有一家独立的创业公司，就是最近估值很高。Instinct，对，然后他们讲的故事就是我我们也聊过一期，就在讲说personal agent感觉很难收上钱，因为个人都很抠，你要做大就很难收钱。他然后instinct讲的故事就是虽然我们收不上钱，但是流水过我们我们可以向商家收钱。然后他们这个故事感觉就特别容易套到阿里的这个生态里面来。因为货也都是你们自己家的，对吧？然后你只要他买东西了，最后总能这个生态总能赚到钱，那这个方面是不是阿里一个独特的一个在在这个竞争上面的优势呢？其他家因为还得想着我怎么跟用户收钱，但是阿里好像相对其他家这个方面就已经成熟一。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实我实话实说，我觉得在这方面的成熟，在今天的整个的A镜头后面的发展过程中，我觉得都还是比较初级的。今天你问谁收钱，归根到底是你给谁提供价值，就是我虽然是服务用户，我为什么能给商家收钱？是因为我在服务用户的过程中，我我我让商家在这个体系里面获利了。所以我可以跟他收钱。我说的其实是给商家，就是我虽然是直接在服务用户，但是我其实间接是服务商家对产生的价值，对能够收到的这个钱。我在那个personal agent上也是一样，就是我有可能是因为有阿里的这个生态体系，我可能能从商家这里赚到一些钱，这个可能性是存在的。但是我觉得这个优势其实并不是一个决定性的优势。决定性的优势还是在于你怎么能给用户提供更广泛的价值。就是刚才那个徐老师说的，说小孩子学习的问题对吧？我今天能帮你解决。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你说能不能收到钱？对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>绝对能收到钱，绝对能收到钱，而且是能收到很多钱。我今天投资理财，对相关的东西，我能不能去辅助用户去做出更好的决策？是能，我觉得肯定能收到很多钱。对，今天我在这里工作，我想着晋升，你能给我真的好的一个解决方案，跟我说服我，我这样去执行，能让我晋升的成功率提升很大一截。你说能不能收到钱对吧？所以说我觉得归根到底，他不是说向谁收钱的问题，而是说我到底在这些环节里向谁提供了价值，这个价值值多少钱？</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解。再往后看的话，因为AAI领域的话，看看几年就叫做forever了。那往后六个月的话，我们有现在各个不管是千万也好，其他家也好，我们现在还没有做到的事情什么东西。你觉得六个月之后会有什么？就哪些技术上的突破会导致其实用户体验上会有一个跃迁。未来六个月，因为我们现在习惯六个月就看到一次奇迹。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你这个问题就是属于挖坑打脸对吧？因为今天其实对今天整个模型本身和AI的产品的发展实在太快了。对，就是今天很多时候我们都是一个月甚至几天，你看模型的发版都是以天为时间单位来计算的对，所以你让我去做预测，那很可能就过了六个月就啪啪给自己打脸，对吧？我还是不要做这样的预测。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是我是觉得这个趋势是明确的，我觉得围绕着刚才讲的，比如说我们要实现一个好的personal agent，比如说它的生态，它的记忆，这些是会持续的往前去比较快速的发展的。因为今天我们觉得记忆重要，context更重要，对吧？那记忆和contest这里面的核心的技术问题怎么样解决的更好？我觉得你通过半年的时间肯定是会有一个跃迁的。就像我们反过去去看，我们在今年春节的时候，我们能够点奶茶，能够买东西。但是今天agent能够帮你完成的点奶茶和买东西，跟我六个月之前就是跟我们在春节那会做的其实就完全已经不一样了。体验和效果肯定会更好，更加的个性化。然后第二个我觉得生态就是围绕AI的原生生态。</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为今天整个的互联网和社会的服务体系的生态，它其实并不是围绕着模型为中心去建设的对，而是围绕着就是我原来的那个互联网生态体系，它建设起来的一个服务生态，所以就说这样的生态我觉得其实是会发生变化的，就怎么样子更好的适配模型。那其实最初是很简单的工具，单点的工具。然后接下去到信息服务，然后接下去到那个服务类的比如说那个外卖就是机票对吧，就是这种服务类的，往往这个方面。去做一些延展。那你最到后的话，你可能是把这些功能串起来，变成一个我觉得会肯定会往这样的。但是你会出现一些什么样的产品，或者有什么颠覆性的这个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:32:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天真的没法说。技术团队的话，因为我们的很多听众也是创业者。其实大家现在都还面临着一个很有点崩溃的问题。其实大部分的创业者就是在模型上面做harness，做做一层rapper，但是每一次模型升级你就会发现那个harness 80%就白做了。但是你不做，当下他又确实解决这个问题，解决不好。但是你如果三个月后，你也知道里面8%就废了，然后其他人又跟你同一起跑线了，你又得接着做。所以其实就面临着大量的取舍。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你如果都投资未来的话，你当下这个产品看着就不咋地。但你都解决当下的问题，你当下的所有东西都会在下一次模型。80%的东西，下一次模型升级可能就没了，就没有用了。那您这边只要平衡这个问题，就是模型升级，我们的harness很多就废了很多就废了，很多就废了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么我觉得那个也不至于80%这么多。今天随着那个模型本身能力的发展，和就是你围绕着模型的外围的一切的整个系统体系的发展，就是说你肯定是有很多的工作你是要应付当下的对对吧？然后随着一些能力的变化，你有有一部分的工作你将来其实是不需要的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个现实问题肯定是存在的。但是我觉得这里核心站在我的角度上来讲，因为我其实核心还是以做应用为主，对吧？就是站在我的角度上来讲，我觉得还是以解决用户的核心目标和解决用户的需求这个点去出发，去思考和建设我们相对比较完整的技术体系。然后包括我们的那个honey，我们的整个skill体系，包括模型内生能力的建设方式去去看。就是因为你你就是你从这个角度去看我觉得还是可以去确定哪些东西其实是跟环境的变化关系不大的。这个确定性来自于你要服务的那个用户的核心需求和价值点对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这部分我觉得是要保持持续的往前迭代的。因为这部分的话你定好框架，这个时候你不管模型能力变不变，你其实是可以持续的往前迭代。比如说我们以千问为例，我们去分析和判断，就是三十多个行业的各种各样的需求，对吧？我们知道这些需求里面他可能会用到一些什么样的工具和服务。那你这个工具和服务的迭代其实跟模型是没有任何关系的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只是你这个工具和服务越来越强，只会让任务的完成率它会越来越高，对吧？然后哪些你可能是跟模型的一些能力相关的。就是比如说你的有些业务逻辑，你今天是因为模型能力不行，你要去补模型能力。你可能就是要一定要去写一些业务逻辑去补充。那这部分代价我觉得是可接受的对吧？就是我觉得在整个的技术体系和框架的设计中要去区分一下，不同的性质跟你的目标之间的就是不同的工作内容跟你目标之间的关系。然后能保证你的那些实现核心目标的那些能力，你能持续的往前迭代。这样子能够叠加一些模型和系统的能力，这样效果可能会更好一些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我我自己感觉是说其实有两类工作。一类工作就是让模型可以操作我的工具对吧？比如我让模型我给定奶茶写一个MCP，那就是你总得干，而且你不可能模型把这个事儿给替代掉，你这个？但是有些事儿，比如说这个工具它写代码老是最后漏个封号，所以我今天不得不打补丁。那这个事情可能过俩礼拜可能就不需要了。但是今天你为了解决这个问题又不得不写，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就这类工作我感觉是就这种模型能力打不赢的工作。的确随着时间的迁移我都在不断的被扔掉。但我觉得有些工作我感觉是你总得做。比如说我模型得有评测的框架，我这个外部的各种数据源、工具能够接入进来，我觉得这个可能是会又又是你不得不做的，就无非是下次模型好了，你coding的时候更快一点而已。</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？还有一个角度就是还有一类工作就是比如说我们拿以购物举例，我们刚刚说订奶茶，那现在就比较多，还是我想喝奶茶，你帮我点到了，我又爱喝又好的。但其实人是一系列的，我是谁？我最近受到什么样的影响？然后我就产生了一系列的欲望和购物，最后再倒奶茶，它其实是一个很下面分分支分支分支分支。比如说假设我最近比如说去上了一个身心灵的课，然后我觉得我是一个新我我要跟宇宙能量共鸣，然后我就开始买袈裟什么的，对吧？这其实它的源头来自于我对于我人生的一个一一个定位的不同，导致所有的意图的根部就不同，然后再展展出来展出来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在是不是personal assistant有机会说他不是一个小助理，就是帮你去买这杯奶茶的，而是去影响我从往根上倒了，它可以来影响说你的整体你的生活的意图以及理解那个部分意图。告诉你你其实不要买袈裟，你就买蒲团。比如说然后是不是有可能是一种不太一样的一个商业形态和那个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>机会出来劝你说生活很美好。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不要老想着不要跟宇宙那个共鸣。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我觉得我们今天也不要太神话personal agent对吧？就是他他没有那么强，就是他还没有到能够理解人的哲学层面的这人生观的我不是anodic。对，是今天其实我觉得核心还是停留在就是从代理，就是你的一个代理，能够帮助你去完成你比较明确的任务，到一个能给你创造一些新价值的这样的一个助理的这样一个阶段的一个发展。我觉得还就是还在一个比较初级的一个过程中，对吧？那么科幻对还感受不到你的想要的一个宇宙能量。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这样也挺好啊。我觉得还是今天有偶尔我觉得他还是会给我一些意料之外的惊喜的。因为他毕竟是个开放性的场景，就是你当你扔给他一个任务，或者说当你问他一个问题的时候，他也会抛出一些你想象不到的解决方案，对吧？就是比比我举个例子，比如说我订阅一些SaaS，我说我这个月又被自动扣费了，我说那你帮我去取消掉，对吧？今天的模型其实已经能说，他看了一下邮件说今天刚扣的费，他可以主动来跟我说，那我帮你去去跟那个support邮件支持邮件沟通一下，说让他帮我退款。就像我们刚才说那个退票那个例子，反正你咬死咬死我要现金，他可能已经能做到了，对吧？但是他的确没办法做到说你要不帮我升到黑卡会员，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:39:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我早几天也有一个事情，就是我会感觉personal agent的话，它是主要就是因为还是他现在越来越聪明了，他经常会意想不到的方式办成一些事情。就比如说我那个我我约体检，然后的话我看我是比较约体检的话，我是让他去点评上帮我看一下。然后我就想约华山医院的，然后点评是根本看不了的。他他他他跑到点评首页只能截到两张图，然后他根本点不进去。因为点评根本不让他用那个brothers去用，结果他就拿着那那两张图跑到网上去搜搜到一个某某健康网。然后他根据他们两个算了一下，说他们两个刚好的价格相差10%，我估计就是拿某哪家什么涨了10%的手续费，然后的话应该就是一模一样的东西，我根据这个来帮帮你判断，他判断都是对的那完全绕开了点评的整套体系，帮我把我要做的一个研究，我说我要按照哪本书的要求做做体检，你帮我挑一下。他如果我读不到他读不到这个数据，他就绕了一大圈，最后帮我把这个决策给做了。我觉确实像你讲的，就是那种这些看起来很小的事情，其实我自己做也会碰到很多的乱七八糟的这种门槛什么的。他也会碰他碰到他现在已经会绕了，不像以前他碰到他在这里他就死了，说，搞不定，拜拜。</p>
+<p class="transcript-line"><span class="time"><strong>[01:41:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他然后哒哒哒哒哒哒就。</p>
+<p class="transcript-line"><span class="time"><strong>[01:41:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很棒，也帮我省了很多心思。</p>
+<p class="transcript-line"><span class="time"><strong>[01:41:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，就是我我觉得今天我另外一个观察是很多时候能解解决组合命题，他不是单个任务，我因为我不知道千问里有没有用户有这种场景，比如前一阵暑假，我就带家人出去玩，我我我当我去问他的问题，当我去定这个目标的时候，他会同他可以同时去查酒店跟查机票，他可以去看天气预报，他会去网上搜攻略。本质上其实这个时候他已经从一个单个任务变成了多个的复杂任务。我称之为说它可能介于单个任务的完成到我的终极目标之间，对吧？我会比较好奇说千万种这种场景多吗？我举个例子就是说我想出去旅行，旅行你可能又要看天气，又要看机票，又要看酒店，甚至还要看当地的攻略跟地图。它往往也不是一个MCP，可能是多个不同的数据源的组合法。或者说我要去买车，我可能就是要去比价了对吧？他可能要跨品牌甚至跨平台对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:42:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>嗯，就是今天多个数据源或者说多项功能和服务的组合，这个比例其实是很高。对，但是还没到。就是说我要去做一个完整的一个旅行规划，然后你帮我自动的去把这个规划做完，然后再进一步的跟用户去做交互，然后生成一个很好的结果。我觉得这种程度是没到的，就是因为你他是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:42:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没他是做出来效果还不够好，还是说就是用户的需求今天还没有习惯到这一步。</p>
+<p class="transcript-line"><span class="time"><strong>[01:42:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这里核心的还是跟用户的那个真实的需求的对齐的能力是不够的。因为今天我说我要去某某个地方旅游，你帮我订票订酒店。那我其实背后是有大量的信息，我是没有告诉我，是那个都都就是在我默认的认知里面我是有的。但是那个agent他其实是不知道的是对吧？我觉得这个是交付能力差的核心原因。今天其实你把一个行程或者说你把一个路线，你讲的非常的清楚，你让agent去执行，a agent执行的效果是不会太差的。就是你比如酒店要定大概什么位置，多少价格，你规划几天，然后你想大概去哪些地方，对吧？你把这个任务交给你了，你只要描述的清楚，质量不会太差。</p>
+<p class="transcript-line"><span class="time"><strong>[01:43:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以是一个现在最适合做的，还是那种明确的完成的任务，就是明好坏是百分之百的，不是那种还有我主观评价的任务，就你刚刚讲的这个旅行的例子的话，我刚去去了新加坡和马来西亚，然后新加坡和马来西亚来回之间，他每次都要填一张入境单。然后我现在就是我根本不知道填什么，我就直接是跟我的A同学讲说你帮我填掉，他就自动找了我们家一家三口的所有东西，他去研究要填哪张表，他就自动帮我填。完了之后你看一下是不是这个填好了，然后就自动帮我发了，然后我入境的时候就直接入境了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这种事情就百分之百完成的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，就是这样。现在我觉得是那个agent的，他相对比较擅长的一些事情。那这样就是有一些明确标准的对，然后它是可学习的，就是你把这个指令给他下的比较清楚，然后他就就是他现在就是跟刚才张老师讲的，就是说他现在要去完成一个事情，他能够去找的路径，他其实是很多的对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是做题家一天我听懂了，今天他还思路加太晚了，明确的提出给他有标准答案他就能解对吧？但是你跟他他做不了你的心猜。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的心就比较。</p>
+<p class="transcript-line"><span class="time"><strong>[01:44:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对他做不了心理咨询对吧？你就说我浑身哪儿都不对劲，对吧？他说那你要不所有的血都给我。</p>
+<p class="transcript-line"><span class="time"><strong>[01:45:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>抽一遍可以。那那最后我们不做那个技术上的判断，就是您对于personal agent未来有什么期待吗？就是未来的persons agent会觉得哪里我觉得应该做的更好，计算下一步哪里会做的更好，哪里会比较好玩一点，我们哪里值得，我们赶紧回头申请一个内测账号试一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:45:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是你说期待的话，我觉得因为今天站在我的角度上来讲，我觉得第一个是生活类的问题。就是你你看今天就是从web coding开始了，然后延展到工作场景对吧？现在大家对于工作场景的期待会比较高。因为工作场景它的输入输出上下文都相对比较明确，然后你的任务可以下的比较的清晰，对吧？当然它也能确实能解决很多的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:46:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得更进一步的或者说更广泛的市场，其实是在生活场景，这个我们也是千万重点想去做的。因为你今天比如说买房、买车，小孩上学等等等等的一系列的问题。它其实那个边界或者说确定性它其实没那么强。但是这部分需求在你的生活中会给你造成很多的成本，或者说精力上的对一些消耗，对吧？其实我特别希望在生活上有一些特别好用的这样的一些场景。然后更进一步的围绕这个的话，就是说真的能够跟我做一些比较主动的一些服务，要么帮我挣钱，要么帮我省钱，对吧？这是我也比较期待。</p>
+<p class="transcript-line"><span class="time"><strong>[01:46:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>理解理赔作业帮忙上清华。</p>
+<p class="transcript-line"><span class="time"><strong>[01:46:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，没没有我我是是这个就是我的期望，就是让我完事儿。但是这个就全国人民都期望，那就就只能靠AI把教育本身搞定了，对吧？那我觉得是另外一个命题，因为我自己感觉也是，我我我就一直一直认为personal agent itt帮我解决的第一个问题就是帮我填报销，填报销是吧？帮帮我填报销。然后这个就是我觉得人生活中还是有太多的琐事，这个事情每一件事情看起来都不占用你多少时间。对，但是累积在一起，你就会觉得他耗掉了你大量的精力、精气神儿，然后让你真正想干这个事情，你就会觉得你人已经有点倦怠或者疲倦了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:47:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个是我觉得first regent这个体感挺明显的。什么这个订阅什么扣费了要记得取消，那个报销要记得填一下。什么今天预约了一个什么要去，明天办个签证要填个表，每次看到这个表，我永远以前都是永远拖到最后一天。这不得不填了，算了，今天熬夜舔吧，就就对生活也造成困扰。但是我自己感觉是对我自己用的proportion，我不管我用cloud，还有是用其他的产品，就包括用我们自己的产品做一些工具，都是这个体感。对，但是我觉得对更多普通人来讲，其实也是一样的。对，就是我看我父母其实他们已经退休了，但我看他们可忙了。对，就是我感觉忙就是在忙这些日常的琐事，要真没有他们去干这些琐事，你就会觉得我有个娃，那我就得更忙了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:48:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:48:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以还是要的。对于我这种爱人来讲的话，除了他帮我干活以外，他主要是还可以让我规避掉很多我不想做的事情。就比如说刚刚说的那个去航空公司，如果要电话跟他argue的话，我就会无限拖延这件事情。</p>
+<p class="transcript-line"><span class="time"><strong>[01:48:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我连我都算了是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:48:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>连我电话去要跟苹果打个电话，打个客服电话，问他要把那个发票改一下。我这件事情已经拖了一个，我也不知道为什么我就不打这个电话，我就对就改一下发票抬头千万可以打电话。</p>
+<p class="transcript-line"><span class="time"><strong>[01:48:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你尽快的可以让千问。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>赶紧试一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>帮帮你去打个电话解决一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好，那今天其实我们也录了挺长时间了，将近2个小时了。也很感谢蒋老师，祝冠军兄能够接受我们的邀请，然后来参与这一期的AI炼金术。我最后留一点时间给蒋老师看，有什么要跟我们的听众或者其他的朋友来说的，就是打个广告也可以对吧？然后做个招聘也可以，或者有什么心里话跟大家说说也可以。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是希望听众朋友们多用千问，千问过的很多产品功能还是非常好用的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为我觉得千问也是最早在开源社区受到广大好评的一个模型，所以大家也可以多支持一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢大家好，谢谢大家。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谢谢拜拜拜拜拜拜拜。</p>
+<p class="transcript-line"><span class="time"><strong>[01:49:53]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>交给他们，从呈现到占用，不必每次惊艳，我每次都完整，他还猜不透你的心，可说清。落空。凌晨一点，表格还没填，报销的发票堆在键盘边，订阅又悄悄扣走一笔钱，那通客服电话拖到了今天。都不是什么大事一件。把力气一点点用完。</p>
+<p class="transcript-line"><span class="time"><strong>[01:50:41]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>嫁给他吧，从尝鲜到常用，不必每次惊艳，想每次都完成，他还猜不透，可说清楚。但是以前也不。上半夜无论他替你带过去，对面说只能给等待。清晨他说不行，说好了要先订机票，之前还是先来问你一句。他不是神，也不会独行，只是把小事做得越来越晚。第一天他只会到店奶茶，后来记住了你要烧糖去冰。在后来的给你听完那张调，你终于早一点睡着交给他们。从尝鲜到常用，不必每次惊艳完成。把琐碎交出去，把时间留给。</p>
+<p class="transcript-line"><span class="time"><strong>[01:51:58]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>从上线到长。从尝鲜到常用。</p>]]></content:encoded>
+            <pubDate>Thu, 05 Nov 2026 03:14:53 GMT</pubDate>
+            <guid>6aebf2dec33509d82976625e</guid>
+        </item>
         <item>
             <title>要用 AI 抢地盘，别只想着省人工｜尚学未来 CEO 李桢</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6ae9234e97726cd4675bc75c</link>
-            <description>要用 AI 抢地盘，别只想着省人工｜尚学未来 CEO 李桢
-「你未来能吃掉谁？」
+            <description>「你未来能吃掉谁？」
 我又把李桢找来了。
 他之前给我看过一些企业 AI 落地的演示，流程、系统、可视化，一堆线在那儿飞来飞去。东西看着挺厉害，我更想问清楚的是：真放到企业里，到底怎么推？部门不配合怎么办？员工觉得你来抢饭碗，管理者觉得你来抢权，这事还能不能干下去？
 所以这次，我和文浩没停在工具和演示上。我们一路追问到业务机会、内部 FDE、钱怎么收，以及项目快做成时，为什么还会有人甩出最后一刀。
 李桢问部门负责人的一句话，我觉得很值得带回去问问自己：「你未来能吃掉谁？」有了 AI，你和你的团队能多做什么，能接下以前接不住的活，能把哪块生意做大？把这个想明白，再谈转型，大家的劲头可能就不一样了。
 这期值得听的八件事
-→ 先让团队看见新地盘，大家才有理由改变
+01｜先让团队看见新地盘，大家才有理由改变
 如果员工听到 AI，第一个想到的是自己会不会被替掉，你指望他有多积极？李桢会先和部门负责人聊「你未来能吃掉谁」，让他们想清楚能力放大以后，部门能多做哪摊事。团队也要在转型里看见自己的机会，不然老板觉得是好事，下面的人未必这么想。
-→ 有些话人不好说，先让 AI 把问题摆到桌上
+02｜有些话人不好说，先让 AI 把问题摆到桌上
 四套系统讲的是同一件事，字段、定义、取数口径却各不相同。你再请厉害的老师、做漂亮的 demo，也绕不过这些卡点。李桢把从业务材料里反查缺口的过程叫“反向咨询”：组织里有些话「摆不上台面说的」，先让 AI 帮忙把问题显出来，再拉管理层决定要不要疏通。
-→ 一路说好，比当面反对更难判断
+03｜一路说好，比当面反对更难判断
 文浩说，怕的就是「一切都是 yes」；李桢接着讲：「没有 yes and，全都是 yes but。」我也见过会上很热情、到了每个细节却都推进不了的情形，所以这次继续追问：流程一旦被理清，员工的饭碗、管理者的话语权都可能受影响，为什么还要指望所有人自然配合？我们得弄清楚谁能从改变里得到好处，谁觉得自己会吃亏。
-→ 顾问把项目做出来，企业里的人还得能接着做
+04｜顾问把项目做出来，企业里的人还得能接着做
 培训讲完、演示做完，外部团队走了以后怎么办？李桢强调的培养目标，是企业里的人还能「开发其他的项目」，把能力留下来，再做下一个场景。文浩也一直追问，这和传统咨询到底差在哪；这段既有内部 FDE 的做法，也有对服务边界的讨论。
-→ 新生意，有时藏在左手用户的差评里
+05｜新生意，有时藏在左手用户的差评里
 李桢讲了一个卖笔的案例：从用户反馈里发现左手使用的不便，把握位往上提「五毫米」，再调整材料，做出了专门的产品改动。它有意思的地方，是从具体的不满里找到了业务机会。我们也没有把这个故事讲成万能答案——文浩继续追问，市场没有那么多增量时，省时间、减重复劳动本身值不值钱？
-→ 人才盘点，要看人最后留在什么地方
+06｜人才盘点，要看人最后留在什么地方
 「红的是人，绿的是 AI。」李桢用这套颜色描述任务和能力怎样迁移，但他兴奋的地方，是人逐渐集中到最需要人的关键环节。再往下聊，就到了更具体的问题：把一个人抽调去做 AI 项目，原团队怎么办？会议记录里的称呼、项目和参与者，又怎样对得上？
-→ 项目快做成时，最后那一刀才可能出现
+07｜项目快做成时，最后那一刀才可能出现
 我问，既然有阻力，为什么不一开始就挡？李桢的解释是，大家已经看过太多失败的尝试，未必每次都要站出来；等到这次真有希望做成，才「啪甩出来一个事儿」。这段还有一个因合规、敏感信息和部署要求而暂停的项目。听完我更想追问：哪些是该提前解决的真实约束，哪些又牵动了利益？这些问题拖到最后，做出东西也不等于能落地。
-→ 真要开始，先跟着钱走，再找公司里已经长出来的苗子
+08｜真要开始，先跟着钱走，再找公司里已经长出来的苗子
 别先漫无目的地梳理一大堆流程。李桢建议从「他的钱从哪进，他的钱从哪出」找场景，再去问真正执行的人：以前试过什么，谁在用，为什么卡住？我听下来觉得这两件事很实在：一边跟着钱走，一边找公司里已经长出来的苗子；弄清楚它们在哪儿长起来、缺什么、被什么挡住，才知道下一步该帮什么忙。
 时间戳
-* 00:00 冷开场与本期对谈
-* 04:16 培训、陪跑还是咨询：究竟交付什么
-* 10:12 反向咨询：从业务材料里找出缺口
-* 21:00 从业务流程到可执行的智能体
-* 25:09 部门为什么不配合，团队的新机会在哪
-* 29:56 提效还是增长：左手笔的用户洞察案例
-* 41:19 流程变了，权力和责任怎样重新分配
-* 50:56 谁发起、谁付钱，咨询陪跑怎样收费
-* 54:43 人才盘点：人与 AI 的能力怎样变化
-* 1:04:10 快做成却停下来的项目，以及 yes but
-* 1:13:48 数据和系统卡点，面对面访谈的价值
-* 1:19:10 大厂会不会下场做 FDE
-* 1:26:06 企业从哪里开始：摸底、资金流与已有试点
-* 1:31:46 片尾曲《鞘中剑》
+00:00 冷开场与本期对谈
+04:16 培训、陪跑还是咨询：究竟交付什么
+10:12 反向咨询：从业务材料里找出缺口
+21:00 从业务流程到可执行的智能体
+25:09 部门为什么不配合，团队的新机会在哪
+29:56 提效还是增长：左手笔的用户洞察案例
+41:19 流程变了，权力和责任怎样重新分配
+50:56 谁发起、谁付钱，咨询陪跑怎样收费
+54:43 人才盘点：人与 AI 的能力怎样变化
+1:04:10 快做成却停下来的项目，以及 yes but
+1:13:48 数据和系统卡点，面对面访谈的价值
+1:19:10 大厂会不会下场做 FDE
+1:26:06 企业从哪里开始：摸底、资金流与已有试点
+1:31:46 片尾曲《鞘中剑》
 本期嘉宾
 李桢
 尚学未来 CEO
@@ -8358,185 +8716,6 @@ BGM：
 <p class="transcript-line"><span class="time"><strong>[01:05:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>As a fun is my first know.</p>]]></content:encoded>
             <pubDate>Thu, 07 May 2026 12:25:38 GMT</pubDate>
             <guid>69fc8a84c417dfd2311e4a4c</guid>
-        </item>
-        <item>
-            <title>任鑫：AI 转型没戏，得重新投胎</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69f1fa4e0694c843e781e8da</link>
-            <description>&quot;AI 转型这四个字本身就是一个误诊。真正的变化不是 A 到 A+，是 A 消失，B 出现。&quot;
-30 年。这是集装箱洗掉全球前十大港口的时间。
-如果你是 CEO，听完这期可能会想把公司卖了——节目里就有这样一个真实瞬间。如果你是普通人，听完会发现&quot;AI 会不会取代我的工作&quot;是一个错的问题。
-今天我们讲历史——借 1956 年那个改变世界的金属盒子，把&quot;AI 转型&quot;拆成三层：你公司大概率只吃到了第一层，赢家在第三层。
-你将听到
-1956 年的那艘船：58 个金属盒子从纽瓦克港出发。30 年后全球前十大港口几乎全部洗牌——纽约港没有自动化，它只是死掉了。
-AI 转型的三个层次：任务效率、组织重建、生态位重构。多数公司只吃到第一层——所以装得快了，红利却很快被同行拉平。
-任鑫的反差自白：大组织 AI 转型，哪怕他亲手辅导，提升 20% 都很极限；小公司做新事，没管他讲的大道理，提效都是 300% 到 500%。
-新加坡的反直觉胜利：没有制造业、没有腹地、淡水都得进口。秘诀是不做自己的货，做所有人的调度——85% 经过的箱子根本不在新加坡上岸。
-1968 年布鲁克林码头工人：35000 人到 1983 年只剩 8000。不是机器抢走的饭碗，是脚下那片土地从地图上消失了。
-三段原始引语
-&quot;我们把它混成叫做 AI 转型，其实是要解决一大堆不同层次的问题。&quot; ——任鑫 01:39
-&quot;凡是哪怕是我参与的大组织，转型效果都很一般——提升 20% 都会很开心。但是不管我参不参与的小公司，基本上都提效了 300% 到 500%。中间的变量不是我，是这家公司是不是小，以及他们做的是不是一件新事儿。&quot; ——任鑫 12:07
-&quot;聊着聊着他忽然就沉默了。然后过了一会儿他就说是我最好还是把公司卖了。&quot; ——任鑫 28:38
-那个沉默的瞬间，就是认知转变的瞬间。
-时间轴
-00:05 三个完全不同层次的问题：任务效率、组织变革、商业机会
-00:34 AI 转型本身就是误诊——A 变 A+ 不是真变化，A 消失 B 出现才是
-02:46 段子开始：1956 年那个改变世界的金属盒子从纽瓦克港出发
-05:30 第一层｜任务级提效——红利很快被同行拉平，没人多挣到钱
-07:08 第二层｜组织级重建——纽约港改不动每一条，每条都被现有资产挡住
-10:05 河对岸的伊丽莎白港：1958 还是沼泽地，1970 就超过纽约
-12:07 帮大组织转型作用几乎为零，小公司做新事却提效 300-500%
-13:12 飞地案例：工业软件公司放弃改老界面，旁边重做 CLI 给 agent 用
-14:12 一个联创自己手搓 3 天，做出几百家企业在用的 agent 工具
-15:13 第三层｜生态位重构——新加坡做&quot;所有人的调度&quot;
-19:15 AI 时代的&quot;新加坡&quot;会在哪：给机器开学校（BotLearn）？机器要不要社交？
-21:20 扎心结论——Netflix、亚马逊都不是转型，是从旁边长出来
-24:44 视角切换：从 CEO 到每个普通人
-25:35 1968 码头工人真问题：不是机器抢的饭碗，是船不来了
-27:21 工作都是被定义出来的，定义会变——AI 不淘汰岗位
-29:09 怎么判断地基在松：想想上次你花钱请别人干的那件事
-30:23 任鑫两次创业自白：2011 是傻子却赚到了第一桶金，2015 聪明却赔光
-32:37 纽约港从衰落到关闭花了 20 年，最后十年没什么好选择
-33:10 现在赶紧搞 AI——哪怕假装在搞，机会都会多很多
-欢迎订阅「AI 炼金术」的播客，以及同名公众号、视频号
-「AI 炼金术」是一档由徐文浩和任鑫——两位多年老友、AI 领域的资深从业者——打造的播客。这里是探讨 AI 和创业的理想聚集地，我们会邀请一线创业者、产品产品和科研学者，深入探讨 AI 如何重塑行业、变革生活，以及如何从 0 到 1 打造 AI 原生产品。
-我们的讨论会涵盖多个话题：从 AI 如何改变世界的未来，到如何找到 AI 创业的 PMF；从如何利用 AI 降本增效，到怎样将 AI 技术融入日常生活……如果你对 AI、产品、创业感兴趣，这里有满满的干货和一线实战经验，欢迎关注并推荐给你的朋友，共同探索未来的无限可能！
-商务合作：公众号 「AI炼金术 」菜单栏中【商务】获取联系方式
-节目主理人：
-徐文浩：某AI创业公司联合创始人，正在面向全球市场开发AI应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司MediaV的算法和数据负责人，后被360收购。离开后加入成立不到1个月的拼多多。后创办了基于AI的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023年再次下场创业。
-任鑫：美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造“今夜酒店特价”用移动互联网应用特价销售酒店尾房；被京东并购后内部创业“京东到家”开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。
-BGM：
-片头：Shortwire - Reconfig
-片尾：keshi - summer</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>本期播客嘉宾任鑫（连续创业者、AI与组织转型顾问）以“AI转型没戏，得重新投胎”为核心观点，通过集装箱、港口变迁、相机取代肖像画等历史段子，批判了当前企业界对“AI转型”的常见误解。他认为真正的变化不是“A变成A+”，而是“A消失、B出现”——老业务和旧组织会被新生态整体替代，最有效的应对并非改造旧系统，而是从零开辟“飞地”、做“AI投胎”。对话从三个层次（任务层提效、组织层重构、商业生态层占位）展开，并给出了CEO和普通个体应如何行动的犀利建议。</p>
-<h3>关键要点</h3>
-<ol>
-<li>
-<p><strong>AI转型是伪命题，真正需要的是“AI投胎”</strong><br />
-   “AI转型这四个字可能本身就是一个误诊。因为AI转型它暗示的就是A变成A加，真正变化不是A到A加，是A消失B出现。”历史上照相术消灭了肖像画、集装箱杀死了纽约港，但诞生了伊丽莎白港和新加坡这样的新生态位。</p>
-</li>
-<li>
-<p><strong>三类问题不能混为一谈</strong><br />
-   任务层（降本增效，如用AI写PPT）、组织层（流程与利益结构重建）、商业生态层（抓住新出现的生态位）是三个不同层次的问题，大部分公司只做到了第一层，导致“更高效但不赚钱”。</p>
-</li>
-<li>
-<p><strong>老组织改不动，飞地策略是唯一出路</strong><br />
-   纽约港想加装集装箱泊位却受限于地价、铁路、工会合同、老管理流程，最终被对岸沼泽地上新建的伊丽莎白港超越。任鑫建议大公司“开一块飞地”，用新团队从零开始按AI原生方式搭建，而非改造旧系统。</p>
-</li>
-<li>
-<p><strong>小公司（或新团队）的AI提效远超大组织</strong><br />
-   任鑫观察到：“凡是小公司做新事儿，我认识的公司基本上都是提效三五倍”；而大组织（包括科技大厂）即使有顾问参与，效率提升也仅百分之几十。一个三人团队花三天搓出的agent工具，瞬间有几百家企业使用。</p>
-</li>
-<li>
-<p><strong>集装箱创造了新生态位：转运枢纽</strong><br />
-   集装箱把换船摩擦降到极低，使“中转”成为可行生意。新加坡无腹地、无产业，靠成为马六甲海峡的转运枢纽，做到全球港口前二。“85%经过新加坡的集装箱根本不在新加坡上岸，他们就是在这里换个船。”</p>
-</li>
-<li>
-<p><strong>CEO真正该思考的不是降本增效，而是“在AI改变的未来世界里，我们的战略是什么”</strong><br />
-   “我们并不需要一个AI战略，我们需要的是在AI改变的那个未来的世界里面，我们的战略是什么。” 企业要思考新生态位（如AI agent之间的调度层、机器学习的学校、共享协议等）。</p>
-</li>
-<li>
-<p><strong>个人层面的真相：不是被AI取代，而是整块“土地”会消失</strong><br />
-   1968年纽约港码头工人担心被吊车取代，实际是船不来了、港口死掉了。今天问“AI会不会取代我的工作”是错问题，正确问题是“我脚下的这块土地还会在明天的地图上吗”。</p>
-</li>
-<li>
-<p><strong>微观建议：立刻“换船”，去往上升轨道</strong><br />
-   任鑫以自己两次创业经历说明（2011年移动互联网成功，2015年对话式AI失败）：“关键不在于你个人的努力，而是你有没有踩对时代的趋势。” 一边学AI，一边要赶紧挪到“伊丽莎白港”，找到未来增值的能力和位置。</p>
-</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li>
-<p><strong>大厂CEO的沉默</strong><br />
-   任鑫与一位商学院同学（大公司创始人）聊了2小时，从提效聊到行业结构，对方突然沉默，然后说：“我最好还是把公司卖了。” 任鑫解读：“他沉默的那一段，其实就是认知转变的那个瞬间——他思考的不是怎么提效，而是明天那个我在哪里。”</p>
-</li>
-<li>
-<p><strong>给工业软件公司的荒诞建议：放弃改进，直接重造</strong><br />
-   面对一个每个模块都能加AI但整体改不动的工业软件，任鑫提议：“不要改了。从旁边开始做一套纯粹CLI的系统……界面不要了，把能力原子化。” 理由是：老系统像纽约港，不如在旁边沼泽地造伊丽莎白港。</p>
-</li>
-<li>
-<p><strong>三天搓出企业级工具的“小龙虾”故事</strong><br />
-   任鑫采访一个做agent平台的公司，过年时建议对方“应该做个小龙虾”（指细分工具）。对方联创已一个人手搓三天，搓出一个企业级工具，瞬间几百个企业使用。任鑫感慨：“小团队甚至单兵往前突破，现在确实可以达到几十倍效率。”</p>
-</li>
-<li>
-<p><strong>情绪化的真实表达：给大厂做AI转型的挫败感</strong><br />
-   “我昨天还在一个大厂……我会发现我的作用几乎为零。……不管我有没有参与的小公司，效果都比我参与的好。” 任鑫坦承自己作为顾问的无力感，并直接建议大厂“找些新事儿，开辟飞地，从零开始搞”。</p>
-</li>
-<li>
-<p><strong>扎心比喻：CEO别把自己当“牛马”</strong><br />
-   “很多时候我们的管理者会因为日常的工作太多，我们会把自己的定位变成一个牛马……但实际上的话，作为一个leader，最重要的事情其实是发现新的可以攻城略地的地方。” 强调攻城略地远重于降本增效。</p>
-</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>光用一个新科技去改变工作的效率，改变一个任务的效率，跟你的组织改变，跟你能抓到新的商业机会，这是三个层次不同的问题。科技导致世界变了，格局变了。新的格局里面有什么生态位是新出现的，有什么新能力允许了什么生态位出现？或者因为这个新的科技它创造了什么约束，有什么生态位太值钱了。要思考的是这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI转型这四个字可能本身就是一个误诊。因为AI转型它暗示的就是A变成A加，真正变化不是A到A加，是A消失B出现。所以历史上真正做到的公司基本上都是从零开始长出来的，重新开始投胎。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>AI转型是没有用的，要做AI投胎新投胎。最近天天跟大厂的朋友们聊，然后感觉每个人都觉得说我们已经把AI工具用起来了，然后也推行整个组织开始搞AI了。但是没用在哪里不够，在哪里不够，要做什么？不知道，看不清楚。因为用AI工具这是一回事儿。用AI工具真的能够提效，这是第二件事儿。用I工具还能让组织里面联通，让组织升级转型，你这又是一件事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>组织升级转型之后能不能赚到钱，这又是一件事儿。然后组织升级转型之后，未来的世界是不是跟现在一样？你的竞争力升级了能不能赢？未来的生态这个世界会不会变化，这又是一件事儿。能不能抓到这个机会，这又是一件事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以其实我们在聊AI的时候，在聊AI组织转型的时候，在聊AI的落地，在聊AI商业机会的时候，其实把很多很多不同的问题混成了一坨。我们把它混成叫做AI转型。其实是要解决一大堆不同层次的问题，有任务级的能不能降本增效，有组织层的能不能提效，然后组织变革效率更高，也有商业机会层的能不能抓到新机会，这些东西非常的复杂。为了帮助理解，我们可以今天来讲段子。我最近准备了非常多的段子，为什么呢？因为我不是也在给一些传统企业讲课或者做咨询，然后你会发现做AI很痛苦的一件事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我之前讲的是关于产品那个东西的话，你可以几年那个PPT是不怎么改的。但是你现在讲这个东西的话，每天你都要跟那个新科技、新趋势，一把年纪有点累，最后就发现说我们应该讲历史，因为历史的这些段子是不会变的，而且大家都不可否认他，对吧？新的东西的话，可能今天你还在讲这家公司多牛，明天发现他塌房了。所以的话最近就是非常功利的准备了一批段子，然后跟大家可以分享一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天首先分享的段子是什么呢？是集装箱。然后我们看1956年，我们去看一看集装箱的历史，它是怎么样的，他究竟是怎么样让我们提效。其实没有改变组织是没有用的，组织要怎么改？以及哪怕你去用集装箱提效了，你去改了组织怎么样抓到第三层的商业机会，跟这前两件事几乎又没关系。这三件事到底是如何发生的，我们可以借历史来看一看我们当下应该做什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们就把镜头拉远了，然后看一看一个盒子改变了什么。1956年的4月26号下午四点钟，然后一艘改装过的二战的邮轮，然后咔嚓咔嚓就是从纽瓦克港出发，然后去houston。然后船东的话叫Martin marketing，他不是海运行业的人，他是一个卡车公司的老板。他车上就绑着58个金属的盒子。其实大家现在就知道这个金属盒子是啥了，对吧？就是他要测试一下，说如果我把所有的东西不是那种肩挑手扛，然后一堆散货从卡车上卸下来，然后再肩挑手扛扛到那个船上去。而是我统一的把它放到一个大盒子里，然后统一把大盒子搬到船上去。这个到底是不是能够提效，是不是有用？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一次航行的成本，其实是这样的，就是散装货从纽约码头的成本一吨是5.83美元。然后这艘新船上用集装箱的那个成本的话，一吨是0.16美元，降了36倍。然后接下来40年的话，国际海运成本又降了90%，全球贸易量涨了十倍。然后我还看到过另外一个数据是说全球贸易量涨了40倍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在集装箱改变世界这本书里面，结论就非常的明确，说其实没有集装箱就没有今天的全球化。甚至于没有全球化，可能我们的国家的发展，甚至于包括说没有这么多人才流动，没有这么多紧密的国际合作。现在AI时代能不能现在到来，还是要晚100年，这也是说不定的事情。但是这个故事最好玩的地方，它其实不是关于效率提升了多少，而是接下来30年内全球港口的前十名，彻底的被这个盒子洗了一遍。就是未来的前十名，几乎没有一个是从历史的那个牛逼的港口继承来留下来的，全部变了，全是一批新港口。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么你说那些老港口他们是傻子吗？他们不会用龙门吊吗？他不会用集装箱吗？都用了。因为光用一个新科技去改变工作的效率，改变一个任务的效率，跟你的组织改变，跟你能抓到新的商业机会，这是三个层次不同的问题，对吧？因为集装箱它不光是一个装卸更快的效率工具，它这三个层面都改变了游戏规则。老的港口只吃到了第一层，所以输了赢不了未来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们一个个展开讲，第一层是什么呢？第一层其实就是单个效率的提升，这就是所有人都先看到的，就是你装东西更快了，卸东西更快了。以前散货要靠码头工人一件一件往往上面搬。然后一艘船你要在港口停好几天，集装箱一来，那个吊车直接一枪吊走，几小时搞定对吧？这多方便。1956年的纽约港，当然他们也看到了这一点，他们反应很合理，提效，这个东西要上，就在原来的散货码头边上就加装了集装箱的那个泊位，然后装卸效率也确实提高了，这就是第一层的改进。这个就是像我们，比如说你说AI可以帮你写作文了，那你肯定就拿来写了，AI写PPT1样的道理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那单点效率的问题是什么呢？就是你能用别人也能用。你装的快了，其他港口也装的快了，效率红利很快就被拉平了。虽然你提效了，但是你不能多挣钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天大部分公司用AI也是这样。你上一个code pilot，你写邮件快了，你做PPT快了，你查资料快了，但是不能多挣钱。因为大家都提效了，就有点像代码，代码现在提效了，但是你说你靠代码多赚钱了吗？这样的公司其实凤毛麟角。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为大家都提效，大家都很兴奋对吧？但是算总账就是好像我们更能干了，但是不多赚钱了。因为同行也在用同样的工具，客户很快就把新省下来的那部分生产力当做新的基准线。就说我知道你是用AI的那你给我打个5折是吧？我也不压你太狠。然后过一时间说你能不能再打个五折，就是所有人都在赛跑，就没有拉开距离，没有拉开距离就没有利润，所以这是在任务层。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二层是什么呢？第二层是组织层，这一层才是集装箱的真正的威力所在。但这也是老的港口它改不动的地方。因为集装箱它不只是一个更快的一个盒子，它要求一整套的组织配套。比如说要一个大型的堆场，原来的那种货的话，你是来了慢慢卸。你现在要提高效率，要把集装箱就摆在那里平摆摆一排，你一堆那集装箱要平铺堆放，然后不是竖着去塞仓库，你就需要一个大型的一个面积，然后要去堆东西。第二个，最好就是有铁路直接进码头，从集装箱从铁路上下来，然后最好要不然货车的话，你要有高速公路直接进。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的工人的话，他现在处理的是那种，比如说吊机，他们处理的不需要一一单一单去点货。那码头工人的工会合同应该不一样，那劳动合同要重新签，而且你不需要那么多的搬运的工人，你也需要更好的一个电子追踪系统。你要知道哪个箱子现在放哪里了，去哪里，然后怎么掉了，跟以前不太一样。以前越慢，慢的话你可以靠记忆，对吧？那单独看的每一项都是改进，但是实际上组合在一起的话，你其实是需要整体重建的。每一个单独改进你看起来都非常容易改，但是实际上就是改不动的。就框架上打补丁，每一个补丁都会比你想象当中要艰难。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说纽约港他就改不动任何一条，就是不是他不想每一条都会被现有的资产给挡住。就是曼哈顿的地价那么高，你在那边开一片地说我空出来放东西不可能吧？然后码头的铁路接入就改造会拆城市。现在新搞一个铁路，从北京中间穿过去试试，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后工会合同的话是几十年罢工罢出来的，你改不动的。电子追踪系统的话跟原来的那个管理流程的话也不匹配，所以整体上来讲就是不是不想改，是每一条路都被挡住了。前一段时间我跟一个上市公司的CEO聊，然后辽AI转型。他一开始就跟我说，其实你说的这些，我也知道这个地方是要改的，但是改不动。然后某某某他说了一个名字，其实我动不了，就是不是他不想，很多小朋友被那个爽剧给完全误导了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对商业世界的理解。其实你就算是做老板的话，很多时候你自己公司你都改不动的。就是下面有很多的传统的利益格局，传统的老城，传统的工程，传统的这一块其实都是他hold住了，你还要讨好他，你这种事情改不动的。知识结构、利益结构、权力结构这几层叠在一起，哪些能动哪些动不了，不是老板一句话就能解决的那最后的妥协就一定会是在老的系统上去加新方案，然后这样子就大家妥协一下。看起来我们用了新科技，实际上的话是不会有质变的。那么纽约港的问题会是这个，它吸收的只是单点的效率改进，就装卸会更快这事儿的那大家都要的，但是它不会吸收整体的效率提升，就是好像我换发动机可以换一下，但是。底盘、传动、悬挂这些能不动就不动，那那你其实很难发挥那个效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是在纽约港的河对岸，应该翻译成伊丽莎白港。1950年代那边还是一片沼泽地，没有港口历史，没有人才积累，没有腹地优势。但是它的优势就是没有，对吧？他什么都没有，你就可以瞎搞。那1958年的话，新泽西港务局就决定把这个港完全为集装箱来设计大片的堆场，然后进铁路和公路和高速公路，工会系统全是新的。1962年他才开港，然后1970年它就超过了纽约。1980年的时候它就成为了北美最大的集装箱港之一。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>几公里外的纽约港的话，基本上在同一时间就停摆了。然后今天就变成了很贵的一片区域，就是博物馆，什么奢侈公寓这些东西，这个不是一个孤例，就是基本上在世界各地都发生了类似的情况。像伦敦港1970年的话就整体崩溃了，然后货运就转到了东部的小镇，然后从临港开始搞起那个小镇叫felix stone还是什么的，处理了英国36%的集装箱货运。然后伦敦的老码头的话，现在叫做Candy wolf一个金融区。旧金山的那个老码头变成了皮尔39的那个旅游区，然后我还在那边吃过那个生蚝，就变成一个景点是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>规律很清楚，就是每一个在集装箱时代赢下位置的港口，要不然就是从零建的，要不然就是把自己推倒重建的。没有一个是在旧框架里面把集装箱用的最好的老港口。当然了，你如果严格深究的话，你会发现说，其实伊丽莎白港背后的那个港务局，其实跟纽约港是同一个港务局。所以升级也是有可能的。但是升级不是说你在原有的这个业务上去升级，你开了一坨一块飞地，然后在上面重盖。对这两个概念对今天的大公司来讲的话，这个启示就非常的直接，就是真正能跑出来的所谓的AI转型，就往往不是在大组织上去改，而是在内部去开一个CD不受旧系统约束的新的团队，从零开始按照AI原生的方式去把它搭出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我昨天还在一个大厂，然后跟他们聊AI组织转型。很坦诚的说，因为我也参加了很多大组织小组织的转型，我会发现我的作用几乎为零。就是凡是哪怕是我参与的，只要是大组织现在的转型效果都很一般。比如说提升个20%都会很开心。但是不管我有没有参与的小公司，我认识的朋友的公司很多我根本没有参与。然后他们就基本上都提效了百分之300到500。所以你最后就会发现中间的变量不是我，中间的变量是这家公司是不是小，以及他们做的是不是一件新事儿。但凡小公司做新事儿，我认识的公司基本上都是提效三五倍，就非常明显。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就在AI时代，就是AI原生就非常可怕。但是哪怕是科技类的大公司，然后是搞高科技的，哪怕是我还给他们讲一堆PPT，讲一堆道理。那目前来看的话，效率可能也就是百分之几十的一个提升，就跟小公司完全差一个数量级。所以我对他们的建议就是你也不用听那么多道理，你就看看能不能找一些新事儿，然后开辟一些飞地，从零开始搞，这样子是比较可行的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再举个例子，比如说我们最近也在帮一个工业软件的公司做那个AI转型。就这个情况就是那个系统你看在哪里，哪里都可以加AI每个模块都可以变好一点，但是整体上来讲你是改不动的。每个模块都能变好，但是其实你改不动。所以最后我们提议的那个方案就是不要改了。你从旁边开始从零开始做一套纯粹的CLI的那个系统，就是我们放弃改进你的这个什么流程，来界面不要了，然后直接把能力原子化，然后全部包装成CLI，就是那个命令行方便agent来调用的那个界面。这逻辑上其实就是纽约港，你就纽约港爱干嘛干嘛，然后在旁边开辟一片沼泽地，然后在沼泽地上重新建那个伊丽莎白港这样子来搞。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我们觉得如果你要组织转型的话，最好考虑的是开心地做新事儿，然后用新团队，然后从零开始，这样子成功率会高很多。老的团队上改的话，真的这就是一个大工程。关键是现在有可能可以新团队可以做大事了。我早几天不是博客上面还采访了秦瑞，他们公司是专门给国企央企在做做agent平台的，他他是他们的产品负责人，但是他们产品委员会创始人，我过完年跟他们讲说，你们应该做个小龙虾。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后他说我们已经做了，然后就掏出一个东西给我看，结果那个东西是这个产品的联创自己一个人手搓了三天搓出来的。自己一个人手搓三天可以搓出一个企业级的工具。然后这个企业级工具瞬间就有几百个企业在用了，但是他们后面就研发什么就跟上去了。但是你就会发现小团队甚至于是单兵往前突破，现在确实可以达到几十倍的一个效率。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>单兵或者三个人往前突破性，然后你把这片地打下来，你可能还缺，比如说吊机，缺专业知识，然后你再从老的那边把你打扎实，这是第二步的事情。第一步的事情最好就是你可以开辟片飞地。而在AI的时代，这件事情确实就是存在可能性了。不像以前就是你要搞一件大事，你就要掉很多老的资源。现在你就说你们三个人去打下这片天地，打不下来，我们当这事没发生过，这事儿是可行的了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们接着讲，第三层的话就是光组织改造也没用，因为组织改造是提效的，就是让组织的效率更高。但是效率更高和你能多赚钱能赢，这是还是两件事。我们最重要的事情其实是找到未来会发生什么，提前在未来占位子，是要去占生态位的那前两层讲的就是比如说单个港口，对吧？但是比如说我们还是回到集装箱，集装箱最深刻的影响其实是在第三层。它改变了整个航运生态的结构，创造了以前根本不存在的新的生态位。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后要理解这一层的话，就是大家想想如果搬货卸货成本很高，那你会想着说如果我要送一个东西，那你肯定是直达吗？你不会有这个。所以在集装箱之前转运，它肯定不是一个生意，对吧？因为港散货时代到了一个港口，换船，把东西一件一件卸出来，然后把东西一件一件再重新装到另外一艘船上去。这个过程又慢又贵又有损耗，所以肯定你会选直达，从出发港直接到目的地地方，中间不会停换船。不得已不是一个值得围绕他建生意的一个环节。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是集装箱就把这个等式就翻掉了。一个标准化的盒子从AA船掉下来放到堆场，然后再吊上放到B船，整个过程几个小时，对吧？成本很低，货物不用拆包，不进仓库，不怕耗损。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当换船的摩擦从极高变成极低了之后，一个全新的商业模式就出来了。就是我们可以专门做，让别人的船在这里高效的调度。换个船的港口之前就只有最大的进口和最大的出口才会有港口的机会。那现在说我们就让你在这边中转一下，换个船也是可以的那新加坡抓到的其实就是这个机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>1956年的时候，新加坡刚刚成立的时候，按照标准它不应该成为大港。它既没有一个大的腹地，你的整个国家就一个城市泊线，没有大型制造业，没有自然资源，然后淡水都要从马来西亚去买，他自己不生产什么东西，出口也没有产业支撑。但是新加坡做了一个在散货的时代不可能成立，只有在集装箱的时代才成立的选择，就是不做自己的货，做所有人的调度。1969年他决定建集装箱的码头，当时整个东南亚还没有第二个。1972年的话，开港定位一开始就是转运枢纽，货物不是吃进来，而是会放在这里换个船。马六甲海峡本来就是东亚到欧洲的必经之路，如果新加坡能够做到说在这里换船比别的地方更便宜、更快、更可靠，它就可以从每一个路过的集装上面收一小笔钱，那小钱生意大体量那就是大生意了。今天85%经过新加坡的集装箱根本不在新加坡上岸，他们就是在这里换个船。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>新加坡是常年排在全球集装箱港口的前二，一个完全没有产业支撑的城市，对吧？也不是完全没有讲的夸张了，一个几乎没有产业支撑的国家城市，靠让别人的货更容易流动，做成了全球贸易里最不可替代的位置之一。这就是新的事情，新的世界。我们要想象说当科技改变了，我不是要光用它写PPT，我是要思考说这个科技导致世界变了，格局变了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>新的格局里面有什么生态位是新出现的，有什么新能力允许了什么生态位出现，或者因为这个新的科技它创造了什么约束，有什么生态位它值钱了。要思考的是这个对，昨天还在聊，我是不说那家公司名字，你们不是要打造一个AI版的某某，你们是要说AI时代的某某，就是我们并不需要一个AI战略，我们需要的是在AI改变的那个未来的世界里面，我们的战略是什么？这是两件完全不同的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回到新加坡，新加坡的成功的话，不是靠把自己的货运的更好，而是靠看到了以前一个不存在的生态位，靠集装箱把各个环节的摩擦打到极低了之后，谁来帮所有人高效配合。有一个协调者的位置就从零开始，出来了，有这么个位置。那么在AI时代也是这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实AI时代的话，我们也看到很多的摩擦已经被打低了。比如说学习好了，比如说我昨天就让AI帮我做了个视频，帮我这种口播视频的话去配一些那种动图什么的。那以前的话我就要自己去学习，什么短视频剪辑我学了还学不会。那现在你拍AI去学，瞬间就学会了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当这个摩擦打低之后，它的机会到底是什么呢？我有朋友他们就做了一个bottle learn，他们就说我让机器人去学习对吧？你让他去下载一个片段，他们是真学。我们学习就是上课听个嗨，对吧？大家听个段子，大家就会想想说，那有没有什么？比如说学习，比如说工作高效，比如说我们人和人之间可以共享记忆，比如说什么什么之后，有哪些的能力，有哪些的位置重新出现了，有哪些新的生态位出现了，这是我们要思考的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说机器会学习了之后，你现在是就可以为机器开个学校了，but then了，那还有没有别的？那机器要不要社交？而当机器之间可以相互社交之后的话，那公司的组织还要安排成这样。我们的公司的边界不是科斯定律规定的交易成本，但交易成本降到足够低的话，还需要现在这种组织吗？还需要现在这种开会吗？那我们为什么要开会？开会又是解决什么别的问题，大家就一层一层想，一层一层想，就会把自己脑子想到江湖。那就好像我现在开始已经开始胡说八道了一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，回归正题，就是新加坡的启示不是说AI时代一定会出现一个转运枢纽，AI时代会出现什么我也不知道，你也不知道，对吧？但是它的启示是一个更底层的一个规律，就是每一次基础设施的摩擦降到极低之后，会有一些新的生态位会出来。我们比如说说agent之间有没有调度层，可能是AI共享上下文协议，可能是连接需求分散的那个东西，对吧？这些位置现在都没有占满。所以如果你真的是C级别的话，或者你是一个创业者的话，真正思考的不是降本增效，而是思考说未来的世界是什么样子，有哪个生态位我现在可以提前去占，这才是真正的困难而真实有效的问题，而不是说PPT怎么做的更快一点。没用的，你又不靠做PPT赚钱，是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK最后讲一个可能扎心的一个判断，就是AI转型这四个字可能本身就是一个误诊。因为AI转型它暗示的就是A变成A加。但是集装箱铁路相机这三段历史讲的都是同一件事儿，对吧？真正变化不是A到A加，是A消失B出现纽约港它没有转型成一个集装箱港，它死掉了。但是它背后那个港务局的话，在旁边从零开始做出了伊丽莎白港。所以像照相机出现的时候，也不是说那些肖像画画家转型成了摄影师，而是肖像画这个行业消失了。然后新闻摄影、印象派这边从零开始生长出来了。所以历史上真正做到的公司基本上都是从零开始长出来，就是投胎的，重新开始投胎。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>历史上真正做到投胎的公司也不是没有，对不对？比如说netflix它本来是邮寄给你那个DVD碟片的，后来自己转流媒体，真的全面技术转型成功了。亚马逊从卖书的电商，它里面长出了kindle，长出了AWS。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你仔细看这些投胎的根本特点，它都不是说我要怎么改造老系统，都从旁边开始，完全新的一个东西长出来的。然后长出来之后让新的逐渐替代旧了。所以大部分我们今天说要AI转型的公司，真正需要的不是AI转型，而是AI投胎。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是承认原来那个壳子正在失效。我们要把核心能力向品牌资产客户关系，我们要把它原子化，然后看新的那个壳子里面需要哪些在按需调度把它装进去。就相当于你不要去改造一个老房子，你改造的它就塌了。应该用一个新房子，你去盖新房子。然后那个新房子在赚钱，让它蓬勃的时候，从老房子这边再偷一些砖头过去。因为都是虚拟的砖头，你不见得真的会他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那你要改他其实比较难的，但是没有CEO会用这么狠的词。投胎这一听就是？你已经放弃自己了吗？因为用这个词，旧组织就是要被替换的，自己的权利的来源其实就在旧组织里面，这就是一个很尴尬的事情。那具体该怎么做呢？那战术测就很清晰，你就是尽快的赶紧把AI用起来，不用会死的，用了没用对，但是必须得用。对，这是第一层的事情。战术层不变，关起门来的话，你其实要思考的就是不是战术层怎么把它用好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>每个CEO要思考的问题，我的组织形态应该怎么为了AI来重建？在AI把各种交易摩擦达到更低的新生态里面，有没有更适合我的新的位置？组织从怎么从重建，我们改两期，再换个段子再跟大家详细讲。但是CEO真正重要的考虑的应该是组织和生态是新的机会，而不是在那边说大家PPT做的更快一点，没有用的。然后我们要想的是组织怎么变和那个生态我们接下来机会怎么找的话呢？这个问题的答案一定不是在比如说AI的工具里面，也不会是在你的现在的那个组织架构图里面，大概率会是在新的一片空白里面。然后这是我们的机会，所以大家去看一看空白在哪里。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多时候我们的管理者会因为日常的工作太多，我们会把自己的定位变成一个牛马。就是哪怕你是高管，你是CEO，很多时候我们也把自己定位成牛马，就是解决问题的人。但实际上的话，作为一个leader，最重要的事情其实是发现新的可以攻城略地的地方。发现攻城略地的机会对攻城略地一定是比降本增效更重要，甚至于也是在当下其实是更可行的一条路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK今天有时间的话，我顺便把第二段也给讲了。然后刚刚我给的视角都是在讲CEO。那么换个视角，就是从每个个体普通人的视角来看这个商业机会。再看说AI转型，AI到底会怎么样。普通人问的最多的问题是什么呢？就是会问说AI会不会取代我的工作？就非常离谱的一个鸡汤就在那边，就是说还不会取代你的工作，但是会用AI的人会取代你的工作，就是这种屁话到处都是，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在1968年你想想这些港口的工人，他们其实也在问类似的问题。就是这个吊车会要取代我的工作，这个集装箱会要替代我的工作。那有人就会安慰他说，其实你应该学会的是开吊车，对吧？你应该学会卸集装箱，这个时候他不会取代你的工作，会用这些的会取代你的工作，大概就是会这样讲。我们今天来讲一下，就是历史上真正发生的事情，并不是指其中任何一件。既不是集装箱取代了他们的工作，又不是那些会用集装箱的人取代他们工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那让他们没有工作的原因是什么呢？大部分原因是因为船不来了，没有船了，就是大家没有工作的原因。所以码头工人就从35000到跌到了8000，然后到1983年，这边就基本上关闭了。然后对岸的伊丽莎白港的话，1956年之前还是那个沼泽地，然后他们接走了一切。所以这批工人他不是被机器取代的，就是这批工人他们自己的那份工作是消失了。因为传过来了，就是纽约港根本没有自动化，作为一个港口，它只是死掉了，船不来了。所以的话我们很多时候问出错误的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就当比如说集装箱的威胁开始变得明显的时候，大家讨论的是我们怎么应对集装箱。纽约港的工会代表跟码头的老板就会反复的开会，就是如何让机械化不要影响就业。然后我们重新训练，然后保护现有的编制。然后虽然集装箱不用检查，但是我们还要假装上去检查一遍，这个钱还是得收的。担心的其实是机器取代工人，以及会操作新机器的人会抢走不会操作的人的饭碗。想的是这个事情，这两个担心是真的，而是合理的。我不是说这个不合理也是符合信息的，但是他不解决问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在不是给大家鸡汤，我是在说这个问题可能比大家想象的更艰难更严。就到1980年代，就是工人不是被机器取代的，也不是被会用集装箱的人取代的，而是被全部来了取代的这是一个更大的宏观的问题，就是可能整片土地会消失，就对岸伊丽莎白港的机器在跑，这边不需要了，就不是技术自动化了。我们的岗位是技术改变了整个地基，改变了整个生态，我们所在的小生态会消失。码头工人保卫岗位的每一个动作，比如说罢工、保护编制、强制检查，它只是让这个集装箱运营变得更贵，让海运公司更有理由把船开到别的地方去保护局部的举动的话，加速了全局的一个崩塌，这不是工人的错错的是我们都看不到那一层。就是整个节点就从网络当中就干掉了。技术革命其实很多时候并不是大家想象当中的，就是给了一个人一把枪，但把另外一个人干掉。而是他改变整个生态格局。就是我们的工作都是被定义出来的，这个定义是可以变的，他不淘汰岗位，他重新画地图。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟很多公司会辽AI转型，然后隐隐就觉得说大家都在转型，但是总觉得有什么不对的地方，就是这转了什么用呢？因为大部分人想的AI转型就是我怎么样用好AI。但是你用好AI，有可能你用好AI做的是一个在AI时代根本不存在的节点。这个节点可能会整体消失，当然这不光是我一个人意识到了，就是我早几天跟一个商学院同学吃饭，就是非常聪明，非常敏锐。公司很大了已经，很多人不找我聊怎么搞AI就是我们聊了2个小时，从提效聊到流程重建，从流程重建聊到行业结构。然后聊着聊着他突然就沉默了。然后过了一会儿他就说是我最好还是把公司卖了，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后他沉默的那一段，其实就是认知转变的那个瞬间，他就不是在纠结在我现在当下的这个任务应该怎么提效，而是在思考说他不仅冲击我的任务，不光冲击我的公司，他就冲击整个世界。然后世界会变，但是变化的那个世界，明天的那个我在哪里？他思考的是这个真实的问题了。而在范式变迁的时候，价值毁灭其实是一个常态。这个时候真的就不是给大家鸡汤，就是真的比想象中可能那个冲击会要更大，所以的话要提前看到并且行动OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那哪些行业就可能不在新地图上呢？你就想想你现在也会花钱买很多，比如说企业级的服务，买很多那个东西。你想想就上次你花钱请别人帮你干的一件事儿，如果AI能帮你干了，你还会付那个钱吗？那你现在的钱本质上不管是你老板给你的，还是你的客户给你的。那如果AI可以帮助里面做很多很多的事情，他还会给你这么多钱吗？如果不会的话，你的地基就在松掉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以当我们聚焦在让岗位更高效的时候，那隐含假设其实就是公司继续存在，然后岗位继续存在，行业继续存在，对吧？只是我们要做的更好。这个其实就是纽约港码头讨论我们如何让码头的工人学会龙门吊，没调是合理的，但是它是没有办法改变传不来了这个事实的那公司是抽象人站在码头上是具体的人，那这个时候的话，你就是过得最好的到底是什么样的人？对，学龙门吊还是得学的。但是学龙门吊还有一个很重要的地方，就是学龙门吊是可以让你在对面的港口找到好机会。所以他不仅仅是要学不学AI的问题，而是你也要赶紧说把自己放在一个未来的世界会上升的一个轨道上的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我两次创业，一次是做今夜酒店特价，一次是做get，是做一个人工智能。2015年做人工智能的时候，我的个人能力其实是远远高于我的2011年。2011年现在回想起来就是个傻子。然后那时候做移动互联网的，但是我做移动互联网赚到了第一桶金，我做人工智能基本上是把我第一桶金赔的。所以关键不在于你自己，个人的努力的影响实在是太渺小了。重要的事情还是说你有没有踩对时代的趋势，你有没有在上升的那个浪潮上面。我在2011年做移动互联网，不管我多傻，我做的是移动互联网都不会太差的对吧？然后我在2015年做对话式人工智能，明显做早了，我的能力又不匹配，就一路非常艰辛。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以的话最重要的事情就是你要看到说你认可的时代的浪潮在哪里。一方面要自己学，另外一方面最好也赶紧要换船，要换到对面的伊丽莎白港去。能力它本身是不会消失的，但是能力可能会贬值。你要学习未来会增值的能力，但是能力值钱的位置会变，纽约港你就不要呆了，我公众号上也写过，就是时代是会变的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就有点像比如说照相机刚刚出来的时候，你原来的能力是画画的话，那这部分手绘的这个部分能力可能它的就贬值了。但是你的艺术的感觉还在那，你把这个感觉用在去拍摄影的时候，你可能就会还值点钱。但是当你感觉的部分，因为你原来可能99%是在手绘，11%是画画。但是你如果把感觉那部分放大，你会发现比如说印象派，他们慢慢的做起来了。原来我之前的是哪一部分，哪一部分在未来还不会被AI取代，这个维度就会升值。那你能不能聚焦在这个维度，或者说当我的帮人家去拍照的能力逐步提升之后，他有没有可能突破我原来的限制。因为原来画肖像的话大部分都是画人。那现在的话有没有可能我去拍体育赛事，我去拍新闻，那就有新的一个品类会被打开。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以当一个新东西出现的时候，你不要光想着怎么用它把老的事儿干得更好。你要想这样说，他出现了之后，老的事情里面那种价值维度有什么变化？我在最高价值维度上如何在投资，以及如何把这个新东西的话用在新的领域。比如说不是在画肖像画，而是在去做新闻摄影。去捕捉到这些机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>纽约港从衰落到完全关闭花了20年，最后十年就没有什么好选择了。现在的话其实我们在2023年好像就在当然这件事情讲出来，很有可能大家会觉得说这是在渲染焦虑。但是我又不卖课对吧？转焦虑有什么用？所以我就觉得说大家可以更激进一点，反正我是在2023年就跟大家讲说赶紧搞AI你反正你蹭上，哪怕你就是假装你在搞的话，你的机会都会多很多。所以赶紧搞想一想说你搞这件事儿在哪个地方的话，它是会让你的增值最大，让你往上走。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK1968年的话，布鲁克林的码头的工人就会问说，机器会不会抢走我的饭碗？会用机器的人会不会抢走我的饭碗？都没有，他的饭碗没有被任何人抢走了，只是他脚下的那个码头整体从地图上就没了。今天如果你还在问这种问题的话，其实当然这个就站着说话不腰疼，我们更需要思考的问题就是我脚下的这块土地还会在明天的地图上吗？这是更更本质的一个问题。然后站队位置，比如说就是提前的挪到了对面的伊丽莎白港，这个很有可能是更重要的一件事情。好的，我们今天就聊到这里。好，谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>One time, time may be twice, kiss my not forever. For around down in the back sea me. M. When is all we guy china to fall in love? Don&#x27;t think i&#x27;ve had in the body said, is fun for me.</p>]]></content:encoded>
-            <pubDate>Wed, 29 Apr 2026 12:14:24 GMT</pubDate>
-            <guid>69f1fa4e0694c843e781e8da</guid>
         </item>
     </channel>
 </rss>

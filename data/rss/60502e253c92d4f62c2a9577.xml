@@ -4,9 +4,294 @@
         <title>十字路口Crossing</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577</link>
         <description>关注科技、互联网、AI 的播客</description>
-        <lastBuildDate>Mon, 02 Nov 2026 07:21:13 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 09 Nov 2026 07:25:03 +0800</lastBuildDate>
         <item>
-            <title>[年终复盘①]AI带给我的10个Aha Moments｜庄明浩：RSI 来了、AI 的奇观与粗糙、巨头夹缝中的创业机会</title>
+            <title>【年终复盘②】RSI可能是NeoLab的机会、PA真的有用、创业要造灭火器还是砖头？｜对话谷雨</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6af00645b4a4e20202f67440</link>
+            <description>➤ 「十字路口」2026 年终 AI 复盘系列第二期，我们邀请到在硅谷做 NeoLab 的谷雨（NeoCognition 联合创始人）。
+今年，我们不打算做大而全的新闻盘点（交给 AI 总结就够啦），而是邀请十字路口身处 AI 一线的朋友们 ——创业者、研究员和投资人，分享 10 个真正触动他们的 AI 瞬间。
+谷雨的 10 个 Aha Moments：
+1.  [01:13] RSI：大厂有创新者的窘境，反而成了 NeoLab 的机会？
+2.  [04:28] Computer Use：Opus 5.5 一升级，我们几个月的活白干了？
+3.  [13:10] 为什么 Scaling Law 永远值得你相信？
+4.  [16:18] Continual Learning：我曾经公开说 Memory Notes 不行 ——被打脸了…
+5.  [17:55] 学术会议体系快要坍塌了，然后呢？
+6.  [21:37] 大学教授与夜店男模：十年后，谁的社会地位更高？
+7.  [25:34] 创业做 NeoLab：火烧起来的时候，我们该造灭火器，还是先卖砖头？
+8.  [30:44] 等一下，教授和 PhD 们创业怎么成了一件随大流的事？
+9.  [32:47] AI 电影：我居然在 B 站看入迷了，忘了它是 AI 拍的
+10. [36:25] 你可别说，Personal Agent 还真的挺有用！
+🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
+📒 文字版将发布于 @十字路口Crossing 公众号。
+欢迎订阅「十字路口」：
+🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
+🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
+👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期是“十字路口”年终复盘系列，主持人请谷雨分享这一年AI带来的十个“啊哈 moments”。谷雨是NeoLab的founder，公司做“new learning new life”，此前也是博客“underground on grounded不着边际”的联合发起人；公司种子轮4000万美元，团队17个全职加4个实习生，很快开始A轮。对话围绕RSI创业机会、computer use agent与continual learning、apprentice bench、学术评价体系崩塌、从学术到创业的认知转变、国内融资环境、AI视频与PA产品等展开，核心是模型快速进化如何反复推翻他此前的判断。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>RSI创业机会的认知反转</strong>：谷雨原以为startup做RSI不靠谱，理由是必须追最前沿模型厂、且RSI需要自己的模型起点；但“recursive跟myan deo”等发布让他改观，认为NeoLab这类从零开始的团队反而有灵活性。他引用国内某模型厂朋友的例子：知道“school century”有用、可能提一两个点，但适配“ninfa”代价太大，不愿做。原话：“大的模型公司之前积累下来的这些info或者这些recipe反而可能会成为一种累赘。”</p>
+</li>
+<li>
+<p><strong>computer use的操作层已基本解决，下一步是认知层</strong>：NeoLab团队做computer use agent，发现从去年底到今年初，泛化性和可靠性问题“基本解决完了”，很大原因来自coding训练规模上去。谷雨判断“手已经基本解决了。但是可能下一步就是这种coalition level，就是认知层面或者脑子层面”，即agent要知道公司内部业务流程该怎么处理，操作本身不是难点。</p>
+</li>
+<li>
+<p><strong>apprentice bench测的是持续学习，不是独立刷题</strong>：NeoLab发布planning bench，100道题全部是建筑行业会计报账场景，但任务不是独立的，要“一个一个in a stream连着做100个”，让模型边干边学。当前第一版最强模型是“cloud最强的模型”，已经做80分左右；benchmark不公开，防止被追着刷分。谷雨强调真正长程的终局是“lifelong intelligence”，比喻为“一个会计从一个菜鸟公司菜鸟员工变成这个公司的老员工。几个月或者一两年的过程，这个才是真正的长城。”</p>
+</li>
+<li>
+<p><strong>数学进展再次验证bitter lesson</strong>：两年前他认为数学需要formal形式化系统提供signal，否则LM“左脚踩右脚”上限不高；但后来数据量和质量上去，informal方式已能拿MO金牌，今年更进一步解决开放问题。他理解做数学的人的虚无感：“本来他们是这个世界上最聪明的一群人，做的是这个世界上对智力要求最高的一件事，结果智力突然变得不重要了。”</p>
+</li>
+<li>
+<p><strong>memory notes/continual learning判断被打脸</strong>：谷雨上半年还到处说用写memory notes做continual learning“肯定是不靠谱的”，因为它不是reliable optimization；后来发现scaling或“军训”还是能行，模型越强，memory notes的上限越可观。但他声明，目前真正在这方面比较强的“也就是NSOP公共平台，其他大家做的都不行”。</p>
+</li>
+<li>
+<p><strong>学术评价体系已到崩塌临界点</strong>：谷雨称自己“已经一年半没有投过任何一篇论文”“半年多就没有审过稿，也没有去担任过这个AC”，认为投稿、会议、评价系统彻底崩塌；当AC一个batch 16篇，真正拿得出手的可能一两篇。招人时他更看聊的情况和research presentation，而不是论文；他认为最好的评估是同行评议，不应是量化指标。</p>
+</li>
+<li>
+<p><strong>创业教训：从“拿锤子找钉子”到造灭火器还是砖头</strong>：学术团队口碑好、vision和taste不错，但创业后发现成了“拿锤子找钉子”或“solutions in social problems”。学术只要技术体系自洽，创业必须和market一起闭环，回答business value。他用比喻：一个人头上着火，不会等你造好灭火器，手头有砖头也得先扑火；NeoLab发布标准太高，“总是要release一个我们觉得自己特别满意，特别骚类的东西”，但公司层面可能应先跑闭环，“甚至有时候你就先把牛吹出去都行。对，但我们确实这方面太本分了。”</p>
+</li>
+<li>
+<p><strong>国内创业和融资环境让他“哈了好多次”</strong>：过去创业是非主流路径，如今身边频繁有人说“大家都在创业，我周围都在创业，我也想去创业”；钱也明显变多。NeoLab种子轮4000万美元在硅谷已算大，常见种子轮500万、千万美元；但今年上半年国内一些“new lab”直接“two b的估值”，让他震惊，并猜测与房地产崩了、钱不知道去哪有关。</p>
+</li>
+<li>
+<p><strong>AI视频、短剧与“审美+情绪价值”</strong>：他在B站看UP主“龙小胖”用AI做两小时林正英僵尸片，七八个角色脸、情节、衣着从头到尾保持一致，弹幕都在讨论剧情而非AI。短剧剧本此前60集报价约7万元，现在AI“一天能给你写100个出来”。他给未来人值钱之事的粗暴结论是：“未来人只需要两件事，一个是审美，还有一个审美”——前者决定方向，后者是情绪价值。</p>
+</li>
+<li>
+<p><strong>PA真的有用，关键在产品设计；明年关键词是continual learning</strong>：谷雨认为“Remain”起来不是技术到临界点，更多是产品设计：personal assistant需要persistent的单独会话，像微信里每个人一个窗口，而不是session based；同时用卡通形象等增强拟人感。他自己在用“muser instinct”两个，主要看邮件、挑重点、prioritize，最终形成依赖后“只要一个就够了”。明年他判断关键词是continual learning，并预测可能出现来自RSI创业公司的最强模型或SOTA级别模型。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li>
+<p><strong>国内模型厂“知道有用但不适配”的内部细节</strong>：谷雨朋友所在模型厂知道“school century”有用、用了可能提一两个点，但适配“ninfa”代价太大，所以不愿意做。这是公开报道中很难看到的组织惯性案例。</p>
+</li>
+<li>
+<p><strong>“灭火器与砖头”的创业比喻</strong>：谷雨承认学术团队做事solid，总想造“好的灭火器”，但别人卖砖头的可能已经卖100个；他反思NeoLab“太本分”，应先发布不那么成熟的东西把闭环跑起来，甚至“先把牛吹出去都行”。</p>
+</li>
+<li>
+<p><strong>招聘不看论文、看research presentation</strong>：谷雨说招新毕业生更多看聊的情况，流程里会让候选人做research presentation，观察逻辑表达、QA反应和对问题的理解；结合他一年半不投稿、半年多不审稿/不做AC，反映其对学术信号的真实取舍。</p>
+</li>
+<li>
+<p><strong>个人创业动机的私人表述</strong>：他说“我这辈子没有一秒钟想过去大厂”，原因是受不了固定上班和作息，需要灵活性；对风险“没有任何的概念”；父母对他没有世俗层面的要求，包括结婚等人生节点，因此有一定安全感。</p>
+</li>
+<li>
+<p><strong>争议性玩笑与真实判断</strong>：他开玩笑说“可能十年之后教授的社会地位不如夜店的男模”，并解释当智力不再值钱，长相、身材、情绪价值可能更值钱；年终预测时先开玩笑“明年一定会发生的事儿，我们公司被高价收购了”，再补“明年我会再老一岁”。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技，本周十字路口的嘉宾是谷雨。我们今天又是一期到了年底的2026，请谷雨来做他的十个2 moments的分享。你好，谷雨，欢迎来到十字路口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们还是先从快问快答开始帮助大家了解你。请问你的年龄，三十一毕业的院校。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>南京大学本科，然后还有州立大学博士。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的这个MPTI核心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>座INTP天蝎座古语。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也是neo的founder，这可不可以一句话介绍一下你们公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们公司做new learning new life.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们的融资情况。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>种子轮4000万美元，很快会开始A轮的OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后目前团队的规模17个全职.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有四个实习生的样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后在这一次创业之前还做过一些什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实自己也是一个博客的联合发起人，我知道underground on grounded不着边际，然后欢迎大家关注一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这一期是快年底了，对吧？所以我们最近在做一个系列内容，就请朋友们来分享他们非常个人的经历了。这一年下来自己有哪些AI带来的啊哈moments，然后想请每个人都分享十个。然后我其实提前看到谷雨你发给我的那个十个2 moments，我觉得和多数人的都很不一样。要不我们还是先从第一个开始，好不好？第一个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是RSI这个事情就是上个月然后还说我搞不懂为什么会有这个创业公司在做RSI这件事。最近发现我确实被打脸了，所以我觉得这是一个很大的moment。就是现在我发现start up做RSI确实有它的一条逻辑。比如说前阵子recursive跟myan deo发布，确实给了我很大的惊喜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这扭转了你的想法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是我发现他们还真的能做出来，还真的有这种机会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以你原来觉得starter他们做RSI没有机会的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原因是逻辑非常的粗暴。首先我觉得第一个，因为你做RSA你本质是模型叙事对吧？我觉得你要追这个最前沿的模型厂，你别说新的start up，你就比如说你除了这个ONA，其他的模型厂这么长时间还在后面赶着，你是start up上哪做，这是第一点。第二点，我觉得你RSA那recursive，你首先得有起点，对吧？起点得有自己的模型。所以我觉得这两点我当然非常的天真，我就觉得startup做这个不是很靠谱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但最近确实还是超出了我的想象，就是relive跟米兰deal的发布。比如说米兰迪有一个人搞三个多月，新出的这个pro channel model比K3还要强。就这些事情我觉得还是很刷新认知的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得是什么原因呢？他们可以在mio lab的背景之下也做RSI。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家可能现在渐渐达成了一个共识，就本质上是确实AI现在研发能力越来越强。然后你可以想象总有一天他写这些，比如training infrared，写这些training recipe能力会超过人。那当这一天到来的时候，大的模型公司之前积累下来的这些info或者这些recipe反而可能会成为一种累赘。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就一个非常具体的例子，就是我在国内某家模型厂的一个朋友，前两周跟我聊天，最近大家都知道那个school century，大家都知道那个有用，然后他们也知道有用，他们知道用了可能会提个一两个点。但是他们为了用这个需要去适配他们ninfa，需要花的代价太大，所以他们不愿意去做这个事情。所以我觉得这是一个非常具体的例子。但对于一个从零开始的startup来说，他们就没有这种负担。我反正都是AI去搜一套新的recipe，去搞一套新的，我随时可以迭代它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>随时可以丢掉它OK所以就是因为还在不断的变化，所以如果你的info或者你过去的一些SOP或团队的这个组织架构它已经成型了，你就比较难调整去适配新的变化。是的，反而这个时候neo lab是有它的灵活性的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是它可能会有更大的加速度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但前提是不是neo lab还是得融到更多的钱，才能够有钱、有资源、有卡、有数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那是因为你要走波音去世，你要做这种完整的for stack的模型训练，你肯定需要大量的。所以reset跟米兰德他们确实拿很多钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那除了这两家你还看好谁？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括jeff店discovery loop对吧？我觉得可能都挺有机会的，就是这种阿赛公司，当然我们国内也有一些了，但是可能可以再观察。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是第一个moment，这其实是一个你的认知被改变的一个时刻。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得moment的意思就是这个就是你感到惊讶才会好。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好，那第二个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个就是我们团队一直在做compute uc agent。然后今年确实我们发现compute u agent确实这个事情快解决，就是它真的泛化了。比如说在去年我们一直在聊competition最大问题是泛化性问题和可靠性问题。从去年年底到今年年初，大家就发现这个趋势community的这种所谓的操作层面的问题基本解决完了。然后这个很大的一个原因是因为coding的这个训练规模上去。然后你这个泛化到了很多这种软件操作或者网页操作。具体来说就是可能有意思。现在到了一个就是手已经基本解决了。但是可能下一步就是这种coalition level，就是认知层面或者脑子层面，还有一些需要去解决问题，就是我们公司在做的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就具体来说，比如说就是他要知道这件事情该怎么去处理，然后对应到这个软件或者这个网页的操作，他完全可以做对。但很多时候的难点在于，比如说他不太知道一个事情应该怎么去处理。比如说你可能每个公司内部他会有一套自己的业务流程，这个事情他可能不太清楚。但他一旦清楚这个事情，就认知层面他知道要怎么处理之后，他的操作是没有问题的对，我觉得这个也是过去一年我们对committees的认知的一个转变。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这个认知层面已经不是computer use的范畴了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实是阿萨克low的对，但是它需要体现在它具体需要体现在和这个软件或者网页的操作的交互上面。比如说你要解决做数字世界一些工作，对吧？你最终还是落到这个comment ust上面了解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这个对你来说是一个很moment的原因是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是因为我们公司其实刚成立的时候，花了几个月时间，一直想要去解决这个操作层面的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以当时你们的解题思路是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们当时操作层面有一个很大的问题，就是所谓的reliability。就是它可能做一次能做对，第二次可能会做错。是所以说我们当时的做法就是我们让他做几次，然后把做对的那个挑出来，把它封装成一个reusable的skill。然后当时我们是搭了一套pipeline来做这个事情，但现在的话发现完全不需要，可能比如说你让up 5.5，他自己去实现一下这个流程其实很快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，没错。而且他会在这过程中自己纠错，一旦如果有错的话，要不要再讲一下咱们在做的这个bench .</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>a planning bench。对，就是我们的bench，就是像我们说我们公司做continue earning，然后我们要真正的去就解决。比如说这个agent或者模型部署之后，你在这个生产过程中怎么样持续的去迭代自己。这件事情现在并没有一个现成的benchmark能很好的去学习它或者更好去评估它。就是为什么我们定义了这个benchmark，这benchmark其实做的是建筑行业的这种会计场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我非常垂直建筑行业的会计问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为它很真实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后有多少道题？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>100道题.</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这100道题是一个什么样的分布？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这100道题它其实都是在做一件事，都是做这个会计报账这件事。但是它每道题背后它可能会涉及到一些不同的规则。比如说这个公司会有一些不同的，比如说处理事情的convention，一些specific的workflow，一些这种特别的审批流程之类的。然后各个题目之后会包含这些。但有一个很特别的点是我们这个任务和现在的很多A型编码有一个本质的不同。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我们这100个任务不是独立的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就你现在的bench a正常，就是比如说一些独立的题目，我这个是你得连着做，你得一个一个in a stream连着做100个.</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这么设计的。原因是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是这一百个题之间，它其实你连着做是一种边干边学的一个过程。就是你可能做了前面的题目，你从前面题目得到的反馈或者学到的知识，你才能继续去做后面的。所以预期是它是一个持续学习的过程，就是我们去value其实是一个持续学习的故事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而这个其实也涉及到我们对于这个non horizon或者长城的看法。就是现在其实有很多很多的这种claim，自己是做lang horizon aging take tasks the benchmark。而现在这个benchmark有个bias什么，就是他可能会去想，就是我要去找一堆这种特别难的任务，然后一个预警或者一个人要做半天。那我们觉得这个事情可能不是最理想的状态，就是觉得有两点，一点是你这种任务很难去找，对吧，你很难go up。另外一点是我们为什么要长城，我们对长城的预期是什么？我个人认为长城的终局，就是你如果真的scale up起来，你最终这个量变会引起的质变是我们会得到一种所谓的lifelong intelligence。你要lifelong and intelligence，其实你就一定不是说我光埋头在那边干一件事，一直干下去，而是他得一直能够边干边学，持续迭代自己。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者打个比方，就是我们认为真正的长城不是说一个会计一个账，他给你报一个星期。而是一个会计从一个菜鸟公司菜鸟员工变成这个公司的老员工。几个月或者一两年的过程，这个才是真正的长城。而这种常常scalp起来才能到达所谓的这种lifelong g的intelligence，就像人一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这个非常make sense。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这个也是我们公司提供的一个新的视角，同时也是为什么我们定义了这边，起码就是希望能告诉大家，未来应该去追求的方向是什么样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后现在这个apprentice bench刚发布的，你们之前发的bench可不可以介绍一下？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像我们组就是之前比如我们在OSUNOP的lab，其实是发过一些很有影响力的benchmark。比如说MMMU1个多模态的一把流行，这都是这个open and topic和google他们发模型的时候其实都会默认用的。然后还有这个agent的相关就是web manage。Web我们做的非常早就是二三年5月份时候发的，那会儿算是LM时代最早的computer use或者weaent的一个benchmark。然后这个后续以及它的变体，比如online tub也是被这个BSOP open，IGM他们在发模型的时候也会去使用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外的话就是我们之前其实跟国内有合作，比如我们之前和清华他们有合作过一个agent bench origin bench。这个可能大家评估用的不是，就是发模型的时候评估用的不是很多。但是它确实算是一个最早期的LM main的时代的一个160星。它确实也相当于给大家提供了一些微型的任务的这种早期emulation和一些这种数据上和任务分布上的资源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们再说回这apprentices enc，我觉得要在a tice bench ch把分数提上去好像还挺难的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>目前的第一版最强的模型，就是cloud最强的模型，已经做80分左右的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以比如说要提分要怎么提？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是continue learning的能力。这一点是现在我们觉得非常区分前沿模型和非前沿模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的一个代码。什么样的数据能够在continue learning上面帮他们有大的提升。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最重要就是能够比如说说让他更好的去写memory note的数据。我听说open I和SOV都有自己的一些recipe。但有一种可能性就是比如说你天然class code和code x这种long session，它本来就会伴随这种性质的数据。但目前这个resort我觉得并不是一个非常成熟的东西，所以我们我们公司其实也还在探索。然后包括其他的这个model labs，其实除了那两家，大家也没有特别好的solution。包括那两家，虽然他们现在我们prince上面就分数也挺高，但是我觉得还是有很大的提升空间。包括我们print后面可能会有，就很快我们会发新的版本。然后目前这个最强模型其实分数也会低很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我在想比如说其实其他的班级都比较容易刷分，你们这个是不是没有那么容易刷分？因为他要做一个配套的一些数据data set，好像要难度要大一点，会这样吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得刷分有两点。第一点，首先因为我们没有公开没有公开，所以说这个书上没有办法追着我们杀了，这是第一点。第二点就是我觉得这个跟你本身这个benchmark定义的chAllenge有关系。你比如说你光去刷我们这个benchmark本身，就是你只对着我们base mark这个数据本身去解没有意义。就是你你让你的这个模型就是你去把针对这个公司的特定的规则，把这个会计报表这件事做好，有什么意义呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刷这个对模型没有任何好处，因为我们测的并不是这种level能力。我们测的这种meta level能力是更原级别这种能力就是持续学习能力。只是持续学习能力做好了，它可以体现在这个上面。所以你就算要去刷你有意义的刷法，应该也去刷这种meta lever能力。你要真的把它刷上去，那我也服了对吧？你真把它刷上去，那确实也是一个也算积德的OK好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是前两个moment。然后第三个是就最近。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个数学，对吧？数学大家都知道，这几年问题都open a一个接一个解决。开始就是之前可能在这个哈姆的，可能更多是去年的moon的，直到今年进一步更好的放大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了50倍100倍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>24年那个时候大家包括我自己，就觉得这个数学能做成。因为你有formal refutation对吧？你有name。这种形式化的系统是然后结果后来发现你这个数据量上去，然后你这个质量上去，就是去年的时候就已经可以通过informal的方式拿到MO的金牌了。那个时候其实已经很好了，但没想到今年就是更进一步。然后前几年问题可能后面就基本上确实就是你informal，就是可以把所有的这些问题都能解决。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个确实还挺打破，至少打破两年前的认知。两年前那会儿觉得你需要有这种formal的形式化的系统来给你这种signal，不然你就你train formal就是LM来嫁接自己。有点左脚踩右脚的感觉。那会儿觉得这个事情可能上限不会特别高，但是发现确实确实还是认知不足的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是某种bitter lesson。对，我们还是应该相信skating可以解决更多的问题。不得不信不得不信。进来的我觉得好像很多做数学的人，因此陷入了某种虚无主义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我觉得很能理解他们，本来他们是这个世界上最聪明的一群人，做的是这个世界上对智力要求最高的一件事，结果智力突然变得不重要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也听到另外一个说法，我不知道是不是多数人都这么看，其实解决问题本身的目的并不是解决问题，而是在这个解决过程中不断的探索所发现的一些方法，积累下来的一些这种know how。它是比这个解决问题本身更加重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就比如说很多事情，比如说运动员在追求身体的极限，那你也没有机器快，但是这对人来说本身是一种意义。我觉得数学可能后面会maybe像一些这种棋类运动一样，也成为人自己去挑战自己智力的极限。我不知道的确实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多时候我们做的事情并不是机器做不到，而是做这个事情本身就是对人有价值、有意义、有快乐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得自己开心最重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我最近发现有一个存在叫拼斗自习室。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拼斗我知道，自习室我也知道，在我不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就大家对在一个大自习室里面一起拼斗，然后那个自习室是做了一些定制的。比如说每个人一个小隔间，然后小隔间的前面就是放着拼斗的所有的素材，然后你什么都不用带，你直接去就好了。那边比如说几百个颜色，各种图纸，所有的工具全部都有，然后他按小时收费。你想象那个画面就是很像一个工厂，每个人一个格子是吧？然后都很安静，然后在劳作，然后他们在付费劳作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个模式不错，我们公司可以退钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他付费来上班了。好，这是第三个。还没问我们聊着好像比较搞笑，但其实我觉得这个还是让人想起来挺五味杂陈的。好，那第四个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第四个可能又回到跟我们公司比较相关的，就是因为我们公司在做这个continue learning。然后这其实也是很打我脸的一个事情。我今年上半年就是我我还在到处套口上说这个，以至于memory notes就写memory notes这种方式来做continue arding肯定是不靠谱的。我当然观点也非常的很research，然后就说你这个memory notes对吧，你就是通过rewrite memo这种方式，它并不是一个reliable optimization orginally，所以我觉得它就是不行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>结果发现这skating或者军训它还是能行，确实就是一个是community到临界点，我们刚提过。然后另外一个就是确实它基于my note to的这件事情的上线被我们低估了。然后我们现在觉得OK虽然它肯定还是有一些问题，就是它确实不是一个可靠的优化算法。但是到你模型越来越强，因为我们之前我之前说很大的一个问题就是你写MI note，它很大程度上是被模型自己能力给bottle住了。对，但现在如果你模型越来越强，这个事情的上限确实有可能是还挺可观的对，但是我还是需要声明一点，就是so far我们观察到其实真正这方面比较强的也就是NSOP公共平台，其他大家做的都不行的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK我听起来前面两个三个omens其实都和模型的快速进化有关，就颠覆了你之前可能认为模型做不到，我们需要去用不管工程的手段或者其他应该就是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>paradise，就是learning party m的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实今年感觉还是要更加的相信模型的scaling.</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且迭代也更快了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们前面说了四个了，然后第五个还默默的是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第五个是关于比如说这个research community或者学术体系，这个相对来说我觉得没那么好。因为从二三年的时候感觉就有这种趋势，但到26年开始真的发现这个临界点到了。就是这个评价体系、这个投稿系统、这个会议系统彻底崩塌了，就是这种感觉。就拿我个人举例，我已经一年半没有投过任何一篇论文。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是什么原因呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是不想投，就不是一个很高的优先级。然后另外的话，我已经半年多就没有审过稿，也没有去担任过这个AC这些服务我也不太想去做，感觉这对我的时间并不是很尊重。现在看这个事情就是因为有大量的这种AS lop，大量的灌水，实在是你很难去就比如说你可能当AC一个batch里面16篇文章，可能最后真的能拿得出手，真的质量说得过去，maybe就那么一两篇。然后现在确实大家对于这个中论文的越来越不看重。所以我觉得首先就是这个投稿系统就是崩塌了，你现在很难拿这个去考核大家。虽然以前我也不认同数数或者怎么样，但是现在你真的已经完全没有任何的相关性的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>基本上你们招新的毕业生的时候，还会看大家的论文的情况吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得更多还是看聊的情况。就是你去问一个人做过的事情，以及看他对于我们现在正在做事情的理解，你是很容易看出来一些事情OK包括我们的流程里面会让他去给一个research presentation。我觉得presentation还是很体现一个人综合能力的对吧？包括他的逻辑表达，包括他QA时候的反应，包括他对这个问题的理解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果你觉得这样的体系坍塌了，那什么样的体系会重建起来吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实觉得学术方面最好的评估就是同行评议，就不应该是一个量化的指标。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实学术会议它某种程度上也是同行评议。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你的审稿过程是同事peer review是同行评议。但是就跟我说的可能还是有点不一样。我说的可能就是因为审稿人这个是没有什么bug的。我说的那种是真的可能得是case比较高的。你就比如说像美国的各个院校招人的时候，其实就是你就can得去给job talk。然后你这个院系里面可能一些senior的professor，或者一些比较强的一些老师，可能会给一些意见，就是去判断这个人本身怎么样。但投稿的话，你知道现在本科生也可以当这个审稿人，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你有看到什么新的体系在建立吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得体系的建立肯定是有滞后性的，不管是中国和美国，我觉得现在学术圈就还是在按之前的惯性来走。所以导致的结果就是不管是在美国还是在中国，可能进大学当这个教职，这个优先级相对来说可能越来越开始往后的就是没有以前那么高了。对，尤其是对于AI来说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>主要是对AI来你觉得是什么原因呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>机会跟钱都有，我觉得很现实一点。确实你现在一个AIPAG去frontier lab或者去未必一些new life start up，其实可以赚很多钱。然后你在学校的话可能待遇差很多，然后你这个资源也少很多，你资源少很多事情也做不了，然后同时还存在这种评价体系的问题，就是大家不一定愿意接受的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我感觉我们聊了五个啊哈moment，然后听起来这里面很多都是这个世界在巨变。然后这个变化其实是让一些我们过去相信的，或者我们过去认为好像很难去撼动的东西，它松动了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说我之前跟朋友开玩笑说，我说可能十年之后教授的社会地位不如夜店的男模。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个夸张的比喻，还是这是一个你真的觉得这是社会地位？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我真的这么觉得。因为当你的智力不再值钱的时候，可能你的长相跟身材更值钱。就是因为这个事情，我觉得人类智力之前也并不是一个很长时间的事情，对吧？人类历史上这么多年，尤其是在进入现代文明之前，甚至现现代文明前面的很大一部分时间，体力都是更值钱的。确实对强壮是更值钱的。就是因为当这个机械时代到来之后，你的强壮变得不那么重要了。但是大家开始在进入这个数字世界之后，你的脑力变得更重要。但现在数字世界的机械AI就是数字世界的机械，来了之后脑力变得不重要了，有可能会有一些新的东西，我觉得情绪价值可能，但短期内是机器很难去取代的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后还有一个新闻是现在全世界卖的最好的两种减肥药的收入是大于这些模型公司的收入的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个就是减肥药只要有效果，然后你没有副作用，就很容易可以成为未必世界首富干这个生意。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在如果有一个PHD过来问你，他还是不是值得念PHD，你会给什么建议？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不给建议，就是自己开心就好。因为你说白了我又不知道你追求什么东西，我也不知道你看中什么，你自己想清楚就行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对那你觉得有什么样的人在今天还适合读PHD？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>想读PHD。就是想读就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就不需要非常多理性的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得想做一件事去做就是一种理性。你想做不去做，我不知道这为什么算理性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但想的背后大家有时候也会去分析我为什么想？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我不知道，反正他只要真的知道自己想就行了，反正对我来说，我只要想就行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其他都不重要的。我很好奇你是为什么想创业？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实说原因的话就是你要说理性分析，确实能说出一些原因。首先我一路都是读计算机的，但是我确实跟这个专业很多同学有一点是不太一样。因为在这个专业，比如说尤其大家一开始上本科的时候，可能身边默认的人想法就是我要进一个大厂，我拿一个好的package。但我确实从头到尾没有过这种想法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我还没有过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我跟我很多朋友说过，就是我这辈子没有一秒钟想过去大厂，就自始至终都没有。这个很大的原因是我就是不喜欢那种固定的上班跟作息时间。这个事情对我来说非常的痛苦，就是我需要灵活性，就是我不需要工作跟周末的边界。我需要的是在我在那个状态的时候我需要去做事情，在我们不在那个状态的时候我可以不做事情。对我觉得这个事情很重要的。然后另外的话，我觉得还有一点就是创业就是你相对来说，你对于除了时间上，你对于做的事情的方向，你有更大的这种ownership对吧？你可以有更大程度的决策权去决定你做你想做的事情，而不是你去完成别人给你的一个使命，这一点对我来说也很难，我很难为别人工作。第三点的话就是我觉得我不抗拒创业的理由，就是我对风险是没有任何的概念的。就一直有这种感觉，就像我说的，我做一件事情就是我想做就行，就是我不会去计较什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>代价的那也是不是因为就是你家庭提供的这种安全感比较强，不管是情绪上的还是是财务上的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>父母对我确实没有什么要求，他并不会对我有比如说世俗层面的这种，包括人生节点，包括你这个时间点要结婚要干嘛这些都没有。所以说可能还是有一定安全感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我刚才在说创业，那创业到现在有快小一年的时间了，对这个感受怎么样？和你一开始的一些预期是一样的吗？你想要的自由自主这些都拿到了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这其实也是一个很moment，但我们到第几个了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，刚才聊完了6个OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那第七个是吗？第七个是这个我觉得也挺有意思意思就我们整个团队，在就是我的导师苏玉老师带领下，之前在学校的时候，我们整个组的口碑reputation还是挺好的。然后很大一个程度上，其实就是大家觉得我们的vision，我们的taste不错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这个是什么？你知道学术界有一个非常典型的很多人会犯的问题，就是拿锤子找钉子。就比如说我先去想一个的算法，或者想一个奇奇怪怪设计，然后我再想办法这个能用到什么问题，让我来写一遍paper。这种事我们从来不会干，我们会真的去比较本质的去想这个技术问题，它到底有什么fundamental的issues。然后我们会从更fundamental的角度去解决问题。我们之前在学术界一直都是这样的一个风格。所以这也是为什么我们在这个LMAG的时代做了一些开创性的工作。但是就是放到创业上面之后，我发现OK我们成了拿锤子找钉子，或者所谓的这个solutions in social problems。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>SPSP right.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个原因是什么呢？原因是做学术研究，你只要在一套技术体系内，你能闭环，你能自洽就行。你有一套完整的system。但是做start up你光自洽不行，光自洽是自娱自乐，你需要和market一起完成闭环。你还得想这fundamental problems能解决别人的什么问题，能带来什么样的business value.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对商业价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>right所以这就是我们过去可能几个月或者一年时间在交的学费，我们可能一直还是从这个根本的技术问题出发。比如说感觉人他确实是现在的AI的一个fundamental problem。但是你要把它放到market里面，你要把它放到产品里面，它应该是什么样的形式，他应该去解决什么样的问题？这个确实是就过去我们交了学费。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多时候还是感觉这个道理都懂，对吧？但是自己做的时候才发现就纸上得来终觉浅。因为其实你在讲的好像是一个挺浅的道理，就是说做公司要考虑怎么赚钱。但确实如果不是自己做，别人直接告诉你，你是没有那么深刻的体感的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是人说了跟没说一样。但是做起来确实就是一旦进入到做事状态时候，你可能会局限在自己的bias里面，跳不出来。所以确实人要经常跳出来，来反思一下自己，然后可能会产生一些对自己的moment，然后可能会帮自己去完成迭代的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实有一个例子我还是挺想讲，类似有一个理论就是当一个人头上着火了，他是不会等着你给他一盆水或者一个灭火器。他手头有个砖头，他也得把他头上的火给扑灭。所以这个什么意思？就是我们的学术团队出来，我们做事很solid，我们一直去想OK，我们要造出一个好的灭火器，但可能在你灭火器造出来之前，别人卖砖头的已经卖100个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个具体投射到你们的业务上是什么？这个灭火器和砖头分别对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么我们对于发布的标准太高了？OK我们总是要release一个我们觉得自己特别满意，特别骚类的东西。但是你作为一个公司的层面来说，你有时候可能真的就没必先发布一些不那么成熟的东西。然后你可能先把这个闭环跑起来，甚至有时候你就先把牛吹出去都行。对，但我们我们确实这方面太本分了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这个方面有谁做的是你觉得足够好的吗？因为你肯定不能不love，对吧？或者你说了之后deliver不了，但这里面的节奏其实把握还是重要的。因为你说的早，你会成为第一个moments的创造者，然后你后面会有很多的红利，那你最后当然你要不断的deliver。有谁是你觉得做的好的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最典型的就是马斯克，我觉得马斯克就是硅谷这种fake IT tale make IT的极致。那你怎么看？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天确实开始有一批高中生毕业，甚至连本科都不读，然后就直接开始工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么看这个趋势我怎么看这个趋势，我觉得其实合理。很多人比如说在一些教育资源比较丰富的地方，比如说北京、上海这种，你可能可以很早的去做一些真正有价值的事情，去接受一些真正有价值的训练。首先我认可我们国家的这个教育体系，对于我们国情是符合的。但是对于个体来说，确实可能你前十几年并不是真的在去磨练你自己的能力，他更多只是为了去完成筛选，对吧？但是如果你能把这个时间用到学习真正有价值的事情上。你确实我觉得你在高中的时候能去做一些非常有意义的贡献，我觉得是合理的对，所以我觉得但这个确实不会成为一个大众化的事情，这个对于教育资源，对于这个环境的要求太高了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们前面聊了七个，我们第八个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得创业环境就是就最近这一年多让我哈了好多次。对，首先就是有一个现象很有意思，比如说可能在过去很长一段时间里，大家都觉得创业是一个非主流的路径，和大家可能想法不太一样的人会出来走这条路。但是过去这一年时间，我开始频繁的听到身边有人去说大家都在创业，我周围都在创业，我也想去创业这种话就感觉好诡异。这件事情什么时候创业成了一个随大流的事情，我觉得这个事情对我来说是一个很大的moment，这确实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外的话为什么会这样？原因还是大家还是趋利的，这个很容易理解。然后确实就是现在的市场环境钱是真的多，确实投的太多了。甚至就是我是到今年6月才知道，国内原来会投这么多的钱。因为在之前大家的印象一直都是硅谷比国内钱更多。你像我们公司其实作为一个aging startup都是拿了4000万美元。种子轮在硅谷已经算挺大，因为最常见的种子轮其实就500万美元、千万美元都是在国内就很多。包括2324年初，我知道有些很厉害的老师，他也就拿500万1000万美元。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是从今年这个上半年，就是国内可能有一些所谓的new lab，就是直接two b的估值，two b点到20的估值。对我来说确实非常震惊。可能是因为确实国内房地产崩了，这个钱不知道去哪里，我确实不太懂。对，但是这个可能科技老师看得更清楚一点的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得鼓励创业创新，肯定这个in general对一个社会是好事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我肯定是好事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且让掌握着最前沿技术，然后也最有想法的一群年轻人，能够没有压力的得到足够多的资本去尝试，这个肯定也是一个好事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的没有压力吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家多数还是不会签回购的，我也不会签对赌的，所以我觉得这种压力就不会是个人财务上的压力。更多是我会不会浪费几年时间这样的压力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实还好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我们到最后两个moment，第九个moment是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最近这几个月确实AI视频生成达到了一个之前我也没有想到的高度，就是他现在真的能做一段比如2个小时左右，非常前后一致的电影。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK你在哪里看这样的电影？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，比如说我前阵子就在B站看一个叫人家叫龙小胖的一个up主。然后我小时候很喜欢看香港的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>僵尸片。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，然后当时我很喜欢的一个演员就是林正英。对，然后他去世比较早，然后B站上那个视频就OK就把它给搬回来，然后做一部新的僵尸片两个多小时，然后前后非常一致，就是人的脸，包括这个情节，包括这个衣着，从头到尾就是你真的几乎不会像maybe大半年之前那会儿你做一段AI视频，可能几分钟的视频，人的脸都在不断的变。现在就2个小时，一部完整的电影，你真的能从头到尾就可能七八个角色都完全保持一致。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是可以沉浸式的看进去的，是真的可以看。你并不是说我来了解一下AI间能做到什么程度，而是你真的把它当做一个不是一个电影在看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是真的把它当电影看。对，就是对于这个影视的从业者来说，我觉得可能是一个确实对他们来说是一个更大的哈姆man队。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说看的时候弹幕上面大家会飘什么呢？会有对AI的讨论吗？还是几乎都已经讨论剧情，不讨论AI了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>讨论剧情，都在讨论剧情。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得这个事情确实也挺好的。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但看的人都知道这是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>AI做的吗？都知道因为B站会声明AI创作的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以大家知道这是AI做的。可是大家也不care他是不是AI做的，大家care的已经是这个电影做的怎么样了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得最终大家对于一个事情是怎么产生的，可能不是很有所谓。没错，关键还是最后的deliverable.</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>长什么样的那你有产生过自己去做一下的这种冲动吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实还挺想要试一试的，这个时代真的很利好创作者就是像alex旺说的，就是大家都可以去做，大家想做的事情现在应该能帮你去实现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说到这里我突然想到我有一个好朋友，他前两天写了一部科幻小说，然后ID这是他的写作AI帮了很大的忙。这个背后的主题是什么呢？就是在未来专利也会越来越贵人就变成永生了。所以在那个时候，如果你想要获得更多的算力来享受生活，因为你要获得娱乐，你要用什么去换呢？你要用你的记忆去换OK。因为记忆是数据模型还在进化，那个时候的进化仍然需要吃掉人更多的记忆数据。所以那个剧情其实是一个很悲伤的一个故事，就是人在卖掉自己的记忆去获得更多的算力来享受当下的生活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>关于怎么样更好的来做记忆这件事情可以关注，你要考内心后续的工作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个植入也太丝滑了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>关于写剧本这个事，我觉得也挺有意思。去年我还听说，当时有一个拍A短剧的朋友，大概是这样，就是一个短剧可能60集，一集一分钟就60分钟，60分钟的剧本。那会儿他们去报价差不多7万块钱，7万块钱人民币。然后现在我觉得我这边也不是一天能给你写100个出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以还是回到前面我们聊到的，就是好像人类智力值钱这个事情也不是说一个很长久的事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能已经不值钱了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那什么会变得值钱呢？在AI时代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我之前跟一个朋友说过非常粗暴的一个结论。我觉得未来人只需要两件事，一个是审美，还有一个审美。审美是就是你相当于你要决定正确的方向，前进的路线在哪。美就是情绪价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们来说一个最后的moment。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Remain这个事情突然起来了，为什么这东西起来了？它确实不是说你技术真的到了什么临界点，当然这个和技术进步肯定有关系的。比如你coding更强，做更多的事情，你这个community更强，你在后台操作软件，操作网页的能力确实更强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是更多的就是我们感觉可能还是产品上有两个很关键的设计。首先你要真的做成一个personal的assistant，你像ChatGPT或者cloud那种session based的这种绘画管理肯定是不合适的。因为你如果如果把它想象成一个你的助手，你不可能我可以跟他说一件事，开一个窗口说一件事开一个窗口，而是你就得有一个这种persistent的一个单独的绘画。比如你像一个muse，就是一个单独的绘画从头到尾。因为这样的话就是人的感觉，就像你在微信上跟人聊天一样，你每个人每一个对象就是一个窗口。你不会说我今天让你做这件事我开一个窗口，明天让你做那事让你开个窗口，这是第一点。然后第二点就是你还是产品层面，就是你要让它更有人的感觉，就是这为什么这些presentation大家都会搞一些这种卡通的形象，我觉得也是为了进一步增强这种感觉，就是你比如说muse那个毛绒那个形象，就是走各种各样的PR，我觉得这个确实就一定程度上的拟人化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外一点的话，就大家在说这个practice ess我觉得practice ess本身也不是一个什么特别新的技术，对吧？首先你就年初open cloud就有这个feature，然后再包括这个ChatGPT cloud这个schedule task，你一样能做到吗？就是你固定时间你去看一下邮件给我的推送都能做到。所以我觉得本质上确实就是这种产品跟交互体验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你自己在用什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己在用muser instinct要用两个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们俩你要怎么分工。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实都是在帮我看看邮件，看看消息。因为在国内的话，这种服务平台你用不了，比如说外卖，比如说订酒店、订机票，这些都不太好用。所以说其实主要就是帮我们看邮件，那看邮件这个事情还挺关键的。因为邮件很多，然后他是真的能帮你去挑出一些重点，需要去prioritize邮件，然后自己推送给你。这个是应该还挺有用的，就这一点确实还挺有用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你觉得最后会收敛到只用一个吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最终确实我觉得这种东西可能现在我之所以在试不同，其实很大程度上也只是尝鲜而已。但真的比如说当我生活中形成这种依赖之后，我觉得只要一个就够了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们今天的十个moment都说完了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>已经十个了吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>十个了，意犹未尽是吗？年会挺快的。好，那我们要不最后来预测一下明年，你有什么说到明年你觉得一定会发生的事吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明年一定会发生的事儿，我们公司被高价收购了，这开玩笑，明年一定发誓明年明年我会再老一岁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一定会发生的对，然后AI不能逆转，AI不能让时光倒流。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是人家有可能会研制出长生不老的药，但可能不是明年的事。明明我觉得可能对于模型的发展来说，我觉得可能每一年都会有一个关键词，这个可能对大家的这个职业规划可能会有一定参考意义。就是你比如说4到25年，可能那会儿你做微信language，你做VR做money model。然后25年年底到26年做coding，然后26年这个时候到明年，我觉得得做continue learning。对我觉得这可能是明年起码我觉得我明年下半年之前的一个关键词。对我想还有什么关于明年的预测其实还挺难的。因为在这个时代我觉得一年这个跨度已经非常长。是的，毕竟现在模型迭代都是以周为单位的。Maybe可能明年这个我瞎预测，这不是说我觉得一定会发生，可能真的会有一个在明年真的会有一个来自RSI公司的最强模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇哦RSI的创业公司的最新模型，好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者至少是前沿的一个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>sota级别的。好的，我们拭目以待。好，谢谢谷雨。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，谢谢龚锡老师。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>祝大家新年快乐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>新年快乐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们播的时候应该是11月，我还是可以新年快乐了。可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，拜拜。</p>]]></content:encoded>
+            <pubDate>Sun, 08 Nov 2026 16:00:00 GMT</pubDate>
+            <guid>6af00645b4a4e20202f67440</guid>
+        </item>
+        <item>
+            <title>【年终复盘①】AI带给我的10个Aha Moments｜庄明浩：RSI 来了、AI 的奇观与粗糙、巨头夹缝中的创业机会</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6ae6e230c96c8942ec156ed6</link>
             <description>➤ 「十字路口」2026 年终 AI 复盘系列的第一期来了！
 今年，我们不打算做大而全的新闻盘点（交给 AI 总结就够啦），而是邀请十字路口身处 AI 一线的朋友们 ——创业者、研究员和投资人，分享 10 个真正触动他们的 AI 瞬间。
@@ -8660,292 +8945,6 @@ Claude 推出 Manager Agents 之后，大家还需要自己搭 Harness 吗？
 <p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢科技。</p>]]></content:encoded>
             <pubDate>Sun, 26 Apr 2026 16:00:00 GMT</pubDate>
             <guid>69eb5dfc1d989496e76d373c</guid>
-        </item>
-        <item>
-            <title>把7位黑客松选手请进播客｜冠军、怪才和48小时不眠的野心家</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69e8a1f21e94ae6921e403b9</link>
-            <description>🚥 本周「十字路口」，我们把「小红书黑客巅峰赛」的 7 位选手，以及这场比赛的总负责人散兵，一起请进了播客。
-在这期节目里，你会听到这些年轻创造者介绍他们在 48 小时里做出的产品：
-⊹ 有拿下全场大奖、在决赛现场一出场就引发欢呼的 Pocket Guitar；
-⊹ 有把手机“锁进面包机”，试图用一种近乎荒诞、但又非常当代的方式，帮人找回专注力的“专注面包机”；
-⊹ 有想让 AI 和机器人拥有“自己的脸”的动漫大头；
-⊹ 也有从真实痛点出发、想帮助听障人士更自然表达和交流的特殊变声器。
-➤ 但比产品本身更动人的，是这些产品背后的人，和他们在黑客松现场发生的故事。
-⊹ 你会听到，有人因为童年一次上台失误，很多年都害怕站上舞台，却在这次路演里第一次真正享受聚光灯；
-⊹ 有人说，黑客松的核心主旨其实是“自虐”，但正因为那些高压、混乱、失控和痛苦，创造才会显得格外快乐；
-⊹ 还有人说，比赛结束以后，生活并没有立刻回到原点，整个人还停留在那种持续创造的状态里。
-➤ 我一直觉得，黑客松里过程比结果更重要。
-拿没拿奖，当然重要；但更重要的是，你会在这样一个场里，遇到一群和你一样充满野心、也一样愿意动手的人。你们可能第一次见面，第一次组队，第一次一起熬夜做东西，但很多关系、很多同行、很多未来，往往就是从这种场合开始的。
-我最近很喜欢一句话：年轻的时候要去巴黎。
-如果把它放到今天的 AI 时代，我会说：黑客松就是我们的巴黎。
-因为在一个创造力最旺盛、变化也最快的时代里，你会在这里遇到最高密度的同类——那些想创造、想改变、想亲手把某个东西做出来的人。
-而这，可能才是参赛最大的收获。
-🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、小红书、哔哩哔哩、Youtube 等平台。
-📒 文字版将发布于 @十字路口Crossing 公众号。
-🟢 00:00 小红书散兵：我们要做中国最牛逼的科技赛事
-🟢 03:19 叽里小鹅｜叽里叮当专注面包机：笑死，她来黑客松，把手机塞进面包机
-🟢 07:55 头壳同学Remi｜为世界做动漫大头：黑客松顶流，让机器人&quot;有脸见人&quot;
-🟢 12:59 博文｜Pocket Guitar 口袋吉他：黑客松全场冠军，真正让人想买的产品
-🟢 20:23 罗罗Edward｜Attune：黑客松第二名，设计师做的AI产品
-🟢 24:09 陈锦初｜赛博紧箍咒：这一届黑客松，不只属于程序员
-🟢 28:33 Queenie｜Vibethon 赛码场：黑客松人气王，为什么要&quot;消灭&quot;黑客松？
-🟢 32:16 朋程说语训｜柯南同款特殊变声器：黑客松很短、一生很长，我想现在就开口
-🟢 37:31 Koji：黑客松是AI时代的巴黎
-🟢 43:57 小红书散兵：&quot;在AI时代，我们都是同龄人。&quot;
-欢迎订阅「十字路口」：
-🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
-🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
-👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner（投资合伙人）。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站
-👧🏻 主播 Ronghui：我联合创办了十字路口，在美元 VC 工作过，也做过五年的硅谷驻站记者，关注科技发展和商业故事，欢迎大家找我聊天，和我交流。Ronghui 的即刻</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>这期播客是小红书社区科技负责人伞兵与七位黑客松“黑客巅峰赛”参赛选手的深度对话。嘉宾包括全场大奖得主“口袋吉他”团队、其他获奖项目及未获奖但极具特色的选手，如设计类、AI硬件类、听障人士团队等。核心议题围绕这场48小时极限创作赛事的组织逻辑、选手的创作故事、小黑屋的真实体验，以及小红书社区如何通过“Building in Public”赋能新一代年轻创作者和开发者。</p>
-<h3>关键要点</h3>
-<ol>
-<li><strong>“人”是核心，而非追逐热点</strong>：伞兵解释举办黑客松的初衷，并非追赶技术潮流（如OpenAI活动未办热潮已过），而是找到“愿意创造”和“正在创造”的年轻人。现场200多人的鲜活个性与具体感受，是比赛最重要的价值。</li>
-<li><strong>48小时极限赛的仪式感设计</strong>：比赛以“敲锣”开场（零点）、“打鼓”结束（零点），营造“自虐”氛围。组织方甚至每天发短信鼓励退赛（退赛可得薯条），以激发选手的求胜心和不服输的“年轻人气质”。</li>
-<li><strong>现场组队是“现实版狼人杀”</strong>：选手小鹅（王心怡）描述组队过程的随机性与戏剧性——前一秒还在一起的人下一秒可能“叛逃”。她作为设计师被多个团队争抢，体验了“被抢”的角色。</li>
-<li><strong>全场大奖“口袋吉他”的设计哲学</strong>：冠军叶博文的产品，核心是“以和弦而非音符为中心”。小白无需乐理知识，选定和弦组后用摇杆和触摸即可弹出和谐旋律。他强调产品“灵魂”在于对核心的理解，而非表面功能。</li>
-<li><strong>“以创造为快乐，以不创造而痛苦”</strong>：这是叶博文在决赛演讲中的金句，源自他喜欢的视频制作者。他认为创作过程必然充满痛苦，但专注创作本身就能做出好作品，这也是他48小时几乎未眠的动力。</li>
-<li><strong>“Building in Public”是AI时代最好的杠杆</strong>：选手景初（陈锦初）强调，在AI时代，快速用低成本做出产品并立即在社交媒体（如小红书）上获取早期曝光，是验证PMF的最佳方法。他批评“产品做到完美再发”的错误观念，认为“idea最不值钱”。</li>
-<li><strong>13岁选手与“时代年龄”概念</strong>：现场最小的选手是13岁的“老杨”。伞兵提出“时代年龄”比“物理年龄”更重要——在AI浪潮中，大家接触和使用技术的时间相近，因此都是“同龄人”。这回应了外界“恋童癖”的质疑。</li>
-<li><strong>听障团队的“柯南变声器”</strong>：鹏程团队由听障人士组成，他们的产品旨在通过AI修复模糊声音，帮助正在做言语康复的人（如鹏程本人）更顺畅地与他人交流。他们因硬件烧坏未获奖，但产品初衷和故事感动了现场。</li>
-<li><strong>“放屁垫子”和“水母灯”等抽象创意</strong>：未被大奖覆盖的项目同样受关注，如“放屁垫子”（一坐下就放屁的恶搞硬件）和“水母灯”（监测睡眠状态、需专人守护48小时的结构件）。这些产品体现了黑客松“造大玩具”的非功利性氛围。</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li><strong>东宝老师彻夜守护水母灯</strong>：选手小鹅透露，在Demo Day前一晚，由于“水母灯”产品结构不可移动，工作人员“东宝老师”整晚不睡觉守在旁边保护产品，以防被无意碰坏。这种对选手创作体验的无微不至关怀，是公开报道中难以看到的细节。</li>
-<li><strong>明威的“头套长腿”偶然事件</strong>：选手明威的动漫大头套在比赛现场被其他团队临时借走，过一会儿大家看到这个头套自己“长了腿”到处跑（被安装在机器人上）。这个偶然事件瞬间验证了他“AI需要独特面容”的产品假设——现场观众的即时反馈和围观状态，是他判断需求的依据。</li>
-<li><strong>选手们集体“叛逃”团队的真实故事</strong>：小鹅提到现场组队是“现实版狼人杀”，而另一支队伍的鹏程则描述了团队内部因不熟悉3D打印技术导致模型失败，最终靠其他选手“热情帮助”才成功完成。这种临时的、自发的互助，是比赛紧张氛围下的真实人际互动。</li>
-<li><strong>博文模仿乔布斯的演讲彩蛋</strong>：冠军叶博文承认，他在决赛舞台上从口袋掏出产品的动作，是赛前看到乔布斯iPod Nano演讲视频后的刻意“复刻”。他想致敬那个经典场面，虽然自嘲“很无厘头”，但那一刻现场观众确实为之振奋。</li>
-<li><strong>伞兵透露“退赛薯条”的运营心理</strong>：组织方在比赛期间不断给选手发短信“鼓励退赛”，并承诺退赛者立刻拿走一筐薯条。伞兵解释，这并非真希望有人退赛，而是利用年轻人的“不服气”心理，激发出更强的求胜欲和互相“喷垃圾话”的氛围。</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技，本周十字路口很特别，我们邀请到了小红书黑客巅峰赛的七位选手以及总负责人伞兵。伞兵也是小红书社区科技负责人。你好，伞兵，欢迎来到十字路口。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Hello科技，你好你好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后今天我会和伞兵先聊一聊，就这一次黑客松巅峰赛。你作为组织者？我作为评委和这个旁观者我们的的观察与感受。然后我们会邀请七位选手一一来到我们的博客，和他们聊聊他们的产品，他们的参赛故事。我们今天的选手包括拿到大奖的这个口袋吉他，也包括其他一等奖、二等奖的选手，还有没有拿到奖，但是我私心比较喜欢。好好，第一个问题是想问一下伞兵，就是这个48小时的黑客松颠，我们后面简称它为黑边。就是你自己最开心的一件事情是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我最开心的事可能还是看到这两百多个人。到了现场，我们看见鲜活的人是一个非常重要的体验。每个人的性格，每个人的感受都会变得更具体。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小红书一开始想到要做黑店，是因为什么原因呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们觉得人这件事情在今年变得更加重要，因为去年科技可能也在，我们在做独立开发大赛。然后我们做独立开发大赛的时候，我们认为社区里有海量的需求，我们是希望有些人来看见这些需求和用户对话。但是今年我们感受需求的变化跟技术的变化都是非常快的在迭代和进步的那其实如果我们去追这个趋势，感觉我们筹备做项目和正在做项目的时候的那个周期已经赶不上了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就像open cloud的活动还没做，这个热潮已经过去了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我们觉得可能还是要去找这里面更本质的跟我没有关系的人是谁。然后我们最终看到了可能是这批年轻人和正在创造的这批人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么是一场非常聚焦在年轻人的比赛？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我觉得我们还是在理解今天谁更愿意创造和谁在创造。我觉得很多时候也是从本社区里的一些状态看到，就是确实是一批年轻人、学生或者刚刚创业的一些方面，他们对这件事情的热情和参与度是最高的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这48小时你应该一直在现场。对，然后你现场有印象最深刻的一幕吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一个是敲锣打鼓这件事情，就是我们在开场的时候，4月8号的零点和结束，就是4月10号的那个零点，我们分别是以敲锣和打鼓来宣布比赛的开始和结束。我觉得我们需要给选手一个好的opening的感觉？仪式感就是得有点事儿做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还没参加黑客松就已经来学敲钟了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小说那个敲锣尽在黑龙江。我们当时是觉得可能买个梗都会爆，但是也很冒犯。但是我觉得这种冒犯的感觉跟我们想要的那个黑客松那种感觉是对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有可能有选手未来会说，我人生中敲过两次钟，第一次在参加小红书的那个起点，然后再一次是IPU的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我觉得这种感觉是很有意思的，所以我还是蛮喜欢在现场出现的各种急性的临时的一些事情。这件事情我觉得反而让这个比赛本身变得更鲜活。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，那我们要不就先请第一位选手来加入我们。好的OK。我们今天第一位黑天选手是小额。你好，小鹅你要不要快快的介绍一下自己，以及这次拿了什么样的奖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Hello, 大家好，我是王心怡，然后大家都叫我小鹅。目前的话是北京师范大学未来设计学院在读研究生，同时也是机里呱呱和机里咕咕的founder。然后这一次拿了地瓜赛道的演讲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>地瓜赛道是个什么奖？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我们基于地瓜开发去做AI硬件产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>来介绍一下自己的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们这一次的话主要做的就是哆啦A梦的一个AI小道具，帮助用户在现实生活中找回专注力。在AI时代其实我们觉得最稀缺的不是记忆力，而是专注力。我们围绕着attention is all you need，就是改造了一些哆啦A梦的一些小道具。首先的话就是做了一个记忆面包机。这个记忆面包机的话主要是通过像类似你去烤面包一样烤你的手机，把你的手机给锁住，你和他直接对话，能够以一种打印的物理反馈和你去进行一个交流。有一些小伙伴他们可能会有一些风险，我们还有一个伸出援手的一个摄像头，就是能够不间断的去记录用户。然后通过多模态的一个分析，帮助用户提供一个专注力的一个小报告。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是蛮好奇想要你们组队的时候，那个队伍是怎么组的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现场组队的话还是蛮有意思的，就是你会发现是一个现实版的狼人杀。就是可能在此之前表示自不对的，下一秒可能大家就会跳队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你们其实是有抢人的那个环节和叛逃环节是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没错，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你应该是那批选手也比较易的那一个，就是会比较积极的去抢人的那个人吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是我被抢，因为大家每一个小组都可能会缺设计。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这次参加黑店里最大的惊喜或者惊吓是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实给我最大的一个感受就是小红书对选手的创造的一个体验实在是太好了。让我们所有选手都印象深刻的叫东宝的老师，是他在这四天里面都没有睡觉，在demo day之前的一个晚上，大家要清理现场，他们的一个产品其实是没办法挪动的，然后东宝老师就说让他们先睡，他就是一直整晚就在守护他们的一个产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇塞那是什么产品？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个水母灯，他们因为结构的原因没办法挪动。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为担心其他人不小心在网上碰到了。对对对，所以东宝就守着水母过了一天。那你介绍一个黑边，你自己最喜欢的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>除了自己的那必然是头戴吉他了。开赛之前其实也和博文交流过，当时的话他给我拍了一个小视频，就是在那的空白里去进行弹奏，播放音乐。最后展示的那环节就是啊哈moment的那一刻。另外他最后一个金句，就是我们以创造为快乐，以不创造而痛苦。这可能就是小红书的黑店精神。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有没有什么没有拿奖的产品是你很喜欢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的没有拿奖，那可能就是我支持过的设计项目。对，就是一个水母灯，帮助用户监测睡眠状态，陪伴用户更好休息。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是一个选手，然后你还会去支持其他队伍，这个时候你的想法是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实大家并不是说只是一定要想把自己的东西做好，而是大家也同时在去进行交流，大家能够互帮互助。这个不只是一个比赛，而更多的是大家能够为了创造而去有一个不一样的一个氛围。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这点其实也是我很感动的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我到现在的话可能就感觉生活还没回归到原点，而感觉还是在一个黑客松的一个状态。对我来说是一种创造的激情。对，持续让我去更好的去做我自己手头上的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢小龙。我们欢迎一位特别的选手明威，请明威自己来自我介绍一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:57]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我们做这样的产品，然后我本也是喜欢做这种动漫大头的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们这次有拿到什么奖吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:04]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>这次其实没有拿到，但是我自己内心里，我们觉得黑天人气王。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我们队在自己队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:09]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>在自己心里的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要不要介绍一下你这个产品是什么？我理解参加黑客松应该不是做一个头套就能参加黑客松。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:15]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我们现场带这个头的核心目的是为了让大家展示像这样的产品在人身上已经非常的完美了。我们在现场做的一个是假设这样的产品会带在一个机器人的身上，AI或者agent未来会有自己的身体，他们自己会需要有自己更独特的面容。我们在现场写了一个可以让像龙虾并购我们自己的产品，可以让我们的平台给他去生成设计。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你们参加比赛的其实是一个给agent去下单的，买A型的自己想象当中的自己应该有的动漫头套的一个产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:46]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>的那我们的平台会把它的像图纸，像三年级资产，还有像表面的纹理设计直接完成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还蛮有意思的那这个agent要怎么理解自己的性格和他形象之间的匹配？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:58]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我们写了一个skills龙虾，自己去想象一下自己的样貌是什么样。我们会把这个角色的像五官、眼睛、像睫毛，还有他的眼睛的外轮廓去提取出来，生成一个3D资产。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以已经有agent或者有龙虾真的下单了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:13]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实已经在现场确实有某一位投资人的agent在现场尝试了我们的产品。对在线上对OK下单了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我们没有真的把它对焦到订单系统，因为我们订单系统的复杂度要远比现场的demo的要更高。我们会想象未来的智能会自己来我们这里来下单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好，谢谢你。今天在录播课的这个时候也是明威的生日，黑边的这个组委会也为他准备了个礼物，我们稍等一下，有一个小惊喜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谁看我是飞乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:48]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>这个脸红的真的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:51]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>是有好处。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好。这个明威的本体现在现身了。对，然后想问一下你参加黑边这一次有什么样的惊喜或者惊吓吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:06]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>惊喜是我们现场组成了一个给头壳长了个腿。当时有个小伙伴过来说，你能把头借给我们一下吗？然后过了一会儿，你看那个头就自己整条腿就跑回来了。我觉得这事儿太神奇了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我在小红书上也刷到了好多视频，都在拍那个。然后有个人说我本来昏昏欲睡，然后突然惊醒，总有一个是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且那个赛场是我感觉每次比如说有评委和到一些观众入场的环节，他就会出来开始营业。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:35]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我们过去做动漫头这样的产品，它其实叫譬如如咪，简称为动漫大头。我觉得我们做这个东西，为什么不给未来可能有身体的这样的AI去做一个独一无二的这样的面容？这个事情我觉得还没有人来解决。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我还蛮期待的。就是我们播客之前刚录了一期未来不远家庭机器人，他们是要把这个机器人送到家里去，我理解你们要做的事情是为了让机器人可以自己去下单。然后他下单的时候，因为你可以取到这个机器人他的大脑里面这个agent的记忆和他的喜好。所以他也可以自己给自己定制一个他爱的发型，他爱的妆容。所以有一天有可能早上起来，我家里还是一个铁血机器人，对吧？到了晚上发现他已经带上动漫大头。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你刚才其实提到那个动漫大头和巨身机器人之间的一些七个协同，这个也是你到现场的时候就被那个抽象的状态启发到，还是你本来其实就意思是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:31]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>想本来有很多的执念在这个事情上，其实这个现场的带腿的头，它真的只是一次偶然的业。我觉得这件事足以验证这个需求是真实存在的。并且现场有那么多的人围观，那么多的人看到这个小的东西在动的时候，大家的眼神状态，我觉得它是可以值得去做的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，现在一个机器狗在一个黑客松现场动来动去，已经没人搭理他了。但是如果这个机器狗带上你们的东南大头，又瞬间又成为全场焦点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:57]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>面容是人和人之间产生情感交互的一个最重要的接口，这个是我们觉得我们正在做的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以黑客松除了你们自己，这一次你个人最爱的产品是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:08]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>我记得现场有一个会放屁的那个项目用了，其实我没有赶上去打，这个人比较爱对我看你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>戴上头套在厂里营业的时候，其实是个非常热情活泼的状态。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:24]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>其实面具也好，或者cosplay的妆容也好，或者cosplay全套的这样的产品本身给他带来了一个新的profile，去面向更多人。然后这个profile会得到外部的人来去给你的反馈，是和你本人的反馈是不一样的我觉得这个事儿非常神奇的，或者说这个事是完全的拌演的被交付的这样的价值。对，就是你会有很多的消费，然后你这消费会得到外部的反馈循环会这样的价值较贵，这是我们在探索。我就发现我们带过之后，外部的反馈和我是一个这样的人的反馈完全不一样，而且你会享受到那样的快乐，这个是独立晚会的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>上一个你有认识什么新朋友吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这一次确实就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:03]</strong> </span><span class="speaker"><strong>发言人5: </strong></span>这些机器人厂商在现场，我们进行了很好的鉴别。确实在现场的观众的反馈是他们在过去的话没有太意想得到的，足以验证这可能是一个新的价值点，值得去探索的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们接下来这位选手就是全场冠军得主。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:23]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>Hello大家，我是叶博文，然后我是一个学生，是个独立开发者，这次拿了小黑店的全场大奖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>介绍一下自己做了什么产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:31]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我们做一个用来感受音乐氛围的类吉他便携式设备，我们叫做guitar。你可以选择和弦组，然后用摇杆可以切换和弦，然后用手触摸这些嫌就能发出声音。我还要谈一下你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要弹一首。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:45]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>什么风格呢？就随便弹吧。这还是我昨天刷抖音刷到一个小曲子，然后我就是随意的去改变这个氛围。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:02]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>就你偶尔弹错其实也无所谓，然后我可以再弹一下之前台上弹的那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是有基础的对吧？对于我们这样没有基础的人可以玩吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:36]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>可以可以，其实我没什么基础，每个人都可以玩。因为它在一个和弦内的时候，不管怎么弹都不会弹出特别让人难受的点就它都是很和谐的。然后你提前配置好了，怎么看都不会来得及。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我试一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:52]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>随便玩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，OK也可以正着弹可以反着弹反着弹，反着弹也可以。是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉自己还是有点艺术细胞在身上，我觉得让所有能让人自我感觉良好的产品都是很好的对，然后这一次参加黑店里最大的惊喜或者惊吓是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:16]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>最大惊喜就是拿了奖。然后我觉得更开心的是路演的时候，我以前是一个非常恐惧舞台的人。我小的时候就是因为上台表演，然后失误了，被大家嘲笑了很久。然后从那之后我都只要涉及到上台事情，我就会一直非常紧张，全身发抖，就是无法控制内容。这次的话依然还在手抖腿抖，但是很享受在舞台上的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:42]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>比赛前的那天晚上，我看到那个乔布斯apple nano的演讲，这太帅了。因为他也是从口袋里面掏出那个apple ano，然后全场欢呼。我想布克一下这个场面，所以我又想到一个梗，就是为什么我们有两个口袋，然后再从口袋掏出我的设备。虽然这个很无厘头，但是其实我觉得还是很帅的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是很经典的一幕。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那刻全场就已经对开始振奋了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要不要介绍一个黑DN这一次你自己最喜欢的产品，就不能说自己的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:10]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我比较喜欢皮克斯那个台灯，他们内容和展台还有氛围做的都非常好。只要你们去那个展台就会发现当中周围的所有人完全不一样。它就像在一个真的一个艺术展上，它是有一整套的视觉语言和品牌语言在里面。所以我其实也为他们感到有些可惜，我觉得他们作品非常好。但听说是当时早上太早了，不小心碰坏了，然后就没法现场演示。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我对你的那个团队很感兴趣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>其实我组队的时候就是在群里面找人聊我的想法，其实大部分人好像都不太感兴趣。然后那个女生他是在芬兰大学赛前的时候，我们找一个时候聊了一下，就感觉挺契合的。然后他正好有一个好朋友，他的好朋友是在美国读music tap，我觉得太好了。因为我不懂合成器，然后包括粤语我只是略懂一二。他就是非常专业，就把它一块喊过来。然后还有另外一个开发的同学，也是之前就认识。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个产品里边有很多艺术设计的部分，也有很多产品的部分。对，也有很多工程技术的部分，是你自己给自己比例一下，你觉得你这件事情是几比几的一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:24]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这是不是有点装逼？但我觉得我是六边形战士，我觉得我还是挺均衡。从技术角度来说，这项目要用到的技术栈，我其实都还是挺熟练。然后再从设计上来说的话，其实这设计大家看到的话也能感觉到，其实它是有一些TE的，然后设计也是几乎是我来主导的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>李琦在最后决赛在演讲的时候，有一句话，好多人也说印象深刻，那句话叫什么？创造因为创造而快乐，后半句是因为。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:52]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>难以创造而痛苦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你怎么想到这句话呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:56]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>这不是我想的，是我很喜欢的一个视频制作者他发的微博，我看到时候就很受触动。就是你在创作的过程中，你肯定会有很多痛苦。但其实本质上你只要专注于创造就行了，不需要考虑别的，你就能做出好作品。我觉得就这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>心无旁骛的创造。是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:14]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>你的创造过程肯定是有很多痛苦的。但是也正是因为这些痛苦，你才会因为我快乐，所以因为创造而快乐，因为创造而痛苦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>蛮有哲理。这次黑客松很多人都说自己没怎么睡觉，然后我好奇你睡了多久。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:28]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我第一天12点开始后我就没睡。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那最后演讲的时候怎么还有那样的能量？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我演讲前3个小时去了大概2个小时左右。对，醒来就开始写稿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这次黑客中有什么你意想不到的惊吓吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:43]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>打在眼眶惊吓，我可以说那个头壳加那个机器人很雷人。就是你要是大半夜看到有一个东西的那种画还挺恐怖的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不对，这次当你那个演示完了之后，我收到的最多的信息这个能不能卖？哪里买？我想问问就是你的这个口袋吉他这个产品是有量产的打算。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:09]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>我现在其实挺想做，但我觉得不光这个产品，我其实更想做一个做一个品牌。就可能说你在中国做一个像漆一样的公司，用它的设计还有审美的溢价去达到一个品牌。对，不光是产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你担心被抄袭吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:26]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>抄袭是无法避免，但我觉得影响不大。就是一般抄袭的人都是后来者，后来者只能抄你的表面，还抄不走你的灵魂。但是我这产品还没有正式发售，所以也不好说。一般来说就是你在产品发售之前是不会有什么动作，我觉得可能情况比较特殊。如果按照往常的我的经验来看的话，就是后发者一般是赶不上第一个做出来的人，就是他们的心态还有这个思考为妳扭曲，一旦太超了，他就没法灵魂不但在产品上，对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是我的感觉，所以加油早点发布。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就很好奇你刚刚提到灵魂，你觉得现在这个产品的灵魂是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:06]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>现在吗？现在我觉得就是对核心的理解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对和弦的理解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:12]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>因为在之前的所有的音乐或者是乐器，它们是以音符为主。那以音符为主的就代表了一个小白，他必须得知道怎么去弹一个和弦，他才能弹出一个比较和谐的音乐。但是我们一开始把和弦做好，所以他只要一上手就会觉得我居然也可以搞出这样的氛围。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个好像就是珂姐刚第一次体验的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对那个那个感那个感觉是的。好，我们接下来这位选手是Edward，他的项目叫阿to。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:46]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>我之前是一个搞过艺术的设计师，现在在合伙AI不独立开发中。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>合伙AI不独立开发，因为大家都。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:53]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>经常说独立开发的人，其实我也是一个人，但我可能我和AI就不再是一个独立开发的状态，而是一个团队在一起。AI是你的合伙。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好，然后你这次拿的奖是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:05]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>软件赛的二等奖，我们的产品叫atom，然后它其实名字来源于attention。这个时代注意力很重要，我们更加要强调的是注意力的交互界面。我们就希望能不能根据用户的注意力，然后动态的来调节或者重构这样的一个网页。我们可以把它缩减到只看它聚焦的那部分，从十个聚焦到他可能只需要注意的那么2到3个。我们做了这么一个交互界面动态的重构。网络对网页有很多的一些按钮，其实不是所有都是用户此时需要。那这个时候我们就在做一件事情，就是把所有我们认为用户这此时他需要的一些交互按钮放到他要去比较方便。同时我们还会尝试去猜测用户意图，然后把这些意图也转化为一两个按钮。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们参加黑店这一次最大的惊喜或者惊吓是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:48]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>看到大家实在是又惊喜又惊讶，又看到00后的大家们非常的有活力，超级有活力。无论是群里面也好，还是见到人打招呼的那个表情也好，还是大家晚上的很晚了，然后在那里非常激情的讨论，我觉得这是又惊喜又惊吓。我们团队算是之前大家其实都是各自在做自己的独立开发的产品。然后之前是因为喜欢对方开发的产品，大家就说有机会一起合作一下。其实这次黑客松是第一次的一个合作，现场最惊吓的就是其实我们现场提前并没有想好任何的想法。然后我们可能政治过了十几个小时，我们各自都有自己的idea。最后用的方式是每个人做了自己idea的一个demo。然后我们有点像内部评比demo的形式，互相体验一下对方的demo。最后我运气比较好，我的demo被选上，所以其实我们只花了可能后面二十多个小时的时间，才真正的去做最后的那个想法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以确实有了coding之后，这个idea变得更重要了，做可以变得更快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，是的，你们这个听上去很像一个强者战队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:51]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>对，大家有一些idea发现口头的讨论大家很难有一个明确的画面。感觉说其实玩的都这么快。那我们可能就每个人给大家20分钟到30分钟的时间，每个人快速的跟AI出一个demo，然后通过这样的方式来选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你刚刚说的那个画面，我觉得还蛮像今天时代中出现的一个缩影。当大家有很多idea出现的时候，来进行PK，最后胜出的其实是审美最好的设计师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:17]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>大家其实今天都还是挺在意设计这件事情的，无论是像OpenAI SA rock这样的公司，他们也会请非常专业的品牌设计团队，尤其是小红书这样的地方。首先一个视觉好看的产品一定是会受到更多关注的。对于设计师来说，我觉得是一个福利。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>介绍一个你在黑店最喜欢的产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:37]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>不能说自己的全场大奖，其实我也想推荐到。我想从另外一个角度来谈谈这件事情。我在小红书上其实翻到了他们几个队友的小红书，其实都是很有艺术风范的设计师。看到那小红书其实有时候就能反映出来这个人背后能做出什么样的作品。其中有一位其实就经常在自己的小红书上搜他的做的一些合成器，做了一些有趣的在音乐方面的一些探索，最后积累成现在了全场大奖的一个作品上。它就很好的体现科技和人文的这么一个结合。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们更觉得自己是一个same time的产品，还是觉得自己是kill time的产品？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:12]</strong> </span><span class="speaker"><strong>发言人8: </strong></span>我们觉得时间不一定是最关键的，你最重要的注意力放在了最值得你花注意力的地方，它在背后是某种程度上提效的。对他不一定节约了时间，但他一定是为你的最终结果提升了有一定的价值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Hello, 我们接下来的一位选手在线上接进来。景初，你好景初要不要先自我介绍一下？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:36]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>Hello科技，我是Andrew陈锦初，全平台都叫这个名字。我是一个联系创业者，从高中的时候18年都在一直做项目。然后最有名的一个项目是叫instagram，一个碰一碰加好友的项目。然后最近沉迷上了这个coding。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们在这一次黑店拿到了什么奖？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>在小红书黑客松拿了一个特别小的一个奖，一个细分赛道的一个地刮奖。对，地瓜，因为他们sponsor我们那个电路板。对，然后我们做了一个自律神器，就是我们脑袋上别着一个摄像头。完了如果这个摄像头捕捉到，你说做了一些不自律的情况，比如说你抽烟、喝酒什么的，我们这后面还加了两个电极片，然后发现你不自律的时候，它就会电你，他就放在这两个脖子后面。对，然后反正就做了一个很抽象的这么一个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:25]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>好奇景出。你对现在比如说现场选手的那个年龄，或者是大家状态的那个感觉，有没有什么跟其他黑客松不太一样的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:35]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>反正这次观察下来，就是感觉大家都变年轻了。因为其实我参加黑客松也非常多次了，大概从20年到现在得快20场。可能一开始觉得我自己年龄比较小之外，就是现在我突然觉得我自己不是那么小，现在都已经有什么10后来参加这些活动了，反正年龄上是最直观的一个感受。另外一个感受就是我感觉虽然大多数人可能还是CS major，专门学coding的，还是占大多数。但是我发现越来越多的这些non coder，他们来参加黑客松的人数也是越来越多的对，所以这个是我明显这一次黑客松，另外一个比较直观的感受。然后另外一个就是大家做出来的东西都比之前更有人味，不是像之前可能做的一些比较这个hard cortex的一些东西。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更有人味儿了。所以现场你最喜欢的产品是什么？除了你们自己。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>我印象最深的一个项目是放屁垫子。那个项目就是你一坐下，然后他就可以开始放屁，放那个声，我觉得特别搞笑，特别也挺抽象的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>不过想问景初，因为你自己也是小红书的博主，然后你就觉得今天不管是做博主还是作为选手，今天这个感觉有什么不一样，或者是要有什么相通的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:49]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>小红书这次黑客松是我第一次以这个博主的身份去参加的对，然后一进去之后很多人认识我，我觉得挺surprise，而且感觉也不错。因为我享受这种跟大家交流，然后比较享受这些attention的，所以我很开心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:06]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>对你需要给还没有building public，或者是准备在小红书里做这个科技相关的账号的同学，你会给他们一个什么建议呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:16]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>我觉得building public是这个时代，尤其是做AI产品最好的一个leverage。因为你现在做一个AI产品的这个成本非常低。你如果能很快的去把这个东西做出来，然后你又能去用自媒体的方法去获得早期的曝光，你可以立马验证你的PMF。如果有traction，那你就继续做。如果不行的话，那你就立马换一个方向继续做下一个项目。我觉得这是一个非常好的一个方法。然后不用觉得说OK现在就是你怕朋友刷到觉得自己尴尬什么的，就是你如果觉得这个不行的话，你就赶紧目光呗，没有什么不太好意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>对，然后呃我有很多朋友，我觉得就是顶级天才那些。他们做的产品我觉得非常有意思，比我做的要好很多。但是他们就一直不发，我就说你为什么窝着不发他们这么好的产品？然后他们就说，我一定要把这个产品做到怎么怎么好，他才发。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:09]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>我觉得这个是现在这个时代最错的决定。因为你的这个idea其实是最不值钱的。然后你如果不发的话，很可能就别人给你想到一个idea，他可能先发了，你就再也没有这个机会去发出来了。所以我觉得这个是最应该去做的一点。尤其是去年买coding火了之后，我能明显的感觉到我现在都把小红书跟什么其他这些社交平台都比对成这个APP store了。我觉得他们现在是最好的distribution channel。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:39]</strong> </span><span class="speaker"><strong>发言人9: </strong></span>你拿这个东西去做分发，那真的是非常便宜，非常牛逼，而且能帮你自己做跟埃批的一个事情。我觉得这个真的真是生在好时代了。对对对，反正大概就是这样的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们下一位选手是昆迪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:56]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>大家好，我叫昆妮，我是一个早期投资人，平时被在新加坡。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你这次拿了什么奖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:02]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我这次拿的是黑店人气王奖，好像是大家内部的选手票选出来的一个结果。我这次做了一个产品叫vipon，他是一个人人都可以发起并且参加的一个web coding线上比赛。就是比方说你可以发起自己想做的一个topic，然后你可以设置人数、时间，甚至是奖金，然后就可以在线上开始直播你整个web coding的过程。同时有很多的观众他可以进入到赛场，可以发弹幕，体验你的产品，提出很多的建议，最后可以投票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:40]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我想做这个产品的原因，其实是啊我个人非常喜欢VIP coding，然后也非常喜欢hackton这种形式。因为我从里面得到了非常多的乐趣，我觉得是一个非常沉浸式的创造的一种模式。所以我就想把这两件事情介绍给所有人。所以我想说用这样的一种模式，它有点像一个小游戏，可以大大的降低大家进来体验的这个门槛。所以我觉得是上到老下到小都可以参与的一件事情。我觉得还挺挺开心的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>参加这次黑客松，你自己有没有一些惊喜或者惊吓的故事？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:19]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我觉得整个黑客松的体验从一开始到结束，对我来说都还挺奇幻的。我第一次见到规模阵仗这么大，而且这么精心筹备的黑客松，我就觉得很多细节让我觉得非常的耳目一新。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现场有一些什么让你印象深刻的命吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:38]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我自己觉得最能够relate还是48小时给世界造一个大玩具。因为我觉得很符合我参加这个比赛的一个心境，因为我觉得我也是来造一个玩具的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:50]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>你们是有这个打算吗？真的自己办一场这个活动吗？真的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:55]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我们已经有这样的计划了。黑客松结束了之后，我们每天都在日一夜的完善这个产品，然后希望能早日上线，希望能够在两周内可以上线，在五月份举办各种线下的榛的来访，然后要来邀请大家来参加。可能会在新加坡，还有在上海IPO .</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>one会是一个随时随地可以打吗？最后有大奖的概念吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:20]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我们这个平台是24小时，而且是我们现在做的多语言的版本。所以任何人在世界的任何的角落，任何时间都可以来发起一场比赛。然后奖金的话是目前我们的规则是由host来设定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>听起来很好玩。你们是一对一还是多对多？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:37]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>目前的话我们现在选的是六人以内。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那谁去决定最后第一名是谁呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:44]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我们现在想的是有两个方案，第一个方案是如果是由host发起，host的可以来决定他最想把奖金发给谁。然后还有一种方式就是由现场或者说直播的观众来投票。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:56]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>我想问问queeny，就是全场除了你们你最喜欢哪个产品？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>除了你自己最喜欢哪个产品？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:01]</strong> </span><span class="speaker"><strong>发言人7: </strong></span>我其实还挺喜欢降噪口罩那个硬件的项目，因为我觉得这个idea非常幽默，一个降噪的口罩同时里面内置了麦克风。所以当你在跟AI讲话时候，在公众场合你也可以放心的。因为我有这样的需求，我一天到晚跟AI讲话，然后我也不想影响别人，同时让我也非常想买给我的日本朋友。因为我觉得他们可能比我更需要，他们特别在意可能在公众场合打扰到别人的这件事情。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，谢谢。好，我们接下来的选手鹏程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:40]</strong> </span><span class="speaker"><strong>发言人10: </strong></span>大家好，我是李鹏程，来自北京，主要是做聋人言语康复的业务。然后我是鹏程的手语翻译，主要是帮助鹏程做翻译和沟通的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们这一次拿到什么奖了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:55]</strong> </span><span class="speaker"><strong>发言人10: </strong></span>我们这次作品因为硬件烧坏了，然后现场翻车了，所以就没有拿到任何的奖项。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但很多人都提到你们的产品，觉得印象很深刻。那也麻烦你们来介绍一下自己做了什么产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:09]</strong> </span><span class="speaker"><strong>发言人10: </strong></span>我们的黑客松作品是柯南变声器，主要功能是通过AI修复模糊的声音。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:17]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>因为鹏程那边是我印象很深的一个选手，我一开始是好奇的过去，然后走过去之后发现是整个团队的同学都是听障人士，让他们做的产品是为了让比较模呼的发音能够被转换成就是正常的表达。说出来，我第一反应是很感动的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人10: </strong></span>我自己跟口味康复医疗沟通的时候，那个医生说我可能需要用十年甚至用一辈子才能学会说话。但是我不想把我的人生都耗费在康复上，所以我们公司开发了一个AI语迅的KAPP，降低康复的成本。但是所以说画的过程中发现了一个问题，就是我在说话的时候，别人总是听不懂我在说什么，总是会打击到我。然后我不能因为这些事情而断掉我的康复之路，所以我就想到开发了一个项目，就是可不可以在我还在康复的这个阶段，说话不清楚的时候，还可以能够帮助我与别人顺利说话。所以这就是我们这次项目柯南变声器的灵感来源。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们这一次参加比赛有印象深刻的一些惊喜，或者出乎你们意料的故事吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:39]</strong> </span><span class="speaker"><strong>发言人10: </strong></span>在第一天的时候，我们小组有三个人，我负责是技术，董菡是负责沟通，还有另一位小伙伴是负责设计。但是他对单体打印技术不熟悉，最后打印失败了。然后现场的选手看到我们遇到这些问题之后，他比较热情帮助我们去解决这个问题，成功做出了一个3D模型的一个产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>除了自己的产品之外，最喜欢的产品吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:08]</strong> </span><span class="speaker"><strong>发言人10: </strong></span>香菇肥牛项目的他们做的是一个金箍圈，然后用这个意念来去控制这个轮椅。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:18]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>以后会想把这个产品真的做出来，然后上市，会不会有这样的想法？</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:24]</strong> </span><span class="speaker"><strong>发言人10: </strong></span>是的，希望比赛后继续把这个产品完善。等到后面如果真的能开发这个产品的话，我就可以通过这个产品自己上台去演讲。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常好的，很期待能够看到这个产品发布，也能够看到更多的人用上这个产品。我们和七位选手都聊完了，然后我们再来聊一下我们俩就是我们说作为一场播客马拉松叫波克松。聊完之后好几个人都提到，他们认为这个黑客松的现场的氛围很特别。所以你们在一开始设计这个现场氛围的时候，是有哪些关键词？</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:02]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>我觉得第一个词还蛮常见的是创造。就是我们希望这个web是一个能够激发大家创造力的一个地方，而不是一个死气沉沉的比赛现场。我们现场有很多解压的这些小工具，然后有些密码，有些梗图，我觉得都是为了激发大家的创造力，让他不要把这里当做一个特别死板的地方。第二个也是我们想要营造的氛围，就黑客松可能它核心的主旨是自虐，就是要把自己逼在一个环境里。有限的时间，有限的工具，有限的这个人来去解决一个非常难的问题。所以我们现场包括像倒计时，包括像开始和结束的仪式帐篷，住在那儿，我觉得都是为了让大家有一种，我是来这里找虐的这个感受，我觉得当这种激发创造力和找虐的感受放在一起的时候，我觉得这个化学反应还蛮有意思的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现场还有一个选手给我说，你们会每天给大家群发短信，鼓励大家退赛，并且说此刻退赛立即拿一把薯条走人。是是是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:04]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>为什么要做这个设定？是因为这个跟我们想要的那个自虐的感觉一样，就是你是不是忍不住了，就是忍不住出去就可以有甜头可以尝。我觉得更多的时候也是在调动起大家的，比如说一些求胜心，然后一些我不服气，我觉得年轻人上是有很多这样的气质的。然后当这种气质更多的被调度起来的时候，特别有意思。而且最后那个效果不是会因为那个退赛，而会变成大家互喷垃圾话的时候的一个环节。你要么去拿一碗薯券，是这样的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以真的有人退赛吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:38]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>其实没有，其实没有，大家都忍住了，我感觉我们一百薯券的这个福利还是太低了。下次可以这个bar拔的再高一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>变成100万。是然后第二天没有选手了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:49]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>所有人都退赛了。是对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我注意到其实这一次很多选手在参加比赛的时候，就已经开始在小红书发笔记记录。他们比如说还没开始到现场，我还在高铁等在飞机上就开始已经在记录，然后在build in public，你们会特别鼓励大家，就是做什么样的building in public。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:08]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>就拿这次黑客松来说，我觉得我们更多的是希望大家更有创意，更有从自己的需求，自己的身边出发。因为我觉得过去其实很多黑松它的主题背后还是围绕创业。但我们这次的这个黑客松更多的是想让大家看到一些年轻builder的面貌，和一些更天马行空的想法和创意。所以我觉得这是我们小红书想要鼓励的部分。作为一个平台，我们如果没有那么功利的要求的话，那building public的部分就会觉得非常有趣、有创意、有想法。我觉得我们平台的想象和其实黑客松带来的这个效果，我觉得可能是一致的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你有注意到从什么时候开始，小红书成为了大家building in public的主要平台吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:52]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>从我自己很有感受，确实是从去年做完独立开发大赛之后，很多人试着在小红书发自己的产品。因为去年的时候我们就在讲，这里有很多验证你PMF的这个机会，然后在那之后又有了MA然后MA之后我们就发现真的很多大神，然后很多同行，很多厉害的人在这里。我觉得building public的两个部分，一方面我觉得是为了找需求，找用户，另外一方面也是为了交流。其实在去年这两件事结束之后，越来越多的人在小红书去做这个building public的尝试。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这和时代有关吗？2026年就是为什么building public突然国内外都火起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:33]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>跟时代特别相关，因为我们现在在聊ideas cheap，就是它cheap在哪里？就是因为生产力太丰富。就是你所有的想法可能一两天内，就像我们这个48小时，也就能做出一个非常完整的demo。所以在这个前提下，我觉得你怎么让你的产品更早的去找到你的用户，更早的沟market去吸引人我觉得这些部分还是蛮重要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小红书上面现在确实蛮活跃的，有各种创造者和创业者。可不可以讲一讲这个大家看得到有一些你们做的活动或者这个事件，但是可能看不到的是你们在背后一些运营动作，这个有一些可以分享的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:15]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>我们还是做了蛮多去激发大家创造的一些想象。这种比赛然后是每年的一些大项目可能是最集中的想向大家展示这件事情。但是很多时候的储备更多的是要做一个，比如说智能硬件这样的选题的时候。我们更多的是在找谁更能代表我们想要的这样的maker的气质，然后谁更能代表我们building public的作者。我觉得在选这些人的时候还是植入了不少我们作为运营或者作为平台方的意志的。因为我觉得这里面最难去甄别的还是大家的意图。我们的筛选主要是在找到是真的在创造和真的想要去创造的人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我自己也天天刷小红书，对吧？然后也刷到了非常多的独立开发者也好，或者AI创业者也好，我相信你也一样。但在你刷到的那么多人里面，有没有哪一个是你印象特别深刻的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:08]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>这次的参赛选手里13岁的一个小朋友，然后在小红书里教他编程，在黑坑现场还很有意思。大家教他的是老杨，就是一个13岁的小朋友，大家叫他老杨。然后包括像张震瑶这叫小天才，来了之后叫的是姚哥，姚哥来能解决一切。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在未来你希望大家在提到小红书黑客巅峰赛的时候，你希望大家怎么描述他？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:31]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>我希望大家聊到全中国最牛逼的科技赛事，第一反应是小说黑客松巅峰赛，这是我们做这个赛事一开始的初衷。因为我觉得选择黑客松还是选择其他赛事，在我们的视角里更多的是啊我们想要放大什么。但我们最早的动机依旧是想为中国去提供一个顶尖的科技的活动。因为我们看见的很多科技活动，更多的像展会或者是这个我们自己觉得还是比较传统和老式的，但是我们觉得其实真的在创造的人就特别年轻，00后、10后，他们更喜欢什么？他们的面貌怎么在另外的场景下被呈现出来是重要的，所以才有了黑客松这个壳。但我们真正想做的是确实那件事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以接下来最想做的一件事情是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:27]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>我觉得有两个方向。如果是回到社区，我觉得这是我们是等于又把我们想要的这群人的样子告诉了大家。然后我们希望有更多这样的人能长出来给大家看见。但另一层面就是我们的野心，我们是想做全球最好的科技社区。我觉得这个和去年说的时候就还是蛮不一样的。去年还是小小的，比如说我们要做最好的科技人的朋友圈，对吧？那今年可能我们野心会更大一些，然后我们也希望这个速度可以来得更快一些。那从更大的项目上，我们觉得如何做出一个比肩全球影响力的大型的项目，可能也是我们后半段要去策划和筹备的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，最后一个小问题，就是我看到现在大家在心中黑天的时候都会说他非常的年轻。然后也有一位14岁的选手在决赛演讲的时候说我是我们团队里面最老的对，但也有一些声音就是说大家这个嘲讽创投圈一直叫打个引号恋童癖比喻。就是说大家好像都沉迷于去歌颂这些年轻的甚至年幼的开发者。你怎么看？为什么你们要这么强调年轻？</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:38]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>我觉得年轻只是一个大家蛮好理解的词，就像现场其实曹曦也提到，在这个AI时代，我们更关注的是时代年龄，而非物理年龄。其实之前有一个小的采访，陈静初和老杨还有我们三个是坐在一起的。我们是三代人我是90后，然后00后、10后。但是其实我们发现大家接触AI使用AI和应用的时间是差不多的。所以更重要的是谁在这个场景里，对一个新的技术浪潮来的时候更敏感，进入的更早和对他更感兴趣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以在AI时代我们都是同龄人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:19]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>对我们都是同龄，甚至有可能我是更稚嫩的那个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实黑哥说我一直觉得过程是比结果更重要的对，最近自己很喜欢一句话，叫做年轻的时候要去巴黎。为什么这么说呢？就是因为你在这个文艺的黄金时代去巴黎，你可以遇到最高密度的和你一样充满野心，想要创造，想要有所改变的人是我觉得这个黑客松就是AI时代的巴黎。因为在这里你可以结识很多的同类，然后在你未来的人生里面和大家同行，这可能是参赛最大的收获。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:50]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢伞兵，也谢谢今天我们前面来了各位的选手。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:54]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>谢谢科技。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢科技，明天再见。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:57]</strong> </span><span class="speaker"><strong>发言人6: </strong></span>明天再见，拜拜。</p>]]></content:encoded>
-            <pubDate>Wed, 22 Apr 2026 16:00:00 GMT</pubDate>
-            <guid>69e8a1f21e94ae6921e403b9</guid>
         </item>
     </channel>
 </rss>

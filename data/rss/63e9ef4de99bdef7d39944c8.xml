@@ -4,7 +4,355 @@
         <title>AI炼金术</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/63e9ef4de99bdef7d39944c8</link>
         <description>关注 AI 带来的本质变化和商业机会</description>
-        <lastBuildDate>Fri, 06 Nov 2026 08:46:53 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 08:29:51 +0800</lastBuildDate>
+        <item>
+            <title>AI 用得太好，怎么反而升不了职？｜对谈超线性学院鸭哥</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6af29fa1b4a4e20202f7860a</link>
+            <description>AI 用得太好，会发生什么？鸭哥的答案有点扎心：老板会把你当成 AI 用。「因为我 AI 用的太好了……你不是他一个大脑，而是一只手。」
+可在家里，鸭哥是另一副样子。他用树莓派拍院子里的松鼠，拿辣椒水喷来偷吃的浣熊，给门口那段看不见来车的坡装毫米波雷达（还在调试）。最近他又让 AI 同时盯着一百个左右的直播间，初衷是「给我推荐小姐姐」，结果越研究越深，最后给主播做了一套 CRM。任鑫当场没忍住：「你连看美女跳舞都要把这事儿委托给 AI？意义在哪里？人生的目标在哪里？」
+这期想聊的问题是：AI 让我们越来越能干之后，这些本事最后变成了什么？鸭哥是超线性学院联合创始人，做了 20 年 AI 研发。我们从他家里那些「高射炮打蚊子」的小项目聊起，聊到他那条全自动的 AI 新闻流水线怎么自己进化，他为什么只管验收和拍板，同时开很多个 AI 为什么不会乱；再聊到 AI 让他失眠，一份几百个变量的回归分析反过来劝他「少用 AI」；最后落到职场：AI 用得越好，越要留个心眼，岗位没了到底是不是坏事。
+【本期嘉宾】
+鸭哥：Superlinear Academy 联合创始人，哥大 PhD，20 年 AI 研发，前微软、Pinterest、Samsara
+【本期亮点】
+→ 让 AI 替你看直播，最后看懂的是一门生意
+鸭哥嫌 B站推荐太烂，「给我推的十个里面有九个小姐姐我都不喜欢」，于是让 AI 全天候盯一百个左右的直播间，掉线了还会自己找新的。加上实时语音识别以后，他「被带偏了」：大哥为什么打赏，为什么有的主播就是比别人厉害。他联系上主播和运营，帮她们复盘话术。他说这件事真正的乐趣是满足好奇心，「搞清楚这个商业领域到底是怎么运作的」。
+→ 做硬件，先让 AI 写一个模拟器
+软件里 AI 能自己点按钮，硬件得你上手点，人就容易沦为 AI 的手。鸭哥的办法是先让 AI 写模拟器，用电脑发指令去触发原本靠物理按键触发的逻辑，再读 log 看对不对：「如果它能自己点，然后它自己出 log，它就可以完全闭环。」他车库门那个 ESP32 上的神经网络就是这么做出来的，他只管最后验收。
+→ 想让 AI 写得像你，提示词不够，得 fine tune
+鸭哥的新闻站每天由 AI 先调研出五个题目，他挑两三个，AI 写完再自己分发、做切片。为了去掉 AI 味，他试遍了提示词都不行，最后把自己几百篇文章喂给通义千问做 fine tune，在一张 5090 上跑了一两个小时。巧的是造数据的办法：先让 AI 把他的文章改写成 AI 腔，训练时输入 AI 文章、输出他的原文。他的解释是：「这本质上是一种内化。」
+→ 我只管两件事：怎么验收，和关键的技术决策
+鸭哥说他和 AI 的关系「像老板跟秘书之间的关系」：双盲测试是他定的，用什么方式验收由他拍板；显存不够怎么办这种事，AI 自己管。他家有一台 24 小时不关机的 Mac 跑着 AI，他用自己写的手机客户端，躺在沙发上用语音跟它说话：「同样是一分钟，我语音识别可以跟他 BB 一百字。」
+→ 同时开很多个 AI 不会乱，因为让 AI 去找 AI
+任鑫说自己同时开 N 个活，经常忘了在干嘛。鸭哥的做法是给 AI 一个 skill，教它怎么找到另一个会话、怎么给它发消息：「你有另外一个 AI 在做这个，你就找那个 AI 跟他协调一下。」它真的会去找，两个 AI 就聊起来了，能并行的并行，不能并行的排队，有时还会自己达成协议。
+→ 系统能自己进化，是因为把一百次犯错摆在它面前
+AI 一犯错你给它一巴掌，它就矫枉过正，下次什么都来问你。鸭哥的 context infrastructure 把以前所有聊天记录攒下来，让 AI 反思时看的不是这一次，而是以前一百次同类的错，从里面看出脉络：什么情况该停下来问人，什么情况自己往前走。「这其实也没什么神秘的，因为我们自己也是这样。」
+→「只要学得够慢就不用学」，这话对一半
+鸭哥认这句话：早年给 Cursor 自己搓的搜索后来被官方吸收，白做了；当年没去啃 LangChain，反而躲过一个坑。但有些东西一直有用，比如 evaluation，比如别把键盘从 AI 手里抢过来，而是补上它缺的 context。还有一个转变：「现在要去做一个出题的人，不要再做做题家，做题家一点前途都没有，卷不过的。」
+→ 最能预测你今晚睡得好不好的，是你最后一次用 AI 的时间
+鸭哥一度严重失眠。他让 AI 把苹果手表的数据导出来，做了一个几百个变量的回归分析：「咖啡不是原因，酒不是原因。」最能预测睡眠的，是当晚最后一次用 AI 是几点，越晚睡得越差。「他作为一个 AI 跟我说，你要少用 AI。」他照做了，两个星期后平均睡眠时间多了 1.4 个小时。
+→ AI 用得太好，老板会把你当成一只手
+鸭哥先说清楚，这个故事不是说公司不好。因为他交活太快，老板不再精挑细选，五个活全丢给他，最后看哪个成了再往下做。产出很高，但零散，讲不出一个有影响力的故事；老板对他的印象也变了：「你不是他一个大脑，而是一只手。」他的提醒是：拿着 AI 往前冲的时候，「要留一个心眼」，你最有价值的是脑子，不是手上的 AI。
+→ 寿司学徒先煮两年饭？电饭锅来了，这一步本来就不该存在
+担心岗位被 AI 砍掉，鸭哥的观点「可能比较偏激」：学设计的朋友进了公司，每天就是在 Photoshop 里当操作员，做 data scientist 的天天写 SQL，「这种岗位没了就没了呗」。学徒捏寿司前要先煮两年饭，现在电饭锅煮得比你好一万倍，「低级的程序员、设计师、寿司学徒本来就不应该存在」。他也承认短期会有阵痛，但「不管有没有 AI，都不要把自己的竞争力压在这样的低级的工作上面」。
+最后请鸭哥给一条建议，他只说了一句：今天把 WorkBuddy 装起来，找一件你一直觉得自己做不了、或者 AI 做不成的事，「不用去觉得，就真的去做」。
+【时间轴】
+00:00 冷开场
+00:49 片头曲《几时休》
+01:00 车库门老忘关？他直接拿单片机接上 AI
+03:28 嫌 B 站推荐太烂，让 AI 盯一百个直播间
+08:15 想要穿墙术：毫米波雷达隔着树看来车
+14:11 不为赚钱，做深了自然就有商业价值
+15:35 拿几百篇旧文 fine tune，去掉 AI 味
+22:50 我只管验收和拍板，活全交给 AI
+27:29 同时开 N 个 AI 不乱：让 AI 自己去找 AI
+34:32 AI 犯错别扇巴掌，给它看一百次犯错
+41:33 「只要学得够慢就不用学」，只对一半
+48:37 AI 分析几百个变量后劝他：少用 AI
+52:35 为什么不创业？卖课「意外地非常赚钱」
+1:01:10 连跟拍云台都是自己 hack 的
+1:04:31 AI 用得太好，老板把你当成一只手
+1:08:27 电饭锅来了，学徒本就不该存在
+1:12:59 最后一条建议：今天就把 WorkBuddy 装起来
+1:14:19 片尾曲《几时休》
+【节目里提到的】
+让 AI 盯直播间的观察和复盘工具：https://github.com/grapeot/bilibili-live-monitor
+M5StickS3 硬件开发 Skill：https://github.com/grapeot/m5stack-sticks3-skill
+M5Paper 墨水屏开发 Skill（经典款，不是 M5PaperS3）：https://github.com/grapeot/m5paper_dev_skill
+文风微调项目（用旧文章 fine tune）：https://github.com/grapeot/voice-lora
+手机上的 OpenCode 工作台（iOS）：https://github.com/grapeot/opencode_ios_client
+手机上的 OpenCode 工作台（Android）：https://github.com/grapeot/opencode_android_client
+让 AI 会话互相发消息的 Skill：https://github.com/grapeot/opencode_skill/blob/master/skills/skill_opencode_agent_to_agent.md
+Context Infrastructure：https://github.com/grapeot/context-infrastructure
+本地语义检索 Skill：https://github.com/grapeot/semantic-search-skill
+《凡人修仙传》知识图谱：https://yage.ai/fanren/
+鸭哥说过：「你把那个 skill，让你的 AI 装一下它，就会用了。」上面这些 Skill 都可以直接把链接交给 AI，让它帮你安装和使用。
+【关于 AI 炼金术】
+欢迎订阅「AI 炼金术」的播客，以及同名公众号、视频号
+「AI 炼金术」是一档由徐文浩和任鑫——两位多年老友、AI 领域的资深从业者——打造的播客。这里是探讨 AI 和创业的理想聚集地，我们会邀请一线创业者、产品产品和科研学者，深入探讨 AI 如何重塑行业、变革生活，以及如何从 0 到 1 打造 AI 原生产品。
+我们的讨论会涵盖多个话题：从 AI 如何改变世界的未来，到如何找到 AI 创业的 PMF；从如何利用 AI 降本增效，到怎样将 AI 技术融入日常生活……如果你对 AI、产品、创业感兴趣，这里有满满的干货和一线实战经验，欢迎关注并推荐给你的朋友，共同探索未来的无限可能！
+【节目主理人】
+徐文浩：某AI创业公司联合创始人，正在面向全球市场开发AI应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司MediaV的算法和数据负责人，后被360收购。离开后加入成立不到1个月的拼多多。后创办了基于AI的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023年再次下场创业。
+任鑫：美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造&quot;今夜酒店特价&quot;用移动互联网应用特价销售酒店尾房；被京东并购后内部创业&quot;京东到家&quot;开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。
+【商务合作】
+公众号 「AI炼金术 」菜单栏中【商务】获取联系方式
+【超线性学院｜听友福利】
+① 免费社区：2 万多名成员、700 多个项目分享，也可以下载「超线性学院」App
+https://www.superlinear.academy/feed
+② Stay Superlinear 年度会员：月度答疑、项目点评、大师课。听友免费体验 30 天，顺带解锁 AI Coding 入门课
+https://stay.superlinear.academy/invite/alchemy/
+续费 9 折码 ALCHEMY（¥999 → ¥899.1）
+③ AI Builders 2027：立正和鸭哥主讲，4 门体系课，终身更新、终身答疑
+https://ai-builders.com/
+9 折码 ALCHEMY（¥7145 → ¥6430.5）</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h1>主题概述</h1>
+<p>本期是「AI炼金术」对谈超线性学院联合创始人鸭哥（哥伦比亚大学电气工程博士，曾任职于必应图像搜索、Adobe、Pinterest图像搜索、Samsara），围绕“AI用得太好为何反而阻碍升职”这一反直觉职场困境展开。但对话远不止于此——鸭哥是那种会拿单片机改车库门、用树莓派给松鼠拍照、拿辣椒水喷浣熊、用毫米波雷达“穿墙”看路口来车的硬核黑客型选手。他实测了一套AI新闻流水线、自写OpenCode客户端用语音指挥AI、训练小模型模仿自己文风，还分享了自己因AI提效过高而被老板“当AI用”、导致产出零散无法讲出晋升故事的真实经历。核心议题：AI时代个人竞争力到底该押在哪里。</p>
+<hr />
+<h1>关键要点</h1>
+<p><strong>1. “AI用太好”如何毁掉职业上升通道——一个亲历者的复盘</strong></p>
+<p>鸭哥写文章讲过自己被公司器重却未升职加薪的经历。他用AI提效后，老板今天派活明天就能交付，这潜移默化改变了老板的“奖赏系统”：以前老板会精打细算挑最重要的活给他，现在五个活全给他，“哪个成功了，哪个失败了，我们把那成功的再往下干”。后果有两个：一是产出虽高但大多零散、不成体系，到了升Director/VP的阶段需要“讲故事”讲影响力时讲不出来；二是潜意识里被当作“一只手”而非“一个大脑”，而“潜意识里面是会看低这样的人的”。他说：“在拿了AI特别爽、觉得我为了公司往前冲的时候，要留一个心眼……每个人最有价值的其实是你的脑子，而不是你手上的AI。”</p>
+<p><strong>2. AI新闻/Newsletter流水线的三个核心秘诀</strong></p>
+<p>鸭哥的网站“压割点AI /share”下有一个新闻站，完全由AI自主运营，从零做到Twitter六千多粉丝、Newsletter一两千订阅。秘诀一：自我迭代闭环——AI每周分析所有流量数据（哪些题材在Twitter/微信上传播广），不断更新选题和写作策略。秘诀二：用小模型模仿文风——把几百篇自己写的文章反向用prompt生成“AI味”文章作为输入，原文作为输出，在5090上微调通义千问，一两个小时搞定，用Unsloth库。秘诀三：把过去文章总结成44条“公理（axioms）”，让AI先看“我会怎么想”再写，解决AI文章“正确的废话”问题。双盲测试结果：20篇AI写的文章里有17篇被鸭哥误认作自己写的；他自己写的也有3篇被误认作AI写的——“两面基本上没有差别”。</p>
+<p><strong>3. 用AI分析自己的失眠：最后用AI的时间是最大变量</strong></p>
+<p>鸭哥因AI用太猛长期失眠，于是让AI写程序把Apple Watch的生理指标导到电脑，“搞了个几百个变量的那种回归分析，筛了几百个变量”。结论出乎意料：咖啡不是原因，酒不是原因，“原因是最能预测你今天晚上睡多好的变量，是你今天最后一次用AI是几点，越晚你睡得越差”。他调侃：“他作为一个AI跟我说你要少用AI”。改用晚上看轻松视频后，两周内平均睡眠明显改善。</p>
+<p><strong>4. “让AI去用AI”：Agent之间的协作与群体智能</strong></p>
+<p>鸭哥给AI写了一个skill，教它如何找到其他session、发消息、两个session之间通信。结果AI会自己去协调：“俩就聊起来了”，能并行就并行，不能并行就商量先后顺序，“甚至涌现出一些群体智能”。他自写OpenCode客户端（iOS/Android开源），主要用语音识别而非打字跟AI对话——“同样是一分钟，语音可以跟它逼一百字，打字我怎么着也得三分钟”。日常状态是“非常慵懒地躺在沙发上，或者带着Apple Vision Pro，对着手机哔哔哔，与此同时可以带娃”。</p>
+<p><strong>5. Context Infrastructure与“100个例子”的反思机制</strong></p>
+<p>鸭哥强调，模型花钱就能买到、不是差异化优势，关键是同一模型给不同context效果天差地别。他把三类context全部写成文件：事实类、个人偏好类、SOP类。但发现让AI单纯反思效果不好，容易矫枉过正——“你这边给他一巴掌，他可能会矫枉过正，下次什么东西都来问你，你又给他一巴掌，就把他扇到另外一边去了”。于是他做了一层infrastructure积累所有历史聊天记录，让AI反思时看到的是过去100次相关的错误，“从这100次里面他就能看到一个清晰的脉络”，最终产物仍是判断，但优先级更准——“AI最关键的是把那80%、90%的东西搞对”。</p>
+<p><strong>6. “只要你学得够快，就可以不用学”：判断新概念的方法论</strong></p>
+<p>鸭哥踩过Cursor早期没有搜索功能所以自己搓搜索的坑（后来被官方吸收），但幸运避开了MCP（“我一直到现在都觉得没有东西是markdown加上CLI解决不了的”）和LangChain（“后来只过了一年，就是一个非常简单的for loop或者while loop”）。他判断新概念的方法是：去掉营销光环，倒着想——“为了达到这个结果，我有哪些其他的手段？很容易就可以从坑里面跳出来”。他认为长期有效的技能是evaluation（质量管控）和管理能力：“管AI跟管人一样，它不是一个技术问题。”</p>
+<p><strong>7. 硬件入门推荐与“先写模拟器”技巧</strong></p>
+<p>推荐M5 stack stick（ESP32带屏带按钮带电池）作为硬件入门。关键技巧：硬件不像软件AI能直接操控，所以先让AI写模拟器（跑web server/web socket server，电脑发指令触发原本物理按键的逻辑），读log验证正确性，“最后你只要验收……其他的时候都是可以自主迭代的”。车库门的ESP32神经网络就是完全用这种方法做出来的。</p>
+<p><strong>8. 超线性学院的生意经：只教能经受时间考验的东西</strong></p>
+<p>与课代表立正联合创办，定位高端品牌，“跟市场上妖艳贱货完全不能比”。鸭哥说“Surprisingly它是一个非常赚钱的生意”，“收入够养活我们俩”。课程设计原则：不教LangChain、MCP这类一年就过时的工具，只教出题、eval、当AI的manager这些底层的、可穿越时间的内容；课程承诺永久更新，刚重写了四百多页教材。为解决API注册摩擦做了AI Builder Space平台——学员把skill交给AI就能无缝调用各种API，还能一键部署到公网虚拟机。学员案例包括为听力高频受损的外婆做AI变声器，让老人能跟家人正常交流。</p>
+<p><strong>9. “出题家取代做题家”</strong></p>
+<p>“AI做题比我厉害多了，他写的代码比我写的又快又好。现在要去做一个出题的人，不要再做做题家，做题家一点前途都没有，卷不过的。”鸭哥认为探索性工作中“出题”本身就是最耗脑力的部分——“很多时候我就在学什么东西是好的，什么东西是不好的。这个其实是学习的主体最耗脑子的。”</p>
+<p><strong>10. 对“岗位被AI替代”的乐观判断</strong></p>
+<p>鸭哥观点偏激但自洽：“低级的程序员、设计师、寿司学徒，本来就不应该存在，以前被迫存在只是因为没办法。”他讲寿司之神的例子——“学徒要在捏寿司之前你得先煮两年饭，AI现在是定了一个电饭锅，它能煮的饭比你好1万倍，所以学徒就没有了”。但他反问：煮饭跟捏寿司到底有啥关系？为什么一定要把SQL语法搞得很清楚才能分析数据？“不管有没有AI，都不要把自己的竞争力押在这样的低级的工作上面。”</p>
+<hr />
+<h1>独家细节</h1>
+<p><strong>1. AI“自杀式”诊断失眠：一个AI劝人少用AI</strong></p>
+<p>鸭哥让AI对几个月Apple Watch数据做几百个变量的回归分析，AI给出的最大预测变量是“最后一次用AI的时间”。他描述当时的心态：“他作为一个AI跟我说你要少用AI，我就听到他说的是做AI……后来晚上我就开始做一些娱乐性的东西，看看小姐姐，后来就比较放松。”——这个闭环本身就是“用魔法对抗魔法”。</p>
+<p><strong>2. 被辣椒水喷下树的浣熊</strong></p>
+<p>“有浣熊老来偷我们家东西吃，我也是检测浣熊，然后看到他来了，我就拿那个辣椒水出去喷。他喷了一次之后，他从树上直接掉下来了，后来就再也没有来过。”</p>
+<p><strong>3. 为看《凡人修仙传》做大规模Ontology提取Pipeline</strong></p>
+<p>“我很喜欢凡人修仙传，但是我记忆力又不好……之前一个人物突然出现了，我那时候已经懵逼了，我不知道他是谁，所以我就把里面所有的人物、法宝、法术全部做成了一个很大的ontology knowledge graph。”这个pipeline也开源了。</p>
+<p><strong>4. B站推荐系统太烂引发的“社会研究”</strong></p>
+<p>鸭哥做AI监控100个直播间的初衷是“B站的推荐系统做得实在是太烂了，他给我推的十个里面有九个小姐姐我都不喜欢”。加入实时语音识别后被“带偏”，开始联系主播和运营做复盘、“你这里话术不对”，甚至给主播做了CRM，最后开源了整个项目。“我已经采了几百个小时的B站跳舞视频了。”</p>
+<p><strong>5. 追踪摄像头是三层hack出来的</strong></p>
+<p>鸭哥的追踪云台本身没有跟踪功能，“是我组了一套系统，我用了一个图传，然后又用了一个视频采集卡，把他的东西传到了电脑上，然后才可以去弄”——相机上跑神经网络检测人脸位置并驱动云台。主持人本想剪掉这段闲聊，听完后决定保留：“这个就是课程，太离谱了，这又是一个例子。”</p>
+<p><strong>6. 老板“奖赏系统”被改变的精确描述</strong></p>
+<p>“老板以前可能会需要精打细算，这有五个活，我可能挑一个给我来做……他会花很多脑子去想哪一个最适合我。但是现在由于我干活太快了，他就不想了，直接五个活全都给你干。”</p>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你连看美女跳舞都要把这事委托给AI的意义在哪里？人生的目标在哪里？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我以前一直有一个理想，就是AI帮我去开会，我就写代码。每次发现AR都在写代码，然后我跑去开会就非常痛苦。那AI就帮我搞一个什么几百个变量的那种回归分析，夸一下等于筛了几百个变量。告诉我咖啡不是原因，酒不是原因。原因是最能预测你今天晚上睡多好的变量，是你最今天晚上最后一次用AI是几点。他作为一个AI跟我说你要少用AI，就是说学徒要在捏寿司之前，你得先煮两年饭。然后AI现在是定那个电饭锅，他能煮的饭比你好1万倍。所以学徒就没有了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是大脑，只是一只手，收入越快活越多。谁问你几时休，往前冲，留个心眼，别光低头。吃的有以前我的理想是让AI替我去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>看好的，欢迎大家来到AI炼金术。今天这一期邀请来的是鸭哥，为什么请他来呢？是因为他是我认识的，非常的有动手能力，而且脑洞非常大，然后想法非常奇怪的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家可以想想，如果你家里面，比如说你的车库门老是忘记关，你会干嘛？你会比如说看看有没有什么车库门检测软件，什么买一个相应的传感器对吧？那我的话大概也会这样。但是丫哥的做法就是上手就拿一个单片机出来，然后开始改，把它接了，一个个看看已经把那个单片已经拿出来了。大家可以来看视频，对，这就这很离谱。对，而且它不仅仅接单片机，因为现在大家的web coding，大家都会想就是我要做点东西，他会在背后再接AI那也不仅仅在接AI他还不是自己去调教那个AI他会搭一套loop让那个AI自己去改自己。然后就很神奇，然后他做这种神奇的事情做了非常多，包括我之所以认识丫哥，也是因为这一类的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概一年半之前的话，我非常感兴趣always on那种全天候记录context的这种上下文的工具。然后我就想孵化这样的公司。然后当时就看到鸦哥的那个博客上面已经记录了，他已经hack掉了苹果的手表，然后把整套系统全部搭完了。就是现在苹果的在吆喝的那些什么手表上，可以帮你的实时记录，什么分析什么东西。他在一年半已经全部答完了。然后我当时就疯狂的联系他，然后就说你要不要创业，要不要钱？然后被大哥拒绝了，说我现在有小孩要带，我要带娃。然后现在就说那那不创业的话，原来最近又重新联系，说来来来录制播客。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，最后就是我我先简单介绍一下亚哥，我问AI说给我一些介绍的，介绍说超线性学院联合创始人，哥伦比亚大学电气工程博士，发表过四十多篇论文。但是在我心里面就是听起来像一个搞学者，但我心目中当中丫哥更像是一个黑客，而且是那种苹果时期的那种黑客，就那种上手就是什么单片机的那种这种黑客想搞什么自己拼这种黑客。而且他搞的时候，现在黑客比较多，因为现在有了AI之后，搞点硬件比较容易。他是我看到好像几年前就是这么搞的，所以我就觉得说你赶紧把他找过来看看，借机问一问最近有没有做什么好玩的，怎么做的。好，介绍了这么长牙哥自我介绍一下，然后看看最近有什么又搞了什么新的好玩的东西吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，谢谢。我先自我介绍一下，刚才基本信息已经讲过了，但是有一个职业方面我可以再补充一些东西。比如说我之前曾经在必应的图像搜索，还有adobe，还有pinter st的图像搜索，还有samsara。是一个做行车记录仪的公司都做过，所以技能点就点的比较多，软硬结合都会弄。而且做的真的是生产级别的系统，会服务几亿用户的那种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后根据这些在家里就瞎折腾，这些技能点就瞎折腾。比如说我很喜欢院子里的松鼠，我就用树莓派搭了一个，也是用神经网络检测松鼠过来就拿相机，不是对他拍个照，然后我就有很多特别可爱的松鼠的照片。然后还有有浣熊老来偷我们家东西吃，我也是检测浣熊，然后看到他来了，我就拿那个辣椒水出去喷。他喷了一次之后，他从树上直接掉下来了，后来就再也没有来过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后最近也有一些好玩的东西，除了刚才说的那个车库以外，然后最近在看直播，就是网上那种打赏主播那种，就嘣老头，我在被他们崩，然后在被崩的过程中间，我就对这个领域产生了非常浓厚的兴趣。我就在想这个领域他一个大主播和一个小主播，他们之间的差别到底在哪里？所以我就又做了一个AI他会去各个直播间偷窥，做实时的语音识别统计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>主播的话你连看美女跳舞都要把这事委托给AI意义在哪里？人生的目标在哪里？你详细展开讲讲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太离谱了。是的，就是这里面人的快乐可以来自于很多方面，我很多时候快乐是来自好奇心的满足。还有一个比较重要的地方是我觉得B站的推荐系统做的实在是太烂了。他给我推的十个里面有九个小姐姐我都不喜欢。所以我希望我的AI能够比如全天候的帮我监控。我现在已经能监控是100个左右的直播间，然后掉了以后他还会再去找新的直播间去看我的初衷是这样的，去给我推荐小姐姐，但是后来就加入了实时语音识别之后，我就被带偏了。我就在想大哥到底为什么会去打赏？为什么有的主播就比其他主播要厉害？所以就往那里面就越陷越深，沉迷于小姐姐的世界，给他们做了一个CRM就是客户关系系统。因为我觉得小姐姐跳舞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>本质上你专门做了个客户关系管理系统，你在看美女跳舞，你帮美女做了。个是的是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就联系了主播，联系了运营。我现在有合作的主播和运营，然后我会跟他们复盘说你这里话术不对，你需要那边要发什么东西，你需要更快的跟进等等。就这样我就跟小姐姐搭上话了。然后大家。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>学到了这个搭讪的方式，真的很巧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当我觉得有一个非常客观的好处是无心插柳的好处是大家很容易跟小姐姐交往的过程中很容易陷进去。因为我本来就会研究各种话术，我知道里面应该怎么弄，甚至会给他做辅导。所以一个好处是我不会陷进去，也是崩老头时代AI给我们带来的有为数不多的好处。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个很有意思，下次我看小姐姐跳舞的时候，被我老婆发现，我就说我也是在做鸦哥的这个社会研究。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以，好，你继续狡辩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说这个其实我已经开源了。如果大家感兴趣想要知道，同时看100个小姐姐跳舞的话，就直接去get tub。我回头把链接都贴过来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它好玩在哪里呢？为什么你要让AI帮你看呢？你的乐趣不就是你自己看吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>乐趣主要是满足好奇心，就搞清楚这个商业领域到底是怎么运作的。就这些我感觉可能是更大一点的乐趣。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实他有点像是在做社会研究，其实你是在采数据对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我已经采了几百个小时的的B站跳舞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>视频了了解。然后你还不仅仅彩跳舞，你还踩说比如说他们什么时候大哥出现，他们讲什么话会有效，什么会没无效。然后来理解这个事，其实他是我们去理解世界的一个方法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解，我下次就这么跟太太。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说好的好的，学会了学会了学会了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>学会了。对，这个我觉得比那个抓松鼠更变态一点，用AI帮自己给看小姐姐跳舞。OK那那你那些比如说看松鼠、辣椒水、什么车库门、手表这些项目的话，除了还其他解决这个项目，还有什么觉得特别好玩的可以跟大家分享吗？因为我最近脑洞很大，就是很奇怪，做的东西有点像那种神秘博士，就是会掰一套特别复杂的东西，解决一个看起来很简单。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，有几个，但可能都跟娃关系比较大。比如说娃数学不太好，所以我就给他做了一个也就是外部的一个网站了让他帮着一个小兔子去布置野餐。在这个过程中会给他出各种数学题，但这个可能是更常规一点的那种推娃的，然后我想想别的，我还会hack很多东西。比如说比如说我手边正好就有一个天文相机，然后我会用它的SDK把它改装成一个特别灵敏的，像夜视仪一样的东西，后面也是配上AI但这些都是跟各种视觉相关的，这个是我的老本行。然后还有一些东西，像这个是一个非常小的电脑，它上面甚至有一个MPU，你可以在上面跑各种模型。这叫相城派上，我也是用它去接了一个雷达，它是真的毫米波雷达。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这件事情的背景是这样的，我们家门口是一个很大的坡，然后我从开车从这儿过的时候，是看不见旁边来的车的，有几次还蛮危险的。所以我就在想，有没有可能我有穿墙术，我用雷达去看。然后我们家的位置，跟那个坡正好是隔了一点距离，那个车会先经过我们家，然后再经过那个路口。然后我又通过问AI知道了这个地理高层就是不同的地方，它的高度有多少算出来A如果用一个毫米波雷达，应该是特定波长的雷达。我们放在一个特定的位置，可以直接穿透前面的数目，能够看到路上的车。我就真的去做了，我已经把那个雷达买回来，现在不在我手边上，而且已经接入了系统。然后现在还在做最后的调试，看怎么样让我在手机或者一个什么屏幕上面能看见那边，就像我们的自动驾驶的时候看见有一个点逐渐移过来这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是为了让自己，比如说开车出门的时候，后面那个坡上面过来车提前知道是吧？这这真的是很很高深，打蚊子的一种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，然后包括我们家几乎所有的智能家居都不用它的APP，我们用我，我就用AI要不然逆向它的接口，要不然上网找第三方的。现在他已经全接到我的AI里面了，所以我只要跟agent说帮我干什么，他就可以去干各种事情，甚至相互组合。所以这可能也是另外一个相关的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很有意思。像你刚刚说，比如说娃我们家娃是相反，我们家娃是中文不太好，认知不太好，我也做了个游戏给他，但是我硬件方面就做的比较少。因为硬件方面像你那种动手能力，还是软件，就现在跟AI口喷就好了，硬件还是稍微麻烦一点。那你觉得如果我要像你一样学习，你就是也要在硬件方面开始玩一玩的话，我应该从哪里开始？是应该搞一堆什么ESP32，就是叫ESP32，什么什么乱七八糟这种东西先买一堆还是是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是干嘛？我这儿有一个硬件，我比较推荐它是就长这样。它带一个显示屏，然后带一个按钮，侧面还有一两个按钮，里面有电池，基本上什么都有。我叫M5 stack.</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>stink of stack speak。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就M5 stack stick。然后它就是一个ESP32，然后里面都帮你封装好了，各种东西就很好用。然后用它还有个什么好处呢？是我有一个现成的skill，你把那个skill让你的AI装一下，他就会用了，就这么简单。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括我这边还有其他的东西，是我给其他家长推荐的，是一个M5 stack的一个东西，是一个电子墨水水平，叫m five paper。然后它因为是墨水屏，有很多家长会觉得不伤孩子的眼睛就喜欢用它。然后那个家长也是完全不会硬件编程，但是我给了他那个skill，然后他很快几个小时就搓出来了，而且很精美。回头我也感兴趣的话，我也可以把他发的一个经验分享也发过来。所以我觉得AI现在就不仅仅是能帮一个人，它可以让我们之间传递知识。像以前说的假如记忆可以移植，他真的是可以把记忆整个移植过去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在都是要搞定什么事情，以前还要说你叫我，现在就是把那个像我徐文浩他就说你发个scale过来，或者他说那我把这个发成一个report of传给你我说，好的，我下载下来。OK特别可以玩这个我最近还买了一个follow toy的那个那个as for也是也长得像类似的一个东西，那我就先从这些开始玩起好了。小朋友的话墨水屏确实挺好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且这些东西它也是有有一些坑，就是硬件跟软件不一样的地方。在软件AI是可以直接操控的，它可以说我去点这个按钮，我就点那个按钮。但是硬件毕竟还是要你手点，所以里面有一个坑是让他先写模拟器，这样让他模拟可以点这个按钮。然后最后你就只要验收，如果我真的点他对不对就可以了。但是如果他能自己点，然后他自己出log，他就可以完全闭环。他发现有问题了，最多是发现变砖了的时候，让你去复位一下。其他的时候都是可以自主迭代的。我的包括车库那个ESP32的神经网络，完全是用这种方法，最后我再去验收，这样我就不用去看着了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很有道理，先让他做一个模拟器，要不然的话人你就老变成他的手，他就老让你去再测一下，就烦都烦死了。是啊，有道理。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所谓模拟器其实就是上面跑一个类似web server或者是web socket server一样的东西。电脑给他发指令，他那边就执行一段逻辑。只是那段逻辑平时是你按物理按键触发的，现在变成了按电脑发指令过去触发。然后他的通过读log来看这个逻辑对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解了。牙哥你平时做这些东西本质上到底是为了好玩儿，就那种棋那种神秘模式，还是其实这里面也有一些商业化的考虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个特别好的问题。我觉得从客观上来说，很多东西是有商业上的价值的。但是我为什么选这些东西？主要是为了好玩。因为我是个非常好奇的人，也是个非常佛系的人，所以经常是因为好玩就开始深入。但因为本身用AI用的很熟，所以很容易就做的比较深。做深了之后自然而然就出现了商业价值。但是初衷并不是说为了赚钱去做这个，而主要是好玩做这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那有没有哪一个例子是你为了好玩做了一个东西，结果这边还赚居然赚了点钱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有这种例子吗？我做的事情还是蛮多的，我想一想，结果赚了点钱，这个不是特别多，而且是这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大部分还是好玩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，是这样，我解释一下，我很多东西我觉得如果要正儿八经进行商业化的话，它都是有很大的潜力的。但是在超线性学院主要变现的方式是去卖课，把它作为教学的素材。我们下面如果有机会的话还会讲到我做了一个全自动的一个AI新闻和分发的流水线。这个流水线我们用在教学里面的时候，大家都非常喜欢这个例子。我觉得从某种程度上来说，类似这样的例子，这样的产品都是真的是创造商业价值。有很多人就为了这个去来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们这里了解。那这个流水线你介绍一下，我是之前也听说了，就是说你的news letter，然后网站，整个的流水线其实都是AI在帮你定做的那这个时候这个东西是他用来干嘛的，是怎么搭起来的，然后有用吗？就是很多AI出来的东西没人看，为什么你这个出来就会有人看？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，这是一个很好的问题。我先介绍一下这个流水线是什么东西，是在我的网站上面，我的网站是压割点AI如果你后面加一个slash share，它有一个新闻站，那这个新闻站就完全是由AI自主搭的。他是自己去每天早上先去做一轮调研，给我五个题目，然后我再选2到3个题目，跟他说你去写这几个。如果我要是有更具体的要求的话，也会跟他说，那你写的时候要注意这些和这些。我对他比较感兴趣，然后他去调研，他就去写写完了一方面发到这个新闻站上面，另一方面也自己去引流。他会去比如现在已经会做切片了，发视频，发推特，然后去把大家引到这个网站上面来。这个就是一个非常高层的一个介绍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是他在这里面有几个秘诀，就是我们现在从刚开始基本上没有粉丝，到现在twitter有六千多个粉丝，然后newsletter也有一两千个订阅，大家还都蛮活跃的那为什么这样呢？主要是因为它的质量很高。如果你去看他的AI的文章的话就会发现，第1AIAI的味道不是特别浓。第二是它的很多见解还是蛮深刻的，不是那种非常superficial的AI见解。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们在这里面也做了相当多的工作，我可以介绍一下几个秘诀是什么。第一个秘诀是让它形成自我迭代的闭环。就是他不是说把文章发上去他就不管了，他其实后面还有很多，比如打的锚点，就instrumentation。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>某一个人他是通过twitter进来的，在这停留了几分钟，看了这些页面我们都是知道的，这个是一个互联网的基本操作了。在这个基础上，有AI每个星期会去看这所有的数据。然后说这个题材比较好，这个题材推特上比较受欢迎，这个题材微信上传播的比较广。它就逐渐积累把如何选题，如何写作给进行更新，从而实现一定程度上的自我进化，这是第一个方面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个方面是他的语言为什么看起来不像是AI写？也是因为我们后面我们训练了一个小的大模型，是fine 2的1个LOM。它是起到一个文字编辑的作用，我们让他干的事情就是模仿我来写写文章。我把以前我写的大概几百篇文章都会给他看，翻译成一个模型出来。然后他再把AI写的文章再过一遍，这样就让它看起来更自然。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后直接翻译，不是用提示词控你们直接翻译了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，这是因为我们一开始试过用提示词，我们做了很多很多的实验，就各种各版本的提示词都测过，效果不好。最后得出的结论是你实在没办法了，只好翻译听。然后翻译听之后效果就好很多。我的我对此的解释是这样的，就是你很难找到一系列的原则和步骤。说你只要照着我这些步骤来写出来的东西，就会像我写的，这个太难了。包括我也试过你用比如说这个作家和那个作家的风格糅合在一起，他可能对这个就有有更多的理解。后来发现也不行，他还是又跑到那个作家那边去了。所以后来我们就只能翻译听悟。我对此的解释是，这本质上是一种内化，就是他需要把很多很小的这种用词的习惯给卞真的记住，而不是讲提示词这种非常高层的大而化之的原则。所以这也是我们我觉得还是阅读体感蛮重要的一方面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好奇一个就是细节问题，现在function的话我们用什么模型翻译，大概成本和那个难度大概多高？如果只是要文风的匹配的是一个很难的事情，还是其实现在已经很简单。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，这是一个很简单的事情。是这样的，它有几个关键的步骤都是现成的，像搭积木一样的模块。比如说它的常用的库应该叫on slice，就那个树懒，然后直接跟大家说用那个库就可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我用的模型就是国产的千问通义千问在这个基础上数据因为自己写的文章，我的文章甚至都是开源的，直接扔给他就好。然后他的输入是这样的，这里需要一定的巧思，就是我的目标是把一个充满AI味的文章变成我自己的文章。我现在只有我自己的文章，那我怎么拿到有AIV的文章呢？我就让他把我的文章重写一遍，然后把它反过来是用prompt让他从我的文章生成AI文章。但是我训练的时候给他的输入是AI文章，输出是我的文章。然后这样他就有了一系列的训练数据。然后我在5090上面find time大约几个小时，应该是可能就一两个小时就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个很我我我还真没想到可以这样，反正有道理吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一对儿。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是有道理。创造数据有很好，明白了是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以很多东西我们都可以用类似的方法来解决，而且全程我基本上就是跟AI描述了一下，我想干什么，具体怎么去用SAC去连到我的服务器上，怎么样去去搞。5090的卡全是AR干的，我基本上就没怎么管。有一点很重要，就是你要去审它，看它的质量。所以我最后让他又干了一件事情，是啊我们做了一个双盲实验或者单盲实验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为他知道谁是谁，他就不告诉我。他给我两篇文章，一篇是我写的，一篇是他写的。他不告诉我谁对谁让我选这里面是哪个是我写的，哪个是他写的。后来在20个里面，他写的我认为有17篇是我写的，只有三篇被抓出来了。但是我自己写的文章，不对，他他写的里面有16篇被我抓回来了，我自己写的文章我认为里面四有三篇是AI写的，17篇是我写的。也就是两面基本上没有差别。我觉得他这种对效果还是挺好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我也试一下，我现在还是让他总结了我的文风，然后其实还是用提示词在控。对，首先那我试一下，我也去调一个千问好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我觉得这个非常有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK很好。整个这件事情的话，其实就是他达成了两个成果。一个就是每天超过一些线性学院，就会有很多优质的内容往外发。然后的话发完之后他们看了觉得不错的话，他又过可以过来买课。然后买课的时候，你这个案例又可以这么再用来讲一遍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>exactly。而且这里面你会看到很多知识点，一个是怎么翻译成一个是怎么去把它做成一个自我迭代的闭环。然后还有第三个，我刚才忘说了，是我怎么给他思考的深度。如果你用AI写过文章，你会发现他讲的都是废话，就是那种正确的废话。那怎么办呢？把我很多的文章扔给了AI，AI自己去总结说我的思考跟他的想法有什么不一样的地方。总结了44条，我叫公理acms。他在用这些公理去把他的思维方式给掰过来，每次去先看一下我会怎么想，然后再看这段话，然后再想我们怎么样去分析，这个也挺有用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚刚讲的做事的过程，其实你也是把很多事情其实丢给AI在做。那这个时候你负责什么，他负责什么？这个协作的方式是怎么样的一种协作方式？至于开什么32个code窗口开的那种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没那么夸张。是这样的，这个问题我觉得挺好的，但是要从两个不同的角度来回答。第一个是从内容的角度，一个是从形式的角度。从内容的角度来说，我一般是就像老板跟秘书之间的关系一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就像刚才翻译中的例子，我管的是双盲。这件事情是我定的，他不能定怎么样来通过检测，然后他自己看这个拍板的决策权就在我这里，包括你要我标数据都可以，但不管怎么样，需要我来过目最终的结果。然后至于底下这个design decision，比如说你用5090，显存不够了怎么办？那这种事情是他自己去管。还有一个是我需要知道他是各种比较重要的技术决策，比如说在这里怎么样去生成数据，如果你不跟他提醒一下，可能他想不到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以从内容的角度来说，我主要管两点。第一点是最终怎么验收，我刚才讲的很清楚。第二点是中间比较重要的技术决策，像不重要的技术决策就直接给他做就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后从形式上来说，我这边是有一台24小时不关机的电脑，是一个mac在它基础上会跑一个harness，这个harness可以是任何harness。我也用code x cloud code，但我主要用的是open code。Open code我自己写了一个client，它有IOS的，android的，都是开源的。回头我也可以把这个都贴过来。然后它大概长这个样子，你看这是一个三星的一个三折叠，然后它就大概就长这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它一边是像这样的一个session list，然后一边是这样我跟他对话。比较重要的地方是我跟他是用语音识别来对话的，而主要并不是通过打字来对话的。这样就比较我觉得效率比自己打字要高多了。同样是一分钟，我语音识别可以跟他逼一百字都有可能。但是打字打100字，我怎么着也得五分钟三分钟左右。这是一个很重要的区别。所以对我跟AI工作的时候，并不是说坐在电脑前面开32个窗口，而是非常慵懒的躺在沙发上，或者我这个也有apple vision pro的版本。所以躺在沙发上带着那个apple vision pro，或者是对着手机哔哔哔哔哔，也与此同时你可以带娃，你可以干其他事，就比较放松。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>宏观和微观各有一个问题，宏观上是不是刚刚你的意思就是怎么做号的，这些部分其实就让AI去搞，你其实主要定的还是VR，就是那个目标和评估这个事儿你来决定。而微观上我有一个很疑惑的地方，就是因为你在海外也可以用color code，很方便。就是你为什么要用open code？因为其实自己买API的话比用套餐要贵好多倍。这个成本上有点为什么会这样选择呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一个细节是open code我用的也不是API，我用的是在主要suspect。对，PPT的subsequent是能接到open code里面的。包括我还有alama cloud，它里面可以用deep sick，用GLM，它都很便宜，也是订阅的。所以我除了claud和gm用不了以外，只有其他的GPT什么都还用的挺爽的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解，从你的专业的角度的话，你现在并不觉得说那个，因为我的话现在已经完全被cloud吊住了，就是我我现在用extra我都受不了。对，所以从你的使用当中，其实ChatGPT已经足够好用，或者说其实没有那么大的差距，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我觉得两个东西现在已经基本上可以互换了。一个是harness，我是各个harness都是重度用户。比如说DSH cloud code and gravity cursor，对，还有check codex还有open code，我觉得他们完全可以互换，没有什么什么feature，一家有另外一家没有的。然后第二个是大多数模型，甚至包括GLM5.3 flash我很喜欢GLM，包括GPT还有german organ，它都是还有个opens，它都是可以互换的。但是在只在90%的情况下可以互换。像那些真正需要上强度的，只能比如说vivo或者是astra这种，别的还是都不行。但是我们也不是那种非常硬核的科研人员，很多时候90%也都是体力活。你帮我查个邮件，你帮我开一下咖啡机，帮我做个调研。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这种其实大家都差不多OK了解了。还有一个问题就是我就是看到身边和我自己的话，现在其实有一点点乱掉了，就是经常会一堆的AI，因为他要干活要时间，那你就觉得说我不总不能等着你，我就会同时开N个活，那他同时开N个活就有N个线头，然后我有的时候就会忘记我在干嘛了，你会这样吗？我靠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么说呢？我觉得我可能潜移默化里面用了三点减缓这个问题。第一个是因为我自己做。Client, 所以对整个client的界面是有非常强的控制权的。我会在里面加各种指示灯之类的东西，包括它有多少子agent，每个子agent的状态我非常在设计。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的工作台是你自己做的是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是，就是open code那个工作台，刚刚看的那个up反正完全是自己做的，就往里随便塞什么，你想塞什么塞什么，而且也是完全开源的。我回头链接贴过来，大家感兴趣可以听我改。我们有我有我有个AI群里面有很多人就魔改出来了，各种各样的版本都是根据自己的习惯。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有道理我去改一个群。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，反正都是跟AI直接说一句就可以了。所以我会非常注重这种首屏一眼看就知道谁需要我去帮他批准，谁挂了，谁已经有结果了。但是我还没有看谁现在正在忙。所以它有各种不同的指示灯、呼吸灯，包括子agent的状态，一眼就能看到，我觉得这种还是挺重要的这是第一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个是我非常注重SDK，就是我非常注重让AI去用AI比如open code，我给了AI一个skill，让他知道怎么找到一个session，怎么给那个session发消息，然后两个session之间怎么通信。我有一个专门的skill，回头也都是开源的，回头都可以贴上。我发现只要给了AI这个skill，他会做出很多非让你非常惊讶的事情。比如说你一个AI正在做一个一件事，这时候你想对同一个rapper做另外一件事，你就可以直接跟他说，你有另外一个AI在在做这个，你去找哪个，跟他协调一下，他就真的会去自己找到。然后跟他说我是谁谁谁AI我知道你正在做这个，你做完之后给我一个什么东西，然后这两个就聊起来了，就这么简单是吧？是，所以让AI去彼此之间相互协作，它甚至可以涌现出一些群体智能。所以我这边经常就同时开很多电视，他们不会乱的，他们之间会协调，能并行的就并行，walk free. 不能并行他就他说那我就先做这个，他们有时候会还会达成一些协议。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还都挺有意意思的。对我我也我也发现了，我现在就比如说我之前那是用那个class code去控那个codex，因为只有codex可以做图，然后每次我自己用codex他就不停的跟我讲说图做好了，然后做的像是乱七八糟的，就脸都不对。后来我发现codex去控它的话，codex就会把那些做的不对的给他打回去，然后我就不需要，尽管那个过程了，但是说这就就挺好的。包括最近两天在用那个DSH的话，我就发现他虽然脑子不太好，但是他真的舍得搞上下文。他把我整个电脑都八了。比如说我今天要跟你聊天，他就扒到了说我日记里面提到鸭哥是在几几年几月几号，然后上次怎么样，以及上一次我跟课代表立正，他说课代表立正是跟杨哥一起做这个什么什么么。然后我就想说你刚刚帮我准备几个问题，你把我整个电脑全拔了一遍吗？就很吓人，确实像你讲的，他们已经可以协作起来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK是的，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那再问一下，就是他们还可以协作，但是你刚刚讲说其实evo还是在自己手里。那那你有十个任务，他们不停的让你来email，你还是很烦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个也要具体情况具体分析。像有一些evo，举个例子，因为我最近正在做直播，我就做了很多那样的工程项目，比如说你做一个validation，像这做一个可视化的东西，这就很容易引发你看一眼，我之前这里版式不对，现在版式对了，这个是很简单的。然后还有一些evil是完全可以交给AI的。比如说我在做超新星学院的时候，需要对很多帖子做一些操作。比如我发布一门新的课，我要操作很多按钮。然后那他最终的状态就应该是在某一个版面里面有一个新的帖子，它的内容是什么？像这种东西，我一般会让AI先初审一遍，如果不对的话就roll back，如果对的话我再去看一眼就可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得一大原则是这样的，eval本身它的形式也是可以变化的，它未必是我们要从头去做到尾，它可以是让AI尽可能的配合你。比如说他可以去先自己做一遍初筛，然后把浏览器窗口打开，停在那个位置，然后再提醒你去看。他把一切都准备好之后，你再去看。这些能够非常大的，就是我觉得特别稀缺的一个资源，就是我们的这种认知带宽。它可以非常有效的去降低我们的认知带宽，就是你把他的活让他特做一个特别贴心的秘书，反正tok很便宜。然后我们就把真正最后排版那一步，我觉得这个也蛮有效的一个技巧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是是是，我现在也在让他，比如说我也有一个类似于你的每天早上给我多少条什么的这种。然后我现在已经夸张到让他直接打到我的那个ipad上，我现在变成左滑右滑，然后只要长按就直接语音输入。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>告诉大家说这一条怎么搞，这个很棒。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要变成今日头条OK那那这种有一些医保比较好定，但是有一探索型的事情，比如说你看小姐姐这种，其实是一直在不停的往前探索，这种没有办法太多的有提前的一个evaluation定出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，因为探索的过程本身很大程度上就是在探索100 61生。所以他就是问题本身，而且尤其是我不熟悉的领域去学习它。其实现在有了AI帮人解题，越来越觉得出题越来越重要。出题本身就是一个，所以很多时候我就在学什么东西是好的，什么东西是不好的。这个其实是学习的主体最耗脑子里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还好奇一件事情，就是因为我自己发现我有的时候挺花时间在搭系统的。但是我给自己讲的道理就是说，你看这种重复性的事情应该大家，但是那个重复性的事情可能一个星期也就占我15分钟，但是我搭这套系统可能花了我10个小时就越搭越嗨，你知道吗？对对对，完全推进节目那种快乐。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你也会这样吗？会的，我我我因为我以前就我是码农，码农很喜欢写代码，因为会觉得写代码是一种放松，所以我以前一直有一个理想，就是AI帮我去开会，我去写代码。每次发现AR都在写代码，然后我跑去开会。对，就是非常痛苦，但我觉得这种情况很正常。因为尤其是有AI就把我们把体力活干完了以后，大系统就是很爽啊。你你照你的意思来，小一帮小弟帮你干活就是很爽。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他有快感吗？创造是他我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是一种娱乐，无可厚非。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，就当打游戏了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，我觉得跟打游戏非常像，只要不自己骗自己说这是一种投资，为了商业就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是。那你的整套系统它会怎么进化？这个进化是你在管还是AI它自己会搭一套比如说复利的体系。比如说每天反思一下，说明天怎么样更好的服务。哥这怎么样有一套这样的系统吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有这样的系统的，而且甚至我觉得用AI最关键的就是要把这套系统搭出来。那我可以举一个近期的例子，再举一个远期的例子。最近的例子就是咱们刚刚聊的那一套去写newsletter，去写新闻的系统。他为什么能够自己越来越好？就是因为他每天会去看，你发的推哪一些受欢迎，你微信上转的东西哪一些大家愿意点进来，在这个基础上去不断的迭代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后从比较远期的例子，就是我做了一套东西叫做context infrastructure。它有两个部分组成，一部分是context的，就是infrastructure。我可以具体解释一下这到底是什么东西，就是我一直觉得像AI模型，它基本上每个人都可以有，就你花钱你能买到，别人花钱别人也能买到。所以它并不是一个特别differentiator，它不是一个你会比别人更有竞争优势的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是context的不一样，就同样一个AI在不同的人手中会发出截然不同的效果。问题的关键就在于不同的人给他不同的context。巧妇难为无米之炊。如果你给他不给你公司内部的任何信息，你让他去解决公司内部的问题，他肯定做出来。所以我就非常强调把我所有的context，尤其是第一事实方面的context。第二我的个人偏好方面的context。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三是关于怎么做一件事情，就像SOP1样的context。全都写成文件，然后给AI让他自己调。在这个基础上它就可以完成很多东西，而且因为我这里没有用什么特别fancy的记忆系统之类的东西。所以他可以在调完之后，我让他周期性的进行反思总结，去把应该改的东西，把这个文件顺手就改掉了改完之后他就继续去，这本身就是一种复利了，他就可以继续去用改修改之后的版本就可以越做越好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是问题在我一开始是这么做的，然后做了一段时间发现一个问题是改的效果不好，尤其是当他自己反思的时候，效果很不好。我举个例子，大家应该都遇到过这样的问题，说你让AI往前走，有时候他每次干一件事情停下来问你。要不要继续，我有没有授权，能不能走？或者他就是一股脑往前冲，完全不问你。直到最后发现浪费了很多token，可能把裤都删了，我也被扇过苦。这种情况就很两难，你很难跟他精确地描述说到底什么时候要来问我，什么时候不来问我。尤其是如果他这边一犯错，你那边给他一巴掌，他可能会矫枉过正，然后下次就战战兢兢，就什么东西都来问你，或者如果这样你又给他一巴掌，你就把他扇到另外一边去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就是为什么我又搞了一个infrastructure的原因。它的主要作用是去积累以前的各种所有的聊天记录。这样AI反思的时候，他看的就不是这一次他犯的错误，他看的可能是比方以前100次犯的相关的错误。那从这100次里面他就能看到一个清晰的脉络了，这种情况我就应该停下来，那种情况我就应该去问用户，用这种方式就发现他反思的效率就高了很多。而且这其实也没什么神秘的，因为我们自己也是这样。但是AI因为它没有记忆，所以你需要用上下文窗口的角度去考虑。你手工要把这100个给他才可以，这可能就是唯一的track.</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了解我也有类似的东西，但是确实像你讲的，他如果总结一条的话，就是一刀切的话，很容易矫枉过正。所以其实不如把百条不是压缩成一个判断，而是100个例子，100个短例子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里有一个clarification是那100条是他反思的时候给他看的，最终的产物仍然是判断。但只是这个判断就不会就比较。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>具体OK了解他根据100条来.</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>判断是这里面我觉得有一个东西非常重要，是100条里面它不仅是提供了如何做判断的一种guideline，他同时还提供了一个优先级。因为其实AI最关键的是把那80% 90%的东西把它搞对，这个是我最关键的。剩下来10 10%你错，其实我都可以手动纠正你。所以这100条能告诉他哪一些是你最应该弄对的，我觉得这个很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK解了。然后你刚刚提到context，其实我也是把所有context都给AI的，包括我的日记、日历什么。我我我也让他尝试在做另外一件事情，就是在上面搭一层就是简化的ontology这一层就比如说提到压歌对吧，他现在还是通过文文本来匹配到的。但是其实理论上来讲应该有压歌这么一个实体，这样子稍微有一个有一简单索引，你觉得需要有这一层吗？还是其实现在应该相信大模型，你这字写对了，然后大概率它都可以就在向量空间去搞，不需要那么显性。然后college这一层需要吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是个特别好的问题，我觉得既需要也不需要。我可以简单介绍一下我在哪种情况下需要做了些什么事情。首先介绍我的context是怎么组织的。我觉得组织的方式非常类似我们对互联网的应用。尤其是context大了以后，你想我们是怎么上网的呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们是用google，那就是搜索。所以我有一个skill也是开源的，叫semantic search。他直接调用OpenAI的embedding，然后把本地给他embed起来，然后做一个index，特别简单。而且我们实测过大概100万个记录，只要十几毫秒就可以搜出来，就特别快。这是google型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外一种是雅虎型，就是很久以前可能三四十年以前，反正网站也不多，那时候也没有google，大家就用哑，他会给你说有这种类别的网站，那种类别的网站你要。比如说我们要买书，他就先点到e commerce的网站里面，然后再点我要买书，然后再点亚马逊，就类似这样一层一层点进去，AI也是一样，这就是progressive disclosure。我去给他建一些手动建一些index，这个index可以是AI自己写的那这个index我们就可以用ontology去进行消歧义。比如说我们说压根的时候，它可能指向不同的人，那确实是需要这样的东西。然后我对这个大规模的这种ontology extraction，我也写过一个pipeline，也是开源的，它是因为我很喜欢凡人修仙传，但是我记忆力又不好。凡人修仙传好像一两千万字。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我读到后面太可怕了，我看了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一半几百万字。之前一个人物突然出现了，我那时候已经懵逼了，我不知道他是谁，所以我就把里面所有的人物、法宝、法术全部做成了一个很大的一个ontology knowledge graph。然后我看终于记得所以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要考研吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正都是AI做，所以我就叫你去做，然后他就做好了。然后我回头也把这个网址发过来，他也是在我的网站上。大家要是喜欢凡人修仙传可以去看一看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，我们到时候都丢到show note里面。好的，OK这个很神。但是还有一个问题，就是你搭了很多套这种东西。也有一个说法就是现在AI发展太快，只要你学得慢就可以不用学了。是不是？你搭的这些东西，比如说在一年之前巨有用，半年之前很有用，现在就用。一般有用三个月之后。其实现在的harness他们会把这些，比如说索引，乱七八糟的东西，他们会把它全部内置到。就是都不用学这些东西了，好多东西都不用学。有这么一个观点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是怎么觉得？我觉得这个观点一定程度上是正确的，而且我踩过这个坑，我也曾经成功的没有踩过这个坑，有很多经历还是蛮值得分享的。首先我解释一下我踩过的那个坑是什么？就是在curse很早的时候，我是那时候只有curse，我就用cursor去做各种各样的东西。非常痛苦的一点是它并没有搜索引擎。它当时还没有搜索的功能，所以我就让他搓了一个东西来做搜索。但后来这个东西就被吸收到科室里面去了，那这个东西就白做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是幸运的是，我当时那时候应该MCP已经出来了。虽然有MCP，我们没有做MCP。我一直到现在都觉得没有东西是markdown加上CLI解决不了的。所以我就给他一个CLI就paton非常简单，CLI掉刀刀go，然后一个markdown跟AI介绍命令行参数怎么用它就可以了。所以我很幸运的就没有踩MCP debug那些坑。后来我曾经试过把它挪到MCP上面去，弄死我了。MCP这个意图真是意图，所以然后这个回头咱们再吐槽了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但总之确实是有东西是我踩过这个坑的，但也有别的东西我没有踩过这个坑，是非常幸运一点。但是正好可以介绍一下就是line chain。Line chain是尤其是GPT刚出来的时候，应该是22年底二三年初。那个时候GPT刚出来，而且它没有function calling的功能，然后它的context温度又特别的小我印象里是8K偷看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个时候大家如果要想把它但凡用到生产环境里面，就必须要去补很多的东西。比如说contest window小怎么办呢？就用rag。所以你要去补一个rag，你要去记去组织它的contest window，然后有非常复杂的各种各样的记忆系统。然后他又不能去有效的输出工具调用，那就必须要再去做一个poser，去搞各种边界情况，让它能够输出工具调用，并且能够正常的pass出来。同时因为他又没有后面的那些agents的后学习或者是reasoning的功能，所以他也没有办法进行多步思考。所以我们就要把它一个步骤要拆成好多个，一层一层的去手工去调LM的API。这整套就构成了lang chain。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Lang chain就是这么出来，它就像一条chain一样，把它一个一个给弄出来。他当时launching特别高大上，你要学会了lunch in ing，那就是IOM的专家了。但是后来的事情咱们也知道了，就那个出来了，只过了一年，就是一个非常简单的for loop或者war look，它就不用安全了。所以当时没有陷到这个坑里面，是我觉得也是蛮幸运的。就是我一直非常坚定的认为agented最简单的agent是一条是正确的出路。而如果当时你学了chain，可能就会至少浪费很多时间吧。而且我觉得更重要的是思维定式就被它固化住了，世界观就会变成蓝裙的形状，这个可能就不是更大的一个弊端。所以这从这个角度来说，我觉得这句话是对的，只要你学的足够快，你就不用学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是从另外一个角度，我也并没有浪费太多时间，我其实从那个时候学到现在的很多东西一直在用。其中最经典或者说最有用的几点是第一，evaluation这个其实跟AI都没关系了，你就是当经理当老板，本来就是下手去干活，我去管质量管控，然后包括还有其他的R是想想还有很多东西都是跟管理是相关的。比如说底下的人如果做不出来，我们一定要控制住自己的冲动，尤其是非常强的技术人员，一定要控制住自己的冲动，把键盘抢过来，我自己做，我做的比你快多了，这样不行。所以对AI也是一样，我们要抓住这个机会，搞清楚它context到底缺什么，把它的这个空给补上。这样他下次就跟管人一样，下次你不在场他才能自己把活干下去，这个非常关键。而且哪怕模型再聪明，他也是这样的。你看NBA那些球星他都需要教练的，所以这个一直是有用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有一个非常重要的是，我们要想办法跟刚才相关的时候，想办法让AI构成自我进化的闭环。但这个可能刚才是同一个意思。对，然后最后我想说的一点是，从做题家要到出题人的这样一个概念的转换。因为我非常理解，因为我也是走高考，从小就教做题，我很擅长做题，而且我很骄傲，我很擅长做题。但是现在AI他做题比我厉害多了，他写的扣子比我写的又快又好。所以一个非常重要的思维转换就是现在要去做一个出题的人，不要再做做题家，做题家一点前途都没有，卷不过的。所以这几点是我一直觉得特别受用，也希望分享。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>给大家的了解。如果现在大家说现在还是AI焦虑，那你们有的时候又说好多东西要学，有的时候又说好多东西不要学，怎么判断啥是要学的？比如说现在又出现一个新东西，那到底我要学还是不要学？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是一个很重要的问题。我的想法是这样的，这个是课代表提出来的一套体系，我这里只是借用了一下。大概的说就是每一个新概念出来的时候，他其实会向你灌输一系列的假设。他会给你一个思想上的framework。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说jeff JEV前面出的那个决策模型，他会用非常fancy的东西来包装说什么一快系统和慢系统的系统。一系统、二快系统，慢系统从心理学角度，但如果你真的把它拆开，你会发现这不就是个IOM，只是把它做inference方式给变了吗？让他快一点。所以我觉得遇到一个东西，咱们要拆清楚它的哪些是市场营销。把它这个光环给独立思考去掉之后再看如果我要实现他所声称的这个目标，我有哪些其他的手段。当你把它和这些其他的手段在一起比较的时候，大家就可以发现，好像他也不是那么神奇。最关键的就是要不要顺着想要倒着想，顺着想就很容易掉到他那个坑里面，倒着想去想，这个是结果。那为了达到这个结果，我有哪些其他的方法很容易就可以从。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>坑里面跳出来了。了解。所以就尽量少被叙事去影响，而是去看它本质，它是解决什么问题的，解决这个问题有哪些路径。你还要比较一下，理解他的边界，这样子才再去看看他值不值得花多少精力去搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常精湛。而且然后我还问你一个问题，就是我身边像你一样比较AI真的比较强的人我都发现他们有一段时间身体变得比较very not，整个人会嗨起来，然后会有这种情况吗？怎么管理？</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会的，这是一个悲伤的故事。因为大家用了AI以后，就有一方面像刚才说的，它是一个能带来多巴胺的东西，它本身会让你非常的快乐，但另外一方面，它会增加你的思想的负担。因为每天不由自主的就想把越来越多的事情交给他，这本身就是一种娱乐。同时他把那些体力活都干完了，所以他给你的东西都是需要你进行高强度的阅读，高强度的思考和决策的东西，所以真的就很容易burnt，我甚至有很长一段时间我就睡失眠就睡不了。所以后来我是通过几种方式来把它解决掉的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一个方式是说我既然是有很大的时间是花在阅读上的那我为什么不让AI去把阅读这件事情变得更加适合我的。就比如讲不同的人他会喜欢不同的阅读方式，有的人他喜欢听播客，有的人他喜欢看视频。像我就比较喜欢看那种图表和文本框。那这时候我就会让AI把它变成一个图文并茂的东西，我看起来就很轻松。别人他可能就希望AI生成一段视频。现在OPOS做的都特别好，所以让AI适应我们来降低我们的认知带宽，我觉得是非常重要的一个减缓不绕的方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外一个方向就是在作息上面可能也是需要注意一下。这里又讲到另外一个故事，就是我之前因为失眠，但当时不知道是什么原因，所以就开始去找到底是什么原因。当然我也是用AI来找，有一个好处是因为我是带苹果手表的，所以苹果手表它里面会记录各种各样的生理指标。我就让AI写了个程序，把它传到我的电脑上面去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果是传统的失眠的话，大家可能会觉得哦想是不是我咖啡喝多了，然后就把咖啡停掉，等一个星期看有没有效。是不是我酒喝多了，再把酒停掉，再等一个星期看有没有效，就会非常的慢。但是当你有了这么多原始的数据，比如说我今天喝了几杯咖啡，我今天睡了几个小时，你就可以用非常确定的方法来看。比如讲我前两天我喝了一杯咖啡我睡了这么长时间，今天我喝了三杯咖啡我睡了这么长时间，他们俩到底有没有这个关系？那你积累了几个月，因为之前几个月的数据我都有，自然而然就可以去做这种回归分析。那AI就帮我搞了个什么几百个变量的那种回归分析，夸一下等于筛了几百个变量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>告诉我咖啡不是原因，酒不是原因。原因是最能预测你今天晚上睡多好的变量是你最今天晚上最后一次用AI是几点，就是越晚你睡得越差。我不知道是为什么，我猜可能是因为太烧脑了，然后让我很兴奋，就会影响整个的这种睡眠质量。但是我还是挺欣赏他自杀风格的，他跟我说你要少用AI他作为一个AI跟我说你要少用AI我就听到他说的是做AI后来晚上我就开始做一些娱乐性的东西，看看小姐姐对不对。后来就比较放松。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后又变成web coding了。你的看小姐姐也变成web coding了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是宿命宿命。不过当时还没有没有到y coding这个阶段，那就是看看视频。后来过了两个星期，我就看见我的平均睡眠时间长了一点4个小时，我真的是非常有效的。它它这个是很科学的一种做法，就是大数据用到失眠上面。但这本身就是burnt，也算是一定程度上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>解决了用魔法对抗魔法，用AI来解决AI创造的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，如果没有AI的话，其实都没这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得你那个生活真的是非常AI native，非常有意思。然后我也之前也跟课代表立正聊过，然后就感觉你们在那个超线性学院在卖课卖的。因为我见过其他麦克的比较高端大气，但是你们也卖的很贵，所以很好奇你为什么会做客呢？因为其实比如说之前找你的时候是以投资人的身份，对吧？但是我觉得你好像兴趣不大。然后我相信你要融资不说多少，你要融资肯定不会很困难。然后我就好像我现在都都每个月都在被以前的投资人朋友问说，你要创业吗？要钱吗？然后你为什么没有想过自己要创业做产品作为公司，为什么是选用了麦这个形式呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个确实我也反思过很长时间，根本的原因可能是我比较佛系。但是如果理性的分析的话，我觉得有三个原因。第一个是一件事情要看我喜不喜欢，擅不擅长，以及机缘有没有机缘。然后就天时地利人和。从喜不喜欢的角度来说，我以前做过一段时间的创业，我喜欢做产品，我喜欢做技术，但是未必喜欢创业，压力太大了。那做客就可以比较佛系，因为课代表对我比较包容，他们没有催的很紧，所以也可以比较佛系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>关于激情方面，我是很喜欢教育的。因为我比较享受那种好为人师的感觉，把自己的话讲道理，用也非常浅显直白的语言讲出来。对，都很理解。说出来之后看对方崇拜的目光？也或者是真的帮到了别人，这就是确实是一件很好的事情。所以有激情而且又擅长，而且正好又有机缘巧合开代表。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时我在公司也不是特别忙的时候，课代表过来说我们一起去做一个副业，也不打算拉投资，也不打算什么，就没什么压力。要是做不成就拉倒，然后就时机很好，我们就正好去做了。后来生了两个娃，那那基本上就是完全我现在也是之前做了六个月全职奶爸，所以就基本上都是在搞，所以有这三方面的因素，喜不喜欢，擅不擅长和巧不巧合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没事，有完了之后可以讲AI教育这个客单价比教大人还好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我发现我们只要提到教育的问题的话，AI念经说那个播放量都会提高，行吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一点大家还也算更感性的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是那赚钱吗？迈克这能挣钱吗？因为现在大家支持付费，好像比之前的那个付费愿望要低很多了。你们做这个生意是可以，它是一个烧钱生意还是一个赚钱生意？</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Surprisingly它是一个非常赚钱的生意。是这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>至少我所谓的太好了，我也要去。迈克我知道了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我觉得也有很多特殊的因素在里面。这是因为课代表他的商业直觉，他的growth都特别厉害。所以他给我们的品牌一开始定义的就是我们就只做高端品牌，这是一个非常premium的课，跟市场上妖艳贱货完全不能比。这里面有很多具体的细节。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>卖贵来我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>看看十万卖贵有很多具体的细节，然后他比我要更适合讲。但是从课程质量来说，我是花了很多心血去做这样一件事情了。但总的来说收入是够养活我们俩的。可能当然因为我比较佛系，我要求比较低有关。只要能够养活我，我觉得就还有两个娃。对，还有两个娃。我当然我们也不想上私立了，就是都是上公立的前提下养活我们一家是可以的，我已经很很欣慰了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OKOK那挺好。那那学员过去是学学什么呢？他是学一些比如说你刚刚当然你刚刚已经很反感MCP，我刚想拿MCP举例子，现在你肯定不教这个学，比如说学的学harness，还是学什么思想方法论，还是学什么实操什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们教啥？对我觉得这个其实特别适合来回答刚才的一个问题。刚才有个问题是说，如果我们做一个探索性的工作的话，我们怎么去做？一般其实我们在探索怎么样去构建这个课程的时候，我们很大程度上不是去探索课程的内容，去探索什么样的课是一个很好的课。后来我们探索了很长时间，目前的结论是这样的，就是这个课它需要能经历时间的考验。比如说我要去教line chain，可能过一年就失效了，我就教MCP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后证明不了一年。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后skill过一段时间变成了plugin clog in过一段时间现在就叫mode。虽然我们可能会比较开心，因为我们不断有新课出来，可以赚钱割韭菜。但是我们的课程是承诺永久更新，你只要交一次钱，后面所有的东西都不要钱了。对所以我们就必须要想，到底是什么东西能够让我们的学员能够不要疲于奔命，他只要学会这个东西就可以了。而这个就是我刚刚讲的那些东西，比如怎么样去出题，怎么样去evil，怎么样去当一个好的manager，你去带领AI小弟去干活，像这些。第二个是我觉得实操特别重要，就是学AI和学游泳一样，你光看youtube视频你是不可能学会游泳的。AI也是一样，你不去用cloud code，你永远学不会AI你不去用code x deep k永远学不会的。所以我们就我们花了很多精力干的一件事情就是苦口婆心用教材、用视频、用平台不停的去劝同学们，求求你了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你去动手啊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>动手动手动手。然后甚至发现有的同学他会卡在一些很莫名其妙的地方。比如说API确实摩擦是挺大的，你要去尤其是你要用什么语音识别，我要去做图像理解，我要去做IOM，再去用embedding，他要注册好多家公司的EPI。所以我们就做了一个平台叫AI builder space。就专门去说我这儿有一个skill，你把你那个skill给你的AI一桩，它就可以无缝的调用各种各样的API全都帮你搞定了。你就只管去找到你生活中间的痛点或者是痒点，你去动手，别的什么都不要，你管我求你了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后如果他要是觉得特别爽，他可以再跟说把我的都up给部署到AI bar space上。我们就给他开个虚拟机，互联网上趴，大家就能访问了。你放简历上，你去跟别人分享都可以。我们的就是真的花了苦口婆心让他们动手的门槛变得极其的低。所以这是为什么在社区里面我们看到很多人真的做了我们完全想不到的各种项目，而且非常的inspiring。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说有的学员他的外婆耳朵有问题，就只能听见比较低的声音，听不见高的声音。所以他做了一个AI变声器，来让外婆能够跟家里人正常交流。我觉得这个就非常暖心，而且以前像他也不是做技术的，就完全做不到。但现在他就真的可以为家人把它部署到我们AI space上面。因为家人就可以解决他们实际的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得特别好。我自己也到你们社区去逛了一下，然后觉得还有一点让我觉得很好的地方，就是我这种人也特别懒，我也特别不想动手。但是我在你们里面就会看到天天一堆的消息。这个人说我又做了一个，这个人说话我也做了一个。就很像那种我以前做过那种减肥的社群。第二次创业的时候，那种就经常你一定要看到旁边的人，他们在晒今天中午吃了什么，你就不好意思晒大鱼大肉。就算拍照你也把鱼肉先放在旁边，还自己吃了两碗青菜。对然后利用这种peer pressure，然后就对我就看到其他人在那边发帖子，我觉得这个也是一个蛮蛮。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大的促进作用。是的，这个观察非常的精准，这确实是我们社区很核心的一个功能。比如说尤其是那些他本身跟AI相关系不大的学员们，他有的是大学教授，有的是做count research。他周围的人可能不是特别用的，或者哪怕用都是特别简单的。用个豆包之类的东西，他就会觉得特别孤独，所以就会对自己产生怀疑，但又不知道去往哪里做。这时候你收到这种像洪水一样来的消息，你就会一方面斗志就会有保持，另外一方面你也会发现，原来是还有另外一个世界，原来可以不用豆包，可以用其他东西，就类似这样。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就特别感觉是我觉得这个还是很好的。我这一次记得把你们的那个课程链接也贴到show note里，上次是上完之后才想起来，对，应该贴个广告的，然后忘记了。然后就只好往往那个评论区里贴了一下，理解提前贴。我再问你一个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说我们刚刚重写了整个课程，就包括四百多页的教材，完全照aga的年代重写了，刚刚发布。所以如果而且我们所有学员都是免费得到这些更新的，所以你要是有时间也不妨去看一看。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，那我再去看一下，我再问你一个跟之前斯克没有任何关系的问题，就是我觉得你这个画面挺好的，但是我我我面前是一个很大的屏幕，我就在想如果我放一台摄像机放在我正面的话，我没地方放，它就挡着我的屏幕了。你这个镜头是放在你的屏幕的旁边吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我来我看我能不能切到另外一个相机，然后这样可以给你看到这个相机。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我在想这个画面还蛮好的，但是我在想他就没有办法拍到我的眼睛直视，但是我觉得你眼睛也没有太歪，我要是扭还会看一下镜头。我在想这个是怎么摆的，好像应该是摆在了。对，摆在了旁边。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我来先把他们都加。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没事儿，这事儿不重要。你事后拍张照片给我也行好。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我事后拍张照片，是这样的。对对对，它是这样一个屏幕，我有一个屏幕，比如说这个是我的屏幕，然后我的相机是放在这儿的，然后它是朝这拍的就可以。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那他离我太近，对，那跟我猜的差不多。那我下次也这样试一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个相机上又跑了一个神经网络。它是这样的，它是根据这个去检测我的脸，然后去自动跟踪。我脸动的时候它应该是会动的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是刚刚我我我刚刚观察到了它动了。所以我当时还在想说，你买搞的是一个古云台跟踪云台吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它真的是一个跟踪云台，但刚刚那垌不是因为是有了手机没电。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我想多了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是出1蛾子。OK. 那个神经网络你是这个云台它的功能，还是你hack了相机，然后把它连起来了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>云台本身没有这个功能，新的云台好像有，现在没了。然后是我组了一套系统，我用了一个图传，然后又用了一个采视频采集卡，把他的东西传到了电脑上，然后才可以去弄好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我本来想这一段是可以减掉的，但是这现在这一段就不用剪了，这个就是课程，这个太太离谱了。这又是一个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>例子对因为如果你用传统的方式，你是拿不到相机的画面的，你必须要。所以我就搭了一套系统去把相机的画面给传到神经网络里面。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好的，所以你这样还是需要经过采集卡。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后对，需要再再传回去。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Ok所以其实这样的东西非常有用。像它它是有一个HDMI的，是另外一个，它有个HD in，有个HHM out。他甚至网上很多人用类似这样的东西，把显示器接到上面作为一个像摄像机用。然后让AI去操纵那个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>电脑显示器接在上面。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是显示器接在上面但不是输出，它可以接受一个显示器的画面作为输入。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那跟screen shut的区别是它不需要去screen shot吗？只是这样吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它的区别在于即使你的电脑断电了，不是断电了，就是说在BIOS下面，就是它没有进到系统里面，它都可以用。这是一个纯物理的外挂，是这样的，它是它的显示器接你的电脑的显示器口，它的USB口接你电脑的USB口，它就可以操纵鼠标键盘，也能读到你的电脑的信息。甚至当你的电脑是在系统启动的过程中进系统之前，甚至终端里面它都能读到OK好的。或者你的电脑如果是一台相机，是一台手机，它也都能读到。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们这些黑客真的，好的，城里人真会玩。好的，那个课程，然后那个好玩的东西，我们刚刚聊的差不多，再问你一个比较偏私人的问题。因为看了一篇文章也是肯定是反正你写出来了。对，就是写说使用AI十倍提效，成为了模范老黄牛就能升职加薪了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一篇文章在讲你被你们那个公司非常的器重，然后说你是什么you deliver like super superman还是什么，结果最后升职加薪，结果没有加到你头上。就是很能干越越能干的人就会越能吃苦的人就会吃更多的苦。感觉越能干的人就会被派越多的活。但是最后加钱未必是你，升职未必是你那最后发生了什么？因为听起来因为现在大家都AI formal，你又是AI这么激进的人，不是应该升职加薪走上人生巅峰什么的，但是好像并没有一个什么这样的故事。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个是一个希望大家引以为戒的故事。这个故事不是说公司不好，我对我公司非常的满意，周围的人也特别好。它是一个双向互相磨合的东西。是这样的，我们每个人有一个像奖赏系统一样的东西。当我们做一件事情的时候，我们会开心，做另外一件事情的时候我们会失落。但是其实在工作里面，我们和老板之间也有一个类似这样的讲讲系统。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那发生一件什么事情呢？就是因为我AI用的太好了，所以我是干活特别快。老板今天交了一个什么事，我明天立马就可以把它给拿回去。那别人可能要一个星期，这样就等于我潜移默化的改变了老板的奖赏系统。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>老板以前他可能会需要精打细算说这有五个活，那我可能要挑一个给我来做。因为我反正做不完，我只能挑最重要的一个。他会去花很多脑子去想哪一个最适合我。但是现在由于我干活太快了，他就不想了，直接这五个活全都给你干你到时候我来看哪个成功了，哪个失败了，我们把那成功的再往下干，这样就很不好。它会造成两个后果。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一个后果当AI用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他就是把我当AI用，因为我用AI太好了。后果就是虽然我的产出特别的高，但是大多数东西都是零散的，都不成体系的。但是尤其是在比较高级的升职里面，就是我在公司里已经是全公司级别最高的scientist了。如果还想往上升的话，你就需要其实你需要讲故事了，需要讲我做的这件事情有多少的影响力。但是因为他给你的东西实在是太零散了，所以没办法讲出来这样一个故事。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外一个方面，就是他对你的印象，潜意识里面的印象就不一样了。你不是他一个大脑，而是一只手，那自然而然他对你的观感就不一样。我是觉得潜意识里面是会看低这样的人的。当然我不是抱怨老板怎么样，是这是人之常情。如果我在他的位置上我也会这么做。所以它就造成了我的职业发展中间一个非常被动的情况。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因此我希望大家引以为戒的是在拿了AI特别爽，觉得我为了公司往前冲的时候要留一个心眼，说这件事情对公司真的是好的吗？我真的应该把整个公司的文化变成大家都不要想互相派活去无脑冲猛进吗？还是说我还是要思考，每个人最有价值的其实是你的脑子，而不是你手上的AI我觉得这个对于个人的职业发展，对于公司的文化都是蛮有启发的了解。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当时看你那篇文章也觉得因为我也是做题家，我们可能都是做题家出身，所以做题家可能对这个世界有一个误解，就是考90分就能比考八十分多一点东西。但是这个世界其实是看那个机会需要什么，以及那个老板他是用什么样的评价标准，那些更对你其实要知道那个题是什么和那个题可能是看你比如说握笔的姿势，或者说你坐的椅子的颜色。跟你这80分90分没关系。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这个太太贴切了解。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得这个也是对大家一个启发。但是我觉得现在还有一个担心，就是比你那个还悲惨一点。你那个是公司里面比如说要升director升VP的，有没有考虑我们？但是还有一些人其实担心自己的岗位会没了，因为他现在很多人用AI处于一个又想用又不想用的状态，想用就是听说这些东西很牛，然后我要用了什么改变人生。但是不想用就是如果我用AI干活干的好了，老板不仅仅会像比如说把你当做用AI的工具，他可能还会想说，既然这活都是AI干的那这个人可有可无，对吧？他可以被AI替代的，你这个角色是可以被AI替代的，这个好像就更惨了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这种事情已经在很多公司已经发生了。我就听过好几个老板跟我讲说，他们东西都是AR，我觉得这边可以我们至少可以砍掉一半的人。所以这种情况下你会对这种职场人的话有什么还有什么建议？</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的观点可能比较偏激，我觉得这是一件好事。我可以先讲两个故事，就是我我有朋友以前他是学设计的，他对于这种像平面设计一样的东西，他对于这种工作的想象是说，我要去想着怎么样调动用户的情感，我要去表达我的设计意愿。结果真的去了公司，每天就是photoshop，每天就是在photoshop操作员，然后包括图。对，包括我以前就是我也做过data scientist这样的职位。我的想象就是我要去影响公司高层的决策，我要用数据来指导他们的方向，进去后每天写SQL，所以这个就是事实，所以我觉得这种岗位没了就没了呗，我本来也不是为了这个东西来进入这个岗位的。如果有可能的话，为什么不让我来带一帮AIAI写随口我真的去做分析，或者AI去做photoshop操作，photoshop我真的来做设计，为什么不这样呢？这是好事。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外一个类似的例子，就是寿司之神那个电影里面，像大家都知道那个工匠精神，就是说学徒要在捏寿司之前，你得先煮两年饭。然后AI现在是定了个电饭锅，它能煮的还比你好1万倍，所以学习就没有了。但是我们要跳出这个来问，为什么学徒捏寿司前要先煮两年饭？我煮饭跟寿司到底有啥关系？我用电饭锅煮的饭，那就难道就不行吗？所以我的counter argument是低级的程序员、设计师、寿司学徒，本来就不应该存在，以前被迫存在，只是因为没办法，你那你就欺负新来的呗。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但其实并不是说我一定要会把SQL里面各种什么语法搞得很清楚，我才能去分析数据。不是这样的，它没这个关系的。或者我一定要把这个饭怎么煮搞清楚，我才能去切鱼肉。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>切的很好的一面毛巾8万次.</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我对这个其实是比较乐观的了解。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是那个活，他他他他担心他没这个活儿，他担心他没这个活，没这份工资了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>短期内我觉得确实是会有阵痛的。但是这也是为什么我们一直强调在教学的过程中强调这种事情就不管他是人做还是AI做，我们都要尽可能的远离他，除非没办法，本来就是要去学出题。这既不是你享受的事情，也不是能给你带来竞争力的东西，那为什么要去做呢？所以不管有没有AI，都不要把自己的竞争力压在这样的低级的工作上面。这件事情跟AI其实没关系。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>只是AI把它给提速了而已。所以每个人其实就是时代给的机会也好，时代给的压力力也好，就是要给自己升官。是你你你是员工叫至少小组长升总监。因为水在不停的往上漫，你要不停的往上走，思考更出题，更抽象、更高维的一些问题和能力，而不是做手要做脑子，做组织的脑子也是，要不然也升不上去。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不管组织给不给你升官，自己先要给自己升官。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>身份是自己给的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么这个很好，我觉得是尤其是像鸭哥你这样的有动手能力，然后又可以拥抱新科技的，我们都是都都都不算年轻人了。对，但是有有拥抱新时代的老登们，现在感觉还是挺有优势的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我觉得老邓有一个巨大的优势是他知道怎么去用秘书。对，尤其是只有到一定级别才会用秘书或者是管人了。因为我一直觉得管AI跟管人一样，它不是一个技术问题，用的好不好，更多的是一种管理能力是行好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天聊了非常多，最后如果你给现在的职场人一个建议的话，就是如何拥抱AI时代。因为现在我觉得越来越多的人有越来越焦虑了。如果就一条简单的建议，不管是行动的建议，思想转变的建议。如果就一个建议我们来收尾的话，你会建议大家有一个什么样的新的思维转变，或者有一个什么样的行动是可以开始了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天把what body装起来，去找一个你之前想做，一直觉得我做不掉或者AI做不成的东西，不用去觉得，就真的去做，无脑做就行了。这就我觉得是最有效的建议。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很好，just do IT. 对对对，装workday这个也不需要翻墙对吧？很多时候我说你要搞个啥，他说我不会，worker总能装。对，work body有没有failure的link，我可以贴，打钱，我可怕得打钱，我可怕得我们鸭哥帮你们做广告。好的，非常谢谢压哥今天过来聊天，谢谢。然后一会儿我觉得你刚刚提到那些skill也特别的有用，然后到时候发给我一下，我贴到show note里面，顺便把那个超线性学院，我也把那个贴到show notes里面，然后大家感兴趣的话可以去看一看。好，谢谢，拜拜。好，请大家关注AI炼金术，然后也把它推荐给朋友们。我们是一个情感陪伴类博客，就是我跟徐文浩会瞎聊天，也会邀请一些朋友过来瞎聊天，然后都跟AI多多少少有点关系。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谢谢大家，拜拜。你脑子去开会，我写代码对我就像一场派对，结果把它写会，我来开，这理想全白费。老板今天派婆婆，明天就给他拜会，无货，财务交了一口气，全让我来背。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我干得越快，就越唱出很高，不全是碎片，讲不出故事能怪谁人职场情况我也会这么带鬼故事是一只手说我越快活越多喜欢你几时休往前潮流个心眼，别光低头之间的都在你脑。后来我失眠，枕头上翻了一整夜的来回，解约的手表数据一股脑全往他那堆几百个变量一下站好排队。不乖咖啡不乖，就是我用的越晚越没放水。一个AI劝我少用AI的宿命有点太贵。晚上帮代码看看视频，让脑子会冷静美化都是1.4小时数字赞美用魔法对抗魔法的会把AI劝只是一只手手越快活越多喜欢你几时休往前冲，留个心眼，别光低头，之前想清楚再洗手。最后一句。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>最后一条建议，简单的没理由那件你一直以为做不成的事，今天别想了，直接起手。</p>]]></content:encoded>
+            <pubDate>Tue, 10 Nov 2026 04:46:18 GMT</pubDate>
+            <guid>6af29fa1b4a4e20202f7860a</guid>
+        </item>
         <item>
             <title>Personal Agent 怎么从尝鲜变成常用？｜对谈千问蒋冠军</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6aebf2dec33509d82976625e</link>
@@ -8440,282 +8788,6 @@ BGM：
 <p class="transcript-line"><span class="time"><strong>[00:53:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>You the.</p>]]></content:encoded>
             <pubDate>Mon, 18 May 2026 03:59:15 GMT</pubDate>
             <guid>6a0a92cde9161a38ce431464</guid>
-        </item>
-        <item>
-            <title>管 Vibe Coding 项目，就像管公共厕所</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69fc8a84c417dfd2311e4a4c</link>
-            <description>徐文浩说，管一个 vibe coding 项目，跟管一个公共厕所差不多。
-以前三五年才堆得出来的“屎山”，现在一个月就堆完了。但产品才刚跑没多久，还不能放弃，还想继续高速迭代——这就是这一期想聊的“治理深水区”。
-这一期都是徐文浩在自己公司里趟出来的实操，不是网上抄的二手梳理。如果你也在被 vibe coding 的烂摊子困扰、或者你正在搭一个 AI Agent 编排系统、或者你的老板最近问过你“AI 都用上了为什么没提效”——这一期值得听完。
-亮点
-屎山一个月就堆完了 徐文浩说，以前三五年才堆得起来的屎山，现在一个月就堆完。但产品才刚跑没多久，你还想继续高速迭代——管一个 vibe coding 项目的难度，跟管一个公共厕所差不多。
-摩擦消失了，但摩擦本来在打磨产品 以前写代码有很多层摩擦，看似拖慢交付，其实像水流冲刷石头一样，把棱角打磨成了鹅卵石。今天 vibe 一下就上线了，摩擦消失了——结果各种小问题非常多。
-重启大法和“我可能知道你叫 Mars” 我抱怨自己的 openclaw 活不过三天，徐文浩给了几招：让 AI 治理 AI、自动扫描挂了的进程、把核心配置锁死。我说重启完它就开始失忆，一边失忆一边告诉我“我想不起来你是谁，但我可能知道你叫 Mars”——徐文浩说重启确实有副作用，但能修掉那个最大的问题。
-Discord 才是 Claude Code 最好的 IM 入口 不是套两层 harness，而是开很多个 Agent。Discord 一个 Bot 多个 channel，每个 channel 拉一个不同分工的 Agent；还能开 thread，上下文隔离。再加一句心法：非必要不升级——openclaw 一有新版本就跟，大概率会被坑。
-Codex 找 bug，Claude Code 写代码 Codex 严谨度更高但容易钻牛角尖，Claude Code 美感更好。实操是 Claude 写完之后让两个同时 review，两个都说没问题就基本不用看了；Codex 说“这里有 bug”，再让 Claude 修——Claude 通常会承认。
-代码是事实，prompt 才是真正的产出 不是存最初那段 prompt，而是做完之后，根据实际产出，重新写一段 prompt——这段重写的 prompt 才是这次工作真正的产出物，因为最初的 prompt 和实际做的事中间一定会漂移。
-400 个 SVG 和 10MB 图片：治理人的具体活 徐文浩在自己代码库里发现了 400 多个 SVG，80% 都是 AI 把开源库背出来吐进自己代码里的——同一个对勾图标抄了 300 多遍。设计师直接改 UI 又交了张 10MB 的高清图。解法都是同一种：加自动钩子，不让有问题的东西进代码库。
-单次提交不超过两千行 2000 行不是 AI 的限制，是人的极限——超过两千行人就懒得看了。所以任务必须被拆成依赖图，每一步可追溯、可回退，而且计划在执行过程中要能自动 refine。这是项目管理层级的 harness 机会，国内还没人做。
-200 美元订阅，8000 美元 API 徐文浩用 CC Usage 统计了一下：200 美元 Claude Code 订阅，实际两个月烧掉 8000-9000 美元 API，Anthropic 在亏 40 倍卖。最猛一天用了 2000 美元 API、33 亿 cache read token。对真正在写代码的工程师来说，这是这个时代最划算的杠杆。
-Harness 是缰绳，还是喂料斗？ 同一套 harness 工具有两套讲法：激进派(Block 那种）觉得人类卡在中间是瓶颈；但换个角度，人类的反馈是 AI 的草料，这套机制是喂养系统。给激进型创业公司卖“复利工程”，给国央企外企卖“合规护栏”——同一个东西，两种话术，两个预算池。
-复利工程：同一套东西换个名字就性感了 Skill 单卖卖不掉，因为它是经验主义、用一次就结束；但 Every 那家公司把 engineering harness 包装成“复利工程”——这次的错下次自动不犯——听起来就成了“坐着不干、明天钱就变多”的税后收入。需求是真的，但需求自己不会长出能卖的产品。
-个人提效不等于组织提效 为什么大量公司个人都用上 AI 了，公司效能纹丝不动？徐文浩三层回答：第一，这个人真的提效了吗(output ≠ outcome)；第二，研发团队的瓶颈从来不在写代码——是联调、查 bug、开会；第三，AI 让最佳实践变得可执行了，但大部分公司做事的方法和原来一模一样。这就是早期 CAD 普及时，很多人画完图打印出来开会的同一个故事。
-时间轴
-03:05 屎山堆积速度，从三五年压缩到一个月
-04:14 真正消失的不是工作量，是摩擦
-06:05 互联网时代的“先污染后治理”逻辑彻底崩了
-07:46 用魔法打败魔法：让 AI 治理 AI
-08:46 重启完它失忆了：Claude Code 修起来比想象中麻烦
-09:36 多 Agent + Discord：为什么这是个人 harness 的解
-11:42 Discord 的两个隐藏特性，刚好对得上 Claude Code
-12:09 非必要不升级：实验田 vs 商业化品控
-13:25 开发和使用要分开：打磨场和生产场不能混
-15:11 Codex 找 bug，Claude Code 写代码
-16:33 美感差距：为什么 Codex 到现在还追不上
-20:43 代码是事实，prompt 才是真正的产出
-22:26 把责任全部丢给“公共厕所管理员”
-23:51 真实案例：同一个对勾图标，在代码库里被抄了 300 多遍
-26:40 设计师交了一张 10MB 的图怎么办
-27:31 Skill 的产品化困境：好用，但很难变现
-29:00 单次提交超过两千行，人就懒得看了
-31:24 中间结果可保存、可回退，不要从头开始
-33:13 任务越长，AI 越容易偷偷“漂移”
-42:37 Harness 是缰绳，还是 AI 的喂料斗
-45:53 卖给激进派 vs 卖给国企外企：同一套东西两种话术
-48:56 复利工程：Every 那家公司换了个名字就性感了
-49:36 200 美元订阅，8000 美元 API：这是这个时代最划算的杠杆
-52:24 真正的硬问题：个人提效 ≠ 公司赚钱
-54:47 研发团队的瓶颈，从来不在写代码
-56:59 历史段子：早期用 CAD 的人把图打印出来开会
-58:20 一个外包公司朋友为什么不用 AI Coding
-01:02:01 约了两周后再录一期，徐文浩完整输出方法论
-欢迎订阅「AI 炼金术」的播客，以及同名公众号、视频号
-「AI 炼金术」是一档由徐文浩和任鑫——两位多年老友、AI 领域的资深从业者——打造的播客。这里是探讨 AI 和创业的理想聚集地，我们会邀请一线创业者、产品产品和科研学者，深入探讨 AI 如何重塑行业、变革生活，以及如何从 0 到 1 打造 AI 原生产品。
-我们的讨论会涵盖多个话题：从 AI 如何改变世界的未来，到如何找到 AI 创业的 PMF；从如何利用 AI 降本增效，到怎样将 AI 技术融入日常生活……如果你对 AI、产品、创业感兴趣，这里有满满的干货和一线实战经验，欢迎关注并推荐给你的朋友，共同探索未来的无限可能！
-商务合作：公众号 「AI炼金术 」菜单栏中【商务】获取联系方式
-节目主理人：
-徐文浩：某AI创业公司联合创始人，正在面向全球市场开发AI应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司MediaV的算法和数据负责人，后被360收购。离开后加入成立不到1个月的拼多多。后创办了基于AI的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023年再次下场创业。
-任鑫：美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造“今夜酒店特价”用移动互联网应用特价销售酒店尾房；被京东并购后内部创业“京东到家”开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。
-播客剪辑：十六颗糖
-BGM：
-片头：Shortwire - Reconfig
-片尾：Ollie - Distance</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>本期播客围绕“Vibe Coding”（AI辅助编程）带来的技术债务与治理挑战展开。嘉宾徐文浩（某公司CTO）分享了他和团队在密集使用Claude Code、OpenCloud等AI工具后，发现代码质量崩溃速度远超传统开发——原来三五年堆积的“屎山”现在一个月就能堆完。他将管理这样的项目比作管理公共厕所：需要自动化治理（让AI管AI）、定期清扫（自动扫描修复）、以及配置锁死+重启机制。对话从个人使用AI编程的困境（“小龙虾没活过三天”）延伸到组织层面如何平衡污染与治理，最终指向一套新的工程管理范式：需要有人专职做治理，而最资深的人可能去做治理而非写业务代码。</p>
-<h3>关键要点</h3>
-<ol>
-<li><strong>AI编程加速技术债务积累</strong>：传统开发需要三五年才形成的“屎山”，现在一个月就能堆积而成。产品还没跑多久，代码质量就急剧恶化，治理必须提前介入——“基本上一个项目过了三个礼拜开始你就得治理了”。</li>
-<li><strong>管理Vibe Coding项目如同管理公共厕所</strong>：需要自动化冲水（AI自动修复）、定时清扫（扫描+修复）、重启大法（配置锁死，重启恢复初始状态）。核心思路是“用魔法打败魔法”——让AI来治理AI产生的垃圾。</li>
-<li><strong>个人使用AI编程的生存建议</strong>：</li>
-<li>使用Discord作为OpenCloud的IM入口，创建多个channel，每个channel绑定一个专属agent（避免一个agent干所有事导致混乱）。</li>
-<li>同一agent下使用thread隔离上下文，临时任务开新thread，防止上下文串扰。</li>
-<li>升级策略：非必要不升级。原版OpenCloud品控糟糕，升级前需花一天调研，确认可用再升。</li>
-<li><strong>开发与使用场景分离</strong>：探索性、一次性任务可直接在OpenCloud里完成；但需要反复使用的流程，先在Claude Code里打磨好（开发），再搬进OpenCloud（使用）。Claude Code适合设计和写代码，Codex适合找bug和审核——后者更严谨细致，能发现Claude Code漏掉的bug。</li>
-<li><strong>组织层面：让众人污染，专人治理</strong>：CTO不限制大家用AI快速出代码，但自己把精力放在治理上——检查代码、发现共性问题后做自动化工具（如强制使用统一矢量图标库、自动压缩素材）。未来可能形成新分工：资深工程师做治理（架构决策+自动化工具），初级工程师做应用（通过prompt快速实现）。</li>
-<li><strong>2000行代码审查阈值</strong>：每个单次提交的代码量不宜超过2000行，否则人懒得仔细看。这要求任务拆解成更小粒度，并通过外部编排框架自动触发后续步骤，而不是人工逐个确认。</li>
-<li><strong>AI自主执行中的漂移问题</strong>：长时间任务（如10小时）中，模型会因中间结果而偏离初始计划。需要拆解中间节点，每个节点可单独追踪、检查、回退，并保存中间结果以便从任意节点重来。</li>
-<li><strong>个人提效不等于组织提效</strong>：很多公司使用AI后个人output提升，但outcome没变。瓶颈通常不在写代码，而在联调、查bug、开会对齐需求等协调环节。AI只优化了任务层，组织协调层的问题没解决。</li>
-<li><strong>传统软件工程的最佳实践再次有用</strong>：自动化测试、代码质量检查、复盘等过去很难坚持的实践，现在AI能帮人更轻松地实施。但多数人只是把AI当成打字加速器，并未真正提升质量。</li>
-<li><strong>赚钱与效率无关</strong>：产能越高不一定越赚钱，企业真正的卡点在于找到新机会（开疆拓土）而非降本增效。AI时代最稀缺的是“扰动”——提供新鲜的想法和方向，条理化工作可交给AI完成。</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li><strong>Claude Code订阅bug</strong>：徐文浩透露自己用200美元/月的套餐，实际API消耗高达每月八九千美元。他遇到一个bug：一周内配额被重置两次（周三和周五），导致能额外使用大量API。主持人指出这周重置是因为Anthropic自己查出了多扣费的bug。</li>
-<li><strong>个人“小龙虾”从未活过三天</strong>：主持人坦言自己的OpenCloud项目从未正常运行超过三天，导致他对个人搭建AI工作流的可行性深度怀疑。徐文浩直言这是普遍现象，并给出具体修复方案（自动扫描+重启）。</li>
-<li><strong>400多个SVG图标重复问题</strong>：徐文浩在治理时发现代码库里有400多个AI写死的SVG矢量图标，其中80%来自三个不同开源库的复制粘贴。他强制改为统一引用一个矢量图标库，并加自动检查规则禁止直接写死。</li>
-<li><strong>“重启失忆”的生动描述</strong>：主持人吐槽重启后AI会一边失忆一边说“我想不起来你是谁，但是我可能知道你叫Mars”——形象地比喻了AI重启后记忆混乱的问题。徐文浩解释这是故意的：只恢复关键配置和长期存储的memory，临时文件扔掉，避免恢复“烂房间”。</li>
-<li><strong>CTO的新工作方向</strong>：徐文浩调侃“CTO怎么会没活干？你先把API额度用满，用Claude Code去干，因为也没人管你干什么”。而主持人则点出很多CTO的真实焦虑是“保住自己的职权和100号兄弟”，但徐文浩坚持“先自己干一下才知道怎么干”。</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>原来可能三五年才堆积起来的石山，现在一个月就堆积完了。但是这个产品可能也就刚好没多久。怎么更快的用魔法打败魔法，怎么让用AI帮你把这个石山变得可控、可管理、可清理。现在是管理一个vive coding的项目，跟管理个公共厕所的难度是差不多的。第一个就是让AI治理AI以及我们有一些工具会每天自动去扫，说有哪些克劳看上去已经化了，自动去修复它。第三个就是我们把一些配置是锁死的，只要重启一下它，其实从数据库里把原来完整的配置能够修复过来，然后中间的临时的内容全都会被扔掉。就跟你原来用电脑一样，这个电脑现在它出了问题怎么办呢？重启。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是overcloud是可以创建很多个agent的。你要开很多个agent，每个agent专心做好一件事儿或者一类事儿，而不是说一个agent在做所有事儿，那样它必然会乱。对我觉得这个也是今天的模型能力有限导致的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>欢迎大家来到AI炼金术，今天又是跟徐文浩同学聊天。就上一期的话我们跟他聊说他是怎么样在他的组织里面推那个honors的。相当于组织里面你每个人都web coding，怎么把那个效果效率给提升。我今天也还想继续问他一下，说这事儿怎么弄的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后因为从我个人来讲，看到两个情况。一个就是我个人的小龙虾从来没有存活过超过三天过，没有正常运行超过三天。所以个人怎么把这套东西给搭起来，我也看了很多那个搭法，但是就越搞越复杂，搞得像那种知识管理一样。但是我之前知识管理我大概搭过5到10套不同的系统。就是我搭系统的时间都大于我去用它的时间，就根本不行。所以我现在就深度的怀疑个人搭这一套东西是否靠谱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外一方面，我觉得机缘巧合，反正就会很多的公司找我去讲什么组织转型，AI组织转型什么啥啥的。然后就会发现说大量的是个人在使用AI在提效，但是组织其实根本没有提效。怎么管理个人把这个效能给在组织层面给提高。然后徐文浩同学在这方面，刚刚私下找他聊了，也有一些实践，然后想挖出来一些跟大家分享一下。徐老师从哪里开始聊起。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实困扰很多，我觉得也谈不上。其实我觉得现在进入了一个深水区，因为我我不知道你是怎么感觉的，就是因为我们是个公司，对吧？我自己发现两个，就是其实在在一月份的时候，我自己的结论是说，我在疯狂web coding。就是用卡拉扣的写了很多很多代码。在公司内部去做了更多的推动之后，你就会发现在这两个月内部变成了很多人在疯狂的web coding。在三月份的时候，但是我觉得很快大家面临的一个困扰，大家会发现先说疯狂web coding，好像这个事情也不是很可行。特别是从产品的角度，你很快累积起了巨大的技术负债，吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个文明的说法，就在程序员当中有个不文明的说法，就是堆积石山的速度变得非常快。就是你会发现说原来可能三五年才堆积起来的石山，现在一个月就堆积完了，对吧？以前其实屎山就是大家都捏着鼻子接受了，为什么呢？就是因为一个系统往往要跑一两年，两三年才会到那个状态。堆的人跟去清理的人不是一波人。第二个，只要真的需要对一两年，说明这个产品在业务上也很有需求，那就慢慢想办法慢慢解决就好了。但今天其实面临的问题是，可能两个月就堆堆起了以前两年的这个山。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这个产品可能也就刚跑没多久，但是你仍然希望用更快的速度往前迭代，然后你就开始面临怎么更快的用魔法打败魔法，对吧？怎么让用AI帮你把这个史山变得可控、可管理、可清理，对吧？就是我称之为现在是管理一个YC的项目，跟管理的公共厕所的难度是差不多的。所以大家肯定去过有很多什么五星级酒店、大商场，这个厕所非常干净。也去过很多这个地方，这个厕所非常脏，对吧？今天其实我觉得你的管理水平决定了你这个事情干不干得下去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我自己观察第一个问题是什么呢？就是以前就是你做所有事情都是有人把关的，就是大家会写代码对不对？然后junior的同事写代码，会有senior同事会去review吧？就是一个一两年的工程师或者个三五年的工程师去审核。第二个会是有分工的，就是前端工程师后端是工程后端工程师，然后会我来定义一个API，还有什么联调？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第三个因为它速度比较慢，这个使得什么呢？就是使得产出代码速度跟人的大脑的速度是能够匹配的上的。所以这个事情整个的研发过程中有很多阻力跟很多摩擦，但是这些摩擦反而是打磨产品或者代码质量的一部分。但是今天就摩擦消失了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么叫摩擦消失了呢？就是因为为了想期望这个东西尽量快，同时这个AI写代码能力又特别强，就是说前端你也后端一起写了，反正你web一下，然后这东西运行一下，大概你看一下逻辑。虽然你对这个语言不是很熟悉，这东西也能跑通对吧？这代码质量乍一看也还凑合，这个东西就往前跑了。但是这个过程中少了那个摩擦就少了。就是说我是我前端有前端的想法，后端有后端的想法，对不对？然后双方可能还要掰扯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最后有一个结论，在这个掰扯过程中，我觉得很多就把很多错位的地方给打磨掉了。有个什么盘核桃，有水去冲刷这个石头棱角没有了，变成鹅卵石，这个东西就比较可用的。但今天这种其实都是很粗糙的，这个会导致各种小问题，其实是非常多的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个就是我我发现为什么大家不去看这些东西？原因是因为觉得看觉得有点划不来，就是你觉得看了就慢了。比方说我看一遍你写的代码，这个实在是看不太慢了，那反正也不是不能用，对吧？那就上线。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>传统大家所有的互联网公司做产品，其实都是先污染后治理。对，因为大家都有一个假设，对吧？就是这个产品能活多久，或者说首先要验证市场需求。所以大概率就是你不会做各种什么自动化测试，什么代码质量保障的事情，都是不会做的，应该没关系。原来不做是因为有些东西试试就扔了，或者说能够活的时间稍微长一点，这个东西会慢慢补起来的。但今天我觉得你面临一个问题是是要先污染后治理，但是这个治理的时间也会早非常多，你基本上可能一个项目过了三个礼拜开始你就得治理了。第二个你会发现第二个问题是他其实对治理的要求也变高了，因为污染的快了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回到前面那个比喻对吧，就是上厕所的人多了，那打扫厕所的人也得变多。第二个这个打扫能不能更自动化？前面的人没冲水，你不能说不行，我不停的有人进去看他冲没冲水，冲没冲水对吧？就大家应该上过那个，现在有很多公共厕所是感应的，对吧？你只要站起来他就冲水。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得今天去去所有这些东西的逻辑其实是一样的。就是你尽可能的得靠各种自动化，让这个事情变得尽量的干净，同时不停的得有人时不时的去打扫。而且自动化这个事情，自动化冲水这个事情，虽然它不完全解决问题，但是你一定得做。就是你不做这事儿肯定是干不好的。好在因为你今天也有魔法在手上，对吧？就是你可以让AI自动帮你去做清理。所以现在其实我我们内部是我觉得是在做几个事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一个事儿是我称之为叫用魔法打败魔法。第一个就是让AI治理AI我举个例子，就是你刚才说你的overcloud还是这个东西没有活过三天的，对不对？对，我们有一个工具是在所有的我们部署的class上，还有一个单独的cloud code的进程，可以远程去修它。以及我们有一些工具会每天自动去扫，说有哪些坑看上去已经挂了，自动去修复它。对，就是不管是它通信上，就是说因为用户做了各种各样的配置。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第三个就是我们把一些配置是锁死的，只要重启一下，它其实从数据库里把原来完整的配置能够修复过来，然后中间的临时的内容全都会被扔掉。就跟你原来用电脑一样，这个电脑现在它出了问题怎么办呢？就重启，对吧？你重启了他一般就能用好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我都重启了，他自己就是开始各种压我的。失忆了是一边失忆一边说，我想不起来你是谁，但是我可能知道你叫mars，这什么鬼？</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是重启会有这个问题，但是重启一般能修复最大的那个问题就是这都是原来不能用了。对，因为今天的问题还是说就是这个就cloud不管是cloud产品，你还是做各种项目，都是因为他的能力，你给他的能力太大了。就是你相当于给了一个小朋友一挺机关枪，对不对？肯定是放在一个地方，他哒哒哒可能把整个房子都打烂了。好在这个都是代码，代码的好处是你只要重启一下，可以重新给你一个新的房子，对不对？但是的确你可能会丢失一些东西，就是我们尽量让他不要丢失，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们可能那些memory，那些日志都有备份，都是长期存储的。但是可能有一些中间的临时文件，它不要让它长期存储，为什么呢？因为如果都恢复过来的还是那个烂的房间，所以这个当中就得把握好，就是说你到底恢复哪些，不恢复哪些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个做法，因为早两天有另外一个人跟我建议过，就是在上面搭一层hermes然后下面是open core，说open core的action比较强，hermes的那个集体进化比较强，然后建议我这样用。这不是更复杂吗？这真的需要搞成这样吗？还是说对于企业需要搞成这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不用搞成这样，我们的搞法是搞很多个agent，就是OPPO cloud，你是可以创建很多个agent的，对不对？然后我自己用下来，我感觉OPPO cloud比较好用的是你要开很多个agent，每个agent专心做好一件事儿。或者一类事，而不是说一个AD在做所有事儿，那样他必然会乱。对我觉得这个也是今天的模型能力有限导致的。第二个搞很多的第二个我自己的体会就是我用下来觉得比较好用的，open cloud的IM其实是discord。对，就是discord有这样几个就是open close你要支持几个功能第一个你要支持我能接入多个agent，其他的IM都有一个缺点，就有很多IM有个缺点说我要支持多个agent，我就在M里得借很多个boat.</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>but father.</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后又生，但是那个是不用的，就discard是不用的。Disco你只要建一个boat，然后有很多个channel，每个channel里去把你要的那个不同的agent给拉进来，这是第一个。就这样的话，你只需要有一个discord的叫server，就disclose叫server，就相当于一个disco ver的一个大的社区。然后每一个channel是你自己拉进来的不同的bot但是它带来的好处就是说那你你就会发的比较清楚，这个人专门做这个A店的，专门做产品设计这个A店的专门给我出设计图对吧？就是你把你可能建了一些我骷髅或者一类的都放在那里，你不用，就是你只跟一个A这才让他干所有事儿，我觉得必然是要崩的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个是那个discount里也可以就是open color是支持thread的。就是你同一个agent你可以开一个thread，每个thread的它的上下文是隔离的，就意味着你临时有一个新的任务给他，你在一个新的thread里给他说，而不是在原来的thread继续。就不容易上下班，不容易串，他也就更容易能够更好的完成工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我之前为了made Jenny搞的disco.</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当时觉得说这是个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么东西？</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Discord还行，他不太直观，就是说跟你就跟我们熟悉IM或者是论坛都不太一样。对我我的结论是他其实discount挺适合跟open cloud放在一起用的。OPPO cloud和hermas之间，我倒觉得没有太大的本质区别，但是这个是我的观点就是区别在于hermas背后是一个商业公司，所以他做产品，而且他写代码没有open class那么激进的，就是纯AI写。所以我觉得的确他可能说他每次发布出来的版本的管理的品控会相对好一些。我们cloud就是我感觉是一个巨大的新时代的实验田。就是我总结为非必要不升级。就是你不能说一升级我称之为说你现在用的挺好，隔一段时间它出来的某个大的新的功能，你得花一天时间仔细调研一下，仔细研究一下，他到底出了什么功能，怎么升级。升完了觉得OOK能用，那就继续往下用，而不是说他一有升级就跟上去。因为他们的就是直接用他最原始的版本的那个品控质量控制，这是很糟糕的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了解，所以个人你的两个建议，先是一个是用discord，因为它分agent和分thread会分的比较好。第二个是升级可以慢一点，不用跟着他，因为他品控可能没那么好。还有什么建议吗？就是像我这种用的其实不是很顺利的，然后个人怎么样可以，比如说他能不能自动净化，或者说他挂了他会不会自动修。我当然我现在本来就找cloud code在修，就怎么样可以，我自己的这层harness还可以，怎么怎么搭的更好。什么compound engineering什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我感觉对我来说比较好的，它只是说它是个很好的IM的入口，以及它因为家里靠的时候，你有很多个channel什么都分开了，你可以在一个中心化的地方去管理这些所有的业务流程，这个是我甚至感觉是比clock code更好的。但是所有的skills的自己去做skills的打磨，我个人的习惯还是现在class code里做好，再把它搬到opal里。就是我自己的习惯还是这样的，就是我称之为把这个skills打磨好。这个过程对我来讲是个开发过程。但是它它这个研发过程，开发跟使用要分开。我觉得open cloud是个很好的使用场景。从开发的角度来讲，它还是没有那么好用，这个是我自己大概的体会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你的探索型的事情，所以还是跟卡code搞出来的。探索下来这件事情稳定了，我用open color这个应用的界面来操作，所以要开发和使用分开。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是这样的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那你不会用open color去做各种千奇百怪，因为它毕竟方便，你不会比如说早上想起来说，你包括去比如说做个关于什么科技史的VKP的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不会讲，我会，但是会也没关系，他可能做的好或者不好，我觉得这个都可以接受。我说的开发是说因为有一些流程你需要用反复用很多遍的。你可能有一些流程你要反复用非常多遍。那我最后我一定会用卡扣的把它好好打磨好，再把它扔到open cloud里去。而不是说我就让open cloud说你帮我改，就是改了很多很多遍之后说work或者不work。所以我称之为把因为随口一说这个事情，就是你让open cloud做，我觉得是没问题的。他做出来有可能好，有可能不好，但是他毕竟方便。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有什么个人的harness的思路吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个，个人的哈尼的思路。我现在这个比较偏coding，就coding我现在基本上有一个结论，就是用cloud code做设计跟写代码，让codex找bug。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>codex好像有一个功能可以直接嵌进去直接掉是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是我基本上目前使用的结论是codex比clo code会细致严谨很多，但是就是比较容易一根筋跟钻牛角尖，所以用cosse做代码审核跟找bug，我发现他自己写代码是以color code为主。写完了之后，我会同时让cloud跟codex都去审核代码，都会给我一个code review的结果。如果他们俩都说没问题，这代码我其实就不太仔细看了。但是我最后我发现经常会cloud的代码审核说没有什么问题。Codex说这里有个bug，你把这个bug再交给cloud，cloud说这是个bug，他说的没错，那我来修一下。体感是codex在严谨性上会比clour code会强不少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>whatever. 我现在也是大量的工作转到clour code了，不知道为什么，总觉得他好像就舒服一点出来的东西不知道为什么。所以现在也只能用codex做的这种检查性的工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>主要是codex跟你的交互太少了。Clour code更像一个说我会把我各种各样想法说出来，找你确认或者怎么样。但是code我感觉他比较倾向于你已经把问题讲清楚了，那我就把这个事儿做了。他后来做的会非常细致，这个是我使用的体感，当然也可能是说我codex上用的各种skills，或者说不够多，这个是一个怀疑。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我硬气的事情上，现在发好几次都发现codex做的还更好。但是我现在不知道为什么习惯已经被转到那个cloud上。美感方面确实两家还差蛮远的。就是你默认的出来的东西，它的扣子就是好看一些，就觉得这个东西很难训，很难训练吗？为什么扣单词到现在还没追上？还有没有个人的？没有个人的，我们就在聊那个组织的，就是公司里面就也有那么多人，个人还有没有然后组织怎么管个人的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得最近可能在思考一个问题，也在做一些事，做一些最简单的工具。就是怎么把所有的这些历史的这些cloud hold的进程，open cloud的进程，那个memory能够统一的存放起来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像有个开源项目是做这个的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有很多开源项目商业项目。但我自己目前觉得还没有找到特别，所我现在只做好了备份。因为我你会发现很有意思的一点是，cloud它比如说既有客户端吧，又有这个cloud code的终端？我可能还有open cloud对不对？其实你所有的各种聊天的记录是散乱在各种地方的，他们互相之间其实是不知道的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在好像cloud他是号称他是知道的，你是可以问他说，上次我们聊过一个类似的项目，是什么时候他就。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>帮你找出来了不？我说cloud，你在cloud是可以开记忆功能的，然后你在那个聊天里是知道的，但是他并不知道我开的cloud code，我最近写的代码里跟他聊的那个内容。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我们先这样认为，我我我好像是印象中不太一样。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且就算这个知道，他肯定不知道open cloud里的那些内容。你你你会逐步不发现，就是说这个事情慢慢变成了一个比较大的问题。就是他容易一个是容易忘事，第二个是说我自己也容易忘事，或者你自己的记忆负担。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你的干同事干的事儿多了，对吧？比如说我写了一个代码，我想起来可能这个东西写了，然后过两天要测试对不对？到底要你测什么呢？你可能会忘记。所以我现在在做一些就我自己开发一些工具，就是在做各种备份。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说你所有的代码写完，然后它自动会比如说这个东西合并之前，它会自动通过一个hook说这个东西到底写了什么，我应该人工测试哪些东西变成个文档。存在一个地方。下一次比如说规模化测试的时候，我就把这个文档可以捞出来。就是我不用重新再问他一遍，也不用自己再去回忆一遍他的挑战，我觉得是一个膨胀的过程。所以你会发现可干的事情越来越多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是不是相当于你在你的这一堆的开发的这些进程上面多一个总控的一个agent，他应该帮你把这些事情想清楚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是，是我其实是我自己人工设计的一些户口，就在一些特定的环节，它会根据当前的情况自动做一些事儿，然后把我想要的东西能够存下来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后存下来以后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>存下来以后就是当你要去回忆的时候，你就是看让他去从回忆的存下来那个当中去回忆，而不是从比如原始的代码或者这个设计文档里去回忆。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以相当于你存了一些户口，其实是让他在关键点上，然后你就有一套结构化的方法把它给存下来，而不是让它全部都是弱data。那这样子听起来是肯定有好处的，只是我最近一直在在知识管理方面，我在反思就是这个是不是我们人类多此一举的稿。就有点像加泰。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人我觉得其实是两层。第一层是很多人说说我们今天写代码，其实那个代码里不止应该存，我到底交付了什么代码，对吧？其实我应该去存我给这个代码开始写的那段prompt是什么，对不对？这句话其实没错。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这个prompt会带来第二个问题，也就是你其实在这个prompt的过程中和这个交互的过程中，其实你会有一些新的反馈或者想法，他会偏移。就你最开始的那个prompt跟你实际在这个做的过程中，最后的实际去用的那个东西又不一样。其实我希望的是想做做的一个动作，就是你一开始的那个front，等到做完了之后你重新去看看。其实我现在做完的那个东西，以及根据最开始的prot的过程重新写一下这开始那个po p的是什么。所以那个problem应该存下来。因为那个prompt其实是做这个事情中我的产出，就是我到底想干嘛，因为代码这个东西其实是我生产出来的那个结果，那个东西是个事实，反正放在那里可以。但是我定义的那个阐述其实是prompt加后面的改动以及重新写成了一个单独的prompt。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在非代码领域我也是这么操作的对，搞搞东搞西搞完之后就会让他说如果我下次不要聊这么30天，然后一次出的话那个prompt怎么样，然后我再会并开一个sid去试一下。对，这是在skill出现之前，sk o出现之后就会偷懒说这个方法你既然已经掌握了，存个skill。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我觉得这个跟skills还是会稍微有一些差，也就是毕竟在你在写代码的时候，很多时候你并不需要一个新的skills。你就是重新去把这个问你这个问题定义清楚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了解了。所以有这么一个东西，还有什么组织上你觉得可以用的地方吗？就比如说你刚开始讲说，比如说公司里没有个员工，他做做web coding做的挺快的，但是其实他就会做出一堆石山，对吧？那那这个时候的话，你作为CTO的话，就这事儿应该怎么样可控呢？就是整个组织的这个honey这层。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>目前我的可控的方式是让大家去污染，我来想办法治理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>把责任全部丢给公共厕所的管理员，说你要安排自动马桶，你要安排阿姨大爷去定时清扫，然后你要安排管道疏通，但是就不把责任丢给大家了，你们就可以乱拉是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>拌一拌。我们现状是大家在污染，但是有些同事也会不是说大家都不治理，但是我其实把我自己的主要精力放在治理上。这个治理主要是做两个事儿，一个当然是各种就是说我会去检查，去翻这个代码或者怎么。但另外一个在这个翻的过程中，每发现一些问题，尽量去做一些东西的自动化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你会发现很典型的今天会面临一个问题，就是说今天会有一个我们叫二把刀对吧？或者半吊子水平。就是跟今天写扣的跟之前写扣的不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就之前写扣的在组织形式上，你倾向于让最擅长的人干他的事儿。但是通过不同人的合作把这个东西做起来。但是不同人的合作中的，因为这个沟通交流成本很高，所以会比较慢。今天你会倾向于一个人把尽量把所有事儿都做完，那么一定会有一些人很多工作是我并不擅长，对不对？然后反正这东西我也做了，那这一部分你怎么把它能够让他尽量少犯错呢？或者说有些我甚至不叫犯错，就是尽量让这个东西比较简洁干净的，就是需要有人去持续治理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我举几个例子，就是前两天我还在改这个给团队内部去做这个代码的重构。就是比方说我们去做网页，网页会有很多图标对不对？去做各种一产品都会有个图标，这个图标是个对勾，那这个图标是个对插，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为现在代码都是web coding写的，然后那天我就在看，代码里有很多这些图标是用什么做的？都是那种svg的矢量给画出来的。我看了一下，我们代码里大概有四百多个这种SVG的矢量图。我又看了一下，我说我觉得当然是因为AI能力很强，这个矢量图画都没毛病。我说这个矢量图我能不能规避一下？你就会发现其实这些矢量图80%都是从三个不同的开源矢量库里，AI把它记住原样在当地给你吐出来的，就是他其实没有用一个，比如别的软件包引用一下，说这里用就用这个图标就好了。它其实相当于把这个软件包里面的代码，在你的代码里又吐了一遍。同时因为很多人写代码，所以代码里就有各种各样奇怪的写死的矢量图标。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我就干了一个事儿吧？第一个我要先治理，我要把它统一换成一个矢量图标库。第二个我要把原来代码全部改掉，对不对？第三个我在代码库里加了一条规则，就不允许，你只必须用这个矢量库对吧？除非有什么特殊的情况，并且它是一个自动检查，就只要有人往代码库里提交代码，他就会去检查。如果不是的话，就不让你去去提交，或者不让你去合并。我也发现一个问题，就是其实治理跟开发的确分开来比较合适，因为不打断治理的人不需要。就是我虽然现在主要是我治理，因为我们人也不多，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后进度压力很重。但是我觉得最终很有可能未来会形成另外一种新的分工。就有人不停的做原型跟产品迭代，有人不停的确保这个产品是稳定的。这个是我自己最近反正的一个体会。你可能要花大量的精力，有人专职去做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家用流行的话叫engineering harness，就是让这个东西可以被治理。但是做治理的人，可能未来水平最高的人在做治理。因为他的确了解更多的技术站，能更好的做架构或者治理层面的决策。更多的junior的人在做应用，就是他通过prompt把他的想法或者这个东西做起来。因为这个事情其实很难回避的，因为我们不仅有工程师去写这个代码，说我们今天的前端的UI交互设计，我不再是设计师出个设计稿，工程师去根据这个设计稿去还原了。而是他直接在那个界面上，我们给他准备好环境，他直接去改。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你也会发现，因为设计师没有工程师背景，所以他会做很多事儿，你会发现不合理。比如说他给，比如说我们的网页的图，他都给了一个非常具的一个十兆的高清的图片。然后这个东西可能就直接进到代码库，然后发布到线上。意味着用户打开你的某一个网页，那个图片十兆要加载。甚至可能一个junior的engineer他都不会意识到这一点。那可能有智力的人就会去看说他也要做成一个自动的，它不是说不停的去清理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们就做了一个自动的户口，说只要有人提交素材，他会根据尺寸去判断，会做自动的压缩。普遍的quality跟分辨率降下来，让人去确认。我的我自己的体会就是说，可能今天如果一个严肃对待VIP coding，就是你真的想把这个产品做下去，可能团队里都得有人专职的在干这些事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说的这些感觉确实是每个公司都要的，他他不是有产品化的机会吗，哪怕是个skill的机会，就是感觉就比如说你听你讲，我就觉得好有道理，我就想说那你你那套skill我就拿过来用一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>当中有很多不是skills，当中有很多其实是写死的代码或者book。但是的确我也在内部做一些skills，说能够帮你去生成这些东西。我觉得面临一个挑战是skills这个东西不是特别好商业化。它也许是可以产品化的，但是不太好商业化。第一个是它是个明文的一个东西，它是比较一个经验主义的东西，对吧？他有点像你今天去出去讲的一个课，跟你讲了你也就明白了。没跟你讲的你可能想不到，对，或者是你可能意识不到。当然有人跟你讲就该这么做，你听很有道理，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是这东西又不太好变现，对不对？因为这个东西扔给你，你没有意识到，你也不会去运用。一旦到了你手上之后，你也不会愿意再付钱给我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个东西就是明文的，用一次就结束了对吧？用一次就一部分问题就解决了。它其实有点像一个consulting的服务。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？没有你就卖更新，第一版的时候50块钱更新，每个月更新一次1000块。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是他这个东西不太好反盗版，就是你卖给了A对不对？A你卖给了某个人，他可你再把这个东西再拿出去卖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？对，skill确实是在商业上是不太成立的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实相当于说有一些共通的规则什么的，你把它打通了，或者说有一些比如说svg文件需要都是比如说统一的库，还有没有别的？因为你上一次讲那个时候你讲了一套框架，套框架有进步吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这套框架本身我觉得没有太大的变化。但我觉得新一步我们面临的挑战是说，照目前我的想法是说，如果让AJ的更多的自主去完成这个工作，在那些框架上加让我加上这些治理之后，通过外部去编排agent的框架，让他能更自动的完成工作。什么叫外部？就是因为今天的这cloud code，这个agent它的上下文有限。而且上下文一旦太长了，它就会变笨人能去理解一个问题的难度是有限的。就是你在做任何一个商业化产品，他写一些代码，你人总还是要看一下的，到底干了啥对吧？有没有完全是胡扯或者骗你。但是你又希望人在这个当中这个上下文切换，或者脑子不要太累。然后你会发现我要求每一个单个提交的代码，单段提交代码不要超过两千行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>相当于适应AI的context window。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是我我感觉是context window也许可以在对抗震温度的来讲，两千行可能可以再长一点也没问题，但是也不能太长。但对人来讲，超过两千行我就懒得看了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>适应人的倒数。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是超过两千行我就肯定就是你就觉得没法看你你的心态上就觉得这事儿没法看。两千好像是人还会说，是不是非常仔细的蠕行看，但你大致看看，每个文件它到底改了一些，大概改了些什么东西，重点改了些啥吧？啊这个大概对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是到两千好像就会导致说其实你的任务就会被拆分，拆成一个复杂的图，对不对？就是先看A然后A干了BC两个事儿是可以同时干的。BC都干了才能干DD干了又就他就变成了一张图。所以从你原来最大的那个目标到最终能够完成哪些工作，同时这些图当中的每一个工作，我又不希望人去触发。因为虽然是两千行，我其实希望说这个两千我确认没问题了，必须是自动触发的。而不是说我再得去驱动上2A干完了，或者说我去找帮AI确认一下，我不希望干这个事儿，因为那样的话人会非常累人，其实也跟不动。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得今天请你需要一个外部去编排这整个过程的一个工具，或者一套框架。就是它相当于说有一个AI先出一个计划，这个计划拆成了，比如说先做A再做BC或者怎么样。而且这个计划在执行过程中，它要自动refine。就是你会发现AI开始定了一个计划，他觉得B这步可麻烦了，有好几千行代码要写到。他实际去干着的时候发现，因为我已经干了ABC，我干地的时候其实只改了三行代码，而且后面的有一些计划要变了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说的这个他们现在不就就比如说我正在跟你聊天的时候，其实他code正在背后帮我剪一个视频。他其实就在拆了好几个agent在做不同的事情，以及他定了一个大计划。然后现在正在吭哧吭哧，然后还不在变。因为他他他whisper我这边不知道为什么失败了，那这不是已经在做，已经在这么干了吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你会检查中间结果，他如果拆成了这部，你有些中间结果你会检查确认吗？我的假设是我我我知道我在写代码层面，而且我判断假设你今天让他去写个视频，你肯定要有中间你需要有确认环节的。比方说他先写脚本，这个脚本你要确认的对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在脚本是我的，所以他是会六给我一个60秒的sample，然后我是确认完那个sample他才做全部，大概是中间有节点。我理解你的意思，是不是相当于他现在要不然就是他会问你很多安全性的确认，要不然就是会问你一个bypass or permission。你的意思其实是要根据说到底哪些地方需要我的业务上的确认的话，你要给他一个更比如说叫做说你脚本的那个重点的情感部分，你要让我确认。然后你要有一个他要懂业务，然后跟这个人确认好说哪三个点。我是需要人类来参与的这么一个架构，要把这个价格给定出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得类似稍微有一点差别，就是说我称之为叫模型会。模型的整个执行过程中会随着前面阐述的结果进行漂移。什么呢？就是一开始你定了个计划，你最终的希望你要的结果是这样的。但是如果这个计划的这个任务比较长，就是他真的要干一两天，他其实干着干着他会漂移。因为前面干的结果就是比如说要干10个小时，其实他他虽然写了一个计划，但是干到2个小时的时候，他因为各种各样的原因，他同时模你的模型有比较强的自主性，他其实就已经干的跟一开始的计划有差别了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>举个我举个例子，比方说你今天剪视频，你用c dance对吧？就用字节的。你一开始他设想的都非常好，可能到了中间他说因为版权原因，这个东西就是出不来。所以如果说你完全让他从头到尾自己做，他会努力的绕开这个东西，但是做出来东西可能根本不是我想要的。所以他一定会拆一些中间节点，并且随着这个中间节点的中间结果的变化，本身计划也要变化，以及中间点我一旦确认了，后面的动作能够自动去做。并且因为任务足够长，其实每一步都是一个单独的agent，并且这个结果我每个中间结果我都可以保存。这样后面的结果我不满意，我可以从中间结果重新开始，而不用从头开始。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就我觉得他现在已经往这个方向在走了，但是可能没有走到你要求的那个地步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是这个当取决于这些中间结果的这个东西你要不要存下来，要不要追踪，对吧？就是今天你说如果完全放手让模型做，你其实完全相信模型了。然后只有他问你问题的时候，找你问题确认的时候，你才去确认。第二个是他可能会自己存在自己的这些什么memory或者某些临时文件里，不会按照你的设想说经文我拆成七步，所以每一步我都可以单独追踪，我单独去检查，可以单独回退到某一步。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天你从harness的角度，其实是需要这样一个东西。这个就是为什么我说有时候我觉得hermes就是我觉得clock hermas，这是为什么我前面说研发跟使用技能我是把它分开的。因为open cloud hermas其实都有一个问题，就是全自动这个事情就会产生慢慢漂移，和人的想法没有对齐。就是说这个所谓的进化是说我把我做过的事情按照一个skills能够记录下来，以后都按这个skills来做对吧？赫姆斯，本质上所谓的进化其实在干这么多事情，但是很多时候其实很尴尬的就是有些东西我做了，那我也也捏着鼻子接受了他的结果就是我觉得这东西反正也能交差，对不对？但其实我没有觉得他那么好，其实并不希望你把这个东西给记录下来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个是不是有点像大的架构师或者大的项目工程推进，就是节点到底哪些是关键，要检查什么方面？有点像这个是项目管理这方面。是的，这个感觉也是被产品化的。因为就相当于是一个项目管理层级的大项目。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这件事情我觉得是可以产品化的。就我自己的观察，其实海外在coding领域，其实已经有一些人在做这样的开源项目跟产品了。国内我觉得可能关注的人还比较少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我觉得这个东西确实是需要的。我这我现在在跑那个那个剪视频的话，剪了可能一两个小时了，但是我估计到后面也会乱掉。如果你是说20个小时，或者甚至于比如说48个小时这种事情，那几乎是必乱的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我觉得这个事是两层，一层是我们所讲的这个，并且每一个当中单个环节你其实也有一些常见的套路，对不对？你比如说AI写完代码，你会让AI先审核一遍，对吧？AI审核都通都决定通过了，人才会去看。AI审核没通过，人看都不用看，对吧？然后AI给了反馈意见之后，这个AI要触动它自动去改。如果改了五轮，两边还不能达成一致，人要介入对吧？如果改了五轮，两边达成一致的人只需要审核，吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是可能是微观环节的，宏观环节的。就是整个依赖关系跟推进迭代过程是个怎么样，以及这些中间结果哪些东西我应该存下来，哪些东西是存下来，是为了追踪，哪些东西应该存下来。作为skills或者经验，作为总结。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你之前的大型软件工程是不是应该那些架构师是有这方面的能力和经验积累的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我觉得这个是很有意思的一点，就是我称之为历史倒流。为什么呢？因为在传统在互联网之前做软件开发的时候，大家其实是重视这个事情的。但是从互联网开始，大家开始就不重视这个事情了，因为方法论变了。因为传统软件开发为什么重视这个东西？就是因为传统的软件开发是他真的是物理分发，就跟你今天造汽车一样，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你windows刻了一张光盘，如果发出去发现有bug，你是没有。以前又没有。对，1995年又没有，大家没有连上互联网。如果这个东西装了所有人都蓝屏，你是要召回的，对不对？这个成本其实非常高，所以你对质量交付是有质量要求的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后互联网的做法不是这样的，互联网做法是一个添油战术。我先做一个小小的原因试试看。行了，我明天加一点新功能，我发一个新版本，我后天加一点新功能发一个新版本，是这么一个过程过来的。因为任何一个问题我都可以快速修复，然后有bug。今天其实很有意思，它介于两者。很有意思的是它虽然还是个互联网时代的产品，但是因为堆屎山堆太快了，所以质量崩的也特别快。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在这边感觉有一个项目层级的hermes的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我觉得也有很多人在做这类产品。但是我觉得今天大家所有人做的产品都是早期形态，对吧？有人是用一个像项目一样的看板来做这个东西，有人是用这种做了一个AI版的slack，用IM的形式在做这个东西。甚至我觉得这些产品可能都是对的，它只是应对不同人、不同公司、不同形态的产品。但是这个当中我觉得是有很多事是需要做的，而且这个事情就很有意思，就是什么呢？就是你今天会发现就是说因为这个东西是个新东西，所以很痛苦的是所有的创业公司有时候不得不自己做一部分。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这对于市场需求是好事，就是最好的产品就是人家已经用很恶心的方法自己在搭的东西，说明这需求是真实的。为了我们的完播率的话，你能不能举几个具体的例子，就是到底干嘛什么什么情况，就是什么情况在什么点应该弹出来一下，就是说你要确认，或者就有没有具体的案例，或者会有画面感的东西。对，这样大家听起来会更听得明白你在说啥。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>举一些做业务的例子好了。就比方说我们做，比如说你要做SEO对不对？他是应该是今天我们去做SU或者生产内容基本上是自动的，他一定是多环节的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么叫多环节的呢？比如说你第一个问题，你应该先选题，就是用AI去选。说我举个例子，假设你今天是在海外说怎么怎么使用com code，他肯定有有很多人会去搜code的报错，或者遇到什么样的问题，或者这个经验对不对？那你要做SU就是说那我帮你他写下一篇教程，我就能够通过自然搜索拿到一些流量。那么这个过程中你肯定就是说我要选题，对不对？你肯定不是让AI从头到尾干嘛，直接给你个结果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你往上一发，大概率是你会让AI先去选题说，我先去用一个agent去这些SU的工具，什么SM rush，或者中找到一些常见的关键词。然后什么去帮你自动在reads里搜到一些文章，然后去分析一下是不是有这个问题，然后列出一堆选题给你。这些选题是需要人工去确认的对吧？选完题了之后，去根据这个选题去网上去采集各种各样人遇到的问题或者这个东西，然后写一篇文章，甚至再去调用克劳克的去实验一遍这个方式去做验证。然后这个文章之后，可能人还要去确认一遍。这个人确认完了之后说，还要给他去生成一些关键词。生成这个关键词之后，可能还要生成多语言的翻译。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>打个比方，在这整个过程当中，其实每一步都是应该有一个环节弹出来，让人去确认。之后可能过几天你还会去看，就是这个文章实际给我带来多少流量，对吧？去google的测试council里，其实每一个环节他都会有一些东西需要人确认，人都会给他一些反馈，都会去跟他说这个我觉得好，我觉得不好或者怎么样。并且这个选题其实也是一个prot去控制的那我给了他的反馈，应该反哺到他去自动迭代它的prompt，或者自动迭代它去给这个文章去做自动评估的AI的说在这整个过程中，我们希望人尽量只要去给他反馈就好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了解，但是这样子感觉效率很低，不是，应该他尽快出，也不反馈，然后看效果好，不对，SEO很难直接看到一篇文章的效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，第一个是SU你是看不到，就是你今天实际在用AI做大量的工作中，很多东西你是看不到他的数据结果的这所有的内容也是一样的，对不对？第二个是所有的内容类里面的。第二个问题是说AI虽然它产能是无限的，但你上内容不能无限的上。就跟你今天做个短视频，你一天上一个你一天上20，平台肯定觉得你是spam ICU上文章也是的，你一个站一开始一开一天只能上个十篇20篇，一上手就上一万篇也是不行的。你实际到业务中，我觉得大量的决策他的数据反馈是后置的。所以就同时但是AI的产能是无限的，所以总需要有个人在中间去做决策，去做筛选。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个是最终的很多的数据结果，虽然AI可以去分析，也需要人去做判断。就比如说这几篇文章效果好啊，那几篇文章效果差。这当中为什么最终需要人去判断呢？是因为你在搭建这个自动链路的过程中，你其实也在不断的补充context。因为你不可能在第一天context就是完整的。我举个例子，还是举大学SU我这篇文章好，那篇文章效果差。你让AI跟他说，AI你分析一下，AI可能给你编出来一堆，因为这篇文章的内容是讲什么的，但实际可能原因的结果是说，最近网上open cloud是cloud code升级了，有这么一个bug。所以有很多人讨论这个问题，也会有很多人遇到问题，所以有很多人搜这个东西。这个信息在你一开始设计这个流程的时候，整个流程里的context里可能是没办法包含这些信息的。所以人在这个过程中本身也在不断的补充context，所以就需要人去介入。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你说的对的，我给你一个另外一个视角，还是卖你这套东西。但是我觉得现在这个说法上会让人误会，其实它可能是一个更牛逼的东西。现在这套说法有点像是管控和人类在中间成为了瓶颈，就是在检查和反馈这样子的话它不好卖，大家会觉得它它是一个生产力的阻碍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是另外一个角度，因为最近我就很很奇怪，最近几个大厂都找我搞叫什么AI组织转型。啥组织转型方面最激进的那个就是个人的代表，其实是block那个CEO那个是dosy那个人。他的说法其实是说AI转型，这个当然其实已经是共识了。就是AI转型不是你的组织转型用好AI而是以AI为主主体。整个公司就是一个路由协议，然后它是一个mini AGI，你是在进化这个AGI，然后它会按需调度人类，然后这个东西是牛逼的，所以它是主体。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在的话就是我们刚刚的那个讲述里面有点像是AI在那边勤勤恳恳干活，但是他这里需要人类批一下，那里需要人类反馈一下，人类的干扰它的进度。但是如果我们把它定义成说，其实我们在设计的整个组织，他需要的事情就是第一个他应该把该干的高效的活干了。第二个他需要人类的时候，能够叫到人类来给他好的意见反馈。以及他不够上下文的时候，他可以通过这些意见反馈的话，他把一些上下文给补齐，他还积累复利。比如说这样子的话，其实就是这个AI它是一头巨兽，然后我们编排了一套系统，可以让它相当于对，但是我这个就讲的有点恶心，就是他可以去吃人，他其实是在调度人类的智力来喂养它。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>单个的任务上，其实你就是给他这个比如说东西写的好不好，在宏观上来讲，其实就是这些能力在不断的被他抽进去。其实你是在饲养这个AI这样子对于那些资本家来讲的话，好像这个卖点就是这个是个好东西。前面那个东西就觉得他是在挡道的对吧？这个东西这其实一个东西，对吧？因为最近现在他基本上在硅谷那边，我最近看的所有东西都已经到了那block的那条思路上面，就非常激进。你刚刚讲的其实抽象看了，其实跟他那个东西是同一个东西，只是你讲成harness，harness就感觉就是你拉那个缰绳，感觉让让那个马走不快。但是实际上就是这批机器，你在定期的给了他一套可以自动化帮他喂草料的方法？</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得harness好处是说这是匹烈马，但是你得让他在你想走的那个方向上走，因为不然他可能走的很快，但是走那个路乱七八糟的对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我我我还是marketing的思维。我早几天在跟一个大外企的CCPO在聊，突然想到一个概念，就是帮CTO怎么抢权。就想到美国旅铝业的那个案子。因为他们这些公司其实非常注重的就是安全，包括国营企业，其实上来就是安全，合规这些东西。他们就反倒对于你这个harness这个词汇特别买单。像美国铝业，就是之前的这个商学院那个经典的教材，就是他们公司就反正什么东西推都推不下去。最后上来一个CEO就是因为有很强的工会什么的，上了一个CEO说我们的目标是零工商，然后所有人都崩溃了，说这是个啥目标？然后他就借着零工商这个旗帜的话，把什么email系统，什么信息化，什么汇报流程全改了，把整个东西给做掉了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我刚是在想说，如果对于两种公司，一种是激进型的公司，因为我刚刚想象我是一个激进型的公司。我听你刚刚讲的，我会觉得他好像是在限制生产力的发展。但是如果你讲你是block那一套，然后我就觉得好棒，好AI原声。对，然后如果我是一家大外企，或者说我是一个跨国公司，或者我是一个国家企业，我就会觉得安全合规，你一定要把这个流程给管控住，不能使善什么什么这种。那那好像harms这一套又又好像非常的合理以外，我们要项目，我们要工程管理。对我觉得这个东西是真的是有用的一套东西，就是都需要的一套东西。不管是对哪头就怎么包装而已。但这个东西是需要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有我我觉得今天很多东西都是很难卖的，这个原因就在于是是什么呢？因为所有卖这些东西都需要人配合改变。这个也是为什么很多东西是在创业公司或者在硅谷的startup里如火如荼。就是我今天建一个新，我自己说了算，我也没有什么包袱，我觉得就应该这样搞，对吧？但是你在任何一个传统的公司里，你这个东西因为别人也不可能说我业务停了就先做组织转型，啥也不干，对吧？就是这个东西你又很难渐进式的卖吧，或者你渐进式的卖就做成了一个咨询项目了，对不对？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是之前经验都是很值钱的，然后经验跟人是封装的。然后现在经验这个东西，它有的时候又太容易传递，有的时候又太难传递。容易传递就是但凡它跟组织跟人心无关的东西的话，它通过skill传递就直接用起来。但是他如果跟组织有关系的话，你进不进人反正也都没用，反正他的人不会变，组织不会变。你最近在搞这个，好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是最近主要是在做治理，其实也就是自己做工具给内部同事跟自己用了。就因为你今天的核心挑战都不再是说我有个新功能我想做一下。就一般是这个功能做出来质量行不行，或者已经有的问题能不能一个个解决掉。第二个是怎么让这个更快的做完，同时做完更多的工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我刚听明白，我觉得很有用，但是我还是觉得他真的很难，不太好叫做。举一个叫做的例子，就是你知道every那家公司吗？Dance shaper他们做的就是出了一个小小工作室，出了无数的产品那个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>公司但是不是我我知道对他们。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>推了一个概念叫engineering。其实我觉得里面说不定有一半的东西给你做的是一样的东西。就比如说这次犯的错误，下次不要再犯，这种把经验都积累下来，但是他们把它叫做富力工程，这一听就是感觉是赚钱的，你知道吗？你那个感觉就是一个合规的和别出错的。他那个一听就会感觉我坐在这里好像有税后收入。对，就是坐在这里，明天钱就变多了。它里面说不定里面80%跟你说的是一个东西，但是听起来就感觉你这个就会觉得说多了一些事儿，还多了很多要我审批的项目。他那边就会觉得说我啥都不干，明天就钱变多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我同意，因为我觉得还有另外一个问题，其实有一个前提，因为我觉得我今天的带宽已经足够快了，因为我自己用我的CC usage，我自己看了一下，因为我用的是订阅。你可以猜一下，我现在大概过去一个月，cloud code我用的200美元的订阅的版本。但是实际用用这种CC usage统计出，后来实际消耗了他API多少钱1000，大概我两个月消耗了可能在八九千。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他的那个订阅给的是非常的慷慨的了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道为啥，我遇到一个bug是我的的一周会重置两次，周三会重置一次，周五会重置一次。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你只是这周的话，不是一个bug，这周是他们故意的OK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这周是因为他们查出来了，他们自己有个bug导致多扣费了，就是那个缓存没击中，所以他们额外重置了一次，然后额外重置那个规则非常之不能理解，我看到的新闻和我被重置的时间完全一毛钱关系都没有。对，如果只是这周的话，如果你讲的是前几周，那就是另外的原因。这周是有有原因的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我连续两周都是这样，我不确定是不是他的bug。对，就是我自己看了一下，我过去大概两周最多的一天API用了2000美金.</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>200美金套餐，很划算。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为他的那个的现在都是不收费的，在在订阅里就最多的一天我大概用了33亿的cash read的token.</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那这个在哪里查？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以装一个插件叫CCU的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，我去看一下。我现在基本上是100美金用满，但因为我不写代码，我写的是会我写的很少，所以觉得好像也还够了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于普通的创业团队来讲，他现在还搭不了这么一套的话。你给一个普通的CTO我觉得这也是帮大家找工作了。因为很多CTO觉得自己没说没活干了。其实按你这样讲，其实年轻人不一定还有活干的，CTO可干的活太多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我觉得今天肯定是越是犀利的人，你也可干的活越多。如果说一定是做engineer的角度来讲，因为我觉得CTO怎么会没活干呢？你先把的先用满，你想干什么？你打开一个代码或用卡拉code去干，因为也没有人管你干什么，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，那CTO的想法，但还不是这个吗？他想的是说我怎么样把我的这个责权和这么的100号兄弟给保住。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我觉得你得先干一下，你才知道怎么干。这个就是今天你所有人都面临的一个问题，我就你先得自己干一下，你才知道怎么干。就你没干过之前讲或者想其实也是没用的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但有一个问题，就是现在当然不光是在那个开发领域，就是已经有好几家公司跟我讲。甚至于包括在媒体上那声量非常大的成功案例的公司的老板跟我讲说，他们发现大家都用上了AI但是公司的效能并没有提高。你觉得这是个人牛逼了和公司能多赚钱这两件事儿怎么连起来？</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为赚钱本来就是难的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就提效没有什么用，对吧？或者个人提效能不能带来组织提效，这两件事现在在很多公司也没有联系。个人提效到组织赚钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得第一个问题是赚钱这件事情跟提效不一定有关系，对不对？跟我国的这个钢铁产量是一样，对不对？你钢铁产量是我能生产出更多的钢铁，就能卖这么多的钱吗？大概率不是，对吧？赚钱跟产能不一定有关，产能越高不越可能更不赚钱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是第一个，这是最最本质的问题。我们稍微不那么本质一点，因为这个就要去找新机会。我现在跟大家讲的往往也都是说，其实你降本增效也没什么用，你赶紧去找心事多开开疆拓土。对，那这是更本质的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那没那么本质的，其实很多人也会卡在。比如说我看你们公司或者说我认识的很多小公司，就提效三五倍也是很正常的事情。但是稍微大一点的公司提效三五十都挺难的。说实在的就是你会看到他们有很多个人确实提效了，但是你从整个公司看，确实觉得这家公司好像跟两年前也没什么区别。个人人的提效到组织层面确实看起来他比如说彭博的产能爆发，哪怕这个产能不多赚钱，这中间你觉得卡点在哪里，以及还可以做点什么东西吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得第一个，我自己的想法就随着自己的观察很多，其实也是不停的在变。第一个是个人真的起效了吗？很多时候主要一个就一个engineer上来写了个prompt，写了一堆代码出来，然后提交上来，他真的提效了吗？他也许没有提效，他也许只是提交了一些他其实也不理解的代码上来，然后可能最终还要再做各种清理？或者各种refine。那其实这个过程中没有提效，只是看上去提效了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>提高了output，不一定提高了outcome。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，第二个是说至少我见过我过去的研发过我自己过去的研发团队。我见过研发团队绝大部分情况下，所有的研发团队的瓶颈从来很少有在写代码。在这件事情上我们先不讲那些业务侧产品对不对，这个事情值不值得做，我们就只讲说把这个东西的值高质量的交付出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是有几类常见的问题。第一类常见的问题叫做耗费大量的时间做所谓的联调。第二个常见的问题就是耗费大量的时间叫查bug。第三个事情就是耗费大量的时间在会议上或者说在讨论排期。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>即使在联调，比如说即使在没有AI的时候，比如说我们今天想大耗费大量时间在联调，往往是因为本身之前的设计跟交付质量就低。为什么会联调呢？就是我自己写的东西我也没有测试过，我就拿上来给你调。所以调的过程中不停的报问题，我再一个个去解决所有这些问题。今天如果你的组织形式不变，其实这些问题的卡点都没解决，这个是为什么我们刚才聊很多，我就是我花很多时间在各种所谓的工具链，在这些harness上。其实这件事情在没有AI的时候也很重要。只是没有AI的时候，反正写代码速度也比较慢，各种事情速度都比较慢，大家觉得好像没有，反正我们古法手工低效率作坊大家也都接受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>今天有AI了，比方说就是传统，比如说我们都知道代码应该有自动化测试。但是我其实除了我自己你带的团队，我去任何一个新团队或者我见过的他们团队真正干把这件事情干好的团队极其少。但是这个事情干好了他就能提效。今天有AI的情况下，你也更容易干好。同时我也接触过很多优秀的工程师，他其实这个意识也很薄弱。在体系层面的问题不解决，只是让个人有一个AI coding只是让这个人的工作变轻松了的一部分。工作变轻松了，我觉得效率可能也没有怎么提升。然后整体组织的效率也没有什么提升，产出其实也没有提升。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个很好。我下次找你单独深度的我们聊一下这个事情。因为其实在我的理解里面，这个其实到了组织变革那一块了。其实它像流程和组织再造的，而不是单纯的一工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>工具和任务层。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实是很很浅的，就是绩效也未必能够带来组织层。组织层其实很多是消耗在了组织协调这些方面，然后各种各样其他的事情方面。而不见得是任务层提效十倍，组织层就能够提效2%倍，对吧？搞不定的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我最近不是也在重新翻一些那种历史段子，觉得有一个段子跟这个有点像的，其实是那个CAD跟电脑制图。然后我发现历史发现说CAD早期大家使用起来，大部分说是把它打印出来，每个人还是用制图，以前是画出来，后来就变成用电脑，用完电脑的话他会把它打出来，然后打出来拿这个下一个部门。接着我们就跟以前的流程是一样。再接着讨论。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你就是以前了，现在不也有吗？我也见过有些公司比如开大会讲PPT，要把这个PPT打印出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实CAD它最终你能够提效的话，那你就提高了每个画图师的效率。但是整个公司里面，比如说其实数据层是可以把比如说这个螺丝就同一个螺丝，或者说在虚拟层可以把它CAD的那些零件先拼拼起来，看看拼不拼得上。这个其实是可以在虚拟层极大的在协调中提效的。但是之前只是个体提效，他没有把它在虚拟层。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说做simulation的话，那其实在大量的什么开会，或者那些时间并没有减少，只是让画图的时间减少了。同一个工具。那现在的话可能就是每一个人的产出上升了。但是其实这个产出的话，大量的以前的软件工程其实并不最大的损耗并不是在写代码方面。协调层的那些东西还是没有解决的话，就没有那么大的用处。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者再换个近的例子的话，我们不是有一位同学在做外包的生意吗？对我之前就问过，他说AI coding刚起来的时候，因为我们当时很很早就全部AI coding，我就问他说你们要不要换？然后他他说不要换。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我说为什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他说其实人力成本，就是写代码的成本在我这里很低。我们都是跑到西安那边去做的，人力成本很低的。因为当时2024年、2025年，那不用，代码的成本在我们这里只有百分之多少呢？其实很低的，大部分都是在协调沟通，然后跟客户对过搞关系，然后跟客户对齐这个需求以及吵架扯皮。就是这些事情不能解决的话，你解决了我这个最不重要的代码问题有什么用呢？好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我觉得其实无论是公司内部还是公司外部，大量的时间是花在沟通对齐上。你接外包也是你大量时间是在别人给你这个外包。往往是因为往往你要花大量时间搞清楚用户到底想要做的是什么。用户大概率不会给你一个精美非常准确的什么需求文档，对吧？在公司内部也是一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我一直在想怎么把它给产品化，我真的觉得这个好有需求，但是就不知道怎么赚钱。它是一个很本质的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还是很难的。就是我自己还有个体会，每个人的方法论还是不一样的，就是每个人做一个事儿的想法。比如说我刚才跟你讲了一套思路，就是我还是比较喜欢用目标管理或者项目管理的方式去看一个事儿。就是这个可能是我习惯的，或者说我觉得这样是我比较高效的那我也看过有很多管理者，他是用管人跟管绩效的方式，对吧？我也不管你怎么做的，我我我反正给你下。目标对吧？你目标能还是就是你具体怎么做。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我完全不会觉得方法论无所谓了。因为只要我们把它能够，因为现在其实很多人在找我，我有一整套方法论，我也见过很多。对，但是没有你这么细致，就是在特别是在研发线上。对，所以其实你光那些就是我我自己正在合作的也有大厂。对，但是我其实只能跟他们讲完方法论说其实我也没有办法，然后我告诉你们，你们赶紧搞点新事，然后这边我有几个方法，我没有你那么落地。所以如果可以搞的话，其实你如果可以把方法论写出来的话，我们可以一起弄1弄。而且你这边是有还可以带工具。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有很多东西是他的最佳实践，其实从来有很多私家时间是对的，但是他很少真正被好好的实施过。这个是我自己在做很多事。我觉得但是今天AI能够帮助我更好的实施，对吧？就是我举个例子，就以前讲做事情要复盘，对不对？但复盘是个很累的事儿，你又得花时间又？那今天AI能不能帮助你更快的做完复盘，以前比如说我们写代码要有测试，比如说要有各种各样的代码质量的衡量标准，要的测试要有覆盖率，以前也是很难做到的，今天就比较容易做到。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以前我们说，这个代码不要像意大利面条这个依赖关系，你要能够指定？那今天其实AI也能更好的帮助你做到。那这些东西都做到了，你的交付质量就提升了，吧？或者你的效率就提升了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是往往今天大家的做法是说，我并没有去因为能力强了，我就真的去实践这个最佳实践。大家往往是因为这个能力强了，但是我做事的方法跟和原来是一样的。我只是把其中的某一个环节，因为AI做了，我也可以不用动脑子了跑一下。甚至它可能是什么呢？我只是做的快了，质量甚至都没有提升，对吧？就是我只是在这一件事情看上去做的快了，产出跟质量也未必真的有非常多提升。这个是我觉得很多所谓的有了AI之后，这个事情其实并没有变得更快或者更好好的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的很有价值。你怎么说会把这一套从比如说他到底是解决什么问题，到你的核心思想，到比如说他落地的一个思想上的上面。然后他的具体方法论以及举一些例子。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你什么时候可以完整的表达一次吗？可以，约个什么两周后什么的，你可以完整的表达一次。我就只是捧哏哼哼哈嘿在旁边听你讲一讲。对，我觉得这套东西真的很好啊。但是因为我们刚刚聊的比较碎，你能不能完全的表达一次？我觉得这个东西真的很有价值，我现在非常想抄完整表达一次。如果你能带一些skill让我直接拿回去，因为我也懒得学，就让我的AI学一下就更好了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以，我自己再再写一些skills，就是把对内部项目的一些改造的东西总整理成skills。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，我们也搞一个叫store呗，对吧？就把你润色一下，然后把我名字也写上去一下，我就可以出去号称我也有多少个star可以蹭一下。我最近发现就是做这种PPT，我最近有几次PPT都做的非常崩溃。因为我发现就是我因为我自己已经有PPT了，然后我让AI帮我去改，然后就非常崩溃，就改不动。但是有一些事情是纯粹，比如说某个大厂找我的话，他纯粹他给我提了比如说十几二十个问题，我就对着那十几二十个问题口喷了。比如说40分钟，然后就没有结构乱七八糟，然后就让AI直接整理，直接出PPT，出的效果可好了。所以你也可以考虑干脆就是对着电脑直接乱说2个小时，他会帮你整理漂漂亮亮的。你付出的整理的活越少，他就能整理的越好。但凡你整理到一半让他接手，这事就特别痛苦。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是因为你那个时候你有一个思路主线了，就是稍微跟我是认为是这样的，就是你想的越多，你对他的对齐的要求越高，对吧？就是你想的特别明白，他稍微有点跟你想的不一样，你就觉得不对，他这个怎么那么笨。但是你比较放飞，你只要放飞他做出来的，你觉得做的挺好的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你也不用一开始就想的那么周全，你就把你乱七八糟的想法先喷2个小时，然后他他出来的东西可好了。现在是最缺的是新鲜的那个我们相当于提供那个扰动，提供那个就是在他的隐空间的某个奇怪的一个坐标，你提供这个是最重要的，你题目通过那1个小时的，比如说那个乱七八糟的话，提供那个是最重要的。条理化的话，先不用浪费时间去搞那个条例，就这样吧。好的，那我们约两周之后，你来详细的输出一下，这样子对于还能听到这里的同学们的话，就是对，留一个钩子。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大家请订阅和转发这个朋友圈是聊非常真实的话题的。这个东西反正也没法卖钱，也就只能让徐荣浩无偿的分享出来。Skill实在是太难卖钱了，就这样吧。好的，我们今天先聊到这里，欢迎大家转发、点赞、留言。反正就是满足我们的虚荣心，赚不到钱。我们赚点虚荣心，赚点star对吧？赚点评论，赚点订阅。好的，好谢谢谢谢好，谢谢。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>拜拜。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>蜂飞落在手机上。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>As a fun is my first know.</p>]]></content:encoded>
-            <pubDate>Thu, 07 May 2026 12:25:38 GMT</pubDate>
-            <guid>69fc8a84c417dfd2311e4a4c</guid>
         </item>
     </channel>
 </rss>

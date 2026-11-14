@@ -4,7 +4,204 @@
         <title>42章经</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98</link>
         <description>和有趣、有独到认知的聪明人聊天</description>
-        <lastBuildDate>Sun, 08 Nov 2026 07:22:26 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 15 Nov 2026 07:37:20 +0800</lastBuildDate>
+        <item>
+            <title>复盘 2C 和 2B Agent 发展脉络｜对谈 Afk.surf 创始人嘉琛</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6af6678d14d01a26f8a916f6</link>
+            <description>在前几期播客中，我们聊过 Personal Agent，聊过 RLaaS，这期的嘉宾贺嘉琛做的事情有点像是两者的结合，他把 Personal Agent 运用在 2B 领域，并给这些企业训练私有模型。
+嘉琛原本研究深度学习与天体物理学，2020 年从博士阶段退学创业，此后创办了开源文档协作与知识库产品 AFFiNE，一度做到 700 万用户、Product Hunt 年度第四，后来又与尤雨溪等人一起孵化了开发者工具公司 VoidZero，被 Cloudflare 收购。
+现在，他在做一款新的 To B Governing Agent 产品 Afk.surf，想让企业能真正接管并持续学习自己运行的各个环节,在服务不同员工的同时，对齐整个组织的业务、工作方式和使用偏好。这个产品或许和过去很多产品听上去都差不太多，但和很多仍在讲故事、还没看到明确正反馈的团队不同，他们已经有了几个大客户。
+其实嘉琛还有一个很强的能力，就是组织人才。从 AFFiNE 团队走出来的人，后来都各自做出了不少成绩：前产品负责人最近做的 AirBuild 在 X 上小火了一把，前 CTO 如今在 Cloudflare 担任 Principal Engineer，还有很多做出海的朋友都熟悉的生姜，真的有点「聚是一团火，散是满天星」的感觉。
+这期播客，我们就聊了聊他过去的经历、正在做的产品，沿着 Agent 赛道做下来的思考，以及对人才组织的经验。
+【人类博物馆】
+导游：曲凯，42章经创始人
+56 号珍藏：嘉琛，Afk.surf 创始人，曾做过很火的开源项目 AFFiNE， 参与了 Cloudflare 收购的 VoidZero
+【时光机】
+* 01:49 AFFiNE 这个开源项目为什么那么火，又为什么没能很好地商业化？
+* 05:43 从 26 年开始，Agent 就不像软件了
+* 08:19 这两年 Agent 的产品形态变化非常剧烈，最近收敛到了一个新的大趋势上
+* 09:50 复盘 Personal Agent 的发展脉络
+  * 10:43 26 年可能是 Buzzword 最多的一年
+* 13:41 To C 的 Personal Agent 还是平台型机会，但 To B 不是？
+* 18:29 Afk 凭什么能拿到大客户？
+* 20:52 做企业协作应该具备的共识
+* 26:11 从 Langchain 到 Dify 再到 n8n，这些公司过时了吗？
+* 33:32 作为一个自己在训模型的应用公司，是咋想的？怎么做的？
+* 40:02 AI 可能端到端消灭过去的各种逻辑？模型两三年内可能普惠？
+* 42:34 AI 游戏的 timing 是不是到了？
+* 44:58 怎么能招到这么多「散是满天星」的人？
+【The gang that made this happen】
+* 制作人：陈皮
+* 剪辑：Siyuan、陈皮
+* 片头：Mondo Bongo - Joe Strummer &amp; The Mescaleros
+* 片尾：ゆらゆら帝国 - ひとりぼっちの人工衛星</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期播客对话 Afk.surf 创始人何家琛（嘉琛），复盘其从开源 AI 文档协作与知识库 a fine、AI 打包与部署公司 y zero（后被奥德菲尔收购），到当前在硅谷创办面向企业持续学习的 governing agent 公司 AFK 的创业脉络。对话围绕 2C 与 2B Agent 的产品形态演变、personal agent 的赛道分化、企业级 Agent 的技术与商业逻辑、小模型训练的实际路径，以及 AI 对软件与组织结构的根本性冲击展开。</p>
+<h2>关键要点</h2>
+<ul>
+<li>
+<p><strong>a fine 的得与失</strong>：嘉琛认为 a fine 上半场做对的是在 2023 年融资时就提出“多模态工作空间”概念，并在 2024 年 4 月 office AI 发布时成为“世界上第一个可以在多模态技术上检索 deep research 并生成的工作空间”。但下半场“具体的编辑工具或者具体的编辑环境会越来越接近 AI……反而变成了一种掣肘”，产品形态从 cursor 转向以 terminal 为主的 agent，再到“无处不在的 agent”。</p>
+</li>
+<li>
+<p><strong>Agent 产品形态已相对固化</strong>：他判断过去两年经历了 GUI、TUI、CLI、codex、personal agent 的剧烈变化，但“今天的 proactive agent 或者今天的 agency system 已经不依赖于特定的人机交互界面……已经变成了一个无处不在的一个东西”，接下来智能和工具级提升是纵向扩展，产品形态“变得特别像一个人了”。</p>
+</li>
+<li>
+<p><strong>2C 与 2B 的本质差异</strong>：技术上，2C personal agent 是平台型机会，但“规模效应和网络效应被极大的减弱”，N 个用户之间几乎没有协同；2B 则可以通过 agent 与 agent、人与 agent 的相互学习形成持续学习和规模效应。商业上，“to c 的 personal agents 太卷了”，活下来的公司“拼的都是产品外的东西”，如供应链攻防、被外卖或差旅平台封禁；2B 则“离客户价值更近”。</p>
+</li>
+<li>
+<p><strong>AFK 的产品逻辑</strong>：给企业所有人配“同一个 agent”，但高并发且千人千面；agent 在员工和软件的所有切面上持续学习，让企业“像 X 光一样透视”每一行代码、每一个 API、每一场会议和客户沟通；并通过参数方式训练有持续学习能力的模型，使持续学习结果成为“公司自己真正的知识产权”。</p>
+</li>
+<li>
+<p><strong>B 端买单的真实动力</strong>：C 端拿用户全量信息做推荐“听起来就很吓人”，是“跟用户对抗”；但 B 端老板“乐意让你去 hack 他的”，因为“以前有八个人干的事情，今天我端到端的用 AI 可以做完”，且大客户“有比我更强的动力去对他们的系统做必要的改造”。</p>
+</li>
+<li>
+<p><strong>单纯给每人配 AI 会放大噪声</strong>：他举例，产品经理让 AI 把需求翻译成 300 页 PRD，工程师再让 AI 总结成一句话去写代码，“这里放大的大概率是噪声而不是信号”；很多公司配了 token 额度后“反倒效率降低了”。真正的变化是角色重构——设计师用 artifact 看真实代码，替代前端和客户端工程师；产品经理变成“定义功能逻辑的工程师”。</p>
+</li>
+<li>
+<p><strong>工作流外挂的生命周期正在缩短</strong>：模型能力提升后，“模型就不依赖任意的工作流”，skill、记忆、工作流等外挂东西“生命周期会变得非常短”，新模型上线第一件事往往是删掉旧 system prompt 和 skill，“否则它对 AI 带来的可能是副作用”。确定性正从模型外转向模型内，通过 KV cache、prompt cache 和小模型蒸馏实现。</p>
+</li>
+<li>
+<p><strong>训模型判断的转变</strong>：2025 年下半年参与多模态 agent model 训练后，他曾“特别不相信创业公司的模型训练这个趋势”，因为缺卡、缺人、缺科学的数据合成。但 2026 年因 SI 临近、训练成本下降、大模型架构变化（如 jav 这类模型出现），他重新兴奋：不再需要在 benchmark 上打 SOTA，只需把大模型“确定能做对的东西，用更低的成本、更快的响应速度做出来”。</p>
+</li>
+<li>
+<p><strong>AFK 训练的两类小模型</strong>：一是 task routing model，用类似 jav 的 pref model 蒸馏 SOTA 模型完成过的任务，对齐用户偏好，称为“模型的肌肉记忆”和“agent system 的植物神经/周围神经”；二是 20–40B 参数的 worker model，面向企业内部，提供更强的逆向能力和更少的安全限制。</p>
+</li>
+<li>
+<p><strong>终局判断</strong>：“AI 真的是会端到端的消灭操作系统网络以及应用层的各种逻辑”；“今天所有的软件都是开源软件”，只要知道对方在做什么、拿到 API back，AI 就能逆向或重写一个功能一模一样的东西；2–3 年后 AGI 模型供给会非常充裕，届时 B 端 C 端重构“会变得非常血腥，非常 exciting”。</p>
+</li>
+</ul>
+<h2>独家细节</h2>
+<ul>
+<li>
+<p><strong>自我调侃式的成长度量</strong>：被问及一年前后的变化，嘉琛说“创业让人进步很快，每一年跟前年的，我不管是内在还是外在，甚至体重上变化都挺大的”。对方则回忆一年前对他的典型印象是“年轻有冲劲儿，但觉得自己很牛逼的那种感觉，就是有点年少无畏”。</p>
+</li>
+<li>
+<p><strong>“脑干和脊髓”的即兴比喻</strong>：解释小模型与大模型的关系时，他说“那个很聪明的模型可能是大脑皮层，但我们干的事情可能是我们给他配上了脑干和脊髓”，企业用它的过程“就很像是一个人类在学习怎么游泳，怎么骑自行车”。</p>
+</li>
+<li>
+<p><strong>300 页 PRD 的噪声故事</strong>：产品经理让 AI 写 300 页 PRD，工程师再让 AI 总结成一句话写代码，“那个人跟人联调或者说讨论业务需求的环节反而被略过去了”——这是他对“给每人配 AI 反而降效”最具体的描述。</p>
+</li>
+<li>
+<p><strong>对模型格局的戏谑判断</strong>：“Ops 5.5 是最会剪视频的模型，然后 GPT6 extra 是最会控制 robotic 的世界模型，这简直就是倒反天罡。”他还提到视频、语音、陪伴等此前赚钱的赛道“也在被今天的通用基建和通用模型所挑战”。</p>
+</li>
+<li>
+<p><strong>补贴战的真实体感</strong>：谈到 personal agent 的商业竞争，他说“现在补贴更严重，以前你补些商品，现在你又得补些商品，又得补贴 token”，对方补了一句“还得补贴广告”。</p>
+</li>
+<li>
+<p><strong>a fine 系人才的开枝散叶</strong>：他具体提到圣蓝（已获王慧文老师融资）、air build（推特上小火）、太郎（a fine 贡献最大的 CTO，现为 colour fair principal engineer 之一，参与大模型透视技术），以及 y zero 从公益开源项目变成商业产品并被收购、“让我们也有了一定的退出和回报”。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Do something there.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们今天的嘉宾是AFK的创始人嘉琛。你可以先简单跟大家介绍一下自己。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我叫何家琛。然后在20年之前是一个读深度学习与天体物理学的PGD，而在20年之后quit的学业，成为了一个创业者。在20年到现在，主要参与创办过三家公司，分别是开源的AI文档协作与知识库a fine。然后他大概还是做到了开源这个品类的第一名，然后也有比较多的用户和比较多的star第二家是与艾文由刘语熙老师有幸一起做了一家基于vit和我们的一些rust基建做的一个AI时代的打包与部署的这么一个infrared公司叫y zero。然后参与了他的创立，后续也是被奥德菲尔收购。然后从26年初一直到现在，我们在硅谷做了一家面向企业持续学习的这么一个governing agent公司，叫AFK away from keyboard。我们致力于让企业能完全接管并持续学习公司运行的各个环节，大概是这么一个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实我我相信很多人对你的认知和了解，最主要还是那个find的那段经历，对吧？因为我饭应该有非常多很亮眼的成绩的，非常多的star，然后就是protection的年度的项目什么的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实是对这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>贩子的经历我挺好奇的。就是你觉得你那几年做下来，首先你们做对的事情最主要是什么？就是能做到一个算是非常成功的一个开源项目但其中你觉得踩的坑又是什么？就为什么最终没有特别好的可能商业化或者融资的发展下去？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得内外都有一些问题，可能掰开来揉碎想的话，有很多乱七八糟的原因和运气。但我讲主要的话，首先我觉得我们一开始做对的事情，肯定是我们在合适的时间推出一个大家需要的产品。因为当时我find的第一个爆点是人类的工作是多模态的。那也就是说大家的文档、录音、画布、数据处理应该在一起。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我插一句，我在想那个时候其实还都没有多模态那个词对，或者说大家至少都还不讲这个东西。对，现在感觉听起来非常自然而然的一个词。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是是是。但我们确实在二三年融资的时候，我们就在讲多模态工作空间这个概念。所以这也导致AI来的时候，我们就很自然的训练了我们自己的evidence model，然后也训练了我们自己的多IG actually 24年4月office AI发布的时候，alfa是世界上第一个可以在多模态技术上检索deep research并生成的工作空间。这也导致在office创业的上半场，我们认为我们踩准了这个大家想要一个APP能处理不同模态的信息，并且让AI去理解和加工生成的过程变得更自然，这是我们产品上做对的事情。但是下半场就不是这样了，下半场我们觉得可能具体的编辑工具或者具体的编辑环境会越来越接近AI的AI模型来说，反而变成了一种掣肘。所以从公司内部来讲的话，我觉得我们经历了一个类似从cursor转向到后来的以terminal为主的agent再到今天的这种无处不在的agent，有这个产品形态上的变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>类似的事情也在fine上发生了。我们觉得2324年的a fine有它的高光时刻。那个时候我们更像是一个那棵树是给工程师用的画布，我们是给不写代码的人用的画布。那棵色加工代码，我们加工的文档、表格、设计稿各种各样的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但就如后边发生在这个从curse到cloud code，再到今天各种grog boat，以及to b的proactive agent所发生的趋势一样。我们觉得AI本身会变得越来越autonomous。所以internally从24到25再往后，我们觉得想要做更AI的东西，以及我觉得整个世界的资本市场和很多事情的变化都很快。所以也是时候重新出发，去做一点别的更native的东西。这大概是之前的lesson的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我记得上次健身，你是刚开始创业，大概一年前，我们在上海建的时候，我因为很早的时候我们就认识。是啊，然后一开始说实话我对你的一个很typical的印象就是年轻有冲劲儿，但觉得自己很牛逼的那种感觉，就是有点年少无畏的感觉。对，但我重点想讲的是我一年前在遇到你说，我真的觉得你其实改变挺大的，就确实变得更成熟了。我不知道你自己有没有这种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得创业让人进步很快，每一年跟前年的，我不管是内在还是外在，甚至体重上变化都挺大的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>呵呵OK。所以你觉得这个就是创业带来的变化？就是总归会遇到各种各样的问题，然后就会让人变得更成熟了是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是理解产品，理解技术，可能是一开始，然后再到后面就要理解创业这件事情本身。然后理解你的产品，理解你的市场，理解怎么跟人打交道，最后怎么赚到钱。我觉得说起来都挺复杂的，但确实成长是创业最大的回报。我觉得对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我们讲讲，你现在做的是个什么事情？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在做的是一个主打持续学习和continuous learning的这么一个IOS service的企业级agent agents system。我们不太想把它归类为一个具体的软件，因为自从26年开始发现agent开始不像软件了，它没有具体的界面的形态了。那最近的我们主要对标以及要超过的一些对手，像是humans，然后还有像clock boat，然后town这些产品基本都是从一个agent变成了凡是人类能用的工具，它都能接管，就是说不光是你跟I他还会主动找你。而且找你的时候可能是从飞书slack会议软件给你打电话，甚至给你发微信，全部能做的这么一种proactive agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这种proactive agent我们在它之上提供的额外的创新的价值是我们给他引入了持续学习的能力。也就是说今天可能对很多企业来说，你去给每一个人配一个personal agent，它已经能替你去把你的工作基本完成。因为它可以接管你的电脑，接管你的线上线下和各种硬件，所以基本上他能把所有的活都替你干了。但是对企业来说，这些personal agent之间是没有联动，没有学习过程的。对于公司的业务层或者决策层来说，反而你本来要处理100个员工带来的信号和噪声，现在是100个员工加100个agent，其实很多时候放大的可能是噪声，而不一定是信号。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我们做的事情是说，第一，所有人有一个共同的agent每个人在跟他私聊单独聊天的时候，实际上还是类似PA的这种一个有单独的记忆，单独的运行环境的这么一个东西。但是它会同时在业务的所有的员工和所有软件的所有切面上持续学习。这种持续学习给企业带来的价值是，第一，你第一次可以真正的像X光一样透视你公司的所有业务的所有细节。他真的能把每一行代码，每一个API，每一场会议和跟客户的每次沟通都学习下来。然后第二，这个持续学习可以产生公司自己真正的知识产权。因为我们可以通过参数的方式训练一个有持续学习能力的模型，来让公司去拥有这个持续学习的结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以首先你们做的还是整个大的A的赛道的一个延续。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的，它还是一个A类的产品，只是他说帮企业去自动运行而已。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白。对你怎么看现在整个agent的发展？我感觉就是personal agent这波火了以后，似乎癌症的这条路应该已经走到了比较尾部的这个节奏了，就是C端如果也都能用起来的话，那其实也就差不多了，对吧？因为之前其实大家在讲的时候都是程序员在用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我的经历比较复杂。因为我又做过算法，我又做过产品，然后我做过技术。所以这个话题背后有很多很多。比如架构的变化，产品的变化，然后人们怎么做产品的认知上的变化。但我们还是从产品形态上讲的话，我认为过去两年我们经历了很多正道。比如说有GUI的兴起，然后是TUI的一星期，然后CLI的兴起，又到有了codex之后，好像大家又开始更常用archiv，然后再到有person agent在25年到26年，AI agent的产品形态变化是非常剧烈的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我认为一个大的过滤器在最近发生了。因为今天的proactive agent或者今天的agency system已经不依赖于特定的人机交互界面，然后也不依赖于特定的UI或者UX，它已经变成了一个无处不在的一个东西。所以就产品意义上来讲，接下来智能的提升和工具级的提升可能是纵向扩展的。但agent的这个产品形态可能相对我觉得已经比较固化了。就是它变得特别像一个人了，你可以各种渠道各种地方无处不在的找到他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哼然后国内其实大家在聊personal agent的时候，其实我觉得大家是模糊的有个概念，那就觉得不是那阵火。但其实我们看海外它里面是有各种的分类跟赛道的对吧？包括你刚才提的那个hermas，它其实是open cloud的一个延续。然后open cloud虽然我觉得主要是那个哥们儿去上班了，没怎么管了。对，但herbs其实仍然有很好办，最近也公布了融资。然后像instinct的什么grow boat其实也有不同的定位，包括muse以及美国其实还有烫对，还有烫AI其实他更多的讲一个to b的故事，也是最近又拿到融资了，是包括有一个做AI陪聊的一个产品是吧？他也说我有很多的用户，然后我有个A他本来就是有个AI的这个。伴侣类似的，然后我接上agent的能力，我也是个personal agent。海外有各种各样不同的定位，所以我好奇你怎么看大家这些不同的定位，然后你们的定位大概会是落在哪个上？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>面对作为一个创业者，首先2026年是我们经历的这种所谓buz word最多的一年。就是我们在开始做我们现在做的事情的时候，我们就说我们要做一个完全自动化的，无处不在的autonomous agent，我们叫full autonomous agent。内部这么定位就是完全自动化的，永远开机，永远在线，可以在任何地方跨环境的找到它，这是我们的目标。他在年初的时候，龙虾open call有类似的目标。然后在去年底到今年第二季度的时候，其实personal agent从无处不在到人们找到更高频率使用的场景，能找到他，然后发现他什么都能干的祖师爷其实是一个叫poke的产品。这个poke最近也被收购了。然后poke是第一个让人们意识到说你可以在海外用im messenger给他发短信，然后他什么事情都给你干了。这其实跟国内，相当于你在微信里面就能跟你的各种agent的对话，而且他还能主动的来找你proactive来推进事情的概念类似。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后tok从25年下半年一直做到26年上半年。本质上我们觉得那个不变的极限是模型越来越聪明以后，它掌握复杂系统我工具的能力。从一个API进化到很多API组成的复杂系统，再到今天他已经可以组织超越一个操作系统级别复杂度的各种工具。那就是说它可以操作多个这种操作系统级别的系统的时候，你就可以做到说你在手机上也可以找他，电脑上也可以找他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为它可以同时接管你的所有这些环境，然后把它们处理成各种各样的工具调用。它在C端的体现可能是人们发现说agent有的还是有一个APP，比如说muse有的比如就没有APP的，比如说poke instinct。他们就是你给他打电话也行，你给他发短信也行。然后无论如何，你这个interface用最原始的方法还是怎么样。你跟他交互，他去用boss游戏也好，computer游戏也好，CLI也好，MCP也好，调度乱七八糟的工具替你把活儿干完，而且干的比人类可能更快更好更省钱，这是C端的体现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>自然由于它的本质是AI能调度复杂系统，所以在B端也会出现更多的，首先是SARS的崩溃，就是各种SARS都被动态神车的软件取代了。其实就是出现了像我们，然后像town，像各种各样的人尝试研究说能不能让整个公司，整个企业作为一个复杂系统也被AI接管。实际上在这个产品的角度和技术角度来看，我觉得B端和C端的personal agent proactive age是一个技术上比较一致的东西。就是AI操作复杂，系统面向多个终端和。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>多个用户。哼但对于做企业跟做个人到底实际的区别是什么？就是因为我在想你做企业，其实最后也是企业里的个人在用，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>技术上有很大区别，然后商业上也有比较大区别。技术上的区别是说to c的personal agent，我觉得还是一个平台型的机会。因为实际上今天AI创业跟以前互联网创业的很大区别是规模效应和网络效应被极大的减弱。所以以前你有更多的用户的user pattern，它就能帮助你迭代出更好的产品。但这件事情AI产品上是往往不成立的。你做一个聊天机器人chat boat，然后你的用户量再大，可能他记的数据也不能让你进化到一个agent就是模型本身智能提升是最大的决定性因素。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我们觉得在to c的产品上，第一是大家长期以来没有办法形成数据或者智力层面上的壁垒。因为你有N个用户，这N个用户之间的协同或者规模效应是几乎不存在的。然后在做B端产品的时候不是这样的。比如说如果你给公司的每个人都配一个personal agent，那他们可能这些人做的事情有大量的重复。那其实有些事情是不需要被重复做这么多遍了。其次信息在沟通的时候可能会有损耗。但是如果在企业里面，这个agent和agent之间可以相互的学习，然后人和agent的之间也可以相互的学习的话。那其实我们认为在这种多个人做，但是最后整个企业有统一的目标的情况下，可能规模效应或者说持续学习是一个可以做的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>产品和技术上的一些区别。另一个商业上，我真的觉得就是to c的persons agents太卷了。所有能在to c的personal agent上活下来的公司，可能拼的都是产品外的东西。比如说你的工业能力，你能不能让大家更多的省钱，买更多的东西。然后你需要去跟供应链去有这个攻防。比如说你看我们很多person a都在被点外卖或者差旅平台做封禁。所以instinct和muse其实在美国讲的更像是一个在美国重新新发明平台电商，重新定义消费供应链的这么一个故事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但to b的agent控制的同样是附加系统，可能就有更直接的价值。就是你帮这个公司用更少的成本完成了更多的内容。你把一块钱投到你的AI人工智能token里面，他学到什么东西，产出了多少东西，我们可以让它变得更透明，赚更多的钱，用更低的成本。实际上我们可以更快的捕获价值。所以我觉得对我们这种小团队来说，我们还是更想做离客户价值更近的东西。这也是我们没有选择做to c的personal中的核心原因。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我在想说美国的那个生态确实是更开放，包括他为什么能有这么多基于短信本身的产品，包括我觉得很多产品在美国可能原地就能好用很多倍，对吧？他就瞬间能接入各种服务，各种生态，然后就能一开始就能获取人的很多context。对，但是现最近因为看新闻说amazon好像封禁了谬对，好像是对，所以我也在想也同时存在。你说那个情况就是新的一代是不是他有可能是大家在加州的是新一代的amazon，新一代的各个平台。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，他们都要肩负这个命题。因为没有平台想要从入口变成供应商，这在中美是一样的。所以你需要非常大的业务体量才能重构这些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得这个应该是未来几年的一个核心命题。对，就是如果这个事儿真的被创业公司跑成了，可能就真的是一个大洗牌。就现今的大家经常在用的这些产品，对吧？包括我记得我们从二三年开始就在讲这个事儿。如果AI是真的那么好的话，那像滴滴、美团这种生活服务类的，其实就都变成一个后台的供应商了，大家就都不会去他那边去做一个第一入口，它的品牌价值、用户价值可能就都。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不存在了。是的，但反过来，像滴滴、美团这样的公司，现在也还是挺年富力强的，他们也一定会下场做personal有关的东西。所以这就是创业中比较血腥的战争。我觉得跟之前移动互联网这种大洗牌可能还不一样，就因为这些公司还挺强对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我站在外围站着说不腰疼，我觉得这样才有意思不是，不然长期都是那几家也没什么意思，对吧？最后哪怕还是那几家，那你至少从用户角度来说，那过程当中你肯定你是要是不是要再怎么补贴。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要干嘛是吧？对对对，那现在补贴更严重，以前你补些商品，现在你又得补些商品，又得补贴token.</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还得补贴广告。是的，你们现在我记得是已经有几个大客户了，是吧？对我觉得这个还蛮难得的。因为过去几年其实做这种AI产品的大多只是停留在讲故事的阶段，对吧？或者说有些小范围的C端用户的使用。但你真的做了大客户，你觉得这个的原因是什么？就大家痛点刚需和买单的点到底是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得我们切入点找的比较好，说实话这个不太谦虚的说是这样。因为personal agent或者说今天的exact system是一个非常黑客，非常hack的东西。比如说你获取那么多的context，拿到那么多的权限，其实是你在to c的时候怎么划定一个用户的信息边界是很难的。其实personal agent几乎可以用你的所有信息去做任何的事情。所以大家天然要很多奇技淫巧和很多逆向工程才能拿到这些东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但在to b的场景里面，企业的一号位负责人，就他是乐意让你去hack他的。比如说我今天告诉一个C端的用户说，我拿到你手机的所有权限，我能看到你的所有单子，所有照片。然后就为了推测一下你是一个什么样的人，给你推荐一些广告，这是PA的逻辑。只不过这个广告不是以前那种贴片广告，可能就是一个chat或者一次消费行为，听起来就很吓人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但在B端我们告诉老板说，你看以前有八个人干的事情，今天我端到端的用AI可以做完你的业务数据、财务数据、产品迭代。员工的每一个花钱买的token，最后怎么变成了代码，流入了哪里？有没有通过上线跟测试都能由AI端到端的。旅顺的话，实际上这些大客户有比我更强的动力去对他们的系统做必要的改造。就是为了让AI能拿到更多的context，进行更多的产出。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以在C端你在跟用户对抗，可是在B端的情况下，只要我们把AI的这个know how展现到c ever级别。这些真正赚钱的公司反倒有非常大的动力去配合AI来改造自己的公司。所以我觉得在to b如果你能做出比较好的这种全自动化的。A站的系统在B端其实前期有更好的option，应该是一个比较自然的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但你看这些公司，我理解是他们绝大多数，我觉得我们现在聊的，尤其是互联网公司，其实已经是全员AI coding了，对吧？有的是在讲max plan，有的可能没提这个概念，但基本上很少还有代码是手写的了。那在大家都在用各种AI coding的软件的时候，你这个东西进去跟他之前的区别是什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先是这是一个比较大的悖论，就是AI已经在消灭软件了。我们在说这件事情的背后说的事情是以前人是在适应工具做一些事情的。你必须有一个财务系统在里面再去做你跟财务有关的数据。你的产品研发的这个loop里面，除了工程师在写代码以外，你的产品经理的设计师可能不写代码。那他们跟写代码人之间沟通就有天然的壁垒。所以在25年大家就观察到说，工程师加上codding h已经解锁了100倍1000倍的生产力。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可是人和人之间是要交互的，产品经理怎么办？设计师怎么办？一方面这些人的工作流会牵扯到GUI，牵扯到更多的环境，牵扯到更多的数据采集。本身就不像工程师那么干净，所以它对模型要求其实更高的。其实在26年模型能力达标之前，通用办公或者走向代码以外的场景没有被覆盖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另一个点是说，一旦这些东西被AI端到端的可以优化了，AI可以生成一次性的软件，hack一个一次性的系统。就以前我们通过软件来做这件事情，现在AI可能端到端的自己给自己写套代码，或者做一个脚本就能把活干完的时候，以前的很多岗位的工作流就不应该存在。比如说是不是产品经理就不写PRD了，设计师是不是就不用再画那么多的设计稿了。比如说我们公司也在设计跟UI上投入比较大的功夫，但我们的设计师今天就已经替代了前端和替代了客户端工程师。他用artifact去看他的真实代码长什么样子，他的产物可以是新上线的功能，新上线的UI也可以是我们的宣传视频，也可以是user lon boarding。所以设计师变成了面向界面交付的某种意义上的工程师。尽管他可能不会写代码，所以要在替他写代码。产品经理变成了定义功能逻辑的工程师。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这些意义上，一方面要给每个人提供更好的工具，另一方面是每个人的工作流和他的角色发生了根本上的变化。所以这是使得你第一没办法用coding，也就能解决所有的问题。第二是那些提效的地方，可能不光来源于每个人个人的效率被提升多少倍，还有这个系统之间的交互产生了什么样的信息浪费。你单纯给每个人配一个AI的话，他可能经常用AI产生比较大的slop。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们想象一个场景，一个产品经理让AI把他的一个需求翻译成一个300页的PRD文档。然后另一个工程师看到这个300页的PRD文档，又让他总结成一句话的需求再去写代码。那这里放大的大概率是噪声而不是信号。因为那个人格跟人联调或者说讨论业务需求的环节反而被略过去了。所以很多公司在给大家配的这个token maxon以后，反倒效率降低了，而不是提升。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哼你说这个让我想到最近minus他们发mono的那个东西，我不知道你看到没有，就内部是怎么去做AI组织改造的，那个那个是看到了。对，是不是跟那个会有一点像。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实比较像的。而且这应该是做principle的共识，或者说做企业协作的共识。就是以前大家在做软件开发的时候，代码库是指面向工程师的东西。今天把那些不写代码的人也掰到面向一个mono rapper或者说一个代码库去开发。然后用artifact的快速的实时构建，实时预览演出法则的去直接修改，最终结果应该是AI时代开发的一个标准范式。但很多公司可能还没有意识到这件事情，或者没有完成这样的改造。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这条线是不是又有点像从train到define到N8N然后再到open cloud，到今天hermas这条线。所以你们其实也是一定程度上去对标hermes什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些东西是有类似的地方的。就是在工作流时代，你更希望AI去替你补全打字儿，就是你还是在规划这个东西。那当AI聪明到一定程度了以后，他从替你打字变成了替你决策。就是说他看到的信息比你多，做的决策比你多，提供的智力比你多。这在组织里发生的事情是一样的。就在25年的时候，他可能是个工具，他还是在替工程师写代码，替产品经理写PRDT，设计师出设计稿。但现在AI端到端交付东西的能力变得非常强，以后就应该反过来人去适应它了。就应该是产品经理、设计师和工程师们都在面对同一套以代码为底的这么一套mono rapper或者叫它的本体，然后去开发所有的东西。所以像你说的这个类比，agent的系统变得越来越广泛，越来越智能。所以人们用它的方式其实也是有越来越高的抽象层级的这背后的原因是一致。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这条线感觉是不是也是到一个比较尾声的阶段了。就是从我们该捋的那条线来讲的话，因为我在想你看之前线就这条线。其实每一家刚出来的时候，star都涨得非常快，对吧？不管是long time还是define，还是N当时也非常火对吧？那个star长得我觉得飞快对吧？Of Chloe更不用讲了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，甚至还有很多开发的skill，2.0上半年还有很多非常火的，比如说什么YC的老板做了很多个什么g bring and jack，还有什么Andrew CIM wiki乱78糟的对.</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我感觉今天的像N8N应该好久没有人提过了，对吧？当年你不管说哪都是一堆的，然后是好像提的很少，但还是偶尔能刷到，而且他们最近也还是拿到钱了。对，我就不知道这里面大家的一个现状和未来的发展趋势什么的，你怎么看？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我提这些点是因为可能N8和25年底的时候，大家就觉得已经不太行了，就不太提了。但是即便26年4到6月，大家会做的很多单点优化。这种skill层面的单点优化在github上拿到非常多。新到26年下半年也没人听。就是因为当模型能力越来越强的时候，不是说有一种更好的工作流替代了以前粗糙的工作流。而是说模型就不依赖任意的工作流。所以skill也好，记也好，工作流也好，很多这些外挂的东西生命周期会变得非常短。因为模型本身把他们学了进去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天你用一个新的更聪明的模型，或者一个新的更好的harness，第一件事情可能就是把之前的各种skill懈怠掉，把这个system prompt给删掉，否则它对AI带来的可能是副作用。所以你看到产品也是这样，就去年和今年上半年的很多harness也好，很多这些以组织AI为生的开发平台或者公司都是想在教AI做事儿。所以那里面的engineering都是在给AI去补短，而不是给他锦上添花。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到26年下半年，office 5.5GPT6 extra这样的模型在大多数场景上我们觉得已经配得上AGI这三个字了。其实这些外挂类的东西就作用会越来越小，然后甚至被大家就没法用或者淘汰掉。我觉得是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我记得当时大家在提到工作流什么这个的时候，其实一般会主要讲两个点。第一个点就是说尤其在to b端，但追求的是一个工作闭环的确定性，如果纯AI生成的确定性还是不够强，工作流的可能能固化一个确定性性。另外一个就是成本的问题，就是很多工作流是可以复用的对那现在这两个点会有什么变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会的，这就是一个很好的问题。我觉得是工作流的固化这件事情本身也从模型外转向模型内了。因为在24年25年的时候，模型生成的结果还是有比较大的随机性的。包括它有比较强的幻觉以及指令遵循不够强。然后当时的KV catchy和prom的catchy层面的优化和像现在的loop transformer这样的技术也都还没有出现。所以人们需要外挂的东西来把模型确定化的输出给固定下来。但现在一方面是模型的指令遵循和强化学习，已经做到说它在控制任意的API，输出任意的指令的时候不会有什么错误，甚至比很多所谓的规则为主的确定性的系统还要更准。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另一方面就是模型的结果开始变得可以复用了。你发现在agents的工作负载里面，KV catch prom catcher的命中率是非常高的。也就是说如果你想有一个确定性的输出的话，在之前你可能靠的是外挂的东西把它存下来，然后让模型反复的调同一个API和同一个工作流。在现在可能他在info层面就被优化掉了。如果有几次工具调用或者用户的工作是值得被蒸馏下来的那它可能已经存在在KV catchy或者prom的catchy里面。甚至像我们做的这种小模型蒸馏大模型，为的就是让小模型把大模型确定能做的东西给背诵下来。这要比你写一个非常僵化的工作都要强非常多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你说这个，我想到就是现在我用一些A醇产品，我提一个诉求，他会说我发现你上次是怎么怎么做对吧？我按照上次的什么什么来帮你完成这个任务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是这是一种记忆层面的附庸。工作的层面也是附庸。对，你就是你反复调同一个API，它生成的这个Jason，只要他之前生成过，那可能QV开视频就有你化妆命中率很高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哼OK明白。但从这个层面的话，比如说像你们现在签那些大客户，他为什么不去选择现有的那些什么那些东西？就你们跟那些去比的话，主要的点在哪？</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们最大区别是就比如说缓存命中和持续学习这一条。我们以软件开发或者像产品经理去读这个github上的代码，然后让他去写PRD是一样的过程。假设一家公司有100个人，那之前像hermes or brock boot这样解决方还是给他们每个人配一个agent。这个agent和agent之间是没有一个协作的概念的那在我们这里是我们给所有人配同一个A的，但这个agent的是高并发且千人千面的。仅就刚刚我们要阅读一份代码，然后对它做出某种修改这一个场景举例，之前的这110针就得读100次。那今天在我们这里可能你的同事读过一次以后，在你这里也能利用到缓存，而不会重复命制。所以它的浪费本身就减少了很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另一个就是你的skill或者你的持续进化有了一个基座。可能以前你这个hermas或者rock boat他们之间没有协同的作用。所以可能公司里面最会用AI的两三个人，跟其他的效率差距是非常大的那你作为老板，你想知道说怎么让别人变得像那些效率最高的人一样。但这个事情也很难通过培训或者通过某种人跟人的沟通方式去说得清楚。因为这些系统本来就是AI主导的。那现在如果是同一个AI能看到所有的工作流，然后他能端到端的看到谁做的好，哪个点卡到哪里。同样的你这个老板如果去问一个gorg bolt或一个hermes说大家都干了什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们上市公司整个公司的业务进展是什么样的？100个人和100个personal agent可能还是会输出200个不同的答案。但是今天我们就可以把所有的信息聚到一起，然后告诉我老板说，你看这个代码的构建，这个PID的书写和这个工作流，在这个环节就应该是有这里是更好的。我们觉得这个地方是怎么改的，它不光可以变得更proactive，对吧？那他肯定是有一个更快的学习的过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>用俗话来讲就是打通了闭环了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Online是吧？你这个就很互聊，我怕挨骂。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但你说的对。OK好的，理解了。然后你刚才也提到你们自己搞模型那一块，我知道你们也自己实际就在训一些模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这几个月大家一直在讲说英语公司自己学模型，就模型一体的故事。然后有很多公司讲自己未来要学模型，其实我觉得真的能落地的还是少的对，能不能给大家介绍一下，就你们实际训模型的这件事情，包括里面遇到的一些难点，或者现在这个节点做这事的一些意义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这边其实25年下半年，就是现在的AFK这家公司成立前，我去参与了国内第一个ET参数以上的多模态agent&#x27;s model的训练过程。我们去很仔细的做了sandbox和IL机卸等一系列事情。但是当你深度的参与过模型训练之后，其实在那段时间我是特别不相信创业公司的模型训练这个趋势的。因为因为我们觉得很难找到客户，因为去做大规模的RL是需要非常聪明的人，以及更重要的是非常多的卡，非常科学的数据合成过程的。所以听起来不像是一个创业公司能去贡献什么东西的地方。可能那些neo lab和那些前沿的这些厂家们，从OpenAI anthropic到国内的这些kimi、deep sk、质谱这些团队，他们的卡，他们的人才密度和他们的基建端到端都比其他第三方的东西要好非常多。如果一个创业公司去做这种事情的话，实际上比较难的。因为开源模型可以被理解成劣化版的闭源模型，小模型又是一个劣化版的开源模型。所以当时我们就特别不相信去做IO环境或者去提供L服务的这一条创业路径。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可是在26年这件事情发生了比较大的变化。一方面是SI变得越来越近以后，训练模型的成本本身下降了。然后二是你不需要再去说我要通过一个第三方的IL服务去做一个比闭源的模型，或者比这个更大规模更大参数的模型，在某个方面天花板更高的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以前我们训练模型总需要告诉别人说，我就是在某个任务上比所有人都强。大家随便掏出哪个benchmark来，只要你发模型，你总需要在几个benchmark上打到sota你才能发。然后这个事情就会带来大量的过拟合，以及可能你这里面你在这个leader board待的时间比较短。但到204年以来，我们看到的有jav这样的模型开始出现。也就是说大模型的架构本身发生了变化。你在今天训练小模型的时候，你是可以做到说我不需要比AGI model更强。我只需要做到说我给他提供肌肉肌，我能把他确定能做对的东西，用更低的成本，更快的响应速度去做出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个我们认为26年IL文艺复兴的一个点。就是今天规模化的大中小把大模型可以经过一个很长的reasoning process才能得到的结果，变成一个system one model。一个不需要经过reasoning就能快速判断，快速吐出结果的这么一个过程，是一个系统性的机会，而且这个事情在商业上是很make sense的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你必须要找到有用户偏好作为reward的场景，且有非常强的sota model的正确结果作为你去死，那这个大成小才能创造价值。而这件事情是同时要满足说架构也变化了，然后基膜的能力也达标了才可以做。那这件事情也就是现在才刚刚可以去有这么一个机会，然后我们又变得很兴奋。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你们现在都在训的是什么模型？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们现在训的主要是两种模型，两种都是小模型，第一种模型我们叫做task routing model，实际上它是会把基膜在完成过任务以后，可以相当于是我们用类似jb这样的pref model去做了一种能把sota模型做过的任务低成本复现的这么一种东西。当你的公司都在使用我们的模型的时候，肯定会有大量的任务已经通过了。公司在调用像GBD或者athrob c这样的先进模型的时候，产生了它的工具调度的过程和它的结果。这样的trajectory在被我们记下来之后，我们是可以训练我们自己的模型去把它蒸馏下来。然后在蒸馏的时候可以对齐这个用户的使用习惯和偏好。相当于说对那个sota model来说，完成这些任务可能有五条不同的路径都是能做完的那用户在第一次使用sota model的时候，可能倾向于这五条路径中的一条或者两条。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在我们观察它怎么做下来之后，我们的小模型会把这个怎么做的以及用户偏好是什么，有样学样的记下来。我们管它叫模型的肌肉记忆，然后我们管我们训练这种模型叫agent&#x27;s system的植物神经，或者叫周围神经。因为那个很聪明的模型可能是大脑皮层，但我们干的事情可能是我们给他配上了脑干和脊髓。那企业用它来做事情的时候，就很像是一个人类在学习怎么游泳，怎么骑自行车的过程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你在第一次骑的时候，可能你的运动神经，你的脑子需要很多的思考才能把这件事情做完。但是我们的植物神经，我们的小模型来观察这件事情。这样你在执行几次之后，它就变成一种肌肉记忆了。然后就帮助你可以快速条件反射的低成本的把这事情做完。这是我们现在最主要的模型，我们管它叫一种growing model。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二就是我们在训练大概20到40B参数的这种worker model。这种working model是专门面向企业内部的。因为今天很多操作系统和很多动态软件在使用闭源模型的时候，可能还是有比较多的安全限制。比如说公司可能需要逆向自己的一些操作系统层面的产品或者接口，那我们可能可以提供更强的逆向能力，他可能可以更快的去在处理企业内部的特定任务的时候有更少的限制，这是也是我们为企业提供的一种服务，所以大概就这两种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我听你讲这个让我这个幻视到了巨神领域，有点类似于巨神那个大脑小脑的那个故事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是又跟巨声不太一样，反倒是巨生的大脑小脑最近正在被颠覆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大脑被颠覆。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你们后面大概的规划是怎么样的？包括你对于整个的agent什么这些市场后面的一些看法是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先我觉得AI真的是会端到端的消灭操作系统网络以及应用层的各种逻辑。我们最近能看到很多通用软件在加速消亡。比如说今天游戏引擎有点消亡，AI可以为每个游戏定制一个专门为它优化的渲染管线，然后可以为每个不同运行它的设备去专门的优化。所以最近一个很火的skill巷REA，它可以做到说在任何安卓平板上运行任何的switch游戏。要做到这一点，相当于它给每一个游戏动态的。写一套指令集和专门为安卓平板所优化的渲染管线，然后让它能跑起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样事情在以前是不可想象的。他已经做到了每个游戏，每个设备的高度定制化。以后可能每个人的每个任务，做的每件事情都是一个高度定制的软件去做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们有两个比较根本的判断。第一是我们觉得说今天所有的软件都是开源软件。就是今天即便你不把源代码给出去，别人只要能知道你在做什么，然后只要能拿到你的API back，它就能把整个软件让AI给逆向出来，或者让AI重写一个功能一模一样的东西来替代你。所以软件本身在消亡，然后更多的软件转向了模型智能里面，这是一个根本上发生的变化。二是我们觉得模型的普惠在两三年内可能会有非常大的变化。这1到2年2到3年内，我们在给企业提供用最好的模型和最先进的算法创造更大的价值这样的服务。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们在帮本来就能捕获价值的公司去提高它捕获价值的效率。然后我们从中分一些钱作为我们的利润，是做to b比较直接的事情，但这背后是今天最好的一战。和model。ATI级别的model还主要来自于athrob c和OpenAI。可是开源模型的进化速度是越来越快的，以及追赶的进度也是有非常大的加速度的。所以我觉得2到3年以后，由AGI模型的供给会变得非常充裕。那个时候在B端C端重构这个世界的软件和商业规则会是什么样子的？会变得非常血腥，非常exciting，很难想象。可是最近我们觉得可能还是搞企业还要靠谱一点儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我感觉整个AI的游戏的age这块的进展是不是开始相对成熟和慢起来了。因为你看这两年，其实最后大家看起来整个赛道赚到钱的，一个是AI陪伴的，里面有很多赚钱的，其实大家很多是都活得不错的。另外也就是视频赛道对吧？就各种除了大家看到的his build和deep live，其实这个赛道里所有的玩家都在增长的，不只是前面那几个对吧？但是没有被前面的都吃掉，而是整个赛道一直在涨。我觉得核心就是因为那个聊天能力和市民生产能力其实相对是很成熟的了。是的，就这块他的交付结果是非常可预期，也是能商业化闭环的对A镇这件事儿大家一直在讲，然后一直在出新东西，然后似乎在近期才开始渐渐达到那个程度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的觉得是对我我不知道你的体感，我体感是这样的，也是厚积薄发的，因为AI系统必须端到端完成任务才能创造价值。所以之前这个桶只要缺一个环，它就没有解锁很大的价值。但是这个环最近开始被补上，甚至像刚刚说的，之前赚到过钱的视频语音陪伴类的赛道，也在被今天的通用基建和通用模型所挑战。所以我觉得事实上发生的事情是在过去2到3年间，你看当年的图像生成，视频生成还是以deficient model为主的，不一定大家是用今天GPT这样自回归模型来做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这个这件事情最近也被寂寞颠覆了。Ops 5.5是最会剪视频的模型，然后GPT6 extra是最会控制robotic的世界模型，这简直就是倒反天罡。然后因为AGI和这个基点开始变得近，所以这个桶开始变得满。所以之前的一些人们把AI当成一个新物种。可能在视频或者陪伴在聊天这件事情上有一些单点的突破，开始做到一些AI尝鲜的价值。但接下来可能更大的革命在于AI在几乎所有的企业，所有的场景，所有的生产过程中都能端到端的体现出比人类高效的多的能力。他们也会开始爆发。你说的对我觉得agent已经正在跨越这个极点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，最后我想问一下，你看包括我们提到的那个刘语熙那边，我知道包括现在还在cofer当时被收购那几个人，其实当时也是你们核心的一些研发算法什么的。对，在clove ir里面是非常重要的这个人，非常重要的一些算法跟研发的人。然后cfr可能很多人不太熟，但是其实是过去两年里面涨势非常好的，少有的逆势增长的端侧的这么一个一只股票吧，对吧？也是一家公司的产品。最近推特上比较小火的那个air build，其实也是a fine之前的产品负责人出来做的，包括生姜，其实很多人都听过他这个还算算是一个偏自媒体网红，加上做一些vender增长服务的。对，其实也做的很好啊。所以我就想说，你对于招人跟人才组织这个事儿，你有什么心得？是能搞到这么多很好的人，包括你现在的团队也是背景都非常好的吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得首先还是非常感谢创业这个事情，他是一个非常怎么说呢？就是你把一堆真正想要做事的聪明聚在一起的时候，大家共同成长的速度是会非常吓人的。所以我觉得刚刚像提到的很多人也是我们至少证明了从进入affy到出去了的大多数人，还是超越了本来的自己。所以这里面产生了若干的创业者，然后产生了若干的技术负责人，产生了若干的在不同的领域发光发热的群体。我觉得至少我们在创业中证明，我们还实实在在的做了并学习到了很多的事情。你要非说人才组织的话，我觉得创业有意思的点就是当你真的去塑造一个有才华的人和有想法的人，可以放开手脚获得比大厂更少的限制来发挥他才华的环境的时候，你真的能做出一些比较美好的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>即便我觉得创业在运气、时机，很多事情上还是很重要。所以并不是每家公司都能上市，但是能不能让自己变得更强，能不能让人变得更值钱，能不能提升下一次成功的概率，还是一个会被人们忽略的回报。所以我其实你要非要说招人和做事情，可能也没有很多非常具的心得。我最大的心得就是还是要跟聪明的、善良的、可以坚持的、勇敢的人一起去创业，做些有意思的事情。然后。Shot for the moon, 那不一定你能land到那颗star上，但绝对大家都会比本来的自己要强得多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以从奥发出去的很多成员就还是有非常好的结果的。比如说像圣蓝，当然我也投了她，然后她也从王慧文老师这里有比较好的融资结构，包括air bill的在推特也火了。然后像是我们之前的给翻译贡献最大的CTO太郎，他不光做出了优秀的开源项目，然后把饭推到新的高度，现在也成为了color fair的principal engineer之一。我们最近做的这个大模型透视的透视技术，有很大一部分就是他开源的项目所主导的。然后有一些老师我们能参与和目睹y zero这家公司从成立，然后weight从一个公益性质的开源项目，变成了voi的这么一个成功的商业产品。最后被called fair收购，然后让我们也有了一定的退出和回报。我觉得这都是一些非常神奇的amazing journey。还有很多人，比如说我们的产品，我们的设计，我们的运营，都在各个大厂的各个创业公司里面，还是挺开枝散叶的这其实也是一种收获。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我还是觉得很牛逼的，很厉害，就不枉费你创业这么多年还是拿到一些结果。包括我觉得你带的团队都能拿到一些结果，这个是还挺难得的了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>希望这次可以拿到更大的结果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的，加油，我们今天这样，谢谢。</p>]]></content:encoded>
+            <pubDate>Sat, 14 Nov 2026 13:00:00 GMT</pubDate>
+            <guid>6af6678d14d01a26f8a916f6</guid>
+        </item>
         <item>
             <title>锐评国模与 Neo Lab，畅谈 RL 人生与 RLaaS | 对谈 Mind Lab 首席科学家骁腾</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6aec6bc06381f0f964c45068</link>
@@ -7937,177 +8134,6 @@ BTW：阶跃最近刚刚开源了推理效率更高的基模 Step 3（github.com
 <p class="transcript-line"><span class="time"><strong>[00:57:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，我们就是感谢一波今天时间好，谢谢。</p>]]></content:encoded>
             <pubDate>Sat, 02 Aug 2025 14:00:00 GMT</pubDate>
             <guid>688cc1cc8e06fe8de7d920cd</guid>
-        </item>
-        <item>
-            <title>并购的本质 | 对谈云磬投资创始人立阳</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/6879ead0a9dec92500eab32e</link>
-            <description>最近，AI 创投圈接连出现了两起引人关注的收并购事件：智元机器人买入上市公司控股权、Windsurf 宣布被收购。
-收并购，似乎正越来越频繁地出现在创业者的视野中。
-相信大家对收并购这个词并不陌生，但未必了解其背后的资本逻辑，我们也一直对并购的运作方式有很多好奇之处。因此，本期节目我们请到了一位有十多年经验的资深并购投资人来一起聊聊收并购这件事。
-本期节目中我们聊到了智元近期的资本动作、并购基金与 VC/PE 的核心差异、一名优秀的并购投资人需要具备哪些关键能力，以及一桩复杂交易如何真正落地等。节目的最后，我们也请立阳从他的视角，给 AI 创业者分享了一些关于收并购的实用建议。
-【人类博物馆】
-导游：曲凯，42章经创始人
-38 号珍藏：张立阳，云磬投资创始人，有十五年的并购经验。此前，他曾先后任麦肯锡公司的战略分析师、中信资本的执行董事，及 TPG 亚洲基金的董事总经理。
-【时光机】
-* 1:27 当我们说并购的时候，到底在说什么？
-* 6:54 为什么很多一级市场的人开始做二级市场？
-* 7:59 智元到底是不是在「借壳」？
-* 10:11 做并购和做 VC/PE 的核心区别是什么？
-* 12:14 并购是一件概率高、赔率低的事情？
-* 15:04 并购投资人就像工程师，要通过财务模型拧紧每一颗螺丝
-* 17:55 为什么很多并购基金喜欢把上市公司私有化？
-* 19:27 并购的最大价值：通过改变生产关系解放生产力
-* 20:59 并购通常都会管理层大换血吗？
-* 28:25 找项目的两个流派：行业覆盖 V.S. 抓结构性机会
-* 29:56 做 VC 是投梦想，做并购是盘生意
-* 32:12 怎么协调各方复杂的利益关系？
-* 36:13 一个案例：一场极限施压的伦敦闪电战
-* 37:58 在顶尖 MBA 项目中学到的谈判技巧
-* 44:51 做并购最关键的两件事
-* 45:53 追 Alpha 就像气宗，追 Beta 则像剑宗
-* 48:00 未来，并购在中国可能会怎么发展？
-* 49:19 给 AI 创业者的几点收并购建议
-【Reference】
-* 《门口的野蛮人》
-* 单伟建《金钱博弈》（Money Games：The Inside Story of How American Dealmakers Saved Korea&#x27;s Most Iconic Bank）
-【The gang that made this happen】
-* 制作人：陈皮、Celia
-* 剪辑：陈皮
-* Bgm：Mondo Bongo - Joe Strummer &amp; The Mescaleros</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Do something there.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们今天很高兴请到了云庆投资的创始人溧阳。因为我们最近正好看到智源的这个case，就想跟大家聊一下并购这件事情。然后莅阳你可以先简单自我介绍一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，我是溧阳。我自己大概做了15年的并购基金，之前在tpg做中国区的董事总经理，在之前在中信资本。然后我的职业生涯是从麦肯锡开始的，做了几年公司战略。再早我的学术背景是我在浙大读的混合班，所以我基本上是个工科背景，加后来去做商业咨询加做战略这么一个背景。现在我在筹备自己的一个平台，叫做云清投资。希望通过这个平台，能去帮助更多的中国企业找到在整个并购过程中的痛点，帮他们去解决这种痛点，并且找到一些行业性的结构性机会，能做一些自己的投资。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个也是过去十几年典型经营背景，然后毕业先去麦肯锡再去做投资。但我们其实之前就从我自己包括刺杀战争来讲，我们之前可能接触的是vcpe这些一级市场的多一点，就跟并购相关的其实打交道会少一点。你觉得就怎么理解并购这件事情？</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得并购这件事本质是企业的控制权发生了变更。就是企业可能原来大股东是一方，然并购完成之后变成了另一方。所谓的控制权变更其实是讲这么几件事儿。第一，从字面上是超过50亿的股权或者超过50亿的投票权发生了变更。但他这件事儿对应的两个效果是说，第一，对公司的任命权发生了最终的变更，就是股东最终是可以任命一个新的管理层的。第二点，是对公司未来的走向和将来想卖到什么地方，它可以发生再次的控制权变更。那这个控制权持有人他有这样一个最终的权益。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那在整个市场上，我觉得并购大概分为两种，就是发生控制权变更的。一种是企业去并购。所以大家可能经常听到原来讲各种故事，说什么宝洁又收了品格薯片，要用薯片卖掉，欧莱雅又收了一个什么新的品牌。我觉得这更多属于企业并购。企业并购它发生控制人员变更，更多的逻辑是说我要去补我原来企业没有的一些东西。比如说进入一个新的市场，进入一个新的国家，或者在它的供应链上进入一个新的品类，或者补一些它的生产能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一种并购是财务并购，或者我们叫基金并购。这个并购基金做的事情更多是实现财务回报，但它实现财务回报的逻辑跟可能PVC有所不同。并购基金本质上就是我买了一个公司买控制权。我可能会调整管理层，调整它的战略，然后对接各种资源，把这个公司做的更好，能把这公司再卖掉。所以逻辑上其实你可以理解为也是在买东西。但是你买的东西，这个企业你买进来是100块钱，你把它整理好了，加了杠杆，然后操作下来你300块钱卖掉，去掉杠杆之后你可能赚了一些钱，那可能是实现两三倍的回报。这样一个逻辑是做并购基金的逻辑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白。智源这个案例算是哪类里面都不太算是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得其实智源更偏向于第一种，其实它也是并购资源，就是在中国可能跟其他市场不一。中国实际上上市公司它自己的上市地位也是一个资源。大家有个词叫做壳资源，对吧？我理解能对他来说，去把上市公司的这个资源买下来，那将来有机会再往上去创。但是，在中国其实有很多人去做并购的，其实更多的是这种围绕A股上市公司做的并购。这个并购跟我之前讲的这个并购基金可能还不太一样。在那种并购更多的他是去围绕监管的规范，去中间找到一些路径，帮企业实现能跨越监管的这个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>实际上其实你想，因为可是个资源，是因为它的上市地位不是那么的，谁想注册谁是注册一个情况。所以它相对于稀缺资源，所以我理解他这个案例实际上就是它本身是一个好的公司，上市可能有很多条件，但是也上不了市。那我通过空下的壳资源，慢慢的将来有没有机会往里装资产？当然证监会其实对于这类买卖控制权的行为也是有很多规范的。比如说现在的规范是说三年内不能往里装资产，或者不能构成重大资产重组，否则就视为IPO。那可能之前是五年，这个政策已经放宽了。那可能对他来说，我买进来之后三年内不装资产，我慢慢的再去装，实现了上市公司这个壳资源的利用和整合。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我看他好像报出来是他第一笔先买了20%多，但实际上已经是最大股东。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我理解他应该是买了一些股权，同时加上一些投票权的。我们叫对方把投票权质押过来，实现了对公司的完全控制。这一点确实是在上市公司可能会不太一样。因为我们平常说一个私有公司股东不多，你可能51%是绝对控股。但是在很多上市公司中，因为股东非常分散，投票权非常分散，可能你超过三四十，你就是有一个非常强的控制力了。所以这也是为什么在中国或者在很多市场认定实际控制人员发生变更的那条线是30%。所以有很多公司他们要做一个交易又不想触发是一个借壳，他会最后把股权设到29.9。明白？</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于还没上市的公司来讲，很多时候还有个情况就是同股不同权这个事情，对吧？就存不存在一种情况是说我可能我说极端案例，比如说我只有1%的股份，但是我投票的权益特别高，所以我就把这1%收了，我就相当于说完成并购了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>理论上是有这个可能性的，但实际上你会看到大多数的同股不同权的公司，它这个相关的权益是依附于这个具体权益持有人的。比如说我因为认为你是马云，我才把阿里的这个权益给你。如果你离开了，卖给一个随便的财务投资人，这个权益是自然丧失的。就是在很多情况下会涉及这么一个条款，所以真的出现了这种情况不多。但是我在想，我看过一些很特别的案例。比如说上市公司设计成为可能在开曼，因为开曼是一个非常灵活的法律地方，他会设计成说，比如说你的董事会不能由股东会重选，董事会自己选自己，然后董事会能最终控制公司的很多东西，这也是一个很特殊的情况存在。最后你可能是一个90%的股东，但是你的最后的公司控制权可能还是一直在董事会手上。那这个时候实际上股东利益和董事会利益不完全一致，那其实中间可能就会发生冲突。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我看前几天吴世春他们好像去二级市场买了很多公司的股票，然后他说要发起董事会重组选举，然后就好像反正就是老的董事会跟新的这些人有竞争之类的对，反正有这么个case。我觉得现在就越来越多一级市场的人开始去做二级市场的事情。这个可能跟当下的一些政策，跟经济环境也是相关。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得还有一点确实是因为估值变了，就是可能在五年前、十年前二级市场估值特别贵，对吧？你一级市场买进去，上了市你就立即赚了十倍。但是现在很多二级市场的股票便宜。其实我也认识一些非常好的一级市场或者并购的投资人，然后现在离开并购圈子之后，自己就去做二级市场的tech fund对冲基金。我就问他为什么做，他说这个逻辑很简单，就是你买到二级市场最好的公司可能是十倍P对吧？你一级市场一些公司非常贵，如果你去看消费，我还不去买茅台的股票。它是十倍，它的护城河不比你讲12345这些公司高吗？所以他觉得机会可能短期会在这个地方去做这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以回到智源这个case，我听起来就一开始有人讲说他是不是借壳，然后后来不管是从实际的法律上，还是智源本身的说法上来讲，都说他其实不是借壳。对他就现在来看，其实肯定不构成标准意义上的借壳。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为他借不可。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>法律不允许。对，所以他感觉更像是确实是给自己未来留一个出路的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个对我觉得可能留一个出路，将来我三年后不就可以了吗？我先把这个房子买好，我三年后再装修，装修三年，三年后再入住是可以的。另一点，我觉得你有一个上市公司的壳，就刚壳本身是资源，上市公司资源在哪儿呢？是第一，他可能有融资的渠道，对吧？将来因为大家知道你的大股东是支援，我可以再去发债，我再去发新股，那整个过程中会不会有所不同，这是第一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二，它上市公司本身还是有业务的，它就不是一个纯科。那可能在业务上下游有没有一些协同关系？协同效应。企业做并购的时候最看重的是协同效应，这英文叫synergy。他还总是问你有没有synergy，为什么一加一大于2？我觉得他肯定是想过他们在这个情景中，一加一可以大于二才做的这件事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那未来这种case会越来越多，这个我觉得是至少在一市场，应该是历史上第一个这种case。因为智源二三年才成立，应该是没几年。然后估值非常高，然后去二级市场去做一些操作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是初创企业做可能是不多的案例。但是你要再穿透下去，说是实际控制人干这个事儿，确实是很多人干过。本质上就是说我买上市公司控股权这件事，历史上其实还是很多的，每年都有各种各样发生。然后即使是在基金公司也会有。其实IDG当年也买过。启明创投也买过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得大家的目的其实都是想说，我买了一个上市公司平台，未来能不能往里创制裁？但确实中国的二级市场是一个监管驱动的，监管有时候松有时候紧，那最后可能你买的时候是松，但是你想装资产的时候紧，很多事情做不了。所以我觉得这个只是要看市场的窗口和监管的窗口期在哪里。明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你做了这些年下来，因为你对VCP有些基本了解，你觉得做并购跟做VCP核心的一些区别是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得最大区别实际上是谁为这个生意或者是这个并购标的最终负责的原因。我理解PEVC它更多的是去助力一个创始人。我看好这个行业不错，我觉得这个创始人不错，我愿意给他一笔钱，让他实现梦想。即使他这个公司现在亏损或者今天只是一张PPT，但是我觉得他这个事儿靠谱，我就愿意给钱。但是你想给完钱之后，这个公司在绝大多数情况下还是创始人坐在驾驶位上，你最多是个副驾驶，你给他指指路，帮他指点方向。那最终，这个车怎么开，是这个驾驶员去开的。当然我们也看到一些情况是说，最后这个驾驶员搞得特别不靠谱。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>投资人去把公司控制权抢过来，这种事儿偶尔也会发生，但这个极少了，这极少。而且我觉得这不是大家做的初心，就是你肯定这个是逼不得已才做的。但我觉得by out不一样，就是做并购基金，你更多的是说我进去有个主人公精神，就是你请的这个职业经理人，他是公司的掌柜的。但是做PE或者是说你一个并购基金的投资人，实际上你要做东家的这个公司最终是你的，你要为这个生意最终负责的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我在做VC项目的时候，做成长型投资项目的时候，你可以设计各种条款。比如说创始人持有的叫common shares普通股，你们持有的是prefer shares，这个叫优先股。什么叫优先股呢？优先股本身还是一种债，就是如果公司最终要破产清算的时候，优先股的股息是优先于普通股股息向上走的。而且如果比如说你跟他有对赌，说五年不上市，你可以要求创始人回购，或者要求公司回购，本质上是一种类似于债的行为。但是你想你要做并购的话，我就是控股股东，这个东西没人给你回购的，这个东西不行了就是不行了，这个东西好也是好，所以我觉得这个是个本质契约。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但这样的话，我听起来它确实难度高的非常多，而且本身并购一般都是金额比较大的，对吧？但这种那你如果失败，他可能你直接就是一大笔钱就没了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我觉得我真的很多做VC的朋友，然后有做并购的话，我觉得大家其实这个风险厌恶的程度是不一样的。然后你对风险收益的感觉也是不一样的。做福利斯的朋友可能我投十个赚一个，这一个赚100倍全都回来了，对吧？但我做并购不行，并购其实你需要非常高的成功率，但是我每单的赔率没有那么高，可能我每单赚个两三倍我就很好了。做VC可能我要赚个十几倍才算好项目。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我听起来就并购这么难，至少听起来已经比投资要难很多了。然后你做了半天还要加上管理，最后可能一单才赚个两三倍。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这个逻辑为什么要干这个事儿，对吧？对，逻辑是说因为它的概率高，赔率低，所它可以容纳的资金体量更大，所以我们并购一个项目，当时我们去美国收购一个半导体项目也好，包括当年分众传媒私有化也好，这每个项目的项目金额可能都在几十亿美金。所以我虽然每年可能我一个团队几个人做一件事儿，但我这一件事儿可以容纳一个巨大的资金体量。我十亿美金翻两倍，整个带来的收益是20亿美金。但是我一个VC项目我可能最多放个，我不知道1000万美金、500万美金，你放500万美金翻十倍也就赚了5000万美金。所以我觉得是一个体量上的差异。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，但你说概率高这个是怎么理解？就是我还是觉得它是个听起来很难的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>概率高是这样，就是说企业的成长周期不一样。因为初创期是早期企业，它现在还很小，还没成型。创始人个人偏好会引起非常大的企业波动和变化。在这种情况下，你投的确实是概率问题。所以我另一件事说，这个早期投资人是看人，其实晚期投资人或者是并购投资人，我看事儿也看人，更多是看这个事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>晚期的企业，它已经很大了。比如说你当年中信去投麦当劳，麦当劳中国那时候已经几千家店了。几千家店的这种公司，第一它体量在这儿，它有大几十亿销售。这种公司实际上它是一个相对完备的体系的。就是它中间的SOP还是清晰的，中间的人员培训体系也是清晰的，就是出不了什么大事儿，出不了什么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实越大的公司它是越稳定的，它可能最多是我今年是五个亿的利润，明年是四个亿的利润，后年是七个亿的利润这种波动。但他不会说我今年十个亿利润明年没了，然后再过一年巨亏损就挂了。这种情况不是没有，也是有的，偶尔也会有。这个我们也看到了一些失败的案例，但是整体来说它的这种稳定性还是要比早期的初创公司要高得多的。是明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我们看到很多并购的案例，其实都是偏一些什消费行业，或者一些更传统的行业对吧？就是现金流业务什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这种实际上是的，其实我一直觉得是说做并购的人跟做早期投资的人其实完全不同人我觉得并购的人更像工程师financial engineering。他为什么叫finial engineering呢？他干的事儿真的有点像engineer的事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我们讲一个简单的逻辑，就是说买一家公司，你看这公司它其实核心看的就是现金流。那我在这种情况下，我看他的现金流之后，我就给他配配它的资本结构，那其实是算出来了。所以大家要做一个非常详细的财务模型，但是VC可能做的不会那么细。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你做一个非常详细的测算之后，你要想我要不要加杠杆，加多少杠杆？杠杆利率是多少？它的杠杆条件是什么？把这些全部算进来之后，你说我在满足123四五个条件情况下，我可以实现2倍到3倍的收益。这收益来自于哪儿呢？来自于这个公司自身的增长，来自于它运营效率的提升，来自于你的杠杆配置是不是合理。这几点来自于你的现金流，这点加起来之后，实现了你最后的这个投资收益。所以它是一个我觉得相对来说是更加细的一个工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我再举一个例子，就是说我现在去买一家公司，这家公司值100块钱。100块钱怎么看呢？它可能有十块钱的利润，那我的十倍PE就100块钱，对不对？什么叫十倍PE呢？就是这公司每年能给我挣一块钱，我十块钱买它，相当于我买了一个有10%收益的一个理财产品，不是那么恰当的比喻，但是是这么一个概念对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我100块钱买下来之后，我可以跟银行谈说100块钱我不用全出，我出50银行出50。银行的这五十实际上我靠每年十块钱的自由现金流，五年可以还清。假设十年后它没有增长，但是我靠这个自由新能源，我可以把利息给覆盖掉。我十年后120块钱把这公司卖掉，那我减去我50块钱的成本，其实我这项目已经两倍了。因为我在这五年过，我已经把债还清了。我100块钱买进了，我实际上只付了50，我最后120把它卖掉。这就是一个通过非常详细的计算拧螺丝，每个螺丝都拧紧了，就可以实现这样一个回报。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以最后实际上并购里面成功率大概在百分之多少？</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果从不亏钱的成功率的话，我觉得逻辑上应该是应该在80以上的才对你像我个人的投资业绩，应该是所有的项目都没有亏钱，至少。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我刚才又在想，我们你看我们比较完了说为什么做并购而不做早期投资，对吧？这个我可以理解。但我听起来并购这一整套东西，你对公司要研究的非常透，非常深，然后你还得给他那么多钱，还得帮他做很多管理。那与此同时，同样的能力为什么不去买二级市场股票？就是你刚才其实有提到说，很多人后面去做还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>放在了我觉得你说的很对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以做二级的人远多过做并购的。是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我觉得可能有这么几点不同。第一就是对于上市公司来说，它的市场波动很大。其实刚才讲了很多做并购的投资人相对来说是风险厌恶型的那实际上我不希望看到我的净值在那么剧烈的波动，但我一个私有公司，至少它就不会被这个市场上有这么大的波动所影响。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个情况是说，我觉得这二级市场公司，它毕竟还是一个公共公司，所以它会有很多披露。那有时候我要做一些改革，我们有个词叫JQ什么叫JQ呢？就像这一样做调整的时候，你可能第一年利润是变化的，在二级市场上会受到非常大的压力。那这个时候其实我宁可把它是一个私有司来做。所以你看到我们做的很多项目，实际上我们叫私有化，它原来是一个二级市场的公司。我觉得这公司不错，控制权能买下来。那我们谈一谈说我就私有化算了，因为我已经是大股东了，我不想在乎说我还留个20的股份在那儿。Floating的是公共持有人，一堆人还天天检查你，监管机构时不时还给你发个函，这个就很烦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>图什么呢？反而是说因为市场波动，我觉得这是个投资机会。比如当年分众传媒因为浑水写了一个报告，它的价格波动很厉害。那可能kingo投资人觉得它是个投资机会，我们把它控制权拿下来，从纳斯达克下市降下来。它不再受限于市场波动这些监管、舆论、小股东这些影响，反而是它价值释放的机会。那将来我们公司整好了再把它再上市呗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以其实私有化也算是典型的并购基金的从业范围。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吧？对，私有化其实是并购基金最喜欢做的事之一。刚才我讲了并购做事，并购最大的价值在哪儿？就是我总结的一句话叫通过改变生产关系，解放生产力。什么叫两层？第一层是说公司谁说了算的关系。你其实你股东结构它就是生产关系。我是一个上市公司，那你在上市公司的这种生产关系情况下，管理层有他的做事方法。你把它下市之后，它变成一个私有公司，它有它的做事方法，那大家都做决策的速度方式可能都不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二点是说激励机制也不一样。你上市公司我说我要给管理层发一个期权，发多了可能小股东要去闹，各种情况都有。那我是私有公司就灵活的多，大家就谈，大家觉得这个管理层真的能实现价值，那大家也愿意给这个期权。那中间可能可以充分的调动现有管理层的积极性，从分钱这件事上把整个大家的关系理顺。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你想想，其实我一直觉得做并购最难的事情是说，中间参与的主体很多，有卖方老股东对吧？新股东然后新股东可能还是一个银团，不一定可能一家基金，可能有基金，有产业方几家一起去做，有管理层、有员工、有政府，然后有税务局。原来我们做一个项目从美国弄下来，这个还要跟美国IOS打交道，还有美国的政府，中国政府打交道，地方政府打交道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这些东西中我觉得都是要协调各种利益的，这些都是我讲的生产关系的变化。你通过理顺这个生产关系的变化，才能使公司的利益最大化。明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我们后面可以回来再多聊一下关于这个利益关系分配什么这些问题。我刚才想问的是说的很多人了解并购其实是因为门口的野蛮人这本书。那是不是就是所有的并购拿过来以后，都是要把管理团队换掉，或者说要动很多原有的团队，然后就里面会有各种各样的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实不是的，就是刚才我讲了，并购这件事儿是先看事儿再看人。管理团队更多的是把这个事儿做好就行。所以在大多数情况下，我觉得更愿意是说我们跟管理团队一起，甚至在投钱。就花时间大家坐下来一起去谈谈方向，谈愿景，然后谈整个操作的路径。我们要做哪些新的市场，要调哪些东西。做好了之后，大家就一起这样子做。所以原来管理层激励不足，我们给足激励去干这件事儿。但是偶尔还是会出现这个问题的。比如说可能换管理有这么几个强，一个是管理团队本来就是老股东，可能他本来就是因为代际传承的问题，就是要交班了，我可能就想好我要退休，那还有兴趣情况下，确实可能本来就是职业经理人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是做了这个两三年，他业绩跟之前谈的不一样。比如我们说好了每年增长10%，然后利润要一个什么情况，然后实际上他做不到。这个时候其实大家是有压力的，压力在哪儿呢？是说我们经常有个词叫LBO leverage belt杠杆收购。我在杠杆收购的时候，这个公司其实不是禁止我买的，我跟银行一起买的，银行的利息和本金支付这个是一个硬性的。那我如果管理层业绩不达标，银行硬性的你还不上就会出大问题。银行钱还不起，你可能本金有所的损失就算了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>银行钱还不起对你的机构，对你的投资人来说，都是个巨大的声誉上的影响。谁也不希望说我头回公司投了几亿美金，过两天咔嚓破产了，这说句太难听了，对吧？那这个硬性的指标可能跟管理层是挂钩的，他说你实现不了，那大家都完蛋了，这没办法，那我可能要调整。第三种情况，我们在一些更加激进的并购的人员，我们也见过他可能就是战略方向的问题。这是我要选一个新的战略方向，我要把公司转型。但我觉得原有的团队可能对于转型的力度不够，或者是不是他的擅长，我们可能配几个人也解决不了问题，所以会进行调整。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你看到的例子里面多少是会换管理层。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>多少是不换。我个人操作的案例里面可能有一个百分之三四十会有调整。明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是更多其实是不调整的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更多其实不调整对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我感觉至少从早期投资角度来讲，人是很难改变吧？他不是说我不想做的更好，对吧？或者说他因为各种原因做到那个程度。那这时候你进来，我理解说你能给他提供的是认知，或者你可以给他一些压力，可能就会有一些各种条款。然后他会觉得说他之前可能过得很舒服，没有那个劲儿了。然后你进来了他会更有那个劲儿，以及就是你给他更好的利，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>通过这种方式，对我觉得可以讲一个案例是说当时我们在伦敦收购了一家全球的数据公司，最后我们没有换管理层。但是结果也非常好是说原来管理层他就是个纯职业经理。这些人实际上是一个打工心态，干了十年或者20年的一个团体。这些人专业很专业，他做事也是follow大公司的流程，一个一个去做做的也很好。但是他可能并不是一个owner，现在我进来了对吧？你还是打工的，但是你跟原来打工不一样。那你们自己也掏钱进来，我们一起白银。然后决策上，他原来决策可能还要去报到总部几层去层层审批。现在不需要了，我们几个人开个董事会议讨论咔嚓就干了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这种情况下，这些人的积极性是不一样。他干这个之后就觉得这个是我自己的事儿，我愿意去搞，我愿意去花时间，我就夸夸去弄。最后那几年效果也很好。后来那个项目大概两年就卖掉了也实现了好几倍的一个收益。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得美国确实这种事儿可能容易做一点，因为美国职业经理人非常多，对吧？有很多他们那边的公司都已经换代好几次了，所以肯定也会变成这些经纪人了。但国内可能这种情况慢慢在起来，对吧？就前几年其实有很多说什么创二代这些概念，可能这个概念是未来几年会持续的在发生的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，我觉得是这样。第一，当然职业经理人在中国实际上也是在变好。就是我们另外一个case，实际上是当年换了两三次CEO，最后的CEO是一个从中国最top的国企出来的一位先生，做的也非常好。我觉得中国的国企体系过去20年也有很大的改变。但我当年在麦肯锡的时候就服务了很多中国国企客户。其实国企的同志们真的是非常拼，就是经常我们两三点还在开会，而且真的就是讨论业务。我觉得实际上中国国企体制加上外企中几十年还是有一批不错的经理人，可能跟十年前、20年前可能会更加好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二点是说可能有些经理人是带资进组。就是说我自己有运营能力，我觉得这块业务好。那他可能跟一个并购基金合作在一起，花钱投进来。他投进来之后，他自身其实有自己的想法。他又是业内很不错的，之前也有很好的业绩的职业经理人，或者是创一代。他可能之前创完之后公司卖掉了，现在又想做点新的事儿。我们也见到还有创始人回归的情况，说公司曾经是创始人的，然后他已经卖掉了控股权，可能过了20年。但是他对公司还有情感，觉得今天还有机会，然后跟着基金一起进去，把公司再买回来，再去把它做到这几种情况它都会发生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，所以我们刚才聊了很多并购过程中会做的事情。所以如果是你从头到尾简单的分下类，就是并购的这个核心环节大概是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一是寻找项目。然后寻找项目之后，你可能对项目进行评估和执行。评估执行里面可能再包括去谈判做结构。然后把这个交易完成。完成之后，其实这才是刚开始再花时间在董事会层面定略定方向，跟管理层谈激励这些人和战略的事儿，完了之后再退。最终对一个并购基金投资人来讲，你投进去不算什么，你投进去之后才能卖掉，还能实现收益，才是最终的一个完成一个一个闭环。所以可以说是找项目投管退，大概就这么一个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，大家经常说募投管退。对，听起来就你们是真的管。对其他的一些资本形式可能管的还是没有那么重的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是但是我觉得管一点，大家可能还是觉得说，那你并购投资人是不是需要是全才？我觉得不是的，世界上没有人是真正的全才。但是并购的投资人懂的是什么呢？我觉得他首先肯定是懂财务的报表能看懂，不知道中间报表的风险在哪。但我觉得更多的是你得迅速的了解一个行业的内在规律，然后懂人性，找对的人，设计对的制度。通过这个制度和人性来使管理层实现他们最大的价值，使公司实现最大的增值。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看一级市场行业变得速度其实挺快的对你们来讲会说，比如说我这十多年我就是只做一个行业，我就是把这个行业里的各种标的，各种上下游研究清楚。还是说也是会根据不同可能外面各种渠道来的项目，然后基于这个项目再去研究这个行业之类。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有不同流派，有些人就喜欢讲说我要去做coverage，把一个行业研究透。那我可能更多的是另一个流派，我跟去跟不同人聊聊的有什么机会来做。因为我觉得在并购行业，你想去像VC一样一个行业去扫街或者全方位扫描，相对来说是难的的。主要原因是说你在VC行业，比如我要投AI这个行业的，可能在初创期可能有100家企业都在融资，你可以跑一圈找五家好的去投。但实际上并购我刚才讲了，我要企业规模要大越大它就越稳，要大要愿意出上空的机会实际上就很少了。你可能会扫了500家企业，一个理由都没有，对吧？大家实际上会觉得浪费了很多时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我倒是觉得是说实际上它是从这个结构性机会。比如说你私有化可能是一个比如说可能因为地缘政治的原因，可能外资在中国可能有些变化，中资在可能某些地区有些变化。地缘政策也会不会造成一个结构性机会？我觉得这种可能会更加有的放矢一些。然后更多是谈有时候大家去碰撞，可能碰撞的话有个机会就去做了，这是大家去找项目上可能跟VC的不同。当然了，一个圈子里你可能做过，你对这个领域会了解，那可能在这个领域周边可能就会找到新的，这部分是有的，但是纯去做行业覆盖，我觉得不是那么容易。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你对这个公司这个标的我研究多久，研究到什么程度，你会觉得说OK我很comfortable说我可以投了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>研究这个事儿是无止境的，你要做的你可以多细都行。但我理解其实你还是需要就迅速的抓到这个公司最核心的生意逻辑。做VC可能是说创业我要怀一个伟大的梦想，做一个千亿级的公司。做PE我觉得更多是生意。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>想想我这个生意逻辑是我从事也能赚钱。然后这个生意的除了所有表面上的东西外，潜规则是什么？他背地里这些人的关系是什么样的？你做一个加盟生意，那你跟加盟商的关系怎么样的？加盟商是怎么分钱的那如果你是做一个广告生意，广告是怎么做的？你这广告上下游是关系是什么样的？你跟广告主是什么样的那所有的这些潜规则中间的逻辑，所有人在这锅粥里分到了什么？这个要想清楚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个想清楚之后，然后更多的是说去跟管理层谈，跟原来的卖方谈，然后去理解行业大势。这几个做出来之后，我觉得大差不差。我给你讲两个案子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一个是做美妆的案子，是说当时为什么决定去投这家杭州公司？对我来说可能就看到我觉得这个天花板可能还有五六倍。但我觉得行业大势在大势是什么呢？第一是说中国美妆还是在高速增长的，高端美妆增长更快，高端美妆的线上化是快中之快。我们知道这个市场至少看起来是一个不错的蓬勃发展的市场，就是在各个美妆品类里最好的一块蛋糕。然后这家标的又是整个行业里基本上number one。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他的这个团队我们也觉得很靠谱，然后也认识了可能很多年，觉得他们的这个能力也很靠谱，那我们可能就愿意投。我觉得这个大的判断对了，可能就是对了。包括可能当年我们在投资半导体公司，它是个手机摄像头芯片的一个公司。那这个项目发生的时间是1516年，至少我个人当时看这个项目的时候，一个很核心判断是说当时iphone 7要出，说iphone 7一定会出双摄。为什么双摄呢？我去翻了一下索尼的年报，索尼年报说我们在日本某个地方建了两个工厂，索尼建新工厂一定是为了iphone建的。苹果iphone 7那时候判断肯定会出双摄，双摄之后我们觉得整个市场至少会double，可能三摄就triple。如果一个市场能翻2到3倍的时候，相对来说估值又合理，那可能你就愿意冒这个险。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，还挺有意思的。所以我们就得回头聊一下，就是刚才我们聊的是它其实可以分投前跟投后，对吧？就是你管之前和管之后，然后我们如果说核心是改变生产关系的话，它其实是有两部分。我的理解是一部分是后面的一些激励的东西，对吧？另外一个是前面你在谈的时候，我说什么close deal，就早期其实有时候也会讲close deal，但那个close deal我觉得难度是远不如你们的close deal，对吧？就像您刚才提到的，这么多方参与在其中，每个人利益可能都不一样。能不能给大家分享一下说这块的一些经验？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这个中间一个关键的词叫做deal structure。交易结构是什么样的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>早期投资交易结构就是说谁领头谁跟投，然后一个capable就没了。对，你们那个才真的是交易结构的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你可能交易结构甚至可能他会说，我说要把这个公司的玻璃，它中间的IP就是我们前两天跟另一个朋友聊，他说他之前去做一个游戏公司的并购游视频。这个可能还涉及版号的问题，涉及到中国员工全球市场的问题。那他是不是可以把埃批剥离到一个埃批口里面，然后运营剥离到一个运营Q里面，然后IPQ对运营Q做一个外包。以服务外包的形式把人员的劳动力的成果转化拿过去等等。这些都是交易结构的一部分，这些都是做交易的难点和中间的创新点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以中间涉及这么多方，你总结下来，为了让大家都同意这件事儿，最核心的是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得最核心的还是通过结构寻找最大公约数，然后一定我觉得是一个共赢的思想。当然你如果卖方是纯卖掉可能会比较难，你们肯定是个零和博弈。但是除此之外，我觉得剩下所有的party，可以想想大家最大公约数在什么地方。每个人或者每个基金他们的目标是什么？可能会不太一样，怎么通过结构来调和他。有时候可能在一定阶段，大家可能有不同的退出机制，有些人先退，有的人后退。控制权在退出的这个步骤中怎么转移，我觉得这些都是可能需要考虑一套。实际上也并不是说你聊一个项目就能成的。聊十个项目有三个能进入到一个比较完整的流程中，开始真的去做竞调，真的谈结构，可能有两个真的到跟银行谈贷款，一个最后能做掉就不错了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以你做了这么多年，然后沟通这么多人，跟项目有什么trick可以分享吗？或者说你的经验里面一般从头到最后真的把它沟通好，然后协调各方利益，有什么好的方式，或者必经的一些流程，或者一些工具之类。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得更多是经验。你踩过坑，这是第一第二，我觉得还是真诚是比你不希望别人弯弯绕绕，你也不用太弯弯。就是你想好什么，我们怎么去实现这个价值，我想要做什么，说的很清楚。而且我觉得可能作为基金方更容易。你说我就是为了实现收益，就是为了赚钱，怎么赚的问题，赚到钱了大家怎么分钱的问题。那这个东西说清楚我觉得就好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说真的有什么tricks，我觉得可能就是你在整个过程要考虑一下，说他在怎么想，他在这件事上是不是比我急，他在这件事上是不是比我更有冲劲儿。我们让愿意冲的人往前冲，就是有时候不用把自己放在所有压力的中心点，因为总有人愿意在不同的位置做不同的事情。我觉得在不同的位置让不同的party去干他应该干的事儿，我觉得可能就会好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得大家可能很多人会听过一个案例，就是当年五八跟赶集合并，他就听说他们两边的创始人被关在一个酒店房间里面，然后不太好，今天就谁都别走什么的。对，我们就听到过一些这种有点意思的案例。我不知道你实际的，不管是你听到的还是你经历的，有什么通过各种方法去解决问题的一些方式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先说我觉得刚才你讲那种案例，其实也是一个企业合并。他会跟刚才我讲的不太一样，但那种案例也挺多的，其实那种案例会是投资人主导的。我们当时一个案例就是刚才我们讲去伦敦收购那家公司的时候也蛮有意思的。当时第一我们是个中国的基金，我们的竞争对手可能是一些欧洲或者伦敦本地的基金。我们出价也不一定最高，我们就谈了几轮，对方觉得我们报价不够高就还是牛牛那些推三阻四。后来，对方的财务顾问就跟我说，他说你们这样做的时候，飞到伦敦把这事情搞定。后来我们决定说我们就去一趟伦敦。我记得就是从希斯罗出来的黑色出租车上就给对方打电话，说我们落地了，我们有48小时，你们谈还是不谈？不谈我们就飞回国过春节了，这个项目我们就不做了，你们愿意谈，咱就好好谈。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后大概过了半小时，对方说，明天早上八点，我们在fresh field的他们律师的办公室里，咱们开始谈，就是去了。后来大家48小时把最后的法律尽调做完，然后我们就是同时在线，我们这边开我们这边投委会，42 8还是没睡觉，把这项目谈完签掉。我觉得这还是很有意思的经历。你怎么去创造中间的这种，特别是跟老外谈的时候，让他们觉得你确实是想做这个项目。但是你对估值的点也很坚定。但是那个老师就说，李阳咱这个事儿咱过去了，如果他们不见，咱就在伦敦吃顿好的再回来。我说你就跟梁朝伟一样，喂个鸽子就回来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这种案例还真的都挺有意思。但你日常其实是会在很多琐碎的小事儿里，对吧？然后到可能某些关键节点会出现这样的一些事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能就是在几个关键节点谈判，有时候真的是谈不下去了。他们现在大家可能有各种各样的谈判方法，有些人谈判可能就是软磨硬泡，有些人谈判方法可能就是制造一些这种危机感都会有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我还专门有搜过，有一些书专门写谈判，比如什么哈佛什么来出过谈判的书什么的。你会去研究这些东西吗？还是你就是基于自己的经验和个人理解等等。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我这不得不提，就是这个事儿其实当然经验很重要。我记得我在音色读的MBAOK，我MBA有一门叫做谈判这门课给我印象还是挺深刻的。就是当时我们一堆同学就去做谈判老师给你的谈判任务，然后我就想用创新的方法极限施压，我说你不行你就崩了，对吧？打打看跟人家谈。其实他跟剧本杀一样，你每个人手上有本剧本，你只看到你自己。后来结束大家再回顾这个课的时候，你会看到每个人的剧本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但其实不一样。你发现说比如说我想要的是AB它想要的是A和C它想要的是B和D其实大家的需求是像锯齿状的，就是并不一定是说我的东西每一点上都跟对方是零和博弈的。其实不是的，一定要在整个过程中把大家各自需要的东西都搞清楚。那这个时候你怎么give one take，对吧？所谓的gave take就是我总得给一些东西，我拿一些东西在某些点上实现交换，找到这个基础上最合适的那个形状，上面弯两下，下面弯四下，还是怎么样把这个锯齿给画出来。那这个时候你要想说，这是我最在意的我最在意的东西，我可能要画到底下，画的非常明确。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说在我们整个并购过程中，我作为一个并购基金或主导基金，我会有一个条款叫dragon托售权。什么叫托授权呢？就是我将来发现退出机会的时候，我可以拖着你们所有其他的小股东一起卖。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样保证我的下家能百分之百把这公司接走。因为这是很多大的CoOperate，像宝洁去并购，他肯定要求百分之百买，这是很重要的权利。那我可能就会说的很明白，说这个权利我是不可能让的。这个就是dear broker，你们要不同意，咱别干，管理层不同意，那我就不同。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但有些东西我觉得是可以给的。比如说你身体怎么样，我觉得在中间你要找到哪些地方对他来说价值更高，对你来说价值没那么高的东西给出去。有些对我价值特别高，对他价值特别低。这个其实我觉得你想想博弈论是一样的。猜猜你的效用是多少吗？你的效用很高的时候，把他们给他得这个东西是需要想想的。我觉得博弈论是很好的一个东西，最终是一个这种数学和心理的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但你比如你刚才讲，你说这个就是底线，这就是dear break er，那这种地方你不会有的地方是稍微不love一下。他可能实际上不是，或者你是为了leverage其他的一个谈判。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>偶尔会有，但我觉得大部分情况其实不是的，没有必要。当然了是我觉得不同投资人的风格是不一样的我知道有些投资人谈条款谈的特别狠，就是take every penny on the table。有些特殊的风格可能稍微妙的一点是说我希望大家都赚到钱，那这样的话我的投资才是可持续的，就我这一笔做完才有下一笔。我觉得这也取决于你要去阅读在这个交易中各方的诉求和bargaining power强的程度。有些点你可能就是抢不过，没办法，就像你跟川普谈对吧？我要手上没稀土，我可能跟川普谈就不这么谈。我手上有稀土这张牌，我谈话可能会不一样。那你手上有什么牌，对方有什么牌。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会通过哪些方式去收集对方的各种信息，他实际的一些想法，他们现在的状态，就你怎么样知道他们现在到底是到哪一步，他的强弱状态是怎么样之类。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得聊就是可以聊出来的，就是看对方的表现聊，然后可能还有周边。因为这是一个很多party involve的一个过程。可能是上面有董事长，下面可能要具体办事的VP可能这边有合伙人，还有具体的项目经理，可能每个人都会有他自己的阅读，那你就跟大家聊呗，中间找点，有时候你的阅读可能也不应对，那再商量呗。但只要大家都想把这事儿做成，那可能还是有机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你觉得这么多方里面有没有哪一方是最难搞定的，或者说有没有比较神奇奇葩案例之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>整体还好，就是有时候可能更多的是说你跟共同投资人，因为有些项目特别大的时候，比如需要可能10亿美金的资本金的时候，你可能一方做不完，得两三方。那大家出资是不是有问题，是不是可以按时出资？因为中间可能还有一点是说，我卖方会觉得你们买方团是一拨人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那一旦这个交易比如说失败了，在有些情况下有个东西叫分手费。那我中间如果因为他的出资问题出不来了，大家都得付这个分手费，那就很麻烦的一个问题。这回去谈说到分手费，比如前两年中国有个半导体基金，想去买韩国的一个半导体资产，他就跟人家签分手费。最后因为美国c face没有批，他这个交易没做成，又赔了人家大几千万美金。我觉得这种事情还是时不时的会有的。我觉得这种可能是怎么跟你的共同投资人，因为大家将来还要一起去管这个公司，怎么让大家理念一致，我觉得可能是更难的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个情况是说，比如说你的共同特征里面有创始人，这时候会怎么办？就是创始人有时候他会觉得这个公司我孩子我不是为了纯粹的财务收益，这可能也会有问题。比如说将来我这个公司如果卖一个产业，投资人我可以卖到一个最高价。财务同事觉得我只要钱到位了我都能干。那可能你是创始人的时候，他可能会想说，我要调，我觉得这个买房我看不上，我觉得现在太土了，再多的钱我都不给。这个时候是会有矛盾怎么办？那你要取哪个舍哪个，而且你还要考虑中间的风险。就是说我就顶着创始人说，一定要把这个公司卖给那家他觉得土的买方，结果这个交易没做成，那将来你们之间还一起在这公司股东你们之间怎么相处？</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这种问题都会存在，就感觉好复杂，确实各种关系。所以你觉得不同的做并购的人，他们之间比起来核心的竞争力和差异化是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这很难讲，不同基金它都有好的项目和差的项目，而且是时时势造人，可能在这一波上他都投得很好。但是我推荐说真的想去了解并购的话，我觉得单伟建的几本书还是值得读一读的。他的money games那几本想怎么去做韩国第一银行，我觉得都是挺典型的。我就是作为业内人士，我读完觉得这个就跟我们谈其他交易真的是一样的。OK我觉得这个真的是感同身受，就是反复拉抽屉这种事儿是会发生的。今天谈好了，明天说，我不同意，我要再改。你看像交易跟韩国政府谈谈两年。这个其实都是有的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个就非常耗费心力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且你还不知道能不能成。是所以你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得做并购最关键的是什么？或者说做一个好的并购基金。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一肯定还是判管理，就是你怎么判断这个公司好坏，判断估值，判断大的宏观形势。你像我个人其实很喜欢看宏观的东西的。然后我自己做MBA的时候，我去沃尔顿专门要去选秀一下货币政策，听听美联储是怎么议息的。就是这些东西我觉得你对宏观有一个感知和判断，可能超过很多微观的判断，我觉得这个还是要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我举一些失败的案例，比如说可能有的公司之前有些基金在疫情前后去投邮轮公司。一旦疫情来了，一开始大家觉得还没什么，那疫情来了，旅游公司直接资金链就断了。特别你记得那时候可能船上发现一个空位的，还靠本案就这种事情就整个公司破产了，那可能投资人几亿美金就打水漂了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这种case我们也见过，就是因为到了那个阶段的公司很多就是靠beta的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得贝塔是重要的。很多人虽然口头上都在讲阿尔法，但实际上你会发现退出的很多收益来自于贝塔。其实你知道二级市场是一样的，我觉得这个世界就是一个阿尔法和贝塔交织的。所以我一直有有个比喻，我就想说有些人只做贝塔，有些人只做阿尔法。讲阿尔法故事的人，可能就是类似于笑傲江湖里华山剑派的这个气中奖杯的人是这个剑宗，就是令狐冲风清扬那一波没谁对，没谁错，他两个都很重要，这是判断问题和性格问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你像我个人可能是更保守的一个投资人，我从来是不敢封口，就封口特别火的项目我一般不去碰，我觉得可能我就去接盘了。我买项目的时候，可能都还没那么会比别人早一点。这种投资人可能相对来说我觉得稍微稳定一点。但我可能失去了很多将来更大的阿尔法增长机会。比如说我如果自己买股票，买了泡泡玛，可能涨两倍我就会抛，可能不会想到泡泡玛特才能把全球化后来这个阿尔法做得这么好，那可能会丧失类似一个机会。这我觉得这个就是判断问题。所以我觉得刚刚讲回来第一点就是判断。对宏观的判断，对行业的判断，对大的公司这件事儿的判断，对人的判断，对估值这个判断，我就叫看得清、看得见。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你只要看到别人看不到的，就是市场上一定永远的是有信息差的信差不是内幕交易，而是说这个信息其实都有，但是你通过这些信息总结出来，你能看得见。第二，我觉得要搞得定。刚刚讲了这个事儿，不是我我看得见买就行了，我看得见还得把上下游乱七八糟的，你各方面都得懂一点。财务你肯定得懂怎么设计造成肯定得懂你怎么去跟这些CEO谈。CEO可能比你年纪大一倍，你怎么去跟他们聊？然后你法律得懂，融资得懂，对吧？你跟银行怎么谈得懂？但你每一样可能不需要精通，但是你可能是个通才。所以我觉得总结下来这两件事儿看得清，搞得定。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以其实就需要很强的综合能力。所以这几年其实大家有几种说法。一种说法是说未来国内的因为各种规则和政策，并购肯定会越来越多，越来越起来吧？或者是bio的这件事情。然后同时也有一种说法是说国内你能找到真的好的，有很好的并购经验的人又非常少。我不知道你看起来现状大概是怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得因为中国确实在整个市场快速发展，尤其是2000年就加入世贸之后，可能到2020年这20年GDP高速增长，各个行业高速增长，就是大家去赚快钱的机会太多了，所以就没人去慢慢的去抹这些并购的事情。但是一个经济体从增速向质量转变的时候，我觉得可能第一代就这个草莽时期已经过去了。我的机会是有的，但我觉得投资人这件事儿，也是会有的。有句话叫人教不会事儿，教人一教就会。其实很多人你就是你经历过，你做过一单就慢慢就会了。并购是个手艺活儿，就跟医生看病一样，你踩过坑，出过事儿，把它修好，过卖过买过，我觉得只要随着市场慢慢活跃，相关的人才，专业的人士也会越来越多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白，我还有个问题，就是因为我们关注AI创业者比较多，他们可能未来几年也会遇到一些shopping购的情况。所以如果是现在让你站在创始人的角度，就是如果你有某一天，不管是一个基金也好，还是一个上市公司也好，来找到他说你要不要被并购掉，你有没有什么建议能给他们需要关注的点和他的my side大概应该是怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一可能还是要想清楚这家公司对于他自己的价值和对于对方的价值是什么。刚才讲了说企业并购和基金并购不一样，基金并购看增长不是看现金流。企业并购可能更多的看他补了他那些短板。比如说我想买这家AI公司，我是补了一个agent的能力，补了一个多模态的能力，还是要补他的这个团队的能力，我是不是要供去做。我觉得这可能是要想好，我是不是在这个地方有一个特别的点，让别人没有其他选项。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二点就是对自己有清晰的认知。我觉得我就是下一个elon mask，那我要做什么事情？那也可能觉得说我自己可能做不了那个位置。但是我的公司可能如果它的估值是一个合理的估值，我也去卖，那也可以。我觉得把自己定位想清楚，然后把自己的估值和位置想清楚，再去跟别人谈。有时候我觉得创业者他可能业务做得很好，但是对财务和估值模型没有那么大的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得第三个点，可能是更重要的，更难的一点是跟现有股东的沟通。如果你之前有VC的投资人，ABC轮他们的这个我们叫3 orty。还不一样，大家的成本也不一样，股息也不一样。那这个时候怎么去协调我们要看到的案例就是说买房是愿意买的，价格他也愿意给的。最后一轮的股东说我投的最晚，我要回本。前一轮股东说你回本之后我啥也没有了，我不签字。这个东西是需要创始人想清楚了怎么去协调。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>听起来就很复杂，想起来有多大，就每一家你都得照顾好，对吧？就大家都得开心，就是你像你说的就是必须得多赢才能成。这个事儿对，OK之后再聊聊你们在做的事儿。你是刚开始做现在这个节目。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是我们觉得有个大势是说其实中美的这个博弈还是一直在存在的。所以很多纯美元基金或者是美资的基金在中国实际上会受到各种压力了。我自己觉得因为地缘政治影响，可能会有一些系统性的机会。所以我自己第一是说我找到这种机会，我们觉得估值很合理的时候可以自己去投。那我有几个合伙人，我们一起去木楔资做一些case放。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二，我觉得刚才讲的这是很复杂的一件事儿，自己也十几年才很多坑，做了很多东西。那我觉得希望能跟更多的企业合作，能用我们的这些经验去帮助这些企业在并购的过程中走得更加的稳，更加的完善。而且我刚才讲了很多的是从基金的角度看并购的这事。但是你讲企业的角度，我觉得中国因为中国的经济已经进入了一个新的发展阶段。企业要做并购我觉得会越来越多。不管是业务转型还是出海。在这个过程中，我觉得真的是会有很多机会的那我也希望能帮他们完成业务转型和企业发展。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，差不多今天这样，非常感谢李阳。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢徐凯。</p>]]></content:encoded>
-            <pubDate>Sat, 19 Jul 2025 14:00:00 GMT</pubDate>
-            <guid>6879ead0a9dec92500eab32e</guid>
         </item>
     </channel>
 </rss>

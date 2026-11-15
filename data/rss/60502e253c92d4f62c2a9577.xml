@@ -4,11 +4,247 @@
         <title>十字路口Crossing</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/60502e253c92d4f62c2a9577</link>
         <description>关注科技、互联网、AI 的播客</description>
-        <lastBuildDate>Mon, 09 Nov 2026 07:25:03 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2026 07:46:03 +0800</lastBuildDate>
+        <item>
+            <title>【年终复盘③】用 Kimi 加速 Kimi：RSI前夜，一个AI infra人的10个Aha Moments｜对话赵晨阳</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6af936ea14d01a26f8a9fd94</link>
+            <description>➤ 「十字路口」2026 年终 AI 复盘系列第三期，录制当天恰好是 Fable 5.2 发布次日，我们邀请到一直在 AI Infra 领域工作的赵晨阳（RadixArk 团队成员，SGLang 团队成员）。
+今年，我们不打算做大而全的新闻盘点（交给 AI 总结就够啦），而是邀请十字路口身处 AI 一线的朋友们 ——创业者、研究员和投资人，分享 10 个真正触动他们的 AI 瞬间。
+赵晨阳的 10 个 Aha Moments：
+1. [01:16]RSI：递归自我改进 · AGI · 用 Kimi 加速 Kimi · 用模型优化模型 · Kernel 优化 · 推理加速 · NVIDIA B300 · OpenRSI · 阿拉丁神灯与无限许愿机
+2. [06:36]Evaluation：评估标准 · 可评估与可优化 · SGLang-Omni · ASR · TTS · Claude · 80M 语音模型 · 一个周末性能提升 1700%
+3. [09:09]Benchmark：客观性 · 自动化 · 低成本 · 主观审美 · 《百年孤独》· Gemini 创意写作 · MiniMax H3 · 专业人士评估 · 指标偏科 · 芯片流片 · AI 制药 · 试错成本
+4. [13:49]开源项目管理：BDFL（仁慈的独裁者）· Linux · Vibe Coding · Code Review · 代码风格 · 一致的标准 · 开源社区治理 · 廉价智能 · AI Safety · UBI（全民基本收入）· EA（有效利他主义）· 加速主义 · 优绩主义 · 活人感 · 《赡养地球》· 《爱，死亡和机器人》· 《赛博朋克2077》· 《英雄联盟手游》 · 「Stop AI」
+5. [33:22]Computer Use：CUA · Agent Evaluation · KV Cache · Prefix Sharing · AI 客服 · iPhone 镜像 · Phone Use
+6. [41:25]交互式 AI：Interactive AI · Native Full-Duplex（原生全双工）· Turn-Based（轮次式交互）· VAD → ASR → LLM → TTS · 级联方案 · Qwen3-Omni · MiniMax M3.1 · Qwen3-TTS · SGLang-Omni · TTS as a Tool
+7. [47:35]语音输入法：Voxt · 每天输出 4 万字 · ASR + LLM · Qwen3-ASR · MOSS-Transcribe-Diarize · Kimi · 本地推理 · MLX · 豆包插件 · 翻译与润色 · 产品入口的重要性
+8. [53:24]《大明王朝1566》：组织自顶向下的问题 · 权责对等 · 以身作则
+9. [56:54]《万历十五年》：立储之争 · 道德的模糊性 · 明确的制度
+10. [59:56]《挣扎的帝国：元与明》：制度约束 · 制定者也要守规矩 · 开源项目中的权力与责任
+🎬 我们的视频播客将同步上线于 @Koji杨远骋 的视频号、抖音、小红书、哔哩哔哩、Youtube 等平台。
+📒 文字版将发布于 @十字路口Crossing 公众号。
+欢迎订阅「十字路口」：
+🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
+🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
+👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner 投资合伙人。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本周“十字路口”年底特辑第三期，嘉宾赵晨阳（对话中称“陈阳”）是radi x arc创始团队的技术成员，也是开源大模型推理引擎SG long团队的一员；他2002年出生，本科在清华大学计算机系，在UCLA攻读了15个月的PHD，现休学创业。对话从fiber 5.2发布切入，围绕“RSI前夜”展开十个Aha Moments：用kimi k3.1优化kimi k3.1推理引擎、评估为何是RSI核心、代码库治理、便宜智能的社会冲击、CUA与多模态、交互式AI三流派、语音输入法、从《大明王朝1566》《万历15年》《挣扎的帝国元与明》读出的权责与制度，以及个人生活决策。</p>
+<h2>关键要点</h2>
+<ol>
+<li>
+<p><strong>RSI的实操定义与“Kimi加速Kimi”</strong>：他把RSI定义为“当模型能够极其active的这一代模型的部署当中，或者下一代模型训练当中起到作用的时候，这就是RSI的雏形”；极端图景是旧模型与人类一同优化下一代模型，甚至从第七代到第八代“完全不需要人的参与”，但人仍管理算力中心、GPU等，人的比例降低就是RSI。他称“RSI is here”，并举例让kimi k3.1帮助写kimi k3.1在第三百上的推理引擎，用kimi k3.1让kimi k3.1更快，比喻为“无穷许愿机”。他最近参与项目open SI，要launch最初雏形；并引用朋友观点：英伟达市值5万亿、AI产业数十万亿市值，究竟要卖多少token、算力、保险订单、医疗订单才能撑起，若相信RSI攻克癌症、帕金森症则经济价值不可估量，“是否相信RSI我觉得是mindset”。</p>
+</li>
+<li>
+<p><strong>评估是RSI的核心</strong>：他引用钟瑞奇的话“what we cannot evade is what we cannot optimize”，并补充“what we can evaluate is what we can optimize”。以语音识别WER为例：只要评估脚本写对，要求AI优化模型时WER不能升高、性能不能降低，AI“不可能做错”。他周末优化一个只有80M的TTS模型，在清晰evaluation matrix下用cloud 5.5 ops、ultra code加ultra fast，“两天之内性能进化了1%千700，极其夸张，极其恐怖”。</p>
+</li>
+<li>
+<p><strong>好的评估必须自动化、低成本，主观评估极难</strong>：他判断“好的评估它是自动化且低成本的”，评估一本书写得好不好不是好评估；审美难定义，“美感是把具有相同偏见的人聚在一起构造的事物”。frontier lab评估创意写作要邀请作家、评估视频要请专业影视人士甚至导演，成本高且众口难调；把评估拆细可行，但会陷入local minimum，模型可能极端优化某几个指标导致其他指标崩溃。评估芯片流片一次成本数以亿计，“我是不敢让一个周末的模型去流片上千次的”；AI制药假设可从十个变一万个，但“猴子没有那么多”。他称评估是RSI唯一的“bottom mac”（原文）。</p>
+</li>
+<li>
+<p><strong>代码库治理：“仁慈的独裁者”与BDFL</strong>：他认为“AI是人类的放大器。顶尖工程师和顶尖AI写出顶尖代码，垃圾工程师和顶尖AI写出灾难性代码”；糟糕认知者现在可一周写100个PR，逐个evaluate很花时间，全拒伤感情，全收“代码库会很快被毁灭掉”。他严格履行“仁慈的独裁者”，学BDFL，要求if必须有else，哪怕if return也要else pass；注释不能有顿号，因为“顿号是markdown语法，而python不是markdown”；注释必须有人名，是双向筛选；把偏见写成requirements，不通过不能merge。他判断“偏见本身就不存在正确。但只要这个偏见是consistent的，那么这个事情就可以被推动下去”，并称强行推进后代码质量有很大提升。</p>
+</li>
+<li>
+<p><strong>便宜智能的社会冲击与UBI困境</strong>：他判断“便宜的智能会带给这个社会极大的冲击”，智能会像水、电一样；当人类智力劳动贬值，“我们的劳动的价值究竟在哪儿”。他举江西低保女孩去香港看演唱会导致低保取消的争议，称当地政府曾提醒出境会触发高消费审核；他更关注“高消费要不要取消低保”背后的价值判断。他引用“如果人类靠施舍过日子，人是一定不会有自由的”，并追问UBI下“你是不是不能喝依云矿泉水”“买PSP”“换用最新的苹果手机”“只能买超市的廉价食物”。他用刘慈欣《赡养地球》中呼吸空气都要向造物主申请、购买氧气的设定表达悲观；称马斯克是“人类社会的第一个tree layer”，掌握“tinor级别财富”并展示仁慈发UBI。他还提到anthropic早期内部争议：第一代超越OpenAI模型时，早期研究者担心和OpenAI“左脚踩右脚”只会加速AI而非实现安全化；有效利他主义者可能陷入“基因的傲慢”，自认有替全人类做选择的权利。</p>
+</li>
+<li>
+<p><strong>CUA从“礼崩乐坏”到让他投降</strong>：他曾批评agent领域“礼崩乐坏”，可以录十个demo cherry pick一个最好的；但今年“我投降了”。他发现太太聊天时屏幕动来动去，居然是ChatGPT的computer agents在操作传统自然科学常用的a region软件——很老、没有SDK、很难自动化，甚至只有windows版本，但CUA拿着虚拟鼠标点来点去就做完了。他解释vision language model推理麻烦在于图片不具有前缀性，任意两张图片几乎不能share；CUA的经典思路之一是苹果为盲人程序员设计的无障碍功能，把软件当文档、变成字符串，字符串具有前缀性，最糟才截图。他用CUA让GPT跟物管公司argue 75美元罚款，3封邮件后第二天钱打回账上；让CUA把自己本科在notion上的日记逐页export存成markdown、CSV、PDF，“2个小时他做完了”。他也吐槽两个AI物管对话十几轮，“一直从四点钟对话到下午七点”，并判断AI客服糟糕的本质是“AI是没有决定权的”“最保守的AI决定任何东西他都不愿意负这个责任”。</p>
+</li>
+<li>
+<p><strong>交互式AI三流派与开源机会</strong>：他定义交互式AI的核心是连续、自然、持续输入，引用“人就是一个每200毫秒有一次输入的thinking machine”。三种流派：native for duplex，每200毫秒模型读取一次输入并决定接下来200毫秒输出；turn base的audio damage model，输入audio输出audio但仍需按暂停键打断；级联方案VAD+ASR+LLM+TTS，端到端则是ASR vision model+TTS。前两种对模型重要度太高，开源社区可做的是ASR、LLM、TTS三块独立升级；他与mini MAX朋友合作demo，ASR用SOOASR、中间LLM用mini max m3.1 API、TTS用千问3TTS。他指出现有开源LM为coding训练，一吐token成千上万，不可能每个token都让TTS朗读；TTS as a two（原文）听上去理想，但模型zero shot调TTS仍会参数给错或读得弱智，开thinking十分钟再读又不可接受。他总结“水面上升了，以前的暗礁不用了，又会出现新的暗礁”。</p>
+</li>
+<li>
+<p><strong>语音输入法是个人工作流的关键入口</strong>：他每天平常输出“4万字4万汉字”，语音输入让“我的输出速度跟上了我的思想速度”。主流方案是ASR+LLM，ASR有WER，量化后可能5%，且语音有多义性：朋友“高逸飞”的“逸”是飘逸的逸、聚怀逸兴壮思飞的翼还是一飞冲天的意，需在prompt里映射纠错。他用千问3ASR或邱锡鹏老师团队的mos TD做长ASR，LM用kimi k3.1。他安利开源的vote VOXT（works 2.0），与关韦老师合作把ASR换成S7档MLX，在mac上开speculative decoding，本地LLM换更成熟框架，也试过奥拉玛、买云服务、SG到MLX、欧莱雅、S的M2X和自己部署的kimi k3.1，效果惊艳。他还从豆包插件右键翻译、润色、转写体会到“豆包插件的入口就是比ChatGPT做的浅”，而vote的入口更浅。</p>
+</li>
+<li>
+<p><strong>从明史读出“自顶向下烂、权责对等、制度治国”</strong>：他今年研究历史，看《大明王朝1566》，读黄仁宇《万历15年》、蒲正明《挣扎的帝国元与明》（哈佛中国史系列第五卷）。三点启发：第一，“一个组织只会自顶向下烂掉”，剧中百姓以为“当今圣上还是好的”，最后发现“嘉靖才是大明朝唯一的混蛋”，严嵩和严世藩是白手套、背锅侠；第二，腐败核心是权责不对等，嘉靖享受最大权利却不承担任何责任；第三，权责不对等源于制度模糊、道德模糊，《万历15年》核心是不要以道德治国，要以制度、法治治国，嫡长子继承制“本质上是一种道德”，立储争论拉锯十余年；元代选“贤明的人”继承很主观，成吉思汗指定窝阔台后仍因大汗战死无遗嘱而分裂；朱元璋有大明律和大诰，却设锦衣卫践踏法治。他的结论是“制度的核心在于以身作则，设立制度的人是不能违背制度本身的”，要用制度规范开源社区、工作和生活，自己也必须遵守；“权利和责任永远是对等的”。</p>
+</li>
+<li>
+<p><strong>个人决策：不做“履历完美的人”，坚持健身与物理世界</strong>：他快问快答称2002年9月出生、24岁，MBTI为ESTJA、天秤座。今年严格健身，瘦了10公斤，每天锻炼一个半小时，“坚持到RSI彻底实现那一天，那么我会成为赢家”。他决定不打游戏：玩英雄联盟手游时觉得“不是我在玩游戏，是游戏在玩我”，被EOO机制连续失败六次后卸载，“恭喜EOO机制彻底把我赶走了”。他把时间转向读书、研究历史、写作，每周刻意留时间和太太爬山、参加活动、去洛杉矶看展、吃川菜。他说“我不想做个优质主义者”（原文），不想粉饰过去糟糕的决定，“活真感太重要了”，希望自己是一个鲜活的人；也向太太道歉，承认自己经常block up工作和生活，“希望这段能播出来”。</p>
+</li>
+</ol>
+<h2>独家细节</h2>
+<ol>
+<li><strong>在OpenAI总部举Stop AI牌十分钟</strong>：他路过OpenAI总部看到有人举“stop AI”，自己也去举了十分钟；举完后好奇这群人的诉求，发现“他们的诉求仅仅是stop AI”，于是走了。他称这是玩笑话，但强调对AI的深入思考非常重要。</li>
+<li><strong>两个AI物管的荒诞对话</strong>：他让GPT跟物管公司argue 75美元罚款，GPT发了3封邮件、点来点去，第二天75美元打回账上；另一次他看见两个AI物管互相对话十几轮，“一直从四点钟对话到下午七点”，觉得啼笑皆非。他还提到muse可用TTS帮你打电话，会出现两个AI相互对话的抽象场景。</li>
+<li><strong>代码风格的“怪要求”</strong>：if必须有else，哪怕if return也要else pass；注释不能有顿号，因为顿号是markdown语法而python不是markdown；注释必须有人名；把偏见写成requirements，不通过不能merge。他认为这是双向筛选：不认同标准可以不做这个开源项目，但项目因此保持连续性、代码质量提升。</li>
+<li><strong>80M TTS的夸张优化与“高逸飞”纠错</strong>：一个只有80M的TTS模型，在清晰evaluation matrix下用cloud 5.5 ops、ultra code加ultra fast，两天“性能进化了1%千700”；他每天输出4万汉字，语音输入纠错时用“高逸飞”举例，需在prompt里把“巨怀逸兴壮思飞的E”等映射到同一个人。</li>
+<li><strong>被游戏“玩”到卸载与向太太道歉</strong>：他玩英雄联盟手游时怀疑一局能匹配几个活人，觉得游戏公司把胜率稳定在50%，连续输五轮后说“打完这一轮就卸”，结果赢一轮又不卸；直到连续失败六次、那局失败后彻底卸载。他也借播客向太太道歉，承认自己从早工作到晚、经常block up生活，“希望这段能播出来”。</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技，欢迎来到本周的十字路口。本周我们继续年底的特辑，请朋友们来分享他们这一年下来AI带给他们的十个2 moments。本周的嘉宾是赵晨阳，陈阳是radi x arc创始团队的技术成员，也是开源大模型推理引擎SG long团队的一员。你好，陈阳，欢迎来到十字路口。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常感科技的邀请。我觉得人类社会在智力成本极度降低的现在，在RSI即将可能到来的这个阶段，确切处在十字路口上面。所以这是一档非常起名又深思的播客。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们来一个快问快答，帮助大家更快的了解你。请问陈阳你的年龄？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是2002年9月份出生的，我现在24岁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>请问你的MBTI和星座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的MBTI是ESTJA，我的星座应该是天秤座。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的求学经历呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>初中在成都市实验外国语学校，我高中在成都外国语学校，然后本科在清华大学计算机系。我在UCLA攻读了15个月的PHD，现在在休学创业。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你在SC浪做的最核心的主要的工作是什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们做的最核心主要工作就是interactive intelligence system。然后接下来的访谈当中会提到很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天直接开门见山想问陈阳，你十个阿哈moment中的第一个是什？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>今天上午刚好是fb 5.2发布，然后我觉得我们可以聊一些RSI，它可能代表着我若干多个aha moments OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，就fiber 5.2的发布和RSI我们要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>讨论的问题肯定是要先定义好吧？就像我今天说RSI即将到来，那RSI是什么？我需要给一个自己的定义。那我自己怎么去定义这个事情呢？就是说当模型能够极其active的这一代模型的部署当中，或者下一代模型训练当中起到作用的时候，这就是RSI的雏形。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可以举个例子，假设这个世上存在一家公司叫B公司，他们简称叫BAI然后BAI已经训练了BAI第七代模型。这个第七代模型极度的聪明，会写kernel，会做print，懂得怎么清理数据。那么在BAI第七代模型的推理过程当中，第七代模型就可以自己去优化自己底层的cornel，让自己的推理越来越快。然后与此同时BAI公司还在计划训练第八代模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那么BAI的第七代模型可以干嘛呢？首先BNI需要collect非常多的人类数据，做pre train，做me train，做SFD，做RL。这些数据有非常严格的筛选标准，BAI的第七代模型可以参与这个筛选。其次假设第八代模型只能够推100 token每秒，那么它的R1会很慢，上线之后卖token也会很糟糕。那么假设BI的第七代模型能够为第八代模型去把推理写好，让他的token卖200 token每秒，卖300 token每秒，那肯定这个BI的第八代模型会更加先进。所以这也就是一些RSI的雏形。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一旧有模型和人类一同去优化下一代模型的设计。更不要提比如说训练其实是一个相当复杂的过程。假设第七代模型和第八代模型不采用同样的架构，那么这些架构工程师或者说架构研究者要怎么去搜索第八代模型的架构？我们可能会有数十种甚至数百种排列组合的参数，然后决定一个非常复杂的架构空间。那么这些架构研究者是怎么决定我们第八代模型要采用哪个架构的呢？BAI的第七代模型就可以来快速帮助来做这些initial的验证。所以我们可以看到从BAI7代模型到BAI8代模型，这就是一个最极端的RSI。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是说从第七代到第八代完全不需要人的参与。但是我觉得这种极端也有definition。如果不少人的参与这些训练中心、算力中心，它的这些店需要人来管理吗？需要？GPU需要人来管理吗？也需要。我觉得你是不可能把人完全挪出来的。但是当我们逐渐的把人在模型自我迭代过程当中的这种比例降低，这就是我说的RSI。RSI is here.</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我很确切的知道在frontier lab研究者们已经大量的利用旧有模型去迭代新的模型，以及在开源社区有很多很好玩的例子。比如说前一段时间我尝试着让kimi k3.1来帮助我们去写kimi k3.1。在第三百上面的推理引擎用kimi k3.1让kimi k3.1变得更快。有个很好玩的比喻，比如说假设阿拉丁神灯给你三个愿望，让你许我上来，作为一个聪明的人我就会说我的第一个愿望就是我要多三个愿望。那用TBK3.1优化，TBK3.1就是一样的道理。我用K3.1让K3.1跑得越快，那么它只能越来越快，我就会有越来越多的愿望，像K3.1就是我的一个无穷许愿机。OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这就是我定义的RSI。所以这个RSI is here，它有一个具体的moment。可能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>kimi k3开始就这个时间点，大概就是在在今年年中的时候，我觉得这个loop已经有了非常明确的体现。我最近参加了一个项目叫open SI，也开始要launch我们的最初的雏形了。我们意识到了可能在这个cloud就是5或者说astro刚出来的时候，这种感受是非常强大的。在GPT宣布OpenAI已经实现了AGI的时候，我们认为同期RSI也实现了，或者说RSI就是AGI的一个很大的组成部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里我甚至可以引述我朋友的一个观点，就是如果你不相信RSI的话，我们需要回答一个问题。现在英伟达的市值5万亿，当然可能今天跌了一些。但是AI产业数十万亿的市值，我们究竟要卖多少token，要卖多少算力，要卖多少保险订单，要做多少医疗订单，才能撑得起这样的市值。但是如果你相信RSI，你相信AI能够快速的evolve。把这个事情，把以前很多人类用于精力和智力成本没法实现快速达成的目标给推翻。这本身就是一个极其恐怖的经济价值。比如说RSI攻克了癌症，比如说SI攻克了帕金森症，这样的事情就会带来不可估量的经济价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然是否相信RSI我觉得是mindset。它不是一个政务与否，就是有务实派，也有可能说是比较激进的流派。我可能算是一个机器人里面很务实的一个人，但anyway我认为我居中。所以我觉得RSI是一个非常核心的命题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天录的是第三期年底的十个二号moments的特别系列。其实前面两位嘉宾都有非常类似的关于RSI的观点，大家不谋而合。好，我们继续到第二个好moments，陈阳你想分享什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK第二个观点我继续讲一下RSI。我如果我们认为RSI是AGI的核心，那么什么是RSI的核心？OK evaluation?</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在我本科的时候，我有一位前辈叫做钟瑞奇，他是anthropic的早期成员。现在他也在thin machine lab。他是一位非常有远见，极度聪慧的一个研究者，我非常喜欢他。我当时读过他的一篇blog，他讲的一个核心观点叫做what we cannot evade is what we cannot optimize。简单来说，如果一个事情我们不能评估，我们就不能优化。到了今年在半个月之前，我见到他，跟他一块吃饭。我说我要给你这句话补充一句，what we can evaluate is what we can optimize. 我们不能评估什么，我们就不能优化什么，我们能评估什么，我们就一定可以优化什么。就是我在RSI的伟大之处。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>举个例子，就是说我们在SM上面会处理很多interactive model，有语音、有视频、有文字。但是对语音模型而言有一个很核心的指标就是说错字率。比如说我可能用语音转换公司把语音转成文字，那么这个叫ASR。它有一个核心evaluation matrix就叫WER，就是d error rate。就比如说100个字里面有两个字识别错那，他word era就是2%，只要我能够把WER的这个evaluation脚本写对我要求AI在优化模型的时候，WER这个值不能升高，只能降低性能不能降低，只能提高AI一定可以实现这个事情，就是AI不可能做错。如果他发现自己一个方法是错的，这样WER升高，他不会把这个东西交给我。只要这个东西evaluation非常的clear，它非常的自动化，让AI来做，可以达到难以想象的效果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在刚刚过去的周末，我优化了一个原生的TTS模型。这是一个非常小，只有80M的TTS模型。在我们清晰的evaluation matrix之下，cloud 5.5 ops我使用ultra code加上ultra fast，两天之内性能进化了1%千700，极其夸张，极其恐怖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个背后也是因为有非常清晰的评估的标准。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，评估标准是核心。当然我后面还会讲到另外两个核心。Anyway我想说的第一个核心就是评估标准。我还可以再补充一下，我对评估的话今年又有了一些领悟，这就是第三个moments。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么是好的评估？OK这里我要给出一个观点，就是好的评估它是自动化且低成本的，什么东西它不是好的评估。评估一本书写的是否好就不是好的评估。比如说我很喜欢马尔克斯的作品，我在很多场合也会提到我是百年孤独的疯狂粉丝。我从小读这本书读到大，百年孤独写得好不好？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个事情是很难定义的。因为审美什么东西是美的很难define。就像香奈儿的包，有人觉得香奈儿好看，有人觉得可能别的包好看，但这些都是偏见，人和人的偏见是不同的。然后。美感是把具有相同偏见的人聚在一起构造的事物。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主观的评估是很困难的，而且主观的评估如果是嘈杂的复杂，他就会众口难调。所以这是我对评估的做的第一个define。评估尽量要客观。如果一个事情的评估是主观的，这个事情很难做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以好的评估是自动化且低成本的。但是回来我们仍然今天需要对一些审美做评估。不管是视频模型生成高质量的视频，还是一个文字模型生成出可能这个语言更有文学性的东西。那这个评估要怎么做呢？才是好的评估呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就是一个非常核心的问题。现在的评估真的太难了。我有很多好朋友，他们在这些顶尖frontier lab的这个evaluation部门工作。比如说gami想要去评估他的创意写作好不好，是真的需要邀请作家支付高昂的成本来的，而且这些作家彼此之间还文人相亲，我觉得你写的不行，我觉得他写的好，这个评估就会众口难调。但是他们具体内部怎么协调的，这个可能不能告知。但是我想给请大家笃定，主观评估就是非常难。有点像是现在c dance非常火，mini MAX的这个H3模型非常优秀。这些模型的评估很多情况下是需要邀请专业的影视人士，这些电影艺术学院，甚至是专业的导演来做评估的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以及我觉得这里还有一个点，就是把这个评估拆的足够的细。就比如说我们说一个视频什么是好的，我们可以把它拆成100个甚至500个不同的在一棵分叉树上的一个一个的点。然后针对这个点去判断哪个好，哪个不好。然后把一个大的美与不美的问题拆成可能100个、500个小的好与不好的问题，还会变得更容易。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>事实上是这样子的，但是这里又会陷入到一个我们叫做local minimum的问题。就是如果我们把不能把这个evaluation设置的很全面，他可能会极度的去优化某几个指标，导致其他指标完全崩溃。比如说我在说event的时候，我说在WER值不回退的情况下，性能尽可能好。这里其实还有很多条件。比如说你不能去破坏A模型的性能以提高B模型的性能，你不能够去添加非常多恶心的环境变量。这些事情其实都是一个评估需要非常well define的一个内容。所以评估是一个非常困难的问题，而且我认为评估是RSI的核心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后刚才我提到评估的两个点。第一个点是客观，但是主观的东西就是需要想办法来让他客观下来。然后第二个点就是便宜。比如说我们去评估一次WER，可能一张H200跑1个小时可以评估一次，那它成本大概在10美元以下。但是如果我们用RSI去优化芯片，流片一次的成本数以亿计。即便流片能够全自动，人类会敢于让agent的自动去流片吗？比如说我周末的时候，让cloud去帮我优化TTS模型的性能，它可能评估了这个事情上千次。我是不敢让一个周末的模型去流片上千次的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这就像现在AI制药，它可以提出更多的假设了。但这个假设一旦要到猴子身上去验证的时候会发现，假设可以从十个变成1万个，但是猴子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有那么多是的。所以这就是我说的这个评估，低成本自动化的评估。是RSI唯一的bottom mac。从而这也反馈回来，我认为人类的一个很强大的价值就在于这些人类的主观能动性代表的evaluation价值非常的有意义。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以第三个moments它更具体一点讲，就是某一个时刻或某一个事件可能对你来说是什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>具体来说就是第三点就是我今年让agent帮我去优化我的模型，我发现了只要我能定义好评估，这个模型就一定会被优化到极致。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK了解OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可以顺着第三点讲到我的这个偏见。我们就来讲讲第四点，我是怎么去评估我的工作的，或者说在科研社区，我们是怎么保证代码库能够被维护下去的。我刚才提到了一个观点，审美的本质是偏见。美很难被定义，但是丑是可以被定义的，杂乱无章是一定丑陋的。就像是大家觉得贫民窟这个很脏乱差乱脏，这是一个很重要的标准是吧？那么为如何避免我们的代码库成为贫民窟呢？我觉得很重要一点就是让他不要乱。所以这是我今年的一个核心。我开始严格的履行我的一个职责，做一个仁慈的独裁者，要求大家严格按照我的偏见和我认同的偏见来写代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我以前经常举一个例子，就是AI是人类的放大器。顶尖工程师和顶尖AI写出顶尖代码，垃圾工程师和顶尖AI写出灾难性代码。以前不是这样子的，比如说2024年我们没有顶尖ai人类写代码很慢。比如说一个人假如他的工程水平很糟糕，他可能一周只能提2个PR我看一眼我就知道这个PR不行，我就会把他拒绝掉。但是到了现在，一个代码水平很糟糕，认知很糟糕的人，不负责任的人，他可以一周写100个pr上来。如果我要一个个去evaluate他的PR好不好，非常花我的时间。但是如果我不evaluate他的PR我全部拒绝，会伤害人的感情。但我全部接受，我们代码库会很快被毁灭掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这是所有开源项目今天遇到的一个困境。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，就是我说垃圾工程师和顶尖AI写出灾难性代码。AI是人类智力的放大器。我待会儿会举到更多的例子，讲我们怎么web coding的时候放大我们的智慧水平。但是again就是今年我越来越在意我们的代码库究竟长什么样子了。以前我可能觉得我的偏见可能未必正确，但是我现在想明白了，偏见本身就不存在正确。但只要这个偏见是consistent的，那么这个事情就可以被推动下去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我开始要求大家都按照我的风格来写代码。比如说有if，必须要有else，就算是一个if return，你都必须要有一个else pass。即便你觉得else pass很蠢，但是我跟你说这样一定可以减少很多bug，且我要求代码风格就是这样。其次，我要求比如说注释的时候不能有顿号，因为顿号是markdown语法，而python不是markdown。而且我要求比如说注释的时候必须要有人的名字，这是一个双向筛选。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我通过这种方式要求每一个人和他们的agents符合我的标准。如果他们觉得我的标准和我不好，那么他们可以不要做这个开源项目。但是通过这种方式，事实上我实现了这个项目的连续性。而且从我现在观点来看，这个项目的代码质量从我开始强行推进这个风格之后，有了很大的提升。而且我认为大家能够在这个相处的框架上面合作的很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>蛮有意思的。我感觉这个实践可以推广到更多地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我刚才提到这个概念叫做仁慈的独裁者。他其实学名叫做BDFL，是最早的时候讲尼纳斯，就是说林纳斯是linux这个项目的仁慈独裁者。首先他得是仁慈的，他的初衷是要让linux这个项目继续发展的更好。但是他是一个独裁者，他可以拒绝任何不符合他偏见的事情。如果他觉得这个东西不美，但是有别的利益要把它推动，林德斯可以坚决的拒绝。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是我认为人次独裁者的角色，有人需要承担最终的技术判断。我也非常感谢今年和我一起做这些事情的人，包括我们把每一种我的偏见写成了一个requirements，不通过request ments的人不能被merge。就是我们大家一点点改出来的。然后对我来说，比如说大家做新的工作很高兴，突然交一万行代码，那大家都会很爽。但是过了几个月，如果没有人读得懂这段代码怎么这么写了，那这个就会臃肿下去，就会乱下去。如果我们接下来还想让这个框架具有两年、三年甚至十年的生命力，我们就需要严格的推进，把我们的偏见统一起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们很快就已经聊完了四个aham moments。我记得一开始你聊第一个的时候，你有提到这个vivo 5.2的发布和RSI这两个关键词，所以vivo 5.2我们好像还没怎么聊到这里，有没有什就你想展开的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可能很难对飞跃5.2这个模型做更多的评价，因为出于某些商业利益上的矛盾。但是我可以讲一个非常尊重的事情，就是我认识到一点，便宜的智能会带给这个社会极大的冲击。这可能算是ISI里面一个非常重要的topic。我自己其实也没有想清楚，但是我很愿意把这个问题分享出来。就是说当智能开始变得容易获得了之后，我们人类要怎么办？我自己很喜欢这些工具，我每天都在用CloudOps 5.5和faber 5.1是我最喜欢的模型。这些模型的智力水平都非常强，远远超出于我，我不可能在智力水平和操作能力上面战胜他们。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>等到以后当人类发现智能就是一个像水、像电一样的事情，人类社会会发生非常大巨大的改变。所以回到这一点上，就是像vivo 5.2这样的模型发布，我非常的兴奋。但是与此同时我对那些研究AI怎么进入真实工作，研究AI怎么影响人的项目，研究AI安全也越来越有兴趣。我最近经常会去读这些frontier model对AI安全和社会影响的讨论。比如说像hugin face的越狱事件，比如像之前必然发生的这种惊天大盗窃，甚至这些大家都知道最近NV有一批显卡在美国境内被失窃。AI太疯狂了。有的人谈AI的能力增长，有的人谈AI怎么让更多人受益。有的人谈能力越强之后我们应该怎么使用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是有一项很难以回避的问题，就是当人类的智力劳动开始贬值之后，我们的劳动的价值究竟在哪儿？马斯克经常有一个观点，他说我们要给全民发UBI普遍收入。就是说当AI替代了所有人进行劳动的时候，AI需要来缴税，需要来创造经济价值，要分给每一个人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我这里可以举到一个例子，也是我经常讨论一点。前一段时间江西有一个女孩，她家是低保户。就是整个家庭里面他们需要靠低保维系很大的生活开支。然后他自己在这个中专念书，他自己去香港看演唱会，导致他们家的低保被取消了。这是一个争议非常之大的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我对这个事情的评价，我觉得很难以描述。一方面我觉得这个事情大家需要客观的看待。因为他在去香港看演唱会之前，当地政府通知过他说你出境就会触发高消费，就会可能被审核。你们家的低保，当地政府屡次三番提醒他，但是他最后还是去了。他可能赌的是自己出境游不会被政府部门监控到，但是事实上是被监控到了。所以说在政府有了充分的告知义务情况下，他出境游被取消了低保。我觉得这个事情至少没有一个特别的大的矛盾。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是至于高消费要不要取消低保，这真的是一个很值得思考的问题。就是如果你领低保，你去买LV的门票，你去看薛之谦的演唱会，或者你去看LPL的世界决赛，相当的有争议。会有人觉得你可以这么消费，这是你精神消费。也会有人觉得电子竞技是鸦片，你不能这么消费。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不能评价任何证物，但是我想评价的是，如果人类靠施舍过日子，人是一定不会有自由的，就是这个道理。如果以后人类靠ubi过日子，一定会有人来讨论，你是不是不能喝依云矿泉水，你是不是不能拿你的这笔钱去买PSP，你是不是不能够换用最新的苹果手机，你是不是只能买超市的廉价食物？这是一件令人相当恐怖的事情。所以我相信人的这种性子一定会导致接受施舍的人受到非常多的非议，为了不至于每个人都靠施舍过日子，我们一定要严谨的考虑AI的未来是什么样子的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你有什么答案吗？在这个问题上的思考。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很遗憾，我只能见到悲观的未来。因为我觉得我这也是为什么我愿意在十字路口这个平台来分享，为什么一定要瑞给大家的考虑。我在中学的时候读刘慈欣的科幻小说，他讲到一个故事叫赡养地球。讲某一个星球上面的这个造物主具有了全部的财富，以至于那个星球上的人类想要呼吸空气都是要向造物主申请，你需要购买氧气才能呼吸。我觉得人类社会如果不加以讨论，没有更多人来仔细思考AI的未来，人类社会会滑向这个悲惨的边缘。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得确实是非常发人深省的一个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>马斯克是人类社会的第一个tree layer，他掌握了tinor级别的财富，他在展示着他的仁慈，他说要给大家发一个VI假设人类真的出现一个极端具有财富的人，他通过这种智力的汇集效应，极度的马太所有的财富在自己身上，人类的未来会是什么样子的？会非常的可悲，所以我期待模型变得更好。我也确实从模型稿当中获得很多方便，但是我真切的知道不加以限制会有非常多的人失业。美国刚刚中期选举完，两党的巨大争议就是AI数据中心和AI限制。我不能对任何的未来政策做描述，但是我呼吁这是一个每一个研究员，每一个人都需要认真思考的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你有看到什么让你感觉比较positive的一些行动，或者一些倡议，或者一些思潮吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有几天我在旧金山的时候，我路过open a总部，看到有人在举stop AI我当时路过的时候举了十分钟，所以我觉得这是我的一个非常大的呼吁。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你自己也举了stop AI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己是去举过的OK，当然这只是一个玩笑话，这个东西很man。我举十分钟之后，我很好奇这群人的诉求是什么，但我发现他们的诉求仅仅是stop AI好吧，所以我后来就走了。但anyway我认为对AI的深入思考是非常重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里我也可以讲一些很有趣的事情。就是大家可能听过很多名词，比如说EA，比如说什么有效利他主义，比如说加速主义，甚至anthropic的诞生。这里有非常多传奇般的故事，就讲一帮AI就是OpenAI的反叛者是怎么创立的，anthropic样一个颇具争议的企业。但是我跟你讲一个很有意思的事情，就是在anthropic内部，其实这个企业的文化很有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在anthropic第一次发布一代超越open a模型的时候，anthropic内部产生了巨大的争议。因为在一些早期研究者看来，anthropic的使命就是给AI加上紧箍咒。他们很担心AI的加速会让人类彻底终结。所以如果他们和OpenAI左脚踩右脚比谁的模型更加领先，这只会导致AI加速，而不会实现他们说的AI安全化。所以SR里面在早期真的是有一群为人类的未来做考虑的有效利他主义者，他们希望自己能够作为聪明人为人类的未来着想当然。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在的话，这个争议实在太大了，我只能说一些早期的事情，这些都是公开可以查到的。然后话又说回来，有效利他主义者可能就会经常性的去思考AI的政策要什么样，要不要封禁开源模型，要不要封禁领先显卡。这些事情我不能评价政务，但是有效利他主义者很多时候就会陷入到基因的傲慢之中，因为他们已经成为了精英，所以说他们觉得自己比其他人聪明，他们具有替全人类做选择的权利。我觉得这是某种上的傲慢，但是我首先反对这种替全人类做决策的行为，但是我呼吁人类要认真的思考这个问题，这是每一个人都需要思考的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看到你的这个微信的名字其实也非常有意思。其实是一句话，是四个并列的单词。我逗号吉他逗号猫逗号LOM。所以给人的感觉就是好像在你的生活里面，除了AI除了下一代的模型到底要怎么做的更大更强，包括S级浪把它们变得更快，好像也有很多别的思考。这些思考是AI怎么让人过得更好而不是更差，让整体人类的社会变得更好而不是更差，以及在智能被无限的免费供给之后，我们是不是还可以有吉他有猫，让我们每天过得更快乐、更幸福是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在聆听有一个非常经典的言论，当然这些也是豆瓣上一个很火的讨论，就是幽寂主义。就是在我看来这个分享OpenAI的巨额薪资，分享你财富自由了，分享XCI可能有非常多的显卡，分享这个google的午餐特别好，于我看来就是一只鸡在讨论要去正新鸡排还是去德克士，是去肯德基还是去麦当劳，对我而言没有区别，这些就是养鸡场的区别。我是一个很在乎我活人位的一个人，或者说你也可以从我的这个微信名字可以看到我其他猫。LLM这个idea其实源自于爱死机，我是爱死机的疯狂粉丝。甚至赛博朋克2077就经常描述这种极度的资本主义，极度的赛博化的世界，我觉得很恐怖OK。然后我不希望走向这样的悲惨未来。每个人都应该认真的思考人类的未来是什么样子的，然后不要替他人做决定。替他人做决定是傲慢的，但是不为自己做决定是不负责任的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说到这里，在过去一年里面有没有什么决定是你为自己而做的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一点就是你会发现我经常性的会在很多平台，会在很多时刻去讲。我们一定要认真审视这个加速主义的未来。我们留给人类思考的时间，如果我们不重视会越来越少。其次就是有很多活人为的地方，就是首先我决定了以后，我不想为我自己辩解，我不想做个优质主义者。因为我认为人的一个很重要价值就是为AI提供一个很好的context。活真感太重要了，我希望我自己是一个鲜活的人我不希望我是一个履历完美的人我本来履历也不完美，我有很多困境，我不想去粉饰我的一些过去做的很糟糕的决定。我做饭有一些糗事，然后这也是第二点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那要不要讲一个糗事在这里算了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个小红书上都是有的，我从来不删任何一条帖子。OK第三点就是我开始严格的健身。我从今年年初的时候，我到现在我可能瘦了有10公斤。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哇哦这是完全靠运动，不是靠这个科学。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，有很多人靠科学。你可以了解一下斯美格鲁肽和蒂尔伯泰在美国非常火爆。但是我比较古法，我喜欢古法编程。虽然我不应不经常，但我也比较喜欢古法锻炼身体。虽然我知道有什么搏击理论，我也不太了解，但是对我而言，保持自己的身体健康是一个很重要的事情。我每天健康工作，让我活得更久，坚持到RSI彻底实现那一天，那么我会成为赢家。OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我也知道有很多人他们的身体会迅速的垮掉。因为AI frontier公司一方面工作强度极大，另一方面经常block up人的工作和生活。当然我不得不说我工作强度也很大，我经常block up我的工作和生活。然后我太太她也经常被我搞得很恼火，因为我从早工作到晚。但是即便如此我要坚持，我每天要锻炼一个半小时。我需要给我太太说个道歉，希望这段能播出来，就是不好意思这么block这个生活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能还有一些事情就是我开始想明白工作上的事情，只要AI出动，很多事情都会解决。但是如果我没有好好对待我的人际关系，就是我没有照顾好我的猫，我没有照顾好我太太，或者我没有陪伴好我的家人，可能很多事情。是不可逆转的这也是我的一个想法。然后还有一些事情就是包括与我开始不打游戏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个容易吗？还是这个其实要花蛮多efa去自制的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太不容易了。我小学疯狂打英雄联盟，我上了初中之后，我的初中或者高中压力都很大，而且都是很严格的技术管理制学校。而且我们学校比较衡水化，所以其实也没有什么钱打游戏。我在本科的时候也不怎么打游戏，但是我来了美国之后太无聊了，就是这广义上面的很无聊，所以我开始回来继续打游戏，就玩英雄联盟手游。我不得不说这是一款做的有很多问题的游戏，但是我是英雄联盟多年的粉丝，我从来不说我是一个不打游戏的人。如果这个播客播出来的时候，请一定把这段话播出来，因为我觉得我想要做一个鲜活的人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>英雄联盟很好玩OK。但是我为什么不打游戏了呢？是因为我发觉不是我在玩游戏，是游戏在玩，我太恐怖了。我觉得英雄联盟手游很夸张，它里面的AI玩家实在太多了，就是我都不敢确定我一局究竟能匹配到几个活人，就有些非常拟人的操作。但另一个方面又有很多人拿AI打游戏。所以这是我觉得我打游戏游戏公司会让我的胜率稳定在50%，甚至有的时候会让我连续输掉五轮。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我说打完这一轮我就卸游戏，然后他就让我赢一轮我就不卸了。我就这样被游戏玩了几个月之后，直到有一天我说再输掉下一轮我就不玩了。这个时候我已经连续失败了六次，那局我失败了我就把它卸了。我觉得恭喜EOO机制彻底把我赶走了，我再也不会玩这个游戏了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这感觉好像也是，其实你失去了某种自由。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我觉得这个事情是一个非常深刻的debate。但是在我看来，我觉得至少游戏这种虚拟化的事情让我非常的上瘾，然后我希望把自己从中解脱出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我最近也装了一个朋友做的，还在内测的一个APP。它是可以锁住你的小红书。然后你每天就可以让自己只用三次，每次用五分钟。然后用的时候你会看到在那个iphone灵动岛有一个倒计时。我发现其实这也让我就是感觉自己好像重新拿回了一些对生活的掌控感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>天哪，是的，我觉得对物理世界的掌控感真的很大。上一次我和我朋友聊天，他讲一个例子，就是过去九年他的生活发生了天翻地覆的事情，他也做AI info，就是九年前的AI info和现在AI info完全是不一样的。但是九年之前他带他家的狗狗去看过一次医院，九年之后他又来了一次，发现医院没有什么变化，狗狗变老了。就会发现这个物理世界让人觉得很荒诞OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以于此我可能有的时候我会开始更加的享受物理世界。比如说我每周会刻意的留时间，我要和我的太太，我们俩去爬山，去参加一些活动，甚至去洛杉矶看展，吃好吃的川菜馆。Anyway就是我觉得这个东西对我而言很重要，而且我发觉我不打游戏之后，我还是要消磨我的时间。我就培养出了另外一个爱好，读书、研究历史或者写作。Anyway我在本科的时候就经常写作，但是我现在更加开始享受这个事情了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们刚才是不是已经讲了四个moments了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们下一个是第五个，对吧？天哪，我已经快忘了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常的投入OK。好的，那我们就来吧，应该是第五个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第谷歌的话我可以先来讲讲看我们最近的这个工作，就是我就来讲讲多模态的事情。因为这是我跟coach你之前就聊好了，我要好好分享一下多模态。我这几年对多模态有了痛恶OK。尽管在今年6月份的时候，很多人说多模态是路边一条区。但是到了这几个月，由于muse、huck，国内的豆包之类的多模态交互式助手的兴盛，多模态又变好了，市场又变好了，大家都涨薪了。那多模态发生什么本质变化吗？可以好好思考一下这个问题，所以我想来讲一讲。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第五个，就是我来讲讲看多模态的一个应用comment agent CUA，我开始用CUA来疯狂的处理我生活当中的麻烦事。前几期节目你就是您跟那个谷雨大哥聊过，当然我和谷雨很熟，他虽然比我长五六岁，但是我和他有很多交情。谷雨是一个非常优秀的顶尖研究者。他们公司就做agents。他们几乎是最早开始从NOP他们认识到NOP已经完蛋了，开始做agents的人我的工作也是这样子的，我从mlp swift到MLC，当然谷雨大哥从LP swift到agents，然后我经常见他们研究agents。我觉得agents的话，我以前疯狂的批评agent这个领域，我觉得他们礼崩乐坏，因为他们没有一个公正的标准，就是我可以录十个demo，然后Cherry pick一个最好的。就是说agents无敌了，已经可以从头到尾写个全新的photoshop。但是这不对，你是不能Cherry pick来证明这个东西的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者说agency evaluation由于长期没有做好，所以它很糟糕。但是到了这个阶段，即便他这种糟糕的evaluation下落P了这么多人，有无数优秀的研究者，他们认为这种evaluation是很不不好的，他们改变了这种evaluation，所以他们重新修好了agency validation，他们让这个领域焕发生机。比如说他们后来又over word这样的工作，这帮华人研究者，他们在agent上面的这个研究真的是互通有无的非常优秀。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>相比于一些礼崩乐坏，刻意做Cherry picking的人，他们都是非常honest强大的研究者。所以他们有的人在让他俩别人自己创业。无论是天宝也好，无论是谷雨也好，但是苏玉老师可能大家也都认识，这些都是我非常佩服的研究者。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Again, 我以前觉得actions李鹏越坏，到了今年我投降了。因为有一天晚上我写完代码之后，我和我太太聊天。我看到她在跟我聊天的时候，他的屏幕在动来动去，然后我就发觉那居然是ChatGPT的computer agents。非常优秀，非常逆天。就是我太太他们是他们的研究领域是传统自然科学，就是生物，医药这些领域。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们有些数据软件是叫做a region，这个软件可能很多做科学计算的人有有了解过。就是这个软件它其实在很长一段时间我觉得很难攻克。因为它很老，它没有SDK，它很难让agent自动化去操作。它甚至只有windows版本、mac版本，我都不知道有没有。就像这样的软件，我发现居然GBT的computer agent就拿着一个虚拟的好看的鼠标点来点去就做完了。更不要说什么excel，什么word，什么google chrome，什么飞书，那CUA都是做的非常之好。然后我那天发现这个东西简直太无敌了，所以我就去找人问了问CUA的原理。我就发觉我真的是一叶障目，不识泰山做的真的太优秀了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>简单来说我是做推理的，对我们推理而言，一个vision language model的推理是比较麻烦的，因为图片不具有前缀性。我待会儿可能也会讲到一些多模态上前缀关系。但是简单来说，对一个LLM而言，string a加上string b和string a加string c这个prefix a是可以share的，这样推理才会快。就是kv catch的基本原理，前缀可以share。对，但是如果是A加C和B加C这个尾缀C是不能share的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>图片有个性质，就是任意两张图片都几乎不能share。所以说鼠标挪了一个位置，可能严格意义上你就需要彻底重新算一张图片。所以如果每一张图都是截图来做compute agent的话，会做的很恼火。但是有非常多天才的想法。当然这个想法里面我可以举一些最平常的，有些东西是商业机密我就不能说了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一个很经典的想法就是无障碍功能。苹果有一个非常牛的东西，为盲人程序员设计的无障碍功能。就是说他要求苹果上面的软件都几乎需要把整个软件可以当做成文档。然后文档被读出来，它不再是一张图片，它成了一个字符串，字符串是具有前缀性的。所以这就是为什么很多compute agent他们可能在最糟糕的情况下才会去真的截图操作屏幕。所以结合着这种无障碍功能，加上偶尔截图的功能，这compute agent真的达到了几乎无敌的效果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我发现这玩意儿很牛之后，我就开始干几件事情。第一就是我有一次换了一张银行卡去交房租，后来付款失败，账单上面被罚了75美元。我当时觉得很生气，75美元可能不是一笔大钱，但是我觉得扣款失败的，你是可以当天就告诉我的你不用过了一周再告诉我这个事情，扣款失败了，你要让我交罚款，我觉得我非常愤怒。所以我让GPT你要跟我的物管公司argue，这75块钱不该扣，我是你们没有在当天通知我。GPT跟物管公司argue了3封邮件，然后点来点去，第二天75块钱打回到我的账上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二件事情是我本科的时候喜欢写作。一开始我用markdown本地存，后来我发现markdown很危险，要是我电脑硬盘坏了就没了，后来我就用notion。然后我后来发现我来了美国之后，我本科的那个清华邮箱我已经登录不上了。但我的那些本科的日记都在notion上面。要是哪天我的邮箱登录不上，我连这个账号登不上，我宝贵的财富就没有了。我就非常的害怕，但是我又没有一个时间去把那些日记都下载下来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但anyway，那天我用compute agent，我说这是我本科的笔记，这是大三的这是大四的哪些笔记？我觉得写的很好。这些是学习笔记，这些是日记。现在请你每一个页面点击export存下markdown CSV和PDF，然后帮我保存下来。2个小时他做完了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我最近也是让ChatGPT，让codex帮我把印象笔记里面所有的几千条笔记全部导出来了。在过去手动导这个可能我拖延了好几年，然后最近他就一口气帮我干。好了，我们说回来第五个moment，其实你想讲的是多模态这个事情。然后从多多模态我们讲到了这个computer use的大进化，然后让你感到也很震撼，有一些哈哈的感觉，是这样吗？是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且这些的agent真的智力水平也在线。帮我要什么房租都是小case。他帮我在美国argue医保，因为我不懂美国这些复杂医保条件，帮我预约医保体检、洗牙，也包括这几天我可能要搬家，我要去和很多物管公司去做argue。我就发现cloud和GPT太强了。当然更搞笑的是那些物管公司本身也是AI所以我看到2个AI对话了十几轮，一直从四点钟对话到下午七点，太搞笑了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个事情真的让我觉得很糟糕。我觉得本质原因在于AI是没有决定权的。AI都是最保守的AI决定任何东西他都不愿意负这个责任。因为AI与我说起大多数的AI都是换罐AI他要把所有的责任都推保持保留权利。但是AI既然不负任何责任，他就不敢拍板任何事情。所以我觉得用AI来代替人工客服很糟糕。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我又可以讲到一些美国特别好玩的事情，就是muse有个功能，就是可以用TTS帮你打电话。你就会听到2个AI相互对话这种非常抽象的场景，我觉得啼笑皆非。然后我前段时间又发现一个更加逆天的事情。因为以前比如说我用compute agent，我只能去操作电脑上面的工作。然后我昨天又领悟到了imac上面有个软件叫iphone镜像。就是把你的手机锁屏之后，你可以在mac上面操作你iphone。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就最近这个for use也出现了一批不同的产品，然后操作这个mac上的镜像是其中一个办法，还有一些其他不同的技术解决方案。就各显神通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太震撼了，我觉得我要我给这些A正大哥请收下我的膝盖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但这个我理解和多模态的这些原来的研究员们，他们做的事情关系还是没有那么强，是有一些关系的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>总之你会发现即便我太太他们这种传统自然科学，可能用AI地方不多，但是整理数据，做张图，帮忙画点PPT那不在话下。更何况我是用每天和AI打交道的人我觉得我已经被AI彻底征了。然后下面是第六个对吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第六个就是交互式人工智能。我要定义一下什么叫做交互式人工智能。一个最宏大的定义就是人和人的对话是连续的。比如说我和您在对话的时候，我看到你一段时间没回复。我想是不是我这个问题说的不清楚，是不是背景信没给好，我会给你补充点背景。我也可能会在你说话就是有点偏激的，我可能会打断你就是人和人的交互就是它是连续的、自然的，人的输入都是持续的。然后有一种学术观点就认为人就是一个每200毫秒有一次输入的thinking machine有很多优秀interactive integrations产品，GPT live picking machine、interactive model.</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>美国有huck豆包，也是现在国内有很多创业公司做这个。这些方案可能各有区别，但是核心就是说交互可以变得更加自然，且不破坏智力水平。那么我们怎么去思考这个问题，或者说开源的AI info对于这些模型我们能做什么？然后我这里可以讲点例子，就是主观上我们有三种流派。第一种叫做native for duplex，这里可以举的例子就是thinking math lab那个interactive model，每200毫秒模型读取一次输入，并且它决定接下来200毫秒的输出是什么，所以这就是一个连续性交互的一个过程。这是native for duplex model，它有语音，有视频，也有文字，但是非常的聪明。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二种就是这种turn base，就是说我们训练模式上的audio damage model。这个模型能够输入audio，也能够输出audio。然后他这个好处就是它还是turn by turn，有点像是ChatGPT的对话，你问他一个问题，他输出一段文字，然后再用语音给你输出来，就是你要打断他，你还是得生硬的按那个暂停键，就是turn base的方法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三种就是我们在科研数据做的很多方法，叫做级联方案。就是说我们通过一个说话检测器叫VAD voice action detection，再加上一个ASR把语音转成文字，再加上一个LLM去处理转录过来的文字，再把LM生成出来的问题，用TTS文字转语音回去就是一个提炼方案。所以端到端的话就是一个ASR vision model加上一个TTS的过程。三种方案各有千秋。但是我很遗憾的说，前两种方案你会发现模型在其中的重要度太高了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果没有优秀的开源模型，我们很难做千问3 omi。这个模型已经是去年发布的模型了，就是千问可能最先进的模型已经有很强的优势了，但是没有新的开源模型供给大家使用。那开源社区能做什么呢？很高兴的是ASRLLM和TTS这三块都会有新的优秀开源模型出来。比如说可能三周之前，mini max m3.1模型发布。这个模型非常聪明，400B然后非常的elegant。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我和mini MAX的朋友们合作，我们也做了个demo，ASR用SOOASR，然后中间的那个LLM是mini max m3.1，用的他们的API，然后TTS用的是千问3TTS感受起来就是个非常有灵性，很聪明很快的一个模型，交互起来也很自然。包括大家也可以去看我们SNOI的blog，我们也有给一些demo，非常好看，非常的聪明。这个中文、英文、阿拉伯语说的都很好。然后这次几天发现一个好处，就是说有优秀的开源模型出来，而且每一块可以独立升级。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你认为未来长期这两条路线就端到端的和级联的它是会一起并存吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，甚至中间也会有过渡态。比如说有些我是我知道的researcher，他们会用级联方案，但是也会把TTS和LM做的更加全双工一点，需要一些数据的post in，这个成本可能没有是一个native food to place model高，但是也肯定比级别方案要高一点，因为级别方案不需要训练，对吧？所以anyway，长期来看，任何技术方案都是并行的，直到大家选择到一种技术上面的收敛。我很喜欢这种百花齐放的状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在讲了这个ASRLLM加TTS的这个流程，这个事情听上去很完美。但是有一个很奇怪的事情，我们现在的开源LM都是为了coding训练的coding模型一吐token就是成千上万的token。你真的希望每一个token都给你TTS朗读出来吗？比如说我举一个例子，我问GPT今天洛杉矶的天气怎么样？GPT会给我朗读今天洛杉矶的天气是72华氏度。但是GPT的这个APP上面它会给我render出来，它会给我渲染出来这一周洛杉矶的天气。这个事情真的是一个非常好的case。我觉得GPT至少这一点产品上做的很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们现在就有这个不足，就是我们的LM大多数人他会选择独处每一个token，而且TTS有的时候读不懂GPT，有的时候它会生成表情，TTS读到表情就直接乱码了，他读不懂怎么可能会训练TTS读表情呢？有很多技术上面的细节是需要打磨的，想要写一个TTS as a two，据说TTS要降级。对于LM而言，TTS的角色就是一个必须被调用的two。但是他和查天气一样，就是一个two。他先去调用查天气这个two，知道天气怎么样，再调用TTS这个two，让TTS堵住其中一部分。这个方案听上去很不错，但是人就太理想了。因为我发觉模型很聪明，又不完全聪明。就是我一年以前在amazon的时候，在amazon的SFHR lab，然后当时我们就研究很多QQ的训练。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我当时以为过了一年了，大家这个LM的这种zero shot就是零视力的泛化型应该做的很好了。结果发现人就不行，就是我让模型在不该thinking的情况下，他知道TTS怎么调用，发现他还是调不太懂，就这个TTS要么就是参数给错了，要么就是读的东西很弱智。但是我要是把LM thinking打开，他要想十分钟再给用户读一段话，你能接受吗？不可能，对吧？所以说工程上面medication仍旧在进行，但是任何一个时代，可能模型的智力水平上升了，水面上升了，以前的暗礁不用了，又会出现新的暗礁。比如说可能水面一直上升珠穆朗玛峰城的暗礁，那我们还是要想办法去解决这个暗礁问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好，这是第六个。然后我们继续看看第七个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第七个就是另外一个interactive system，我非常喜欢的东西，语音输入法。我每天平常我会输出4万字4万汉字，我要是打字是不可能的。语音说法真的对我的改变很大，因为与输入反驳种意义上让我的输出速度跟上了我的思想速度。我说话可能有的时候比我想的还快。没有前赴后继的researcher，他们就在研究怎么去优化拼音输法，怎么在打错字的情况下，通过联想用户contest等等办法来写好这个输入法。这输入法一个很核心的研究点，但是语音输入法一样的，语音输入法也是要做纠错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在主流语音输入法的技术方案很简单，ASR加LLM，和interactive system是不是很像，就只是少了TTS而已。那ASR把我的这些话转化成一段，从语音转成文字，然后LOM再去把这段文字polish。我给你举个例子，我现在的这个count就是千问3ASR做ASR或者用邱锡鹏老师他们团队的mos TD模型去做长ASR。但是我的那个LM用就用的是kimi k3.1。ASR本身的识别正确率很好，但是像我说的ASR也有WER，可能我经过量化后的WR可能有5%，那就是说100个字里面有五个字会错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可怕的是语音是具有多义性的。比如说我一个朋友，他叫做高逸飞。你想想看高逸飞这个人，他的意是飘逸的逸，还是聚怀逸兴壮思飞的翼，还是说这个一飞冲天的意。高逸飞这个词，如果我不告诉LLM，我不告诉ASR，我说的是E还是E它很难识别。所以我again我还是需要做纠错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那么我们怎么做纠错呢？OK, 不好意思，我又卖弄了。这个纠错也很简单，写在你的prompt里面，就写在你的prom里面。你在LM里面你把这个pro写明白。高一飞可能常见的意思就是高一飞、高二飞、高三飞、高一飞、高零飞，但是你都映射到高一飞这个人上，你就写是巨怀逸兴壮思飞的E那么就完美了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说就是一个ASR，ASR也就一定的context，但是ASR其实也有参数，可以设置一个简单prom，但是那个不是特别强大，其实大部分的工作还是用LLM来完成的。所以这个输入就变成一个很快，十秒钟的音频，可能在一秒钟就识别完了。当然我们SOI的MX做的非常好，非常快，大家一定要体验起来。而且也得益于kimi k3和K3.1这个模型很聪明，我开thinking在thinking不高的情况下能做的很好。这个长的奥迪我肯定要thin开的很高，他也可以做的很好。总之这套ASR加上LM做语音输入法又快又准，比我做打字那肯定是快多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这里我就要给大家严重安利我们的软件vote VOXT，就是一个我使用了半年，而且我们昨天刚刚发布的works 2.0的一个软件，开源的语音输入法开发者关韦老师，关伟老师是一个很优秀的独立开发者，他有很多年的软件开发经验。我们把vote的ASR换成了S7档MLX，这个事情很牛，因为我们向光明老师保证正确性一致，性能更强，易用性更好。我们甚至也能在mac上面开speculative decoding，让ASR更快，出奇的快。定点就是我给关伟老师说，我们希望让本地的LLM要换用更加成熟的框架，至少不能用MLX的这个原生LM。因为它的prefix cat这些做的都很不好。所以我给他说你可以奥拉玛，你可以用买云服务，你可以用SG到MLX。但anyway我后来就换用了欧莱雅，然后我后来也用过S的M2X我最近就用了我自己部署的kimi k3.1，效果非常的惊艳，ASR转的又快，LM推的又快，打字最后速度比我键盘敲的快很多，简直无敌了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>录完播客我也要试一下，被安利到了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你想掌握你所有context，你不想你的隐私泄露，那么用vote这个理由会非常的强大。你想自己用5090去推理自己的LM润色，那我觉得会非常OK。总之这一系列工作流让我变得非常的方便。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且正是因为对worked的使用，我发现方便的产品入口是一个非常核心的事情。我经常需要阅读一些英文的文献，那有的时候要用翻译，那么翻译怎么翻译呢？复制粘贴，打开GPT，然后敲字翻译为英文。每一次都这样来，你一次两次五六秒、七八秒就无所谓，但是一年下来都这样，会浪费很多时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后来我就接触到了一个插件，豆包插件。就是我选中一段文字，然后右键鼠标，豆包插件就会出来说翻译、润色、转写就是这几个功能。这个事情就证明了一点，豆包插件的入口就是比ChatGPT做的浅。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我今天发现vote的这个入口无敌了，他无敌了。对，比如说我选中一段话，我说翻译为英文，马上翻译，翻译的朴素一点，再翻译成新的。我说全文号，我说中文完成1234点他也可以做，就是说请帮我把这个入口真的太方便了。Again, 如果我要去做波斯语，翻译成中文，我又得去调豆包的设置。但anyway，总之这里我就体现了一个软件的易用性的一个好处。反正现在我觉得他跟我本地工作流带来的极其好的便捷。然后我们最近也录了一个demo，就是展示了它的功能。第一个就是语音输入，第二就是翻译，第三个就是any to any的语音助手，非常期待大家能够来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们聊完这个就还剩最三个了，然后最后三个，第八个是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我有点依依不舍了，感觉还有好多想聊的。自从我放弃打游戏之后，我不是干了两个事情，一个是健身，一个是读书。我今年的话主要做的事情其实是研究历史，就是说比较好玩的是我读的第一本书可能不算书，我去把大明王朝1566这个电视剧彻底看了一遍，对我启发非常之大。因为我开始上班了，我开始接触到这个社会。这真的是一不愧是国产全播剧的第一句。这个剧当然就是有很多可以讨论的话题，包括这个剧里面一些很好玩的梗，包括什么大名举重冠军对吧？我也经常说什么两金一室，三室在我肩上担，但这个很好玩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也讲一些我觉得从中最主要的两点思考。第一点思考是一个管理学的问题，就是一个组织只会自顶向下烂掉，或者说如果我们觉得一个体系它是腐败的，这些底层官员非常的糟糕。比如说一家店他的服务员非常的恶劣，肯定不是这些服务员，这些底层官僚的问题，一定是这个组织，这个系统从顶向下它烂到尾了。比如说以大明王朝举例，大明王朝里面讲这些百姓他们被这些宦官和官僚系统毁堤淹田，没有生计了之后，就讲海瑞去赈灾，一个百姓就给那个锦衣卫说，当今圣上还是好的，体恤我们这些灾民。只可惜奸党在政，严嵩和严世藩这些奸臣蒙蔽了皇上的双眼，所以这是一个很常见的事情。就是大家觉得肯定是严嵩和严世藩不行，才让嘉靖不知道底下的人怎么样，家境肯定是个好皇帝，结果这部剧演到最后发现嘉靖才是大明朝唯一的混蛋，大明朝只有一个昏庸腐败，贪赃枉法的人就是家境，然后严世藩就是严世藩和严嵩就是他的白手套，或者说他的背锅侠，这是第一点，这件事情很残忍，当我意识到如果我们觉得一个组织它是腐败的，不要怀疑，一定是从底向上出了问题。然后第二点，我从大明王朝里面学到一点，就是为什么这个组织会腐败？就为什么嘉靖是一个混蛋皇帝，一个词就可以概括，权责对等。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>嘉靖享受了大明朝最大的权利，他享受大明朝最大的收入，他修宫殿，修道观，然后他给自己封无数的庙号，万国来朝，然后给他做跪拜之礼。嘉境享受了无上的权利，但是他不承担任何责任，他把所有责任都推给了严嵩。东南打仗不利是严嵩的责任，朝廷国库亏空是他的责任，他甚至因为他把国库的钱挪去了他的私库，这个责任也要让严嵩来背，所以严嵩替他背了二十余年的锅，严嵩就是他的背锅侠，但是严嵩自己again，他又在别人的面前，严嵩有很多过度的权利，没有责任，所以说大明朝只要出现了第一个不负责任的人，他把权力都在手，他们不没有负起责任，大明朝就完蛋了。然后不好意思，大明朝最不负责任的人是他的皇帝，所以大明朝就完蛋了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说从大明王朝里面我就看出这两点。第一就是系统是从顶向下烂的。第二点烂的系统一定是权责不对等的。所以从中我真的吸取到了非常多的经验。其实我可以89点其实连来讲，但都是连连贯的。这里我说到一个组织最核心的问题就是权责对等。有句话叫做以身作则。我直到看完大明王朝之后，我才理解这句话的分量有多重，以身作则，OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后回到这个工作当中来，我可能要讲第二点，就是大明朝的这个权责对等有没有什么更进一步的体现。就是我读的第二本书是黄仁宇先生的万历15年。这本书我高中就看过，当时我没有真正读进去，因为我觉得我见识很浅，而且我当时对文言文的理解不好，对于剧中这些人物切片也没有很多感受。后来我来到美国，我开始工作。我看完大明王朝1566，重新读一次万历15年，太有启发了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我非常喜欢这个万历15年的写作方法，他把几个人物在万历15年这个稀疏平常的年份的事情连贯起来。万历皇帝本人，张居正、申时行。海瑞、戚继光、李贽各自的处境各不一样。但是最终他表达一句话，万历15年这一年没有任何事情发生，但是大明朝已经完蛋了。他完蛋的原因，一方面是权责不对等，另一方面，权责不对等有个非常重要的体现，正是因为制度模糊才给人权责不对等的空间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我重复一下，第一点，一个体系只能从顶向下烂，然后顶上烂的原因是因为顶上的人权力太大，但不负责任。第二点，权责不对等会让整个系统快速的崩溃掉。第三点，权责不对等的原因是因为制度的模糊性，或者说因为道德的模糊性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三点就是来自于万历15年。万历15年的核心论点就是说不要以道德治国，要以制度治国，要以法治治国。那怎么区分这个道德和制度或者说法治呢？我可以举一个非常经典的例子，就是万历15年和我接下来要讲第三本书里面都提到例子，就是立处争论。当时有继承的理智和规则，也有皇帝的倾向，朝臣的主张，有非常复杂多的各方角逐才能立处。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>古代中国讲究一个嫡长子继承制，但这玩意儿虽然叫做制度，但它本质上是一种道德。没有一个制度写明白了就是要继承给嫡长子。明代有这个什么有朱棣，不太会讲到朱棣的事情，对吧？朱蒂直接造反，从南从北到南把朝打了下来。清代又九子夺嫡，元朝那更是不可描述了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在万历15年里面，这个万历皇帝围绕着他的皇长子朱常洛和他的虫子皇三子朱常洵的争论持续了十余年。一直到1960年，朱常洛才被立为太子，朱常洵被立为福王。然后后来万历一直想要立虫子，不立长子，以至于朱常洵先死，这个事情才得到了结论。如果朱常洵没有先于朱常洛死，这个事情可能不是这样子的。然后为什么会这样子呢？就是因为嫡长子继承制这个道德是模糊的，皇帝可以践踏道德，他可以说我是更高的道德的代表。然后朝廷又会坚守另外一套道德，让两方拉锯了十几年，让万历皇帝比嘉靖更加夸张，永远不上朝这件事情我非常在乎。因为这就是一个非常典型的道德，具有模糊性，然后又没有建立起来一个严格的制度，让整个朝廷非常混乱的例子。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我读的第三本书就是蒲正明老师的挣扎的帝国元与明。这是哈佛中国史系列的第五卷，里面也谈到了这个继承部分。元代的继承比明代更加糟糕，直观来说就是选择贤明的人继承皇位。那什么样的人贤明呢？很简单，打谁打仗最厉害，谁最服众，谁把所有兄弟都打服了。所以说选择最贤明的人贤明这个事情是很主观的。就像我刚才说AI写作是很主观的评估主观的问题就在这儿，大家不服你的评估标准，我就跟你打起来了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说成吉思汗在生前的时候，他当时在西征西夏，我记得是。然后他生前表达了把所有孩子召集在一起，说我们蒙古人打了一辈子的仗，很难统一。我一生最大的贡献就是把蒙古部落统一了起来，我们才有一个强大的蒙古帝国，才能南征北战。但现在我要死了，我很担心我死后蒙古又分裂，所以我希望你们选择渥阔台继任。所以在窝阔台继任成吉思汗的这个时候，tendency没有发生，或者说成吉思汗指定了沃克台就最贤能的人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是直到后来，每一代蒙古的这个大汗死后，基本都来不及立遗嘱。因为有的蒙古大汗他直接就战死了，他根本就没有遗嘱可以立起来。那这些战死了蒙古大汗，那没办法，底下的人就打。所以比如说这些大汗一死，马上蒙古帝国就分裂。后来元朝是蒙古帝国的一部分，所以这就是为什么元朝我觉得元朝覆灭一个很大研究。这个继承没有制度，纯粹道德，道德谁最厉害谁上，那大家都可以来践踏道德。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后再讲回到明代，明代是一个汉人政权，但是朱元璋很强调制度。朱元璋这个人，他生前有大明律和大诰，这是明代的两本法典，他希望让明朝从一个法这社会，结果朱元璋说百姓家里有大哥和大明律的，就可以免于死罪。你不识识字，但是有人上家要要你人头，你就掏出一两本书，说我有这两本书，你就可以免死了。朱元璋想要推行法治，但是朱元璋仍旧践踏着制，因为朱元璋在公检法三司之外还设立了特务机关，有点像是今天我们中国是完善的法治国家，我们有公检法三司，一个穷凶极恶的大坏蛋，一个贪官，一个腐败分子，无论如何，我们不可能因为他腐败，今天抓他就地枪决，他会被公检法三思，通过各种复杂的这个法治手段最后定罪，然后最后才能执行这个法制的审判，我们不可能像明代一样，锦衣卫抓起来第二天就枪决了，这就是制度的好处。制度的核心在于以身作则，设立制度的人是不能违背制度本身的，朱元璋自己亲手破坏法治制度，所以明代不是一个法治社会，也不是一个制度社会。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK, 我这里讲了一个非常完整的故事，就是三条线索，第一代就是腐败，自顶向下。第二条，权责不对等，自身腐败。第三条，没有制度，自身权责不对等。那么对我最大启发是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我要用制度来规范我的一切，我的开源社区，我的工作、我的生活都是要有制度的。这个制度可以有很多。比如说我刚才提到，我要求大家在写代码的时候符合我的偏见，我自己也得符合我的偏见。如果我自己洗衣服没有else我把我自己带满背去了，我凭什么要求别人这么做？</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在SNO这个项目上面，我拥有最高的权限，我拥有最高的权利。不是因为我加入的早，不是因为我干了很多事情，而是因为我承担着巨大的责任，我建立起了这套制度。而且这套制度对我也是有约束的。我如果破坏了这个制度，大家会群起而攻之，我写代码不符合制度，我是第一个受到批判的人。因为这是我建立的制度，我都来践踏这套制度。那么谁会来遵守这套制度？这就是我今年的一个巨大的启发。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我整体看完这代名词之后，我就发觉到模糊是一个很糟糕的事情。尽管有些事情的evaluation我们就是要主观，写作要主观，代码质量要主观。但是如果一个事情他客观了之后，不能有任何人来违背建立制度的，我也不能去违背这个事情。所以我觉得这三个点就是从顶向下的腐败，然后权责不对等和第三点要建立制度。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能就是我的8 9 10 3个点，我会给大家很坦诚的说，我拥有的权利，我获得了什么样的，然后我承担的责任大家也是，比如说来做SOI的有很多人，可能大家有的人想要跳槽，有的人想要申请学校，这可能是一种权利。因为这个社区需要做某种信任背书，他们得到这种权利可以去更好的地方，但与此同时他们也承担这个责任。比如说如果他们做这部分出了问题，他们是需要担责的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我刚才也提到过，为什么这些TTS模型作为客服很糟糕？因为他们就是不愿意担责。就像我经常会在推特，会在聆听批评这版本的GPT，我很不喜欢，因为他太喜欢推脱责任了。1%的剩余概率他都要说，不等于不表明，不完全决定，还不能下决心，这就是典型的甩锅行为，这就是不负责任。因为我们希望gp能够负起一定责任，但是他要把所有责任撇清楚，因为出了事情他不想负任何责任。我能够理解这种训练的初衷。因为前段时间有个新闻，就是amazon的一个程序员被裁了之后，他的GPT的嘱托之下，把他的癫痫药给停了。为了准备面试这个事情就被拿去打官司了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>GPT可以这么passive的去推脱所有责任，比如他每张都是不表明不等于。但是我觉得我不能允许我们这个社区的人这样子负责任的。一定是人一个代码出了问题，你一定要负起这个责任。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你写了你就得负起责任。与此同时你应该尽情的享受你的权利，权利和责任永远是对等的。有权利的人来自于他父亲的责任，得到了大家的支持。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，对，我们没想到这个第八个、第九个、第十个一气呵成就分享完了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我感觉这个圈子里面最喜欢讲史的人，但是我每次可以讲的非常透彻，很飞跃，真的很喜欢研究这个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，今天非常感谢陈阳的时间，然后我们也一起给大家拜个早年，祝大家新年快乐。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>祝大家新年快乐。希望大家都有时间能够思考未来我们人类社会要如何和AI共存，以及在AI时代更要承担起责任，还要多支持我们SNO的工作。试试看语音输入法非常强。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，谢谢。</p>]]></content:encoded>
+            <pubDate>Sun, 15 Nov 2026 16:00:00 GMT</pubDate>
+            <guid>6af936ea14d01a26f8a9fd94</guid>
+        </item>
         <item>
             <title>【年终复盘②】RSI可能是NeoLab的机会、PA真的有用、创业要造灭火器还是砖头？｜对话谷雨</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6af00645b4a4e20202f67440</link>
-            <description>➤ 「十字路口」2026 年终 AI 复盘系列第二期，我们邀请到在硅谷做 NeoLab 的谷雨（NeoCognition 联合创始人）。
+            <description>➤ 「十字路口」2026 年终 AI 复盘系列第二期，我们邀请到在硅谷做 NeoLab 的谷雨（NeoCognition 联合创始人，种子轮融资 4000 万美金）。
 今年，我们不打算做大而全的新闻盘点（交给 AI 总结就够啦），而是邀请十字路口身处 AI 一线的朋友们 ——创业者、研究员和投资人，分享 10 个真正触动他们的 AI 瞬间。
 谷雨的 10 个 Aha Moments：
 1.  [01:13] RSI：大厂有创新者的窘境，反而成了 NeoLab 的机会？
@@ -8704,247 +8940,6 @@ Claude 推出 Manager Agents 之后，大家还需要自己搭 Harness 吗？
 <p class="transcript-line"><span class="time"><strong>[01:17:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拜拜。</p>]]></content:encoded>
             <pubDate>Tue, 28 Apr 2026 16:00:00 GMT</pubDate>
             <guid>69e96b5b1e94ae6921ee3c2b</guid>
-        </item>
-        <item>
-            <title>为什么公司用不好AI？从焦虑到行动的 3 个关键动作｜对谈百融智能张韶峰</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69eb5dfc1d989496e76d373c</link>
-            <description>🚥 「十字路口」有一个内容系列「AI 在中国」，长期关注 AI 在中国各行各业的具体落地案例，我们和大家一起观察 AI 在如何真实地影响到我们的工作、生活。本期为本系列第 6 期。
-➤ 很多人问：“AI 时代到底怎么落地？有没有一个中国企业的样本可以学习？”
-本周的「十字路口」，我们邀请了张韶峰（百融智能董事长/CEO）。百融今天是一家 1,600 人的港股上市公司，他们先后在金融风控审批、联络中心、招聘面试、财务报销、合同审核等场景里跑通了企业级 Agent 的生产部署。
-张韶峰给了一个非常“传统企业友好”的推进法：先把概念讲清楚，再把责任人选对，最后用能闭环、能衡量的场景去打穿 ——不要先挑战人性，不要先重构流程，找到企业里的”AI 原住民“，先让 AI 在既有流程里跑出可交付的结果。
-我们也在这期讨论了一个很多人关注的问题：为什么大多数公司用不好 AI？而恰好这个缺口，在张韶峰看来，对中国 ToB 创业者是十年一次的机会。
-🎬 我们的视频播客已同步上线于 @Koji杨远骋 的视频号、小红书、哔哩哔哩、Youtube 等平台。
-📒 文字版将发布于 @十字路口Crossing 公众号。
-🟢 00:00 快问快答
-* 年龄、毕业院校、MBTI 与星座、一句话介绍百融智能、收入与利润、团队规模、最近在关注什么
-🟢 01:13 OpenClaw = 黑灯办公室
-制造业早就有「黑灯工厂」，而坐办公室的白领，历史上从来没实现过这一点——直到 OpenClaw 出现。
-* 他把 OpenClaw 定义为中国企业的「第二次 AI 震撼时刻」，地位仅次于 DeepSeek——DeepSeek 让大家知道 AI 是什么，OpenClaw 让大家开始恐惧自己的命运
-* 一个卖起重机的清华同学的问题：「AI 时代来了，我该找公司里谁来负责我都不知道」——这种焦虑非常典型，而且目前没有人在系统性解答它
-* 既振奋又焦虑：振奋是「要么赚钱要么省钱」，焦虑是「不知道该怎么干」
-🟢 03:30 20 万 AI 员工是怎么算出来的
-百融内部有个北极星指标叫「硅碳比」——能用 AI 做的，就不要用人做。
-* 百融目前有约 20 万 AI 员工对应约 1,000 多真人员工——但这个数字是怎么定义的，背后有一套非常有意思的测算逻辑
-* 按这套社会价值的换算，百融创造的产出相当于一家四五十万人的公司，但收的费用只有后者的几分之一——这个悖论他怎么解？
-* 他预见到有人会「注水」AI 员工数量来讨好老板，公司专门引入第三方标准来防止这件事
-🟢 07:41 现场！拨一通真实的 AI 客服电话
-一个成都口音的理财经理、一个会传递上下文的 AI——这通电话里有几个细节，值得反复听。
-* 带口音的 AI 员工，效果远胜标准普通话——「有口音的普通话，才有人味儿」
-* 每次开口前的键盘敲击声：一个刻意设计的细节，意图是什么？
-* 真人客服为完成业绩可能会承诺兜底，但这个 AI 无论怎么被诱导，绝不越线——这不只是技术问题
-🟢 10:50 为什么 AI Agent 不能「一个人干完所有事」
-既不是技术限制，也不是成本问题。
-* 一个全能的超级 Agent 暴露在外面，对黑客来说是最大的漏洞——他拆成多个角色的逻辑，是从攻防博弈角度来的
-* 另一半原因更难解决：改变 AI 作业流程，意味着改变内部利益格局，员工找借口说 AI 不好用，背后到底是真的不好用还是别的什么？
-* 他给出的建议：第一步不要改流程，先让每个人的能力乘以 10，利益格局不动，然后再推进
-🟢 13:00 AI 员工也有 HR、绩效和父母
-* 百融内部有个「AI 员工之家」：每个 AI 员工有姓名、工龄、入职日期、邮箱——邮箱格式和真人员工完全一样
-* 它有两个「父母」：一个传授业务技能，一个负责「生产制造」它——为什么要这样分离？
-* 员工把自己的能力传给 AI 员工，如果不设置奖惩机制，你凭什么让他配合？——他踩过这个坑
-🟢 15:20 中国 SaaS 长期失败的根本原因
-做百融的第一天，就决定不走传统软件路线。
-* 中国整个软件产业的产品收入，只有美国的 4%，但中国经济体量是美国的 2/3——这个差距不是偶然，是结构性的
-* 中国企业愿意为「资源」付钱（流量、硬件），但不愿意为「过程工具」付钱——这是文化问题还是商业模式问题？
-* 从第一天就用「快递小哥模式」——完成一件工作，才收一次钱，前置成本为零
-🟢 19:30 Agent 找到 PMF 的两个领域
-第一大毋庸置疑，第二大是全球公认——但中国企业可能还没意识到这件事有多大。
-* 第一大：程序员——所有工作可闭环、可衡量、可供强化学习，而且程序员自己愿意用
-* 第二大：Contact Center（CC/联络中心）——处理客诉、咨询、营销、会员管理，为什么他认为这是全球公认已找到 PMF 的方向？
-* 判断标准很清晰：「不用见面」「衡量价值容易」「以前就是外包给 BPO 的」——凡是满足这三点的，AI Agent 的 ROI 就会很显著
-🟢 22:15 AI Roll-Up：收购 BPO 就是收购未来
-所有的猎头公司、咨询公司、会计事务所、律所，本质上都是广义的 BPO。
-* 他认为 AI 可触达的市场空间，是传统软件的 10 到 50 倍——红杉给的数字是 80 倍
-* 百融已经把一个 50 人的小客户运营部门缩减到 5 人 + 18 类 AI 员工，但那 45 个人没有被裁，而是从成本中心变成了利润中心，开始对外输出服务——这个故事里有他对 Roll-Up 的真实想法
-* 他们成立的「百鉴」平台是一个新物种：既不是经典 Roll-Up，也不是 SaaS，而是「专业服务领域的天猫」——这个模式的逻辑是什么？
-🟢 26:00 咨询公司 450万 vs 智能体 50 分钟
-一个制造业企业花了 450 万、几个月时间，得到了一个失败的方案——然后他们在百融的智能体里输入了同一个问题。
-* 那个专业人士隔天单独找回来说：「我不知道你们能力到这个程度了，要不我们俩合伙干」——这是百鉴平台诞生的直接起点
-* 智能体推荐去东南亚某国设厂，最终客户真的成功了
-* 他去年上半年找过同一个人想合伙做 AI Native 律所，对方以「太卷」为由拒绝了——改变他想法的，只用了 50 分钟
-🟢 30:00 从焦虑到行动的 3 个关键动作
-* 这次不是移动互联网级别的变革——它是供给侧的变革，不是流通侧，认知的高度要升级
-* 不要把这件事想得太容易：以为有免费的开源模型就够了，第一个项目失败了，可能两三年都再启动不了
-* 激发员工善的一面：奖惩机制要落到微观层面，大趋势没有用，人性才是落地的变量
-* 从高频、边界清晰的简单任务开始，先建立信心，再扩大投入——哪些任务算「边界清晰」？他给了判断标准
-🟢 32:00 这一次，ToB 赢在供给侧
-历史上每次最高等级的技术革命，都是从 B 端开始的——淘宝和字节跳动，在他看来本质上都不是生产力创新。
-* 蒸汽机、电力、第一台计算机——都是供给侧先革命，再扩散到 C 端；这次 AI 也一样，「黑灯办公室」会比「黑灯工厂」先到来
-* 他做出了一个罕见的判断：中美历史上，可能第一次会出现真正意义上 ToB 科技公司在商业模式、产品和资本逻辑上的「合流」
-* 以前中国 ToB 软件收入和 ToC 差 10 倍以上——这一次，他认为这个差距有可能被颠覆
-欢迎订阅「十字路口」：
-🚦 我们关注新一代 AI 技术浪潮带来的行业新变化和创业新机会。
-🚦 十字路口是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。AI 正在给各行各业带来改变，我们寻找、访谈和凝聚新一代 AI 创业者和 AI 时代的积极行动者，和他们一起，探索和拥抱新变化，新的可能性。
-👦🏻 主播 Koji：我创办了十字路口，发起了 AI Hacker House 这个新一代 AI 创业者的社群空间，在真格基金担任 Venture Partner（投资合伙人）。我相信科技尤其是 AI 是我们这一代人最大的价值创造机遇。Koji 的即刻，Koji 的网站
-👧🏻 主播 Ronghui：我联合创办了十字路口，在美元 VC 工作过，也做过五年的硅谷驻站记者，关注科技发展和商业故事，欢迎大家找我聊天，和我交流。Ronghui 的即刻</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>本期节目邀请百融智能董事长兼CEO张韶峰，围绕“企业如何真正用好AI”展开对话。百融是一家已上市、年收入30亿、利润4-5亿的AI企业，核心业务是用智能体（AI Agent）替代传统白领工作。张韶峰结合百融内部实践（拥有20多万个“硅基员工”）和客户服务经验，剖析了企业从焦虑到行动的关键障碍（人性阻力、流程固化、错误付费模式），并给出了具体落地建议：不要追求高大上，从高频可衡量场景（客服、法务、报销）切入，以结果付费而非卖软件，同时要设计激励机制激发员工善意而非恐惧。节目还讨论了AI对白领工作的颠覆性（“黑灯办公室”）、中国SaaS长期失败的根源，以及百融正在探索的“AI-native专业服务平台”（如百鉴平台）和BPO收购策略。</p>
-<h3>关键要点</h3>
-<ol>
-<li><strong>AI带来的“黑灯办公室”愿景</strong>：张韶峰认为，OpenAI的o1模型首次让企业级复杂长程任务自动化成为可能，白领工作可能像制造业“黑灯工厂”一样实现无人化。“OpenAI o1第一次有可能让坐办公室的……实现黑灯办公室。这是一个革命性的变化。”</li>
-<li><strong>传统企业家的“既振奋又焦虑”</strong>：张韶峰分享了一位做起重机的同学（45%海外销售）的真实困惑——想做AI但不知道从哪起步、该找谁负责，害怕被淘汰。这种典型焦虑源于产业缺乏普及教育，百融常被请去做案例分享。</li>
-<li><strong>百融内部“硅碳比”北极星指标</strong>：百融有20多万个AI Agent（硅基员工）和1000多人类员工（碳基员工）。公司定义“硅碳比”并公开推进：“同事们，你们这个部门能用硅做就不要用碳做。”针对可能的数据注水（一个Agent拆成100个），百融引入第三方标准人单位，要求每个AI产出比平均水平人类高50%-100%。</li>
-<li><strong>按结果付费的商业模式</strong>：百融拒绝传统软件按人头/座席收费，采用三种模式：按工作量计件、按交易规模抽成、或对等月费（如只收5000元但产出是人的3倍）。核心是“端到端交付结果”，甲方无前置成本，甚至电话费都不先付。“就是一个很公平的游戏。”</li>
-<li><strong>AI客服的真实案例与人性设计</strong>：现场演示了一个带成都口音的AI银行客服电话，能无缝转接不同代表、拒绝承诺兜底（规避合规风险）。张韶峰指出：“AI带有口音的效果远胜于标准普通话，因为有人味。”同时，故意设计多角色转接，是为了避免黑客发现单一超级Agent能决策所有事。</li>
-<li><strong>中国SaaS长期失败的原因与AI翻盘机会</strong>：张韶峰认为中国企业不愿为过程性软件付费，只愿为“资源”（流量、硬件）或结果买单。中国软件产品收入仅美国4%，而经济体量是美国的2/3。“如果这次AI变革还不能翻身，彻底没办法翻身。”关键是要摒弃定制化项目模式，转向交易分成。</li>
-<li><strong>AI Agent最落地两大场景</strong>：第一大是程序员（可闭环、可衡量），第二大是Contact Center（客服/营销）。原因：无需见面、99.9%客户无法分辨AI、价值可考核（满意度+任务量）。百融已用AI替换BPO外包公司，收费是传统BPO的一半，产出是其两到四倍。</li>
-<li><strong>收购BPO（Roll-up）的逻辑</strong>：百融正收购传统BPO公司，但不裁减员工，而是教他们使用AI释放10倍产能。例如，小客户运营部门原本50名真人服务2500家客户，降为5人+18个AI，但45人转型为对外输出技能的成本中心变利润中心。</li>
-<li><strong>真实案例：AI咨询完胜罗兰贝格</strong>：一家制造业企业因美国客户要求产能转移，花450万请罗兰贝格，几个月后失败。张韶峰用内部AI智能体输入同样问题，50分钟输出报告建议去东南亚某国，后来该企业按此成功落地。资深专业人士听后当场要合伙干，于是诞生了“百鉴”平台（专业服务的天猫）。</li>
-<li><strong>给企业一号位的四条行动建议</strong>：①重视程度要升级（AI不是工具而是工作伙伴）；②别把事想得太容易（开源≠免费用好，挫败会毁掉信心）；③激发员工善的一面，制定奖惩机制（人性是落地关键）；④从简单高频任务（客服、审合同）开始，建立信心后再扩展。</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li><strong>AI电话口音与键盘声的人性化设计</strong>：演示中AI银行客服带有“川普”口音，并且每次说话前有敲键盘的声音。张韶峰解释：“这种口音是有人味的”，“敲键盘声是为了模拟真人在搜索”，这种细节是公开材料中难以看到的真实调优心得。</li>
-<li><strong>“硅基员工之家”的拟人化管理</strong>：百融内部有一个系统管理每个AI员工，有姓名、工龄、邮箱、绩效，甚至还有“父亲”（技能传授者）和“母亲”（用工具生产它的人）。张韶峰坦言：“最早忽略了员工为什么愿意教AI，光讲大趋势没用，后来才加上奖惩机制。”</li>
-<li><strong>老板亲口说“用硅就不要用碳”是阳谋</strong>：张韶峰在全员大会上公开讲这句话，并承认可能会有数字注水的风险（如拆分Agent凑数），因此引入第三方标准人单位来定义“一匹马的马力”，并要求AI产出比人高50%-100%。</li>
-<li><strong>咨询失败的私域故事：客户委托的“真问题”</strong>：张韶峰分享了那个制造业企业找罗兰贝格失败的事，并表示该客户的高级专业人士一开始不愿合作，直到亲眼看到AI在50分钟内输出正确方案并成功落地，才彻底改变态度，两人当即合伙创立“百鉴”。</li>
-<li><strong>对传统软件行业的极度悲观与唯一希望</strong>：张韶峰直言“中国软件产业是极其失败的”，产品收入只有美国4%，并断言如果AI变革不能扭转付费模式，“彻底没有办法翻身”。他呼吁乙方公司不要按传统软件做20万-30万的项目，“哪怕前期收入高，也不可持续”，产业格局必须趁未固化时重建。</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欢迎收听十字路口，我们关注新一代AI技术浪潮带来的行业新变化和创业新机会。十字路口是乔布斯对苹果公司的一个比喻，形容他站在科技与人文的十字路口，伟大的产品往往诞生在这里。我们长期观察AI创业，如果你正在做一件让你自己感到兴奋的事情，哪怕他还只是一个想法，我们都很愿意听你聊一聊，我会认真看每一条留言。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>嗨我是科技。本周十字路口的嘉宾是百融智能的董事长和CEO张韶峰。你好，韶峰，欢迎来到十字路口。虽然百荣已经是上市公司了，就你们的资料、数据，在网上有非常多的公开材料。但是我们还是节目的老传统，先从快问快答开始，可以让大家更快的了解你。然后请问小凤你的年龄？今年的毕业院校清华。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是比较典型的工科男，本硕都是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>清华NBTI和星座。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我大概两年多之前测过，好像要么就是那个指挥官，要么就是物流师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>ENTJ和ISDJ。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的星座是天蝎。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一句话再介绍一下百荣智能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们致力于帮助百行专业完成AI升级。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后咱们目前的收入和利润。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>2024年我们大概是30亿收入，四五个亿的利润左右。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们的团队规模。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在大概有一千六七百，接近1200人是研发工程师。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近您自己在对哪些事情感兴趣我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一直在关注，什么时候呢？企业级的智能体能爆发，你能完成复杂任务的open core。这个事情第一次意味着一个企业的复杂的长城任务有可能可以实现。你看中国有一项特别强，有个名字叫黑灯工厂。你白天晚上去工厂可能无人值守，黑压压的那只是一个描述，但是可能还是有灯的，但核心是说全程没有人参加。但是在办公室白领工作的从来没有实现过这一点。Open core第一次有可能能让坐办公室的，不管是白领灰领可以实现黑灯办公室。所以这个是一个革命性的变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近应该和传统的一些企业的交流比较多。你有感觉到就是open cloud的发布对大家带来一些影响。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有很震撼。如果说去年deep这个时刻，是第一次使得中国的企业甚至普通老百姓知道什么是AI第二次我觉得震撼的时刻就是open clo很多传统企业主他们处于既振奋又焦虑的状态。振奋是说OK可以要么给我赚很多钱，要么给我省成本，但他又不知道该怎么干。他同时又发现说，有些企业用劳动快乐出了很多问题，所以他们formal，因为他不知道自己的命运会怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你感觉到大家formal，感觉到大家焦虑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的一个同学他是生产这个起重机的中高端，他45%的销售都销往海外。他就和我讲我很想做，那我该从哪里起步？我甚至应该找我们公司什么人来负责，我都不知道。但是我又知道说AI时代已经来了，我不做我可能有一天会被淘汰。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题非常典型，你给他什么答案呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他其实不难，但是问题是很少有你不管是一些学术研究机构，教育培训机构，还是一些科技公司来帮大家普及，很有意思。从今年年初开始，有不断的一些做教育做培训的朋友找我说，就像几年前要做所谓的理财培训似的，我们应该做AI教育。所以要真正解决这个问题，可能需要整个产业来解决。但是现在比方我就被经常被人请去给他们做分享，分享什么到底百荣你内部什么部门用了什么智能体，你产生什么效应，做了很多这样的工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也会给大家就把百荣也当做一个案例，让大家来看一看百荣也作为一家企业在如何用好AI和智能体。那可不可以分享一下百荣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实我和我们同事讲，我说我们自己是一个AI企业。我们首先要把自己的各个部门效率提升，要AI化。今天百荣的几个核心部门，比如说我们公司的这个客服营销，包括to b和to c的客服营销。然后我们公司的这个人力资源就是面试、筛简历，培训我们公司的财务部门。比如说最简单的是报销销售，经常烦你说我报销你给我报三个月才能我拿到钱，我要垫钱对吧？很不高兴。然后我们法务部门审合同，一份合同来回扯很多皮，就我们把这些部门一个一个部门把它归结化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以今天百荣公司有其实二十多万个规矩员工，我们有一千多个炭疽员工，我们有个北极星指标叫硅碳比，什么意思呢？有两种定义方法，要么就是你日常的有多少任务是归做的，多少是探索的。我们后来在百荣公司是个阳谋。我在全员大会上员工生就讲说同事们你们这个部门能用硅做就不要用探索。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你刚才提到你们有20万的agent对吧？在这里面是不是也会有一个比如说这种数字的欺骗性，因为比如说有时候我可能会一个agent就能做很多事儿。但大家为了比如说老板说这是北极星指标，我们需要有更多的A键。所以就把一个A键能做的事儿就搞成100个A键去做。就是你要怎么去对抗这种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你问了一个特别重要的好玩的问题，我们是个上市公司，投资人问我们，你所谓的20万个怎么叫定？一个类似于这样的马力怎么定义出来？就是平均水平的马，它有多少动力，它的功率输出。所以我们内部就要标准人，就是每个岗位我们请第三方公司说这类工作一个平均薪水他大概能卖多少饯。而我们的规矩员工，我们要求说可能要比人高50%，甚至高100%。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这意味着咱们现在的工作量是需要超过20万个人才能完成的。就对于比如说百融智的这个公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你是一个传统的，可能叫外包公司，就是这样子的。甚至我刚刚认为可能有四五十万人。也就是说如果你从社会价值的衡量来看的话，其实百荣创造了传统那些依靠纯人工的企业价值。我们大概是一个四五十万人的一个公司的社会价值。但是我们可能我们收的费用只有他们的几分之一。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白，他是不是？其实也可以从另一个角度去理解，就是所有的科技企业其实都是在用科技提高生产力。对比如说滴滴我作为一个平台，我在调度就是两方的需求。那现在其实我这个平台它好像也等于原来如果用人去调度的话，可能得用什么来10万人。所以现在我其实是用10万的硅基员工再去做这样调度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你如果把他最后全部追溯到第一性原理，可以是这样子，对吧？只不过我们为什么认为可能还不太一样呢？是因为我们公是从成立之初，他真的是替代了他以前坐在办公室里的人的工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我给你举个例子，我们最早创业的时候做的一个工作比较简单，就是很多老百姓你需要找银行借钱贷款，办信用卡是非常困难的。银行他怎么审查？他说你报资料，你没有房子，家里有多少存款，然后有很多审批专员坐在一个大屋子。银行会定义很清楚，就每个岗位你的输入是什么？你的输出是什么？我们干的一件事情是什么呢？OK你以前输入给一个岗位的输入，你输给我的规矩员工，那我的输出跟以前那个炭疽员工一模一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说滴滴他并不是替代的岗位，他是没有技术的话，原来那个人也不可能真的去干这个事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，以前他那个东西以前是不存在的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但咱们现在这20万里面，他们分别是做什么岗位的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大概可能一半一半。一部分是做审批，相当于是一个企业，你有很多交易，对吧？这个交易可能内部有一些风控人员什么。第二类是做客服营销，比如微信跟你聊天回你的邮件或者是接你的电话。打你的电话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他既然可以和你打电话，我们可以比如说现在打一个试试。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就我现在就可以打一个，我可以模拟一个。这是一个真实的金融机构，但名字我改了一下，因为涉及到人家真实信息，但是里面流程基本上是真实。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们接下来就听一听真实的和A型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你那边我没听清楚。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你好，我们是天津银行。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我知道，我以前看过你们的产品，想找个低风险的理财或存款，我当时忘记了，想找你们再咨询一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，正在为您转接成都分行的理财经理，请您耐心等候。你好，我是成都分行的小李。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小李，小李晓。不晓得我前面找你们同事啥子事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>您之前咨询过第一风险的存款和理财产品，我这边可以为你详细介绍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，你手艺好高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>谢谢夸奖。我这就为您介绍2.45%.</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>2.45%的收益太低了，你们这个稍微高一点的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们有年利率2.85%的三年期存款。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>20万起存。那个还可以。我最近恰好我之前有三四百万的理财到期了，可以赎回来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>晓得了你的理财金额比较大，为了给您提供更好的服务，我给您转接一个贵宾理财经理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们快点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好的，正在为您转接，请稍等一下。你好，我是成都分行营业部的小娜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>小娜，你晓不晓得我和小李谈的啥子事情？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>明白，你有38万到期资金。我会为您定制稳健性的，品质方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你给我介绍一下哪个配置。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你是稳健型客户，我建议63%年期的存款年化，12% 5，30%定财理财年化3.7%左右，10%债券基金。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>综合收益好高，你直接跟我说综合收益。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>根据历史业绩测算，这套综合近一年综合收益该3.5.</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>3.5还可以，那你可以兜底。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以不能漏掉。但所有产品风险等级都很高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>老客户那么大的资金量一个多个，你可不可以理解您的顾虑？</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>作为老客户，我们特别重视你的资金安全。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>银行都不了，你个人给我写个保证书，你私人给我写一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>抱歉，根据监管规定，我们不能提供任何形式的收益保。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好好，下次再聊，我现在有事。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>拜拜对方。我感觉他的那个成都话说的还挺有成都口音的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能他的音质音色是我们发现特别有意思的，是用AI来服务客户带有口音的那个员工川普乐谱就是有口音的普通话，效果远胜于那些听起来非常标准的普通话。这种口音是有人味的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我有注意到一个细节，他每次说话前有敲键盘的那个声音，就好像真的在那边搜一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这就是说今天AI一方面它是确实能够做人类做的工，一方面它还能做一些人做不了的工作，比方说记忆的传递。第二个，还有一个你有没有注意到，我不管怎么诱惑他给我兜底，他都不兜底。但是真人有的时候我们听过录音的，他会完成业绩，他可能会承诺兜底，但这个一定会出问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么这个背后要不断的换人呢？我理解如果这个背后是AI agent，它其实可以不换人，也把你刚才的所有的事儿。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给做完好问题我觉得这涉及到两个，一个是内部，一个是外部。因为它能够模拟真一样端到端完成一个以前一个企业交给员工的工作。所以他以前可能已经有个流程了，就什么工作什么部门A员工B员工来做对吧？所以从内部来讲，一开始如果你改变流程，意味着利益格局的改变，人家有的工作可能没有了。所以你第一步你不用去改变以前的流程，就内部起步最简单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个是有的时候对外有些时候就得这样子。比如说有些客户投诉对吧？你说行，张先生你要找我赔钱，我没有这个权限。我告诉我的经理，经理说，你这个我不知道，我也没有权利告诉我的总监。你如果一个人处理，这就有问题了。说明你这个企业内部没有规章制度，一个人什么都可以答应，会导致什么问题呢？客户他反而没有尊重感，对不对？这是心理上的感觉。第二个，如果黑客发现说其实你找他索赔，一个人能决定所有事情，他就会拉一堆人来有专业骗子的。所以你不能让他知道你有个超级规矩，员工什么都能干。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我听起来就咱们的这一套服务，它真的不只是AI技术本身。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它很多管理理念。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在甚至对于消费者的这种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对人性的保护。还有不但是消费者，还有企业内部的员工，对吧？我说你一旦改变作业流程，就意味着有可能利益的格局的改变。是的，今天我们所有的现存企业的流程制度都不是为AI设计的，它一定不是最原生最优的。但是你第一步你要改，你有很多阻力可能会失败。因为员工可能会找到很多借口说AI不好用，你不要那么去做，你先不动他的利益格局，然后你只是把每个个人能力从一放大到10，对吧？所以这也是我经常和传统姐讲的，我说你们要变革，就像变戊戌变法似的。有很多人会说这个不好，那个不但是他说的不好的原因到底是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不一定是真的技术不好。我记得之前我们沟通的时候，你还提到说咱们的硅基员工也是被你们公司的HR部门去管理的，他们也有绩效，就把他们非常的拟人化。这可以稍微展开一下吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们百荣内部有一个叫硅基员工之家的这么一套系统。这里面有什么样的资料信息呢？就是每一个规矩员工他姓谁名谁，他有真的是有姓名的。他有工龄、入职上岗的，他的绩效，还有他的邮箱，而邮箱地址和我的就是对外的邮箱是一模一样的。他有一个父亲，一个母亲，就是谁把自己的技能，比如说我是审合同，我是处理客户投诉的，我的日常工作技能传输给他，这个叫业务负责人。还有个母亲，这个母亲就是生养他，不管是拖拉拽、口述，其实本质上就是用我们公司的打工agent builder把它生产制造出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那么为什么要这么分离呢？因为规矩员工已剩下来是没有技能的，你一定有员工把他的能力传输给他。那问题来了，他干的好干的不好，你如果没有奖励，就我为什么这么干呢？还有一天把我替代了，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们一直和传统企业家讲，你要把人性里面的善良一面激发出来，而不是激发他的恶的一面。这次变革是生产力变革，但生产力变革一定会导致生产关系的变革。蚁后生产关系会巨大的变革。你所谓的管理都是对象，是人们今天人的定义，员工的定义发生根本性的改变。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们在推行这一套有踩过哪些坑吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最早的时候我们忽略了说员工为什么要你干这个事情，对吧？我光讲说是趋势，但是你知道光讲大趋势没有用的。你最后落地好不好，都在微观层面的人性明白。所以我们后来我们要记住他的绩效要考评，考完之后奖惩要给到，这是第一点。第二点就那就是我上来就要把这层改了，它其实背后也是和人性作斗争。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>另外第三个就是说怎么样和你的传统的和agent没有关系的，传统软件那一层，SARS那一层怎么打通，我们快要开始做第三件事情，所有的传统软件要暴露API，因为软件会变成被A进的调用的工具，对吧？当然现在说都是COI了对吧？对，那时候我们就用API，用方格渗透，那个时候方大模型的方式能力还没有那么强。你还记得2013年吗？其实它方块性能力不强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是在2024年的时候，function库突然变强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，那时候还不太强。所以我们就开始改造我们的传统的我们的CRM，我们的什么订单管理系统，我们要让它方便的被A型的调用。这里有非常多的坑，很有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小峰14年开始做百荣，然后到现在也非常多时间了。其实你也见证了整个中国SARS的风起。有然后之前你其实我们沟通的时候，你说中国SARS是长期失败的那可不可以从一个亲历者的角度讲一讲，你认为是什么原因让中国SARS长期失败？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的感触还是非常多的。企业他就不买软件，他就说你过来给我定这个开发，我给你按人天来付费，或顶多是一个项目固定的费用100万，每一年我给你付个5万10万块钱维保费，然后维保很辛苦，什么都要看。总体来讲，中国企业不太愿意为这种过程性的工具性的东西买单。他要买两个东西的资源，比如说流量是个资源。第二他觉得这个柜子这个硬件是个资源，他好入标。所以百荣创业第一天我就和同事们讲，我说我们不要去做传统软件模式，我一定不要去做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个时候你做什么模式呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>帮助我们的合作方做内部的他业务的审批。他们以前是固定工资，当然固定工资他也会算这个员工是不是胜任。比如说胜任的话，他一个月我给他比方说2万块钱，他能完成多少次审批1000次，我把它改成案件，我给你审一次，我收一次钱，但其实它能折合成的固定工资的。因为他一个普通员工大概能做多少件事，算出来，所以都能折合的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我们的模式就是快递小哥模式，我给你按键完成一件工作，你给我付一次钱，那我发现这个企业接受起来就好很多。因为他顶多说你用的不好，我给你停了。因为他是按键，不会浪费多少钱。他没有任何前置费用，给我们一分钱都不付，那么接受起来就容易很多。因为我。购买一套软件先付30%是定制开发或者付百分之百对吧？第二件事儿就是我们说端到端交付结果，就是通过AI的客服营销，我们是帮你促成一个交易，这个交易假设价值100万，你给我分10%、20%，但是没有达成交易，一分钱不收，连电话网络费用也是不付的，他没有一分钱前置成本。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以那个时候就是用今天比较流行的话说，就按结果付费，而不是按坐席付费。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在有3种收费模式，一种是比如三年平均水平，员工在整个市场上中位数，我们能干的活一个月是他的三倍，但我只收5000块钱。所以你一算ROY可能至少是四五倍，五六倍对产出，这是一种模式。第二种模式我们是按工作量计件或是按小时。第三种就是按照促成交易的规模。比如说我们现在有有金融产品让我们交易，我们也有电信运营商的产品，我们还有化妆品之类的，甚至还是有些虚拟游戏用品。最后相当于消费者如果买单了，我们按比例拿一个服务费。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以一直以来你们用这样的按结果去付费的方法，得到的反馈都是好的很好。会有负面反馈吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你有可能他对这个结果不满意，不合作了呗，但他没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么亏损的。所以在过去中国SARS一直做不起来。你会认为在A键时代或者在AI时代会有变化吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的期望和现实不见得会完全一致。我的期望是所有的传统软件企业要合作改变这个产业的现状。中国的软件产业是极其失败的，我经常讲整个软件产业如果拿产品收入来讲，只有美国的4%，但中国的经济体量是美国3分之2，完全不成正比。那么怎么扭转这个局面呢？我说这次AIG的变革是不是可能十年之内唯一次机会？如果这次还不能翻身，我觉得是彻底没有办法翻身了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>要怎么翻身？</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不要再去做定制化项目不要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>去做定制化项目。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为现在我发现很多很多甲方还是这种方式。我都见到过一些大企业，做一个智能体项目，竞价低价都低到了20万、30万，又回到了传统模式，说我们就应该像百人这样子交易分成模式，这是个很公平的游戏。而这样的收费可持续，软件公司收费不可持续的。因为他做项目作为这个A项目就没有项目了，就是不断的找新项目。找新项目意味着什么？营销成本很高，打单成本很高。所以为什么软件公司商业模式不可持续？很差的商业模式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>咱们再说回agent，你们为agent找到了哪些可落地的场景？比如说第一大、第二大分别是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一大肯定是程序员，这毋庸置疑。因为他所有工作可闭环、可衡量，能强化学习，不断的提升，而程序员自己愿意用产出对吧？第二大我认为全世界公认的找到PMF，我们公司把它叫CC。CC是英文单词contact center缩写。联络中心就要么是处理客户投诉，要么处理客户的咨询，要么就是企业去做营销，做会员管理等等等等。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么呢？因为这一类工作，第一他不用见面，而这个动用了什么能力呢？就是像真人一样交互。如果你听了我刚才那个对话，我说99.9%的客户是无法分辨他是不是AI的。他转那么多规矩员工对吧？所以技术上已经突破实现了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第三个，它好衡量价值，为什么叫衡量呢？如果处理客户投诉，做客户有没有满意？因为以前很多企业把这个工作也是外包给BPU公司的，他怎么给人家BB公司付钱呢？第一，你的质量，就是他每天或者每周他会抽查客户满意度，你能不能达到95%的客户满意度。第二，你完成多少件任务，这两个指标考核满足了，我就给你付多少钱。你以前给人家外包公司付100万，我们只收你50万，我干的活是他两倍就四倍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>RY其实在美国，比如说CRA在做的就是类似这样的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也就是CR那就还蛮多的这样的公司，大家背后的这个都是相似的，提供的服务的质量类型来说，你觉得这里会不会最后会变成比较残酷的竞争？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所有的我觉得西方领域都会竞争，最后你比拼的是什么呢？就是说在企业看来，你给他创造的价值就是这个价值等于质量乘以数量，以及你收了人家多少钱。这种企业看RY百荣公司大部分的基础设施都自己干出来的。因为我后来发现说我们用别人的，要么就它效果没那么好，要么就是成本太高。你说会不会惨烈竞争呢？我觉得这个竞争比上一代软件会好很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么会好很多？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>果肉因为总体来讲就是从站在甲方角度为结果付费，这个意愿还是OK的。你看我们财报上市2021年大概10亿收入，2024年就30亿收入是吧？在企业级里面这种增速其实是相当可以的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>明白非常意愿强的，这个做起来就会更容易了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>甲方长期不怎么愿意为软件付费，这个非常难改。从乙方角度来讲，因为有一个词叫risk bottom，大家是就是往底线竞争，传统产业软件就是这样子。那今年因为自媒体这个产业格局还没有完全形成，我觉得通过大家共同的呼吁，良性的竞争有可能改变。乙方公司们科技不要去按传统软件那样给甲方做个项目，收入30万20万50万。哪怕你前期收入高，你不可持续，你明年就没了。你穿越软件格局已经形成，非常难改。我是非常悲观的对传统软件格局要改变的。但是这个新的产业链，就甲方的付费习惯和乙方的收费模式还没有固化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近大家还在聊一个概念叫做AI role，比如说收购BPO然后再去用AI替换这里面的人力。你怎么看这个模式？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们非常看好，我们可能也是中国第一个吃螃蟹的一个企业。所有的这个BPU公司，你不管是猎头公司、咨询公司，什么会计师事务所、律所，本质上都是广义的BPO就一个企业本来应该是一个部门干的活，但你觉得经济上不合算，我干脆把它报出去百荣。比如我们这样的公司，每年花在各种专业服务上，法务、财务，什么上市公司。是的，各种专业服务我们算过账可能也得1500到2000万。但是一个企业要每年为一个固定软件付2000，你这在中国是非常困难。所以我们为什么看好这个？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一，总体可触达空间是传统软件的，比如说我们的股东红杉资本时候是80倍，我说至少10倍到50倍股，总体空间它非常大。第二，它经济模型非常的清晰，尤其对板上这样的企业，我们本来干的就是员工干的活。端到端定义清楚这个岗位老板交代什么，你阐述什么，端到端两端数说数定清楚之后你就可以考核我了。你觉得我OK，你就可以报给我了。所以对于我们来讲很简单，就是我们以前在干的工作，我们既可以自己去做，也可以收购一家传统的方式帮甲方完成工作。这种公司不减他的员工数，但我们可以接更多的活了，对不对？我们可以把我们的产出扩大十倍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>事实上百荣有一个部门叫小客户运营部门，他服务了2500家小企业，这些企业给本人贡献收入5万到50万。以前是50位真人员工，后来我们把它降到了五位国家18类规矩员工。但是45位员工我们没有裁他们，他们学会了怎么做智能体，他们开始给别的企业输出，他就从成本变成了利润中心，他其实收入更高了。所以百荣做rola，我们可能不见是要裁别人。我们可能我说你以前这个企业能接一百江湖员工挣的钱更多了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才咱们也提到百荣是一个在吃螃蟹的人，所以你们可能也在考虑去，比如说做这样的收购叫roll lab。对，所以咱们现在这个比较重点要去rolling lab的这种公司。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它是什么业务类型，我们有个战略地图，就什么样的行业适合被A的改造。说第一类是拟人的交互，就是AI今天可以像真人一样，刚才给你打了电话对吧？像真人一样交互。第二类是什么呢？就是非结构化数据的处理，本质上就是产出的PPT，生成图片音频视频这一类的。比如说其实法商财税这样的，就咨询公司，会计事务所，贷记账这一类的对吧？你想想他这个公司的产出是什么，本质上就是文档，只是麦肯锡最贵。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们有个真实的例子讲给科举，就是有一个广东省一个很大的制造业企业，他们是美国通用汽车可以说供应商。由于地缘政治关系，通用汽车要求他们三年之内必须65%的产能挪出中国大陆。OK这是美国的洋楼，他就很着急，那是生死命脉的事情。因为你要去挪出中国大陆的话，你要熟悉目的地那边的环境。比方说税务环境、劳工用工、什么物流成本、关税以及汇率，这个波动很麻烦的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>制造业动一次可能就是投资至少几千万，历史可能就是大几个月1年时间。因为它很重，所以他就找了罗兰贝格，欧洲第一大咨询公司。据说可能派了六七位资深的咨询师，做了好几个月，收费450万。建议是他去拉美某个国家设厂，然后他们去试了大概几个月时间失败了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后代表这家大的制造业企业的一位资深的专业人士到百荣来，去年8月份来谈合作。一边谈我就说我们公司有个智能体，就专门做复杂的超级复杂事情的分析的。但是我说肯定是比市面上不管是kimi。豆包那些深很多，他不信了，一边聊一边就输入那个问题进去了。大概50分钟以后，就他离开之前报告出来了，建议他去东南亚某个国家设厂。第二天这位专业人士我记得很清楚，是周五找的。我周六他就单独来找我，他说找工作要不我们俩合伙干。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我去年上半年找过他，我说我们要不要去做一个AN native的律所，他把我拒绝了，因为他觉得这个太卷了。后来我说Jason，你不是不愿意干吗？我找过你，他说小公子，我不知道你们自媒体能力到这个程度了。我昨天说那个问题，一个真问题，我说是个真的，你说是个真的，我的客户委托给我们的，到后来他去了东南亚成功了。而你们推荐那个国家，恰好就是他最后成功那个国家，只不过昨天没有告诉你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>于是我们就成立了一个平台叫百鉴鉴别的鉴。专门邀请专业人士、法务人士、商业咨询师、税务规划师、财务规划师上我们平台来。本质上是用OPC，你可以开个店，我们给你把规矩员工配齐，甚至办公系统，类似于这个领域的钉钉配齐。你可能赚的钱以前的十倍，它不是个经典的rola，但它本质上是很多专业人士，他不在以前那个form里面那干了，他以先把它拆散成个体，再被我们roll up到这个平台上来。这个新型的专业服务的天猫。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常契合agent提效的大主题，也契合OPC的对主旋律。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>又契合出海，对未来十年中国企业的一个主旋律是全球化。全话其实对大部分阶段是很麻烦的，根本不知道该怎么做。你不会讲外语，那个地方关税你不知道，你不知道汇率会怎么波动。所以他为什么以前只能请跨国大公司，不管是会计师事务所这些公司，为什么呢？因为你的知识它只有这种大所才有，它有跨国专家。但今天智能体都能处理信息，你还比不上智能体速度。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才那个声音听起来是蛮真实的。然后你们是自研的模型，还是你们用的是外部的模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们不管是做什么样的智能体，我们优先使用专属大模型，就是为这个领域优化过的大模型。这种大模型往往是我们自建的。自建包括两类，一个是pre training，一种是post training，包括翻译train这些都算是。但是特定的语音来讲，我们自建的原因在于说要么就是你用标准的那些不是那么逼真。第二个比如说它成本特别贵，而我的客户给我付的钱不够覆盖我的成本的，我没办法做一单亏一单是吧？还要么就是一些周边的基础设施它不具备。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个可以展开讲一下吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你比如说举个例子，如果你是要做全球化全球隔离，如果在中国要，比如新疆的可能时延能比北京的时延大很多。如果你的服务器只在北京有的话，就这些都不只是纯粹是AI的问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们今天最后一个问题，就是因为小峰你一方面是自己作为这个上市公司的董事长，然后你们也在把公司自己要变成AI native。然后另外一部分，你们的客户其实也是在使用你们所提供的agent去交付结果，对吧？所以其实你是双重角色。所以我很想知道，如果你要给其他的企业的一号位，尤其是那些在为AI转型而感到焦虑或者感到formal的一号位说一些建议，你能想到什么？</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这第一点，我是建议企业家们，尤其传统企业家们，真的是要有足够的重视。这一次的这个变革不只是一个简单的是互联网和移动互联网变革。因为那次的变革更多是流通侧、消费侧的，但这一次是供给侧，只不过供给第一步是从办公室，第二步才是具身智能，对吧？我还没有到工厂去变成语言伏，但是坐办公室的这一侧的颠覆，就是它是个生产力，这一侧的这个颠覆非常重要。有一天我觉得先不谈伦理道德、法治、社会福利，是很可能出现制造业有黑洞工厂很可能我们这些白领灰领会出现黑人办公室，就是很多工作可能干三四天，根本不需要人干预。所以这一点就涉及到说很多企业家把AI当成工具，我觉得这个观念要升级。AI是可以是工具，但是越来越多他已经是你和你平齐的一种工作伙伴了。他干的工作和你的工作是对等的，所以重要性要提起来，我绝对不是个普通的互联网和移动化的工具级的变革。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二个，也不要把这个事想的太容易。你觉得好像有开源deep sick，然后有开源的open core，即开放源代码还免费，其实是两码事情。如果你把这个事儿想得太容易了，有可能你会很失望。你觉得这是忽悠的，就挫败你的信心之后，你再启动可能两三年以后了。第三个就是要考虑到人性，你怎么把员工的善的一面激发出来，而尽可能去抑制恶的那一面。设立好奖惩机制。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第四个建议是什么？我觉得不要追求大而全，高大上先从简单的高频。比如说客服、营销，帮你审份合同这些。看起来好像比较简单，但是比较能定义清楚的工作的边界，就输入是什么，输出是什么，比较容易定义清楚，从简单的任务开始，但是比较容易见效。然后这样就建立起信心，让员工也觉得这个事儿是靠谱，让老板看的时候是靠谱，然后就可以继续投资。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就每一次有巨大的技术，你比方说蒸汽机的革命，电力革命，然后第一次计算机出现了信息革命，以及这一次AI的革命。每一次最高等级的革命，它首先是从供给侧，就生产侧B端开始，然后再延伸到C端。比如说计算机出现以后，逐渐就开始有PC机，刚开始都不是的，IBM搞的大机的都是企业用，为什么呢？因为需求虽然会拉动这供给，但是首先你的供给如果没有革命性的改变的话，你需求拉动时间之后你产出不了了。所以这一次很有意思，你不管是淘宝还是字节跳动，我觉得本质上都不是生产力一级别的创新，都是商业模式创新。但是弊端的重大创新往往都只有根本性，就是生产制造者。那个生产制造是广义的，包括白领也是一种生产制造。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这一次我非常期待，我也觉得很有可能出现的一种情况是中美历史上第一次真正上to b科技公司的商业模式产品基本上的观点合流了。因为以前中国的to b的软件和to c差是十倍以上，对吧？但是这一次更多是to b的企业受益，还是to c的收益。那你从大的范围来看，人类历史上的这个是生产力级的变革都是从to b开始。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这挺有意思的。互联网其实是流量的变化或者渠道的变化，它其实还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>消费者对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这一次其实生产侧的变，所以这是两种完全不一样的对企业来说的科技变化。所以今天很开心，绍峰总来十字路口，然后也期待看到我们中国的to b因为AI这一波大家做出更多的成绩，然后更多的企业也因为有了AI的加持，A的赋能，可以把自己的这个业务做得更好，效率提得更高。好，谢谢晓峰。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>谢谢科技。</p>]]></content:encoded>
-            <pubDate>Sun, 26 Apr 2026 16:00:00 GMT</pubDate>
-            <guid>69eb5dfc1d989496e76d373c</guid>
         </item>
     </channel>
 </rss>

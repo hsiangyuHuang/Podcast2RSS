@@ -4,7 +4,460 @@
         <title>代码之外 Beyond Code</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6194d973c14c9a0db82de1ea</link>
         <description>程序员聊聊代码之外的事。</description>
-        <lastBuildDate>Thu, 05 Nov 2026 08:45:20 +0800</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2026 10:48:02 +0800</lastBuildDate>
+        <item>
+            <title>iPhone Duo 上手，我们更想要一台怎样的手机？Apple 新品吐槽大会</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6afba362a4a79edf137a5e56</link>
+            <description>Randy 带来了 iPhone Duo。合起来是他喜欢的小屏手机，展开能读书、刷内容，还能连回 Mac 写代码。用起来也有一些意想不到的问题：没有 Face ID，折叠前后的音量键容易搞混，App 半展开时的布局也未必好用。我们还聊了不同地区开通 eSIM 的经历，以及为什么有人在外卖平台原价买到了这台折叠屏。
+下半段我们现场试了 Siri 的截屏问答和提醒事项，再聊一个更根本的问题：如果 AI 能用语音帮我们办事，下一台随身设备该是眼镜、折叠屏，还是一台能盲打短信的全键盘手机？
+本期主播：GeekPlux、Randy、勾股
+内容索引
+00:00 开场：Randy 的 iPhone Duo
+00:34 折叠和展开怎么用：手感、尺寸与内屏
+07:12 在折叠屏上用 Claude Code，出门还要带电脑吗？
+10:03 Home View 和智能家居：门铃、摄像头与耗电
+16:02 从 Surface 聊到 Mac mini，每个人都有自己的设备组合
+19:51 没有 Face ID，折叠前后的音量键也不好找
+22:14 一个 iPhone App 要怎么适配折叠屏？
+26:39 eSIM 在不同地区怎么办？携号转网又有什么差别？
+30:57 在美团买 iPhone Duo，以及左手怎么开折叠屏
+36:35 实测 Apple Intelligence：截屏问答、识别和提醒事项
+42:33 如果要做一台 AI 随身设备，眼镜和手机各能做什么？
+47:53 开会、在图书馆或不方便讲话时，语音交互怎么办？
+50:58 兜了一圈，又想要一台带实体键盘的功能机
+55:06 诺基亚盲打短信、小灵通写情书和《无间道》
+56:08 片尾
+本期提到
+《钢铁侠》 https://movie.douban.com/subject/1432146/
+《无间道》 https://movie.douban.com/subject/1307914/
+代码之外 Beyond Code 是一档由 GeekPlux、Randy 和勾股共同主持的程序员闲聊播客节目。
+节目地址：https://beyondcodefm.com
+视频版在 YouTube 和哔哩哔哩搜索「代码之外」。
+欢迎在 https://forms.office.com/r/RknWt97QPL 来信。下一期听众来信，会拿来信和大家聊。B 站私信也收。
+来信和商务合作也可以写到 beyondcodefm@gmail.com
+欢迎在爱发电赞助我们：https://afdian.com/a/beyondcode</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期《代码之外》三位主播围绕苹果新品展开吐槽与体验分享：Randy 作为 iPhone Duo 真实用户，详细讲述折叠屏的上手感受、购买过程与三大痛点；另一位主播结合美国生活场景评价带屏 Home View 的实用性与定价；第三位主播以多年 Surface 用户身份点评触摸屏 MacBook Pro。话题随后延伸至 Apple Intelligence 接入千问后的实际表现，以及三人各自心目中“理想移动设备”的形态——从语音+眼镜投影到黑莓全键盘 Feature Phone 的回归。</p>
+<h2>关键要点</h2>
+<ul>
+<li>
+<p><strong>折叠形态精准切中小屏爱好者</strong>：Randy 认为 iPhone Duo 折叠状态下就是一台小屏手机，展开后接近 iPad mini，“没有想象之中那么局促”。他形容用一两天后再看直板手机：“<strong>你感觉你在拿一只鞋子在看手机一样</strong>。”重量比 Pro Max（原文称“18 Pro Max”）还重一点，但一手能掌握，手感很好。</p>
+</li>
+<li>
+<p><strong>屏幕质感与阅读场景是核心加分项</strong>：纳米纹理玻璃在保持高通透性的同时提供磨砂质感，“等于帮你贴了个膜”，但和 iPad 类纸膜完全不同；比例接近 A4/32 开，展开看书刚好是一页。Randy 表示平时用外屏更多，看视频或用 Class code 写代码时才展开，“<strong>他拓展了你的一个消费场景的选择</strong>”。</p>
+</li>
+<li>
+<p><strong>不买的理由很具体：长焦是刚需</strong>。发言人1 明确表示 iPhone Duo 摄像头与 iPhone 17 相同、没有第三颗长焦镜头，“200 毫米拍下门”是他的刚需，因此宁愿继续用 iPhone 17 Pro，不想多带一台相机。</p>
+</li>
+<li>
+<p><strong>三大痛点</strong>：① 没有 Face ID，只有电源键 Touch ID，展开或竖屏时“根本不知道 Touch ID 在哪里”，音量键位置也随形态变化，分不清左右加减；② 软件适配差，美团被点名——展开时界面“跑来跑去”、竖屏不在正中间、有黑边，“像当年 iPad 刚出的时候那些 iPhone 应用”；③ 国内 eSIM 办理极其折腾（详见独家细节）。开发者适配本身不难：Xcode 27.1 以上重新编译，用原生组件的话“跟适配 iPad 是一样”。</p>
+</li>
+<li>
+<p><strong>购买经历充满戏剧性</strong>：Randy 原本没打算买，结对编程时朋友已入手并安利。当时黄牛加价、Apple Store 下单要等到 11 月中，朋友告诉他“打开美团就能买到原价”。他一打开美团，附近授权店 1 小时送达、不加价，256G 黑色 15999 元。“<strong>那一刻我感觉被命运选中了</strong>。”犹豫再三后下单。</p>
+</li>
+<li>
+<p><strong>铰链与开合设计遭吐槽</strong>：网上已有铰链中间把屏幕弄坏的案例，Randy 和朋友摸索出的“正确姿势”是不能直接掰，要从下边框辅助。发言人3 从左手使用习惯出发，指出所有折叠机只能从一个方向打开，左撇子/右撇子只能兼顾一个，且 dock 在右边对左手更不友好。“<strong>苹果是一家这么政治正确的公司，他居然不做这个功能，让我有点意外。</strong>”</p>
+</li>
+<li>
+<p><strong>Home View 的评价：场景真实，但产品逻辑别扭</strong>。发言人1 险些下单，认可美国智能门铃/外卖/中央空调控制等刚需场景，但指出两个硬伤：挂壁式必须另买 100–200 美元的支架，算下来接近两倍价钱还少一个音响；更关键的是 Apple Home 连接智能家居后耗电惊人——智能门锁原本 30 天充电一次，接上后“只能用大概七八天”。最终没买。</p>
+</li>
+<li>
+<p><strong>触摸屏 MacBook Pro 被评“脱裤子放屁”</strong>，但发言人3 自曝是五六年 Surface 用户，用 Surface 替代 iPad 画脑图、流程图，“等于把两件东西组合成了一件，然后结束了它的不完美”。他的设备组合论：每个人家里的数码设备都是一个组合，关键看能否接受不完美。</p>
+</li>
+<li>
+<p><strong>Apple Intelligence 实际体验远低于直觉预期</strong>：中国版由本地小模型做语音识别、搞不定时转阿里千问，但能力仅限于“把截屏发给千问”。让它总结小红书笔记、保存到备忘录，回答都是“需要我把这个截屏发送给千问吗”；微信发消息倒是可以（“微信有特别适配”）；提醒事项昨天不行今天又可以。Randy 总结：“<strong>各种你直觉上觉得你的操作系统有了一个 AI 之后能干的事情，它 80% 都是不能干的。</strong>”发言人1 更直接：“Siri 蠢到令人发指。”</p>
+</li>
+<li>
+<p><strong>理想设备的分歧</strong>：Randy 想要一个带物理按钮的小底座，按住说话、松开即交互，类似 Grok voice mode 的硬件化，“现在还得掏手机、打开 APP、点 voice mode，很傻”。发言人1 认为输入端语音是必然，但输出才是瓶颈——表格、图表仍需要屏幕，理想形态是轻量眼镜投影（类似车载抬头显示），苹果完全有能力做一款砍掉 Vision Pro 复杂功能的智能眼镜。发言人3 则主张“科技是个环”，理想设备是黑莓全键盘+小触摸屏+语音按钮的 Feature Phone 回归，只用来打字、发语音、对接云端编程工具，“别的我什么都不需要”。</p>
+</li>
+</ul>
+<h2>独家细节</h2>
+<ul>
+<li>
+<p><strong>美团买 iPhone 的完整路径</strong>：苹果授权店进驻美团外卖，附近门店原价现货、1 小时送达，在黄牛加价、官网排到 11 月中的背景下形成强烈反差。Randy 描述打开美团看到现货时的心理：“如果我现在不买好像有点不应该。”</p>
+</li>
+<li>
+<p><strong>国内 eSIM 办理的荒诞现场</strong>：电信营业厅工作人员“慌慌张张”，说之前只有一个人办过，还专门把那人叫过来；移动则不是每个营业厅都能办，必须打 10086 问网点，APP 里查不到。更意外的是，因为开通了“和多号”虚拟号码服务，eSIM 直接开通不了，只能先把小号取消。Randy 感慨：“运营商活得太好了，活得太舒服，就懒得做。”</p>
+</li>
+<li>
+<p><strong>Apple Home 的隐藏代价</strong>：智能门锁原本 30 天充一次电，接入 Apple Home 后变成七八天；室外监控摄像头同样续航腰斩。发言人1 推测是通信协议不停沟通导致，这是他最终放弃 Home View 的关键原因之一。</p>
+</li>
+<li>
+<p><strong>折叠屏开合的“民间偏方”</strong>：Randy 和朋友专门探讨过铰链保护，结论是不能从屏幕中间直接掰，要用手从下边框辅助受力。他还提到曾以为苹果一定会做“左撇子模式”，结果并没有。</p>
+</li>
+<li>
+<p><strong>物理键盘时代的盲打技能</strong>：发言人3 回忆用诺基亚直板机时，手机揣在兜里就能盲打发短信，完全记住拼音/笔画的输入顺序；发言人1 接梗《无间道》里内鬼在口袋里发消息，被纠正“那是电脑键盘发的”。这段怀旧直接支撑了发言人3“Feature Phone 回归”的产品想象。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，我们今天聊什么呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>今天要不是要不先Randy这边不是有那个iphone 6吗？我们先把这两个聊了，剩下有时间的话聊聊天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，iphone do怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给plus居然没买。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小弟囊中羞涩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>先聊iphone two。来先聊iphone 6。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，先聊苹果。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>G plus居然没买。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我囊中羞涩买不起。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>美国好买吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>美国好买，美国很好买来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Randy介绍一下你的新法宝怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得挺好的，说实话挺好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>怎么说？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为弄一下，因为你看它其实对我的手来说，它就是一个小屏的手机。在在它折叠的状态之下，我以前就是一个小屏的爱好者，所以它这个折叠状态的形态就特别我觉得特别喜欢。但当然它的那个内容显示就会特别要比mini什么的要小一点。比如说你刷推的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就会但是他比较胖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他会胖一点是吧？对，但他这边是有一个就是他把那个叫做status。对，有个道，但是它其实是一个16比9的比例在右边，但是它要比mini什么的小一小一点。所以正常刷的时候我觉得还可以，没有想象之中那么局促。我我我以我以为是折叠的情况下，它就会局促很多，但是用下来感觉平常刷刷太烂了，消费一些就刷刷手机的时候，我觉得还是可以的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>重吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实挺重的，它比那个pro max 18 pro max还要再重一点点。但是习惯了之后感觉还好，因为它这个你是一手能够掌握的，可能18 pro max，然后18 pro max可能也是可以。我觉得这个手感是挺好的，我觉得这个手感是挺好的。你知道现在现在在现在在看那个普通的手机的时候，我就觉得那些手机特别长，你知道吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是人的视野。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>特别棒的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>手机现在基本上都是1比2的比例了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你用一两天之后基本上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是1比2的比例。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能用一天之后你就会发现，操你再看那个手机，你就感觉你再拿一只拿拿一只鞋子在看手机一样的感觉。我看我现在看表面上看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是一只鞋，其实它是一个电话是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在看那些直板手机，就像就就像你看这个一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就会爱会对对，OK是那而且。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他他然后就是他的那个展开的状态，展开的状态，他就会特别的ipad .</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>mini舒服。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，它它有点像ipad mini的感觉，但是它它会比ipad mini要小一点。我把那个模糊给关掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你还能单手拿着是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这个意思吗？我现在不能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是还握实感还可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，他那个也是可以一手掌握的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>瑞迪喜欢一手掌握的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他这个size就特别适合他的size，特别适合。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且而尤其是你可以这样接电话吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不能，肯定不行。他这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就很很弱智，你知道吗？就是你来电话之后，你要不就这样给合上，要不就合合唱来听。但是它这个齿，它这个尺寸，然后你看书的时候这种感觉就特别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这个是我想说它它这个比例比较接近那个A4是吧？那个长宽比。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不知道它比例怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以它不管是收起还是展开都刚好是一页A4纸的那个那个比例。对你就好，刚好整本书就完。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>应该接近32开，就是我们小小本书。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，然后他另外一个就是它因为它有什么纳米玻璃还是什么之类的那个术语，纳米纹理玻璃。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它对他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那种感觉就是磨砂的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以它显示的箱子在上面写字吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有，等于帮你贴了个膜。我们啥但是它跟你ipad贴一个类纸膜又很不一样，类纸膜它的通透性会很低，但这个通透性就很高，但是它在通透性很高的同时给你一种磨砂的质感。但是我觉得这个得亲眼看了之后才会知道我在讲什么。因为有很多就比如我的朋友看到之后，他们上手去看这个内屏的时候，他们才会他他们都都会说觉得这个观感是挺好的，真的很不错。那个质感。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它它有120赫兹的高刷吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当然有啊，但这么贵还没有高刷，我真的觉得有点损。是，而且其实我平时就是用外屏会比较多，就是用外屏比较多。就消费到一些可能看视频或者wipe coding的时候，就把它展开。就感觉真的有一种他拓展了你的一个消费场景的选择的那种感觉，你懂吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以他跟你拿上手机再拿一个ipad mini的区别是就省。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多油是吧？对，省一个都是一样。但是你省了这个兜之后，你就会觉得还这种体验还挺不错的。就是你你想有一个大屏的时候，你直接就能有，而且就是你自己的手机。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你用iphone跟ipad分开的话，有时候我就因为像我一样，我就会觉得说ipad是一个独立的设备，对吧？他有一些工作我要在iphone上面做，有一些普通的消费，就是在ipad上面就会有这个mindset。现在就是说我我在我还是同一个设备，是同一个手机。就是我在刷推，比如说我刷推的时候，我觉得躺床上我喜欢休闲一点，我就展开它，然后这样用个大屏去刷那种感觉。刷完之后我觉得要睡觉或者等一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那么重你躺床上怎么刷？侧着还是侧着？</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我是侧着对仰仰卧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的时候感觉拿着很重。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不会这样，我就算手机也不会这样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这些就要被你种草了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Y coating真的很爽，靠这个对焦真的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没关系，挺好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的挺好好爽。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你这个是用什么web coding？</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Class code.</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我以为你是用，所以就相当于是个全尺寸的桌面版的clock code.</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>特别爽。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那确实看这个看起来爽快点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我要被你种草真。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挺好用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他有你有这个需求吗？我有这个需求。Web coding.</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我我对我现在很经常，我现在打开我自己的那个，我现在用的是iphone 17 pro然后打开它就是要web coding的时候，我是连着我的mac mini打开那个terminal UI。但是就看着很费劲，字很小之类的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>即使他我觉得你挺合适的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可是你出门的时候你不带电脑吗？还是在什么时候我不带电脑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK关键是现在他我带手机很大一部分原因是他那个镜头比较好，就iphone 17 pro然后iphone多，好像它的那个摄像，它镜头没有pro系列的好，所以这个是我一直没有买的原因。我就不想带多带一个相机。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它的那个摄像头跟17是1样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，跟17他没有那个叫什么来着？他就两长焦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第三个对他没有第三个镜头是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>长焦特别好用，所以我就我我这个是我的刚需长焦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是我的刚需太亚马尔。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，200毫米拍下门。就为了这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我反正是觉得挺好的。因为我本来就没有想要买的，我就那天跟别人结对编，有一天我跟别人结对编程。等一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我这个网站你还记得你之前在节目里是怎么说iphone的吗？我记得我第一次给你们俩录节目，我说你说每次我就想要买iphone的时候，我就去拿iphone的钱买他的股票，这样我就有了两只iphone。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但问题是我现在已经已经不买股票了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以现在买了两只iphone，iphone丢了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我怎么记得上次Randy说觉得买苹果是智商税什么的，是啊，感觉被库克忽悠，现在换人了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>换成铁先换人了，支持一下铁牛。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>支持。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>过分了不。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你对铁牛新发布的其他硬件有什么看法？</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你对其他硬件怎么样？Home view在国内没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>热评一下home view home view.</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>热评一下home view view我没有场景看我你看他的宣传片都是一个一个family。你说我现在都没有吃，我都没有自己的family，我就一个人用的，好像有点不太对劲了，没有这个需求，我觉得g plus可能g plus你作为一个在美国有family的人看的那个预告片有什么感觉？其实我有种草到了之后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我其实看完之后险些就下单了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为本来想真的真的，美国的亨利。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我险些因为在这边确实你的那些智能家居，它是功能性是很刚需。对的，就比如说最常用的就是门铃。门铃它有一个小的摄像头，然后你OK如果你想有你想象一下这个场景，一个快递员或者是送外卖的这个小小哥来了你门口，然后按你的门铃，你这时候你不可能说从你的二楼跑下去，然后给他开门就很麻烦。或者你在二楼大喊一声说兄弟放下外卖可以走了，不行，有的时候你还得给小费，对吧？所以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这时候你是不想给小费。是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以这时候你这时候就下接下来就是第二步了。第二步，如果你是一个有摄像头的门铃或者有话筒的门铃，那你就可以打开你的你要打开你的手机，点开那个APP，然后打开那个摄像头说你好，放下，然后就是稍等我一下，我现在穿个衣服下来之类。对，他他有个这个场景，但是如果你有那个home 5U，你就可以在那个home 5U上直接它按门铃的时候，它不是有显示那个就是提醒了。它它会连接它的最主要的功能，不是连接你的智能家居吗？所以如果它显示的，你可能只要点一下，然后就能连接到你那个智能门锁，然后这样就能跟那个小哥对话一下。但是我转念又一想，它是必须插在一个垫上的，就是固定位置的。他不是说比如说我家两层楼，那我不可能买两个。就算买两个，我还是得冲到那个屏幕前跟他说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你还得下楼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不用下楼，但我得冲到那个屏幕前，我点一下，然后我就说嗨hello，有这个时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得你难道不放在一楼？</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>客厅什么的是放在一楼，但大部分人的时间，大部分你除了就是家庭整个家庭在下面，就早餐、午餐、晚餐或者有些家庭娱乐的时候，你大部分各自在各自的房间，在二楼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是他确实如果它连接到，比如说还有空调，美国的这个空调也是都是中央空调，不像国内是那种柜式的或者挂壁式的，这边就是全是中央空调。它需要有一个集中的控制器。然后如果是有这个home view，那它的UI我会很喜欢。这个确实，但是我又转念一想，apple的这个home就是它有一个home APP，其实我用的很少。Apple home我用的很少，有一大部分原因是因为如果我的智能家居的软件连到这个home上，支持这个协议连到这个home上的话，这个智能家居耗电会特别快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>本来它这个智能门锁可能30天充电一次，或者说外面的这个监控摄像头。美国因为大家水深火热，基本上你的这个房子周围会安摄像头，以防有人破门而入，对吧？那你这个摄像头本来它可以用15天或者说30天，那你接上这个home这个APP的时候，它就可只能用大概七八天就没电了。这样子。对，可能因为他通信协议不停的在沟通还是怎么样，就反正会耗电。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那是只有apple home这样，还是说只要是家庭中枢的别的，比如说google家的，amazon家里我没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我这个就是我没有google跟amazon我没试过，我只有apple TV然后home连上了这些。然后它这个home连上的唯一好处就是你在apple TV上确实可以操纵这些东西，那确实是比较爽。对，但是我对这说了这么多场景，我就觉得后面又好像又又确实没什么用了，所以我当时就没买。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我觉得他最过分的就人家国内朋友可能不关注这个产品，美国这个产品它不是分两种，一种是挂壁式的，就你绑在墙上。对，然后另一种是有一个底座，有底座那个还带音响。就是理论上来说有底座的那个功能更多。然后挂壁就一个屏幕，但是挂壁你为了买这个同样的东西，你还得再买多100刀还是200刀买一个支架。那个挂壁的支架有200，然后再加上这个home相当于两倍的价钱，我记得是大概两倍的价钱还少了一个音响。然后我觉得这个产品完全就是拍拍脑袋突然上来，或者他他可能就是做了很久，然后一直没发觉，他再不发就不行了。这种我觉得反正他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>箭在弦上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，铁牛上位之后，就是觉得他可能要彰显他的硬件本色？然后发了一些硬件，还有触摸屏的那个macbook pro是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，来这个软件也来锐评一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>试过没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>触摸屏的macbook .</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>pro脱裤子放屁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我先问一个，你们能忍得了别人戳你的屏幕吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实没啥人说我的屏幕。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是这样的family，没有family又来了，一轮又一轮的暴击，就是因为我我本来就有这个surface，它本来就是触屏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你用surface靠你这又用了很久了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>很多年了，五六年了已经，我没想到，所以我对这个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>浓眉大眼的。你背地里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说应该加入微软。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>真的确实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我真的，我除了没加入微软。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我家全都是微软，真的假的？微软的意见。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>微软人自己都不用surface。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它出它最早出了这个ARM芯片的，我就想体验一下，看它这个性能有好到，确实比之前的那个之前确实比之前的好一些，但是就还行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是windows ARM我其实溶性很差，很多软件没有编译。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>用的很艰难。但还好了，因为我平时就写写代码干，就是我也没有特别复杂的娱乐需求。然后像平时上上网用的浏览器，用一些常见的比如说VS code这些，他基本上支持的还行。然后聊天软件什么discard telegram.</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也都有你竟然还在这还行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是很省电，比以前省电多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你竟然还在用VS code.</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我这个软件都卸了。我只是举就是我刚买这个的时候，我有没有可能现在我已经不用，有可能有已经是古董。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有没有可能是当一台电脑你不怎么想去用它的时候，它就会特别省电。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是我最早买的时候，其实我当时维护很多开源项目，那些开源项目偶尔会报一些mac的bug或者windows bug，你总要都要处理。所以我最早是有有一些这样的想法在里面。所以我就在家是一台mac me出门是一个windows laptop这样的。所以我这样的话就都组合起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说起那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说回那个最最我最早的触摸屏。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我其实见过同事就是他们用那种windows的触摸屏，其实用的挺好的。但是关键有一点，其实还行，他是能把那个屏幕放到180度的键盘，对，就水平的。我觉得那个场景确实很有用。但是它这个macbook好像只能是大概到一定角度，它不能彻底放平，垂直的用手在屏幕上戳来戳去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个确实是一个问题这个确实是一个问题。但是怎么讲，我当时就是其实你我们每个人家里面的数码设备都是一个组合。就比如说你是一个apple watch加一个iphone，加一个macbook之类的，别人可能是一个ipad mini加一个什么就是组合。我的组合就是说我当时有一段时间还蛮画东西蛮多的，画一些脑图、流程图，就整理我自己的思路。所以我一定得需要一个可以触摸的一个大块的屏幕，但是我又不想再买一个ipad，所以我当时就忍了，就说我确实不能180多折过去，但是我能接受，所以我就买了这个surface type。对我我是我是这样一个，我等于把两件东西组合成了一件，然后结束了它的这个不完美。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相当于是这样。那你ipad还用吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不用了，ipad我已经不用。所以我现在的组合就是一个iphone，一个surface level。所以它的机会然后加上一个家里的mac mini，什么ipad吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>给别人用了。你有看到这个图吗？他正确的用法是这样的。倒过来有时候铁牛就开个发布会，说是你们用apple的方式不对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，那这个键盘怎么怎么打字了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不用打字了。铁牛引用一下乔帮主的话说，用户其实不知道他们真正想要什么，他很贵。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我应该。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不会买这个。还是读我比较吸引。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看起来读我他有一个我现在能说出他几个比较蛋疼的地方。第一个他没有face ID，你知道当年出face ID的时候，大家都在喷face ID但是这么多年过去之后，当你发现没有face ID的时候，你会发现原来face ID是如此的好用。就是因为它它的触摸它是只有这一个旁边这个按钮电源键它是有touch ID的。这就导致了就不方便，是一个你必须得用指纹。另外一个比如说当你展开的时候或者垂直在用的时候，你会发现你根本不知道这个touch ID在哪里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你要touch它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说你要买买东西什么的，或者付款什么的，我要先找一下这里在哪里？这不是在这里，女孩在这里。当你习惯了是在这里的时候，有可能你有时候是这么看的。这时候你发现他好像也不在这里，然后你要找半天，原来在这里，这就很恶心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这么搞笑吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊，音量键也是音量键，比如说我现在找音量键，我都不知道音量键在哪里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这里想，那你没有带保护套是吗？你如果带一个保护套，说不定好一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>应该都差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你应该定制一个保护套。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个保护套的全都是touch AIT.</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>全四周全是他载体，随便摸我就解锁。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后音量键，音量键本来折叠的形态就在这里，然后展开之后，在上面你玩着玩着你也不知道他是在左边还是右边，你发现左边还是右边，然后你发现左边还是右边的时候，你要在想，这到底是左边是加还是右边是假。就很烦，就是我看看电看这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>问题ipad也有，ipad你用一用，你也忘记那个键在哪里了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Ipad不会也可能是有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Ipad你尤其是左右的时候，你也想不起来上面那个键是音量加还是减。也是我以前用的时候也会有这个问题，我也要试一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个蛋疼的，就是现在软件适配真的很差。就比如说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我还想问你自己也做APP，现在你觉得iphone 6要怎么适配？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说自己做APP很容易的，它跟ipad适配没有什么区别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>适配ipad就可以吗？但是它它分那么多种屏幕形态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>屏幕形态就是有，但说实话其实没你，你不兼容那些特殊的形态也没有太大的问题。就比如说它有一个形态，所以它不是说有一个形态是这样子，然后立起来。我跟你说我现在买到现在我都没试过这种场景，我都不会这么去用。但是我的软件是适配的，但是我感觉应该没有人这么去用吧，可能他睡觉的时候会脏，但是我是不会这样子去用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后这样一个是另外一种，睡觉前专门把手机摆在那儿当一个闹钟，然后stand.</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>第二天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>早上起来按一下stand by。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后它比如说它有一种形态就是半折叠，半折叠之后它可能中间会分开两个什么。当你完全展开的时候，它就是会他会会会会会说到会会变成一个平板的状态，然后半折叠的时候它就会这样去分离。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我还有半折叠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是像这种状态，其实你不兼容也没也无所谓。你这我也不会这样去半折叠去用手机，说实话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以最低消费是什么？比如说对于一般的APP开发者来说，他已经做了个iphone的APP。然后他今天苹果不是要求一定要适配iphone 6吗？你觉得最低消费是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最就你说最低兼容到什么程度是吗？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你我想用最省事的办法，但是又又不要让这个APP特别难用，或者显得你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只要你只要下载x code 27.1以上的版本，编译一下你的APP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他会那就可以了。或者说如除非你的那个UI完全是自己画的，就你没有用任何的它自带的那些navigation的组件之类的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那可能你得那你不是手机屏幕不是就是窄的，你打开之后它不是变成宽的，变成宽的时候它它系统会怎么帮你适配？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>变得宽了之后，你就如果你是用原生的组件的话，其实它不怎么需要适配，就跟你怎么适配ipad是一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就拉长OK跟你适配ipad是一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我给你看一下不适配的是怎么样子。美团，大家都用美团，应该美团就这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>精准点名哦啊OK这。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也算适配还是不算适配？没适配，这个在iphone看来叫没适配。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是没适配的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是他必须在那个时间点之前把这个改掉，是吧？这个不算适配。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个好搞笑，我靠折一半的时候它会跑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后竖屏一半的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个界面会跑来跑去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>竖屏的时候就是竖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>屏的时候它不在正中间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会在有黑边。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它有点像当年ipad刚出的时候，那些iphone IIOS APP，它就会就是这么一个。对，这个是当年IP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>它之前最早是这样子。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这就是没有适配的，完全没有适配的。但是没有适配的话，你可能你小屏的时候看就没什么问题，就不适配的。APP你小屏看就是正常的，就是小一点而已。okay. 这就是个产品比较大的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>想想看我最近也有一些想法，但是我APP刚做好，他就是要适配iphone，丢了我完全没思路。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有你用模拟器当AI呗。对，都是AI适配的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是我觉得整体对我的感觉是挺好的，真挺好的。如果如果你没有对摄像头有比较执着的要求，然后也能忍受一些APP它展开的时候没有被适配，那我觉得这是一个挺好的设备。当然他我觉得它价位是比较高了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是对我还。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我还是等第二代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二代肯定会完善一点，是苹果的第一代产品一般都会有很多瑕疵。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有第三个比较蛋疼的点，因为它是ECM，ECM的话在国内。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是还好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对在国对美国还好，在国内的话就很真的很蛋疼。比如说就你必须得线下跑营业厅去去去搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个我听说了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我因为我是两个卡，一个电信一个移动的，然后离我最近的是个电信。然后我过去之后，他他就我就跟他说要搞异性，然后他就很那个工作人员就很慌，慌慌张张的说，好像之前有一另外一个人搞过，然后让让那个人过来搞。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>经验这么不足。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是还好，后来就十几二十分钟就搞定了。当我想去看移动的时候，因为移动不是每一个营业厅都能办异性，所以你得先提前网上去，你或者打10086去问哪一个你附近的哪一个营业厅是可以做easy的。然后一开始我没有去打1086，我就在中国移动的APP里面去找附近的营业厅。然后我就逐个去打电话给他们营业厅，然后我就跟他说，我说你好，请问这里可以搞一些吗？那个工作人员说什么是easy。我觉得我就我就说我就说EC，就是EC，然后他也听不懂。那我也没办法了，我就再打了另外一个中国移动的营业厅，然后他就告诉我，你这个移这边的移动，你只能在哪哪个营业厅办。那个离营业厅离我五六公里，我就过去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过去之后，移动的我感觉移动的工作人员还是比较专业的，他们也知道什么是EC，上上手之后也知道怎么用我的手机什么搞。但是有一个问题，就是当我搞到一半的时候，他说开通不了，是因为我开了那个和多号，就是中国移动它的一个虚拟号码的一个服务。他说你开了这个合同号，你就不能开微信，我说那那那我就很尴尬，我只好把我的合同号给取消了，把那个虚拟的小号给取消了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后才能成功办。这么曲折行吧，现在那为什么为什么国内的ECM发展是这样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>慢慢来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>得看运营商。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们从外边很难。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>知道为什么运营商活得太好了，活得太舒服就没有那么对这件事其实他可以做到像美国那边一样的，但是他们就是懒得做了，得刺激。就像你比如说你的移动的月费太高的时候，他会跟你说，不好意思，这是最便宜的套餐。但是这个时候如果你在网上申请携号转网，他就会立刻打给你说我们有一个更便宜的套餐。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在国内也这样了，美国是一直是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>既然新加坡也是，新加坡也是，有的时候你就你只要舍得花时间跟客服多聊两句，你总能聊出一个更便宜的套餐来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我现在之前那个非常原始，所以之前不要看到网上那个那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以之前不要在网上下单。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以之前meta出那个muse的时候，好多人不是夸他就是能帮人，能帮用户省钱砍价。对，就是这个场景。他就帮你这打各种保险公司的电话，然后看打各种水电费。美国这边水电费也可以换了，所以就是打这种，新加坡也可以换，看看看哪家便宜。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我们也是换换过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，反正这边就杀熟，确实你半年不换就会涨得很很厉害。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以，OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我还没说我这个iphone是怎么买的，因为我本来是没有买的，没有想买的。然后那天跟朋友一起结对编程的时候，他说他就聊到这个iphone多，因为他也买了，我觉得我也感觉挺好的，但是我觉得也还是也算了。他跟我说，因为那个时候不是说一直大家都要黄牛要加价买什么的吗？买不到。然后你现在苹果apple store下单的话，你得等到11月中才能到货。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他突然跟我说，他说没有，你现在美打开美团就能买到了原价的还是。然后我一打开美团，发现真的附近的一个什么授权店直接就能买，1个小时送到你家。不美团上面的外卖，美团外卖，然后那个苹果授权店他会进驻进去。对，然后还1个小时就到家，还不用加价。我就觉得那一刻我感觉被命运选中了。你看推上大家都说什么加价买什么的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我突然就像你被brock的99元的套。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当时我就想到了，如果我现在不买好像有点不应该，然后我就犹豫再3，然后就买了。因为我是当时就是我朋友买了，然后我摸了几下，我觉得确实是挺好的那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉冲动消费去买。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后就是原价的15999256的，256是吧？黑色。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对还可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>真的还可以可以可以。我真的就算用一用，不想用了，二手转出去可能比现在还能更多钱转出去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那应该不至于现在已经破上来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吗？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>行，产量上来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为大家都在喷这台机器。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他说会有那个铰链中间把屏幕弄坏的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，好像很多。所以那天我就跟我朋友一起探讨了这个问题。我们发现开合他最好的姿势不能从不能这样子去摆，应该从下面的这个框这样去辅助。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>完美适配这个产品了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你已经可以真的可以，已经学会怎么用了，可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我其实当时看到iphone 6发布，我其实都还没拆，没有想我要不要买，我就已经被一个设计就已经劝退了什么？相当于是就是因为所有的折叠机基本上都有这个问题，就是他只能就左撇子、右撇子他只能兼顾一个，因为它只能从一个方向打开。你像我，我虽然不是左撇子，但是我的手机长期是放在左口袋的，这样我右手可以拿来写字或者拿东西什么的，我是这个习惯。所以你比如说左手拿着这个手机，你想开你Randy你现在可以试一下，你单手左手怎么把这个iphone deo打开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>单手打开不是单手开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>单手打开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是基本上不可能。就算是右手，右手可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我右手我也不右手，你手从那个缝里插进去一一憋。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这不行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你就强忍多少鳖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>左手方便一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有，他他他这个肯定铰链很紧，你在那里对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>再有就是是吗？另外一个就是他那个docker在在最在右边那我这个左手。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个docker肯定是设计就是让你有另一只手操作。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得这个问题即便说单手打开有点费劲，就怎么说，我就比如说你右手，我自己就是是我自己做了一下这个思想实验。就比如说你长期右手拿着，你可以你还可能可能你还是需要左手辅助一下，但是你的重心永远在右手上，对吧？然后那个左手好像就不一样，左手你要先把位置腾给右手，然后左手再把它掰开对吧？然后你再左手拿回换回左手拿。反正我就我自己想象了一下我左手使用这个折叠机的场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它这个就不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>除非它是四上往下翻，像诺基亚那样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它这个就不是设计让你单手用的手机。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但即便这样，右手还是比左手操作起来舒服。就是它默认你的右手是主力手，主力手，然后左手用来搬的，你懂我意思吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你很难是左手拿着，然后右手在那搬。你想你你你右手怎么还能再把它往左边搬，搬不过去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？我觉得还好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实再加上那个docker在在右边那个左手就更不方便了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但我很难，我一开始以为他肯定会出一个左撇子模式。因为苹果是一家这么政治正确的公司，他居然不做这个功能，让我有点意外。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我看所有的折叠机基本上都有这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但苹果是苹果，所以对苹果是有一点一点在离apple动力。Apple感觉就是感觉他会他是会做这种人文关怀的。但是一个这么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那他那这个铁牛就要看他的实力了。然后还有你就像用那个macbook一样，把那个屏幕倒过来，把那个iphone丢。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有一个可以聊的就是apple intelligent。你看怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>走马灯的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相关。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这是什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么东西？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>新加坡是不是一直新加坡现在是不是siri AI的都可以用了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以可以用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以用。现在中国。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但我我现在的iphone版本太老了，我现在是iphone 13，我一直没换中国的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>舒服的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>中国的apple .</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>intelligence在昨前天在developer beta已经可以用了。但是他是2024年的版本，2024年大模型是吗？不，2024年的功能，就现在的siri AI已经进步了很多了。对，但是现在国内的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他那个跑马灯，他那个跑马灯就是上一版的siri。因为我们在美国的siri不是你说siri它其实是在那个起跑那里出来一个起跑线。对，然后来跟你他会打开一个特定聊天，就跟ChatGPT1样，它会有一个聊天界面这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你现在用的多吗？他好像背后是gina是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>什么你现在用的多吗？CVA完全。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不用。这简直是蠢到蠢到让人蠢到令人发指，真的令人发指。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的apple intellection更蠢就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我无法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>表达我的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是，等一下我们不能这样做节目，这样做节目没有收入，我没有赞助，你怎么能？你看人家美团外卖，不加价都给你送到了，你还吐槽人家APP版权，这个节目不能这样做的。兄弟。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是有有很多你觉得是很直觉的，很很基础的AI功能，结果他是做不到的。因为他apple你像这一版本apple intel l intelligence是怎么样的？就是它在语音识别的基础上，它会有一个小模型，本地的小模型帮你去做语音识别。然后在他做不到handle不了的任务的时候，他就会转到国内的阿里千问大模型OK然后他是怎么做呢？他就是当你开启这个apple intel ent的时候，你可以绑定你的千问的账号。当你的都消息被转发到千问的时候，就相当于他给你的千问的那个chat给联通的，它会新建一个check session。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以有很多我以为能够做到的事情。比如说假设我现在打开小红书，有一个笔记，你如果这个手机告诉你它是有智能的那你很直觉的就会觉得说你可以做到。比如说我点这里，然后跟他说，能不能帮我总结一下现在的这个内容。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>需要我把这个截屏发送给千问吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以他他能做到的只有把我这个截屏发给千问，像前文就是OCR，对吧？你正常来说，你应该截屏之后。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你本地他拿不到那个accessibility tree什么之类的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>拿不到那些东西。最基本的你得做到本地的识别之后，然后再用你的小拇指你去那个，你或者说你就算你的小模型summarize不了，你把这段文字直接写一段prom给千问，那也比这个好，对吧？我相信现在国产手机像OPPO什么之类的，肯定都会有已经有这个功能了，对吧？如果他总结不了OK我换一个场景，我跟他说，你能帮我把这个笔记保存到我的备忘录里面吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>需要我把这个截屏发送给千问吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你看。有什么用？然后帮我在微信发个微信给gp lux.</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你要说什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>发烧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你想更改发送。已发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以了，微信是可以的对，微信是可以的。我感觉微信有特别的适配。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>真的，他现在我收到了rudy发的消息，这个还可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个还可以，这个是可以，微信应该有特别适配。最最恶心的是什么？以前我还能跟siri说，就纯版的siri我可以跟他说帮我记明天十点半，帮我提醒我做什么。但是我发现我升级在apple里面之后，反而没有了这个功能。就比如说明天上午十点提醒我录节目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我没找到提醒事项列表，你要创建一个吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好吧，创建好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>已添加。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在又可以了。昨天是不行的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不知道为什么他净化了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这就是你没有来录节目的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>原因吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正就各种各种你觉得你直觉上你直觉上觉得你的操作系统有了一个AI之后能干的事情，它80%都是不能干的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实反正我在美国用siri用的极少，主要是其他的模型太强了，我没必要浪费这个时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那那我有一个问题，我想到一个问题，你们觉得再往后看，将来的个人设备或者移动设备会是什么样子？理想中的手机，或者如果将来不是手机，是别的，不是我觉得最希望有的什么样的一个设备。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就钢铁侠那样是什么样子？就钢铁侠那样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也觉得是不是你也别说你说那么远，比如说明年你给铁牛出来，别让做钢铁侠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得其实我我也想这么说，就是因为我最近一直很想做一个硬件的产品。如果可以实现的话，我觉得最好的状态就是因为我们不是都用gw bot，grow bot它最近有一个voice mode，我不知道你们用过没有？那个voice mode真的是很好用，它就能给你一种JV的那种感觉。他的语音、他的说话的方式，他的智能都是真的是可以，这真的是能帮你干活的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说在global里面，比如我平常可能跟他说，你帮我查一下最新的user feed back的邮件，然后帮我回复一下他什么的。或者说有时候什么用户有什么要导出数据的需求，我要连上数据库。本来我自己手动也我要先连上数据库，然后导出，然后再发给他。那我在girl BOT里面其实是可以直接自己跟他对话。那如果你用voice mode的话，你是真的是可以直接跟他说，你帮我看一下最新的邮件，然后帮我去操作一下这个数据导出，然后发给他，然后他就帮你干了，就完全一个语音的交流，他真的就很像这，但是在手机上就特别麻烦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也希望有一个设备，它就比如说一个很小的一个底座什么之类的。然后它有一个按钮，我一按，按住它的时候我就可以跟他说话，然后松开手，我就我也在录音物理按钮是吧？然后他就直接跟我去对话什么的，然后有时候他会主动的去跟我聊聊什么什么，就一样一个这样的硬件设备，我觉得这是最好的交互形态。因为现在就算他voice more做的很强，但是我还是得掏出一台手机，然后打开他的APP，然后点点他的voice mode，跟他聊天就很傻。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得未来输入端，我觉得输入端就是语音输入，那是肯定的。就现在其实我觉得前端确实就是你做普通的网页界面都没什么意义。我觉得只要是用户输入的，让他们点击滚动拖拽，我觉得没什么意义，你就直接语音是最好的，你让语音说清楚他要做什么，然后AI或者说API自动就会解析。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>关键是什么？关键我觉得是就是output，就是你输入没什么问题，关键是输出，输出你怎么展示呢？那怎么展示是一个问题，然后用户怎么看又是一个问题。所以哪怕你就是比如说clock boat的这个voice mode，或者说其他AI的voice mode，你跟他说完，然后他完成任务，他最后还是得给你生成一个可视化，生成一个图表，生成一个表格，或者说把输出给你，告诉你，你还是得阅读。然后如果它它生成的是一堆文字，它还可以说给你听，就是race mode。不是他直接有时候还会打断你的，直接把那个回复说给你听。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>关键是如果它生成的是一个，比如说表格，我就想看一下，今天这个iphone do在各个地方到底多少钱之类的那这种表格它就他我我还是得打开一个屏幕去看。所以我就在想将来可能最好还是有个眼镜，因为我觉得眼镜还是比较方便，就是眼镜投影，或者说像那个vision pro，它不是相当于是那么大一个带了一个屏幕在眼睛前面。对，所以如果能有一个很小很轻很轻的屏幕在我眼睛前面，那是最好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是你如果戴眼镜的话，你就是头要承受的那个重量。因为你怎么着也得加电池，加这个加。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是吧？所以视觉上是可以解决，但是你头的那个负担又又加大了。我脖子、颈椎。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你去看过那个就是你开车有没有用过那种抬头显示，其实它就是一个小的投影，在你的那个挡风玻璃上对吧？理论上来说我在想的我想要的好的输出就是这样，它在我的眼镜镜片上就是有一个小的投影。因为大部分的情况我不会需要特别复杂的输出的可视化的形式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果但是投影的问题是你没有办法用手指哪里就被剪短的那种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的思维还在局限在指哪里，拖拽点击，我觉得这些交互都没必要，你就点击语音就好了，就告诉你就直接进入下一步，你不需要告诉他，帮我点一下那个下一步的按钮。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是你从accept我明白你说的意思了，但是我是觉得语音对我来讲，至少我觉得对一个加分项来说，或者说甚至你可能以后99%都在说话。但是我觉得传统的交互形式，你可能真的在一些特殊情况下，从accessibility角度讲，这些极端或者特殊情况下，你不能缺那个。就比如说一个最经典的例子就是比如说你开会的时候，或者你周围很安静的时候，你没有办法讲话。这个时候你还是需要一些替代品的。你不能说我只能用语音，虽然语音可能占据了99%的那个场景，你还是要有一个全功能的，就是在任何场景下都适用的一种组合。在这种情况下，你用手指哪里或者要怎么样实体，就像软件说那个那个实体按钮这些东西，我觉得你完全省掉吗？我就会觉得也不能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>完全省掉，省掉的肯定完全是没有问题的。开会不能说话，这个场景为什么开会不能说话？比如说你俩就是我们三个在开会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你俩比如说你在图书馆就是在安静的时候，那我爱你，你一定有你一定有不方便说话的时候。对，这个时候你总要有一个，你你你总不能说我这个是这个设备就只能语音输入，没有语音输入我就不能用了，这不行对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的思维在去图书馆不是看书吗？为什么要用这个设备？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这我只是拿图书馆举个例子，总之你现在不方便说话是吧？或者说你正在跟别人说话，你同时要完成另外一件事情你怎么办？对吧？这都是啊这种场景其实不少的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是我是在想这种场景我可以把我任何输入进来的东西先不让它存着，等我能说话的时候再让他交互呗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这不就比别的方案会差一些吗？如果你想要更好的方案，你比如说加一个触摸屏了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>加个什么东西了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我大概那个意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，等等再发展。这个也不不可能是铁牛短期内能做到的。对我觉得铁牛短期内，我现在我希望他就做一个apple的那个glass，就像meta的glass smart glass那种。我觉得这个苹果是肯定可以做到的。对你把把那个vision pro那些功能都砍得差不多。你就做一个能听歌，能听大家语音输入，然后又能一个小的投影，把这个文字或者说小的一个图，就是AI的输出，你可以投影出来，就这就可以了。我就我不知道他为什么一直就是不搞，然后你再搞个摄像头，然后你再多模态作为输入，这已经很强了，真的很强了。而且我觉得现在带宽什么其实都不是瓶颈了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是可展望的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你知道我现在对这些移动设备的感觉，我有一个非常强烈的感觉是什么呢？就是所有的和印证那句话，很多很多事物的发展都是一个潮。就是说潮流都是一个循环，都是一个环。就有一个东西你流行一圈之后，最后它还会回来。我现在之所以有这个感觉，就是因为我现在强烈的觉得一个理想的移动设备，就是传统的feature风。就是有物理键盘可以打字，然后可以打电话，就可以说语音就够了。就是我需要一个全键盘，然后我可以语音输入，就可以打电话发短信。说的直接一点就是一个feature。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有你多年前就是这样性。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>只是他不是运营商，只是他对接的不是运营商，是我的cloud code什么之类就完了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有勾股本身十几年前就是这样的一个人了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我但那个物理键盘是九宫格键盘吗？我现在觉得是那种黑莓的全键盘。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你想想看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>黑莓全键盘上面一个小小触摸屏，我真的需要。就是很应急的时候，我还可以触摸点一下。然后我又有语音输入，再把Randy说那个语音输入的那个那个button做进去，这个就是我现在理想中的。因为我现在确实发现手机里边我很少做别的事情了，我就只有打字和发语音了，基本上没有别的事情做了。这就是传统非洲正在做的事情。所以我就总觉得这个东西是一个就像一个像一个怎么讲，像一个环一样。就是你所有的科技绕了一圈，最后又回到回回到回到feature phone的那几个功能区。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且我想象了一下，就比如说我现在这个iphone它下边有个物理键盘，然后有一个一键可以跟他讲话，就类似siri这样的按钮。只不过他最后接到的是我想说的那个卡拉扣子之类的地方，我会觉得很好用。我这手机要这个就够了，别的我什么都不需要，我就是只需要这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>像什么收快递，收验证码什么之类的，就收邮件，就作为一个附加功能加进来就好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟我想的就不太一样，确实。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且这个离现实很近，就是你你说要头显什么的还有很多。真的那个东西做出来之后，你可能还会发现，比如说电池发烫，然后用不了一天撑不住，或者放哪里，就用不这个腰这个颈椎受不了你你可能会遇到什么各种问题，而且还有一些可能有一些技术瓶颈要攻克。但是我觉得这飞驰风好像没啥技术行径，你只要坐回去就可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实，但是我感觉我不会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>买你真的想做，你明天就可以做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果装铁牛发布的这款产品，可能只有勾股你这种类型的会买。不知道Randy不是我很难想象。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>苹果发一个全键盘的iphone是什么样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Randy开发了一个不是全键盘的，就在iphone do上面开发了一个全键盘，假装黑。没我看到那个，其实我觉得那个挺喜欢的，你会买个有实体的按键，我会买那个，我确实会真的吗？真的，你做吧，然后给我邀请码，然后我就不用了。但是我这我其实挺喜欢那种全键盘的，但是我觉得iphone这个大小其实就他胖胖的，有那个全键盘比较好看。如果是我们现在这个尺寸有全键盘，其实它有点有点拥挤，有点有点拥挤。对，不太好。对我觉得那个胖胖的，当时黑莓挺喜欢黑这边也是因为它是一个比较胖胖的手机。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且我是多么重度的物理键盘用户。我可以分享一个我使用之前诺基亚直板机的习惯，就是我可以盲打发短信，手机它揣在兜里面，我就可以把短信发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可以吧？那个时代差不多就完全。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>记住了拼音或者笔画的那个输入顺序。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为当时的然后就输入法的问题，其实是就是当时的输入法每次弹出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>效率可以很高。对，是的，有非常多好用的用法。现在这些触摸屏我是不敢这样用的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们不可能这样用。我们高中时候拿小灵通在桌底下写情书都。就在教室里上课的时候，在桌子下面写情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你看到无间道也是有内鬼终止交易，他也不可能拿起来发他口袋里就发出去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他那个是键盘发的好吗？他是电脑上键盘发的。不要欺负我没有看过无间道。不要欺负我没有看过无间道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有他是没有我那个手艺是吧？我要是当间谍，我就可以直接揣兜里给他发出去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以上就是本期节目的全部内容，欢迎给我们点赞、转发和评论。想订阅我们的节目请在小宇宙、苹果播客、哔哩哔哩和youtube搜索代码之外，也欢迎您在爱发电或上述任意平台给我们打赏。想提供任何素材或话题，欢迎通过show note中的听众来信链接给我们提问，我们下期节目不见不散。</p>]]></content:encoded>
+            <pubDate>Tue, 17 Nov 2026 00:52:34 GMT</pubDate>
+            <guid>6afba362a4a79edf137a5e56</guid>
+        </item>
         <item>
             <title>AI 时代还需要管理者吗？养孩子像重活一次。程序员 35 岁来临前的焦虑</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6aea975bc96c8942ec16fdd6</link>
@@ -8815,175 +9268,6 @@ PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在�
 <p class="transcript-line"><span class="time"><strong>[01:15:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还还要还要live coding的话，那就更紧张了。那那如果突然爆一个bug，我就遇到这种情况，突然爆了一个bug，然后你的所有的list显示不出来了，这时候慌的要死，然后我说幸亏我提前准备好了，然后给了大家一个截图。然后其实超尴尬，他们就觉得你这三个月就做了一个这个，然后还挂了，对吧？心心里心里很慌，但是表面上不能太慌的。</p>]]></content:encoded>
             <pubDate>Wed, 07 May 2025 14:46:06 GMT</pubDate>
             <guid>681b71eedb57cd35f70b5090</guid>
-        </item>
-        <item>
-            <title>听众来信 #19 应届生求职技巧，简历面试人脉等，学生如何准备进入职场</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/680d955f7a449ae858e57ce3</link>
-            <description>来自听众 RXY 的来信：
-学生应当如何准备进入职场
-up好，我是一个国内top985的大三cs学生，准备赴美读授课硕+留美工作，在此前准备在国内实习，并为后续国外实习/工作做准备，由于当前整体的就业形势都很不乐观，想要知道怎么做到思维上的提早转变以及技术上的预先准备。
----
-代码之外 Beyond Code 是一档由 GeekPlux 和 Randy 共同主持的程序员闲聊播客节目。节目地址：bento.me 我们的节目同时会发布视频版，在 YouTube 和 Bilibili 搜索「代码之外」都能找到我们。
-欢迎在 forms.office.com 向我们来信，我们会在下一期节目分享你的来信或解答你的疑惑。
-也欢迎在爱发电 afdian.net 赞助我们。也欢迎赞助商联系我们商业合作。
----
-金牌赞助商 / Golden Sponsor
-感谢 Relingo 赞助本期节目。Relingo 是一款借助 AI 来帮助你轻松扩大词汇量的工具。它提供了很多功能，比如网页查词、高亮显示、沉浸式翻译、PDF 文档翻译、以及 YouTube、Netflix 等多个视频网站的实时字幕翻译。让你在不影响阅读及观看体验的同时就能巩固和扩大英语词汇量。在 Relingo 官网输入优惠码 BEYONDCODE 下单可以享受 7 折优惠！
-* Relingo 官网链接：relingo.net
-* 7 折优惠码：BEYONDCODE
-金牌赞助商 / Golden Sponsor
-PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在这里买到程序员贴纸和项链。我们每售出一张开源项目贴纸，会为该项目捐赠 1 元人民币。
-* 官方淘宝店：pdlft.taobao.com
-赞助商 / Sponsor
-* Notepal 一键同步微信读书笔记到 Notion, Readwise, Logseq, 思源笔记等笔记软件
-* EpubKit 把网页、博客、文档一键生成 ePub 电子书
----
-00:00:00 Intro
-00:02:00 回答听众来信：关于应届生准备职场和求职技巧
-00:03:45 讨论心态转变：从学生思维到社会人思维，调整期待值
-00:05:38 个人经历分享：学长的建议与 GitHub 的启发
-00:06:36 求职准备：主动性、目标导向、了解城市与团队
-00:08:23 找工作建议：针对性准备，了解公司，展现诚意
-00:10:42 技术准备与应届生面试：基础 vs. 经验，面试官视角
-00:14:28 面试经历分享：慧眼识珠与经验判断的挑战
-00:18:07 求职技巧：简历的重要性与写作建议
-00:22:28 AI 时代对求职和面试的影响与挑战
-00:27:02 求职技巧：Network 的重要性与方法
-00:31:52 美国找工作的特点：线上流程、刷题、Network 文化
-00:37:33 获得帮助的技巧：展现 Passion，同理心
-00:38:51 帮助年轻人与自我成长：责任感与经验传承
-00:41:32 与年轻人 Network 的意义
-00:44:15 节目结尾</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>欢迎收听代码之外听众来信栏目。我是Randy.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是kick plus.</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是狗狗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感谢瑞林狗赞助本期节目。亲爱的听众和观众朋友们，本期节目不好意思又有广告了。瑞麟狗是一款借助AI来帮助你轻松扩大词汇量的工具，它本身提供了很多功能，比如网页查词、高亮显示这种基本的还有沉浸式翻译、PDF文档翻译，以及youtube netflix等多个视频网站的实时字幕翻译。我自己用的最多的是reino浏览器插件的网页生词高亮和youtube字幕。因为我平时阅读英文文章比较多，所以我遇到生死的时候都是直接右键reino查询。然后reino不仅会将它自动加入我的生词本，还会在之后遇到的网页中再高亮出这个生词，这就帮助我每一次遇到这个生词的时候都能记忆一遍。同样我在看youtube的时候也会打开regino的实时翻译字幕，然后可以直接鼠标悬停查词。在之后遇到这个生词的时候，它也会在字幕中高亮出来。所以说这种不影响我阅读和观看体验的同时又能增加我词汇量的方法，我觉得对我的信息吸收效率都提升了很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那么关键的来了，现在扫描我们视频左侧的二维码，或者reino官网输入优惠码beyond code下单可以享受7折优惠。我再稍微重复一遍，观众以及听众朋友们可以直接扫码或者到reino官网输入beyond code下单即可享受7折优惠。BEYONDCODE也就是我们代码之外的英文名。详细的链接和优惠码各位朋友都可以在我们的视频或者播客简介评论区中找到。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感谢各位，现在正式开始我们今天的节目。好，接下来我们来回答两封来信。这两封来信有很多相似之处，所以我就把他们一起都念出来，然后再由我们三个根据经验来回答。首先是来自RXY这位同学的一个问题，他的问题是刚毕业的学生应该如何准备进入职场？他现在我来念问题，我是一个国内top 985的大三学生，准备赴美读授课硕加留美工作。在此之前准备在国内实习，并为后续国外实习工作做准备。由于当前的就业形势很不乐观，想要知道怎么做到思维上的提前转变，以及技术上的预先准备。好，这是来自RXY同学的来信。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二封来信是来自Michael，Michael说你好，已经听了代码之外的多期节目，感觉这种陪伴的感觉很不错。想问一下在国外读一年制硕士毕业找到工作有什么技巧吗？本地人似乎找工作也不容易，那该如何竞争过他们呢？也尝试了和学长学姐的network，但帮助并不大想问问还有哪些可能的方法，谢谢。我感觉其实可以分成主要两个问题。第一个就是从学生到职场怎么提前准备，或者说应该做哪些从思维上跟实际上的准备。第二个是求职有哪些技巧，还有有哪些方式能更好的找到工作，大概就是这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先是他问心态上要怎么转变，第一个问题，他其实还是大三的学生，然后他的专业是computer science。他虽然说准备赴美读读硕留美工作，然后还有他在国内实习过，然后是实习过吗？没有，他是在准备在国内实习，同时他准备去美国。然后之后反正按美国的这个传统的流程，do I master在这个实习工作，他就想提前做准备。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我看完这个问题，其实我第一印象就是说调整期待值，先降低自己的预期。因为现在美国这边这条路可能不像之前那么顺利了，不像之前那么顺利了。首先本美国本土的就业市场就不是很乐观。其次考虑到我们的签证问题，就是一个中国出生的人拿到都不用说绿卡，就拿到HYB，现在都都比较麻烦。对，OK要抽签中签的概率去年是23%，前年是14%。理论上说20%你都很难中，你就有两年的抽签机会，那相当于你只有40%的概率中签。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我对他我其实对他讲的这一个说想要做到思维上的提早转变，这个有点想要深入讨论一下。就是说我不太确定他所谓的思维上的提到转变是什么意思。可能是从学生思维转变到社会人思维的一个转变的意思吗？我不知道你们怎么看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也可能是在提国内国外思维的转变，是不是这里面也有一些不一样的地方。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我又又想穿插一个小故事。我其实就刚才也提到我的学校不是很好。然后当时我遇到一个非常好的学长，他进了一个非常好的创业公司，后来这家公司做大了。然后现在这位学长就在新加坡，整个人生也是过得非常的好，非常的顺利。当时我联系到这个学长是因为我特别想进那家公司，然后那家公司列的那个招聘需求非常的明确。然后我竟然看到他们有个员工是跟我一个学校的，我就主动去联系这个学长。然后学长当时给了我一堆人生建议，其中就包括介绍了github给我，这个几乎就是改变了我之后人生的走向了。我觉得然后他其中就提到说思维上要提早转变，所以我觉得正好能借机回答这个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我当时学长就主要说首先你要摆脱学生思维，就是不要老觉得别人给你安排什么东西，你再把它做好。而是你要主动想哪里有机会，然后自己怎么抓住这些机会。然后第二就是你要是有了目标的公司，那你就一定要去瞄准这些目标公司他们的招聘需求，去来弥补自己的短板。或者说你就反正看他的那个呃他需要什么技能，然后你去补充什么技能。第三就是说你从生活上要跳脱出来，就是你不要再觉得自己还是一个学生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为你马上要毕业了，你可能提前比如说先去那个城市，了解一下那个城市，或者你先确定好几个目标城市，要去哪儿工作，然后都有什么优势，然后自己做一下分析。然后还有你自己喜欢哪个城市，还有你喜欢的工作跟你喜欢的同事是什么样的。因为这些都很重要，还有你的老板也很重要，尤其是老板这个特别重要。所以你要怎么做到，就是自己心里已经有一个大概的思路，就是你要适应什么样的老板老什么样的老板比较喜欢你。虽然作为学生，你选择的权利没那么多，但是你最起码心里要知道这个东西，然后这就是一些心态上的提前准备。然后至于简历，然后后来的刷题，还有怎么找人内推，还有怎么在官网投简历，这些都后来那个学长都大致跟我说了一下。但这些思路我觉得就后来我提到这些简略的说的，应该都是现在都比较成熟了。但主要就是心态上你要提前适应好，你要进入社会了。对，总之我非常感谢我的那个学长，他当时虽然就很简短的几段话吧，就改变了我的一生。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我自己觉得如果是找工作的话，其实我我当时找工作的时候，印象中我也是被当时的是大学里面的老师给了一些建议。其中一个我其实记到现在，也许已经不适用了，或者说也许这个已经是不是什么新闻了，就是家常便饭了。就是你如果想你如果看准一家公司，你想去的话，那你其实可以为这家公司做很多非常针对性或者非常具体的准备。比如说去面，如果你真要去面试，你面试之前你可能大概了解一下这家公司是做什么的。大概这个公司比如说产品是什么性格，什么什么什什么什么什么什么格调的，什么品类的。然后你觉得这个产品你是不是会用一下，用完之后你觉得有哪些可以改进的地方，就是你可以为这家公司做一些特别的准备。这样的话一个是你对这家公司就更了解，不至于你去面试的时候就完全是遭遇战。就是你你也不知道他他也不知道你。第二个就是这样，相对显得比较有诚意，对方也比较更有在大家其他水平都差不多的情况下，你是更容易打动对方的这个面试官的。所以至少说当时我被给到的建议就是说，也许大家在人才市场上，所谓的人才市场上长的都是一颗土豆，没什么特别的区别。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是是人力资源。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:52]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，但是怎么讲，你你要尽量一方面是突出自己的特点，另外一方面你要拿出一些诚意。或者换句话讲，你不要广撒网，你认定几个你非常喜欢的，或者你觉得成功概率比较大的，花相对充足的时间去准备，而不是花更多的时间去这儿找一家，那儿找一家，一直到最后效果不如你，你就看准那么两三家，然后去做准备。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，没错，不要广撒网，广撒网。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得但是下策。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也不是不行，反正就是下策。我觉得对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>下次但是我是想说美国的找工作跟国内还确实不太一样。但我们一会儿可以回答另一个问题的时候再说。这个是不是其实差不多了，就思维上的转变，技术上的预先准备。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉技术上是我感觉技术是得先看中你要去的地方，在你要去的公司，然后根据他们的JD来准备。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说微软去准备一下c sharp。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不需要我这其实好问题，因为我这个事情就是我我从开始找工作到变成主管，然后我纠结着这个问题，纠结到现在。如果是应届生面试或者招聘，站在应聘者角度是应聘，站在招聘的角度是招聘。如果是应届生的话，你究竟要不要看他的这个实战经验，或者说某个具体技术栈的。我到现在我都对这个东西有疑问，因为大概。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>能理解。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我觉得应届生你也许我我觉得也许这不重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为你你招聘，你既然是招我，我从面试官的角度，或者我从招聘的角度，我如果是确定是指我一如果确定对方是一个应届生，其实我不看这个了，我我我就看他技术好不好人另外他甚至我看比如说三观人品，这是我我都觉得比他的经验重要。我会这么觉得。而且我在我可以分享一个小故事，我在阿里招聘的时候，我曾经做那个初面馆就一面馆。因为阿里招聘他有一面、二面、三面，他分很多轮。我当时最早是做第一轮面试的时候，就是说我坦白讲我个人的认知跟阿里整个招聘体系里面有有一些偏偏差的地方。我可以分享一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我曾经面试过一个人，他没有任何具体的经验。但是我觉得我可以通过基本的一些面试感受出来他脑袋非常灵活，非常聪明。就比如说我问一些很基础的非常基础的那些接近算法题，可能里面有一些javascript的非常基础的知识。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我一般的想法就是说我念一个最简单的，问一个最简单。如果他能答上来，我就稍微加点难度，他能哪里我再加一点难度，然后看他能到哪里。通常我会这样问，然后那次面试我印象很深。我面到一个人，他面到第三个、第四个问题，他甚至主动问我说你接下来。是不是要问这个？而他前面答的都非常好，就非常流畅，脑袋非常转的非常快。我为什么他立刻能想到该怎么办？他答到最后第三道、第四题，他甚至知道，你接下来是不是要问这个，他的思路已经领先我了，然后我我觉得我我是觉得非常好，他甚至是高于一般水平的，我就给他过了，而且我给了个非常高的评价，结果到后面几轮挂了。对，对，就是可能是面到经验的时候，或者是因为第一轮面试官跟后面几轮面试官有一个特别大的反差，通常情况下我们是要review的，所以我们当天晚上做了review。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我提出我的意见，我说我觉得他是非常聪明的，他可能缺乏经验，但是他非常聪明。因为我我我详细介绍了我面试的过程，然后他们说OK既然这样我也比较坚持。因为我很确定他他是我至少从我的角度，我以我当时的这个认知，我觉得这是一个非常难人才。我在我非常坚持的情况下，我们第二天又给他安排了一轮补面，就是又换了一个终面官，右面最后还是没有面过。然后没有面过的道理是相同的。所以我我我你你看你看我这个东西，我到现在我都没有完全放下，你看我到现在我还在纠结这个事情，但所以这个事情我到现在我没有答案。对，我会觉得我会觉得我当时的处理是对的，但是anyway我觉得有点可惜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对我觉得面试又是找工作流程中的另一个话题，面试可能如果我们单聊一期的话能聊好久。是，但是以我为数不多的，我面试了大概几十个人。我其实有两个印象特别深。第一个有点像一个就是剑走偏锋，他是半路转码的一个同学，但是他喜欢的语言是lisp OK。恰巧我也喜欢lisp对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK但是他面的是一个前端岗位，然后他在面的过程中我问他很多前端问题，他是完全不知道OK但是我能感觉出来这个同学他比较聪明，然后他用lisp做了一个他的个人网站，OK就是他他全部都是用lisp写的。他相当于你是用lisp写，其实在开发一个小型的自己的这种DSL，就是小型的语言。对，去写了一个网页。对，那你都他都达到这种技术实力了，然后我觉得是不是就可以招进来了。但是我又考虑到我问的几乎所有前端的最基本的CSS还有JS的问题，他都答不上来。不熟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后当时我就很纠结，对我就我就跟主管说，其实我内心当时是觉得，因为我当他是我面试最早期的那个，也遇到一个同学，所以我当时觉得很保守。我就说是不是不太就不用招这个同学了？因为他前端其实经验还有知识都不是很好，而且他才学编程半年。但是我就完全没有想到，他虽然学编程只有半年，但是他已经用lisp做了一个很好的网站了。所以这个同学后来去了百度，就是我我当时那边把他拒绝掉。所以当时我心里后来想到觉得对很很纠结，然后觉得自己做的不是特别好，就没有慧眼识珠之类OK这种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二个印象特别深的同学是类似的，但是这次是我同事跟我一起念的，然后也是那种你问他什么问题，好像他已经能知道你要问这个，然后他还就是他说这个问题答案我虽然不知道，但是我能给你想想出来。我就是大概搜这个，我能把这些东西凑成一个技术站，然后解决你这个问题，我觉得完全没有然后他就说他也是半路转码的。因为当时我们招的话前端好多感觉前端好多都是转过来的，他不是科班出身的。OK.</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这个同学当时的给我们的印象就是特别，然后我跟同事的一致意见就是一定要把它留下来。OK虽然他前端也是经验很差，OK然后主管当时却遭到质疑，因为他他是负责第二面，就是纯技术面OK他就是觉得印象很差，就是因为什么都答不上来，然后我们俩又坚持，所以也是最终补面。然后HR可能他那边做那个最后考虑，最后还是留下来了。然后留下来之后，这个同事的表现就巨好无比，他后来感觉写了超过我们一半的代码量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是OK反正。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对就你说面试这种非科班出身或者说刚毕业的同学，你如果以经验或者说基础扎不扎实去面试他，我觉得真的有些就会漏掉很多人才。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我觉得这我觉得咱们两个的感受是相同的。但反正客观上就是你知道实际你在找工作的时候，也有理想与现实中的这个差距。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>随机性还是比较对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们接下来跳到那个毕业找工作有什么技巧？首先简历肯定是最重要的，简历是个敲门砖。不管你是内推还是海投，别人看到的都是你的简历。但是虽然现在简历有很多技巧，但是我是觉得很多人写写简历的时候，还是就是你看到那个简历的时候，你好像确实不太了解这个人。就是好的简历，你看到他那个简历的时候，你一下就能找到亮点，然后我就能知道他大概能不能match你这个职位。所以我觉得简历是一个非常值得花时间的，值得投入的一个东西，一定要好好的把每一条都写好。而且但凡你写在简历上的，你都要做好面试官会问你的准备。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我曾经就写了一个自己不太熟的技术战队，就被chAllenge到了。对，觉得自己很牛。然后其实只是稍微略懂一点就写上去了。对，就不要做这种事情。我如果你写上去就一定要做好面试官会不停的问的准备。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我作为一个面试官，我非常同意的观点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，我会揪着各种问的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也是对，尤其是你看多半情况下你在应聘的时候，面试官是一个相对来讲在当时那个环境里面算是一个权威的象征，是吧？那你简历就写的不要太狂，这是个最基本的技巧。别上来就说我精通这个，精通那个。那好啊，那面试官说你精通这个，我今天问死你，大概就这意思，写的谦虚一点。对，就是也不要妄自菲薄。但是你写的谦虚一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不要用那个特别尽量。对。因为如果是刚怎么说，应届生的话确实很难写出一些亮点。因为如果你有工作经验的话，你可以用一些KPI来来写。就比如说你经历了某些就是你做的这个项目，给工作给这个项目提升了多少，性能提升多少，或者说给公司带来多少收益，就是略写一句，然后就能体现你这个项目大概技术含量。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我就描述客观事实。对，就是不要给自己客观事实。对，不要给自己贴标签，就是说我精通这个，这个是贴标签。但比如说你说我做过这个做这个是客观事实对吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者我学过这个，但应届生很难写。我我是其实我我我自己也有疑问，就是你作为应届生，因为我看到好多应届生的简历都是千篇一律，几乎他们那个就是个人项目也都是个人的网站，还有一些最基本的一些项目OK对，这个很难差异化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说实话我个人觉得，我是我是我会这么觉得，其实这个差异化是每个人自己心里清楚的，不是别人给你的，比如说你自己做过一个你自己觉得特别有收获的项目，你自己心里其实清楚的，你知道该怎么写。对，然后再比如说你就是学习成绩很好，你把你的学分机拿出来，你的学分机就是比如说这个学校或者这个班上排名百分之前十的，百分之前5的，你是可以写的。这些都是客观事实，你自己写学习程序好，你自己清楚对吧？我是这么觉得，然后你或者说你做过什么开源项目，这个开源项目有没有亮点，你自己清楚，你是随便copy了一个，敷衍了一个东西，还是你真的认真做了，做出别人没有做出，这个是你自己心里清楚的，你自己心里清楚你就写得出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，我会这么觉得，就说有的时候你确实我觉得很客观上很难了。作为一个应届生，你很难在所谓的在职场中做出你属于你自己的这个代表作，或者说再有这个network有其他的东西加持之前拥有非常特殊的亮点。但是我觉得怎么讲，作为应届生我觉得这个就是你要去找的对，这是你这你自己要过的这一关，这个我觉得是没有捷径。或者说你就或者或者说你就把你至少简历上不要输，然后你在面试的时候或者你在准备的过程中，把你自己独特的东西放进去。我我我个人对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>聊到这儿，我突然又有一个想请教狗狗的问题。现在其实以我就是我之前我想找工作，我是应届生，我当时是做了一个自己很有想法的项目。然后自己对就像你说的，我自己知道我自己项目想做什么，然后里面有什么价值，而且别人也没做过。所以我就很自信在面试的时候讲我的项目。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是现在AI来了。理论上来说，就我自己都感觉我很多初级的代码。就比如说你是搞一些CSS效果，你都可以跟AI直接prompt说，对它会返回一个非常完善的对那个television的CSS的class，然后你加进的那个对项目里就好了。对，copy paste的完全work。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>作为一个应届生，一个没有经验的人，他去找这个junior的，比如说前端工程师，那他真的跟AI都竞争不过，现在这个情况是就很难跟真人竞争，我感觉然后其次是就你说的那些简历上的项目，以前我们还能靠github去就像我那个项目我就上传github，然后去攒一些star。对，这个是一个比较好的指标了。就告诉大家说我攒了多少个star然后在product hunt上面排名多少。对这东西但是现在你你你大部分都是用AI，所以你很多东西都不用github了。就现在大家去github contribute代码的热情都没以前强了。因为很多代码你用AI都可以。为什么我要去找一个开源的项目，或者说我做一个开源项目？你甚至问一下AI它直接能生成一个开源项目出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在的挑战都在这里，你觉得有什么办法？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>好问题，我其实坦白说AI这一波我没有特别成熟的想法了。我也许唯一能想到的就是说同样是AI可能大家prom出来的东西不一样，也许将来也会变成一个非常重要的技能。但是除此之外确实我这个不光是我我觉得这个不光是我回答不了了，现在大家都在，比如说不光是找工作，你比如说现在的是什么学校，那些毕业论文很多不都是AI写的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在大家都要回答这个问题，我觉得现在暂时还没有答案了。我觉得暂时还没有特别好的答案。我没有看到特别好的答案，但我觉得至少但我觉得同理了。如果你提交上来，就是你呈现在面试官面前的东西，是也许同样是相同的东西，但一个是AI生成的，一个是你真正亲自写过的，我相信你能讲出来的东西不一样。也就是说你可能第一关大家都过了，那第二关大家还是要你懂吗？有没有本事？对你还是要你还是要说说的出来的，你还是要有你自己的心得的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前我看一篇文章，他说之后的这些技术面试应该转换成考察这个人如何使用AI编程。但我觉得这是比较理想的看法了。因为你看google出来这么多年，我们到现在面试还不能google。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是你知道现在有的人面试都作弊吗？你知道他就把你面试官的语音，很多现在都是线上面试，他把你面试官的语音就实时的用他的ipad，我给那个ChatGPT ChatGPT实时的给你返回答案，然后他就按着那个念就好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得其实之后面试就让面试的人用AI，但是我要看着他用，然后他生成出来之后，我就会问他，你觉得生产出来这个东这段代码会不会有什么风险？</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就变成另外一种面试的方式了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，现在真的是一个挑战。我觉得这个出来之后，AI出来之后很难回答我拥抱变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>变化保持关注我觉得这种问题我们每年都可以聊，每次聊可能都不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们应该专门讲一。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为什么还没开始聊deep sick.</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我们我们怎么用AI编程之类的。最后我回答这个问题的最后一个问题了，就是其实找工作还有很多技巧，刚才简历只是其中之一。然后他提到了比如说跟学长学姐network，但是他觉得帮助并不大。就是我想问两位，除了比如说除了简历，然后还有什么其他方法增加你找到工作的可能性呢？我觉得其实跟学长学姐network是一个非常有效的方法，但是我不知道为什么他觉得帮助不大可能是方法，需要是不是改进一下，然后还有什么其他方法，欢迎两位献计献策。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>看看情况。就是说netbook帮助不大，有很多种可能。一种可能是可能他network已经足够大了，就是net tork不是它主要矛盾，这也这这这也有一种可能。另外一种可能就是可能有了学姐学长的帮助，这个network还不够大，这也有可能。所以我觉得这个很难讲，我觉得这很难对，但总体上我觉得network肯定是加分的。如果你需要拓展你的关系网的话，你就去拓展关系网，他肯定会帮到你。如果network不是主要矛盾，比如说你认识人足够多了，你能够得到很多公司了，但是你的能力没有到，那这就是另外一个问题了。所以我觉得这个比较有道理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，我觉得这个只是假设，假设就是咱们来假设一下，或者说你也许能力也到了，但是面试上你需要一些技巧，对吧？需要一些与人沟通的基本的一些对，所以这个比较难讲，就是面试没成功有有很多种可能，甚至都可能不是你自己的问题。比如说这个公司今天觉得你合适，明天觉得你不合适，或者他要裁员了，他也不告诉你，你就觉得我怎么找不到工作，是不是我自己哪里有问题，这很难讲。对我觉得这很难讲，反正你再有。但我从另外角度讲，就是说市面上那么多工作，你只要找到一份就成功了。你所以你不用抱抱抱着一个公司或者一个机会在那里纠结，对吧？对你只要找到一份就可以了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好像找工作我不会去想这方面的方法论。但是我不知道其实他所指的network是人脉的意思吗？还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对，应该就是找人推荐，或者有一些工作我自己都不知道这份工作存在。或者就是说有些公司可能有推荐的话，就可能相对比较容易一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得其实我可以给的建议是不一定从身边的人找，我觉得可以通过网络建立我认同这个影响力，也是挺好的一个方法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前好像读过一篇文章，叫花十年时间面试一个人。大概讲的就是你要从很久之前就开始build your reputation.</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是OKOK。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你要建立自己的影响力，建立自己的个人品牌，做好你的博客，做好你的博客，然后写一些文章，写一些开源代码。这个是长期的积累了，就不是说你靠一两个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为你看很多，你看现在社交网络上的人有很多比较怎么说呢？比较多关注的人，其实他们如果要找工作，其实喊一声估计也很多。对这些机会，但这些是需要慢慢去建立的。我觉得刚好从大学开始是个不错的开始。因为你看我也是高考之后开始写博客的，我都我写了十年11年的博客，这个reputation build十年，我觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像也。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说得通是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，能能理解。其实你就看推上面很多找到好工作的那些应届生，他基本上他们都是很早之前就开始有自己的博客，然后发自己的技术文章之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实这也是一种如何去主动的建立一种不公平优势的方法。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个书里不是写了吗？就我们所聊过的那本书。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>软件软技能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他其实就写了。最好的工作是他自己找上你来，而不是你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的对对我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得无论是在哪个方面，也是对通过建立这种不公平优势，是对自己的这些找工作什么的是一个很好的需要去做的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实还可以补充一下，在美国找工作，其实美国找工作跟国内我觉得差别还蛮大的。美国首先他挺依赖线上的，然后第二是他找工作流程，就是面试流程都尤其是那些大厂是大同小异的。不像国内好像你比如说里面腾讯跟面阿里，其实两个面试的感觉面美团这些每个大厂都不一样。但是在美国你好像只要刷题刷的足够多，大部分是一面、二面、三面、四面、五面，其实都是类似的套路。对，这是第一点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第二点是其实他提到network，我觉得在美国network真的超级重要。就是你很多人你看他linked in上不停的群发消息，他也是在network。然后我自己都收到很多想找我内推的这种。但是有的是你就很明显你觉得这个人值得帮助，有的人就他说那些话你就不太想帮他的那种感觉。所以我觉得network在美我超级重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你混圈子，首先你可能你先要找到一个圈子。就比如说因为太多组织了，在在美国这边大家都流行加入一些club或者说group然后organization就是你自己加入这种各种东西，然后你看你能contribute什么。然后每次你的contribute不要以为是就是好好多人他在里面，你感觉他在无私的奉献，其实他每次做任何的贡献，其实都是在慢慢积累自己的reputation。然后但凡有机会的话，他肯定会优先考虑这个奉献了的人，肯定不会考虑说你只是进来混个名头的这种人。所以你既然决定要加入一个组织的话，你一定要想清楚就是你你在里面能贡献什么，还有愿不愿意发自内心的想贡献。这个在美国大家都都比较看重这个，就是你在一个组织里的处理关系跟组织能力，还有领导力，还有这些就各种东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后第二就是刚才说那个线上network，我感觉我收到这种来信可以分为大概两类。对，印象好的我就不说，印象不好的那种没礼貌的，就是直接上来就能不能内推一下。哥，然后我我我说你谁？是吧？我说我都不认识你我说能不能介绍一下你自己，然后也不说话，直接把简历甩过来推一下，谢谢。我当时懵了，还有这样的人，对，然后就不太想推。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后印象好的就大概分成两种，一种是比较真诚的，你能明显感觉到他跟我聊天比较轻松，然后他就做自己。他可能他发了1000个人，正好匹配到我的时候，他跟我聊的比较来。那那既然聊得来，我也愿意给他推，因为他很真诚。他就说我现在比如说什么技能确实比较欠缺，然后我的优势是什么？OK你看能不能在这方面，你就是你有什么匹配的职位，告诉我，如果没有的话，我也感谢你，我觉得这样就非常好。对，那还有一种就是专业的那种专业派的吗？就是根本看不出这个人的个性是什么，根本看不出来，你只能收到他非常官方的内容。OK business english.</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后他说的很长，就像AI一样。对，然后看完之后我觉得这个人真的非常专业，简历又特别优秀。然后行，那我帮你推一下，你回复了一个很短的，他说我已经帮你推，他说我靠又是一长串英语过来，非常的那种professional的英语。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后OK好吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这种专业派对虽然他打动不了你，但是我会觉得他这个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常训练有素，很很有野心，很很有很有power的感觉，我会愿意帮他OK我其实我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>想补充一点，就是说这个network也不一定从熟人开始。或者说如果你周围没有特别怎么讲特别大把的人脉，我们也可以索性就通过一些中介机构。现在这些也有人才在，人才中介这些也可以。就是我觉得都有，大家都有各自的办法。如果你周围刚好有朋友可以帮你把，这当然是最好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但如果找猎头也可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，通过猎头，通过一些叫什么现在有很多什么什么thailand marketplace什么之类的，就有有有那些机构，我偶尔也会收到一些他们推荐的那个邮件。也可以，或者你就在link上找。其实刚才kick plus提到了两个是我认为非常重要的点。第一个是你可以在link上找，直接找。然后你如果遇到合适的，你就买一个月的那个premium账号，你就可以发email，你就直接联系。比如说你看上一家公司。那家公司大概率他那个HR就在林垦上，你就找到这个人，直接给他发email，把你的简历递过去，这是完全可以的。这个钱花的绝对是值的对第二个我觉得刚才give plus提到的，他一句话就带过去了，就是你要刷题，这个其实挺重要的。对对对，你题刷到我周围的人，题刷到100道以上，基本上就很有自信了，基本上面试是不会吃亏的对呀对，我其实找工作了，我也刷题。对你刷到一百多道，你自己那个自信油然而生，真的就一秒书读。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>书读百遍。对，就是刷百遍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，都我你就要问我，就我就是这些我觉得最最简单的建议就是把题刷够，对吧？然后去linkin上发email也许就够了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为提到这个，我我我还想到之前看一个视频，他说怎么怎么使就如何让别人愿意帮你。他说其中有一个观点是这样子，方法对，一个方法是这样子，就是为什么一些可能你觉得是大佬的人他会来帮你，其中的一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>原因就是帮年轻的自己是吗？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果他你让他觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也好像听到过这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就像他你让他感觉你就像他当年的自己一样的时候，他就会愿意主动的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>来帮同理心。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得很有道理。对，是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>包括有时候其实我我在一些线下的活动见到一些我们的后辈，就可能刚毕业的那些人。然后有时候我会接触到一些确实能在他身上感觉到很有那种passionate人，你确实会很想要主动的去帮助他的。所以做一个有passion的人我觉得也挺有帮助的。你会这种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人自然都会对，那你肯定有python你自然会就会感觉他的自驱力很强，这个太正常了。但是我就聊到这个，我突然又想问Randy，其实我不知道你有没有这种感觉，就是你如果再大一点，你会觉得说就是你有这个责任去帮助年轻人，或者说这个是一个必须要做的事情，而不是说我只是看他很有潜力，我就或者说他他有热情我就帮他一下。而不是说而是到了一定年纪就变成了这是我应该做的，我就应该去帮助他。我觉得你还你是不是还没这种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我会有这种感觉我会有这种感觉。一开始是发生在可能我在工作了四五年之后，我觉得我工作的内容已经一成不变了。这个时候我觉得自己可能就是当我觉得好像我的工作内容已经一成不变，也没有什么个人上的可以提升的空间的时候，我就会开始觉得是不是应该做一点可能。因为当时也刚好去接触了一些我们的下一届下下一届他们刚做刚过来工作的这些人，然后我自然而然其实也会有想要帮助他们做一些事情。倒这倒不是说我想做manager，但是我会有一种感觉说，我看到他现在做的事情，好像我当年也经历过。我觉得我知道他们需要什么样的帮助，所以我是很希望可以在这种情况下面能帮助到他们。因为我这有点像为什么这些有一些名有一些歌星或者什么艺人，他们做到一定的程度之后，都会变成开自己的艺人公司，然后去签不同的艺人，去捧他们旗下的艺人。我觉得也有点是这个感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那不是为了变成资本吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也有一个其中的原因是这样子。但是你其实有某一个角度来看，可能也是因为我觉得我每一个人总会达到他这一辈子的天花板。OK那到了这种天花板的时候，可能就会自然而然就会想说，我一个人的力量其实是不够的。我即使再怎么样，我也是这样子。但是如果我可以把这一些经验或者说知识分享给需有需要的人，可能他是一个十倍100倍的对这个世界有好处的事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我刚才那个问题的感觉就跟他们应届生要去找学长学姐network一样，我们也应该找年轻人去network，是这个感觉。因为我之前看了一本书，书名我忘了，好像大概意思就是如何获得高质量人脉，大概就是这个意思。英文名可能就是说或者高质量的network。然后其中有一张是说如何跟年轻人network，好温柔。然后它里面就提到一个很有趣的观点。首先就是作为一个有孩子的人的话，你是必须要跟年轻人去network。这个最大的好处就是他说你要找比自己小五岁，比自己小十岁，比自己小15岁和小二十岁的人去network，这是有个年龄差的。他不是说你看到他年纪你就要去network，而是说他大概率你要找这几个年龄段的人去network。首先他第一个好处他提到了，就是说他会帮助你的孩子。就是你的孩子将来需要一个年长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的领悟OK这样你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在之前培养好的net.</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>前深谋远虑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就能让你孩子也加入到这个network里。然后这样一代一代的就是你你你有mentor，然后你的孩子有matter，然后这样的话就是一代一代就会有一个传承。就包括你想你你到70岁的时候，你孩子可能是大概40岁，然后他他还需要一些成长可能，然后到但是你70岁他已经不听你的，或者他愿意听一个比他大五岁的人，你知道吗？这个时候你之前交过的交交往过的那个比你小15岁的那个人，可能就能提出提供一些帮助了。你然后他说这样第二个好处就是说年轻人会到了一定阶段之后会反哺自己。因为你已经跟不上时代了，然后你需要跟年轻人去交流更多新的思想。这样你跟你的孩子也有话题，你跟年轻人也会有有话题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对你自己也会错误。前面那个还好，这个我感触比较深。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我当时就被这两个观点，因为我从来没想过这个问题，我是自己有了孩子也没想过这个问题。所以我当时看到的时候觉得震惊了，还还要还要为自己的孩子培养人脉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>惊呆了。也许你想多了，小孩长大之后不一定OK我，我懂你的意思。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我就说可能Randy还没这个感觉，但是可能狗狗说不定有有一些这种等等等。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Randy有这个感觉的时候，我们代码之外就会多一个人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>挺好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谢谢各位听众。以上就是本期节目的全部内容，欢迎给我们点赞、转发和评论。想订阅我们的节目请在小宇宙、苹果播客、哔哩哔哩和youtube搜索代码之外，也欢迎您在爱发电或以上任意平台给我们打赏。想提供任何素材或话题，欢迎通过show notes中的听众来信链接给我们提问，我们下期节目不见不散。</p>]]></content:encoded>
-            <pubDate>Sun, 27 Apr 2025 02:25:33 GMT</pubDate>
-            <guid>680d955f7a449ae858e57ce3</guid>
         </item>
     </channel>
 </rss>

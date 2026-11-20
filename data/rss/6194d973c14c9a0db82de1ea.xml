@@ -4,7 +4,688 @@
         <title>代码之外 Beyond Code</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6194d973c14c9a0db82de1ea</link>
         <description>程序员聊聊代码之外的事。</description>
-        <lastBuildDate>Tue, 17 Nov 2026 10:48:02 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 20 Nov 2026 09:41:34 +0800</lastBuildDate>
+        <item>
+            <title>不聊 AI 实在不行了！不看代码，卸载编辑器！AI 时代到底该怎么做产品？2026 年底的 Vibe Coding</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6afe7e78fe62f8f52c4d7471</link>
+            <description>如果现在有一个 App 点子，你会先找 AI 聊需求、在 Figma 做原型，还是直接写代码？GeekPlux、Randy 和勾股各自拆开自己的工作流，从设计系统、可运行原型、代码审查和单元测试，聊到模型选择、手机远程开发和 subagent。也聊了哪些活适合交给 Grok Bot 跑，哪些事还是得回到本机看一眼。
+做出来之后还有一串问题：Web 怎么部署，iOS 上架要备哪些截图和多语言资料，只做给自己或家人用的 App 又该怎么发？我们也拿 Nowdex 和 TestFlight 举例，聊聊定制一个软件变容易之后，开发和分发会发生什么变化。
+本期主播：GeekPlux、Randy、勾股
+内容索引
+00:00 开场：有了一个 App 点子，你怎么开始用 AI？
+03:20 从需求讨论到设计迭代，怎样让 AI 先做出几版方案
+08:56 为什么用 Figma？设计系统、Make 和 Claude Artifacts
+13:26 Web 原型转原生 App，哪些设计细节容易丢？
+18:20 不同工具和项目怎样共享上下文？Grok Bot 怎么接维护
+23:20 从 Xcode Cloud 构建聊到运维和重复劳动
+25:57 现在还看代码吗？自己做的编辑器和浏览器怎么测？
+32:21 单元测试、AGENTS.md 和项目规则要写多少？
+38:55 模型怎么选，推理强度和 Token 用量怎么取舍？
+44:12 App 图标、生图工具与 Computer Use
+52:00 离开电脑继续 Vibe Coding：手机、远程控制和云端 Agent
+56:41 上下文怎么接续？Web 原型、Windows 和 Mac 怎么分工？
+1:06:12 人能同时推进几件事？什么时候值得用 subagent？
+1:10:55 从开发到发布：Web 部署、App Store Connect 和多语言资料
+1:18:14 Mac mini 空间不够，为什么有些任务还是得放在本地？
+1:22:26 三个前端程序员为什么开始做 iOS App？
+1:28:26 以 Nowdex 为例，聊个人真正愿意每天用的软件
+1:31:24 一次性 App、个性化软件，以及把作品发给家人的门槛
+1:38:52 结尾：也欢迎分享你的 Vibe Coding 经验
+代码之外 Beyond Code 是一档由 GeekPlux、Randy 和勾股共同主持的程序员闲聊播客节目。
+节目地址：https://beyondcodefm.com
+视频版在 YouTube 和哔哩哔哩搜索「代码之外」。
+欢迎在 https://forms.office.com/r/RknWt97QPL 来信。下一期听众来信，会拿来信和大家聊。B 站私信也收。
+来信和商务合作也可以写到 beyondcodefm@gmail.com
+欢迎在爱发电赞助我们：https://afdian.com/a/beyondcode</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<p><strong>主题概述</strong></p>
+<p>这期节目录制时点被明确为2026年11月，三位以开发者身份交流的人围绕“AI时代到底该怎么做产品”展开，从产品idea、设计驱动开发、FIGMA与cloud artifact的取舍，到实现阶段是否看代码、agent MD怎么写、模型与effort怎么选、cloud/remote control与多机器接力、grow bot承接运维运营、APP发布与iOS/TestFlight，再到99刀Apple Developer Program和“pro版本操作系统”的产品观。发言人2（对话中被称为Randy）分享了APP运营、ASC发版和grow bot自动化，发言人3分享了自研浏览器/编辑器、多session接力和对cloud artifact的批评，发言人1多提问并谈低配mac mini、个人APP和教家人用AI做网站的经历。</p>
+<p><strong>关键要点</strong></p>
+<ol>
+<li>
+<p><strong>流程从“需求—技术选型—实现—微调”转为“设计驱动开发”</strong>：发言人2现在会通过MCP让模型连FIGMA，聊完需求后先出2—3套UI/交互方案，比较A/B/C并融合，审文案、画corner case，满意后再实现。他的判断是“AI画图要比写代码花的时间要少一点”，因此可以先用较快时间确定产品大概长什么样。原话：“我现在完全就是设计驱动开发。”</p>
+</li>
+<li>
+<p><strong>FIGMA与cloud artifact各有取舍</strong>：发言人1认为cloud artifact已有design system/tokens，也能跑原型；发言人2保留FIGMA是因为component、design system和设计资产能在同一文件里管理；发言人3则指出cloud artifact是“双刃剑”——web based会让native APP被强行转成web版、自动降级，而且“能跑”会让演示假设和真实产品逻辑混淆，甚至可能把反复prom产生的垃圾代码带进生产环境，FIGMA的界限更清晰。原话：“这个能跑其实是双刃剑。”</p>
+</li>
+<li>
+<p><strong>实现阶段基本不看代码，只看配置和文档</strong>：发言人3只看配置文件、markdown、yaml、json；发言人2会快速扫一眼改了什么、文件怎么组织，重点抓“漂移”和明显错误，比如做AI agent产品时发现模型“用正则表达式去猜测用户的意图”。深度逻辑不再逐行看。测试主要靠模型自己写测试、每日使用报bug并积累test case，直到用法稳定、bug report曲线不再陡增，才接近0.8/0.9的发布前夕。</p>
+</li>
+<li>
+<p><strong>agent MD越写越短，甚至不写</strong>：发言人1从按OpenAI/cloud官方文档写很多，变成只写五六行、十来行，认为模型升级后很多规则不必再写；发言人3“从来没有认真写过那个东西，我也没看过”，只有一个系统级prompt里一两句，比如“使用PNPM，不要用直接用NPM”；发言人2的node dex的agent MD有53行，包含translation reference、FIGMA文件link，以及“user experience / agent experience”等principles。发言人3原话：“我积累agents点MD的速度可能都不及模型自己进化的速度。”</p>
+</li>
+<li>
+<p><strong>模型选择高度集中在ops 5.5 medium</strong>：三人主力都是ops 5.5 medium；发言人3在关键路径、前期探索或开放讨论时用vivo 5.1 high，但认为最终结果与ops没有明显差别；发言人2试过vivo 5.1，觉得“又慢”，效果差别不大，所以一直ops 5.5 medium；发言人1从high切到ops 5.5 medium，特别重要任务才拉高。三人都没有把code x当写代码主力，但认可code x生图和computer use。发言人1原话：“ops 5.5简直是人类之光，不对，AI之光。”</p>
+</li>
+<li>
+<p><strong>grow bot/glow bot承接1.0后的维护与运营</strong>：发言人3的做法是1.0之前用cloud code反复碰撞迭代，1.0之后转入维护期就交给grow bot做小修小改，并在GitHub上建跨仓库project追踪issue和PR，其中一个bot专门看看板；发言人2用grow bot接APP Store Connect CLI发版提审、监控APP Store评论并自动提PR到landing page、连JSC和goole analytics做SEO监控与关键词分析。发言人2原话：“运维的价值……在于你知道看什么，你知道决策。”</p>
+</li>
+<li>
+<p><strong>cloud/remote control与多机器接力成为实际工作流</strong>：发言人2把任务分为完全本地、本地+remote control、完全cloud agent三层，cloud code的remote control痛点是“没有办法在手机端开启一个remote control”，只能在现有session里做；发言人3的浏览器项目同时有cloud session、Windows session、Mac session，两个session之间可以直接通信，Mac先写共享逻辑、Windows再接UI，1.0后一级一级接力给grow bot。原话：“他们两个session之间可以直接通信。”</p>
+</li>
+<li>
+<p><strong>发布环节已经高度自动化</strong>：发言人2用APP Store Connect CLI（ASC）让agent上传截图、多语言description、metadata、change log并提审；FIGMA做多语言截图可以“直接复制粘贴”，省时间省token；web项目则把部署平台通过MCP连给agent。发言人3还在TestFlight填表阶段，并发现浏览器上TestFlight public beta要额外填一堆表，因为浏览器权限更高。发言人2原话：“一句话就可以让他把你的物料上传到absolute。”</p>
+</li>
+<li>
+<p><strong>99刀Apple Developer Program被重新理解为“pro版本的操作系统”</strong>：发言人3说，以前开通会想着回本，现在更像是“花99刀1年买了一个pro版本的OS”或“养了一只很贵的龙虾”，目的是武装自己的iPhone和Mac、定制自己想要的APP；他预测以后大量APP是做给自己或小范围家人用的，TestFlight这类私有分发平台需求会变大。原话：“以后很有可能……绝大多数APP都是做给自己的。”发言人1则用教太太做网站的经历说明，从“能跑”到“上线”之间仍有巨大概念鸿沟。</p>
+</li>
+<li>
+<p><strong>对模型和平台的判断带有明显时效性</strong>：发言人3说“你如果早三个月问我，我是完全另外一套流程”，很多skills、流程和护栏现在都拆掉了；发言人2说claude 4.6“多惊艳”，4.7“就一坨屎”；三人对vivo 5.1有“饥饿营销”的怀疑，对code x写代码普遍负面，但承认其生图、computer use和UI/3D理解有优势。</p>
+</li>
+</ol>
+<p><strong>独家细节</strong></p>
+<ol>
+<li>
+<p><strong>“被X说ultra深深的伤害过”</strong>：发言人3说，模型不行时“你那个程度调的越高，他错的越离谱”，token还哗哗掉；发言人2接“我也被阿全伤害过”。这是节目里非常情绪化的真实使用体验，也解释了他们为什么集体转向ops 5.5 medium。</p>
+</li>
+<li>
+<p><strong>手机上看设计图像“批阅奏折”</strong>：发言人2说自己在手机上看cloud返回的设计图，“就像批阅奏折一样”，“滚滚滚滚滚看一下”，觉得不错就批“按照这个去实现”。发言人3接“无本奏来，无本退朝”，发言人2说“做皇帝的感觉”。这是典型的播客现场即兴比喻。</p>
+</li>
+<li>
+<p><strong>教太太用AI做网站</strong>：发言人1给完全不懂程序的太太演示20刀code x可以开发任何想要的网站，最后太太做出一个只能在local host跑的网站，并追问“别人能用吗”“什么叫上线”，解释很久仍不理解。但发言人1也发现，每个人都有把自己做的APP分享给别人的欲望。这个私人故事把“AI降低门槛”与“上线/分发仍有鸿沟”讲得很具体。</p>
+</li>
+<li>
+<p><strong>录节目用的浏览器和编辑器都是自己做的</strong>：发言人3说“我现在连浏览器都是自己开发的”，此时此刻录节目用的浏览器就是自研；编辑器也是自研，只用来改配置文件和看markdown，自称“爱不释手，我已经没有办法换到别的了”。他还研究过浏览器发布到应用市场的成本，发现“没那么简单”，TestFlight public beta也要额外填表。</p>
+</li>
+<li>
+<p><strong>X premium意外影响X广告效果</strong>：发言人2观察到，很多人为了用grow bot买X premium，而premium会减少广告，结果“大家看到的广告就很少了”，影响商家在X投广告的效果。他质疑马斯克如何权衡这个商业决策。这是对话中自然流露的、公开报道里不常见的产品/商业观察。</p>
+</li>
+</ol>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们来等一下，今天还聊听众来信吗？如果不聊的话，我其实想问你们，你们怎么用A.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>I也可以，也行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>谁先来？软件先来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做产品怎么用AI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就你现在在用哪些工具？你的IDE还用吗？你的editor还用吗？然后你平时是web coding，是怎么web coding？然后你还有PR吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你还有你的AI组合是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你还有CICD吗？然后你还有连接哪些服务，就是这一套。你的整个的流程是什么样？就先从你有一个idea开始。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在我其实分分两个部分，一个是日常的生活上的AI一种是干活方面的AI确实我也是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这两种场景。勾股。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我差不多，我是一半编程，一半就是robot和cloud code。说白了就是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也X已经被你遗弃了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也不用code .</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>x什么被遗弃。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了code x你们都不用code x了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>剩下的是这个加分项。比如说code dex可以帮我剪片子，就是这些computer user生图这些花里胡哨的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以codex可以做，所以而且做得很好，所以听起来就是特定任务，特定的A.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>I我留了一个非常便宜的套餐，就是遇到一些非常特殊任务的时候会交给codex OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那如果会交给ChatGPT.</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也不一定是codex。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果这么问，比如说你有一个现在有一个产品idea，你想做一个APP，那下来你接下来会怎么做？是跟AI先讨论，还是自己先画图设计还是怎么样？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得在当下我就会直接从cloud code开始。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你就直接开我就会。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>从这直接从讨论ID2开始，就就从cloud code开始。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就跟他对你你会讨论需求是吧？想法就是比如说你想的功能有这些。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我得说这个只是就是我在今天，比如说我们现在录节目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>2026年11月。对，因为时间说说好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，时间说说好。因为你如果早三个月问我，我是完全另外一套流程，而且我会加很多流程。就随着模型的进步，很多流程或者很多我之前还用了一些skills什么，现在都不需要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个全部都拆掉，现在没没必要用skill。那。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>Randy.</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也没怎么用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>skill.</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前你不是还跟我私下聊的时候说，你会用那个fig吗？不对，现在是你先有idea了，你还没到设计的阶段，你会跟他聊需求吗？就比如说你觉得哪个功能将来会有这个product market feet这种做产品的话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可以详细聊一聊我现在是怎么用AI做产品。现在因为我发现最近有挺多人问我这个问题的，因为我最近做的那些APP不是我我感觉我最近做的APP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟我以前做的APP小有成就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那种给找到一些套路的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感觉是不一样的。就是从UI上面，UX上面给人的感觉不一样。所以大家他们都会很好奇，我现在做产品是一个什么样的流程。你变了。其实我现我现在主力的模型是cloud。Cloud说实话cloud本身是一个比较高质量的token，跟跟跟t GPT跟口袋。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是你不要才艺，要这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>做节目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不要不要这样做节目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不行，我一定得好，就我一定得喷。Tragedy t0 16分真的是太太在二太浪费大家的精力时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是说一二年10月的时候，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说清楚我的极限，就是说他花里胡哨，我就不能再往下讲了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实个就是你忍不住骂他的那种感觉但是当然用cloud真的是要提心吊胆，这也是一个对，这个不重要了，反正我现在主力就是cloud。然后cloud它本身的设计能力就比code dex会好很多。但是你还是得去用一些prom去prom它它你才会得到一些在产品设计上面会更好的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我现在一般来说，我现在会变成了一种设计驱动开发的模式。以前我是很久以前，就是可能一两年前我的做产品的方式就是说我给他做一个需求，跟他我会不会跟他讨论，我会跟他先讨论，我跟他说有一个需求，然后你看一下这个技术上应该怎么去做选型，怎么去做这些关于技术上的东西，然后聊完之后我就会让它开始实现。然后当然我会固定它一些UI的框架或者什么的，然后他按照这个框架去帮我实现一个版本。然后他真正的把这个功能实现完之后，我再会跟他去沟通一些关于这个设计怎么去调整，就要有一些微调。以前是这么个流程，现在我完全就是设计驱动开发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么去设计驱动开发呢？就是我会给他FIGMA这个工具，就通过MCP让他去连FIGMA。然后我跟他聊完这个需求之后，我会给我会让他出2到3个不同的方案，UI上面的方案，交互上面的方案，然后给我去做选择。然后在prom上面我还会跟他说，用户在这个界面上他想要做的事情是什么东西。那他就去你就需要让他把他的交互设计成用户打进来，用户进来这个页面到他实现他想要做的事情，他所用的步骤应该是最少的。然后就是这些跟UX相关的这些框，他给我出了几个方案之后，我就可以去对照了，就参考他给出的方案。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有时候他他会给我ABC，然后他问我要实现A还是B还是C还是说A融合C那这个时候我就会仔细的去看他给我的一些result。然后有一某一部分我觉得可能A的这一个section它实现的是我喜欢的部分。但是C的某一个section是我喜欢的某一部分。然后我就会跟他说，你可能要把A跟C的某哪些东西融合起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一些细节，我觉得你这里的这个交互是不很奇怪的。因为他在fit码上面做设计的时候，他还会把文案给写出来。那我就会可以直接就看到他这个文案写的行不行。因为你知道有时候那些模型给出的那些文案是很很那个的。我就会跟他说，你这个文案不能这么写，你要怎么怎么比较直接的去去去表达还是什么的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他就会给我再出一个方案，再出一个方案我审，然后就这样循环一直审到他给我的这个设计稿是我满意的那我就会跟他说，那你开始实现OK。这个好处就是说AI画图要比写代码花的时间要少一点。所以说你可以可以把可你可你就可以用比较快的时间去知道，去确定好AI大概会做成什么样子。尤其是在UI上面，那那它出来的效果就会比较好一点。而且你知道做产品的时候有一个很很复杂的问题在于它有很多corner case。就比如说用户在这里可能会出错，然后出错的这个他有可能出什么样的错误。然后再出什么样的错误的时候，应该怎么去给他相应的错误提示。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你在设计的阶段，你也可以跟他说，你把所有的这些边缘的条件的交互和UI怎么展示给用户的都帮我画出来。那你就可以有一个很清晰的他下一步要怎么具体实现的一个大概的一个预览。然后开再开始实现，那出来的效果就会非常好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK好的，暂停一下，这个是实现之前，就设计的阶段。对，我有几个问题，第一是你在首先是为什么是菲格玛？因为其实cloud code它现在那个artifact也有这个功能。像我的流程跟你完全很类似。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就直接做web的原型图是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是，它有一个artifacts，它像fig ma一样，它是一个白板，然后里面有设计图，还不是圆形图。它它也可以当原型，它也可以play，就是直接跑起来。但是它它大部分是一个设计图，然后你可以在上面做一些标注，然后你每次的标注其实我也在用。对，然后你每次的标注不是可以发给cloud直接来用，直接来prompt。然后接下来就是当你用claud code，比如说在terminal或者是在任何平台，或者支持cloud那个客户端，它是可以直接读到它cloud的这个canvas的，就是它的这个设计的画布的。我所以所以我的疑问就是为什么要用FIGM？其实cloud也可以做一样的事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在是啊，我以前也用cloud artifact，我也觉得挺好用的。但是它的问题在于说，如果你这个产品是一个持续的产品，持续迭代的产品的时候，你需要有一个design system cloud。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Artic问题他也有他也有design system，就我做一个，比如说我现在做一个网页，其实我是让他把design system先写成一个tokens，它它叫tokens，我不知道中文叫什么是，但是它那个token是也其实也是一种artifacts。然后他会在这个artifacts里面把它用到的。比如说color，就是颜色的画板，大概有几种颜色，然后字体的大小、排版布局。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实你就是专门做一个design system的artifact.</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是它自带的功能？它自带的这个design system的功能就是cloud design system。然后他会把这个design system，我知道那个连到这个画布上面。所以我觉得菲格玛其实现在就是没有，我不知道它的优势是什么，它的独特之处。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>反正我另外你是用的FIGMA还是FIGMA make？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好像FGA是prompt版的，FIGMA, 他prompt完了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>OK因为那FIGMA反正我用下来这个，因为它有又有component又有design system，那这些我就可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>统功能比较多一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是他在同一个文件里面，我就可以更好的去管理这种设计资产。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以它的相当于它的这个space的这个功能比较好，就把所有东西放在一起。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那第二个问题就是你设计好，比如说ABC300它是静态图还是可以跑起来的。圆形在f gma其实也可以跑圆形是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>静态图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我可以加一些简单的动效，我印象中是动效可以加是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你比如说你的那些动那比如说你的那些corner case，就是你那些界面就是你在菲格玛里面设计好之后，你点击它里面的按钮，它会跳到你那些corner case的另外的设计稿吗？还是说就是纯静态图，你只是知道它长什么样这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是静态图，我知道artifact它是可以它它是可以有动态的交互的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，它是可以动。对，所以听起来我觉得RTRT effect好像更好用一点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我觉得静态图也还好，没有那么大的影响。它如果没有动态也没有那么大的影响。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在在那个cloud artifact里面设计完之后，我还会让他用假数据，我还不会让他真正的就把后端实现，可能是前端用假数据填充一下，然后实现一个简单的在我local host能跑的版本，然后我大概要用一下，自己看一下怎么样。我现在也是先设计，确实就是真的AI帮助很多。以前哪有时间想的这些，就觉得实现功能最重要，现在就是先设计，然后自己用着感觉看好不好用，然后再去实现后端。我是我是现在是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在对r defect的感觉是它是把双刃剑。坦白说绝大多数情况下我也用的蛮顺畅的。但是我觉得有两点，第一点是主要是因为它是基于web的，它是web based。然后web based artifice有什么问题呢？第一个就是说它它是web first，比如说你如果要设计一个native的APP，他会强行的帮你转成web版。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>懂我意思吗？就是对你你你看到的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是一个基于web版本的东西，很多native的东西它就帮你丢掉了，等于是自动降级了。这是在我看来的第一个问题。第二个问题是第二个问题是因为它不光有设计，它其实还有实现。因为你就是说它都可以跑了，导致说如果他在实现的时候，因为你反复调整，它可能产生了一些垃圾代码之类的。其实你看不到，因为它都在下边，你只关注表层，导致说你跟他说，我今天就按这个标准来实现，他我不确定，我猜他有可能一定程度把那些垃圾代码也带到你的生产环境里，他不一定是干干净净的给你带过去。因为FI gmma，如果你是把FIGMA的设计稿交给color code，或者交给一个coding一直让他写，他是完全从视觉角度去吸收了解，然后转换成干净的代码架构这样的。但如果你是web版的artifact，我对这个存疑，因为他即便我看了原，很有可能把这些垃圾东西也带过去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看了原，其实还好还好，我有设计一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为一不是不是因为你是web版的，不是你做的东西。如果是网易的话这个东西所以我说双没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也做了一个IOS APP OK就是我是做了一个展示我家孩子的所有画的一个APP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:08]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其中有一个那就看你这个东西复杂度了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其中我就在看这个东西复杂度，还有你反复调整的这个次数。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我就在举这个例子怎么样，就是我其实其中有一个动效，就是因为我们男孩子的话一般都是在一个文件夹里，所以我就想让他在IOS APP里面模拟一个文件夹。然后我就大概我的描述就非常的具体，就是它它是以这个A4纸的一边为轴，然后另一边顺着这个轴这样做一个180度的圆周运动，这是一个文件夹的核心理念。然后它有文件夹的皮儿，然后所有的话是在文件夹里面，在IOS上面上滑的时候，就是相当于把这个文件夹展开，然后下滑是合上，大概是这样的一个动效。然后他他真的做的很好，就是他用web去模拟的这个动效，然后还把里面所有的数学圆周运动，还有动画的这些公式都写好了。然后我看它实现的时候，就是具体在IOS的代码里，它是用那个呃swift实现的，就还可以。对他只是说在那个设计的时候，他是用了web版，而且他那个web版在RT fix里面还能跑，就是还挺挺牛的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是对我其实想表达的说这个能跑其实是双刃剑，就是它能跑有好处也有不好处。因为我遇到的情况就是我可能中间反复prom，或者有些东西我只是为了pro的type。我说我们这个地方这样其实是我基于这个原型的考虑，或者基于预览的考虑，我不是真正想把产品逻辑做成这样。他有时候其实分不清这个界限，他你你你说照这个做的时候，他不知道哪一部分是代码，就是哪一部分是演示用，哪一部分是真正的代码逻辑这样？但是如果是FIGMA的话，其实这个界限很清晰，你不需要刻意跟他交代，那你也用菲格玛，这个在我看来是有好处有不好处的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我说那那你也用fig法吗？还是我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>两个都用？但是我很明显的发现也不是很明显。我遇到几个case，就是他他把我当时我讨论原型的或者交互稿的时候，把那些假设条件也给我做进去了。OK当然我很快测出来，但是如果是菲格玛，我相信他不会这样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回头我也用一下FIGMA。对对对，那那我还有一个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有一个明显的界限，这个就是有好处也有不好处。因为它一个是一方面重构了，另外一方面它的假设和真实的需求，它有的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会混淆OK。然后接下来问题就是过渡到这个实现阶段，就你们实现会直接用cloud实现，还是说你们偶尔也会用glock boat来做一些事情。然后他这个设计稿是在菲格马上，因为确实如果是在RT fax上面，我的rock box是读不了artifacts，这个确实是一个问题。对，然后你们用菲格玛的话，我刚才就说这是有很大优势，就是通过MCP的话可能clock直接可以读pignone。然后关键是你这个产品其他的部分，就比如说产品的逻辑，然后产品的定位，大概你想要实现什么，你们是写到一个文档里，还是说就比如说你跟cloud这边探讨了一大堆，然后glock那边是完全不知道的，你怎么能让他俩互相知道呢？你们没有遇到这个场景吗？我经常遇到这个场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我我我我有我有你不是我在等专利。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>先说不，因为我不我不我不我不会用grow box帮我写代码了，所以我不其实我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也有这个问题，你为什么要用grow boss.</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我为什么要用clock boat帮我写代码？是因为对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我你已经有clock code的了，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能是因为我的mac mini这个配置太低了。就是我本地比如说我在本地写那个IOS APP的时候，他把我的内存还有硬盘都占很多。比如说他开一个work tree，然后直接啪一下几个G就没了。然后起一个simulator，就是这个模拟器，IOS模拟器，几个G的内存就没了。然后我导致我本地开发web的时候，这个效率就很低很慢很麻烦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以gb只是需要一台远程机器的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后group bard那边不是有一个现成的机器吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那cloud不也有cloud session，而且还送送免费的那个流量，是送免费的token.</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我现在就是cloud session，就是cloud code上面的cloud我也用，然后clock boat的那个computer我也用。OK这就出现了我刚才说的那个问题。就是同一个项目，我有的时候会在这个机器上弄，有的时候在那个机器上弄。然后你着急的就是三个地方可能你都在跑一些这个bug fix或者说OK feature。对，那你怎么同步这些，他们的像这种项目，我觉得有的是讨论，比如说你在就是你做的几个产品是相关的时候，那那我就是经常遇到这个产品我这个产品这个网站可能想跟那个网站关联一下。我在glock board上开发的A项目，然后我在cloud code里开发了B项目，然后我想让这两个网站关联一下，然后我让clock去读A的，只能读它现在的这个在远程的代码。但其实clock在其实cloud code在我mac mini上已经更新了一大堆，还没push而已。对，我会经常有这种问题，可能你们没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我我其实我其实有我其实有我现在的做法是OK我现在做法是基本上你可以通俗的理解为我一旦做了这个应用，发了1.0之后，我就会交给gog bot.</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是他就转入为相当于是对就是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>前期因为你需要很多思想的碰撞，然后需要很多反复的翻来覆去改，而且你不太需要跟别人协作，或者不会有海量的别人的意见进来。这个时候我会用code，然后他的做法是反正至少还是回到今天这个时间戳。2026年11月份，你跟他讨论任何东西，他都会直接记录成一个markdown的文档，或者多个markdown文档在仓库里。所以他天然就解决了。他现我现在不需要给他设置额外的skills，他自己会做。所以在我看来这个是个best practice，是个最佳时间。所以我们迭代的所有的过程，讨论的各种结论，每个阶段性的milestone它全部都会记在文档里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我一旦做出一个相对成熟稳定的版本之后，接下来可能转入维护期。比如哪些地方体验不好改一下，小修小改这些东西我就会交给goal bot。同时我会有一个我会在github上建一个project，它而且可以跨仓库的管理，追踪各种医学跟PR。然后我的gr bot其中一个boat是专门用来处理这个专门用来看这个project的看板的。我就将来有遇到任何问题，所有的可维护的项目全部都在这个project里面。我有什么东西要改。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就直接丢给他，我是用notion。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，因为这种他基本上改他他不会改的特别离谱，因为都是小问题。所以我也相信glock的这个能力，就让他改。其实也是为了稍微利用一下用不完的glock board里面的token。我感觉如果没有girl .</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>boat高考好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>如果没有gl bot我我就gl bot就直接高boss也。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我感觉我的glow boss都不够用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我girl boss就是帮我替我做一些本来人手要干的活。比如说我对我也。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我关联。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>了那个ASC，APP store connect CLI。所以比如说我开发完了之后，我可能要发版了，我就跟我gw bot说，你帮我把build GGG帮我提升了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他会操控你本地机器去发是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是，就是我在grow boss上面不装了一个A那个COMX，so connect那个CI.</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那蛮好的。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我我的我的构建是在XO cloud，所以只要我XO cloud不构建完了之后，因为构建都有版本号的，build 100这样子。然后build完之后我准备提审的时候，我就让global帮我把这个提审了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK那挺好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还会做一些他的场景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是这些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后比如说我会跟他，我会让他持续去监控我APP store里面的comment。然后这些common可以同步到我。当它接收到新的好评的时候，就有内容的好评的时候，让他自动的帮我提一个PR到我的learning page，把我把这个好评加到那个learning page上面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个不错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这些本来有人工要干的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个不错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后还有就是SEO的监控，因为我也连上了我的JSC，就是那个google search council，还有我的goole analytics，然后我就会让他每天去分析，然后分析有什么新的关键词的流量进来了。如果有新的关键词或者什么有个关键词的表现不错的话，让他去come up一些SO的idea。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就这件事情，专业上到了学习了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>gl boss只是适合做这样的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>写代码我觉得相当于我还是不太他适合做运维相关的东西。运维运营听起来是就是体力劳动的事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是琐事。那你这运维运营也不是体力劳动。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就有大部分的，我说实话就算有一些运可能有一些运维同学听我们节目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是体力劳动的部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>体力劳动我觉得这些听众其实也有很有体感。其实有很多工作上的运维的工作其实都是体力劳动。就有些事情如果你能用AI干你肯定想用AI干的。因为你运营的价值不在于说你你你自己上去这什么部署个docker，然后看一下这些东西。你的价值在于说你知道看什么，你知道决策，你知道这种情况下应该做什么。这才是运营的运维的价值，而不是上去每天都得自己去看，都得去顶对。既然现在不是现在AI时代的做法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好的，然后我们再聊回刚才实现的问题。那你们现在还看代码吗？好问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>已经说实话。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我会看配置文件，我会看markdown。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在只看配置文件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你还park配置文件和文档。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>kage到Jason .</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>markdown yma Jason这些。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>稍微看一看我不太。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以我们接下来如果有机会聊到我最近做的几个APP的话，其中有一个就是专门看这些文档的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>为了看文档专再开发一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>专门做了一个。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那现在不太看了，我现在不太看，但是我都会扫一眼，快速的扫一眼。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为有很多他改了什么是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，看他改了什么，然后大概看一下他他是怎么组织这个文件的。因为有时候扫一眼我会发现他有一些很明显的有一很明显的那种叫什么漂移。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是很明显。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的不应该做的做法。我也会发现比如说有时候比如说我做一些AI agent的产品的时候，我发现他有时候用正则表达式去猜测用户的意图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我就会发现，这种有的我在对话的过程中也会发现，如果一旦发现我会看，对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个也是。对，有有一些是他在对话中不会体现出来的。我大概扫一眼的时候问，这里为什么写了这么多？郑志飚老师，对，就是这种能很明显的看出来的错误，我我我都会看出来。但是这说实话我不会很深入的去看他的逻辑了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK我也不会看。第二个问题是你们还用IDE，还用编辑器吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不就我刚才做那个编辑器，我现在就只用那个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不用编辑器。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那那而且全平台的你们听有，你们如果有需求可以，我可以考虑发布一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你这个产品相对于macbook或者说任何系统自带的文本编辑器的优势是语法高亮优势。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是专门为你改配置文件和看mark服务。它不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它我任何一个，比如说我mac上面的text edit，就是它自带的那个都可以那你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你用的时候有痛点吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有痛点，我现在看的代码很少。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有任何痛点吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一点都没有。就语法高亮，它没有语法高亮。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>100分，100分？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有。我的意思就是他对，我的唯一痛点就是他没有语法高亮，其他真真没什么痛点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你看你说的出来吗？你只要说的出来，我就会做，我全做那不是我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在连语法高亮总会死，我总会我现在连语法高亮都不需要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我我也觉得，我其实这是唯一的非常小的我因为我看的代码很少，几乎都是纯文字。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没关系，我会找机会发布的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>发布了你们就知道了它的优势是啥，体积小还是快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是你能想到的我都会做，你不是，而且我都可以做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在我以后也可以做。没有，现在做产品的，我感觉就是对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>都能做。我就这么讲，你就我就这么讲，不说这个编辑器，你每天用的所有的东西，你只要用的够久，你总能说出来一两个你觉得还可以更好的地方。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就是做这个是，但是我我我知道我最开我经历过这个阶段。然后我现在到另一个阶段，就是我在做减法的阶段了，已经是我只做。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，做减法也是，就是你觉得这个太复杂，我就砍，我就砍掉了这个功能，就剩下你用的那几个OK，你不用打开找按钮或者找什么，这也是我做的事情。都是你说的每一件事情其实都是可以继续往下做的事情，包括做减法。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那等你发布，还是等你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>发布。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就知道大概是什么样子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是你不是问现在用什么编辑，我就现在用这个，用的我爱不释手，我已经没有办法换到别的了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟听友们说一下，让我可以告诉你我现在连浏览器都是自己开发的。现在此时此刻，他跟我们录节目的用的这个浏览器都是他自己开发的。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>太可怕了太。我说到说到这个我再多说一下，我分享一下。我确实是因为我本来以为做一个APP，比如说做一个像这个编辑器，做一个浏览器，你发布一下就是顺手的事情。后来我发现没那么简单。我最近研究了一下，尤其是我非常认真的思考了一下，我给自己外部的这个浏览器可不可以发布。就比如说像应用市场、应用商店之类的，我发现成本还蛮高的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不然我早发了。OK这个发布我们等会儿再聊，我们还是回到刚才那个主流程。就现在一个产品进入到了开发阶段，你们也不看代码，那你是怎么保证这个代码质量，还是说你就代码质量已经不重要了。你只看产品的功能跟这个只看功能能否被完善的验证，只看这一部分，还是说代码已经不重要，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得就像rudy刚才说的，比如说设计驱动就看谁驱动谁。你很难说它代码质量完全不重要，但是当你用的时候没有问题的时候，你也不用过度用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不用提早优化测试是怎么测试？你自己去把你所有的功能试一遍，还是你写的这种集成测试。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是断到我自己的话，color co本身就会写测试，而且现在程序越写越复杂。他测的流程。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他的测试是他要保证他的代码过的测试，他每次都会改。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他自己就所有的包括你跟他说过的每一个bug report什么他都会积累，各方面他都会积累。然后在这个基础上，因为我每天会用，所以在那种就像我刚才说的，在1.0之前，我可能是处在一个每天用，每天给他报bug，然后他每天攒新的test case的阶段。直到用到一段时间，我的用法稳定下来了，也没有什么陡增的那种bug report的曲线了。基本上在我看来就到一点，至少到0.8，0.9就发布正式版的前夕了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>稳定版的前夕了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以你们都在这个之前。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实一直是这个状态。那那Randy比如说Randy这种都上线了，直接给线上用户都卖出去了这种产品。那你怎么保证你自己的AI搞出来的代码没有把你之前的功能破坏了，然后还有保证持续的高质量的功能迭代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这个要分单元测试是一个单元测试是一个它能保证代码方面有一个稳固的比较稳固的基础。像no dex这种，可能他对于那种怎么去处理这个agent的接口响应的这个数据结构，怎么去pass它，这种是可以通过单元测试去保证的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是等一下这里稍微问一个快的快速的问题。比如说AI有一个问题，就是他完成了一个功能，然后他会fix或者一个bug，他会发现他的代码过不了测试的时候，然后他去改测试，不是去改代码。有的时候我很烦的用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>code dex。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有我都用，但是最终是一个节目。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这以后咋办？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个情况可能我觉得就是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>模型的关系OK或者说如果你发现了这个问题之后，你就我我我如果是我设定我的做法，就会对给他设定一个这样的那你们最。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>重要的那个文件就是agents.</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>到M.</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>D或者cloud到OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我其实我的感觉就是你随着模型升级，很多问题就你今天能说出来的问题，基本都是模型可以迭代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对所以我现在那个agents到MD越写越短，就是我不想设置太多的规则。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我从来没有认真写过那个东西，我也没看过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我很认就算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也是因为。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么讲，我最开始没觉得说的，后来我发现我醒来之后质量飞升，就是代不管是它迭代的速度还是代码质量都有一个提升。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你我我我是这么觉得，我觉得我积累agents点MD的速度可能都不及模型自己进化的速度。不是在这种情况下，不是我你等它升级就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我现在agent的MD大概就十行不到，就可能五六好像这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:29]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是我从来没写过，我就从来没看过这个文件。最开始我外空运到今天我从来没看过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我最开始就是我去读那些比如说OpenAI或者cloud他们的官方文档，就推荐你怎么写这个。他是要把里面，比如说你这个NPM in store，怎么in store，然后怎么build这些，要写这些有这很简单，我到现在都不写这些，我有这些现在都不用写，模型都太强了，根本他都自己知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>根本不需要那些。我有一个系统级的pro就是使用PNPM，不要用直接用NPM，就类似这样的，我可能有个一两句就一两句，真的，然后我一口气写完所有的项目都会这样用的，我就不用再管了。就这种我回想了一下，有就那么一两句就没了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OKOK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这些我基本是在限制agent的行为，我看了一下love dex的agent MD有53行，然后其中有一些是会有reference file file的。比如说translation这一块，我有一个专门的translation到MD因为有一些翻译我需要要求他可能比local一点，或者说有一些术语是不能翻译的。这些翻译的规则，它作为reference一个专门的规则，然后它有一个principles。另外有一些是比如说我会在里面写我FIGMA的文件的目文件的link是哪里。这样的话如果我不写的话，他每次都我告诉他在FIGMA上面去设计，他都不知道在哪个文件，就这些限制的。还有一些就是嗯比如说有一些principles，就比如他他有一句就是就是你要做每一个decision的时候，你要保持三个重点。第一个是user experience，use to develop experience. 另外一个is the agent experience .</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>o without .</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>thinking anything。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，OK.</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我有一个你说到这个我有一个特别大的好奇和疑问。就是因为我现在做项目，比如说用clo code做，他会写很多文档，就在dox那个目录下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>根据我的就我的感觉，其实你说我可以agent点MD什么都不写，但是其实我写了很多文档，这个在他看来是一样的。这有什么本质区别吗？Agent store MD是每次会加我的自己的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>agent store m我看了一下是加OKOK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我看了一下我自己的这个其中一个项目的agent DMD，我从来没有手写过，我发现是color co自己写进去的。他写进去了哪些东西吗？全部都是docs的那些reference，就是对，因为比如说principal你要看dox slash principal点MD然后architecture要看dox slash architecture点MD它它就全部支持。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这唯一的区别就是我刚才说的，agents到MD是会唯一强制每次都会读，只有他你写的在里面的东西，他他他才有reference OK对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我觉得还好，因为他没写很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且他你你那些引用的文件它也算的，因为它会一层层递归读进去。那你读进去，你的每次的context就很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那你你是你烧的token down的这个link是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你烧的token也很多，每次这样子。对，然后你的比如说现在模型当然很强了，比如说回到6个月前，它的模型的那个context是有上限的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你对这个叫现在的context，你就把这些mark都弄进去。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好像也还好，没什么意。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>都都弄就至少我用的时候，我没觉得有有那个需要精简。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>过早优化什么，只是说我就觉得对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有这个痛点。是现在模型我就从来没管过，真的从来没管过，模型太强了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你问这个问题我还愣了一下，这个还要管？六个月前确实要管，现在我真的从在很久没管过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK那我之前。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我还用过什么open space什么之类的。就是帮你整理文，就是定那个文档规范，怎么写文档，怎么做约定的那些算是脚手架，什么什么护栏我都拆掉了，现在我都用不到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那接下来就是最重要的问题了，听起来代码质量文档好像都不用操心，就是最重要就设定一些规则。那最最重要的问题就是你们现在用哪一个模型，然后你怎么你们的那个effort选了是high还是extra high还是medium就够了。最主要当然不同类型肯定不同的模型，我就想听一下你们到底主用哪个，然后什么类型的任务用哪个模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:14]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我现在主要的plan是cloud code，所以class code这个plan就是我总觉得他在搞饥饿营销，就是那个vivo的量要分开算。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我其实你用vivo，说abo.</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>说实话我没有觉得vivo 5.1比ops 5.5。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，这个不用说实话，大家都知道。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:41]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是对，但是他又专门有一栏说，你还有你的vivo 5.1还有这么多量，还有这么多token，而且那个token还很有限，用一用就用完了，很贵。对，不是你在plan里面反正都是token.</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是它，但是它消耗比较快，它消耗快。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对它消耗比较快，我总觉得有饥饿营销的意味在里边，因为我觉得通常情况下ops 5.5是够的，即便它中间稍微偏一点，它自己能找回来。所以最多是说他自己走点弯路，但是结果上来看你还是能拿到的，而且通常他的token消耗是少的，当然遇到一些比较关键的，在我看来是这个关键路径。我的应用的这个关键路径，尤其是在前期探索，或者说需要一些开放讨论的时候，我会优先选择favo .</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>5.1OK他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:27]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能少走一些弯路，但是在我看来跟ops最终给我的结果，我在我看来都是可信任的。至少以我的我这个人类智商来看，没有明显的差别，我看不出差别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你的effort选的是什么？Medium还是high？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是我就用它默认的vivo 5.1的话就是hi，然后ops 5.5就是medium。但是同样的就是我我可能就是有一个脑袋里面有一个报警装置。我一旦觉得这个也就比较关键，或者说我觉得这个是要有什么take IT seriously，有的时候我就会把那个那个强度稍微拉高一点点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>通常情况下我就用它默认的。那那Randy.</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我就是用ops 5.5。然后因为我尝试过用vivo 5.1，我发现vivo 5.1又慢。然后出来的效果我觉得跟open 15.5好像也区别也没有很大，所以我就一直用opens 5.5 medium。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是对我最近刚我最近刚切到oppos 5.5 medium。我之前大部分时间时间绝大部分时间都是嗨，然后特别重要的人物会X说嗨一下。然后vivo 5.1在我眼里就是我试过几次，反正效果都不是很好，我也不知道是任务的问题还是它模型的問。后来我就不用了，彻底对我就这能省下来，这个是token，我都用ops 5.5，ops 5.5简直是人类之光，不对，AI之光。你看我们三个都没有提code x那边模型基本上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我来说，你我本来不想你经验，我是被extra没有，我是被X说ultra深深的伤害过的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也被阿全伤害过，所以我刚才才在喷。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我被他的out ultra这个强度深深的伤害过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你们赶紧说，我就发现让听友开心一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我发现如果这个模型，我我是我我主要是想把节目做好，不行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没关系。我们只是说2026年时。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我发现如果模型不行？你那个程度调的越高，他错的越离谱。对，而且头盔还哗哗的给你干掉了。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我真是心痛。是的，你终于发现没错。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为我有一段时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且浪费时间，关键是心态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后你们两个知道，对，你们两个知道我有一段时间这个OpenAI送我plan，我就肆无忌惮的用了一段时间，我用出来了。对，所以是虽然我也没有什么特别严重的损失，但是我用过之后我就觉得office还是office 5.5，刚好现在那些免费的plan也结束了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我就切过来。我现在我的有一个账户，就是我有一个code x账户，然后它里面的流量就是token是无限的。但是？我用了astra还有saw 6.1。关键是我现在最痛苦的不是流量的，花了心的，是浪费我时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你知道吗？同样的一个任务，我用cloud code出来的效果，就是基本上百分之八九十达到我的预期了。然后你用code x你不管用它什么模型，不管用它什么的这个reasoning的这个effort？它出来的效果简直是让你生气。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是我等了1个小时就用东西，还是得用。对我我觉得我觉得我们还是正面的来评价一下这个code dex是吧？还是得用对他生图很好，我同样的需求，我比如说我想给我的APP画一个logo，画一个icon我同时让claud code跟i extra就是codex就是XGBT的。对我用extra去画，而且画的很好。真的我觉得是所有生图的模型里面主流的，这个也是画的最好。你有，而且他支持比如说帮你分层，导出摄像图，它支持的非常全。而且他今天好像刚发布了一个新的版本，连连那个动画都可以做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我我们之前刚才。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>讨论这个很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个很好。对，我们刚才讨论的主要是写代码。那现在既然聊到生存了，就是你对我我就想说你要用好用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，他他他那个不行，但是这个很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你有没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>讲的生图？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说到生图这个我也有点心得。心得就是大家不是说oppos cloud的模型什么都好，就缺GPT。那那这个生图的模型，我后来发现其实最好的做法就是你去找一个那种生图的接口中转站，然后把它写成一个skill，写成一个生图的skill。因为它有很多个模，就中转站能支持很多个不同的模型。把这个你你把这个中转站的接口的文档丢给AI然后让它写成一个生图用的skill。当你需要什么模型，什么的，写成一个skill，然后在cloud里面去用，让cloud帮你去生图，然后cloud就会按照就你不需要再写提示词了，你就只要跟cloud描述你想要什么样的图片，或者说你有一张图片你发给他，然后说我怎么我想怎么改，然后他就会因为你在skill里面你要写好啊，你要在写这个skill的时候，你要让这个AI去根据去自己去调研每一个模型的特点是什么，它适合在哪种场景。那你用这个skill的时候这个AI用这个skill的时候，它就会根据你的需求选择合适的模型，然后帮你去写一个非常好的提示词，然后你就能得到一个非常好的result。那相当于用的模型方面的经验。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相当于用的模型不是特定的模型，cloud只是帮你调用了一下。对吧？对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以说你就是不能局限在，比如说有时候有一些，比如说电商场景，可能他用那个banana pro会是最好的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后有一些场景比如。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>photo editing什么什么之类的，可能现在ChatGPT2点GPT2.5、2.6，image什么flare啊啊啊some birds什么之类的，也会有更好的效果这之类的，然后给他充分的选择，确实它的圣图效果就非常好。而且有时候是你一个需求，你一个圣图的需求，它可能是多个步骤的，你可能是要先生成。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后再修改。对对对，这个是他其实有一个space管理的，就是idea创意管理，梳理你的思路的一个需求。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以如果你把所有的模型都提供给一个更智能的模型的时候，它的效果会好很多，而不是局限在一个学生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>图。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>模型里面。对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>回头研究一下中转站，我还没用过中转站。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对你这个说的，其实我感觉你说这个跟我一开始说的那个生图，其实已经是2两2两种.</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>生图的感觉是两种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我那个就是一开始比如说还是为软件服务的，就是你画个logo，做做个图层什么的。对你说那个是纯，比如说创作类的，那个那个确实我也用过一些其他平台的，把nano banana什么CC dance什么各种选项可伶全部都放进去，那个确实用起来更爽一些。对对对，因为我只是说从那个codex的角度，我现在觉得codex就两个比较好用。一个是这个生图，就是软件开发用的这个生图。另外一个就是computer use，我觉得它computer use做的比较好。对，而且它是用它等于是在屏幕上另外搞了一个虚拟的鼠标在操作。我试过用cloud扣还有一个方案，但cloud那个code那个cloud o那个方案他会跟你抢鼠标。我用到一半，它突然蹦出来一个US测试，对吧？就把我的鼠标抢走了。Color code codex好像没有这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，另外他对好像尤其是astra他对他对UI的理解，我实际用下来感觉不论是他对3D模型的理解，还是对这个用户界面的理解，似乎还是有点略胜一筹的。所以他操作这些，比如说我让他用来剪片子了什么的，他他甚至现在剪片子都可以剪了，剪出来效果还行。我前段时间其实给你们看过一段，对对我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉模型都是一阵儿，可能下下一个阶段。对，一阵一阵OpenAI。是的，他现在可能在全力开发下一个模型，我们就原谅他现在的模型可能算力都被用到下一个模型上的期待。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你看比如说什么GPT7，什么再一出来off 5.5又不香了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这很有可能你看那个clock 4.6的时候多惊艳，现在4.7就一坨屎。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，4.6真的很好用。是的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是你们，你全是负面输出。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是没有，4.6我就夸，四点你看我们上几期节目，我说4.6的时候多多厉害，又快又好，结果不知道他为什么4.7突然这样子。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊，对，4.7出来我，4.7出来我就没有续费了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我也是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且也因为你的99到.</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就没有再续费。我主要是我现在我99道也过了，所以我也没续费。我现在是买了一个叫叫x premium的，那个好像。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是K秒。对我现在也是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是第二档。对，第二档就有robot的那个档，我就用这个来维持着我的glow bot.</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在也是，我现在就是用他送的那点token，反正进入维护期的小项目遇到点小问题、小bug、小改进，交给他改一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就这样。这里可以我讲一个稍微离题一点的有意思的分享。就是现在不是很多人为了用gw bot所以买了那个premium。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后premium现在他他不是跟X打通了，就x premium它的有一个好处，就是你能看更少的广告。然后我发现这个影响很大，你知道吗？就是影响我之前不是投X广告吗？那个时候效果还很不错。但是自从他有一个x premium之后，大家都开始用grow bot之后，大家看到的广告就很少了。所以你它很影响商家在X上面投广告的效果，这是一个很有意思的一个点。所以我在想马斯克在弄这个事情的时候，他同时其实伤害了一些能在X上面投广告的商家。我不知道他怎么权衡这一个商业决策，这是挺有意思的一个点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK我们这个可能跟youtube.</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>的那个premium也是一样的。就是有些人可能是爱看爱爱看广告的，有些人想投广告，你买了premium.</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之后反而看不出来那种是因为它转嫁了收费的方收费方而已。但是问题是现在大家买extremism其实是为了crop t他不是为了少看广告，但同时它现在自动的就少看广告。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>所以说它应该提供一个选项，就是说我虽然花了钱了，但是我还可以看广告。我这个点开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实OK我再把话题拉回到我们实现的部分。我还有几个可能实现的部分可能还有两个问题。第一个问题是你们现在比如说主要是在电脑前开发，还是说你们在手机或者说离开电脑的时候也会继续web coding。那这里面可能还涉及到一个问题，就是说即使在电脑上，你是用terminal多呢，还是用还是说用cloud那个APP？就cloud不是它有APP吗？还有clock boat也有APP，你们是用这APP多，还是用terminal多？</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是能把能把任务放在云上，就尽量放在云上。就即使不能云上，我也想让它变成remote control。它有几个分段。最最简单的就是你完全在本地。第二层就是本地加remote control，第三层就是完全的cloud agent cloud。对，我现在是会分为完全本地，我不太会的。因为我经常有时候要走动什么的，我也想要在手机上面去看那个进度，所以我会开开remote control，然后有一些任务会完全就是cloud cloud agent，就在云上面的agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就比如说有一些我不需要本地的什么模拟器去验证，就跟我本地调测试完全可以没有关系的任务，我就会放到cloud age。比如说有一些很简单的coding的需求，比如说我就我比如说就像我昨天晚上睡觉之前，我转念一想，我要把我这个APP的icon全部转换为这个SF symbol。以前是自己画的，我跟他说你全部转成FSF symbol，这个不需要测试。我觉AI它盲写也可以写的很好，我就把它放在cloud age上面。这样的话我就不需要一直开着我的电脑，然后我就可以对吧？然后有很多这样的任务都是我用cloud，其他的就是remote control。但是cloud code的remote control，我觉得他做的没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>拆GPT好啊，是吗？我是反过来的，我觉得因为我觉得coco做的好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是用cloud test top p还是什么？它有一个问题，就是它的remote control是基于怎么说呢？它是基于这个session的，就你没有办法在手机端开启一个remote control OK。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我在code.</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>里面slash .</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>remote control，对就才能看起来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在codex我是可以直接在我那个trap上面去启动一个remote的section.</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是不能开新的session。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以有时候我就很尴尬，我就我我我用的手机我不在电脑旁边，我想开一个，结果我开不了，我只能在我现有的赛事里面去做，这就很烦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能你开新坑的频率比我高，所以你会觉得这个很痛，我就还好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是我开他是同一个项目，会他是同一个项目，就不同的同一个项目。你要开一个新的session，你没办法在手机上面去开。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我想想看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你不可能在一个赛里一直聊，在一个赛季里一直聊，就很麻烦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我没有很明显的问题，是因为我就刚才说了，我在1.0之前我基本上是单线程的。然后我到转维护模式时候，我就交给那个group box了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我也没有这个，但是你是在你的之前聊下来，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一直聊下去。我早期的项目基本上就是两三个session就够了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，那什么上下文全部爆掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为那你对，那你上下文肯定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:56]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他全部写成文档了，全部写成dox了。那也会我想让他做什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他就那也会爆掉，因为他会读这个conversation的history。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我至今没有遇到特别明显的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的模型这么强。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>而且我够而且我可以给你说一个非常极端的case。你刚才不也提了吗？我在做浏览器，浏览器是一个巨复杂的项目，我也是两个赛程，不应该。然后其中一个session是用来做web版的那些页面的那个圆形图的，其中一个是native的，然后其而且这就说到，那你没刚才runne说的等一下。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你没遇到这种场景。就比如说你在做这个浏览器，你说你想喜欢左边栏的浏览器，然后等到做到比如说这个session你一直聊到第二天第三天，然后你突然说我现在改成改成顶部的这个边栏。然后你的AI不会突然的说，考虑到你之前说过要做到左边来不能更改，然后他就一直改不了这种情况。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:02]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还好还好，他会问我，他会跟我double check，我确认就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他就写到文档里了。对搜狗没有contact焦虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实那没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:13]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>contact焦虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我到了80之后我就会让他去，要不就开新鲜水，要不然就一定要压缩。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>context。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:19]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有，因为他全部写在文档里了，所以他需要让他去文档里查就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我从来没有遇到过，我也是要占用context。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊你每次context compact完了之后，他立马那个质量就会变。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他会更低。但我没有遇到过任何问题，他该做的项目还会继续做。我没有用浏览器这个复杂度的项目我也没有遇到问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不应该，大力出奇迹，那就对。所以我就觉得模型。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>到今天2020年11月份了，我觉得这个不是问题了OK OK我没有遇到过，我没有遇到特别明显的问题。你说这些东西我我我懂我懂，就是它会压缩说可能会丢掉一些信息，但是我没有因此而遇到什么问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实还能继续往下，确实现在都会写到dogs那个文件夹里。但是他每次对，在同一个session里读，那你就会有很多有冲突的这种决定。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我没有遇到过问题。对，理论上是这样子，但我就可以用到现在好吧。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK那那就我我觉得还行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:24]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那勾股我觉得还行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正那勾股你也不用terminal，就听起来Randy是完全不用terminal.</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:31]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我brock build只有terminal，我没有办法。对，而且它也没有remote，我只能在本地用。所以brock build我一般会拿它来做什么呢？就真的只有本地需要的。比如说我让他帮我本地做一个build或者发个版本什么之类的，我会让他帮我做这些事情，或者就是本地化那些小bug让他顺手改一下。然后我会让他做基本上都是最后一公里的事情，难度也不高，也基本上不会干砸。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你们手机上就都是用这些模型公司的APP.</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我是用class code，然后因为我也没有创造新的session的需求，所以我用到现在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还挺好的OK Randy andy也是就是直接用cloud code的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我我我不好意思，我再分享一个细节好了。我现在这个因为你知道浏览器这个项目太大了，所以class session其实完全跑不起来的。所以而且他要在我现在是全平台，我有这个surface，所以我要同时build一个windows版本和一个mac的版本。所以我windows上就有一个session，然后我的mac上有一个session，而且我发现他们两个session之间可以直接通信，所以我就比如说把我的麦克作为主力机，然后迈克这边我要做什么new feature，我先告诉麦克，然后迈克会发消息给windows让他做同步。如果这里边逻辑是可以共享的，就mac这边先把共享逻辑写好，然后windows这边把它UI再接上。对，他们完全是相互这样通信的，而且remote，就是第二档。Randy说那个第二档。然后这个如果是web版的那些圆形图，比如设置中心，这些我会交给cloud session来做。不是，然后那边是从原型。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这两台机器上面都是用cloud是吧？Cloud session之间互相通信。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对cloud code，所以有一个cloud session，有一个windows的session，有一个mac的session。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>思路被Randy喝奶茶的声音带走。所以就是你同一个项目不会用多个模型，就是多个比如说code x做一部分。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>cloud的做一我会接力就不同的状态。比如说你会写个，但是把这个原型做完了就单向传递。对OK close session接力给windows和mac然后windows mac比如做完了不是浏览器这个项目，比如说别的项目也是一个mac版和一个windows版，class session也build不出来的。我就在发了1.0之后，我接力给group build，我就一级一级传下去。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后那你万一再接力回cloud code的时候，你就用同一个session。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我一旦接力回去，我一旦走下去，我就不接力回来了，除非我做按照2.0什么，那就是另外一件事了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Ok对，OK那感觉听起来我的怎么用的这么复杂。我现在没有用cloud，就是我我在手机上我还是其实是连着我的mac mini，然后用terminal的。对我没有用他们APP去搞这样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我已经不太用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比如说我的IOS APP，比如说我的那个IOS APP，我是没有在他的云端能搞IOSF吗？我web项目是在。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>IOS云端可以，但是mac和windows很难。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我那个IOS APP是我得连着我的mac mini。然后我在比如说走在路上买饭的时候，我可能看一下然后prop的一两下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这样得看你需不需要编译了。就是你跑回归测试他也跑不了，因为他必须要是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个mac的环境。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以有时候所以一般来说都是，但你起码得该remote control吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我没有，我就直接不用remote control。我所有的那个项目都是在我mac mini上面，然后就在我mac mini上，我连到terminal，我直接打开一个文件，就直接等于是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>terminal的remote control是吧？项目本身没有remote control.</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样我就无限开水了，无限开项目，我新建项目都可以，我是这样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我行，我突然拍脑袋来了一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我说我其实这样我是拍脑袋来一下。比如说我说我之前在cloud APP里面让他设计，设计好了，我再到我的mac mini上新建一个文件夹。我是在这个文件夹里，你连上我刚才设计好的那个设计好设计稿，你给我实现一个原型这样然后我之后就在这个文件夹里继续下了这样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我是不一样，我是比如说我在路上，比如说我在外面，我有什么新的idea，我就会开开一个cloud的session，云上的筛选。然后跟他说，我这个怎么怎么，你帮我先在femm a里面去做一个方案。然后就做好之后，当当我在电脑前，我就可以跟他说，那你按照这个FIGMA在在本地的时候，你按照这个飞马去实现。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对，cloud的就反正你创你可以新创建云的这个class section。明白，所以我有时候也是这样。对我想起来了，就我如果本地session创建不了，我就先创建一个云上的class session，然后他做差不多了，我回家了再接力回去就好。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是这样子。而且用death talk APP跟mobile APP的优势在于，我觉得对于看图片什么的会方便很多。对，是的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，尤其做UI，看看他那个画成什么样子。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我用terminal看图片就很方便。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:09]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>TOI还是不太是啊。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我现在用手机用class，就比如这个我刚刚不是说那个折叠的时候，我就展开的时候，我就像批阅奏折一样，他已经设计好了，然后皮返个图给我看。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个很有画面感。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就在这里，滚滚滚滚滚看一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>无本奏来，无本退朝。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在这里滚滚滚滚滚，然后看一下他的设计方案，我觉得不错，那你就按照这个去实现了整批了。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>很爽，三个字爽。做皇帝的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我这太原始了，我得多利用那个看来多利用云上的环境。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但说实话，你这美国人US虽然。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这美国人这么容易用靠，你都不用禁他。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你让我们我云上的环境也用，就是我说IOS APP，我我我感觉看需求。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:03]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得要看需求，用上像这种重UI的，你总要截图比对，要干嘛？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这样这个是这样的，确实不是苹果那个平台是编译不了。那靠靠但是我就是就算他编译不了，我都会让他去写，他大不了不做测试的盲写。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我也是我也是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后因为他每一个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:26]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我也会。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>让他们选他每一个，而且他现在有一个project的那种概念，就是你跟他聊天的时候，他会分配一个新的会thread.</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>专门的thread把memory你去处理在那个project里面。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后每一个thread它是一个单独的PR，所以我在跟他搞搞了好几个需求之后，他都没有，他就是盲写的。最后我把他墨迹到一起找到一个def def branch，然后我再一次过去在本地测试。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:59]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>另外我还想补一下，我现在觉得就是我之所以可以单个session一直这么跑下去，除了我没有这个context折叠的这个怎么讲焦虑之外。我是觉得现在不管模型能力怎么样，或者他的跑的那个速度怎么样，我从来不开不开那个高速什么两倍三倍的那些，是因为尤其在项目前期迭代的时候，其实你是一个交互，你跟模型互动思考探索，在这个过程里面，其实效率不是第一位的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就你这样打断他吗？就是你会打断他吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:36]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是你你脑子里边对你产品的一些想法，这些东西你是很难并行的对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你会同时只能思考一件事情，你会做一半。打断他吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就是说会，但是我打断他，我一定要把我自己脑子里面前面这个事情我自己脑子里面要先把它清空掉。就是我这边的想法是线程的，所以我觉得他那边单个在跟我对话这个强度刚好，不然我会觉得有点应付不过来。因为我我就尤其前期你探索一些产品想法，甚至一些技术选型方向的时候，你其实要判断的那个东西是很多的。这就是其实你这边才是主，所以你你你开多个session，你这边卡住也是一样的。对，确实而且模型能力也是一样的，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>OK你就让他，我甚至你说把那个contact压缩了，我跟我现在新开一个赛程，让他从零开始学学，你说这两个有什么本质区别？OK可能还有一些上下文还好一些，对吧？他虽然绝大多数多数的上下文压缩了，他留下一点就比我新开一个要好啊。从这个角度看，其实一个session是够的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也有一定的the project那个clout cloud的那个project的概念。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是他会开一个thread，那个thread我觉得真的挺好的。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊，那就是很适合勾股那种就一个session。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他其实那个是自动帮你。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>去管的session的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它thread我觉得就是一个主agent，然后不停的开开subagent，其实差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这个概念类似。对你反正我就永远跟这个主的session去对话，那我他背后怎么开，反正我也不在乎。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我实现上最后一个问题就是你们会用subagent吗？你自己会说让他用subagent，还是说你就完全不管，你就让他实现就好了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他自己会有一些很很明确的场景会比如说翻译，我会让他开一个high酷的背景，这样又省时间又省钱。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有道理。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我从来没有过。我曾经把尝试刻意试一下subagent是什么加到了我的to do list里边。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>后来我发现我跑车就还是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那还是那句话，模型到今天我已经不需要刻意这样做了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我但是我但是有一些任务是要并行的，因为它很适合并行的话，我就觉得省时间，我就会这样做。但是现在我觉得cloud已经在淡化小杯这个概念。他现在现在他他现在有subsection sion你没有发现吗？就他在一个session里面会。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他现在就反正基本上我觉得需要用的时候，他已经开了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对它有时候会自动帮你开。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是现在我就会有时候我就没有再care过了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有时候比如说我现在有mac windows和android对吧？然后有一个功能我想让他同时都实现，那我就会跟告诉直接告明确的告诉他，你开三个筛选帮我同事做。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不错。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还好，反正我是截止到目前没有遇到单线程会影响我质量或者效率的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我有时候会明确的说一下，就比如说跑测试我会用high酷，那这个就比较又快又放。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可能是因为我现在都是个人项目，即便项目本身复杂，但是我人很简单，所以我没有遇到这么没有需要到这么复杂的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我遇到有用subagent有有我踩过一个坑，比如说那个subagent，我期待就是我期待他跑的这个任务比较简单，结果他跑着跑着比较复杂了，确实那个问题是我想简单了，然后他效果就很差。结果最后我就还得用奥pass 5.5再写一下这样，对，就我得指定好它的suva agent的模型GF。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这方面也是，我觉得ops现在除了它的完成质量之外，我觉得他提的问题问的都很好，而且都在关键点上，确实该停下来问他就会问。所以我长期对这个。模型还是蛮信任的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们期待下个月我们期待下个月万1我们。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:53]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>期待未来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，这个项目做完了之后，产品做完之后，发布的这块儿可能Randy经验就比较多了，我都没什么发布的作品。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得Randy.</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才说他他那个运营那个对我觉得我就想问，就是发布运营你有什么心得？</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>发布的话得看你是哪种项目的类型，比如说web的，web的发布得看你部署的平台是哪个，对吧？比如说如果我自己的静态的网站会有两种方式，我以前会部署在netty fly上面，现在还有人在用吗？在。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>fy，那个平台ok我不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在还有现在没有我。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:42]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>前段时间刚把他的授权解除了，因为我发现很久没有用了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我把我所有的项目都迁出到cloud。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，我excel跟wifi我是一起消掉的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我把我sel全部项目全都迁到cloud flare上了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:58]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在也差不多就都是close play。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后像这种静态，你就基本上都有MCP的了。所以就是对对，就是感反正就是把你的部署平台跟你的agent通过某种方式连接到一起就行了。然后要发布的时候直接跟AR说要发布了，这是最最简单的做法。然后像IOS那样，就是我刚刚提到的那个APP store connect CLI.</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>简称ASC。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是一个它专门帮你连接你的APP store connect的一个CLI工具。你在gw box上面可以让他去安装，然后你本地安装了之后，本地的agent也会用。一般我发版的流程就是因为我也会我在agent MD里面告诉他，我每次要提交的时候都要给我写那个change log，然后还要把这个change log review，我觉得可以之后再提升，然后IOS还可以讲多一点，IOS有一个，IOS有一个要等我一下。IOS有一个发布的这个需要home.</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>发布的步骤，有一个发布的IOS.</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>苹果的APP，它有一个发布的步骤，就是你要上传很多screen shot，就那个截图，还有很多不宜多语言的文案，那些description，meta data之类的。如果你不用SASE，你得一个一个去做图片，截图什么的，你都得一个一个叫change log都得。比如说假设你支持十个语言，你每次发布你的全职log都要写十套。但是有了ASC，就这些都是让你agent去干。比如我现在发我那个APP，我现在基本上APP都会支持56国语言。首先截图这就是我用fig ma觉得好的地方，就是我FIGMA他可以直接就他写一套，让他去做多语言的时候，他就直接复制粘贴，然后就去改，就省很多时间，省很多token。所以你在肺码里面生成了之后，你就可以让agent用ASC把这些设计直接上传到你的APP store connect，你就不用自己手动操作了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你想想看，以前你手动操作，你上传这么多个图片到APP store connect，那APP store可能要慢的要死，你得花好多好多时间。那现在你一句话就可以让他把你的物料上传到absolute，然后description也是description跟你的meta data，你的change log每一次发你就跟他说，你帮我提审，他就自动帮你翻译成把你的全球化翻译成56国的语言提交上去。OK.</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个确实很有帮助，有学习。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>以前手动很恶心的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在还停留在我现在才刚开始玩玩这个test flight，我现在还停留在让AI帮我填表，就是他那个我每次看到iphone那些表，我都头大一堆东西要填，我就让AI说你告诉我这个地方该怎么填。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>帮我你是说。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:34]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那些APP信息停留。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在还是审核？</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:38]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对对对，都有，我还在停留在就是说让AI帮我输出该填的内容。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你就很适合用AS的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这么自动化。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你现在还是截图还是或者computer use吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>没有我截图都还没截。我test flight里面截图都是空的。所以我还没没开始，还没感受到你说那些痛点。所以你刚才说完。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也是觉得结那填表也是可以的，就是那些什么年龄分级什么之类的。就是他APP store .</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:07]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>contact里面，因为没有对，所因为没有跑ASC，所以他现在只是帮我打开浏览器。对，然后弹出一堆表了，我还得登录。是啊，然后对对对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这个场景很适合你，你可以试一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:23]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>挺好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在就搜一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在那个浏览器我现在那个浏览器test flight要上线，我还在等审核，提交完了还审核还没通知下来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>8000 star这个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:49]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就说回浏览器的上线的门槛了，跟一般的APP上线的门槛不一样，要求很多，有额外的表要填。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>等一下你是要上线你的浏览器到IOS上。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:06]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我现在只是在test flight，我想在test flight上做public beta，我都需要额外填一堆东西OK。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为他权限比较高。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一旦装了一个浏览器。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>到。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你的手机上，他跟你装一般的APP到你的手机上那个权限不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那巧了，我还在你的更前的一个阶段，我还在连上我的那个我自己的iphone，然后build到我的iphone上。然后每每七天，对，每七天得build没有差我很远。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:35]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我只是比你领先一周而已。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我主要缺一个开发者账号。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对我就上周末开的，所以你比我落后一周。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>IOS开发的话，UI方面的测试都可以让他去自己用XC test，或者让他去连你的simulator.</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:55]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>让他自己去对他会自己测。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在也是这样，我最近也在发现几个simulator，就是能代替他官方simulator的。要不然官方那个太大了，跑的我真的是，主要是我机器不行，这个我我我最近都打算换了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这是什么？是我就是盖版。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的mac mini的最低配什么都够用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>8G是8.</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有16g memory。然后256G的硬盘。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后挂了个6，对，真五六。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以所以我对，所以我大部分的项目都是也是在那个云上的，然后只有IOS APP这个就一个就占了很多了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实对，当你开发APP的时候，你肯定不够用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>真不够用，真不够用。对我在考虑换了，但是最近都涨价了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:47]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>然后我觉得你可以再观察一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我这台电脑换的就是因为那个存储不够，之前我还是512，没办法。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>主要是我挂了那个尿袋，它代码可以放在那个尿袋的硬盘里。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>移动硬盘是吧？对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>移动固态硬盘。关键是它那些编译，那些是cash，就是叫啥缓存。对我我跟你讲，我我我我。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>刚换我我换之前也是因为那个觉得很痛苦。对，就是有些东西是挪不出。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，挪不到移动硬盘。对，我都让AI帮我挪了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我到最后我把什么i photo我整个都删掉了。然后我那个那个相册我都不要了，曲库也不要了，什么都不要了，时间到最后还是不够。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在就是我也说一下。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:33]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你狠心算了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我也是删的我都有点烦了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实就很但是怎么说呢？我虽然刚换，但是我有一个强烈的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是买更好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你对更好的很快就会出现在后边。然后不论是绝对的性能还是性价比，很有可能就是你很快就会看到下一代的东西一代一代的在飞升。我觉得这段时间。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最近apple刚发布了这么多硬件，它应该下一个大的飞跃应该也得等明年了，至少不知道。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:05]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>就比如说它现在内存大，内存这件事情，以前你从来没觉得苹果设备在内存上有对有非常看重吗？你知道他你知道所谓的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你知道它最新的macbook最高能加到多少内存？</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是内存。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我知道我看了那个硬盘。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:25]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我看了十六内存，硬盘我都看了。对，就是我我有一个我有一个不严谨的感觉，也可能是我的错觉，就是我觉得大家很多年已经不提这个摩尔定律了，这个摩尔定律有一段时间大家觉得已经结束了没有，他只是短暂的停在那里，他现在一步又跳回来了。我现在有这个感觉，摩尔定律从来都没有消失过，只是中间有段时间他短暂的停留在了某个平台期OK他现在在疯狂的报复似的在往上窜，你很有可能再过半年，你一看128G都不够用了，然后16T硬盘也不够了。这我可能说的比较极端，但是我的意思就是说硬件这件事情，你可能再过个一两年，你发现它的标准，所以就蹭蹭蹭的窜上。你的意思就是今天认为很高配置的东西到那天都不够用了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的意思就是我再忍忍。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你我建议你至少再观察一下，你稍微多想想，你要买，就是你即便要升级，你要是你你要配到什么高度，你要想一想，很有可能说你我想了很久了，很有可能你觉得你配了个顶配，结果过两年发现又变这个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个很正常，你花了很多钱，这个很正常。对，我我我已经想了很久了，每天删文件删的我有点痛苦。OK话题再说回到产品，我们还有什么我觉得我都问完了，我基本上没什么问题了。你们还有什么要比如说秘密武器，要分享。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:50]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>什么。我觉得APP运营这块儿其实学问挺多的，只是我现在还没走到那步。他有那种我觉得如果将来我APP c .</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>CEO你知道吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，这就是类似相关的东西。我觉得如果我将来有心也做点APP发布一下，然后到那天我可能有很多心得要跟redy再交流。可以现在我问我是问不出问题，我知道这很重要，但是我不知道从何何开始聊，我现在没有听见。我们在这里面水也挺深的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们下一期的节目。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>可以慢慢聊。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们下一期的节目我感觉标题都想好了，为何三位前端程序员转型IOS开发可以。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>这其实那你要这样说，我明年的标题都想好了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你如何从独立开发转成外卖骑手。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么就那那那有点大跃进了。但是为什么你说我们做web做到后来都不做？</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:46]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>现在不是有个段子说大家都是这个路线吗？先转独立开发，然后送外卖。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说到开网约车，说到这个确实我反正我的终极工作是卡车司机，我早就定好目标这个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>事情行了，第三年的标题也有了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那你说为啥我们都开始做IOS APP呢？是不是外部APP还是有局限，很多局限有没有发现？</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:16]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我觉得是这样的，其实你不是在做IOS APP，你是在花花99到1年买了一个pro版本的OS。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是他们你说的也对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:32]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>至少我是自己这样觉得，或者说你养了一个很贵的龙虾。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你说你想要的那些功能，你为啥不做web版，就要做IOS APP版呢？</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:44]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>那我能做native版，我为啥要做web版？</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你就是还是native比web牛逼吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:51]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，他权限高，是可以做的事情。以前你没这个本事，现在你有了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以就是或者。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:57]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>以前你不舍得花钱了，现在你终于发现99到1年跟白菜价一样，跟那些token比起来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以听从了助手的话了。如果有IOS APP独立，不能说听众里如果有IOS APP开发程序员就会这时候有一些优越感，就发现前端程序员缺失。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是我以前觉我以前不开通，是因为觉得我的心态，就是说我既然开了99到1年，我就得回本我才开。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我以前都不是开通不开通，我以前是觉得学习成本的问题，我尝试N次学习IOS开发，每次都是学到一定回不了本。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:37]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你学它干嘛呢？反正我我至少我内心也有这个，我我我也是有有学习门槛的。但是你如果回不了本，我也有点没有那么想学，反正我我我自己的心态是这样子，现在我的心态不是为了回本了，我就觉得有一个I那个apple developer program，我可以武装我自己的iphone跟mac武装的更好一些。我没考，我仅仅是为这个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我已经不会回本我没考虑回本的问题，我的梦想就是开发一个APP，但是为了这个梦想，我尝试多次，然后最成功的一次，最接近成功的一次是swift UI那次发布的时候。我觉得swift UI写起来跟前端的UI其实挺像，然后我学了一遍，整个学学完了。然后我学完发现我能开发出来的APP跟我想象中我能开发出来APP差的太远了。我能开发出来的APP基本上就是有个UI跟功能。但是一个精美的IOSF，它其实背后是很多UI然后UX还有动效。我觉得动效的打磨，还有你背后产品的这些逻辑，我觉得这个是最核心的。然后这一点我一直到现在都觉得即使有了AI即使有了我在做我现在这个APP，我都改了好几版了。其实我都我都没想清楚到底我自己用当然还可以，但是我就在想别人会用吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我给我我老婆问她她她都觉得很一般，就这种感觉，哪怕你我现在打磨动效要用AI打磨动效，我打磨了一堆，我自己觉得好酷炫。我自己觉得就像六一他们做的那些迷迷你黑胶那种酷炫的动画，我自己也用AI做出来了。我虽然完全不懂IOS看法，那我做出来之后，我给我老婆用，我老婆说那就是一个酷炫动画。感觉跟他核心的这个痛点还差很远。你又不能完美的解决用户的痛点，然后你做一些花里胡哨的这又是另一个。其实我感觉所以直到现在我都没有找到一个自己做APP的合适的，或者说让我能有动力继续做下去的方向。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:48]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是我还是我觉得你说到这个你说做这个APP的动力可能也在变。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吧？但是我是前提是我做所有东西我都尝试了web版，然后我发现web就是有很多局限。第一是他没有通知，这个通知PWA说了那么多年。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:04]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>到现在我的局限太多了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不知通知了。然后权限也是一个问题，我想让他对获取用户的相册太难了。然后算了，我最后还是APP就是做或者。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:17]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>web版就永远给你个最低消费对吧？你也不是不能用，但是就是没有native的对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以现在web版的我就是做一些我自己没有。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:28]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我的意思是说这个动力我我我简化一下我的这个问题。就是说这个动力你觉得更多来自于你要给你自己做，还是你打算做一个东西给别人用，然后就是规模化的产生收益或者产生影响力之类的。你觉得你的动力更多来自于哪个？</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在如果是此时此刻的话，当然是第一种。我现在还没有想到说我想做一个APP给特别多的人用。因为我自己想先做一个自己非常满意的APP，就是我自己都觉得爱不释手，每天享用。我觉得其实我觉得Randy现在有点接近了Randy now dex这个就是每天真的打开会用的。这个真的我要衷心地夸一句。对，然后就是我。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也在用，我也在用，其实而且我连windows版我都用了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你知道这个虽然。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:21]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>windows版还不支持vig的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也装了这个要我要就是要夸一下Randy这个APP。广告这不是广告，我也没有，Randy也没有给我钱，关键等我先夸我，等我先夸我就是这个APP。首先它是满足了我最大的痛点。因为我在用AI所有的模型的时候，我最想知道的就是我花了多少token，然后还有多长时间花完这个token。因为我在规划我这周的要做的一些任务。虽然我有的时候那些web coding的tasks，我或者prop我问出去的时候，我不确定他要花花多少，但是我大概心里是有个数的。所以我需要知道这个事情，就是我要还有多少token可以用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我自己其实做了一个的，我当时做了一个web，然后我觉得很难用。因为web版你要读取你本地的那些token，然后你要把那个token从terminal里读到一个Jason文件，然后Jason再放到web上面，我觉得很麻烦。后来我就做了一个，而且我在手机上刷新那个web版的时候，我还得通过内网穿透把我本地的那个读到。因为我没有连接那些OOS的那些接口，连接到这些模型公司。然后后来做了一个APP版的，然后同样的问题，我就懒得去接那些模型公司的接口。最后我觉得red Randy他后来开发了这个，我觉得我也用过其他家的，但是我后来就用Randy这个，我觉得挺简单的，然后正好满足我的需求。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后那些可视化也挺，因为我自己做可视化很多，我觉得那些可视化做的挺挺叫什么击中了我的甜点，就挺好的。他又不是特别复杂酷炫。有的那些就是同类的竞品，他做的那些可视化加了很多阴影，加了很多渐变的颜色。然后其实是没有必要的，因为在可视化里面，你的目标是为了最直观的呈现用户最想看的数据，而不是说因为这个可视化好看而做出来。所以你从这个理论上来说，这个APP就是现在的这些配色，然后这些排版，基本上就是满足了我。这不能说满足，就是觉得我觉得做挺好的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，怎么样？这个广告满意吗？记得给我打钱，谢谢。真的挺好用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我再回到刚才勾股那个问题，就是我想先做一个这样的APP，然后我现在的比如说我刚才说的那个给孩看孩子相册，不是小孩子想就是我女儿现在在学画画，我就觉得我想把这些都保存下来。他画的是纸，但是我就想保存成电子档。那这个需求我就一直想通过APP来满足。然后我做了几个版本，我自己都觉得不是特别满意，所以我还在继续研究。所以我还在这个阶段，我先做一个自己满意的APP，然后再考虑说将来有什么idea能让别人也用之类。</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:22]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>挺好的，况且我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>将来的APP的形式也会变。大家都现在都有AI的能力，你就是那种不是现在流行这种一次性APP，就你做完满足你当下的需求，可能这个APP就扔了。然后第二是会做那种个性化的APP。你说同样是一个看token用量的APP.</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:43]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>我用Randy也行，我用go你自己用是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我大家这么竞品这么多，我那我用哪个真的是，你说还不是取决于我个人的品味，个人的喜好，我甚至自己现在我就让OPPO s5.5，今晚现在就开始复刻一个node x那我觉得完全有可能，可能一周就做完了。对，那你那你说所以我觉得可能软件的形态也会变，所以我还是先满足自己。</p>
+<p class="transcript-line"><span class="time"><strong>[01:32:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>对，你这个观点其实跟我刚才想说的其实是吻合的。其实这种用户的心理或者是需求，一定程度上在我看来就是一个pro版本的操作系统。就是一般人用操作系统就是别人做好的操作系统，操作系统让别人做好的APP，然后我选哪个最适合我来装。但是就像我们最早我问的其中一个问题，就是只要有一个APP你每天用经常用，你总能发现有一两个地方不是不合你的心意。那这个时候你想改变它，你要走一个非常长的链路，就是你给他提反馈，或者在哪里跟人讨论，最后拿到一个新的版本。但这个时候如果你有编码的意愿或者说一定的基础，然后你只要花每年99刀，你就可以享用什么东西，你不用那么长的一个链路。你今天晚上prom一下，他可能就你改一个版本就可以用了。这个在我看来就是一个pro版本的OS或者是一个高级版的龙虾。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>O.</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:15]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>K我是我是这样理解的。所以我觉得将来的苹果的99到这个订阅费，不是开发者，不是APP store的入门的一个门票，而是你自己可以定制你自己想要的OS上边所有APP的一个权利。我是这么理解的对，以后很有可能就像你说的，所有的APP都是做给自绝大多数APP都是做给自己的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你知道吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:40]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>他只是我我他只是交一个99到的这个订阅费。O pro OS的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>订阅费是我完全同意，把它理解成这个我完全同意。但是虽然我们这期录了很久了，我不知道听众能不能听到现在。但是我有同样的观点，然后我觉得这个观点我特别想推己及人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:33:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我跟我老婆一个完全不懂程序的人说了一下，我说你知道吗？你现在只要订阅20刀的code x你可以开发任何你想要的网站。然后你可以开发我就比如说我给他充99刀的这个apple developer这个账号，他可以开发任何他想要的APP，我跟他说了，他他第一是不相信，然后我给他演示了一遍，我就几个proof就开发一个网站，对吧？我自己觉得这简直是太这是魔法。你跟他说他给你。对，然后我太太去开发一个网站，困难重重。首先他不知道怎么说他他就说你帮我开发一个什么什么的网站，就比如说跟AI说了，AI是理解不了，就是你这个网站要开发到哪儿，你是要自己用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:45]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>还是中间这个跨度有点大，超级大，穿透好几层。</p>
+<p class="transcript-line"><span class="time"><strong>[01:34:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后反正经历的种种困难，他最后开发了一个能在local host跑的网站。然后他跟我说这经典问题，然后他说这个别人能用吗？我说不能用，他说为什么？我他我说你得上线，他说什么叫上线？我给他解释了好久，完全不理解。因为中间有太多的概念，所以我觉得这个gap就现在程序员还是有一些优势。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:10]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>你看这个gap才是pro，pro版本。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你你充了99到只对于我们来说是有一个OS。对于他们这些对完全不懂的话。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>其实对他我觉得你不能指望对我觉得你不能指望所有人都会有这个apple pro developed program.</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我真的是亲身教我老婆。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:30]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但只是说这个program的意义变了。以前你是拿这个东西回本甚至赚钱的，现在是变成一个超级操作系统。</p>
+<p class="transcript-line"><span class="time"><strong>[01:35:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就是亲身动亲身教了他之后，我就是能体会到第一就是这个隔阂，这个门槛真的很高。第二我发现每个人都有把自己的APP分享给别人的欲望。就他自己做了一个对他觉得很好的网站之后，他也想让别人用。所以如果如果将来这个开发的门槛再进一步降低，降低到像我老婆这样的人都能做的F的时候，我觉得那那就是真的实现所有人都有一个操作系统的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>或者说我即便不是每个人到最后都会自己买apple program I develop program去做APP。这里面可能也有些别的因素了，就是综合因素了，不一定是技术因素。就像你说的，他可能就是懒，他可能就是我我我或者说我没有定制需求。现在的这APP够我用了，而且我不是每天用，我用着没觉得哪里有问题，他可能也没有这个动力，总之不一定是技术问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:39]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>但是怎么说呢？就是这种pro版本的OS。或者从另外一个角度，我做这个APP不是为了发到APP store给别人用，会变成一个趋势。那这个趋势会催生什么呢？我自己觉得像test flight这样的东西会变成一个巨大的平台。</p>
+<p class="transcript-line"><span class="time"><strong>[01:36:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就i mac apple store.</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:00]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>不是那个最主要的平台，最主要的平台是每个人自己做一个APP，然后在test fly上发到自己的手机里，或者发到自己家人的手机里面，是这样的一个分发平台。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>小范围现在那个。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:12]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>私有的分发平台。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在micro s上的APP其实已经做到了。今我感觉软DOS.</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:18]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>因为它像Randy.</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>开发不是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:20]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>一个封闭的对对，它它有一个它有它mac上的APP本来就分两类，一类是可以发在APP store的，另外一个是不不可以的，就是它权限更高，空间更大。但是IOS里面它是只有这一种吗？所以text flow这样的平台在IOS上它就变成了一个小众分发的平台。一小撮人做一款东西，比如说一家人什么之类的。我觉得以后这个会变成主流趋势。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得直接在MS这里面分享我做的APP，希望能到这种程度。我就建一个MS是群聊，然后这个群聊里的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:37:54]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>人我觉得现在台词fled需要大幅度改进，因为它以后这个地方需求量可能会非常高。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Test flag test, 对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:01]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>人家这个就叫这名字就是有误导性的。他可能不是为了test.</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他可能将来是一个新的平台，不会因为对这个改一个up.</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:11]</strong> </span><span class="speaker"><strong>发言人3: </strong></span>也有可能，对，但总之现在我只有test flag可以选。我现在比如说我做一个APP，我想分享给我的家人，所有人一起用，我只能用通过test flight的internal test来发给其他人。理解，我没有别的选择，但是以后这个需求量会大，他有可能会有一个新的东西出来。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者这个地方他会改。我不知道，我们拭目以待，不知道到时候会变什么样。但是我觉得做IOS APP这个肯定是趋势。对，肯定不会外部就会衰退了。我觉得这就是。</p>
+<p class="transcript-line"><span class="time"><strong>[01:38:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一期节目的所有内容。如果听众们也有自己的y coding的经验，或者AI完成自己的任务的经验的话，欢迎留言跟我们互动。我们在show note里面有跟我们来信的方式，然后我们的视频和音频在小宇宙跟哔哩哔哩和youtube都有同步的发布。谢谢大家的收听，拜拜。</p>]]></content:encoded>
+            <pubDate>Thu, 19 Nov 2026 04:53:28 GMT</pubDate>
+            <guid>6afe7e78fe62f8f52c4d7471</guid>
+        </item>
         <item>
             <title>iPhone Duo 上手，我们更想要一台怎样的手机？Apple 新品吐槽大会</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6afba362a4a79edf137a5e56</link>
@@ -9063,211 +9744,6 @@ PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在�
 <p class="transcript-line"><span class="time"><strong>[01:58:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉就聊到这里了。</p>]]></content:encoded>
             <pubDate>Mon, 12 May 2025 03:49:57 GMT</pubDate>
             <guid>68216f6db7c8a9962ca048ed</guid>
-        </item>
-        <item>
-            <title>GeekPlux: 打开美国的“战争迷雾”, AI时代的自我补全 [串台TuWang]</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/681b71eedb57cd35f70b5090</link>
-            <description>@GeekPlux 对未知的世界有一份独到的探索精神. 他把未知的世界, 比喻成战争迷雾; 他在做选择的时候, 喜欢把很多件困难的事情, 凑在一起解决. 大家惶恐被AI取代的时候, 他提出了解放自己, grow as a person的观点.
-* 串台：代码之外BeyondCode，The Build Log (TuWang)
-* 相关联的UP主: @代码之外BeyondCode @TuWang
-* Recording: DJI Mic, iPhone, DJI Gimbal
-* Location: Bay Area
-* Planning/Editing: @Tuwang
-* GeekPlux Blog：geekplux.com
----
-00:00 “战争迷雾”与80%规则
-05:01 美国生活挑战与动手解决问题
-12:55 接受人生的随机性与来美国的价值
-27:00 “不后悔决定”与自我老化的焦虑
-41:40 AI时代价值判断与“真实”的意义
-59:00 写作的重要性与职场成长
-01:08:40 职场挑战与心态转变
----
-代码之外 Beyond Code 是一档由 GeekPlux 和 Randy 共同主持的程序员闲聊播客节目。节目地址：bento.me 我们的节目同时会发布视频版，在 YouTube 和 Bilibili 搜索「代码之外」都能找到我们。
-欢迎在 forms.office.com 向我们来信，我们会在下一期节目分享你的来信或解答你的疑惑。
-也欢迎在爱发电 afdian.net 赞助我们。也欢迎赞助商联系我们商业合作。
----
-金牌赞助商 / Golden Sponsor
-感谢 Relingo 赞助本期节目。Relingo 是一款借助 AI 来帮助你轻松扩大词汇量的工具。它提供了很多功能，比如网页查词、高亮显示、沉浸式翻译、PDF 文档翻译、以及 YouTube、Netflix 等多个视频网站的实时字幕翻译。让你在不影响阅读及观看体验的同时就能巩固和扩大英语词汇量。在 Relingo 官网输入优惠码 BEYONDCODE 下单可以享受 7 折优惠！
-* Relingo 官网链接：relingo.net
-* 7 折优惠码：BEYONDCODE
-金牌赞助商 / Golden Sponsor
-PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在这里买到程序员贴纸和项链。我们每售出一张开源项目贴纸，会为该项目捐赠 1 元人民币。
-* 官方淘宝店：pdlft.taobao.com
-赞助商 / Sponsor
-* Notepal 一键同步微信读书笔记到 Notion, Readwise, Logseq, 思源笔记等笔记软件
-* EpubKit 把网页、博客、文档一键生成 ePub 电子书
----</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Gig box他对未知的世界有一份独到的探索精神，当大多数人选择战术躲闪的时候，他说，在重大决定面前，如果我感到将来会后悔错过，我就一定会做这个事情，把握这个机会。他把未知的世界比喻成战争迷雾，他在做选择的时候喜欢把很多困难的事情凑在一起解决。同样的大家惶恐被AI取代的时候，他提出了解放自己grow as a person的观点。我们欢迎get box，我们正式进入我准备给你准备的一些问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前写的那个blog，你说一个词叫战争迷雾，来形容你对这个新的环境的探索。我的问题是你现在探索到了80%了吗？可以可不可以跟大家解释一下你的80%的规则是什么意思？</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我先解释一下这个战争迷雾就是我通常因为我是一个比较能折腾的人，然后我通常去一个城市，就有点像魔兽争霸三里面把那个地图换掉了一样。然后换掉了之后，最开始只有一小块的地方是亮着，就你所在那个地方，然后你要派你的英雄出去探索探路，你才能慢慢把这个地图点亮。然后我就拿这个类比，我每次探索一个城市的样子。因为美国很大很具体的一个点就是你你刚坐落在亚特兰大这个城市，然后你是如何了解美国整个的形态，然后地域、交通各方面。我觉得这个就非常像战争迷雾的感觉。然后那个80%的原则是我觉得这个数肯定不是什么科学统计。就是我心理上觉得绝大多数的事情，你不需要去不停的搜索，你就像两眼一抹黑的那种情况。大部分时候没有的时候，我觉得就是大概是战争迷雾差不多的时候，针对亚特兰大还可以，那如果你让我现在再去加州，我肯定又得重新适应一遍。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以举一个最近的例子，就我车前段时间出车祸了就被撞了。因为我其实去年有一次被撞经验，我以为我以为今年可以非常顺利的handle所有事情，然后我发现今年完全不一样。因为这首先这次是对方全责，走我自己保险，我是能check每次的progress，他是怎么update的。但是我这次的话，因为是对方保险，相当于是个黑盒，完全看不到。我每次得打电话问现在怎么样了，我需要下一个阶段我需要做什么？然后租车我也是自己先租，然后再上传那个invoice。那去年的话，我可能直接在那个insurance company的APP里面就能直接租，反正各个流程不一样。然后最后下来还有一些叫APP，zer就是他会评估你这个车的残值，在市场市值上面的这个呃损耗，然后他会给你补偿一笔钱。但是我这个之前没有遇到，所以我就我去年是没有遇到的，所以相当于又是一次新的战争迷雾打开的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实第一时间就觉得我不应该接受这笔钱，因为他他给了我大概500刀的损失。我心里想我的车肯定不止500刀的损失，他把我整个左面全部撞掉了，我肯定是要拒绝这笔钱。然后拒绝这笔钱的时候，我就在想，我应该去靠什么的途径去拿到更多的钱呢？就是最起码达到我合理的预期，我就得问ChatGPT，搜索这个过程就是一个蛮有意思的探索的过程，所以我就把这个过程打这叫做打开战争迷雾过程。最近我又精进了一点，然后我发现专门有这个机构去帮你评估这个东西，跟这个insurance company去argue。然后他们一个设计完了之后。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>打开新的人迷雾的方式非常壮烈。没没这两年主要打开的方式我们就用战争迷雾，我觉得我打开这一片的特别的慢。因为当时我是在ohio，我可能上次也跟你聊过，我们在一个大农村里面上学，整个一个四年的一个experience，就是一个大迷雾。我们最多就有一些零星的，因为是学生也没很多钱，可能去一下周围的城市，什么CC跑远一点，去芝加哥就这样跑了一下。但是对这个生活的探索，我特别的限制，可能自己也没有这种没有赚钱，就只是学习，然后基本上就困在那个小村子里面。所以整个一个美国来说，对我是一大片迷雾。我直到毕业之后开始赚钱了，开始到处跑了，才慢慢一点有你这种体验。所以你这两年我觉得还挺快的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是一个比较主动的人。首先我刚来的时候我也是举目无亲，然后没有朋友。在飞机场接我的那个小伙伴都是第一次见面，第一次认识。所以来了之后我会主动去认识一些朋友。因为我觉得很多信息可能网上大家不会写出来。首先写博客的人们没那么多，就算他写出来，他也不会写全部的信息。就像我一样，我写博客不可能把我整个人事无巨细的都描述出去，对吧？所以我会主动认识一批人，虽然我觉得建立的这个network的过程确实很慢，尤其在美国这种情况下，我们家里还有孩子，那只能跟有孩子的家庭社交圈，大家遇到问题大概是类似的，反正整个推进过程就比较慢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实这个慢是相对于我在香港来说，我在香港认识朋友那简直就是这个指数级的，就是很快认识很多人。因为我我自己虽然不是那种艺人，但是我是蛮主动，就是喜欢出去搜索的，可能约个人喝咖啡聊一聊。在美国就比较慢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另一方面就是多读那些document，比如说报税这个事情，最开始我就想的是自己搞定。因为我我就想积累一次我自己报税的这个经验，而不是说我找一个CPA去花钱搞定这个事情。因为我如果他他去帮我报，可能他报的比较好。但是我不知道其中有没有一些细节，或者说他做了一些mistake，而我没办法review出来，这些是我比较concern的。然后第二是我其实对这方面都是蛮感兴趣的。其他的法律和法规，比如说什么绿卡之类的，我这些也是跟你多读那种官网上的文档，虽然它很长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是你要慢慢读。我然后你这个可以，我我这我也读过，但是我对我也读过，但是我是被逼到一定得读，就一定要找比如说一些规则，了解规则或者了解时间线的时候，我才认真读一下。但我发现你有确实有探索的意愿。你甚至你说自己报税，这个其实蛮难的。就是当你没有工作的时候是简单的，就是没有收入的时候，是在学生的时候是特别简单的。但是在那之后我再去抱有有actually有收入的那种，就挺难的，就挺复杂的对，就怕自己做错，就怕少交什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实你也鼓励了我，你说你是全手搓的之前，然后我说那我也来手搓。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我们手搓是14年很久以前。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但反正我是我就想，我就不信我搞不定这个事儿。然后对，反正下定决心自己搞。因为我还咨询了一些CPA，反正他们的价钱也比较贵。然后我当时因为我是还涉及到香港的税，还涉及到很多事情，然后家里还有家庭的成员的改变，就各种。反正你想起来我看了一下我2013年的那个税表，大概是有14个form，然后我当时就震惊了，我还一个form是就是看他title，然后每个form每个里面的哪里有字儿我都要认真去看啊，哪里有数字的改变，其中AI确实帮助了很多，然后但凡遇到不懂的就可以去问，各种AI如果你觉得GPT说的有点值得质疑的话，你还可以再用其他AI去validate一下。反正各个工具都用上了，连续搞了我大概三四个晚上，最后才把所有的税都搞定，但蛮有成就感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其他类似事情很多了，就包括刚才说的身份上面的，然后还有家里修东西，很多事情你可以叫一个人过来花八十刀搞定。但我觉得这个事儿我就想自己去，我就不信，就是非要那么复杂对吧？然后我就想我买一个东西回来，可能换上就好了，比较有意思。我有一个其实比较破的车，然后中间有个零件坏了，然后我去找一个华人的师傅去修，他跟我说那个零件要120刀，然后我当时就觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不太对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我就问一个朋友，然后我朋友跟我说你搜这个code，然后我搜了一下那code反正就是一个比较小的问题。然后我朋友也很给力，他就直接跟我说，你只要换这个零件就好了。我一看那个零件只要23，根本就不是他说的120刀。然后他换那个零件，他还要再收我钱，对吧？我当时觉得很很坑，然后我就去直接开车到我朋友家，然后用他的工具把那个拆下来，然后自己换上，换上之后就修好了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>搬家也是，我其实可以找人，但是我就想看一下，我如果自己租油耗，然后开开过来整个这个流程是什么样的对，然后多租了几次，其实大概是所有流程就都清楚了。大概哪里可以节省一些，哪里可以要多花一些，然后这样保证你这个是最最具性价比的。还有一些信用卡的这些积分规则，我其实对这些积分规则都都比较感兴趣。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后了如智能现在你说的这些动手自己解决生活里面的小问题是你来了美国之后才需要做的或者才感兴趣的。还是之前在香港你也是这样子的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>显然是来了美国之后，这个人工费用的差距。在香港你很多事情可以找菲佣解决，然后那些这是第一点。第二点是你如果就算从外面找一个工人，他们的那个费用也是不是很高的。然后你如果找那种打黑工的费用，那就更低了。你可以用非常少的钱实现家里很多事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我举个很具体的例子，我刚来的时候说要打扫一个房，我不知道上期博客是不是说过这个事儿，然后反正之前打扫我上一次住的那个房子，然后一进来他们就评估大概需要500刀。其实我打扫我香港的那个房子，他们不是按这么说，他们是按一小时大概30，1小时30港币。你想一下这个差距超级大，然后大概打扫，因为香港房子很小，大概三四个小时就搞定。相当于你花了十五刀，你就把这个房子打扫完了，然后这边要55百刀。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我最近去年的一个例子是我的老的车电池坏了，然后我去那边修，他就给我报了个价，就是说换电池加上人工费什么8000到，不是8800到1000块。然后我想了一下这电池有多难换，大家都说能自己换，为什么我就不能自己换呢？我跟你心态是一样的，那时候我其实已经买了一个给自己电池充电的一个东西，就是以防万一。我已经买了，所以我也不怕说电池就不怎么样，然后车就动不了了，我也能动。然后我就买了一个costa，买了一个电池就150还是200块，然后上网搜一搜，然后再用ChatGPT大概就琢磨一下，然后知道没什么危险，自己就换了。换了1个小时，可能有些螺丝太紧了。每个工具我再买个工具基本上就搞定了，但人工费等等于就没有，那这样子就可以省好多钱，至少省500块钱以上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正刚开始的初心肯定是觉得人工太贵了。然后后来发现自己能搞定很多事情之后，成就感就上来了。很多事情我发现尤其美国这些家电都是标准化的，然后他们维修的方法也不是说修，他们其实就是换。然后很多零件你坏掉了之后，他们都不是修好的，都是直接说我们换掉这个东西。然后换掉一个东西的话，其实就很简单了。你大概就是照着那个youtube都可以。然后你把那个零件拆下来，然后换掉换一个新的，都是标准化的，然后我觉得非常的容易。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可不可以这么说，有一些在国内或者在香港生活的一些生活哲学，在美国这边就不适用。反而你要做出很多的这种生活上的改变或习惯上的改变。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在那篇文章也说了，然后我觉得就是你settle down在美国settle down的时间可能是在香港的好多倍。我在香港它毕竟虽然它是一个中西结合的一个城市，然后也比较先进。但是大部分你只要会中文的话，你是亚洲人在那边适应还是蛮简单。但是美国的话完全不同，首先文化就不同，然后出行方式也不同，大家社交的方式也不同。我觉得这几个大的点其实是完全就是颠覆我在之前来之前的印象的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最起码我觉得之前在来美国可能想的是说很多事情。因为网上都说美国很多事情比较容易，然后大家也觉得这边很多事情比较随意。比如说你他们给我举什么退货的例子，退货确实比较方便。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我举个很随机的，就是你比如说去DMV去办理驾照这个事情，你如遇到不同的人办理的这个结果跟体验完全是不一样。他我特别随机，你整个这个过程跟什么香港国内标准化的这个体验完全不一样。你去了之后，你遇到一个比如说今天他心情不太好的人，他就会刁难你。然后他说你这个材料没有，你去拿。然后如果遇到一个心情特别好的人，他说你这个材料没有，你可不可以直接给我看一下照片就可以。我说那太好了，我说那那节省我太多时间。然后对，就是整个流程完全就是大相径庭，这很多事情都是这样的，差异化特别大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最早拿着那种什么f one或者h one b等于就很烦，每年都要去回去renew一次驾照。然后我在西雅图，我当时是加州的驾照，然后去西雅图去更新驾照的时候换成下图驾照。然后我去的时候，我那天跟她聊天，可能我英文也比较地道，他也没问我是不是什么身份，然后他就说welcome back，因为我之前是在西雅图住，我说我copy我回来还是welcome back，然后给了我五年的驾照那个期限，就什么都没问，完全是因为他，我觉得他心情好也不care就过了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这种事情太多了。我之前还有一个就是我另一个朋友，他去帮他的孩子办那个SSN。理论上来说我们持有工签的人的孩子是没办法，有没有在美国出生的话，是没办法拿到SSN的。你可以申请那个ITIN，他们叫itn然后去用报税用，然后可以领一些500刀的tax credit。但是他去一个很偏远的小乡村的一个DMV，然后就把那个SSN办下来了。当时他就说他去了之后发现是一个老奶奶非常的慈祥，然后说你办这个事有什么用？他说就是为了报税，就问了这一句。然后所有的事情华又给你都办完了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我听说这个事儿，我说那好，那肯定好，我也你也去了是吗？我也去，我驱车一个半小时开到那个很偏远的乡村，然后一到柜台发现是一个年轻的妹子，我就知道完了。他就特别较真，然后他就问你这个目的是什么？我说我也是报税，然后他说如果你是报税的话，那你用item就可以了，没必要用SSN。我说我说我有个朋友，然后他就说那他是不合规的，那那那那你这个是不行的，然后你今天肯定是办不了的。他说我劝你还是办一个ITITIN。我说那好吧，我也没办法，然后我就走了。对，反正就是同一个地方，同一个窗口。但是不同的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人我认为他们所谓的公务员，他们不是特别在乎这个结果。如果运气好，他不在乎的那个方向是你想要的那个方向，那当然是最好了。有时候可能就会更多麻烦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一点我觉得还比较矛盾，就是我感觉美国很多地方比较程序正义，就是大家都按着这个什么document或者说rules去办事。但是你又像在这种场景里面，好像很多人又不是特别在意这些rules。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我认为在这边也是有一些stress，smart是有办法的。就是像那天你如果看了我的那个，你说你看了那个第二期视频吗？我之前的同事他不是如果有被开了罚单，他会合理的去chAllenge一下。有的时候就可以chen ge过他的那个观点，就是你跟你的惯例类似，就是如果遇到了这种程序化的东西，你可以去折腾一下，说不定你就可以折腾成功。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>问题就解决了。我这个最近正在折腾，所以我深有体会。我其实蛮喜欢这些的，因为我我我比较喜欢读那些条文。如果他对方没有读的话，那我的优势就比较大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不，你这个还真的挺厉害的那也许你说程序员的那我可能是个不太合格的程序员，你觉得这个蛮厉害的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有有的时候这还是得益于于AI我觉得还是得益于AI如果是让我平心静气去，非常认真看那么长，我有时候也看不下去。有I的话最起码他先summarize一下，或者说他translate一下，我都是比较更容易去看完。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>甚至我刚刚说咱们有一些不会做的事情，用AI我基本上都是用ChatGPT换一些东西。我拍问他这个零件叫什么，怎么找，大概叫英文，叫什么名字，我怎么买？这都是问出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很有意思。这件事情就是我之前垃圾桶被偷了，就很神奇，就是我我家的垃圾桶明明有两个莫名其妙丢了一个，怎么也找不到了。我我我就想知道这个东西到底是怎么能我自己买一个吗？因为我看到其实比如说home debo好像他就卖这个东西，你是应该自己买，还是说你自己去找回来？还是说这个事儿要报警，还是说这个事儿就是有专门的，比如说HOA去帮你处理。然后后来发现其实你只要给市政管理垃圾桶的在这个单位给一个邮件，然后他们会送一个新的过来，然后你就不用担心了。然后这个事儿当时是最开始问了好多人，他们都不知道怎么处理，他们完全没有遇到过这个运输的情况，他们也不知道怎么办，所以问下GPT，我甚至都不知道应该怎么用那个英文怎么说。然后问ChatGPT，然后他们他直接给了一个模板，然后他说你就这样发就可以了，完美解决。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我的例子是我现在都不知道那个怎么说，就是马桶里面你按那个按键，它不是会把里面的那个活塞给打开，对吧？然后我那个按键跟我按的那个东西，它跟里面好像生锈了，所以每次按下去之后，它就不合上，也就导致会长流水。我去年家里面，我下图那家里面因为人不在，有人按了之后没关，一个月不知道放了多少水，一个月的浪费了水费可能六七百块钱，当时我就惊讶了，没人住，而且是然后后来对我后来回去之后，我就发现就有这个问题，我也找不到，我就拍了一下。然后他就顺便加翻译，告诉我五块钱就可以买，可以自己去home depo买一个换上就行了，就这么简单，不然的话真的要找人几百块钱就花进去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>同样的完全totally say。然后我当时是大概花了两天时间，我一直搞不定这个螺丝，拧一拧拆下来试试都不行。最后问了ChatGPT，他说其实有可能是因为那个气垫儿太久了，然后可能它膨胀了或者是怎么样就是贴合不了。所以我就买了一个气垫换上，然后就可以。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的文章里面你说接受人生的随机，你有哪些时候是明显感到在美国的生活是非常随机性的？在随机的时候你会感觉到焦虑吗？还是你对这个随机是其实是抱有positive的乐观的积极的态度呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>首先我肯定是乐观的，就是不管它是好的随机还是坏的随机，我其实这里的随机我指的是很大的改变，不是说光在美国，就比如说我去香港就是一个很随机的事情。我当时其实完全没有想过我要去香港，然后来美国其实也是一个比较随机的事件。你想我在香港工作好好的，为什么会突然来美国？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>去香港工去美国的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这些这两个机会都是比较随机出来的，都不是我自己就是有有策略或者说有计划的执行出来，都是正好碰到了。然后我说是不是可以试一下我为什么来美国？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个问题你现在觉得是怎么样？你觉得是worthy吗？值得吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>来之前的想法其实蛮简单的，就是我想探索，有很多家庭原因，比如说有可能我们想再要一个孩子，当时然后当然当时没有说特别计划好说一定要确定要第二个孩子。但是我们我跟我老我太太都是觉得有孩子越多越好，我们俩这个方面还比较一致。然后我们在想，如果是你想要多个孩子的话，那你在香港的话可能是比较麻烦，就是你可能也能你得找到一个合适的房子。首先在香港就要负担这个房子，这个成本就比较高了。其次香港的教育也比较卷。所以这些是一些现实的考量。但除了除去这些现实的考量的话，我们最大的动机来美国就是觉得要探索一下，觉得大家都想来美国，那为什么呢？然后来了美国到底有什么改变呢？我们我们也非常好奇。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后当时问了一些朋友，问国内的人，还有问已经在美国的国人，他们都有点劝退，说感觉没必要，你在香港多好啊，然后怎么样。但是我问外国人，就只要我是问外国的同事，他们基本上都是说你是想去吗？你要想去的话那就去。为什么要考虑那么多呢？然后要不就是说这是一个很好的体验，那你为什么不去拥有这个体验呢？如果如果你是就是你你喜欢探索的话，那这是一个非常好的机会。我反正我听完他们觉得我说对，我为什么要瞻前顾后呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外我在我那个博客里也说，我做决定这种重大决定的模型，大概就是说如果我考虑到将来会后悔的话，我就会一定会做这个事情。其实我不想在将来的某一天想起来说，我当时就应该去美国之类的，我不想说这种话，那我一定要抓住这个机会，所以当时就义无反顾的来了。来了之后我觉得很多印象跟我们的其实最初的这个research是大相径庭的。对我不得不说对差了很多。然后最开始生活上也没有那么顺利，其实是一个战争迷雾打开的过程。我在我们上次聊的时候，不是经常抱怨这些消费比较高什么的。其实我后来发现很多事事后是因为我的那个信息搜索没有到位。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我发现很多事情，举一个例子，就是我们买那个修东西的工具，这些套件什么socket，还有那些螺丝刀之类的。如果你去home deep买，然后那些好的牌子可能要两百刀。然后你去楼上买的话稍微便宜一点。然后你去沃尔玛他买，那就便宜的不行了。然后你用起来其实是没什么区别的，可能只是包装，那些金属的材质不同。但是对于我们这种业余的选手来说，我觉得我mart的已经够了。然后home diff两百刀，娄艺可能180，沃尔玛的只要二十刀，一模一样。然后沃尔玛的那个甚至比那个功能还多一点。那你对然后我所以经历过这一段这些探索流程之后，我发现美国你可以找到一个比较舒适的区域，然后你延续之前的生活质量还是挺好的。更大的好处是房子比较大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果是有一个宽松的这种成长环境的话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我的孩子现在还小，其实你看不出对他们来说就比较大的影响是什么。可能有一点影响，我稍后再说，但反正对我们大人来说，我现在觉得还是挺verse。就是你最起码房子比较大，然后你可探索的环境就可探索的，可探索的战争迷雾比较多了，就再call back回去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果你在香港的话，其实香港总体来说比较小，虽然它是包罗万象的，然后你可能也需要一定的时间去在香港进入到这个城市的氛围里面。但是在美国你毕竟就我说周与周不同，你可能去一个地方就会领略到不同的规则，不同的这些生活方式。然后在亚特兰大你可能有不同的美食，这边韩国料理竟然这么发达，是吧？韩国文化。如果你追韩星的话，住在亚特兰大简直太幸福了，经常有韩星来这边，然后看看一看NBA什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正总体来说，我觉得到现在还没有体验完，竟然每周我甚至现在可能会做一些计划，就是有计划的去尝试一些不同的东西，去一些这些，比如说很知名的牌子，我我我最近特别想去一个叫jack Daniel的，你知道那个酒吗？就是可乐家就知道的，喝起来像药酒的一个酒。对，他他那个宫他有一个庄园，就在我们亚特兰大附近。然后我还想开过去看一下，蛮有意思。对，有计划的执行一些这样的事情，然后去探索。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后刚才再说回孩子，就是我刚才不是提到说孩子虽然他还小，但是有一点就是我觉得跟香港不同的话。如果你想在香港，像他比如说三岁左右上学的话，他其实已经要开始学很多我们觉得比较硬核的东西，比如说数学之类。在这里面好像还好，你可能要多学一些西班牙语，或者说你可以带孩子游泳，但是还是太早了，只有比较卷的家长可能才去做这些事情。然后另外一方面就是你去上day care班级的同学的构成是完全不一样。这边的diversity肯定是比香港的diversity要高的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这一方面对孩子的影响，就是说他觉得好像不管是肤色还是人种，还是不同的这种语言之类的，其实他都能接受。他是非常open，他觉得每个都是好朋友。对我觉得在这样的环境长大的话，可能心态更包容一些。然后学校也比较大，你可以出去跑很多地方，然后压力也比较大对这些我觉得潜移默化都是有一些影响的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是你对重大决定的这个model叫什么来着？你说是如果后悔决定不后悔决定是吧？我们我跟我队友我们两个人有一个也有一个model。我们的model就是说在做这种选择的时候，如果两个的结果都差不多或者情况都差不多，选更难的那一个。因为我们总觉得更难的那个类似于未来不会后悔，就你走难的那个简单那条路。当然你也可以完成走难的话，你学到的东西可能更多，你收到的回报说不定也更大我觉得这个model套用在你来美国的这个经历上面，其实我觉得也是有。因为在你的这个工作阶段已经有establish的工作，然后在一个地方已经settled down了，在完全重新开始到一个新地方，我觉得还确实是一个困难的困难模式。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且我在我那篇来美国两年后的文章里也写了，我是喜欢把困难集中在一起的人。就是我不是喜欢那种可能我不是一个有计划的人我不是一个planner，也不是一个jay人。就是我我做事情我自己做事情就比较随机。说实话就刚才你说随机，我自己做事情比较随机。比如说如果我有计划的话，我可能会觉得你刚来一个新环境，你需要先适应这个环境，然后等你适应了之后再考虑生下一个孩子。但是我当时的想法就是说，反正这个事情你现在觉得也不是特别好过，然后已经有觉得有些困难了，那索性再来一个困难。大家把这个困难一起一口气搞定之后，可能两三年之后，你的这个生活就容易很多。就你把hard的模式一口气都过完了，然后easy模式就来的比较快一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个forcing function。我觉得有时候太comfortable的话，你就会有自己就总有一个你感觉有一个就是一个back up plan，你可以就一直耗在同一个地方不动的。你一旦给自己一个佛性方式，我觉得没有什么比生孩子更加是佛性方向的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也不是特别爱push自己的人，我是一个蛮躺的人。其实但是我只是觉得你创造一些这种chAllenge给自己，然后在无形之中因为这些chAllenge其实是对你来说不是一个完全克服不了的事儿，也不是说走出自己舒适区要多远。因为毕竟其实我们已经有一个孩子，你看生第二个孩子就不是一个舒适区，要走出舒适区很远的事情。然后之前学到一个概念，就是说你要走出舒适区是要在psychology safe的情况下，我觉得这个其实就蛮好的。只要你保证你的psychology safe的情况下，你偶尔去一下舒适区外面，我觉得还是对很幸福的一件事情。也没必要把自己铺设的特别狠。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有孩子都被你们劝惩有孩子听上去确实好像。没关系，先第2个OK的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能你只有有这样的心态，你才会看待这件事情没那么难。如果你你觉得你非常take series，就觉得这个事儿你是赋予一个新的生命，然后你要对他负责之类的。其实很多时候你想的越多，然后就会越觉得这个事儿负担越大。你反而像我这种比较随机的人就觉得还好，但候总会有解决办法，然后也比较开心，大家都活得比较轻松。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这样在我看来你的包括你的变化，你对生活的态度，即便你说是随机，但是你对生活的态度是非常积积极的，在我看来是对这种现状是有一种挑战的这种表现。但是在你的文章里面，你还是说了有一句最后说了一句接受老话，接受自我平庸。我觉得这是一个自我调侃，对不对？</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是不是，我是深刻的觉得自己老了，尤其这两年来了美国这两年经历的实在太多了。尤其是你经历的时间这些事儿越多的时候，你虽然会觉得时间很慢，理论上来说我是觉得时间越来越快。其实我在香港的后面的两年，因为疫情的原因，每天过着单调重复的生活。当你的生活一直单调的时候，你会觉得时间过得简直飞快。一我有时候觉得疫情的三年就是一瞬间，你有时候想起来最印象深刻的事还是疫情前的事儿。疫情的三年到底经历了什么，现在有时候都想不起来。所以我觉得我要自己给自己创造一些记忆，那你肯定要去take一些chAllenge。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后来到美国，我是深刻的觉得自己真的老。很多时候尤其比如说经历，就比如说经历，我头发掉了很多，头发掉可能是因为压力之类的。但反正经历上面我觉得跟以前比还是下降了很多的。我以前我是一个睡觉比较少的人，但反正不管睡多少，然后第二天起来都神采奕奕。基本上现在的话，我每周可能会有一天的时间完全回到家，下了班开车回到家，吃完饭就完全动不了了，你知道吗？就困到不行。我之前是从来不会困，尤其是我在电脑前面，我是我是不会有困意这个东西的。我只要在电脑前基本上可以一直坐坐着，然后做一些事情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也不知道是从什么时候开始，然后竟然会觉得困，然后也不知道是从什么时候开始，竟然能困到完全动不了，困到完全动不了，这个是我完全接受不了的事儿，你知道吗？就是我我吃完饭竟然完全动不了，然后直接躺在沙发上就开始睡了。然后一觉醒来突然发现凌晨两点我已经睡了可能五六个小时。然后我第一次经历这样的时候，我我我以为是难道我生病了吗？然后后来两三次多了之后，我发现，可能就是我身体他自己给了自己一个机制，就是每周因为我平时睡得少，那每周一定要有这样的一次。然后我后来也接受了，那那就这样吧，反正睡眠这个事情让我觉得体验到了精力的下降。包括平时我以前不是一个咖啡，就是一定要喝咖啡的人，现在你可能中午吃完饭之后一定要喝点咖啡，你甚至中午吃饭的时候你要小心一些探水，要不然你下午会有点困。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>huberman不是，他有那个理论，就说咖啡不能喝太早，或者咖啡不能怎么个喝法，就可能喝太早，你整个一天就会exhaust。我会有这种，如果我一天喝的，比如说每次都喝double shot，然后就喝了两杯咖啡之后，我可能晚上回来就特别的累。我就发现咖啡会让我exist，我也不明白是为什么，有可能是他让我精力充沛，然后干了很多事情之后真的把自己累到了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能身体觉得累，但是你的中枢神经不累，就很多这种情况。之前听那个team faris他他也讲到经理管理，他说每天早上起来晒太阳很关键。就你起来的一瞬间，你要最早，尤其是让你的眼睛接触太阳的话，可能它它分泌那个叫什么来着？对，反正就分泌一种激素，然后能促进一天精力比较充沛。我觉得这个也蛮重要的就是你竟然开始关注这些了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>以前其实我也在想。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这其实就是一个迹象，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，以前不需要了解这些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对以前不需要接受老化，我觉得太正常了。还有一些最可怕，我觉得身体上的老化，我心理上是完全能接受的对吧？因为你肯定年纪大了，这个自然而然的。但是我觉得有些心理上的老话我是接受不了的，而且我就是在克服这个，我不知道你有没有感觉，就比如说你有些名词听不懂，你跟特别年轻的人交流，特别年轻，比如说05后，你跟他们交流，你突然发现他喜欢的东西，然后他说了一个东西，你突然发现这个东西你竟然要做一下功课才能听懂。这个时候就是一个比较需要小心谨慎的时候。你有时候会觉得这是一个比较就是你看不上的东西，那你就是很自然而然会觉得看不上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后这时候我心里就会有另一个声音跳出来说，你一定要小心一点，这个东西你要认真研究，不要一开始就否定他。你想它流行肯定是有一些流行的原因的那年轻人为什么喜欢他呢？你是不是应该多花点时间稍微了解一下，你不要一味的直接否定，有可能只有就变成一个有一个证叫老头综合症了。然后觉得所有的年轻人都是一些不学无术的，扶不起的阿斗之类的，这个一定要避免。所以我有时候会刻意的让自己跟年轻人交流之后，做一些功课，赶紧学习一下他们，他们原来是可能喜欢这个东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一些就是比如说新的工具，因为现在趁手的工具实在太多了，然后你自己也适应自己那一套，然后有一些新的工具出来，我觉得太花里胡哨了，我根本用不到那么多功能。但是我最起码会有时候逼自己，最起码你把它当load下来，然后跑一跑，稍微最起码看一下UI。你虽然可能不用它，你稍微知道有这么个东西，然后这也是一个我觉得有点接受不了一就觉得这些工具都没必要用了。然后我现在手头的东西全部都够了，包括AI你看AI每天进步神速。对，我我我可能觉得免费版的GPT就够了。那我是不是有时候他出新版了，我稍微充一下钱，最起码看一看他这个新版有什么功能，让自己了解一下。比如说在germany他出那个notebook什么，你最起码要试一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以有时候这些有可能是自己的惰性，有可能就是老化的一种现象。就是你觉得这些新生的事物，包括年轻的事物，你可能接受不了，或者说觉得没必要接受。这个心态我是有意的要克服的，就是觉得这个真的是老化的不行了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对不了解你的或者不认识你的观众和听众来说，你的这种焦虑应该是一个specialize的焦虑。因为你是一个喜欢对你会你会你是一个已经了解过很多工具，已经探索过很多在我们的这个行业之内的工具的人。当你发现你自己不再探索新工具，你会有这样一个反差。对我来说这个焦虑我一直处在不了解所有工具的那个那个领域里面。所以我倒不会觉得我自己在某些东西上落后，因为我从来就没追上过我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实对我只是拿工具举个例子，反正总之来说就是我我怕自己拥有一种心态，就是完全接受不了其他新的东西。还有一些比如说我太太短视频里看到的东西，我会觉得短视频里一切都是有毒的。但其实它可能短视频里看到是一个比较有用的东西，他分享给我，但是我就不想点开，我甚至把那个功能就短视频的功能都关掉，那我就是一下就把这个东西拒绝了。我觉得可能要稍微避免一点，就是没必要否定或者说一些理念上的东西。这个朋友跟我说了一个观点，然后那个朋友跟我说了一个观点，他跟我是契合的那我就直接否定了。另一方面我我我特别害怕这种情况的出现，所以我就兼听则明，大概多听一听，最起码不要表面上，最起码表面上要兼听则明。然后你心理上可能这人人总是有一些固执时候，然后你可能就是觉得他对，然后你最起码不能说从里到外整个人把这个观点都否定，我觉得这是一种比较可怕的现象。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实看自己有很多，要用你的话说就是老化老龄化的这种情况。比如说我打游戏，我现在打游戏就坐在那里打游戏会睡着。我工作不会，我干别的不会，看电视、看电影都不会，但是我打游戏会睡着。然后我发现我跟我自己年轻时候的喜好突然已经开始divorce了。比如说父母说你打游戏有什么意义，我心态渐渐的在往那方面转变，就搞感觉好像自己live long enough to be the villain的感觉，这是一种老化另一种一个表现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就在我们办公室里面有年轻的小朋友，他非常客气，他们非常客气非常好。但我感受到的反差是，比如说我早上先到了，他来的时候会跟我打个招呼，然后走的时候会跟我打个招呼再走。但其实在美国没有这counter的。然后那个时候我就发现，我跟人家可能差了十岁，人家是把我当长辈这样对待的，类似于这种i&#x27;m old。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>总体来说，反正总结下来，我就是觉得心理上的老化可能比身体上的老化更可怕。反正拒绝油腻，不要成为一个油腻的男人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>甚至我我都开始在听一些年轻人听的歌了，我发现我听的东西还是我小的时候喜欢的那些人，他们出个新歌我听一下，但是我对新的东西接受度比较接触面比较少，所以我就在听。比如说听spotify我就听一些就乱点，反正点点进一些，比如说台湾的歌手就是点跟他们相关的，其他我完全没见过的歌手，就尝试听一听就看。但对，但是我觉得我已经老龄化了。我觉得最catch的那些东西，比如说我喜欢听周杰伦，他的东西我还是觉得喜欢。但是新的东西我要actually take efforts才能去appreciate。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我有个问题要问你那你觉得自己作为一个有经验的人，会比他们这些年轻人有很多优势吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说是工作吗？还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>生活就是就是你自己会有一种优越感，会觉得我已经经历了过去。就是那句话，你我吃的盐比你走的吃的米都多，这种时候你会有这种时候吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>觉得我工作里面应该没有，因为什么呢？就比如就用level来说，其实我工作里面很长一段时间都是比我年轻的人level比我高的，然后他们在工作里面的behavior也比我成熟，所以我经常其实会比我年纪小的人就是be humbled by them。所以他就很难让我有一个就是我比较比我资历比较多这种状态。也可能是因为我们做product的里面年轻人比较多，有sharp的年轻人也很多，所以反而不太会让我有这种机会。生活里面我倒没有什么特别好的例子，生活里面可能太太太就是不太搜索，太矮了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>生活里面可能你还年轻。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>相对于美国的相对年轻。对，我周围都是老大爷。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>周围都是。对对对，其实接触最多可能是邻居，邻居一般都比自己要大一些。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果我说我自己的性格的话，我觉得我是一个非常偏people pleaser，讨好想要特别对讨好型人格。对，所以我在即便是在普通的环境或者conflict下面，我不太会摆一个我自己的姿态，那是我比较不是我的comfort one这么说，所以我就很难把自己放到那个位置。但有的时候如果一定要显得我的资历更多，我要make call的话，那可能就得演起来，就把那个气得提起来才能说这样子的话。但它不是一个自然的表现。OK可能有些时候，比如说有save，有一些问题你必须得处理，你必须得告诉别人你的experience，那种时候可能会特地的做这样选择。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感觉这个我得跟你学一下，我还不会怎么演起来。就是确实有的时候需要这样的时候，但是还不太会也不熟练。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，其实我别人跟我说过，我在internal就是我的照片什么的，看上去挺凶的。后来我就想我还是我还是多笑笑吧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能我平时不太笑挺好的。你你你就像lex fragment转型就可以了，就做一个不给我延续的高冷男神。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他很厉害，他太calm了，他对所有的问题都没有那种hold不住自己那种激动的感觉，没有太理性了。这个人我觉得他他是怎么做到的，其实很难，但我也没有。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>说你要想他有可能也是在演。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他的podcast就是适合不是你这个性格，你是可以听下去的。但很多我给比如说给我老婆听，她就听不下去。因为太平了，可能五分钟之后人都睡着了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我也是看嘉宾的贝佐斯，那一期我听了好多遍，我我我不是被lex吸引的，我是被贝佐斯。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>吸引在明斯克。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对嘉宾更重要，他那个博客明显就是嘉宾更重要。然后贝佐斯那期我也不知道为什么听了很多遍，就是觉得很有趣。他说每句话我都觉得太吸引人了，就是觉得很有魅力，然后也很有智慧，很多事很多话，他的经历，还有他的转型，还有包括他后来做那个blue origin的那个愿景，然后我都都觉得蛮有意思。对，而且感觉很真诚。不像有的人嘉宾可能你看lex freedom都装起来了，那我也要装起来，就是那样的对，我我我觉得这个还是蛮能看出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的那你应该适合amazon，那你他那个你喜欢的东西跟amazon的code是一脉相承的basis。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他已经退就他退居已经退休了。对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>二退居了已经刚好。其实你来美国的这几年是这个general AI刚刚开始爆发的这几年。其实在你来之前我并没有觉得，比如说我毕业从14年到即便是20年，我都没有觉得科技行业有多么大的天翻地覆的变化。可能程序员越来越多了，但是没有这种绝对会被颠覆的这种变化。那现在我觉得这些技术会影响我对自己的价值的判断吗？就是我觉得可能我最后会变成一个类似于manager的角色，我可能管一些agents，我帮自己做事情，我不用写所有的code，这种想法会变。那么对于你来说，你会怎么去重新判断自己的价值，你会不会有这方面的考。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多考虑这个问题每天都在想，其实我自己还没有特别明确答案，但是我会做一些措施避免我被淘汰。但是总体来说对自己价值的判断，我觉得我还是有一些价值的。因为你从这个AI的根本原理上去想，就是它是被语料训练出来的。然后它的核心的功能就是说它由前面的这个字去推算后面这个字。然后后面这个字它其实也是用这个概率或者说five ten five turning，就是反正人为调节或者说它算法的概率去算出下一个字。然后它它你从这个原理上去想，就是说如果你的脑子里有一些知识是没有暂时还没变成语料AI是也没办法产出的。所以说我的内心或者说我的技能点有一些我觉得我暂时没有公开到github上，也没有说写到blog里。作为技术的层面，我觉得这方面是一个我自己还能让我自己赖以生存的一些点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后其他的我觉得他AI的出现让我思考一个问题，就是说技术还那么重要吗？就是让我觉得这个点就是你你如果说觉得技术重要，那你我刚才说的那些就是你还能赖以生存那些技能，那就它还是重要的。你可以用它一直可能再活个十年之类的。那你如果觉得觉得技术不重要了，那是什么更重要了？然后这个是我一直在思考的点，就是我觉得AI出现之后，让我觉得很多people&#x27;s kills更重要。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就人与人之间的这些连接，或者说一些技能，然后network这些更重要。我觉得比比你掌握ai掌握技术要重要的多。因为我我在我我去年我们代码之外的博客年终总结里，我也聊了很多事情。我发现最终的决策者，或者说我们再call back回刚才那个是随机的事件。你这些随机事件到终点，或者说触发一个转折的时候的那个点都是由人触发的，所以说很多事是由人控制的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我刚才我们举了一个例子，就去那个DMV去办那个SSN。这个事儿它不是由这个rules决定的，不是由语料决定的，不是由一个互联网上已经现存的任何的东西决定的。而是当天办理的那个人，他心情好，然后就给你办，或者说那个老奶奶就比较慈祥，她给你办。所以说很多事情我在想，可能不管AI怎么发展，总有一些关键的点是人在把控的那你如果说你能在这个AI之外，你把这些network或者说你为人处事的技巧建立好的话，我觉得可能比掌握一些技术更重要一些。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一开始在想这个问题的时候，我觉得OK工作里面这是一个潮流，我不可能避免，那我就去顺应它，这是一方面。然后我最大的改变应该是看我自己的这些channel。就比如说我当时讲了跟工作相关的，有最早讲过面试，后来讲过communication什么的。后来发现很多东西都是基于我一是一个程序员，或者基于我这个flag而存在的。后来我发现AI出来之后，可能程序员淡化了之后，我讲的这些东西都变成废话了。就是你直接问一下拆GPT都有了。我并不要通过不用通过一个ten year experience的程序员来拿到这些东西。我的channel的那些定位就是慢慢就开始错了，就不对了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我就想rebrand，那rebrand之后做什么呢？我觉得如果能找到这些individual，这些人，他们有些是比较in inspiring的人像你我觉得你是比较inspiring的这种例子。然后还有一些，他比如说有些思考的很深刻，我想知道别人是怎么想的。最后我发现也许跟人交流能留下跟人交流的那些内容，比讲我自己的技术，讲我知道的一些业内经验，我觉得更加有这个意义。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就理论上来说，我们现在正在录的这期节目，如果发到网上，将来有可能也会被ai学习。就是会变成他的语料。就回归到我们刚才说的就是人他作为一个比较复杂的综合体，他不可能把所有的事情都变成语料都说出来，让很多事情在这个现实的是社会中，或者说这个世界运行的的过程中都是一些很潜规则的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多事情是你需要自己体会的。比如说一个眼神，一个手势或者说一句话。他为什么这么说？我觉得很多时候这是一个就我之前觉得他可能是一个与生俱来的东西，或者说你在潜移默化中就是你能感知到的。后来我发现这其实是一个技能，就是你你是真的需要去学习的。为什么有的人在这方面做的比较好，他可能也是被训练出来，而不是说他天生就会这样做。所以我所以了解这些潜在的规则，然后了解一些拓宽自己边界的东西，最起码人际网络就network，然后你要建立的更广一些。对，知道这方面我觉得就是一个比较需要努力的方向。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外一个，既然AI出来了，我觉得很多时候我觉得我们可以因为他暂时来说你可以看作他虽然他有hello nation，他他他有一些不确定的东西，但是他大部分的时候还是对的。然后你利用它可以拓宽自己完全之前没想过的东西。你是你因为我觉得人阻挡我们或者说对我们最大的限制其实是那些unknown，就是你不知道不知道的事情。然后你如果能消灭这些你不知道不知道的事情，我觉得就是一个利用AI比较好的方法。就是你你可以利用AI去去消除这些，你这也算是一些知识层面的战争迷雾。就是你你可以看怎么利用AI把这些战争迷雾打开。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我至今我觉得很多事情，尤其听一些比较就你说那些inspire people，我自己根本不算。我觉得尤其我听一些大佬那种，比如说在一些大公司里已经做到很高，就CCXO这种级别的他们的思维，他们的认知，你听他们聊聊很多东西，他可能会引经据典，这说明他最起码阅读量是没什么问题的。第二是他很多很多话，他会把一个很复杂的概念，用一个很简单的东西，简单的话来说出来。这说明他对这个东西的理解是非常深刻的。然后第三是他会站在你的角度，或者说站在一个他他自己是一个像一个他自己思想的sales。然后他站在一个听众角度，他把他自己的思想sales出去。我觉得这三个点都是比较厉害。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得你表达的东西跟我想的一句话有点类似。就是现在有这些技术，有这些AI可以让我们可以解放出来，我们这些人可以grow as a person，之前我必须得grow as a soft engineer或者grow technical skill。以后我的经历也许我就可以放在除此之外的一些东西上面了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前我们都陷在各个角色里面了。对，有可能你就把自己限死了，可能你用AI可以把自己一些其他的潜在的可能性解脱出来，解放出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你有可能是最有安全感的，因为你本来就喜欢钻研这些东西。我觉得可能相对比如说我的话，我是特地去上了一个课，我才把自己从一个就是我什么对什么都不知对那个粘牙什么都不知道的一个状态，变到了一个我也稍微懂一点点，然后我觉得你喜欢折腾，可能你很快就会慢慢adopt two different tools。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我觉得我是一个为至上论的一个人，就是我觉得我自己智商不是特别高，所以很多时候学东西没那么深刻。也然后记忆力也算智商的一部分，然后记忆力也很差。我可能学东西很快，就是我我要了解一个概念很快，但是我忘的也很快，所以我得不停的学。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后最痛苦的一点就是说很多新的东西出来，我第一是刚才我们老话没有意愿，所以我要强迫自己稍微去学一下，强迫这个加增加自己的意愿。第二是你学了之后发现自己竟然学不懂，然后就很痛苦，然后心里想算了，要不就就这样就学到这个程度就可以了。然后你发突然发现有一天出来一个人，你在podcast里一听，人家这个穴的程度，他也不是这个方面的人，为什么他就这些都懂了，然后你的动力又来了。今天晚上我就把这方面稍微再深化一下，然后你还是我说的学的很快。然后第二天你跟别人讲的时候，你发现还是没学到位，你就自己没理解，然后你就没办法去跟别人再再用你的话去讲出来。所以我觉得这些来来回回，很多事情就是慢慢的去积累，我觉得我也不是那么push自己，反正感兴趣就学，不感兴趣就算了也也没必要觉得不安全之类的，反正保持一个开心的状态。我还是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我跟上次想说的话是一样的，反正我经常看看你的那个twitter上面的信息，我觉得应该就会不会转到一些我没看过的东西，没看过的想法是还是挺有意思的。你和你的可能一些peer，就是我在看到你like的一些，他们也有类似的这种转传一些自己心事的工具，新的这些东西，我觉得还蛮有趣的。你是我的一个怎么说这些tools的一个outlet。对，可以看到一些对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的假的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在因为我不太自己去尝试很多东西，可能被困在一个公司的bubble里面，就很少有机会自己去explore。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也可能是我我身边的人inspire me，我现在推上也不发特别多的那种学到的东西了。因为我自己看的一方面比较少，一方面问问AI很多问题都解决了，就没有动力去发一些。今天发现了一个很酷的东西之类的，大部分都是一些家长里短。另一方面我这些也是刻意的，就是我我觉得分享学习资料就不像以前那么频繁。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>分享学习资料我觉得很多程度就是在制造一种知道一种焦虑。不是焦虑，知道一种无用的信息。就是这些信息如果是一个想学习的人，他可能他们应该就能找到。如果他是一个不想学的，你就算喂到他嘴里，他可能只是mark一下，那那也不会怎么样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后最重要的一点是你分享出来这个东西，其实本来网上就有，它它毕竟是一个网上的东西，你才看得到。那理论上来说，就我刚才说的这个AI其实已经知道了。它既然是已经是一个语料了，那你再把它变成一个二次的语料，其实完全没有必要只是用一种其他的方式说了出来。那那我觉得我就在产生一种就是我我那个不是有篇文章写的叫slope，就网上的slope可能对，所以我就想更变得有温度一点，做一个真实的人。然后只有是真实的话，然后做一个真正的人，这个才是一个新的语料。然后你这样的话喂给AI的东西，它才能变得有温度，对吧？就是你如果想要将来生活在一个全是agents的世界，你又想让agents跟你比较像，或者说跟你一样跟。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你一点样的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后你跟他相似点要多的话，你要尽可能输出自己喜欢的那些东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有没有发现我们都在不经意的在create未来的这些什么AI master。对比一下你有没有看过有人就是说有人会我也会写，就习惯性的让他干什么事情我会写please，我会说thank you，有的时候会写。但然后他们这两天不是说那些会烧，是对烧很多钱吗？然后我看到一个popular的一个comment，就是说就是想show respect to the future masters。对我我是真的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我之前也是看到有人有这个观点，就是你一定要对你将来的这个主人表示出respect。然后我每次都是用敬语跟AI聊天，然后很有意思。对，这个也是我自己就自己自娱自乐一些点对最后一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果大家想更多的了解到你，或者看你写的东西应该在哪里找到你。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Gig plus点com我这个域名我已经续了好多好多年了。然后虽然我现在更新博客的频率没有那么高了，但是总体来说，我想写东西的时候或者想表达的时候，我第一时间想到的可能会是写一篇文章，而不是说去发一个twitter。我觉得twitter现在就是我刚才说的，可能更更一些琐碎的日常。但是写blog的这个能力是我不想丧失的。另一方面就像我写这个来美国两年后，我其实一方面是写给自己的。然后另一方面我觉得在写作的过程中，这个过程比产出这个文章要重要的很多。你只有在写的过程中，你才能把所有的事串一遍，然后思考到底哪里？有什么insights，哪里需要改进之类的这事情你平时不会想的，你只有在认真坐在那儿写这篇文章的时候，突然想起来之前可能有个点，然后竟然现在回想还蛮重要的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你为什么喜欢贝斯？这是他主要的人生culture之一，他们送的主要考学最大的culture就是computation。就写文章的这个考试，然后他就说了也不是，他说可能是别人很多人就说了，就是写东西是整理思绪最好的一个方式。然后他们就鼓励所有人别做什么presentation，别搞别的，就写下来写成一个one pager。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，他在那个lex freedom采访他他最后说了说对他开会就不喜欢PPT，然后他就喜欢一张A4纸，我觉得这个真的蛮重要，就是你你归纳总结那一个瞬间，可能现在AI都帮你做了。但是反正你如果自己去总结的话，那个过程是比比那个你你你反正比其他要重要很多的对，这个包括我最近就做那个product management的时候，你把一些任务拆分出来，就你做计划到底有没有用呢？你你永远你你做了计划总会遇到各种各样的事情，把计划打乱，计划永远赶不上变化。那计划的作用到底在哪儿？其实就是在那个过程中，你做计划的那个过程。对你只有在计划你才能知道哪些地方有坑，哪些地方是你暂时的an unknown。然后你看你怎么找把这个unknowns clear掉，或者说找渠道解决掉。那个计划的过程跟写作的过程，总之就是一个能让你思考的形式，我觉得比较重要。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正如果这个太重要了，是的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，如果想找到我就去我的blog。反正对，应该域名还会再续。其实我之后可能更新频率更低，不知道，也有可能更高，但反正最近最近又是一个新的人生阶段，然后我可能会重新思考一下之后的路怎么走。我前两天听你们那期，你跟那就那个最新你改版了之后，第二期我觉得蛮有意思的。其实我我比较喜欢听这种真实的生活了，楼上就朋友之间闲聊这种。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，后面还有一大半，我们我们聊到一半让保安赶出来了。我那天是在我们在的那个office，当时没说那是其实是个office，使用亚马逊在sd Monica的那个office。原来我也正在工作，我们俩刚好就故地重游了一下。然后我们坐在那个办公室的一个室内的一个它有一个inside office，然后里面又有一个小阳台，他那个阳台它是security。是过六点是不让待的，结果我们聊天聊到六点钟，突然被打断了完了之后后面就没有视频了，还聊了1个小时的音频，我准备剪好了再再放上去。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感觉你最近转型这个lex freedom的这个风格了，尤其是看片头整个全黑背景，然后什么安卓们也是全黑的背景，然后穿一个黑色衣服，感觉你很像模仿他。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有的时候我觉得一些比较正式的介绍，一口气我没那么好的口条我也说不明白，所以刚好后面再补更加方便一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正风格我觉得蛮像的，包括那个停顿的那个样子，我觉得模仿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那个那个我是挺认真模仿的，最后介绍名字那个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，很很有意思。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那证明你也在听他们是吧？你也你还听什么podcast吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>英文的话主要其实就是acquired，然后lex fridman，还有huberman，还有周rogan。周rogan太长了，有时候这个真的是太长了，我有时候只听，可能前20分钟听不下去了。就对Jordan.</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他有的时候太random了，我听他讲那些外星人的，我特别好听，我可以全都听下来。但有一些我culturally不太跟我不太相关的，有的时候听不明白。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后对我也听不懂。对我有时候听不懂，然后跟同事聊，他们就觉得Jordan就是比较傻，然后他们都不喜欢。然后我就听他们怎么吐槽，反正大概能稍微又懂一点点中文的超级杂。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚开始都听的比较正经，就讲各种文学著作，然后还有一些这种心理学的方面的书。后来发现越听就偏的偏好到自己的那种喜好上面了。什么武侠，讲讲这个水浒传，然后讲武侠，然后讲什么金瓶梅，都是我比较感兴趣的，然后就一直听。对还还有讲什么电视剧的。最近突然发现了一个博客，讲讲那个经典的国产电视剧，什么大明王朝1566。然后科技方面的其实听的是最多的。但是科技方面的毕竟自己从业者，所以听完了。其实咋说呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是内容不多是吧？就重复的内容。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，大部分其实自己也知道，然后就听一个声音可能你说了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>quiet，还有一个我不知道你听过没叫hard fork，然后两个也是两个人，然后特别的搞笑。但是讲客气的可以有机会你可以听一下，就那种上班不是特别想听特别认真的东西的时候，你可以听那个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>感觉你上班还听。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是说上班上班上班路上上班路上，我现在上班每天老是开会，开会就没很少有自己的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这方面我本来还想请教你的，过段时间最近我老板给我画饼，就是我的职业生涯又到了一个分叉点，说的要不要转型到manager之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我去年下面这段我可以剪进去。刚刚我们说那个manager，刚刚我们说manager，我去年其实也有这个被被问过，是我们隔壁组的一个manager，他要转组了。然后他就问我要不要去他们那边当manager。当时我就跟很多人聊了，我们当时我当时有两个选择，一个是编程TLM就是他manager，另外一个就干脆就当一个engineer manager people manager。然后我先跟人聊了TLMTLM，然后每一个聊的人都跟我说千万不要当TLM，因为他的有很多原因。有expectation是mix的，你要做TL要写code，你要做people manager，两边都要succeed，有的时候就会非常难，就是吃力不讨好。最后我带的人也只能带什么两三个，就比较小，所以TLM就没了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>后来又考虑说要不要当engineer manager，我就跟我的director聊，然后他就chAllenge我，他就说你做什么最开心？你五年之后你是想变成people manager吗？还是你只是说你觉得自己有这个能力，可以尝试一下证明自己可以，反正他跟我说了半天之后，就就给我等于就给我劝退了。我觉得我最能发挥最大的地方应该不是做一个people manager。即便我觉得我能干，但可能会卡在那里。然后我就我最后其实是拒了的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得take lead是比较累的。其实我现在的这个肉就有点tgi就是你你又要你又要写代码，又要平衡同事的关系，还要做项目经理之类的，就是比较麻烦，比较mix的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实你们公司也挺好，就是没有说一定engineer只干只写代码，其实也允许你们做别的，这种我觉得挺好的，就是有tony y对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是大公司反正具体还是取决于团队。然后我们团队是确实比较灵活，我突然觉得还蛮有意思，应对各种不同团队的人，不同的利益方，然后他们说话也很漂亮，我就特别佩服他们。没有，总是有那么一两个人他说出来的。在会上面就是大家可能吵得不可开交的时候，他突然一出场，然后summarized他说123这3个点，突然就让所有的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>人都特别清楚。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他说大家都get aligned，他一说话每次都get，我就觉得很佩服。然后我也想学这样的东西，所以我就主动尝试。我说我看我能不能至少在UI这个方面，我看我能不能manager这个项目，然后老板觉得也可以，这是一个很好的机会，然后就正好站出来承担了这个责任，我觉得其实蛮有意思。自己也成长了不少。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前也有过这种你觉得自己缺好多，一定要成长那种moment。我有两个，一个是我刚来这个公司的时候，我们那有一个应该是new great，可能就new grad一年。然后我进去磕磕绊绊的，可能我背景是by engineer过去之后不知道该怎么去协调事情。结果他一个毕业一年的在美国长大的asian，一上来就可以指点江山，跟所有的什么PM，什么其他engineer其他组的人全部都manage的就是头头是道，感觉就像一个manager一样去操纵所有东西。当时我就惊呆了，我说就这么卷的吗？这个世界后来我发现其实不是说他们多厉害，而是他有这个自信，他有之前可能有这个experience，经常用英文交流之类的。然后过段时间我其实拿着他做一个榜样，最终也可以做的差不多，就是有confidence就可以做到了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得也是confidence是最重要的。但是语言确实也是一个方面。如果你语言有问题的话，confidence确实比较难建立。因为你没办法很好的上传下达的时候，就是比较困难对吧？你收到一个无理的需求，然后怎么能把它translate成一个比较合理的话，然后给你的同事，或者说你再怎么push back，这些都需要一些语言的技巧。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也是后来其实没有人教我，我很多时候都是看书。然后我发现看书还比较挺挺有用的。竟然这些事情都有现成的模板，都有人写过是吧？对，都有人写过，大家是孤独的，都遇到过，还蛮有意思。我身边也是有这样的例子，就是我突然发现比我年轻人，然后他出来把这些方面就各个山头都平的挺好的。然后发现他是怎么做到的？然后我发现我的心态也变了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能最开始可能有些eagle就是觉得，首先是觉得工程师你就要在技术上面多增长，而不是去磨你的什么软实力之类的。然后我后来发现其实soft skills蛮重要的这是第一点。然后第二点，我后来发现就像你说的，他可能是更有confidence，然后还有一些experience。我不应该去觉得这是一个他对我的挑战或者是一个compete。而是应该觉得说身边有这么优秀的人，那我为什么不不直接向他学呢？就是他已经做了一个榜样在在你前面了，你就直接照葫芦画瓢都可以做到这些东西。那那有这个机会为什么不去用呢？然后我当时觉得这个心态转变，然后我觉得一下就就一下打开了很多思路。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得这里的工作环境，我遇到的大部分的人是即便他比我强，他也愿意帮助我的，不会因为我比他年长或者我跟他有竞争关系就不帮我。我在公司里面遇到的都还挺好的。另外一个我想说的情况是我发现我跟那些人明显差距的是我看到有一些例子，就是我们有一些可能是skip EM，skip PM这种，我们有时候统称他们叫例子。然后他们去讲话的时候，我觉得好牛逼，就比如说100个人的场子，然后他上去presentation什么的。如果是我的话，如果我能准，我有机会准备，我完全没有问题，我可以讲的很好，但他们那种是的就random，大家pick上去，然后1234就可以讲出来。我觉得那个还挺厉害的，只要我来的话，我应该是脑子一片空白，我是没有办法这种randomly就可以come up with这种东西的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我而且我后来发现有一点，就是一个项目只要从我的嘴里说出来，本来是100分，可能就只剩十分。然后如果从我老板的嘴里说出来本来是100分，可能他能说到1000分，就是这个口才还是蛮重要的。我至今其实presentation的时候，如果是比较重要的，我还是需要准备的。但如果不重要的话，我最起码能把功能讲清楚，然后应对不同的听众稍微做一些改变。但是如果你说像我老板那样，非常的把每个项目都说得非常漂亮，那那还是需要继续修炼。我觉得这方面可能还得至少一两年，都不止，可能还得继续磨练。就practice多practice.</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但你想可能manager他平常就干这些，主要就是这个，这是他的主要工作。他可能同一个information，他可能要跟自己的manager，自己的那些peer，还有engineer，就是所有的人重复可能十几遍。等他在你面前展现那一遍的时候。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实是已经训练过的结果。没错，而且对，反正我觉得他们有大把的面，他们有大把锻炼的机会。然后我们其实也有之所以之前不重视，我感觉主要还是这之前可能没有把每个会议当成一次比较重要的锻炼的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之前可能大部分时间都是觉得我只要把我的工作说清楚就好了。后来才发现，原来每个会议其实不只是一个汇报的机会，而是一次锻炼自己。你要想办法从会议中大家时间都很宝贵，不是说你只要参加那儿的，就你只要出席就好了。而是说你要想办法说这30分钟这个会议我能得到什么？然后我每次都这么想，然后后来就变了。可能就是每次你能说主动说话那就说话，然后能提问就提问。至少你有这个心态的话，你会保证你是认真听这个会议的，这个是比较重要。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有一种主人翁意识。我觉得有的时候不管是不是我都会有那种参与感，其实比坐在那里听半个小时，听1个小时我觉得好多了。我觉得我是这种我是我觉得我是表演型人格，只要给我机会，让我去看什么的，我我会我会挺激就是不是激动，就是motivated这么说，OK我会觉得有压力，但是给我这个机会去present或者做一个正式的这种demo presentation的话，我会觉得motivated。但我知道有些同事他不是这样子的，你给他刚好sign到了，他可能就接受。但他并不是说这是我的一个机会，他心态很有的时候是不一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能阶段不一样了。我之前也是比较惶恐，现在有一点motivated，没有说特别，因为大部分时间还是比较紧张，尤其是比如说上百个人的meeting，如果你要presentation的话。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么还要更厉害了一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还还要还要live coding的话，那就更紧张了。那那如果突然爆一个bug，我就遇到这种情况，突然爆了一个bug，然后你的所有的list显示不出来了，这时候慌的要死，然后我说幸亏我提前准备好了，然后给了大家一个截图。然后其实超尴尬，他们就觉得你这三个月就做了一个这个，然后还挂了，对吧？心心里心里很慌，但是表面上不能太慌的。</p>]]></content:encoded>
-            <pubDate>Wed, 07 May 2025 14:46:06 GMT</pubDate>
-            <guid>681b71eedb57cd35f70b5090</guid>
         </item>
     </channel>
 </rss>

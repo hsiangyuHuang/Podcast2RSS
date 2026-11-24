@@ -4,7 +4,405 @@
         <title>代码之外 Beyond Code</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/6194d973c14c9a0db82de1ea</link>
         <description>程序员聊聊代码之外的事。</description>
-        <lastBuildDate>Fri, 20 Nov 2026 09:41:34 +0800</lastBuildDate>
+        <lastBuildDate>Tue, 24 Nov 2026 12:38:03 +0800</lastBuildDate>
+        <item>
+            <title>越折腾越从容, 每三年把人生调浓一次 ｜Tuwang x GeekPlux 第三弹</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6b050da744e24a385c02947d</link>
+            <description>@Tuwang 和 @GeekPlux 的第三次对话. 一个在同一家公司待了七年, 一个待了六年半. 这次我们早上一起在 Atlanta Beltline 长跑, 然后录了这一期。
+上一期，第二弹：
+https://www.xiaoyuzhoufm.com/episode/681b71eedb57cd35f70b5090</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h2>主题概述</h2>
+<p>本期是 Tuwang 与 GeekPlux 对谈系列的第三弹，两位主播均是在美生活的华人技术从业者：发言人1 来美三年，从杭州到香港（三年半）再内部转组到亚特兰大，目前从程序员转为 manager，有家庭和孩子；发言人2 2010 年来美已十六年，在 Meta 工作六年半，担任 TL 角色。节目以“每三年把人生调浓一次”为线索，回顾两人在不同城市落脚、打开“战争迷雾”的过程，重点讨论了 2024 年 11 月以来 AI 对个人生活与工作方式的冲击、程序员身份认同的重构、团队管理的现实难题，以及在美国生活的孤独感与社交结构。</p>
+<h2>关键要点</h2>
+<ul>
+<li>
+<p><strong>“三年一折腾”的人生节奏</strong>：发言人1 在香港待了三年半、在美三年，又萌生“动一动”的念头。朋友评价他“基因里可能有一个三连这个坎儿，就是你可能每三年都想折腾一下”。他把换环境视为主动选择：“跳出舒适圈是我故意的，Intentional leader 就是我就想这样做了”，并称换环境是“人生的 hack”，因为“happiness of pursuit”——“等快递的时候永远是最快乐”。</p>
+</li>
+<li>
+<p><strong>亚特兰大是 soft landing 的样本</strong>：发言人1 因孩子刚出生、担心纽约压力大而选择亚特兰大，事后认为选对了。两人清晨在 belt line 跑步，观察到“很多人都是面带微笑的，不管是哪一个种族”，对比湾区、纽约跑步者“很 intense”“没有从容的感觉”。发言人2 称“要是我毕业直接来到亚特兰大，我可能是很难走的”，并形容 Meta 老 campus 像 fortress，“有新的感觉，然后有 modern，然后又大家都是年轻人，有吃的东西，有工作的东西，有住的地方，然后全部在一起的这种感觉”。</p>
+</li>
+<li>
+<p><strong>发言人2 的 hard landing 叙事</strong>：2010 年 1 月 9 日半夜飞到，芝加哥转机行李丢失，学长开一个多小时车到机场接；第二天雪到膝盖，因晚来一周错过 orientation，“课也没有选，也不知道该去哪儿”；身上背着约五万美金的 cash check 去交学费；学校 orientation office 一位大妈的非学校员工老公带他们去沃尔玛买枕头被子。他总结：“就非常艰难，就感觉都可以打包回家了。”</p>
+</li>
+<li>
+<p><strong>美国对人的改变：更 grounded、更 independent，也更 introvert</strong>：发言人2 说自己来美前“是一头红发”，概念是“要感觉比较精致一点”；来美后最大改变是“变得更加 grounded”，“我用自己的努力加上家人一开始支持，这个 boundary 是我可以破的，我不一定非得在自己的那个 bubble 里面”。他从国内搞学生会、带大家唱歌表演的 persona，逐渐变成内向的程序员，原因是“中国学生对我们这些东西也不怎么 care”，且没有刻意融入别人的圈子。</p>
+</li>
+<li>
+<p><strong>AI 的关键转折点是 2024 年 11 月</strong>：发言人1 认为 4.5/4.6 模型发布后“好像一切都变了”，“模型的基础能力提升之后，你的这些 prompt engineering，还有 context engineering 好像都不是那么重要了”，提升主要来自 harness，“我完全不用 care 这个 source code”。此后他持续使用 hermies（“有点像自我反省版的 open clock”“不停地会 refresh 它的 memory”），认为“它形成了越来越多的 markdown 文件，然后这些 markdown 文件记录了你的一些使用习惯，效率就是指数级的增加的”。</p>
+</li>
+<li>
+<p><strong>AI 生活提效的具体案例</strong>：发言人1 用 glock boat 找车比价——不同 zip code 的经销商同款车价差可达约一万美金（“跑到德州买同款车，可能会便宜大概一万美金”），让 AI 反复输入 zip code、搜索、记录到 Notion，“大概经历一天”，最终“筛选出了 120 辆符合我标准的车，再按这个价格排序”。他强调 glock boat 相当于人在操作浏览器，能过人机验证，但速度慢；而 hermies 过不了 cloud flare 和 Google 的人机验证。</p>
+</li>
+<li>
+<p><strong>AI 对程序员身份认同的冲击与心态转变</strong>：发言人2 坦言“我过去的 identity 是写代码、写多少代码、代码质量、我手写的东西做的好不好，它是我很核心的一部分的 identity。当这一部分被代替掉的时候，我确实自己很难一下子接受”，后来想通“他要我这个人是让我解决问题……我难道真的就只是一个 tony monkey 吗？”发言人1 则从排斥“AI slop”（一个 PR 两千行新增代码）转为完全接受，只要过了测试，并自建工具防止 AI 篡改测试、用页面截图做 guard。他强调现在“做减法比做加法更重要”，“测试变得异常的重要”，“skills 越来越不重要了”。</p>
+</li>
+<li>
+<p><strong>团队 AI 化不可能线性放大</strong>：发言人1 所在公司已有约 1500 个由非技术人员构建的 applications，他正在“passively 地管理起来”，先摸清每个 APP 的类型、技术栈、读了哪些数据、data freshness、多久没人用。他遇到三类问题：有人把数据 hard code 进 HTML 后问“今天英伟达涨了多少钱，怎么还是昨天的股价”；有人要求他接手维护；有人希望把 prototype 并进大项目。发言人2 判断：“每一个 individual 都可以 times five，我整个团队就 times five，我觉得那个是不可能的。”原因是“最终在做决策的还是这个人”，“剩下的人永远都不会改变自己的 mentality”。</p>
+</li>
+<li>
+<p><strong>TL 找 scope 的方法论</strong>：发言人2 在 Meta 从第一年底或第二年开始找 scope，“一开始还不是 TL，就传一个东西再传一个东西”。他的核心策略是“一定要在那个 product 下面再做 lower 一个 level，才能找到 scope”，“如果只是跟别人去 compete product 的话，会非常弱”。他做 analytics，就往下扎到 data infra，“把我的 internal 的那个 title 鞋都是 everGreen intern，就是去那个 lower infra team”，蹭会了解 scale 的 bottleneck，“现在就很容 anticipate 明年我们要做一个大的 launch，那哪些东西提前得铺下一些东西”。他还提到带 15 人团队时能跟所有人 1:1，团队涨到四十多人后“就只能挑几个自己 close 一起 work 的”。</p>
+</li>
+<li>
+<p><strong>manager 角色会被部分替代，但不会整体消失</strong>：发言人1 认为“有一部分 manager 确实会被代替，就是他的管理过于单一化”，如果只在给 feedback，不做 external alignment，也不减少 friction，“那确实可以代替他”。他引用管理书《挂在身上的猴子》和 GROW 模型，提到“最好的 coach 就是你不要给建议”，“所有的人其实都知道自己正确的方向和正确的提升自己的方法，他只是不愿意做，不愿意承认”。发言人2 补充 TL 与 manager 的边界模糊：“我的主要干的就是找 scope 这样的。”</p>
+</li>
+<li>
+<p><strong>在美国生活要再上一个档次，需要一个非常要好的朋友</strong>：发言人1 观察“有这样的家庭的，就是这样的两个家庭组成的这个一对儿，会非常的……非常的惬意”，朋友要能“非常舒服地来你家，你也能非常舒服地去他家”，频率高到“一周见两三次”。发言人2 说自己“昨天晚上好像梦到我们，我跟我老婆在 Atlanta 住的时候，有一个 neighbor 就是这种概念”，并感慨“远程的朋友好朋友只能最终都会演化成那种君子之交”。两人都认为有孩子会打开另一个社交圈，但“更多是为了孩子服务”。</p>
+</li>
+</ul>
+<h2>独家细节</h2>
+<ul>
+<li>
+<p><strong>背现金支票交学费</strong>：发言人2 描述 2010 年来美时“背了一个我记得五万美金还是多少美金的……cash check”，“因为当时就不能背 cash，然后我又没有美国的银行，我也不能把钱直接打进美国的银行，所以只能背一个 cash check，背着那个东西，第二天赶紧去学校交学费”。他还提到“当时想要准备多一点，其实半年的就够了”。</p>
+</li>
+<li>
+<p><strong>红发与“精致”的过去</strong>：发言人2 说“我在来这之前我可以给你看我老的照片，我是一头红发”，后来“一开始红，后来变成黄了”，“那个时候的概念是要感觉比较精致一点，就是觉得要帅或者有自己那些小心思的”。</p>
+</li>
+<li>
+<p><strong>用 AI 剪视频的 ROI 落差</strong>：发言人2 曾花十几个小时剪出五到十分钟的视频，“100 个人看”，“这种落差会让我不愿意再做下一次尝试”。他甚至“做了一个 balance sheet”，计算“在 research、写 script、讲、路径花多长时间，average 的话每个视频要十几个小时”，结论是“把这个东西工业化之后，我就没有失去了兴趣了……这个东西不快乐了”。这次他让 AI 直接扔视频进去剪，用自己的 mac mini 跑 heavy lifting，并让 AI 做“像一个八爪鱼一样，把所有的 topic 分出来是有时间线”的审核表，他来勾选删减。</p>
+</li>
+<li>
+<p><strong>AI 焦虑与 500 块买课</strong>：发言人2 说“去年 3 月份的时候就开始有 AI 焦虑了”，“我老婆是做 inference 的，她会懂这些东西……我真的就是不懂，我当时就觉得我天我是上一代，感觉被留在了上一代程序员”，于是“买了课代表的课……叫 super lan academy，就 500 块钱交的那个 AI 课”，把 lecture 过了一遍后“发现 OK 还行，没有我想象的这么高大上”。公司内部从 11 月开始“每个人都在做 skill，每个人都在 optimize 自己的 workflow”，到三四月“感觉就像整个在 exploding”，四五月后“大家都在重复 HR 的东西”，之后“harness、agent 各种东西就开始从这边出来了”。</p>
+</li>
+<li>
+<p><strong>对 AI 接管银行账户的私人红线</strong>：发言人1 说“他们有的人会把那些股票账户都给他们，我觉得很恐怖”，“我到现在都没有完全就跟我不信任 FSD，就特斯拉的全自动驾驶一样”，他使用 one password 的 MCP 机制，让 AI“每次要用到它去拿着就行了”，“不是明文的”。发言人2 用 muse 订机票时，最终没有把 chase 银行密码交出去，“我心理上还没过那一关，但我知道很多人都已经过了”，并设想未来“专门就给 AI 开一个类似于银行的……我所有用 AI 订的东西都走那个银行”。</p>
+</li>
+<li>
+<p><strong>“拿到 offer 还没入职的时候最快乐”</strong>：发言人1 说“你在工作中最快乐的时光永远是拿到 offer 还没入职的时候”，“任何的工作、任何的公司、做任何的职业，你总会遇到方方面面的让你沮丧的地方”。他自评“我是一个极度乐观的人，我之前说自己是乐观的悲观主义者”，“我知道这个世界会变得更烂，但是我会觉得在这个烂中我会能找到自己比较好的方向”。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从我的角度来看，我觉得生活变得舒服了一些，比我预期的好像变好的更快了一些。你的理解是什么？对你我们如果按前两期的聊的话，好像第一年我的预期可能在这边要这个月光的状态，或者说入不敷出的状态要持续挺久。对，然后第二年的话，我确实忘了第二年的主题是什么。但是我记得第二年我已经适应这里了，然后找到了一些这种适合自己生存的一些方式。对，然后当时不是还聊什么战争迷雾，就是用那个举例子说，你在美国就是从这个两眼一抹黑的情况，然后慢慢的到各个方面，你都知道怎么能有比较好的方式去处理美国的各种事情，比如说交税、保险、医保，各种各样的生活息息相关的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第三年现在是第三年，我就觉得我不能说如鱼得水，但是最起码我觉得能应付百分之八九十的情况。我记得上一期好像我说能应付80%，我现在觉得百分之百应该都可以，除非一些edge case，那是那些就是除非一些极端的情况，我可能还堵不了，但是大部分情况我觉得最起码比较从容了。从容是我觉得这一阶段的一个关键词。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从生活还有工作都是一样，对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我是觉得这样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从容是我觉得蛮不容易的。对我花了好多年时间才感觉到从容。你换一个城市又不从容了，或者换个工作又不从容，但这个状态就是要过一段时间。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个换乘是换环境带来的，这个就是跳出舒适圈是我故意的。Intentional leader就是我就想这样做了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我就是眉苦硬吃。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实维苦应吃。之前我前段时间还跟我一个朋友聊起来这个事情，因为我现在在美国也是三年，然后我之前在香港，他他是我在香港认识的朋友，然后在香港也是三年半，那个时机我就是想再去动一动。当时可能我心里一直有个想法，就是有了这个苗头之后，你就会我的生活永远是这样。就是你有了这个苗头之后，莫名其妙所有的事情都会朝那个方向发展。当时我的苗头就是想来美国，所以就好像一切事情都变得非常的顺。然后就顺着这个方向，你很多事情就真的来了，真的朝美国这个方向走。然后现在又好像又到了三年的一个时间点，然后我就又可能又想动一动，但是这个动一动具体还没想好要去哪儿。但是我的朋友就说你的基因里可能有一个三连这个坎儿，就是你可能每三年都想折腾一下。对，然后我就说可能现在还没到35岁，我就觉得还算general里来说还算比较年轻，还能折腾的动。那我在折腾动物的时候，我想尽量的多体验各种各样不同的生活。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实我想问我想问你就是因为我我在美国生活了才三年，那我们刚才跑步不是也说，其实三年其实在美国还是一个初学者。然后你可能要待个十年，差不多你才能对美国有一个比较总体的了解。我觉得三年我只了解了亚特兰大这个市区，或者说我生活的那个角。对，那你觉得如果想在美国继续待着，有什么需要再了解学习？</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得我多少年，我到现在为止16年了，我也觉得有点怎么16年了都。我是10年来的，10年1月份，我还记得一年10年的1月9号，一天半夜飞到了那个星期假期，行李丢了。然后就在芝加哥转机的时候，他们把我那个飞机上的飞行李都转转错了，很多人都丢了，不至于我。然后对半夜三点，然后我有一个学长，开着车从我们那个那个村开了一个多小时到新津大旗接我再回去，特别random。第二天早上起来的时候，我以为是就是学校，你看国内大学是有校园的，我们那里没有校园的概念。就是一个趟出来之后，那个雪到我膝盖这么高就下，我还要下雪。我是错过了orientation，就是晚来了一周。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果那天在不到入学的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个入学晚来了，对，然后我其实那天课也没有选，也不知道该去哪儿。我就拿了一个找到一个office，拿了一个寝室的钥匙进去，先把门打开，先把我的身上背的书包先放下，然后再去找所谓的导师？再去选课什么什么的。反正那是我来的第一天。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常这么第一天这么艰难。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就非常艰难，就感觉都可以打包回家了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，你之前没说过，这个比较有意思的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个比较我那个觉得是hard landing。他怪我自己，我当时是因为中介介绍的，弄弄的，所以他就说没关系，不用去那么早。我当时非常怀念，非常留恋于国内的大学生活，上了三个月，所以我想能拖多久拖多久，结果orientation应该去的，但他没给我强调，我也没有着急，我们就错过了这么一下，那这hard landing就变得反正就开始了呗。英语也不是特别的好说实在我两个月之后，两年之后，英语再好的，一开始英语也不好。我跟你打开这个世界的方式太不一样了，那也没有收入。我当时还背了一个我记得五五万美金还是多少美金的那个就是叫叫什么银行的那种check，就是cash check什么的。因为当时就不能背cache，然后我又没有美国的银行，我也不能把钱直接打进美国的银行，所以只能背一个什么cash check，背着那个东西。然后第二天赶紧去学校交学费，那还是2 1年的学费。当时想要准备多一点，其实半年的就够了，反正就这么来，然后再开银行办手机。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正就来这一切艰难模式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后我还记得当天第二天的时候，到了寝室什么也没有，没有什么床，没有被子，什么都没有。然后学校orientation的office，一个大妈的老公都不是学校的人，带着我们去沃尔玛，然后带我们去好心好心就是好心人带我们去。我还有另外一个迟到来的人，就买了什么枕头被子，就稍微买了一下。对，就这么就开始了。但你说我打开，我觉得在大学来的人人应该是被保护的。所以我们所有的四年的生活基本上都是在那一个校园里面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实打开美国的这个战争迷雾非常慢，不太一样。我们能到的这些范围除了旅行之外，就是开车能去的地方个小时之内，然后还有也是一个农村。所以在那里我觉得我对美国的真正的生活几乎没有什么真实的了解，只是大学生活了解的多。然后我们刚刚跑步的时候说到了，我觉得是看一个人他对生活的热爱，我觉得我对生活没有那么的热爱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没有，我觉得你很热爱，你看你还搞吉他，然后跑步。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这是自己的兴趣范围之内。对，这是我对这个城市的探索的欲望，探索的这个欲望我觉得我比较少。我去了boston，我去了西雅图LA最后这一部分的弯曲，对有一部分是家属带着一起走的。对，就是说工作的地方，去过这些地方，我觉得我真正打开的，我觉得我现在也没有打开，应该这么说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就是待16年还是我我觉得。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还是一个outside，我没有觉得我待了16万年.</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是说非要变成一个融入这个事儿，我的我的意思就是说你说美国是一个非常多元的国家，然后或者说非常非常非常有只能我感觉多元就是一个比较准确的词，就是非常多元一个地方。然后你要了解它方方面面，目的不是为了融入它。就是我就是好奇他是怎么变成现在这个样子。我最近在读美国的历史，最近在学习美国历史，我才知道原来他比如说最开始东部的十几个州，然后慢慢为什么扩张到西部，然后哪些州是怎么来的，然后奠定了它的底色，就是这些州为什么现在是大概是这样。然后它的人口的构成，包括最近一些人口在迁移，比如说从加州迁移到德州的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有一些？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，往德州或者说往中部之类的。他他每个历史阶段就是这个国家真很神奇。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你这个就比我要探索欲望要高多了。如果总结一句的话，我觉得我的mentality也是随着工作走不同的地方，但是我的探索欲望没有这么大。美国对我来说，他对我这样子的性格或者是认知的人，他是容可以容忍，可以接受的。比如说我不需要你比如说加入什么别人的这个宗教，我不需要一定要跟某一个群体这样去生活。我可以工作的时候，正常我周末可以过自己完全是中文世界的生活，也没有关系，也是这样子的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我感觉我刚才问题可能问的不好。我如果这样问你就是比如说你觉得在美国待16年，你觉得美国改变了你什么吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>美国改变的应该是整个人的性格，自信这个变化挺大的。我在来这之前我可以给你看我老的照片，我是一头红发，我也不是也没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在染头发。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我当时有点这个颜色，一开始红，后来变成黄了。我觉得那个时候的概念是要感觉比较精致一点，就是觉得要帅或者有自己那些小心思的。年轻的时候。在这里对我最大的改变是就变得更加grounded。他也告诉我给我这种给我一种概念就是确实我用自己的努力加上当然家人一开始支持了有自己的努力，这个boundary是我可以破的。我不一定非得在自己的那个bubble里面。比如说最初给我的设定是我要读PHD，因为我不读我就去工作。第一个工作不怎么好，我也没必要在那里真的待十年，然后再去到amazon。Amazon我也可以破这个壁，就通过一定的努力，我是可以改变自己的生活的，这个是很有希望的。然后这件事情给我带来一些对生活，对自己的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>自信正反馈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，我也可以改变，我从大体上改变自己的原生家庭的束缚，我觉得这个是比较重要，就更加独立了。如果是在国内的话，我相信我应该还是在我的这个原生家庭的这个概念里面，我的生活习惯，我的选择都是会家庭同意的方式去做。现在的话我觉得是比较independent，对，这种自信应该是在这里才会有的，应该是他对我们的包容性。对asian，尤其是在加州，大部分人都是我们很多人都是像我们这样毕业过来，从什么的东西也没有太多的比如说工作的积累或者是财富的积累，慢慢一点点自己工作出来的这种正反馈确实挺多的。这是最大的改变。OK最大改变也是就是somehow就变成一个内向的程序员呗。内向我来之前性格没有那么introverted，对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>自信为什么？不过自信跟内向其实也没有什么不是口味。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不不不，一定。对，自信建立在这个我觉得在建立在这件事情上面，从生活从工作上面是自信的。但是从性格方面我觉得还是你为啥在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>美国会变得introvert，就变成内向的人。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个可能跟是不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是环境有关系。</p>
+<p class="transcript-line"><span class="time"><strong>[00:12:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>跟职业有关系，跟环境也有关系。比如说在国内我当时的persona是我当时也搞什么学生会，然后我就带大家去搞节目，什么唱歌表演那种，就搞这些比较多。在美国我也尝试了，但是我知道中国学生对我们这些东西也不怎么care，大家互相也不怎么care中国学校带来的东西。那在中国的这个bubble，在我们中国学生bubble之外，我并没有尝试特别好的去融入别人的这个圈子，所以就慢慢的就变成了introvert。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在美国确实我觉得就没有融入这个概念，除非你是主动的，他没有说强烈要求你要融入什么什么。你可以在这个各种夹缝中对穿梭而过。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常自由自在的。但有个好处就是加州我们这样子的人多，所以可能现在是我们是majority，minority是其他的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就反过来在这边也是的对，是，这是美国主流的，大家都是有这样的体会的。是并且。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我认为在我在武汉呆的时候，当时我们见到了一些融入当地的生活的当地文化的一些例子。但并不是我觉得好的那一种，他有的时候带有了一种融入感，但有的时候也带有了一种谄媚的感觉。他带着一个很强的目的性，就是说我一定要融入，我要变得成功。但他出来的那个东西并不是我觉得有意思的或者好的，然后我也就没有去走那条路。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说大家可能会交很多白人朋友，然后参加一些他们的一些活动什么的，我们也参与。但是就好像没有一定要洗到那个程或者加入。比如说华人教会这种是比较多的这种。对对对，就是为了融入本地的这个华人社会。也有一种就是我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比较我比较我就还好，我没有说非要觉得自己要怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那那也可能就是程序员的就矫情。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为但是我发现这边有一个特点，如果你想交朋友，你是需要有一个共同的兴趣爱好才可以。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在哪？就国内不一样吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得在香港或者说国内还是人口基数太比较多，然后你很容易在各个方面有各种人有接触。在这边第一是人口少，第二是大家就你说的在大家的自己的这个空间里面，其实已经很舒服了。没有必要说非要说我要去社交，就是这个主动社交确实没必要，大部分国内大部分都是被动社交。也不能这么说，就是你社交机会首先是很多了，然后在美国的话，就比如说你不可能说去买个菜或者说去对不对？在国内也不会买个菜。但是我的意思就是说在国内你可能参加一个活动，可能认识挺多人。然后在这儿就是你参加一个活动可能就是为了参加那个活动，也不会说非要非要去那个活动认识什么人，就是目的性搜索的目的性不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没那么强我确实有这种例子，比如说滑雪的这几个人是滑雪认识的，我们总会一起去滑雪。前段这段时间我不是也搞乐队，那这么一个小bubble里面也是学学这些乐器认识的对，然后变成了朋友。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，或者我应该这么说，就是有时间不是流行找搭子吗？在这边好像没有说特别你要找一个搭子之类的这种想法，只不过是说我去打网球，比如说正好遇到了志同道合的人，就是我去打网球才是我的目的。然后交朋友是次要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>长大这是什么概念？我是不是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>离开饭搭子什么的，有这种吗？对，不是找吃饭要找饭搭子，旅游要找旅游搭子什么的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也甚至不会遇到奇怪的搭子。遇到就是你怎么怎么确定这个人可以一起。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也没找过大子，所以我但是小红书上不是经常就小红书上不是经常刷到什么找到之类的对，我我我自己的体会就是可能这边你得先有一个自己的兴趣爱好，然后你为了这个兴趣爱好去做一些努力，然后自然而然。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就会或者你有孩子，你就可以打开自己的社交圈来。有孩子其实有另外一个社交圈。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大概。但是我觉得有孩子的社交圈可能更多是为了孩子服务，这个社交的目的就是为了让孩子们能一起玩，而不是说因为你两对家长好像先聊得来，才把他们孩子放在一起玩，这样就是孩子优先。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>要不等一下，今天早上我们其实一起跑步我感受了一下这个城市的幸福感，确实不错。从这个角度来说，我好像可以感受到在这个城市是一个soft landing。如果去的是一个，比如说直接去加州或者去纽约，他应该会比较辛苦一点。这里的我有这种感觉就在这里，感觉大家的幸福感高一点，然后压力没有那么大。比如说我刚毕业的时候，我去boston，我压力就特别大。就觉得自己跟别人的差距，或者这个城市给我带来的这个压力。我从ohio去的boston，然后当时觉得就很很压力很大OK。但我总觉得好像第一个城市是亚特兰大，它又不是一个落后的城，它是一个很大的城市，给到所有东西都有，但是幸福感也在，我就有这种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对当时我来美国的契机其实是一个比较随机的契机。其实我这个经历确实比较少，因为我来了美国之后，也有不少人问我就是你有没有来这边读master？你的签证是怎么申请的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一般人都是这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>像你这种确实对我是很奇怪的。首先去香港也比较奇怪，就直接从杭州就去香港，然后来香港从香港来美国又是内部转组，然后直接拿到工签过来的。当时其实有机会是可以去纽约，也可以去其他城市。但是我本来想的是去纽约，但是因为刚当时刚孩子出生可能一个一年，然后我是心里在盘算，是不是压力比较大。因为来了之后我的太太可能就没办法工作，然后我自己一个人要扛很多事情。来了新环境你毕竟要经历很多这种不确定性，所以我当时就说算了，就来亚特兰大。我觉得亚特兰大是一个当时来讲，我其实对这个城市一点都不了解。对我我是一个比较这种莽撞的人，就是每次没有做好计划就来了。但是当时我还是做了一些稍微做了一些research，然后觉得这里首先四季分明，这是我比较喜欢的。第二听说是压力没有，纽约大学我我我。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在我刚刚我们跑步的时候，我就说到这个压力大。比如说在纽约或者在三藩的downer，或者在我现在的公司里面走路上见到的人，很少有人是面带微笑的。你可以明显感觉到就正常人，但是你他的步伐会很快这么夸张，但你没有说可以看到别人有感觉他在生活的那种感觉，你尤其是比如说在纽约的街上，每个人都是要么戴着耳机，拿着手机匆匆的再去赶地铁。对自己要做的下一件事情买一杯咖啡。这种都有自都他们都是自己的世界里面的mean character，你可以感受到，但是他没有这种从容的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚刚我们说到从容的感觉很少见。今天早上我们跑步，我们跑的是这个belt line，你带我走的这条路上面，也许是跑步的人本来就开心吧，但很多人都是面带微笑的。不管是哪一个种族，或者看上去什么年纪的这让我觉得很难得。我在湾区至少也有跑步的这种群体，没有看到过这样子。在纽约也有跑步，纽约人他们在海边有很多跑步的人，纽约马拉松很有名，对，但很intense就是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>没有人说是从容的在那里开开心心的这种感觉是吗？面部的那种感觉不感受不一样。所以我就觉得好像这个城市的幸福感挺高的。因为我刚刚还说可以在这里提一下，我说要是我毕业直接来到亚特兰大的，我可能是很难走的。因为这个太太感觉太塞到down了感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对这个城市的誉泰。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的第一印象很好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>应该怎么样？对第一印象我来说第一印象也很好是吧？对，首先这边是一个其实文化还挺挺丰富的一个城市，我知道像湾区3Francisco或者纽约，他们本身就是文化非常多元，毕竟是他们大城市，人口就在那里。然后亚特兰大如果按人口排的话，应该是在美国第六或者第七的位置。但是他的主流文化是因为它在南方，所以黑人文化比较强一些。但除了黑人文化之后，它其实也包括了各个种族的一些很多元的文化。对，所以这个是我来之后意外之喜，算是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后刚才走那个by oline，我这里稍微介绍一下，亚特兰大。这个by oline现在比较火热，就比较popular。然后是刚建不久，可能刚建也可能也挺久，但是周边的这些商业配套的这种刚起来。对，我觉得在亚特兰大很难找到像3 fransisco或者纽约的这种集中办公的地方。这算是少有的，也不算那么集中。其实就少有的，大概有几家比较大的公司在这里。所以整个围绕这个beltline在跑步的人可能都是一些这种middle class.</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，年轻人也多是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>年轻人也比较多，蜜桃年轻人比较多，所以他们的幸福感可能会比较强一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我举一个，我不知道你有没有去过meta的那个classic campus，就是老的那个campus，就他其实状态就是围起来像一个fortress一样，有很多这种三四层的楼这样围出了一圈。然后中间是也是归自己的，campus的这个campus ground。然后每个楼有自己的样子，中间各种设计它也是这种，不是长条形的，但你可以感受到那边就是一条这种路，很短。然后如果知道classic campus，你可以想象一下，今天早上去那个bedside，就是把那条classic campus两边打通了。同样的那种building，那种office building或者是apartment，然后它就变成了一个非常长的这么一条路，就是这种状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我当年第一次去，17年，去当时facebook的那个campus interview的时候，我就觉得这个头发也太好了，就是幸福感非常好。在那个那个小圈子里面，在那个fortress里面，那个钱包里面工作。我猜我喜欢的应该就是这种状态，就是有新的感觉，然后有modern，然后又大家都是年轻人，有吃的东西，有工作的东西，有住的地方，然后全部在一起的这种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对整整体来说，我觉得meon，然后beltline这个生态我也非常喜欢。如果我再年轻一点或者没有家庭的话，可能会住这里。但在美国你知道一般有家庭的话都会住sub urban，就是住郊区。对，郊区生活其实也挺好的。所以我现在我觉得达到一种状态，各方面都挺满意的，没有说什么特别还struggle的地方。所以就是我觉得从容还挺这两个字，我觉得还不夸张的说还是挺符合现在这个阶段的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为你首先你家庭的有家庭，然后现在你的我们刚刚聊过，就是工作上也到了一定的stage，现在是manager。对，所以是不是这俩都不像原来这么不稳定，都稳定。所以给你再加持上，加上你在这个城市，你已经打开这个战争迷雾三年了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得对亚特兰大我确实还是挺了解的。然后工作自然也是找到了比较舒服的一种工作模式，就是我大概知道怎么样在这个公司可以生存，可以可能直白说就变成老油条了。对，然后变成老油条。然后呃生活上想做什么你都可以知道该去哪里做，然后想完成什么事情，这里面AI帮助很大。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？那我们聊一下AI，我觉得对我个人来说，去年从11月份开始，就九个月，将近九个月是变化最大的。对你的话你觉得AI对你的生活工作影响是怎么样的变化？</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，11月确实11月是一个非常关键的节点。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你们也是这个时候开始收到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是好像就是奥克斯那个4.5还是4.6发布的时候。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像是对对SO pic.</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>发布了那个模型之后，好像一下都变了。我感觉我们可以从就AI如果辽A的话，可以从生活跟工作两方面。对我觉得先聊生活方面，就是4.6之前，反正11去年11月之前，我觉得AI在编程方面的能力我是有质疑的，就是他不会达到我的预期，他有时候会超出我的预期，但是这个不是很稳定。有时候你觉得他代码写的真好啊，但是有的时候你会觉得有点over engineering。然后你需要有一些set up一些get real，或者说你要不停的引导他，你的prop也挺重要的，然后你的context挺重要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后11月之后好像一切都变了，模型的基础能力提升之后，你的这些prompt engineering，还有context and engineering好像都不是那么重要了。然后它它的那个提升我记得是主要是因为harness，所以他的相当于他这个harness帮你解决了很大一部分这样的问题。然后他到了那个时候，我就觉得真正的到了一个阶段，就是我完全不用care这个source code，完全必须要看源码。所以在生活上面，回到刚才这个生活上面，就是这方面我觉得释放了我很大的时间。就是我不需不需要再做任何你花很多时间去看代码，然后花很多时间去纠结这个代码怎么写，然后我就有很多时间去关注在这种生活，这个产品工作效率。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>变高了，然后让你的生活质量有所改变。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一大部分就是你效率得到了巨幅的提升之后，你就可以有很多的时间花在生活上面。然后生活上面你问AI，在那个时间段时间点之后，我觉得也是AI给的答案特别的完善。然后他的那个memory，我不知道是memory在那个时间点也得到了提升还是怎么样。你问他所有的生活问题，他会记住你任何的这种比较重要的信息。然后我记得紧接着11月份就出来open cloud.</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对吧？就是龙开始搞龙虾了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>12月开始龙虾出来，然后紧接着hermies，然后到货。Hermies是有点像自我反省版的open clock，就他的那个self ref reflection。Self reflection就是自我反省的这块，他不停的会refresh它的memory，它的这个memory的管理的结构会比open co好一些。因为open class总体来说还是一个web coding的产物。然后hermies的话是一个有工程团队在背后做出来的一个产品，所以它是一个相当于改进版的open cloud。所以我后来就一直用hermies，然后再到后来的我也用过pi然后还有clock boat，就是有hermies之后，我觉得对生活的提升非常大。对，这个就是一个11月你相当于有时间去探索生活上的事情，然后紧接着open code出来，你就发现解决了几乎是生活一大部分的事情。我举个很简单的例子，比如说我们家庭之前有一些family calendar，就家庭的日历，我们周末要计划去哪儿，我要手动去给我老太太发这个calendar invitation，这个日历邀请。现在就是我直接跟我的AI助手说，我可能要做什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后他生活琐事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是这种生活琐事不需要记。然后嗯比如说记账这些事情，还有就是你遇到一些很你想做的，但是你不知道怎么做，甚至你不知道怎么问的时候，然后你问hermies比问那个OpenAI就是open I那个chat，还有anthropic的那个cloud chat，会比那个它能好一些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是因为你跟它work的是用它时间长，对它会记得你东西更多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？对它会随着你的使用习惯，它会自我进化。其实就是理论上来说，从基本原理上讲，就是它形成了越来越多的markdown文件。然后这些markdown文件记录了你的一些使用习惯。对，然后它的这个效率就是指数级的增加的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那你现在还在用同一个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我现在还在用hermies。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>它是close source还是open source？</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Open source也是open source。对，然后它我觉得龙虾就是open cloud出来的意义，就是不是连通了你个人的这种这叫什么所有的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>聊天软件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对这个是一个很大的巨大的巨幅的提升。对生活上来说。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我还比较delay。我那个open call出来的时候，我比较可能因为是忙工作里面的AI没用明白，所以我就没有尝试过。当时我skeptical是觉得如果我把我的我有一个mac mini，我把我的那个permission给你了，有没有这么安全。所以我当时就一直hesitate to try。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那到今天我觉得前段时间meta前几天出了那个新产品news news。然后我觉得他踩对的一个点，夸一夸公司，这个可以说都是public information。现在可以说了，可以说他我觉得他特别好的就是他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实这么说，in in ritual structure，in hand side晃回头想的话，什么memory，什么markdown，包括这种remote machine都是很make sense的。只是可能之前没有人做的这么就scale出来。那mana他们把muse。这个remote virtual machine这种东西对一下就make sense了。所有的一些繁琐的permission我就不用担心了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后再把一些什么password，做一个separate的一个security layer是吧？对，这样子我就我还没把银行密码给出去，我还是不太敢给，但是其他的东西。让他access我的google drive，帮我，我不是说剪视频吗？我就非常放心，我就不用盯着我自己的电脑去做各种permission，或者担心他会不会把我电脑怎么样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们有的人会把那些股票账户都给他们，我觉得很很恐怖。对我到现在都没有完全就跟我不信任FSD，就特斯拉的全自动驾驶一样，我到现在都不太信任这些。我会可能会造一个自己的sandbox。但是我比如说在我的个人电脑上的编程，我现在不管是SSSSH连接或者说任何的这个key一样，都是用one password。就one password有那个MCP或者说一些机制。明白。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他每次要用到他去拿着就行了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，他他不是明文的，最起码对我觉得还比较放心。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我当时在我我我订这次team票了，atlanta我是让muse帮我定的，然后我定的想要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>打电话吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以打，我没试过，但是可以打。然后我有同事打过了，然后告诉我他们可以用那个。其实我觉得挺奇怪的，如果一个AI帮我打电话，那对面接到的是一个AI的电话就挺奇怪的。但是anyway我是用chase的points订的机票，当时就遇到了一个问题，我说我是要把我的chase银行的密码给你，让你逼我帮我订用points帮我订机票，还是我自己定。我最终还是没有给，我心理上还没过那一关，但我知道很多人都已经过了。是，所以我觉得未来也许有一种方式是我专门就给AI开一个类似于银行的或者什么的，可以access一些东西的。我所有用AI店的东西都走那个银行。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也许就算你做错，已经有了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就那个叫link，link是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Link好像是super stripe.</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>创设给他AI用的，专门AI用的人也可以用的是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有的时候支付的时候，你不是看到了那个你可以用link这种方式支付。然后我看到link最近发了一个你的新的功能，就是说可以让a agent连接到这个link。然后它走link的话就不需要知道你背后的银行。对，然后走这个支付方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我我觉得但是他这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是用不到你的points。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，用不到你的points。对，那我觉得可能都会有这么一个layer。我就觉得这些我认为这些银行也会出一套这种东西，就是跟你的主要的银行账户进行isle。别说直接access entire account出了一个layer，我乱说，你不用回，万一什么你们公司有这些东西就不用comment。但我觉得就是给自己像开个小号一样，不管是什么，尤其是critical的这种账户，开个小号你用就用。但是你的只是可以control的，不会override一些其他的东西。我觉得应该是会有这种这这种功能的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正整体来说我觉得muse我其实自己我不知道用的方式是有问题还是怎么样，我的体验比较一般。对，但是你用过glock boat吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我稍微碰过一下，没但没有怎么继续用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对应clock boat是在这个muse之前，前一个月可能就找了一个月。然后我对gg bot的印象比较好是吧？对，它它其实就是一个给了你一台computer，他他那个computer其实就是远端的服务器。然后这个服务器你在这个group board的这个UI里是可以看到它的broster跟terminal。这两个东西比较重要，terminal可以运行几乎所有的agent，然后broader就可以替你做很多事情。它有一个功能，就是你在brothers里的所有的操作都可以记录下来，变成一个skill。就比如说你在上面点点点，你就告诉他我刚才点点的人的这些步骤。对，是我现在想让你之后再做的重复做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我之前有一个实际的case我可以举，就是我前段时间不是买了一个车，我在比价，就是从这个车的品牌的官网，它你如果搜那个zip code，就是邮编的话，它不同的这个zip code里面有一些经销商，这个经销商的每个车型的价钱是不一样的。比如说我在对，然后比如说100万S之外的地方，它会便宜一点，或者说去跑跑到德州买同款车，可能会便宜大概一万美金，有这种差价。所以我就说我让AI我不这个clock boat去做这件事情，我说你就试哪个zip code的车最便宜，然后这个事情是很繁琐的。因为你如果让我的hermies，就是那个个人助手去做的话，他是过不了那个人机验证。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他有那个cloud flare的，还有google的那些人机验证，因为你搜的太多了。对对对，但是用clock boat，它就相当于是人在操作那个浏览器，所以它就每次很慢。那个的过程大概经历一天。它就是不停的点到官网，然后输入zip code，然后搜索，然后看每一个车多少钱，记录到我的notion里面，再换一个zip code，同样的操作这样一直换换下来，我记得大概筛选出了120辆符合我标准的车，再按这个价格排序。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>no, 这算是一个huck，也算是一种huck。算，但也合理，也没把它怎么样。你也是按照人，对，他就是人的这个cadence，人的这个速度。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也不是说一次次多少遍。对我觉得还行，反正就是这些从回到刚才问题，就是从11月到现在，这些个人的agent上面就给你的生活提效很多。对你想我这个找车的才一天，我就带孩子出去玩了，他帮我做了这么多事情，是我如果自己搞就搞不了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我觉得用AI对我们我们是程序员，我们可能接触比较好一点。但是如果不是程序员的话，我觉得最重要的就是take leap face。其实功能很多已经都在那了。很多人他就觉得AI这个东西好像有对我离我有点远，我不会去试。那试一下的话就会惊讶的发现，他可以真的可以帮人做完很多事情。这样对你来说有哪些是你生活中确实想要，但AI还没做到的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有这种东西我确实想要，还应该还没做到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我来说就是剪视频我也想要好久了。然后最近尝试我觉得可包括这个视频应该也是完全AI剪辑。到时候我们可以看这个结果，我会做，剪辑本身聪明，然后声音对齐color correction，还有比较厉害的就是做animation。他可以在我们他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>看到最新的一期里面有很多这种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，那个还是简单的。后来我发现有更多的可以，他可以帮我看，比如说我这个surface。因为咱们不管怎么聊，我们俩是不动的，这个桌子是不动的，可以在桌子上做这种没有背景的那种，直接坐在里面吃。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就跟画上去一样。它现在确实太强了，我之前尝试过的时候，那个GPT6还没出来，反而是5.6。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那是最新是open I这个你用OPR用的比较多是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，日常是open I比较多。前段时间clock用的比较多，然后i topic用的是最少的，就只有写在写在说。对，然后日常用真的很烦。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是想说剪博客这个视频我之前用过，感觉效果很很不理想。你是怎么填的？我就把音频先扔进去，因为我觉得视频扔进去的话就比较复杂，把音频扔进去之后他会剪，然后他就把各种针去掉，然后给我一个。不对，我都不是认视频，我真的是最简单的transcript就是它的文字版。文字版扔进去的时候，他给我剪剪完了之后告诉我哪里要删，然后我再把那个对应的时间说放到音频上，让他把音频搞定，然后再再match那个video跟音频。所以就是我我可能人参与的步骤比较多，然后效果也不是很好，就是对齐的那种感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其次是我觉得它删掉的内容跟我想要表达的内容会有很多的冲突。内容方面我觉得我比较看重我们台剪辑之前都比较粗糙，就没有说把口屁什么的这种要去掉，所以我们就比较看重内容。如果我们觉得不连贯了，或者说我们想表达的东西竟然被删掉了，那就就不会考虑用A.</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>I对这个判断还是重要的。我看你刚刚说的所有的步骤，基本上就是我现在做的就是视频转音频，音频转transcript或者是直接视频转transcript然后根据transcript的键要对齐。但是我最大的不一样就是我直接就把视频扔给他。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>扔进去他自己。那你这个号token.</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对这个是特别神奇的一件事情，他不好偷看，因为你想他要做transship，你是什么时候剪的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我大概上次尝试可能三四个月前OK那应该也差不多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的这个概念就是说我让他用我电脑剪，他操纵我电脑的时候，就直接用电脑上面library。他真正需要让他想的东西特别的少，除非做那个animation，他要做，然后判断这个image，每一个screen上面什么东西他要想。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他操作你电脑是用什么computer use那种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以就基本上是他写一个script，然后在我的那个laptop上面，在我的那个mac mini上面跑。然后最主要的heavy lifting的，不管是什么GPU、CPU, 乱七八糟全是我自己电脑跑的。在muse也是一样，就是那个remote machine。所以他真正需要操作的就是transcript understand这个time timeline，然后去做一些判断。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK然后就。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>内容上内容上的判断，然后我还做了一个我到时候可以发给你，是一个skill对吧？我一个重要的步骤是怎么去审核我要什么。因为我们podcast总会有提问跟回答我就让他帮我做H电表，做一个像一个八论是一样，把所有的topic分出来是有时间线，然后让他帮我做一些check box。简单的我就说哪些我不想要，我选了一下删掉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就相当于对主题有一个把控。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，主题是我来把控的，当然但是我要求不高。我没有那么的特别granular的这种cut，没有那大部分就够了，所以这个我觉得可好用了，不然的话我要头皮也可以剪。什么这种东西可以剪一下，那这种可以解决的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK然后之前我尝试过之后，我们台不是有三个主播，我们是三个人在运行这个台。我还跟Randy还有google聊这个事情，google是强烈不推荐用文言剪视频，还是讲剪任何东西，就是剪播客剪视频。他的理由是说，其实现在播客还有视频video还有vlog都是有点像上一个时代的blog，是一种个人表达的方式。你如果把剪辑这个事情外包的话，不管是外包给其他团队或者是外包给AI相当于你缺少了你自己表达的一部分。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我倒是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>虽然剪辑确实很繁重，但是这个过程是你自己在表达。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实是我之前剪视频有这种感觉，比如说哪里我想把把控什么节奏，哪里是应该什么就是什么话题应该跳进去，包括剪自己的视频也是这样子。但我当时face the reality就是我花10个小时十几个小时精心出来的五分钟十分钟的东西，100个人看啊。然后这种落差可能是我心态的问题，这种落差会让我不愿意再做下一次尝试。因为这ROI让人感觉没有得到认可。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>也不容易skill。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后我当时甚至说不定能找到我在下图那段时间拷贝后期那段时间我还做了一个baLance sheet，我就买泡了。我自己到底在research，在写传写这个script，然后讲路径花多长时间，average的话每个视频要十几个小时。后来我就发现我把这个东西工业化之后，我就没有失去了兴趣了。我已经对他来说，对我来说这个东西不快乐了。然后这次我在想我能不能scale podcast，我想说我最开心的事情是跟人聊天这一部分减或者最后出来的结果，我觉得当然越好，就是做的越精良越好。但真的是不是为你赚那部分呢？我觉得可能也不是。对，就是我的心态现在是这样，也许还不再口。到什么一百期之后发现看的人多了，这种操作已经做不到了，可能又会回到其他的那种方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实我也觉得聊天是最有意思的部分。剪辑很麻烦，关键现在还有一个费时的，就是你上传也很麻烦。为什么你要上传？比如说我们还是主要上传三个平台，这也算是比较好的了。你知道有的人他你说现在平台太多了，然后他有可能要上传十几二十个平台，那你一天就过去了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>赵律师，那这个AI已经可以代替了。我上次传youtube跟那个也是。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>computer use搞了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，就是youtube还有凡尔赛，这三个都是让他帮我操作的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我得再多用一下code x看看。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个问题不大。然后我在想说，其实podcast的本身它是应该可以解决这个问题的。就是你录一遍p podcast本来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是一个小白鼠。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是每个平台都愿意有自己的这个。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，每个平台他都想有他自己的阵地，他不可能把这个RSS的这个精神贯彻到这个产品上的对。是之前看那个DHH跟lex freedom的采访。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我看到你还转发了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好像对我我因为之前的那一期就是round one，他采访的第一期是那第一期是6个小时，然后第二期是5个小时，我都听了。然后DHS在最新的这一期里面就提到说，很多人他不会去用AI现在现有的功能。所以从最先进的这帮人到可能最远端的那帮人可能要很久。有还有一个问题就是即使我们比如说你半年都没有去cat up这个AI的这些新的技术，完全没关系。因为有可能你此时此刻这个月正在学的东西，下个月就不重要了。你可能下个月再学，立马就开始上来了。所以他他说你完全不要有这种AI焦虑。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我没听过这一期，我听过片段，但没听到这一句，我觉得确实是这样。从我说说我们的我的时间线，我其实去年3月份的时候就开始有AI焦虑了。因为我老婆是做inference，她会懂这些东西，他们说的一些术语，一些influence的东西，我就朋友一起聊天，我真的就是不懂。是我当时就觉得我天我是上一代感觉被留在了上一代程序员。这样然后我还买了那个课代表的课，就是他的那个叫。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么跟丫哥那个对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>叫super lan academy，就500块钱交的那个AI课。然后我就顺着他们那个把所有lecture过了一遍，然后就发现OK还行，没有我想象的这么高大上。就是从application的角度好像是可以接触的。然后才到了去年的说的是11月份开始，有一些就是我们公司内部就开始有点大跃进了。我们的那个穿的是当时。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我们公司是不是还说某叫token maximizing，就看谁花的token多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个应该是在我是发生过，但应该是那些individual自己传的。我公司他没有。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他是没有对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他他不让这样子，其实他不不不鼓励这对不make sense。但是individual就觉得我很厉害，我ten x110X这种话比较多。从11月份开始，我们内部的一些那些pose，就是讲自己做了什么什么scale的这种东西就开始多了。就一直持续到可能今年的三月份，感觉就像整个在exploding，就每个人都在做skill，每个人都在optimize自己的workflow。从那个时候我感觉被洗成了一个AI native的一个馒头model。然后再到后面4 5月份，plato就觉得你大家都在重复HR的东西，就真正application我们能做的application level的就到顶了之后再之后就变成了这个harness，什么agent，各种东西就开始从这边出来了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多fancy terms。但是就回到刚才说AI这个点，刚才我们聊了生活方面，就工作方面，其实刚才也涉及了一点。其实工作作为一个我是程序员，虽然现在是主要转了my manager，但是我还是要去这个manager整个project。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得对工作上最大的改变就是我觉得对你说的mindset这个很重要。之前我是一个程序员，my set我可能会觉得code in call，code quality，就是代码质量很重要。然后还有怎么说，就是你你会考虑这个技术方案的最优解，还处在这个mental model里面。后来就是到了去年11月之后，就是我先是不看代码了当你不看代码了之后，你就会发现可能架构更重要。就是你只要这个架构一直是保证它不会被这些所有的东西，被他AAI这个over engineering影响的话，那就还好。其次是测试变得很重要测试变得很重要，然后我觉得skills越来越不重要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是现在的因为model.</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>越来越强了。其次是我觉得跟这个client的沟通越来越重要，真实的需求也要有真实的迭代，而不是你因为这个能力变强了，然后不停的堆一堆没用的功能，就做减法比做加法更重要了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>现在这个我太同意了。我之前也reflect with，我写了一个post，就写了一个那个blog。我就觉得现在对于比较资深的程序员来说，这种case最重要就知道什么东西不要做对这个很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后具体的讲，其实我在我们就我们代码之外的某一期节目可能也吐槽过。就是最开始的时候，我还在现在这个程序员的这个my set里面的时候，我会觉得别人上来的这种AI有点像AI slope。就是你一天不是一天你一个PR可能就有两千行的代码的新增的。然后我当时是接受不了的，但我现在就完全可以接受，只要这两千行代码过了我的测试，虽然它的测试会有一些drifting，叫做他他AI为了过这个测试，他可能会篡改测试，这个我是知道的。但是我还造了一个工具，就是不让他篡改测试。其次还有一些根据这种页面截图来保证它这个最最基本最核心的功能不变的。反正就我们有一些内部的这些工具来增强它的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>带杆子。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>带gards。当我变了这个max的时候，我就觉得越来越能接受这种非常大的PR，也越来越能接受非程序员写上来的代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为其实有啊。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道科技。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>公司我还没赶上，他是没我遇到过，但是都停在prototype。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我我没感受，我不知道科技公司现在是什么情况。但是比如说在我们非科技公司，其实有很多代码，不能说很多代码，就是很多人他在这个AI出来之后，他会觉得他自己被赋予了写代码的名字。我叫什么赋能是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>In power.</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后他们觉得他们自己in power了也确实你知道吗？就是我之前虽然吐槽他们写上来代码，但是我会觉得他们写的是真的。真实的需求。因为你的可相当于你的甲方在给你写代码，那他当然是真实的需求了，他就是有这个痛点，他才写这个代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你这个功能相当于肯定要merge，但具体是你这个merge的情况，是要经过你们这个几轮review还是几轮迭代，这个你还是可以优化。但是我不会拒绝他的PR了，之前我是会说你的PR不好。这个当然不会这么明显的说就是会说我们可能还需要一些审核，然后你这个代码可能过不了我们的coding standard之类的。但现在我不会这么说，我觉得非常欢迎我，我是越来越欢迎大家，哪怕你完全没有技术背景，没问题，你写上来代码我都会review。当然我是用AI review，但是我非常的open man对于任何人写的代码。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个是确实是mental model的变化。我觉得你刚刚说程序员的这个方面，我觉得我有一个想法，就是我过去的identity ty这写代码，写多少代码，我代码质量，我手写的东西做的好不好，它是我很核心的一部分的这个identity。当这一部分被代替掉的时候，我确实自己很难一下子接受。所以真正的是我的mentality的问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>后来我在想说，他要我到底是为了干什么？要我是为了让我写代码吗？我难道真的就只是一个tony monkey吗？后来我想不对，他要我这个人是让我解决问题。对，解决问题就行了。具体怎么解决，谁解决？通过什么方式解决？可能对真的说对我的leadership不重要，其实对我根本也不重要。所以我就把这个identity稍微去掉一点。对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后就是顺着刚才说，当你的策略变成这样，就是你欢迎各种甲方爸爸来给你写烂了之后你会发现你你会发现工作变得easy了很多，因为什么呢？因为减少了一层沟通。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是做就完了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>本来之前你要先跟他讲对需求，对你要做什么？你你你你这个button为什么要改到左边呢？你给我一个理由，我得理解。然后我才做的时候才能make sense。</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我我完全不知道你为什么要改左边，然后过来万一另一个人又说他要改到右边。对，然后现在就无所谓了，你来写个PR好吗？然后我来等你的PR我来review，然后他的PR里我就我设立一个比如说PR的这个description的，然后他的PR里面要有，比如说它的截图，改动之后的截图，测试，它的理由。然后我一看PR我就知道OK他为什么要把这个按钮改到左边。那就相当于很多人帮你干活了，然后他们的产出还又是真符合他们真实的需求，然后你这个项目进展就会很快，你相当于减少了很多。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是说我来了还会这件事情上面，如比如他我们聊到针对shift这个代码，那谁是accountable的呢？这一段代码是你们最后accountable还是他们也会？</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当然是我就是谁决定merge这个PR谁是account？</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对于我们回到最初说的那个质量的话，还是得你们把关呗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，当然你质量我觉得现在又到了一个moment，就是又到了一个阶段。哪怕是一个月前我可能自己会concern一下，这个就是我会自己把控，因为我我确实我觉得你要负责任。你这个东西到了线上之后，你要非常小心，尤其我们做金融的，很多的这个formula，如果你改错了影响很大。那现在又到了一个阶段，就是你的这个验证，就是你的验证变得异常的重要。然后你要想很多事情就是放在很多精力放在这个验证上面，你要怎么提升这个验证的步骤？你不能因为他他这个PR上来太多，你就拒绝他PR而是想办法提升你PR review u的效率。然后怎么样能让他这个PR又能推到线上，然后又不会影响又没有副作用，又不会影响其他的功能。同时你的项目还要非常disciplined，这个productions ized向前推进，这个是我现在主要的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白了，就等于改变了你自己处理方式的侧重点。你侧就你就focus on把控质量，他想写也不让也让他写。我在处理这个问题，我基本上让大家一定要做的就是只能把它写成determent代码的，做成那种我们叫COI，就做成command line，就分出去，不要写在skill里面，skill越少越好。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后最近不是还出了那个叫什么jeff吗？那个东西我就特别建议我们那个team，因为我们做的东西是有一个decision tree的那就太适合用这种decision，就是determined decision的model。然后我就让他们以后一定要我走之后，一定要把那个提起来来做一做。还有一个我觉得我想free people from就是做这种menu addition。Menu fix就是要去fix skill。Improve skill就是把我们做的东西，尽量可以有地方让他self improve。就我们做的东西很多时候是有那种什么google chat，这种conversation trace。所以我就做了所谓的这种harness，有这种improvement loop。</p>
+<p class="transcript-line"><span class="time"><strong>[00:56:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>每当有新的information拿过来，就让AI去自己criticize之前的template，然后让他自己suggest。因为我们的use case是大部分是不变，但总会有新的use case，总会有新的treatment。对那一出新的treatment人就得上，特别麻烦。然后你还得保证之前的不错，后来我们就做了这种方式，让他可以from ongoing的conversation.</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后改东西。我们也我我也设计了这个步骤。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这是几个月前开始，可能六个月前开始有这种什么self improvement的这种。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得有有一些有些情况出现就是因为个人的生产力得到了极大提升。然后有一些team的leader，他就会觉得团队的生产力也得。得到巨大的提升才是不是这样。对对对，然后他他会这么想，当然他就会比如说现在有一些概念，比如说agent teams。</p>
+<p class="transcript-line"><span class="time"><strong>[00:57:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个agent teams我觉得如果用在个人上面，你可以创建100个sub agent去干活没问题。但是你怎么在团队层面上去让大家都做一个agent teams，我觉得这个还是挺难的。每个人用AI的方式也不一样，就跟每个人写代码的方式也不一样。你如果想让整个team去统一怎么用AI这件事情，我觉得就很难。然后你要set up一个可以共享或者可复用的一个AI组件也很难。所以这是另一个我现在在思考的难题。另一个难题是刚才说所有的人都可以build application，然后我现在大概有1500个applications.</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你自己就没事做的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是我没事，就是大家所有的人来，然后他们build了自己的applications，然后用。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们的公司的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:58:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>用我们的数据层。他他他build的这个application，他当然很有用，对吧？他他是甲方，他比如说或者说他有真实的需求，总之就他说的这个application非常有用。但是第一是他的这个application我要不要管理，他可能他自己不懂什么叫维护。比如数据有可能它就是当天他是就是hard coded into HTML，他完全不懂这个数据库的感觉。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得可以了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是。然后他第二天问我，这个数据怎么没有更新？今天英伟达涨了多少钱？他说怎么还是昨天的股价？</p>
+<p class="transcript-line"><span class="time"><strong>[00:59:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二是他的这个APP，他有可能说这部分人有可能懂。他说要不你来帮我维护，那如果让我来维护的话，他这个APP我要怎么怎么来维护就很难。他的说是code我得先拿到。第二是为什么我要维护，这也是一个问题。对。然后第三，第三种人有可能说我的这个dash word我只是做了一个prototype。他他可能更理解一点，他说你把我的这个prototype拿过去，然后你做到你的那个大项目里面，这又是另一个问题了，就是OK那我按你的这个photo type来做，那我这个大项目的样子，还有这个功能完全跟你的这个是大相径庭。可以说然后我要做一个符合你prototype功能性的，还要符合我们UI标准或者说构建标准的APP，那也挺难的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实确实难，我也我觉得这是一种变相的slop。就是说我做一个项目能不能Carry through the whole thing，那不一定大大可能90%的人都做不了，那接下来谁管就是这个接手的这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我最近在做一个尝试，就是我先我先把这他们这1500个application，就是我先passively的管理起来。我先悄悄的比如说确定每个APP到底是什么类型，然后技术障碍是什么？他读了哪些数据，然后他有一些他他的data freshness到底是怎么做的，然后他是不是需要维护，他有多久没被人用过了之类的这些数据我大概先最近两天了解了这些。这叫什么收集信息。</p>
+<p class="transcript-line"><span class="time"><strong>[01:00:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>知己知彼之后有一个strategy。对你才提前form 1点strategy.</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你才能做出决策。对，是，反正现在很多事情我觉得都是在一些探索，然后大家也是在摸着石头过河。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我刚刚你说到第一个问题就是说从管理一个团队的角度讲，每个人的好像都更快了，确实做东西更快了。那一个团队是不是也能什么times 2 times five这种efficiency，我觉得可能永远都不会这样，永远因为AI其实对我我时间长了，我在想的是我们最终在做决策的还是这个人。</p>
+<p class="transcript-line"><span class="time"><strong>[01:01:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那人在pray AI的时候，他的能力强弱本来就是说他自己愿不愿意卷，愿不愿意花多时间把这个东西Carry through the thing。那有AI之后，难道不愿意Carry，所有的人就变得非常勤奋，他不会的。大家都有AI但是每一个人觉得用法和他能达到的结果还是不一样的。所以我认为在一个团队里面来，我们就说有十个人，20个人，可能还是那三四个人、四五个人，之前很猛的那几个人在Carry，整个团队还是那样子。所以你这几个人能two times吗？也许可以，但能不能five times乘十倍？我觉得那要靠剩下的那些人，那剩下的人永远都不会改变自己的mentality。所以也不会，所以很难说是这种linear的scale。因为我每一个individual都可以times five，我整个团队就times five，我觉得那个是不可能的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也觉得不可能还是要靠还是要不可能是这种线性的scale。关键是现在很多人他会觉得，就你说的一个人变成十倍程序员，然后团队就要变成100倍程序，100倍团队，这个确实有点失望。</p>
+<p class="transcript-line"><span class="time"><strong>[01:02:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，最终你给我们做product的话，其实现在就有很现实的问题，大家都做得快了。那很多比较junior的engineer他没有做过production。他不知道需要看哪些signal，哪些东西比较危险，哪些东西要what up。那不知道就是不知道，你没有办法，你只能学一遍才可以，这个东西你就没办法what two time is faster，你要过一遍production。然后很多人做了很多prototype也想要上线，那要set up很多monitor setup p很多东西真的是人要去做判断的地方，你再怎么交给AI你还是要自己去stand这个东西它就是慢，就很就堆积了很多新的feature launch.</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就没有那么的快。这个让我有其实我前段时间也进行了这个思考，就是说AI是一个个人能力的放大器。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我也是对这个总结得好，我刚刚说了半天就是这个意思。</p>
+<p class="transcript-line"><span class="time"><strong>[01:03:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是你个人能力得先有，然后AI才能放大你的能力。关键是这就涉及到一个问题，就是确实你说的比如说那些团队需要watch out的东西，就是哪些东西需要注意，然后哪些东西是你如果不告诉他他完全不知道。比如说哪里也能，公司wiki上写的哪里能登录什么什么系统，拿到什么什么数据。API的调用的方式，这些东西是需要人去探索的。但是有的人就会觉得你需要把这些东西写下来，就是文档化。然后文档化了之后，不仅下来的这些juniors，就是new jonas，新加入的人可以用，然后AI也可以用。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>理论上是这样的理论上是这样，但是你想build一个这种这叫什么shared knowledge base很难。就跟我我跟你现在在聊天，我们俩肯定这些认知的层面，然后知识背景都完全不一样。然后我们不可能说写我写一份非常完善的文档，告诉你我的人生经历，然后我的想法，我的哲学，然后你读完你就懂了。对，这完全不可能的，是这样子的对，包括agent也不可能，就是他他的大模型的模式也不是说就是这样。对我觉得它都是有一些衰减，信息上的衰减。</p>
+<p class="transcript-line"><span class="time"><strong>[01:04:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，我觉得人的taste，工作的taste，decision making taste, 就是在这种各种各样的摩擦friction里面。跟人交流也是一种摩擦，也是有friction。想法不同，要debate在这里面成长的。如果只是rely on一个assistant，我们就不说AI了。如果我有一个perfect system，does everything for me, 那他可以成长，我肯定是成长不了的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对对，自己也得跟上。但反正就是我觉得很多事情不现实，大家的想法都还还需要需要再再深化一下，就像这个shared knowledge base，我就觉得很不现实。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在AI这个问题上，你会不会担心这种job displacement就是被代替？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我会担心。</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我那丛丛班内学的角度，你会担心吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>从你说manager会不会代替？</p>
+<p class="transcript-line"><span class="time"><strong>[01:05:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对过去我们程序员可能还我想当然，我首先我不认为程序员会被那个代替，因为我觉得我们刚才说过了，我们的contribution不是单纯是写代码，我们是要做一些decision，有一些taste在那。如果是manager的话，你觉得会担心吗？因为我问这个问题有一个前提，我现在觉得因为写代码快了，那我做的很多事情就变成了很多alignments，要去沟通，要去交流。有一部分就变成了manage的一些contacts，manage一些人际关系。从这一角度往前说，是不是manager的这个role更加重要了。因为你本来的focus就这些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我非常同意。但是我自己有时候又觉得，其实你manager一个team就是人组成的team，跟manager一堆agent的team其实差不多是吧？对，有时候会这么觉得，你给作为manager最重要的事情是什么？给下属feedback.</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是提供情绪价值吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:06:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一样的，你的feed back有可能是情绪价值，有可能是一些这种建设性的意见对吧？比如说他这次presentation可能从哪方面改进比较好，对，但是你给的这些feedback x跟你给AI的prompt差不多。我觉得可能你就是要从各种人文关怀的角度重新reframe，就是重新组织一下你的语言。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对人说话会不会从比如说我的组员的角度来说，我可以expect不同的人可能会给我很多惊喜。就是他突然一下子incentivize了，就特别强，带动了整个团队。那asan可能都一样，十个agent 5个agent不会谁有说突然哪一个agent就格外厉害。</p>
+<p class="transcript-line"><span class="time"><strong>[01:07:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是有这种错觉吗？对，是吧？你用ISO pic的模型或者open I的模型，还有grown的模型。突然4.7变得很烂，或者说突然另一家店会变得很好，然后你也会有这种感觉。但是你管理人有一个问题，就是你不确定你的你你甚至不确定你的management到底有没有效，到底是这个人个人成长了，还是说是你的coach起了作用。是你的如果换到跟大家说，到底是你的重要改进的人家model自己，还是人家model自己本身提升了，有时候你不确定这些东西，对，然后这重要吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对manager来说，我的contribution有没有达到效果，这个很重要，个人重要吗？对对manager重要。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对对，manager挺重要的。你的工作意义不就是为了相当于团队这个收益最大化。回到manager到底会不会代替的问题，我觉得可能有一定阶段会被代替，看看什么样的manager。因为我觉得manager这个角色被代替是因为。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>员工都被AI代替了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以就不需要拍这个。不是我觉得可能有有一定的阶段。就是说如果某个人，如果有一个团队里面所有的人都是比较这种个人能力很强的话，那确实manager它的存在必要性没那么强。</p>
+<p class="transcript-line"><span class="time"><strong>[01:08:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那是因为有强有弱，还是大家都不够强才需要被manage，还是说大家都抢会不会打起来是要manage.</p>
+<p class="transcript-line"><span class="time"><strong>[01:09:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你的权利就是manager这个权利的核心来自于你怎么组织有效的组织这个团队，然后达到这个团队生产力的最大化。它就是有几个层面，你到底是你的这个决策，就是你带领这个团队扩大了scope，或者说你的角色把这个团队带的更好了这个重要，还是说你减少了团队成员之间互相的摩擦，这也是一个方面。然后另一个可能第三个方面就是说你在外部沟通，就是因为有些团队成员他可能不擅长，或者说必要的时候你是要on block一些东西的那你的外部沟通这又是另一个层面。所以就是我觉得management的这个定义是一个比较抽象的。所以很难说所有的manager就是不能统一标准化，说所有的manager都会被代替。我觉得有一部分manager确实会被代替，就是他的管理。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过于单一化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，过于单一化，它的管理不会在各个方面提升整整体的这个组织效率的话，那确实可以代替它。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就比如说他只是给feedback，他也不做external alignment，他也不减少什么friction。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，有一本书很有意思，叫挂在身上的猴子还是什么，就是讲这个管理策略的，就是他会把这个皮球踢回去，就很有意思。比如说你找我，然后说你遇到一个沟通上的问题，就跟其他团队我自己。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>去解决的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是不是你的主动性有问题？然后比如说你遇到了一个问题说你最近的这个就是你的visibility不够，你想要比如更大的visibility.</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能是就如果只是踢回来，就变成了一个无效的coaching了。看听上去好像在帮助我，但其实好像说了跟没说一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:10:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是很有意思的就是说，我又读到了其他书，但是或者说参加过一些management的training，他说最好的coach就是你不要给建议，特别有意思。他说所有的人其实都知道自己正确的方向和正确的提升自己的方法。他只是不愿意做，不愿意承认。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你要他他那个不是有gross模型吗？特别有意思。就是你你给的，你先要问出他的目标是什么，你要问出他现在的情况是什么，然后你再问他说你觉得应该怎么改进。通常有的人他只要能达到第二步，他现在的问题他自然都会觉知道他下一步该怎么改进。然后第四步就是鼓励他OK确实然后去做吧。我觉得确实。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果我有一个问题的话，我跟我的manager或者跟我的mental聊到第二步，我自己solution基本上已经出一两个了，我就已经说出来了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:11:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，不用已经说出来了。对我就又把皮球踢回去了，这是一个比较好的coaching。但是我是说就是你这样的management的话，其实对他的成长我不确定到底增加了多少。你知道就是我最开始刚才说的，你到底是你的management的，你的feed back重要，你的口径重要，还是说它自己本身其实已经在慢慢的在在成长了。那这部分就是如果你一直这样的给飞机back的话，我觉得这部分会被淘汰的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也也可能也还能说不定也能给到吧？情绪价值也给到。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>建议也能给到。对，然后你真正作为manager你可能要做的事情就是做一些AI做不到的事情，就是这些处理这些跟外部沟通connections build connections，然后减少摩擦，减少back and force，然后定最重要是定direction吧？你团队发展的方向，然后怎么能扩大这个scope，这些是我觉得AI可能暂时还做。</p>
+<p class="transcript-line"><span class="time"><strong>[01:12:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是在你们的这种公司环境里面有很多这种tea的概念吗？还是基本上就是manager.</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟我觉得其实大公司你很难统一标准化一个东西。对，还是得看团队。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还可每个团队也不一样？</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得大公司就是一个一一个小小的团队，每个小的团队像一个内部的start up，然后你这个start up的风格完全取决于你这个start up的manager，我是这么觉得，所以我们团队感觉没有替太。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不需要调对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太需要那manager.</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就manager.</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>承担一部分这个责任是对你刚刚说的有有一部分我觉得在我们公司里面就有点点像TL做的。比如说找scope这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很大程度上先后的责任，找scope.</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我的主要干的就是找scope这样的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我以为是manager的责任。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:13:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>包括你刚刚说给员情绪价值，然后一做一些external的，你包括你说除了可能直接的这种management one我不做。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其他全做。那你们manager的职责比较少。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比较更从传统意义上更加是传统，就是说过去的就是在可能over the past may be 15年，大部分都是people manager，主要的是专注于给情绪价值。最近几年让他们更多的那种就technical多一点。对，就是js cope I开始有，但基本上TL会在这个公司在卖点。TL会做很多manager相关的动作，就有的时候我的那个就有点border line。我在想该什么时候该我做什么事不该我做，我也会考虑这个问题。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OK对我觉得在大公司里，像我们公司都25000人，可能完全你没办法统一定义或者是统一描述出一个manager的职责。因为就像我们自己团队，每个manager也不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>风格不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:14:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这个管理风格也不一样。其次是他们自己对manager，他们他们自己对他们自己manager这个身份的定义也不一样。有的人有的manager觉得就是people，他们自己是people manager，他不用实际的看代码，实际的管理这个项目，他只需要做弯弯，然后管理好你这个人就好了。他日常的工作就是对管理人汇报，然后一些日常的manager的stuff这样。那有的人就承担的责任比较多，他可能承担tech力的，像你刚才说的那你们公司他的确实比较辛苦。</p>
+<p class="transcript-line"><span class="time"><strong>[01:15:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得也挺开心的。我一直跟人说，我觉得工作里面最好的一个状态就是我自己可以做一些选择。那做太克力的话，所有的一开始的这个问题艺术就会先到你这里。然后你会帮助我们的manager，不管是你的scape还是之间的manager，做一些这种决策性的东西是开心的。然后影响到自己的团队以后能take on什么或者不想take on什么，都会有一些提早的一些preference。我觉得这种决策是让我觉得是开心的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你会跟组员有万一吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:16:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有啊，但我不会。我一开始try to想要跟所有人，但后来我发现不太scale，我就变成第二个ager没意义。最后我就抓几个比较强的那几个OK就比较重点培养的队员就有有玩玩。是对我们那时候小的那个团队到15个人了。然后后来我转了那个report给我skip之后，我们团队有四十几个人，那肯定来不了这种东西了。我当然我不管这些人，就是说我能合作到有这么多人，那也不可能都有玩玩，就只能挑几个自己close一起work的这种这样。但我们会找scope，我从来去我在卖家待了六年半了，我从第一年底或第二年就开始了。一开始还不是T，就传一个东西再传一个东西。然后后来做T奥之后可能话语权大一点，想好要做什么，也只也可以你帮自己的团队til pate我们现在要买一个小的种子，可能半年后三个月之后就是一个重要的东西，就开始每天挖个小坑，然后种棵小树这种。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那我要这个要请教你了，你的scope是怎么找的？然后你这些小数是怎么判断可能潜在的会变大。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我在这个可以说我在我的跟对每个团队不一样。在我的那边我一直跟人说的是我们是做，但是我们一定要在那个product下面再做lower一个level，才能找到scope。如果我们只是跟别人去compete product的话，会非常弱。现在我们的scope已经被另外一个组拿走了，他们就只是做product，这不想碰info。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说lower level是说。</p>
+<p class="transcript-line"><span class="time"><strong>[01:17:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就我们做的是就是analytics，那lower level就是data info。那我做的我挖的最大的坑，能拿到最大的坑全部是我跟data infra，是在instagram之外的。然后跟我们毫不相关，没有任何的相关，只是我们用他们东西，我就把我的internal的那个title鞋都是啊everGreen intern就是to那个lower in find team，那我就会就是知道稍微lower一个level的，怎么样去scale，要用到什么样子的machine。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>Bottle neck是哪里？现在就很容易，就anticipate明年我们要做一个大的lunch。那哪些东西提前得铺下一些东西，就这种慢慢的就有了。但也是因为我在这个地方待的时间长，就是有些东西reoccurring的那scaling每年q ford会scale对吧？都会有大的traffic，就很容易anticipate这种scaling相关的，很容易拆。</p>
+<p class="transcript-line"><span class="time"><strong>[01:18:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>再有就是比如说data inside也要有scope，他们的scope就经常是我要造一个新的，我以后让大家可以用到那哪些功能，我可以提前给人塞过去。就是说我要这个一二三，我们就可以找到share的这种go，就他又拿到了我们我们是甲方，甲方想要的东西，我们又可以拿到新的info，更好的info，就这种东西比较这种manager也可以，但manager没有这个经历。你看他十几个人，他往往就站他二三十小时的时间了，就没有这么多的精力去做这种。所以我就变成了他克里去团。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些有道理，主要还是你们团队比较大。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>稍微大一点。对，后来我带的我们有一个新的概念叫做AI pod，就变成了对吧？应该是就各种躁这个词。对对对，反正造出来就是说一个小的这种set up，然后你可以带小的团队做东西做得更快什么的。这种时候我策略又就不太一样，这种时候就有点像带start up的感觉，让大家做东西要快，然后要猛一点，然后减少dependency。然后先做，就是别考虑那么多align做了再说，做完了以后先赢，赢完之后再再scale，就这种比较多一点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实我们也有，现在是大家。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都。</p>
+<p class="transcript-line"><span class="time"><strong>[01:19:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比较焦虑，从上到下就是AI能做很多事情之后，大家都不要焦虑。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得很多你觉得现在好一点了吗？我觉得好像有点清醒了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为我的model的迭代没那么快。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就进步没那么快。最近的那些model没有让我觉得除了现在这个剪视频让我觉得确实眼前一亮。但之前对我工作写代码来说，你再出什么，比如说open artro astra，对我来说真的没有太大区别。我能怎么样呢？我代码就这样了，我又没有做什么什么特别分析的东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，可能模型的能力已经高于我们日常工作的这个需求。对，用不着，除非我们搞一些特别fancy的东西，确实用不着那些。</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你觉得孤独吗？</p>
+<p class="transcript-line"><span class="time"><strong>[01:20:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我有一点有一点。对我觉得在美国需要一个非常，你知道吗？我最近也不是最近，我大概近一年的观察就是我觉得在美国如果你需要一个你的生活再上一个档次，你可能需要一个非常要好的朋友。这个朋友啊不一定要多，就不一定要是非要两三个，你可能只要一个就够了。然后这个朋友是要能比如说非常舒服的，能来你家，你也能非常舒服的去他家，然后这个频率很高。就比如说一周你可能都跟你这个朋友要见两三次这样如果你有一个这样的朋友，你在美国的生活的质量会又上一个档次。我自己觉得为什么？因为我观察下来就是有这样的家庭的，就是这样的两个家庭组成的这个一对儿会。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>非常的好像人可以对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常的做很多事情都会非常的容易，非常的舒服，非常的惬意。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是我很神奇，昨天晚上我在想这个事情，我好像是做梦的时候想到这个事情。就是我我经常会看friends，friends那个概念就像那几个就像那样。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>串门这个非常频率非常高。</p>
+<p class="transcript-line"><span class="time"><strong>[01:21:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后这个人来我家不会觉得待的时间长，他可以随便借东西，可以放这里跟自己的差不多。我昨天晚上好像梦到我们，我跟我老婆在泡拉头住的时候怎么样，有一个neibban就是这种概念。但是那个neighbor是我的，是我亲戚，是我一个姑姑，就不是同龄人。然后有这种状态可以什么来家里面？这个在大学里面好像有的。对对对，因为大学会有这种室友的概念，或者很多人住在同一个同一圈地方，经常就这么来回。但我发现工作了以后好像就消失了，就更加变得独立，引起判断。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有道理，可能我还是不过我还是期待有一个这样的人。对，期待有一个这样的人。因为有很多时候我觉得在美国可能会经历一个比较孤独的阶段。是说这个孤独你没办法跟一个远程的人去分享，你可能只能面对面。因为你跟远程的人分享你现在在经历的一些情绪上的波动，或者说生活上的一些琐事。你的琐事就很难跟一个远程上的说聊这些东西。你看面对面大家最爱喝咖啡的时候聊的非常的舒服。</p>
+<p class="transcript-line"><span class="time"><strong>[01:22:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，远程的朋友好朋友只能最终都会演化成那种君子之交。就是很长时间不联系，再见面的时候还是很好，但就到那里了。不会。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这很需要。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>各方面另外一种。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>社交圈层都需要。对，但是如果你比如说非常频繁的大家互相串门的话，你会甚至知道这家的家长里短什么的。有的时候是一些必要的，在美国生活的模式可能是以家庭为单位比较常见。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我觉得是这样的对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后家庭的所以有一个最大的问题就是如果家庭内部都消化不了的一些东西，就需要一个这样的邻居。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者是这样的一个是我倒还好像有两对这样子的，这么好的这种couple friend也有，但我们的限制就是我有一对朋友三对吧，一个在下图，一个在纽约。我们挺好的玩具也有，之前能遇到的就感觉就是远一点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:23:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，这已经很好了。对，但总体来说回到我们最初的最初最初的话题，就是我觉得已经我我现在对我现在阶段的生活非常满意，对，非常满足。因为我而且所有的事情都向好的方向发展，我还有潜力可以更好。所以整体来说现阶段已经达到了我的预期，可能还有更多潜力。</p>
+<p class="transcript-line"><span class="time"><strong>[01:24:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对我我开口一句，你说这话有一天应该是一年前，两年前有一个周末，我在我们家里坐着，我老婆在我旁边，我就在想对现在生活的这个感觉，我突然有一个moment是觉得如果比如说在100年之后，我挂了，然后我那时候觉得好惨，i had a really good life，我真的不想这个感觉，就是结数量。对，我会有这种reflection，我从前是没有的，我就觉得OK现在我可能真的是对生活满意了。确实对，就是会想让这一种生活状态，我们俩的状态两个人都在拼，然后也对就是对生活也有幸福感，能让这个状态持续很久。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会有这种你们俩是那种比较上进的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们俩对我们俩上镜是一方面，就是俩有点work holic，但我们最大的chAllenge就是一定要baLance，不能过了那个work holic，最后就是不太lose baLance。也很多。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>肯定你们已经找到了，我觉得对，已经过得很好。我我我这边的是我觉得其实我是一个极度乐观的人，我之前说自己是乐观的悲观主义者。</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这什么意思？</p>
+<p class="transcript-line"><span class="time"><strong>[01:25:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我知道这个世界会变得更烂的，我知道这个世界会变得更烂，但是我会觉得在这个烂中我会能找到自己比较好的方向，就是自己的就把自己的小日子过得更好一点。我一直是这样的一个人，对，所以我到现在也是，所以我是非常乐观，哪怕是我们第一期第二期，其实我都会有一些struggle。那其实也不算不是现在现在都不算struggle。我当时可能会觉得只是一对物价对未来的不确定性，或者说对物价有一些震惊。就是怎么美国生活成本还挺高，但他现在已经习惯了就还好了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后对我想表达是因为我的极度乐观，所以我会觉得很多事情我不会把它当做是无止境的会坏下去的东西。我会觉得我总有办法把它变好啊，我是一个这样的人。对，然后如果我找到那个办法能把生活变好的话，我就会朝着那个方向努力。所以我觉得生活是最重要的，工作也算生活的一部分。但是总体来说你的生活就是方方面面都是可以优化，然后不停的优化。</p>
+<p class="transcript-line"><span class="time"><strong>[01:26:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我正在往你这个方向走，在我的概念里面，现在可能fifty，fifty在我这么多年脑子里面都是学习跟工作是第一位的，生活是第二位的对，我一直在sacrifice生活的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我的学习成绩太差了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我觉得自己也没多好。但就是你我觉得这是可能原生家庭会怎么样，他给我一种insecurity，就让我觉得或者不是原生家庭，就是对自己的self words没有一个很好的confidence。我总觉得是不是我应该再努力一点，我的我应该可以再往前走一步才可以更加稳定。我对他这个未来的期待比较不乐观，所以我就总说我觉得我是不是能再做多做一点，是不是应该跳个槽。这种状态一直保持到来了meta之后就好多了是吗？对他给因为我觉得meta是我那个instagram是我的dream company。我都到这儿了，我就觉得心态就放平一点了。OK.</p>
+<p class="transcript-line"><span class="time"><strong>[01:27:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但很多年就是那种无止境的。如果可以工作，我绝对不会选择trouble。如果可以减少这种比如说什么PTO对我工作进度的影响，我一定会sacrifice这个旅行这样。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我完全是反过来的。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个比较健康。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是吧？对我我完全是反过来，我觉得也当然我是在保证就是你工作的这个就是你要对公司确实值得公司为你付这么多钱的前提下，我是想我的希望永远是越少的工作越好。对我不喜欢工作，这个是我或者说我不喜欢这样的谁谁。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>会喜欢工作。</p>
+<p class="transcript-line"><span class="time"><strong>[01:28:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实有一部分工作也会喜欢，就我不喜欢那种，我很难定义，就是很难定义到底是哪一种工作我不喜欢。但是我当然就是最近我就会觉得你在工作中最快乐的时光永远是拿到offer还没入职的时候，这个是最快乐的时候。你在任何的工作，任何的公司，做任何的职业，你总会遇到方方面面的让你沮丧的地方。所以但是我会非常快的目，然后这沮丧的部分是我不喜欢的，但是我喜欢的部分就是我可以探索我自己想要的技术，然后我可以尝试改变，我就是优化，优化不同的方面，对我我挺喜欢做优化的对，然后优化各种各样东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚刚你说那个点，在你拿到那个东西还但是还没有完全开始的时候，你有没有听过我一个话叫happiness of pursuit。就有个人说他说我们就我中英文混在一起，人生重要的不是the pursuit of happiness，不是追求幸福，而是happiness pursuit。尤其是你说的那种我在追我快追到但我还没追到，没有完全拿到手里那一段时间是最快乐的。因为你既有目标，也知道自己能行，然后也有在进步。但你拿到了那个东西之后可能就不放了，那个go pose就变了，性质又不一样了。你快递拿一个东西。</p>
+<p class="transcript-line"><span class="time"><strong>[01:29:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>等快递的时候永远是最快乐。我对我一直是尝试把自己处于这个状态，所以我就是不停的换环境，换环境是一个人生。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的hack我明白你意思，就是给自己出了一个难题，要往下一个目标走。对。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这是一个人生的hack。对，总体来说，我觉得美国生活还是挺好的。然后如果说上限的话，可能美国生活上限会比较高一点，毕竟它还是挺辽阔的，挺大的一个框架。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>按照你这个方式，确实你每走一个地方要往上走一步的话，那你确实也不。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一定要往上走一步，就是你要多体验，你体验你可能喜欢这个地方，那你就待着。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个待一待exports人参的这个浓度就变高了。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你每个地方都有它自己的特色。你去了travel是你完全你感受不到这个地方的东西的。你必须要在这里面生活工作，你才能理解这个城市。对，所以我是尝试经常把自己放在这种换环境的这个模式里面，然后这样的话自己就成长比较快一点。</p>
+<p class="transcript-line"><span class="time"><strong>[01:30:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，好的，行，那咱们今天差不多可以，到这里可以。好，感谢，咱们聊的真的挺多的，感谢今天又来做客镜。</p>
+<p class="transcript-line"><span class="time"><strong>[01:31:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>哈哈哈哈。</p>]]></content:encoded>
+            <pubDate>Tue, 24 Nov 2026 04:17:01 GMT</pubDate>
+            <guid>6b050da744e24a385c02947d</guid>
+        </item>
         <item>
             <title>不聊 AI 实在不行了！不看代码，卸载编辑器！AI 时代到底该怎么做产品？2026 年底的 Vibe Coding</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6afe7e78fe62f8f52c4d7471</link>
@@ -9184,566 +9582,6 @@ PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在�
 <p class="transcript-line"><span class="time"><strong>[00:12:34]</strong> </span><span class="speaker"><strong>发言人4: </strong></span>以上就是本期节目的全部内容，欢迎给我们点赞、转发和评论。想订阅我们的节目请在小宇宙、苹果播客、哔哩哔哩和youtube搜索代码之外，也欢迎您在爱发电或上述任意平台给我们打赏。想提供任何素材或话题，欢迎通过show note中的听众来信链接给我们提问，我们下期节目不见不散。</p>]]></content:encoded>
             <pubDate>Tue, 20 May 2025 09:30:00 GMT</pubDate>
             <guid>682bf331457b22ce0d901122</guid>
-        </item>
-        <item>
-            <title>串台：游戏《33号远征队》一周目体验 | 「有人倒下，也要继续前行」</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/68216f6db7c8a9962ca048ed</link>
-            <description>这集是我台和 《迟早要玩儿》 的主播小熊猫串台录制的游戏《光与影：33号远征队》一周目体验 。
-我们都刚刚打完《光与影·33 号远征队》。对游戏的核心战斗机制，美术音乐，符文灵光 build，演出动画都聊了一些，由于游戏质量太高，小熊猫和 Randy 竟然不知不觉一口气聊了两个多小时。
-代码之外 Beyond Code 是一档由 GeekPlux 和 Randy 共同主持的程序员闲聊播客节目。节目地址：bento.me 我们的节目同时会发布视频版，在 YouTube 和 Bilibili 搜索「代码之外」都能找到我们。
-欢迎在 forms.office.com 向我们来信，我们会在下一期节目分享你的来信或解答你的疑惑。
-也欢迎在爱发电 afdian.net 赞助我们。也欢迎赞助商联系我们商业合作。
----
-感谢 Relingo 赞助本期节目。Relingo 是一款借助 AI 来帮助你轻松扩大词汇量的工具。它提供了很多功能，比如网页查词、高亮显示、沉浸式翻译、PDF 文档翻译、以及 YouTube、Netflix 等多个视频网站的实时字幕翻译。让你在不影响阅读及观看体验的同时就能巩固和扩大英语词汇量。在 Relingo 官网输入优惠码 BEYONDCODE 下单可以享受 7 折优惠！
-* Relingo 官网链接：relingo.net
-* 7 折优惠码：BEYONDCODE
-金牌赞助商 / Golden Sponsor
-PaddingLeft 是主播 Randy 创立的创意工作者周边品牌。你可以在这里买到程序员贴纸和项链。我们每售出一张开源项目贴纸，会为该项目捐赠 1 元人民币。
-* 官方淘宝店：pdlft.taobao.com
-赞助商 / Sponsor
-* Notepal 一键同步微信读书笔记到 Notion, Readwise, Logseq, 思源笔记等笔记软件
-* EpubKit 把网页、博客、文档一键生成 ePub 电子书
----</description>
-            <content:encoded><![CDATA[<p class="transcript-line"><span class="time"><strong>[00:00:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，这是由代码之外的Randy和迟早要玩的小熊猫一起串台的一期节目。我们聊一聊光与影33号远征队的一周目游戏体验。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>加索意大利。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我们从哪儿开始？要不就我们从。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>整体从游戏介绍开始呗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从游戏介绍开始。好，需要吗？需要这个反正是一个新的工作室，他们都是育碧的老员工出来做的。我觉得就是从某种感觉上，从这个工作室的角度，我觉得是狠狠的打了一把传统游戏大厂的脸。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你知道就是刺客信条影。说实话就是从从我直接玩刺客信条影和这个光晕34号远征队的感觉来看，就是什么叫一个几十人的小团队，从成品的角度吊打了大厂的作品。就是玩刺客信条你会发现那个演出之僵硬。我在玩的时候其实没有那么强烈的感觉，就觉得还好。可能反正又是个大厂，然后他们要隔几年就要把自己的作品推出新的一代，然后那笔钱可能有有那么一点儿胡任务的意思。但是总体来说，我觉得还是一个不错的作品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是跟你一比，这个演出台词，这个神情的细节各种捕捉，这比起来你再回头去看，因为我特意去看了一下刺客信条的影子，因为他们几乎是可以放在一起比较的。这个同年代的作品就是甩了不知道多少街。但是我觉得不是玉璧的能力不行，就显然没有对这事上心。就是典型的一个大厂。他们在做我一个作品的时候，其实有大量的人力、精力、财力、时间都耗在了这个无谓的什么的那些事情。在这个最后的成品上没有给出最好的表现。并且与这个小团队这么一款作品相比。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这个小团队其实是不能用传统的一个小团队能力来体现。我觉得本身实力是很强的，但是毫无疑问不可能它的峰值的生产力会比大公司还强。我觉得这个也是不会的。我只是想说这个大公司在最后做出成品的时候有大量的损耗，这个实际成品可能比我们想象中的体现出来要低特别多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得可以先给听众介绍一下这个游戏是怎么样的一个游戏。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，我觉得这个游戏大家现在把它放进了GRPG的这个分类里头，就是回合制的RPG游戏。大家一般这么来看，但实际上玩了之后，或者说你曾经玩过一些GRPG。然后你比较一下，你会发现这个团队他在GRP的基础上做出了相当大的改动，尤其是在玩法方面。剧情方面咱们一会儿再聊，这个玩法方面差别相当之大。当然我们一句话总结就是他在回合制战斗当中放入了动作游戏的部分。但是看似这么一个一句话就能介绍完的设计，但其实对整个游戏的在玩法体验上产生了非常多的连锁影响，非常多的连锁反应。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说像我，比如说玩这种回合制的游戏，我对人物的出招，然后他们中间的演出其实是不抱我期待的。因为我觉得某一个招式我新学了之后，或者是我刚刚掌握了，这个动作很帅，我觉得玩起来不错。但是我很明显，只要看十次，因为十次是一模一样的。他这个出来如果你装备不变，打出伤害都是一样，我觉得就很无聊。因为再好看的东西它不变，我看个三次、五次可能就腻了，对吧？更别说他一个动作最多也就是2秒钟，3秒钟，可能就这样。但这个游戏因为它虽然是回合制的一个样子，但是在真正的战斗过程当中，其实它融入了动作游戏。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他需要你去做闪避、弹反，后面还有跳下来，总之还蛮多的，会导致在玩儿的时候实际上会有不同的感觉。比如说你没有办法再像之前的回合制那种什么跳过，或者我坐那儿看，或者什么我去玩一下手机什么之类的，我不行，必须我必须得在那儿跟着打，因为他这个弹反的收益太高了，甚至是有的时候你不弹完那个敌人几乎就很难打过。他还可以塑造成这个我之前也聊过，就是他后边还可以形成那种以低等级去打高等级的这种几乎在传统制回合制游戏里头是不可能完成的挑战。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我当初我当初刚接触到这个游戏想玩，就是因为我看到它是一个回合之家动作游戏的一个结合体。因为我本身我其实玩的回合制游戏很少，我上一个玩的回合制游戏就是梦幻西游。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那是有点久了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>梦幻西游你敢想，就是那种很古老的，然后这种幻想什么的，我是没没怎么玩过的。我可能看别人玩过，但是我自己不怎么玩。我玩的动作游戏比较多，而且是那种类魂似的，像是狼、卧龙、黑神话这种。然后我就看到这个，不是看到一个视频，然后可能是预告片还是什么之类的。然后看到他们这个游戏是回合制，然后在回合制的中间你是可以得到，可以闪避这种对，跟我玩动作游戏里面很像的这种玩法，我就觉得比较有兴趣，所以我就入手。而且剧情我他就是那个预告片，他会一句话告诉我这个是一个什么样的世界观，我就觉得这个世界观就挺有意思的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个预告片其实我没看过，你说一下那个预告片是什么？其实我对这个游戏完全是零知识，就是完全不知道这个游戏。就是我是在那天突然XCB上有一个新游戏，然后发现这个看起来还不错，我就给下了。下完之后我就搜一下这什么游戏，发现好像评分还不错，吓我一跳。因为我之前刚刚在打的那个那个解谜叫什么来着？那个没有中文的，回头再说。刚刚打完也是靳XCP的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是看到有一个是我在想，我不知道，我忘了在小红书还是在twitter上面看到有一个视频，然后里面就是他在战斗的时候的画面。然后我去搜了一下这个是什么游戏，然后就看了他一些介绍。然后他的介绍我看到他的剧情是说在遥远的一个地方有个石碑，然后上面有一个数字，然后这个数字每年都会减1。然后这个镇上面的人，比这个数字大的年纪的人就要叫里面叫抹杀对杀。然后我就觉得很有意思。然后他这个战斗的任务就是我们有一个远征队，每一年都有这个远征队。今年是三十三，然后我们就操作了33号的远征队来过去看一下，一看究竟这个到底发生什么事情。我就觉得这个剧情我一听，我就觉得这个编剧或者这个导演，他肯定是进击的巨人的粉丝。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道你有没有看敬业去看过。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我其实觉得我个人对这个设定还是比较新奇的，它明显对比较新奇，就是好像和传统的那种什么救赎，或者是一个比较老套的剧情不太一样，但是有可能内核是一样的，因为文艺作品能够激起玩家的共情感、同理心的，往往就是这些基础的感情。这个作品其实也不例外，也是也是不例外。剧情的最后也是一些大家能够想到的熟知的一些事儿，但是还是通过一个比较架空的一个世界观，有点科幻的一个世界观吸引大家过去。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且他的这个世界观比较可以说简单一点。因为我我其实玩以前玩比如说像只狼或者什么的那种动作游戏，其实他的世界观会特别大，然后大到我这种轻比较普通轻度的玩家，我就很难理解这个游戏的这个世界观，从而很难去带入他这个游戏里面。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且魂系游戏有一个特点，就是他们好像刻意的很喜欢。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不搞得很神奇是吧？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不喜欢把剧情一股脑的告诉玩家。我希望玩家顺着我们的主线，我希望时时刻刻玩家都知道我们此时在哪，我们要干，但是他们好像不乐意这么做，就是希望你只要干就行了。干完之后我们会有一些遗落的这些文字，你自己去看，对对对，拼凑出一个完整的世界观，发现游戏制作人真高明。我会自己会有一种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以其实我也特别不喜欢这种。虽然我玩的这种类型比较多，但是比如说像只狼，我一直很想他有一个这种像打拳皇一样，你上来就是干你不要让我跑图，就是你如果没有剧情的话，你就不要让我跑图。对，因为我是很讨厌跑图的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为核心让玩家觉得爽。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就在于谁干。是啊，你不如直接上来就干你又不可以不用去跑图，不用去过剧情什么的，我觉得这样的这种方式更纯粹一点。那你既然没有剧情，但是像我觉得黑神话是一个比较比较好的一个平衡了。在回在类魂系跟有剧情的这种游戏之间，我觉得是一个比较好的平衡。然后再到这个33号远征队，我觉得又是一个对我来说是一个更好的体验。其实我觉得我我我玩33号的时候，其实一直心里都会去把他跟黑神话剧比。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不知道你会不会，怎么说呢？因为我会在战斗的时候会去比，然后这个剧情方面我觉得跟黑神话还是不太一样。剧情当然对，我觉得他的演出制作方面比黑神话来说更更讨我的喜欢。就是我觉得他这个演出，我上一次录节目的时候，其实后边有大量的演出我都没看。然后我现在仔细去看中间那些CG的演出，那些动画我觉得做的特别好。而且他有一种把很多很基础的感情，用不那么溢出的方式来告诉你，其实中间有大量的很很悲伤、很怀念、很欢乐这样的情绪的表达。但是他们他并没有特别的有那种夸张的溢出的台词或者是表演，但是微表情和这些细小的元素做的又非常的到位。我觉得配合音乐，这个音乐怎么一口还可以再聊，我觉得配合音乐做到了一种非常有克制的美感。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我也是这么觉得，我我我是很喜欢看他的演出的，所以我基本是没有跳过。然后就是我刚刚所说的跟我会跟惠城花去比是其实不是在剧情上面去比，而是在玩法就是操作对战斗的操作以及build的构建这两个东西上面去比，还有一些像什么空气墙，对吧？空气墙还有这个跑图这些我都会跟黑神话去对比。我觉得他们两个是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很像是这个跑图。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那确实是游戏。对，跑图。而且说起跑图，我觉得这个游戏我唯一也不是唯一，就是为数不多很不爽的地方。对，就是它的地图的设计。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我其实也没搞明白。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我我我有时候第一他没有就是在他在这个叫什么非世界地图的那种跑图的时候，他是不给你提供。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>效果的对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟黑神话一样。我不知道这个是到底是很有成本，还是说他是一种故意这么做的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己是这么想的，这个我确实思考了很久。因为玩黑神话的时候，这个小地图给我带来的伤害如果是五分的话，这个游戏在小地图上给我的伤害可能是十分。因为黑黑生化的图，在我看来他虽然没有小地图，但是黑神话的地图的识别度是比较高的。就是我是觉得这儿有一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>巨大道往哪走是对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者说这儿有一个巨大的山我记住了，那有一个巨大的门我也能记住，无非是找到那个门可能就行了，我找不到。有的时候这个游戏，有的时候我们它不是有特别多能够让你有记忆点的那些标志性的建筑。因为它有很多奇幻的场景，不知道你还有印象吗？什么原野，什么像海底一样的东西，有五颜六色的花里胡哨的，再加上这个游戏当中的美术，有很多地方就是偏怎么说，偏偏荷尔蒙溢出的那种，就是颜色对比度特别高，本来就已经特别让我的眼睛感觉很累了，所以导致没有小地图就更辛苦。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我自己是这么理解的，你要说他不想做，那我觉得没可能。因为大地图它是有的，所以不可能没有考虑到。你要说没成本，这我觉得也说不通。因为这个游戏当中无论是音乐故事、剧情各个方面都是量大管跑。对他没道理，我觉得这儿省一个小地图，所以我其实也不是很能理解，还是说他们希望你能探索一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我其实仔细思考了一下，这个游戏当中给我带来说这个没有小地图伤害如此之大的原因。让我打一个比方，比如说这个游戏当中有一条主路，对吧？我按理说我一进入那个小地图，进入之后，在我面前的我默认就是主路了。好，等我走到一半的时候，如果我发现有一个岔路，如果我是玩生化危机或者别的其他的游戏，我会怎么做呢？</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我可能会觉得旁边是个岔路，我去岔路看一看，岔路里头可能没走多远就到尽头了，就是一个死胡同。那那可能有一个商人或者让我捡一个什么物品，对吧？如果说我发现那个岔路里头有一个更深的路，那我知道我大概能判断前面那个主路可能是有问题的，那个主路可能是什么死路，他希望我走这个岔路。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>怎么样。但是这个游戏它不是就是它这个岔路进去之后，它还有非常多的东西让你探索。然后一岔二岔，岔路之后可能还有循环，然后你就找不回主路了。然后其实那个正确的道路还是在主路上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我打一个比方再打一个比方，就好像咱们说下围棋或者下象棋。正常人对意的时候，我们在思考的过程就是对手他未来两步、三步、四步之内可能的所有的走法，我搜索一下，过滤一下，我就知道我应该怎么做。但这个游戏你需要考虑的就是你进去这个岔路，还有岔路，好像我需要去检索我下棋的时候，敌人对手要走三步、四步、五步、六步、七步、八步，最后发生什么对玩家来说会比较累。另一个我不知道你有没有感觉，就是打完之后找不到自己在哪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>打完之后找不到这你是说打小怪还是打。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>boss打小怪我觉得这个跟回合制是有关系的。就比如说我今天如果玩黑神话悟空，我场景中遇到一个敌人，那我会跟他打对吧？我干完之后其实是我是我在打斗的过程当中，我的那个背景就是我进来的背景对吧？但是我玩的这个回合制游戏不是我我进来的时候是那个背景，但是我在进入战斗的时候，这个回合制单独的一个小空间。我打完之后我面朝哪儿我都忘了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是因为背景变了。你这么说我确实想起来，我也经常这样子。然后打完之后我就觉得前面是不是我刚刚走的那条路，然后我一过去发现我在绕圈圈。对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是我打完，然后我继续往前走走一半发现不对，我刚才不是走过这条路吗？我觉得跟这个回合制是有关系的。因为我们没有在那个真实的进来的场景当中完成这场战斗，我们进了一个新的小的space。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我第一次去迷第一次迷路是因是是我很记得是在一个也就是刚进去海底，准备去找刷刷图村的时候的那个图。我忘了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你在村里头是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是村里头迷路了吗？不是村里头，是那个海底。海底就是他们被一个门吸进去之前真的，我知道你说的，就是那里我叫不出你就迷路了。然后我当时在想，我靠他们是不是故意增长我的游戏时间？所以这个是我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得跟我玩。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>黑心话的时候一样的体验。就是如果他有地图，我觉得就完美很多。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好太多，杨老师好看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后第二个我觉得跟黑神话我一直会在内心潜移默化的一直会去对比的，就是它的build的那个系统。黑神话我很喜欢它的一个点，就是它免费洗点对，这个要然后免费洗点，免费洗脸，可玩性对我来说很高。是就我可以它有三种，黑神话的时候是有三种不同的棍式，然后我就可以不断的就有比如说打被打死之后，我就在复活点，我就重新去构建一套新的别，然后这就很好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且他们发掘的设计的时候，其实并没有故意设计成有一个特别好。其实他那不同的打法在不同的boss战当中用处都挺大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后玩33号的时候，我就发现他洗脸不是免费的这是第一个。第二个就是他的这个他让我有点尴尬，比如说他他的武器跟它的点数有一些点数是有对应关系的。是但是这个武器它是跟那个元素属性也是有关系的。所以这意味着比如说我要跟这个怪，他可能跟我这个元素相克的时候，我必须要换一个武器。但是我一换这个武器，它的跟我的属性点的匹配又不匹配了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>确实存在这个问题。这个时候我不可能去买一个什么重绘的那个宝石，就给我洗个点，然后我打下一个怪，又他妈花一个重绘的石头，又给又又十个点，我觉得这就很不合理，让我很尴尬。是他我觉得这个游戏的可玩性就没那么高了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我自己是这么觉得的，我觉得他这个可玩性不是说特别我我我不好，用高或者低来形容它。我觉得他搞得有点过于复杂，就是可选项太多了。因为它里头还有那个符文和灵光这么一个设计，那个高级的符文后面还是是能加属性的。你还知道你你还记得我对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，有的符文是可以加属性的，所以导是比如说我需不需要给这个人物点血量呢？我可以前期点一点，后来我觉得取消了。因为我记得后边是有些符文可以加很多防御，加很多血量，但是攻击显得这个资源比较宝贵。所以我干脆我也不做，我就不点了，我就让这些符文去增加。我再通过一些灵光，因为那个符文增长之后变成零光，然后把那个灵光给其他人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得它这个系统做的过于复杂，导致会构建出来一些比较明显的流派，会有一些流派出来。因为我已经看到有人这么玩，但是他并没有把这些打包好，清晰的告诉你有这么几个就相对比较容易探索交给玩家，而是做的过于灵活。我不知道是他们这个算是背后的这个数学系统做的过于复杂，还是说就是干脆什么都不管了。我们就先往这一搁，然后让给玩家自己去探索。最终因为不管怎么讲，其实这个游戏收益最高的还是弹反，别的说什么都没用，是不是？</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得可以我我我我我觉得可以给听众简单梳理一下这个游戏的这个build的整个系统是怎么样的。首先他是每个角色他他是可以有武器，然后每个角色的武器的种类其实不一样的，这个就没太大关系了，反正第一个是角色的武器，然后这个武器它有基础的攻击力，以及它可能有一些武器是跟属跟元素的属性是有关系的，什么金木水火土这种雷电什么的属性。然后每一把武器它可能会在某一些的天赋点，是不是叫天赋点？反正就是人物的天赋点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人物基本属性没有加成。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，有加成。每一把武器可能有一些武器是跟你的防御属性是有加成，你的防御越高它的伤害会不会越大对对，这是武器的其中的一个build。然后另外一个它是有一种符，它一个叫符文的机制，就是打小怪的时候它会随机掉落一点符文。那这个符文你可以让人物带在身上，他带在身上相当于是一种被动，有点像是被动的这种感觉。但是如果这个人物带着这个符文赢4场战斗，这个符文它就可以变成零光。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我其实这个灵光我一直打到可能五六个小时，我才明白到底是什么东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也是我不好理解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且这个我在其他的游戏当中基本没见过。就是我的理解就是你符文这个人带了别人就用不了呗，怎么还能冒出来一个灵光复制给别人？</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以说这个符文当你打完带着他打完打赢4场之后，它就会变成一个可以被你的所有的队友共享的一个符文。那这个符文他们就不需要带上身上了，他们只需要消耗他们的灵光点，他们就可以嵌入他们的体内了。对，这是一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另外一个就是技能，对，技能不同角色就不同的技能。然后是技能是需要通过你的升级来一步一步去去点点开点亮一些技能的。这个应该跟所有游戏都是一样的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对技能树对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以整个build其实就是这样子。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我觉得这个游戏当中还有一些额外的穿插的牵连，就是呃呃这个角色之间是技能也是有一些很好的搭配的，就比如说可以海尔有一个如果敌人是在着火的状态，可以攻击那个降灵技能在哪给我忘了，可以自己变成高手战队。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以如果可以自己变成刚对，如果什么条件触发。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>敌人处于着火状态，所以先发的时候让你让那个谁对敌人开火。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>叫大步流星。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，让他开火。开火之后马上就直接去攻击他，直接就变成高手战队。所以他这个还多一层牵制，就是角色和角色之间还有技能的相互的配合。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，是你刚刚说的那个技能就大步流星。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有时候讲是是是。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为我刚好带着那个，我刚好是带着这个技这个技能。我觉得我们等一下可以分享一下各自的最终的一些很喜欢用的build。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好，我都有点记不得名字，我每次是记得是按X。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>形成肌肉记忆了。因为我现在是看着我的掌机来来来来来来来录这个节目的，所以我就可以看到，反正他其实挺有意思的是它不仅仅是每一个角色的bill，你可以通过搭配不同角色的不同的技能去来组成一套很强的bill。这个是我觉得这个叫什么回合制或者说团队回合制的这种优势所在，就是你可以去配合不同的这种角色。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有武器方面做的还是挺好。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是有一个点是我觉得这个游戏不知道是我问题还是这个游戏的问题，就是它里面不是会有一个元素属性相克吗？我其实到现在都不知道这个相克的关系是什么。有时候有您。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可以这么记得，有一个攻击他会受到更多的伤害，有一个攻击他会受到更少的伤害，还有一种攻击他是给对方加血。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，我我我知道。但是比如说像那个大地伤害，那就说不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>敌人什么属性是吧？对，这个就是全猜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你只能靠猜猜。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有就是视觉上体现，你看那个身上着火了，或者他会使用火焰来攻击的，或者是他可以同时既可以使用火焰。就是有一个敌人，我也忘了叫什么名字，就是在拿把剑，他一会儿从地里抽出一把带火的剑，一会儿抽出一把带冰的剑，他那两个都是克制的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它会转换形态是吗？对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>大地的就那个从长土土的那些人。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我到现在不知道为什么，我现在都不知道大地可以刻什么属性。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不知道我这个我也不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我很少玩那个李捏。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他还有一个东西，我其实我也是玩到中间我才知道就有一个击破，就是那个敌人的血条。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>下有一个红条是吗？对我都开始不知道那是什么东西。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我开始以为就可能画了一条线而已，后来发现居然他妈还能动，但是也没有告诉我他是干嘛的，还是说告诉我忘了我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实也很少有击破的被动，而不是被动击击破的技能。所以我一直很难击破别人。但我看别人说是击破是很有用。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有没有用的？就是有一个怪物是他会给你衣服的，他战斗一开始的时候会给自己前面定一堵透明的墙，你有印象吗？但那不是必打的。如果不击破，我现在对你不击破的话只能掉一点点血。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我那个时候我打他的时候已经有斯汤达了，所以我斯汤达直接就秒了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚刚才你说那个就是洗点，我突然想了一下，这部分跟黑神话也有点不同，也有可能是我的问题，就是我玩黑神话的时候，我发现我打完了，我就是整个过程当中我都舍不得吃药，就是非boss战或者非必要场景我都不舍得吃药。觉得这药怎么说呢？我留到万不得已的时候再吃吧，不管什么大药小药我都舍不得吃。最后游戏结束的时候，身上留了一堆药，也不知道干嘛。设计的时候你会觉得这个药没有体验到效果，甚至都没有让我体会出来。就是有一点儿可能有的人玩的时候跟我不一样，他会有有药就吃什么之类的，但是我没有，这个游戏就不是这样，因为要是没有要这个概念进来之后要都会刷满出去就没有了。所以所有的药，但是药他做的也比较简单。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一个部分我觉得可能对我这种不是特别喜欢混迹游戏的玩家来说比较友好。就是他战争失败之后，理论上来说应好像是没有完全没有惩罚的。没有对吧？完全没有惩罚。对，这个我觉得比较友好，而且好像跟难度没关系，最高难度也没有惩罚，只有打起来比较难。因为确实这个惩罚机制，尤其在有些混戏游戏里头，会让很多玩家感到不适。我我也我也感觉很不适。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且我而且他这个因为他很尴尬，也就是说如果他想要吸引JRPG的人来玩，那如果他设定的太难，那GLPG人就不想。而且我也觉得这种难度对我来说是刚好合适，像只狼那种，其实我我觉得我自己有点找虐，如果我不是特别我心情不是特别好的时候，我是绝对不会玩只狼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是我觉得对于大多数人来说，要把自己调整到我要去努力的把这些东西观察，然后形成肌肉记忆。这个过程如果过于长的话，对大部分玩家来说是一个是一个是一个门槛。就是这这个这类游戏的在我看来它能够运行的本质就是让你观察，然后去记录，然后形成肌肉记忆，然后把这个给扛不过去，基本的机制是这样对吧？但是如果他出招过于复杂，这个需要记的东西就过多了，或者是反应操作上，我觉得大部分玩家可能都还好，不是说特别困难，主要还是记不住这个问题，过于快板刀这样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为比如说我其实觉得33号的难度已经不是那么高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我比较觉得很亲民。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，比如说如果跟黑神话剧比，其实黑手话也已经很亲民了。那黑崇画要比上次会要更难一点。因为像这种非回合制的战斗战斗类游戏，它比起33号远征队这种，他还多了一个他除了格挡闪避，他还有一些翻滚、跳跃之类的。33号也有跳跃，对，33号N也有跳跃。但是因为三烧这种是它是固定在同一个地方的，所以你的操作就是一次只有一个操作。对的，复杂程度就没有那么高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对它比较像，其实更像在一个标准的场景上做一个QTE。对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且而且我觉得游戏他他我觉得他这个游戏他在敌人开始战斗，敌人开始操作的时候，他会给你一个提示，我觉得这个挺有意思的，就是他会说什么什么怪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他要进行什么攻击了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，快速攻击是速度特别快，或者说速度缓慢。对，或者说他会给你提示他是两年两连击还是三连击。对，多段攻击。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>或者说他有些没有的，也会说这是一个某一个攻击的名字，你下一次就知道了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我觉得这个确实是有考虑到是非魂系玩家的这些玩家是我。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>觉得他明显的告诉你这是一个需要把它显示的点了出来，这是一个你需要去记的东西，你需要去背，你把它背了，这一关你就过了，你不需要想别的，你就。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>赶紧背对。而且其实他在打斗过程中，我发现很大多数的情况下，他的战痘的每一次出手之前都会有很明显的音效。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是这个声音其实比那个动作更好。去观察我后来我开始是用音箱玩的，就是我坐在主机前面用正常用音箱玩，我后来换成耳机了，哼我发现收益真的很高。它有个微小的声音出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也是用扬声器，然后我是要把耳朵凑到扬声器上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我后来就戴耳机，差别真的很大。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊而且特别是打那个雷亚诺的时候，是我记得第一场的雷亚诺就是他在邸宅的门前的那一个那一那一场打斗。那一场打斗是一开始我打到我心态有点崩，然后后来我就慢慢的摸摸出了他的套路之后，我发现它的这个音效的提示是很强的，而且它是很规律的。从音效来看，它它虽然是它是有一一两段的快慢刀的，但是它的音效是固定的。比如说它即使是快慢刀，它在出手前必定会有一个惊这样的对对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你只要听到那个音响，你就不要管他的画面，因为画面会影响你，因为他快慢刀他反而会影响你。所以后来我就他一开始出招的时候，我就闭上眼睛，我就听那个音乐。对，然后这样反而就会就打过了。而且是格挡而不是闪避。你只要抓住他那个节奏就很好躲。而且比如说有一些有一些招式是从地下会爆几个东西，然后他是三连抱抱的女生的，放在你身上了，对他就嘣嘣嘣。其实那个那个节奏也很稳，所以只要你抓住了那个节奏之后，很容易就能格挡。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是，而且我自己觉得用耳朵听其实比视觉上的东西要更简单一些。我不知道你有没有觉得就因为那个视觉上怎么说呢？是那个动画比较繁复，而且不容易抓到那个点，但是声音相对比较清澈。因为在战斗的过程当中就一个BGM，然后一点音效，那个音效是很容易补的了，只要你听到那个是那个声音就算不是，总之反正他有一个东西，只要是在在在重复的，你抓到那个东西就可以了。他不管是不是，一定会在那个时刻。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，因为他是。但他有些怪是他他有些怪的招式没有声音的。我见过有一些没有声音的，就比如说他拿那个大砍刀，然后有个两连砍，我忘了是什么怪了，反正他的刀是很大的，就是小怪来的，反正来了一个大砍刀，然后他是两连两年砍的。那个他我我记得好像是没有声音的，但是他的前摇的动作是很明显的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是那个，用把剑拔出来，然后插自己的多多几个护盾出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个不不是那个不是，那个是一个很普通的怪，但是他用的刀是很大的，或者说还有背着那个水晶的那个怪，那个石头人他是用那个水晶来锤你的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个三连接两好像也是没有声音的，他好像也没什么没没有声音的。我打这个基本都是靠看他的前摇。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个好像有声音，他有点呼的风声。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能你没带耳机，那那确实我没听到。对，反正我就是觉得这一层看得出来，这个是对一些对动作游戏不是特别熟练的玩家是很友好的一个游戏。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且它卡在难度降低了，而且过程当中动作游戏的那些让大部分玩家反正是让我觉得不那么舒服的地方也规避掉了。比如说其实这个游戏它就比如说这个游戏333后远征队和黑龙王悟空他们核心的让你觉得最难的地方就在于抓住时间点做隔挡、做闪避，做相应的QDE对吧？但其实在比如说说黑神话武功当中，他需要去在战斗过程当中，其实是要兼顾演出和战斗的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>在黑神话故宫当中，反正我自己觉得就那种服务于演出的怪我打起来是非常难受的。什么那个抗金龙，我他妈不知道打哪儿，就是不知道该不该打，我此时该不该打，我是不是可以打的，然后我该打哪，也不知道有没有命中。因为有些怪他，因为他服务演出，显得非常的壮观，身形巨大。那可以打到哪儿呢？它这个射击的时候，不管是在显示上还是怎么做，我觉得是有一点点和玩家的预期不一致的那这个过程当中就不管怪大小无所谓了，演出也可以做到非常的华丽，这个游戏演出做的是相当出彩，然后招式一点儿都不重复，花样非常多，然后也非常好看。但是却完全不影响我们，只要按QTE这一点最核心的部分就可以了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我觉得而且他的配乐是很强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，他的配乐非常屌。对，关于这个配乐，其实我后来找了一下他们五年前拍的一个小的纪录片讲这个音乐。那个纪录片挺有意思的，就是他有几首主题曲是在五年前就开始创作了，和现在基本旋律都定下来。但五年前的时候，他们刚刚开始立项这个游戏。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>五年前，因为很多时候我其实是以为游戏的音乐大部分都是从游戏制作中段开始搞的。因为你想你你要跟一个作曲家，因为作曲家有可能他不是最开始的核心成员之一，或者说他必须要中段再加入。因为你要告诉他，你今天帮我们来创作一个合适这个游戏内容的一个音乐作品。那那音乐他他做的时候总总需要说，我知道咱们这个游戏是讲什么的，对吧？或者说我看到这个游戏大概的脉络是什么样的。我总得有一点基础的背景，我才方便去创作跟他贴合的音乐，而不是给他一些关键词。你帮我弄一些BGM，没这么简单，当然那种也有，比如说我要做一个什么钓鱼游戏，你帮我做一个钓鱼音乐，那可能就比较轻松。有一点简单的这种旋律的其实就可以了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个不是它大部分的音乐其实和场景，和这个时代背景，和里头的风格其实贴合的是比较近的。你几乎找不到哪一首音乐是怎么说是比较万能的。其实没有，它几乎很多不同的场景用的是都是不一样的音乐。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>除了那几个重要的主题曲之外，然后我看那个纪录片里头，他们在创作主题曲的时候，这个游戏都没有，就只有几张画，然后他们就开始铺垫。我们要可以说就是完完全全把这个音乐的制作的怎么说呢？条件放的非常的宽松，就只是告诉作曲家我们要做一个什么样的故事，然后大概讲的可能是一个一个比较悲情，但是又不是那么壮烈的故事，一个伤感的故事。然后他们就创作了带旋律的音乐，它不是那种简单，并且是是有是有非常明显的这个旋律在里头的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我是看到我是看到，因为我也做了一些research，然后我看那个作曲家，就这个OST的作曲家叫loan。然后他他当年是一个素人，他是吉他老。然后他被发现是因为他经常会在sound cloud上面去发一些他自己的作品。然后有一次他就把他的作品发到一个视频游戏的论坛上面。然后33远征队的那个制作人就找他说要不要来搞一些游戏音乐，然后就一拍即合。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正我听说那个女主唱也是类似的，就是女主唱有一天email说李荣介说你要不要帮我们来唱个歌，这里头所有歌女主唱只有一个人，就那个叫爱丽丝唱的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我一开始你知道我一开始为什么我为什么觉得这个因为特别屌？是因为我一打开这个游戏，它它播的那首歌就有歌剧的那个，那首歌叫allia。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个不就是两首重要的主题曲之一吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这首歌叫洗脑，说实话。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是我们的大女主阿丽西亚的名字。然后我一进去那个游戏就听到这首歌，我觉得这个氛围超好。然后从开场的动画到进入一些场景的时候播的那些音乐，我觉得是非常的让我感受到那个氛围，那种很沉静。是而且他的编曲也比较的他们很喜欢用弦乐、提琴这种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，甚至小型数据的大盘的配置。这个我有看，就是呃我自己是总体上有这么几种几个看法。首先是我觉得这个音乐，他比如说我今天对比其他的游戏的音乐的话，我举个例子。比如说我们会发现一个游戏作品当中，可能有那么一首歌，我们一首主题曲我们能记住。剩下的大部分歌它是为了铺垫情绪作用，或者说不会只不会放太多的旋律，旋律感比较弱。多放一些简单的和弦走向，然后铺垫一个情绪的调，或者说和弦内音外音搞一点就可以了。这个游戏不是，这个游戏其实有大量的音乐，旋律感很强，旋律感很强就是比如说我今天去youtube或者说我去B站搜这个游戏的相关音乐的视频。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你会发现比如说有人问你们最喜欢这首这个游戏当中哪首音乐呢？你会发现底下的答案是vers很大，方差很大。它并不是说有一首主题曲大家都喜欢这个，或者说这是一个非常好的编曲家，就为了这个游戏专门做了核心，做了这首歌。其实不是，他不是真的不是，就是发现这个团队，这个游戏制作团队和音乐团队和游戏团队，它不像外包关系。因为我发现有些游戏他其实音乐和游戏内容像是那种外包关系。就是我们游戏做完了，好，我们找一个编一个编曲的哥们儿帮我们写一首歌或者两首歌，然后放里头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>剩下的BGM，你用一些工具或者怎么着测个数，然后我们这个就OK了。但这个游戏明显不是，它每一个场景或者我觉得都绝大多数场景，他们都精心定制了合适的音乐。然后我为他创作了乐器，这个乐器的编排，人声部分，然后旋律怎么走，非常的花了大量的精力和时间。另一个就是我自己感觉他因为我看了那个PV，他们里头的我我我没有系数，是不是所有的大部分的音乐你会发现它没有那么强的制作感，就是更像是编排好了，然后我们实体演演完，我们就录录完之后就拿出来，或者我后期在母带的时候，我后期稍微调一下。他不是那种今天我们说做音乐，其实我打开一个宿主软件，然后大部分的鬼我拖一拖改一改，或者用一些现成的乐器往上加一加就可以了。它不是我我我看到的是没有的，就所有的都是实录的原声乐器。对，这是工作量，这明显不在一个级别上。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我觉得他做的很好的一个地方是他的音背景音乐是根据要么就是根据你所处的场景来决定，要么就是根据你跟你跟你战斗的人的人物关系来决定的。是是是的，这个是做的很好。比如说如果它是它只是一个简单的罐头游戏，他可能就是你一进入打斗。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他就放某一个固定音乐，对，让你情绪高。但实际上这个游戏不是，如果你和你关系很好的人打，是一场离别的战争，其实他那个BGM是没有那么情绪高昂。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，比如说他跟莫纳克默多克，就跟那个刷刷头就一其中一个队友第一场战斗的时候，其实他的音乐就很俏皮，是他的音乐就很很灵动很轻松。他会给你一种感觉是其实你在打的是一个娱乐局，是所以你打的时候的那我我打的那个我打他的时候的感觉就很轻松，没有那种打boss的那种那种很紧张的那种氛围，怕打不过他，又怕死什么的。跟他打其实他也不好打，但是通过他的这个配乐就让我有一个不一样的感受。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这也是我觉得体现出来就是音乐团队和游戏本身的制作团队，他们完全不是外包关系。他们是一个需要紧密合作的团队才可以。这个是比较难得的，我觉得甚至比光做好游戏这一点要更难。因为它是一个不那么容易显山露水的一个地方。它不像画面，或者我们做一个好的引擎，我做一个宏大的故事它很容易，它的接受门槛比较低。而我刚才我们刚才聊的这些很细节的音乐的东西，他必须要仔仔细细的观察。然后他能被拿出来或者是让这个团队发光发热，或者让大家都知道他能够带来的收益可能是比较低的，或者是就是ROI比较他投入了很多，然后回报可能就不像我去改善一下画面这个带来的影响那么大。所以就是我只能说这个团队追求高。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是其实现在看网络上的像小红书的舆论，其实大家对这个游戏的音乐都是一致认可的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这我觉得在我看来仍然是他做的过于出彩，实在是过于出彩。然后其他人完完全全就没有想过会有人在这个方面花这么大的精力和时间。我觉得他今年最佳游戏不好说，因为可能后边还有别的可以竞争的，或者是双眼皮境有可能要跟他掰一掰手腕。但是这个最佳音乐或者是最佳艺术指导可能没得跑。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>聊剧情了不行了，这个剧情怎么说？我先说一下，就是你你你你对这个剧情总体怎么看。因为这个剧情说实话争议比较大，而且我在玩的时候，我对它的中间是一知半解的。首先不是一知半解，我首先的第一感觉是比较震惊，后来有一点一知半解。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你是你你所指的震惊是哪个时期感到震惊，哪个事件让你感到震惊？</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>第一个这个可能和大家一样，就是那个谁叫什么来着？</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他死的那个good stuff。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，但那个时候我不知道他不是主角，因为那时候他我打到那儿，其实我一开始并没有推主性，我发现这个地图很大，所以我到处跑。他死掉的时候，我其实心里不太舒服，因为投入。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了感情。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他你说他这个NPC我可能觉得还好，但是我都给他加点了。这个点是我加的，武器是我生的。我觉得他这个主角，我把所有的东西都交给他。我那时候不知道马尔是主角，也没想到他后来拿到那么强的武器。而且后期他是个大后期，也不是大后期，他中期就很强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我早期没发现，我早期你想你正常的gRPC或者是那种配置里头有一个男主角加两个女主角，可能有一个女主角是法师是吧？然后有一个能治疗，那男主角毫无疑问是那种能抗能打的角色。对我把主力的点数都给他，然后主要就是他。结果没想到挂了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>没想到最强的其实是妹妹。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但那时候我自己觉得还好。我怎么说呢？我接受人玩这个游戏，我就得接受文艺作品的一切，我自己就觉得还行。这一点我觉得和这个游戏的本身也是有点关系。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>虽然说我给他加了点，但是他和那种纯正的角色扮演类游戏毕竟还是不同。因为那种比如说我玩最后生还者或者是什么之类的，我会觉得我就是主角，因为我一直要操控他，我我我只玩它，我们有非常强烈的bounding，但这个不是你会发现我有一个队伍，我三个人，就算是我很喜欢他，但是他们这三个角色在我看来从游戏角度来看就是三张牌。所以你不会觉得最多是我很喜欢某一个角色，我很喜欢用它。但是很难说我和这个角色之间我发生了多么强的bonding。我我就是他他就是我这种关系，所以我最多是觉得不太舒服，会有种我操我在浪费的感觉，但是不会有那么强的心痛不会那么强。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>完全只是因为那个点怕没了的那种感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是是是的，是有点不爽。你早说。</p>
-<p class="transcript-line"><span class="time"><strong>[00:50:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是我看到那个时候我也很震惊，然后我在想是不是他要复活，等一下会有一个。对对对，我也是想剧情等一下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>复活他要帮他复活。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，结果没有来没了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，而且还猝不及防的换了一个队友，这是最神奇的。我觉得真的是有点有点有点突然。你当晚回到营地，当晚回到营地就是你主要操控的是他时间有点太突然了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我觉得这个好像也是可能给大部分玩家觉得比较那什么的，就是在传统的GRPG里面好像是比较少见的。我从来没有遇到过这种情况，就会有队友离队，但是他不会当你面就死了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:51:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以我觉得这个导演编剧肯定是巨人的粉丝，巨人就喜欢干这么一种。你本来以为他是一个很重要的人物，结果一个石头就把他砸死了。我对于这个剧情，其实我一开始对他的预期似乎完全不一样的我一开始是以为它是一个热血的公路的剧情。对，就对我以为他是会很热血的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我那时候就有我上期录节目时候，我觉得这个就是一个典型的功夫片，我当时就这么试的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我当时就是这么理解的，最重要的是热血。我一开始就是很期我对他的期望就是热血。比如说这个goose stop，他可能本身是一个比较稍微懦弱一点的人。但是他可能是通过种种的战斗，然后种种的磨练，最后带领着团队走向在探索出真相，然后打败会母，然后凯旋回归的这种热血的故事。是我本来是这种。</p>
-<p class="transcript-line"><span class="time"><strong>[00:52:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人我我觉我觉得大部分人应该都是这么认为的。这后面结转实在是就是实在是超乎了所有人的意料。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是你说要我说失不失望，我也觉得也还好，只是它走向不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[00:53:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我刚开始有一点失望，后来我也觉得还行，就有可能是适应。刚开始失望是因为我原来觉得这么宏大的一个故事，原来是家庭鸡毛蒜皮小事儿，我当时失望的地方是这样，就是他有一个世界观的冲击。就刚开始是一个非常宏大的世界观，你会觉得它是一个科幻文艺歌剧，会有这样一些标签在里头，对吧？我要去一个远方击败一个非常一个巨大的怪物，然后凯旋归来。然后一个它因为它这个完全架空的，而且很宏大的一个世界观，它有大地图小地图，并且你会发现我进到那些小地图里头，它带给我的景色又是异常的丰富，就是有像春天一样，像那种海底一样的场景又非常多。我觉得好像是一个特别宏大的世界。然后非常多出来之后，你就发现又变得巨小。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是你们所有的这些真实事件的故事，它只是在一个现实世界的屋子中的发生，甚至都不能叫屋子。就是在一幅画的前面，你们这些人就是在那儿吵架，然后发生的一系列的小事儿，一系列家庭的琐事。这个大和小冲击也太大了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你你中途的时候，你有没有大概猜去猜它是一个什么样的情况，就是这个会母到底是个怎么回事，你有这样猜吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:54:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我其实没猜，但是我能猜出来我后来发现这个游戏是有一些暗示的，因为前面我也发现很奇怪，这个游戏当中有很多元素和画画相关。但是我当时觉得可能是主要是想体现会母，但是我没有想到他们真实世界的是有一个画，大家怎么怎么搞出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但其实我没有观察到跟画画相关，比如说那些刷头什么的，刷头你没发现吗？我都是后来才知道，后来才醒悟过来，原来是原来这个刷头就是那个绘画用的刷头。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我第一反应就蛮奇怪的，因为这个怎么会有人用刷子当怪物？</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他有很多画室。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>画室我就也看得出来，这是不是跟画画有点关系。但是我没有想通这个跟画画的具体的关系到底是什么。而且我一开始很疑惑的一个点是，为什么他们会知道那个人叫会母？</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个我也不知道，你说我倒是发现了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是他们的情报到底是怎么收集回来的。比如说他们说，原来他们在童话里面听过这个什么刷头，还有那个什么怪经过什么的。那这些情报是从哪里来的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:55:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他没交代。就这些人反正可能就是之前的远征队的人，就怎么了什么什么之类的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但远程战队的人去了都没回来，又回来了。对，也回不来。所以这个到底是怎么。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像是有点逻辑的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我后来是想说，可能是因为比如说因为他们画就是他画的这个画的时候，其实他们从刚开始有意识的时候，其实就是本来的一个设定。所以他当他在画这幅画的时候，他们画出来的那些人本来就知道了会议的这个设定，他也不知道他怎么知道的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就架空了一个世界，这里面所有东西我都可以去随意的填补。我觉得这个游戏当中有一些和画画的暗示，除了雷诺阿这个名字之外，然后还有光与影，还有马尔那个技能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:56:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>买那个技能。对，怎么说？马来的哪个你是说跟光与影有关系的技能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是，斯汤达。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>斯桑达斯桑达是什么？不是我我知道这个技能，我说斯坦达你是怎么理解？这个斯通达。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不就是指的是这个意思吗？就是我他怎么会有一个技能叫斯柯达正，这个技能太奇怪了。然后就是他形容人在画，因为有有有有一个同名电影你看过吗？没有同名电影讲的就是类似的事情。11个1个女的然后在一幅画的面前沉浸进去了，就跟那个游戏当中的那一家人在画中进入那个世界的场景是一模一样的。斯桑拿症指的就是这种人这种症状。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>原来如此。</p>
-<p class="transcript-line"><span class="time"><strong>[00:57:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是然后光与影，其实这个游戏当这个游戏完完全全可以叫33号远征队的故事。它这个光与影是画法的一种明暗对比，是画法那个专业的名字。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>原来如此。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我觉得他在人物的设计上没有做出，也不是说没有，他不需要做出，就是玩一些特别不一样的东西。他用用了一些大家比较容易能够理解和接受的技能的设计元素，然后这个形态转换都还好，我觉得是比较容易理解他那个技能点我倒是觉得蛮好的，就是我不喜欢兰这个东西，他最好让我少一个。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它变成行动点。</p>
-<p class="transcript-line"><span class="time"><strong>[00:58:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他那个行动你还可以和你的怎么说，和你的这个格挡能够联系上，你不能说总不能说我隔挡了一次，我我我回蓝这很奇怪。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>获得行动感觉好一些，这个我们之后聊那个我们分享我们各自build的时候可以在深入分享一下。我们先聊回那个剧情。好，那个剧情其实一开始我不是说我对他的预期是热血。他第一幕他有一个他快要自杀的那个场景，我也有些懵。虽然我知道他应该不会一直崩掉，自己应该不会的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是难道不是意料之中？他一定不会的，就是不会的，然后再有人出来救他。</p>
-<p class="transcript-line"><span class="time"><strong>[00:59:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>跟他说因为我一直在想，因为我一直在想下一个队友什么时候出来，但是一直都没有出来。然后我觉得好像有点预感，可能是会有一个队友，但是我不知道他以一个什么样的情况出来，而且他不是，他刚去到那个很多尸体的那里，他不会看到他队友吗？然后他里面有一个刚好刚死的一个人，我以为那个是他妹妹。我那个时候还处于脸盲的状态，还认不清人物的状态，我以为他他妹妹已经死掉了。你说OK因为他那个厂我不知道你记不记得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正他你记得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他躺在的那堆尸体旁边，就是刚死的一个他们的队友。我以为是他妹妹。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>只要没给特警生袜子，靠我说。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>靠妹妹都死掉了，因为她是个女生，然后我也认认不得。然后吕尼出场了之后，我就觉得好像热血又要开始了。因为人家给他一些很热血的支持鼓励。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，鼓励。</p>
-<p class="transcript-line"><span class="time"><strong>[01:00:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后就踏上这个征程。然后就慢慢的直到到了被吸进去那个房间，就去了那个宅邸那里，看到他妹妹在那里，我就觉得有点不对劲，我就觉得这个妹妹肯定不简单。我就在那个时候，我开始觉得有点是不是俗套了，开始有点俗套了。那个时候我就在想，难道他跟那个惠母是有点关系的？他不会是什么大小姐什么之类的，只是在不同的地方转生了，还是什么什么之类的，反正有一点血缘关系，我就觉得这就有点俗了。反正我的心路历程就是到那到那里就是这样的。就是从他出现在宅邸，我就有点不好的预感。</p>
-<p class="transcript-line"><span class="time"><strong>[01:01:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我其实对剧情一个比较大的不能说减分，就是比较有点失望的一个点是在这个部分，他提示的也太明显，然后他给我的预他给我的感觉也有点俗套，然后一直到一直到出现了真正的阿里西亚。就是白发的那个，然后就经常跟他接触，还有他妈妈要过来跟他接触。我觉得可能是他要不就是他他的来生还是什么的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他这会儿其实都没有交代清楚。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是，但是你会有一种隐约的感觉。对你感觉这要不就是这是一个可能，就是他以这是他以前的他或者他老去的他他是他妈妈反正会给我一个这样的感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:02:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得他的这个游戏的剧情和世界观倒没什么，就是包括那个真实世界的，我觉得没什么太大问题。我是觉得他这个讲述的方式，我不是很喜欢他。前面留下的东西太多了，你必须要倒回头才能看清楚。比如我记得最开始的时候，有几次马尔和就是他幻境当中那个黑白世界当中出现的一些画面。你当时一开始的时候，你根本不知道他是谁。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你是不知道那是谁的，就是他爹。然后不是他爹，有一个女的叫叫朱莉，那个是在林奥远征队的一个救援队里头日记他写的那那个角色是那个角色才导致了叫什么咱们那个咱们男主叫什么名字来着？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>维尔索来猥琐。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，猥琐和他和他爸和他爸这个发生冲突的原因。</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你不觉得，这让我想起来一个点，你不觉得他们三个男的都长得一样的吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我只能通过头发来来，我是说有有有有有头白毛是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:03:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正我就觉得，我靠，我一一开始见到那个猥琐的时候，握手见到握手，一一开始见到握手的时候，我就觉得妈的他怎么跟那个good stop长相长得很像。对，一模一样。然后那个他爸也是一模一样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他爸跟他长相我觉得这可以理解，这可以是有一点那。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>什么对我就完全分不清。所以那个时候给我一种感觉，就是这三个男人是不是又有一点什么关系？</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是全是水关系。</p>
-<p class="transcript-line"><span class="time"><strong>[01:04:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他刚出那个分手刚出来的时候，我就想这会不会是另外一个世界的他，而且那个古老，他长得也很老我觉得他妈他不止33岁？我那时候就觉得。那个时候我就有点这么些想法。而且你先说，而且他一开始进那个船岛了之后，这不是传导。他们登录了之后，他那个那个雷雷亚诺就他爸雷亚诺就登场了，雷就炫了一下，炫了一下，雷诺就炫了一下。记我觉得这也是一个挺好的福利。我觉得当时对对当时的这个玩家来说，而且他是穿着的，他他当时是不是穿着那个远征服还是什么？一开始是反正是因为他感觉是同一类人，就让我有很大的联想空间，我觉得这个伏笔是做的相当不错的是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是这些伏笔你必须得这个游戏的全部剧情都知道之后，你回头再看这些东西它是合理的。当时是看的很懵的，你会带着很多很多的疑问。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后中间所以我觉得他如果如果他如果提前放提前解一批伏笔，我觉得他的这个感受会更好一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:05:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是的，好太多了。因为几乎所有东西都是问题。比如说你你你虽然能猜到阿拉西娅和马埃尔之间有关系，但到底是什么关系呢？你不知道他妈在哪，也不知道惠母是谁，不知道。对，就是问题太多了。中间他们有大量的那种演出莫名其妙的人，远征队他们的日记里头写的东西也是有一些莫名其妙的人。就是他带有的那些对你理解剧情特别重要的东西，它都留下了悬念，都全部都是悬念，就完完全全就是不把玩家当成一个不给你好好讲故事。但我觉得他可能是希望你以一个真实的角色扮演当中的人去感受这个世界，毕竟古斯塔夫他什么也不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>也有道理。对，毕竟我就是一画出来的人我进到这个世界里面我什么都不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[01:06:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是他是画出来的，我倒是没想到，就是在在谜题揭晓之前，我是真没想到这个玩法。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>确实没想到这怎么想就没法想你我只能说就算是我知道私藏拿证，我知道这些东西，我觉得可能和画画有非常重要的关系。</p>
-<p class="transcript-line"><span class="time"><strong>[01:07:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是我我我当时想最多也就是可能是一个，怎么说呢？可能是一个复制出来的。不知道怎么说，就有点其实也有点吊诡。你说他复复他是复制出来，那好像也说不过去。反正就很很猛，整体就给我感觉很萌。然后他又一直在暗示你这些人物互相之间是有关联的对，然后一直到打打打那个打那个东泰坦跟西泰坦这两个boss的时候，就让我更迷惑了。就是打千面的时候，西泰坦打打千面的时候，我用镰刀的那个那个西艾尔打完之后，那不是他的那个面具吸到他脸上了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后他又什么不受伤害，我会觉得这个切面是不是跟这个西艾尔有点有有一点关系。对，就有一腿。或者说他是不是另外一个世界的他自己，然后那个赛任赛任就是赛任还是什么。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>叫是谁的？</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>打完之后就是那个谁，用那个叫什么名字？吕麟从进去赛任的地盘开始，他就一直在疯狂的暗示这个赛任跟吕宁是有关系的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:08:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后让他打完之后对打完之后他又说这个伤害不了，他就很奇怪。我就觉得我就当时就在想这个捋捏这个三人是不是捋捏的复制体，是不是捋捏是不是赛人，就是吕年。我当时在猜，结果又不是我。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得他这个就是前面为了铺垫整个故事，它前边给到玩家的这些相关的背景信息太少。然后让玩家就是我打到中间的时候，其实你都可以认为说它就是一个普通的一个功夫片。游戏都没什么问题，他都没有bug激活。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以导致后面有一个巨大。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的世界观冲击的时候，玩家需要我，我甚至觉得这个剧情大部分的时候都是有点烧脑的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:09:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我还是想不通他为什么要这么暗示呢？就比如说他那个吕宁说，我好像小时候看过这种舞蹈，就赛人的那种舞蹈。他这么说他这么暗示的的理由是什么？他既然他们两个是没有关系，他怎么知道这个舞蹈？他难道他只是想表达说他画这幅画的时候，他就在他的脑子里面画了这个设定？</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得那个散人我没记错的话，是他们他们家里的某一个房间，是他姐姐画的画过的东西，对吧？墙上的画那两个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>泰坦。</p>
-<p class="transcript-line"><span class="time"><strong>[01:10:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>都是还是还是说是是是维尔索画的，我不记得了，总之他应该想象中是维尔索画画的时候，画中世界这些人他们都是曾经见过的，在在维尔索的化解和梦境中是曾经见过的。我就我觉得可能是想表达这个意思。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那我也想不通他为什么里面会有这样的感觉，其他队员不会有这样感觉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>可能想表达的就是人和人他们之间沟通是随机的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且我觉得我靠这也太巧了。妈的，每一个队员都有自己对应的。那个是啊因为我。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>记得那个画里头不是带我们上天下海的那个东西叫什么来着？那个那个也是维尔索之小时候画的一个小玩具。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以童年的文其实也挺有意思的。我觉得他这个解释的倒是挺有意思的。就是当时不知道谁问他们怎么认识的，他们也说不出，他们也说不上来是怎么认识的对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为就不知道他们就被画出来了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他们都不知道，他们就估计也很懵。这个我就倒是能理解。</p>
-<p class="transcript-line"><span class="time"><strong>[01:11:59]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我其实觉得你我我理我自己在梳理这个剧情的过程当中，我觉得他他并没有真切的给你讲这个故事。玩家想要去了解这个故事，一定要仔细的去思考每个人的立场。我觉得是这个立场是帮助你理解这个故事最最核心的地方。这个游戏当中大部分的冲突其实是因为立场不同导致的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:12:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>母亲进入这个画是因为失去了儿子，对吧？想要在里头去把因为家支离破碎了，他想要沉迷于一个虚拟的世界，然后在画里头多待一些时间，和自己的这个虚构出来的家人多待一会儿。然后他爹不希望看到自己的老婆这样，所以他要毁掉这幅画，所以他们立场就已经不一样了。然后他们进去之后，画出来那些人对这些人有不同的态度，其实惠姆是想保护这些人的，对吧？因为希望他们多留一些，然后是那个假的爹想要把这些人给抹杀掉，削弱他们的力量，这些人都没了你老婆就回来了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这也是我想不通的其中一个点，就是惠母是怎么去制衡他，让他每年只能抹杀一波人。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不知道这个他也没交代。对，就理论上来说，应该会姆是比他更强的。因为他是什么绘画协会的会长。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另外一个让我现在还没想明白的就是维尔索到底知不他到底是从哪一刻开始知道他自己是被画出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得一开始就知道了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他从有意识的开始就知道吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:13:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是觉得是这样，不然的话他和那个朱莉不可能一开始闹掰了。朱莉和他们是零号远征队员，他们一起出发的。朱莉是那个远征队员，里头有一个远征队的，有一个救援日记。他不是正式队员，他是那个救援队。然后他们俩互相喜欢，他们俩出什么事儿呢？就是他们在战斗过程当中，他发现维尔索可以复活，他觉得你是怪物的卧底，然后维尔索就把自己给杀了。对，中间你还记得他们去给那些远征队员上坟，有一段然后维尔所就盯着一些零号远程队员的墓碑，有一个应该是朱莉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:14:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以后来的勒索，他才不乐意跟别人说清楚自己是怎么来的，所以他开始隐瞒了这个信息。他只是想等一个，他因为他立场转变了，他他想要去保护这个画。不对，他是想保护这个画，他是想毁掉这个画，他要去毁掉这个画，然后他爹虚假的爹想要保护这个号，因为他富甲的爹是他妈弄出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以他没有印象。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哪一段。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是他他跟。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>朱莉那一段是我想想是在一开始的某一个动画里头，某一个过场动画里头是黑白的。你能看见维尔索跟一个人吵架，然后把他给弄死了。那个女的一直到后面都没有介绍她是谁，他脸对不上，他既不上他，对不上他姐姐，也对不上他妹妹。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我靠，我真的完全没印象。</p>
-<p class="transcript-line"><span class="time"><strong>[01:15:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这一段我也没印象，我就是把那个倒回来看的时候我才发现的。因为我打阿尔德穆了，所以说我说这个游戏他就没有办法在一周末或者是因为大部分人到这儿根本就不记得我根本就不记得，就记得维尔索这张脸就不错了。所以你必须要打二周目，或者把之前的资料反复看你才知道这个是谁。而且你需要找到救援队的日记，才知道有朱莉这么一个人，他和维尔索是恋人关系。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我以为你是在那个水晶里面看他们的日志看出来的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:16:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>日志里头有，但是有一段动画。不然那个女生的脸对不上，只能是他，只能是助理，因为和维尔索有关系的只有她。因为这游戏的支线剧情太多了，内容是非常多的。我甚至可以说你把那个主线打完，那个日记可能就解锁一半都不到。我感觉就是他有大量的信息是放在支线，或者是放在那种非必要走的途径当中。所以只是推主线剧情，像传统的RPG游戏那样，你是没有办法理解游戏究竟发生了什么，而且是大概知道对你可能大概知道是他们家起了冲突，然后进到跨界，然后有一些立场关系，但是仍然理不清为什么儿子和被画出来的儿子，韦尔索和被画出来的爹他们之间反目成仇，然后各自立场不同。我觉得这个是人物关系上一定要去最重要去理清楚的其他的不然的话我觉得这个故事真的对大众来说很难理解，就不明白这个人为什么要这么做。因为最终其实在我看来只能分成两派。一派是想保换游戏当中两个结局，就是大部分的游戏的角色站在其中的两边这么一边。有一波人想把画给毁了，有一部分人想要把画给留下来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后还有一个就是克莱尔，就是他的姐姐，猥琐的姐姐，他好像没有进过画里面。</p>
-<p class="transcript-line"><span class="time"><strong>[01:17:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像是没有有我或者说我也不记得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>了，那就很奇怪，我还以为我当时还很期待他他也进来一起玩的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:18:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想起来了，这段是有的。我不记得是哪一个日记当中提到的，还是我从哪儿看的。我自己想我自己发现的是他是进到画中了，他进到画中之后，我自己做了笔记，他进到画中了，第一时间就把画中那个自己干掉了，他经常化妆，把自己化妆自己干掉，然后他把原色弄成了精怪。因为他希望妈妈出来的，因为那些原色如果不被不形成精怪的话，颜色就会被会母给拿走，会母力量就更强。因为他和真爹希望的都是把话给毁掉，希望妈妈出来，所以他弄成了一些怪物来阻挠远征队员。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是很奇怪的点是，即使他们活，就像他他女儿还活在那个卢明成，但也不见也也没有看见惠母去去去找他玩，去去见他面。那他活在这里意义在哪里呢？</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说那个假的女儿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是马尔游戏。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:31]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>当中。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你说会姆，会姆进去之后，你说他他他作为一个卢明成的角色去跟马尔接触，那我觉得这合理。但他一直待在那个山山那里，那那为什有什么意义呢？没什么意义，他只是活在了一个他女儿还在。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的那个世界。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>或者说对我觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:19:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好像就是这样。他就是在里头塑造了一个假爹，然后有一个假儿子，然后假女儿。那个假女儿其实并不是马尔雅的形象在里面。虽然玛艾尔是一个真女儿进到世界了以后的样子，但是那个里头有一个假的女儿，你还有印象吗？那个屋子里头画出来的，也不是画出来，就是给你展现的戴了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>面具没有意。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得想要表达就是这个意思。我们在在那个岛上活着，我们在这儿就在这儿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>待着了。靠那但是他假的女儿他也说不了话。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是就跟他们待在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那那呆着也没事，这跟真实世界呆着有什么区别吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得可能就是最早的时候可能看儿子。</p>
-<p class="transcript-line"><span class="time"><strong>[01:20:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>主要是儿子不在，主要是儿子还是健全的在那里。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，他们想要进去，甚至是怎么说呢？就是儿子画出来的世界，他想要在里头。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个那个一直会有的那个小男孩的残影，你知道是什么东西吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我自己猜想就是他儿子的一些灵魂，或者是保留在画中的自己的寄语。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他经常说一些谜语，我也猜不到。</p>
-<p class="transcript-line"><span class="time"><strong>[01:21:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他他他想我觉得就是儿子在话里头的，儿子心里的一些某一个切片，以一个小男孩的形象在里头。因为他没道理在自己的话里面如果有一些什么东西，我想象中如果有一个人他做了一些自己的作品，然后在在作品里头有一些恒定不变的，一定是自己内心的表达。我倾向于把它理解成。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那他姐姐变成精怪之后，有没有说是哪一个精怪？</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>她姐姐没有变成精怪，她进去之后先把自己给干掉了，然后她把元素变成了各种各样的精怪，让这些精怪来拦住远征队员。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就不是他自己的景观。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是我不记得是在那个宅邸里头，我看到是儿子之前的话，还是他这个姐姐的话。就是那两个boss好像都是他们他画出来那个泰坦，这里头还有一个boss，你你你有打他吗？叫西蒙。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>西蒙我看过，但是我还没打。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>太强了，我超强boss。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我听说是最强boss。对，但我现在也没有我不知道的欲望。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且我我我好像是在某一个日记里面，是不是也看过。</p>
-<p class="transcript-line"><span class="time"><strong>[01:22:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他对西蒙有专属的日记，这好像是零号远征队员的。零号远零号远战队员有提过他是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我没记错，应该是因为我手头没了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那那林皓也挺强的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>零号远征队很强。我是觉得他我后来又去查了一些相关背景，这个应该是他想核心内容想要表达的一点。一方面是当时的文艺流派之争。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>怎么说。</p>
-<p class="transcript-line"><span class="time"><strong>[01:23:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是他为什么架空这个就真实的虚拟世界咱们都知道对吧？一个画中的虚拟世界有精怪，有会母，然后真实的世界是有幅画，然后可以进去。他做这个想要表达的是在19世纪末的时候，法国的文艺流派之争。就是你看他用了雷克这个名字。对，就是，他们房子为什么被烧？是被文客给烧的，对吧，就是显然是有一派是专门搞文学的，然后有一派是搞绘画的，他们之间应该有一些世仇，互相看不起。然后可能我猜想这个游戏虽然编了，但是过往的法国历史当中应该是出现过类似的事儿，就是两个艺术派别之争，最后形成了这种实体的肉体上的斗争，造成了一些人身伤害，然后可能有的还搞得比较大，然后以这个背景来去做。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>的有道理。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不然他架空这个故事想要表达什么呢？其实我我我很难理解，他想表达一个家庭的琐事，我觉得这个也不不太可能，他肯定想要表达一些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>更加有意义的东西。</p>
-<p class="transcript-line"><span class="time"><strong>[01:24:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还有一点，我觉得这个是我后来才发现的。我感觉这个和刚才说的这个故事，这个背景好像又显得有点世俗。我不记得你中间有没有碰到过，在那个地图里面有一个很高的塔，很高的塔。对，有一个很不是有一个很高的塔，那个塔可以上去，上去的时候说什么来着？大意大意就是上面有姐姐在那儿，克莱尔那克莱克克克莱雅，克莱雅克莱雅。但这个对，跟他说爸爸帮你做这个塔是希望你以后什么大意是可以工作顺利什么之类的，或者绘画技艺越来越深之类的。但是怎么做还是看你选择。然后女儿说我还是要顺从自己的内心，做自己最喜欢的事儿，就感觉变成了一个教育小孩和个人志向选择问题。</p>
-<p class="transcript-line"><span class="time"><strong>[01:25:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个塔我倒没有印象，但是我感觉我所有的地点都已经去过了。等我学会飞了之后。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个也是他妈的刚开始我都是瞎跑，后来发现能飞。我操我对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我刚开始我就是打到那个赛任的时候，我发现我有点打不过。我觉得我应该要去刷刷级，要去打打些支线的东西。然后当时还不会飞，只能游泳。我靠我从北边游到西边，我靠他真的很难受，而且他中间有一些是游不过去的。我只能知道跑到那个车站废墟，然后从车站废墟又跑一下图，然后又穿过去，然后再游一下泳才能去到南边。我靠。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我倒没怎么练习到处跑，因为我发现这个游戏的核心在于让我弹反。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是弹反的，我觉得有时候弹反的伤害也不是特别高。</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:26:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得现在。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就变成所有原来不可能打得过的，就变成能打过了，就没有说你弹反还打不过。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为如果他超过四段，我就不会用弹反了，因为风险太大了，我都会变成闪避的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我感觉早期的那些怪物，它虽然有四段五段，但是招式比较简单，就两次或者是三次。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就两种或者三种，风险就很高。你其中有一次弹不了，我靠，那整一段都没了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你玩玩的是困难模式吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还是中等模式？我就中等。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后你知道我打完会姆之后，我有点受不了了，我就调到简单模式了。就会母之后我就简单模式玩，我发现靠换了一个游戏。他那个伤害会高。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>很多伤伤害高很多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:27:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是那种放过自己的，放过自己的感觉。他他伤害好像伤害我不知道有没有变，但是他的那个闪避的判断跟格挡的判断会增加很多。真我感觉弹反。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我刚开始打的时候也是简单模式，因为想知因为我知道是有点动作元素，我觉得很简单。后来发现中等还可以，他那个弹反的时间差别不是说特别大，但是闪避时间差特别多。那个简单模式下闪避几乎很难错过，就是盲打。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>都可以。是，而且他我发现他有一些四年或者五年，它很快速的。四连的时候你不按，它会帮你闪。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是就。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>中间比如说。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它是四段很快的连的，然后你第一第二段你自己闪了，你第三段如果你突然miss的话，它会自动帮你闪。</p>
-<p class="transcript-line"><span class="time"><strong>[01:28:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的吗？我不知道这个有点奇怪，他是开了辅助吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>应该？</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是简单模式，自动辅助模式。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我它就是简单的那个模式，它就这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我以为简单就是什么时间判断多一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，他其实本质也是这样子，可能就是他如果是攻击特别多的话，他就会帮你偶尔辅助一下。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反正我是一开始是中等，然后中等玩到会姆之后就真的有点。因为我是想赶紧把那个谜底揭晓，是我不想再耗耗这么多时间在上面跟这个怪打。</p>
-<p class="transcript-line"><span class="time"><strong>[01:29:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我那我的这个新的内容跟你是相反。因为我最开始我不知道这是什么故事，因为我觉得可能就是一个功夫片，最后我只要把别人干掉，这个游戏就结束了。所以我觉得我已经知道谜底了。虽然就是我知道前面我有些东西没看懂，但是我觉得我只要把惠普给干掉，我就知道一些小事儿了。他说没关系，干掉惠普就是目标。所以我就一开始不着急打，我就慢慢把那图全给搞了一遍。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我一开始以为邸宅前面的他爹打完之后就差不多了，结果打完他还要去打那个泰坦，那这打完泰坦还要打会母，打完会姆我已经我以为要结束了，结果打完会姆游戏才真正开始。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是因为地图确实在开了，没看多少。</p>
-<p class="transcript-line"><span class="time"><strong>[01:30:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后还学会飞了，学会飞之后开始我就心态有点放松下来了，我就觉得算了，去探索一下，就随便去探索一下。然后再从那一刻开始，我才开始慢慢研究那些build。因为其实我真的没有这种，我是我是心态放平了，躺平了之后开始研究B我所以就看就就就就去刷那些世界地图上面的怪，然后就攒点经验升级这样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的build咱们剧情到这儿聊聊build可以。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>聊聊build我我我我我的build因为我没开机，我的build其实比较简单。所有的灵光跟符文都是弹反优先。弹反就是对，就是有那个的对对，有那种弹反的，反击伤害非常高的。那个叫什么我也忘了，有一个加25%，那个加75%.</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反击加成的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:35]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后我反击强化的。对对对，没错。然后就是格挡之后获得那个行动点的。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>隔挡或行动点应该是默认的。闪完美闪避是完美闪避或行动点的是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:31:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对，对，完美闪避因为有的时候会用闪避，还有那个隔挡会回血的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>隔挡回血。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，有一个隔挡回血，没见过有隔挡回血，但回的不多，就导致那个特别强。因为我刚开始的时候我格挡打的不顺的时候，因为我发现我队员好多的时候我自己打不顺，我发现我就用了马尔格挡时候特别顺利，同样的攻击就导致我经常只剩马尔一个人，就剩丝血反杀，因为你越打我血越多，就出现这种情况。就是靠那个符文格挡会回血，但是回的不多。但是你想你就是变成了原来要掉血，现在变成了回血。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>格挡开始的主C是哪个？</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>主要是挂掉的那个故事头。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他挂掉之后挂掉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:32:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>之后又变成马尔了，又觉得换了一个男的，我觉得心里有点膈应。虽然他继承了胡思达的东西，我有点膈应，这个确实能把他伤害了。你说你死了就算了，你还把东西给继承了。虽然说继承的很好，对吧？是让玩家损失没那么大，其实心理上觉得不太好用。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我也所以我也一直没用，而且我觉得他打到S之后，好像伤害也没有那么高。我一开始主席是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>希尔希尔，我到希尔到最后我都没有西亚的卡牌。我一开始没看懂，有点复杂，我就不想学了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>夏尔是我第一个能打出9999的角色，这是怎么打出来？先给他点那个卡，叫什么，不能再买东西，点那个层数，点那个。然后叠到你暮月的时候，你可以再叠到20层叠到20层之后你就有一个技能是可以制造大量的虚空伤害。他直接就9999.</p>
-<p class="transcript-line"><span class="time"><strong>[01:33:52]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个东西，我其实到现在我都唔玩的不是特别深。他是不是有点像英雄联盟，然后那个那个英雄就往别人身上插刺，有一个ADC，然后他可以报一下卡莉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>斯塔那个吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是，他是因为它有两种牌，然后你要不断的轮替。你这次是用这种牌，然后下一次是用另外一张牌。这种时候你在第三回合你就会变成那个木木月的状态。然后你到暮月的状态之后，你的可以叠的层数又可以上限是可以到20。因为如果你不是沐月，你上限只有10。你的那个伤害主要的伤害技能，它是根据你的层数来决定的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以我往敌人身上叠的越多，我后边打他的伤害就会越高。还是说那个牌在我打的时候会消失掉，就是我会用。</p>
-<p class="transcript-line"><span class="time"><strong>[01:34:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>技能等于在别人身上在别人身上叠那个层数。不过我现在也很少用它了。自从我发现亲生女儿的真正的青春女孩的加成很变态之后，我就不太用尊重我的主意。对我靠，真的是内挂，真的。不过就在我们录节目的今天，他更新了一个版本，他就把那个斯坦。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>达阵削了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>40%的伤害。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是40%.</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>好吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后高手姿态的伤害好像也减了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是200%。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不，我忘了我忘了我。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>还蛮喜欢这个。我几个build也都是给他有一个武器，我也是专门这么做的，就是出场就是高手姿态。</p>
-<p class="transcript-line"><span class="time"><strong>[01:35:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个是告捷是吗？那把剑人家告捷那个我拿不到他他好像是第一，你要不是一开始在卢明城的时候找那个人打一架，然后打赢了就能拿。因为我根本因为他。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>和他和他和关他和主线关系一点都没有。因为我是瞎逛的时候，我打到了那个地方，有个挑战的，有一个有两个人在那挖矿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好像是啊，所以你在那里就拿了。对，我那时候没拿，然后没拿的话，你只能在刷头村跟沙头村，沙头村的那个那个是什么？反正他们老大一群。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>要跟他对酒是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是你要跟，不是所有人都在跪拜他的那个大佬，是双子座的皇帝之类。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我想起来了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>想起来了，你要跟他比武？</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对对对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你要挑战他吗？如果你用马埃尔这个角色跟他挑战，赢了之后你就能拿一把高级。</p>
-<p class="transcript-line"><span class="time"><strong>[01:36:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那因为那个我没打，我记得我当时没打过，然后我就没有再回头过来打了。所以如果我才打那个矿工打到了告捷那会儿会出来什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>打恐龙打告捷，那我不知道，应该就没什么可能就给你个衣服。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>因为我告诉他是打那个矿工，就是矿工在那挖矿，然后跟他说那边跟他打一架，然后就打一架就很奇怪，莫名其妙找人打架。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我估计如果你有，他最多给你一件衣服，你没有发现吗？刷头扔刷头上所有的恶心你的东西，最后只是会给你一个衣服。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后你的除了那些技能之外，你有你有配置什么辅助什么的之类的吗？因为我我有一个那个那个叫谁来着？默多克。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的核心三个队员就是我的核心三个队员是李念，然后马埃尔和。</p>
-<p class="transcript-line"><span class="time"><strong>[01:37:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>莫洛科。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且有一段时间我拿莫洛克当主持的，我不知道为什么我是不是哪里出了问题，我的莫科怎么伤害就是很容易挂掉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很容易挂掉。但你没发现，我一开始拿他上场的时候，我就发现他好像挺肉的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>为什么我们感觉是相反的？是我拿点错了，我发现他很。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>脆没有我当时什么都没点，我就刚开始拿他出场，我就我因为他有一个被动，是他拿那个腿就可以学习技能，拿别人的那个技能，我就想培养一下他。然后我战斗的时候发现我靠他怎么防御这么高。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后我就觉得是不是设定。</p>
-<p class="transcript-line"><span class="time"><strong>[01:38:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他应该当个肉辅，然后我就让他往这个方向去走，这样往往这个方向去培养，然后我就专门去叠他的那个防御，还有他的生命。然后他的那些技能我都是带那种给队友加盾，给队友加那个甲，然后我觉得特别好用，因为他还带了那个，他有一个符文叫做叫什么来着？就是它的功能是它只能受50%的伤害。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是他不能回血。是是是有一个这个，但他他他血多的话就可以不用回。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我就让他带这个，或者他就更肉了，我完全打不死，根本打不死。然后每次都是让他去给我队友加盾。然后他还有一个他有个技能，我忘了是哪个精怪获得了他那个技能，就是无视他的，无视对方的盾。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:50]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>直接打他伤害是用敏捷的。我也靠。</p>
-<p class="transcript-line"><span class="time"><strong>[01:39:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，那个特别好用。因为有一段时期，我不知道是到哪一段时期，那个怪经常他妈的七八神盾的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是因为他有的怪物等级特别高。就是你打一回合，人家跳三五回，然后三个怪物，三个就是你，你加个盾，我再来个盾，我那个我都那个盾我怀疑都没有上限，他有上限吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我不知道。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>反正就一直一抬盾。而且我特别恶心的是，你看我练弹反练这么好没用，那个盾你只能赶紧破掉一个盾而已。你我弹不就是为了弹伤害吗？因为那个伤害巨高，因为你在盾面前那个伤害就不是了，你能弹他一次，我也特别头疼。</p>
-<p class="transcript-line"><span class="time"><strong>[01:40:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以那段时间我我在那段时间是那那段对方特别多盾的那段时间我的build是换成了，首先是无视他的盾，然后马埃尔马我的主席，我的主要的团队是莫洛克、马埃尔跟西埃尔。然后马尔他有一个技能是他直接把所有的盾都破了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:01]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>林墨攻击对吧？印象吗？受过零墨对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不是林墨攻击，不是林墨攻击，它就是一个普通技能。他的技能的特点就是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他可以直接。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>把敌人身上的盾全部破掉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:16]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我只知道吕涅有一个零墨技能，是有一个大地震。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>看一下这叫势如破竹。它的功能就是造成少量伤害，两段攻击，然后摧毁目标所有护盾，然后摧毁几层护盾就获得几个行动点。我操这个超强，这个挺屌的。是啊那段时间就对方特别多盾的话，用这个技能超强。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我中间有条都烦了，就是你你敏捷搞不过我好不容易破了两个盾，你又加三个盾，我就逃跑。我唯一为为数不多的几次逃跑都是因为盾打的，我实在是烦的受不了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:41:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那你要用一下这个技能。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>真的，而且还有一个我有时候就是中间如果学不好，那敌人我第一次出镜的时候，我肯定是掌握不好的。然后他们我不记得中间有一个什么诡异的技能，就是不是诅咒，诅咒还好，反正就几轮死，对吧？它有一个是让你减生命值上限的，你有印象吗？掉10%那个能叠加，我靠，他妈要了个命就三下掉30%。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但我印象中好像也不没有对这个特别头疼，好像很快就打过去了。我现在的马尔的build就是我有一个不是有一个如果他是点火伤害的，然后你再打他的时候，他会如果他身上着火，然后你就会变成高手之战战士。对，然后我就再加了一个中强音增强音，就是保持你的站姿。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:42:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后获得2到4个行动点，然后我就这两个配合。对，这两个配合我就可以一直保持保持高手这样子。然后我中等到我有OK，等到我有那个八段的行动点的时候，我就直接食堂打了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我跟你稍微有点不一样，就是在我用那个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>叫什么。</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>一开始就高手认那个刺之前叫什么来告捷对吧？拿到那个刺之前，我一开始是用铝镍，因为铝镍的我的敏捷点的比较高。他一开始先给敌人上火，生完火之后我再用马尔直接就上那个，然后就跟你说的后边就一样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:43:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就把因为我的高手站姿，然后打一直打我的马尔，后期我就直接他的武器，就是会默他的被动，他武器的被动技能就是你打他就会着火，所以我都不用技能着他过来，我砍他一下，他就着火了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以开始上去砍他一下就行了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，卡他一下，他就着火了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我就可以几层，那武器叫啥？</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我是不是中间两层。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我都没上过。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就记赤，就鱼字旁一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>记知道鱼字旁一个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个伤害伤害不高。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:24]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个伤害不高，我应该是一开始的时候，我看哪个伤害我就点哪个。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他伤害15级，只有960.</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那确实有点低。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在伤害最高的是那个破戒，是破戒1600。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，破戒确实高。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但它被动也很很很很很猛。命中敌人会将移除的护盾给自己。</p>
-<p class="transcript-line"><span class="time"><strong>[01:44:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个遇到敌人的时候你就发现马上打不死了，带护盾真的就会让他打不死。因为这时候你发现护盾的好处变成了我自己，就是敌人伤害这么高，他只能破掉我一层邓尔顿而已。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以有人把那个马尔当肉丸。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>而且他有一个特别肉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他有一个技能是它可以让友方受到的伤害转移给自己。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，有一个虽然我没有用这个，但是我想起来，所以如果配合自己的话。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你疯狂给他加护盾，然后马尔他在发动一个这样的技，他就我靠他就打不死了。真的，反正我现在的bill就差不多是这样子。那个吕捏我就是很少玩了，捋捏真的我打不出伤害，不知道为什么。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我是留他复活用的。他有一个复活技能。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>复活技能。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，而且复活是不需要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>灵光还是什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:45:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是灵光，是个技能，技能他可以复活队友，这么屌。对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我只知道他有加血。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:09]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我也很少用加血。看一下。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>查一下加血基本都不加血。加血还好，都是加血还好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，复活，而且那个不需要灵。对，而且那个不需要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>行动点复活。然后我现在的我现在所有的人都会带那个振奋复活。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就你你你被打死之后。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会加会给友方加行动点，然后你复活又又会给友方加什么？</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你对对对，我查到了这个居然还有专门的留法，这叫复活流。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有自爆流，但是我没玩过自爆流。</p>
-<p class="transcript-line"><span class="time"><strong>[01:46:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是我这就没有什么复活流，我直接就用这个复活，特别好用。怎么说，他这个有一个复活技能，怎么说呢？就配合你的复活药的话，就不会让你真的不行。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不过刚刚说到敏捷，我发现游戏到了后期，因为我一直不加敏捷，游戏到了后期我就站着被撸。我根本没有出场的机会，就根本没有行动的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>刚开始敏捷确实看不到收益，后边就没有。敏捷是很难搞的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>发现后面打打他爹的时候，我靠他打四回我才有一个进攻的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就很很难受。然后我又不想洗脸，其实我我我觉得特别麻烦这个游戏洗点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我好像就洗过2次到3次脸。我最开始我甚至那个那个B和C我都没有太去follow.</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个B和C？</p>
-<p class="transcript-line"><span class="time"><strong>[01:47:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>比如说那个武器的加成，我刚开始都没有特别follow它。因为有些加运气，我觉得我早期点运气收益太低了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且你会发现这个游戏里面的颜色就是那个钱，基本没什么用。我是基本没怎么用过的，我就用蓝色。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不是加灵光点上线的吗？我没记错了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你剪的那个白色的光。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那个灵光点上线是靠什么加的？</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>靠那个好像是你减它它就有那个绿色的原色。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你说是那个白色的是吧？</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>白色的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就是钱那个钱你有在上面。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>花钱吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:51]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>买衣服买对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就只用来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>买衣服或者买什么升级武器用的那。</p>
-<p class="transcript-line"><span class="time"><strong>[01:48:58]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>东西升级武器我都是靠打怪拿的，那个原石的那个不够。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:05]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你我会把伤人的遇到的都给买下来，因为我会。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很少升级装备。说实话你这你觉得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>武器升级稍微远大，而且有的武器你很难说这个绝对的好，我会把两个都升上来。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就感觉这个武器它太多了，然后我就纠结他到底要生哪一个。有时候你要火的时候，你你你如果把这个火的升到很高级，结果你没钱去没没资源去去去升级另外一个元素的武器。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就很尴尬是我我我一般因为那个钱确实也花不掉，所以我能买就买了。我主要还是靠弹反。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我现在还有34万的钱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:49:56]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你这个你铺了消费过多。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后唯一的用处就是买QQ秀。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且它里面我看一下关于这个build还有什么好讲的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我突然想起来就临时插入一下。我觉得这个游戏当中，它在玩法上还有一些小游戏也可圈可点，就是那个跳跃游戏。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是你好恶心。我靠。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>你喜欢的话就觉得还可以，不喜欢的话就是这个火很大。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后你玩完之后你就得到一件衣服。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但是有些衣服很不错，有些泳装是吧？其他衣服都差不多，这个泳装不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:48]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看有些人用摩洛克就拿那个泳装。</p>
-<p class="transcript-line"><span class="time"><strong>[01:50:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其他衣服都差不多，换个颜色，泳装不一样。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以最后你选的是哪一个？最后结局你选的是哪个？</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我我我两个都选了，就是又回来选了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对你一开始选的是就是你内心。其实我当时纠结了很久了，我在那个画面停留了很久，思考了很久。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:19]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我当时觉得应该是哪个，反正两个都要选，我就随便没有随便选，我就是本能的选了马尔。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后看到结局之后，你觉得这个选择怎么样？</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得挺好的，就是一个虚假的美好的结局。</p>
-<p class="transcript-line"><span class="time"><strong>[01:51:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我也是这么想，我当时想了好久，一方面我觉得如果选猥琐的话，好像更合理一点。如果我代入我自己，好像确实是现实生活好像更重要一点。但是我又带入马尔的话，我会觉得我出去了好像也没什么意思。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:04]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是他要的就是。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还不如在这个虚拟世界里面像个人正常人一样。对，像个健全的人一样好一点。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这也是我玩那个中间玩的那个塔那那一段剧情。她姐姐说还是希望你还不是姐姐说，她说我希望顺从自己的内心，做出符合自己内心的选择。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是选了马埃尔，他最后不是又动用了他画画的能力，把那个文人所给搞上去。弹琴对他把所有的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:41]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>人都画出来了，还看到了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>古斯塔夫。我一开始以为我那时候还在期待这个游戏有没有恋爱系统。</p>
-<p class="transcript-line"><span class="time"><strong>[01:52:57]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为中间是有培养感情的对。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:01]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我就很期待。妈的，我就很想古guff跟那个吕捏谈一谈恋爱。因为他一开始就有这种暗示，我觉得跟前女友很奇妙。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>前女友死了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>不不不，是不是那个前女友跟他就是那个索菲，索菲就你路过那个她在弹琴，刚好索菲那个那个吕捏在广场卢明的那个时候，广场他在弹琴吗？你记得吗？他在弹吉他。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>记得。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对他路过的时候，他索菲还要损他一下，说说不定你们早就发生过什么。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我不记得这段对话了，我只记得弹琴。</p>
-<p class="transcript-line"><span class="time"><strong>[01:53:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>他就路过他弹吉他的时候，好像就说了说了几句什么。索菲说那个那个吕念也挺好的，然后你要不就跟他。然后讲故事，他说我们没有什么，然后索菲说说不定你们早就有点什么。我就觉得他妈莫名其妙。所以当他们登录了之后，他见到吕宁之后，我就在想，我靠这两个人好像得发生一些什么。如果你熟一点的话，俗套一点的话，肯定得发生一些什么。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>发生的结果没有战地爱情故事。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是后来我看到小我看小红书，发现最后维尔索跟锡安有人搞上，你知道吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>哪我不知道他们睡。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>看完了他们睡哪里。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:40]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>他们睡在一起了。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>啥时候就可能是他们的情感点点满了，还是在哪个阶段点到哪个阶段，他们就睡一觉。</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:55]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>点满了。不是获得灵墨技能吗？</p>
-<p class="transcript-line"><span class="time"><strong>[01:54:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是啊，泠墨技能是一个。但是他在在这个过程动画好像应该是，我是看到小红书有人这么说，他说他接受不了他们两个睡在一起。</p>
-<p class="transcript-line"><span class="time"><strong>[01:55:13]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>睡在一起什么意思？就是在那个营地两人睡觉，还是什么东西。</p>
-<p class="transcript-line"><span class="time"><strong>[01:55:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是搞在一起了，在营地里面。</p>
-<p class="transcript-line"><span class="time"><strong>[01:55:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>不行，这个我得找去看一看。</p>
-<p class="transcript-line"><span class="time"><strong>[01:55:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是他们没有谈恋爱。</p>
-<p class="transcript-line"><span class="time"><strong>[01:55:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那不重要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:55:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能就打一炮。</p>
-<p class="transcript-line"><span class="time"><strong>[01:55:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他那个剧情中间的演出和演出是非常出色的。他演出不是给你说展现一个他们华丽的一个场景，多大的一个怪物这么壮观。不是，他是演员的台词，剧情中间的运镜都非常到位，微表情细小的动作来展现人物之间的关系。因为大部分我们其实带着这些虚拟的角色在游戏当中玩，我们是感受人物之间，因为我们其实不能和他们发生关系，我们其实角色扮演感比较弱，他们就像是牌一样。但是他们角色和角色之间的很微小的感情的变化，游戏当中是给了大量的描写。这种描写我觉得给的非常到位，不亚于实拍的那种非常好的电影。运镜也非常到位，台词、细小的眼神，肢体动作捕捉的一点儿都不僵硬。因为有很多游戏这方面做不好的很僵硬。</p>
-<p class="transcript-line"><span class="time"><strong>[01:56:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后就说很多过分量的台词想要给玩家说，你看我把东西都写在这儿，你能知道了吧？他们俩什么关系？就是把这些就傻乎乎的都给玩家，但其实玩家也不是傻子，大家都看过电影，只要你不需要讲太多话，咱们之间只要做一些简单的表情就知道他们之间是有一些身份，有一些陌生，这个都可以感受得到。比如说在这个游戏当中，其实第二个男主角就维尔索出来之后，和队员之间是明显不是那么亲密的。他们之间是有相互不信任的阶段的，后来有一点点信任，这些过程当中他们是通过反复的表演，然后这些细小的演出和台词，共同给玩家构建的一个个不仅是鲜活的人物的状态，以及他们之间的关系是非常真实的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:57:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果鸡蛋里面挑骨头的话，唯一的不足就是毛发的毛发很粗糙。我头发真的很粗糙，但其实也不重要。</p>
-<p class="transcript-line"><span class="time"><strong>[01:57:43]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，不重要。我觉得这个倒不是说特别重要，演出很真我觉得很好。而且你站到中间的时候，脸上的血处理的很好。</p>
-<p class="transcript-line"><span class="time"><strong>[01:57:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是他们的伤害值到那他们的血量到了一定的值的时候，他们的身上就会有那些。</p>
-<p class="transcript-line"><span class="time"><strong>[01:57:58]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>浑身都是血。我有次出来的时候，身上都没血了，出来整个人都是黑的。</p>
-<p class="transcript-line"><span class="time"><strong>[01:58:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>感觉就聊到这里了。</p>]]></content:encoded>
-            <pubDate>Mon, 12 May 2025 03:49:57 GMT</pubDate>
-            <guid>68216f6db7c8a9962ca048ed</guid>
         </item>
     </channel>
 </rss>

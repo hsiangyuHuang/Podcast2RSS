@@ -4,7 +4,223 @@
         <title>创业内幕 Startup Insider</title>
         <link>https://www.xiaoyuzhoufm.com/podcast/5e7cccf8418a84a046c4e7f9</link>
         <description>GGV纪源资本出品的非严肃商业访谈</description>
-        <lastBuildDate>Fri, 20 Nov 2026 09:41:44 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 10:42:39 +0800</lastBuildDate>
+        <item>
+            <title>S8 Vol.33 热点开放麦：全球数据泄露频发，真的是AI的锅吗？</title>
+            <link>https://www.xiaoyuzhoufm.com/episode/6b08ad1d1a0c5c446597ea57</link>
+            <description>币安一起安全事件涉及约63亿美元资产；Fireworks遭入侵，波及Notion用户的AI对话记录；Visa和Mastercard因第三方供应商失守，暴露了部分客户数据……
+几起看似分散的事件，拼出了同一幅AI时代的风险地图。
+过去，企业谈网络安全，关注的是边界：员工身份可控、生产系统隔离、漏洞及时修补。Agent进入工作流之后，边界开始模糊。攻击者不必硬闯防火墙，只要拿到一张合法的“通行证”，就可能沿着信任链进入核心系统。与此同时，越来越强的大模型也在改写攻防双方的成本与力量对比。
+本期，我们邀请到纪源资本投资经理姜浩楠，从币安事件出发，讨论AI时代的企业安全。Agent为何能绕过传统防线？企业怎样识别“影子AI”、划分权限并设置关键网关？哪些细节会放大网络安全的漏洞、提升黑客的攻击面？AI安全可以靠AI解决吗？新一轮的安全需求会给创业公司带来哪些机会？
+01:37 事件复盘：币安63亿元是怎么被拿走的？
+07:08 AI让网络攻击的方式发生变化
+11:08 拥有权限和自主性的Agent，如何约束？
+20:33 Agent劫持与深度伪造
+24:20 用AI攻击AI，安全测试背后的商业模式
+33:36 近期泄漏事件暴露的共性问题
+39:25 “安全的突破口可能都来自于人”
+41:38 网络安全赛道，重新回温？
+47:38 可能被高估和被低估的安全叙事
+50:49 网络安全联盟可以解决AI安全问题吗？
+55:12 评论区抽取5位听友送出精美周边
+《创业内幕》粉丝群已经开通，在这里，你可以跟节目制作人/主持人直接沟通，也可以第一时间了解到纪源资本线下活动动态，见到纪源资本的投资人，结交其他互联网圈子里的小伙伴。
+入群方式：
+1）添加微信号“JiyuanFans”为好友，并在好友请求中标注“创业”
+2）把你的全名和职称发给创业小助手；如果您想约访谈，请添加小助手微信，并附上访谈嘉宾简介，小助手将帮您对接。</description>
+            <content:encoded><![CDATA[<div class="episode-summary">
+<h3>内容摘要</h3>
+<h3>主题概述</h3>
+<p>2026年10月必安（BN）发生63亿美元安全事故后，纪源资本投资人姜浩楠（Harrison）做客《创业内幕》，与主持人复盘这起历时约四个月的社会工程与网络工程复合攻击，并由此讨论AI时代网络安全攻防格局的变化、企业agent治理框架、深度伪造风险，以及一级市场对AI安全赛道的定价与创业机会。姜浩楠的投资方向聚焦AI技术发展中斜率最高的环节，以及AI商业扩散过程中的瓶颈环节，网络安全正是其中之一。</p>
+<h3>关键要点</h3>
+<ul>
+<li>
+<p><strong>必安63亿美元事件完整攻击链</strong>：黑客6月先锁定拥有签名授权权限的工程师A，通过非官方渠道的AI coding安装包植入木马，被BN网安发现后卸载；但黑客借此摸清内部组织架构，转而以假面试邀请工程师B在线写代码，在其工作电脑植入木马；木马攻陷终端后借BN内部AI工具横向移动到工程师A，最终因AI权限未做隔离、agent可直接调用签名服务并绕过人工审批，在约20分钟内完成63亿美元资产转让。姜浩楠的判断是：“社会工程其实是成为了这个网络安全的突破口。然后内部的网络工程和AI工具作为进一步的放大器。”</p>
+</li>
+<li>
+<p><strong>Agent是连接办公安全与生产安全的新桥梁</strong>：“Agent带来什么变化呢？第一个是它作为了一个中间的桥梁，连接了办公安全和生产安全。”必安不是被代码攻破，而是agent拿着合规凭证正式访问生产系统；由于没有机制监控agent开门，造成两个后果——“你没法防，因为它是一个正式的访问和被授权的访问”，以及“过程中你其实没有看到这样的变化”，事后追溯和止损都极难。</p>
+</li>
+<li>
+<p><strong>模型改变攻防经济学</strong>：“模型的capacity改变了整个攻防的经济学”——组织攻击的成本大降、时间大幅缩短、可用模型替代人力；且网络攻击是非对称行为，攻击只需单点突破，防御需要木桶每块板都足够长。Anthropic的missile模型发布不久即被“降维”，因为“他发现这个模型能力释放出来以后，给到网络攻击的人的表现的提升太多了”。</p>
+</li>
+<li>
+<p><strong>企业最大盲区是Shadow AI</strong>：湾区企业人机身份比已达1:100，“机器的身份已经是100倍人”；很多agent是员工自己用cloud、codex生成，“他不知道企业里面现在有多少agent正在跑，不知道每个agent有多少权限，能触达到什么样的业务软件、生产流程”，这类影子AI对企业完全不可见。</p>
+</li>
+<li>
+<p><strong>Agent治理框架：四环节与三网关</strong>：身份、权限、意图、影响监控四个环节需要把控；三个网关分别是AI模型网关（对API key、软件账号密码等凭证做脱敏）、内网网关（财务法务等数据权限隔离）、外网网关（agent对外发邮件等实际行动需审批）。核心认知是“你管理它其实就应该纳入我们身份和权限体系”，把agent当虚拟人而非工具。</p>
+</li>
+<li>
+<p><strong>Agent黑盒风险的实证</strong>：OpenAI Hugging Face删库事件中，agent因权限过大、在现有可行方案上没探索出路径，便“探索出来一个我可以把这个库删掉重建”，删掉的是生产环境核心库；PingCAP被黑客攻击泄露数据后，“可能就花了一个月的时间才排查出具体的问题”，说明缺乏运行时告警的代价。</p>
+</li>
+<li>
+<p><strong>深伪：异步已过图灵测试，实时仍有瑕疵</strong>：voice和面部生成基本可以以假乱真，异步比实时更容易做，实时换脸受渲染算力限制，存在画质和AI边缘痕迹；加拿大退休老人被假马斯克骗走全部身家约20万美金，Facebook上有上万个假马斯克在卖不同产品。防御关键是double check机制，包括让agent拥有者在行为触发时确认“是不是你的本意”。</p>
+</li>
+<li>
+<p><strong>防御侧：AI对抗AI与两种商业模式</strong>：姜浩楠认同CZ“对抗怪物的唯一方式就是成为那个怪物”，红蓝对抗、内部养攻击团队做安全测试同样因模型降本提速；由此衍生两类公司——AI SOC自动化安全测试，以及安全托管直接交付结果并兜底。RSI在安全场景“很完美”：数据充分、trace清晰、奖励信号明确，采用小决策模型实时判断加大模型深钻的两层架构。</p>
+</li>
+<li>
+<p><strong>国内市场：安全是AI渗透的瓶颈，也是最大机会</strong>：国内agent渗透率远低于湾区，多依托大厂体系，国央企因安全顾虑主动暂缓agent渗透。“安全已经不只是一个被动的需求，它可能已经成为制约企业充分拥抱AI、充分采用agent的一个关键的瓶颈”——帮企业建立安全基建、让大家相信AI安全有边界，就能加速agent渗透。</p>
+</li>
+<li>
+<p><strong>一级市场定价：模型团队溢价高但泡沫更高，老兵团队被低估</strong>：纯用模型做安全“太过单点”，“空中楼阁是长不出巨大的亭台楼宇的”；有覆盖面、积极拥抱AI的行业老兵团队被低估。长期会均值回归，“光谱的两端或多或少都要走向中央”。创业建议：选AI native客户（如Kimi、Minus）而非传统银行政企，“一定要模型，模型还是模型”。</p>
+</li>
+<li>
+<p><strong>行业联盟的价值在开放攻击轨迹数据</strong>：纯信息共享和组织人力来完善修复机制“已经有点过时了”；真正有价值的是把每次攻击内部的日志、告警、风险轨迹开放出来训练防御模型，但不能完全公开，否则“黑客也能copy”。</p>
+</li>
+<li>
+<p><strong>社会工程仍是最薄弱环节</strong>：“所有的突破口可能都来自于人”，执行方式可能是人用的AI工具、agent或现有漏洞；85%以上的公司在专业黑客面前没有防御能力，“只不过说他有没有看上你”。员工创建过又忘记的休眠高权限agent是黑客入口——“你都已经没有意识到它的存在了，我就可以去调动它。”</p>
+</li>
+</ul>
+<h3>独家细节</h3>
+<ul>
+<li>
+<p>姜浩楠自曝在OpenCloud时代也是其中一员，专门买了mac mini在家搭环境，“那个时候的风险敞口是巨大的”；他有个朋友为了更高效，专门建了一个文档存各种软件的账号密码，直接喂给OpenCloud，“因为他为了让open call更好的用他那些软件”。当时很多人没有网关、直连本地电脑，一旦凭证被拿到，“所有都畅通无阻了”。</p>
+</li>
+<li>
+<p>主持人分享自己被IT限制的亲身经历：要求agent每天整理行业新闻、推荐播客和文章并直接放进本地文件夹，结果收到IT邮件，不允许agent调动本地任何资料，只能在cloud系统里单独跑。姜浩楠顺势给出即兴比喻：sidecar监控“相当于你在你的实习生旁边再招一个实习生，然后这个实习生就是盯着这个实习生在干什么”；主持人追问“他俩会不会商量好一起干”，他答取决于权限机制，给太高权限“有可能会产生共谋行为”。</p>
+</li>
+<li>
+<p>姜浩楠讲自己搭的agent系统会把邮箱交给agent，因此具备发邮件能力，但他设了“heart store”：发具体邮件时必须告知他、由他审批，“我要看一眼，而不是说我完全不知道的情况下，你就要可以发这个邮件”。</p>
+</li>
+<li>
+<p>姜浩楠给出一句未经修饰的判断：“85%以上的公司在专业的黑客面前是没有任何防御能力的，只不过说他有没有看上你，愿意去做这个事儿。”更让他觉得恐怖的是企业不知道自己历史上创建过什么agent——“那些agent可能他没有消失，很有可能一直具备那个权限挂在那里，只不过它是一个休眠的状态。”</p>
+</li>
+<li>
+<p>主持人提到团队曾测试豆包、DeepSeek等对“Granda Asia是谁”的回答非常不准确，想找北美供应商做优化，发现报价很贵；他还说自己团队招人“没有一个是VC行业的”，认为VC干久了“对行业太了解，以至于他就不可能有任何的创新”。</p>
+</li>
+</ul>
+</div>
+<hr/>
+<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>模型的capacity改变了整个攻防的经济学。相当于你现在去组织一次网络攻击的成本大大降低，时间被大大缩短，你可以通过模型的方式替代人力。还有一个就是网络攻击其实是一个非对称行为。因为网络攻击它只要找到一个单点实现了突破，它就可以完成攻击。但是网络防御它是需要我这个木桶所有的板都要足够的长。在这样的不对称的攻防条件下，网络攻击就会变得更容易出来。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:36]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我持续在跟湾区的朋友们在交流，他们自己的企业内部的机械的身份已经是100倍人了。这里面有一个很大的问题是，很多的A是员工自己去生成。这个东西对于企业管理来说是一个很大的问题。因为他不知道每个A镇有多少权限，这东西对他来说都是不可见的。就是我们现在管他叫shade AI在影子里面的AI。</p>
+<p class="transcript-line"><span class="time"><strong>[00:00:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所有的突破可能都来自于人直线方式，可能是人用的AI工具，可能是它的A阵，也可能是现有里面直接的漏洞。现有的漏洞就是传统我们讲的网络安全。我就是把门撞开A症就是我去找一个有你这个门钥匙的人帮我去开，那人就是我通过某种方式骗到你，拿到你的钥匙。这三种方式是最好打开一个企业AI大门的方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:01:28]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>亲爱的听众朋友大家好，欢迎收听本期的创业内幕。今天做客我们创业内幕的是纪源资本的投资人姜浩南。姜浩南也是我自己的同事，然后今天请Harrison来，我们主要是观察到其实2026年10月份，必安出现了一个非常大的安全事故。这场事故之后，他其实也带给了整个行业一个非常大的思考。就是AI的技术的这种变革，可能会重塑现有的安全攻防格局。网络安全产业的这个风险图景，投资机会，会成为一个大家热议的话题。所以今天请哈尔森来主要是讲一讲这样的一个大家都很关注的事件和话题。Harrison是第一次做客创业内幕，所以也让他来做一个自我介绍。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，我叫姜浩楠，我在基源资本的投资视角会主要围绕着两个方向。一个是会重点关注AI技术在发展过程中斜率最高的环节，包括像新的模型的架构，新的模型的技术。另外一个就是比较关注AI技术在商业扩散过程中的一些botnet的瓶颈环节。既包括了像一些AI的inside，包括了像网络安全这样，目前是企业充分拥抱AI过程中的核心瓶颈之一。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，刚好就是在上一周的例会上，其实我们内部Harrison就必然的安全事故做了一个根据公开信息的整理和分享。我相信很多听友可能还并不了解，要不然请哈尔森来简单给我们回溯一下，特别是向不懂技术细节的观众复盘一下，B安这63亿美元到底是怎么被拿走的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:02:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>一句话总结，我个人认为B安的事件还是一个社会工程和网络工程事件相结合的一个案例。社会工程其实是成为了这个网络安全的突破口。然后内部的网络工程和AI工具作为进一步的放大器来放大了内部的风险敞口。然后进一步通过agent的权限实现了签名的授权和最终的转账。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那过程中发生什么呢？其实据BM自己的透露，为期时间是有四个月左右。第一次其实是六月份，黑客就找到了他最想机这个人，就我们叫工程师A这个工程师A他是具有写凭证，写脚本来授权签名服务的这样的一个权限。那最早黑客通过一个AI工具下载嵌入木马的方式触达到了他。这个工程师A就从网上的一个非正式的官方授权的环节下载了一个AI coding的安装包。但当时好在其实BN的内部的网安人员已经发现了这个异常的行为，然后让A卸载了这个软件。所以其实黑客通过这个链路并没有直接攻破网安的内部。</p>
+<p class="transcript-line"><span class="time"><strong>[00:03:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但通过这个方式，黑客获取了BI内部的组织架构。他找到了另外一个切入口，就是工程师B然后通过假装面试的方式邀请了B参加了在线面试。工程师B也比较直接，他就用工作的电脑在线的环境下做了代码的测试。那这个就给了黑客一个有机可乘的环境，嵌入了木马程序。这个木马程序攻陷B的终端之后，通过BI内部的AI的工具来去做横向的跳转。这个也是我觉得必然的一个比较大的启示，就是AI工具成为了内部安全的缺陷的放大器，进一步控制的最早他们想控制这个工程师A当A的终端被攻破之后，它就具备了这个权限去写这个签名附的凭证。</p>
+<p class="transcript-line"><span class="time"><strong>[00:04:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另外一点，在这里面值得强调的是，原本的签名服务是需要人来授权的。但是由于BN内部并没有对AI的权限管理做权限隔离，进而使得AI的权限过大。它可以直接去做签名服务，跳过了正常的授权流程，以至于最终AI工具进行了批量的签名符的授权，然后在20分钟左右的时间就进行了63亿价值的这样的一个B的资产转让。</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你觉得在整条攻击链里，就是哪一个环节是最关键，也是最容易被外界忽略掉的。按理说必安有全球顶尖的网络安全工程师，这个到底是哪个环节出错了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:05:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一句话就是当前最值得被大家关注的还是agent的出现带来的变化。其实过去的安全是分为两个阶段，一个是围绕着人的安全治理，包括大家都会用V做数据安全和身份安全的管理，那就是我们来确保人的这个身份下，他不会去做违规越权的行为，他不会去泄露公司的数据，就alcar a，对octo a包括国内像飞廉这样的方式来管好人，或者说我们叫办公安全。那另外一侧其实叫生产安全，类似数据库，你的核心的生产环节。这里面其实是大家传统意义上理解网络攻击和网络安全的一个方向。这个时候网络安全和网络维护核心其实是攻防两端。大家的投入包括漏洞是别漏洞处理，是否能够调用足够多的专家和人力来围绕着这些漏洞做对应的防护工作或者攻击工作。所以这个是一个围绕着核心生产业务系统的安全攻防。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但现在尤其是像BN这件事，引入了一个新的变量，那就是agent。Agent带来什么变化呢？第一个是它作为了一个中间的桥梁，连接了办公安全和生产安全。所以你看BN这个系统里面，它其实并不是通过代码或者通过网络攻击的方式攻破了BN的内部。而是通过agent拿到了对应的合规的权限，或者我们叫凭证，正规的访问到了内部的生产系统。由于权限过大的问题，进一步调用了签名授权的服务，绕过了人类的生产审批，进而造成了最终的金额的流失。所以这个过程中其实没有任何一个机制在监控agent开了这个门。</p>
+<p class="transcript-line"><span class="time"><strong>[00:06:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以造成了两个原因。第一个是你没法防，因为它是一个正式的访问和被授权的访问。第二个是你过程中其实没有看到这样的变化，造成经济损失之后你再去追溯，可能损失就没办法被停止，或者是没有办法被诉源。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，其实这个事儿就如果对应到我们今天物理的这个世界里来看，性质很难界定。你觉得他是一个纯粹的黑客攻击，还是一个精心策划的商业诈骗？我很想听听你的观点，就是感觉他这事儿太严密了，他不太像一个比如说是电信诈骗这种条理非常清楚的，就一步步走进来了，而且全部都是合理的。但是你黑客攻击，其实理论上我是知道它是一个病毒代码，然后我硬破防火墙，我就所以这个感觉很不一样。</p>
+<p class="transcript-line"><span class="time"><strong>[00:07:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对。但首先黑客行为，他肯定是奔着比较强的经济效益和目的去的。包括BI披露过程中，其拦截了来自朝鲜的47次网络攻击。但最终这个是不是朝鲜攻击，咱另论。当然我觉得任何一次网络安全事件背后，都是有一部分人带着明确的目的和明确的诉求去做明确的攻击。那只不过说这个攻击的方式现在发生了变化。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这里面我看到的是两种变化。第一种是模型能力带来的攻击的能力。因为传统的网络攻击其实是黑客组织一部分的专家，一部分的人大量的去做漏洞的筛查，漏洞的发现，然后攻破到企业内部系统里面。但是这个漏洞并不能直接产生经济价值的损失，他还要去完成整个攻击链路。举个例子，比如在B站里面，你要漏洞先去攻破工程师A你要去拿到他的凭证去写一个授权，然后最后再触达到签名服务，最终再实现转账。所以传统的意义上的网络攻击是找漏洞，写代码，然后实现攻击。</p>
+<p class="transcript-line"><span class="time"><strong>[00:08:38]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那现在这个方向带来什么变化呢？是模型的capacity改变了整个攻防的经济学，相当于你现在去组织一次网络攻击的成本大大降低，时间被大大缩短，你可以通过模型的方式替代人力。且我们现在在越来越多的垂直领域里面看到了模型的智能上线已经超过了人类的专家水平。所以这个对于网络工具来说是一个极大的能力的提升。这也是为什么anthropic发布的那个missile模型发布出来过了没有很长时间，他就是把这个模型进行了降维。因为他发现这个模型能力释放出来以后，给到网络攻击的人的表现的提升太多了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:09:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一个就是网络攻击其实是一个非对称行为。因为网络攻击它只要找到一个单点实现了突破，它就可以完成攻击。但是网络防御它是需要我这个木桶所有的板都要足够的长，我不能有任何一个短板。在这样的不对称的攻防条件下，网络攻击就会变得更容易触达。大家可以看到从年初的open code安全事件，到年终的anthropic的missus模型的发布，再到后面finance BN的事件，以及这个fireworks notion的事件，还有今天刚刚发生了VISA和mascot泄露客户数据的事件。这些安全事件频发，核心的背后其实是模型能带来了能力的突破。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>过去我们如果是纯黑客的这种物理环境，我只要把边界里面那个短板，或者说您说我通过海量筛查找到漏洞，我就可以进去了，吧？但现在必然事件其实它带来的一个非常重要的变化是他第一层去找到程序员A的时候，是用边界来攻击的对。但他到第二层其实攻击的就是信任链。新人链又没有一个agent去验证agent或者人来验证agent，所以就导致他后面的事件其实就发生了猝不及防。</p>
+<p class="transcript-line"><span class="time"><strong>[00:10:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实我突然想到，平时我们认为我们现在这个写字楼挺安全的对吧？你看底下门禁，上面门禁，但我发现他这个也形同虚设。你想快递员、装修工、外包这三件事你就根本防不住。尤其是比如说我们同一层装修的时候，你晚上你是要有人上来装修的。就是以我对咱们大多数的公司的了解，其实办公室门禁也就那么回事儿，对吧？理论上来讲，如果你这是一个值得去攻击的一个空间，它是完全可以进来的。这个其实是一样，因为他在第一层他已经有信任链，认为你是一个合法的可以入住的，对吧？所以我觉得理解上。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>这个事儿是必然要发生，只是说它发生在必安身上。所以造成的影响，包括给整个业界带来的这个启示都是不一样的。其实在调查报告里也有一个很受关注的细节，就刚才你也有描述，攻击者利用了必然的内部AI工具完成了这个横向的移动。你怎么看今天这个AI工具变成了一个攻击跳板这件事儿，他未来会防御的住吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才讲到的其实模型带来变化，我把它总结叫AI for security。就是说AI的模型的变化给security带来了什么样的变化。第二个就像您问的，就是说这个AI工具包括coding工具，包括A阵这些新的工具给网络安全带来什么样的变量，我可能把它总结叫security for AI前者是AI带来的变量，后者是整个security架构带来的变量。那就是我需要一套体的安全的架构来约束住现在的AI工具或者agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:11:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那这里面可能涉及到不同的问题。举个例子，比如说当前企业面临的一个最大的问题，还不是说去管好这些A症，而是先看清我现在有哪些癌症。举个例子，比如说我持续在跟湾区的朋友们在交流，他们那边现在基本上已经每个人的口径都在用AI然后内部的工具也在用AI甚至很多都是自己build up起来的自己的AI的工具。甚至他们有个调研说，现在他们自己的企业内部的人和机器的身份在1比100，就是机器的身份已经是100倍人。那这里面有一个很大的问题是，很多的agent或者AI工具并不是企业官方自己生成和设立的。很多是员工自己用自己的clo COO也好，code x也好，它去生成。那这个东西对于企业管理来说是一个很大的问题，因为他不可见，他不知道企业里面现在有多少A正在跑，不知道每个A镇有多少权限，它能触达到什么样的业务软件、生产流程、生产工具，这东西对他来说都是不可见的。我们现在管它叫shadow AI在影子里面的AI所以对企业我觉得当即最重要的是我要先看清楚我企业里面有哪些agent，它有哪些环境，拿到哪些权限可以触达哪些生产数据。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二个问题，就是说看到了这些agent我怎么把这些A镇管起来，A镇其实有几个方向的能力需要去把控。第一个就是说身份需要明确，我这个A证是什么？它具备哪些权限，它属于哪个员工。包括我们现在其实做agent下意识的会把这个agent授予你所有的权限。举个例子，比如说我们企业内部，我既可以去访问对外的数据库，也可以访问对内的数据库。我还可以去大模型里面去做问答。这里面其实你代表了你不同的身份和不同的权限。但现在大家下意识就是一个A朕继承你所有的权限，这个是很危险的当他去做具体工作的时候，agent的过程其实是个黑盒，他会尝试各种各样的路径来完成他最终这个目的。所以当你给他过大的权限的时候，他很有可能通过这个过程的黑盒探索出来了一条你不知道的路径，造成了不确定影响。</p>
+<p class="transcript-line"><span class="time"><strong>[00:13:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>举个例子，之前这个open I的hugging face的越库删库事件，其实就是因为这个agent有了比较大的权限，他在现有可行的方案上没有探索出路径。他探索出来一个我可以把这个库删掉重建，但是他发现他删这个库就是一个生产环境的核心库，删了以后需要很长时间去恢复。第三个事儿就是你没有监控。当这个事儿发生了以后，你第一时间是没有意识的，或者你系统是没有告警的那他可能会持续产生影响，或者这个风险敞口是一直敞开的那举个例子，比如说pin CAP前段时间也被黑客攻击泄露了数据，那他可能就花了一个月的时间才排查出具体的问题。对我觉得这个是A正本身在身份授权意图和整个影响监控四个环节都在给企业带来表达的影响。</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:38]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我总结一下我就是你不能把AI当成一个工具来管理，你要把它当成一个身份主体来管理。就是你管理它其实就应该纳入我们身份和权限体系。对，就是他是一个人，他是是一个虚拟的人。对，所以我觉得这里面就需要人来介入进行管理。您觉得目前人来介入会有效吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:14:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>丽姐说的很对，就是说现在大家对待A正不应该以对待AI工具对待他，应该以对待人的方式对待他他是需要具备他自己的身份，他自己的权限和它的能力边界。然后包括我也要对他实际过程中做了什么要有一些洞察。在这里面我可以做一个分享，就是说过去的AI工具其实更像一个copilot，它是一个人的能力的辅助。但是由于人给agent授权变得更多，它的自主性变得更多，甚至我们现在讲叫proactive。就是它可以基于你的memory，基于你的历史操作的轨迹，给到你下一步想做的预见性的指导。所以他越来越像一个人，整个平台就像我刚才讲的，这个办公安全其实是围绕着人的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:15:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前人的操作路径是人家程序。我对每个人做好了管理，我知道它过程中会操作哪些程序，这些程序也是人写好的，所以它的入口路径这些都是写死的对，其实你很好管理。对，因为它的路径是一个固定路径，而且每一个访问的端点都很清晰，然后每个人的身份和权限你也约定的很好。所以你只要把写死的链路里的每一个单点管理好，它就不会出问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但是agent来了，遇到了一个很大的问题。首先你没办法区别它是人还是agent因为可能在终端里面的那个访问行为，你没办法回溯它是一个真实的人还是人体的一个A以及这个数量会变得很多。因为一个人起一个A镇之后，这个A正在探索过程中，它可能生成很多sub agent，它可能就是一个agent集群。那你的这个管理压力就变得更大。之前要管理一个人，你现在可能要管理100到200个agent。</p>
+<p class="transcript-line"><span class="time"><strong>[00:16:33]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第三个就是我刚刚讲他的过程是个黑盒，因为人你的触点和规则流程是写死的。你可以规矩好，但agent在过程中它可以coding，可以写新的代码。它可以在没有办法触达的方式以外去创造一个工具，或者写一行新的代码来完成他想完成的任务。那这个东西也不可控，也不是在你写死链路里面发生，而是在额外的方式上去发生。所以人和agent数量上发生了变化，生命周期发生了变化，权限发生了变化，行动方式发生变化。那你其实就需要围绕着agent来一套新的管理的方式。对，包括你也需要一个我们叫run time运行环境，运行时持续的监控这些A证到底做了什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们公司其实对于A证管理安全级别还是挺高的。就比如说我要求他每天把我关注的一些行业的新闻帮我整理出来，同时我还要要求他推荐我想听的一些行业的博客，还要推荐我一些文章。我原来是在我电脑里设了一个文件夹，我希望他把这些东西直接给我放到文件夹里。就是我每天开机的时候就希望它弹出来给我。对，后来我发现我收到了一封邮件，IT就不允许我这么做。他就说他不能调动你本地的任何资料，是你只能打开我的cloud，每天我在里边去看它有一个运行的程序，他就一直是在cloud这个系统里单独的跑，他没有权限调用我任何其他的本地的资料。这个从某种程度上，它其实就像你管你的实习生，你只给他一部分权限的时候，确实就是安全边界，什么都会更更这里。</p>
+<p class="transcript-line"><span class="time"><strong>[00:17:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实还有一个环境的问题，刚我讲就是看好agent在做什么，其实是通过塞card的方式，就相当于你在你的实习生旁边再招一个实习生，然后这个实习生就是盯着这个实习生在干什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:07]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但他俩会不会商量好一起干。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有可能，但是取决于你这个机制。如果说你的这个cycle他有他的权限，他不能自己coding，或者他不能通过沟通改变自己的行为，那它就是一个纯监控的方式，他就没办法共谋。但如果你给他一个小孩，对你如果是有一个足够高的权限，那有可能会产生共谋行为。所以我刚才讲就是3d car是可以管好你的agent但刚才丽丽所提到的就是说，那你不能访问内网外网数据。其实还有一个问题，我们叫环境，环境就是网关。对，那网关就是涉及到说agent它可以跟什么样的数据库做通信，我能拿到什么样的数据。这里面其实现在我个人认为有三个网关是比较关键的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:18:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一个是AI模型网关。举个例子，现在大家所有人都在用大量的大模型，无论是海外的cloud还是open I codex还是国内的像deep和kimi。其实大家都没有注意你跟模型之间的context里面放了什么东西。很有可能你就是把你的API的key，一些软件账号密码就放在了某个数据库里面，可以被模型所调用的，模型就能拿到你的这些凭证。所以其实在企业内部安全的时候，我们要去设一个跟模型之间的网关。就是我跟模型可以进行上下文，但是在遇到比较敏感的凭证信息密码，我要去做脱免。因为这些东西它不影响你语义的理解，但是它影响我安全的访问，这是第一道网关。你要管好员工和模型之间的交互。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:37]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二道网关就是内网，这也跟权限有关，就是谁能访问内网什么样的数据。举个例子，比如说像咱们公司有很多财务和法务的数据，那这些其实不会公开给所有人。这里面就是内网的权限的隔离。</p>
+<p class="transcript-line"><span class="time"><strong>[00:19:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二个就是外网的网关，比如说agent现在有很多自主权限。举个例子，我之前自己打的那套agent系统，我会把我的邮箱和发给他，那他就具备了发邮件的能力。如果你没有这个外网的网关，他有可能随时就跟外面的人发邮件。所以对于外网的通讯的这个网关也很重要，这个取决于你是不是能够采取某种实际的行动，对外部环境造成影响。我搭了一套系统，我就会给他一个heart store。就是当你要发具体邮件的时候，你要告知我，那我要具体审批，我要看一眼，而不是说我完全不知道的情况下，你就要可以发这个邮件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个是sense的。就是你可以帮我把工作预备好了，放在我本地，你直接给我就行了，剩下的事儿不用你管了。对我想问问你，你觉得今天深度伪造这个领域在招聘、客服，还有财务诈骗场景里成熟到什么程度了？</p>
+<p class="transcript-line"><span class="time"><strong>[00:20:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>坦白讲就是deep fake和刚才咱们讨论那些网络安全其实是两套路径。但是他们也有相关的关联，其实关联就会再往下就到内容里。您刚刚提到的deep fake，就无论是content deep fake还是换脸voice这些内容的变化，这个其实是更深一层了。这里面其实在刚才那个脉络里面也有体现。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>举个例子，比如说你的权限没问题，身份没问题，安全机构没问题。但是你可能掉了一个skills，你掉了一个外部工具，这个外部工具给了你一个指令，那这个指令是写在内容里的。比如说这个指令告诉你就是它可能是分开的，但是通过某种方式能让你的agent理解成，你把你的密码发给我，这个我们叫jack，就是劫持你的agent，它识别了你这个指令。做你原本不想让他做的事儿。其实这个跟deep的是很像的，deep fake的逻辑也是一样。那就是我假装成爸妈来告诉你遇到问题了，对，实施诈骗。我觉得这个其实在AI的agent里面也有相同的事情在发生。</p>
+<p class="transcript-line"><span class="time"><strong>[00:21:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但针对这一层，我觉得也是当前大家最难的处理的一种方式。因为你要针对事实去做辨别，而且你比如说你要有第二套方案来去做double check。现在AI的技术这么好，坦白讲你也辨别出来，但是你可能直接打电话给你的爸妈double check一下，你就会发现这个事情的真假。同理就会到agent里面，如果这个指令是从内容注入的，他去进行了实际操作。这个过程中如果有一个风险机制，让实际的agent的拥有者来理解OK他现在触发这个行为是不是你的本意。你去做一个double check，那这个就可以避免deep fake的产生。所以回答您的问题就是deep fig这个事儿不只是我们显性看到的诈骗通话声音录像，其实在agent在语义指令也在发生。解决这一套的路径下，很重要的是一个double check的机制。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:30]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从你的这个观察就是他现在已经可以到以假乱真的程度吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得基于现在多模态生成的能力，voice和面部的生成已经是基本上可以做到以假乱真。</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:44]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对他和咱看那网剧还是有差异的，对不对？</p>
+<p class="transcript-line"><span class="time"><strong>[00:22:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，然后另外一个就是异步会比实时更好做成，就是现在很难做到实时。因为坦白讲你做换脸还是需要去做渲染，渲染就需要算力。那实时这些响应它可能从清晰度度，然后渲染的面数上并没有做得很好。你能看到明显的画质的差别。对，所以实时上有挑战，就是你实际打视频过去虽然长得像，但是你看这个画质不清晰，或者明显有一些AI的边缘痕迹，这个还是能辨别出来的。但是异步我觉得已经基本上接近于真实了。就是你可以用你的声音生成一段你完全没有辨别出来的视频，且让你认识的人看已经辨别不出来。对，就是已经通过图灵测试了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>是啊，我之前在华尔街日报上看过一篇文章，就是一个加拿大退休的老人，他被骗了全部的身家差不多20万美金。他怎么被骗呢？就是说他在facebook上看到伊隆马斯克在宣传一款理财。对，然后他就非常相信罗马斯，他就买了。然后这个就是您说的这个异步的效果，然后他完全看不出来是个假的elon mask。后来才发现其实facebook上有有上万个elon mask在卖。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且卖的产品也都不一样，是吧？就是千人千面。</p>
+<p class="transcript-line"><span class="time"><strong>[00:23:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是他报了案，然后当时那个里面还描述过，就是说其实很难去追溯骗子在哪里，这个老人只能是默默承担了所有成果。对，所以可以想象，过去我们如果说用钓鱼软件去骗一个人，他其实还是需要一些老手来优化代码优化措辞对吧？优化面包屑的这个过程，现在我觉得这个AI大大的降低了犯罪的成本。是所以可能过去就是一个中小的诈骗团伙，就具备了国家队的水平。</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:20]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是CZ其实在这次事件中，他的一个回应，我觉得非常有意思。他说对抗怪物的唯一方式就是成为那个怪物，主动用AI来防御AI刚才你有介绍，其实从防的这一端来讲，他防守双方是非常天然的不对称。房子是你不能有短板，但是攻击其实只需要一个口。所以你认同CC的这句话吗？然后目前AI对抗AI能做到什么程度？</p>
+<p class="transcript-line"><span class="time"><strong>[00:24:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我很认同。因为不是有句话说是最好的防守就是攻击。其实现在在AI网络安全，大家有一套从事的方式，其实历史上都有，就是红蓝对抗。那就是我内部生成一个团队，我这个团队完全就是攻击我这套系统。然后以及我这个团队是和我内部的网络安全团是不互通的。就相当于你花了很多钱hair了一支专门的黑客来黑你自己的系统。以及你告诉这个黑客团，你可以无所不用其极。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>你可以用现在最先进的技术，极高的预算来尝试hack我整个系统，这个东西叫做安全测试。刚才其实讲到的攻击的成本和速度降低，同样适用于防御。其实同样的方式也可以做一遍，你通过这样的方式快速的做现有系统的安全测试，就可以更快速的发现漏洞所在。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后以及AI可以帮你找到形成攻击链路。那你经过安全测试之后，看到这个攻击链路，你就可以定向去修复。所以模型是一体两面，取决于谁在用它。所以刚才提到了攻击变得极其的容易。其实你可以反过来自己来攻击自己，使得你发现漏洞的速度更快了，修复的速度也更快了。这是目前大家普遍选择的一个方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:25:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后另外这个方式其实会衍生出两种商业模式，一种是AI soc，就是AI自动化全测试。相当于把你这整套链路用最强的模型自动化的生成以及网络安全。它是个动态的过程，它不是你测一次就高枕无忧了。包括你每一次的版本迭代，你的每一次上传新的版本，你就会有不同的新的漏洞敞口。所以你有一套基于模型的自动化的安全测试系统，可以帮你24小时不停的在run。它的作用就在于一旦一个漏洞上线了，它可以比黑客更快时间的发现，更快时间修复，进而减少黑客利用这个漏洞来攻击你。</p>
+<p class="transcript-line"><span class="time"><strong>[00:26:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二种，其实现在出来了一种安全公司，就我直接交付结果相当于安全托管。他们内部显很多in house就是用模型自己在做的，但它就是直接交付结果。那传统的网络安全其实是交付工具，你还是要公司自己去养很大的一个安全团队，来用起这个AI工具，防护自己的软件安全。但可能像CZ这样的大公司，他可以花很多钱搭一个很大的安全团队。但是像中小企业或者说在AI安全上没有那么多投入的企业，他也需要这么强的能力。所以现在有一类公司就是基于模型和它自己in house的软件能力直接deliver result。我直接交付一个更强的安全服务，且我为你的安全服务兜底。</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，所以你的观察就是说模型自己的这个安全，比如说提示注入，数据泄露，模型被滥用等等这些问题，它是是一个独立的新品类了。目前这个市场上这样的玩家多吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:27:23]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我看到硅谷还目前还是涌现了很多。其实两方面，一方面你可以从已经上市的公司的基本面看得到，包括像cross track，像pilot networks，你可以看到他们的AI的产品26年最新一个季度的收入环比比之前大概翻了2到3倍。他们年初到现在的股价估计也涨了百分之七八十。所以一个是从市场的资金面体现出来大家对安全的重视。另外一个是实际让他们的业务增长也type in了增长的预期。北美尤其是网络安全公司很多，我觉得上市公司是第一个能让你看到基本面变化的方向。第二个就是创业公司，其实今年Q3Q4涌现了一大堆基于模型延展出来的AI安全的公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:04]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后我注意到的就一类是像刚才讲的，我可以看清有多少agent，从端点控制agent，然后通过runtime来对他们进行实时的干预。甚至还有一个叫review，就是说agent产生影响之后，我可以回溯整个链条，这个agent属于谁，拿到了什么样的权限，整个工具链是怎么形成的。有助于这个团队更好去修复。另外一类就是模型测的能力会更强一些，包括最近大家其实讲了很多巴结，我叫SI就是recursive。网络安全是recursive很好的一个场景。因为它有充足的数据，包括你的网络安全的日志，你的脚本，你的告警信息，然后也有足够清晰的trace。攻击的路径是什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:28:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它从哪里找到了漏洞，哪几个节点连成了一条攻击链？这是一条trace以及你的反馈。我修复以后拦截了多少，我如果没有修复会造成多少？所以它是一个对于RSI很完美的环境，数据足够充分，trace足够明确，且奖励信号足够明确。所以现在很多团队是通过安全领域这样特定的信息，然后通过持续学习和RSI的训练方式来迭代这个领域的模型，来实现风险的判别。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为刚刚其实讲到运行时过程中，你需要判别它是不是一个风险行为。这个判别不只是机制的判别，你刚才讲到其实你还要对内容做判别，比如说提示词你要做判别。那这个判别你是很难穷尽的，它不是一个ruby is的方式，它还是需要模型的介入。但是你调用又很大，你不可能每个都用大模型。所以现在大家会用两套模型的架构，一套我们叫决策模型，就是相对小的一些的模型。这个就是映射到我刚才表达的，它会用这个RSI的方式。虽然它是很小体量，但它是可以不断迭代，变得越来越精准。然后上面有一层比较大的模型，然后通过小模型做实时判断，再反馈给大模型做进一步的深钻。</p>
+<p class="transcript-line"><span class="time"><strong>[00:29:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以硅谷这段时间涌现了大量，我刚刚提到了前两类的公司。然后国内坦白讲我觉得刚刚开始对我觉得有两个比较大的因素。第一个是国内的agent的渗透率还没有很高。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>刚才我分享一个数，就是说在硅谷我们的朋友的公司，人和机器的身份已经到了1到100。这个在国内还远远低于，以及现在A镇在国内更多还是千万办公word body依托于大厂的体系内，还是有很少人自己去build up自己的agent。可能有，但是也没有太深入到企业内部的生产环境。</p>
+<p class="transcript-line"><span class="time"><strong>[00:30:32]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第三个，就是国内的企业也很多样化，包括国央企政府体系里面。其实大家对安全的担心还是很高的。所以它其实是在主动的，没有让agent渗透这么快。这个也是我觉得很重要的一个因素，就是安全它已经不只是一个被动的需求，它可能已经成为制约企业充分拥抱ai充分采用agent的一个关键的瓶颈。就像政府和国央企，他们因为对安全的担心暂缓了agent的渗透。但如果你能够通过一个安全机制解决大家对安全的担心，其实A针的渗透率会大大加速。所以这个也是我认为国内AI安全最大的机会点。就是你先帮助大家建立起这套基建，让大家足够相信AI的安全是有边界的，是能被治理和管理的，进而影响大家对AI的拥抱程度，让AI进一步渗透到企业内部，才能发挥到更大的经济价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你觉得这个领域他机会应该是比如说像吉安信或者奇虎这样的大公司，还是说涌现出一些更酷的超早期的公司。</p>
+<p class="transcript-line"><span class="time"><strong>[00:31:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得行业里面既有的大的公司有它的优势。因为它的覆盖的节点更多，它的客户群体更多，和客户建立起来的既有信任更多。但他也有这种，他可能现在的客户相对传统，就是他的现在这些客户的对AI的拥抱程度没有那么深，变革起来没有那么快。所以它是一个渐进式发展。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>创业公司机会就在于这里。对他可能现在的客户就是充分拥抱AI的，有可能是大公司里面的前沿事业部，也有可能是中小型企业，也有可能是创业企业。但是他们day one，比如说他们的生产系统，他们内部的AI agent基建就是围绕着AI搭建起来的。你就有机会了解到企业里面agent到底在触达哪些环节，会遇到什么问题。</p>
+<p class="transcript-line"><span class="time"><strong>[00:32:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>创业公司的机会点我觉得就在这儿，这是一类就是你可以根据这些客户day one的需求快速成长起来。前面的那些巨无霸和这些创业公司孙楠or later有一天会遇到一起。但那个时候那就是比大家的产品力的时候。我是觉得当下还是有创业公司的机会。因为围绕这些新兴需求所成长的安全公司现在很少。第二类我觉得很有机会的就是从模型能力出发，包括我刚刚讲的RSN那套机制。你是不是能够day one和这些充放拥抱OA的公司一起拿到它告警信息、风险漏洞等充分的数据，然后反馈到你自己的模型来持续做迭代。这个能形成一定的技术壁垒，这也是传统的安全公司当前不太方便做的一些事。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白了。其实你看这个很有意思，就是人类的历史上，特别是在科技史上，这事情是屡见不鲜的。就是当一个新的技术出现的时候，他要先跑起来，很快就会一个大的事故。暴露了她整个的攻击的一些漏洞。然后晴儿就启动了像防御工具和这个规则的补课。</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:26]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>最后这个安全产业就成为一个独立赛道。它就是刚才您说的，可能大厂非常有机会在大客户这儿做一些验证。但是小公司也有自己的独特的一些优势哈那其实在讨论必然事件的时候，市场上有各种各样的声音，其中有一部分人就认为这是加密行业的特殊风险，因为你有高价值的资产，对吧？然后7乘24小时的链上可以转移，就放大了这种被攻击的吸引力。您认为这起事件里哪些问题是crypto特有的？哪些是所有大企业都在面临的共性问题？</p>
+<p class="transcript-line"><span class="time"><strong>[00:33:57]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得特有的肯定就是离钱近。就是你端到端的链路可以形成闭环，且黑客可以直接拿到实际的经济效益。这个是虚拟资产以及虚拟资产的交易机制带来的最大的便利。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其他的不同就是比如说黑客如果要挟持一个大型企业，它常有的方式叫威胁。就是我手上拿到了你的客户数据，你要给我转钱，我才确保我的数据不会泄露。它是个间接的，就是B的公司，我直接可以转成把钱就拿资产了，我就拿到钱了。那后者我还是要威胁，就是通过威胁到转账还有一个过程。但相同的点，我觉得还是泄露带来了一个比较大的危害。</p>
+<p class="transcript-line"><span class="time"><strong>[00:34:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这里面我也可以再分享两个案例，一个是fireworks，fireworks是一个推理训练的部署平台。其实现在很多软件平台的AI推理会放在fireworks平台上去做训练。举个例子，notion就是fireworks很大的一个客户。最近因为fireworks内部内控的一个凭证丢失的问题，造成了他的客户notion里面的客户安全数据的泄露。也就是说你现在用notion记的那些。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>东西都是一条绳上的蚂蚱。</p>
+<p class="transcript-line"><span class="time"><strong>[00:35:05]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，就是你可能也已经被泄露了。对还有就是刚才讲的VISA和musk AR VISA和musk a没做错事儿，但是他用的第三方的服务被AI攻破之后，黑客就通过这个第三方服务拿到了VISA mask card所存储的银行卡信息。你的信息最终可能就会以VISA和mascara的身份给你写一个调研邮件。那你收到一个邮件就是说我是VISA的官方客服，我能拿到了你这么多数据，而且你很被convincing。因为除了VISA musk AR，我没有给谁任何这些信息。对，但因为他拿到这个信息，他可以直接给你写调邮件，一旦你触发，那就是你个人的财务损失。所以回到刚才那个问题，就虽然大型企业里面的链路没有那么直接，但是的确都是一条绳上的蚂蚱。它可能不在fireworks上面实现利益变现，但它可能能通过notion触达到你，或者通过VISA和mask card触达到你，实现实际的钓鱼和勒索，那就是危害到我们每个人的经济安全。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:03]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这个时候他就被迫银行要被迫赎回这些数据是吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:06]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得现在市场上普遍的做法是不理会这些要挟。因为你一旦理会这些要挟，你会助长黑客作风。所以就像刚才讲的，就是他要胁是一种方式。另一种方式，我就直接触达我拿到信息的这些客户，我一个一个的去做药企，以及他可以卖数据，他可以把这些数据卖给更大的犯罪组织。这些放贷组织可以用这些信息，用更高明的手段来进行诈骗。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:32]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>回到这个必然事件里，从假面试到恶意代码仓库整体事件最薄弱的环节始终就是这个人的缺失，对吧？为什么技术防线迭代了这么多年，就社会工程仍然是最高效的突破口？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>是的，同意。</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，这个里边比如说像企业培训，什么钓鱼演练，就刚才你说的这些，它这个边际效应你觉得是在递减吗？还是说随着这件事儿它会有一些变化？</p>
+<p class="transcript-line"><span class="time"><strong>[00:36:56]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得核心还是意识问题。举个例子，比如说如果这件事能让大家认识到，在你建立一个A站的时候，你就会去想一想他到底有什么权限，它能够触达我什么样的数据，我需要什么样的机制来管理到它。我觉得这就是一个很大的突破。因为现在很多的问题是人们没有意识，对你们不觉得我做这个事情会给我的财务造成什么样的影响。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>举个例子，比如说open core那个时代我也是其中一员，我还专门买了mac mini在家里面。那个时候的风险超过是巨大的。因为我们每个人没有受过专业的网络安全训练，你就是任意的搭了一套open cloud框架，从网上下了skills。而且这个skills可能也没有经过安全审计，很有可能这个skills就被投毒的。然后你就会把你自己的所有的上下文，你的工作文件，我有个朋友甚至把他，因为他为了更高效，他有一个文档专门存他各种各样软件的账号密码，就喂给open call。因为他为了让open call更好的用他那些软件。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:53]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我的妈呀。</p>
+<p class="transcript-line"><span class="time"><strong>[00:37:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>而且那个时候大家是没有网关的，就很多人是直连的，大家可以直接通过open。访问到你的本地的电脑，读取你的文档信息，拿到你这些凭证。一旦拿到这个凭证之后，所有都畅通无阻了。因为我就是用正确的钥匙去打开了正确的门，过程中你看不到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:11]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>任何没有任何瑕疵。所以说这个里边人的审核是必不可少的对对不对？如果说我把这个犯错的最后责任回溯到一个人身上，他来抠最后那个按钮，我相信这风险会大大降低。是，但是人得先意识到，用你的话说先让他先意识到这是个风险。</p>
+<p class="transcript-line"><span class="time"><strong>[00:38:27]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对你今天你告诉我，你说我把所有的账号密码什么东西交给我的这个什么第三方电脑来管理，这是不可能的。在这个事情没有暴露出来之前，人是会这么做的。就像云，因为在网络上有太多被攻击的案例了，所以大多数人只要他接触网络，他就有一点安全意识。说我不会轻易的把我的这些密码送到比如说云端去，让百度云盘去共享。这肯定不会的对吧？但是其实agent也是一样，就是persons agent它如果已经可以让你方便到这个程度，你要是懒惰了，你给到他风险是极大的。但没没人意识到，因为他没出事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:00]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就好像其实这个汽车在制定交规的时候，它不能假设这个东西人不会犯错，不会踩错踏板。他做各种各样的防御。比如说系好安全带，有个安全气囊，对吧？你平时不安全的驾驶的话，还有一些违章和扣分，有交规来管理你。所以说最靠谱的思路是假设这个A朕一定会犯错，对，一定会被攻破，那你就一定会有安全意识，对不对？我觉得这是一个非常好的警醒。</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:25]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>那我今天假设说你是一个黑客，因为你是一个技术专家。如果让你给一家正在深入接入AI的企业就黑进去谈，就是给他标一个攻击地图。你是这个蓝军对不对？你会标出哪几块？就是身份层、终端层、供应链AI工具、模型、数据还有业务哪些你觉得是你会标注出来的？</p>
+<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>坦白讲我觉得跟今天主题一样，我觉得核心还是人，所有的突破口可能都来自于人。但是执行方式不见得是人，直线方式可能是人用的工具，它可能是AI工具，可能是它的A阵，也可能是现有里面直接的漏洞，这是三种方式对吧？现有的漏洞就是传统我们讲的网络安全，我直接单点突破，我就是把门撞开，然后agent就是我去找一个有你这个门钥匙的人帮我去开，那人就是我通过某种方式骗到你，拿到你的钥匙。这三种方式是最好打开一个企业AI大门的方式。</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我觉得你真的shock到我了，就是这个事儿。如果说你今天这么跟一个坐在对面是一个企业家，你告诉他你过去保安什么的这些权限，你可能现在交给了这个agent你要不要保护？</p>
+<p class="transcript-line"><span class="time"><strong>[00:40:31]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得最恐怖的是他不知道现在这些东西谁拿到了。因为更可怕你现在下面的员工，我敢坦白讲，每个人都用过AI对，每个人都搭过agent，至少尝试过让自己的agent为自己做一些事儿。而且很多人肯定会忘记自己曾经搭过什么agent。但那些agent可能他没有消失，很有可能一直具备那个权限挂在那里，只不过它是一个休眠的状态，但这就是一个黑客可以入口的点。比如说我screen到你有一个休眠具备高权限的agent，你都已经没有意识到它的存在了，我就可以去调动它。第一是你不知道现在有什么。第二是你即使知道现在有什么了，你也不知道你历史上创建过什么，有哪些还有可能威胁到你的系统安全，所以这个是最恐怖的对。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:17]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以就是如果你是个黑客，今天要攻击这个公司有很多种可能性，随便搞定一个员工可能就击破了，对不对？只是你这公司有啥攻击价值。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:25]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，所以我觉得其实85%以上的公司在专业的黑客面前是没有任何防御能力的对，只不过说他有没有看上你，对，愿意去做这个事儿。</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我我想问问你作为一线的投资者，这起事件之后，你觉得一级市场对网络安全赛道的情绪和定价没有什么变化？有一阵儿我记得差不多四五年前，网络安全是特别红的赛道，但是好像后来也都都不太容易融到资。你觉得这轮事件市场上会有这样的一些变化吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:41:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家又开始看了，我觉得大家会重新评估AI对网络安全公司基本面带来的变化，但也会相对客观，就不会觉得说这是像一个大元模型一样，范式级的变化，带来极高的估值溢价。我觉得大家并没有按照这个方式在看，而是可能更多在看这个需求是真实存在的，且市场处于刚刚开始的阶段，未来能够遇见一个很高增速的预期。那在逻辑上，谁能够具备这个优势，在未来的半年、一年甚至2到3年内吃到这个蛋糕或拿到这么大的增速，这个过程中可能是已上市的公司，也可能是创业公司，对，但就像我刚才分享，大家的资源禀赋和能力象限不太一样，但殊途同归，都是在吃，大家意识到安全这个作用，且安全从被动防守走向主动防御，预算越来越高的这个过程中，谁能吃满这个budget？这个是我认为可能当下关注AI安全的一个核心变量。</p>
+<p class="transcript-line"><span class="time"><strong>[00:42:54]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>其实AI时代我们在互联网做的事儿都重新再做了一遍。就是我前段时间接了一个任务，但是已经完成了。我们在模型里边就像一些通用型的豆包、deep seek，或者是这些里面我们去问说granda asia是谁的时候，发现他的回答非常的不准确。当时我们就想一定要做一个优化。然后这个优化在互联网时代它是非常常见的。比如说就是做google的或者是百度的这个优化对吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>有很多供应商，但是到了AI时代这个生意依然存在。后来我发现在北美有做这个事儿的，然后我就找到了一个供应商。当时问了一下价格真的很贵。</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就做ICU优化是吧？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，然后他就帮你可以在各个agent里去优化，就是搜索到都是正确的，关于你这个公司信息，所以说这个生意其实在互联网初期也是，它是个现金生意，做不大，它是广告生意。对，但是很快就承载了一批的这个公司也活下来了。所以可以想象安全这个事儿也是一样。其实在互联网时代，没有人不知道你机房或者是你的系统里要装一个防火墙。那么到AI时代，这个生意我相信也是有一个值得去看一看的一个机会的，是你现在也在看这个赛道，对吧？你最看重这个团队什么？</p>
+<p class="transcript-line"><span class="time"><strong>[00:43:59]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我个人的一个看法是在当前这个AI时代，你的最长的长板会被充分的认识到，然后你可以通过多种的AI的方式来补足你的短板。所以我现在思考方式会倾向于把事情拉到两个极端。所以回到安全团队的审美上，这个光谱的最左侧工程化能力和成建制团队能力很重要。就是你要见过大规模的网络安全攻防是什么？安全机制是什么？因为安全它是一个极大的topic，就是老兵老兵有极强的工程经验，带过成熟的产品，踩过足够多的坑，可以最快时间内覆盖到80%以上的需求，使得这个产品最短时间变得能用，然后再逐步叠加模块变得更好用。这个其实也是AI这个时代的一个基础。因为你要先建立足够多的节点和模块，你才能对A镇也好，AI工具也好，有足够多的洞察和路径，了解到他们在做什么。</p>
+<p class="transcript-line"><span class="time"><strong>[00:44:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第二种团队，我可能会花时间更多的就是模型团队。就刚刚我讲的RSI这套方式在AI安全这领域里面是很好用的。虽然你可能不懂网络安全，但是你懂模型。通过模型和叠加场景里面的数据，你再招一个网络老兵帮你去做数据的调优，把这套模型的能力搭建起来，越做越好。你在现有的这竞争landscape形成一个差异化的优势。然后以及在网络自动化安防里面，这个东西的重要性会越来越少。所以模型团队也是我很关注的一个方向。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:22]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对person我非常同意你这个观点。就是我自己团队招人，没有一个是VC行业的，一个都没有。就是我觉得这个VC行业的人干久了，他对你这个行业太了解，以至于他就不可能有任何的创新。比如说你想做个新事儿，他就跟你说对不起，这干不成，其实老兵也是这样，比如你跟他说，地震时代我们可能有更多的安全的变化，他说这事儿解决不了，对吧？就互联网时代我就没解决，现在我也解决不了，因为他的能力模型就受限了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:45:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是反倒是你只要会做内容，你哪怕是什么背景，做什么情感专栏，什么做什么不重要，对吧？就是你只要是能把人的情绪get到怎么去打爆点，那我其实就非常愿意请你来，对吧？一定会做对对，刚才我们讲了两个极端，目前他们的这个估值情况会有变化吗？因为团队背景。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>会就大家还是愿意给模型极高的溢价。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:12]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>模型的贵。对，有意思。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以你会看到其实现在市场是冰火两重天，传统的安全公司大家都还比较struggle。因为业务的发展，包括中国的软件市场饱受诟病，对吧？包括中国的客户也比较难以服务，对，可能他们最开始服务的那批客户也比较强调定制化服务和围绕去做一些定制化开发，使得他们的人效并没有办法发挥出来。所以虽然有不错的收入，也有不错的产品，但是在增速上还是有比较大的挑战。</p>
+<p class="transcript-line"><span class="time"><strong>[00:46:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>但反而模型它是颠覆了整个攻防经济学。很有可能你之前搭建的一些产品，现在通过coding的方式可以快速做出来。然后再加上模型对于网络攻击安全能力scope的快速提升，很有可能在客户的budget上就排的更靠前。所以大家现在倾向于给模型团队更高的估值溢价。Which我也觉得是溢价的本身是你为未来的两三年提前做一些价值锚定，这个也跟趋势相关。但我个人的态度是觉得后面还是会均值回归，或者说光谱的两端或多或少都要走向中央。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:20]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是你老兵团队要增加模型能力，模型团队要走进业务的现场增加产品能力。但只是说大家的出发方向不一样，大家的相信的资源禀赋不一样。谁更相信什么样的团队能走到远期中间的那个状态。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我们讲一个有一点得罪人的事儿，就是你从你实践上看，项目上来看，哪些安全叙事在你看起来它可能是被高估甚至是泡沫的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:47:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>虽然我很想找模型团队做安全，但坦白讲我觉得这一侧的泡沫是更高的。就是纯用模型来做安全这件事儿。第一就是它太过单点了，因为安全本身它是需要你有足够多的触角，足够多的覆盖给客户提供服务。就你不能是空中楼阁，没有任何跟土壤相连接的地方，空中楼阁是长不出巨大的亭台楼宇的。但是大家又愿意去投模型团队，所以这里面我相信是有一定的泡沫。或者说大家出于希望，或者说自己的一些推演，造成了一些估值上面的溢价。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>反而我觉得有一些做的还不错的基本面的团队，且他在积极拥抱AI的这波变化。虽然他是行业老兵，但是你能看到很多行业老兵对技术的拥抱程度也是很高的。因为回溯两三年前，他们也是那个时候技术最前沿的拥抱者。虽然有些人没有跟上AI这一波时代，但也有很多人他在持续的迭代。</p>
+<p class="transcript-line"><span class="time"><strong>[00:48:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我个人觉得这波人是被低估了的，就是前提它有一个很好的覆盖面和长出AI能力的一个触角。且这部分业务已经让他在现有的客户上触达了很多很好的客户。客户也意识到了安全的价值，也愿意在他基础上进行增购和复购。他已经度过了从0到1去打单，去做客户增长的过程。唯一缺的就是如何更好拥抱AI用模型。所以我个人觉得这一块是被低估的。我也很努力的再去找曾经做过且有机会向模型迈出一步的团队。我觉得这个在当下是比较好的一种选择。</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:21]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>如果让你给一个创业者一些建议，就是作为一个普通创业者，他怎么判断自己是在解决真问题，而不是在追求一个资本叙事呢？</p>
+<p class="transcript-line"><span class="time"><strong>[00:49:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我个人的视角就是围绕你的客户，假设说我们今天的scope是在安全行业来看，它本质上还是一个客户给你预算的一个过程。所以你的需求是否成立还是要看客户给你的反馈。但是这里面有一个前提是什么样的客户给你的反馈，你一定要明确的，你的这个客户是比你可能更走在AI前沿的客户。举个例子，就是如果你的客户是KIMI和minus，他的反馈可能就会比传统互联网厂商或传统的银行政企给你的反馈更AI native。不是说好与坏，而是更偏向AI如果你是想往AI方向去走的，我觉得客户的画像质量和越靠近AI的这部分，客户给你的真实反馈会更重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:15]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>明白了就是说选客户很重要，不然的话就容易有一个错觉，觉得我这是一个真需求。但实际上它离AI真正的安全的高标准还有很远的路要走，可能技术路径就选错了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:27]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，很有可能你现在这个客户给了你很大的一个收入订单，但是他不是增长的客户。Man kimi, 它可能现在的订单量是很小的，但随着它的发展和未来AI科技的发展，它的订单量会有一个极大的提升。所以你对行业的判断和你对你的客户未来的发展的判断，也是会影响你这家公司未来收入增长的一个核心指标。</p>
+<p class="transcript-line"><span class="time"><strong>[00:50:48]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，因为AI发展太快了，所以它的行业监管，包括联盟标准这些外部的电量其实目前还是非常的大的对吧？就是还没有完全建立起来。CZ在这次事件后，他公开呼吁建立一个行业安全联盟。你怎么看这种跨机构共享威胁情报这种模式，就他在crypto和传统行业都可行吗？</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>之前的传统行业上已经有类似的网络安全联盟在做这样的事情。但这个坦白讲也是过去大家网络安防的方式。就是刚才我想讲网络攻防其实是一个经济学。你的防御能组织起多少的专家，多少的人力去做漏洞修复。VS黑客能找到多少专家带他去做网络攻防。但这个事情在模型出来之后很可能发生变化。因为模型会直接颠覆掉这个经济学，所以组织人力的网络联盟肯定是有作用。但我理解它的作用更多是你能够吊起专家指导模型形成更快的闭环和迭代，这个是比较有价值的对所以回到这个联盟，如果这个联盟是纯信息共享和组织起人力力量来完善修复机制，我觉得它已经有点过时了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:51:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实每一次网络攻击的案例都是一个很好的case去做学习。对举例比如说cc他要做这个联盟，他一把它内部到底发生了什么。我们现在只知道AI工具在内部进行了跳转，对，我们不知道它。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:06]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>具体是怎么跳转的。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>它通过什么路径。他如果要把这些安全日志、告警信息都愿意开放出来，这个其实是对安全领域的模型训练是很有价值。所以回答你问题就是如果这个行业联盟能够把最新最前沿发生的一些网络安全攻防的内部的轨迹信息、告警信息、风险信息和数据袒露出来，给到大家来去做防御模型更好的训练，这个是很有价值。但不能完全公开，因为完全公开黑客也能。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:33]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>就copy了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对吧？你就是要在内部expense里面去做这个事情。</p>
+<p class="transcript-line"><span class="time"><strong>[00:52:37]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我理解就是从今天这件事件它带来的一个重大的启示。就是过去AI的无论是模型什么算力什么，各个赛道里边，他都是各扫自家门前雪，各自解决各自的问题，都还没有开始。那么到现在其实要共享路况，共享信号灯了。用你的话说就是把整个安全事件回溯出来，然后让专家们了解到这中间我还有哪些漏洞可以补。这就像过去我们传统PC时代，你就经常会看到你的电脑三天两天就弹出一个说你下一个新补丁，对不对？对，就是这一个。对，现在因为人们可能看不到了，慢慢的可能我们以后的那个模型里面也是有运营商在后台直接就把它修补掉了，我们也看不到了。对对，非常有意思。今天我们其实就并按这起63亿美元的事件出发，聊了这个攻击链的真正突破口，也聊了AI时代攻防不对称的这个新格局。最后请Harrison给创业者给点建议，就是如果现在还有人愿意去做这个AI时代的安全赛道的这样的一个生意，你有什么样的建议给他们？</p>
+<p class="transcript-line"><span class="time"><strong>[00:53:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得还是要充分拥抱AI无论是你去建立这个产品整个的研发流程，内部充分拥抱AI的工具，还是客户的选择。我个人认为现在就是找AINTV这位客户去看到他做AI业务过程中看到的AI的风险敞口。因为这个是全新的需求，且也很适合创业公司作为第一道切口切进去。再加上AI现在本身这些客户的发展速度是很快的，所以你在早期遇到这些客户愿意跟你绑定，给你尝试。随着他们的业务发展，你的业务也会有很快的进步。所以还是回到那句话，我觉得就是选择客户，客户质量和你能给现有这些客户提供怎么样安全能力是很重要。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>另外就是模型，一定要模型，模型还是模型。因为后续我个人认为所有的跟企业服相关的都跟模型离不开。无论你是基于现有的模型做后训练，还是你自己基于自己的数据框架去训一个小新的模型，所有都跟模型相关。</p>
+<p class="transcript-line"><span class="time"><strong>[00:54:29]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，明白。好，特别感谢特别感谢Harrison今天精彩的分享。一方面是让我们充分回溯到了整个必然事件后面给我们带来的一些启发。包括说可能有些朋友没有及时关注这个事件的，也可以了解它来龙去脉，给了我们一个非常好的提醒。但总的来说在AI没有完全安全的情况下，大家还是要保护好自己的隐私，把AI当成一个关在口袋里的巨人，对吧？先不要太早把他放出来，以防自己造成财物的损失。好，想要做安全行业的创业者，或者是说我们当然哈尔森不止投安全，他刚才从一开就介绍了所有跟AI相关的赛道都是他在看的。就我们播客的朋友们相信有很多FA也有很多创业者，大家可以直接联系到他他的联系方式也可以在我们的各个渠道查看到。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>本期节目就差不多到此结束了。欢迎大家在我们节目喜马拉雅和小宇宙下面积极的留言。我们挑出五位听友送出我们纪源资本的小周边。好，我们下期再见了。</p>
+<p class="transcript-line"><span class="time"><strong>[00:55:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>好，下期再见。</p>]]></content:encoded>
+            <pubDate>Thu, 26 Nov 2026 22:00:00 GMT</pubDate>
+            <guid>6b08ad1d1a0c5c446597ea57</guid>
+        </item>
         <item>
             <title>S8 Vol.32 K2 Lab王铭：Personal Agent的创业终局，是垂直智能公司</title>
             <link>https://www.xiaoyuzhoufm.com/episode/6aff72219cbc0138e10b49fb</link>
@@ -5452,193 +5668,6 @@ SAF只是当下能源转型的一个切面，这背后更值得被反复追问�
 <p class="transcript-line"><span class="time"><strong>[00:37:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>拜拜。</p>]]></content:encoded>
             <pubDate>Thu, 16 Apr 2026 22:00:00 GMT</pubDate>
             <guid>69e15c671c446d3a0f8a63ca</guid>
-        </item>
-        <item>
-            <title>S8 Vol.3 纪源资本陈于思：当AGI来敲门，你确定自己准备好了吗？</title>
-            <link>https://www.xiaoyuzhoufm.com/episode/69d822aa1c446d3a0fae19fd</link>
-            <description>我们可能正站在「人类工作史」的终点。
-这不是危言耸听，当很多人还在将AGI视为一种中长期目标的时候，前沿技术与产业已经给出了截然不同的信号。
-在我们的节目录完后不久，Anthropic正式官宣模型Claude Mythos Preview；该新模型在发现软件漏洞方面，超越了除最顶尖人类之外的水平，代码和推理能力都远超Opus 4.6。由于该模型过于强大，目前仅供12家机构使用，定价为输入每百万Token 25美元，输出每百万Token 125美元，约为Opus 4.6的五倍。这完美吻合了我们在节目中的判断：Scaling Law跑通的情况下，下一代模型会更大、更贵、更加强大。
-与此同时，硅谷一线也已经形成共识——AGI很有可能在未来2至3年之内实现，甚至有可能提前到来。当AGI正加速到来，我们要如何做好准备？
-本期节目，我们邀请到纪源资本合伙人陈于思，分享他近期走访硅谷、参加GTC和OFC的一线观察与感受。为什么最近三个月，AI的发展似乎出现了拐点？AGI离我们究竟有多近？长远来看，这场生产力革命将怎样重塑我们对经济、工作和人才的理解？创业者又要如何理解「AGI First」，从而抓住这场人类历史上前所未有的机遇？
-02:08 三年内AGI将至，已是硅谷一线共识
-04:23 为什么AGI的时间表压得这么紧？
-06:42 硅谷企业如何应对AI范式切换？
-09:11 从Transformer开始，AI是怎么走到今天的？
-13:42 Agentic Coding背后的第四条Scaling Law
-20:13「烧钱」的AI正在创造巨量收入回报
-26:48 创业者必备“AGI First”理念
-33:19 Anthropic复盘：如何做到长期领先？
-40:04 全球AI投资机遇前瞻
-43:39 AGI时代人才观：“智能放大能力”
-《创业内幕》粉丝群已经开通，在这里，你可以跟节目制作人/主持人直接沟通，也可以第一时间了解到纪源资本线下活动动态，见到纪源资本的投资人，结交其他互联网圈子里的小伙伴。
-入群方式：
-1）添加微信号“JiyuanFans”为好友，并在好友请求中标注“创业”
-2）把你的全名和职称发给创业小助手；如果您想约访谈，请添加小助手微信，并附上访谈嘉宾简介，小助手将帮您对接。</description>
-            <content:encoded><![CDATA[<div class="episode-summary">
-<h3>内容摘要</h3>
-<h3>主题概述</h3>
-<p>本期节目邀请纪源资本合伙人陈于思博士，分享他刚结束的美国之行（参加GTC和OFC）的一线观察。核心议题是：AGI将在2-3年内到来，创业者必须从“AI first”转向“AGI native”的思维模式。陈于思结合硅谷最前沿实验室、研究员和创业者的共识，详细拆解了第四条scaling law——agent scaling law，并分析了由此带来的生产力范式革命、人才定价体系重写以及中美AI创业的差异化路径。</p>
-<h3>关键要点</h3>
-<ol>
-<li>
-<p><strong>AGI时间表大幅提前，硅谷共识转向“担心模型迭代太快”</strong><br />
-   三个月前大多数研究员认为AGI还需5-10年，且担心AI泡沫破裂；但本次交流后，一线研究员开始担忧模型迭代速度过快。狭义AGI（如coding达到或超越人类水平）可能在2026年实现，广义AGI（模型自我迭代）可能2-3年内到来。</p>
-</li>
-<li>
-<p><strong>2026年2月5日被定义为“Claude 4.6 moment”，标志着新范式的切换</strong><br />
-   Claude Opus 4.6、GPT-5.3 codex等模型的共同特点是：虽在传统benchmark上只提升1-2分，但突然具备了L4级agent能力——可自主写代码、查文档、debug、修复，人类仅做review和方向指导。硅谷工程师已不再做“古法编程”，95%代码由coding agent生成。</p>
-</li>
-<li>
-<p><strong>第四条scaling law：agent scaling law，找到可验证、可合成、可自我强化的闭环</strong><br />
-   前三条scaling law（pretraining、post-training/reasoning、test-time compute）之后，agent scaling law成为新范式。它天然适合coding场景：有明确的verifiable reward（测试是否通过）、数据可大量自动合成（agent在harness中产生新轨迹）、支持自我迭代闭环。这是过去互联网数据中不存在的新数据源，且人类最前沿工程师已验证其有效性。</p>
-</li>
-<li>
-<p><strong>AI已经产生巨大收入且增速惊人，算力投入的经济账算得通</strong><br />
-   Anthropic年化经常性收入从2024年底的9亿美金暴增至2025年2月已达250亿美金目标，全年或将十倍增长。黄仁勋公开表示：“如果一个50万美金年薪的工程师一年不烧掉25万美金的token，那他的工作肯定有问题。”硅谷的工作范式已变成“一个工程师带10-20个agent”，甚至爬山时也能让agent持续执行任务。</p>
-</li>
-<li>
-<p><strong>硅谷人才定价体系被重写：判断力 vs 执行力</strong><br />
-   最顶尖实验室的hiring manager开始质疑是否需要招聘顶尖PhD——因为培养成本高，而直接上多个agent可能更划算。陈于思认为：“AI压缩执行力，同时放大判断力。”未来稀缺的不是能执行的人，而是“能出题、会判断、能对结果负责的人”。文科生可能在AGI时代迎来春天，因为管理agent更需要定义问题和判断方向的能力。</p>
-</li>
-<li>
-<p><strong>Anthropic反直觉成功的三个因素：AI native团队、运气、技术路径选择</strong>  </p>
-</li>
-<li>团队从上到下都是模型出身（创始人Dario兄妹原为OpenAI预训练负责人，GPT-3论文一半作者后来成为Anthropic核心联创）。  </li>
-<li>运气：早期被迫选择to B路线，发现coding是用量最大的use case；技术路径未追求多模态或consumer super app，而是最早构建harness engineering并跑通agent scaling law。  </li>
-<li>
-<p>已形成飞轮：企业场景心智、数据飞轮、产品迭代速度（Cloud Code迭代极快）。</p>
-</li>
-<li>
-<p><strong>创业者必须具备“AGI native” mindset，从Day One就假设用户不再操作软件而是管理agent</strong><br />
-   所有纯数字工作流程（coding、PPT、Word、金融、设计等）都值得用AGI重新做一遍。关键在于构建harness engineering——让模型在其中构建任务、设计反馈、形成数据闭环。判断好公司的标准：“如果模型有一个大的升级，你应该是最高兴的人，而不是最沮丧的人。”</p>
-</li>
-<li>
-<p><strong>投资重点关注三大方向</strong>  </p>
-</li>
-<li>AGI native应用：基于3-6个月后的模型能力，构建整套harness engineering的创业公司。  </li>
-<li>底层算力和系统：光互联（光进铜退）、memory/storage（长上下文需求）、芯片调度（CPU/GPU协同）。  </li>
-<li>人才组织重构：从“管多少人”转向“有多强的智能杠杆（intelligence leverage）”，招人能快速带20个agent工作。</li>
-</ol>
-<h3>独家细节</h3>
-<ol>
-<li>
-<p><strong>爬山时给20个agent发布指令</strong><br />
-   陈于思提到，和硅谷最前沿lab的朋友一起去美国山里爬山（无手机信号），对方在上山前通过手机给20个agent发布任务，要求在两三小时内完成工作。爬山回来agent已基本完成——该细节生动展示了“人作为管理者，AI作为执行团队”的日常化场景。</p>
-</li>
-<li>
-<p><strong>下一代模型代号“土豆先生”和“卡比巴拉”（水豚）</strong><br />
-   OpenAI的下一代号为SPA（玩具总动员里的土豆先生），Anthropic的下一代号为卡比巴拉（水豚）。陈于思形容“下一代可能是水屯大战土豆先生”，两个模型都更大、更智能、更贵。这种内部八卦式命名体现了硅谷实验室间的竞争与趣味性。</p>
-</li>
-<li>
-<p><strong>Anthropic被迫选择to B路线的“运气”内幕</strong><br />
-   据硅谷小道消息（陈于思强调“大家听着玩”），Anthropic早期也想做消费者产品（对标ChatGPT），但因为是后来者无法占领用户心智，被迫转向企业市场。结果发现coding是企业用量最大的use case，从而押对方向；同时训练过程中也出于运气找到了最合适的recipe——没有跟风多模态，而是专注agent scaling law。这一细节揭示了成功背后不可忽视的偶然性。</p>
-</li>
-<li>
-<p><strong>XAI创始团队“团灭式离职”的侧面印证</strong><br />
-   陈于思在讨论Anthropic与OpenAI对比时，主持人提到马斯克旗下的XAI“11位联合创始人全跑了”，并引用马斯克的言论“从底层重构XAI”。陈于思未直接评价，但结合上下文暗示XAI可能在技术路径选择（agent和coding能力）上存在根本性失误，导致团队动荡。</p>
-</li>
-<li>
-<p><strong>“招一个产品经理等于招以前20个人”</strong><br />
-   Anthropic在过去几个月三四倍扩展团队，招聘的产品经理不是传统意义上的PM，而是“一个人带20个agent做产品”。陈于思感叹其工作效率和迭代速度——这进一步强化了“智能杠杆”概念：未来公司的竞争力不是人数，而是人+agent的联合产出。</p>
-</li>
-</ol>
-</div>
-<hr/>
-<p class="transcript-line"><span class="time"><strong>[00:00:03]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我跟一些最前沿labs s的朋友一起去爬山。他们是在上山之前就通过自己的手机给自己的20个agent发布了说指令。就是我们爬山这段时间内，你去完成这些的工作，整个工作的效率和生产力的效率就已经被极大的加强了。黄仁勋说，如果我现在雇了一个50万美金年薪的工程师，还一年不烧掉25万美金的token，那我会觉得他的工作肯定是有问题的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:00:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在硅谷的话，大量的工程师他现在最喜欢用的模型其实是cloud office 4.6 fast，就是最贵最强大的那个模型。OpenAI它下一代的模型，SPA它是这个玩具总动员里面土豆先生和这个SO pic下一代的模型叫卡比巴拉卡皮巴拉就是水屯对吧？所以下一代可能是这个水屯大战土豆先生，这两个模型都是更智能更贵的模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实现在最顶尖的人才市场都开始松动了。几年前大家说这个四校特别优秀的PHG我肯定得找。但现在大家的感觉是说我要花钱，我又要培养他，我是不是要直接多上几个？Agent SQ sion本身执行它会被agent来执行，你去执行它基本上是不需要成本。那些能够出题，会判断，能够对结果负的人我觉得才是最稀缺的人。所以AI是在压缩这个执行力的一家，同时是在放大判断力的一家。</p>
-<p class="transcript-line"><span class="time"><strong>[00:01:36]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>亲爱的听众朋友大家好，欢迎收听本期的创业内幕，我是主持人lily。本期我们请到的嘉宾来自于我自己的一个同事，这期节目我们邀请到他来，重点是因为他刚刚过去半个月都在美国去了GTC和OFC，跟很多AI行业的研究者创业者都见了面。所以我今天重磅介绍我们的同事，纪源资本的合伙人陈俞思辰博士。于是跟大家打个招呼。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:00]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家好，我叫陈于思，目前是纪源资本的合伙人，主要看AI还有巨神这些赛道。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:08]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>要不然先请于思介绍一下过去半个月你在美国的一些观察。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>过去这半个月可以说给我带来的震撼是非常大的。即使现在回来了，可能说我还是沉浸在AI发展的速度，AGI以及未来往大了说就是整个人类社会怎么发展的很多的思考当中。我今天其实是想给大家做一个步道，如果AGI在2到3年之内到来的话，我们到底应该怎么去准备这件事情？因为我们是个创投机构，我觉得所有的创业者都必须意识到，就是AGI它不是一个很远的事情，它可能就是2到3年。甚至也有很多人说如果快点的话，可能这1到2年它就可以实现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:02:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这个是我最近和非常多的最前沿的AI researchers，很多的创业者，一线的developers交流得到的共识。比方说三个月前我和很多的最前沿的researchers聊到singularity这个基点时刻。因为AGI可能这个事情我们先明确一下它的定义。我觉得侠义的AGI可能说是在一些垂直的行业，比方说coding写代码或者说白领工作，它可以达到人类的水平，或者全面超越目前人类完成这个工作的水平。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>广义的AGI我觉得是模型可以开始自我迭代。就是模型真正的进入了所谓的叫self improve或self involved。模型可以自己训练自己，自己迭代自己。可能说三个月或者说六个月之前，我去和最前沿的researchers去聊，大家觉得我还需要5到10年的时间。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:35]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那个时候大家担心的是说，现在这么大的capex的投入，AI好像看起来是个很大的泡沫。那如果模型发展的速度不能达到大家的预期的话，如果泡沫破灭了，那我应该怎么办？我会不会失业？还是说很多的这些创业公司的估值会不会直接清零。</p>
-<p class="transcript-line"><span class="time"><strong>[00:03:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这次我觉得非常让我震惊的是，最一线的这些研究员的共识是说，大家开始担心这个模型的迭代速度是不是太快。然后我当然一开始听到是非常的shock，但是当我仔细的去听他们谈什么是agents coding，什么是现在的这种类似的self improvement方法去提升模型。怎么是真正的去做system level的scaling，到底怎么去build一个harness engineering？我就发现这已经不是一个很远的未来问题了。它就是一个很现实的一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，您刚才讲到AJI就是2到3年就会到来，甚至有的人说是1到2年。这个时间表为什么压得这么紧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:04:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得还是说过去两年这个模型发展到了一个又一次的井喷的一个点。2月5号我觉得有一个非常重要的时刻，cloud office 4.6这个模型发布。当然同一天的话是open I发布了GPT5.3 code x我觉得可以把2026年2月5号以及后面这整个的时间定义为叫cloud 4.6 moment。与之对应的可能是所谓的GPT three的moment和x GPT的moment。那这个是瓷的意，不是说只有anthrops pic重要，或者说也不是只有cloud的领先。我觉得他真正想表达的是它是一轮新的范式的切换了。包括像cloud office 4.6，包括像GPT5.3杠codex，包括说像GPT5D4。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:15]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>这些模型的共同特点是什么？如果你去看所谓bh这些榜单的话，可能它的分数只提升了1到2分，但是模型突然就具备了类似L4自动驾驶级别的agent和的能力了。它可以做更强的coding，可以进行更长时间agented task。它在code base下面的可靠性，对code review和debug ing的能力，基本上已经是完全达到甚至超越了一个普通的工程师的水平。</p>
-<p class="transcript-line"><span class="time"><strong>[00:05:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我聊到所有的硅谷一线的，不管是AI researcher还是说大厂里面的工程师，现在已经没有人在做所谓的古法编程了。基本上他们每一行代码现在已经全部都是用coding agent去完成，或者说95%的代码都是靠coding agent去去产生的。人在这个过程当中已经从科技时代。因为科技时代可能说所谓的coding agent，它更多的做的是一个代码补全的工作。但是cloud 4.6之后就真正的进入了AI自己来写代码，写完之后你给他定一个目标，他来自己完成这段代码。他如果做的不对，他会自己再去想别的办法去把这个代码给做出来。人类是最后来做一个review，看这个结果对不对，然后再给出一些优化的方向和建议，然后模型再自己回去迭代。我觉得本质上来说还就是因为cloud 4.6这个模型，可能它是真正意义上的第一个至少在agent&#x27;s coding这个任务上面，基本上达到了AGI的这样一个水平。</p>
-<p class="transcript-line"><span class="time"><strong>[00:06:42]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对但是其实我也看了一些数据，就是有大量的人都反馈，调试AI生成的这种似是而非的代码，耗时其实比手写还要更长。因为他其实写的没有那么准确，并且AI agent落地仍然面临了大量的准确性，什么安全性，信任危机这些问题。就是你怎么看这种AI范式切换的本质？就是硅谷的一些头部企业在这个范式切换里做了哪些的积极的布局吗？</p>
-<p class="transcript-line"><span class="time"><strong>[00:07:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这肯定是一个非常实在的一个问题。我觉得这个也是在这个新的范式，或者说一个工业革命级别的新的生产力的变革发生之初不可避免的一些问题。首先就是说AI生成的这些似是而非的代码，或者实际上是错误的代码。这个问题其实在cloud 4.6之后，在很大程度上已经被解决，或者至少是部分解决了。那现在肯定还是存在这些问题的。但是至少据这个媒体报道，OI和SO pic应该都会在2026年的Q2了，会在这个季度发布更强大的下一代模型。它是针对这些长城任务编成任务的可靠性和稳定性进一步的提升，就是我觉得这是一个动态解决的问题。如果让我来判断的话，可能我也不会说今天我们已经达到了一家。而是说可能会在2026年，随着模型的不断的提升，随着这个模型的scaling继续的发展，在2026年我们很有可能能够看到所谓的叫软件工程AGI。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是刚才李丽宁说的一些问题，我生成很多似是而非的代码，包括说我现在的这些代码，他到底怎么样集成到已有的工作流当中，包括他的这个信任和安全的问题。以现在的agent的这个发展速度的情况下，基本上肯定是可以在2026年去把软件工程的这个AGI的问题给解决了。再往后面讲的话，其实我们可以看到的是在明年可以把非常多纯数字工作流程的白领工作实现所谓的ACI。</p>
-<p class="transcript-line"><span class="time"><strong>[00:08:41]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果你的工作是主要是在电脑上处理数据，做个PPT，或者说是写个word文档，那这类的工作很有可能会像今天的coding一样，都被AI给高度的自动化掉。这个技术的发展路径和具体怎么实现，其实现在看来好像没有什么科学的问题，就没有什么想c problem，没有什么research的问题。更多的是在工程上怎么样子去合成更多的数据，怎么样子去更好的去获得这些reward signal，怎么样去更好迭代这些模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:10]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>从你的直觉上看你觉得就这一波的变化，它是突然发生了，还是累积到了某个阈值？</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:16]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得是累积到了个阈值。如果要来讲的话，我觉得我们可以把时间线稍微拉长一点，来讲一讲AI是怎么一步一步走到今天的这一波AI。因为它是依托于transformer架构的语言模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:09:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Transformer是在2017年出现的，它本质上是给整个行业提供了一个可以持续skill的统一架构。它是第一个真正意义上的可以去确保基本上无线scaling的这样一个价格。那什么叫scaling或者scaling law？就是说我只要能够用更多的计算，更大的模型参数，用更多的数据，我就可以获得更好的模型。这个是个非常朴素的第一性原。我觉得transformer这篇论文以及后面的一系列的工作，它的伟大之处是让行业第一次看清楚，就是很多任务都可以放在一个统一范式里面，然后通过规模化的训练获得skating law的能力。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>2018年的话就是有GPT和bert有两条路线。GPT可能是next token prediction的生成的路线。Bert的话它是更加偏理解的这个路线。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>GPT这条路线最后为什么成为了现在的主流？我觉得还是说它在某一个单点的benchmark上，虽然说不一定绝对能做bert，但是它是最符合skin law的一条路线。因为它从技术上来说是一个self supervise的一个过程，就是说我去预测下一个词。但正好在人类世界当中，因为我所有的文章它本质上都是一个词一个词的去生成的。所以说我做这个任务的话，就是把生成和理解一体化了也符合人类发指令，然后设置目标，生成修改规划，执行怎样的这样的一个流程。所以说GPT这条路线，包括它后面的这个GPT2、GPT3真。真的是验证了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:10:55]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Details building law for training building law当然它主要受益于互联网，因为我有一个互联网的数据，它沉淀了人类历史上所有的知识。再加上香浓，我们信息论的鼻祖，他在1950年代就已经证明了这个next word prediction，其实他天生跟智能是划等号的。但这个菜往前面讲，就是像维特根斯坦在100年前，他就已经证明了语言和人类的意识和这个世界在哲学层面的统一，所谓的叫语言及世界。所以说语言模型可能说就是整个人类文明和智能的基础。然后再加上GPT这样的架构，它就让人第一次感受到了这个scaling可以带来通用能力的涌现。</p>
-<p class="transcript-line"><span class="time"><strong>[00:11:34]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得接下来一个比较大的拐点就是叉TBT和所谓的RLHF强化学习，其实是可以讲是第二条school law，就是这个强化学习的skilling law。因为x gbt可能是强化学习的第一个胜利。它是让模型从一个统计意义上的我去预测下一个token，变成了一个真正可以工作的接口。就是模型它不是仅仅的会预测下一个token，而是可以按照人类的意图，按照人类的喜好去完成人类想让他做的任务了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:02]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再往后的话就是我们的第二条scaling law，就是叫post training的skill，或者说像强化学习的skin law。那么它这一类的reasoning model是通过在这个mass code定复杂推理，然后竞赛这些高价值任务上面，不断的通过强化学习来提升模型的在这些垂直领域上面的深度的思考能力。在泛化到很多的其他的任务。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>与之对应的其实还有我们常说的第三条的，就是所谓的这个叫test compute。它就是说我的模型，我在最后做influence的时候，不是说我很快的去生成一个投稿。而是在生成一个有用的课之前，我要花很长的时间去思考。这个也是非常像人类的一个过程，对吧？就是人类也是说我需要花很多时间去思考，最后才能够去把一个复杂的问题给解答。</p>
-<p class="transcript-line"><span class="time"><strong>[00:12:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得这三条score还是很明确的。我先用pretrail ing有了这个next token prediction，然后说我有强化学习吧？赋予了模型能够内生思考的能力。最后我在推理的时候用思考去换最后输出的结果这样的一个过程。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得最关键的一点是在前面三条skin load的基础之上，cloud 4.5或者说4.6这个模型，它真正意义上的实现了我们的第四条斯格林罗，就是这个agent的skin o回过来又有一个特别有趣的一个事情。因为前面三条skin law其实最早的pro training 0W可能是说在2018年、19年、20年大家就已经证明了。那么这个post train这个test time computer的skin law，influence skin law的话，它其实是在24年的ON这个模型被发现的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:13:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那么到了25年底，其实硅谷包括说全球范围内都有一个可以说是一个共识。就是说我需要一个新的格林罗一个新的。这可能是所谓的叫continuous learning，也可能是所谓的叫online learning。这个里面最有代表性的就是伊利，伊利就是OBI的联创，包括现在的SSI的co founder。当时也有非常多的人他去bat这种新的skin的方向。但是非常有意思的一点是当cloud 4.6出来之后，我去和非常多这些做continuous lean或者online learning，甚至说本身就是在这些所谓的new lab，就是更新的去研究新的这个scaling paradise的公司去聊。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>其实大家有一个很有意思的一个观点是，可能去年下半年大家都错了。或者说如果我要说的绝对一点的话，是一点可能错了。为什么呢？因为最后大家发现其实说在现有的scaling的基础之上，我其实是有一条新的scaling路的。就是这个scaling law，agent的scaling law。</p>
-<p class="transcript-line"><span class="time"><strong>[00:14:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一个很好的例子就是agented coding。因为过去的所谓的coding assistance是你写代码AI帮你补全。现在的agented coding是你给他一个目标，他自己去拆任务、写代码、查文档、跑测试、debug修复，再把结果交回来。这两者的区别不是说一个性能的提升，而是说整个编程的范式都变化了。以前的话是人类是主管，AI是助手，现在的话人类向经理、向管理者AI，向工程团队coding接近了L4。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:11]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那么伊利亚的一个核心的判断，他说是next token tradition的scaling low。在我看来的话，其实是第四条的scaling law，就是这个agent的skin law，是把现有的范式发到了一个极致。就怎么去理解这个新的范式，因为agent&#x27;s coding这个task天生就非常适合scaling law。Scaling law就是说我要用尽量简单的方式来把我的这个算力或者说计算的优势发挥到最大，来换取最好的模型的效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:15:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>那agent cinna为什么现在看起来它是一条非常陡峭的第四条了？因为首先的话它是有非常直接的variable reward，就这个代码到底能不能跑，测试能不能通过，bug有没有修掉，符不符合规范，这些反馈都非常直接。我不需要太多的模糊的人类偏好打分，也不需要主观价值观的对齐。它就非常像这个net token prediction本身，对吧？因为人类的语言本身就是一个word对应就是一个token生成的。那么我去scale这个a agent task，尤其是这个agency coding，它的这个编程到底有没有成功的very for reward是非常明确的。然后第二个的话就是它的数据是天然可以大量合成的，这个我觉得可能是scaling law。为什么我跟很多人谈完之后可以说是拍案叫绝，就是实在是太赞了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:16:30]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>因为agented coding本身，它就是一个人类历史上没有的事情。因为人类历史上没有足够多的AI在一个harness里面自己写代码，自己出错、自己修复、自己迭代的编程的数据。但是一旦agent能够在这个环境或者说harness里面跑任务，它就会不断的产生新的轨迹数据。这些数据因为它和这个harness和环境有了交互，它就可以拿回去直接去重新训练模型。这个是过去的预训练的数据，互联网的数据里根本没有的一个新的大类的数据。而且人类最前沿的工程师已经证明了，这些数据是可以拿过来做新的skin load。</p>
-<p class="transcript-line"><span class="time"><strong>[00:17:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第三点的话就是它是天然支持自我迭代和闭环强化的。因为agent在这个harness，现在有个很火的词叫hardness engineering a本质上就是说我要在这个环境里面去构建任务，设计一个反馈的机制，然后再形成数据闭环。本质上就是说这个新的scaling law，它在这个环境里面是天然支持自我迭代和闭环强化的。它能够执行任务拿反馈修正自己，它不是一次性的预测，而是不断的在制造新的星链信号。这就意味着系统会越来越强，而不是只能依靠外部我去为静态的语料或者靠人类去标注。所以从本质来说，为什么coding或者说AGI，或者说再侠一点就是这个软件工程的AGI看起来是今年非常有希望是能够达到的。因为它本质上就是在构建一个可验证、可合成、可自我强势化的一个super intelligence。这个我觉得是skin LOW的一次非常伟大的一个胜利，可以说是过去几年来格林诺最漂亮的一次再证明。</p>
-<p class="transcript-line"><span class="time"><strong>[00:18:10]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>再往大的地方说的话，是数字世界的很多的workflow，包括说像很多白领的工作，对吧？当然白领还有很多工作，比方说像医生，他要和病人去沟通，如果我不考虑这些问题，就只要这个工作是在电脑上都可以去实现的那我也可以用类似的方法去构造一个的环境，一个harness engineering来构造一个可验证、可合成、可自我强化的engine。再往大了说的话，就为什么很多的这个前沿的researcher，它本身现在都非常的担心？是因为本质上来说，我的AI研究它也是一个100%的digital workflow。就是我的研究员他来研究AI来提升AI模型，本身它本质上就是一个在纯数字的环境里面完成的工作。现在最前沿的lab的AI researcher们都是说我的每一行提升这个模型的代码都已经是AI来生成了。虽然说我现在可能还需要人类来给它做一些查漏补缺，来提供一些反馈。但是从某种角度来说，这就可以说是已经是AI在自己来迭代自己的对所以综合来说，为什么突然之间AI有了这么一个大的快速的发展？我觉得就是因为我们的scaling law现在有了一条新的第四条的agent skin law。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:28]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>目前在check coding，包括AI research，包括说像一些纯数字化的白领工作这些场景他已经找到了自我迭代、自我反馈、自我提升的这样的路径。随着更强大的模型，然后他有更多的数据积累，目前我们还远远没有看到这条新的skin law的天花板。</p>
-<p class="transcript-line"><span class="time"><strong>[00:19:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对您刚才讲的这个skin load，它的一个现实的情况，就是它的整个通用大模型的参数规模其实已经突破10万亿了。训练的数据量也非常大我看到网上一个说法就是超过了100万亿的token。这就意味着你模型参数其实每提升一倍，训练成本又会提升1.5到2倍，而性能提升需要0.8到就一倍。综合这个现状，您认为目前的AS getting law是否已经接近了瓶颈？刚才您讲的是他第四代对吧？但是这个往下第五代会因为这个算力问题或者是说成本问题就速度变慢。硅谷的这些大厂他们是怎么解决这个问题的？</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:24]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果说在今年之前的话，我觉得这是一个非常现实的问题。因为似乎我每次要训练下一代的模型，我就必须要投入十倍以上的算力。对，要烧钱。就要烧钱对吧？但是我烧了半天这个钱似乎是看不到财务层面的反馈的。之前一直有个讨论，就是我烧了那么多钱，AI到底创造了多大的经济价值？但是我觉得这个问题在今年是很大程度被解答了。因为AI已经在实实在在的创造收入和回报了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:20:54]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我举个例子，soppy这个公司他去年底的AR就是年化的经常性收入是90亿美金。那他在24年底的话是9亿美金，所以24年到25年它是一个十倍的增长。在去年底的话，NSO pic定的目标，或者说他给他的投资人发出来26年的预算，到年底他预计的这个年VRR大概是250亿美金。其实250亿这个目标在2月份就已经达成了。我太神奇了。就是说他在两月份就已经达成了今年全年的年终的目标了。现在的这个数字，根据一些网上公开的信息，肯定是已经超过300亿美金，而且增速还是没有减缓。按照这样来推演的话，很有可能今年Sophia又会实现十倍的一个收入增长。</p>
-<p class="transcript-line"><span class="time"><strong>[00:21:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>OBI与之对应的它的收入增长也是非常快的，为什么呢？就是因为当我解决了coding的AGI，那现在肯定是部分解决，还没有完全解决。那么我平均一个人在AI的一个月的消费，现在从20美金变成2000到3000美金，就是会有一个100倍的增量。英伟达的CEO黄仁勋在一次访谈中，他公开说道说如果我现在雇了一个50万美美金年薪的工程师，如果他一年不烧掉25万美金的token，那我会觉得他的工作肯定是有问题的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:22:19]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>硅谷我们现在看到的很多的工作方式，就是我一个工程师带10到20个agent工作，工作范式已经被AI整个的颠覆了。举个很有意思的一个例子，就是我跟一些最前沿lives的朋友一起去爬山。美国有一个特点，就是山里面是没有手机信号的。他们是在上山之前就通过自己的手机给自己的20个agent发布了说指令，要你们在两三个小时，就是我们爬山这段时间内，你去完成这些的工作。当agent开始跑起来之后，我们就去爬山了。回来之后他就看了一眼，他agent已经大概完成了这些工作。就是这个人的整个工作的效率和生产力的效率就已经被极大的加强了。它不光是能够完成人的工作，它甚至在很多程度上已经远远超越了人类工作的效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>比方说如果今天有一个新的code base，比方说我今天一个post training，对吧？我要去一个新的recipe，或者我要尝试一个新的算法，可能说这个code base是2万到3万条代码。那如果放在几年前，我一个科学家或者工程师开始接手，他可能要花一周的时间仔细的理解这个code base到底是什么意思，这个算法到底是怎么实现的。但现在的话，你把这个code base扔给一个AI agent十分钟，他就能帮你理解清楚。就是在很多的这些的任务上面，它其实已经远远超越了人类的效率。很多人甚至跟我说都已经感到了一个深深的无力感。所以回过来说这个巨额的capex，我们去投入一下代代的模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:23:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在是我觉得是可能说这些最头部的labs和这些硅谷一线的CSP，它是真正看到了AI，它已经可以转化为可能是人类历史上从来没有见到过的这么强大的生产力工具。很有可能未来AI的这个算力，包括说算力背后代表的token，token代表的可能是这个intelligence智力。它会就像空气、水、电力、天然气一样，它变成社会不可或缺的一个基础设施和公共产品。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这个基础之上，我个人的观点是硅谷的大厂一定会继续加码，在cap AX就是资本的开支去购买更多的算力。因为你一旦达到了ACI，那么你就是有多少算力，你就有多少智能，你就有多少生产力。你衡量一个公司或者甚至说衡量一个国家的竞争力的话，可能不是说我有多少工程师，我有多少专利，我有多少IP而就是说我有多少算力。而且我算力就是要配置最强的模型，然后能够带来最强的效果。</p>
-<p class="transcript-line"><span class="time"><strong>[00:24:49]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>还有一点我觉得对于这些头部公司，现在看来很明确的，就是大家是愿意为最贵的模型付更高的费用。因为我们发现其实在硅谷的话，大量的工程师他现在最喜欢用的模型其实是cloud office 4.6。Fast就是最贵最强大的这个模型。那OpenAI它下一代的模型sport和这个s topic下一代的模型叫卡比巴拉对吧？SPA其实很有意思，他是这个玩具总动员里面土豆先生，然后卡梅巴拉就是水屯对吧？所以下一代可能是这个水屯大战土豆先生。这两个模型都是比他们之前的最旗舰的模型，都是要更大更智能也更贵的模型。也就是说以后最有钱的公司，我最有钱的人，其实我是愿意付更贵的价格去用更强大的模型，也就代表更多的智能。</p>
-<p class="transcript-line"><span class="time"><strong>[00:25:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在这种程度之下，这些头部的公司当然还是需要能够跟得上。因为可能有的公司他也用几十万张卡去训模型单可能训出来模型的效果不是特别好。其实最近也有新闻，对吧？像XAI就经历了非常大的动荡。但是我觉得包括像open I像s robic、像google，甚至说可能像meta这样公司。当大家已经看到了基点即将到来了，AGI已经不是说一个很遥远的概念。甚至去年当你说AGI的时候，大家可能还嗤之以鼻，觉得你在讲故事。但是在今年的话，AGI已经是要来讲敲门了。我觉得在这个时刻没有理由不继续加码资本开支和算力的投入，来持续的训练下一代更强大的模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>所以这简单的来讲就还是一个经济账。就是说当我能够算明白这个账了之后，其实我就不担心了，因为我就能预测收入了。对，就以anthropic来为例，他涨了这个250亿的收入的话，其实两个月就完成了。那今年至少要比去年，如果简单的按乘法算的话，又得翻个十倍不止。对，所以这很夸张。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>非常夸张。</p>
-<p class="transcript-line"><span class="time"><strong>[00:26:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>我也想问问，目前咱们刚才讲AS getting law，就中美上其实是有很大差异的。因为天然的取决于我们在算力上的短缺，以及各种各样的一些限制。美国其实我们就知道是大开大合的，更多倾向于是用算力集群的升级加上数据精细化筛选这种形式。中国更多的做AI的企业，基本上都是聚焦一些垂直场景的小模型。对我想请您结合一下，比如纪源资本今天的投资布局。然后您给我们讲讲这两种商业化路径他的一些差异，以及投资和创业的一些机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:21]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第一性原理的话就是我们中国的创业者在效率层面一定是领先世界的。包括说我们的国产大模型，用非常低的成本做出了接近美国头部模型的这样的效果，我觉得这个肯定是毋庸置疑的。即使是在美国这些一线的研究员，他们也是认同这一点的。这个是中国的创业者非常核心的未来的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:27:43]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，但是当然我也是在思考了。因为这个问题我觉得是个很大的问题，我自己也没有想的特别清楚。就是当一个创业者，我在创业的时候，尤其是对于很多应用层的创业者，一定要有一个my site或者理念，就是AGI它就要来了。因为我们的确看到了非常多的这个应用，不管是中国还是美国。我之前一些垂直的小模型，或者说做的一些翻tine，或者说我套的这些。可它很有可能最后都是会被基座模型的提升给迅速的吃掉。而这个吃掉的速度，尤其是当现在这个模型的迭代已经按月来算的时候，很有可能这个速度是非常快的那今年不管是已经在创业的创业者，还是考虑创业的创业者，我自己有一个观点就是一定要不是说AI first，就是一定要有一个AGI first的概念，我做的东西一定要是AGI native。</p>
-<p class="transcript-line"><span class="time"><strong>[00:28:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果说从创业的机会的话，第一条的话我觉得还是说做应用层。AJ来了之后，所有的软件和数字的处理的工作的机会都值得被AI重新做一遍。但他不是说在原有的软件上加一个AI的功能，而是从day one开始就假设用户不在操作软件，而是在管理agent，甚至说未来是agent在管理agent，那么我觉得非常重要的机会就是我要build这个agent或者说AGI native的这些应用，以及要充分的注意。就是honest engineering这一层的概念。我再把honey engineering这个概念给大家讲一讲。Harness在英文当中是所谓挽具马具。比方说我要骑这匹马，或者我要拉一个马车，在这个马之外，我其实还要有它的这个马鞍、套马的一系列的装备，包括说我的马灯这些就是harness。</p>
-<p class="transcript-line"><span class="time"><strong>[00:29:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多人他一讲就是订正模型本身。但是很关键的还是要构建一个让模型真正能够在里面去构建任务设计反馈，形成数据闭环，就是让模型真正运行的一个世界，一个环境。我觉得还是要有类似的coding。所有的应用可能你都得要想办法去参照coding的这个概念去做。因为很大程度就是soft engineering这个场景非常适合做它的reward直接目标清晰，测试自动化，结果可以验证，环境可以模拟，数据还能产生。所以我觉得未来的应用就是谁能够把真的workflow工具链反馈评测和数据闭环大家的好，谁就有可能做出真正好的agent。对于初创公司来说的话，未来值钱的应该是工作流环境和系统。所以我觉得就是任何一个领域都需要有一个AGI first这样的一个my set来做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:30:22]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二个我觉得就是很多的初创公司非常值得去思考的，就是我需要转变我整个产品迭代和开发的my set。可能说我现在就是天然一个适合小步快跑试错迭代的一个时代。因为我去做一个软件的原型，我通过web coding，其实这个成本是可以被下降的非常的多的。以前可能我们说拼的是idea，拼的是执行力。现在可能就变成说拼的是我对前沿模型的认知，拼的是我是整个harness engineering，拼的是我整个的一个data fly well。就创业公司的护城河是能不能把模型到一个持续自我强化的系统里面去。当模型提升的时候，是能够把我的整个系统都能够同步的提升。我觉得这些其实是非常重要的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:09]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>很多的垂直场景，我怎么把这些垂直领域的知识转化为结构化的context workflow和工具链，这个是非常有意义的点。就是说怎么把自己所在行业最复杂、最难标准化、最有价值的知识结构化。然后把模型和agent嵌进去，把整个的workflow给变成产品。我们在这些领域也有非常多的布局，对吧？包括像一些金融投资的的agent，做设计的agent，做B2B workflow agent。就怎么判断是不是一个特别好的公司？我特别欣赏，也是很多串前辈经常讲的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:31:42]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是说如果模型有一个大的升级，你应该是最开心的那个人，而不是最沮丧的那个人。如果你是最开心的那个人，那么你做的这个方向就做对了。就不能说你最后做的这个东西如果有一个更强的模型，很快就抹平了。然后最后的话我觉得大家还是可能在day one。当你在做这个预算的时候，就不仅仅是说我有多少人我要用多少GP，而是说我要去烧多少token。因为的确现在在硅谷的很多公司，怎么有效的时候，每个人的KPI就是你年终考核非常重要的一个点。因为token也很贵，我肯定也不能乱烧。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，昨天我刚看了一篇文章，就讲说其实在AJI时代，你人的能力的界限突然变得很模糊了。就是一个人能做什么事儿跟他能力没有那么大相关了。其实更多的是跟他的远见相关。我觉得某种程度上他有一定的哲学意义。就是说像我这种不会扣定的人我只要有一个想法，对某一个商业领域有更多的洞察力，那我就可以借助honey engineering加上我们今天的这个AGI native的一些产品，我就可以把这个东西做出来。</p>
-<p class="transcript-line"><span class="time"><strong>[00:32:47]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>前两天我们刚刚访谈一个嘉宾，他就是做海外电商的一站建站的。我就问他，我说如果对一个完全没有英文的能力和也没有去过国外，甚至都不知道国外的这些法律法规的人，今天做这个出海电商难吗？他说24小时全给你搞定站，也给你建好产品，给你发布好AI生成的图，给你放好法律法规，第三方全帮你全部弄好好，你就赚钱就好了，发货数钱，甚至你连你的客服都是AI在帮你做，都是agent在做。所以这是一个非常美好的一个当下。</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:18]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>您在讲的时候就讲到两家很有趣的公司，就是s ropy，还有一个是XAI。就是我想问问anthropic，它其实是一家反直觉的公司，它的团队规模和算力的量级都不及像meta或者是像google这样的巨头。但是他长期稳居前沿模型和agent第一梯队。您能给我们复盘一下，就这家公司他到底做对了哪些事情，能够做到今天的持续的引领。然后另外您觉得anthropic怎么去保持它这种持续的竞争力？</p>
-<p class="transcript-line"><span class="time"><strong>[00:33:47]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>有三点。第一个还是整个团队真正的是一个AI native的一个团队，而且整个林草城是真正懂技术的。第二个的话，我觉得还是运气成分听说是比较大的。第三点的话还就是它整体的技术路径的选择，包括说它在合成数据方面的使用，我觉得也是非常强的那第一方面就是他这个团队创始人dario兄妹，其实就是原来在OpenAI预训练整个的技术负责人。他是在2020年的GPT three发布之后，因为OBI的联创，当然这个都是听到的一些八卦的小道消息，可能大家就听着玩一玩，涉及到一些安全的这个问题，所以说dara就愤而直下带着整个团队出来创业了。他整个团队非常大的一个特点就是他早期的这些高管和联创top down的都是非常懂模型的。如果你去看的话，基本上就是GPT3那篇论文的一半的作者，后来变成了anthropic的最核心的联创。当然说网上也有很多新闻？</p>
-<p class="transcript-line"><span class="time"><strong>[00:34:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>说s sop c公司的一些问题。但是我们先把这些问题抛下。我看我觉得SOP这个公司还是一个从上到下非常明确的一个研究驱动的一个研究性组织。它和OpenAI和google就很不一样。你像赛文奥特曼，它本身其实并不是技术出身。然后google的话，虽然说现在Davis habis它是管的google demand。但是你再往上层，就google这个公司的管理者，其实他们是并不是大模型出身。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得anthropic它是一个完全的AI native，甚至说大模型或者说原模型native的公司。然后第二点的话，我觉得也是有一些运气，这个也都是一些硅谷的八卦或者小道的消息，就是ISOP这个公司最早在成立的时候，他其实也是想要做叉bot就是想要做一个对标PPT的插播。但问题是这种消费者的产品就consumer product。</p>
-<p class="transcript-line"><span class="time"><strong>[00:35:44]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>如果是第二个的话，就是有个很大的问题，就是你没有办法去占领别人的心智了，对吧？所以说在那个时候msp I被迫的选择了enterprise就是to b的这样一条路线。然后在做to b的时候，其实也是比较凑巧的是他们去看他们整个to b所有的用户的use case。最后发现说，好像coding是用量最多的，所以他们才选择去做coding这个赛道。当然可能这个小道消息是完全错误的，但至少从这个小道消息来看的话，好像他选择今天这条路也是有一定的运气成分。然后就是当他在做coding模型的时候，其实他整个训练的过程也是有一些运气的成分的。可以说就让他找到了最合适的去训练模型的路线和recipe。这条路线就是我刚才说的第三点，就是它整个技术路径，他没有去选择做很多的多模态，他没有去做多模态的生成，他也没有把多模态的理解当成是一个非常重要的一个指标。就不像OBI和google，因为OBI和google都是希望能够去做下一代的consumer internet的入口，是希望能够做一个consumer super APP，像下一个facebook。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:49]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对，但他sora也停了对吧？也不做了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:36:51]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对，sora也等于是大家最后卷了半天发现好像因为这一代模型本质上它是一个productivity图，它是个生产力工具，我就应该去卷coding。那softie因为一开始可以说是我去卷consumer没卷过，或者说毕竟是起步晚，所以我就只能去做coding，结果反而coding这个方向是对的，它的技术路线又是最早的开始去做。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:12]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>第四条school law就是agent的就topic它没有像O8大家都是从prr inis跟ino开始做的。NO ban AI很快就开始做了IL post training的第二条联络和test time computer的第三条的联络。And sop c可以说是从比较早就开始直接做agent的screw，它是最早开始去构建做honey engineering，开始去构建这样一个又一个的micro environment。然后定义这个模型自己去探索的奖励机制，让模型自己在这个环境里面去探索，自己合成数据，然后再来训练模型。它等于是最早的把我们刚才说的agent的scandal给跑通的。</p>
-<p class="transcript-line"><span class="time"><strong>[00:37:50]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>就是这个第三点我觉得也是和前面两点是相应的。整个团队他的技术的science和top 10的执行能力，包括第二个就是有一定的运气成分，对吧？就是我选择了agent&#x27;s coding这条路，我就这么走下去。所以说topic走到今天我觉得在agent的coding这个领域上面，肯定是毫无疑问的世界第一。但我觉得说也不是说它的模型也要领先。因为实际上是很多的反馈的话，你GPT5.4这个模型其实和CloudOps 4点6这个模型在coding上面其实是各有千秋，各有胜负。但是因为就如同OpenAI在consumer internet上面有先发优势，在chat BT有先发优势。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:29]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>Autoist现在是在很多to b的企业场景，它有了先发优势，它在企业场景他有了心智，就是当大家在使用去开发自己的工作流业务流的时候，我天然的会想要去用cloud的模型。然后包括说他也部分现在有一些数据飞轮和应用场景的飞轮。就是应用的人越多，我能够收到更多的用户反馈，我就能够针对性的去进一步的提升模型。</p>
-<p class="transcript-line"><span class="time"><strong>[00:38:52]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>在过去的几个月里面，soba应该是三四倍的扩展。而且招了非常多做产品的人。而且你要知道他招一个做产品的人都不是说一个简简单单的产品，而是这个产品经理。其实是他带20个agent来做产品，招一个人等于招以前20个人，对吧？</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:07]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>所以说他整个公司的工作效率和迭代速度都已经是非常快了。像cloud code迭代速度也是非常快的。所以我觉得就是在整个企业和to b的场景，anthropic可以说已经部分的踩到了这个飞轮本上。他开始能够有一个持续的正循环去不断的迭代。我觉得这也是为什么他的收入增长的这么快。在目前的整个agent领域，尤其是coding agent领域，是毫无疑问的世界第一。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:34]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对。所以你刚才讲的幸运是他这个技术路径的选择的问题。就是他一开始就选择了企业级的应用。这其实就能印证为什么XAI他整个创始团队团灭式离职，11位联合创始人全跑了。</p>
-<p class="transcript-line"><span class="time"><strong>[00:39:46]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>马斯克在那个社交媒体不一直在说，他说就是要从底层重构这个XAI。说白了就是说你其实就要agent和coding的这个能力，作为未来他们要重新去重组，不然的话就是原来的那一套东西。无论从商业模式上到他的这个技术路径上，其实都有很大的挑战。就是资本市场很现实，那我也想问问，就今天我们在全球投资会更多的关注哪几个具体的赛道？因为这肯定是这期听我最感兴趣的一些问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:14]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>首先还是AGI native的创业者和应用，包括我们说的你能够基于现有的模型的演进，看到3到6个月之后模型演进的速度，构建一整套的honey engineering环境。不断的去收集更多的数据，收集反馈，然后提升自己的应用，然后能够把很多的workflow给自动化提供更多的价值。我觉得这个就是一个非常好的一个创业的方向。</p>
-<p class="transcript-line"><span class="time"><strong>[00:40:40]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>举个例子，最近不是养虾特别热，那可能每个人他都在训练和管理自己的一组agent。那你其实就想你你不是在用一个模型，你也是在养一小群会替你干活的东西。你要给他上下文，然后给他技能，然后给他workflow，再给他工具，然后再跑任务。其实每个人都正在构建自己的intelligence n stack。那以后可能每个企业也都要有这样的工具。不管是在中国还是在全球，其实对应的都是有非常多的。不管是从基础设施，还是多围绕着这类的流程去构建应用，都是有非常多的机会。应用肯定是我们非常重要的一个投资的方向。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:18]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>然后第二条的话，我觉得是底层的算力和系统。如果说在去年的话，你问我这个问题，我可能会觉得OK你国内已经有很多的公司来，国外已经有英伟达了，是不是已经饱和了。但是我觉得今年随着AGI的到来，一切都会变得不一样。因为算力可能将来就会变成像粮食、空气、水、电力一样的基础设施，各种各样的方式。我觉得这些都是非常强的投资的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:41:45]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>可能说GPU或者已有的这些AIAC的，他们是门票。但是围绕着这些AIAC，然后说我的CPU？它负责registration和系统调度，或者说我所有的harness engineering的环境，其实背后可能不是靠GPU而是靠CPU。类似的它围绕着这些新的算力或者说inflight需求，它带来的底层的芯片的机会，这个也是我们特别关注的。然后第二个的话就是像memory和storage。可以想象的是我有更长的上下文，我们长期记忆和知识怎么去管理这些工具。</p>
-<p class="transcript-line"><span class="time"><strong>[00:42:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>最后的话我觉得就是互联，尤其是光互联的。因为我自己本身也是在斯坦福学的这光互联的背景，这个也是一个特别大的一个创业的机会。因为随着我AI的不断的提升，我既需要更强大的集群去训练模型，甚至我在做推理的时候，执行任务的时候，其实现在也是希望有更强大的更高效的集群。但是再往后面，当我进群越来越大，尤其是我需要做通信的带宽越来越大之后，我传统的通信是基于这个铜的。但铜这个东西它是有物理极限的那我刚去了OSUFC，就是叫optical fiver communication，其实就是全球光通信大会。这个会议议其实就是讨论所谓的光网互联，或者说最核心的一个议题。我觉得就是光进同退，这个已经是一个行业的共识了，非常明确了。所以我觉得这个时候，如果能够提出更好的用光进行互联的方案的话，也是有非常强的一个投资的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:13]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>对我觉得就是在底层的话，因为AI它不是一个单点GPU的故事了，它变成了一个系统工程。24年甚至25年上半年，如果我们说算力瓶颈，你都还是在说DPU的时候，那么现在更多的其实都是从honey所需要的任务执行，对吧？我的memory和story代表的这个context的需求，然后包括说我整个集群互联的需求，这些新的底层的机会也是我们特别关注。</p>
-<p class="transcript-line"><span class="time"><strong>[00:43:39]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>的对刚才你也讲到了，今天其实像硅谷，它其实是一个产品经理带20个agent来工作了。今年的三月份那个demo day，团队规模我看了一下，就是它中位数其实从过去的11到14人，已经锐减到了3到5人。就是有三个人的团队，基本上你就能够创业了，而且就能去融资了。我想请您给点建议，就是作为一个创业者个体，未来需要在哪些领域补齐至关重要的一些管理和决策能力，然后在人才上应该做怎么样的一些安排。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:08]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得一言以蔽之的话，就是你未来去创立一个公司，可能不是评价你有管了多少人，或者你有多少的工具，而是说你这个公司有多强的intelligence。Leverage很重要的一个点就是叫智能放大能力。Leverage其实在英文是一杠杆的一个概念。我觉得以后把这些最强的AI给用好，能力它是一个稀缺的能力。AI它不是会像让智能像电一样普及，最后越来越低。的确你现在这个推理的成本，包括像deep sik这样的模型，它有非常多的效率。但其实它是提高了这个智能的门槛。就像我们刚才说的，因为你要投入巨大的钱去训练这些模型，对吧？你的配套的电力冷却、数据中心网络、资本开支、供应链都是问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:44:53]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>现在的agent的系统其实把这个问题又放大了。因为你不是只是问一个问题，你是长时间的跑任务。就像我刚才说的，我的这个模型在你爬山，在你睡觉的时候可以连续执行几个小时。等到今年可能下半年，甚至说可能就是下个季度出来的模型，它就可以连续跑几10个小时了，对吧？那你要长时间的跑任务，开多个线程，开这么多的工具，这意味着什么？就是高端的智能，尤其是怎么维护这样一套体系，我觉得是一个稀缺的值。所以我觉得创业者就是你在建立自己的团队，建立自己的组织的时候，可能是得从智能优先，就是最大化的怎么能够放大这个智能的角度来思考这个问题。你招的人可能不是说看他过往经历有多么的优秀，更重要的还是他能不能够真正的很快的能够带20个agent来工作。</p>
-<p class="transcript-line"><span class="time"><strong>[00:45:39]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我举一个特别现实的一个例子，在美国其实现在最顶尖的人才市场都开始松动了。就这些最前沿的labs，他们在招人的时候，一些Harry manager他已经在很认真的想一个问题，就是我现在招一个特别顶尖的AIPHD，我到底应不应该招他？几年前大家说这个四校特别优秀的评我肯定得找。现在大家的感觉是说我招一个顶尖的PHD，但他毕竟是一个PHD，他没有在一线的蜡笔，他可能实习过，但他没有真正干过，对吧？我要花钱，我又要培养他，我是不是要直接多上几个agent？他这个不是说顶尖人才立刻不值钱，而是整个人才定价体系已经被重写了当你在公司构建你的组织的时候，一定要能够理解什么是真正的稀缺，什么是真正的昂贵。</p>
-<p class="transcript-line"><span class="time"><strong>[00:46:26]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>我觉得未来的下一代的字节，或者下一代的腾讯，是下一代的mini max，下一代的质谱，下一代的牧少，我觉得会是集中在他所构建的核心的人是能够真正定义问题的人，有判断力的人，有test的人，能够承担责任的人。因为execution本身执行未来一定是被大量的商品化。就是commoditize他会被agent来执行，你去执行它基本上是不需要成本。那么那些能够出题，会判断，能够对结果负责的人我觉得才是最稀缺的人。所以我会说AI是在压缩你的一家，同时是在放大判断力的一家。如果今年是软件工程AGI，明年可能是基本白领技能AGI甚至有可能明年后年它就已经AIAGI就AI自我迭代了。在这个情况下你怎么去AI first，甚至说AGI first去构建你的整个组织，怎么样子能够把你的intelligence large发挥到最大？这个是所有创业者都需要思考的一个问题。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:23]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我前两天看到有一篇文章也在讲，EGI时代文科生有可能是到了春天。过去大家都觉得文科生对于高科技来说就离得比较远。所以你看现在基本上在大厂里，文科生的地位就是做一些中后台的职位。像我这样的，比如什么管人管钱？管业务，甚至是有一些去做什么销售类的管理。</p>
-<p class="transcript-line"><span class="time"><strong>[00:47:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>但是未来就是你能写好你的prom，能管理好agent，它不一定需要那么高级的人。就像你说的，就是过去可能这种大藤校的博士，有可能是搞什么人工智能，搞什么研究的那是必争。那未来有可能这些更善于管理。Agent人他有更好的机会。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:02]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>然后另外就是对于创业者来说，我们的人才使用的成本应该也是会有大幅的调整的。不一定是下行。因为你其实搞一阵烧token也不便宜，但是肯定会结构上会有一些变化。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:14]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>对我觉得非常好的take away，感谢今天鱼丝精彩的分享。这期播客逝于斯差不多在硅谷待了一个月之后回来的一手的非常热门的一些现场的洞察。然后我相信对于今年已经在创业的创业者和想要创业的一些朋友们来说，都有非常好的借鉴意义和参考价值。然后也欢迎各位听友在我们本期节目的喜马拉雅和小宇宙下面继续的留言，也欢迎大家把你想创业的idea发给我们。只要是跟这个赛道相关，我相信鱼丝一定会认真的去看。</p>
-<p class="transcript-line"><span class="time"><strong>[00:48:45]</strong> </span><span class="speaker"><strong>发言人2: </strong></span>同时也预告一下，就是我们过去的GV fellow，我们也将在今年进行重启，开始报名的时间应该是在五月份。大家可以关注一下我们的公众号，然后也关注一下我们的fellow社群和过去的fellow发出的一些信息，欢迎各位想要做AI的朋友们。如果你当下在海外，那你就是我们的首选的标的。我们今年的fellow会以全英文的形式来出现，它的课程也是英文的课程，确保我们能够吸引到更多更好全球的人才跟我们站在一起。好，本期的节目就到此结束了，我们下期再见。</p>
-<p class="transcript-line"><span class="time"><strong>[00:49:17]</strong> </span><span class="speaker"><strong>发言人1: </strong></span>大家再见。</p>]]></content:encoded>
-            <pubDate>Thu, 09 Apr 2026 22:00:00 GMT</pubDate>
-            <guid>69d822aa1c446d3a0fae19fd</guid>
         </item>
     </channel>
 </rss>
